@@ -9,7 +9,7 @@ items:
   - Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddDatabaseScoped``2(Microsoft.Extensions.DependencyInjection.IServiceCollection)
   - Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddNetServerCore``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder})
   - Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddSingletonPlugin``1(Microsoft.Extensions.DependencyInjection.IServiceCollection)
-  - Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddTransientPlugin``1(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  - Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddTransientPlugin``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Func{System.IServiceProvider,``0})
   langs:
   - csharp
   - vb
@@ -17,22 +17,26 @@ items:
   nameWithType: NetServerServiceCollectionExtensions
   fullName: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions
   type: Class
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: Microsoft.Extensions.DependencyInjection
   syntax:
-    content: public static class NetServerServiceCollectionExtensions
-    content.vb: Public Module NetServerServiceCollectionExtensions
+    content: 'public static class NetServerServiceCollectionExtensions : Object'
+    content.vb: >-
+      Public Module NetServerServiceCollectionExtensions
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
 - uid: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddNetServerCore``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder})
   commentId: M:Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddNetServerCore``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder})
   id: AddNetServerCore``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder})
@@ -45,30 +49,40 @@ items:
   nameWithType: NetServerServiceCollectionExtensions.AddNetServerCore<TSessionMode>(IServiceCollection, Action<NetServerCoreOptionsBuilder>)
   fullName: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddNetServerCore<TSessionMode>(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action<Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder>)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: Microsoft.Extensions.DependencyInjection
-  summary: Add NetServer core
-  remarks: This method calls <xref href="Microsoft.Extensions.DependencyInjection.LoggingServiceCollectionExtensions.AddLogging(Microsoft.Extensions.DependencyInjection.IServiceCollection)" data-throw-if-not-resolved="false"></xref> to add logging, if it has need been added previously
-  example: []
+  summary: "\nAdd NetServer core\n"
+  remarks: "\nThis method calls <xref href=\"Microsoft.Extensions.DependencyInjection.LoggingServiceCollectionExtensions.AddLogging(Microsoft.Extensions.DependencyInjection.IServiceCollection)\" data-throw-if-not-resolved=\"false\"></xref> to add logging, if it has need been added previously \n"
   syntax:
-    content: 'public static IServiceCollection AddNetServerCore<TSessionMode>(this IServiceCollection services, Action<NetServerCoreOptionsBuilder> optionsAction = null) where TSessionMode : class, ISoContextProvider'
+    content: >-
+      public static IServiceCollection AddNetServerCore<TSessionMode>(this IServiceCollection services, Action<NetServerCoreOptionsBuilder> optionsAction = null)
+          where TSessionMode : class, ISoContextProvider
     parameters:
     - id: services
       type: Microsoft.Extensions.DependencyInjection.IServiceCollection
-      description: ''
     - id: optionsAction
       type: System.Action{Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder}
-      description: ''
     typeParameters:
     - id: TSessionMode
-      description: Type of Session handler, like <xref href="SuperOffice.Security.Principal.ThreadContextProvider" data-throw-if-not-resolved="false"></xref>, <xref href="SuperOffice.Security.Principal.ProcessContextProvider" data-throw-if-not-resolved="false"></xref> or SuperOffice.Web.Security.HttpContextProvider
+      description: Type of Session handler, like <xref href="SuperOffice.Security.Principal.ThreadContextProvider" data-throw-if-not-resolved="false"></xref>, <xref href="SuperOffice.Security.Principal.ProcessContextProvider" data-throw-if-not-resolved="false"></xref> or <see cref="!:SuperOffice.Web.Security.HttpContextProvider"></see>
     return:
       type: Microsoft.Extensions.DependencyInjection.IServiceCollection
-      description: ''
-    content.vb: Public Shared Function AddNetServerCore(Of TSessionMode As {Class, ISoContextProvider})(services As IServiceCollection, optionsAction As Action(Of NetServerCoreOptionsBuilder) = Nothing) As IServiceCollection
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function AddNetServerCore(Of TSessionMode As {Class, ISoContextProvider})(services As IServiceCollection, optionsAction As Action(Of NetServerCoreOptionsBuilder) = Nothing) As IServiceCollection
   overload: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddNetServerCore*
   nameWithType.vb: NetServerServiceCollectionExtensions.AddNetServerCore(Of TSessionMode)(IServiceCollection, Action(Of NetServerCoreOptionsBuilder))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
   fullName.vb: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddNetServerCore(Of TSessionMode)(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action(Of Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder))
   name.vb: AddNetServerCore(Of TSessionMode)(IServiceCollection, Action(Of NetServerCoreOptionsBuilder))
 - uid: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddDatabaseScoped``1(Microsoft.Extensions.DependencyInjection.IServiceCollection)
@@ -83,11 +97,16 @@ items:
   nameWithType: NetServerServiceCollectionExtensions.AddDatabaseScoped<TImplementation>(IServiceCollection)
   fullName: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddDatabaseScoped<TImplementation>(Microsoft.Extensions.DependencyInjection.IServiceCollection)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: Microsoft.Extensions.DependencyInjection
   syntax:
-    content: 'public static IServiceCollection AddDatabaseScoped<TImplementation>(this IServiceCollection services) where TImplementation : class'
+    content: >-
+      public static IServiceCollection AddDatabaseScoped<TImplementation>(this IServiceCollection services)
+          where TImplementation : class
     parameters:
     - id: services
       type: Microsoft.Extensions.DependencyInjection.IServiceCollection
@@ -95,9 +114,18 @@ items:
     - id: TImplementation
     return:
       type: Microsoft.Extensions.DependencyInjection.IServiceCollection
-    content.vb: Public Shared Function AddDatabaseScoped(Of TImplementation As Class)(services As IServiceCollection) As IServiceCollection
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function AddDatabaseScoped(Of TImplementation As Class)(services As IServiceCollection) As IServiceCollection
   overload: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddDatabaseScoped*
   nameWithType.vb: NetServerServiceCollectionExtensions.AddDatabaseScoped(Of TImplementation)(IServiceCollection)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
   fullName.vb: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddDatabaseScoped(Of TImplementation)(Microsoft.Extensions.DependencyInjection.IServiceCollection)
   name.vb: AddDatabaseScoped(Of TImplementation)(IServiceCollection)
 - uid: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddDatabaseScoped``2(Microsoft.Extensions.DependencyInjection.IServiceCollection)
@@ -112,11 +140,16 @@ items:
   nameWithType: NetServerServiceCollectionExtensions.AddDatabaseScoped<TService, TImplementation>(IServiceCollection)
   fullName: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddDatabaseScoped<TService, TImplementation>(Microsoft.Extensions.DependencyInjection.IServiceCollection)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: Microsoft.Extensions.DependencyInjection
   syntax:
-    content: 'public static IServiceCollection AddDatabaseScoped<TService, TImplementation>(this IServiceCollection services) where TService : class where TImplementation : class, TService'
+    content: >-
+      public static IServiceCollection AddDatabaseScoped<TService, TImplementation>(this IServiceCollection services)
+          where TService : class where TImplementation : class, TService
     parameters:
     - id: services
       type: Microsoft.Extensions.DependencyInjection.IServiceCollection
@@ -125,49 +158,71 @@ items:
     - id: TImplementation
     return:
       type: Microsoft.Extensions.DependencyInjection.IServiceCollection
-    content.vb: Public Shared Function AddDatabaseScoped(Of TService As Class, TImplementation As {Class, TService})(services As IServiceCollection) As IServiceCollection
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function AddDatabaseScoped(Of TService As Class, TImplementation As {Class, TService})(services As IServiceCollection) As IServiceCollection
   overload: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddDatabaseScoped*
   nameWithType.vb: NetServerServiceCollectionExtensions.AddDatabaseScoped(Of TService, TImplementation)(IServiceCollection)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
   fullName.vb: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddDatabaseScoped(Of TService, TImplementation)(Microsoft.Extensions.DependencyInjection.IServiceCollection)
   name.vb: AddDatabaseScoped(Of TService, TImplementation)(IServiceCollection)
-- uid: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddTransientPlugin``1(Microsoft.Extensions.DependencyInjection.IServiceCollection)
-  commentId: M:Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddTransientPlugin``1(Microsoft.Extensions.DependencyInjection.IServiceCollection)
-  id: AddTransientPlugin``1(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+- uid: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddTransientPlugin``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Func{System.IServiceProvider,``0})
+  commentId: M:Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddTransientPlugin``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Func{System.IServiceProvider,``0})
+  id: AddTransientPlugin``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Func{System.IServiceProvider,``0})
   isExtensionMethod: true
   parent: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions
   langs:
   - csharp
   - vb
-  name: AddTransientPlugin<TPlugin>(IServiceCollection)
-  nameWithType: NetServerServiceCollectionExtensions.AddTransientPlugin<TPlugin>(IServiceCollection)
-  fullName: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddTransientPlugin<TPlugin>(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  name: AddTransientPlugin<TPlugin>(IServiceCollection, Func<IServiceProvider, TPlugin>)
+  nameWithType: NetServerServiceCollectionExtensions.AddTransientPlugin<TPlugin>(IServiceCollection, Func<IServiceProvider, TPlugin>)
+  fullName: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddTransientPlugin<TPlugin>(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Func<System.IServiceProvider, TPlugin>)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: Microsoft.Extensions.DependencyInjection
-  summary: Add a Plugin to the service colelction as a transient type and also add it explicitly to the <xref href="SuperOffice.Factory.PluginFactory" data-throw-if-not-resolved="false"></xref> using <xref href="SuperOffice.Factory.ClassFactory" data-throw-if-not-resolved="false"></xref> as the internal instance resolver.
-  example: []
+  summary: "\nAdd a Plugin to the service colelction as a transient type and also add it explicitly to the <xref href=\"SuperOffice.Factory.PluginFactory\" data-throw-if-not-resolved=\"false\"></xref> using <xref href=\"SuperOffice.Factory.ClassFactory\" data-throw-if-not-resolved=\"false\"></xref> as the internal instance resolver. \n"
   syntax:
-    content: 'public static IServiceCollection AddTransientPlugin<TPlugin>(this IServiceCollection services) where TPlugin : class, IPlugin'
+    content: >-
+      public static IServiceCollection AddTransientPlugin<TPlugin>(this IServiceCollection services, Func<IServiceProvider, TPlugin> implementationFactory = null)
+          where TPlugin : class, IPlugin
     parameters:
     - id: services
       type: Microsoft.Extensions.DependencyInjection.IServiceCollection
-      description: ''
+    - id: implementationFactory
+      type: System.Func{System.IServiceProvider,{TPlugin}}
     typeParameters:
     - id: TPlugin
       description: Type of plugin to explicitly add
     return:
       type: Microsoft.Extensions.DependencyInjection.IServiceCollection
-      description: ''
-    content.vb: Public Shared Function AddTransientPlugin(Of TPlugin As {Class, IPlugin})(services As IServiceCollection) As IServiceCollection
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function AddTransientPlugin(Of TPlugin As {Class, IPlugin})(services As IServiceCollection, implementationFactory As Func(Of IServiceProvider, TPlugin) = Nothing) As IServiceCollection
   overload: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddTransientPlugin*
   exceptions:
   - type: SuperOffice.Exceptions.SoClassFactoryException
     commentId: T:SuperOffice.Exceptions.SoClassFactoryException
     description: Thrown if the type is not a valid plugin with <xref href="SuperOffice.Factory.PluginAttribute.IsAutoDiscoverable" data-throw-if-not-resolved="false"></xref> set to false.
-  nameWithType.vb: NetServerServiceCollectionExtensions.AddTransientPlugin(Of TPlugin)(IServiceCollection)
-  fullName.vb: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddTransientPlugin(Of TPlugin)(Microsoft.Extensions.DependencyInjection.IServiceCollection)
-  name.vb: AddTransientPlugin(Of TPlugin)(IServiceCollection)
+  nameWithType.vb: NetServerServiceCollectionExtensions.AddTransientPlugin(Of TPlugin)(IServiceCollection, Func(Of IServiceProvider, TPlugin))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddTransientPlugin(Of TPlugin)(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Func(Of System.IServiceProvider, TPlugin))
+  name.vb: AddTransientPlugin(Of TPlugin)(IServiceCollection, Func(Of IServiceProvider, TPlugin))
 - uid: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddSingletonPlugin``1(Microsoft.Extensions.DependencyInjection.IServiceCollection)
   commentId: M:Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddSingletonPlugin``1(Microsoft.Extensions.DependencyInjection.IServiceCollection)
   id: AddSingletonPlugin``1(Microsoft.Extensions.DependencyInjection.IServiceCollection)
@@ -180,370 +235,77 @@ items:
   nameWithType: NetServerServiceCollectionExtensions.AddSingletonPlugin<TPlugin>(IServiceCollection)
   fullName: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddSingletonPlugin<TPlugin>(Microsoft.Extensions.DependencyInjection.IServiceCollection)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: Microsoft.Extensions.DependencyInjection
-  summary: Add a Plugin to the service colelction as a singleton type and also add it explicitly to the <xref href="SuperOffice.Factory.PluginFactory" data-throw-if-not-resolved="false"></xref> using <xref href="SuperOffice.Factory.ClassFactory" data-throw-if-not-resolved="false"></xref> as the internal instance resolver.
-  example: []
+  summary: "\nAdd a Plugin to the service colelction as a singleton type and also add it explicitly to the <xref href=\"SuperOffice.Factory.PluginFactory\" data-throw-if-not-resolved=\"false\"></xref> using <xref href=\"SuperOffice.Factory.ClassFactory\" data-throw-if-not-resolved=\"false\"></xref> as the internal instance resolver. \n"
   syntax:
-    content: 'public static IServiceCollection AddSingletonPlugin<TPlugin>(this IServiceCollection services) where TPlugin : class, IPlugin'
+    content: >-
+      public static IServiceCollection AddSingletonPlugin<TPlugin>(this IServiceCollection services)
+          where TPlugin : class, IPlugin
     parameters:
     - id: services
       type: Microsoft.Extensions.DependencyInjection.IServiceCollection
-      description: ''
     typeParameters:
     - id: TPlugin
       description: Type of plugin to explicitly add
     return:
       type: Microsoft.Extensions.DependencyInjection.IServiceCollection
-      description: ''
-    content.vb: Public Shared Function AddSingletonPlugin(Of TPlugin As {Class, IPlugin})(services As IServiceCollection) As IServiceCollection
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function AddSingletonPlugin(Of TPlugin As {Class, IPlugin})(services As IServiceCollection) As IServiceCollection
   overload: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddSingletonPlugin*
   exceptions:
   - type: SuperOffice.Exceptions.SoClassFactoryException
     commentId: T:SuperOffice.Exceptions.SoClassFactoryException
     description: Thrown if the type is not a valid plugin with <xref href="SuperOffice.Factory.PluginAttribute.IsAutoDiscoverable" data-throw-if-not-resolved="false"></xref> set to false.
   nameWithType.vb: NetServerServiceCollectionExtensions.AddSingletonPlugin(Of TPlugin)(IServiceCollection)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
   fullName.vb: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddSingletonPlugin(Of TPlugin)(Microsoft.Extensions.DependencyInjection.IServiceCollection)
   name.vb: AddSingletonPlugin(Of TPlugin)(IServiceCollection)
 references:
 - uid: Microsoft.Extensions.DependencyInjection
   commentId: N:Microsoft.Extensions.DependencyInjection
   isExternal: true
-  href: Microsoft.html
   name: Microsoft.Extensions.DependencyInjection
   nameWithType: Microsoft.Extensions.DependencyInjection
   fullName: Microsoft.Extensions.DependencyInjection
-  spec.csharp:
-  - uid: Microsoft
-    name: Microsoft
-    isExternal: true
-    href: Microsoft.html
-  - name: .
-  - uid: Microsoft.Extensions
-    name: Extensions
-    isExternal: true
-    href: Microsoft.Extensions.html
-  - name: .
-  - uid: Microsoft.Extensions.DependencyInjection
-    name: DependencyInjection
-    isExternal: true
-    href: Microsoft.Extensions.DependencyInjection.html
-  spec.vb:
-  - uid: Microsoft
-    name: Microsoft
-    isExternal: true
-    href: Microsoft.html
-  - name: .
-  - uid: Microsoft.Extensions
-    name: Extensions
-    isExternal: true
-    href: Microsoft.Extensions.html
-  - name: .
-  - uid: Microsoft.Extensions.DependencyInjection
-    name: DependencyInjection
-    isExternal: true
-    href: Microsoft.Extensions.DependencyInjection.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.Security.Principal.ThreadContextProvider
-  commentId: T:SuperOffice.Security.Principal.ThreadContextProvider
-  isExternal: true
-  href: SuperOffice.Security.Principal.ThreadContextProvider.html
-  name: ThreadContextProvider
-  nameWithType: ThreadContextProvider
-  fullName: SuperOffice.Security.Principal.ThreadContextProvider
-- uid: SuperOffice.Security.Principal.ProcessContextProvider
-  commentId: T:SuperOffice.Security.Principal.ProcessContextProvider
-  isExternal: true
-  href: SuperOffice.Security.Principal.ProcessContextProvider.html
-  name: ProcessContextProvider
-  nameWithType: ProcessContextProvider
-  fullName: SuperOffice.Security.Principal.ProcessContextProvider
-- uid: Microsoft.Extensions.DependencyInjection.LoggingServiceCollectionExtensions.AddLogging(Microsoft.Extensions.DependencyInjection.IServiceCollection)
-  commentId: M:Microsoft.Extensions.DependencyInjection.LoggingServiceCollectionExtensions.AddLogging(Microsoft.Extensions.DependencyInjection.IServiceCollection)
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.dependencyinjection.loggingservicecollectionextensions.addlogging#microsoft-extensions-dependencyinjection-loggingservicecollectionextensions-addlogging(microsoft-extensions-dependencyinjection-iservicecollection)
-  name: AddLogging(IServiceCollection)
-  nameWithType: LoggingServiceCollectionExtensions.AddLogging(IServiceCollection)
-  fullName: Microsoft.Extensions.DependencyInjection.LoggingServiceCollectionExtensions.AddLogging(Microsoft.Extensions.DependencyInjection.IServiceCollection)
-  spec.csharp:
-  - uid: Microsoft.Extensions.DependencyInjection.LoggingServiceCollectionExtensions.AddLogging(Microsoft.Extensions.DependencyInjection.IServiceCollection)
-    name: AddLogging
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.dependencyinjection.loggingservicecollectionextensions.addlogging#microsoft-extensions-dependencyinjection-loggingservicecollectionextensions-addlogging(microsoft-extensions-dependencyinjection-iservicecollection)
-  - name: (
-  - uid: Microsoft.Extensions.DependencyInjection.IServiceCollection
-    name: IServiceCollection
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.dependencyinjection.iservicecollection
-  - name: )
-  spec.vb:
-  - uid: Microsoft.Extensions.DependencyInjection.LoggingServiceCollectionExtensions.AddLogging(Microsoft.Extensions.DependencyInjection.IServiceCollection)
-    name: AddLogging
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.dependencyinjection.loggingservicecollectionextensions.addlogging#microsoft-extensions-dependencyinjection-loggingservicecollectionextensions-addlogging(microsoft-extensions-dependencyinjection-iservicecollection)
-  - name: (
-  - uid: Microsoft.Extensions.DependencyInjection.IServiceCollection
-    name: IServiceCollection
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.dependencyinjection.iservicecollection
-  - name: )
 - uid: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddNetServerCore*
   commentId: Overload:Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddNetServerCore
   isExternal: true
-  href: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.html#Microsoft_Extensions_DependencyInjection_NetServerServiceCollectionExtensions_AddNetServerCore__1_Microsoft_Extensions_DependencyInjection_IServiceCollection_System_Action_Microsoft_Extensions_DependencyInjection_NetServerCoreOptionsBuilder__
   name: AddNetServerCore
   nameWithType: NetServerServiceCollectionExtensions.AddNetServerCore
   fullName: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddNetServerCore
 - uid: Microsoft.Extensions.DependencyInjection.IServiceCollection
-  commentId: T:Microsoft.Extensions.DependencyInjection.IServiceCollection
-  parent: Microsoft.Extensions.DependencyInjection
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.dependencyinjection.iservicecollection
   name: IServiceCollection
   nameWithType: IServiceCollection
   fullName: Microsoft.Extensions.DependencyInjection.IServiceCollection
 - uid: System.Action{Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder}
-  commentId: T:System.Action{Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder}
-  parent: System
+  commentId: '!:System.Action{Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder}'
   definition: System.Action`1
-  href: https://learn.microsoft.com/dotnet/api/system.action-1
   name: Action<NetServerCoreOptionsBuilder>
   nameWithType: Action<NetServerCoreOptionsBuilder>
   fullName: System.Action<Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder>
@@ -553,99 +315,198 @@ references:
   spec.csharp:
   - uid: System.Action`1
     name: Action
+    nameWithType: Action
+    fullName: System.Action
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.action-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder
     name: NetServerCoreOptionsBuilder
+    nameWithType: NetServerCoreOptionsBuilder
+    fullName: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder
     isExternal: true
-    href: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Action`1
     name: Action
+    nameWithType: Action
+    fullName: System.Action
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.action-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder
     name: NetServerCoreOptionsBuilder
+    nameWithType: NetServerCoreOptionsBuilder
+    fullName: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder
     isExternal: true
-    href: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Action`1
-  commentId: T:System.Action`1
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.action-1
-  name: Action<T>
-  nameWithType: Action<T>
-  fullName: System.Action<T>
-  nameWithType.vb: Action(Of T)
-  fullName.vb: System.Action(Of T)
-  name.vb: Action(Of T)
+  name: Action<>
+  nameWithType: Action<>
+  fullName: System.Action<>
+  nameWithType.vb: Action(Of )
+  fullName.vb: System.Action(Of )
+  name.vb: Action(Of )
   spec.csharp:
   - uid: System.Action`1
     name: Action
+    nameWithType: Action
+    fullName: System.Action
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.action-1
   - name: <
-  - name: T
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Action`1
     name: Action
+    nameWithType: Action
+    fullName: System.Action
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.action-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddDatabaseScoped*
   commentId: Overload:Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddDatabaseScoped
   isExternal: true
-  href: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.html#Microsoft_Extensions_DependencyInjection_NetServerServiceCollectionExtensions_AddDatabaseScoped__1_Microsoft_Extensions_DependencyInjection_IServiceCollection_
   name: AddDatabaseScoped
   nameWithType: NetServerServiceCollectionExtensions.AddDatabaseScoped
   fullName: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddDatabaseScoped
-- uid: SuperOffice.Factory.PluginFactory
-  commentId: T:SuperOffice.Factory.PluginFactory
-  isExternal: true
-  name: PluginFactory
-  nameWithType: PluginFactory
-  fullName: SuperOffice.Factory.PluginFactory
-- uid: SuperOffice.Factory.ClassFactory
-  commentId: T:SuperOffice.Factory.ClassFactory
-  isExternal: true
-  href: SuperOffice.Factory.ClassFactory.html
-  name: ClassFactory
-  nameWithType: ClassFactory
-  fullName: SuperOffice.Factory.ClassFactory
-- uid: SuperOffice.Factory.PluginAttribute.IsAutoDiscoverable
-  commentId: P:SuperOffice.Factory.PluginAttribute.IsAutoDiscoverable
-  isExternal: true
-  name: IsAutoDiscoverable
-  nameWithType: PluginAttribute.IsAutoDiscoverable
-  fullName: SuperOffice.Factory.PluginAttribute.IsAutoDiscoverable
-- uid: SuperOffice.Exceptions.SoClassFactoryException
-  commentId: T:SuperOffice.Exceptions.SoClassFactoryException
-  isExternal: true
-  href: SuperOffice.Exceptions.SoClassFactoryException.html
-  name: SoClassFactoryException
-  nameWithType: SoClassFactoryException
-  fullName: SuperOffice.Exceptions.SoClassFactoryException
 - uid: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddTransientPlugin*
   commentId: Overload:Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddTransientPlugin
   isExternal: true
-  href: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.html#Microsoft_Extensions_DependencyInjection_NetServerServiceCollectionExtensions_AddTransientPlugin__1_Microsoft_Extensions_DependencyInjection_IServiceCollection_
   name: AddTransientPlugin
   nameWithType: NetServerServiceCollectionExtensions.AddTransientPlugin
   fullName: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddTransientPlugin
+- uid: SuperOffice.Exceptions.SoClassFactoryException
+  commentId: T:SuperOffice.Exceptions.SoClassFactoryException
+  isExternal: true
+- uid: System.Func{System.IServiceProvider,{TPlugin}}
+  commentId: '!:System.Func{System.IServiceProvider,``0}'
+  definition: System.Func`2
+  name: Func<IServiceProvider, TPlugin>
+  nameWithType: Func<IServiceProvider, TPlugin>
+  fullName: System.Func<System.IServiceProvider, TPlugin>
+  nameWithType.vb: Func(Of IServiceProvider, TPlugin)
+  fullName.vb: System.Func(Of System.IServiceProvider, TPlugin)
+  name.vb: Func(Of IServiceProvider, TPlugin)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.IServiceProvider
+    name: IServiceProvider
+    nameWithType: IServiceProvider
+    fullName: System.IServiceProvider
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TPlugin
+    nameWithType: TPlugin
+    fullName: TPlugin
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.IServiceProvider
+    name: IServiceProvider
+    nameWithType: IServiceProvider
+    fullName: System.IServiceProvider
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TPlugin
+    nameWithType: TPlugin
+    fullName: TPlugin
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Func`2
+  isExternal: true
+  name: Func<, >
+  nameWithType: Func<, >
+  fullName: System.Func<, >
+  nameWithType.vb: Func(Of , )
+  fullName.vb: System.Func(Of , )
+  name.vb: Func(Of , )
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddSingletonPlugin*
   commentId: Overload:Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddSingletonPlugin
   isExternal: true
-  href: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.html#Microsoft_Extensions_DependencyInjection_NetServerServiceCollectionExtensions_AddSingletonPlugin__1_Microsoft_Extensions_DependencyInjection_IServiceCollection_
   name: AddSingletonPlugin
   nameWithType: NetServerServiceCollectionExtensions.AddSingletonPlugin
   fullName: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.AddSingletonPlugin

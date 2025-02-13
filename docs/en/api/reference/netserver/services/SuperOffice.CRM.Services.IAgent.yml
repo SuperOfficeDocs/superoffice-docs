@@ -12,49 +12,26 @@ items:
   nameWithType: IAgent
   fullName: SuperOffice.CRM.Services.IAgent
   type: Interface
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Common interface for all Agents, inherited by the different service agents
-  example: []
+  summary: "\nCommon interface for all Agents, inherited by the different service agents\n"
   syntax:
     content: public interface IAgent
     content.vb: Public Interface IAgent
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html

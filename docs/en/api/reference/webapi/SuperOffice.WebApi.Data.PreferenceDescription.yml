@@ -35,25 +35,20 @@ items:
   nameWithType: PreferenceDescription
   fullName: SuperOffice.WebApi.Data.PreferenceDescription
   type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Carrier object for PreferenceDescription.
-
-    Preference description, drives the Preference GUI. Maintenance client - controls all preferences in SuperOffice.
+  summary: "\nCarrier object for PreferenceDescription.\nPreference description, drives the Preference GUI. Maintenance client - controls all preferences in SuperOffice.    \n"
   example:
-  - >-
-    Get PreferenceDescription 123 using the WebApi client:
-
-    <pre><code class="lang-csharp">var configuration = new WebApiConfiguration(url);
-
-    var agent = new PreferenceAgent(configuration);
-
-    var preferenceDescription = agent.GetPreferenceDescription( 123 );</code></pre>
+  - "\nGet PreferenceDescription 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new PreferenceAgent(configuration);\nvar preferenceDescription = agent.GetPreferenceDescription( 123 );</code></pre>\n"
   syntax:
     content: 'public class PreferenceDescription : Carrier'
-    content.vb: Public Class PreferenceDescription Inherits Carrier
+    content.vb: >-
+      Public Class PreferenceDescription
+          Inherits Carrier
   seealso:
   - linkId: SuperOffice.WebApi.Agents.PreferenceAgent
     commentId: T:SuperOffice.WebApi.Agents.PreferenceAgent
@@ -63,13 +58,12 @@ items:
   inheritedMembers:
   - SuperOffice.WebApi.Data.Carrier.TableRight
   - SuperOffice.WebApi.Data.Carrier.FieldProperties
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.WebApi.Data.PreferenceDescription.#ctor
   commentId: M:SuperOffice.WebApi.Data.PreferenceDescription.#ctor
   id: '#ctor'
@@ -81,18 +75,21 @@ items:
   nameWithType: PreferenceDescription.PreferenceDescription()
   fullName: SuperOffice.WebApi.Data.PreferenceDescription.PreferenceDescription()
   type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Default constructor - defaults any enum props to 0.
-  example: []
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
   syntax:
     content: public PreferenceDescription()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.WebApi.Data.PreferenceDescription.#ctor*
-  nameWithType.vb: PreferenceDescription.New()
-  fullName.vb: SuperOffice.WebApi.Data.PreferenceDescription.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.PreferenceDescription.PrefDescId
   commentId: P:SuperOffice.WebApi.Data.PreferenceDescription.PrefDescId
   id: PrefDescId
@@ -104,11 +101,13 @@ items:
   nameWithType: PreferenceDescription.PrefDescId
   fullName: SuperOffice.WebApi.Data.PreferenceDescription.PrefDescId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Primary key
-  example: []
+  summary: "\nPrimary key\n"
   syntax:
     content: public virtual int PrefDescId { get; set; }
     parameters: []
@@ -116,6 +115,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property PrefDescId As Integer
   overload: SuperOffice.WebApi.Data.PreferenceDescription.PrefDescId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.PreferenceDescription.Section
   commentId: P:SuperOffice.WebApi.Data.PreferenceDescription.Section
   id: Section
@@ -127,11 +134,13 @@ items:
   nameWithType: PreferenceDescription.Section
   fullName: SuperOffice.WebApi.Data.PreferenceDescription.Section
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Preference section name
-  example: []
+  summary: "\nPreference section name\n"
   syntax:
     content: public virtual string Section { get; set; }
     parameters: []
@@ -139,6 +148,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property Section As String
   overload: SuperOffice.WebApi.Data.PreferenceDescription.Section*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.PreferenceDescription.Key
   commentId: P:SuperOffice.WebApi.Data.PreferenceDescription.Key
   id: Key
@@ -150,11 +167,13 @@ items:
   nameWithType: PreferenceDescription.Key
   fullName: SuperOffice.WebApi.Data.PreferenceDescription.Key
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Preference key name
-  example: []
+  summary: "\nPreference key name\n"
   syntax:
     content: public virtual string Key { get; set; }
     parameters: []
@@ -162,6 +181,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property Key As String
   overload: SuperOffice.WebApi.Data.PreferenceDescription.Key*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.PreferenceDescription.Name
   commentId: P:SuperOffice.WebApi.Data.PreferenceDescription.Name
   id: Name
@@ -173,11 +200,13 @@ items:
   nameWithType: PreferenceDescription.Name
   fullName: SuperOffice.WebApi.Data.PreferenceDescription.Name
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Multi-language name
-  example: []
+  summary: "\nMulti-language name\n"
   syntax:
     content: public virtual string Name { get; set; }
     parameters: []
@@ -185,6 +214,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property Name As String
   overload: SuperOffice.WebApi.Data.PreferenceDescription.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.PreferenceDescription.ValueType_String
   commentId: P:SuperOffice.WebApi.Data.PreferenceDescription.ValueType_String
   id: ValueType_String
@@ -196,36 +233,29 @@ items:
   nameWithType: PreferenceDescription.ValueType_String
   fullName: SuperOffice.WebApi.Data.PreferenceDescription.ValueType_String
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    1=number, 2=text, 3=bool, 4=list of values; 5=list table ref; 6=contact ID, 7=Person ID, 8=Project ID, 9=Selection ID
-
-    Raw string enum value.
-  example: []
+  summary: "\n1=number, 2=text, 3=bool, 4=list of values; 5=list table ref; 6=contact ID, 7=Person ID, 8=Project ID, 9=Selection ID\nRaw string enum value.\n"
   syntax:
-    content: >-
-      [JsonProperty("ValueType")]
-
-      public string ValueType_String { get; set; }
+    content: public string ValueType_String { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <JsonProperty("ValueType")>
-
-      Public Property ValueType_String As String
+    content.vb: Public Property ValueType_String As String
   overload: SuperOffice.WebApi.Data.PreferenceDescription.ValueType_String*
   seealso:
   - linkId: SuperOffice.WebApi.Data.PreferenceDescription.ValueType
     commentId: P:SuperOffice.WebApi.Data.PreferenceDescription.ValueType
-  attributes:
-  - type: Newtonsoft.Json.JsonPropertyAttribute
-    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: ValueType
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.PreferenceDescription.ValueType
   commentId: P:SuperOffice.WebApi.Data.PreferenceDescription.ValueType
   id: ValueType
@@ -237,34 +267,29 @@ items:
   nameWithType: PreferenceDescription.ValueType
   fullName: SuperOffice.WebApi.Data.PreferenceDescription.ValueType
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    1=number, 2=text, 3=bool, 4=list of values; 5=list table ref; 6=contact ID, 7=Person ID, 8=Project ID, 9=Selection ID
-
-    NULL if unknown enum value.
-  example: []
+  summary: "\n1=number, 2=text, 3=bool, 4=list of values; 5=list table ref; 6=contact ID, 7=Person ID, 8=Project ID, 9=Selection ID\nNULL if unknown enum value.\n"
   syntax:
-    content: >-
-      [JsonIgnore]
-
-      public PrefDescValueType? ValueType { get; set; }
+    content: public Nullable<PrefDescValueType> ValueType { get; set; }
     parameters: []
     return:
       type: System.Nullable{SuperOffice.WebApi.Data.PrefDescValueType}
-    content.vb: >-
-      <JsonIgnore>
-
-      Public Property ValueType As PrefDescValueType?
+    content.vb: Public Property ValueType As Nullable(Of PrefDescValueType)
   overload: SuperOffice.WebApi.Data.PreferenceDescription.ValueType*
   seealso:
   - linkId: SuperOffice.WebApi.Data.PreferenceDescription.ValueType_String
     commentId: P:SuperOffice.WebApi.Data.PreferenceDescription.ValueType_String
-  attributes:
-  - type: Newtonsoft.Json.JsonIgnoreAttribute
-    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.PreferenceDescription.MaxLevel_String
   commentId: P:SuperOffice.WebApi.Data.PreferenceDescription.MaxLevel_String
   id: MaxLevel_String
@@ -276,36 +301,29 @@ items:
   nameWithType: PreferenceDescription.MaxLevel_String
   fullName: SuperOffice.WebApi.Data.PreferenceDescription.MaxLevel_String
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Lowest allowed setting level, set by user, but not lower than sysMaxLevel
-
-    Raw string enum value.
-  example: []
+  summary: "\nLowest allowed setting level, set by user, but not lower than sysMaxLevel\nRaw string enum value.\n"
   syntax:
-    content: >-
-      [JsonProperty("MaxLevel")]
-
-      public string MaxLevel_String { get; set; }
+    content: public string MaxLevel_String { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <JsonProperty("MaxLevel")>
-
-      Public Property MaxLevel_String As String
+    content.vb: Public Property MaxLevel_String As String
   overload: SuperOffice.WebApi.Data.PreferenceDescription.MaxLevel_String*
   seealso:
   - linkId: SuperOffice.WebApi.Data.PreferenceDescription.MaxLevel
     commentId: P:SuperOffice.WebApi.Data.PreferenceDescription.MaxLevel
-  attributes:
-  - type: Newtonsoft.Json.JsonPropertyAttribute
-    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: MaxLevel
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.PreferenceDescription.MaxLevel
   commentId: P:SuperOffice.WebApi.Data.PreferenceDescription.MaxLevel
   id: MaxLevel
@@ -317,34 +335,29 @@ items:
   nameWithType: PreferenceDescription.MaxLevel
   fullName: SuperOffice.WebApi.Data.PreferenceDescription.MaxLevel
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Lowest allowed setting level, set by user, but not lower than sysMaxLevel
-
-    NULL if unknown enum value.
-  example: []
+  summary: "\nLowest allowed setting level, set by user, but not lower than sysMaxLevel\nNULL if unknown enum value.\n"
   syntax:
-    content: >-
-      [JsonIgnore]
-
-      public PreferenceLevel? MaxLevel { get; set; }
+    content: public Nullable<PreferenceLevel> MaxLevel { get; set; }
     parameters: []
     return:
       type: System.Nullable{SuperOffice.WebApi.Data.PreferenceLevel}
-    content.vb: >-
-      <JsonIgnore>
-
-      Public Property MaxLevel As PreferenceLevel?
+    content.vb: Public Property MaxLevel As Nullable(Of PreferenceLevel)
   overload: SuperOffice.WebApi.Data.PreferenceDescription.MaxLevel*
   seealso:
   - linkId: SuperOffice.WebApi.Data.PreferenceDescription.MaxLevel_String
     commentId: P:SuperOffice.WebApi.Data.PreferenceDescription.MaxLevel_String
-  attributes:
-  - type: Newtonsoft.Json.JsonIgnoreAttribute
-    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.PreferenceDescription.SysMaxLevel_String
   commentId: P:SuperOffice.WebApi.Data.PreferenceDescription.SysMaxLevel_String
   id: SysMaxLevel_String
@@ -356,36 +369,29 @@ items:
   nameWithType: PreferenceDescription.SysMaxLevel_String
   fullName: SuperOffice.WebApi.Data.PreferenceDescription.SysMaxLevel_String
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Lowest allowed setting level, set by SuperOffice
-
-    Raw string enum value.
-  example: []
+  summary: "\nLowest allowed setting level, set by SuperOffice\nRaw string enum value.\n"
   syntax:
-    content: >-
-      [JsonProperty("SysMaxLevel")]
-
-      public string SysMaxLevel_String { get; set; }
+    content: public string SysMaxLevel_String { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <JsonProperty("SysMaxLevel")>
-
-      Public Property SysMaxLevel_String As String
+    content.vb: Public Property SysMaxLevel_String As String
   overload: SuperOffice.WebApi.Data.PreferenceDescription.SysMaxLevel_String*
   seealso:
   - linkId: SuperOffice.WebApi.Data.PreferenceDescription.SysMaxLevel
     commentId: P:SuperOffice.WebApi.Data.PreferenceDescription.SysMaxLevel
-  attributes:
-  - type: Newtonsoft.Json.JsonPropertyAttribute
-    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: SysMaxLevel
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.PreferenceDescription.SysMaxLevel
   commentId: P:SuperOffice.WebApi.Data.PreferenceDescription.SysMaxLevel
   id: SysMaxLevel
@@ -397,34 +403,29 @@ items:
   nameWithType: PreferenceDescription.SysMaxLevel
   fullName: SuperOffice.WebApi.Data.PreferenceDescription.SysMaxLevel
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Lowest allowed setting level, set by SuperOffice
-
-    NULL if unknown enum value.
-  example: []
+  summary: "\nLowest allowed setting level, set by SuperOffice\nNULL if unknown enum value.\n"
   syntax:
-    content: >-
-      [JsonIgnore]
-
-      public PreferenceLevel? SysMaxLevel { get; set; }
+    content: public Nullable<PreferenceLevel> SysMaxLevel { get; set; }
     parameters: []
     return:
       type: System.Nullable{SuperOffice.WebApi.Data.PreferenceLevel}
-    content.vb: >-
-      <JsonIgnore>
-
-      Public Property SysMaxLevel As PreferenceLevel?
+    content.vb: Public Property SysMaxLevel As Nullable(Of PreferenceLevel)
   overload: SuperOffice.WebApi.Data.PreferenceDescription.SysMaxLevel*
   seealso:
   - linkId: SuperOffice.WebApi.Data.PreferenceDescription.SysMaxLevel_String
     commentId: P:SuperOffice.WebApi.Data.PreferenceDescription.SysMaxLevel_String
-  attributes:
-  - type: Newtonsoft.Json.JsonIgnoreAttribute
-    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.PreferenceDescription.AccessFlags_String
   commentId: P:SuperOffice.WebApi.Data.PreferenceDescription.AccessFlags_String
   id: AccessFlags_String
@@ -436,36 +437,29 @@ items:
   nameWithType: PreferenceDescription.AccessFlags_String
   fullName: SuperOffice.WebApi.Data.PreferenceDescription.AccessFlags_String
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    1=wizard mode, 2=level 0, 4=admin gui, 8=crm gui
-
-    Raw string enum value.
-  example: []
+  summary: "\n1=wizard mode, 2=level 0, 4=admin gui, 8=crm gui\nRaw string enum value.\n"
   syntax:
-    content: >-
-      [JsonProperty("AccessFlags")]
-
-      public string AccessFlags_String { get; set; }
+    content: public string AccessFlags_String { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <JsonProperty("AccessFlags")>
-
-      Public Property AccessFlags_String As String
+    content.vb: Public Property AccessFlags_String As String
   overload: SuperOffice.WebApi.Data.PreferenceDescription.AccessFlags_String*
   seealso:
   - linkId: SuperOffice.WebApi.Data.PreferenceDescription.AccessFlags
     commentId: P:SuperOffice.WebApi.Data.PreferenceDescription.AccessFlags
-  attributes:
-  - type: Newtonsoft.Json.JsonPropertyAttribute
-    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: AccessFlags
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.PreferenceDescription.AccessFlags
   commentId: P:SuperOffice.WebApi.Data.PreferenceDescription.AccessFlags
   id: AccessFlags
@@ -477,34 +471,29 @@ items:
   nameWithType: PreferenceDescription.AccessFlags
   fullName: SuperOffice.WebApi.Data.PreferenceDescription.AccessFlags
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    1=wizard mode, 2=level 0, 4=admin gui, 8=crm gui
-
-    NULL if unknown enum value.
-  example: []
+  summary: "\n1=wizard mode, 2=level 0, 4=admin gui, 8=crm gui\nNULL if unknown enum value.\n"
   syntax:
-    content: >-
-      [JsonIgnore]
-
-      public PrefDescAccessFlags? AccessFlags { get; set; }
+    content: public Nullable<PrefDescAccessFlags> AccessFlags { get; set; }
     parameters: []
     return:
       type: System.Nullable{SuperOffice.WebApi.Data.PrefDescAccessFlags}
-    content.vb: >-
-      <JsonIgnore>
-
-      Public Property AccessFlags As PrefDescAccessFlags?
+    content.vb: Public Property AccessFlags As Nullable(Of PrefDescAccessFlags)
   overload: SuperOffice.WebApi.Data.PreferenceDescription.AccessFlags*
   seealso:
   - linkId: SuperOffice.WebApi.Data.PreferenceDescription.AccessFlags_String
     commentId: P:SuperOffice.WebApi.Data.PreferenceDescription.AccessFlags_String
-  attributes:
-  - type: Newtonsoft.Json.JsonIgnoreAttribute
-    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.PreferenceDescription.Description
   commentId: P:SuperOffice.WebApi.Data.PreferenceDescription.Description
   id: Description
@@ -516,11 +505,13 @@ items:
   nameWithType: PreferenceDescription.Description
   fullName: SuperOffice.WebApi.Data.PreferenceDescription.Description
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Description of preference, multi-language parsed
-  example: []
+  summary: "\nDescription of preference, multi-language parsed\n"
   syntax:
     content: public virtual string Description { get; set; }
     parameters: []
@@ -528,6 +519,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property Description As String
   overload: SuperOffice.WebApi.Data.PreferenceDescription.Description*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.PreferenceDescription.IsBuiltin
   commentId: P:SuperOffice.WebApi.Data.PreferenceDescription.IsBuiltin
   id: IsBuiltin
@@ -539,11 +538,13 @@ items:
   nameWithType: PreferenceDescription.IsBuiltin
   fullName: SuperOffice.WebApi.Data.PreferenceDescription.IsBuiltin
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: 1 = This row populated and maintained by SuperOffice
-  example: []
+  summary: "\n1 = This row populated and maintained by SuperOffice\n"
   syntax:
     content: public virtual bool IsBuiltin { get; set; }
     parameters: []
@@ -551,6 +552,14 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property IsBuiltin As Boolean
   overload: SuperOffice.WebApi.Data.PreferenceDescription.IsBuiltin*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.PreferenceDescription.TableName
   commentId: P:SuperOffice.WebApi.Data.PreferenceDescription.TableName
   id: TableName
@@ -562,11 +571,13 @@ items:
   nameWithType: PreferenceDescription.TableName
   fullName: SuperOffice.WebApi.Data.PreferenceDescription.TableName
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: If valueType = 5, then TableName contains the table referenced by the preference
-  example: []
+  summary: "\nIf valueType = 5, then TableName contains the table referenced by the preference\n"
   syntax:
     content: public virtual string TableName { get; set; }
     parameters: []
@@ -574,6 +585,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property TableName As String
   overload: SuperOffice.WebApi.Data.PreferenceDescription.TableName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.PreferenceDescription.UserDefinedListId
   commentId: P:SuperOffice.WebApi.Data.PreferenceDescription.UserDefinedListId
   id: UserDefinedListId
@@ -585,11 +604,13 @@ items:
   nameWithType: PreferenceDescription.UserDefinedListId
   fullName: SuperOffice.WebApi.Data.PreferenceDescription.UserDefinedListId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Read-only field, If valueType = 5, and TableName is UDList, then UserdefinedLIstId contains the id of the list referenced by the preference
-  example: []
+  summary: "\nRead-only field, If valueType = 5, and TableName is UDList, then UserdefinedLIstId contains the id of the list referenced by the preference\n"
   syntax:
     content: public virtual int UserDefinedListId { get; set; }
     parameters: []
@@ -597,6 +618,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property UserDefinedListId As Integer
   overload: SuperOffice.WebApi.Data.PreferenceDescription.UserDefinedListId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.PreferenceDescription.Rank
   commentId: P:SuperOffice.WebApi.Data.PreferenceDescription.Rank
   id: Rank
@@ -608,11 +637,13 @@ items:
   nameWithType: PreferenceDescription.Rank
   fullName: SuperOffice.WebApi.Data.PreferenceDescription.Rank
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Rank field for ordering sections, and keys within sections
-  example: []
+  summary: "\nRank field for ordering sections, and keys within sections\n"
   syntax:
     content: public virtual int Rank { get; set; }
     parameters: []
@@ -620,6 +651,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property Rank As Integer
   overload: SuperOffice.WebApi.Data.PreferenceDescription.Rank*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.PreferenceDescription.SubGroup
   commentId: P:SuperOffice.WebApi.Data.PreferenceDescription.SubGroup
   id: SubGroup
@@ -631,11 +670,13 @@ items:
   nameWithType: PreferenceDescription.SubGroup
   fullName: SuperOffice.WebApi.Data.PreferenceDescription.SubGroup
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Keys that share a value (including NULL) in this field are shown together; a visual spacer is shown between groups
-  example: []
+  summary: "\nKeys that share a value (including NULL) in this field are shown together; a visual spacer is shown between groups\n"
   syntax:
     content: public virtual string SubGroup { get; set; }
     parameters: []
@@ -643,6 +684,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property SubGroup As String
   overload: SuperOffice.WebApi.Data.PreferenceDescription.SubGroup*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.PreferenceDescription.MinLevel
   commentId: P:SuperOffice.WebApi.Data.PreferenceDescription.MinLevel
   id: MinLevel
@@ -654,11 +703,13 @@ items:
   nameWithType: PreferenceDescription.MinLevel
   fullName: SuperOffice.WebApi.Data.PreferenceDescription.MinLevel
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The minimum (furthest away from User) level this preference can be set for
-  example: []
+  summary: "\nThe minimum (furthest away from User) level this preference can be set for\n"
   syntax:
     content: public virtual int MinLevel { get; set; }
     parameters: []
@@ -666,6 +717,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property MinLevel As Integer
   overload: SuperOffice.WebApi.Data.PreferenceDescription.MinLevel*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.PreferenceDescription.MaxValue
   commentId: P:SuperOffice.WebApi.Data.PreferenceDescription.MaxValue
   id: MaxValue
@@ -677,11 +736,13 @@ items:
   nameWithType: PreferenceDescription.MaxValue
   fullName: SuperOffice.WebApi.Data.PreferenceDescription.MaxValue
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Max value (if type 1); list table ID (if type 5)
-  example: []
+  summary: "\nMax value (if type 1); list table ID (if type 5)\n"
   syntax:
     content: public virtual int MaxValue { get; set; }
     parameters: []
@@ -689,6 +750,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property MaxValue As Integer
   overload: SuperOffice.WebApi.Data.PreferenceDescription.MaxValue*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.PreferenceDescription.MinValue
   commentId: P:SuperOffice.WebApi.Data.PreferenceDescription.MinValue
   id: MinValue
@@ -700,11 +769,13 @@ items:
   nameWithType: PreferenceDescription.MinValue
   fullName: SuperOffice.WebApi.Data.PreferenceDescription.MinValue
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Min value (if type 1); list extra id (if type 5)
-  example: []
+  summary: "\nMin value (if type 1); list extra id (if type 5)\n"
   syntax:
     content: public virtual int MinValue { get; set; }
     parameters: []
@@ -712,6 +783,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property MinValue As Integer
   overload: SuperOffice.WebApi.Data.PreferenceDescription.MinValue*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.PreferenceDescription.RequiredLicense
   commentId: P:SuperOffice.WebApi.Data.PreferenceDescription.RequiredLicense
   id: RequiredLicense
@@ -723,11 +802,13 @@ items:
   nameWithType: PreferenceDescription.RequiredLicense
   fullName: SuperOffice.WebApi.Data.PreferenceDescription.RequiredLicense
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Licenses the user/installation must have if this reference is to be shown. Comma-separated list of owner.module pairs
-  example: []
+  summary: "\nLicenses the user/installation must have if this reference is to be shown. Comma-separated list of owner.module pairs\n"
   syntax:
     content: public virtual string RequiredLicense { get; set; }
     parameters: []
@@ -735,67 +816,32 @@ items:
       type: System.String
     content.vb: Public Overridable Property RequiredLicense As String
   overload: SuperOffice.WebApi.Data.PreferenceDescription.RequiredLicense*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
-- uid: SuperOffice.WebApi.Agents.PreferenceAgent
-  commentId: T:SuperOffice.WebApi.Agents.PreferenceAgent
-  isExternal: true
-  href: SuperOffice.WebApi.Agents.PreferenceAgent.html
-  name: PreferenceAgent
-  nameWithType: PreferenceAgent
-  fullName: SuperOffice.WebApi.Agents.PreferenceAgent
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.WebApi.Data.Carrier
   commentId: T:SuperOffice.WebApi.Data.Carrier
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html
   name: Carrier
   nameWithType: Carrier
   fullName: SuperOffice.WebApi.Data.Carrier
@@ -803,7 +849,6 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_TableRight
   name: TableRight
   nameWithType: Carrier.TableRight
   fullName: SuperOffice.WebApi.Data.Carrier.TableRight
@@ -811,250 +856,30 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_FieldProperties
   name: FieldProperties
   nameWithType: Carrier.FieldProperties
   fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
+- uid: SuperOffice.WebApi.Agents.PreferenceAgent
+  commentId: T:SuperOffice.WebApi.Agents.PreferenceAgent
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: PreferenceAgent
+  nameWithType: PreferenceAgent
+  fullName: SuperOffice.WebApi.Agents.PreferenceAgent
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Data.PreferenceDescription.#ctor*
   commentId: Overload:SuperOffice.WebApi.Data.PreferenceDescription.#ctor
   isExternal: true
-  href: SuperOffice.WebApi.Data.PreferenceDescription.html#SuperOffice_WebApi_Data_PreferenceDescription__ctor
   name: PreferenceDescription
   nameWithType: PreferenceDescription.PreferenceDescription
   fullName: SuperOffice.WebApi.Data.PreferenceDescription.PreferenceDescription
-  nameWithType.vb: PreferenceDescription.New
-  fullName.vb: SuperOffice.WebApi.Data.PreferenceDescription.New
-  name.vb: New
 - uid: SuperOffice.WebApi.Data.PreferenceDescription.PrefDescId*
   commentId: Overload:SuperOffice.WebApi.Data.PreferenceDescription.PrefDescId
   isExternal: true
-  href: SuperOffice.WebApi.Data.PreferenceDescription.html#SuperOffice_WebApi_Data_PreferenceDescription_PrefDescId
   name: PrefDescId
   nameWithType: PreferenceDescription.PrefDescId
   fullName: SuperOffice.WebApi.Data.PreferenceDescription.PrefDescId
@@ -1062,17 +887,12 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.WebApi.Data.PreferenceDescription.Section*
   commentId: Overload:SuperOffice.WebApi.Data.PreferenceDescription.Section
   isExternal: true
-  href: SuperOffice.WebApi.Data.PreferenceDescription.html#SuperOffice_WebApi_Data_PreferenceDescription_Section
   name: Section
   nameWithType: PreferenceDescription.Section
   fullName: SuperOffice.WebApi.Data.PreferenceDescription.Section
@@ -1080,238 +900,269 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.WebApi.Data.PreferenceDescription.Key*
   commentId: Overload:SuperOffice.WebApi.Data.PreferenceDescription.Key
   isExternal: true
-  href: SuperOffice.WebApi.Data.PreferenceDescription.html#SuperOffice_WebApi_Data_PreferenceDescription_Key
   name: Key
   nameWithType: PreferenceDescription.Key
   fullName: SuperOffice.WebApi.Data.PreferenceDescription.Key
 - uid: SuperOffice.WebApi.Data.PreferenceDescription.Name*
   commentId: Overload:SuperOffice.WebApi.Data.PreferenceDescription.Name
   isExternal: true
-  href: SuperOffice.WebApi.Data.PreferenceDescription.html#SuperOffice_WebApi_Data_PreferenceDescription_Name
   name: Name
   nameWithType: PreferenceDescription.Name
   fullName: SuperOffice.WebApi.Data.PreferenceDescription.Name
-- uid: SuperOffice.WebApi.Data.PreferenceDescription.ValueType
-  commentId: P:SuperOffice.WebApi.Data.PreferenceDescription.ValueType
-  isExternal: true
-  href: SuperOffice.WebApi.Data.PreferenceDescription.html#SuperOffice_WebApi_Data_PreferenceDescription_ValueType
-  name: ValueType
-  nameWithType: PreferenceDescription.ValueType
-  fullName: SuperOffice.WebApi.Data.PreferenceDescription.ValueType
 - uid: SuperOffice.WebApi.Data.PreferenceDescription.ValueType_String*
   commentId: Overload:SuperOffice.WebApi.Data.PreferenceDescription.ValueType_String
   isExternal: true
-  href: SuperOffice.WebApi.Data.PreferenceDescription.html#SuperOffice_WebApi_Data_PreferenceDescription_ValueType_String
   name: ValueType_String
   nameWithType: PreferenceDescription.ValueType_String
   fullName: SuperOffice.WebApi.Data.PreferenceDescription.ValueType_String
-- uid: SuperOffice.WebApi.Data.PreferenceDescription.ValueType_String
-  commentId: P:SuperOffice.WebApi.Data.PreferenceDescription.ValueType_String
+- uid: SuperOffice.WebApi.Data.PreferenceDescription.ValueType
+  commentId: P:SuperOffice.WebApi.Data.PreferenceDescription.ValueType
   isExternal: true
-  href: SuperOffice.WebApi.Data.PreferenceDescription.html#SuperOffice_WebApi_Data_PreferenceDescription_ValueType_String
-  name: ValueType_String
-  nameWithType: PreferenceDescription.ValueType_String
-  fullName: SuperOffice.WebApi.Data.PreferenceDescription.ValueType_String
 - uid: SuperOffice.WebApi.Data.PreferenceDescription.ValueType*
   commentId: Overload:SuperOffice.WebApi.Data.PreferenceDescription.ValueType
   isExternal: true
-  href: SuperOffice.WebApi.Data.PreferenceDescription.html#SuperOffice_WebApi_Data_PreferenceDescription_ValueType
   name: ValueType
   nameWithType: PreferenceDescription.ValueType
   fullName: SuperOffice.WebApi.Data.PreferenceDescription.ValueType
+- uid: SuperOffice.WebApi.Data.PreferenceDescription.ValueType_String
+  commentId: P:SuperOffice.WebApi.Data.PreferenceDescription.ValueType_String
+  isExternal: true
 - uid: System.Nullable{SuperOffice.WebApi.Data.PrefDescValueType}
-  commentId: T:System.Nullable{SuperOffice.WebApi.Data.PrefDescValueType}
-  parent: System
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.PrefDescValueType}'
   definition: System.Nullable`1
-  href: SuperOffice.WebApi.Data.PrefDescValueType.html
-  name: PrefDescValueType?
-  nameWithType: PrefDescValueType?
-  fullName: SuperOffice.WebApi.Data.PrefDescValueType?
-  spec.csharp:
-  - uid: SuperOffice.WebApi.Data.PrefDescValueType
-    name: PrefDescValueType
-    isExternal: true
-    href: SuperOffice.WebApi.Data.PrefDescValueType.html
-  - name: '?'
-  spec.vb:
-  - uid: SuperOffice.WebApi.Data.PrefDescValueType
-    name: PrefDescValueType
-    isExternal: true
-    href: SuperOffice.WebApi.Data.PrefDescValueType.html
-  - name: '?'
-- uid: System.Nullable`1
-  commentId: T:System.Nullable`1
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
-  name: Nullable<T>
-  nameWithType: Nullable<T>
-  fullName: System.Nullable<T>
-  nameWithType.vb: Nullable(Of T)
-  fullName.vb: System.Nullable(Of T)
-  name.vb: Nullable(Of T)
+  name: Nullable<PrefDescValueType>
+  nameWithType: Nullable<PrefDescValueType>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.PrefDescValueType>
+  nameWithType.vb: Nullable(Of PrefDescValueType)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.PrefDescValueType)
+  name.vb: Nullable(Of PrefDescValueType)
   spec.csharp:
   - uid: System.Nullable`1
     name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
   - name: <
-  - name: T
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.PrefDescValueType
+    name: PrefDescValueType
+    nameWithType: PrefDescValueType
+    fullName: SuperOffice.WebApi.Data.PrefDescValueType
+    isExternal: true
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Nullable`1
     name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.PrefDescValueType
+    name: PrefDescValueType
+    nameWithType: PrefDescValueType
+    fullName: SuperOffice.WebApi.Data.PrefDescValueType
+    isExternal: true
   - name: )
-- uid: SuperOffice.WebApi.Data.PreferenceDescription.MaxLevel
-  commentId: P:SuperOffice.WebApi.Data.PreferenceDescription.MaxLevel
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
   isExternal: true
-  href: SuperOffice.WebApi.Data.PreferenceDescription.html#SuperOffice_WebApi_Data_PreferenceDescription_MaxLevel
-  name: MaxLevel
-  nameWithType: PreferenceDescription.MaxLevel
-  fullName: SuperOffice.WebApi.Data.PreferenceDescription.MaxLevel
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Data.PreferenceDescription.MaxLevel_String*
   commentId: Overload:SuperOffice.WebApi.Data.PreferenceDescription.MaxLevel_String
   isExternal: true
-  href: SuperOffice.WebApi.Data.PreferenceDescription.html#SuperOffice_WebApi_Data_PreferenceDescription_MaxLevel_String
   name: MaxLevel_String
   nameWithType: PreferenceDescription.MaxLevel_String
   fullName: SuperOffice.WebApi.Data.PreferenceDescription.MaxLevel_String
-- uid: SuperOffice.WebApi.Data.PreferenceDescription.MaxLevel_String
-  commentId: P:SuperOffice.WebApi.Data.PreferenceDescription.MaxLevel_String
+- uid: SuperOffice.WebApi.Data.PreferenceDescription.MaxLevel
+  commentId: P:SuperOffice.WebApi.Data.PreferenceDescription.MaxLevel
   isExternal: true
-  href: SuperOffice.WebApi.Data.PreferenceDescription.html#SuperOffice_WebApi_Data_PreferenceDescription_MaxLevel_String
-  name: MaxLevel_String
-  nameWithType: PreferenceDescription.MaxLevel_String
-  fullName: SuperOffice.WebApi.Data.PreferenceDescription.MaxLevel_String
 - uid: SuperOffice.WebApi.Data.PreferenceDescription.MaxLevel*
   commentId: Overload:SuperOffice.WebApi.Data.PreferenceDescription.MaxLevel
   isExternal: true
-  href: SuperOffice.WebApi.Data.PreferenceDescription.html#SuperOffice_WebApi_Data_PreferenceDescription_MaxLevel
   name: MaxLevel
   nameWithType: PreferenceDescription.MaxLevel
   fullName: SuperOffice.WebApi.Data.PreferenceDescription.MaxLevel
-- uid: System.Nullable{SuperOffice.WebApi.Data.PreferenceLevel}
-  commentId: T:System.Nullable{SuperOffice.WebApi.Data.PreferenceLevel}
-  parent: System
-  definition: System.Nullable`1
-  href: SuperOffice.WebApi.Data.PreferenceLevel.html
-  name: PreferenceLevel?
-  nameWithType: PreferenceLevel?
-  fullName: SuperOffice.WebApi.Data.PreferenceLevel?
-  spec.csharp:
-  - uid: SuperOffice.WebApi.Data.PreferenceLevel
-    name: PreferenceLevel
-    isExternal: true
-    href: SuperOffice.WebApi.Data.PreferenceLevel.html
-  - name: '?'
-  spec.vb:
-  - uid: SuperOffice.WebApi.Data.PreferenceLevel
-    name: PreferenceLevel
-    isExternal: true
-    href: SuperOffice.WebApi.Data.PreferenceLevel.html
-  - name: '?'
-- uid: SuperOffice.WebApi.Data.PreferenceDescription.SysMaxLevel
-  commentId: P:SuperOffice.WebApi.Data.PreferenceDescription.SysMaxLevel
+- uid: SuperOffice.WebApi.Data.PreferenceDescription.MaxLevel_String
+  commentId: P:SuperOffice.WebApi.Data.PreferenceDescription.MaxLevel_String
   isExternal: true
-  href: SuperOffice.WebApi.Data.PreferenceDescription.html#SuperOffice_WebApi_Data_PreferenceDescription_SysMaxLevel
-  name: SysMaxLevel
-  nameWithType: PreferenceDescription.SysMaxLevel
-  fullName: SuperOffice.WebApi.Data.PreferenceDescription.SysMaxLevel
+- uid: System.Nullable{SuperOffice.WebApi.Data.PreferenceLevel}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.PreferenceLevel}'
+  definition: System.Nullable`1
+  name: Nullable<PreferenceLevel>
+  nameWithType: Nullable<PreferenceLevel>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.PreferenceLevel>
+  nameWithType.vb: Nullable(Of PreferenceLevel)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.PreferenceLevel)
+  name.vb: Nullable(Of PreferenceLevel)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.PreferenceLevel
+    name: PreferenceLevel
+    nameWithType: PreferenceLevel
+    fullName: SuperOffice.WebApi.Data.PreferenceLevel
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.PreferenceLevel
+    name: PreferenceLevel
+    nameWithType: PreferenceLevel
+    fullName: SuperOffice.WebApi.Data.PreferenceLevel
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Data.PreferenceDescription.SysMaxLevel_String*
   commentId: Overload:SuperOffice.WebApi.Data.PreferenceDescription.SysMaxLevel_String
   isExternal: true
-  href: SuperOffice.WebApi.Data.PreferenceDescription.html#SuperOffice_WebApi_Data_PreferenceDescription_SysMaxLevel_String
   name: SysMaxLevel_String
   nameWithType: PreferenceDescription.SysMaxLevel_String
   fullName: SuperOffice.WebApi.Data.PreferenceDescription.SysMaxLevel_String
-- uid: SuperOffice.WebApi.Data.PreferenceDescription.SysMaxLevel_String
-  commentId: P:SuperOffice.WebApi.Data.PreferenceDescription.SysMaxLevel_String
+- uid: SuperOffice.WebApi.Data.PreferenceDescription.SysMaxLevel
+  commentId: P:SuperOffice.WebApi.Data.PreferenceDescription.SysMaxLevel
   isExternal: true
-  href: SuperOffice.WebApi.Data.PreferenceDescription.html#SuperOffice_WebApi_Data_PreferenceDescription_SysMaxLevel_String
-  name: SysMaxLevel_String
-  nameWithType: PreferenceDescription.SysMaxLevel_String
-  fullName: SuperOffice.WebApi.Data.PreferenceDescription.SysMaxLevel_String
 - uid: SuperOffice.WebApi.Data.PreferenceDescription.SysMaxLevel*
   commentId: Overload:SuperOffice.WebApi.Data.PreferenceDescription.SysMaxLevel
   isExternal: true
-  href: SuperOffice.WebApi.Data.PreferenceDescription.html#SuperOffice_WebApi_Data_PreferenceDescription_SysMaxLevel
   name: SysMaxLevel
   nameWithType: PreferenceDescription.SysMaxLevel
   fullName: SuperOffice.WebApi.Data.PreferenceDescription.SysMaxLevel
-- uid: SuperOffice.WebApi.Data.PreferenceDescription.AccessFlags
-  commentId: P:SuperOffice.WebApi.Data.PreferenceDescription.AccessFlags
+- uid: SuperOffice.WebApi.Data.PreferenceDescription.SysMaxLevel_String
+  commentId: P:SuperOffice.WebApi.Data.PreferenceDescription.SysMaxLevel_String
   isExternal: true
-  href: SuperOffice.WebApi.Data.PreferenceDescription.html#SuperOffice_WebApi_Data_PreferenceDescription_AccessFlags
-  name: AccessFlags
-  nameWithType: PreferenceDescription.AccessFlags
-  fullName: SuperOffice.WebApi.Data.PreferenceDescription.AccessFlags
 - uid: SuperOffice.WebApi.Data.PreferenceDescription.AccessFlags_String*
   commentId: Overload:SuperOffice.WebApi.Data.PreferenceDescription.AccessFlags_String
   isExternal: true
-  href: SuperOffice.WebApi.Data.PreferenceDescription.html#SuperOffice_WebApi_Data_PreferenceDescription_AccessFlags_String
   name: AccessFlags_String
   nameWithType: PreferenceDescription.AccessFlags_String
   fullName: SuperOffice.WebApi.Data.PreferenceDescription.AccessFlags_String
-- uid: SuperOffice.WebApi.Data.PreferenceDescription.AccessFlags_String
-  commentId: P:SuperOffice.WebApi.Data.PreferenceDescription.AccessFlags_String
+- uid: SuperOffice.WebApi.Data.PreferenceDescription.AccessFlags
+  commentId: P:SuperOffice.WebApi.Data.PreferenceDescription.AccessFlags
   isExternal: true
-  href: SuperOffice.WebApi.Data.PreferenceDescription.html#SuperOffice_WebApi_Data_PreferenceDescription_AccessFlags_String
-  name: AccessFlags_String
-  nameWithType: PreferenceDescription.AccessFlags_String
-  fullName: SuperOffice.WebApi.Data.PreferenceDescription.AccessFlags_String
 - uid: SuperOffice.WebApi.Data.PreferenceDescription.AccessFlags*
   commentId: Overload:SuperOffice.WebApi.Data.PreferenceDescription.AccessFlags
   isExternal: true
-  href: SuperOffice.WebApi.Data.PreferenceDescription.html#SuperOffice_WebApi_Data_PreferenceDescription_AccessFlags
   name: AccessFlags
   nameWithType: PreferenceDescription.AccessFlags
   fullName: SuperOffice.WebApi.Data.PreferenceDescription.AccessFlags
+- uid: SuperOffice.WebApi.Data.PreferenceDescription.AccessFlags_String
+  commentId: P:SuperOffice.WebApi.Data.PreferenceDescription.AccessFlags_String
+  isExternal: true
 - uid: System.Nullable{SuperOffice.WebApi.Data.PrefDescAccessFlags}
-  commentId: T:System.Nullable{SuperOffice.WebApi.Data.PrefDescAccessFlags}
-  parent: System
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.PrefDescAccessFlags}'
   definition: System.Nullable`1
-  href: SuperOffice.WebApi.Data.PrefDescAccessFlags.html
-  name: PrefDescAccessFlags?
-  nameWithType: PrefDescAccessFlags?
-  fullName: SuperOffice.WebApi.Data.PrefDescAccessFlags?
+  name: Nullable<PrefDescAccessFlags>
+  nameWithType: Nullable<PrefDescAccessFlags>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.PrefDescAccessFlags>
+  nameWithType.vb: Nullable(Of PrefDescAccessFlags)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.PrefDescAccessFlags)
+  name.vb: Nullable(Of PrefDescAccessFlags)
   spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.WebApi.Data.PrefDescAccessFlags
     name: PrefDescAccessFlags
+    nameWithType: PrefDescAccessFlags
+    fullName: SuperOffice.WebApi.Data.PrefDescAccessFlags
     isExternal: true
-    href: SuperOffice.WebApi.Data.PrefDescAccessFlags.html
-  - name: '?'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.WebApi.Data.PrefDescAccessFlags
     name: PrefDescAccessFlags
+    nameWithType: PrefDescAccessFlags
+    fullName: SuperOffice.WebApi.Data.PrefDescAccessFlags
     isExternal: true
-    href: SuperOffice.WebApi.Data.PrefDescAccessFlags.html
-  - name: '?'
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Data.PreferenceDescription.Description*
   commentId: Overload:SuperOffice.WebApi.Data.PreferenceDescription.Description
   isExternal: true
-  href: SuperOffice.WebApi.Data.PreferenceDescription.html#SuperOffice_WebApi_Data_PreferenceDescription_Description
   name: Description
   nameWithType: PreferenceDescription.Description
   fullName: SuperOffice.WebApi.Data.PreferenceDescription.Description
 - uid: SuperOffice.WebApi.Data.PreferenceDescription.IsBuiltin*
   commentId: Overload:SuperOffice.WebApi.Data.PreferenceDescription.IsBuiltin
   isExternal: true
-  href: SuperOffice.WebApi.Data.PreferenceDescription.html#SuperOffice_WebApi_Data_PreferenceDescription_IsBuiltin
   name: IsBuiltin
   nameWithType: PreferenceDescription.IsBuiltin
   fullName: SuperOffice.WebApi.Data.PreferenceDescription.IsBuiltin
@@ -1319,66 +1170,54 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.WebApi.Data.PreferenceDescription.TableName*
   commentId: Overload:SuperOffice.WebApi.Data.PreferenceDescription.TableName
   isExternal: true
-  href: SuperOffice.WebApi.Data.PreferenceDescription.html#SuperOffice_WebApi_Data_PreferenceDescription_TableName
   name: TableName
   nameWithType: PreferenceDescription.TableName
   fullName: SuperOffice.WebApi.Data.PreferenceDescription.TableName
 - uid: SuperOffice.WebApi.Data.PreferenceDescription.UserDefinedListId*
   commentId: Overload:SuperOffice.WebApi.Data.PreferenceDescription.UserDefinedListId
   isExternal: true
-  href: SuperOffice.WebApi.Data.PreferenceDescription.html#SuperOffice_WebApi_Data_PreferenceDescription_UserDefinedListId
   name: UserDefinedListId
   nameWithType: PreferenceDescription.UserDefinedListId
   fullName: SuperOffice.WebApi.Data.PreferenceDescription.UserDefinedListId
 - uid: SuperOffice.WebApi.Data.PreferenceDescription.Rank*
   commentId: Overload:SuperOffice.WebApi.Data.PreferenceDescription.Rank
   isExternal: true
-  href: SuperOffice.WebApi.Data.PreferenceDescription.html#SuperOffice_WebApi_Data_PreferenceDescription_Rank
   name: Rank
   nameWithType: PreferenceDescription.Rank
   fullName: SuperOffice.WebApi.Data.PreferenceDescription.Rank
 - uid: SuperOffice.WebApi.Data.PreferenceDescription.SubGroup*
   commentId: Overload:SuperOffice.WebApi.Data.PreferenceDescription.SubGroup
   isExternal: true
-  href: SuperOffice.WebApi.Data.PreferenceDescription.html#SuperOffice_WebApi_Data_PreferenceDescription_SubGroup
   name: SubGroup
   nameWithType: PreferenceDescription.SubGroup
   fullName: SuperOffice.WebApi.Data.PreferenceDescription.SubGroup
 - uid: SuperOffice.WebApi.Data.PreferenceDescription.MinLevel*
   commentId: Overload:SuperOffice.WebApi.Data.PreferenceDescription.MinLevel
   isExternal: true
-  href: SuperOffice.WebApi.Data.PreferenceDescription.html#SuperOffice_WebApi_Data_PreferenceDescription_MinLevel
   name: MinLevel
   nameWithType: PreferenceDescription.MinLevel
   fullName: SuperOffice.WebApi.Data.PreferenceDescription.MinLevel
 - uid: SuperOffice.WebApi.Data.PreferenceDescription.MaxValue*
   commentId: Overload:SuperOffice.WebApi.Data.PreferenceDescription.MaxValue
   isExternal: true
-  href: SuperOffice.WebApi.Data.PreferenceDescription.html#SuperOffice_WebApi_Data_PreferenceDescription_MaxValue
   name: MaxValue
   nameWithType: PreferenceDescription.MaxValue
   fullName: SuperOffice.WebApi.Data.PreferenceDescription.MaxValue
 - uid: SuperOffice.WebApi.Data.PreferenceDescription.MinValue*
   commentId: Overload:SuperOffice.WebApi.Data.PreferenceDescription.MinValue
   isExternal: true
-  href: SuperOffice.WebApi.Data.PreferenceDescription.html#SuperOffice_WebApi_Data_PreferenceDescription_MinValue
   name: MinValue
   nameWithType: PreferenceDescription.MinValue
   fullName: SuperOffice.WebApi.Data.PreferenceDescription.MinValue
 - uid: SuperOffice.WebApi.Data.PreferenceDescription.RequiredLicense*
   commentId: Overload:SuperOffice.WebApi.Data.PreferenceDescription.RequiredLicense
   isExternal: true
-  href: SuperOffice.WebApi.Data.PreferenceDescription.html#SuperOffice_WebApi_Data_PreferenceDescription_RequiredLicense
   name: RequiredLicense
   nameWithType: PreferenceDescription.RequiredLicense
   fullName: SuperOffice.WebApi.Data.PreferenceDescription.RequiredLicense

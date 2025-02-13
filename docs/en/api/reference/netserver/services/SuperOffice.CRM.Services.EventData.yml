@@ -29,27 +29,18 @@ items:
   nameWithType: EventData
   fullName: SuperOffice.CRM.Services.EventData
   type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    EventData containing data related to event handlers
-
-    <p></p>
-
-    Carrier object for EventData.
-
-    Services for the EventData Carrier is available from the <xref href="SuperOffice.CRM.Services.ICustomerServiceAgent?text=CustomerService+Agent" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nEventData containing data related to event handlers\n<p></p>\nCarrier object for EventData.\nServices for the EventData Carrier is available from the <xref href=\"SuperOffice.CRM.Services.ICustomerServiceAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public class EventData : Carrier
+    content: 'public class EventData : Carrier'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
-
-      Public Class EventData Inherits Carrier
+      Public Class EventData
+          Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.CustomerServiceAgent
     commentId: T:SuperOffice.CRM.Services.CustomerServiceAgent
@@ -57,14 +48,12 @@ items:
     commentId: T:SuperOffice.CRM.Services.ICustomerServiceAgent
   inheritance:
   - System.Object
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.EventData.#ctor
   commentId: M:SuperOffice.CRM.Services.EventData.#ctor
   id: '#ctor'
@@ -76,18 +65,21 @@ items:
   nameWithType: EventData.EventData()
   fullName: SuperOffice.CRM.Services.EventData.EventData()
   type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Default constructor
-  example: []
+  summary: "\nDefault constructor\n"
   syntax:
     content: public EventData()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.EventData.#ctor*
-  nameWithType.vb: EventData.New()
-  fullName.vb: SuperOffice.CRM.Services.EventData.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.EventData.ToString
   commentId: M:SuperOffice.CRM.Services.EventData.ToString
   id: ToString
@@ -99,18 +91,26 @@ items:
   nameWithType: EventData.ToString()
   fullName: SuperOffice.CRM.Services.EventData.ToString()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the carrier contents as a formatted string.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string.\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString() As String
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.CRM.Services.EventData.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Services.EventData.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.EventData.ToString(System.String)
   id: ToString(System.String)
@@ -118,18 +118,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(string)
-  nameWithType: EventData.ToString(string)
-  fullName: SuperOffice.CRM.Services.EventData.ToString(string)
+  name: ToString(String)
+  nameWithType: EventData.ToString(String)
+  fullName: SuperOffice.CRM.Services.EventData.ToString(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Returns the carrier contents as a formatted string, useful for debugging.
-
-    Each line in the output is prefixed with the input value.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -141,9 +140,10 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.EventData.ToString*
-  nameWithType.vb: EventData.ToString(String)
-  fullName.vb: SuperOffice.CRM.Services.EventData.ToString(String)
-  name.vb: ToString(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.EventData.Type
   commentId: P:SuperOffice.CRM.Services.EventData.Type
   id: Type
@@ -155,28 +155,28 @@ items:
   nameWithType: EventData.Type
   fullName: SuperOffice.CRM.Services.EventData.Type
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The type of event we are triggered by
-  example: []
+  summary: "\nThe type of event we are triggered by \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual EventHandlerType Type { get; set; }
+    content: public virtual EventHandlerType Type { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.EventHandlerType
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Type As EventHandlerType
+    content.vb: Public Overridable Property Type As EventHandlerType
   overload: SuperOffice.CRM.Services.EventData.Type*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.EventData.InputValues
   commentId: P:SuperOffice.CRM.Services.EventData.InputValues
   id: InputValues
@@ -188,28 +188,28 @@ items:
   nameWithType: EventData.InputValues
   fullName: SuperOffice.CRM.Services.EventData.InputValues
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Environment values sent to the event handler
-  example: []
+  summary: "\nEnvironment values sent to the event handler \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual StringDictionary InputValues { get; set; }
+    content: public virtual StringDictionary InputValues { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.StringDictionary
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property InputValues As StringDictionary
+    content.vb: Public Overridable Property InputValues As StringDictionary
   overload: SuperOffice.CRM.Services.EventData.InputValues*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.EventData.BlockExecution
   commentId: P:SuperOffice.CRM.Services.EventData.BlockExecution
   id: BlockExecution
@@ -221,28 +221,28 @@ items:
   nameWithType: EventData.BlockExecution
   fullName: SuperOffice.CRM.Services.EventData.BlockExecution
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Whether the context should stop what it is doing, e.g. saving a sale
-  example: []
+  summary: "\nWhether the context should stop what it is doing, e.g. saving a sale \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual bool BlockExecution { get; set; }
+    content: public virtual bool BlockExecution { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property BlockExecution As Boolean
+    content.vb: Public Overridable Property BlockExecution As Boolean
   overload: SuperOffice.CRM.Services.EventData.BlockExecution*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.EventData.NavigateTo
   commentId: P:SuperOffice.CRM.Services.EventData.NavigateTo
   id: NavigateTo
@@ -254,28 +254,28 @@ items:
   nameWithType: EventData.NavigateTo
   fullName: SuperOffice.CRM.Services.EventData.NavigateTo
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Where the context should naviate afterwards
-  example: []
+  summary: "\nWhere the context should naviate afterwards \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string NavigateTo { get; set; }
+    content: public virtual string NavigateTo { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property NavigateTo As String
+    content.vb: Public Overridable Property NavigateTo As String
   overload: SuperOffice.CRM.Services.EventData.NavigateTo*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.EventData.Message
   commentId: P:SuperOffice.CRM.Services.EventData.Message
   id: Message
@@ -287,28 +287,28 @@ items:
   nameWithType: EventData.Message
   fullName: SuperOffice.CRM.Services.EventData.Message
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: A message to be presented to the user
-  example: []
+  summary: "\nA message to be presented to the user \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string Message { get; set; }
+    content: public virtual string Message { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Message As String
+    content.vb: Public Overridable Property Message As String
   overload: SuperOffice.CRM.Services.EventData.Message*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.EventData.ShowDialog
   commentId: P:SuperOffice.CRM.Services.EventData.ShowDialog
   id: ShowDialog
@@ -320,28 +320,28 @@ items:
   nameWithType: EventData.ShowDialog
   fullName: SuperOffice.CRM.Services.EventData.ShowDialog
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: JSON structure of dialog to show
-  example: []
+  summary: "\nJSON structure of dialog to show \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string ShowDialog { get; set; }
+    content: public virtual string ShowDialog { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ShowDialog As String
+    content.vb: Public Overridable Property ShowDialog As String
   overload: SuperOffice.CRM.Services.EventData.ShowDialog*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.EventData.OutputValues
   commentId: P:SuperOffice.CRM.Services.EventData.OutputValues
   id: OutputValues
@@ -353,28 +353,28 @@ items:
   nameWithType: EventData.OutputValues
   fullName: SuperOffice.CRM.Services.EventData.OutputValues
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Values sent back to the environment from the event handler
-  example: []
+  summary: "\nValues sent back to the environment from the event handler \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual StringDictionary OutputValues { get; set; }
+    content: public virtual StringDictionary OutputValues { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.StringDictionary
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property OutputValues As StringDictionary
+    content.vb: Public Overridable Property OutputValues As StringDictionary
   overload: SuperOffice.CRM.Services.EventData.OutputValues*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.EventData.StateValues
   commentId: P:SuperOffice.CRM.Services.EventData.StateValues
   id: StateValues
@@ -386,28 +386,28 @@ items:
   nameWithType: EventData.StateValues
   fullName: SuperOffice.CRM.Services.EventData.StateValues
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Values kept between event handlers
-  example: []
+  summary: "\nValues kept between event handlers \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual StringDictionary StateValues { get; set; }
+    content: public virtual StringDictionary StateValues { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.StringDictionary
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property StateValues As StringDictionary
+    content.vb: Public Overridable Property StateValues As StringDictionary
   overload: SuperOffice.CRM.Services.EventData.StateValues*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.EventData.Exception
   commentId: P:SuperOffice.CRM.Services.EventData.Exception
   id: Exception
@@ -419,28 +419,28 @@ items:
   nameWithType: EventData.Exception
   fullName: SuperOffice.CRM.Services.EventData.Exception
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: String containing error message from handler system if it failed
-  example: []
+  summary: "\nString containing error message from handler system if it failed \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string Exception { get; set; }
+    content: public virtual string Exception { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Exception As String
+    content.vb: Public Overridable Property Exception As String
   overload: SuperOffice.CRM.Services.EventData.Exception*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.EventData.ParserValues
   commentId: P:SuperOffice.CRM.Services.EventData.ParserValues
   id: ParserValues
@@ -452,28 +452,28 @@ items:
   nameWithType: EventData.ParserValues
   fullName: SuperOffice.CRM.Services.EventData.ParserValues
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Parser values sent to the event handler
-  example: []
+  summary: "\nParser values sent to the event handler \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual StringDictionary ParserValues { get; set; }
+    content: public virtual StringDictionary ParserValues { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.StringDictionary
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ParserValues As StringDictionary
+    content.vb: Public Overridable Property ParserValues As StringDictionary
   overload: SuperOffice.CRM.Services.EventData.ParserValues*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.EventData.CgiVariables
   commentId: P:SuperOffice.CRM.Services.EventData.CgiVariables
   id: CgiVariables
@@ -485,28 +485,28 @@ items:
   nameWithType: EventData.CgiVariables
   fullName: SuperOffice.CRM.Services.EventData.CgiVariables
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Cgi variables sent by some events
-  example: []
+  summary: "\nCgi variables sent by some events \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual StringDictionary CgiVariables { get; set; }
+    content: public virtual StringDictionary CgiVariables { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.StringDictionary
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property CgiVariables As StringDictionary
+    content.vb: Public Overridable Property CgiVariables As StringDictionary
   overload: SuperOffice.CRM.Services.EventData.CgiVariables*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.EventData.CgiContent
   commentId: P:SuperOffice.CRM.Services.EventData.CgiContent
   id: CgiContent
@@ -518,28 +518,28 @@ items:
   nameWithType: EventData.CgiContent
   fullName: SuperOffice.CRM.Services.EventData.CgiContent
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The Cgi content/body, sent by some events
-  example: []
+  summary: "\nThe Cgi content/body, sent by some events \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string CgiContent { get; set; }
+    content: public virtual string CgiContent { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property CgiContent As String
+    content.vb: Public Overridable Property CgiContent As String
   overload: SuperOffice.CRM.Services.EventData.CgiContent*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.EventData.Headers
   commentId: P:SuperOffice.CRM.Services.EventData.Headers
   id: Headers
@@ -551,28 +551,28 @@ items:
   nameWithType: EventData.Headers
   fullName: SuperOffice.CRM.Services.EventData.Headers
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Incoming headers if sent by the context which the script is executed from
-  example: []
+  summary: "\nIncoming headers if sent by the context which the script is executed from \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual StringDictionary Headers { get; set; }
+    content: public virtual StringDictionary Headers { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.StringDictionary
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Headers As StringDictionary
+    content.vb: Public Overridable Property Headers As StringDictionary
   overload: SuperOffice.CRM.Services.EventData.Headers*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.EventData.TraceExecution
   commentId: P:SuperOffice.CRM.Services.EventData.TraceExecution
   id: TraceExecution
@@ -584,33 +584,38 @@ items:
   nameWithType: EventData.TraceExecution
   fullName: SuperOffice.CRM.Services.EventData.TraceExecution
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: If true, then the execution will be traced
-  example: []
+  summary: "\nIf true, then the execution will be traced \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual bool TraceExecution { get; set; }
+    content: public virtual bool TraceExecution { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property TraceExecution As Boolean
+    content.vb: Public Overridable Property TraceExecution As Boolean
   overload: SuperOffice.CRM.Services.EventData.TraceExecution*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
 - uid: SuperOffice.CRM.Services.CustomerServiceAgent
   commentId: T:SuperOffice.CRM.Services.CustomerServiceAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.CustomerServiceAgent.html
   name: CustomerServiceAgent
   nameWithType: CustomerServiceAgent
   fullName: SuperOffice.CRM.Services.CustomerServiceAgent
@@ -618,79 +623,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.ICustomerServiceAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.ICustomerServiceAgent.html
   name: ICustomerServiceAgent
   nameWithType: ICustomerServiceAgent
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.EventData.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.EventData.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.EventData.html#SuperOffice_CRM_Services_EventData__ctor
   name: EventData
   nameWithType: EventData.EventData
   fullName: SuperOffice.CRM.Services.EventData.EventData
-  nameWithType.vb: EventData.New
-  fullName.vb: SuperOffice.CRM.Services.EventData.New
-  name.vb: New
 - uid: SuperOffice.CRM.Services.EventData.ToString*
   commentId: Overload:SuperOffice.CRM.Services.EventData.ToString
   isExternal: true
-  href: SuperOffice.CRM.Services.EventData.html#SuperOffice_CRM_Services_EventData_ToString
   name: ToString
   nameWithType: EventData.ToString
   fullName: SuperOffice.CRM.Services.EventData.ToString
@@ -698,17 +642,18 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.EventData.Type*
   commentId: Overload:SuperOffice.CRM.Services.EventData.Type
   isExternal: true
-  href: SuperOffice.CRM.Services.EventData.html#SuperOffice_CRM_Services_EventData_Type
   name: Type
   nameWithType: EventData.Type
   fullName: SuperOffice.CRM.Services.EventData.Type
@@ -720,7 +665,6 @@ references:
 - uid: SuperOffice.CRM.Services.EventData.InputValues*
   commentId: Overload:SuperOffice.CRM.Services.EventData.InputValues
   isExternal: true
-  href: SuperOffice.CRM.Services.EventData.html#SuperOffice_CRM_Services_EventData_InputValues
   name: InputValues
   nameWithType: EventData.InputValues
   fullName: SuperOffice.CRM.Services.EventData.InputValues
@@ -732,7 +676,6 @@ references:
 - uid: SuperOffice.CRM.Services.EventData.BlockExecution*
   commentId: Overload:SuperOffice.CRM.Services.EventData.BlockExecution
   isExternal: true
-  href: SuperOffice.CRM.Services.EventData.html#SuperOffice_CRM_Services_EventData_BlockExecution
   name: BlockExecution
   nameWithType: EventData.BlockExecution
   fullName: SuperOffice.CRM.Services.EventData.BlockExecution
@@ -740,87 +683,72 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.CRM.Services.EventData.NavigateTo*
   commentId: Overload:SuperOffice.CRM.Services.EventData.NavigateTo
   isExternal: true
-  href: SuperOffice.CRM.Services.EventData.html#SuperOffice_CRM_Services_EventData_NavigateTo
   name: NavigateTo
   nameWithType: EventData.NavigateTo
   fullName: SuperOffice.CRM.Services.EventData.NavigateTo
 - uid: SuperOffice.CRM.Services.EventData.Message*
   commentId: Overload:SuperOffice.CRM.Services.EventData.Message
   isExternal: true
-  href: SuperOffice.CRM.Services.EventData.html#SuperOffice_CRM_Services_EventData_Message
   name: Message
   nameWithType: EventData.Message
   fullName: SuperOffice.CRM.Services.EventData.Message
 - uid: SuperOffice.CRM.Services.EventData.ShowDialog*
   commentId: Overload:SuperOffice.CRM.Services.EventData.ShowDialog
   isExternal: true
-  href: SuperOffice.CRM.Services.EventData.html#SuperOffice_CRM_Services_EventData_ShowDialog
   name: ShowDialog
   nameWithType: EventData.ShowDialog
   fullName: SuperOffice.CRM.Services.EventData.ShowDialog
 - uid: SuperOffice.CRM.Services.EventData.OutputValues*
   commentId: Overload:SuperOffice.CRM.Services.EventData.OutputValues
   isExternal: true
-  href: SuperOffice.CRM.Services.EventData.html#SuperOffice_CRM_Services_EventData_OutputValues
   name: OutputValues
   nameWithType: EventData.OutputValues
   fullName: SuperOffice.CRM.Services.EventData.OutputValues
 - uid: SuperOffice.CRM.Services.EventData.StateValues*
   commentId: Overload:SuperOffice.CRM.Services.EventData.StateValues
   isExternal: true
-  href: SuperOffice.CRM.Services.EventData.html#SuperOffice_CRM_Services_EventData_StateValues
   name: StateValues
   nameWithType: EventData.StateValues
   fullName: SuperOffice.CRM.Services.EventData.StateValues
 - uid: SuperOffice.CRM.Services.EventData.Exception*
   commentId: Overload:SuperOffice.CRM.Services.EventData.Exception
   isExternal: true
-  href: SuperOffice.CRM.Services.EventData.html#SuperOffice_CRM_Services_EventData_Exception
   name: Exception
   nameWithType: EventData.Exception
   fullName: SuperOffice.CRM.Services.EventData.Exception
 - uid: SuperOffice.CRM.Services.EventData.ParserValues*
   commentId: Overload:SuperOffice.CRM.Services.EventData.ParserValues
   isExternal: true
-  href: SuperOffice.CRM.Services.EventData.html#SuperOffice_CRM_Services_EventData_ParserValues
   name: ParserValues
   nameWithType: EventData.ParserValues
   fullName: SuperOffice.CRM.Services.EventData.ParserValues
 - uid: SuperOffice.CRM.Services.EventData.CgiVariables*
   commentId: Overload:SuperOffice.CRM.Services.EventData.CgiVariables
   isExternal: true
-  href: SuperOffice.CRM.Services.EventData.html#SuperOffice_CRM_Services_EventData_CgiVariables
   name: CgiVariables
   nameWithType: EventData.CgiVariables
   fullName: SuperOffice.CRM.Services.EventData.CgiVariables
 - uid: SuperOffice.CRM.Services.EventData.CgiContent*
   commentId: Overload:SuperOffice.CRM.Services.EventData.CgiContent
   isExternal: true
-  href: SuperOffice.CRM.Services.EventData.html#SuperOffice_CRM_Services_EventData_CgiContent
   name: CgiContent
   nameWithType: EventData.CgiContent
   fullName: SuperOffice.CRM.Services.EventData.CgiContent
 - uid: SuperOffice.CRM.Services.EventData.Headers*
   commentId: Overload:SuperOffice.CRM.Services.EventData.Headers
   isExternal: true
-  href: SuperOffice.CRM.Services.EventData.html#SuperOffice_CRM_Services_EventData_Headers
   name: Headers
   nameWithType: EventData.Headers
   fullName: SuperOffice.CRM.Services.EventData.Headers
 - uid: SuperOffice.CRM.Services.EventData.TraceExecution*
   commentId: Overload:SuperOffice.CRM.Services.EventData.TraceExecution
   isExternal: true
-  href: SuperOffice.CRM.Services.EventData.html#SuperOffice_CRM_Services_EventData_TraceExecution
   name: TraceExecution
   nameWithType: EventData.TraceExecution
   fullName: SuperOffice.CRM.Services.EventData.TraceExecution

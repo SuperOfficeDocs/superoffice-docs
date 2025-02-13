@@ -24,27 +24,18 @@ items:
   nameWithType: PocketStartupData
   fullName: SuperOffice.CRM.Services.PocketStartupData
   type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    The Pocket Service. The service implements pocket specific stuff, like consolidated post-login stuff.
-
-    <p></p>
-
-    Carrier object for PocketStartupData.
-
-    Services for the PocketStartupData Carrier is available from the <xref href="SuperOffice.CRM.Services.IPocketAgent?text=Pocket+Agent" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nThe Pocket Service. The service implements pocket specific stuff, like consolidated post-login stuff.\n<p></p>\nCarrier object for PocketStartupData.\nServices for the PocketStartupData Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IPocketAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public class PocketStartupData : Carrier
+    content: 'public class PocketStartupData : Carrier'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
-
-      Public Class PocketStartupData Inherits Carrier
+      Public Class PocketStartupData
+          Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.PocketAgent
     commentId: T:SuperOffice.CRM.Services.PocketAgent
@@ -52,14 +43,12 @@ items:
     commentId: T:SuperOffice.CRM.Services.IPocketAgent
   inheritance:
   - System.Object
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.PocketStartupData.#ctor
   commentId: M:SuperOffice.CRM.Services.PocketStartupData.#ctor
   id: '#ctor'
@@ -71,18 +60,21 @@ items:
   nameWithType: PocketStartupData.PocketStartupData()
   fullName: SuperOffice.CRM.Services.PocketStartupData.PocketStartupData()
   type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Default constructor
-  example: []
+  summary: "\nDefault constructor\n"
   syntax:
     content: public PocketStartupData()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.PocketStartupData.#ctor*
-  nameWithType.vb: PocketStartupData.New()
-  fullName.vb: SuperOffice.CRM.Services.PocketStartupData.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.PocketStartupData.ToString
   commentId: M:SuperOffice.CRM.Services.PocketStartupData.ToString
   id: ToString
@@ -94,18 +86,26 @@ items:
   nameWithType: PocketStartupData.ToString()
   fullName: SuperOffice.CRM.Services.PocketStartupData.ToString()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the carrier contents as a formatted string.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string.\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString() As String
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.CRM.Services.PocketStartupData.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Services.PocketStartupData.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.PocketStartupData.ToString(System.String)
   id: ToString(System.String)
@@ -113,18 +113,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(string)
-  nameWithType: PocketStartupData.ToString(string)
-  fullName: SuperOffice.CRM.Services.PocketStartupData.ToString(string)
+  name: ToString(String)
+  nameWithType: PocketStartupData.ToString(String)
+  fullName: SuperOffice.CRM.Services.PocketStartupData.ToString(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Returns the carrier contents as a formatted string, useful for debugging.
-
-    Each line in the output is prefixed with the input value.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -136,9 +135,10 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.PocketStartupData.ToString*
-  nameWithType.vb: PocketStartupData.ToString(String)
-  fullName.vb: SuperOffice.CRM.Services.PocketStartupData.ToString(String)
-  name.vb: ToString(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.PocketStartupData.TableRights
   commentId: P:SuperOffice.CRM.Services.PocketStartupData.TableRights
   id: TableRights
@@ -150,28 +150,28 @@ items:
   nameWithType: PocketStartupData.TableRights
   fullName: SuperOffice.CRM.Services.PocketStartupData.TableRights
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: List of tablerights for logged in user, in the same order as the Tables array parameter
-  example: []
+  summary: "\nList of tablerights for logged in user, in the same order as the Tables array parameter \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual ETableRight[] TableRights { get; set; }
+    content: public virtual ETableRight[] TableRights { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.ETableRight[]
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property TableRights As ETableRight()
+    content.vb: Public Overridable Property TableRights As ETableRight()
   overload: SuperOffice.CRM.Services.PocketStartupData.TableRights*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.PocketStartupData.PhoneLocaleTimeZoneData
   commentId: P:SuperOffice.CRM.Services.PocketStartupData.PhoneLocaleTimeZoneData
   id: PhoneLocaleTimeZoneData
@@ -183,28 +183,28 @@ items:
   nameWithType: PocketStartupData.PhoneLocaleTimeZoneData
   fullName: SuperOffice.CRM.Services.PocketStartupData.PhoneLocaleTimeZoneData
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: ''
-  example: []
+  summary: "\n\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual TimeZoneData PhoneLocaleTimeZoneData { get; set; }
+    content: public virtual TimeZoneData PhoneLocaleTimeZoneData { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.TimeZoneData
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property PhoneLocaleTimeZoneData As TimeZoneData
+    content.vb: Public Overridable Property PhoneLocaleTimeZoneData As TimeZoneData
   overload: SuperOffice.CRM.Services.PocketStartupData.PhoneLocaleTimeZoneData*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.PocketStartupData.BaseLocaleTimeZoneData
   commentId: P:SuperOffice.CRM.Services.PocketStartupData.BaseLocaleTimeZoneData
   id: BaseLocaleTimeZoneData
@@ -216,28 +216,28 @@ items:
   nameWithType: PocketStartupData.BaseLocaleTimeZoneData
   fullName: SuperOffice.CRM.Services.PocketStartupData.BaseLocaleTimeZoneData
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: ''
-  example: []
+  summary: "\n\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual TimeZoneData BaseLocaleTimeZoneData { get; set; }
+    content: public virtual TimeZoneData BaseLocaleTimeZoneData { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.TimeZoneData
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property BaseLocaleTimeZoneData As TimeZoneData
+    content.vb: Public Overridable Property BaseLocaleTimeZoneData As TimeZoneData
   overload: SuperOffice.CRM.Services.PocketStartupData.BaseLocaleTimeZoneData*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.PocketStartupData.OverdueSalesCount
   commentId: P:SuperOffice.CRM.Services.PocketStartupData.OverdueSalesCount
   id: OverdueSalesCount
@@ -249,28 +249,28 @@ items:
   nameWithType: PocketStartupData.OverdueSalesCount
   fullName: SuperOffice.CRM.Services.PocketStartupData.OverdueSalesCount
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Number of overdued sales for current user
-  example: []
+  summary: "\nNumber of overdued sales for current user \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int OverdueSalesCount { get; set; }
+    content: public virtual int OverdueSalesCount { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property OverdueSalesCount As Integer
+    content.vb: Public Overridable Property OverdueSalesCount As Integer
   overload: SuperOffice.CRM.Services.PocketStartupData.OverdueSalesCount*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.PocketStartupData.NotificationsCount
   commentId: P:SuperOffice.CRM.Services.PocketStartupData.NotificationsCount
   id: NotificationsCount
@@ -282,28 +282,28 @@ items:
   nameWithType: PocketStartupData.NotificationsCount
   fullName: SuperOffice.CRM.Services.PocketStartupData.NotificationsCount
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Number of new invitations
-  example: []
+  summary: "\nNumber of new invitations \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int NotificationsCount { get; set; }
+    content: public virtual int NotificationsCount { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property NotificationsCount As Integer
+    content.vb: Public Overridable Property NotificationsCount As Integer
   overload: SuperOffice.CRM.Services.PocketStartupData.NotificationsCount*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.PocketStartupData.SystemWebPanels
   commentId: P:SuperOffice.CRM.Services.PocketStartupData.SystemWebPanels
   id: SystemWebPanels
@@ -315,28 +315,28 @@ items:
   nameWithType: PocketStartupData.SystemWebPanels
   fullName: SuperOffice.CRM.Services.PocketStartupData.SystemWebPanels
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Web panels defined in Admin client, set to be shown in Pocket client
-  example: []
+  summary: "\nWeb panels defined in Admin client, set to be shown in Pocket client \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual WebPanelEntity[] SystemWebPanels { get; set; }
+    content: public virtual WebPanelEntity[] SystemWebPanels { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.WebPanelEntity[]
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property SystemWebPanels As WebPanelEntity()
+    content.vb: Public Overridable Property SystemWebPanels As WebPanelEntity()
   overload: SuperOffice.CRM.Services.PocketStartupData.SystemWebPanels*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.PocketStartupData.PocketPreferences
   commentId: P:SuperOffice.CRM.Services.PocketStartupData.PocketPreferences
   id: PocketPreferences
@@ -348,28 +348,28 @@ items:
   nameWithType: PocketStartupData.PocketPreferences
   fullName: SuperOffice.CRM.Services.PocketStartupData.PocketPreferences
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: All Pocket specific preferences, including WebPanels defined by the user in Pocket
-  example: []
+  summary: "\nAll Pocket specific preferences, including WebPanels defined by the user in Pocket \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual Preference[] PocketPreferences { get; set; }
+    content: public virtual Preference[] PocketPreferences { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.Preference[]
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property PocketPreferences As Preference()
+    content.vb: Public Overridable Property PocketPreferences As Preference()
   overload: SuperOffice.CRM.Services.PocketStartupData.PocketPreferences*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.PocketStartupData.IsPushNotificationEnabled
   commentId: P:SuperOffice.CRM.Services.PocketStartupData.IsPushNotificationEnabled
   id: IsPushNotificationEnabled
@@ -381,28 +381,28 @@ items:
   nameWithType: PocketStartupData.IsPushNotificationEnabled
   fullName: SuperOffice.CRM.Services.PocketStartupData.IsPushNotificationEnabled
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Is push notification configured and enabled in Netserver
-  example: []
+  summary: "\nIs push notification configured and enabled in Netserver \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual bool IsPushNotificationEnabled { get; set; }
+    content: public virtual bool IsPushNotificationEnabled { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property IsPushNotificationEnabled As Boolean
+    content.vb: Public Overridable Property IsPushNotificationEnabled As Boolean
   overload: SuperOffice.CRM.Services.PocketStartupData.IsPushNotificationEnabled*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.PocketStartupData.CustomData
   commentId: P:SuperOffice.CRM.Services.PocketStartupData.CustomData
   id: CustomData
@@ -414,33 +414,38 @@ items:
   nameWithType: PocketStartupData.CustomData
   fullName: SuperOffice.CRM.Services.PocketStartupData.CustomData
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Custom data for Pocket, in JSON format
-  example: []
+  summary: "\nCustom data for Pocket, in JSON format \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string CustomData { get; set; }
+    content: public virtual string CustomData { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property CustomData As String
+    content.vb: Public Overridable Property CustomData As String
   overload: SuperOffice.CRM.Services.PocketStartupData.CustomData*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
 - uid: SuperOffice.CRM.Services.PocketAgent
   commentId: T:SuperOffice.CRM.Services.PocketAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.PocketAgent.html
   name: PocketAgent
   nameWithType: PocketAgent
   fullName: SuperOffice.CRM.Services.PocketAgent
@@ -448,79 +453,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.IPocketAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.IPocketAgent.html
   name: IPocketAgent
   nameWithType: IPocketAgent
   fullName: SuperOffice.CRM.Services.IPocketAgent
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.PocketStartupData.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.PocketStartupData.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.PocketStartupData.html#SuperOffice_CRM_Services_PocketStartupData__ctor
   name: PocketStartupData
   nameWithType: PocketStartupData.PocketStartupData
   fullName: SuperOffice.CRM.Services.PocketStartupData.PocketStartupData
-  nameWithType.vb: PocketStartupData.New
-  fullName.vb: SuperOffice.CRM.Services.PocketStartupData.New
-  name.vb: New
 - uid: SuperOffice.CRM.Services.PocketStartupData.ToString*
   commentId: Overload:SuperOffice.CRM.Services.PocketStartupData.ToString
   isExternal: true
-  href: SuperOffice.CRM.Services.PocketStartupData.html#SuperOffice_CRM_Services_PocketStartupData_ToString
   name: ToString
   nameWithType: PocketStartupData.ToString
   fullName: SuperOffice.CRM.Services.PocketStartupData.ToString
@@ -528,17 +472,18 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.PocketStartupData.TableRights*
   commentId: Overload:SuperOffice.CRM.Services.PocketStartupData.TableRights
   isExternal: true
-  href: SuperOffice.CRM.Services.PocketStartupData.html#SuperOffice_CRM_Services_PocketStartupData_TableRights
   name: TableRights
   nameWithType: PocketStartupData.TableRights
   fullName: SuperOffice.CRM.Services.PocketStartupData.TableRights
@@ -553,19 +498,24 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.ETableRight
     name: ETableRight
+    nameWithType: ETableRight
+    fullName: SuperOffice.Data.ETableRight
     isExternal: true
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.Data.ETableRight
     name: ETableRight
+    nameWithType: ETableRight
+    fullName: SuperOffice.Data.ETableRight
     isExternal: true
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.PocketStartupData.PhoneLocaleTimeZoneData*
   commentId: Overload:SuperOffice.CRM.Services.PocketStartupData.PhoneLocaleTimeZoneData
   isExternal: true
-  href: SuperOffice.CRM.Services.PocketStartupData.html#SuperOffice_CRM_Services_PocketStartupData_PhoneLocaleTimeZoneData
   name: PhoneLocaleTimeZoneData
   nameWithType: PocketStartupData.PhoneLocaleTimeZoneData
   fullName: SuperOffice.CRM.Services.PocketStartupData.PhoneLocaleTimeZoneData
@@ -577,14 +527,12 @@ references:
 - uid: SuperOffice.CRM.Services.PocketStartupData.BaseLocaleTimeZoneData*
   commentId: Overload:SuperOffice.CRM.Services.PocketStartupData.BaseLocaleTimeZoneData
   isExternal: true
-  href: SuperOffice.CRM.Services.PocketStartupData.html#SuperOffice_CRM_Services_PocketStartupData_BaseLocaleTimeZoneData
   name: BaseLocaleTimeZoneData
   nameWithType: PocketStartupData.BaseLocaleTimeZoneData
   fullName: SuperOffice.CRM.Services.PocketStartupData.BaseLocaleTimeZoneData
 - uid: SuperOffice.CRM.Services.PocketStartupData.OverdueSalesCount*
   commentId: Overload:SuperOffice.CRM.Services.PocketStartupData.OverdueSalesCount
   isExternal: true
-  href: SuperOffice.CRM.Services.PocketStartupData.html#SuperOffice_CRM_Services_PocketStartupData_OverdueSalesCount
   name: OverdueSalesCount
   nameWithType: PocketStartupData.OverdueSalesCount
   fullName: SuperOffice.CRM.Services.PocketStartupData.OverdueSalesCount
@@ -592,30 +540,23 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Services.PocketStartupData.NotificationsCount*
   commentId: Overload:SuperOffice.CRM.Services.PocketStartupData.NotificationsCount
   isExternal: true
-  href: SuperOffice.CRM.Services.PocketStartupData.html#SuperOffice_CRM_Services_PocketStartupData_NotificationsCount
   name: NotificationsCount
   nameWithType: PocketStartupData.NotificationsCount
   fullName: SuperOffice.CRM.Services.PocketStartupData.NotificationsCount
 - uid: SuperOffice.CRM.Services.PocketStartupData.SystemWebPanels*
   commentId: Overload:SuperOffice.CRM.Services.PocketStartupData.SystemWebPanels
   isExternal: true
-  href: SuperOffice.CRM.Services.PocketStartupData.html#SuperOffice_CRM_Services_PocketStartupData_SystemWebPanels
   name: SystemWebPanels
   nameWithType: PocketStartupData.SystemWebPanels
   fullName: SuperOffice.CRM.Services.PocketStartupData.SystemWebPanels
 - uid: SuperOffice.CRM.Services.WebPanelEntity[]
   isExternal: true
-  href: SuperOffice.CRM.Services.WebPanelEntity.html
   name: WebPanelEntity[]
   nameWithType: WebPanelEntity[]
   fullName: SuperOffice.CRM.Services.WebPanelEntity[]
@@ -625,27 +566,29 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.WebPanelEntity
     name: WebPanelEntity
+    nameWithType: WebPanelEntity
+    fullName: SuperOffice.CRM.Services.WebPanelEntity
     isExternal: true
-    href: SuperOffice.CRM.Services.WebPanelEntity.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.Services.WebPanelEntity
     name: WebPanelEntity
+    nameWithType: WebPanelEntity
+    fullName: SuperOffice.CRM.Services.WebPanelEntity
     isExternal: true
-    href: SuperOffice.CRM.Services.WebPanelEntity.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.PocketStartupData.PocketPreferences*
   commentId: Overload:SuperOffice.CRM.Services.PocketStartupData.PocketPreferences
   isExternal: true
-  href: SuperOffice.CRM.Services.PocketStartupData.html#SuperOffice_CRM_Services_PocketStartupData_PocketPreferences
   name: PocketPreferences
   nameWithType: PocketStartupData.PocketPreferences
   fullName: SuperOffice.CRM.Services.PocketStartupData.PocketPreferences
 - uid: SuperOffice.CRM.Services.Preference[]
   isExternal: true
-  href: SuperOffice.CRM.Services.Preference.html
   name: Preference[]
   nameWithType: Preference[]
   fullName: SuperOffice.CRM.Services.Preference[]
@@ -655,21 +598,24 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.Preference
     name: Preference
+    nameWithType: Preference
+    fullName: SuperOffice.CRM.Services.Preference
     isExternal: true
-    href: SuperOffice.CRM.Services.Preference.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.Services.Preference
     name: Preference
+    nameWithType: Preference
+    fullName: SuperOffice.CRM.Services.Preference
     isExternal: true
-    href: SuperOffice.CRM.Services.Preference.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.PocketStartupData.IsPushNotificationEnabled*
   commentId: Overload:SuperOffice.CRM.Services.PocketStartupData.IsPushNotificationEnabled
   isExternal: true
-  href: SuperOffice.CRM.Services.PocketStartupData.html#SuperOffice_CRM_Services_PocketStartupData_IsPushNotificationEnabled
   name: IsPushNotificationEnabled
   nameWithType: PocketStartupData.IsPushNotificationEnabled
   fullName: SuperOffice.CRM.Services.PocketStartupData.IsPushNotificationEnabled
@@ -677,17 +623,12 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.CRM.Services.PocketStartupData.CustomData*
   commentId: Overload:SuperOffice.CRM.Services.PocketStartupData.CustomData
   isExternal: true
-  href: SuperOffice.CRM.Services.PocketStartupData.html#SuperOffice_CRM_Services_PocketStartupData_CustomData
   name: CustomData
   nameWithType: PocketStartupData.CustomData
   fullName: SuperOffice.CRM.Services.PocketStartupData.CustomData

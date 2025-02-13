@@ -23,21 +23,64 @@ items:
   - SuperOffice.WebApi.Data.StatusScreenPanelType.UserReponseTimePerWeek
   - SuperOffice.WebApi.Data.StatusScreenPanelType.UserResponseTimePerDay
   - SuperOffice.WebApi.Data.StatusScreenPanelType.UserResponseTimePerMonth
+  - SuperOffice.WebApi.Data.StatusScreenPanelType.value__
   langs:
   - csharp
   - vb
   name: StatusScreenPanelType
   nameWithType: StatusScreenPanelType
   fullName: SuperOffice.WebApi.Data.StatusScreenPanelType
-  type: Enum
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: ''
-  example: []
+  summary: "\n\n"
   syntax:
-    content: public enum StatusScreenPanelType
-    content.vb: Public Enum StatusScreenPanelType
+    content: 'public sealed class StatusScreenPanelType : Enum'
+    content.vb: >-
+      Public NotInheritable Class StatusScreenPanelType
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.StatusScreenPanelType.value__
+  commentId: F:SuperOffice.WebApi.Data.StatusScreenPanelType.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.StatusScreenPanelType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: StatusScreenPanelType.value__
+  fullName: SuperOffice.WebApi.Data.StatusScreenPanelType.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.StatusScreenPanelType.None
   commentId: F:SuperOffice.WebApi.Data.StatusScreenPanelType.None
   id: None
@@ -49,26 +92,24 @@ items:
   nameWithType: StatusScreenPanelType.None
   fullName: SuperOffice.WebApi.Data.StatusScreenPanelType.None
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '0:'
-  example: []
+  summary: "\n0: \n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      None = 0
+    content: public const StatusScreenPanelType None
     return:
       type: SuperOffice.WebApi.Data.StatusScreenPanelType
-    content.vb: >-
-      <EnumMember>
-
-      None = 0
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const None As StatusScreenPanelType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.StatusScreenPanelType.OpenRequestsPerCategory
   commentId: F:SuperOffice.WebApi.Data.StatusScreenPanelType.OpenRequestsPerCategory
   id: OpenRequestsPerCategory
@@ -80,26 +121,24 @@ items:
   nameWithType: StatusScreenPanelType.OpenRequestsPerCategory
   fullName: SuperOffice.WebApi.Data.StatusScreenPanelType.OpenRequestsPerCategory
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '1:'
-  example: []
+  summary: "\n1: \n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      OpenRequestsPerCategory = 1
+    content: public const StatusScreenPanelType OpenRequestsPerCategory
     return:
       type: SuperOffice.WebApi.Data.StatusScreenPanelType
-    content.vb: >-
-      <EnumMember>
-
-      OpenRequestsPerCategory = 1
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const OpenRequestsPerCategory As StatusScreenPanelType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.StatusScreenPanelType.OpenRequestsPerTopCategory
   commentId: F:SuperOffice.WebApi.Data.StatusScreenPanelType.OpenRequestsPerTopCategory
   id: OpenRequestsPerTopCategory
@@ -111,26 +150,24 @@ items:
   nameWithType: StatusScreenPanelType.OpenRequestsPerTopCategory
   fullName: SuperOffice.WebApi.Data.StatusScreenPanelType.OpenRequestsPerTopCategory
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '2:'
-  example: []
+  summary: "\n2: \n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      OpenRequestsPerTopCategory = 2
+    content: public const StatusScreenPanelType OpenRequestsPerTopCategory
     return:
       type: SuperOffice.WebApi.Data.StatusScreenPanelType
-    content.vb: >-
-      <EnumMember>
-
-      OpenRequestsPerTopCategory = 2
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const OpenRequestsPerTopCategory As StatusScreenPanelType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.StatusScreenPanelType.OpenRequestsPerUser
   commentId: F:SuperOffice.WebApi.Data.StatusScreenPanelType.OpenRequestsPerUser
   id: OpenRequestsPerUser
@@ -142,26 +179,24 @@ items:
   nameWithType: StatusScreenPanelType.OpenRequestsPerUser
   fullName: SuperOffice.WebApi.Data.StatusScreenPanelType.OpenRequestsPerUser
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '3:'
-  example: []
+  summary: "\n3: \n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      OpenRequestsPerUser = 3
+    content: public const StatusScreenPanelType OpenRequestsPerUser
     return:
       type: SuperOffice.WebApi.Data.StatusScreenPanelType
-    content.vb: >-
-      <EnumMember>
-
-      OpenRequestsPerUser = 3
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const OpenRequestsPerUser As StatusScreenPanelType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.StatusScreenPanelType.OpenRequestsPerUserGroup
   commentId: F:SuperOffice.WebApi.Data.StatusScreenPanelType.OpenRequestsPerUserGroup
   id: OpenRequestsPerUserGroup
@@ -173,26 +208,24 @@ items:
   nameWithType: StatusScreenPanelType.OpenRequestsPerUserGroup
   fullName: SuperOffice.WebApi.Data.StatusScreenPanelType.OpenRequestsPerUserGroup
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '4:'
-  example: []
+  summary: "\n4: \n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      OpenRequestsPerUserGroup = 4
+    content: public const StatusScreenPanelType OpenRequestsPerUserGroup
     return:
       type: SuperOffice.WebApi.Data.StatusScreenPanelType
-    content.vb: >-
-      <EnumMember>
-
-      OpenRequestsPerUserGroup = 4
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const OpenRequestsPerUserGroup As StatusScreenPanelType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.StatusScreenPanelType.OpenRequestsPerPriority
   commentId: F:SuperOffice.WebApi.Data.StatusScreenPanelType.OpenRequestsPerPriority
   id: OpenRequestsPerPriority
@@ -204,26 +237,24 @@ items:
   nameWithType: StatusScreenPanelType.OpenRequestsPerPriority
   fullName: SuperOffice.WebApi.Data.StatusScreenPanelType.OpenRequestsPerPriority
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '5:'
-  example: []
+  summary: "\n5: \n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      OpenRequestsPerPriority = 5
+    content: public const StatusScreenPanelType OpenRequestsPerPriority
     return:
       type: SuperOffice.WebApi.Data.StatusScreenPanelType
-    content.vb: >-
-      <EnumMember>
-
-      OpenRequestsPerPriority = 5
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const OpenRequestsPerPriority As StatusScreenPanelType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.StatusScreenPanelType.OpenRequestsPerStatus
   commentId: F:SuperOffice.WebApi.Data.StatusScreenPanelType.OpenRequestsPerStatus
   id: OpenRequestsPerStatus
@@ -235,26 +266,24 @@ items:
   nameWithType: StatusScreenPanelType.OpenRequestsPerStatus
   fullName: SuperOffice.WebApi.Data.StatusScreenPanelType.OpenRequestsPerStatus
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '6:'
-  example: []
+  summary: "\n6: \n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      OpenRequestsPerStatus = 6
+    content: public const StatusScreenPanelType OpenRequestsPerStatus
     return:
       type: SuperOffice.WebApi.Data.StatusScreenPanelType
-    content.vb: >-
-      <EnumMember>
-
-      OpenRequestsPerStatus = 6
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const OpenRequestsPerStatus As StatusScreenPanelType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.StatusScreenPanelType.OpenRequestsPerOrigin
   commentId: F:SuperOffice.WebApi.Data.StatusScreenPanelType.OpenRequestsPerOrigin
   id: OpenRequestsPerOrigin
@@ -266,26 +295,24 @@ items:
   nameWithType: StatusScreenPanelType.OpenRequestsPerOrigin
   fullName: SuperOffice.WebApi.Data.StatusScreenPanelType.OpenRequestsPerOrigin
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '7:'
-  example: []
+  summary: "\n7: \n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      OpenRequestsPerOrigin = 7
+    content: public const StatusScreenPanelType OpenRequestsPerOrigin
     return:
       type: SuperOffice.WebApi.Data.StatusScreenPanelType
-    content.vb: >-
-      <EnumMember>
-
-      OpenRequestsPerOrigin = 7
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const OpenRequestsPerOrigin As StatusScreenPanelType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.StatusScreenPanelType.NumberOfCreatedRequestsPerDay
   commentId: F:SuperOffice.WebApi.Data.StatusScreenPanelType.NumberOfCreatedRequestsPerDay
   id: NumberOfCreatedRequestsPerDay
@@ -297,26 +324,24 @@ items:
   nameWithType: StatusScreenPanelType.NumberOfCreatedRequestsPerDay
   fullName: SuperOffice.WebApi.Data.StatusScreenPanelType.NumberOfCreatedRequestsPerDay
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '11:'
-  example: []
+  summary: "\n11: \n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      NumberOfCreatedRequestsPerDay = 11
+    content: public const StatusScreenPanelType NumberOfCreatedRequestsPerDay
     return:
       type: SuperOffice.WebApi.Data.StatusScreenPanelType
-    content.vb: >-
-      <EnumMember>
-
-      NumberOfCreatedRequestsPerDay = 11
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const NumberOfCreatedRequestsPerDay As StatusScreenPanelType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.StatusScreenPanelType.NumberOfCreatedRequestsPerWeek
   commentId: F:SuperOffice.WebApi.Data.StatusScreenPanelType.NumberOfCreatedRequestsPerWeek
   id: NumberOfCreatedRequestsPerWeek
@@ -328,26 +353,24 @@ items:
   nameWithType: StatusScreenPanelType.NumberOfCreatedRequestsPerWeek
   fullName: SuperOffice.WebApi.Data.StatusScreenPanelType.NumberOfCreatedRequestsPerWeek
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '12:'
-  example: []
+  summary: "\n12: \n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      NumberOfCreatedRequestsPerWeek = 12
+    content: public const StatusScreenPanelType NumberOfCreatedRequestsPerWeek
     return:
       type: SuperOffice.WebApi.Data.StatusScreenPanelType
-    content.vb: >-
-      <EnumMember>
-
-      NumberOfCreatedRequestsPerWeek = 12
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const NumberOfCreatedRequestsPerWeek As StatusScreenPanelType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.StatusScreenPanelType.NumberOfCreatedRequestsPerMonth
   commentId: F:SuperOffice.WebApi.Data.StatusScreenPanelType.NumberOfCreatedRequestsPerMonth
   id: NumberOfCreatedRequestsPerMonth
@@ -359,26 +382,24 @@ items:
   nameWithType: StatusScreenPanelType.NumberOfCreatedRequestsPerMonth
   fullName: SuperOffice.WebApi.Data.StatusScreenPanelType.NumberOfCreatedRequestsPerMonth
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '13:'
-  example: []
+  summary: "\n13: \n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      NumberOfCreatedRequestsPerMonth = 13
+    content: public const StatusScreenPanelType NumberOfCreatedRequestsPerMonth
     return:
       type: SuperOffice.WebApi.Data.StatusScreenPanelType
-    content.vb: >-
-      <EnumMember>
-
-      NumberOfCreatedRequestsPerMonth = 13
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const NumberOfCreatedRequestsPerMonth As StatusScreenPanelType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.StatusScreenPanelType.UserResponseTimePerDay
   commentId: F:SuperOffice.WebApi.Data.StatusScreenPanelType.UserResponseTimePerDay
   id: UserResponseTimePerDay
@@ -390,26 +411,24 @@ items:
   nameWithType: StatusScreenPanelType.UserResponseTimePerDay
   fullName: SuperOffice.WebApi.Data.StatusScreenPanelType.UserResponseTimePerDay
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '21:'
-  example: []
+  summary: "\n21: \n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      UserResponseTimePerDay = 21
+    content: public const StatusScreenPanelType UserResponseTimePerDay
     return:
       type: SuperOffice.WebApi.Data.StatusScreenPanelType
-    content.vb: >-
-      <EnumMember>
-
-      UserResponseTimePerDay = 21
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const UserResponseTimePerDay As StatusScreenPanelType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.StatusScreenPanelType.UserReponseTimePerWeek
   commentId: F:SuperOffice.WebApi.Data.StatusScreenPanelType.UserReponseTimePerWeek
   id: UserReponseTimePerWeek
@@ -421,26 +440,24 @@ items:
   nameWithType: StatusScreenPanelType.UserReponseTimePerWeek
   fullName: SuperOffice.WebApi.Data.StatusScreenPanelType.UserReponseTimePerWeek
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '22:'
-  example: []
+  summary: "\n22: \n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      UserReponseTimePerWeek = 22
+    content: public const StatusScreenPanelType UserReponseTimePerWeek
     return:
       type: SuperOffice.WebApi.Data.StatusScreenPanelType
-    content.vb: >-
-      <EnumMember>
-
-      UserReponseTimePerWeek = 22
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const UserReponseTimePerWeek As StatusScreenPanelType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.StatusScreenPanelType.UserResponseTimePerMonth
   commentId: F:SuperOffice.WebApi.Data.StatusScreenPanelType.UserResponseTimePerMonth
   id: UserResponseTimePerMonth
@@ -452,26 +469,24 @@ items:
   nameWithType: StatusScreenPanelType.UserResponseTimePerMonth
   fullName: SuperOffice.WebApi.Data.StatusScreenPanelType.UserResponseTimePerMonth
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '23:'
-  example: []
+  summary: "\n23: \n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      UserResponseTimePerMonth = 23
+    content: public const StatusScreenPanelType UserResponseTimePerMonth
     return:
       type: SuperOffice.WebApi.Data.StatusScreenPanelType
-    content.vb: >-
-      <EnumMember>
-
-      UserResponseTimePerMonth = 23
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const UserResponseTimePerMonth As StatusScreenPanelType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.StatusScreenPanelType.OwnOpenRequests
   commentId: F:SuperOffice.WebApi.Data.StatusScreenPanelType.OwnOpenRequests
   id: OwnOpenRequests
@@ -483,26 +498,24 @@ items:
   nameWithType: StatusScreenPanelType.OwnOpenRequests
   fullName: SuperOffice.WebApi.Data.StatusScreenPanelType.OwnOpenRequests
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '101:'
-  example: []
+  summary: "\n101: \n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      OwnOpenRequests = 101
+    content: public const StatusScreenPanelType OwnOpenRequests
     return:
       type: SuperOffice.WebApi.Data.StatusScreenPanelType
-    content.vb: >-
-      <EnumMember>
-
-      OwnOpenRequests = 101
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const OwnOpenRequests As StatusScreenPanelType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.StatusScreenPanelType.UnassignedRequests
   commentId: F:SuperOffice.WebApi.Data.StatusScreenPanelType.UnassignedRequests
   id: UnassignedRequests
@@ -514,26 +527,24 @@ items:
   nameWithType: StatusScreenPanelType.UnassignedRequests
   fullName: SuperOffice.WebApi.Data.StatusScreenPanelType.UnassignedRequests
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '102:'
-  example: []
+  summary: "\n102: \n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      UnassignedRequests = 102
+    content: public const StatusScreenPanelType UnassignedRequests
     return:
       type: SuperOffice.WebApi.Data.StatusScreenPanelType
-    content.vb: >-
-      <EnumMember>
-
-      UnassignedRequests = 102
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const UnassignedRequests As StatusScreenPanelType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.StatusScreenPanelType.Hotlist
   commentId: F:SuperOffice.WebApi.Data.StatusScreenPanelType.Hotlist
   id: Hotlist
@@ -545,26 +556,24 @@ items:
   nameWithType: StatusScreenPanelType.Hotlist
   fullName: SuperOffice.WebApi.Data.StatusScreenPanelType.Hotlist
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '103:'
-  example: []
+  summary: "\n103: \n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Hotlist = 103
+    content: public const StatusScreenPanelType Hotlist
     return:
       type: SuperOffice.WebApi.Data.StatusScreenPanelType
-    content.vb: >-
-      <EnumMember>
-
-      Hotlist = 103
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Hotlist As StatusScreenPanelType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.StatusScreenPanelType.StatusScreen
   commentId: F:SuperOffice.WebApi.Data.StatusScreenPanelType.StatusScreen
   id: StatusScreen
@@ -576,69 +585,55 @@ items:
   nameWithType: StatusScreenPanelType.StatusScreen
   fullName: SuperOffice.WebApi.Data.StatusScreenPanelType.StatusScreen
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '111:'
-  example: []
+  summary: "\n111: \n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      StatusScreen = 111
+    content: public const StatusScreenPanelType StatusScreen
     return:
       type: SuperOffice.WebApi.Data.StatusScreenPanelType
-    content.vb: >-
-      <EnumMember>
-
-      StatusScreen = 111
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const StatusScreen As StatusScreenPanelType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.WebApi.Data.StatusScreenPanelType
   commentId: T:SuperOffice.WebApi.Data.StatusScreenPanelType
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.StatusScreenPanelType.html
   name: StatusScreenPanelType
   nameWithType: StatusScreenPanelType
   fullName: SuperOffice.WebApi.Data.StatusScreenPanelType

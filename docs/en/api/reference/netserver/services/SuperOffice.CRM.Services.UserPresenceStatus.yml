@@ -17,27 +17,18 @@ items:
   nameWithType: UserPresenceStatus
   fullName: SuperOffice.CRM.Services.UserPresenceStatus
   type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Manage present/absent status for a Service user account (influences ticket assignments).
-
-    <p></p>
-
-    Carrier object for UserPresenceStatus.
-
-    Services for the UserPresenceStatus Carrier is available from the <xref href="SuperOffice.CRM.Services.IUserAgent?text=User+Agent" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nManage present/absent status for a Service user account (influences ticket assignments).\n<p></p>\nCarrier object for UserPresenceStatus.\nServices for the UserPresenceStatus Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IUserAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public class UserPresenceStatus
+    content: 'public class UserPresenceStatus : Object'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
-
       Public Class UserPresenceStatus
+          Inherits Object
   seealso:
   - linkId: SuperOffice.CRM.Services.UserAgent
     commentId: T:SuperOffice.CRM.Services.UserAgent
@@ -45,21 +36,12 @@ items:
     commentId: T:SuperOffice.CRM.Services.IUserAgent
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.UserPresenceStatus.#ctor
   commentId: M:SuperOffice.CRM.Services.UserPresenceStatus.#ctor
   id: '#ctor'
@@ -71,18 +53,21 @@ items:
   nameWithType: UserPresenceStatus.UserPresenceStatus()
   fullName: SuperOffice.CRM.Services.UserPresenceStatus.UserPresenceStatus()
   type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Default constructor
-  example: []
+  summary: "\nDefault constructor\n"
   syntax:
     content: public UserPresenceStatus()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.UserPresenceStatus.#ctor*
-  nameWithType.vb: UserPresenceStatus.New()
-  fullName.vb: SuperOffice.CRM.Services.UserPresenceStatus.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.UserPresenceStatus.ToString
   commentId: M:SuperOffice.CRM.Services.UserPresenceStatus.ToString
   id: ToString
@@ -94,19 +79,26 @@ items:
   nameWithType: UserPresenceStatus.ToString()
   fullName: SuperOffice.CRM.Services.UserPresenceStatus.ToString()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the carrier contents as a formatted string.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string.\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString() As String
-  overridden: System.Object.ToString
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.CRM.Services.UserPresenceStatus.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Services.UserPresenceStatus.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.UserPresenceStatus.ToString(System.String)
   id: ToString(System.String)
@@ -114,18 +106,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(string)
-  nameWithType: UserPresenceStatus.ToString(string)
-  fullName: SuperOffice.CRM.Services.UserPresenceStatus.ToString(string)
+  name: ToString(String)
+  nameWithType: UserPresenceStatus.ToString(String)
+  fullName: SuperOffice.CRM.Services.UserPresenceStatus.ToString(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Returns the carrier contents as a formatted string, useful for debugging.
-
-    Each line in the output is prefixed with the input value.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -137,9 +128,10 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.UserPresenceStatus.ToString*
-  nameWithType.vb: UserPresenceStatus.ToString(String)
-  fullName.vb: SuperOffice.CRM.Services.UserPresenceStatus.ToString(String)
-  name.vb: ToString(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.UserPresenceStatus.Status
   commentId: P:SuperOffice.CRM.Services.UserPresenceStatus.Status
   id: Status
@@ -151,28 +143,28 @@ items:
   nameWithType: UserPresenceStatus.Status
   fullName: SuperOffice.CRM.Services.UserPresenceStatus.Status
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The status (enum) for this user.
-  example: []
+  summary: "\nThe status (enum) for this user. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual EjUserStatus Status { get; set; }
+    content: public virtual EjUserStatus Status { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.EjUserStatus
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Status As EjUserStatus
+    content.vb: Public Overridable Property Status As EjUserStatus
   overload: SuperOffice.CRM.Services.UserPresenceStatus.Status*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.UserPresenceStatus.Message
   commentId: P:SuperOffice.CRM.Services.UserPresenceStatus.Message
   id: Message
@@ -184,33 +176,38 @@ items:
   nameWithType: UserPresenceStatus.Message
   fullName: SuperOffice.CRM.Services.UserPresenceStatus.Message
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Comment to add for user when status is not present.
-  example: []
+  summary: "\nComment to add for user when status is not present. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string Message { get; set; }
+    content: public virtual string Message { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Message As String
+    content.vb: Public Overridable Property Message As String
   overload: SuperOffice.CRM.Services.UserPresenceStatus.Message*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
 - uid: SuperOffice.CRM.Services.UserAgent
   commentId: T:SuperOffice.CRM.Services.UserAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.UserAgent.html
   name: UserAgent
   nameWithType: UserAgent
   fullName: SuperOffice.CRM.Services.UserAgent
@@ -218,298 +215,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.IUserAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.IUserAgent.html
   name: IUserAgent
   nameWithType: IUserAgent
   fullName: SuperOffice.CRM.Services.IUserAgent
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.UserPresenceStatus.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.UserPresenceStatus.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.UserPresenceStatus.html#SuperOffice_CRM_Services_UserPresenceStatus__ctor
   name: UserPresenceStatus
   nameWithType: UserPresenceStatus.UserPresenceStatus
   fullName: SuperOffice.CRM.Services.UserPresenceStatus.UserPresenceStatus
-  nameWithType.vb: UserPresenceStatus.New
-  fullName.vb: SuperOffice.CRM.Services.UserPresenceStatus.New
-  name.vb: New
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
 - uid: SuperOffice.CRM.Services.UserPresenceStatus.ToString*
   commentId: Overload:SuperOffice.CRM.Services.UserPresenceStatus.ToString
   isExternal: true
-  href: SuperOffice.CRM.Services.UserPresenceStatus.html#SuperOffice_CRM_Services_UserPresenceStatus_ToString
   name: ToString
   nameWithType: UserPresenceStatus.ToString
   fullName: SuperOffice.CRM.Services.UserPresenceStatus.ToString
@@ -517,17 +234,18 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.UserPresenceStatus.Status*
   commentId: Overload:SuperOffice.CRM.Services.UserPresenceStatus.Status
   isExternal: true
-  href: SuperOffice.CRM.Services.UserPresenceStatus.html#SuperOffice_CRM_Services_UserPresenceStatus_Status
   name: Status
   nameWithType: UserPresenceStatus.Status
   fullName: SuperOffice.CRM.Services.UserPresenceStatus.Status
@@ -540,7 +258,6 @@ references:
 - uid: SuperOffice.CRM.Services.UserPresenceStatus.Message*
   commentId: Overload:SuperOffice.CRM.Services.UserPresenceStatus.Message
   isExternal: true
-  href: SuperOffice.CRM.Services.UserPresenceStatus.html#SuperOffice_CRM_Services_UserPresenceStatus_Message
   name: Message
   nameWithType: UserPresenceStatus.Message
   fullName: SuperOffice.CRM.Services.UserPresenceStatus.Message

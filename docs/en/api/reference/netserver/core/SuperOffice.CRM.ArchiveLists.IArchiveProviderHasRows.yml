@@ -17,20 +17,25 @@ items:
   nameWithType: IArchiveProviderHasRows
   fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows
   type: Interface
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: >-
-    This interface defines the property of having rows of an archive provider. It is implemented by the QueryProviderBase
-
-    and <xref href="SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase" data-throw-if-not-resolved="false"></xref> base classes.
-  example: []
+  summary: "\nThis interface defines the property of having rows of an archive provider. It is implemented by the <see cref=\"!:QueryProviderBase\"></see>\nand <xref href=\"SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase\" data-throw-if-not-resolved=\"false\"></xref> base classes.\n"
   syntax:
     content: public interface IArchiveProviderHasRows
     content.vb: Public Interface IArchiveProviderHasRows
   extensionMethods:
   - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.EnumUtil.MapEnums``2
   - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
 - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetRows(System.String)
   commentId: M:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetRows(System.String)
   id: GetRows(System.String)
@@ -38,51 +43,34 @@ items:
   langs:
   - csharp
   - vb
-  name: GetRows(string)
-  nameWithType: IArchiveProviderHasRows.GetRows(string)
-  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetRows(string)
+  name: GetRows(String)
+  nameWithType: IArchiveProviderHasRows.GetRows(String)
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetRows(System.String)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: >-
-    Start the query and return an iterator. The .Current property will be a valid ArchiveRow containing one row, as long as 
-
-    a previous call to .MoveNext returned true. This is the standard semantics for an iterator. Do remember to call Close afterwards,
-
-    to clean up all resources.
-  remarks: >-
-    You can use the foreach keyword to iterate over rows, like this:
-
-    <pre><code class="lang-csharp">IArchiveProvider provider = ArchiveProviderFactory.Create("person");
-
-    // not shown - set desired columns, entities, restrictions, paging
-
-    foreach( ArchiveRow row in provider.GetRows() )
-
-    {
-    	// process row here
-    }
-
-    provider.Close();</code></pre>
-  example: []
+  summary: "\nStart the query and return an iterator. The .Current property will be a valid ArchiveRow containing one row, as long as \na previous call to .MoveNext returned true. This is the standard semantics for an iterator. Do remember to call Close afterwards,\nto clean up all resources.\n"
+  remarks: "\nYou can use the foreach keyword to iterate over rows, like this:\n<pre><code>IArchiveProvider provider = ArchiveProviderFactory.Create(&quot;person&quot;);\n// not shown - set desired columns, entities, restrictions, paging\nforeach( ArchiveRow row in provider.GetRows() )\n{\n	// process row here\n}\nprovider.Close();</code></pre>\n"
   syntax:
     content: IEnumerable<ArchiveRow> GetRows(string options)
     parameters:
     - id: options
       type: System.String
-      description: >-
+      description: >
         A set of options, using the query string format (name=value&amp;...). Can be null or empty.
-                    <table><thead><tr><th class="term">Option</th><th class="description">Purpose/effect</th></tr></thead><tbody><tr><td class="term">countrows=true</td><td class="description">Prepare to return a count of the full result set</td></tr></tbody></table>
-                    Options set here may trigger additional, asynchronous processing that will prepare results for the GetInformation method, if possible.
+
+        <table><thead><tr><th>Option</th><th>Purpose/effect</th></tr></thead><tbody><tr><td>countrows=true</td><td>Prepare to return a count of the full result set</td></tr></tbody></table>
+
+        Options set here may trigger additional, asynchronous processing that will prepare results for the GetInformation method, if possible.
     return:
       type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.ArchiveLists.ArchiveRow}
       description: An iterator, following the usual conventions. MoveNext will return false when there are no more rows, which can either be because the result set is exhausted, or because the page size has been reached
     content.vb: Function GetRows(options As String) As IEnumerable(Of ArchiveRow)
   overload: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetRows*
-  nameWithType.vb: IArchiveProviderHasRows.GetRows(String)
-  fullName.vb: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetRows(String)
-  name.vb: GetRows(String)
 - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetReader(System.String)
   commentId: M:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetReader(System.String)
   id: GetReader(System.String)
@@ -90,34 +78,26 @@ items:
   langs:
   - csharp
   - vb
-  name: GetReader(string)
-  nameWithType: IArchiveProviderHasRows.GetReader(string)
-  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetReader(string)
+  name: GetReader(String)
+  nameWithType: IArchiveProviderHasRows.GetReader(String)
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetReader(System.String)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: >-
-    Start the reader and return an IDataReader (which, as we remember, also inherits IDataRecord for access to
-
-    individual data fields). This provides an alternative, more generic and more standards-based interface to
-
-    data. Use <b>either</b> GetRows <b>or</b> GetReader on any particular archive provider instance.
-  example: []
+  summary: "\nStart the reader and return an IDataReader (which, as we remember, also inherits IDataRecord for access to\nindividual data fields). This provides an alternative, more generic and more standards-based interface to\ndata. Use <strong>either</strong> GetRows <strong>or</strong> GetReader on any particular archive provider instance.\n"
   syntax:
     content: IDataReader GetReader(string options)
     parameters:
     - id: options
       type: System.String
-      description: ''
     return:
       type: System.Data.IDataReader
-      description: ''
     content.vb: Function GetReader(options As String) As IDataReader
   overload: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetReader*
-  nameWithType.vb: IArchiveProviderHasRows.GetReader(String)
-  fullName.vb: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetReader(String)
-  name.vb: GetReader(String)
 - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetResultInformation
   commentId: M:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetResultInformation
   id: GetResultInformation
@@ -129,22 +109,18 @@ items:
   nameWithType: IArchiveProviderHasRows.GetResultInformation()
   fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetResultInformation()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: >-
-    Get additional information about the result, such as row count or other optional items. This method should be called some time after
-
-    GetRows, but before Close. Delaying calls to this method as long as possible will give its (asynchronous) internal counterpart
-
-    more time to complete and lessen the response-time impact of calling it.
-  example: []
+  summary: "\nGet additional information about the result, such as row count or other optional items. This method should be called some time after\nGetRows, but before Close. Delaying calls to this method as long as possible will give its (asynchronous) internal counterpart\nmore time to complete and lessen the response-time impact of calling it.\n"
   syntax:
     content: ArchiveResultInformation GetResultInformation()
     return:
       type: SuperOffice.CRM.ArchiveLists.ArchiveResultInformation
-      description: ''
-    content.vb: Function GetResultInformation() As ArchiveResultInformation
+    content.vb: Function GetResultInformation As ArchiveResultInformation
   overload: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetResultInformation*
 - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.Close
   commentId: M:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.Close
@@ -157,17 +133,16 @@ items:
   nameWithType: IArchiveProviderHasRows.Close()
   fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.Close()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: >-
-    Call this method after the last desired row has been read; this gives the provider the chance
-
-    to close and free any underlying queries
-  example: []
+  summary: "\nCall this method after the last desired row has been read; this gives the provider the chance\nto close and free any underlying queries\n"
   syntax:
     content: void Close()
-    content.vb: Sub Close()
+    content.vb: Sub Close
   overload: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.Close*
 - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.SetPagingInfo(System.Int32,System.Int32)
   commentId: M:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.SetPagingInfo(System.Int32,System.Int32)
@@ -176,22 +151,17 @@ items:
   langs:
   - csharp
   - vb
-  name: SetPagingInfo(int, int)
-  nameWithType: IArchiveProviderHasRows.SetPagingInfo(int, int)
-  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.SetPagingInfo(int, int)
+  name: SetPagingInfo(Int32, Int32)
+  nameWithType: IArchiveProviderHasRows.SetPagingInfo(Int32, Int32)
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.SetPagingInfo(System.Int32, System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: >-
-    Set the paging properties of the provider. The default is to fetch page zero, of one thousand (1000) rows. A more reasonable page size
-
-    is probably around 100. Note that the query processing strategy may change for very large pages (more than 1000) and give significantly
-
-    longer response times. Performance is improved by setting the page size low, as long as you don't set it lower than what you
-
-    realistically expect to need (fetching multiple pages is more expensive than fetching one).
-  example: []
+  summary: "\nSet the paging properties of the provider. The default is to fetch page zero, of one thousand (1000) rows. A more reasonable page size\nis probably around 100. Note that the query processing strategy may change for very large pages (more than 1000) and give significantly\nlonger response times. Performance is improved by setting the page size low, as long as you don&apos;t set it lower than what you\nrealistically expect to need (fetching multiple pages is more expensive than fetching one).\n"
   syntax:
     content: void SetPagingInfo(int pageSize, int pageNumber)
     parameters:
@@ -203,165 +173,84 @@ items:
       description: Desired page number to return
     content.vb: Sub SetPagingInfo(pageSize As Integer, pageNumber As Integer)
   overload: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.SetPagingInfo*
-  nameWithType.vb: IArchiveProviderHasRows.SetPagingInfo(Integer, Integer)
-  fullName.vb: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.SetPagingInfo(Integer, Integer)
-  name.vb: SetPagingInfo(Integer, Integer)
 references:
-- uid: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase
-  commentId: T:SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase
-  parent: SuperOffice.CRM.ArchiveLists
-  isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase.html
-  name: MultiQueryProviderBase
-  nameWithType: MultiQueryProviderBase
-  fullName: SuperOffice.CRM.ArchiveLists.MultiQueryProviderBase
 - uid: SuperOffice.CRM.ArchiveLists
   commentId: N:SuperOffice.CRM.ArchiveLists
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.ArchiveLists
   nameWithType: SuperOffice.CRM.ArchiveLists
   fullName: SuperOffice.CRM.ArchiveLists
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.ArchiveLists
-    name: ArchiveLists
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.ArchiveLists
-    name: ArchiveLists
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.html
 - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<IArchiveProviderHasRows, To>(IArchiveProviderHasRows)
-  nameWithType: EnumUtil.MapEnums<IArchiveProviderHasRows, To>(IArchiveProviderHasRows)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows, To>(SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows)
-  nameWithType.vb: EnumUtil.MapEnums(Of IArchiveProviderHasRows, To)(IArchiveProviderHasRows)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows, To)(SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows)
-  name.vb: MapEnums(Of IArchiveProviderHasRows, To)(IArchiveProviderHasRows)
+  name: MapEnums<IArchiveProviderHasRows, To>()
+  nameWithType: EnumUtil.MapEnums<IArchiveProviderHasRows, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of IArchiveProviderHasRows, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows, To)()
+  name.vb: MapEnums(Of IArchiveProviderHasRows, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<IArchiveProviderHasRows, To>
+    nameWithType: EnumUtil.MapEnums<IArchiveProviderHasRows, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows
-    name: IArchiveProviderHasRows
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows
-    name: IArchiveProviderHasRows
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of IArchiveProviderHasRows, To)
+    nameWithType: EnumUtil.MapEnums(Of IArchiveProviderHasRows, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows
-    name: IArchiveProviderHasRows
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows
-    name: IArchiveProviderHasRows
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<IArchiveProviderHasRows, To>(IArchiveProviderHasRows)
-  nameWithType: Converters.MapEnums<IArchiveProviderHasRows, To>(IArchiveProviderHasRows)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows, To>(SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows)
-  nameWithType.vb: Converters.MapEnums(Of IArchiveProviderHasRows, To)(IArchiveProviderHasRows)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows, To)(SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows)
-  name.vb: MapEnums(Of IArchiveProviderHasRows, To)(IArchiveProviderHasRows)
+  name: MapEnums<IArchiveProviderHasRows, To>()
+  nameWithType: Converters.MapEnums<IArchiveProviderHasRows, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows, To>()
+  nameWithType.vb: Converters.MapEnums(Of IArchiveProviderHasRows, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows, To)()
+  name.vb: MapEnums(Of IArchiveProviderHasRows, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<IArchiveProviderHasRows, To>
+    nameWithType: Converters.MapEnums<IArchiveProviderHasRows, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows
-    name: IArchiveProviderHasRows
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows
-    name: IArchiveProviderHasRows
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of IArchiveProviderHasRows, To)
+    nameWithType: Converters.MapEnums(Of IArchiveProviderHasRows, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows
-    name: IArchiveProviderHasRows
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows
-    name: IArchiveProviderHasRows
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -370,45 +259,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -417,83 +304,50 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetRows*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetRows
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.html#SuperOffice_CRM_ArchiveLists_IArchiveProviderHasRows_GetRows_System_String_
   name: GetRows
   nameWithType: IArchiveProviderHasRows.GetRows
   fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetRows
@@ -501,18 +355,12 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.ArchiveLists.ArchiveRow}
-  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.CRM.ArchiveLists.ArchiveRow}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.ArchiveLists.ArchiveRow}'
   definition: System.Collections.Generic.IEnumerable`1
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   name: IEnumerable<ArchiveRow>
   nameWithType: IEnumerable<ArchiveRow>
   fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.ArchiveLists.ArchiveRow>
@@ -522,143 +370,95 @@ references:
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
     name: ArchiveRow
+    nameWithType: ArchiveRow
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow
     isExternal: true
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
     name: ArchiveRow
+    nameWithType: ArchiveRow
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow
     isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: System.Collections.Generic.IEnumerable`1
-  commentId: T:System.Collections.Generic.IEnumerable`1
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  name: IEnumerable<T>
-  nameWithType: IEnumerable<T>
-  fullName: System.Collections.Generic.IEnumerable<T>
-  nameWithType.vb: IEnumerable(Of T)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
-  name.vb: IEnumerable(Of T)
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
-  - name: T
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetReader*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetReader
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.html#SuperOffice_CRM_ArchiveLists_IArchiveProviderHasRows_GetReader_System_String_
   name: GetReader
   nameWithType: IArchiveProviderHasRows.GetReader
   fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetReader
 - uid: System.Data.IDataReader
-  commentId: T:System.Data.IDataReader
-  parent: System.Data
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.data.idatareader
   name: IDataReader
   nameWithType: IDataReader
   fullName: System.Data.IDataReader
-- uid: System.Data
-  commentId: N:System.Data
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Data
-  nameWithType: System.Data
-  fullName: System.Data
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Data
-    name: Data
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.data
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Data
-    name: Data
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.data
 - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetResultInformation*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetResultInformation
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.html#SuperOffice_CRM_ArchiveLists_IArchiveProviderHasRows_GetResultInformation
   name: GetResultInformation
   nameWithType: IArchiveProviderHasRows.GetResultInformation
   fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetResultInformation
@@ -666,21 +466,18 @@ references:
   commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveResultInformation
   parent: SuperOffice.CRM.ArchiveLists
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.ArchiveResultInformation.html
   name: ArchiveResultInformation
   nameWithType: ArchiveResultInformation
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveResultInformation
 - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.Close*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.Close
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.html#SuperOffice_CRM_ArchiveLists_IArchiveProviderHasRows_Close
   name: Close
   nameWithType: IArchiveProviderHasRows.Close
   fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.Close
 - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.SetPagingInfo*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.SetPagingInfo
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.html#SuperOffice_CRM_ArchiveLists_IArchiveProviderHasRows_SetPagingInfo_System_Int32_System_Int32_
   name: SetPagingInfo
   nameWithType: IArchiveProviderHasRows.SetPagingInfo
   fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.SetPagingInfo
@@ -688,10 +485,6 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

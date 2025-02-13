@@ -11,9 +11,9 @@ items:
   - SuperOffice.WebApi.Agents.IDashboardAgent.DeleteDashboardAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IDashboardAgent.DeleteDashboardTileAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IDashboardAgent.GetDashboardAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IDashboardAgent.GetDashboardsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IDashboardAgent.GetDashboardTileAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IDashboardAgent.GetDashboardTilesAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
-  - SuperOffice.WebApi.Agents.IDashboardAgent.GetDashboardsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IDashboardAgent.GetDataAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IDashboardAgent.GetDataWithSelectionAsync(System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IDashboardAgent.GetStandardDashboardTileFromChartIdAsync(System.String,SuperOffice.WebApi.RequestOptions)
@@ -27,16 +27,24 @@ items:
   nameWithType: IDashboardAgent
   fullName: SuperOffice.WebApi.Agents.IDashboardAgent
   type: Interface
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Agent lets you configure dashboard tiles and retrieve dashboard data
-  example: []
+  summary: "\nAgent lets you configure dashboard tiles and retrieve dashboard data\n"
   syntax:
     content: 'public interface IDashboardAgent : IDisposable'
-    content.vb: Public Interface IDashboardAgent Inherits IDisposable
-  inheritedMembers:
-  - System.IDisposable.Dispose
+    content.vb: >-
+      Public Interface IDashboardAgent
+          Inherits IDisposable
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
 - uid: SuperOffice.WebApi.Agents.IDashboardAgent.CreateDefaultDashboardAsync(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IDashboardAgent.CreateDefaultDashboardAsync(SuperOffice.WebApi.RequestOptions)
   id: CreateDefaultDashboardAsync(SuperOffice.WebApi.RequestOptions)
@@ -48,20 +56,19 @@ items:
   nameWithType: IDashboardAgent.CreateDefaultDashboardAsync(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IDashboardAgent.CreateDefaultDashboardAsync(SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: >-
-    Set default values into a new Dashboard.
-
-    NetServer calculates default values on the entity, which is required when creating/storing a new instance
-  example: []
+  summary: "\nSet default values into a new Dashboard.\nNetServer calculates default values on the entity, which is required when creating/storing a new instance\n"
   syntax:
     content: Task<Dashboard> CreateDefaultDashboardAsync(RequestOptions requestOptions = null)
     parameters:
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Dashboard}
       description: A blank Dashboard
@@ -78,11 +85,13 @@ items:
   nameWithType: IDashboardAgent.SaveDashboardAsync(Dashboard, RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IDashboardAgent.SaveDashboardAsync(SuperOffice.WebApi.Data.Dashboard, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Updates the existing Dashboard or creates a new Dashboard if the id parameter is 0.
-  example: []
+  summary: "\nUpdates the existing Dashboard or creates a new Dashboard if the id parameter is 0. \n"
   syntax:
     content: Task<Dashboard> SaveDashboardAsync(Dashboard dashboard, RequestOptions requestOptions = null)
     parameters:
@@ -91,7 +100,7 @@ items:
       description: The Dashboard that is saved.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Dashboard}
       description: New or updated Dashboard
@@ -104,15 +113,17 @@ items:
   langs:
   - csharp
   - vb
-  name: DeleteDashboardAsync(int, RequestOptions)
-  nameWithType: IDashboardAgent.DeleteDashboardAsync(int, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IDashboardAgent.DeleteDashboardAsync(int, SuperOffice.WebApi.RequestOptions)
+  name: DeleteDashboardAsync(Int32, RequestOptions)
+  nameWithType: IDashboardAgent.DeleteDashboardAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IDashboardAgent.DeleteDashboardAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Deletes the Dashboard
-  example: []
+  summary: "\nDeletes the Dashboard\n"
   syntax:
     content: Task DeleteDashboardAsync(int dashboardId, RequestOptions requestOptions = null)
     parameters:
@@ -121,14 +132,11 @@ items:
       description: The identity of the Dashboard
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task
     content.vb: Function DeleteDashboardAsync(dashboardId As Integer, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.IDashboardAgent.DeleteDashboardAsync*
-  nameWithType.vb: IDashboardAgent.DeleteDashboardAsync(Integer, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IDashboardAgent.DeleteDashboardAsync(Integer, SuperOffice.WebApi.RequestOptions)
-  name.vb: DeleteDashboardAsync(Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IDashboardAgent.CreateDefaultDashboardTileAsync(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IDashboardAgent.CreateDefaultDashboardTileAsync(SuperOffice.WebApi.RequestOptions)
   id: CreateDefaultDashboardTileAsync(SuperOffice.WebApi.RequestOptions)
@@ -140,20 +148,19 @@ items:
   nameWithType: IDashboardAgent.CreateDefaultDashboardTileAsync(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IDashboardAgent.CreateDefaultDashboardTileAsync(SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: >-
-    Set default values into a new DashboardTile.
-
-    NetServer calculates default values on the entity, which is required when creating/storing a new instance
-  example: []
+  summary: "\nSet default values into a new DashboardTile.\nNetServer calculates default values on the entity, which is required when creating/storing a new instance\n"
   syntax:
     content: Task<DashboardTile> CreateDefaultDashboardTileAsync(RequestOptions requestOptions = null)
     parameters:
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.DashboardTile}
       description: A blank DashboardTile
@@ -170,11 +177,13 @@ items:
   nameWithType: IDashboardAgent.SaveDashboardTileAsync(DashboardTile, RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IDashboardAgent.SaveDashboardTileAsync(SuperOffice.WebApi.Data.DashboardTile, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Updates the existing DashboardTile or creates a new DashboardTile if the id parameter is 0.
-  example: []
+  summary: "\nUpdates the existing DashboardTile or creates a new DashboardTile if the id parameter is 0. \n"
   syntax:
     content: Task<DashboardTile> SaveDashboardTileAsync(DashboardTile dashboardTile, RequestOptions requestOptions = null)
     parameters:
@@ -183,7 +192,7 @@ items:
       description: The DashboardTile that is saved.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.DashboardTile}
       description: New or updated DashboardTile
@@ -196,15 +205,17 @@ items:
   langs:
   - csharp
   - vb
-  name: DeleteDashboardTileAsync(int, RequestOptions)
-  nameWithType: IDashboardAgent.DeleteDashboardTileAsync(int, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IDashboardAgent.DeleteDashboardTileAsync(int, SuperOffice.WebApi.RequestOptions)
+  name: DeleteDashboardTileAsync(Int32, RequestOptions)
+  nameWithType: IDashboardAgent.DeleteDashboardTileAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IDashboardAgent.DeleteDashboardTileAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Deletes the DashboardTile
-  example: []
+  summary: "\nDeletes the DashboardTile\n"
   syntax:
     content: Task DeleteDashboardTileAsync(int dashboardTileId, RequestOptions requestOptions = null)
     parameters:
@@ -213,14 +224,11 @@ items:
       description: The identity of the DashboardTile
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task
     content.vb: Function DeleteDashboardTileAsync(dashboardTileId As Integer, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.IDashboardAgent.DeleteDashboardTileAsync*
-  nameWithType.vb: IDashboardAgent.DeleteDashboardTileAsync(Integer, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IDashboardAgent.DeleteDashboardTileAsync(Integer, SuperOffice.WebApi.RequestOptions)
-  name.vb: DeleteDashboardTileAsync(Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IDashboardAgent.GetDashboardAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IDashboardAgent.GetDashboardAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   id: GetDashboardAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -228,15 +236,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetDashboardAsync(int, RequestOptions)
-  nameWithType: IDashboardAgent.GetDashboardAsync(int, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IDashboardAgent.GetDashboardAsync(int, SuperOffice.WebApi.RequestOptions)
+  name: GetDashboardAsync(Int32, RequestOptions)
+  nameWithType: IDashboardAgent.GetDashboardAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IDashboardAgent.GetDashboardAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Gets a specific Dashboard object.
-  example: []
+  summary: "\nGets a specific Dashboard object.                        \n"
   syntax:
     content: Task<Dashboard> GetDashboardAsync(int dashboardId, RequestOptions requestOptions = null)
     parameters:
@@ -245,15 +255,12 @@ items:
       description: The identifier of the Dashboard object
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Dashboard}
       description: Dashboard
     content.vb: Function GetDashboardAsync(dashboardId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Dashboard)
   overload: SuperOffice.WebApi.Agents.IDashboardAgent.GetDashboardAsync*
-  nameWithType.vb: IDashboardAgent.GetDashboardAsync(Integer, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IDashboardAgent.GetDashboardAsync(Integer, SuperOffice.WebApi.RequestOptions)
-  name.vb: GetDashboardAsync(Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IDashboardAgent.GetDashboardsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IDashboardAgent.GetDashboardsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   id: GetDashboardsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -261,15 +268,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetDashboardsAsync(int, RequestOptions)
-  nameWithType: IDashboardAgent.GetDashboardsAsync(int, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IDashboardAgent.GetDashboardsAsync(int, SuperOffice.WebApi.RequestOptions)
+  name: GetDashboardsAsync(Int32, RequestOptions)
+  nameWithType: IDashboardAgent.GetDashboardsAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IDashboardAgent.GetDashboardsAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Gets all dashboards for an associate
-  example: []
+  summary: "\nGets all dashboards for an associate\n"
   syntax:
     content: Task<Dashboard[]> GetDashboardsAsync(int associateId, RequestOptions requestOptions = null)
     parameters:
@@ -278,15 +287,12 @@ items:
       description: Associate Id
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Dashboard[]}
       description: All the users dashboards
     content.vb: Function GetDashboardsAsync(associateId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Dashboard())
   overload: SuperOffice.WebApi.Agents.IDashboardAgent.GetDashboardsAsync*
-  nameWithType.vb: IDashboardAgent.GetDashboardsAsync(Integer, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IDashboardAgent.GetDashboardsAsync(Integer, SuperOffice.WebApi.RequestOptions)
-  name.vb: GetDashboardsAsync(Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IDashboardAgent.SetTileAsync(System.Int32,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IDashboardAgent.SetTileAsync(System.Int32,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
   id: SetTileAsync(System.Int32,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -294,15 +300,17 @@ items:
   langs:
   - csharp
   - vb
-  name: SetTileAsync(int, int, int, RequestOptions)
-  nameWithType: IDashboardAgent.SetTileAsync(int, int, int, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IDashboardAgent.SetTileAsync(int, int, int, SuperOffice.WebApi.RequestOptions)
+  name: SetTileAsync(Int32, Int32, Int32, RequestOptions)
+  nameWithType: IDashboardAgent.SetTileAsync(Int32, Int32, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IDashboardAgent.SetTileAsync(System.Int32, System.Int32, System.Int32, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Sets tile in the given dashboard position
-  example: []
+  summary: "\nSets tile in the given dashboard position\n"
   syntax:
     content: Task<Dashboard> SetTileAsync(int dashboardId, int tileId, int position, RequestOptions requestOptions = null)
     parameters:
@@ -317,15 +325,12 @@ items:
       description: Tile position in the dashboard
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Dashboard}
       description: The new dashboard is returned after the tile change
     content.vb: Function SetTileAsync(dashboardId As Integer, tileId As Integer, position As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Dashboard)
   overload: SuperOffice.WebApi.Agents.IDashboardAgent.SetTileAsync*
-  nameWithType.vb: IDashboardAgent.SetTileAsync(Integer, Integer, Integer, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IDashboardAgent.SetTileAsync(Integer, Integer, Integer, SuperOffice.WebApi.RequestOptions)
-  name.vb: SetTileAsync(Integer, Integer, Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IDashboardAgent.GetDashboardTileAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IDashboardAgent.GetDashboardTileAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   id: GetDashboardTileAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -333,15 +338,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetDashboardTileAsync(int, RequestOptions)
-  nameWithType: IDashboardAgent.GetDashboardTileAsync(int, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IDashboardAgent.GetDashboardTileAsync(int, SuperOffice.WebApi.RequestOptions)
+  name: GetDashboardTileAsync(Int32, RequestOptions)
+  nameWithType: IDashboardAgent.GetDashboardTileAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IDashboardAgent.GetDashboardTileAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Gets a specific DashboardTile object.
-  example: []
+  summary: "\nGets a specific DashboardTile object.                        \n"
   syntax:
     content: Task<DashboardTile> GetDashboardTileAsync(int dashboardTileId, RequestOptions requestOptions = null)
     parameters:
@@ -350,15 +357,12 @@ items:
       description: The identifier of the DashboardTile object
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.DashboardTile}
       description: DashboardTile
     content.vb: Function GetDashboardTileAsync(dashboardTileId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of DashboardTile)
   overload: SuperOffice.WebApi.Agents.IDashboardAgent.GetDashboardTileAsync*
-  nameWithType.vb: IDashboardAgent.GetDashboardTileAsync(Integer, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IDashboardAgent.GetDashboardTileAsync(Integer, SuperOffice.WebApi.RequestOptions)
-  name.vb: GetDashboardTileAsync(Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IDashboardAgent.GetDashboardTilesAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IDashboardAgent.GetDashboardTilesAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   id: GetDashboardTilesAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
@@ -366,15 +370,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetDashboardTilesAsync(int[], RequestOptions)
-  nameWithType: IDashboardAgent.GetDashboardTilesAsync(int[], RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IDashboardAgent.GetDashboardTilesAsync(int[], SuperOffice.WebApi.RequestOptions)
+  name: GetDashboardTilesAsync(Int32[], RequestOptions)
+  nameWithType: IDashboardAgent.GetDashboardTilesAsync(Int32[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IDashboardAgent.GetDashboardTilesAsync(System.Int32[], SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Gets an array of dashboard tiles for the provided ids
-  example: []
+  summary: "\nGets an array of dashboard tiles for the provided ids\n"
   syntax:
     content: Task<DashboardTile[]> GetDashboardTilesAsync(int[] dashboardTileIds, RequestOptions requestOptions = null)
     parameters:
@@ -383,15 +389,15 @@ items:
       description: The ids of the tiles to get
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.DashboardTile[]}
       description: Dashboard tiles
     content.vb: Function GetDashboardTilesAsync(dashboardTileIds As Integer(), requestOptions As RequestOptions = Nothing) As Task(Of DashboardTile())
   overload: SuperOffice.WebApi.Agents.IDashboardAgent.GetDashboardTilesAsync*
-  nameWithType.vb: IDashboardAgent.GetDashboardTilesAsync(Integer(), RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IDashboardAgent.GetDashboardTilesAsync(Integer(), SuperOffice.WebApi.RequestOptions)
-  name.vb: GetDashboardTilesAsync(Integer(), RequestOptions)
+  nameWithType.vb: IDashboardAgent.GetDashboardTilesAsync(Int32(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IDashboardAgent.GetDashboardTilesAsync(System.Int32(), SuperOffice.WebApi.RequestOptions)
+  name.vb: GetDashboardTilesAsync(Int32(), RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IDashboardAgent.GetStandardDashboardTileFromChartIdAsync(System.String,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IDashboardAgent.GetStandardDashboardTileFromChartIdAsync(System.String,SuperOffice.WebApi.RequestOptions)
   id: GetStandardDashboardTileFromChartIdAsync(System.String,SuperOffice.WebApi.RequestOptions)
@@ -399,15 +405,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetStandardDashboardTileFromChartIdAsync(string, RequestOptions)
-  nameWithType: IDashboardAgent.GetStandardDashboardTileFromChartIdAsync(string, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IDashboardAgent.GetStandardDashboardTileFromChartIdAsync(string, SuperOffice.WebApi.RequestOptions)
+  name: GetStandardDashboardTileFromChartIdAsync(String, RequestOptions)
+  nameWithType: IDashboardAgent.GetStandardDashboardTileFromChartIdAsync(String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IDashboardAgent.GetStandardDashboardTileFromChartIdAsync(System.String, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Gets the standard tile (not personal tile) corresponding to the given chart id
-  example: []
+  summary: "\nGets the standard tile (not personal tile) corresponding to the given chart id\n"
   syntax:
     content: Task<DashboardTile> GetStandardDashboardTileFromChartIdAsync(string chartId, RequestOptions requestOptions = null)
     parameters:
@@ -416,15 +424,12 @@ items:
       description: The ChartId of the wanted chart/tile
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.DashboardTile}
       description: Standard tile
     content.vb: Function GetStandardDashboardTileFromChartIdAsync(chartId As String, requestOptions As RequestOptions = Nothing) As Task(Of DashboardTile)
   overload: SuperOffice.WebApi.Agents.IDashboardAgent.GetStandardDashboardTileFromChartIdAsync*
-  nameWithType.vb: IDashboardAgent.GetStandardDashboardTileFromChartIdAsync(String, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IDashboardAgent.GetStandardDashboardTileFromChartIdAsync(String, SuperOffice.WebApi.RequestOptions)
-  name.vb: GetStandardDashboardTileFromChartIdAsync(String, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IDashboardAgent.GetDataAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IDashboardAgent.GetDataAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   id: GetDataAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
@@ -432,15 +437,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetDataAsync(int, string, RequestOptions)
-  nameWithType: IDashboardAgent.GetDataAsync(int, string, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IDashboardAgent.GetDataAsync(int, string, SuperOffice.WebApi.RequestOptions)
+  name: GetDataAsync(Int32, String, RequestOptions)
+  nameWithType: IDashboardAgent.GetDataAsync(Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IDashboardAgent.GetDataAsync(System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Get data for this tile
-  example: []
+  summary: "\nGet data for this tile\n"
   syntax:
     content: Task<TileData[]> GetDataAsync(int dashboardTileId, string restrictions, RequestOptions requestOptions = null)
     parameters:
@@ -452,15 +459,12 @@ items:
       description: Replacement restrictions
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TileData[]}
       description: The data
     content.vb: Function GetDataAsync(dashboardTileId As Integer, restrictions As String, requestOptions As RequestOptions = Nothing) As Task(Of TileData())
   overload: SuperOffice.WebApi.Agents.IDashboardAgent.GetDataAsync*
-  nameWithType.vb: IDashboardAgent.GetDataAsync(Integer, String, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IDashboardAgent.GetDataAsync(Integer, String, SuperOffice.WebApi.RequestOptions)
-  name.vb: GetDataAsync(Integer, String, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IDashboardAgent.CreateNewFromTemplateAsync(System.Int32,System.String,System.String,System.Int32,SuperOffice.WebApi.Data.VisibleFor[],SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IDashboardAgent.CreateNewFromTemplateAsync(System.Int32,System.String,System.String,System.Int32,SuperOffice.WebApi.Data.VisibleFor[],SuperOffice.WebApi.RequestOptions)
   id: CreateNewFromTemplateAsync(System.Int32,System.String,System.String,System.Int32,SuperOffice.WebApi.Data.VisibleFor[],SuperOffice.WebApi.RequestOptions)
@@ -468,15 +472,17 @@ items:
   langs:
   - csharp
   - vb
-  name: CreateNewFromTemplateAsync(int, string, string, int, VisibleFor[], RequestOptions)
-  nameWithType: IDashboardAgent.CreateNewFromTemplateAsync(int, string, string, int, VisibleFor[], RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IDashboardAgent.CreateNewFromTemplateAsync(int, string, string, int, SuperOffice.WebApi.Data.VisibleFor[], SuperOffice.WebApi.RequestOptions)
+  name: CreateNewFromTemplateAsync(Int32, String, String, Int32, VisibleFor[], RequestOptions)
+  nameWithType: IDashboardAgent.CreateNewFromTemplateAsync(Int32, String, String, Int32, VisibleFor[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IDashboardAgent.CreateNewFromTemplateAsync(System.Int32, System.String, System.String, System.Int32, SuperOffice.WebApi.Data.VisibleFor[], SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Create new tile from another tile used as template
-  example: []
+  summary: "\nCreate new tile from another tile used as template\n"
   syntax:
     content: Task<DashboardTile> CreateNewFromTemplateAsync(int dashboardTileId, string caption, string description, int selectionId, VisibleFor[] visibleFor, RequestOptions requestOptions = null)
     parameters:
@@ -497,15 +503,15 @@ items:
       description: Who the tile should be visible for
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.DashboardTile}
       description: The new tile
     content.vb: Function CreateNewFromTemplateAsync(dashboardTileId As Integer, caption As String, description As String, selectionId As Integer, visibleFor As VisibleFor(), requestOptions As RequestOptions = Nothing) As Task(Of DashboardTile)
   overload: SuperOffice.WebApi.Agents.IDashboardAgent.CreateNewFromTemplateAsync*
-  nameWithType.vb: IDashboardAgent.CreateNewFromTemplateAsync(Integer, String, String, Integer, VisibleFor(), RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IDashboardAgent.CreateNewFromTemplateAsync(Integer, String, String, Integer, SuperOffice.WebApi.Data.VisibleFor(), SuperOffice.WebApi.RequestOptions)
-  name.vb: CreateNewFromTemplateAsync(Integer, String, String, Integer, VisibleFor(), RequestOptions)
+  nameWithType.vb: IDashboardAgent.CreateNewFromTemplateAsync(Int32, String, String, Int32, VisibleFor(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IDashboardAgent.CreateNewFromTemplateAsync(System.Int32, System.String, System.String, System.Int32, SuperOffice.WebApi.Data.VisibleFor(), SuperOffice.WebApi.RequestOptions)
+  name.vb: CreateNewFromTemplateAsync(Int32, String, String, Int32, VisibleFor(), RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IDashboardAgent.GetDataWithSelectionAsync(System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IDashboardAgent.GetDataWithSelectionAsync(System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   id: GetDataWithSelectionAsync(System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
@@ -513,15 +519,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetDataWithSelectionAsync(int, int, string, RequestOptions)
-  nameWithType: IDashboardAgent.GetDataWithSelectionAsync(int, int, string, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IDashboardAgent.GetDataWithSelectionAsync(int, int, string, SuperOffice.WebApi.RequestOptions)
+  name: GetDataWithSelectionAsync(Int32, Int32, String, RequestOptions)
+  nameWithType: IDashboardAgent.GetDataWithSelectionAsync(Int32, Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IDashboardAgent.GetDataWithSelectionAsync(System.Int32, System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Get data for this tile
-  example: []
+  summary: "\nGet data for this tile\n"
   syntax:
     content: Task<TileData[]> GetDataWithSelectionAsync(int dashboardTileId, int selectionId, string restrictions, RequestOptions requestOptions = null)
     parameters:
@@ -536,94 +544,22 @@ items:
       description: Replacement restrictions
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TileData[]}
       description: The data
     content.vb: Function GetDataWithSelectionAsync(dashboardTileId As Integer, selectionId As Integer, restrictions As String, requestOptions As RequestOptions = Nothing) As Task(Of TileData())
   overload: SuperOffice.WebApi.Agents.IDashboardAgent.GetDataWithSelectionAsync*
-  nameWithType.vb: IDashboardAgent.GetDataWithSelectionAsync(Integer, Integer, String, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IDashboardAgent.GetDataWithSelectionAsync(Integer, Integer, String, SuperOffice.WebApi.RequestOptions)
-  name.vb: GetDataWithSelectionAsync(Integer, Integer, String, RequestOptions)
 references:
 - uid: SuperOffice.WebApi.Agents
   commentId: N:SuperOffice.WebApi.Agents
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Agents
   nameWithType: SuperOffice.WebApi.Agents
   fullName: SuperOffice.WebApi.Agents
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Agents
-    name: Agents
-    isExternal: true
-    href: SuperOffice.WebApi.Agents.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Agents
-    name: Agents
-    isExternal: true
-    href: SuperOffice.WebApi.Agents.html
-- uid: System.IDisposable.Dispose
-  commentId: M:System.IDisposable.Dispose
-  parent: System.IDisposable
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
-  name: Dispose()
-  nameWithType: IDisposable.Dispose()
-  fullName: System.IDisposable.Dispose()
-  spec.csharp:
-  - uid: System.IDisposable.Dispose
-    name: Dispose
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.IDisposable.Dispose
-    name: Dispose
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
-  - name: (
-  - name: )
-- uid: System.IDisposable
-  commentId: T:System.IDisposable
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.idisposable
-  name: IDisposable
-  nameWithType: IDisposable
-  fullName: System.IDisposable
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.WebApi.Agents.IDashboardAgent.CreateDefaultDashboardAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IDashboardAgent.CreateDefaultDashboardAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IDashboardAgent.html#SuperOffice_WebApi_Agents_IDashboardAgent_CreateDefaultDashboardAsync_SuperOffice_WebApi_RequestOptions_
   name: CreateDefaultDashboardAsync
   nameWithType: IDashboardAgent.CreateDefaultDashboardAsync
   fullName: SuperOffice.WebApi.Agents.IDashboardAgent.CreateDefaultDashboardAsync
@@ -631,15 +567,12 @@ references:
   commentId: T:SuperOffice.WebApi.RequestOptions
   parent: SuperOffice.WebApi
   isExternal: true
-  href: SuperOffice.WebApi.RequestOptions.html
   name: RequestOptions
   nameWithType: RequestOptions
   fullName: SuperOffice.WebApi.RequestOptions
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Dashboard}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Dashboard}
-  parent: System.Threading.Tasks
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Dashboard}'
   definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<Dashboard>
   nameWithType: Task<Dashboard>
   fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.Dashboard>
@@ -649,123 +582,84 @@ references:
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.WebApi.Data.Dashboard
     name: Dashboard
+    nameWithType: Dashboard
+    fullName: SuperOffice.WebApi.Data.Dashboard
     isExternal: true
-    href: SuperOffice.WebApi.Data.Dashboard.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.WebApi.Data.Dashboard
     name: Dashboard
+    nameWithType: Dashboard
+    fullName: SuperOffice.WebApi.Data.Dashboard
     isExternal: true
-    href: SuperOffice.WebApi.Data.Dashboard.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi
   commentId: N:SuperOffice.WebApi
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi
   nameWithType: SuperOffice.WebApi
   fullName: SuperOffice.WebApi
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
 - uid: System.Threading.Tasks.Task`1
-  commentId: T:System.Threading.Tasks.Task`1
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<TResult>
-  nameWithType: Task<TResult>
-  fullName: System.Threading.Tasks.Task<TResult>
-  nameWithType.vb: Task(Of TResult)
-  fullName.vb: System.Threading.Tasks.Task(Of TResult)
-  name.vb: Task(Of TResult)
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-  - name: TResult
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TResult
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
-- uid: System.Threading.Tasks
-  commentId: N:System.Threading.Tasks
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Threading.Tasks
-  nameWithType: System.Threading.Tasks
-  fullName: System.Threading.Tasks
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Threading
-    name: Threading
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading
-  - name: .
-  - uid: System.Threading.Tasks
-    name: Tasks
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Threading
-    name: Threading
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading
-  - name: .
-  - uid: System.Threading.Tasks
-    name: Tasks
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.IDashboardAgent.SaveDashboardAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IDashboardAgent.SaveDashboardAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IDashboardAgent.html#SuperOffice_WebApi_Agents_IDashboardAgent_SaveDashboardAsync_SuperOffice_WebApi_Data_Dashboard_SuperOffice_WebApi_RequestOptions_
   name: SaveDashboardAsync
   nameWithType: IDashboardAgent.SaveDashboardAsync
   fullName: SuperOffice.WebApi.Agents.IDashboardAgent.SaveDashboardAsync
@@ -773,51 +667,18 @@ references:
   commentId: T:SuperOffice.WebApi.Data.Dashboard
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.Dashboard.html
   name: Dashboard
   nameWithType: Dashboard
   fullName: SuperOffice.WebApi.Data.Dashboard
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
 - uid: SuperOffice.WebApi.Agents.IDashboardAgent.DeleteDashboardAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IDashboardAgent.DeleteDashboardAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IDashboardAgent.html#SuperOffice_WebApi_Agents_IDashboardAgent_DeleteDashboardAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
   name: DeleteDashboardAsync
   nameWithType: IDashboardAgent.DeleteDashboardAsync
   fullName: SuperOffice.WebApi.Agents.IDashboardAgent.DeleteDashboardAsync
@@ -825,33 +686,29 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: System.Threading.Tasks.Task
-  commentId: T:System.Threading.Tasks.Task
-  parent: System.Threading.Tasks
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
   name: Task
   nameWithType: Task
   fullName: System.Threading.Tasks.Task
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.WebApi.Agents.IDashboardAgent.CreateDefaultDashboardTileAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IDashboardAgent.CreateDefaultDashboardTileAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IDashboardAgent.html#SuperOffice_WebApi_Agents_IDashboardAgent_CreateDefaultDashboardTileAsync_SuperOffice_WebApi_RequestOptions_
   name: CreateDefaultDashboardTileAsync
   nameWithType: IDashboardAgent.CreateDefaultDashboardTileAsync
   fullName: SuperOffice.WebApi.Agents.IDashboardAgent.CreateDefaultDashboardTileAsync
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.DashboardTile}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.DashboardTile}
-  parent: System.Threading.Tasks
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.DashboardTile}'
   definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<DashboardTile>
   nameWithType: Task<DashboardTile>
   fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.DashboardTile>
@@ -861,31 +718,40 @@ references:
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.WebApi.Data.DashboardTile
     name: DashboardTile
+    nameWithType: DashboardTile
+    fullName: SuperOffice.WebApi.Data.DashboardTile
     isExternal: true
-    href: SuperOffice.WebApi.Data.DashboardTile.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.WebApi.Data.DashboardTile
     name: DashboardTile
+    nameWithType: DashboardTile
+    fullName: SuperOffice.WebApi.Data.DashboardTile
     isExternal: true
-    href: SuperOffice.WebApi.Data.DashboardTile.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.IDashboardAgent.SaveDashboardTileAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IDashboardAgent.SaveDashboardTileAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IDashboardAgent.html#SuperOffice_WebApi_Agents_IDashboardAgent_SaveDashboardTileAsync_SuperOffice_WebApi_Data_DashboardTile_SuperOffice_WebApi_RequestOptions_
   name: SaveDashboardTileAsync
   nameWithType: IDashboardAgent.SaveDashboardTileAsync
   fullName: SuperOffice.WebApi.Agents.IDashboardAgent.SaveDashboardTileAsync
@@ -893,36 +759,30 @@ references:
   commentId: T:SuperOffice.WebApi.Data.DashboardTile
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.DashboardTile.html
   name: DashboardTile
   nameWithType: DashboardTile
   fullName: SuperOffice.WebApi.Data.DashboardTile
 - uid: SuperOffice.WebApi.Agents.IDashboardAgent.DeleteDashboardTileAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IDashboardAgent.DeleteDashboardTileAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IDashboardAgent.html#SuperOffice_WebApi_Agents_IDashboardAgent_DeleteDashboardTileAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
   name: DeleteDashboardTileAsync
   nameWithType: IDashboardAgent.DeleteDashboardTileAsync
   fullName: SuperOffice.WebApi.Agents.IDashboardAgent.DeleteDashboardTileAsync
 - uid: SuperOffice.WebApi.Agents.IDashboardAgent.GetDashboardAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IDashboardAgent.GetDashboardAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IDashboardAgent.html#SuperOffice_WebApi_Agents_IDashboardAgent_GetDashboardAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
   name: GetDashboardAsync
   nameWithType: IDashboardAgent.GetDashboardAsync
   fullName: SuperOffice.WebApi.Agents.IDashboardAgent.GetDashboardAsync
 - uid: SuperOffice.WebApi.Agents.IDashboardAgent.GetDashboardsAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IDashboardAgent.GetDashboardsAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IDashboardAgent.html#SuperOffice_WebApi_Agents_IDashboardAgent_GetDashboardsAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
   name: GetDashboardsAsync
   nameWithType: IDashboardAgent.GetDashboardsAsync
   fullName: SuperOffice.WebApi.Agents.IDashboardAgent.GetDashboardsAsync
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Dashboard[]}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Dashboard[]}
-  parent: System.Threading.Tasks
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Dashboard[]}'
   definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<Dashboard[]>
   nameWithType: Task<Dashboard[]>
   fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.Dashboard[]>
@@ -932,80 +792,90 @@ references:
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.WebApi.Data.Dashboard
     name: Dashboard
+    nameWithType: Dashboard
+    fullName: SuperOffice.WebApi.Data.Dashboard
     isExternal: true
-    href: SuperOffice.WebApi.Data.Dashboard.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.WebApi.Data.Dashboard
     name: Dashboard
+    nameWithType: Dashboard
+    fullName: SuperOffice.WebApi.Data.Dashboard
     isExternal: true
-    href: SuperOffice.WebApi.Data.Dashboard.html
-  - name: (
+  - name: ()
+    nameWithType: ()
+    fullName: ()
   - name: )
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.IDashboardAgent.SetTileAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IDashboardAgent.SetTileAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IDashboardAgent.html#SuperOffice_WebApi_Agents_IDashboardAgent_SetTileAsync_System_Int32_System_Int32_System_Int32_SuperOffice_WebApi_RequestOptions_
   name: SetTileAsync
   nameWithType: IDashboardAgent.SetTileAsync
   fullName: SuperOffice.WebApi.Agents.IDashboardAgent.SetTileAsync
 - uid: SuperOffice.WebApi.Agents.IDashboardAgent.GetDashboardTileAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IDashboardAgent.GetDashboardTileAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IDashboardAgent.html#SuperOffice_WebApi_Agents_IDashboardAgent_GetDashboardTileAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
   name: GetDashboardTileAsync
   nameWithType: IDashboardAgent.GetDashboardTileAsync
   fullName: SuperOffice.WebApi.Agents.IDashboardAgent.GetDashboardTileAsync
 - uid: SuperOffice.WebApi.Agents.IDashboardAgent.GetDashboardTilesAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IDashboardAgent.GetDashboardTilesAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IDashboardAgent.html#SuperOffice_WebApi_Agents_IDashboardAgent_GetDashboardTilesAsync_System_Int32___SuperOffice_WebApi_RequestOptions_
   name: GetDashboardTilesAsync
   nameWithType: IDashboardAgent.GetDashboardTilesAsync
   fullName: SuperOffice.WebApi.Agents.IDashboardAgent.GetDashboardTilesAsync
 - uid: System.Int32[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int[]
-  nameWithType: int[]
-  fullName: int[]
-  nameWithType.vb: Integer()
-  fullName.vb: Integer()
-  name.vb: Integer()
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
   spec.csharp:
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.DashboardTile[]}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.DashboardTile[]}
-  parent: System.Threading.Tasks
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.DashboardTile[]}'
   definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<DashboardTile[]>
   nameWithType: Task<DashboardTile[]>
   fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.DashboardTile[]>
@@ -1015,35 +885,46 @@ references:
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.WebApi.Data.DashboardTile
     name: DashboardTile
+    nameWithType: DashboardTile
+    fullName: SuperOffice.WebApi.Data.DashboardTile
     isExternal: true
-    href: SuperOffice.WebApi.Data.DashboardTile.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.WebApi.Data.DashboardTile
     name: DashboardTile
+    nameWithType: DashboardTile
+    fullName: SuperOffice.WebApi.Data.DashboardTile
     isExternal: true
-    href: SuperOffice.WebApi.Data.DashboardTile.html
-  - name: (
+  - name: ()
+    nameWithType: ()
+    fullName: ()
   - name: )
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.IDashboardAgent.GetStandardDashboardTileFromChartIdAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IDashboardAgent.GetStandardDashboardTileFromChartIdAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IDashboardAgent.html#SuperOffice_WebApi_Agents_IDashboardAgent_GetStandardDashboardTileFromChartIdAsync_System_String_SuperOffice_WebApi_RequestOptions_
   name: GetStandardDashboardTileFromChartIdAsync
   nameWithType: IDashboardAgent.GetStandardDashboardTileFromChartIdAsync
   fullName: SuperOffice.WebApi.Agents.IDashboardAgent.GetStandardDashboardTileFromChartIdAsync
@@ -1051,25 +932,18 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.WebApi.Agents.IDashboardAgent.GetDataAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IDashboardAgent.GetDataAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IDashboardAgent.html#SuperOffice_WebApi_Agents_IDashboardAgent_GetDataAsync_System_Int32_System_String_SuperOffice_WebApi_RequestOptions_
   name: GetDataAsync
   nameWithType: IDashboardAgent.GetDataAsync
   fullName: SuperOffice.WebApi.Agents.IDashboardAgent.GetDataAsync
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TileData[]}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TileData[]}
-  parent: System.Threading.Tasks
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TileData[]}'
   definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<TileData[]>
   nameWithType: Task<TileData[]>
   fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.TileData[]>
@@ -1079,41 +953,51 @@ references:
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.WebApi.Data.TileData
     name: TileData
+    nameWithType: TileData
+    fullName: SuperOffice.WebApi.Data.TileData
     isExternal: true
-    href: SuperOffice.WebApi.Data.TileData.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.WebApi.Data.TileData
     name: TileData
+    nameWithType: TileData
+    fullName: SuperOffice.WebApi.Data.TileData
     isExternal: true
-    href: SuperOffice.WebApi.Data.TileData.html
-  - name: (
+  - name: ()
+    nameWithType: ()
+    fullName: ()
   - name: )
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.IDashboardAgent.CreateNewFromTemplateAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IDashboardAgent.CreateNewFromTemplateAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IDashboardAgent.html#SuperOffice_WebApi_Agents_IDashboardAgent_CreateNewFromTemplateAsync_System_Int32_System_String_System_String_System_Int32_SuperOffice_WebApi_Data_VisibleFor___SuperOffice_WebApi_RequestOptions_
   name: CreateNewFromTemplateAsync
   nameWithType: IDashboardAgent.CreateNewFromTemplateAsync
   fullName: SuperOffice.WebApi.Agents.IDashboardAgent.CreateNewFromTemplateAsync
 - uid: SuperOffice.WebApi.Data.VisibleFor[]
   isExternal: true
-  href: SuperOffice.WebApi.Data.VisibleFor.html
   name: VisibleFor[]
   nameWithType: VisibleFor[]
   fullName: SuperOffice.WebApi.Data.VisibleFor[]
@@ -1123,21 +1007,24 @@ references:
   spec.csharp:
   - uid: SuperOffice.WebApi.Data.VisibleFor
     name: VisibleFor
+    nameWithType: VisibleFor
+    fullName: SuperOffice.WebApi.Data.VisibleFor
     isExternal: true
-    href: SuperOffice.WebApi.Data.VisibleFor.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.WebApi.Data.VisibleFor
     name: VisibleFor
+    nameWithType: VisibleFor
+    fullName: SuperOffice.WebApi.Data.VisibleFor
     isExternal: true
-    href: SuperOffice.WebApi.Data.VisibleFor.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.WebApi.Agents.IDashboardAgent.GetDataWithSelectionAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IDashboardAgent.GetDataWithSelectionAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IDashboardAgent.html#SuperOffice_WebApi_Agents_IDashboardAgent_GetDataWithSelectionAsync_System_Int32_System_Int32_System_String_SuperOffice_WebApi_RequestOptions_
   name: GetDataWithSelectionAsync
   nameWithType: IDashboardAgent.GetDataWithSelectionAsync
   fullName: SuperOffice.WebApi.Agents.IDashboardAgent.GetDataWithSelectionAsync

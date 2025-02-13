@@ -21,33 +21,26 @@ items:
   nameWithType: EisFieldValue
   fullName: SuperOffice.CRM.Services.EisFieldValue
   type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Carrier object for EisFieldValue.
-
-    Services for the EisFieldValue Carrier is available from the <xref href="SuperOffice.CRM.Services.IErpSyncAgent?text=ErpSync+Agent" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nCarrier object for EisFieldValue.\nServices for the EisFieldValue Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IErpSyncAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public class EisFieldValue : Carrier
+    content: 'public class EisFieldValue : Carrier'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
-
-      Public Class EisFieldValue Inherits Carrier
+      Public Class EisFieldValue
+          Inherits Carrier
   inheritance:
   - System.Object
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.EisFieldValue.#ctor
   commentId: M:SuperOffice.CRM.Services.EisFieldValue.#ctor
   id: '#ctor'
@@ -59,18 +52,21 @@ items:
   nameWithType: EisFieldValue.EisFieldValue()
   fullName: SuperOffice.CRM.Services.EisFieldValue.EisFieldValue()
   type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Default constructor
-  example: []
+  summary: "\nDefault constructor\n"
   syntax:
     content: public EisFieldValue()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.EisFieldValue.#ctor*
-  nameWithType.vb: EisFieldValue.New()
-  fullName.vb: SuperOffice.CRM.Services.EisFieldValue.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.EisFieldValue.ToString
   commentId: M:SuperOffice.CRM.Services.EisFieldValue.ToString
   id: ToString
@@ -82,18 +78,26 @@ items:
   nameWithType: EisFieldValue.ToString()
   fullName: SuperOffice.CRM.Services.EisFieldValue.ToString()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the carrier contents as a formatted string.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string.\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString() As String
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.CRM.Services.EisFieldValue.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Services.EisFieldValue.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.EisFieldValue.ToString(System.String)
   id: ToString(System.String)
@@ -101,18 +105,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(string)
-  nameWithType: EisFieldValue.ToString(string)
-  fullName: SuperOffice.CRM.Services.EisFieldValue.ToString(string)
+  name: ToString(String)
+  nameWithType: EisFieldValue.ToString(String)
+  fullName: SuperOffice.CRM.Services.EisFieldValue.ToString(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Returns the carrier contents as a formatted string, useful for debugging.
-
-    Each line in the output is prefixed with the input value.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -124,9 +127,10 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.EisFieldValue.ToString*
-  nameWithType.vb: EisFieldValue.ToString(String)
-  fullName.vb: SuperOffice.CRM.Services.EisFieldValue.ToString(String)
-  name.vb: ToString(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.EisFieldValue.DisplayName
   commentId: P:SuperOffice.CRM.Services.EisFieldValue.DisplayName
   id: DisplayName
@@ -138,28 +142,26 @@ items:
   nameWithType: EisFieldValue.DisplayName
   fullName: SuperOffice.CRM.Services.EisFieldValue.DisplayName
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: ''
-  example: []
+  summary: "\n\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public string DisplayName { get; set; }
+    content: public string DisplayName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Property DisplayName As String
+    content.vb: Public Property DisplayName As String
   overload: SuperOffice.CRM.Services.EisFieldValue.DisplayName*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.EisFieldValue.CrmFieldKey
   commentId: P:SuperOffice.CRM.Services.EisFieldValue.CrmFieldKey
   id: CrmFieldKey
@@ -171,28 +173,26 @@ items:
   nameWithType: EisFieldValue.CrmFieldKey
   fullName: SuperOffice.CRM.Services.EisFieldValue.CrmFieldKey
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The CRM field name, as implemented by the Sync entities
-  example: []
+  summary: "\nThe CRM field name, as implemented by the Sync entities\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public string CrmFieldKey { get; set; }
+    content: public string CrmFieldKey { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Property CrmFieldKey As String
+    content.vb: Public Property CrmFieldKey As String
   overload: SuperOffice.CRM.Services.EisFieldValue.CrmFieldKey*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.EisFieldValue.Value
   commentId: P:SuperOffice.CRM.Services.EisFieldValue.Value
   id: Value
@@ -204,28 +204,26 @@ items:
   nameWithType: EisFieldValue.Value
   fullName: SuperOffice.CRM.Services.EisFieldValue.Value
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: ''
-  example: []
+  summary: "\n\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public string Value { get; set; }
+    content: public string Value { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Property Value As String
+    content.vb: Public Property Value As String
   overload: SuperOffice.CRM.Services.EisFieldValue.Value*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.EisFieldValue.DisplayValue
   commentId: P:SuperOffice.CRM.Services.EisFieldValue.DisplayValue
   id: DisplayValue
@@ -237,28 +235,26 @@ items:
   nameWithType: EisFieldValue.DisplayValue
   fullName: SuperOffice.CRM.Services.EisFieldValue.DisplayValue
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: ''
-  example: []
+  summary: "\n\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public string DisplayValue { get; set; }
+    content: public string DisplayValue { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Property DisplayValue As String
+    content.vb: Public Property DisplayValue As String
   overload: SuperOffice.CRM.Services.EisFieldValue.DisplayValue*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.EisFieldValue.SyncToCrm
   commentId: P:SuperOffice.CRM.Services.EisFieldValue.SyncToCrm
   id: SyncToCrm
@@ -270,28 +266,26 @@ items:
   nameWithType: EisFieldValue.SyncToCrm
   fullName: SuperOffice.CRM.Services.EisFieldValue.SyncToCrm
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Should value changes in ERP be automatically transferred to CRM
-  example: []
+  summary: "\nShould value changes in ERP be automatically transferred to CRM\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public bool SyncToCrm { get; set; }
+    content: public bool SyncToCrm { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <DataMember>
-
-      Public Property SyncToCrm As Boolean
+    content.vb: Public Property SyncToCrm As Boolean
   overload: SuperOffice.CRM.Services.EisFieldValue.SyncToCrm*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.EisFieldValue.SyncToErp
   commentId: P:SuperOffice.CRM.Services.EisFieldValue.SyncToErp
   id: SyncToErp
@@ -303,106 +297,42 @@ items:
   nameWithType: EisFieldValue.SyncToErp
   fullName: SuperOffice.CRM.Services.EisFieldValue.SyncToErp
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Should value changes in CRM be automatically transferred to ERP
-  example: []
+  summary: "\nShould value changes in CRM be automatically transferred to ERP\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public bool SyncToErp { get; set; }
+    content: public bool SyncToErp { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <DataMember>
-
-      Public Property SyncToErp As Boolean
+    content.vb: Public Property SyncToErp As Boolean
   overload: SuperOffice.CRM.Services.EisFieldValue.SyncToErp*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 references:
-- uid: SuperOffice.CRM.Services.IErpSyncAgent
-  commentId: T:SuperOffice.CRM.Services.IErpSyncAgent
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.CRM.Services.IErpSyncAgent.html
-  name: IErpSyncAgent
-  nameWithType: IErpSyncAgent
-  fullName: SuperOffice.CRM.Services.IErpSyncAgent
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.EisFieldValue.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.EisFieldValue.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.EisFieldValue.html#SuperOffice_CRM_Services_EisFieldValue__ctor
   name: EisFieldValue
   nameWithType: EisFieldValue.EisFieldValue
   fullName: SuperOffice.CRM.Services.EisFieldValue.EisFieldValue
-  nameWithType.vb: EisFieldValue.New
-  fullName.vb: SuperOffice.CRM.Services.EisFieldValue.New
-  name.vb: New
 - uid: SuperOffice.CRM.Services.EisFieldValue.ToString*
   commentId: Overload:SuperOffice.CRM.Services.EisFieldValue.ToString
   isExternal: true
-  href: SuperOffice.CRM.Services.EisFieldValue.html#SuperOffice_CRM_Services_EisFieldValue_ToString
   name: ToString
   nameWithType: EisFieldValue.ToString
   fullName: SuperOffice.CRM.Services.EisFieldValue.ToString
@@ -410,45 +340,42 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.EisFieldValue.DisplayName*
   commentId: Overload:SuperOffice.CRM.Services.EisFieldValue.DisplayName
   isExternal: true
-  href: SuperOffice.CRM.Services.EisFieldValue.html#SuperOffice_CRM_Services_EisFieldValue_DisplayName
   name: DisplayName
   nameWithType: EisFieldValue.DisplayName
   fullName: SuperOffice.CRM.Services.EisFieldValue.DisplayName
 - uid: SuperOffice.CRM.Services.EisFieldValue.CrmFieldKey*
   commentId: Overload:SuperOffice.CRM.Services.EisFieldValue.CrmFieldKey
   isExternal: true
-  href: SuperOffice.CRM.Services.EisFieldValue.html#SuperOffice_CRM_Services_EisFieldValue_CrmFieldKey
   name: CrmFieldKey
   nameWithType: EisFieldValue.CrmFieldKey
   fullName: SuperOffice.CRM.Services.EisFieldValue.CrmFieldKey
 - uid: SuperOffice.CRM.Services.EisFieldValue.Value*
   commentId: Overload:SuperOffice.CRM.Services.EisFieldValue.Value
   isExternal: true
-  href: SuperOffice.CRM.Services.EisFieldValue.html#SuperOffice_CRM_Services_EisFieldValue_Value
   name: Value
   nameWithType: EisFieldValue.Value
   fullName: SuperOffice.CRM.Services.EisFieldValue.Value
 - uid: SuperOffice.CRM.Services.EisFieldValue.DisplayValue*
   commentId: Overload:SuperOffice.CRM.Services.EisFieldValue.DisplayValue
   isExternal: true
-  href: SuperOffice.CRM.Services.EisFieldValue.html#SuperOffice_CRM_Services_EisFieldValue_DisplayValue
   name: DisplayValue
   nameWithType: EisFieldValue.DisplayValue
   fullName: SuperOffice.CRM.Services.EisFieldValue.DisplayValue
 - uid: SuperOffice.CRM.Services.EisFieldValue.SyncToCrm*
   commentId: Overload:SuperOffice.CRM.Services.EisFieldValue.SyncToCrm
   isExternal: true
-  href: SuperOffice.CRM.Services.EisFieldValue.html#SuperOffice_CRM_Services_EisFieldValue_SyncToCrm
   name: SyncToCrm
   nameWithType: EisFieldValue.SyncToCrm
   fullName: SuperOffice.CRM.Services.EisFieldValue.SyncToCrm
@@ -456,17 +383,12 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.CRM.Services.EisFieldValue.SyncToErp*
   commentId: Overload:SuperOffice.CRM.Services.EisFieldValue.SyncToErp
   isExternal: true
-  href: SuperOffice.CRM.Services.EisFieldValue.html#SuperOffice_CRM_Services_EisFieldValue_SyncToErp
   name: SyncToErp
   nameWithType: EisFieldValue.SyncToErp
   fullName: SuperOffice.CRM.Services.EisFieldValue.SyncToErp

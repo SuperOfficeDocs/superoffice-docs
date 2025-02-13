@@ -54,27 +54,18 @@ items:
   nameWithType: QuoteVersion
   fullName: SuperOffice.CRM.Services.QuoteVersion
   type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Information about a version of the .
-
-    <p></p>
-
-    Carrier object for QuoteVersion.
-
-    Services for the QuoteVersion Carrier is available from the <xref href="SuperOffice.CRM.Services.IQuoteAgent?text=Quote+Agent" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nInformation about a version of the .\n<p></p>\nCarrier object for QuoteVersion.\nServices for the QuoteVersion Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IQuoteAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public class QuoteVersion : Carrier
+    content: 'public class QuoteVersion : Carrier'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
-
-      Public Class QuoteVersion Inherits Carrier
+      Public Class QuoteVersion
+          Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.QuoteAgent
     commentId: T:SuperOffice.CRM.Services.QuoteAgent
@@ -82,14 +73,12 @@ items:
     commentId: T:SuperOffice.CRM.Services.IQuoteAgent
   inheritance:
   - System.Object
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.QuoteVersion.#ctor
   commentId: M:SuperOffice.CRM.Services.QuoteVersion.#ctor
   id: '#ctor'
@@ -101,18 +90,21 @@ items:
   nameWithType: QuoteVersion.QuoteVersion()
   fullName: SuperOffice.CRM.Services.QuoteVersion.QuoteVersion()
   type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Default constructor
-  example: []
+  summary: "\nDefault constructor\n"
   syntax:
     content: public QuoteVersion()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.QuoteVersion.#ctor*
-  nameWithType.vb: QuoteVersion.New()
-  fullName.vb: SuperOffice.CRM.Services.QuoteVersion.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.QuoteVersion.ToString
   commentId: M:SuperOffice.CRM.Services.QuoteVersion.ToString
   id: ToString
@@ -124,18 +116,26 @@ items:
   nameWithType: QuoteVersion.ToString()
   fullName: SuperOffice.CRM.Services.QuoteVersion.ToString()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the carrier contents as a formatted string.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string.\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString() As String
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.CRM.Services.QuoteVersion.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Services.QuoteVersion.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.QuoteVersion.ToString(System.String)
   id: ToString(System.String)
@@ -143,18 +143,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(string)
-  nameWithType: QuoteVersion.ToString(string)
-  fullName: SuperOffice.CRM.Services.QuoteVersion.ToString(string)
+  name: ToString(String)
+  nameWithType: QuoteVersion.ToString(String)
+  fullName: SuperOffice.CRM.Services.QuoteVersion.ToString(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Returns the carrier contents as a formatted string, useful for debugging.
-
-    Each line in the output is prefixed with the input value.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -166,9 +165,10 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.QuoteVersion.ToString*
-  nameWithType.vb: QuoteVersion.ToString(String)
-  fullName.vb: SuperOffice.CRM.Services.QuoteVersion.ToString(String)
-  name.vb: ToString(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.QuoteVersion.QuoteVersionId
   commentId: P:SuperOffice.CRM.Services.QuoteVersion.QuoteVersionId
   id: QuoteVersionId
@@ -180,28 +180,28 @@ items:
   nameWithType: QuoteVersion.QuoteVersionId
   fullName: SuperOffice.CRM.Services.QuoteVersion.QuoteVersionId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Primary key
-  example: []
+  summary: "\nPrimary key \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int QuoteVersionId { get; set; }
+    content: public virtual int QuoteVersionId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property QuoteVersionId As Integer
+    content.vb: Public Overridable Property QuoteVersionId As Integer
   overload: SuperOffice.CRM.Services.QuoteVersion.QuoteVersionId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuoteVersion.ERPQuoteVersionKey
   commentId: P:SuperOffice.CRM.Services.QuoteVersion.ERPQuoteVersionKey
   id: ERPQuoteVersionKey
@@ -213,28 +213,28 @@ items:
   nameWithType: QuoteVersion.ERPQuoteVersionKey
   fullName: SuperOffice.CRM.Services.QuoteVersion.ERPQuoteVersionKey
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Key in the ERP system that uniquely identifies this Version within the ERP system (if available, the field may be empty).
-  example: []
+  summary: "\nKey in the ERP system that uniquely identifies this Version within the ERP system (if available, the field may be empty). \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string ERPQuoteVersionKey { get; set; }
+    content: public virtual string ERPQuoteVersionKey { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ERPQuoteVersionKey As String
+    content.vb: Public Overridable Property ERPQuoteVersionKey As String
   overload: SuperOffice.CRM.Services.QuoteVersion.ERPQuoteVersionKey*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuoteVersion.QuoteId
   commentId: P:SuperOffice.CRM.Services.QuoteVersion.QuoteId
   id: QuoteId
@@ -246,28 +246,28 @@ items:
   nameWithType: QuoteVersion.QuoteId
   fullName: SuperOffice.CRM.Services.QuoteVersion.QuoteId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Foreign key to CRM quote (the conceptual parent). Owning Quote of this Quote Version.
-  example: []
+  summary: "\nForeign key to CRM quote (the conceptual parent). Owning Quote of this Quote Version. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int QuoteId { get; set; }
+    content: public virtual int QuoteId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property QuoteId As Integer
+    content.vb: Public Overridable Property QuoteId As Integer
   overload: SuperOffice.CRM.Services.QuoteVersion.QuoteId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuoteVersion.Description
   commentId: P:SuperOffice.CRM.Services.QuoteVersion.Description
   id: Description
@@ -279,28 +279,28 @@ items:
   nameWithType: QuoteVersion.Description
   fullName: SuperOffice.CRM.Services.QuoteVersion.Description
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Description of Version. Potentially longer text description, typically used in a tooltip. Max 2K.
-  example: []
+  summary: "\nDescription of Version. Potentially longer text description, typically used in a tooltip. Max 2K. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string Description { get; set; }
+    content: public virtual string Description { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Description As String
+    content.vb: Public Overridable Property Description As String
   overload: SuperOffice.CRM.Services.QuoteVersion.Description*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuoteVersion.Number
   commentId: P:SuperOffice.CRM.Services.QuoteVersion.Number
   id: Number
@@ -312,28 +312,28 @@ items:
   nameWithType: QuoteVersion.Number
   fullName: SuperOffice.CRM.Services.QuoteVersion.Number
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: A quote number that the user (or ERP connector) can fill out.
-  example: []
+  summary: "\nA quote number that the user (or ERP connector) can fill out. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string Number { get; set; }
+    content: public virtual string Number { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Number As String
+    content.vb: Public Overridable Property Number As String
   overload: SuperOffice.CRM.Services.QuoteVersion.Number*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuoteVersion.State
   commentId: P:SuperOffice.CRM.Services.QuoteVersion.State
   id: State
@@ -345,28 +345,28 @@ items:
   nameWithType: QuoteVersion.State
   fullName: SuperOffice.CRM.Services.QuoteVersion.State
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Current state of this quote version.
-  example: []
+  summary: "\nCurrent state of this quote version. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual QuoteVersionState State { get; set; }
+    content: public virtual QuoteVersionState State { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.QuoteVersionState
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property State As QuoteVersionState
+    content.vb: Public Overridable Property State As QuoteVersionState
   overload: SuperOffice.CRM.Services.QuoteVersion.State*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuoteVersion.ArchivedState
   commentId: P:SuperOffice.CRM.Services.QuoteVersion.ArchivedState
   id: ArchivedState
@@ -378,28 +378,28 @@ items:
   nameWithType: QuoteVersion.ArchivedState
   fullName: SuperOffice.CRM.Services.QuoteVersion.ArchivedState
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: State that this quote version had, right before it was changed to Archived; in this way we can show what happened before the archiving.
-  example: []
+  summary: "\nState that this quote version had, right before it was changed to Archived; in this way we can show what happened before the archiving. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual QuoteVersionState ArchivedState { get; set; }
+    content: public virtual QuoteVersionState ArchivedState { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.QuoteVersionState
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ArchivedState As QuoteVersionState
+    content.vb: Public Overridable Property ArchivedState As QuoteVersionState
   overload: SuperOffice.CRM.Services.QuoteVersion.ArchivedState*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuoteVersion.Status
   commentId: P:SuperOffice.CRM.Services.QuoteVersion.Status
   id: Status
@@ -411,28 +411,28 @@ items:
   nameWithType: QuoteVersion.Status
   fullName: SuperOffice.CRM.Services.QuoteVersion.Status
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: If there was a problem with for instance calculation, this field is set to warning or error.
-  example: []
+  summary: "\nIf there was a problem with for instance calculation, this field is set to warning or error. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual QuoteStatus Status { get; set; }
+    content: public virtual QuoteStatus Status { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.QuoteStatus
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Status As QuoteStatus
+    content.vb: Public Overridable Property Status As QuoteStatus
   overload: SuperOffice.CRM.Services.QuoteVersion.Status*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuoteVersion.Reason
   commentId: P:SuperOffice.CRM.Services.QuoteVersion.Reason
   id: Reason
@@ -444,28 +444,28 @@ items:
   nameWithType: QuoteVersion.Reason
   fullName: SuperOffice.CRM.Services.QuoteVersion.Reason
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: If there was a problem, this field contains a localized explanation of the problem and possible steps to fix it that the user can be shown.
-  example: []
+  summary: "\nIf there was a problem, this field contains a localized explanation of the problem and possible steps to fix it that the user can be shown. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string Reason { get; set; }
+    content: public virtual string Reason { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Reason As String
+    content.vb: Public Overridable Property Reason As String
   overload: SuperOffice.CRM.Services.QuoteVersion.Reason*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuoteVersion.LikelyQuoteAlternativeId
   commentId: P:SuperOffice.CRM.Services.QuoteVersion.LikelyQuoteAlternativeId
   id: LikelyQuoteAlternativeId
@@ -477,28 +477,28 @@ items:
   nameWithType: QuoteVersion.LikelyQuoteAlternativeId
   fullName: SuperOffice.CRM.Services.QuoteVersion.LikelyQuoteAlternativeId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The alternative that is considered most likely to be accepted. Used to calculate probable income.
-  example: []
+  summary: "\nThe alternative that is considered most likely to be accepted. Used to calculate probable income. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int LikelyQuoteAlternativeId { get; set; }
+    content: public virtual int LikelyQuoteAlternativeId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property LikelyQuoteAlternativeId As Integer
+    content.vb: Public Overridable Property LikelyQuoteAlternativeId As Integer
   overload: SuperOffice.CRM.Services.QuoteVersion.LikelyQuoteAlternativeId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuoteVersion.SentDate
   commentId: P:SuperOffice.CRM.Services.QuoteVersion.SentDate
   id: SentDate
@@ -510,28 +510,28 @@ items:
   nameWithType: QuoteVersion.SentDate
   fullName: SuperOffice.CRM.Services.QuoteVersion.SentDate
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The date the version was sent to the customer.
-  example: []
+  summary: "\nThe date the version was sent to the customer. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual DateTime SentDate { get; set; }
+    content: public virtual DateTime SentDate { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property SentDate As Date
+    content.vb: Public Overridable Property SentDate As DateTime
   overload: SuperOffice.CRM.Services.QuoteVersion.SentDate*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuoteVersion.FollowupId
   commentId: P:SuperOffice.CRM.Services.QuoteVersion.FollowupId
   id: FollowupId
@@ -543,28 +543,28 @@ items:
   nameWithType: QuoteVersion.FollowupId
   fullName: SuperOffice.CRM.Services.QuoteVersion.FollowupId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Link to a follow-up activity, created when this quote version was sent to the customer.
-  example: []
+  summary: "\nLink to a follow-up activity, created when this quote version was sent to the customer. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int FollowupId { get; set; }
+    content: public virtual int FollowupId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property FollowupId As Integer
+    content.vb: Public Overridable Property FollowupId As Integer
   overload: SuperOffice.CRM.Services.QuoteVersion.FollowupId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuoteVersion.ExpirationDate
   commentId: P:SuperOffice.CRM.Services.QuoteVersion.ExpirationDate
   id: ExpirationDate
@@ -576,28 +576,28 @@ items:
   nameWithType: QuoteVersion.ExpirationDate
   fullName: SuperOffice.CRM.Services.QuoteVersion.ExpirationDate
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Last date the quote Version is valid, expiration is at midnight end of this day.
-  example: []
+  summary: "\nLast date the quote Version is valid, expiration is at midnight end of this day. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual DateTime ExpirationDate { get; set; }
+    content: public virtual DateTime ExpirationDate { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ExpirationDate As Date
+    content.vb: Public Overridable Property ExpirationDate As DateTime
   overload: SuperOffice.CRM.Services.QuoteVersion.ExpirationDate*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuoteVersion.DeliveryCountryId
   commentId: P:SuperOffice.CRM.Services.QuoteVersion.DeliveryCountryId
   id: DeliveryCountryId
@@ -609,28 +609,28 @@ items:
   nameWithType: QuoteVersion.DeliveryCountryId
   fullName: SuperOffice.CRM.Services.QuoteVersion.DeliveryCountryId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Country of delivery address, typically copied from the contact record
-  example: []
+  summary: "\nCountry of delivery address, typically copied from the contact record \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int DeliveryCountryId { get; set; }
+    content: public virtual int DeliveryCountryId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property DeliveryCountryId As Integer
+    content.vb: Public Overridable Property DeliveryCountryId As Integer
   overload: SuperOffice.CRM.Services.QuoteVersion.DeliveryCountryId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuoteVersion.HasOwnDeliveryAddress
   commentId: P:SuperOffice.CRM.Services.QuoteVersion.HasOwnDeliveryAddress
   id: HasOwnDeliveryAddress
@@ -642,28 +642,28 @@ items:
   nameWithType: QuoteVersion.HasOwnDeliveryAddress
   fullName: SuperOffice.CRM.Services.QuoteVersion.HasOwnDeliveryAddress
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The delivery address is not the same as the contact's Street address
-  example: []
+  summary: "\nThe delivery address is not the same as the contact&apos;s Street address \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual bool HasOwnDeliveryAddress { get; set; }
+    content: public virtual bool HasOwnDeliveryAddress { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property HasOwnDeliveryAddress As Boolean
+    content.vb: Public Overridable Property HasOwnDeliveryAddress As Boolean
   overload: SuperOffice.CRM.Services.QuoteVersion.HasOwnDeliveryAddress*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuoteVersion.InvoiceCountryId
   commentId: P:SuperOffice.CRM.Services.QuoteVersion.InvoiceCountryId
   id: InvoiceCountryId
@@ -675,28 +675,28 @@ items:
   nameWithType: QuoteVersion.InvoiceCountryId
   fullName: SuperOffice.CRM.Services.QuoteVersion.InvoiceCountryId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Country of invoice address, typically copied from contact record
-  example: []
+  summary: "\nCountry of invoice address, typically copied from contact record \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int InvoiceCountryId { get; set; }
+    content: public virtual int InvoiceCountryId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property InvoiceCountryId As Integer
+    content.vb: Public Overridable Property InvoiceCountryId As Integer
   overload: SuperOffice.CRM.Services.QuoteVersion.InvoiceCountryId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuoteVersion.HasOwnInvoiceAddress
   commentId: P:SuperOffice.CRM.Services.QuoteVersion.HasOwnInvoiceAddress
   id: HasOwnInvoiceAddress
@@ -708,28 +708,28 @@ items:
   nameWithType: QuoteVersion.HasOwnInvoiceAddress
   fullName: SuperOffice.CRM.Services.QuoteVersion.HasOwnInvoiceAddress
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The quote has an address for Invoicing. This will typically be copied from the company's addresses.
-  example: []
+  summary: "\nThe quote has an address for Invoicing. This will typically be copied from the company&apos;s addresses.  \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual bool HasOwnInvoiceAddress { get; set; }
+    content: public virtual bool HasOwnInvoiceAddress { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property HasOwnInvoiceAddress As Boolean
+    content.vb: Public Overridable Property HasOwnInvoiceAddress As Boolean
   overload: SuperOffice.CRM.Services.QuoteVersion.HasOwnInvoiceAddress*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuoteVersion.ERPPaymentTermsKey
   commentId: P:SuperOffice.CRM.Services.QuoteVersion.ERPPaymentTermsKey
   id: ERPPaymentTermsKey
@@ -741,28 +741,28 @@ items:
   nameWithType: QuoteVersion.ERPPaymentTermsKey
   fullName: SuperOffice.CRM.Services.QuoteVersion.ERPPaymentTermsKey
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: 'Either a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text. For instance: ‘Standard 30 days’.'
-  example: []
+  summary: "\nEither a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text. For instance: ‘Standard 30 days’. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string ERPPaymentTermsKey { get; set; }
+    content: public virtual string ERPPaymentTermsKey { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ERPPaymentTermsKey As String
+    content.vb: Public Overridable Property ERPPaymentTermsKey As String
   overload: SuperOffice.CRM.Services.QuoteVersion.ERPPaymentTermsKey*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuoteVersion.ERPPaymentTypeKey
   commentId: P:SuperOffice.CRM.Services.QuoteVersion.ERPPaymentTypeKey
   id: ERPPaymentTypeKey
@@ -774,28 +774,28 @@ items:
   nameWithType: QuoteVersion.ERPPaymentTypeKey
   fullName: SuperOffice.CRM.Services.QuoteVersion.ERPPaymentTypeKey
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "Either a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text. For instance: 'Invoice'."
-  example: []
+  summary: "\nEither a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text. For instance: &apos;Invoice&apos;. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string ERPPaymentTypeKey { get; set; }
+    content: public virtual string ERPPaymentTypeKey { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ERPPaymentTypeKey As String
+    content.vb: Public Overridable Property ERPPaymentTypeKey As String
   overload: SuperOffice.CRM.Services.QuoteVersion.ERPPaymentTypeKey*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuoteVersion.ERPDeliveryTermsKey
   commentId: P:SuperOffice.CRM.Services.QuoteVersion.ERPDeliveryTermsKey
   id: ERPDeliveryTermsKey
@@ -807,28 +807,28 @@ items:
   nameWithType: QuoteVersion.ERPDeliveryTermsKey
   fullName: SuperOffice.CRM.Services.QuoteVersion.ERPDeliveryTermsKey
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: 'Either a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text. For instance: ‘FOB’ (‘Free on board’).'
-  example: []
+  summary: "\nEither a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text. For instance: ‘FOB’ (‘Free on board’). \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string ERPDeliveryTermsKey { get; set; }
+    content: public virtual string ERPDeliveryTermsKey { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ERPDeliveryTermsKey As String
+    content.vb: Public Overridable Property ERPDeliveryTermsKey As String
   overload: SuperOffice.CRM.Services.QuoteVersion.ERPDeliveryTermsKey*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuoteVersion.ERPDeliveryTypeKey
   commentId: P:SuperOffice.CRM.Services.QuoteVersion.ERPDeliveryTypeKey
   id: ERPDeliveryTypeKey
@@ -840,28 +840,28 @@ items:
   nameWithType: QuoteVersion.ERPDeliveryTypeKey
   fullName: SuperOffice.CRM.Services.QuoteVersion.ERPDeliveryTypeKey
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: 'Either a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text. For instance: ‘Air’.'
-  example: []
+  summary: "\nEither a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text. For instance: ‘Air’. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string ERPDeliveryTypeKey { get; set; }
+    content: public virtual string ERPDeliveryTypeKey { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ERPDeliveryTypeKey As String
+    content.vb: Public Overridable Property ERPDeliveryTypeKey As String
   overload: SuperOffice.CRM.Services.QuoteVersion.ERPDeliveryTypeKey*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuoteVersion.Rank
   commentId: P:SuperOffice.CRM.Services.QuoteVersion.Rank
   id: Rank
@@ -873,28 +873,28 @@ items:
   nameWithType: QuoteVersion.Rank
   fullName: SuperOffice.CRM.Services.QuoteVersion.Rank
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Rank/Version number, starts at 1
-  example: []
+  summary: "\nRank/Version number, starts at 1 \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int Rank { get; set; }
+    content: public virtual int Rank { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Rank As Integer
+    content.vb: Public Overridable Property Rank As Integer
   overload: SuperOffice.CRM.Services.QuoteVersion.Rank*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuoteVersion.ApprovedBy
   commentId: P:SuperOffice.CRM.Services.QuoteVersion.ApprovedBy
   id: ApprovedBy
@@ -906,28 +906,28 @@ items:
   nameWithType: QuoteVersion.ApprovedBy
   fullName: SuperOffice.CRM.Services.QuoteVersion.ApprovedBy
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Id of associate who approved (or rejected approval) for this version
-  example: []
+  summary: "\nId of associate who approved (or rejected approval) for this version \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int ApprovedBy { get; set; }
+    content: public virtual int ApprovedBy { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ApprovedBy As Integer
+    content.vb: Public Overridable Property ApprovedBy As Integer
   overload: SuperOffice.CRM.Services.QuoteVersion.ApprovedBy*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuoteVersion.ApprovedText
   commentId: P:SuperOffice.CRM.Services.QuoteVersion.ApprovedText
   id: ApprovedText
@@ -939,28 +939,28 @@ items:
   nameWithType: QuoteVersion.ApprovedText
   fullName: SuperOffice.CRM.Services.QuoteVersion.ApprovedText
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Text with comments on why approval was granted (or rejected)
-  example: []
+  summary: "\nText with comments on why approval was granted (or rejected) \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string ApprovedText { get; set; }
+    content: public virtual string ApprovedText { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ApprovedText As String
+    content.vb: Public Overridable Property ApprovedText As String
   overload: SuperOffice.CRM.Services.QuoteVersion.ApprovedText*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuoteVersion.ApprovedRegisteredBy
   commentId: P:SuperOffice.CRM.Services.QuoteVersion.ApprovedRegisteredBy
   id: ApprovedRegisteredBy
@@ -972,28 +972,28 @@ items:
   nameWithType: QuoteVersion.ApprovedRegisteredBy
   fullName: SuperOffice.CRM.Services.QuoteVersion.ApprovedRegisteredBy
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Id of associate who actually entered the approval; might be different from ApprovedBy (f.x. due to telephone consultation/approval)
-  example: []
+  summary: "\nId of associate who actually entered the approval; might be different from ApprovedBy (f.x. due to telephone consultation/approval) \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int ApprovedRegisteredBy { get; set; }
+    content: public virtual int ApprovedRegisteredBy { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ApprovedRegisteredBy As Integer
+    content.vb: Public Overridable Property ApprovedRegisteredBy As Integer
   overload: SuperOffice.CRM.Services.QuoteVersion.ApprovedRegisteredBy*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuoteVersion.ApprovedRegisteredDate
   commentId: P:SuperOffice.CRM.Services.QuoteVersion.ApprovedRegisteredDate
   id: ApprovedRegisteredDate
@@ -1005,28 +1005,28 @@ items:
   nameWithType: QuoteVersion.ApprovedRegisteredDate
   fullName: SuperOffice.CRM.Services.QuoteVersion.ApprovedRegisteredDate
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: When was approval granted or rejected
-  example: []
+  summary: "\nWhen was approval granted or rejected \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual DateTime ApprovedRegisteredDate { get; set; }
+    content: public virtual DateTime ApprovedRegisteredDate { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ApprovedRegisteredDate As Date
+    content.vb: Public Overridable Property ApprovedRegisteredDate As DateTime
   overload: SuperOffice.CRM.Services.QuoteVersion.ApprovedRegisteredDate*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuoteVersion.ExtraField1
   commentId: P:SuperOffice.CRM.Services.QuoteVersion.ExtraField1
   id: ExtraField1
@@ -1038,28 +1038,28 @@ items:
   nameWithType: QuoteVersion.ExtraField1
   fullName: SuperOffice.CRM.Services.QuoteVersion.ExtraField1
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Optional information added by Quote Connector; usable in the quote document merge process
-  example: []
+  summary: "\nOptional information added by Quote Connector; usable in the quote document merge process \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string ExtraField1 { get; set; }
+    content: public virtual string ExtraField1 { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ExtraField1 As String
+    content.vb: Public Overridable Property ExtraField1 As String
   overload: SuperOffice.CRM.Services.QuoteVersion.ExtraField1*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuoteVersion.ExtraField2
   commentId: P:SuperOffice.CRM.Services.QuoteVersion.ExtraField2
   id: ExtraField2
@@ -1071,28 +1071,28 @@ items:
   nameWithType: QuoteVersion.ExtraField2
   fullName: SuperOffice.CRM.Services.QuoteVersion.ExtraField2
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Optional information added by Quote Connector; usable in the quote document merge process
-  example: []
+  summary: "\nOptional information added by Quote Connector; usable in the quote document merge process \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string ExtraField2 { get; set; }
+    content: public virtual string ExtraField2 { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ExtraField2 As String
+    content.vb: Public Overridable Property ExtraField2 As String
   overload: SuperOffice.CRM.Services.QuoteVersion.ExtraField2*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuoteVersion.ExtraField3
   commentId: P:SuperOffice.CRM.Services.QuoteVersion.ExtraField3
   id: ExtraField3
@@ -1104,28 +1104,28 @@ items:
   nameWithType: QuoteVersion.ExtraField3
   fullName: SuperOffice.CRM.Services.QuoteVersion.ExtraField3
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Optional information added by Quote Connector; usable in the quote document merge process
-  example: []
+  summary: "\nOptional information added by Quote Connector; usable in the quote document merge process \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string ExtraField3 { get; set; }
+    content: public virtual string ExtraField3 { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ExtraField3 As String
+    content.vb: Public Overridable Property ExtraField3 As String
   overload: SuperOffice.CRM.Services.QuoteVersion.ExtraField3*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuoteVersion.ExtraField4
   commentId: P:SuperOffice.CRM.Services.QuoteVersion.ExtraField4
   id: ExtraField4
@@ -1137,28 +1137,28 @@ items:
   nameWithType: QuoteVersion.ExtraField4
   fullName: SuperOffice.CRM.Services.QuoteVersion.ExtraField4
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Optional information added by Quote Connector; usable in the quote document merge process
-  example: []
+  summary: "\nOptional information added by Quote Connector; usable in the quote document merge process \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string ExtraField4 { get; set; }
+    content: public virtual string ExtraField4 { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ExtraField4 As String
+    content.vb: Public Overridable Property ExtraField4 As String
   overload: SuperOffice.CRM.Services.QuoteVersion.ExtraField4*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuoteVersion.ExtraField5
   commentId: P:SuperOffice.CRM.Services.QuoteVersion.ExtraField5
   id: ExtraField5
@@ -1170,28 +1170,28 @@ items:
   nameWithType: QuoteVersion.ExtraField5
   fullName: SuperOffice.CRM.Services.QuoteVersion.ExtraField5
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Optional information added by Quote Connector; usable in the quote document merge process
-  example: []
+  summary: "\nOptional information added by Quote Connector; usable in the quote document merge process \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string ExtraField5 { get; set; }
+    content: public virtual string ExtraField5 { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ExtraField5 As String
+    content.vb: Public Overridable Property ExtraField5 As String
   overload: SuperOffice.CRM.Services.QuoteVersion.ExtraField5*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuoteVersion.LastRecalculated
   commentId: P:SuperOffice.CRM.Services.QuoteVersion.LastRecalculated
   id: LastRecalculated
@@ -1203,28 +1203,28 @@ items:
   nameWithType: QuoteVersion.LastRecalculated
   fullName: SuperOffice.CRM.Services.QuoteVersion.LastRecalculated
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: When this version was last subjected to a total recalculation. This field must be set by the connector, since the connector may choose to ignore a RecalculateVersion call based on policies and possibly the current value of this field. SuperOffice will set this field to 1.1.1760 whenever any change occurs to the quote, to indicate that a recalculation is needed.
-  example: []
+  summary: "\nWhen this version was last subjected to a total recalculation. This field must be set by the connector, since the connector may choose to ignore a RecalculateVersion call based on policies and possibly the current value of this field. SuperOffice will set this field to 1.1.1760 whenever any change occurs to the quote, to indicate that a recalculation is needed. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual DateTime LastRecalculated { get; set; }
+    content: public virtual DateTime LastRecalculated { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property LastRecalculated As Date
+    content.vb: Public Overridable Property LastRecalculated As DateTime
   overload: SuperOffice.CRM.Services.QuoteVersion.LastRecalculated*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuoteVersion.Updated
   commentId: P:SuperOffice.CRM.Services.QuoteVersion.Updated
   id: Updated
@@ -1236,28 +1236,28 @@ items:
   nameWithType: QuoteVersion.Updated
   fullName: SuperOffice.CRM.Services.QuoteVersion.Updated
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Last updated when  in UTC.
-  example: []
+  summary: "\nLast updated when  in UTC.\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual DateTime Updated { get; set; }
+    content: public virtual DateTime Updated { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Updated As Date
+    content.vb: Public Overridable Property Updated As DateTime
   overload: SuperOffice.CRM.Services.QuoteVersion.Updated*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuoteVersion.UpdatedAssociateId
   commentId: P:SuperOffice.CRM.Services.QuoteVersion.UpdatedAssociateId
   id: UpdatedAssociateId
@@ -1269,28 +1269,28 @@ items:
   nameWithType: QuoteVersion.UpdatedAssociateId
   fullName: SuperOffice.CRM.Services.QuoteVersion.UpdatedAssociateId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Last updated by whom
-  example: []
+  summary: "\nLast updated by whom \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int UpdatedAssociateId { get; set; }
+    content: public virtual int UpdatedAssociateId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property UpdatedAssociateId As Integer
+    content.vb: Public Overridable Property UpdatedAssociateId As Integer
   overload: SuperOffice.CRM.Services.QuoteVersion.UpdatedAssociateId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuoteVersion.Registered
   commentId: P:SuperOffice.CRM.Services.QuoteVersion.Registered
   id: Registered
@@ -1302,28 +1302,28 @@ items:
   nameWithType: QuoteVersion.Registered
   fullName: SuperOffice.CRM.Services.QuoteVersion.Registered
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Registered when  in UTC.
-  example: []
+  summary: "\nRegistered when  in UTC.\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual DateTime Registered { get; set; }
+    content: public virtual DateTime Registered { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Registered As Date
+    content.vb: Public Overridable Property Registered As DateTime
   overload: SuperOffice.CRM.Services.QuoteVersion.Registered*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuoteVersion.RegisteredAssociateId
   commentId: P:SuperOffice.CRM.Services.QuoteVersion.RegisteredAssociateId
   id: RegisteredAssociateId
@@ -1335,28 +1335,28 @@ items:
   nameWithType: QuoteVersion.RegisteredAssociateId
   fullName: SuperOffice.CRM.Services.QuoteVersion.RegisteredAssociateId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Registered by whom
-  example: []
+  summary: "\nRegistered by whom \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int RegisteredAssociateId { get; set; }
+    content: public virtual int RegisteredAssociateId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property RegisteredAssociateId As Integer
+    content.vb: Public Overridable Property RegisteredAssociateId As Integer
   overload: SuperOffice.CRM.Services.QuoteVersion.RegisteredAssociateId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuoteVersion.RequestAssociateId
   commentId: P:SuperOffice.CRM.Services.QuoteVersion.RequestAssociateId
   id: RequestAssociateId
@@ -1368,28 +1368,28 @@ items:
   nameWithType: QuoteVersion.RequestAssociateId
   fullName: SuperOffice.CRM.Services.QuoteVersion.RequestAssociateId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: User to whom the request proposal should be delivered
-  example: []
+  summary: "\nUser to whom the request proposal should be delivered \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int RequestAssociateId { get; set; }
+    content: public virtual int RequestAssociateId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property RequestAssociateId As Integer
+    content.vb: Public Overridable Property RequestAssociateId As Integer
   overload: SuperOffice.CRM.Services.QuoteVersion.RequestAssociateId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuoteVersion.RequestComment
   commentId: P:SuperOffice.CRM.Services.QuoteVersion.RequestComment
   id: RequestComment
@@ -1401,28 +1401,28 @@ items:
   nameWithType: QuoteVersion.RequestComment
   fullName: SuperOffice.CRM.Services.QuoteVersion.RequestComment
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Comment for why quote should be approved
-  example: []
+  summary: "\nComment for why quote should be approved \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string RequestComment { get; set; }
+    content: public virtual string RequestComment { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property RequestComment As String
+    content.vb: Public Overridable Property RequestComment As String
   overload: SuperOffice.CRM.Services.QuoteVersion.RequestComment*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuoteVersion.QuoteAlternatives
   commentId: P:SuperOffice.CRM.Services.QuoteVersion.QuoteAlternatives
   id: QuoteAlternatives
@@ -1434,33 +1434,38 @@ items:
   nameWithType: QuoteVersion.QuoteAlternatives
   fullName: SuperOffice.CRM.Services.QuoteVersion.QuoteAlternatives
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The QuoteAlternatives for the QuoteVersion
-  example: []
+  summary: "\nThe QuoteAlternatives for the QuoteVersion \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual QuoteAlternative[] QuoteAlternatives { get; set; }
+    content: public virtual QuoteAlternative[] QuoteAlternatives { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.QuoteAlternative[]
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property QuoteAlternatives As QuoteAlternative()
+    content.vb: Public Overridable Property QuoteAlternatives As QuoteAlternative()
   overload: SuperOffice.CRM.Services.QuoteVersion.QuoteAlternatives*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
 - uid: SuperOffice.CRM.Services.QuoteAgent
   commentId: T:SuperOffice.CRM.Services.QuoteAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteAgent.html
   name: QuoteAgent
   nameWithType: QuoteAgent
   fullName: SuperOffice.CRM.Services.QuoteAgent
@@ -1468,79 +1473,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.IQuoteAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.IQuoteAgent.html
   name: IQuoteAgent
   nameWithType: IQuoteAgent
   fullName: SuperOffice.CRM.Services.IQuoteAgent
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.QuoteVersion.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.QuoteVersion.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteVersion.html#SuperOffice_CRM_Services_QuoteVersion__ctor
   name: QuoteVersion
   nameWithType: QuoteVersion.QuoteVersion
   fullName: SuperOffice.CRM.Services.QuoteVersion.QuoteVersion
-  nameWithType.vb: QuoteVersion.New
-  fullName.vb: SuperOffice.CRM.Services.QuoteVersion.New
-  name.vb: New
 - uid: SuperOffice.CRM.Services.QuoteVersion.ToString*
   commentId: Overload:SuperOffice.CRM.Services.QuoteVersion.ToString
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteVersion.html#SuperOffice_CRM_Services_QuoteVersion_ToString
   name: ToString
   nameWithType: QuoteVersion.ToString
   fullName: SuperOffice.CRM.Services.QuoteVersion.ToString
@@ -1548,17 +1492,18 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.QuoteVersion.QuoteVersionId*
   commentId: Overload:SuperOffice.CRM.Services.QuoteVersion.QuoteVersionId
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteVersion.html#SuperOffice_CRM_Services_QuoteVersion_QuoteVersionId
   name: QuoteVersionId
   nameWithType: QuoteVersion.QuoteVersionId
   fullName: SuperOffice.CRM.Services.QuoteVersion.QuoteVersionId
@@ -1566,45 +1511,36 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Services.QuoteVersion.ERPQuoteVersionKey*
   commentId: Overload:SuperOffice.CRM.Services.QuoteVersion.ERPQuoteVersionKey
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteVersion.html#SuperOffice_CRM_Services_QuoteVersion_ERPQuoteVersionKey
   name: ERPQuoteVersionKey
   nameWithType: QuoteVersion.ERPQuoteVersionKey
   fullName: SuperOffice.CRM.Services.QuoteVersion.ERPQuoteVersionKey
 - uid: SuperOffice.CRM.Services.QuoteVersion.QuoteId*
   commentId: Overload:SuperOffice.CRM.Services.QuoteVersion.QuoteId
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteVersion.html#SuperOffice_CRM_Services_QuoteVersion_QuoteId
   name: QuoteId
   nameWithType: QuoteVersion.QuoteId
   fullName: SuperOffice.CRM.Services.QuoteVersion.QuoteId
 - uid: SuperOffice.CRM.Services.QuoteVersion.Description*
   commentId: Overload:SuperOffice.CRM.Services.QuoteVersion.Description
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteVersion.html#SuperOffice_CRM_Services_QuoteVersion_Description
   name: Description
   nameWithType: QuoteVersion.Description
   fullName: SuperOffice.CRM.Services.QuoteVersion.Description
 - uid: SuperOffice.CRM.Services.QuoteVersion.Number*
   commentId: Overload:SuperOffice.CRM.Services.QuoteVersion.Number
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteVersion.html#SuperOffice_CRM_Services_QuoteVersion_Number
   name: Number
   nameWithType: QuoteVersion.Number
   fullName: SuperOffice.CRM.Services.QuoteVersion.Number
 - uid: SuperOffice.CRM.Services.QuoteVersion.State*
   commentId: Overload:SuperOffice.CRM.Services.QuoteVersion.State
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteVersion.html#SuperOffice_CRM_Services_QuoteVersion_State
   name: State
   nameWithType: QuoteVersion.State
   fullName: SuperOffice.CRM.Services.QuoteVersion.State
@@ -1616,14 +1552,12 @@ references:
 - uid: SuperOffice.CRM.Services.QuoteVersion.ArchivedState*
   commentId: Overload:SuperOffice.CRM.Services.QuoteVersion.ArchivedState
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteVersion.html#SuperOffice_CRM_Services_QuoteVersion_ArchivedState
   name: ArchivedState
   nameWithType: QuoteVersion.ArchivedState
   fullName: SuperOffice.CRM.Services.QuoteVersion.ArchivedState
 - uid: SuperOffice.CRM.Services.QuoteVersion.Status*
   commentId: Overload:SuperOffice.CRM.Services.QuoteVersion.Status
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteVersion.html#SuperOffice_CRM_Services_QuoteVersion_Status
   name: Status
   nameWithType: QuoteVersion.Status
   fullName: SuperOffice.CRM.Services.QuoteVersion.Status
@@ -1635,60 +1569,47 @@ references:
 - uid: SuperOffice.CRM.Services.QuoteVersion.Reason*
   commentId: Overload:SuperOffice.CRM.Services.QuoteVersion.Reason
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteVersion.html#SuperOffice_CRM_Services_QuoteVersion_Reason
   name: Reason
   nameWithType: QuoteVersion.Reason
   fullName: SuperOffice.CRM.Services.QuoteVersion.Reason
 - uid: SuperOffice.CRM.Services.QuoteVersion.LikelyQuoteAlternativeId*
   commentId: Overload:SuperOffice.CRM.Services.QuoteVersion.LikelyQuoteAlternativeId
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteVersion.html#SuperOffice_CRM_Services_QuoteVersion_LikelyQuoteAlternativeId
   name: LikelyQuoteAlternativeId
   nameWithType: QuoteVersion.LikelyQuoteAlternativeId
   fullName: SuperOffice.CRM.Services.QuoteVersion.LikelyQuoteAlternativeId
 - uid: SuperOffice.CRM.Services.QuoteVersion.SentDate*
   commentId: Overload:SuperOffice.CRM.Services.QuoteVersion.SentDate
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteVersion.html#SuperOffice_CRM_Services_QuoteVersion_SentDate
   name: SentDate
   nameWithType: QuoteVersion.SentDate
   fullName: SuperOffice.CRM.Services.QuoteVersion.SentDate
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
 - uid: SuperOffice.CRM.Services.QuoteVersion.FollowupId*
   commentId: Overload:SuperOffice.CRM.Services.QuoteVersion.FollowupId
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteVersion.html#SuperOffice_CRM_Services_QuoteVersion_FollowupId
   name: FollowupId
   nameWithType: QuoteVersion.FollowupId
   fullName: SuperOffice.CRM.Services.QuoteVersion.FollowupId
 - uid: SuperOffice.CRM.Services.QuoteVersion.ExpirationDate*
   commentId: Overload:SuperOffice.CRM.Services.QuoteVersion.ExpirationDate
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteVersion.html#SuperOffice_CRM_Services_QuoteVersion_ExpirationDate
   name: ExpirationDate
   nameWithType: QuoteVersion.ExpirationDate
   fullName: SuperOffice.CRM.Services.QuoteVersion.ExpirationDate
 - uid: SuperOffice.CRM.Services.QuoteVersion.DeliveryCountryId*
   commentId: Overload:SuperOffice.CRM.Services.QuoteVersion.DeliveryCountryId
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteVersion.html#SuperOffice_CRM_Services_QuoteVersion_DeliveryCountryId
   name: DeliveryCountryId
   nameWithType: QuoteVersion.DeliveryCountryId
   fullName: SuperOffice.CRM.Services.QuoteVersion.DeliveryCountryId
 - uid: SuperOffice.CRM.Services.QuoteVersion.HasOwnDeliveryAddress*
   commentId: Overload:SuperOffice.CRM.Services.QuoteVersion.HasOwnDeliveryAddress
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteVersion.html#SuperOffice_CRM_Services_QuoteVersion_HasOwnDeliveryAddress
   name: HasOwnDeliveryAddress
   nameWithType: QuoteVersion.HasOwnDeliveryAddress
   fullName: SuperOffice.CRM.Services.QuoteVersion.HasOwnDeliveryAddress
@@ -1696,184 +1617,155 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.CRM.Services.QuoteVersion.InvoiceCountryId*
   commentId: Overload:SuperOffice.CRM.Services.QuoteVersion.InvoiceCountryId
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteVersion.html#SuperOffice_CRM_Services_QuoteVersion_InvoiceCountryId
   name: InvoiceCountryId
   nameWithType: QuoteVersion.InvoiceCountryId
   fullName: SuperOffice.CRM.Services.QuoteVersion.InvoiceCountryId
 - uid: SuperOffice.CRM.Services.QuoteVersion.HasOwnInvoiceAddress*
   commentId: Overload:SuperOffice.CRM.Services.QuoteVersion.HasOwnInvoiceAddress
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteVersion.html#SuperOffice_CRM_Services_QuoteVersion_HasOwnInvoiceAddress
   name: HasOwnInvoiceAddress
   nameWithType: QuoteVersion.HasOwnInvoiceAddress
   fullName: SuperOffice.CRM.Services.QuoteVersion.HasOwnInvoiceAddress
 - uid: SuperOffice.CRM.Services.QuoteVersion.ERPPaymentTermsKey*
   commentId: Overload:SuperOffice.CRM.Services.QuoteVersion.ERPPaymentTermsKey
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteVersion.html#SuperOffice_CRM_Services_QuoteVersion_ERPPaymentTermsKey
   name: ERPPaymentTermsKey
   nameWithType: QuoteVersion.ERPPaymentTermsKey
   fullName: SuperOffice.CRM.Services.QuoteVersion.ERPPaymentTermsKey
 - uid: SuperOffice.CRM.Services.QuoteVersion.ERPPaymentTypeKey*
   commentId: Overload:SuperOffice.CRM.Services.QuoteVersion.ERPPaymentTypeKey
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteVersion.html#SuperOffice_CRM_Services_QuoteVersion_ERPPaymentTypeKey
   name: ERPPaymentTypeKey
   nameWithType: QuoteVersion.ERPPaymentTypeKey
   fullName: SuperOffice.CRM.Services.QuoteVersion.ERPPaymentTypeKey
 - uid: SuperOffice.CRM.Services.QuoteVersion.ERPDeliveryTermsKey*
   commentId: Overload:SuperOffice.CRM.Services.QuoteVersion.ERPDeliveryTermsKey
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteVersion.html#SuperOffice_CRM_Services_QuoteVersion_ERPDeliveryTermsKey
   name: ERPDeliveryTermsKey
   nameWithType: QuoteVersion.ERPDeliveryTermsKey
   fullName: SuperOffice.CRM.Services.QuoteVersion.ERPDeliveryTermsKey
 - uid: SuperOffice.CRM.Services.QuoteVersion.ERPDeliveryTypeKey*
   commentId: Overload:SuperOffice.CRM.Services.QuoteVersion.ERPDeliveryTypeKey
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteVersion.html#SuperOffice_CRM_Services_QuoteVersion_ERPDeliveryTypeKey
   name: ERPDeliveryTypeKey
   nameWithType: QuoteVersion.ERPDeliveryTypeKey
   fullName: SuperOffice.CRM.Services.QuoteVersion.ERPDeliveryTypeKey
 - uid: SuperOffice.CRM.Services.QuoteVersion.Rank*
   commentId: Overload:SuperOffice.CRM.Services.QuoteVersion.Rank
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteVersion.html#SuperOffice_CRM_Services_QuoteVersion_Rank
   name: Rank
   nameWithType: QuoteVersion.Rank
   fullName: SuperOffice.CRM.Services.QuoteVersion.Rank
 - uid: SuperOffice.CRM.Services.QuoteVersion.ApprovedBy*
   commentId: Overload:SuperOffice.CRM.Services.QuoteVersion.ApprovedBy
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteVersion.html#SuperOffice_CRM_Services_QuoteVersion_ApprovedBy
   name: ApprovedBy
   nameWithType: QuoteVersion.ApprovedBy
   fullName: SuperOffice.CRM.Services.QuoteVersion.ApprovedBy
 - uid: SuperOffice.CRM.Services.QuoteVersion.ApprovedText*
   commentId: Overload:SuperOffice.CRM.Services.QuoteVersion.ApprovedText
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteVersion.html#SuperOffice_CRM_Services_QuoteVersion_ApprovedText
   name: ApprovedText
   nameWithType: QuoteVersion.ApprovedText
   fullName: SuperOffice.CRM.Services.QuoteVersion.ApprovedText
 - uid: SuperOffice.CRM.Services.QuoteVersion.ApprovedRegisteredBy*
   commentId: Overload:SuperOffice.CRM.Services.QuoteVersion.ApprovedRegisteredBy
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteVersion.html#SuperOffice_CRM_Services_QuoteVersion_ApprovedRegisteredBy
   name: ApprovedRegisteredBy
   nameWithType: QuoteVersion.ApprovedRegisteredBy
   fullName: SuperOffice.CRM.Services.QuoteVersion.ApprovedRegisteredBy
 - uid: SuperOffice.CRM.Services.QuoteVersion.ApprovedRegisteredDate*
   commentId: Overload:SuperOffice.CRM.Services.QuoteVersion.ApprovedRegisteredDate
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteVersion.html#SuperOffice_CRM_Services_QuoteVersion_ApprovedRegisteredDate
   name: ApprovedRegisteredDate
   nameWithType: QuoteVersion.ApprovedRegisteredDate
   fullName: SuperOffice.CRM.Services.QuoteVersion.ApprovedRegisteredDate
 - uid: SuperOffice.CRM.Services.QuoteVersion.ExtraField1*
   commentId: Overload:SuperOffice.CRM.Services.QuoteVersion.ExtraField1
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteVersion.html#SuperOffice_CRM_Services_QuoteVersion_ExtraField1
   name: ExtraField1
   nameWithType: QuoteVersion.ExtraField1
   fullName: SuperOffice.CRM.Services.QuoteVersion.ExtraField1
 - uid: SuperOffice.CRM.Services.QuoteVersion.ExtraField2*
   commentId: Overload:SuperOffice.CRM.Services.QuoteVersion.ExtraField2
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteVersion.html#SuperOffice_CRM_Services_QuoteVersion_ExtraField2
   name: ExtraField2
   nameWithType: QuoteVersion.ExtraField2
   fullName: SuperOffice.CRM.Services.QuoteVersion.ExtraField2
 - uid: SuperOffice.CRM.Services.QuoteVersion.ExtraField3*
   commentId: Overload:SuperOffice.CRM.Services.QuoteVersion.ExtraField3
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteVersion.html#SuperOffice_CRM_Services_QuoteVersion_ExtraField3
   name: ExtraField3
   nameWithType: QuoteVersion.ExtraField3
   fullName: SuperOffice.CRM.Services.QuoteVersion.ExtraField3
 - uid: SuperOffice.CRM.Services.QuoteVersion.ExtraField4*
   commentId: Overload:SuperOffice.CRM.Services.QuoteVersion.ExtraField4
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteVersion.html#SuperOffice_CRM_Services_QuoteVersion_ExtraField4
   name: ExtraField4
   nameWithType: QuoteVersion.ExtraField4
   fullName: SuperOffice.CRM.Services.QuoteVersion.ExtraField4
 - uid: SuperOffice.CRM.Services.QuoteVersion.ExtraField5*
   commentId: Overload:SuperOffice.CRM.Services.QuoteVersion.ExtraField5
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteVersion.html#SuperOffice_CRM_Services_QuoteVersion_ExtraField5
   name: ExtraField5
   nameWithType: QuoteVersion.ExtraField5
   fullName: SuperOffice.CRM.Services.QuoteVersion.ExtraField5
 - uid: SuperOffice.CRM.Services.QuoteVersion.LastRecalculated*
   commentId: Overload:SuperOffice.CRM.Services.QuoteVersion.LastRecalculated
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteVersion.html#SuperOffice_CRM_Services_QuoteVersion_LastRecalculated
   name: LastRecalculated
   nameWithType: QuoteVersion.LastRecalculated
   fullName: SuperOffice.CRM.Services.QuoteVersion.LastRecalculated
 - uid: SuperOffice.CRM.Services.QuoteVersion.Updated*
   commentId: Overload:SuperOffice.CRM.Services.QuoteVersion.Updated
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteVersion.html#SuperOffice_CRM_Services_QuoteVersion_Updated
   name: Updated
   nameWithType: QuoteVersion.Updated
   fullName: SuperOffice.CRM.Services.QuoteVersion.Updated
 - uid: SuperOffice.CRM.Services.QuoteVersion.UpdatedAssociateId*
   commentId: Overload:SuperOffice.CRM.Services.QuoteVersion.UpdatedAssociateId
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteVersion.html#SuperOffice_CRM_Services_QuoteVersion_UpdatedAssociateId
   name: UpdatedAssociateId
   nameWithType: QuoteVersion.UpdatedAssociateId
   fullName: SuperOffice.CRM.Services.QuoteVersion.UpdatedAssociateId
 - uid: SuperOffice.CRM.Services.QuoteVersion.Registered*
   commentId: Overload:SuperOffice.CRM.Services.QuoteVersion.Registered
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteVersion.html#SuperOffice_CRM_Services_QuoteVersion_Registered
   name: Registered
   nameWithType: QuoteVersion.Registered
   fullName: SuperOffice.CRM.Services.QuoteVersion.Registered
 - uid: SuperOffice.CRM.Services.QuoteVersion.RegisteredAssociateId*
   commentId: Overload:SuperOffice.CRM.Services.QuoteVersion.RegisteredAssociateId
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteVersion.html#SuperOffice_CRM_Services_QuoteVersion_RegisteredAssociateId
   name: RegisteredAssociateId
   nameWithType: QuoteVersion.RegisteredAssociateId
   fullName: SuperOffice.CRM.Services.QuoteVersion.RegisteredAssociateId
 - uid: SuperOffice.CRM.Services.QuoteVersion.RequestAssociateId*
   commentId: Overload:SuperOffice.CRM.Services.QuoteVersion.RequestAssociateId
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteVersion.html#SuperOffice_CRM_Services_QuoteVersion_RequestAssociateId
   name: RequestAssociateId
   nameWithType: QuoteVersion.RequestAssociateId
   fullName: SuperOffice.CRM.Services.QuoteVersion.RequestAssociateId
 - uid: SuperOffice.CRM.Services.QuoteVersion.RequestComment*
   commentId: Overload:SuperOffice.CRM.Services.QuoteVersion.RequestComment
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteVersion.html#SuperOffice_CRM_Services_QuoteVersion_RequestComment
   name: RequestComment
   nameWithType: QuoteVersion.RequestComment
   fullName: SuperOffice.CRM.Services.QuoteVersion.RequestComment
 - uid: SuperOffice.CRM.Services.QuoteVersion.QuoteAlternatives*
   commentId: Overload:SuperOffice.CRM.Services.QuoteVersion.QuoteAlternatives
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteVersion.html#SuperOffice_CRM_Services_QuoteVersion_QuoteAlternatives
   name: QuoteAlternatives
   nameWithType: QuoteVersion.QuoteAlternatives
   fullName: SuperOffice.CRM.Services.QuoteVersion.QuoteAlternatives
 - uid: SuperOffice.CRM.Services.QuoteAlternative[]
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteAlternative.html
   name: QuoteAlternative[]
   nameWithType: QuoteAlternative[]
   fullName: SuperOffice.CRM.Services.QuoteAlternative[]
@@ -1883,14 +1775,18 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.QuoteAlternative
     name: QuoteAlternative
+    nameWithType: QuoteAlternative
+    fullName: SuperOffice.CRM.Services.QuoteAlternative
     isExternal: true
-    href: SuperOffice.CRM.Services.QuoteAlternative.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.Services.QuoteAlternative
     name: QuoteAlternative
+    nameWithType: QuoteAlternative
+    fullName: SuperOffice.CRM.Services.QuoteAlternative
     isExternal: true
-    href: SuperOffice.CRM.Services.QuoteAlternative.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()

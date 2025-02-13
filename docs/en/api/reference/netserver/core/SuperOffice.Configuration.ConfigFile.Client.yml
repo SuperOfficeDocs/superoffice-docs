@@ -28,8 +28,8 @@ items:
   - SuperOffice.Configuration.ConfigFile.Client.UrlHostOverride
   - SuperOffice.Configuration.ConfigFile.Client.UrlPortOverride
   - SuperOffice.Configuration.ConfigFile.Client.UrlSchemeOverride
-  - SuperOffice.Configuration.ConfigFile.Client.WWW3Url
   - SuperOffice.Configuration.ConfigFile.Client.WebAppUsage
+  - SuperOffice.Configuration.ConfigFile.Client.WWW3Url
   langs:
   - csharp
   - vb
@@ -37,24 +37,27 @@ items:
   nameWithType: ConfigFile.Client
   fullName: SuperOffice.Configuration.ConfigFile.Client
   type: Class
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Configuration
-  summary: Configuration values related to client configuration, extension of ClientConfigurationProvider
-  example: []
+  summary: "\nConfiguration values related to client configuration, extension of ClientConfigurationProvider\n"
   syntax:
-    content: public static class ConfigFile.Client
-    content.vb: Public Module ConfigFile.Client
+    content: 'public static class Client : Object'
+    content.vb: >-
+      Public Module Client
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
 - uid: SuperOffice.Configuration.ConfigFile.Client.ApplicationName
   commentId: P:SuperOffice.Configuration.ConfigFile.Client.ApplicationName
   id: ApplicationName
@@ -66,11 +69,13 @@ items:
   nameWithType: ConfigFile.Client.ApplicationName
   fullName: SuperOffice.Configuration.ConfigFile.Client.ApplicationName
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Configuration
-  summary: ''
-  example: []
+  summary: "\n\n"
   syntax:
     content: public static string ApplicationName { get; set; }
     parameters: []
@@ -78,6 +83,14 @@ items:
       type: System.String
     content.vb: Public Shared Property ApplicationName As String
   overload: SuperOffice.Configuration.ConfigFile.Client.ApplicationName*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Configuration.ConfigFile.Client.ApplicationInstance
   commentId: P:SuperOffice.Configuration.ConfigFile.Client.ApplicationInstance
   id: ApplicationInstance
@@ -89,11 +102,13 @@ items:
   nameWithType: ConfigFile.Client.ApplicationInstance
   fullName: SuperOffice.Configuration.ConfigFile.Client.ApplicationInstance
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Configuration
-  summary: ''
-  example: []
+  summary: "\n\n"
   syntax:
     content: public static string ApplicationInstance { get; set; }
     parameters: []
@@ -101,6 +116,14 @@ items:
       type: System.String
     content.vb: Public Shared Property ApplicationInstance As String
   overload: SuperOffice.Configuration.ConfigFile.Client.ApplicationInstance*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Configuration.ConfigFile.Client.HelpFilesBaseUrl
   commentId: P:SuperOffice.Configuration.ConfigFile.Client.HelpFilesBaseUrl
   id: HelpFilesBaseUrl
@@ -112,11 +135,13 @@ items:
   nameWithType: ConfigFile.Client.HelpFilesBaseUrl
   fullName: SuperOffice.Configuration.ConfigFile.Client.HelpFilesBaseUrl
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Configuration
-  summary: Override the help files location - to support local deployments.
-  example: []
+  summary: "\nOverride the help files location - to support local deployments. \n"
   syntax:
     content: public static string HelpFilesBaseUrl { get; set; }
     parameters: []
@@ -124,6 +149,14 @@ items:
       type: System.String
     content.vb: Public Shared Property HelpFilesBaseUrl As String
   overload: SuperOffice.Configuration.ConfigFile.Client.HelpFilesBaseUrl*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Configuration.ConfigFile.Client.ExportPageSize
   commentId: P:SuperOffice.Configuration.ConfigFile.Client.ExportPageSize
   id: ExportPageSize
@@ -135,11 +168,13 @@ items:
   nameWithType: ConfigFile.Client.ExportPageSize
   fullName: SuperOffice.Configuration.ConfigFile.Client.ExportPageSize
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Configuration
-  summary: Obsolete, no longer in use. See ExportRowLimit and ExportBatchTaskThreshold
-  example: []
+  summary: "\nObsolete, no longer in use. See ExportRowLimit and ExportBatchTaskThreshold\n"
   syntax:
     content: public static int ExportPageSize { get; set; }
     parameters: []
@@ -147,6 +182,14 @@ items:
       type: System.Int32
     content.vb: Public Shared Property ExportPageSize As Integer
   overload: SuperOffice.Configuration.ConfigFile.Client.ExportPageSize*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Configuration.ConfigFile.Client.ExportRowLimit
   commentId: P:SuperOffice.Configuration.ConfigFile.Client.ExportRowLimit
   id: ExportRowLimit
@@ -158,11 +201,13 @@ items:
   nameWithType: ConfigFile.Client.ExportRowLimit
   fullName: SuperOffice.Configuration.ConfigFile.Client.ExportRowLimit
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Configuration
-  summary: Absolute upper limit for number of rows in a file export, such as an Excel Export from Archives
-  example: []
+  summary: "\nAbsolute upper limit for number of rows in a file export, such as an Excel Export from Archives\n"
   syntax:
     content: public static int ExportRowLimit { get; set; }
     parameters: []
@@ -170,6 +215,14 @@ items:
       type: System.Int32
     content.vb: Public Shared Property ExportRowLimit As Integer
   overload: SuperOffice.Configuration.ConfigFile.Client.ExportRowLimit*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Configuration.ConfigFile.Client.ExportBatchTaskThreshold
   commentId: P:SuperOffice.Configuration.ConfigFile.Client.ExportBatchTaskThreshold
   id: ExportBatchTaskThreshold
@@ -181,11 +234,13 @@ items:
   nameWithType: ConfigFile.Client.ExportBatchTaskThreshold
   fullName: SuperOffice.Configuration.ConfigFile.Client.ExportBatchTaskThreshold
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Configuration
-  summary: Threshold when an Export is delegated to a Batch Task, rather than being run directly in the Web server
-  example: []
+  summary: "\nThreshold when an Export is delegated to a Batch Task, rather than being run directly in the Web server\n"
   syntax:
     content: public static int ExportBatchTaskThreshold { get; set; }
     parameters: []
@@ -193,6 +248,14 @@ items:
       type: System.Int32
     content.vb: Public Shared Property ExportBatchTaskThreshold As Integer
   overload: SuperOffice.Configuration.ConfigFile.Client.ExportBatchTaskThreshold*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Configuration.ConfigFile.Client.ApplicationTitle
   commentId: P:SuperOffice.Configuration.ConfigFile.Client.ApplicationTitle
   id: ApplicationTitle
@@ -204,11 +267,13 @@ items:
   nameWithType: ConfigFile.Client.ApplicationTitle
   fullName: SuperOffice.Configuration.ConfigFile.Client.ApplicationTitle
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Configuration
-  summary: Application title
-  example: []
+  summary: "\nApplication title\n"
   syntax:
     content: public static string ApplicationTitle { get; set; }
     parameters: []
@@ -216,6 +281,14 @@ items:
       type: System.String
     content.vb: Public Shared Property ApplicationTitle As String
   overload: SuperOffice.Configuration.ConfigFile.Client.ApplicationTitle*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Configuration.ConfigFile.Client.WebAppUsage
   commentId: P:SuperOffice.Configuration.ConfigFile.Client.WebAppUsage
   id: WebAppUsage
@@ -227,11 +300,13 @@ items:
   nameWithType: ConfigFile.Client.WebAppUsage
   fullName: SuperOffice.Configuration.ConfigFile.Client.WebAppUsage
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Configuration
-  summary: Enable the collection of Web Client usage statistics (only view usage, no references to actual data)
-  example: []
+  summary: "\nEnable the collection of Web Client usage statistics (only view usage, no references to actual data)\n"
   syntax:
     content: public static bool WebAppUsage { get; set; }
     parameters: []
@@ -239,6 +314,14 @@ items:
       type: System.Boolean
     content.vb: Public Shared Property WebAppUsage As Boolean
   overload: SuperOffice.Configuration.ConfigFile.Client.WebAppUsage*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Configuration.ConfigFile.Client.ClientCacheKey
   commentId: P:SuperOffice.Configuration.ConfigFile.Client.ClientCacheKey
   id: ClientCacheKey
@@ -250,11 +333,13 @@ items:
   nameWithType: ConfigFile.Client.ClientCacheKey
   fullName: SuperOffice.Configuration.ConfigFile.Client.ClientCacheKey
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Configuration
-  summary: Cache key that is appended (if it exists) to the querystring for javascript and css includes
-  example: []
+  summary: "\nCache key that is appended (if it exists) to the querystring for javascript and css includes\n"
   syntax:
     content: public static string ClientCacheKey { get; set; }
     parameters: []
@@ -262,6 +347,14 @@ items:
       type: System.String
     content.vb: Public Shared Property ClientCacheKey As String
   overload: SuperOffice.Configuration.ConfigFile.Client.ClientCacheKey*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Configuration.ConfigFile.Client.UrlSchemeOverride
   commentId: P:SuperOffice.Configuration.ConfigFile.Client.UrlSchemeOverride
   id: UrlSchemeOverride
@@ -273,11 +366,13 @@ items:
   nameWithType: ConfigFile.Client.UrlSchemeOverride
   fullName: SuperOffice.Configuration.ConfigFile.Client.UrlSchemeOverride
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Configuration
-  summary: Overridden value of sheme (HTTP or HTTPS
-  example: []
+  summary: "\nOverridden value of sheme (HTTP or HTTPS\n"
   syntax:
     content: public static string UrlSchemeOverride { get; set; }
     parameters: []
@@ -285,6 +380,14 @@ items:
       type: System.String
     content.vb: Public Shared Property UrlSchemeOverride As String
   overload: SuperOffice.Configuration.ConfigFile.Client.UrlSchemeOverride*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Configuration.ConfigFile.Client.UrlHostOverride
   commentId: P:SuperOffice.Configuration.ConfigFile.Client.UrlHostOverride
   id: UrlHostOverride
@@ -296,11 +399,13 @@ items:
   nameWithType: ConfigFile.Client.UrlHostOverride
   fullName: SuperOffice.Configuration.ConfigFile.Client.UrlHostOverride
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Configuration
-  summary: 'Overridden value of host, like: online.superoffice.com'
-  example: []
+  summary: "\nOverridden value of host, like: online.superoffice.com\n"
   syntax:
     content: public static string UrlHostOverride { get; set; }
     parameters: []
@@ -308,6 +413,14 @@ items:
       type: System.String
     content.vb: Public Shared Property UrlHostOverride As String
   overload: SuperOffice.Configuration.ConfigFile.Client.UrlHostOverride*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Configuration.ConfigFile.Client.UrlPortOverride
   commentId: P:SuperOffice.Configuration.ConfigFile.Client.UrlPortOverride
   id: UrlPortOverride
@@ -319,11 +432,13 @@ items:
   nameWithType: ConfigFile.Client.UrlPortOverride
   fullName: SuperOffice.Configuration.ConfigFile.Client.UrlPortOverride
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Configuration
-  summary: 'Overridden value of port, like: 80 or 443'
-  example: []
+  summary: "\nOverridden value of port, like: 80 or 443\n"
   syntax:
     content: public static int UrlPortOverride { get; set; }
     parameters: []
@@ -331,6 +446,14 @@ items:
       type: System.Int32
     content.vb: Public Shared Property UrlPortOverride As Integer
   overload: SuperOffice.Configuration.ConfigFile.Client.UrlPortOverride*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Configuration.ConfigFile.Client.GoogleImportDispatcher
   commentId: P:SuperOffice.Configuration.ConfigFile.Client.GoogleImportDispatcher
   id: GoogleImportDispatcher
@@ -342,11 +465,13 @@ items:
   nameWithType: ConfigFile.Client.GoogleImportDispatcher
   fullName: SuperOffice.Configuration.ConfigFile.Client.GoogleImportDispatcher
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Configuration
-  summary: url to import from google
-  example: []
+  summary: "\nurl to import from google\n"
   syntax:
     content: public static string GoogleImportDispatcher { get; set; }
     parameters: []
@@ -354,6 +479,14 @@ items:
       type: System.String
     content.vb: Public Shared Property GoogleImportDispatcher As String
   overload: SuperOffice.Configuration.ConfigFile.Client.GoogleImportDispatcher*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Configuration.ConfigFile.Client.GoogleImportClientId
   commentId: P:SuperOffice.Configuration.ConfigFile.Client.GoogleImportClientId
   id: GoogleImportClientId
@@ -365,11 +498,13 @@ items:
   nameWithType: ConfigFile.Client.GoogleImportClientId
   fullName: SuperOffice.Configuration.ConfigFile.Client.GoogleImportClientId
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Configuration
-  summary: Client ID when importing from google
-  example: []
+  summary: "\nClient ID when importing from google\n"
   syntax:
     content: public static string GoogleImportClientId { get; set; }
     parameters: []
@@ -377,6 +512,14 @@ items:
       type: System.String
     content.vb: Public Shared Property GoogleImportClientId As String
   overload: SuperOffice.Configuration.ConfigFile.Client.GoogleImportClientId*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Configuration.ConfigFile.Client.GoogleImportClientSecret
   commentId: P:SuperOffice.Configuration.ConfigFile.Client.GoogleImportClientSecret
   id: GoogleImportClientSecret
@@ -388,11 +531,13 @@ items:
   nameWithType: ConfigFile.Client.GoogleImportClientSecret
   fullName: SuperOffice.Configuration.ConfigFile.Client.GoogleImportClientSecret
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Configuration
-  summary: Client secret when importing from google
-  example: []
+  summary: "\nClient secret when importing from google\n"
   syntax:
     content: public static string GoogleImportClientSecret { get; set; }
     parameters: []
@@ -400,6 +545,14 @@ items:
       type: System.String
     content.vb: Public Shared Property GoogleImportClientSecret As String
   overload: SuperOffice.Configuration.ConfigFile.Client.GoogleImportClientSecret*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Configuration.ConfigFile.Client.MasterDcfConfigHashKeyFormat
   commentId: P:SuperOffice.Configuration.ConfigFile.Client.MasterDcfConfigHashKeyFormat
   id: MasterDcfConfigHashKeyFormat
@@ -411,11 +564,13 @@ items:
   nameWithType: ConfigFile.Client.MasterDcfConfigHashKeyFormat
   fullName: SuperOffice.Configuration.ConfigFile.Client.MasterDcfConfigHashKeyFormat
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Configuration
-  summary: The format key used to generate a unique DCF page config hash. {0} = MachineName. {1} = Build-label. {2} = Assembly version. Defaults to {0}.
-  example: []
+  summary: "\nThe format key used to generate a unique DCF page config hash. {0} = MachineName. {1} = Build-label. {2} = Assembly version. Defaults to {0}.\n"
   syntax:
     content: public static string MasterDcfConfigHashKeyFormat { get; set; }
     parameters: []
@@ -423,6 +578,14 @@ items:
       type: System.String
     content.vb: Public Shared Property MasterDcfConfigHashKeyFormat As String
   overload: SuperOffice.Configuration.ConfigFile.Client.MasterDcfConfigHashKeyFormat*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Configuration.ConfigFile.Client.NetServicesStatusUrl
   commentId: P:SuperOffice.Configuration.ConfigFile.Client.NetServicesStatusUrl
   id: NetServicesStatusUrl
@@ -434,11 +597,13 @@ items:
   nameWithType: ConfigFile.Client.NetServicesStatusUrl
   fullName: SuperOffice.Configuration.ConfigFile.Client.NetServicesStatusUrl
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Configuration
-  summary: Override the default NetServices Status URL with this value. Useful for testing.
-  example: []
+  summary: "\nOverride the default NetServices Status URL with this value. Useful for testing.\n"
   syntax:
     content: public static string NetServicesStatusUrl { get; set; }
     parameters: []
@@ -446,6 +611,14 @@ items:
       type: System.String
     content.vb: Public Shared Property NetServicesStatusUrl As String
   overload: SuperOffice.Configuration.ConfigFile.Client.NetServicesStatusUrl*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Configuration.ConfigFile.Client.NetServicesNextDate
   commentId: P:SuperOffice.Configuration.ConfigFile.Client.NetServicesNextDate
   id: NetServicesNextDate
@@ -457,11 +630,13 @@ items:
   nameWithType: ConfigFile.Client.NetServicesNextDate
   fullName: SuperOffice.Configuration.ConfigFile.Client.NetServicesNextDate
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Configuration
-  summary: Override the Next Check Date preference for NetServices Status checking. Useful for testing. YYYY.MM.DD
-  example: []
+  summary: "\nOverride the Next Check Date preference for NetServices Status checking. Useful for testing. YYYY.MM.DD\n"
   syntax:
     content: public static string NetServicesNextDate { get; set; }
     parameters: []
@@ -469,6 +644,14 @@ items:
       type: System.String
     content.vb: Public Shared Property NetServicesNextDate As String
   overload: SuperOffice.Configuration.ConfigFile.Client.NetServicesNextDate*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Configuration.ConfigFile.Client.ShowWelcomeDialogs
   commentId: P:SuperOffice.Configuration.ConfigFile.Client.ShowWelcomeDialogs
   id: ShowWelcomeDialogs
@@ -480,11 +663,13 @@ items:
   nameWithType: ConfigFile.Client.ShowWelcomeDialogs
   fullName: SuperOffice.Configuration.ConfigFile.Client.ShowWelcomeDialogs
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Configuration
-  summary: Allow automated tests to disable webtools and welcome dialogs.
-  example: []
+  summary: "\nAllow automated tests to disable webtools and welcome dialogs.\n"
   syntax:
     content: public static bool ShowWelcomeDialogs { get; set; }
     parameters: []
@@ -492,6 +677,14 @@ items:
       type: System.Boolean
     content.vb: Public Shared Property ShowWelcomeDialogs As Boolean
   overload: SuperOffice.Configuration.ConfigFile.Client.ShowWelcomeDialogs*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Configuration.ConfigFile.Client.WWW3Url
   commentId: P:SuperOffice.Configuration.ConfigFile.Client.WWW3Url
   id: WWW3Url
@@ -503,11 +696,13 @@ items:
   nameWithType: ConfigFile.Client.WWW3Url
   fullName: SuperOffice.Configuration.ConfigFile.Client.WWW3Url
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Configuration
-  summary: The root-URL of the global SuperOffice www3 host.
-  example: []
+  summary: "\nThe root-URL of the global SuperOffice www3 host.\n"
   syntax:
     content: public static string WWW3Url { get; set; }
     parameters: []
@@ -515,6 +710,14 @@ items:
       type: System.String
     content.vb: Public Shared Property WWW3Url As String
   overload: SuperOffice.Configuration.ConfigFile.Client.WWW3Url*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Configuration.ConfigFile.Client.IdleTimeout
   commentId: P:SuperOffice.Configuration.ConfigFile.Client.IdleTimeout
   id: IdleTimeout
@@ -526,11 +729,13 @@ items:
   nameWithType: ConfigFile.Client.IdleTimeout
   fullName: SuperOffice.Configuration.ConfigFile.Client.IdleTimeout
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Configuration
-  summary: Idle detection threshold in minutes. When exceeded user is logged out. Default is off.
-  example: []
+  summary: "\nIdle detection threshold in minutes. When exceeded user is logged out. Default is off.\n"
   syntax:
     content: public static int IdleTimeout { get; set; }
     parameters: []
@@ -538,6 +743,14 @@ items:
       type: System.Int32
     content.vb: Public Shared Property IdleTimeout As Integer
   overload: SuperOffice.Configuration.ConfigFile.Client.IdleTimeout*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Configuration.ConfigFile.Client.LiveUiPollingInterval
   commentId: P:SuperOffice.Configuration.ConfigFile.Client.LiveUiPollingInterval
   id: LiveUiPollingInterval
@@ -549,11 +762,13 @@ items:
   nameWithType: ConfigFile.Client.LiveUiPollingInterval
   fullName: SuperOffice.Configuration.ConfigFile.Client.LiveUiPollingInterval
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Configuration
-  summary: Interval (in seconds) defining how often UI events should be polled.
-  example: []
+  summary: "\nInterval (in seconds) defining how often UI events should be polled.\n"
   syntax:
     content: public static int LiveUiPollingInterval { get; set; }
     parameters: []
@@ -561,6 +776,14 @@ items:
       type: System.Int32
     content.vb: Public Shared Property LiveUiPollingInterval As Integer
   overload: SuperOffice.Configuration.ConfigFile.Client.LiveUiPollingInterval*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Configuration.ConfigFile.Client.LiveUiEventLimit
   commentId: P:SuperOffice.Configuration.ConfigFile.Client.LiveUiEventLimit
   id: LiveUiEventLimit
@@ -572,11 +795,13 @@ items:
   nameWithType: ConfigFile.Client.LiveUiEventLimit
   fullName: SuperOffice.Configuration.ConfigFile.Client.LiveUiEventLimit
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Configuration
-  summary: Max amount of UI events to be stored on a backend.
-  example: []
+  summary: "\nMax amount of UI events to be stored on a backend.\n"
   syntax:
     content: public static int LiveUiEventLimit { get; set; }
     parameters: []
@@ -584,6 +809,14 @@ items:
       type: System.Int32
     content.vb: Public Shared Property LiveUiEventLimit As Integer
   overload: SuperOffice.Configuration.ConfigFile.Client.LiveUiEventLimit*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Configuration.ConfigFile.Client.SynchronizerSettingsUrl
   commentId: P:SuperOffice.Configuration.ConfigFile.Client.SynchronizerSettingsUrl
   id: SynchronizerSettingsUrl
@@ -595,11 +828,13 @@ items:
   nameWithType: ConfigFile.Client.SynchronizerSettingsUrl
   fullName: SuperOffice.Configuration.ConfigFile.Client.SynchronizerSettingsUrl
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Configuration
-  summary: URL to InfoBridge Synchronizer Settings
-  example: []
+  summary: "\nURL to InfoBridge Synchronizer Settings\n"
   syntax:
     content: public static string SynchronizerSettingsUrl { get; set; }
     parameters: []
@@ -607,6 +842,14 @@ items:
       type: System.String
     content.vb: Public Shared Property SynchronizerSettingsUrl As String
   overload: SuperOffice.Configuration.ConfigFile.Client.SynchronizerSettingsUrl*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Configuration.ConfigFile.Client.HighchartsExportServiceUrl
   commentId: P:SuperOffice.Configuration.ConfigFile.Client.HighchartsExportServiceUrl
   id: HighchartsExportServiceUrl
@@ -618,11 +861,13 @@ items:
   nameWithType: ConfigFile.Client.HighchartsExportServiceUrl
   fullName: SuperOffice.Configuration.ConfigFile.Client.HighchartsExportServiceUrl
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Configuration
-  summary: URL to the Highcharts export service
-  example: []
+  summary: "\nURL to the Highcharts export service\n"
   syntax:
     content: public static string HighchartsExportServiceUrl { get; set; }
     parameters: []
@@ -630,275 +875,37 @@ items:
       type: System.String
     content.vb: Public Shared Property HighchartsExportServiceUrl As String
   overload: SuperOffice.Configuration.ConfigFile.Client.HighchartsExportServiceUrl*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
 references:
 - uid: SuperOffice.Configuration
   commentId: N:SuperOffice.Configuration
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Configuration
   nameWithType: SuperOffice.Configuration
   fullName: SuperOffice.Configuration
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Configuration
-    name: Configuration
-    isExternal: true
-    href: SuperOffice.Configuration.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Configuration
-    name: Configuration
-    isExternal: true
-    href: SuperOffice.Configuration.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.Configuration.ConfigFile.Client.ApplicationName*
   commentId: Overload:SuperOffice.Configuration.ConfigFile.Client.ApplicationName
   isExternal: true
-  href: SuperOffice.Configuration.ConfigFile.Client.html#SuperOffice_Configuration_ConfigFile_Client_ApplicationName
   name: ApplicationName
   nameWithType: ConfigFile.Client.ApplicationName
   fullName: SuperOffice.Configuration.ConfigFile.Client.ApplicationName
@@ -906,31 +913,24 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.Configuration.ConfigFile.Client.ApplicationInstance*
   commentId: Overload:SuperOffice.Configuration.ConfigFile.Client.ApplicationInstance
   isExternal: true
-  href: SuperOffice.Configuration.ConfigFile.Client.html#SuperOffice_Configuration_ConfigFile_Client_ApplicationInstance
   name: ApplicationInstance
   nameWithType: ConfigFile.Client.ApplicationInstance
   fullName: SuperOffice.Configuration.ConfigFile.Client.ApplicationInstance
 - uid: SuperOffice.Configuration.ConfigFile.Client.HelpFilesBaseUrl*
   commentId: Overload:SuperOffice.Configuration.ConfigFile.Client.HelpFilesBaseUrl
   isExternal: true
-  href: SuperOffice.Configuration.ConfigFile.Client.html#SuperOffice_Configuration_ConfigFile_Client_HelpFilesBaseUrl
   name: HelpFilesBaseUrl
   nameWithType: ConfigFile.Client.HelpFilesBaseUrl
   fullName: SuperOffice.Configuration.ConfigFile.Client.HelpFilesBaseUrl
 - uid: SuperOffice.Configuration.ConfigFile.Client.ExportPageSize*
   commentId: Overload:SuperOffice.Configuration.ConfigFile.Client.ExportPageSize
   isExternal: true
-  href: SuperOffice.Configuration.ConfigFile.Client.html#SuperOffice_Configuration_ConfigFile_Client_ExportPageSize
   name: ExportPageSize
   nameWithType: ConfigFile.Client.ExportPageSize
   fullName: SuperOffice.Configuration.ConfigFile.Client.ExportPageSize
@@ -938,38 +938,30 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.Configuration.ConfigFile.Client.ExportRowLimit*
   commentId: Overload:SuperOffice.Configuration.ConfigFile.Client.ExportRowLimit
   isExternal: true
-  href: SuperOffice.Configuration.ConfigFile.Client.html#SuperOffice_Configuration_ConfigFile_Client_ExportRowLimit
   name: ExportRowLimit
   nameWithType: ConfigFile.Client.ExportRowLimit
   fullName: SuperOffice.Configuration.ConfigFile.Client.ExportRowLimit
 - uid: SuperOffice.Configuration.ConfigFile.Client.ExportBatchTaskThreshold*
   commentId: Overload:SuperOffice.Configuration.ConfigFile.Client.ExportBatchTaskThreshold
   isExternal: true
-  href: SuperOffice.Configuration.ConfigFile.Client.html#SuperOffice_Configuration_ConfigFile_Client_ExportBatchTaskThreshold
   name: ExportBatchTaskThreshold
   nameWithType: ConfigFile.Client.ExportBatchTaskThreshold
   fullName: SuperOffice.Configuration.ConfigFile.Client.ExportBatchTaskThreshold
 - uid: SuperOffice.Configuration.ConfigFile.Client.ApplicationTitle*
   commentId: Overload:SuperOffice.Configuration.ConfigFile.Client.ApplicationTitle
   isExternal: true
-  href: SuperOffice.Configuration.ConfigFile.Client.html#SuperOffice_Configuration_ConfigFile_Client_ApplicationTitle
   name: ApplicationTitle
   nameWithType: ConfigFile.Client.ApplicationTitle
   fullName: SuperOffice.Configuration.ConfigFile.Client.ApplicationTitle
 - uid: SuperOffice.Configuration.ConfigFile.Client.WebAppUsage*
   commentId: Overload:SuperOffice.Configuration.ConfigFile.Client.WebAppUsage
   isExternal: true
-  href: SuperOffice.Configuration.ConfigFile.Client.html#SuperOffice_Configuration_ConfigFile_Client_WebAppUsage
   name: WebAppUsage
   nameWithType: ConfigFile.Client.WebAppUsage
   fullName: SuperOffice.Configuration.ConfigFile.Client.WebAppUsage
@@ -977,129 +969,108 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.Configuration.ConfigFile.Client.ClientCacheKey*
   commentId: Overload:SuperOffice.Configuration.ConfigFile.Client.ClientCacheKey
   isExternal: true
-  href: SuperOffice.Configuration.ConfigFile.Client.html#SuperOffice_Configuration_ConfigFile_Client_ClientCacheKey
   name: ClientCacheKey
   nameWithType: ConfigFile.Client.ClientCacheKey
   fullName: SuperOffice.Configuration.ConfigFile.Client.ClientCacheKey
 - uid: SuperOffice.Configuration.ConfigFile.Client.UrlSchemeOverride*
   commentId: Overload:SuperOffice.Configuration.ConfigFile.Client.UrlSchemeOverride
   isExternal: true
-  href: SuperOffice.Configuration.ConfigFile.Client.html#SuperOffice_Configuration_ConfigFile_Client_UrlSchemeOverride
   name: UrlSchemeOverride
   nameWithType: ConfigFile.Client.UrlSchemeOverride
   fullName: SuperOffice.Configuration.ConfigFile.Client.UrlSchemeOverride
 - uid: SuperOffice.Configuration.ConfigFile.Client.UrlHostOverride*
   commentId: Overload:SuperOffice.Configuration.ConfigFile.Client.UrlHostOverride
   isExternal: true
-  href: SuperOffice.Configuration.ConfigFile.Client.html#SuperOffice_Configuration_ConfigFile_Client_UrlHostOverride
   name: UrlHostOverride
   nameWithType: ConfigFile.Client.UrlHostOverride
   fullName: SuperOffice.Configuration.ConfigFile.Client.UrlHostOverride
 - uid: SuperOffice.Configuration.ConfigFile.Client.UrlPortOverride*
   commentId: Overload:SuperOffice.Configuration.ConfigFile.Client.UrlPortOverride
   isExternal: true
-  href: SuperOffice.Configuration.ConfigFile.Client.html#SuperOffice_Configuration_ConfigFile_Client_UrlPortOverride
   name: UrlPortOverride
   nameWithType: ConfigFile.Client.UrlPortOverride
   fullName: SuperOffice.Configuration.ConfigFile.Client.UrlPortOverride
 - uid: SuperOffice.Configuration.ConfigFile.Client.GoogleImportDispatcher*
   commentId: Overload:SuperOffice.Configuration.ConfigFile.Client.GoogleImportDispatcher
   isExternal: true
-  href: SuperOffice.Configuration.ConfigFile.Client.html#SuperOffice_Configuration_ConfigFile_Client_GoogleImportDispatcher
   name: GoogleImportDispatcher
   nameWithType: ConfigFile.Client.GoogleImportDispatcher
   fullName: SuperOffice.Configuration.ConfigFile.Client.GoogleImportDispatcher
 - uid: SuperOffice.Configuration.ConfigFile.Client.GoogleImportClientId*
   commentId: Overload:SuperOffice.Configuration.ConfigFile.Client.GoogleImportClientId
   isExternal: true
-  href: SuperOffice.Configuration.ConfigFile.Client.html#SuperOffice_Configuration_ConfigFile_Client_GoogleImportClientId
   name: GoogleImportClientId
   nameWithType: ConfigFile.Client.GoogleImportClientId
   fullName: SuperOffice.Configuration.ConfigFile.Client.GoogleImportClientId
 - uid: SuperOffice.Configuration.ConfigFile.Client.GoogleImportClientSecret*
   commentId: Overload:SuperOffice.Configuration.ConfigFile.Client.GoogleImportClientSecret
   isExternal: true
-  href: SuperOffice.Configuration.ConfigFile.Client.html#SuperOffice_Configuration_ConfigFile_Client_GoogleImportClientSecret
   name: GoogleImportClientSecret
   nameWithType: ConfigFile.Client.GoogleImportClientSecret
   fullName: SuperOffice.Configuration.ConfigFile.Client.GoogleImportClientSecret
 - uid: SuperOffice.Configuration.ConfigFile.Client.MasterDcfConfigHashKeyFormat*
   commentId: Overload:SuperOffice.Configuration.ConfigFile.Client.MasterDcfConfigHashKeyFormat
   isExternal: true
-  href: SuperOffice.Configuration.ConfigFile.Client.html#SuperOffice_Configuration_ConfigFile_Client_MasterDcfConfigHashKeyFormat
   name: MasterDcfConfigHashKeyFormat
   nameWithType: ConfigFile.Client.MasterDcfConfigHashKeyFormat
   fullName: SuperOffice.Configuration.ConfigFile.Client.MasterDcfConfigHashKeyFormat
 - uid: SuperOffice.Configuration.ConfigFile.Client.NetServicesStatusUrl*
   commentId: Overload:SuperOffice.Configuration.ConfigFile.Client.NetServicesStatusUrl
   isExternal: true
-  href: SuperOffice.Configuration.ConfigFile.Client.html#SuperOffice_Configuration_ConfigFile_Client_NetServicesStatusUrl
   name: NetServicesStatusUrl
   nameWithType: ConfigFile.Client.NetServicesStatusUrl
   fullName: SuperOffice.Configuration.ConfigFile.Client.NetServicesStatusUrl
 - uid: SuperOffice.Configuration.ConfigFile.Client.NetServicesNextDate*
   commentId: Overload:SuperOffice.Configuration.ConfigFile.Client.NetServicesNextDate
   isExternal: true
-  href: SuperOffice.Configuration.ConfigFile.Client.html#SuperOffice_Configuration_ConfigFile_Client_NetServicesNextDate
   name: NetServicesNextDate
   nameWithType: ConfigFile.Client.NetServicesNextDate
   fullName: SuperOffice.Configuration.ConfigFile.Client.NetServicesNextDate
 - uid: SuperOffice.Configuration.ConfigFile.Client.ShowWelcomeDialogs*
   commentId: Overload:SuperOffice.Configuration.ConfigFile.Client.ShowWelcomeDialogs
   isExternal: true
-  href: SuperOffice.Configuration.ConfigFile.Client.html#SuperOffice_Configuration_ConfigFile_Client_ShowWelcomeDialogs
   name: ShowWelcomeDialogs
   nameWithType: ConfigFile.Client.ShowWelcomeDialogs
   fullName: SuperOffice.Configuration.ConfigFile.Client.ShowWelcomeDialogs
 - uid: SuperOffice.Configuration.ConfigFile.Client.WWW3Url*
   commentId: Overload:SuperOffice.Configuration.ConfigFile.Client.WWW3Url
   isExternal: true
-  href: SuperOffice.Configuration.ConfigFile.Client.html#SuperOffice_Configuration_ConfigFile_Client_WWW3Url
   name: WWW3Url
   nameWithType: ConfigFile.Client.WWW3Url
   fullName: SuperOffice.Configuration.ConfigFile.Client.WWW3Url
 - uid: SuperOffice.Configuration.ConfigFile.Client.IdleTimeout*
   commentId: Overload:SuperOffice.Configuration.ConfigFile.Client.IdleTimeout
   isExternal: true
-  href: SuperOffice.Configuration.ConfigFile.Client.html#SuperOffice_Configuration_ConfigFile_Client_IdleTimeout
   name: IdleTimeout
   nameWithType: ConfigFile.Client.IdleTimeout
   fullName: SuperOffice.Configuration.ConfigFile.Client.IdleTimeout
 - uid: SuperOffice.Configuration.ConfigFile.Client.LiveUiPollingInterval*
   commentId: Overload:SuperOffice.Configuration.ConfigFile.Client.LiveUiPollingInterval
   isExternal: true
-  href: SuperOffice.Configuration.ConfigFile.Client.html#SuperOffice_Configuration_ConfigFile_Client_LiveUiPollingInterval
   name: LiveUiPollingInterval
   nameWithType: ConfigFile.Client.LiveUiPollingInterval
   fullName: SuperOffice.Configuration.ConfigFile.Client.LiveUiPollingInterval
 - uid: SuperOffice.Configuration.ConfigFile.Client.LiveUiEventLimit*
   commentId: Overload:SuperOffice.Configuration.ConfigFile.Client.LiveUiEventLimit
   isExternal: true
-  href: SuperOffice.Configuration.ConfigFile.Client.html#SuperOffice_Configuration_ConfigFile_Client_LiveUiEventLimit
   name: LiveUiEventLimit
   nameWithType: ConfigFile.Client.LiveUiEventLimit
   fullName: SuperOffice.Configuration.ConfigFile.Client.LiveUiEventLimit
 - uid: SuperOffice.Configuration.ConfigFile.Client.SynchronizerSettingsUrl*
   commentId: Overload:SuperOffice.Configuration.ConfigFile.Client.SynchronizerSettingsUrl
   isExternal: true
-  href: SuperOffice.Configuration.ConfigFile.Client.html#SuperOffice_Configuration_ConfigFile_Client_SynchronizerSettingsUrl
   name: SynchronizerSettingsUrl
   nameWithType: ConfigFile.Client.SynchronizerSettingsUrl
   fullName: SuperOffice.Configuration.ConfigFile.Client.SynchronizerSettingsUrl
 - uid: SuperOffice.Configuration.ConfigFile.Client.HighchartsExportServiceUrl*
   commentId: Overload:SuperOffice.Configuration.ConfigFile.Client.HighchartsExportServiceUrl
   isExternal: true
-  href: SuperOffice.Configuration.ConfigFile.Client.html#SuperOffice_Configuration_ConfigFile_Client_HighchartsExportServiceUrl
   name: HighchartsExportServiceUrl
   nameWithType: ConfigFile.Client.HighchartsExportServiceUrl
   fullName: SuperOffice.Configuration.ConfigFile.Client.HighchartsExportServiceUrl

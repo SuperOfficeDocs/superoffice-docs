@@ -17,27 +17,18 @@ items:
   nameWithType: TileData
   fullName: SuperOffice.CRM.Services.TileData
   type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Class representing data to be visualized in a dashboard tile.
-
-    <p></p>
-
-    Carrier object for TileData.
-
-    Services for the TileData Carrier is available from the <xref href="SuperOffice.CRM.Services.IDashboardAgent?text=Dashboard+Agent" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nClass representing data to be visualized in a dashboard tile.\n<p></p>\nCarrier object for TileData.\nServices for the TileData Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IDashboardAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public class TileData
+    content: 'public class TileData : Object'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
-
       Public Class TileData
+          Inherits Object
   seealso:
   - linkId: SuperOffice.CRM.Services.DashboardAgent
     commentId: T:SuperOffice.CRM.Services.DashboardAgent
@@ -45,21 +36,12 @@ items:
     commentId: T:SuperOffice.CRM.Services.IDashboardAgent
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.TileData.#ctor
   commentId: M:SuperOffice.CRM.Services.TileData.#ctor
   id: '#ctor'
@@ -71,18 +53,21 @@ items:
   nameWithType: TileData.TileData()
   fullName: SuperOffice.CRM.Services.TileData.TileData()
   type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Default constructor
-  example: []
+  summary: "\nDefault constructor\n"
   syntax:
     content: public TileData()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.TileData.#ctor*
-  nameWithType.vb: TileData.New()
-  fullName.vb: SuperOffice.CRM.Services.TileData.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.TileData.ToString
   commentId: M:SuperOffice.CRM.Services.TileData.ToString
   id: ToString
@@ -94,19 +79,26 @@ items:
   nameWithType: TileData.ToString()
   fullName: SuperOffice.CRM.Services.TileData.ToString()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the carrier contents as a formatted string.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string.\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString() As String
-  overridden: System.Object.ToString
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.CRM.Services.TileData.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Services.TileData.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.TileData.ToString(System.String)
   id: ToString(System.String)
@@ -114,18 +106,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(string)
-  nameWithType: TileData.ToString(string)
-  fullName: SuperOffice.CRM.Services.TileData.ToString(string)
+  name: ToString(String)
+  nameWithType: TileData.ToString(String)
+  fullName: SuperOffice.CRM.Services.TileData.ToString(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Returns the carrier contents as a formatted string, useful for debugging.
-
-    Each line in the output is prefixed with the input value.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -137,9 +128,10 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.TileData.ToString*
-  nameWithType.vb: TileData.ToString(String)
-  fullName.vb: SuperOffice.CRM.Services.TileData.ToString(String)
-  name.vb: ToString(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.TileData.Columns
   commentId: P:SuperOffice.CRM.Services.TileData.Columns
   id: Columns
@@ -151,28 +143,28 @@ items:
   nameWithType: TileData.Columns
   fullName: SuperOffice.CRM.Services.TileData.Columns
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Column information
-  example: []
+  summary: "\nColumn information \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual ArchiveColumnInfo[] Columns { get; set; }
+    content: public virtual ArchiveColumnInfo[] Columns { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[]
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Columns As ArchiveColumnInfo()
+    content.vb: Public Overridable Property Columns As ArchiveColumnInfo()
   overload: SuperOffice.CRM.Services.TileData.Columns*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.TileData.Result
   commentId: P:SuperOffice.CRM.Services.TileData.Result
   id: Result
@@ -184,33 +176,38 @@ items:
   nameWithType: TileData.Result
   fullName: SuperOffice.CRM.Services.TileData.Result
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The result set
-  example: []
+  summary: "\nThe result set \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual ArchiveListResult Result { get; set; }
+    content: public virtual ArchiveListResult Result { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.ArchiveListResult
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Result As ArchiveListResult
+    content.vb: Public Overridable Property Result As ArchiveListResult
   overload: SuperOffice.CRM.Services.TileData.Result*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
 - uid: SuperOffice.CRM.Services.DashboardAgent
   commentId: T:SuperOffice.CRM.Services.DashboardAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.DashboardAgent.html
   name: DashboardAgent
   nameWithType: DashboardAgent
   fullName: SuperOffice.CRM.Services.DashboardAgent
@@ -218,298 +215,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.IDashboardAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.IDashboardAgent.html
   name: IDashboardAgent
   nameWithType: IDashboardAgent
   fullName: SuperOffice.CRM.Services.IDashboardAgent
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.TileData.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.TileData.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.TileData.html#SuperOffice_CRM_Services_TileData__ctor
   name: TileData
   nameWithType: TileData.TileData
   fullName: SuperOffice.CRM.Services.TileData.TileData
-  nameWithType.vb: TileData.New
-  fullName.vb: SuperOffice.CRM.Services.TileData.New
-  name.vb: New
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
 - uid: SuperOffice.CRM.Services.TileData.ToString*
   commentId: Overload:SuperOffice.CRM.Services.TileData.ToString
   isExternal: true
-  href: SuperOffice.CRM.Services.TileData.html#SuperOffice_CRM_Services_TileData_ToString
   name: ToString
   nameWithType: TileData.ToString
   fullName: SuperOffice.CRM.Services.TileData.ToString
@@ -517,17 +234,18 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.TileData.Columns*
   commentId: Overload:SuperOffice.CRM.Services.TileData.Columns
   isExternal: true
-  href: SuperOffice.CRM.Services.TileData.html#SuperOffice_CRM_Services_TileData_Columns
   name: Columns
   nameWithType: TileData.Columns
   fullName: SuperOffice.CRM.Services.TileData.Columns
@@ -542,19 +260,24 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
     name: ArchiveColumnInfo
+    nameWithType: ArchiveColumnInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
     isExternal: true
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
     name: ArchiveColumnInfo
+    nameWithType: ArchiveColumnInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
     isExternal: true
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.TileData.Result*
   commentId: Overload:SuperOffice.CRM.Services.TileData.Result
   isExternal: true
-  href: SuperOffice.CRM.Services.TileData.html#SuperOffice_CRM_Services_TileData_Result
   name: Result
   nameWithType: TileData.Result
   fullName: SuperOffice.CRM.Services.TileData.Result
@@ -562,7 +285,6 @@ references:
   commentId: T:SuperOffice.CRM.Services.ArchiveListResult
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.ArchiveListResult.html
   name: ArchiveListResult
   nameWithType: ArchiveListResult
   fullName: SuperOffice.CRM.Services.ArchiveListResult

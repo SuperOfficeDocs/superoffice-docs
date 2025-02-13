@@ -50,31 +50,21 @@ items:
   nameWithType: DashAgent
   fullName: SuperOffice.CRM.Services.DashAgent
   type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Facade for the Dash Agent
-
-    Agent that lets you configure dashboard tiles and retrieve dashboard data
+  summary: "\nFacade for the Dash Agent\nAgent that lets you configure dashboard tiles and retrieve dashboard data\n"
   example:
-  - >-
-    <pre><code class="lang-csharp">using SuperOffice;
-
-    using SuperOffice.CRM.Services;
-
-
-    using (SoSession mySession = SoSession.Authenticate("user", "pass"))
-
-    {
-       using (DashAgent agent = new DashAgent())
-       {
-          // call methods on agent here...
-       }
-    }</code></pre>
+  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (DashAgent agent = new DashAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
   syntax:
     content: 'public class DashAgent : AgentBase<IDashAgent>, IDisposable, IDashAgent, IAgent'
-    content.vb: Public Class DashAgent Inherits AgentBase(Of IDashAgent) Implements IDisposable, IDashAgent, IAgent
+    content.vb: >-
+      Public Class DashAgent
+          Inherits AgentBase(Of IDashAgent)
+          Implements IDisposable, IDashAgent, IAgent
   inheritance:
   - System.Object
   - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDashAgent}
@@ -85,13 +75,12 @@ items:
   inheritedMembers:
   - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDashAgent}.Dispose
   - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDashAgent}.InnerAgent
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.DashAgent.CreateDefaultDash
   commentId: M:SuperOffice.CRM.Services.DashAgent.CreateDefaultDash
   id: CreateDefaultDash
@@ -103,23 +92,26 @@ items:
   nameWithType: DashAgent.CreateDefaultDash()
   fullName: SuperOffice.CRM.Services.DashAgent.CreateDefaultDash()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new Dash.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-  example: []
+  summary: "\nLoading default values into a new Dash.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
   syntax:
     content: public Dash CreateDefaultDash()
     return:
       type: SuperOffice.CRM.Services.Dash
       description: New Dash with default values
-    content.vb: Public Function CreateDefaultDash() As Dash
+    content.vb: Public Function CreateDefaultDash As Dash
   overload: SuperOffice.CRM.Services.DashAgent.CreateDefaultDash*
   implements:
   - SuperOffice.CRM.Services.IDashAgent.CreateDefaultDash
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.DashAgent.SaveDash(SuperOffice.CRM.Services.Dash)
   commentId: M:SuperOffice.CRM.Services.DashAgent.SaveDash(SuperOffice.CRM.Services.Dash)
   id: SaveDash(SuperOffice.CRM.Services.Dash)
@@ -131,11 +123,13 @@ items:
   nameWithType: DashAgent.SaveDash(Dash)
   fullName: SuperOffice.CRM.Services.DashAgent.SaveDash(SuperOffice.CRM.Services.Dash)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Updates the existing Dash or creates a new Dash if the id parameter is empty
-  example: []
+  summary: "\nUpdates the existing Dash or creates a new Dash if the id parameter is empty\n"
   syntax:
     content: public Dash SaveDash(Dash dash)
     parameters:
@@ -149,6 +143,10 @@ items:
   overload: SuperOffice.CRM.Services.DashAgent.SaveDash*
   implements:
   - SuperOffice.CRM.Services.IDashAgent.SaveDash(SuperOffice.CRM.Services.Dash)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.DashAgent.DeleteDash(System.Int32)
   commentId: M:SuperOffice.CRM.Services.DashAgent.DeleteDash(System.Int32)
   id: DeleteDash(System.Int32)
@@ -156,15 +154,17 @@ items:
   langs:
   - csharp
   - vb
-  name: DeleteDash(int)
-  nameWithType: DashAgent.DeleteDash(int)
-  fullName: SuperOffice.CRM.Services.DashAgent.DeleteDash(int)
+  name: DeleteDash(Int32)
+  nameWithType: DashAgent.DeleteDash(Int32)
+  fullName: SuperOffice.CRM.Services.DashAgent.DeleteDash(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Deletes the Dash
-  example: []
+  summary: "\nDeletes the Dash\n"
   syntax:
     content: public void DeleteDash(int dashId)
     parameters:
@@ -175,9 +175,10 @@ items:
   overload: SuperOffice.CRM.Services.DashAgent.DeleteDash*
   implements:
   - SuperOffice.CRM.Services.IDashAgent.DeleteDash(System.Int32)
-  nameWithType.vb: DashAgent.DeleteDash(Integer)
-  fullName.vb: SuperOffice.CRM.Services.DashAgent.DeleteDash(Integer)
-  name.vb: DeleteDash(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.DashAgent.CreateDefaultDashCollection
   commentId: M:SuperOffice.CRM.Services.DashAgent.CreateDefaultDashCollection
   id: CreateDefaultDashCollection
@@ -189,23 +190,26 @@ items:
   nameWithType: DashAgent.CreateDefaultDashCollection()
   fullName: SuperOffice.CRM.Services.DashAgent.CreateDefaultDashCollection()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new DashCollection.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-  example: []
+  summary: "\nLoading default values into a new DashCollection.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
   syntax:
     content: public DashCollection CreateDefaultDashCollection()
     return:
       type: SuperOffice.CRM.Services.DashCollection
       description: New DashCollection with default values
-    content.vb: Public Function CreateDefaultDashCollection() As DashCollection
+    content.vb: Public Function CreateDefaultDashCollection As DashCollection
   overload: SuperOffice.CRM.Services.DashAgent.CreateDefaultDashCollection*
   implements:
   - SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashCollection
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.DashAgent.CreateDefaultDashTheme
   commentId: M:SuperOffice.CRM.Services.DashAgent.CreateDefaultDashTheme
   id: CreateDefaultDashTheme
@@ -217,23 +221,26 @@ items:
   nameWithType: DashAgent.CreateDefaultDashTheme()
   fullName: SuperOffice.CRM.Services.DashAgent.CreateDefaultDashTheme()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new DashTheme.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-  example: []
+  summary: "\nLoading default values into a new DashTheme.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
   syntax:
     content: public DashTheme CreateDefaultDashTheme()
     return:
       type: SuperOffice.CRM.Services.DashTheme
       description: New DashTheme with default values
-    content.vb: Public Function CreateDefaultDashTheme() As DashTheme
+    content.vb: Public Function CreateDefaultDashTheme As DashTheme
   overload: SuperOffice.CRM.Services.DashAgent.CreateDefaultDashTheme*
   implements:
   - SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashTheme
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.DashAgent.SaveDashTheme(SuperOffice.CRM.Services.DashTheme)
   commentId: M:SuperOffice.CRM.Services.DashAgent.SaveDashTheme(SuperOffice.CRM.Services.DashTheme)
   id: SaveDashTheme(SuperOffice.CRM.Services.DashTheme)
@@ -245,11 +252,13 @@ items:
   nameWithType: DashAgent.SaveDashTheme(DashTheme)
   fullName: SuperOffice.CRM.Services.DashAgent.SaveDashTheme(SuperOffice.CRM.Services.DashTheme)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Updates the existing DashTheme or creates a new DashTheme if the id parameter is empty
-  example: []
+  summary: "\nUpdates the existing DashTheme or creates a new DashTheme if the id parameter is empty\n"
   syntax:
     content: public DashTheme SaveDashTheme(DashTheme dashTheme)
     parameters:
@@ -263,6 +272,10 @@ items:
   overload: SuperOffice.CRM.Services.DashAgent.SaveDashTheme*
   implements:
   - SuperOffice.CRM.Services.IDashAgent.SaveDashTheme(SuperOffice.CRM.Services.DashTheme)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.DashAgent.DeleteDashTheme(System.Int32)
   commentId: M:SuperOffice.CRM.Services.DashAgent.DeleteDashTheme(System.Int32)
   id: DeleteDashTheme(System.Int32)
@@ -270,15 +283,17 @@ items:
   langs:
   - csharp
   - vb
-  name: DeleteDashTheme(int)
-  nameWithType: DashAgent.DeleteDashTheme(int)
-  fullName: SuperOffice.CRM.Services.DashAgent.DeleteDashTheme(int)
+  name: DeleteDashTheme(Int32)
+  nameWithType: DashAgent.DeleteDashTheme(Int32)
+  fullName: SuperOffice.CRM.Services.DashAgent.DeleteDashTheme(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Deletes the DashTheme
-  example: []
+  summary: "\nDeletes the DashTheme\n"
   syntax:
     content: public void DeleteDashTheme(int dashThemeId)
     parameters:
@@ -289,9 +304,10 @@ items:
   overload: SuperOffice.CRM.Services.DashAgent.DeleteDashTheme*
   implements:
   - SuperOffice.CRM.Services.IDashAgent.DeleteDashTheme(System.Int32)
-  nameWithType.vb: DashAgent.DeleteDashTheme(Integer)
-  fullName.vb: SuperOffice.CRM.Services.DashAgent.DeleteDashTheme(Integer)
-  name.vb: DeleteDashTheme(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.DashAgent.CreateDefaultDashTile
   commentId: M:SuperOffice.CRM.Services.DashAgent.CreateDefaultDashTile
   id: CreateDefaultDashTile
@@ -303,23 +319,26 @@ items:
   nameWithType: DashAgent.CreateDefaultDashTile()
   fullName: SuperOffice.CRM.Services.DashAgent.CreateDefaultDashTile()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new DashTile.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-  example: []
+  summary: "\nLoading default values into a new DashTile.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
   syntax:
     content: public DashTile CreateDefaultDashTile()
     return:
       type: SuperOffice.CRM.Services.DashTile
       description: New DashTile with default values
-    content.vb: Public Function CreateDefaultDashTile() As DashTile
+    content.vb: Public Function CreateDefaultDashTile As DashTile
   overload: SuperOffice.CRM.Services.DashAgent.CreateDefaultDashTile*
   implements:
   - SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashTile
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.DashAgent.SaveDashTile(SuperOffice.CRM.Services.DashTile)
   commentId: M:SuperOffice.CRM.Services.DashAgent.SaveDashTile(SuperOffice.CRM.Services.DashTile)
   id: SaveDashTile(SuperOffice.CRM.Services.DashTile)
@@ -331,11 +350,13 @@ items:
   nameWithType: DashAgent.SaveDashTile(DashTile)
   fullName: SuperOffice.CRM.Services.DashAgent.SaveDashTile(SuperOffice.CRM.Services.DashTile)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Updates the existing DashTile or creates a new DashTile if the id parameter is empty
-  example: []
+  summary: "\nUpdates the existing DashTile or creates a new DashTile if the id parameter is empty\n"
   syntax:
     content: public DashTile SaveDashTile(DashTile dashTile)
     parameters:
@@ -349,6 +370,10 @@ items:
   overload: SuperOffice.CRM.Services.DashAgent.SaveDashTile*
   implements:
   - SuperOffice.CRM.Services.IDashAgent.SaveDashTile(SuperOffice.CRM.Services.DashTile)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.DashAgent.DeleteDashTile(System.Int32)
   commentId: M:SuperOffice.CRM.Services.DashAgent.DeleteDashTile(System.Int32)
   id: DeleteDashTile(System.Int32)
@@ -356,15 +381,17 @@ items:
   langs:
   - csharp
   - vb
-  name: DeleteDashTile(int)
-  nameWithType: DashAgent.DeleteDashTile(int)
-  fullName: SuperOffice.CRM.Services.DashAgent.DeleteDashTile(int)
+  name: DeleteDashTile(Int32)
+  nameWithType: DashAgent.DeleteDashTile(Int32)
+  fullName: SuperOffice.CRM.Services.DashAgent.DeleteDashTile(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Deletes the DashTile
-  example: []
+  summary: "\nDeletes the DashTile\n"
   syntax:
     content: public void DeleteDashTile(int dashTileId)
     parameters:
@@ -375,9 +402,10 @@ items:
   overload: SuperOffice.CRM.Services.DashAgent.DeleteDashTile*
   implements:
   - SuperOffice.CRM.Services.IDashAgent.DeleteDashTile(System.Int32)
-  nameWithType.vb: DashAgent.DeleteDashTile(Integer)
-  fullName.vb: SuperOffice.CRM.Services.DashAgent.DeleteDashTile(Integer)
-  name.vb: DeleteDashTile(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.DashAgent.CreateDefaultDashTileDefinition
   commentId: M:SuperOffice.CRM.Services.DashAgent.CreateDefaultDashTileDefinition
   id: CreateDefaultDashTileDefinition
@@ -389,23 +417,26 @@ items:
   nameWithType: DashAgent.CreateDefaultDashTileDefinition()
   fullName: SuperOffice.CRM.Services.DashAgent.CreateDefaultDashTileDefinition()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new DashTileDefinition.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-  example: []
+  summary: "\nLoading default values into a new DashTileDefinition.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
   syntax:
     content: public DashTileDefinition CreateDefaultDashTileDefinition()
     return:
       type: SuperOffice.CRM.Services.DashTileDefinition
       description: New DashTileDefinition with default values
-    content.vb: Public Function CreateDefaultDashTileDefinition() As DashTileDefinition
+    content.vb: Public Function CreateDefaultDashTileDefinition As DashTileDefinition
   overload: SuperOffice.CRM.Services.DashAgent.CreateDefaultDashTileDefinition*
   implements:
   - SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashTileDefinition
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.DashAgent.SaveDashTileDefinition(SuperOffice.CRM.Services.DashTileDefinition)
   commentId: M:SuperOffice.CRM.Services.DashAgent.SaveDashTileDefinition(SuperOffice.CRM.Services.DashTileDefinition)
   id: SaveDashTileDefinition(SuperOffice.CRM.Services.DashTileDefinition)
@@ -417,11 +448,13 @@ items:
   nameWithType: DashAgent.SaveDashTileDefinition(DashTileDefinition)
   fullName: SuperOffice.CRM.Services.DashAgent.SaveDashTileDefinition(SuperOffice.CRM.Services.DashTileDefinition)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Updates the existing DashTileDefinition or creates a new DashTileDefinition if the id parameter is empty
-  example: []
+  summary: "\nUpdates the existing DashTileDefinition or creates a new DashTileDefinition if the id parameter is empty\n"
   syntax:
     content: public DashTileDefinition SaveDashTileDefinition(DashTileDefinition dashTileDefinition)
     parameters:
@@ -435,6 +468,10 @@ items:
   overload: SuperOffice.CRM.Services.DashAgent.SaveDashTileDefinition*
   implements:
   - SuperOffice.CRM.Services.IDashAgent.SaveDashTileDefinition(SuperOffice.CRM.Services.DashTileDefinition)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.DashAgent.DeleteDashTileDefinition(System.Int32)
   commentId: M:SuperOffice.CRM.Services.DashAgent.DeleteDashTileDefinition(System.Int32)
   id: DeleteDashTileDefinition(System.Int32)
@@ -442,15 +479,17 @@ items:
   langs:
   - csharp
   - vb
-  name: DeleteDashTileDefinition(int)
-  nameWithType: DashAgent.DeleteDashTileDefinition(int)
-  fullName: SuperOffice.CRM.Services.DashAgent.DeleteDashTileDefinition(int)
+  name: DeleteDashTileDefinition(Int32)
+  nameWithType: DashAgent.DeleteDashTileDefinition(Int32)
+  fullName: SuperOffice.CRM.Services.DashAgent.DeleteDashTileDefinition(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Deletes the DashTileDefinition
-  example: []
+  summary: "\nDeletes the DashTileDefinition\n"
   syntax:
     content: public void DeleteDashTileDefinition(int dashTileDefinitionId)
     parameters:
@@ -461,9 +500,10 @@ items:
   overload: SuperOffice.CRM.Services.DashAgent.DeleteDashTileDefinition*
   implements:
   - SuperOffice.CRM.Services.IDashAgent.DeleteDashTileDefinition(System.Int32)
-  nameWithType.vb: DashAgent.DeleteDashTileDefinition(Integer)
-  fullName.vb: SuperOffice.CRM.Services.DashAgent.DeleteDashTileDefinition(Integer)
-  name.vb: DeleteDashTileDefinition(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.DashAgent.CreateDefaultPreviewDash
   commentId: M:SuperOffice.CRM.Services.DashAgent.CreateDefaultPreviewDash
   id: CreateDefaultPreviewDash
@@ -475,23 +515,26 @@ items:
   nameWithType: DashAgent.CreateDefaultPreviewDash()
   fullName: SuperOffice.CRM.Services.DashAgent.CreateDefaultPreviewDash()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new PreviewDash.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-  example: []
+  summary: "\nLoading default values into a new PreviewDash.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
   syntax:
     content: public PreviewDash CreateDefaultPreviewDash()
     return:
       type: SuperOffice.CRM.Services.PreviewDash
       description: New PreviewDash with default values
-    content.vb: Public Function CreateDefaultPreviewDash() As PreviewDash
+    content.vb: Public Function CreateDefaultPreviewDash As PreviewDash
   overload: SuperOffice.CRM.Services.DashAgent.CreateDefaultPreviewDash*
   implements:
   - SuperOffice.CRM.Services.IDashAgent.CreateDefaultPreviewDash
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.DashAgent.CreateDefaultPreviewDashTile
   commentId: M:SuperOffice.CRM.Services.DashAgent.CreateDefaultPreviewDashTile
   id: CreateDefaultPreviewDashTile
@@ -503,23 +546,26 @@ items:
   nameWithType: DashAgent.CreateDefaultPreviewDashTile()
   fullName: SuperOffice.CRM.Services.DashAgent.CreateDefaultPreviewDashTile()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new PreviewDashTile.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-  example: []
+  summary: "\nLoading default values into a new PreviewDashTile.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
   syntax:
     content: public PreviewDashTile CreateDefaultPreviewDashTile()
     return:
       type: SuperOffice.CRM.Services.PreviewDashTile
       description: New PreviewDashTile with default values
-    content.vb: Public Function CreateDefaultPreviewDashTile() As PreviewDashTile
+    content.vb: Public Function CreateDefaultPreviewDashTile As PreviewDashTile
   overload: SuperOffice.CRM.Services.DashAgent.CreateDefaultPreviewDashTile*
   implements:
   - SuperOffice.CRM.Services.IDashAgent.CreateDefaultPreviewDashTile
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.DashAgent.GetDash(System.Int32)
   commentId: M:SuperOffice.CRM.Services.DashAgent.GetDash(System.Int32)
   id: GetDash(System.Int32)
@@ -527,15 +573,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetDash(int)
-  nameWithType: DashAgent.GetDash(int)
-  fullName: SuperOffice.CRM.Services.DashAgent.GetDash(int)
+  name: GetDash(Int32)
+  nameWithType: DashAgent.GetDash(Int32)
+  fullName: SuperOffice.CRM.Services.DashAgent.GetDash(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Gets a Dash object.
-  example: []
+  summary: "\nGets a Dash object.                        \n"
   syntax:
     content: public Dash GetDash(int dashId)
     parameters:
@@ -549,9 +597,10 @@ items:
   overload: SuperOffice.CRM.Services.DashAgent.GetDash*
   implements:
   - SuperOffice.CRM.Services.IDashAgent.GetDash(System.Int32)
-  nameWithType.vb: DashAgent.GetDash(Integer)
-  fullName.vb: SuperOffice.CRM.Services.DashAgent.GetDash(Integer)
-  name.vb: GetDash(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.DashAgent.AddTileToDashboard(System.Int32,System.Int32)
   commentId: M:SuperOffice.CRM.Services.DashAgent.AddTileToDashboard(System.Int32,System.Int32)
   id: AddTileToDashboard(System.Int32,System.Int32)
@@ -559,15 +608,17 @@ items:
   langs:
   - csharp
   - vb
-  name: AddTileToDashboard(int, int)
-  nameWithType: DashAgent.AddTileToDashboard(int, int)
-  fullName: SuperOffice.CRM.Services.DashAgent.AddTileToDashboard(int, int)
+  name: AddTileToDashboard(Int32, Int32)
+  nameWithType: DashAgent.AddTileToDashboard(Int32, Int32)
+  fullName: SuperOffice.CRM.Services.DashAgent.AddTileToDashboard(System.Int32, System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Add a tile to a dashboard with next rank
-  example: []
+  summary: "\nAdd a tile to a dashboard with next rank\n"
   syntax:
     content: public DashTile AddTileToDashboard(int dashboardId, int dashTileDefinitionId)
     parameters:
@@ -584,9 +635,10 @@ items:
   overload: SuperOffice.CRM.Services.DashAgent.AddTileToDashboard*
   implements:
   - SuperOffice.CRM.Services.IDashAgent.AddTileToDashboard(System.Int32,System.Int32)
-  nameWithType.vb: DashAgent.AddTileToDashboard(Integer, Integer)
-  fullName.vb: SuperOffice.CRM.Services.DashAgent.AddTileToDashboard(Integer, Integer)
-  name.vb: AddTileToDashboard(Integer, Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.DashAgent.AddNewTileToDashboard(System.Int32,SuperOffice.CRM.Services.DashTileDefinition)
   commentId: M:SuperOffice.CRM.Services.DashAgent.AddNewTileToDashboard(System.Int32,SuperOffice.CRM.Services.DashTileDefinition)
   id: AddNewTileToDashboard(System.Int32,SuperOffice.CRM.Services.DashTileDefinition)
@@ -594,15 +646,17 @@ items:
   langs:
   - csharp
   - vb
-  name: AddNewTileToDashboard(int, DashTileDefinition)
-  nameWithType: DashAgent.AddNewTileToDashboard(int, DashTileDefinition)
-  fullName: SuperOffice.CRM.Services.DashAgent.AddNewTileToDashboard(int, SuperOffice.CRM.Services.DashTileDefinition)
+  name: AddNewTileToDashboard(Int32, DashTileDefinition)
+  nameWithType: DashAgent.AddNewTileToDashboard(Int32, DashTileDefinition)
+  fullName: SuperOffice.CRM.Services.DashAgent.AddNewTileToDashboard(System.Int32, SuperOffice.CRM.Services.DashTileDefinition)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Add a new tile to a dashboard with next rank
-  example: []
+  summary: "\nAdd a new tile to a dashboard with next rank\n"
   syntax:
     content: public DashTile AddNewTileToDashboard(int dashboardId, DashTileDefinition dashTileDefinition)
     parameters:
@@ -619,9 +673,10 @@ items:
   overload: SuperOffice.CRM.Services.DashAgent.AddNewTileToDashboard*
   implements:
   - SuperOffice.CRM.Services.IDashAgent.AddNewTileToDashboard(System.Int32,SuperOffice.CRM.Services.DashTileDefinition)
-  nameWithType.vb: DashAgent.AddNewTileToDashboard(Integer, DashTileDefinition)
-  fullName.vb: SuperOffice.CRM.Services.DashAgent.AddNewTileToDashboard(Integer, SuperOffice.CRM.Services.DashTileDefinition)
-  name.vb: AddNewTileToDashboard(Integer, DashTileDefinition)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.DashAgent.DuplicateDashboard(System.Int32,System.String)
   commentId: M:SuperOffice.CRM.Services.DashAgent.DuplicateDashboard(System.Int32,System.String)
   id: DuplicateDashboard(System.Int32,System.String)
@@ -629,15 +684,17 @@ items:
   langs:
   - csharp
   - vb
-  name: DuplicateDashboard(int, string)
-  nameWithType: DashAgent.DuplicateDashboard(int, string)
-  fullName: SuperOffice.CRM.Services.DashAgent.DuplicateDashboard(int, string)
+  name: DuplicateDashboard(Int32, String)
+  nameWithType: DashAgent.DuplicateDashboard(Int32, String)
+  fullName: SuperOffice.CRM.Services.DashAgent.DuplicateDashboard(System.Int32, System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Duplicate for the dashboard and all the sub elements
-  example: []
+  summary: "\nDuplicate for the dashboard and all the sub elements\n"
   syntax:
     content: public Dash DuplicateDashboard(int dashboardId, string name)
     parameters:
@@ -654,9 +711,10 @@ items:
   overload: SuperOffice.CRM.Services.DashAgent.DuplicateDashboard*
   implements:
   - SuperOffice.CRM.Services.IDashAgent.DuplicateDashboard(System.Int32,System.String)
-  nameWithType.vb: DashAgent.DuplicateDashboard(Integer, String)
-  fullName.vb: SuperOffice.CRM.Services.DashAgent.DuplicateDashboard(Integer, String)
-  name.vb: DuplicateDashboard(Integer, String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.DashAgent.GetDashList(System.Int32[])
   commentId: M:SuperOffice.CRM.Services.DashAgent.GetDashList(System.Int32[])
   id: GetDashList(System.Int32[])
@@ -664,15 +722,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetDashList(int[])
-  nameWithType: DashAgent.GetDashList(int[])
-  fullName: SuperOffice.CRM.Services.DashAgent.GetDashList(int[])
+  name: GetDashList(Int32[])
+  nameWithType: DashAgent.GetDashList(Int32[])
+  fullName: SuperOffice.CRM.Services.DashAgent.GetDashList(System.Int32[])
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Gets the ordered list of dashboards
-  example: []
+  summary: "\nGets the ordered list of dashboards\n"
   syntax:
     content: public Dash[] GetDashList(int[] dashboards)
     parameters:
@@ -686,9 +746,13 @@ items:
   overload: SuperOffice.CRM.Services.DashAgent.GetDashList*
   implements:
   - SuperOffice.CRM.Services.IDashAgent.GetDashList(System.Int32[])
-  nameWithType.vb: DashAgent.GetDashList(Integer())
-  fullName.vb: SuperOffice.CRM.Services.DashAgent.GetDashList(Integer())
-  name.vb: GetDashList(Integer())
+  nameWithType.vb: DashAgent.GetDashList(Int32())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Services.DashAgent.GetDashList(System.Int32())
+  name.vb: GetDashList(Int32())
 - uid: SuperOffice.CRM.Services.DashAgent.GetDashCollection
   commentId: M:SuperOffice.CRM.Services.DashAgent.GetDashCollection
   id: GetDashCollection
@@ -700,20 +764,26 @@ items:
   nameWithType: DashAgent.GetDashCollection()
   fullName: SuperOffice.CRM.Services.DashAgent.GetDashCollection()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Gets a collection of dashboards for the current associate
-  example: []
+  summary: "\nGets a collection of dashboards for the current associate\n"
   syntax:
     content: public DashCollection GetDashCollection()
     return:
       type: SuperOffice.CRM.Services.DashCollection
       description: Dashboard collection
-    content.vb: Public Function GetDashCollection() As DashCollection
+    content.vb: Public Function GetDashCollection As DashCollection
   overload: SuperOffice.CRM.Services.DashAgent.GetDashCollection*
   implements:
   - SuperOffice.CRM.Services.IDashAgent.GetDashCollection
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.DashAgent.GetDashTheme(System.Int32)
   commentId: M:SuperOffice.CRM.Services.DashAgent.GetDashTheme(System.Int32)
   id: GetDashTheme(System.Int32)
@@ -721,15 +791,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetDashTheme(int)
-  nameWithType: DashAgent.GetDashTheme(int)
-  fullName: SuperOffice.CRM.Services.DashAgent.GetDashTheme(int)
+  name: GetDashTheme(Int32)
+  nameWithType: DashAgent.GetDashTheme(Int32)
+  fullName: SuperOffice.CRM.Services.DashAgent.GetDashTheme(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Gets a DashTheme object.
-  example: []
+  summary: "\nGets a DashTheme object.                        \n"
   syntax:
     content: public DashTheme GetDashTheme(int dashThemeId)
     parameters:
@@ -743,9 +815,10 @@ items:
   overload: SuperOffice.CRM.Services.DashAgent.GetDashTheme*
   implements:
   - SuperOffice.CRM.Services.IDashAgent.GetDashTheme(System.Int32)
-  nameWithType.vb: DashAgent.GetDashTheme(Integer)
-  fullName.vb: SuperOffice.CRM.Services.DashAgent.GetDashTheme(Integer)
-  name.vb: GetDashTheme(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.DashAgent.GetDashTile(System.Int32)
   commentId: M:SuperOffice.CRM.Services.DashAgent.GetDashTile(System.Int32)
   id: GetDashTile(System.Int32)
@@ -753,15 +826,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetDashTile(int)
-  nameWithType: DashAgent.GetDashTile(int)
-  fullName: SuperOffice.CRM.Services.DashAgent.GetDashTile(int)
+  name: GetDashTile(Int32)
+  nameWithType: DashAgent.GetDashTile(Int32)
+  fullName: SuperOffice.CRM.Services.DashAgent.GetDashTile(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Gets a DashTile object.
-  example: []
+  summary: "\nGets a DashTile object.                        \n"
   syntax:
     content: public DashTile GetDashTile(int dashTileId)
     parameters:
@@ -775,9 +850,10 @@ items:
   overload: SuperOffice.CRM.Services.DashAgent.GetDashTile*
   implements:
   - SuperOffice.CRM.Services.IDashAgent.GetDashTile(System.Int32)
-  nameWithType.vb: DashAgent.GetDashTile(Integer)
-  fullName.vb: SuperOffice.CRM.Services.DashAgent.GetDashTile(Integer)
-  name.vb: GetDashTile(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.DashAgent.GetDashTiles(System.Int32)
   commentId: M:SuperOffice.CRM.Services.DashAgent.GetDashTiles(System.Int32)
   id: GetDashTiles(System.Int32)
@@ -785,15 +861,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetDashTiles(int)
-  nameWithType: DashAgent.GetDashTiles(int)
-  fullName: SuperOffice.CRM.Services.DashAgent.GetDashTiles(int)
+  name: GetDashTiles(Int32)
+  nameWithType: DashAgent.GetDashTiles(Int32)
+  fullName: SuperOffice.CRM.Services.DashAgent.GetDashTiles(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Gets the ordered list of tiles for a dashboard
-  example: []
+  summary: "\nGets the ordered list of tiles for a dashboard\n"
   syntax:
     content: public DashTile[] GetDashTiles(int dashboardId)
     parameters:
@@ -807,9 +885,10 @@ items:
   overload: SuperOffice.CRM.Services.DashAgent.GetDashTiles*
   implements:
   - SuperOffice.CRM.Services.IDashAgent.GetDashTiles(System.Int32)
-  nameWithType.vb: DashAgent.GetDashTiles(Integer)
-  fullName.vb: SuperOffice.CRM.Services.DashAgent.GetDashTiles(Integer)
-  name.vb: GetDashTiles(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.DashAgent.SaveDashTiles(System.Int32,SuperOffice.CRM.Services.DashTile[])
   commentId: M:SuperOffice.CRM.Services.DashAgent.SaveDashTiles(System.Int32,SuperOffice.CRM.Services.DashTile[])
   id: SaveDashTiles(System.Int32,SuperOffice.CRM.Services.DashTile[])
@@ -817,15 +896,17 @@ items:
   langs:
   - csharp
   - vb
-  name: SaveDashTiles(int, DashTile[])
-  nameWithType: DashAgent.SaveDashTiles(int, DashTile[])
-  fullName: SuperOffice.CRM.Services.DashAgent.SaveDashTiles(int, SuperOffice.CRM.Services.DashTile[])
+  name: SaveDashTiles(Int32, DashTile[])
+  nameWithType: DashAgent.SaveDashTiles(Int32, DashTile[])
+  fullName: SuperOffice.CRM.Services.DashAgent.SaveDashTiles(System.Int32, SuperOffice.CRM.Services.DashTile[])
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Saves the ordered list of tiles for a dashboard
-  example: []
+  summary: "\nSaves the ordered list of tiles for a dashboard\n"
   syntax:
     content: public void SaveDashTiles(int dashboardId, DashTile[] dashTiles)
     parameters:
@@ -839,9 +920,13 @@ items:
   overload: SuperOffice.CRM.Services.DashAgent.SaveDashTiles*
   implements:
   - SuperOffice.CRM.Services.IDashAgent.SaveDashTiles(System.Int32,SuperOffice.CRM.Services.DashTile[])
-  nameWithType.vb: DashAgent.SaveDashTiles(Integer, DashTile())
-  fullName.vb: SuperOffice.CRM.Services.DashAgent.SaveDashTiles(Integer, SuperOffice.CRM.Services.DashTile())
-  name.vb: SaveDashTiles(Integer, DashTile())
+  nameWithType.vb: DashAgent.SaveDashTiles(Int32, DashTile())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Services.DashAgent.SaveDashTiles(System.Int32, SuperOffice.CRM.Services.DashTile())
+  name.vb: SaveDashTiles(Int32, DashTile())
 - uid: SuperOffice.CRM.Services.DashAgent.CreateDashTileSelectionFromEntity(System.String)
   commentId: M:SuperOffice.CRM.Services.DashAgent.CreateDashTileSelectionFromEntity(System.String)
   id: CreateDashTileSelectionFromEntity(System.String)
@@ -849,15 +934,17 @@ items:
   langs:
   - csharp
   - vb
-  name: CreateDashTileSelectionFromEntity(string)
-  nameWithType: DashAgent.CreateDashTileSelectionFromEntity(string)
-  fullName: SuperOffice.CRM.Services.DashAgent.CreateDashTileSelectionFromEntity(string)
+  name: CreateDashTileSelectionFromEntity(String)
+  nameWithType: DashAgent.CreateDashTileSelectionFromEntity(String)
+  fullName: SuperOffice.CRM.Services.DashAgent.CreateDashTileSelectionFromEntity(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the id to a dashboard tile selection
-  example: []
+  summary: "\nReturns the id to a dashboard tile selection\n"
   syntax:
     content: public int CreateDashTileSelectionFromEntity(string entityName)
     parameters:
@@ -871,9 +958,10 @@ items:
   overload: SuperOffice.CRM.Services.DashAgent.CreateDashTileSelectionFromEntity*
   implements:
   - SuperOffice.CRM.Services.IDashAgent.CreateDashTileSelectionFromEntity(System.String)
-  nameWithType.vb: DashAgent.CreateDashTileSelectionFromEntity(String)
-  fullName.vb: SuperOffice.CRM.Services.DashAgent.CreateDashTileSelectionFromEntity(String)
-  name.vb: CreateDashTileSelectionFromEntity(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.DashAgent.CopyTileSelection(System.Int32)
   commentId: M:SuperOffice.CRM.Services.DashAgent.CopyTileSelection(System.Int32)
   id: CopyTileSelection(System.Int32)
@@ -881,15 +969,17 @@ items:
   langs:
   - csharp
   - vb
-  name: CopyTileSelection(int)
-  nameWithType: DashAgent.CopyTileSelection(int)
-  fullName: SuperOffice.CRM.Services.DashAgent.CopyTileSelection(int)
+  name: CopyTileSelection(Int32)
+  nameWithType: DashAgent.CopyTileSelection(Int32)
+  fullName: SuperOffice.CRM.Services.DashAgent.CopyTileSelection(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Copy Tile Selection for the dashboard
-  example: []
+  summary: "\nCopy Tile Selection for the dashboard\n"
   syntax:
     content: public int CopyTileSelection(int selectionId)
     parameters:
@@ -903,9 +993,10 @@ items:
   overload: SuperOffice.CRM.Services.DashAgent.CopyTileSelection*
   implements:
   - SuperOffice.CRM.Services.IDashAgent.CopyTileSelection(System.Int32)
-  nameWithType.vb: DashAgent.CopyTileSelection(Integer)
-  fullName.vb: SuperOffice.CRM.Services.DashAgent.CopyTileSelection(Integer)
-  name.vb: CopyTileSelection(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.DashAgent.GetTempTileSelection(System.Int32)
   commentId: M:SuperOffice.CRM.Services.DashAgent.GetTempTileSelection(System.Int32)
   id: GetTempTileSelection(System.Int32)
@@ -913,15 +1004,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetTempTileSelection(int)
-  nameWithType: DashAgent.GetTempTileSelection(int)
-  fullName: SuperOffice.CRM.Services.DashAgent.GetTempTileSelection(int)
+  name: GetTempTileSelection(Int32)
+  nameWithType: DashAgent.GetTempTileSelection(Int32)
+  fullName: SuperOffice.CRM.Services.DashAgent.GetTempTileSelection(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Copy selection to temporary personal tile selection
-  example: []
+  summary: "\nCopy selection to temporary personal tile selection\n"
   syntax:
     content: public int GetTempTileSelection(int selectionId)
     parameters:
@@ -935,9 +1028,10 @@ items:
   overload: SuperOffice.CRM.Services.DashAgent.GetTempTileSelection*
   implements:
   - SuperOffice.CRM.Services.IDashAgent.GetTempTileSelection(System.Int32)
-  nameWithType.vb: DashAgent.GetTempTileSelection(Integer)
-  fullName.vb: SuperOffice.CRM.Services.DashAgent.GetTempTileSelection(Integer)
-  name.vb: GetTempTileSelection(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.DashAgent.GetSecondaryTempTileSelection(System.Int32)
   commentId: M:SuperOffice.CRM.Services.DashAgent.GetSecondaryTempTileSelection(System.Int32)
   id: GetSecondaryTempTileSelection(System.Int32)
@@ -945,15 +1039,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetSecondaryTempTileSelection(int)
-  nameWithType: DashAgent.GetSecondaryTempTileSelection(int)
-  fullName: SuperOffice.CRM.Services.DashAgent.GetSecondaryTempTileSelection(int)
+  name: GetSecondaryTempTileSelection(Int32)
+  nameWithType: DashAgent.GetSecondaryTempTileSelection(Int32)
+  fullName: SuperOffice.CRM.Services.DashAgent.GetSecondaryTempTileSelection(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Copy selection to secondary temporary personal tile selection
-  example: []
+  summary: "\nCopy selection to secondary temporary personal tile selection\n"
   syntax:
     content: public int GetSecondaryTempTileSelection(int selectionId)
     parameters:
@@ -967,9 +1063,10 @@ items:
   overload: SuperOffice.CRM.Services.DashAgent.GetSecondaryTempTileSelection*
   implements:
   - SuperOffice.CRM.Services.IDashAgent.GetSecondaryTempTileSelection(System.Int32)
-  nameWithType.vb: DashAgent.GetSecondaryTempTileSelection(Integer)
-  fullName.vb: SuperOffice.CRM.Services.DashAgent.GetSecondaryTempTileSelection(Integer)
-  name.vb: GetSecondaryTempTileSelection(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.DashAgent.CreateDefaultTileForEntity(System.String)
   commentId: M:SuperOffice.CRM.Services.DashAgent.CreateDefaultTileForEntity(System.String)
   id: CreateDefaultTileForEntity(System.String)
@@ -977,15 +1074,17 @@ items:
   langs:
   - csharp
   - vb
-  name: CreateDefaultTileForEntity(string)
-  nameWithType: DashAgent.CreateDefaultTileForEntity(string)
-  fullName: SuperOffice.CRM.Services.DashAgent.CreateDefaultTileForEntity(string)
+  name: CreateDefaultTileForEntity(String)
+  nameWithType: DashAgent.CreateDefaultTileForEntity(String)
+  fullName: SuperOffice.CRM.Services.DashAgent.CreateDefaultTileForEntity(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Set Measure to CountAll and MeasureField to primary key field
-  example: []
+  summary: "\nSet Measure to CountAll and MeasureField to primary key field\n"
   syntax:
     content: public DashTile CreateDefaultTileForEntity(string entityName)
     parameters:
@@ -999,9 +1098,10 @@ items:
   overload: SuperOffice.CRM.Services.DashAgent.CreateDefaultTileForEntity*
   implements:
   - SuperOffice.CRM.Services.IDashAgent.CreateDefaultTileForEntity(System.String)
-  nameWithType.vb: DashAgent.CreateDefaultTileForEntity(String)
-  fullName.vb: SuperOffice.CRM.Services.DashAgent.CreateDefaultTileForEntity(String)
-  name.vb: CreateDefaultTileForEntity(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.DashAgent.DuplicateTile(System.Int32,System.String)
   commentId: M:SuperOffice.CRM.Services.DashAgent.DuplicateTile(System.Int32,System.String)
   id: DuplicateTile(System.Int32,System.String)
@@ -1009,15 +1109,17 @@ items:
   langs:
   - csharp
   - vb
-  name: DuplicateTile(int, string)
-  nameWithType: DashAgent.DuplicateTile(int, string)
-  fullName: SuperOffice.CRM.Services.DashAgent.DuplicateTile(int, string)
+  name: DuplicateTile(Int32, String)
+  nameWithType: DashAgent.DuplicateTile(Int32, String)
+  fullName: SuperOffice.CRM.Services.DashAgent.DuplicateTile(System.Int32, System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Duplicate for the tile and all the sub elements
-  example: []
+  summary: "\nDuplicate for the tile and all the sub elements\n"
   syntax:
     content: public DashTile DuplicateTile(int dashTileId, string name)
     parameters:
@@ -1034,9 +1136,10 @@ items:
   overload: SuperOffice.CRM.Services.DashAgent.DuplicateTile*
   implements:
   - SuperOffice.CRM.Services.IDashAgent.DuplicateTile(System.Int32,System.String)
-  nameWithType.vb: DashAgent.DuplicateTile(Integer, String)
-  fullName.vb: SuperOffice.CRM.Services.DashAgent.DuplicateTile(Integer, String)
-  name.vb: DuplicateTile(Integer, String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.DashAgent.GetDashTileDefinition(System.Int32)
   commentId: M:SuperOffice.CRM.Services.DashAgent.GetDashTileDefinition(System.Int32)
   id: GetDashTileDefinition(System.Int32)
@@ -1044,15 +1147,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetDashTileDefinition(int)
-  nameWithType: DashAgent.GetDashTileDefinition(int)
-  fullName: SuperOffice.CRM.Services.DashAgent.GetDashTileDefinition(int)
+  name: GetDashTileDefinition(Int32)
+  nameWithType: DashAgent.GetDashTileDefinition(Int32)
+  fullName: SuperOffice.CRM.Services.DashAgent.GetDashTileDefinition(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Gets a DashTileDefinition object.
-  example: []
+  summary: "\nGets a DashTileDefinition object.                        \n"
   syntax:
     content: public DashTileDefinition GetDashTileDefinition(int dashTileDefinitionId)
     parameters:
@@ -1066,9 +1171,10 @@ items:
   overload: SuperOffice.CRM.Services.DashAgent.GetDashTileDefinition*
   implements:
   - SuperOffice.CRM.Services.IDashAgent.GetDashTileDefinition(System.Int32)
-  nameWithType.vb: DashAgent.GetDashTileDefinition(Integer)
-  fullName.vb: SuperOffice.CRM.Services.DashAgent.GetDashTileDefinition(Integer)
-  name.vb: GetDashTileDefinition(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.DashAgent.CreateDefaultTileDefinitionForEntity(System.String)
   commentId: M:SuperOffice.CRM.Services.DashAgent.CreateDefaultTileDefinitionForEntity(System.String)
   id: CreateDefaultTileDefinitionForEntity(System.String)
@@ -1076,15 +1182,17 @@ items:
   langs:
   - csharp
   - vb
-  name: CreateDefaultTileDefinitionForEntity(string)
-  nameWithType: DashAgent.CreateDefaultTileDefinitionForEntity(string)
-  fullName: SuperOffice.CRM.Services.DashAgent.CreateDefaultTileDefinitionForEntity(string)
+  name: CreateDefaultTileDefinitionForEntity(String)
+  nameWithType: DashAgent.CreateDefaultTileDefinitionForEntity(String)
+  fullName: SuperOffice.CRM.Services.DashAgent.CreateDefaultTileDefinitionForEntity(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Set Measure to CountAll and MeasureField to primary key field
-  example: []
+  summary: "\nSet Measure to CountAll and MeasureField to primary key field\n"
   syntax:
     content: public DashTileDefinition CreateDefaultTileDefinitionForEntity(string entityName)
     parameters:
@@ -1098,9 +1206,10 @@ items:
   overload: SuperOffice.CRM.Services.DashAgent.CreateDefaultTileDefinitionForEntity*
   implements:
   - SuperOffice.CRM.Services.IDashAgent.CreateDefaultTileDefinitionForEntity(System.String)
-  nameWithType.vb: DashAgent.CreateDefaultTileDefinitionForEntity(String)
-  fullName.vb: SuperOffice.CRM.Services.DashAgent.CreateDefaultTileDefinitionForEntity(String)
-  name.vb: CreateDefaultTileDefinitionForEntity(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.DashAgent.GetDashTileHtml(System.Int32,System.String)
   commentId: M:SuperOffice.CRM.Services.DashAgent.GetDashTileHtml(System.Int32,System.String)
   id: GetDashTileHtml(System.Int32,System.String)
@@ -1108,15 +1217,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetDashTileHtml(int, string)
-  nameWithType: DashAgent.GetDashTileHtml(int, string)
-  fullName: SuperOffice.CRM.Services.DashAgent.GetDashTileHtml(int, string)
+  name: GetDashTileHtml(Int32, String)
+  nameWithType: DashAgent.GetDashTileHtml(Int32, String)
+  fullName: SuperOffice.CRM.Services.DashAgent.GetDashTileHtml(System.Int32, System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Get HTML for a dashboard tile definition with TileType = HTML
-  example: []
+  summary: "\nGet HTML for a dashboard tile definition with TileType = HTML\n"
   syntax:
     content: public DashTileHtml GetDashTileHtml(int dashboardTileDefinitionId, string languageCode)
     parameters:
@@ -1133,9 +1244,10 @@ items:
   overload: SuperOffice.CRM.Services.DashAgent.GetDashTileHtml*
   implements:
   - SuperOffice.CRM.Services.IDashAgent.GetDashTileHtml(System.Int32,System.String)
-  nameWithType.vb: DashAgent.GetDashTileHtml(Integer, String)
-  fullName.vb: SuperOffice.CRM.Services.DashAgent.GetDashTileHtml(Integer, String)
-  name.vb: GetDashTileHtml(Integer, String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.DashAgent.GetDashTileHtmlList(System.Int32)
   commentId: M:SuperOffice.CRM.Services.DashAgent.GetDashTileHtmlList(System.Int32)
   id: GetDashTileHtmlList(System.Int32)
@@ -1143,15 +1255,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetDashTileHtmlList(int)
-  nameWithType: DashAgent.GetDashTileHtmlList(int)
-  fullName: SuperOffice.CRM.Services.DashAgent.GetDashTileHtmlList(int)
+  name: GetDashTileHtmlList(Int32)
+  nameWithType: DashAgent.GetDashTileHtmlList(Int32)
+  fullName: SuperOffice.CRM.Services.DashAgent.GetDashTileHtmlList(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Get HTML for a dashboard tile definition with TileType = HTML. Retrieve a list with all registered languages.
-  example: []
+  summary: "\nGet HTML for a dashboard tile definition with TileType = HTML. Retrieve a list with all registered languages.\n"
   syntax:
     content: public DashTileHtml[] GetDashTileHtmlList(int dashboardTileDefinitionId)
     parameters:
@@ -1160,14 +1274,14 @@ items:
       description: The id of the dashboard tile definition
     return:
       type: SuperOffice.CRM.Services.DashTileHtml[]
-      description: ''
     content.vb: Public Function GetDashTileHtmlList(dashboardTileDefinitionId As Integer) As DashTileHtml()
   overload: SuperOffice.CRM.Services.DashAgent.GetDashTileHtmlList*
   implements:
   - SuperOffice.CRM.Services.IDashAgent.GetDashTileHtmlList(System.Int32)
-  nameWithType.vb: DashAgent.GetDashTileHtmlList(Integer)
-  fullName.vb: SuperOffice.CRM.Services.DashAgent.GetDashTileHtmlList(Integer)
-  name.vb: GetDashTileHtmlList(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.DashAgent.SaveDashTileHtmlList(System.Int32,SuperOffice.CRM.Services.DashTileHtml[])
   commentId: M:SuperOffice.CRM.Services.DashAgent.SaveDashTileHtmlList(System.Int32,SuperOffice.CRM.Services.DashTileHtml[])
   id: SaveDashTileHtmlList(System.Int32,SuperOffice.CRM.Services.DashTileHtml[])
@@ -1175,15 +1289,17 @@ items:
   langs:
   - csharp
   - vb
-  name: SaveDashTileHtmlList(int, DashTileHtml[])
-  nameWithType: DashAgent.SaveDashTileHtmlList(int, DashTileHtml[])
-  fullName: SuperOffice.CRM.Services.DashAgent.SaveDashTileHtmlList(int, SuperOffice.CRM.Services.DashTileHtml[])
+  name: SaveDashTileHtmlList(Int32, DashTileHtml[])
+  nameWithType: DashAgent.SaveDashTileHtmlList(Int32, DashTileHtml[])
+  fullName: SuperOffice.CRM.Services.DashAgent.SaveDashTileHtmlList(System.Int32, SuperOffice.CRM.Services.DashTileHtml[])
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Set the HTML data for a tile with TileType = HTML.
-  example: []
+  summary: "\nSet the HTML data for a tile with TileType = HTML.\n"
   syntax:
     content: public DashTileHtml[] SaveDashTileHtmlList(int dashboardTileDefinitionId, DashTileHtml[] languages)
     parameters:
@@ -1195,14 +1311,17 @@ items:
       description: List of HTML content per language
     return:
       type: SuperOffice.CRM.Services.DashTileHtml[]
-      description: ''
     content.vb: Public Function SaveDashTileHtmlList(dashboardTileDefinitionId As Integer, languages As DashTileHtml()) As DashTileHtml()
   overload: SuperOffice.CRM.Services.DashAgent.SaveDashTileHtmlList*
   implements:
   - SuperOffice.CRM.Services.IDashAgent.SaveDashTileHtmlList(System.Int32,SuperOffice.CRM.Services.DashTileHtml[])
-  nameWithType.vb: DashAgent.SaveDashTileHtmlList(Integer, DashTileHtml())
-  fullName.vb: SuperOffice.CRM.Services.DashAgent.SaveDashTileHtmlList(Integer, SuperOffice.CRM.Services.DashTileHtml())
-  name.vb: SaveDashTileHtmlList(Integer, DashTileHtml())
+  nameWithType.vb: DashAgent.SaveDashTileHtmlList(Int32, DashTileHtml())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Services.DashAgent.SaveDashTileHtmlList(System.Int32, SuperOffice.CRM.Services.DashTileHtml())
+  name.vb: SaveDashTileHtmlList(Int32, DashTileHtml())
 - uid: SuperOffice.CRM.Services.DashAgent.GetPreviewDash(System.Int32)
   commentId: M:SuperOffice.CRM.Services.DashAgent.GetPreviewDash(System.Int32)
   id: GetPreviewDash(System.Int32)
@@ -1210,15 +1329,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetPreviewDash(int)
-  nameWithType: DashAgent.GetPreviewDash(int)
-  fullName: SuperOffice.CRM.Services.DashAgent.GetPreviewDash(int)
+  name: GetPreviewDash(Int32)
+  nameWithType: DashAgent.GetPreviewDash(Int32)
+  fullName: SuperOffice.CRM.Services.DashAgent.GetPreviewDash(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Get a dashboard from its id
-  example: []
+  summary: "\nGet a dashboard from its id\n"
   syntax:
     content: public PreviewDash GetPreviewDash(int dashboardId)
     parameters:
@@ -1232,9 +1353,10 @@ items:
   overload: SuperOffice.CRM.Services.DashAgent.GetPreviewDash*
   implements:
   - SuperOffice.CRM.Services.IDashAgent.GetPreviewDash(System.Int32)
-  nameWithType.vb: DashAgent.GetPreviewDash(Integer)
-  fullName.vb: SuperOffice.CRM.Services.DashAgent.GetPreviewDash(Integer)
-  name.vb: GetPreviewDash(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.DashAgent.#ctor
   commentId: M:SuperOffice.CRM.Services.DashAgent.#ctor
   id: '#ctor'
@@ -1246,70 +1368,31 @@ items:
   nameWithType: DashAgent.DashAgent()
   fullName: SuperOffice.CRM.Services.DashAgent.DashAgent()
   type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
   syntax:
     content: public DashAgent()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.DashAgent.#ctor*
-  nameWithType.vb: DashAgent.New()
-  fullName.vb: SuperOffice.CRM.Services.DashAgent.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
 - uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDashAgent}
   commentId: T:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDashAgent}
   parent: SuperOffice.CRM.Services
   definition: SuperOffice.CRM.Services.AgentBase`1
-  href: SuperOffice.CRM.Services.AgentBase-1.html
   name: AgentBase<IDashAgent>
   nameWithType: AgentBase<IDashAgent>
   fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IDashAgent>
@@ -1319,32 +1402,39 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.AgentBase`1
     name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
     isExternal: true
-    href: SuperOffice.CRM.Services.AgentBase-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Services.IDashAgent
     name: IDashAgent
+    nameWithType: IDashAgent
+    fullName: SuperOffice.CRM.Services.IDashAgent
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.CRM.Services.AgentBase`1
     name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
     isExternal: true
-    href: SuperOffice.CRM.Services.AgentBase-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Services.IDashAgent
     name: IDashAgent
+    nameWithType: IDashAgent
+    fullName: SuperOffice.CRM.Services.IDashAgent
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.IDisposable
-  commentId: T:System.IDisposable
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.idisposable
   name: IDisposable
   nameWithType: IDisposable
   fullName: System.IDisposable
@@ -1352,7 +1442,6 @@ references:
   commentId: T:SuperOffice.CRM.Services.IDashAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.IDashAgent.html
   name: IDashAgent
   nameWithType: IDashAgent
   fullName: SuperOffice.CRM.Services.IDashAgent
@@ -1360,7 +1449,6 @@ references:
   commentId: T:SuperOffice.CRM.Services.IAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.IAgent.html
   name: IAgent
   nameWithType: IAgent
   fullName: SuperOffice.CRM.Services.IAgent
@@ -1368,266 +1456,47 @@ references:
   commentId: M:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDashAgent}.Dispose
   parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDashAgent}
   definition: SuperOffice.CRM.Services.AgentBase`1.Dispose
-  href: SuperOffice.CRM.Services.AgentBase-1.html#SuperOffice_CRM_Services_AgentBase_1_Dispose
   name: Dispose()
   nameWithType: AgentBase<IDashAgent>.Dispose()
   fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IDashAgent>.Dispose()
   nameWithType.vb: AgentBase(Of IDashAgent).Dispose()
   fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IDashAgent).Dispose()
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDashAgent}.Dispose
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
     name: Dispose
+    nameWithType: AgentBase<IDashAgent>.Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IDashAgent>.Dispose
     isExternal: true
-    href: SuperOffice.CRM.Services.AgentBase-1.html#SuperOffice_CRM_Services_AgentBase_1_Dispose
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDashAgent}.Dispose
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
     name: Dispose
+    nameWithType: AgentBase(Of IDashAgent).Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IDashAgent).Dispose
     isExternal: true
-    href: SuperOffice.CRM.Services.AgentBase-1.html#SuperOffice_CRM_Services_AgentBase_1_Dispose
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDashAgent}.InnerAgent
   commentId: P:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDashAgent}.InnerAgent
   parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDashAgent}
   definition: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
-  href: SuperOffice.CRM.Services.AgentBase-1.html#SuperOffice_CRM_Services_AgentBase_1_InnerAgent
   name: InnerAgent
   nameWithType: AgentBase<IDashAgent>.InnerAgent
   fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IDashAgent>.InnerAgent
   nameWithType.vb: AgentBase(Of IDashAgent).InnerAgent
   fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IDashAgent).InnerAgent
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.AgentBase`1
   commentId: T:SuperOffice.CRM.Services.AgentBase`1
   isExternal: true
-  href: SuperOffice.CRM.Services.AgentBase-1.html
   name: AgentBase<TAgent>
   nameWithType: AgentBase<TAgent>
   fullName: SuperOffice.CRM.Services.AgentBase<TAgent>
@@ -1637,25 +1506,36 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.AgentBase`1
     name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
     isExternal: true
-    href: SuperOffice.CRM.Services.AgentBase-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - name: TAgent
+    nameWithType: TAgent
+    fullName: TAgent
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.CRM.Services.AgentBase`1
     name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
     isExternal: true
-    href: SuperOffice.CRM.Services.AgentBase-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: TAgent
+    nameWithType: TAgent
+    fullName: TAgent
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
   commentId: M:SuperOffice.CRM.Services.AgentBase`1.Dispose
   isExternal: true
-  href: SuperOffice.CRM.Services.AgentBase-1.html#SuperOffice_CRM_Services_AgentBase_1_Dispose
   name: Dispose()
   nameWithType: AgentBase<TAgent>.Dispose()
   fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose()
@@ -1664,21 +1544,30 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
     name: Dispose
+    nameWithType: AgentBase<TAgent>.Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose
     isExternal: true
-    href: SuperOffice.CRM.Services.AgentBase-1.html#SuperOffice_CRM_Services_AgentBase_1_Dispose
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
     name: Dispose
+    nameWithType: AgentBase(Of TAgent).Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose
     isExternal: true
-    href: SuperOffice.CRM.Services.AgentBase-1.html#SuperOffice_CRM_Services_AgentBase_1_Dispose
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
   commentId: P:SuperOffice.CRM.Services.AgentBase`1.InnerAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.AgentBase-1.html#SuperOffice_CRM_Services_AgentBase_1_InnerAgent
   name: InnerAgent
   nameWithType: AgentBase<TAgent>.InnerAgent
   fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.InnerAgent
@@ -1687,7 +1576,6 @@ references:
 - uid: SuperOffice.CRM.Services.DashAgent.CreateDefaultDash*
   commentId: Overload:SuperOffice.CRM.Services.DashAgent.CreateDefaultDash
   isExternal: true
-  href: SuperOffice.CRM.Services.DashAgent.html#SuperOffice_CRM_Services_DashAgent_CreateDefaultDash
   name: CreateDefaultDash
   nameWithType: DashAgent.CreateDefaultDash
   fullName: SuperOffice.CRM.Services.DashAgent.CreateDefaultDash
@@ -1695,36 +1583,43 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDashAgent.CreateDefaultDash
   parent: SuperOffice.CRM.Services.IDashAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_CreateDefaultDash
   name: CreateDefaultDash()
   nameWithType: IDashAgent.CreateDefaultDash()
   fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDash()
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDash
     name: CreateDefaultDash
+    nameWithType: IDashAgent.CreateDefaultDash
+    fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDash
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_CreateDefaultDash
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDash
     name: CreateDefaultDash
+    nameWithType: IDashAgent.CreateDefaultDash
+    fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDash
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_CreateDefaultDash
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.Dash
   commentId: T:SuperOffice.CRM.Services.Dash
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.Dash.html
   name: Dash
   nameWithType: Dash
   fullName: SuperOffice.CRM.Services.Dash
 - uid: SuperOffice.CRM.Services.DashAgent.SaveDash*
   commentId: Overload:SuperOffice.CRM.Services.DashAgent.SaveDash
   isExternal: true
-  href: SuperOffice.CRM.Services.DashAgent.html#SuperOffice_CRM_Services_DashAgent_SaveDash_SuperOffice_CRM_Services_Dash_
   name: SaveDash
   nameWithType: DashAgent.SaveDash
   fullName: SuperOffice.CRM.Services.DashAgent.SaveDash
@@ -1732,36 +1627,46 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDashAgent.SaveDash(SuperOffice.CRM.Services.Dash)
   parent: SuperOffice.CRM.Services.IDashAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_SaveDash_SuperOffice_CRM_Services_Dash_
   name: SaveDash(Dash)
   nameWithType: IDashAgent.SaveDash(Dash)
   fullName: SuperOffice.CRM.Services.IDashAgent.SaveDash(SuperOffice.CRM.Services.Dash)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDashAgent.SaveDash(SuperOffice.CRM.Services.Dash)
     name: SaveDash
+    nameWithType: IDashAgent.SaveDash
+    fullName: SuperOffice.CRM.Services.IDashAgent.SaveDash
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_SaveDash_SuperOffice_CRM_Services_Dash_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Services.Dash
     name: Dash
+    nameWithType: Dash
+    fullName: SuperOffice.CRM.Services.Dash
     isExternal: true
-    href: SuperOffice.CRM.Services.Dash.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDashAgent.SaveDash(SuperOffice.CRM.Services.Dash)
     name: SaveDash
+    nameWithType: IDashAgent.SaveDash
+    fullName: SuperOffice.CRM.Services.IDashAgent.SaveDash
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_SaveDash_SuperOffice_CRM_Services_Dash_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Services.Dash
     name: Dash
+    nameWithType: Dash
+    fullName: SuperOffice.CRM.Services.Dash
     isExternal: true
-    href: SuperOffice.CRM.Services.Dash.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.DashAgent.DeleteDash*
   commentId: Overload:SuperOffice.CRM.Services.DashAgent.DeleteDash
   isExternal: true
-  href: SuperOffice.CRM.Services.DashAgent.html#SuperOffice_CRM_Services_DashAgent_DeleteDash_System_Int32_
   name: DeleteDash
   nameWithType: DashAgent.DeleteDash
   fullName: SuperOffice.CRM.Services.DashAgent.DeleteDash
@@ -1769,50 +1674,59 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDashAgent.DeleteDash(System.Int32)
   parent: SuperOffice.CRM.Services.IDashAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_DeleteDash_System_Int32_
-  name: DeleteDash(int)
-  nameWithType: IDashAgent.DeleteDash(int)
-  fullName: SuperOffice.CRM.Services.IDashAgent.DeleteDash(int)
-  nameWithType.vb: IDashAgent.DeleteDash(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IDashAgent.DeleteDash(Integer)
-  name.vb: DeleteDash(Integer)
+  name: DeleteDash(Int32)
+  nameWithType: IDashAgent.DeleteDash(Int32)
+  fullName: SuperOffice.CRM.Services.IDashAgent.DeleteDash(System.Int32)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDashAgent.DeleteDash(System.Int32)
     name: DeleteDash
+    nameWithType: IDashAgent.DeleteDash
+    fullName: SuperOffice.CRM.Services.IDashAgent.DeleteDash
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_DeleteDash_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDashAgent.DeleteDash(System.Int32)
     name: DeleteDash
+    nameWithType: IDashAgent.DeleteDash
+    fullName: SuperOffice.CRM.Services.IDashAgent.DeleteDash
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_DeleteDash_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.DashAgent.CreateDefaultDashCollection*
   commentId: Overload:SuperOffice.CRM.Services.DashAgent.CreateDefaultDashCollection
   isExternal: true
-  href: SuperOffice.CRM.Services.DashAgent.html#SuperOffice_CRM_Services_DashAgent_CreateDefaultDashCollection
   name: CreateDefaultDashCollection
   nameWithType: DashAgent.CreateDefaultDashCollection
   fullName: SuperOffice.CRM.Services.DashAgent.CreateDefaultDashCollection
@@ -1820,36 +1734,43 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashCollection
   parent: SuperOffice.CRM.Services.IDashAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_CreateDefaultDashCollection
   name: CreateDefaultDashCollection()
   nameWithType: IDashAgent.CreateDefaultDashCollection()
   fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashCollection()
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashCollection
     name: CreateDefaultDashCollection
+    nameWithType: IDashAgent.CreateDefaultDashCollection
+    fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashCollection
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_CreateDefaultDashCollection
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashCollection
     name: CreateDefaultDashCollection
+    nameWithType: IDashAgent.CreateDefaultDashCollection
+    fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashCollection
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_CreateDefaultDashCollection
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.DashCollection
   commentId: T:SuperOffice.CRM.Services.DashCollection
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.DashCollection.html
   name: DashCollection
   nameWithType: DashCollection
   fullName: SuperOffice.CRM.Services.DashCollection
 - uid: SuperOffice.CRM.Services.DashAgent.CreateDefaultDashTheme*
   commentId: Overload:SuperOffice.CRM.Services.DashAgent.CreateDefaultDashTheme
   isExternal: true
-  href: SuperOffice.CRM.Services.DashAgent.html#SuperOffice_CRM_Services_DashAgent_CreateDefaultDashTheme
   name: CreateDefaultDashTheme
   nameWithType: DashAgent.CreateDefaultDashTheme
   fullName: SuperOffice.CRM.Services.DashAgent.CreateDefaultDashTheme
@@ -1857,36 +1778,43 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashTheme
   parent: SuperOffice.CRM.Services.IDashAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_CreateDefaultDashTheme
   name: CreateDefaultDashTheme()
   nameWithType: IDashAgent.CreateDefaultDashTheme()
   fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashTheme()
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashTheme
     name: CreateDefaultDashTheme
+    nameWithType: IDashAgent.CreateDefaultDashTheme
+    fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashTheme
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_CreateDefaultDashTheme
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashTheme
     name: CreateDefaultDashTheme
+    nameWithType: IDashAgent.CreateDefaultDashTheme
+    fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashTheme
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_CreateDefaultDashTheme
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.DashTheme
   commentId: T:SuperOffice.CRM.Services.DashTheme
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.DashTheme.html
   name: DashTheme
   nameWithType: DashTheme
   fullName: SuperOffice.CRM.Services.DashTheme
 - uid: SuperOffice.CRM.Services.DashAgent.SaveDashTheme*
   commentId: Overload:SuperOffice.CRM.Services.DashAgent.SaveDashTheme
   isExternal: true
-  href: SuperOffice.CRM.Services.DashAgent.html#SuperOffice_CRM_Services_DashAgent_SaveDashTheme_SuperOffice_CRM_Services_DashTheme_
   name: SaveDashTheme
   nameWithType: DashAgent.SaveDashTheme
   fullName: SuperOffice.CRM.Services.DashAgent.SaveDashTheme
@@ -1894,36 +1822,46 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDashAgent.SaveDashTheme(SuperOffice.CRM.Services.DashTheme)
   parent: SuperOffice.CRM.Services.IDashAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_SaveDashTheme_SuperOffice_CRM_Services_DashTheme_
   name: SaveDashTheme(DashTheme)
   nameWithType: IDashAgent.SaveDashTheme(DashTheme)
   fullName: SuperOffice.CRM.Services.IDashAgent.SaveDashTheme(SuperOffice.CRM.Services.DashTheme)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDashAgent.SaveDashTheme(SuperOffice.CRM.Services.DashTheme)
     name: SaveDashTheme
+    nameWithType: IDashAgent.SaveDashTheme
+    fullName: SuperOffice.CRM.Services.IDashAgent.SaveDashTheme
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_SaveDashTheme_SuperOffice_CRM_Services_DashTheme_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Services.DashTheme
     name: DashTheme
+    nameWithType: DashTheme
+    fullName: SuperOffice.CRM.Services.DashTheme
     isExternal: true
-    href: SuperOffice.CRM.Services.DashTheme.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDashAgent.SaveDashTheme(SuperOffice.CRM.Services.DashTheme)
     name: SaveDashTheme
+    nameWithType: IDashAgent.SaveDashTheme
+    fullName: SuperOffice.CRM.Services.IDashAgent.SaveDashTheme
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_SaveDashTheme_SuperOffice_CRM_Services_DashTheme_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Services.DashTheme
     name: DashTheme
+    nameWithType: DashTheme
+    fullName: SuperOffice.CRM.Services.DashTheme
     isExternal: true
-    href: SuperOffice.CRM.Services.DashTheme.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.DashAgent.DeleteDashTheme*
   commentId: Overload:SuperOffice.CRM.Services.DashAgent.DeleteDashTheme
   isExternal: true
-  href: SuperOffice.CRM.Services.DashAgent.html#SuperOffice_CRM_Services_DashAgent_DeleteDashTheme_System_Int32_
   name: DeleteDashTheme
   nameWithType: DashAgent.DeleteDashTheme
   fullName: SuperOffice.CRM.Services.DashAgent.DeleteDashTheme
@@ -1931,39 +1869,46 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDashAgent.DeleteDashTheme(System.Int32)
   parent: SuperOffice.CRM.Services.IDashAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_DeleteDashTheme_System_Int32_
-  name: DeleteDashTheme(int)
-  nameWithType: IDashAgent.DeleteDashTheme(int)
-  fullName: SuperOffice.CRM.Services.IDashAgent.DeleteDashTheme(int)
-  nameWithType.vb: IDashAgent.DeleteDashTheme(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IDashAgent.DeleteDashTheme(Integer)
-  name.vb: DeleteDashTheme(Integer)
+  name: DeleteDashTheme(Int32)
+  nameWithType: IDashAgent.DeleteDashTheme(Int32)
+  fullName: SuperOffice.CRM.Services.IDashAgent.DeleteDashTheme(System.Int32)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDashAgent.DeleteDashTheme(System.Int32)
     name: DeleteDashTheme
+    nameWithType: IDashAgent.DeleteDashTheme
+    fullName: SuperOffice.CRM.Services.IDashAgent.DeleteDashTheme
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_DeleteDashTheme_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDashAgent.DeleteDashTheme(System.Int32)
     name: DeleteDashTheme
+    nameWithType: IDashAgent.DeleteDashTheme
+    fullName: SuperOffice.CRM.Services.IDashAgent.DeleteDashTheme
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_DeleteDashTheme_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.DashAgent.CreateDefaultDashTile*
   commentId: Overload:SuperOffice.CRM.Services.DashAgent.CreateDefaultDashTile
   isExternal: true
-  href: SuperOffice.CRM.Services.DashAgent.html#SuperOffice_CRM_Services_DashAgent_CreateDefaultDashTile
   name: CreateDefaultDashTile
   nameWithType: DashAgent.CreateDefaultDashTile
   fullName: SuperOffice.CRM.Services.DashAgent.CreateDefaultDashTile
@@ -1971,36 +1916,43 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashTile
   parent: SuperOffice.CRM.Services.IDashAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_CreateDefaultDashTile
   name: CreateDefaultDashTile()
   nameWithType: IDashAgent.CreateDefaultDashTile()
   fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashTile()
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashTile
     name: CreateDefaultDashTile
+    nameWithType: IDashAgent.CreateDefaultDashTile
+    fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashTile
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_CreateDefaultDashTile
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashTile
     name: CreateDefaultDashTile
+    nameWithType: IDashAgent.CreateDefaultDashTile
+    fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashTile
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_CreateDefaultDashTile
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.DashTile
   commentId: T:SuperOffice.CRM.Services.DashTile
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.DashTile.html
   name: DashTile
   nameWithType: DashTile
   fullName: SuperOffice.CRM.Services.DashTile
 - uid: SuperOffice.CRM.Services.DashAgent.SaveDashTile*
   commentId: Overload:SuperOffice.CRM.Services.DashAgent.SaveDashTile
   isExternal: true
-  href: SuperOffice.CRM.Services.DashAgent.html#SuperOffice_CRM_Services_DashAgent_SaveDashTile_SuperOffice_CRM_Services_DashTile_
   name: SaveDashTile
   nameWithType: DashAgent.SaveDashTile
   fullName: SuperOffice.CRM.Services.DashAgent.SaveDashTile
@@ -2008,36 +1960,46 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDashAgent.SaveDashTile(SuperOffice.CRM.Services.DashTile)
   parent: SuperOffice.CRM.Services.IDashAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_SaveDashTile_SuperOffice_CRM_Services_DashTile_
   name: SaveDashTile(DashTile)
   nameWithType: IDashAgent.SaveDashTile(DashTile)
   fullName: SuperOffice.CRM.Services.IDashAgent.SaveDashTile(SuperOffice.CRM.Services.DashTile)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDashAgent.SaveDashTile(SuperOffice.CRM.Services.DashTile)
     name: SaveDashTile
+    nameWithType: IDashAgent.SaveDashTile
+    fullName: SuperOffice.CRM.Services.IDashAgent.SaveDashTile
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_SaveDashTile_SuperOffice_CRM_Services_DashTile_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Services.DashTile
     name: DashTile
+    nameWithType: DashTile
+    fullName: SuperOffice.CRM.Services.DashTile
     isExternal: true
-    href: SuperOffice.CRM.Services.DashTile.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDashAgent.SaveDashTile(SuperOffice.CRM.Services.DashTile)
     name: SaveDashTile
+    nameWithType: IDashAgent.SaveDashTile
+    fullName: SuperOffice.CRM.Services.IDashAgent.SaveDashTile
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_SaveDashTile_SuperOffice_CRM_Services_DashTile_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Services.DashTile
     name: DashTile
+    nameWithType: DashTile
+    fullName: SuperOffice.CRM.Services.DashTile
     isExternal: true
-    href: SuperOffice.CRM.Services.DashTile.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.DashAgent.DeleteDashTile*
   commentId: Overload:SuperOffice.CRM.Services.DashAgent.DeleteDashTile
   isExternal: true
-  href: SuperOffice.CRM.Services.DashAgent.html#SuperOffice_CRM_Services_DashAgent_DeleteDashTile_System_Int32_
   name: DeleteDashTile
   nameWithType: DashAgent.DeleteDashTile
   fullName: SuperOffice.CRM.Services.DashAgent.DeleteDashTile
@@ -2045,39 +2007,46 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDashAgent.DeleteDashTile(System.Int32)
   parent: SuperOffice.CRM.Services.IDashAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_DeleteDashTile_System_Int32_
-  name: DeleteDashTile(int)
-  nameWithType: IDashAgent.DeleteDashTile(int)
-  fullName: SuperOffice.CRM.Services.IDashAgent.DeleteDashTile(int)
-  nameWithType.vb: IDashAgent.DeleteDashTile(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IDashAgent.DeleteDashTile(Integer)
-  name.vb: DeleteDashTile(Integer)
+  name: DeleteDashTile(Int32)
+  nameWithType: IDashAgent.DeleteDashTile(Int32)
+  fullName: SuperOffice.CRM.Services.IDashAgent.DeleteDashTile(System.Int32)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDashAgent.DeleteDashTile(System.Int32)
     name: DeleteDashTile
+    nameWithType: IDashAgent.DeleteDashTile
+    fullName: SuperOffice.CRM.Services.IDashAgent.DeleteDashTile
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_DeleteDashTile_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDashAgent.DeleteDashTile(System.Int32)
     name: DeleteDashTile
+    nameWithType: IDashAgent.DeleteDashTile
+    fullName: SuperOffice.CRM.Services.IDashAgent.DeleteDashTile
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_DeleteDashTile_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.DashAgent.CreateDefaultDashTileDefinition*
   commentId: Overload:SuperOffice.CRM.Services.DashAgent.CreateDefaultDashTileDefinition
   isExternal: true
-  href: SuperOffice.CRM.Services.DashAgent.html#SuperOffice_CRM_Services_DashAgent_CreateDefaultDashTileDefinition
   name: CreateDefaultDashTileDefinition
   nameWithType: DashAgent.CreateDefaultDashTileDefinition
   fullName: SuperOffice.CRM.Services.DashAgent.CreateDefaultDashTileDefinition
@@ -2085,36 +2054,43 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashTileDefinition
   parent: SuperOffice.CRM.Services.IDashAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_CreateDefaultDashTileDefinition
   name: CreateDefaultDashTileDefinition()
   nameWithType: IDashAgent.CreateDefaultDashTileDefinition()
   fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashTileDefinition()
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashTileDefinition
     name: CreateDefaultDashTileDefinition
+    nameWithType: IDashAgent.CreateDefaultDashTileDefinition
+    fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashTileDefinition
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_CreateDefaultDashTileDefinition
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashTileDefinition
     name: CreateDefaultDashTileDefinition
+    nameWithType: IDashAgent.CreateDefaultDashTileDefinition
+    fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultDashTileDefinition
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_CreateDefaultDashTileDefinition
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.DashTileDefinition
   commentId: T:SuperOffice.CRM.Services.DashTileDefinition
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.DashTileDefinition.html
   name: DashTileDefinition
   nameWithType: DashTileDefinition
   fullName: SuperOffice.CRM.Services.DashTileDefinition
 - uid: SuperOffice.CRM.Services.DashAgent.SaveDashTileDefinition*
   commentId: Overload:SuperOffice.CRM.Services.DashAgent.SaveDashTileDefinition
   isExternal: true
-  href: SuperOffice.CRM.Services.DashAgent.html#SuperOffice_CRM_Services_DashAgent_SaveDashTileDefinition_SuperOffice_CRM_Services_DashTileDefinition_
   name: SaveDashTileDefinition
   nameWithType: DashAgent.SaveDashTileDefinition
   fullName: SuperOffice.CRM.Services.DashAgent.SaveDashTileDefinition
@@ -2122,36 +2098,46 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDashAgent.SaveDashTileDefinition(SuperOffice.CRM.Services.DashTileDefinition)
   parent: SuperOffice.CRM.Services.IDashAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_SaveDashTileDefinition_SuperOffice_CRM_Services_DashTileDefinition_
   name: SaveDashTileDefinition(DashTileDefinition)
   nameWithType: IDashAgent.SaveDashTileDefinition(DashTileDefinition)
   fullName: SuperOffice.CRM.Services.IDashAgent.SaveDashTileDefinition(SuperOffice.CRM.Services.DashTileDefinition)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDashAgent.SaveDashTileDefinition(SuperOffice.CRM.Services.DashTileDefinition)
     name: SaveDashTileDefinition
+    nameWithType: IDashAgent.SaveDashTileDefinition
+    fullName: SuperOffice.CRM.Services.IDashAgent.SaveDashTileDefinition
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_SaveDashTileDefinition_SuperOffice_CRM_Services_DashTileDefinition_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Services.DashTileDefinition
     name: DashTileDefinition
+    nameWithType: DashTileDefinition
+    fullName: SuperOffice.CRM.Services.DashTileDefinition
     isExternal: true
-    href: SuperOffice.CRM.Services.DashTileDefinition.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDashAgent.SaveDashTileDefinition(SuperOffice.CRM.Services.DashTileDefinition)
     name: SaveDashTileDefinition
+    nameWithType: IDashAgent.SaveDashTileDefinition
+    fullName: SuperOffice.CRM.Services.IDashAgent.SaveDashTileDefinition
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_SaveDashTileDefinition_SuperOffice_CRM_Services_DashTileDefinition_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Services.DashTileDefinition
     name: DashTileDefinition
+    nameWithType: DashTileDefinition
+    fullName: SuperOffice.CRM.Services.DashTileDefinition
     isExternal: true
-    href: SuperOffice.CRM.Services.DashTileDefinition.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.DashAgent.DeleteDashTileDefinition*
   commentId: Overload:SuperOffice.CRM.Services.DashAgent.DeleteDashTileDefinition
   isExternal: true
-  href: SuperOffice.CRM.Services.DashAgent.html#SuperOffice_CRM_Services_DashAgent_DeleteDashTileDefinition_System_Int32_
   name: DeleteDashTileDefinition
   nameWithType: DashAgent.DeleteDashTileDefinition
   fullName: SuperOffice.CRM.Services.DashAgent.DeleteDashTileDefinition
@@ -2159,39 +2145,46 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDashAgent.DeleteDashTileDefinition(System.Int32)
   parent: SuperOffice.CRM.Services.IDashAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_DeleteDashTileDefinition_System_Int32_
-  name: DeleteDashTileDefinition(int)
-  nameWithType: IDashAgent.DeleteDashTileDefinition(int)
-  fullName: SuperOffice.CRM.Services.IDashAgent.DeleteDashTileDefinition(int)
-  nameWithType.vb: IDashAgent.DeleteDashTileDefinition(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IDashAgent.DeleteDashTileDefinition(Integer)
-  name.vb: DeleteDashTileDefinition(Integer)
+  name: DeleteDashTileDefinition(Int32)
+  nameWithType: IDashAgent.DeleteDashTileDefinition(Int32)
+  fullName: SuperOffice.CRM.Services.IDashAgent.DeleteDashTileDefinition(System.Int32)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDashAgent.DeleteDashTileDefinition(System.Int32)
     name: DeleteDashTileDefinition
+    nameWithType: IDashAgent.DeleteDashTileDefinition
+    fullName: SuperOffice.CRM.Services.IDashAgent.DeleteDashTileDefinition
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_DeleteDashTileDefinition_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDashAgent.DeleteDashTileDefinition(System.Int32)
     name: DeleteDashTileDefinition
+    nameWithType: IDashAgent.DeleteDashTileDefinition
+    fullName: SuperOffice.CRM.Services.IDashAgent.DeleteDashTileDefinition
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_DeleteDashTileDefinition_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.DashAgent.CreateDefaultPreviewDash*
   commentId: Overload:SuperOffice.CRM.Services.DashAgent.CreateDefaultPreviewDash
   isExternal: true
-  href: SuperOffice.CRM.Services.DashAgent.html#SuperOffice_CRM_Services_DashAgent_CreateDefaultPreviewDash
   name: CreateDefaultPreviewDash
   nameWithType: DashAgent.CreateDefaultPreviewDash
   fullName: SuperOffice.CRM.Services.DashAgent.CreateDefaultPreviewDash
@@ -2199,36 +2192,43 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDashAgent.CreateDefaultPreviewDash
   parent: SuperOffice.CRM.Services.IDashAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_CreateDefaultPreviewDash
   name: CreateDefaultPreviewDash()
   nameWithType: IDashAgent.CreateDefaultPreviewDash()
   fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultPreviewDash()
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDashAgent.CreateDefaultPreviewDash
     name: CreateDefaultPreviewDash
+    nameWithType: IDashAgent.CreateDefaultPreviewDash
+    fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultPreviewDash
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_CreateDefaultPreviewDash
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDashAgent.CreateDefaultPreviewDash
     name: CreateDefaultPreviewDash
+    nameWithType: IDashAgent.CreateDefaultPreviewDash
+    fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultPreviewDash
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_CreateDefaultPreviewDash
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.PreviewDash
   commentId: T:SuperOffice.CRM.Services.PreviewDash
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.PreviewDash.html
   name: PreviewDash
   nameWithType: PreviewDash
   fullName: SuperOffice.CRM.Services.PreviewDash
 - uid: SuperOffice.CRM.Services.DashAgent.CreateDefaultPreviewDashTile*
   commentId: Overload:SuperOffice.CRM.Services.DashAgent.CreateDefaultPreviewDashTile
   isExternal: true
-  href: SuperOffice.CRM.Services.DashAgent.html#SuperOffice_CRM_Services_DashAgent_CreateDefaultPreviewDashTile
   name: CreateDefaultPreviewDashTile
   nameWithType: DashAgent.CreateDefaultPreviewDashTile
   fullName: SuperOffice.CRM.Services.DashAgent.CreateDefaultPreviewDashTile
@@ -2236,36 +2236,43 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDashAgent.CreateDefaultPreviewDashTile
   parent: SuperOffice.CRM.Services.IDashAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_CreateDefaultPreviewDashTile
   name: CreateDefaultPreviewDashTile()
   nameWithType: IDashAgent.CreateDefaultPreviewDashTile()
   fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultPreviewDashTile()
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDashAgent.CreateDefaultPreviewDashTile
     name: CreateDefaultPreviewDashTile
+    nameWithType: IDashAgent.CreateDefaultPreviewDashTile
+    fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultPreviewDashTile
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_CreateDefaultPreviewDashTile
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDashAgent.CreateDefaultPreviewDashTile
     name: CreateDefaultPreviewDashTile
+    nameWithType: IDashAgent.CreateDefaultPreviewDashTile
+    fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultPreviewDashTile
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_CreateDefaultPreviewDashTile
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.PreviewDashTile
   commentId: T:SuperOffice.CRM.Services.PreviewDashTile
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.PreviewDashTile.html
   name: PreviewDashTile
   nameWithType: PreviewDashTile
   fullName: SuperOffice.CRM.Services.PreviewDashTile
 - uid: SuperOffice.CRM.Services.DashAgent.GetDash*
   commentId: Overload:SuperOffice.CRM.Services.DashAgent.GetDash
   isExternal: true
-  href: SuperOffice.CRM.Services.DashAgent.html#SuperOffice_CRM_Services_DashAgent_GetDash_System_Int32_
   name: GetDash
   nameWithType: DashAgent.GetDash
   fullName: SuperOffice.CRM.Services.DashAgent.GetDash
@@ -2273,39 +2280,46 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDashAgent.GetDash(System.Int32)
   parent: SuperOffice.CRM.Services.IDashAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_GetDash_System_Int32_
-  name: GetDash(int)
-  nameWithType: IDashAgent.GetDash(int)
-  fullName: SuperOffice.CRM.Services.IDashAgent.GetDash(int)
-  nameWithType.vb: IDashAgent.GetDash(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IDashAgent.GetDash(Integer)
-  name.vb: GetDash(Integer)
+  name: GetDash(Int32)
+  nameWithType: IDashAgent.GetDash(Int32)
+  fullName: SuperOffice.CRM.Services.IDashAgent.GetDash(System.Int32)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDashAgent.GetDash(System.Int32)
     name: GetDash
+    nameWithType: IDashAgent.GetDash
+    fullName: SuperOffice.CRM.Services.IDashAgent.GetDash
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_GetDash_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDashAgent.GetDash(System.Int32)
     name: GetDash
+    nameWithType: IDashAgent.GetDash
+    fullName: SuperOffice.CRM.Services.IDashAgent.GetDash
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_GetDash_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.DashAgent.AddTileToDashboard*
   commentId: Overload:SuperOffice.CRM.Services.DashAgent.AddTileToDashboard
   isExternal: true
-  href: SuperOffice.CRM.Services.DashAgent.html#SuperOffice_CRM_Services_DashAgent_AddTileToDashboard_System_Int32_System_Int32_
   name: AddTileToDashboard
   nameWithType: DashAgent.AddTileToDashboard
   fullName: SuperOffice.CRM.Services.DashAgent.AddTileToDashboard
@@ -2313,51 +2327,62 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDashAgent.AddTileToDashboard(System.Int32,System.Int32)
   parent: SuperOffice.CRM.Services.IDashAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_AddTileToDashboard_System_Int32_System_Int32_
-  name: AddTileToDashboard(int, int)
-  nameWithType: IDashAgent.AddTileToDashboard(int, int)
-  fullName: SuperOffice.CRM.Services.IDashAgent.AddTileToDashboard(int, int)
-  nameWithType.vb: IDashAgent.AddTileToDashboard(Integer, Integer)
-  fullName.vb: SuperOffice.CRM.Services.IDashAgent.AddTileToDashboard(Integer, Integer)
-  name.vb: AddTileToDashboard(Integer, Integer)
+  name: AddTileToDashboard(Int32, Int32)
+  nameWithType: IDashAgent.AddTileToDashboard(Int32, Int32)
+  fullName: SuperOffice.CRM.Services.IDashAgent.AddTileToDashboard(System.Int32, System.Int32)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDashAgent.AddTileToDashboard(System.Int32,System.Int32)
     name: AddTileToDashboard
+    nameWithType: IDashAgent.AddTileToDashboard
+    fullName: SuperOffice.CRM.Services.IDashAgent.AddTileToDashboard
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_AddTileToDashboard_System_Int32_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDashAgent.AddTileToDashboard(System.Int32,System.Int32)
     name: AddTileToDashboard
+    nameWithType: IDashAgent.AddTileToDashboard
+    fullName: SuperOffice.CRM.Services.IDashAgent.AddTileToDashboard
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_AddTileToDashboard_System_Int32_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.DashAgent.AddNewTileToDashboard*
   commentId: Overload:SuperOffice.CRM.Services.DashAgent.AddNewTileToDashboard
   isExternal: true
-  href: SuperOffice.CRM.Services.DashAgent.html#SuperOffice_CRM_Services_DashAgent_AddNewTileToDashboard_System_Int32_SuperOffice_CRM_Services_DashTileDefinition_
   name: AddNewTileToDashboard
   nameWithType: DashAgent.AddNewTileToDashboard
   fullName: SuperOffice.CRM.Services.DashAgent.AddNewTileToDashboard
@@ -2365,51 +2390,62 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDashAgent.AddNewTileToDashboard(System.Int32,SuperOffice.CRM.Services.DashTileDefinition)
   parent: SuperOffice.CRM.Services.IDashAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_AddNewTileToDashboard_System_Int32_SuperOffice_CRM_Services_DashTileDefinition_
-  name: AddNewTileToDashboard(int, DashTileDefinition)
-  nameWithType: IDashAgent.AddNewTileToDashboard(int, DashTileDefinition)
-  fullName: SuperOffice.CRM.Services.IDashAgent.AddNewTileToDashboard(int, SuperOffice.CRM.Services.DashTileDefinition)
-  nameWithType.vb: IDashAgent.AddNewTileToDashboard(Integer, DashTileDefinition)
-  fullName.vb: SuperOffice.CRM.Services.IDashAgent.AddNewTileToDashboard(Integer, SuperOffice.CRM.Services.DashTileDefinition)
-  name.vb: AddNewTileToDashboard(Integer, DashTileDefinition)
+  name: AddNewTileToDashboard(Int32, DashTileDefinition)
+  nameWithType: IDashAgent.AddNewTileToDashboard(Int32, DashTileDefinition)
+  fullName: SuperOffice.CRM.Services.IDashAgent.AddNewTileToDashboard(System.Int32, SuperOffice.CRM.Services.DashTileDefinition)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDashAgent.AddNewTileToDashboard(System.Int32,SuperOffice.CRM.Services.DashTileDefinition)
     name: AddNewTileToDashboard
+    nameWithType: IDashAgent.AddNewTileToDashboard
+    fullName: SuperOffice.CRM.Services.IDashAgent.AddNewTileToDashboard
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_AddNewTileToDashboard_System_Int32_SuperOffice_CRM_Services_DashTileDefinition_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.CRM.Services.DashTileDefinition
     name: DashTileDefinition
+    nameWithType: DashTileDefinition
+    fullName: SuperOffice.CRM.Services.DashTileDefinition
     isExternal: true
-    href: SuperOffice.CRM.Services.DashTileDefinition.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDashAgent.AddNewTileToDashboard(System.Int32,SuperOffice.CRM.Services.DashTileDefinition)
     name: AddNewTileToDashboard
+    nameWithType: IDashAgent.AddNewTileToDashboard
+    fullName: SuperOffice.CRM.Services.IDashAgent.AddNewTileToDashboard
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_AddNewTileToDashboard_System_Int32_SuperOffice_CRM_Services_DashTileDefinition_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.CRM.Services.DashTileDefinition
     name: DashTileDefinition
+    nameWithType: DashTileDefinition
+    fullName: SuperOffice.CRM.Services.DashTileDefinition
     isExternal: true
-    href: SuperOffice.CRM.Services.DashTileDefinition.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.DashAgent.DuplicateDashboard*
   commentId: Overload:SuperOffice.CRM.Services.DashAgent.DuplicateDashboard
   isExternal: true
-  href: SuperOffice.CRM.Services.DashAgent.html#SuperOffice_CRM_Services_DashAgent_DuplicateDashboard_System_Int32_System_String_
   name: DuplicateDashboard
   nameWithType: DashAgent.DuplicateDashboard
   fullName: SuperOffice.CRM.Services.DashAgent.DuplicateDashboard
@@ -2417,62 +2453,69 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDashAgent.DuplicateDashboard(System.Int32,System.String)
   parent: SuperOffice.CRM.Services.IDashAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_DuplicateDashboard_System_Int32_System_String_
-  name: DuplicateDashboard(int, string)
-  nameWithType: IDashAgent.DuplicateDashboard(int, string)
-  fullName: SuperOffice.CRM.Services.IDashAgent.DuplicateDashboard(int, string)
-  nameWithType.vb: IDashAgent.DuplicateDashboard(Integer, String)
-  fullName.vb: SuperOffice.CRM.Services.IDashAgent.DuplicateDashboard(Integer, String)
-  name.vb: DuplicateDashboard(Integer, String)
+  name: DuplicateDashboard(Int32, String)
+  nameWithType: IDashAgent.DuplicateDashboard(Int32, String)
+  fullName: SuperOffice.CRM.Services.IDashAgent.DuplicateDashboard(System.Int32, System.String)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDashAgent.DuplicateDashboard(System.Int32,System.String)
     name: DuplicateDashboard
+    nameWithType: IDashAgent.DuplicateDashboard
+    fullName: SuperOffice.CRM.Services.IDashAgent.DuplicateDashboard
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_DuplicateDashboard_System_Int32_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDashAgent.DuplicateDashboard(System.Int32,System.String)
     name: DuplicateDashboard
+    nameWithType: IDashAgent.DuplicateDashboard
+    fullName: SuperOffice.CRM.Services.IDashAgent.DuplicateDashboard
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_DuplicateDashboard_System_Int32_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.CRM.Services.DashAgent.GetDashList*
   commentId: Overload:SuperOffice.CRM.Services.DashAgent.GetDashList
   isExternal: true
-  href: SuperOffice.CRM.Services.DashAgent.html#SuperOffice_CRM_Services_DashAgent_GetDashList_System_Int32___
   name: GetDashList
   nameWithType: DashAgent.GetDashList
   fullName: SuperOffice.CRM.Services.DashAgent.GetDashList
@@ -2480,65 +2523,80 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDashAgent.GetDashList(System.Int32[])
   parent: SuperOffice.CRM.Services.IDashAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_GetDashList_System_Int32___
-  name: GetDashList(int[])
-  nameWithType: IDashAgent.GetDashList(int[])
-  fullName: SuperOffice.CRM.Services.IDashAgent.GetDashList(int[])
-  nameWithType.vb: IDashAgent.GetDashList(Integer())
-  fullName.vb: SuperOffice.CRM.Services.IDashAgent.GetDashList(Integer())
-  name.vb: GetDashList(Integer())
+  name: GetDashList(Int32[])
+  nameWithType: IDashAgent.GetDashList(Int32[])
+  fullName: SuperOffice.CRM.Services.IDashAgent.GetDashList(System.Int32[])
+  nameWithType.vb: IDashAgent.GetDashList(Int32())
+  fullName.vb: SuperOffice.CRM.Services.IDashAgent.GetDashList(System.Int32())
+  name.vb: GetDashList(Int32())
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDashAgent.GetDashList(System.Int32[])
     name: GetDashList
+    nameWithType: IDashAgent.GetDashList
+    fullName: SuperOffice.CRM.Services.IDashAgent.GetDashList
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_GetDashList_System_Int32___
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDashAgent.GetDashList(System.Int32[])
     name: GetDashList
+    nameWithType: IDashAgent.GetDashList
+    fullName: SuperOffice.CRM.Services.IDashAgent.GetDashList
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_GetDashList_System_Int32___
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: (
+  - name: ()
+    nameWithType: ()
+    fullName: ()
   - name: )
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Int32[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int[]
-  nameWithType: int[]
-  fullName: int[]
-  nameWithType.vb: Integer()
-  fullName.vb: Integer()
-  name.vb: Integer()
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
   spec.csharp:
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.Dash[]
   isExternal: true
-  href: SuperOffice.CRM.Services.Dash.html
   name: Dash[]
   nameWithType: Dash[]
   fullName: SuperOffice.CRM.Services.Dash[]
@@ -2548,21 +2606,24 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.Dash
     name: Dash
+    nameWithType: Dash
+    fullName: SuperOffice.CRM.Services.Dash
     isExternal: true
-    href: SuperOffice.CRM.Services.Dash.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.Services.Dash
     name: Dash
+    nameWithType: Dash
+    fullName: SuperOffice.CRM.Services.Dash
     isExternal: true
-    href: SuperOffice.CRM.Services.Dash.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.DashAgent.GetDashCollection*
   commentId: Overload:SuperOffice.CRM.Services.DashAgent.GetDashCollection
   isExternal: true
-  href: SuperOffice.CRM.Services.DashAgent.html#SuperOffice_CRM_Services_DashAgent_GetDashCollection
   name: GetDashCollection
   nameWithType: DashAgent.GetDashCollection
   fullName: SuperOffice.CRM.Services.DashAgent.GetDashCollection
@@ -2570,28 +2631,36 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDashAgent.GetDashCollection
   parent: SuperOffice.CRM.Services.IDashAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_GetDashCollection
   name: GetDashCollection()
   nameWithType: IDashAgent.GetDashCollection()
   fullName: SuperOffice.CRM.Services.IDashAgent.GetDashCollection()
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDashAgent.GetDashCollection
     name: GetDashCollection
+    nameWithType: IDashAgent.GetDashCollection
+    fullName: SuperOffice.CRM.Services.IDashAgent.GetDashCollection
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_GetDashCollection
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDashAgent.GetDashCollection
     name: GetDashCollection
+    nameWithType: IDashAgent.GetDashCollection
+    fullName: SuperOffice.CRM.Services.IDashAgent.GetDashCollection
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_GetDashCollection
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.DashAgent.GetDashTheme*
   commentId: Overload:SuperOffice.CRM.Services.DashAgent.GetDashTheme
   isExternal: true
-  href: SuperOffice.CRM.Services.DashAgent.html#SuperOffice_CRM_Services_DashAgent_GetDashTheme_System_Int32_
   name: GetDashTheme
   nameWithType: DashAgent.GetDashTheme
   fullName: SuperOffice.CRM.Services.DashAgent.GetDashTheme
@@ -2599,39 +2668,46 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDashAgent.GetDashTheme(System.Int32)
   parent: SuperOffice.CRM.Services.IDashAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_GetDashTheme_System_Int32_
-  name: GetDashTheme(int)
-  nameWithType: IDashAgent.GetDashTheme(int)
-  fullName: SuperOffice.CRM.Services.IDashAgent.GetDashTheme(int)
-  nameWithType.vb: IDashAgent.GetDashTheme(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IDashAgent.GetDashTheme(Integer)
-  name.vb: GetDashTheme(Integer)
+  name: GetDashTheme(Int32)
+  nameWithType: IDashAgent.GetDashTheme(Int32)
+  fullName: SuperOffice.CRM.Services.IDashAgent.GetDashTheme(System.Int32)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDashAgent.GetDashTheme(System.Int32)
     name: GetDashTheme
+    nameWithType: IDashAgent.GetDashTheme
+    fullName: SuperOffice.CRM.Services.IDashAgent.GetDashTheme
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_GetDashTheme_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDashAgent.GetDashTheme(System.Int32)
     name: GetDashTheme
+    nameWithType: IDashAgent.GetDashTheme
+    fullName: SuperOffice.CRM.Services.IDashAgent.GetDashTheme
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_GetDashTheme_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.DashAgent.GetDashTile*
   commentId: Overload:SuperOffice.CRM.Services.DashAgent.GetDashTile
   isExternal: true
-  href: SuperOffice.CRM.Services.DashAgent.html#SuperOffice_CRM_Services_DashAgent_GetDashTile_System_Int32_
   name: GetDashTile
   nameWithType: DashAgent.GetDashTile
   fullName: SuperOffice.CRM.Services.DashAgent.GetDashTile
@@ -2639,39 +2715,46 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDashAgent.GetDashTile(System.Int32)
   parent: SuperOffice.CRM.Services.IDashAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_GetDashTile_System_Int32_
-  name: GetDashTile(int)
-  nameWithType: IDashAgent.GetDashTile(int)
-  fullName: SuperOffice.CRM.Services.IDashAgent.GetDashTile(int)
-  nameWithType.vb: IDashAgent.GetDashTile(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IDashAgent.GetDashTile(Integer)
-  name.vb: GetDashTile(Integer)
+  name: GetDashTile(Int32)
+  nameWithType: IDashAgent.GetDashTile(Int32)
+  fullName: SuperOffice.CRM.Services.IDashAgent.GetDashTile(System.Int32)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDashAgent.GetDashTile(System.Int32)
     name: GetDashTile
+    nameWithType: IDashAgent.GetDashTile
+    fullName: SuperOffice.CRM.Services.IDashAgent.GetDashTile
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_GetDashTile_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDashAgent.GetDashTile(System.Int32)
     name: GetDashTile
+    nameWithType: IDashAgent.GetDashTile
+    fullName: SuperOffice.CRM.Services.IDashAgent.GetDashTile
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_GetDashTile_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.DashAgent.GetDashTiles*
   commentId: Overload:SuperOffice.CRM.Services.DashAgent.GetDashTiles
   isExternal: true
-  href: SuperOffice.CRM.Services.DashAgent.html#SuperOffice_CRM_Services_DashAgent_GetDashTiles_System_Int32_
   name: GetDashTiles
   nameWithType: DashAgent.GetDashTiles
   fullName: SuperOffice.CRM.Services.DashAgent.GetDashTiles
@@ -2679,38 +2762,45 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDashAgent.GetDashTiles(System.Int32)
   parent: SuperOffice.CRM.Services.IDashAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_GetDashTiles_System_Int32_
-  name: GetDashTiles(int)
-  nameWithType: IDashAgent.GetDashTiles(int)
-  fullName: SuperOffice.CRM.Services.IDashAgent.GetDashTiles(int)
-  nameWithType.vb: IDashAgent.GetDashTiles(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IDashAgent.GetDashTiles(Integer)
-  name.vb: GetDashTiles(Integer)
+  name: GetDashTiles(Int32)
+  nameWithType: IDashAgent.GetDashTiles(Int32)
+  fullName: SuperOffice.CRM.Services.IDashAgent.GetDashTiles(System.Int32)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDashAgent.GetDashTiles(System.Int32)
     name: GetDashTiles
+    nameWithType: IDashAgent.GetDashTiles
+    fullName: SuperOffice.CRM.Services.IDashAgent.GetDashTiles
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_GetDashTiles_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDashAgent.GetDashTiles(System.Int32)
     name: GetDashTiles
+    nameWithType: IDashAgent.GetDashTiles
+    fullName: SuperOffice.CRM.Services.IDashAgent.GetDashTiles
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_GetDashTiles_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.DashTile[]
   isExternal: true
-  href: SuperOffice.CRM.Services.DashTile.html
   name: DashTile[]
   nameWithType: DashTile[]
   fullName: SuperOffice.CRM.Services.DashTile[]
@@ -2720,21 +2810,24 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.DashTile
     name: DashTile
+    nameWithType: DashTile
+    fullName: SuperOffice.CRM.Services.DashTile
     isExternal: true
-    href: SuperOffice.CRM.Services.DashTile.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.Services.DashTile
     name: DashTile
+    nameWithType: DashTile
+    fullName: SuperOffice.CRM.Services.DashTile
     isExternal: true
-    href: SuperOffice.CRM.Services.DashTile.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.DashAgent.SaveDashTiles*
   commentId: Overload:SuperOffice.CRM.Services.DashAgent.SaveDashTiles
   isExternal: true
-  href: SuperOffice.CRM.Services.DashAgent.html#SuperOffice_CRM_Services_DashAgent_SaveDashTiles_System_Int32_SuperOffice_CRM_Services_DashTile___
   name: SaveDashTiles
   nameWithType: DashAgent.SaveDashTiles
   fullName: SuperOffice.CRM.Services.DashAgent.SaveDashTiles
@@ -2742,55 +2835,71 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDashAgent.SaveDashTiles(System.Int32,SuperOffice.CRM.Services.DashTile[])
   parent: SuperOffice.CRM.Services.IDashAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_SaveDashTiles_System_Int32_SuperOffice_CRM_Services_DashTile___
-  name: SaveDashTiles(int, DashTile[])
-  nameWithType: IDashAgent.SaveDashTiles(int, DashTile[])
-  fullName: SuperOffice.CRM.Services.IDashAgent.SaveDashTiles(int, SuperOffice.CRM.Services.DashTile[])
-  nameWithType.vb: IDashAgent.SaveDashTiles(Integer, DashTile())
-  fullName.vb: SuperOffice.CRM.Services.IDashAgent.SaveDashTiles(Integer, SuperOffice.CRM.Services.DashTile())
-  name.vb: SaveDashTiles(Integer, DashTile())
+  name: SaveDashTiles(Int32, DashTile[])
+  nameWithType: IDashAgent.SaveDashTiles(Int32, DashTile[])
+  fullName: SuperOffice.CRM.Services.IDashAgent.SaveDashTiles(System.Int32, SuperOffice.CRM.Services.DashTile[])
+  nameWithType.vb: IDashAgent.SaveDashTiles(Int32, DashTile())
+  fullName.vb: SuperOffice.CRM.Services.IDashAgent.SaveDashTiles(System.Int32, SuperOffice.CRM.Services.DashTile())
+  name.vb: SaveDashTiles(Int32, DashTile())
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDashAgent.SaveDashTiles(System.Int32,SuperOffice.CRM.Services.DashTile[])
     name: SaveDashTiles
+    nameWithType: IDashAgent.SaveDashTiles
+    fullName: SuperOffice.CRM.Services.IDashAgent.SaveDashTiles
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_SaveDashTiles_System_Int32_SuperOffice_CRM_Services_DashTile___
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.CRM.Services.DashTile
     name: DashTile
+    nameWithType: DashTile
+    fullName: SuperOffice.CRM.Services.DashTile
     isExternal: true
-    href: SuperOffice.CRM.Services.DashTile.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDashAgent.SaveDashTiles(System.Int32,SuperOffice.CRM.Services.DashTile[])
     name: SaveDashTiles
+    nameWithType: IDashAgent.SaveDashTiles
+    fullName: SuperOffice.CRM.Services.IDashAgent.SaveDashTiles
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_SaveDashTiles_System_Int32_SuperOffice_CRM_Services_DashTile___
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.CRM.Services.DashTile
     name: DashTile
+    nameWithType: DashTile
+    fullName: SuperOffice.CRM.Services.DashTile
     isExternal: true
-    href: SuperOffice.CRM.Services.DashTile.html
-  - name: (
+  - name: ()
+    nameWithType: ()
+    fullName: ()
   - name: )
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.DashAgent.CreateDashTileSelectionFromEntity*
   commentId: Overload:SuperOffice.CRM.Services.DashAgent.CreateDashTileSelectionFromEntity
   isExternal: true
-  href: SuperOffice.CRM.Services.DashAgent.html#SuperOffice_CRM_Services_DashAgent_CreateDashTileSelectionFromEntity_System_String_
   name: CreateDashTileSelectionFromEntity
   nameWithType: DashAgent.CreateDashTileSelectionFromEntity
   fullName: SuperOffice.CRM.Services.DashAgent.CreateDashTileSelectionFromEntity
@@ -2798,39 +2907,46 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDashAgent.CreateDashTileSelectionFromEntity(System.String)
   parent: SuperOffice.CRM.Services.IDashAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_CreateDashTileSelectionFromEntity_System_String_
-  name: CreateDashTileSelectionFromEntity(string)
-  nameWithType: IDashAgent.CreateDashTileSelectionFromEntity(string)
-  fullName: SuperOffice.CRM.Services.IDashAgent.CreateDashTileSelectionFromEntity(string)
-  nameWithType.vb: IDashAgent.CreateDashTileSelectionFromEntity(String)
-  fullName.vb: SuperOffice.CRM.Services.IDashAgent.CreateDashTileSelectionFromEntity(String)
-  name.vb: CreateDashTileSelectionFromEntity(String)
+  name: CreateDashTileSelectionFromEntity(String)
+  nameWithType: IDashAgent.CreateDashTileSelectionFromEntity(String)
+  fullName: SuperOffice.CRM.Services.IDashAgent.CreateDashTileSelectionFromEntity(System.String)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDashAgent.CreateDashTileSelectionFromEntity(System.String)
     name: CreateDashTileSelectionFromEntity
+    nameWithType: IDashAgent.CreateDashTileSelectionFromEntity
+    fullName: SuperOffice.CRM.Services.IDashAgent.CreateDashTileSelectionFromEntity
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_CreateDashTileSelectionFromEntity_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDashAgent.CreateDashTileSelectionFromEntity(System.String)
     name: CreateDashTileSelectionFromEntity
+    nameWithType: IDashAgent.CreateDashTileSelectionFromEntity
+    fullName: SuperOffice.CRM.Services.IDashAgent.CreateDashTileSelectionFromEntity
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_CreateDashTileSelectionFromEntity_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.DashAgent.CopyTileSelection*
   commentId: Overload:SuperOffice.CRM.Services.DashAgent.CopyTileSelection
   isExternal: true
-  href: SuperOffice.CRM.Services.DashAgent.html#SuperOffice_CRM_Services_DashAgent_CopyTileSelection_System_Int32_
   name: CopyTileSelection
   nameWithType: DashAgent.CopyTileSelection
   fullName: SuperOffice.CRM.Services.DashAgent.CopyTileSelection
@@ -2838,39 +2954,46 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDashAgent.CopyTileSelection(System.Int32)
   parent: SuperOffice.CRM.Services.IDashAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_CopyTileSelection_System_Int32_
-  name: CopyTileSelection(int)
-  nameWithType: IDashAgent.CopyTileSelection(int)
-  fullName: SuperOffice.CRM.Services.IDashAgent.CopyTileSelection(int)
-  nameWithType.vb: IDashAgent.CopyTileSelection(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IDashAgent.CopyTileSelection(Integer)
-  name.vb: CopyTileSelection(Integer)
+  name: CopyTileSelection(Int32)
+  nameWithType: IDashAgent.CopyTileSelection(Int32)
+  fullName: SuperOffice.CRM.Services.IDashAgent.CopyTileSelection(System.Int32)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDashAgent.CopyTileSelection(System.Int32)
     name: CopyTileSelection
+    nameWithType: IDashAgent.CopyTileSelection
+    fullName: SuperOffice.CRM.Services.IDashAgent.CopyTileSelection
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_CopyTileSelection_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDashAgent.CopyTileSelection(System.Int32)
     name: CopyTileSelection
+    nameWithType: IDashAgent.CopyTileSelection
+    fullName: SuperOffice.CRM.Services.IDashAgent.CopyTileSelection
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_CopyTileSelection_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.DashAgent.GetTempTileSelection*
   commentId: Overload:SuperOffice.CRM.Services.DashAgent.GetTempTileSelection
   isExternal: true
-  href: SuperOffice.CRM.Services.DashAgent.html#SuperOffice_CRM_Services_DashAgent_GetTempTileSelection_System_Int32_
   name: GetTempTileSelection
   nameWithType: DashAgent.GetTempTileSelection
   fullName: SuperOffice.CRM.Services.DashAgent.GetTempTileSelection
@@ -2878,39 +3001,46 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDashAgent.GetTempTileSelection(System.Int32)
   parent: SuperOffice.CRM.Services.IDashAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_GetTempTileSelection_System_Int32_
-  name: GetTempTileSelection(int)
-  nameWithType: IDashAgent.GetTempTileSelection(int)
-  fullName: SuperOffice.CRM.Services.IDashAgent.GetTempTileSelection(int)
-  nameWithType.vb: IDashAgent.GetTempTileSelection(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IDashAgent.GetTempTileSelection(Integer)
-  name.vb: GetTempTileSelection(Integer)
+  name: GetTempTileSelection(Int32)
+  nameWithType: IDashAgent.GetTempTileSelection(Int32)
+  fullName: SuperOffice.CRM.Services.IDashAgent.GetTempTileSelection(System.Int32)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDashAgent.GetTempTileSelection(System.Int32)
     name: GetTempTileSelection
+    nameWithType: IDashAgent.GetTempTileSelection
+    fullName: SuperOffice.CRM.Services.IDashAgent.GetTempTileSelection
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_GetTempTileSelection_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDashAgent.GetTempTileSelection(System.Int32)
     name: GetTempTileSelection
+    nameWithType: IDashAgent.GetTempTileSelection
+    fullName: SuperOffice.CRM.Services.IDashAgent.GetTempTileSelection
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_GetTempTileSelection_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.DashAgent.GetSecondaryTempTileSelection*
   commentId: Overload:SuperOffice.CRM.Services.DashAgent.GetSecondaryTempTileSelection
   isExternal: true
-  href: SuperOffice.CRM.Services.DashAgent.html#SuperOffice_CRM_Services_DashAgent_GetSecondaryTempTileSelection_System_Int32_
   name: GetSecondaryTempTileSelection
   nameWithType: DashAgent.GetSecondaryTempTileSelection
   fullName: SuperOffice.CRM.Services.DashAgent.GetSecondaryTempTileSelection
@@ -2918,39 +3048,46 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDashAgent.GetSecondaryTempTileSelection(System.Int32)
   parent: SuperOffice.CRM.Services.IDashAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_GetSecondaryTempTileSelection_System_Int32_
-  name: GetSecondaryTempTileSelection(int)
-  nameWithType: IDashAgent.GetSecondaryTempTileSelection(int)
-  fullName: SuperOffice.CRM.Services.IDashAgent.GetSecondaryTempTileSelection(int)
-  nameWithType.vb: IDashAgent.GetSecondaryTempTileSelection(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IDashAgent.GetSecondaryTempTileSelection(Integer)
-  name.vb: GetSecondaryTempTileSelection(Integer)
+  name: GetSecondaryTempTileSelection(Int32)
+  nameWithType: IDashAgent.GetSecondaryTempTileSelection(Int32)
+  fullName: SuperOffice.CRM.Services.IDashAgent.GetSecondaryTempTileSelection(System.Int32)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDashAgent.GetSecondaryTempTileSelection(System.Int32)
     name: GetSecondaryTempTileSelection
+    nameWithType: IDashAgent.GetSecondaryTempTileSelection
+    fullName: SuperOffice.CRM.Services.IDashAgent.GetSecondaryTempTileSelection
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_GetSecondaryTempTileSelection_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDashAgent.GetSecondaryTempTileSelection(System.Int32)
     name: GetSecondaryTempTileSelection
+    nameWithType: IDashAgent.GetSecondaryTempTileSelection
+    fullName: SuperOffice.CRM.Services.IDashAgent.GetSecondaryTempTileSelection
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_GetSecondaryTempTileSelection_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.DashAgent.CreateDefaultTileForEntity*
   commentId: Overload:SuperOffice.CRM.Services.DashAgent.CreateDefaultTileForEntity
   isExternal: true
-  href: SuperOffice.CRM.Services.DashAgent.html#SuperOffice_CRM_Services_DashAgent_CreateDefaultTileForEntity_System_String_
   name: CreateDefaultTileForEntity
   nameWithType: DashAgent.CreateDefaultTileForEntity
   fullName: SuperOffice.CRM.Services.DashAgent.CreateDefaultTileForEntity
@@ -2958,39 +3095,46 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDashAgent.CreateDefaultTileForEntity(System.String)
   parent: SuperOffice.CRM.Services.IDashAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_CreateDefaultTileForEntity_System_String_
-  name: CreateDefaultTileForEntity(string)
-  nameWithType: IDashAgent.CreateDefaultTileForEntity(string)
-  fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultTileForEntity(string)
-  nameWithType.vb: IDashAgent.CreateDefaultTileForEntity(String)
-  fullName.vb: SuperOffice.CRM.Services.IDashAgent.CreateDefaultTileForEntity(String)
-  name.vb: CreateDefaultTileForEntity(String)
+  name: CreateDefaultTileForEntity(String)
+  nameWithType: IDashAgent.CreateDefaultTileForEntity(String)
+  fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultTileForEntity(System.String)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDashAgent.CreateDefaultTileForEntity(System.String)
     name: CreateDefaultTileForEntity
+    nameWithType: IDashAgent.CreateDefaultTileForEntity
+    fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultTileForEntity
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_CreateDefaultTileForEntity_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDashAgent.CreateDefaultTileForEntity(System.String)
     name: CreateDefaultTileForEntity
+    nameWithType: IDashAgent.CreateDefaultTileForEntity
+    fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultTileForEntity
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_CreateDefaultTileForEntity_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.DashAgent.DuplicateTile*
   commentId: Overload:SuperOffice.CRM.Services.DashAgent.DuplicateTile
   isExternal: true
-  href: SuperOffice.CRM.Services.DashAgent.html#SuperOffice_CRM_Services_DashAgent_DuplicateTile_System_Int32_System_String_
   name: DuplicateTile
   nameWithType: DashAgent.DuplicateTile
   fullName: SuperOffice.CRM.Services.DashAgent.DuplicateTile
@@ -2998,51 +3142,62 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDashAgent.DuplicateTile(System.Int32,System.String)
   parent: SuperOffice.CRM.Services.IDashAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_DuplicateTile_System_Int32_System_String_
-  name: DuplicateTile(int, string)
-  nameWithType: IDashAgent.DuplicateTile(int, string)
-  fullName: SuperOffice.CRM.Services.IDashAgent.DuplicateTile(int, string)
-  nameWithType.vb: IDashAgent.DuplicateTile(Integer, String)
-  fullName.vb: SuperOffice.CRM.Services.IDashAgent.DuplicateTile(Integer, String)
-  name.vb: DuplicateTile(Integer, String)
+  name: DuplicateTile(Int32, String)
+  nameWithType: IDashAgent.DuplicateTile(Int32, String)
+  fullName: SuperOffice.CRM.Services.IDashAgent.DuplicateTile(System.Int32, System.String)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDashAgent.DuplicateTile(System.Int32,System.String)
     name: DuplicateTile
+    nameWithType: IDashAgent.DuplicateTile
+    fullName: SuperOffice.CRM.Services.IDashAgent.DuplicateTile
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_DuplicateTile_System_Int32_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDashAgent.DuplicateTile(System.Int32,System.String)
     name: DuplicateTile
+    nameWithType: IDashAgent.DuplicateTile
+    fullName: SuperOffice.CRM.Services.IDashAgent.DuplicateTile
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_DuplicateTile_System_Int32_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.DashAgent.GetDashTileDefinition*
   commentId: Overload:SuperOffice.CRM.Services.DashAgent.GetDashTileDefinition
   isExternal: true
-  href: SuperOffice.CRM.Services.DashAgent.html#SuperOffice_CRM_Services_DashAgent_GetDashTileDefinition_System_Int32_
   name: GetDashTileDefinition
   nameWithType: DashAgent.GetDashTileDefinition
   fullName: SuperOffice.CRM.Services.DashAgent.GetDashTileDefinition
@@ -3050,39 +3205,46 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDashAgent.GetDashTileDefinition(System.Int32)
   parent: SuperOffice.CRM.Services.IDashAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_GetDashTileDefinition_System_Int32_
-  name: GetDashTileDefinition(int)
-  nameWithType: IDashAgent.GetDashTileDefinition(int)
-  fullName: SuperOffice.CRM.Services.IDashAgent.GetDashTileDefinition(int)
-  nameWithType.vb: IDashAgent.GetDashTileDefinition(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IDashAgent.GetDashTileDefinition(Integer)
-  name.vb: GetDashTileDefinition(Integer)
+  name: GetDashTileDefinition(Int32)
+  nameWithType: IDashAgent.GetDashTileDefinition(Int32)
+  fullName: SuperOffice.CRM.Services.IDashAgent.GetDashTileDefinition(System.Int32)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDashAgent.GetDashTileDefinition(System.Int32)
     name: GetDashTileDefinition
+    nameWithType: IDashAgent.GetDashTileDefinition
+    fullName: SuperOffice.CRM.Services.IDashAgent.GetDashTileDefinition
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_GetDashTileDefinition_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDashAgent.GetDashTileDefinition(System.Int32)
     name: GetDashTileDefinition
+    nameWithType: IDashAgent.GetDashTileDefinition
+    fullName: SuperOffice.CRM.Services.IDashAgent.GetDashTileDefinition
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_GetDashTileDefinition_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.DashAgent.CreateDefaultTileDefinitionForEntity*
   commentId: Overload:SuperOffice.CRM.Services.DashAgent.CreateDefaultTileDefinitionForEntity
   isExternal: true
-  href: SuperOffice.CRM.Services.DashAgent.html#SuperOffice_CRM_Services_DashAgent_CreateDefaultTileDefinitionForEntity_System_String_
   name: CreateDefaultTileDefinitionForEntity
   nameWithType: DashAgent.CreateDefaultTileDefinitionForEntity
   fullName: SuperOffice.CRM.Services.DashAgent.CreateDefaultTileDefinitionForEntity
@@ -3090,39 +3252,46 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDashAgent.CreateDefaultTileDefinitionForEntity(System.String)
   parent: SuperOffice.CRM.Services.IDashAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_CreateDefaultTileDefinitionForEntity_System_String_
-  name: CreateDefaultTileDefinitionForEntity(string)
-  nameWithType: IDashAgent.CreateDefaultTileDefinitionForEntity(string)
-  fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultTileDefinitionForEntity(string)
-  nameWithType.vb: IDashAgent.CreateDefaultTileDefinitionForEntity(String)
-  fullName.vb: SuperOffice.CRM.Services.IDashAgent.CreateDefaultTileDefinitionForEntity(String)
-  name.vb: CreateDefaultTileDefinitionForEntity(String)
+  name: CreateDefaultTileDefinitionForEntity(String)
+  nameWithType: IDashAgent.CreateDefaultTileDefinitionForEntity(String)
+  fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultTileDefinitionForEntity(System.String)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDashAgent.CreateDefaultTileDefinitionForEntity(System.String)
     name: CreateDefaultTileDefinitionForEntity
+    nameWithType: IDashAgent.CreateDefaultTileDefinitionForEntity
+    fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultTileDefinitionForEntity
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_CreateDefaultTileDefinitionForEntity_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDashAgent.CreateDefaultTileDefinitionForEntity(System.String)
     name: CreateDefaultTileDefinitionForEntity
+    nameWithType: IDashAgent.CreateDefaultTileDefinitionForEntity
+    fullName: SuperOffice.CRM.Services.IDashAgent.CreateDefaultTileDefinitionForEntity
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_CreateDefaultTileDefinitionForEntity_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.DashAgent.GetDashTileHtml*
   commentId: Overload:SuperOffice.CRM.Services.DashAgent.GetDashTileHtml
   isExternal: true
-  href: SuperOffice.CRM.Services.DashAgent.html#SuperOffice_CRM_Services_DashAgent_GetDashTileHtml_System_Int32_System_String_
   name: GetDashTileHtml
   nameWithType: DashAgent.GetDashTileHtml
   fullName: SuperOffice.CRM.Services.DashAgent.GetDashTileHtml
@@ -3130,59 +3299,69 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDashAgent.GetDashTileHtml(System.Int32,System.String)
   parent: SuperOffice.CRM.Services.IDashAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_GetDashTileHtml_System_Int32_System_String_
-  name: GetDashTileHtml(int, string)
-  nameWithType: IDashAgent.GetDashTileHtml(int, string)
-  fullName: SuperOffice.CRM.Services.IDashAgent.GetDashTileHtml(int, string)
-  nameWithType.vb: IDashAgent.GetDashTileHtml(Integer, String)
-  fullName.vb: SuperOffice.CRM.Services.IDashAgent.GetDashTileHtml(Integer, String)
-  name.vb: GetDashTileHtml(Integer, String)
+  name: GetDashTileHtml(Int32, String)
+  nameWithType: IDashAgent.GetDashTileHtml(Int32, String)
+  fullName: SuperOffice.CRM.Services.IDashAgent.GetDashTileHtml(System.Int32, System.String)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDashAgent.GetDashTileHtml(System.Int32,System.String)
     name: GetDashTileHtml
+    nameWithType: IDashAgent.GetDashTileHtml
+    fullName: SuperOffice.CRM.Services.IDashAgent.GetDashTileHtml
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_GetDashTileHtml_System_Int32_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDashAgent.GetDashTileHtml(System.Int32,System.String)
     name: GetDashTileHtml
+    nameWithType: IDashAgent.GetDashTileHtml
+    fullName: SuperOffice.CRM.Services.IDashAgent.GetDashTileHtml
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_GetDashTileHtml_System_Int32_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.DashTileHtml
   commentId: T:SuperOffice.CRM.Services.DashTileHtml
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.DashTileHtml.html
   name: DashTileHtml
   nameWithType: DashTileHtml
   fullName: SuperOffice.CRM.Services.DashTileHtml
 - uid: SuperOffice.CRM.Services.DashAgent.GetDashTileHtmlList*
   commentId: Overload:SuperOffice.CRM.Services.DashAgent.GetDashTileHtmlList
   isExternal: true
-  href: SuperOffice.CRM.Services.DashAgent.html#SuperOffice_CRM_Services_DashAgent_GetDashTileHtmlList_System_Int32_
   name: GetDashTileHtmlList
   nameWithType: DashAgent.GetDashTileHtmlList
   fullName: SuperOffice.CRM.Services.DashAgent.GetDashTileHtmlList
@@ -3190,38 +3369,45 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDashAgent.GetDashTileHtmlList(System.Int32)
   parent: SuperOffice.CRM.Services.IDashAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_GetDashTileHtmlList_System_Int32_
-  name: GetDashTileHtmlList(int)
-  nameWithType: IDashAgent.GetDashTileHtmlList(int)
-  fullName: SuperOffice.CRM.Services.IDashAgent.GetDashTileHtmlList(int)
-  nameWithType.vb: IDashAgent.GetDashTileHtmlList(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IDashAgent.GetDashTileHtmlList(Integer)
-  name.vb: GetDashTileHtmlList(Integer)
+  name: GetDashTileHtmlList(Int32)
+  nameWithType: IDashAgent.GetDashTileHtmlList(Int32)
+  fullName: SuperOffice.CRM.Services.IDashAgent.GetDashTileHtmlList(System.Int32)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDashAgent.GetDashTileHtmlList(System.Int32)
     name: GetDashTileHtmlList
+    nameWithType: IDashAgent.GetDashTileHtmlList
+    fullName: SuperOffice.CRM.Services.IDashAgent.GetDashTileHtmlList
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_GetDashTileHtmlList_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDashAgent.GetDashTileHtmlList(System.Int32)
     name: GetDashTileHtmlList
+    nameWithType: IDashAgent.GetDashTileHtmlList
+    fullName: SuperOffice.CRM.Services.IDashAgent.GetDashTileHtmlList
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_GetDashTileHtmlList_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.DashTileHtml[]
   isExternal: true
-  href: SuperOffice.CRM.Services.DashTileHtml.html
   name: DashTileHtml[]
   nameWithType: DashTileHtml[]
   fullName: SuperOffice.CRM.Services.DashTileHtml[]
@@ -3231,21 +3417,24 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.DashTileHtml
     name: DashTileHtml
+    nameWithType: DashTileHtml
+    fullName: SuperOffice.CRM.Services.DashTileHtml
     isExternal: true
-    href: SuperOffice.CRM.Services.DashTileHtml.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.Services.DashTileHtml
     name: DashTileHtml
+    nameWithType: DashTileHtml
+    fullName: SuperOffice.CRM.Services.DashTileHtml
     isExternal: true
-    href: SuperOffice.CRM.Services.DashTileHtml.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.DashAgent.SaveDashTileHtmlList*
   commentId: Overload:SuperOffice.CRM.Services.DashAgent.SaveDashTileHtmlList
   isExternal: true
-  href: SuperOffice.CRM.Services.DashAgent.html#SuperOffice_CRM_Services_DashAgent_SaveDashTileHtmlList_System_Int32_SuperOffice_CRM_Services_DashTileHtml___
   name: SaveDashTileHtmlList
   nameWithType: DashAgent.SaveDashTileHtmlList
   fullName: SuperOffice.CRM.Services.DashAgent.SaveDashTileHtmlList
@@ -3253,55 +3442,71 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDashAgent.SaveDashTileHtmlList(System.Int32,SuperOffice.CRM.Services.DashTileHtml[])
   parent: SuperOffice.CRM.Services.IDashAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_SaveDashTileHtmlList_System_Int32_SuperOffice_CRM_Services_DashTileHtml___
-  name: SaveDashTileHtmlList(int, DashTileHtml[])
-  nameWithType: IDashAgent.SaveDashTileHtmlList(int, DashTileHtml[])
-  fullName: SuperOffice.CRM.Services.IDashAgent.SaveDashTileHtmlList(int, SuperOffice.CRM.Services.DashTileHtml[])
-  nameWithType.vb: IDashAgent.SaveDashTileHtmlList(Integer, DashTileHtml())
-  fullName.vb: SuperOffice.CRM.Services.IDashAgent.SaveDashTileHtmlList(Integer, SuperOffice.CRM.Services.DashTileHtml())
-  name.vb: SaveDashTileHtmlList(Integer, DashTileHtml())
+  name: SaveDashTileHtmlList(Int32, DashTileHtml[])
+  nameWithType: IDashAgent.SaveDashTileHtmlList(Int32, DashTileHtml[])
+  fullName: SuperOffice.CRM.Services.IDashAgent.SaveDashTileHtmlList(System.Int32, SuperOffice.CRM.Services.DashTileHtml[])
+  nameWithType.vb: IDashAgent.SaveDashTileHtmlList(Int32, DashTileHtml())
+  fullName.vb: SuperOffice.CRM.Services.IDashAgent.SaveDashTileHtmlList(System.Int32, SuperOffice.CRM.Services.DashTileHtml())
+  name.vb: SaveDashTileHtmlList(Int32, DashTileHtml())
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDashAgent.SaveDashTileHtmlList(System.Int32,SuperOffice.CRM.Services.DashTileHtml[])
     name: SaveDashTileHtmlList
+    nameWithType: IDashAgent.SaveDashTileHtmlList
+    fullName: SuperOffice.CRM.Services.IDashAgent.SaveDashTileHtmlList
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_SaveDashTileHtmlList_System_Int32_SuperOffice_CRM_Services_DashTileHtml___
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.CRM.Services.DashTileHtml
     name: DashTileHtml
+    nameWithType: DashTileHtml
+    fullName: SuperOffice.CRM.Services.DashTileHtml
     isExternal: true
-    href: SuperOffice.CRM.Services.DashTileHtml.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDashAgent.SaveDashTileHtmlList(System.Int32,SuperOffice.CRM.Services.DashTileHtml[])
     name: SaveDashTileHtmlList
+    nameWithType: IDashAgent.SaveDashTileHtmlList
+    fullName: SuperOffice.CRM.Services.IDashAgent.SaveDashTileHtmlList
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_SaveDashTileHtmlList_System_Int32_SuperOffice_CRM_Services_DashTileHtml___
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.CRM.Services.DashTileHtml
     name: DashTileHtml
+    nameWithType: DashTileHtml
+    fullName: SuperOffice.CRM.Services.DashTileHtml
     isExternal: true
-    href: SuperOffice.CRM.Services.DashTileHtml.html
-  - name: (
+  - name: ()
+    nameWithType: ()
+    fullName: ()
   - name: )
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.DashAgent.GetPreviewDash*
   commentId: Overload:SuperOffice.CRM.Services.DashAgent.GetPreviewDash
   isExternal: true
-  href: SuperOffice.CRM.Services.DashAgent.html#SuperOffice_CRM_Services_DashAgent_GetPreviewDash_System_Int32_
   name: GetPreviewDash
   nameWithType: DashAgent.GetPreviewDash
   fullName: SuperOffice.CRM.Services.DashAgent.GetPreviewDash
@@ -3309,42 +3514,46 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDashAgent.GetPreviewDash(System.Int32)
   parent: SuperOffice.CRM.Services.IDashAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_GetPreviewDash_System_Int32_
-  name: GetPreviewDash(int)
-  nameWithType: IDashAgent.GetPreviewDash(int)
-  fullName: SuperOffice.CRM.Services.IDashAgent.GetPreviewDash(int)
-  nameWithType.vb: IDashAgent.GetPreviewDash(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IDashAgent.GetPreviewDash(Integer)
-  name.vb: GetPreviewDash(Integer)
+  name: GetPreviewDash(Int32)
+  nameWithType: IDashAgent.GetPreviewDash(Int32)
+  fullName: SuperOffice.CRM.Services.IDashAgent.GetPreviewDash(System.Int32)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDashAgent.GetPreviewDash(System.Int32)
     name: GetPreviewDash
+    nameWithType: IDashAgent.GetPreviewDash
+    fullName: SuperOffice.CRM.Services.IDashAgent.GetPreviewDash
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_GetPreviewDash_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDashAgent.GetPreviewDash(System.Int32)
     name: GetPreviewDash
+    nameWithType: IDashAgent.GetPreviewDash
+    fullName: SuperOffice.CRM.Services.IDashAgent.GetPreviewDash
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashAgent.html#SuperOffice_CRM_Services_IDashAgent_GetPreviewDash_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.DashAgent.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.DashAgent.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.DashAgent.html#SuperOffice_CRM_Services_DashAgent__ctor
   name: DashAgent
   nameWithType: DashAgent.DashAgent
   fullName: SuperOffice.CRM.Services.DashAgent.DashAgent
-  nameWithType.vb: DashAgent.New
-  fullName.vb: SuperOffice.CRM.Services.DashAgent.New
-  name.vb: New

@@ -24,28 +24,15 @@ items:
   nameWithType: ITimeZoneAgent
   fullName: SuperOffice.CRM.Services.ITimeZoneAgent
   type: Interface
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Interface for the TimeZone Agent
-
-    TimeZone maintenance
+  summary: "\nInterface for the TimeZone Agent\nTimeZone maintenance\n"
   example:
-  - >-
-    <pre><code class="lang-csharp">using SuperOffice;
-
-    using SuperOffice.CRM.Services;
-
-
-    using (SoSession mySession = SoSession.Authenticate("user", "pass"))
-
-    {
-       using (TimeZoneAgent agent = new TimeZoneAgent())
-       {
-          // call methods on agent here...
-       }
-    }</code></pre>
+  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (TimeZoneAgent agent = new TimeZoneAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
   syntax:
     content: >-
       [Agent("TimeZone Agent", "Interface for the TimeZone Agent. TimeZone maintenance")]
@@ -54,7 +41,8 @@ items:
     content.vb: >-
       <Agent("TimeZone Agent", "Interface for the TimeZone Agent. TimeZone maintenance")>
 
-      Public Interface ITimeZoneAgent Inherits IAgent
+      Public Interface ITimeZoneAgent
+          Inherits IAgent
   attributes:
   - type: SuperOffice.CRM.Services.Reflection.AgentAttribute
     ctor: SuperOffice.CRM.Services.Reflection.AgentAttribute.#ctor(System.String,System.String)
@@ -63,6 +51,12 @@ items:
       value: TimeZone Agent
     - type: System.String
       value: Interface for the TimeZone Agent. TimeZone maintenance
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
 - uid: SuperOffice.CRM.Services.ITimeZoneAgent.GetDefaultTimeZoneInformation
   commentId: M:SuperOffice.CRM.Services.ITimeZoneAgent.GetDefaultTimeZoneInformation
   id: GetDefaultTimeZoneInformation
@@ -74,17 +68,19 @@ items:
   nameWithType: ITimeZoneAgent.GetDefaultTimeZoneInformation()
   fullName: SuperOffice.CRM.Services.ITimeZoneAgent.GetDefaultTimeZoneInformation()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Get information about the current, preferred timezone for the current user. If no such preference has been set, returns the correct fallback (and UserPreferenceId is 0)
-  example: []
+  summary: "\nGet information about the current, preferred timezone for the current user. If no such preference has been set, returns the correct fallback (and UserPreferenceId is 0)\n"
   syntax:
     content: PreferredTimeZone GetDefaultTimeZoneInformation()
     return:
       type: SuperOffice.CRM.Services.PreferredTimeZone
       description: Get information about the current, preferred timezone for the current user.
-    content.vb: Function GetDefaultTimeZoneInformation() As PreferredTimeZone
+    content.vb: Function GetDefaultTimeZoneInformation As PreferredTimeZone
   overload: SuperOffice.CRM.Services.ITimeZoneAgent.GetDefaultTimeZoneInformation*
 - uid: SuperOffice.CRM.Services.ITimeZoneAgent.InitializeTimeZoneData
   commentId: M:SuperOffice.CRM.Services.ITimeZoneAgent.InitializeTimeZoneData
@@ -97,17 +93,18 @@ items:
   nameWithType: ITimeZoneAgent.InitializeTimeZoneData()
   fullName: SuperOffice.CRM.Services.ITimeZoneAgent.InitializeTimeZoneData()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Initalizes the TimeZoneData
-  example: []
+  summary: "\nInitalizes the TimeZoneData\n"
   syntax:
     content: TimeZoneData[] InitializeTimeZoneData()
     return:
       type: SuperOffice.CRM.TimeZoneData[]
-      description: ''
-    content.vb: Function InitializeTimeZoneData() As TimeZoneData()
+    content.vb: Function InitializeTimeZoneData As TimeZoneData()
   overload: SuperOffice.CRM.Services.ITimeZoneAgent.InitializeTimeZoneData*
 - uid: SuperOffice.CRM.Services.ITimeZoneAgent.GetBaseTimeZoneId
   commentId: M:SuperOffice.CRM.Services.ITimeZoneAgent.GetBaseTimeZoneId
@@ -120,17 +117,19 @@ items:
   nameWithType: ITimeZoneAgent.GetBaseTimeZoneId()
   fullName: SuperOffice.CRM.Services.ITimeZoneAgent.GetBaseTimeZoneId()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Get the base timezone id.
-  example: []
+  summary: "\nGet the base timezone id.\n"
   syntax:
     content: int GetBaseTimeZoneId()
     return:
       type: System.Int32
       description: Returns the base timezone id. Returns 0 if not set.
-    content.vb: Function GetBaseTimeZoneId() As Integer
+    content.vb: Function GetBaseTimeZoneId As Integer
   overload: SuperOffice.CRM.Services.ITimeZoneAgent.GetBaseTimeZoneId*
 - uid: SuperOffice.CRM.Services.ITimeZoneAgent.UpdateTimeZoneData
   commentId: M:SuperOffice.CRM.Services.ITimeZoneAgent.UpdateTimeZoneData
@@ -143,17 +142,19 @@ items:
   nameWithType: ITimeZoneAgent.UpdateTimeZoneData()
   fullName: SuperOffice.CRM.Services.ITimeZoneAgent.UpdateTimeZoneData()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Retrieve time zone data from the SuperOffice server and update TimeZone data in the database
-  example: []
+  summary: "\nRetrieve time zone data from the SuperOffice server and update TimeZone data in the database\n"
   syntax:
     content: bool UpdateTimeZoneData()
     return:
       type: System.Boolean
       description: Returns true if the operation succeeded
-    content.vb: Function UpdateTimeZoneData() As Boolean
+    content.vb: Function UpdateTimeZoneData As Boolean
   overload: SuperOffice.CRM.Services.ITimeZoneAgent.UpdateTimeZoneData*
 - uid: SuperOffice.CRM.Services.ITimeZoneAgent.CheckNewTimeZoneDataAvailable
   commentId: M:SuperOffice.CRM.Services.ITimeZoneAgent.CheckNewTimeZoneDataAvailable
@@ -166,17 +167,19 @@ items:
   nameWithType: ITimeZoneAgent.CheckNewTimeZoneDataAvailable()
   fullName: SuperOffice.CRM.Services.ITimeZoneAgent.CheckNewTimeZoneDataAvailable()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Check to see if new timezone data is available
-  example: []
+  summary: "\nCheck to see if new timezone data is available\n"
   syntax:
     content: bool CheckNewTimeZoneDataAvailable()
     return:
       type: System.Boolean
       description: Returns true if new timezone info is found available, false otherwise
-    content.vb: Function CheckNewTimeZoneDataAvailable() As Boolean
+    content.vb: Function CheckNewTimeZoneDataAvailable As Boolean
   overload: SuperOffice.CRM.Services.ITimeZoneAgent.CheckNewTimeZoneDataAvailable*
 - uid: SuperOffice.CRM.Services.ITimeZoneAgent.ToggleActiveTimeZoneRow(System.Int32)
   commentId: M:SuperOffice.CRM.Services.ITimeZoneAgent.ToggleActiveTimeZoneRow(System.Int32)
@@ -185,15 +188,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToggleActiveTimeZoneRow(int)
-  nameWithType: ITimeZoneAgent.ToggleActiveTimeZoneRow(int)
-  fullName: SuperOffice.CRM.Services.ITimeZoneAgent.ToggleActiveTimeZoneRow(int)
+  name: ToggleActiveTimeZoneRow(Int32)
+  nameWithType: ITimeZoneAgent.ToggleActiveTimeZoneRow(Int32)
+  fullName: SuperOffice.CRM.Services.ITimeZoneAgent.ToggleActiveTimeZoneRow(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Toggles active state of a single row in the TZLocation table
-  example: []
+  summary: "\nToggles active state of a single row in the TZLocation table\n"
   syntax:
     content: void ToggleActiveTimeZoneRow(int id)
     parameters:
@@ -202,9 +207,6 @@ items:
       description: Id of row to toggle active state on
     content.vb: Sub ToggleActiveTimeZoneRow(id As Integer)
   overload: SuperOffice.CRM.Services.ITimeZoneAgent.ToggleActiveTimeZoneRow*
-  nameWithType.vb: ITimeZoneAgent.ToggleActiveTimeZoneRow(Integer)
-  fullName.vb: SuperOffice.CRM.Services.ITimeZoneAgent.ToggleActiveTimeZoneRow(Integer)
-  name.vb: ToggleActiveTimeZoneRow(Integer)
 - uid: SuperOffice.CRM.Services.ITimeZoneAgent.SetActiveTimeZonesByFilter(System.String,System.Boolean)
   commentId: M:SuperOffice.CRM.Services.ITimeZoneAgent.SetActiveTimeZonesByFilter(System.String,System.Boolean)
   id: SetActiveTimeZonesByFilter(System.String,System.Boolean)
@@ -212,15 +214,17 @@ items:
   langs:
   - csharp
   - vb
-  name: SetActiveTimeZonesByFilter(string, bool)
-  nameWithType: ITimeZoneAgent.SetActiveTimeZonesByFilter(string, bool)
-  fullName: SuperOffice.CRM.Services.ITimeZoneAgent.SetActiveTimeZonesByFilter(string, bool)
+  name: SetActiveTimeZonesByFilter(String, Boolean)
+  nameWithType: ITimeZoneAgent.SetActiveTimeZonesByFilter(String, Boolean)
+  fullName: SuperOffice.CRM.Services.ITimeZoneAgent.SetActiveTimeZonesByFilter(System.String, System.Boolean)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Toggles active state of a single row in the TZLocation table
-  example: []
+  summary: "\nToggles active state of a single row in the TZLocation table\n"
   syntax:
     content: void SetActiveTimeZonesByFilter(string filter, bool active)
     parameters:
@@ -232,9 +236,6 @@ items:
       description: Set active to true or false
     content.vb: Sub SetActiveTimeZonesByFilter(filter As String, active As Boolean)
   overload: SuperOffice.CRM.Services.ITimeZoneAgent.SetActiveTimeZonesByFilter*
-  nameWithType.vb: ITimeZoneAgent.SetActiveTimeZonesByFilter(String, Boolean)
-  fullName.vb: SuperOffice.CRM.Services.ITimeZoneAgent.SetActiveTimeZonesByFilter(String, Boolean)
-  name.vb: SetActiveTimeZonesByFilter(String, Boolean)
 - uid: SuperOffice.CRM.Services.ITimeZoneAgent.TimeOfLastTimeZoneUpdate
   commentId: M:SuperOffice.CRM.Services.ITimeZoneAgent.TimeOfLastTimeZoneUpdate
   id: TimeOfLastTimeZoneUpdate
@@ -246,17 +247,19 @@ items:
   nameWithType: ITimeZoneAgent.TimeOfLastTimeZoneUpdate()
   fullName: SuperOffice.CRM.Services.ITimeZoneAgent.TimeOfLastTimeZoneUpdate()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Get the time time zone data was last updated
-  example: []
+  summary: "\nGet the time time zone data was last updated\n"
   syntax:
     content: DateTime TimeOfLastTimeZoneUpdate()
     return:
       type: System.DateTime
       description: Time of last update
-    content.vb: Function TimeOfLastTimeZoneUpdate() As Date
+    content.vb: Function TimeOfLastTimeZoneUpdate As DateTime
   overload: SuperOffice.CRM.Services.ITimeZoneAgent.TimeOfLastTimeZoneUpdate*
 - uid: SuperOffice.CRM.Services.ITimeZoneAgent.SetBaseTimeZoneId(System.Int32)
   commentId: M:SuperOffice.CRM.Services.ITimeZoneAgent.SetBaseTimeZoneId(System.Int32)
@@ -265,15 +268,17 @@ items:
   langs:
   - csharp
   - vb
-  name: SetBaseTimeZoneId(int)
-  nameWithType: ITimeZoneAgent.SetBaseTimeZoneId(int)
-  fullName: SuperOffice.CRM.Services.ITimeZoneAgent.SetBaseTimeZoneId(int)
+  name: SetBaseTimeZoneId(Int32)
+  nameWithType: ITimeZoneAgent.SetBaseTimeZoneId(Int32)
+  fullName: SuperOffice.CRM.Services.ITimeZoneAgent.SetBaseTimeZoneId(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Set the base timezone id.
-  example: []
+  summary: "\nSet the base timezone id.\n"
   syntax:
     content: bool SetBaseTimeZoneId(int timezoneId)
     parameters:
@@ -285,9 +290,6 @@ items:
       description: Returns true if setting of base timezone was done
     content.vb: Function SetBaseTimeZoneId(timezoneId As Integer) As Boolean
   overload: SuperOffice.CRM.Services.ITimeZoneAgent.SetBaseTimeZoneId*
-  nameWithType.vb: ITimeZoneAgent.SetBaseTimeZoneId(Integer)
-  fullName.vb: SuperOffice.CRM.Services.ITimeZoneAgent.SetBaseTimeZoneId(Integer)
-  name.vb: SetBaseTimeZoneId(Integer)
 - uid: SuperOffice.CRM.Services.ITimeZoneAgent.GetDefaultTimeZonePreference
   commentId: M:SuperOffice.CRM.Services.ITimeZoneAgent.GetDefaultTimeZonePreference
   id: GetDefaultTimeZonePreference
@@ -299,17 +301,19 @@ items:
   nameWithType: ITimeZoneAgent.GetDefaultTimeZonePreference()
   fullName: SuperOffice.CRM.Services.ITimeZoneAgent.GetDefaultTimeZonePreference()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the id of the default timezone preference with deflevel system wide
-  example: []
+  summary: "\nReturns the id of the default timezone preference with deflevel system wide\n"
   syntax:
     content: int GetDefaultTimeZonePreference()
     return:
       type: System.Int32
       description: The id of the system wide default timezone preference
-    content.vb: Function GetDefaultTimeZonePreference() As Integer
+    content.vb: Function GetDefaultTimeZonePreference As Integer
   overload: SuperOffice.CRM.Services.ITimeZoneAgent.GetDefaultTimeZonePreference*
 - uid: SuperOffice.CRM.Services.ITimeZoneAgent.DeleteTimeZones
   commentId: M:SuperOffice.CRM.Services.ITimeZoneAgent.DeleteTimeZones
@@ -322,14 +326,16 @@ items:
   nameWithType: ITimeZoneAgent.DeleteTimeZones()
   fullName: SuperOffice.CRM.Services.ITimeZoneAgent.DeleteTimeZones()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Deletes all time zone data (locations and rules) from the database
-  example: []
+  summary: "\nDeletes all time zone data (locations and rules) from the database\n"
   syntax:
     content: void DeleteTimeZones()
-    content.vb: Sub DeleteTimeZones()
+    content.vb: Sub DeleteTimeZones
   overload: SuperOffice.CRM.Services.ITimeZoneAgent.DeleteTimeZones*
 - uid: SuperOffice.CRM.Services.ITimeZoneAgent.SetActiveTimeZoneRow(System.Int32,System.Boolean)
   commentId: M:SuperOffice.CRM.Services.ITimeZoneAgent.SetActiveTimeZoneRow(System.Int32,System.Boolean)
@@ -338,15 +344,17 @@ items:
   langs:
   - csharp
   - vb
-  name: SetActiveTimeZoneRow(int, bool)
-  nameWithType: ITimeZoneAgent.SetActiveTimeZoneRow(int, bool)
-  fullName: SuperOffice.CRM.Services.ITimeZoneAgent.SetActiveTimeZoneRow(int, bool)
+  name: SetActiveTimeZoneRow(Int32, Boolean)
+  nameWithType: ITimeZoneAgent.SetActiveTimeZoneRow(Int32, Boolean)
+  fullName: SuperOffice.CRM.Services.ITimeZoneAgent.SetActiveTimeZoneRow(System.Int32, System.Boolean)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Set active state of singe row in the TZLocation table
-  example: []
+  summary: "\nSet active state of singe row in the TZLocation table\n"
   syntax:
     content: void SetActiveTimeZoneRow(int id, bool active)
     parameters:
@@ -358,51 +366,16 @@ items:
       description: Set active to true or false
     content.vb: Sub SetActiveTimeZoneRow(id As Integer, active As Boolean)
   overload: SuperOffice.CRM.Services.ITimeZoneAgent.SetActiveTimeZoneRow*
-  nameWithType.vb: ITimeZoneAgent.SetActiveTimeZoneRow(Integer, Boolean)
-  fullName.vb: SuperOffice.CRM.Services.ITimeZoneAgent.SetActiveTimeZoneRow(Integer, Boolean)
-  name.vb: SetActiveTimeZoneRow(Integer, Boolean)
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
 - uid: SuperOffice.CRM.Services.ITimeZoneAgent.GetDefaultTimeZoneInformation*
   commentId: Overload:SuperOffice.CRM.Services.ITimeZoneAgent.GetDefaultTimeZoneInformation
   isExternal: true
-  href: SuperOffice.CRM.Services.ITimeZoneAgent.html#SuperOffice_CRM_Services_ITimeZoneAgent_GetDefaultTimeZoneInformation
   name: GetDefaultTimeZoneInformation
   nameWithType: ITimeZoneAgent.GetDefaultTimeZoneInformation
   fullName: SuperOffice.CRM.Services.ITimeZoneAgent.GetDefaultTimeZoneInformation
@@ -410,14 +383,12 @@ references:
   commentId: T:SuperOffice.CRM.Services.PreferredTimeZone
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.PreferredTimeZone.html
   name: PreferredTimeZone
   nameWithType: PreferredTimeZone
   fullName: SuperOffice.CRM.Services.PreferredTimeZone
 - uid: SuperOffice.CRM.Services.ITimeZoneAgent.InitializeTimeZoneData*
   commentId: Overload:SuperOffice.CRM.Services.ITimeZoneAgent.InitializeTimeZoneData
   isExternal: true
-  href: SuperOffice.CRM.Services.ITimeZoneAgent.html#SuperOffice_CRM_Services_ITimeZoneAgent_InitializeTimeZoneData
   name: InitializeTimeZoneData
   nameWithType: ITimeZoneAgent.InitializeTimeZoneData
   fullName: SuperOffice.CRM.Services.ITimeZoneAgent.InitializeTimeZoneData
@@ -432,19 +403,24 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.TimeZoneData
     name: TimeZoneData
+    nameWithType: TimeZoneData
+    fullName: SuperOffice.CRM.TimeZoneData
     isExternal: true
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.TimeZoneData
     name: TimeZoneData
+    nameWithType: TimeZoneData
+    fullName: SuperOffice.CRM.TimeZoneData
     isExternal: true
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.ITimeZoneAgent.GetBaseTimeZoneId*
   commentId: Overload:SuperOffice.CRM.Services.ITimeZoneAgent.GetBaseTimeZoneId
   isExternal: true
-  href: SuperOffice.CRM.Services.ITimeZoneAgent.html#SuperOffice_CRM_Services_ITimeZoneAgent_GetBaseTimeZoneId
   name: GetBaseTimeZoneId
   nameWithType: ITimeZoneAgent.GetBaseTimeZoneId
   fullName: SuperOffice.CRM.Services.ITimeZoneAgent.GetBaseTimeZoneId
@@ -452,24 +428,18 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.CRM.Services.ITimeZoneAgent.UpdateTimeZoneData*
   commentId: Overload:SuperOffice.CRM.Services.ITimeZoneAgent.UpdateTimeZoneData
   isExternal: true
-  href: SuperOffice.CRM.Services.ITimeZoneAgent.html#SuperOffice_CRM_Services_ITimeZoneAgent_UpdateTimeZoneData
   name: UpdateTimeZoneData
   nameWithType: ITimeZoneAgent.UpdateTimeZoneData
   fullName: SuperOffice.CRM.Services.ITimeZoneAgent.UpdateTimeZoneData
@@ -477,31 +447,24 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.CRM.Services.ITimeZoneAgent.CheckNewTimeZoneDataAvailable*
   commentId: Overload:SuperOffice.CRM.Services.ITimeZoneAgent.CheckNewTimeZoneDataAvailable
   isExternal: true
-  href: SuperOffice.CRM.Services.ITimeZoneAgent.html#SuperOffice_CRM_Services_ITimeZoneAgent_CheckNewTimeZoneDataAvailable
   name: CheckNewTimeZoneDataAvailable
   nameWithType: ITimeZoneAgent.CheckNewTimeZoneDataAvailable
   fullName: SuperOffice.CRM.Services.ITimeZoneAgent.CheckNewTimeZoneDataAvailable
 - uid: SuperOffice.CRM.Services.ITimeZoneAgent.ToggleActiveTimeZoneRow*
   commentId: Overload:SuperOffice.CRM.Services.ITimeZoneAgent.ToggleActiveTimeZoneRow
   isExternal: true
-  href: SuperOffice.CRM.Services.ITimeZoneAgent.html#SuperOffice_CRM_Services_ITimeZoneAgent_ToggleActiveTimeZoneRow_System_Int32_
   name: ToggleActiveTimeZoneRow
   nameWithType: ITimeZoneAgent.ToggleActiveTimeZoneRow
   fullName: SuperOffice.CRM.Services.ITimeZoneAgent.ToggleActiveTimeZoneRow
 - uid: SuperOffice.CRM.Services.ITimeZoneAgent.SetActiveTimeZonesByFilter*
   commentId: Overload:SuperOffice.CRM.Services.ITimeZoneAgent.SetActiveTimeZonesByFilter
   isExternal: true
-  href: SuperOffice.CRM.Services.ITimeZoneAgent.html#SuperOffice_CRM_Services_ITimeZoneAgent_SetActiveTimeZonesByFilter_System_String_System_Boolean_
   name: SetActiveTimeZonesByFilter
   nameWithType: ITimeZoneAgent.SetActiveTimeZonesByFilter
   fullName: SuperOffice.CRM.Services.ITimeZoneAgent.SetActiveTimeZonesByFilter
@@ -509,56 +472,41 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.CRM.Services.ITimeZoneAgent.TimeOfLastTimeZoneUpdate*
   commentId: Overload:SuperOffice.CRM.Services.ITimeZoneAgent.TimeOfLastTimeZoneUpdate
   isExternal: true
-  href: SuperOffice.CRM.Services.ITimeZoneAgent.html#SuperOffice_CRM_Services_ITimeZoneAgent_TimeOfLastTimeZoneUpdate
   name: TimeOfLastTimeZoneUpdate
   nameWithType: ITimeZoneAgent.TimeOfLastTimeZoneUpdate
   fullName: SuperOffice.CRM.Services.ITimeZoneAgent.TimeOfLastTimeZoneUpdate
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
 - uid: SuperOffice.CRM.Services.ITimeZoneAgent.SetBaseTimeZoneId*
   commentId: Overload:SuperOffice.CRM.Services.ITimeZoneAgent.SetBaseTimeZoneId
   isExternal: true
-  href: SuperOffice.CRM.Services.ITimeZoneAgent.html#SuperOffice_CRM_Services_ITimeZoneAgent_SetBaseTimeZoneId_System_Int32_
   name: SetBaseTimeZoneId
   nameWithType: ITimeZoneAgent.SetBaseTimeZoneId
   fullName: SuperOffice.CRM.Services.ITimeZoneAgent.SetBaseTimeZoneId
 - uid: SuperOffice.CRM.Services.ITimeZoneAgent.GetDefaultTimeZonePreference*
   commentId: Overload:SuperOffice.CRM.Services.ITimeZoneAgent.GetDefaultTimeZonePreference
   isExternal: true
-  href: SuperOffice.CRM.Services.ITimeZoneAgent.html#SuperOffice_CRM_Services_ITimeZoneAgent_GetDefaultTimeZonePreference
   name: GetDefaultTimeZonePreference
   nameWithType: ITimeZoneAgent.GetDefaultTimeZonePreference
   fullName: SuperOffice.CRM.Services.ITimeZoneAgent.GetDefaultTimeZonePreference
 - uid: SuperOffice.CRM.Services.ITimeZoneAgent.DeleteTimeZones*
   commentId: Overload:SuperOffice.CRM.Services.ITimeZoneAgent.DeleteTimeZones
   isExternal: true
-  href: SuperOffice.CRM.Services.ITimeZoneAgent.html#SuperOffice_CRM_Services_ITimeZoneAgent_DeleteTimeZones
   name: DeleteTimeZones
   nameWithType: ITimeZoneAgent.DeleteTimeZones
   fullName: SuperOffice.CRM.Services.ITimeZoneAgent.DeleteTimeZones
 - uid: SuperOffice.CRM.Services.ITimeZoneAgent.SetActiveTimeZoneRow*
   commentId: Overload:SuperOffice.CRM.Services.ITimeZoneAgent.SetActiveTimeZoneRow
   isExternal: true
-  href: SuperOffice.CRM.Services.ITimeZoneAgent.html#SuperOffice_CRM_Services_ITimeZoneAgent_SetActiveTimeZoneRow_System_Int32_System_Boolean_
   name: SetActiveTimeZoneRow
   nameWithType: ITimeZoneAgent.SetActiveTimeZoneRow
   fullName: SuperOffice.CRM.Services.ITimeZoneAgent.SetActiveTimeZoneRow

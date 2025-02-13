@@ -17,27 +17,18 @@ items:
   nameWithType: TicketMessageContent
   fullName: SuperOffice.CRM.Services.TicketMessageContent
   type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Message content to fill a new message.
-
-    <p></p>
-
-    Carrier object for TicketMessageContent.
-
-    Services for the TicketMessageContent Carrier is available from the <xref href="SuperOffice.CRM.Services.ITicketAgent?text=Ticket+Agent" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nMessage content to fill a new message.\n<p></p>\nCarrier object for TicketMessageContent.\nServices for the TicketMessageContent Carrier is available from the <xref href=\"SuperOffice.CRM.Services.ITicketAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public class TicketMessageContent
+    content: 'public class TicketMessageContent : Object'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
-
       Public Class TicketMessageContent
+          Inherits Object
   seealso:
   - linkId: SuperOffice.CRM.Services.TicketAgent
     commentId: T:SuperOffice.CRM.Services.TicketAgent
@@ -45,21 +36,12 @@ items:
     commentId: T:SuperOffice.CRM.Services.ITicketAgent
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.TicketMessageContent.#ctor
   commentId: M:SuperOffice.CRM.Services.TicketMessageContent.#ctor
   id: '#ctor'
@@ -71,18 +53,21 @@ items:
   nameWithType: TicketMessageContent.TicketMessageContent()
   fullName: SuperOffice.CRM.Services.TicketMessageContent.TicketMessageContent()
   type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Default constructor
-  example: []
+  summary: "\nDefault constructor\n"
   syntax:
     content: public TicketMessageContent()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.TicketMessageContent.#ctor*
-  nameWithType.vb: TicketMessageContent.New()
-  fullName.vb: SuperOffice.CRM.Services.TicketMessageContent.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.TicketMessageContent.ToString
   commentId: M:SuperOffice.CRM.Services.TicketMessageContent.ToString
   id: ToString
@@ -94,19 +79,26 @@ items:
   nameWithType: TicketMessageContent.ToString()
   fullName: SuperOffice.CRM.Services.TicketMessageContent.ToString()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the carrier contents as a formatted string.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string.\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString() As String
-  overridden: System.Object.ToString
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.CRM.Services.TicketMessageContent.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Services.TicketMessageContent.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.TicketMessageContent.ToString(System.String)
   id: ToString(System.String)
@@ -114,18 +106,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(string)
-  nameWithType: TicketMessageContent.ToString(string)
-  fullName: SuperOffice.CRM.Services.TicketMessageContent.ToString(string)
+  name: ToString(String)
+  nameWithType: TicketMessageContent.ToString(String)
+  fullName: SuperOffice.CRM.Services.TicketMessageContent.ToString(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Returns the carrier contents as a formatted string, useful for debugging.
-
-    Each line in the output is prefixed with the input value.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -137,9 +128,10 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.TicketMessageContent.ToString*
-  nameWithType.vb: TicketMessageContent.ToString(String)
-  fullName.vb: SuperOffice.CRM.Services.TicketMessageContent.ToString(String)
-  name.vb: ToString(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.TicketMessageContent.Body
   commentId: P:SuperOffice.CRM.Services.TicketMessageContent.Body
   id: Body
@@ -151,28 +143,28 @@ items:
   nameWithType: TicketMessageContent.Body
   fullName: SuperOffice.CRM.Services.TicketMessageContent.Body
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Body (including default editor content, content from template, user signature, quoted message content) as sanitized HTML
-  example: []
+  summary: "\nBody (including default editor content, content from template, user signature, quoted message content) as sanitized HTML \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string Body { get; set; }
+    content: public virtual string Body { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Body As String
+    content.vb: Public Overridable Property Body As String
   overload: SuperOffice.CRM.Services.TicketMessageContent.Body*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.TicketMessageContent.AttachmentsInfo
   commentId: P:SuperOffice.CRM.Services.TicketMessageContent.AttachmentsInfo
   id: AttachmentsInfo
@@ -184,33 +176,38 @@ items:
   nameWithType: TicketMessageContent.AttachmentsInfo
   fullName: SuperOffice.CRM.Services.TicketMessageContent.AttachmentsInfo
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Message attachments information
-  example: []
+  summary: "\nMessage attachments information \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual AttachmentEntity[] AttachmentsInfo { get; set; }
+    content: public virtual AttachmentEntity[] AttachmentsInfo { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.AttachmentEntity[]
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property AttachmentsInfo As AttachmentEntity()
+    content.vb: Public Overridable Property AttachmentsInfo As AttachmentEntity()
   overload: SuperOffice.CRM.Services.TicketMessageContent.AttachmentsInfo*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
 - uid: SuperOffice.CRM.Services.TicketAgent
   commentId: T:SuperOffice.CRM.Services.TicketAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.TicketAgent.html
   name: TicketAgent
   nameWithType: TicketAgent
   fullName: SuperOffice.CRM.Services.TicketAgent
@@ -218,298 +215,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.ITicketAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.ITicketAgent.html
   name: ITicketAgent
   nameWithType: ITicketAgent
   fullName: SuperOffice.CRM.Services.ITicketAgent
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.TicketMessageContent.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.TicketMessageContent.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.TicketMessageContent.html#SuperOffice_CRM_Services_TicketMessageContent__ctor
   name: TicketMessageContent
   nameWithType: TicketMessageContent.TicketMessageContent
   fullName: SuperOffice.CRM.Services.TicketMessageContent.TicketMessageContent
-  nameWithType.vb: TicketMessageContent.New
-  fullName.vb: SuperOffice.CRM.Services.TicketMessageContent.New
-  name.vb: New
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
 - uid: SuperOffice.CRM.Services.TicketMessageContent.ToString*
   commentId: Overload:SuperOffice.CRM.Services.TicketMessageContent.ToString
   isExternal: true
-  href: SuperOffice.CRM.Services.TicketMessageContent.html#SuperOffice_CRM_Services_TicketMessageContent_ToString
   name: ToString
   nameWithType: TicketMessageContent.ToString
   fullName: SuperOffice.CRM.Services.TicketMessageContent.ToString
@@ -517,30 +234,29 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.TicketMessageContent.Body*
   commentId: Overload:SuperOffice.CRM.Services.TicketMessageContent.Body
   isExternal: true
-  href: SuperOffice.CRM.Services.TicketMessageContent.html#SuperOffice_CRM_Services_TicketMessageContent_Body
   name: Body
   nameWithType: TicketMessageContent.Body
   fullName: SuperOffice.CRM.Services.TicketMessageContent.Body
 - uid: SuperOffice.CRM.Services.TicketMessageContent.AttachmentsInfo*
   commentId: Overload:SuperOffice.CRM.Services.TicketMessageContent.AttachmentsInfo
   isExternal: true
-  href: SuperOffice.CRM.Services.TicketMessageContent.html#SuperOffice_CRM_Services_TicketMessageContent_AttachmentsInfo
   name: AttachmentsInfo
   nameWithType: TicketMessageContent.AttachmentsInfo
   fullName: SuperOffice.CRM.Services.TicketMessageContent.AttachmentsInfo
 - uid: SuperOffice.CRM.Services.AttachmentEntity[]
   isExternal: true
-  href: SuperOffice.CRM.Services.AttachmentEntity.html
   name: AttachmentEntity[]
   nameWithType: AttachmentEntity[]
   fullName: SuperOffice.CRM.Services.AttachmentEntity[]
@@ -550,14 +266,18 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.AttachmentEntity
     name: AttachmentEntity
+    nameWithType: AttachmentEntity
+    fullName: SuperOffice.CRM.Services.AttachmentEntity
     isExternal: true
-    href: SuperOffice.CRM.Services.AttachmentEntity.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.Services.AttachmentEntity
     name: AttachmentEntity
+    nameWithType: AttachmentEntity
+    fullName: SuperOffice.CRM.Services.AttachmentEntity
     isExternal: true
-    href: SuperOffice.CRM.Services.AttachmentEntity.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()

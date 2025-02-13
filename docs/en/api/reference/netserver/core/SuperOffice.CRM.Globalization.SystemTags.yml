@@ -7,16 +7,16 @@ items:
   children:
   - SuperOffice.CRM.Globalization.SystemTags.#ctor(System.Int32)
   - SuperOffice.CRM.Globalization.SystemTags.ActiveFeatureToggles
+  - SuperOffice.CRM.Globalization.SystemTags.Client
+  - SuperOffice.CRM.Globalization.SystemTags.ContextIdentifier
   - SuperOffice.CRM.Globalization.SystemTags.CSBaseURL
   - SuperOffice.CRM.Globalization.SystemTags.CSBlogicUrl
   - SuperOffice.CRM.Globalization.SystemTags.CSCGIBin
   - SuperOffice.CRM.Globalization.SystemTags.CSCGiUrlInternal
   - SuperOffice.CRM.Globalization.SystemTags.CSCustomerUrl
-  - SuperOffice.CRM.Globalization.SystemTags.CSRMSUrl
   - SuperOffice.CRM.Globalization.SystemTags.CSRegistryExtension
+  - SuperOffice.CRM.Globalization.SystemTags.CSRMSUrl
   - SuperOffice.CRM.Globalization.SystemTags.CSTicketUrl
-  - SuperOffice.CRM.Globalization.SystemTags.Client
-  - SuperOffice.CRM.Globalization.SystemTags.ContextIdentifier
   - SuperOffice.CRM.Globalization.SystemTags.CurrentDiaryOwnerID
   - SuperOffice.CRM.Globalization.SystemTags.CurrentTicketID
   - SuperOffice.CRM.Globalization.SystemTags.FunctionRights
@@ -56,14 +56,18 @@ items:
   nameWithType: SystemTags
   fullName: SuperOffice.CRM.Globalization.SystemTags
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: Summary description for system tags.
-  example: []
+  summary: "\nSummary description for system tags.\n"
   syntax:
     content: 'public class SystemTags : TagContainer'
-    content.vb: Public Class SystemTags Inherits TagContainer
+    content.vb: >-
+      Public Class SystemTags
+          Inherits TagContainer
   inheritance:
   - System.Object
   - SuperOffice.IO.TagContainer
@@ -81,16 +85,15 @@ items:
   - SuperOffice.IO.TagContainer.Init
   - SuperOffice.IO.TagContainer.CurrentUiCulture
   - SuperOffice.IO.TagContainer.Data
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Globalization.SystemTags.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Globalization.SystemTags.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Globalization.SystemTags.#ctor(System.Int32)
   commentId: M:SuperOffice.CRM.Globalization.SystemTags.#ctor(System.Int32)
   id: '#ctor(System.Int32)'
@@ -98,10 +101,13 @@ items:
   langs:
   - csharp
   - vb
-  name: SystemTags(int)
-  nameWithType: SystemTags.SystemTags(int)
-  fullName: SuperOffice.CRM.Globalization.SystemTags.SystemTags(int)
+  name: SystemTags(Int32)
+  nameWithType: SystemTags.SystemTags(Int32)
+  fullName: SuperOffice.CRM.Globalization.SystemTags.SystemTags(System.Int32)
   type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
@@ -112,9 +118,10 @@ items:
       type: System.Int32
     content.vb: Public Sub New(ticketId As Integer)
   overload: SuperOffice.CRM.Globalization.SystemTags.#ctor*
-  nameWithType.vb: SystemTags.New(Integer)
-  fullName.vb: SuperOffice.CRM.Globalization.SystemTags.New(Integer)
-  name.vb: New(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Globalization.SystemTags.Id
   commentId: P:SuperOffice.CRM.Globalization.SystemTags.Id
   id: Id
@@ -126,11 +133,12 @@ items:
   nameWithType: SystemTags.Id
   fullName: SuperOffice.CRM.Globalization.SystemTags.Id
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: Primary key of the
-  example: []
   syntax:
     content: public override int Id { get; }
     parameters: []
@@ -139,6 +147,14 @@ items:
     content.vb: Public Overrides ReadOnly Property Id As Integer
   overridden: SuperOffice.IO.TagContainer.Id
   overload: SuperOffice.CRM.Globalization.SystemTags.Id*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
 - uid: SuperOffice.CRM.Globalization.SystemTags.TodaysDate
   commentId: P:SuperOffice.CRM.Globalization.SystemTags.TodaysDate
   id: TodaysDate
@@ -150,11 +166,13 @@ items:
   nameWithType: SystemTags.TodaysDate
   fullName: SuperOffice.CRM.Globalization.SystemTags.TodaysDate
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: Today's date in UTC. Today's date, formatted yyyyMMdd
-  example: []
+  summary: "\nToday&apos;s date in UTC. Today&apos;s date, formatted yyyyMMdd\n"
   syntax:
     content: >-
       [TemplateTag("btod")]
@@ -174,6 +192,12 @@ items:
     arguments:
     - type: System.String
       value: btod
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Globalization.SystemTags.TodaysTime
   commentId: P:SuperOffice.CRM.Globalization.SystemTags.TodaysTime
   id: TodaysTime
@@ -185,11 +209,13 @@ items:
   nameWithType: SystemTags.TodaysTime
   fullName: SuperOffice.CRM.Globalization.SystemTags.TodaysTime
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: Current time now, formatted HHmmss
-  example: []
+  summary: "\nCurrent time now, formatted HHmmss\n"
   syntax:
     content: >-
       [TemplateTag("btot")]
@@ -209,6 +235,12 @@ items:
     arguments:
     - type: System.String
       value: btot
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Globalization.SystemTags.TodaysTime2
   commentId: P:SuperOffice.CRM.Globalization.SystemTags.TodaysTime2
   id: TodaysTime2
@@ -220,11 +252,13 @@ items:
   nameWithType: SystemTags.TodaysTime2
   fullName: SuperOffice.CRM.Globalization.SystemTags.TodaysTime2
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: Current time now, in long format
-  example: []
+  summary: "\nCurrent time now, in long format\n"
   syntax:
     content: >-
       [TemplateTag("ltim")]
@@ -244,6 +278,12 @@ items:
     arguments:
     - type: System.String
       value: ltim
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Globalization.SystemTags.SoArcPath
   commentId: P:SuperOffice.CRM.Globalization.SystemTags.SoArcPath
   id: SoArcPath
@@ -255,11 +295,13 @@ items:
   nameWithType: SystemTags.SoArcPath
   fullName: SuperOffice.CRM.Globalization.SystemTags.SoArcPath
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: SO_Arc path (from SuperOffice.ini)
-  example: []
+  summary: "\nSO_Arc path (from SuperOffice.ini)\n"
   syntax:
     content: >-
       [TemplateTag("ptha")]
@@ -279,6 +321,12 @@ items:
     arguments:
     - type: System.String
       value: ptha
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Globalization.SystemTags.SuperOfficeIniPath
   commentId: P:SuperOffice.CRM.Globalization.SystemTags.SuperOfficeIniPath
   id: SuperOfficeIniPath
@@ -290,11 +338,13 @@ items:
   nameWithType: SystemTags.SuperOfficeIniPath
   fullName: SuperOffice.CRM.Globalization.SystemTags.SuperOfficeIniPath
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: Path to the folder where SuperOffice.ini is located
-  example: []
+  summary: "\nPath to the folder where SuperOffice.ini is located\n"
   syntax:
     content: >-
       [TemplateTag("pthi")]
@@ -314,6 +364,12 @@ items:
     arguments:
     - type: System.String
       value: pthi
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Globalization.SystemTags.SuperOfficeProgPath
   commentId: P:SuperOffice.CRM.Globalization.SystemTags.SuperOfficeProgPath
   id: SuperOfficeProgPath
@@ -325,11 +381,13 @@ items:
   nameWithType: SystemTags.SuperOfficeProgPath
   fullName: SuperOffice.CRM.Globalization.SystemTags.SuperOfficeProgPath
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: Path to the folder where SOCRM is installed
-  example: []
+  summary: "\nPath to the folder where SOCRM is installed\n"
   syntax:
     content: >-
       [TemplateTag("pthp")]
@@ -349,6 +407,12 @@ items:
     arguments:
     - type: System.String
       value: pthp
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Globalization.SystemTags.SerialNumber
   commentId: P:SuperOffice.CRM.Globalization.SystemTags.SerialNumber
   id: SerialNumber
@@ -360,11 +424,13 @@ items:
   nameWithType: SystemTags.SerialNumber
   fullName: SuperOffice.CRM.Globalization.SystemTags.SerialNumber
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: 'SOCRM serial number: "101000006"'
-  example: []
+  summary: "\nSOCRM serial number: &quot;101000006&quot;\n"
   syntax:
     content: >-
       [TemplateTag("ser#")]
@@ -384,6 +450,12 @@ items:
     arguments:
     - type: System.String
       value: ser#
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Globalization.SystemTags.OwnerCompanyName
   commentId: P:SuperOffice.CRM.Globalization.SystemTags.OwnerCompanyName
   id: OwnerCompanyName
@@ -395,11 +467,13 @@ items:
   nameWithType: SystemTags.OwnerCompanyName
   fullName: SuperOffice.CRM.Globalization.SystemTags.OwnerCompanyName
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: 'License Info: Company name associate with license. NOTE: The database owner of <b>this</b> database can be different, if this is a satellite'
-  example: []
+  summary: "\nLicense Info: Company name associate with license. NOTE: The database owner of <strong>this</strong> database can be different, if this is a satellite\n"
   syntax:
     content: >-
       [TemplateTag("iocn")]
@@ -419,6 +493,12 @@ items:
     arguments:
     - type: System.String
       value: iocn
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Globalization.SystemTags.VersionNumber
   commentId: P:SuperOffice.CRM.Globalization.SystemTags.VersionNumber
   id: VersionNumber
@@ -430,11 +510,13 @@ items:
   nameWithType: SystemTags.VersionNumber
   fullName: SuperOffice.CRM.Globalization.SystemTags.VersionNumber
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: 'Netserver assembly version: 7.1.1000.0'
-  example: []
+  summary: "\nNetserver assembly version: 7.1.1000.0\n"
   syntax:
     content: >-
       [TemplateTag("ver#")]
@@ -454,6 +536,12 @@ items:
     arguments:
     - type: System.String
       value: ver#
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Globalization.SystemTags.VersionFile
   commentId: P:SuperOffice.CRM.Globalization.SystemTags.VersionFile
   id: VersionFile
@@ -465,11 +553,13 @@ items:
   nameWithType: SystemTags.VersionFile
   fullName: SuperOffice.CRM.Globalization.SystemTags.VersionFile
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: 'Netserver File version: 7.1.2010.300'
-  example: []
+  summary: "\nNetserver File version: 7.1.2010.300\n"
   syntax:
     content: >-
       [TemplateTag("verf")]
@@ -489,6 +579,12 @@ items:
     arguments:
     - type: System.String
       value: verf
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Globalization.SystemTags.VersionName
   commentId: P:SuperOffice.CRM.Globalization.SystemTags.VersionName
   id: VersionName
@@ -500,11 +596,13 @@ items:
   nameWithType: SystemTags.VersionName
   fullName: SuperOffice.CRM.Globalization.SystemTags.VersionName
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: 'Netserver version (full name): "SuperOffice NetServer 7.1 Release (Build: 7.1.200.300.TEST)"'
-  example: []
+  summary: "\nNetserver version (full name): &quot;SuperOffice NetServer 7.1 Release (Build: 7.1.200.300.TEST)&quot;\n"
   syntax:
     content: >-
       [TemplateTag("vern")]
@@ -524,6 +622,12 @@ items:
     arguments:
     - type: System.String
       value: vern
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Globalization.SystemTags.LoggedInUserName
   commentId: P:SuperOffice.CRM.Globalization.SystemTags.LoggedInUserName
   id: LoggedInUserName
@@ -535,6 +639,9 @@ items:
   nameWithType: SystemTags.LoggedInUserName
   fullName: SuperOffice.CRM.Globalization.SystemTags.LoggedInUserName
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
@@ -557,6 +664,12 @@ items:
     arguments:
     - type: System.String
       value: user
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Globalization.SystemTags.NetServerSecret
   commentId: P:SuperOffice.CRM.Globalization.SystemTags.NetServerSecret
   id: NetServerSecret
@@ -568,11 +681,13 @@ items:
   nameWithType: SystemTags.NetServerSecret
   fullName: SuperOffice.CRM.Globalization.SystemTags.NetServerSecret
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: NetServer Base64 encoded secret. Send this as username or as the ticket to reauthenticate within 6 hours
-  example: []
+  summary: "\nNetServer Base64 encoded secret. Send this as username or as the ticket to reauthenticate within 6 hours\n"
   syntax:
     content: >-
       [TemplateTag("usec")]
@@ -592,6 +707,12 @@ items:
     arguments:
     - type: System.String
       value: usec
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Globalization.SystemTags.ContextIdentifier
   commentId: P:SuperOffice.CRM.Globalization.SystemTags.ContextIdentifier
   id: ContextIdentifier
@@ -603,11 +724,13 @@ items:
   nameWithType: SystemTags.ContextIdentifier
   fullName: SuperOffice.CRM.Globalization.SystemTags.ContextIdentifier
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: Current Context Identifier (online's customer number)
-  example: []
+  summary: "\nCurrent Context Identifier (online&apos;s customer number)\n"
   syntax:
     content: >-
       [TemplateTag("uctx")]
@@ -627,6 +750,12 @@ items:
     arguments:
     - type: System.String
       value: uctx
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Globalization.SystemTags.LoggedInUserId
   commentId: P:SuperOffice.CRM.Globalization.SystemTags.LoggedInUserId
   id: LoggedInUserId
@@ -638,11 +767,13 @@ items:
   nameWithType: SystemTags.LoggedInUserId
   fullName: SuperOffice.CRM.Globalization.SystemTags.LoggedInUserId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: User login record id (hidden id). The associate id of the currently logged in user. Is not affected by the selected diary user, unlike alid
-  example: []
+  summary: "\nUser login record id (hidden id). The associate id of the currently logged in user. Is not affected by the selected diary user, unlike alid\n"
   syntax:
     content: >-
       [TemplateTag("usid")]
@@ -662,6 +793,12 @@ items:
     arguments:
     - type: System.String
       value: usid
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Globalization.SystemTags.LoggedInUserFirstName
   commentId: P:SuperOffice.CRM.Globalization.SystemTags.LoggedInUserFirstName
   id: LoggedInUserFirstName
@@ -673,11 +810,13 @@ items:
   nameWithType: SystemTags.LoggedInUserFirstName
   fullName: SuperOffice.CRM.Globalization.SystemTags.LoggedInUserFirstName
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: First name of logged in user
-  example: []
+  summary: "\nFirst name of logged in user\n"
   syntax:
     content: >-
       [TemplateTag("usfn")]
@@ -697,6 +836,12 @@ items:
     arguments:
     - type: System.String
       value: usfn
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Globalization.SystemTags.LoggedInUserMiddleName
   commentId: P:SuperOffice.CRM.Globalization.SystemTags.LoggedInUserMiddleName
   id: LoggedInUserMiddleName
@@ -708,11 +853,13 @@ items:
   nameWithType: SystemTags.LoggedInUserMiddleName
   fullName: SuperOffice.CRM.Globalization.SystemTags.LoggedInUserMiddleName
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: Middle name of logged in user
-  example: []
+  summary: "\nMiddle name of logged in user\n"
   syntax:
     content: >-
       [TemplateTag("usmn")]
@@ -732,6 +879,12 @@ items:
     arguments:
     - type: System.String
       value: usmn
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Globalization.SystemTags.LoggedInUserLastName
   commentId: P:SuperOffice.CRM.Globalization.SystemTags.LoggedInUserLastName
   id: LoggedInUserLastName
@@ -743,11 +896,13 @@ items:
   nameWithType: SystemTags.LoggedInUserLastName
   fullName: SuperOffice.CRM.Globalization.SystemTags.LoggedInUserLastName
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: Last name of logged in user
-  example: []
+  summary: "\nLast name of logged in user\n"
   syntax:
     content: >-
       [TemplateTag("usln")]
@@ -767,6 +922,12 @@ items:
     arguments:
     - type: System.String
       value: usln
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Globalization.SystemTags.LoggedInUserEMailAddress
   commentId: P:SuperOffice.CRM.Globalization.SystemTags.LoggedInUserEMailAddress
   id: LoggedInUserEMailAddress
@@ -778,11 +939,13 @@ items:
   nameWithType: SystemTags.LoggedInUserEMailAddress
   fullName: SuperOffice.CRM.Globalization.SystemTags.LoggedInUserEMailAddress
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: E-mail address of logged in user
-  example: []
+  summary: "\nE-mail address of logged in user\n"
   syntax:
     content: >-
       [TemplateTag("usem")]
@@ -802,6 +965,12 @@ items:
     arguments:
     - type: System.String
       value: usem
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Globalization.SystemTags.TimeZone
   commentId: P:SuperOffice.CRM.Globalization.SystemTags.TimeZone
   id: TimeZone
@@ -813,11 +982,13 @@ items:
   nameWithType: SystemTags.TimeZone
   fullName: SuperOffice.CRM.Globalization.SystemTags.TimeZone
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: 'Time zone information: (GMT+1), (GMT+0), (GMT-4)'
-  example: []
+  summary: "\nTime zone information: (GMT+1), (GMT+0), (GMT-4)\n"
   syntax:
     content: >-
       [TemplateTag("btzt")]
@@ -837,6 +1008,12 @@ items:
     arguments:
     - type: System.String
       value: btzt
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Globalization.SystemTags.MailGatewayDisplayName
   commentId: P:SuperOffice.CRM.Globalization.SystemTags.MailGatewayDisplayName
   id: MailGatewayDisplayName
@@ -848,11 +1025,13 @@ items:
   nameWithType: SystemTags.MailGatewayDisplayName
   fullName: SuperOffice.CRM.Globalization.SystemTags.MailGatewayDisplayName
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: Name of Gateway that stores a copy of outgoing messages on the system
-  example: []
+  summary: "\nName of Gateway that stores a copy of outgoing messages on the system\n"
   syntax:
     content: >-
       [TemplateTag("mgdn")]
@@ -872,6 +1051,12 @@ items:
     arguments:
     - type: System.String
       value: mgdn
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Globalization.SystemTags.MailGatewayMailAddress
   commentId: P:SuperOffice.CRM.Globalization.SystemTags.MailGatewayMailAddress
   id: MailGatewayMailAddress
@@ -883,11 +1068,13 @@ items:
   nameWithType: SystemTags.MailGatewayMailAddress
   fullName: SuperOffice.CRM.Globalization.SystemTags.MailGatewayMailAddress
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: Address of Gateway that stores a copy of outgoing messages on the system
-  example: []
+  summary: "\nAddress of Gateway that stores a copy of outgoing messages on the system\n"
   syntax:
     content: >-
       [TemplateTag("mgma")]
@@ -907,6 +1094,12 @@ items:
     arguments:
     - type: System.String
       value: mgma
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Globalization.SystemTags.Platform
   commentId: P:SuperOffice.CRM.Globalization.SystemTags.Platform
   id: Platform
@@ -918,11 +1111,13 @@ items:
   nameWithType: SystemTags.Platform
   fullName: SuperOffice.CRM.Globalization.SystemTags.Platform
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: 'Platform where substitution occurred: web (NetServer) or win'
-  example: []
+  summary: "\nPlatform where substitution occurred: web (NetServer) or win\n"
   syntax:
     content: >-
       [TemplateTag("pltf")]
@@ -942,6 +1137,12 @@ items:
     arguments:
     - type: System.String
       value: pltf
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Globalization.SystemTags.Client
   commentId: P:SuperOffice.CRM.Globalization.SystemTags.Client
   id: Client
@@ -953,14 +1154,13 @@ items:
   nameWithType: SystemTags.Client
   fullName: SuperOffice.CRM.Globalization.SystemTags.Client
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: >-
-    Client type: win,web,pocket, or netserver
-
-    Needs to be provided by the client - otherwise default is "netserver"
-  example: []
+  summary: "\nClient type: win,web,pocket, or netserver\nNeeds to be provided by the client - otherwise default is &quot;netserver&quot;\n"
   syntax:
     content: >-
       [TemplateTag("clie")]
@@ -980,6 +1180,12 @@ items:
     arguments:
     - type: System.String
       value: clie
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Globalization.SystemTags.LanguageName
   commentId: P:SuperOffice.CRM.Globalization.SystemTags.LanguageName
   id: LanguageName
@@ -991,14 +1197,13 @@ items:
   nameWithType: SystemTags.LanguageName
   fullName: SuperOffice.CRM.Globalization.SystemTags.LanguageName
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: >-
-    Language native name: "English" or "Norsk" or "Deutch".
-
-    Any country-specific portion is trimmed Like "(United States)"
-  example: []
+  summary: "\nLanguage native name: &quot;English&quot; or &quot;Norsk&quot; or &quot;Deutch&quot;.\nAny country-specific portion is trimmed Like &quot;(United States)&quot;\n"
   syntax:
     content: >-
       [TemplateTag("lang")]
@@ -1018,6 +1223,12 @@ items:
     arguments:
     - type: System.String
       value: lang
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Globalization.SystemTags.LanguageIsoCode
   commentId: P:SuperOffice.CRM.Globalization.SystemTags.LanguageIsoCode
   id: LanguageIsoCode
@@ -1029,11 +1240,13 @@ items:
   nameWithType: SystemTags.LanguageIsoCode
   fullName: SuperOffice.CRM.Globalization.SystemTags.LanguageIsoCode
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: 'Language ISO code: "en-US" or "nb-NO" or "de"'
-  example: []
+  summary: "\nLanguage ISO code: &quot;en-US&quot; or &quot;nb-NO&quot; or &quot;de&quot;\n"
   syntax:
     content: >-
       [TemplateTag("lanc")]
@@ -1053,6 +1266,12 @@ items:
     arguments:
     - type: System.String
       value: lanc
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Globalization.SystemTags.LanguageIso2Code
   commentId: P:SuperOffice.CRM.Globalization.SystemTags.LanguageIso2Code
   id: LanguageIso2Code
@@ -1064,11 +1283,13 @@ items:
   nameWithType: SystemTags.LanguageIso2Code
   fullName: SuperOffice.CRM.Globalization.SystemTags.LanguageIso2Code
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: 'Language 2 letter ISO code: "en" or "no" or "de"'
-  example: []
+  summary: "\nLanguage 2 letter ISO code: &quot;en&quot; or &quot;no&quot; or &quot;de&quot;\n"
   syntax:
     content: >-
       [TemplateTag("lani")]
@@ -1088,6 +1309,12 @@ items:
     arguments:
     - type: System.String
       value: lani
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Globalization.SystemTags.LanguageSoCode
   commentId: P:SuperOffice.CRM.Globalization.SystemTags.LanguageSoCode
   id: LanguageSoCode
@@ -1099,11 +1326,13 @@ items:
   nameWithType: SystemTags.LanguageSoCode
   fullName: SuperOffice.CRM.Globalization.SystemTags.LanguageSoCode
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: 'Language SuperOffice Code: "US" or "NO" or "GE"'
-  example: []
+  summary: "\nLanguage SuperOffice Code: &quot;US&quot; or &quot;NO&quot; or &quot;GE&quot;\n"
   syntax:
     content: >-
       [TemplateTag("lanx")]
@@ -1123,6 +1352,12 @@ items:
     arguments:
     - type: System.String
       value: lanx
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Globalization.SystemTags.LoggedInUserLicense
   commentId: P:SuperOffice.CRM.Globalization.SystemTags.LoggedInUserLicense
   id: LoggedInUserLicense
@@ -1134,11 +1369,13 @@ items:
   nameWithType: SystemTags.LoggedInUserLicense
   fullName: SuperOffice.CRM.Globalization.SystemTags.LoggedInUserLicense
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: 'All not hidden licenses for the logged in user: "superoffice.superlicense-sales-pro,superoffice.admin-extern-user,superoffice.visible-for"'
-  example: []
+  summary: "\nAll not hidden licenses for the logged in user: &quot;superoffice.superlicense-sales-pro,superoffice.admin-extern-user,superoffice.visible-for&quot;\n"
   syntax:
     content: >-
       [TemplateTag("ulic")]
@@ -1161,6 +1398,12 @@ items:
     arguments:
     - type: System.String
       value: ulic
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Globalization.SystemTags.ActiveFeatureToggles
   commentId: P:SuperOffice.CRM.Globalization.SystemTags.ActiveFeatureToggles
   id: ActiveFeatureToggles
@@ -1172,11 +1415,13 @@ items:
   nameWithType: SystemTags.ActiveFeatureToggles
   fullName: SuperOffice.CRM.Globalization.SystemTags.ActiveFeatureToggles
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: 'All active feature toggle names from the config file: "AppDynamics,NewInbox"'
-  example: []
+  summary: "\nAll active feature toggle names from the config file: &quot;AppDynamics,NewInbox&quot;\n"
   syntax:
     content: >-
       [TemplateTag("feat")]
@@ -1199,6 +1444,12 @@ items:
     arguments:
     - type: System.String
       value: feat
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Globalization.SystemTags.IsAdmin
   commentId: P:SuperOffice.CRM.Globalization.SystemTags.IsAdmin
   id: IsAdmin
@@ -1210,11 +1461,13 @@ items:
   nameWithType: SystemTags.IsAdmin
   fullName: SuperOffice.CRM.Globalization.SystemTags.IsAdmin
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: Is the current user a user admin? True/False. Has AdminAll or AdminUsers function right?
-  example: []
+  summary: "\nIs the current user a user admin? True/False. Has AdminAll or AdminUsers function right?\n"
   syntax:
     content: >-
       [TemplateTag("adm?")]
@@ -1234,6 +1487,12 @@ items:
     arguments:
     - type: System.String
       value: adm?
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Globalization.SystemTags.FunctionRights
   commentId: P:SuperOffice.CRM.Globalization.SystemTags.FunctionRights
   id: FunctionRights
@@ -1245,11 +1504,13 @@ items:
   nameWithType: SystemTags.FunctionRights
   fullName: SuperOffice.CRM.Globalization.SystemTags.FunctionRights
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: "Current user's function rights, comma separated: \"admin-all,admin-roles,hide-inbox,allow-bulk-export\""
-  example: []
+  summary: "\nCurrent user&apos;s function rights, comma separated: &quot;admin-all,admin-roles,hide-inbox,allow-bulk-export&quot;\n"
   syntax:
     content: >-
       [TemplateTag("ufun")]
@@ -1272,6 +1533,12 @@ items:
     arguments:
     - type: System.String
       value: ufun
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Globalization.SystemTags.CSRegistryExtension
   commentId: P:SuperOffice.CRM.Globalization.SystemTags.CSRegistryExtension
   id: CSRegistryExtension
@@ -1283,11 +1550,13 @@ items:
   nameWithType: SystemTags.CSRegistryExtension
   fullName: SuperOffice.CRM.Globalization.SystemTags.CSRegistryExtension
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: CS-specific tag to retrive CS' Registry extension.
-  example: []
+  summary: "\nCS-specific tag to retrive CS&apos; Registry extension.\n"
   syntax:
     content: >-
       [TemplateTag("csre")]
@@ -1307,6 +1576,12 @@ items:
     arguments:
     - type: System.String
       value: csre
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Globalization.SystemTags.CSCGIBin
   commentId: P:SuperOffice.CRM.Globalization.SystemTags.CSCGIBin
   id: CSCGIBin
@@ -1318,11 +1593,13 @@ items:
   nameWithType: SystemTags.CSCGIBin
   fullName: SuperOffice.CRM.Globalization.SystemTags.CSCGIBin
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: CS-specific tag to retrive CS' CGI bin.
-  example: []
+  summary: "\nCS-specific tag to retrive CS&apos; CGI bin.\n"
   syntax:
     content: >-
       [TemplateTag("csbn")]
@@ -1342,6 +1619,12 @@ items:
     arguments:
     - type: System.String
       value: csbn
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Globalization.SystemTags.CSCGiUrlInternal
   commentId: P:SuperOffice.CRM.Globalization.SystemTags.CSCGiUrlInternal
   id: CSCGiUrlInternal
@@ -1353,11 +1636,13 @@ items:
   nameWithType: SystemTags.CSCGiUrlInternal
   fullName: SuperOffice.CRM.Globalization.SystemTags.CSCGiUrlInternal
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: CS-specific tag to retrive CS' Internal CGI URL.
-  example: []
+  summary: "\nCS-specific tag to retrive CS&apos; Internal CGI URL.\n"
   syntax:
     content: >-
       [TemplateTag("csiu")]
@@ -1377,6 +1662,12 @@ items:
     arguments:
     - type: System.String
       value: csiu
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Globalization.SystemTags.CSBaseURL
   commentId: P:SuperOffice.CRM.Globalization.SystemTags.CSBaseURL
   id: CSBaseURL
@@ -1388,11 +1679,13 @@ items:
   nameWithType: SystemTags.CSBaseURL
   fullName: SuperOffice.CRM.Globalization.SystemTags.CSBaseURL
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: CS-specific tag to retrive CS' Base URL.
-  example: []
+  summary: "\nCS-specific tag to retrive CS&apos; Base URL.\n"
   syntax:
     content: >-
       [TemplateTag("csbu")]
@@ -1412,6 +1705,12 @@ items:
     arguments:
     - type: System.String
       value: csbu
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Globalization.SystemTags.CSBlogicUrl
   commentId: P:SuperOffice.CRM.Globalization.SystemTags.CSBlogicUrl
   id: CSBlogicUrl
@@ -1423,11 +1722,13 @@ items:
   nameWithType: SystemTags.CSBlogicUrl
   fullName: SuperOffice.CRM.Globalization.SystemTags.CSBlogicUrl
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: CS-specific tag to retrive CS' Base URL (blogic.exe).
-  example: []
+  summary: "\nCS-specific tag to retrive CS&apos; Base URL (blogic.exe).\n"
   syntax:
     content: >-
       [TemplateTag("csbl")]
@@ -1447,6 +1748,12 @@ items:
     arguments:
     - type: System.String
       value: csbl
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Globalization.SystemTags.CSTicketUrl
   commentId: P:SuperOffice.CRM.Globalization.SystemTags.CSTicketUrl
   id: CSTicketUrl
@@ -1458,11 +1765,13 @@ items:
   nameWithType: SystemTags.CSTicketUrl
   fullName: SuperOffice.CRM.Globalization.SystemTags.CSTicketUrl
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: CS-specific tag to retrive CS' Base URL (ticket.exe).
-  example: []
+  summary: "\nCS-specific tag to retrive CS&apos; Base URL (ticket.exe).\n"
   syntax:
     content: >-
       [TemplateTag("csti")]
@@ -1482,6 +1791,12 @@ items:
     arguments:
     - type: System.String
       value: csti
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Globalization.SystemTags.CSRMSUrl
   commentId: P:SuperOffice.CRM.Globalization.SystemTags.CSRMSUrl
   id: CSRMSUrl
@@ -1493,11 +1808,13 @@ items:
   nameWithType: SystemTags.CSRMSUrl
   fullName: SuperOffice.CRM.Globalization.SystemTags.CSRMSUrl
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: CS-specific tag to retrive CS' Base URL (ajax.exe).
-  example: []
+  summary: "\nCS-specific tag to retrive CS&apos; Base URL (ajax.exe).\n"
   syntax:
     content: >-
       [TemplateTag("csrm")]
@@ -1517,6 +1834,12 @@ items:
     arguments:
     - type: System.String
       value: csrm
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Globalization.SystemTags.CSCustomerUrl
   commentId: P:SuperOffice.CRM.Globalization.SystemTags.CSCustomerUrl
   id: CSCustomerUrl
@@ -1528,11 +1851,13 @@ items:
   nameWithType: SystemTags.CSCustomerUrl
   fullName: SuperOffice.CRM.Globalization.SystemTags.CSCustomerUrl
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: CS-specific tag to retrive CS' Base URL (customer.exe).
-  example: []
+  summary: "\nCS-specific tag to retrive CS&apos; Base URL (customer.exe).\n"
   syntax:
     content: >-
       [TemplateTag("cscu")]
@@ -1552,6 +1877,12 @@ items:
     arguments:
     - type: System.String
       value: cscu
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Globalization.SystemTags.CurrentTicketID
   commentId: P:SuperOffice.CRM.Globalization.SystemTags.CurrentTicketID
   id: CurrentTicketID
@@ -1563,11 +1894,13 @@ items:
   nameWithType: SystemTags.CurrentTicketID
   fullName: SuperOffice.CRM.Globalization.SystemTags.CurrentTicketID
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: Current ticket ID. Only used from WIN
-  example: []
+  summary: "\nCurrent ticket ID. Only used from WIN\n"
   syntax:
     content: >-
       [TemplateTag("tiid")]
@@ -1587,6 +1920,12 @@ items:
     arguments:
     - type: System.String
       value: tiid
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Globalization.SystemTags.CurrentDiaryOwnerID
   commentId: P:SuperOffice.CRM.Globalization.SystemTags.CurrentDiaryOwnerID
   id: CurrentDiaryOwnerID
@@ -1598,11 +1937,13 @@ items:
   nameWithType: SystemTags.CurrentDiaryOwnerID
   fullName: SuperOffice.CRM.Globalization.SystemTags.CurrentDiaryOwnerID
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: Current diary owner ID. Only used from WIN
-  example: []
+  summary: "\nCurrent diary owner ID. Only used from WIN\n"
   syntax:
     content: >-
       [TemplateTag("diid")]
@@ -1622,60 +1963,30 @@ items:
     arguments:
     - type: System.String
       value: diid
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 references:
 - uid: SuperOffice.CRM.Globalization
   commentId: N:SuperOffice.CRM.Globalization
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Globalization
   nameWithType: SuperOffice.CRM.Globalization
   fullName: SuperOffice.CRM.Globalization
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Globalization
-    name: Globalization
-    isExternal: true
-    href: SuperOffice.CRM.Globalization.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Globalization
-    name: Globalization
-    isExternal: true
-    href: SuperOffice.CRM.Globalization.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.IO.TagContainer
   commentId: T:SuperOffice.IO.TagContainer
   parent: SuperOffice.IO
   isExternal: true
-  href: SuperOffice.IO.TagContainer.html
   name: TagContainer
   nameWithType: TagContainer
   fullName: SuperOffice.IO.TagContainer
@@ -1690,43 +2001,52 @@ references:
   commentId: M:SuperOffice.IO.TagContainer.AddData(System.Object[])
   parent: SuperOffice.IO.TagContainer
   isExternal: true
-  href: SuperOffice.IO.TagContainer.html#SuperOffice_IO_TagContainer_AddData_System_Object___
-  name: AddData(params object[])
-  nameWithType: TagContainer.AddData(params object[])
-  fullName: SuperOffice.IO.TagContainer.AddData(params object[])
-  nameWithType.vb: TagContainer.AddData(ParamArray Object())
-  fullName.vb: SuperOffice.IO.TagContainer.AddData(ParamArray Object())
-  name.vb: AddData(ParamArray Object())
+  name: AddData(Object[])
+  nameWithType: TagContainer.AddData(Object[])
+  fullName: SuperOffice.IO.TagContainer.AddData(System.Object[])
+  nameWithType.vb: TagContainer.AddData(Object())
+  fullName.vb: SuperOffice.IO.TagContainer.AddData(System.Object())
+  name.vb: AddData(Object())
   spec.csharp:
   - uid: SuperOffice.IO.TagContainer.AddData(System.Object[])
     name: AddData
+    nameWithType: TagContainer.AddData
+    fullName: SuperOffice.IO.TagContainer.AddData
     isExternal: true
-    href: SuperOffice.IO.TagContainer.html#SuperOffice_IO_TagContainer_AddData_System_Object___
   - name: (
-  - name: params
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: System.Object
-    name: object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.IO.TagContainer.AddData(System.Object[])
     name: AddData
+    nameWithType: TagContainer.AddData
+    fullName: SuperOffice.IO.TagContainer.AddData
     isExternal: true
-    href: SuperOffice.IO.TagContainer.html#SuperOffice_IO_TagContainer_AddData_System_Object___
   - name: (
-  - name: ParamArray
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: System.Object
     name: Object
+    nameWithType: Object
+    fullName: System.Object
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: (
+  - name: ()
+    nameWithType: ()
+    fullName: ()
   - name: )
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.IO.TagContainer.GetData
   commentId: M:SuperOffice.IO.TagContainer.GetData
   parent: SuperOffice.IO.TagContainer
@@ -1737,15 +2057,27 @@ references:
   spec.csharp:
   - uid: SuperOffice.IO.TagContainer.GetData
     name: GetData
+    nameWithType: TagContainer.GetData
+    fullName: SuperOffice.IO.TagContainer.GetData
     isExternal: true
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.IO.TagContainer.GetData
     name: GetData
+    nameWithType: TagContainer.GetData
+    fullName: SuperOffice.IO.TagContainer.GetData
     isExternal: true
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.IO.TagContainer.ClearData
   commentId: M:SuperOffice.IO.TagContainer.ClearData
   parent: SuperOffice.IO.TagContainer
@@ -1756,48 +2088,68 @@ references:
   spec.csharp:
   - uid: SuperOffice.IO.TagContainer.ClearData
     name: ClearData
+    nameWithType: TagContainer.ClearData
+    fullName: SuperOffice.IO.TagContainer.ClearData
     isExternal: true
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.IO.TagContainer.ClearData
     name: ClearData
+    nameWithType: TagContainer.ClearData
+    fullName: SuperOffice.IO.TagContainer.ClearData
     isExternal: true
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.IO.TagContainer.GetValue(System.String)
   commentId: M:SuperOffice.IO.TagContainer.GetValue(System.String)
   parent: SuperOffice.IO.TagContainer
   isExternal: true
-  href: SuperOffice.IO.TagContainer.html#SuperOffice_IO_TagContainer_GetValue_System_String_
-  name: GetValue(string)
-  nameWithType: TagContainer.GetValue(string)
-  fullName: SuperOffice.IO.TagContainer.GetValue(string)
-  nameWithType.vb: TagContainer.GetValue(String)
-  fullName.vb: SuperOffice.IO.TagContainer.GetValue(String)
-  name.vb: GetValue(String)
+  name: GetValue(String)
+  nameWithType: TagContainer.GetValue(String)
+  fullName: SuperOffice.IO.TagContainer.GetValue(System.String)
   spec.csharp:
   - uid: SuperOffice.IO.TagContainer.GetValue(System.String)
     name: GetValue
+    nameWithType: TagContainer.GetValue
+    fullName: SuperOffice.IO.TagContainer.GetValue
     isExternal: true
-    href: SuperOffice.IO.TagContainer.html#SuperOffice_IO_TagContainer_GetValue_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.IO.TagContainer.GetValue(System.String)
     name: GetValue
+    nameWithType: TagContainer.GetValue
+    fullName: SuperOffice.IO.TagContainer.GetValue
     isExternal: true
-    href: SuperOffice.IO.TagContainer.html#SuperOffice_IO_TagContainer_GetValue_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.IO.TagContainer.GetTags
   commentId: M:SuperOffice.IO.TagContainer.GetTags
   parent: SuperOffice.IO.TagContainer
@@ -1808,151 +2160,207 @@ references:
   spec.csharp:
   - uid: SuperOffice.IO.TagContainer.GetTags
     name: GetTags
+    nameWithType: TagContainer.GetTags
+    fullName: SuperOffice.IO.TagContainer.GetTags
     isExternal: true
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.IO.TagContainer.GetTags
     name: GetTags
+    nameWithType: TagContainer.GetTags
+    fullName: SuperOffice.IO.TagContainer.GetTags
     isExternal: true
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.IO.TagContainer.SetValue(System.String,System.String)
   commentId: M:SuperOffice.IO.TagContainer.SetValue(System.String,System.String)
   parent: SuperOffice.IO.TagContainer
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: SetValue(string, string)
-  nameWithType: TagContainer.SetValue(string, string)
-  fullName: SuperOffice.IO.TagContainer.SetValue(string, string)
-  nameWithType.vb: TagContainer.SetValue(String, String)
-  fullName.vb: SuperOffice.IO.TagContainer.SetValue(String, String)
-  name.vb: SetValue(String, String)
+  name: SetValue(String, String)
+  nameWithType: TagContainer.SetValue(String, String)
+  fullName: SuperOffice.IO.TagContainer.SetValue(System.String, System.String)
   spec.csharp:
   - uid: SuperOffice.IO.TagContainer.SetValue(System.String,System.String)
     name: SetValue
+    nameWithType: TagContainer.SetValue
+    fullName: SuperOffice.IO.TagContainer.SetValue
     isExternal: true
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.IO.TagContainer.SetValue(System.String,System.String)
     name: SetValue
+    nameWithType: TagContainer.SetValue
+    fullName: SuperOffice.IO.TagContainer.SetValue
     isExternal: true
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.IO.TagContainer.RemoveCustomValue(System.String)
   commentId: M:SuperOffice.IO.TagContainer.RemoveCustomValue(System.String)
   parent: SuperOffice.IO.TagContainer
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: RemoveCustomValue(string)
-  nameWithType: TagContainer.RemoveCustomValue(string)
-  fullName: SuperOffice.IO.TagContainer.RemoveCustomValue(string)
-  nameWithType.vb: TagContainer.RemoveCustomValue(String)
-  fullName.vb: SuperOffice.IO.TagContainer.RemoveCustomValue(String)
-  name.vb: RemoveCustomValue(String)
+  name: RemoveCustomValue(String)
+  nameWithType: TagContainer.RemoveCustomValue(String)
+  fullName: SuperOffice.IO.TagContainer.RemoveCustomValue(System.String)
   spec.csharp:
   - uid: SuperOffice.IO.TagContainer.RemoveCustomValue(System.String)
     name: RemoveCustomValue
+    nameWithType: TagContainer.RemoveCustomValue
+    fullName: SuperOffice.IO.TagContainer.RemoveCustomValue
     isExternal: true
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.IO.TagContainer.RemoveCustomValue(System.String)
     name: RemoveCustomValue
+    nameWithType: TagContainer.RemoveCustomValue
+    fullName: SuperOffice.IO.TagContainer.RemoveCustomValue
     isExternal: true
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.IO.TagContainer.IsTagLegal(System.String)
   commentId: M:SuperOffice.IO.TagContainer.IsTagLegal(System.String)
   parent: SuperOffice.IO.TagContainer
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: IsTagLegal(string)
-  nameWithType: TagContainer.IsTagLegal(string)
-  fullName: SuperOffice.IO.TagContainer.IsTagLegal(string)
-  nameWithType.vb: TagContainer.IsTagLegal(String)
-  fullName.vb: SuperOffice.IO.TagContainer.IsTagLegal(String)
-  name.vb: IsTagLegal(String)
+  name: IsTagLegal(String)
+  nameWithType: TagContainer.IsTagLegal(String)
+  fullName: SuperOffice.IO.TagContainer.IsTagLegal(System.String)
   spec.csharp:
   - uid: SuperOffice.IO.TagContainer.IsTagLegal(System.String)
     name: IsTagLegal
+    nameWithType: TagContainer.IsTagLegal
+    fullName: SuperOffice.IO.TagContainer.IsTagLegal
     isExternal: true
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.IO.TagContainer.IsTagLegal(System.String)
     name: IsTagLegal
+    nameWithType: TagContainer.IsTagLegal
+    fullName: SuperOffice.IO.TagContainer.IsTagLegal
     isExternal: true
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.IO.TagContainer.IsTagInContext(System.String)
   commentId: M:SuperOffice.IO.TagContainer.IsTagInContext(System.String)
   parent: SuperOffice.IO.TagContainer
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: IsTagInContext(string)
-  nameWithType: TagContainer.IsTagInContext(string)
-  fullName: SuperOffice.IO.TagContainer.IsTagInContext(string)
-  nameWithType.vb: TagContainer.IsTagInContext(String)
-  fullName.vb: SuperOffice.IO.TagContainer.IsTagInContext(String)
-  name.vb: IsTagInContext(String)
+  name: IsTagInContext(String)
+  nameWithType: TagContainer.IsTagInContext(String)
+  fullName: SuperOffice.IO.TagContainer.IsTagInContext(System.String)
   spec.csharp:
   - uid: SuperOffice.IO.TagContainer.IsTagInContext(System.String)
     name: IsTagInContext
+    nameWithType: TagContainer.IsTagInContext
+    fullName: SuperOffice.IO.TagContainer.IsTagInContext
     isExternal: true
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.IO.TagContainer.IsTagInContext(System.String)
     name: IsTagInContext
+    nameWithType: TagContainer.IsTagInContext
+    fullName: SuperOffice.IO.TagContainer.IsTagInContext
     isExternal: true
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.IO.TagContainer.Init
   commentId: M:SuperOffice.IO.TagContainer.Init
   parent: SuperOffice.IO.TagContainer
@@ -1963,15 +2371,27 @@ references:
   spec.csharp:
   - uid: SuperOffice.IO.TagContainer.Init
     name: Init
+    nameWithType: TagContainer.Init
+    fullName: SuperOffice.IO.TagContainer.Init
     isExternal: true
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.IO.TagContainer.Init
     name: Init
+    nameWithType: TagContainer.Init
+    fullName: SuperOffice.IO.TagContainer.Init
     isExternal: true
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.IO.TagContainer.CurrentUiCulture
   commentId: P:SuperOffice.IO.TagContainer.CurrentUiCulture
   parent: SuperOffice.IO.TagContainer
@@ -1986,369 +2406,89 @@ references:
   name: Data
   nameWithType: TagContainer.Data
   fullName: SuperOffice.IO.TagContainer.Data
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
 - uid: SuperOffice.CRM.Globalization.SystemTags.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<SystemTags, To>(SystemTags)
-  nameWithType: EnumUtil.MapEnums<SystemTags, To>(SystemTags)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Globalization.SystemTags, To>(SuperOffice.CRM.Globalization.SystemTags)
-  nameWithType.vb: EnumUtil.MapEnums(Of SystemTags, To)(SystemTags)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Globalization.SystemTags, To)(SuperOffice.CRM.Globalization.SystemTags)
-  name.vb: MapEnums(Of SystemTags, To)(SystemTags)
+  name: MapEnums<SystemTags, To>()
+  nameWithType: EnumUtil.MapEnums<SystemTags, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Globalization.SystemTags, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SystemTags, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Globalization.SystemTags, To)()
+  name.vb: MapEnums(Of SystemTags, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Globalization.SystemTags)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SystemTags, To>
+    nameWithType: EnumUtil.MapEnums<SystemTags, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Globalization.SystemTags, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Globalization.SystemTags
-    name: SystemTags
-    isExternal: true
-    href: SuperOffice.CRM.Globalization.SystemTags.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Globalization.SystemTags
-    name: SystemTags
-    isExternal: true
-    href: SuperOffice.CRM.Globalization.SystemTags.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Globalization.SystemTags)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SystemTags, To)
+    nameWithType: EnumUtil.MapEnums(Of SystemTags, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Globalization.SystemTags, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Globalization.SystemTags
-    name: SystemTags
-    isExternal: true
-    href: SuperOffice.CRM.Globalization.SystemTags.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Globalization.SystemTags
-    name: SystemTags
-    isExternal: true
-    href: SuperOffice.CRM.Globalization.SystemTags.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Globalization.SystemTags.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<SystemTags, To>(SystemTags)
-  nameWithType: Converters.MapEnums<SystemTags, To>(SystemTags)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Globalization.SystemTags, To>(SuperOffice.CRM.Globalization.SystemTags)
-  nameWithType.vb: Converters.MapEnums(Of SystemTags, To)(SystemTags)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Globalization.SystemTags, To)(SuperOffice.CRM.Globalization.SystemTags)
-  name.vb: MapEnums(Of SystemTags, To)(SystemTags)
+  name: MapEnums<SystemTags, To>()
+  nameWithType: Converters.MapEnums<SystemTags, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Globalization.SystemTags, To>()
+  nameWithType.vb: Converters.MapEnums(Of SystemTags, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Globalization.SystemTags, To)()
+  name.vb: MapEnums(Of SystemTags, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Globalization.SystemTags)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SystemTags, To>
+    nameWithType: Converters.MapEnums<SystemTags, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Globalization.SystemTags, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Globalization.SystemTags
-    name: SystemTags
-    isExternal: true
-    href: SuperOffice.CRM.Globalization.SystemTags.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Globalization.SystemTags
-    name: SystemTags
-    isExternal: true
-    href: SuperOffice.CRM.Globalization.SystemTags.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Globalization.SystemTags)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SystemTags, To)
+    nameWithType: Converters.MapEnums(Of SystemTags, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Globalization.SystemTags, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Globalization.SystemTags
-    name: SystemTags
-    isExternal: true
-    href: SuperOffice.CRM.Globalization.SystemTags.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Globalization.SystemTags
-    name: SystemTags
-    isExternal: true
-    href: SuperOffice.CRM.Globalization.SystemTags.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.IO
   commentId: N:SuperOffice.IO
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.IO
   nameWithType: SuperOffice.IO
   fullName: SuperOffice.IO
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.IO
-    name: IO
-    isExternal: true
-    href: SuperOffice.IO.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.IO
-    name: IO
-    isExternal: true
-    href: SuperOffice.IO.html
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -2357,45 +2497,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -2404,100 +2542,60 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.CRM.Globalization.SystemTags.#ctor*
   commentId: Overload:SuperOffice.CRM.Globalization.SystemTags.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Globalization.SystemTags.html#SuperOffice_CRM_Globalization_SystemTags__ctor_System_Int32_
   name: SystemTags
   nameWithType: SystemTags.SystemTags
   fullName: SuperOffice.CRM.Globalization.SystemTags.SystemTags
-  nameWithType.vb: SystemTags.New
-  fullName.vb: SuperOffice.CRM.Globalization.SystemTags.New
-  name.vb: New
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.IO.TagContainer.Id
   commentId: P:SuperOffice.IO.TagContainer.Id
   parent: SuperOffice.IO.TagContainer
@@ -2508,14 +2606,12 @@ references:
 - uid: SuperOffice.CRM.Globalization.SystemTags.Id*
   commentId: Overload:SuperOffice.CRM.Globalization.SystemTags.Id
   isExternal: true
-  href: SuperOffice.CRM.Globalization.SystemTags.html#SuperOffice_CRM_Globalization_SystemTags_Id
   name: Id
   nameWithType: SystemTags.Id
   fullName: SuperOffice.CRM.Globalization.SystemTags.Id
 - uid: SuperOffice.CRM.Globalization.SystemTags.TodaysDate*
   commentId: Overload:SuperOffice.CRM.Globalization.SystemTags.TodaysDate
   isExternal: true
-  href: SuperOffice.CRM.Globalization.SystemTags.html#SuperOffice_CRM_Globalization_SystemTags_TodaysDate
   name: TodaysDate
   nameWithType: SystemTags.TodaysDate
   fullName: SuperOffice.CRM.Globalization.SystemTags.TodaysDate
@@ -2523,338 +2619,270 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.CRM.Globalization.SystemTags.TodaysTime*
   commentId: Overload:SuperOffice.CRM.Globalization.SystemTags.TodaysTime
   isExternal: true
-  href: SuperOffice.CRM.Globalization.SystemTags.html#SuperOffice_CRM_Globalization_SystemTags_TodaysTime
   name: TodaysTime
   nameWithType: SystemTags.TodaysTime
   fullName: SuperOffice.CRM.Globalization.SystemTags.TodaysTime
 - uid: SuperOffice.CRM.Globalization.SystemTags.TodaysTime2*
   commentId: Overload:SuperOffice.CRM.Globalization.SystemTags.TodaysTime2
   isExternal: true
-  href: SuperOffice.CRM.Globalization.SystemTags.html#SuperOffice_CRM_Globalization_SystemTags_TodaysTime2
   name: TodaysTime2
   nameWithType: SystemTags.TodaysTime2
   fullName: SuperOffice.CRM.Globalization.SystemTags.TodaysTime2
 - uid: SuperOffice.CRM.Globalization.SystemTags.SoArcPath*
   commentId: Overload:SuperOffice.CRM.Globalization.SystemTags.SoArcPath
   isExternal: true
-  href: SuperOffice.CRM.Globalization.SystemTags.html#SuperOffice_CRM_Globalization_SystemTags_SoArcPath
   name: SoArcPath
   nameWithType: SystemTags.SoArcPath
   fullName: SuperOffice.CRM.Globalization.SystemTags.SoArcPath
 - uid: SuperOffice.CRM.Globalization.SystemTags.SuperOfficeIniPath*
   commentId: Overload:SuperOffice.CRM.Globalization.SystemTags.SuperOfficeIniPath
   isExternal: true
-  href: SuperOffice.CRM.Globalization.SystemTags.html#SuperOffice_CRM_Globalization_SystemTags_SuperOfficeIniPath
   name: SuperOfficeIniPath
   nameWithType: SystemTags.SuperOfficeIniPath
   fullName: SuperOffice.CRM.Globalization.SystemTags.SuperOfficeIniPath
 - uid: SuperOffice.CRM.Globalization.SystemTags.SuperOfficeProgPath*
   commentId: Overload:SuperOffice.CRM.Globalization.SystemTags.SuperOfficeProgPath
   isExternal: true
-  href: SuperOffice.CRM.Globalization.SystemTags.html#SuperOffice_CRM_Globalization_SystemTags_SuperOfficeProgPath
   name: SuperOfficeProgPath
   nameWithType: SystemTags.SuperOfficeProgPath
   fullName: SuperOffice.CRM.Globalization.SystemTags.SuperOfficeProgPath
 - uid: SuperOffice.CRM.Globalization.SystemTags.SerialNumber*
   commentId: Overload:SuperOffice.CRM.Globalization.SystemTags.SerialNumber
   isExternal: true
-  href: SuperOffice.CRM.Globalization.SystemTags.html#SuperOffice_CRM_Globalization_SystemTags_SerialNumber
   name: SerialNumber
   nameWithType: SystemTags.SerialNumber
   fullName: SuperOffice.CRM.Globalization.SystemTags.SerialNumber
 - uid: SuperOffice.CRM.Globalization.SystemTags.OwnerCompanyName*
   commentId: Overload:SuperOffice.CRM.Globalization.SystemTags.OwnerCompanyName
   isExternal: true
-  href: SuperOffice.CRM.Globalization.SystemTags.html#SuperOffice_CRM_Globalization_SystemTags_OwnerCompanyName
   name: OwnerCompanyName
   nameWithType: SystemTags.OwnerCompanyName
   fullName: SuperOffice.CRM.Globalization.SystemTags.OwnerCompanyName
 - uid: SuperOffice.CRM.Globalization.SystemTags.VersionNumber*
   commentId: Overload:SuperOffice.CRM.Globalization.SystemTags.VersionNumber
   isExternal: true
-  href: SuperOffice.CRM.Globalization.SystemTags.html#SuperOffice_CRM_Globalization_SystemTags_VersionNumber
   name: VersionNumber
   nameWithType: SystemTags.VersionNumber
   fullName: SuperOffice.CRM.Globalization.SystemTags.VersionNumber
 - uid: SuperOffice.CRM.Globalization.SystemTags.VersionFile*
   commentId: Overload:SuperOffice.CRM.Globalization.SystemTags.VersionFile
   isExternal: true
-  href: SuperOffice.CRM.Globalization.SystemTags.html#SuperOffice_CRM_Globalization_SystemTags_VersionFile
   name: VersionFile
   nameWithType: SystemTags.VersionFile
   fullName: SuperOffice.CRM.Globalization.SystemTags.VersionFile
 - uid: SuperOffice.CRM.Globalization.SystemTags.VersionName*
   commentId: Overload:SuperOffice.CRM.Globalization.SystemTags.VersionName
   isExternal: true
-  href: SuperOffice.CRM.Globalization.SystemTags.html#SuperOffice_CRM_Globalization_SystemTags_VersionName
   name: VersionName
   nameWithType: SystemTags.VersionName
   fullName: SuperOffice.CRM.Globalization.SystemTags.VersionName
 - uid: SuperOffice.CRM.Globalization.SystemTags.LoggedInUserName*
   commentId: Overload:SuperOffice.CRM.Globalization.SystemTags.LoggedInUserName
   isExternal: true
-  href: SuperOffice.CRM.Globalization.SystemTags.html#SuperOffice_CRM_Globalization_SystemTags_LoggedInUserName
   name: LoggedInUserName
   nameWithType: SystemTags.LoggedInUserName
   fullName: SuperOffice.CRM.Globalization.SystemTags.LoggedInUserName
 - uid: SuperOffice.CRM.Globalization.SystemTags.NetServerSecret*
   commentId: Overload:SuperOffice.CRM.Globalization.SystemTags.NetServerSecret
   isExternal: true
-  href: SuperOffice.CRM.Globalization.SystemTags.html#SuperOffice_CRM_Globalization_SystemTags_NetServerSecret
   name: NetServerSecret
   nameWithType: SystemTags.NetServerSecret
   fullName: SuperOffice.CRM.Globalization.SystemTags.NetServerSecret
 - uid: SuperOffice.CRM.Globalization.SystemTags.ContextIdentifier*
   commentId: Overload:SuperOffice.CRM.Globalization.SystemTags.ContextIdentifier
   isExternal: true
-  href: SuperOffice.CRM.Globalization.SystemTags.html#SuperOffice_CRM_Globalization_SystemTags_ContextIdentifier
   name: ContextIdentifier
   nameWithType: SystemTags.ContextIdentifier
   fullName: SuperOffice.CRM.Globalization.SystemTags.ContextIdentifier
 - uid: SuperOffice.CRM.Globalization.SystemTags.LoggedInUserId*
   commentId: Overload:SuperOffice.CRM.Globalization.SystemTags.LoggedInUserId
   isExternal: true
-  href: SuperOffice.CRM.Globalization.SystemTags.html#SuperOffice_CRM_Globalization_SystemTags_LoggedInUserId
   name: LoggedInUserId
   nameWithType: SystemTags.LoggedInUserId
   fullName: SuperOffice.CRM.Globalization.SystemTags.LoggedInUserId
 - uid: SuperOffice.CRM.Globalization.SystemTags.LoggedInUserFirstName*
   commentId: Overload:SuperOffice.CRM.Globalization.SystemTags.LoggedInUserFirstName
   isExternal: true
-  href: SuperOffice.CRM.Globalization.SystemTags.html#SuperOffice_CRM_Globalization_SystemTags_LoggedInUserFirstName
   name: LoggedInUserFirstName
   nameWithType: SystemTags.LoggedInUserFirstName
   fullName: SuperOffice.CRM.Globalization.SystemTags.LoggedInUserFirstName
 - uid: SuperOffice.CRM.Globalization.SystemTags.LoggedInUserMiddleName*
   commentId: Overload:SuperOffice.CRM.Globalization.SystemTags.LoggedInUserMiddleName
   isExternal: true
-  href: SuperOffice.CRM.Globalization.SystemTags.html#SuperOffice_CRM_Globalization_SystemTags_LoggedInUserMiddleName
   name: LoggedInUserMiddleName
   nameWithType: SystemTags.LoggedInUserMiddleName
   fullName: SuperOffice.CRM.Globalization.SystemTags.LoggedInUserMiddleName
 - uid: SuperOffice.CRM.Globalization.SystemTags.LoggedInUserLastName*
   commentId: Overload:SuperOffice.CRM.Globalization.SystemTags.LoggedInUserLastName
   isExternal: true
-  href: SuperOffice.CRM.Globalization.SystemTags.html#SuperOffice_CRM_Globalization_SystemTags_LoggedInUserLastName
   name: LoggedInUserLastName
   nameWithType: SystemTags.LoggedInUserLastName
   fullName: SuperOffice.CRM.Globalization.SystemTags.LoggedInUserLastName
 - uid: SuperOffice.CRM.Globalization.SystemTags.LoggedInUserEMailAddress*
   commentId: Overload:SuperOffice.CRM.Globalization.SystemTags.LoggedInUserEMailAddress
   isExternal: true
-  href: SuperOffice.CRM.Globalization.SystemTags.html#SuperOffice_CRM_Globalization_SystemTags_LoggedInUserEMailAddress
   name: LoggedInUserEMailAddress
   nameWithType: SystemTags.LoggedInUserEMailAddress
   fullName: SuperOffice.CRM.Globalization.SystemTags.LoggedInUserEMailAddress
 - uid: SuperOffice.CRM.Globalization.SystemTags.TimeZone*
   commentId: Overload:SuperOffice.CRM.Globalization.SystemTags.TimeZone
   isExternal: true
-  href: SuperOffice.CRM.Globalization.SystemTags.html#SuperOffice_CRM_Globalization_SystemTags_TimeZone
   name: TimeZone
   nameWithType: SystemTags.TimeZone
   fullName: SuperOffice.CRM.Globalization.SystemTags.TimeZone
 - uid: SuperOffice.CRM.Globalization.SystemTags.MailGatewayDisplayName*
   commentId: Overload:SuperOffice.CRM.Globalization.SystemTags.MailGatewayDisplayName
   isExternal: true
-  href: SuperOffice.CRM.Globalization.SystemTags.html#SuperOffice_CRM_Globalization_SystemTags_MailGatewayDisplayName
   name: MailGatewayDisplayName
   nameWithType: SystemTags.MailGatewayDisplayName
   fullName: SuperOffice.CRM.Globalization.SystemTags.MailGatewayDisplayName
 - uid: SuperOffice.CRM.Globalization.SystemTags.MailGatewayMailAddress*
   commentId: Overload:SuperOffice.CRM.Globalization.SystemTags.MailGatewayMailAddress
   isExternal: true
-  href: SuperOffice.CRM.Globalization.SystemTags.html#SuperOffice_CRM_Globalization_SystemTags_MailGatewayMailAddress
   name: MailGatewayMailAddress
   nameWithType: SystemTags.MailGatewayMailAddress
   fullName: SuperOffice.CRM.Globalization.SystemTags.MailGatewayMailAddress
 - uid: SuperOffice.CRM.Globalization.SystemTags.Platform*
   commentId: Overload:SuperOffice.CRM.Globalization.SystemTags.Platform
   isExternal: true
-  href: SuperOffice.CRM.Globalization.SystemTags.html#SuperOffice_CRM_Globalization_SystemTags_Platform
   name: Platform
   nameWithType: SystemTags.Platform
   fullName: SuperOffice.CRM.Globalization.SystemTags.Platform
 - uid: SuperOffice.CRM.Globalization.SystemTags.Client*
   commentId: Overload:SuperOffice.CRM.Globalization.SystemTags.Client
   isExternal: true
-  href: SuperOffice.CRM.Globalization.SystemTags.html#SuperOffice_CRM_Globalization_SystemTags_Client
   name: Client
   nameWithType: SystemTags.Client
   fullName: SuperOffice.CRM.Globalization.SystemTags.Client
 - uid: SuperOffice.CRM.Globalization.SystemTags.LanguageName*
   commentId: Overload:SuperOffice.CRM.Globalization.SystemTags.LanguageName
   isExternal: true
-  href: SuperOffice.CRM.Globalization.SystemTags.html#SuperOffice_CRM_Globalization_SystemTags_LanguageName
   name: LanguageName
   nameWithType: SystemTags.LanguageName
   fullName: SuperOffice.CRM.Globalization.SystemTags.LanguageName
 - uid: SuperOffice.CRM.Globalization.SystemTags.LanguageIsoCode*
   commentId: Overload:SuperOffice.CRM.Globalization.SystemTags.LanguageIsoCode
   isExternal: true
-  href: SuperOffice.CRM.Globalization.SystemTags.html#SuperOffice_CRM_Globalization_SystemTags_LanguageIsoCode
   name: LanguageIsoCode
   nameWithType: SystemTags.LanguageIsoCode
   fullName: SuperOffice.CRM.Globalization.SystemTags.LanguageIsoCode
 - uid: SuperOffice.CRM.Globalization.SystemTags.LanguageIso2Code*
   commentId: Overload:SuperOffice.CRM.Globalization.SystemTags.LanguageIso2Code
   isExternal: true
-  href: SuperOffice.CRM.Globalization.SystemTags.html#SuperOffice_CRM_Globalization_SystemTags_LanguageIso2Code
   name: LanguageIso2Code
   nameWithType: SystemTags.LanguageIso2Code
   fullName: SuperOffice.CRM.Globalization.SystemTags.LanguageIso2Code
 - uid: SuperOffice.CRM.Globalization.SystemTags.LanguageSoCode*
   commentId: Overload:SuperOffice.CRM.Globalization.SystemTags.LanguageSoCode
   isExternal: true
-  href: SuperOffice.CRM.Globalization.SystemTags.html#SuperOffice_CRM_Globalization_SystemTags_LanguageSoCode
   name: LanguageSoCode
   nameWithType: SystemTags.LanguageSoCode
   fullName: SuperOffice.CRM.Globalization.SystemTags.LanguageSoCode
-- uid: SuperOffice.License.SoLicenseNames
-  commentId: T:SuperOffice.License.SoLicenseNames
-  isExternal: true
-  href: SuperOffice.License.SoLicenseNames.html
-  name: SoLicenseNames
-  nameWithType: SoLicenseNames
-  fullName: SuperOffice.License.SoLicenseNames
 - uid: SuperOffice.CRM.Globalization.SystemTags.LoggedInUserLicense*
   commentId: Overload:SuperOffice.CRM.Globalization.SystemTags.LoggedInUserLicense
   isExternal: true
-  href: SuperOffice.CRM.Globalization.SystemTags.html#SuperOffice_CRM_Globalization_SystemTags_LoggedInUserLicense
   name: LoggedInUserLicense
   nameWithType: SystemTags.LoggedInUserLicense
   fullName: SuperOffice.CRM.Globalization.SystemTags.LoggedInUserLicense
-- uid: SuperOffice.FeatureToggles
-  commentId: N:SuperOffice.FeatureToggles
+- uid: SuperOffice.License.SoLicenseNames
+  commentId: T:SuperOffice.License.SoLicenseNames
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.FeatureToggles
-  nameWithType: SuperOffice.FeatureToggles
-  fullName: SuperOffice.FeatureToggles
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.FeatureToggles
-    name: FeatureToggles
-    isExternal: true
-    href: SuperOffice.FeatureToggles.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.FeatureToggles
-    name: FeatureToggles
-    isExternal: true
-    href: SuperOffice.FeatureToggles.html
+  name: SoLicenseNames
+  nameWithType: SoLicenseNames
+  fullName: SuperOffice.License.SoLicenseNames
 - uid: SuperOffice.CRM.Globalization.SystemTags.ActiveFeatureToggles*
   commentId: Overload:SuperOffice.CRM.Globalization.SystemTags.ActiveFeatureToggles
   isExternal: true
-  href: SuperOffice.CRM.Globalization.SystemTags.html#SuperOffice_CRM_Globalization_SystemTags_ActiveFeatureToggles
   name: ActiveFeatureToggles
   nameWithType: SystemTags.ActiveFeatureToggles
   fullName: SuperOffice.CRM.Globalization.SystemTags.ActiveFeatureToggles
+- uid: SuperOffice.FeatureToggles
+  commentId: N:SuperOffice.FeatureToggles
+  isExternal: true
+  name: SuperOffice.FeatureToggles
+  nameWithType: SuperOffice.FeatureToggles
+  fullName: SuperOffice.FeatureToggles
 - uid: SuperOffice.CRM.Globalization.SystemTags.IsAdmin*
   commentId: Overload:SuperOffice.CRM.Globalization.SystemTags.IsAdmin
   isExternal: true
-  href: SuperOffice.CRM.Globalization.SystemTags.html#SuperOffice_CRM_Globalization_SystemTags_IsAdmin
   name: IsAdmin
   nameWithType: SystemTags.IsAdmin
   fullName: SuperOffice.CRM.Globalization.SystemTags.IsAdmin
-- uid: SuperOffice.CRM.FunctionRightStrings
-  commentId: T:SuperOffice.CRM.FunctionRightStrings
-  isExternal: true
-  href: SuperOffice.CRM.FunctionRightStrings.html
-  name: FunctionRightStrings
-  nameWithType: FunctionRightStrings
-  fullName: SuperOffice.CRM.FunctionRightStrings
 - uid: SuperOffice.CRM.Globalization.SystemTags.FunctionRights*
   commentId: Overload:SuperOffice.CRM.Globalization.SystemTags.FunctionRights
   isExternal: true
-  href: SuperOffice.CRM.Globalization.SystemTags.html#SuperOffice_CRM_Globalization_SystemTags_FunctionRights
   name: FunctionRights
   nameWithType: SystemTags.FunctionRights
   fullName: SuperOffice.CRM.Globalization.SystemTags.FunctionRights
+- uid: SuperOffice.CRM.FunctionRightStrings
+  commentId: T:SuperOffice.CRM.FunctionRightStrings
+  isExternal: true
+  name: FunctionRightStrings
+  nameWithType: FunctionRightStrings
+  fullName: SuperOffice.CRM.FunctionRightStrings
 - uid: SuperOffice.CRM.Globalization.SystemTags.CSRegistryExtension*
   commentId: Overload:SuperOffice.CRM.Globalization.SystemTags.CSRegistryExtension
   isExternal: true
-  href: SuperOffice.CRM.Globalization.SystemTags.html#SuperOffice_CRM_Globalization_SystemTags_CSRegistryExtension
   name: CSRegistryExtension
   nameWithType: SystemTags.CSRegistryExtension
   fullName: SuperOffice.CRM.Globalization.SystemTags.CSRegistryExtension
 - uid: SuperOffice.CRM.Globalization.SystemTags.CSCGIBin*
   commentId: Overload:SuperOffice.CRM.Globalization.SystemTags.CSCGIBin
   isExternal: true
-  href: SuperOffice.CRM.Globalization.SystemTags.html#SuperOffice_CRM_Globalization_SystemTags_CSCGIBin
   name: CSCGIBin
   nameWithType: SystemTags.CSCGIBin
   fullName: SuperOffice.CRM.Globalization.SystemTags.CSCGIBin
 - uid: SuperOffice.CRM.Globalization.SystemTags.CSCGiUrlInternal*
   commentId: Overload:SuperOffice.CRM.Globalization.SystemTags.CSCGiUrlInternal
   isExternal: true
-  href: SuperOffice.CRM.Globalization.SystemTags.html#SuperOffice_CRM_Globalization_SystemTags_CSCGiUrlInternal
   name: CSCGiUrlInternal
   nameWithType: SystemTags.CSCGiUrlInternal
   fullName: SuperOffice.CRM.Globalization.SystemTags.CSCGiUrlInternal
 - uid: SuperOffice.CRM.Globalization.SystemTags.CSBaseURL*
   commentId: Overload:SuperOffice.CRM.Globalization.SystemTags.CSBaseURL
   isExternal: true
-  href: SuperOffice.CRM.Globalization.SystemTags.html#SuperOffice_CRM_Globalization_SystemTags_CSBaseURL
   name: CSBaseURL
   nameWithType: SystemTags.CSBaseURL
   fullName: SuperOffice.CRM.Globalization.SystemTags.CSBaseURL
 - uid: SuperOffice.CRM.Globalization.SystemTags.CSBlogicUrl*
   commentId: Overload:SuperOffice.CRM.Globalization.SystemTags.CSBlogicUrl
   isExternal: true
-  href: SuperOffice.CRM.Globalization.SystemTags.html#SuperOffice_CRM_Globalization_SystemTags_CSBlogicUrl
   name: CSBlogicUrl
   nameWithType: SystemTags.CSBlogicUrl
   fullName: SuperOffice.CRM.Globalization.SystemTags.CSBlogicUrl
 - uid: SuperOffice.CRM.Globalization.SystemTags.CSTicketUrl*
   commentId: Overload:SuperOffice.CRM.Globalization.SystemTags.CSTicketUrl
   isExternal: true
-  href: SuperOffice.CRM.Globalization.SystemTags.html#SuperOffice_CRM_Globalization_SystemTags_CSTicketUrl
   name: CSTicketUrl
   nameWithType: SystemTags.CSTicketUrl
   fullName: SuperOffice.CRM.Globalization.SystemTags.CSTicketUrl
 - uid: SuperOffice.CRM.Globalization.SystemTags.CSRMSUrl*
   commentId: Overload:SuperOffice.CRM.Globalization.SystemTags.CSRMSUrl
   isExternal: true
-  href: SuperOffice.CRM.Globalization.SystemTags.html#SuperOffice_CRM_Globalization_SystemTags_CSRMSUrl
   name: CSRMSUrl
   nameWithType: SystemTags.CSRMSUrl
   fullName: SuperOffice.CRM.Globalization.SystemTags.CSRMSUrl
 - uid: SuperOffice.CRM.Globalization.SystemTags.CSCustomerUrl*
   commentId: Overload:SuperOffice.CRM.Globalization.SystemTags.CSCustomerUrl
   isExternal: true
-  href: SuperOffice.CRM.Globalization.SystemTags.html#SuperOffice_CRM_Globalization_SystemTags_CSCustomerUrl
   name: CSCustomerUrl
   nameWithType: SystemTags.CSCustomerUrl
   fullName: SuperOffice.CRM.Globalization.SystemTags.CSCustomerUrl
 - uid: SuperOffice.CRM.Globalization.SystemTags.CurrentTicketID*
   commentId: Overload:SuperOffice.CRM.Globalization.SystemTags.CurrentTicketID
   isExternal: true
-  href: SuperOffice.CRM.Globalization.SystemTags.html#SuperOffice_CRM_Globalization_SystemTags_CurrentTicketID
   name: CurrentTicketID
   nameWithType: SystemTags.CurrentTicketID
   fullName: SuperOffice.CRM.Globalization.SystemTags.CurrentTicketID
 - uid: SuperOffice.CRM.Globalization.SystemTags.CurrentDiaryOwnerID*
   commentId: Overload:SuperOffice.CRM.Globalization.SystemTags.CurrentDiaryOwnerID
   isExternal: true
-  href: SuperOffice.CRM.Globalization.SystemTags.html#SuperOffice_CRM_Globalization_SystemTags_CurrentDiaryOwnerID
   name: CurrentDiaryOwnerID
   nameWithType: SystemTags.CurrentDiaryOwnerID
   fullName: SuperOffice.CRM.Globalization.SystemTags.CurrentDiaryOwnerID

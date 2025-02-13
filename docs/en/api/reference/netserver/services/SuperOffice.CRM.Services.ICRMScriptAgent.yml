@@ -40,32 +40,15 @@ items:
   nameWithType: ICRMScriptAgent
   fullName: SuperOffice.CRM.Services.ICRMScriptAgent
   type: Interface
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Interface for the CRMScript Agent
-
-    Manage and execute CRMScript functions.
-
-    <p></p>
-
-    <b>Online Restricted:</b> This agent is not available in Online by default. Access must be requested specifically when app is registered.
+  summary: "\nInterface for the CRMScript Agent\nManage and execute CRMScript functions.\n<p></p>\n<strong>Online Restricted:</strong> This agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
   example:
-  - >-
-    <pre><code class="lang-csharp">using SuperOffice;
-
-    using SuperOffice.CRM.Services;
-
-
-    using (SoSession mySession = SoSession.Authenticate("user", "pass"))
-
-    {
-       using (CRMScriptAgent agent = new CRMScriptAgent())
-       {
-          // call methods on agent here...
-       }
-    }</code></pre>
+  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (CRMScriptAgent agent = new CRMScriptAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
   syntax:
     content: >-
       [Agent("CRMScript Agent", "Interface for the CRMScript Agent. Manage and execute CRMScript functions.")]
@@ -74,7 +57,8 @@ items:
     content.vb: >-
       <Agent("CRMScript Agent", "Interface for the CRMScript Agent. Manage and execute CRMScript functions.")>
 
-      Public Interface ICRMScriptAgent Inherits IAgent
+      Public Interface ICRMScriptAgent
+          Inherits IAgent
   attributes:
   - type: SuperOffice.CRM.Services.Reflection.AgentAttribute
     ctor: SuperOffice.CRM.Services.Reflection.AgentAttribute.#ctor(System.String,System.String)
@@ -83,6 +67,12 @@ items:
       value: CRMScript Agent
     - type: System.String
       value: Interface for the CRMScript Agent. Manage and execute CRMScript functions.
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
 - uid: SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultCRMScriptEntity
   commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultCRMScriptEntity
   id: CreateDefaultCRMScriptEntity
@@ -94,24 +84,19 @@ items:
   nameWithType: ICRMScriptAgent.CreateDefaultCRMScriptEntity()
   fullName: SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultCRMScriptEntity()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new CRMScriptEntity.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-
-    <p></p>
-
-    <b>Online Restricted:</b> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
-  example: []
+  summary: "\nLoading default values into a new CRMScriptEntity.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n<p></p>\n<strong>Online Restricted:</strong> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
   syntax:
     content: CRMScriptEntity CreateDefaultCRMScriptEntity()
     return:
       type: SuperOffice.CRM.Services.CRMScriptEntity
       description: New CRMScriptEntity with default values
-    content.vb: Function CreateDefaultCRMScriptEntity() As CRMScriptEntity
+    content.vb: Function CreateDefaultCRMScriptEntity As CRMScriptEntity
   overload: SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultCRMScriptEntity*
 - uid: SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptEntity(SuperOffice.CRM.Services.CRMScriptEntity)
   commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptEntity(SuperOffice.CRM.Services.CRMScriptEntity)
@@ -124,16 +109,13 @@ items:
   nameWithType: ICRMScriptAgent.SaveCRMScriptEntity(CRMScriptEntity)
   fullName: SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptEntity(SuperOffice.CRM.Services.CRMScriptEntity)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Updates the existing CRMScriptEntity or creates a new CRMScriptEntity if the id parameter is empty
-
-    <p></p>
-
-    <b>Online Restricted:</b> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
-  example: []
+  summary: "\nUpdates the existing CRMScriptEntity or creates a new CRMScriptEntity if the id parameter is empty\n<p></p>\n<strong>Online Restricted:</strong> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
   syntax:
     content: CRMScriptEntity SaveCRMScriptEntity(CRMScriptEntity cRMScriptEntity)
     parameters:
@@ -152,20 +134,17 @@ items:
   langs:
   - csharp
   - vb
-  name: DeleteCRMScriptEntity(int)
-  nameWithType: ICRMScriptAgent.DeleteCRMScriptEntity(int)
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptEntity(int)
+  name: DeleteCRMScriptEntity(Int32)
+  nameWithType: ICRMScriptAgent.DeleteCRMScriptEntity(Int32)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptEntity(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Deletes the CRMScriptEntity
-
-    <p></p>
-
-    <b>Online Restricted:</b> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
-  example: []
+  summary: "\nDeletes the CRMScriptEntity\n<p></p>\n<strong>Online Restricted:</strong> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
   syntax:
     content: void DeleteCRMScriptEntity(int cRMScriptEntityId)
     parameters:
@@ -174,9 +153,6 @@ items:
       description: The identity of the CRMScriptEntity
     content.vb: Sub DeleteCRMScriptEntity(cRMScriptEntityId As Integer)
   overload: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptEntity*
-  nameWithType.vb: ICRMScriptAgent.DeleteCRMScriptEntity(Integer)
-  fullName.vb: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptEntity(Integer)
-  name.vb: DeleteCRMScriptEntity(Integer)
 - uid: SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultTriggerScriptEntity
   commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultTriggerScriptEntity
   id: CreateDefaultTriggerScriptEntity
@@ -188,24 +164,19 @@ items:
   nameWithType: ICRMScriptAgent.CreateDefaultTriggerScriptEntity()
   fullName: SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultTriggerScriptEntity()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new TriggerScriptEntity.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-
-    <p></p>
-
-    <b>Online Restricted:</b> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
-  example: []
+  summary: "\nLoading default values into a new TriggerScriptEntity.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n<p></p>\n<strong>Online Restricted:</strong> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
   syntax:
     content: TriggerScriptEntity CreateDefaultTriggerScriptEntity()
     return:
       type: SuperOffice.CRM.Services.TriggerScriptEntity
       description: New TriggerScriptEntity with default values
-    content.vb: Function CreateDefaultTriggerScriptEntity() As TriggerScriptEntity
+    content.vb: Function CreateDefaultTriggerScriptEntity As TriggerScriptEntity
   overload: SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultTriggerScriptEntity*
 - uid: SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptEntity(SuperOffice.CRM.Services.TriggerScriptEntity)
   commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptEntity(SuperOffice.CRM.Services.TriggerScriptEntity)
@@ -218,16 +189,13 @@ items:
   nameWithType: ICRMScriptAgent.SaveTriggerScriptEntity(TriggerScriptEntity)
   fullName: SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptEntity(SuperOffice.CRM.Services.TriggerScriptEntity)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Updates the existing TriggerScriptEntity or creates a new TriggerScriptEntity if the id parameter is empty
-
-    <p></p>
-
-    <b>Online Restricted:</b> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
-  example: []
+  summary: "\nUpdates the existing TriggerScriptEntity or creates a new TriggerScriptEntity if the id parameter is empty\n<p></p>\n<strong>Online Restricted:</strong> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
   syntax:
     content: TriggerScriptEntity SaveTriggerScriptEntity(TriggerScriptEntity triggerScriptEntity)
     parameters:
@@ -246,20 +214,17 @@ items:
   langs:
   - csharp
   - vb
-  name: DeleteTriggerScriptEntity(int)
-  nameWithType: ICRMScriptAgent.DeleteTriggerScriptEntity(int)
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptEntity(int)
+  name: DeleteTriggerScriptEntity(Int32)
+  nameWithType: ICRMScriptAgent.DeleteTriggerScriptEntity(Int32)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptEntity(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Deletes the TriggerScriptEntity
-
-    <p></p>
-
-    <b>Online Restricted:</b> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
-  example: []
+  summary: "\nDeletes the TriggerScriptEntity\n<p></p>\n<strong>Online Restricted:</strong> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
   syntax:
     content: void DeleteTriggerScriptEntity(int triggerScriptEntityId)
     parameters:
@@ -268,9 +233,6 @@ items:
       description: The identity of the TriggerScriptEntity
     content.vb: Sub DeleteTriggerScriptEntity(triggerScriptEntityId As Integer)
   overload: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptEntity*
-  nameWithType.vb: ICRMScriptAgent.DeleteTriggerScriptEntity(Integer)
-  fullName.vb: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptEntity(Integer)
-  name.vb: DeleteTriggerScriptEntity(Integer)
 - uid: SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptByUniqueIdentifier(System.String)
   commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptByUniqueIdentifier(System.String)
   id: GetCRMScriptByUniqueIdentifier(System.String)
@@ -278,20 +240,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetCRMScriptByUniqueIdentifier(string)
-  nameWithType: ICRMScriptAgent.GetCRMScriptByUniqueIdentifier(string)
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptByUniqueIdentifier(string)
+  name: GetCRMScriptByUniqueIdentifier(String)
+  nameWithType: ICRMScriptAgent.GetCRMScriptByUniqueIdentifier(String)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptByUniqueIdentifier(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Get information about a script from a unique identifier
-
-    <p></p>
-
-    <b>Online Restricted:</b> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
-  example: []
+  summary: "\nGet information about a script from a unique identifier\n<p></p>\n<strong>Online Restricted:</strong> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
   syntax:
     content: Script GetCRMScriptByUniqueIdentifier(string uniqueIdentifier)
     parameters:
@@ -303,9 +262,6 @@ items:
       description: Information about CRMScript
     content.vb: Function GetCRMScriptByUniqueIdentifier(uniqueIdentifier As String) As Script
   overload: SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptByUniqueIdentifier*
-  nameWithType.vb: ICRMScriptAgent.GetCRMScriptByUniqueIdentifier(String)
-  fullName.vb: SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptByUniqueIdentifier(String)
-  name.vb: GetCRMScriptByUniqueIdentifier(String)
 - uid: SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptByUniqueIdentifier(System.String,SuperOffice.CRM.Services.Script)
   commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptByUniqueIdentifier(System.String,SuperOffice.CRM.Services.Script)
   id: SaveCRMScriptByUniqueIdentifier(System.String,SuperOffice.CRM.Services.Script)
@@ -313,20 +269,17 @@ items:
   langs:
   - csharp
   - vb
-  name: SaveCRMScriptByUniqueIdentifier(string, Script)
-  nameWithType: ICRMScriptAgent.SaveCRMScriptByUniqueIdentifier(string, Script)
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptByUniqueIdentifier(string, SuperOffice.CRM.Services.Script)
+  name: SaveCRMScriptByUniqueIdentifier(String, Script)
+  nameWithType: ICRMScriptAgent.SaveCRMScriptByUniqueIdentifier(String, Script)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptByUniqueIdentifier(System.String, SuperOffice.CRM.Services.Script)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Create or Update the CRMScript information
-
-    <p></p>
-
-    <b>Online Restricted:</b> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
-  example: []
+  summary: "\nCreate or Update the CRMScript information\n<p></p>\n<strong>Online Restricted:</strong> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
   syntax:
     content: Script SaveCRMScriptByUniqueIdentifier(string uniqueIdentifier, Script crmscript)
     parameters:
@@ -341,9 +294,6 @@ items:
       description: Information about the CRMScript as saved in the database
     content.vb: Function SaveCRMScriptByUniqueIdentifier(uniqueIdentifier As String, crmscript As Script) As Script
   overload: SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptByUniqueIdentifier*
-  nameWithType.vb: ICRMScriptAgent.SaveCRMScriptByUniqueIdentifier(String, Script)
-  fullName.vb: SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptByUniqueIdentifier(String, SuperOffice.CRM.Services.Script)
-  name.vb: SaveCRMScriptByUniqueIdentifier(String, Script)
 - uid: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptByUniqueIdentifier(System.String)
   commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptByUniqueIdentifier(System.String)
   id: DeleteCRMScriptByUniqueIdentifier(System.String)
@@ -351,20 +301,17 @@ items:
   langs:
   - csharp
   - vb
-  name: DeleteCRMScriptByUniqueIdentifier(string)
-  nameWithType: ICRMScriptAgent.DeleteCRMScriptByUniqueIdentifier(string)
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptByUniqueIdentifier(string)
+  name: DeleteCRMScriptByUniqueIdentifier(String)
+  nameWithType: ICRMScriptAgent.DeleteCRMScriptByUniqueIdentifier(String)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptByUniqueIdentifier(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Delete the CRMScript
-
-    <p></p>
-
-    <b>Online Restricted:</b> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
-  example: []
+  summary: "\nDelete the CRMScript\n<p></p>\n<strong>Online Restricted:</strong> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
   syntax:
     content: void DeleteCRMScriptByUniqueIdentifier(string uniqueIdentifier)
     parameters:
@@ -373,9 +320,6 @@ items:
       description: Global unique reference to script (independent of installation)
     content.vb: Sub DeleteCRMScriptByUniqueIdentifier(uniqueIdentifier As String)
   overload: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptByUniqueIdentifier*
-  nameWithType.vb: ICRMScriptAgent.DeleteCRMScriptByUniqueIdentifier(String)
-  fullName.vb: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptByUniqueIdentifier(String)
-  name.vb: DeleteCRMScriptByUniqueIdentifier(String)
 - uid: SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptEntity(System.Int32)
   commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptEntity(System.Int32)
   id: GetCRMScriptEntity(System.Int32)
@@ -383,20 +327,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetCRMScriptEntity(int)
-  nameWithType: ICRMScriptAgent.GetCRMScriptEntity(int)
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptEntity(int)
+  name: GetCRMScriptEntity(Int32)
+  nameWithType: ICRMScriptAgent.GetCRMScriptEntity(Int32)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptEntity(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Gets a CRMScriptEntity object.                        
-
-    <p></p>
-
-    <b>Online Restricted:</b> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
-  example: []
+  summary: "\nGets a CRMScriptEntity object.                        \n<p></p>\n<strong>Online Restricted:</strong> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
   syntax:
     content: CRMScriptEntity GetCRMScriptEntity(int cRMScriptEntityId)
     parameters:
@@ -408,9 +349,6 @@ items:
       description: CRMScriptEntity
     content.vb: Function GetCRMScriptEntity(cRMScriptEntityId As Integer) As CRMScriptEntity
   overload: SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptEntity*
-  nameWithType.vb: ICRMScriptAgent.GetCRMScriptEntity(Integer)
-  fullName.vb: SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptEntity(Integer)
-  name.vb: GetCRMScriptEntity(Integer)
 - uid: SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptEntityWithoutCompile(SuperOffice.CRM.Services.CRMScriptEntity)
   commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptEntityWithoutCompile(SuperOffice.CRM.Services.CRMScriptEntity)
   id: SaveCRMScriptEntityWithoutCompile(SuperOffice.CRM.Services.CRMScriptEntity)
@@ -422,16 +360,13 @@ items:
   nameWithType: ICRMScriptAgent.SaveCRMScriptEntityWithoutCompile(CRMScriptEntity)
   fullName: SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptEntityWithoutCompile(SuperOffice.CRM.Services.CRMScriptEntity)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Save the script directly without compiling TypeScript
-
-    <p></p>
-
-    <b>Online Restricted:</b> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
-  example: []
+  summary: "\nSave the script directly without compiling TypeScript\n<p></p>\n<strong>Online Restricted:</strong> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
   syntax:
     content: CRMScriptEntity SaveCRMScriptEntityWithoutCompile(CRMScriptEntity crmScriptEntity)
     parameters:
@@ -450,20 +385,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ExecuteScript(int, StringDictionary)
-  nameWithType: ICRMScriptAgent.ExecuteScript(int, StringDictionary)
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScript(int, SuperOffice.CRM.Services.StringDictionary)
+  name: ExecuteScript(Int32, StringDictionary)
+  nameWithType: ICRMScriptAgent.ExecuteScript(Int32, StringDictionary)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScript(System.Int32, SuperOffice.CRM.Services.StringDictionary)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Execute a CRMScript with parameters, returning printed output value.
-
-    <p></p>
-
-    <b>Online Restricted:</b> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
-  example: []
+  summary: "\nExecute a CRMScript with parameters, returning printed output value.\n<p></p>\n<strong>Online Restricted:</strong> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
   syntax:
     content: string ExecuteScript(int cRMScriptId, StringDictionary parameters)
     parameters:
@@ -478,9 +410,6 @@ items:
       description: The output produced by the CRMScript
     content.vb: Function ExecuteScript(cRMScriptId As Integer, parameters As StringDictionary) As String
   overload: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScript*
-  nameWithType.vb: ICRMScriptAgent.ExecuteScript(Integer, StringDictionary)
-  fullName.vb: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScript(Integer, SuperOffice.CRM.Services.StringDictionary)
-  name.vb: ExecuteScript(Integer, StringDictionary)
 - uid: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByIncludeId(System.String,SuperOffice.CRM.Services.StringDictionary)
   commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByIncludeId(System.String,SuperOffice.CRM.Services.StringDictionary)
   id: ExecuteScriptByIncludeId(System.String,SuperOffice.CRM.Services.StringDictionary)
@@ -488,20 +417,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ExecuteScriptByIncludeId(string, StringDictionary)
-  nameWithType: ICRMScriptAgent.ExecuteScriptByIncludeId(string, StringDictionary)
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByIncludeId(string, SuperOffice.CRM.Services.StringDictionary)
+  name: ExecuteScriptByIncludeId(String, StringDictionary)
+  nameWithType: ICRMScriptAgent.ExecuteScriptByIncludeId(String, StringDictionary)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByIncludeId(System.String, SuperOffice.CRM.Services.StringDictionary)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Execute a CRMScript with parameters, returning printed output value.
-
-    <p></p>
-
-    <b>Online Restricted:</b> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
-  example: []
+  summary: "\nExecute a CRMScript with parameters, returning printed output value.\n<p></p>\n<strong>Online Restricted:</strong> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
   syntax:
     content: string ExecuteScriptByIncludeId(string cRMScriptIncludeId, StringDictionary parameters)
     parameters:
@@ -516,9 +442,6 @@ items:
       description: The output produced by the CRMScript
     content.vb: Function ExecuteScriptByIncludeId(cRMScriptIncludeId As String, parameters As StringDictionary) As String
   overload: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByIncludeId*
-  nameWithType.vb: ICRMScriptAgent.ExecuteScriptByIncludeId(String, StringDictionary)
-  fullName.vb: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByIncludeId(String, SuperOffice.CRM.Services.StringDictionary)
-  name.vb: ExecuteScriptByIncludeId(String, StringDictionary)
 - uid: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByUniqueId(System.String,SuperOffice.CRM.Services.StringDictionary)
   commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByUniqueId(System.String,SuperOffice.CRM.Services.StringDictionary)
   id: ExecuteScriptByUniqueId(System.String,SuperOffice.CRM.Services.StringDictionary)
@@ -526,20 +449,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ExecuteScriptByUniqueId(string, StringDictionary)
-  nameWithType: ICRMScriptAgent.ExecuteScriptByUniqueId(string, StringDictionary)
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByUniqueId(string, SuperOffice.CRM.Services.StringDictionary)
+  name: ExecuteScriptByUniqueId(String, StringDictionary)
+  nameWithType: ICRMScriptAgent.ExecuteScriptByUniqueId(String, StringDictionary)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByUniqueId(System.String, SuperOffice.CRM.Services.StringDictionary)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Execute a CRMScript with parameters, returning printed output value.
-
-    <p></p>
-
-    <b>Online Restricted:</b> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
-  example: []
+  summary: "\nExecute a CRMScript with parameters, returning printed output value.\n<p></p>\n<strong>Online Restricted:</strong> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
   syntax:
     content: string ExecuteScriptByUniqueId(string cRMScriptUniqueId, StringDictionary parameters)
     parameters:
@@ -554,9 +474,6 @@ items:
       description: The output produced by the CRMScript
     content.vb: Function ExecuteScriptByUniqueId(cRMScriptUniqueId As String, parameters As StringDictionary) As String
   overload: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByUniqueId*
-  nameWithType.vb: ICRMScriptAgent.ExecuteScriptByUniqueId(String, StringDictionary)
-  fullName.vb: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByUniqueId(String, SuperOffice.CRM.Services.StringDictionary)
-  name.vb: ExecuteScriptByUniqueId(String, StringDictionary)
 - uid: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptAsEvent(System.Int32,SuperOffice.CRM.Services.EventData)
   commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptAsEvent(System.Int32,SuperOffice.CRM.Services.EventData)
   id: ExecuteScriptAsEvent(System.Int32,SuperOffice.CRM.Services.EventData)
@@ -564,20 +481,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ExecuteScriptAsEvent(int, EventData)
-  nameWithType: ICRMScriptAgent.ExecuteScriptAsEvent(int, EventData)
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptAsEvent(int, SuperOffice.CRM.Services.EventData)
+  name: ExecuteScriptAsEvent(Int32, EventData)
+  nameWithType: ICRMScriptAgent.ExecuteScriptAsEvent(Int32, EventData)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptAsEvent(System.Int32, SuperOffice.CRM.Services.EventData)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Execute a CRMScript with event data as input. Returns event data with output variable values.
-
-    <p></p>
-
-    <b>Online Restricted:</b> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
-  example: []
+  summary: "\nExecute a CRMScript with event data as input. Returns event data with output variable values.\n<p></p>\n<strong>Online Restricted:</strong> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
   syntax:
     content: EventData ExecuteScriptAsEvent(int cRMScriptId, EventData eventData)
     parameters:
@@ -592,9 +506,6 @@ items:
       description: The EventData instance after script execution with output values
     content.vb: Function ExecuteScriptAsEvent(cRMScriptId As Integer, eventData As EventData) As EventData
   overload: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptAsEvent*
-  nameWithType.vb: ICRMScriptAgent.ExecuteScriptAsEvent(Integer, EventData)
-  fullName.vb: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptAsEvent(Integer, SuperOffice.CRM.Services.EventData)
-  name.vb: ExecuteScriptAsEvent(Integer, EventData)
 - uid: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptAsEventByUniqueId(System.String,SuperOffice.CRM.Services.EventData)
   commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptAsEventByUniqueId(System.String,SuperOffice.CRM.Services.EventData)
   id: ExecuteScriptAsEventByUniqueId(System.String,SuperOffice.CRM.Services.EventData)
@@ -602,20 +513,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ExecuteScriptAsEventByUniqueId(string, EventData)
-  nameWithType: ICRMScriptAgent.ExecuteScriptAsEventByUniqueId(string, EventData)
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptAsEventByUniqueId(string, SuperOffice.CRM.Services.EventData)
+  name: ExecuteScriptAsEventByUniqueId(String, EventData)
+  nameWithType: ICRMScriptAgent.ExecuteScriptAsEventByUniqueId(String, EventData)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptAsEventByUniqueId(System.String, SuperOffice.CRM.Services.EventData)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Execute a CRMScript with event data as input. Returns event data with output variable values.
-
-    <p></p>
-
-    <b>Online Restricted:</b> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
-  example: []
+  summary: "\nExecute a CRMScript with event data as input. Returns event data with output variable values.\n<p></p>\n<strong>Online Restricted:</strong> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
   syntax:
     content: EventData ExecuteScriptAsEventByUniqueId(string cRMScriptUniqueId, EventData eventData)
     parameters:
@@ -630,9 +538,6 @@ items:
       description: The EventData instance after script execution with output values
     content.vb: Function ExecuteScriptAsEventByUniqueId(cRMScriptUniqueId As String, eventData As EventData) As EventData
   overload: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptAsEventByUniqueId*
-  nameWithType.vb: ICRMScriptAgent.ExecuteScriptAsEventByUniqueId(String, EventData)
-  fullName.vb: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptAsEventByUniqueId(String, SuperOffice.CRM.Services.EventData)
-  name.vb: ExecuteScriptAsEventByUniqueId(String, EventData)
 - uid: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScript(System.Int32)
   commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScript(System.Int32)
   id: ValidateScript(System.Int32)
@@ -640,20 +545,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ValidateScript(int)
-  nameWithType: ICRMScriptAgent.ValidateScript(int)
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScript(int)
+  name: ValidateScript(Int32)
+  nameWithType: ICRMScriptAgent.ValidateScript(Int32)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScript(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Validate a CRMScript. This will check that the syntax is correct
-
-    <p></p>
-
-    <b>Online Restricted:</b> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
-  example: []
+  summary: "\nValidate a CRMScript. This will check that the syntax is correct\n<p></p>\n<strong>Online Restricted:</strong> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
   syntax:
     content: CRMScriptResult ValidateScript(int cRMScriptId)
     parameters:
@@ -665,9 +567,6 @@ items:
       description: True if the syntax is correct
     content.vb: Function ValidateScript(cRMScriptId As Integer) As CRMScriptResult
   overload: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScript*
-  nameWithType.vb: ICRMScriptAgent.ValidateScript(Integer)
-  fullName.vb: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScript(Integer)
-  name.vb: ValidateScript(Integer)
 - uid: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByIncludeId(System.String)
   commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByIncludeId(System.String)
   id: ValidateScriptByIncludeId(System.String)
@@ -675,20 +574,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ValidateScriptByIncludeId(string)
-  nameWithType: ICRMScriptAgent.ValidateScriptByIncludeId(string)
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByIncludeId(string)
+  name: ValidateScriptByIncludeId(String)
+  nameWithType: ICRMScriptAgent.ValidateScriptByIncludeId(String)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByIncludeId(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Validate a CRMScript. This will check that the syntax is correct
-
-    <p></p>
-
-    <b>Online Restricted:</b> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
-  example: []
+  summary: "\nValidate a CRMScript. This will check that the syntax is correct\n<p></p>\n<strong>Online Restricted:</strong> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
   syntax:
     content: CRMScriptResult ValidateScriptByIncludeId(string cRMScriptIncludeId)
     parameters:
@@ -700,9 +596,6 @@ items:
       description: True if the syntax is correct
     content.vb: Function ValidateScriptByIncludeId(cRMScriptIncludeId As String) As CRMScriptResult
   overload: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByIncludeId*
-  nameWithType.vb: ICRMScriptAgent.ValidateScriptByIncludeId(String)
-  fullName.vb: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByIncludeId(String)
-  name.vb: ValidateScriptByIncludeId(String)
 - uid: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByUniqueId(System.String)
   commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByUniqueId(System.String)
   id: ValidateScriptByUniqueId(System.String)
@@ -710,20 +603,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ValidateScriptByUniqueId(string)
-  nameWithType: ICRMScriptAgent.ValidateScriptByUniqueId(string)
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByUniqueId(string)
+  name: ValidateScriptByUniqueId(String)
+  nameWithType: ICRMScriptAgent.ValidateScriptByUniqueId(String)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByUniqueId(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Validate a CRMScript. This will check that the syntax is correct
-
-    <p></p>
-
-    <b>Online Restricted:</b> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
-  example: []
+  summary: "\nValidate a CRMScript. This will check that the syntax is correct\n<p></p>\n<strong>Online Restricted:</strong> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
   syntax:
     content: CRMScriptResult ValidateScriptByUniqueId(string cRMScriptUniqueId)
     parameters:
@@ -735,9 +625,6 @@ items:
       description: True if the syntax is correct
     content.vb: Function ValidateScriptByUniqueId(cRMScriptUniqueId As String) As CRMScriptResult
   overload: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByUniqueId*
-  nameWithType.vb: ICRMScriptAgent.ValidateScriptByUniqueId(String)
-  fullName.vb: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByUniqueId(String)
-  name.vb: ValidateScriptByUniqueId(String)
 - uid: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByString(System.String,SuperOffice.CRM.Services.StringDictionary,SuperOffice.CRM.Services.EventData)
   commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByString(System.String,SuperOffice.CRM.Services.StringDictionary,SuperOffice.CRM.Services.EventData)
   id: ExecuteScriptByString(System.String,SuperOffice.CRM.Services.StringDictionary,SuperOffice.CRM.Services.EventData)
@@ -745,20 +632,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ExecuteScriptByString(string, StringDictionary, EventData)
-  nameWithType: ICRMScriptAgent.ExecuteScriptByString(string, StringDictionary, EventData)
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByString(string, SuperOffice.CRM.Services.StringDictionary, SuperOffice.CRM.Services.EventData)
+  name: ExecuteScriptByString(String, StringDictionary, EventData)
+  nameWithType: ICRMScriptAgent.ExecuteScriptByString(String, StringDictionary, EventData)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByString(System.String, SuperOffice.CRM.Services.StringDictionary, SuperOffice.CRM.Services.EventData)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Execute a CRMScript 2 (JavaScript), returning the printed output value.
-
-    <p></p>
-
-    <b>Online Restricted:</b> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
-  example: []
+  summary: "\nExecute a CRMScript 2 (JavaScript), returning the printed output value.\n<p></p>\n<strong>Online Restricted:</strong> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
   syntax:
     content: CRMScriptRunResult ExecuteScriptByString(string script, StringDictionary parameters, EventData eventData)
     parameters:
@@ -776,9 +660,6 @@ items:
       description: The output produced by the CRMScript
     content.vb: Function ExecuteScriptByString(script As String, parameters As StringDictionary, eventData As EventData) As CRMScriptRunResult
   overload: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByString*
-  nameWithType.vb: ICRMScriptAgent.ExecuteScriptByString(String, StringDictionary, EventData)
-  fullName.vb: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByString(String, SuperOffice.CRM.Services.StringDictionary, SuperOffice.CRM.Services.EventData)
-  name.vb: ExecuteScriptByString(String, StringDictionary, EventData)
 - uid: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByString(System.String)
   commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByString(System.String)
   id: ValidateScriptByString(System.String)
@@ -786,20 +667,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ValidateScriptByString(string)
-  nameWithType: ICRMScriptAgent.ValidateScriptByString(string)
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByString(string)
+  name: ValidateScriptByString(String)
+  nameWithType: ICRMScriptAgent.ValidateScriptByString(String)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByString(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Validate a CRMScript 2 (JavaScript). This will check that the syntax is correct
-
-    <p></p>
-
-    <b>Online Restricted:</b> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
-  example: []
+  summary: "\nValidate a CRMScript 2 (JavaScript). This will check that the syntax is correct\n<p></p>\n<strong>Online Restricted:</strong> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
   syntax:
     content: CRMScriptResult ValidateScriptByString(string script)
     parameters:
@@ -811,9 +689,6 @@ items:
       description: The result of the syntax check
     content.vb: Function ValidateScriptByString(script As String) As CRMScriptResult
   overload: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByString*
-  nameWithType.vb: ICRMScriptAgent.ValidateScriptByString(String)
-  fullName.vb: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByString(String)
-  name.vb: ValidateScriptByString(String)
 - uid: SuperOffice.CRM.Services.ICRMScriptAgent.ResolveIncludes(System.String,System.Boolean)
   commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.ResolveIncludes(System.String,System.Boolean)
   id: ResolveIncludes(System.String,System.Boolean)
@@ -821,20 +696,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ResolveIncludes(string, bool)
-  nameWithType: ICRMScriptAgent.ResolveIncludes(string, bool)
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ResolveIncludes(string, bool)
+  name: ResolveIncludes(String, Boolean)
+  nameWithType: ICRMScriptAgent.ResolveIncludes(String, Boolean)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ResolveIncludes(System.String, System.Boolean)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Will resolve all includes for a TypeScript and return an array of the IDs
-
-    <p></p>
-
-    <b>Online Restricted:</b> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
-  example: []
+  summary: "\nWill resolve all includes for a TypeScript and return an array of the IDs\n<p></p>\n<strong>Online Restricted:</strong> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
   syntax:
     content: int[] ResolveIncludes(string script, bool ignoreErrors)
     parameters:
@@ -849,9 +721,6 @@ items:
       description: The ids of all the included scripts
     content.vb: Function ResolveIncludes(script As String, ignoreErrors As Boolean) As Integer()
   overload: SuperOffice.CRM.Services.ICRMScriptAgent.ResolveIncludes*
-  nameWithType.vb: ICRMScriptAgent.ResolveIncludes(String, Boolean)
-  fullName.vb: SuperOffice.CRM.Services.ICRMScriptAgent.ResolveIncludes(String, Boolean)
-  name.vb: ResolveIncludes(String, Boolean)
 - uid: SuperOffice.CRM.Services.ICRMScriptAgent.GetTriggerScriptEntity(System.Int32)
   commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.GetTriggerScriptEntity(System.Int32)
   id: GetTriggerScriptEntity(System.Int32)
@@ -859,20 +728,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetTriggerScriptEntity(int)
-  nameWithType: ICRMScriptAgent.GetTriggerScriptEntity(int)
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.GetTriggerScriptEntity(int)
+  name: GetTriggerScriptEntity(Int32)
+  nameWithType: ICRMScriptAgent.GetTriggerScriptEntity(Int32)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.GetTriggerScriptEntity(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Gets a TriggerScriptEntity object.                        
-
-    <p></p>
-
-    <b>Online Restricted:</b> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
-  example: []
+  summary: "\nGets a TriggerScriptEntity object.                        \n<p></p>\n<strong>Online Restricted:</strong> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
   syntax:
     content: TriggerScriptEntity GetTriggerScriptEntity(int triggerScriptEntityId)
     parameters:
@@ -884,9 +750,6 @@ items:
       description: TriggerScriptEntity
     content.vb: Function GetTriggerScriptEntity(triggerScriptEntityId As Integer) As TriggerScriptEntity
   overload: SuperOffice.CRM.Services.ICRMScriptAgent.GetTriggerScriptEntity*
-  nameWithType.vb: ICRMScriptAgent.GetTriggerScriptEntity(Integer)
-  fullName.vb: SuperOffice.CRM.Services.ICRMScriptAgent.GetTriggerScriptEntity(Integer)
-  name.vb: GetTriggerScriptEntity(Integer)
 - uid: SuperOffice.CRM.Services.ICRMScriptAgent.GetTriggerScriptByUniqueId(System.String)
   commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.GetTriggerScriptByUniqueId(System.String)
   id: GetTriggerScriptByUniqueId(System.String)
@@ -894,20 +757,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetTriggerScriptByUniqueId(string)
-  nameWithType: ICRMScriptAgent.GetTriggerScriptByUniqueId(string)
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.GetTriggerScriptByUniqueId(string)
+  name: GetTriggerScriptByUniqueId(String)
+  nameWithType: ICRMScriptAgent.GetTriggerScriptByUniqueId(String)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.GetTriggerScriptByUniqueId(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Get a trigger CRMScript.
-
-    <p></p>
-
-    <b>Online Restricted:</b> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
-  example: []
+  summary: "\nGet a trigger CRMScript.\n<p></p>\n<strong>Online Restricted:</strong> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
   syntax:
     content: TriggerScriptEntity GetTriggerScriptByUniqueId(string triggerScriptUniqueId)
     parameters:
@@ -919,9 +779,6 @@ items:
       description: Trigger script details and source code.
     content.vb: Function GetTriggerScriptByUniqueId(triggerScriptUniqueId As String) As TriggerScriptEntity
   overload: SuperOffice.CRM.Services.ICRMScriptAgent.GetTriggerScriptByUniqueId*
-  nameWithType.vb: ICRMScriptAgent.GetTriggerScriptByUniqueId(String)
-  fullName.vb: SuperOffice.CRM.Services.ICRMScriptAgent.GetTriggerScriptByUniqueId(String)
-  name.vb: GetTriggerScriptByUniqueId(String)
 - uid: SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptByUniqueId(System.String,SuperOffice.CRM.Services.TriggerScriptEntity)
   commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptByUniqueId(System.String,SuperOffice.CRM.Services.TriggerScriptEntity)
   id: SaveTriggerScriptByUniqueId(System.String,SuperOffice.CRM.Services.TriggerScriptEntity)
@@ -929,20 +786,17 @@ items:
   langs:
   - csharp
   - vb
-  name: SaveTriggerScriptByUniqueId(string, TriggerScriptEntity)
-  nameWithType: ICRMScriptAgent.SaveTriggerScriptByUniqueId(string, TriggerScriptEntity)
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptByUniqueId(string, SuperOffice.CRM.Services.TriggerScriptEntity)
+  name: SaveTriggerScriptByUniqueId(String, TriggerScriptEntity)
+  nameWithType: ICRMScriptAgent.SaveTriggerScriptByUniqueId(String, TriggerScriptEntity)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptByUniqueId(System.String, SuperOffice.CRM.Services.TriggerScriptEntity)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Validate a CRMScript. This will check that the syntax is correct
-
-    <p></p>
-
-    <b>Online Restricted:</b> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
-  example: []
+  summary: "\nValidate a CRMScript. This will check that the syntax is correct\n<p></p>\n<strong>Online Restricted:</strong> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
   syntax:
     content: TriggerScriptEntity SaveTriggerScriptByUniqueId(string triggerScriptUniqueId, TriggerScriptEntity entity)
     parameters:
@@ -957,9 +811,6 @@ items:
       description: Trigger script details and source code.
     content.vb: Function SaveTriggerScriptByUniqueId(triggerScriptUniqueId As String, entity As TriggerScriptEntity) As TriggerScriptEntity
   overload: SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptByUniqueId*
-  nameWithType.vb: ICRMScriptAgent.SaveTriggerScriptByUniqueId(String, TriggerScriptEntity)
-  fullName.vb: SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptByUniqueId(String, SuperOffice.CRM.Services.TriggerScriptEntity)
-  name.vb: SaveTriggerScriptByUniqueId(String, TriggerScriptEntity)
 - uid: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptByUniqueId(System.String)
   commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptByUniqueId(System.String)
   id: DeleteTriggerScriptByUniqueId(System.String)
@@ -967,20 +818,17 @@ items:
   langs:
   - csharp
   - vb
-  name: DeleteTriggerScriptByUniqueId(string)
-  nameWithType: ICRMScriptAgent.DeleteTriggerScriptByUniqueId(string)
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptByUniqueId(string)
+  name: DeleteTriggerScriptByUniqueId(String)
+  nameWithType: ICRMScriptAgent.DeleteTriggerScriptByUniqueId(String)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptByUniqueId(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Delete a trigger CRMScript.
-
-    <p></p>
-
-    <b>Online Restricted:</b> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
-  example: []
+  summary: "\nDelete a trigger CRMScript.\n<p></p>\n<strong>Online Restricted:</strong> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
   syntax:
     content: void DeleteTriggerScriptByUniqueId(string triggerScriptUniqueId)
     parameters:
@@ -989,9 +837,6 @@ items:
       description: The unique id of the CRMScript to validate
     content.vb: Sub DeleteTriggerScriptByUniqueId(triggerScriptUniqueId As String)
   overload: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptByUniqueId*
-  nameWithType.vb: ICRMScriptAgent.DeleteTriggerScriptByUniqueId(String)
-  fullName.vb: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptByUniqueId(String)
-  name.vb: DeleteTriggerScriptByUniqueId(String)
 - uid: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateTriggerScript(System.Int32)
   commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.ValidateTriggerScript(System.Int32)
   id: ValidateTriggerScript(System.Int32)
@@ -999,20 +844,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ValidateTriggerScript(int)
-  nameWithType: ICRMScriptAgent.ValidateTriggerScript(int)
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateTriggerScript(int)
+  name: ValidateTriggerScript(Int32)
+  nameWithType: ICRMScriptAgent.ValidateTriggerScript(Int32)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateTriggerScript(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Validate a Trigger CRMScript. This will check that the syntax is correct, but not execute the script.
-
-    <p></p>
-
-    <b>Online Restricted:</b> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
-  example: []
+  summary: "\nValidate a Trigger CRMScript. This will check that the syntax is correct, but not execute the script.\n<p></p>\n<strong>Online Restricted:</strong> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
   syntax:
     content: CRMScriptResult ValidateTriggerScript(int triggerScriptId)
     parameters:
@@ -1024,9 +866,6 @@ items:
       description: True if the syntax is correct
     content.vb: Function ValidateTriggerScript(triggerScriptId As Integer) As CRMScriptResult
   overload: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateTriggerScript*
-  nameWithType.vb: ICRMScriptAgent.ValidateTriggerScript(Integer)
-  fullName.vb: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateTriggerScript(Integer)
-  name.vb: ValidateTriggerScript(Integer)
 - uid: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateTriggerScriptByUniqueId(System.String)
   commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.ValidateTriggerScriptByUniqueId(System.String)
   id: ValidateTriggerScriptByUniqueId(System.String)
@@ -1034,20 +873,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ValidateTriggerScriptByUniqueId(string)
-  nameWithType: ICRMScriptAgent.ValidateTriggerScriptByUniqueId(string)
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateTriggerScriptByUniqueId(string)
+  name: ValidateTriggerScriptByUniqueId(String)
+  nameWithType: ICRMScriptAgent.ValidateTriggerScriptByUniqueId(String)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateTriggerScriptByUniqueId(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Validate a Trigger CRMScript. This will check that the syntax is correct, but not execute the script.
-
-    <p></p>
-
-    <b>Online Restricted:</b> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
-  example: []
+  summary: "\nValidate a Trigger CRMScript. This will check that the syntax is correct, but not execute the script.\n<p></p>\n<strong>Online Restricted:</strong> The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
   syntax:
     content: CRMScriptResult ValidateTriggerScriptByUniqueId(string triggerScriptUniqueId)
     parameters:
@@ -1059,51 +895,16 @@ items:
       description: True if the syntax is correct
     content.vb: Function ValidateTriggerScriptByUniqueId(triggerScriptUniqueId As String) As CRMScriptResult
   overload: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateTriggerScriptByUniqueId*
-  nameWithType.vb: ICRMScriptAgent.ValidateTriggerScriptByUniqueId(String)
-  fullName.vb: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateTriggerScriptByUniqueId(String)
-  name.vb: ValidateTriggerScriptByUniqueId(String)
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
 - uid: SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultCRMScriptEntity*
   commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultCRMScriptEntity
   isExternal: true
-  href: SuperOffice.CRM.Services.ICRMScriptAgent.html#SuperOffice_CRM_Services_ICRMScriptAgent_CreateDefaultCRMScriptEntity
   name: CreateDefaultCRMScriptEntity
   nameWithType: ICRMScriptAgent.CreateDefaultCRMScriptEntity
   fullName: SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultCRMScriptEntity
@@ -1111,21 +912,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.CRMScriptEntity
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.CRMScriptEntity.html
   name: CRMScriptEntity
   nameWithType: CRMScriptEntity
   fullName: SuperOffice.CRM.Services.CRMScriptEntity
 - uid: SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptEntity*
   commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptEntity
   isExternal: true
-  href: SuperOffice.CRM.Services.ICRMScriptAgent.html#SuperOffice_CRM_Services_ICRMScriptAgent_SaveCRMScriptEntity_SuperOffice_CRM_Services_CRMScriptEntity_
   name: SaveCRMScriptEntity
   nameWithType: ICRMScriptAgent.SaveCRMScriptEntity
   fullName: SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptEntity
 - uid: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptEntity*
   commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptEntity
   isExternal: true
-  href: SuperOffice.CRM.Services.ICRMScriptAgent.html#SuperOffice_CRM_Services_ICRMScriptAgent_DeleteCRMScriptEntity_System_Int32_
   name: DeleteCRMScriptEntity
   nameWithType: ICRMScriptAgent.DeleteCRMScriptEntity
   fullName: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptEntity
@@ -1133,24 +931,18 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultTriggerScriptEntity*
   commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultTriggerScriptEntity
   isExternal: true
-  href: SuperOffice.CRM.Services.ICRMScriptAgent.html#SuperOffice_CRM_Services_ICRMScriptAgent_CreateDefaultTriggerScriptEntity
   name: CreateDefaultTriggerScriptEntity
   nameWithType: ICRMScriptAgent.CreateDefaultTriggerScriptEntity
   fullName: SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultTriggerScriptEntity
@@ -1158,28 +950,24 @@ references:
   commentId: T:SuperOffice.CRM.Services.TriggerScriptEntity
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.TriggerScriptEntity.html
   name: TriggerScriptEntity
   nameWithType: TriggerScriptEntity
   fullName: SuperOffice.CRM.Services.TriggerScriptEntity
 - uid: SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptEntity*
   commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptEntity
   isExternal: true
-  href: SuperOffice.CRM.Services.ICRMScriptAgent.html#SuperOffice_CRM_Services_ICRMScriptAgent_SaveTriggerScriptEntity_SuperOffice_CRM_Services_TriggerScriptEntity_
   name: SaveTriggerScriptEntity
   nameWithType: ICRMScriptAgent.SaveTriggerScriptEntity
   fullName: SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptEntity
 - uid: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptEntity*
   commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptEntity
   isExternal: true
-  href: SuperOffice.CRM.Services.ICRMScriptAgent.html#SuperOffice_CRM_Services_ICRMScriptAgent_DeleteTriggerScriptEntity_System_Int32_
   name: DeleteTriggerScriptEntity
   nameWithType: ICRMScriptAgent.DeleteTriggerScriptEntity
   fullName: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptEntity
 - uid: SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptByUniqueIdentifier*
   commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptByUniqueIdentifier
   isExternal: true
-  href: SuperOffice.CRM.Services.ICRMScriptAgent.html#SuperOffice_CRM_Services_ICRMScriptAgent_GetCRMScriptByUniqueIdentifier_System_String_
   name: GetCRMScriptByUniqueIdentifier
   nameWithType: ICRMScriptAgent.GetCRMScriptByUniqueIdentifier
   fullName: SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptByUniqueIdentifier
@@ -1187,53 +975,43 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.CRM.Services.Script
   commentId: T:SuperOffice.CRM.Services.Script
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.Script.html
   name: Script
   nameWithType: Script
   fullName: SuperOffice.CRM.Services.Script
 - uid: SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptByUniqueIdentifier*
   commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptByUniqueIdentifier
   isExternal: true
-  href: SuperOffice.CRM.Services.ICRMScriptAgent.html#SuperOffice_CRM_Services_ICRMScriptAgent_SaveCRMScriptByUniqueIdentifier_System_String_SuperOffice_CRM_Services_Script_
   name: SaveCRMScriptByUniqueIdentifier
   nameWithType: ICRMScriptAgent.SaveCRMScriptByUniqueIdentifier
   fullName: SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptByUniqueIdentifier
 - uid: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptByUniqueIdentifier*
   commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptByUniqueIdentifier
   isExternal: true
-  href: SuperOffice.CRM.Services.ICRMScriptAgent.html#SuperOffice_CRM_Services_ICRMScriptAgent_DeleteCRMScriptByUniqueIdentifier_System_String_
   name: DeleteCRMScriptByUniqueIdentifier
   nameWithType: ICRMScriptAgent.DeleteCRMScriptByUniqueIdentifier
   fullName: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptByUniqueIdentifier
 - uid: SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptEntity*
   commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptEntity
   isExternal: true
-  href: SuperOffice.CRM.Services.ICRMScriptAgent.html#SuperOffice_CRM_Services_ICRMScriptAgent_GetCRMScriptEntity_System_Int32_
   name: GetCRMScriptEntity
   nameWithType: ICRMScriptAgent.GetCRMScriptEntity
   fullName: SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptEntity
 - uid: SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptEntityWithoutCompile*
   commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptEntityWithoutCompile
   isExternal: true
-  href: SuperOffice.CRM.Services.ICRMScriptAgent.html#SuperOffice_CRM_Services_ICRMScriptAgent_SaveCRMScriptEntityWithoutCompile_SuperOffice_CRM_Services_CRMScriptEntity_
   name: SaveCRMScriptEntityWithoutCompile
   nameWithType: ICRMScriptAgent.SaveCRMScriptEntityWithoutCompile
   fullName: SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptEntityWithoutCompile
 - uid: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScript*
   commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScript
   isExternal: true
-  href: SuperOffice.CRM.Services.ICRMScriptAgent.html#SuperOffice_CRM_Services_ICRMScriptAgent_ExecuteScript_System_Int32_SuperOffice_CRM_Services_StringDictionary_
   name: ExecuteScript
   nameWithType: ICRMScriptAgent.ExecuteScript
   fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScript
@@ -1245,21 +1023,18 @@ references:
 - uid: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByIncludeId*
   commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByIncludeId
   isExternal: true
-  href: SuperOffice.CRM.Services.ICRMScriptAgent.html#SuperOffice_CRM_Services_ICRMScriptAgent_ExecuteScriptByIncludeId_System_String_SuperOffice_CRM_Services_StringDictionary_
   name: ExecuteScriptByIncludeId
   nameWithType: ICRMScriptAgent.ExecuteScriptByIncludeId
   fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByIncludeId
 - uid: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByUniqueId*
   commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByUniqueId
   isExternal: true
-  href: SuperOffice.CRM.Services.ICRMScriptAgent.html#SuperOffice_CRM_Services_ICRMScriptAgent_ExecuteScriptByUniqueId_System_String_SuperOffice_CRM_Services_StringDictionary_
   name: ExecuteScriptByUniqueId
   nameWithType: ICRMScriptAgent.ExecuteScriptByUniqueId
   fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByUniqueId
 - uid: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptAsEvent*
   commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptAsEvent
   isExternal: true
-  href: SuperOffice.CRM.Services.ICRMScriptAgent.html#SuperOffice_CRM_Services_ICRMScriptAgent_ExecuteScriptAsEvent_System_Int32_SuperOffice_CRM_Services_EventData_
   name: ExecuteScriptAsEvent
   nameWithType: ICRMScriptAgent.ExecuteScriptAsEvent
   fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptAsEvent
@@ -1267,21 +1042,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.EventData
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.EventData.html
   name: EventData
   nameWithType: EventData
   fullName: SuperOffice.CRM.Services.EventData
 - uid: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptAsEventByUniqueId*
   commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptAsEventByUniqueId
   isExternal: true
-  href: SuperOffice.CRM.Services.ICRMScriptAgent.html#SuperOffice_CRM_Services_ICRMScriptAgent_ExecuteScriptAsEventByUniqueId_System_String_SuperOffice_CRM_Services_EventData_
   name: ExecuteScriptAsEventByUniqueId
   nameWithType: ICRMScriptAgent.ExecuteScriptAsEventByUniqueId
   fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptAsEventByUniqueId
 - uid: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScript*
   commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScript
   isExternal: true
-  href: SuperOffice.CRM.Services.ICRMScriptAgent.html#SuperOffice_CRM_Services_ICRMScriptAgent_ValidateScript_System_Int32_
   name: ValidateScript
   nameWithType: ICRMScriptAgent.ValidateScript
   fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScript
@@ -1289,28 +1061,24 @@ references:
   commentId: T:SuperOffice.CRM.Services.CRMScriptResult
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.CRMScriptResult.html
   name: CRMScriptResult
   nameWithType: CRMScriptResult
   fullName: SuperOffice.CRM.Services.CRMScriptResult
 - uid: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByIncludeId*
   commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByIncludeId
   isExternal: true
-  href: SuperOffice.CRM.Services.ICRMScriptAgent.html#SuperOffice_CRM_Services_ICRMScriptAgent_ValidateScriptByIncludeId_System_String_
   name: ValidateScriptByIncludeId
   nameWithType: ICRMScriptAgent.ValidateScriptByIncludeId
   fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByIncludeId
 - uid: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByUniqueId*
   commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByUniqueId
   isExternal: true
-  href: SuperOffice.CRM.Services.ICRMScriptAgent.html#SuperOffice_CRM_Services_ICRMScriptAgent_ValidateScriptByUniqueId_System_String_
   name: ValidateScriptByUniqueId
   nameWithType: ICRMScriptAgent.ValidateScriptByUniqueId
   fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByUniqueId
 - uid: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByString*
   commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByString
   isExternal: true
-  href: SuperOffice.CRM.Services.ICRMScriptAgent.html#SuperOffice_CRM_Services_ICRMScriptAgent_ExecuteScriptByString_System_String_SuperOffice_CRM_Services_StringDictionary_SuperOffice_CRM_Services_EventData_
   name: ExecuteScriptByString
   nameWithType: ICRMScriptAgent.ExecuteScriptByString
   fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ExecuteScriptByString
@@ -1318,21 +1086,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.CRMScriptRunResult
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.CRMScriptRunResult.html
   name: CRMScriptRunResult
   nameWithType: CRMScriptRunResult
   fullName: SuperOffice.CRM.Services.CRMScriptRunResult
 - uid: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByString*
   commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByString
   isExternal: true
-  href: SuperOffice.CRM.Services.ICRMScriptAgent.html#SuperOffice_CRM_Services_ICRMScriptAgent_ValidateScriptByString_System_String_
   name: ValidateScriptByString
   nameWithType: ICRMScriptAgent.ValidateScriptByString
   fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateScriptByString
 - uid: SuperOffice.CRM.Services.ICRMScriptAgent.ResolveIncludes*
   commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.ResolveIncludes
   isExternal: true
-  href: SuperOffice.CRM.Services.ICRMScriptAgent.html#SuperOffice_CRM_Services_ICRMScriptAgent_ResolveIncludes_System_String_System_Boolean_
   name: ResolveIncludes
   nameWithType: ICRMScriptAgent.ResolveIncludes
   fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ResolveIncludes
@@ -1340,75 +1105,68 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: System.Int32[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int[]
-  nameWithType: int[]
-  fullName: int[]
-  nameWithType.vb: Integer()
-  fullName.vb: Integer()
-  name.vb: Integer()
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
   spec.csharp:
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.ICRMScriptAgent.GetTriggerScriptEntity*
   commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.GetTriggerScriptEntity
   isExternal: true
-  href: SuperOffice.CRM.Services.ICRMScriptAgent.html#SuperOffice_CRM_Services_ICRMScriptAgent_GetTriggerScriptEntity_System_Int32_
   name: GetTriggerScriptEntity
   nameWithType: ICRMScriptAgent.GetTriggerScriptEntity
   fullName: SuperOffice.CRM.Services.ICRMScriptAgent.GetTriggerScriptEntity
 - uid: SuperOffice.CRM.Services.ICRMScriptAgent.GetTriggerScriptByUniqueId*
   commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.GetTriggerScriptByUniqueId
   isExternal: true
-  href: SuperOffice.CRM.Services.ICRMScriptAgent.html#SuperOffice_CRM_Services_ICRMScriptAgent_GetTriggerScriptByUniqueId_System_String_
   name: GetTriggerScriptByUniqueId
   nameWithType: ICRMScriptAgent.GetTriggerScriptByUniqueId
   fullName: SuperOffice.CRM.Services.ICRMScriptAgent.GetTriggerScriptByUniqueId
 - uid: SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptByUniqueId*
   commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptByUniqueId
   isExternal: true
-  href: SuperOffice.CRM.Services.ICRMScriptAgent.html#SuperOffice_CRM_Services_ICRMScriptAgent_SaveTriggerScriptByUniqueId_System_String_SuperOffice_CRM_Services_TriggerScriptEntity_
   name: SaveTriggerScriptByUniqueId
   nameWithType: ICRMScriptAgent.SaveTriggerScriptByUniqueId
   fullName: SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptByUniqueId
 - uid: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptByUniqueId*
   commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptByUniqueId
   isExternal: true
-  href: SuperOffice.CRM.Services.ICRMScriptAgent.html#SuperOffice_CRM_Services_ICRMScriptAgent_DeleteTriggerScriptByUniqueId_System_String_
   name: DeleteTriggerScriptByUniqueId
   nameWithType: ICRMScriptAgent.DeleteTriggerScriptByUniqueId
   fullName: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptByUniqueId
 - uid: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateTriggerScript*
   commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.ValidateTriggerScript
   isExternal: true
-  href: SuperOffice.CRM.Services.ICRMScriptAgent.html#SuperOffice_CRM_Services_ICRMScriptAgent_ValidateTriggerScript_System_Int32_
   name: ValidateTriggerScript
   nameWithType: ICRMScriptAgent.ValidateTriggerScript
   fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateTriggerScript
 - uid: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateTriggerScriptByUniqueId*
   commentId: Overload:SuperOffice.CRM.Services.ICRMScriptAgent.ValidateTriggerScriptByUniqueId
   isExternal: true
-  href: SuperOffice.CRM.Services.ICRMScriptAgent.html#SuperOffice_CRM_Services_ICRMScriptAgent_ValidateTriggerScriptByUniqueId_System_String_
   name: ValidateTriggerScriptByUniqueId
   nameWithType: ICRMScriptAgent.ValidateTriggerScriptByUniqueId
   fullName: SuperOffice.CRM.Services.ICRMScriptAgent.ValidateTriggerScriptByUniqueId

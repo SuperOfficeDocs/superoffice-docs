@@ -24,28 +24,24 @@ items:
   nameWithType: TriggerScriptEntity
   fullName: SuperOffice.WebApi.Data.TriggerScriptEntity
   type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Carrier object for TriggerScriptEntity.
+  summary: "\nCarrier object for TriggerScriptEntity.\nCRM Trigger Script - The script runs when a given event fires.    \n"
+  remarks: >
+    Use <xref href="SuperOffice.CRM.Services.ArchiveAgent" data-throw-if-not-resolved="false"></xref>:
 
-    CRM Trigger Script - The script runs when a given event fires.
-  remarks: >-
-    Use <xref href="SuperOffice.CRM.Services.ArchiveAgent?text=Archive+agent" data-throw-if-not-resolved="false"></xref>:
-                All TriggerScriptEntity: <pre><code class="lang-csharp">"EventHandler"</code></pre>
+    All TriggerScriptEntity: <pre><code>&quot;EventHandler&quot;</code></pre>
   example:
-  - >-
-    Get TriggerScriptEntity 123 using the WebApi client:
-
-    <pre><code class="lang-csharp">var configuration = new WebApiConfiguration(url);
-
-    var agent = new CRMScriptAgent(configuration);
-
-    var triggerScriptEntity = agent.GetTriggerScriptEntity( 123 );</code></pre>
+  - "\nGet TriggerScriptEntity 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new CRMScriptAgent(configuration);\nvar triggerScriptEntity = agent.GetTriggerScriptEntity( 123 );</code></pre>\n"
   syntax:
     content: 'public class TriggerScriptEntity : Carrier'
-    content.vb: Public Class TriggerScriptEntity Inherits Carrier
+    content.vb: >-
+      Public Class TriggerScriptEntity
+          Inherits Carrier
   seealso:
   - linkId: SuperOffice.WebApi.Agents.CRMScriptAgent
     commentId: T:SuperOffice.WebApi.Agents.CRMScriptAgent
@@ -59,13 +55,12 @@ items:
   inheritedMembers:
   - SuperOffice.WebApi.Data.Carrier.TableRight
   - SuperOffice.WebApi.Data.Carrier.FieldProperties
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.WebApi.Data.TriggerScriptEntity.#ctor
   commentId: M:SuperOffice.WebApi.Data.TriggerScriptEntity.#ctor
   id: '#ctor'
@@ -77,18 +72,21 @@ items:
   nameWithType: TriggerScriptEntity.TriggerScriptEntity()
   fullName: SuperOffice.WebApi.Data.TriggerScriptEntity.TriggerScriptEntity()
   type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Default constructor - defaults any enum props to 0.
-  example: []
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
   syntax:
     content: public TriggerScriptEntity()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.WebApi.Data.TriggerScriptEntity.#ctor*
-  nameWithType.vb: TriggerScriptEntity.New()
-  fullName.vb: SuperOffice.WebApi.Data.TriggerScriptEntity.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.TriggerScriptEntity.ScreenChooserId
   commentId: P:SuperOffice.WebApi.Data.TriggerScriptEntity.ScreenChooserId
   id: ScreenChooserId
@@ -100,11 +98,13 @@ items:
   nameWithType: TriggerScriptEntity.ScreenChooserId
   fullName: SuperOffice.WebApi.Data.TriggerScriptEntity.ScreenChooserId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Primary key
-  example: []
+  summary: "\nPrimary key\n"
   syntax:
     content: public virtual int ScreenChooserId { get; set; }
     parameters: []
@@ -112,6 +112,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property ScreenChooserId As Integer
   overload: SuperOffice.WebApi.Data.TriggerScriptEntity.ScreenChooserId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.TriggerScriptEntity.Name
   commentId: P:SuperOffice.WebApi.Data.TriggerScriptEntity.Name
   id: Name
@@ -123,11 +131,13 @@ items:
   nameWithType: TriggerScriptEntity.Name
   fullName: SuperOffice.WebApi.Data.TriggerScriptEntity.Name
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Optional description of what this script is used for.
-  example: []
+  summary: "\nOptional description of what this script is used for.\n"
   syntax:
     content: public virtual string Name { get; set; }
     parameters: []
@@ -135,6 +145,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property Name As String
   overload: SuperOffice.WebApi.Data.TriggerScriptEntity.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.TriggerScriptEntity.ScreenType_String
   commentId: P:SuperOffice.WebApi.Data.TriggerScriptEntity.ScreenType_String
   id: ScreenType_String
@@ -146,36 +164,29 @@ items:
   nameWithType: TriggerScriptEntity.ScreenType_String
   fullName: SuperOffice.WebApi.Data.TriggerScriptEntity.ScreenType_String
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Event id that triggers script.  See EventHandlerType enum.
-
-    Raw string enum value.
-  example: []
+  summary: "\nEvent id that triggers script.  See EventHandlerType enum.\nRaw string enum value.\n"
   syntax:
-    content: >-
-      [JsonProperty("ScreenType")]
-
-      public string ScreenType_String { get; set; }
+    content: public string ScreenType_String { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <JsonProperty("ScreenType")>
-
-      Public Property ScreenType_String As String
+    content.vb: Public Property ScreenType_String As String
   overload: SuperOffice.WebApi.Data.TriggerScriptEntity.ScreenType_String*
   seealso:
   - linkId: SuperOffice.WebApi.Data.TriggerScriptEntity.ScreenType
     commentId: P:SuperOffice.WebApi.Data.TriggerScriptEntity.ScreenType
-  attributes:
-  - type: Newtonsoft.Json.JsonPropertyAttribute
-    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: ScreenType
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.TriggerScriptEntity.ScreenType
   commentId: P:SuperOffice.WebApi.Data.TriggerScriptEntity.ScreenType
   id: ScreenType
@@ -187,34 +198,29 @@ items:
   nameWithType: TriggerScriptEntity.ScreenType
   fullName: SuperOffice.WebApi.Data.TriggerScriptEntity.ScreenType
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Event id that triggers script.  See EventHandlerType enum.
-
-    NULL if unknown enum value.
-  example: []
+  summary: "\nEvent id that triggers script.  See EventHandlerType enum.\nNULL if unknown enum value.\n"
   syntax:
-    content: >-
-      [JsonIgnore]
-
-      public EventHandlerType? ScreenType { get; set; }
+    content: public Nullable<EventHandlerType> ScreenType { get; set; }
     parameters: []
     return:
       type: System.Nullable{SuperOffice.WebApi.Data.EventHandlerType}
-    content.vb: >-
-      <JsonIgnore>
-
-      Public Property ScreenType As EventHandlerType?
+    content.vb: Public Property ScreenType As Nullable(Of EventHandlerType)
   overload: SuperOffice.WebApi.Data.TriggerScriptEntity.ScreenType*
   seealso:
   - linkId: SuperOffice.WebApi.Data.TriggerScriptEntity.ScreenType_String
     commentId: P:SuperOffice.WebApi.Data.TriggerScriptEntity.ScreenType_String
-  attributes:
-  - type: Newtonsoft.Json.JsonIgnoreAttribute
-    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.TriggerScriptEntity.Enabled
   commentId: P:SuperOffice.WebApi.Data.TriggerScriptEntity.Enabled
   id: Enabled
@@ -226,11 +232,13 @@ items:
   nameWithType: TriggerScriptEntity.Enabled
   fullName: SuperOffice.WebApi.Data.TriggerScriptEntity.Enabled
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Whether this screen chooser is enabled or not
-  example: []
+  summary: "\nWhether this screen chooser is enabled or not\n"
   syntax:
     content: public virtual bool Enabled { get; set; }
     parameters: []
@@ -238,6 +246,14 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property Enabled As Boolean
   overload: SuperOffice.WebApi.Data.TriggerScriptEntity.Enabled*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.TriggerScriptEntity.UniqueIdentifier
   commentId: P:SuperOffice.WebApi.Data.TriggerScriptEntity.UniqueIdentifier
   id: UniqueIdentifier
@@ -249,11 +265,13 @@ items:
   nameWithType: TriggerScriptEntity.UniqueIdentifier
   fullName: SuperOffice.WebApi.Data.TriggerScriptEntity.UniqueIdentifier
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Global unique identifier, accross customers/tenants
-  example: []
+  summary: "\nGlobal unique identifier, accross customers/tenants\n"
   syntax:
     content: public virtual string UniqueIdentifier { get; set; }
     parameters: []
@@ -261,6 +279,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property UniqueIdentifier As String
   overload: SuperOffice.WebApi.Data.TriggerScriptEntity.UniqueIdentifier*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.TriggerScriptEntity.Source
   commentId: P:SuperOffice.WebApi.Data.TriggerScriptEntity.Source
   id: Source
@@ -272,11 +298,13 @@ items:
   nameWithType: TriggerScriptEntity.Source
   fullName: SuperOffice.WebApi.Data.TriggerScriptEntity.Source
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The CRMscript code for this event handler
-  example: []
+  summary: "\nThe CRMscript code for this event handler\n"
   syntax:
     content: public virtual string Source { get; set; }
     parameters: []
@@ -284,6 +312,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property Source As String
   overload: SuperOffice.WebApi.Data.TriggerScriptEntity.Source*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.TriggerScriptEntity.Registered
   commentId: P:SuperOffice.WebApi.Data.TriggerScriptEntity.Registered
   id: Registered
@@ -295,18 +331,28 @@ items:
   nameWithType: TriggerScriptEntity.Registered
   fullName: SuperOffice.WebApi.Data.TriggerScriptEntity.Registered
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Registered when
-  example: []
+  summary: "\nRegistered when\n"
   syntax:
     content: public virtual DateTime Registered { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property Registered As Date
+    content.vb: Public Overridable Property Registered As DateTime
   overload: SuperOffice.WebApi.Data.TriggerScriptEntity.Registered*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.TriggerScriptEntity.RegisteredAssociateId
   commentId: P:SuperOffice.WebApi.Data.TriggerScriptEntity.RegisteredAssociateId
   id: RegisteredAssociateId
@@ -318,11 +364,13 @@ items:
   nameWithType: TriggerScriptEntity.RegisteredAssociateId
   fullName: SuperOffice.WebApi.Data.TriggerScriptEntity.RegisteredAssociateId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Registered by whom
-  example: []
+  summary: "\nRegistered by whom\n"
   syntax:
     content: public virtual int RegisteredAssociateId { get; set; }
     parameters: []
@@ -330,6 +378,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property RegisteredAssociateId As Integer
   overload: SuperOffice.WebApi.Data.TriggerScriptEntity.RegisteredAssociateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.TriggerScriptEntity.Updated
   commentId: P:SuperOffice.WebApi.Data.TriggerScriptEntity.Updated
   id: Updated
@@ -341,18 +397,28 @@ items:
   nameWithType: TriggerScriptEntity.Updated
   fullName: SuperOffice.WebApi.Data.TriggerScriptEntity.Updated
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Last updated when
-  example: []
+  summary: "\nLast updated when\n"
   syntax:
     content: public virtual DateTime Updated { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property Updated As Date
+    content.vb: Public Overridable Property Updated As DateTime
   overload: SuperOffice.WebApi.Data.TriggerScriptEntity.Updated*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.TriggerScriptEntity.UpdatedAssociateId
   commentId: P:SuperOffice.WebApi.Data.TriggerScriptEntity.UpdatedAssociateId
   id: UpdatedAssociateId
@@ -364,11 +430,13 @@ items:
   nameWithType: TriggerScriptEntity.UpdatedAssociateId
   fullName: SuperOffice.WebApi.Data.TriggerScriptEntity.UpdatedAssociateId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Last updated by whom
-  example: []
+  summary: "\nLast updated by whom\n"
   syntax:
     content: public virtual int UpdatedAssociateId { get; set; }
     parameters: []
@@ -376,80 +444,32 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property UpdatedAssociateId As Integer
   overload: SuperOffice.WebApi.Data.TriggerScriptEntity.UpdatedAssociateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
-- uid: SuperOffice.WebApi.Agents.CRMScriptAgent
-  commentId: T:SuperOffice.WebApi.Agents.CRMScriptAgent
-  isExternal: true
-  href: SuperOffice.WebApi.Agents.CRMScriptAgent.html
-  name: CRMScriptAgent
-  nameWithType: CRMScriptAgent
-  fullName: SuperOffice.WebApi.Agents.CRMScriptAgent
-- uid: SuperOffice.WebApi.Agents.ArchiveAgent
-  commentId: T:SuperOffice.WebApi.Agents.ArchiveAgent
-  isExternal: true
-  href: SuperOffice.WebApi.Agents.ArchiveAgent.html
-  name: ArchiveAgent
-  nameWithType: ArchiveAgent
-  fullName: SuperOffice.WebApi.Agents.ArchiveAgent
-- uid: ArchiveAgent.GetArchiveListByColumns2(string,string,string,string,string,int,int)
-  commentId: M:ArchiveAgent.GetArchiveListByColumns2(string,string,string,string,string,int,int)
-  isExternal: true
-- uid: SuperOffice.CRM.Services.ArchiveAgent
-  commentId: T:SuperOffice.CRM.Services.ArchiveAgent
-  isExternal: true
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.WebApi.Data.Carrier
   commentId: T:SuperOffice.WebApi.Data.Carrier
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html
   name: Carrier
   nameWithType: Carrier
   fullName: SuperOffice.WebApi.Data.Carrier
@@ -457,7 +477,6 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_TableRight
   name: TableRight
   nameWithType: Carrier.TableRight
   fullName: SuperOffice.WebApi.Data.Carrier.TableRight
@@ -465,250 +484,39 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_FieldProperties
   name: FieldProperties
   nameWithType: Carrier.FieldProperties
   fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
+- uid: SuperOffice.WebApi.Agents.CRMScriptAgent
+  commentId: T:SuperOffice.WebApi.Agents.CRMScriptAgent
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
+  name: CRMScriptAgent
+  nameWithType: CRMScriptAgent
+  fullName: SuperOffice.WebApi.Agents.CRMScriptAgent
+- uid: SuperOffice.WebApi.Agents.ArchiveAgent
+  commentId: T:SuperOffice.WebApi.Agents.ArchiveAgent
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
+  name: ArchiveAgent
+  nameWithType: ArchiveAgent
+  fullName: SuperOffice.WebApi.Agents.ArchiveAgent
+- uid: ArchiveAgent.GetArchiveListByColumns2(string,string,string,string,string,int,int)
+  commentId: M:ArchiveAgent.GetArchiveListByColumns2(string,string,string,string,string,int,int)
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Data.TriggerScriptEntity.#ctor*
   commentId: Overload:SuperOffice.WebApi.Data.TriggerScriptEntity.#ctor
   isExternal: true
-  href: SuperOffice.WebApi.Data.TriggerScriptEntity.html#SuperOffice_WebApi_Data_TriggerScriptEntity__ctor
   name: TriggerScriptEntity
   nameWithType: TriggerScriptEntity.TriggerScriptEntity
   fullName: SuperOffice.WebApi.Data.TriggerScriptEntity.TriggerScriptEntity
-  nameWithType.vb: TriggerScriptEntity.New
-  fullName.vb: SuperOffice.WebApi.Data.TriggerScriptEntity.New
-  name.vb: New
 - uid: SuperOffice.WebApi.Data.TriggerScriptEntity.ScreenChooserId*
   commentId: Overload:SuperOffice.WebApi.Data.TriggerScriptEntity.ScreenChooserId
   isExternal: true
-  href: SuperOffice.WebApi.Data.TriggerScriptEntity.html#SuperOffice_WebApi_Data_TriggerScriptEntity_ScreenChooserId
   name: ScreenChooserId
   nameWithType: TriggerScriptEntity.ScreenChooserId
   fullName: SuperOffice.WebApi.Data.TriggerScriptEntity.ScreenChooserId
@@ -716,17 +524,12 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.WebApi.Data.TriggerScriptEntity.Name*
   commentId: Overload:SuperOffice.WebApi.Data.TriggerScriptEntity.Name
   isExternal: true
-  href: SuperOffice.WebApi.Data.TriggerScriptEntity.html#SuperOffice_WebApi_Data_TriggerScriptEntity_Name
   name: Name
   nameWithType: TriggerScriptEntity.Name
   fullName: SuperOffice.WebApi.Data.TriggerScriptEntity.Name
@@ -734,93 +537,111 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
-- uid: SuperOffice.WebApi.Data.TriggerScriptEntity.ScreenType
-  commentId: P:SuperOffice.WebApi.Data.TriggerScriptEntity.ScreenType
-  isExternal: true
-  href: SuperOffice.WebApi.Data.TriggerScriptEntity.html#SuperOffice_WebApi_Data_TriggerScriptEntity_ScreenType
-  name: ScreenType
-  nameWithType: TriggerScriptEntity.ScreenType
-  fullName: SuperOffice.WebApi.Data.TriggerScriptEntity.ScreenType
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.WebApi.Data.TriggerScriptEntity.ScreenType_String*
   commentId: Overload:SuperOffice.WebApi.Data.TriggerScriptEntity.ScreenType_String
   isExternal: true
-  href: SuperOffice.WebApi.Data.TriggerScriptEntity.html#SuperOffice_WebApi_Data_TriggerScriptEntity_ScreenType_String
   name: ScreenType_String
   nameWithType: TriggerScriptEntity.ScreenType_String
   fullName: SuperOffice.WebApi.Data.TriggerScriptEntity.ScreenType_String
-- uid: SuperOffice.WebApi.Data.TriggerScriptEntity.ScreenType_String
-  commentId: P:SuperOffice.WebApi.Data.TriggerScriptEntity.ScreenType_String
+- uid: SuperOffice.WebApi.Data.TriggerScriptEntity.ScreenType
+  commentId: P:SuperOffice.WebApi.Data.TriggerScriptEntity.ScreenType
   isExternal: true
-  href: SuperOffice.WebApi.Data.TriggerScriptEntity.html#SuperOffice_WebApi_Data_TriggerScriptEntity_ScreenType_String
-  name: ScreenType_String
-  nameWithType: TriggerScriptEntity.ScreenType_String
-  fullName: SuperOffice.WebApi.Data.TriggerScriptEntity.ScreenType_String
 - uid: SuperOffice.WebApi.Data.TriggerScriptEntity.ScreenType*
   commentId: Overload:SuperOffice.WebApi.Data.TriggerScriptEntity.ScreenType
   isExternal: true
-  href: SuperOffice.WebApi.Data.TriggerScriptEntity.html#SuperOffice_WebApi_Data_TriggerScriptEntity_ScreenType
   name: ScreenType
   nameWithType: TriggerScriptEntity.ScreenType
   fullName: SuperOffice.WebApi.Data.TriggerScriptEntity.ScreenType
-- uid: System.Nullable{SuperOffice.WebApi.Data.EventHandlerType}
-  commentId: T:System.Nullable{SuperOffice.WebApi.Data.EventHandlerType}
-  parent: System
-  definition: System.Nullable`1
-  href: SuperOffice.WebApi.Data.EventHandlerType.html
-  name: EventHandlerType?
-  nameWithType: EventHandlerType?
-  fullName: SuperOffice.WebApi.Data.EventHandlerType?
-  spec.csharp:
-  - uid: SuperOffice.WebApi.Data.EventHandlerType
-    name: EventHandlerType
-    isExternal: true
-    href: SuperOffice.WebApi.Data.EventHandlerType.html
-  - name: '?'
-  spec.vb:
-  - uid: SuperOffice.WebApi.Data.EventHandlerType
-    name: EventHandlerType
-    isExternal: true
-    href: SuperOffice.WebApi.Data.EventHandlerType.html
-  - name: '?'
-- uid: System.Nullable`1
-  commentId: T:System.Nullable`1
+- uid: SuperOffice.WebApi.Data.TriggerScriptEntity.ScreenType_String
+  commentId: P:SuperOffice.WebApi.Data.TriggerScriptEntity.ScreenType_String
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
-  name: Nullable<T>
-  nameWithType: Nullable<T>
-  fullName: System.Nullable<T>
-  nameWithType.vb: Nullable(Of T)
-  fullName.vb: System.Nullable(Of T)
-  name.vb: Nullable(Of T)
+- uid: System.Nullable{SuperOffice.WebApi.Data.EventHandlerType}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.EventHandlerType}'
+  definition: System.Nullable`1
+  name: Nullable<EventHandlerType>
+  nameWithType: Nullable<EventHandlerType>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.EventHandlerType>
+  nameWithType.vb: Nullable(Of EventHandlerType)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.EventHandlerType)
+  name.vb: Nullable(Of EventHandlerType)
   spec.csharp:
   - uid: System.Nullable`1
     name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
   - name: <
-  - name: T
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.EventHandlerType
+    name: EventHandlerType
+    nameWithType: EventHandlerType
+    fullName: SuperOffice.WebApi.Data.EventHandlerType
+    isExternal: true
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Nullable`1
     name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.EventHandlerType
+    name: EventHandlerType
+    nameWithType: EventHandlerType
+    fullName: SuperOffice.WebApi.Data.EventHandlerType
+    isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Data.TriggerScriptEntity.Enabled*
   commentId: Overload:SuperOffice.WebApi.Data.TriggerScriptEntity.Enabled
   isExternal: true
-  href: SuperOffice.WebApi.Data.TriggerScriptEntity.html#SuperOffice_WebApi_Data_TriggerScriptEntity_Enabled
   name: Enabled
   nameWithType: TriggerScriptEntity.Enabled
   fullName: SuperOffice.WebApi.Data.TriggerScriptEntity.Enabled
@@ -828,63 +649,47 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.WebApi.Data.TriggerScriptEntity.UniqueIdentifier*
   commentId: Overload:SuperOffice.WebApi.Data.TriggerScriptEntity.UniqueIdentifier
   isExternal: true
-  href: SuperOffice.WebApi.Data.TriggerScriptEntity.html#SuperOffice_WebApi_Data_TriggerScriptEntity_UniqueIdentifier
   name: UniqueIdentifier
   nameWithType: TriggerScriptEntity.UniqueIdentifier
   fullName: SuperOffice.WebApi.Data.TriggerScriptEntity.UniqueIdentifier
 - uid: SuperOffice.WebApi.Data.TriggerScriptEntity.Source*
   commentId: Overload:SuperOffice.WebApi.Data.TriggerScriptEntity.Source
   isExternal: true
-  href: SuperOffice.WebApi.Data.TriggerScriptEntity.html#SuperOffice_WebApi_Data_TriggerScriptEntity_Source
   name: Source
   nameWithType: TriggerScriptEntity.Source
   fullName: SuperOffice.WebApi.Data.TriggerScriptEntity.Source
 - uid: SuperOffice.WebApi.Data.TriggerScriptEntity.Registered*
   commentId: Overload:SuperOffice.WebApi.Data.TriggerScriptEntity.Registered
   isExternal: true
-  href: SuperOffice.WebApi.Data.TriggerScriptEntity.html#SuperOffice_WebApi_Data_TriggerScriptEntity_Registered
   name: Registered
   nameWithType: TriggerScriptEntity.Registered
   fullName: SuperOffice.WebApi.Data.TriggerScriptEntity.Registered
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
 - uid: SuperOffice.WebApi.Data.TriggerScriptEntity.RegisteredAssociateId*
   commentId: Overload:SuperOffice.WebApi.Data.TriggerScriptEntity.RegisteredAssociateId
   isExternal: true
-  href: SuperOffice.WebApi.Data.TriggerScriptEntity.html#SuperOffice_WebApi_Data_TriggerScriptEntity_RegisteredAssociateId
   name: RegisteredAssociateId
   nameWithType: TriggerScriptEntity.RegisteredAssociateId
   fullName: SuperOffice.WebApi.Data.TriggerScriptEntity.RegisteredAssociateId
 - uid: SuperOffice.WebApi.Data.TriggerScriptEntity.Updated*
   commentId: Overload:SuperOffice.WebApi.Data.TriggerScriptEntity.Updated
   isExternal: true
-  href: SuperOffice.WebApi.Data.TriggerScriptEntity.html#SuperOffice_WebApi_Data_TriggerScriptEntity_Updated
   name: Updated
   nameWithType: TriggerScriptEntity.Updated
   fullName: SuperOffice.WebApi.Data.TriggerScriptEntity.Updated
 - uid: SuperOffice.WebApi.Data.TriggerScriptEntity.UpdatedAssociateId*
   commentId: Overload:SuperOffice.WebApi.Data.TriggerScriptEntity.UpdatedAssociateId
   isExternal: true
-  href: SuperOffice.WebApi.Data.TriggerScriptEntity.html#SuperOffice_WebApi_Data_TriggerScriptEntity_UpdatedAssociateId
   name: UpdatedAssociateId
   nameWithType: TriggerScriptEntity.UpdatedAssociateId
   fullName: SuperOffice.WebApi.Data.TriggerScriptEntity.UpdatedAssociateId

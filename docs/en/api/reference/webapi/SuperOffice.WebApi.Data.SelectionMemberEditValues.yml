@@ -35,30 +35,30 @@ items:
   nameWithType: SelectionMemberEditValues
   fullName: SuperOffice.WebApi.Data.SelectionMemberEditValues
   type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Carrier object for SelectionMemberEditValues.
-
-    A class representing values to change when changing company and contact details from the Edit Company Details task for selections.
-  example: []
+  summary: "\nCarrier object for SelectionMemberEditValues.\nA class representing values to change when changing company and contact details from the Edit Company Details task for selections.    \n"
   syntax:
     content: 'public class SelectionMemberEditValues : Carrier'
-    content.vb: Public Class SelectionMemberEditValues Inherits Carrier
+    content.vb: >-
+      Public Class SelectionMemberEditValues
+          Inherits Carrier
   inheritance:
   - System.Object
   - SuperOffice.WebApi.Data.Carrier
   inheritedMembers:
   - SuperOffice.WebApi.Data.Carrier.TableRight
   - SuperOffice.WebApi.Data.Carrier.FieldProperties
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.WebApi.Data.SelectionMemberEditValues.#ctor
   commentId: M:SuperOffice.WebApi.Data.SelectionMemberEditValues.#ctor
   id: '#ctor'
@@ -70,18 +70,21 @@ items:
   nameWithType: SelectionMemberEditValues.SelectionMemberEditValues()
   fullName: SuperOffice.WebApi.Data.SelectionMemberEditValues.SelectionMemberEditValues()
   type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Default constructor - defaults any enum props to 0.
-  example: []
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
   syntax:
     content: public SelectionMemberEditValues()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.WebApi.Data.SelectionMemberEditValues.#ctor*
-  nameWithType.vb: SelectionMemberEditValues.New()
-  fullName.vb: SuperOffice.WebApi.Data.SelectionMemberEditValues.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.SelectionMemberEditValues.CompanyCategory
   commentId: P:SuperOffice.WebApi.Data.SelectionMemberEditValues.CompanyCategory
   id: CompanyCategory
@@ -93,11 +96,13 @@ items:
   nameWithType: SelectionMemberEditValues.CompanyCategory
   fullName: SuperOffice.WebApi.Data.SelectionMemberEditValues.CompanyCategory
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Contains new value for the company category.
-  example: []
+  summary: "\nContains new value for the company category.\n"
   syntax:
     content: public virtual int CompanyCategory { get; set; }
     parameters: []
@@ -105,6 +110,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property CompanyCategory As Integer
   overload: SuperOffice.WebApi.Data.SelectionMemberEditValues.CompanyCategory*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SelectionMemberEditValues.CompanyBusiness
   commentId: P:SuperOffice.WebApi.Data.SelectionMemberEditValues.CompanyBusiness
   id: CompanyBusiness
@@ -116,11 +129,13 @@ items:
   nameWithType: SelectionMemberEditValues.CompanyBusiness
   fullName: SuperOffice.WebApi.Data.SelectionMemberEditValues.CompanyBusiness
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Contains new value for company business.
-  example: []
+  summary: "\nContains new value for company business.\n"
   syntax:
     content: public virtual int CompanyBusiness { get; set; }
     parameters: []
@@ -128,6 +143,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property CompanyBusiness As Integer
   overload: SuperOffice.WebApi.Data.SelectionMemberEditValues.CompanyBusiness*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SelectionMemberEditValues.CompanyOurContact
   commentId: P:SuperOffice.WebApi.Data.SelectionMemberEditValues.CompanyOurContact
   id: CompanyOurContact
@@ -139,11 +162,13 @@ items:
   nameWithType: SelectionMemberEditValues.CompanyOurContact
   fullName: SuperOffice.WebApi.Data.SelectionMemberEditValues.CompanyOurContact
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Contains new value for company, our contact.
-  example: []
+  summary: "\nContains new value for company, our contact.\n"
   syntax:
     content: public virtual int CompanyOurContact { get; set; }
     parameters: []
@@ -151,6 +176,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property CompanyOurContact As Integer
   overload: SuperOffice.WebApi.Data.SelectionMemberEditValues.CompanyOurContact*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SelectionMemberEditValues.CompanyName
   commentId: P:SuperOffice.WebApi.Data.SelectionMemberEditValues.CompanyName
   id: CompanyName
@@ -162,11 +195,13 @@ items:
   nameWithType: SelectionMemberEditValues.CompanyName
   fullName: SuperOffice.WebApi.Data.SelectionMemberEditValues.CompanyName
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Contains new value for company name.
-  example: []
+  summary: "\nContains new value for company name.\n"
   syntax:
     content: public virtual string CompanyName { get; set; }
     parameters: []
@@ -174,6 +209,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property CompanyName As String
   overload: SuperOffice.WebApi.Data.SelectionMemberEditValues.CompanyName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SelectionMemberEditValues.CompanyDepartment
   commentId: P:SuperOffice.WebApi.Data.SelectionMemberEditValues.CompanyDepartment
   id: CompanyDepartment
@@ -185,11 +228,13 @@ items:
   nameWithType: SelectionMemberEditValues.CompanyDepartment
   fullName: SuperOffice.WebApi.Data.SelectionMemberEditValues.CompanyDepartment
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Contains new value for the company department.
-  example: []
+  summary: "\nContains new value for the company department.\n"
   syntax:
     content: public virtual string CompanyDepartment { get; set; }
     parameters: []
@@ -197,6 +242,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property CompanyDepartment As String
   overload: SuperOffice.WebApi.Data.SelectionMemberEditValues.CompanyDepartment*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SelectionMemberEditValues.CompanyNumber
   commentId: P:SuperOffice.WebApi.Data.SelectionMemberEditValues.CompanyNumber
   id: CompanyNumber
@@ -208,11 +261,13 @@ items:
   nameWithType: SelectionMemberEditValues.CompanyNumber
   fullName: SuperOffice.WebApi.Data.SelectionMemberEditValues.CompanyNumber
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Contains new value for the company number.
-  example: []
+  summary: "\nContains new value for the company number.\n"
   syntax:
     content: public virtual string CompanyNumber { get; set; }
     parameters: []
@@ -220,6 +275,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property CompanyNumber As String
   overload: SuperOffice.WebApi.Data.SelectionMemberEditValues.CompanyNumber*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SelectionMemberEditValues.CompanyCode
   commentId: P:SuperOffice.WebApi.Data.SelectionMemberEditValues.CompanyCode
   id: CompanyCode
@@ -231,11 +294,13 @@ items:
   nameWithType: SelectionMemberEditValues.CompanyCode
   fullName: SuperOffice.WebApi.Data.SelectionMemberEditValues.CompanyCode
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Contains new value for the company code.
-  example: []
+  summary: "\nContains new value for the company code.\n"
   syntax:
     content: public virtual string CompanyCode { get; set; }
     parameters: []
@@ -243,6 +308,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property CompanyCode As String
   overload: SuperOffice.WebApi.Data.SelectionMemberEditValues.CompanyCode*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SelectionMemberEditValues.ContactPosition
   commentId: P:SuperOffice.WebApi.Data.SelectionMemberEditValues.ContactPosition
   id: ContactPosition
@@ -254,11 +327,13 @@ items:
   nameWithType: SelectionMemberEditValues.ContactPosition
   fullName: SuperOffice.WebApi.Data.SelectionMemberEditValues.ContactPosition
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Contains new value for the contact position.
-  example: []
+  summary: "\nContains new value for the contact position.\n"
   syntax:
     content: public virtual int ContactPosition { get; set; }
     parameters: []
@@ -266,6 +341,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property ContactPosition As Integer
   overload: SuperOffice.WebApi.Data.SelectionMemberEditValues.ContactPosition*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeCompanyCategory
   commentId: P:SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeCompanyCategory
   id: ChangeCompanyCategory
@@ -277,11 +360,13 @@ items:
   nameWithType: SelectionMemberEditValues.ChangeCompanyCategory
   fullName: SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeCompanyCategory
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: If true, the category of the company will be changed.
-  example: []
+  summary: "\nIf true, the category of the company will be changed.\n"
   syntax:
     content: public virtual bool ChangeCompanyCategory { get; set; }
     parameters: []
@@ -289,6 +374,14 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property ChangeCompanyCategory As Boolean
   overload: SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeCompanyCategory*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeCompanyBusiness
   commentId: P:SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeCompanyBusiness
   id: ChangeCompanyBusiness
@@ -300,11 +393,13 @@ items:
   nameWithType: SelectionMemberEditValues.ChangeCompanyBusiness
   fullName: SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeCompanyBusiness
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: If true, the business of the company will change.
-  example: []
+  summary: "\nIf true, the business of the company will change.\n"
   syntax:
     content: public virtual bool ChangeCompanyBusiness { get; set; }
     parameters: []
@@ -312,6 +407,14 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property ChangeCompanyBusiness As Boolean
   overload: SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeCompanyBusiness*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeCompanyOurContact
   commentId: P:SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeCompanyOurContact
   id: ChangeCompanyOurContact
@@ -323,11 +426,13 @@ items:
   nameWithType: SelectionMemberEditValues.ChangeCompanyOurContact
   fullName: SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeCompanyOurContact
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: If true, the our contact of the company will change.
-  example: []
+  summary: "\nIf true, the our contact of the company will change.\n"
   syntax:
     content: public virtual bool ChangeCompanyOurContact { get; set; }
     parameters: []
@@ -335,6 +440,14 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property ChangeCompanyOurContact As Boolean
   overload: SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeCompanyOurContact*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeCompanyName
   commentId: P:SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeCompanyName
   id: ChangeCompanyName
@@ -346,11 +459,13 @@ items:
   nameWithType: SelectionMemberEditValues.ChangeCompanyName
   fullName: SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeCompanyName
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: If true, the name of the company will change.
-  example: []
+  summary: "\nIf true, the name of the company will change.\n"
   syntax:
     content: public virtual bool ChangeCompanyName { get; set; }
     parameters: []
@@ -358,6 +473,14 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property ChangeCompanyName As Boolean
   overload: SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeCompanyName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeCompanyDepartment
   commentId: P:SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeCompanyDepartment
   id: ChangeCompanyDepartment
@@ -369,11 +492,13 @@ items:
   nameWithType: SelectionMemberEditValues.ChangeCompanyDepartment
   fullName: SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeCompanyDepartment
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: If true, the department of the company will change.
-  example: []
+  summary: "\nIf true, the department of the company will change.\n"
   syntax:
     content: public virtual bool ChangeCompanyDepartment { get; set; }
     parameters: []
@@ -381,6 +506,14 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property ChangeCompanyDepartment As Boolean
   overload: SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeCompanyDepartment*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeCompanyNumber
   commentId: P:SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeCompanyNumber
   id: ChangeCompanyNumber
@@ -392,11 +525,13 @@ items:
   nameWithType: SelectionMemberEditValues.ChangeCompanyNumber
   fullName: SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeCompanyNumber
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: If true, the number of the company will change.
-  example: []
+  summary: "\nIf true, the number of the company will change.\n"
   syntax:
     content: public virtual bool ChangeCompanyNumber { get; set; }
     parameters: []
@@ -404,6 +539,14 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property ChangeCompanyNumber As Boolean
   overload: SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeCompanyNumber*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeCompanyCode
   commentId: P:SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeCompanyCode
   id: ChangeCompanyCode
@@ -415,11 +558,13 @@ items:
   nameWithType: SelectionMemberEditValues.ChangeCompanyCode
   fullName: SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeCompanyCode
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: If true, the code of the company will change.
-  example: []
+  summary: "\nIf true, the code of the company will change.\n"
   syntax:
     content: public virtual bool ChangeCompanyCode { get; set; }
     parameters: []
@@ -427,6 +572,14 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property ChangeCompanyCode As Boolean
   overload: SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeCompanyCode*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeContactPosition
   commentId: P:SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeContactPosition
   id: ChangeContactPosition
@@ -438,11 +591,13 @@ items:
   nameWithType: SelectionMemberEditValues.ChangeContactPosition
   fullName: SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeContactPosition
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: If true, the position of the contact will change.
-  example: []
+  summary: "\nIf true, the position of the contact will change.\n"
   syntax:
     content: public virtual bool ChangeContactPosition { get; set; }
     parameters: []
@@ -450,6 +605,14 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property ChangeContactPosition As Boolean
   overload: SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeContactPosition*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SelectionMemberEditValues.CompanyCountry
   commentId: P:SuperOffice.WebApi.Data.SelectionMemberEditValues.CompanyCountry
   id: CompanyCountry
@@ -461,11 +624,13 @@ items:
   nameWithType: SelectionMemberEditValues.CompanyCountry
   fullName: SuperOffice.WebApi.Data.SelectionMemberEditValues.CompanyCountry
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Contains new value for the company country.
-  example: []
+  summary: "\nContains new value for the company country.\n"
   syntax:
     content: public virtual int CompanyCountry { get; set; }
     parameters: []
@@ -473,6 +638,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property CompanyCountry As Integer
   overload: SuperOffice.WebApi.Data.SelectionMemberEditValues.CompanyCountry*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeCompanyCountry
   commentId: P:SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeCompanyCountry
   id: ChangeCompanyCountry
@@ -484,11 +657,13 @@ items:
   nameWithType: SelectionMemberEditValues.ChangeCompanyCountry
   fullName: SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeCompanyCountry
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: If true, the country of the company will change.
-  example: []
+  summary: "\nIf true, the country of the company will change.\n"
   syntax:
     content: public virtual bool ChangeCompanyCountry { get; set; }
     parameters: []
@@ -496,6 +671,14 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property ChangeCompanyCountry As Boolean
   overload: SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeCompanyCountry*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SelectionMemberEditValues.ContactJobTitle
   commentId: P:SuperOffice.WebApi.Data.SelectionMemberEditValues.ContactJobTitle
   id: ContactJobTitle
@@ -507,11 +690,13 @@ items:
   nameWithType: SelectionMemberEditValues.ContactJobTitle
   fullName: SuperOffice.WebApi.Data.SelectionMemberEditValues.ContactJobTitle
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Contains new value for the contact VAT number.
-  example: []
+  summary: "\nContains new value for the contact VAT number.\n"
   syntax:
     content: public virtual string ContactJobTitle { get; set; }
     parameters: []
@@ -519,6 +704,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property ContactJobTitle As String
   overload: SuperOffice.WebApi.Data.SelectionMemberEditValues.ContactJobTitle*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeContactJobTitle
   commentId: P:SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeContactJobTitle
   id: ChangeContactJobTitle
@@ -530,11 +723,13 @@ items:
   nameWithType: SelectionMemberEditValues.ChangeContactJobTitle
   fullName: SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeContactJobTitle
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: If true, the VAT number  of the contact will change.
-  example: []
+  summary: "\nIf true, the VAT number  of the contact will change.\n"
   syntax:
     content: public virtual bool ChangeContactJobTitle { get; set; }
     parameters: []
@@ -542,6 +737,14 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property ChangeContactJobTitle As Boolean
   overload: SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeContactJobTitle*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SelectionMemberEditValues.CompanyOrgNr
   commentId: P:SuperOffice.WebApi.Data.SelectionMemberEditValues.CompanyOrgNr
   id: CompanyOrgNr
@@ -553,11 +756,13 @@ items:
   nameWithType: SelectionMemberEditValues.CompanyOrgNr
   fullName: SuperOffice.WebApi.Data.SelectionMemberEditValues.CompanyOrgNr
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Contains new value for the company VAT number.
-  example: []
+  summary: "\nContains new value for the company VAT number.\n"
   syntax:
     content: public virtual string CompanyOrgNr { get; set; }
     parameters: []
@@ -565,6 +770,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property CompanyOrgNr As String
   overload: SuperOffice.WebApi.Data.SelectionMemberEditValues.CompanyOrgNr*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeCompanyOrgNr
   commentId: P:SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeCompanyOrgNr
   id: ChangeCompanyOrgNr
@@ -576,11 +789,13 @@ items:
   nameWithType: SelectionMemberEditValues.ChangeCompanyOrgNr
   fullName: SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeCompanyOrgNr
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: If true, the VAT number  of the company will change.
-  example: []
+  summary: "\nIf true, the VAT number  of the company will change.\n"
   syntax:
     content: public virtual bool ChangeCompanyOrgNr { get; set; }
     parameters: []
@@ -588,60 +803,32 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property ChangeCompanyOrgNr As Boolean
   overload: SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeCompanyOrgNr*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.WebApi.Data.Carrier
   commentId: T:SuperOffice.WebApi.Data.Carrier
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html
   name: Carrier
   nameWithType: Carrier
   fullName: SuperOffice.WebApi.Data.Carrier
@@ -649,7 +836,6 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_TableRight
   name: TableRight
   nameWithType: Carrier.TableRight
   fullName: SuperOffice.WebApi.Data.Carrier.TableRight
@@ -657,250 +843,24 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_FieldProperties
   name: FieldProperties
   nameWithType: Carrier.FieldProperties
   fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Data.SelectionMemberEditValues.#ctor*
   commentId: Overload:SuperOffice.WebApi.Data.SelectionMemberEditValues.#ctor
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionMemberEditValues.html#SuperOffice_WebApi_Data_SelectionMemberEditValues__ctor
   name: SelectionMemberEditValues
   nameWithType: SelectionMemberEditValues.SelectionMemberEditValues
   fullName: SuperOffice.WebApi.Data.SelectionMemberEditValues.SelectionMemberEditValues
-  nameWithType.vb: SelectionMemberEditValues.New
-  fullName.vb: SuperOffice.WebApi.Data.SelectionMemberEditValues.New
-  name.vb: New
 - uid: SuperOffice.WebApi.Data.SelectionMemberEditValues.CompanyCategory*
   commentId: Overload:SuperOffice.WebApi.Data.SelectionMemberEditValues.CompanyCategory
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionMemberEditValues.html#SuperOffice_WebApi_Data_SelectionMemberEditValues_CompanyCategory
   name: CompanyCategory
   nameWithType: SelectionMemberEditValues.CompanyCategory
   fullName: SuperOffice.WebApi.Data.SelectionMemberEditValues.CompanyCategory
@@ -908,31 +868,24 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.WebApi.Data.SelectionMemberEditValues.CompanyBusiness*
   commentId: Overload:SuperOffice.WebApi.Data.SelectionMemberEditValues.CompanyBusiness
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionMemberEditValues.html#SuperOffice_WebApi_Data_SelectionMemberEditValues_CompanyBusiness
   name: CompanyBusiness
   nameWithType: SelectionMemberEditValues.CompanyBusiness
   fullName: SuperOffice.WebApi.Data.SelectionMemberEditValues.CompanyBusiness
 - uid: SuperOffice.WebApi.Data.SelectionMemberEditValues.CompanyOurContact*
   commentId: Overload:SuperOffice.WebApi.Data.SelectionMemberEditValues.CompanyOurContact
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionMemberEditValues.html#SuperOffice_WebApi_Data_SelectionMemberEditValues_CompanyOurContact
   name: CompanyOurContact
   nameWithType: SelectionMemberEditValues.CompanyOurContact
   fullName: SuperOffice.WebApi.Data.SelectionMemberEditValues.CompanyOurContact
 - uid: SuperOffice.WebApi.Data.SelectionMemberEditValues.CompanyName*
   commentId: Overload:SuperOffice.WebApi.Data.SelectionMemberEditValues.CompanyName
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionMemberEditValues.html#SuperOffice_WebApi_Data_SelectionMemberEditValues_CompanyName
   name: CompanyName
   nameWithType: SelectionMemberEditValues.CompanyName
   fullName: SuperOffice.WebApi.Data.SelectionMemberEditValues.CompanyName
@@ -940,45 +893,36 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.WebApi.Data.SelectionMemberEditValues.CompanyDepartment*
   commentId: Overload:SuperOffice.WebApi.Data.SelectionMemberEditValues.CompanyDepartment
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionMemberEditValues.html#SuperOffice_WebApi_Data_SelectionMemberEditValues_CompanyDepartment
   name: CompanyDepartment
   nameWithType: SelectionMemberEditValues.CompanyDepartment
   fullName: SuperOffice.WebApi.Data.SelectionMemberEditValues.CompanyDepartment
 - uid: SuperOffice.WebApi.Data.SelectionMemberEditValues.CompanyNumber*
   commentId: Overload:SuperOffice.WebApi.Data.SelectionMemberEditValues.CompanyNumber
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionMemberEditValues.html#SuperOffice_WebApi_Data_SelectionMemberEditValues_CompanyNumber
   name: CompanyNumber
   nameWithType: SelectionMemberEditValues.CompanyNumber
   fullName: SuperOffice.WebApi.Data.SelectionMemberEditValues.CompanyNumber
 - uid: SuperOffice.WebApi.Data.SelectionMemberEditValues.CompanyCode*
   commentId: Overload:SuperOffice.WebApi.Data.SelectionMemberEditValues.CompanyCode
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionMemberEditValues.html#SuperOffice_WebApi_Data_SelectionMemberEditValues_CompanyCode
   name: CompanyCode
   nameWithType: SelectionMemberEditValues.CompanyCode
   fullName: SuperOffice.WebApi.Data.SelectionMemberEditValues.CompanyCode
 - uid: SuperOffice.WebApi.Data.SelectionMemberEditValues.ContactPosition*
   commentId: Overload:SuperOffice.WebApi.Data.SelectionMemberEditValues.ContactPosition
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionMemberEditValues.html#SuperOffice_WebApi_Data_SelectionMemberEditValues_ContactPosition
   name: ContactPosition
   nameWithType: SelectionMemberEditValues.ContactPosition
   fullName: SuperOffice.WebApi.Data.SelectionMemberEditValues.ContactPosition
 - uid: SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeCompanyCategory*
   commentId: Overload:SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeCompanyCategory
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionMemberEditValues.html#SuperOffice_WebApi_Data_SelectionMemberEditValues_ChangeCompanyCategory
   name: ChangeCompanyCategory
   nameWithType: SelectionMemberEditValues.ChangeCompanyCategory
   fullName: SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeCompanyCategory
@@ -986,101 +930,84 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeCompanyBusiness*
   commentId: Overload:SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeCompanyBusiness
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionMemberEditValues.html#SuperOffice_WebApi_Data_SelectionMemberEditValues_ChangeCompanyBusiness
   name: ChangeCompanyBusiness
   nameWithType: SelectionMemberEditValues.ChangeCompanyBusiness
   fullName: SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeCompanyBusiness
 - uid: SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeCompanyOurContact*
   commentId: Overload:SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeCompanyOurContact
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionMemberEditValues.html#SuperOffice_WebApi_Data_SelectionMemberEditValues_ChangeCompanyOurContact
   name: ChangeCompanyOurContact
   nameWithType: SelectionMemberEditValues.ChangeCompanyOurContact
   fullName: SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeCompanyOurContact
 - uid: SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeCompanyName*
   commentId: Overload:SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeCompanyName
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionMemberEditValues.html#SuperOffice_WebApi_Data_SelectionMemberEditValues_ChangeCompanyName
   name: ChangeCompanyName
   nameWithType: SelectionMemberEditValues.ChangeCompanyName
   fullName: SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeCompanyName
 - uid: SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeCompanyDepartment*
   commentId: Overload:SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeCompanyDepartment
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionMemberEditValues.html#SuperOffice_WebApi_Data_SelectionMemberEditValues_ChangeCompanyDepartment
   name: ChangeCompanyDepartment
   nameWithType: SelectionMemberEditValues.ChangeCompanyDepartment
   fullName: SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeCompanyDepartment
 - uid: SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeCompanyNumber*
   commentId: Overload:SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeCompanyNumber
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionMemberEditValues.html#SuperOffice_WebApi_Data_SelectionMemberEditValues_ChangeCompanyNumber
   name: ChangeCompanyNumber
   nameWithType: SelectionMemberEditValues.ChangeCompanyNumber
   fullName: SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeCompanyNumber
 - uid: SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeCompanyCode*
   commentId: Overload:SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeCompanyCode
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionMemberEditValues.html#SuperOffice_WebApi_Data_SelectionMemberEditValues_ChangeCompanyCode
   name: ChangeCompanyCode
   nameWithType: SelectionMemberEditValues.ChangeCompanyCode
   fullName: SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeCompanyCode
 - uid: SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeContactPosition*
   commentId: Overload:SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeContactPosition
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionMemberEditValues.html#SuperOffice_WebApi_Data_SelectionMemberEditValues_ChangeContactPosition
   name: ChangeContactPosition
   nameWithType: SelectionMemberEditValues.ChangeContactPosition
   fullName: SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeContactPosition
 - uid: SuperOffice.WebApi.Data.SelectionMemberEditValues.CompanyCountry*
   commentId: Overload:SuperOffice.WebApi.Data.SelectionMemberEditValues.CompanyCountry
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionMemberEditValues.html#SuperOffice_WebApi_Data_SelectionMemberEditValues_CompanyCountry
   name: CompanyCountry
   nameWithType: SelectionMemberEditValues.CompanyCountry
   fullName: SuperOffice.WebApi.Data.SelectionMemberEditValues.CompanyCountry
 - uid: SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeCompanyCountry*
   commentId: Overload:SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeCompanyCountry
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionMemberEditValues.html#SuperOffice_WebApi_Data_SelectionMemberEditValues_ChangeCompanyCountry
   name: ChangeCompanyCountry
   nameWithType: SelectionMemberEditValues.ChangeCompanyCountry
   fullName: SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeCompanyCountry
 - uid: SuperOffice.WebApi.Data.SelectionMemberEditValues.ContactJobTitle*
   commentId: Overload:SuperOffice.WebApi.Data.SelectionMemberEditValues.ContactJobTitle
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionMemberEditValues.html#SuperOffice_WebApi_Data_SelectionMemberEditValues_ContactJobTitle
   name: ContactJobTitle
   nameWithType: SelectionMemberEditValues.ContactJobTitle
   fullName: SuperOffice.WebApi.Data.SelectionMemberEditValues.ContactJobTitle
 - uid: SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeContactJobTitle*
   commentId: Overload:SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeContactJobTitle
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionMemberEditValues.html#SuperOffice_WebApi_Data_SelectionMemberEditValues_ChangeContactJobTitle
   name: ChangeContactJobTitle
   nameWithType: SelectionMemberEditValues.ChangeContactJobTitle
   fullName: SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeContactJobTitle
 - uid: SuperOffice.WebApi.Data.SelectionMemberEditValues.CompanyOrgNr*
   commentId: Overload:SuperOffice.WebApi.Data.SelectionMemberEditValues.CompanyOrgNr
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionMemberEditValues.html#SuperOffice_WebApi_Data_SelectionMemberEditValues_CompanyOrgNr
   name: CompanyOrgNr
   nameWithType: SelectionMemberEditValues.CompanyOrgNr
   fullName: SuperOffice.WebApi.Data.SelectionMemberEditValues.CompanyOrgNr
 - uid: SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeCompanyOrgNr*
   commentId: Overload:SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeCompanyOrgNr
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionMemberEditValues.html#SuperOffice_WebApi_Data_SelectionMemberEditValues_ChangeCompanyOrgNr
   name: ChangeCompanyOrgNr
   nameWithType: SelectionMemberEditValues.ChangeCompanyOrgNr
   fullName: SuperOffice.WebApi.Data.SelectionMemberEditValues.ChangeCompanyOrgNr

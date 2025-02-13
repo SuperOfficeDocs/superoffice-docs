@@ -20,16 +20,24 @@ items:
   nameWithType: ISentryAgent
   fullName: SuperOffice.WebApi.Agents.ISentryAgent
   type: Interface
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Data and function right queries
-  example: []
+  summary: "\nData and function right queries\n"
   syntax:
     content: 'public interface ISentryAgent : IDisposable'
-    content.vb: Public Interface ISentryAgent Inherits IDisposable
-  inheritedMembers:
-  - System.IDisposable.Dispose
+    content.vb: >-
+      Public Interface ISentryAgent
+          Inherits IDisposable
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
 - uid: SuperOffice.WebApi.Agents.ISentryAgent.GetNewTableRightAsync(System.String,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.ISentryAgent.GetNewTableRightAsync(System.String,SuperOffice.WebApi.RequestOptions)
   id: GetNewTableRightAsync(System.String,SuperOffice.WebApi.RequestOptions)
@@ -37,15 +45,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetNewTableRightAsync(string, RequestOptions)
-  nameWithType: ISentryAgent.GetNewTableRightAsync(string, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.ISentryAgent.GetNewTableRightAsync(string, SuperOffice.WebApi.RequestOptions)
+  name: GetNewTableRightAsync(String, RequestOptions)
+  nameWithType: ISentryAgent.GetNewTableRightAsync(String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISentryAgent.GetNewTableRightAsync(System.String, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Returns a TableRight for a new row based on tableName parameter.
-  example: []
+  summary: "\nReturns a TableRight for a new row based on tableName parameter.\n"
   syntax:
     content: Task<TableRight> GetNewTableRightAsync(string tableName, RequestOptions requestOptions = null)
     parameters:
@@ -54,15 +64,12 @@ items:
       description: Name of the table to get the TableRights from
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TableRight}
       description: The TableRight
     content.vb: Function GetNewTableRightAsync(tableName As String, requestOptions As RequestOptions = Nothing) As Task(Of TableRight)
   overload: SuperOffice.WebApi.Agents.ISentryAgent.GetNewTableRightAsync*
-  nameWithType.vb: ISentryAgent.GetNewTableRightAsync(String, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.ISentryAgent.GetNewTableRightAsync(String, SuperOffice.WebApi.RequestOptions)
-  name.vb: GetNewTableRightAsync(String, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.ISentryAgent.GetTableRightByOwnershipAsync(System.String,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.ISentryAgent.GetTableRightByOwnershipAsync(System.String,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
   id: GetTableRightByOwnershipAsync(System.String,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -70,15 +77,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetTableRightByOwnershipAsync(string, int, int, RequestOptions)
-  nameWithType: ISentryAgent.GetTableRightByOwnershipAsync(string, int, int, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.ISentryAgent.GetTableRightByOwnershipAsync(string, int, int, SuperOffice.WebApi.RequestOptions)
+  name: GetTableRightByOwnershipAsync(String, Int32, Int32, RequestOptions)
+  nameWithType: ISentryAgent.GetTableRightByOwnershipAsync(String, Int32, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISentryAgent.GetTableRightByOwnershipAsync(System.String, System.Int32, System.Int32, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Return the TableRight from the relationship between the current user and the given user and group.
-  example: []
+  summary: "\nReturn the TableRight from the relationship between the current user and the given user and group.\n"
   syntax:
     content: Task<TableRight> GetTableRightByOwnershipAsync(string tableName, int contactGroupId, int contactAssociateId, RequestOptions requestOptions = null)
     parameters:
@@ -93,15 +102,12 @@ items:
       description: The associate id of the owner of the record
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TableRight}
       description: The TableRight
     content.vb: Function GetTableRightByOwnershipAsync(tableName As String, contactGroupId As Integer, contactAssociateId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of TableRight)
   overload: SuperOffice.WebApi.Agents.ISentryAgent.GetTableRightByOwnershipAsync*
-  nameWithType.vb: ISentryAgent.GetTableRightByOwnershipAsync(String, Integer, Integer, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.ISentryAgent.GetTableRightByOwnershipAsync(String, Integer, Integer, SuperOffice.WebApi.RequestOptions)
-  name.vb: GetTableRightByOwnershipAsync(String, Integer, Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.ISentryAgent.GetFunctionRightsAsync(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.ISentryAgent.GetFunctionRightsAsync(SuperOffice.WebApi.RequestOptions)
   id: GetFunctionRightsAsync(SuperOffice.WebApi.RequestOptions)
@@ -113,17 +119,19 @@ items:
   nameWithType: ISentryAgent.GetFunctionRightsAsync(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.ISentryAgent.GetFunctionRightsAsync(SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Get a string array of all functions rights for the role of the current associate.
-  example: []
+  summary: "\nGet a string array of all functions rights for the role of the current associate.\n"
   syntax:
     content: Task<string[]> GetFunctionRightsAsync(RequestOptions requestOptions = null)
     parameters:
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{System.String[]}
       description: String array with the technical names of assigned function rights
@@ -136,15 +144,17 @@ items:
   langs:
   - csharp
   - vb
-  name: HasFunctionRightAsync(string, RequestOptions)
-  nameWithType: ISentryAgent.HasFunctionRightAsync(string, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.ISentryAgent.HasFunctionRightAsync(string, SuperOffice.WebApi.RequestOptions)
+  name: HasFunctionRightAsync(String, RequestOptions)
+  nameWithType: ISentryAgent.HasFunctionRightAsync(String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISentryAgent.HasFunctionRightAsync(System.String, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Get a boolean value indicating if the current user has the functional right.
-  example: []
+  summary: "\nGet a boolean value indicating if the current user has the functional right.\n"
   syntax:
     content: Task<bool> HasFunctionRightAsync(string functionRight, RequestOptions requestOptions = null)
     parameters:
@@ -153,15 +163,11 @@ items:
       description: Function right to check.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{System.Boolean}
-      description: ''
     content.vb: Function HasFunctionRightAsync(functionRight As String, requestOptions As RequestOptions = Nothing) As Task(Of Boolean)
   overload: SuperOffice.WebApi.Agents.ISentryAgent.HasFunctionRightAsync*
-  nameWithType.vb: ISentryAgent.HasFunctionRightAsync(String, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.ISentryAgent.HasFunctionRightAsync(String, SuperOffice.WebApi.RequestOptions)
-  name.vb: HasFunctionRightAsync(String, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.ISentryAgent.CanCreateAppointmentInAssociateDiariesAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.ISentryAgent.CanCreateAppointmentInAssociateDiariesAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   id: CanCreateAppointmentInAssociateDiariesAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
@@ -169,15 +175,17 @@ items:
   langs:
   - csharp
   - vb
-  name: CanCreateAppointmentInAssociateDiariesAsync(int[], RequestOptions)
-  nameWithType: ISentryAgent.CanCreateAppointmentInAssociateDiariesAsync(int[], RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.ISentryAgent.CanCreateAppointmentInAssociateDiariesAsync(int[], SuperOffice.WebApi.RequestOptions)
+  name: CanCreateAppointmentInAssociateDiariesAsync(Int32[], RequestOptions)
+  nameWithType: ISentryAgent.CanCreateAppointmentInAssociateDiariesAsync(Int32[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISentryAgent.CanCreateAppointmentInAssociateDiariesAsync(System.Int32[], SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: CanCreateAppointmentInAssociateDiaries will check if the current associate can create appointments in diaries belonging to the associates listed in associateIds. CanCreateAppointmentInAssociateDiaries will only check against associates that are diary owners. If none of the associates listed in the associateIds parameter is a diary owner, the method will return true.
-  example: []
+  summary: "\nCanCreateAppointmentInAssociateDiaries will check if the current associate can create appointments in diaries belonging to the associates listed in associateIds. CanCreateAppointmentInAssociateDiaries will only check against associates that are diary owners. If none of the associates listed in the associateIds parameter is a diary owner, the method will return true.\n"
   syntax:
     content: Task<bool> CanCreateAppointmentInAssociateDiariesAsync(int[] associateIds, RequestOptions requestOptions = null)
     parameters:
@@ -186,15 +194,15 @@ items:
       description: Array of associate ids to check.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{System.Boolean}
       description: Returns true if the current associate can create appointments in the diary of all the other associates, otherwise false.
     content.vb: Function CanCreateAppointmentInAssociateDiariesAsync(associateIds As Integer(), requestOptions As RequestOptions = Nothing) As Task(Of Boolean)
   overload: SuperOffice.WebApi.Agents.ISentryAgent.CanCreateAppointmentInAssociateDiariesAsync*
-  nameWithType.vb: ISentryAgent.CanCreateAppointmentInAssociateDiariesAsync(Integer(), RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.ISentryAgent.CanCreateAppointmentInAssociateDiariesAsync(Integer(), SuperOffice.WebApi.RequestOptions)
-  name.vb: CanCreateAppointmentInAssociateDiariesAsync(Integer(), RequestOptions)
+  nameWithType.vb: ISentryAgent.CanCreateAppointmentInAssociateDiariesAsync(Int32(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ISentryAgent.CanCreateAppointmentInAssociateDiariesAsync(System.Int32(), SuperOffice.WebApi.RequestOptions)
+  name.vb: CanCreateAppointmentInAssociateDiariesAsync(Int32(), RequestOptions)
 - uid: SuperOffice.WebApi.Agents.ISentryAgent.CanCreateAppointmentInEachAssociatesDiaryAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.ISentryAgent.CanCreateAppointmentInEachAssociatesDiaryAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   id: CanCreateAppointmentInEachAssociatesDiaryAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
@@ -202,15 +210,17 @@ items:
   langs:
   - csharp
   - vb
-  name: CanCreateAppointmentInEachAssociatesDiaryAsync(int[], RequestOptions)
-  nameWithType: ISentryAgent.CanCreateAppointmentInEachAssociatesDiaryAsync(int[], RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.ISentryAgent.CanCreateAppointmentInEachAssociatesDiaryAsync(int[], SuperOffice.WebApi.RequestOptions)
+  name: CanCreateAppointmentInEachAssociatesDiaryAsync(Int32[], RequestOptions)
+  nameWithType: ISentryAgent.CanCreateAppointmentInEachAssociatesDiaryAsync(Int32[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISentryAgent.CanCreateAppointmentInEachAssociatesDiaryAsync(System.Int32[], SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: CanCreateAppointmentInEachAssociateDiary will check if the current associate can create appointments in diaries belonging to the associates listed in associateIds. CanCreateAppointmentInEachAssociateDiary will only check against associates that are diary owners. If none of the associates listed in the associateIds parameter is a diary owner, the method will return true.
-  example: []
+  summary: "\nCanCreateAppointmentInEachAssociateDiary will check if the current associate can create appointments in diaries belonging to the associates listed in associateIds. CanCreateAppointmentInEachAssociateDiary will only check against associates that are diary owners. If none of the associates listed in the associateIds parameter is a diary owner, the method will return true.\n"
   syntax:
     content: Task<bool[]> CanCreateAppointmentInEachAssociatesDiaryAsync(int[] associateIds, RequestOptions requestOptions = null)
     parameters:
@@ -219,15 +229,15 @@ items:
       description: Array of associate ids to check.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{System.Boolean[]}
       description: Returns true if for each given associate if the current associate can create appointments in that diary, otherwise false.
     content.vb: Function CanCreateAppointmentInEachAssociatesDiaryAsync(associateIds As Integer(), requestOptions As RequestOptions = Nothing) As Task(Of Boolean())
   overload: SuperOffice.WebApi.Agents.ISentryAgent.CanCreateAppointmentInEachAssociatesDiaryAsync*
-  nameWithType.vb: ISentryAgent.CanCreateAppointmentInEachAssociatesDiaryAsync(Integer(), RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.ISentryAgent.CanCreateAppointmentInEachAssociatesDiaryAsync(Integer(), SuperOffice.WebApi.RequestOptions)
-  name.vb: CanCreateAppointmentInEachAssociatesDiaryAsync(Integer(), RequestOptions)
+  nameWithType.vb: ISentryAgent.CanCreateAppointmentInEachAssociatesDiaryAsync(Int32(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ISentryAgent.CanCreateAppointmentInEachAssociatesDiaryAsync(System.Int32(), SuperOffice.WebApi.RequestOptions)
+  name.vb: CanCreateAppointmentInEachAssociatesDiaryAsync(Int32(), RequestOptions)
 - uid: SuperOffice.WebApi.Agents.ISentryAgent.CanCreateAppointmentInAllDiariesAsync(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.ISentryAgent.CanCreateAppointmentInAllDiariesAsync(SuperOffice.WebApi.RequestOptions)
   id: CanCreateAppointmentInAllDiariesAsync(SuperOffice.WebApi.RequestOptions)
@@ -239,17 +249,19 @@ items:
   nameWithType: ISentryAgent.CanCreateAppointmentInAllDiariesAsync(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.ISentryAgent.CanCreateAppointmentInAllDiariesAsync(SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: CanCreateAppointmentInAllDiaries will check if the current associate can create appointments in diaries belonging all other associates. CanCreateAppointmentInAssociateDiaries will only check against associates that are diary owners.
-  example: []
+  summary: "\nCanCreateAppointmentInAllDiaries will check if the current associate can create appointments in diaries belonging all other associates. CanCreateAppointmentInAssociateDiaries will only check against associates that are diary owners.\n"
   syntax:
     content: Task<bool> CanCreateAppointmentInAllDiariesAsync(RequestOptions requestOptions = null)
     parameters:
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{System.Boolean}
       description: Returns true if the current associate can create appointments in the diary of all the other associates, otherwise false.
@@ -262,15 +274,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetTableRightByContactOwnershipAsync(string, int, RequestOptions)
-  nameWithType: ISentryAgent.GetTableRightByContactOwnershipAsync(string, int, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.ISentryAgent.GetTableRightByContactOwnershipAsync(string, int, SuperOffice.WebApi.RequestOptions)
+  name: GetTableRightByContactOwnershipAsync(String, Int32, RequestOptions)
+  nameWithType: ISentryAgent.GetTableRightByContactOwnershipAsync(String, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISentryAgent.GetTableRightByContactOwnershipAsync(System.String, System.Int32, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Return the TableRight from the relationship between the current user and the given user and group.
-  example: []
+  summary: "\nReturn the TableRight from the relationship between the current user and the given user and group.\n"
   syntax:
     content: Task<TableRight> GetTableRightByContactOwnershipAsync(string tableName, int contactId, RequestOptions requestOptions = null)
     parameters:
@@ -282,94 +296,22 @@ items:
       description: The owner contact.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TableRight}
       description: The TableRight
     content.vb: Function GetTableRightByContactOwnershipAsync(tableName As String, contactId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of TableRight)
   overload: SuperOffice.WebApi.Agents.ISentryAgent.GetTableRightByContactOwnershipAsync*
-  nameWithType.vb: ISentryAgent.GetTableRightByContactOwnershipAsync(String, Integer, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.ISentryAgent.GetTableRightByContactOwnershipAsync(String, Integer, SuperOffice.WebApi.RequestOptions)
-  name.vb: GetTableRightByContactOwnershipAsync(String, Integer, RequestOptions)
 references:
 - uid: SuperOffice.WebApi.Agents
   commentId: N:SuperOffice.WebApi.Agents
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Agents
   nameWithType: SuperOffice.WebApi.Agents
   fullName: SuperOffice.WebApi.Agents
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Agents
-    name: Agents
-    isExternal: true
-    href: SuperOffice.WebApi.Agents.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Agents
-    name: Agents
-    isExternal: true
-    href: SuperOffice.WebApi.Agents.html
-- uid: System.IDisposable.Dispose
-  commentId: M:System.IDisposable.Dispose
-  parent: System.IDisposable
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
-  name: Dispose()
-  nameWithType: IDisposable.Dispose()
-  fullName: System.IDisposable.Dispose()
-  spec.csharp:
-  - uid: System.IDisposable.Dispose
-    name: Dispose
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.IDisposable.Dispose
-    name: Dispose
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
-  - name: (
-  - name: )
-- uid: System.IDisposable
-  commentId: T:System.IDisposable
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.idisposable
-  name: IDisposable
-  nameWithType: IDisposable
-  fullName: System.IDisposable
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.WebApi.Agents.ISentryAgent.GetNewTableRightAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ISentryAgent.GetNewTableRightAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.ISentryAgent.html#SuperOffice_WebApi_Agents_ISentryAgent_GetNewTableRightAsync_System_String_SuperOffice_WebApi_RequestOptions_
   name: GetNewTableRightAsync
   nameWithType: ISentryAgent.GetNewTableRightAsync
   fullName: SuperOffice.WebApi.Agents.ISentryAgent.GetNewTableRightAsync
@@ -377,26 +319,19 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.WebApi.RequestOptions
   commentId: T:SuperOffice.WebApi.RequestOptions
   parent: SuperOffice.WebApi
   isExternal: true
-  href: SuperOffice.WebApi.RequestOptions.html
   name: RequestOptions
   nameWithType: RequestOptions
   fullName: SuperOffice.WebApi.RequestOptions
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TableRight}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TableRight}
-  parent: System.Threading.Tasks
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TableRight}'
   definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<TableRight>
   nameWithType: Task<TableRight>
   fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.TableRight>
@@ -406,123 +341,90 @@ references:
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.WebApi.Data.TableRight
     name: TableRight
+    nameWithType: TableRight
+    fullName: SuperOffice.WebApi.Data.TableRight
     isExternal: true
-    href: SuperOffice.WebApi.Data.TableRight.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.WebApi.Data.TableRight
     name: TableRight
+    nameWithType: TableRight
+    fullName: SuperOffice.WebApi.Data.TableRight
     isExternal: true
-    href: SuperOffice.WebApi.Data.TableRight.html
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.WebApi
   commentId: N:SuperOffice.WebApi
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi
   nameWithType: SuperOffice.WebApi
   fullName: SuperOffice.WebApi
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
 - uid: System.Threading.Tasks.Task`1
-  commentId: T:System.Threading.Tasks.Task`1
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<TResult>
-  nameWithType: Task<TResult>
-  fullName: System.Threading.Tasks.Task<TResult>
-  nameWithType.vb: Task(Of TResult)
-  fullName.vb: System.Threading.Tasks.Task(Of TResult)
-  name.vb: Task(Of TResult)
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-  - name: TResult
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TResult
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
-- uid: System.Threading.Tasks
-  commentId: N:System.Threading.Tasks
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Threading.Tasks
-  nameWithType: System.Threading.Tasks
-  fullName: System.Threading.Tasks
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Threading
-    name: Threading
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading
-  - name: .
-  - uid: System.Threading.Tasks
-    name: Tasks
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Threading
-    name: Threading
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading
-  - name: .
-  - uid: System.Threading.Tasks
-    name: Tasks
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.ISentryAgent.GetTableRightByOwnershipAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ISentryAgent.GetTableRightByOwnershipAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.ISentryAgent.html#SuperOffice_WebApi_Agents_ISentryAgent_GetTableRightByOwnershipAsync_System_String_System_Int32_System_Int32_SuperOffice_WebApi_RequestOptions_
   name: GetTableRightByOwnershipAsync
   nameWithType: ISentryAgent.GetTableRightByOwnershipAsync
   fullName: SuperOffice.WebApi.Agents.ISentryAgent.GetTableRightByOwnershipAsync
@@ -530,188 +432,209 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.WebApi.Agents.ISentryAgent.GetFunctionRightsAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ISentryAgent.GetFunctionRightsAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.ISentryAgent.html#SuperOffice_WebApi_Agents_ISentryAgent_GetFunctionRightsAsync_SuperOffice_WebApi_RequestOptions_
   name: GetFunctionRightsAsync
   nameWithType: ISentryAgent.GetFunctionRightsAsync
   fullName: SuperOffice.WebApi.Agents.ISentryAgent.GetFunctionRightsAsync
 - uid: System.Threading.Tasks.Task{System.String[]}
-  commentId: T:System.Threading.Tasks.Task{System.String[]}
-  parent: System.Threading.Tasks
+  commentId: '!:System.Threading.Tasks.Task{System.String[]}'
   definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<string[]>
-  nameWithType: Task<string[]>
-  fullName: System.Threading.Tasks.Task<string[]>
+  name: Task<String[]>
+  nameWithType: Task<String[]>
+  fullName: System.Threading.Tasks.Task<System.String[]>
   nameWithType.vb: Task(Of String())
-  fullName.vb: System.Threading.Tasks.Task(Of String())
+  fullName.vb: System.Threading.Tasks.Task(Of System.String())
   name.vb: Task(Of String())
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: (
+  - name: ()
+    nameWithType: ()
+    fullName: ()
   - name: )
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.ISentryAgent.HasFunctionRightAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ISentryAgent.HasFunctionRightAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.ISentryAgent.html#SuperOffice_WebApi_Agents_ISentryAgent_HasFunctionRightAsync_System_String_SuperOffice_WebApi_RequestOptions_
   name: HasFunctionRightAsync
   nameWithType: ISentryAgent.HasFunctionRightAsync
   fullName: SuperOffice.WebApi.Agents.ISentryAgent.HasFunctionRightAsync
 - uid: System.Threading.Tasks.Task{System.Boolean}
-  commentId: T:System.Threading.Tasks.Task{System.Boolean}
-  parent: System.Threading.Tasks
+  commentId: '!:System.Threading.Tasks.Task{System.Boolean}'
   definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<bool>
-  nameWithType: Task<bool>
-  fullName: System.Threading.Tasks.Task<bool>
+  name: Task<Boolean>
+  nameWithType: Task<Boolean>
+  fullName: System.Threading.Tasks.Task<System.Boolean>
   nameWithType.vb: Task(Of Boolean)
-  fullName.vb: System.Threading.Tasks.Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Boolean)
   name.vb: Task(Of Boolean)
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: System.Boolean
-    name: bool
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: System.Boolean
     name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.ISentryAgent.CanCreateAppointmentInAssociateDiariesAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ISentryAgent.CanCreateAppointmentInAssociateDiariesAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.ISentryAgent.html#SuperOffice_WebApi_Agents_ISentryAgent_CanCreateAppointmentInAssociateDiariesAsync_System_Int32___SuperOffice_WebApi_RequestOptions_
   name: CanCreateAppointmentInAssociateDiariesAsync
   nameWithType: ISentryAgent.CanCreateAppointmentInAssociateDiariesAsync
   fullName: SuperOffice.WebApi.Agents.ISentryAgent.CanCreateAppointmentInAssociateDiariesAsync
 - uid: System.Int32[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int[]
-  nameWithType: int[]
-  fullName: int[]
-  nameWithType.vb: Integer()
-  fullName.vb: Integer()
-  name.vb: Integer()
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
   spec.csharp:
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.WebApi.Agents.ISentryAgent.CanCreateAppointmentInEachAssociatesDiaryAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ISentryAgent.CanCreateAppointmentInEachAssociatesDiaryAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.ISentryAgent.html#SuperOffice_WebApi_Agents_ISentryAgent_CanCreateAppointmentInEachAssociatesDiaryAsync_System_Int32___SuperOffice_WebApi_RequestOptions_
   name: CanCreateAppointmentInEachAssociatesDiaryAsync
   nameWithType: ISentryAgent.CanCreateAppointmentInEachAssociatesDiaryAsync
   fullName: SuperOffice.WebApi.Agents.ISentryAgent.CanCreateAppointmentInEachAssociatesDiaryAsync
 - uid: System.Threading.Tasks.Task{System.Boolean[]}
-  commentId: T:System.Threading.Tasks.Task{System.Boolean[]}
-  parent: System.Threading.Tasks
+  commentId: '!:System.Threading.Tasks.Task{System.Boolean[]}'
   definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<bool[]>
-  nameWithType: Task<bool[]>
-  fullName: System.Threading.Tasks.Task<bool[]>
+  name: Task<Boolean[]>
+  nameWithType: Task<Boolean[]>
+  fullName: System.Threading.Tasks.Task<System.Boolean[]>
   nameWithType.vb: Task(Of Boolean())
-  fullName.vb: System.Threading.Tasks.Task(Of Boolean())
+  fullName.vb: System.Threading.Tasks.Task(Of System.Boolean())
   name.vb: Task(Of Boolean())
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: System.Boolean
-    name: bool
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: System.Boolean
     name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: (
+  - name: ()
+    nameWithType: ()
+    fullName: ()
   - name: )
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.ISentryAgent.CanCreateAppointmentInAllDiariesAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ISentryAgent.CanCreateAppointmentInAllDiariesAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.ISentryAgent.html#SuperOffice_WebApi_Agents_ISentryAgent_CanCreateAppointmentInAllDiariesAsync_SuperOffice_WebApi_RequestOptions_
   name: CanCreateAppointmentInAllDiariesAsync
   nameWithType: ISentryAgent.CanCreateAppointmentInAllDiariesAsync
   fullName: SuperOffice.WebApi.Agents.ISentryAgent.CanCreateAppointmentInAllDiariesAsync
 - uid: SuperOffice.WebApi.Agents.ISentryAgent.GetTableRightByContactOwnershipAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ISentryAgent.GetTableRightByContactOwnershipAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.ISentryAgent.html#SuperOffice_WebApi_Agents_ISentryAgent_GetTableRightByContactOwnershipAsync_System_String_System_Int32_SuperOffice_WebApi_RequestOptions_
   name: GetTableRightByContactOwnershipAsync
   nameWithType: ISentryAgent.GetTableRightByContactOwnershipAsync
   fullName: SuperOffice.WebApi.Agents.ISentryAgent.GetTableRightByContactOwnershipAsync

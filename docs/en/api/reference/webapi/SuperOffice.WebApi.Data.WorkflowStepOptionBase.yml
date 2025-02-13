@@ -21,43 +21,18 @@ items:
   nameWithType: WorkflowStepOptionBase
   fullName: SuperOffice.WebApi.Data.WorkflowStepOptionBase
   type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Carrier object for WorkflowStepOptionBase.
-
-    Workflow step split option carrier base carrier class.
-  example: []
+  summary: "\nCarrier object for WorkflowStepOptionBase.\nWorkflow step split option carrier base carrier class.    \n"
   syntax:
-    content: >-
-      [KnownType(typeof(WorkflowStepOptionFormData))]
-
-      [KnownType(typeof(WorkflowStepOptionFormSubmission))]
-
-      [KnownType(typeof(WorkflowStepOptionLinkClicked))]
-
-      [KnownType(typeof(WorkflowStepOptionPersonData))]
-
-      [KnownType(typeof(WorkflowStepOptionProjectMembership))]
-
-      [KnownType(typeof(WorkflowStepOptionSelectionMembership))]
-
-      public class WorkflowStepOptionBase
+    content: 'public class WorkflowStepOptionBase : Object'
     content.vb: >-
-      <KnownType(GetType(WorkflowStepOptionFormData))>
-
-      <KnownType(GetType(WorkflowStepOptionFormSubmission))>
-
-      <KnownType(GetType(WorkflowStepOptionLinkClicked))>
-
-      <KnownType(GetType(WorkflowStepOptionPersonData))>
-
-      <KnownType(GetType(WorkflowStepOptionProjectMembership))>
-
-      <KnownType(GetType(WorkflowStepOptionSelectionMembership))>
-
       Public Class WorkflowStepOptionBase
+          Inherits Object
   seealso:
   - linkId: SuperOffice.WebApi.Agents.WorkflowAgent
     commentId: T:SuperOffice.WebApi.Agents.WorkflowAgent
@@ -70,45 +45,12 @@ items:
   - SuperOffice.WebApi.Data.WorkflowStepOptionPersonData
   - SuperOffice.WebApi.Data.WorkflowStepOptionProjectMembership
   - SuperOffice.WebApi.Data.WorkflowStepOptionSelectionMembership
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
-  attributes:
-  - type: System.Runtime.Serialization.KnownTypeAttribute
-    ctor: System.Runtime.Serialization.KnownTypeAttribute.#ctor(System.Type)
-    arguments:
-    - type: System.Type
-      value: SuperOffice.WebApi.Data.WorkflowStepOptionFormData
-  - type: System.Runtime.Serialization.KnownTypeAttribute
-    ctor: System.Runtime.Serialization.KnownTypeAttribute.#ctor(System.Type)
-    arguments:
-    - type: System.Type
-      value: SuperOffice.WebApi.Data.WorkflowStepOptionFormSubmission
-  - type: System.Runtime.Serialization.KnownTypeAttribute
-    ctor: System.Runtime.Serialization.KnownTypeAttribute.#ctor(System.Type)
-    arguments:
-    - type: System.Type
-      value: SuperOffice.WebApi.Data.WorkflowStepOptionLinkClicked
-  - type: System.Runtime.Serialization.KnownTypeAttribute
-    ctor: System.Runtime.Serialization.KnownTypeAttribute.#ctor(System.Type)
-    arguments:
-    - type: System.Type
-      value: SuperOffice.WebApi.Data.WorkflowStepOptionPersonData
-  - type: System.Runtime.Serialization.KnownTypeAttribute
-    ctor: System.Runtime.Serialization.KnownTypeAttribute.#ctor(System.Type)
-    arguments:
-    - type: System.Type
-      value: SuperOffice.WebApi.Data.WorkflowStepOptionProjectMembership
-  - type: System.Runtime.Serialization.KnownTypeAttribute
-    ctor: System.Runtime.Serialization.KnownTypeAttribute.#ctor(System.Type)
-    arguments:
-    - type: System.Type
-      value: SuperOffice.WebApi.Data.WorkflowStepOptionSelectionMembership
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.WebApi.Data.WorkflowStepOptionBase.#ctor
   commentId: M:SuperOffice.WebApi.Data.WorkflowStepOptionBase.#ctor
   id: '#ctor'
@@ -120,18 +62,21 @@ items:
   nameWithType: WorkflowStepOptionBase.WorkflowStepOptionBase()
   fullName: SuperOffice.WebApi.Data.WorkflowStepOptionBase.WorkflowStepOptionBase()
   type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Default constructor - defaults any enum props to 0.
-  example: []
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
   syntax:
     content: public WorkflowStepOptionBase()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.WebApi.Data.WorkflowStepOptionBase.#ctor*
-  nameWithType.vb: WorkflowStepOptionBase.New()
-  fullName.vb: SuperOffice.WebApi.Data.WorkflowStepOptionBase.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.WorkflowStepOptionBase.OptionType_String
   commentId: P:SuperOffice.WebApi.Data.WorkflowStepOptionBase.OptionType_String
   id: OptionType_String
@@ -143,36 +88,29 @@ items:
   nameWithType: WorkflowStepOptionBase.OptionType_String
   fullName: SuperOffice.WebApi.Data.WorkflowStepOptionBase.OptionType_String
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Type of option
-
-    Raw string enum value.
-  example: []
+  summary: "\nType of option\nRaw string enum value.\n"
   syntax:
-    content: >-
-      [JsonProperty("OptionType")]
-
-      public string OptionType_String { get; set; }
+    content: public string OptionType_String { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <JsonProperty("OptionType")>
-
-      Public Property OptionType_String As String
+    content.vb: Public Property OptionType_String As String
   overload: SuperOffice.WebApi.Data.WorkflowStepOptionBase.OptionType_String*
   seealso:
   - linkId: SuperOffice.WebApi.Data.WorkflowStepOptionBase.OptionType
     commentId: P:SuperOffice.WebApi.Data.WorkflowStepOptionBase.OptionType
-  attributes:
-  - type: Newtonsoft.Json.JsonPropertyAttribute
-    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: OptionType
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.WorkflowStepOptionBase.OptionType
   commentId: P:SuperOffice.WebApi.Data.WorkflowStepOptionBase.OptionType
   id: OptionType
@@ -184,34 +122,29 @@ items:
   nameWithType: WorkflowStepOptionBase.OptionType
   fullName: SuperOffice.WebApi.Data.WorkflowStepOptionBase.OptionType
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Type of option
-
-    NULL if unknown enum value.
-  example: []
+  summary: "\nType of option\nNULL if unknown enum value.\n"
   syntax:
-    content: >-
-      [JsonIgnore]
-
-      public WorkflowSplitOptionType? OptionType { get; set; }
+    content: public Nullable<WorkflowSplitOptionType> OptionType { get; set; }
     parameters: []
     return:
       type: System.Nullable{SuperOffice.WebApi.Data.WorkflowSplitOptionType}
-    content.vb: >-
-      <JsonIgnore>
-
-      Public Property OptionType As WorkflowSplitOptionType?
+    content.vb: Public Property OptionType As Nullable(Of WorkflowSplitOptionType)
   overload: SuperOffice.WebApi.Data.WorkflowStepOptionBase.OptionType*
   seealso:
   - linkId: SuperOffice.WebApi.Data.WorkflowStepOptionBase.OptionType_String
     commentId: P:SuperOffice.WebApi.Data.WorkflowStepOptionBase.OptionType_String
-  attributes:
-  - type: Newtonsoft.Json.JsonIgnoreAttribute
-    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.WorkflowStepOptionBase.WorkflowStepOptionId
   commentId: P:SuperOffice.WebApi.Data.WorkflowStepOptionBase.WorkflowStepOptionId
   id: WorkflowStepOptionId
@@ -223,11 +156,13 @@ items:
   nameWithType: WorkflowStepOptionBase.WorkflowStepOptionId
   fullName: SuperOffice.WebApi.Data.WorkflowStepOptionBase.WorkflowStepOptionId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Primary key
-  example: []
+  summary: "\nPrimary key\n"
   syntax:
     content: public virtual int WorkflowStepOptionId { get; set; }
     parameters: []
@@ -235,6 +170,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property WorkflowStepOptionId As Integer
   overload: SuperOffice.WebApi.Data.WorkflowStepOptionBase.WorkflowStepOptionId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.WorkflowStepOptionBase.WorkflowStepId
   commentId: P:SuperOffice.WebApi.Data.WorkflowStepOptionBase.WorkflowStepId
   id: WorkflowStepId
@@ -246,11 +189,13 @@ items:
   nameWithType: WorkflowStepOptionBase.WorkflowStepId
   fullName: SuperOffice.WebApi.Data.WorkflowStepOptionBase.WorkflowStepId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The workflow step this instance belongs to
-  example: []
+  summary: "\nThe workflow step this instance belongs to\n"
   syntax:
     content: public virtual int WorkflowStepId { get; set; }
     parameters: []
@@ -258,6 +203,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property WorkflowStepId As Integer
   overload: SuperOffice.WebApi.Data.WorkflowStepOptionBase.WorkflowStepId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.WorkflowStepOptionBase.WorkflowId
   commentId: P:SuperOffice.WebApi.Data.WorkflowStepOptionBase.WorkflowId
   id: WorkflowId
@@ -269,11 +222,13 @@ items:
   nameWithType: WorkflowStepOptionBase.WorkflowId
   fullName: SuperOffice.WebApi.Data.WorkflowStepOptionBase.WorkflowId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Workflow id
-  example: []
+  summary: "\nWorkflow id\n"
   syntax:
     content: public virtual int WorkflowId { get; set; }
     parameters: []
@@ -281,6 +236,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property WorkflowId As Integer
   overload: SuperOffice.WebApi.Data.WorkflowStepOptionBase.WorkflowId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.WorkflowStepOptionBase.Name
   commentId: P:SuperOffice.WebApi.Data.WorkflowStepOptionBase.Name
   id: Name
@@ -292,11 +255,13 @@ items:
   nameWithType: WorkflowStepOptionBase.Name
   fullName: SuperOffice.WebApi.Data.WorkflowStepOptionBase.Name
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The name of this option
-  example: []
+  summary: "\nThe name of this option\n"
   syntax:
     content: public virtual string Name { get; set; }
     parameters: []
@@ -304,6 +269,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property Name As String
   overload: SuperOffice.WebApi.Data.WorkflowStepOptionBase.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.WorkflowStepOptionBase.Rank
   commentId: P:SuperOffice.WebApi.Data.WorkflowStepOptionBase.Rank
   id: Rank
@@ -315,11 +288,13 @@ items:
   nameWithType: WorkflowStepOptionBase.Rank
   fullName: SuperOffice.WebApi.Data.WorkflowStepOptionBase.Rank
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Step order
-  example: []
+  summary: "\nStep order\n"
   syntax:
     content: public virtual int Rank { get; set; }
     parameters: []
@@ -327,6 +302,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property Rank As Integer
   overload: SuperOffice.WebApi.Data.WorkflowStepOptionBase.Rank*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.WorkflowStepOptionBase.Steps
   commentId: P:SuperOffice.WebApi.Data.WorkflowStepOptionBase.Steps
   id: Steps
@@ -338,11 +321,13 @@ items:
   nameWithType: WorkflowStepOptionBase.Steps
   fullName: SuperOffice.WebApi.Data.WorkflowStepOptionBase.Steps
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The steps to execute if this option/path is selected
-  example: []
+  summary: "\nThe steps to execute if this option/path is selected\n"
   syntax:
     content: public virtual WorkflowStepBase[] Steps { get; set; }
     parameters: []
@@ -350,399 +335,170 @@ items:
       type: SuperOffice.WebApi.Data.WorkflowStepBase[]
     content.vb: Public Overridable Property Steps As WorkflowStepBase()
   overload: SuperOffice.WebApi.Data.WorkflowStepOptionBase.Steps*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
-- uid: SuperOffice.WebApi.Agents.WorkflowAgent
-  commentId: T:SuperOffice.WebApi.Agents.WorkflowAgent
-  isExternal: true
-  href: SuperOffice.WebApi.Agents.WorkflowAgent.html
-  name: WorkflowAgent
-  nameWithType: WorkflowAgent
-  fullName: SuperOffice.WebApi.Agents.WorkflowAgent
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent
+  commentId: T:SuperOffice.WebApi.Agents.WorkflowAgent
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: WorkflowAgent
+  nameWithType: WorkflowAgent
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Data.WorkflowStepOptionBase.#ctor*
   commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepOptionBase.#ctor
   isExternal: true
-  href: SuperOffice.WebApi.Data.WorkflowStepOptionBase.html#SuperOffice_WebApi_Data_WorkflowStepOptionBase__ctor
   name: WorkflowStepOptionBase
   nameWithType: WorkflowStepOptionBase.WorkflowStepOptionBase
   fullName: SuperOffice.WebApi.Data.WorkflowStepOptionBase.WorkflowStepOptionBase
-  nameWithType.vb: WorkflowStepOptionBase.New
-  fullName.vb: SuperOffice.WebApi.Data.WorkflowStepOptionBase.New
-  name.vb: New
+- uid: SuperOffice.WebApi.Data.WorkflowStepOptionBase.OptionType_String*
+  commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepOptionBase.OptionType_String
+  isExternal: true
+  name: OptionType_String
+  nameWithType: WorkflowStepOptionBase.OptionType_String
+  fullName: SuperOffice.WebApi.Data.WorkflowStepOptionBase.OptionType_String
 - uid: SuperOffice.WebApi.Data.WorkflowStepOptionBase.OptionType
   commentId: P:SuperOffice.WebApi.Data.WorkflowStepOptionBase.OptionType
   parent: SuperOffice.WebApi.Data.WorkflowStepOptionBase
   isExternal: true
-  href: SuperOffice.WebApi.Data.WorkflowStepOptionBase.html#SuperOffice_WebApi_Data_WorkflowStepOptionBase_OptionType
   name: OptionType
   nameWithType: WorkflowStepOptionBase.OptionType
   fullName: SuperOffice.WebApi.Data.WorkflowStepOptionBase.OptionType
-- uid: SuperOffice.WebApi.Data.WorkflowStepOptionBase.OptionType_String*
-  commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepOptionBase.OptionType_String
-  isExternal: true
-  href: SuperOffice.WebApi.Data.WorkflowStepOptionBase.html#SuperOffice_WebApi_Data_WorkflowStepOptionBase_OptionType_String
-  name: OptionType_String
-  nameWithType: WorkflowStepOptionBase.OptionType_String
-  fullName: SuperOffice.WebApi.Data.WorkflowStepOptionBase.OptionType_String
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.WebApi.Data.WorkflowStepOptionBase
   commentId: T:SuperOffice.WebApi.Data.WorkflowStepOptionBase
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.WorkflowStepOptionBase.html
   name: WorkflowStepOptionBase
   nameWithType: WorkflowStepOptionBase
   fullName: SuperOffice.WebApi.Data.WorkflowStepOptionBase
+- uid: SuperOffice.WebApi.Data.WorkflowStepOptionBase.OptionType*
+  commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepOptionBase.OptionType
+  isExternal: true
+  name: OptionType
+  nameWithType: WorkflowStepOptionBase.OptionType
+  fullName: SuperOffice.WebApi.Data.WorkflowStepOptionBase.OptionType
 - uid: SuperOffice.WebApi.Data.WorkflowStepOptionBase.OptionType_String
   commentId: P:SuperOffice.WebApi.Data.WorkflowStepOptionBase.OptionType_String
   parent: SuperOffice.WebApi.Data.WorkflowStepOptionBase
   isExternal: true
-  href: SuperOffice.WebApi.Data.WorkflowStepOptionBase.html#SuperOffice_WebApi_Data_WorkflowStepOptionBase_OptionType_String
   name: OptionType_String
   nameWithType: WorkflowStepOptionBase.OptionType_String
   fullName: SuperOffice.WebApi.Data.WorkflowStepOptionBase.OptionType_String
-- uid: SuperOffice.WebApi.Data.WorkflowStepOptionBase.OptionType*
-  commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepOptionBase.OptionType
-  isExternal: true
-  href: SuperOffice.WebApi.Data.WorkflowStepOptionBase.html#SuperOffice_WebApi_Data_WorkflowStepOptionBase_OptionType
-  name: OptionType
-  nameWithType: WorkflowStepOptionBase.OptionType
-  fullName: SuperOffice.WebApi.Data.WorkflowStepOptionBase.OptionType
 - uid: System.Nullable{SuperOffice.WebApi.Data.WorkflowSplitOptionType}
-  commentId: T:System.Nullable{SuperOffice.WebApi.Data.WorkflowSplitOptionType}
-  parent: System
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.WorkflowSplitOptionType}'
   definition: System.Nullable`1
-  href: SuperOffice.WebApi.Data.WorkflowSplitOptionType.html
-  name: WorkflowSplitOptionType?
-  nameWithType: WorkflowSplitOptionType?
-  fullName: SuperOffice.WebApi.Data.WorkflowSplitOptionType?
-  spec.csharp:
-  - uid: SuperOffice.WebApi.Data.WorkflowSplitOptionType
-    name: WorkflowSplitOptionType
-    isExternal: true
-    href: SuperOffice.WebApi.Data.WorkflowSplitOptionType.html
-  - name: '?'
-  spec.vb:
-  - uid: SuperOffice.WebApi.Data.WorkflowSplitOptionType
-    name: WorkflowSplitOptionType
-    isExternal: true
-    href: SuperOffice.WebApi.Data.WorkflowSplitOptionType.html
-  - name: '?'
-- uid: System.Nullable`1
-  commentId: T:System.Nullable`1
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
-  name: Nullable<T>
-  nameWithType: Nullable<T>
-  fullName: System.Nullable<T>
-  nameWithType.vb: Nullable(Of T)
-  fullName.vb: System.Nullable(Of T)
-  name.vb: Nullable(Of T)
+  name: Nullable<WorkflowSplitOptionType>
+  nameWithType: Nullable<WorkflowSplitOptionType>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.WorkflowSplitOptionType>
+  nameWithType.vb: Nullable(Of WorkflowSplitOptionType)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.WorkflowSplitOptionType)
+  name.vb: Nullable(Of WorkflowSplitOptionType)
   spec.csharp:
   - uid: System.Nullable`1
     name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
   - name: <
-  - name: T
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.WorkflowSplitOptionType
+    name: WorkflowSplitOptionType
+    nameWithType: WorkflowSplitOptionType
+    fullName: SuperOffice.WebApi.Data.WorkflowSplitOptionType
+    isExternal: true
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Nullable`1
     name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.WorkflowSplitOptionType
+    name: WorkflowSplitOptionType
+    nameWithType: WorkflowSplitOptionType
+    fullName: SuperOffice.WebApi.Data.WorkflowSplitOptionType
+    isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Data.WorkflowStepOptionBase.WorkflowStepOptionId*
   commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepOptionBase.WorkflowStepOptionId
   isExternal: true
-  href: SuperOffice.WebApi.Data.WorkflowStepOptionBase.html#SuperOffice_WebApi_Data_WorkflowStepOptionBase_WorkflowStepOptionId
   name: WorkflowStepOptionId
   nameWithType: WorkflowStepOptionBase.WorkflowStepOptionId
   fullName: SuperOffice.WebApi.Data.WorkflowStepOptionBase.WorkflowStepOptionId
@@ -750,51 +506,41 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.WebApi.Data.WorkflowStepOptionBase.WorkflowStepId*
   commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepOptionBase.WorkflowStepId
   isExternal: true
-  href: SuperOffice.WebApi.Data.WorkflowStepOptionBase.html#SuperOffice_WebApi_Data_WorkflowStepOptionBase_WorkflowStepId
   name: WorkflowStepId
   nameWithType: WorkflowStepOptionBase.WorkflowStepId
   fullName: SuperOffice.WebApi.Data.WorkflowStepOptionBase.WorkflowStepId
 - uid: SuperOffice.WebApi.Data.WorkflowStepOptionBase.WorkflowId*
   commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepOptionBase.WorkflowId
   isExternal: true
-  href: SuperOffice.WebApi.Data.WorkflowStepOptionBase.html#SuperOffice_WebApi_Data_WorkflowStepOptionBase_WorkflowId
   name: WorkflowId
   nameWithType: WorkflowStepOptionBase.WorkflowId
   fullName: SuperOffice.WebApi.Data.WorkflowStepOptionBase.WorkflowId
 - uid: SuperOffice.WebApi.Data.WorkflowStepOptionBase.Name*
   commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepOptionBase.Name
   isExternal: true
-  href: SuperOffice.WebApi.Data.WorkflowStepOptionBase.html#SuperOffice_WebApi_Data_WorkflowStepOptionBase_Name
   name: Name
   nameWithType: WorkflowStepOptionBase.Name
   fullName: SuperOffice.WebApi.Data.WorkflowStepOptionBase.Name
 - uid: SuperOffice.WebApi.Data.WorkflowStepOptionBase.Rank*
   commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepOptionBase.Rank
   isExternal: true
-  href: SuperOffice.WebApi.Data.WorkflowStepOptionBase.html#SuperOffice_WebApi_Data_WorkflowStepOptionBase_Rank
   name: Rank
   nameWithType: WorkflowStepOptionBase.Rank
   fullName: SuperOffice.WebApi.Data.WorkflowStepOptionBase.Rank
 - uid: SuperOffice.WebApi.Data.WorkflowStepOptionBase.Steps*
   commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepOptionBase.Steps
   isExternal: true
-  href: SuperOffice.WebApi.Data.WorkflowStepOptionBase.html#SuperOffice_WebApi_Data_WorkflowStepOptionBase_Steps
   name: Steps
   nameWithType: WorkflowStepOptionBase.Steps
   fullName: SuperOffice.WebApi.Data.WorkflowStepOptionBase.Steps
 - uid: SuperOffice.WebApi.Data.WorkflowStepBase[]
   isExternal: true
-  href: SuperOffice.WebApi.Data.WorkflowStepBase.html
   name: WorkflowStepBase[]
   nameWithType: WorkflowStepBase[]
   fullName: SuperOffice.WebApi.Data.WorkflowStepBase[]
@@ -804,14 +550,18 @@ references:
   spec.csharp:
   - uid: SuperOffice.WebApi.Data.WorkflowStepBase
     name: WorkflowStepBase
+    nameWithType: WorkflowStepBase
+    fullName: SuperOffice.WebApi.Data.WorkflowStepBase
     isExternal: true
-    href: SuperOffice.WebApi.Data.WorkflowStepBase.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.WebApi.Data.WorkflowStepBase
     name: WorkflowStepBase
+    nameWithType: WorkflowStepBase
+    fullName: SuperOffice.WebApi.Data.WorkflowStepBase
     isExternal: true
-    href: SuperOffice.WebApi.Data.WorkflowStepBase.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()

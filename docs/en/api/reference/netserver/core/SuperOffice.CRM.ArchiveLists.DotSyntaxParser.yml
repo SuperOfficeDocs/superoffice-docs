@@ -15,25 +15,28 @@ items:
   nameWithType: DotSyntaxParser
   fullName: SuperOffice.CRM.ArchiveLists.DotSyntaxParser
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: public class DotSyntaxParser
-    content.vb: Public Class DotSyntaxParser
+    content: 'public class DotSyntaxParser : Object'
+    content.vb: >-
+      Public Class DotSyntaxParser
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.ArchiveLists.DotSyntaxParser.EnumUtil.MapEnums``2
   - SuperOffice.CRM.ArchiveLists.DotSyntaxParser.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.ArchiveLists.DotSyntaxParser.#ctor(System.Collections.Generic.IEnumerable{SuperOffice.CRM.ArchiveLists.IArchiveExtender})
   commentId: M:SuperOffice.CRM.ArchiveLists.DotSyntaxParser.#ctor(System.Collections.Generic.IEnumerable{SuperOffice.CRM.ArchiveLists.IArchiveExtender})
   id: '#ctor(System.Collections.Generic.IEnumerable{SuperOffice.CRM.ArchiveLists.IArchiveExtender})'
@@ -45,6 +48,9 @@ items:
   nameWithType: DotSyntaxParser.DotSyntaxParser(IEnumerable<IArchiveExtender>)
   fullName: SuperOffice.CRM.ArchiveLists.DotSyntaxParser.DotSyntaxParser(System.Collections.Generic.IEnumerable<SuperOffice.CRM.ArchiveLists.IArchiveExtender>)
   type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
@@ -55,9 +61,13 @@ items:
       type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.ArchiveLists.IArchiveExtender}
     content.vb: Public Sub New(baseExtenders As IEnumerable(Of IArchiveExtender))
   overload: SuperOffice.CRM.ArchiveLists.DotSyntaxParser.#ctor*
-  nameWithType.vb: DotSyntaxParser.New(IEnumerable(Of IArchiveExtender))
-  fullName.vb: SuperOffice.CRM.ArchiveLists.DotSyntaxParser.New(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.ArchiveLists.IArchiveExtender))
-  name.vb: New(IEnumerable(Of IArchiveExtender))
+  nameWithType.vb: DotSyntaxParser.DotSyntaxParser(IEnumerable(Of IArchiveExtender))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.ArchiveLists.DotSyntaxParser.DotSyntaxParser(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.ArchiveLists.IArchiveExtender))
+  name.vb: DotSyntaxParser(IEnumerable(Of IArchiveExtender))
 - uid: SuperOffice.CRM.ArchiveLists.DotSyntaxParser.ConstructExtenderTree(System.String[])
   commentId: M:SuperOffice.CRM.ArchiveLists.DotSyntaxParser.ConstructExtenderTree(System.String[])
   id: ConstructExtenderTree(System.String[])
@@ -65,76 +75,33 @@ items:
   langs:
   - csharp
   - vb
-  name: ConstructExtenderTree(string[])
-  nameWithType: DotSyntaxParser.ConstructExtenderTree(string[])
-  fullName: SuperOffice.CRM.ArchiveLists.DotSyntaxParser.ConstructExtenderTree(string[])
+  name: ConstructExtenderTree(String[])
+  nameWithType: DotSyntaxParser.ConstructExtenderTree(String[])
+  fullName: SuperOffice.CRM.ArchiveLists.DotSyntaxParser.ConstructExtenderTree(System.String[])
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: Construct a (sub)tree of archive extenders based on the dot-syntax column names provided
-  remarks: >-
-    The following grammar defines what dot-syntax really is:
-
-    <pre><code class="lang-csharp">dotSyntax := &lt;table&gt;[&lt;join&gt;, ...].&lt;field&gt;
-
-    table := table name from database
-
-    field := field name from database, or column name defined by the module handling that table
-
-    join := &lt;outerjoin&gt; | &lt;innerjoin&gt; | &lt;rightjoin&gt;
-
-    outerjoin := .&lt;fk_field&gt;
-
-    innerjoin := :&lt;fk_field&gt;
-
-    rightjoin := .(&lt;table&gt;-&gt;&lt;fk_field&gt;)
-
-    fk_field := &lt;foreign_key&gt; | &lt;field_name&gt;[&lt;table_name&gt;]     note the square brackets are literals here!
-
-    foreign_key := field name from database, where field must be defined as a foreign key in the dictionary
-
-    field_name := any field name in the current table that is of type int
-
-    table_name := target table, relation does not need to be defined in the dictionary in this case</code></pre>
-
-    Field names must follow this grammar, otherwise exceptions will be generated. Additionally, all
-
-    join field and table names must be valid, by reference to the runtime dictionary; but note that right-joins as well as left-joins
-
-    using the square-bracket syntax to specify target table do not need to correspond to relations declared in the
-
-    dictionary.
-
-    <p></p>Final field names
-
-    can be anything, as long as the code handling that table recognizes the field name. If no specific
-
-    code is found for a table, a generic (dynamic) extender will be used; this requires field names
-
-    to match database field names.
-
-    <p></p>
-
-    Note that we treat extenders through the IArchiveDynamicExtender as seldom as possible, and
-
-    use plain IArchiveExtender wherever possible - the Dynamic part is supposed to be a minimalist
-
-    add-on. It also enables us to do hybrid structures, where many parts are standard extenders.
-  example: []
+  summary: "\nConstruct a (sub)tree of archive extenders based on the dot-syntax column names provided\n"
+  remarks: "\nThe following grammar defines what dot-syntax really is:\n<pre><code>dotSyntax := &lt;table>[&lt;join>, ...].&lt;field>\ntable := table name from database\nfield := field name from database, or column name defined by the module handling that table\njoin := &lt;outerjoin> | &lt;innerjoin> | &lt;rightjoin>\nouterjoin := .&lt;fk_field>\ninnerjoin := :&lt;fk_field>\nrightjoin := .(&lt;table>->&lt;fk_field>)\nfk_field := &lt;foreign_key> | &lt;field_name>[&lt;table_name>]     note the square brackets are literals here!\nforeign_key := field name from database, where field must be defined as a foreign key in the dictionary\nfield_name := any field name in the current table that is of type int\ntable_name := target table, relation does <strong>not</strong> need to be defined in the dictionary in this case</code></pre>\nField names must follow this grammar, otherwise exceptions will be generated. Additionally, all\njoin field and table names must be valid, by reference to the runtime dictionary; but note that right-joins as well as left-joins\nusing the square-bracket syntax to specify target table do not need to correspond to relations declared in the\ndictionary.\n<p></p>Final field names\ncan be anything, as long as the code handling that table recognizes the field name. If no specific\ncode is found for a table, a generic (dynamic) extender will be used; this requires field names\nto match database field names.\n<p></p>\nNote that we treat extenders through the IArchiveDynamicExtender as seldom as possible, and\nuse plain IArchiveExtender wherever possible - the Dynamic part is supposed to be a minimalist\nadd-on. It also enables us to do hybrid structures, where many parts are standard extenders.\n"
   syntax:
     content: public IArchiveExtender ConstructExtenderTree(string[] columnNames)
     parameters:
     - id: columnNames
       type: System.String[]
-      description: ''
     return:
       type: SuperOffice.CRM.ArchiveLists.IArchiveExtender
-      description: ''
     content.vb: Public Function ConstructExtenderTree(columnNames As String()) As IArchiveExtender
   overload: SuperOffice.CRM.ArchiveLists.DotSyntaxParser.ConstructExtenderTree*
   nameWithType.vb: DotSyntaxParser.ConstructExtenderTree(String())
-  fullName.vb: SuperOffice.CRM.ArchiveLists.DotSyntaxParser.ConstructExtenderTree(String())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.ArchiveLists.DotSyntaxParser.ConstructExtenderTree(System.String())
   name.vb: ConstructExtenderTree(String())
 - uid: SuperOffice.CRM.ArchiveLists.DotSyntaxParser.TolerateBaseMismatches
   commentId: P:SuperOffice.CRM.ArchiveLists.DotSyntaxParser.TolerateBaseMismatches
@@ -147,14 +114,13 @@ items:
   nameWithType: DotSyntaxParser.TolerateBaseMismatches
   fullName: SuperOffice.CRM.ArchiveLists.DotSyntaxParser.TolerateBaseMismatches
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: >-
-    If true, then dynamic columns that do not match their base will be tolerated (skipped); otherwise exceptions will
-
-    be thrown if a dynamic column specifies an unknown base or foreign key
-  example: []
+  summary: "\nIf true, then dynamic columns that do not match their base will be tolerated (skipped); otherwise exceptions will\nbe thrown if a dynamic column specifies an unknown base or foreign key\n"
   syntax:
     content: public bool TolerateBaseMismatches { get; set; }
     parameters: []
@@ -162,391 +128,103 @@ items:
       type: System.Boolean
     content.vb: Public Property TolerateBaseMismatches As Boolean
   overload: SuperOffice.CRM.ArchiveLists.DotSyntaxParser.TolerateBaseMismatches*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 references:
 - uid: SuperOffice.CRM.ArchiveLists
   commentId: N:SuperOffice.CRM.ArchiveLists
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.ArchiveLists
   nameWithType: SuperOffice.CRM.ArchiveLists
   fullName: SuperOffice.CRM.ArchiveLists
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.ArchiveLists
-    name: ArchiveLists
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.ArchiveLists
-    name: ArchiveLists
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.ArchiveLists.DotSyntaxParser.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<DotSyntaxParser, To>(DotSyntaxParser)
-  nameWithType: EnumUtil.MapEnums<DotSyntaxParser, To>(DotSyntaxParser)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.DotSyntaxParser, To>(SuperOffice.CRM.ArchiveLists.DotSyntaxParser)
-  nameWithType.vb: EnumUtil.MapEnums(Of DotSyntaxParser, To)(DotSyntaxParser)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.DotSyntaxParser, To)(SuperOffice.CRM.ArchiveLists.DotSyntaxParser)
-  name.vb: MapEnums(Of DotSyntaxParser, To)(DotSyntaxParser)
+  name: MapEnums<DotSyntaxParser, To>()
+  nameWithType: EnumUtil.MapEnums<DotSyntaxParser, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.DotSyntaxParser, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of DotSyntaxParser, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.DotSyntaxParser, To)()
+  name.vb: MapEnums(Of DotSyntaxParser, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.ArchiveLists.DotSyntaxParser)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<DotSyntaxParser, To>
+    nameWithType: EnumUtil.MapEnums<DotSyntaxParser, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.DotSyntaxParser, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.ArchiveLists.DotSyntaxParser
-    name: DotSyntaxParser
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.DotSyntaxParser.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.ArchiveLists.DotSyntaxParser
-    name: DotSyntaxParser
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.DotSyntaxParser.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.ArchiveLists.DotSyntaxParser)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of DotSyntaxParser, To)
+    nameWithType: EnumUtil.MapEnums(Of DotSyntaxParser, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.DotSyntaxParser, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.ArchiveLists.DotSyntaxParser
-    name: DotSyntaxParser
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.DotSyntaxParser.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.ArchiveLists.DotSyntaxParser
-    name: DotSyntaxParser
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.DotSyntaxParser.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.ArchiveLists.DotSyntaxParser.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<DotSyntaxParser, To>(DotSyntaxParser)
-  nameWithType: Converters.MapEnums<DotSyntaxParser, To>(DotSyntaxParser)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.DotSyntaxParser, To>(SuperOffice.CRM.ArchiveLists.DotSyntaxParser)
-  nameWithType.vb: Converters.MapEnums(Of DotSyntaxParser, To)(DotSyntaxParser)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.DotSyntaxParser, To)(SuperOffice.CRM.ArchiveLists.DotSyntaxParser)
-  name.vb: MapEnums(Of DotSyntaxParser, To)(DotSyntaxParser)
+  name: MapEnums<DotSyntaxParser, To>()
+  nameWithType: Converters.MapEnums<DotSyntaxParser, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.DotSyntaxParser, To>()
+  nameWithType.vb: Converters.MapEnums(Of DotSyntaxParser, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.DotSyntaxParser, To)()
+  name.vb: MapEnums(Of DotSyntaxParser, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.ArchiveLists.DotSyntaxParser)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<DotSyntaxParser, To>
+    nameWithType: Converters.MapEnums<DotSyntaxParser, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.DotSyntaxParser, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.ArchiveLists.DotSyntaxParser
-    name: DotSyntaxParser
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.DotSyntaxParser.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.ArchiveLists.DotSyntaxParser
-    name: DotSyntaxParser
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.DotSyntaxParser.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.ArchiveLists.DotSyntaxParser)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of DotSyntaxParser, To)
+    nameWithType: Converters.MapEnums(Of DotSyntaxParser, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.DotSyntaxParser, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.ArchiveLists.DotSyntaxParser
-    name: DotSyntaxParser
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.DotSyntaxParser.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.ArchiveLists.DotSyntaxParser
-    name: DotSyntaxParser
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.DotSyntaxParser.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -555,45 +233,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -602,94 +278,56 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.CRM.ArchiveLists.DotSyntaxParser.#ctor*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.DotSyntaxParser.#ctor
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.DotSyntaxParser.html#SuperOffice_CRM_ArchiveLists_DotSyntaxParser__ctor_System_Collections_Generic_IEnumerable_SuperOffice_CRM_ArchiveLists_IArchiveExtender__
   name: DotSyntaxParser
   nameWithType: DotSyntaxParser.DotSyntaxParser
   fullName: SuperOffice.CRM.ArchiveLists.DotSyntaxParser.DotSyntaxParser
-  nameWithType.vb: DotSyntaxParser.New
-  fullName.vb: SuperOffice.CRM.ArchiveLists.DotSyntaxParser.New
-  name.vb: New
 - uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.ArchiveLists.IArchiveExtender}
-  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.CRM.ArchiveLists.IArchiveExtender}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.ArchiveLists.IArchiveExtender}'
   definition: System.Collections.Generic.IEnumerable`1
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   name: IEnumerable<IArchiveExtender>
   nameWithType: IEnumerable<IArchiveExtender>
   fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.ArchiveLists.IArchiveExtender>
@@ -699,134 +337,117 @@ references:
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.ArchiveLists.IArchiveExtender
     name: IArchiveExtender
+    nameWithType: IArchiveExtender
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveExtender
     isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.IArchiveExtender.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.ArchiveLists.IArchiveExtender
     name: IArchiveExtender
+    nameWithType: IArchiveExtender
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveExtender
     isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.IArchiveExtender.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Collections.Generic.IEnumerable`1
-  commentId: T:System.Collections.Generic.IEnumerable`1
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  name: IEnumerable<T>
-  nameWithType: IEnumerable<T>
-  fullName: System.Collections.Generic.IEnumerable<T>
-  nameWithType.vb: IEnumerable(Of T)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
-  name.vb: IEnumerable(Of T)
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
-  - name: T
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.ArchiveLists.DotSyntaxParser.ConstructExtenderTree*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.DotSyntaxParser.ConstructExtenderTree
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.DotSyntaxParser.html#SuperOffice_CRM_ArchiveLists_DotSyntaxParser_ConstructExtenderTree_System_String___
   name: ConstructExtenderTree
   nameWithType: DotSyntaxParser.ConstructExtenderTree
   fullName: SuperOffice.CRM.ArchiveLists.DotSyntaxParser.ConstructExtenderTree
 - uid: System.String[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string[]
-  nameWithType: string[]
-  fullName: string[]
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
   nameWithType.vb: String()
-  fullName.vb: String()
+  fullName.vb: System.String()
   name.vb: String()
   spec.csharp:
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.ArchiveLists.IArchiveExtender
   commentId: T:SuperOffice.CRM.ArchiveLists.IArchiveExtender
   parent: SuperOffice.CRM.ArchiveLists
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.IArchiveExtender.html
   name: IArchiveExtender
   nameWithType: IArchiveExtender
   fullName: SuperOffice.CRM.ArchiveLists.IArchiveExtender
 - uid: SuperOffice.CRM.ArchiveLists.DotSyntaxParser.TolerateBaseMismatches*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.DotSyntaxParser.TolerateBaseMismatches
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.DotSyntaxParser.html#SuperOffice_CRM_ArchiveLists_DotSyntaxParser_TolerateBaseMismatches
   name: TolerateBaseMismatches
   nameWithType: DotSyntaxParser.TolerateBaseMismatches
   fullName: SuperOffice.CRM.ArchiveLists.DotSyntaxParser.TolerateBaseMismatches
@@ -834,10 +455,6 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

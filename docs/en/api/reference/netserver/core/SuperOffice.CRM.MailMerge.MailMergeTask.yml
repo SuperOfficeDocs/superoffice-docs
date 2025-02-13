@@ -27,29 +27,31 @@ items:
   nameWithType: MailMergeTask
   fullName: SuperOffice.CRM.MailMerge.MailMergeTask
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.MailMerge
-  summary: Properties describing a task to create on recipients of a mail merge
-  example: []
+  summary: "\nProperties describing a task to create on recipients of a mail merge\n"
   syntax:
-    content: public class MailMergeTask
-    content.vb: Public Class MailMergeTask
+    content: 'public class MailMergeTask : Object'
+    content.vb: >-
+      Public Class MailMergeTask
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.MailMerge.MailMergeTask.EnumUtil.MapEnums``2
-  - SuperOffice.CRM.MailMerge.MailMergeTask.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.CRM.MailMerge.MailMergeTask.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.MailMerge.MailMergeTask)
   - SuperOffice.CRM.MailMerge.MailMergeTask.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.MailMerge.MailMergeTask.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.MailMerge.MailMergeTask.#ctor
   commentId: M:SuperOffice.CRM.MailMerge.MailMergeTask.#ctor
   id: '#ctor'
@@ -61,18 +63,21 @@ items:
   nameWithType: MailMergeTask.MailMergeTask()
   fullName: SuperOffice.CRM.MailMerge.MailMergeTask.MailMergeTask()
   type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.MailMerge
-  summary: Constructor
-  example: []
+  summary: "\nConstructor\n"
   syntax:
     content: public MailMergeTask()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.MailMerge.MailMergeTask.#ctor*
-  nameWithType.vb: MailMergeTask.New()
-  fullName.vb: SuperOffice.CRM.MailMerge.MailMergeTask.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.MailMerge.MailMergeTask.ToTextRow
   commentId: M:SuperOffice.CRM.MailMerge.MailMergeTask.ToTextRow
   id: ToTextRow
@@ -84,18 +89,24 @@ items:
   nameWithType: MailMergeTask.ToTextRow()
   fullName: SuperOffice.CRM.MailMerge.MailMergeTask.ToTextRow()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.MailMerge
-  summary: Create a new TextRow based on the current instance data
-  example: []
+  summary: "\nCreate a new TextRow based on the current instance data\n"
   syntax:
     content: public TextRow ToTextRow()
     return:
       type: SuperOffice.CRM.Rows.TextRow
       description: New TextRow with values populated from this task instance
-    content.vb: Public Function ToTextRow() As TextRow
+    content.vb: Public Function ToTextRow As TextRow
   overload: SuperOffice.CRM.MailMerge.MailMergeTask.ToTextRow*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.MailMerge.MailMergeTask.ToVisibleForRow
   commentId: M:SuperOffice.CRM.MailMerge.MailMergeTask.ToVisibleForRow
   id: ToVisibleForRow
@@ -107,18 +118,24 @@ items:
   nameWithType: MailMergeTask.ToVisibleForRow()
   fullName: SuperOffice.CRM.MailMerge.MailMergeTask.ToVisibleForRow()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.MailMerge
-  summary: Create a new VisibleForRow based on the current instance data
-  example: []
+  summary: "\nCreate a new VisibleForRow based on the current instance data\n"
   syntax:
     content: public VisibleForRow ToVisibleForRow()
     return:
       type: SuperOffice.CRM.Rows.VisibleForRow
       description: New VisibleForRow with values populated from this task instance
-    content.vb: Public Function ToVisibleForRow() As VisibleForRow
+    content.vb: Public Function ToVisibleForRow As VisibleForRow
   overload: SuperOffice.CRM.MailMerge.MailMergeTask.ToVisibleForRow*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.MailMerge.MailMergeTask.ToAppointmentRow
   commentId: M:SuperOffice.CRM.MailMerge.MailMergeTask.ToAppointmentRow
   id: ToAppointmentRow
@@ -130,18 +147,24 @@ items:
   nameWithType: MailMergeTask.ToAppointmentRow()
   fullName: SuperOffice.CRM.MailMerge.MailMergeTask.ToAppointmentRow()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.MailMerge
-  summary: Create a new AppointmentRow based on the current instance data
-  example: []
+  summary: "\nCreate a new AppointmentRow based on the current instance data\n"
   syntax:
     content: public AppointmentRow ToAppointmentRow()
     return:
       type: SuperOffice.CRM.Rows.AppointmentRow
       description: New AppointmentRow with values populated from this task instance
-    content.vb: Public Function ToAppointmentRow() As AppointmentRow
+    content.vb: Public Function ToAppointmentRow As AppointmentRow
   overload: SuperOffice.CRM.MailMerge.MailMergeTask.ToAppointmentRow*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.MailMerge.MailMergeTask.ProjectId
   commentId: P:SuperOffice.CRM.MailMerge.MailMergeTask.ProjectId
   id: ProjectId
@@ -153,11 +176,13 @@ items:
   nameWithType: MailMergeTask.ProjectId
   fullName: SuperOffice.CRM.MailMerge.MailMergeTask.ProjectId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.MailMerge
-  summary: Project identity to set on task
-  example: []
+  summary: "\nProject identity to set on task\n"
   syntax:
     content: public int ProjectId { get; set; }
     parameters: []
@@ -165,6 +190,12 @@ items:
       type: System.Int32
     content.vb: Public Property ProjectId As Integer
   overload: SuperOffice.CRM.MailMerge.MailMergeTask.ProjectId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.MailMerge.MailMergeTask.TypeId
   commentId: P:SuperOffice.CRM.MailMerge.MailMergeTask.TypeId
   id: TypeId
@@ -176,11 +207,13 @@ items:
   nameWithType: MailMergeTask.TypeId
   fullName: SuperOffice.CRM.MailMerge.MailMergeTask.TypeId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.MailMerge
-  summary: Type identity to set on task
-  example: []
+  summary: "\nType identity to set on task\n"
   syntax:
     content: public int TypeId { get; set; }
     parameters: []
@@ -188,6 +221,12 @@ items:
       type: System.Int32
     content.vb: Public Property TypeId As Integer
   overload: SuperOffice.CRM.MailMerge.MailMergeTask.TypeId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.MailMerge.MailMergeTask.StartDate
   commentId: P:SuperOffice.CRM.MailMerge.MailMergeTask.StartDate
   id: StartDate
@@ -199,18 +238,26 @@ items:
   nameWithType: MailMergeTask.StartDate
   fullName: SuperOffice.CRM.MailMerge.MailMergeTask.StartDate
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.MailMerge
-  summary: When the task should start
-  example: []
+  summary: "\nWhen the task should start\n"
   syntax:
     content: public DateTime StartDate { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Property StartDate As Date
+    content.vb: Public Property StartDate As DateTime
   overload: SuperOffice.CRM.MailMerge.MailMergeTask.StartDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.MailMerge.MailMergeTask.Duration
   commentId: P:SuperOffice.CRM.MailMerge.MailMergeTask.Duration
   id: Duration
@@ -222,11 +269,13 @@ items:
   nameWithType: MailMergeTask.Duration
   fullName: SuperOffice.CRM.MailMerge.MailMergeTask.Duration
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.MailMerge
-  summary: Duration of task
-  example: []
+  summary: "\nDuration of task\n"
   syntax:
     content: public int Duration { get; set; }
     parameters: []
@@ -234,6 +283,12 @@ items:
       type: System.Int32
     content.vb: Public Property Duration As Integer
   overload: SuperOffice.CRM.MailMerge.MailMergeTask.Duration*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.MailMerge.MailMergeTask.Description
   commentId: P:SuperOffice.CRM.MailMerge.MailMergeTask.Description
   id: Description
@@ -245,11 +300,13 @@ items:
   nameWithType: MailMergeTask.Description
   fullName: SuperOffice.CRM.MailMerge.MailMergeTask.Description
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.MailMerge
-  summary: Text describing task
-  example: []
+  summary: "\nText describing task\n"
   syntax:
     content: public string Description { get; set; }
     parameters: []
@@ -257,6 +314,12 @@ items:
       type: System.String
     content.vb: Public Property Description As String
   overload: SuperOffice.CRM.MailMerge.MailMergeTask.Description*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.MailMerge.MailMergeTask.PriorityId
   commentId: P:SuperOffice.CRM.MailMerge.MailMergeTask.PriorityId
   id: PriorityId
@@ -268,11 +331,13 @@ items:
   nameWithType: MailMergeTask.PriorityId
   fullName: SuperOffice.CRM.MailMerge.MailMergeTask.PriorityId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.MailMerge
-  summary: Priority of task
-  example: []
+  summary: "\nPriority of task\n"
   syntax:
     content: public int PriorityId { get; set; }
     parameters: []
@@ -280,6 +345,12 @@ items:
       type: System.Int32
     content.vb: Public Property PriorityId As Integer
   overload: SuperOffice.CRM.MailMerge.MailMergeTask.PriorityId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.MailMerge.MailMergeTask.Visibility
   commentId: P:SuperOffice.CRM.MailMerge.MailMergeTask.Visibility
   id: Visibility
@@ -291,11 +362,13 @@ items:
   nameWithType: MailMergeTask.Visibility
   fullName: SuperOffice.CRM.MailMerge.MailMergeTask.Visibility
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.MailMerge
-  summary: Who the task should be visible for
-  example: []
+  summary: "\nWho the task should be visible for\n"
   syntax:
     content: public Visibility Visibility { get; set; }
     parameters: []
@@ -303,6 +376,12 @@ items:
       type: SuperOffice.Data.Visibility
     content.vb: Public Property Visibility As Visibility
   overload: SuperOffice.CRM.MailMerge.MailMergeTask.Visibility*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.MailMerge.MailMergeTask.VisibilityId
   commentId: P:SuperOffice.CRM.MailMerge.MailMergeTask.VisibilityId
   id: VisibilityId
@@ -314,11 +393,13 @@ items:
   nameWithType: MailMergeTask.VisibilityId
   fullName: SuperOffice.CRM.MailMerge.MailMergeTask.VisibilityId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.MailMerge
-  summary: Identity of group/user which the record should be visible for
-  example: []
+  summary: "\nIdentity of group/user which the record should be visible for\n"
   syntax:
     content: public int VisibilityId { get; set; }
     parameters: []
@@ -326,6 +407,12 @@ items:
       type: System.Int32
     content.vb: Public Property VisibilityId As Integer
   overload: SuperOffice.CRM.MailMerge.MailMergeTask.VisibilityId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.MailMerge.MailMergeTask.Completed
   commentId: P:SuperOffice.CRM.MailMerge.MailMergeTask.Completed
   id: Completed
@@ -337,11 +424,13 @@ items:
   nameWithType: MailMergeTask.Completed
   fullName: SuperOffice.CRM.MailMerge.MailMergeTask.Completed
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.MailMerge
-  summary: Completed status for task
-  example: []
+  summary: "\nCompleted status for task\n"
   syntax:
     content: public ActivityStatus Completed { get; set; }
     parameters: []
@@ -349,6 +438,12 @@ items:
       type: SuperOffice.Data.ActivityStatus
     content.vb: Public Property Completed As ActivityStatus
   overload: SuperOffice.CRM.MailMerge.MailMergeTask.Completed*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.MailMerge.MailMergeTask.OwnerAssociateId
   commentId: P:SuperOffice.CRM.MailMerge.MailMergeTask.OwnerAssociateId
   id: OwnerAssociateId
@@ -360,11 +455,13 @@ items:
   nameWithType: MailMergeTask.OwnerAssociateId
   fullName: SuperOffice.CRM.MailMerge.MailMergeTask.OwnerAssociateId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.MailMerge
-  summary: Associate identity of who should be set as owner of the task.  If value is 0, the recipient owner(our contact) will be used.
-  example: []
+  summary: "\nAssociate identity of who should be set as owner of the task.  If value is 0, the recipient owner(our contact) will be used.\n"
   syntax:
     content: public int OwnerAssociateId { get; set; }
     parameters: []
@@ -372,6 +469,12 @@ items:
       type: System.Int32
     content.vb: Public Property OwnerAssociateId As Integer
   overload: SuperOffice.CRM.MailMerge.MailMergeTask.OwnerAssociateId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.MailMerge.MailMergeTask.SingleEntryOnEachCompany
   commentId: P:SuperOffice.CRM.MailMerge.MailMergeTask.SingleEntryOnEachCompany
   id: SingleEntryOnEachCompany
@@ -383,11 +486,13 @@ items:
   nameWithType: MailMergeTask.SingleEntryOnEachCompany
   fullName: SuperOffice.CRM.MailMerge.MailMergeTask.SingleEntryOnEachCompany
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.MailMerge
-  summary: Should we only create one task on each company? If false, separate tasks will be created for all persons from the same company.
-  example: []
+  summary: "\nShould we only create one task on each company? If false, separate tasks will be created for all persons from the same company.\n"
   syntax:
     content: public bool SingleEntryOnEachCompany { get; set; }
     parameters: []
@@ -395,497 +500,181 @@ items:
       type: System.Boolean
     content.vb: Public Property SingleEntryOnEachCompany As Boolean
   overload: SuperOffice.CRM.MailMerge.MailMergeTask.SingleEntryOnEachCompany*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 references:
 - uid: SuperOffice.CRM.MailMerge
   commentId: N:SuperOffice.CRM.MailMerge
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.MailMerge
   nameWithType: SuperOffice.CRM.MailMerge
   fullName: SuperOffice.CRM.MailMerge
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.MailMerge
-    name: MailMerge
-    isExternal: true
-    href: SuperOffice.CRM.MailMerge.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.MailMerge
-    name: MailMerge
-    isExternal: true
-    href: SuperOffice.CRM.MailMerge.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.MailMerge.MailMergeTask.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<MailMergeTask, To>(MailMergeTask)
-  nameWithType: EnumUtil.MapEnums<MailMergeTask, To>(MailMergeTask)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.MailMerge.MailMergeTask, To>(SuperOffice.CRM.MailMerge.MailMergeTask)
-  nameWithType.vb: EnumUtil.MapEnums(Of MailMergeTask, To)(MailMergeTask)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.MailMerge.MailMergeTask, To)(SuperOffice.CRM.MailMerge.MailMergeTask)
-  name.vb: MapEnums(Of MailMergeTask, To)(MailMergeTask)
+  name: MapEnums<MailMergeTask, To>()
+  nameWithType: EnumUtil.MapEnums<MailMergeTask, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.MailMerge.MailMergeTask, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of MailMergeTask, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.MailMerge.MailMergeTask, To)()
+  name.vb: MapEnums(Of MailMergeTask, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.MailMerge.MailMergeTask)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<MailMergeTask, To>
+    nameWithType: EnumUtil.MapEnums<MailMergeTask, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.MailMerge.MailMergeTask, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.MailMerge.MailMergeTask
-    name: MailMergeTask
-    isExternal: true
-    href: SuperOffice.CRM.MailMerge.MailMergeTask.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.MailMerge.MailMergeTask
-    name: MailMergeTask
-    isExternal: true
-    href: SuperOffice.CRM.MailMerge.MailMergeTask.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.MailMerge.MailMergeTask)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of MailMergeTask, To)
+    nameWithType: EnumUtil.MapEnums(Of MailMergeTask, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.MailMerge.MailMergeTask, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.MailMerge.MailMergeTask
-    name: MailMergeTask
-    isExternal: true
-    href: SuperOffice.CRM.MailMerge.MailMergeTask.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.MailMerge.MailMergeTask
-    name: MailMergeTask
-    isExternal: true
-    href: SuperOffice.CRM.MailMerge.MailMergeTask.html
-  - name: )
-- uid: SuperOffice.CRM.MailMerge.MailMergeTask.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  parent: SuperOffice.ErpSync.ConnectorWS.Converters
-  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<MailMergeTask, To>(MailMergeTask)
-  nameWithType: Converters.MapEnums<MailMergeTask, To>(MailMergeTask)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.MailMerge.MailMergeTask, To>(SuperOffice.CRM.MailMerge.MailMergeTask)
-  nameWithType.vb: Converters.MapEnums(Of MailMergeTask, To)(MailMergeTask)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.MailMerge.MailMergeTask, To)(SuperOffice.CRM.MailMerge.MailMergeTask)
-  name.vb: MapEnums(Of MailMergeTask, To)(MailMergeTask)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.MailMerge.MailMergeTask)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.MailMerge.MailMergeTask
-    name: MailMergeTask
-    isExternal: true
-    href: SuperOffice.CRM.MailMerge.MailMergeTask.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.CRM.MailMerge.MailMergeTask
-    name: MailMergeTask
-    isExternal: true
-    href: SuperOffice.CRM.MailMerge.MailMergeTask.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.MailMerge.MailMergeTask)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.MailMerge.MailMergeTask
-    name: MailMergeTask
-    isExternal: true
-    href: SuperOffice.CRM.MailMerge.MailMergeTask.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.CRM.MailMerge.MailMergeTask
-    name: MailMergeTask
-    isExternal: true
-    href: SuperOffice.CRM.MailMerge.MailMergeTask.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.MailMerge.MailMergeTask.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.MailMerge.MailMergeTask)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<MailMergeTask>(MailMergeTask, MailMergeTask)
-  nameWithType: ObjectExtensions.AssignByReflection<MailMergeTask>(MailMergeTask, MailMergeTask)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.MailMerge.MailMergeTask>(SuperOffice.CRM.MailMerge.MailMergeTask, SuperOffice.CRM.MailMerge.MailMergeTask)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of MailMergeTask)(MailMergeTask, MailMergeTask)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.MailMerge.MailMergeTask)(SuperOffice.CRM.MailMerge.MailMergeTask, SuperOffice.CRM.MailMerge.MailMergeTask)
-  name.vb: AssignByReflection(Of MailMergeTask)(MailMergeTask, MailMergeTask)
+  name: AssignByReflection<MailMergeTask>(MailMergeTask)
+  nameWithType: ObjectExtensions.AssignByReflection<MailMergeTask>(MailMergeTask)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.MailMerge.MailMergeTask>(SuperOffice.CRM.MailMerge.MailMergeTask)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of MailMergeTask)(MailMergeTask)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.MailMerge.MailMergeTask)(SuperOffice.CRM.MailMerge.MailMergeTask)
+  name.vb: AssignByReflection(Of MailMergeTask)(MailMergeTask)
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.MailMerge.MailMergeTask,SuperOffice.CRM.MailMerge.MailMergeTask)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<MailMergeTask>
+    nameWithType: ObjectExtensions.AssignByReflection<MailMergeTask>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.MailMerge.MailMergeTask>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.CRM.MailMerge.MailMergeTask
-    name: MailMergeTask
-    isExternal: true
-    href: SuperOffice.CRM.MailMerge.MailMergeTask.html
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.MailMerge.MailMergeTask
     name: MailMergeTask
+    nameWithType: MailMergeTask
+    fullName: SuperOffice.CRM.MailMerge.MailMergeTask
     isExternal: true
-    href: SuperOffice.CRM.MailMerge.MailMergeTask.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.MailMerge.MailMergeTask
-    name: MailMergeTask
-    isExternal: true
-    href: SuperOffice.CRM.MailMerge.MailMergeTask.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.MailMerge.MailMergeTask,SuperOffice.CRM.MailMerge.MailMergeTask)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of MailMergeTask)
+    nameWithType: ObjectExtensions.AssignByReflection(Of MailMergeTask)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.MailMerge.MailMergeTask)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.MailMerge.MailMergeTask
     name: MailMergeTask
+    nameWithType: MailMergeTask
+    fullName: SuperOffice.CRM.MailMerge.MailMergeTask
     isExternal: true
-    href: SuperOffice.CRM.MailMerge.MailMergeTask.html
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.MailMerge.MailMergeTask
-    name: MailMergeTask
-    isExternal: true
-    href: SuperOffice.CRM.MailMerge.MailMergeTask.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.MailMerge.MailMergeTask
-    name: MailMergeTask
-    isExternal: true
-    href: SuperOffice.CRM.MailMerge.MailMergeTask.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.MailMerge.MailMergeTask.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<MailMergeTask>(MailMergeTask)
-  nameWithType: ObjectExtensions.GraphCopy<MailMergeTask>(MailMergeTask)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.MailMerge.MailMergeTask>(SuperOffice.CRM.MailMerge.MailMergeTask)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of MailMergeTask)(MailMergeTask)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.MailMerge.MailMergeTask)(SuperOffice.CRM.MailMerge.MailMergeTask)
-  name.vb: GraphCopy(Of MailMergeTask)(MailMergeTask)
+  name: GraphCopy<MailMergeTask>()
+  nameWithType: ObjectExtensions.GraphCopy<MailMergeTask>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.MailMerge.MailMergeTask>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of MailMergeTask)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.MailMerge.MailMergeTask)()
+  name.vb: GraphCopy(Of MailMergeTask)()
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.MailMerge.MailMergeTask)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<MailMergeTask>
+    nameWithType: ObjectExtensions.GraphCopy<MailMergeTask>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.MailMerge.MailMergeTask>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.CRM.MailMerge.MailMergeTask
-    name: MailMergeTask
-    isExternal: true
-    href: SuperOffice.CRM.MailMerge.MailMergeTask.html
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.MailMerge.MailMergeTask
-    name: MailMergeTask
-    isExternal: true
-    href: SuperOffice.CRM.MailMerge.MailMergeTask.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.MailMerge.MailMergeTask)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of MailMergeTask)
+    nameWithType: ObjectExtensions.GraphCopy(Of MailMergeTask)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.MailMerge.MailMergeTask)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.MailMerge.MailMergeTask
-    name: MailMergeTask
-    isExternal: true
-    href: SuperOffice.CRM.MailMerge.MailMergeTask.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.MailMerge.MailMergeTask.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<MailMergeTask, To>()
+  nameWithType: Converters.MapEnums<MailMergeTask, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.MailMerge.MailMergeTask, To>()
+  nameWithType.vb: Converters.MapEnums(Of MailMergeTask, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.MailMerge.MailMergeTask, To)()
+  name.vb: MapEnums(Of MailMergeTask, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<MailMergeTask, To>
+    nameWithType: Converters.MapEnums<MailMergeTask, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.MailMerge.MailMergeTask, To>
+    isExternal: true
   - name: (
-  - uid: SuperOffice.CRM.MailMerge.MailMergeTask
-    name: MailMergeTask
-    isExternal: true
-    href: SuperOffice.CRM.MailMerge.MailMergeTask.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of MailMergeTask, To)
+    nameWithType: Converters.MapEnums(Of MailMergeTask, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.MailMerge.MailMergeTask, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -894,93 +683,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<From, To>(From)
-  nameWithType: Converters.MapEnums<From, To>(From)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
-  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
-  name.vb: MapEnums(Of From, To)(From)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - name: From
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - name: From
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters
-  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
-  parent: SuperOffice.ErpSync.ConnectorWS
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
-  name: Converters
-  nameWithType: Converters
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   name: AssignByReflection<T>(T, T)
   nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
   fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
@@ -989,46 +728,56 @@ references:
   name.vb: AssignByReflection(Of T)(T, T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
-  - name: ','
-  - name: " "
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.ObjectExtensions
   commentId: T:SuperOffice.Util.ObjectExtensions
   parent: SuperOffice.Util
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
   name: ObjectExtensions
   nameWithType: ObjectExtensions
   fullName: SuperOffice.Util.ObjectExtensions
 - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   name: GraphCopy<T>(T)
   nameWithType: ObjectExtensions.GraphCopy<T>(T)
   fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
@@ -1037,106 +786,101 @@ references:
   name.vb: GraphCopy(Of T)(T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS
-  commentId: N:SuperOffice.ErpSync.ConnectorWS
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.ErpSync.ConnectorWS
-  nameWithType: SuperOffice.ErpSync.ConnectorWS
-  fullName: SuperOffice.ErpSync.ConnectorWS
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
 - uid: SuperOffice.CRM.MailMerge.MailMergeTask.#ctor*
   commentId: Overload:SuperOffice.CRM.MailMerge.MailMergeTask.#ctor
   isExternal: true
-  href: SuperOffice.CRM.MailMerge.MailMergeTask.html#SuperOffice_CRM_MailMerge_MailMergeTask__ctor
   name: MailMergeTask
   nameWithType: MailMergeTask.MailMergeTask
   fullName: SuperOffice.CRM.MailMerge.MailMergeTask.MailMergeTask
-  nameWithType.vb: MailMergeTask.New
-  fullName.vb: SuperOffice.CRM.MailMerge.MailMergeTask.New
-  name.vb: New
 - uid: SuperOffice.CRM.MailMerge.MailMergeTask.ToTextRow*
   commentId: Overload:SuperOffice.CRM.MailMerge.MailMergeTask.ToTextRow
   isExternal: true
-  href: SuperOffice.CRM.MailMerge.MailMergeTask.html#SuperOffice_CRM_MailMerge_MailMergeTask_ToTextRow
   name: ToTextRow
   nameWithType: MailMergeTask.ToTextRow
   fullName: SuperOffice.CRM.MailMerge.MailMergeTask.ToTextRow
@@ -1144,51 +888,18 @@ references:
   commentId: T:SuperOffice.CRM.Rows.TextRow
   parent: SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.CRM.Rows.TextRow.html
   name: TextRow
   nameWithType: TextRow
   fullName: SuperOffice.CRM.Rows.TextRow
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows
-    name: Rows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows
-    name: Rows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.html
 - uid: SuperOffice.CRM.MailMerge.MailMergeTask.ToVisibleForRow*
   commentId: Overload:SuperOffice.CRM.MailMerge.MailMergeTask.ToVisibleForRow
   isExternal: true
-  href: SuperOffice.CRM.MailMerge.MailMergeTask.html#SuperOffice_CRM_MailMerge_MailMergeTask_ToVisibleForRow
   name: ToVisibleForRow
   nameWithType: MailMergeTask.ToVisibleForRow
   fullName: SuperOffice.CRM.MailMerge.MailMergeTask.ToVisibleForRow
@@ -1196,14 +907,12 @@ references:
   commentId: T:SuperOffice.CRM.Rows.VisibleForRow
   parent: SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.CRM.Rows.VisibleForRow.html
   name: VisibleForRow
   nameWithType: VisibleForRow
   fullName: SuperOffice.CRM.Rows.VisibleForRow
 - uid: SuperOffice.CRM.MailMerge.MailMergeTask.ToAppointmentRow*
   commentId: Overload:SuperOffice.CRM.MailMerge.MailMergeTask.ToAppointmentRow
   isExternal: true
-  href: SuperOffice.CRM.MailMerge.MailMergeTask.html#SuperOffice_CRM_MailMerge_MailMergeTask_ToAppointmentRow
   name: ToAppointmentRow
   nameWithType: MailMergeTask.ToAppointmentRow
   fullName: SuperOffice.CRM.MailMerge.MailMergeTask.ToAppointmentRow
@@ -1211,14 +920,12 @@ references:
   commentId: T:SuperOffice.CRM.Rows.AppointmentRow
   parent: SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.CRM.Rows.AppointmentRow.html
   name: AppointmentRow
   nameWithType: AppointmentRow
   fullName: SuperOffice.CRM.Rows.AppointmentRow
 - uid: SuperOffice.CRM.MailMerge.MailMergeTask.ProjectId*
   commentId: Overload:SuperOffice.CRM.MailMerge.MailMergeTask.ProjectId
   isExternal: true
-  href: SuperOffice.CRM.MailMerge.MailMergeTask.html#SuperOffice_CRM_MailMerge_MailMergeTask_ProjectId
   name: ProjectId
   nameWithType: MailMergeTask.ProjectId
   fullName: SuperOffice.CRM.MailMerge.MailMergeTask.ProjectId
@@ -1226,49 +933,35 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.MailMerge.MailMergeTask.TypeId*
   commentId: Overload:SuperOffice.CRM.MailMerge.MailMergeTask.TypeId
   isExternal: true
-  href: SuperOffice.CRM.MailMerge.MailMergeTask.html#SuperOffice_CRM_MailMerge_MailMergeTask_TypeId
   name: TypeId
   nameWithType: MailMergeTask.TypeId
   fullName: SuperOffice.CRM.MailMerge.MailMergeTask.TypeId
 - uid: SuperOffice.CRM.MailMerge.MailMergeTask.StartDate*
   commentId: Overload:SuperOffice.CRM.MailMerge.MailMergeTask.StartDate
   isExternal: true
-  href: SuperOffice.CRM.MailMerge.MailMergeTask.html#SuperOffice_CRM_MailMerge_MailMergeTask_StartDate
   name: StartDate
   nameWithType: MailMergeTask.StartDate
   fullName: SuperOffice.CRM.MailMerge.MailMergeTask.StartDate
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
 - uid: SuperOffice.CRM.MailMerge.MailMergeTask.Duration*
   commentId: Overload:SuperOffice.CRM.MailMerge.MailMergeTask.Duration
   isExternal: true
-  href: SuperOffice.CRM.MailMerge.MailMergeTask.html#SuperOffice_CRM_MailMerge_MailMergeTask_Duration
   name: Duration
   nameWithType: MailMergeTask.Duration
   fullName: SuperOffice.CRM.MailMerge.MailMergeTask.Duration
 - uid: SuperOffice.CRM.MailMerge.MailMergeTask.Description*
   commentId: Overload:SuperOffice.CRM.MailMerge.MailMergeTask.Description
   isExternal: true
-  href: SuperOffice.CRM.MailMerge.MailMergeTask.html#SuperOffice_CRM_MailMerge_MailMergeTask_Description
   name: Description
   nameWithType: MailMergeTask.Description
   fullName: SuperOffice.CRM.MailMerge.MailMergeTask.Description
@@ -1276,24 +969,18 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.CRM.MailMerge.MailMergeTask.PriorityId*
   commentId: Overload:SuperOffice.CRM.MailMerge.MailMergeTask.PriorityId
   isExternal: true
-  href: SuperOffice.CRM.MailMerge.MailMergeTask.html#SuperOffice_CRM_MailMerge_MailMergeTask_PriorityId
   name: PriorityId
   nameWithType: MailMergeTask.PriorityId
   fullName: SuperOffice.CRM.MailMerge.MailMergeTask.PriorityId
 - uid: SuperOffice.CRM.MailMerge.MailMergeTask.Visibility*
   commentId: Overload:SuperOffice.CRM.MailMerge.MailMergeTask.Visibility
   isExternal: true
-  href: SuperOffice.CRM.MailMerge.MailMergeTask.html#SuperOffice_CRM_MailMerge_MailMergeTask_Visibility
   name: Visibility
   nameWithType: MailMergeTask.Visibility
   fullName: SuperOffice.CRM.MailMerge.MailMergeTask.Visibility
@@ -1301,48 +988,24 @@ references:
   commentId: T:SuperOffice.Data.Visibility
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.Visibility.html
   name: Visibility
   nameWithType: Visibility
   fullName: SuperOffice.Data.Visibility
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
 - uid: SuperOffice.CRM.MailMerge.MailMergeTask.VisibilityId*
   commentId: Overload:SuperOffice.CRM.MailMerge.MailMergeTask.VisibilityId
   isExternal: true
-  href: SuperOffice.CRM.MailMerge.MailMergeTask.html#SuperOffice_CRM_MailMerge_MailMergeTask_VisibilityId
   name: VisibilityId
   nameWithType: MailMergeTask.VisibilityId
   fullName: SuperOffice.CRM.MailMerge.MailMergeTask.VisibilityId
 - uid: SuperOffice.CRM.MailMerge.MailMergeTask.Completed*
   commentId: Overload:SuperOffice.CRM.MailMerge.MailMergeTask.Completed
   isExternal: true
-  href: SuperOffice.CRM.MailMerge.MailMergeTask.html#SuperOffice_CRM_MailMerge_MailMergeTask_Completed
   name: Completed
   nameWithType: MailMergeTask.Completed
   fullName: SuperOffice.CRM.MailMerge.MailMergeTask.Completed
@@ -1350,21 +1013,18 @@ references:
   commentId: T:SuperOffice.Data.ActivityStatus
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ActivityStatus.html
   name: ActivityStatus
   nameWithType: ActivityStatus
   fullName: SuperOffice.Data.ActivityStatus
 - uid: SuperOffice.CRM.MailMerge.MailMergeTask.OwnerAssociateId*
   commentId: Overload:SuperOffice.CRM.MailMerge.MailMergeTask.OwnerAssociateId
   isExternal: true
-  href: SuperOffice.CRM.MailMerge.MailMergeTask.html#SuperOffice_CRM_MailMerge_MailMergeTask_OwnerAssociateId
   name: OwnerAssociateId
   nameWithType: MailMergeTask.OwnerAssociateId
   fullName: SuperOffice.CRM.MailMerge.MailMergeTask.OwnerAssociateId
 - uid: SuperOffice.CRM.MailMerge.MailMergeTask.SingleEntryOnEachCompany*
   commentId: Overload:SuperOffice.CRM.MailMerge.MailMergeTask.SingleEntryOnEachCompany
   isExternal: true
-  href: SuperOffice.CRM.MailMerge.MailMergeTask.html#SuperOffice_CRM_MailMerge_MailMergeTask_SingleEntryOnEachCompany
   name: SingleEntryOnEachCompany
   nameWithType: MailMergeTask.SingleEntryOnEachCompany
   fullName: SuperOffice.CRM.MailMerge.MailMergeTask.SingleEntryOnEachCompany
@@ -1372,10 +1032,6 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

@@ -21,24 +21,27 @@ items:
   nameWithType: Constants.Properties
   fullName: SuperOffice.CRM.Documents.Constants.Properties
   type: Class
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Documents
-  summary: String constants for document-dependent property names
-  example: []
+  summary: "\nString constants for document-dependent property names\n"
   syntax:
-    content: public static class Constants.Properties
-    content.vb: Public Module Constants.Properties
+    content: 'public static class Properties : Object'
+    content.vb: >-
+      Public Module Properties
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
 - uid: SuperOffice.CRM.Documents.Constants.Properties.HasLocking
   commentId: F:SuperOffice.CRM.Documents.Constants.Properties.HasLocking
   id: HasLocking
@@ -50,27 +53,25 @@ items:
   nameWithType: Constants.Properties.HasLocking
   fullName: SuperOffice.CRM.Documents.Constants.Properties.HasLocking
   type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Documents
-  summary: >-
-    Can this document be locked for changes?
-
-    Values are 
-
-    <xref href="SuperOffice.CRM.Documents.Constants.Values.False" data-throw-if-not-resolved="false"></xref> and
-
-    <xref href="SuperOffice.CRM.Documents.Constants.Values.True" data-throw-if-not-resolved="false"></xref>
-  remarks: >-
-    Versioning implies Locking, so if HasVersioning is true, then 
-
-    HasLocking <b>must</b> be true also.
-  example: []
+  summary: "\nCan this document be locked for changes?\nValues are \n<xref href=\"SuperOffice.CRM.Documents.Constants.Values.False\" data-throw-if-not-resolved=\"false\"></xref> and\n<xref href=\"SuperOffice.CRM.Documents.Constants.Values.True\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  remarks: "\nVersioning implies Locking, so if HasVersioning is true, then \nHasLocking <strong>must</strong> be true also.\n"
   syntax:
     content: public const string HasLocking = "has-locking"
     return:
       type: System.String
     content.vb: Public Const HasLocking As String = "has-locking"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Documents.Constants.Properties.HasVersioning
   commentId: F:SuperOffice.CRM.Documents.Constants.Properties.HasVersioning
   id: HasVersioning
@@ -82,23 +83,24 @@ items:
   nameWithType: Constants.Properties.HasVersioning
   fullName: SuperOffice.CRM.Documents.Constants.Properties.HasVersioning
   type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Documents
-  summary: >-
-    Is this document turned on for versioning?
-
-    Values are 
-
-    <xref href="SuperOffice.CRM.Documents.Constants.Values.False" data-throw-if-not-resolved="false"></xref> and
-
-    <xref href="SuperOffice.CRM.Documents.Constants.Values.True" data-throw-if-not-resolved="false"></xref>
-  example: []
+  summary: "\nIs this document turned on for versioning?\nValues are \n<xref href=\"SuperOffice.CRM.Documents.Constants.Values.False\" data-throw-if-not-resolved=\"false\"></xref> and\n<xref href=\"SuperOffice.CRM.Documents.Constants.Values.True\" data-throw-if-not-resolved=\"false\"></xref>\n"
   syntax:
     content: public const string HasVersioning = "has-versioning"
     return:
       type: System.String
     content.vb: Public Const HasVersioning As String = "has-versioning"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Documents.Constants.Properties.Tooltip
   commentId: F:SuperOffice.CRM.Documents.Constants.Properties.Tooltip
   id: Tooltip
@@ -110,49 +112,24 @@ items:
   nameWithType: Constants.Properties.Tooltip
   fullName: SuperOffice.CRM.Documents.Constants.Properties.Tooltip
   type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Documents
-  summary: >-
-    A descriptive string that is suitable for display as a tooltip; may be blank
-
-    <p></p>
-
-    Simple tooltips can be literals, and can contain resource tags (including culture-independent
-
-    formatted dates, see the <xref href="SuperOffice.CRM.Globalization.CultureDataFormatter" data-throw-if-not-resolved="false"></xref> class
-
-    for examples and encoding methods.
-
-    <p></p>
-
-    More complex tooltips can be represented as tooltip hints, which cause a runtime call to the
-
-    tooltip provider system. A document plugin can add its own tooltip provider in order to process
-
-    such hints into the final tooltip text. This is the recommended approach for tooltips that are
-
-    time-consuming to precalculate.
-
-    <p></p>
-
-    Tooltip hints can be constructed using the 
-
-    SuperOffice.CRM.Tooltips.TooltipProvider.SuperOffice.CRM.Tooltips.TooltipProvider.MakeTooltipHint
-
-    method. They are parsed by provider plugins, either standard ones or custom plugins that can be written
-
-    together with a document plugin.
-
-    <p></p>
-
-    This member may be blank, if no tooltip is provided.
-  example: []
+  summary: "\nA descriptive string that is suitable for display as a tooltip; may be blank\n<p></p>\nSimple tooltips can be literals, and can contain resource tags (including culture-independent\nformatted dates, see the <xref href=\"SuperOffice.CRM.Globalization.CultureDataFormatter\" data-throw-if-not-resolved=\"false\"></xref> class\nfor examples and encoding methods.\n<p></p>\nMore complex tooltips can be represented as tooltip hints, which cause a runtime call to the\ntooltip provider system. A document plugin can add its own tooltip provider in order to process\nsuch hints into the final tooltip text. This is the recommended approach for tooltips that are\ntime-consuming to precalculate.\n<p></p>\nTooltip hints can be constructed using the \n<see cref=\"!:SuperOffice.CRM.Tooltips.TooltipProvider\"></see>.<see cref=\"!:SuperOffice.CRM.Tooltips.TooltipProvider.MakeTooltipHint\"></see>\nmethod. They are parsed by provider plugins, either standard ones or custom plugins that can be written\ntogether with a document plugin.\n<p></p>\nThis member may be blank, if no tooltip is provided.\n"
   syntax:
     content: public const string Tooltip = "tooltip"
     return:
       type: System.String
     content.vb: Public Const Tooltip As String = "tooltip"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Documents.Constants.Properties.PreferredOpen
   commentId: F:SuperOffice.CRM.Documents.Constants.Properties.PreferredOpen
   id: PreferredOpen
@@ -164,35 +141,24 @@ items:
   nameWithType: Constants.Properties.PreferredOpen
   fullName: SuperOffice.CRM.Documents.Constants.Properties.PreferredOpen
   type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Documents
-  summary: >-
-    What is the preferred method for editing documents? Values are 
-
-    <xref href="SuperOffice.CRM.Documents.Constants.Values.Url" data-throw-if-not-resolved="false"></xref> and
-
-    <xref href="SuperOffice.CRM.Documents.Constants.Values.Stream" data-throw-if-not-resolved="false"></xref>, 
-
-    depending on whether the plugin supports WebDAV and prefers this method.
-
-    <p></p>
-
-    The client GUI is not guaranteed to respect preferred-open = 'url'; depending on the platform and other
-
-    circumstances, the client may still use the GetDocumentStream interface to get the document content.
-
-    <p></p>
-
-    If a document is opened through WebDAV, SuperOffice code no longer controls the flow of events and
-
-    cannot be responsible for proper phasing, access control or other features.
-  example: []
+  summary: "\nWhat is the preferred method for editing documents? Values are \n<xref href=\"SuperOffice.CRM.Documents.Constants.Values.Url\" data-throw-if-not-resolved=\"false\"></xref> and\n<xref href=\"SuperOffice.CRM.Documents.Constants.Values.Stream\" data-throw-if-not-resolved=\"false\"></xref>, \ndepending on whether the plugin supports WebDAV and prefers this method.\n<p></p>\nThe client GUI is not guaranteed to respect preferred-open = &apos;url&apos;; depending on the platform and other\ncircumstances, the client may still use the GetDocumentStream interface to get the document content.\n<p></p>\nIf a document is opened through WebDAV, SuperOffice code no longer controls the flow of events and\ncannot be responsible for proper phasing, access control or other features.\n"
   syntax:
     content: public const string PreferredOpen = "preferred-open"
     return:
       type: System.String
     content.vb: Public Const PreferredOpen As String = "preferred-open"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Documents.Constants.Properties.FileType
   commentId: F:SuperOffice.CRM.Documents.Constants.Properties.FileType
   id: FileType
@@ -204,23 +170,24 @@ items:
   nameWithType: Constants.Properties.FileType
   fullName: SuperOffice.CRM.Documents.Constants.Properties.FileType
   type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Documents
-  summary: >-
-    The file type of the document, such as DOC, PDF, XLS or whatever. This is used by NetServer if
-
-    it needs to analyze the file content, for instance for freetext indexing. It is also used to set
-
-    the extension of the file name generated for download/editing, and will usually control
-
-    which document editor is loaded by the client operating system to edit the document.
-  example: []
+  summary: "\nThe file type of the document, such as DOC, PDF, XLS or whatever. This is used by NetServer if\nit needs to analyze the file content, for instance for freetext indexing. It is also used to set\nthe extension of the file name generated for download/editing, and will usually control\nwhich document editor is loaded by the client operating system to edit the document.\n"
   syntax:
     content: public const string FileType = "file-type"
     return:
       type: System.String
     content.vb: Public Const FileType As String = "file-type"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Documents.Constants.Properties.FileName
   commentId: F:SuperOffice.CRM.Documents.Constants.Properties.FileName
   id: FileName
@@ -232,17 +199,25 @@ items:
   nameWithType: Constants.Properties.FileName
   fullName: SuperOffice.CRM.Documents.Constants.Properties.FileName
   type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Documents
-  summary: The filename of the template or suggested filename of a document.
-  remarks: Used in queries regarding document templates and documents.
-  example: []
+  summary: "\nThe filename of the template or suggested filename of a document. \n"
+  remarks: "\nUsed in queries regarding document templates and documents.\n"
   syntax:
     content: public const string FileName = "file-name"
     return:
       type: System.String
     content.vb: Public Const FileName As String = "file-name"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Documents.Constants.Properties.LastModified
   commentId: F:SuperOffice.CRM.Documents.Constants.Properties.LastModified
   id: LastModified
@@ -254,19 +229,24 @@ items:
   nameWithType: Constants.Properties.LastModified
   fullName: SuperOffice.CRM.Documents.Constants.Properties.LastModified
   type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Documents
-  summary: >-
-    Last Modified date + time (UTC) of the document file, rather than the database record.
-
-    Values should be returned as string in SuperOffice format "[d 2012-03-21T12:20:30]"
-  example: []
+  summary: "\nLast Modified date + time (UTC) of the document file, rather than the database record.\nValues should be returned as string in SuperOffice format &quot;[d 2012-03-21T12:20:30]&quot;\n"
   syntax:
     content: public const string LastModified = "last-modified"
     return:
       type: System.String
     content.vb: Public Const LastModified As String = "last-modified"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Documents.Constants.Properties.Length
   commentId: F:SuperOffice.CRM.Documents.Constants.Properties.Length
   id: Length
@@ -278,16 +258,24 @@ items:
   nameWithType: Constants.Properties.Length
   fullName: SuperOffice.CRM.Documents.Constants.Properties.Length
   type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Documents
-  summary: Document size in bytes.
-  example: []
+  summary: "\nDocument size in bytes.\n"
   syntax:
     content: public const string Length = "length"
     return:
       type: System.String
     content.vb: Public Const Length As String = "length"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Documents.Constants.Properties.IsSafeFileExtension
   commentId: F:SuperOffice.CRM.Documents.Constants.Properties.IsSafeFileExtension
   id: IsSafeFileExtension
@@ -299,334 +287,48 @@ items:
   nameWithType: Constants.Properties.IsSafeFileExtension
   fullName: SuperOffice.CRM.Documents.Constants.Properties.IsSafeFileExtension
   type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Documents
-  summary: If true, this file is safe according to the UnsafeFileTypes preference
-  example: []
+  summary: "\nIf true, this file is safe according to the UnsafeFileTypes preference\n"
   syntax:
     content: public const string IsSafeFileExtension = "is-safe-file-extension"
     return:
       type: System.String
     content.vb: Public Const IsSafeFileExtension As String = "is-safe-file-extension"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.CRM.Documents
   commentId: N:SuperOffice.CRM.Documents
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Documents
   nameWithType: SuperOffice.CRM.Documents
   fullName: SuperOffice.CRM.Documents
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Documents
-    name: Documents
-    isExternal: true
-    href: SuperOffice.CRM.Documents.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Documents
-    name: Documents
-    isExternal: true
-    href: SuperOffice.CRM.Documents.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Documents.Constants.Values.False
-  commentId: F:SuperOffice.CRM.Documents.Constants.Values.False
-  isExternal: true
-  href: SuperOffice.CRM.Documents.Constants.Values.html#SuperOffice_CRM_Documents_Constants_Values_False
-  name: "False"
-  nameWithType: Constants.Values.False
-  fullName: SuperOffice.CRM.Documents.Constants.Values.False
-- uid: SuperOffice.CRM.Documents.Constants.Values.True
-  commentId: F:SuperOffice.CRM.Documents.Constants.Values.True
-  isExternal: true
-  href: SuperOffice.CRM.Documents.Constants.Values.html#SuperOffice_CRM_Documents_Constants_Values_True
-  name: "True"
-  nameWithType: Constants.Values.True
-  fullName: SuperOffice.CRM.Documents.Constants.Values.True
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
-- uid: SuperOffice.CRM.Globalization.CultureDataFormatter
-  commentId: T:SuperOffice.CRM.Globalization.CultureDataFormatter
-  isExternal: true
-  href: SuperOffice.CRM.Globalization.CultureDataFormatter.html
-  name: CultureDataFormatter
-  nameWithType: CultureDataFormatter
-  fullName: SuperOffice.CRM.Globalization.CultureDataFormatter
-- uid: SuperOffice.CRM.Documents.Constants.Values.Url
-  commentId: F:SuperOffice.CRM.Documents.Constants.Values.Url
-  isExternal: true
-  href: SuperOffice.CRM.Documents.Constants.Values.html#SuperOffice_CRM_Documents_Constants_Values_Url
-  name: Url
-  nameWithType: Constants.Values.Url
-  fullName: SuperOffice.CRM.Documents.Constants.Values.Url
-- uid: SuperOffice.CRM.Documents.Constants.Values.Stream
-  commentId: F:SuperOffice.CRM.Documents.Constants.Values.Stream
-  isExternal: true
-  href: SuperOffice.CRM.Documents.Constants.Values.html#SuperOffice_CRM_Documents_Constants_Values_Stream
-  name: Stream
-  nameWithType: Constants.Values.Stream
-  fullName: SuperOffice.CRM.Documents.Constants.Values.Stream
+  name: String
+  nameWithType: String
+  fullName: System.String

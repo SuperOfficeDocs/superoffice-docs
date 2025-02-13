@@ -6,6 +6,7 @@ items:
   parent: SuperOffice.CRM.Entities
   children:
   - SuperOffice.CRM.Entities.EntityExtraFieldsHelper.#ctor(SuperOffice.CRM.Rows.TableRowBase)
+  - SuperOffice.CRM.Entities.EntityExtraFieldsHelper._row
   - SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Encode(System.String)
   - SuperOffice.CRM.Entities.EntityExtraFieldsHelper.EnforceRequiredFields
   - SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetExtraInfo(System.String)
@@ -17,7 +18,6 @@ items:
   - SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Parse(System.String,System.String)
   - SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Validate(SuperOffice.CRM.Rows.RowValidator)
   - SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Validate(System.Collections.Generic.Dictionary{System.String,System.String})
-  - SuperOffice.CRM.Entities.EntityExtraFieldsHelper._row
   langs:
   - csharp
   - vb
@@ -25,27 +25,29 @@ items:
   nameWithType: EntityExtraFieldsHelper
   fullName: SuperOffice.CRM.Entities.EntityExtraFieldsHelper
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: Forward extra fields to underlying row
-  example: []
+  summary: "\nForward extra fields to underlying row\n"
   syntax:
-    content: public class EntityExtraFieldsHelper
-    content.vb: Public Class EntityExtraFieldsHelper
+    content: 'public class EntityExtraFieldsHelper : Object'
+    content.vb: >-
+      Public Class EntityExtraFieldsHelper
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Entities.EntityExtraFieldsHelper.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Entities.EntityExtraFieldsHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Entities.EntityExtraFieldsHelper._row
   commentId: F:SuperOffice.CRM.Entities.EntityExtraFieldsHelper._row
   id: _row
@@ -57,6 +59,9 @@ items:
   nameWithType: EntityExtraFieldsHelper._row
   fullName: SuperOffice.CRM.Entities.EntityExtraFieldsHelper._row
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
@@ -65,6 +70,10 @@ items:
     return:
       type: SuperOffice.CRM.Rows.TableRowBase
     content.vb: Protected _row As TableRowBase
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
 - uid: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.#ctor(SuperOffice.CRM.Rows.TableRowBase)
   commentId: M:SuperOffice.CRM.Entities.EntityExtraFieldsHelper.#ctor(SuperOffice.CRM.Rows.TableRowBase)
   id: '#ctor(SuperOffice.CRM.Rows.TableRowBase)'
@@ -76,6 +85,9 @@ items:
   nameWithType: EntityExtraFieldsHelper.EntityExtraFieldsHelper(TableRowBase)
   fullName: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.EntityExtraFieldsHelper(SuperOffice.CRM.Rows.TableRowBase)
   type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
@@ -86,9 +98,10 @@ items:
       type: SuperOffice.CRM.Rows.TableRowBase
     content.vb: Public Sub New(row As TableRowBase)
   overload: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.#ctor*
-  nameWithType.vb: EntityExtraFieldsHelper.New(TableRowBase)
-  fullName.vb: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.New(SuperOffice.CRM.Rows.TableRowBase)
-  name.vb: New(TableRowBase)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.IsChanged(System.String)
   commentId: M:SuperOffice.CRM.Entities.EntityExtraFieldsHelper.IsChanged(System.String)
   id: IsChanged(System.String)
@@ -96,15 +109,17 @@ items:
   langs:
   - csharp
   - vb
-  name: IsChanged(string)
-  nameWithType: EntityExtraFieldsHelper.IsChanged(string)
-  fullName: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.IsChanged(string)
+  name: IsChanged(String)
+  nameWithType: EntityExtraFieldsHelper.IsChanged(String)
+  fullName: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.IsChanged(System.String)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: Has the underlying field been changed?
-  example: []
+  summary: "\nHas the underlying field been changed?\n"
   syntax:
     content: public bool IsChanged(string name)
     parameters:
@@ -116,9 +131,10 @@ items:
       description: True if the field value has been changed
     content.vb: Public Function IsChanged(name As String) As Boolean
   overload: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.IsChanged*
-  nameWithType.vb: EntityExtraFieldsHelper.IsChanged(String)
-  fullName.vb: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.IsChanged(String)
-  name.vb: IsChanged(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetFieldRight(System.String)
   commentId: M:SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetFieldRight(System.String)
   id: GetFieldRight(System.String)
@@ -126,29 +142,32 @@ items:
   langs:
   - csharp
   - vb
-  name: GetFieldRight(string)
-  nameWithType: EntityExtraFieldsHelper.GetFieldRight(string)
-  fullName: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetFieldRight(string)
+  name: GetFieldRight(String)
+  nameWithType: EntityExtraFieldsHelper.GetFieldRight(String)
+  fullName: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetFieldRight(System.String)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: Get a FieldRight for the extra field value.
-  example: []
+  summary: "\nGet a <see cref=\"!:FieldRight\"></see> for the extra field value.\n"
   syntax:
     content: public FieldRight GetFieldRight(string fieldName)
     parameters:
     - id: fieldName
       type: System.String
-      description: "name of extra field: 'x_foo'"
+      description: 'name of extra field: &apos;x_foo&apos;'
     return:
       type: SuperOffice.CRM.Security.FieldRight
       description: Permissions on the field.
     content.vb: Public Function GetFieldRight(fieldName As String) As FieldRight
   overload: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetFieldRight*
-  nameWithType.vb: EntityExtraFieldsHelper.GetFieldRight(String)
-  fullName.vb: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetFieldRight(String)
-  name.vb: GetFieldRight(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Encode(System.String)
   commentId: M:SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Encode(System.String)
   id: Encode(System.String)
@@ -156,15 +175,17 @@ items:
   langs:
   - csharp
   - vb
-  name: Encode(string)
-  nameWithType: EntityExtraFieldsHelper.Encode(string)
-  fullName: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Encode(string)
+  name: Encode(String)
+  nameWithType: EntityExtraFieldsHelper.Encode(String)
+  fullName: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Encode(System.String)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: 'Convert field value to a string encoded value: 123 -&gt; "[I:123]"'
-  example: []
+  summary: "\nConvert field value to a string encoded value: 123 -> &quot;[I:123]&quot;\n"
   syntax:
     content: public string Encode(string fieldName)
     parameters:
@@ -174,9 +195,10 @@ items:
       type: System.String
     content.vb: Public Function Encode(fieldName As String) As String
   overload: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Encode*
-  nameWithType.vb: EntityExtraFieldsHelper.Encode(String)
-  fullName.vb: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Encode(String)
-  name.vb: Encode(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Parse(System.String,System.String)
   commentId: M:SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Parse(System.String,System.String)
   id: Parse(System.String,System.String)
@@ -184,15 +206,17 @@ items:
   langs:
   - csharp
   - vb
-  name: Parse(string, string)
-  nameWithType: EntityExtraFieldsHelper.Parse(string, string)
-  fullName: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Parse(string, string)
+  name: Parse(String, String)
+  nameWithType: EntityExtraFieldsHelper.Parse(String, String)
+  fullName: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Parse(System.String, System.String)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: Update field value. Convert string encoded value back into object
-  example: []
+  summary: "\nUpdate field value. Convert string encoded value back into object\n"
   syntax:
     content: public void Parse(string fieldName, string value)
     parameters:
@@ -202,9 +226,10 @@ items:
       type: System.String
     content.vb: Public Sub Parse(fieldName As String, value As String)
   overload: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Parse*
-  nameWithType.vb: EntityExtraFieldsHelper.Parse(String, String)
-  fullName.vb: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Parse(String, String)
-  name.vb: Parse(String, String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetExtraInfo(System.String,SuperOffice.Data.SQL.TableInfo,System.Object)
   commentId: M:SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetExtraInfo(System.String,SuperOffice.Data.SQL.TableInfo,System.Object)
   id: GetExtraInfo(System.String,SuperOffice.Data.SQL.TableInfo,System.Object)
@@ -212,15 +237,18 @@ items:
   langs:
   - csharp
   - vb
-  name: GetExtraInfo(string, TableInfo, object)
-  nameWithType: EntityExtraFieldsHelper.GetExtraInfo(string, TableInfo, object)
-  fullName: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetExtraInfo(string, SuperOffice.Data.SQL.TableInfo, object)
+  name: GetExtraInfo(String, TableInfo, Object)
+  nameWithType: EntityExtraFieldsHelper.GetExtraInfo(String, TableInfo, Object)
+  fullName: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetExtraInfo(System.String, SuperOffice.Data.SQL.TableInfo, System.Object)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
   syntax:
-    content: public static (string, string) GetExtraInfo(string fieldname, TableInfo table, object value)
+    content: public static ValueTuple<string, string> GetExtraInfo(string fieldname, TableInfo table, object value)
     parameters:
     - id: fieldname
       type: System.String
@@ -230,11 +258,14 @@ items:
       type: System.Object
     return:
       type: System.ValueTuple{System.String,System.String}
-    content.vb: Public Shared Function GetExtraInfo(fieldname As String, table As TableInfo, value As Object) As (String, String)
+    content.vb: Public Shared Function GetExtraInfo(fieldname As String, table As TableInfo, value As Object) As ValueTuple(Of String, String)
   overload: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetExtraInfo*
-  nameWithType.vb: EntityExtraFieldsHelper.GetExtraInfo(String, TableInfo, Object)
-  fullName.vb: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetExtraInfo(String, SuperOffice.Data.SQL.TableInfo, Object)
-  name.vb: GetExtraInfo(String, TableInfo, Object)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetExtraInfo(System.String)
   commentId: M:SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetExtraInfo(System.String)
   id: GetExtraInfo(System.String)
@@ -242,25 +273,29 @@ items:
   langs:
   - csharp
   - vb
-  name: GetExtraInfo(string)
-  nameWithType: EntityExtraFieldsHelper.GetExtraInfo(string)
-  fullName: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetExtraInfo(string)
+  name: GetExtraInfo(String)
+  nameWithType: EntityExtraFieldsHelper.GetExtraInfo(String)
+  fullName: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetExtraInfo(System.String)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
   syntax:
-    content: public (string, string) GetExtraInfo(string fieldname)
+    content: public ValueTuple<string, string> GetExtraInfo(string fieldname)
     parameters:
     - id: fieldname
       type: System.String
     return:
       type: System.ValueTuple{System.String,System.String}
-    content.vb: Public Function GetExtraInfo(fieldname As String) As (String, String)
+    content.vb: Public Function GetExtraInfo(fieldname As String) As ValueTuple(Of String, String)
   overload: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetExtraInfo*
-  nameWithType.vb: EntityExtraFieldsHelper.GetExtraInfo(String)
-  fullName.vb: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetExtraInfo(String)
-  name.vb: GetExtraInfo(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Validate(SuperOffice.CRM.Rows.RowValidator)
   commentId: M:SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Validate(SuperOffice.CRM.Rows.RowValidator)
   id: Validate(SuperOffice.CRM.Rows.RowValidator)
@@ -272,14 +307,13 @@ items:
   nameWithType: EntityExtraFieldsHelper.Validate(RowValidator)
   fullName: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Validate(SuperOffice.CRM.Rows.RowValidator)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: >-
-    Checks that mandatory extra fields are not NULL.
-
-    Stricter mandatory checks are handled by entity/service layer.
-  example: []
+  summary: "\nChecks that mandatory extra fields are not NULL.\nStricter mandatory checks are handled by entity/service layer.\n"
   syntax:
     content: public void Validate(RowValidator rowValidator)
     parameters:
@@ -288,6 +322,10 @@ items:
       description: Collection of errors to add to
     content.vb: Public Sub Validate(rowValidator As RowValidator)
   overload: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Validate*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Validate(System.Collections.Generic.Dictionary{System.String,System.String})
   commentId: M:SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Validate(System.Collections.Generic.Dictionary{System.String,System.String})
   id: Validate(System.Collections.Generic.Dictionary{System.String,System.String})
@@ -295,18 +333,17 @@ items:
   langs:
   - csharp
   - vb
-  name: Validate(Dictionary<string, string>)
-  nameWithType: EntityExtraFieldsHelper.Validate(Dictionary<string, string>)
-  fullName: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Validate(System.Collections.Generic.Dictionary<string, string>)
+  name: Validate(Dictionary<String, String>)
+  nameWithType: EntityExtraFieldsHelper.Validate(Dictionary<String, String>)
+  fullName: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Validate(System.Collections.Generic.Dictionary<System.String, System.String>)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: >-
-    Stricter checks that mandatory extra fields are not NULL, 0 or "".
-
-    Called by the entity/service classes.
-  example: []
+  summary: "\nStricter checks that mandatory extra fields are not NULL, 0 or &quot;&quot;.\nCalled by the entity/service classes.\n"
   syntax:
     content: public void Validate(Dictionary<string, string> validator)
     parameters:
@@ -316,7 +353,11 @@ items:
     content.vb: Public Sub Validate(validator As Dictionary(Of String, String))
   overload: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Validate*
   nameWithType.vb: EntityExtraFieldsHelper.Validate(Dictionary(Of String, String))
-  fullName.vb: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Validate(System.Collections.Generic.Dictionary(Of String, String))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Validate(System.Collections.Generic.Dictionary(Of System.String, System.String))
   name.vb: Validate(Dictionary(Of String, String))
 - uid: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.EnforceRequiredFields
   commentId: P:SuperOffice.CRM.Entities.EntityExtraFieldsHelper.EnforceRequiredFields
@@ -329,11 +370,13 @@ items:
   nameWithType: EntityExtraFieldsHelper.EnforceRequiredFields
   fullName: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.EnforceRequiredFields
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: Allows required field enforcement to be turned off - used for person on user.
-  example: []
+  summary: "\nAllows required field enforcement to be turned off - used for person on user.\n"
   syntax:
     content: public bool EnforceRequiredFields { get; set; }
     parameters: []
@@ -341,6 +384,12 @@ items:
       type: System.Boolean
     content.vb: Public Property EnforceRequiredFields As Boolean
   overload: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.EnforceRequiredFields*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Item(System.String)
   commentId: P:SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Item(System.String)
   id: Item(System.String)
@@ -348,10 +397,13 @@ items:
   langs:
   - csharp
   - vb
-  name: this[string]
-  nameWithType: EntityExtraFieldsHelper.this[string]
-  fullName: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.this[string]
+  name: Item[String]
+  nameWithType: EntityExtraFieldsHelper.Item[String]
+  fullName: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Item[System.String]
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
@@ -362,11 +414,17 @@ items:
       type: System.String
     return:
       type: System.Object
-    content.vb: Public Default Property this[](fieldName As String) As Object
+    content.vb: Public Property Item(fieldName As String) As Object
   overload: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Item*
-  nameWithType.vb: EntityExtraFieldsHelper.this[](String)
-  fullName.vb: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.this[](String)
-  name.vb: this[](String)
+  nameWithType.vb: EntityExtraFieldsHelper.Item(String)
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Item(System.String)
+  name.vb: Item(String)
 - uid: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Names
   commentId: P:SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Names
   id: Names
@@ -378,11 +436,13 @@ items:
   nameWithType: EntityExtraFieldsHelper.Names
   fullName: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Names
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: "Valid extra field names: ['x_foo', 'x_bar']"
-  example: []
+  summary: "\nValid extra field names: [&apos;x_foo&apos;, &apos;x_bar&apos;]\n"
   syntax:
     content: public string[] Names { get; }
     parameters: []
@@ -390,391 +450,103 @@ items:
       type: System.String[]
     content.vb: Public ReadOnly Property Names As String()
   overload: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Names*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 references:
 - uid: SuperOffice.CRM.Entities
   commentId: N:SuperOffice.CRM.Entities
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Entities
   nameWithType: SuperOffice.CRM.Entities
   fullName: SuperOffice.CRM.Entities
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Entities
-    name: Entities
-    isExternal: true
-    href: SuperOffice.CRM.Entities.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Entities
-    name: Entities
-    isExternal: true
-    href: SuperOffice.CRM.Entities.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<EntityExtraFieldsHelper, To>(EntityExtraFieldsHelper)
-  nameWithType: EnumUtil.MapEnums<EntityExtraFieldsHelper, To>(EntityExtraFieldsHelper)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.EntityExtraFieldsHelper, To>(SuperOffice.CRM.Entities.EntityExtraFieldsHelper)
-  nameWithType.vb: EnumUtil.MapEnums(Of EntityExtraFieldsHelper, To)(EntityExtraFieldsHelper)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.EntityExtraFieldsHelper, To)(SuperOffice.CRM.Entities.EntityExtraFieldsHelper)
-  name.vb: MapEnums(Of EntityExtraFieldsHelper, To)(EntityExtraFieldsHelper)
+  name: MapEnums<EntityExtraFieldsHelper, To>()
+  nameWithType: EnumUtil.MapEnums<EntityExtraFieldsHelper, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.EntityExtraFieldsHelper, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of EntityExtraFieldsHelper, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.EntityExtraFieldsHelper, To)()
+  name.vb: MapEnums(Of EntityExtraFieldsHelper, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Entities.EntityExtraFieldsHelper)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<EntityExtraFieldsHelper, To>
+    nameWithType: EnumUtil.MapEnums<EntityExtraFieldsHelper, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.EntityExtraFieldsHelper, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Entities.EntityExtraFieldsHelper
-    name: EntityExtraFieldsHelper
-    isExternal: true
-    href: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Entities.EntityExtraFieldsHelper
-    name: EntityExtraFieldsHelper
-    isExternal: true
-    href: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Entities.EntityExtraFieldsHelper)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of EntityExtraFieldsHelper, To)
+    nameWithType: EnumUtil.MapEnums(Of EntityExtraFieldsHelper, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.EntityExtraFieldsHelper, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Entities.EntityExtraFieldsHelper
-    name: EntityExtraFieldsHelper
-    isExternal: true
-    href: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Entities.EntityExtraFieldsHelper
-    name: EntityExtraFieldsHelper
-    isExternal: true
-    href: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<EntityExtraFieldsHelper, To>(EntityExtraFieldsHelper)
-  nameWithType: Converters.MapEnums<EntityExtraFieldsHelper, To>(EntityExtraFieldsHelper)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.EntityExtraFieldsHelper, To>(SuperOffice.CRM.Entities.EntityExtraFieldsHelper)
-  nameWithType.vb: Converters.MapEnums(Of EntityExtraFieldsHelper, To)(EntityExtraFieldsHelper)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.EntityExtraFieldsHelper, To)(SuperOffice.CRM.Entities.EntityExtraFieldsHelper)
-  name.vb: MapEnums(Of EntityExtraFieldsHelper, To)(EntityExtraFieldsHelper)
+  name: MapEnums<EntityExtraFieldsHelper, To>()
+  nameWithType: Converters.MapEnums<EntityExtraFieldsHelper, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.EntityExtraFieldsHelper, To>()
+  nameWithType.vb: Converters.MapEnums(Of EntityExtraFieldsHelper, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.EntityExtraFieldsHelper, To)()
+  name.vb: MapEnums(Of EntityExtraFieldsHelper, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Entities.EntityExtraFieldsHelper)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<EntityExtraFieldsHelper, To>
+    nameWithType: Converters.MapEnums<EntityExtraFieldsHelper, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.EntityExtraFieldsHelper, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Entities.EntityExtraFieldsHelper
-    name: EntityExtraFieldsHelper
-    isExternal: true
-    href: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Entities.EntityExtraFieldsHelper
-    name: EntityExtraFieldsHelper
-    isExternal: true
-    href: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Entities.EntityExtraFieldsHelper)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of EntityExtraFieldsHelper, To)
+    nameWithType: Converters.MapEnums(Of EntityExtraFieldsHelper, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.EntityExtraFieldsHelper, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Entities.EntityExtraFieldsHelper
-    name: EntityExtraFieldsHelper
-    isExternal: true
-    href: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Entities.EntityExtraFieldsHelper
-    name: EntityExtraFieldsHelper
-    isExternal: true
-    href: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -783,45 +555,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -830,138 +600,69 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.CRM.Rows.TableRowBase
   commentId: T:SuperOffice.CRM.Rows.TableRowBase
   parent: SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.CRM.Rows.TableRowBase.html
   name: TableRowBase
   nameWithType: TableRowBase
   fullName: SuperOffice.CRM.Rows.TableRowBase
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows
-    name: Rows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows
-    name: Rows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.html
 - uid: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.#ctor*
   commentId: Overload:SuperOffice.CRM.Entities.EntityExtraFieldsHelper.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.html#SuperOffice_CRM_Entities_EntityExtraFieldsHelper__ctor_SuperOffice_CRM_Rows_TableRowBase_
   name: EntityExtraFieldsHelper
   nameWithType: EntityExtraFieldsHelper.EntityExtraFieldsHelper
   fullName: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.EntityExtraFieldsHelper
-  nameWithType.vb: EntityExtraFieldsHelper.New
-  fullName.vb: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.New
-  name.vb: New
 - uid: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.IsChanged*
   commentId: Overload:SuperOffice.CRM.Entities.EntityExtraFieldsHelper.IsChanged
   isExternal: true
-  href: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.html#SuperOffice_CRM_Entities_EntityExtraFieldsHelper_IsChanged_System_String_
   name: IsChanged
   nameWithType: EntityExtraFieldsHelper.IsChanged
   fullName: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.IsChanged
@@ -969,28 +670,19 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetFieldRight*
   commentId: Overload:SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetFieldRight
   isExternal: true
-  href: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.html#SuperOffice_CRM_Entities_EntityExtraFieldsHelper_GetFieldRight_System_String_
   name: GetFieldRight
   nameWithType: EntityExtraFieldsHelper.GetFieldRight
   fullName: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetFieldRight
@@ -998,65 +690,30 @@ references:
   commentId: T:SuperOffice.CRM.Security.FieldRight
   parent: SuperOffice.CRM.Security
   isExternal: true
-  href: SuperOffice.CRM.Security.FieldRight.html
   name: FieldRight
   nameWithType: FieldRight
   fullName: SuperOffice.CRM.Security.FieldRight
 - uid: SuperOffice.CRM.Security
   commentId: N:SuperOffice.CRM.Security
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Security
   nameWithType: SuperOffice.CRM.Security
   fullName: SuperOffice.CRM.Security
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Security
-    name: Security
-    isExternal: true
-    href: SuperOffice.CRM.Security.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Security
-    name: Security
-    isExternal: true
-    href: SuperOffice.CRM.Security.html
 - uid: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Encode*
   commentId: Overload:SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Encode
   isExternal: true
-  href: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.html#SuperOffice_CRM_Entities_EntityExtraFieldsHelper_Encode_System_String_
   name: Encode
   nameWithType: EntityExtraFieldsHelper.Encode
   fullName: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Encode
 - uid: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Parse*
   commentId: Overload:SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Parse
   isExternal: true
-  href: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.html#SuperOffice_CRM_Entities_EntityExtraFieldsHelper_Parse_System_String_System_String_
   name: Parse
   nameWithType: EntityExtraFieldsHelper.Parse
   fullName: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Parse
 - uid: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetExtraInfo*
   commentId: Overload:SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetExtraInfo
   isExternal: true
-  href: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.html#SuperOffice_CRM_Entities_EntityExtraFieldsHelper_GetExtraInfo_System_String_SuperOffice_Data_SQL_TableInfo_System_Object_
   name: GetExtraInfo
   nameWithType: EntityExtraFieldsHelper.GetExtraInfo
   fullName: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.GetExtraInfo
@@ -1064,131 +721,127 @@ references:
   commentId: T:SuperOffice.Data.SQL.TableInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html
   name: TableInfo
   nameWithType: TableInfo
   fullName: SuperOffice.Data.SQL.TableInfo
 - uid: System.ValueTuple{System.String,System.String}
-  commentId: T:System.ValueTuple{System.String,System.String}
-  parent: System
+  commentId: '!:System.ValueTuple{System.String,System.String}'
   definition: System.ValueTuple`2
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: (string value, string tooltip)
-  nameWithType: (string value, string tooltip)
-  fullName: (string value, string tooltip)
-  nameWithType.vb: (value As String, tooltip As String)
-  fullName.vb: (value As String, tooltip As String)
-  name.vb: (value As String, tooltip As String)
+  name: ValueTuple<String, String>
+  nameWithType: ValueTuple<String, String>
+  fullName: System.ValueTuple<System.String, System.String>
+  nameWithType.vb: ValueTuple(Of String, String)
+  fullName.vb: System.ValueTuple(Of System.String, System.String)
+  name.vb: ValueTuple(Of String, String)
   spec.csharp:
-  - name: (
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: " "
-  - uid: System.ValueTuple{System.String,System.String}.value
-    name: value
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.string-.value
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: " "
-  - uid: System.ValueTuple{System.String,System.String}.tooltip
-    name: tooltip
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.string-.tooltip
-  - name: )
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
-  - name: (
-  - uid: System.ValueTuple{System.String,System.String}.value
-    name: value
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.string-.value
-  - name: " "
-  - name: As
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.ValueTuple{System.String,System.String}.tooltip
-    name: tooltip
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.string,system.string-.tooltip
-  - name: " "
-  - name: As
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL
   commentId: N:SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.SQL
-    name: SQL
-    isExternal: true
-    href: SuperOffice.Data.SQL.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.SQL
-    name: SQL
-    isExternal: true
-    href: SuperOffice.Data.SQL.html
 - uid: System.ValueTuple`2
-  commentId: T:System.ValueTuple`2
-  name: (T1, T2)
-  nameWithType: (T1, T2)
-  fullName: (T1, T2)
+  isExternal: true
+  name: ValueTuple<, >
+  nameWithType: ValueTuple<, >
+  fullName: System.ValueTuple<, >
+  nameWithType.vb: ValueTuple(Of , )
+  fullName.vb: System.ValueTuple(Of , )
+  name.vb: ValueTuple(Of , )
   spec.csharp:
-  - name: (
-  - name: T1
-  - name: ','
-  - name: " "
-  - name: T2
-  - name: )
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
-  - name: (
-  - name: T1
-  - name: ','
-  - name: " "
-  - name: T2
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Validate*
   commentId: Overload:SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Validate
   isExternal: true
-  href: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.html#SuperOffice_CRM_Entities_EntityExtraFieldsHelper_Validate_SuperOffice_CRM_Rows_RowValidator_
   name: Validate
   nameWithType: EntityExtraFieldsHelper.Validate
   fullName: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Validate
@@ -1196,172 +849,159 @@ references:
   commentId: T:SuperOffice.CRM.Rows.RowValidator
   parent: SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.CRM.Rows.RowValidator.html
   name: RowValidator
   nameWithType: RowValidator
   fullName: SuperOffice.CRM.Rows.RowValidator
 - uid: System.Collections.Generic.Dictionary{System.String,System.String}
-  commentId: T:System.Collections.Generic.Dictionary{System.String,System.String}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.Dictionary{System.String,System.String}'
   definition: System.Collections.Generic.Dictionary`2
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
-  name: Dictionary<string, string>
-  nameWithType: Dictionary<string, string>
-  fullName: System.Collections.Generic.Dictionary<string, string>
+  name: Dictionary<String, String>
+  nameWithType: Dictionary<String, String>
+  fullName: System.Collections.Generic.Dictionary<System.String, System.String>
   nameWithType.vb: Dictionary(Of String, String)
-  fullName.vb: System.Collections.Generic.Dictionary(Of String, String)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, System.String)
   name.vb: Dictionary(Of String, String)
   spec.csharp:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Collections.Generic.Dictionary`2
-  commentId: T:System.Collections.Generic.Dictionary`2
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
-  name: Dictionary<TKey, TValue>
-  nameWithType: Dictionary<TKey, TValue>
-  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
-  nameWithType.vb: Dictionary(Of TKey, TValue)
-  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
-  name.vb: Dictionary(Of TKey, TValue)
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: System.Collections.Generic.Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: System.Collections.Generic.Dictionary(Of , )
+  name.vb: Dictionary(Of , )
   spec.csharp:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
   - name: <
-  - name: TKey
-  - name: ','
-  - name: " "
-  - name: TValue
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TKey
-  - name: ','
-  - name: " "
-  - name: TValue
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.EnforceRequiredFields*
   commentId: Overload:SuperOffice.CRM.Entities.EntityExtraFieldsHelper.EnforceRequiredFields
   isExternal: true
-  href: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.html#SuperOffice_CRM_Entities_EntityExtraFieldsHelper_EnforceRequiredFields
   name: EnforceRequiredFields
   nameWithType: EntityExtraFieldsHelper.EnforceRequiredFields
   fullName: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.EnforceRequiredFields
 - uid: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Item*
   commentId: Overload:SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Item
   isExternal: true
-  href: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.html#SuperOffice_CRM_Entities_EntityExtraFieldsHelper_Item_System_String_
-  name: this
-  nameWithType: EntityExtraFieldsHelper.this
-  fullName: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.this
-  nameWithType.vb: EntityExtraFieldsHelper.this[]
-  fullName.vb: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.this[]
-  name.vb: this[]
+  name: Item
+  nameWithType: EntityExtraFieldsHelper.Item
+  fullName: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Item
 - uid: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Names*
   commentId: Overload:SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Names
   isExternal: true
-  href: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.html#SuperOffice_CRM_Entities_EntityExtraFieldsHelper_Names
   name: Names
   nameWithType: EntityExtraFieldsHelper.Names
   fullName: SuperOffice.CRM.Entities.EntityExtraFieldsHelper.Names
 - uid: System.String[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string[]
-  nameWithType: string[]
-  fullName: string[]
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
   nameWithType.vb: String()
-  fullName.vb: String()
+  fullName.vb: System.String()
   name.vb: String()
   spec.csharp:
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()

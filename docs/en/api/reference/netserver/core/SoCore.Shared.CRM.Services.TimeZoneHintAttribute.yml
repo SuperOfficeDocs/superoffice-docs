@@ -20,72 +20,28 @@ items:
   nameWithType: TimeZoneHintAttribute
   fullName: SoCore.Shared.CRM.Services.TimeZoneHintAttribute
   type: Class
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SoCore.Shared.CRM.Services
   syntax:
-    content: >-
-      [AttributeUsage(AttributeTargets.Property|AttributeTargets.Field)]
-
-      public class TimeZoneHintAttribute : Attribute
+    content: 'public class TimeZoneHintAttribute : Attribute'
     content.vb: >-
-      <AttributeUsage(AttributeTargets.PropertyOrAttributeTargets.Field)>
-
-      Public Class TimeZoneHintAttribute Inherits Attribute
+      Public Class TimeZoneHintAttribute
+          Inherits Attribute
   inheritance:
   - System.Object
-  - System.Attribute
-  inheritedMembers:
-  - System.Attribute.GetCustomAttributes(System.Reflection.MemberInfo,System.Type)
-  - System.Attribute.GetCustomAttributes(System.Reflection.MemberInfo,System.Type,System.Boolean)
-  - System.Attribute.GetCustomAttributes(System.Reflection.MemberInfo)
-  - System.Attribute.GetCustomAttributes(System.Reflection.MemberInfo,System.Boolean)
-  - System.Attribute.IsDefined(System.Reflection.MemberInfo,System.Type)
-  - System.Attribute.IsDefined(System.Reflection.MemberInfo,System.Type,System.Boolean)
-  - System.Attribute.GetCustomAttribute(System.Reflection.MemberInfo,System.Type)
-  - System.Attribute.GetCustomAttribute(System.Reflection.MemberInfo,System.Type,System.Boolean)
-  - System.Attribute.GetCustomAttributes(System.Reflection.ParameterInfo)
-  - System.Attribute.GetCustomAttributes(System.Reflection.ParameterInfo,System.Type)
-  - System.Attribute.GetCustomAttributes(System.Reflection.ParameterInfo,System.Type,System.Boolean)
-  - System.Attribute.GetCustomAttributes(System.Reflection.ParameterInfo,System.Boolean)
-  - System.Attribute.IsDefined(System.Reflection.ParameterInfo,System.Type)
-  - System.Attribute.IsDefined(System.Reflection.ParameterInfo,System.Type,System.Boolean)
-  - System.Attribute.GetCustomAttribute(System.Reflection.ParameterInfo,System.Type)
-  - System.Attribute.GetCustomAttribute(System.Reflection.ParameterInfo,System.Type,System.Boolean)
-  - System.Attribute.GetCustomAttributes(System.Reflection.Module,System.Type)
-  - System.Attribute.GetCustomAttributes(System.Reflection.Module)
-  - System.Attribute.GetCustomAttributes(System.Reflection.Module,System.Boolean)
-  - System.Attribute.GetCustomAttributes(System.Reflection.Module,System.Type,System.Boolean)
-  - System.Attribute.IsDefined(System.Reflection.Module,System.Type)
-  - System.Attribute.IsDefined(System.Reflection.Module,System.Type,System.Boolean)
-  - System.Attribute.GetCustomAttribute(System.Reflection.Module,System.Type)
-  - System.Attribute.GetCustomAttribute(System.Reflection.Module,System.Type,System.Boolean)
-  - System.Attribute.GetCustomAttributes(System.Reflection.Assembly,System.Type)
-  - System.Attribute.GetCustomAttributes(System.Reflection.Assembly,System.Type,System.Boolean)
-  - System.Attribute.GetCustomAttributes(System.Reflection.Assembly)
-  - System.Attribute.GetCustomAttributes(System.Reflection.Assembly,System.Boolean)
-  - System.Attribute.IsDefined(System.Reflection.Assembly,System.Type)
-  - System.Attribute.IsDefined(System.Reflection.Assembly,System.Type,System.Boolean)
-  - System.Attribute.GetCustomAttribute(System.Reflection.Assembly,System.Type)
-  - System.Attribute.GetCustomAttribute(System.Reflection.Assembly,System.Type,System.Boolean)
-  - System.Attribute.Equals(System.Object)
-  - System.Attribute.GetHashCode
-  - System.Attribute.Match(System.Object)
-  - System.Attribute.IsDefaultAttribute
-  - System.Attribute.TypeId
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SoCore.Shared.CRM.Services.TimeZoneHintAttribute.EnumUtil.MapEnums``2
   - SoCore.Shared.CRM.Services.TimeZoneHintAttribute.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  attributes:
-  - type: System.AttributeUsageAttribute
-    ctor: System.AttributeUsageAttribute.#ctor(System.AttributeTargets)
-    arguments:
-    - type: System.AttributeTargets
-      value: 384
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.#ctor(SoCore.Shared.CRM.Services.TimeZoneInterpretation)
   commentId: M:SoCore.Shared.CRM.Services.TimeZoneHintAttribute.#ctor(SoCore.Shared.CRM.Services.TimeZoneInterpretation)
   id: '#ctor(SoCore.Shared.CRM.Services.TimeZoneInterpretation)'
@@ -97,22 +53,24 @@ items:
   nameWithType: TimeZoneHintAttribute.TimeZoneHintAttribute(TimeZoneInterpretation)
   fullName: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.TimeZoneHintAttribute(SoCore.Shared.CRM.Services.TimeZoneInterpretation)
   type: Constructor
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SoCore.Shared.CRM.Services
-  summary: Standard constructor, used in most cases
-  example: []
+  summary: "\nStandard constructor, used in most cases\n"
   syntax:
     content: public TimeZoneHintAttribute(TimeZoneInterpretation hint)
     parameters:
     - id: hint
       type: SoCore.Shared.CRM.Services.TimeZoneInterpretation
-      description: ''
     content.vb: Public Sub New(hint As TimeZoneInterpretation)
   overload: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.#ctor*
-  nameWithType.vb: TimeZoneHintAttribute.New(TimeZoneInterpretation)
-  fullName.vb: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.New(SoCore.Shared.CRM.Services.TimeZoneInterpretation)
-  name.vb: New(TimeZoneInterpretation)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.#ctor(SoCore.Shared.CRM.Services.TimeZoneInterpretation,SoCore.Shared.CRM.Services.TimeZoneDiaryAdjustment)
   commentId: M:SoCore.Shared.CRM.Services.TimeZoneHintAttribute.#ctor(SoCore.Shared.CRM.Services.TimeZoneInterpretation,SoCore.Shared.CRM.Services.TimeZoneDiaryAdjustment)
   id: '#ctor(SoCore.Shared.CRM.Services.TimeZoneInterpretation,SoCore.Shared.CRM.Services.TimeZoneDiaryAdjustment)'
@@ -124,24 +82,26 @@ items:
   nameWithType: TimeZoneHintAttribute.TimeZoneHintAttribute(TimeZoneInterpretation, TimeZoneDiaryAdjustment)
   fullName: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.TimeZoneHintAttribute(SoCore.Shared.CRM.Services.TimeZoneInterpretation, SoCore.Shared.CRM.Services.TimeZoneDiaryAdjustment)
   type: Constructor
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SoCore.Shared.CRM.Services
-  summary: Standard constructor, used in most cases
-  example: []
+  summary: "\nStandard constructor, used in most cases\n"
   syntax:
     content: public TimeZoneHintAttribute(TimeZoneInterpretation hint, TimeZoneDiaryAdjustment diary)
     parameters:
     - id: hint
       type: SoCore.Shared.CRM.Services.TimeZoneInterpretation
-      description: ''
     - id: diary
       type: SoCore.Shared.CRM.Services.TimeZoneDiaryAdjustment
     content.vb: Public Sub New(hint As TimeZoneInterpretation, diary As TimeZoneDiaryAdjustment)
   overload: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.#ctor*
-  nameWithType.vb: TimeZoneHintAttribute.New(TimeZoneInterpretation, TimeZoneDiaryAdjustment)
-  fullName.vb: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.New(SoCore.Shared.CRM.Services.TimeZoneInterpretation, SoCore.Shared.CRM.Services.TimeZoneDiaryAdjustment)
-  name.vb: New(TimeZoneInterpretation, TimeZoneDiaryAdjustment)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.#ctor(SoCore.Shared.CRM.Services.TimeZoneInterpretation,System.Int32,System.Int32)
   commentId: M:SoCore.Shared.CRM.Services.TimeZoneHintAttribute.#ctor(SoCore.Shared.CRM.Services.TimeZoneInterpretation,System.Int32,System.Int32)
   id: '#ctor(SoCore.Shared.CRM.Services.TimeZoneInterpretation,System.Int32,System.Int32)'
@@ -149,10 +109,13 @@ items:
   langs:
   - csharp
   - vb
-  name: TimeZoneHintAttribute(TimeZoneInterpretation, int, int)
-  nameWithType: TimeZoneHintAttribute.TimeZoneHintAttribute(TimeZoneInterpretation, int, int)
-  fullName: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.TimeZoneHintAttribute(SoCore.Shared.CRM.Services.TimeZoneInterpretation, int, int)
+  name: TimeZoneHintAttribute(TimeZoneInterpretation, Int32, Int32)
+  nameWithType: TimeZoneHintAttribute.TimeZoneHintAttribute(TimeZoneInterpretation, Int32, Int32)
+  fullName: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.TimeZoneHintAttribute(SoCore.Shared.CRM.Services.TimeZoneInterpretation, System.Int32, System.Int32)
   type: Constructor
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SoCore.Shared.CRM.Services
@@ -167,9 +130,10 @@ items:
       type: System.Int32
     content.vb: Public Sub New(hint As TimeZoneInterpretation, outgoingDateYear As Integer, incomingDateYear As Integer)
   overload: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.#ctor*
-  nameWithType.vb: TimeZoneHintAttribute.New(TimeZoneInterpretation, Integer, Integer)
-  fullName.vb: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.New(SoCore.Shared.CRM.Services.TimeZoneInterpretation, Integer, Integer)
-  name.vb: New(TimeZoneInterpretation, Integer, Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.ToString
   commentId: M:SoCore.Shared.CRM.Services.TimeZoneHintAttribute.ToString
   id: ToString
@@ -181,17 +145,24 @@ items:
   nameWithType: TimeZoneHintAttribute.ToString()
   fullName: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.ToString()
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SoCore.Shared.CRM.Services
-  example: []
   syntax:
     content: public override string ToString()
     return:
       type: System.String
-    content.vb: Public Overrides Function ToString() As String
-  overridden: System.Object.ToString
+    content.vb: Public Overrides Function ToString As String
   overload: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.Hint
   commentId: P:SoCore.Shared.CRM.Services.TimeZoneHintAttribute.Hint
   id: Hint
@@ -203,6 +174,9 @@ items:
   nameWithType: TimeZoneHintAttribute.Hint
   fullName: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.Hint
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SoCore.Shared.CRM.Services
@@ -213,6 +187,12 @@ items:
       type: SoCore.Shared.CRM.Services.TimeZoneInterpretation
     content.vb: Public ReadOnly Property Hint As TimeZoneInterpretation
   overload: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.Hint*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.DiaryAdjust
   commentId: P:SoCore.Shared.CRM.Services.TimeZoneHintAttribute.DiaryAdjust
   id: DiaryAdjust
@@ -224,6 +204,9 @@ items:
   nameWithType: TimeZoneHintAttribute.DiaryAdjust
   fullName: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.DiaryAdjust
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SoCore.Shared.CRM.Services
@@ -234,6 +217,12 @@ items:
       type: SoCore.Shared.CRM.Services.TimeZoneDiaryAdjustment
     content.vb: Public ReadOnly Property DiaryAdjust As TimeZoneDiaryAdjustment
   overload: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.DiaryAdjust*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.OutgoingDatePart
   commentId: P:SoCore.Shared.CRM.Services.TimeZoneHintAttribute.OutgoingDatePart
   id: OutgoingDatePart
@@ -245,6 +234,9 @@ items:
   nameWithType: TimeZoneHintAttribute.OutgoingDatePart
   fullName: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.OutgoingDatePart
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SoCore.Shared.CRM.Services
@@ -253,8 +245,14 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public ReadOnly Property OutgoingDatePart As Date
+    content.vb: Public ReadOnly Property OutgoingDatePart As DateTime
   overload: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.OutgoingDatePart*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.IncomingDatePart
   commentId: P:SoCore.Shared.CRM.Services.TimeZoneHintAttribute.IncomingDatePart
   id: IncomingDatePart
@@ -266,6 +264,9 @@ items:
   nameWithType: TimeZoneHintAttribute.IncomingDatePart
   fullName: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.IncomingDatePart
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SoCore.Shared.CRM.Services
@@ -274,1936 +275,105 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public ReadOnly Property IncomingDatePart As Date
+    content.vb: Public ReadOnly Property IncomingDatePart As DateTime
   overload: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.IncomingDatePart*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 references:
 - uid: SoCore.Shared.CRM.Services
   commentId: N:SoCore.Shared.CRM.Services
   isExternal: true
-  href: SoCore.html
   name: SoCore.Shared.CRM.Services
   nameWithType: SoCore.Shared.CRM.Services
   fullName: SoCore.Shared.CRM.Services
-  spec.csharp:
-  - uid: SoCore
-    name: SoCore
-    isExternal: true
-    href: SoCore.html
-  - name: .
-  - uid: SoCore.Shared
-    name: Shared
-    isExternal: true
-    href: SoCore.Shared.html
-  - name: .
-  - uid: SoCore.Shared.CRM
-    name: CRM
-    isExternal: true
-    href: SoCore.Shared.CRM.html
-  - name: .
-  - uid: SoCore.Shared.CRM.Services
-    name: Services
-    isExternal: true
-    href: SoCore.Shared.CRM.Services.html
-  spec.vb:
-  - uid: SoCore
-    name: SoCore
-    isExternal: true
-    href: SoCore.html
-  - name: .
-  - uid: SoCore.Shared
-    name: Shared
-    isExternal: true
-    href: SoCore.Shared.html
-  - name: .
-  - uid: SoCore.Shared.CRM
-    name: CRM
-    isExternal: true
-    href: SoCore.Shared.CRM.html
-  - name: .
-  - uid: SoCore.Shared.CRM.Services
-    name: Services
-    isExternal: true
-    href: SoCore.Shared.CRM.Services.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Attribute
-  commentId: T:System.Attribute
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.attribute
-  name: Attribute
-  nameWithType: Attribute
-  fullName: System.Attribute
-- uid: System.Attribute.GetCustomAttributes(System.Reflection.MemberInfo,System.Type)
-  commentId: M:System.Attribute.GetCustomAttributes(System.Reflection.MemberInfo,System.Type)
-  parent: System.Attribute
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-memberinfo-system-type)
-  name: GetCustomAttributes(MemberInfo, Type)
-  nameWithType: Attribute.GetCustomAttributes(MemberInfo, Type)
-  fullName: System.Attribute.GetCustomAttributes(System.Reflection.MemberInfo, System.Type)
-  spec.csharp:
-  - uid: System.Attribute.GetCustomAttributes(System.Reflection.MemberInfo,System.Type)
-    name: GetCustomAttributes
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-memberinfo-system-type)
-  - name: (
-  - uid: System.Reflection.MemberInfo
-    name: MemberInfo
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.reflection.memberinfo
-  - name: ','
-  - name: " "
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: )
-  spec.vb:
-  - uid: System.Attribute.GetCustomAttributes(System.Reflection.MemberInfo,System.Type)
-    name: GetCustomAttributes
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-memberinfo-system-type)
-  - name: (
-  - uid: System.Reflection.MemberInfo
-    name: MemberInfo
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.reflection.memberinfo
-  - name: ','
-  - name: " "
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: )
-- uid: System.Attribute.GetCustomAttributes(System.Reflection.MemberInfo,System.Type,System.Boolean)
-  commentId: M:System.Attribute.GetCustomAttributes(System.Reflection.MemberInfo,System.Type,System.Boolean)
-  parent: System.Attribute
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-memberinfo-system-type-system-boolean)
-  name: GetCustomAttributes(MemberInfo, Type, bool)
-  nameWithType: Attribute.GetCustomAttributes(MemberInfo, Type, bool)
-  fullName: System.Attribute.GetCustomAttributes(System.Reflection.MemberInfo, System.Type, bool)
-  nameWithType.vb: Attribute.GetCustomAttributes(MemberInfo, Type, Boolean)
-  fullName.vb: System.Attribute.GetCustomAttributes(System.Reflection.MemberInfo, System.Type, Boolean)
-  name.vb: GetCustomAttributes(MemberInfo, Type, Boolean)
-  spec.csharp:
-  - uid: System.Attribute.GetCustomAttributes(System.Reflection.MemberInfo,System.Type,System.Boolean)
-    name: GetCustomAttributes
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-memberinfo-system-type-system-boolean)
-  - name: (
-  - uid: System.Reflection.MemberInfo
-    name: MemberInfo
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.reflection.memberinfo
-  - name: ','
-  - name: " "
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: bool
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-  spec.vb:
-  - uid: System.Attribute.GetCustomAttributes(System.Reflection.MemberInfo,System.Type,System.Boolean)
-    name: GetCustomAttributes
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-memberinfo-system-type-system-boolean)
-  - name: (
-  - uid: System.Reflection.MemberInfo
-    name: MemberInfo
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.reflection.memberinfo
-  - name: ','
-  - name: " "
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: Boolean
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-- uid: System.Attribute.GetCustomAttributes(System.Reflection.MemberInfo)
-  commentId: M:System.Attribute.GetCustomAttributes(System.Reflection.MemberInfo)
-  parent: System.Attribute
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-memberinfo)
-  name: GetCustomAttributes(MemberInfo)
-  nameWithType: Attribute.GetCustomAttributes(MemberInfo)
-  fullName: System.Attribute.GetCustomAttributes(System.Reflection.MemberInfo)
-  spec.csharp:
-  - uid: System.Attribute.GetCustomAttributes(System.Reflection.MemberInfo)
-    name: GetCustomAttributes
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-memberinfo)
-  - name: (
-  - uid: System.Reflection.MemberInfo
-    name: MemberInfo
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.reflection.memberinfo
-  - name: )
-  spec.vb:
-  - uid: System.Attribute.GetCustomAttributes(System.Reflection.MemberInfo)
-    name: GetCustomAttributes
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-memberinfo)
-  - name: (
-  - uid: System.Reflection.MemberInfo
-    name: MemberInfo
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.reflection.memberinfo
-  - name: )
-- uid: System.Attribute.GetCustomAttributes(System.Reflection.MemberInfo,System.Boolean)
-  commentId: M:System.Attribute.GetCustomAttributes(System.Reflection.MemberInfo,System.Boolean)
-  parent: System.Attribute
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-memberinfo-system-boolean)
-  name: GetCustomAttributes(MemberInfo, bool)
-  nameWithType: Attribute.GetCustomAttributes(MemberInfo, bool)
-  fullName: System.Attribute.GetCustomAttributes(System.Reflection.MemberInfo, bool)
-  nameWithType.vb: Attribute.GetCustomAttributes(MemberInfo, Boolean)
-  fullName.vb: System.Attribute.GetCustomAttributes(System.Reflection.MemberInfo, Boolean)
-  name.vb: GetCustomAttributes(MemberInfo, Boolean)
-  spec.csharp:
-  - uid: System.Attribute.GetCustomAttributes(System.Reflection.MemberInfo,System.Boolean)
-    name: GetCustomAttributes
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-memberinfo-system-boolean)
-  - name: (
-  - uid: System.Reflection.MemberInfo
-    name: MemberInfo
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.reflection.memberinfo
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: bool
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-  spec.vb:
-  - uid: System.Attribute.GetCustomAttributes(System.Reflection.MemberInfo,System.Boolean)
-    name: GetCustomAttributes
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-memberinfo-system-boolean)
-  - name: (
-  - uid: System.Reflection.MemberInfo
-    name: MemberInfo
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.reflection.memberinfo
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: Boolean
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-- uid: System.Attribute.IsDefined(System.Reflection.MemberInfo,System.Type)
-  commentId: M:System.Attribute.IsDefined(System.Reflection.MemberInfo,System.Type)
-  parent: System.Attribute
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.attribute.isdefined#system-attribute-isdefined(system-reflection-memberinfo-system-type)
-  name: IsDefined(MemberInfo, Type)
-  nameWithType: Attribute.IsDefined(MemberInfo, Type)
-  fullName: System.Attribute.IsDefined(System.Reflection.MemberInfo, System.Type)
-  spec.csharp:
-  - uid: System.Attribute.IsDefined(System.Reflection.MemberInfo,System.Type)
-    name: IsDefined
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute.isdefined#system-attribute-isdefined(system-reflection-memberinfo-system-type)
-  - name: (
-  - uid: System.Reflection.MemberInfo
-    name: MemberInfo
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.reflection.memberinfo
-  - name: ','
-  - name: " "
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: )
-  spec.vb:
-  - uid: System.Attribute.IsDefined(System.Reflection.MemberInfo,System.Type)
-    name: IsDefined
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute.isdefined#system-attribute-isdefined(system-reflection-memberinfo-system-type)
-  - name: (
-  - uid: System.Reflection.MemberInfo
-    name: MemberInfo
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.reflection.memberinfo
-  - name: ','
-  - name: " "
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: )
-- uid: System.Attribute.IsDefined(System.Reflection.MemberInfo,System.Type,System.Boolean)
-  commentId: M:System.Attribute.IsDefined(System.Reflection.MemberInfo,System.Type,System.Boolean)
-  parent: System.Attribute
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.attribute.isdefined#system-attribute-isdefined(system-reflection-memberinfo-system-type-system-boolean)
-  name: IsDefined(MemberInfo, Type, bool)
-  nameWithType: Attribute.IsDefined(MemberInfo, Type, bool)
-  fullName: System.Attribute.IsDefined(System.Reflection.MemberInfo, System.Type, bool)
-  nameWithType.vb: Attribute.IsDefined(MemberInfo, Type, Boolean)
-  fullName.vb: System.Attribute.IsDefined(System.Reflection.MemberInfo, System.Type, Boolean)
-  name.vb: IsDefined(MemberInfo, Type, Boolean)
-  spec.csharp:
-  - uid: System.Attribute.IsDefined(System.Reflection.MemberInfo,System.Type,System.Boolean)
-    name: IsDefined
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute.isdefined#system-attribute-isdefined(system-reflection-memberinfo-system-type-system-boolean)
-  - name: (
-  - uid: System.Reflection.MemberInfo
-    name: MemberInfo
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.reflection.memberinfo
-  - name: ','
-  - name: " "
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: bool
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-  spec.vb:
-  - uid: System.Attribute.IsDefined(System.Reflection.MemberInfo,System.Type,System.Boolean)
-    name: IsDefined
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute.isdefined#system-attribute-isdefined(system-reflection-memberinfo-system-type-system-boolean)
-  - name: (
-  - uid: System.Reflection.MemberInfo
-    name: MemberInfo
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.reflection.memberinfo
-  - name: ','
-  - name: " "
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: Boolean
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-- uid: System.Attribute.GetCustomAttribute(System.Reflection.MemberInfo,System.Type)
-  commentId: M:System.Attribute.GetCustomAttribute(System.Reflection.MemberInfo,System.Type)
-  parent: System.Attribute
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattribute#system-attribute-getcustomattribute(system-reflection-memberinfo-system-type)
-  name: GetCustomAttribute(MemberInfo, Type)
-  nameWithType: Attribute.GetCustomAttribute(MemberInfo, Type)
-  fullName: System.Attribute.GetCustomAttribute(System.Reflection.MemberInfo, System.Type)
-  spec.csharp:
-  - uid: System.Attribute.GetCustomAttribute(System.Reflection.MemberInfo,System.Type)
-    name: GetCustomAttribute
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattribute#system-attribute-getcustomattribute(system-reflection-memberinfo-system-type)
-  - name: (
-  - uid: System.Reflection.MemberInfo
-    name: MemberInfo
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.reflection.memberinfo
-  - name: ','
-  - name: " "
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: )
-  spec.vb:
-  - uid: System.Attribute.GetCustomAttribute(System.Reflection.MemberInfo,System.Type)
-    name: GetCustomAttribute
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattribute#system-attribute-getcustomattribute(system-reflection-memberinfo-system-type)
-  - name: (
-  - uid: System.Reflection.MemberInfo
-    name: MemberInfo
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.reflection.memberinfo
-  - name: ','
-  - name: " "
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: )
-- uid: System.Attribute.GetCustomAttribute(System.Reflection.MemberInfo,System.Type,System.Boolean)
-  commentId: M:System.Attribute.GetCustomAttribute(System.Reflection.MemberInfo,System.Type,System.Boolean)
-  parent: System.Attribute
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattribute#system-attribute-getcustomattribute(system-reflection-memberinfo-system-type-system-boolean)
-  name: GetCustomAttribute(MemberInfo, Type, bool)
-  nameWithType: Attribute.GetCustomAttribute(MemberInfo, Type, bool)
-  fullName: System.Attribute.GetCustomAttribute(System.Reflection.MemberInfo, System.Type, bool)
-  nameWithType.vb: Attribute.GetCustomAttribute(MemberInfo, Type, Boolean)
-  fullName.vb: System.Attribute.GetCustomAttribute(System.Reflection.MemberInfo, System.Type, Boolean)
-  name.vb: GetCustomAttribute(MemberInfo, Type, Boolean)
-  spec.csharp:
-  - uid: System.Attribute.GetCustomAttribute(System.Reflection.MemberInfo,System.Type,System.Boolean)
-    name: GetCustomAttribute
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattribute#system-attribute-getcustomattribute(system-reflection-memberinfo-system-type-system-boolean)
-  - name: (
-  - uid: System.Reflection.MemberInfo
-    name: MemberInfo
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.reflection.memberinfo
-  - name: ','
-  - name: " "
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: bool
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-  spec.vb:
-  - uid: System.Attribute.GetCustomAttribute(System.Reflection.MemberInfo,System.Type,System.Boolean)
-    name: GetCustomAttribute
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattribute#system-attribute-getcustomattribute(system-reflection-memberinfo-system-type-system-boolean)
-  - name: (
-  - uid: System.Reflection.MemberInfo
-    name: MemberInfo
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.reflection.memberinfo
-  - name: ','
-  - name: " "
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: Boolean
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-- uid: System.Attribute.GetCustomAttributes(System.Reflection.ParameterInfo)
-  commentId: M:System.Attribute.GetCustomAttributes(System.Reflection.ParameterInfo)
-  parent: System.Attribute
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-parameterinfo)
-  name: GetCustomAttributes(ParameterInfo)
-  nameWithType: Attribute.GetCustomAttributes(ParameterInfo)
-  fullName: System.Attribute.GetCustomAttributes(System.Reflection.ParameterInfo)
-  spec.csharp:
-  - uid: System.Attribute.GetCustomAttributes(System.Reflection.ParameterInfo)
-    name: GetCustomAttributes
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-parameterinfo)
-  - name: (
-  - uid: System.Reflection.ParameterInfo
-    name: ParameterInfo
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.reflection.parameterinfo
-  - name: )
-  spec.vb:
-  - uid: System.Attribute.GetCustomAttributes(System.Reflection.ParameterInfo)
-    name: GetCustomAttributes
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-parameterinfo)
-  - name: (
-  - uid: System.Reflection.ParameterInfo
-    name: ParameterInfo
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.reflection.parameterinfo
-  - name: )
-- uid: System.Attribute.GetCustomAttributes(System.Reflection.ParameterInfo,System.Type)
-  commentId: M:System.Attribute.GetCustomAttributes(System.Reflection.ParameterInfo,System.Type)
-  parent: System.Attribute
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-parameterinfo-system-type)
-  name: GetCustomAttributes(ParameterInfo, Type)
-  nameWithType: Attribute.GetCustomAttributes(ParameterInfo, Type)
-  fullName: System.Attribute.GetCustomAttributes(System.Reflection.ParameterInfo, System.Type)
-  spec.csharp:
-  - uid: System.Attribute.GetCustomAttributes(System.Reflection.ParameterInfo,System.Type)
-    name: GetCustomAttributes
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-parameterinfo-system-type)
-  - name: (
-  - uid: System.Reflection.ParameterInfo
-    name: ParameterInfo
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.reflection.parameterinfo
-  - name: ','
-  - name: " "
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: )
-  spec.vb:
-  - uid: System.Attribute.GetCustomAttributes(System.Reflection.ParameterInfo,System.Type)
-    name: GetCustomAttributes
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-parameterinfo-system-type)
-  - name: (
-  - uid: System.Reflection.ParameterInfo
-    name: ParameterInfo
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.reflection.parameterinfo
-  - name: ','
-  - name: " "
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: )
-- uid: System.Attribute.GetCustomAttributes(System.Reflection.ParameterInfo,System.Type,System.Boolean)
-  commentId: M:System.Attribute.GetCustomAttributes(System.Reflection.ParameterInfo,System.Type,System.Boolean)
-  parent: System.Attribute
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-parameterinfo-system-type-system-boolean)
-  name: GetCustomAttributes(ParameterInfo, Type, bool)
-  nameWithType: Attribute.GetCustomAttributes(ParameterInfo, Type, bool)
-  fullName: System.Attribute.GetCustomAttributes(System.Reflection.ParameterInfo, System.Type, bool)
-  nameWithType.vb: Attribute.GetCustomAttributes(ParameterInfo, Type, Boolean)
-  fullName.vb: System.Attribute.GetCustomAttributes(System.Reflection.ParameterInfo, System.Type, Boolean)
-  name.vb: GetCustomAttributes(ParameterInfo, Type, Boolean)
-  spec.csharp:
-  - uid: System.Attribute.GetCustomAttributes(System.Reflection.ParameterInfo,System.Type,System.Boolean)
-    name: GetCustomAttributes
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-parameterinfo-system-type-system-boolean)
-  - name: (
-  - uid: System.Reflection.ParameterInfo
-    name: ParameterInfo
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.reflection.parameterinfo
-  - name: ','
-  - name: " "
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: bool
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-  spec.vb:
-  - uid: System.Attribute.GetCustomAttributes(System.Reflection.ParameterInfo,System.Type,System.Boolean)
-    name: GetCustomAttributes
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-parameterinfo-system-type-system-boolean)
-  - name: (
-  - uid: System.Reflection.ParameterInfo
-    name: ParameterInfo
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.reflection.parameterinfo
-  - name: ','
-  - name: " "
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: Boolean
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-- uid: System.Attribute.GetCustomAttributes(System.Reflection.ParameterInfo,System.Boolean)
-  commentId: M:System.Attribute.GetCustomAttributes(System.Reflection.ParameterInfo,System.Boolean)
-  parent: System.Attribute
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-parameterinfo-system-boolean)
-  name: GetCustomAttributes(ParameterInfo, bool)
-  nameWithType: Attribute.GetCustomAttributes(ParameterInfo, bool)
-  fullName: System.Attribute.GetCustomAttributes(System.Reflection.ParameterInfo, bool)
-  nameWithType.vb: Attribute.GetCustomAttributes(ParameterInfo, Boolean)
-  fullName.vb: System.Attribute.GetCustomAttributes(System.Reflection.ParameterInfo, Boolean)
-  name.vb: GetCustomAttributes(ParameterInfo, Boolean)
-  spec.csharp:
-  - uid: System.Attribute.GetCustomAttributes(System.Reflection.ParameterInfo,System.Boolean)
-    name: GetCustomAttributes
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-parameterinfo-system-boolean)
-  - name: (
-  - uid: System.Reflection.ParameterInfo
-    name: ParameterInfo
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.reflection.parameterinfo
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: bool
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-  spec.vb:
-  - uid: System.Attribute.GetCustomAttributes(System.Reflection.ParameterInfo,System.Boolean)
-    name: GetCustomAttributes
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-parameterinfo-system-boolean)
-  - name: (
-  - uid: System.Reflection.ParameterInfo
-    name: ParameterInfo
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.reflection.parameterinfo
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: Boolean
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-- uid: System.Attribute.IsDefined(System.Reflection.ParameterInfo,System.Type)
-  commentId: M:System.Attribute.IsDefined(System.Reflection.ParameterInfo,System.Type)
-  parent: System.Attribute
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.attribute.isdefined#system-attribute-isdefined(system-reflection-parameterinfo-system-type)
-  name: IsDefined(ParameterInfo, Type)
-  nameWithType: Attribute.IsDefined(ParameterInfo, Type)
-  fullName: System.Attribute.IsDefined(System.Reflection.ParameterInfo, System.Type)
-  spec.csharp:
-  - uid: System.Attribute.IsDefined(System.Reflection.ParameterInfo,System.Type)
-    name: IsDefined
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute.isdefined#system-attribute-isdefined(system-reflection-parameterinfo-system-type)
-  - name: (
-  - uid: System.Reflection.ParameterInfo
-    name: ParameterInfo
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.reflection.parameterinfo
-  - name: ','
-  - name: " "
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: )
-  spec.vb:
-  - uid: System.Attribute.IsDefined(System.Reflection.ParameterInfo,System.Type)
-    name: IsDefined
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute.isdefined#system-attribute-isdefined(system-reflection-parameterinfo-system-type)
-  - name: (
-  - uid: System.Reflection.ParameterInfo
-    name: ParameterInfo
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.reflection.parameterinfo
-  - name: ','
-  - name: " "
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: )
-- uid: System.Attribute.IsDefined(System.Reflection.ParameterInfo,System.Type,System.Boolean)
-  commentId: M:System.Attribute.IsDefined(System.Reflection.ParameterInfo,System.Type,System.Boolean)
-  parent: System.Attribute
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.attribute.isdefined#system-attribute-isdefined(system-reflection-parameterinfo-system-type-system-boolean)
-  name: IsDefined(ParameterInfo, Type, bool)
-  nameWithType: Attribute.IsDefined(ParameterInfo, Type, bool)
-  fullName: System.Attribute.IsDefined(System.Reflection.ParameterInfo, System.Type, bool)
-  nameWithType.vb: Attribute.IsDefined(ParameterInfo, Type, Boolean)
-  fullName.vb: System.Attribute.IsDefined(System.Reflection.ParameterInfo, System.Type, Boolean)
-  name.vb: IsDefined(ParameterInfo, Type, Boolean)
-  spec.csharp:
-  - uid: System.Attribute.IsDefined(System.Reflection.ParameterInfo,System.Type,System.Boolean)
-    name: IsDefined
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute.isdefined#system-attribute-isdefined(system-reflection-parameterinfo-system-type-system-boolean)
-  - name: (
-  - uid: System.Reflection.ParameterInfo
-    name: ParameterInfo
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.reflection.parameterinfo
-  - name: ','
-  - name: " "
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: bool
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-  spec.vb:
-  - uid: System.Attribute.IsDefined(System.Reflection.ParameterInfo,System.Type,System.Boolean)
-    name: IsDefined
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute.isdefined#system-attribute-isdefined(system-reflection-parameterinfo-system-type-system-boolean)
-  - name: (
-  - uid: System.Reflection.ParameterInfo
-    name: ParameterInfo
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.reflection.parameterinfo
-  - name: ','
-  - name: " "
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: Boolean
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-- uid: System.Attribute.GetCustomAttribute(System.Reflection.ParameterInfo,System.Type)
-  commentId: M:System.Attribute.GetCustomAttribute(System.Reflection.ParameterInfo,System.Type)
-  parent: System.Attribute
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattribute#system-attribute-getcustomattribute(system-reflection-parameterinfo-system-type)
-  name: GetCustomAttribute(ParameterInfo, Type)
-  nameWithType: Attribute.GetCustomAttribute(ParameterInfo, Type)
-  fullName: System.Attribute.GetCustomAttribute(System.Reflection.ParameterInfo, System.Type)
-  spec.csharp:
-  - uid: System.Attribute.GetCustomAttribute(System.Reflection.ParameterInfo,System.Type)
-    name: GetCustomAttribute
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattribute#system-attribute-getcustomattribute(system-reflection-parameterinfo-system-type)
-  - name: (
-  - uid: System.Reflection.ParameterInfo
-    name: ParameterInfo
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.reflection.parameterinfo
-  - name: ','
-  - name: " "
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: )
-  spec.vb:
-  - uid: System.Attribute.GetCustomAttribute(System.Reflection.ParameterInfo,System.Type)
-    name: GetCustomAttribute
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattribute#system-attribute-getcustomattribute(system-reflection-parameterinfo-system-type)
-  - name: (
-  - uid: System.Reflection.ParameterInfo
-    name: ParameterInfo
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.reflection.parameterinfo
-  - name: ','
-  - name: " "
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: )
-- uid: System.Attribute.GetCustomAttribute(System.Reflection.ParameterInfo,System.Type,System.Boolean)
-  commentId: M:System.Attribute.GetCustomAttribute(System.Reflection.ParameterInfo,System.Type,System.Boolean)
-  parent: System.Attribute
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattribute#system-attribute-getcustomattribute(system-reflection-parameterinfo-system-type-system-boolean)
-  name: GetCustomAttribute(ParameterInfo, Type, bool)
-  nameWithType: Attribute.GetCustomAttribute(ParameterInfo, Type, bool)
-  fullName: System.Attribute.GetCustomAttribute(System.Reflection.ParameterInfo, System.Type, bool)
-  nameWithType.vb: Attribute.GetCustomAttribute(ParameterInfo, Type, Boolean)
-  fullName.vb: System.Attribute.GetCustomAttribute(System.Reflection.ParameterInfo, System.Type, Boolean)
-  name.vb: GetCustomAttribute(ParameterInfo, Type, Boolean)
-  spec.csharp:
-  - uid: System.Attribute.GetCustomAttribute(System.Reflection.ParameterInfo,System.Type,System.Boolean)
-    name: GetCustomAttribute
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattribute#system-attribute-getcustomattribute(system-reflection-parameterinfo-system-type-system-boolean)
-  - name: (
-  - uid: System.Reflection.ParameterInfo
-    name: ParameterInfo
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.reflection.parameterinfo
-  - name: ','
-  - name: " "
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: bool
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-  spec.vb:
-  - uid: System.Attribute.GetCustomAttribute(System.Reflection.ParameterInfo,System.Type,System.Boolean)
-    name: GetCustomAttribute
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattribute#system-attribute-getcustomattribute(system-reflection-parameterinfo-system-type-system-boolean)
-  - name: (
-  - uid: System.Reflection.ParameterInfo
-    name: ParameterInfo
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.reflection.parameterinfo
-  - name: ','
-  - name: " "
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: Boolean
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-- uid: System.Attribute.GetCustomAttributes(System.Reflection.Module,System.Type)
-  commentId: M:System.Attribute.GetCustomAttributes(System.Reflection.Module,System.Type)
-  parent: System.Attribute
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-module-system-type)
-  name: GetCustomAttributes(Module, Type)
-  nameWithType: Attribute.GetCustomAttributes(Module, Type)
-  fullName: System.Attribute.GetCustomAttributes(System.Reflection.Module, System.Type)
-  spec.csharp:
-  - uid: System.Attribute.GetCustomAttributes(System.Reflection.Module,System.Type)
-    name: GetCustomAttributes
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-module-system-type)
-  - name: (
-  - uid: System.Reflection.Module
-    name: Module
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.reflection.module
-  - name: ','
-  - name: " "
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: )
-  spec.vb:
-  - uid: System.Attribute.GetCustomAttributes(System.Reflection.Module,System.Type)
-    name: GetCustomAttributes
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-module-system-type)
-  - name: (
-  - uid: System.Reflection.Module
-    name: Module
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.reflection.module
-  - name: ','
-  - name: " "
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: )
-- uid: System.Attribute.GetCustomAttributes(System.Reflection.Module)
-  commentId: M:System.Attribute.GetCustomAttributes(System.Reflection.Module)
-  parent: System.Attribute
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-module)
-  name: GetCustomAttributes(Module)
-  nameWithType: Attribute.GetCustomAttributes(Module)
-  fullName: System.Attribute.GetCustomAttributes(System.Reflection.Module)
-  spec.csharp:
-  - uid: System.Attribute.GetCustomAttributes(System.Reflection.Module)
-    name: GetCustomAttributes
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-module)
-  - name: (
-  - uid: System.Reflection.Module
-    name: Module
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.reflection.module
-  - name: )
-  spec.vb:
-  - uid: System.Attribute.GetCustomAttributes(System.Reflection.Module)
-    name: GetCustomAttributes
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-module)
-  - name: (
-  - uid: System.Reflection.Module
-    name: Module
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.reflection.module
-  - name: )
-- uid: System.Attribute.GetCustomAttributes(System.Reflection.Module,System.Boolean)
-  commentId: M:System.Attribute.GetCustomAttributes(System.Reflection.Module,System.Boolean)
-  parent: System.Attribute
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-module-system-boolean)
-  name: GetCustomAttributes(Module, bool)
-  nameWithType: Attribute.GetCustomAttributes(Module, bool)
-  fullName: System.Attribute.GetCustomAttributes(System.Reflection.Module, bool)
-  nameWithType.vb: Attribute.GetCustomAttributes(Module, Boolean)
-  fullName.vb: System.Attribute.GetCustomAttributes(System.Reflection.Module, Boolean)
-  name.vb: GetCustomAttributes(Module, Boolean)
-  spec.csharp:
-  - uid: System.Attribute.GetCustomAttributes(System.Reflection.Module,System.Boolean)
-    name: GetCustomAttributes
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-module-system-boolean)
-  - name: (
-  - uid: System.Reflection.Module
-    name: Module
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.reflection.module
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: bool
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-  spec.vb:
-  - uid: System.Attribute.GetCustomAttributes(System.Reflection.Module,System.Boolean)
-    name: GetCustomAttributes
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-module-system-boolean)
-  - name: (
-  - uid: System.Reflection.Module
-    name: Module
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.reflection.module
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: Boolean
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-- uid: System.Attribute.GetCustomAttributes(System.Reflection.Module,System.Type,System.Boolean)
-  commentId: M:System.Attribute.GetCustomAttributes(System.Reflection.Module,System.Type,System.Boolean)
-  parent: System.Attribute
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-module-system-type-system-boolean)
-  name: GetCustomAttributes(Module, Type, bool)
-  nameWithType: Attribute.GetCustomAttributes(Module, Type, bool)
-  fullName: System.Attribute.GetCustomAttributes(System.Reflection.Module, System.Type, bool)
-  nameWithType.vb: Attribute.GetCustomAttributes(Module, Type, Boolean)
-  fullName.vb: System.Attribute.GetCustomAttributes(System.Reflection.Module, System.Type, Boolean)
-  name.vb: GetCustomAttributes(Module, Type, Boolean)
-  spec.csharp:
-  - uid: System.Attribute.GetCustomAttributes(System.Reflection.Module,System.Type,System.Boolean)
-    name: GetCustomAttributes
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-module-system-type-system-boolean)
-  - name: (
-  - uid: System.Reflection.Module
-    name: Module
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.reflection.module
-  - name: ','
-  - name: " "
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: bool
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-  spec.vb:
-  - uid: System.Attribute.GetCustomAttributes(System.Reflection.Module,System.Type,System.Boolean)
-    name: GetCustomAttributes
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-module-system-type-system-boolean)
-  - name: (
-  - uid: System.Reflection.Module
-    name: Module
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.reflection.module
-  - name: ','
-  - name: " "
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: Boolean
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-- uid: System.Attribute.IsDefined(System.Reflection.Module,System.Type)
-  commentId: M:System.Attribute.IsDefined(System.Reflection.Module,System.Type)
-  parent: System.Attribute
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.attribute.isdefined#system-attribute-isdefined(system-reflection-module-system-type)
-  name: IsDefined(Module, Type)
-  nameWithType: Attribute.IsDefined(Module, Type)
-  fullName: System.Attribute.IsDefined(System.Reflection.Module, System.Type)
-  spec.csharp:
-  - uid: System.Attribute.IsDefined(System.Reflection.Module,System.Type)
-    name: IsDefined
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute.isdefined#system-attribute-isdefined(system-reflection-module-system-type)
-  - name: (
-  - uid: System.Reflection.Module
-    name: Module
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.reflection.module
-  - name: ','
-  - name: " "
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: )
-  spec.vb:
-  - uid: System.Attribute.IsDefined(System.Reflection.Module,System.Type)
-    name: IsDefined
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute.isdefined#system-attribute-isdefined(system-reflection-module-system-type)
-  - name: (
-  - uid: System.Reflection.Module
-    name: Module
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.reflection.module
-  - name: ','
-  - name: " "
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: )
-- uid: System.Attribute.IsDefined(System.Reflection.Module,System.Type,System.Boolean)
-  commentId: M:System.Attribute.IsDefined(System.Reflection.Module,System.Type,System.Boolean)
-  parent: System.Attribute
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.attribute.isdefined#system-attribute-isdefined(system-reflection-module-system-type-system-boolean)
-  name: IsDefined(Module, Type, bool)
-  nameWithType: Attribute.IsDefined(Module, Type, bool)
-  fullName: System.Attribute.IsDefined(System.Reflection.Module, System.Type, bool)
-  nameWithType.vb: Attribute.IsDefined(Module, Type, Boolean)
-  fullName.vb: System.Attribute.IsDefined(System.Reflection.Module, System.Type, Boolean)
-  name.vb: IsDefined(Module, Type, Boolean)
-  spec.csharp:
-  - uid: System.Attribute.IsDefined(System.Reflection.Module,System.Type,System.Boolean)
-    name: IsDefined
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute.isdefined#system-attribute-isdefined(system-reflection-module-system-type-system-boolean)
-  - name: (
-  - uid: System.Reflection.Module
-    name: Module
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.reflection.module
-  - name: ','
-  - name: " "
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: bool
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-  spec.vb:
-  - uid: System.Attribute.IsDefined(System.Reflection.Module,System.Type,System.Boolean)
-    name: IsDefined
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute.isdefined#system-attribute-isdefined(system-reflection-module-system-type-system-boolean)
-  - name: (
-  - uid: System.Reflection.Module
-    name: Module
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.reflection.module
-  - name: ','
-  - name: " "
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: Boolean
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-- uid: System.Attribute.GetCustomAttribute(System.Reflection.Module,System.Type)
-  commentId: M:System.Attribute.GetCustomAttribute(System.Reflection.Module,System.Type)
-  parent: System.Attribute
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattribute#system-attribute-getcustomattribute(system-reflection-module-system-type)
-  name: GetCustomAttribute(Module, Type)
-  nameWithType: Attribute.GetCustomAttribute(Module, Type)
-  fullName: System.Attribute.GetCustomAttribute(System.Reflection.Module, System.Type)
-  spec.csharp:
-  - uid: System.Attribute.GetCustomAttribute(System.Reflection.Module,System.Type)
-    name: GetCustomAttribute
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattribute#system-attribute-getcustomattribute(system-reflection-module-system-type)
-  - name: (
-  - uid: System.Reflection.Module
-    name: Module
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.reflection.module
-  - name: ','
-  - name: " "
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: )
-  spec.vb:
-  - uid: System.Attribute.GetCustomAttribute(System.Reflection.Module,System.Type)
-    name: GetCustomAttribute
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattribute#system-attribute-getcustomattribute(system-reflection-module-system-type)
-  - name: (
-  - uid: System.Reflection.Module
-    name: Module
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.reflection.module
-  - name: ','
-  - name: " "
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: )
-- uid: System.Attribute.GetCustomAttribute(System.Reflection.Module,System.Type,System.Boolean)
-  commentId: M:System.Attribute.GetCustomAttribute(System.Reflection.Module,System.Type,System.Boolean)
-  parent: System.Attribute
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattribute#system-attribute-getcustomattribute(system-reflection-module-system-type-system-boolean)
-  name: GetCustomAttribute(Module, Type, bool)
-  nameWithType: Attribute.GetCustomAttribute(Module, Type, bool)
-  fullName: System.Attribute.GetCustomAttribute(System.Reflection.Module, System.Type, bool)
-  nameWithType.vb: Attribute.GetCustomAttribute(Module, Type, Boolean)
-  fullName.vb: System.Attribute.GetCustomAttribute(System.Reflection.Module, System.Type, Boolean)
-  name.vb: GetCustomAttribute(Module, Type, Boolean)
-  spec.csharp:
-  - uid: System.Attribute.GetCustomAttribute(System.Reflection.Module,System.Type,System.Boolean)
-    name: GetCustomAttribute
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattribute#system-attribute-getcustomattribute(system-reflection-module-system-type-system-boolean)
-  - name: (
-  - uid: System.Reflection.Module
-    name: Module
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.reflection.module
-  - name: ','
-  - name: " "
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: bool
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-  spec.vb:
-  - uid: System.Attribute.GetCustomAttribute(System.Reflection.Module,System.Type,System.Boolean)
-    name: GetCustomAttribute
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattribute#system-attribute-getcustomattribute(system-reflection-module-system-type-system-boolean)
-  - name: (
-  - uid: System.Reflection.Module
-    name: Module
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.reflection.module
-  - name: ','
-  - name: " "
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: Boolean
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-- uid: System.Attribute.GetCustomAttributes(System.Reflection.Assembly,System.Type)
-  commentId: M:System.Attribute.GetCustomAttributes(System.Reflection.Assembly,System.Type)
-  parent: System.Attribute
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-assembly-system-type)
-  name: GetCustomAttributes(Assembly, Type)
-  nameWithType: Attribute.GetCustomAttributes(Assembly, Type)
-  fullName: System.Attribute.GetCustomAttributes(System.Reflection.Assembly, System.Type)
-  spec.csharp:
-  - uid: System.Attribute.GetCustomAttributes(System.Reflection.Assembly,System.Type)
-    name: GetCustomAttributes
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-assembly-system-type)
-  - name: (
-  - uid: System.Reflection.Assembly
-    name: Assembly
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.reflection.assembly
-  - name: ','
-  - name: " "
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: )
-  spec.vb:
-  - uid: System.Attribute.GetCustomAttributes(System.Reflection.Assembly,System.Type)
-    name: GetCustomAttributes
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-assembly-system-type)
-  - name: (
-  - uid: System.Reflection.Assembly
-    name: Assembly
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.reflection.assembly
-  - name: ','
-  - name: " "
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: )
-- uid: System.Attribute.GetCustomAttributes(System.Reflection.Assembly,System.Type,System.Boolean)
-  commentId: M:System.Attribute.GetCustomAttributes(System.Reflection.Assembly,System.Type,System.Boolean)
-  parent: System.Attribute
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-assembly-system-type-system-boolean)
-  name: GetCustomAttributes(Assembly, Type, bool)
-  nameWithType: Attribute.GetCustomAttributes(Assembly, Type, bool)
-  fullName: System.Attribute.GetCustomAttributes(System.Reflection.Assembly, System.Type, bool)
-  nameWithType.vb: Attribute.GetCustomAttributes(Assembly, Type, Boolean)
-  fullName.vb: System.Attribute.GetCustomAttributes(System.Reflection.Assembly, System.Type, Boolean)
-  name.vb: GetCustomAttributes(Assembly, Type, Boolean)
-  spec.csharp:
-  - uid: System.Attribute.GetCustomAttributes(System.Reflection.Assembly,System.Type,System.Boolean)
-    name: GetCustomAttributes
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-assembly-system-type-system-boolean)
-  - name: (
-  - uid: System.Reflection.Assembly
-    name: Assembly
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.reflection.assembly
-  - name: ','
-  - name: " "
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: bool
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-  spec.vb:
-  - uid: System.Attribute.GetCustomAttributes(System.Reflection.Assembly,System.Type,System.Boolean)
-    name: GetCustomAttributes
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-assembly-system-type-system-boolean)
-  - name: (
-  - uid: System.Reflection.Assembly
-    name: Assembly
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.reflection.assembly
-  - name: ','
-  - name: " "
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: Boolean
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-- uid: System.Attribute.GetCustomAttributes(System.Reflection.Assembly)
-  commentId: M:System.Attribute.GetCustomAttributes(System.Reflection.Assembly)
-  parent: System.Attribute
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-assembly)
-  name: GetCustomAttributes(Assembly)
-  nameWithType: Attribute.GetCustomAttributes(Assembly)
-  fullName: System.Attribute.GetCustomAttributes(System.Reflection.Assembly)
-  spec.csharp:
-  - uid: System.Attribute.GetCustomAttributes(System.Reflection.Assembly)
-    name: GetCustomAttributes
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-assembly)
-  - name: (
-  - uid: System.Reflection.Assembly
-    name: Assembly
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.reflection.assembly
-  - name: )
-  spec.vb:
-  - uid: System.Attribute.GetCustomAttributes(System.Reflection.Assembly)
-    name: GetCustomAttributes
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-assembly)
-  - name: (
-  - uid: System.Reflection.Assembly
-    name: Assembly
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.reflection.assembly
-  - name: )
-- uid: System.Attribute.GetCustomAttributes(System.Reflection.Assembly,System.Boolean)
-  commentId: M:System.Attribute.GetCustomAttributes(System.Reflection.Assembly,System.Boolean)
-  parent: System.Attribute
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-assembly-system-boolean)
-  name: GetCustomAttributes(Assembly, bool)
-  nameWithType: Attribute.GetCustomAttributes(Assembly, bool)
-  fullName: System.Attribute.GetCustomAttributes(System.Reflection.Assembly, bool)
-  nameWithType.vb: Attribute.GetCustomAttributes(Assembly, Boolean)
-  fullName.vb: System.Attribute.GetCustomAttributes(System.Reflection.Assembly, Boolean)
-  name.vb: GetCustomAttributes(Assembly, Boolean)
-  spec.csharp:
-  - uid: System.Attribute.GetCustomAttributes(System.Reflection.Assembly,System.Boolean)
-    name: GetCustomAttributes
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-assembly-system-boolean)
-  - name: (
-  - uid: System.Reflection.Assembly
-    name: Assembly
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.reflection.assembly
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: bool
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-  spec.vb:
-  - uid: System.Attribute.GetCustomAttributes(System.Reflection.Assembly,System.Boolean)
-    name: GetCustomAttributes
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-assembly-system-boolean)
-  - name: (
-  - uid: System.Reflection.Assembly
-    name: Assembly
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.reflection.assembly
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: Boolean
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-- uid: System.Attribute.IsDefined(System.Reflection.Assembly,System.Type)
-  commentId: M:System.Attribute.IsDefined(System.Reflection.Assembly,System.Type)
-  parent: System.Attribute
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.attribute.isdefined#system-attribute-isdefined(system-reflection-assembly-system-type)
-  name: IsDefined(Assembly, Type)
-  nameWithType: Attribute.IsDefined(Assembly, Type)
-  fullName: System.Attribute.IsDefined(System.Reflection.Assembly, System.Type)
-  spec.csharp:
-  - uid: System.Attribute.IsDefined(System.Reflection.Assembly,System.Type)
-    name: IsDefined
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute.isdefined#system-attribute-isdefined(system-reflection-assembly-system-type)
-  - name: (
-  - uid: System.Reflection.Assembly
-    name: Assembly
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.reflection.assembly
-  - name: ','
-  - name: " "
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: )
-  spec.vb:
-  - uid: System.Attribute.IsDefined(System.Reflection.Assembly,System.Type)
-    name: IsDefined
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute.isdefined#system-attribute-isdefined(system-reflection-assembly-system-type)
-  - name: (
-  - uid: System.Reflection.Assembly
-    name: Assembly
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.reflection.assembly
-  - name: ','
-  - name: " "
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: )
-- uid: System.Attribute.IsDefined(System.Reflection.Assembly,System.Type,System.Boolean)
-  commentId: M:System.Attribute.IsDefined(System.Reflection.Assembly,System.Type,System.Boolean)
-  parent: System.Attribute
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.attribute.isdefined#system-attribute-isdefined(system-reflection-assembly-system-type-system-boolean)
-  name: IsDefined(Assembly, Type, bool)
-  nameWithType: Attribute.IsDefined(Assembly, Type, bool)
-  fullName: System.Attribute.IsDefined(System.Reflection.Assembly, System.Type, bool)
-  nameWithType.vb: Attribute.IsDefined(Assembly, Type, Boolean)
-  fullName.vb: System.Attribute.IsDefined(System.Reflection.Assembly, System.Type, Boolean)
-  name.vb: IsDefined(Assembly, Type, Boolean)
-  spec.csharp:
-  - uid: System.Attribute.IsDefined(System.Reflection.Assembly,System.Type,System.Boolean)
-    name: IsDefined
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute.isdefined#system-attribute-isdefined(system-reflection-assembly-system-type-system-boolean)
-  - name: (
-  - uid: System.Reflection.Assembly
-    name: Assembly
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.reflection.assembly
-  - name: ','
-  - name: " "
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: bool
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-  spec.vb:
-  - uid: System.Attribute.IsDefined(System.Reflection.Assembly,System.Type,System.Boolean)
-    name: IsDefined
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute.isdefined#system-attribute-isdefined(system-reflection-assembly-system-type-system-boolean)
-  - name: (
-  - uid: System.Reflection.Assembly
-    name: Assembly
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.reflection.assembly
-  - name: ','
-  - name: " "
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: Boolean
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-- uid: System.Attribute.GetCustomAttribute(System.Reflection.Assembly,System.Type)
-  commentId: M:System.Attribute.GetCustomAttribute(System.Reflection.Assembly,System.Type)
-  parent: System.Attribute
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattribute#system-attribute-getcustomattribute(system-reflection-assembly-system-type)
-  name: GetCustomAttribute(Assembly, Type)
-  nameWithType: Attribute.GetCustomAttribute(Assembly, Type)
-  fullName: System.Attribute.GetCustomAttribute(System.Reflection.Assembly, System.Type)
-  spec.csharp:
-  - uid: System.Attribute.GetCustomAttribute(System.Reflection.Assembly,System.Type)
-    name: GetCustomAttribute
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattribute#system-attribute-getcustomattribute(system-reflection-assembly-system-type)
-  - name: (
-  - uid: System.Reflection.Assembly
-    name: Assembly
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.reflection.assembly
-  - name: ','
-  - name: " "
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: )
-  spec.vb:
-  - uid: System.Attribute.GetCustomAttribute(System.Reflection.Assembly,System.Type)
-    name: GetCustomAttribute
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattribute#system-attribute-getcustomattribute(system-reflection-assembly-system-type)
-  - name: (
-  - uid: System.Reflection.Assembly
-    name: Assembly
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.reflection.assembly
-  - name: ','
-  - name: " "
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: )
-- uid: System.Attribute.GetCustomAttribute(System.Reflection.Assembly,System.Type,System.Boolean)
-  commentId: M:System.Attribute.GetCustomAttribute(System.Reflection.Assembly,System.Type,System.Boolean)
-  parent: System.Attribute
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattribute#system-attribute-getcustomattribute(system-reflection-assembly-system-type-system-boolean)
-  name: GetCustomAttribute(Assembly, Type, bool)
-  nameWithType: Attribute.GetCustomAttribute(Assembly, Type, bool)
-  fullName: System.Attribute.GetCustomAttribute(System.Reflection.Assembly, System.Type, bool)
-  nameWithType.vb: Attribute.GetCustomAttribute(Assembly, Type, Boolean)
-  fullName.vb: System.Attribute.GetCustomAttribute(System.Reflection.Assembly, System.Type, Boolean)
-  name.vb: GetCustomAttribute(Assembly, Type, Boolean)
-  spec.csharp:
-  - uid: System.Attribute.GetCustomAttribute(System.Reflection.Assembly,System.Type,System.Boolean)
-    name: GetCustomAttribute
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattribute#system-attribute-getcustomattribute(system-reflection-assembly-system-type-system-boolean)
-  - name: (
-  - uid: System.Reflection.Assembly
-    name: Assembly
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.reflection.assembly
-  - name: ','
-  - name: " "
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: bool
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-  spec.vb:
-  - uid: System.Attribute.GetCustomAttribute(System.Reflection.Assembly,System.Type,System.Boolean)
-    name: GetCustomAttribute
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattribute#system-attribute-getcustomattribute(system-reflection-assembly-system-type-system-boolean)
-  - name: (
-  - uid: System.Reflection.Assembly
-    name: Assembly
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.reflection.assembly
-  - name: ','
-  - name: " "
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: Boolean
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-- uid: System.Attribute.Equals(System.Object)
-  commentId: M:System.Attribute.Equals(System.Object)
-  parent: System.Attribute
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.attribute.equals
-  name: Equals(object)
-  nameWithType: Attribute.Equals(object)
-  fullName: System.Attribute.Equals(object)
-  nameWithType.vb: Attribute.Equals(Object)
-  fullName.vb: System.Attribute.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Attribute.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute.equals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Attribute.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute.equals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Attribute.GetHashCode
-  commentId: M:System.Attribute.GetHashCode
-  parent: System.Attribute
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.attribute.gethashcode
-  name: GetHashCode()
-  nameWithType: Attribute.GetHashCode()
-  fullName: System.Attribute.GetHashCode()
-  spec.csharp:
-  - uid: System.Attribute.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Attribute.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute.gethashcode
-  - name: (
-  - name: )
-- uid: System.Attribute.Match(System.Object)
-  commentId: M:System.Attribute.Match(System.Object)
-  parent: System.Attribute
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.attribute.match
-  name: Match(object)
-  nameWithType: Attribute.Match(object)
-  fullName: System.Attribute.Match(object)
-  nameWithType.vb: Attribute.Match(Object)
-  fullName.vb: System.Attribute.Match(Object)
-  name.vb: Match(Object)
-  spec.csharp:
-  - uid: System.Attribute.Match(System.Object)
-    name: Match
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute.match
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Attribute.Match(System.Object)
-    name: Match
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute.match
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Attribute.IsDefaultAttribute
-  commentId: M:System.Attribute.IsDefaultAttribute
-  parent: System.Attribute
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.attribute.isdefaultattribute
-  name: IsDefaultAttribute()
-  nameWithType: Attribute.IsDefaultAttribute()
-  fullName: System.Attribute.IsDefaultAttribute()
-  spec.csharp:
-  - uid: System.Attribute.IsDefaultAttribute
-    name: IsDefaultAttribute
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute.isdefaultattribute
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Attribute.IsDefaultAttribute
-    name: IsDefaultAttribute
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute.isdefaultattribute
-  - name: (
-  - name: )
-- uid: System.Attribute.TypeId
-  commentId: P:System.Attribute.TypeId
-  parent: System.Attribute
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.attribute.typeid
-  name: TypeId
-  nameWithType: Attribute.TypeId
-  fullName: System.Attribute.TypeId
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<TimeZoneHintAttribute, To>(TimeZoneHintAttribute)
-  nameWithType: EnumUtil.MapEnums<TimeZoneHintAttribute, To>(TimeZoneHintAttribute)
-  fullName: EnumUtil.MapEnums<SoCore.Shared.CRM.Services.TimeZoneHintAttribute, To>(SoCore.Shared.CRM.Services.TimeZoneHintAttribute)
-  nameWithType.vb: EnumUtil.MapEnums(Of TimeZoneHintAttribute, To)(TimeZoneHintAttribute)
-  fullName.vb: EnumUtil.MapEnums(Of SoCore.Shared.CRM.Services.TimeZoneHintAttribute, To)(SoCore.Shared.CRM.Services.TimeZoneHintAttribute)
-  name.vb: MapEnums(Of TimeZoneHintAttribute, To)(TimeZoneHintAttribute)
+  name: MapEnums<TimeZoneHintAttribute, To>()
+  nameWithType: EnumUtil.MapEnums<TimeZoneHintAttribute, To>()
+  fullName: EnumUtil.MapEnums<SoCore.Shared.CRM.Services.TimeZoneHintAttribute, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of TimeZoneHintAttribute, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SoCore.Shared.CRM.Services.TimeZoneHintAttribute, To)()
+  name.vb: MapEnums(Of TimeZoneHintAttribute, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SoCore.Shared.CRM.Services.TimeZoneHintAttribute)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<TimeZoneHintAttribute, To>
+    nameWithType: EnumUtil.MapEnums<TimeZoneHintAttribute, To>
+    fullName: EnumUtil.MapEnums<SoCore.Shared.CRM.Services.TimeZoneHintAttribute, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SoCore.Shared.CRM.Services.TimeZoneHintAttribute
-    name: TimeZoneHintAttribute
-    isExternal: true
-    href: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SoCore.Shared.CRM.Services.TimeZoneHintAttribute
-    name: TimeZoneHintAttribute
-    isExternal: true
-    href: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SoCore.Shared.CRM.Services.TimeZoneHintAttribute)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of TimeZoneHintAttribute, To)
+    nameWithType: EnumUtil.MapEnums(Of TimeZoneHintAttribute, To)
+    fullName: EnumUtil.MapEnums(Of SoCore.Shared.CRM.Services.TimeZoneHintAttribute, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SoCore.Shared.CRM.Services.TimeZoneHintAttribute
-    name: TimeZoneHintAttribute
-    isExternal: true
-    href: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SoCore.Shared.CRM.Services.TimeZoneHintAttribute
-    name: TimeZoneHintAttribute
-    isExternal: true
-    href: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<TimeZoneHintAttribute, To>(TimeZoneHintAttribute)
-  nameWithType: Converters.MapEnums<TimeZoneHintAttribute, To>(TimeZoneHintAttribute)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SoCore.Shared.CRM.Services.TimeZoneHintAttribute, To>(SoCore.Shared.CRM.Services.TimeZoneHintAttribute)
-  nameWithType.vb: Converters.MapEnums(Of TimeZoneHintAttribute, To)(TimeZoneHintAttribute)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SoCore.Shared.CRM.Services.TimeZoneHintAttribute, To)(SoCore.Shared.CRM.Services.TimeZoneHintAttribute)
-  name.vb: MapEnums(Of TimeZoneHintAttribute, To)(TimeZoneHintAttribute)
+  name: MapEnums<TimeZoneHintAttribute, To>()
+  nameWithType: Converters.MapEnums<TimeZoneHintAttribute, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SoCore.Shared.CRM.Services.TimeZoneHintAttribute, To>()
+  nameWithType.vb: Converters.MapEnums(Of TimeZoneHintAttribute, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SoCore.Shared.CRM.Services.TimeZoneHintAttribute, To)()
+  name.vb: MapEnums(Of TimeZoneHintAttribute, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SoCore.Shared.CRM.Services.TimeZoneHintAttribute)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<TimeZoneHintAttribute, To>
+    nameWithType: Converters.MapEnums<TimeZoneHintAttribute, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SoCore.Shared.CRM.Services.TimeZoneHintAttribute, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SoCore.Shared.CRM.Services.TimeZoneHintAttribute
-    name: TimeZoneHintAttribute
-    isExternal: true
-    href: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SoCore.Shared.CRM.Services.TimeZoneHintAttribute
-    name: TimeZoneHintAttribute
-    isExternal: true
-    href: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SoCore.Shared.CRM.Services.TimeZoneHintAttribute)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of TimeZoneHintAttribute, To)
+    nameWithType: Converters.MapEnums(Of TimeZoneHintAttribute, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SoCore.Shared.CRM.Services.TimeZoneHintAttribute, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SoCore.Shared.CRM.Services.TimeZoneHintAttribute
-    name: TimeZoneHintAttribute
-    isExternal: true
-    href: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SoCore.Shared.CRM.Services.TimeZoneHintAttribute
-    name: TimeZoneHintAttribute
-    isExternal: true
-    href: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -2212,45 +382,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -2259,94 +427,57 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.#ctor*
   commentId: Overload:SoCore.Shared.CRM.Services.TimeZoneHintAttribute.#ctor
   isExternal: true
-  href: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.html#SoCore_Shared_CRM_Services_TimeZoneHintAttribute__ctor_SoCore_Shared_CRM_Services_TimeZoneInterpretation_
   name: TimeZoneHintAttribute
   nameWithType: TimeZoneHintAttribute.TimeZoneHintAttribute
   fullName: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.TimeZoneHintAttribute
-  nameWithType.vb: TimeZoneHintAttribute.New
-  fullName.vb: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.New
-  name.vb: New
 - uid: SoCore.Shared.CRM.Services.TimeZoneInterpretation
   commentId: T:SoCore.Shared.CRM.Services.TimeZoneInterpretation
   parent: SoCore.Shared.CRM.Services
   isExternal: true
-  href: SoCore.Shared.CRM.Services.TimeZoneInterpretation.html
   name: TimeZoneInterpretation
   nameWithType: TimeZoneInterpretation
   fullName: SoCore.Shared.CRM.Services.TimeZoneInterpretation
@@ -2354,7 +485,6 @@ references:
   commentId: T:SoCore.Shared.CRM.Services.TimeZoneDiaryAdjustment
   parent: SoCore.Shared.CRM.Services
   isExternal: true
-  href: SoCore.Shared.CRM.Services.TimeZoneDiaryAdjustment.html
   name: TimeZoneDiaryAdjustment
   nameWithType: TimeZoneDiaryAdjustment
   fullName: SoCore.Shared.CRM.Services.TimeZoneDiaryAdjustment
@@ -2362,41 +492,12 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.ToString*
   commentId: Overload:SoCore.Shared.CRM.Services.TimeZoneHintAttribute.ToString
   isExternal: true
-  href: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.html#SoCore_Shared_CRM_Services_TimeZoneHintAttribute_ToString
   name: ToString
   nameWithType: TimeZoneHintAttribute.ToString
   fullName: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.ToString
@@ -2404,49 +505,35 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.Hint*
   commentId: Overload:SoCore.Shared.CRM.Services.TimeZoneHintAttribute.Hint
   isExternal: true
-  href: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.html#SoCore_Shared_CRM_Services_TimeZoneHintAttribute_Hint
   name: Hint
   nameWithType: TimeZoneHintAttribute.Hint
   fullName: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.Hint
 - uid: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.DiaryAdjust*
   commentId: Overload:SoCore.Shared.CRM.Services.TimeZoneHintAttribute.DiaryAdjust
   isExternal: true
-  href: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.html#SoCore_Shared_CRM_Services_TimeZoneHintAttribute_DiaryAdjust
   name: DiaryAdjust
   nameWithType: TimeZoneHintAttribute.DiaryAdjust
   fullName: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.DiaryAdjust
 - uid: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.OutgoingDatePart*
   commentId: Overload:SoCore.Shared.CRM.Services.TimeZoneHintAttribute.OutgoingDatePart
   isExternal: true
-  href: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.html#SoCore_Shared_CRM_Services_TimeZoneHintAttribute_OutgoingDatePart
   name: OutgoingDatePart
   nameWithType: TimeZoneHintAttribute.OutgoingDatePart
   fullName: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.OutgoingDatePart
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
 - uid: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.IncomingDatePart*
   commentId: Overload:SoCore.Shared.CRM.Services.TimeZoneHintAttribute.IncomingDatePart
   isExternal: true
-  href: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.html#SoCore_Shared_CRM_Services_TimeZoneHintAttribute_IncomingDatePart
   name: IncomingDatePart
   nameWithType: TimeZoneHintAttribute.IncomingDatePart
   fullName: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.IncomingDatePart

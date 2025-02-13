@@ -19,23 +19,25 @@ items:
   nameWithType: Person_SendEmailRequest
   fullName: SuperOffice.WebApi.Data.Person_SendEmailRequest
   type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  example: []
   syntax:
-    content: public class Person_SendEmailRequest
-    content.vb: Public Class Person_SendEmailRequest
+    content: 'public class Person_SendEmailRequest : Object'
+    content.vb: >-
+      Public Class Person_SendEmailRequest
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.WebApi.Data.Person_SendEmailRequest.#ctor
   commentId: M:SuperOffice.WebApi.Data.Person_SendEmailRequest.#ctor
   id: '#ctor'
@@ -47,16 +49,20 @@ items:
   nameWithType: Person_SendEmailRequest.Person_SendEmailRequest()
   fullName: SuperOffice.WebApi.Data.Person_SendEmailRequest.Person_SendEmailRequest()
   type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
   syntax:
     content: public Person_SendEmailRequest()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.WebApi.Data.Person_SendEmailRequest.#ctor*
-  nameWithType.vb: Person_SendEmailRequest.New()
-  fullName.vb: SuperOffice.WebApi.Data.Person_SendEmailRequest.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.Person_SendEmailRequest.From
   commentId: P:SuperOffice.WebApi.Data.Person_SendEmailRequest.From
   id: From
@@ -68,10 +74,12 @@ items:
   nameWithType: Person_SendEmailRequest.From
   fullName: SuperOffice.WebApi.Data.Person_SendEmailRequest.From
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  example: []
   syntax:
     content: public string From { get; set; }
     parameters: []
@@ -79,6 +87,12 @@ items:
       type: System.String
     content.vb: Public Property From As String
   overload: SuperOffice.WebApi.Data.Person_SendEmailRequest.From*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.Person_SendEmailRequest.To
   commentId: P:SuperOffice.WebApi.Data.Person_SendEmailRequest.To
   id: To
@@ -90,17 +104,25 @@ items:
   nameWithType: Person_SendEmailRequest.To
   fullName: SuperOffice.WebApi.Data.Person_SendEmailRequest.To
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  example: []
   syntax:
     content: public string To { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Property [To] As String
+    content.vb: Public Property To As String
   overload: SuperOffice.WebApi.Data.Person_SendEmailRequest.To*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.Person_SendEmailRequest.Subject
   commentId: P:SuperOffice.WebApi.Data.Person_SendEmailRequest.Subject
   id: Subject
@@ -112,10 +134,12 @@ items:
   nameWithType: Person_SendEmailRequest.Subject
   fullName: SuperOffice.WebApi.Data.Person_SendEmailRequest.Subject
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  example: []
   syntax:
     content: public string Subject { get; set; }
     parameters: []
@@ -123,6 +147,12 @@ items:
       type: System.String
     content.vb: Public Property Subject As String
   overload: SuperOffice.WebApi.Data.Person_SendEmailRequest.Subject*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.Person_SendEmailRequest.PlainBody
   commentId: P:SuperOffice.WebApi.Data.Person_SendEmailRequest.PlainBody
   id: PlainBody
@@ -134,10 +164,12 @@ items:
   nameWithType: Person_SendEmailRequest.PlainBody
   fullName: SuperOffice.WebApi.Data.Person_SendEmailRequest.PlainBody
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  example: []
   syntax:
     content: public string PlainBody { get; set; }
     parameters: []
@@ -145,6 +177,12 @@ items:
       type: System.String
     content.vb: Public Property PlainBody As String
   overload: SuperOffice.WebApi.Data.Person_SendEmailRequest.PlainBody*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.Person_SendEmailRequest.HtmlBody
   commentId: P:SuperOffice.WebApi.Data.Person_SendEmailRequest.HtmlBody
   id: HtmlBody
@@ -156,10 +194,12 @@ items:
   nameWithType: Person_SendEmailRequest.HtmlBody
   fullName: SuperOffice.WebApi.Data.Person_SendEmailRequest.HtmlBody
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  example: []
   syntax:
     content: public string HtmlBody { get; set; }
     parameters: []
@@ -167,6 +207,12 @@ items:
       type: System.String
     content.vb: Public Property HtmlBody As String
   overload: SuperOffice.WebApi.Data.Person_SendEmailRequest.HtmlBody*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.Person_SendEmailRequest.AttachmentIds
   commentId: P:SuperOffice.WebApi.Data.Person_SendEmailRequest.AttachmentIds
   id: AttachmentIds
@@ -178,10 +224,12 @@ items:
   nameWithType: Person_SendEmailRequest.AttachmentIds
   fullName: SuperOffice.WebApi.Data.Person_SendEmailRequest.AttachmentIds
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  example: []
   syntax:
     content: public int[] AttachmentIds { get; set; }
     parameters: []
@@ -189,295 +237,41 @@ items:
       type: System.Int32[]
     content.vb: Public Property AttachmentIds As Integer()
   overload: SuperOffice.WebApi.Data.Person_SendEmailRequest.AttachmentIds*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Data.Person_SendEmailRequest.#ctor*
   commentId: Overload:SuperOffice.WebApi.Data.Person_SendEmailRequest.#ctor
   isExternal: true
-  href: SuperOffice.WebApi.Data.Person_SendEmailRequest.html#SuperOffice_WebApi_Data_Person_SendEmailRequest__ctor
   name: Person_SendEmailRequest
   nameWithType: Person_SendEmailRequest.Person_SendEmailRequest
   fullName: SuperOffice.WebApi.Data.Person_SendEmailRequest.Person_SendEmailRequest
-  nameWithType.vb: Person_SendEmailRequest.New
-  fullName.vb: SuperOffice.WebApi.Data.Person_SendEmailRequest.New
-  name.vb: New
 - uid: SuperOffice.WebApi.Data.Person_SendEmailRequest.From*
   commentId: Overload:SuperOffice.WebApi.Data.Person_SendEmailRequest.From
   isExternal: true
-  href: SuperOffice.WebApi.Data.Person_SendEmailRequest.html#SuperOffice_WebApi_Data_Person_SendEmailRequest_From
   name: From
   nameWithType: Person_SendEmailRequest.From
   fullName: SuperOffice.WebApi.Data.Person_SendEmailRequest.From
@@ -485,68 +279,62 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.WebApi.Data.Person_SendEmailRequest.To*
   commentId: Overload:SuperOffice.WebApi.Data.Person_SendEmailRequest.To
   isExternal: true
-  href: SuperOffice.WebApi.Data.Person_SendEmailRequest.html#SuperOffice_WebApi_Data_Person_SendEmailRequest_To
   name: To
   nameWithType: Person_SendEmailRequest.To
   fullName: SuperOffice.WebApi.Data.Person_SendEmailRequest.To
 - uid: SuperOffice.WebApi.Data.Person_SendEmailRequest.Subject*
   commentId: Overload:SuperOffice.WebApi.Data.Person_SendEmailRequest.Subject
   isExternal: true
-  href: SuperOffice.WebApi.Data.Person_SendEmailRequest.html#SuperOffice_WebApi_Data_Person_SendEmailRequest_Subject
   name: Subject
   nameWithType: Person_SendEmailRequest.Subject
   fullName: SuperOffice.WebApi.Data.Person_SendEmailRequest.Subject
 - uid: SuperOffice.WebApi.Data.Person_SendEmailRequest.PlainBody*
   commentId: Overload:SuperOffice.WebApi.Data.Person_SendEmailRequest.PlainBody
   isExternal: true
-  href: SuperOffice.WebApi.Data.Person_SendEmailRequest.html#SuperOffice_WebApi_Data_Person_SendEmailRequest_PlainBody
   name: PlainBody
   nameWithType: Person_SendEmailRequest.PlainBody
   fullName: SuperOffice.WebApi.Data.Person_SendEmailRequest.PlainBody
 - uid: SuperOffice.WebApi.Data.Person_SendEmailRequest.HtmlBody*
   commentId: Overload:SuperOffice.WebApi.Data.Person_SendEmailRequest.HtmlBody
   isExternal: true
-  href: SuperOffice.WebApi.Data.Person_SendEmailRequest.html#SuperOffice_WebApi_Data_Person_SendEmailRequest_HtmlBody
   name: HtmlBody
   nameWithType: Person_SendEmailRequest.HtmlBody
   fullName: SuperOffice.WebApi.Data.Person_SendEmailRequest.HtmlBody
 - uid: SuperOffice.WebApi.Data.Person_SendEmailRequest.AttachmentIds*
   commentId: Overload:SuperOffice.WebApi.Data.Person_SendEmailRequest.AttachmentIds
   isExternal: true
-  href: SuperOffice.WebApi.Data.Person_SendEmailRequest.html#SuperOffice_WebApi_Data_Person_SendEmailRequest_AttachmentIds
   name: AttachmentIds
   nameWithType: Person_SendEmailRequest.AttachmentIds
   fullName: SuperOffice.WebApi.Data.Person_SendEmailRequest.AttachmentIds
 - uid: System.Int32[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int[]
-  nameWithType: int[]
-  fullName: int[]
-  nameWithType.vb: Integer()
-  fullName.vb: Integer()
-  name.vb: Integer()
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
   spec.csharp:
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()

@@ -39,7 +39,6 @@ references:
 - uid: SuperOffice.CRM.ArchiveLists.Joiners.AppointmentAgendaTextExtender
   commentId: T:SuperOffice.CRM.ArchiveLists.Joiners.AppointmentAgendaTextExtender
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.Joiners.AppointmentAgendaTextExtender.html
   name: AppointmentAgendaTextExtender
   nameWithType: AppointmentAgendaTextExtender
   fullName: SuperOffice.CRM.ArchiveLists.Joiners.AppointmentAgendaTextExtender
@@ -47,21 +46,18 @@ references:
   commentId: T:SuperOffice.CRM.ArchiveLists.Joiners.AppointmentEmailExtender
   parent: SuperOffice.CRM.ArchiveLists.Joiners
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.Joiners.AppointmentEmailExtender.html
   name: AppointmentEmailExtender
   nameWithType: AppointmentEmailExtender
   fullName: SuperOffice.CRM.ArchiveLists.Joiners.AppointmentEmailExtender
 - uid: SuperOffice.CRM.ArchiveLists.Joiners.AppointmentExtraFieldExtender
   commentId: T:SuperOffice.CRM.ArchiveLists.Joiners.AppointmentExtraFieldExtender
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.Joiners.AppointmentExtraFieldExtender.html
   name: AppointmentExtraFieldExtender
   nameWithType: AppointmentExtraFieldExtender
   fullName: SuperOffice.CRM.ArchiveLists.Joiners.AppointmentExtraFieldExtender
 - uid: SuperOffice.CRM.ArchiveLists.Joiners.AppointmentInternalNotesTextExtender
   commentId: T:SuperOffice.CRM.ArchiveLists.Joiners.AppointmentInternalNotesTextExtender
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.Joiners.AppointmentInternalNotesTextExtender.html
   name: AppointmentInternalNotesTextExtender
   nameWithType: AppointmentInternalNotesTextExtender
   fullName: SuperOffice.CRM.ArchiveLists.Joiners.AppointmentInternalNotesTextExtender
@@ -69,173 +65,114 @@ references:
   commentId: T:SuperOffice.CRM.ArchiveLists.Joiners.AppointmentInvitedPersonExtender
   parent: SuperOffice.CRM.ArchiveLists.Joiners
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.Joiners.AppointmentInvitedPersonExtender.html
   name: AppointmentInvitedPersonExtender
   nameWithType: AppointmentInvitedPersonExtender
   fullName: SuperOffice.CRM.ArchiveLists.Joiners.AppointmentInvitedPersonExtender
 - uid: SuperOffice.CRM.ArchiveLists.Joiners.AppointmentTextConversionExtender
   commentId: T:SuperOffice.CRM.ArchiveLists.Joiners.AppointmentTextConversionExtender
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.Joiners.AppointmentTextConversionExtender.html
   name: AppointmentTextConversionExtender
   nameWithType: AppointmentTextConversionExtender
   fullName: SuperOffice.CRM.ArchiveLists.Joiners.AppointmentTextConversionExtender
 - uid: SuperOffice.CRM.ArchiveLists.Joiners.AppointmentTitleTextExtender
   commentId: T:SuperOffice.CRM.ArchiveLists.Joiners.AppointmentTitleTextExtender
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.Joiners.AppointmentTitleTextExtender.html
   name: AppointmentTitleTextExtender
   nameWithType: AppointmentTitleTextExtender
   fullName: SuperOffice.CRM.ArchiveLists.Joiners.AppointmentTitleTextExtender
 - uid: SuperOffice.CRM.ArchiveLists.Joiners.ContactExtraFieldExtender
   commentId: T:SuperOffice.CRM.ArchiveLists.Joiners.ContactExtraFieldExtender
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.Joiners.ContactExtraFieldExtender.html
   name: ContactExtraFieldExtender
   nameWithType: ContactExtraFieldExtender
   fullName: SuperOffice.CRM.ArchiveLists.Joiners.ContactExtraFieldExtender
 - uid: SuperOffice.CRM.ArchiveLists.Joiners.CustomObjectExtraFieldExtender
   commentId: T:SuperOffice.CRM.ArchiveLists.Joiners.CustomObjectExtraFieldExtender
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.Joiners.CustomObjectExtraFieldExtender.html
   name: CustomObjectExtraFieldExtender
   nameWithType: CustomObjectExtraFieldExtender
   fullName: SuperOffice.CRM.ArchiveLists.Joiners.CustomObjectExtraFieldExtender
 - uid: SuperOffice.CRM.ArchiveLists.Joiners.EjCategoryExtraFieldExtender
   commentId: T:SuperOffice.CRM.ArchiveLists.Joiners.EjCategoryExtraFieldExtender
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.Joiners.EjCategoryExtraFieldExtender.html
   name: EjCategoryExtraFieldExtender
   nameWithType: EjCategoryExtraFieldExtender
   fullName: SuperOffice.CRM.ArchiveLists.Joiners.EjCategoryExtraFieldExtender
 - uid: SuperOffice.CRM.ArchiveLists.Joiners.EjUserExtraFieldExtender
   commentId: T:SuperOffice.CRM.ArchiveLists.Joiners.EjUserExtraFieldExtender
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.Joiners.EjUserExtraFieldExtender.html
   name: EjUserExtraFieldExtender
   nameWithType: EjUserExtraFieldExtender
   fullName: SuperOffice.CRM.ArchiveLists.Joiners.EjUserExtraFieldExtender
 - uid: SuperOffice.CRM.ArchiveLists.Joiners.PersonSourceContactRelationExtender
   commentId: T:SuperOffice.CRM.ArchiveLists.Joiners.PersonSourceContactRelationExtender
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.Joiners.PersonSourceContactRelationExtender.html
   name: PersonSourceContactRelationExtender
   nameWithType: PersonSourceContactRelationExtender
   fullName: SuperOffice.CRM.ArchiveLists.Joiners.PersonSourceContactRelationExtender
 - uid: SuperOffice.CRM.ArchiveLists.Joiners.PersonTargetContactRelationExtender
   commentId: T:SuperOffice.CRM.ArchiveLists.Joiners.PersonTargetContactRelationExtender
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.Joiners.PersonTargetContactRelationExtender.html
   name: PersonTargetContactRelationExtender
   nameWithType: PersonTargetContactRelationExtender
   fullName: SuperOffice.CRM.ArchiveLists.Joiners.PersonTargetContactRelationExtender
 - uid: SuperOffice.CRM.ArchiveLists.Joiners.PersonSourcePersonRelationExtender
   commentId: T:SuperOffice.CRM.ArchiveLists.Joiners.PersonSourcePersonRelationExtender
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.Joiners.PersonSourcePersonRelationExtender.html
   name: PersonSourcePersonRelationExtender
   nameWithType: PersonSourcePersonRelationExtender
   fullName: SuperOffice.CRM.ArchiveLists.Joiners.PersonSourcePersonRelationExtender
 - uid: SuperOffice.CRM.ArchiveLists.Joiners.PersonTargetPersonRelationExtender
   commentId: T:SuperOffice.CRM.ArchiveLists.Joiners.PersonTargetPersonRelationExtender
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.Joiners.PersonTargetPersonRelationExtender.html
   name: PersonTargetPersonRelationExtender
   nameWithType: PersonTargetPersonRelationExtender
   fullName: SuperOffice.CRM.ArchiveLists.Joiners.PersonTargetPersonRelationExtender
 - uid: SuperOffice.CRM.ArchiveLists.Joiners.ProjectExtraFieldExtender
   commentId: T:SuperOffice.CRM.ArchiveLists.Joiners.ProjectExtraFieldExtender
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.Joiners.ProjectExtraFieldExtender.html
   name: ProjectExtraFieldExtender
   nameWithType: ProjectExtraFieldExtender
   fullName: SuperOffice.CRM.ArchiveLists.Joiners.ProjectExtraFieldExtender
 - uid: SuperOffice.CRM.ArchiveLists.Joiners.SaleExtraFieldExtender
   commentId: T:SuperOffice.CRM.ArchiveLists.Joiners.SaleExtraFieldExtender
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.Joiners.SaleExtraFieldExtender.html
   name: SaleExtraFieldExtender
   nameWithType: SaleExtraFieldExtender
   fullName: SuperOffice.CRM.ArchiveLists.Joiners.SaleExtraFieldExtender
 - uid: SuperOffice.CRM.ArchiveLists.Joiners.TicketContactExtender
   commentId: T:SuperOffice.CRM.ArchiveLists.Joiners.TicketContactExtender
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.Joiners.TicketContactExtender.html
   name: TicketContactExtender
   nameWithType: TicketContactExtender
   fullName: SuperOffice.CRM.ArchiveLists.Joiners.TicketContactExtender
 - uid: SuperOffice.CRM.ArchiveLists.Joiners.TicketExtraFieldExtender
   commentId: T:SuperOffice.CRM.ArchiveLists.Joiners.TicketExtraFieldExtender
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.Joiners.TicketExtraFieldExtender.html
   name: TicketExtraFieldExtender
   nameWithType: TicketExtraFieldExtender
   fullName: SuperOffice.CRM.ArchiveLists.Joiners.TicketExtraFieldExtender
 - uid: SuperOffice.CRM.ArchiveLists.Joiners.TicketMessageExtraFieldExtender
   commentId: T:SuperOffice.CRM.ArchiveLists.Joiners.TicketMessageExtraFieldExtender
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.Joiners.TicketMessageExtraFieldExtender.html
   name: TicketMessageExtraFieldExtender
   nameWithType: TicketMessageExtraFieldExtender
   fullName: SuperOffice.CRM.ArchiveLists.Joiners.TicketMessageExtraFieldExtender
 - uid: SuperOffice.CRM.ArchiveLists.Joiners.TicketProjectExtender
   commentId: T:SuperOffice.CRM.ArchiveLists.Joiners.TicketProjectExtender
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.Joiners.TicketProjectExtender.html
   name: TicketProjectExtender
   nameWithType: TicketProjectExtender
   fullName: SuperOffice.CRM.ArchiveLists.Joiners.TicketProjectExtender
 - uid: SuperOffice.CRM.ArchiveLists.Joiners.TicketSaleExtender
   commentId: T:SuperOffice.CRM.ArchiveLists.Joiners.TicketSaleExtender
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.Joiners.TicketSaleExtender.html
   name: TicketSaleExtender
   nameWithType: TicketSaleExtender
   fullName: SuperOffice.CRM.ArchiveLists.Joiners.TicketSaleExtender
 - uid: SuperOffice.CRM.ArchiveLists.Joiners
   commentId: N:SuperOffice.CRM.ArchiveLists.Joiners
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.ArchiveLists.Joiners
   nameWithType: SuperOffice.CRM.ArchiveLists.Joiners
   fullName: SuperOffice.CRM.ArchiveLists.Joiners
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.ArchiveLists
-    name: ArchiveLists
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.html
-  - name: .
-  - uid: SuperOffice.CRM.ArchiveLists.Joiners
-    name: Joiners
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.Joiners.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.ArchiveLists
-    name: ArchiveLists
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.html
-  - name: .
-  - uid: SuperOffice.CRM.ArchiveLists.Joiners
-    name: Joiners
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.Joiners.html

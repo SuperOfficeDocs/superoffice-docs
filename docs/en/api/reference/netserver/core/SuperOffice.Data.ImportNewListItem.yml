@@ -8,41 +8,67 @@ items:
   - SuperOffice.Data.ImportNewListItem.AddItemToList
   - SuperOffice.Data.ImportNewListItem.SetToBlank
   - SuperOffice.Data.ImportNewListItem.SetToDefault
+  - SuperOffice.Data.ImportNewListItem.value__
   langs:
   - csharp
   - vb
   name: ImportNewListItem
   nameWithType: ImportNewListItem
   fullName: SuperOffice.Data.ImportNewListItem
-  type: Enum
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: Import new list item
-  example: []
+  summary: "\nImport new list item\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public enum ImportNewListItem
+    content: 'public sealed class ImportNewListItem : Enum'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
+      Public NotInheritable Class ImportNewListItem
+          Inherits
 
-      Public Enum ImportNewListItem
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.ImportNewListItem.EnumUtil.MapEnums``2
   - SuperOffice.Data.ImportNewListItem.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  - SuperOffice.Data.ImportNewListItem.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ImportNewListItem)
-  - SuperOffice.Data.ImportNewListItem.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - System.Enum.EnumUtil.GetDescription
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.ImportNewListItem.value__
+  commentId: F:SuperOffice.Data.ImportNewListItem.value__
+  id: value__
+  parent: SuperOffice.Data.ImportNewListItem
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: ImportNewListItem.value__
+  fullName: SuperOffice.Data.ImportNewListItem.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.ImportNewListItem.AddItemToList
   commentId: F:SuperOffice.Data.ImportNewListItem.AddItemToList
   id: AddItemToList
@@ -54,26 +80,24 @@ items:
   nameWithType: ImportNewListItem.AddItemToList
   fullName: SuperOffice.Data.ImportNewListItem.AddItemToList
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '1: Add item to list'
-  example: []
+  summary: "\n1: Add item to list\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      AddItemToList = 1
+    content: public const ImportNewListItem AddItemToList
     return:
       type: SuperOffice.Data.ImportNewListItem
-    content.vb: >-
-      <EnumMember>
-
-      AddItemToList = 1
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const AddItemToList As ImportNewListItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ImportNewListItem.SetToDefault
   commentId: F:SuperOffice.Data.ImportNewListItem.SetToDefault
   id: SetToDefault
@@ -85,26 +109,24 @@ items:
   nameWithType: ImportNewListItem.SetToDefault
   fullName: SuperOffice.Data.ImportNewListItem.SetToDefault
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '2: Set to default'
-  example: []
+  summary: "\n2: Set to default\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      SetToDefault = 2
+    content: public const ImportNewListItem SetToDefault
     return:
       type: SuperOffice.Data.ImportNewListItem
-    content.vb: >-
-      <EnumMember>
-
-      SetToDefault = 2
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const SetToDefault As ImportNewListItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ImportNewListItem.SetToBlank
   commentId: F:SuperOffice.Data.ImportNewListItem.SetToBlank
   id: SetToBlank
@@ -116,300 +138,115 @@ items:
   nameWithType: ImportNewListItem.SetToBlank
   fullName: SuperOffice.Data.ImportNewListItem.SetToBlank
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '3: Set to blank'
-  example: []
+  summary: "\n3: Set to blank\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      SetToBlank = 3
+    content: public const ImportNewListItem SetToBlank
     return:
       type: SuperOffice.Data.ImportNewListItem
-    content.vb: >-
-      <EnumMember>
-
-      SetToBlank = 3
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const SetToBlank As ImportNewListItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.ImportNewListItem.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<ImportNewListItem, To>(ImportNewListItem)
-  nameWithType: EnumUtil.MapEnums<ImportNewListItem, To>(ImportNewListItem)
-  fullName: EnumUtil.MapEnums<SuperOffice.Data.ImportNewListItem, To>(SuperOffice.Data.ImportNewListItem)
-  nameWithType.vb: EnumUtil.MapEnums(Of ImportNewListItem, To)(ImportNewListItem)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.ImportNewListItem, To)(SuperOffice.Data.ImportNewListItem)
-  name.vb: MapEnums(Of ImportNewListItem, To)(ImportNewListItem)
+  name: MapEnums<ImportNewListItem, To>()
+  nameWithType: EnumUtil.MapEnums<ImportNewListItem, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.ImportNewListItem, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ImportNewListItem, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.ImportNewListItem, To)()
+  name.vb: MapEnums(Of ImportNewListItem, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.ImportNewListItem)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ImportNewListItem, To>
+    nameWithType: EnumUtil.MapEnums<ImportNewListItem, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.ImportNewListItem, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.ImportNewListItem
-    name: ImportNewListItem
-    isExternal: true
-    href: SuperOffice.Data.ImportNewListItem.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.ImportNewListItem
-    name: ImportNewListItem
-    isExternal: true
-    href: SuperOffice.Data.ImportNewListItem.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.ImportNewListItem)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ImportNewListItem, To)
+    nameWithType: EnumUtil.MapEnums(Of ImportNewListItem, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.ImportNewListItem, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.ImportNewListItem
-    name: ImportNewListItem
-    isExternal: true
-    href: SuperOffice.Data.ImportNewListItem.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.ImportNewListItem
-    name: ImportNewListItem
-    isExternal: true
-    href: SuperOffice.Data.ImportNewListItem.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.ImportNewListItem.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<ImportNewListItem, To>(ImportNewListItem)
-  nameWithType: Converters.MapEnums<ImportNewListItem, To>(ImportNewListItem)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ImportNewListItem, To>(SuperOffice.Data.ImportNewListItem)
-  nameWithType.vb: Converters.MapEnums(Of ImportNewListItem, To)(ImportNewListItem)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ImportNewListItem, To)(SuperOffice.Data.ImportNewListItem)
-  name.vb: MapEnums(Of ImportNewListItem, To)(ImportNewListItem)
+  name: MapEnums<ImportNewListItem, To>()
+  nameWithType: Converters.MapEnums<ImportNewListItem, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ImportNewListItem, To>()
+  nameWithType.vb: Converters.MapEnums(Of ImportNewListItem, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ImportNewListItem, To)()
+  name.vb: MapEnums(Of ImportNewListItem, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.ImportNewListItem)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ImportNewListItem, To>
+    nameWithType: Converters.MapEnums<ImportNewListItem, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ImportNewListItem, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.ImportNewListItem
-    name: ImportNewListItem
-    isExternal: true
-    href: SuperOffice.Data.ImportNewListItem.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.ImportNewListItem
-    name: ImportNewListItem
-    isExternal: true
-    href: SuperOffice.Data.ImportNewListItem.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.ImportNewListItem)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ImportNewListItem, To)
+    nameWithType: Converters.MapEnums(Of ImportNewListItem, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ImportNewListItem, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.ImportNewListItem
-    name: ImportNewListItem
-    isExternal: true
-    href: SuperOffice.Data.ImportNewListItem.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.ImportNewListItem
-    name: ImportNewListItem
-    isExternal: true
-    href: SuperOffice.Data.ImportNewListItem.html
-  - name: )
-- uid: SuperOffice.Data.ImportNewListItem.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ImportNewListItem)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<ImportNewListItem>(ImportNewListItem, ImportNewListItem)
-  nameWithType: ObjectExtensions.AssignByReflection<ImportNewListItem>(ImportNewListItem, ImportNewListItem)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.ImportNewListItem>(SuperOffice.Data.ImportNewListItem, SuperOffice.Data.ImportNewListItem)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ImportNewListItem)(ImportNewListItem, ImportNewListItem)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.ImportNewListItem)(SuperOffice.Data.ImportNewListItem, SuperOffice.Data.ImportNewListItem)
-  name.vb: AssignByReflection(Of ImportNewListItem)(ImportNewListItem, ImportNewListItem)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ImportNewListItem,SuperOffice.Data.ImportNewListItem)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.Data.ImportNewListItem
-    name: ImportNewListItem
-    isExternal: true
-    href: SuperOffice.Data.ImportNewListItem.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Data.ImportNewListItem
-    name: ImportNewListItem
-    isExternal: true
-    href: SuperOffice.Data.ImportNewListItem.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Data.ImportNewListItem
-    name: ImportNewListItem
-    isExternal: true
-    href: SuperOffice.Data.ImportNewListItem.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ImportNewListItem,SuperOffice.Data.ImportNewListItem)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.ImportNewListItem
-    name: ImportNewListItem
-    isExternal: true
-    href: SuperOffice.Data.ImportNewListItem.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.Data.ImportNewListItem
-    name: ImportNewListItem
-    isExternal: true
-    href: SuperOffice.Data.ImportNewListItem.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Data.ImportNewListItem
-    name: ImportNewListItem
-    isExternal: true
-    href: SuperOffice.Data.ImportNewListItem.html
-  - name: )
-- uid: SuperOffice.Data.ImportNewListItem.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<ImportNewListItem>(ImportNewListItem)
-  nameWithType: ObjectExtensions.GraphCopy<ImportNewListItem>(ImportNewListItem)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.ImportNewListItem>(SuperOffice.Data.ImportNewListItem)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of ImportNewListItem)(ImportNewListItem)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.ImportNewListItem)(SuperOffice.Data.ImportNewListItem)
-  name.vb: GraphCopy(Of ImportNewListItem)(ImportNewListItem)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.ImportNewListItem)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.Data.ImportNewListItem
-    name: ImportNewListItem
-    isExternal: true
-    href: SuperOffice.Data.ImportNewListItem.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Data.ImportNewListItem
-    name: ImportNewListItem
-    isExternal: true
-    href: SuperOffice.Data.ImportNewListItem.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.ImportNewListItem)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.ImportNewListItem
-    name: ImportNewListItem
-    isExternal: true
-    href: SuperOffice.Data.ImportNewListItem.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.Data.ImportNewListItem
-    name: ImportNewListItem
-    isExternal: true
-    href: SuperOffice.Data.ImportNewListItem.html
-  - name: )
-- uid: System.Enum.EnumUtil.GetDescription
-  commentId: M:EnumUtil.GetDescription(System.Enum)
-  parent: EnumUtil
-  definition: EnumUtil.GetDescription(System.Enum)
-  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  name: GetDescription(Enum)
-  nameWithType: EnumUtil.GetDescription(Enum)
-  fullName: EnumUtil.GetDescription(System.Enum)
-  spec.csharp:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
-  spec.vb:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -418,45 +255,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -465,222 +300,58 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: EnumUtil.GetDescription(System.Enum)
-  commentId: M:EnumUtil.GetDescription(System.Enum)
-  isExternal: true
-  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  name: GetDescription(Enum)
-  nameWithType: EnumUtil.GetDescription(Enum)
-  fullName: EnumUtil.GetDescription(System.Enum)
-  spec.csharp:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
-  spec.vb:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.Data.ImportNewListItem
   commentId: T:SuperOffice.Data.ImportNewListItem
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ImportNewListItem.html
   name: ImportNewListItem
   nameWithType: ImportNewListItem
   fullName: SuperOffice.Data.ImportNewListItem

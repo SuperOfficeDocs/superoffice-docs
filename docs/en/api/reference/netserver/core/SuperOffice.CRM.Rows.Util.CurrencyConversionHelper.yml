@@ -26,27 +26,27 @@ items:
   nameWithType: CurrencyConversionHelper
   fullName: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows.Util
-  summary: >-
-    Currency conversions, the one-stop-shop. Methods and properties for determining whether
-
-    currency is enabled, and for doing currency conversions.
-  example: []
+  summary: "\nCurrency conversions, the one-stop-shop. Methods and properties for determining whether\ncurrency is enabled, and for doing currency conversions.\n"
   syntax:
-    content: public static class CurrencyConversionHelper
-    content.vb: Public Module CurrencyConversionHelper
+    content: 'public static class CurrencyConversionHelper : Object'
+    content.vb: >-
+      Public Module CurrencyConversionHelper
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
 - uid: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.ConvertAmount(System.Double,System.Int32,System.Int32)
   commentId: M:SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.ConvertAmount(System.Double,System.Int32,System.Int32)
   id: ConvertAmount(System.Double,System.Int32,System.Int32)
@@ -54,20 +54,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ConvertAmount(double, int, int)
-  nameWithType: CurrencyConversionHelper.ConvertAmount(double, int, int)
-  fullName: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.ConvertAmount(double, int, int)
+  name: ConvertAmount(Double, Int32, Int32)
+  nameWithType: CurrencyConversionHelper.ConvertAmount(Double, Int32, Int32)
+  fullName: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.ConvertAmount(System.Double, System.Int32, System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows.Util
-  summary: >-
-    Convert an amount from one currency to another, based on the ID's of the currencies involved.
-
-    This method is silently fail-safe and will return the original amount unconverted if any errors occur
-
-    (like missing currencies, rate=0 or other nasty things that can happen).
-  example: []
+  summary: "\nConvert an amount from one currency to another, based on the ID&apos;s of the currencies involved.\nThis method is silently fail-safe and will return the original amount unconverted if any errors occur\n(like missing currencies, rate=0 or other nasty things that can happen).\n"
   syntax:
     content: public static double ConvertAmount(double amount, int fromCurrencyId, int toCurrencyId)
     parameters:
@@ -85,9 +82,12 @@ items:
       description: Converted amount, or original if anything went wrong (silent failure)
     content.vb: Public Shared Function ConvertAmount(amount As Double, fromCurrencyId As Integer, toCurrencyId As Integer) As Double
   overload: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.ConvertAmount*
-  nameWithType.vb: CurrencyConversionHelper.ConvertAmount(Double, Integer, Integer)
-  fullName.vb: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.ConvertAmount(Double, Integer, Integer)
-  name.vb: ConvertAmount(Double, Integer, Integer)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.ConvertAmount(System.Double,SuperOffice.CRM.Rows.CurrencyRecordData,SuperOffice.CRM.Rows.CurrencyRecordData)
   commentId: M:SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.ConvertAmount(System.Double,SuperOffice.CRM.Rows.CurrencyRecordData,SuperOffice.CRM.Rows.CurrencyRecordData)
   id: ConvertAmount(System.Double,SuperOffice.CRM.Rows.CurrencyRecordData,SuperOffice.CRM.Rows.CurrencyRecordData)
@@ -95,20 +95,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ConvertAmount(double, CurrencyRecordData, CurrencyRecordData)
-  nameWithType: CurrencyConversionHelper.ConvertAmount(double, CurrencyRecordData, CurrencyRecordData)
-  fullName: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.ConvertAmount(double, SuperOffice.CRM.Rows.CurrencyRecordData, SuperOffice.CRM.Rows.CurrencyRecordData)
+  name: ConvertAmount(Double, CurrencyRecordData, CurrencyRecordData)
+  nameWithType: CurrencyConversionHelper.ConvertAmount(Double, CurrencyRecordData, CurrencyRecordData)
+  fullName: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.ConvertAmount(System.Double, SuperOffice.CRM.Rows.CurrencyRecordData, SuperOffice.CRM.Rows.CurrencyRecordData)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows.Util
-  summary: >-
-    Convert an amount from one currency to another, based on currency rows of the currencies involved.
-
-    This method is silently fail-safe and will return the original amount unconverted if any errors occur
-
-    (like missing currencies, rate=0 or other nasty things that can happen).
-  example: []
+  summary: "\nConvert an amount from one currency to another, based on currency rows of the currencies involved.\nThis method is silently fail-safe and will return the original amount unconverted if any errors occur\n(like missing currencies, rate=0 or other nasty things that can happen).\n"
   syntax:
     content: public static double ConvertAmount(double amount, CurrencyRecordData from, CurrencyRecordData to)
     parameters:
@@ -124,11 +121,14 @@ items:
     return:
       type: System.Double
       description: Converted amount, or original if anything went wrong (silent failure)
-    content.vb: Public Shared Function ConvertAmount(amount As Double, from As CurrencyRecordData, [to] As CurrencyRecordData) As Double
+    content.vb: Public Shared Function ConvertAmount(amount As Double, from As CurrencyRecordData, to As CurrencyRecordData) As Double
   overload: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.ConvertAmount*
-  nameWithType.vb: CurrencyConversionHelper.ConvertAmount(Double, CurrencyRecordData, CurrencyRecordData)
-  fullName.vb: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.ConvertAmount(Double, SuperOffice.CRM.Rows.CurrencyRecordData, SuperOffice.CRM.Rows.CurrencyRecordData)
-  name.vb: ConvertAmount(Double, CurrencyRecordData, CurrencyRecordData)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.ConvertAmount(System.Double,System.Double,System.Double,System.Double,System.Double)
   commentId: M:SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.ConvertAmount(System.Double,System.Double,System.Double,System.Double,System.Double)
   id: ConvertAmount(System.Double,System.Double,System.Double,System.Double,System.Double)
@@ -136,20 +136,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ConvertAmount(double, double, double, double, double)
-  nameWithType: CurrencyConversionHelper.ConvertAmount(double, double, double, double, double)
-  fullName: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.ConvertAmount(double, double, double, double, double)
+  name: ConvertAmount(Double, Double, Double, Double, Double)
+  nameWithType: CurrencyConversionHelper.ConvertAmount(Double, Double, Double, Double, Double)
+  fullName: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.ConvertAmount(System.Double, System.Double, System.Double, System.Double, System.Double)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows.Util
-  summary: >-
-    Convert an amount from one currency to another, based on the rates and units of the currencies involved.
-
-    This method is silently fail-safe and will return the original amount unconverted if any errors occur
-
-    (like missing currencies, rate=0 or other nasty things that can happen).
-  example: []
+  summary: "\nConvert an amount from one currency to another, based on the rates and units of the currencies involved.\nThis method is silently fail-safe and will return the original amount unconverted if any errors occur\n(like missing currencies, rate=0 or other nasty things that can happen).\n"
   syntax:
     content: public static double ConvertAmount(double amount, double fromRate, double fromUnits, double toRate, double toUnits)
     parameters:
@@ -173,9 +170,12 @@ items:
       description: Converted amount, or original if anything went wrong (silent failure)
     content.vb: Public Shared Function ConvertAmount(amount As Double, fromRate As Double, fromUnits As Double, toRate As Double, toUnits As Double) As Double
   overload: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.ConvertAmount*
-  nameWithType.vb: CurrencyConversionHelper.ConvertAmount(Double, Double, Double, Double, Double)
-  fullName.vb: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.ConvertAmount(Double, Double, Double, Double, Double)
-  name.vb: ConvertAmount(Double, Double, Double, Double, Double)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.ConvertAmountToBase(System.Double,System.Int32)
   commentId: M:SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.ConvertAmountToBase(System.Double,System.Int32)
   id: ConvertAmountToBase(System.Double,System.Int32)
@@ -183,20 +183,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ConvertAmountToBase(double, int)
-  nameWithType: CurrencyConversionHelper.ConvertAmountToBase(double, int)
-  fullName: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.ConvertAmountToBase(double, int)
+  name: ConvertAmountToBase(Double, Int32)
+  nameWithType: CurrencyConversionHelper.ConvertAmountToBase(Double, Int32)
+  fullName: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.ConvertAmountToBase(System.Double, System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows.Util
-  summary: >-
-    Convert an amount from a currency to base corrency for the database, based on the ID's of the currencies involved.
-
-    This method is silently fail-safe and will return the original amount unconverted if any errors occur
-
-    (like missing currencies, rate=0 or other nasty things that can happen).
-  example: []
+  summary: "\nConvert an amount from a currency to base corrency for the database, based on the ID&apos;s of the currencies involved.\nThis method is silently fail-safe and will return the original amount unconverted if any errors occur\n(like missing currencies, rate=0 or other nasty things that can happen).\n"
   syntax:
     content: public static double ConvertAmountToBase(double amount, int fromCurrencyId)
     parameters:
@@ -211,9 +208,12 @@ items:
       description: Converted amount, or original if anything went wrong (silent failure)
     content.vb: Public Shared Function ConvertAmountToBase(amount As Double, fromCurrencyId As Integer) As Double
   overload: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.ConvertAmountToBase*
-  nameWithType.vb: CurrencyConversionHelper.ConvertAmountToBase(Double, Integer)
-  fullName.vb: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.ConvertAmountToBase(Double, Integer)
-  name.vb: ConvertAmountToBase(Double, Integer)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.ConvertAmountToOur(System.Double,System.Int32)
   commentId: M:SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.ConvertAmountToOur(System.Double,System.Int32)
   id: ConvertAmountToOur(System.Double,System.Int32)
@@ -221,20 +221,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ConvertAmountToOur(double, int)
-  nameWithType: CurrencyConversionHelper.ConvertAmountToOur(double, int)
-  fullName: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.ConvertAmountToOur(double, int)
+  name: ConvertAmountToOur(Double, Int32)
+  nameWithType: CurrencyConversionHelper.ConvertAmountToOur(Double, Int32)
+  fullName: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.ConvertAmountToOur(System.Double, System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows.Util
-  summary: >-
-    Convert an amount from a currency to own corrency set as a preference, based on the ID's of the currencies involved.
-
-    This method is silently fail-safe and will return the original amount unconverted if any errors occur
-
-    (like missing currencies, rate=0 or other nasty things that can happen).
-  example: []
+  summary: "\nConvert an amount from a currency to own corrency set as a preference, based on the ID&apos;s of the currencies involved.\nThis method is silently fail-safe and will return the original amount unconverted if any errors occur\n(like missing currencies, rate=0 or other nasty things that can happen).\n"
   syntax:
     content: public static double ConvertAmountToOur(double amount, int fromCurrencyId)
     parameters:
@@ -249,9 +246,12 @@ items:
       description: Converted amount, or original if anything went wrong (silent failure)
     content.vb: Public Shared Function ConvertAmountToOur(amount As Double, fromCurrencyId As Integer) As Double
   overload: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.ConvertAmountToOur*
-  nameWithType.vb: CurrencyConversionHelper.ConvertAmountToOur(Double, Integer)
-  fullName.vb: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.ConvertAmountToOur(Double, Integer)
-  name.vb: ConvertAmountToOur(Double, Integer)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.GetOurCurrencyId
   commentId: M:SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.GetOurCurrencyId
   id: GetOurCurrencyId
@@ -263,18 +263,25 @@ items:
   nameWithType: CurrencyConversionHelper.GetOurCurrencyId()
   fullName: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.GetOurCurrencyId()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows.Util
-  summary: Calculates the currency id for the current user
-  example: []
+  summary: "\nCalculates the currency id for the current user\n"
   syntax:
     content: public static int GetOurCurrencyId()
     return:
       type: System.Int32
-      description: ''
-    content.vb: Public Shared Function GetOurCurrencyId() As Integer
+    content.vb: Public Shared Function GetOurCurrencyId As Integer
   overload: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.GetOurCurrencyId*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.GetOwnerCompanysCurrencyId
   commentId: M:SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.GetOwnerCompanysCurrencyId
   id: GetOwnerCompanysCurrencyId
@@ -286,6 +293,9 @@ items:
   nameWithType: CurrencyConversionHelper.GetOwnerCompanysCurrencyId()
   fullName: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.GetOwnerCompanysCurrencyId()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows.Util
@@ -293,8 +303,14 @@ items:
     content: public static int GetOwnerCompanysCurrencyId()
     return:
       type: System.Int32
-    content.vb: Public Shared Function GetOwnerCompanysCurrencyId() As Integer
+    content.vb: Public Shared Function GetOwnerCompanysCurrencyId As Integer
   overload: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.GetOwnerCompanysCurrencyId*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.IsCurrencyEnabled
   commentId: P:SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.IsCurrencyEnabled
   id: IsCurrencyEnabled
@@ -306,11 +322,13 @@ items:
   nameWithType: CurrencyConversionHelper.IsCurrencyEnabled
   fullName: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.IsCurrencyEnabled
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows.Util
-  summary: Is the use of currency enabled (preference)?
-  example: []
+  summary: "\nIs the use of currency enabled (preference)?\n"
   syntax:
     content: public static bool IsCurrencyEnabled { get; }
     parameters: []
@@ -318,6 +336,14 @@ items:
       type: System.Boolean
     content.vb: Public Shared ReadOnly Property IsCurrencyEnabled As Boolean
   overload: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.IsCurrencyEnabled*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
 - uid: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.OurCurrencyId
   commentId: P:SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.OurCurrencyId
   id: OurCurrencyId
@@ -329,11 +355,13 @@ items:
   nameWithType: CurrencyConversionHelper.OurCurrencyId
   fullName: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.OurCurrencyId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows.Util
-  summary: Retrieve the ID of 'our' currency (preference).  BaseCurrencyId will be returned if our currency is not defined.
-  example: []
+  summary: "\nRetrieve the ID of &apos;our&apos; currency (preference).  BaseCurrencyId will be returned if our currency is not defined.\n"
   syntax:
     content: public static int OurCurrencyId { get; }
     parameters: []
@@ -341,6 +369,14 @@ items:
       type: System.Int32
     content.vb: Public Shared ReadOnly Property OurCurrencyId As Integer
   overload: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.OurCurrencyId*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
 - uid: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.HomeCountryCurrencyId
   commentId: P:SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.HomeCountryCurrencyId
   id: HomeCountryCurrencyId
@@ -352,6 +388,9 @@ items:
   nameWithType: CurrencyConversionHelper.HomeCountryCurrencyId
   fullName: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.HomeCountryCurrencyId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows.Util
@@ -362,6 +401,14 @@ items:
       type: System.Int32
     content.vb: Public Shared ReadOnly Property HomeCountryCurrencyId As Integer
   overload: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.HomeCountryCurrencyId*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
 - uid: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.HomeCountryCurrency
   commentId: P:SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.HomeCountryCurrency
   id: HomeCountryCurrency
@@ -373,6 +420,9 @@ items:
   nameWithType: CurrencyConversionHelper.HomeCountryCurrency
   fullName: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.HomeCountryCurrency
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows.Util
@@ -383,6 +433,14 @@ items:
       type: SuperOffice.CRM.Rows.CurrencyRecordData
     content.vb: Public Shared ReadOnly Property HomeCountryCurrency As CurrencyRecordData
   overload: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.HomeCountryCurrency*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
 - uid: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.BaseCurrencyId
   commentId: P:SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.BaseCurrencyId
   id: BaseCurrencyId
@@ -394,11 +452,13 @@ items:
   nameWithType: CurrencyConversionHelper.BaseCurrencyId
   fullName: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.BaseCurrencyId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows.Util
-  summary: Retrieve the ID of the 'base' currency (preference)
-  example: []
+  summary: "\nRetrieve the ID of the &apos;base&apos; currency (preference)\n"
   syntax:
     content: public static int BaseCurrencyId { get; }
     parameters: []
@@ -406,6 +466,14 @@ items:
       type: System.Int32
     content.vb: Public Shared ReadOnly Property BaseCurrencyId As Integer
   overload: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.BaseCurrencyId*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
 - uid: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.BaseCurrency
   commentId: P:SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.BaseCurrency
   id: BaseCurrency
@@ -417,11 +485,13 @@ items:
   nameWithType: CurrencyConversionHelper.BaseCurrency
   fullName: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.BaseCurrency
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows.Util
-  summary: Retrieve the Currency row of the base currency; if it does not exist or currency is disabled, null is returned
-  example: []
+  summary: "\nRetrieve the Currency row of the base currency; if it does not exist or currency is disabled, null is returned\n"
   syntax:
     content: public static CurrencyRecordData BaseCurrency { get; }
     parameters: []
@@ -429,6 +499,14 @@ items:
       type: SuperOffice.CRM.Rows.CurrencyRecordData
     content.vb: Public Shared ReadOnly Property BaseCurrency As CurrencyRecordData
   overload: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.BaseCurrency*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
 - uid: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.OurCurrency
   commentId: P:SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.OurCurrency
   id: OurCurrency
@@ -440,11 +518,13 @@ items:
   nameWithType: CurrencyConversionHelper.OurCurrency
   fullName: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.OurCurrency
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows.Util
-  summary: Retrieve the Currency row of our currency; if it does not exist or currency is disabled, null is returned
-  example: []
+  summary: "\nRetrieve the Currency row of our currency; if it does not exist or currency is disabled, null is returned\n"
   syntax:
     content: public static CurrencyRecordData OurCurrency { get; }
     parameters: []
@@ -452,295 +532,37 @@ items:
       type: SuperOffice.CRM.Rows.CurrencyRecordData
     content.vb: Public Shared ReadOnly Property OurCurrency As CurrencyRecordData
   overload: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.OurCurrency*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
 references:
 - uid: SuperOffice.CRM.Rows.Util
   commentId: N:SuperOffice.CRM.Rows.Util
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Rows.Util
   nameWithType: SuperOffice.CRM.Rows.Util
   fullName: SuperOffice.CRM.Rows.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows
-    name: Rows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.CRM.Rows.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows
-    name: Rows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.CRM.Rows.Util.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.ConvertAmount*
   commentId: Overload:SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.ConvertAmount
   isExternal: true
-  href: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.html#SuperOffice_CRM_Rows_Util_CurrencyConversionHelper_ConvertAmount_System_Double_System_Int32_System_Int32_
   name: ConvertAmount
   nameWithType: CurrencyConversionHelper.ConvertAmount
   fullName: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.ConvertAmount
@@ -748,101 +570,56 @@ references:
   commentId: T:System.Double
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.double
-  name: double
-  nameWithType: double
-  fullName: double
-  nameWithType.vb: Double
-  fullName.vb: Double
-  name.vb: Double
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Rows.CurrencyRecordData
   commentId: T:SuperOffice.CRM.Rows.CurrencyRecordData
   parent: SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.CRM.Rows.CurrencyRecordData.html
   name: CurrencyRecordData
   nameWithType: CurrencyRecordData
   fullName: SuperOffice.CRM.Rows.CurrencyRecordData
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows
-    name: Rows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows
-    name: Rows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.html
 - uid: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.ConvertAmountToBase*
   commentId: Overload:SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.ConvertAmountToBase
   isExternal: true
-  href: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.html#SuperOffice_CRM_Rows_Util_CurrencyConversionHelper_ConvertAmountToBase_System_Double_System_Int32_
   name: ConvertAmountToBase
   nameWithType: CurrencyConversionHelper.ConvertAmountToBase
   fullName: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.ConvertAmountToBase
 - uid: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.ConvertAmountToOur*
   commentId: Overload:SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.ConvertAmountToOur
   isExternal: true
-  href: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.html#SuperOffice_CRM_Rows_Util_CurrencyConversionHelper_ConvertAmountToOur_System_Double_System_Int32_
   name: ConvertAmountToOur
   nameWithType: CurrencyConversionHelper.ConvertAmountToOur
   fullName: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.ConvertAmountToOur
 - uid: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.GetOurCurrencyId*
   commentId: Overload:SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.GetOurCurrencyId
   isExternal: true
-  href: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.html#SuperOffice_CRM_Rows_Util_CurrencyConversionHelper_GetOurCurrencyId
   name: GetOurCurrencyId
   nameWithType: CurrencyConversionHelper.GetOurCurrencyId
   fullName: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.GetOurCurrencyId
 - uid: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.GetOwnerCompanysCurrencyId*
   commentId: Overload:SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.GetOwnerCompanysCurrencyId
   isExternal: true
-  href: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.html#SuperOffice_CRM_Rows_Util_CurrencyConversionHelper_GetOwnerCompanysCurrencyId
   name: GetOwnerCompanysCurrencyId
   nameWithType: CurrencyConversionHelper.GetOwnerCompanysCurrencyId
   fullName: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.GetOwnerCompanysCurrencyId
 - uid: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.IsCurrencyEnabled*
   commentId: Overload:SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.IsCurrencyEnabled
   isExternal: true
-  href: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.html#SuperOffice_CRM_Rows_Util_CurrencyConversionHelper_IsCurrencyEnabled
   name: IsCurrencyEnabled
   nameWithType: CurrencyConversionHelper.IsCurrencyEnabled
   fullName: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.IsCurrencyEnabled
@@ -850,52 +627,42 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.OurCurrencyId*
   commentId: Overload:SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.OurCurrencyId
   isExternal: true
-  href: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.html#SuperOffice_CRM_Rows_Util_CurrencyConversionHelper_OurCurrencyId
   name: OurCurrencyId
   nameWithType: CurrencyConversionHelper.OurCurrencyId
   fullName: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.OurCurrencyId
 - uid: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.HomeCountryCurrencyId*
   commentId: Overload:SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.HomeCountryCurrencyId
   isExternal: true
-  href: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.html#SuperOffice_CRM_Rows_Util_CurrencyConversionHelper_HomeCountryCurrencyId
   name: HomeCountryCurrencyId
   nameWithType: CurrencyConversionHelper.HomeCountryCurrencyId
   fullName: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.HomeCountryCurrencyId
 - uid: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.HomeCountryCurrency*
   commentId: Overload:SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.HomeCountryCurrency
   isExternal: true
-  href: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.html#SuperOffice_CRM_Rows_Util_CurrencyConversionHelper_HomeCountryCurrency
   name: HomeCountryCurrency
   nameWithType: CurrencyConversionHelper.HomeCountryCurrency
   fullName: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.HomeCountryCurrency
 - uid: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.BaseCurrencyId*
   commentId: Overload:SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.BaseCurrencyId
   isExternal: true
-  href: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.html#SuperOffice_CRM_Rows_Util_CurrencyConversionHelper_BaseCurrencyId
   name: BaseCurrencyId
   nameWithType: CurrencyConversionHelper.BaseCurrencyId
   fullName: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.BaseCurrencyId
 - uid: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.BaseCurrency*
   commentId: Overload:SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.BaseCurrency
   isExternal: true
-  href: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.html#SuperOffice_CRM_Rows_Util_CurrencyConversionHelper_BaseCurrency
   name: BaseCurrency
   nameWithType: CurrencyConversionHelper.BaseCurrency
   fullName: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.BaseCurrency
 - uid: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.OurCurrency*
   commentId: Overload:SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.OurCurrency
   isExternal: true
-  href: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.html#SuperOffice_CRM_Rows_Util_CurrencyConversionHelper_OurCurrency
   name: OurCurrency
   nameWithType: CurrencyConversionHelper.OurCurrency
   fullName: SuperOffice.CRM.Rows.Util.CurrencyConversionHelper.OurCurrency

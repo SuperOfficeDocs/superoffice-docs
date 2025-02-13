@@ -18,51 +18,28 @@ items:
   nameWithType: PreviewProvider
   fullName: SuperOffice.CRM.Previews.PreviewProvider
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Previews
-  summary: >-
-    The one-stop shop for asynchronous Previews. This class takes a Preview hint and through the static
-
-    <xref href="SuperOffice.CRM.Previews.PreviewProvider.GetPreview(System.String)" data-throw-if-not-resolved="false"></xref> method converts it into a Preview. The underlying Preview providers are 
-
-    dynamically loaded plugins.
-
-    <p></p>
-
-    Due to the possibility of fairly expensive operations behind the Preview, this system SHOULD NOT be
-
-    used to mass-produce Previews in some tight loop. Call the Preview provider only when you know that the 
-
-    user actually needs a Preview here and now.
-  remarks: >-
-    Preview plugin providers must implement the <xref href="SuperOffice.CRM.Previews.IPreviewProviderPlugin" data-throw-if-not-resolved="false"></xref> interface, and
-
-    are welcome to use the <xref href="SuperOffice.CRM.Previews.PreviewPluginBase" data-throw-if-not-resolved="false"></xref> base class as well.
-
-    <p></p>
-
-    <example>
-
-    A trivial Preview example:
-
-    <pre><code class="lang-csharp">string myPreview = PreviewProvider.GetPreview("{contact_id=" + myContactId + "}");</code></pre>
-
-    </example>
-  example: []
+  summary: "\nThe one-stop shop for asynchronous Previews. This class takes a Preview hint and through the static\n<xref href=\"SuperOffice.CRM.Previews.PreviewProvider.GetPreview(System.String)\" data-throw-if-not-resolved=\"false\"></xref> method converts it into a Preview. The underlying Preview providers are \ndynamically loaded plugins.\n<p></p>\nDue to the possibility of fairly expensive operations behind the Preview, this system SHOULD NOT be\nused to mass-produce Previews in some tight loop. Call the Preview provider only when you know that the \nuser actually needs a Preview here and now.\n"
+  remarks: "\nPreview plugin providers must implement the <xref href=\"SuperOffice.CRM.Previews.IPreviewProviderPlugin\" data-throw-if-not-resolved=\"false\"></xref> interface, and\nare welcome to use the <xref href=\"SuperOffice.CRM.Previews.PreviewPluginBase\" data-throw-if-not-resolved=\"false\"></xref> base class as well.\n<p></p>\n<example>\nA trivial Preview example:\n<pre><code>string myPreview = PreviewProvider.GetPreview(&quot;{contact_id=&quot; + myContactId + &quot;}&quot;);</code></pre>\n</example>\n"
   syntax:
-    content: public static class PreviewProvider
-    content.vb: Public Module PreviewProvider
+    content: 'public static class PreviewProvider : Object'
+    content.vb: >-
+      Public Module PreviewProvider
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
 - uid: SuperOffice.CRM.Previews.PreviewProvider.GetPreview(System.String)
   commentId: M:SuperOffice.CRM.Previews.PreviewProvider.GetPreview(System.String)
   id: GetPreview(System.String)
@@ -70,32 +47,18 @@ items:
   langs:
   - csharp
   - vb
-  name: GetPreview(string)
-  nameWithType: PreviewProvider.GetPreview(string)
-  fullName: SuperOffice.CRM.Previews.PreviewProvider.GetPreview(string)
+  name: GetPreview(String)
+  nameWithType: PreviewProvider.GetPreview(String)
+  fullName: SuperOffice.CRM.Previews.PreviewProvider.GetPreview(System.String)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Previews
-  summary: >-
-    Process the incoming hint, and return a Preview. 
-
-    The Preview is either a parseable Preview hint, or a literal text.
-  remarks: >-
-    If it is a literal, it may be formatted according to current Preview rules, and is then returned.
-
-    A Preview hint has the syntax {&lt;id&gt;=&lt;value&gt;[&lt;id&gt;=&lt;value&gt;]...}, ie., curly braces around 
-
-    the whole string, and one or more id/value pairs. The delimiter within each pair is an equals sign, 
-
-    and the delimiter between pairs is an ampersand.
-
-    A typical hint is {contact_id=5}. Another possible hint would be {contact_id=123&amp;simple=true}.
-
-    <p></p>Id's are case-insensitive, using the <xref href="System.StringComparer.OrdinalIgnoreCase" data-throw-if-not-resolved="false"></xref> comparer
-
-    provided by the .NET framework.
-  example: []
+  summary: "\nProcess the incoming hint, and return a Preview. \nThe Preview is either a parseable Preview hint, or a literal text. \n"
+  remarks: "\nIf it is a literal, it may be formatted according to current Preview rules, and is then returned.\nA Preview hint has the syntax {&lt;id>=&lt;value>[&lt;id>=&lt;value>]...}, ie., curly braces around \nthe whole string, and one or more id/value pairs. The delimiter within each pair is an equals sign, \nand the delimiter between pairs is an ampersand.\nA typical hint is {contact_id=5}. Another possible hint would be {contact_id=123&amp;simple=true}.\n<p></p>Id&apos;s are case-insensitive, using the <xref href=\"System.StringComparer.OrdinalIgnoreCase\" data-throw-if-not-resolved=\"false\"></xref> comparer\nprovided by the .NET framework.\n"
   syntax:
     content: public static string GetPreview(string PreviewHint)
     parameters:
@@ -107,9 +70,12 @@ items:
       description: Formatted Preview, possibly including image tags or other metainformation
     content.vb: Public Shared Function GetPreview(PreviewHint As String) As String
   overload: SuperOffice.CRM.Previews.PreviewProvider.GetPreview*
-  nameWithType.vb: PreviewProvider.GetPreview(String)
-  fullName.vb: SuperOffice.CRM.Previews.PreviewProvider.GetPreview(String)
-  name.vb: GetPreview(String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Previews.PreviewProvider.ProcessHints(System.String)
   commentId: M:SuperOffice.CRM.Previews.PreviewProvider.ProcessHints(System.String)
   id: ProcessHints(System.String)
@@ -117,16 +83,18 @@ items:
   langs:
   - csharp
   - vb
-  name: ProcessHints(string)
-  nameWithType: PreviewProvider.ProcessHints(string)
-  fullName: SuperOffice.CRM.Previews.PreviewProvider.ProcessHints(string)
+  name: ProcessHints(String)
+  nameWithType: PreviewProvider.ProcessHints(String)
+  fullName: SuperOffice.CRM.Previews.PreviewProvider.ProcessHints(System.String)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Previews
-  summary: Process hints by calling provider plugins as needed
-  remarks: Preview plugins are called in parallel to improve snappiness
-  example: []
+  summary: "\nProcess hints by calling provider plugins as needed\n"
+  remarks: "\nPreview plugins are called in parallel to improve snappiness\n"
   syntax:
     content: public static PreviewData ProcessHints(string nameValueHints)
     parameters:
@@ -138,9 +106,12 @@ items:
       description: Hints from each Preview provider, separated by newline
     content.vb: Public Shared Function ProcessHints(nameValueHints As String) As PreviewData
   overload: SuperOffice.CRM.Previews.PreviewProvider.ProcessHints*
-  nameWithType.vb: PreviewProvider.ProcessHints(String)
-  fullName.vb: SuperOffice.CRM.Previews.PreviewProvider.ProcessHints(String)
-  name.vb: ProcessHints(String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Previews.PreviewProvider.GetPreviewHintValue(System.String)
   commentId: M:SuperOffice.CRM.Previews.PreviewProvider.GetPreviewHintValue(System.String)
   id: GetPreviewHintValue(System.String)
@@ -148,20 +119,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetPreviewHintValue(string)
-  nameWithType: PreviewProvider.GetPreviewHintValue(string)
-  fullName: SuperOffice.CRM.Previews.PreviewProvider.GetPreviewHintValue(string)
+  name: GetPreviewHintValue(String)
+  nameWithType: PreviewProvider.GetPreviewHintValue(String)
+  fullName: SuperOffice.CRM.Previews.PreviewProvider.GetPreviewHintValue(System.String)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Previews
-  summary: >-
-    Get the inner value of a dynamic Preview hint - or nothing, if the Preview
-
-    is not a dynamic hint. Dynamic hints are delimited by braces
-
-    and contain at least one name value pair.
-  example: []
+  summary: "\nGet the inner value of a dynamic Preview hint - or nothing, if the Preview\nis not a dynamic hint. Dynamic hints are delimited by braces\nand contain at least one name value pair.\n"
   syntax:
     content: public static string GetPreviewHintValue(string delimitedHint)
     parameters:
@@ -173,9 +141,12 @@ items:
       description: Preview hint minus the braces, or string.Empty if no braces were present (then this is not a dynamic hint at all)
     content.vb: Public Shared Function GetPreviewHintValue(delimitedHint As String) As String
   overload: SuperOffice.CRM.Previews.PreviewProvider.GetPreviewHintValue*
-  nameWithType.vb: PreviewProvider.GetPreviewHintValue(String)
-  fullName.vb: SuperOffice.CRM.Previews.PreviewProvider.GetPreviewHintValue(String)
-  name.vb: GetPreviewHintValue(String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Previews.PreviewProvider.MakePreviewHint(System.String,System.Int32)
   commentId: M:SuperOffice.CRM.Previews.PreviewProvider.MakePreviewHint(System.String,System.Int32)
   id: MakePreviewHint(System.String,System.Int32)
@@ -183,15 +154,17 @@ items:
   langs:
   - csharp
   - vb
-  name: MakePreviewHint(string, int)
-  nameWithType: PreviewProvider.MakePreviewHint(string, int)
-  fullName: SuperOffice.CRM.Previews.PreviewProvider.MakePreviewHint(string, int)
+  name: MakePreviewHint(String, Int32)
+  nameWithType: PreviewProvider.MakePreviewHint(String, Int32)
+  fullName: SuperOffice.CRM.Previews.PreviewProvider.MakePreviewHint(System.String, System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Previews
-  summary: Utility method for creating a Preview hint with the correct syntax, from a single key and single value
-  example: []
+  summary: "\nUtility method for creating a Preview hint with the correct syntax, from a single key and single value\n"
   syntax:
     content: public static string MakePreviewHint(string key, int value)
     parameters:
@@ -206,9 +179,12 @@ items:
       description: Preview hint
     content.vb: Public Shared Function MakePreviewHint(key As String, value As Integer) As String
   overload: SuperOffice.CRM.Previews.PreviewProvider.MakePreviewHint*
-  nameWithType.vb: PreviewProvider.MakePreviewHint(String, Integer)
-  fullName.vb: SuperOffice.CRM.Previews.PreviewProvider.MakePreviewHint(String, Integer)
-  name.vb: MakePreviewHint(String, Integer)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Previews.PreviewProvider.MakePreviewHint(System.String)
   commentId: M:SuperOffice.CRM.Previews.PreviewProvider.MakePreviewHint(System.String)
   id: MakePreviewHint(System.String)
@@ -216,15 +192,17 @@ items:
   langs:
   - csharp
   - vb
-  name: MakePreviewHint(string)
-  nameWithType: PreviewProvider.MakePreviewHint(string)
-  fullName: SuperOffice.CRM.Previews.PreviewProvider.MakePreviewHint(string)
+  name: MakePreviewHint(String)
+  nameWithType: PreviewProvider.MakePreviewHint(String)
+  fullName: SuperOffice.CRM.Previews.PreviewProvider.MakePreviewHint(System.String)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Previews
-  summary: Utility method for creating a Preview hint with the correct syntax, from a single key and single value
-  example: []
+  summary: "\nUtility method for creating a Preview hint with the correct syntax, from a single key and single value\n"
   syntax:
     content: public static string MakePreviewHint(string keyAndValue)
     parameters:
@@ -236,9 +214,12 @@ items:
       description: Preview hint
     content.vb: Public Shared Function MakePreviewHint(keyAndValue As String) As String
   overload: SuperOffice.CRM.Previews.PreviewProvider.MakePreviewHint*
-  nameWithType.vb: PreviewProvider.MakePreviewHint(String)
-  fullName.vb: SuperOffice.CRM.Previews.PreviewProvider.MakePreviewHint(String)
-  name.vb: MakePreviewHint(String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Previews.PreviewProvider.MakeImageHint(System.String,System.Int32)
   commentId: M:SuperOffice.CRM.Previews.PreviewProvider.MakeImageHint(System.String,System.Int32)
   id: MakeImageHint(System.String,System.Int32)
@@ -246,20 +227,17 @@ items:
   langs:
   - csharp
   - vb
-  name: MakeImageHint(string, int)
-  nameWithType: PreviewProvider.MakeImageHint(string, int)
-  fullName: SuperOffice.CRM.Previews.PreviewProvider.MakeImageHint(string, int)
+  name: MakeImageHint(String, Int32)
+  nameWithType: PreviewProvider.MakeImageHint(String, Int32)
+  fullName: SuperOffice.CRM.Previews.PreviewProvider.MakeImageHint(System.String, System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Previews
-  summary: >-
-    Utility method for creating an image hint with the correct syntax, from a key and id combination.
-
-    If you are programming something that is derived from <xref href="SuperOffice.CRM.Previews.PreviewPluginBase" data-throw-if-not-resolved="false"></xref>, using the
-
-    <xref href="SuperOffice.CRM.Previews.PreviewPluginBase.MakeImageHint(System.String%2cSystem.Int32)" data-throw-if-not-resolved="false"></xref> is somewhat simpler than using this method.
-  example: []
+  summary: "\nUtility method for creating an image hint with the correct syntax, from a key and id combination.\nIf you are programming something that is derived from <xref href=\"SuperOffice.CRM.Previews.PreviewPluginBase\" data-throw-if-not-resolved=\"false\"></xref>, using the\n<xref href=\"SuperOffice.CRM.Previews.PreviewPluginBase.MakeImageHint(System.String%2cSystem.Int32)\" data-throw-if-not-resolved=\"false\"></xref> is somewhat simpler than using this method.\n"
   syntax:
     content: public static string MakeImageHint(string key, int id)
     parameters:
@@ -274,342 +252,35 @@ items:
       description: Image hint
     content.vb: Public Shared Function MakeImageHint(key As String, id As Integer) As String
   overload: SuperOffice.CRM.Previews.PreviewProvider.MakeImageHint*
-  nameWithType.vb: PreviewProvider.MakeImageHint(String, Integer)
-  fullName.vb: SuperOffice.CRM.Previews.PreviewProvider.MakeImageHint(String, Integer)
-  name.vb: MakeImageHint(String, Integer)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 references:
-- uid: SuperOffice.CRM.Previews.PreviewProvider.GetPreview(System.String)
-  commentId: M:SuperOffice.CRM.Previews.PreviewProvider.GetPreview(System.String)
-  isExternal: true
-  href: SuperOffice.CRM.Previews.PreviewProvider.html#SuperOffice_CRM_Previews_PreviewProvider_GetPreview_System_String_
-  name: GetPreview(string)
-  nameWithType: PreviewProvider.GetPreview(string)
-  fullName: SuperOffice.CRM.Previews.PreviewProvider.GetPreview(string)
-  nameWithType.vb: PreviewProvider.GetPreview(String)
-  fullName.vb: SuperOffice.CRM.Previews.PreviewProvider.GetPreview(String)
-  name.vb: GetPreview(String)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Previews.PreviewProvider.GetPreview(System.String)
-    name: GetPreview
-    isExternal: true
-    href: SuperOffice.CRM.Previews.PreviewProvider.html#SuperOffice_CRM_Previews_PreviewProvider_GetPreview_System_String_
-  - name: (
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Previews.PreviewProvider.GetPreview(System.String)
-    name: GetPreview
-    isExternal: true
-    href: SuperOffice.CRM.Previews.PreviewProvider.html#SuperOffice_CRM_Previews_PreviewProvider_GetPreview_System_String_
-  - name: (
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: SuperOffice.CRM.Previews.IPreviewProviderPlugin
-  commentId: T:SuperOffice.CRM.Previews.IPreviewProviderPlugin
-  isExternal: true
-  href: SuperOffice.CRM.Previews.IPreviewProviderPlugin.html
-  name: IPreviewProviderPlugin
-  nameWithType: IPreviewProviderPlugin
-  fullName: SuperOffice.CRM.Previews.IPreviewProviderPlugin
-- uid: SuperOffice.CRM.Previews.PreviewPluginBase
-  commentId: T:SuperOffice.CRM.Previews.PreviewPluginBase
-  parent: SuperOffice.CRM.Previews
-  isExternal: true
-  href: SuperOffice.CRM.Previews.PreviewPluginBase.html
-  name: PreviewPluginBase
-  nameWithType: PreviewPluginBase
-  fullName: SuperOffice.CRM.Previews.PreviewPluginBase
 - uid: SuperOffice.CRM.Previews
   commentId: N:SuperOffice.CRM.Previews
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Previews
   nameWithType: SuperOffice.CRM.Previews
   fullName: SuperOffice.CRM.Previews
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Previews
-    name: Previews
-    isExternal: true
-    href: SuperOffice.CRM.Previews.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Previews
-    name: Previews
-    isExternal: true
-    href: SuperOffice.CRM.Previews.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
-- uid: System.StringComparer.OrdinalIgnoreCase
-  commentId: P:System.StringComparer.OrdinalIgnoreCase
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.stringcomparer.ordinalignorecase
-  name: OrdinalIgnoreCase
-  nameWithType: StringComparer.OrdinalIgnoreCase
-  fullName: System.StringComparer.OrdinalIgnoreCase
 - uid: SuperOffice.CRM.Previews.PreviewProvider.GetPreview*
   commentId: Overload:SuperOffice.CRM.Previews.PreviewProvider.GetPreview
   isExternal: true
-  href: SuperOffice.CRM.Previews.PreviewProvider.html#SuperOffice_CRM_Previews_PreviewProvider_GetPreview_System_String_
   name: GetPreview
   nameWithType: PreviewProvider.GetPreview
   fullName: SuperOffice.CRM.Previews.PreviewProvider.GetPreview
@@ -617,17 +288,12 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.CRM.Previews.PreviewProvider.ProcessHints*
   commentId: Overload:SuperOffice.CRM.Previews.PreviewProvider.ProcessHints
   isExternal: true
-  href: SuperOffice.CRM.Previews.PreviewProvider.html#SuperOffice_CRM_Previews_PreviewProvider_ProcessHints_System_String_
   name: ProcessHints
   nameWithType: PreviewProvider.ProcessHints
   fullName: SuperOffice.CRM.Previews.PreviewProvider.ProcessHints
@@ -635,21 +301,18 @@ references:
   commentId: T:SuperOffice.CRM.Previews.PreviewData
   parent: SuperOffice.CRM.Previews
   isExternal: true
-  href: SuperOffice.CRM.Previews.PreviewData.html
   name: PreviewData
   nameWithType: PreviewData
   fullName: SuperOffice.CRM.Previews.PreviewData
 - uid: SuperOffice.CRM.Previews.PreviewProvider.GetPreviewHintValue*
   commentId: Overload:SuperOffice.CRM.Previews.PreviewProvider.GetPreviewHintValue
   isExternal: true
-  href: SuperOffice.CRM.Previews.PreviewProvider.html#SuperOffice_CRM_Previews_PreviewProvider_GetPreviewHintValue_System_String_
   name: GetPreviewHintValue
   nameWithType: PreviewProvider.GetPreviewHintValue
   fullName: SuperOffice.CRM.Previews.PreviewProvider.GetPreviewHintValue
 - uid: SuperOffice.CRM.Previews.PreviewProvider.MakePreviewHint*
   commentId: Overload:SuperOffice.CRM.Previews.PreviewProvider.MakePreviewHint
   isExternal: true
-  href: SuperOffice.CRM.Previews.PreviewProvider.html#SuperOffice_CRM_Previews_PreviewProvider_MakePreviewHint_System_String_System_Int32_
   name: MakePreviewHint
   nameWithType: PreviewProvider.MakePreviewHint
   fullName: SuperOffice.CRM.Previews.PreviewProvider.MakePreviewHint
@@ -657,62 +320,12 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
-- uid: SuperOffice.CRM.Previews.PreviewPluginBase.MakeImageHint(System.String,System.Int32)
-  commentId: M:SuperOffice.CRM.Previews.PreviewPluginBase.MakeImageHint(System.String,System.Int32)
-  parent: SuperOffice.CRM.Previews.PreviewPluginBase
-  isExternal: true
-  href: SuperOffice.CRM.Previews.PreviewPluginBase.html#SuperOffice_CRM_Previews_PreviewPluginBase_MakeImageHint_System_String_System_Int32_
-  name: MakeImageHint(string, int)
-  nameWithType: PreviewPluginBase.MakeImageHint(string, int)
-  fullName: SuperOffice.CRM.Previews.PreviewPluginBase.MakeImageHint(string, int)
-  nameWithType.vb: PreviewPluginBase.MakeImageHint(String, Integer)
-  fullName.vb: SuperOffice.CRM.Previews.PreviewPluginBase.MakeImageHint(String, Integer)
-  name.vb: MakeImageHint(String, Integer)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Previews.PreviewPluginBase.MakeImageHint(System.String,System.Int32)
-    name: MakeImageHint
-    isExternal: true
-    href: SuperOffice.CRM.Previews.PreviewPluginBase.html#SuperOffice_CRM_Previews_PreviewPluginBase_MakeImageHint_System_String_System_Int32_
-  - name: (
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Previews.PreviewPluginBase.MakeImageHint(System.String,System.Int32)
-    name: MakeImageHint
-    isExternal: true
-    href: SuperOffice.CRM.Previews.PreviewPluginBase.html#SuperOffice_CRM_Previews_PreviewPluginBase_MakeImageHint_System_String_System_Int32_
-  - name: (
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: )
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Previews.PreviewProvider.MakeImageHint*
   commentId: Overload:SuperOffice.CRM.Previews.PreviewProvider.MakeImageHint
   isExternal: true
-  href: SuperOffice.CRM.Previews.PreviewProvider.html#SuperOffice_CRM_Previews_PreviewProvider_MakeImageHint_System_String_System_Int32_
   name: MakeImageHint
   nameWithType: PreviewProvider.MakeImageHint
   fullName: SuperOffice.CRM.Previews.PreviewProvider.MakeImageHint

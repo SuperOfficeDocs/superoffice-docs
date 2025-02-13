@@ -15,49 +15,33 @@ items:
   nameWithType: FormattedAddress
   fullName: SuperOffice.CRM.Globalization.FormattedAddress
   type: Class
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Globalization
-  summary: Structure holding formatted address information
-  example: []
+  summary: "\nStructure holding formatted address information\n"
   syntax:
-    content: 'public abstract class FormattedAddress : CollectionBase, IList, ICollection, IEnumerable'
-    content.vb: Public MustInherit Class FormattedAddress Inherits CollectionBase Implements IList, ICollection, IEnumerable
+    content: 'public abstract class FormattedAddress : CollectionBase'
+    content.vb: >-
+      Public MustInherit Class FormattedAddress
+          Inherits CollectionBase
   inheritance:
   - System.Object
-  - System.Collections.CollectionBase
   derivedClasses:
   - SuperOffice.CRM.Globalization.AddressFormatter
-  implements:
-  - System.Collections.IList
-  - System.Collections.ICollection
-  - System.Collections.IEnumerable
-  inheritedMembers:
-  - System.Collections.CollectionBase.Clear
-  - System.Collections.CollectionBase.RemoveAt(System.Int32)
-  - System.Collections.CollectionBase.GetEnumerator
-  - System.Collections.CollectionBase.OnSet(System.Int32,System.Object,System.Object)
-  - System.Collections.CollectionBase.OnInsert(System.Int32,System.Object)
-  - System.Collections.CollectionBase.OnClear
-  - System.Collections.CollectionBase.OnRemove(System.Int32,System.Object)
-  - System.Collections.CollectionBase.OnValidate(System.Object)
-  - System.Collections.CollectionBase.OnSetComplete(System.Int32,System.Object,System.Object)
-  - System.Collections.CollectionBase.OnInsertComplete(System.Int32,System.Object)
-  - System.Collections.CollectionBase.OnClearComplete
-  - System.Collections.CollectionBase.OnRemoveComplete(System.Int32,System.Object)
-  - System.Collections.CollectionBase.InnerList
-  - System.Collections.CollectionBase.List
-  - System.Collections.CollectionBase.Capacity
-  - System.Collections.CollectionBase.Count
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Globalization.FormattedAddress.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Globalization.FormattedAddress.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
 - uid: SuperOffice.CRM.Globalization.FormattedAddress.ToString
   commentId: M:SuperOffice.CRM.Globalization.FormattedAddress.ToString
   id: ToString
@@ -69,19 +53,26 @@ items:
   nameWithType: FormattedAddress.ToString()
   fullName: SuperOffice.CRM.Globalization.FormattedAddress.ToString()
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Globalization
-  summary: Get the complete address as a string.
-  example: []
+  summary: "\nGet the complete address as a string.\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: Address as a string.
-    content.vb: Public Overrides Function ToString() As String
-  overridden: System.Object.ToString
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.CRM.Globalization.FormattedAddress.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Globalization.FormattedAddress.#ctor
   commentId: M:SuperOffice.CRM.Globalization.FormattedAddress.#ctor
   id: '#ctor'
@@ -93,16 +84,20 @@ items:
   nameWithType: FormattedAddress.FormattedAddress()
   fullName: SuperOffice.CRM.Globalization.FormattedAddress.FormattedAddress()
   type: Constructor
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Globalization
   syntax:
     content: protected FormattedAddress()
-    content.vb: Protected Sub New()
+    content.vb: Protected Sub New
   overload: SuperOffice.CRM.Globalization.FormattedAddress.#ctor*
-  nameWithType.vb: FormattedAddress.New()
-  fullName.vb: SuperOffice.CRM.Globalization.FormattedAddress.New()
-  name.vb: New()
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
 - uid: SuperOffice.CRM.Globalization.FormattedAddress.Item(System.Int32)
   commentId: P:SuperOffice.CRM.Globalization.FormattedAddress.Item(System.Int32)
   id: Item(System.Int32)
@@ -110,15 +105,17 @@ items:
   langs:
   - csharp
   - vb
-  name: this[int]
-  nameWithType: FormattedAddress.this[int]
-  fullName: SuperOffice.CRM.Globalization.FormattedAddress.this[int]
+  name: Item[Int32]
+  nameWithType: FormattedAddress.Item[Int32]
+  fullName: SuperOffice.CRM.Globalization.FormattedAddress.Item[System.Int32]
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Globalization
-  summary: List indexer
-  example: []
+  summary: "\nList indexer\n"
   syntax:
     content: public FormattedFields this[int lineIndex] { get; set; }
     parameters:
@@ -126,911 +123,108 @@ items:
       type: System.Int32
     return:
       type: SuperOffice.CRM.Globalization.FormattedFields
-    content.vb: Public Default Property this[](lineIndex As Integer) As FormattedFields
+    content.vb: Public Property Item(lineIndex As Integer) As FormattedFields
   overload: SuperOffice.CRM.Globalization.FormattedAddress.Item*
-  nameWithType.vb: FormattedAddress.this[](Integer)
-  fullName.vb: SuperOffice.CRM.Globalization.FormattedAddress.this[](Integer)
-  name.vb: this[](Integer)
+  nameWithType.vb: FormattedAddress.Item(Int32)
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Globalization.FormattedAddress.Item(System.Int32)
+  name.vb: Item(Int32)
 references:
 - uid: SuperOffice.CRM.Globalization
   commentId: N:SuperOffice.CRM.Globalization
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Globalization
   nameWithType: SuperOffice.CRM.Globalization
   fullName: SuperOffice.CRM.Globalization
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Globalization
-    name: Globalization
-    isExternal: true
-    href: SuperOffice.CRM.Globalization.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Globalization
-    name: Globalization
-    isExternal: true
-    href: SuperOffice.CRM.Globalization.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Collections.CollectionBase
-  commentId: T:System.Collections.CollectionBase
-  parent: System.Collections
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase
-  name: CollectionBase
-  nameWithType: CollectionBase
-  fullName: System.Collections.CollectionBase
-- uid: System.Collections.IList
-  commentId: T:System.Collections.IList
-  parent: System.Collections
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.ilist
-  name: IList
-  nameWithType: IList
-  fullName: System.Collections.IList
-- uid: System.Collections.ICollection
-  commentId: T:System.Collections.ICollection
-  parent: System.Collections
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.icollection
-  name: ICollection
-  nameWithType: ICollection
-  fullName: System.Collections.ICollection
-- uid: System.Collections.IEnumerable
-  commentId: T:System.Collections.IEnumerable
-  parent: System.Collections
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerable
-  name: IEnumerable
-  nameWithType: IEnumerable
-  fullName: System.Collections.IEnumerable
-- uid: System.Collections.CollectionBase.Clear
-  commentId: M:System.Collections.CollectionBase.Clear
-  parent: System.Collections.CollectionBase
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.clear
-  name: Clear()
-  nameWithType: CollectionBase.Clear()
-  fullName: System.Collections.CollectionBase.Clear()
-  spec.csharp:
-  - uid: System.Collections.CollectionBase.Clear
-    name: Clear
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.clear
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Collections.CollectionBase.Clear
-    name: Clear
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.clear
-  - name: (
-  - name: )
-- uid: System.Collections.CollectionBase.RemoveAt(System.Int32)
-  commentId: M:System.Collections.CollectionBase.RemoveAt(System.Int32)
-  parent: System.Collections.CollectionBase
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.removeat
-  name: RemoveAt(int)
-  nameWithType: CollectionBase.RemoveAt(int)
-  fullName: System.Collections.CollectionBase.RemoveAt(int)
-  nameWithType.vb: CollectionBase.RemoveAt(Integer)
-  fullName.vb: System.Collections.CollectionBase.RemoveAt(Integer)
-  name.vb: RemoveAt(Integer)
-  spec.csharp:
-  - uid: System.Collections.CollectionBase.RemoveAt(System.Int32)
-    name: RemoveAt
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.removeat
-  - name: (
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: )
-  spec.vb:
-  - uid: System.Collections.CollectionBase.RemoveAt(System.Int32)
-    name: RemoveAt
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.removeat
-  - name: (
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: )
-- uid: System.Collections.CollectionBase.GetEnumerator
-  commentId: M:System.Collections.CollectionBase.GetEnumerator
-  parent: System.Collections.CollectionBase
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.getenumerator
-  name: GetEnumerator()
-  nameWithType: CollectionBase.GetEnumerator()
-  fullName: System.Collections.CollectionBase.GetEnumerator()
-  spec.csharp:
-  - uid: System.Collections.CollectionBase.GetEnumerator
-    name: GetEnumerator
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.getenumerator
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Collections.CollectionBase.GetEnumerator
-    name: GetEnumerator
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.getenumerator
-  - name: (
-  - name: )
-- uid: System.Collections.CollectionBase.OnSet(System.Int32,System.Object,System.Object)
-  commentId: M:System.Collections.CollectionBase.OnSet(System.Int32,System.Object,System.Object)
-  parent: System.Collections.CollectionBase
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.onset
-  name: OnSet(int, object, object)
-  nameWithType: CollectionBase.OnSet(int, object, object)
-  fullName: System.Collections.CollectionBase.OnSet(int, object, object)
-  nameWithType.vb: CollectionBase.OnSet(Integer, Object, Object)
-  fullName.vb: System.Collections.CollectionBase.OnSet(Integer, Object, Object)
-  name.vb: OnSet(Integer, Object, Object)
-  spec.csharp:
-  - uid: System.Collections.CollectionBase.OnSet(System.Int32,System.Object,System.Object)
-    name: OnSet
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.onset
-  - name: (
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Collections.CollectionBase.OnSet(System.Int32,System.Object,System.Object)
-    name: OnSet
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.onset
-  - name: (
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Collections.CollectionBase.OnInsert(System.Int32,System.Object)
-  commentId: M:System.Collections.CollectionBase.OnInsert(System.Int32,System.Object)
-  parent: System.Collections.CollectionBase
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.oninsert
-  name: OnInsert(int, object)
-  nameWithType: CollectionBase.OnInsert(int, object)
-  fullName: System.Collections.CollectionBase.OnInsert(int, object)
-  nameWithType.vb: CollectionBase.OnInsert(Integer, Object)
-  fullName.vb: System.Collections.CollectionBase.OnInsert(Integer, Object)
-  name.vb: OnInsert(Integer, Object)
-  spec.csharp:
-  - uid: System.Collections.CollectionBase.OnInsert(System.Int32,System.Object)
-    name: OnInsert
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.oninsert
-  - name: (
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Collections.CollectionBase.OnInsert(System.Int32,System.Object)
-    name: OnInsert
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.oninsert
-  - name: (
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Collections.CollectionBase.OnClear
-  commentId: M:System.Collections.CollectionBase.OnClear
-  parent: System.Collections.CollectionBase
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.onclear
-  name: OnClear()
-  nameWithType: CollectionBase.OnClear()
-  fullName: System.Collections.CollectionBase.OnClear()
-  spec.csharp:
-  - uid: System.Collections.CollectionBase.OnClear
-    name: OnClear
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.onclear
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Collections.CollectionBase.OnClear
-    name: OnClear
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.onclear
-  - name: (
-  - name: )
-- uid: System.Collections.CollectionBase.OnRemove(System.Int32,System.Object)
-  commentId: M:System.Collections.CollectionBase.OnRemove(System.Int32,System.Object)
-  parent: System.Collections.CollectionBase
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.onremove
-  name: OnRemove(int, object)
-  nameWithType: CollectionBase.OnRemove(int, object)
-  fullName: System.Collections.CollectionBase.OnRemove(int, object)
-  nameWithType.vb: CollectionBase.OnRemove(Integer, Object)
-  fullName.vb: System.Collections.CollectionBase.OnRemove(Integer, Object)
-  name.vb: OnRemove(Integer, Object)
-  spec.csharp:
-  - uid: System.Collections.CollectionBase.OnRemove(System.Int32,System.Object)
-    name: OnRemove
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.onremove
-  - name: (
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Collections.CollectionBase.OnRemove(System.Int32,System.Object)
-    name: OnRemove
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.onremove
-  - name: (
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Collections.CollectionBase.OnValidate(System.Object)
-  commentId: M:System.Collections.CollectionBase.OnValidate(System.Object)
-  parent: System.Collections.CollectionBase
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.onvalidate
-  name: OnValidate(object)
-  nameWithType: CollectionBase.OnValidate(object)
-  fullName: System.Collections.CollectionBase.OnValidate(object)
-  nameWithType.vb: CollectionBase.OnValidate(Object)
-  fullName.vb: System.Collections.CollectionBase.OnValidate(Object)
-  name.vb: OnValidate(Object)
-  spec.csharp:
-  - uid: System.Collections.CollectionBase.OnValidate(System.Object)
-    name: OnValidate
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.onvalidate
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Collections.CollectionBase.OnValidate(System.Object)
-    name: OnValidate
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.onvalidate
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Collections.CollectionBase.OnSetComplete(System.Int32,System.Object,System.Object)
-  commentId: M:System.Collections.CollectionBase.OnSetComplete(System.Int32,System.Object,System.Object)
-  parent: System.Collections.CollectionBase
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.onsetcomplete
-  name: OnSetComplete(int, object, object)
-  nameWithType: CollectionBase.OnSetComplete(int, object, object)
-  fullName: System.Collections.CollectionBase.OnSetComplete(int, object, object)
-  nameWithType.vb: CollectionBase.OnSetComplete(Integer, Object, Object)
-  fullName.vb: System.Collections.CollectionBase.OnSetComplete(Integer, Object, Object)
-  name.vb: OnSetComplete(Integer, Object, Object)
-  spec.csharp:
-  - uid: System.Collections.CollectionBase.OnSetComplete(System.Int32,System.Object,System.Object)
-    name: OnSetComplete
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.onsetcomplete
-  - name: (
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Collections.CollectionBase.OnSetComplete(System.Int32,System.Object,System.Object)
-    name: OnSetComplete
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.onsetcomplete
-  - name: (
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Collections.CollectionBase.OnInsertComplete(System.Int32,System.Object)
-  commentId: M:System.Collections.CollectionBase.OnInsertComplete(System.Int32,System.Object)
-  parent: System.Collections.CollectionBase
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.oninsertcomplete
-  name: OnInsertComplete(int, object)
-  nameWithType: CollectionBase.OnInsertComplete(int, object)
-  fullName: System.Collections.CollectionBase.OnInsertComplete(int, object)
-  nameWithType.vb: CollectionBase.OnInsertComplete(Integer, Object)
-  fullName.vb: System.Collections.CollectionBase.OnInsertComplete(Integer, Object)
-  name.vb: OnInsertComplete(Integer, Object)
-  spec.csharp:
-  - uid: System.Collections.CollectionBase.OnInsertComplete(System.Int32,System.Object)
-    name: OnInsertComplete
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.oninsertcomplete
-  - name: (
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Collections.CollectionBase.OnInsertComplete(System.Int32,System.Object)
-    name: OnInsertComplete
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.oninsertcomplete
-  - name: (
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Collections.CollectionBase.OnClearComplete
-  commentId: M:System.Collections.CollectionBase.OnClearComplete
-  parent: System.Collections.CollectionBase
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.onclearcomplete
-  name: OnClearComplete()
-  nameWithType: CollectionBase.OnClearComplete()
-  fullName: System.Collections.CollectionBase.OnClearComplete()
-  spec.csharp:
-  - uid: System.Collections.CollectionBase.OnClearComplete
-    name: OnClearComplete
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.onclearcomplete
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Collections.CollectionBase.OnClearComplete
-    name: OnClearComplete
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.onclearcomplete
-  - name: (
-  - name: )
-- uid: System.Collections.CollectionBase.OnRemoveComplete(System.Int32,System.Object)
-  commentId: M:System.Collections.CollectionBase.OnRemoveComplete(System.Int32,System.Object)
-  parent: System.Collections.CollectionBase
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.onremovecomplete
-  name: OnRemoveComplete(int, object)
-  nameWithType: CollectionBase.OnRemoveComplete(int, object)
-  fullName: System.Collections.CollectionBase.OnRemoveComplete(int, object)
-  nameWithType.vb: CollectionBase.OnRemoveComplete(Integer, Object)
-  fullName.vb: System.Collections.CollectionBase.OnRemoveComplete(Integer, Object)
-  name.vb: OnRemoveComplete(Integer, Object)
-  spec.csharp:
-  - uid: System.Collections.CollectionBase.OnRemoveComplete(System.Int32,System.Object)
-    name: OnRemoveComplete
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.onremovecomplete
-  - name: (
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Collections.CollectionBase.OnRemoveComplete(System.Int32,System.Object)
-    name: OnRemoveComplete
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.onremovecomplete
-  - name: (
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Collections.CollectionBase.InnerList
-  commentId: P:System.Collections.CollectionBase.InnerList
-  parent: System.Collections.CollectionBase
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.innerlist
-  name: InnerList
-  nameWithType: CollectionBase.InnerList
-  fullName: System.Collections.CollectionBase.InnerList
-- uid: System.Collections.CollectionBase.List
-  commentId: P:System.Collections.CollectionBase.List
-  parent: System.Collections.CollectionBase
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.list
-  name: List
-  nameWithType: CollectionBase.List
-  fullName: System.Collections.CollectionBase.List
-- uid: System.Collections.CollectionBase.Capacity
-  commentId: P:System.Collections.CollectionBase.Capacity
-  parent: System.Collections.CollectionBase
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.capacity
-  name: Capacity
-  nameWithType: CollectionBase.Capacity
-  fullName: System.Collections.CollectionBase.Capacity
-- uid: System.Collections.CollectionBase.Count
-  commentId: P:System.Collections.CollectionBase.Count
-  parent: System.Collections.CollectionBase
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.collectionbase.count
-  name: Count
-  nameWithType: CollectionBase.Count
-  fullName: System.Collections.CollectionBase.Count
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.Globalization.FormattedAddress.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<FormattedAddress, To>(FormattedAddress)
-  nameWithType: EnumUtil.MapEnums<FormattedAddress, To>(FormattedAddress)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Globalization.FormattedAddress, To>(SuperOffice.CRM.Globalization.FormattedAddress)
-  nameWithType.vb: EnumUtil.MapEnums(Of FormattedAddress, To)(FormattedAddress)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Globalization.FormattedAddress, To)(SuperOffice.CRM.Globalization.FormattedAddress)
-  name.vb: MapEnums(Of FormattedAddress, To)(FormattedAddress)
+  name: MapEnums<FormattedAddress, To>()
+  nameWithType: EnumUtil.MapEnums<FormattedAddress, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Globalization.FormattedAddress, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of FormattedAddress, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Globalization.FormattedAddress, To)()
+  name.vb: MapEnums(Of FormattedAddress, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Globalization.FormattedAddress)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<FormattedAddress, To>
+    nameWithType: EnumUtil.MapEnums<FormattedAddress, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Globalization.FormattedAddress, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Globalization.FormattedAddress
-    name: FormattedAddress
-    isExternal: true
-    href: SuperOffice.CRM.Globalization.FormattedAddress.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Globalization.FormattedAddress
-    name: FormattedAddress
-    isExternal: true
-    href: SuperOffice.CRM.Globalization.FormattedAddress.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Globalization.FormattedAddress)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of FormattedAddress, To)
+    nameWithType: EnumUtil.MapEnums(Of FormattedAddress, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Globalization.FormattedAddress, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Globalization.FormattedAddress
-    name: FormattedAddress
-    isExternal: true
-    href: SuperOffice.CRM.Globalization.FormattedAddress.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Globalization.FormattedAddress
-    name: FormattedAddress
-    isExternal: true
-    href: SuperOffice.CRM.Globalization.FormattedAddress.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Globalization.FormattedAddress.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<FormattedAddress, To>(FormattedAddress)
-  nameWithType: Converters.MapEnums<FormattedAddress, To>(FormattedAddress)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Globalization.FormattedAddress, To>(SuperOffice.CRM.Globalization.FormattedAddress)
-  nameWithType.vb: Converters.MapEnums(Of FormattedAddress, To)(FormattedAddress)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Globalization.FormattedAddress, To)(SuperOffice.CRM.Globalization.FormattedAddress)
-  name.vb: MapEnums(Of FormattedAddress, To)(FormattedAddress)
+  name: MapEnums<FormattedAddress, To>()
+  nameWithType: Converters.MapEnums<FormattedAddress, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Globalization.FormattedAddress, To>()
+  nameWithType.vb: Converters.MapEnums(Of FormattedAddress, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Globalization.FormattedAddress, To)()
+  name.vb: MapEnums(Of FormattedAddress, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Globalization.FormattedAddress)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<FormattedAddress, To>
+    nameWithType: Converters.MapEnums<FormattedAddress, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Globalization.FormattedAddress, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Globalization.FormattedAddress
-    name: FormattedAddress
-    isExternal: true
-    href: SuperOffice.CRM.Globalization.FormattedAddress.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Globalization.FormattedAddress
-    name: FormattedAddress
-    isExternal: true
-    href: SuperOffice.CRM.Globalization.FormattedAddress.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Globalization.FormattedAddress)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of FormattedAddress, To)
+    nameWithType: Converters.MapEnums(Of FormattedAddress, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Globalization.FormattedAddress, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Globalization.FormattedAddress
-    name: FormattedAddress
-    isExternal: true
-    href: SuperOffice.CRM.Globalization.FormattedAddress.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Globalization.FormattedAddress
-    name: FormattedAddress
-    isExternal: true
-    href: SuperOffice.CRM.Globalization.FormattedAddress.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
-- uid: System.Collections
-  commentId: N:System.Collections
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Collections
-  nameWithType: System.Collections
-  fullName: System.Collections
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -1039,45 +233,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -1086,107 +278,50 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
 - uid: SuperOffice.CRM.Globalization.FormattedAddress.ToString*
   commentId: Overload:SuperOffice.CRM.Globalization.FormattedAddress.ToString
   isExternal: true
-  href: SuperOffice.CRM.Globalization.FormattedAddress.html#SuperOffice_CRM_Globalization_FormattedAddress_ToString
   name: ToString
   nameWithType: FormattedAddress.ToString
   fullName: SuperOffice.CRM.Globalization.FormattedAddress.ToString
@@ -1194,49 +329,32 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.CRM.Globalization.FormattedAddress.#ctor*
   commentId: Overload:SuperOffice.CRM.Globalization.FormattedAddress.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Globalization.FormattedAddress.html#SuperOffice_CRM_Globalization_FormattedAddress__ctor
   name: FormattedAddress
   nameWithType: FormattedAddress.FormattedAddress
   fullName: SuperOffice.CRM.Globalization.FormattedAddress.FormattedAddress
-  nameWithType.vb: FormattedAddress.New
-  fullName.vb: SuperOffice.CRM.Globalization.FormattedAddress.New
-  name.vb: New
 - uid: SuperOffice.CRM.Globalization.FormattedAddress.Item*
   commentId: Overload:SuperOffice.CRM.Globalization.FormattedAddress.Item
   isExternal: true
-  href: SuperOffice.CRM.Globalization.FormattedAddress.html#SuperOffice_CRM_Globalization_FormattedAddress_Item_System_Int32_
-  name: this
-  nameWithType: FormattedAddress.this
-  fullName: SuperOffice.CRM.Globalization.FormattedAddress.this
-  nameWithType.vb: FormattedAddress.this[]
-  fullName.vb: SuperOffice.CRM.Globalization.FormattedAddress.this[]
-  name.vb: this[]
+  name: Item
+  nameWithType: FormattedAddress.Item
+  fullName: SuperOffice.CRM.Globalization.FormattedAddress.Item
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Globalization.FormattedFields
   commentId: T:SuperOffice.CRM.Globalization.FormattedFields
   parent: SuperOffice.CRM.Globalization
   isExternal: true
-  href: SuperOffice.CRM.Globalization.FormattedFields.html
   name: FormattedFields
   nameWithType: FormattedFields
   fullName: SuperOffice.CRM.Globalization.FormattedFields

@@ -17,27 +17,18 @@ items:
   nameWithType: ChangedDataItem
   fullName: SuperOffice.CRM.Services.ChangedDataItem
   type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Tablename/recordid pair used to refer to records
-
-    <p></p>
-
-    Carrier object for ChangedDataItem.
-
-    Services for the ChangedDataItem Carrier is available from the <xref href="SuperOffice.CRM.Services.IQuoteAgent?text=Quote+Agent" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nTablename/recordid pair used to refer to records\n<p></p>\nCarrier object for ChangedDataItem.\nServices for the ChangedDataItem Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IQuoteAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public class ChangedDataItem : Carrier
+    content: 'public class ChangedDataItem : Carrier'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
-
-      Public Class ChangedDataItem Inherits Carrier
+      Public Class ChangedDataItem
+          Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.QuoteAgent
     commentId: T:SuperOffice.CRM.Services.QuoteAgent
@@ -45,14 +36,12 @@ items:
     commentId: T:SuperOffice.CRM.Services.IQuoteAgent
   inheritance:
   - System.Object
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.ChangedDataItem.#ctor
   commentId: M:SuperOffice.CRM.Services.ChangedDataItem.#ctor
   id: '#ctor'
@@ -64,18 +53,21 @@ items:
   nameWithType: ChangedDataItem.ChangedDataItem()
   fullName: SuperOffice.CRM.Services.ChangedDataItem.ChangedDataItem()
   type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Default constructor
-  example: []
+  summary: "\nDefault constructor\n"
   syntax:
     content: public ChangedDataItem()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.ChangedDataItem.#ctor*
-  nameWithType.vb: ChangedDataItem.New()
-  fullName.vb: SuperOffice.CRM.Services.ChangedDataItem.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.ChangedDataItem.ToString
   commentId: M:SuperOffice.CRM.Services.ChangedDataItem.ToString
   id: ToString
@@ -87,18 +79,26 @@ items:
   nameWithType: ChangedDataItem.ToString()
   fullName: SuperOffice.CRM.Services.ChangedDataItem.ToString()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the carrier contents as a formatted string.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string.\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString() As String
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.CRM.Services.ChangedDataItem.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Services.ChangedDataItem.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.ChangedDataItem.ToString(System.String)
   id: ToString(System.String)
@@ -106,18 +106,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(string)
-  nameWithType: ChangedDataItem.ToString(string)
-  fullName: SuperOffice.CRM.Services.ChangedDataItem.ToString(string)
+  name: ToString(String)
+  nameWithType: ChangedDataItem.ToString(String)
+  fullName: SuperOffice.CRM.Services.ChangedDataItem.ToString(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Returns the carrier contents as a formatted string, useful for debugging.
-
-    Each line in the output is prefixed with the input value.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -129,9 +128,10 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.ChangedDataItem.ToString*
-  nameWithType.vb: ChangedDataItem.ToString(String)
-  fullName.vb: SuperOffice.CRM.Services.ChangedDataItem.ToString(String)
-  name.vb: ToString(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.ChangedDataItem.Tablename
   commentId: P:SuperOffice.CRM.Services.ChangedDataItem.Tablename
   id: Tablename
@@ -143,28 +143,28 @@ items:
   nameWithType: ChangedDataItem.Tablename
   fullName: SuperOffice.CRM.Services.ChangedDataItem.Tablename
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Name of table, standardized to lowercase
-  example: []
+  summary: "\nName of table, standardized to lowercase \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string Tablename { get; set; }
+    content: public virtual string Tablename { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Tablename As String
+    content.vb: Public Overridable Property Tablename As String
   overload: SuperOffice.CRM.Services.ChangedDataItem.Tablename*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ChangedDataItem.RecordId
   commentId: P:SuperOffice.CRM.Services.ChangedDataItem.RecordId
   id: RecordId
@@ -176,33 +176,38 @@ items:
   nameWithType: ChangedDataItem.RecordId
   fullName: SuperOffice.CRM.Services.ChangedDataItem.RecordId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Id of record, should never be 0
-  example: []
+  summary: "\nId of record, should never be 0 \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int RecordId { get; set; }
+    content: public virtual int RecordId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property RecordId As Integer
+    content.vb: Public Overridable Property RecordId As Integer
   overload: SuperOffice.CRM.Services.ChangedDataItem.RecordId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
 - uid: SuperOffice.CRM.Services.QuoteAgent
   commentId: T:SuperOffice.CRM.Services.QuoteAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteAgent.html
   name: QuoteAgent
   nameWithType: QuoteAgent
   fullName: SuperOffice.CRM.Services.QuoteAgent
@@ -210,79 +215,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.IQuoteAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.IQuoteAgent.html
   name: IQuoteAgent
   nameWithType: IQuoteAgent
   fullName: SuperOffice.CRM.Services.IQuoteAgent
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.ChangedDataItem.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.ChangedDataItem.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.ChangedDataItem.html#SuperOffice_CRM_Services_ChangedDataItem__ctor
   name: ChangedDataItem
   nameWithType: ChangedDataItem.ChangedDataItem
   fullName: SuperOffice.CRM.Services.ChangedDataItem.ChangedDataItem
-  nameWithType.vb: ChangedDataItem.New
-  fullName.vb: SuperOffice.CRM.Services.ChangedDataItem.New
-  name.vb: New
 - uid: SuperOffice.CRM.Services.ChangedDataItem.ToString*
   commentId: Overload:SuperOffice.CRM.Services.ChangedDataItem.ToString
   isExternal: true
-  href: SuperOffice.CRM.Services.ChangedDataItem.html#SuperOffice_CRM_Services_ChangedDataItem_ToString
   name: ToString
   nameWithType: ChangedDataItem.ToString
   fullName: SuperOffice.CRM.Services.ChangedDataItem.ToString
@@ -290,24 +234,24 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.ChangedDataItem.Tablename*
   commentId: Overload:SuperOffice.CRM.Services.ChangedDataItem.Tablename
   isExternal: true
-  href: SuperOffice.CRM.Services.ChangedDataItem.html#SuperOffice_CRM_Services_ChangedDataItem_Tablename
   name: Tablename
   nameWithType: ChangedDataItem.Tablename
   fullName: SuperOffice.CRM.Services.ChangedDataItem.Tablename
 - uid: SuperOffice.CRM.Services.ChangedDataItem.RecordId*
   commentId: Overload:SuperOffice.CRM.Services.ChangedDataItem.RecordId
   isExternal: true
-  href: SuperOffice.CRM.Services.ChangedDataItem.html#SuperOffice_CRM_Services_ChangedDataItem_RecordId
   name: RecordId
   nameWithType: ChangedDataItem.RecordId
   fullName: SuperOffice.CRM.Services.ChangedDataItem.RecordId
@@ -315,10 +259,6 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

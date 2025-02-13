@@ -32,28 +32,24 @@ items:
   nameWithType: CRMScriptEntity
   fullName: SuperOffice.WebApi.Data.CRMScriptEntity
   type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Carrier object for CRMScriptEntity.
+  summary: "\nCarrier object for CRMScriptEntity.\nCRM Scripts - stored in the ejScript table, including source code.    \n"
+  remarks: >
+    Use <xref href="SuperOffice.CRM.Services.ArchiveAgent" data-throw-if-not-resolved="false"></xref>:
 
-    CRM Scripts - stored in the ejScript table, including source code.
-  remarks: >-
-    Use <xref href="SuperOffice.CRM.Services.ArchiveAgent?text=Archive+agent" data-throw-if-not-resolved="false"></xref>:
-                All CRMScriptEntity: <pre><code class="lang-csharp">"Ejscripts"</code></pre>
+    All CRMScriptEntity: <pre><code>&quot;Ejscripts&quot;</code></pre>
   example:
-  - >-
-    Get CRMScriptEntity 123 using the WebApi client:
-
-    <pre><code class="lang-csharp">var configuration = new WebApiConfiguration(url);
-
-    var agent = new CRMScriptAgent(configuration);
-
-    var cRMScriptEntity = agent.GetCRMScriptEntity( 123 );</code></pre>
+  - "\nGet CRMScriptEntity 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new CRMScriptAgent(configuration);\nvar cRMScriptEntity = agent.GetCRMScriptEntity( 123 );</code></pre>\n"
   syntax:
     content: 'public class CRMScriptEntity : Carrier'
-    content.vb: Public Class CRMScriptEntity Inherits Carrier
+    content.vb: >-
+      Public Class CRMScriptEntity
+          Inherits Carrier
   seealso:
   - linkId: SuperOffice.WebApi.Agents.CRMScriptAgent
     commentId: T:SuperOffice.WebApi.Agents.CRMScriptAgent
@@ -67,13 +63,12 @@ items:
   inheritedMembers:
   - SuperOffice.WebApi.Data.Carrier.TableRight
   - SuperOffice.WebApi.Data.Carrier.FieldProperties
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.WebApi.Data.CRMScriptEntity.#ctor
   commentId: M:SuperOffice.WebApi.Data.CRMScriptEntity.#ctor
   id: '#ctor'
@@ -85,18 +80,21 @@ items:
   nameWithType: CRMScriptEntity.CRMScriptEntity()
   fullName: SuperOffice.WebApi.Data.CRMScriptEntity.CRMScriptEntity()
   type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Default constructor - defaults any enum props to 0.
-  example: []
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
   syntax:
     content: public CRMScriptEntity()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.WebApi.Data.CRMScriptEntity.#ctor*
-  nameWithType.vb: CRMScriptEntity.New()
-  fullName.vb: SuperOffice.WebApi.Data.CRMScriptEntity.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.CRMScriptEntity.EjscriptId
   commentId: P:SuperOffice.WebApi.Data.CRMScriptEntity.EjscriptId
   id: EjscriptId
@@ -108,11 +106,13 @@ items:
   nameWithType: CRMScriptEntity.EjscriptId
   fullName: SuperOffice.WebApi.Data.CRMScriptEntity.EjscriptId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Primary key
-  example: []
+  summary: "\nPrimary key\n"
   syntax:
     content: public virtual int EjscriptId { get; set; }
     parameters: []
@@ -120,6 +120,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property EjscriptId As Integer
   overload: SuperOffice.WebApi.Data.CRMScriptEntity.EjscriptId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.CRMScriptEntity.UniqueIdentifier
   commentId: P:SuperOffice.WebApi.Data.CRMScriptEntity.UniqueIdentifier
   id: UniqueIdentifier
@@ -131,11 +139,13 @@ items:
   nameWithType: CRMScriptEntity.UniqueIdentifier
   fullName: SuperOffice.WebApi.Data.CRMScriptEntity.UniqueIdentifier
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Global unique identifier, accross customers/tenants
-  example: []
+  summary: "\nGlobal unique identifier, accross customers/tenants\n"
   syntax:
     content: public virtual string UniqueIdentifier { get; set; }
     parameters: []
@@ -143,6 +153,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property UniqueIdentifier As String
   overload: SuperOffice.WebApi.Data.CRMScriptEntity.UniqueIdentifier*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.CRMScriptEntity.Name
   commentId: P:SuperOffice.WebApi.Data.CRMScriptEntity.Name
   id: Name
@@ -154,11 +172,13 @@ items:
   nameWithType: CRMScriptEntity.Name
   fullName: SuperOffice.WebApi.Data.CRMScriptEntity.Name
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: A description of this script
-  example: []
+  summary: "\nA description of this script\n"
   syntax:
     content: public virtual string Name { get; set; }
     parameters: []
@@ -166,6 +186,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property Name As String
   overload: SuperOffice.WebApi.Data.CRMScriptEntity.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.CRMScriptEntity.Description
   commentId: P:SuperOffice.WebApi.Data.CRMScriptEntity.Description
   id: Description
@@ -177,11 +205,13 @@ items:
   nameWithType: CRMScriptEntity.Description
   fullName: SuperOffice.WebApi.Data.CRMScriptEntity.Description
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Optional description of what this script is used for.
-  example: []
+  summary: "\nOptional description of what this script is used for.\n"
   syntax:
     content: public virtual string Description { get; set; }
     parameters: []
@@ -189,6 +219,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property Description As String
   overload: SuperOffice.WebApi.Data.CRMScriptEntity.Description*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.CRMScriptEntity.IncludeId
   commentId: P:SuperOffice.WebApi.Data.CRMScriptEntity.IncludeId
   id: IncludeId
@@ -200,11 +238,13 @@ items:
   nameWithType: CRMScriptEntity.IncludeId
   fullName: SuperOffice.WebApi.Data.CRMScriptEntity.IncludeId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: A unique name used for including this script in another
-  example: []
+  summary: "\nA unique name used for including this script in another\n"
   syntax:
     content: public virtual string IncludeId { get; set; }
     parameters: []
@@ -212,6 +252,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property IncludeId As String
   overload: SuperOffice.WebApi.Data.CRMScriptEntity.IncludeId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.CRMScriptEntity.AccessKey
   commentId: P:SuperOffice.WebApi.Data.CRMScriptEntity.AccessKey
   id: AccessKey
@@ -223,11 +271,13 @@ items:
   nameWithType: CRMScriptEntity.AccessKey
   fullName: SuperOffice.WebApi.Data.CRMScriptEntity.AccessKey
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Access key used to run this script on the customer pages
-  example: []
+  summary: "\nAccess key used to run this script on the customer pages\n"
   syntax:
     content: public virtual string AccessKey { get; set; }
     parameters: []
@@ -235,6 +285,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property AccessKey As String
   overload: SuperOffice.WebApi.Data.CRMScriptEntity.AccessKey*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.CRMScriptEntity.HierarchyId
   commentId: P:SuperOffice.WebApi.Data.CRMScriptEntity.HierarchyId
   id: HierarchyId
@@ -246,11 +304,13 @@ items:
   nameWithType: CRMScriptEntity.HierarchyId
   fullName: SuperOffice.WebApi.Data.CRMScriptEntity.HierarchyId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The script is inside this hierarchy folder
-  example: []
+  summary: "\nThe script is inside this hierarchy folder\n"
   syntax:
     content: public virtual int HierarchyId { get; set; }
     parameters: []
@@ -258,6 +318,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property HierarchyId As Integer
   overload: SuperOffice.WebApi.Data.CRMScriptEntity.HierarchyId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.CRMScriptEntity.Source
   commentId: P:SuperOffice.WebApi.Data.CRMScriptEntity.Source
   id: Source
@@ -269,11 +337,13 @@ items:
   nameWithType: CRMScriptEntity.Source
   fullName: SuperOffice.WebApi.Data.CRMScriptEntity.Source
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The script
-  example: []
+  summary: "\nThe script\n"
   syntax:
     content: public virtual string Source { get; set; }
     parameters: []
@@ -281,6 +351,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property Source As String
   overload: SuperOffice.WebApi.Data.CRMScriptEntity.Source*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.CRMScriptEntity.SourceCode
   commentId: P:SuperOffice.WebApi.Data.CRMScriptEntity.SourceCode
   id: SourceCode
@@ -292,11 +370,13 @@ items:
   nameWithType: CRMScriptEntity.SourceCode
   fullName: SuperOffice.WebApi.Data.CRMScriptEntity.SourceCode
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Contains the source code of the script
-  example: []
+  summary: "\nContains the source code of the script\n"
   syntax:
     content: public virtual string SourceCode { get; set; }
     parameters: []
@@ -304,6 +384,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property SourceCode As String
   overload: SuperOffice.WebApi.Data.CRMScriptEntity.SourceCode*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.CRMScriptEntity.ScriptType_String
   commentId: P:SuperOffice.WebApi.Data.CRMScriptEntity.ScriptType_String
   id: ScriptType_String
@@ -315,36 +403,29 @@ items:
   nameWithType: CRMScriptEntity.ScriptType_String
   fullName: SuperOffice.WebApi.Data.CRMScriptEntity.ScriptType_String
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    The type/language of this script
-
-    Raw string enum value.
-  example: []
+  summary: "\nThe type/language of this script\nRaw string enum value.\n"
   syntax:
-    content: >-
-      [JsonProperty("ScriptType")]
-
-      public string ScriptType_String { get; set; }
+    content: public string ScriptType_String { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <JsonProperty("ScriptType")>
-
-      Public Property ScriptType_String As String
+    content.vb: Public Property ScriptType_String As String
   overload: SuperOffice.WebApi.Data.CRMScriptEntity.ScriptType_String*
   seealso:
   - linkId: SuperOffice.WebApi.Data.CRMScriptEntity.ScriptType
     commentId: P:SuperOffice.WebApi.Data.CRMScriptEntity.ScriptType
-  attributes:
-  - type: Newtonsoft.Json.JsonPropertyAttribute
-    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: ScriptType
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.CRMScriptEntity.ScriptType
   commentId: P:SuperOffice.WebApi.Data.CRMScriptEntity.ScriptType
   id: ScriptType
@@ -356,34 +437,29 @@ items:
   nameWithType: CRMScriptEntity.ScriptType
   fullName: SuperOffice.WebApi.Data.CRMScriptEntity.ScriptType
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    The type/language of this script
-
-    NULL if unknown enum value.
-  example: []
+  summary: "\nThe type/language of this script\nNULL if unknown enum value.\n"
   syntax:
-    content: >-
-      [JsonIgnore]
-
-      public ScriptType? ScriptType { get; set; }
+    content: public Nullable<ScriptType> ScriptType { get; set; }
     parameters: []
     return:
       type: System.Nullable{SuperOffice.WebApi.Data.ScriptType}
-    content.vb: >-
-      <JsonIgnore>
-
-      Public Property ScriptType As ScriptType?
+    content.vb: Public Property ScriptType As Nullable(Of ScriptType)
   overload: SuperOffice.WebApi.Data.CRMScriptEntity.ScriptType*
   seealso:
   - linkId: SuperOffice.WebApi.Data.CRMScriptEntity.ScriptType_String
     commentId: P:SuperOffice.WebApi.Data.CRMScriptEntity.ScriptType_String
-  attributes:
-  - type: Newtonsoft.Json.JsonIgnoreAttribute
-    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.CRMScriptEntity.HtmlOutput
   commentId: P:SuperOffice.WebApi.Data.CRMScriptEntity.HtmlOutput
   id: HtmlOutput
@@ -395,11 +471,13 @@ items:
   nameWithType: CRMScriptEntity.HtmlOutput
   fullName: SuperOffice.WebApi.Data.CRMScriptEntity.HtmlOutput
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: True if this script will return HTML output
-  example: []
+  summary: "\nTrue if this script will return HTML output\n"
   syntax:
     content: public virtual short HtmlOutput { get; set; }
     parameters: []
@@ -407,6 +485,14 @@ items:
       type: System.Int16
     content.vb: Public Overridable Property HtmlOutput As Short
   overload: SuperOffice.WebApi.Data.CRMScriptEntity.HtmlOutput*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.CRMScriptEntity.Includes
   commentId: P:SuperOffice.WebApi.Data.CRMScriptEntity.Includes
   id: Includes
@@ -418,11 +504,13 @@ items:
   nameWithType: CRMScriptEntity.Includes
   fullName: SuperOffice.WebApi.Data.CRMScriptEntity.Includes
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The unique ids of all depencies of this script (all resolved includes)
-  example: []
+  summary: "\nThe unique ids of all depencies of this script (all resolved includes)\n"
   syntax:
     content: public virtual int[] Includes { get; set; }
     parameters: []
@@ -430,6 +518,14 @@ items:
       type: System.Int32[]
     content.vb: Public Overridable Property Includes As Integer()
   overload: SuperOffice.WebApi.Data.CRMScriptEntity.Includes*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.CRMScriptEntity.SourceMaps
   commentId: P:SuperOffice.WebApi.Data.CRMScriptEntity.SourceMaps
   id: SourceMaps
@@ -441,11 +537,13 @@ items:
   nameWithType: CRMScriptEntity.SourceMaps
   fullName: SuperOffice.WebApi.Data.CRMScriptEntity.SourceMaps
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The source maps for this script
-  example: []
+  summary: "\nThe source maps for this script\n"
   syntax:
     content: public virtual CRMScriptSourceMap[] SourceMaps { get; set; }
     parameters: []
@@ -453,6 +551,14 @@ items:
       type: SuperOffice.WebApi.Data.CRMScriptSourceMap[]
     content.vb: Public Overridable Property SourceMaps As CRMScriptSourceMap()
   overload: SuperOffice.WebApi.Data.CRMScriptEntity.SourceMaps*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.CRMScriptEntity.ValidationResult
   commentId: P:SuperOffice.WebApi.Data.CRMScriptEntity.ValidationResult
   id: ValidationResult
@@ -464,11 +570,13 @@ items:
   nameWithType: CRMScriptEntity.ValidationResult
   fullName: SuperOffice.WebApi.Data.CRMScriptEntity.ValidationResult
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The result of a validation of a TypeScript when saving
-  example: []
+  summary: "\nThe result of a validation of a TypeScript when saving\n"
   syntax:
     content: public virtual CRMScriptResult ValidationResult { get; set; }
     parameters: []
@@ -476,6 +584,14 @@ items:
       type: SuperOffice.WebApi.Data.CRMScriptResult
     content.vb: Public Overridable Property ValidationResult As CRMScriptResult
   overload: SuperOffice.WebApi.Data.CRMScriptEntity.ValidationResult*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.CRMScriptEntity.Registered
   commentId: P:SuperOffice.WebApi.Data.CRMScriptEntity.Registered
   id: Registered
@@ -487,18 +603,28 @@ items:
   nameWithType: CRMScriptEntity.Registered
   fullName: SuperOffice.WebApi.Data.CRMScriptEntity.Registered
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Registered when
-  example: []
+  summary: "\nRegistered when\n"
   syntax:
     content: public virtual DateTime Registered { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property Registered As Date
+    content.vb: Public Overridable Property Registered As DateTime
   overload: SuperOffice.WebApi.Data.CRMScriptEntity.Registered*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.CRMScriptEntity.RegisteredAssociateId
   commentId: P:SuperOffice.WebApi.Data.CRMScriptEntity.RegisteredAssociateId
   id: RegisteredAssociateId
@@ -510,11 +636,13 @@ items:
   nameWithType: CRMScriptEntity.RegisteredAssociateId
   fullName: SuperOffice.WebApi.Data.CRMScriptEntity.RegisteredAssociateId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Registered by whom
-  example: []
+  summary: "\nRegistered by whom\n"
   syntax:
     content: public virtual int RegisteredAssociateId { get; set; }
     parameters: []
@@ -522,6 +650,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property RegisteredAssociateId As Integer
   overload: SuperOffice.WebApi.Data.CRMScriptEntity.RegisteredAssociateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.CRMScriptEntity.Updated
   commentId: P:SuperOffice.WebApi.Data.CRMScriptEntity.Updated
   id: Updated
@@ -533,18 +669,28 @@ items:
   nameWithType: CRMScriptEntity.Updated
   fullName: SuperOffice.WebApi.Data.CRMScriptEntity.Updated
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Last updated when
-  example: []
+  summary: "\nLast updated when\n"
   syntax:
     content: public virtual DateTime Updated { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property Updated As Date
+    content.vb: Public Overridable Property Updated As DateTime
   overload: SuperOffice.WebApi.Data.CRMScriptEntity.Updated*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.CRMScriptEntity.UpdatedAssociateId
   commentId: P:SuperOffice.WebApi.Data.CRMScriptEntity.UpdatedAssociateId
   id: UpdatedAssociateId
@@ -556,11 +702,13 @@ items:
   nameWithType: CRMScriptEntity.UpdatedAssociateId
   fullName: SuperOffice.WebApi.Data.CRMScriptEntity.UpdatedAssociateId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Last updated by whom
-  example: []
+  summary: "\nLast updated by whom\n"
   syntax:
     content: public virtual int UpdatedAssociateId { get; set; }
     parameters: []
@@ -568,80 +716,32 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property UpdatedAssociateId As Integer
   overload: SuperOffice.WebApi.Data.CRMScriptEntity.UpdatedAssociateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
-- uid: SuperOffice.WebApi.Agents.CRMScriptAgent
-  commentId: T:SuperOffice.WebApi.Agents.CRMScriptAgent
-  isExternal: true
-  href: SuperOffice.WebApi.Agents.CRMScriptAgent.html
-  name: CRMScriptAgent
-  nameWithType: CRMScriptAgent
-  fullName: SuperOffice.WebApi.Agents.CRMScriptAgent
-- uid: SuperOffice.WebApi.Agents.ArchiveAgent
-  commentId: T:SuperOffice.WebApi.Agents.ArchiveAgent
-  isExternal: true
-  href: SuperOffice.WebApi.Agents.ArchiveAgent.html
-  name: ArchiveAgent
-  nameWithType: ArchiveAgent
-  fullName: SuperOffice.WebApi.Agents.ArchiveAgent
-- uid: ArchiveAgent.GetArchiveListByColumns2(string,string,string,string,string,int,int)
-  commentId: M:ArchiveAgent.GetArchiveListByColumns2(string,string,string,string,string,int,int)
-  isExternal: true
-- uid: SuperOffice.CRM.Services.ArchiveAgent
-  commentId: T:SuperOffice.CRM.Services.ArchiveAgent
-  isExternal: true
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.WebApi.Data.Carrier
   commentId: T:SuperOffice.WebApi.Data.Carrier
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html
   name: Carrier
   nameWithType: Carrier
   fullName: SuperOffice.WebApi.Data.Carrier
@@ -649,7 +749,6 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_TableRight
   name: TableRight
   nameWithType: Carrier.TableRight
   fullName: SuperOffice.WebApi.Data.Carrier.TableRight
@@ -657,250 +756,39 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_FieldProperties
   name: FieldProperties
   nameWithType: Carrier.FieldProperties
   fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
+- uid: SuperOffice.WebApi.Agents.CRMScriptAgent
+  commentId: T:SuperOffice.WebApi.Agents.CRMScriptAgent
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
+  name: CRMScriptAgent
+  nameWithType: CRMScriptAgent
+  fullName: SuperOffice.WebApi.Agents.CRMScriptAgent
+- uid: SuperOffice.WebApi.Agents.ArchiveAgent
+  commentId: T:SuperOffice.WebApi.Agents.ArchiveAgent
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
+  name: ArchiveAgent
+  nameWithType: ArchiveAgent
+  fullName: SuperOffice.WebApi.Agents.ArchiveAgent
+- uid: ArchiveAgent.GetArchiveListByColumns2(string,string,string,string,string,int,int)
+  commentId: M:ArchiveAgent.GetArchiveListByColumns2(string,string,string,string,string,int,int)
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Data.CRMScriptEntity.#ctor*
   commentId: Overload:SuperOffice.WebApi.Data.CRMScriptEntity.#ctor
   isExternal: true
-  href: SuperOffice.WebApi.Data.CRMScriptEntity.html#SuperOffice_WebApi_Data_CRMScriptEntity__ctor
   name: CRMScriptEntity
   nameWithType: CRMScriptEntity.CRMScriptEntity
   fullName: SuperOffice.WebApi.Data.CRMScriptEntity.CRMScriptEntity
-  nameWithType.vb: CRMScriptEntity.New
-  fullName.vb: SuperOffice.WebApi.Data.CRMScriptEntity.New
-  name.vb: New
 - uid: SuperOffice.WebApi.Data.CRMScriptEntity.EjscriptId*
   commentId: Overload:SuperOffice.WebApi.Data.CRMScriptEntity.EjscriptId
   isExternal: true
-  href: SuperOffice.WebApi.Data.CRMScriptEntity.html#SuperOffice_WebApi_Data_CRMScriptEntity_EjscriptId
   name: EjscriptId
   nameWithType: CRMScriptEntity.EjscriptId
   fullName: SuperOffice.WebApi.Data.CRMScriptEntity.EjscriptId
@@ -908,17 +796,12 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.WebApi.Data.CRMScriptEntity.UniqueIdentifier*
   commentId: Overload:SuperOffice.WebApi.Data.CRMScriptEntity.UniqueIdentifier
   isExternal: true
-  href: SuperOffice.WebApi.Data.CRMScriptEntity.html#SuperOffice_WebApi_Data_CRMScriptEntity_UniqueIdentifier
   name: UniqueIdentifier
   nameWithType: CRMScriptEntity.UniqueIdentifier
   fullName: SuperOffice.WebApi.Data.CRMScriptEntity.UniqueIdentifier
@@ -926,142 +809,153 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.WebApi.Data.CRMScriptEntity.Name*
   commentId: Overload:SuperOffice.WebApi.Data.CRMScriptEntity.Name
   isExternal: true
-  href: SuperOffice.WebApi.Data.CRMScriptEntity.html#SuperOffice_WebApi_Data_CRMScriptEntity_Name
   name: Name
   nameWithType: CRMScriptEntity.Name
   fullName: SuperOffice.WebApi.Data.CRMScriptEntity.Name
 - uid: SuperOffice.WebApi.Data.CRMScriptEntity.Description*
   commentId: Overload:SuperOffice.WebApi.Data.CRMScriptEntity.Description
   isExternal: true
-  href: SuperOffice.WebApi.Data.CRMScriptEntity.html#SuperOffice_WebApi_Data_CRMScriptEntity_Description
   name: Description
   nameWithType: CRMScriptEntity.Description
   fullName: SuperOffice.WebApi.Data.CRMScriptEntity.Description
 - uid: SuperOffice.WebApi.Data.CRMScriptEntity.IncludeId*
   commentId: Overload:SuperOffice.WebApi.Data.CRMScriptEntity.IncludeId
   isExternal: true
-  href: SuperOffice.WebApi.Data.CRMScriptEntity.html#SuperOffice_WebApi_Data_CRMScriptEntity_IncludeId
   name: IncludeId
   nameWithType: CRMScriptEntity.IncludeId
   fullName: SuperOffice.WebApi.Data.CRMScriptEntity.IncludeId
 - uid: SuperOffice.WebApi.Data.CRMScriptEntity.AccessKey*
   commentId: Overload:SuperOffice.WebApi.Data.CRMScriptEntity.AccessKey
   isExternal: true
-  href: SuperOffice.WebApi.Data.CRMScriptEntity.html#SuperOffice_WebApi_Data_CRMScriptEntity_AccessKey
   name: AccessKey
   nameWithType: CRMScriptEntity.AccessKey
   fullName: SuperOffice.WebApi.Data.CRMScriptEntity.AccessKey
 - uid: SuperOffice.WebApi.Data.CRMScriptEntity.HierarchyId*
   commentId: Overload:SuperOffice.WebApi.Data.CRMScriptEntity.HierarchyId
   isExternal: true
-  href: SuperOffice.WebApi.Data.CRMScriptEntity.html#SuperOffice_WebApi_Data_CRMScriptEntity_HierarchyId
   name: HierarchyId
   nameWithType: CRMScriptEntity.HierarchyId
   fullName: SuperOffice.WebApi.Data.CRMScriptEntity.HierarchyId
 - uid: SuperOffice.WebApi.Data.CRMScriptEntity.Source*
   commentId: Overload:SuperOffice.WebApi.Data.CRMScriptEntity.Source
   isExternal: true
-  href: SuperOffice.WebApi.Data.CRMScriptEntity.html#SuperOffice_WebApi_Data_CRMScriptEntity_Source
   name: Source
   nameWithType: CRMScriptEntity.Source
   fullName: SuperOffice.WebApi.Data.CRMScriptEntity.Source
 - uid: SuperOffice.WebApi.Data.CRMScriptEntity.SourceCode*
   commentId: Overload:SuperOffice.WebApi.Data.CRMScriptEntity.SourceCode
   isExternal: true
-  href: SuperOffice.WebApi.Data.CRMScriptEntity.html#SuperOffice_WebApi_Data_CRMScriptEntity_SourceCode
   name: SourceCode
   nameWithType: CRMScriptEntity.SourceCode
   fullName: SuperOffice.WebApi.Data.CRMScriptEntity.SourceCode
-- uid: SuperOffice.WebApi.Data.CRMScriptEntity.ScriptType
-  commentId: P:SuperOffice.WebApi.Data.CRMScriptEntity.ScriptType
-  isExternal: true
-  href: SuperOffice.WebApi.Data.CRMScriptEntity.html#SuperOffice_WebApi_Data_CRMScriptEntity_ScriptType
-  name: ScriptType
-  nameWithType: CRMScriptEntity.ScriptType
-  fullName: SuperOffice.WebApi.Data.CRMScriptEntity.ScriptType
 - uid: SuperOffice.WebApi.Data.CRMScriptEntity.ScriptType_String*
   commentId: Overload:SuperOffice.WebApi.Data.CRMScriptEntity.ScriptType_String
   isExternal: true
-  href: SuperOffice.WebApi.Data.CRMScriptEntity.html#SuperOffice_WebApi_Data_CRMScriptEntity_ScriptType_String
   name: ScriptType_String
   nameWithType: CRMScriptEntity.ScriptType_String
   fullName: SuperOffice.WebApi.Data.CRMScriptEntity.ScriptType_String
-- uid: SuperOffice.WebApi.Data.CRMScriptEntity.ScriptType_String
-  commentId: P:SuperOffice.WebApi.Data.CRMScriptEntity.ScriptType_String
+- uid: SuperOffice.WebApi.Data.CRMScriptEntity.ScriptType
+  commentId: P:SuperOffice.WebApi.Data.CRMScriptEntity.ScriptType
   isExternal: true
-  href: SuperOffice.WebApi.Data.CRMScriptEntity.html#SuperOffice_WebApi_Data_CRMScriptEntity_ScriptType_String
-  name: ScriptType_String
-  nameWithType: CRMScriptEntity.ScriptType_String
-  fullName: SuperOffice.WebApi.Data.CRMScriptEntity.ScriptType_String
 - uid: SuperOffice.WebApi.Data.CRMScriptEntity.ScriptType*
   commentId: Overload:SuperOffice.WebApi.Data.CRMScriptEntity.ScriptType
   isExternal: true
-  href: SuperOffice.WebApi.Data.CRMScriptEntity.html#SuperOffice_WebApi_Data_CRMScriptEntity_ScriptType
   name: ScriptType
   nameWithType: CRMScriptEntity.ScriptType
   fullName: SuperOffice.WebApi.Data.CRMScriptEntity.ScriptType
-- uid: System.Nullable{SuperOffice.WebApi.Data.ScriptType}
-  commentId: T:System.Nullable{SuperOffice.WebApi.Data.ScriptType}
-  parent: System
-  definition: System.Nullable`1
-  href: SuperOffice.WebApi.Data.ScriptType.html
-  name: ScriptType?
-  nameWithType: ScriptType?
-  fullName: SuperOffice.WebApi.Data.ScriptType?
-  spec.csharp:
-  - uid: SuperOffice.WebApi.Data.ScriptType
-    name: ScriptType
-    isExternal: true
-    href: SuperOffice.WebApi.Data.ScriptType.html
-  - name: '?'
-  spec.vb:
-  - uid: SuperOffice.WebApi.Data.ScriptType
-    name: ScriptType
-    isExternal: true
-    href: SuperOffice.WebApi.Data.ScriptType.html
-  - name: '?'
-- uid: System.Nullable`1
-  commentId: T:System.Nullable`1
+- uid: SuperOffice.WebApi.Data.CRMScriptEntity.ScriptType_String
+  commentId: P:SuperOffice.WebApi.Data.CRMScriptEntity.ScriptType_String
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
-  name: Nullable<T>
-  nameWithType: Nullable<T>
-  fullName: System.Nullable<T>
-  nameWithType.vb: Nullable(Of T)
-  fullName.vb: System.Nullable(Of T)
-  name.vb: Nullable(Of T)
+- uid: System.Nullable{SuperOffice.WebApi.Data.ScriptType}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.ScriptType}'
+  definition: System.Nullable`1
+  name: Nullable<ScriptType>
+  nameWithType: Nullable<ScriptType>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.ScriptType>
+  nameWithType.vb: Nullable(Of ScriptType)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.ScriptType)
+  name.vb: Nullable(Of ScriptType)
   spec.csharp:
   - uid: System.Nullable`1
     name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
   - name: <
-  - name: T
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ScriptType
+    name: ScriptType
+    nameWithType: ScriptType
+    fullName: SuperOffice.WebApi.Data.ScriptType
+    isExternal: true
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Nullable`1
     name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ScriptType
+    name: ScriptType
+    nameWithType: ScriptType
+    fullName: SuperOffice.WebApi.Data.ScriptType
+    isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Data.CRMScriptEntity.HtmlOutput*
   commentId: Overload:SuperOffice.WebApi.Data.CRMScriptEntity.HtmlOutput
   isExternal: true
-  href: SuperOffice.WebApi.Data.CRMScriptEntity.html#SuperOffice_WebApi_Data_CRMScriptEntity_HtmlOutput
   name: HtmlOutput
   nameWithType: CRMScriptEntity.HtmlOutput
   fullName: SuperOffice.WebApi.Data.CRMScriptEntity.HtmlOutput
@@ -1069,53 +963,49 @@ references:
   commentId: T:System.Int16
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int16
-  name: short
-  nameWithType: short
-  fullName: short
-  nameWithType.vb: Short
-  fullName.vb: Short
-  name.vb: Short
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.WebApi.Data.CRMScriptEntity.Includes*
   commentId: Overload:SuperOffice.WebApi.Data.CRMScriptEntity.Includes
   isExternal: true
-  href: SuperOffice.WebApi.Data.CRMScriptEntity.html#SuperOffice_WebApi_Data_CRMScriptEntity_Includes
   name: Includes
   nameWithType: CRMScriptEntity.Includes
   fullName: SuperOffice.WebApi.Data.CRMScriptEntity.Includes
 - uid: System.Int32[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int[]
-  nameWithType: int[]
-  fullName: int[]
-  nameWithType.vb: Integer()
-  fullName.vb: Integer()
-  name.vb: Integer()
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
   spec.csharp:
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.WebApi.Data.CRMScriptEntity.SourceMaps*
   commentId: Overload:SuperOffice.WebApi.Data.CRMScriptEntity.SourceMaps
   isExternal: true
-  href: SuperOffice.WebApi.Data.CRMScriptEntity.html#SuperOffice_WebApi_Data_CRMScriptEntity_SourceMaps
   name: SourceMaps
   nameWithType: CRMScriptEntity.SourceMaps
   fullName: SuperOffice.WebApi.Data.CRMScriptEntity.SourceMaps
 - uid: SuperOffice.WebApi.Data.CRMScriptSourceMap[]
   isExternal: true
-  href: SuperOffice.WebApi.Data.CRMScriptSourceMap.html
   name: CRMScriptSourceMap[]
   nameWithType: CRMScriptSourceMap[]
   fullName: SuperOffice.WebApi.Data.CRMScriptSourceMap[]
@@ -1125,21 +1015,24 @@ references:
   spec.csharp:
   - uid: SuperOffice.WebApi.Data.CRMScriptSourceMap
     name: CRMScriptSourceMap
+    nameWithType: CRMScriptSourceMap
+    fullName: SuperOffice.WebApi.Data.CRMScriptSourceMap
     isExternal: true
-    href: SuperOffice.WebApi.Data.CRMScriptSourceMap.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.WebApi.Data.CRMScriptSourceMap
     name: CRMScriptSourceMap
+    nameWithType: CRMScriptSourceMap
+    fullName: SuperOffice.WebApi.Data.CRMScriptSourceMap
     isExternal: true
-    href: SuperOffice.WebApi.Data.CRMScriptSourceMap.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.WebApi.Data.CRMScriptEntity.ValidationResult*
   commentId: Overload:SuperOffice.WebApi.Data.CRMScriptEntity.ValidationResult
   isExternal: true
-  href: SuperOffice.WebApi.Data.CRMScriptEntity.html#SuperOffice_WebApi_Data_CRMScriptEntity_ValidationResult
   name: ValidationResult
   nameWithType: CRMScriptEntity.ValidationResult
   fullName: SuperOffice.WebApi.Data.CRMScriptEntity.ValidationResult
@@ -1147,46 +1040,35 @@ references:
   commentId: T:SuperOffice.WebApi.Data.CRMScriptResult
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.CRMScriptResult.html
   name: CRMScriptResult
   nameWithType: CRMScriptResult
   fullName: SuperOffice.WebApi.Data.CRMScriptResult
 - uid: SuperOffice.WebApi.Data.CRMScriptEntity.Registered*
   commentId: Overload:SuperOffice.WebApi.Data.CRMScriptEntity.Registered
   isExternal: true
-  href: SuperOffice.WebApi.Data.CRMScriptEntity.html#SuperOffice_WebApi_Data_CRMScriptEntity_Registered
   name: Registered
   nameWithType: CRMScriptEntity.Registered
   fullName: SuperOffice.WebApi.Data.CRMScriptEntity.Registered
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
 - uid: SuperOffice.WebApi.Data.CRMScriptEntity.RegisteredAssociateId*
   commentId: Overload:SuperOffice.WebApi.Data.CRMScriptEntity.RegisteredAssociateId
   isExternal: true
-  href: SuperOffice.WebApi.Data.CRMScriptEntity.html#SuperOffice_WebApi_Data_CRMScriptEntity_RegisteredAssociateId
   name: RegisteredAssociateId
   nameWithType: CRMScriptEntity.RegisteredAssociateId
   fullName: SuperOffice.WebApi.Data.CRMScriptEntity.RegisteredAssociateId
 - uid: SuperOffice.WebApi.Data.CRMScriptEntity.Updated*
   commentId: Overload:SuperOffice.WebApi.Data.CRMScriptEntity.Updated
   isExternal: true
-  href: SuperOffice.WebApi.Data.CRMScriptEntity.html#SuperOffice_WebApi_Data_CRMScriptEntity_Updated
   name: Updated
   nameWithType: CRMScriptEntity.Updated
   fullName: SuperOffice.WebApi.Data.CRMScriptEntity.Updated
 - uid: SuperOffice.WebApi.Data.CRMScriptEntity.UpdatedAssociateId*
   commentId: Overload:SuperOffice.WebApi.Data.CRMScriptEntity.UpdatedAssociateId
   isExternal: true
-  href: SuperOffice.WebApi.Data.CRMScriptEntity.html#SuperOffice_WebApi_Data_CRMScriptEntity_UpdatedAssociateId
   name: UpdatedAssociateId
   nameWithType: CRMScriptEntity.UpdatedAssociateId
   fullName: SuperOffice.WebApi.Data.CRMScriptEntity.UpdatedAssociateId

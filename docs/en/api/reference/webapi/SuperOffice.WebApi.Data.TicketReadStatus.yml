@@ -8,6 +8,7 @@ items:
   - SuperOffice.WebApi.Data.TicketReadStatus.Green
   - SuperOffice.WebApi.Data.TicketReadStatus.Red
   - SuperOffice.WebApi.Data.TicketReadStatus.Unknown
+  - SuperOffice.WebApi.Data.TicketReadStatus.value__
   - SuperOffice.WebApi.Data.TicketReadStatus.Yellow
   langs:
   - csharp
@@ -15,18 +16,57 @@ items:
   name: TicketReadStatus
   nameWithType: TicketReadStatus
   fullName: SuperOffice.WebApi.Data.TicketReadStatus
-  type: Enum
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Whether the owner has read the ticket or not (red, yellow, green)
-
-    This Enum is used by:  ticket.read_status
-  example: []
+  summary: "\nWhether the owner has read the ticket or not (red, yellow, green)\nThis Enum is used by:  ticket.read_status\n"
   syntax:
-    content: 'public enum TicketReadStatus : short'
-    content.vb: Public Enum TicketReadStatus As Short
+    content: 'public sealed class TicketReadStatus : Enum'
+    content.vb: >-
+      Public NotInheritable Class TicketReadStatus
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.TicketReadStatus.value__
+  commentId: F:SuperOffice.WebApi.Data.TicketReadStatus.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.TicketReadStatus
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: TicketReadStatus.value__
+  fullName: SuperOffice.WebApi.Data.TicketReadStatus.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.TicketReadStatus.Unknown
   commentId: F:SuperOffice.WebApi.Data.TicketReadStatus.Unknown
   id: Unknown
@@ -38,26 +78,24 @@ items:
   nameWithType: TicketReadStatus.Unknown
   fullName: SuperOffice.WebApi.Data.TicketReadStatus.Unknown
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '0: Unknown status'
-  example: []
+  summary: "\n0: Unknown status\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Unknown = 0
+    content: public const TicketReadStatus Unknown
     return:
       type: SuperOffice.WebApi.Data.TicketReadStatus
-    content.vb: >-
-      <EnumMember>
-
-      Unknown = 0
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Unknown As TicketReadStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.TicketReadStatus.Green
   commentId: F:SuperOffice.WebApi.Data.TicketReadStatus.Green
   id: Green
@@ -69,26 +107,24 @@ items:
   nameWithType: TicketReadStatus.Green
   fullName: SuperOffice.WebApi.Data.TicketReadStatus.Green
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '1: The ticket has been read by the owner'
-  example: []
+  summary: "\n1: The ticket has been read by the owner\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Green = 1
+    content: public const TicketReadStatus Green
     return:
       type: SuperOffice.WebApi.Data.TicketReadStatus
-    content.vb: >-
-      <EnumMember>
-
-      Green = 1
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Green As TicketReadStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.TicketReadStatus.Yellow
   commentId: F:SuperOffice.WebApi.Data.TicketReadStatus.Yellow
   id: Yellow
@@ -100,26 +136,24 @@ items:
   nameWithType: TicketReadStatus.Yellow
   fullName: SuperOffice.WebApi.Data.TicketReadStatus.Yellow
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '2: The ticket has received new information since last read'
-  example: []
+  summary: "\n2: The ticket has received new information since last read\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Yellow = 2
+    content: public const TicketReadStatus Yellow
     return:
       type: SuperOffice.WebApi.Data.TicketReadStatus
-    content.vb: >-
-      <EnumMember>
-
-      Yellow = 2
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Yellow As TicketReadStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.TicketReadStatus.Red
   commentId: F:SuperOffice.WebApi.Data.TicketReadStatus.Red
   id: Red
@@ -131,69 +165,55 @@ items:
   nameWithType: TicketReadStatus.Red
   fullName: SuperOffice.WebApi.Data.TicketReadStatus.Red
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '3: The ticket is unread by the owner'
-  example: []
+  summary: "\n3: The ticket is unread by the owner\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Red = 3
+    content: public const TicketReadStatus Red
     return:
       type: SuperOffice.WebApi.Data.TicketReadStatus
-    content.vb: >-
-      <EnumMember>
-
-      Red = 3
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Red As TicketReadStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.WebApi.Data.TicketReadStatus
   commentId: T:SuperOffice.WebApi.Data.TicketReadStatus
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.TicketReadStatus.html
   name: TicketReadStatus
   nameWithType: TicketReadStatus
   fullName: SuperOffice.WebApi.Data.TicketReadStatus

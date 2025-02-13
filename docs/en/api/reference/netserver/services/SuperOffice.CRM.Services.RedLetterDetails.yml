@@ -17,27 +17,18 @@ items:
   nameWithType: RedLetterDetails
   fullName: SuperOffice.CRM.Services.RedLetterDetails
   type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Red letter day text details, all the texts related to the given day.
-
-    <p></p>
-
-    Carrier object for RedLetterDetails.
-
-    Services for the RedLetterDetails Carrier is available from the <xref href="SuperOffice.CRM.Services.IAppointmentAgent?text=Appointment+Agent" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nRed letter day text details, all the texts related to the given day.\n<p></p>\nCarrier object for RedLetterDetails.\nServices for the RedLetterDetails Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IAppointmentAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public class RedLetterDetails : Carrier
+    content: 'public class RedLetterDetails : Carrier'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
-
-      Public Class RedLetterDetails Inherits Carrier
+      Public Class RedLetterDetails
+          Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.AppointmentAgent
     commentId: T:SuperOffice.CRM.Services.AppointmentAgent
@@ -45,14 +36,12 @@ items:
     commentId: T:SuperOffice.CRM.Services.IAppointmentAgent
   inheritance:
   - System.Object
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.RedLetterDetails.#ctor
   commentId: M:SuperOffice.CRM.Services.RedLetterDetails.#ctor
   id: '#ctor'
@@ -64,18 +53,21 @@ items:
   nameWithType: RedLetterDetails.RedLetterDetails()
   fullName: SuperOffice.CRM.Services.RedLetterDetails.RedLetterDetails()
   type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Default constructor
-  example: []
+  summary: "\nDefault constructor\n"
   syntax:
     content: public RedLetterDetails()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.RedLetterDetails.#ctor*
-  nameWithType.vb: RedLetterDetails.New()
-  fullName.vb: SuperOffice.CRM.Services.RedLetterDetails.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.RedLetterDetails.ToString
   commentId: M:SuperOffice.CRM.Services.RedLetterDetails.ToString
   id: ToString
@@ -87,18 +79,26 @@ items:
   nameWithType: RedLetterDetails.ToString()
   fullName: SuperOffice.CRM.Services.RedLetterDetails.ToString()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the carrier contents as a formatted string.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string.\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString() As String
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.CRM.Services.RedLetterDetails.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Services.RedLetterDetails.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.RedLetterDetails.ToString(System.String)
   id: ToString(System.String)
@@ -106,18 +106,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(string)
-  nameWithType: RedLetterDetails.ToString(string)
-  fullName: SuperOffice.CRM.Services.RedLetterDetails.ToString(string)
+  name: ToString(String)
+  nameWithType: RedLetterDetails.ToString(String)
+  fullName: SuperOffice.CRM.Services.RedLetterDetails.ToString(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Returns the carrier contents as a formatted string, useful for debugging.
-
-    Each line in the output is prefixed with the input value.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -129,9 +128,10 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.RedLetterDetails.ToString*
-  nameWithType.vb: RedLetterDetails.ToString(String)
-  fullName.vb: SuperOffice.CRM.Services.RedLetterDetails.ToString(String)
-  name.vb: ToString(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.RedLetterDetails.OwnCountryDayTexts
   commentId: P:SuperOffice.CRM.Services.RedLetterDetails.OwnCountryDayTexts
   id: OwnCountryDayTexts
@@ -143,28 +143,28 @@ items:
   nameWithType: RedLetterDetails.OwnCountryDayTexts
   fullName: SuperOffice.CRM.Services.RedLetterDetails.OwnCountryDayTexts
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Array - possibly empty - of the texts related to one day in the redletter system.
-  example: []
+  summary: "\nArray - possibly empty - of the texts related to one day in the redletter system. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string[] OwnCountryDayTexts { get; set; }
+    content: public virtual string[] OwnCountryDayTexts { get; set; }
     parameters: []
     return:
       type: System.String[]
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property OwnCountryDayTexts As String()
+    content.vb: Public Overridable Property OwnCountryDayTexts As String()
   overload: SuperOffice.CRM.Services.RedLetterDetails.OwnCountryDayTexts*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.RedLetterDetails.OtherCountryDayTexts
   commentId: P:SuperOffice.CRM.Services.RedLetterDetails.OtherCountryDayTexts
   id: OtherCountryDayTexts
@@ -176,33 +176,38 @@ items:
   nameWithType: RedLetterDetails.OtherCountryDayTexts
   fullName: SuperOffice.CRM.Services.RedLetterDetails.OtherCountryDayTexts
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Red letter day texts for other countries than the associates' own country
-  example: []
+  summary: "\nRed letter day texts for other countries than the associates&apos; own country \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string[] OtherCountryDayTexts { get; set; }
+    content: public virtual string[] OtherCountryDayTexts { get; set; }
     parameters: []
     return:
       type: System.String[]
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property OtherCountryDayTexts As String()
+    content.vb: Public Overridable Property OtherCountryDayTexts As String()
   overload: SuperOffice.CRM.Services.RedLetterDetails.OtherCountryDayTexts*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
 - uid: SuperOffice.CRM.Services.AppointmentAgent
   commentId: T:SuperOffice.CRM.Services.AppointmentAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.AppointmentAgent.html
   name: AppointmentAgent
   nameWithType: AppointmentAgent
   fullName: SuperOffice.CRM.Services.AppointmentAgent
@@ -210,79 +215,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.IAppointmentAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.IAppointmentAgent.html
   name: IAppointmentAgent
   nameWithType: IAppointmentAgent
   fullName: SuperOffice.CRM.Services.IAppointmentAgent
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.RedLetterDetails.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.RedLetterDetails.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.RedLetterDetails.html#SuperOffice_CRM_Services_RedLetterDetails__ctor
   name: RedLetterDetails
   nameWithType: RedLetterDetails.RedLetterDetails
   fullName: SuperOffice.CRM.Services.RedLetterDetails.RedLetterDetails
-  nameWithType.vb: RedLetterDetails.New
-  fullName.vb: SuperOffice.CRM.Services.RedLetterDetails.New
-  name.vb: New
 - uid: SuperOffice.CRM.Services.RedLetterDetails.ToString*
   commentId: Overload:SuperOffice.CRM.Services.RedLetterDetails.ToString
   isExternal: true
-  href: SuperOffice.CRM.Services.RedLetterDetails.html#SuperOffice_CRM_Services_RedLetterDetails_ToString
   name: ToString
   nameWithType: RedLetterDetails.ToString
   fullName: SuperOffice.CRM.Services.RedLetterDetails.ToString
@@ -290,47 +234,50 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.RedLetterDetails.OwnCountryDayTexts*
   commentId: Overload:SuperOffice.CRM.Services.RedLetterDetails.OwnCountryDayTexts
   isExternal: true
-  href: SuperOffice.CRM.Services.RedLetterDetails.html#SuperOffice_CRM_Services_RedLetterDetails_OwnCountryDayTexts
   name: OwnCountryDayTexts
   nameWithType: RedLetterDetails.OwnCountryDayTexts
   fullName: SuperOffice.CRM.Services.RedLetterDetails.OwnCountryDayTexts
 - uid: System.String[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string[]
-  nameWithType: string[]
-  fullName: string[]
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
   nameWithType.vb: String()
-  fullName.vb: String()
+  fullName.vb: System.String()
   name.vb: String()
   spec.csharp:
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.RedLetterDetails.OtherCountryDayTexts*
   commentId: Overload:SuperOffice.CRM.Services.RedLetterDetails.OtherCountryDayTexts
   isExternal: true
-  href: SuperOffice.CRM.Services.RedLetterDetails.html#SuperOffice_CRM_Services_RedLetterDetails_OtherCountryDayTexts
   name: OtherCountryDayTexts
   nameWithType: RedLetterDetails.OtherCountryDayTexts
   fullName: SuperOffice.CRM.Services.RedLetterDetails.OtherCountryDayTexts

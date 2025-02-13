@@ -6,8 +6,8 @@ items:
   parent: SuperOffice.WebApi.Data
   children:
   - SuperOffice.WebApi.Data.Report_GenerateReportRequest.#ctor
-  - SuperOffice.WebApi.Data.Report_GenerateReportRequest.FileType
   - SuperOffice.WebApi.Data.Report_GenerateReportRequest.Filename
+  - SuperOffice.WebApi.Data.Report_GenerateReportRequest.FileType
   - SuperOffice.WebApi.Data.Report_GenerateReportRequest.LabelLayoutId
   - SuperOffice.WebApi.Data.Report_GenerateReportRequest.Language
   - SuperOffice.WebApi.Data.Report_GenerateReportRequest.ReportId
@@ -19,23 +19,25 @@ items:
   nameWithType: Report_GenerateReportRequest
   fullName: SuperOffice.WebApi.Data.Report_GenerateReportRequest
   type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  example: []
   syntax:
-    content: public class Report_GenerateReportRequest
-    content.vb: Public Class Report_GenerateReportRequest
+    content: 'public class Report_GenerateReportRequest : Object'
+    content.vb: >-
+      Public Class Report_GenerateReportRequest
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.WebApi.Data.Report_GenerateReportRequest.#ctor
   commentId: M:SuperOffice.WebApi.Data.Report_GenerateReportRequest.#ctor
   id: '#ctor'
@@ -47,16 +49,20 @@ items:
   nameWithType: Report_GenerateReportRequest.Report_GenerateReportRequest()
   fullName: SuperOffice.WebApi.Data.Report_GenerateReportRequest.Report_GenerateReportRequest()
   type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
   syntax:
     content: public Report_GenerateReportRequest()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.WebApi.Data.Report_GenerateReportRequest.#ctor*
-  nameWithType.vb: Report_GenerateReportRequest.New()
-  fullName.vb: SuperOffice.WebApi.Data.Report_GenerateReportRequest.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.Report_GenerateReportRequest.ReportId
   commentId: P:SuperOffice.WebApi.Data.Report_GenerateReportRequest.ReportId
   id: ReportId
@@ -68,10 +74,12 @@ items:
   nameWithType: Report_GenerateReportRequest.ReportId
   fullName: SuperOffice.WebApi.Data.Report_GenerateReportRequest.ReportId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  example: []
   syntax:
     content: public int ReportId { get; set; }
     parameters: []
@@ -79,6 +87,12 @@ items:
       type: System.Int32
     content.vb: Public Property ReportId As Integer
   overload: SuperOffice.WebApi.Data.Report_GenerateReportRequest.ReportId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.Report_GenerateReportRequest.LabelLayoutId
   commentId: P:SuperOffice.WebApi.Data.Report_GenerateReportRequest.LabelLayoutId
   id: LabelLayoutId
@@ -90,10 +104,12 @@ items:
   nameWithType: Report_GenerateReportRequest.LabelLayoutId
   fullName: SuperOffice.WebApi.Data.Report_GenerateReportRequest.LabelLayoutId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  example: []
   syntax:
     content: public int LabelLayoutId { get; set; }
     parameters: []
@@ -101,6 +117,12 @@ items:
       type: System.Int32
     content.vb: Public Property LabelLayoutId As Integer
   overload: SuperOffice.WebApi.Data.Report_GenerateReportRequest.LabelLayoutId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.Report_GenerateReportRequest.Filename
   commentId: P:SuperOffice.WebApi.Data.Report_GenerateReportRequest.Filename
   id: Filename
@@ -112,10 +134,12 @@ items:
   nameWithType: Report_GenerateReportRequest.Filename
   fullName: SuperOffice.WebApi.Data.Report_GenerateReportRequest.Filename
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  example: []
   syntax:
     content: public string Filename { get; set; }
     parameters: []
@@ -123,6 +147,12 @@ items:
       type: System.String
     content.vb: Public Property Filename As String
   overload: SuperOffice.WebApi.Data.Report_GenerateReportRequest.Filename*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.Report_GenerateReportRequest.Language
   commentId: P:SuperOffice.WebApi.Data.Report_GenerateReportRequest.Language
   id: Language
@@ -134,10 +164,12 @@ items:
   nameWithType: Report_GenerateReportRequest.Language
   fullName: SuperOffice.WebApi.Data.Report_GenerateReportRequest.Language
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  example: []
   syntax:
     content: public string Language { get; set; }
     parameters: []
@@ -145,6 +177,12 @@ items:
       type: System.String
     content.vb: Public Property Language As String
   overload: SuperOffice.WebApi.Data.Report_GenerateReportRequest.Language*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.Report_GenerateReportRequest.FileType
   commentId: P:SuperOffice.WebApi.Data.Report_GenerateReportRequest.FileType
   id: FileType
@@ -156,10 +194,12 @@ items:
   nameWithType: Report_GenerateReportRequest.FileType
   fullName: SuperOffice.WebApi.Data.Report_GenerateReportRequest.FileType
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  example: []
   syntax:
     content: public string FileType { get; set; }
     parameters: []
@@ -167,6 +207,12 @@ items:
       type: System.String
     content.vb: Public Property FileType As String
   overload: SuperOffice.WebApi.Data.Report_GenerateReportRequest.FileType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.Report_GenerateReportRequest.Restrictions
   commentId: P:SuperOffice.WebApi.Data.Report_GenerateReportRequest.Restrictions
   id: Restrictions
@@ -178,10 +224,12 @@ items:
   nameWithType: Report_GenerateReportRequest.Restrictions
   fullName: SuperOffice.WebApi.Data.Report_GenerateReportRequest.Restrictions
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  example: []
   syntax:
     content: public ArchiveRestrictionInfo[] Restrictions { get; set; }
     parameters: []
@@ -189,295 +237,41 @@ items:
       type: SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]
     content.vb: Public Property Restrictions As ArchiveRestrictionInfo()
   overload: SuperOffice.WebApi.Data.Report_GenerateReportRequest.Restrictions*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Data.Report_GenerateReportRequest.#ctor*
   commentId: Overload:SuperOffice.WebApi.Data.Report_GenerateReportRequest.#ctor
   isExternal: true
-  href: SuperOffice.WebApi.Data.Report_GenerateReportRequest.html#SuperOffice_WebApi_Data_Report_GenerateReportRequest__ctor
   name: Report_GenerateReportRequest
   nameWithType: Report_GenerateReportRequest.Report_GenerateReportRequest
   fullName: SuperOffice.WebApi.Data.Report_GenerateReportRequest.Report_GenerateReportRequest
-  nameWithType.vb: Report_GenerateReportRequest.New
-  fullName.vb: SuperOffice.WebApi.Data.Report_GenerateReportRequest.New
-  name.vb: New
 - uid: SuperOffice.WebApi.Data.Report_GenerateReportRequest.ReportId*
   commentId: Overload:SuperOffice.WebApi.Data.Report_GenerateReportRequest.ReportId
   isExternal: true
-  href: SuperOffice.WebApi.Data.Report_GenerateReportRequest.html#SuperOffice_WebApi_Data_Report_GenerateReportRequest_ReportId
   name: ReportId
   nameWithType: Report_GenerateReportRequest.ReportId
   fullName: SuperOffice.WebApi.Data.Report_GenerateReportRequest.ReportId
@@ -485,24 +279,18 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.WebApi.Data.Report_GenerateReportRequest.LabelLayoutId*
   commentId: Overload:SuperOffice.WebApi.Data.Report_GenerateReportRequest.LabelLayoutId
   isExternal: true
-  href: SuperOffice.WebApi.Data.Report_GenerateReportRequest.html#SuperOffice_WebApi_Data_Report_GenerateReportRequest_LabelLayoutId
   name: LabelLayoutId
   nameWithType: Report_GenerateReportRequest.LabelLayoutId
   fullName: SuperOffice.WebApi.Data.Report_GenerateReportRequest.LabelLayoutId
 - uid: SuperOffice.WebApi.Data.Report_GenerateReportRequest.Filename*
   commentId: Overload:SuperOffice.WebApi.Data.Report_GenerateReportRequest.Filename
   isExternal: true
-  href: SuperOffice.WebApi.Data.Report_GenerateReportRequest.html#SuperOffice_WebApi_Data_Report_GenerateReportRequest_Filename
   name: Filename
   nameWithType: Report_GenerateReportRequest.Filename
   fullName: SuperOffice.WebApi.Data.Report_GenerateReportRequest.Filename
@@ -510,37 +298,29 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.WebApi.Data.Report_GenerateReportRequest.Language*
   commentId: Overload:SuperOffice.WebApi.Data.Report_GenerateReportRequest.Language
   isExternal: true
-  href: SuperOffice.WebApi.Data.Report_GenerateReportRequest.html#SuperOffice_WebApi_Data_Report_GenerateReportRequest_Language
   name: Language
   nameWithType: Report_GenerateReportRequest.Language
   fullName: SuperOffice.WebApi.Data.Report_GenerateReportRequest.Language
 - uid: SuperOffice.WebApi.Data.Report_GenerateReportRequest.FileType*
   commentId: Overload:SuperOffice.WebApi.Data.Report_GenerateReportRequest.FileType
   isExternal: true
-  href: SuperOffice.WebApi.Data.Report_GenerateReportRequest.html#SuperOffice_WebApi_Data_Report_GenerateReportRequest_FileType
   name: FileType
   nameWithType: Report_GenerateReportRequest.FileType
   fullName: SuperOffice.WebApi.Data.Report_GenerateReportRequest.FileType
 - uid: SuperOffice.WebApi.Data.Report_GenerateReportRequest.Restrictions*
   commentId: Overload:SuperOffice.WebApi.Data.Report_GenerateReportRequest.Restrictions
   isExternal: true
-  href: SuperOffice.WebApi.Data.Report_GenerateReportRequest.html#SuperOffice_WebApi_Data_Report_GenerateReportRequest_Restrictions
   name: Restrictions
   nameWithType: Report_GenerateReportRequest.Restrictions
   fullName: SuperOffice.WebApi.Data.Report_GenerateReportRequest.Restrictions
 - uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]
   isExternal: true
-  href: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.html
   name: ArchiveRestrictionInfo[]
   nameWithType: ArchiveRestrictionInfo[]
   fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]
@@ -550,14 +330,18 @@ references:
   spec.csharp:
   - uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
     name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
     isExternal: true
-    href: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
     name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
     isExternal: true
-    href: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()

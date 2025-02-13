@@ -18,6 +18,7 @@ items:
   - SuperOffice.WebApi.Data.ShipmentStatus.Started
   - SuperOffice.WebApi.Data.ShipmentStatus.StatusFailed
   - SuperOffice.WebApi.Data.ShipmentStatus.TooManyRecipients
+  - SuperOffice.WebApi.Data.ShipmentStatus.value__
   - SuperOffice.WebApi.Data.ShipmentStatus.Waiting
   langs:
   - csharp
@@ -25,18 +26,57 @@ items:
   name: ShipmentStatus
   nameWithType: ShipmentStatus
   fullName: SuperOffice.WebApi.Data.ShipmentStatus
-  type: Enum
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Status for shipment (started, cancelled etc)
-
-    This Enum is used by:  s_shipment.status
-  example: []
+  summary: "\nStatus for shipment (started, cancelled etc)\nThis Enum is used by:  s_shipment.status\n"
   syntax:
-    content: 'public enum ShipmentStatus : short'
-    content.vb: Public Enum ShipmentStatus As Short
+    content: 'public sealed class ShipmentStatus : Enum'
+    content.vb: >-
+      Public NotInheritable Class ShipmentStatus
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.ShipmentStatus.value__
+  commentId: F:SuperOffice.WebApi.Data.ShipmentStatus.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.ShipmentStatus
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: ShipmentStatus.value__
+  fullName: SuperOffice.WebApi.Data.ShipmentStatus.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.ShipmentStatus.None
   commentId: F:SuperOffice.WebApi.Data.ShipmentStatus.None
   id: None
@@ -48,26 +88,24 @@ items:
   nameWithType: ShipmentStatus.None
   fullName: SuperOffice.WebApi.Data.ShipmentStatus.None
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '0: Initial status, shipment is left alone, can be used for working with shipment'
-  example: []
+  summary: "\n0: Initial status, shipment is left alone, can be used for working with shipment\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      None = 0
+    content: public const ShipmentStatus None
     return:
       type: SuperOffice.WebApi.Data.ShipmentStatus
-    content.vb: >-
-      <EnumMember>
-
-      None = 0
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const None As ShipmentStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ShipmentStatus.Ok
   commentId: F:SuperOffice.WebApi.Data.ShipmentStatus.Ok
   id: Ok
@@ -79,26 +117,24 @@ items:
   nameWithType: ShipmentStatus.Ok
   fullName: SuperOffice.WebApi.Data.ShipmentStatus.Ok
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '1: Finished, no errors.'
-  example: []
+  summary: "\n1: Finished, no errors.\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Ok = 1
+    content: public const ShipmentStatus Ok
     return:
       type: SuperOffice.WebApi.Data.ShipmentStatus
-    content.vb: >-
-      <EnumMember>
-
-      Ok = 1
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Ok As ShipmentStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ShipmentStatus.Canceled
   commentId: F:SuperOffice.WebApi.Data.ShipmentStatus.Canceled
   id: Canceled
@@ -110,26 +146,24 @@ items:
   nameWithType: ShipmentStatus.Canceled
   fullName: SuperOffice.WebApi.Data.ShipmentStatus.Canceled
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '2: Stopped by user.'
-  example: []
+  summary: "\n2: Stopped by user.\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Canceled = 2
+    content: public const ShipmentStatus Canceled
     return:
       type: SuperOffice.WebApi.Data.ShipmentStatus
-    content.vb: >-
-      <EnumMember>
-
-      Canceled = 2
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Canceled As ShipmentStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ShipmentStatus.Waiting
   commentId: F:SuperOffice.WebApi.Data.ShipmentStatus.Waiting
   id: Waiting
@@ -141,26 +175,24 @@ items:
   nameWithType: ShipmentStatus.Waiting
   fullName: SuperOffice.WebApi.Data.ShipmentStatus.Waiting
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '3: Ready for execution, in the queue.'
-  example: []
+  summary: "\n3: Ready for execution, in the queue.\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Waiting = 3
+    content: public const ShipmentStatus Waiting
     return:
       type: SuperOffice.WebApi.Data.ShipmentStatus
-    content.vb: >-
-      <EnumMember>
-
-      Waiting = 3
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Waiting As ShipmentStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ShipmentStatus.Started
   commentId: F:SuperOffice.WebApi.Data.ShipmentStatus.Started
   id: Started
@@ -172,26 +204,24 @@ items:
   nameWithType: ShipmentStatus.Started
   fullName: SuperOffice.WebApi.Data.ShipmentStatus.Started
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '4: Executing (sending).'
-  example: []
+  summary: "\n4: Executing (sending).\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Started = 4
+    content: public const ShipmentStatus Started
     return:
       type: SuperOffice.WebApi.Data.ShipmentStatus
-    content.vb: >-
-      <EnumMember>
-
-      Started = 4
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Started As ShipmentStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ShipmentStatus.StatusFailed
   commentId: F:SuperOffice.WebApi.Data.ShipmentStatus.StatusFailed
   id: StatusFailed
@@ -203,26 +233,24 @@ items:
   nameWithType: ShipmentStatus.StatusFailed
   fullName: SuperOffice.WebApi.Data.ShipmentStatus.StatusFailed
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '5: Finished, had some errors.'
-  example: []
+  summary: "\n5: Finished, had some errors.\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      StatusFailed = 5
+    content: public const ShipmentStatus StatusFailed
     return:
       type: SuperOffice.WebApi.Data.ShipmentStatus
-    content.vb: >-
-      <EnumMember>
-
-      StatusFailed = 5
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const StatusFailed As ShipmentStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ShipmentStatus.Retry
   commentId: F:SuperOffice.WebApi.Data.ShipmentStatus.Retry
   id: Retry
@@ -234,26 +262,24 @@ items:
   nameWithType: ShipmentStatus.Retry
   fullName: SuperOffice.WebApi.Data.ShipmentStatus.Retry
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '6: Retrying the addresses which did not work'
-  example: []
+  summary: "\n6: Retrying the addresses which did not work\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Retry = 6
+    content: public const ShipmentStatus Retry
     return:
       type: SuperOffice.WebApi.Data.ShipmentStatus
-    content.vb: >-
-      <EnumMember>
-
-      Retry = 6
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Retry As ShipmentStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ShipmentStatus.Populating
   commentId: F:SuperOffice.WebApi.Data.ShipmentStatus.Populating
   id: Populating
@@ -265,26 +291,24 @@ items:
   nameWithType: ShipmentStatus.Populating
   fullName: SuperOffice.WebApi.Data.ShipmentStatus.Populating
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '7: Between waiting and starting. Used when we populate the recipient lists.'
-  example: []
+  summary: "\n7: Between waiting and starting. Used when we populate the recipient lists.\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Populating = 7
+    content: public const ShipmentStatus Populating
     return:
       type: SuperOffice.WebApi.Data.ShipmentStatus
-    content.vb: >-
-      <EnumMember>
-
-      Populating = 7
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Populating As ShipmentStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ShipmentStatus.Deleted
   commentId: F:SuperOffice.WebApi.Data.ShipmentStatus.Deleted
   id: Deleted
@@ -296,26 +320,24 @@ items:
   nameWithType: ShipmentStatus.Deleted
   fullName: SuperOffice.WebApi.Data.ShipmentStatus.Deleted
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '8: Deleted'
-  example: []
+  summary: "\n8: Deleted\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Deleted = 8
+    content: public const ShipmentStatus Deleted
     return:
       type: SuperOffice.WebApi.Data.ShipmentStatus
-    content.vb: >-
-      <EnumMember>
-
-      Deleted = 8
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Deleted As ShipmentStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ShipmentStatus.AwaitPopulate
   commentId: F:SuperOffice.WebApi.Data.ShipmentStatus.AwaitPopulate
   id: AwaitPopulate
@@ -327,26 +349,24 @@ items:
   nameWithType: ShipmentStatus.AwaitPopulate
   fullName: SuperOffice.WebApi.Data.ShipmentStatus.AwaitPopulate
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '9: Awaiting ejournalCron to start populate'
-  example: []
+  summary: "\n9: Awaiting ejournalCron to start populate\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      AwaitPopulate = 9
+    content: public const ShipmentStatus AwaitPopulate
     return:
       type: SuperOffice.WebApi.Data.ShipmentStatus
-    content.vb: >-
-      <EnumMember>
-
-      AwaitPopulate = 9
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const AwaitPopulate As ShipmentStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ShipmentStatus.PopulatingOnly
   commentId: F:SuperOffice.WebApi.Data.ShipmentStatus.PopulatingOnly
   id: PopulatingOnly
@@ -358,26 +378,24 @@ items:
   nameWithType: ShipmentStatus.PopulatingOnly
   fullName: SuperOffice.WebApi.Data.ShipmentStatus.PopulatingOnly
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '10: eJournalCron has started populateOnly after someone saved choose recipients screen.'
-  example: []
+  summary: "\n10: eJournalCron has started populateOnly after someone saved choose recipients screen.\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      PopulatingOnly = 10
+    content: public const ShipmentStatus PopulatingOnly
     return:
       type: SuperOffice.WebApi.Data.ShipmentStatus
-    content.vb: >-
-      <EnumMember>
-
-      PopulatingOnly = 10
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const PopulatingOnly As ShipmentStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ShipmentStatus.PopulateAborted
   commentId: F:SuperOffice.WebApi.Data.ShipmentStatus.PopulateAborted
   id: PopulateAborted
@@ -389,26 +407,24 @@ items:
   nameWithType: ShipmentStatus.PopulateAborted
   fullName: SuperOffice.WebApi.Data.ShipmentStatus.PopulateAborted
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '11: eJournalCron has started populating, but by user request it is canceled. Now we finish populating, and then set status back to none.'
-  example: []
+  summary: "\n11: eJournalCron has started populating, but by user request it is canceled. Now we finish populating, and then set status back to none.\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      PopulateAborted = 11
+    content: public const ShipmentStatus PopulateAborted
     return:
       type: SuperOffice.WebApi.Data.ShipmentStatus
-    content.vb: >-
-      <EnumMember>
-
-      PopulateAborted = 11
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const PopulateAborted As ShipmentStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ShipmentStatus.PopulateError
   commentId: F:SuperOffice.WebApi.Data.ShipmentStatus.PopulateError
   id: PopulateError
@@ -420,26 +436,24 @@ items:
   nameWithType: ShipmentStatus.PopulateError
   fullName: SuperOffice.WebApi.Data.ShipmentStatus.PopulateError
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '12:'
-  example: []
+  summary: "\n12: \n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      PopulateError = 12
+    content: public const ShipmentStatus PopulateError
     return:
       type: SuperOffice.WebApi.Data.ShipmentStatus
-    content.vb: >-
-      <EnumMember>
-
-      PopulateError = 12
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const PopulateError As ShipmentStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ShipmentStatus.TooManyRecipients
   commentId: F:SuperOffice.WebApi.Data.ShipmentStatus.TooManyRecipients
   id: TooManyRecipients
@@ -451,69 +465,55 @@ items:
   nameWithType: ShipmentStatus.TooManyRecipients
   fullName: SuperOffice.WebApi.Data.ShipmentStatus.TooManyRecipients
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '13:'
-  example: []
+  summary: "\n13: \n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      TooManyRecipients = 13
+    content: public const ShipmentStatus TooManyRecipients
     return:
       type: SuperOffice.WebApi.Data.ShipmentStatus
-    content.vb: >-
-      <EnumMember>
-
-      TooManyRecipients = 13
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const TooManyRecipients As ShipmentStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.WebApi.Data.ShipmentStatus
   commentId: T:SuperOffice.WebApi.Data.ShipmentStatus
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.ShipmentStatus.html
   name: ShipmentStatus
   nameWithType: ShipmentStatus
   fullName: SuperOffice.WebApi.Data.ShipmentStatus

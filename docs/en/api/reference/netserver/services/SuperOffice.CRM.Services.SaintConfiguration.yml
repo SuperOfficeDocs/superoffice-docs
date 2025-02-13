@@ -23,27 +23,18 @@ items:
   nameWithType: SaintConfiguration
   fullName: SuperOffice.CRM.Services.SaintConfiguration
   type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Definition of the three perionds for status monitors and some other settings per saint entity
-
-    <p></p>
-
-    Carrier object for SaintConfiguration.
-
-    Services for the SaintConfiguration Carrier is available from the <xref href="SuperOffice.CRM.Services.ISaintAgent?text=Saint+Agent" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nDefinition of the three perionds for status monitors and some other settings per saint entity\n<p></p>\nCarrier object for SaintConfiguration.\nServices for the SaintConfiguration Carrier is available from the <xref href=\"SuperOffice.CRM.Services.ISaintAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public class SaintConfiguration : Carrier
+    content: 'public class SaintConfiguration : Carrier'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
-
-      Public Class SaintConfiguration Inherits Carrier
+      Public Class SaintConfiguration
+          Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.SaintAgent
     commentId: T:SuperOffice.CRM.Services.SaintAgent
@@ -51,14 +42,12 @@ items:
     commentId: T:SuperOffice.CRM.Services.ISaintAgent
   inheritance:
   - System.Object
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.SaintConfiguration.#ctor
   commentId: M:SuperOffice.CRM.Services.SaintConfiguration.#ctor
   id: '#ctor'
@@ -70,18 +59,21 @@ items:
   nameWithType: SaintConfiguration.SaintConfiguration()
   fullName: SuperOffice.CRM.Services.SaintConfiguration.SaintConfiguration()
   type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Default constructor
-  example: []
+  summary: "\nDefault constructor\n"
   syntax:
     content: public SaintConfiguration()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.SaintConfiguration.#ctor*
-  nameWithType.vb: SaintConfiguration.New()
-  fullName.vb: SuperOffice.CRM.Services.SaintConfiguration.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.SaintConfiguration.ToString
   commentId: M:SuperOffice.CRM.Services.SaintConfiguration.ToString
   id: ToString
@@ -93,18 +85,26 @@ items:
   nameWithType: SaintConfiguration.ToString()
   fullName: SuperOffice.CRM.Services.SaintConfiguration.ToString()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the carrier contents as a formatted string.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string.\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString() As String
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.CRM.Services.SaintConfiguration.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Services.SaintConfiguration.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.SaintConfiguration.ToString(System.String)
   id: ToString(System.String)
@@ -112,18 +112,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(string)
-  nameWithType: SaintConfiguration.ToString(string)
-  fullName: SuperOffice.CRM.Services.SaintConfiguration.ToString(string)
+  name: ToString(String)
+  nameWithType: SaintConfiguration.ToString(String)
+  fullName: SuperOffice.CRM.Services.SaintConfiguration.ToString(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Returns the carrier contents as a formatted string, useful for debugging.
-
-    Each line in the output is prefixed with the input value.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -135,9 +134,10 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.SaintConfiguration.ToString*
-  nameWithType.vb: SaintConfiguration.ToString(String)
-  fullName.vb: SuperOffice.CRM.Services.SaintConfiguration.ToString(String)
-  name.vb: ToString(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.SaintConfiguration.OwnerTable
   commentId: P:SuperOffice.CRM.Services.SaintConfiguration.OwnerTable
   id: OwnerTable
@@ -149,28 +149,28 @@ items:
   nameWithType: SaintConfiguration.OwnerTable
   fullName: SuperOffice.CRM.Services.SaintConfiguration.OwnerTable
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The table that is the owning entity
-  example: []
+  summary: "\nThe table that is the owning entity \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual short OwnerTable { get; set; }
+    content: public virtual short OwnerTable { get; set; }
     parameters: []
     return:
       type: System.Int16
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property OwnerTable As Short
+    content.vb: Public Overridable Property OwnerTable As Short
   overload: SuperOffice.CRM.Services.SaintConfiguration.OwnerTable*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.SaintConfiguration.Enabled
   commentId: P:SuperOffice.CRM.Services.SaintConfiguration.Enabled
   id: Enabled
@@ -182,28 +182,28 @@ items:
   nameWithType: SaintConfiguration.Enabled
   fullName: SuperOffice.CRM.Services.SaintConfiguration.Enabled
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: On/off switch for Saint functionality for this entity
-  example: []
+  summary: "\nOn/off switch for Saint functionality for this entity \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual bool Enabled { get; set; }
+    content: public virtual bool Enabled { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Enabled As Boolean
+    content.vb: Public Overridable Property Enabled As Boolean
   overload: SuperOffice.CRM.Services.SaintConfiguration.Enabled*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.SaintConfiguration.Period1
   commentId: P:SuperOffice.CRM.Services.SaintConfiguration.Period1
   id: Period1
@@ -215,28 +215,28 @@ items:
   nameWithType: SaintConfiguration.Period1
   fullName: SuperOffice.CRM.Services.SaintConfiguration.Period1
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Length of the first counter period
-  example: []
+  summary: "\nLength of the first counter period \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int Period1 { get; set; }
+    content: public virtual int Period1 { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Period1 As Integer
+    content.vb: Public Overridable Property Period1 As Integer
   overload: SuperOffice.CRM.Services.SaintConfiguration.Period1*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.SaintConfiguration.Period2
   commentId: P:SuperOffice.CRM.Services.SaintConfiguration.Period2
   id: Period2
@@ -248,28 +248,28 @@ items:
   nameWithType: SaintConfiguration.Period2
   fullName: SuperOffice.CRM.Services.SaintConfiguration.Period2
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Length of the second counter period
-  example: []
+  summary: "\nLength of the second counter period \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int Period2 { get; set; }
+    content: public virtual int Period2 { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Period2 As Integer
+    content.vb: Public Overridable Property Period2 As Integer
   overload: SuperOffice.CRM.Services.SaintConfiguration.Period2*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.SaintConfiguration.Period3
   commentId: P:SuperOffice.CRM.Services.SaintConfiguration.Period3
   id: Period3
@@ -281,28 +281,28 @@ items:
   nameWithType: SaintConfiguration.Period3
   fullName: SuperOffice.CRM.Services.SaintConfiguration.Period3
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Length of the third counter period
-  example: []
+  summary: "\nLength of the third counter period \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int Period3 { get; set; }
+    content: public virtual int Period3 { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Period3 As Integer
+    content.vb: Public Overridable Property Period3 As Integer
   overload: SuperOffice.CRM.Services.SaintConfiguration.Period3*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.SaintConfiguration.GenerationStart
   commentId: P:SuperOffice.CRM.Services.SaintConfiguration.GenerationStart
   id: GenerationStart
@@ -314,28 +314,28 @@ items:
   nameWithType: SaintConfiguration.GenerationStart
   fullName: SuperOffice.CRM.Services.SaintConfiguration.GenerationStart
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: When was the last regeneration started
-  example: []
+  summary: "\nWhen was the last regeneration started \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual DateTime GenerationStart { get; set; }
+    content: public virtual DateTime GenerationStart { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property GenerationStart As Date
+    content.vb: Public Overridable Property GenerationStart As DateTime
   overload: SuperOffice.CRM.Services.SaintConfiguration.GenerationStart*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.SaintConfiguration.GenerationEnd
   commentId: P:SuperOffice.CRM.Services.SaintConfiguration.GenerationEnd
   id: GenerationEnd
@@ -347,28 +347,28 @@ items:
   nameWithType: SaintConfiguration.GenerationEnd
   fullName: SuperOffice.CRM.Services.SaintConfiguration.GenerationEnd
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: When was the last regeneration finished
-  example: []
+  summary: "\nWhen was the last regeneration finished \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual DateTime GenerationEnd { get; set; }
+    content: public virtual DateTime GenerationEnd { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property GenerationEnd As Date
+    content.vb: Public Overridable Property GenerationEnd As DateTime
   overload: SuperOffice.CRM.Services.SaintConfiguration.GenerationEnd*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.SaintConfiguration.RowsGenerated
   commentId: P:SuperOffice.CRM.Services.SaintConfiguration.RowsGenerated
   id: RowsGenerated
@@ -380,33 +380,38 @@ items:
   nameWithType: SaintConfiguration.RowsGenerated
   fullName: SuperOffice.CRM.Services.SaintConfiguration.RowsGenerated
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Number of CounterValue rows generated for this entity
-  example: []
+  summary: "\nNumber of CounterValue rows generated for this entity \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int RowsGenerated { get; set; }
+    content: public virtual int RowsGenerated { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property RowsGenerated As Integer
+    content.vb: Public Overridable Property RowsGenerated As Integer
   overload: SuperOffice.CRM.Services.SaintConfiguration.RowsGenerated*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
 - uid: SuperOffice.CRM.Services.SaintAgent
   commentId: T:SuperOffice.CRM.Services.SaintAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.SaintAgent.html
   name: SaintAgent
   nameWithType: SaintAgent
   fullName: SuperOffice.CRM.Services.SaintAgent
@@ -414,79 +419,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.ISaintAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.ISaintAgent.html
   name: ISaintAgent
   nameWithType: ISaintAgent
   fullName: SuperOffice.CRM.Services.ISaintAgent
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.SaintConfiguration.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.SaintConfiguration.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.SaintConfiguration.html#SuperOffice_CRM_Services_SaintConfiguration__ctor
   name: SaintConfiguration
   nameWithType: SaintConfiguration.SaintConfiguration
   fullName: SuperOffice.CRM.Services.SaintConfiguration.SaintConfiguration
-  nameWithType.vb: SaintConfiguration.New
-  fullName.vb: SuperOffice.CRM.Services.SaintConfiguration.New
-  name.vb: New
 - uid: SuperOffice.CRM.Services.SaintConfiguration.ToString*
   commentId: Overload:SuperOffice.CRM.Services.SaintConfiguration.ToString
   isExternal: true
-  href: SuperOffice.CRM.Services.SaintConfiguration.html#SuperOffice_CRM_Services_SaintConfiguration_ToString
   name: ToString
   nameWithType: SaintConfiguration.ToString
   fullName: SuperOffice.CRM.Services.SaintConfiguration.ToString
@@ -494,17 +438,18 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.SaintConfiguration.OwnerTable*
   commentId: Overload:SuperOffice.CRM.Services.SaintConfiguration.OwnerTable
   isExternal: true
-  href: SuperOffice.CRM.Services.SaintConfiguration.html#SuperOffice_CRM_Services_SaintConfiguration_OwnerTable
   name: OwnerTable
   nameWithType: SaintConfiguration.OwnerTable
   fullName: SuperOffice.CRM.Services.SaintConfiguration.OwnerTable
@@ -512,17 +457,12 @@ references:
   commentId: T:System.Int16
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int16
-  name: short
-  nameWithType: short
-  fullName: short
-  nameWithType.vb: Short
-  fullName.vb: Short
-  name.vb: Short
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.CRM.Services.SaintConfiguration.Enabled*
   commentId: Overload:SuperOffice.CRM.Services.SaintConfiguration.Enabled
   isExternal: true
-  href: SuperOffice.CRM.Services.SaintConfiguration.html#SuperOffice_CRM_Services_SaintConfiguration_Enabled
   name: Enabled
   nameWithType: SaintConfiguration.Enabled
   fullName: SuperOffice.CRM.Services.SaintConfiguration.Enabled
@@ -530,17 +470,12 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.CRM.Services.SaintConfiguration.Period1*
   commentId: Overload:SuperOffice.CRM.Services.SaintConfiguration.Period1
   isExternal: true
-  href: SuperOffice.CRM.Services.SaintConfiguration.html#SuperOffice_CRM_Services_SaintConfiguration_Period1
   name: Period1
   nameWithType: SaintConfiguration.Period1
   fullName: SuperOffice.CRM.Services.SaintConfiguration.Period1
@@ -548,56 +483,41 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Services.SaintConfiguration.Period2*
   commentId: Overload:SuperOffice.CRM.Services.SaintConfiguration.Period2
   isExternal: true
-  href: SuperOffice.CRM.Services.SaintConfiguration.html#SuperOffice_CRM_Services_SaintConfiguration_Period2
   name: Period2
   nameWithType: SaintConfiguration.Period2
   fullName: SuperOffice.CRM.Services.SaintConfiguration.Period2
 - uid: SuperOffice.CRM.Services.SaintConfiguration.Period3*
   commentId: Overload:SuperOffice.CRM.Services.SaintConfiguration.Period3
   isExternal: true
-  href: SuperOffice.CRM.Services.SaintConfiguration.html#SuperOffice_CRM_Services_SaintConfiguration_Period3
   name: Period3
   nameWithType: SaintConfiguration.Period3
   fullName: SuperOffice.CRM.Services.SaintConfiguration.Period3
 - uid: SuperOffice.CRM.Services.SaintConfiguration.GenerationStart*
   commentId: Overload:SuperOffice.CRM.Services.SaintConfiguration.GenerationStart
   isExternal: true
-  href: SuperOffice.CRM.Services.SaintConfiguration.html#SuperOffice_CRM_Services_SaintConfiguration_GenerationStart
   name: GenerationStart
   nameWithType: SaintConfiguration.GenerationStart
   fullName: SuperOffice.CRM.Services.SaintConfiguration.GenerationStart
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
 - uid: SuperOffice.CRM.Services.SaintConfiguration.GenerationEnd*
   commentId: Overload:SuperOffice.CRM.Services.SaintConfiguration.GenerationEnd
   isExternal: true
-  href: SuperOffice.CRM.Services.SaintConfiguration.html#SuperOffice_CRM_Services_SaintConfiguration_GenerationEnd
   name: GenerationEnd
   nameWithType: SaintConfiguration.GenerationEnd
   fullName: SuperOffice.CRM.Services.SaintConfiguration.GenerationEnd
 - uid: SuperOffice.CRM.Services.SaintConfiguration.RowsGenerated*
   commentId: Overload:SuperOffice.CRM.Services.SaintConfiguration.RowsGenerated
   isExternal: true
-  href: SuperOffice.CRM.Services.SaintConfiguration.html#SuperOffice_CRM_Services_SaintConfiguration_RowsGenerated
   name: RowsGenerated
   nameWithType: SaintConfiguration.RowsGenerated
   fullName: SuperOffice.CRM.Services.SaintConfiguration.RowsGenerated

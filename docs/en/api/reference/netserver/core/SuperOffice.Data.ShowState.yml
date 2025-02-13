@@ -12,42 +12,67 @@ items:
   - SuperOffice.Data.ShowState.Minimized
   - SuperOffice.Data.ShowState.StatusBar
   - SuperOffice.Data.ShowState.ToolBar
+  - SuperOffice.Data.ShowState.value__
   langs:
   - csharp
   - vb
   name: ShowState
   nameWithType: ShowState
   fullName: SuperOffice.Data.ShowState
-  type: Enum
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: >-
-    Value for the showState field in table externalapplication
-
-    This Enum is used by:  ExtApp.showState
-
-    This Enum consists of flag values that can be combined.
-  example: []
+  summary: "\nValue for the showState field in table externalapplication\nThis Enum is used by:  ExtApp.showState\nThis Enum consists of flag values that can be combined.\n"
   syntax:
-    content: >-
-      [Flags]
-
-      public enum ShowState : short
+    content: 'public sealed class ShowState : Enum'
     content.vb: >-
-      <Flags>
+      Public NotInheritable Class ShowState
+          Inherits
 
-      Public Enum ShowState As Short
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.ShowState.EnumUtil.MapEnums``2
   - SuperOffice.Data.ShowState.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  - SuperOffice.Data.ShowState.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ShowState)
-  - SuperOffice.Data.ShowState.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - System.Enum.EnumUtil.GetDescription
-  attributes:
-  - type: System.FlagsAttribute
-    ctor: System.FlagsAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.ShowState.value__
+  commentId: F:SuperOffice.Data.ShowState.value__
+  id: value__
+  parent: SuperOffice.Data.ShowState
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: ShowState.value__
+  fullName: SuperOffice.Data.ShowState.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.ShowState.Minimized
   commentId: F:SuperOffice.Data.ShowState.Minimized
   id: Minimized
@@ -59,15 +84,24 @@ items:
   nameWithType: ShowState.Minimized
   fullName: SuperOffice.Data.ShowState.Minimized
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '0: Start application in minimized state'
-  example: []
+  summary: "\n0: Start application in minimized state\n"
   syntax:
-    content: Minimized = 0
+    content: public const ShowState Minimized
     return:
       type: SuperOffice.Data.ShowState
+    content.vb: Public Const Minimized As ShowState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ShowState.Maximized
   commentId: F:SuperOffice.Data.ShowState.Maximized
   id: Maximized
@@ -79,15 +113,24 @@ items:
   nameWithType: ShowState.Maximized
   fullName: SuperOffice.Data.ShowState.Maximized
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '1: Start application in maximized state'
-  example: []
+  summary: "\n1: Start application in maximized state\n"
   syntax:
-    content: Maximized = 1
+    content: public const ShowState Maximized
     return:
       type: SuperOffice.Data.ShowState
+    content.vb: Public Const Maximized As ShowState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ShowState.Default
   commentId: F:SuperOffice.Data.ShowState.Default
   id: Default
@@ -99,15 +142,24 @@ items:
   nameWithType: ShowState.Default
   fullName: SuperOffice.Data.ShowState.Default
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '2: Start application with default window size and position'
-  example: []
+  summary: "\n2: Start application with default window size and position\n"
   syntax:
-    content: Default = 2
+    content: public const ShowState Default
     return:
       type: SuperOffice.Data.ShowState
+    content.vb: Public Const Default As ShowState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ShowState.ToolBar
   commentId: F:SuperOffice.Data.ShowState.ToolBar
   id: ToolBar
@@ -119,15 +171,24 @@ items:
   nameWithType: ShowState.ToolBar
   fullName: SuperOffice.Data.ShowState.ToolBar
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '256: Show the Browser toolbar'
-  example: []
+  summary: "\n256: Show the Browser toolbar\n"
   syntax:
-    content: ToolBar = 256
+    content: public const ShowState ToolBar
     return:
       type: SuperOffice.Data.ShowState
+    content.vb: Public Const ToolBar As ShowState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ShowState.AddressBar
   commentId: F:SuperOffice.Data.ShowState.AddressBar
   id: AddressBar
@@ -139,15 +200,24 @@ items:
   nameWithType: ShowState.AddressBar
   fullName: SuperOffice.Data.ShowState.AddressBar
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "512: Show the Browser addressbar (where the user can type URL's and stuff)"
-  example: []
+  summary: "\n512: Show the Browser addressbar (where the user can type URL&apos;s and stuff)\n"
   syntax:
-    content: AddressBar = 512
+    content: public const ShowState AddressBar
     return:
       type: SuperOffice.Data.ShowState
+    content.vb: Public Const AddressBar As ShowState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ShowState.StatusBar
   commentId: F:SuperOffice.Data.ShowState.StatusBar
   id: StatusBar
@@ -159,15 +229,24 @@ items:
   nameWithType: ShowState.StatusBar
   fullName: SuperOffice.Data.ShowState.StatusBar
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '1024: Show the Browser statusbar'
-  example: []
+  summary: "\n1024: Show the Browser statusbar\n"
   syntax:
-    content: StatusBar = 1024
+    content: public const ShowState StatusBar
     return:
       type: SuperOffice.Data.ShowState
+    content.vb: Public Const StatusBar As ShowState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ShowState.MenuBar
   commentId: F:SuperOffice.Data.ShowState.MenuBar
   id: MenuBar
@@ -179,289 +258,115 @@ items:
   nameWithType: ShowState.MenuBar
   fullName: SuperOffice.Data.ShowState.MenuBar
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '2048: Show the Browser Menu bar (currently not implemented)'
-  example: []
+  summary: "\n2048: Show the Browser Menu bar (currently not implemented)\n"
   syntax:
-    content: MenuBar = 2048
+    content: public const ShowState MenuBar
     return:
       type: SuperOffice.Data.ShowState
+    content.vb: Public Const MenuBar As ShowState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.ShowState.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<ShowState, To>(ShowState)
-  nameWithType: EnumUtil.MapEnums<ShowState, To>(ShowState)
-  fullName: EnumUtil.MapEnums<SuperOffice.Data.ShowState, To>(SuperOffice.Data.ShowState)
-  nameWithType.vb: EnumUtil.MapEnums(Of ShowState, To)(ShowState)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.ShowState, To)(SuperOffice.Data.ShowState)
-  name.vb: MapEnums(Of ShowState, To)(ShowState)
+  name: MapEnums<ShowState, To>()
+  nameWithType: EnumUtil.MapEnums<ShowState, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.ShowState, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ShowState, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.ShowState, To)()
+  name.vb: MapEnums(Of ShowState, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.ShowState)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ShowState, To>
+    nameWithType: EnumUtil.MapEnums<ShowState, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.ShowState, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.ShowState
-    name: ShowState
-    isExternal: true
-    href: SuperOffice.Data.ShowState.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.ShowState
-    name: ShowState
-    isExternal: true
-    href: SuperOffice.Data.ShowState.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.ShowState)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ShowState, To)
+    nameWithType: EnumUtil.MapEnums(Of ShowState, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.ShowState, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.ShowState
-    name: ShowState
-    isExternal: true
-    href: SuperOffice.Data.ShowState.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.ShowState
-    name: ShowState
-    isExternal: true
-    href: SuperOffice.Data.ShowState.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.ShowState.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<ShowState, To>(ShowState)
-  nameWithType: Converters.MapEnums<ShowState, To>(ShowState)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ShowState, To>(SuperOffice.Data.ShowState)
-  nameWithType.vb: Converters.MapEnums(Of ShowState, To)(ShowState)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ShowState, To)(SuperOffice.Data.ShowState)
-  name.vb: MapEnums(Of ShowState, To)(ShowState)
+  name: MapEnums<ShowState, To>()
+  nameWithType: Converters.MapEnums<ShowState, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ShowState, To>()
+  nameWithType.vb: Converters.MapEnums(Of ShowState, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ShowState, To)()
+  name.vb: MapEnums(Of ShowState, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.ShowState)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ShowState, To>
+    nameWithType: Converters.MapEnums<ShowState, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ShowState, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.ShowState
-    name: ShowState
-    isExternal: true
-    href: SuperOffice.Data.ShowState.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.ShowState
-    name: ShowState
-    isExternal: true
-    href: SuperOffice.Data.ShowState.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.ShowState)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ShowState, To)
+    nameWithType: Converters.MapEnums(Of ShowState, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ShowState, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.ShowState
-    name: ShowState
-    isExternal: true
-    href: SuperOffice.Data.ShowState.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.ShowState
-    name: ShowState
-    isExternal: true
-    href: SuperOffice.Data.ShowState.html
-  - name: )
-- uid: SuperOffice.Data.ShowState.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ShowState)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<ShowState>(ShowState, ShowState)
-  nameWithType: ObjectExtensions.AssignByReflection<ShowState>(ShowState, ShowState)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.ShowState>(SuperOffice.Data.ShowState, SuperOffice.Data.ShowState)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ShowState)(ShowState, ShowState)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.ShowState)(SuperOffice.Data.ShowState, SuperOffice.Data.ShowState)
-  name.vb: AssignByReflection(Of ShowState)(ShowState, ShowState)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ShowState,SuperOffice.Data.ShowState)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.Data.ShowState
-    name: ShowState
-    isExternal: true
-    href: SuperOffice.Data.ShowState.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Data.ShowState
-    name: ShowState
-    isExternal: true
-    href: SuperOffice.Data.ShowState.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Data.ShowState
-    name: ShowState
-    isExternal: true
-    href: SuperOffice.Data.ShowState.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ShowState,SuperOffice.Data.ShowState)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.ShowState
-    name: ShowState
-    isExternal: true
-    href: SuperOffice.Data.ShowState.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.Data.ShowState
-    name: ShowState
-    isExternal: true
-    href: SuperOffice.Data.ShowState.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Data.ShowState
-    name: ShowState
-    isExternal: true
-    href: SuperOffice.Data.ShowState.html
-  - name: )
-- uid: SuperOffice.Data.ShowState.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<ShowState>(ShowState)
-  nameWithType: ObjectExtensions.GraphCopy<ShowState>(ShowState)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.ShowState>(SuperOffice.Data.ShowState)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of ShowState)(ShowState)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.ShowState)(SuperOffice.Data.ShowState)
-  name.vb: GraphCopy(Of ShowState)(ShowState)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.ShowState)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.Data.ShowState
-    name: ShowState
-    isExternal: true
-    href: SuperOffice.Data.ShowState.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Data.ShowState
-    name: ShowState
-    isExternal: true
-    href: SuperOffice.Data.ShowState.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.ShowState)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.ShowState
-    name: ShowState
-    isExternal: true
-    href: SuperOffice.Data.ShowState.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.Data.ShowState
-    name: ShowState
-    isExternal: true
-    href: SuperOffice.Data.ShowState.html
-  - name: )
-- uid: System.Enum.EnumUtil.GetDescription
-  commentId: M:EnumUtil.GetDescription(System.Enum)
-  parent: EnumUtil
-  definition: EnumUtil.GetDescription(System.Enum)
-  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  name: GetDescription(Enum)
-  nameWithType: EnumUtil.GetDescription(Enum)
-  fullName: EnumUtil.GetDescription(System.Enum)
-  spec.csharp:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
-  spec.vb:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -470,45 +375,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -517,222 +420,58 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: EnumUtil.GetDescription(System.Enum)
-  commentId: M:EnumUtil.GetDescription(System.Enum)
-  isExternal: true
-  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  name: GetDescription(Enum)
-  nameWithType: EnumUtil.GetDescription(Enum)
-  fullName: EnumUtil.GetDescription(System.Enum)
-  spec.csharp:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
-  spec.vb:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.Data.ShowState
   commentId: T:SuperOffice.Data.ShowState
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ShowState.html
   name: ShowState
   nameWithType: ShowState
   fullName: SuperOffice.Data.ShowState

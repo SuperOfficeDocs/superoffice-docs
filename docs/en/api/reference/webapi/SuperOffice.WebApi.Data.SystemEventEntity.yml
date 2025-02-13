@@ -24,28 +24,24 @@ items:
   nameWithType: SystemEventEntity
   fullName: SuperOffice.WebApi.Data.SystemEventEntity
   type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Carrier object for SystemEventEntity.
+  summary: "\nCarrier object for SystemEventEntity.\nEntity for system events    \n"
+  remarks: >
+    Use <xref href="SuperOffice.CRM.Services.ArchiveAgent" data-throw-if-not-resolved="false"></xref>:
 
-    Entity for system events
-  remarks: >-
-    Use <xref href="SuperOffice.CRM.Services.ArchiveAgent?text=Archive+agent" data-throw-if-not-resolved="false"></xref>:
-                All SystemEventEntity: <pre><code class="lang-csharp">"SystemEvents"</code></pre>
+    All SystemEventEntity: <pre><code>&quot;SystemEvents&quot;</code></pre>
   example:
-  - >-
-    Get SystemEventEntity 123 using the WebApi client:
-
-    <pre><code class="lang-csharp">var configuration = new WebApiConfiguration(url);
-
-    var agent = new ConfigurationAgent(configuration);
-
-    var systemEventEntity = agent.GetSystemEventEntity( 123 );</code></pre>
+  - "\nGet SystemEventEntity 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new ConfigurationAgent(configuration);\nvar systemEventEntity = agent.GetSystemEventEntity( 123 );</code></pre>\n"
   syntax:
     content: 'public class SystemEventEntity : Carrier'
-    content.vb: Public Class SystemEventEntity Inherits Carrier
+    content.vb: >-
+      Public Class SystemEventEntity
+          Inherits Carrier
   seealso:
   - linkId: SuperOffice.WebApi.Agents.ConfigurationAgent
     commentId: T:SuperOffice.WebApi.Agents.ConfigurationAgent
@@ -59,13 +55,12 @@ items:
   inheritedMembers:
   - SuperOffice.WebApi.Data.Carrier.TableRight
   - SuperOffice.WebApi.Data.Carrier.FieldProperties
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.WebApi.Data.SystemEventEntity.#ctor
   commentId: M:SuperOffice.WebApi.Data.SystemEventEntity.#ctor
   id: '#ctor'
@@ -77,18 +72,21 @@ items:
   nameWithType: SystemEventEntity.SystemEventEntity()
   fullName: SuperOffice.WebApi.Data.SystemEventEntity.SystemEventEntity()
   type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Default constructor - defaults any enum props to 0.
-  example: []
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
   syntax:
     content: public SystemEventEntity()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.WebApi.Data.SystemEventEntity.#ctor*
-  nameWithType.vb: SystemEventEntity.New()
-  fullName.vb: SuperOffice.WebApi.Data.SystemEventEntity.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.SystemEventEntity.SystemEventId
   commentId: P:SuperOffice.WebApi.Data.SystemEventEntity.SystemEventId
   id: SystemEventId
@@ -100,11 +98,13 @@ items:
   nameWithType: SystemEventEntity.SystemEventId
   fullName: SuperOffice.WebApi.Data.SystemEventEntity.SystemEventId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Primary key
-  example: []
+  summary: "\nPrimary key\n"
   syntax:
     content: public virtual int SystemEventId { get; set; }
     parameters: []
@@ -112,6 +112,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property SystemEventId As Integer
   overload: SuperOffice.WebApi.Data.SystemEventEntity.SystemEventId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SystemEventEntity.Scope_String
   commentId: P:SuperOffice.WebApi.Data.SystemEventEntity.Scope_String
   id: Scope_String
@@ -123,36 +131,29 @@ items:
   nameWithType: SystemEventEntity.Scope_String
   fullName: SuperOffice.WebApi.Data.SystemEventEntity.Scope_String
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    1 = system-wide, 2= database, 3 = group, 4 = user
-
-    Raw string enum value.
-  example: []
+  summary: "\n1 = system-wide, 2= database, 3 = group, 4 = user\nRaw string enum value.\n"
   syntax:
-    content: >-
-      [JsonProperty("Scope")]
-
-      public string Scope_String { get; set; }
+    content: public string Scope_String { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <JsonProperty("Scope")>
-
-      Public Property Scope_String As String
+    content.vb: Public Property Scope_String As String
   overload: SuperOffice.WebApi.Data.SystemEventEntity.Scope_String*
   seealso:
   - linkId: SuperOffice.WebApi.Data.SystemEventEntity.Scope
     commentId: P:SuperOffice.WebApi.Data.SystemEventEntity.Scope
-  attributes:
-  - type: Newtonsoft.Json.JsonPropertyAttribute
-    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: Scope
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.SystemEventEntity.Scope
   commentId: P:SuperOffice.WebApi.Data.SystemEventEntity.Scope
   id: Scope
@@ -164,34 +165,29 @@ items:
   nameWithType: SystemEventEntity.Scope
   fullName: SuperOffice.WebApi.Data.SystemEventEntity.Scope
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    1 = system-wide, 2= database, 3 = group, 4 = user
-
-    NULL if unknown enum value.
-  example: []
+  summary: "\n1 = system-wide, 2= database, 3 = group, 4 = user\nNULL if unknown enum value.\n"
   syntax:
-    content: >-
-      [JsonIgnore]
-
-      public SystemEventScope? Scope { get; set; }
+    content: public Nullable<SystemEventScope> Scope { get; set; }
     parameters: []
     return:
       type: System.Nullable{SuperOffice.WebApi.Data.SystemEventScope}
-    content.vb: >-
-      <JsonIgnore>
-
-      Public Property Scope As SystemEventScope?
+    content.vb: Public Property Scope As Nullable(Of SystemEventScope)
   overload: SuperOffice.WebApi.Data.SystemEventEntity.Scope*
   seealso:
   - linkId: SuperOffice.WebApi.Data.SystemEventEntity.Scope_String
     commentId: P:SuperOffice.WebApi.Data.SystemEventEntity.Scope_String
-  attributes:
-  - type: Newtonsoft.Json.JsonIgnoreAttribute
-    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.SystemEventEntity.Eta
   commentId: P:SuperOffice.WebApi.Data.SystemEventEntity.Eta
   id: Eta
@@ -203,18 +199,28 @@ items:
   nameWithType: SystemEventEntity.Eta
   fullName: SuperOffice.WebApi.Data.SystemEventEntity.Eta
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Estimated Time of Arrival, i.e., when will this event finish?
-  example: []
+  summary: "\nEstimated Time of Arrival, i.e., when will this event finish?\n"
   syntax:
     content: public virtual DateTime Eta { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property Eta As Date
+    content.vb: Public Overridable Property Eta As DateTime
   overload: SuperOffice.WebApi.Data.SystemEventEntity.Eta*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SystemEventEntity.Eventkey
   commentId: P:SuperOffice.WebApi.Data.SystemEventEntity.Eventkey
   id: Eventkey
@@ -226,11 +232,13 @@ items:
   nameWithType: SystemEventEntity.Eventkey
   fullName: SuperOffice.WebApi.Data.SystemEventEntity.Eventkey
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Event key, predefined in code
-  example: []
+  summary: "\nEvent key, predefined in code\n"
   syntax:
     content: public virtual string Eventkey { get; set; }
     parameters: []
@@ -238,6 +246,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property Eventkey As String
   overload: SuperOffice.WebApi.Data.SystemEventEntity.Eventkey*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SystemEventEntity.Eventmess
   commentId: P:SuperOffice.WebApi.Data.SystemEventEntity.Eventmess
   id: Eventmess
@@ -249,11 +265,13 @@ items:
   nameWithType: SystemEventEntity.Eventmess
   fullName: SuperOffice.WebApi.Data.SystemEventEntity.Eventmess
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Message to be shown, entered by administrator
-  example: []
+  summary: "\nMessage to be shown, entered by administrator\n"
   syntax:
     content: public virtual string Eventmess { get; set; }
     parameters: []
@@ -261,6 +279,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property Eventmess As String
   overload: SuperOffice.WebApi.Data.SystemEventEntity.Eventmess*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SystemEventEntity.ExtraInfo
   commentId: P:SuperOffice.WebApi.Data.SystemEventEntity.ExtraInfo
   id: ExtraInfo
@@ -272,11 +298,13 @@ items:
   nameWithType: SystemEventEntity.ExtraInfo
   fullName: SuperOffice.WebApi.Data.SystemEventEntity.ExtraInfo
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Extra information (area id for prototype rebuild, etc)
-  example: []
+  summary: "\nExtra information (area id for prototype rebuild, etc)\n"
   syntax:
     content: public virtual int ExtraInfo { get; set; }
     parameters: []
@@ -284,6 +312,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property ExtraInfo As Integer
   overload: SuperOffice.WebApi.Data.SystemEventEntity.ExtraInfo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SystemEventEntity.Owner
   commentId: P:SuperOffice.WebApi.Data.SystemEventEntity.Owner
   id: Owner
@@ -295,11 +331,13 @@ items:
   nameWithType: SystemEventEntity.Owner
   fullName: SuperOffice.WebApi.Data.SystemEventEntity.Owner
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: 0, 0, group_id, assoc id (see over)
-  example: []
+  summary: "\n0, 0, group_id, assoc id (see over)\n"
   syntax:
     content: public virtual int Owner { get; set; }
     parameters: []
@@ -307,6 +345,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property Owner As Integer
   overload: SuperOffice.WebApi.Data.SystemEventEntity.Owner*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SystemEventEntity.UpdatedCount
   commentId: P:SuperOffice.WebApi.Data.SystemEventEntity.UpdatedCount
   id: UpdatedCount
@@ -318,11 +364,13 @@ items:
   nameWithType: SystemEventEntity.UpdatedCount
   fullName: SuperOffice.WebApi.Data.SystemEventEntity.UpdatedCount
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Number of updates made to this record
-  example: []
+  summary: "\nNumber of updates made to this record\n"
   syntax:
     content: public virtual short UpdatedCount { get; set; }
     parameters: []
@@ -330,6 +378,14 @@ items:
       type: System.Int16
     content.vb: Public Overridable Property UpdatedCount As Short
   overload: SuperOffice.WebApi.Data.SystemEventEntity.UpdatedCount*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SystemEventEntity.Registered
   commentId: P:SuperOffice.WebApi.Data.SystemEventEntity.Registered
   id: Registered
@@ -341,18 +397,28 @@ items:
   nameWithType: SystemEventEntity.Registered
   fullName: SuperOffice.WebApi.Data.SystemEventEntity.Registered
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Registered when
-  example: []
+  summary: "\nRegistered when\n"
   syntax:
     content: public virtual DateTime Registered { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property Registered As Date
+    content.vb: Public Overridable Property Registered As DateTime
   overload: SuperOffice.WebApi.Data.SystemEventEntity.Registered*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SystemEventEntity.ActivatedBy
   commentId: P:SuperOffice.WebApi.Data.SystemEventEntity.ActivatedBy
   id: ActivatedBy
@@ -364,11 +430,13 @@ items:
   nameWithType: SystemEventEntity.ActivatedBy
   fullName: SuperOffice.WebApi.Data.SystemEventEntity.ActivatedBy
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The associate that first created the SystemEvent.
-  example: []
+  summary: "\nThe associate that first created the SystemEvent.\n"
   syntax:
     content: public virtual Associate ActivatedBy { get; set; }
     parameters: []
@@ -376,80 +444,32 @@ items:
       type: SuperOffice.WebApi.Data.Associate
     content.vb: Public Overridable Property ActivatedBy As Associate
   overload: SuperOffice.WebApi.Data.SystemEventEntity.ActivatedBy*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
-- uid: SuperOffice.WebApi.Agents.ConfigurationAgent
-  commentId: T:SuperOffice.WebApi.Agents.ConfigurationAgent
-  isExternal: true
-  href: SuperOffice.WebApi.Agents.ConfigurationAgent.html
-  name: ConfigurationAgent
-  nameWithType: ConfigurationAgent
-  fullName: SuperOffice.WebApi.Agents.ConfigurationAgent
-- uid: SuperOffice.WebApi.Agents.ArchiveAgent
-  commentId: T:SuperOffice.WebApi.Agents.ArchiveAgent
-  isExternal: true
-  href: SuperOffice.WebApi.Agents.ArchiveAgent.html
-  name: ArchiveAgent
-  nameWithType: ArchiveAgent
-  fullName: SuperOffice.WebApi.Agents.ArchiveAgent
-- uid: ArchiveAgent.GetArchiveListByColumns2(string,string,string,string,string,int,int)
-  commentId: M:ArchiveAgent.GetArchiveListByColumns2(string,string,string,string,string,int,int)
-  isExternal: true
-- uid: SuperOffice.CRM.Services.ArchiveAgent
-  commentId: T:SuperOffice.CRM.Services.ArchiveAgent
-  isExternal: true
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.WebApi.Data.Carrier
   commentId: T:SuperOffice.WebApi.Data.Carrier
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html
   name: Carrier
   nameWithType: Carrier
   fullName: SuperOffice.WebApi.Data.Carrier
@@ -457,7 +477,6 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_TableRight
   name: TableRight
   nameWithType: Carrier.TableRight
   fullName: SuperOffice.WebApi.Data.Carrier.TableRight
@@ -465,250 +484,39 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_FieldProperties
   name: FieldProperties
   nameWithType: Carrier.FieldProperties
   fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
+- uid: SuperOffice.WebApi.Agents.ConfigurationAgent
+  commentId: T:SuperOffice.WebApi.Agents.ConfigurationAgent
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
+  name: ConfigurationAgent
+  nameWithType: ConfigurationAgent
+  fullName: SuperOffice.WebApi.Agents.ConfigurationAgent
+- uid: SuperOffice.WebApi.Agents.ArchiveAgent
+  commentId: T:SuperOffice.WebApi.Agents.ArchiveAgent
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
+  name: ArchiveAgent
+  nameWithType: ArchiveAgent
+  fullName: SuperOffice.WebApi.Agents.ArchiveAgent
+- uid: ArchiveAgent.GetArchiveListByColumns2(string,string,string,string,string,int,int)
+  commentId: M:ArchiveAgent.GetArchiveListByColumns2(string,string,string,string,string,int,int)
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Data.SystemEventEntity.#ctor*
   commentId: Overload:SuperOffice.WebApi.Data.SystemEventEntity.#ctor
   isExternal: true
-  href: SuperOffice.WebApi.Data.SystemEventEntity.html#SuperOffice_WebApi_Data_SystemEventEntity__ctor
   name: SystemEventEntity
   nameWithType: SystemEventEntity.SystemEventEntity
   fullName: SuperOffice.WebApi.Data.SystemEventEntity.SystemEventEntity
-  nameWithType.vb: SystemEventEntity.New
-  fullName.vb: SuperOffice.WebApi.Data.SystemEventEntity.New
-  name.vb: New
 - uid: SuperOffice.WebApi.Data.SystemEventEntity.SystemEventId*
   commentId: Overload:SuperOffice.WebApi.Data.SystemEventEntity.SystemEventId
   isExternal: true
-  href: SuperOffice.WebApi.Data.SystemEventEntity.html#SuperOffice_WebApi_Data_SystemEventEntity_SystemEventId
   name: SystemEventId
   nameWithType: SystemEventEntity.SystemEventId
   fullName: SuperOffice.WebApi.Data.SystemEventEntity.SystemEventId
@@ -716,150 +524,153 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
-- uid: SuperOffice.WebApi.Data.SystemEventEntity.Scope
-  commentId: P:SuperOffice.WebApi.Data.SystemEventEntity.Scope
-  isExternal: true
-  href: SuperOffice.WebApi.Data.SystemEventEntity.html#SuperOffice_WebApi_Data_SystemEventEntity_Scope
-  name: Scope
-  nameWithType: SystemEventEntity.Scope
-  fullName: SuperOffice.WebApi.Data.SystemEventEntity.Scope
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.WebApi.Data.SystemEventEntity.Scope_String*
   commentId: Overload:SuperOffice.WebApi.Data.SystemEventEntity.Scope_String
   isExternal: true
-  href: SuperOffice.WebApi.Data.SystemEventEntity.html#SuperOffice_WebApi_Data_SystemEventEntity_Scope_String
   name: Scope_String
   nameWithType: SystemEventEntity.Scope_String
   fullName: SuperOffice.WebApi.Data.SystemEventEntity.Scope_String
+- uid: SuperOffice.WebApi.Data.SystemEventEntity.Scope
+  commentId: P:SuperOffice.WebApi.Data.SystemEventEntity.Scope
+  isExternal: true
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
-- uid: SuperOffice.WebApi.Data.SystemEventEntity.Scope_String
-  commentId: P:SuperOffice.WebApi.Data.SystemEventEntity.Scope_String
-  isExternal: true
-  href: SuperOffice.WebApi.Data.SystemEventEntity.html#SuperOffice_WebApi_Data_SystemEventEntity_Scope_String
-  name: Scope_String
-  nameWithType: SystemEventEntity.Scope_String
-  fullName: SuperOffice.WebApi.Data.SystemEventEntity.Scope_String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.WebApi.Data.SystemEventEntity.Scope*
   commentId: Overload:SuperOffice.WebApi.Data.SystemEventEntity.Scope
   isExternal: true
-  href: SuperOffice.WebApi.Data.SystemEventEntity.html#SuperOffice_WebApi_Data_SystemEventEntity_Scope
   name: Scope
   nameWithType: SystemEventEntity.Scope
   fullName: SuperOffice.WebApi.Data.SystemEventEntity.Scope
-- uid: System.Nullable{SuperOffice.WebApi.Data.SystemEventScope}
-  commentId: T:System.Nullable{SuperOffice.WebApi.Data.SystemEventScope}
-  parent: System
-  definition: System.Nullable`1
-  href: SuperOffice.WebApi.Data.SystemEventScope.html
-  name: SystemEventScope?
-  nameWithType: SystemEventScope?
-  fullName: SuperOffice.WebApi.Data.SystemEventScope?
-  spec.csharp:
-  - uid: SuperOffice.WebApi.Data.SystemEventScope
-    name: SystemEventScope
-    isExternal: true
-    href: SuperOffice.WebApi.Data.SystemEventScope.html
-  - name: '?'
-  spec.vb:
-  - uid: SuperOffice.WebApi.Data.SystemEventScope
-    name: SystemEventScope
-    isExternal: true
-    href: SuperOffice.WebApi.Data.SystemEventScope.html
-  - name: '?'
-- uid: System.Nullable`1
-  commentId: T:System.Nullable`1
+- uid: SuperOffice.WebApi.Data.SystemEventEntity.Scope_String
+  commentId: P:SuperOffice.WebApi.Data.SystemEventEntity.Scope_String
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
-  name: Nullable<T>
-  nameWithType: Nullable<T>
-  fullName: System.Nullable<T>
-  nameWithType.vb: Nullable(Of T)
-  fullName.vb: System.Nullable(Of T)
-  name.vb: Nullable(Of T)
+- uid: System.Nullable{SuperOffice.WebApi.Data.SystemEventScope}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.SystemEventScope}'
+  definition: System.Nullable`1
+  name: Nullable<SystemEventScope>
+  nameWithType: Nullable<SystemEventScope>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.SystemEventScope>
+  nameWithType.vb: Nullable(Of SystemEventScope)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.SystemEventScope)
+  name.vb: Nullable(Of SystemEventScope)
   spec.csharp:
   - uid: System.Nullable`1
     name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
   - name: <
-  - name: T
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.SystemEventScope
+    name: SystemEventScope
+    nameWithType: SystemEventScope
+    fullName: SuperOffice.WebApi.Data.SystemEventScope
+    isExternal: true
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Nullable`1
     name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.SystemEventScope
+    name: SystemEventScope
+    nameWithType: SystemEventScope
+    fullName: SuperOffice.WebApi.Data.SystemEventScope
+    isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Data.SystemEventEntity.Eta*
   commentId: Overload:SuperOffice.WebApi.Data.SystemEventEntity.Eta
   isExternal: true
-  href: SuperOffice.WebApi.Data.SystemEventEntity.html#SuperOffice_WebApi_Data_SystemEventEntity_Eta
   name: Eta
   nameWithType: SystemEventEntity.Eta
   fullName: SuperOffice.WebApi.Data.SystemEventEntity.Eta
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
 - uid: SuperOffice.WebApi.Data.SystemEventEntity.Eventkey*
   commentId: Overload:SuperOffice.WebApi.Data.SystemEventEntity.Eventkey
   isExternal: true
-  href: SuperOffice.WebApi.Data.SystemEventEntity.html#SuperOffice_WebApi_Data_SystemEventEntity_Eventkey
   name: Eventkey
   nameWithType: SystemEventEntity.Eventkey
   fullName: SuperOffice.WebApi.Data.SystemEventEntity.Eventkey
 - uid: SuperOffice.WebApi.Data.SystemEventEntity.Eventmess*
   commentId: Overload:SuperOffice.WebApi.Data.SystemEventEntity.Eventmess
   isExternal: true
-  href: SuperOffice.WebApi.Data.SystemEventEntity.html#SuperOffice_WebApi_Data_SystemEventEntity_Eventmess
   name: Eventmess
   nameWithType: SystemEventEntity.Eventmess
   fullName: SuperOffice.WebApi.Data.SystemEventEntity.Eventmess
 - uid: SuperOffice.WebApi.Data.SystemEventEntity.ExtraInfo*
   commentId: Overload:SuperOffice.WebApi.Data.SystemEventEntity.ExtraInfo
   isExternal: true
-  href: SuperOffice.WebApi.Data.SystemEventEntity.html#SuperOffice_WebApi_Data_SystemEventEntity_ExtraInfo
   name: ExtraInfo
   nameWithType: SystemEventEntity.ExtraInfo
   fullName: SuperOffice.WebApi.Data.SystemEventEntity.ExtraInfo
 - uid: SuperOffice.WebApi.Data.SystemEventEntity.Owner*
   commentId: Overload:SuperOffice.WebApi.Data.SystemEventEntity.Owner
   isExternal: true
-  href: SuperOffice.WebApi.Data.SystemEventEntity.html#SuperOffice_WebApi_Data_SystemEventEntity_Owner
   name: Owner
   nameWithType: SystemEventEntity.Owner
   fullName: SuperOffice.WebApi.Data.SystemEventEntity.Owner
 - uid: SuperOffice.WebApi.Data.SystemEventEntity.UpdatedCount*
   commentId: Overload:SuperOffice.WebApi.Data.SystemEventEntity.UpdatedCount
   isExternal: true
-  href: SuperOffice.WebApi.Data.SystemEventEntity.html#SuperOffice_WebApi_Data_SystemEventEntity_UpdatedCount
   name: UpdatedCount
   nameWithType: SystemEventEntity.UpdatedCount
   fullName: SuperOffice.WebApi.Data.SystemEventEntity.UpdatedCount
@@ -867,24 +678,18 @@ references:
   commentId: T:System.Int16
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int16
-  name: short
-  nameWithType: short
-  fullName: short
-  nameWithType.vb: Short
-  fullName.vb: Short
-  name.vb: Short
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.WebApi.Data.SystemEventEntity.Registered*
   commentId: Overload:SuperOffice.WebApi.Data.SystemEventEntity.Registered
   isExternal: true
-  href: SuperOffice.WebApi.Data.SystemEventEntity.html#SuperOffice_WebApi_Data_SystemEventEntity_Registered
   name: Registered
   nameWithType: SystemEventEntity.Registered
   fullName: SuperOffice.WebApi.Data.SystemEventEntity.Registered
 - uid: SuperOffice.WebApi.Data.SystemEventEntity.ActivatedBy*
   commentId: Overload:SuperOffice.WebApi.Data.SystemEventEntity.ActivatedBy
   isExternal: true
-  href: SuperOffice.WebApi.Data.SystemEventEntity.html#SuperOffice_WebApi_Data_SystemEventEntity_ActivatedBy
   name: ActivatedBy
   nameWithType: SystemEventEntity.ActivatedBy
   fullName: SuperOffice.WebApi.Data.SystemEventEntity.ActivatedBy
@@ -892,7 +697,6 @@ references:
   commentId: T:SuperOffice.WebApi.Data.Associate
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.Associate.html
   name: Associate
   nameWithType: Associate
   fullName: SuperOffice.WebApi.Data.Associate

@@ -11,34 +11,64 @@ items:
   - SuperOffice.WebApi.Data.ContactSourceType.History
   - SuperOffice.WebApi.Data.ContactSourceType.UndefinedValue8
   - SuperOffice.WebApi.Data.ContactSourceType.Unknown
+  - SuperOffice.WebApi.Data.ContactSourceType.value__
   langs:
   - csharp
   - vb
   name: ContactSourceType
   nameWithType: ContactSourceType
   fullName: SuperOffice.WebApi.Data.ContactSourceType
-  type: Enum
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Describes what source the contacts should be retrieved from.
-
-    This Enum consists of flag values that can be combined.
-  example: []
+  summary: "\nDescribes what source the contacts should be retrieved from.\nThis Enum consists of flag values that can be combined.\n"
   syntax:
-    content: >-
-      [Flags]
-
-      public enum ContactSourceType
+    content: 'public sealed class ContactSourceType : Enum'
     content.vb: >-
-      <Flags>
+      Public NotInheritable Class ContactSourceType
+          Inherits
 
-      Public Enum ContactSourceType
-  attributes:
-  - type: System.FlagsAttribute
-    ctor: System.FlagsAttribute.#ctor
-    arguments: []
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.ContactSourceType.value__
+  commentId: F:SuperOffice.WebApi.Data.ContactSourceType.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.ContactSourceType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: ContactSourceType.value__
+  fullName: SuperOffice.WebApi.Data.ContactSourceType.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.ContactSourceType.Unknown
   commentId: F:SuperOffice.WebApi.Data.ContactSourceType.Unknown
   id: Unknown
@@ -50,15 +80,24 @@ items:
   nameWithType: ContactSourceType.Unknown
   fullName: SuperOffice.WebApi.Data.ContactSourceType.Unknown
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '0: Unknown/undecided type'
-  example: []
+  summary: "\n0: Unknown/undecided type\n"
   syntax:
-    content: Unknown = 0
+    content: public const ContactSourceType Unknown
     return:
       type: SuperOffice.WebApi.Data.ContactSourceType
+    content.vb: Public Const Unknown As ContactSourceType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ContactSourceType.History
   commentId: F:SuperOffice.WebApi.Data.ContactSourceType.History
   id: History
@@ -70,26 +109,24 @@ items:
   nameWithType: ContactSourceType.History
   fullName: SuperOffice.WebApi.Data.ContactSourceType.History
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '1: Contact is retrieved from the history list'
-  example: []
+  summary: "\n1: Contact is retrieved from the history list\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      History = 1
+    content: public const ContactSourceType History
     return:
       type: SuperOffice.WebApi.Data.ContactSourceType
-    content.vb: >-
-      <EnumMember>
-
-      History = 1
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const History As ContactSourceType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ContactSourceType.Diary
   commentId: F:SuperOffice.WebApi.Data.ContactSourceType.Diary
   id: Diary
@@ -101,26 +138,24 @@ items:
   nameWithType: ContactSourceType.Diary
   fullName: SuperOffice.WebApi.Data.ContactSourceType.Diary
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '2: Contact is retrieved from the diary'
-  example: []
+  summary: "\n2: Contact is retrieved from the diary\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Diary = 2
+    content: public const ContactSourceType Diary
     return:
       type: SuperOffice.WebApi.Data.ContactSourceType
-    content.vb: >-
-      <EnumMember>
-
-      Diary = 2
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Diary As ContactSourceType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ContactSourceType.Favorites
   commentId: F:SuperOffice.WebApi.Data.ContactSourceType.Favorites
   id: Favorites
@@ -132,26 +167,24 @@ items:
   nameWithType: ContactSourceType.Favorites
   fullName: SuperOffice.WebApi.Data.ContactSourceType.Favorites
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '4: Contact is retrieved from the favorites list'
-  example: []
+  summary: "\n4: Contact is retrieved from the favorites list\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Favorites = 4
+    content: public const ContactSourceType Favorites
     return:
       type: SuperOffice.WebApi.Data.ContactSourceType
-    content.vb: >-
-      <EnumMember>
-
-      Favorites = 4
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Favorites As ContactSourceType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ContactSourceType.All
   commentId: F:SuperOffice.WebApi.Data.ContactSourceType.All
   id: All
@@ -163,16 +196,24 @@ items:
   nameWithType: ContactSourceType.All
   fullName: SuperOffice.WebApi.Data.ContactSourceType.All
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "7: Enumeration generated from the wsdl doesn't handle the [Flags] attribute (bit enumeration)"
-  example: []
+  summary: "\n7: Enumeration generated from the wsdl doesn&apos;t handle the [Flags] attribute (bit enumeration)\n"
   syntax:
-    content: All = History | Diary | Favorites
+    content: public const ContactSourceType All
     return:
       type: SuperOffice.WebApi.Data.ContactSourceType
-    content.vb: All = History Or Diary Or Favorites
+    content.vb: Public Const All As ContactSourceType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ContactSourceType.UndefinedValue8
   commentId: F:SuperOffice.WebApi.Data.ContactSourceType.UndefinedValue8
   id: UndefinedValue8
@@ -184,69 +225,55 @@ items:
   nameWithType: ContactSourceType.UndefinedValue8
   fullName: SuperOffice.WebApi.Data.ContactSourceType.UndefinedValue8
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '8: Undefined and generated value 8'
-  example: []
+  summary: "\n8: Undefined and generated value 8\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      UndefinedValue8 = 8
+    content: public const ContactSourceType UndefinedValue8
     return:
       type: SuperOffice.WebApi.Data.ContactSourceType
-    content.vb: >-
-      <EnumMember>
-
-      UndefinedValue8 = 8
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const UndefinedValue8 As ContactSourceType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.WebApi.Data.ContactSourceType
   commentId: T:SuperOffice.WebApi.Data.ContactSourceType
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.ContactSourceType.html
   name: ContactSourceType
   nameWithType: ContactSourceType
   fullName: SuperOffice.WebApi.Data.ContactSourceType

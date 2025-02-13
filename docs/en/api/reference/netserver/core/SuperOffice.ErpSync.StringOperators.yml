@@ -21,24 +21,27 @@ items:
   nameWithType: StringOperators
   fullName: SuperOffice.ErpSync.StringOperators
   type: Class
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.ErpSync
-  summary: Supported operators for string fields through advanced search
-  example: []
+  summary: "\nSupported operators for string fields through advanced search\n"
   syntax:
-    content: public static class StringOperators
-    content.vb: Public Module StringOperators
+    content: 'public static class StringOperators : Object'
+    content.vb: >-
+      Public Module StringOperators
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
 - uid: SuperOffice.ErpSync.StringOperators.EQUALS
   commentId: F:SuperOffice.ErpSync.StringOperators.EQUALS
   id: EQUALS
@@ -50,16 +53,24 @@ items:
   nameWithType: StringOperators.EQUALS
   fullName: SuperOffice.ErpSync.StringOperators.EQUALS
   type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.ErpSync
-  summary: "\"Equals\" operator. Should not be case sensitive"
-  example: []
+  summary: "\n&quot;Equals&quot; operator. Should not be case sensitive\n"
   syntax:
     content: public const string EQUALS = "="
     return:
       type: System.String
     content.vb: Public Const EQUALS As String = "="
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.ErpSync.StringOperators.BEGINS_WITH
   commentId: F:SuperOffice.ErpSync.StringOperators.BEGINS_WITH
   id: BEGINS_WITH
@@ -71,16 +82,24 @@ items:
   nameWithType: StringOperators.BEGINS_WITH
   fullName: SuperOffice.ErpSync.StringOperators.BEGINS_WITH
   type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.ErpSync
-  summary: "\"Begins with\" operator. Should not be case sensitive"
-  example: []
+  summary: "\n&quot;Begins with&quot; operator. Should not be case sensitive\n"
   syntax:
     content: public const string BEGINS_WITH = "begins"
     return:
       type: System.String
     content.vb: Public Const BEGINS_WITH As String = "begins"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.ErpSync.StringOperators.CONTAINS
   commentId: F:SuperOffice.ErpSync.StringOperators.CONTAINS
   id: CONTAINS
@@ -92,16 +111,24 @@ items:
   nameWithType: StringOperators.CONTAINS
   fullName: SuperOffice.ErpSync.StringOperators.CONTAINS
   type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.ErpSync
-  summary: "\"Contains\" operator. Should not be case sensitive"
-  example: []
+  summary: "\n&quot;Contains&quot; operator. Should not be case sensitive\n"
   syntax:
     content: public const string CONTAINS = "contains"
     return:
       type: System.String
     content.vb: Public Const CONTAINS As String = "contains"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.ErpSync.StringOperators.ENDS_WITH
   commentId: F:SuperOffice.ErpSync.StringOperators.ENDS_WITH
   id: ENDS_WITH
@@ -113,16 +140,24 @@ items:
   nameWithType: StringOperators.ENDS_WITH
   fullName: SuperOffice.ErpSync.StringOperators.ENDS_WITH
   type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.ErpSync
-  summary: "\"Ends with\" operator. Should not be case sensitive"
-  example: []
+  summary: "\n&quot;Ends with&quot; operator. Should not be case sensitive\n"
   syntax:
     content: public const string ENDS_WITH = "ends"
     return:
       type: System.String
     content.vb: Public Const ENDS_WITH As String = "ends"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.ErpSync.StringOperators.NOT_BEGINS_WITH
   commentId: F:SuperOffice.ErpSync.StringOperators.NOT_BEGINS_WITH
   id: NOT_BEGINS_WITH
@@ -134,16 +169,24 @@ items:
   nameWithType: StringOperators.NOT_BEGINS_WITH
   fullName: SuperOffice.ErpSync.StringOperators.NOT_BEGINS_WITH
   type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.ErpSync
-  summary: "\"Does not begin with\" operator. Should not be case sensitive"
-  example: []
+  summary: "\n&quot;Does not begin with&quot; operator. Should not be case sensitive\n"
   syntax:
     content: public const string NOT_BEGINS_WITH = "notbegins"
     return:
       type: System.String
     content.vb: Public Const NOT_BEGINS_WITH As String = "notbegins"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.ErpSync.StringOperators.NOT_CONTAINS
   commentId: F:SuperOffice.ErpSync.StringOperators.NOT_CONTAINS
   id: NOT_CONTAINS
@@ -155,16 +198,24 @@ items:
   nameWithType: StringOperators.NOT_CONTAINS
   fullName: SuperOffice.ErpSync.StringOperators.NOT_CONTAINS
   type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.ErpSync
-  summary: "\"Does not contain\" operator. Should not be case sensitive"
-  example: []
+  summary: "\n&quot;Does not contain&quot; operator. Should not be case sensitive\n"
   syntax:
     content: public const string NOT_CONTAINS = "notcontains"
     return:
       type: System.String
     content.vb: Public Const NOT_CONTAINS As String = "notcontains"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.ErpSync.StringOperators.NOT_ENDS_WITH
   commentId: F:SuperOffice.ErpSync.StringOperators.NOT_ENDS_WITH
   id: NOT_ENDS_WITH
@@ -176,16 +227,24 @@ items:
   nameWithType: StringOperators.NOT_ENDS_WITH
   fullName: SuperOffice.ErpSync.StringOperators.NOT_ENDS_WITH
   type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.ErpSync
-  summary: "\"Does not end with\" operator. Should not be case sensitive"
-  example: []
+  summary: "\n&quot;Does not end with&quot; operator. Should not be case sensitive\n"
   syntax:
     content: public const string NOT_ENDS_WITH = "notends"
     return:
       type: System.String
     content.vb: Public Const NOT_ENDS_WITH As String = "notends"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.ErpSync.StringOperators.NOT_EQUALS
   commentId: F:SuperOffice.ErpSync.StringOperators.NOT_EQUALS
   id: NOT_EQUALS
@@ -197,16 +256,24 @@ items:
   nameWithType: StringOperators.NOT_EQUALS
   fullName: SuperOffice.ErpSync.StringOperators.NOT_EQUALS
   type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.ErpSync
-  summary: "\"Does not equal\" operator. Should not be case sensitive"
-  example: []
+  summary: "\n&quot;Does not equal&quot; operator. Should not be case sensitive\n"
   syntax:
     content: public const string NOT_EQUALS = "isnot"
     return:
       type: System.String
     content.vb: Public Const NOT_EQUALS As String = "isnot"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.ErpSync.StringOperators.BETWEEN
   commentId: F:SuperOffice.ErpSync.StringOperators.BETWEEN
   id: BETWEEN
@@ -218,278 +285,41 @@ items:
   nameWithType: StringOperators.BETWEEN
   fullName: SuperOffice.ErpSync.StringOperators.BETWEEN
   type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.ErpSync
-  summary: "\"Between\" operator. Search values are presented in desired order. Should not be case sensitive"
-  example: []
+  summary: "\n&quot;Between&quot; operator. Search values are presented in desired order. Should not be case sensitive\n"
   syntax:
     content: public const string BETWEEN = "between"
     return:
       type: System.String
     content.vb: Public Const BETWEEN As String = "between"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.ErpSync
   commentId: N:SuperOffice.ErpSync
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync
   nameWithType: SuperOffice.ErpSync
   fullName: SuperOffice.ErpSync
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -497,10 +327,6 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String

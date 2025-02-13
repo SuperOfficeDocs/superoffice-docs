@@ -32,44 +32,28 @@ items:
   nameWithType: PhoneFormatter
   fullName: SuperOffice.CRM.Globalization.PhoneFormatter
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: Functions for formatting a person's or contact's phone number.
-  remarks: >-
-    <p>
-    	It is HIGHLY recommended that all phone numbers entered by the users in the 
-    	user interface are formatted with the FormatNumber 
-    	before saving them to the database.
-    </p>
-
-    <p>
-    	It is recommended that online clients use 
-    	<xref href="SuperOffice.CRM.Globalization.PhoneFormatter.GetLongDisplayNumber(System.Int32%2cSystem.String)" data-throw-if-not-resolved="false"></xref> with 'false' for the 
-    	'includeDialOutNumber' option - unless one assumes a usage pattern
-    	where users are mostly in the same country as their currently defined 'home country'
-    	(the case for mostly stationary users, as opposed to internationally travelling users)
-    </p>
-
-    <p>
-    	It is recommended that windows clients use 
-    	<xref href="SuperOffice.CRM.Globalization.PhoneFormatter.GetShortDisplayNumber(System.Int32%2cSystem.String)" data-throw-if-not-resolved="false"></xref> with 'false' for the 
-    	'includeDialOutNumber' option. This assumes that such users are generally in their home country.
-    </p>
-  example: []
+  summary: "\nFunctions for formatting a person&apos;s or contact&apos;s phone number.\n"
+  remarks: "\n<p>\n	It is HIGHLY recommended that all phone numbers entered by the users in the \n	user interface are formatted with the <see cref=\"!:FormatNumber\"></see> \n	before saving them to the database.\n</p>\n<p>\n	It is recommended that online clients use \n<xref href=\"SuperOffice.CRM.Globalization.PhoneFormatter.GetLongDisplayNumber(System.Int32%2cSystem.String)\" data-throw-if-not-resolved=\"false\"></xref> with &apos;false&apos; for the \n&apos;includeDialOutNumber&apos; option - unless one assumes a usage pattern\nwhere users are mostly in the same country as their currently defined &apos;home country&apos;\n(the case for mostly stationary users, as opposed to internationally travelling users)\n</p>\n<p>\n	It is recommended that windows clients use \n<xref href=\"SuperOffice.CRM.Globalization.PhoneFormatter.GetShortDisplayNumber(System.Int32%2cSystem.String)\" data-throw-if-not-resolved=\"false\"></xref> with &apos;false&apos; for the \n&apos;includeDialOutNumber&apos; option. This assumes that such users are generally in their home country.\n</p>\n"
   syntax:
-    content: public static class PhoneFormatter
-    content.vb: Public Module PhoneFormatter
+    content: 'public static class PhoneFormatter : Object'
+    content.vb: >-
+      Public Module PhoneFormatter
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
 - uid: SuperOffice.CRM.Globalization.PhoneFormatter.PhoneNumberMatcher
   commentId: F:SuperOffice.CRM.Globalization.PhoneFormatter.PhoneNumberMatcher
   id: PhoneNumberMatcher
@@ -81,6 +65,9 @@ items:
   nameWithType: PhoneFormatter.PhoneNumberMatcher
   fullName: SuperOffice.CRM.Globalization.PhoneFormatter.PhoneNumberMatcher
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
@@ -99,6 +86,14 @@ items:
   - type: SuperOffice.Factory.AllowedMultitenantStaticAttribute
     ctor: SuperOffice.Factory.AllowedMultitenantStaticAttribute.#ctor
     arguments: []
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
 - uid: SuperOffice.CRM.Globalization.PhoneFormatter.GetPrefix(System.Int32)
   commentId: M:SuperOffice.CRM.Globalization.PhoneFormatter.GetPrefix(System.Int32)
   id: GetPrefix(System.Int32)
@@ -106,15 +101,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetPrefix(int)
-  nameWithType: PhoneFormatter.GetPrefix(int)
-  fullName: SuperOffice.CRM.Globalization.PhoneFormatter.GetPrefix(int)
+  name: GetPrefix(Int32)
+  nameWithType: PhoneFormatter.GetPrefix(Int32)
+  fullName: SuperOffice.CRM.Globalization.PhoneFormatter.GetPrefix(System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: Get the prefix used in edit boxes entered before the user types the phone number.
-  example: []
+  summary: "\nGet the prefix used in edit boxes entered before the user types the phone number.\n"
   syntax:
     content: public static string GetPrefix(int toCountryId)
     parameters:
@@ -123,12 +120,15 @@ items:
       description: Country to dial to. (578=norway)
     return:
       type: System.String
-      description: The prefix including leading "+"  (e.g. "+47" for norway)
+      description: The prefix including leading &quot;+&quot;  (e.g. &quot;+47&quot; for norway)
     content.vb: Public Shared Function GetPrefix(toCountryId As Integer) As String
   overload: SuperOffice.CRM.Globalization.PhoneFormatter.GetPrefix*
-  nameWithType.vb: PhoneFormatter.GetPrefix(Integer)
-  fullName.vb: SuperOffice.CRM.Globalization.PhoneFormatter.GetPrefix(Integer)
-  name.vb: GetPrefix(Integer)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Globalization.PhoneFormatter.GetShortDisplayNumber(System.Int32,System.String)
   commentId: M:SuperOffice.CRM.Globalization.PhoneFormatter.GetShortDisplayNumber(System.Int32,System.String)
   id: GetShortDisplayNumber(System.Int32,System.String)
@@ -136,19 +136,18 @@ items:
   langs:
   - csharp
   - vb
-  name: GetShortDisplayNumber(int, string)
-  nameWithType: PhoneFormatter.GetShortDisplayNumber(int, string)
-  fullName: SuperOffice.CRM.Globalization.PhoneFormatter.GetShortDisplayNumber(int, string)
+  name: GetShortDisplayNumber(Int32, String)
+  nameWithType: PhoneFormatter.GetShortDisplayNumber(Int32, String)
+  fullName: SuperOffice.CRM.Globalization.PhoneFormatter.GetShortDisplayNumber(System.Int32, System.String)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: Get the short display format for the for the number, including areacode.
-  remarks: >-
-    This is the same as <xref href="SuperOffice.CRM.Globalization.PhoneFormatter.GetLongDisplayNumber(System.Int32%2cSystem.String)" data-throw-if-not-resolved="false"></xref> if from country and to country is not the same.  
-
-    Numbers part of the american phone system will not get the areacode.
-  example: []
+  summary: "\nGet the short display format for the for the number, including areacode.\n"
+  remarks: "\nThis is the same as <xref href=\"SuperOffice.CRM.Globalization.PhoneFormatter.GetLongDisplayNumber(System.Int32%2cSystem.String)\" data-throw-if-not-resolved=\"false\"></xref> if from country and to country is not the same.  \nNumbers part of the american phone system will not get the areacode.\n"
   syntax:
     content: public static string GetShortDisplayNumber(int toCountryId, string phone)
     parameters:
@@ -163,9 +162,12 @@ items:
       description: Long display format for the for the number.
     content.vb: Public Shared Function GetShortDisplayNumber(toCountryId As Integer, phone As String) As String
   overload: SuperOffice.CRM.Globalization.PhoneFormatter.GetShortDisplayNumber*
-  nameWithType.vb: PhoneFormatter.GetShortDisplayNumber(Integer, String)
-  fullName.vb: SuperOffice.CRM.Globalization.PhoneFormatter.GetShortDisplayNumber(Integer, String)
-  name.vb: GetShortDisplayNumber(Integer, String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Globalization.PhoneFormatter.GetShortDisplayNumber(System.Int32,System.Int32,System.String)
   commentId: M:SuperOffice.CRM.Globalization.PhoneFormatter.GetShortDisplayNumber(System.Int32,System.Int32,System.String)
   id: GetShortDisplayNumber(System.Int32,System.Int32,System.String)
@@ -173,19 +175,18 @@ items:
   langs:
   - csharp
   - vb
-  name: GetShortDisplayNumber(int, int, string)
-  nameWithType: PhoneFormatter.GetShortDisplayNumber(int, int, string)
-  fullName: SuperOffice.CRM.Globalization.PhoneFormatter.GetShortDisplayNumber(int, int, string)
+  name: GetShortDisplayNumber(Int32, Int32, String)
+  nameWithType: PhoneFormatter.GetShortDisplayNumber(Int32, Int32, String)
+  fullName: SuperOffice.CRM.Globalization.PhoneFormatter.GetShortDisplayNumber(System.Int32, System.Int32, System.String)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: Get the short display format for the for the number, including areacode.
-  remarks: >-
-    This is the same as <xref href="SuperOffice.CRM.Globalization.PhoneFormatter.GetLongDisplayNumber(System.Int32%2cSystem.String)" data-throw-if-not-resolved="false"></xref> if from country and to country is not the same.  
-
-    Numbers part of the american phone system will not get the areacode.
-  example: []
+  summary: "\nGet the short display format for the for the number, including areacode.\n"
+  remarks: "\nThis is the same as <xref href=\"SuperOffice.CRM.Globalization.PhoneFormatter.GetLongDisplayNumber(System.Int32%2cSystem.String)\" data-throw-if-not-resolved=\"false\"></xref> if from country and to country is not the same.  \nNumbers part of the american phone system will not get the areacode.\n"
   syntax:
     content: public static string GetShortDisplayNumber(int fromCountryId, int toCountryId, string phone)
     parameters:
@@ -203,9 +204,12 @@ items:
       description: Long display format for the for the number.
     content.vb: Public Shared Function GetShortDisplayNumber(fromCountryId As Integer, toCountryId As Integer, phone As String) As String
   overload: SuperOffice.CRM.Globalization.PhoneFormatter.GetShortDisplayNumber*
-  nameWithType.vb: PhoneFormatter.GetShortDisplayNumber(Integer, Integer, String)
-  fullName.vb: SuperOffice.CRM.Globalization.PhoneFormatter.GetShortDisplayNumber(Integer, Integer, String)
-  name.vb: GetShortDisplayNumber(Integer, Integer, String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Globalization.PhoneFormatter.GetShortDisplayNumber(System.Int32,System.Int32,System.String,System.Boolean)
   commentId: M:SuperOffice.CRM.Globalization.PhoneFormatter.GetShortDisplayNumber(System.Int32,System.Int32,System.String,System.Boolean)
   id: GetShortDisplayNumber(System.Int32,System.Int32,System.String,System.Boolean)
@@ -213,19 +217,18 @@ items:
   langs:
   - csharp
   - vb
-  name: GetShortDisplayNumber(int, int, string, bool)
-  nameWithType: PhoneFormatter.GetShortDisplayNumber(int, int, string, bool)
-  fullName: SuperOffice.CRM.Globalization.PhoneFormatter.GetShortDisplayNumber(int, int, string, bool)
+  name: GetShortDisplayNumber(Int32, Int32, String, Boolean)
+  nameWithType: PhoneFormatter.GetShortDisplayNumber(Int32, Int32, String, Boolean)
+  fullName: SuperOffice.CRM.Globalization.PhoneFormatter.GetShortDisplayNumber(System.Int32, System.Int32, System.String, System.Boolean)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: Get the short display format for the for the number, including areacode.
-  remarks: >-
-    This is the same as <xref href="SuperOffice.CRM.Globalization.PhoneFormatter.GetLongDisplayNumber(System.Int32%2cSystem.String)" data-throw-if-not-resolved="false"></xref> if from country and to country is not the same.  
-
-    Numbers part of the american phone system will not get the areacode.
-  example: []
+  summary: "\nGet the short display format for the for the number, including areacode.\n"
+  remarks: "\nThis is the same as <xref href=\"SuperOffice.CRM.Globalization.PhoneFormatter.GetLongDisplayNumber(System.Int32%2cSystem.String)\" data-throw-if-not-resolved=\"false\"></xref> if from country and to country is not the same.  \nNumbers part of the american phone system will not get the areacode.\n"
   syntax:
     content: public static string GetShortDisplayNumber(int fromCountryId, int toCountryId, string phone, bool includeDialOutNumber)
     parameters:
@@ -240,15 +243,18 @@ items:
       description: Phone number as entered by the user in the user interface.
     - id: includeDialOutNumber
       type: System.Boolean
-      description: Include the number to dial out, false will use '+'
+      description: Include the number to dial out, false will use &apos;+&apos;
     return:
       type: System.String
       description: Long display format for the for the number.
     content.vb: Public Shared Function GetShortDisplayNumber(fromCountryId As Integer, toCountryId As Integer, phone As String, includeDialOutNumber As Boolean) As String
   overload: SuperOffice.CRM.Globalization.PhoneFormatter.GetShortDisplayNumber*
-  nameWithType.vb: PhoneFormatter.GetShortDisplayNumber(Integer, Integer, String, Boolean)
-  fullName.vb: SuperOffice.CRM.Globalization.PhoneFormatter.GetShortDisplayNumber(Integer, Integer, String, Boolean)
-  name.vb: GetShortDisplayNumber(Integer, Integer, String, Boolean)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Globalization.PhoneFormatter.GetShortDisplayNumber(System.Int32,System.Int32,System.String,System.Boolean,System.Boolean)
   commentId: M:SuperOffice.CRM.Globalization.PhoneFormatter.GetShortDisplayNumber(System.Int32,System.Int32,System.String,System.Boolean,System.Boolean)
   id: GetShortDisplayNumber(System.Int32,System.Int32,System.String,System.Boolean,System.Boolean)
@@ -256,19 +262,18 @@ items:
   langs:
   - csharp
   - vb
-  name: GetShortDisplayNumber(int, int, string, bool, bool)
-  nameWithType: PhoneFormatter.GetShortDisplayNumber(int, int, string, bool, bool)
-  fullName: SuperOffice.CRM.Globalization.PhoneFormatter.GetShortDisplayNumber(int, int, string, bool, bool)
+  name: GetShortDisplayNumber(Int32, Int32, String, Boolean, Boolean)
+  nameWithType: PhoneFormatter.GetShortDisplayNumber(Int32, Int32, String, Boolean, Boolean)
+  fullName: SuperOffice.CRM.Globalization.PhoneFormatter.GetShortDisplayNumber(System.Int32, System.Int32, System.String, System.Boolean, System.Boolean)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: Get the short display format for the for the number, including areacode.
-  remarks: >-
-    This is the same as <xref href="SuperOffice.CRM.Globalization.PhoneFormatter.GetLongDisplayNumber(System.Int32%2cSystem.String)" data-throw-if-not-resolved="false"></xref> if from country and to country is not the same.  
-
-    Numbers part of the american phone system will not get the areacode.
-  example: []
+  summary: "\nGet the short display format for the for the number, including areacode.\n"
+  remarks: "\nThis is the same as <xref href=\"SuperOffice.CRM.Globalization.PhoneFormatter.GetLongDisplayNumber(System.Int32%2cSystem.String)\" data-throw-if-not-resolved=\"false\"></xref> if from country and to country is not the same.  \nNumbers part of the american phone system will not get the areacode.\n"
   syntax:
     content: public static string GetShortDisplayNumber(int fromCountryId, int toCountryId, string phone, bool includeDialOutNumber, bool allwaysUseGsmPhoneStyle)
     parameters:
@@ -283,7 +288,7 @@ items:
       description: Phone number as entered by the user in the user interface.
     - id: includeDialOutNumber
       type: System.Boolean
-      description: Include the number to dial out, false will use '+'
+      description: Include the number to dial out, false will use &apos;+&apos;
     - id: allwaysUseGsmPhoneStyle
       type: System.Boolean
       description: Force the phone number to displayed compatible with GSM phones (+ [CountryCode] - no inter area)
@@ -292,9 +297,12 @@ items:
       description: Long display format for the for the number.
     content.vb: Public Shared Function GetShortDisplayNumber(fromCountryId As Integer, toCountryId As Integer, phone As String, includeDialOutNumber As Boolean, allwaysUseGsmPhoneStyle As Boolean) As String
   overload: SuperOffice.CRM.Globalization.PhoneFormatter.GetShortDisplayNumber*
-  nameWithType.vb: PhoneFormatter.GetShortDisplayNumber(Integer, Integer, String, Boolean, Boolean)
-  fullName.vb: SuperOffice.CRM.Globalization.PhoneFormatter.GetShortDisplayNumber(Integer, Integer, String, Boolean, Boolean)
-  name.vb: GetShortDisplayNumber(Integer, Integer, String, Boolean, Boolean)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Globalization.PhoneFormatter.GetLongDisplayNumber(System.Int32,System.String)
   commentId: M:SuperOffice.CRM.Globalization.PhoneFormatter.GetLongDisplayNumber(System.Int32,System.String)
   id: GetLongDisplayNumber(System.Int32,System.String)
@@ -302,16 +310,18 @@ items:
   langs:
   - csharp
   - vb
-  name: GetLongDisplayNumber(int, string)
-  nameWithType: PhoneFormatter.GetLongDisplayNumber(int, string)
-  fullName: SuperOffice.CRM.Globalization.PhoneFormatter.GetLongDisplayNumber(int, string)
+  name: GetLongDisplayNumber(Int32, String)
+  nameWithType: PhoneFormatter.GetLongDisplayNumber(Int32, String)
+  fullName: SuperOffice.CRM.Globalization.PhoneFormatter.GetLongDisplayNumber(System.Int32, System.String)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: Get the long display format for the for the number, including country and areacode.
+  summary: "\nGet the long display format for the for the number, including country and areacode.\n"
   remarks: Numbers part of the american phone system will not get the areacode.
-  example: []
   syntax:
     content: public static string GetLongDisplayNumber(int toCountryId, string phone)
     parameters:
@@ -326,9 +336,12 @@ items:
       description: Long display format for the for the number.
     content.vb: Public Shared Function GetLongDisplayNumber(toCountryId As Integer, phone As String) As String
   overload: SuperOffice.CRM.Globalization.PhoneFormatter.GetLongDisplayNumber*
-  nameWithType.vb: PhoneFormatter.GetLongDisplayNumber(Integer, String)
-  fullName.vb: SuperOffice.CRM.Globalization.PhoneFormatter.GetLongDisplayNumber(Integer, String)
-  name.vb: GetLongDisplayNumber(Integer, String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Globalization.PhoneFormatter.GetLongDisplayNumber(System.Int32,System.Int32,System.String)
   commentId: M:SuperOffice.CRM.Globalization.PhoneFormatter.GetLongDisplayNumber(System.Int32,System.Int32,System.String)
   id: GetLongDisplayNumber(System.Int32,System.Int32,System.String)
@@ -336,16 +349,18 @@ items:
   langs:
   - csharp
   - vb
-  name: GetLongDisplayNumber(int, int, string)
-  nameWithType: PhoneFormatter.GetLongDisplayNumber(int, int, string)
-  fullName: SuperOffice.CRM.Globalization.PhoneFormatter.GetLongDisplayNumber(int, int, string)
+  name: GetLongDisplayNumber(Int32, Int32, String)
+  nameWithType: PhoneFormatter.GetLongDisplayNumber(Int32, Int32, String)
+  fullName: SuperOffice.CRM.Globalization.PhoneFormatter.GetLongDisplayNumber(System.Int32, System.Int32, System.String)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: Get the long display format for the for the number, including country and areacode.
+  summary: "\nGet the long display format for the for the number, including country and areacode.\n"
   remarks: Numbers part of the american phone system will not get the areacode.
-  example: []
   syntax:
     content: public static string GetLongDisplayNumber(int fromCountryId, int toCountryId, string phone)
     parameters:
@@ -363,9 +378,12 @@ items:
       description: Long display format for the for the number.
     content.vb: Public Shared Function GetLongDisplayNumber(fromCountryId As Integer, toCountryId As Integer, phone As String) As String
   overload: SuperOffice.CRM.Globalization.PhoneFormatter.GetLongDisplayNumber*
-  nameWithType.vb: PhoneFormatter.GetLongDisplayNumber(Integer, Integer, String)
-  fullName.vb: SuperOffice.CRM.Globalization.PhoneFormatter.GetLongDisplayNumber(Integer, Integer, String)
-  name.vb: GetLongDisplayNumber(Integer, Integer, String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Globalization.PhoneFormatter.GetLongDisplayNumber(System.Int32,System.Int32,System.String,System.Boolean)
   commentId: M:SuperOffice.CRM.Globalization.PhoneFormatter.GetLongDisplayNumber(System.Int32,System.Int32,System.String,System.Boolean)
   id: GetLongDisplayNumber(System.Int32,System.Int32,System.String,System.Boolean)
@@ -373,16 +391,18 @@ items:
   langs:
   - csharp
   - vb
-  name: GetLongDisplayNumber(int, int, string, bool)
-  nameWithType: PhoneFormatter.GetLongDisplayNumber(int, int, string, bool)
-  fullName: SuperOffice.CRM.Globalization.PhoneFormatter.GetLongDisplayNumber(int, int, string, bool)
+  name: GetLongDisplayNumber(Int32, Int32, String, Boolean)
+  nameWithType: PhoneFormatter.GetLongDisplayNumber(Int32, Int32, String, Boolean)
+  fullName: SuperOffice.CRM.Globalization.PhoneFormatter.GetLongDisplayNumber(System.Int32, System.Int32, System.String, System.Boolean)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: Get the long display format for the for the number, including country and areacode.
+  summary: "\nGet the long display format for the for the number, including country and areacode.\n"
   remarks: Numbers part of the american phone system will not get the areacode.
-  example: []
   syntax:
     content: public static string GetLongDisplayNumber(int fromCountryId, int toCountryId, string phone, bool includeDialOutNumber)
     parameters:
@@ -397,15 +417,18 @@ items:
       description: Phone number as entered by the user in the user interface.
     - id: includeDialOutNumber
       type: System.Boolean
-      description: Include the number to dial out, false will use '+'
+      description: Include the number to dial out, false will use &apos;+&apos;
     return:
       type: System.String
       description: Long display format for the for the number.
     content.vb: Public Shared Function GetLongDisplayNumber(fromCountryId As Integer, toCountryId As Integer, phone As String, includeDialOutNumber As Boolean) As String
   overload: SuperOffice.CRM.Globalization.PhoneFormatter.GetLongDisplayNumber*
-  nameWithType.vb: PhoneFormatter.GetLongDisplayNumber(Integer, Integer, String, Boolean)
-  fullName.vb: SuperOffice.CRM.Globalization.PhoneFormatter.GetLongDisplayNumber(Integer, Integer, String, Boolean)
-  name.vb: GetLongDisplayNumber(Integer, Integer, String, Boolean)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Globalization.PhoneFormatter.GetLongDisplayNumber(System.Int32,System.Int32,System.String,System.Boolean,System.Boolean,System.Boolean)
   commentId: M:SuperOffice.CRM.Globalization.PhoneFormatter.GetLongDisplayNumber(System.Int32,System.Int32,System.String,System.Boolean,System.Boolean,System.Boolean)
   id: GetLongDisplayNumber(System.Int32,System.Int32,System.String,System.Boolean,System.Boolean,System.Boolean)
@@ -413,16 +436,18 @@ items:
   langs:
   - csharp
   - vb
-  name: GetLongDisplayNumber(int, int, string, bool, bool, bool)
-  nameWithType: PhoneFormatter.GetLongDisplayNumber(int, int, string, bool, bool, bool)
-  fullName: SuperOffice.CRM.Globalization.PhoneFormatter.GetLongDisplayNumber(int, int, string, bool, bool, bool)
+  name: GetLongDisplayNumber(Int32, Int32, String, Boolean, Boolean, Boolean)
+  nameWithType: PhoneFormatter.GetLongDisplayNumber(Int32, Int32, String, Boolean, Boolean, Boolean)
+  fullName: SuperOffice.CRM.Globalization.PhoneFormatter.GetLongDisplayNumber(System.Int32, System.Int32, System.String, System.Boolean, System.Boolean, System.Boolean)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: Get the long display format for the for the number, including country and areacode.
+  summary: "\nGet the long display format for the for the number, including country and areacode.\n"
   remarks: Numbers part of the american phone system will not get the areacode.
-  example: []
   syntax:
     content: public static string GetLongDisplayNumber(int fromCountryId, int toCountryId, string phone, bool includeDialOutNumber, bool allwaysUseGsmPhoneStyle, bool removeDialInterArea)
     parameters:
@@ -437,7 +462,7 @@ items:
       description: Phone number as entered by the user in the user interface.
     - id: includeDialOutNumber
       type: System.Boolean
-      description: Include the number to dial out, false will use '+'
+      description: Include the number to dial out, false will use &apos;+&apos;
     - id: allwaysUseGsmPhoneStyle
       type: System.Boolean
       description: Force the phone number to displayed compatible with GSM phones (+ [CountryCode] - no inter area)
@@ -448,9 +473,12 @@ items:
       description: Long display format for the for the number.
     content.vb: Public Shared Function GetLongDisplayNumber(fromCountryId As Integer, toCountryId As Integer, phone As String, includeDialOutNumber As Boolean, allwaysUseGsmPhoneStyle As Boolean, removeDialInterArea As Boolean) As String
   overload: SuperOffice.CRM.Globalization.PhoneFormatter.GetLongDisplayNumber*
-  nameWithType.vb: PhoneFormatter.GetLongDisplayNumber(Integer, Integer, String, Boolean, Boolean, Boolean)
-  fullName.vb: SuperOffice.CRM.Globalization.PhoneFormatter.GetLongDisplayNumber(Integer, Integer, String, Boolean, Boolean, Boolean)
-  name.vb: GetLongDisplayNumber(Integer, Integer, String, Boolean, Boolean, Boolean)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Globalization.PhoneFormatter.FormatNumberForDatabase(System.Int32,System.String)
   commentId: M:SuperOffice.CRM.Globalization.PhoneFormatter.FormatNumberForDatabase(System.Int32,System.String)
   id: FormatNumberForDatabase(System.Int32,System.String)
@@ -458,19 +486,18 @@ items:
   langs:
   - csharp
   - vb
-  name: FormatNumberForDatabase(int, string)
-  nameWithType: PhoneFormatter.FormatNumberForDatabase(int, string)
-  fullName: SuperOffice.CRM.Globalization.PhoneFormatter.FormatNumberForDatabase(int, string)
+  name: FormatNumberForDatabase(Int32, String)
+  nameWithType: PhoneFormatter.FormatNumberForDatabase(Int32, String)
+  fullName: SuperOffice.CRM.Globalization.PhoneFormatter.FormatNumberForDatabase(System.Int32, System.String)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: Remove unnecessary prefix on phone number and make it compliant to the database format.
-  remarks: >-
-    If the phone number is in the same country as the person or contact, 
-
-    the country prefix is removed.
-  example: []
+  summary: "\nRemove unnecessary prefix on phone number and make it compliant to the database format.\n"
+  remarks: "\nIf the phone number is in the same country as the person or contact, \nthe country prefix is removed."
   syntax:
     content: public static string FormatNumberForDatabase(int toCountryId, string phone)
     parameters:
@@ -485,9 +512,12 @@ items:
       description: Phonenumber where unnecessary prefix is removed.
     content.vb: Public Shared Function FormatNumberForDatabase(toCountryId As Integer, phone As String) As String
   overload: SuperOffice.CRM.Globalization.PhoneFormatter.FormatNumberForDatabase*
-  nameWithType.vb: PhoneFormatter.FormatNumberForDatabase(Integer, String)
-  fullName.vb: SuperOffice.CRM.Globalization.PhoneFormatter.FormatNumberForDatabase(Integer, String)
-  name.vb: FormatNumberForDatabase(Integer, String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Globalization.PhoneFormatter.GetEntityElementValue(System.Int32,System.String)
   commentId: M:SuperOffice.CRM.Globalization.PhoneFormatter.GetEntityElementValue(System.Int32,System.String)
   id: GetEntityElementValue(System.Int32,System.String)
@@ -495,16 +525,18 @@ items:
   langs:
   - csharp
   - vb
-  name: GetEntityElementValue(int, string)
-  nameWithType: PhoneFormatter.GetEntityElementValue(int, string)
-  fullName: SuperOffice.CRM.Globalization.PhoneFormatter.GetEntityElementValue(int, string)
+  name: GetEntityElementValue(Int32, String)
+  nameWithType: PhoneFormatter.GetEntityElementValue(Int32, String)
+  fullName: SuperOffice.CRM.Globalization.PhoneFormatter.GetEntityElementValue(System.Int32, System.String)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: Get the phone number as formatted according to the NetServer service layer inteded for UI.
+  summary: "\nGet the phone number as formatted according to the NetServer service layer inteded for UI.\n"
   remarks: The <xref href="SuperOffice.Configuration.ConfigFile.Globalization.AllwaysUseGsmPhoneStyle" data-throw-if-not-resolved="false"></xref> is observed.
-  example: []
   syntax:
     content: public static string GetEntityElementValue(int toCountryId, string phone)
     parameters:
@@ -519,9 +551,12 @@ items:
       description: Number according to the service layer of NetServer.
     content.vb: Public Shared Function GetEntityElementValue(toCountryId As Integer, phone As String) As String
   overload: SuperOffice.CRM.Globalization.PhoneFormatter.GetEntityElementValue*
-  nameWithType.vb: PhoneFormatter.GetEntityElementValue(Integer, String)
-  fullName.vb: SuperOffice.CRM.Globalization.PhoneFormatter.GetEntityElementValue(Integer, String)
-  name.vb: GetEntityElementValue(Integer, String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Globalization.PhoneFormatter.GetEntityElementStrippedValue(System.Int32,System.String)
   commentId: M:SuperOffice.CRM.Globalization.PhoneFormatter.GetEntityElementStrippedValue(System.Int32,System.String)
   id: GetEntityElementStrippedValue(System.Int32,System.String)
@@ -529,16 +564,18 @@ items:
   langs:
   - csharp
   - vb
-  name: GetEntityElementStrippedValue(int, string)
-  nameWithType: PhoneFormatter.GetEntityElementStrippedValue(int, string)
-  fullName: SuperOffice.CRM.Globalization.PhoneFormatter.GetEntityElementStrippedValue(int, string)
+  name: GetEntityElementStrippedValue(Int32, String)
+  nameWithType: PhoneFormatter.GetEntityElementStrippedValue(Int32, String)
+  fullName: SuperOffice.CRM.Globalization.PhoneFormatter.GetEntityElementStrippedValue(System.Int32, System.String)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: Get the phone number as formatted according to the NetServer service layer inteded for machines.
+  summary: "\nGet the phone number as formatted according to the NetServer service layer inteded for machines.\n"
   remarks: The <xref href="SuperOffice.Configuration.ConfigFile.Globalization.AllwaysUseGsmPhoneStyle" data-throw-if-not-resolved="false"></xref> is observed.
-  example: []
   syntax:
     content: public static string GetEntityElementStrippedValue(int toCountryId, string phone)
     parameters:
@@ -553,9 +590,12 @@ items:
       description: Number according to the service layer of NetServer.
     content.vb: Public Shared Function GetEntityElementStrippedValue(toCountryId As Integer, phone As String) As String
   overload: SuperOffice.CRM.Globalization.PhoneFormatter.GetEntityElementStrippedValue*
-  nameWithType.vb: PhoneFormatter.GetEntityElementStrippedValue(Integer, String)
-  fullName.vb: SuperOffice.CRM.Globalization.PhoneFormatter.GetEntityElementStrippedValue(Integer, String)
-  name.vb: GetEntityElementStrippedValue(Integer, String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Globalization.PhoneFormatter.FormatNumberForDatabase(System.Int32,System.Int32,System.String)
   commentId: M:SuperOffice.CRM.Globalization.PhoneFormatter.FormatNumberForDatabase(System.Int32,System.Int32,System.String)
   id: FormatNumberForDatabase(System.Int32,System.Int32,System.String)
@@ -563,19 +603,18 @@ items:
   langs:
   - csharp
   - vb
-  name: FormatNumberForDatabase(int, int, string)
-  nameWithType: PhoneFormatter.FormatNumberForDatabase(int, int, string)
-  fullName: SuperOffice.CRM.Globalization.PhoneFormatter.FormatNumberForDatabase(int, int, string)
+  name: FormatNumberForDatabase(Int32, Int32, String)
+  nameWithType: PhoneFormatter.FormatNumberForDatabase(Int32, Int32, String)
+  fullName: SuperOffice.CRM.Globalization.PhoneFormatter.FormatNumberForDatabase(System.Int32, System.Int32, System.String)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: Remove unnecessary prefix on phone number and make it compliant to the database format.
-  remarks: >-
-    If the phone number is in the same country as the person or contact, 
-
-    the country prefix is removed.
-  example: []
+  summary: "\nRemove unnecessary prefix on phone number and make it compliant to the database format.\n"
+  remarks: "\nIf the phone number is in the same country as the person or contact, \nthe country prefix is removed."
   syntax:
     content: public static string FormatNumberForDatabase(int fromCountryId, int toCountryId, string phone)
     parameters:
@@ -596,9 +635,12 @@ items:
   seealso:
   - linkId: SuperOffice.CRM.Globalization.Country.IsInterAreaPrefixClassic
     commentId: P:SuperOffice.CRM.Globalization.Country.IsInterAreaPrefixClassic
-  nameWithType.vb: PhoneFormatter.FormatNumberForDatabase(Integer, Integer, String)
-  fullName.vb: SuperOffice.CRM.Globalization.PhoneFormatter.FormatNumberForDatabase(Integer, Integer, String)
-  name.vb: FormatNumberForDatabase(Integer, Integer, String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Globalization.PhoneFormatter.GetGSMNumber(System.Int32,System.String)
   commentId: M:SuperOffice.CRM.Globalization.PhoneFormatter.GetGSMNumber(System.Int32,System.String)
   id: GetGSMNumber(System.Int32,System.String)
@@ -606,21 +648,18 @@ items:
   langs:
   - csharp
   - vb
-  name: GetGSMNumber(int, string)
-  nameWithType: PhoneFormatter.GetGSMNumber(int, string)
-  fullName: SuperOffice.CRM.Globalization.PhoneFormatter.GetGSMNumber(int, string)
+  name: GetGSMNumber(Int32, String)
+  nameWithType: PhoneFormatter.GetGSMNumber(Int32, String)
+  fullName: SuperOffice.CRM.Globalization.PhoneFormatter.GetGSMNumber(System.Int32, System.String)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: Get the phone number in a GSM compliant format.
-  remarks: >-
-    The phone number is formated according to the GSM standard for phone 
-
-    numbers.  This means [+] + [countrycode] + [national number].  
-
-    Letters in the phone numbers are resolved.
-  example: []
+  summary: "\nGet the phone number in a GSM compliant format.\n"
+  remarks: "\nThe phone number is formated according to the GSM standard for phone \nnumbers.  This means [+] + [countrycode] + [national number].  \nLetters in the phone numbers are resolved.\n"
   syntax:
     content: public static string GetGSMNumber(int toCountryId, string phone)
     parameters:
@@ -632,12 +671,15 @@ items:
       description: Phone number as read from the database.
     return:
       type: System.String
-      description: Phone number in a GSM compliant format. ("+4712345678")
+      description: Phone number in a GSM compliant format. (&quot;+4712345678&quot;)
     content.vb: Public Shared Function GetGSMNumber(toCountryId As Integer, phone As String) As String
   overload: SuperOffice.CRM.Globalization.PhoneFormatter.GetGSMNumber*
-  nameWithType.vb: PhoneFormatter.GetGSMNumber(Integer, String)
-  fullName.vb: SuperOffice.CRM.Globalization.PhoneFormatter.GetGSMNumber(Integer, String)
-  name.vb: GetGSMNumber(Integer, String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Globalization.PhoneFormatter.GetInternationalNumber(System.Int32,System.String)
   commentId: M:SuperOffice.CRM.Globalization.PhoneFormatter.GetInternationalNumber(System.Int32,System.String)
   id: GetInternationalNumber(System.Int32,System.String)
@@ -645,23 +687,18 @@ items:
   langs:
   - csharp
   - vb
-  name: GetInternationalNumber(int, string)
-  nameWithType: PhoneFormatter.GetInternationalNumber(int, string)
-  fullName: SuperOffice.CRM.Globalization.PhoneFormatter.GetInternationalNumber(int, string)
+  name: GetInternationalNumber(Int32, String)
+  nameWithType: PhoneFormatter.GetInternationalNumber(Int32, String)
+  fullName: SuperOffice.CRM.Globalization.PhoneFormatter.GetInternationalNumber(System.Int32, System.String)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: Get the international phone number.
-  remarks: >-
-    The phone number is formated according to certain broadband and international 
-
-    calling card systems where country prefix always need to be present.  
-
-    This means [countrycode] + [national number].  Letters in the phone 
-
-    numbers are resolved.
-  example: []
+  summary: "\nGet the international phone number.\n"
+  remarks: "\nThe phone number is formated according to certain broadband and international \ncalling card systems where country prefix always need to be present.  \nThis means [countrycode] + [national number].  Letters in the phone \nnumbers are resolved.\n"
   syntax:
     content: public static string GetInternationalNumber(int toCountryId, string phone)
     parameters:
@@ -673,12 +710,14 @@ items:
       description: Phone number as entered by the user in the user interface.
     return:
       type: System.String
-      description: ''
     content.vb: Public Shared Function GetInternationalNumber(toCountryId As Integer, phone As String) As String
   overload: SuperOffice.CRM.Globalization.PhoneFormatter.GetInternationalNumber*
-  nameWithType.vb: PhoneFormatter.GetInternationalNumber(Integer, String)
-  fullName.vb: SuperOffice.CRM.Globalization.PhoneFormatter.GetInternationalNumber(Integer, String)
-  name.vb: GetInternationalNumber(Integer, String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Globalization.PhoneFormatter.GetBaseNumber(System.Int32,System.String)
   commentId: M:SuperOffice.CRM.Globalization.PhoneFormatter.GetBaseNumber(System.Int32,System.String)
   id: GetBaseNumber(System.Int32,System.String)
@@ -686,20 +725,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetBaseNumber(int, string)
-  nameWithType: PhoneFormatter.GetBaseNumber(int, string)
-  fullName: SuperOffice.CRM.Globalization.PhoneFormatter.GetBaseNumber(int, string)
+  name: GetBaseNumber(Int32, String)
+  nameWithType: PhoneFormatter.GetBaseNumber(Int32, String)
+  fullName: SuperOffice.CRM.Globalization.PhoneFormatter.GetBaseNumber(System.Int32, System.String)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: >-
-    Get the phone number formatted as if to be dialed from a normal house phone.
-
-    Add international dial prefix as necessary.  
-
-    Assumes dialing from current user's home country.
-  example: []
+  summary: "\nGet the phone number formatted as if to be dialed from a normal house phone.\nAdd international dial prefix as necessary.  \nAssumes dialing from current user&apos;s home country.\n"
   syntax:
     content: public static string GetBaseNumber(int toCountryId, string phone)
     parameters:
@@ -714,9 +750,12 @@ items:
       description: Phone number formatted as if to be dialed from a normal house phone.
     content.vb: Public Shared Function GetBaseNumber(toCountryId As Integer, phone As String) As String
   overload: SuperOffice.CRM.Globalization.PhoneFormatter.GetBaseNumber*
-  nameWithType.vb: PhoneFormatter.GetBaseNumber(Integer, String)
-  fullName.vb: SuperOffice.CRM.Globalization.PhoneFormatter.GetBaseNumber(Integer, String)
-  name.vb: GetBaseNumber(Integer, String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Globalization.PhoneFormatter.GetBaseNumber(System.Int32,System.Int32,System.String)
   commentId: M:SuperOffice.CRM.Globalization.PhoneFormatter.GetBaseNumber(System.Int32,System.Int32,System.String)
   id: GetBaseNumber(System.Int32,System.Int32,System.String)
@@ -724,18 +763,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetBaseNumber(int, int, string)
-  nameWithType: PhoneFormatter.GetBaseNumber(int, int, string)
-  fullName: SuperOffice.CRM.Globalization.PhoneFormatter.GetBaseNumber(int, int, string)
+  name: GetBaseNumber(Int32, Int32, String)
+  nameWithType: PhoneFormatter.GetBaseNumber(Int32, Int32, String)
+  fullName: SuperOffice.CRM.Globalization.PhoneFormatter.GetBaseNumber(System.Int32, System.Int32, System.String)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: >-
-    Get the phone number formatted as if to be dialed from a normal house phone.
-
-    Add internation dial prefix as necessary.
-  example: []
+  summary: "\nGet the phone number formatted as if to be dialed from a normal house phone.\nAdd internation dial prefix as necessary.\n"
   syntax:
     content: public static string GetBaseNumber(int fromCountryId, int toCountryId, string phone)
     parameters:
@@ -753,9 +791,12 @@ items:
       description: Phone number formatted as if to be dialed from a normal house phone.
     content.vb: Public Shared Function GetBaseNumber(fromCountryId As Integer, toCountryId As Integer, phone As String) As String
   overload: SuperOffice.CRM.Globalization.PhoneFormatter.GetBaseNumber*
-  nameWithType.vb: PhoneFormatter.GetBaseNumber(Integer, Integer, String)
-  fullName.vb: SuperOffice.CRM.Globalization.PhoneFormatter.GetBaseNumber(Integer, Integer, String)
-  name.vb: GetBaseNumber(Integer, Integer, String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Globalization.PhoneFormatter.ResolveAlphanumericNumber(System.String)
   commentId: M:SuperOffice.CRM.Globalization.PhoneFormatter.ResolveAlphanumericNumber(System.String)
   id: ResolveAlphanumericNumber(System.String)
@@ -763,15 +804,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ResolveAlphanumericNumber(string)
-  nameWithType: PhoneFormatter.ResolveAlphanumericNumber(string)
-  fullName: SuperOffice.CRM.Globalization.PhoneFormatter.ResolveAlphanumericNumber(string)
+  name: ResolveAlphanumericNumber(String)
+  nameWithType: PhoneFormatter.ResolveAlphanumericNumber(String)
+  fullName: SuperOffice.CRM.Globalization.PhoneFormatter.ResolveAlphanumericNumber(System.String)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: Resolve alphanumeric numbers (i.e. 'A', 'B' or 'C' resolves to '2')
-  example: []
+  summary: "\nResolve alphanumeric numbers (i.e. &apos;A&apos;, &apos;B&apos; or &apos;C&apos; resolves to &apos;2&apos;)\n"
   syntax:
     content: public static string ResolveAlphanumericNumber(string phone)
     parameters:
@@ -780,12 +823,15 @@ items:
       description: Phone number that can contain alphanumeric letters.
     return:
       type: System.String
-      description: Phone number with only numbers and possibly a '+' prefix.
+      description: Phone number with only numbers and possibly a &apos;+&apos; prefix.
     content.vb: Public Shared Function ResolveAlphanumericNumber(phone As String) As String
   overload: SuperOffice.CRM.Globalization.PhoneFormatter.ResolveAlphanumericNumber*
-  nameWithType.vb: PhoneFormatter.ResolveAlphanumericNumber(String)
-  fullName.vb: SuperOffice.CRM.Globalization.PhoneFormatter.ResolveAlphanumericNumber(String)
-  name.vb: ResolveAlphanumericNumber(String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Globalization.PhoneFormatter.CleanNumber(System.String)
   commentId: M:SuperOffice.CRM.Globalization.PhoneFormatter.CleanNumber(System.String)
   id: CleanNumber(System.String)
@@ -793,441 +839,62 @@ items:
   langs:
   - csharp
   - vb
-  name: CleanNumber(string)
-  nameWithType: PhoneFormatter.CleanNumber(string)
-  fullName: SuperOffice.CRM.Globalization.PhoneFormatter.CleanNumber(string)
+  name: CleanNumber(String)
+  nameWithType: PhoneFormatter.CleanNumber(String)
+  fullName: SuperOffice.CRM.Globalization.PhoneFormatter.CleanNumber(System.String)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: Get all the digits from the phone number.
-  example: []
+  summary: "\nGet all the digits from the phone number.\n"
   syntax:
     content: public static string CleanNumber(string phone)
     parameters:
     - id: phone
       type: System.String
-      description: 'Phone number that may contain alphabetical letters: "1-800-PizzaNow"'
+      description: 'Phone number that may contain alphabetical letters: &quot;1-800-PizzaNow&quot;'
     return:
       type: System.String
-      description: 'Digits only: "1-800-84992789"'
+      description: 'Digits only: &quot;1-800-84992789&quot;'
     content.vb: Public Shared Function CleanNumber(phone As String) As String
   overload: SuperOffice.CRM.Globalization.PhoneFormatter.CleanNumber*
-  nameWithType.vb: PhoneFormatter.CleanNumber(String)
-  fullName.vb: SuperOffice.CRM.Globalization.PhoneFormatter.CleanNumber(String)
-  name.vb: CleanNumber(String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 references:
-- uid: SuperOffice.CRM.Globalization.PhoneFormatter.GetLongDisplayNumber(System.Int32,System.String)
-  commentId: M:SuperOffice.CRM.Globalization.PhoneFormatter.GetLongDisplayNumber(System.Int32,System.String)
-  isExternal: true
-  href: SuperOffice.CRM.Globalization.PhoneFormatter.html#SuperOffice_CRM_Globalization_PhoneFormatter_GetLongDisplayNumber_System_Int32_System_String_
-  name: GetLongDisplayNumber(int, string)
-  nameWithType: PhoneFormatter.GetLongDisplayNumber(int, string)
-  fullName: SuperOffice.CRM.Globalization.PhoneFormatter.GetLongDisplayNumber(int, string)
-  nameWithType.vb: PhoneFormatter.GetLongDisplayNumber(Integer, String)
-  fullName.vb: SuperOffice.CRM.Globalization.PhoneFormatter.GetLongDisplayNumber(Integer, String)
-  name.vb: GetLongDisplayNumber(Integer, String)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Globalization.PhoneFormatter.GetLongDisplayNumber(System.Int32,System.String)
-    name: GetLongDisplayNumber
-    isExternal: true
-    href: SuperOffice.CRM.Globalization.PhoneFormatter.html#SuperOffice_CRM_Globalization_PhoneFormatter_GetLongDisplayNumber_System_Int32_System_String_
-  - name: (
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Globalization.PhoneFormatter.GetLongDisplayNumber(System.Int32,System.String)
-    name: GetLongDisplayNumber
-    isExternal: true
-    href: SuperOffice.CRM.Globalization.PhoneFormatter.html#SuperOffice_CRM_Globalization_PhoneFormatter_GetLongDisplayNumber_System_Int32_System_String_
-  - name: (
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: SuperOffice.CRM.Globalization.PhoneFormatter.GetShortDisplayNumber(System.Int32,System.String)
-  commentId: M:SuperOffice.CRM.Globalization.PhoneFormatter.GetShortDisplayNumber(System.Int32,System.String)
-  isExternal: true
-  href: SuperOffice.CRM.Globalization.PhoneFormatter.html#SuperOffice_CRM_Globalization_PhoneFormatter_GetShortDisplayNumber_System_Int32_System_String_
-  name: GetShortDisplayNumber(int, string)
-  nameWithType: PhoneFormatter.GetShortDisplayNumber(int, string)
-  fullName: SuperOffice.CRM.Globalization.PhoneFormatter.GetShortDisplayNumber(int, string)
-  nameWithType.vb: PhoneFormatter.GetShortDisplayNumber(Integer, String)
-  fullName.vb: SuperOffice.CRM.Globalization.PhoneFormatter.GetShortDisplayNumber(Integer, String)
-  name.vb: GetShortDisplayNumber(Integer, String)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Globalization.PhoneFormatter.GetShortDisplayNumber(System.Int32,System.String)
-    name: GetShortDisplayNumber
-    isExternal: true
-    href: SuperOffice.CRM.Globalization.PhoneFormatter.html#SuperOffice_CRM_Globalization_PhoneFormatter_GetShortDisplayNumber_System_Int32_System_String_
-  - name: (
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Globalization.PhoneFormatter.GetShortDisplayNumber(System.Int32,System.String)
-    name: GetShortDisplayNumber
-    isExternal: true
-    href: SuperOffice.CRM.Globalization.PhoneFormatter.html#SuperOffice_CRM_Globalization_PhoneFormatter_GetShortDisplayNumber_System_Int32_System_String_
-  - name: (
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
 - uid: SuperOffice.CRM.Globalization
   commentId: N:SuperOffice.CRM.Globalization
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Globalization
   nameWithType: SuperOffice.CRM.Globalization
   fullName: SuperOffice.CRM.Globalization
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Globalization
-    name: Globalization
-    isExternal: true
-    href: SuperOffice.CRM.Globalization.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Globalization
-    name: Globalization
-    isExternal: true
-    href: SuperOffice.CRM.Globalization.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: System.Text.RegularExpressions.Regex
-  commentId: T:System.Text.RegularExpressions.Regex
-  parent: System.Text.RegularExpressions
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.text.regularexpressions.regex
   name: Regex
   nameWithType: Regex
   fullName: System.Text.RegularExpressions.Regex
-- uid: System.Text.RegularExpressions
-  commentId: N:System.Text.RegularExpressions
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Text.RegularExpressions
-  nameWithType: System.Text.RegularExpressions
-  fullName: System.Text.RegularExpressions
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Text
-    name: Text
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.text
-  - name: .
-  - uid: System.Text.RegularExpressions
-    name: RegularExpressions
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.text.regularexpressions
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Text
-    name: Text
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.text
-  - name: .
-  - uid: System.Text.RegularExpressions
-    name: RegularExpressions
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.text.regularexpressions
 - uid: SuperOffice.CRM.Globalization.PhoneFormatter.GetPrefix*
   commentId: Overload:SuperOffice.CRM.Globalization.PhoneFormatter.GetPrefix
   isExternal: true
-  href: SuperOffice.CRM.Globalization.PhoneFormatter.html#SuperOffice_CRM_Globalization_PhoneFormatter_GetPrefix_System_Int32_
   name: GetPrefix
   nameWithType: PhoneFormatter.GetPrefix
   fullName: SuperOffice.CRM.Globalization.PhoneFormatter.GetPrefix
@@ -1235,28 +902,19 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.CRM.Globalization.PhoneFormatter.GetShortDisplayNumber*
   commentId: Overload:SuperOffice.CRM.Globalization.PhoneFormatter.GetShortDisplayNumber
   isExternal: true
-  href: SuperOffice.CRM.Globalization.PhoneFormatter.html#SuperOffice_CRM_Globalization_PhoneFormatter_GetShortDisplayNumber_System_Int32_System_String_
   name: GetShortDisplayNumber
   nameWithType: PhoneFormatter.GetShortDisplayNumber
   fullName: SuperOffice.CRM.Globalization.PhoneFormatter.GetShortDisplayNumber
@@ -1264,86 +922,63 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.CRM.Globalization.PhoneFormatter.GetLongDisplayNumber*
   commentId: Overload:SuperOffice.CRM.Globalization.PhoneFormatter.GetLongDisplayNumber
   isExternal: true
-  href: SuperOffice.CRM.Globalization.PhoneFormatter.html#SuperOffice_CRM_Globalization_PhoneFormatter_GetLongDisplayNumber_System_Int32_System_String_
   name: GetLongDisplayNumber
   nameWithType: PhoneFormatter.GetLongDisplayNumber
   fullName: SuperOffice.CRM.Globalization.PhoneFormatter.GetLongDisplayNumber
 - uid: SuperOffice.CRM.Globalization.PhoneFormatter.FormatNumberForDatabase*
   commentId: Overload:SuperOffice.CRM.Globalization.PhoneFormatter.FormatNumberForDatabase
   isExternal: true
-  href: SuperOffice.CRM.Globalization.PhoneFormatter.html#SuperOffice_CRM_Globalization_PhoneFormatter_FormatNumberForDatabase_System_Int32_System_String_
   name: FormatNumberForDatabase
   nameWithType: PhoneFormatter.FormatNumberForDatabase
   fullName: SuperOffice.CRM.Globalization.PhoneFormatter.FormatNumberForDatabase
-- uid: SuperOffice.Configuration.ConfigFile.Globalization.AllwaysUseGsmPhoneStyle
-  commentId: P:SuperOffice.Configuration.ConfigFile.Globalization.AllwaysUseGsmPhoneStyle
-  isExternal: true
-  name: AllwaysUseGsmPhoneStyle
-  nameWithType: ConfigFile.Globalization.AllwaysUseGsmPhoneStyle
-  fullName: SuperOffice.Configuration.ConfigFile.Globalization.AllwaysUseGsmPhoneStyle
 - uid: SuperOffice.CRM.Globalization.PhoneFormatter.GetEntityElementValue*
   commentId: Overload:SuperOffice.CRM.Globalization.PhoneFormatter.GetEntityElementValue
   isExternal: true
-  href: SuperOffice.CRM.Globalization.PhoneFormatter.html#SuperOffice_CRM_Globalization_PhoneFormatter_GetEntityElementValue_System_Int32_System_String_
   name: GetEntityElementValue
   nameWithType: PhoneFormatter.GetEntityElementValue
   fullName: SuperOffice.CRM.Globalization.PhoneFormatter.GetEntityElementValue
 - uid: SuperOffice.CRM.Globalization.PhoneFormatter.GetEntityElementStrippedValue*
   commentId: Overload:SuperOffice.CRM.Globalization.PhoneFormatter.GetEntityElementStrippedValue
   isExternal: true
-  href: SuperOffice.CRM.Globalization.PhoneFormatter.html#SuperOffice_CRM_Globalization_PhoneFormatter_GetEntityElementStrippedValue_System_Int32_System_String_
   name: GetEntityElementStrippedValue
   nameWithType: PhoneFormatter.GetEntityElementStrippedValue
   fullName: SuperOffice.CRM.Globalization.PhoneFormatter.GetEntityElementStrippedValue
 - uid: SuperOffice.CRM.Globalization.Country.IsInterAreaPrefixClassic
   commentId: P:SuperOffice.CRM.Globalization.Country.IsInterAreaPrefixClassic
   isExternal: true
-  href: SuperOffice.CRM.Globalization.Country.html#SuperOffice_CRM_Globalization_Country_IsInterAreaPrefixClassic
-  name: IsInterAreaPrefixClassic
-  nameWithType: Country.IsInterAreaPrefixClassic
-  fullName: SuperOffice.CRM.Globalization.Country.IsInterAreaPrefixClassic
 - uid: SuperOffice.CRM.Globalization.PhoneFormatter.GetGSMNumber*
   commentId: Overload:SuperOffice.CRM.Globalization.PhoneFormatter.GetGSMNumber
   isExternal: true
-  href: SuperOffice.CRM.Globalization.PhoneFormatter.html#SuperOffice_CRM_Globalization_PhoneFormatter_GetGSMNumber_System_Int32_System_String_
   name: GetGSMNumber
   nameWithType: PhoneFormatter.GetGSMNumber
   fullName: SuperOffice.CRM.Globalization.PhoneFormatter.GetGSMNumber
 - uid: SuperOffice.CRM.Globalization.PhoneFormatter.GetInternationalNumber*
   commentId: Overload:SuperOffice.CRM.Globalization.PhoneFormatter.GetInternationalNumber
   isExternal: true
-  href: SuperOffice.CRM.Globalization.PhoneFormatter.html#SuperOffice_CRM_Globalization_PhoneFormatter_GetInternationalNumber_System_Int32_System_String_
   name: GetInternationalNumber
   nameWithType: PhoneFormatter.GetInternationalNumber
   fullName: SuperOffice.CRM.Globalization.PhoneFormatter.GetInternationalNumber
 - uid: SuperOffice.CRM.Globalization.PhoneFormatter.GetBaseNumber*
   commentId: Overload:SuperOffice.CRM.Globalization.PhoneFormatter.GetBaseNumber
   isExternal: true
-  href: SuperOffice.CRM.Globalization.PhoneFormatter.html#SuperOffice_CRM_Globalization_PhoneFormatter_GetBaseNumber_System_Int32_System_String_
   name: GetBaseNumber
   nameWithType: PhoneFormatter.GetBaseNumber
   fullName: SuperOffice.CRM.Globalization.PhoneFormatter.GetBaseNumber
 - uid: SuperOffice.CRM.Globalization.PhoneFormatter.ResolveAlphanumericNumber*
   commentId: Overload:SuperOffice.CRM.Globalization.PhoneFormatter.ResolveAlphanumericNumber
   isExternal: true
-  href: SuperOffice.CRM.Globalization.PhoneFormatter.html#SuperOffice_CRM_Globalization_PhoneFormatter_ResolveAlphanumericNumber_System_String_
   name: ResolveAlphanumericNumber
   nameWithType: PhoneFormatter.ResolveAlphanumericNumber
   fullName: SuperOffice.CRM.Globalization.PhoneFormatter.ResolveAlphanumericNumber
 - uid: SuperOffice.CRM.Globalization.PhoneFormatter.CleanNumber*
   commentId: Overload:SuperOffice.CRM.Globalization.PhoneFormatter.CleanNumber
   isExternal: true
-  href: SuperOffice.CRM.Globalization.PhoneFormatter.html#SuperOffice_CRM_Globalization_PhoneFormatter_CleanNumber_System_String_
   name: CleanNumber
   nameWithType: PhoneFormatter.CleanNumber
   fullName: SuperOffice.CRM.Globalization.PhoneFormatter.CleanNumber

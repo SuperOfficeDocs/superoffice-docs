@@ -27,16 +27,24 @@ items:
   nameWithType: IBatchAgent
   fullName: SuperOffice.WebApi.Agents.IBatchAgent
   type: Interface
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Start, stop and monitor predefined batch tasks
-  example: []
+  summary: "\nStart, stop and monitor predefined batch tasks\n"
   syntax:
     content: 'public interface IBatchAgent : IDisposable'
-    content.vb: Public Interface IBatchAgent Inherits IDisposable
-  inheritedMembers:
-  - System.IDisposable.Dispose
+    content.vb: >-
+      Public Interface IBatchAgent
+          Inherits IDisposable
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
 - uid: SuperOffice.WebApi.Agents.IBatchAgent.GetBatchTaskInfoAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IBatchAgent.GetBatchTaskInfoAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   id: GetBatchTaskInfoAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -44,15 +52,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetBatchTaskInfoAsync(int, RequestOptions)
-  nameWithType: IBatchAgent.GetBatchTaskInfoAsync(int, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IBatchAgent.GetBatchTaskInfoAsync(int, SuperOffice.WebApi.RequestOptions)
+  name: GetBatchTaskInfoAsync(Int32, RequestOptions)
+  nameWithType: IBatchAgent.GetBatchTaskInfoAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBatchAgent.GetBatchTaskInfoAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Get a single BatchTaskInfo based on Id.
-  example: []
+  summary: "\nGet a single BatchTaskInfo based on Id.\n"
   syntax:
     content: Task<BatchTaskInfo> GetBatchTaskInfoAsync(int id, RequestOptions requestOptions = null)
     parameters:
@@ -61,15 +71,12 @@ items:
       description: Id of the BatchTaskInfo to get.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.BatchTaskInfo}
       description: Returns a BatchTaskInfo.
     content.vb: Function GetBatchTaskInfoAsync(id As Integer, requestOptions As RequestOptions = Nothing) As Task(Of BatchTaskInfo)
   overload: SuperOffice.WebApi.Agents.IBatchAgent.GetBatchTaskInfoAsync*
-  nameWithType.vb: IBatchAgent.GetBatchTaskInfoAsync(Integer, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IBatchAgent.GetBatchTaskInfoAsync(Integer, SuperOffice.WebApi.RequestOptions)
-  name.vb: GetBatchTaskInfoAsync(Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IBatchAgent.GetBatchTaskInfosByAssociatesAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IBatchAgent.GetBatchTaskInfosByAssociatesAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   id: GetBatchTaskInfosByAssociatesAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
@@ -77,32 +84,34 @@ items:
   langs:
   - csharp
   - vb
-  name: GetBatchTaskInfosByAssociatesAsync(int[], RequestOptions)
-  nameWithType: IBatchAgent.GetBatchTaskInfosByAssociatesAsync(int[], RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IBatchAgent.GetBatchTaskInfosByAssociatesAsync(int[], SuperOffice.WebApi.RequestOptions)
+  name: GetBatchTaskInfosByAssociatesAsync(Int32[], RequestOptions)
+  nameWithType: IBatchAgent.GetBatchTaskInfosByAssociatesAsync(Int32[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBatchAgent.GetBatchTaskInfosByAssociatesAsync(System.Int32[], SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Get an array of BatchTaskInfo for the provided associate id's.
-  example: []
+  summary: "\nGet an array of BatchTaskInfo for the provided associate id&apos;s.\n"
   syntax:
     content: Task<BatchTaskInfo[]> GetBatchTaskInfosByAssociatesAsync(int[] associateIds, RequestOptions requestOptions = null)
     parameters:
     - id: associateIds
       type: System.Int32[]
-      description: Array of associate id's. empty array = all tasks, 0 = system tasks, -1 = all user tasks.
+      description: Array of associate id&apos;s. empty array = all tasks, 0 = system tasks, -1 = all user tasks.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.BatchTaskInfo[]}
-      description: Returns an array of user's BatchTaskInfo.
+      description: Returns an array of user&apos;s BatchTaskInfo.
     content.vb: Function GetBatchTaskInfosByAssociatesAsync(associateIds As Integer(), requestOptions As RequestOptions = Nothing) As Task(Of BatchTaskInfo())
   overload: SuperOffice.WebApi.Agents.IBatchAgent.GetBatchTaskInfosByAssociatesAsync*
-  nameWithType.vb: IBatchAgent.GetBatchTaskInfosByAssociatesAsync(Integer(), RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IBatchAgent.GetBatchTaskInfosByAssociatesAsync(Integer(), SuperOffice.WebApi.RequestOptions)
-  name.vb: GetBatchTaskInfosByAssociatesAsync(Integer(), RequestOptions)
+  nameWithType.vb: IBatchAgent.GetBatchTaskInfosByAssociatesAsync(Int32(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IBatchAgent.GetBatchTaskInfosByAssociatesAsync(System.Int32(), SuperOffice.WebApi.RequestOptions)
+  name.vb: GetBatchTaskInfosByAssociatesAsync(Int32(), RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IBatchAgent.StartBatchJobAsync(SuperOffice.WebApi.Data.BatchTaskInfo,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IBatchAgent.StartBatchJobAsync(SuperOffice.WebApi.Data.BatchTaskInfo,SuperOffice.WebApi.RequestOptions)
   id: StartBatchJobAsync(SuperOffice.WebApi.Data.BatchTaskInfo,SuperOffice.WebApi.RequestOptions)
@@ -114,11 +123,13 @@ items:
   nameWithType: IBatchAgent.StartBatchJobAsync(BatchTaskInfo, RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IBatchAgent.StartBatchJobAsync(SuperOffice.WebApi.Data.BatchTaskInfo, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Start a batch job based on BatchTaskInfo.
-  example: []
+  summary: "\nStart a batch job based on BatchTaskInfo.\n"
   syntax:
     content: Task<int> StartBatchJobAsync(BatchTaskInfo batchTaskInfo, RequestOptions requestOptions = null)
     parameters:
@@ -127,7 +138,7 @@ items:
       description: Use BatchTaskInfo to describe the new batch job.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{System.Int32}
       description: Returns the id of the created batch job.
@@ -140,15 +151,17 @@ items:
   langs:
   - csharp
   - vb
-  name: StopBatchJobAsync(int, RequestOptions)
-  nameWithType: IBatchAgent.StopBatchJobAsync(int, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IBatchAgent.StopBatchJobAsync(int, SuperOffice.WebApi.RequestOptions)
+  name: StopBatchJobAsync(Int32, RequestOptions)
+  nameWithType: IBatchAgent.StopBatchJobAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBatchAgent.StopBatchJobAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Stop a batch job based on Id.
-  example: []
+  summary: "\nStop a batch job based on Id.\n"
   syntax:
     content: Task<bool> StopBatchJobAsync(int id, RequestOptions requestOptions = null)
     parameters:
@@ -157,15 +170,12 @@ items:
       description: Id of the batch job to stop.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{System.Boolean}
       description: Returns true if the job was stopped successfully.
     content.vb: Function StopBatchJobAsync(id As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Boolean)
   overload: SuperOffice.WebApi.Agents.IBatchAgent.StopBatchJobAsync*
-  nameWithType.vb: IBatchAgent.StopBatchJobAsync(Integer, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IBatchAgent.StopBatchJobAsync(Integer, SuperOffice.WebApi.RequestOptions)
-  name.vb: StopBatchJobAsync(Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IBatchAgent.GetBatchTaskInfosByStateAsync(SuperOffice.WebApi.Data.BatchTaskState,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IBatchAgent.GetBatchTaskInfosByStateAsync(SuperOffice.WebApi.Data.BatchTaskState,SuperOffice.WebApi.RequestOptions)
   id: GetBatchTaskInfosByStateAsync(SuperOffice.WebApi.Data.BatchTaskState,SuperOffice.WebApi.RequestOptions)
@@ -177,11 +187,13 @@ items:
   nameWithType: IBatchAgent.GetBatchTaskInfosByStateAsync(BatchTaskState, RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IBatchAgent.GetBatchTaskInfosByStateAsync(SuperOffice.WebApi.Data.BatchTaskState, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Gets an array of user BatchTaskInfo with state defined by a BatchTaskState.
-  example: []
+  summary: "\nGets an array of user BatchTaskInfo with state defined by a BatchTaskState.\n"
   syntax:
     content: Task<BatchTaskInfo[]> GetBatchTaskInfosByStateAsync(BatchTaskState state, RequestOptions requestOptions = null)
     parameters:
@@ -190,7 +202,7 @@ items:
       description: The BatchTaskState to get batch tasks for.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.BatchTaskInfo[]}
       description: Returns an array of user BatchTaskInfo. System tasks are excluded.
@@ -207,11 +219,13 @@ items:
   nameWithType: IBatchAgent.UpdateBatchTaskAsync(BatchTaskInfo, RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IBatchAgent.UpdateBatchTaskAsync(SuperOffice.WebApi.Data.BatchTaskInfo, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: 'Update information about a BatchTask. Only the following properties can be updated: State, Description, Response and Request.'
-  example: []
+  summary: "\nUpdate information about a BatchTask. Only the following properties can be updated: State, Description, Response and Request.\n"
   syntax:
     content: Task<BatchTaskInfo> UpdateBatchTaskAsync(BatchTaskInfo batchTaskInfo, RequestOptions requestOptions = null)
     parameters:
@@ -220,7 +234,7 @@ items:
       description: The updated information to save.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.BatchTaskInfo}
       description: The updated BatchTaskInfo
@@ -233,15 +247,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetBatchTaskInfosByNameAndStateAsync(string, BatchTaskState, RequestOptions)
-  nameWithType: IBatchAgent.GetBatchTaskInfosByNameAndStateAsync(string, BatchTaskState, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IBatchAgent.GetBatchTaskInfosByNameAndStateAsync(string, SuperOffice.WebApi.Data.BatchTaskState, SuperOffice.WebApi.RequestOptions)
+  name: GetBatchTaskInfosByNameAndStateAsync(String, BatchTaskState, RequestOptions)
+  nameWithType: IBatchAgent.GetBatchTaskInfosByNameAndStateAsync(String, BatchTaskState, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBatchAgent.GetBatchTaskInfosByNameAndStateAsync(System.String, SuperOffice.WebApi.Data.BatchTaskState, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Gets an array of user BatchTaskInfo with state defined by a BatchTaskState and the batchtask definition name.
-  example: []
+  summary: "\nGets an array of user BatchTaskInfo with state defined by a BatchTaskState and the batchtask definition name.\n"
   syntax:
     content: Task<BatchTaskInfo[]> GetBatchTaskInfosByNameAndStateAsync(string name, BatchTaskState state, RequestOptions requestOptions = null)
     parameters:
@@ -253,15 +269,12 @@ items:
       description: The BatchTaskState to get batch tasks for.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.BatchTaskInfo[]}
       description: Returns an array of user BatchTaskInfo. System tasks are excluded.
     content.vb: Function GetBatchTaskInfosByNameAndStateAsync(name As String, state As BatchTaskState, requestOptions As RequestOptions = Nothing) As Task(Of BatchTaskInfo())
   overload: SuperOffice.WebApi.Agents.IBatchAgent.GetBatchTaskInfosByNameAndStateAsync*
-  nameWithType.vb: IBatchAgent.GetBatchTaskInfosByNameAndStateAsync(String, BatchTaskState, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IBatchAgent.GetBatchTaskInfosByNameAndStateAsync(String, SuperOffice.WebApi.Data.BatchTaskState, SuperOffice.WebApi.RequestOptions)
-  name.vb: GetBatchTaskInfosByNameAndStateAsync(String, BatchTaskState, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IBatchAgent.GetBatchTaskInfosByNameAndAssociatesAsync(System.String,System.Int32[],SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IBatchAgent.GetBatchTaskInfosByNameAndAssociatesAsync(System.String,System.Int32[],SuperOffice.WebApi.RequestOptions)
   id: GetBatchTaskInfosByNameAndAssociatesAsync(System.String,System.Int32[],SuperOffice.WebApi.RequestOptions)
@@ -269,15 +282,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetBatchTaskInfosByNameAndAssociatesAsync(string, int[], RequestOptions)
-  nameWithType: IBatchAgent.GetBatchTaskInfosByNameAndAssociatesAsync(string, int[], RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IBatchAgent.GetBatchTaskInfosByNameAndAssociatesAsync(string, int[], SuperOffice.WebApi.RequestOptions)
+  name: GetBatchTaskInfosByNameAndAssociatesAsync(String, Int32[], RequestOptions)
+  nameWithType: IBatchAgent.GetBatchTaskInfosByNameAndAssociatesAsync(String, Int32[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBatchAgent.GetBatchTaskInfosByNameAndAssociatesAsync(System.String, System.Int32[], SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Get an array of BatchTaskInfo for the provided associate id's and batch task definition name.
-  example: []
+  summary: "\nGet an array of BatchTaskInfo for the provided associate id&apos;s and batch task definition name.\n"
   syntax:
     content: Task<BatchTaskInfo[]> GetBatchTaskInfosByNameAndAssociatesAsync(string name, int[] associateIds, RequestOptions requestOptions = null)
     parameters:
@@ -286,18 +301,18 @@ items:
       description: Batchtask definition name. Blank for all tasks.
     - id: associateIds
       type: System.Int32[]
-      description: Array of associate id's. Empty array for all. 0 for system tasks, -1 for all users, or specific user ids.
+      description: Array of associate id&apos;s. Empty array for all. 0 for system tasks, -1 for all users, or specific user ids.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.BatchTaskInfo[]}
       description: Returns an array of BatchTaskInfo.
     content.vb: Function GetBatchTaskInfosByNameAndAssociatesAsync(name As String, associateIds As Integer(), requestOptions As RequestOptions = Nothing) As Task(Of BatchTaskInfo())
   overload: SuperOffice.WebApi.Agents.IBatchAgent.GetBatchTaskInfosByNameAndAssociatesAsync*
-  nameWithType.vb: IBatchAgent.GetBatchTaskInfosByNameAndAssociatesAsync(String, Integer(), RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IBatchAgent.GetBatchTaskInfosByNameAndAssociatesAsync(String, Integer(), SuperOffice.WebApi.RequestOptions)
-  name.vb: GetBatchTaskInfosByNameAndAssociatesAsync(String, Integer(), RequestOptions)
+  nameWithType.vb: IBatchAgent.GetBatchTaskInfosByNameAndAssociatesAsync(String, Int32(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IBatchAgent.GetBatchTaskInfosByNameAndAssociatesAsync(System.String, System.Int32(), SuperOffice.WebApi.RequestOptions)
+  name.vb: GetBatchTaskInfosByNameAndAssociatesAsync(String, Int32(), RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IBatchAgent.GetBatchTaskInfosByAssociatesAndStateAsync(System.Int32[],SuperOffice.WebApi.Data.BatchTaskState,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IBatchAgent.GetBatchTaskInfosByAssociatesAndStateAsync(System.Int32[],SuperOffice.WebApi.Data.BatchTaskState,SuperOffice.WebApi.RequestOptions)
   id: GetBatchTaskInfosByAssociatesAndStateAsync(System.Int32[],SuperOffice.WebApi.Data.BatchTaskState,SuperOffice.WebApi.RequestOptions)
@@ -305,35 +320,37 @@ items:
   langs:
   - csharp
   - vb
-  name: GetBatchTaskInfosByAssociatesAndStateAsync(int[], BatchTaskState, RequestOptions)
-  nameWithType: IBatchAgent.GetBatchTaskInfosByAssociatesAndStateAsync(int[], BatchTaskState, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IBatchAgent.GetBatchTaskInfosByAssociatesAndStateAsync(int[], SuperOffice.WebApi.Data.BatchTaskState, SuperOffice.WebApi.RequestOptions)
+  name: GetBatchTaskInfosByAssociatesAndStateAsync(Int32[], BatchTaskState, RequestOptions)
+  nameWithType: IBatchAgent.GetBatchTaskInfosByAssociatesAndStateAsync(Int32[], BatchTaskState, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBatchAgent.GetBatchTaskInfosByAssociatesAndStateAsync(System.Int32[], SuperOffice.WebApi.Data.BatchTaskState, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Get an array of BatchTaskInfo for the provided associate id's and batch task state.
-  example: []
+  summary: "\nGet an array of BatchTaskInfo for the provided associate id&apos;s and batch task state.\n"
   syntax:
     content: Task<BatchTaskInfo[]> GetBatchTaskInfosByAssociatesAndStateAsync(int[] associateIds, BatchTaskState state, RequestOptions requestOptions = null)
     parameters:
     - id: associateIds
       type: System.Int32[]
-      description: Array of associate id's. Empty array for all. 0 for system tasks, -1 for all users, or specific user ids.
+      description: Array of associate id&apos;s. Empty array for all. 0 for system tasks, -1 for all users, or specific user ids.
     - id: state
       type: SuperOffice.WebApi.Data.BatchTaskState
       description: The BatchTaskState to get batch tasks for.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.BatchTaskInfo[]}
       description: Returns an array of BatchTaskInfo.
     content.vb: Function GetBatchTaskInfosByAssociatesAndStateAsync(associateIds As Integer(), state As BatchTaskState, requestOptions As RequestOptions = Nothing) As Task(Of BatchTaskInfo())
   overload: SuperOffice.WebApi.Agents.IBatchAgent.GetBatchTaskInfosByAssociatesAndStateAsync*
-  nameWithType.vb: IBatchAgent.GetBatchTaskInfosByAssociatesAndStateAsync(Integer(), BatchTaskState, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IBatchAgent.GetBatchTaskInfosByAssociatesAndStateAsync(Integer(), SuperOffice.WebApi.Data.BatchTaskState, SuperOffice.WebApi.RequestOptions)
-  name.vb: GetBatchTaskInfosByAssociatesAndStateAsync(Integer(), BatchTaskState, RequestOptions)
+  nameWithType.vb: IBatchAgent.GetBatchTaskInfosByAssociatesAndStateAsync(Int32(), BatchTaskState, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IBatchAgent.GetBatchTaskInfosByAssociatesAndStateAsync(System.Int32(), SuperOffice.WebApi.Data.BatchTaskState, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetBatchTaskInfosByAssociatesAndStateAsync(Int32(), BatchTaskState, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IBatchAgent.DeleteBatchTasksAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IBatchAgent.DeleteBatchTasksAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   id: DeleteBatchTasksAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
@@ -341,15 +358,17 @@ items:
   langs:
   - csharp
   - vb
-  name: DeleteBatchTasksAsync(int[], RequestOptions)
-  nameWithType: IBatchAgent.DeleteBatchTasksAsync(int[], RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IBatchAgent.DeleteBatchTasksAsync(int[], SuperOffice.WebApi.RequestOptions)
+  name: DeleteBatchTasksAsync(Int32[], RequestOptions)
+  nameWithType: IBatchAgent.DeleteBatchTasksAsync(Int32[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBatchAgent.DeleteBatchTasksAsync(System.Int32[], SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Delete batch tasks from the database.
-  example: []
+  summary: "\nDelete batch tasks from the database.\n"
   syntax:
     content: Task DeleteBatchTasksAsync(int[] batchTaskIds, RequestOptions requestOptions = null)
     parameters:
@@ -358,15 +377,14 @@ items:
       description: Array of batchTask ids to delete.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task
-      description: ''
     content.vb: Function DeleteBatchTasksAsync(batchTaskIds As Integer(), requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.IBatchAgent.DeleteBatchTasksAsync*
-  nameWithType.vb: IBatchAgent.DeleteBatchTasksAsync(Integer(), RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IBatchAgent.DeleteBatchTasksAsync(Integer(), SuperOffice.WebApi.RequestOptions)
-  name.vb: DeleteBatchTasksAsync(Integer(), RequestOptions)
+  nameWithType.vb: IBatchAgent.DeleteBatchTasksAsync(Int32(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IBatchAgent.DeleteBatchTasksAsync(System.Int32(), SuperOffice.WebApi.RequestOptions)
+  name.vb: DeleteBatchTasksAsync(Int32(), RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IBatchAgent.DeleteBatchTaskAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IBatchAgent.DeleteBatchTaskAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   id: DeleteBatchTaskAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -374,15 +392,17 @@ items:
   langs:
   - csharp
   - vb
-  name: DeleteBatchTaskAsync(int, RequestOptions)
-  nameWithType: IBatchAgent.DeleteBatchTaskAsync(int, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IBatchAgent.DeleteBatchTaskAsync(int, SuperOffice.WebApi.RequestOptions)
+  name: DeleteBatchTaskAsync(Int32, RequestOptions)
+  nameWithType: IBatchAgent.DeleteBatchTaskAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBatchAgent.DeleteBatchTaskAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Delete a batch task from the database.
-  example: []
+  summary: "\nDelete a batch task from the database.\n"
   syntax:
     content: Task DeleteBatchTaskAsync(int batchTaskId, RequestOptions requestOptions = null)
     parameters:
@@ -391,15 +411,11 @@ items:
       description: The batchTask id to delete.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task
-      description: ''
     content.vb: Function DeleteBatchTaskAsync(batchTaskId As Integer, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.IBatchAgent.DeleteBatchTaskAsync*
-  nameWithType.vb: IBatchAgent.DeleteBatchTaskAsync(Integer, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IBatchAgent.DeleteBatchTaskAsync(Integer, SuperOffice.WebApi.RequestOptions)
-  name.vb: DeleteBatchTaskAsync(Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IBatchAgent.GetAllBatchTaskInfosByNameAsync(System.String,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IBatchAgent.GetAllBatchTaskInfosByNameAsync(System.String,SuperOffice.WebApi.RequestOptions)
   id: GetAllBatchTaskInfosByNameAsync(System.String,SuperOffice.WebApi.RequestOptions)
@@ -407,15 +423,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetAllBatchTaskInfosByNameAsync(string, RequestOptions)
-  nameWithType: IBatchAgent.GetAllBatchTaskInfosByNameAsync(string, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IBatchAgent.GetAllBatchTaskInfosByNameAsync(string, SuperOffice.WebApi.RequestOptions)
+  name: GetAllBatchTaskInfosByNameAsync(String, RequestOptions)
+  nameWithType: IBatchAgent.GetAllBatchTaskInfosByNameAsync(String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBatchAgent.GetAllBatchTaskInfosByNameAsync(System.String, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Get an array of system and user BatchTaskInfo for the provided task name.
-  example: []
+  summary: "\nGet an array of system and user BatchTaskInfo for the provided task name.\n"
   syntax:
     content: Task<BatchTaskInfo[]> GetAllBatchTaskInfosByNameAsync(string taskName, RequestOptions requestOptions = null)
     parameters:
@@ -424,15 +442,12 @@ items:
       description: A task name, NULL or blank to get all tasks
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.BatchTaskInfo[]}
       description: Returns an array of user and system BatchTaskInfos.
     content.vb: Function GetAllBatchTaskInfosByNameAsync(taskName As String, requestOptions As RequestOptions = Nothing) As Task(Of BatchTaskInfo())
   overload: SuperOffice.WebApi.Agents.IBatchAgent.GetAllBatchTaskInfosByNameAsync*
-  nameWithType.vb: IBatchAgent.GetAllBatchTaskInfosByNameAsync(String, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IBatchAgent.GetAllBatchTaskInfosByNameAsync(String, SuperOffice.WebApi.RequestOptions)
-  name.vb: GetAllBatchTaskInfosByNameAsync(String, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IBatchAgent.GetAllBatchTaskInfosByNameAndStateAsync(System.String,SuperOffice.WebApi.Data.BatchTaskState,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IBatchAgent.GetAllBatchTaskInfosByNameAndStateAsync(System.String,SuperOffice.WebApi.Data.BatchTaskState,SuperOffice.WebApi.RequestOptions)
   id: GetAllBatchTaskInfosByNameAndStateAsync(System.String,SuperOffice.WebApi.Data.BatchTaskState,SuperOffice.WebApi.RequestOptions)
@@ -440,15 +455,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetAllBatchTaskInfosByNameAndStateAsync(string, BatchTaskState, RequestOptions)
-  nameWithType: IBatchAgent.GetAllBatchTaskInfosByNameAndStateAsync(string, BatchTaskState, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IBatchAgent.GetAllBatchTaskInfosByNameAndStateAsync(string, SuperOffice.WebApi.Data.BatchTaskState, SuperOffice.WebApi.RequestOptions)
+  name: GetAllBatchTaskInfosByNameAndStateAsync(String, BatchTaskState, RequestOptions)
+  nameWithType: IBatchAgent.GetAllBatchTaskInfosByNameAndStateAsync(String, BatchTaskState, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBatchAgent.GetAllBatchTaskInfosByNameAndStateAsync(System.String, SuperOffice.WebApi.Data.BatchTaskState, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Get an array of system and user BatchTaskInfo for the provided task name and state.
-  example: []
+  summary: "\nGet an array of system and user BatchTaskInfo for the provided task name and state.\n"
   syntax:
     content: Task<BatchTaskInfo[]> GetAllBatchTaskInfosByNameAndStateAsync(string taskName, BatchTaskState state, RequestOptions requestOptions = null)
     parameters:
@@ -460,15 +477,12 @@ items:
       description: The BatchTaskState to get batch tasks for.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.BatchTaskInfo[]}
       description: Returns an array of user and system BatchTaskInfos.
     content.vb: Function GetAllBatchTaskInfosByNameAndStateAsync(taskName As String, state As BatchTaskState, requestOptions As RequestOptions = Nothing) As Task(Of BatchTaskInfo())
   overload: SuperOffice.WebApi.Agents.IBatchAgent.GetAllBatchTaskInfosByNameAndStateAsync*
-  nameWithType.vb: IBatchAgent.GetAllBatchTaskInfosByNameAndStateAsync(String, BatchTaskState, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IBatchAgent.GetAllBatchTaskInfosByNameAndStateAsync(String, SuperOffice.WebApi.Data.BatchTaskState, SuperOffice.WebApi.RequestOptions)
-  name.vb: GetAllBatchTaskInfosByNameAndStateAsync(String, BatchTaskState, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IBatchAgent.GetSystemBatchTaskInfosByNameAsync(System.String,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IBatchAgent.GetSystemBatchTaskInfosByNameAsync(System.String,SuperOffice.WebApi.RequestOptions)
   id: GetSystemBatchTaskInfosByNameAsync(System.String,SuperOffice.WebApi.RequestOptions)
@@ -476,15 +490,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetSystemBatchTaskInfosByNameAsync(string, RequestOptions)
-  nameWithType: IBatchAgent.GetSystemBatchTaskInfosByNameAsync(string, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IBatchAgent.GetSystemBatchTaskInfosByNameAsync(string, SuperOffice.WebApi.RequestOptions)
+  name: GetSystemBatchTaskInfosByNameAsync(String, RequestOptions)
+  nameWithType: IBatchAgent.GetSystemBatchTaskInfosByNameAsync(String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBatchAgent.GetSystemBatchTaskInfosByNameAsync(System.String, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Get an array of system BatchTaskInfo for the provided task name.
-  example: []
+  summary: "\nGet an array of system BatchTaskInfo for the provided task name.\n"
   syntax:
     content: Task<BatchTaskInfo[]> GetSystemBatchTaskInfosByNameAsync(string taskName, RequestOptions requestOptions = null)
     parameters:
@@ -493,15 +509,12 @@ items:
       description: A task name, NULL or blank to get all tasks
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.BatchTaskInfo[]}
       description: Returns an array of system BatchTaskInfos.
     content.vb: Function GetSystemBatchTaskInfosByNameAsync(taskName As String, requestOptions As RequestOptions = Nothing) As Task(Of BatchTaskInfo())
   overload: SuperOffice.WebApi.Agents.IBatchAgent.GetSystemBatchTaskInfosByNameAsync*
-  nameWithType.vb: IBatchAgent.GetSystemBatchTaskInfosByNameAsync(String, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IBatchAgent.GetSystemBatchTaskInfosByNameAsync(String, SuperOffice.WebApi.RequestOptions)
-  name.vb: GetSystemBatchTaskInfosByNameAsync(String, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IBatchAgent.GetSystemBatchTaskInfosByNameAndStateAsync(System.String,SuperOffice.WebApi.Data.BatchTaskState,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IBatchAgent.GetSystemBatchTaskInfosByNameAndStateAsync(System.String,SuperOffice.WebApi.Data.BatchTaskState,SuperOffice.WebApi.RequestOptions)
   id: GetSystemBatchTaskInfosByNameAndStateAsync(System.String,SuperOffice.WebApi.Data.BatchTaskState,SuperOffice.WebApi.RequestOptions)
@@ -509,15 +522,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetSystemBatchTaskInfosByNameAndStateAsync(string, BatchTaskState, RequestOptions)
-  nameWithType: IBatchAgent.GetSystemBatchTaskInfosByNameAndStateAsync(string, BatchTaskState, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IBatchAgent.GetSystemBatchTaskInfosByNameAndStateAsync(string, SuperOffice.WebApi.Data.BatchTaskState, SuperOffice.WebApi.RequestOptions)
+  name: GetSystemBatchTaskInfosByNameAndStateAsync(String, BatchTaskState, RequestOptions)
+  nameWithType: IBatchAgent.GetSystemBatchTaskInfosByNameAndStateAsync(String, BatchTaskState, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IBatchAgent.GetSystemBatchTaskInfosByNameAndStateAsync(System.String, SuperOffice.WebApi.Data.BatchTaskState, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Get an array of system BatchTaskInfo for the provided task name and state.
-  example: []
+  summary: "\nGet an array of system BatchTaskInfo for the provided task name and state.\n"
   syntax:
     content: Task<BatchTaskInfo[]> GetSystemBatchTaskInfosByNameAndStateAsync(string taskName, BatchTaskState state, RequestOptions requestOptions = null)
     parameters:
@@ -529,94 +544,22 @@ items:
       description: The BatchTaskState to get batch tasks for.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.BatchTaskInfo[]}
       description: Returns an array of system BatchTaskInfos.
     content.vb: Function GetSystemBatchTaskInfosByNameAndStateAsync(taskName As String, state As BatchTaskState, requestOptions As RequestOptions = Nothing) As Task(Of BatchTaskInfo())
   overload: SuperOffice.WebApi.Agents.IBatchAgent.GetSystemBatchTaskInfosByNameAndStateAsync*
-  nameWithType.vb: IBatchAgent.GetSystemBatchTaskInfosByNameAndStateAsync(String, BatchTaskState, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IBatchAgent.GetSystemBatchTaskInfosByNameAndStateAsync(String, SuperOffice.WebApi.Data.BatchTaskState, SuperOffice.WebApi.RequestOptions)
-  name.vb: GetSystemBatchTaskInfosByNameAndStateAsync(String, BatchTaskState, RequestOptions)
 references:
 - uid: SuperOffice.WebApi.Agents
   commentId: N:SuperOffice.WebApi.Agents
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Agents
   nameWithType: SuperOffice.WebApi.Agents
   fullName: SuperOffice.WebApi.Agents
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Agents
-    name: Agents
-    isExternal: true
-    href: SuperOffice.WebApi.Agents.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Agents
-    name: Agents
-    isExternal: true
-    href: SuperOffice.WebApi.Agents.html
-- uid: System.IDisposable.Dispose
-  commentId: M:System.IDisposable.Dispose
-  parent: System.IDisposable
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
-  name: Dispose()
-  nameWithType: IDisposable.Dispose()
-  fullName: System.IDisposable.Dispose()
-  spec.csharp:
-  - uid: System.IDisposable.Dispose
-    name: Dispose
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.IDisposable.Dispose
-    name: Dispose
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
-  - name: (
-  - name: )
-- uid: System.IDisposable
-  commentId: T:System.IDisposable
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.idisposable
-  name: IDisposable
-  nameWithType: IDisposable
-  fullName: System.IDisposable
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.WebApi.Agents.IBatchAgent.GetBatchTaskInfoAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IBatchAgent.GetBatchTaskInfoAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IBatchAgent.html#SuperOffice_WebApi_Agents_IBatchAgent_GetBatchTaskInfoAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
   name: GetBatchTaskInfoAsync
   nameWithType: IBatchAgent.GetBatchTaskInfoAsync
   fullName: SuperOffice.WebApi.Agents.IBatchAgent.GetBatchTaskInfoAsync
@@ -624,26 +567,19 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.WebApi.RequestOptions
   commentId: T:SuperOffice.WebApi.RequestOptions
   parent: SuperOffice.WebApi
   isExternal: true
-  href: SuperOffice.WebApi.RequestOptions.html
   name: RequestOptions
   nameWithType: RequestOptions
   fullName: SuperOffice.WebApi.RequestOptions
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.BatchTaskInfo}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.BatchTaskInfo}
-  parent: System.Threading.Tasks
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.BatchTaskInfo}'
   definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<BatchTaskInfo>
   nameWithType: Task<BatchTaskInfo>
   fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.BatchTaskInfo>
@@ -653,154 +589,122 @@ references:
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.WebApi.Data.BatchTaskInfo
     name: BatchTaskInfo
+    nameWithType: BatchTaskInfo
+    fullName: SuperOffice.WebApi.Data.BatchTaskInfo
     isExternal: true
-    href: SuperOffice.WebApi.Data.BatchTaskInfo.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.WebApi.Data.BatchTaskInfo
     name: BatchTaskInfo
+    nameWithType: BatchTaskInfo
+    fullName: SuperOffice.WebApi.Data.BatchTaskInfo
     isExternal: true
-    href: SuperOffice.WebApi.Data.BatchTaskInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.WebApi
   commentId: N:SuperOffice.WebApi
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi
   nameWithType: SuperOffice.WebApi
   fullName: SuperOffice.WebApi
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
 - uid: System.Threading.Tasks.Task`1
-  commentId: T:System.Threading.Tasks.Task`1
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<TResult>
-  nameWithType: Task<TResult>
-  fullName: System.Threading.Tasks.Task<TResult>
-  nameWithType.vb: Task(Of TResult)
-  fullName.vb: System.Threading.Tasks.Task(Of TResult)
-  name.vb: Task(Of TResult)
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-  - name: TResult
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TResult
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
-- uid: System.Threading.Tasks
-  commentId: N:System.Threading.Tasks
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Threading.Tasks
-  nameWithType: System.Threading.Tasks
-  fullName: System.Threading.Tasks
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Threading
-    name: Threading
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading
-  - name: .
-  - uid: System.Threading.Tasks
-    name: Tasks
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Threading
-    name: Threading
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading
-  - name: .
-  - uid: System.Threading.Tasks
-    name: Tasks
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.IBatchAgent.GetBatchTaskInfosByAssociatesAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IBatchAgent.GetBatchTaskInfosByAssociatesAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IBatchAgent.html#SuperOffice_WebApi_Agents_IBatchAgent_GetBatchTaskInfosByAssociatesAsync_System_Int32___SuperOffice_WebApi_RequestOptions_
   name: GetBatchTaskInfosByAssociatesAsync
   nameWithType: IBatchAgent.GetBatchTaskInfosByAssociatesAsync
   fullName: SuperOffice.WebApi.Agents.IBatchAgent.GetBatchTaskInfosByAssociatesAsync
 - uid: System.Int32[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int[]
-  nameWithType: int[]
-  fullName: int[]
-  nameWithType.vb: Integer()
-  fullName.vb: Integer()
-  name.vb: Integer()
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
   spec.csharp:
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.BatchTaskInfo[]}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.BatchTaskInfo[]}
-  parent: System.Threading.Tasks
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.BatchTaskInfo[]}'
   definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<BatchTaskInfo[]>
   nameWithType: Task<BatchTaskInfo[]>
   fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.BatchTaskInfo[]>
@@ -810,35 +714,46 @@ references:
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.WebApi.Data.BatchTaskInfo
     name: BatchTaskInfo
+    nameWithType: BatchTaskInfo
+    fullName: SuperOffice.WebApi.Data.BatchTaskInfo
     isExternal: true
-    href: SuperOffice.WebApi.Data.BatchTaskInfo.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.WebApi.Data.BatchTaskInfo
     name: BatchTaskInfo
+    nameWithType: BatchTaskInfo
+    fullName: SuperOffice.WebApi.Data.BatchTaskInfo
     isExternal: true
-    href: SuperOffice.WebApi.Data.BatchTaskInfo.html
-  - name: (
+  - name: ()
+    nameWithType: ()
+    fullName: ()
   - name: )
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.IBatchAgent.StartBatchJobAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IBatchAgent.StartBatchJobAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IBatchAgent.html#SuperOffice_WebApi_Agents_IBatchAgent_StartBatchJobAsync_SuperOffice_WebApi_Data_BatchTaskInfo_SuperOffice_WebApi_RequestOptions_
   name: StartBatchJobAsync
   nameWithType: IBatchAgent.StartBatchJobAsync
   fullName: SuperOffice.WebApi.Agents.IBatchAgent.StartBatchJobAsync
@@ -846,128 +761,110 @@ references:
   commentId: T:SuperOffice.WebApi.Data.BatchTaskInfo
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.BatchTaskInfo.html
   name: BatchTaskInfo
   nameWithType: BatchTaskInfo
   fullName: SuperOffice.WebApi.Data.BatchTaskInfo
 - uid: System.Threading.Tasks.Task{System.Int32}
-  commentId: T:System.Threading.Tasks.Task{System.Int32}
-  parent: System.Threading.Tasks
+  commentId: '!:System.Threading.Tasks.Task{System.Int32}'
   definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<int>
-  nameWithType: Task<int>
-  fullName: System.Threading.Tasks.Task<int>
-  nameWithType.vb: Task(Of Integer)
-  fullName.vb: System.Threading.Tasks.Task(Of Integer)
-  name.vb: Task(Of Integer)
+  name: Task<Int32>
+  nameWithType: Task<Int32>
+  fullName: System.Threading.Tasks.Task<System.Int32>
+  nameWithType.vb: Task(Of Int32)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Int32)
+  name.vb: Task(Of Int32)
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
 - uid: SuperOffice.WebApi.Agents.IBatchAgent.StopBatchJobAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IBatchAgent.StopBatchJobAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IBatchAgent.html#SuperOffice_WebApi_Agents_IBatchAgent_StopBatchJobAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
   name: StopBatchJobAsync
   nameWithType: IBatchAgent.StopBatchJobAsync
   fullName: SuperOffice.WebApi.Agents.IBatchAgent.StopBatchJobAsync
 - uid: System.Threading.Tasks.Task{System.Boolean}
-  commentId: T:System.Threading.Tasks.Task{System.Boolean}
-  parent: System.Threading.Tasks
+  commentId: '!:System.Threading.Tasks.Task{System.Boolean}'
   definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<bool>
-  nameWithType: Task<bool>
-  fullName: System.Threading.Tasks.Task<bool>
+  name: Task<Boolean>
+  nameWithType: Task<Boolean>
+  fullName: System.Threading.Tasks.Task<System.Boolean>
   nameWithType.vb: Task(Of Boolean)
-  fullName.vb: System.Threading.Tasks.Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Boolean)
   name.vb: Task(Of Boolean)
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: System.Boolean
-    name: bool
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: System.Boolean
     name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.IBatchAgent.GetBatchTaskInfosByStateAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IBatchAgent.GetBatchTaskInfosByStateAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IBatchAgent.html#SuperOffice_WebApi_Agents_IBatchAgent_GetBatchTaskInfosByStateAsync_SuperOffice_WebApi_Data_BatchTaskState_SuperOffice_WebApi_RequestOptions_
   name: GetBatchTaskInfosByStateAsync
   nameWithType: IBatchAgent.GetBatchTaskInfosByStateAsync
   fullName: SuperOffice.WebApi.Agents.IBatchAgent.GetBatchTaskInfosByStateAsync
@@ -975,21 +872,18 @@ references:
   commentId: T:SuperOffice.WebApi.Data.BatchTaskState
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.BatchTaskState.html
   name: BatchTaskState
   nameWithType: BatchTaskState
   fullName: SuperOffice.WebApi.Data.BatchTaskState
 - uid: SuperOffice.WebApi.Agents.IBatchAgent.UpdateBatchTaskAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IBatchAgent.UpdateBatchTaskAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IBatchAgent.html#SuperOffice_WebApi_Agents_IBatchAgent_UpdateBatchTaskAsync_SuperOffice_WebApi_Data_BatchTaskInfo_SuperOffice_WebApi_RequestOptions_
   name: UpdateBatchTaskAsync
   nameWithType: IBatchAgent.UpdateBatchTaskAsync
   fullName: SuperOffice.WebApi.Agents.IBatchAgent.UpdateBatchTaskAsync
 - uid: SuperOffice.WebApi.Agents.IBatchAgent.GetBatchTaskInfosByNameAndStateAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IBatchAgent.GetBatchTaskInfosByNameAndStateAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IBatchAgent.html#SuperOffice_WebApi_Agents_IBatchAgent_GetBatchTaskInfosByNameAndStateAsync_System_String_SuperOffice_WebApi_Data_BatchTaskState_SuperOffice_WebApi_RequestOptions_
   name: GetBatchTaskInfosByNameAndStateAsync
   nameWithType: IBatchAgent.GetBatchTaskInfosByNameAndStateAsync
   fullName: SuperOffice.WebApi.Agents.IBatchAgent.GetBatchTaskInfosByNameAndStateAsync
@@ -997,74 +891,59 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.WebApi.Agents.IBatchAgent.GetBatchTaskInfosByNameAndAssociatesAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IBatchAgent.GetBatchTaskInfosByNameAndAssociatesAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IBatchAgent.html#SuperOffice_WebApi_Agents_IBatchAgent_GetBatchTaskInfosByNameAndAssociatesAsync_System_String_System_Int32___SuperOffice_WebApi_RequestOptions_
   name: GetBatchTaskInfosByNameAndAssociatesAsync
   nameWithType: IBatchAgent.GetBatchTaskInfosByNameAndAssociatesAsync
   fullName: SuperOffice.WebApi.Agents.IBatchAgent.GetBatchTaskInfosByNameAndAssociatesAsync
 - uid: SuperOffice.WebApi.Agents.IBatchAgent.GetBatchTaskInfosByAssociatesAndStateAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IBatchAgent.GetBatchTaskInfosByAssociatesAndStateAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IBatchAgent.html#SuperOffice_WebApi_Agents_IBatchAgent_GetBatchTaskInfosByAssociatesAndStateAsync_System_Int32___SuperOffice_WebApi_Data_BatchTaskState_SuperOffice_WebApi_RequestOptions_
   name: GetBatchTaskInfosByAssociatesAndStateAsync
   nameWithType: IBatchAgent.GetBatchTaskInfosByAssociatesAndStateAsync
   fullName: SuperOffice.WebApi.Agents.IBatchAgent.GetBatchTaskInfosByAssociatesAndStateAsync
 - uid: SuperOffice.WebApi.Agents.IBatchAgent.DeleteBatchTasksAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IBatchAgent.DeleteBatchTasksAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IBatchAgent.html#SuperOffice_WebApi_Agents_IBatchAgent_DeleteBatchTasksAsync_System_Int32___SuperOffice_WebApi_RequestOptions_
   name: DeleteBatchTasksAsync
   nameWithType: IBatchAgent.DeleteBatchTasksAsync
   fullName: SuperOffice.WebApi.Agents.IBatchAgent.DeleteBatchTasksAsync
 - uid: System.Threading.Tasks.Task
-  commentId: T:System.Threading.Tasks.Task
-  parent: System.Threading.Tasks
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
   name: Task
   nameWithType: Task
   fullName: System.Threading.Tasks.Task
 - uid: SuperOffice.WebApi.Agents.IBatchAgent.DeleteBatchTaskAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IBatchAgent.DeleteBatchTaskAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IBatchAgent.html#SuperOffice_WebApi_Agents_IBatchAgent_DeleteBatchTaskAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
   name: DeleteBatchTaskAsync
   nameWithType: IBatchAgent.DeleteBatchTaskAsync
   fullName: SuperOffice.WebApi.Agents.IBatchAgent.DeleteBatchTaskAsync
 - uid: SuperOffice.WebApi.Agents.IBatchAgent.GetAllBatchTaskInfosByNameAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IBatchAgent.GetAllBatchTaskInfosByNameAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IBatchAgent.html#SuperOffice_WebApi_Agents_IBatchAgent_GetAllBatchTaskInfosByNameAsync_System_String_SuperOffice_WebApi_RequestOptions_
   name: GetAllBatchTaskInfosByNameAsync
   nameWithType: IBatchAgent.GetAllBatchTaskInfosByNameAsync
   fullName: SuperOffice.WebApi.Agents.IBatchAgent.GetAllBatchTaskInfosByNameAsync
 - uid: SuperOffice.WebApi.Agents.IBatchAgent.GetAllBatchTaskInfosByNameAndStateAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IBatchAgent.GetAllBatchTaskInfosByNameAndStateAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IBatchAgent.html#SuperOffice_WebApi_Agents_IBatchAgent_GetAllBatchTaskInfosByNameAndStateAsync_System_String_SuperOffice_WebApi_Data_BatchTaskState_SuperOffice_WebApi_RequestOptions_
   name: GetAllBatchTaskInfosByNameAndStateAsync
   nameWithType: IBatchAgent.GetAllBatchTaskInfosByNameAndStateAsync
   fullName: SuperOffice.WebApi.Agents.IBatchAgent.GetAllBatchTaskInfosByNameAndStateAsync
 - uid: SuperOffice.WebApi.Agents.IBatchAgent.GetSystemBatchTaskInfosByNameAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IBatchAgent.GetSystemBatchTaskInfosByNameAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IBatchAgent.html#SuperOffice_WebApi_Agents_IBatchAgent_GetSystemBatchTaskInfosByNameAsync_System_String_SuperOffice_WebApi_RequestOptions_
   name: GetSystemBatchTaskInfosByNameAsync
   nameWithType: IBatchAgent.GetSystemBatchTaskInfosByNameAsync
   fullName: SuperOffice.WebApi.Agents.IBatchAgent.GetSystemBatchTaskInfosByNameAsync
 - uid: SuperOffice.WebApi.Agents.IBatchAgent.GetSystemBatchTaskInfosByNameAndStateAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IBatchAgent.GetSystemBatchTaskInfosByNameAndStateAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IBatchAgent.html#SuperOffice_WebApi_Agents_IBatchAgent_GetSystemBatchTaskInfosByNameAndStateAsync_System_String_SuperOffice_WebApi_Data_BatchTaskState_SuperOffice_WebApi_RequestOptions_
   name: GetSystemBatchTaskInfosByNameAndStateAsync
   nameWithType: IBatchAgent.GetSystemBatchTaskInfosByNameAndStateAsync
   fullName: SuperOffice.WebApi.Agents.IBatchAgent.GetSystemBatchTaskInfosByNameAndStateAsync

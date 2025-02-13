@@ -26,8 +26,8 @@ items:
   - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetFieldsFromStorage(System.String,System.String)
   - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetJobResultLastRun(System.String)
   - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetJobResultLastRunAsJson(System.String,System.Int32)
-  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetJobResultStorageItems
   - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetJobResultsFromStorageAsJson
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetJobResultStorageItems
   - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetRegExOptions
   - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetRegExParams
   - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetSearchOptions
@@ -36,10 +36,10 @@ items:
   - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ParseEncodedActivityLinkJobInfo(System.String[])
   - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ParseEncodedActivityLinkJobInfoOrThrow(SuperOffice.CRM.BulkUpdate.FieldValueInfo)
   - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaveFieldsToStorage(System.String,System.String,SuperOffice.CRM.BulkUpdate.FieldValueInfo[])
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.sBulkUpdateJob
   - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.Serialize(SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldValueStorage)
   - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.WithListSuffix
   - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.WithNoSelectionSuffix
-  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.sBulkUpdateJob
   langs:
   - csharp
   - vb
@@ -47,27 +47,30 @@ items:
   nameWithType: BulkUpdateSystem
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public class BulkUpdateSystem
-    content.vb: Public Class BulkUpdateSystem
+    content: 'public class BulkUpdateSystem : Object'
+    content.vb: >-
+      Public Class BulkUpdateSystem
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.EnumUtil.MapEnums``2
-  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.BulkUpdate.BulkUpdateSystem)
   - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.WithNoSelectionSuffix
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.WithNoSelectionSuffix
   id: WithNoSelectionSuffix
@@ -79,6 +82,9 @@ items:
   nameWithType: BulkUpdateSystem.WithNoSelectionSuffix
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.WithNoSelectionSuffix
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -87,6 +93,14 @@ items:
     return:
       type: System.String
     content.vb: Public Shared ReadOnly WithNoSelectionSuffix As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.WithListSuffix
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.WithListSuffix
   id: WithListSuffix
@@ -98,6 +112,9 @@ items:
   nameWithType: BulkUpdateSystem.WithListSuffix
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.WithListSuffix
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -106,6 +123,12 @@ items:
     return:
       type: System.String
     content.vb: Public Const WithListSuffix As String = "WithList"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.sBulkUpdateJob
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.sBulkUpdateJob
   id: sBulkUpdateJob
@@ -117,6 +140,9 @@ items:
   nameWithType: BulkUpdateSystem.sBulkUpdateJob
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.sBulkUpdateJob
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -125,6 +151,12 @@ items:
     return:
       type: System.String
     content.vb: Public Const sBulkUpdateJob As String = "BulkUpdateJob"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.IsTableSupported(System.String)
   commentId: M:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.IsTableSupported(System.String)
   id: IsTableSupported(System.String)
@@ -132,10 +164,13 @@ items:
   langs:
   - csharp
   - vb
-  name: IsTableSupported(string)
-  nameWithType: BulkUpdateSystem.IsTableSupported(string)
-  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.IsTableSupported(string)
+  name: IsTableSupported(String)
+  nameWithType: BulkUpdateSystem.IsTableSupported(String)
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.IsTableSupported(System.String)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -148,9 +183,12 @@ items:
       type: System.Boolean
     content.vb: Public Shared Function IsTableSupported(i_TableName As String) As Boolean
   overload: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.IsTableSupported*
-  nameWithType.vb: BulkUpdateSystem.IsTableSupported(String)
-  fullName.vb: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.IsTableSupported(String)
-  name.vb: IsTableSupported(String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AddUdefFields(SuperOffice.Data.UDefType,System.String,System.Collections.Generic.List{SuperOffice.CRM.BulkUpdate.FieldValueInfo}@)
   commentId: M:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AddUdefFields(SuperOffice.Data.UDefType,System.String,System.Collections.Generic.List{SuperOffice.CRM.BulkUpdate.FieldValueInfo}@)
   id: AddUdefFields(SuperOffice.Data.UDefType,System.String,System.Collections.Generic.List{SuperOffice.CRM.BulkUpdate.FieldValueInfo}@)
@@ -158,10 +196,13 @@ items:
   langs:
   - csharp
   - vb
-  name: AddUdefFields(UDefType, string, ref List<FieldValueInfo>)
-  nameWithType: BulkUpdateSystem.AddUdefFields(UDefType, string, ref List<FieldValueInfo>)
-  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AddUdefFields(SuperOffice.Data.UDefType, string, ref System.Collections.Generic.List<SuperOffice.CRM.BulkUpdate.FieldValueInfo>)
+  name: AddUdefFields(UDefType, String, ref List<FieldValueInfo>)
+  nameWithType: BulkUpdateSystem.AddUdefFields(UDefType, String, ref List<FieldValueInfo>)
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AddUdefFields(SuperOffice.Data.UDefType, System.String, ref System.Collections.Generic.List<SuperOffice.CRM.BulkUpdate.FieldValueInfo>)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -174,11 +215,17 @@ items:
       type: System.String
     - id: o_Infos
       type: System.Collections.Generic.List{SuperOffice.CRM.BulkUpdate.FieldValueInfo}
-    content.vb: Protected Shared Sub AddUdefFields(i_UdefType As UDefType, i_IconHint As String, o_Infos As List(Of FieldValueInfo))
+    content.vb: Protected Shared Sub AddUdefFields(i_UdefType As UDefType, i_IconHint As String, ByRef o_Infos As List(Of FieldValueInfo))
   overload: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AddUdefFields*
-  nameWithType.vb: BulkUpdateSystem.AddUdefFields(UDefType, String, List(Of FieldValueInfo))
-  fullName.vb: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AddUdefFields(SuperOffice.Data.UDefType, String, System.Collections.Generic.List(Of SuperOffice.CRM.BulkUpdate.FieldValueInfo))
-  name.vb: AddUdefFields(UDefType, String, List(Of FieldValueInfo))
+  nameWithType.vb: BulkUpdateSystem.AddUdefFields(UDefType, String, ByRef List(Of FieldValueInfo))
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+  fullName.vb: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AddUdefFields(SuperOffice.Data.UDefType, System.String, ByRef System.Collections.Generic.List(Of SuperOffice.CRM.BulkUpdate.FieldValueInfo))
+  name.vb: AddUdefFields(UDefType, String, ByRef List(Of FieldValueInfo))
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AddExtraFields(System.String,System.String,System.Collections.Generic.List{SuperOffice.CRM.BulkUpdate.FieldValueInfo}@)
   commentId: M:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AddExtraFields(System.String,System.String,System.Collections.Generic.List{SuperOffice.CRM.BulkUpdate.FieldValueInfo}@)
   id: AddExtraFields(System.String,System.String,System.Collections.Generic.List{SuperOffice.CRM.BulkUpdate.FieldValueInfo}@)
@@ -186,10 +233,13 @@ items:
   langs:
   - csharp
   - vb
-  name: AddExtraFields(string, string, ref List<FieldValueInfo>)
-  nameWithType: BulkUpdateSystem.AddExtraFields(string, string, ref List<FieldValueInfo>)
-  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AddExtraFields(string, string, ref System.Collections.Generic.List<SuperOffice.CRM.BulkUpdate.FieldValueInfo>)
+  name: AddExtraFields(String, String, ref List<FieldValueInfo>)
+  nameWithType: BulkUpdateSystem.AddExtraFields(String, String, ref List<FieldValueInfo>)
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AddExtraFields(System.String, System.String, ref System.Collections.Generic.List<SuperOffice.CRM.BulkUpdate.FieldValueInfo>)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -202,11 +252,17 @@ items:
       type: System.String
     - id: o_Infos
       type: System.Collections.Generic.List{SuperOffice.CRM.BulkUpdate.FieldValueInfo}
-    content.vb: Public Shared Sub AddExtraFields(i_TableName As String, i_IconHint As String, o_Infos As List(Of FieldValueInfo))
+    content.vb: Public Shared Sub AddExtraFields(i_TableName As String, i_IconHint As String, ByRef o_Infos As List(Of FieldValueInfo))
   overload: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AddExtraFields*
-  nameWithType.vb: BulkUpdateSystem.AddExtraFields(String, String, List(Of FieldValueInfo))
-  fullName.vb: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AddExtraFields(String, String, System.Collections.Generic.List(Of SuperOffice.CRM.BulkUpdate.FieldValueInfo))
-  name.vb: AddExtraFields(String, String, List(Of FieldValueInfo))
+  nameWithType.vb: BulkUpdateSystem.AddExtraFields(String, String, ByRef List(Of FieldValueInfo))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AddExtraFields(System.String, System.String, ByRef System.Collections.Generic.List(Of SuperOffice.CRM.BulkUpdate.FieldValueInfo))
+  name.vb: AddExtraFields(String, String, ByRef List(Of FieldValueInfo))
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.EncodeActivityLinkJobInfo(SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo)
   commentId: M:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.EncodeActivityLinkJobInfo(SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo)
   id: EncodeActivityLinkJobInfo(SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo)
@@ -218,6 +274,9 @@ items:
   nameWithType: BulkUpdateSystem.EncodeActivityLinkJobInfo(ActivityLinkJobInfo)
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.EncodeActivityLinkJobInfo(SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -230,6 +289,12 @@ items:
       type: System.String[]
     content.vb: Public Shared Function EncodeActivityLinkJobInfo(i_JobInfo As ActivityLinkJobInfo) As String()
   overload: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.EncodeActivityLinkJobInfo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ParseEncodedActivityLinkJobInfo(System.String[])
   commentId: M:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ParseEncodedActivityLinkJobInfo(System.String[])
   id: ParseEncodedActivityLinkJobInfo(System.String[])
@@ -237,10 +302,13 @@ items:
   langs:
   - csharp
   - vb
-  name: ParseEncodedActivityLinkJobInfo(string[])
-  nameWithType: BulkUpdateSystem.ParseEncodedActivityLinkJobInfo(string[])
-  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ParseEncodedActivityLinkJobInfo(string[])
+  name: ParseEncodedActivityLinkJobInfo(String[])
+  nameWithType: BulkUpdateSystem.ParseEncodedActivityLinkJobInfo(String[])
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ParseEncodedActivityLinkJobInfo(System.String[])
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -254,7 +322,13 @@ items:
     content.vb: Public Shared Function ParseEncodedActivityLinkJobInfo(i_EncodedValues As String()) As ActivityLinkJobInfo
   overload: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ParseEncodedActivityLinkJobInfo*
   nameWithType.vb: BulkUpdateSystem.ParseEncodedActivityLinkJobInfo(String())
-  fullName.vb: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ParseEncodedActivityLinkJobInfo(String())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ParseEncodedActivityLinkJobInfo(System.String())
   name.vb: ParseEncodedActivityLinkJobInfo(String())
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ParseEncodedActivityLinkJobInfoOrThrow(SuperOffice.CRM.BulkUpdate.FieldValueInfo)
   commentId: M:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ParseEncodedActivityLinkJobInfoOrThrow(SuperOffice.CRM.BulkUpdate.FieldValueInfo)
@@ -267,6 +341,9 @@ items:
   nameWithType: BulkUpdateSystem.ParseEncodedActivityLinkJobInfoOrThrow(FieldValueInfo)
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ParseEncodedActivityLinkJobInfoOrThrow(SuperOffice.CRM.BulkUpdate.FieldValueInfo)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -279,6 +356,12 @@ items:
       type: SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo
     content.vb: Public Shared Function ParseEncodedActivityLinkJobInfoOrThrow(i_FieldValueInfo As FieldValueInfo) As ActivityLinkJobInfo
   overload: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ParseEncodedActivityLinkJobInfoOrThrow*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetSearchOptions
   commentId: M:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetSearchOptions
   id: GetSearchOptions
@@ -290,6 +373,9 @@ items:
   nameWithType: BulkUpdateSystem.GetSearchOptions()
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetSearchOptions()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -297,8 +383,14 @@ items:
     content: public static BulkUpdateSystem.SearchOption[] GetSearchOptions()
     return:
       type: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SearchOption[]
-    content.vb: Public Shared Function GetSearchOptions() As BulkUpdateSystem.SearchOption()
+    content.vb: Public Shared Function GetSearchOptions As BulkUpdateSystem.SearchOption()
   overload: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetSearchOptions*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetRegExParams
   commentId: M:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetRegExParams
   id: GetRegExParams
@@ -310,6 +402,9 @@ items:
   nameWithType: BulkUpdateSystem.GetRegExParams()
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetRegExParams()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -317,8 +412,14 @@ items:
     content: public static string GetRegExParams()
     return:
       type: System.String
-    content.vb: Public Shared Function GetRegExParams() As String
+    content.vb: Public Shared Function GetRegExParams As String
   overload: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetRegExParams*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetRegExOptions
   commentId: M:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetRegExOptions
   id: GetRegExOptions
@@ -330,6 +431,9 @@ items:
   nameWithType: BulkUpdateSystem.GetRegExOptions()
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetRegExOptions()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -337,8 +441,14 @@ items:
     content: public static BulkUpdateSystem.SearchOption[] GetRegExOptions()
     return:
       type: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SearchOption[]
-    content.vb: Public Shared Function GetRegExOptions() As BulkUpdateSystem.SearchOption()
+    content.vb: Public Shared Function GetRegExOptions As BulkUpdateSystem.SearchOption()
   overload: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetRegExOptions*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetExtraInfo(System.String,System.String)
   commentId: M:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetExtraInfo(System.String,System.String)
   id: GetExtraInfo(System.String,System.String)
@@ -346,10 +456,13 @@ items:
   langs:
   - csharp
   - vb
-  name: GetExtraInfo(string, string)
-  nameWithType: BulkUpdateSystem.GetExtraInfo(string, string)
-  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetExtraInfo(string, string)
+  name: GetExtraInfo(String, String)
+  nameWithType: BulkUpdateSystem.GetExtraInfo(String, String)
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetExtraInfo(System.String, System.String)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -364,9 +477,12 @@ items:
       type: System.String
     content.vb: Protected Shared Function GetExtraInfo(i_TableName As String, i_StorageContext As String) As String
   overload: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetExtraInfo*
-  nameWithType.vb: BulkUpdateSystem.GetExtraInfo(String, String)
-  fullName.vb: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetExtraInfo(String, String)
-  name.vb: GetExtraInfo(String, String)
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.Serialize(SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldValueStorage)
   commentId: M:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.Serialize(SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldValueStorage)
   id: Serialize(SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldValueStorage)
@@ -374,10 +490,13 @@ items:
   langs:
   - csharp
   - vb
-  name: Serialize(FieldValueStorage)
+  name: Serialize(BulkUpdateSystem.FieldValueStorage)
   nameWithType: BulkUpdateSystem.Serialize(BulkUpdateSystem.FieldValueStorage)
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.Serialize(SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldValueStorage)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -390,6 +509,12 @@ items:
       type: System.String
     content.vb: Protected Shared Function Serialize(fvs As BulkUpdateSystem.FieldValueStorage) As String
   overload: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.Serialize*
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.Deserialize(System.IO.MemoryStream)
   commentId: M:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.Deserialize(System.IO.MemoryStream)
   id: Deserialize(System.IO.MemoryStream)
@@ -401,6 +526,9 @@ items:
   nameWithType: BulkUpdateSystem.Deserialize(MemoryStream)
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.Deserialize(System.IO.MemoryStream)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -413,6 +541,12 @@ items:
       type: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldValueStorage
     content.vb: Protected Shared Function Deserialize(ms As MemoryStream) As BulkUpdateSystem.FieldValueStorage
   overload: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.Deserialize*
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetFieldsFromStorage(System.String,System.String)
   commentId: M:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetFieldsFromStorage(System.String,System.String)
   id: GetFieldsFromStorage(System.String,System.String)
@@ -420,10 +554,13 @@ items:
   langs:
   - csharp
   - vb
-  name: GetFieldsFromStorage(string, string)
-  nameWithType: BulkUpdateSystem.GetFieldsFromStorage(string, string)
-  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetFieldsFromStorage(string, string)
+  name: GetFieldsFromStorage(String, String)
+  nameWithType: BulkUpdateSystem.GetFieldsFromStorage(String, String)
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetFieldsFromStorage(System.String, System.String)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -438,9 +575,12 @@ items:
       type: SuperOffice.CRM.BulkUpdate.FieldValueInfo[]
     content.vb: Public Shared Function GetFieldsFromStorage(i_TableName As String, i_StorageContext As String) As FieldValueInfo()
   overload: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetFieldsFromStorage*
-  nameWithType.vb: BulkUpdateSystem.GetFieldsFromStorage(String, String)
-  fullName.vb: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetFieldsFromStorage(String, String)
-  name.vb: GetFieldsFromStorage(String, String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaveFieldsToStorage(System.String,System.String,SuperOffice.CRM.BulkUpdate.FieldValueInfo[])
   commentId: M:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaveFieldsToStorage(System.String,System.String,SuperOffice.CRM.BulkUpdate.FieldValueInfo[])
   id: SaveFieldsToStorage(System.String,System.String,SuperOffice.CRM.BulkUpdate.FieldValueInfo[])
@@ -448,10 +588,13 @@ items:
   langs:
   - csharp
   - vb
-  name: SaveFieldsToStorage(string, string, FieldValueInfo[])
-  nameWithType: BulkUpdateSystem.SaveFieldsToStorage(string, string, FieldValueInfo[])
-  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaveFieldsToStorage(string, string, SuperOffice.CRM.BulkUpdate.FieldValueInfo[])
+  name: SaveFieldsToStorage(String, String, FieldValueInfo[])
+  nameWithType: BulkUpdateSystem.SaveFieldsToStorage(String, String, FieldValueInfo[])
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaveFieldsToStorage(System.String, System.String, SuperOffice.CRM.BulkUpdate.FieldValueInfo[])
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -469,7 +612,13 @@ items:
     content.vb: Public Shared Function SaveFieldsToStorage(i_TableName As String, i_StorageContext As String, i_Infos As FieldValueInfo()) As Boolean
   overload: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaveFieldsToStorage*
   nameWithType.vb: BulkUpdateSystem.SaveFieldsToStorage(String, String, FieldValueInfo())
-  fullName.vb: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaveFieldsToStorage(String, String, SuperOffice.CRM.BulkUpdate.FieldValueInfo())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaveFieldsToStorage(System.String, System.String, SuperOffice.CRM.BulkUpdate.FieldValueInfo())
   name.vb: SaveFieldsToStorage(String, String, FieldValueInfo())
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.DeleteStorage(System.String,System.String)
   commentId: M:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.DeleteStorage(System.String,System.String)
@@ -478,10 +627,13 @@ items:
   langs:
   - csharp
   - vb
-  name: DeleteStorage(string, string)
-  nameWithType: BulkUpdateSystem.DeleteStorage(string, string)
-  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.DeleteStorage(string, string)
+  name: DeleteStorage(String, String)
+  nameWithType: BulkUpdateSystem.DeleteStorage(String, String)
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.DeleteStorage(System.String, System.String)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -496,9 +648,12 @@ items:
       type: System.Boolean
     content.vb: Public Shared Function DeleteStorage(i_TableName As String, i_StorageContext As String) As Boolean
   overload: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.DeleteStorage*
-  nameWithType.vb: BulkUpdateSystem.DeleteStorage(String, String)
-  fullName.vb: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.DeleteStorage(String, String)
-  name.vb: DeleteStorage(String, String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.DeleteJobResultStorageItems(System.Int32[])
   commentId: M:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.DeleteJobResultStorageItems(System.Int32[])
   id: DeleteJobResultStorageItems(System.Int32[])
@@ -506,10 +661,13 @@ items:
   langs:
   - csharp
   - vb
-  name: DeleteJobResultStorageItems(int[])
-  nameWithType: BulkUpdateSystem.DeleteJobResultStorageItems(int[])
-  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.DeleteJobResultStorageItems(int[])
+  name: DeleteJobResultStorageItems(Int32[])
+  nameWithType: BulkUpdateSystem.DeleteJobResultStorageItems(Int32[])
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.DeleteJobResultStorageItems(System.Int32[])
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -522,9 +680,15 @@ items:
       type: System.Boolean
     content.vb: Public Shared Function DeleteJobResultStorageItems(i_StorageItemIds As Integer()) As Boolean
   overload: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.DeleteJobResultStorageItems*
-  nameWithType.vb: BulkUpdateSystem.DeleteJobResultStorageItems(Integer())
-  fullName.vb: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.DeleteJobResultStorageItems(Integer())
-  name.vb: DeleteJobResultStorageItems(Integer())
+  nameWithType.vb: BulkUpdateSystem.DeleteJobResultStorageItems(Int32())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.DeleteJobResultStorageItems(System.Int32())
+  name.vb: DeleteJobResultStorageItems(Int32())
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.CountJobResultStorageItems
   commentId: M:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.CountJobResultStorageItems
   id: CountJobResultStorageItems
@@ -536,6 +700,9 @@ items:
   nameWithType: BulkUpdateSystem.CountJobResultStorageItems()
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.CountJobResultStorageItems()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -543,8 +710,14 @@ items:
     content: public static int CountJobResultStorageItems()
     return:
       type: System.Int32
-    content.vb: Public Shared Function CountJobResultStorageItems() As Integer
+    content.vb: Public Shared Function CountJobResultStorageItems As Integer
   overload: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.CountJobResultStorageItems*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.HasJobResultStorageItems
   commentId: M:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.HasJobResultStorageItems
   id: HasJobResultStorageItems
@@ -556,6 +729,9 @@ items:
   nameWithType: BulkUpdateSystem.HasJobResultStorageItems()
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.HasJobResultStorageItems()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -563,8 +739,14 @@ items:
     content: public static bool HasJobResultStorageItems()
     return:
       type: System.Boolean
-    content.vb: Public Shared Function HasJobResultStorageItems() As Boolean
+    content.vb: Public Shared Function HasJobResultStorageItems As Boolean
   overload: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.HasJobResultStorageItems*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetJobResultsFromStorageAsJson
   commentId: M:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetJobResultsFromStorageAsJson
   id: GetJobResultsFromStorageAsJson
@@ -576,6 +758,9 @@ items:
   nameWithType: BulkUpdateSystem.GetJobResultsFromStorageAsJson()
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetJobResultsFromStorageAsJson()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -583,8 +768,14 @@ items:
     content: public static string[] GetJobResultsFromStorageAsJson()
     return:
       type: System.String[]
-    content.vb: Public Shared Function GetJobResultsFromStorageAsJson() As String()
+    content.vb: Public Shared Function GetJobResultsFromStorageAsJson As String()
   overload: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetJobResultsFromStorageAsJson*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetJobResultStorageItems
   commentId: M:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetJobResultStorageItems
   id: GetJobResultStorageItems
@@ -596,6 +787,9 @@ items:
   nameWithType: BulkUpdateSystem.GetJobResultStorageItems()
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetJobResultStorageItems()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -603,8 +797,14 @@ items:
     content: public static BulkUpdateSystem.JobResultStorageItem[] GetJobResultStorageItems()
     return:
       type: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem[]
-    content.vb: Public Shared Function GetJobResultStorageItems() As BulkUpdateSystem.JobResultStorageItem()
+    content.vb: Public Shared Function GetJobResultStorageItems As BulkUpdateSystem.JobResultStorageItem()
   overload: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetJobResultStorageItems*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetJobResultLastRun(System.String)
   commentId: M:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetJobResultLastRun(System.String)
   id: GetJobResultLastRun(System.String)
@@ -612,10 +812,13 @@ items:
   langs:
   - csharp
   - vb
-  name: GetJobResultLastRun(string)
-  nameWithType: BulkUpdateSystem.GetJobResultLastRun(string)
-  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetJobResultLastRun(string)
+  name: GetJobResultLastRun(String)
+  nameWithType: BulkUpdateSystem.GetJobResultLastRun(String)
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetJobResultLastRun(System.String)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -628,9 +831,12 @@ items:
       type: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem
     content.vb: Public Shared Function GetJobResultLastRun(context As String) As BulkUpdateSystem.JobResultStorageItem
   overload: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetJobResultLastRun*
-  nameWithType.vb: BulkUpdateSystem.GetJobResultLastRun(String)
-  fullName.vb: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetJobResultLastRun(String)
-  name.vb: GetJobResultLastRun(String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetJobResultLastRunAsJson(System.String,System.Int32)
   commentId: M:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetJobResultLastRunAsJson(System.String,System.Int32)
   id: GetJobResultLastRunAsJson(System.String,System.Int32)
@@ -638,10 +844,13 @@ items:
   langs:
   - csharp
   - vb
-  name: GetJobResultLastRunAsJson(string, int)
-  nameWithType: BulkUpdateSystem.GetJobResultLastRunAsJson(string, int)
-  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetJobResultLastRunAsJson(string, int)
+  name: GetJobResultLastRunAsJson(String, Int32)
+  nameWithType: BulkUpdateSystem.GetJobResultLastRunAsJson(String, Int32)
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetJobResultLastRunAsJson(System.String, System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -656,9 +865,12 @@ items:
       type: System.String
     content.vb: Public Shared Function GetJobResultLastRunAsJson(context As String, batchTaskId As Integer) As String
   overload: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetJobResultLastRunAsJson*
-  nameWithType.vb: BulkUpdateSystem.GetJobResultLastRunAsJson(String, Integer)
-  fullName.vb: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetJobResultLastRunAsJson(String, Integer)
-  name.vb: GetJobResultLastRunAsJson(String, Integer)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableFields(System.String,System.String)
   commentId: M:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableFields(System.String,System.String)
   id: GetAvailableFields(System.String,System.String)
@@ -666,10 +878,13 @@ items:
   langs:
   - csharp
   - vb
-  name: GetAvailableFields(string, string)
-  nameWithType: BulkUpdateSystem.GetAvailableFields(string, string)
-  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableFields(string, string)
+  name: GetAvailableFields(String, String)
+  nameWithType: BulkUpdateSystem.GetAvailableFields(String, String)
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableFields(System.String, System.String)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -684,9 +899,12 @@ items:
       type: SuperOffice.CRM.BulkUpdate.FieldValueInfo[]
     content.vb: Public Shared Function GetAvailableFields(i_TableName As String, context As String = "") As FieldValueInfo()
   overload: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableFields*
-  nameWithType.vb: BulkUpdateSystem.GetAvailableFields(String, String)
-  fullName.vb: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableFields(String, String)
-  name.vb: GetAvailableFields(String, String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableContactFields(System.Boolean)
   commentId: M:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableContactFields(System.Boolean)
   id: GetAvailableContactFields(System.Boolean)
@@ -694,10 +912,13 @@ items:
   langs:
   - csharp
   - vb
-  name: GetAvailableContactFields(bool)
-  nameWithType: BulkUpdateSystem.GetAvailableContactFields(bool)
-  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableContactFields(bool)
+  name: GetAvailableContactFields(Boolean)
+  nameWithType: BulkUpdateSystem.GetAvailableContactFields(Boolean)
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableContactFields(System.Boolean)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -710,9 +931,12 @@ items:
       type: SuperOffice.CRM.BulkUpdate.FieldValueInfo[]
     content.vb: Public Shared Function GetAvailableContactFields(isForEmailFlow As Boolean = False) As FieldValueInfo()
   overload: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableContactFields*
-  nameWithType.vb: BulkUpdateSystem.GetAvailableContactFields(Boolean)
-  fullName.vb: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableContactFields(Boolean)
-  name.vb: GetAvailableContactFields(Boolean)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailablePersonFields(System.Boolean)
   commentId: M:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailablePersonFields(System.Boolean)
   id: GetAvailablePersonFields(System.Boolean)
@@ -720,10 +944,13 @@ items:
   langs:
   - csharp
   - vb
-  name: GetAvailablePersonFields(bool)
-  nameWithType: BulkUpdateSystem.GetAvailablePersonFields(bool)
-  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailablePersonFields(bool)
+  name: GetAvailablePersonFields(Boolean)
+  nameWithType: BulkUpdateSystem.GetAvailablePersonFields(Boolean)
+  fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailablePersonFields(System.Boolean)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -736,9 +963,12 @@ items:
       type: SuperOffice.CRM.BulkUpdate.FieldValueInfo[]
     content.vb: Public Shared Function GetAvailablePersonFields(bIsForEmailFlow As Boolean = False) As FieldValueInfo()
   overload: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailablePersonFields*
-  nameWithType.vb: BulkUpdateSystem.GetAvailablePersonFields(Boolean)
-  fullName.vb: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailablePersonFields(Boolean)
-  name.vb: GetAvailablePersonFields(Boolean)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableProjectFields
   commentId: M:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableProjectFields
   id: GetAvailableProjectFields
@@ -750,6 +980,9 @@ items:
   nameWithType: BulkUpdateSystem.GetAvailableProjectFields()
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableProjectFields()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -757,8 +990,14 @@ items:
     content: public static FieldValueInfo[] GetAvailableProjectFields()
     return:
       type: SuperOffice.CRM.BulkUpdate.FieldValueInfo[]
-    content.vb: Public Shared Function GetAvailableProjectFields() As FieldValueInfo()
+    content.vb: Public Shared Function GetAvailableProjectFields As FieldValueInfo()
   overload: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableProjectFields*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableSaleFields
   commentId: M:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableSaleFields
   id: GetAvailableSaleFields
@@ -770,6 +1009,9 @@ items:
   nameWithType: BulkUpdateSystem.GetAvailableSaleFields()
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableSaleFields()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -777,8 +1019,14 @@ items:
     content: public static FieldValueInfo[] GetAvailableSaleFields()
     return:
       type: SuperOffice.CRM.BulkUpdate.FieldValueInfo[]
-    content.vb: Public Shared Function GetAvailableSaleFields() As FieldValueInfo()
+    content.vb: Public Shared Function GetAvailableSaleFields As FieldValueInfo()
   overload: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableSaleFields*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableAppointmentFields
   commentId: M:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableAppointmentFields
   id: GetAvailableAppointmentFields
@@ -790,6 +1038,9 @@ items:
   nameWithType: BulkUpdateSystem.GetAvailableAppointmentFields()
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableAppointmentFields()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -797,8 +1048,14 @@ items:
     content: public static FieldValueInfo[] GetAvailableAppointmentFields()
     return:
       type: SuperOffice.CRM.BulkUpdate.FieldValueInfo[]
-    content.vb: Public Shared Function GetAvailableAppointmentFields() As FieldValueInfo()
+    content.vb: Public Shared Function GetAvailableAppointmentFields As FieldValueInfo()
   overload: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableAppointmentFields*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableDocumentFields
   commentId: M:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableDocumentFields
   id: GetAvailableDocumentFields
@@ -810,6 +1067,9 @@ items:
   nameWithType: BulkUpdateSystem.GetAvailableDocumentFields()
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableDocumentFields()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -817,8 +1077,14 @@ items:
     content: public static FieldValueInfo[] GetAvailableDocumentFields()
     return:
       type: SuperOffice.CRM.BulkUpdate.FieldValueInfo[]
-    content.vb: Public Shared Function GetAvailableDocumentFields() As FieldValueInfo()
+    content.vb: Public Shared Function GetAvailableDocumentFields As FieldValueInfo()
   overload: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableDocumentFields*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableSelectionFields
   commentId: M:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableSelectionFields
   id: GetAvailableSelectionFields
@@ -830,6 +1096,9 @@ items:
   nameWithType: BulkUpdateSystem.GetAvailableSelectionFields()
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableSelectionFields()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -837,8 +1106,14 @@ items:
     content: public static FieldValueInfo[] GetAvailableSelectionFields()
     return:
       type: SuperOffice.CRM.BulkUpdate.FieldValueInfo[]
-    content.vb: Public Shared Function GetAvailableSelectionFields() As FieldValueInfo()
+    content.vb: Public Shared Function GetAvailableSelectionFields As FieldValueInfo()
   overload: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableSelectionFields*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableTicketFields
   commentId: M:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableTicketFields
   id: GetAvailableTicketFields
@@ -850,6 +1125,9 @@ items:
   nameWithType: BulkUpdateSystem.GetAvailableTicketFields()
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableTicketFields()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -857,8 +1135,14 @@ items:
     content: public static FieldValueInfo[] GetAvailableTicketFields()
     return:
       type: SuperOffice.CRM.BulkUpdate.FieldValueInfo[]
-    content.vb: Public Shared Function GetAvailableTicketFields() As FieldValueInfo()
+    content.vb: Public Shared Function GetAvailableTicketFields As FieldValueInfo()
   overload: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableTicketFields*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.#ctor
   commentId: M:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.#ctor
   id: '#ctor'
@@ -870,507 +1154,189 @@ items:
   nameWithType: BulkUpdateSystem.BulkUpdateSystem()
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BulkUpdateSystem()
   type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
     content: public BulkUpdateSystem()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.#ctor*
-  nameWithType.vb: BulkUpdateSystem.New()
-  fullName.vb: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 references:
 - uid: SuperOffice.CRM.BulkUpdate
   commentId: N:SuperOffice.CRM.BulkUpdate
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.BulkUpdate
   nameWithType: SuperOffice.CRM.BulkUpdate
   fullName: SuperOffice.CRM.BulkUpdate
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.BulkUpdate
-    name: BulkUpdate
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.BulkUpdate
-    name: BulkUpdate
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<BulkUpdateSystem, To>(BulkUpdateSystem)
-  nameWithType: EnumUtil.MapEnums<BulkUpdateSystem, To>(BulkUpdateSystem)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.BulkUpdate.BulkUpdateSystem, To>(SuperOffice.CRM.BulkUpdate.BulkUpdateSystem)
-  nameWithType.vb: EnumUtil.MapEnums(Of BulkUpdateSystem, To)(BulkUpdateSystem)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.BulkUpdate.BulkUpdateSystem, To)(SuperOffice.CRM.BulkUpdate.BulkUpdateSystem)
-  name.vb: MapEnums(Of BulkUpdateSystem, To)(BulkUpdateSystem)
+  name: MapEnums<BulkUpdateSystem, To>()
+  nameWithType: EnumUtil.MapEnums<BulkUpdateSystem, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.BulkUpdate.BulkUpdateSystem, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of BulkUpdateSystem, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.BulkUpdate.BulkUpdateSystem, To)()
+  name.vb: MapEnums(Of BulkUpdateSystem, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.BulkUpdate.BulkUpdateSystem)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<BulkUpdateSystem, To>
+    nameWithType: EnumUtil.MapEnums<BulkUpdateSystem, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.BulkUpdate.BulkUpdateSystem, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem
-    name: BulkUpdateSystem
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem
-    name: BulkUpdateSystem
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.BulkUpdate.BulkUpdateSystem)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of BulkUpdateSystem, To)
+    nameWithType: EnumUtil.MapEnums(Of BulkUpdateSystem, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.BulkUpdate.BulkUpdateSystem, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem
-    name: BulkUpdateSystem
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem
-    name: BulkUpdateSystem
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
-  - name: )
-- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  parent: SuperOffice.ErpSync.ConnectorWS.Converters
-  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<BulkUpdateSystem, To>(BulkUpdateSystem)
-  nameWithType: Converters.MapEnums<BulkUpdateSystem, To>(BulkUpdateSystem)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.BulkUpdate.BulkUpdateSystem, To>(SuperOffice.CRM.BulkUpdate.BulkUpdateSystem)
-  nameWithType.vb: Converters.MapEnums(Of BulkUpdateSystem, To)(BulkUpdateSystem)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.BulkUpdate.BulkUpdateSystem, To)(SuperOffice.CRM.BulkUpdate.BulkUpdateSystem)
-  name.vb: MapEnums(Of BulkUpdateSystem, To)(BulkUpdateSystem)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.BulkUpdate.BulkUpdateSystem)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem
-    name: BulkUpdateSystem
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem
-    name: BulkUpdateSystem
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.BulkUpdate.BulkUpdateSystem)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem
-    name: BulkUpdateSystem
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem
-    name: BulkUpdateSystem
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.BulkUpdate.BulkUpdateSystem)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<BulkUpdateSystem>(BulkUpdateSystem, BulkUpdateSystem)
-  nameWithType: ObjectExtensions.AssignByReflection<BulkUpdateSystem>(BulkUpdateSystem, BulkUpdateSystem)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.BulkUpdate.BulkUpdateSystem>(SuperOffice.CRM.BulkUpdate.BulkUpdateSystem, SuperOffice.CRM.BulkUpdate.BulkUpdateSystem)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of BulkUpdateSystem)(BulkUpdateSystem, BulkUpdateSystem)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.BulkUpdate.BulkUpdateSystem)(SuperOffice.CRM.BulkUpdate.BulkUpdateSystem, SuperOffice.CRM.BulkUpdate.BulkUpdateSystem)
-  name.vb: AssignByReflection(Of BulkUpdateSystem)(BulkUpdateSystem, BulkUpdateSystem)
+  name: AssignByReflection<BulkUpdateSystem>(BulkUpdateSystem)
+  nameWithType: ObjectExtensions.AssignByReflection<BulkUpdateSystem>(BulkUpdateSystem)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.BulkUpdate.BulkUpdateSystem>(SuperOffice.CRM.BulkUpdate.BulkUpdateSystem)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of BulkUpdateSystem)(BulkUpdateSystem)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.BulkUpdate.BulkUpdateSystem)(SuperOffice.CRM.BulkUpdate.BulkUpdateSystem)
+  name.vb: AssignByReflection(Of BulkUpdateSystem)(BulkUpdateSystem)
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.BulkUpdate.BulkUpdateSystem,SuperOffice.CRM.BulkUpdate.BulkUpdateSystem)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<BulkUpdateSystem>
+    nameWithType: ObjectExtensions.AssignByReflection<BulkUpdateSystem>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.BulkUpdate.BulkUpdateSystem>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem
-    name: BulkUpdateSystem
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem
     name: BulkUpdateSystem
+    nameWithType: BulkUpdateSystem
+    fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem
     isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem
-    name: BulkUpdateSystem
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.BulkUpdate.BulkUpdateSystem,SuperOffice.CRM.BulkUpdate.BulkUpdateSystem)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of BulkUpdateSystem)
+    nameWithType: ObjectExtensions.AssignByReflection(Of BulkUpdateSystem)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.BulkUpdate.BulkUpdateSystem)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem
     name: BulkUpdateSystem
+    nameWithType: BulkUpdateSystem
+    fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem
     isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem
-    name: BulkUpdateSystem
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem
-    name: BulkUpdateSystem
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<BulkUpdateSystem>(BulkUpdateSystem)
-  nameWithType: ObjectExtensions.GraphCopy<BulkUpdateSystem>(BulkUpdateSystem)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.BulkUpdate.BulkUpdateSystem>(SuperOffice.CRM.BulkUpdate.BulkUpdateSystem)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of BulkUpdateSystem)(BulkUpdateSystem)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.BulkUpdate.BulkUpdateSystem)(SuperOffice.CRM.BulkUpdate.BulkUpdateSystem)
-  name.vb: GraphCopy(Of BulkUpdateSystem)(BulkUpdateSystem)
+  name: GraphCopy<BulkUpdateSystem>()
+  nameWithType: ObjectExtensions.GraphCopy<BulkUpdateSystem>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.BulkUpdate.BulkUpdateSystem>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of BulkUpdateSystem)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.BulkUpdate.BulkUpdateSystem)()
+  name.vb: GraphCopy(Of BulkUpdateSystem)()
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.BulkUpdate.BulkUpdateSystem)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<BulkUpdateSystem>
+    nameWithType: ObjectExtensions.GraphCopy<BulkUpdateSystem>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.BulkUpdate.BulkUpdateSystem>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem
-    name: BulkUpdateSystem
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem
-    name: BulkUpdateSystem
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.BulkUpdate.BulkUpdateSystem)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of BulkUpdateSystem)
+    nameWithType: ObjectExtensions.GraphCopy(Of BulkUpdateSystem)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.BulkUpdate.BulkUpdateSystem)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem
-    name: BulkUpdateSystem
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<BulkUpdateSystem, To>()
+  nameWithType: Converters.MapEnums<BulkUpdateSystem, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.BulkUpdate.BulkUpdateSystem, To>()
+  nameWithType.vb: Converters.MapEnums(Of BulkUpdateSystem, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.BulkUpdate.BulkUpdateSystem, To)()
+  name.vb: MapEnums(Of BulkUpdateSystem, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<BulkUpdateSystem, To>
+    nameWithType: Converters.MapEnums<BulkUpdateSystem, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.BulkUpdate.BulkUpdateSystem, To>
+    isExternal: true
   - name: (
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem
-    name: BulkUpdateSystem
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of BulkUpdateSystem, To)
+    nameWithType: Converters.MapEnums(Of BulkUpdateSystem, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.BulkUpdate.BulkUpdateSystem, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -1379,93 +1345,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<From, To>(From)
-  nameWithType: Converters.MapEnums<From, To>(From)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
-  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
-  name.vb: MapEnums(Of From, To)(From)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - name: From
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - name: From
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters
-  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
-  parent: SuperOffice.ErpSync.ConnectorWS
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
-  name: Converters
-  nameWithType: Converters
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   name: AssignByReflection<T>(T, T)
   nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
   fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
@@ -1474,46 +1390,56 @@ references:
   name.vb: AssignByReflection(Of T)(T, T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
-  - name: ','
-  - name: " "
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.ObjectExtensions
   commentId: T:SuperOffice.Util.ObjectExtensions
   parent: SuperOffice.Util
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
   name: ObjectExtensions
   nameWithType: ObjectExtensions
   fullName: SuperOffice.Util.ObjectExtensions
 - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   name: GraphCopy<T>(T)
   nameWithType: ObjectExtensions.GraphCopy<T>(T)
   fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
@@ -1522,107 +1448,102 @@ references:
   name.vb: GraphCopy(Of T)(T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS
-  commentId: N:SuperOffice.ErpSync.ConnectorWS
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.ErpSync.ConnectorWS
-  nameWithType: SuperOffice.ErpSync.ConnectorWS
-  fullName: SuperOffice.ErpSync.ConnectorWS
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.IsTableSupported*
   commentId: Overload:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.IsTableSupported
   isExternal: true
-  href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html#SuperOffice_CRM_BulkUpdate_BulkUpdateSystem_IsTableSupported_System_String_
   name: IsTableSupported
   nameWithType: BulkUpdateSystem.IsTableSupported
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.IsTableSupported
@@ -1630,17 +1551,12 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AddUdefFields*
   commentId: Overload:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AddUdefFields
   isExternal: true
-  href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html#SuperOffice_CRM_BulkUpdate_BulkUpdateSystem_AddUdefFields_SuperOffice_Data_UDefType_System_String_System_Collections_Generic_List_SuperOffice_CRM_BulkUpdate_FieldValueInfo___
   name: AddUdefFields
   nameWithType: BulkUpdateSystem.AddUdefFields
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AddUdefFields
@@ -1648,15 +1564,12 @@ references:
   commentId: T:SuperOffice.Data.UDefType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.UDefType.html
   name: UDefType
   nameWithType: UDefType
   fullName: SuperOffice.Data.UDefType
 - uid: System.Collections.Generic.List{SuperOffice.CRM.BulkUpdate.FieldValueInfo}
-  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.BulkUpdate.FieldValueInfo}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.List{SuperOffice.CRM.BulkUpdate.FieldValueInfo}'
   definition: System.Collections.Generic.List`1
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   name: List<FieldValueInfo>
   nameWithType: List<FieldValueInfo>
   fullName: System.Collections.Generic.List<SuperOffice.CRM.BulkUpdate.FieldValueInfo>
@@ -1666,130 +1579,90 @@ references:
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.BulkUpdate.FieldValueInfo
     name: FieldValueInfo
+    nameWithType: FieldValueInfo
+    fullName: SuperOffice.CRM.BulkUpdate.FieldValueInfo
     isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.FieldValueInfo.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.List`1
     name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.BulkUpdate.FieldValueInfo
     name: FieldValueInfo
+    nameWithType: FieldValueInfo
+    fullName: SuperOffice.CRM.BulkUpdate.FieldValueInfo
     isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.FieldValueInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
 - uid: System.Collections.Generic.List`1
-  commentId: T:System.Collections.Generic.List`1
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
-  name: List<T>
-  nameWithType: List<T>
-  fullName: System.Collections.Generic.List<T>
-  nameWithType.vb: List(Of T)
-  fullName.vb: System.Collections.Generic.List(Of T)
-  name.vb: List(Of T)
+  name: List<>
+  nameWithType: List<>
+  fullName: System.Collections.Generic.List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: System.Collections.Generic.List(Of )
+  name.vb: List(Of )
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: <
-  - name: T
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.List`1
     name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AddExtraFields*
   commentId: Overload:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AddExtraFields
   isExternal: true
-  href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html#SuperOffice_CRM_BulkUpdate_BulkUpdateSystem_AddExtraFields_System_String_System_String_System_Collections_Generic_List_SuperOffice_CRM_BulkUpdate_FieldValueInfo___
   name: AddExtraFields
   nameWithType: BulkUpdateSystem.AddExtraFields
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AddExtraFields
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.EncodeActivityLinkJobInfo*
   commentId: Overload:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.EncodeActivityLinkJobInfo
   isExternal: true
-  href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html#SuperOffice_CRM_BulkUpdate_BulkUpdateSystem_EncodeActivityLinkJobInfo_SuperOffice_CRM_BulkUpdate_ActivityLinkJobInfo_
   name: EncodeActivityLinkJobInfo
   nameWithType: BulkUpdateSystem.EncodeActivityLinkJobInfo
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.EncodeActivityLinkJobInfo
@@ -1797,44 +1670,44 @@ references:
   commentId: T:SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo
   parent: SuperOffice.CRM.BulkUpdate
   isExternal: true
-  href: SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo.html
   name: ActivityLinkJobInfo
   nameWithType: ActivityLinkJobInfo
   fullName: SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo
 - uid: System.String[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string[]
-  nameWithType: string[]
-  fullName: string[]
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
   nameWithType.vb: String()
-  fullName.vb: String()
+  fullName.vb: System.String()
   name.vb: String()
   spec.csharp:
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ParseEncodedActivityLinkJobInfo*
   commentId: Overload:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ParseEncodedActivityLinkJobInfo
   isExternal: true
-  href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html#SuperOffice_CRM_BulkUpdate_BulkUpdateSystem_ParseEncodedActivityLinkJobInfo_System_String___
   name: ParseEncodedActivityLinkJobInfo
   nameWithType: BulkUpdateSystem.ParseEncodedActivityLinkJobInfo
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ParseEncodedActivityLinkJobInfo
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ParseEncodedActivityLinkJobInfoOrThrow*
   commentId: Overload:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ParseEncodedActivityLinkJobInfoOrThrow
   isExternal: true
-  href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html#SuperOffice_CRM_BulkUpdate_BulkUpdateSystem_ParseEncodedActivityLinkJobInfoOrThrow_SuperOffice_CRM_BulkUpdate_FieldValueInfo_
   name: ParseEncodedActivityLinkJobInfoOrThrow
   nameWithType: BulkUpdateSystem.ParseEncodedActivityLinkJobInfoOrThrow
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ParseEncodedActivityLinkJobInfoOrThrow
@@ -1842,65 +1715,62 @@ references:
   commentId: T:SuperOffice.CRM.BulkUpdate.FieldValueInfo
   parent: SuperOffice.CRM.BulkUpdate
   isExternal: true
-  href: SuperOffice.CRM.BulkUpdate.FieldValueInfo.html
   name: FieldValueInfo
   nameWithType: FieldValueInfo
   fullName: SuperOffice.CRM.BulkUpdate.FieldValueInfo
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetSearchOptions*
   commentId: Overload:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetSearchOptions
   isExternal: true
-  href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html#SuperOffice_CRM_BulkUpdate_BulkUpdateSystem_GetSearchOptions
   name: GetSearchOptions
   nameWithType: BulkUpdateSystem.GetSearchOptions
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetSearchOptions
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SearchOption[]
   isExternal: true
-  href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SearchOption.html
-  name: SearchOption[]
+  name: BulkUpdateSystem.SearchOption[]
   nameWithType: BulkUpdateSystem.SearchOption[]
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SearchOption[]
   nameWithType.vb: BulkUpdateSystem.SearchOption()
   fullName.vb: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SearchOption()
-  name.vb: SearchOption()
+  name.vb: BulkUpdateSystem.SearchOption()
   spec.csharp:
   - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SearchOption
-    name: SearchOption
+    name: BulkUpdateSystem.SearchOption
+    nameWithType: BulkUpdateSystem.SearchOption
+    fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SearchOption
     isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SearchOption.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SearchOption
-    name: SearchOption
+    name: BulkUpdateSystem.SearchOption
+    nameWithType: BulkUpdateSystem.SearchOption
+    fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SearchOption
     isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SearchOption.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetRegExParams*
   commentId: Overload:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetRegExParams
   isExternal: true
-  href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html#SuperOffice_CRM_BulkUpdate_BulkUpdateSystem_GetRegExParams
   name: GetRegExParams
   nameWithType: BulkUpdateSystem.GetRegExParams
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetRegExParams
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetRegExOptions*
   commentId: Overload:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetRegExOptions
   isExternal: true
-  href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html#SuperOffice_CRM_BulkUpdate_BulkUpdateSystem_GetRegExOptions
   name: GetRegExOptions
   nameWithType: BulkUpdateSystem.GetRegExOptions
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetRegExOptions
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetExtraInfo*
   commentId: Overload:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetExtraInfo
   isExternal: true
-  href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html#SuperOffice_CRM_BulkUpdate_BulkUpdateSystem_GetExtraInfo_System_String_System_String_
   name: GetExtraInfo
   nameWithType: BulkUpdateSystem.GetExtraInfo
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetExtraInfo
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.Serialize*
   commentId: Overload:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.Serialize
   isExternal: true
-  href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html#SuperOffice_CRM_BulkUpdate_BulkUpdateSystem_Serialize_SuperOffice_CRM_BulkUpdate_BulkUpdateSystem_FieldValueStorage_
   name: Serialize
   nameWithType: BulkUpdateSystem.Serialize
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.Serialize
@@ -1908,82 +1778,29 @@ references:
   commentId: T:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldValueStorage
   parent: SuperOffice.CRM.BulkUpdate
   isExternal: true
-  href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
   name: BulkUpdateSystem.FieldValueStorage
   nameWithType: BulkUpdateSystem.FieldValueStorage
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldValueStorage
-  spec.csharp:
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem
-    name: BulkUpdateSystem
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
-  - name: .
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldValueStorage
-    name: FieldValueStorage
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldValueStorage.html
-  spec.vb:
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem
-    name: BulkUpdateSystem
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
-  - name: .
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldValueStorage
-    name: FieldValueStorage
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldValueStorage.html
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.Deserialize*
   commentId: Overload:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.Deserialize
   isExternal: true
-  href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html#SuperOffice_CRM_BulkUpdate_BulkUpdateSystem_Deserialize_System_IO_MemoryStream_
   name: Deserialize
   nameWithType: BulkUpdateSystem.Deserialize
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.Deserialize
 - uid: System.IO.MemoryStream
-  commentId: T:System.IO.MemoryStream
-  parent: System.IO
+  commentId: '!:System.IO.MemoryStream'
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.io.memorystream
   name: MemoryStream
   nameWithType: MemoryStream
   fullName: System.IO.MemoryStream
-- uid: System.IO
-  commentId: N:System.IO
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.IO
-  nameWithType: System.IO
-  fullName: System.IO
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.IO
-    name: IO
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.IO
-    name: IO
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetFieldsFromStorage*
   commentId: Overload:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetFieldsFromStorage
   isExternal: true
-  href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html#SuperOffice_CRM_BulkUpdate_BulkUpdateSystem_GetFieldsFromStorage_System_String_System_String_
   name: GetFieldsFromStorage
   nameWithType: BulkUpdateSystem.GetFieldsFromStorage
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetFieldsFromStorage
 - uid: SuperOffice.CRM.BulkUpdate.FieldValueInfo[]
   isExternal: true
-  href: SuperOffice.CRM.BulkUpdate.FieldValueInfo.html
   name: FieldValueInfo[]
   nameWithType: FieldValueInfo[]
   fullName: SuperOffice.CRM.BulkUpdate.FieldValueInfo[]
@@ -1993,65 +1810,68 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.BulkUpdate.FieldValueInfo
     name: FieldValueInfo
+    nameWithType: FieldValueInfo
+    fullName: SuperOffice.CRM.BulkUpdate.FieldValueInfo
     isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.FieldValueInfo.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.BulkUpdate.FieldValueInfo
     name: FieldValueInfo
+    nameWithType: FieldValueInfo
+    fullName: SuperOffice.CRM.BulkUpdate.FieldValueInfo
     isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.FieldValueInfo.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaveFieldsToStorage*
   commentId: Overload:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaveFieldsToStorage
   isExternal: true
-  href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html#SuperOffice_CRM_BulkUpdate_BulkUpdateSystem_SaveFieldsToStorage_System_String_System_String_SuperOffice_CRM_BulkUpdate_FieldValueInfo___
   name: SaveFieldsToStorage
   nameWithType: BulkUpdateSystem.SaveFieldsToStorage
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaveFieldsToStorage
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.DeleteStorage*
   commentId: Overload:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.DeleteStorage
   isExternal: true
-  href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html#SuperOffice_CRM_BulkUpdate_BulkUpdateSystem_DeleteStorage_System_String_System_String_
   name: DeleteStorage
   nameWithType: BulkUpdateSystem.DeleteStorage
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.DeleteStorage
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.DeleteJobResultStorageItems*
   commentId: Overload:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.DeleteJobResultStorageItems
   isExternal: true
-  href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html#SuperOffice_CRM_BulkUpdate_BulkUpdateSystem_DeleteJobResultStorageItems_System_Int32___
   name: DeleteJobResultStorageItems
   nameWithType: BulkUpdateSystem.DeleteJobResultStorageItems
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.DeleteJobResultStorageItems
 - uid: System.Int32[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int[]
-  nameWithType: int[]
-  fullName: int[]
-  nameWithType.vb: Integer()
-  fullName.vb: Integer()
-  name.vb: Integer()
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
   spec.csharp:
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.CountJobResultStorageItems*
   commentId: Overload:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.CountJobResultStorageItems
   isExternal: true
-  href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html#SuperOffice_CRM_BulkUpdate_BulkUpdateSystem_CountJobResultStorageItems
   name: CountJobResultStorageItems
   nameWithType: BulkUpdateSystem.CountJobResultStorageItems
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.CountJobResultStorageItems
@@ -2059,61 +1879,56 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.HasJobResultStorageItems*
   commentId: Overload:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.HasJobResultStorageItems
   isExternal: true
-  href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html#SuperOffice_CRM_BulkUpdate_BulkUpdateSystem_HasJobResultStorageItems
   name: HasJobResultStorageItems
   nameWithType: BulkUpdateSystem.HasJobResultStorageItems
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.HasJobResultStorageItems
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetJobResultsFromStorageAsJson*
   commentId: Overload:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetJobResultsFromStorageAsJson
   isExternal: true
-  href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html#SuperOffice_CRM_BulkUpdate_BulkUpdateSystem_GetJobResultsFromStorageAsJson
   name: GetJobResultsFromStorageAsJson
   nameWithType: BulkUpdateSystem.GetJobResultsFromStorageAsJson
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetJobResultsFromStorageAsJson
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetJobResultStorageItems*
   commentId: Overload:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetJobResultStorageItems
   isExternal: true
-  href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html#SuperOffice_CRM_BulkUpdate_BulkUpdateSystem_GetJobResultStorageItems
   name: GetJobResultStorageItems
   nameWithType: BulkUpdateSystem.GetJobResultStorageItems
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetJobResultStorageItems
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem[]
   isExternal: true
-  href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem.html
-  name: JobResultStorageItem[]
+  name: BulkUpdateSystem.JobResultStorageItem[]
   nameWithType: BulkUpdateSystem.JobResultStorageItem[]
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem[]
   nameWithType.vb: BulkUpdateSystem.JobResultStorageItem()
   fullName.vb: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem()
-  name.vb: JobResultStorageItem()
+  name.vb: BulkUpdateSystem.JobResultStorageItem()
   spec.csharp:
   - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem
-    name: JobResultStorageItem
+    name: BulkUpdateSystem.JobResultStorageItem
+    nameWithType: BulkUpdateSystem.JobResultStorageItem
+    fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem
     isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem
-    name: JobResultStorageItem
+    name: BulkUpdateSystem.JobResultStorageItem
+    nameWithType: BulkUpdateSystem.JobResultStorageItem
+    fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem
     isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetJobResultLastRun*
   commentId: Overload:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetJobResultLastRun
   isExternal: true
-  href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html#SuperOffice_CRM_BulkUpdate_BulkUpdateSystem_GetJobResultLastRun_System_String_
   name: GetJobResultLastRun
   nameWithType: BulkUpdateSystem.GetJobResultLastRun
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetJobResultLastRun
@@ -2121,107 +1936,72 @@ references:
   commentId: T:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem
   parent: SuperOffice.CRM.BulkUpdate
   isExternal: true
-  href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
   name: BulkUpdateSystem.JobResultStorageItem
   nameWithType: BulkUpdateSystem.JobResultStorageItem
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem
-  spec.csharp:
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem
-    name: BulkUpdateSystem
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
-  - name: .
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem
-    name: JobResultStorageItem
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem.html
-  spec.vb:
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem
-    name: BulkUpdateSystem
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
-  - name: .
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem
-    name: JobResultStorageItem
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem.html
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetJobResultLastRunAsJson*
   commentId: Overload:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetJobResultLastRunAsJson
   isExternal: true
-  href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html#SuperOffice_CRM_BulkUpdate_BulkUpdateSystem_GetJobResultLastRunAsJson_System_String_System_Int32_
   name: GetJobResultLastRunAsJson
   nameWithType: BulkUpdateSystem.GetJobResultLastRunAsJson
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetJobResultLastRunAsJson
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableFields*
   commentId: Overload:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableFields
   isExternal: true
-  href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html#SuperOffice_CRM_BulkUpdate_BulkUpdateSystem_GetAvailableFields_System_String_System_String_
   name: GetAvailableFields
   nameWithType: BulkUpdateSystem.GetAvailableFields
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableFields
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableContactFields*
   commentId: Overload:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableContactFields
   isExternal: true
-  href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html#SuperOffice_CRM_BulkUpdate_BulkUpdateSystem_GetAvailableContactFields_System_Boolean_
   name: GetAvailableContactFields
   nameWithType: BulkUpdateSystem.GetAvailableContactFields
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableContactFields
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailablePersonFields*
   commentId: Overload:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailablePersonFields
   isExternal: true
-  href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html#SuperOffice_CRM_BulkUpdate_BulkUpdateSystem_GetAvailablePersonFields_System_Boolean_
   name: GetAvailablePersonFields
   nameWithType: BulkUpdateSystem.GetAvailablePersonFields
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailablePersonFields
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableProjectFields*
   commentId: Overload:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableProjectFields
   isExternal: true
-  href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html#SuperOffice_CRM_BulkUpdate_BulkUpdateSystem_GetAvailableProjectFields
   name: GetAvailableProjectFields
   nameWithType: BulkUpdateSystem.GetAvailableProjectFields
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableProjectFields
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableSaleFields*
   commentId: Overload:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableSaleFields
   isExternal: true
-  href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html#SuperOffice_CRM_BulkUpdate_BulkUpdateSystem_GetAvailableSaleFields
   name: GetAvailableSaleFields
   nameWithType: BulkUpdateSystem.GetAvailableSaleFields
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableSaleFields
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableAppointmentFields*
   commentId: Overload:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableAppointmentFields
   isExternal: true
-  href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html#SuperOffice_CRM_BulkUpdate_BulkUpdateSystem_GetAvailableAppointmentFields
   name: GetAvailableAppointmentFields
   nameWithType: BulkUpdateSystem.GetAvailableAppointmentFields
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableAppointmentFields
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableDocumentFields*
   commentId: Overload:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableDocumentFields
   isExternal: true
-  href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html#SuperOffice_CRM_BulkUpdate_BulkUpdateSystem_GetAvailableDocumentFields
   name: GetAvailableDocumentFields
   nameWithType: BulkUpdateSystem.GetAvailableDocumentFields
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableDocumentFields
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableSelectionFields*
   commentId: Overload:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableSelectionFields
   isExternal: true
-  href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html#SuperOffice_CRM_BulkUpdate_BulkUpdateSystem_GetAvailableSelectionFields
   name: GetAvailableSelectionFields
   nameWithType: BulkUpdateSystem.GetAvailableSelectionFields
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableSelectionFields
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableTicketFields*
   commentId: Overload:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableTicketFields
   isExternal: true
-  href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html#SuperOffice_CRM_BulkUpdate_BulkUpdateSystem_GetAvailableTicketFields
   name: GetAvailableTicketFields
   nameWithType: BulkUpdateSystem.GetAvailableTicketFields
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.GetAvailableTicketFields
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.#ctor*
   commentId: Overload:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.#ctor
   isExternal: true
-  href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html#SuperOffice_CRM_BulkUpdate_BulkUpdateSystem__ctor
   name: BulkUpdateSystem
   nameWithType: BulkUpdateSystem.BulkUpdateSystem
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BulkUpdateSystem
-  nameWithType.vb: BulkUpdateSystem.New
-  fullName.vb: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.New
-  name.vb: New

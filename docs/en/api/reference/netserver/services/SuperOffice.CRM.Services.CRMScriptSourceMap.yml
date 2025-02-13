@@ -7,8 +7,8 @@ items:
   children:
   - SuperOffice.CRM.Services.CRMScriptSourceMap.#ctor
   - SuperOffice.CRM.Services.CRMScriptSourceMap.Delta
-  - SuperOffice.CRM.Services.CRMScriptSourceMap.IncludeId
   - SuperOffice.CRM.Services.CRMScriptSourceMap.IncludedFrom
+  - SuperOffice.CRM.Services.CRMScriptSourceMap.IncludeId
   - SuperOffice.CRM.Services.CRMScriptSourceMap.LineNumberFrom
   - SuperOffice.CRM.Services.CRMScriptSourceMap.LineNumberTo
   - SuperOffice.CRM.Services.CRMScriptSourceMap.ToString
@@ -20,27 +20,18 @@ items:
   nameWithType: CRMScriptSourceMap
   fullName: SuperOffice.CRM.Services.CRMScriptSourceMap
   type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Object for returning source-map info when validating or executing a CRMScript
-
-    <p></p>
-
-    Carrier object for CRMScriptSourceMap.
-
-    Services for the CRMScriptSourceMap Carrier is available from the <xref href="SuperOffice.CRM.Services.ICRMScriptAgent?text=CRMScript+Agent" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nObject for returning source-map info when validating or executing a CRMScript\n<p></p>\nCarrier object for CRMScriptSourceMap.\nServices for the CRMScriptSourceMap Carrier is available from the <xref href=\"SuperOffice.CRM.Services.ICRMScriptAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public class CRMScriptSourceMap : Carrier
+    content: 'public class CRMScriptSourceMap : Carrier'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
-
-      Public Class CRMScriptSourceMap Inherits Carrier
+      Public Class CRMScriptSourceMap
+          Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.CRMScriptAgent
     commentId: T:SuperOffice.CRM.Services.CRMScriptAgent
@@ -48,14 +39,12 @@ items:
     commentId: T:SuperOffice.CRM.Services.ICRMScriptAgent
   inheritance:
   - System.Object
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.CRMScriptSourceMap.#ctor
   commentId: M:SuperOffice.CRM.Services.CRMScriptSourceMap.#ctor
   id: '#ctor'
@@ -67,18 +56,21 @@ items:
   nameWithType: CRMScriptSourceMap.CRMScriptSourceMap()
   fullName: SuperOffice.CRM.Services.CRMScriptSourceMap.CRMScriptSourceMap()
   type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Default constructor
-  example: []
+  summary: "\nDefault constructor\n"
   syntax:
     content: public CRMScriptSourceMap()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.CRMScriptSourceMap.#ctor*
-  nameWithType.vb: CRMScriptSourceMap.New()
-  fullName.vb: SuperOffice.CRM.Services.CRMScriptSourceMap.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.CRMScriptSourceMap.ToString
   commentId: M:SuperOffice.CRM.Services.CRMScriptSourceMap.ToString
   id: ToString
@@ -90,18 +82,26 @@ items:
   nameWithType: CRMScriptSourceMap.ToString()
   fullName: SuperOffice.CRM.Services.CRMScriptSourceMap.ToString()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the carrier contents as a formatted string.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string.\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString() As String
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.CRM.Services.CRMScriptSourceMap.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Services.CRMScriptSourceMap.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.CRMScriptSourceMap.ToString(System.String)
   id: ToString(System.String)
@@ -109,18 +109,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(string)
-  nameWithType: CRMScriptSourceMap.ToString(string)
-  fullName: SuperOffice.CRM.Services.CRMScriptSourceMap.ToString(string)
+  name: ToString(String)
+  nameWithType: CRMScriptSourceMap.ToString(String)
+  fullName: SuperOffice.CRM.Services.CRMScriptSourceMap.ToString(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Returns the carrier contents as a formatted string, useful for debugging.
-
-    Each line in the output is prefixed with the input value.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -132,9 +131,10 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.CRMScriptSourceMap.ToString*
-  nameWithType.vb: CRMScriptSourceMap.ToString(String)
-  fullName.vb: SuperOffice.CRM.Services.CRMScriptSourceMap.ToString(String)
-  name.vb: ToString(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.CRMScriptSourceMap.LineNumberFrom
   commentId: P:SuperOffice.CRM.Services.CRMScriptSourceMap.LineNumberFrom
   id: LineNumberFrom
@@ -146,28 +146,28 @@ items:
   nameWithType: CRMScriptSourceMap.LineNumberFrom
   fullName: SuperOffice.CRM.Services.CRMScriptSourceMap.LineNumberFrom
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The 1-based start line (inclusive) of this entry
-  example: []
+  summary: "\nThe 1-based start line (inclusive) of this entry \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int LineNumberFrom { get; set; }
+    content: public virtual int LineNumberFrom { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property LineNumberFrom As Integer
+    content.vb: Public Overridable Property LineNumberFrom As Integer
   overload: SuperOffice.CRM.Services.CRMScriptSourceMap.LineNumberFrom*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.CRMScriptSourceMap.LineNumberTo
   commentId: P:SuperOffice.CRM.Services.CRMScriptSourceMap.LineNumberTo
   id: LineNumberTo
@@ -179,28 +179,28 @@ items:
   nameWithType: CRMScriptSourceMap.LineNumberTo
   fullName: SuperOffice.CRM.Services.CRMScriptSourceMap.LineNumberTo
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The 1-based end line (inclusive) of this entry
-  example: []
+  summary: "\nThe 1-based end line (inclusive) of this entry \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int LineNumberTo { get; set; }
+    content: public virtual int LineNumberTo { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property LineNumberTo As Integer
+    content.vb: Public Overridable Property LineNumberTo As Integer
   overload: SuperOffice.CRM.Services.CRMScriptSourceMap.LineNumberTo*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.CRMScriptSourceMap.Delta
   commentId: P:SuperOffice.CRM.Services.CRMScriptSourceMap.Delta
   id: Delta
@@ -212,28 +212,28 @@ items:
   nameWithType: CRMScriptSourceMap.Delta
   fullName: SuperOffice.CRM.Services.CRMScriptSourceMap.Delta
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The delta between global line number and a line number inside this range
-  example: []
+  summary: "\nThe delta between global line number and a line number inside this range \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int Delta { get; set; }
+    content: public virtual int Delta { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Delta As Integer
+    content.vb: Public Overridable Property Delta As Integer
   overload: SuperOffice.CRM.Services.CRMScriptSourceMap.Delta*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.CRMScriptSourceMap.IncludeId
   commentId: P:SuperOffice.CRM.Services.CRMScriptSourceMap.IncludeId
   id: IncludeId
@@ -245,28 +245,28 @@ items:
   nameWithType: CRMScriptSourceMap.IncludeId
   fullName: SuperOffice.CRM.Services.CRMScriptSourceMap.IncludeId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The includeId for this entry
-  example: []
+  summary: "\nThe includeId for this entry \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string IncludeId { get; set; }
+    content: public virtual string IncludeId { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property IncludeId As String
+    content.vb: Public Overridable Property IncludeId As String
   overload: SuperOffice.CRM.Services.CRMScriptSourceMap.IncludeId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.CRMScriptSourceMap.IncludedFrom
   commentId: P:SuperOffice.CRM.Services.CRMScriptSourceMap.IncludedFrom
   id: IncludedFrom
@@ -278,33 +278,38 @@ items:
   nameWithType: CRMScriptSourceMap.IncludedFrom
   fullName: SuperOffice.CRM.Services.CRMScriptSourceMap.IncludedFrom
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The list of IncludeId:linenum that leads to this source
-  example: []
+  summary: "\nThe list of IncludeId:linenum that leads to this source \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string[] IncludedFrom { get; set; }
+    content: public virtual string[] IncludedFrom { get; set; }
     parameters: []
     return:
       type: System.String[]
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property IncludedFrom As String()
+    content.vb: Public Overridable Property IncludedFrom As String()
   overload: SuperOffice.CRM.Services.CRMScriptSourceMap.IncludedFrom*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
 - uid: SuperOffice.CRM.Services.CRMScriptAgent
   commentId: T:SuperOffice.CRM.Services.CRMScriptAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.CRMScriptAgent.html
   name: CRMScriptAgent
   nameWithType: CRMScriptAgent
   fullName: SuperOffice.CRM.Services.CRMScriptAgent
@@ -312,79 +317,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.ICRMScriptAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.ICRMScriptAgent.html
   name: ICRMScriptAgent
   nameWithType: ICRMScriptAgent
   fullName: SuperOffice.CRM.Services.ICRMScriptAgent
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.CRMScriptSourceMap.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.CRMScriptSourceMap.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.CRMScriptSourceMap.html#SuperOffice_CRM_Services_CRMScriptSourceMap__ctor
   name: CRMScriptSourceMap
   nameWithType: CRMScriptSourceMap.CRMScriptSourceMap
   fullName: SuperOffice.CRM.Services.CRMScriptSourceMap.CRMScriptSourceMap
-  nameWithType.vb: CRMScriptSourceMap.New
-  fullName.vb: SuperOffice.CRM.Services.CRMScriptSourceMap.New
-  name.vb: New
 - uid: SuperOffice.CRM.Services.CRMScriptSourceMap.ToString*
   commentId: Overload:SuperOffice.CRM.Services.CRMScriptSourceMap.ToString
   isExternal: true
-  href: SuperOffice.CRM.Services.CRMScriptSourceMap.html#SuperOffice_CRM_Services_CRMScriptSourceMap_ToString
   name: ToString
   nameWithType: CRMScriptSourceMap.ToString
   fullName: SuperOffice.CRM.Services.CRMScriptSourceMap.ToString
@@ -392,17 +336,18 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.CRMScriptSourceMap.LineNumberFrom*
   commentId: Overload:SuperOffice.CRM.Services.CRMScriptSourceMap.LineNumberFrom
   isExternal: true
-  href: SuperOffice.CRM.Services.CRMScriptSourceMap.html#SuperOffice_CRM_Services_CRMScriptSourceMap_LineNumberFrom
   name: LineNumberFrom
   nameWithType: CRMScriptSourceMap.LineNumberFrom
   fullName: SuperOffice.CRM.Services.CRMScriptSourceMap.LineNumberFrom
@@ -410,61 +355,56 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Services.CRMScriptSourceMap.LineNumberTo*
   commentId: Overload:SuperOffice.CRM.Services.CRMScriptSourceMap.LineNumberTo
   isExternal: true
-  href: SuperOffice.CRM.Services.CRMScriptSourceMap.html#SuperOffice_CRM_Services_CRMScriptSourceMap_LineNumberTo
   name: LineNumberTo
   nameWithType: CRMScriptSourceMap.LineNumberTo
   fullName: SuperOffice.CRM.Services.CRMScriptSourceMap.LineNumberTo
 - uid: SuperOffice.CRM.Services.CRMScriptSourceMap.Delta*
   commentId: Overload:SuperOffice.CRM.Services.CRMScriptSourceMap.Delta
   isExternal: true
-  href: SuperOffice.CRM.Services.CRMScriptSourceMap.html#SuperOffice_CRM_Services_CRMScriptSourceMap_Delta
   name: Delta
   nameWithType: CRMScriptSourceMap.Delta
   fullName: SuperOffice.CRM.Services.CRMScriptSourceMap.Delta
 - uid: SuperOffice.CRM.Services.CRMScriptSourceMap.IncludeId*
   commentId: Overload:SuperOffice.CRM.Services.CRMScriptSourceMap.IncludeId
   isExternal: true
-  href: SuperOffice.CRM.Services.CRMScriptSourceMap.html#SuperOffice_CRM_Services_CRMScriptSourceMap_IncludeId
   name: IncludeId
   nameWithType: CRMScriptSourceMap.IncludeId
   fullName: SuperOffice.CRM.Services.CRMScriptSourceMap.IncludeId
 - uid: SuperOffice.CRM.Services.CRMScriptSourceMap.IncludedFrom*
   commentId: Overload:SuperOffice.CRM.Services.CRMScriptSourceMap.IncludedFrom
   isExternal: true
-  href: SuperOffice.CRM.Services.CRMScriptSourceMap.html#SuperOffice_CRM_Services_CRMScriptSourceMap_IncludedFrom
   name: IncludedFrom
   nameWithType: CRMScriptSourceMap.IncludedFrom
   fullName: SuperOffice.CRM.Services.CRMScriptSourceMap.IncludedFrom
 - uid: System.String[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string[]
-  nameWithType: string[]
-  fullName: string[]
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
   nameWithType.vb: String()
-  fullName.vb: String()
+  fullName.vb: System.String()
   name.vb: String()
   spec.csharp:
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()

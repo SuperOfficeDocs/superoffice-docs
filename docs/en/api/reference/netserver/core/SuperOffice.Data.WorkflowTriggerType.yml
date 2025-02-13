@@ -19,44 +19,67 @@ items:
   - SuperOffice.Data.WorkflowTriggerType.SaleLost
   - SuperOffice.Data.WorkflowTriggerType.SaleSold
   - SuperOffice.Data.WorkflowTriggerType.StartedChat
+  - SuperOffice.Data.WorkflowTriggerType.value__
   langs:
   - csharp
   - vb
   name: WorkflowTriggerType
   nameWithType: WorkflowTriggerType
   fullName: SuperOffice.Data.WorkflowTriggerType
-  type: Enum
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: >-
-    Workflow Trigger Type
-
-    This Enum is used by:  workflow_trigger.trigger_type
-  example: []
+  summary: "\nWorkflow Trigger Type\nThis Enum is used by:  workflow_trigger.trigger_type\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public enum WorkflowTriggerType : short
+    content: 'public sealed class WorkflowTriggerType : Enum'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
+      Public NotInheritable Class WorkflowTriggerType
+          Inherits
 
-      Public Enum WorkflowTriggerType As Short
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.WorkflowTriggerType.EnumUtil.MapEnums``2
   - SuperOffice.Data.WorkflowTriggerType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  - SuperOffice.Data.WorkflowTriggerType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.WorkflowTriggerType)
-  - SuperOffice.Data.WorkflowTriggerType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - System.Enum.EnumUtil.GetDescription
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.WorkflowTriggerType.value__
+  commentId: F:SuperOffice.Data.WorkflowTriggerType.value__
+  id: value__
+  parent: SuperOffice.Data.WorkflowTriggerType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: WorkflowTriggerType.value__
+  fullName: SuperOffice.Data.WorkflowTriggerType.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.WorkflowTriggerType.None
   commentId: F:SuperOffice.Data.WorkflowTriggerType.None
   id: None
@@ -68,26 +91,24 @@ items:
   nameWithType: WorkflowTriggerType.None
   fullName: SuperOffice.Data.WorkflowTriggerType.None
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '0: None'
-  example: []
+  summary: "\n0: None\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      None = 0
+    content: public const WorkflowTriggerType None
     return:
       type: SuperOffice.Data.WorkflowTriggerType
-    content.vb: >-
-      <EnumMember>
-
-      None = 0
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const None As WorkflowTriggerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.WorkflowTriggerType.PersonCreated
   commentId: F:SuperOffice.Data.WorkflowTriggerType.PersonCreated
   id: PersonCreated
@@ -99,26 +120,24 @@ items:
   nameWithType: WorkflowTriggerType.PersonCreated
   fullName: SuperOffice.Data.WorkflowTriggerType.PersonCreated
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '1: PersonCreated'
-  example: []
+  summary: "\n1: PersonCreated\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      PersonCreated = 1
+    content: public const WorkflowTriggerType PersonCreated
     return:
       type: SuperOffice.Data.WorkflowTriggerType
-    content.vb: >-
-      <EnumMember>
-
-      PersonCreated = 1
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const PersonCreated As WorkflowTriggerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.WorkflowTriggerType.PersonUpdated
   commentId: F:SuperOffice.Data.WorkflowTriggerType.PersonUpdated
   id: PersonUpdated
@@ -130,26 +149,24 @@ items:
   nameWithType: WorkflowTriggerType.PersonUpdated
   fullName: SuperOffice.Data.WorkflowTriggerType.PersonUpdated
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '2: PersonUpdated'
-  example: []
+  summary: "\n2: PersonUpdated\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      PersonUpdated = 2
+    content: public const WorkflowTriggerType PersonUpdated
     return:
       type: SuperOffice.Data.WorkflowTriggerType
-    content.vb: >-
-      <EnumMember>
-
-      PersonUpdated = 2
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const PersonUpdated As WorkflowTriggerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.WorkflowTriggerType.AddedToProject
   commentId: F:SuperOffice.Data.WorkflowTriggerType.AddedToProject
   id: AddedToProject
@@ -161,26 +178,24 @@ items:
   nameWithType: WorkflowTriggerType.AddedToProject
   fullName: SuperOffice.Data.WorkflowTriggerType.AddedToProject
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '3: AddedToProject'
-  example: []
+  summary: "\n3: AddedToProject\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      AddedToProject = 3
+    content: public const WorkflowTriggerType AddedToProject
     return:
       type: SuperOffice.Data.WorkflowTriggerType
-    content.vb: >-
-      <EnumMember>
-
-      AddedToProject = 3
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const AddedToProject As WorkflowTriggerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.WorkflowTriggerType.CreatedRequest
   commentId: F:SuperOffice.Data.WorkflowTriggerType.CreatedRequest
   id: CreatedRequest
@@ -192,26 +207,24 @@ items:
   nameWithType: WorkflowTriggerType.CreatedRequest
   fullName: SuperOffice.Data.WorkflowTriggerType.CreatedRequest
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '4: CreatedRequest'
-  example: []
+  summary: "\n4: CreatedRequest\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      CreatedRequest = 4
+    content: public const WorkflowTriggerType CreatedRequest
     return:
       type: SuperOffice.Data.WorkflowTriggerType
-    content.vb: >-
-      <EnumMember>
-
-      CreatedRequest = 4
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const CreatedRequest As WorkflowTriggerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.WorkflowTriggerType.LinkClicked
   commentId: F:SuperOffice.Data.WorkflowTriggerType.LinkClicked
   id: LinkClicked
@@ -223,26 +236,24 @@ items:
   nameWithType: WorkflowTriggerType.LinkClicked
   fullName: SuperOffice.Data.WorkflowTriggerType.LinkClicked
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '5: LinkClicked'
-  example: []
+  summary: "\n5: LinkClicked\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      LinkClicked = 5
+    content: public const WorkflowTriggerType LinkClicked
     return:
       type: SuperOffice.Data.WorkflowTriggerType
-    content.vb: >-
-      <EnumMember>
-
-      LinkClicked = 5
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const LinkClicked As WorkflowTriggerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.WorkflowTriggerType.AddedToSelection
   commentId: F:SuperOffice.Data.WorkflowTriggerType.AddedToSelection
   id: AddedToSelection
@@ -254,26 +265,24 @@ items:
   nameWithType: WorkflowTriggerType.AddedToSelection
   fullName: SuperOffice.Data.WorkflowTriggerType.AddedToSelection
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '6: AddedToSelection'
-  example: []
+  summary: "\n6: AddedToSelection\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      AddedToSelection = 6
+    content: public const WorkflowTriggerType AddedToSelection
     return:
       type: SuperOffice.Data.WorkflowTriggerType
-    content.vb: >-
-      <EnumMember>
-
-      AddedToSelection = 6
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const AddedToSelection As WorkflowTriggerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.WorkflowTriggerType.FormSubmitted
   commentId: F:SuperOffice.Data.WorkflowTriggerType.FormSubmitted
   id: FormSubmitted
@@ -285,26 +294,24 @@ items:
   nameWithType: WorkflowTriggerType.FormSubmitted
   fullName: SuperOffice.Data.WorkflowTriggerType.FormSubmitted
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '7: FormSubmitted'
-  example: []
+  summary: "\n7: FormSubmitted\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      FormSubmitted = 7
+    content: public const WorkflowTriggerType FormSubmitted
     return:
       type: SuperOffice.Data.WorkflowTriggerType
-    content.vb: >-
-      <EnumMember>
-
-      FormSubmitted = 7
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const FormSubmitted As WorkflowTriggerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.WorkflowTriggerType.AddedMessage
   commentId: F:SuperOffice.Data.WorkflowTriggerType.AddedMessage
   id: AddedMessage
@@ -316,26 +323,24 @@ items:
   nameWithType: WorkflowTriggerType.AddedMessage
   fullName: SuperOffice.Data.WorkflowTriggerType.AddedMessage
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '8: AddedMessage'
-  example: []
+  summary: "\n8: AddedMessage\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      AddedMessage = 8
+    content: public const WorkflowTriggerType AddedMessage
     return:
       type: SuperOffice.Data.WorkflowTriggerType
-    content.vb: >-
-      <EnumMember>
-
-      AddedMessage = 8
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const AddedMessage As WorkflowTriggerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.WorkflowTriggerType.StartedChat
   commentId: F:SuperOffice.Data.WorkflowTriggerType.StartedChat
   id: StartedChat
@@ -347,26 +352,24 @@ items:
   nameWithType: WorkflowTriggerType.StartedChat
   fullName: SuperOffice.Data.WorkflowTriggerType.StartedChat
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '9: StartedChat'
-  example: []
+  summary: "\n9: StartedChat\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      StartedChat = 9
+    content: public const WorkflowTriggerType StartedChat
     return:
       type: SuperOffice.Data.WorkflowTriggerType
-    content.vb: >-
-      <EnumMember>
-
-      StartedChat = 9
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const StartedChat As WorkflowTriggerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.WorkflowTriggerType.OrderPlaced
   commentId: F:SuperOffice.Data.WorkflowTriggerType.OrderPlaced
   id: OrderPlaced
@@ -378,26 +381,24 @@ items:
   nameWithType: WorkflowTriggerType.OrderPlaced
   fullName: SuperOffice.Data.WorkflowTriggerType.OrderPlaced
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '10: OrderPlaced'
-  example: []
+  summary: "\n10: OrderPlaced\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      OrderPlaced = 10
+    content: public const WorkflowTriggerType OrderPlaced
     return:
       type: SuperOffice.Data.WorkflowTriggerType
-    content.vb: >-
-      <EnumMember>
-
-      OrderPlaced = 10
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const OrderPlaced As WorkflowTriggerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.WorkflowTriggerType.SaleCreated
   commentId: F:SuperOffice.Data.WorkflowTriggerType.SaleCreated
   id: SaleCreated
@@ -409,26 +410,24 @@ items:
   nameWithType: WorkflowTriggerType.SaleCreated
   fullName: SuperOffice.Data.WorkflowTriggerType.SaleCreated
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '11: SaleCreated'
-  example: []
+  summary: "\n11: SaleCreated\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      SaleCreated = 11
+    content: public const WorkflowTriggerType SaleCreated
     return:
       type: SuperOffice.Data.WorkflowTriggerType
-    content.vb: >-
-      <EnumMember>
-
-      SaleCreated = 11
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const SaleCreated As WorkflowTriggerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.WorkflowTriggerType.SaleSold
   commentId: F:SuperOffice.Data.WorkflowTriggerType.SaleSold
   id: SaleSold
@@ -440,26 +439,24 @@ items:
   nameWithType: WorkflowTriggerType.SaleSold
   fullName: SuperOffice.Data.WorkflowTriggerType.SaleSold
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '12: SaleSold'
-  example: []
+  summary: "\n12: SaleSold\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      SaleSold = 12
+    content: public const WorkflowTriggerType SaleSold
     return:
       type: SuperOffice.Data.WorkflowTriggerType
-    content.vb: >-
-      <EnumMember>
-
-      SaleSold = 12
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const SaleSold As WorkflowTriggerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.WorkflowTriggerType.SaleLost
   commentId: F:SuperOffice.Data.WorkflowTriggerType.SaleLost
   id: SaleLost
@@ -471,300 +468,115 @@ items:
   nameWithType: WorkflowTriggerType.SaleLost
   fullName: SuperOffice.Data.WorkflowTriggerType.SaleLost
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '13: SaleLost'
-  example: []
+  summary: "\n13: SaleLost\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      SaleLost = 13
+    content: public const WorkflowTriggerType SaleLost
     return:
       type: SuperOffice.Data.WorkflowTriggerType
-    content.vb: >-
-      <EnumMember>
-
-      SaleLost = 13
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const SaleLost As WorkflowTriggerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.WorkflowTriggerType.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<WorkflowTriggerType, To>(WorkflowTriggerType)
-  nameWithType: EnumUtil.MapEnums<WorkflowTriggerType, To>(WorkflowTriggerType)
-  fullName: EnumUtil.MapEnums<SuperOffice.Data.WorkflowTriggerType, To>(SuperOffice.Data.WorkflowTriggerType)
-  nameWithType.vb: EnumUtil.MapEnums(Of WorkflowTriggerType, To)(WorkflowTriggerType)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.WorkflowTriggerType, To)(SuperOffice.Data.WorkflowTriggerType)
-  name.vb: MapEnums(Of WorkflowTriggerType, To)(WorkflowTriggerType)
+  name: MapEnums<WorkflowTriggerType, To>()
+  nameWithType: EnumUtil.MapEnums<WorkflowTriggerType, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.WorkflowTriggerType, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of WorkflowTriggerType, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.WorkflowTriggerType, To)()
+  name.vb: MapEnums(Of WorkflowTriggerType, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.WorkflowTriggerType)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<WorkflowTriggerType, To>
+    nameWithType: EnumUtil.MapEnums<WorkflowTriggerType, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.WorkflowTriggerType, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.WorkflowTriggerType
-    name: WorkflowTriggerType
-    isExternal: true
-    href: SuperOffice.Data.WorkflowTriggerType.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.WorkflowTriggerType
-    name: WorkflowTriggerType
-    isExternal: true
-    href: SuperOffice.Data.WorkflowTriggerType.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.WorkflowTriggerType)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of WorkflowTriggerType, To)
+    nameWithType: EnumUtil.MapEnums(Of WorkflowTriggerType, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.WorkflowTriggerType, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.WorkflowTriggerType
-    name: WorkflowTriggerType
-    isExternal: true
-    href: SuperOffice.Data.WorkflowTriggerType.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.WorkflowTriggerType
-    name: WorkflowTriggerType
-    isExternal: true
-    href: SuperOffice.Data.WorkflowTriggerType.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.WorkflowTriggerType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<WorkflowTriggerType, To>(WorkflowTriggerType)
-  nameWithType: Converters.MapEnums<WorkflowTriggerType, To>(WorkflowTriggerType)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.WorkflowTriggerType, To>(SuperOffice.Data.WorkflowTriggerType)
-  nameWithType.vb: Converters.MapEnums(Of WorkflowTriggerType, To)(WorkflowTriggerType)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.WorkflowTriggerType, To)(SuperOffice.Data.WorkflowTriggerType)
-  name.vb: MapEnums(Of WorkflowTriggerType, To)(WorkflowTriggerType)
+  name: MapEnums<WorkflowTriggerType, To>()
+  nameWithType: Converters.MapEnums<WorkflowTriggerType, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.WorkflowTriggerType, To>()
+  nameWithType.vb: Converters.MapEnums(Of WorkflowTriggerType, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.WorkflowTriggerType, To)()
+  name.vb: MapEnums(Of WorkflowTriggerType, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.WorkflowTriggerType)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<WorkflowTriggerType, To>
+    nameWithType: Converters.MapEnums<WorkflowTriggerType, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.WorkflowTriggerType, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.WorkflowTriggerType
-    name: WorkflowTriggerType
-    isExternal: true
-    href: SuperOffice.Data.WorkflowTriggerType.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.WorkflowTriggerType
-    name: WorkflowTriggerType
-    isExternal: true
-    href: SuperOffice.Data.WorkflowTriggerType.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.WorkflowTriggerType)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of WorkflowTriggerType, To)
+    nameWithType: Converters.MapEnums(Of WorkflowTriggerType, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.WorkflowTriggerType, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.WorkflowTriggerType
-    name: WorkflowTriggerType
-    isExternal: true
-    href: SuperOffice.Data.WorkflowTriggerType.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.WorkflowTriggerType
-    name: WorkflowTriggerType
-    isExternal: true
-    href: SuperOffice.Data.WorkflowTriggerType.html
-  - name: )
-- uid: SuperOffice.Data.WorkflowTriggerType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.WorkflowTriggerType)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<WorkflowTriggerType>(WorkflowTriggerType, WorkflowTriggerType)
-  nameWithType: ObjectExtensions.AssignByReflection<WorkflowTriggerType>(WorkflowTriggerType, WorkflowTriggerType)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.WorkflowTriggerType>(SuperOffice.Data.WorkflowTriggerType, SuperOffice.Data.WorkflowTriggerType)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of WorkflowTriggerType)(WorkflowTriggerType, WorkflowTriggerType)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.WorkflowTriggerType)(SuperOffice.Data.WorkflowTriggerType, SuperOffice.Data.WorkflowTriggerType)
-  name.vb: AssignByReflection(Of WorkflowTriggerType)(WorkflowTriggerType, WorkflowTriggerType)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.WorkflowTriggerType,SuperOffice.Data.WorkflowTriggerType)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.Data.WorkflowTriggerType
-    name: WorkflowTriggerType
-    isExternal: true
-    href: SuperOffice.Data.WorkflowTriggerType.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Data.WorkflowTriggerType
-    name: WorkflowTriggerType
-    isExternal: true
-    href: SuperOffice.Data.WorkflowTriggerType.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Data.WorkflowTriggerType
-    name: WorkflowTriggerType
-    isExternal: true
-    href: SuperOffice.Data.WorkflowTriggerType.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.WorkflowTriggerType,SuperOffice.Data.WorkflowTriggerType)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.WorkflowTriggerType
-    name: WorkflowTriggerType
-    isExternal: true
-    href: SuperOffice.Data.WorkflowTriggerType.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.Data.WorkflowTriggerType
-    name: WorkflowTriggerType
-    isExternal: true
-    href: SuperOffice.Data.WorkflowTriggerType.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Data.WorkflowTriggerType
-    name: WorkflowTriggerType
-    isExternal: true
-    href: SuperOffice.Data.WorkflowTriggerType.html
-  - name: )
-- uid: SuperOffice.Data.WorkflowTriggerType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<WorkflowTriggerType>(WorkflowTriggerType)
-  nameWithType: ObjectExtensions.GraphCopy<WorkflowTriggerType>(WorkflowTriggerType)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.WorkflowTriggerType>(SuperOffice.Data.WorkflowTriggerType)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of WorkflowTriggerType)(WorkflowTriggerType)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.WorkflowTriggerType)(SuperOffice.Data.WorkflowTriggerType)
-  name.vb: GraphCopy(Of WorkflowTriggerType)(WorkflowTriggerType)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.WorkflowTriggerType)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.Data.WorkflowTriggerType
-    name: WorkflowTriggerType
-    isExternal: true
-    href: SuperOffice.Data.WorkflowTriggerType.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Data.WorkflowTriggerType
-    name: WorkflowTriggerType
-    isExternal: true
-    href: SuperOffice.Data.WorkflowTriggerType.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.WorkflowTriggerType)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.WorkflowTriggerType
-    name: WorkflowTriggerType
-    isExternal: true
-    href: SuperOffice.Data.WorkflowTriggerType.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.Data.WorkflowTriggerType
-    name: WorkflowTriggerType
-    isExternal: true
-    href: SuperOffice.Data.WorkflowTriggerType.html
-  - name: )
-- uid: System.Enum.EnumUtil.GetDescription
-  commentId: M:EnumUtil.GetDescription(System.Enum)
-  parent: EnumUtil
-  definition: EnumUtil.GetDescription(System.Enum)
-  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  name: GetDescription(Enum)
-  nameWithType: EnumUtil.GetDescription(Enum)
-  fullName: EnumUtil.GetDescription(System.Enum)
-  spec.csharp:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
-  spec.vb:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -773,45 +585,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -820,222 +630,58 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: EnumUtil.GetDescription(System.Enum)
-  commentId: M:EnumUtil.GetDescription(System.Enum)
-  isExternal: true
-  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  name: GetDescription(Enum)
-  nameWithType: EnumUtil.GetDescription(Enum)
-  fullName: EnumUtil.GetDescription(System.Enum)
-  spec.csharp:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
-  spec.vb:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.Data.WorkflowTriggerType
   commentId: T:SuperOffice.Data.WorkflowTriggerType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.WorkflowTriggerType.html
   name: WorkflowTriggerType
   nameWithType: WorkflowTriggerType
   fullName: SuperOffice.Data.WorkflowTriggerType

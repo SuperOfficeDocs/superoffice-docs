@@ -8,25 +8,66 @@ items:
   - SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging.ForceOff
   - SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging.ForceOn
   - SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging.NoOpinion
+  - SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging.value__
   langs:
   - csharp
   - vb
   name: BatchSave.TravelTransactionLogging
   nameWithType: BatchSave.TravelTransactionLogging
   fullName: SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging
-  type: Enum
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
   syntax:
-    content: public enum BatchSave.TravelTransactionLogging
-    content.vb: Public Enum BatchSave.TravelTransactionLogging
+    content: 'public sealed class TravelTransactionLogging : Enum'
+    content.vb: >-
+      Public NotInheritable Class TravelTransactionLogging
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging.EnumUtil.MapEnums``2
   - SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  - SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging)
-  - SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - System.Enum.SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.String)
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging.value__
+  commentId: F:SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging.value__
+  id: value__
+  parent: SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: BatchSave.TravelTransactionLogging.value__
+  fullName: SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging.value__
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.SQL
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging.NoOpinion
   commentId: F:SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging.NoOpinion
   id: NoOpinion
@@ -38,13 +79,23 @@ items:
   nameWithType: BatchSave.TravelTransactionLogging.NoOpinion
   fullName: SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging.NoOpinion
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
   syntax:
-    content: NoOpinion = 0
+    content: public const BatchSave.TravelTransactionLogging NoOpinion
     return:
       type: SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging
+    content.vb: Public Const NoOpinion As BatchSave.TravelTransactionLogging
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging.ForceOn
   commentId: F:SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging.ForceOn
   id: ForceOn
@@ -56,13 +107,23 @@ items:
   nameWithType: BatchSave.TravelTransactionLogging.ForceOn
   fullName: SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging.ForceOn
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
   syntax:
-    content: ForceOn = 1
+    content: public const BatchSave.TravelTransactionLogging ForceOn
     return:
       type: SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging
+    content.vb: Public Const ForceOn As BatchSave.TravelTransactionLogging
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging.ForceOff
   commentId: F:SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging.ForceOff
   id: ForceOff
@@ -74,312 +135,114 @@ items:
   nameWithType: BatchSave.TravelTransactionLogging.ForceOff
   fullName: SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging.ForceOff
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
   syntax:
-    content: ForceOff = 2
+    content: public const BatchSave.TravelTransactionLogging ForceOff
     return:
       type: SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging
+    content.vb: Public Const ForceOff As BatchSave.TravelTransactionLogging
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.Data.SQL
   commentId: N:SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.SQL
-    name: SQL
-    isExternal: true
-    href: SuperOffice.Data.SQL.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.SQL
-    name: SQL
-    isExternal: true
-    href: SuperOffice.Data.SQL.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<TravelTransactionLogging, To>(TravelTransactionLogging)
-  nameWithType: EnumUtil.MapEnums<BatchSave.TravelTransactionLogging, To>(BatchSave.TravelTransactionLogging)
-  fullName: EnumUtil.MapEnums<SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging, To>(SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging)
-  nameWithType.vb: EnumUtil.MapEnums(Of BatchSave.TravelTransactionLogging, To)(BatchSave.TravelTransactionLogging)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging, To)(SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging)
-  name.vb: MapEnums(Of TravelTransactionLogging, To)(TravelTransactionLogging)
+  name: MapEnums<BatchSave.TravelTransactionLogging, To>()
+  nameWithType: EnumUtil.MapEnums<BatchSave.TravelTransactionLogging, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of BatchSave.TravelTransactionLogging, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging, To)()
+  name.vb: MapEnums(Of BatchSave.TravelTransactionLogging, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<BatchSave.TravelTransactionLogging, To>
+    nameWithType: EnumUtil.MapEnums<BatchSave.TravelTransactionLogging, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging
-    name: TravelTransactionLogging
-    isExternal: true
-    href: SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging
-    name: TravelTransactionLogging
-    isExternal: true
-    href: SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of BatchSave.TravelTransactionLogging, To)
+    nameWithType: EnumUtil.MapEnums(Of BatchSave.TravelTransactionLogging, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging
-    name: TravelTransactionLogging
-    isExternal: true
-    href: SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging
-    name: TravelTransactionLogging
-    isExternal: true
-    href: SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<TravelTransactionLogging, To>(TravelTransactionLogging)
-  nameWithType: Converters.MapEnums<BatchSave.TravelTransactionLogging, To>(BatchSave.TravelTransactionLogging)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging, To>(SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging)
-  nameWithType.vb: Converters.MapEnums(Of BatchSave.TravelTransactionLogging, To)(BatchSave.TravelTransactionLogging)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging, To)(SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging)
-  name.vb: MapEnums(Of TravelTransactionLogging, To)(TravelTransactionLogging)
+  name: MapEnums<BatchSave.TravelTransactionLogging, To>()
+  nameWithType: Converters.MapEnums<BatchSave.TravelTransactionLogging, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging, To>()
+  nameWithType.vb: Converters.MapEnums(Of BatchSave.TravelTransactionLogging, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging, To)()
+  name.vb: MapEnums(Of BatchSave.TravelTransactionLogging, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<BatchSave.TravelTransactionLogging, To>
+    nameWithType: Converters.MapEnums<BatchSave.TravelTransactionLogging, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging
-    name: TravelTransactionLogging
-    isExternal: true
-    href: SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging
-    name: TravelTransactionLogging
-    isExternal: true
-    href: SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of BatchSave.TravelTransactionLogging, To)
+    nameWithType: Converters.MapEnums(Of BatchSave.TravelTransactionLogging, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging
-    name: TravelTransactionLogging
-    isExternal: true
-    href: SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging
-    name: TravelTransactionLogging
-    isExternal: true
-    href: SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging.html
-  - name: )
-- uid: SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<TravelTransactionLogging>(TravelTransactionLogging, TravelTransactionLogging)
-  nameWithType: ObjectExtensions.AssignByReflection<BatchSave.TravelTransactionLogging>(BatchSave.TravelTransactionLogging, BatchSave.TravelTransactionLogging)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging>(SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging, SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of BatchSave.TravelTransactionLogging)(BatchSave.TravelTransactionLogging, BatchSave.TravelTransactionLogging)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging)(SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging, SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging)
-  name.vb: AssignByReflection(Of TravelTransactionLogging)(TravelTransactionLogging, TravelTransactionLogging)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging,SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging
-    name: TravelTransactionLogging
-    isExternal: true
-    href: SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging
-    name: TravelTransactionLogging
-    isExternal: true
-    href: SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging
-    name: TravelTransactionLogging
-    isExternal: true
-    href: SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging,SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging
-    name: TravelTransactionLogging
-    isExternal: true
-    href: SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging
-    name: TravelTransactionLogging
-    isExternal: true
-    href: SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging
-    name: TravelTransactionLogging
-    isExternal: true
-    href: SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging.html
-  - name: )
-- uid: SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<TravelTransactionLogging>(TravelTransactionLogging)
-  nameWithType: ObjectExtensions.GraphCopy<BatchSave.TravelTransactionLogging>(BatchSave.TravelTransactionLogging)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging>(SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of BatchSave.TravelTransactionLogging)(BatchSave.TravelTransactionLogging)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging)(SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging)
-  name.vb: GraphCopy(Of TravelTransactionLogging)(TravelTransactionLogging)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging
-    name: TravelTransactionLogging
-    isExternal: true
-    href: SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging
-    name: TravelTransactionLogging
-    isExternal: true
-    href: SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging
-    name: TravelTransactionLogging
-    isExternal: true
-    href: SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging
-    name: TravelTransactionLogging
-    isExternal: true
-    href: SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging.html
-  - name: )
-- uid: System.Enum.SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.String)
-  commentId: M:SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.Enum,System.String)
-  parent: SuperOffice.CRM.RegistryExtensions
-  definition: SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.Enum,System.String)
-  href: SuperOffice.CRM.RegistryExtensions.html#SuperOffice_CRM_RegistryExtensions_GetRegistryRow_System_Enum_System_String_
-  name: GetRegistryRow(Enum, string)
-  nameWithType: RegistryExtensions.GetRegistryRow(Enum, string)
-  fullName: SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.Enum, string)
-  nameWithType.vb: RegistryExtensions.GetRegistryRow(Enum, String)
-  fullName.vb: SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.Enum, String)
-  name.vb: GetRegistryRow(Enum, String)
-  spec.csharp:
-  - uid: SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.Enum,System.String)
-    name: GetRegistryRow
-    isExternal: true
-    href: SuperOffice.CRM.RegistryExtensions.html#SuperOffice_CRM_RegistryExtensions_GetRegistryRow_System_Enum_System_String_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.Enum,System.String)
-    name: GetRegistryRow
-    isExternal: true
-    href: SuperOffice.CRM.RegistryExtensions.html#SuperOffice_CRM_RegistryExtensions_GetRegistryRow_System_Enum_System_String_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -388,45 +251,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -435,292 +296,58 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.Enum,System.String)
-  commentId: M:SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.Enum,System.String)
-  isExternal: true
-  href: SuperOffice.CRM.RegistryExtensions.html#SuperOffice_CRM_RegistryExtensions_GetRegistryRow_System_Enum_System_String_
-  name: GetRegistryRow(Enum, string)
-  nameWithType: RegistryExtensions.GetRegistryRow(Enum, string)
-  fullName: SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.Enum, string)
-  nameWithType.vb: RegistryExtensions.GetRegistryRow(Enum, String)
-  fullName.vb: SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.Enum, String)
-  name.vb: GetRegistryRow(Enum, String)
-  spec.csharp:
-  - uid: SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.Enum,System.String)
-    name: GetRegistryRow
-    isExternal: true
-    href: SuperOffice.CRM.RegistryExtensions.html#SuperOffice_CRM_RegistryExtensions_GetRegistryRow_System_Enum_System_String_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.Enum,System.String)
-    name: GetRegistryRow
-    isExternal: true
-    href: SuperOffice.CRM.RegistryExtensions.html#SuperOffice_CRM_RegistryExtensions_GetRegistryRow_System_Enum_System_String_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: SuperOffice.CRM.RegistryExtensions
-  commentId: T:SuperOffice.CRM.RegistryExtensions
-  parent: SuperOffice.CRM
-  isExternal: true
-  href: SuperOffice.CRM.RegistryExtensions.html
-  name: RegistryExtensions
-  nameWithType: RegistryExtensions
-  fullName: SuperOffice.CRM.RegistryExtensions
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-- uid: SuperOffice.CRM
-  commentId: N:SuperOffice.CRM
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM
-  nameWithType: SuperOffice.CRM
-  fullName: SuperOffice.CRM
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging
   commentId: T:SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.BatchSave.html
   name: BatchSave.TravelTransactionLogging
   nameWithType: BatchSave.TravelTransactionLogging
   fullName: SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging
-  spec.csharp:
-  - uid: SuperOffice.Data.SQL.BatchSave
-    name: BatchSave
-    isExternal: true
-    href: SuperOffice.Data.SQL.BatchSave.html
-  - name: .
-  - uid: SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging
-    name: TravelTransactionLogging
-    isExternal: true
-    href: SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging.html
-  spec.vb:
-  - uid: SuperOffice.Data.SQL.BatchSave
-    name: BatchSave
-    isExternal: true
-    href: SuperOffice.Data.SQL.BatchSave.html
-  - name: .
-  - uid: SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging
-    name: TravelTransactionLogging
-    isExternal: true
-    href: SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging.html

@@ -29,29 +29,36 @@ items:
   nameWithType: OrderBy
   fullName: SuperOffice.Data.SQL.OrderBy
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: The OrderBy-class.
-  example: []
+  summary: "\nThe OrderBy-class.\n"
   syntax:
-    content: 'public sealed class OrderBy : ICloneable'
-    content.vb: Public NotInheritable Class OrderBy Implements ICloneable
+    content: 'public sealed class OrderBy : Object, ICloneable'
+    content.vb: >-
+      Public NotInheritable Class OrderBy
+          Inherits Object
+          Implements ICloneable
   inheritance:
   - System.Object
   implements:
   - System.ICloneable
-  inheritedMembers:
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
   extensionMethods:
   - SuperOffice.Data.SQL.OrderBy.EnumUtil.MapEnums``2
-  - SuperOffice.Data.SQL.OrderBy.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.Data.SQL.OrderBy.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.SQL.OrderBy)
   - SuperOffice.Data.SQL.OrderBy.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Data.SQL.OrderBy.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
 - uid: SuperOffice.Data.SQL.OrderBy.Contains(SuperOffice.Data.SQL.Argument)
   commentId: M:SuperOffice.Data.SQL.OrderBy.Contains(SuperOffice.Data.SQL.Argument)
   id: Contains(SuperOffice.Data.SQL.Argument)
@@ -63,6 +70,9 @@ items:
   nameWithType: OrderBy.Contains(Argument)
   fullName: SuperOffice.Data.SQL.OrderBy.Contains(SuperOffice.Data.SQL.Argument)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
@@ -75,6 +85,10 @@ items:
       type: System.Boolean
     content.vb: Public Function Contains(arg As Argument) As Boolean
   overload: SuperOffice.Data.SQL.OrderBy.Contains*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.SQL.OrderBy.#ctor
   commentId: M:SuperOffice.Data.SQL.OrderBy.#ctor
   id: '#ctor'
@@ -86,18 +100,21 @@ items:
   nameWithType: OrderBy.OrderBy()
   fullName: SuperOffice.Data.SQL.OrderBy.OrderBy()
   type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: Initializes a new instance of the <xref href="SuperOffice.Data.SQL.OrderBy" data-throw-if-not-resolved="false"></xref> class.
-  example: []
+  summary: "\nInitializes a new instance of the <xref href=\"SuperOffice.Data.SQL.OrderBy\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
   syntax:
     content: public OrderBy()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.Data.SQL.OrderBy.#ctor*
-  nameWithType.vb: OrderBy.New()
-  fullName.vb: SuperOffice.Data.SQL.OrderBy.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.SQL.OrderBy.#ctor(SuperOffice.Data.SQL.Argument)
   commentId: M:SuperOffice.Data.SQL.OrderBy.#ctor(SuperOffice.Data.SQL.Argument)
   id: '#ctor(SuperOffice.Data.SQL.Argument)'
@@ -109,14 +126,13 @@ items:
   nameWithType: OrderBy.OrderBy(Argument)
   fullName: SuperOffice.Data.SQL.OrderBy.OrderBy(SuperOffice.Data.SQL.Argument)
   type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: >-
-    Initialize a new instance of the  <xref href="SuperOffice.Data.SQL.OrderBy" data-throw-if-not-resolved="false"></xref> class,
-
-    and add the given argument as the first orderby, with ascending order.
-  example: []
+  summary: "\nInitialize a new instance of the  <xref href=\"SuperOffice.Data.SQL.OrderBy\" data-throw-if-not-resolved=\"false\"></xref> class,\nand add the given argument as the first orderby, with ascending order.\n"
   syntax:
     content: public OrderBy(Argument arg)
     parameters:
@@ -125,9 +141,10 @@ items:
       description: Argument to order by
     content.vb: Public Sub New(arg As Argument)
   overload: SuperOffice.Data.SQL.OrderBy.#ctor*
-  nameWithType.vb: OrderBy.New(Argument)
-  fullName.vb: SuperOffice.Data.SQL.OrderBy.New(SuperOffice.Data.SQL.Argument)
-  name.vb: New(Argument)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.SQL.OrderBy.#ctor(SuperOffice.Data.SQL.Argument,SuperOffice.Data.OrderBySortType)
   commentId: M:SuperOffice.Data.SQL.OrderBy.#ctor(SuperOffice.Data.SQL.Argument,SuperOffice.Data.OrderBySortType)
   id: '#ctor(SuperOffice.Data.SQL.Argument,SuperOffice.Data.OrderBySortType)'
@@ -139,14 +156,13 @@ items:
   nameWithType: OrderBy.OrderBy(Argument, OrderBySortType)
   fullName: SuperOffice.Data.SQL.OrderBy.OrderBy(SuperOffice.Data.SQL.Argument, SuperOffice.Data.OrderBySortType)
   type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: >-
-    Initialize a new instance of the  <xref href="SuperOffice.Data.SQL.OrderBy" data-throw-if-not-resolved="false"></xref> class,
-
-    and add the given argument as the first orderby, with the given order.
-  example: []
+  summary: "\nInitialize a new instance of the  <xref href=\"SuperOffice.Data.SQL.OrderBy\" data-throw-if-not-resolved=\"false\"></xref> class,\nand add the given argument as the first orderby, with the given order.\n"
   syntax:
     content: public OrderBy(Argument arg, OrderBySortType type)
     parameters:
@@ -158,9 +174,10 @@ items:
       description: Ascending/descending
     content.vb: Public Sub New(arg As Argument, type As OrderBySortType)
   overload: SuperOffice.Data.SQL.OrderBy.#ctor*
-  nameWithType.vb: OrderBy.New(Argument, OrderBySortType)
-  fullName.vb: SuperOffice.Data.SQL.OrderBy.New(SuperOffice.Data.SQL.Argument, SuperOffice.Data.OrderBySortType)
-  name.vb: New(Argument, OrderBySortType)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.SQL.OrderBy.Add(SuperOffice.Data.SQL.Argument)
   commentId: M:SuperOffice.Data.SQL.OrderBy.Add(SuperOffice.Data.SQL.Argument)
   id: Add(SuperOffice.Data.SQL.Argument)
@@ -172,14 +189,13 @@ items:
   nameWithType: OrderBy.Add(Argument)
   fullName: SuperOffice.Data.SQL.OrderBy.Add(SuperOffice.Data.SQL.Argument)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: >-
-    Will add the in-parameter to the OrderBy collection.
-
-    Default sort order is ascending.
-  example: []
+  summary: "\nWill add the in-parameter to the OrderBy collection.\nDefault sort order is ascending.\n"
   syntax:
     content: public void Add(Argument arg)
     parameters:
@@ -191,7 +207,11 @@ items:
   exceptions:
   - type: SuperOffice.Exceptions.SoIllegalOperationException
     commentId: T:SuperOffice.Exceptions.SoIllegalOperationException
-    description: Thrown if the argument is null, or is a Parameter with a zero length
+    description: "\nThrown if the argument is null, or is a Parameter with a zero length\n"
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.SQL.OrderBy.Add(SuperOffice.Data.SQL.FieldInfo[])
   commentId: M:SuperOffice.Data.SQL.OrderBy.Add(SuperOffice.Data.SQL.FieldInfo[])
   id: Add(SuperOffice.Data.SQL.FieldInfo[])
@@ -203,11 +223,13 @@ items:
   nameWithType: OrderBy.Add(FieldInfo[])
   fullName: SuperOffice.Data.SQL.OrderBy.Add(SuperOffice.Data.SQL.FieldInfo[])
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: Add an array of FieldInfo specifications to the OrderBy collection; sort order will be ascending
-  example: []
+  summary: "\nAdd an array of FieldInfo specifications to the OrderBy collection; sort order will be ascending\n"
   syntax:
     content: public void Add(FieldInfo[] fields)
     parameters:
@@ -217,6 +239,10 @@ items:
     content.vb: Public Sub Add(fields As FieldInfo())
   overload: SuperOffice.Data.SQL.OrderBy.Add*
   nameWithType.vb: OrderBy.Add(FieldInfo())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
   fullName.vb: SuperOffice.Data.SQL.OrderBy.Add(SuperOffice.Data.SQL.FieldInfo())
   name.vb: Add(FieldInfo())
 - uid: SuperOffice.Data.SQL.OrderBy.Add(SuperOffice.Data.SQL.Argument,SuperOffice.Data.OrderBySortType)
@@ -230,14 +256,13 @@ items:
   nameWithType: OrderBy.Add(Argument, OrderBySortType)
   fullName: SuperOffice.Data.SQL.OrderBy.Add(SuperOffice.Data.SQL.Argument, SuperOffice.Data.OrderBySortType)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: >-
-    Will add the in-parameter to the OrderBy collection.
-
-    Sort-order will be set to the in-parameter sortOrder of type OrderBySortType.
-  example: []
+  summary: "\nWill add the in-parameter to the OrderBy collection.\nSort-order will be set to the in-parameter sortOrder of type OrderBySortType.\n"
   syntax:
     content: public void Add(Argument arg, OrderBySortType sortOrder)
     parameters:
@@ -252,7 +277,11 @@ items:
   exceptions:
   - type: SuperOffice.Exceptions.SoIllegalOperationException
     commentId: T:SuperOffice.Exceptions.SoIllegalOperationException
-    description: Thrown if the argument is null, or is a Parameter with a zero length
+    description: "\nThrown if the argument is null, or is a Parameter with a zero length\n"
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.SQL.OrderBy.Add(SuperOffice.Data.SQL.Argument,System.String)
   commentId: M:SuperOffice.Data.SQL.OrderBy.Add(SuperOffice.Data.SQL.Argument,System.String)
   id: Add(SuperOffice.Data.SQL.Argument,System.String)
@@ -260,18 +289,17 @@ items:
   langs:
   - csharp
   - vb
-  name: Add(Argument, string)
-  nameWithType: OrderBy.Add(Argument, string)
-  fullName: SuperOffice.Data.SQL.OrderBy.Add(SuperOffice.Data.SQL.Argument, string)
+  name: Add(Argument, String)
+  nameWithType: OrderBy.Add(Argument, String)
+  fullName: SuperOffice.Data.SQL.OrderBy.Add(SuperOffice.Data.SQL.Argument, System.String)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: >-
-    Will add the in-argument to the OrderBy collection. 
-
-    Sort order will be set to the in-parameter sortOrder.
-  example: []
+  summary: "\nWill add the in-argument to the OrderBy collection. \nSort order will be set to the in-parameter sortOrder.\n"
   syntax:
     content: public void Add(Argument arg, string sortOrder)
     parameters:
@@ -280,16 +308,17 @@ items:
       description: The argument to add to the collection.
     - id: sortOrder
       type: System.String
-      description: 'The sort order: "ASC" or "DESC". Other values will give an Ascending sort, not an exception'
+      description: 'The sort order: &quot;ASC&quot; or &quot;DESC&quot;. Other values will give an Ascending sort, not an exception'
     content.vb: Public Sub Add(arg As Argument, sortOrder As String)
   overload: SuperOffice.Data.SQL.OrderBy.Add*
   exceptions:
   - type: SuperOffice.Exceptions.SoIllegalOperationException
     commentId: T:SuperOffice.Exceptions.SoIllegalOperationException
-    description: Thrown if the argument is null, or is a Parameter with a zero length
-  nameWithType.vb: OrderBy.Add(Argument, String)
-  fullName.vb: SuperOffice.Data.SQL.OrderBy.Add(SuperOffice.Data.SQL.Argument, String)
-  name.vb: Add(Argument, String)
+    description: "\nThrown if the argument is null, or is a Parameter with a zero length\n"
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.SQL.OrderBy.Add(SuperOffice.Data.SQL.OrderBy)
   commentId: M:SuperOffice.Data.SQL.OrderBy.Add(SuperOffice.Data.SQL.OrderBy)
   id: Add(SuperOffice.Data.SQL.OrderBy)
@@ -301,6 +330,9 @@ items:
   nameWithType: OrderBy.Add(OrderBy)
   fullName: SuperOffice.Data.SQL.OrderBy.Add(SuperOffice.Data.SQL.OrderBy)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
@@ -311,6 +343,10 @@ items:
       type: SuperOffice.Data.SQL.OrderBy
     content.vb: Public Sub Add(orderBy As OrderBy)
   overload: SuperOffice.Data.SQL.OrderBy.Add*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.SQL.OrderBy.AggregationExist
   commentId: M:SuperOffice.Data.SQL.OrderBy.AggregationExist
   id: AggregationExist
@@ -322,18 +358,24 @@ items:
   nameWithType: OrderBy.AggregationExist()
   fullName: SuperOffice.Data.SQL.OrderBy.AggregationExist()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: AggregationExist will check the OrderBy collection to see if it contains any Count-Arguments.
-  example: []
+  summary: "\nAggregationExist will check the OrderBy collection to see if it contains any Count-Arguments.\n"
   syntax:
     content: public bool AggregationExist()
     return:
       type: System.Boolean
       description: Returns true if the collection contains a Count-argument, else false.
-    content.vb: Public Function AggregationExist() As Boolean
+    content.vb: Public Function AggregationExist As Boolean
   overload: SuperOffice.Data.SQL.OrderBy.AggregationExist*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.SQL.OrderBy.GetNumberOfItems
   commentId: M:SuperOffice.Data.SQL.OrderBy.GetNumberOfItems
   id: GetNumberOfItems
@@ -345,18 +387,23 @@ items:
   nameWithType: OrderBy.GetNumberOfItems()
   fullName: SuperOffice.Data.SQL.OrderBy.GetNumberOfItems()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: Gets the number of items in the OrderBy collection.
-  example: []
+  summary: "\nGets the number of items in the OrderBy collection.\n"
   syntax:
     content: public long GetNumberOfItems()
     return:
       type: System.Int64
-      description: ''
-    content.vb: Public Function GetNumberOfItems() As Long
+    content.vb: Public Function GetNumberOfItems As Long
   overload: SuperOffice.Data.SQL.OrderBy.GetNumberOfItems*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.SQL.OrderBy.Clear
   commentId: M:SuperOffice.Data.SQL.OrderBy.Clear
   id: Clear
@@ -368,15 +415,21 @@ items:
   nameWithType: OrderBy.Clear()
   fullName: SuperOffice.Data.SQL.OrderBy.Clear()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: Clear the orderby collection/clause completely
-  example: []
+  summary: "\nClear the orderby collection/clause completely\n"
   syntax:
     content: public void Clear()
-    content.vb: Public Sub Clear()
+    content.vb: Public Sub Clear
   overload: SuperOffice.Data.SQL.OrderBy.Clear*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.SQL.OrderBy.Clone
   commentId: M:SuperOffice.Data.SQL.OrderBy.Clone
   id: Clone
@@ -388,20 +441,24 @@ items:
   nameWithType: OrderBy.Clone()
   fullName: SuperOffice.Data.SQL.OrderBy.Clone()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: Return copy of the OrderBy clause.
-  example: []
+  summary: "\nReturn copy of the OrderBy clause.\n"
   syntax:
     content: public object Clone()
     return:
       type: System.Object
       description: Copy of the order-by sequence
-    content.vb: Public Function Clone() As Object
+    content.vb: Public Function Clone As Object
   overload: SuperOffice.Data.SQL.OrderBy.Clone*
-  implements:
-  - System.ICloneable.Clone
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.SQL.OrderBy.ToString
   commentId: M:SuperOffice.Data.SQL.OrderBy.ToString
   id: ToString
@@ -413,19 +470,26 @@ items:
   nameWithType: OrderBy.ToString()
   fullName: SuperOffice.Data.SQL.OrderBy.ToString()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: String output.
-  example: []
+  summary: "\nString output.\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: ORDER BY ...
-    content.vb: Public Overrides Function ToString() As String
-  overridden: System.Object.ToString
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.Data.SQL.OrderBy.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.Data.SQL.OrderBy.SortOrder
   commentId: P:SuperOffice.Data.SQL.OrderBy.SortOrder
   id: SortOrder
@@ -437,11 +501,13 @@ items:
   nameWithType: OrderBy.SortOrder
   fullName: SuperOffice.Data.SQL.OrderBy.SortOrder
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: Get-method for the OrderBy-collection.
-  example: []
+  summary: "\nGet-method for the OrderBy-collection.\n"
   syntax:
     content: public Dictionary<Argument, OrderBySortType> SortOrder { get; }
     parameters: []
@@ -449,6 +515,12 @@ items:
       type: System.Collections.Generic.Dictionary{SuperOffice.Data.SQL.Argument,SuperOffice.Data.OrderBySortType}
     content.vb: Public ReadOnly Property SortOrder As Dictionary(Of Argument, OrderBySortType)
   overload: SuperOffice.Data.SQL.OrderBy.SortOrder*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.SQL.OrderBy.Count
   commentId: P:SuperOffice.Data.SQL.OrderBy.Count
   id: Count
@@ -460,11 +532,13 @@ items:
   nameWithType: OrderBy.Count
   fullName: SuperOffice.Data.SQL.OrderBy.Count
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: Gets number of OrderBy
-  example: []
+  summary: "\nGets number of OrderBy\n"
   syntax:
     content: public int Count { get; }
     parameters: []
@@ -472,6 +546,12 @@ items:
       type: System.Int32
     content.vb: Public ReadOnly Property Count As Integer
   overload: SuperOffice.Data.SQL.OrderBy.Count*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.SQL.OrderBy.Argument
   commentId: P:SuperOffice.Data.SQL.OrderBy.Argument
   id: Argument
@@ -483,11 +563,13 @@ items:
   nameWithType: OrderBy.Argument
   fullName: SuperOffice.Data.SQL.OrderBy.Argument
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: Returns the FieldInfo-collection
-  example: []
+  summary: "\nReturns the FieldInfo-collection\n"
   syntax:
     content: public ICollection Argument { get; }
     parameters: []
@@ -496,457 +578,186 @@ items:
       description: The argument.
     content.vb: Public ReadOnly Property Argument As ICollection
   overload: SuperOffice.Data.SQL.OrderBy.Argument*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 references:
 - uid: SuperOffice.Data.SQL
   commentId: N:SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.SQL
-    name: SQL
-    isExternal: true
-    href: SuperOffice.Data.SQL.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.SQL
-    name: SQL
-    isExternal: true
-    href: SuperOffice.Data.SQL.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: System.ICloneable
-  commentId: T:System.ICloneable
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.icloneable
   name: ICloneable
   nameWithType: ICloneable
   fullName: System.ICloneable
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
 - uid: SuperOffice.Data.SQL.OrderBy.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<OrderBy, To>(OrderBy)
-  nameWithType: EnumUtil.MapEnums<OrderBy, To>(OrderBy)
-  fullName: EnumUtil.MapEnums<SuperOffice.Data.SQL.OrderBy, To>(SuperOffice.Data.SQL.OrderBy)
-  nameWithType.vb: EnumUtil.MapEnums(Of OrderBy, To)(OrderBy)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.SQL.OrderBy, To)(SuperOffice.Data.SQL.OrderBy)
-  name.vb: MapEnums(Of OrderBy, To)(OrderBy)
+  name: MapEnums<OrderBy, To>()
+  nameWithType: EnumUtil.MapEnums<OrderBy, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.SQL.OrderBy, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of OrderBy, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.SQL.OrderBy, To)()
+  name.vb: MapEnums(Of OrderBy, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.SQL.OrderBy)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<OrderBy, To>
+    nameWithType: EnumUtil.MapEnums<OrderBy, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.SQL.OrderBy, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.SQL.OrderBy
-    name: OrderBy
-    isExternal: true
-    href: SuperOffice.Data.SQL.OrderBy.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.SQL.OrderBy
-    name: OrderBy
-    isExternal: true
-    href: SuperOffice.Data.SQL.OrderBy.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.SQL.OrderBy)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of OrderBy, To)
+    nameWithType: EnumUtil.MapEnums(Of OrderBy, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.SQL.OrderBy, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.SQL.OrderBy
-    name: OrderBy
-    isExternal: true
-    href: SuperOffice.Data.SQL.OrderBy.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.SQL.OrderBy
-    name: OrderBy
-    isExternal: true
-    href: SuperOffice.Data.SQL.OrderBy.html
-  - name: )
-- uid: SuperOffice.Data.SQL.OrderBy.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  parent: SuperOffice.ErpSync.ConnectorWS.Converters
-  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<OrderBy, To>(OrderBy)
-  nameWithType: Converters.MapEnums<OrderBy, To>(OrderBy)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.SQL.OrderBy, To>(SuperOffice.Data.SQL.OrderBy)
-  nameWithType.vb: Converters.MapEnums(Of OrderBy, To)(OrderBy)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.SQL.OrderBy, To)(SuperOffice.Data.SQL.OrderBy)
-  name.vb: MapEnums(Of OrderBy, To)(OrderBy)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.SQL.OrderBy)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.SQL.OrderBy
-    name: OrderBy
-    isExternal: true
-    href: SuperOffice.Data.SQL.OrderBy.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Data.SQL.OrderBy
-    name: OrderBy
-    isExternal: true
-    href: SuperOffice.Data.SQL.OrderBy.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.SQL.OrderBy)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.SQL.OrderBy
-    name: OrderBy
-    isExternal: true
-    href: SuperOffice.Data.SQL.OrderBy.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.Data.SQL.OrderBy
-    name: OrderBy
-    isExternal: true
-    href: SuperOffice.Data.SQL.OrderBy.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.OrderBy.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.SQL.OrderBy)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<OrderBy>(OrderBy, OrderBy)
-  nameWithType: ObjectExtensions.AssignByReflection<OrderBy>(OrderBy, OrderBy)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.SQL.OrderBy>(SuperOffice.Data.SQL.OrderBy, SuperOffice.Data.SQL.OrderBy)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of OrderBy)(OrderBy, OrderBy)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.SQL.OrderBy)(SuperOffice.Data.SQL.OrderBy, SuperOffice.Data.SQL.OrderBy)
-  name.vb: AssignByReflection(Of OrderBy)(OrderBy, OrderBy)
+  name: AssignByReflection<OrderBy>(OrderBy)
+  nameWithType: ObjectExtensions.AssignByReflection<OrderBy>(OrderBy)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.SQL.OrderBy>(SuperOffice.Data.SQL.OrderBy)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of OrderBy)(OrderBy)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.SQL.OrderBy)(SuperOffice.Data.SQL.OrderBy)
+  name.vb: AssignByReflection(Of OrderBy)(OrderBy)
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.SQL.OrderBy,SuperOffice.Data.SQL.OrderBy)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<OrderBy>
+    nameWithType: ObjectExtensions.AssignByReflection<OrderBy>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.SQL.OrderBy>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.Data.SQL.OrderBy
-    name: OrderBy
-    isExternal: true
-    href: SuperOffice.Data.SQL.OrderBy.html
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.OrderBy
     name: OrderBy
+    nameWithType: OrderBy
+    fullName: SuperOffice.Data.SQL.OrderBy
     isExternal: true
-    href: SuperOffice.Data.SQL.OrderBy.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Data.SQL.OrderBy
-    name: OrderBy
-    isExternal: true
-    href: SuperOffice.Data.SQL.OrderBy.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.SQL.OrderBy,SuperOffice.Data.SQL.OrderBy)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of OrderBy)
+    nameWithType: ObjectExtensions.AssignByReflection(Of OrderBy)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.SQL.OrderBy)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.OrderBy
     name: OrderBy
+    nameWithType: OrderBy
+    fullName: SuperOffice.Data.SQL.OrderBy
     isExternal: true
-    href: SuperOffice.Data.SQL.OrderBy.html
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.SQL.OrderBy
-    name: OrderBy
-    isExternal: true
-    href: SuperOffice.Data.SQL.OrderBy.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Data.SQL.OrderBy
-    name: OrderBy
-    isExternal: true
-    href: SuperOffice.Data.SQL.OrderBy.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.OrderBy.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<OrderBy>(OrderBy)
-  nameWithType: ObjectExtensions.GraphCopy<OrderBy>(OrderBy)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.SQL.OrderBy>(SuperOffice.Data.SQL.OrderBy)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of OrderBy)(OrderBy)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.SQL.OrderBy)(SuperOffice.Data.SQL.OrderBy)
-  name.vb: GraphCopy(Of OrderBy)(OrderBy)
+  name: GraphCopy<OrderBy>()
+  nameWithType: ObjectExtensions.GraphCopy<OrderBy>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.SQL.OrderBy>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of OrderBy)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.SQL.OrderBy)()
+  name.vb: GraphCopy(Of OrderBy)()
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.SQL.OrderBy)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<OrderBy>
+    nameWithType: ObjectExtensions.GraphCopy<OrderBy>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.SQL.OrderBy>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.Data.SQL.OrderBy
-    name: OrderBy
-    isExternal: true
-    href: SuperOffice.Data.SQL.OrderBy.html
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.SQL.OrderBy
-    name: OrderBy
-    isExternal: true
-    href: SuperOffice.Data.SQL.OrderBy.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.SQL.OrderBy)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of OrderBy)
+    nameWithType: ObjectExtensions.GraphCopy(Of OrderBy)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.SQL.OrderBy)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.SQL.OrderBy
-    name: OrderBy
-    isExternal: true
-    href: SuperOffice.Data.SQL.OrderBy.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.OrderBy.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<OrderBy, To>()
+  nameWithType: Converters.MapEnums<OrderBy, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.SQL.OrderBy, To>()
+  nameWithType.vb: Converters.MapEnums(Of OrderBy, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.SQL.OrderBy, To)()
+  name.vb: MapEnums(Of OrderBy, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<OrderBy, To>
+    nameWithType: Converters.MapEnums<OrderBy, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.SQL.OrderBy, To>
+    isExternal: true
   - name: (
-  - uid: SuperOffice.Data.SQL.OrderBy
-    name: OrderBy
-    isExternal: true
-    href: SuperOffice.Data.SQL.OrderBy.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of OrderBy, To)
+    nameWithType: Converters.MapEnums(Of OrderBy, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.SQL.OrderBy, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -955,93 +766,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<From, To>(From)
-  nameWithType: Converters.MapEnums<From, To>(From)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
-  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
-  name.vb: MapEnums(Of From, To)(From)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - name: From
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - name: From
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters
-  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
-  parent: SuperOffice.ErpSync.ConnectorWS
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
-  name: Converters
-  nameWithType: Converters
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   name: AssignByReflection<T>(T, T)
   nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
   fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
@@ -1050,46 +811,56 @@ references:
   name.vb: AssignByReflection(Of T)(T, T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
-  - name: ','
-  - name: " "
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.ObjectExtensions
   commentId: T:SuperOffice.Util.ObjectExtensions
   parent: SuperOffice.Util
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
   name: ObjectExtensions
   nameWithType: ObjectExtensions
   fullName: SuperOffice.Util.ObjectExtensions
 - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   name: GraphCopy<T>(T)
   nameWithType: ObjectExtensions.GraphCopy<T>(T)
   fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
@@ -1098,96 +869,95 @@ references:
   name.vb: GraphCopy(Of T)(T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS
-  commentId: N:SuperOffice.ErpSync.ConnectorWS
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.ErpSync.ConnectorWS
-  nameWithType: SuperOffice.ErpSync.ConnectorWS
-  fullName: SuperOffice.ErpSync.ConnectorWS
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
 - uid: SuperOffice.Data.SQL.OrderBy.Contains*
   commentId: Overload:SuperOffice.Data.SQL.OrderBy.Contains
   isExternal: true
-  href: SuperOffice.Data.SQL.OrderBy.html#SuperOffice_Data_SQL_OrderBy_Contains_SuperOffice_Data_SQL_Argument_
   name: Contains
   nameWithType: OrderBy.Contains
   fullName: SuperOffice.Data.SQL.OrderBy.Contains
@@ -1195,7 +965,6 @@ references:
   commentId: T:SuperOffice.Data.SQL.Argument
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.Argument.html
   name: Argument
   nameWithType: Argument
   fullName: SuperOffice.Data.SQL.Argument
@@ -1203,83 +972,42 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
-- uid: SuperOffice.Data.SQL.OrderBy
-  commentId: T:SuperOffice.Data.SQL.OrderBy
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  href: SuperOffice.Data.SQL.OrderBy.html
-  name: OrderBy
-  nameWithType: OrderBy
-  fullName: SuperOffice.Data.SQL.OrderBy
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.Data.SQL.OrderBy.#ctor*
   commentId: Overload:SuperOffice.Data.SQL.OrderBy.#ctor
   isExternal: true
-  href: SuperOffice.Data.SQL.OrderBy.html#SuperOffice_Data_SQL_OrderBy__ctor
   name: OrderBy
   nameWithType: OrderBy.OrderBy
   fullName: SuperOffice.Data.SQL.OrderBy.OrderBy
-  nameWithType.vb: OrderBy.New
-  fullName.vb: SuperOffice.Data.SQL.OrderBy.New
-  name.vb: New
 - uid: SuperOffice.Data.OrderBySortType
   commentId: T:SuperOffice.Data.OrderBySortType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.OrderBySortType.html
   name: OrderBySortType
   nameWithType: OrderBySortType
   fullName: SuperOffice.Data.OrderBySortType
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-- uid: SuperOffice.Exceptions.SoIllegalOperationException
-  commentId: T:SuperOffice.Exceptions.SoIllegalOperationException
-  isExternal: true
-  href: SuperOffice.Exceptions.SoIllegalOperationException.html
-  name: SoIllegalOperationException
-  nameWithType: SoIllegalOperationException
-  fullName: SuperOffice.Exceptions.SoIllegalOperationException
 - uid: SuperOffice.Data.SQL.OrderBy.Add*
   commentId: Overload:SuperOffice.Data.SQL.OrderBy.Add
   isExternal: true
-  href: SuperOffice.Data.SQL.OrderBy.html#SuperOffice_Data_SQL_OrderBy_Add_SuperOffice_Data_SQL_Argument_
   name: Add
   nameWithType: OrderBy.Add
   fullName: SuperOffice.Data.SQL.OrderBy.Add
+- uid: SuperOffice.Exceptions.SoIllegalOperationException
+  commentId: T:SuperOffice.Exceptions.SoIllegalOperationException
+  isExternal: true
+  name: SoIllegalOperationException
+  nameWithType: SoIllegalOperationException
+  fullName: SuperOffice.Exceptions.SoIllegalOperationException
 - uid: SuperOffice.Data.SQL.FieldInfo[]
   isExternal: true
-  href: SuperOffice.Data.SQL.FieldInfo.html
   name: FieldInfo[]
   nameWithType: FieldInfo[]
   fullName: SuperOffice.Data.SQL.FieldInfo[]
@@ -1289,39 +1017,44 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.FieldInfo
     name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
     isExternal: true
-    href: SuperOffice.Data.SQL.FieldInfo.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.Data.SQL.FieldInfo
     name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
     isExternal: true
-    href: SuperOffice.Data.SQL.FieldInfo.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Data.SQL.OrderBy
+  commentId: T:SuperOffice.Data.SQL.OrderBy
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: OrderBy
+  nameWithType: OrderBy
+  fullName: SuperOffice.Data.SQL.OrderBy
 - uid: SuperOffice.Data.SQL.OrderBy.AggregationExist*
   commentId: Overload:SuperOffice.Data.SQL.OrderBy.AggregationExist
   isExternal: true
-  href: SuperOffice.Data.SQL.OrderBy.html#SuperOffice_Data_SQL_OrderBy_AggregationExist
   name: AggregationExist
   nameWithType: OrderBy.AggregationExist
   fullName: SuperOffice.Data.SQL.OrderBy.AggregationExist
 - uid: SuperOffice.Data.SQL.OrderBy.GetNumberOfItems*
   commentId: Overload:SuperOffice.Data.SQL.OrderBy.GetNumberOfItems
   isExternal: true
-  href: SuperOffice.Data.SQL.OrderBy.html#SuperOffice_Data_SQL_OrderBy_GetNumberOfItems
   name: GetNumberOfItems
   nameWithType: OrderBy.GetNumberOfItems
   fullName: SuperOffice.Data.SQL.OrderBy.GetNumberOfItems
@@ -1329,92 +1062,36 @@ references:
   commentId: T:System.Int64
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int64
-  name: long
-  nameWithType: long
-  fullName: long
-  nameWithType.vb: Long
-  fullName.vb: Long
-  name.vb: Long
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
 - uid: SuperOffice.Data.SQL.OrderBy.Clear*
   commentId: Overload:SuperOffice.Data.SQL.OrderBy.Clear
   isExternal: true
-  href: SuperOffice.Data.SQL.OrderBy.html#SuperOffice_Data_SQL_OrderBy_Clear
   name: Clear
   nameWithType: OrderBy.Clear
   fullName: SuperOffice.Data.SQL.OrderBy.Clear
 - uid: SuperOffice.Data.SQL.OrderBy.Clone*
   commentId: Overload:SuperOffice.Data.SQL.OrderBy.Clone
   isExternal: true
-  href: SuperOffice.Data.SQL.OrderBy.html#SuperOffice_Data_SQL_OrderBy_Clone
   name: Clone
   nameWithType: OrderBy.Clone
   fullName: SuperOffice.Data.SQL.OrderBy.Clone
-- uid: System.ICloneable.Clone
-  commentId: M:System.ICloneable.Clone
-  parent: System.ICloneable
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.icloneable.clone
-  name: Clone()
-  nameWithType: ICloneable.Clone()
-  fullName: System.ICloneable.Clone()
-  spec.csharp:
-  - uid: System.ICloneable.Clone
-    name: Clone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.icloneable.clone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.ICloneable.Clone
-    name: Clone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.icloneable.clone
-  - name: (
-  - name: )
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
 - uid: SuperOffice.Data.SQL.OrderBy.ToString*
   commentId: Overload:SuperOffice.Data.SQL.OrderBy.ToString
   isExternal: true
-  href: SuperOffice.Data.SQL.OrderBy.html#SuperOffice_Data_SQL_OrderBy_ToString
   name: ToString
   nameWithType: OrderBy.ToString
   fullName: SuperOffice.Data.SQL.OrderBy.ToString
 - uid: SuperOffice.Data.SQL.OrderBy.SortOrder*
   commentId: Overload:SuperOffice.Data.SQL.OrderBy.SortOrder
   isExternal: true
-  href: SuperOffice.Data.SQL.OrderBy.html#SuperOffice_Data_SQL_OrderBy_SortOrder
   name: SortOrder
   nameWithType: OrderBy.SortOrder
   fullName: SuperOffice.Data.SQL.OrderBy.SortOrder
 - uid: System.Collections.Generic.Dictionary{SuperOffice.Data.SQL.Argument,SuperOffice.Data.OrderBySortType}
-  commentId: T:System.Collections.Generic.Dictionary{SuperOffice.Data.SQL.Argument,SuperOffice.Data.OrderBySortType}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.Dictionary{SuperOffice.Data.SQL.Argument,SuperOffice.Data.OrderBySortType}'
   definition: System.Collections.Generic.Dictionary`2
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
   name: Dictionary<Argument, OrderBySortType>
   nameWithType: Dictionary<Argument, OrderBySortType>
   fullName: System.Collections.Generic.Dictionary<SuperOffice.Data.SQL.Argument, SuperOffice.Data.OrderBySortType>
@@ -1424,112 +1101,106 @@ references:
   spec.csharp:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.Data.SQL.Argument
     name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.Data.OrderBySortType
     name: OrderBySortType
+    nameWithType: OrderBySortType
+    fullName: SuperOffice.Data.OrderBySortType
     isExternal: true
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.Data.SQL.Argument
     name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.Data.OrderBySortType
     name: OrderBySortType
+    nameWithType: OrderBySortType
+    fullName: SuperOffice.Data.OrderBySortType
     isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Collections.Generic.Dictionary`2
-  commentId: T:System.Collections.Generic.Dictionary`2
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
-  name: Dictionary<TKey, TValue>
-  nameWithType: Dictionary<TKey, TValue>
-  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
-  nameWithType.vb: Dictionary(Of TKey, TValue)
-  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
-  name.vb: Dictionary(Of TKey, TValue)
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: System.Collections.Generic.Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: System.Collections.Generic.Dictionary(Of , )
+  name.vb: Dictionary(Of , )
   spec.csharp:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
   - name: <
-  - name: TKey
-  - name: ','
-  - name: " "
-  - name: TValue
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TKey
-  - name: ','
-  - name: " "
-  - name: TValue
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.OrderBy.Count*
   commentId: Overload:SuperOffice.Data.SQL.OrderBy.Count
   isExternal: true
-  href: SuperOffice.Data.SQL.OrderBy.html#SuperOffice_Data_SQL_OrderBy_Count
   name: Count
   nameWithType: OrderBy.Count
   fullName: SuperOffice.Data.SQL.OrderBy.Count
@@ -1537,52 +1208,17 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.Data.SQL.OrderBy.Argument*
   commentId: Overload:SuperOffice.Data.SQL.OrderBy.Argument
   isExternal: true
-  href: SuperOffice.Data.SQL.OrderBy.html#SuperOffice_Data_SQL_OrderBy_Argument
   name: Argument
   nameWithType: OrderBy.Argument
   fullName: SuperOffice.Data.SQL.OrderBy.Argument
 - uid: System.Collections.ICollection
-  commentId: T:System.Collections.ICollection
-  parent: System.Collections
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.icollection
   name: ICollection
   nameWithType: ICollection
   fullName: System.Collections.ICollection
-- uid: System.Collections
-  commentId: N:System.Collections
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Collections
-  nameWithType: System.Collections
-  fullName: System.Collections
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections

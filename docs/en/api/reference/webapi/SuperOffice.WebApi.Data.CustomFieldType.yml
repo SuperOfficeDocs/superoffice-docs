@@ -21,21 +21,64 @@ items:
   - SuperOffice.WebApi.Data.CustomFieldType.Time
   - SuperOffice.WebApi.Data.CustomFieldType.TimeSpan
   - SuperOffice.WebApi.Data.CustomFieldType.Unknown
+  - SuperOffice.WebApi.Data.CustomFieldType.value__
   langs:
   - csharp
   - vb
   name: CustomFieldType
   nameWithType: CustomFieldType
   fullName: SuperOffice.WebApi.Data.CustomFieldType
-  type: Enum
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: 'Custom Field type: 1 = Number, 2 = Short text, 3 = Long text, 4 = Date, 5 = Unlimited date, 6 = Checkbox, 7 = Drop-down listbox, 8 = Decimal, 9 = DateTime, 10 = Time, 11 = TimeSpan, 12 = Relation, 13 = Attachment'
-  example: []
+  summary: "\nCustom Field type: 1 = Number, 2 = Short text, 3 = Long text, 4 = Date, 5 = Unlimited date, 6 = Checkbox, 7 = Drop-down listbox, 8 = Decimal, 9 = DateTime, 10 = Time, 11 = TimeSpan, 12 = Relation, 13 = Attachment\n"
   syntax:
-    content: public enum CustomFieldType
-    content.vb: Public Enum CustomFieldType
+    content: 'public sealed class CustomFieldType : Enum'
+    content.vb: >-
+      Public NotInheritable Class CustomFieldType
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.CustomFieldType.value__
+  commentId: F:SuperOffice.WebApi.Data.CustomFieldType.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.CustomFieldType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: CustomFieldType.value__
+  fullName: SuperOffice.WebApi.Data.CustomFieldType.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.CustomFieldType.Unknown
   commentId: F:SuperOffice.WebApi.Data.CustomFieldType.Unknown
   id: Unknown
@@ -47,26 +90,24 @@ items:
   nameWithType: CustomFieldType.Unknown
   fullName: SuperOffice.WebApi.Data.CustomFieldType.Unknown
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '0: Unknown/Undefined field type: 0'
-  example: []
+  summary: "\n0: Unknown/Undefined field type: 0\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Unknown = 0
+    content: public const CustomFieldType Unknown
     return:
       type: SuperOffice.WebApi.Data.CustomFieldType
-    content.vb: >-
-      <EnumMember>
-
-      Unknown = 0
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Unknown As CustomFieldType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.CustomFieldType.Integer
   commentId: F:SuperOffice.WebApi.Data.CustomFieldType.Integer
   id: Integer
@@ -78,26 +119,24 @@ items:
   nameWithType: CustomFieldType.Integer
   fullName: SuperOffice.WebApi.Data.CustomFieldType.Integer
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "1: Number (32-bit integer): '[I:123]'"
-  example: []
+  summary: "\n1: Number (32-bit integer): &apos;[I:123]&apos;\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Integer = 1
+    content: public const CustomFieldType Integer
     return:
       type: SuperOffice.WebApi.Data.CustomFieldType
-    content.vb: >-
-      <EnumMember>
-
-      Integer = 1
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Integer As CustomFieldType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.CustomFieldType.ShortText
   commentId: F:SuperOffice.WebApi.Data.CustomFieldType.ShortText
   id: ShortText
@@ -109,26 +148,24 @@ items:
   nameWithType: CustomFieldType.ShortText
   fullName: SuperOffice.WebApi.Data.CustomFieldType.ShortText
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "2: Short text, up to 255 characters: 'text value'"
-  example: []
+  summary: "\n2: Short text, up to 255 characters: &apos;text value&apos;\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      ShortText = 2
+    content: public const CustomFieldType ShortText
     return:
       type: SuperOffice.WebApi.Data.CustomFieldType
-    content.vb: >-
-      <EnumMember>
-
-      ShortText = 2
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const ShortText As CustomFieldType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.CustomFieldType.LongText
   commentId: F:SuperOffice.WebApi.Data.CustomFieldType.LongText
   id: LongText
@@ -140,26 +177,24 @@ items:
   nameWithType: CustomFieldType.LongText
   fullName: SuperOffice.WebApi.Data.CustomFieldType.LongText
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "3: Long text: 'long text value'"
-  example: []
+  summary: "\n3: Long text: &apos;long text value&apos;\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      LongText = 3
+    content: public const CustomFieldType LongText
     return:
       type: SuperOffice.WebApi.Data.CustomFieldType
-    content.vb: >-
-      <EnumMember>
-
-      LongText = 3
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const LongText As CustomFieldType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.CustomFieldType.Date
   commentId: F:SuperOffice.WebApi.Data.CustomFieldType.Date
   id: Date
@@ -171,26 +206,24 @@ items:
   nameWithType: CustomFieldType.Date
   fullName: SuperOffice.WebApi.Data.CustomFieldType.Date
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "4: Date: '[D:06/19/2019]'"
-  example: []
+  summary: "\n4: Date: &apos;[D:06/19/2019]&apos;\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Date = 4
+    content: public const CustomFieldType Date
     return:
       type: SuperOffice.WebApi.Data.CustomFieldType
-    content.vb: >-
-      <EnumMember>
-
-      Date = 4
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Date As CustomFieldType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.CustomFieldType.Blob
   commentId: F:SuperOffice.WebApi.Data.CustomFieldType.Blob
   id: Blob
@@ -202,26 +235,24 @@ items:
   nameWithType: CustomFieldType.Blob
   fullName: SuperOffice.WebApi.Data.CustomFieldType.Blob
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '5: Binary blob, encoded as Base64 string.'
-  example: []
+  summary: "\n5: Binary blob, encoded as Base64 string.\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Blob = 5
+    content: public const CustomFieldType Blob
     return:
       type: SuperOffice.WebApi.Data.CustomFieldType
-    content.vb: >-
-      <EnumMember>
-
-      Blob = 5
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Blob As CustomFieldType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.CustomFieldType.Checkbox
   commentId: F:SuperOffice.WebApi.Data.CustomFieldType.Checkbox
   id: Checkbox
@@ -233,26 +264,24 @@ items:
   nameWithType: CustomFieldType.Checkbox
   fullName: SuperOffice.WebApi.Data.CustomFieldType.Checkbox
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "6: Boolean, stored as an integer, 1 = checked/true, 0 = unchecked/false: '[I:1]'"
-  example: []
+  summary: "\n6: Boolean, stored as an integer, 1 = checked/true, 0 = unchecked/false: &apos;[I:1]&apos;\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Checkbox = 6
+    content: public const CustomFieldType Checkbox
     return:
       type: SuperOffice.WebApi.Data.CustomFieldType
-    content.vb: >-
-      <EnumMember>
-
-      Checkbox = 6
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Checkbox As CustomFieldType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.CustomFieldType.MdoList
   commentId: F:SuperOffice.WebApi.Data.CustomFieldType.MdoList
   id: MdoList
@@ -264,26 +293,24 @@ items:
   nameWithType: CustomFieldType.MdoList
   fullName: SuperOffice.WebApi.Data.CustomFieldType.MdoList
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "7: MDO List item reference, stored as an integer ID: '[I:123]'"
-  example: []
+  summary: "\n7: MDO List item reference, stored as an integer ID: &apos;[I:123]&apos;\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      MdoList = 7
+    content: public const CustomFieldType MdoList
     return:
       type: SuperOffice.WebApi.Data.CustomFieldType
-    content.vb: >-
-      <EnumMember>
-
-      MdoList = 7
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const MdoList As CustomFieldType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.CustomFieldType.Decimal
   commentId: F:SuperOffice.WebApi.Data.CustomFieldType.Decimal
   id: Decimal
@@ -295,26 +322,24 @@ items:
   nameWithType: CustomFieldType.Decimal
   fullName: SuperOffice.WebApi.Data.CustomFieldType.Decimal
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "8: Decimal / floating point, stored as a double: '[F:3.14159]'"
-  example: []
+  summary: "\n8: Decimal / floating point, stored as a double: &apos;[F:3.14159]&apos;\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Decimal = 8
+    content: public const CustomFieldType Decimal
     return:
       type: SuperOffice.WebApi.Data.CustomFieldType
-    content.vb: >-
-      <EnumMember>
-
-      Decimal = 8
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Decimal As CustomFieldType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.CustomFieldType.DateTime
   commentId: F:SuperOffice.WebApi.Data.CustomFieldType.DateTime
   id: DateTime
@@ -326,26 +351,24 @@ items:
   nameWithType: CustomFieldType.DateTime
   fullName: SuperOffice.WebApi.Data.CustomFieldType.DateTime
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "9: Date + Time:  '[DT:06/19/2019 14:35:56.00000]'"
-  example: []
+  summary: "\n9: Date + Time:  &apos;[DT:06/19/2019 14:35:56.00000]&apos;\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      DateTime = 9
+    content: public const CustomFieldType DateTime
     return:
       type: SuperOffice.WebApi.Data.CustomFieldType
-    content.vb: >-
-      <EnumMember>
-
-      DateTime = 9
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const DateTime As CustomFieldType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.CustomFieldType.Time
   commentId: F:SuperOffice.WebApi.Data.CustomFieldType.Time
   id: Time
@@ -357,26 +380,24 @@ items:
   nameWithType: CustomFieldType.Time
   fullName: SuperOffice.WebApi.Data.CustomFieldType.Time
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "10: Time only - ignore the date part: '[T:06/19/2019 14:35:56.00000]'"
-  example: []
+  summary: "\n10: Time only - ignore the date part: &apos;[T:06/19/2019 14:35:56.00000]&apos;\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Time = 10
+    content: public const CustomFieldType Time
     return:
       type: SuperOffice.WebApi.Data.CustomFieldType
-    content.vb: >-
-      <EnumMember>
-
-      Time = 10
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Time As CustomFieldType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.CustomFieldType.TimeSpan
   commentId: F:SuperOffice.WebApi.Data.CustomFieldType.TimeSpan
   id: TimeSpan
@@ -388,26 +409,24 @@ items:
   nameWithType: CustomFieldType.TimeSpan
   fullName: SuperOffice.WebApi.Data.CustomFieldType.TimeSpan
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "11: Timespan in some units (hours, minutes or seconds): '[I:1234]'"
-  example: []
+  summary: "\n11: Timespan in some units (hours, minutes or seconds): &apos;[I:1234]&apos;\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      TimeSpan = 11
+    content: public const CustomFieldType TimeSpan
     return:
       type: SuperOffice.WebApi.Data.CustomFieldType
-    content.vb: >-
-      <EnumMember>
-
-      TimeSpan = 11
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const TimeSpan As CustomFieldType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.CustomFieldType.RelationTo
   commentId: F:SuperOffice.WebApi.Data.CustomFieldType.RelationTo
   id: RelationTo
@@ -419,26 +438,24 @@ items:
   nameWithType: CustomFieldType.RelationTo
   fullName: SuperOffice.WebApi.Data.CustomFieldType.RelationTo
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "12: Relation to another table. Stored as an int (primary key of record in other table): '[I:1234]'"
-  example: []
+  summary: "\n12: Relation to another table. Stored as an int (primary key of record in other table): &apos;[I:1234]&apos;\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      RelationTo = 12
+    content: public const CustomFieldType RelationTo
     return:
       type: SuperOffice.WebApi.Data.CustomFieldType
-    content.vb: >-
-      <EnumMember>
-
-      RelationTo = 12
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const RelationTo As CustomFieldType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.CustomFieldType.Attachment
   commentId: F:SuperOffice.WebApi.Data.CustomFieldType.Attachment
   id: Attachment
@@ -450,26 +467,24 @@ items:
   nameWithType: CustomFieldType.Attachment
   fullName: SuperOffice.WebApi.Data.CustomFieldType.Attachment
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "13: File Attachment: int record id in attachment table: '[I:1234]'"
-  example: []
+  summary: "\n13: File Attachment: int record id in attachment table: &apos;[I:1234]&apos;\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Attachment = 13
+    content: public const CustomFieldType Attachment
     return:
       type: SuperOffice.WebApi.Data.CustomFieldType
-    content.vb: >-
-      <EnumMember>
-
-      Attachment = 13
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Attachment As CustomFieldType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.CustomFieldType.DynamicLink
   commentId: F:SuperOffice.WebApi.Data.CustomFieldType.DynamicLink
   id: DynamicLink
@@ -481,26 +496,24 @@ items:
   nameWithType: CustomFieldType.DynamicLink
   fullName: SuperOffice.WebApi.Data.CustomFieldType.DynamicLink
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "14: Dynamic Link: contains link redirect value: 'https://example.com/scripts/ticket.fcgi?action=redirectLink&amp;extraFieldId=5&amp;table=y_equipment&amp;id=2'"
-  example: []
+  summary: "\n14: Dynamic Link: contains link redirect value: &apos;https://example.com/scripts/ticket.fcgi?action=redirectLink&amp;extraFieldId=5&amp;table=y_equipment&amp;id=2&apos;\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      DynamicLink = 14
+    content: public const CustomFieldType DynamicLink
     return:
       type: SuperOffice.WebApi.Data.CustomFieldType
-    content.vb: >-
-      <EnumMember>
-
-      DynamicLink = 14
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const DynamicLink As CustomFieldType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.CustomFieldType.ListText
   commentId: F:SuperOffice.WebApi.Data.CustomFieldType.ListText
   id: ListText
@@ -512,69 +525,55 @@ items:
   nameWithType: CustomFieldType.ListText
   fullName: SuperOffice.WebApi.Data.CustomFieldType.ListText
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "15: Text with list items to choose between: 'text value'"
-  example: []
+  summary: "\n15: Text with list items to choose between: &apos;text value&apos;\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      ListText = 15
+    content: public const CustomFieldType ListText
     return:
       type: SuperOffice.WebApi.Data.CustomFieldType
-    content.vb: >-
-      <EnumMember>
-
-      ListText = 15
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const ListText As CustomFieldType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.WebApi.Data.CustomFieldType
   commentId: T:SuperOffice.WebApi.Data.CustomFieldType
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.CustomFieldType.html
   name: CustomFieldType
   nameWithType: CustomFieldType
   fullName: SuperOffice.WebApi.Data.CustomFieldType

@@ -13,22 +13,26 @@ items:
   nameWithType: ColumnDataDictionaryExt
   fullName: SuperOffice.CRM.Services.ColumnDataDictionaryExt
   type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
   syntax:
-    content: public static class ColumnDataDictionaryExt
-    content.vb: Public Module ColumnDataDictionaryExt
+    content: 'public static class ColumnDataDictionaryExt : Object'
+    content.vb: >-
+      Public Module ColumnDataDictionaryExt
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
 - uid: SuperOffice.CRM.Services.ColumnDataDictionaryExt.ToColumnDataDictionary(System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.ArchiveLists.ArchiveColumnData})
   commentId: M:SuperOffice.CRM.Services.ColumnDataDictionaryExt.ToColumnDataDictionary(System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.ArchiveLists.ArchiveColumnData})
   id: ToColumnDataDictionary(System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.ArchiveLists.ArchiveColumnData})
@@ -37,18 +41,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToColumnDataDictionary(Dictionary<string, ArchiveColumnData>)
-  nameWithType: ColumnDataDictionaryExt.ToColumnDataDictionary(Dictionary<string, ArchiveColumnData>)
-  fullName: SuperOffice.CRM.Services.ColumnDataDictionaryExt.ToColumnDataDictionary(System.Collections.Generic.Dictionary<string, SuperOffice.CRM.ArchiveLists.ArchiveColumnData>)
+  name: ToColumnDataDictionary(Dictionary<String, ArchiveColumnData>)
+  nameWithType: ColumnDataDictionaryExt.ToColumnDataDictionary(Dictionary<String, ArchiveColumnData>)
+  fullName: SuperOffice.CRM.Services.ColumnDataDictionaryExt.ToColumnDataDictionary(System.Collections.Generic.Dictionary<System.String, SuperOffice.CRM.ArchiveLists.ArchiveColumnData>)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Convert from a raw .NET Dictionary&lt;string, SuperOffice.CRM.ArchiveLists.ArchiveColumnData&gt; into a ColumnDataDictionary,
-
-    typically used in service layer implementations when creating / returning objects of this type
-  example: []
+  summary: "\nConvert from a raw .NET Dictionary&lt;string, SuperOffice.CRM.ArchiveLists.ArchiveColumnData> into a ColumnDataDictionary,\ntypically used in service layer implementations when creating / returning objects of this type\n"
   syntax:
     content: public static ColumnDataDictionary ToColumnDataDictionary(this Dictionary<string, ArchiveColumnData> input)
     parameters:
@@ -56,414 +59,146 @@ items:
       type: System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.ArchiveLists.ArchiveColumnData}
     return:
       type: SuperOffice.CRM.Services.ColumnDataDictionary
-    content.vb: Public Shared Function ToColumnDataDictionary(input As Dictionary(Of String, ArchiveColumnData)) As ColumnDataDictionary
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToColumnDataDictionary(input As Dictionary(Of String, ArchiveColumnData)) As ColumnDataDictionary
   overload: SuperOffice.CRM.Services.ColumnDataDictionaryExt.ToColumnDataDictionary*
   nameWithType.vb: ColumnDataDictionaryExt.ToColumnDataDictionary(Dictionary(Of String, ArchiveColumnData))
-  fullName.vb: SuperOffice.CRM.Services.ColumnDataDictionaryExt.ToColumnDataDictionary(System.Collections.Generic.Dictionary(Of String, SuperOffice.CRM.ArchiveLists.ArchiveColumnData))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Services.ColumnDataDictionaryExt.ToColumnDataDictionary(System.Collections.Generic.Dictionary(Of System.String, SuperOffice.CRM.ArchiveLists.ArchiveColumnData))
   name.vb: ToColumnDataDictionary(Dictionary(Of String, ArchiveColumnData))
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.ColumnDataDictionaryExt.ToColumnDataDictionary*
   commentId: Overload:SuperOffice.CRM.Services.ColumnDataDictionaryExt.ToColumnDataDictionary
   isExternal: true
-  href: SuperOffice.CRM.Services.ColumnDataDictionaryExt.html#SuperOffice_CRM_Services_ColumnDataDictionaryExt_ToColumnDataDictionary_System_Collections_Generic_Dictionary_System_String_SuperOffice_CRM_ArchiveLists_ArchiveColumnData__
   name: ToColumnDataDictionary
   nameWithType: ColumnDataDictionaryExt.ToColumnDataDictionary
   fullName: SuperOffice.CRM.Services.ColumnDataDictionaryExt.ToColumnDataDictionary
 - uid: System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.ArchiveLists.ArchiveColumnData}
-  commentId: T:System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.ArchiveLists.ArchiveColumnData}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.ArchiveLists.ArchiveColumnData}'
   definition: System.Collections.Generic.Dictionary`2
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
-  name: Dictionary<string, ArchiveColumnData>
-  nameWithType: Dictionary<string, ArchiveColumnData>
-  fullName: System.Collections.Generic.Dictionary<string, SuperOffice.CRM.ArchiveLists.ArchiveColumnData>
+  name: Dictionary<String, ArchiveColumnData>
+  nameWithType: Dictionary<String, ArchiveColumnData>
+  fullName: System.Collections.Generic.Dictionary<System.String, SuperOffice.CRM.ArchiveLists.ArchiveColumnData>
   nameWithType.vb: Dictionary(Of String, ArchiveColumnData)
-  fullName.vb: System.Collections.Generic.Dictionary(Of String, SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
   name.vb: Dictionary(Of String, ArchiveColumnData)
   spec.csharp:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
     name: ArchiveColumnData
+    nameWithType: ArchiveColumnData
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
     isExternal: true
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
     name: ArchiveColumnData
+    nameWithType: ArchiveColumnData
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
     isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.ColumnDataDictionary
   commentId: T:SuperOffice.CRM.Services.ColumnDataDictionary
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.ColumnDataDictionary.html
   name: ColumnDataDictionary
   nameWithType: ColumnDataDictionary
   fullName: SuperOffice.CRM.Services.ColumnDataDictionary
 - uid: System.Collections.Generic.Dictionary`2
-  commentId: T:System.Collections.Generic.Dictionary`2
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
-  name: Dictionary<TKey, TValue>
-  nameWithType: Dictionary<TKey, TValue>
-  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
-  nameWithType.vb: Dictionary(Of TKey, TValue)
-  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
-  name.vb: Dictionary(Of TKey, TValue)
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: System.Collections.Generic.Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: System.Collections.Generic.Dictionary(Of , )
+  name.vb: Dictionary(Of , )
   spec.csharp:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
   - name: <
-  - name: TKey
-  - name: ','
-  - name: " "
-  - name: TValue
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TKey
-  - name: ','
-  - name: " "
-  - name: TValue
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+    nameWithType: )
+    fullName: )

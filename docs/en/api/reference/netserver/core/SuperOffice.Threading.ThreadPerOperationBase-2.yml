@@ -14,24 +14,23 @@ items:
   nameWithType: ThreadPerOperationBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>
   fullName: SuperOffice.Threading.ThreadPerOperationBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>
   type: Class
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Threading
-  summary: >-
-    This class provides a thread-per-operation execution model, where (in principle) a new
-
-    thread is spawned and immediately starts executing for each asynchronous operation. The
-
-    number of threads is limited by configuration information, and callers will block once
-
-    the limit is reached.
-  example: []
+  summary: "\nThis class provides a thread-per-operation execution model, where (in principle) a new\nthread is spawned and immediately starts executing for each asynchronous operation. The\nnumber of threads is limited by configuration information, and callers will block once\nthe limit is reached.\n"
   syntax:
-    content: 'public abstract class ThreadPerOperationBase<TAsynchronousHandlerProcessor, TAsynchronousArgument> : AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument> where TAsynchronousHandlerProcessor : AsynchronousHandlerProcessor<TAsynchronousArgument>, new() where TAsynchronousArgument : class'
+    content: >-
+      public abstract class ThreadPerOperationBase<TAsynchronousHandlerProcessor, TAsynchronousArgument> : AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument> where TAsynchronousHandlerProcessor : AsynchronousHandlerProcessor<TAsynchronousArgument>, new()
+          where TAsynchronousArgument : class
     typeParameters:
     - id: TAsynchronousHandlerProcessor
     - id: TAsynchronousArgument
-    content.vb: Public MustInherit Class ThreadPerOperationBase(Of TAsynchronousHandlerProcessor As {AsynchronousHandlerProcessor(Of TAsynchronousArgument), New}, TAsynchronousArgument As Class) Inherits AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument)
+    content.vb: >-
+      Public MustInherit Class ThreadPerOperationBase(Of TAsynchronousHandlerProcessor As {AsynchronousHandlerProcessor(Of TAsynchronousArgument), New}, TAsynchronousArgument As Class)
+          Inherits AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument)
   inheritance:
   - System.Object
   - SuperOffice.Threading.AsynchronousHandler{{TAsynchronousHandlerProcessor},{TAsynchronousArgument}}
@@ -46,17 +45,18 @@ items:
   - SuperOffice.Threading.AsynchronousHandler{{TAsynchronousHandlerProcessor},{TAsynchronousArgument}}.WasSetupCalled
   - SuperOffice.Threading.AsynchronousHandler{{TAsynchronousHandlerProcessor},{TAsynchronousArgument}}.HasWorkToDo
   - SuperOffice.Threading.AsynchronousHandler{{TAsynchronousHandlerProcessor},{TAsynchronousArgument}}.ThreadName
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.Threading.ThreadPerOperationBase`2.EnumUtil.MapEnums``2
   - SuperOffice.Threading.ThreadPerOperationBase`2.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   nameWithType.vb: ThreadPerOperationBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument)
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
   fullName.vb: SuperOffice.Threading.ThreadPerOperationBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument)
   name.vb: ThreadPerOperationBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument)
 - uid: SuperOffice.Threading.ThreadPerOperationBase`2.#ctor
@@ -70,18 +70,23 @@ items:
   nameWithType: ThreadPerOperationBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ThreadPerOperationBase()
   fullName: SuperOffice.Threading.ThreadPerOperationBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ThreadPerOperationBase()
   type: Constructor
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Threading
-  summary: Constructor, only called from derived classes
-  example: []
+  summary: "\nConstructor, only called from derived classes\n"
   syntax:
     content: protected ThreadPerOperationBase()
-    content.vb: Protected Sub New()
+    content.vb: Protected Sub New
   overload: SuperOffice.Threading.ThreadPerOperationBase`2.#ctor*
-  nameWithType.vb: ThreadPerOperationBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).New()
-  fullName.vb: SuperOffice.Threading.ThreadPerOperationBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).New()
-  name.vb: New()
+  nameWithType.vb: ThreadPerOperationBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).ThreadPerOperationBase()
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: SuperOffice.Threading.ThreadPerOperationBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).ThreadPerOperationBase()
 - uid: SuperOffice.Threading.ThreadPerOperationBase`2.ScheduleNewWork
   commentId: M:SuperOffice.Threading.ThreadPerOperationBase`2.ScheduleNewWork
   id: ScheduleNewWork
@@ -93,66 +98,45 @@ items:
   nameWithType: ThreadPerOperationBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ScheduleNewWork()
   fullName: SuperOffice.Threading.ThreadPerOperationBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ScheduleNewWork()
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Threading
-  summary: Scheduling strategy method, provides the basic "queue and process in FIFO order" strategy
-  remarks: >-
-    Thread number limiting is a global responsibility, handled by the <xref href="SuperOffice.Threading.ThreadManager" data-throw-if-not-resolved="false"></xref>
-
-    class. It will block if no thread slots are available.
-  example: []
+  summary: "\nScheduling strategy method, provides the basic &quot;queue and process in FIFO order&quot; strategy\n"
+  remarks: "\nThread number limiting is a global responsibility, handled by the <xref href=\"SuperOffice.Threading.ThreadManager\" data-throw-if-not-resolved=\"false\"></xref>\nclass. It will block if no thread slots are available.\n"
   syntax:
     content: protected override void ScheduleNewWork()
-    content.vb: Protected Overrides Sub ScheduleNewWork()
+    content.vb: Protected Overrides Sub ScheduleNewWork
   overridden: SuperOffice.Threading.AsynchronousHandler{{TAsynchronousHandlerProcessor},{TAsynchronousArgument}}.ScheduleNewWork
   overload: SuperOffice.Threading.ThreadPerOperationBase`2.ScheduleNewWork*
   nameWithType.vb: ThreadPerOperationBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).ScheduleNewWork()
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
   fullName.vb: SuperOffice.Threading.ThreadPerOperationBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).ScheduleNewWork()
 references:
 - uid: SuperOffice.Threading
   commentId: N:SuperOffice.Threading
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Threading
   nameWithType: SuperOffice.Threading
   fullName: SuperOffice.Threading
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Threading
-    name: Threading
-    isExternal: true
-    href: SuperOffice.Threading.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Threading
-    name: Threading
-    isExternal: true
-    href: SuperOffice.Threading.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Threading.AsynchronousHandler{{TAsynchronousHandlerProcessor},{TAsynchronousArgument}}
   commentId: T:SuperOffice.Threading.AsynchronousHandler{`0,`1}
   parent: SuperOffice.Threading
   definition: SuperOffice.Threading.AsynchronousHandler`2
-  href: SuperOffice.Threading.AsynchronousHandler-2.html
   name: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>
   nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>
   fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>
@@ -162,180 +146,259 @@ references:
   spec.csharp:
   - uid: SuperOffice.Threading.AsynchronousHandler`2
     name: AsynchronousHandler
+    nameWithType: AsynchronousHandler
+    fullName: SuperOffice.Threading.AsynchronousHandler
     isExternal: true
-    href: SuperOffice.Threading.AsynchronousHandler-2.html
   - name: <
+    nameWithType: <
+    fullName: <
   - name: TAsynchronousHandlerProcessor
-  - name: ','
-  - name: " "
+    nameWithType: TAsynchronousHandlerProcessor
+    fullName: TAsynchronousHandlerProcessor
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: TAsynchronousArgument
+    nameWithType: TAsynchronousArgument
+    fullName: TAsynchronousArgument
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Threading.AsynchronousHandler`2
     name: AsynchronousHandler
+    nameWithType: AsynchronousHandler
+    fullName: SuperOffice.Threading.AsynchronousHandler
     isExternal: true
-    href: SuperOffice.Threading.AsynchronousHandler-2.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: TAsynchronousHandlerProcessor
-  - name: ','
-  - name: " "
+    nameWithType: TAsynchronousHandlerProcessor
+    fullName: TAsynchronousHandlerProcessor
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: TAsynchronousArgument
+    nameWithType: TAsynchronousArgument
+    fullName: TAsynchronousArgument
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.AsynchronousHandler{{TAsynchronousHandlerProcessor},{TAsynchronousArgument}}.ToString
   commentId: M:SuperOffice.Threading.AsynchronousHandler{`0,`1}.ToString
   parent: SuperOffice.Threading.AsynchronousHandler{{TAsynchronousHandlerProcessor},{TAsynchronousArgument}}
   definition: SuperOffice.Threading.AsynchronousHandler`2.ToString
-  href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_ToString
   name: ToString()
   nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ToString()
   fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ToString()
   nameWithType.vb: AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).ToString()
   fullName.vb: SuperOffice.Threading.AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).ToString()
   spec.csharp:
-  - uid: SuperOffice.Threading.AsynchronousHandler{`0,`1}.ToString
+  - uid: SuperOffice.Threading.AsynchronousHandler`2.ToString
     name: ToString
+    nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ToString
+    fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ToString
     isExternal: true
-    href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_ToString
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Threading.AsynchronousHandler{`0,`1}.ToString
+  - uid: SuperOffice.Threading.AsynchronousHandler`2.ToString
     name: ToString
+    nameWithType: AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).ToString
+    fullName: SuperOffice.Threading.AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).ToString
     isExternal: true
-    href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_ToString
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.AsynchronousHandler{{TAsynchronousHandlerProcessor},{TAsynchronousArgument}}.OnSetup({TAsynchronousArgument})
   commentId: M:SuperOffice.Threading.AsynchronousHandler{`0,`1}.OnSetup(`1)
   parent: SuperOffice.Threading.AsynchronousHandler{{TAsynchronousHandlerProcessor},{TAsynchronousArgument}}
   definition: SuperOffice.Threading.AsynchronousHandler`2.OnSetup(`1)
-  href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_OnSetup__1_
   name: OnSetup(TAsynchronousArgument)
   nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.OnSetup(TAsynchronousArgument)
   fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.OnSetup(TAsynchronousArgument)
   nameWithType.vb: AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).OnSetup(TAsynchronousArgument)
   fullName.vb: SuperOffice.Threading.AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).OnSetup(TAsynchronousArgument)
   spec.csharp:
-  - uid: SuperOffice.Threading.AsynchronousHandler{`0,`1}.OnSetup(`1)
+  - uid: SuperOffice.Threading.AsynchronousHandler`2.OnSetup(`1)
     name: OnSetup
+    nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.OnSetup
+    fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.OnSetup
     isExternal: true
-    href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_OnSetup__1_
   - name: (
+    nameWithType: (
+    fullName: (
   - name: TAsynchronousArgument
+    nameWithType: TAsynchronousArgument
+    fullName: TAsynchronousArgument
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Threading.AsynchronousHandler{`0,`1}.OnSetup(`1)
+  - uid: SuperOffice.Threading.AsynchronousHandler`2.OnSetup(`1)
     name: OnSetup
+    nameWithType: AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).OnSetup
+    fullName: SuperOffice.Threading.AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).OnSetup
     isExternal: true
-    href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_OnSetup__1_
   - name: (
+    nameWithType: (
+    fullName: (
   - name: TAsynchronousArgument
+    nameWithType: TAsynchronousArgument
+    fullName: TAsynchronousArgument
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.AsynchronousHandler{{TAsynchronousHandlerProcessor},{TAsynchronousArgument}}.SynchronousSetup({TAsynchronousArgument})
   commentId: M:SuperOffice.Threading.AsynchronousHandler{`0,`1}.SynchronousSetup(`1)
   parent: SuperOffice.Threading.AsynchronousHandler{{TAsynchronousHandlerProcessor},{TAsynchronousArgument}}
   definition: SuperOffice.Threading.AsynchronousHandler`2.SynchronousSetup(`1)
-  href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_SynchronousSetup__1_
   name: SynchronousSetup(TAsynchronousArgument)
   nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.SynchronousSetup(TAsynchronousArgument)
   fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.SynchronousSetup(TAsynchronousArgument)
   nameWithType.vb: AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).SynchronousSetup(TAsynchronousArgument)
   fullName.vb: SuperOffice.Threading.AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).SynchronousSetup(TAsynchronousArgument)
   spec.csharp:
-  - uid: SuperOffice.Threading.AsynchronousHandler{`0,`1}.SynchronousSetup(`1)
+  - uid: SuperOffice.Threading.AsynchronousHandler`2.SynchronousSetup(`1)
     name: SynchronousSetup
+    nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.SynchronousSetup
+    fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.SynchronousSetup
     isExternal: true
-    href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_SynchronousSetup__1_
   - name: (
+    nameWithType: (
+    fullName: (
   - name: TAsynchronousArgument
+    nameWithType: TAsynchronousArgument
+    fullName: TAsynchronousArgument
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Threading.AsynchronousHandler{`0,`1}.SynchronousSetup(`1)
+  - uid: SuperOffice.Threading.AsynchronousHandler`2.SynchronousSetup(`1)
     name: SynchronousSetup
+    nameWithType: AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).SynchronousSetup
+    fullName: SuperOffice.Threading.AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).SynchronousSetup
     isExternal: true
-    href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_SynchronousSetup__1_
   - name: (
+    nameWithType: (
+    fullName: (
   - name: TAsynchronousArgument
+    nameWithType: TAsynchronousArgument
+    fullName: TAsynchronousArgument
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.AsynchronousHandler{{TAsynchronousHandlerProcessor},{TAsynchronousArgument}}.AsynchronousOperation
   commentId: M:SuperOffice.Threading.AsynchronousHandler{`0,`1}.AsynchronousOperation
   parent: SuperOffice.Threading.AsynchronousHandler{{TAsynchronousHandlerProcessor},{TAsynchronousArgument}}
   definition: SuperOffice.Threading.AsynchronousHandler`2.AsynchronousOperation
-  href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_AsynchronousOperation
   name: AsynchronousOperation()
   nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.AsynchronousOperation()
   fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.AsynchronousOperation()
   nameWithType.vb: AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).AsynchronousOperation()
   fullName.vb: SuperOffice.Threading.AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).AsynchronousOperation()
   spec.csharp:
-  - uid: SuperOffice.Threading.AsynchronousHandler{`0,`1}.AsynchronousOperation
+  - uid: SuperOffice.Threading.AsynchronousHandler`2.AsynchronousOperation
     name: AsynchronousOperation
+    nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.AsynchronousOperation
+    fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.AsynchronousOperation
     isExternal: true
-    href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_AsynchronousOperation
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Threading.AsynchronousHandler{`0,`1}.AsynchronousOperation
+  - uid: SuperOffice.Threading.AsynchronousHandler`2.AsynchronousOperation
     name: AsynchronousOperation
+    nameWithType: AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).AsynchronousOperation
+    fullName: SuperOffice.Threading.AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).AsynchronousOperation
     isExternal: true
-    href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_AsynchronousOperation
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.AsynchronousHandler{{TAsynchronousHandlerProcessor},{TAsynchronousArgument}}.ScheduleNewWork
   commentId: M:SuperOffice.Threading.AsynchronousHandler{`0,`1}.ScheduleNewWork
   parent: SuperOffice.Threading.AsynchronousHandler{{TAsynchronousHandlerProcessor},{TAsynchronousArgument}}
   definition: SuperOffice.Threading.AsynchronousHandler`2.ScheduleNewWork
-  href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_ScheduleNewWork
   name: ScheduleNewWork()
   nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ScheduleNewWork()
   fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ScheduleNewWork()
   nameWithType.vb: AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).ScheduleNewWork()
   fullName.vb: SuperOffice.Threading.AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).ScheduleNewWork()
   spec.csharp:
-  - uid: SuperOffice.Threading.AsynchronousHandler{`0,`1}.ScheduleNewWork
+  - uid: SuperOffice.Threading.AsynchronousHandler`2.ScheduleNewWork
     name: ScheduleNewWork
+    nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ScheduleNewWork
+    fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ScheduleNewWork
     isExternal: true
-    href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_ScheduleNewWork
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Threading.AsynchronousHandler{`0,`1}.ScheduleNewWork
+  - uid: SuperOffice.Threading.AsynchronousHandler`2.ScheduleNewWork
     name: ScheduleNewWork
+    nameWithType: AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).ScheduleNewWork
+    fullName: SuperOffice.Threading.AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).ScheduleNewWork
     isExternal: true
-    href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_ScheduleNewWork
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.AsynchronousHandler{{TAsynchronousHandlerProcessor},{TAsynchronousArgument}}.ExecuteWork
   commentId: M:SuperOffice.Threading.AsynchronousHandler{`0,`1}.ExecuteWork
   parent: SuperOffice.Threading.AsynchronousHandler{{TAsynchronousHandlerProcessor},{TAsynchronousArgument}}
   definition: SuperOffice.Threading.AsynchronousHandler`2.ExecuteWork
-  href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_ExecuteWork
   name: ExecuteWork()
   nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ExecuteWork()
   fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ExecuteWork()
   nameWithType.vb: AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).ExecuteWork()
   fullName.vb: SuperOffice.Threading.AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).ExecuteWork()
   spec.csharp:
-  - uid: SuperOffice.Threading.AsynchronousHandler{`0,`1}.ExecuteWork
+  - uid: SuperOffice.Threading.AsynchronousHandler`2.ExecuteWork
     name: ExecuteWork
+    nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ExecuteWork
+    fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ExecuteWork
     isExternal: true
-    href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_ExecuteWork
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Threading.AsynchronousHandler{`0,`1}.ExecuteWork
+  - uid: SuperOffice.Threading.AsynchronousHandler`2.ExecuteWork
     name: ExecuteWork
+    nameWithType: AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).ExecuteWork
+    fullName: SuperOffice.Threading.AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).ExecuteWork
     isExternal: true
-    href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_ExecuteWork
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.AsynchronousHandler{{TAsynchronousHandlerProcessor},{TAsynchronousArgument}}.Processor
   commentId: P:SuperOffice.Threading.AsynchronousHandler{`0,`1}.Processor
   parent: SuperOffice.Threading.AsynchronousHandler{{TAsynchronousHandlerProcessor},{TAsynchronousArgument}}
   definition: SuperOffice.Threading.AsynchronousHandler`2.Processor
-  href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_Processor
   name: Processor
   nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.Processor
   fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.Processor
@@ -345,7 +408,6 @@ references:
   commentId: P:SuperOffice.Threading.AsynchronousHandler{`0,`1}.WasSetupCalled
   parent: SuperOffice.Threading.AsynchronousHandler{{TAsynchronousHandlerProcessor},{TAsynchronousArgument}}
   definition: SuperOffice.Threading.AsynchronousHandler`2.WasSetupCalled
-  href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_WasSetupCalled
   name: WasSetupCalled
   nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.WasSetupCalled
   fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.WasSetupCalled
@@ -355,7 +417,6 @@ references:
   commentId: P:SuperOffice.Threading.AsynchronousHandler{`0,`1}.HasWorkToDo
   parent: SuperOffice.Threading.AsynchronousHandler{{TAsynchronousHandlerProcessor},{TAsynchronousArgument}}
   definition: SuperOffice.Threading.AsynchronousHandler`2.HasWorkToDo
-  href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_HasWorkToDo
   name: HasWorkToDo
   nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.HasWorkToDo
   fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.HasWorkToDo
@@ -365,404 +426,88 @@ references:
   commentId: P:SuperOffice.Threading.AsynchronousHandler{`0,`1}.ThreadName
   parent: SuperOffice.Threading.AsynchronousHandler{{TAsynchronousHandlerProcessor},{TAsynchronousArgument}}
   definition: SuperOffice.Threading.AsynchronousHandler`2.ThreadName
-  href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_ThreadName
   name: ThreadName
   nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ThreadName
   fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ThreadName
   nameWithType.vb: AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).ThreadName
   fullName.vb: SuperOffice.Threading.AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).ThreadName
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
 - uid: SuperOffice.Threading.ThreadPerOperationBase`2.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<ThreadPerOperationBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>, To>(ThreadPerOperationBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>)
-  nameWithType: EnumUtil.MapEnums<ThreadPerOperationBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>, To>(ThreadPerOperationBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>)
-  fullName: EnumUtil.MapEnums<SuperOffice.Threading.ThreadPerOperationBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>, To>(SuperOffice.Threading.ThreadPerOperationBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>)
-  nameWithType.vb: EnumUtil.MapEnums(Of ThreadPerOperationBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument), To)(ThreadPerOperationBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument))
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Threading.ThreadPerOperationBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument), To)(SuperOffice.Threading.ThreadPerOperationBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument))
-  name.vb: MapEnums(Of ThreadPerOperationBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument), To)(ThreadPerOperationBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument))
+  name: MapEnums<ThreadPerOperationBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>, To>()
+  nameWithType: EnumUtil.MapEnums<ThreadPerOperationBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Threading.ThreadPerOperationBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ThreadPerOperationBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument), To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Threading.ThreadPerOperationBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument), To)()
+  name.vb: MapEnums(Of ThreadPerOperationBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument), To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Threading.ThreadPerOperationBase{`0,`1})
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ThreadPerOperationBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>, To>
+    nameWithType: EnumUtil.MapEnums<ThreadPerOperationBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Threading.ThreadPerOperationBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Threading.ThreadPerOperationBase`2
-    name: ThreadPerOperationBase
-    isExternal: true
-    href: SuperOffice.Threading.ThreadPerOperationBase-2.html
-  - name: <
-  - name: TAsynchronousHandlerProcessor
-  - name: ','
-  - name: " "
-  - name: TAsynchronousArgument
-  - name: '>'
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Threading.ThreadPerOperationBase`2
-    name: ThreadPerOperationBase
-    isExternal: true
-    href: SuperOffice.Threading.ThreadPerOperationBase-2.html
-  - name: <
-  - name: TAsynchronousHandlerProcessor
-  - name: ','
-  - name: " "
-  - name: TAsynchronousArgument
-  - name: '>'
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Threading.ThreadPerOperationBase{`0,`1})
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ThreadPerOperationBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument), To)
+    nameWithType: EnumUtil.MapEnums(Of ThreadPerOperationBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument), To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Threading.ThreadPerOperationBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument), To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Threading.ThreadPerOperationBase`2
-    name: ThreadPerOperationBase
-    isExternal: true
-    href: SuperOffice.Threading.ThreadPerOperationBase-2.html
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TAsynchronousHandlerProcessor
-  - name: ','
-  - name: " "
-  - name: TAsynchronousArgument
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.Threading.ThreadPerOperationBase`2
-    name: ThreadPerOperationBase
-    isExternal: true
-    href: SuperOffice.Threading.ThreadPerOperationBase-2.html
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TAsynchronousHandlerProcessor
-  - name: ','
-  - name: " "
-  - name: TAsynchronousArgument
-  - name: )
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.ThreadPerOperationBase`2.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<ThreadPerOperationBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>, To>(ThreadPerOperationBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>)
-  nameWithType: Converters.MapEnums<ThreadPerOperationBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>, To>(ThreadPerOperationBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Threading.ThreadPerOperationBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>, To>(SuperOffice.Threading.ThreadPerOperationBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>)
-  nameWithType.vb: Converters.MapEnums(Of ThreadPerOperationBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument), To)(ThreadPerOperationBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument))
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Threading.ThreadPerOperationBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument), To)(SuperOffice.Threading.ThreadPerOperationBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument))
-  name.vb: MapEnums(Of ThreadPerOperationBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument), To)(ThreadPerOperationBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument))
+  name: MapEnums<ThreadPerOperationBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>, To>()
+  nameWithType: Converters.MapEnums<ThreadPerOperationBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Threading.ThreadPerOperationBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>, To>()
+  nameWithType.vb: Converters.MapEnums(Of ThreadPerOperationBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument), To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Threading.ThreadPerOperationBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument), To)()
+  name.vb: MapEnums(Of ThreadPerOperationBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument), To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Threading.ThreadPerOperationBase{`0,`1})
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ThreadPerOperationBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>, To>
+    nameWithType: Converters.MapEnums<ThreadPerOperationBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Threading.ThreadPerOperationBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Threading.ThreadPerOperationBase`2
-    name: ThreadPerOperationBase
-    isExternal: true
-    href: SuperOffice.Threading.ThreadPerOperationBase-2.html
-  - name: <
-  - name: TAsynchronousHandlerProcessor
-  - name: ','
-  - name: " "
-  - name: TAsynchronousArgument
-  - name: '>'
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Threading.ThreadPerOperationBase`2
-    name: ThreadPerOperationBase
-    isExternal: true
-    href: SuperOffice.Threading.ThreadPerOperationBase-2.html
-  - name: <
-  - name: TAsynchronousHandlerProcessor
-  - name: ','
-  - name: " "
-  - name: TAsynchronousArgument
-  - name: '>'
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Threading.ThreadPerOperationBase{`0,`1})
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ThreadPerOperationBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument), To)
+    nameWithType: Converters.MapEnums(Of ThreadPerOperationBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument), To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Threading.ThreadPerOperationBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument), To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Threading.ThreadPerOperationBase`2
-    name: ThreadPerOperationBase
-    isExternal: true
-    href: SuperOffice.Threading.ThreadPerOperationBase-2.html
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TAsynchronousHandlerProcessor
-  - name: ','
-  - name: " "
-  - name: TAsynchronousArgument
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.Threading.ThreadPerOperationBase`2
-    name: ThreadPerOperationBase
-    isExternal: true
-    href: SuperOffice.Threading.ThreadPerOperationBase-2.html
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TAsynchronousHandlerProcessor
-  - name: ','
-  - name: " "
-  - name: TAsynchronousArgument
-  - name: )
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.Threading.AsynchronousHandler`2
   commentId: T:SuperOffice.Threading.AsynchronousHandler`2
   isExternal: true
-  href: SuperOffice.Threading.AsynchronousHandler-2.html
   name: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>
   nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>
   fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>
@@ -772,31 +517,48 @@ references:
   spec.csharp:
   - uid: SuperOffice.Threading.AsynchronousHandler`2
     name: AsynchronousHandler
+    nameWithType: AsynchronousHandler
+    fullName: SuperOffice.Threading.AsynchronousHandler
     isExternal: true
-    href: SuperOffice.Threading.AsynchronousHandler-2.html
   - name: <
+    nameWithType: <
+    fullName: <
   - name: TAsynchronousHandlerProcessor
-  - name: ','
-  - name: " "
+    nameWithType: TAsynchronousHandlerProcessor
+    fullName: TAsynchronousHandlerProcessor
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: TAsynchronousArgument
+    nameWithType: TAsynchronousArgument
+    fullName: TAsynchronousArgument
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Threading.AsynchronousHandler`2
     name: AsynchronousHandler
+    nameWithType: AsynchronousHandler
+    fullName: SuperOffice.Threading.AsynchronousHandler
     isExternal: true
-    href: SuperOffice.Threading.AsynchronousHandler-2.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: TAsynchronousHandlerProcessor
-  - name: ','
-  - name: " "
+    nameWithType: TAsynchronousHandlerProcessor
+    fullName: TAsynchronousHandlerProcessor
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: TAsynchronousArgument
+    nameWithType: TAsynchronousArgument
+    fullName: TAsynchronousArgument
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.AsynchronousHandler`2.ToString
   commentId: M:SuperOffice.Threading.AsynchronousHandler`2.ToString
   isExternal: true
-  href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_ToString
   name: ToString()
   nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ToString()
   fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ToString()
@@ -805,21 +567,30 @@ references:
   spec.csharp:
   - uid: SuperOffice.Threading.AsynchronousHandler`2.ToString
     name: ToString
+    nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ToString
+    fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ToString
     isExternal: true
-    href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_ToString
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Threading.AsynchronousHandler`2.ToString
     name: ToString
+    nameWithType: AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).ToString
+    fullName: SuperOffice.Threading.AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).ToString
     isExternal: true
-    href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_ToString
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.AsynchronousHandler`2.OnSetup(`1)
   commentId: M:SuperOffice.Threading.AsynchronousHandler`2.OnSetup(`1)
   isExternal: true
-  href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_OnSetup__1_
   name: OnSetup(TAsynchronousArgument)
   nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.OnSetup(TAsynchronousArgument)
   fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.OnSetup(TAsynchronousArgument)
@@ -828,23 +599,36 @@ references:
   spec.csharp:
   - uid: SuperOffice.Threading.AsynchronousHandler`2.OnSetup(`1)
     name: OnSetup
+    nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.OnSetup
+    fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.OnSetup
     isExternal: true
-    href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_OnSetup__1_
   - name: (
+    nameWithType: (
+    fullName: (
   - name: TAsynchronousArgument
+    nameWithType: TAsynchronousArgument
+    fullName: TAsynchronousArgument
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Threading.AsynchronousHandler`2.OnSetup(`1)
     name: OnSetup
+    nameWithType: AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).OnSetup
+    fullName: SuperOffice.Threading.AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).OnSetup
     isExternal: true
-    href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_OnSetup__1_
   - name: (
+    nameWithType: (
+    fullName: (
   - name: TAsynchronousArgument
+    nameWithType: TAsynchronousArgument
+    fullName: TAsynchronousArgument
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.AsynchronousHandler`2.SynchronousSetup(`1)
   commentId: M:SuperOffice.Threading.AsynchronousHandler`2.SynchronousSetup(`1)
   isExternal: true
-  href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_SynchronousSetup__1_
   name: SynchronousSetup(TAsynchronousArgument)
   nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.SynchronousSetup(TAsynchronousArgument)
   fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.SynchronousSetup(TAsynchronousArgument)
@@ -853,23 +637,36 @@ references:
   spec.csharp:
   - uid: SuperOffice.Threading.AsynchronousHandler`2.SynchronousSetup(`1)
     name: SynchronousSetup
+    nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.SynchronousSetup
+    fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.SynchronousSetup
     isExternal: true
-    href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_SynchronousSetup__1_
   - name: (
+    nameWithType: (
+    fullName: (
   - name: TAsynchronousArgument
+    nameWithType: TAsynchronousArgument
+    fullName: TAsynchronousArgument
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Threading.AsynchronousHandler`2.SynchronousSetup(`1)
     name: SynchronousSetup
+    nameWithType: AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).SynchronousSetup
+    fullName: SuperOffice.Threading.AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).SynchronousSetup
     isExternal: true
-    href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_SynchronousSetup__1_
   - name: (
+    nameWithType: (
+    fullName: (
   - name: TAsynchronousArgument
+    nameWithType: TAsynchronousArgument
+    fullName: TAsynchronousArgument
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.AsynchronousHandler`2.AsynchronousOperation
   commentId: M:SuperOffice.Threading.AsynchronousHandler`2.AsynchronousOperation
   isExternal: true
-  href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_AsynchronousOperation
   name: AsynchronousOperation()
   nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.AsynchronousOperation()
   fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.AsynchronousOperation()
@@ -878,21 +675,30 @@ references:
   spec.csharp:
   - uid: SuperOffice.Threading.AsynchronousHandler`2.AsynchronousOperation
     name: AsynchronousOperation
+    nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.AsynchronousOperation
+    fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.AsynchronousOperation
     isExternal: true
-    href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_AsynchronousOperation
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Threading.AsynchronousHandler`2.AsynchronousOperation
     name: AsynchronousOperation
+    nameWithType: AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).AsynchronousOperation
+    fullName: SuperOffice.Threading.AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).AsynchronousOperation
     isExternal: true
-    href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_AsynchronousOperation
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.AsynchronousHandler`2.ScheduleNewWork
   commentId: M:SuperOffice.Threading.AsynchronousHandler`2.ScheduleNewWork
   isExternal: true
-  href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_ScheduleNewWork
   name: ScheduleNewWork()
   nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ScheduleNewWork()
   fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ScheduleNewWork()
@@ -901,21 +707,30 @@ references:
   spec.csharp:
   - uid: SuperOffice.Threading.AsynchronousHandler`2.ScheduleNewWork
     name: ScheduleNewWork
+    nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ScheduleNewWork
+    fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ScheduleNewWork
     isExternal: true
-    href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_ScheduleNewWork
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Threading.AsynchronousHandler`2.ScheduleNewWork
     name: ScheduleNewWork
+    nameWithType: AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).ScheduleNewWork
+    fullName: SuperOffice.Threading.AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).ScheduleNewWork
     isExternal: true
-    href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_ScheduleNewWork
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.AsynchronousHandler`2.ExecuteWork
   commentId: M:SuperOffice.Threading.AsynchronousHandler`2.ExecuteWork
   isExternal: true
-  href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_ExecuteWork
   name: ExecuteWork()
   nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ExecuteWork()
   fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ExecuteWork()
@@ -924,21 +739,30 @@ references:
   spec.csharp:
   - uid: SuperOffice.Threading.AsynchronousHandler`2.ExecuteWork
     name: ExecuteWork
+    nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ExecuteWork
+    fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ExecuteWork
     isExternal: true
-    href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_ExecuteWork
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Threading.AsynchronousHandler`2.ExecuteWork
     name: ExecuteWork
+    nameWithType: AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).ExecuteWork
+    fullName: SuperOffice.Threading.AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).ExecuteWork
     isExternal: true
-    href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_ExecuteWork
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.AsynchronousHandler`2.Processor
   commentId: P:SuperOffice.Threading.AsynchronousHandler`2.Processor
   isExternal: true
-  href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_Processor
   name: Processor
   nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.Processor
   fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.Processor
@@ -947,7 +771,6 @@ references:
 - uid: SuperOffice.Threading.AsynchronousHandler`2.WasSetupCalled
   commentId: P:SuperOffice.Threading.AsynchronousHandler`2.WasSetupCalled
   isExternal: true
-  href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_WasSetupCalled
   name: WasSetupCalled
   nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.WasSetupCalled
   fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.WasSetupCalled
@@ -956,7 +779,6 @@ references:
 - uid: SuperOffice.Threading.AsynchronousHandler`2.HasWorkToDo
   commentId: P:SuperOffice.Threading.AsynchronousHandler`2.HasWorkToDo
   isExternal: true
-  href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_HasWorkToDo
   name: HasWorkToDo
   nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.HasWorkToDo
   fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.HasWorkToDo
@@ -965,7 +787,6 @@ references:
 - uid: SuperOffice.Threading.AsynchronousHandler`2.ThreadName
   commentId: P:SuperOffice.Threading.AsynchronousHandler`2.ThreadName
   isExternal: true
-  href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_ThreadName
   name: ThreadName
   nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ThreadName
   fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ThreadName
@@ -974,7 +795,6 @@ references:
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -983,45 +803,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -1030,100 +848,58 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.Threading.ThreadPerOperationBase`2.#ctor*
   commentId: Overload:SuperOffice.Threading.ThreadPerOperationBase`2.#ctor
   isExternal: true
-  href: SuperOffice.Threading.ThreadPerOperationBase-2.html#SuperOffice_Threading_ThreadPerOperationBase_2__ctor
   name: ThreadPerOperationBase
   nameWithType: ThreadPerOperationBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ThreadPerOperationBase
   fullName: SuperOffice.Threading.ThreadPerOperationBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ThreadPerOperationBase
-  nameWithType.vb: ThreadPerOperationBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).New
-  fullName.vb: SuperOffice.Threading.ThreadPerOperationBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).New
-  name.vb: New
-- uid: SuperOffice.Threading.ThreadManager
-  commentId: T:SuperOffice.Threading.ThreadManager
-  isExternal: true
-  href: SuperOffice.Threading.ThreadManager.html
-  name: ThreadManager
-  nameWithType: ThreadManager
-  fullName: SuperOffice.Threading.ThreadManager
+  nameWithType.vb: ThreadPerOperationBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).ThreadPerOperationBase
+  fullName.vb: SuperOffice.Threading.ThreadPerOperationBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).ThreadPerOperationBase
 - uid: SuperOffice.Threading.ThreadPerOperationBase`2.ScheduleNewWork*
   commentId: Overload:SuperOffice.Threading.ThreadPerOperationBase`2.ScheduleNewWork
   isExternal: true
-  href: SuperOffice.Threading.ThreadPerOperationBase-2.html#SuperOffice_Threading_ThreadPerOperationBase_2_ScheduleNewWork
   name: ScheduleNewWork
   nameWithType: ThreadPerOperationBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ScheduleNewWork
   fullName: SuperOffice.Threading.ThreadPerOperationBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ScheduleNewWork

@@ -9,6 +9,7 @@ items:
   - SuperOffice.Data.TargetPeriodType.Month
   - SuperOffice.Data.TargetPeriodType.None
   - SuperOffice.Data.TargetPeriodType.Quarter
+  - SuperOffice.Data.TargetPeriodType.value__
   - SuperOffice.Data.TargetPeriodType.Year
   langs:
   - csharp
@@ -16,38 +17,60 @@ items:
   name: TargetPeriodType
   nameWithType: TargetPeriodType
   fullName: SuperOffice.Data.TargetPeriodType
-  type: Enum
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: >-
-    Target period type
-
-    This Enum is used by:  target_group.period_type
-  example: []
+  summary: "\nTarget period type\nThis Enum is used by:  target_group.period_type\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public enum TargetPeriodType : short
+    content: 'public sealed class TargetPeriodType : Enum'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
+      Public NotInheritable Class TargetPeriodType
+          Inherits
 
-      Public Enum TargetPeriodType As Short
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.TargetPeriodType.EnumUtil.MapEnums``2
   - SuperOffice.Data.TargetPeriodType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  - SuperOffice.Data.TargetPeriodType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.TargetPeriodType)
-  - SuperOffice.Data.TargetPeriodType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - System.Enum.EnumUtil.GetDescription
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.TargetPeriodType.value__
+  commentId: F:SuperOffice.Data.TargetPeriodType.value__
+  id: value__
+  parent: SuperOffice.Data.TargetPeriodType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: TargetPeriodType.value__
+  fullName: SuperOffice.Data.TargetPeriodType.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.TargetPeriodType.None
   commentId: F:SuperOffice.Data.TargetPeriodType.None
   id: None
@@ -59,26 +82,24 @@ items:
   nameWithType: TargetPeriodType.None
   fullName: SuperOffice.Data.TargetPeriodType.None
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '0: None'
-  example: []
+  summary: "\n0: None\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      None = 0
+    content: public const TargetPeriodType None
     return:
       type: SuperOffice.Data.TargetPeriodType
-    content.vb: >-
-      <EnumMember>
-
-      None = 0
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const None As TargetPeriodType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TargetPeriodType.Year
   commentId: F:SuperOffice.Data.TargetPeriodType.Year
   id: Year
@@ -90,26 +111,24 @@ items:
   nameWithType: TargetPeriodType.Year
   fullName: SuperOffice.Data.TargetPeriodType.Year
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '1: Year'
-  example: []
+  summary: "\n1: Year\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Year = 1
+    content: public const TargetPeriodType Year
     return:
       type: SuperOffice.Data.TargetPeriodType
-    content.vb: >-
-      <EnumMember>
-
-      Year = 1
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Year As TargetPeriodType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TargetPeriodType.HalfYear
   commentId: F:SuperOffice.Data.TargetPeriodType.HalfYear
   id: HalfYear
@@ -121,26 +140,24 @@ items:
   nameWithType: TargetPeriodType.HalfYear
   fullName: SuperOffice.Data.TargetPeriodType.HalfYear
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '2: HalfYear'
-  example: []
+  summary: "\n2: HalfYear\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      HalfYear = 2
+    content: public const TargetPeriodType HalfYear
     return:
       type: SuperOffice.Data.TargetPeriodType
-    content.vb: >-
-      <EnumMember>
-
-      HalfYear = 2
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const HalfYear As TargetPeriodType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TargetPeriodType.Quarter
   commentId: F:SuperOffice.Data.TargetPeriodType.Quarter
   id: Quarter
@@ -152,26 +169,24 @@ items:
   nameWithType: TargetPeriodType.Quarter
   fullName: SuperOffice.Data.TargetPeriodType.Quarter
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '3: Quarter'
-  example: []
+  summary: "\n3: Quarter\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Quarter = 3
+    content: public const TargetPeriodType Quarter
     return:
       type: SuperOffice.Data.TargetPeriodType
-    content.vb: >-
-      <EnumMember>
-
-      Quarter = 3
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Quarter As TargetPeriodType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TargetPeriodType.Month
   commentId: F:SuperOffice.Data.TargetPeriodType.Month
   id: Month
@@ -183,300 +198,115 @@ items:
   nameWithType: TargetPeriodType.Month
   fullName: SuperOffice.Data.TargetPeriodType.Month
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '4: Month'
-  example: []
+  summary: "\n4: Month\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Month = 4
+    content: public const TargetPeriodType Month
     return:
       type: SuperOffice.Data.TargetPeriodType
-    content.vb: >-
-      <EnumMember>
-
-      Month = 4
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Month As TargetPeriodType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.TargetPeriodType.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<TargetPeriodType, To>(TargetPeriodType)
-  nameWithType: EnumUtil.MapEnums<TargetPeriodType, To>(TargetPeriodType)
-  fullName: EnumUtil.MapEnums<SuperOffice.Data.TargetPeriodType, To>(SuperOffice.Data.TargetPeriodType)
-  nameWithType.vb: EnumUtil.MapEnums(Of TargetPeriodType, To)(TargetPeriodType)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.TargetPeriodType, To)(SuperOffice.Data.TargetPeriodType)
-  name.vb: MapEnums(Of TargetPeriodType, To)(TargetPeriodType)
+  name: MapEnums<TargetPeriodType, To>()
+  nameWithType: EnumUtil.MapEnums<TargetPeriodType, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.TargetPeriodType, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of TargetPeriodType, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.TargetPeriodType, To)()
+  name.vb: MapEnums(Of TargetPeriodType, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.TargetPeriodType)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<TargetPeriodType, To>
+    nameWithType: EnumUtil.MapEnums<TargetPeriodType, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.TargetPeriodType, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.TargetPeriodType
-    name: TargetPeriodType
-    isExternal: true
-    href: SuperOffice.Data.TargetPeriodType.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.TargetPeriodType
-    name: TargetPeriodType
-    isExternal: true
-    href: SuperOffice.Data.TargetPeriodType.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.TargetPeriodType)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of TargetPeriodType, To)
+    nameWithType: EnumUtil.MapEnums(Of TargetPeriodType, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.TargetPeriodType, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.TargetPeriodType
-    name: TargetPeriodType
-    isExternal: true
-    href: SuperOffice.Data.TargetPeriodType.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.TargetPeriodType
-    name: TargetPeriodType
-    isExternal: true
-    href: SuperOffice.Data.TargetPeriodType.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.TargetPeriodType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<TargetPeriodType, To>(TargetPeriodType)
-  nameWithType: Converters.MapEnums<TargetPeriodType, To>(TargetPeriodType)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.TargetPeriodType, To>(SuperOffice.Data.TargetPeriodType)
-  nameWithType.vb: Converters.MapEnums(Of TargetPeriodType, To)(TargetPeriodType)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.TargetPeriodType, To)(SuperOffice.Data.TargetPeriodType)
-  name.vb: MapEnums(Of TargetPeriodType, To)(TargetPeriodType)
+  name: MapEnums<TargetPeriodType, To>()
+  nameWithType: Converters.MapEnums<TargetPeriodType, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.TargetPeriodType, To>()
+  nameWithType.vb: Converters.MapEnums(Of TargetPeriodType, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.TargetPeriodType, To)()
+  name.vb: MapEnums(Of TargetPeriodType, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.TargetPeriodType)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<TargetPeriodType, To>
+    nameWithType: Converters.MapEnums<TargetPeriodType, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.TargetPeriodType, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.TargetPeriodType
-    name: TargetPeriodType
-    isExternal: true
-    href: SuperOffice.Data.TargetPeriodType.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.TargetPeriodType
-    name: TargetPeriodType
-    isExternal: true
-    href: SuperOffice.Data.TargetPeriodType.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.TargetPeriodType)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of TargetPeriodType, To)
+    nameWithType: Converters.MapEnums(Of TargetPeriodType, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.TargetPeriodType, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.TargetPeriodType
-    name: TargetPeriodType
-    isExternal: true
-    href: SuperOffice.Data.TargetPeriodType.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.TargetPeriodType
-    name: TargetPeriodType
-    isExternal: true
-    href: SuperOffice.Data.TargetPeriodType.html
-  - name: )
-- uid: SuperOffice.Data.TargetPeriodType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.TargetPeriodType)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<TargetPeriodType>(TargetPeriodType, TargetPeriodType)
-  nameWithType: ObjectExtensions.AssignByReflection<TargetPeriodType>(TargetPeriodType, TargetPeriodType)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.TargetPeriodType>(SuperOffice.Data.TargetPeriodType, SuperOffice.Data.TargetPeriodType)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of TargetPeriodType)(TargetPeriodType, TargetPeriodType)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.TargetPeriodType)(SuperOffice.Data.TargetPeriodType, SuperOffice.Data.TargetPeriodType)
-  name.vb: AssignByReflection(Of TargetPeriodType)(TargetPeriodType, TargetPeriodType)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.TargetPeriodType,SuperOffice.Data.TargetPeriodType)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.Data.TargetPeriodType
-    name: TargetPeriodType
-    isExternal: true
-    href: SuperOffice.Data.TargetPeriodType.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Data.TargetPeriodType
-    name: TargetPeriodType
-    isExternal: true
-    href: SuperOffice.Data.TargetPeriodType.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Data.TargetPeriodType
-    name: TargetPeriodType
-    isExternal: true
-    href: SuperOffice.Data.TargetPeriodType.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.TargetPeriodType,SuperOffice.Data.TargetPeriodType)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.TargetPeriodType
-    name: TargetPeriodType
-    isExternal: true
-    href: SuperOffice.Data.TargetPeriodType.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.Data.TargetPeriodType
-    name: TargetPeriodType
-    isExternal: true
-    href: SuperOffice.Data.TargetPeriodType.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Data.TargetPeriodType
-    name: TargetPeriodType
-    isExternal: true
-    href: SuperOffice.Data.TargetPeriodType.html
-  - name: )
-- uid: SuperOffice.Data.TargetPeriodType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<TargetPeriodType>(TargetPeriodType)
-  nameWithType: ObjectExtensions.GraphCopy<TargetPeriodType>(TargetPeriodType)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.TargetPeriodType>(SuperOffice.Data.TargetPeriodType)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of TargetPeriodType)(TargetPeriodType)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.TargetPeriodType)(SuperOffice.Data.TargetPeriodType)
-  name.vb: GraphCopy(Of TargetPeriodType)(TargetPeriodType)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.TargetPeriodType)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.Data.TargetPeriodType
-    name: TargetPeriodType
-    isExternal: true
-    href: SuperOffice.Data.TargetPeriodType.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Data.TargetPeriodType
-    name: TargetPeriodType
-    isExternal: true
-    href: SuperOffice.Data.TargetPeriodType.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.TargetPeriodType)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.TargetPeriodType
-    name: TargetPeriodType
-    isExternal: true
-    href: SuperOffice.Data.TargetPeriodType.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.Data.TargetPeriodType
-    name: TargetPeriodType
-    isExternal: true
-    href: SuperOffice.Data.TargetPeriodType.html
-  - name: )
-- uid: System.Enum.EnumUtil.GetDescription
-  commentId: M:EnumUtil.GetDescription(System.Enum)
-  parent: EnumUtil
-  definition: EnumUtil.GetDescription(System.Enum)
-  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  name: GetDescription(Enum)
-  nameWithType: EnumUtil.GetDescription(Enum)
-  fullName: EnumUtil.GetDescription(System.Enum)
-  spec.csharp:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
-  spec.vb:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -485,45 +315,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -532,222 +360,58 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: EnumUtil.GetDescription(System.Enum)
-  commentId: M:EnumUtil.GetDescription(System.Enum)
-  isExternal: true
-  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  name: GetDescription(Enum)
-  nameWithType: EnumUtil.GetDescription(Enum)
-  fullName: EnumUtil.GetDescription(System.Enum)
-  spec.csharp:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
-  spec.vb:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.Data.TargetPeriodType
   commentId: T:SuperOffice.Data.TargetPeriodType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.TargetPeriodType.html
   name: TargetPeriodType
   nameWithType: TargetPeriodType
   fullName: SuperOffice.Data.TargetPeriodType

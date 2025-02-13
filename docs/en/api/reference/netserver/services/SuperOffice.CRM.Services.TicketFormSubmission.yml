@@ -18,42 +18,26 @@ items:
   nameWithType: TicketFormSubmission
   fullName: SuperOffice.CRM.Services.TicketFormSubmission
   type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Class representing form submission related to ticket.
-
-    <p></p>
-
-    Carrier object for TicketFormSubmission.
-  example: []
+  summary: "\nClass representing form submission related to ticket.\n<p></p>\nCarrier object for TicketFormSubmission.\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public class TicketFormSubmission
+    content: 'public class TicketFormSubmission : Object'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
-
       Public Class TicketFormSubmission
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.TicketFormSubmission.#ctor
   commentId: M:SuperOffice.CRM.Services.TicketFormSubmission.#ctor
   id: '#ctor'
@@ -65,18 +49,21 @@ items:
   nameWithType: TicketFormSubmission.TicketFormSubmission()
   fullName: SuperOffice.CRM.Services.TicketFormSubmission.TicketFormSubmission()
   type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Default constructor
-  example: []
+  summary: "\nDefault constructor\n"
   syntax:
     content: public TicketFormSubmission()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.TicketFormSubmission.#ctor*
-  nameWithType.vb: TicketFormSubmission.New()
-  fullName.vb: SuperOffice.CRM.Services.TicketFormSubmission.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.TicketFormSubmission.ToString
   commentId: M:SuperOffice.CRM.Services.TicketFormSubmission.ToString
   id: ToString
@@ -88,19 +75,26 @@ items:
   nameWithType: TicketFormSubmission.ToString()
   fullName: SuperOffice.CRM.Services.TicketFormSubmission.ToString()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the carrier contents as a formatted string.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string.\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString() As String
-  overridden: System.Object.ToString
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.CRM.Services.TicketFormSubmission.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Services.TicketFormSubmission.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.TicketFormSubmission.ToString(System.String)
   id: ToString(System.String)
@@ -108,18 +102,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(string)
-  nameWithType: TicketFormSubmission.ToString(string)
-  fullName: SuperOffice.CRM.Services.TicketFormSubmission.ToString(string)
+  name: ToString(String)
+  nameWithType: TicketFormSubmission.ToString(String)
+  fullName: SuperOffice.CRM.Services.TicketFormSubmission.ToString(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Returns the carrier contents as a formatted string, useful for debugging.
-
-    Each line in the output is prefixed with the input value.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -131,9 +124,10 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.TicketFormSubmission.ToString*
-  nameWithType.vb: TicketFormSubmission.ToString(String)
-  fullName.vb: SuperOffice.CRM.Services.TicketFormSubmission.ToString(String)
-  name.vb: ToString(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.TicketFormSubmission.FormSubmissionId
   commentId: P:SuperOffice.CRM.Services.TicketFormSubmission.FormSubmissionId
   id: FormSubmissionId
@@ -145,28 +139,28 @@ items:
   nameWithType: TicketFormSubmission.FormSubmissionId
   fullName: SuperOffice.CRM.Services.TicketFormSubmission.FormSubmissionId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Primary key
-  example: []
+  summary: "\nPrimary key \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int FormSubmissionId { get; set; }
+    content: public virtual int FormSubmissionId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property FormSubmissionId As Integer
+    content.vb: Public Overridable Property FormSubmissionId As Integer
   overload: SuperOffice.CRM.Services.TicketFormSubmission.FormSubmissionId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.TicketFormSubmission.EmailAddress
   commentId: P:SuperOffice.CRM.Services.TicketFormSubmission.EmailAddress
   id: EmailAddress
@@ -178,28 +172,28 @@ items:
   nameWithType: TicketFormSubmission.EmailAddress
   fullName: SuperOffice.CRM.Services.TicketFormSubmission.EmailAddress
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The email address of the person who submitted
-  example: []
+  summary: "\nThe email address of the person who submitted \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string EmailAddress { get; set; }
+    content: public virtual string EmailAddress { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property EmailAddress As String
+    content.vb: Public Overridable Property EmailAddress As String
   overload: SuperOffice.CRM.Services.TicketFormSubmission.EmailAddress*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.TicketFormSubmission.Status
   commentId: P:SuperOffice.CRM.Services.TicketFormSubmission.Status
   id: Status
@@ -211,317 +205,44 @@ items:
   nameWithType: TicketFormSubmission.Status
   fullName: SuperOffice.CRM.Services.TicketFormSubmission.Status
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: What is the status of this submission
-  example: []
+  summary: "\nWhat is the status of this submission \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual FormSubmissionStatus Status { get; set; }
+    content: public virtual FormSubmissionStatus Status { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.FormSubmissionStatus
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Status As FormSubmissionStatus
+    content.vb: Public Overridable Property Status As FormSubmissionStatus
   overload: SuperOffice.CRM.Services.TicketFormSubmission.Status*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.TicketFormSubmission.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.TicketFormSubmission.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.TicketFormSubmission.html#SuperOffice_CRM_Services_TicketFormSubmission__ctor
   name: TicketFormSubmission
   nameWithType: TicketFormSubmission.TicketFormSubmission
   fullName: SuperOffice.CRM.Services.TicketFormSubmission.TicketFormSubmission
-  nameWithType.vb: TicketFormSubmission.New
-  fullName.vb: SuperOffice.CRM.Services.TicketFormSubmission.New
-  name.vb: New
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
 - uid: SuperOffice.CRM.Services.TicketFormSubmission.ToString*
   commentId: Overload:SuperOffice.CRM.Services.TicketFormSubmission.ToString
   isExternal: true
-  href: SuperOffice.CRM.Services.TicketFormSubmission.html#SuperOffice_CRM_Services_TicketFormSubmission_ToString
   name: ToString
   nameWithType: TicketFormSubmission.ToString
   fullName: SuperOffice.CRM.Services.TicketFormSubmission.ToString
@@ -529,17 +250,18 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.TicketFormSubmission.FormSubmissionId*
   commentId: Overload:SuperOffice.CRM.Services.TicketFormSubmission.FormSubmissionId
   isExternal: true
-  href: SuperOffice.CRM.Services.TicketFormSubmission.html#SuperOffice_CRM_Services_TicketFormSubmission_FormSubmissionId
   name: FormSubmissionId
   nameWithType: TicketFormSubmission.FormSubmissionId
   fullName: SuperOffice.CRM.Services.TicketFormSubmission.FormSubmissionId
@@ -547,24 +269,18 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Services.TicketFormSubmission.EmailAddress*
   commentId: Overload:SuperOffice.CRM.Services.TicketFormSubmission.EmailAddress
   isExternal: true
-  href: SuperOffice.CRM.Services.TicketFormSubmission.html#SuperOffice_CRM_Services_TicketFormSubmission_EmailAddress
   name: EmailAddress
   nameWithType: TicketFormSubmission.EmailAddress
   fullName: SuperOffice.CRM.Services.TicketFormSubmission.EmailAddress
 - uid: SuperOffice.CRM.Services.TicketFormSubmission.Status*
   commentId: Overload:SuperOffice.CRM.Services.TicketFormSubmission.Status
   isExternal: true
-  href: SuperOffice.CRM.Services.TicketFormSubmission.html#SuperOffice_CRM_Services_TicketFormSubmission_Status
   name: Status
   nameWithType: TicketFormSubmission.Status
   fullName: SuperOffice.CRM.Services.TicketFormSubmission.Status

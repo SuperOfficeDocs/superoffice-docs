@@ -38,41 +38,33 @@ items:
   nameWithType: WorkflowRecordData
   fullName: SuperOffice.CRM.Rows.WorkflowRecordData
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: >-
-    POCO (Plain Old CLR Object) class that can be used to hold data corresponding
-
-    to a row from the workflow table.
-  remarks: >-
-    Please use this class instead of a full <xref href="SuperOffice.CRM.Rows.WorkflowRow" data-throw-if-not-resolved="false"></xref> object when
-
-    you do not need to <b>create or update</b> a value in the database. Row objects have a large overhead
-
-    since they carry the corresponding <xref href="SuperOffice.CRM.Data.WorkflowTableInfo" data-throw-if-not-resolved="false"></xref> object, which
-
-    in turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.
-  example: []
+  summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the workflow table.\n"
+  remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.WorkflowRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.WorkflowTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
   syntax:
-    content: public class WorkflowRecordData
-    content.vb: Public Class WorkflowRecordData
+    content: 'public class WorkflowRecordData : Object'
+    content.vb: >-
+      Public Class WorkflowRecordData
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Rows.WorkflowRecordData.EnumUtil.MapEnums``2
-  - SuperOffice.CRM.Rows.WorkflowRecordData.SuperOffice.CRM.Rows.WorkflowRecordDataExtensions.ToInsert
-  - SuperOffice.CRM.Rows.WorkflowRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.CRM.Rows.WorkflowRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.WorkflowRecordData)
   - SuperOffice.CRM.Rows.WorkflowRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Rows.WorkflowRecordData.SuperOffice.CRM.Rows.WorkflowRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.WorkflowRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Rows.WorkflowRecordData.WorkflowId
   commentId: F:SuperOffice.CRM.Rows.WorkflowRecordData.WorkflowId
   id: WorkflowId
@@ -84,16 +76,22 @@ items:
   nameWithType: WorkflowRecordData.WorkflowId
   fullName: SuperOffice.CRM.Rows.WorkflowRecordData.WorkflowId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Primary key
-  example: []
+  summary: "\nPrimary key \n"
   syntax:
     content: public int WorkflowId
     return:
       type: System.Int32
     content.vb: Public WorkflowId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.WorkflowRecordData.Name
   commentId: F:SuperOffice.CRM.Rows.WorkflowRecordData.Name
   id: Name
@@ -105,16 +103,22 @@ items:
   nameWithType: WorkflowRecordData.Name
   fullName: SuperOffice.CRM.Rows.WorkflowRecordData.Name
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Name of the workflow
-  example: []
+  summary: "\nName of the workflow \n"
   syntax:
     content: public string Name
     return:
       type: System.String
     content.vb: Public Name As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.WorkflowRecordData.Description
   commentId: F:SuperOffice.CRM.Rows.WorkflowRecordData.Description
   id: Description
@@ -126,16 +130,22 @@ items:
   nameWithType: WorkflowRecordData.Description
   fullName: SuperOffice.CRM.Rows.WorkflowRecordData.Description
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Description of the workflow
-  example: []
+  summary: "\nDescription of the workflow \n"
   syntax:
     content: public string Description
     return:
       type: System.String
     content.vb: Public Description As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.WorkflowRecordData.Status
   commentId: F:SuperOffice.CRM.Rows.WorkflowRecordData.Status
   id: Status
@@ -147,16 +157,22 @@ items:
   nameWithType: WorkflowRecordData.Status
   fullName: SuperOffice.CRM.Rows.WorkflowRecordData.Status
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Status of the workflow definition
-  example: []
+  summary: "\nStatus of the workflow definition \n"
   syntax:
     content: public WorkflowDefinitionStatus Status
     return:
       type: SuperOffice.Data.WorkflowDefinitionStatus
     content.vb: Public Status As WorkflowDefinitionStatus
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.WorkflowRecordData.AssociateId
   commentId: F:SuperOffice.CRM.Rows.WorkflowRecordData.AssociateId
   id: AssociateId
@@ -168,16 +184,22 @@ items:
   nameWithType: WorkflowRecordData.AssociateId
   fullName: SuperOffice.CRM.Rows.WorkflowRecordData.AssociateId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Associate who owns this workflow
-  example: []
+  summary: "\nAssociate who owns this workflow \n"
   syntax:
     content: public int AssociateId
     return:
       type: System.Int32
     content.vb: Public AssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.WorkflowRecordData.GroupId
   commentId: F:SuperOffice.CRM.Rows.WorkflowRecordData.GroupId
   id: GroupId
@@ -189,16 +211,22 @@ items:
   nameWithType: WorkflowRecordData.GroupId
   fullName: SuperOffice.CRM.Rows.WorkflowRecordData.GroupId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Group id of *original* owning associate, so that changes to owner's primary group do not influence group membership of this workflow.
-  example: []
+  summary: "\nGroup id of *original* owning associate, so that changes to owner&apos;s primary group do not influence group membership of this workflow. \n"
   syntax:
     content: public int GroupId
     return:
       type: System.Int32
     content.vb: Public GroupId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.WorkflowRecordData.StartOnlyOnce
   commentId: F:SuperOffice.CRM.Rows.WorkflowRecordData.StartOnlyOnce
   id: StartOnlyOnce
@@ -210,16 +238,22 @@ items:
   nameWithType: WorkflowRecordData.StartOnlyOnce
   fullName: SuperOffice.CRM.Rows.WorkflowRecordData.StartOnlyOnce
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: A contact can start this flow only once
-  example: []
+  summary: "\nA contact can start this flow only once \n"
   syntax:
     content: public short StartOnlyOnce
     return:
       type: System.Int16
     content.vb: Public StartOnlyOnce As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.WorkflowRecordData.JumpToFinish
   commentId: F:SuperOffice.CRM.Rows.WorkflowRecordData.JumpToFinish
   id: JumpToFinish
@@ -231,16 +265,22 @@ items:
   nameWithType: WorkflowRecordData.JumpToFinish
   fullName: SuperOffice.CRM.Rows.WorkflowRecordData.JumpToFinish
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: When a goal is reached, contact jumps directly to finished
-  example: []
+  summary: "\nWhen a goal is reached, contact jumps directly to finished \n"
   syntax:
     content: public short JumpToFinish
     return:
       type: System.Int16
     content.vb: Public JumpToFinish As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.WorkflowRecordData.VisibleForAll
   commentId: F:SuperOffice.CRM.Rows.WorkflowRecordData.VisibleForAll
   id: VisibleForAll
@@ -252,16 +292,22 @@ items:
   nameWithType: WorkflowRecordData.VisibleForAll
   fullName: SuperOffice.CRM.Rows.WorkflowRecordData.VisibleForAll
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: True if visible for all
-  example: []
+  summary: "\nTrue if visible for all \n"
   syntax:
     content: public short VisibleForAll
     return:
       type: System.Int16
     content.vb: Public VisibleForAll As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.WorkflowRecordData.VisibleForAssociates
   commentId: F:SuperOffice.CRM.Rows.WorkflowRecordData.VisibleForAssociates
   id: VisibleForAssociates
@@ -273,16 +319,22 @@ items:
   nameWithType: WorkflowRecordData.VisibleForAssociates
   fullName: SuperOffice.CRM.Rows.WorkflowRecordData.VisibleForAssociates
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Array of references to the visible for associates
-  example: []
+  summary: "\nArray of references to the visible for associates \n"
   syntax:
     content: public int[] VisibleForAssociates
     return:
       type: System.Int32[]
     content.vb: Public VisibleForAssociates As Integer()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.WorkflowRecordData.VisibleForGroups
   commentId: F:SuperOffice.CRM.Rows.WorkflowRecordData.VisibleForGroups
   id: VisibleForGroups
@@ -294,16 +346,22 @@ items:
   nameWithType: WorkflowRecordData.VisibleForGroups
   fullName: SuperOffice.CRM.Rows.WorkflowRecordData.VisibleForGroups
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Array of references to the visible for groups
-  example: []
+  summary: "\nArray of references to the visible for groups \n"
   syntax:
     content: public int[] VisibleForGroups
     return:
       type: System.Int32[]
     content.vb: Public VisibleForGroups As Integer()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.WorkflowRecordData.Registered
   commentId: F:SuperOffice.CRM.Rows.WorkflowRecordData.Registered
   id: Registered
@@ -315,16 +373,22 @@ items:
   nameWithType: WorkflowRecordData.Registered
   fullName: SuperOffice.CRM.Rows.WorkflowRecordData.Registered
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Registered when in UTC.
-  example: []
+  summary: "\nRegistered when in UTC.  \n"
   syntax:
     content: public DateTime Registered
     return:
       type: System.DateTime
-    content.vb: Public Registered As Date
+    content.vb: Public Registered As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.WorkflowRecordData.RegisteredAssociateId
   commentId: F:SuperOffice.CRM.Rows.WorkflowRecordData.RegisteredAssociateId
   id: RegisteredAssociateId
@@ -336,16 +400,22 @@ items:
   nameWithType: WorkflowRecordData.RegisteredAssociateId
   fullName: SuperOffice.CRM.Rows.WorkflowRecordData.RegisteredAssociateId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Registered by whom
-  example: []
+  summary: "\nRegistered by whom \n"
   syntax:
     content: public int RegisteredAssociateId
     return:
       type: System.Int32
     content.vb: Public RegisteredAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.WorkflowRecordData.Updated
   commentId: F:SuperOffice.CRM.Rows.WorkflowRecordData.Updated
   id: Updated
@@ -357,16 +427,22 @@ items:
   nameWithType: WorkflowRecordData.Updated
   fullName: SuperOffice.CRM.Rows.WorkflowRecordData.Updated
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Last updated when in UTC.
-  example: []
+  summary: "\nLast updated when in UTC.  \n"
   syntax:
     content: public DateTime Updated
     return:
       type: System.DateTime
-    content.vb: Public Updated As Date
+    content.vb: Public Updated As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.WorkflowRecordData.UpdatedAssociateId
   commentId: F:SuperOffice.CRM.Rows.WorkflowRecordData.UpdatedAssociateId
   id: UpdatedAssociateId
@@ -378,16 +454,22 @@ items:
   nameWithType: WorkflowRecordData.UpdatedAssociateId
   fullName: SuperOffice.CRM.Rows.WorkflowRecordData.UpdatedAssociateId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Last updated by whom
-  example: []
+  summary: "\nLast updated by whom \n"
   syntax:
     content: public int UpdatedAssociateId
     return:
       type: System.Int32
     content.vb: Public UpdatedAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.WorkflowRecordData.UpdatedCount
   commentId: F:SuperOffice.CRM.Rows.WorkflowRecordData.UpdatedCount
   id: UpdatedCount
@@ -399,16 +481,22 @@ items:
   nameWithType: WorkflowRecordData.UpdatedCount
   fullName: SuperOffice.CRM.Rows.WorkflowRecordData.UpdatedCount
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Number of updates made to this record
-  example: []
+  summary: "\nNumber of updates made to this record \n"
   syntax:
     content: public short UpdatedCount
     return:
       type: System.Int16
     content.vb: Public UpdatedCount As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.WorkflowRecordData.UseWorkflowStart
   commentId: F:SuperOffice.CRM.Rows.WorkflowRecordData.UseWorkflowStart
   id: UseWorkflowStart
@@ -420,16 +508,22 @@ items:
   nameWithType: WorkflowRecordData.UseWorkflowStart
   fullName: SuperOffice.CRM.Rows.WorkflowRecordData.UseWorkflowStart
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Start the flow running with enrolled participants at the given time
-  example: []
+  summary: "\nStart the flow running with enrolled participants at the given time \n"
   syntax:
     content: public short UseWorkflowStart
     return:
       type: System.Int16
     content.vb: Public UseWorkflowStart As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.WorkflowRecordData.WorkflowStart
   commentId: F:SuperOffice.CRM.Rows.WorkflowRecordData.WorkflowStart
   id: WorkflowStart
@@ -441,16 +535,22 @@ items:
   nameWithType: WorkflowRecordData.WorkflowStart
   fullName: SuperOffice.CRM.Rows.WorkflowRecordData.WorkflowStart
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: When to start running the workflow. Until start, any enrolled members are not running through the flow, just waiting. Datetime is interpreted in stored timezone or as UTC in UTC.
-  example: []
+  summary: "\nWhen to start running the workflow. Until start, any enrolled members are not running through the flow, just waiting. Datetime is interpreted in stored timezone or as UTC in UTC.  \n"
   syntax:
     content: public DateTime WorkflowStart
     return:
       type: System.DateTime
-    content.vb: Public WorkflowStart As Date
+    content.vb: Public WorkflowStart As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.WorkflowRecordData.UseEnrollmentEnd
   commentId: F:SuperOffice.CRM.Rows.WorkflowRecordData.UseEnrollmentEnd
   id: UseEnrollmentEnd
@@ -462,16 +562,22 @@ items:
   nameWithType: WorkflowRecordData.UseEnrollmentEnd
   fullName: SuperOffice.CRM.Rows.WorkflowRecordData.UseEnrollmentEnd
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: End enrollment into the workflow at the given time
-  example: []
+  summary: "\nEnd enrollment into the workflow at the given time \n"
   syntax:
     content: public short UseEnrollmentEnd
     return:
       type: System.Int16
     content.vb: Public UseEnrollmentEnd As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.WorkflowRecordData.EnrollmentEnd
   commentId: F:SuperOffice.CRM.Rows.WorkflowRecordData.EnrollmentEnd
   id: EnrollmentEnd
@@ -483,16 +589,22 @@ items:
   nameWithType: WorkflowRecordData.EnrollmentEnd
   fullName: SuperOffice.CRM.Rows.WorkflowRecordData.EnrollmentEnd
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Do not enroll more participant after given time, interpreted in stored timezone or as UTC in UTC.
-  example: []
+  summary: "\nDo not enroll more participant after given time, interpreted in stored timezone or as UTC in UTC.  \n"
   syntax:
     content: public DateTime EnrollmentEnd
     return:
       type: System.DateTime
-    content.vb: Public EnrollmentEnd As Date
+    content.vb: Public EnrollmentEnd As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.WorkflowRecordData.TzLocationId
   commentId: F:SuperOffice.CRM.Rows.WorkflowRecordData.TzLocationId
   id: TzLocationId
@@ -504,16 +616,22 @@ items:
   nameWithType: WorkflowRecordData.TzLocationId
   fullName: SuperOffice.CRM.Rows.WorkflowRecordData.TzLocationId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Timezone used for this workflows datetimes. If not set, behavior is best guess - databasetime, system time...
-  example: []
+  summary: "\nTimezone used for this workflows datetimes. If not set, behavior is best guess - databasetime, system time... \n"
   syntax:
     content: public int TzLocationId
     return:
       type: System.Int32
     content.vb: Public TzLocationId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.WorkflowRecordData.RemoveFromFlows
   commentId: F:SuperOffice.CRM.Rows.WorkflowRecordData.RemoveFromFlows
   id: RemoveFromFlows
@@ -525,16 +643,22 @@ items:
   nameWithType: WorkflowRecordData.RemoveFromFlows
   fullName: SuperOffice.CRM.Rows.WorkflowRecordData.RemoveFromFlows
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Workflows to remove the participants from when they are enrolled in this workflow
-  example: []
+  summary: "\nWorkflows to remove the participants from when they are enrolled in this workflow \n"
   syntax:
     content: public int[] RemoveFromFlows
     return:
       type: System.Int32[]
     content.vb: Public RemoveFromFlows As Integer()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.WorkflowRecordData.BlockLists
   commentId: F:SuperOffice.CRM.Rows.WorkflowRecordData.BlockLists
   id: BlockLists
@@ -546,16 +670,22 @@ items:
   nameWithType: WorkflowRecordData.BlockLists
   fullName: SuperOffice.CRM.Rows.WorkflowRecordData.BlockLists
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Persons in the given selections are not allowed to enter this workflow
-  example: []
+  summary: "\nPersons in the given selections are not allowed to enter this workflow \n"
   syntax:
     content: public int[] BlockLists
     return:
       type: System.Int32[]
     content.vb: Public BlockLists As Integer()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.WorkflowRecordData.ExitFlowId
   commentId: F:SuperOffice.CRM.Rows.WorkflowRecordData.ExitFlowId
   id: ExitFlowId
@@ -567,16 +697,22 @@ items:
   nameWithType: WorkflowRecordData.ExitFlowId
   fullName: SuperOffice.CRM.Rows.WorkflowRecordData.ExitFlowId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: On exit with no success criteria met, we attempt to add the participant to the given flow
-  example: []
+  summary: "\nOn exit with no success criteria met, we attempt to add the participant to the given flow \n"
   syntax:
     content: public int ExitFlowId
     return:
       type: System.Int32
     content.vb: Public ExitFlowId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.WorkflowRecordData.ExitSuccessFlowId
   commentId: F:SuperOffice.CRM.Rows.WorkflowRecordData.ExitSuccessFlowId
   id: ExitSuccessFlowId
@@ -588,16 +724,22 @@ items:
   nameWithType: WorkflowRecordData.ExitSuccessFlowId
   fullName: SuperOffice.CRM.Rows.WorkflowRecordData.ExitSuccessFlowId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: On exit with success criteria met, we attempt to add the participant to the given flow
-  example: []
+  summary: "\nOn exit with success criteria met, we attempt to add the participant to the given flow \n"
   syntax:
     content: public int ExitSuccessFlowId
     return:
       type: System.Int32
     content.vb: Public ExitSuccessFlowId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.WorkflowRecordData.#ctor
   commentId: M:SuperOffice.CRM.Rows.WorkflowRecordData.#ctor
   id: '#ctor'
@@ -609,590 +751,220 @@ items:
   nameWithType: WorkflowRecordData.WorkflowRecordData()
   fullName: SuperOffice.CRM.Rows.WorkflowRecordData.WorkflowRecordData()
   type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
     content: public WorkflowRecordData()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Rows.WorkflowRecordData.#ctor*
-  nameWithType.vb: WorkflowRecordData.New()
-  fullName.vb: SuperOffice.CRM.Rows.WorkflowRecordData.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 references:
-- uid: SuperOffice.CRM.Rows.WorkflowRow
-  commentId: T:SuperOffice.CRM.Rows.WorkflowRow
-  parent: SuperOffice.CRM.Rows
-  isExternal: true
-  href: SuperOffice.CRM.Rows.WorkflowRow.html
-  name: WorkflowRow
-  nameWithType: WorkflowRow
-  fullName: SuperOffice.CRM.Rows.WorkflowRow
-- uid: SuperOffice.CRM.Data.WorkflowTableInfo
-  commentId: T:SuperOffice.CRM.Data.WorkflowTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.WorkflowTableInfo.html
-  name: WorkflowTableInfo
-  nameWithType: WorkflowTableInfo
-  fullName: SuperOffice.CRM.Data.WorkflowTableInfo
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows
-    name: Rows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows
-    name: Rows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.Rows.WorkflowRecordData.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<WorkflowRecordData, To>(WorkflowRecordData)
-  nameWithType: EnumUtil.MapEnums<WorkflowRecordData, To>(WorkflowRecordData)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.WorkflowRecordData, To>(SuperOffice.CRM.Rows.WorkflowRecordData)
-  nameWithType.vb: EnumUtil.MapEnums(Of WorkflowRecordData, To)(WorkflowRecordData)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.WorkflowRecordData, To)(SuperOffice.CRM.Rows.WorkflowRecordData)
-  name.vb: MapEnums(Of WorkflowRecordData, To)(WorkflowRecordData)
+  name: MapEnums<WorkflowRecordData, To>()
+  nameWithType: EnumUtil.MapEnums<WorkflowRecordData, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.WorkflowRecordData, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of WorkflowRecordData, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.WorkflowRecordData, To)()
+  name.vb: MapEnums(Of WorkflowRecordData, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Rows.WorkflowRecordData)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<WorkflowRecordData, To>
+    nameWithType: EnumUtil.MapEnums<WorkflowRecordData, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.WorkflowRecordData, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.WorkflowRecordData
-    name: WorkflowRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.WorkflowRecordData.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Rows.WorkflowRecordData
-    name: WorkflowRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.WorkflowRecordData.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Rows.WorkflowRecordData)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of WorkflowRecordData, To)
+    nameWithType: EnumUtil.MapEnums(Of WorkflowRecordData, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.WorkflowRecordData, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.WorkflowRecordData
-    name: WorkflowRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.WorkflowRecordData.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.WorkflowRecordData
-    name: WorkflowRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.WorkflowRecordData.html
-  - name: )
-- uid: SuperOffice.CRM.Rows.WorkflowRecordData.SuperOffice.CRM.Rows.WorkflowRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.WorkflowRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowRecordData)
-  parent: SuperOffice.CRM.Rows.WorkflowRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.WorkflowRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowRecordData)
-  href: SuperOffice.CRM.Rows.WorkflowRecordDataExtensions.html#SuperOffice_CRM_Rows_WorkflowRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_WorkflowRecordData_
-  name: ToInsert(WorkflowRecordData)
-  nameWithType: WorkflowRecordDataExtensions.ToInsert(WorkflowRecordData)
-  fullName: SuperOffice.CRM.Rows.WorkflowRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowRecordData)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.WorkflowRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowRecordData)
-    name: ToInsert
-    isExternal: true
-    href: SuperOffice.CRM.Rows.WorkflowRecordDataExtensions.html#SuperOffice_CRM_Rows_WorkflowRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_WorkflowRecordData_
-  - name: (
-  - uid: SuperOffice.CRM.Rows.WorkflowRecordData
-    name: WorkflowRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.WorkflowRecordData.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.WorkflowRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowRecordData)
-    name: ToInsert
-    isExternal: true
-    href: SuperOffice.CRM.Rows.WorkflowRecordDataExtensions.html#SuperOffice_CRM_Rows_WorkflowRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_WorkflowRecordData_
-  - name: (
-  - uid: SuperOffice.CRM.Rows.WorkflowRecordData
-    name: WorkflowRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.WorkflowRecordData.html
-  - name: )
-- uid: SuperOffice.CRM.Rows.WorkflowRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  parent: SuperOffice.ErpSync.ConnectorWS.Converters
-  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<WorkflowRecordData, To>(WorkflowRecordData)
-  nameWithType: Converters.MapEnums<WorkflowRecordData, To>(WorkflowRecordData)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.WorkflowRecordData, To>(SuperOffice.CRM.Rows.WorkflowRecordData)
-  nameWithType.vb: Converters.MapEnums(Of WorkflowRecordData, To)(WorkflowRecordData)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.WorkflowRecordData, To)(SuperOffice.CRM.Rows.WorkflowRecordData)
-  name.vb: MapEnums(Of WorkflowRecordData, To)(WorkflowRecordData)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Rows.WorkflowRecordData)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.WorkflowRecordData
-    name: WorkflowRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.WorkflowRecordData.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.CRM.Rows.WorkflowRecordData
-    name: WorkflowRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.WorkflowRecordData.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Rows.WorkflowRecordData)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.WorkflowRecordData
-    name: WorkflowRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.WorkflowRecordData.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.WorkflowRecordData
-    name: WorkflowRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.WorkflowRecordData.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.WorkflowRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.WorkflowRecordData)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<WorkflowRecordData>(WorkflowRecordData, WorkflowRecordData)
-  nameWithType: ObjectExtensions.AssignByReflection<WorkflowRecordData>(WorkflowRecordData, WorkflowRecordData)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.WorkflowRecordData>(SuperOffice.CRM.Rows.WorkflowRecordData, SuperOffice.CRM.Rows.WorkflowRecordData)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of WorkflowRecordData)(WorkflowRecordData, WorkflowRecordData)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.WorkflowRecordData)(SuperOffice.CRM.Rows.WorkflowRecordData, SuperOffice.CRM.Rows.WorkflowRecordData)
-  name.vb: AssignByReflection(Of WorkflowRecordData)(WorkflowRecordData, WorkflowRecordData)
+  name: AssignByReflection<WorkflowRecordData>(WorkflowRecordData)
+  nameWithType: ObjectExtensions.AssignByReflection<WorkflowRecordData>(WorkflowRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.WorkflowRecordData>(SuperOffice.CRM.Rows.WorkflowRecordData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of WorkflowRecordData)(WorkflowRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.WorkflowRecordData)(SuperOffice.CRM.Rows.WorkflowRecordData)
+  name.vb: AssignByReflection(Of WorkflowRecordData)(WorkflowRecordData)
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.WorkflowRecordData,SuperOffice.CRM.Rows.WorkflowRecordData)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<WorkflowRecordData>
+    nameWithType: ObjectExtensions.AssignByReflection<WorkflowRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.WorkflowRecordData>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.WorkflowRecordData
-    name: WorkflowRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.WorkflowRecordData.html
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Rows.WorkflowRecordData
     name: WorkflowRecordData
+    nameWithType: WorkflowRecordData
+    fullName: SuperOffice.CRM.Rows.WorkflowRecordData
     isExternal: true
-    href: SuperOffice.CRM.Rows.WorkflowRecordData.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.WorkflowRecordData
-    name: WorkflowRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.WorkflowRecordData.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.WorkflowRecordData,SuperOffice.CRM.Rows.WorkflowRecordData)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of WorkflowRecordData)
+    nameWithType: ObjectExtensions.AssignByReflection(Of WorkflowRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.WorkflowRecordData)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Rows.WorkflowRecordData
     name: WorkflowRecordData
+    nameWithType: WorkflowRecordData
+    fullName: SuperOffice.CRM.Rows.WorkflowRecordData
     isExternal: true
-    href: SuperOffice.CRM.Rows.WorkflowRecordData.html
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.WorkflowRecordData
-    name: WorkflowRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.WorkflowRecordData.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.WorkflowRecordData
-    name: WorkflowRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.WorkflowRecordData.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.WorkflowRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<WorkflowRecordData>(WorkflowRecordData)
-  nameWithType: ObjectExtensions.GraphCopy<WorkflowRecordData>(WorkflowRecordData)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.WorkflowRecordData>(SuperOffice.CRM.Rows.WorkflowRecordData)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of WorkflowRecordData)(WorkflowRecordData)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.WorkflowRecordData)(SuperOffice.CRM.Rows.WorkflowRecordData)
-  name.vb: GraphCopy(Of WorkflowRecordData)(WorkflowRecordData)
+  name: GraphCopy<WorkflowRecordData>()
+  nameWithType: ObjectExtensions.GraphCopy<WorkflowRecordData>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.WorkflowRecordData>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of WorkflowRecordData)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.WorkflowRecordData)()
+  name.vb: GraphCopy(Of WorkflowRecordData)()
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Rows.WorkflowRecordData)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<WorkflowRecordData>
+    nameWithType: ObjectExtensions.GraphCopy<WorkflowRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.WorkflowRecordData>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.WorkflowRecordData
-    name: WorkflowRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.WorkflowRecordData.html
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Rows.WorkflowRecordData
-    name: WorkflowRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.WorkflowRecordData.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Rows.WorkflowRecordData)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of WorkflowRecordData)
+    nameWithType: ObjectExtensions.GraphCopy(Of WorkflowRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.WorkflowRecordData)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.WorkflowRecordData
-    name: WorkflowRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.WorkflowRecordData.html
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.WorkflowRecordData
-    name: WorkflowRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.WorkflowRecordData.html
-  - name: )
-- uid: SuperOffice.CRM.Data
-  commentId: N:SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM.Data
-  nameWithType: SuperOffice.CRM.Data
-  fullName: SuperOffice.CRM.Data
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.WorkflowRecordData.SuperOffice.CRM.Rows.WorkflowRecordDataExtensions.ToInsert
+  commentId: M:SuperOffice.CRM.Rows.WorkflowRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowRecordData)
+  parent: SuperOffice.CRM.Rows.WorkflowRecordDataExtensions
+  definition: SuperOffice.CRM.Rows.WorkflowRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowRecordData)
+  name: ToInsert()
+  nameWithType: WorkflowRecordDataExtensions.ToInsert()
+  fullName: SuperOffice.CRM.Rows.WorkflowRecordDataExtensions.ToInsert()
   spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.CRM.Rows.WorkflowRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: WorkflowRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.WorkflowRecordDataExtensions.ToInsert
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.CRM.Data.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.CRM.Rows.WorkflowRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: WorkflowRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.WorkflowRecordDataExtensions.ToInsert
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.WorkflowRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<WorkflowRecordData, To>()
+  nameWithType: Converters.MapEnums<WorkflowRecordData, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.WorkflowRecordData, To>()
+  nameWithType.vb: Converters.MapEnums(Of WorkflowRecordData, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.WorkflowRecordData, To)()
+  name.vb: MapEnums(Of WorkflowRecordData, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<WorkflowRecordData, To>
+    nameWithType: Converters.MapEnums<WorkflowRecordData, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.WorkflowRecordData, To>
     isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of WorkflowRecordData, To)
+    nameWithType: Converters.MapEnums(Of WorkflowRecordData, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.WorkflowRecordData, To)
     isExternal: true
-    href: SuperOffice.CRM.Data.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -1201,130 +973,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.CRM.Rows.WorkflowRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowRecordData)
-  commentId: M:SuperOffice.CRM.Rows.WorkflowRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowRecordData)
-  isExternal: true
-  href: SuperOffice.CRM.Rows.WorkflowRecordDataExtensions.html#SuperOffice_CRM_Rows_WorkflowRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_WorkflowRecordData_
-  name: ToInsert(WorkflowRecordData)
-  nameWithType: WorkflowRecordDataExtensions.ToInsert(WorkflowRecordData)
-  fullName: SuperOffice.CRM.Rows.WorkflowRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowRecordData)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.WorkflowRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowRecordData)
-    name: ToInsert
-    isExternal: true
-    href: SuperOffice.CRM.Rows.WorkflowRecordDataExtensions.html#SuperOffice_CRM_Rows_WorkflowRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_WorkflowRecordData_
-  - name: (
-  - uid: SuperOffice.CRM.Rows.WorkflowRecordData
-    name: WorkflowRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.WorkflowRecordData.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.WorkflowRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowRecordData)
-    name: ToInsert
-    isExternal: true
-    href: SuperOffice.CRM.Rows.WorkflowRecordDataExtensions.html#SuperOffice_CRM_Rows_WorkflowRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_WorkflowRecordData_
-  - name: (
-  - uid: SuperOffice.CRM.Rows.WorkflowRecordData
-    name: WorkflowRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.WorkflowRecordData.html
-  - name: )
-- uid: SuperOffice.CRM.Rows.WorkflowRecordDataExtensions
-  commentId: T:SuperOffice.CRM.Rows.WorkflowRecordDataExtensions
-  parent: SuperOffice.CRM.Rows
-  isExternal: true
-  href: SuperOffice.CRM.Rows.WorkflowRecordDataExtensions.html
-  name: WorkflowRecordDataExtensions
-  nameWithType: WorkflowRecordDataExtensions
-  fullName: SuperOffice.CRM.Rows.WorkflowRecordDataExtensions
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<From, To>(From)
-  nameWithType: Converters.MapEnums<From, To>(From)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
-  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
-  name.vb: MapEnums(Of From, To)(From)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - name: From
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - name: From
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters
-  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
-  parent: SuperOffice.ErpSync.ConnectorWS
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
-  name: Converters
-  nameWithType: Converters
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   name: AssignByReflection<T>(T, T)
   nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
   fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
@@ -1333,46 +1018,56 @@ references:
   name.vb: AssignByReflection(Of T)(T, T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
-  - name: ','
-  - name: " "
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.ObjectExtensions
   commentId: T:SuperOffice.Util.ObjectExtensions
   parent: SuperOffice.Util
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
   name: ObjectExtensions
   nameWithType: ObjectExtensions
   fullName: SuperOffice.Util.ObjectExtensions
 - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   name: GraphCopy<T>(T)
   nameWithType: ObjectExtensions.GraphCopy<T>(T)
   fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
@@ -1381,201 +1076,207 @@ references:
   name.vb: GraphCopy(Of T)(T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS
-  commentId: N:SuperOffice.ErpSync.ConnectorWS
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.WorkflowRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowRecordData)
+  commentId: M:SuperOffice.CRM.Rows.WorkflowRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowRecordData)
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.ErpSync.ConnectorWS
-  nameWithType: SuperOffice.ErpSync.ConnectorWS
-  fullName: SuperOffice.ErpSync.ConnectorWS
+  name: ToInsert(WorkflowRecordData)
+  nameWithType: WorkflowRecordDataExtensions.ToInsert(WorkflowRecordData)
+  fullName: SuperOffice.CRM.Rows.WorkflowRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowRecordData)
   spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.CRM.Rows.WorkflowRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowRecordData)
+    name: ToInsert
+    nameWithType: WorkflowRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.WorkflowRecordDataExtensions.ToInsert
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.WorkflowRecordData
+    name: WorkflowRecordData
+    nameWithType: WorkflowRecordData
+    fullName: SuperOffice.CRM.Rows.WorkflowRecordData
     isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.CRM.Rows.WorkflowRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.WorkflowRecordData)
+    name: ToInsert
+    nameWithType: WorkflowRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.WorkflowRecordDataExtensions.ToInsert
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.WorkflowRecordData
+    name: WorkflowRecordData
+    nameWithType: WorkflowRecordData
+    fullName: SuperOffice.CRM.Rows.WorkflowRecordData
     isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.WorkflowRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.WorkflowRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: WorkflowRecordDataExtensions
+  nameWithType: WorkflowRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.WorkflowRecordDataExtensions
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.Data.WorkflowDefinitionStatus
   commentId: T:SuperOffice.Data.WorkflowDefinitionStatus
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.WorkflowDefinitionStatus.html
   name: WorkflowDefinitionStatus
   nameWithType: WorkflowDefinitionStatus
   fullName: SuperOffice.Data.WorkflowDefinitionStatus
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
 - uid: System.Int16
   commentId: T:System.Int16
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int16
-  name: short
-  nameWithType: short
-  fullName: short
-  nameWithType.vb: Short
-  fullName.vb: Short
-  name.vb: Short
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: System.Int32[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int[]
-  nameWithType: int[]
-  fullName: int[]
-  nameWithType.vb: Integer()
-  fullName.vb: Integer()
-  name.vb: Integer()
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
   spec.csharp:
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
 - uid: SuperOffice.CRM.Rows.WorkflowRecordData.#ctor*
   commentId: Overload:SuperOffice.CRM.Rows.WorkflowRecordData.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Rows.WorkflowRecordData.html#SuperOffice_CRM_Rows_WorkflowRecordData__ctor
   name: WorkflowRecordData
   nameWithType: WorkflowRecordData.WorkflowRecordData
   fullName: SuperOffice.CRM.Rows.WorkflowRecordData.WorkflowRecordData
-  nameWithType.vb: WorkflowRecordData.New
-  fullName.vb: SuperOffice.CRM.Rows.WorkflowRecordData.New
-  name.vb: New

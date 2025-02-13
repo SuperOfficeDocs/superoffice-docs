@@ -16,16 +16,24 @@ items:
   nameWithType: IRelationAgent
   fullName: SuperOffice.WebApi.Agents.IRelationAgent
   type: Interface
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Contact/Person relations
-  example: []
+  summary: "\nContact/Person relations\n"
   syntax:
     content: 'public interface IRelationAgent : IDisposable'
-    content.vb: Public Interface IRelationAgent Inherits IDisposable
-  inheritedMembers:
-  - System.IDisposable.Dispose
+    content.vb: >-
+      Public Interface IRelationAgent
+          Inherits IDisposable
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
 - uid: SuperOffice.WebApi.Agents.IRelationAgent.CreateDefaultContactRelationEntityAsync(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IRelationAgent.CreateDefaultContactRelationEntityAsync(SuperOffice.WebApi.RequestOptions)
   id: CreateDefaultContactRelationEntityAsync(SuperOffice.WebApi.RequestOptions)
@@ -37,20 +45,19 @@ items:
   nameWithType: IRelationAgent.CreateDefaultContactRelationEntityAsync(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IRelationAgent.CreateDefaultContactRelationEntityAsync(SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: >-
-    Set default values into a new ContactRelationEntity.
-
-    NetServer calculates default values on the entity, which is required when creating/storing a new instance
-  example: []
+  summary: "\nSet default values into a new ContactRelationEntity.\nNetServer calculates default values on the entity, which is required when creating/storing a new instance\n"
   syntax:
     content: Task<ContactRelationEntity> CreateDefaultContactRelationEntityAsync(RequestOptions requestOptions = null)
     parameters:
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ContactRelationEntity}
       description: A blank ContactRelationEntity
@@ -63,15 +70,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetContactRelationEntityAsync(int, RequestOptions)
-  nameWithType: IRelationAgent.GetContactRelationEntityAsync(int, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IRelationAgent.GetContactRelationEntityAsync(int, SuperOffice.WebApi.RequestOptions)
+  name: GetContactRelationEntityAsync(Int32, RequestOptions)
+  nameWithType: IRelationAgent.GetContactRelationEntityAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IRelationAgent.GetContactRelationEntityAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Gets a specific ContactRelationEntity object.
-  example: []
+  summary: "\nGets a specific ContactRelationEntity object.                        \n"
   syntax:
     content: Task<ContactRelationEntity> GetContactRelationEntityAsync(int contactRelationEntityId, RequestOptions requestOptions = null)
     parameters:
@@ -80,15 +89,12 @@ items:
       description: The identifier of the ContactRelationEntity object
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ContactRelationEntity}
       description: ContactRelationEntity
     content.vb: Function GetContactRelationEntityAsync(contactRelationEntityId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of ContactRelationEntity)
   overload: SuperOffice.WebApi.Agents.IRelationAgent.GetContactRelationEntityAsync*
-  nameWithType.vb: IRelationAgent.GetContactRelationEntityAsync(Integer, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IRelationAgent.GetContactRelationEntityAsync(Integer, SuperOffice.WebApi.RequestOptions)
-  name.vb: GetContactRelationEntityAsync(Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IRelationAgent.SaveContactRelationAsync(SuperOffice.WebApi.Data.ContactRelationEntity,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IRelationAgent.SaveContactRelationAsync(SuperOffice.WebApi.Data.ContactRelationEntity,SuperOffice.WebApi.RequestOptions)
   id: SaveContactRelationAsync(SuperOffice.WebApi.Data.ContactRelationEntity,SuperOffice.WebApi.RequestOptions)
@@ -100,11 +106,13 @@ items:
   nameWithType: IRelationAgent.SaveContactRelationAsync(ContactRelationEntity, RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IRelationAgent.SaveContactRelationAsync(SuperOffice.WebApi.Data.ContactRelationEntity, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Creates a new or updates an existing contact relation.
-  example: []
+  summary: "\nCreates a new or updates an existing contact relation.\n"
   syntax:
     content: Task<ContactRelationEntity> SaveContactRelationAsync(ContactRelationEntity contactRelationEntity, RequestOptions requestOptions = null)
     parameters:
@@ -113,7 +121,7 @@ items:
       description: Relation to save
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ContactRelationEntity}
       description: Saved relation
@@ -126,15 +134,17 @@ items:
   langs:
   - csharp
   - vb
-  name: DeleteContactRelationAsync(int, RequestOptions)
-  nameWithType: IRelationAgent.DeleteContactRelationAsync(int, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IRelationAgent.DeleteContactRelationAsync(int, SuperOffice.WebApi.RequestOptions)
+  name: DeleteContactRelationAsync(Int32, RequestOptions)
+  nameWithType: IRelationAgent.DeleteContactRelationAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IRelationAgent.DeleteContactRelationAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Deletes the spesified contact relation.
-  example: []
+  summary: "\nDeletes the spesified contact relation.\n"
   syntax:
     content: Task DeleteContactRelationAsync(int contactRelationEntityId, RequestOptions requestOptions = null)
     parameters:
@@ -143,94 +153,21 @@ items:
       description: Relation to delete
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task
-      description: ''
     content.vb: Function DeleteContactRelationAsync(contactRelationEntityId As Integer, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.IRelationAgent.DeleteContactRelationAsync*
-  nameWithType.vb: IRelationAgent.DeleteContactRelationAsync(Integer, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IRelationAgent.DeleteContactRelationAsync(Integer, SuperOffice.WebApi.RequestOptions)
-  name.vb: DeleteContactRelationAsync(Integer, RequestOptions)
 references:
 - uid: SuperOffice.WebApi.Agents
   commentId: N:SuperOffice.WebApi.Agents
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Agents
   nameWithType: SuperOffice.WebApi.Agents
   fullName: SuperOffice.WebApi.Agents
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Agents
-    name: Agents
-    isExternal: true
-    href: SuperOffice.WebApi.Agents.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Agents
-    name: Agents
-    isExternal: true
-    href: SuperOffice.WebApi.Agents.html
-- uid: System.IDisposable.Dispose
-  commentId: M:System.IDisposable.Dispose
-  parent: System.IDisposable
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
-  name: Dispose()
-  nameWithType: IDisposable.Dispose()
-  fullName: System.IDisposable.Dispose()
-  spec.csharp:
-  - uid: System.IDisposable.Dispose
-    name: Dispose
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.IDisposable.Dispose
-    name: Dispose
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
-  - name: (
-  - name: )
-- uid: System.IDisposable
-  commentId: T:System.IDisposable
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.idisposable
-  name: IDisposable
-  nameWithType: IDisposable
-  fullName: System.IDisposable
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.WebApi.Agents.IRelationAgent.CreateDefaultContactRelationEntityAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IRelationAgent.CreateDefaultContactRelationEntityAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IRelationAgent.html#SuperOffice_WebApi_Agents_IRelationAgent_CreateDefaultContactRelationEntityAsync_SuperOffice_WebApi_RequestOptions_
   name: CreateDefaultContactRelationEntityAsync
   nameWithType: IRelationAgent.CreateDefaultContactRelationEntityAsync
   fullName: SuperOffice.WebApi.Agents.IRelationAgent.CreateDefaultContactRelationEntityAsync
@@ -238,15 +175,12 @@ references:
   commentId: T:SuperOffice.WebApi.RequestOptions
   parent: SuperOffice.WebApi
   isExternal: true
-  href: SuperOffice.WebApi.RequestOptions.html
   name: RequestOptions
   nameWithType: RequestOptions
   fullName: SuperOffice.WebApi.RequestOptions
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ContactRelationEntity}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ContactRelationEntity}
-  parent: System.Threading.Tasks
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ContactRelationEntity}'
   definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<ContactRelationEntity>
   nameWithType: Task<ContactRelationEntity>
   fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.ContactRelationEntity>
@@ -256,123 +190,84 @@ references:
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.WebApi.Data.ContactRelationEntity
     name: ContactRelationEntity
+    nameWithType: ContactRelationEntity
+    fullName: SuperOffice.WebApi.Data.ContactRelationEntity
     isExternal: true
-    href: SuperOffice.WebApi.Data.ContactRelationEntity.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.WebApi.Data.ContactRelationEntity
     name: ContactRelationEntity
+    nameWithType: ContactRelationEntity
+    fullName: SuperOffice.WebApi.Data.ContactRelationEntity
     isExternal: true
-    href: SuperOffice.WebApi.Data.ContactRelationEntity.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi
   commentId: N:SuperOffice.WebApi
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi
   nameWithType: SuperOffice.WebApi
   fullName: SuperOffice.WebApi
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
 - uid: System.Threading.Tasks.Task`1
-  commentId: T:System.Threading.Tasks.Task`1
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<TResult>
-  nameWithType: Task<TResult>
-  fullName: System.Threading.Tasks.Task<TResult>
-  nameWithType.vb: Task(Of TResult)
-  fullName.vb: System.Threading.Tasks.Task(Of TResult)
-  name.vb: Task(Of TResult)
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-  - name: TResult
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TResult
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
-- uid: System.Threading.Tasks
-  commentId: N:System.Threading.Tasks
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Threading.Tasks
-  nameWithType: System.Threading.Tasks
-  fullName: System.Threading.Tasks
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Threading
-    name: Threading
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading
-  - name: .
-  - uid: System.Threading.Tasks
-    name: Tasks
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Threading
-    name: Threading
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading
-  - name: .
-  - uid: System.Threading.Tasks
-    name: Tasks
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.IRelationAgent.GetContactRelationEntityAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IRelationAgent.GetContactRelationEntityAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IRelationAgent.html#SuperOffice_WebApi_Agents_IRelationAgent_GetContactRelationEntityAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
   name: GetContactRelationEntityAsync
   nameWithType: IRelationAgent.GetContactRelationEntityAsync
   fullName: SuperOffice.WebApi.Agents.IRelationAgent.GetContactRelationEntityAsync
@@ -380,17 +275,18 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.WebApi.Agents.IRelationAgent.SaveContactRelationAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IRelationAgent.SaveContactRelationAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IRelationAgent.html#SuperOffice_WebApi_Agents_IRelationAgent_SaveContactRelationAsync_SuperOffice_WebApi_Data_ContactRelationEntity_SuperOffice_WebApi_RequestOptions_
   name: SaveContactRelationAsync
   nameWithType: IRelationAgent.SaveContactRelationAsync
   fullName: SuperOffice.WebApi.Agents.IRelationAgent.SaveContactRelationAsync
@@ -398,59 +294,23 @@ references:
   commentId: T:SuperOffice.WebApi.Data.ContactRelationEntity
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.ContactRelationEntity.html
   name: ContactRelationEntity
   nameWithType: ContactRelationEntity
   fullName: SuperOffice.WebApi.Data.ContactRelationEntity
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
 - uid: SuperOffice.WebApi.Agents.IRelationAgent.DeleteContactRelationAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IRelationAgent.DeleteContactRelationAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IRelationAgent.html#SuperOffice_WebApi_Agents_IRelationAgent_DeleteContactRelationAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
   name: DeleteContactRelationAsync
   nameWithType: IRelationAgent.DeleteContactRelationAsync
   fullName: SuperOffice.WebApi.Agents.IRelationAgent.DeleteContactRelationAsync
 - uid: System.Threading.Tasks.Task
-  commentId: T:System.Threading.Tasks.Task
-  parent: System.Threading.Tasks
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
   name: Task
   nameWithType: Task
   fullName: System.Threading.Tasks.Task

@@ -31,30 +31,29 @@ items:
   nameWithType: LicenseInfo
   fullName: SuperOffice.WebApi.Data.LicenseInfo
   type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Carrier object for LicenseInfo.
-
-    Represents all licenses for this owner at this site.
-  example: []
+  summary: "\nCarrier object for LicenseInfo.\nRepresents all licenses for this owner at this site.    \n"
   syntax:
-    content: public class LicenseInfo
-    content.vb: Public Class LicenseInfo
+    content: 'public class LicenseInfo : Object'
+    content.vb: >-
+      Public Class LicenseInfo
+          Inherits Object
   seealso:
   - linkId: SuperOffice.WebApi.Agents.LicenseAgent
     commentId: T:SuperOffice.WebApi.Agents.LicenseAgent
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.WebApi.Data.LicenseInfo.#ctor
   commentId: M:SuperOffice.WebApi.Data.LicenseInfo.#ctor
   id: '#ctor'
@@ -66,18 +65,21 @@ items:
   nameWithType: LicenseInfo.LicenseInfo()
   fullName: SuperOffice.WebApi.Data.LicenseInfo.LicenseInfo()
   type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Default constructor - defaults any enum props to 0.
-  example: []
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
   syntax:
     content: public LicenseInfo()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.WebApi.Data.LicenseInfo.#ctor*
-  nameWithType.vb: LicenseInfo.New()
-  fullName.vb: SuperOffice.WebApi.Data.LicenseInfo.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.LicenseInfo.CompanyName
   commentId: P:SuperOffice.WebApi.Data.LicenseInfo.CompanyName
   id: CompanyName
@@ -89,11 +91,13 @@ items:
   nameWithType: LicenseInfo.CompanyName
   fullName: SuperOffice.WebApi.Data.LicenseInfo.CompanyName
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Name of the database owner company.
-  example: []
+  summary: "\nName of the database owner company.\n"
   syntax:
     content: public virtual string CompanyName { get; set; }
     parameters: []
@@ -101,6 +105,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property CompanyName As String
   overload: SuperOffice.WebApi.Data.LicenseInfo.CompanyName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.LicenseInfo.SerialNr
   commentId: P:SuperOffice.WebApi.Data.LicenseInfo.SerialNr
   id: SerialNr
@@ -112,11 +124,13 @@ items:
   nameWithType: LicenseInfo.SerialNr
   fullName: SuperOffice.WebApi.Data.LicenseInfo.SerialNr
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: 'Serial number. e.g.: 1010000014.'
-  example: []
+  summary: "\nSerial number. e.g.: 1010000014.\n"
   syntax:
     content: public virtual string SerialNr { get; set; }
     parameters: []
@@ -124,6 +138,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property SerialNr As String
   overload: SuperOffice.WebApi.Data.LicenseInfo.SerialNr*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.LicenseInfo.OwnerName
   commentId: P:SuperOffice.WebApi.Data.LicenseInfo.OwnerName
   id: OwnerName
@@ -135,11 +157,13 @@ items:
   nameWithType: LicenseInfo.OwnerName
   fullName: SuperOffice.WebApi.Data.LicenseInfo.OwnerName
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The name of the module owner, not visible in GUI but used in the code. OwnerName SUPEROFFICE is reserved and may NEVER be used by partners. This must be in UPPER CASE and only contain A-Z and 0-9. NO EXTENDED CHARACTERS please.
-  example: []
+  summary: "\nThe name of the module owner, not visible in GUI but used in the code. OwnerName SUPEROFFICE is reserved and may NEVER be used by partners. This must be in UPPER CASE and only contain A-Z and 0-9. NO EXTENDED CHARACTERS please.\n"
   syntax:
     content: public virtual string OwnerName { get; set; }
     parameters: []
@@ -147,6 +171,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property OwnerName As String
   overload: SuperOffice.WebApi.Data.LicenseInfo.OwnerName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.LicenseInfo.OwnerDescription
   commentId: P:SuperOffice.WebApi.Data.LicenseInfo.OwnerDescription
   id: OwnerDescription
@@ -158,11 +190,13 @@ items:
   nameWithType: LicenseInfo.OwnerDescription
   fullName: SuperOffice.WebApi.Data.LicenseInfo.OwnerDescription
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Human-readable description of owner, shown in GUI, default language. Additional languages can be added to LocaleText, resource type 26
-  example: []
+  summary: "\nHuman-readable description of owner, shown in GUI, default language. Additional languages can be added to LocaleText, resource type 26\n"
   syntax:
     content: public virtual string OwnerDescription { get; set; }
     parameters: []
@@ -170,6 +204,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property OwnerDescription As String
   overload: SuperOffice.WebApi.Data.LicenseInfo.OwnerDescription*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.LicenseInfo.NextCheckDate
   commentId: P:SuperOffice.WebApi.Data.LicenseInfo.NextCheckDate
   id: NextCheckDate
@@ -181,18 +223,28 @@ items:
   nameWithType: LicenseInfo.NextCheckDate
   fullName: SuperOffice.WebApi.Data.LicenseInfo.NextCheckDate
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: When should the system next check with the license issuer
-  example: []
+  summary: "\nWhen should the system next check with the license issuer\n"
   syntax:
     content: public virtual DateTime NextCheckDate { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property NextCheckDate As Date
+    content.vb: Public Overridable Property NextCheckDate As DateTime
   overload: SuperOffice.WebApi.Data.LicenseInfo.NextCheckDate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.LicenseInfo.MaintenanceDate
   commentId: P:SuperOffice.WebApi.Data.LicenseInfo.MaintenanceDate
   id: MaintenanceDate
@@ -204,18 +256,28 @@ items:
   nameWithType: LicenseInfo.MaintenanceDate
   fullName: SuperOffice.WebApi.Data.LicenseInfo.MaintenanceDate
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Expiration date for maintenance. After this date, upgrades should refuse to install.
-  example: []
+  summary: "\nExpiration date for maintenance. After this date, upgrades should refuse to install.\n"
   syntax:
     content: public virtual DateTime MaintenanceDate { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property MaintenanceDate As Date
+    content.vb: Public Overridable Property MaintenanceDate As DateTime
   overload: SuperOffice.WebApi.Data.LicenseInfo.MaintenanceDate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.LicenseInfo.AdminWarningDate
   commentId: P:SuperOffice.WebApi.Data.LicenseInfo.AdminWarningDate
   id: AdminWarningDate
@@ -227,18 +289,28 @@ items:
   nameWithType: LicenseInfo.AdminWarningDate
   fullName: SuperOffice.WebApi.Data.LicenseInfo.AdminWarningDate
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: When should nagging begin (for instance, during login to SoAdmin)
-  example: []
+  summary: "\nWhen should nagging begin (for instance, during login to SoAdmin)\n"
   syntax:
     content: public virtual DateTime AdminWarningDate { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property AdminWarningDate As Date
+    content.vb: Public Overridable Property AdminWarningDate As DateTime
   overload: SuperOffice.WebApi.Data.LicenseInfo.AdminWarningDate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.LicenseInfo.ExpiryDate
   commentId: P:SuperOffice.WebApi.Data.LicenseInfo.ExpiryDate
   id: ExpiryDate
@@ -250,18 +322,28 @@ items:
   nameWithType: LicenseInfo.ExpiryDate
   fullName: SuperOffice.WebApi.Data.LicenseInfo.ExpiryDate
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Expiration date, 0 = forever
-  example: []
+  summary: "\nExpiration date, 0 = forever\n"
   syntax:
     content: public virtual DateTime ExpiryDate { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property ExpiryDate As Date
+    content.vb: Public Overridable Property ExpiryDate As DateTime
   overload: SuperOffice.WebApi.Data.LicenseInfo.ExpiryDate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.LicenseInfo.GraceDate
   commentId: P:SuperOffice.WebApi.Data.LicenseInfo.GraceDate
   id: GraceDate
@@ -273,18 +355,28 @@ items:
   nameWithType: LicenseInfo.GraceDate
   fullName: SuperOffice.WebApi.Data.LicenseInfo.GraceDate
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Real expiration date, when the given module actually stops working. Modules that normally update data should switch to read-only mode. Modules that only read anyway, should disable themselves in some other way
-  example: []
+  summary: "\nReal expiration date, when the given module actually stops working. Modules that normally update data should switch to read-only mode. Modules that only read anyway, should disable themselves in some other way\n"
   syntax:
     content: public virtual DateTime GraceDate { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property GraceDate As Date
+    content.vb: Public Overridable Property GraceDate As DateTime
   overload: SuperOffice.WebApi.Data.LicenseInfo.GraceDate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.LicenseInfo.ExtraFlags
   commentId: P:SuperOffice.WebApi.Data.LicenseInfo.ExtraFlags
   id: ExtraFlags
@@ -296,11 +388,13 @@ items:
   nameWithType: LicenseInfo.ExtraFlags
   fullName: SuperOffice.WebApi.Data.LicenseInfo.ExtraFlags
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Unspecified extra flags of license, part of checksum
-  example: []
+  summary: "\nUnspecified extra flags of license, part of checksum\n"
   syntax:
     content: public virtual int ExtraFlags { get; set; }
     parameters: []
@@ -308,6 +402,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property ExtraFlags As Integer
   overload: SuperOffice.WebApi.Data.LicenseInfo.ExtraFlags*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.LicenseInfo.LicenseUrl
   commentId: P:SuperOffice.WebApi.Data.LicenseInfo.LicenseUrl
   id: LicenseUrl
@@ -319,11 +421,13 @@ items:
   nameWithType: LicenseInfo.LicenseUrl
   fullName: SuperOffice.WebApi.Data.LicenseInfo.LicenseUrl
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The url that will provide keycodes for all modules owned by this owner
-  example: []
+  summary: "\nThe url that will provide keycodes for all modules owned by this owner\n"
   syntax:
     content: public virtual string LicenseUrl { get; set; }
     parameters: []
@@ -331,6 +435,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property LicenseUrl As String
   overload: SuperOffice.WebApi.Data.LicenseInfo.LicenseUrl*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.LicenseInfo.LicenseVersion
   commentId: P:SuperOffice.WebApi.Data.LicenseInfo.LicenseVersion
   id: LicenseVersion
@@ -342,11 +454,13 @@ items:
   nameWithType: LicenseInfo.LicenseVersion
   fullName: SuperOffice.WebApi.Data.LicenseInfo.LicenseVersion
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The url that will provide keycodes for all modules owned by this owner
-  example: []
+  summary: "\nThe url that will provide keycodes for all modules owned by this owner\n"
   syntax:
     content: public virtual string LicenseVersion { get; set; }
     parameters: []
@@ -354,6 +468,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property LicenseVersion As String
   overload: SuperOffice.WebApi.Data.LicenseInfo.LicenseVersion*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.LicenseInfo.DeploymentType
   commentId: P:SuperOffice.WebApi.Data.LicenseInfo.DeploymentType
   id: DeploymentType
@@ -365,11 +487,13 @@ items:
   nameWithType: LicenseInfo.DeploymentType
   fullName: SuperOffice.WebApi.Data.LicenseInfo.DeploymentType
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Type of deployment
-  example: []
+  summary: "\nType of deployment\n"
   syntax:
     content: public virtual int DeploymentType { get; set; }
     parameters: []
@@ -377,6 +501,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property DeploymentType As Integer
   overload: SuperOffice.WebApi.Data.LicenseInfo.DeploymentType*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.LicenseInfo.ProductType
   commentId: P:SuperOffice.WebApi.Data.LicenseInfo.ProductType
   id: ProductType
@@ -388,11 +520,13 @@ items:
   nameWithType: LicenseInfo.ProductType
   fullName: SuperOffice.WebApi.Data.LicenseInfo.ProductType
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Type of product
-  example: []
+  summary: "\nType of product\n"
   syntax:
     content: public virtual string ProductType { get; set; }
     parameters: []
@@ -400,6 +534,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property ProductType As String
   overload: SuperOffice.WebApi.Data.LicenseInfo.ProductType*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.LicenseInfo.ProductDescription
   commentId: P:SuperOffice.WebApi.Data.LicenseInfo.ProductDescription
   id: ProductDescription
@@ -411,11 +553,13 @@ items:
   nameWithType: LicenseInfo.ProductDescription
   fullName: SuperOffice.WebApi.Data.LicenseInfo.ProductDescription
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Description of type of product
-  example: []
+  summary: "\nDescription of type of product\n"
   syntax:
     content: public virtual string ProductDescription { get; set; }
     parameters: []
@@ -423,6 +567,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property ProductDescription As String
   overload: SuperOffice.WebApi.Data.LicenseInfo.ProductDescription*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.LicenseInfo.ModuleLicenses
   commentId: P:SuperOffice.WebApi.Data.LicenseInfo.ModuleLicenses
   id: ModuleLicenses
@@ -434,11 +586,13 @@ items:
   nameWithType: LicenseInfo.ModuleLicenses
   fullName: SuperOffice.WebApi.Data.LicenseInfo.ModuleLicenses
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The module licenses.
-  example: []
+  summary: "\nThe module licenses.\n"
   syntax:
     content: public virtual ModuleLicense[] ModuleLicenses { get; set; }
     parameters: []
@@ -446,6 +600,14 @@ items:
       type: SuperOffice.WebApi.Data.ModuleLicense[]
     content.vb: Public Overridable Property ModuleLicenses As ModuleLicense()
   overload: SuperOffice.WebApi.Data.LicenseInfo.ModuleLicenses*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.LicenseInfo.PublicKey
   commentId: P:SuperOffice.WebApi.Data.LicenseInfo.PublicKey
   id: PublicKey
@@ -457,11 +619,13 @@ items:
   nameWithType: LicenseInfo.PublicKey
   fullName: SuperOffice.WebApi.Data.LicenseInfo.PublicKey
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The public key used to verify licenses owned by this owner.
-  example: []
+  summary: "\nThe public key used to verify licenses owned by this owner.\n"
   syntax:
     content: public virtual SignedPublicKey PublicKey { get; set; }
     parameters: []
@@ -469,6 +633,14 @@ items:
       type: SuperOffice.WebApi.Data.SignedPublicKey
     content.vb: Public Overridable Property PublicKey As SignedPublicKey
   overload: SuperOffice.WebApi.Data.LicenseInfo.PublicKey*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.LicenseInfo.Signature
   commentId: P:SuperOffice.WebApi.Data.LicenseInfo.Signature
   id: Signature
@@ -480,11 +652,13 @@ items:
   nameWithType: LicenseInfo.Signature
   fullName: SuperOffice.WebApi.Data.LicenseInfo.Signature
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Signature of all non-zero-amount moduleLicense rows referring to this owner
-  example: []
+  summary: "\nSignature of all non-zero-amount moduleLicense rows referring to this owner\n"
   syntax:
     content: public virtual string Signature { get; set; }
     parameters: []
@@ -492,302 +666,49 @@ items:
       type: System.String
     content.vb: Public Overridable Property Signature As String
   overload: SuperOffice.WebApi.Data.LicenseInfo.Signature*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
-- uid: SuperOffice.WebApi.Agents.LicenseAgent
-  commentId: T:SuperOffice.WebApi.Agents.LicenseAgent
-  isExternal: true
-  href: SuperOffice.WebApi.Agents.LicenseAgent.html
-  name: LicenseAgent
-  nameWithType: LicenseAgent
-  fullName: SuperOffice.WebApi.Agents.LicenseAgent
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Agents.LicenseAgent
+  commentId: T:SuperOffice.WebApi.Agents.LicenseAgent
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: LicenseAgent
+  nameWithType: LicenseAgent
+  fullName: SuperOffice.WebApi.Agents.LicenseAgent
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Data.LicenseInfo.#ctor*
   commentId: Overload:SuperOffice.WebApi.Data.LicenseInfo.#ctor
   isExternal: true
-  href: SuperOffice.WebApi.Data.LicenseInfo.html#SuperOffice_WebApi_Data_LicenseInfo__ctor
   name: LicenseInfo
   nameWithType: LicenseInfo.LicenseInfo
   fullName: SuperOffice.WebApi.Data.LicenseInfo.LicenseInfo
-  nameWithType.vb: LicenseInfo.New
-  fullName.vb: SuperOffice.WebApi.Data.LicenseInfo.New
-  name.vb: New
 - uid: SuperOffice.WebApi.Data.LicenseInfo.CompanyName*
   commentId: Overload:SuperOffice.WebApi.Data.LicenseInfo.CompanyName
   isExternal: true
-  href: SuperOffice.WebApi.Data.LicenseInfo.html#SuperOffice_WebApi_Data_LicenseInfo_CompanyName
   name: CompanyName
   nameWithType: LicenseInfo.CompanyName
   fullName: SuperOffice.WebApi.Data.LicenseInfo.CompanyName
@@ -795,84 +716,65 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.WebApi.Data.LicenseInfo.SerialNr*
   commentId: Overload:SuperOffice.WebApi.Data.LicenseInfo.SerialNr
   isExternal: true
-  href: SuperOffice.WebApi.Data.LicenseInfo.html#SuperOffice_WebApi_Data_LicenseInfo_SerialNr
   name: SerialNr
   nameWithType: LicenseInfo.SerialNr
   fullName: SuperOffice.WebApi.Data.LicenseInfo.SerialNr
 - uid: SuperOffice.WebApi.Data.LicenseInfo.OwnerName*
   commentId: Overload:SuperOffice.WebApi.Data.LicenseInfo.OwnerName
   isExternal: true
-  href: SuperOffice.WebApi.Data.LicenseInfo.html#SuperOffice_WebApi_Data_LicenseInfo_OwnerName
   name: OwnerName
   nameWithType: LicenseInfo.OwnerName
   fullName: SuperOffice.WebApi.Data.LicenseInfo.OwnerName
 - uid: SuperOffice.WebApi.Data.LicenseInfo.OwnerDescription*
   commentId: Overload:SuperOffice.WebApi.Data.LicenseInfo.OwnerDescription
   isExternal: true
-  href: SuperOffice.WebApi.Data.LicenseInfo.html#SuperOffice_WebApi_Data_LicenseInfo_OwnerDescription
   name: OwnerDescription
   nameWithType: LicenseInfo.OwnerDescription
   fullName: SuperOffice.WebApi.Data.LicenseInfo.OwnerDescription
 - uid: SuperOffice.WebApi.Data.LicenseInfo.NextCheckDate*
   commentId: Overload:SuperOffice.WebApi.Data.LicenseInfo.NextCheckDate
   isExternal: true
-  href: SuperOffice.WebApi.Data.LicenseInfo.html#SuperOffice_WebApi_Data_LicenseInfo_NextCheckDate
   name: NextCheckDate
   nameWithType: LicenseInfo.NextCheckDate
   fullName: SuperOffice.WebApi.Data.LicenseInfo.NextCheckDate
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
 - uid: SuperOffice.WebApi.Data.LicenseInfo.MaintenanceDate*
   commentId: Overload:SuperOffice.WebApi.Data.LicenseInfo.MaintenanceDate
   isExternal: true
-  href: SuperOffice.WebApi.Data.LicenseInfo.html#SuperOffice_WebApi_Data_LicenseInfo_MaintenanceDate
   name: MaintenanceDate
   nameWithType: LicenseInfo.MaintenanceDate
   fullName: SuperOffice.WebApi.Data.LicenseInfo.MaintenanceDate
 - uid: SuperOffice.WebApi.Data.LicenseInfo.AdminWarningDate*
   commentId: Overload:SuperOffice.WebApi.Data.LicenseInfo.AdminWarningDate
   isExternal: true
-  href: SuperOffice.WebApi.Data.LicenseInfo.html#SuperOffice_WebApi_Data_LicenseInfo_AdminWarningDate
   name: AdminWarningDate
   nameWithType: LicenseInfo.AdminWarningDate
   fullName: SuperOffice.WebApi.Data.LicenseInfo.AdminWarningDate
 - uid: SuperOffice.WebApi.Data.LicenseInfo.ExpiryDate*
   commentId: Overload:SuperOffice.WebApi.Data.LicenseInfo.ExpiryDate
   isExternal: true
-  href: SuperOffice.WebApi.Data.LicenseInfo.html#SuperOffice_WebApi_Data_LicenseInfo_ExpiryDate
   name: ExpiryDate
   nameWithType: LicenseInfo.ExpiryDate
   fullName: SuperOffice.WebApi.Data.LicenseInfo.ExpiryDate
 - uid: SuperOffice.WebApi.Data.LicenseInfo.GraceDate*
   commentId: Overload:SuperOffice.WebApi.Data.LicenseInfo.GraceDate
   isExternal: true
-  href: SuperOffice.WebApi.Data.LicenseInfo.html#SuperOffice_WebApi_Data_LicenseInfo_GraceDate
   name: GraceDate
   nameWithType: LicenseInfo.GraceDate
   fullName: SuperOffice.WebApi.Data.LicenseInfo.GraceDate
 - uid: SuperOffice.WebApi.Data.LicenseInfo.ExtraFlags*
   commentId: Overload:SuperOffice.WebApi.Data.LicenseInfo.ExtraFlags
   isExternal: true
-  href: SuperOffice.WebApi.Data.LicenseInfo.html#SuperOffice_WebApi_Data_LicenseInfo_ExtraFlags
   name: ExtraFlags
   nameWithType: LicenseInfo.ExtraFlags
   fullName: SuperOffice.WebApi.Data.LicenseInfo.ExtraFlags
@@ -880,58 +782,47 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.WebApi.Data.LicenseInfo.LicenseUrl*
   commentId: Overload:SuperOffice.WebApi.Data.LicenseInfo.LicenseUrl
   isExternal: true
-  href: SuperOffice.WebApi.Data.LicenseInfo.html#SuperOffice_WebApi_Data_LicenseInfo_LicenseUrl
   name: LicenseUrl
   nameWithType: LicenseInfo.LicenseUrl
   fullName: SuperOffice.WebApi.Data.LicenseInfo.LicenseUrl
 - uid: SuperOffice.WebApi.Data.LicenseInfo.LicenseVersion*
   commentId: Overload:SuperOffice.WebApi.Data.LicenseInfo.LicenseVersion
   isExternal: true
-  href: SuperOffice.WebApi.Data.LicenseInfo.html#SuperOffice_WebApi_Data_LicenseInfo_LicenseVersion
   name: LicenseVersion
   nameWithType: LicenseInfo.LicenseVersion
   fullName: SuperOffice.WebApi.Data.LicenseInfo.LicenseVersion
 - uid: SuperOffice.WebApi.Data.LicenseInfo.DeploymentType*
   commentId: Overload:SuperOffice.WebApi.Data.LicenseInfo.DeploymentType
   isExternal: true
-  href: SuperOffice.WebApi.Data.LicenseInfo.html#SuperOffice_WebApi_Data_LicenseInfo_DeploymentType
   name: DeploymentType
   nameWithType: LicenseInfo.DeploymentType
   fullName: SuperOffice.WebApi.Data.LicenseInfo.DeploymentType
 - uid: SuperOffice.WebApi.Data.LicenseInfo.ProductType*
   commentId: Overload:SuperOffice.WebApi.Data.LicenseInfo.ProductType
   isExternal: true
-  href: SuperOffice.WebApi.Data.LicenseInfo.html#SuperOffice_WebApi_Data_LicenseInfo_ProductType
   name: ProductType
   nameWithType: LicenseInfo.ProductType
   fullName: SuperOffice.WebApi.Data.LicenseInfo.ProductType
 - uid: SuperOffice.WebApi.Data.LicenseInfo.ProductDescription*
   commentId: Overload:SuperOffice.WebApi.Data.LicenseInfo.ProductDescription
   isExternal: true
-  href: SuperOffice.WebApi.Data.LicenseInfo.html#SuperOffice_WebApi_Data_LicenseInfo_ProductDescription
   name: ProductDescription
   nameWithType: LicenseInfo.ProductDescription
   fullName: SuperOffice.WebApi.Data.LicenseInfo.ProductDescription
 - uid: SuperOffice.WebApi.Data.LicenseInfo.ModuleLicenses*
   commentId: Overload:SuperOffice.WebApi.Data.LicenseInfo.ModuleLicenses
   isExternal: true
-  href: SuperOffice.WebApi.Data.LicenseInfo.html#SuperOffice_WebApi_Data_LicenseInfo_ModuleLicenses
   name: ModuleLicenses
   nameWithType: LicenseInfo.ModuleLicenses
   fullName: SuperOffice.WebApi.Data.LicenseInfo.ModuleLicenses
 - uid: SuperOffice.WebApi.Data.ModuleLicense[]
   isExternal: true
-  href: SuperOffice.WebApi.Data.ModuleLicense.html
   name: ModuleLicense[]
   nameWithType: ModuleLicense[]
   fullName: SuperOffice.WebApi.Data.ModuleLicense[]
@@ -941,21 +832,24 @@ references:
   spec.csharp:
   - uid: SuperOffice.WebApi.Data.ModuleLicense
     name: ModuleLicense
+    nameWithType: ModuleLicense
+    fullName: SuperOffice.WebApi.Data.ModuleLicense
     isExternal: true
-    href: SuperOffice.WebApi.Data.ModuleLicense.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.WebApi.Data.ModuleLicense
     name: ModuleLicense
+    nameWithType: ModuleLicense
+    fullName: SuperOffice.WebApi.Data.ModuleLicense
     isExternal: true
-    href: SuperOffice.WebApi.Data.ModuleLicense.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.WebApi.Data.LicenseInfo.PublicKey*
   commentId: Overload:SuperOffice.WebApi.Data.LicenseInfo.PublicKey
   isExternal: true
-  href: SuperOffice.WebApi.Data.LicenseInfo.html#SuperOffice_WebApi_Data_LicenseInfo_PublicKey
   name: PublicKey
   nameWithType: LicenseInfo.PublicKey
   fullName: SuperOffice.WebApi.Data.LicenseInfo.PublicKey
@@ -963,14 +857,12 @@ references:
   commentId: T:SuperOffice.WebApi.Data.SignedPublicKey
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.SignedPublicKey.html
   name: SignedPublicKey
   nameWithType: SignedPublicKey
   fullName: SuperOffice.WebApi.Data.SignedPublicKey
 - uid: SuperOffice.WebApi.Data.LicenseInfo.Signature*
   commentId: Overload:SuperOffice.WebApi.Data.LicenseInfo.Signature
   isExternal: true
-  href: SuperOffice.WebApi.Data.LicenseInfo.html#SuperOffice_WebApi_Data_LicenseInfo_Signature
   name: Signature
   nameWithType: LicenseInfo.Signature
   fullName: SuperOffice.WebApi.Data.LicenseInfo.Signature

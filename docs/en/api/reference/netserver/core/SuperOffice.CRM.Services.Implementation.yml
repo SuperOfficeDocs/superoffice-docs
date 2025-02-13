@@ -24,14 +24,12 @@ references:
 - uid: SuperOffice.CRM.Services.Implementation.ServiceLogger
   commentId: T:SuperOffice.CRM.Services.Implementation.ServiceLogger
   isExternal: true
-  href: SuperOffice.CRM.Services.Implementation.ServiceLogger.html
   name: ServiceLogger
   nameWithType: ServiceLogger
   fullName: SuperOffice.CRM.Services.Implementation.ServiceLogger
 - uid: SuperOffice.CRM.Services.Implementation.ServiceLogData
   commentId: T:SuperOffice.CRM.Services.Implementation.ServiceLogData
   isExternal: true
-  href: SuperOffice.CRM.Services.Implementation.ServiceLogData.html
   name: ServiceLogData
   nameWithType: ServiceLogData
   fullName: SuperOffice.CRM.Services.Implementation.ServiceLogData
@@ -39,28 +37,24 @@ references:
   commentId: T:SuperOffice.CRM.Services.Implementation.ServiceLogContext
   parent: SuperOffice.CRM.Services.Implementation
   isExternal: true
-  href: SuperOffice.CRM.Services.Implementation.ServiceLogContext.html
   name: ServiceLogContext
   nameWithType: ServiceLogContext
   fullName: SuperOffice.CRM.Services.Implementation.ServiceLogContext
 - uid: SuperOffice.CRM.Services.Implementation.ServiceLoggerEnvironmentInfoPlugin
   commentId: T:SuperOffice.CRM.Services.Implementation.ServiceLoggerEnvironmentInfoPlugin
   isExternal: true
-  href: SuperOffice.CRM.Services.Implementation.ServiceLoggerEnvironmentInfoPlugin.html
   name: ServiceLoggerEnvironmentInfoPlugin
   nameWithType: ServiceLoggerEnvironmentInfoPlugin
   fullName: SuperOffice.CRM.Services.Implementation.ServiceLoggerEnvironmentInfoPlugin
 - uid: SuperOffice.CRM.Services.Implementation.ServiceResourceLogger
   commentId: T:SuperOffice.CRM.Services.Implementation.ServiceResourceLogger
   isExternal: true
-  href: SuperOffice.CRM.Services.Implementation.ServiceResourceLogger.html
   name: ServiceResourceLogger
   nameWithType: ServiceResourceLogger
   fullName: SuperOffice.CRM.Services.Implementation.ServiceResourceLogger
 - uid: SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext
   commentId: T:SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext
   isExternal: true
-  href: SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext.html
   name: ServiceDatabaseResourceLoggerContext
   nameWithType: ServiceDatabaseResourceLoggerContext
   fullName: SuperOffice.CRM.Services.Implementation.ServiceDatabaseResourceLoggerContext
@@ -68,54 +62,12 @@ references:
   commentId: T:SuperOffice.CRM.Services.Implementation.UsageCalculator
   parent: SuperOffice.CRM.Services.Implementation
   isExternal: true
-  href: SuperOffice.CRM.Services.Implementation.UsageCalculator.html
   name: UsageCalculator
   nameWithType: UsageCalculator
   fullName: SuperOffice.CRM.Services.Implementation.UsageCalculator
 - uid: SuperOffice.CRM.Services.Implementation
   commentId: N:SuperOffice.CRM.Services.Implementation
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Services.Implementation
   nameWithType: SuperOffice.CRM.Services.Implementation
   fullName: SuperOffice.CRM.Services.Implementation
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  - name: .
-  - uid: SuperOffice.CRM.Services.Implementation
-    name: Implementation
-    isExternal: true
-    href: SuperOffice.CRM.Services.Implementation.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  - name: .
-  - uid: SuperOffice.CRM.Services.Implementation
-    name: Implementation
-    isExternal: true
-    href: SuperOffice.CRM.Services.Implementation.html

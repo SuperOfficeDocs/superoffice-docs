@@ -52,28 +52,15 @@ items:
   nameWithType: ICustomerServiceAgent
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent
   type: Interface
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Interface for the CustomerService Agent
-
-    Agent used for Customer Service methods
+  summary: "\nInterface for the CustomerService Agent\nAgent used for Customer Service methods\n"
   example:
-  - >-
-    <pre><code class="lang-csharp">using SuperOffice;
-
-    using SuperOffice.CRM.Services;
-
-
-    using (SoSession mySession = SoSession.Authenticate("user", "pass"))
-
-    {
-       using (CustomerServiceAgent agent = new CustomerServiceAgent())
-       {
-          // call methods on agent here...
-       }
-    }</code></pre>
+  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (CustomerServiceAgent agent = new CustomerServiceAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
   syntax:
     content: >-
       [Agent("CustomerService Agent", "Interface for the CustomerService Agent. Agent used for Customer Service methods")]
@@ -82,7 +69,8 @@ items:
     content.vb: >-
       <Agent("CustomerService Agent", "Interface for the CustomerService Agent. Agent used for Customer Service methods")>
 
-      Public Interface ICustomerServiceAgent Inherits IAgent
+      Public Interface ICustomerServiceAgent
+          Inherits IAgent
   attributes:
   - type: SuperOffice.CRM.Services.Reflection.AgentAttribute
     ctor: SuperOffice.CRM.Services.Reflection.AgentAttribute.#ctor(System.String,System.String)
@@ -91,6 +79,12 @@ items:
       value: CustomerService Agent
     - type: System.String
       value: Interface for the CustomerService Agent. Agent used for Customer Service methods
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultCustomerCenterConfig
   commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultCustomerCenterConfig
   id: CreateDefaultCustomerCenterConfig
@@ -102,20 +96,19 @@ items:
   nameWithType: ICustomerServiceAgent.CreateDefaultCustomerCenterConfig()
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultCustomerCenterConfig()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new CustomerCenterConfig.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-  example: []
+  summary: "\nLoading default values into a new CustomerCenterConfig.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
   syntax:
     content: CustomerCenterConfig CreateDefaultCustomerCenterConfig()
     return:
       type: SuperOffice.CRM.Services.CustomerCenterConfig
       description: New CustomerCenterConfig with default values
-    content.vb: Function CreateDefaultCustomerCenterConfig() As CustomerCenterConfig
+    content.vb: Function CreateDefaultCustomerCenterConfig As CustomerCenterConfig
   overload: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultCustomerCenterConfig*
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveCustomerCenterConfig(SuperOffice.CRM.Services.CustomerCenterConfig)
   commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.SaveCustomerCenterConfig(SuperOffice.CRM.Services.CustomerCenterConfig)
@@ -128,11 +121,13 @@ items:
   nameWithType: ICustomerServiceAgent.SaveCustomerCenterConfig(CustomerCenterConfig)
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveCustomerCenterConfig(SuperOffice.CRM.Services.CustomerCenterConfig)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Updates the existing CustomerCenterConfig or creates a new CustomerCenterConfig if the id parameter is empty
-  example: []
+  summary: "\nUpdates the existing CustomerCenterConfig or creates a new CustomerCenterConfig if the id parameter is empty\n"
   syntax:
     content: CustomerCenterConfig SaveCustomerCenterConfig(CustomerCenterConfig customerCenterConfig)
     parameters:
@@ -151,15 +146,17 @@ items:
   langs:
   - csharp
   - vb
-  name: DeleteCustomerCenterConfig(int)
-  nameWithType: ICustomerServiceAgent.DeleteCustomerCenterConfig(int)
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteCustomerCenterConfig(int)
+  name: DeleteCustomerCenterConfig(Int32)
+  nameWithType: ICustomerServiceAgent.DeleteCustomerCenterConfig(Int32)
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteCustomerCenterConfig(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Deletes the CustomerCenterConfig
-  example: []
+  summary: "\nDeletes the CustomerCenterConfig\n"
   syntax:
     content: void DeleteCustomerCenterConfig(int customerCenterConfigId)
     parameters:
@@ -168,9 +165,6 @@ items:
       description: The identity of the CustomerCenterConfig
     content.vb: Sub DeleteCustomerCenterConfig(customerCenterConfigId As Integer)
   overload: SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteCustomerCenterConfig*
-  nameWithType.vb: ICustomerServiceAgent.DeleteCustomerCenterConfig(Integer)
-  fullName.vb: SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteCustomerCenterConfig(Integer)
-  name.vb: DeleteCustomerCenterConfig(Integer)
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultMailboxEntity
   commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultMailboxEntity
   id: CreateDefaultMailboxEntity
@@ -182,20 +176,19 @@ items:
   nameWithType: ICustomerServiceAgent.CreateDefaultMailboxEntity()
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultMailboxEntity()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new MailboxEntity.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-  example: []
+  summary: "\nLoading default values into a new MailboxEntity.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
   syntax:
     content: MailboxEntity CreateDefaultMailboxEntity()
     return:
       type: SuperOffice.CRM.Services.MailboxEntity
       description: New MailboxEntity with default values
-    content.vb: Function CreateDefaultMailboxEntity() As MailboxEntity
+    content.vb: Function CreateDefaultMailboxEntity As MailboxEntity
   overload: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultMailboxEntity*
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveMailboxEntity(SuperOffice.CRM.Services.MailboxEntity)
   commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.SaveMailboxEntity(SuperOffice.CRM.Services.MailboxEntity)
@@ -208,11 +201,13 @@ items:
   nameWithType: ICustomerServiceAgent.SaveMailboxEntity(MailboxEntity)
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveMailboxEntity(SuperOffice.CRM.Services.MailboxEntity)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Updates the existing MailboxEntity or creates a new MailboxEntity if the id parameter is empty
-  example: []
+  summary: "\nUpdates the existing MailboxEntity or creates a new MailboxEntity if the id parameter is empty\n"
   syntax:
     content: MailboxEntity SaveMailboxEntity(MailboxEntity mailboxEntity)
     parameters:
@@ -235,20 +230,19 @@ items:
   nameWithType: ICustomerServiceAgent.CreateDefaultSmsConfig()
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultSmsConfig()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new SmsConfig.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-  example: []
+  summary: "\nLoading default values into a new SmsConfig.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
   syntax:
     content: SmsConfig CreateDefaultSmsConfig()
     return:
       type: SuperOffice.CRM.Services.SmsConfig
       description: New SmsConfig with default values
-    content.vb: Function CreateDefaultSmsConfig() As SmsConfig
+    content.vb: Function CreateDefaultSmsConfig As SmsConfig
   overload: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultSmsConfig*
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveSmsConfig(SuperOffice.CRM.Services.SmsConfig)
   commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.SaveSmsConfig(SuperOffice.CRM.Services.SmsConfig)
@@ -261,11 +255,13 @@ items:
   nameWithType: ICustomerServiceAgent.SaveSmsConfig(SmsConfig)
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveSmsConfig(SuperOffice.CRM.Services.SmsConfig)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Updates the existing SmsConfig or creates a new SmsConfig if the id parameter is empty
-  example: []
+  summary: "\nUpdates the existing SmsConfig or creates a new SmsConfig if the id parameter is empty\n"
   syntax:
     content: SmsConfig SaveSmsConfig(SmsConfig smsConfig)
     parameters:
@@ -284,15 +280,17 @@ items:
   langs:
   - csharp
   - vb
-  name: DeleteChatSessions(int[])
-  nameWithType: ICustomerServiceAgent.DeleteChatSessions(int[])
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteChatSessions(int[])
+  name: DeleteChatSessions(Int32[])
+  nameWithType: ICustomerServiceAgent.DeleteChatSessions(Int32[])
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteChatSessions(System.Int32[])
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Deletes the specified chat sessions.
-  example: []
+  summary: "\nDeletes the specified chat sessions.\n"
   syntax:
     content: void DeleteChatSessions(int[] ids)
     parameters:
@@ -301,9 +299,9 @@ items:
       description: The ids of the chat sessions to delete
     content.vb: Sub DeleteChatSessions(ids As Integer())
   overload: SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteChatSessions*
-  nameWithType.vb: ICustomerServiceAgent.DeleteChatSessions(Integer())
-  fullName.vb: SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteChatSessions(Integer())
-  name.vb: DeleteChatSessions(Integer())
+  nameWithType.vb: ICustomerServiceAgent.DeleteChatSessions(Int32())
+  fullName.vb: SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteChatSessions(System.Int32())
+  name.vb: DeleteChatSessions(Int32())
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.ChatSessionsForUser
   commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.ChatSessionsForUser
   id: ChatSessionsForUser
@@ -315,17 +313,19 @@ items:
   nameWithType: ICustomerServiceAgent.ChatSessionsForUser()
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.ChatSessionsForUser()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: 'Get all chat TOPICS which this user is a member of. Members means that you have at least one of: Can Respond, Notifications, Listen or Manager'
-  example: []
+  summary: "\nGet all chat TOPICS which this user is a member of. Members means that you have at least one of: Can Respond, Notifications, Listen or Manager\n"
   syntax:
     content: ChatSession[] ChatSessionsForUser()
     return:
       type: SuperOffice.CRM.Services.ChatSession[]
       description: Array of chat TOPIC ids the current user can access. NOT chat sessions.
-    content.vb: Function ChatSessionsForUser() As ChatSession()
+    content.vb: Function ChatSessionsForUser As ChatSession()
   overload: SuperOffice.CRM.Services.ICustomerServiceAgent.ChatSessionsForUser*
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.UpdateFeatureToggles(SuperOffice.CRM.Services.CsFeatureToggle[])
   commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.UpdateFeatureToggles(SuperOffice.CRM.Services.CsFeatureToggle[])
@@ -338,11 +338,13 @@ items:
   nameWithType: ICustomerServiceAgent.UpdateFeatureToggles(CsFeatureToggle[])
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.UpdateFeatureToggles(SuperOffice.CRM.Services.CsFeatureToggle[])
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Update the cached FeatureToggles for CS
-  example: []
+  summary: "\nUpdate the cached FeatureToggles for CS\n"
   syntax:
     content: void UpdateFeatureToggles(CsFeatureToggle[] featureToggles)
     parameters:
@@ -365,11 +367,13 @@ items:
   nameWithType: ICustomerServiceAgent.EventHandlerExists(EventHandlerType)
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.EventHandlerExists(SuperOffice.Data.EventHandlerType)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Check if an eventhandler exists for a given enum
-  example: []
+  summary: "\nCheck if an eventhandler exists for a given enum\n"
   syntax:
     content: bool EventHandlerExists(EventHandlerType eventHandlerType)
     parameters:
@@ -388,15 +392,17 @@ items:
   langs:
   - csharp
   - vb
-  name: CreateSession(string)
-  nameWithType: ICustomerServiceAgent.CreateSession(string)
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateSession(string)
+  name: CreateSession(String)
+  nameWithType: ICustomerServiceAgent.CreateSession(String)
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateSession(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Creates a login session for a CS user
-  example: []
+  summary: "\nCreates a login session for a CS user\n"
   syntax:
     content: CsSessionKey CreateSession(string remoteIp)
     parameters:
@@ -408,9 +414,6 @@ items:
       description: The session key information
     content.vb: Function CreateSession(remoteIp As String) As CsSessionKey
   overload: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateSession*
-  nameWithType.vb: ICustomerServiceAgent.CreateSession(String)
-  fullName.vb: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateSession(String)
-  name.vb: CreateSession(String)
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.RemoveSession(System.Int32)
   commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.RemoveSession(System.Int32)
   id: RemoveSession(System.Int32)
@@ -418,15 +421,17 @@ items:
   langs:
   - csharp
   - vb
-  name: RemoveSession(int)
-  nameWithType: ICustomerServiceAgent.RemoveSession(int)
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.RemoveSession(int)
+  name: RemoveSession(Int32)
+  nameWithType: ICustomerServiceAgent.RemoveSession(Int32)
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.RemoveSession(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Remove a login session for a CS user
-  example: []
+  summary: "\nRemove a login session for a CS user\n"
   syntax:
     content: void RemoveSession(int loginId)
     parameters:
@@ -435,9 +440,6 @@ items:
       description: The login id to remove
     content.vb: Sub RemoveSession(loginId As Integer)
   overload: SuperOffice.CRM.Services.ICustomerServiceAgent.RemoveSession*
-  nameWithType.vb: ICustomerServiceAgent.RemoveSession(Integer)
-  fullName.vb: SuperOffice.CRM.Services.ICustomerServiceAgent.RemoveSession(Integer)
-  name.vb: RemoveSession(Integer)
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.SessionIsValid(System.String)
   commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.SessionIsValid(System.String)
   id: SessionIsValid(System.String)
@@ -445,15 +447,17 @@ items:
   langs:
   - csharp
   - vb
-  name: SessionIsValid(string)
-  nameWithType: ICustomerServiceAgent.SessionIsValid(string)
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.SessionIsValid(string)
+  name: SessionIsValid(String)
+  nameWithType: ICustomerServiceAgent.SessionIsValid(String)
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.SessionIsValid(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Check if a CS session is valid
-  example: []
+  summary: "\nCheck if a CS session is valid\n"
   syntax:
     content: bool SessionIsValid(string csSessionKey)
     parameters:
@@ -465,9 +469,6 @@ items:
       description: True if there is a valid CS session based on the session key
     content.vb: Function SessionIsValid(csSessionKey As String) As Boolean
   overload: SuperOffice.CRM.Services.ICustomerServiceAgent.SessionIsValid*
-  nameWithType.vb: ICustomerServiceAgent.SessionIsValid(String)
-  fullName.vb: SuperOffice.CRM.Services.ICustomerServiceAgent.SessionIsValid(String)
-  name.vb: SessionIsValid(String)
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.HasChatNotify
   commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.HasChatNotify
   id: HasChatNotify
@@ -479,17 +480,19 @@ items:
   nameWithType: ICustomerServiceAgent.HasChatNotify()
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.HasChatNotify()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Check if user has any chat notification
-  example: []
+  summary: "\nCheck if user has any chat notification\n"
   syntax:
     content: bool HasChatNotify()
     return:
       type: System.Boolean
       description: True if the user has at least one notification setting on
-    content.vb: Function HasChatNotify() As Boolean
+    content.vb: Function HasChatNotify As Boolean
   overload: SuperOffice.CRM.Services.ICustomerServiceAgent.HasChatNotify*
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.CheckSymmetricEncryption(System.String)
   commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.CheckSymmetricEncryption(System.String)
@@ -498,15 +501,17 @@ items:
   langs:
   - csharp
   - vb
-  name: CheckSymmetricEncryption(string)
-  nameWithType: ICustomerServiceAgent.CheckSymmetricEncryption(string)
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.CheckSymmetricEncryption(string)
+  name: CheckSymmetricEncryption(String)
+  nameWithType: ICustomerServiceAgent.CheckSymmetricEncryption(String)
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.CheckSymmetricEncryption(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Do a test to check that we are using the same encryption keys
-  example: []
+  summary: "\nDo a test to check that we are using the same encryption keys\n"
   syntax:
     content: string CheckSymmetricEncryption(string encryptedString)
     parameters:
@@ -518,9 +523,6 @@ items:
       description: Encrypted version of the string done by NetServer
     content.vb: Function CheckSymmetricEncryption(encryptedString As String) As String
   overload: SuperOffice.CRM.Services.ICustomerServiceAgent.CheckSymmetricEncryption*
-  nameWithType.vb: ICustomerServiceAgent.CheckSymmetricEncryption(String)
-  fullName.vb: SuperOffice.CRM.Services.ICustomerServiceAgent.CheckSymmetricEncryption(String)
-  name.vb: CheckSymmetricEncryption(String)
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.ReportSessionActive(System.String)
   commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.ReportSessionActive(System.String)
   id: ReportSessionActive(System.String)
@@ -528,29 +530,28 @@ items:
   langs:
   - csharp
   - vb
-  name: ReportSessionActive(string)
-  nameWithType: ICustomerServiceAgent.ReportSessionActive(string)
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.ReportSessionActive(string)
+  name: ReportSessionActive(String)
+  nameWithType: ICustomerServiceAgent.ReportSessionActive(String)
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.ReportSessionActive(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Report a session as being 'active'; will update the corresponding row in login table, but not more than once per minute/session
-  example: []
+  summary: "\nReport a session as being &apos;active&apos;; will update the corresponding row in login table, but not more than once per minute/session\n"
   syntax:
     content: int ReportSessionActive(string sessionKey)
     parameters:
     - id: sessionKey
       type: System.String
-      description: CS session key, matching the 'login' table
+      description: CS session key, matching the &apos;login&apos; table
     return:
       type: System.Int32
       description: The ID of the login table row, or 0 if not found
     content.vb: Function ReportSessionActive(sessionKey As String) As Integer
   overload: SuperOffice.CRM.Services.ICustomerServiceAgent.ReportSessionActive*
-  nameWithType.vb: ICustomerServiceAgent.ReportSessionActive(String)
-  fullName.vb: SuperOffice.CRM.Services.ICustomerServiceAgent.ReportSessionActive(String)
-  name.vb: ReportSessionActive(String)
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerCenterConfig(System.Int32)
   commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerCenterConfig(System.Int32)
   id: GetCustomerCenterConfig(System.Int32)
@@ -558,15 +559,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetCustomerCenterConfig(int)
-  nameWithType: ICustomerServiceAgent.GetCustomerCenterConfig(int)
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerCenterConfig(int)
+  name: GetCustomerCenterConfig(Int32)
+  nameWithType: ICustomerServiceAgent.GetCustomerCenterConfig(Int32)
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerCenterConfig(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Gets a CustomerCenterConfig object.
-  example: []
+  summary: "\nGets a CustomerCenterConfig object.                        \n"
   syntax:
     content: CustomerCenterConfig GetCustomerCenterConfig(int customerCenterConfigId)
     parameters:
@@ -578,9 +581,6 @@ items:
       description: CustomerCenterConfig
     content.vb: Function GetCustomerCenterConfig(customerCenterConfigId As Integer) As CustomerCenterConfig
   overload: SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerCenterConfig*
-  nameWithType.vb: ICustomerServiceAgent.GetCustomerCenterConfig(Integer)
-  fullName.vb: SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerCenterConfig(Integer)
-  name.vb: GetCustomerCenterConfig(Integer)
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetAllCustomerCenterConfigs
   commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.GetAllCustomerCenterConfigs
   id: GetAllCustomerCenterConfigs
@@ -592,17 +592,19 @@ items:
   nameWithType: ICustomerServiceAgent.GetAllCustomerCenterConfigs()
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetAllCustomerCenterConfigs()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Get all rows from cust_config as an array of CustomerCenterConfig entities
-  example: []
+  summary: "\nGet all rows from cust_config as an array of CustomerCenterConfig entities\n"
   syntax:
     content: CustomerCenterConfig[] GetAllCustomerCenterConfigs()
     return:
       type: SuperOffice.CRM.Services.CustomerCenterConfig[]
       description: An array of CustomerCenterConfig entities
-    content.vb: Function GetAllCustomerCenterConfigs() As CustomerCenterConfig()
+    content.vb: Function GetAllCustomerCenterConfigs As CustomerCenterConfig()
   overload: SuperOffice.CRM.Services.ICustomerServiceAgent.GetAllCustomerCenterConfigs*
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveAllCustomerCenterConfigs(SuperOffice.CRM.Services.CustomerCenterConfig[])
   commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.SaveAllCustomerCenterConfigs(SuperOffice.CRM.Services.CustomerCenterConfig[])
@@ -615,11 +617,13 @@ items:
   nameWithType: ICustomerServiceAgent.SaveAllCustomerCenterConfigs(CustomerCenterConfig[])
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveAllCustomerCenterConfigs(SuperOffice.CRM.Services.CustomerCenterConfig[])
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Save an array of CustomerCenterConfig entities to the database
-  example: []
+  summary: "\nSave an array of CustomerCenterConfig entities to the database\n"
   syntax:
     content: void SaveAllCustomerCenterConfigs(CustomerCenterConfig[] custConfigs)
     parameters:
@@ -642,17 +646,19 @@ items:
   nameWithType: ICustomerServiceAgent.CheckIfCustomizedTemplates()
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.CheckIfCustomizedTemplates()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Checks whether the core html templates are customized
-  example: []
+  summary: "\nChecks whether the core html templates are customized\n"
   syntax:
     content: bool CheckIfCustomizedTemplates()
     return:
       type: System.Boolean
       description: True if the templates are customized
-    content.vb: Function CheckIfCustomizedTemplates() As Boolean
+    content.vb: Function CheckIfCustomizedTemplates As Boolean
   overload: SuperOffice.CRM.Services.ICustomerServiceAgent.CheckIfCustomizedTemplates*
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetProgramUrl(System.String,System.Boolean)
   commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.GetProgramUrl(System.String,System.Boolean)
@@ -661,21 +667,23 @@ items:
   langs:
   - csharp
   - vb
-  name: GetProgramUrl(string, bool)
-  nameWithType: ICustomerServiceAgent.GetProgramUrl(string, bool)
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetProgramUrl(string, bool)
+  name: GetProgramUrl(String, Boolean)
+  nameWithType: ICustomerServiceAgent.GetProgramUrl(String, Boolean)
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetProgramUrl(System.String, System.Boolean)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: This method will convert a module name into a Service URL.
-  example: []
+  summary: "\nThis method will convert a module name into a Service URL.\n"
   syntax:
     content: string GetProgramUrl(string programName, bool external)
     parameters:
     - id: programName
       type: System.String
-      description: In this parameter you must specify which CS program you want to create an URL for. Valid examples are "ticket", "rms", "spm" etc.
+      description: In this parameter you must specify which CS program you want to create an URL for. Valid examples are &quot;ticket&quot;, &quot;rms&quot;, &quot;spm&quot; etc.
     - id: external
       type: System.Boolean
       description: If set to true, this will generate URLs that are accesible from the outside (for example Internet)
@@ -684,9 +692,6 @@ items:
       description: Returns a valid Service URL composed of the give parameters.
     content.vb: Function GetProgramUrl(programName As String, external As Boolean) As String
   overload: SuperOffice.CRM.Services.ICustomerServiceAgent.GetProgramUrl*
-  nameWithType.vb: ICustomerServiceAgent.GetProgramUrl(String, Boolean)
-  fullName.vb: SuperOffice.CRM.Services.ICustomerServiceAgent.GetProgramUrl(String, Boolean)
-  name.vb: GetProgramUrl(String, Boolean)
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetFaqForCustomer(System.Int32)
   commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.GetFaqForCustomer(System.Int32)
   id: GetFaqForCustomer(System.Int32)
@@ -694,15 +699,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetFaqForCustomer(int)
-  nameWithType: ICustomerServiceAgent.GetFaqForCustomer(int)
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetFaqForCustomer(int)
+  name: GetFaqForCustomer(Int32)
+  nameWithType: ICustomerServiceAgent.GetFaqForCustomer(Int32)
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetFaqForCustomer(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Get a FAQ entry, ment to be displayed for a customer. This can either be a link to the FAQ entry on Custom Center, or it can be the answer and question. This is dependent on Registry setting with reg_id=157
-  example: []
+  summary: "\nGet a FAQ entry, ment to be displayed for a customer. This can either be a link to the FAQ entry on Custom Center, or it can be the answer and question. This is dependent on Registry setting with reg_id=157\n"
   syntax:
     content: string GetFaqForCustomer(int faqEntryId)
     parameters:
@@ -714,9 +721,6 @@ items:
       description: The FAQ to show to the customer. Either a clickable link or the question/answer itself.
     content.vb: Function GetFaqForCustomer(faqEntryId As Integer) As String
   overload: SuperOffice.CRM.Services.ICustomerServiceAgent.GetFaqForCustomer*
-  nameWithType.vb: ICustomerServiceAgent.GetFaqForCustomer(Integer)
-  fullName.vb: SuperOffice.CRM.Services.ICustomerServiceAgent.GetFaqForCustomer(Integer)
-  name.vb: GetFaqForCustomer(Integer)
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerServiceStartup
   commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerServiceStartup
   id: GetCustomerServiceStartup
@@ -728,17 +732,19 @@ items:
   nameWithType: ICustomerServiceAgent.GetCustomerServiceStartup()
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerServiceStartup()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Get the carrier with data that Service needs when starting up
-  example: []
+  summary: "\nGet the carrier with data that Service needs when starting up\n"
   syntax:
     content: CustomerServiceStartup GetCustomerServiceStartup()
     return:
       type: SuperOffice.CRM.Services.CustomerServiceStartup
       description: The carrier containing the startup data
-    content.vb: Function GetCustomerServiceStartup() As CustomerServiceStartup
+    content.vb: Function GetCustomerServiceStartup As CustomerServiceStartup
   overload: SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerServiceStartup*
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.ExecuteEventHandlers(SuperOffice.CRM.Services.EventData)
   commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.ExecuteEventHandlers(SuperOffice.CRM.Services.EventData)
@@ -751,11 +757,13 @@ items:
   nameWithType: ICustomerServiceAgent.ExecuteEventHandlers(EventData)
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.ExecuteEventHandlers(SuperOffice.CRM.Services.EventData)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: This method will execute event handlers in CRMScript for a given event.
-  example: []
+  summary: "\nThis method will execute event handlers in CRMScript for a given event.\n"
   syntax:
     content: EventData ExecuteEventHandlers(EventData eventData)
     parameters:
@@ -778,17 +786,19 @@ items:
   nameWithType: ICustomerServiceAgent.GetMailboxes()
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetMailboxes()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: This method will get all registered mailboxes in Service
-  example: []
+  summary: "\nThis method will get all registered mailboxes in Service\n"
   syntax:
     content: Mailbox[] GetMailboxes()
     return:
       type: SuperOffice.CRM.Services.Mailbox[]
       description: An array of Mailbox objects
-    content.vb: Function GetMailboxes() As Mailbox()
+    content.vb: Function GetMailboxes As Mailbox()
   overload: SuperOffice.CRM.Services.ICustomerServiceAgent.GetMailboxes*
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetMailboxEntity(System.Int32)
   commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.GetMailboxEntity(System.Int32)
@@ -797,15 +807,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetMailboxEntity(int)
-  nameWithType: ICustomerServiceAgent.GetMailboxEntity(int)
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetMailboxEntity(int)
+  name: GetMailboxEntity(Int32)
+  nameWithType: ICustomerServiceAgent.GetMailboxEntity(Int32)
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetMailboxEntity(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Gets a MailboxEntity object.
-  example: []
+  summary: "\nGets a MailboxEntity object.                        \n"
   syntax:
     content: MailboxEntity GetMailboxEntity(int mailboxEntityId)
     parameters:
@@ -817,9 +829,6 @@ items:
       description: MailboxEntity
     content.vb: Function GetMailboxEntity(mailboxEntityId As Integer) As MailboxEntity
   overload: SuperOffice.CRM.Services.ICustomerServiceAgent.GetMailboxEntity*
-  nameWithType.vb: ICustomerServiceAgent.GetMailboxEntity(Integer)
-  fullName.vb: SuperOffice.CRM.Services.ICustomerServiceAgent.GetMailboxEntity(Integer)
-  name.vb: GetMailboxEntity(Integer)
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewFaqEntry(System.Int32)
   commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewFaqEntry(System.Int32)
   id: GetPreviewFaqEntry(System.Int32)
@@ -827,15 +836,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetPreviewFaqEntry(int)
-  nameWithType: ICustomerServiceAgent.GetPreviewFaqEntry(int)
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewFaqEntry(int)
+  name: GetPreviewFaqEntry(Int32)
+  nameWithType: ICustomerServiceAgent.GetPreviewFaqEntry(Int32)
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewFaqEntry(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Get a faq entry from its faq entry id
-  example: []
+  summary: "\nGet a faq entry from its faq entry id\n"
   syntax:
     content: PreviewFaqEntry GetPreviewFaqEntry(int kbEntryId)
     parameters:
@@ -847,9 +858,6 @@ items:
       description: FAQ entry suitable for preview
     content.vb: Function GetPreviewFaqEntry(kbEntryId As Integer) As PreviewFaqEntry
   overload: SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewFaqEntry*
-  nameWithType.vb: ICustomerServiceAgent.GetPreviewFaqEntry(Integer)
-  fullName.vb: SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewFaqEntry(Integer)
-  name.vb: GetPreviewFaqEntry(Integer)
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewQuickReply(System.Int32)
   commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewQuickReply(System.Int32)
   id: GetPreviewQuickReply(System.Int32)
@@ -857,15 +865,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetPreviewQuickReply(int)
-  nameWithType: ICustomerServiceAgent.GetPreviewQuickReply(int)
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewQuickReply(int)
+  name: GetPreviewQuickReply(Int32)
+  nameWithType: ICustomerServiceAgent.GetPreviewQuickReply(Int32)
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewQuickReply(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Get a quick reply from its quick reply id
-  example: []
+  summary: "\nGet a quick reply from its quick reply id\n"
   syntax:
     content: PreviewQuickReply GetPreviewQuickReply(int quickReplyId)
     parameters:
@@ -877,9 +887,6 @@ items:
       description: Quick reply suitable for preview
     content.vb: Function GetPreviewQuickReply(quickReplyId As Integer) As PreviewQuickReply
   overload: SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewQuickReply*
-  nameWithType.vb: ICustomerServiceAgent.GetPreviewQuickReply(Integer)
-  fullName.vb: SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewQuickReply(Integer)
-  name.vb: GetPreviewQuickReply(Integer)
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewReplyTemplate(System.Int32)
   commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewReplyTemplate(System.Int32)
   id: GetPreviewReplyTemplate(System.Int32)
@@ -887,15 +894,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetPreviewReplyTemplate(int)
-  nameWithType: ICustomerServiceAgent.GetPreviewReplyTemplate(int)
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewReplyTemplate(int)
+  name: GetPreviewReplyTemplate(Int32)
+  nameWithType: ICustomerServiceAgent.GetPreviewReplyTemplate(Int32)
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewReplyTemplate(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Get a reply template from its reply template id
-  example: []
+  summary: "\nGet a reply template from its reply template id\n"
   syntax:
     content: PreviewReplyTemplate GetPreviewReplyTemplate(int replyTemplateId)
     parameters:
@@ -907,9 +916,6 @@ items:
       description: Reply template suitable for preview
     content.vb: Function GetPreviewReplyTemplate(replyTemplateId As Integer) As PreviewReplyTemplate
   overload: SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewReplyTemplate*
-  nameWithType.vb: ICustomerServiceAgent.GetPreviewReplyTemplate(Integer)
-  fullName.vb: SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewReplyTemplate(Integer)
-  name.vb: GetPreviewReplyTemplate(Integer)
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetParsedTemplate(System.Int32,System.Int32,System.Int32,System.Int32)
   commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.GetParsedTemplate(System.Int32,System.Int32,System.Int32,System.Int32)
   id: GetParsedTemplate(System.Int32,System.Int32,System.Int32,System.Int32)
@@ -917,15 +923,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetParsedTemplate(int, int, int, int)
-  nameWithType: ICustomerServiceAgent.GetParsedTemplate(int, int, int, int)
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetParsedTemplate(int, int, int, int)
+  name: GetParsedTemplate(Int32, Int32, Int32, Int32)
+  nameWithType: ICustomerServiceAgent.GetParsedTemplate(Int32, Int32, Int32, Int32)
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetParsedTemplate(System.Int32, System.Int32, System.Int32, System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Get a specific langauge version of the reply template, and run this trough the parser
-  example: []
+  summary: "\nGet a specific langauge version of the reply template, and run this trough the parser\n"
   syntax:
     content: ReplyTemplateParsed GetParsedTemplate(int replyTemplateId, int languageId, int personId, int ticketId)
     parameters:
@@ -946,9 +954,6 @@ items:
       description: The parsed reply template
     content.vb: Function GetParsedTemplate(replyTemplateId As Integer, languageId As Integer, personId As Integer, ticketId As Integer) As ReplyTemplateParsed
   overload: SuperOffice.CRM.Services.ICustomerServiceAgent.GetParsedTemplate*
-  nameWithType.vb: ICustomerServiceAgent.GetParsedTemplate(Integer, Integer, Integer, Integer)
-  fullName.vb: SuperOffice.CRM.Services.ICustomerServiceAgent.GetParsedTemplate(Integer, Integer, Integer, Integer)
-  name.vb: GetParsedTemplate(Integer, Integer, Integer, Integer)
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetUnparsedTemplate(System.Int32,System.Int32)
   commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.GetUnparsedTemplate(System.Int32,System.Int32)
   id: GetUnparsedTemplate(System.Int32,System.Int32)
@@ -956,15 +961,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetUnparsedTemplate(int, int)
-  nameWithType: ICustomerServiceAgent.GetUnparsedTemplate(int, int)
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetUnparsedTemplate(int, int)
+  name: GetUnparsedTemplate(Int32, Int32)
+  nameWithType: ICustomerServiceAgent.GetUnparsedTemplate(Int32, Int32)
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetUnparsedTemplate(System.Int32, System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Get a specific langauge version of the reply template. No parsing is performed.
-  example: []
+  summary: "\nGet a specific langauge version of the reply template. No parsing is performed.\n"
   syntax:
     content: ReplyTemplateParsed GetUnparsedTemplate(int replyTemplateId, int languageId)
     parameters:
@@ -979,9 +986,6 @@ items:
       description: The unparsed reply template, but using the same return data structure
     content.vb: Function GetUnparsedTemplate(replyTemplateId As Integer, languageId As Integer) As ReplyTemplateParsed
   overload: SuperOffice.CRM.Services.ICustomerServiceAgent.GetUnparsedTemplate*
-  nameWithType.vb: ICustomerServiceAgent.GetUnparsedTemplate(Integer, Integer)
-  fullName.vb: SuperOffice.CRM.Services.ICustomerServiceAgent.GetUnparsedTemplate(Integer, Integer)
-  name.vb: GetUnparsedTemplate(Integer, Integer)
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetSmsConfig
   commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.GetSmsConfig
   id: GetSmsConfig
@@ -993,17 +997,19 @@ items:
   nameWithType: ICustomerServiceAgent.GetSmsConfig()
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetSmsConfig()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Get the SmsConfig settings for Customer Service sms providers.
-  example: []
+  summary: "\nGet the SmsConfig settings for Customer Service sms providers.\n"
   syntax:
     content: SmsConfig GetSmsConfig()
     return:
       type: SuperOffice.CRM.Services.SmsConfig
       description: Current SMS configuration.
-    content.vb: Function GetSmsConfig() As SmsConfig
+    content.vb: Function GetSmsConfig As SmsConfig
   overload: SuperOffice.CRM.Services.ICustomerServiceAgent.GetSmsConfig*
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.TestSmtpServer(System.String,System.String,System.Boolean)
   commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.TestSmtpServer(System.String,System.String,System.Boolean)
@@ -1012,15 +1018,17 @@ items:
   langs:
   - csharp
   - vb
-  name: TestSmtpServer(string, string, bool)
-  nameWithType: ICustomerServiceAgent.TestSmtpServer(string, string, bool)
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.TestSmtpServer(string, string, bool)
+  name: TestSmtpServer(String, String, Boolean)
+  nameWithType: ICustomerServiceAgent.TestSmtpServer(String, String, Boolean)
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.TestSmtpServer(System.String, System.String, System.Boolean)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: This method will do a test of a SMTP account, by sending an email to a special @superoffice.com account
-  example: []
+  summary: "\nThis method will do a test of a SMTP account, by sending an email to a special @superoffice.com account\n"
   syntax:
     content: SmtpTestResult TestSmtpServer(string smtpUri, string from, bool useStoredPassword)
     parameters:
@@ -1038,9 +1046,6 @@ items:
       description: Contains the result of the test
     content.vb: Function TestSmtpServer(smtpUri As String, from As String, useStoredPassword As Boolean) As SmtpTestResult
   overload: SuperOffice.CRM.Services.ICustomerServiceAgent.TestSmtpServer*
-  nameWithType.vb: ICustomerServiceAgent.TestSmtpServer(String, String, Boolean)
-  fullName.vb: SuperOffice.CRM.Services.ICustomerServiceAgent.TestSmtpServer(String, String, Boolean)
-  name.vb: TestSmtpServer(String, String, Boolean)
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetStatistics(SuperOffice.Data.StatusScreenPanelType[])
   commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.GetStatistics(SuperOffice.Data.StatusScreenPanelType[])
   id: GetStatistics(SuperOffice.Data.StatusScreenPanelType[])
@@ -1052,11 +1057,13 @@ items:
   nameWithType: ICustomerServiceAgent.GetStatistics(StatusScreenPanelType[])
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetStatistics(SuperOffice.Data.StatusScreenPanelType[])
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the calculated results for the required statistics for the Customer Service Status Page
-  example: []
+  summary: "\nReturns the calculated results for the required statistics for the Customer Service Status Page\n"
   syntax:
     content: StatisticsDataSet[] GetStatistics(StatusScreenPanelType[] functions)
     parameters:
@@ -1082,17 +1089,19 @@ items:
   nameWithType: ICustomerServiceAgent.GetSystemTemplateSettings()
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetSystemTemplateSettings()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns system template settings
-  example: []
+  summary: "\nReturns system template settings\n"
   syntax:
     content: SystemTemplateSettings GetSystemTemplateSettings()
     return:
       type: SuperOffice.CRM.Services.SystemTemplateSettings
       description: System template settings item
-    content.vb: Function GetSystemTemplateSettings() As SystemTemplateSettings
+    content.vb: Function GetSystemTemplateSettings As SystemTemplateSettings
   overload: SuperOffice.CRM.Services.ICustomerServiceAgent.GetSystemTemplateSettings*
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveSystemTemplateSettings(SuperOffice.CRM.Services.SystemTemplateSettings)
   commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.SaveSystemTemplateSettings(SuperOffice.CRM.Services.SystemTemplateSettings)
@@ -1105,11 +1114,13 @@ items:
   nameWithType: ICustomerServiceAgent.SaveSystemTemplateSettings(SystemTemplateSettings)
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveSystemTemplateSettings(SuperOffice.CRM.Services.SystemTemplateSettings)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Saves and validates updated system templates. Throws exception if validation fails
-  example: []
+  summary: "\nSaves and validates updated system templates. Throws exception if validation fails\n"
   syntax:
     content: SystemTemplateSettings SaveSystemTemplateSettings(SystemTemplateSettings systemTemplateSettings)
     parameters:
@@ -1128,15 +1139,17 @@ items:
   langs:
   - csharp
   - vb
-  name: CreateTicketFromMailData(int, string)
-  nameWithType: ICustomerServiceAgent.CreateTicketFromMailData(int, string)
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateTicketFromMailData(int, string)
+  name: CreateTicketFromMailData(Int32, String)
+  nameWithType: ICustomerServiceAgent.CreateTicketFromMailData(Int32, String)
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateTicketFromMailData(System.Int32, System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: This method create a new ticket in the same way as importMail would import an email. It accepts RFC822 formatted data
-  example: []
+  summary: "\nThis method create a new ticket in the same way as importMail would import an email. It accepts RFC822 formatted data\n"
   syntax:
     content: TicketInfo CreateTicketFromMailData(int mailboxId, string data)
     parameters:
@@ -1151,9 +1164,6 @@ items:
       description: An object containing some meta data for the created ticket
     content.vb: Function CreateTicketFromMailData(mailboxId As Integer, data As String) As TicketInfo
   overload: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateTicketFromMailData*
-  nameWithType.vb: ICustomerServiceAgent.CreateTicketFromMailData(Integer, String)
-  fullName.vb: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateTicketFromMailData(Integer, String)
-  name.vb: CreateTicketFromMailData(Integer, String)
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.AddMessageFromMailData(System.Int32,System.String)
   commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.AddMessageFromMailData(System.Int32,System.String)
   id: AddMessageFromMailData(System.Int32,System.String)
@@ -1161,15 +1171,17 @@ items:
   langs:
   - csharp
   - vb
-  name: AddMessageFromMailData(int, string)
-  nameWithType: ICustomerServiceAgent.AddMessageFromMailData(int, string)
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.AddMessageFromMailData(int, string)
+  name: AddMessageFromMailData(Int32, String)
+  nameWithType: ICustomerServiceAgent.AddMessageFromMailData(Int32, String)
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.AddMessageFromMailData(System.Int32, System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: This method will add a message to an existing request in the sam way as importMail would do it from an email. It accepts RFC822 formatted data
-  example: []
+  summary: "\nThis method will add a message to an existing request in the sam way as importMail would do it from an email. It accepts RFC822 formatted data\n"
   syntax:
     content: TicketInfo AddMessageFromMailData(int ticketId, string data)
     parameters:
@@ -1184,9 +1196,6 @@ items:
       description: An object containing some meta data for the ticket
     content.vb: Function AddMessageFromMailData(ticketId As Integer, data As String) As TicketInfo
   overload: SuperOffice.CRM.Services.ICustomerServiceAgent.AddMessageFromMailData*
-  nameWithType.vb: ICustomerServiceAgent.AddMessageFromMailData(Integer, String)
-  fullName.vb: SuperOffice.CRM.Services.ICustomerServiceAgent.AddMessageFromMailData(Integer, String)
-  name.vb: AddMessageFromMailData(Integer, String)
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.FindTicketsByTitleOrId(System.String,System.Int32)
   commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.FindTicketsByTitleOrId(System.String,System.Int32)
   id: FindTicketsByTitleOrId(System.String,System.Int32)
@@ -1194,15 +1203,17 @@ items:
   langs:
   - csharp
   - vb
-  name: FindTicketsByTitleOrId(string, int)
-  nameWithType: ICustomerServiceAgent.FindTicketsByTitleOrId(string, int)
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.FindTicketsByTitleOrId(string, int)
+  name: FindTicketsByTitleOrId(String, Int32)
+  nameWithType: ICustomerServiceAgent.FindTicketsByTitleOrId(String, Int32)
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.FindTicketsByTitleOrId(System.String, System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: This method wil search for tickets matching title or id
-  example: []
+  summary: "\nThis method wil search for tickets matching title or id\n"
   syntax:
     content: TicketInfo[] FindTicketsByTitleOrId(string titleOrId, int maxRows)
     parameters:
@@ -1217,51 +1228,16 @@ items:
       description: An array of objects containing some meta data for matching tickets
     content.vb: Function FindTicketsByTitleOrId(titleOrId As String, maxRows As Integer) As TicketInfo()
   overload: SuperOffice.CRM.Services.ICustomerServiceAgent.FindTicketsByTitleOrId*
-  nameWithType.vb: ICustomerServiceAgent.FindTicketsByTitleOrId(String, Integer)
-  fullName.vb: SuperOffice.CRM.Services.ICustomerServiceAgent.FindTicketsByTitleOrId(String, Integer)
-  name.vb: FindTicketsByTitleOrId(String, Integer)
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultCustomerCenterConfig*
   commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultCustomerCenterConfig
   isExternal: true
-  href: SuperOffice.CRM.Services.ICustomerServiceAgent.html#SuperOffice_CRM_Services_ICustomerServiceAgent_CreateDefaultCustomerCenterConfig
   name: CreateDefaultCustomerCenterConfig
   nameWithType: ICustomerServiceAgent.CreateDefaultCustomerCenterConfig
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultCustomerCenterConfig
@@ -1269,21 +1245,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.CustomerCenterConfig
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.CustomerCenterConfig.html
   name: CustomerCenterConfig
   nameWithType: CustomerCenterConfig
   fullName: SuperOffice.CRM.Services.CustomerCenterConfig
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveCustomerCenterConfig*
   commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.SaveCustomerCenterConfig
   isExternal: true
-  href: SuperOffice.CRM.Services.ICustomerServiceAgent.html#SuperOffice_CRM_Services_ICustomerServiceAgent_SaveCustomerCenterConfig_SuperOffice_CRM_Services_CustomerCenterConfig_
   name: SaveCustomerCenterConfig
   nameWithType: ICustomerServiceAgent.SaveCustomerCenterConfig
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveCustomerCenterConfig
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteCustomerCenterConfig*
   commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteCustomerCenterConfig
   isExternal: true
-  href: SuperOffice.CRM.Services.ICustomerServiceAgent.html#SuperOffice_CRM_Services_ICustomerServiceAgent_DeleteCustomerCenterConfig_System_Int32_
   name: DeleteCustomerCenterConfig
   nameWithType: ICustomerServiceAgent.DeleteCustomerCenterConfig
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteCustomerCenterConfig
@@ -1291,24 +1264,18 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultMailboxEntity*
   commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultMailboxEntity
   isExternal: true
-  href: SuperOffice.CRM.Services.ICustomerServiceAgent.html#SuperOffice_CRM_Services_ICustomerServiceAgent_CreateDefaultMailboxEntity
   name: CreateDefaultMailboxEntity
   nameWithType: ICustomerServiceAgent.CreateDefaultMailboxEntity
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultMailboxEntity
@@ -1316,21 +1283,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.MailboxEntity
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.MailboxEntity.html
   name: MailboxEntity
   nameWithType: MailboxEntity
   fullName: SuperOffice.CRM.Services.MailboxEntity
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveMailboxEntity*
   commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.SaveMailboxEntity
   isExternal: true
-  href: SuperOffice.CRM.Services.ICustomerServiceAgent.html#SuperOffice_CRM_Services_ICustomerServiceAgent_SaveMailboxEntity_SuperOffice_CRM_Services_MailboxEntity_
   name: SaveMailboxEntity
   nameWithType: ICustomerServiceAgent.SaveMailboxEntity
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveMailboxEntity
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultSmsConfig*
   commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultSmsConfig
   isExternal: true
-  href: SuperOffice.CRM.Services.ICustomerServiceAgent.html#SuperOffice_CRM_Services_ICustomerServiceAgent_CreateDefaultSmsConfig
   name: CreateDefaultSmsConfig
   nameWithType: ICustomerServiceAgent.CreateDefaultSmsConfig
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultSmsConfig
@@ -1338,57 +1302,55 @@ references:
   commentId: T:SuperOffice.CRM.Services.SmsConfig
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.SmsConfig.html
   name: SmsConfig
   nameWithType: SmsConfig
   fullName: SuperOffice.CRM.Services.SmsConfig
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveSmsConfig*
   commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.SaveSmsConfig
   isExternal: true
-  href: SuperOffice.CRM.Services.ICustomerServiceAgent.html#SuperOffice_CRM_Services_ICustomerServiceAgent_SaveSmsConfig_SuperOffice_CRM_Services_SmsConfig_
   name: SaveSmsConfig
   nameWithType: ICustomerServiceAgent.SaveSmsConfig
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveSmsConfig
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteChatSessions*
   commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteChatSessions
   isExternal: true
-  href: SuperOffice.CRM.Services.ICustomerServiceAgent.html#SuperOffice_CRM_Services_ICustomerServiceAgent_DeleteChatSessions_System_Int32___
   name: DeleteChatSessions
   nameWithType: ICustomerServiceAgent.DeleteChatSessions
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteChatSessions
 - uid: System.Int32[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int[]
-  nameWithType: int[]
-  fullName: int[]
-  nameWithType.vb: Integer()
-  fullName.vb: Integer()
-  name.vb: Integer()
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
   spec.csharp:
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.ChatSessionsForUser*
   commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.ChatSessionsForUser
   isExternal: true
-  href: SuperOffice.CRM.Services.ICustomerServiceAgent.html#SuperOffice_CRM_Services_ICustomerServiceAgent_ChatSessionsForUser
   name: ChatSessionsForUser
   nameWithType: ICustomerServiceAgent.ChatSessionsForUser
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.ChatSessionsForUser
 - uid: SuperOffice.CRM.Services.ChatSession[]
   isExternal: true
-  href: SuperOffice.CRM.Services.ChatSession.html
   name: ChatSession[]
   nameWithType: ChatSession[]
   fullName: SuperOffice.CRM.Services.ChatSession[]
@@ -1398,27 +1360,29 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.ChatSession
     name: ChatSession
+    nameWithType: ChatSession
+    fullName: SuperOffice.CRM.Services.ChatSession
     isExternal: true
-    href: SuperOffice.CRM.Services.ChatSession.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.Services.ChatSession
     name: ChatSession
+    nameWithType: ChatSession
+    fullName: SuperOffice.CRM.Services.ChatSession
     isExternal: true
-    href: SuperOffice.CRM.Services.ChatSession.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.UpdateFeatureToggles*
   commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.UpdateFeatureToggles
   isExternal: true
-  href: SuperOffice.CRM.Services.ICustomerServiceAgent.html#SuperOffice_CRM_Services_ICustomerServiceAgent_UpdateFeatureToggles_SuperOffice_CRM_Services_CsFeatureToggle___
   name: UpdateFeatureToggles
   nameWithType: ICustomerServiceAgent.UpdateFeatureToggles
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.UpdateFeatureToggles
 - uid: SuperOffice.CRM.Services.CsFeatureToggle[]
   isExternal: true
-  href: SuperOffice.CRM.Services.CsFeatureToggle.html
   name: CsFeatureToggle[]
   nameWithType: CsFeatureToggle[]
   fullName: SuperOffice.CRM.Services.CsFeatureToggle[]
@@ -1428,21 +1392,24 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.CsFeatureToggle
     name: CsFeatureToggle
+    nameWithType: CsFeatureToggle
+    fullName: SuperOffice.CRM.Services.CsFeatureToggle
     isExternal: true
-    href: SuperOffice.CRM.Services.CsFeatureToggle.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.Services.CsFeatureToggle
     name: CsFeatureToggle
+    nameWithType: CsFeatureToggle
+    fullName: SuperOffice.CRM.Services.CsFeatureToggle
     isExternal: true
-    href: SuperOffice.CRM.Services.CsFeatureToggle.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.EventHandlerExists*
   commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.EventHandlerExists
   isExternal: true
-  href: SuperOffice.CRM.Services.ICustomerServiceAgent.html#SuperOffice_CRM_Services_ICustomerServiceAgent_EventHandlerExists_SuperOffice_Data_EventHandlerType_
   name: EventHandlerExists
   nameWithType: ICustomerServiceAgent.EventHandlerExists
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.EventHandlerExists
@@ -1455,17 +1422,12 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateSession*
   commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.CreateSession
   isExternal: true
-  href: SuperOffice.CRM.Services.ICustomerServiceAgent.html#SuperOffice_CRM_Services_ICustomerServiceAgent_CreateSession_System_String_
   name: CreateSession
   nameWithType: ICustomerServiceAgent.CreateSession
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateSession
@@ -1473,73 +1435,60 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.CRM.Services.CsSessionKey
   commentId: T:SuperOffice.CRM.Services.CsSessionKey
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.CsSessionKey.html
   name: CsSessionKey
   nameWithType: CsSessionKey
   fullName: SuperOffice.CRM.Services.CsSessionKey
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.RemoveSession*
   commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.RemoveSession
   isExternal: true
-  href: SuperOffice.CRM.Services.ICustomerServiceAgent.html#SuperOffice_CRM_Services_ICustomerServiceAgent_RemoveSession_System_Int32_
   name: RemoveSession
   nameWithType: ICustomerServiceAgent.RemoveSession
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.RemoveSession
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.SessionIsValid*
   commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.SessionIsValid
   isExternal: true
-  href: SuperOffice.CRM.Services.ICustomerServiceAgent.html#SuperOffice_CRM_Services_ICustomerServiceAgent_SessionIsValid_System_String_
   name: SessionIsValid
   nameWithType: ICustomerServiceAgent.SessionIsValid
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.SessionIsValid
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.HasChatNotify*
   commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.HasChatNotify
   isExternal: true
-  href: SuperOffice.CRM.Services.ICustomerServiceAgent.html#SuperOffice_CRM_Services_ICustomerServiceAgent_HasChatNotify
   name: HasChatNotify
   nameWithType: ICustomerServiceAgent.HasChatNotify
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.HasChatNotify
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.CheckSymmetricEncryption*
   commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.CheckSymmetricEncryption
   isExternal: true
-  href: SuperOffice.CRM.Services.ICustomerServiceAgent.html#SuperOffice_CRM_Services_ICustomerServiceAgent_CheckSymmetricEncryption_System_String_
   name: CheckSymmetricEncryption
   nameWithType: ICustomerServiceAgent.CheckSymmetricEncryption
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.CheckSymmetricEncryption
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.ReportSessionActive*
   commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.ReportSessionActive
   isExternal: true
-  href: SuperOffice.CRM.Services.ICustomerServiceAgent.html#SuperOffice_CRM_Services_ICustomerServiceAgent_ReportSessionActive_System_String_
   name: ReportSessionActive
   nameWithType: ICustomerServiceAgent.ReportSessionActive
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.ReportSessionActive
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerCenterConfig*
   commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerCenterConfig
   isExternal: true
-  href: SuperOffice.CRM.Services.ICustomerServiceAgent.html#SuperOffice_CRM_Services_ICustomerServiceAgent_GetCustomerCenterConfig_System_Int32_
   name: GetCustomerCenterConfig
   nameWithType: ICustomerServiceAgent.GetCustomerCenterConfig
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerCenterConfig
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetAllCustomerCenterConfigs*
   commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.GetAllCustomerCenterConfigs
   isExternal: true
-  href: SuperOffice.CRM.Services.ICustomerServiceAgent.html#SuperOffice_CRM_Services_ICustomerServiceAgent_GetAllCustomerCenterConfigs
   name: GetAllCustomerCenterConfigs
   nameWithType: ICustomerServiceAgent.GetAllCustomerCenterConfigs
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetAllCustomerCenterConfigs
 - uid: SuperOffice.CRM.Services.CustomerCenterConfig[]
   isExternal: true
-  href: SuperOffice.CRM.Services.CustomerCenterConfig.html
   name: CustomerCenterConfig[]
   nameWithType: CustomerCenterConfig[]
   fullName: SuperOffice.CRM.Services.CustomerCenterConfig[]
@@ -1549,49 +1498,48 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.CustomerCenterConfig
     name: CustomerCenterConfig
+    nameWithType: CustomerCenterConfig
+    fullName: SuperOffice.CRM.Services.CustomerCenterConfig
     isExternal: true
-    href: SuperOffice.CRM.Services.CustomerCenterConfig.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.Services.CustomerCenterConfig
     name: CustomerCenterConfig
+    nameWithType: CustomerCenterConfig
+    fullName: SuperOffice.CRM.Services.CustomerCenterConfig
     isExternal: true
-    href: SuperOffice.CRM.Services.CustomerCenterConfig.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveAllCustomerCenterConfigs*
   commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.SaveAllCustomerCenterConfigs
   isExternal: true
-  href: SuperOffice.CRM.Services.ICustomerServiceAgent.html#SuperOffice_CRM_Services_ICustomerServiceAgent_SaveAllCustomerCenterConfigs_SuperOffice_CRM_Services_CustomerCenterConfig___
   name: SaveAllCustomerCenterConfigs
   nameWithType: ICustomerServiceAgent.SaveAllCustomerCenterConfigs
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveAllCustomerCenterConfigs
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.CheckIfCustomizedTemplates*
   commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.CheckIfCustomizedTemplates
   isExternal: true
-  href: SuperOffice.CRM.Services.ICustomerServiceAgent.html#SuperOffice_CRM_Services_ICustomerServiceAgent_CheckIfCustomizedTemplates
   name: CheckIfCustomizedTemplates
   nameWithType: ICustomerServiceAgent.CheckIfCustomizedTemplates
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.CheckIfCustomizedTemplates
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetProgramUrl*
   commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.GetProgramUrl
   isExternal: true
-  href: SuperOffice.CRM.Services.ICustomerServiceAgent.html#SuperOffice_CRM_Services_ICustomerServiceAgent_GetProgramUrl_System_String_System_Boolean_
   name: GetProgramUrl
   nameWithType: ICustomerServiceAgent.GetProgramUrl
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetProgramUrl
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetFaqForCustomer*
   commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.GetFaqForCustomer
   isExternal: true
-  href: SuperOffice.CRM.Services.ICustomerServiceAgent.html#SuperOffice_CRM_Services_ICustomerServiceAgent_GetFaqForCustomer_System_Int32_
   name: GetFaqForCustomer
   nameWithType: ICustomerServiceAgent.GetFaqForCustomer
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetFaqForCustomer
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerServiceStartup*
   commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerServiceStartup
   isExternal: true
-  href: SuperOffice.CRM.Services.ICustomerServiceAgent.html#SuperOffice_CRM_Services_ICustomerServiceAgent_GetCustomerServiceStartup
   name: GetCustomerServiceStartup
   nameWithType: ICustomerServiceAgent.GetCustomerServiceStartup
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerServiceStartup
@@ -1599,14 +1547,12 @@ references:
   commentId: T:SuperOffice.CRM.Services.CustomerServiceStartup
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.CustomerServiceStartup.html
   name: CustomerServiceStartup
   nameWithType: CustomerServiceStartup
   fullName: SuperOffice.CRM.Services.CustomerServiceStartup
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.ExecuteEventHandlers*
   commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.ExecuteEventHandlers
   isExternal: true
-  href: SuperOffice.CRM.Services.ICustomerServiceAgent.html#SuperOffice_CRM_Services_ICustomerServiceAgent_ExecuteEventHandlers_SuperOffice_CRM_Services_EventData_
   name: ExecuteEventHandlers
   nameWithType: ICustomerServiceAgent.ExecuteEventHandlers
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.ExecuteEventHandlers
@@ -1614,20 +1560,17 @@ references:
   commentId: T:SuperOffice.CRM.Services.EventData
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.EventData.html
   name: EventData
   nameWithType: EventData
   fullName: SuperOffice.CRM.Services.EventData
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetMailboxes*
   commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.GetMailboxes
   isExternal: true
-  href: SuperOffice.CRM.Services.ICustomerServiceAgent.html#SuperOffice_CRM_Services_ICustomerServiceAgent_GetMailboxes
   name: GetMailboxes
   nameWithType: ICustomerServiceAgent.GetMailboxes
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetMailboxes
 - uid: SuperOffice.CRM.Services.Mailbox[]
   isExternal: true
-  href: SuperOffice.CRM.Services.Mailbox.html
   name: Mailbox[]
   nameWithType: Mailbox[]
   fullName: SuperOffice.CRM.Services.Mailbox[]
@@ -1637,28 +1580,30 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.Mailbox
     name: Mailbox
+    nameWithType: Mailbox
+    fullName: SuperOffice.CRM.Services.Mailbox
     isExternal: true
-    href: SuperOffice.CRM.Services.Mailbox.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.Services.Mailbox
     name: Mailbox
+    nameWithType: Mailbox
+    fullName: SuperOffice.CRM.Services.Mailbox
     isExternal: true
-    href: SuperOffice.CRM.Services.Mailbox.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetMailboxEntity*
   commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.GetMailboxEntity
   isExternal: true
-  href: SuperOffice.CRM.Services.ICustomerServiceAgent.html#SuperOffice_CRM_Services_ICustomerServiceAgent_GetMailboxEntity_System_Int32_
   name: GetMailboxEntity
   nameWithType: ICustomerServiceAgent.GetMailboxEntity
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetMailboxEntity
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewFaqEntry*
   commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewFaqEntry
   isExternal: true
-  href: SuperOffice.CRM.Services.ICustomerServiceAgent.html#SuperOffice_CRM_Services_ICustomerServiceAgent_GetPreviewFaqEntry_System_Int32_
   name: GetPreviewFaqEntry
   nameWithType: ICustomerServiceAgent.GetPreviewFaqEntry
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewFaqEntry
@@ -1666,14 +1611,12 @@ references:
   commentId: T:SuperOffice.CRM.Services.PreviewFaqEntry
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.PreviewFaqEntry.html
   name: PreviewFaqEntry
   nameWithType: PreviewFaqEntry
   fullName: SuperOffice.CRM.Services.PreviewFaqEntry
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewQuickReply*
   commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewQuickReply
   isExternal: true
-  href: SuperOffice.CRM.Services.ICustomerServiceAgent.html#SuperOffice_CRM_Services_ICustomerServiceAgent_GetPreviewQuickReply_System_Int32_
   name: GetPreviewQuickReply
   nameWithType: ICustomerServiceAgent.GetPreviewQuickReply
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewQuickReply
@@ -1681,14 +1624,12 @@ references:
   commentId: T:SuperOffice.CRM.Services.PreviewQuickReply
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.PreviewQuickReply.html
   name: PreviewQuickReply
   nameWithType: PreviewQuickReply
   fullName: SuperOffice.CRM.Services.PreviewQuickReply
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewReplyTemplate*
   commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewReplyTemplate
   isExternal: true
-  href: SuperOffice.CRM.Services.ICustomerServiceAgent.html#SuperOffice_CRM_Services_ICustomerServiceAgent_GetPreviewReplyTemplate_System_Int32_
   name: GetPreviewReplyTemplate
   nameWithType: ICustomerServiceAgent.GetPreviewReplyTemplate
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetPreviewReplyTemplate
@@ -1696,14 +1637,12 @@ references:
   commentId: T:SuperOffice.CRM.Services.PreviewReplyTemplate
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.PreviewReplyTemplate.html
   name: PreviewReplyTemplate
   nameWithType: PreviewReplyTemplate
   fullName: SuperOffice.CRM.Services.PreviewReplyTemplate
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetParsedTemplate*
   commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.GetParsedTemplate
   isExternal: true
-  href: SuperOffice.CRM.Services.ICustomerServiceAgent.html#SuperOffice_CRM_Services_ICustomerServiceAgent_GetParsedTemplate_System_Int32_System_Int32_System_Int32_System_Int32_
   name: GetParsedTemplate
   nameWithType: ICustomerServiceAgent.GetParsedTemplate
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetParsedTemplate
@@ -1711,28 +1650,24 @@ references:
   commentId: T:SuperOffice.CRM.Services.ReplyTemplateParsed
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.ReplyTemplateParsed.html
   name: ReplyTemplateParsed
   nameWithType: ReplyTemplateParsed
   fullName: SuperOffice.CRM.Services.ReplyTemplateParsed
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetUnparsedTemplate*
   commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.GetUnparsedTemplate
   isExternal: true
-  href: SuperOffice.CRM.Services.ICustomerServiceAgent.html#SuperOffice_CRM_Services_ICustomerServiceAgent_GetUnparsedTemplate_System_Int32_System_Int32_
   name: GetUnparsedTemplate
   nameWithType: ICustomerServiceAgent.GetUnparsedTemplate
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetUnparsedTemplate
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetSmsConfig*
   commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.GetSmsConfig
   isExternal: true
-  href: SuperOffice.CRM.Services.ICustomerServiceAgent.html#SuperOffice_CRM_Services_ICustomerServiceAgent_GetSmsConfig
   name: GetSmsConfig
   nameWithType: ICustomerServiceAgent.GetSmsConfig
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetSmsConfig
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.TestSmtpServer*
   commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.TestSmtpServer
   isExternal: true
-  href: SuperOffice.CRM.Services.ICustomerServiceAgent.html#SuperOffice_CRM_Services_ICustomerServiceAgent_TestSmtpServer_System_String_System_String_System_Boolean_
   name: TestSmtpServer
   nameWithType: ICustomerServiceAgent.TestSmtpServer
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.TestSmtpServer
@@ -1740,14 +1675,12 @@ references:
   commentId: T:SuperOffice.CRM.Services.SmtpTestResult
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.SmtpTestResult.html
   name: SmtpTestResult
   nameWithType: SmtpTestResult
   fullName: SuperOffice.CRM.Services.SmtpTestResult
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetStatistics*
   commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.GetStatistics
   isExternal: true
-  href: SuperOffice.CRM.Services.ICustomerServiceAgent.html#SuperOffice_CRM_Services_ICustomerServiceAgent_GetStatistics_SuperOffice_Data_StatusScreenPanelType___
   name: GetStatistics
   nameWithType: ICustomerServiceAgent.GetStatistics
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetStatistics
@@ -1762,18 +1695,23 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.StatusScreenPanelType
     name: StatusScreenPanelType
+    nameWithType: StatusScreenPanelType
+    fullName: SuperOffice.Data.StatusScreenPanelType
     isExternal: true
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.Data.StatusScreenPanelType
     name: StatusScreenPanelType
+    nameWithType: StatusScreenPanelType
+    fullName: SuperOffice.Data.StatusScreenPanelType
     isExternal: true
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.StatisticsDataSet[]
   isExternal: true
-  href: SuperOffice.CRM.Services.StatisticsDataSet.html
   name: StatisticsDataSet[]
   nameWithType: StatisticsDataSet[]
   fullName: SuperOffice.CRM.Services.StatisticsDataSet[]
@@ -1783,21 +1721,24 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.StatisticsDataSet
     name: StatisticsDataSet
+    nameWithType: StatisticsDataSet
+    fullName: SuperOffice.CRM.Services.StatisticsDataSet
     isExternal: true
-    href: SuperOffice.CRM.Services.StatisticsDataSet.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.Services.StatisticsDataSet
     name: StatisticsDataSet
+    nameWithType: StatisticsDataSet
+    fullName: SuperOffice.CRM.Services.StatisticsDataSet
     isExternal: true
-    href: SuperOffice.CRM.Services.StatisticsDataSet.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetSystemTemplateSettings*
   commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.GetSystemTemplateSettings
   isExternal: true
-  href: SuperOffice.CRM.Services.ICustomerServiceAgent.html#SuperOffice_CRM_Services_ICustomerServiceAgent_GetSystemTemplateSettings
   name: GetSystemTemplateSettings
   nameWithType: ICustomerServiceAgent.GetSystemTemplateSettings
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetSystemTemplateSettings
@@ -1805,21 +1746,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.SystemTemplateSettings
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.SystemTemplateSettings.html
   name: SystemTemplateSettings
   nameWithType: SystemTemplateSettings
   fullName: SuperOffice.CRM.Services.SystemTemplateSettings
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveSystemTemplateSettings*
   commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.SaveSystemTemplateSettings
   isExternal: true
-  href: SuperOffice.CRM.Services.ICustomerServiceAgent.html#SuperOffice_CRM_Services_ICustomerServiceAgent_SaveSystemTemplateSettings_SuperOffice_CRM_Services_SystemTemplateSettings_
   name: SaveSystemTemplateSettings
   nameWithType: ICustomerServiceAgent.SaveSystemTemplateSettings
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveSystemTemplateSettings
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateTicketFromMailData*
   commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.CreateTicketFromMailData
   isExternal: true
-  href: SuperOffice.CRM.Services.ICustomerServiceAgent.html#SuperOffice_CRM_Services_ICustomerServiceAgent_CreateTicketFromMailData_System_Int32_System_String_
   name: CreateTicketFromMailData
   nameWithType: ICustomerServiceAgent.CreateTicketFromMailData
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateTicketFromMailData
@@ -1827,27 +1765,23 @@ references:
   commentId: T:SuperOffice.CRM.Services.TicketInfo
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.TicketInfo.html
   name: TicketInfo
   nameWithType: TicketInfo
   fullName: SuperOffice.CRM.Services.TicketInfo
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.AddMessageFromMailData*
   commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.AddMessageFromMailData
   isExternal: true
-  href: SuperOffice.CRM.Services.ICustomerServiceAgent.html#SuperOffice_CRM_Services_ICustomerServiceAgent_AddMessageFromMailData_System_Int32_System_String_
   name: AddMessageFromMailData
   nameWithType: ICustomerServiceAgent.AddMessageFromMailData
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.AddMessageFromMailData
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.FindTicketsByTitleOrId*
   commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.FindTicketsByTitleOrId
   isExternal: true
-  href: SuperOffice.CRM.Services.ICustomerServiceAgent.html#SuperOffice_CRM_Services_ICustomerServiceAgent_FindTicketsByTitleOrId_System_String_System_Int32_
   name: FindTicketsByTitleOrId
   nameWithType: ICustomerServiceAgent.FindTicketsByTitleOrId
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.FindTicketsByTitleOrId
 - uid: SuperOffice.CRM.Services.TicketInfo[]
   isExternal: true
-  href: SuperOffice.CRM.Services.TicketInfo.html
   name: TicketInfo[]
   nameWithType: TicketInfo[]
   fullName: SuperOffice.CRM.Services.TicketInfo[]
@@ -1857,14 +1791,18 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.TicketInfo
     name: TicketInfo
+    nameWithType: TicketInfo
+    fullName: SuperOffice.CRM.Services.TicketInfo
     isExternal: true
-    href: SuperOffice.CRM.Services.TicketInfo.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.Services.TicketInfo
     name: TicketInfo
+    nameWithType: TicketInfo
+    fullName: SuperOffice.CRM.Services.TicketInfo
     isExternal: true
-    href: SuperOffice.CRM.Services.TicketInfo.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()

@@ -15,31 +15,38 @@ items:
   name: CleanupThreadState<TThreadState, TThreadCleanupState>
   nameWithType: CleanupThreadState<TThreadState, TThreadCleanupState>
   fullName: SuperOffice.Threading.CleanupThreadState<TThreadState, TThreadCleanupState>
-  type: Delegate
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Threading
-  summary: Operation signature used to clean up thread-state used in initialization, so it is possible to later re-use the trhead.
-  example: []
+  summary: "\nOperation signature used to clean up thread-state used in initialization, so it is possible to later re-use the trhead.\n"
   syntax:
-    content: public delegate void CleanupThreadState<in TThreadState, in TThreadCleanupState>(TThreadState threadState, TThreadCleanupState threadCleanupState)
-    parameters:
-    - id: threadState
-      type: '{TThreadState}'
-      description: State passed on from the calling thread.
-    - id: threadCleanupState
-      type: '{TThreadCleanupState}'
-      description: State passed on from initialization code.
+    content: 'public sealed class CleanupThreadState<in TThreadState, in TThreadCleanupState> : MulticastDelegate'
     typeParameters:
     - id: TThreadState
       description: Type of state to apply on to the new thread.
     - id: TThreadCleanupState
       description: Type of state passed from initialization code in the new thread on to clean-up code in this same thread.
-    content.vb: Public Delegate Sub CleanupThreadState(Of In TThreadState, In TThreadCleanupState)(threadState As TThreadState, threadCleanupState As TThreadCleanupState)
+    content.vb: >-
+      Public NotInheritable Class CleanupThreadState(Of In TThreadState, In TThreadCleanupState)
+          Inherits MulticastDelegate
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Threading.CleanupThreadState`2.EnumUtil.MapEnums``2
   - SuperOffice.Threading.CleanupThreadState`2.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   nameWithType.vb: CleanupThreadState(Of TThreadState, TThreadCleanupState)
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
   fullName.vb: SuperOffice.Threading.CleanupThreadState(Of TThreadState, TThreadCleanupState)
   name.vb: CleanupThreadState(Of TThreadState, TThreadCleanupState)
 - uid: SuperOffice.Threading.CleanupThreadState`2.#ctor(System.Object,System.IntPtr)
@@ -49,25 +56,31 @@ items:
   langs:
   - csharp
   - vb
-  name: CleanupThreadState(object, IntPtr)
-  nameWithType: CleanupThreadState<TThreadState, TThreadCleanupState>.CleanupThreadState(object, IntPtr)
-  fullName: SuperOffice.Threading.CleanupThreadState<TThreadState, TThreadCleanupState>.CleanupThreadState(object, System.IntPtr)
+  name: CleanupThreadState(Object, IntPtr)
+  nameWithType: CleanupThreadState<TThreadState, TThreadCleanupState>.CleanupThreadState(Object, IntPtr)
+  fullName: SuperOffice.Threading.CleanupThreadState<TThreadState, TThreadCleanupState>.CleanupThreadState(System.Object, System.IntPtr)
   type: Constructor
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Threading
   syntax:
-    content: public CleanupThreadState(object @object, IntPtr method)
+    content: public CleanupThreadState(object object, IntPtr method)
     parameters:
     - id: object
       type: System.Object
     - id: method
       type: System.IntPtr
-    content.vb: Public Sub New([object] As Object, method As IntPtr)
+    content.vb: Public Sub New(object As Object, method As IntPtr)
   overload: SuperOffice.Threading.CleanupThreadState`2.#ctor*
-  nameWithType.vb: CleanupThreadState(Of TThreadState, TThreadCleanupState).New(Object, IntPtr)
-  fullName.vb: SuperOffice.Threading.CleanupThreadState(Of TThreadState, TThreadCleanupState).New(Object, System.IntPtr)
-  name.vb: New(Object, IntPtr)
+  nameWithType.vb: CleanupThreadState(Of TThreadState, TThreadCleanupState).CleanupThreadState(Object, IntPtr)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Threading.CleanupThreadState(Of TThreadState, TThreadCleanupState).CleanupThreadState(System.Object, System.IntPtr)
 - uid: SuperOffice.Threading.CleanupThreadState`2.Invoke(`0,`1)
   commentId: M:SuperOffice.Threading.CleanupThreadState`2.Invoke(`0,`1)
   id: Invoke(`0,`1)
@@ -79,6 +92,9 @@ items:
   nameWithType: CleanupThreadState<TThreadState, TThreadCleanupState>.Invoke(TThreadState, TThreadCleanupState)
   fullName: SuperOffice.Threading.CleanupThreadState<TThreadState, TThreadCleanupState>.Invoke(TThreadState, TThreadCleanupState)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Threading
@@ -92,6 +108,12 @@ items:
     content.vb: Public Overridable Sub Invoke(threadState As TThreadState, threadCleanupState As TThreadCleanupState)
   overload: SuperOffice.Threading.CleanupThreadState`2.Invoke*
   nameWithType.vb: CleanupThreadState(Of TThreadState, TThreadCleanupState).Invoke(TThreadState, TThreadCleanupState)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
   fullName.vb: SuperOffice.Threading.CleanupThreadState(Of TThreadState, TThreadCleanupState).Invoke(TThreadState, TThreadCleanupState)
 - uid: SuperOffice.Threading.CleanupThreadState`2.BeginInvoke(`0,`1,System.AsyncCallback,System.Object)
   commentId: M:SuperOffice.Threading.CleanupThreadState`2.BeginInvoke(`0,`1,System.AsyncCallback,System.Object)
@@ -100,15 +122,18 @@ items:
   langs:
   - csharp
   - vb
-  name: BeginInvoke(TThreadState, TThreadCleanupState, AsyncCallback, object)
-  nameWithType: CleanupThreadState<TThreadState, TThreadCleanupState>.BeginInvoke(TThreadState, TThreadCleanupState, AsyncCallback, object)
-  fullName: SuperOffice.Threading.CleanupThreadState<TThreadState, TThreadCleanupState>.BeginInvoke(TThreadState, TThreadCleanupState, System.AsyncCallback, object)
+  name: BeginInvoke(TThreadState, TThreadCleanupState, AsyncCallback, Object)
+  nameWithType: CleanupThreadState<TThreadState, TThreadCleanupState>.BeginInvoke(TThreadState, TThreadCleanupState, AsyncCallback, Object)
+  fullName: SuperOffice.Threading.CleanupThreadState<TThreadState, TThreadCleanupState>.BeginInvoke(TThreadState, TThreadCleanupState, System.AsyncCallback, System.Object)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Threading
   syntax:
-    content: public virtual IAsyncResult BeginInvoke(TThreadState threadState, TThreadCleanupState threadCleanupState, AsyncCallback callback, object @object)
+    content: public virtual IAsyncResult BeginInvoke(TThreadState threadState, TThreadCleanupState threadCleanupState, AsyncCallback callback, object object)
     parameters:
     - id: threadState
       type: '{TThreadState}'
@@ -120,11 +145,16 @@ items:
       type: System.Object
     return:
       type: System.IAsyncResult
-    content.vb: Public Overridable Function BeginInvoke(threadState As TThreadState, threadCleanupState As TThreadCleanupState, callback As AsyncCallback, [object] As Object) As IAsyncResult
+    content.vb: Public Overridable Function BeginInvoke(threadState As TThreadState, threadCleanupState As TThreadCleanupState, callback As AsyncCallback, object As Object) As IAsyncResult
   overload: SuperOffice.Threading.CleanupThreadState`2.BeginInvoke*
   nameWithType.vb: CleanupThreadState(Of TThreadState, TThreadCleanupState).BeginInvoke(TThreadState, TThreadCleanupState, AsyncCallback, Object)
-  fullName.vb: SuperOffice.Threading.CleanupThreadState(Of TThreadState, TThreadCleanupState).BeginInvoke(TThreadState, TThreadCleanupState, System.AsyncCallback, Object)
-  name.vb: BeginInvoke(TThreadState, TThreadCleanupState, AsyncCallback, Object)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: SuperOffice.Threading.CleanupThreadState(Of TThreadState, TThreadCleanupState).BeginInvoke(TThreadState, TThreadCleanupState, System.AsyncCallback, System.Object)
 - uid: SuperOffice.Threading.CleanupThreadState`2.EndInvoke(System.IAsyncResult)
   commentId: M:SuperOffice.Threading.CleanupThreadState`2.EndInvoke(System.IAsyncResult)
   id: EndInvoke(System.IAsyncResult)
@@ -136,6 +166,9 @@ items:
   nameWithType: CleanupThreadState<TThreadState, TThreadCleanupState>.EndInvoke(IAsyncResult)
   fullName: SuperOffice.Threading.CleanupThreadState<TThreadState, TThreadCleanupState>.EndInvoke(System.IAsyncResult)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Threading
@@ -147,197 +180,221 @@ items:
     content.vb: Public Overridable Sub EndInvoke(result As IAsyncResult)
   overload: SuperOffice.Threading.CleanupThreadState`2.EndInvoke*
   nameWithType.vb: CleanupThreadState(Of TThreadState, TThreadCleanupState).EndInvoke(IAsyncResult)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
   fullName.vb: SuperOffice.Threading.CleanupThreadState(Of TThreadState, TThreadCleanupState).EndInvoke(System.IAsyncResult)
 references:
 - uid: SuperOffice.Threading
   commentId: N:SuperOffice.Threading
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Threading
   nameWithType: SuperOffice.Threading
   fullName: SuperOffice.Threading
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Threading
-    name: Threading
-    isExternal: true
-    href: SuperOffice.Threading.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Threading
-    name: Threading
-    isExternal: true
-    href: SuperOffice.Threading.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Threading.CleanupThreadState`2.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<CleanupThreadState<TThreadState, TThreadCleanupState>, To>(CleanupThreadState<TThreadState, TThreadCleanupState>)
-  nameWithType: EnumUtil.MapEnums<CleanupThreadState<TThreadState, TThreadCleanupState>, To>(CleanupThreadState<TThreadState, TThreadCleanupState>)
-  fullName: EnumUtil.MapEnums<SuperOffice.Threading.CleanupThreadState<TThreadState, TThreadCleanupState>, To>(SuperOffice.Threading.CleanupThreadState<TThreadState, TThreadCleanupState>)
-  nameWithType.vb: EnumUtil.MapEnums(Of CleanupThreadState(Of TThreadState, TThreadCleanupState), To)(CleanupThreadState(Of TThreadState, TThreadCleanupState))
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Threading.CleanupThreadState(Of TThreadState, TThreadCleanupState), To)(SuperOffice.Threading.CleanupThreadState(Of TThreadState, TThreadCleanupState))
-  name.vb: MapEnums(Of CleanupThreadState(Of TThreadState, TThreadCleanupState), To)(CleanupThreadState(Of TThreadState, TThreadCleanupState))
+  name: MapEnums<CleanupThreadState<TThreadState, TThreadCleanupState>, To>()
+  nameWithType: EnumUtil.MapEnums<CleanupThreadState<TThreadState, TThreadCleanupState>, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Threading.CleanupThreadState<TThreadState, TThreadCleanupState>, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of CleanupThreadState(Of TThreadState, TThreadCleanupState), To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Threading.CleanupThreadState(Of TThreadState, TThreadCleanupState), To)()
+  name.vb: MapEnums(Of CleanupThreadState(Of TThreadState, TThreadCleanupState), To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Threading.CleanupThreadState{`0,`1})
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<CleanupThreadState<TThreadState, TThreadCleanupState>, To>
+    nameWithType: EnumUtil.MapEnums<CleanupThreadState<TThreadState, TThreadCleanupState>, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Threading.CleanupThreadState<TThreadState, TThreadCleanupState>, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Threading.CleanupThreadState`2
-    name: CleanupThreadState
-    isExternal: true
-    href: SuperOffice.Threading.CleanupThreadState-2.html
-  - name: <
-  - name: TThreadState
-  - name: ','
-  - name: " "
-  - name: TThreadCleanupState
-  - name: '>'
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Threading.CleanupThreadState`2
-    name: CleanupThreadState
-    isExternal: true
-    href: SuperOffice.Threading.CleanupThreadState-2.html
-  - name: <
-  - name: TThreadState
-  - name: ','
-  - name: " "
-  - name: TThreadCleanupState
-  - name: '>'
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Threading.CleanupThreadState{`0,`1})
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of CleanupThreadState(Of TThreadState, TThreadCleanupState), To)
+    nameWithType: EnumUtil.MapEnums(Of CleanupThreadState(Of TThreadState, TThreadCleanupState), To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Threading.CleanupThreadState(Of TThreadState, TThreadCleanupState), To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Threading.CleanupThreadState`2
-    name: CleanupThreadState
-    isExternal: true
-    href: SuperOffice.Threading.CleanupThreadState-2.html
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TThreadState
-  - name: ','
-  - name: " "
-  - name: TThreadCleanupState
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.Threading.CleanupThreadState`2
-    name: CleanupThreadState
-    isExternal: true
-    href: SuperOffice.Threading.CleanupThreadState-2.html
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TThreadState
-  - name: ','
-  - name: " "
-  - name: TThreadCleanupState
-  - name: )
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.CleanupThreadState`2.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<CleanupThreadState<TThreadState, TThreadCleanupState>, To>(CleanupThreadState<TThreadState, TThreadCleanupState>)
-  nameWithType: Converters.MapEnums<CleanupThreadState<TThreadState, TThreadCleanupState>, To>(CleanupThreadState<TThreadState, TThreadCleanupState>)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Threading.CleanupThreadState<TThreadState, TThreadCleanupState>, To>(SuperOffice.Threading.CleanupThreadState<TThreadState, TThreadCleanupState>)
-  nameWithType.vb: Converters.MapEnums(Of CleanupThreadState(Of TThreadState, TThreadCleanupState), To)(CleanupThreadState(Of TThreadState, TThreadCleanupState))
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Threading.CleanupThreadState(Of TThreadState, TThreadCleanupState), To)(SuperOffice.Threading.CleanupThreadState(Of TThreadState, TThreadCleanupState))
-  name.vb: MapEnums(Of CleanupThreadState(Of TThreadState, TThreadCleanupState), To)(CleanupThreadState(Of TThreadState, TThreadCleanupState))
+  name: MapEnums<CleanupThreadState<TThreadState, TThreadCleanupState>, To>()
+  nameWithType: Converters.MapEnums<CleanupThreadState<TThreadState, TThreadCleanupState>, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Threading.CleanupThreadState<TThreadState, TThreadCleanupState>, To>()
+  nameWithType.vb: Converters.MapEnums(Of CleanupThreadState(Of TThreadState, TThreadCleanupState), To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Threading.CleanupThreadState(Of TThreadState, TThreadCleanupState), To)()
+  name.vb: MapEnums(Of CleanupThreadState(Of TThreadState, TThreadCleanupState), To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Threading.CleanupThreadState{`0,`1})
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<CleanupThreadState<TThreadState, TThreadCleanupState>, To>
+    nameWithType: Converters.MapEnums<CleanupThreadState<TThreadState, TThreadCleanupState>, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Threading.CleanupThreadState<TThreadState, TThreadCleanupState>, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Threading.CleanupThreadState`2
-    name: CleanupThreadState
-    isExternal: true
-    href: SuperOffice.Threading.CleanupThreadState-2.html
-  - name: <
-  - name: TThreadState
-  - name: ','
-  - name: " "
-  - name: TThreadCleanupState
-  - name: '>'
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Threading.CleanupThreadState`2
-    name: CleanupThreadState
-    isExternal: true
-    href: SuperOffice.Threading.CleanupThreadState-2.html
-  - name: <
-  - name: TThreadState
-  - name: ','
-  - name: " "
-  - name: TThreadCleanupState
-  - name: '>'
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Threading.CleanupThreadState{`0,`1})
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of CleanupThreadState(Of TThreadState, TThreadCleanupState), To)
+    nameWithType: Converters.MapEnums(Of CleanupThreadState(Of TThreadState, TThreadCleanupState), To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Threading.CleanupThreadState(Of TThreadState, TThreadCleanupState), To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Threading.CleanupThreadState`2
-    name: CleanupThreadState
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.Threading.CleanupThreadState-2.html
   - name: (
-  - name: Of
-  - name: " "
-  - name: TThreadState
-  - name: ','
-  - name: " "
-  - name: TThreadCleanupState
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.Threading.CleanupThreadState`2
-    name: CleanupThreadState
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.Threading.CleanupThreadState-2.html
   - name: (
-  - name: Of
-  - name: " "
-  - name: TThreadState
-  - name: ','
-  - name: " "
-  - name: TThreadCleanupState
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Threading.CleanupThreadState`2.#ctor*
+  commentId: Overload:SuperOffice.Threading.CleanupThreadState`2.#ctor
+  isExternal: true
+  name: CleanupThreadState
+  nameWithType: CleanupThreadState<TThreadState, TThreadCleanupState>.CleanupThreadState
+  fullName: SuperOffice.Threading.CleanupThreadState<TThreadState, TThreadCleanupState>.CleanupThreadState
+  nameWithType.vb: CleanupThreadState(Of TThreadState, TThreadCleanupState).CleanupThreadState
+  fullName.vb: SuperOffice.Threading.CleanupThreadState(Of TThreadState, TThreadCleanupState).CleanupThreadState
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: SuperOffice.Threading.CleanupThreadState`2.Invoke*
+  commentId: Overload:SuperOffice.Threading.CleanupThreadState`2.Invoke
+  isExternal: true
+  name: Invoke
+  nameWithType: CleanupThreadState<TThreadState, TThreadCleanupState>.Invoke
+  fullName: SuperOffice.Threading.CleanupThreadState<TThreadState, TThreadCleanupState>.Invoke
+  nameWithType.vb: CleanupThreadState(Of TThreadState, TThreadCleanupState).Invoke
+  fullName.vb: SuperOffice.Threading.CleanupThreadState(Of TThreadState, TThreadCleanupState).Invoke
 - uid: '{TThreadState}'
   commentId: '!:TThreadState'
   definition: TThreadState
@@ -350,101 +407,6 @@ references:
   name: TThreadCleanupState
   nameWithType: TThreadCleanupState
   fullName: TThreadCleanupState
-- uid: EnumUtil.MapEnums``2(``0)
-  commentId: M:EnumUtil.MapEnums``2(``0)
-  isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<From, To>(From)
-  nameWithType: EnumUtil.MapEnums<From, To>(From)
-  fullName: EnumUtil.MapEnums<From, To>(From)
-  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
-  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
-  name.vb: MapEnums(Of From, To)(From)
-  spec.csharp:
-  - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - name: From
-  - name: )
-  spec.vb:
-  - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - name: From
-  - name: )
-- uid: EnumUtil
-  commentId: T:EnumUtil
-  isExternal: true
-  href: EnumUtil.html
-  name: EnumUtil
-  nameWithType: EnumUtil
-  fullName: EnumUtil
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<From, To>(From)
-  nameWithType: Converters.MapEnums<From, To>(From)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
-  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
-  name.vb: MapEnums(Of From, To)(From)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - name: From
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - name: From
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters
-  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
-  parent: SuperOffice.ErpSync.ConnectorWS
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
-  name: Converters
-  nameWithType: Converters
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: TThreadState
   name: TThreadState
   nameWithType: TThreadState
@@ -453,117 +415,27 @@ references:
   name: TThreadCleanupState
   nameWithType: TThreadCleanupState
   fullName: TThreadCleanupState
-- uid: SuperOffice.ErpSync.ConnectorWS
-  commentId: N:SuperOffice.ErpSync.ConnectorWS
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.ErpSync.ConnectorWS
-  nameWithType: SuperOffice.ErpSync.ConnectorWS
-  fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-- uid: SuperOffice.Threading.CleanupThreadState`2.#ctor*
-  commentId: Overload:SuperOffice.Threading.CleanupThreadState`2.#ctor
-  isExternal: true
-  href: SuperOffice.Threading.CleanupThreadState-2.html#SuperOffice_Threading_CleanupThreadState_2__ctor_System_Object_System_IntPtr_
-  name: CleanupThreadState
-  nameWithType: CleanupThreadState<TThreadState, TThreadCleanupState>.CleanupThreadState
-  fullName: SuperOffice.Threading.CleanupThreadState<TThreadState, TThreadCleanupState>.CleanupThreadState
-  nameWithType.vb: CleanupThreadState(Of TThreadState, TThreadCleanupState).New
-  fullName.vb: SuperOffice.Threading.CleanupThreadState(Of TThreadState, TThreadCleanupState).New
-  name.vb: New
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.IntPtr
-  commentId: T:System.IntPtr
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.intptr
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: SuperOffice.Threading.CleanupThreadState`2.Invoke*
-  commentId: Overload:SuperOffice.Threading.CleanupThreadState`2.Invoke
-  isExternal: true
-  href: SuperOffice.Threading.CleanupThreadState-2.html#SuperOffice_Threading_CleanupThreadState_2_Invoke__0__1_
-  name: Invoke
-  nameWithType: CleanupThreadState<TThreadState, TThreadCleanupState>.Invoke
-  fullName: SuperOffice.Threading.CleanupThreadState<TThreadState, TThreadCleanupState>.Invoke
-  nameWithType.vb: CleanupThreadState(Of TThreadState, TThreadCleanupState).Invoke
-  fullName.vb: SuperOffice.Threading.CleanupThreadState(Of TThreadState, TThreadCleanupState).Invoke
 - uid: SuperOffice.Threading.CleanupThreadState`2.BeginInvoke*
   commentId: Overload:SuperOffice.Threading.CleanupThreadState`2.BeginInvoke
   isExternal: true
-  href: SuperOffice.Threading.CleanupThreadState-2.html#SuperOffice_Threading_CleanupThreadState_2_BeginInvoke__0__1_System_AsyncCallback_System_Object_
   name: BeginInvoke
   nameWithType: CleanupThreadState<TThreadState, TThreadCleanupState>.BeginInvoke
   fullName: SuperOffice.Threading.CleanupThreadState<TThreadState, TThreadCleanupState>.BeginInvoke
   nameWithType.vb: CleanupThreadState(Of TThreadState, TThreadCleanupState).BeginInvoke
   fullName.vb: SuperOffice.Threading.CleanupThreadState(Of TThreadState, TThreadCleanupState).BeginInvoke
 - uid: System.AsyncCallback
-  commentId: T:System.AsyncCallback
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.asynccallback
   name: AsyncCallback
   nameWithType: AsyncCallback
   fullName: System.AsyncCallback
 - uid: System.IAsyncResult
-  commentId: T:System.IAsyncResult
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.iasyncresult
   name: IAsyncResult
   nameWithType: IAsyncResult
   fullName: System.IAsyncResult
 - uid: SuperOffice.Threading.CleanupThreadState`2.EndInvoke*
   commentId: Overload:SuperOffice.Threading.CleanupThreadState`2.EndInvoke
   isExternal: true
-  href: SuperOffice.Threading.CleanupThreadState-2.html#SuperOffice_Threading_CleanupThreadState_2_EndInvoke_System_IAsyncResult_
   name: EndInvoke
   nameWithType: CleanupThreadState<TThreadState, TThreadCleanupState>.EndInvoke
   fullName: SuperOffice.Threading.CleanupThreadState<TThreadState, TThreadCleanupState>.EndInvoke

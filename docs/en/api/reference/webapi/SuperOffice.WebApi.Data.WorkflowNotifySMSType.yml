@@ -8,21 +8,64 @@ items:
   - SuperOffice.WebApi.Data.WorkflowNotifySMSType.OurContact
   - SuperOffice.WebApi.Data.WorkflowNotifySMSType.OurServiceContact
   - SuperOffice.WebApi.Data.WorkflowNotifySMSType.SpecificPhoneNumbers
+  - SuperOffice.WebApi.Data.WorkflowNotifySMSType.value__
   langs:
   - csharp
   - vb
   name: WorkflowNotifySMSType
   nameWithType: WorkflowNotifySMSType
   fullName: SuperOffice.WebApi.Data.WorkflowNotifySMSType
-  type: Enum
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Workflow notify sms type
-  example: []
+  summary: "\nWorkflow notify sms type\n"
   syntax:
-    content: public enum WorkflowNotifySMSType
-    content.vb: Public Enum WorkflowNotifySMSType
+    content: 'public sealed class WorkflowNotifySMSType : Enum'
+    content.vb: >-
+      Public NotInheritable Class WorkflowNotifySMSType
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.WorkflowNotifySMSType.value__
+  commentId: F:SuperOffice.WebApi.Data.WorkflowNotifySMSType.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.WorkflowNotifySMSType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: WorkflowNotifySMSType.value__
+  fullName: SuperOffice.WebApi.Data.WorkflowNotifySMSType.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.WorkflowNotifySMSType.OurContact
   commentId: F:SuperOffice.WebApi.Data.WorkflowNotifySMSType.OurContact
   id: OurContact
@@ -34,26 +77,24 @@ items:
   nameWithType: WorkflowNotifySMSType.OurContact
   fullName: SuperOffice.WebApi.Data.WorkflowNotifySMSType.OurContact
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '0: OurContact'
-  example: []
+  summary: "\n0: OurContact\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      OurContact = 0
+    content: public const WorkflowNotifySMSType OurContact
     return:
       type: SuperOffice.WebApi.Data.WorkflowNotifySMSType
-    content.vb: >-
-      <EnumMember>
-
-      OurContact = 0
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const OurContact As WorkflowNotifySMSType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.WorkflowNotifySMSType.OurServiceContact
   commentId: F:SuperOffice.WebApi.Data.WorkflowNotifySMSType.OurServiceContact
   id: OurServiceContact
@@ -65,26 +106,24 @@ items:
   nameWithType: WorkflowNotifySMSType.OurServiceContact
   fullName: SuperOffice.WebApi.Data.WorkflowNotifySMSType.OurServiceContact
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '1: OurServiceContact'
-  example: []
+  summary: "\n1: OurServiceContact\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      OurServiceContact = 1
+    content: public const WorkflowNotifySMSType OurServiceContact
     return:
       type: SuperOffice.WebApi.Data.WorkflowNotifySMSType
-    content.vb: >-
-      <EnumMember>
-
-      OurServiceContact = 1
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const OurServiceContact As WorkflowNotifySMSType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.WorkflowNotifySMSType.SpecificPhoneNumbers
   commentId: F:SuperOffice.WebApi.Data.WorkflowNotifySMSType.SpecificPhoneNumbers
   id: SpecificPhoneNumbers
@@ -96,69 +135,55 @@ items:
   nameWithType: WorkflowNotifySMSType.SpecificPhoneNumbers
   fullName: SuperOffice.WebApi.Data.WorkflowNotifySMSType.SpecificPhoneNumbers
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '2: SpecificPhoneNumbers'
-  example: []
+  summary: "\n2: SpecificPhoneNumbers\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      SpecificPhoneNumbers = 2
+    content: public const WorkflowNotifySMSType SpecificPhoneNumbers
     return:
       type: SuperOffice.WebApi.Data.WorkflowNotifySMSType
-    content.vb: >-
-      <EnumMember>
-
-      SpecificPhoneNumbers = 2
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const SpecificPhoneNumbers As WorkflowNotifySMSType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.WebApi.Data.WorkflowNotifySMSType
   commentId: T:SuperOffice.WebApi.Data.WorkflowNotifySMSType
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.WorkflowNotifySMSType.html
   name: WorkflowNotifySMSType
   nameWithType: WorkflowNotifySMSType
   fullName: SuperOffice.WebApi.Data.WorkflowNotifySMSType

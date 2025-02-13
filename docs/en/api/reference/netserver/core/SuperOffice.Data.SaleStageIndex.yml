@@ -8,27 +8,67 @@ items:
   - SuperOffice.Data.SaleStageIndex.Lost
   - SuperOffice.Data.SaleStageIndex.Open
   - SuperOffice.Data.SaleStageIndex.Sold
+  - SuperOffice.Data.SaleStageIndex.value__
   langs:
   - csharp
   - vb
   name: SaleStageIndex
   nameWithType: SaleStageIndex
   fullName: SuperOffice.Data.SaleStageIndex
-  type: Enum
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: Constant index values for sale stage
-  example: []
+  summary: "\nConstant index values for sale stage\n"
   syntax:
-    content: public enum SaleStageIndex
-    content.vb: Public Enum SaleStageIndex
+    content: 'public sealed class SaleStageIndex : Enum'
+    content.vb: >-
+      Public NotInheritable Class SaleStageIndex
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.SaleStageIndex.EnumUtil.MapEnums``2
   - SuperOffice.Data.SaleStageIndex.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  - SuperOffice.Data.SaleStageIndex.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.SaleStageIndex)
-  - SuperOffice.Data.SaleStageIndex.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - System.Enum.EnumUtil.GetDescription
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.SaleStageIndex.value__
+  commentId: F:SuperOffice.Data.SaleStageIndex.value__
+  id: value__
+  parent: SuperOffice.Data.SaleStageIndex
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: SaleStageIndex.value__
+  fullName: SuperOffice.Data.SaleStageIndex.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.SaleStageIndex.Open
   commentId: F:SuperOffice.Data.SaleStageIndex.Open
   id: Open
@@ -40,15 +80,24 @@ items:
   nameWithType: SaleStageIndex.Open
   fullName: SuperOffice.Data.SaleStageIndex.Open
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: Sale is still open
-  example: []
+  summary: "\nSale is still open\n"
   syntax:
-    content: Open = -3
+    content: public const SaleStageIndex Open
     return:
       type: SuperOffice.Data.SaleStageIndex
+    content.vb: Public Const Open As SaleStageIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.SaleStageIndex.Lost
   commentId: F:SuperOffice.Data.SaleStageIndex.Lost
   id: Lost
@@ -60,15 +109,24 @@ items:
   nameWithType: SaleStageIndex.Lost
   fullName: SuperOffice.Data.SaleStageIndex.Lost
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: Sale has been lost
-  example: []
+  summary: "\nSale has been lost\n"
   syntax:
-    content: Lost = -1
+    content: public const SaleStageIndex Lost
     return:
       type: SuperOffice.Data.SaleStageIndex
+    content.vb: Public Const Lost As SaleStageIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.SaleStageIndex.Sold
   commentId: F:SuperOffice.Data.SaleStageIndex.Sold
   id: Sold
@@ -80,289 +138,115 @@ items:
   nameWithType: SaleStageIndex.Sold
   fullName: SuperOffice.Data.SaleStageIndex.Sold
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: Sale has been sold
-  example: []
+  summary: "\nSale has been sold\n"
   syntax:
-    content: Sold = -2
+    content: public const SaleStageIndex Sold
     return:
       type: SuperOffice.Data.SaleStageIndex
+    content.vb: Public Const Sold As SaleStageIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.SaleStageIndex.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<SaleStageIndex, To>(SaleStageIndex)
-  nameWithType: EnumUtil.MapEnums<SaleStageIndex, To>(SaleStageIndex)
-  fullName: EnumUtil.MapEnums<SuperOffice.Data.SaleStageIndex, To>(SuperOffice.Data.SaleStageIndex)
-  nameWithType.vb: EnumUtil.MapEnums(Of SaleStageIndex, To)(SaleStageIndex)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.SaleStageIndex, To)(SuperOffice.Data.SaleStageIndex)
-  name.vb: MapEnums(Of SaleStageIndex, To)(SaleStageIndex)
+  name: MapEnums<SaleStageIndex, To>()
+  nameWithType: EnumUtil.MapEnums<SaleStageIndex, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.SaleStageIndex, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SaleStageIndex, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.SaleStageIndex, To)()
+  name.vb: MapEnums(Of SaleStageIndex, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.SaleStageIndex)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SaleStageIndex, To>
+    nameWithType: EnumUtil.MapEnums<SaleStageIndex, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.SaleStageIndex, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.SaleStageIndex
-    name: SaleStageIndex
-    isExternal: true
-    href: SuperOffice.Data.SaleStageIndex.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.SaleStageIndex
-    name: SaleStageIndex
-    isExternal: true
-    href: SuperOffice.Data.SaleStageIndex.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.SaleStageIndex)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SaleStageIndex, To)
+    nameWithType: EnumUtil.MapEnums(Of SaleStageIndex, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.SaleStageIndex, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.SaleStageIndex
-    name: SaleStageIndex
-    isExternal: true
-    href: SuperOffice.Data.SaleStageIndex.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.SaleStageIndex
-    name: SaleStageIndex
-    isExternal: true
-    href: SuperOffice.Data.SaleStageIndex.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SaleStageIndex.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<SaleStageIndex, To>(SaleStageIndex)
-  nameWithType: Converters.MapEnums<SaleStageIndex, To>(SaleStageIndex)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.SaleStageIndex, To>(SuperOffice.Data.SaleStageIndex)
-  nameWithType.vb: Converters.MapEnums(Of SaleStageIndex, To)(SaleStageIndex)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.SaleStageIndex, To)(SuperOffice.Data.SaleStageIndex)
-  name.vb: MapEnums(Of SaleStageIndex, To)(SaleStageIndex)
+  name: MapEnums<SaleStageIndex, To>()
+  nameWithType: Converters.MapEnums<SaleStageIndex, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.SaleStageIndex, To>()
+  nameWithType.vb: Converters.MapEnums(Of SaleStageIndex, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.SaleStageIndex, To)()
+  name.vb: MapEnums(Of SaleStageIndex, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.SaleStageIndex)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SaleStageIndex, To>
+    nameWithType: Converters.MapEnums<SaleStageIndex, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.SaleStageIndex, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.SaleStageIndex
-    name: SaleStageIndex
-    isExternal: true
-    href: SuperOffice.Data.SaleStageIndex.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.SaleStageIndex
-    name: SaleStageIndex
-    isExternal: true
-    href: SuperOffice.Data.SaleStageIndex.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.SaleStageIndex)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SaleStageIndex, To)
+    nameWithType: Converters.MapEnums(Of SaleStageIndex, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.SaleStageIndex, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.SaleStageIndex
-    name: SaleStageIndex
-    isExternal: true
-    href: SuperOffice.Data.SaleStageIndex.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.SaleStageIndex
-    name: SaleStageIndex
-    isExternal: true
-    href: SuperOffice.Data.SaleStageIndex.html
-  - name: )
-- uid: SuperOffice.Data.SaleStageIndex.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.SaleStageIndex)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<SaleStageIndex>(SaleStageIndex, SaleStageIndex)
-  nameWithType: ObjectExtensions.AssignByReflection<SaleStageIndex>(SaleStageIndex, SaleStageIndex)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.SaleStageIndex>(SuperOffice.Data.SaleStageIndex, SuperOffice.Data.SaleStageIndex)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of SaleStageIndex)(SaleStageIndex, SaleStageIndex)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.SaleStageIndex)(SuperOffice.Data.SaleStageIndex, SuperOffice.Data.SaleStageIndex)
-  name.vb: AssignByReflection(Of SaleStageIndex)(SaleStageIndex, SaleStageIndex)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.SaleStageIndex,SuperOffice.Data.SaleStageIndex)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.Data.SaleStageIndex
-    name: SaleStageIndex
-    isExternal: true
-    href: SuperOffice.Data.SaleStageIndex.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Data.SaleStageIndex
-    name: SaleStageIndex
-    isExternal: true
-    href: SuperOffice.Data.SaleStageIndex.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Data.SaleStageIndex
-    name: SaleStageIndex
-    isExternal: true
-    href: SuperOffice.Data.SaleStageIndex.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.SaleStageIndex,SuperOffice.Data.SaleStageIndex)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.SaleStageIndex
-    name: SaleStageIndex
-    isExternal: true
-    href: SuperOffice.Data.SaleStageIndex.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.Data.SaleStageIndex
-    name: SaleStageIndex
-    isExternal: true
-    href: SuperOffice.Data.SaleStageIndex.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Data.SaleStageIndex
-    name: SaleStageIndex
-    isExternal: true
-    href: SuperOffice.Data.SaleStageIndex.html
-  - name: )
-- uid: SuperOffice.Data.SaleStageIndex.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<SaleStageIndex>(SaleStageIndex)
-  nameWithType: ObjectExtensions.GraphCopy<SaleStageIndex>(SaleStageIndex)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.SaleStageIndex>(SuperOffice.Data.SaleStageIndex)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of SaleStageIndex)(SaleStageIndex)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.SaleStageIndex)(SuperOffice.Data.SaleStageIndex)
-  name.vb: GraphCopy(Of SaleStageIndex)(SaleStageIndex)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.SaleStageIndex)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.Data.SaleStageIndex
-    name: SaleStageIndex
-    isExternal: true
-    href: SuperOffice.Data.SaleStageIndex.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Data.SaleStageIndex
-    name: SaleStageIndex
-    isExternal: true
-    href: SuperOffice.Data.SaleStageIndex.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.SaleStageIndex)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.SaleStageIndex
-    name: SaleStageIndex
-    isExternal: true
-    href: SuperOffice.Data.SaleStageIndex.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.Data.SaleStageIndex
-    name: SaleStageIndex
-    isExternal: true
-    href: SuperOffice.Data.SaleStageIndex.html
-  - name: )
-- uid: System.Enum.EnumUtil.GetDescription
-  commentId: M:EnumUtil.GetDescription(System.Enum)
-  parent: EnumUtil
-  definition: EnumUtil.GetDescription(System.Enum)
-  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  name: GetDescription(Enum)
-  nameWithType: EnumUtil.GetDescription(Enum)
-  fullName: EnumUtil.GetDescription(System.Enum)
-  spec.csharp:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
-  spec.vb:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -371,45 +255,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -418,222 +300,58 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: EnumUtil.GetDescription(System.Enum)
-  commentId: M:EnumUtil.GetDescription(System.Enum)
-  isExternal: true
-  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  name: GetDescription(Enum)
-  nameWithType: EnumUtil.GetDescription(Enum)
-  fullName: EnumUtil.GetDescription(System.Enum)
-  spec.csharp:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
-  spec.vb:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.Data.SaleStageIndex
   commentId: T:SuperOffice.Data.SaleStageIndex
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.SaleStageIndex.html
   name: SaleStageIndex
   nameWithType: SaleStageIndex
   fullName: SuperOffice.Data.SaleStageIndex

@@ -6,8 +6,8 @@ items:
   parent: SuperOffice.CRM.Data
   children:
   - SuperOffice.CRM.Data.ChatSessionTableInfo.AlertLevel
-  - SuperOffice.CRM.Data.ChatSessionTableInfo.ChatSessionId
   - SuperOffice.CRM.Data.ChatSessionTableInfo.ChatbotIsactive
+  - SuperOffice.CRM.Data.ChatSessionTableInfo.ChatSessionId
   - SuperOffice.CRM.Data.ChatSessionTableInfo.CompanyName
   - SuperOffice.CRM.Data.ChatSessionTableInfo.Consented
   - SuperOffice.CRM.Data.ChatSessionTableInfo.ContactId
@@ -59,21 +59,14 @@ items:
   nameWithType: ChatSessionTableInfo
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "Table 'chat_session': This table contains chat sessions."
-  remarks: >-
-    An instance of this class represents one instance of this table in an SQL statement. In most
-
-    cases each table appears only once in a SELECT, but in cases where you need to self-join, or
-
-    there are multiple occurrences for other reasons (typically additional restrictions in the joins),
-
-    then you will need multiple instances. <br />
-
-    Instances of this class are created by calling TablesInfo.GetChatSessionInfo().
-  example: []
+  summary: "\nTable &apos;chat_session&apos;: This table contains chat sessions.\n"
+  remarks: "\nAn instance of this class represents one instance of this table in an SQL statement. In most\ncases each table appears only once in a SELECT, but in cases where you need to self-join, or\nthere are multiple occurrences for other reasons (typically additional restrictions in the joins),\nthen you will need multiple instances. <br />\nInstances of this class are created by calling <see cref=\"!:TablesInfo.GetChatSessionInfo()\"></see>.\n"
   syntax:
     content: >-
       [DatabaseTable("chat_session")]
@@ -82,7 +75,9 @@ items:
     content.vb: >-
       <DatabaseTable("chat_session")>
 
-      Public Class ChatSessionTableInfo Inherits TableInfo Implements ICloneable
+      Public Class ChatSessionTableInfo
+          Inherits TableInfo
+          Implements ICloneable
   inheritance:
   - System.Object
   - SuperOffice.Data.SQL.TableInfo
@@ -103,12 +98,6 @@ items:
   - SuperOffice.Data.SQL.TableInfo.All
   - SuperOffice.Data.SQL.TableInfo.Item(System.String)
   - SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Data.ChatSessionTableInfo.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Data.ChatSessionTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -118,6 +107,12 @@ items:
     arguments:
     - type: System.String
       value: chat_session
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.DictionaryTableName
   commentId: F:SuperOffice.CRM.Data.ChatSessionTableInfo.DictionaryTableName
   id: DictionaryTableName
@@ -129,16 +124,24 @@ items:
   nameWithType: ChatSessionTableInfo.DictionaryTableName
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.DictionaryTableName
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Conceptual name of table ChatSession in the database dictionary: chat_session'
-  example: []
+  summary: "\nConceptual name of table ChatSession in the database dictionary: chat_session\n"
   syntax:
     content: public const string DictionaryTableName = "chat_session"
     return:
       type: System.String
     content.vb: Public Const DictionaryTableName As String = "chat_session"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.IdxStatus(SuperOffice.Data.ChatSessionStatus)
   commentId: M:SuperOffice.CRM.Data.ChatSessionTableInfo.IdxStatus(SuperOffice.Data.ChatSessionStatus)
   id: IdxStatus(SuperOffice.Data.ChatSessionStatus)
@@ -150,14 +153,13 @@ items:
   nameWithType: ChatSessionTableInfo.IdxStatus(ChatSessionStatus)
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.IdxStatus(SuperOffice.Data.ChatSessionStatus)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Shortcut method for looking up using the database index Status, which spans the following fields:
-
-    <table><thead><tr><th class="term">Field</th><th class="description">Description</th></tr></thead><tbody><tr><td class="term">Status</td><td class="description">Enum indicating the status for the session (pending, active, closed, etc).</td></tr></tbody></table>
-  example: []
+  summary: "\nShortcut method for looking up using the database index Status, which spans the following fields:\n<table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td>Status</td><td>Enum indicating the status for the session (pending, active, closed, etc).</td></tr></tbody></table>\n"
   syntax:
     content: public Restriction IdxStatus(ChatSessionStatus status)
     parameters:
@@ -167,6 +169,10 @@ items:
       type: SuperOffice.Data.SQL.Restriction
     content.vb: Public Function IdxStatus(status As ChatSessionStatus) As Restriction
   overload: SuperOffice.CRM.Data.ChatSessionTableInfo.IdxStatus*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.IdxStatusTopicId(SuperOffice.Data.ChatSessionStatus,System.Int32)
   commentId: M:SuperOffice.CRM.Data.ChatSessionTableInfo.IdxStatusTopicId(SuperOffice.Data.ChatSessionStatus,System.Int32)
   id: IdxStatusTopicId(SuperOffice.Data.ChatSessionStatus,System.Int32)
@@ -174,18 +180,17 @@ items:
   langs:
   - csharp
   - vb
-  name: IdxStatusTopicId(ChatSessionStatus, int)
-  nameWithType: ChatSessionTableInfo.IdxStatusTopicId(ChatSessionStatus, int)
-  fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.IdxStatusTopicId(SuperOffice.Data.ChatSessionStatus, int)
+  name: IdxStatusTopicId(ChatSessionStatus, Int32)
+  nameWithType: ChatSessionTableInfo.IdxStatusTopicId(ChatSessionStatus, Int32)
+  fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.IdxStatusTopicId(SuperOffice.Data.ChatSessionStatus, System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Shortcut method for looking up using the database index StatusTopicId, which spans the following fields:
-
-    <table><thead><tr><th class="term">Field</th><th class="description">Description</th></tr></thead><tbody><tr><td class="term">Status</td><td class="description">Enum indicating the status for the session (pending, active, closed, etc).</td></tr><tr><td class="term">TopicId</td><td class="description">The reference to the associated chat topic.</td></tr></tbody></table>
-  example: []
+  summary: "\nShortcut method for looking up using the database index StatusTopicId, which spans the following fields:\n<table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td>Status</td><td>Enum indicating the status for the session (pending, active, closed, etc).</td></tr><tr><td>TopicId</td><td>The reference to the associated chat topic.</td></tr></tbody></table>\n"
   syntax:
     content: public Restriction IdxStatusTopicId(ChatSessionStatus status, int topicId)
     parameters:
@@ -197,9 +202,10 @@ items:
       type: SuperOffice.Data.SQL.Restriction
     content.vb: Public Function IdxStatusTopicId(status As ChatSessionStatus, topicId As Integer) As Restriction
   overload: SuperOffice.CRM.Data.ChatSessionTableInfo.IdxStatusTopicId*
-  nameWithType.vb: ChatSessionTableInfo.IdxStatusTopicId(ChatSessionStatus, Integer)
-  fullName.vb: SuperOffice.CRM.Data.ChatSessionTableInfo.IdxStatusTopicId(SuperOffice.Data.ChatSessionStatus, Integer)
-  name.vb: IdxStatusTopicId(ChatSessionStatus, Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.DictionaryTableNumber
   commentId: P:SuperOffice.CRM.Data.ChatSessionTableInfo.DictionaryTableNumber
   id: DictionaryTableNumber
@@ -211,14 +217,13 @@ items:
   nameWithType: ChatSessionTableInfo.DictionaryTableNumber
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.DictionaryTableNumber
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Table number for table ChatSession in the database dictionary; potentially changes between databases, but
-
-    always the same over the lifetime of any single database
-  example: []
+  summary: "\nTable number for table ChatSession in the database dictionary; potentially changes between databases, but\nalways the same over the lifetime of any single database\n"
   syntax:
     content: public int DictionaryTableNumber { get; }
     parameters: []
@@ -226,6 +231,12 @@ items:
       type: System.Int32
     content.vb: Public ReadOnly Property DictionaryTableNumber As Integer
   overload: SuperOffice.CRM.Data.ChatSessionTableInfo.DictionaryTableNumber*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.RuntimeDefinition
   commentId: P:SuperOffice.CRM.Data.ChatSessionTableInfo.RuntimeDefinition
   id: RuntimeDefinition
@@ -237,32 +248,28 @@ items:
   nameWithType: ChatSessionTableInfo.RuntimeDefinition
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.RuntimeDefinition
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Definition of the table as described in the deployed runtime dictionary
-  example: []
+  summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
   syntax:
-    content: >-
-      [Obsolete("Use instance property Definition or static member DictionaryTableNumber", true)]
-
-      public static SoTable RuntimeDefinition { get; }
+    content: public static SoTable RuntimeDefinition { get; }
     parameters: []
     return:
       type: SuperOffice.Data.Dictionary.SoTable
-    content.vb: >-
-      <Obsolete("Use instance property Definition or static member DictionaryTableNumber", True)>
-
-      Public Shared ReadOnly Property RuntimeDefinition As SoTable
+    content.vb: Public Shared ReadOnly Property RuntimeDefinition As SoTable
   overload: SuperOffice.CRM.Data.ChatSessionTableInfo.RuntimeDefinition*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: Use instance property Definition or static member DictionaryTableNumber
-    - type: System.Boolean
-      value: true
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.Definition
   commentId: P:SuperOffice.CRM.Data.ChatSessionTableInfo.Definition
   id: Definition
@@ -274,11 +281,13 @@ items:
   nameWithType: ChatSessionTableInfo.Definition
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.Definition
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Definition of the table as described in the deployed runtime dictionary
-  example: []
+  summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
   syntax:
     content: public override SoTable Definition { get; }
     parameters: []
@@ -287,6 +296,14 @@ items:
     content.vb: Public Overrides ReadOnly Property Definition As SoTable
   overridden: SuperOffice.Data.SQL.TableInfo.Definition
   overload: SuperOffice.CRM.Data.ChatSessionTableInfo.Definition*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.ChatSessionId
   commentId: P:SuperOffice.CRM.Data.ChatSessionTableInfo.ChatSessionId
   id: ChatSessionId
@@ -298,14 +315,13 @@ items:
   nameWithType: ChatSessionTableInfo.ChatSessionId
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.ChatSessionId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'id' in table 'chat_session': Dictionary type PK, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
-
-    The primary key (auto-incremented)
-  example: []
+  summary: "\nField &apos;id&apos; in table &apos;chat_session&apos;: Dictionary type PK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe primary key (auto-incremented)\n"
   syntax:
     content: public Int32FieldInfo ChatSessionId { get; }
     parameters: []
@@ -313,6 +329,12 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property ChatSessionId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.ChatSessionTableInfo.ChatSessionId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.TopicId
   commentId: P:SuperOffice.CRM.Data.ChatSessionTableInfo.TopicId
   id: TopicId
@@ -324,14 +346,13 @@ items:
   nameWithType: ChatSessionTableInfo.TopicId
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.TopicId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'topic_id' in table 'chat_session': Dictionary type FK, target: ChatTopic, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
-
-    The reference to the associated chat topic.
-  example: []
+  summary: "\nField &apos;topic_id&apos; in table &apos;chat_session&apos;: Dictionary type FK, target: ChatTopic, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe reference to the associated chat topic.\n"
   syntax:
     content: public Int32FieldInfo TopicId { get; }
     parameters: []
@@ -339,6 +360,12 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property TopicId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.ChatSessionTableInfo.TopicId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.UserId
   commentId: P:SuperOffice.CRM.Data.ChatSessionTableInfo.UserId
   id: UserId
@@ -350,14 +377,13 @@ items:
   nameWithType: ChatSessionTableInfo.UserId
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.UserId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'user_id' in table 'chat_session': Dictionary type FK, target: Ejuser, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
-
-    The reference to the associated user.
-  example: []
+  summary: "\nField &apos;user_id&apos; in table &apos;chat_session&apos;: Dictionary type FK, target: Ejuser, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe reference to the associated user.\n"
   syntax:
     content: public Int32FieldInfo UserId { get; }
     parameters: []
@@ -365,6 +391,12 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property UserId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.ChatSessionTableInfo.UserId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.CustomerId
   commentId: P:SuperOffice.CRM.Data.ChatSessionTableInfo.CustomerId
   id: CustomerId
@@ -376,14 +408,13 @@ items:
   nameWithType: ChatSessionTableInfo.CustomerId
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.CustomerId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'customer_id' in table 'chat_session': Dictionary type FK, target: Person, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
-
-    The reference to the associated customer. May be NULL or -1.
-  example: []
+  summary: "\nField &apos;customer_id&apos; in table &apos;chat_session&apos;: Dictionary type FK, target: Person, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe reference to the associated customer. May be NULL or -1.\n"
   syntax:
     content: public Int32FieldInfo CustomerId { get; }
     parameters: []
@@ -391,6 +422,12 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property CustomerId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.ChatSessionTableInfo.CustomerId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.CustomerAlias
   commentId: P:SuperOffice.CRM.Data.ChatSessionTableInfo.CustomerAlias
   id: CustomerAlias
@@ -402,14 +439,13 @@ items:
   nameWithType: ChatSessionTableInfo.CustomerAlias
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.CustomerAlias
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'customer_alias' in table 'chat_session': Dictionary type String[65], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
-
-    The alias for the customer.
-  example: []
+  summary: "\nField &apos;customer_alias&apos; in table &apos;chat_session&apos;: Dictionary type String[65], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe alias for the customer.\n"
   syntax:
     content: public StringFieldInfo CustomerAlias { get; }
     parameters: []
@@ -417,6 +453,12 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property CustomerAlias As StringFieldInfo
   overload: SuperOffice.CRM.Data.ChatSessionTableInfo.CustomerAlias*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.Status
   commentId: P:SuperOffice.CRM.Data.ChatSessionTableInfo.Status
   id: Status
@@ -428,14 +470,13 @@ items:
   nameWithType: ChatSessionTableInfo.Status
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.Status
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'status' in table 'chat_session': Dictionary type Enum, .NET type: <xref href="SuperOffice.Data.ChatSessionStatus" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Enum indicating the status for the session (pending, active, closed, etc).
-  example: []
+  summary: "\nField &apos;status&apos; in table &apos;chat_session&apos;: Dictionary type Enum, .NET type: <xref href=\"SuperOffice.Data.ChatSessionStatus\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nEnum indicating the status for the session (pending, active, closed, etc).\n"
   syntax:
     content: public ChatSessionStatusFieldInfo Status { get; }
     parameters: []
@@ -443,6 +484,12 @@ items:
       type: SuperOffice.Data.SQL.ChatSessionStatusFieldInfo
     content.vb: Public ReadOnly Property Status As ChatSessionStatusFieldInfo
   overload: SuperOffice.CRM.Data.ChatSessionTableInfo.Status*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.WhenRequested
   commentId: P:SuperOffice.CRM.Data.ChatSessionTableInfo.WhenRequested
   id: WhenRequested
@@ -454,14 +501,13 @@ items:
   nameWithType: ChatSessionTableInfo.WhenRequested
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.WhenRequested
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'when_requested' in table 'chat_session': Dictionary type DateTime, .NET type: <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref><p></p>
-
-    When the session was requested by the customer.
-  example: []
+  summary: "\nField &apos;when_requested&apos; in table &apos;chat_session&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nWhen the session was requested by the customer.\n"
   syntax:
     content: public DateTimeFieldInfo WhenRequested { get; }
     parameters: []
@@ -469,6 +515,12 @@ items:
       type: SuperOffice.Data.SQL.DateTimeFieldInfo
     content.vb: Public ReadOnly Property WhenRequested As DateTimeFieldInfo
   overload: SuperOffice.CRM.Data.ChatSessionTableInfo.WhenRequested*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.WhenStarted
   commentId: P:SuperOffice.CRM.Data.ChatSessionTableInfo.WhenStarted
   id: WhenStarted
@@ -480,14 +532,13 @@ items:
   nameWithType: ChatSessionTableInfo.WhenStarted
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.WhenStarted
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'when_started' in table 'chat_session': Dictionary type DateTime, .NET type: <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref><p></p>
-
-    When the session was accepted by a user.
-  example: []
+  summary: "\nField &apos;when_started&apos; in table &apos;chat_session&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nWhen the session was accepted by a user.\n"
   syntax:
     content: public DateTimeFieldInfo WhenStarted { get; }
     parameters: []
@@ -495,6 +546,12 @@ items:
       type: SuperOffice.Data.SQL.DateTimeFieldInfo
     content.vb: Public ReadOnly Property WhenStarted As DateTimeFieldInfo
   overload: SuperOffice.CRM.Data.ChatSessionTableInfo.WhenStarted*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.WhenEnded
   commentId: P:SuperOffice.CRM.Data.ChatSessionTableInfo.WhenEnded
   id: WhenEnded
@@ -506,14 +563,13 @@ items:
   nameWithType: ChatSessionTableInfo.WhenEnded
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.WhenEnded
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'when_ended' in table 'chat_session': Dictionary type DateTime, .NET type: <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref><p></p>
-
-    When the session was ended.
-  example: []
+  summary: "\nField &apos;when_ended&apos; in table &apos;chat_session&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nWhen the session was ended.\n"
   syntax:
     content: public DateTimeFieldInfo WhenEnded { get; }
     parameters: []
@@ -521,6 +577,12 @@ items:
       type: SuperOffice.Data.SQL.DateTimeFieldInfo
     content.vb: Public ReadOnly Property WhenEnded As DateTimeFieldInfo
   overload: SuperOffice.CRM.Data.ChatSessionTableInfo.WhenEnded*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.Idle
   commentId: P:SuperOffice.CRM.Data.ChatSessionTableInfo.Idle
   id: Idle
@@ -532,14 +594,13 @@ items:
   nameWithType: ChatSessionTableInfo.Idle
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.Idle
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'idle' in table 'chat_session': Dictionary type DateTime, .NET type: <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref><p></p>
-
-    The last time anyone sent a message for this session.
-  example: []
+  summary: "\nField &apos;idle&apos; in table &apos;chat_session&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe last time anyone sent a message for this session.\n"
   syntax:
     content: public DateTimeFieldInfo Idle { get; }
     parameters: []
@@ -547,6 +608,12 @@ items:
       type: SuperOffice.Data.SQL.DateTimeFieldInfo
     content.vb: Public ReadOnly Property Idle As DateTimeFieldInfo
   overload: SuperOffice.CRM.Data.ChatSessionTableInfo.Idle*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.CustomerFetch
   commentId: P:SuperOffice.CRM.Data.ChatSessionTableInfo.CustomerFetch
   id: CustomerFetch
@@ -558,14 +625,13 @@ items:
   nameWithType: ChatSessionTableInfo.CustomerFetch
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.CustomerFetch
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'customer_fetch' in table 'chat_session': Dictionary type DateTime, .NET type: <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref><p></p>
-
-    The last time the customer's client refetched the data. Used to detect 'dead' session.
-  example: []
+  summary: "\nField &apos;customer_fetch&apos; in table &apos;chat_session&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe last time the customer&apos;s client refetched the data. Used to detect &apos;dead&apos; session.\n"
   syntax:
     content: public DateTimeFieldInfo CustomerFetch { get; }
     parameters: []
@@ -573,6 +639,12 @@ items:
       type: SuperOffice.Data.SQL.DateTimeFieldInfo
     content.vb: Public ReadOnly Property CustomerFetch As DateTimeFieldInfo
   overload: SuperOffice.CRM.Data.ChatSessionTableInfo.CustomerFetch*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.SessionKey
   commentId: P:SuperOffice.CRM.Data.ChatSessionTableInfo.SessionKey
   id: SessionKey
@@ -584,14 +656,13 @@ items:
   nameWithType: ChatSessionTableInfo.SessionKey
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.SessionKey
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'session_key' in table 'chat_session': Dictionary type String[256], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Key used to authenticate the session.
-  example: []
+  summary: "\nField &apos;session_key&apos; in table &apos;chat_session&apos;: Dictionary type String[256], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nKey used to authenticate the session.\n"
   syntax:
     content: public StringFieldInfo SessionKey { get; }
     parameters: []
@@ -599,6 +670,12 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property SessionKey As StringFieldInfo
   overload: SuperOffice.CRM.Data.ChatSessionTableInfo.SessionKey*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.InitialQueuePos
   commentId: P:SuperOffice.CRM.Data.ChatSessionTableInfo.InitialQueuePos
   id: InitialQueuePos
@@ -610,14 +687,13 @@ items:
   nameWithType: ChatSessionTableInfo.InitialQueuePos
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.InitialQueuePos
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'initial_queue_pos' in table 'chat_session': Dictionary type Int, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
-
-    The initial queue pos (i.e. the number of pending sessions + 1) when the session was requested.
-  example: []
+  summary: "\nField &apos;initial_queue_pos&apos; in table &apos;chat_session&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe initial queue pos (i.e. the number of pending sessions + 1) when the session was requested.\n"
   syntax:
     content: public Int32FieldInfo InitialQueuePos { get; }
     parameters: []
@@ -625,6 +701,12 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property InitialQueuePos As Int32FieldInfo
   overload: SuperOffice.CRM.Data.ChatSessionTableInfo.InitialQueuePos*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.CustomerHost
   commentId: P:SuperOffice.CRM.Data.ChatSessionTableInfo.CustomerHost
   id: CustomerHost
@@ -636,14 +718,13 @@ items:
   nameWithType: ChatSessionTableInfo.CustomerHost
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.CustomerHost
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'customer_host' in table 'chat_session': Dictionary type String[256], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
-
-    The hostname or IP address for the customer.
-  example: []
+  summary: "\nField &apos;customer_host&apos; in table &apos;chat_session&apos;: Dictionary type String[256], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe hostname or IP address for the customer.\n"
   syntax:
     content: public StringFieldInfo CustomerHost { get; }
     parameters: []
@@ -651,6 +732,12 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property CustomerHost As StringFieldInfo
   overload: SuperOffice.CRM.Data.ChatSessionTableInfo.CustomerHost*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.AlertLevel
   commentId: P:SuperOffice.CRM.Data.ChatSessionTableInfo.AlertLevel
   id: AlertLevel
@@ -662,14 +749,13 @@ items:
   nameWithType: ChatSessionTableInfo.AlertLevel
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.AlertLevel
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'alert_level' in table 'chat_session': Dictionary type Int, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
-
-    The alert level for this chat session.
-  example: []
+  summary: "\nField &apos;alert_level&apos; in table &apos;chat_session&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe alert level for this chat session.\n"
   syntax:
     content: public Int32FieldInfo AlertLevel { get; }
     parameters: []
@@ -677,6 +763,12 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property AlertLevel As Int32FieldInfo
   overload: SuperOffice.CRM.Data.ChatSessionTableInfo.AlertLevel*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.Rank
   commentId: P:SuperOffice.CRM.Data.ChatSessionTableInfo.Rank
   id: Rank
@@ -688,14 +780,13 @@ items:
   nameWithType: ChatSessionTableInfo.Rank
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.Rank
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'rank' in table 'chat_session': Dictionary type Int, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Lowest possible unique number for active sessions for user. User for color index. Starting at 1.
-  example: []
+  summary: "\nField &apos;rank&apos; in table &apos;chat_session&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLowest possible unique number for active sessions for user. User for color index. Starting at 1.\n"
   syntax:
     content: public Int32FieldInfo Rank { get; }
     parameters: []
@@ -703,6 +794,12 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property Rank As Int32FieldInfo
   overload: SuperOffice.CRM.Data.ChatSessionTableInfo.Rank*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.Name
   commentId: P:SuperOffice.CRM.Data.ChatSessionTableInfo.Name
   id: Name
@@ -714,14 +811,13 @@ items:
   nameWithType: ChatSessionTableInfo.Name
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.Name
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'name' in table 'chat_session': Dictionary type String[256], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
-
-    The name of customer, if provided
-  example: []
+  summary: "\nField &apos;name&apos; in table &apos;chat_session&apos;: Dictionary type String[256], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe name of customer, if provided\n"
   syntax:
     content: public StringFieldInfo Name { get; }
     parameters: []
@@ -729,6 +825,12 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property Name As StringFieldInfo
   overload: SuperOffice.CRM.Data.ChatSessionTableInfo.Name*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.CompanyName
   commentId: P:SuperOffice.CRM.Data.ChatSessionTableInfo.CompanyName
   id: CompanyName
@@ -740,14 +842,13 @@ items:
   nameWithType: ChatSessionTableInfo.CompanyName
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.CompanyName
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'company_name' in table 'chat_session': Dictionary type String[256], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
-
-    The name of the customers company, if provided
-  example: []
+  summary: "\nField &apos;company_name&apos; in table &apos;chat_session&apos;: Dictionary type String[256], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe name of the customers company, if provided\n"
   syntax:
     content: public StringFieldInfo CompanyName { get; }
     parameters: []
@@ -755,6 +856,12 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property CompanyName As StringFieldInfo
   overload: SuperOffice.CRM.Data.ChatSessionTableInfo.CompanyName*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.Email
   commentId: P:SuperOffice.CRM.Data.ChatSessionTableInfo.Email
   id: Email
@@ -766,14 +873,13 @@ items:
   nameWithType: ChatSessionTableInfo.Email
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.Email
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'email' in table 'chat_session': Dictionary type String[256], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
-
-    The email address of the customer, if provided
-  example: []
+  summary: "\nField &apos;email&apos; in table &apos;chat_session&apos;: Dictionary type String[256], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe email address of the customer, if provided\n"
   syntax:
     content: public StringFieldInfo Email { get; }
     parameters: []
@@ -781,6 +887,12 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property Email As StringFieldInfo
   overload: SuperOffice.CRM.Data.ChatSessionTableInfo.Email*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.Phone
   commentId: P:SuperOffice.CRM.Data.ChatSessionTableInfo.Phone
   id: Phone
@@ -792,14 +904,13 @@ items:
   nameWithType: ChatSessionTableInfo.Phone
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.Phone
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'phone' in table 'chat_session': Dictionary type String[33], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
-
-    The phone number of the customer, if provided
-  example: []
+  summary: "\nField &apos;phone&apos; in table &apos;chat_session&apos;: Dictionary type String[33], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe phone number of the customer, if provided\n"
   syntax:
     content: public StringFieldInfo Phone { get; }
     parameters: []
@@ -807,6 +918,12 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property Phone As StringFieldInfo
   overload: SuperOffice.CRM.Data.ChatSessionTableInfo.Phone*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.FirstMessage
   commentId: P:SuperOffice.CRM.Data.ChatSessionTableInfo.FirstMessage
   id: FirstMessage
@@ -818,14 +935,13 @@ items:
   nameWithType: ChatSessionTableInfo.FirstMessage
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.FirstMessage
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'first_message' in table 'chat_session': Dictionary type String[1025], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
-
-    A copy of the first message in the chat session
-  example: []
+  summary: "\nField &apos;first_message&apos; in table &apos;chat_session&apos;: Dictionary type String[1025], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nA copy of the first message in the chat session\n"
   syntax:
     content: public StringFieldInfo FirstMessage { get; }
     parameters: []
@@ -833,6 +949,12 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property FirstMessage As StringFieldInfo
   overload: SuperOffice.CRM.Data.ChatSessionTableInfo.FirstMessage*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.LastMessage
   commentId: P:SuperOffice.CRM.Data.ChatSessionTableInfo.LastMessage
   id: LastMessage
@@ -844,14 +966,13 @@ items:
   nameWithType: ChatSessionTableInfo.LastMessage
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.LastMessage
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'last_message' in table 'chat_session': Dictionary type String[1025], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
-
-    A copy of the last message in the chat session
-  example: []
+  summary: "\nField &apos;last_message&apos; in table &apos;chat_session&apos;: Dictionary type String[1025], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nA copy of the last message in the chat session\n"
   syntax:
     content: public StringFieldInfo LastMessage { get; }
     parameters: []
@@ -859,6 +980,12 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property LastMessage As StringFieldInfo
   overload: SuperOffice.CRM.Data.ChatSessionTableInfo.LastMessage*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.Flags
   commentId: P:SuperOffice.CRM.Data.ChatSessionTableInfo.Flags
   id: Flags
@@ -870,14 +997,13 @@ items:
   nameWithType: ChatSessionTableInfo.Flags
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.Flags
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'flags' in table 'chat_session': Dictionary type Enum, .NET type: <xref href="SuperOffice.Data.ChatSessionFlags" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Various flags for the chat session
-  example: []
+  summary: "\nField &apos;flags&apos; in table &apos;chat_session&apos;: Dictionary type Enum, .NET type: <xref href=\"SuperOffice.Data.ChatSessionFlags\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nVarious flags for the chat session\n"
   syntax:
     content: public ChatSessionFlagsFieldInfo Flags { get; }
     parameters: []
@@ -885,6 +1011,12 @@ items:
       type: SuperOffice.Data.SQL.ChatSessionFlagsFieldInfo
     content.vb: Public ReadOnly Property Flags As ChatSessionFlagsFieldInfo
   overload: SuperOffice.CRM.Data.ChatSessionTableInfo.Flags*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.ProjectId
   commentId: P:SuperOffice.CRM.Data.ChatSessionTableInfo.ProjectId
   id: ProjectId
@@ -896,14 +1028,13 @@ items:
   nameWithType: ChatSessionTableInfo.ProjectId
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.ProjectId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'project_id' in table 'chat_session': Dictionary type FK, target: Project, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
-
-    The project that this chat session is connected to
-  example: []
+  summary: "\nField &apos;project_id&apos; in table &apos;chat_session&apos;: Dictionary type FK, target: Project, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe project that this chat session is connected to\n"
   syntax:
     content: public Int32FieldInfo ProjectId { get; }
     parameters: []
@@ -911,6 +1042,12 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property ProjectId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.ChatSessionTableInfo.ProjectId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.SaleId
   commentId: P:SuperOffice.CRM.Data.ChatSessionTableInfo.SaleId
   id: SaleId
@@ -922,14 +1059,13 @@ items:
   nameWithType: ChatSessionTableInfo.SaleId
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.SaleId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'sale_id' in table 'chat_session': Dictionary type FK, target: Sale, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
-
-    The sale that this chat session is connected to
-  example: []
+  summary: "\nField &apos;sale_id&apos; in table &apos;chat_session&apos;: Dictionary type FK, target: Sale, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe sale that this chat session is connected to\n"
   syntax:
     content: public Int32FieldInfo SaleId { get; }
     parameters: []
@@ -937,6 +1073,12 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property SaleId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.ChatSessionTableInfo.SaleId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.TicketId
   commentId: P:SuperOffice.CRM.Data.ChatSessionTableInfo.TicketId
   id: TicketId
@@ -948,14 +1090,13 @@ items:
   nameWithType: ChatSessionTableInfo.TicketId
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.TicketId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'ticket_id' in table 'chat_session': Dictionary type FK, target: Ticket, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
-
-    The ticket that this chat session is connected to
-  example: []
+  summary: "\nField &apos;ticket_id&apos; in table &apos;chat_session&apos;: Dictionary type FK, target: Ticket, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe ticket that this chat session is connected to\n"
   syntax:
     content: public Int32FieldInfo TicketId { get; }
     parameters: []
@@ -963,6 +1104,12 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property TicketId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.ChatSessionTableInfo.TicketId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.ContactId
   commentId: P:SuperOffice.CRM.Data.ChatSessionTableInfo.ContactId
   id: ContactId
@@ -974,14 +1121,13 @@ items:
   nameWithType: ChatSessionTableInfo.ContactId
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.ContactId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'contact_id' in table 'chat_session': Dictionary type FK, target: Contact, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
-
-    The contact that this chat session is connected to
-  example: []
+  summary: "\nField &apos;contact_id&apos; in table &apos;chat_session&apos;: Dictionary type FK, target: Contact, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe contact that this chat session is connected to\n"
   syntax:
     content: public Int32FieldInfo ContactId { get; }
     parameters: []
@@ -989,6 +1135,12 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property ContactId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.ChatSessionTableInfo.ContactId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.TransferTo
   commentId: P:SuperOffice.CRM.Data.ChatSessionTableInfo.TransferTo
   id: TransferTo
@@ -1000,14 +1152,13 @@ items:
   nameWithType: ChatSessionTableInfo.TransferTo
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.TransferTo
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'transfer_to' in table 'chat_session': Dictionary type FK, target: Ejuser, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
-
-    The ejuser that has a pending transfer of the chat session
-  example: []
+  summary: "\nField &apos;transfer_to&apos; in table &apos;chat_session&apos;: Dictionary type FK, target: Ejuser, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe ejuser that has a pending transfer of the chat session\n"
   syntax:
     content: public Int32FieldInfo TransferTo { get; }
     parameters: []
@@ -1015,6 +1166,12 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property TransferTo As Int32FieldInfo
   overload: SuperOffice.CRM.Data.ChatSessionTableInfo.TransferTo*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.Consented
   commentId: P:SuperOffice.CRM.Data.ChatSessionTableInfo.Consented
   id: Consented
@@ -1026,14 +1183,13 @@ items:
   nameWithType: ChatSessionTableInfo.Consented
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.Consented
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'consented' in table 'chat_session': Dictionary type Bool, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
-
-    The customer consented when starting the session
-  example: []
+  summary: "\nField &apos;consented&apos; in table &apos;chat_session&apos;: Dictionary type Bool, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe customer consented when starting the session\n"
   syntax:
     content: public UInt16FieldInfo Consented { get; }
     parameters: []
@@ -1041,6 +1197,12 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property Consented As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.ChatSessionTableInfo.Consented*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.ChatbotIsactive
   commentId: P:SuperOffice.CRM.Data.ChatSessionTableInfo.ChatbotIsactive
   id: ChatbotIsactive
@@ -1052,14 +1214,13 @@ items:
   nameWithType: ChatSessionTableInfo.ChatbotIsactive
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.ChatbotIsactive
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'chatbot_isactive' in table 'chat_session': Dictionary type Bool, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Indicates that a chatbot is active on the session. This will cause bot triggers to fire. Set to 0 when bot hands off to user.
-  example: []
+  summary: "\nField &apos;chatbot_isactive&apos; in table &apos;chat_session&apos;: Dictionary type Bool, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nIndicates that a chatbot is active on the session. This will cause bot triggers to fire. Set to 0 when bot hands off to user.\n"
   syntax:
     content: public UInt16FieldInfo ChatbotIsactive { get; }
     parameters: []
@@ -1067,6 +1228,12 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property ChatbotIsactive As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.ChatSessionTableInfo.ChatbotIsactive*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.Country
   commentId: P:SuperOffice.CRM.Data.ChatSessionTableInfo.Country
   id: Country
@@ -1078,14 +1245,13 @@ items:
   nameWithType: ChatSessionTableInfo.Country
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.Country
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'country' in table 'chat_session': Dictionary type Int, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
-
-    The country that the chat customer selected.
-  example: []
+  summary: "\nField &apos;country&apos; in table &apos;chat_session&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe country that the chat customer selected.\n"
   syntax:
     content: public Int32FieldInfo Country { get; }
     parameters: []
@@ -1093,6 +1259,12 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property Country As Int32FieldInfo
   overload: SuperOffice.CRM.Data.ChatSessionTableInfo.Country*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.Rating
   commentId: P:SuperOffice.CRM.Data.ChatSessionTableInfo.Rating
   id: Rating
@@ -1104,14 +1276,13 @@ items:
   nameWithType: ChatSessionTableInfo.Rating
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.Rating
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'rating' in table 'chat_session': Dictionary type Int, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Rating of this chat conversation given by the customer
-  example: []
+  summary: "\nField &apos;rating&apos; in table &apos;chat_session&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nRating of this chat conversation given by the customer\n"
   syntax:
     content: public Int32FieldInfo Rating { get; }
     parameters: []
@@ -1119,6 +1290,12 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property Rating As Int32FieldInfo
   overload: SuperOffice.CRM.Data.ChatSessionTableInfo.Rating*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.TopicId_InnerJoin_ChatTopic
   commentId: P:SuperOffice.CRM.Data.ChatSessionTableInfo.TopicId_InnerJoin_ChatTopic
   id: TopicId_InnerJoin_ChatTopic
@@ -1130,11 +1307,13 @@ items:
   nameWithType: ChatSessionTableInfo.TopicId_InnerJoin_ChatTopic
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.TopicId_InnerJoin_ChatTopic
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Generated join from the foreign key TopicId in this table, to its target table <xref href="SuperOffice.CRM.Data.ChatTopicTableInfo" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nGenerated join from the foreign key TopicId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.ChatTopicTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
     content: public TargetedInnerJoin<ChatTopicTableInfo> TopicId_InnerJoin_ChatTopic { get; }
     parameters: []
@@ -1142,6 +1321,12 @@ items:
       type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.ChatTopicTableInfo}
     content.vb: Public ReadOnly Property TopicId_InnerJoin_ChatTopic As TargetedInnerJoin(Of ChatTopicTableInfo)
   overload: SuperOffice.CRM.Data.ChatSessionTableInfo.TopicId_InnerJoin_ChatTopic*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.UserId_InnerJoin_Ejuser
   commentId: P:SuperOffice.CRM.Data.ChatSessionTableInfo.UserId_InnerJoin_Ejuser
   id: UserId_InnerJoin_Ejuser
@@ -1153,11 +1338,13 @@ items:
   nameWithType: ChatSessionTableInfo.UserId_InnerJoin_Ejuser
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.UserId_InnerJoin_Ejuser
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Generated join from the foreign key UserId in this table, to its target table <xref href="SuperOffice.CRM.Data.EjuserTableInfo" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nGenerated join from the foreign key UserId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.EjuserTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
     content: public TargetedInnerJoin<EjuserTableInfo> UserId_InnerJoin_Ejuser { get; }
     parameters: []
@@ -1165,6 +1352,12 @@ items:
       type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.EjuserTableInfo}
     content.vb: Public ReadOnly Property UserId_InnerJoin_Ejuser As TargetedInnerJoin(Of EjuserTableInfo)
   overload: SuperOffice.CRM.Data.ChatSessionTableInfo.UserId_InnerJoin_Ejuser*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.CustomerId_InnerJoin_Person
   commentId: P:SuperOffice.CRM.Data.ChatSessionTableInfo.CustomerId_InnerJoin_Person
   id: CustomerId_InnerJoin_Person
@@ -1176,11 +1369,13 @@ items:
   nameWithType: ChatSessionTableInfo.CustomerId_InnerJoin_Person
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.CustomerId_InnerJoin_Person
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Generated join from the foreign key CustomerId in this table, to its target table <xref href="SuperOffice.CRM.Data.PersonTableInfo" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nGenerated join from the foreign key CustomerId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.PersonTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
     content: public TargetedInnerJoin<PersonTableInfo> CustomerId_InnerJoin_Person { get; }
     parameters: []
@@ -1188,6 +1383,12 @@ items:
       type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.PersonTableInfo}
     content.vb: Public ReadOnly Property CustomerId_InnerJoin_Person As TargetedInnerJoin(Of PersonTableInfo)
   overload: SuperOffice.CRM.Data.ChatSessionTableInfo.CustomerId_InnerJoin_Person*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.ProjectId_InnerJoin_Project
   commentId: P:SuperOffice.CRM.Data.ChatSessionTableInfo.ProjectId_InnerJoin_Project
   id: ProjectId_InnerJoin_Project
@@ -1199,11 +1400,13 @@ items:
   nameWithType: ChatSessionTableInfo.ProjectId_InnerJoin_Project
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.ProjectId_InnerJoin_Project
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Generated join from the foreign key ProjectId in this table, to its target table <xref href="SuperOffice.CRM.Data.ProjectTableInfo" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nGenerated join from the foreign key ProjectId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.ProjectTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
     content: public TargetedInnerJoin<ProjectTableInfo> ProjectId_InnerJoin_Project { get; }
     parameters: []
@@ -1211,6 +1414,12 @@ items:
       type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.ProjectTableInfo}
     content.vb: Public ReadOnly Property ProjectId_InnerJoin_Project As TargetedInnerJoin(Of ProjectTableInfo)
   overload: SuperOffice.CRM.Data.ChatSessionTableInfo.ProjectId_InnerJoin_Project*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.SaleId_InnerJoin_Sale
   commentId: P:SuperOffice.CRM.Data.ChatSessionTableInfo.SaleId_InnerJoin_Sale
   id: SaleId_InnerJoin_Sale
@@ -1222,11 +1431,13 @@ items:
   nameWithType: ChatSessionTableInfo.SaleId_InnerJoin_Sale
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.SaleId_InnerJoin_Sale
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Generated join from the foreign key SaleId in this table, to its target table <xref href="SuperOffice.CRM.Data.SaleTableInfo" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nGenerated join from the foreign key SaleId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.SaleTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
     content: public TargetedInnerJoin<SaleTableInfo> SaleId_InnerJoin_Sale { get; }
     parameters: []
@@ -1234,6 +1445,12 @@ items:
       type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.SaleTableInfo}
     content.vb: Public ReadOnly Property SaleId_InnerJoin_Sale As TargetedInnerJoin(Of SaleTableInfo)
   overload: SuperOffice.CRM.Data.ChatSessionTableInfo.SaleId_InnerJoin_Sale*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.TicketId_InnerJoin_Ticket
   commentId: P:SuperOffice.CRM.Data.ChatSessionTableInfo.TicketId_InnerJoin_Ticket
   id: TicketId_InnerJoin_Ticket
@@ -1245,11 +1462,13 @@ items:
   nameWithType: ChatSessionTableInfo.TicketId_InnerJoin_Ticket
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.TicketId_InnerJoin_Ticket
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Generated join from the foreign key TicketId in this table, to its target table <xref href="SuperOffice.CRM.Data.TicketTableInfo" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nGenerated join from the foreign key TicketId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.TicketTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
     content: public TargetedInnerJoin<TicketTableInfo> TicketId_InnerJoin_Ticket { get; }
     parameters: []
@@ -1257,6 +1476,12 @@ items:
       type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.TicketTableInfo}
     content.vb: Public ReadOnly Property TicketId_InnerJoin_Ticket As TargetedInnerJoin(Of TicketTableInfo)
   overload: SuperOffice.CRM.Data.ChatSessionTableInfo.TicketId_InnerJoin_Ticket*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.ContactId_InnerJoin_Contact
   commentId: P:SuperOffice.CRM.Data.ChatSessionTableInfo.ContactId_InnerJoin_Contact
   id: ContactId_InnerJoin_Contact
@@ -1268,11 +1493,13 @@ items:
   nameWithType: ChatSessionTableInfo.ContactId_InnerJoin_Contact
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.ContactId_InnerJoin_Contact
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Generated join from the foreign key ContactId in this table, to its target table <xref href="SuperOffice.CRM.Data.ContactTableInfo" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nGenerated join from the foreign key ContactId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.ContactTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
     content: public TargetedInnerJoin<ContactTableInfo> ContactId_InnerJoin_Contact { get; }
     parameters: []
@@ -1280,6 +1507,12 @@ items:
       type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.ContactTableInfo}
     content.vb: Public ReadOnly Property ContactId_InnerJoin_Contact As TargetedInnerJoin(Of ContactTableInfo)
   overload: SuperOffice.CRM.Data.ChatSessionTableInfo.ContactId_InnerJoin_Contact*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.TransferTo_InnerJoin_Ejuser
   commentId: P:SuperOffice.CRM.Data.ChatSessionTableInfo.TransferTo_InnerJoin_Ejuser
   id: TransferTo_InnerJoin_Ejuser
@@ -1291,11 +1524,13 @@ items:
   nameWithType: ChatSessionTableInfo.TransferTo_InnerJoin_Ejuser
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.TransferTo_InnerJoin_Ejuser
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Generated join from the foreign key TransferTo in this table, to its target table <xref href="SuperOffice.CRM.Data.EjuserTableInfo" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nGenerated join from the foreign key TransferTo in this table, to its target table <xref href=\"SuperOffice.CRM.Data.EjuserTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
     content: public TargetedInnerJoin<EjuserTableInfo> TransferTo_InnerJoin_Ejuser { get; }
     parameters: []
@@ -1303,6 +1538,12 @@ items:
       type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.EjuserTableInfo}
     content.vb: Public ReadOnly Property TransferTo_InnerJoin_Ejuser As TargetedInnerJoin(Of EjuserTableInfo)
   overload: SuperOffice.CRM.Data.ChatSessionTableInfo.TransferTo_InnerJoin_Ejuser*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.LeftOuterJoin_ChatMessage_SessionId
   commentId: P:SuperOffice.CRM.Data.ChatSessionTableInfo.LeftOuterJoin_ChatMessage_SessionId
   id: LeftOuterJoin_ChatMessage_SessionId
@@ -1314,11 +1555,13 @@ items:
   nameWithType: ChatSessionTableInfo.LeftOuterJoin_ChatMessage_SessionId
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.LeftOuterJoin_ChatMessage_SessionId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Generated left outer join from the primary key ChatSessionId on this table, to ChatMessage.<xref href="SuperOffice.CRM.Data.ChatMessageTableInfo.SessionId" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nGenerated left outer join from the primary key ChatSessionId on this table, to ChatMessage.<xref href=\"SuperOffice.CRM.Data.ChatMessageTableInfo.SessionId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
     content: public TargetedLeftOuterJoin<ChatMessageTableInfo> LeftOuterJoin_ChatMessage_SessionId { get; }
     parameters: []
@@ -1326,68 +1569,35 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.ChatMessageTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_ChatMessage_SessionId As TargetedLeftOuterJoin(Of ChatMessageTableInfo)
   overload: SuperOffice.CRM.Data.ChatSessionTableInfo.LeftOuterJoin_ChatMessage_SessionId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Data
   nameWithType: SuperOffice.CRM.Data
   fullName: SuperOffice.CRM.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.CRM.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.CRM.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.SQL.TableInfo
   commentId: T:SuperOffice.Data.SQL.TableInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html
   name: TableInfo
   nameWithType: TableInfo
   fullName: SuperOffice.Data.SQL.TableInfo
 - uid: System.ICloneable
-  commentId: T:System.ICloneable
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.icloneable
   name: ICloneable
   nameWithType: ICloneable
   fullName: System.ICloneable
@@ -1395,185 +1605,241 @@ references:
   commentId: M:SuperOffice.Data.SQL.TableInfo.ToString
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ToString
   name: ToString()
   nameWithType: TableInfo.ToString()
   fullName: SuperOffice.Data.SQL.TableInfo.ToString()
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.ToString
     name: ToString
+    nameWithType: TableInfo.ToString
+    fullName: SuperOffice.Data.SQL.TableInfo.ToString
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ToString
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.ToString
     name: ToString
+    nameWithType: TableInfo.ToString
+    fullName: SuperOffice.Data.SQL.TableInfo.ToString
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ToString
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
   commentId: M:SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_RegisterFields_SuperOffice_Data_SQL_FieldInfo___
-  name: RegisterFields(params FieldInfo[])
-  nameWithType: TableInfo.RegisterFields(params FieldInfo[])
-  fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields(params SuperOffice.Data.SQL.FieldInfo[])
-  nameWithType.vb: TableInfo.RegisterFields(ParamArray FieldInfo())
-  fullName.vb: SuperOffice.Data.SQL.TableInfo.RegisterFields(ParamArray SuperOffice.Data.SQL.FieldInfo())
-  name.vb: RegisterFields(ParamArray FieldInfo())
+  name: RegisterFields(FieldInfo[])
+  nameWithType: TableInfo.RegisterFields(FieldInfo[])
+  fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  nameWithType.vb: TableInfo.RegisterFields(FieldInfo())
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo())
+  name.vb: RegisterFields(FieldInfo())
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
     name: RegisterFields
+    nameWithType: TableInfo.RegisterFields
+    fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_RegisterFields_SuperOffice_Data_SQL_FieldInfo___
   - name: (
-  - name: params
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.FieldInfo
     name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
     isExternal: true
-    href: SuperOffice.Data.SQL.FieldInfo.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
     name: RegisterFields
+    nameWithType: TableInfo.RegisterFields
+    fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_RegisterFields_SuperOffice_Data_SQL_FieldInfo___
   - name: (
-  - name: ParamArray
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.FieldInfo
     name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
     isExternal: true
-    href: SuperOffice.Data.SQL.FieldInfo.html
-  - name: (
+  - name: ()
+    nameWithType: ()
+    fullName: ()
   - name: )
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
   commentId: M:SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FieldInfoFromSoField_SuperOffice_Data_Dictionary_SoField_
   name: FieldInfoFromSoField(SoField)
   nameWithType: TableInfo.FieldInfoFromSoField(SoField)
   fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
     name: FieldInfoFromSoField
+    nameWithType: TableInfo.FieldInfoFromSoField
+    fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FieldInfoFromSoField_SuperOffice_Data_Dictionary_SoField_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.Dictionary.SoField
     name: SoField
+    nameWithType: SoField
+    fullName: SuperOffice.Data.Dictionary.SoField
     isExternal: true
-    href: SuperOffice.Data.Dictionary.SoField.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
     name: FieldInfoFromSoField
+    nameWithType: TableInfo.FieldInfoFromSoField
+    fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FieldInfoFromSoField_SuperOffice_Data_Dictionary_SoField_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.Dictionary.SoField
     name: SoField
+    nameWithType: SoField
+    fullName: SuperOffice.Data.Dictionary.SoField
     isExternal: true
-    href: SuperOffice.Data.Dictionary.SoField.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.Clone
   commentId: M:SuperOffice.Data.SQL.TableInfo.Clone
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Clone
   name: Clone()
   nameWithType: TableInfo.Clone()
   fullName: SuperOffice.Data.SQL.TableInfo.Clone()
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.Clone
     name: Clone
+    nameWithType: TableInfo.Clone
+    fullName: SuperOffice.Data.SQL.TableInfo.Clone
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Clone
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.Clone
     name: Clone
+    nameWithType: TableInfo.Clone
+    fullName: SuperOffice.Data.SQL.TableInfo.Clone
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Clone
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
   commentId: M:SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsSameTable_SuperOffice_Data_SQL_TableInfo_
   name: IsSameTable(TableInfo)
   nameWithType: TableInfo.IsSameTable(TableInfo)
   fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
     name: IsSameTable
+    nameWithType: TableInfo.IsSameTable
+    fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsSameTable_SuperOffice_Data_SQL_TableInfo_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
     name: IsSameTable
+    nameWithType: TableInfo.IsSameTable
+    fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsSameTable_SuperOffice_Data_SQL_TableInfo_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
   commentId: M:SuperOffice.Data.SQL.TableInfo.FindField(System.String)
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FindField_System_String_
-  name: FindField(string)
-  nameWithType: TableInfo.FindField(string)
-  fullName: SuperOffice.Data.SQL.TableInfo.FindField(string)
-  nameWithType.vb: TableInfo.FindField(String)
-  fullName.vb: SuperOffice.Data.SQL.TableInfo.FindField(String)
-  name.vb: FindField(String)
+  name: FindField(String)
+  nameWithType: TableInfo.FindField(String)
+  fullName: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
     name: FindField
+    nameWithType: TableInfo.FindField
+    fullName: SuperOffice.Data.SQL.TableInfo.FindField
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FindField_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
     name: FindField
+    nameWithType: TableInfo.FindField
+    fullName: SuperOffice.Data.SQL.TableInfo.FindField
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FindField_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.ProtAll
   commentId: P:SuperOffice.Data.SQL.TableInfo.ProtAll
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ProtAll
   name: ProtAll
   nameWithType: TableInfo.ProtAll
   fullName: SuperOffice.Data.SQL.TableInfo.ProtAll
@@ -1581,7 +1847,6 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.HashCheckFields
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_HashCheckFields
   name: HashCheckFields
   nameWithType: TableInfo.HashCheckFields
   fullName: SuperOffice.Data.SQL.TableInfo.HashCheckFields
@@ -1589,7 +1854,6 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.TableName
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_TableName
   name: TableName
   nameWithType: TableInfo.TableName
   fullName: SuperOffice.Data.SQL.TableInfo.TableName
@@ -1597,7 +1861,6 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.DbName
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_DbName
   name: DbName
   nameWithType: TableInfo.DbName
   fullName: SuperOffice.Data.SQL.TableInfo.DbName
@@ -1605,7 +1868,6 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsDictionaryTable
   name: IsDictionaryTable
   nameWithType: TableInfo.IsDictionaryTable
   fullName: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
@@ -1613,7 +1875,6 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.All
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_All
   name: All
   nameWithType: TableInfo.All
   fullName: SuperOffice.Data.SQL.TableInfo.All
@@ -1621,389 +1882,136 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.Item(System.String)
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: this[string]
-  nameWithType: TableInfo.this[string]
-  fullName: SuperOffice.Data.SQL.TableInfo.this[string]
-  nameWithType.vb: TableInfo.this[](String)
-  fullName.vb: SuperOffice.Data.SQL.TableInfo.this[](String)
-  name.vb: this[](String)
+  name: Item[String]
+  nameWithType: TableInfo.Item[String]
+  fullName: SuperOffice.Data.SQL.TableInfo.Item[System.String]
+  nameWithType.vb: TableInfo.Item(String)
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  name.vb: Item(String)
   spec.csharp:
-  - name: this
-  - name: '['
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ']'
-  spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
-    name: this[]
+    name: Item
+    nameWithType: TableInfo.Item
+    fullName: SuperOffice.Data.SQL.TableInfo.Item
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Item_System_String_
-  - name: (
+  - name: '['
+    nameWithType: '['
+    fullName: '['
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ']'
+    nameWithType: ']'
+    fullName: ']'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+    name: Item
+    nameWithType: TableInfo.Item
+    fullName: SuperOffice.Data.SQL.TableInfo.Item
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
   commentId: P:SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_PrimaryKeyField
   name: PrimaryKeyField
   nameWithType: TableInfo.PrimaryKeyField
   fullName: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<ChatSessionTableInfo, To>(ChatSessionTableInfo)
-  nameWithType: EnumUtil.MapEnums<ChatSessionTableInfo, To>(ChatSessionTableInfo)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.ChatSessionTableInfo, To>(SuperOffice.CRM.Data.ChatSessionTableInfo)
-  nameWithType.vb: EnumUtil.MapEnums(Of ChatSessionTableInfo, To)(ChatSessionTableInfo)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.ChatSessionTableInfo, To)(SuperOffice.CRM.Data.ChatSessionTableInfo)
-  name.vb: MapEnums(Of ChatSessionTableInfo, To)(ChatSessionTableInfo)
+  name: MapEnums<ChatSessionTableInfo, To>()
+  nameWithType: EnumUtil.MapEnums<ChatSessionTableInfo, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.ChatSessionTableInfo, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ChatSessionTableInfo, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.ChatSessionTableInfo, To)()
+  name.vb: MapEnums(Of ChatSessionTableInfo, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Data.ChatSessionTableInfo)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ChatSessionTableInfo, To>
+    nameWithType: EnumUtil.MapEnums<ChatSessionTableInfo, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.ChatSessionTableInfo, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Data.ChatSessionTableInfo
-    name: ChatSessionTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.ChatSessionTableInfo.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Data.ChatSessionTableInfo
-    name: ChatSessionTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.ChatSessionTableInfo.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Data.ChatSessionTableInfo)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ChatSessionTableInfo, To)
+    nameWithType: EnumUtil.MapEnums(Of ChatSessionTableInfo, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.ChatSessionTableInfo, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Data.ChatSessionTableInfo
-    name: ChatSessionTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.ChatSessionTableInfo.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Data.ChatSessionTableInfo
-    name: ChatSessionTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.ChatSessionTableInfo.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<ChatSessionTableInfo, To>(ChatSessionTableInfo)
-  nameWithType: Converters.MapEnums<ChatSessionTableInfo, To>(ChatSessionTableInfo)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.ChatSessionTableInfo, To>(SuperOffice.CRM.Data.ChatSessionTableInfo)
-  nameWithType.vb: Converters.MapEnums(Of ChatSessionTableInfo, To)(ChatSessionTableInfo)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.ChatSessionTableInfo, To)(SuperOffice.CRM.Data.ChatSessionTableInfo)
-  name.vb: MapEnums(Of ChatSessionTableInfo, To)(ChatSessionTableInfo)
+  name: MapEnums<ChatSessionTableInfo, To>()
+  nameWithType: Converters.MapEnums<ChatSessionTableInfo, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.ChatSessionTableInfo, To>()
+  nameWithType.vb: Converters.MapEnums(Of ChatSessionTableInfo, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.ChatSessionTableInfo, To)()
+  name.vb: MapEnums(Of ChatSessionTableInfo, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Data.ChatSessionTableInfo)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ChatSessionTableInfo, To>
+    nameWithType: Converters.MapEnums<ChatSessionTableInfo, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.ChatSessionTableInfo, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Data.ChatSessionTableInfo
-    name: ChatSessionTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.ChatSessionTableInfo.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Data.ChatSessionTableInfo
-    name: ChatSessionTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.ChatSessionTableInfo.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Data.ChatSessionTableInfo)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ChatSessionTableInfo, To)
+    nameWithType: Converters.MapEnums(Of ChatSessionTableInfo, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.ChatSessionTableInfo, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Data.ChatSessionTableInfo
-    name: ChatSessionTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.ChatSessionTableInfo.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Data.ChatSessionTableInfo
-    name: ChatSessionTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.ChatSessionTableInfo.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.Data.SQL
   commentId: N:SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.SQL
-    name: SQL
-    isExternal: true
-    href: SuperOffice.Data.SQL.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.SQL
-    name: SQL
-    isExternal: true
-    href: SuperOffice.Data.SQL.html
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -2012,45 +2020,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -2059,94 +2065,57 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.IdxStatus*
   commentId: Overload:SuperOffice.CRM.Data.ChatSessionTableInfo.IdxStatus
   isExternal: true
-  href: SuperOffice.CRM.Data.ChatSessionTableInfo.html#SuperOffice_CRM_Data_ChatSessionTableInfo_IdxStatus_SuperOffice_Data_ChatSessionStatus_
   name: IdxStatus
   nameWithType: ChatSessionTableInfo.IdxStatus
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.IdxStatus
@@ -2154,7 +2123,6 @@ references:
   commentId: T:SuperOffice.Data.ChatSessionStatus
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ChatSessionStatus.html
   name: ChatSessionStatus
   nameWithType: ChatSessionStatus
   fullName: SuperOffice.Data.ChatSessionStatus
@@ -2162,41 +2130,18 @@ references:
   commentId: T:SuperOffice.Data.SQL.Restriction
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.Restriction.html
   name: Restriction
   nameWithType: Restriction
   fullName: SuperOffice.Data.SQL.Restriction
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.IdxStatusTopicId*
   commentId: Overload:SuperOffice.CRM.Data.ChatSessionTableInfo.IdxStatusTopicId
   isExternal: true
-  href: SuperOffice.CRM.Data.ChatSessionTableInfo.html#SuperOffice_CRM_Data_ChatSessionTableInfo_IdxStatusTopicId_SuperOffice_Data_ChatSessionStatus_System_Int32_
   name: IdxStatusTopicId
   nameWithType: ChatSessionTableInfo.IdxStatusTopicId
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.IdxStatusTopicId
@@ -2204,24 +2149,18 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.DictionaryTableNumber*
   commentId: Overload:SuperOffice.CRM.Data.ChatSessionTableInfo.DictionaryTableNumber
   isExternal: true
-  href: SuperOffice.CRM.Data.ChatSessionTableInfo.html#SuperOffice_CRM_Data_ChatSessionTableInfo_DictionaryTableNumber
   name: DictionaryTableNumber
   nameWithType: ChatSessionTableInfo.DictionaryTableNumber
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.DictionaryTableNumber
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.RuntimeDefinition*
   commentId: Overload:SuperOffice.CRM.Data.ChatSessionTableInfo.RuntimeDefinition
   isExternal: true
-  href: SuperOffice.CRM.Data.ChatSessionTableInfo.html#SuperOffice_CRM_Data_ChatSessionTableInfo_RuntimeDefinition
   name: RuntimeDefinition
   nameWithType: ChatSessionTableInfo.RuntimeDefinition
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.RuntimeDefinition
@@ -2229,66 +2168,31 @@ references:
   commentId: T:SuperOffice.Data.Dictionary.SoTable
   parent: SuperOffice.Data.Dictionary
   isExternal: true
-  href: SuperOffice.Data.Dictionary.SoTable.html
   name: SoTable
   nameWithType: SoTable
   fullName: SuperOffice.Data.Dictionary.SoTable
 - uid: SuperOffice.Data.Dictionary
   commentId: N:SuperOffice.Data.Dictionary
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data.Dictionary
   nameWithType: SuperOffice.Data.Dictionary
   fullName: SuperOffice.Data.Dictionary
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.Dictionary
-    name: Dictionary
-    isExternal: true
-    href: SuperOffice.Data.Dictionary.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.Dictionary
-    name: Dictionary
-    isExternal: true
-    href: SuperOffice.Data.Dictionary.html
 - uid: SuperOffice.Data.SQL.TableInfo.Definition
   commentId: P:SuperOffice.Data.SQL.TableInfo.Definition
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Definition
   name: Definition
   nameWithType: TableInfo.Definition
   fullName: SuperOffice.Data.SQL.TableInfo.Definition
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.Definition*
   commentId: Overload:SuperOffice.CRM.Data.ChatSessionTableInfo.Definition
   isExternal: true
-  href: SuperOffice.CRM.Data.ChatSessionTableInfo.html#SuperOffice_CRM_Data_ChatSessionTableInfo_Definition
   name: Definition
   nameWithType: ChatSessionTableInfo.Definition
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.Definition
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.ChatSessionId*
   commentId: Overload:SuperOffice.CRM.Data.ChatSessionTableInfo.ChatSessionId
   isExternal: true
-  href: SuperOffice.CRM.Data.ChatSessionTableInfo.html#SuperOffice_CRM_Data_ChatSessionTableInfo_ChatSessionId
   name: ChatSessionId
   nameWithType: ChatSessionTableInfo.ChatSessionId
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.ChatSessionId
@@ -2296,35 +2200,30 @@ references:
   commentId: T:SuperOffice.Data.SQL.Int32FieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.Int32FieldInfo.html
   name: Int32FieldInfo
   nameWithType: Int32FieldInfo
   fullName: SuperOffice.Data.SQL.Int32FieldInfo
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.TopicId*
   commentId: Overload:SuperOffice.CRM.Data.ChatSessionTableInfo.TopicId
   isExternal: true
-  href: SuperOffice.CRM.Data.ChatSessionTableInfo.html#SuperOffice_CRM_Data_ChatSessionTableInfo_TopicId
   name: TopicId
   nameWithType: ChatSessionTableInfo.TopicId
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.TopicId
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.UserId*
   commentId: Overload:SuperOffice.CRM.Data.ChatSessionTableInfo.UserId
   isExternal: true
-  href: SuperOffice.CRM.Data.ChatSessionTableInfo.html#SuperOffice_CRM_Data_ChatSessionTableInfo_UserId
   name: UserId
   nameWithType: ChatSessionTableInfo.UserId
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.UserId
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.CustomerId*
   commentId: Overload:SuperOffice.CRM.Data.ChatSessionTableInfo.CustomerId
   isExternal: true
-  href: SuperOffice.CRM.Data.ChatSessionTableInfo.html#SuperOffice_CRM_Data_ChatSessionTableInfo_CustomerId
   name: CustomerId
   nameWithType: ChatSessionTableInfo.CustomerId
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.CustomerId
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.CustomerAlias*
   commentId: Overload:SuperOffice.CRM.Data.ChatSessionTableInfo.CustomerAlias
   isExternal: true
-  href: SuperOffice.CRM.Data.ChatSessionTableInfo.html#SuperOffice_CRM_Data_ChatSessionTableInfo_CustomerAlias
   name: CustomerAlias
   nameWithType: ChatSessionTableInfo.CustomerAlias
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.CustomerAlias
@@ -2332,14 +2231,12 @@ references:
   commentId: T:SuperOffice.Data.SQL.StringFieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.StringFieldInfo.html
   name: StringFieldInfo
   nameWithType: StringFieldInfo
   fullName: SuperOffice.Data.SQL.StringFieldInfo
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.Status*
   commentId: Overload:SuperOffice.CRM.Data.ChatSessionTableInfo.Status
   isExternal: true
-  href: SuperOffice.CRM.Data.ChatSessionTableInfo.html#SuperOffice_CRM_Data_ChatSessionTableInfo_Status
   name: Status
   nameWithType: ChatSessionTableInfo.Status
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.Status
@@ -2347,25 +2244,12 @@ references:
   commentId: T:SuperOffice.Data.SQL.ChatSessionStatusFieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.ChatSessionStatusFieldInfo.html
   name: ChatSessionStatusFieldInfo
   nameWithType: ChatSessionStatusFieldInfo
   fullName: SuperOffice.Data.SQL.ChatSessionStatusFieldInfo
-- uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.WhenRequested*
   commentId: Overload:SuperOffice.CRM.Data.ChatSessionTableInfo.WhenRequested
   isExternal: true
-  href: SuperOffice.CRM.Data.ChatSessionTableInfo.html#SuperOffice_CRM_Data_ChatSessionTableInfo_WhenRequested
   name: WhenRequested
   nameWithType: ChatSessionTableInfo.WhenRequested
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.WhenRequested
@@ -2373,127 +2257,102 @@ references:
   commentId: T:SuperOffice.Data.SQL.DateTimeFieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.DateTimeFieldInfo.html
   name: DateTimeFieldInfo
   nameWithType: DateTimeFieldInfo
   fullName: SuperOffice.Data.SQL.DateTimeFieldInfo
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.WhenStarted*
   commentId: Overload:SuperOffice.CRM.Data.ChatSessionTableInfo.WhenStarted
   isExternal: true
-  href: SuperOffice.CRM.Data.ChatSessionTableInfo.html#SuperOffice_CRM_Data_ChatSessionTableInfo_WhenStarted
   name: WhenStarted
   nameWithType: ChatSessionTableInfo.WhenStarted
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.WhenStarted
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.WhenEnded*
   commentId: Overload:SuperOffice.CRM.Data.ChatSessionTableInfo.WhenEnded
   isExternal: true
-  href: SuperOffice.CRM.Data.ChatSessionTableInfo.html#SuperOffice_CRM_Data_ChatSessionTableInfo_WhenEnded
   name: WhenEnded
   nameWithType: ChatSessionTableInfo.WhenEnded
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.WhenEnded
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.Idle*
   commentId: Overload:SuperOffice.CRM.Data.ChatSessionTableInfo.Idle
   isExternal: true
-  href: SuperOffice.CRM.Data.ChatSessionTableInfo.html#SuperOffice_CRM_Data_ChatSessionTableInfo_Idle
   name: Idle
   nameWithType: ChatSessionTableInfo.Idle
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.Idle
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.CustomerFetch*
   commentId: Overload:SuperOffice.CRM.Data.ChatSessionTableInfo.CustomerFetch
   isExternal: true
-  href: SuperOffice.CRM.Data.ChatSessionTableInfo.html#SuperOffice_CRM_Data_ChatSessionTableInfo_CustomerFetch
   name: CustomerFetch
   nameWithType: ChatSessionTableInfo.CustomerFetch
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.CustomerFetch
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.SessionKey*
   commentId: Overload:SuperOffice.CRM.Data.ChatSessionTableInfo.SessionKey
   isExternal: true
-  href: SuperOffice.CRM.Data.ChatSessionTableInfo.html#SuperOffice_CRM_Data_ChatSessionTableInfo_SessionKey
   name: SessionKey
   nameWithType: ChatSessionTableInfo.SessionKey
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.SessionKey
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.InitialQueuePos*
   commentId: Overload:SuperOffice.CRM.Data.ChatSessionTableInfo.InitialQueuePos
   isExternal: true
-  href: SuperOffice.CRM.Data.ChatSessionTableInfo.html#SuperOffice_CRM_Data_ChatSessionTableInfo_InitialQueuePos
   name: InitialQueuePos
   nameWithType: ChatSessionTableInfo.InitialQueuePos
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.InitialQueuePos
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.CustomerHost*
   commentId: Overload:SuperOffice.CRM.Data.ChatSessionTableInfo.CustomerHost
   isExternal: true
-  href: SuperOffice.CRM.Data.ChatSessionTableInfo.html#SuperOffice_CRM_Data_ChatSessionTableInfo_CustomerHost
   name: CustomerHost
   nameWithType: ChatSessionTableInfo.CustomerHost
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.CustomerHost
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.AlertLevel*
   commentId: Overload:SuperOffice.CRM.Data.ChatSessionTableInfo.AlertLevel
   isExternal: true
-  href: SuperOffice.CRM.Data.ChatSessionTableInfo.html#SuperOffice_CRM_Data_ChatSessionTableInfo_AlertLevel
   name: AlertLevel
   nameWithType: ChatSessionTableInfo.AlertLevel
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.AlertLevel
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.Rank*
   commentId: Overload:SuperOffice.CRM.Data.ChatSessionTableInfo.Rank
   isExternal: true
-  href: SuperOffice.CRM.Data.ChatSessionTableInfo.html#SuperOffice_CRM_Data_ChatSessionTableInfo_Rank
   name: Rank
   nameWithType: ChatSessionTableInfo.Rank
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.Rank
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.Name*
   commentId: Overload:SuperOffice.CRM.Data.ChatSessionTableInfo.Name
   isExternal: true
-  href: SuperOffice.CRM.Data.ChatSessionTableInfo.html#SuperOffice_CRM_Data_ChatSessionTableInfo_Name
   name: Name
   nameWithType: ChatSessionTableInfo.Name
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.Name
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.CompanyName*
   commentId: Overload:SuperOffice.CRM.Data.ChatSessionTableInfo.CompanyName
   isExternal: true
-  href: SuperOffice.CRM.Data.ChatSessionTableInfo.html#SuperOffice_CRM_Data_ChatSessionTableInfo_CompanyName
   name: CompanyName
   nameWithType: ChatSessionTableInfo.CompanyName
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.CompanyName
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.Email*
   commentId: Overload:SuperOffice.CRM.Data.ChatSessionTableInfo.Email
   isExternal: true
-  href: SuperOffice.CRM.Data.ChatSessionTableInfo.html#SuperOffice_CRM_Data_ChatSessionTableInfo_Email
   name: Email
   nameWithType: ChatSessionTableInfo.Email
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.Email
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.Phone*
   commentId: Overload:SuperOffice.CRM.Data.ChatSessionTableInfo.Phone
   isExternal: true
-  href: SuperOffice.CRM.Data.ChatSessionTableInfo.html#SuperOffice_CRM_Data_ChatSessionTableInfo_Phone
   name: Phone
   nameWithType: ChatSessionTableInfo.Phone
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.Phone
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.FirstMessage*
   commentId: Overload:SuperOffice.CRM.Data.ChatSessionTableInfo.FirstMessage
   isExternal: true
-  href: SuperOffice.CRM.Data.ChatSessionTableInfo.html#SuperOffice_CRM_Data_ChatSessionTableInfo_FirstMessage
   name: FirstMessage
   nameWithType: ChatSessionTableInfo.FirstMessage
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.FirstMessage
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.LastMessage*
   commentId: Overload:SuperOffice.CRM.Data.ChatSessionTableInfo.LastMessage
   isExternal: true
-  href: SuperOffice.CRM.Data.ChatSessionTableInfo.html#SuperOffice_CRM_Data_ChatSessionTableInfo_LastMessage
   name: LastMessage
   nameWithType: ChatSessionTableInfo.LastMessage
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.LastMessage
-- uid: SuperOffice.Data.ChatSessionFlags
-  commentId: T:SuperOffice.Data.ChatSessionFlags
-  parent: SuperOffice.Data
-  isExternal: true
-  href: SuperOffice.Data.ChatSessionFlags.html
-  name: ChatSessionFlags
-  nameWithType: ChatSessionFlags
-  fullName: SuperOffice.Data.ChatSessionFlags
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.Flags*
   commentId: Overload:SuperOffice.CRM.Data.ChatSessionTableInfo.Flags
   isExternal: true
-  href: SuperOffice.CRM.Data.ChatSessionTableInfo.html#SuperOffice_CRM_Data_ChatSessionTableInfo_Flags
   name: Flags
   nameWithType: ChatSessionTableInfo.Flags
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.Flags
@@ -2501,60 +2360,42 @@ references:
   commentId: T:SuperOffice.Data.SQL.ChatSessionFlagsFieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.ChatSessionFlagsFieldInfo.html
   name: ChatSessionFlagsFieldInfo
   nameWithType: ChatSessionFlagsFieldInfo
   fullName: SuperOffice.Data.SQL.ChatSessionFlagsFieldInfo
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.ProjectId*
   commentId: Overload:SuperOffice.CRM.Data.ChatSessionTableInfo.ProjectId
   isExternal: true
-  href: SuperOffice.CRM.Data.ChatSessionTableInfo.html#SuperOffice_CRM_Data_ChatSessionTableInfo_ProjectId
   name: ProjectId
   nameWithType: ChatSessionTableInfo.ProjectId
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.ProjectId
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.SaleId*
   commentId: Overload:SuperOffice.CRM.Data.ChatSessionTableInfo.SaleId
   isExternal: true
-  href: SuperOffice.CRM.Data.ChatSessionTableInfo.html#SuperOffice_CRM_Data_ChatSessionTableInfo_SaleId
   name: SaleId
   nameWithType: ChatSessionTableInfo.SaleId
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.SaleId
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.TicketId*
   commentId: Overload:SuperOffice.CRM.Data.ChatSessionTableInfo.TicketId
   isExternal: true
-  href: SuperOffice.CRM.Data.ChatSessionTableInfo.html#SuperOffice_CRM_Data_ChatSessionTableInfo_TicketId
   name: TicketId
   nameWithType: ChatSessionTableInfo.TicketId
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.TicketId
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.ContactId*
   commentId: Overload:SuperOffice.CRM.Data.ChatSessionTableInfo.ContactId
   isExternal: true
-  href: SuperOffice.CRM.Data.ChatSessionTableInfo.html#SuperOffice_CRM_Data_ChatSessionTableInfo_ContactId
   name: ContactId
   nameWithType: ChatSessionTableInfo.ContactId
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.ContactId
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.TransferTo*
   commentId: Overload:SuperOffice.CRM.Data.ChatSessionTableInfo.TransferTo
   isExternal: true
-  href: SuperOffice.CRM.Data.ChatSessionTableInfo.html#SuperOffice_CRM_Data_ChatSessionTableInfo_TransferTo
   name: TransferTo
   nameWithType: ChatSessionTableInfo.TransferTo
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.TransferTo
-- uid: System.Int16
-  commentId: T:System.Int16
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int16
-  name: short
-  nameWithType: short
-  fullName: short
-  nameWithType.vb: Short
-  fullName.vb: Short
-  name.vb: Short
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.Consented*
   commentId: Overload:SuperOffice.CRM.Data.ChatSessionTableInfo.Consented
   isExternal: true
-  href: SuperOffice.CRM.Data.ChatSessionTableInfo.html#SuperOffice_CRM_Data_ChatSessionTableInfo_Consented
   name: Consented
   nameWithType: ChatSessionTableInfo.Consented
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.Consented
@@ -2562,43 +2403,30 @@ references:
   commentId: T:SuperOffice.Data.SQL.UInt16FieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.UInt16FieldInfo.html
   name: UInt16FieldInfo
   nameWithType: UInt16FieldInfo
   fullName: SuperOffice.Data.SQL.UInt16FieldInfo
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.ChatbotIsactive*
   commentId: Overload:SuperOffice.CRM.Data.ChatSessionTableInfo.ChatbotIsactive
   isExternal: true
-  href: SuperOffice.CRM.Data.ChatSessionTableInfo.html#SuperOffice_CRM_Data_ChatSessionTableInfo_ChatbotIsactive
   name: ChatbotIsactive
   nameWithType: ChatSessionTableInfo.ChatbotIsactive
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.ChatbotIsactive
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.Country*
   commentId: Overload:SuperOffice.CRM.Data.ChatSessionTableInfo.Country
   isExternal: true
-  href: SuperOffice.CRM.Data.ChatSessionTableInfo.html#SuperOffice_CRM_Data_ChatSessionTableInfo_Country
   name: Country
   nameWithType: ChatSessionTableInfo.Country
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.Country
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.Rating*
   commentId: Overload:SuperOffice.CRM.Data.ChatSessionTableInfo.Rating
   isExternal: true
-  href: SuperOffice.CRM.Data.ChatSessionTableInfo.html#SuperOffice_CRM_Data_ChatSessionTableInfo_Rating
   name: Rating
   nameWithType: ChatSessionTableInfo.Rating
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.Rating
-- uid: SuperOffice.CRM.Data.ChatTopicTableInfo
-  commentId: T:SuperOffice.CRM.Data.ChatTopicTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.ChatTopicTableInfo.html
-  name: ChatTopicTableInfo
-  nameWithType: ChatTopicTableInfo
-  fullName: SuperOffice.CRM.Data.ChatTopicTableInfo
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.TopicId_InnerJoin_ChatTopic*
   commentId: Overload:SuperOffice.CRM.Data.ChatSessionTableInfo.TopicId_InnerJoin_ChatTopic
   isExternal: true
-  href: SuperOffice.CRM.Data.ChatSessionTableInfo.html#SuperOffice_CRM_Data_ChatSessionTableInfo_TopicId_InnerJoin_ChatTopic
   name: TopicId_InnerJoin_ChatTopic
   nameWithType: ChatSessionTableInfo.TopicId_InnerJoin_ChatTopic
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.TopicId_InnerJoin_ChatTopic
@@ -2606,7 +2434,6 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.ChatTopicTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
-  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   name: TargetedInnerJoin<ChatTopicTableInfo>
   nameWithType: TargetedInnerJoin<ChatTopicTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.ChatTopicTableInfo>
@@ -2616,31 +2443,40 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Data.ChatTopicTableInfo
     name: ChatTopicTableInfo
+    nameWithType: ChatTopicTableInfo
+    fullName: SuperOffice.CRM.Data.ChatTopicTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.ChatTopicTableInfo.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Data.ChatTopicTableInfo
     name: ChatTopicTableInfo
+    nameWithType: ChatTopicTableInfo
+    fullName: SuperOffice.CRM.Data.ChatTopicTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.ChatTopicTableInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
   commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin`1
   isExternal: true
-  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   name: TargetedInnerJoin<TargetTableInfo>
   nameWithType: TargetedInnerJoin<TargetTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedInnerJoin<TargetTableInfo>
@@ -2650,33 +2486,36 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
   - name: )
-- uid: SuperOffice.CRM.Data.EjuserTableInfo
-  commentId: T:SuperOffice.CRM.Data.EjuserTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.EjuserTableInfo.html
-  name: EjuserTableInfo
-  nameWithType: EjuserTableInfo
-  fullName: SuperOffice.CRM.Data.EjuserTableInfo
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.UserId_InnerJoin_Ejuser*
   commentId: Overload:SuperOffice.CRM.Data.ChatSessionTableInfo.UserId_InnerJoin_Ejuser
   isExternal: true
-  href: SuperOffice.CRM.Data.ChatSessionTableInfo.html#SuperOffice_CRM_Data_ChatSessionTableInfo_UserId_InnerJoin_Ejuser
   name: UserId_InnerJoin_Ejuser
   nameWithType: ChatSessionTableInfo.UserId_InnerJoin_Ejuser
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.UserId_InnerJoin_Ejuser
@@ -2684,7 +2523,6 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.EjuserTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
-  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   name: TargetedInnerJoin<EjuserTableInfo>
   nameWithType: TargetedInnerJoin<EjuserTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.EjuserTableInfo>
@@ -2694,39 +2532,40 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Data.EjuserTableInfo
     name: EjuserTableInfo
+    nameWithType: EjuserTableInfo
+    fullName: SuperOffice.CRM.Data.EjuserTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.EjuserTableInfo.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Data.EjuserTableInfo
     name: EjuserTableInfo
+    nameWithType: EjuserTableInfo
+    fullName: SuperOffice.CRM.Data.EjuserTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.EjuserTableInfo.html
   - name: )
-- uid: SuperOffice.CRM.Data.PersonTableInfo
-  commentId: T:SuperOffice.CRM.Data.PersonTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.PersonTableInfo.html
-  name: PersonTableInfo
-  nameWithType: PersonTableInfo
-  fullName: SuperOffice.CRM.Data.PersonTableInfo
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.CustomerId_InnerJoin_Person*
   commentId: Overload:SuperOffice.CRM.Data.ChatSessionTableInfo.CustomerId_InnerJoin_Person
   isExternal: true
-  href: SuperOffice.CRM.Data.ChatSessionTableInfo.html#SuperOffice_CRM_Data_ChatSessionTableInfo_CustomerId_InnerJoin_Person
   name: CustomerId_InnerJoin_Person
   nameWithType: ChatSessionTableInfo.CustomerId_InnerJoin_Person
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.CustomerId_InnerJoin_Person
@@ -2734,7 +2573,6 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.PersonTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
-  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   name: TargetedInnerJoin<PersonTableInfo>
   nameWithType: TargetedInnerJoin<PersonTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.PersonTableInfo>
@@ -2744,39 +2582,40 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Data.PersonTableInfo
     name: PersonTableInfo
+    nameWithType: PersonTableInfo
+    fullName: SuperOffice.CRM.Data.PersonTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.PersonTableInfo.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Data.PersonTableInfo
     name: PersonTableInfo
+    nameWithType: PersonTableInfo
+    fullName: SuperOffice.CRM.Data.PersonTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.PersonTableInfo.html
   - name: )
-- uid: SuperOffice.CRM.Data.ProjectTableInfo
-  commentId: T:SuperOffice.CRM.Data.ProjectTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.ProjectTableInfo.html
-  name: ProjectTableInfo
-  nameWithType: ProjectTableInfo
-  fullName: SuperOffice.CRM.Data.ProjectTableInfo
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.ProjectId_InnerJoin_Project*
   commentId: Overload:SuperOffice.CRM.Data.ChatSessionTableInfo.ProjectId_InnerJoin_Project
   isExternal: true
-  href: SuperOffice.CRM.Data.ChatSessionTableInfo.html#SuperOffice_CRM_Data_ChatSessionTableInfo_ProjectId_InnerJoin_Project
   name: ProjectId_InnerJoin_Project
   nameWithType: ChatSessionTableInfo.ProjectId_InnerJoin_Project
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.ProjectId_InnerJoin_Project
@@ -2784,7 +2623,6 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.ProjectTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
-  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   name: TargetedInnerJoin<ProjectTableInfo>
   nameWithType: TargetedInnerJoin<ProjectTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.ProjectTableInfo>
@@ -2794,39 +2632,40 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Data.ProjectTableInfo
     name: ProjectTableInfo
+    nameWithType: ProjectTableInfo
+    fullName: SuperOffice.CRM.Data.ProjectTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.ProjectTableInfo.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Data.ProjectTableInfo
     name: ProjectTableInfo
+    nameWithType: ProjectTableInfo
+    fullName: SuperOffice.CRM.Data.ProjectTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.ProjectTableInfo.html
   - name: )
-- uid: SuperOffice.CRM.Data.SaleTableInfo
-  commentId: T:SuperOffice.CRM.Data.SaleTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.SaleTableInfo.html
-  name: SaleTableInfo
-  nameWithType: SaleTableInfo
-  fullName: SuperOffice.CRM.Data.SaleTableInfo
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.SaleId_InnerJoin_Sale*
   commentId: Overload:SuperOffice.CRM.Data.ChatSessionTableInfo.SaleId_InnerJoin_Sale
   isExternal: true
-  href: SuperOffice.CRM.Data.ChatSessionTableInfo.html#SuperOffice_CRM_Data_ChatSessionTableInfo_SaleId_InnerJoin_Sale
   name: SaleId_InnerJoin_Sale
   nameWithType: ChatSessionTableInfo.SaleId_InnerJoin_Sale
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.SaleId_InnerJoin_Sale
@@ -2834,7 +2673,6 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.SaleTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
-  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   name: TargetedInnerJoin<SaleTableInfo>
   nameWithType: TargetedInnerJoin<SaleTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.SaleTableInfo>
@@ -2844,39 +2682,40 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Data.SaleTableInfo
     name: SaleTableInfo
+    nameWithType: SaleTableInfo
+    fullName: SuperOffice.CRM.Data.SaleTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.SaleTableInfo.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Data.SaleTableInfo
     name: SaleTableInfo
+    nameWithType: SaleTableInfo
+    fullName: SuperOffice.CRM.Data.SaleTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.SaleTableInfo.html
   - name: )
-- uid: SuperOffice.CRM.Data.TicketTableInfo
-  commentId: T:SuperOffice.CRM.Data.TicketTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.TicketTableInfo.html
-  name: TicketTableInfo
-  nameWithType: TicketTableInfo
-  fullName: SuperOffice.CRM.Data.TicketTableInfo
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.TicketId_InnerJoin_Ticket*
   commentId: Overload:SuperOffice.CRM.Data.ChatSessionTableInfo.TicketId_InnerJoin_Ticket
   isExternal: true
-  href: SuperOffice.CRM.Data.ChatSessionTableInfo.html#SuperOffice_CRM_Data_ChatSessionTableInfo_TicketId_InnerJoin_Ticket
   name: TicketId_InnerJoin_Ticket
   nameWithType: ChatSessionTableInfo.TicketId_InnerJoin_Ticket
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.TicketId_InnerJoin_Ticket
@@ -2884,7 +2723,6 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.TicketTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
-  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   name: TargetedInnerJoin<TicketTableInfo>
   nameWithType: TargetedInnerJoin<TicketTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.TicketTableInfo>
@@ -2894,39 +2732,40 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Data.TicketTableInfo
     name: TicketTableInfo
+    nameWithType: TicketTableInfo
+    fullName: SuperOffice.CRM.Data.TicketTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.TicketTableInfo.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Data.TicketTableInfo
     name: TicketTableInfo
+    nameWithType: TicketTableInfo
+    fullName: SuperOffice.CRM.Data.TicketTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.TicketTableInfo.html
   - name: )
-- uid: SuperOffice.CRM.Data.ContactTableInfo
-  commentId: T:SuperOffice.CRM.Data.ContactTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.ContactTableInfo.html
-  name: ContactTableInfo
-  nameWithType: ContactTableInfo
-  fullName: SuperOffice.CRM.Data.ContactTableInfo
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.ContactId_InnerJoin_Contact*
   commentId: Overload:SuperOffice.CRM.Data.ChatSessionTableInfo.ContactId_InnerJoin_Contact
   isExternal: true
-  href: SuperOffice.CRM.Data.ChatSessionTableInfo.html#SuperOffice_CRM_Data_ChatSessionTableInfo_ContactId_InnerJoin_Contact
   name: ContactId_InnerJoin_Contact
   nameWithType: ChatSessionTableInfo.ContactId_InnerJoin_Contact
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.ContactId_InnerJoin_Contact
@@ -2934,7 +2773,6 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.ContactTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
-  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   name: TargetedInnerJoin<ContactTableInfo>
   nameWithType: TargetedInnerJoin<ContactTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.ContactTableInfo>
@@ -2944,45 +2782,46 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Data.ContactTableInfo
     name: ContactTableInfo
+    nameWithType: ContactTableInfo
+    fullName: SuperOffice.CRM.Data.ContactTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.ContactTableInfo.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Data.ContactTableInfo
     name: ContactTableInfo
+    nameWithType: ContactTableInfo
+    fullName: SuperOffice.CRM.Data.ContactTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.ContactTableInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.TransferTo_InnerJoin_Ejuser*
   commentId: Overload:SuperOffice.CRM.Data.ChatSessionTableInfo.TransferTo_InnerJoin_Ejuser
   isExternal: true
-  href: SuperOffice.CRM.Data.ChatSessionTableInfo.html#SuperOffice_CRM_Data_ChatSessionTableInfo_TransferTo_InnerJoin_Ejuser
   name: TransferTo_InnerJoin_Ejuser
   nameWithType: ChatSessionTableInfo.TransferTo_InnerJoin_Ejuser
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.TransferTo_InnerJoin_Ejuser
-- uid: SuperOffice.CRM.Data.ChatMessageTableInfo.SessionId
-  commentId: P:SuperOffice.CRM.Data.ChatMessageTableInfo.SessionId
-  isExternal: true
-  href: SuperOffice.CRM.Data.ChatMessageTableInfo.html#SuperOffice_CRM_Data_ChatMessageTableInfo_SessionId
-  name: SessionId
-  nameWithType: ChatMessageTableInfo.SessionId
-  fullName: SuperOffice.CRM.Data.ChatMessageTableInfo.SessionId
 - uid: SuperOffice.CRM.Data.ChatSessionTableInfo.LeftOuterJoin_ChatMessage_SessionId*
   commentId: Overload:SuperOffice.CRM.Data.ChatSessionTableInfo.LeftOuterJoin_ChatMessage_SessionId
   isExternal: true
-  href: SuperOffice.CRM.Data.ChatSessionTableInfo.html#SuperOffice_CRM_Data_ChatSessionTableInfo_LeftOuterJoin_ChatMessage_SessionId
   name: LeftOuterJoin_ChatMessage_SessionId
   nameWithType: ChatSessionTableInfo.LeftOuterJoin_ChatMessage_SessionId
   fullName: SuperOffice.CRM.Data.ChatSessionTableInfo.LeftOuterJoin_ChatMessage_SessionId
@@ -2990,7 +2829,6 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.ChatMessageTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
-  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   name: TargetedLeftOuterJoin<ChatMessageTableInfo>
   nameWithType: TargetedLeftOuterJoin<ChatMessageTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.ChatMessageTableInfo>
@@ -3000,31 +2838,40 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Data.ChatMessageTableInfo
     name: ChatMessageTableInfo
+    nameWithType: ChatMessageTableInfo
+    fullName: SuperOffice.CRM.Data.ChatMessageTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.ChatMessageTableInfo.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Data.ChatMessageTableInfo
     name: ChatMessageTableInfo
+    nameWithType: ChatMessageTableInfo
+    fullName: SuperOffice.CRM.Data.ChatMessageTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.ChatMessageTableInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
   commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
   isExternal: true
-  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   name: TargetedLeftOuterJoin<TargetTableInfo>
   nameWithType: TargetedLeftOuterJoin<TargetTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<TargetTableInfo>
@@ -3034,18 +2881,30 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
   - name: )
+    nameWithType: )
+    fullName: )

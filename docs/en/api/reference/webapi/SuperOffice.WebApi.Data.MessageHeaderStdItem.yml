@@ -13,21 +13,64 @@ items:
   - SuperOffice.WebApi.Data.MessageHeaderStdItem.SentAutoReplyToCustomersA
   - SuperOffice.WebApi.Data.MessageHeaderStdItem.SentAutoReplyToCustomersB
   - SuperOffice.WebApi.Data.MessageHeaderStdItem.UnnamedAttachmentBlocked
+  - SuperOffice.WebApi.Data.MessageHeaderStdItem.value__
   langs:
   - csharp
   - vb
   name: MessageHeaderStdItem
   nameWithType: MessageHeaderStdItem
   fullName: SuperOffice.WebApi.Data.MessageHeaderStdItem
-  type: Enum
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Standard/predefined values for ticket message header
-  example: []
+  summary: "\nStandard/predefined values for ticket message header\n"
   syntax:
-    content: public enum MessageHeaderStdItem
-    content.vb: Public Enum MessageHeaderStdItem
+    content: 'public sealed class MessageHeaderStdItem : Enum'
+    content.vb: >-
+      Public NotInheritable Class MessageHeaderStdItem
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.MessageHeaderStdItem.value__
+  commentId: F:SuperOffice.WebApi.Data.MessageHeaderStdItem.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.MessageHeaderStdItem
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: MessageHeaderStdItem.value__
+  fullName: SuperOffice.WebApi.Data.MessageHeaderStdItem.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.MessageHeaderStdItem.None
   commentId: F:SuperOffice.WebApi.Data.MessageHeaderStdItem.None
   id: None
@@ -39,26 +82,24 @@ items:
   nameWithType: MessageHeaderStdItem.None
   fullName: SuperOffice.WebApi.Data.MessageHeaderStdItem.None
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '0: A standard header without predefined meaning'
-  example: []
+  summary: "\n0: A standard header without predefined meaning\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      None = 0
+    content: public const MessageHeaderStdItem None
     return:
       type: SuperOffice.WebApi.Data.MessageHeaderStdItem
-    content.vb: >-
-      <EnumMember>
-
-      None = 0
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const None As MessageHeaderStdItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.MessageHeaderStdItem.Forward
   commentId: F:SuperOffice.WebApi.Data.MessageHeaderStdItem.Forward
   id: Forward
@@ -70,26 +111,24 @@ items:
   nameWithType: MessageHeaderStdItem.Forward
   fullName: SuperOffice.WebApi.Data.MessageHeaderStdItem.Forward
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '1: Forward'
-  example: []
+  summary: "\n1: Forward\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Forward = 1
+    content: public const MessageHeaderStdItem Forward
     return:
       type: SuperOffice.WebApi.Data.MessageHeaderStdItem
-    content.vb: >-
-      <EnumMember>
-
-      Forward = 1
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Forward As MessageHeaderStdItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.MessageHeaderStdItem.UnnamedAttachmentBlocked
   commentId: F:SuperOffice.WebApi.Data.MessageHeaderStdItem.UnnamedAttachmentBlocked
   id: UnnamedAttachmentBlocked
@@ -101,26 +140,24 @@ items:
   nameWithType: MessageHeaderStdItem.UnnamedAttachmentBlocked
   fullName: SuperOffice.WebApi.Data.MessageHeaderStdItem.UnnamedAttachmentBlocked
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '2: Message contains certain attachments we simply do not import'
-  example: []
+  summary: "\n2: Message contains certain attachments we simply do not import\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      UnnamedAttachmentBlocked = 2
+    content: public const MessageHeaderStdItem UnnamedAttachmentBlocked
     return:
       type: SuperOffice.WebApi.Data.MessageHeaderStdItem
-    content.vb: >-
-      <EnumMember>
-
-      UnnamedAttachmentBlocked = 2
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const UnnamedAttachmentBlocked As MessageHeaderStdItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.MessageHeaderStdItem.NoAutoReply
   commentId: F:SuperOffice.WebApi.Data.MessageHeaderStdItem.NoAutoReply
   id: NoAutoReply
@@ -132,26 +169,24 @@ items:
   nameWithType: MessageHeaderStdItem.NoAutoReply
   fullName: SuperOffice.WebApi.Data.MessageHeaderStdItem.NoAutoReply
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '3: NoAutoReply'
-  example: []
+  summary: "\n3: NoAutoReply\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      NoAutoReply = 3
+    content: public const MessageHeaderStdItem NoAutoReply
     return:
       type: SuperOffice.WebApi.Data.MessageHeaderStdItem
-    content.vb: >-
-      <EnumMember>
-
-      NoAutoReply = 3
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const NoAutoReply As MessageHeaderStdItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.MessageHeaderStdItem.SentAutoReplyToCustomersA
   commentId: F:SuperOffice.WebApi.Data.MessageHeaderStdItem.SentAutoReplyToCustomersA
   id: SentAutoReplyToCustomersA
@@ -163,26 +198,24 @@ items:
   nameWithType: MessageHeaderStdItem.SentAutoReplyToCustomersA
   fullName: SuperOffice.WebApi.Data.MessageHeaderStdItem.SentAutoReplyToCustomersA
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '4: Auto-reply sent to customers A'
-  example: []
+  summary: "\n4: Auto-reply sent to customers A\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      SentAutoReplyToCustomersA = 4
+    content: public const MessageHeaderStdItem SentAutoReplyToCustomersA
     return:
       type: SuperOffice.WebApi.Data.MessageHeaderStdItem
-    content.vb: >-
-      <EnumMember>
-
-      SentAutoReplyToCustomersA = 4
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const SentAutoReplyToCustomersA As MessageHeaderStdItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.MessageHeaderStdItem.SentAutoReplyToCustomersB
   commentId: F:SuperOffice.WebApi.Data.MessageHeaderStdItem.SentAutoReplyToCustomersB
   id: SentAutoReplyToCustomersB
@@ -194,26 +227,24 @@ items:
   nameWithType: MessageHeaderStdItem.SentAutoReplyToCustomersB
   fullName: SuperOffice.WebApi.Data.MessageHeaderStdItem.SentAutoReplyToCustomersB
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '5: Auto-reply sent to customers B'
-  example: []
+  summary: "\n5: Auto-reply sent to customers B\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      SentAutoReplyToCustomersB = 5
+    content: public const MessageHeaderStdItem SentAutoReplyToCustomersB
     return:
       type: SuperOffice.WebApi.Data.MessageHeaderStdItem
-    content.vb: >-
-      <EnumMember>
-
-      SentAutoReplyToCustomersB = 5
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const SentAutoReplyToCustomersB As MessageHeaderStdItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.MessageHeaderStdItem.CustomerReadFAQ
   commentId: F:SuperOffice.WebApi.Data.MessageHeaderStdItem.CustomerReadFAQ
   id: CustomerReadFAQ
@@ -225,26 +256,24 @@ items:
   nameWithType: MessageHeaderStdItem.CustomerReadFAQ
   fullName: SuperOffice.WebApi.Data.MessageHeaderStdItem.CustomerReadFAQ
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '6: Customer read FAQ'
-  example: []
+  summary: "\n6: Customer read FAQ\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      CustomerReadFAQ = 6
+    content: public const MessageHeaderStdItem CustomerReadFAQ
     return:
       type: SuperOffice.WebApi.Data.MessageHeaderStdItem
-    content.vb: >-
-      <EnumMember>
-
-      CustomerReadFAQ = 6
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const CustomerReadFAQ As MessageHeaderStdItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.MessageHeaderStdItem.ReplyTemplate
   commentId: F:SuperOffice.WebApi.Data.MessageHeaderStdItem.ReplyTemplate
   id: ReplyTemplate
@@ -256,69 +285,55 @@ items:
   nameWithType: MessageHeaderStdItem.ReplyTemplate
   fullName: SuperOffice.WebApi.Data.MessageHeaderStdItem.ReplyTemplate
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '7: This message was generated from reply template'
-  example: []
+  summary: "\n7: This message was generated from reply template\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      ReplyTemplate = 7
+    content: public const MessageHeaderStdItem ReplyTemplate
     return:
       type: SuperOffice.WebApi.Data.MessageHeaderStdItem
-    content.vb: >-
-      <EnumMember>
-
-      ReplyTemplate = 7
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const ReplyTemplate As MessageHeaderStdItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.WebApi.Data.MessageHeaderStdItem
   commentId: T:SuperOffice.WebApi.Data.MessageHeaderStdItem
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.MessageHeaderStdItem.html
   name: MessageHeaderStdItem
   nameWithType: MessageHeaderStdItem
   fullName: SuperOffice.WebApi.Data.MessageHeaderStdItem

@@ -23,28 +23,24 @@ references:
   commentId: T:SuperOffice.Events.SoGlobalFlush
   parent: SuperOffice.Events
   isExternal: true
-  href: SuperOffice.Events.SoGlobalFlush.html
   name: SoGlobalFlush
   nameWithType: SoGlobalFlush
   fullName: SuperOffice.Events.SoGlobalFlush
 - uid: SuperOffice.Events.SoEventManager
   commentId: T:SuperOffice.Events.SoEventManager
   isExternal: true
-  href: SuperOffice.Events.SoEventManager.html
   name: SoEventManager
   nameWithType: SoEventManager
   fullName: SuperOffice.Events.SoEventManager
 - uid: SuperOffice.Events.EventEnginePluginAttribute
   commentId: T:SuperOffice.Events.EventEnginePluginAttribute
   isExternal: true
-  href: SuperOffice.Events.EventEnginePluginAttribute.html
   name: EventEnginePluginAttribute
   nameWithType: EventEnginePluginAttribute
   fullName: SuperOffice.Events.EventEnginePluginAttribute
 - uid: SuperOffice.Events.IEventEngine
   commentId: T:SuperOffice.Events.IEventEngine
   isExternal: true
-  href: SuperOffice.Events.IEventEngine.html
   name: IEventEngine
   nameWithType: IEventEngine
   fullName: SuperOffice.Events.IEventEngine
@@ -52,34 +48,12 @@ references:
   commentId: T:SuperOffice.Events.SendEventArguments
   parent: SuperOffice.Events
   isExternal: true
-  href: SuperOffice.Events.SendEventArguments.html
   name: SendEventArguments
   nameWithType: SendEventArguments
   fullName: SuperOffice.Events.SendEventArguments
 - uid: SuperOffice.Events
   commentId: N:SuperOffice.Events
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Events
   nameWithType: SuperOffice.Events
   fullName: SuperOffice.Events
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Events
-    name: Events
-    isExternal: true
-    href: SuperOffice.Events.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Events
-    name: Events
-    isExternal: true
-    href: SuperOffice.Events.html

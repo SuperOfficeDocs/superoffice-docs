@@ -40,22 +40,26 @@ items:
   nameWithType: DateUtility
   fullName: SuperOffice.Util.DateUtility
   type: Class
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
   syntax:
-    content: public static class DateUtility
-    content.vb: Public Module DateUtility
+    content: 'public static class DateUtility : Object'
+    content.vb: >-
+      Public Module DateUtility
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
 - uid: SuperOffice.Util.DateUtility.Round(System.DateTime,System.Int32,SuperOffice.Data.RoundDirection)
   commentId: M:SuperOffice.Util.DateUtility.Round(System.DateTime,System.Int32,SuperOffice.Data.RoundDirection)
   id: Round(System.DateTime,System.Int32,SuperOffice.Data.RoundDirection)
@@ -63,10 +67,13 @@ items:
   langs:
   - csharp
   - vb
-  name: Round(DateTime, int, RoundDirection)
-  nameWithType: DateUtility.Round(DateTime, int, RoundDirection)
-  fullName: SuperOffice.Util.DateUtility.Round(System.DateTime, int, SuperOffice.Data.RoundDirection)
+  name: Round(DateTime, Int32, RoundDirection)
+  nameWithType: DateUtility.Round(DateTime, Int32, RoundDirection)
+  fullName: SuperOffice.Util.DateUtility.Round(System.DateTime, System.Int32, SuperOffice.Data.RoundDirection)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -81,11 +88,14 @@ items:
       type: SuperOffice.Data.RoundDirection
     return:
       type: System.DateTime
-    content.vb: Public Shared Function Round(dateTime As Date, minutes As Integer, direction As RoundDirection) As Date
+    content.vb: Public Shared Function Round(dateTime As DateTime, minutes As Integer, direction As RoundDirection) As DateTime
   overload: SuperOffice.Util.DateUtility.Round*
-  nameWithType.vb: DateUtility.Round(Date, Integer, RoundDirection)
-  fullName.vb: SuperOffice.Util.DateUtility.Round(Date, Integer, SuperOffice.Data.RoundDirection)
-  name.vb: Round(Date, Integer, RoundDirection)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Util.DateUtility.AddReporterYears(System.DateTime,System.Int32)
   commentId: M:SuperOffice.Util.DateUtility.AddReporterYears(System.DateTime,System.Int32)
   id: AddReporterYears(System.DateTime,System.Int32)
@@ -94,32 +104,37 @@ items:
   langs:
   - csharp
   - vb
-  name: AddReporterYears(DateTime, int)
-  nameWithType: DateUtility.AddReporterYears(DateTime, int)
-  fullName: SuperOffice.Util.DateUtility.AddReporterYears(System.DateTime, int)
+  name: AddReporterYears(DateTime, Int32)
+  nameWithType: DateUtility.AddReporterYears(DateTime, Int32)
+  fullName: SuperOffice.Util.DateUtility.AddReporterYears(System.DateTime, System.Int32)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: Adds the required amount of years, then subtracts a second.
-  example: []
+  summary: "\nAdds the required amount of years, then subtracts a second.\n"
   syntax:
     content: public static DateTime AddReporterYears(this DateTime date, int yearCount)
     parameters:
     - id: date
       type: System.DateTime
-      description: ''
     - id: yearCount
       type: System.Int32
-      description: ''
     return:
       type: System.DateTime
-      description: ''
-    content.vb: Public Shared Function AddReporterYears([date] As Date, yearCount As Integer) As Date
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function AddReporterYears(date As DateTime, yearCount As Integer) As DateTime
   overload: SuperOffice.Util.DateUtility.AddReporterYears*
-  nameWithType.vb: DateUtility.AddReporterYears(Date, Integer)
-  fullName.vb: SuperOffice.Util.DateUtility.AddReporterYears(Date, Integer)
-  name.vb: AddReporterYears(Date, Integer)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Util.DateUtility.AddReporterYear(System.DateTime)
   commentId: M:SuperOffice.Util.DateUtility.AddReporterYear(System.DateTime)
   id: AddReporterYear(System.DateTime)
@@ -132,25 +147,31 @@ items:
   nameWithType: DateUtility.AddReporterYear(DateTime)
   fullName: SuperOffice.Util.DateUtility.AddReporterYear(System.DateTime)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: Adds a year, then subtracts a second.
-  example: []
+  summary: "\nAdds a year, then subtracts a second.\n"
   syntax:
     content: public static DateTime AddReporterYear(this DateTime date)
     parameters:
     - id: date
       type: System.DateTime
-      description: ''
     return:
       type: System.DateTime
-      description: ''
-    content.vb: Public Shared Function AddReporterYear([date] As Date) As Date
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function AddReporterYear(date As DateTime) As DateTime
   overload: SuperOffice.Util.DateUtility.AddReporterYear*
-  nameWithType.vb: DateUtility.AddReporterYear(Date)
-  fullName.vb: SuperOffice.Util.DateUtility.AddReporterYear(Date)
-  name.vb: AddReporterYear(Date)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Util.DateUtility.AddReporterHalfYears(System.DateTime,System.Int32)
   commentId: M:SuperOffice.Util.DateUtility.AddReporterHalfYears(System.DateTime,System.Int32)
   id: AddReporterHalfYears(System.DateTime,System.Int32)
@@ -159,32 +180,37 @@ items:
   langs:
   - csharp
   - vb
-  name: AddReporterHalfYears(DateTime, int)
-  nameWithType: DateUtility.AddReporterHalfYears(DateTime, int)
-  fullName: SuperOffice.Util.DateUtility.AddReporterHalfYears(System.DateTime, int)
+  name: AddReporterHalfYears(DateTime, Int32)
+  nameWithType: DateUtility.AddReporterHalfYears(DateTime, Int32)
+  fullName: SuperOffice.Util.DateUtility.AddReporterHalfYears(System.DateTime, System.Int32)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: Adds the required amount of half years, then subtracts a second.
-  example: []
+  summary: "\nAdds the required amount of half years, then subtracts a second.\n"
   syntax:
     content: public static DateTime AddReporterHalfYears(this DateTime date, int halfYearCount = 1)
     parameters:
     - id: date
       type: System.DateTime
-      description: ''
     - id: halfYearCount
       type: System.Int32
-      description: ''
     return:
       type: System.DateTime
-      description: ''
-    content.vb: Public Shared Function AddReporterHalfYears([date] As Date, halfYearCount As Integer = 1) As Date
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function AddReporterHalfYears(date As DateTime, halfYearCount As Integer = 1) As DateTime
   overload: SuperOffice.Util.DateUtility.AddReporterHalfYears*
-  nameWithType.vb: DateUtility.AddReporterHalfYears(Date, Integer)
-  fullName.vb: SuperOffice.Util.DateUtility.AddReporterHalfYears(Date, Integer)
-  name.vb: AddReporterHalfYears(Date, Integer)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Util.DateUtility.AddReporterQuarters(System.DateTime,System.Int32)
   commentId: M:SuperOffice.Util.DateUtility.AddReporterQuarters(System.DateTime,System.Int32)
   id: AddReporterQuarters(System.DateTime,System.Int32)
@@ -193,32 +219,37 @@ items:
   langs:
   - csharp
   - vb
-  name: AddReporterQuarters(DateTime, int)
-  nameWithType: DateUtility.AddReporterQuarters(DateTime, int)
-  fullName: SuperOffice.Util.DateUtility.AddReporterQuarters(System.DateTime, int)
+  name: AddReporterQuarters(DateTime, Int32)
+  nameWithType: DateUtility.AddReporterQuarters(DateTime, Int32)
+  fullName: SuperOffice.Util.DateUtility.AddReporterQuarters(System.DateTime, System.Int32)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: Adds the required amount of quarters of a year, then subtracts a second.
-  example: []
+  summary: "\nAdds the required amount of quarters of a year, then subtracts a second.\n"
   syntax:
     content: public static DateTime AddReporterQuarters(this DateTime date, int quarterCount)
     parameters:
     - id: date
       type: System.DateTime
-      description: ''
     - id: quarterCount
       type: System.Int32
-      description: ''
     return:
       type: System.DateTime
-      description: ''
-    content.vb: Public Shared Function AddReporterQuarters([date] As Date, quarterCount As Integer) As Date
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function AddReporterQuarters(date As DateTime, quarterCount As Integer) As DateTime
   overload: SuperOffice.Util.DateUtility.AddReporterQuarters*
-  nameWithType.vb: DateUtility.AddReporterQuarters(Date, Integer)
-  fullName.vb: SuperOffice.Util.DateUtility.AddReporterQuarters(Date, Integer)
-  name.vb: AddReporterQuarters(Date, Integer)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Util.DateUtility.AddReporterQuarter(System.DateTime)
   commentId: M:SuperOffice.Util.DateUtility.AddReporterQuarter(System.DateTime)
   id: AddReporterQuarter(System.DateTime)
@@ -231,25 +262,31 @@ items:
   nameWithType: DateUtility.AddReporterQuarter(DateTime)
   fullName: SuperOffice.Util.DateUtility.AddReporterQuarter(System.DateTime)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: Adds a quarter of a year, then subtracts a second.
-  example: []
+  summary: "\nAdds a quarter of a year, then subtracts a second.\n"
   syntax:
     content: public static DateTime AddReporterQuarter(this DateTime date)
     parameters:
     - id: date
       type: System.DateTime
-      description: ''
     return:
       type: System.DateTime
-      description: ''
-    content.vb: Public Shared Function AddReporterQuarter([date] As Date) As Date
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function AddReporterQuarter(date As DateTime) As DateTime
   overload: SuperOffice.Util.DateUtility.AddReporterQuarter*
-  nameWithType.vb: DateUtility.AddReporterQuarter(Date)
-  fullName.vb: SuperOffice.Util.DateUtility.AddReporterQuarter(Date)
-  name.vb: AddReporterQuarter(Date)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Util.DateUtility.AddReporterMonths(System.DateTime,System.Int32)
   commentId: M:SuperOffice.Util.DateUtility.AddReporterMonths(System.DateTime,System.Int32)
   id: AddReporterMonths(System.DateTime,System.Int32)
@@ -258,32 +295,37 @@ items:
   langs:
   - csharp
   - vb
-  name: AddReporterMonths(DateTime, int)
-  nameWithType: DateUtility.AddReporterMonths(DateTime, int)
-  fullName: SuperOffice.Util.DateUtility.AddReporterMonths(System.DateTime, int)
+  name: AddReporterMonths(DateTime, Int32)
+  nameWithType: DateUtility.AddReporterMonths(DateTime, Int32)
+  fullName: SuperOffice.Util.DateUtility.AddReporterMonths(System.DateTime, System.Int32)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: Adds the required amount of months, then subtracts a second.
-  example: []
+  summary: "\nAdds the required amount of months, then subtracts a second.\n"
   syntax:
     content: public static DateTime AddReporterMonths(this DateTime date, int monthCount)
     parameters:
     - id: date
       type: System.DateTime
-      description: ''
     - id: monthCount
       type: System.Int32
-      description: ''
     return:
       type: System.DateTime
-      description: ''
-    content.vb: Public Shared Function AddReporterMonths([date] As Date, monthCount As Integer) As Date
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function AddReporterMonths(date As DateTime, monthCount As Integer) As DateTime
   overload: SuperOffice.Util.DateUtility.AddReporterMonths*
-  nameWithType.vb: DateUtility.AddReporterMonths(Date, Integer)
-  fullName.vb: SuperOffice.Util.DateUtility.AddReporterMonths(Date, Integer)
-  name.vb: AddReporterMonths(Date, Integer)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Util.DateUtility.AddReporterMonth(System.DateTime)
   commentId: M:SuperOffice.Util.DateUtility.AddReporterMonth(System.DateTime)
   id: AddReporterMonth(System.DateTime)
@@ -296,25 +338,31 @@ items:
   nameWithType: DateUtility.AddReporterMonth(DateTime)
   fullName: SuperOffice.Util.DateUtility.AddReporterMonth(System.DateTime)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: Adds a month, then subtracts a second.
-  example: []
+  summary: "\nAdds a month, then subtracts a second.\n"
   syntax:
     content: public static DateTime AddReporterMonth(this DateTime date)
     parameters:
     - id: date
       type: System.DateTime
-      description: ''
     return:
       type: System.DateTime
-      description: ''
-    content.vb: Public Shared Function AddReporterMonth([date] As Date) As Date
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function AddReporterMonth(date As DateTime) As DateTime
   overload: SuperOffice.Util.DateUtility.AddReporterMonth*
-  nameWithType.vb: DateUtility.AddReporterMonth(Date)
-  fullName.vb: SuperOffice.Util.DateUtility.AddReporterMonth(Date)
-  name.vb: AddReporterMonth(Date)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Util.DateUtility.AddReporterWeeks(System.DateTime,System.Int32)
   commentId: M:SuperOffice.Util.DateUtility.AddReporterWeeks(System.DateTime,System.Int32)
   id: AddReporterWeeks(System.DateTime,System.Int32)
@@ -323,32 +371,37 @@ items:
   langs:
   - csharp
   - vb
-  name: AddReporterWeeks(DateTime, int)
-  nameWithType: DateUtility.AddReporterWeeks(DateTime, int)
-  fullName: SuperOffice.Util.DateUtility.AddReporterWeeks(System.DateTime, int)
+  name: AddReporterWeeks(DateTime, Int32)
+  nameWithType: DateUtility.AddReporterWeeks(DateTime, Int32)
+  fullName: SuperOffice.Util.DateUtility.AddReporterWeeks(System.DateTime, System.Int32)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: Adds the required number of weeks, then subtracts a second.
-  example: []
+  summary: "\nAdds the required number of weeks, then subtracts a second.\n"
   syntax:
     content: public static DateTime AddReporterWeeks(this DateTime date, int weekCount)
     parameters:
     - id: date
       type: System.DateTime
-      description: ''
     - id: weekCount
       type: System.Int32
-      description: ''
     return:
       type: System.DateTime
-      description: ''
-    content.vb: Public Shared Function AddReporterWeeks([date] As Date, weekCount As Integer) As Date
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function AddReporterWeeks(date As DateTime, weekCount As Integer) As DateTime
   overload: SuperOffice.Util.DateUtility.AddReporterWeeks*
-  nameWithType.vb: DateUtility.AddReporterWeeks(Date, Integer)
-  fullName.vb: SuperOffice.Util.DateUtility.AddReporterWeeks(Date, Integer)
-  name.vb: AddReporterWeeks(Date, Integer)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Util.DateUtility.AddReporterWeek(System.DateTime)
   commentId: M:SuperOffice.Util.DateUtility.AddReporterWeek(System.DateTime)
   id: AddReporterWeek(System.DateTime)
@@ -361,25 +414,31 @@ items:
   nameWithType: DateUtility.AddReporterWeek(DateTime)
   fullName: SuperOffice.Util.DateUtility.AddReporterWeek(System.DateTime)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: Adds a week, then subtracts a second.
-  example: []
+  summary: "\nAdds a week, then subtracts a second.\n"
   syntax:
     content: public static DateTime AddReporterWeek(this DateTime date)
     parameters:
     - id: date
       type: System.DateTime
-      description: ''
     return:
       type: System.DateTime
-      description: ''
-    content.vb: Public Shared Function AddReporterWeek([date] As Date) As Date
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function AddReporterWeek(date As DateTime) As DateTime
   overload: SuperOffice.Util.DateUtility.AddReporterWeek*
-  nameWithType.vb: DateUtility.AddReporterWeek(Date)
-  fullName.vb: SuperOffice.Util.DateUtility.AddReporterWeek(Date)
-  name.vb: AddReporterWeek(Date)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Util.DateUtility.CalculateEndDate(System.DateTime,System.Int32,SuperOffice.Data.DurationUnit)
   commentId: M:SuperOffice.Util.DateUtility.CalculateEndDate(System.DateTime,System.Int32,SuperOffice.Data.DurationUnit)
   id: CalculateEndDate(System.DateTime,System.Int32,SuperOffice.Data.DurationUnit)
@@ -388,35 +447,39 @@ items:
   langs:
   - csharp
   - vb
-  name: CalculateEndDate(DateTime, int, DurationUnit)
-  nameWithType: DateUtility.CalculateEndDate(DateTime, int, DurationUnit)
-  fullName: SuperOffice.Util.DateUtility.CalculateEndDate(System.DateTime, int, SuperOffice.Data.DurationUnit)
+  name: CalculateEndDate(DateTime, Int32, DurationUnit)
+  nameWithType: DateUtility.CalculateEndDate(DateTime, Int32, DurationUnit)
+  fullName: SuperOffice.Util.DateUtility.CalculateEndDate(System.DateTime, System.Int32, SuperOffice.Data.DurationUnit)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: Adds the amount of days/months depending on the DurationUnit specified.
-  example: []
+  summary: "\nAdds the amount of days/months depending on the DurationUnit specified.\n"
   syntax:
     content: public static DateTime CalculateEndDate(this DateTime date, int duration, DurationUnit unit)
     parameters:
     - id: date
       type: System.DateTime
-      description: ''
     - id: duration
       type: System.Int32
-      description: ''
     - id: unit
       type: SuperOffice.Data.DurationUnit
-      description: ''
     return:
       type: System.DateTime
-      description: ''
-    content.vb: Public Shared Function CalculateEndDate([date] As Date, duration As Integer, unit As DurationUnit) As Date
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function CalculateEndDate(date As DateTime, duration As Integer, unit As DurationUnit) As DateTime
   overload: SuperOffice.Util.DateUtility.CalculateEndDate*
-  nameWithType.vb: DateUtility.CalculateEndDate(Date, Integer, DurationUnit)
-  fullName.vb: SuperOffice.Util.DateUtility.CalculateEndDate(Date, Integer, SuperOffice.Data.DurationUnit)
-  name.vb: CalculateEndDate(Date, Integer, DurationUnit)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Util.DateUtility.CalculateEndDate(System.Int32,SuperOffice.Data.DurationUnit)
   commentId: M:SuperOffice.Util.DateUtility.CalculateEndDate(System.Int32,SuperOffice.Data.DurationUnit)
   id: CalculateEndDate(System.Int32,SuperOffice.Data.DurationUnit)
@@ -424,32 +487,34 @@ items:
   langs:
   - csharp
   - vb
-  name: CalculateEndDate(int, DurationUnit)
-  nameWithType: DateUtility.CalculateEndDate(int, DurationUnit)
-  fullName: SuperOffice.Util.DateUtility.CalculateEndDate(int, SuperOffice.Data.DurationUnit)
+  name: CalculateEndDate(Int32, DurationUnit)
+  nameWithType: DateUtility.CalculateEndDate(Int32, DurationUnit)
+  fullName: SuperOffice.Util.DateUtility.CalculateEndDate(System.Int32, SuperOffice.Data.DurationUnit)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: Adds the amount of days/months depending on the DurationUnit specified to the current datetime.
-  example: []
+  summary: "\nAdds the amount of days/months depending on the DurationUnit specified to the current datetime.\n"
   syntax:
     content: public static DateTime CalculateEndDate(int duration, DurationUnit unit)
     parameters:
     - id: duration
       type: System.Int32
-      description: ''
     - id: unit
       type: SuperOffice.Data.DurationUnit
-      description: ''
     return:
       type: System.DateTime
-      description: ''
-    content.vb: Public Shared Function CalculateEndDate(duration As Integer, unit As DurationUnit) As Date
+    content.vb: Public Shared Function CalculateEndDate(duration As Integer, unit As DurationUnit) As DateTime
   overload: SuperOffice.Util.DateUtility.CalculateEndDate*
-  nameWithType.vb: DateUtility.CalculateEndDate(Integer, DurationUnit)
-  fullName.vb: SuperOffice.Util.DateUtility.CalculateEndDate(Integer, SuperOffice.Data.DurationUnit)
-  name.vb: CalculateEndDate(Integer, DurationUnit)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Util.DateUtility.GetFirstInMonth(System.DateTime)
   commentId: M:SuperOffice.Util.DateUtility.GetFirstInMonth(System.DateTime)
   id: GetFirstInMonth(System.DateTime)
@@ -462,6 +527,9 @@ items:
   nameWithType: DateUtility.GetFirstInMonth(DateTime)
   fullName: SuperOffice.Util.DateUtility.GetFirstInMonth(System.DateTime)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -472,11 +540,17 @@ items:
       type: System.DateTime
     return:
       type: System.DateTime
-    content.vb: Public Shared Function GetFirstInMonth([date] As Date) As Date
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetFirstInMonth(date As DateTime) As DateTime
   overload: SuperOffice.Util.DateUtility.GetFirstInMonth*
-  nameWithType.vb: DateUtility.GetFirstInMonth(Date)
-  fullName.vb: SuperOffice.Util.DateUtility.GetFirstInMonth(Date)
-  name.vb: GetFirstInMonth(Date)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Util.DateUtility.SetToEndOfDay(System.DateTime)
   commentId: M:SuperOffice.Util.DateUtility.SetToEndOfDay(System.DateTime)
   id: SetToEndOfDay(System.DateTime)
@@ -489,25 +563,32 @@ items:
   nameWithType: DateUtility.SetToEndOfDay(DateTime)
   fullName: SuperOffice.Util.DateUtility.SetToEndOfDay(System.DateTime)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: Copies <code class="paramref">date</code> and sets the time component to be 23:59:59.
-  example: []
+  summary: "\nCopies <code data-dev-comment-type=\"paramref\" class=\"paramref\">date</code> and sets the time component to be 23:59:59.\n"
   syntax:
     content: public static DateTime SetToEndOfDay(this DateTime date)
     parameters:
     - id: date
       type: System.DateTime
-      description: ''
     return:
       type: System.DateTime
       description: A copy of date, with the time component set to 23:59:59
-    content.vb: Public Shared Function SetToEndOfDay([date] As Date) As Date
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function SetToEndOfDay(date As DateTime) As DateTime
   overload: SuperOffice.Util.DateUtility.SetToEndOfDay*
-  nameWithType.vb: DateUtility.SetToEndOfDay(Date)
-  fullName.vb: SuperOffice.Util.DateUtility.SetToEndOfDay(Date)
-  name.vb: SetToEndOfDay(Date)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Util.DateUtility.GetStartOfQuarter(System.DateTime)
   commentId: M:SuperOffice.Util.DateUtility.GetStartOfQuarter(System.DateTime)
   id: GetStartOfQuarter(System.DateTime)
@@ -520,25 +601,32 @@ items:
   nameWithType: DateUtility.GetStartOfQuarter(DateTime)
   fullName: SuperOffice.Util.DateUtility.GetStartOfQuarter(System.DateTime)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: Gets the start of the quarter that the input date is within.
-  example: []
+  summary: "\nGets the start of the quarter that the input date is within.\n"
   syntax:
     content: public static DateTime GetStartOfQuarter(this DateTime date)
     parameters:
     - id: date
       type: System.DateTime
-      description: ''
     return:
       type: System.DateTime
       description: Returns a datetime representing the first second of the first day of the quarter.
-    content.vb: Public Shared Function GetStartOfQuarter([date] As Date) As Date
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetStartOfQuarter(date As DateTime) As DateTime
   overload: SuperOffice.Util.DateUtility.GetStartOfQuarter*
-  nameWithType.vb: DateUtility.GetStartOfQuarter(Date)
-  fullName.vb: SuperOffice.Util.DateUtility.GetStartOfQuarter(Date)
-  name.vb: GetStartOfQuarter(Date)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Util.DateUtility.GetWeekStartDelta(System.DateTime,System.Boolean)
   commentId: M:SuperOffice.Util.DateUtility.GetWeekStartDelta(System.DateTime,System.Boolean)
   id: GetWeekStartDelta(System.DateTime,System.Boolean)
@@ -547,18 +635,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetWeekStartDelta(DateTime, bool)
-  nameWithType: DateUtility.GetWeekStartDelta(DateTime, bool)
-  fullName: SuperOffice.Util.DateUtility.GetWeekStartDelta(System.DateTime, bool)
+  name: GetWeekStartDelta(DateTime, Boolean)
+  nameWithType: DateUtility.GetWeekStartDelta(DateTime, Boolean)
+  fullName: SuperOffice.Util.DateUtility.GetWeekStartDelta(System.DateTime, System.Boolean)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: >-
-    Calculate how many days we need to go back from given date to get to the start-of-week day.
-
-    This is sunday or monday depending on preference. In .NET, dow 0 is sunday.
-  example: []
+  summary: "\nCalculate how many days we need to go back from given date to get to the start-of-week day.\nThis is sunday or monday depending on preference. In .NET, dow 0 is sunday.\n"
   syntax:
     content: public static int GetWeekStartDelta(this DateTime date, bool weekStartsOnSunday = false)
     parameters:
@@ -568,12 +655,18 @@ items:
       type: System.Boolean
     return:
       type: System.Int32
-      description: Day of week delta, a negative value which when added to <code class="paramref">date</code> will produce start of first day
-    content.vb: Public Shared Function GetWeekStartDelta([date] As Date, weekStartsOnSunday As Boolean = False) As Integer
+      description: Day of week delta, a negative value which when added to <code data-dev-comment-type="paramref" class="paramref">date</code> will produce start of first day
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetWeekStartDelta(date As DateTime, weekStartsOnSunday As Boolean = False) As Integer
   overload: SuperOffice.Util.DateUtility.GetWeekStartDelta*
-  nameWithType.vb: DateUtility.GetWeekStartDelta(Date, Boolean)
-  fullName.vb: SuperOffice.Util.DateUtility.GetWeekStartDelta(Date, Boolean)
-  name.vb: GetWeekStartDelta(Date, Boolean)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Util.DateUtility.GetStartOfWeek(System.DateTime,System.Boolean)
   commentId: M:SuperOffice.Util.DateUtility.GetStartOfWeek(System.DateTime,System.Boolean)
   id: GetStartOfWeek(System.DateTime,System.Boolean)
@@ -582,32 +675,37 @@ items:
   langs:
   - csharp
   - vb
-  name: GetStartOfWeek(DateTime, bool)
-  nameWithType: DateUtility.GetStartOfWeek(DateTime, bool)
-  fullName: SuperOffice.Util.DateUtility.GetStartOfWeek(System.DateTime, bool)
+  name: GetStartOfWeek(DateTime, Boolean)
+  nameWithType: DateUtility.GetStartOfWeek(DateTime, Boolean)
+  fullName: SuperOffice.Util.DateUtility.GetStartOfWeek(System.DateTime, System.Boolean)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: Gets the start of the week of the input date.
-  example: []
+  summary: "\nGets the start of the week of the input date.\n"
   syntax:
     content: public static DateTime GetStartOfWeek(this DateTime date, bool weekStartsOnSunday = false)
     parameters:
     - id: date
       type: System.DateTime
-      description: ''
     - id: weekStartsOnSunday
       type: System.Boolean
-      description: ''
     return:
       type: System.DateTime
-      description: ''
-    content.vb: Public Shared Function GetStartOfWeek([date] As Date, weekStartsOnSunday As Boolean = False) As Date
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetStartOfWeek(date As DateTime, weekStartsOnSunday As Boolean = False) As DateTime
   overload: SuperOffice.Util.DateUtility.GetStartOfWeek*
-  nameWithType.vb: DateUtility.GetStartOfWeek(Date, Boolean)
-  fullName.vb: SuperOffice.Util.DateUtility.GetStartOfWeek(Date, Boolean)
-  name.vb: GetStartOfWeek(Date, Boolean)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Util.DateUtility.GetStartOfMonth(System.DateTime)
   commentId: M:SuperOffice.Util.DateUtility.GetStartOfMonth(System.DateTime)
   id: GetStartOfMonth(System.DateTime)
@@ -620,25 +718,31 @@ items:
   nameWithType: DateUtility.GetStartOfMonth(DateTime)
   fullName: SuperOffice.Util.DateUtility.GetStartOfMonth(System.DateTime)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: Gets the start of the month of the input date.
-  example: []
+  summary: "\nGets the start of the month of the input date.\n"
   syntax:
     content: public static DateTime GetStartOfMonth(this DateTime date)
     parameters:
     - id: date
       type: System.DateTime
-      description: ''
     return:
       type: System.DateTime
-      description: ''
-    content.vb: Public Shared Function GetStartOfMonth([date] As Date) As Date
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetStartOfMonth(date As DateTime) As DateTime
   overload: SuperOffice.Util.DateUtility.GetStartOfMonth*
-  nameWithType.vb: DateUtility.GetStartOfMonth(Date)
-  fullName.vb: SuperOffice.Util.DateUtility.GetStartOfMonth(Date)
-  name.vb: GetStartOfMonth(Date)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Util.DateUtility.GetStartOfHalfYear(System.DateTime)
   commentId: M:SuperOffice.Util.DateUtility.GetStartOfHalfYear(System.DateTime)
   id: GetStartOfHalfYear(System.DateTime)
@@ -651,25 +755,31 @@ items:
   nameWithType: DateUtility.GetStartOfHalfYear(DateTime)
   fullName: SuperOffice.Util.DateUtility.GetStartOfHalfYear(System.DateTime)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: Gets the start of the half year of the input date.
-  example: []
+  summary: "\nGets the start of the half year of the input date.\n"
   syntax:
     content: public static DateTime GetStartOfHalfYear(this DateTime date)
     parameters:
     - id: date
       type: System.DateTime
-      description: ''
     return:
       type: System.DateTime
-      description: ''
-    content.vb: Public Shared Function GetStartOfHalfYear([date] As Date) As Date
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetStartOfHalfYear(date As DateTime) As DateTime
   overload: SuperOffice.Util.DateUtility.GetStartOfHalfYear*
-  nameWithType.vb: DateUtility.GetStartOfHalfYear(Date)
-  fullName.vb: SuperOffice.Util.DateUtility.GetStartOfHalfYear(Date)
-  name.vb: GetStartOfHalfYear(Date)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Util.DateUtility.GetStartOfYear(System.DateTime)
   commentId: M:SuperOffice.Util.DateUtility.GetStartOfYear(System.DateTime)
   id: GetStartOfYear(System.DateTime)
@@ -682,25 +792,31 @@ items:
   nameWithType: DateUtility.GetStartOfYear(DateTime)
   fullName: SuperOffice.Util.DateUtility.GetStartOfYear(System.DateTime)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: Gets the start of the year of the input date.
-  example: []
+  summary: "\nGets the start of the year of the input date.\n"
   syntax:
     content: public static DateTime GetStartOfYear(this DateTime date)
     parameters:
     - id: date
       type: System.DateTime
-      description: ''
     return:
       type: System.DateTime
-      description: ''
-    content.vb: Public Shared Function GetStartOfYear([date] As Date) As Date
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetStartOfYear(date As DateTime) As DateTime
   overload: SuperOffice.Util.DateUtility.GetStartOfYear*
-  nameWithType.vb: DateUtility.GetStartOfYear(Date)
-  fullName.vb: SuperOffice.Util.DateUtility.GetStartOfYear(Date)
-  name.vb: GetStartOfYear(Date)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Util.DateUtility.DropFractionsOfSecond(System.DateTime,System.Nullable{System.DateTimeKind})
   commentId: M:SuperOffice.Util.DateUtility.DropFractionsOfSecond(System.DateTime,System.Nullable{System.DateTimeKind})
   id: DropFractionsOfSecond(System.DateTime,System.Nullable{System.DateTimeKind})
@@ -709,20 +825,19 @@ items:
   langs:
   - csharp
   - vb
-  name: DropFractionsOfSecond(DateTime, DateTimeKind?)
-  nameWithType: DateUtility.DropFractionsOfSecond(DateTime, DateTimeKind?)
-  fullName: SuperOffice.Util.DateUtility.DropFractionsOfSecond(System.DateTime, System.DateTimeKind?)
+  name: DropFractionsOfSecond(DateTime, Nullable<DateTimeKind>)
+  nameWithType: DateUtility.DropFractionsOfSecond(DateTime, Nullable<DateTimeKind>)
+  fullName: SuperOffice.Util.DateUtility.DropFractionsOfSecond(System.DateTime, System.Nullable<System.DateTimeKind>)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: >-
-    Return a DateTime that is the same as the <b>input</b> parameter, but eliminate all sub-second parts by truncating them. This is how 
-
-    we store datetimes in the database, and should generally be done to avoid meaningless inequalities.
-  example: []
+  summary: "\nReturn a DateTime that is the same as the <strong>input</strong> parameter, but eliminate all sub-second parts by truncating them. This is how \nwe store datetimes in the database, and should generally be done to avoid meaningless inequalities.\n"
   syntax:
-    content: public static DateTime DropFractionsOfSecond(this DateTime input, DateTimeKind? kind = null)
+    content: public static DateTime DropFractionsOfSecond(this DateTime input, Nullable<DateTimeKind> kind = null)
     parameters:
     - id: input
       type: System.DateTime
@@ -732,12 +847,20 @@ items:
       description: Optional override of DateTime.<xref href="System.DateTime.Kind" data-throw-if-not-resolved="false"></xref>; the returned value will have this kind. If null or not specified then the original Kind will be propagated
     return:
       type: System.DateTime
-      description: ''
-    content.vb: Public Shared Function DropFractionsOfSecond(input As Date, kind As DateTimeKind? = Nothing) As Date
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function DropFractionsOfSecond(input As DateTime, kind As Nullable(Of DateTimeKind) = Nothing) As DateTime
   overload: SuperOffice.Util.DateUtility.DropFractionsOfSecond*
-  nameWithType.vb: DateUtility.DropFractionsOfSecond(Date, DateTimeKind?)
-  fullName.vb: SuperOffice.Util.DateUtility.DropFractionsOfSecond(Date, System.DateTimeKind?)
-  name.vb: DropFractionsOfSecond(Date, DateTimeKind?)
+  nameWithType.vb: DateUtility.DropFractionsOfSecond(DateTime, Nullable(Of DateTimeKind))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.DateUtility.DropFractionsOfSecond(System.DateTime, System.Nullable(Of System.DateTimeKind))
+  name.vb: DropFractionsOfSecond(DateTime, Nullable(Of DateTimeKind))
 - uid: SuperOffice.Util.DateUtility.Earliest(System.DateTime[])
   commentId: M:SuperOffice.Util.DateUtility.Earliest(System.DateTime[])
   id: Earliest(System.DateTime[])
@@ -745,10 +868,13 @@ items:
   langs:
   - csharp
   - vb
-  name: Earliest(params DateTime[])
-  nameWithType: DateUtility.Earliest(params DateTime[])
-  fullName: SuperOffice.Util.DateUtility.Earliest(params System.DateTime[])
+  name: Earliest(DateTime[])
+  nameWithType: DateUtility.Earliest(DateTime[])
+  fullName: SuperOffice.Util.DateUtility.Earliest(System.DateTime[])
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -759,11 +885,17 @@ items:
       type: System.DateTime[]
     return:
       type: System.DateTime
-    content.vb: Public Shared Function Earliest(ParamArray dates As Date()) As Date
+    content.vb: Public Shared Function Earliest(ParamArray dates As DateTime()) As DateTime
   overload: SuperOffice.Util.DateUtility.Earliest*
-  nameWithType.vb: DateUtility.Earliest(ParamArray Date())
-  fullName.vb: SuperOffice.Util.DateUtility.Earliest(ParamArray Date())
-  name.vb: Earliest(ParamArray Date())
+  nameWithType.vb: DateUtility.Earliest(DateTime())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.DateUtility.Earliest(System.DateTime())
+  name.vb: Earliest(DateTime())
 - uid: SuperOffice.Util.DateUtility.Latest(System.DateTime[])
   commentId: M:SuperOffice.Util.DateUtility.Latest(System.DateTime[])
   id: Latest(System.DateTime[])
@@ -771,10 +903,13 @@ items:
   langs:
   - csharp
   - vb
-  name: Latest(params DateTime[])
-  nameWithType: DateUtility.Latest(params DateTime[])
-  fullName: SuperOffice.Util.DateUtility.Latest(params System.DateTime[])
+  name: Latest(DateTime[])
+  nameWithType: DateUtility.Latest(DateTime[])
+  fullName: SuperOffice.Util.DateUtility.Latest(System.DateTime[])
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -785,11 +920,17 @@ items:
       type: System.DateTime[]
     return:
       type: System.DateTime
-    content.vb: Public Shared Function Latest(ParamArray dates As Date()) As Date
+    content.vb: Public Shared Function Latest(ParamArray dates As DateTime()) As DateTime
   overload: SuperOffice.Util.DateUtility.Latest*
-  nameWithType.vb: DateUtility.Latest(ParamArray Date())
-  fullName.vb: SuperOffice.Util.DateUtility.Latest(ParamArray Date())
-  name.vb: Latest(ParamArray Date())
+  nameWithType.vb: DateUtility.Latest(DateTime())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.DateUtility.Latest(System.DateTime())
+  name.vb: Latest(DateTime())
 - uid: SuperOffice.Util.DateUtility.CloseEnoughTo(System.DateTime,System.DateTime,System.Int32)
   commentId: M:SuperOffice.Util.DateUtility.CloseEnoughTo(System.DateTime,System.DateTime,System.Int32)
   id: CloseEnoughTo(System.DateTime,System.DateTime,System.Int32)
@@ -798,10 +939,13 @@ items:
   langs:
   - csharp
   - vb
-  name: CloseEnoughTo(DateTime, DateTime, int)
-  nameWithType: DateUtility.CloseEnoughTo(DateTime, DateTime, int)
-  fullName: SuperOffice.Util.DateUtility.CloseEnoughTo(System.DateTime, System.DateTime, int)
+  name: CloseEnoughTo(DateTime, DateTime, Int32)
+  nameWithType: DateUtility.CloseEnoughTo(DateTime, DateTime, Int32)
+  fullName: SuperOffice.Util.DateUtility.CloseEnoughTo(System.DateTime, System.DateTime, System.Int32)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -816,11 +960,17 @@ items:
       type: System.Int32
     return:
       type: System.Boolean
-    content.vb: Public Shared Function CloseEnoughTo(a As Date, b As Date, toleranceSeconds As Integer = 30) As Boolean
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function CloseEnoughTo(a As DateTime, b As DateTime, toleranceSeconds As Integer = 30) As Boolean
   overload: SuperOffice.Util.DateUtility.CloseEnoughTo*
-  nameWithType.vb: DateUtility.CloseEnoughTo(Date, Date, Integer)
-  fullName.vb: SuperOffice.Util.DateUtility.CloseEnoughTo(Date, Date, Integer)
-  name.vb: CloseEnoughTo(Date, Date, Integer)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Util.DateUtility.SetTime(System.DateTime,System.Int32,System.Int32,System.Int32,System.Int32)
   commentId: M:SuperOffice.Util.DateUtility.SetTime(System.DateTime,System.Int32,System.Int32,System.Int32,System.Int32)
   id: SetTime(System.DateTime,System.Int32,System.Int32,System.Int32,System.Int32)
@@ -829,10 +979,13 @@ items:
   langs:
   - csharp
   - vb
-  name: SetTime(DateTime, int, int, int, int)
-  nameWithType: DateUtility.SetTime(DateTime, int, int, int, int)
-  fullName: SuperOffice.Util.DateUtility.SetTime(System.DateTime, int, int, int, int)
+  name: SetTime(DateTime, Int32, Int32, Int32, Int32)
+  nameWithType: DateUtility.SetTime(DateTime, Int32, Int32, Int32, Int32)
+  fullName: SuperOffice.Util.DateUtility.SetTime(System.DateTime, System.Int32, System.Int32, System.Int32, System.Int32)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -851,11 +1004,17 @@ items:
       type: System.Int32
     return:
       type: System.DateTime
-    content.vb: Public Shared Function SetTime(dt As Date, hour As Integer, minute As Integer, second As Integer = 0, millisecond As Integer = 0) As Date
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function SetTime(dt As DateTime, hour As Integer, minute As Integer, second As Integer = 0, millisecond As Integer = 0) As DateTime
   overload: SuperOffice.Util.DateUtility.SetTime*
-  nameWithType.vb: DateUtility.SetTime(Date, Integer, Integer, Integer, Integer)
-  fullName.vb: SuperOffice.Util.DateUtility.SetTime(Date, Integer, Integer, Integer, Integer)
-  name.vb: SetTime(Date, Integer, Integer, Integer, Integer)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Util.DateUtility.CalcSeconds(System.DateTime)
   commentId: M:SuperOffice.Util.DateUtility.CalcSeconds(System.DateTime)
   id: CalcSeconds(System.DateTime)
@@ -868,6 +1027,9 @@ items:
   nameWithType: DateUtility.CalcSeconds(DateTime)
   fullName: SuperOffice.Util.DateUtility.CalcSeconds(System.DateTime)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -878,11 +1040,17 @@ items:
       type: System.DateTime
     return:
       type: System.Int32
-    content.vb: Public Shared Function CalcSeconds(dt As Date) As Integer
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function CalcSeconds(dt As DateTime) As Integer
   overload: SuperOffice.Util.DateUtility.CalcSeconds*
-  nameWithType.vb: DateUtility.CalcSeconds(Date)
-  fullName.vb: SuperOffice.Util.DateUtility.CalcSeconds(Date)
-  name.vb: CalcSeconds(Date)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Util.DateUtility.ToMinutes(System.TimeSpan)
   commentId: M:SuperOffice.Util.DateUtility.ToMinutes(System.TimeSpan)
   id: ToMinutes(System.TimeSpan)
@@ -895,6 +1063,9 @@ items:
   nameWithType: DateUtility.ToMinutes(TimeSpan)
   fullName: SuperOffice.Util.DateUtility.ToMinutes(System.TimeSpan)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -905,8 +1076,17 @@ items:
       type: System.TimeSpan
     return:
       type: System.Int32
-    content.vb: Public Shared Function ToMinutes(span As TimeSpan) As Integer
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToMinutes(span As TimeSpan) As Integer
   overload: SuperOffice.Util.DateUtility.ToMinutes*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Util.DateUtility.ToMinutes(System.Double)
   commentId: M:SuperOffice.Util.DateUtility.ToMinutes(System.Double)
   id: ToMinutes(System.Double)
@@ -915,10 +1095,13 @@ items:
   langs:
   - csharp
   - vb
-  name: ToMinutes(double)
-  nameWithType: DateUtility.ToMinutes(double)
-  fullName: SuperOffice.Util.DateUtility.ToMinutes(double)
+  name: ToMinutes(Double)
+  nameWithType: DateUtility.ToMinutes(Double)
+  fullName: SuperOffice.Util.DateUtility.ToMinutes(System.Double)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -929,407 +1112,125 @@ items:
       type: System.Double
     return:
       type: System.Int32
-    content.vb: Public Shared Function ToMinutes(seconds As Double) As Integer
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToMinutes(seconds As Double) As Integer
   overload: SuperOffice.Util.DateUtility.ToMinutes*
-  nameWithType.vb: DateUtility.ToMinutes(Double)
-  fullName.vb: SuperOffice.Util.DateUtility.ToMinutes(Double)
-  name.vb: ToMinutes(Double)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 references:
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.Util.DateUtility.Round*
   commentId: Overload:SuperOffice.Util.DateUtility.Round
   isExternal: true
-  href: SuperOffice.Util.DateUtility.html#SuperOffice_Util_DateUtility_Round_System_DateTime_System_Int32_SuperOffice_Data_RoundDirection_
   name: Round
   nameWithType: DateUtility.Round
   fullName: SuperOffice.Util.DateUtility.Round
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.Data.RoundDirection
   commentId: T:SuperOffice.Data.RoundDirection
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.RoundDirection.html
   name: RoundDirection
   nameWithType: RoundDirection
   fullName: SuperOffice.Data.RoundDirection
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
 - uid: SuperOffice.Util.DateUtility.AddReporterYears*
   commentId: Overload:SuperOffice.Util.DateUtility.AddReporterYears
   isExternal: true
-  href: SuperOffice.Util.DateUtility.html#SuperOffice_Util_DateUtility_AddReporterYears_System_DateTime_System_Int32_
   name: AddReporterYears
   nameWithType: DateUtility.AddReporterYears
   fullName: SuperOffice.Util.DateUtility.AddReporterYears
 - uid: SuperOffice.Util.DateUtility.AddReporterYear*
   commentId: Overload:SuperOffice.Util.DateUtility.AddReporterYear
   isExternal: true
-  href: SuperOffice.Util.DateUtility.html#SuperOffice_Util_DateUtility_AddReporterYear_System_DateTime_
   name: AddReporterYear
   nameWithType: DateUtility.AddReporterYear
   fullName: SuperOffice.Util.DateUtility.AddReporterYear
 - uid: SuperOffice.Util.DateUtility.AddReporterHalfYears*
   commentId: Overload:SuperOffice.Util.DateUtility.AddReporterHalfYears
   isExternal: true
-  href: SuperOffice.Util.DateUtility.html#SuperOffice_Util_DateUtility_AddReporterHalfYears_System_DateTime_System_Int32_
   name: AddReporterHalfYears
   nameWithType: DateUtility.AddReporterHalfYears
   fullName: SuperOffice.Util.DateUtility.AddReporterHalfYears
 - uid: SuperOffice.Util.DateUtility.AddReporterQuarters*
   commentId: Overload:SuperOffice.Util.DateUtility.AddReporterQuarters
   isExternal: true
-  href: SuperOffice.Util.DateUtility.html#SuperOffice_Util_DateUtility_AddReporterQuarters_System_DateTime_System_Int32_
   name: AddReporterQuarters
   nameWithType: DateUtility.AddReporterQuarters
   fullName: SuperOffice.Util.DateUtility.AddReporterQuarters
 - uid: SuperOffice.Util.DateUtility.AddReporterQuarter*
   commentId: Overload:SuperOffice.Util.DateUtility.AddReporterQuarter
   isExternal: true
-  href: SuperOffice.Util.DateUtility.html#SuperOffice_Util_DateUtility_AddReporterQuarter_System_DateTime_
   name: AddReporterQuarter
   nameWithType: DateUtility.AddReporterQuarter
   fullName: SuperOffice.Util.DateUtility.AddReporterQuarter
 - uid: SuperOffice.Util.DateUtility.AddReporterMonths*
   commentId: Overload:SuperOffice.Util.DateUtility.AddReporterMonths
   isExternal: true
-  href: SuperOffice.Util.DateUtility.html#SuperOffice_Util_DateUtility_AddReporterMonths_System_DateTime_System_Int32_
   name: AddReporterMonths
   nameWithType: DateUtility.AddReporterMonths
   fullName: SuperOffice.Util.DateUtility.AddReporterMonths
 - uid: SuperOffice.Util.DateUtility.AddReporterMonth*
   commentId: Overload:SuperOffice.Util.DateUtility.AddReporterMonth
   isExternal: true
-  href: SuperOffice.Util.DateUtility.html#SuperOffice_Util_DateUtility_AddReporterMonth_System_DateTime_
   name: AddReporterMonth
   nameWithType: DateUtility.AddReporterMonth
   fullName: SuperOffice.Util.DateUtility.AddReporterMonth
 - uid: SuperOffice.Util.DateUtility.AddReporterWeeks*
   commentId: Overload:SuperOffice.Util.DateUtility.AddReporterWeeks
   isExternal: true
-  href: SuperOffice.Util.DateUtility.html#SuperOffice_Util_DateUtility_AddReporterWeeks_System_DateTime_System_Int32_
   name: AddReporterWeeks
   nameWithType: DateUtility.AddReporterWeeks
   fullName: SuperOffice.Util.DateUtility.AddReporterWeeks
 - uid: SuperOffice.Util.DateUtility.AddReporterWeek*
   commentId: Overload:SuperOffice.Util.DateUtility.AddReporterWeek
   isExternal: true
-  href: SuperOffice.Util.DateUtility.html#SuperOffice_Util_DateUtility_AddReporterWeek_System_DateTime_
   name: AddReporterWeek
   nameWithType: DateUtility.AddReporterWeek
   fullName: SuperOffice.Util.DateUtility.AddReporterWeek
 - uid: SuperOffice.Util.DateUtility.CalculateEndDate*
   commentId: Overload:SuperOffice.Util.DateUtility.CalculateEndDate
   isExternal: true
-  href: SuperOffice.Util.DateUtility.html#SuperOffice_Util_DateUtility_CalculateEndDate_System_DateTime_System_Int32_SuperOffice_Data_DurationUnit_
   name: CalculateEndDate
   nameWithType: DateUtility.CalculateEndDate
   fullName: SuperOffice.Util.DateUtility.CalculateEndDate
@@ -1337,35 +1238,30 @@ references:
   commentId: T:SuperOffice.Data.DurationUnit
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.DurationUnit.html
   name: DurationUnit
   nameWithType: DurationUnit
   fullName: SuperOffice.Data.DurationUnit
 - uid: SuperOffice.Util.DateUtility.GetFirstInMonth*
   commentId: Overload:SuperOffice.Util.DateUtility.GetFirstInMonth
   isExternal: true
-  href: SuperOffice.Util.DateUtility.html#SuperOffice_Util_DateUtility_GetFirstInMonth_System_DateTime_
   name: GetFirstInMonth
   nameWithType: DateUtility.GetFirstInMonth
   fullName: SuperOffice.Util.DateUtility.GetFirstInMonth
 - uid: SuperOffice.Util.DateUtility.SetToEndOfDay*
   commentId: Overload:SuperOffice.Util.DateUtility.SetToEndOfDay
   isExternal: true
-  href: SuperOffice.Util.DateUtility.html#SuperOffice_Util_DateUtility_SetToEndOfDay_System_DateTime_
   name: SetToEndOfDay
   nameWithType: DateUtility.SetToEndOfDay
   fullName: SuperOffice.Util.DateUtility.SetToEndOfDay
 - uid: SuperOffice.Util.DateUtility.GetStartOfQuarter*
   commentId: Overload:SuperOffice.Util.DateUtility.GetStartOfQuarter
   isExternal: true
-  href: SuperOffice.Util.DateUtility.html#SuperOffice_Util_DateUtility_GetStartOfQuarter_System_DateTime_
   name: GetStartOfQuarter
   nameWithType: DateUtility.GetStartOfQuarter
   fullName: SuperOffice.Util.DateUtility.GetStartOfQuarter
 - uid: SuperOffice.Util.DateUtility.GetWeekStartDelta*
   commentId: Overload:SuperOffice.Util.DateUtility.GetWeekStartDelta
   isExternal: true
-  href: SuperOffice.Util.DateUtility.html#SuperOffice_Util_DateUtility_GetWeekStartDelta_System_DateTime_System_Boolean_
   name: GetWeekStartDelta
   nameWithType: DateUtility.GetWeekStartDelta
   fullName: SuperOffice.Util.DateUtility.GetWeekStartDelta
@@ -1373,175 +1269,184 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.Util.DateUtility.GetStartOfWeek*
   commentId: Overload:SuperOffice.Util.DateUtility.GetStartOfWeek
   isExternal: true
-  href: SuperOffice.Util.DateUtility.html#SuperOffice_Util_DateUtility_GetStartOfWeek_System_DateTime_System_Boolean_
   name: GetStartOfWeek
   nameWithType: DateUtility.GetStartOfWeek
   fullName: SuperOffice.Util.DateUtility.GetStartOfWeek
 - uid: SuperOffice.Util.DateUtility.GetStartOfMonth*
   commentId: Overload:SuperOffice.Util.DateUtility.GetStartOfMonth
   isExternal: true
-  href: SuperOffice.Util.DateUtility.html#SuperOffice_Util_DateUtility_GetStartOfMonth_System_DateTime_
   name: GetStartOfMonth
   nameWithType: DateUtility.GetStartOfMonth
   fullName: SuperOffice.Util.DateUtility.GetStartOfMonth
 - uid: SuperOffice.Util.DateUtility.GetStartOfHalfYear*
   commentId: Overload:SuperOffice.Util.DateUtility.GetStartOfHalfYear
   isExternal: true
-  href: SuperOffice.Util.DateUtility.html#SuperOffice_Util_DateUtility_GetStartOfHalfYear_System_DateTime_
   name: GetStartOfHalfYear
   nameWithType: DateUtility.GetStartOfHalfYear
   fullName: SuperOffice.Util.DateUtility.GetStartOfHalfYear
 - uid: SuperOffice.Util.DateUtility.GetStartOfYear*
   commentId: Overload:SuperOffice.Util.DateUtility.GetStartOfYear
   isExternal: true
-  href: SuperOffice.Util.DateUtility.html#SuperOffice_Util_DateUtility_GetStartOfYear_System_DateTime_
   name: GetStartOfYear
   nameWithType: DateUtility.GetStartOfYear
   fullName: SuperOffice.Util.DateUtility.GetStartOfYear
-- uid: System.DateTime.Kind
-  commentId: P:System.DateTime.Kind
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime.kind
-  name: Kind
-  nameWithType: DateTime.Kind
-  fullName: System.DateTime.Kind
-  nameWithType.vb: Date.Kind
-  fullName.vb: Date.Kind
 - uid: SuperOffice.Util.DateUtility.DropFractionsOfSecond*
   commentId: Overload:SuperOffice.Util.DateUtility.DropFractionsOfSecond
   isExternal: true
-  href: SuperOffice.Util.DateUtility.html#SuperOffice_Util_DateUtility_DropFractionsOfSecond_System_DateTime_System_Nullable_System_DateTimeKind__
   name: DropFractionsOfSecond
   nameWithType: DateUtility.DropFractionsOfSecond
   fullName: SuperOffice.Util.DateUtility.DropFractionsOfSecond
 - uid: System.Nullable{System.DateTimeKind}
-  commentId: T:System.Nullable{System.DateTimeKind}
-  parent: System
+  commentId: '!:System.Nullable{System.DateTimeKind}'
   definition: System.Nullable`1
-  href: https://learn.microsoft.com/dotnet/api/system.datetimekind
-  name: DateTimeKind?
-  nameWithType: DateTimeKind?
-  fullName: System.DateTimeKind?
-  spec.csharp:
-  - uid: System.DateTimeKind
-    name: DateTimeKind
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.datetimekind
-  - name: '?'
-  spec.vb:
-  - uid: System.DateTimeKind
-    name: DateTimeKind
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.datetimekind
-  - name: '?'
-- uid: System.Nullable`1
-  commentId: T:System.Nullable`1
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
-  name: Nullable<T>
-  nameWithType: Nullable<T>
-  fullName: System.Nullable<T>
-  nameWithType.vb: Nullable(Of T)
-  fullName.vb: System.Nullable(Of T)
-  name.vb: Nullable(Of T)
+  name: Nullable<DateTimeKind>
+  nameWithType: Nullable<DateTimeKind>
+  fullName: System.Nullable<System.DateTimeKind>
+  nameWithType.vb: Nullable(Of DateTimeKind)
+  fullName.vb: System.Nullable(Of System.DateTimeKind)
+  name.vb: Nullable(Of DateTimeKind)
   spec.csharp:
   - uid: System.Nullable`1
     name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
   - name: <
-  - name: T
+    nameWithType: <
+    fullName: <
+  - uid: System.DateTimeKind
+    name: DateTimeKind
+    nameWithType: DateTimeKind
+    fullName: System.DateTimeKind
+    isExternal: true
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Nullable`1
     name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.DateTimeKind
+    name: DateTimeKind
+    nameWithType: DateTimeKind
+    fullName: System.DateTimeKind
+    isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.DateUtility.Earliest*
   commentId: Overload:SuperOffice.Util.DateUtility.Earliest
   isExternal: true
-  href: SuperOffice.Util.DateUtility.html#SuperOffice_Util_DateUtility_Earliest_System_DateTime___
   name: Earliest
   nameWithType: DateUtility.Earliest
   fullName: SuperOffice.Util.DateUtility.Earliest
 - uid: System.DateTime[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime[]
   nameWithType: DateTime[]
   fullName: System.DateTime[]
-  nameWithType.vb: Date()
-  fullName.vb: Date()
-  name.vb: Date()
+  nameWithType.vb: DateTime()
+  fullName.vb: System.DateTime()
+  name.vb: DateTime()
   spec.csharp:
   - uid: System.DateTime
     name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.datetime
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.DateTime
-    name: Date
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.datetime
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.Util.DateUtility.Latest*
   commentId: Overload:SuperOffice.Util.DateUtility.Latest
   isExternal: true
-  href: SuperOffice.Util.DateUtility.html#SuperOffice_Util_DateUtility_Latest_System_DateTime___
   name: Latest
   nameWithType: DateUtility.Latest
   fullName: SuperOffice.Util.DateUtility.Latest
 - uid: SuperOffice.Util.DateUtility.CloseEnoughTo*
   commentId: Overload:SuperOffice.Util.DateUtility.CloseEnoughTo
   isExternal: true
-  href: SuperOffice.Util.DateUtility.html#SuperOffice_Util_DateUtility_CloseEnoughTo_System_DateTime_System_DateTime_System_Int32_
   name: CloseEnoughTo
   nameWithType: DateUtility.CloseEnoughTo
   fullName: SuperOffice.Util.DateUtility.CloseEnoughTo
 - uid: SuperOffice.Util.DateUtility.SetTime*
   commentId: Overload:SuperOffice.Util.DateUtility.SetTime
   isExternal: true
-  href: SuperOffice.Util.DateUtility.html#SuperOffice_Util_DateUtility_SetTime_System_DateTime_System_Int32_System_Int32_System_Int32_System_Int32_
   name: SetTime
   nameWithType: DateUtility.SetTime
   fullName: SuperOffice.Util.DateUtility.SetTime
 - uid: SuperOffice.Util.DateUtility.CalcSeconds*
   commentId: Overload:SuperOffice.Util.DateUtility.CalcSeconds
   isExternal: true
-  href: SuperOffice.Util.DateUtility.html#SuperOffice_Util_DateUtility_CalcSeconds_System_DateTime_
   name: CalcSeconds
   nameWithType: DateUtility.CalcSeconds
   fullName: SuperOffice.Util.DateUtility.CalcSeconds
 - uid: SuperOffice.Util.DateUtility.ToMinutes*
   commentId: Overload:SuperOffice.Util.DateUtility.ToMinutes
   isExternal: true
-  href: SuperOffice.Util.DateUtility.html#SuperOffice_Util_DateUtility_ToMinutes_System_TimeSpan_
   name: ToMinutes
   nameWithType: DateUtility.ToMinutes
   fullName: SuperOffice.Util.DateUtility.ToMinutes
 - uid: System.TimeSpan
-  commentId: T:System.TimeSpan
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.timespan
   name: TimeSpan
   nameWithType: TimeSpan
   fullName: System.TimeSpan
@@ -1549,10 +1454,6 @@ references:
   commentId: T:System.Double
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.double
-  name: double
-  nameWithType: double
-  fullName: double
-  nameWithType.vb: Double
-  fullName.vb: Double
-  name.vb: Double
+  name: Double
+  nameWithType: Double
+  fullName: System.Double

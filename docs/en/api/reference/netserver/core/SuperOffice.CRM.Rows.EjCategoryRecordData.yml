@@ -27,41 +27,33 @@ items:
   nameWithType: EjCategoryRecordData
   fullName: SuperOffice.CRM.Rows.EjCategoryRecordData
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: >-
-    POCO (Plain Old CLR Object) class that can be used to hold data corresponding
-
-    to a row from the ej_category table.
-  remarks: >-
-    Please use this class instead of a full <xref href="SuperOffice.CRM.Rows.EjCategoryRow" data-throw-if-not-resolved="false"></xref> object when
-
-    you do not need to <b>create or update</b> a value in the database. Row objects have a large overhead
-
-    since they carry the corresponding <xref href="SuperOffice.CRM.Data.EjCategoryTableInfo" data-throw-if-not-resolved="false"></xref> object, which
-
-    in turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.
-  example: []
+  summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the ej_category table.\n"
+  remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.EjCategoryRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.EjCategoryTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
   syntax:
-    content: public class EjCategoryRecordData
-    content.vb: Public Class EjCategoryRecordData
+    content: 'public class EjCategoryRecordData : Object'
+    content.vb: >-
+      Public Class EjCategoryRecordData
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Rows.EjCategoryRecordData.EnumUtil.MapEnums``2
-  - SuperOffice.CRM.Rows.EjCategoryRecordData.SuperOffice.CRM.Rows.EjCategoryRecordDataExtensions.ToInsert
-  - SuperOffice.CRM.Rows.EjCategoryRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.CRM.Rows.EjCategoryRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.EjCategoryRecordData)
   - SuperOffice.CRM.Rows.EjCategoryRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Rows.EjCategoryRecordData.SuperOffice.CRM.Rows.EjCategoryRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.EjCategoryRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Rows.EjCategoryRecordData.EjCategoryId
   commentId: F:SuperOffice.CRM.Rows.EjCategoryRecordData.EjCategoryId
   id: EjCategoryId
@@ -73,16 +65,22 @@ items:
   nameWithType: EjCategoryRecordData.EjCategoryId
   fullName: SuperOffice.CRM.Rows.EjCategoryRecordData.EjCategoryId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: The primary key (auto-incremented)
-  example: []
+  summary: "\nThe primary key (auto-incremented) \n"
   syntax:
     content: public int EjCategoryId
     return:
       type: System.Int32
     content.vb: Public EjCategoryId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.EjCategoryRecordData.ParentId
   commentId: F:SuperOffice.CRM.Rows.EjCategoryRecordData.ParentId
   id: ParentId
@@ -94,16 +92,22 @@ items:
   nameWithType: EjCategoryRecordData.ParentId
   fullName: SuperOffice.CRM.Rows.EjCategoryRecordData.ParentId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: The parent category for this category. -1 if this is a toplevel category.
-  example: []
+  summary: "\nThe parent category for this category. -1 if this is a toplevel category. \n"
   syntax:
     content: public int ParentId
     return:
       type: System.Int32
     content.vb: Public ParentId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.EjCategoryRecordData.Name
   commentId: F:SuperOffice.CRM.Rows.EjCategoryRecordData.Name
   id: Name
@@ -115,16 +119,22 @@ items:
   nameWithType: EjCategoryRecordData.Name
   fullName: SuperOffice.CRM.Rows.EjCategoryRecordData.Name
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: The (short) name of this category. E.g. 'support'.
-  example: []
+  summary: "\nThe (short) name of this category. E.g. &apos;support&apos;. \n"
   syntax:
     content: public string Name
     return:
       type: System.String
     content.vb: Public Name As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.EjCategoryRecordData.CategoryMaster
   commentId: F:SuperOffice.CRM.Rows.EjCategoryRecordData.CategoryMaster
   id: CategoryMaster
@@ -136,16 +146,22 @@ items:
   nameWithType: EjCategoryRecordData.CategoryMaster
   fullName: SuperOffice.CRM.Rows.EjCategoryRecordData.CategoryMaster
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: The user associated with this category.
-  example: []
+  summary: "\nThe user associated with this category. \n"
   syntax:
     content: public int CategoryMaster
     return:
       type: System.Int32
     content.vb: Public CategoryMaster As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.EjCategoryRecordData.Fullname
   commentId: F:SuperOffice.CRM.Rows.EjCategoryRecordData.Fullname
   id: Fullname
@@ -157,16 +173,22 @@ items:
   nameWithType: EjCategoryRecordData.Fullname
   fullName: SuperOffice.CRM.Rows.EjCategoryRecordData.Fullname
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: The fullname (compiled from parents' names) for this category. E.g. 'norway/product A/support'.
-  example: []
+  summary: "\nThe fullname (compiled from parents&apos; names) for this category. E.g. &apos;norway/product A/support&apos;. \n"
   syntax:
     content: public string Fullname
     return:
       type: System.String
     content.vb: Public Fullname As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.EjCategoryRecordData.Flags
   commentId: F:SuperOffice.CRM.Rows.EjCategoryRecordData.Flags
   id: Flags
@@ -178,16 +200,22 @@ items:
   nameWithType: EjCategoryRecordData.Flags
   fullName: SuperOffice.CRM.Rows.EjCategoryRecordData.Flags
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: A bitmask representing flags for this category.
-  example: []
+  summary: "\nA bitmask representing flags for this category. \n"
   syntax:
     content: public TicketCategoryFlags Flags
     return:
       type: SuperOffice.Data.TicketCategoryFlags
     content.vb: Public Flags As TicketCategoryFlags
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.EjCategoryRecordData.DelegateMethod
   commentId: F:SuperOffice.CRM.Rows.EjCategoryRecordData.DelegateMethod
   id: DelegateMethod
@@ -199,16 +227,22 @@ items:
   nameWithType: EjCategoryRecordData.DelegateMethod
   fullName: SuperOffice.CRM.Rows.EjCategoryRecordData.DelegateMethod
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: An integer indicating the delegation method for this category.
-  example: []
+  summary: "\nAn integer indicating the delegation method for this category. \n"
   syntax:
     content: public TicketCategoryDelegateMethod DelegateMethod
     return:
       type: SuperOffice.Data.TicketCategoryDelegateMethod
     content.vb: Public DelegateMethod As TicketCategoryDelegateMethod
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.EjCategoryRecordData.DelegateCounter
   commentId: F:SuperOffice.CRM.Rows.EjCategoryRecordData.DelegateCounter
   id: DelegateCounter
@@ -220,16 +254,22 @@ items:
   nameWithType: EjCategoryRecordData.DelegateCounter
   fullName: SuperOffice.CRM.Rows.EjCategoryRecordData.DelegateCounter
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: A delegate counter, incremented by 1 for every delegation
-  example: []
+  summary: "\nA delegate counter, incremented by 1 for every delegation \n"
   syntax:
     content: public int DelegateCounter
     return:
       type: System.Int32
     content.vb: Public DelegateCounter As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.EjCategoryRecordData.ExternalName
   commentId: F:SuperOffice.CRM.Rows.EjCategoryRecordData.ExternalName
   id: ExternalName
@@ -241,16 +281,22 @@ items:
   nameWithType: EjCategoryRecordData.ExternalName
   fullName: SuperOffice.CRM.Rows.EjCategoryRecordData.ExternalName
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: The external name for this category, used for the customer frontend.
-  example: []
+  summary: "\nThe external name for this category, used for the customer frontend. \n"
   syntax:
     content: public string ExternalName
     return:
       type: System.String
     content.vb: Public ExternalName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.EjCategoryRecordData.AssignmentLag
   commentId: F:SuperOffice.CRM.Rows.EjCategoryRecordData.AssignmentLag
   id: AssignmentLag
@@ -262,16 +308,22 @@ items:
   nameWithType: EjCategoryRecordData.AssignmentLag
   fullName: SuperOffice.CRM.Rows.EjCategoryRecordData.AssignmentLag
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Number of minutes we shall override the assignment if a customer sends consecutive messages to this category
-  example: []
+  summary: "\nNumber of minutes we shall override the assignment if a customer sends consecutive messages to this category \n"
   syntax:
     content: public int AssignmentLag
     return:
       type: System.Int32
     content.vb: Public AssignmentLag As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.EjCategoryRecordData.ReplyTemplate
   commentId: F:SuperOffice.CRM.Rows.EjCategoryRecordData.ReplyTemplate
   id: ReplyTemplate
@@ -283,16 +335,22 @@ items:
   nameWithType: EjCategoryRecordData.ReplyTemplate
   fullName: SuperOffice.CRM.Rows.EjCategoryRecordData.ReplyTemplate
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Reply template to merge with messages posted in this category
-  example: []
+  summary: "\nReply template to merge with messages posted in this category \n"
   syntax:
     content: public int ReplyTemplate
     return:
       type: System.Int32
     content.vb: Public ReplyTemplate As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.EjCategoryRecordData.NotificationEmail
   commentId: F:SuperOffice.CRM.Rows.EjCategoryRecordData.NotificationEmail
   id: NotificationEmail
@@ -304,16 +362,22 @@ items:
   nameWithType: EjCategoryRecordData.NotificationEmail
   fullName: SuperOffice.CRM.Rows.EjCategoryRecordData.NotificationEmail
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Comma separated list of addresses to notify when requests are redelegated to (unassigned) in this category.
-  example: []
+  summary: "\nComma separated list of addresses to notify when requests are redelegated to (unassigned) in this category. \n"
   syntax:
     content: public string NotificationEmail
     return:
       type: System.String
     content.vb: Public NotificationEmail As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.EjCategoryRecordData.ClosingStatus
   commentId: F:SuperOffice.CRM.Rows.EjCategoryRecordData.ClosingStatus
   id: ClosingStatus
@@ -325,16 +389,22 @@ items:
   nameWithType: EjCategoryRecordData.ClosingStatus
   fullName: SuperOffice.CRM.Rows.EjCategoryRecordData.ClosingStatus
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Default status for new tickets, if 0 then there is a fallback to a user-dependent value
-  example: []
+  summary: "\nDefault status for new tickets, if 0 then there is a fallback to a user-dependent value \n"
   syntax:
     content: public int ClosingStatus
     return:
       type: System.Int32
     content.vb: Public ClosingStatus As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.EjCategoryRecordData.MsgClosingStatus
   commentId: F:SuperOffice.CRM.Rows.EjCategoryRecordData.MsgClosingStatus
   id: MsgClosingStatus
@@ -346,16 +416,22 @@ items:
   nameWithType: EjCategoryRecordData.MsgClosingStatus
   fullName: SuperOffice.CRM.Rows.EjCategoryRecordData.MsgClosingStatus
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Default status for new messages, if 0 then there is a fallback to a user-dependent value
-  example: []
+  summary: "\nDefault status for new messages, if 0 then there is a fallback to a user-dependent value \n"
   syntax:
     content: public int MsgClosingStatus
     return:
       type: System.Int32
     content.vb: Public MsgClosingStatus As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.EjCategoryRecordData.#ctor
   commentId: M:SuperOffice.CRM.Rows.EjCategoryRecordData.#ctor
   id: '#ctor'
@@ -367,590 +443,220 @@ items:
   nameWithType: EjCategoryRecordData.EjCategoryRecordData()
   fullName: SuperOffice.CRM.Rows.EjCategoryRecordData.EjCategoryRecordData()
   type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
     content: public EjCategoryRecordData()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Rows.EjCategoryRecordData.#ctor*
-  nameWithType.vb: EjCategoryRecordData.New()
-  fullName.vb: SuperOffice.CRM.Rows.EjCategoryRecordData.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 references:
-- uid: SuperOffice.CRM.Rows.EjCategoryRow
-  commentId: T:SuperOffice.CRM.Rows.EjCategoryRow
-  parent: SuperOffice.CRM.Rows
-  isExternal: true
-  href: SuperOffice.CRM.Rows.EjCategoryRow.html
-  name: EjCategoryRow
-  nameWithType: EjCategoryRow
-  fullName: SuperOffice.CRM.Rows.EjCategoryRow
-- uid: SuperOffice.CRM.Data.EjCategoryTableInfo
-  commentId: T:SuperOffice.CRM.Data.EjCategoryTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.EjCategoryTableInfo.html
-  name: EjCategoryTableInfo
-  nameWithType: EjCategoryTableInfo
-  fullName: SuperOffice.CRM.Data.EjCategoryTableInfo
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows
-    name: Rows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows
-    name: Rows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.Rows.EjCategoryRecordData.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<EjCategoryRecordData, To>(EjCategoryRecordData)
-  nameWithType: EnumUtil.MapEnums<EjCategoryRecordData, To>(EjCategoryRecordData)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.EjCategoryRecordData, To>(SuperOffice.CRM.Rows.EjCategoryRecordData)
-  nameWithType.vb: EnumUtil.MapEnums(Of EjCategoryRecordData, To)(EjCategoryRecordData)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.EjCategoryRecordData, To)(SuperOffice.CRM.Rows.EjCategoryRecordData)
-  name.vb: MapEnums(Of EjCategoryRecordData, To)(EjCategoryRecordData)
+  name: MapEnums<EjCategoryRecordData, To>()
+  nameWithType: EnumUtil.MapEnums<EjCategoryRecordData, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.EjCategoryRecordData, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of EjCategoryRecordData, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.EjCategoryRecordData, To)()
+  name.vb: MapEnums(Of EjCategoryRecordData, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Rows.EjCategoryRecordData)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<EjCategoryRecordData, To>
+    nameWithType: EnumUtil.MapEnums<EjCategoryRecordData, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.EjCategoryRecordData, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.EjCategoryRecordData
-    name: EjCategoryRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.EjCategoryRecordData.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Rows.EjCategoryRecordData
-    name: EjCategoryRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.EjCategoryRecordData.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Rows.EjCategoryRecordData)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of EjCategoryRecordData, To)
+    nameWithType: EnumUtil.MapEnums(Of EjCategoryRecordData, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.EjCategoryRecordData, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.EjCategoryRecordData
-    name: EjCategoryRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.EjCategoryRecordData.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.EjCategoryRecordData
-    name: EjCategoryRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.EjCategoryRecordData.html
-  - name: )
-- uid: SuperOffice.CRM.Rows.EjCategoryRecordData.SuperOffice.CRM.Rows.EjCategoryRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.EjCategoryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EjCategoryRecordData)
-  parent: SuperOffice.CRM.Rows.EjCategoryRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.EjCategoryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EjCategoryRecordData)
-  href: SuperOffice.CRM.Rows.EjCategoryRecordDataExtensions.html#SuperOffice_CRM_Rows_EjCategoryRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_EjCategoryRecordData_
-  name: ToInsert(EjCategoryRecordData)
-  nameWithType: EjCategoryRecordDataExtensions.ToInsert(EjCategoryRecordData)
-  fullName: SuperOffice.CRM.Rows.EjCategoryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EjCategoryRecordData)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.EjCategoryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EjCategoryRecordData)
-    name: ToInsert
-    isExternal: true
-    href: SuperOffice.CRM.Rows.EjCategoryRecordDataExtensions.html#SuperOffice_CRM_Rows_EjCategoryRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_EjCategoryRecordData_
-  - name: (
-  - uid: SuperOffice.CRM.Rows.EjCategoryRecordData
-    name: EjCategoryRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.EjCategoryRecordData.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.EjCategoryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EjCategoryRecordData)
-    name: ToInsert
-    isExternal: true
-    href: SuperOffice.CRM.Rows.EjCategoryRecordDataExtensions.html#SuperOffice_CRM_Rows_EjCategoryRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_EjCategoryRecordData_
-  - name: (
-  - uid: SuperOffice.CRM.Rows.EjCategoryRecordData
-    name: EjCategoryRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.EjCategoryRecordData.html
-  - name: )
-- uid: SuperOffice.CRM.Rows.EjCategoryRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  parent: SuperOffice.ErpSync.ConnectorWS.Converters
-  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<EjCategoryRecordData, To>(EjCategoryRecordData)
-  nameWithType: Converters.MapEnums<EjCategoryRecordData, To>(EjCategoryRecordData)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.EjCategoryRecordData, To>(SuperOffice.CRM.Rows.EjCategoryRecordData)
-  nameWithType.vb: Converters.MapEnums(Of EjCategoryRecordData, To)(EjCategoryRecordData)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.EjCategoryRecordData, To)(SuperOffice.CRM.Rows.EjCategoryRecordData)
-  name.vb: MapEnums(Of EjCategoryRecordData, To)(EjCategoryRecordData)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Rows.EjCategoryRecordData)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.EjCategoryRecordData
-    name: EjCategoryRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.EjCategoryRecordData.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.CRM.Rows.EjCategoryRecordData
-    name: EjCategoryRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.EjCategoryRecordData.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Rows.EjCategoryRecordData)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.EjCategoryRecordData
-    name: EjCategoryRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.EjCategoryRecordData.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.EjCategoryRecordData
-    name: EjCategoryRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.EjCategoryRecordData.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.EjCategoryRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.EjCategoryRecordData)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<EjCategoryRecordData>(EjCategoryRecordData, EjCategoryRecordData)
-  nameWithType: ObjectExtensions.AssignByReflection<EjCategoryRecordData>(EjCategoryRecordData, EjCategoryRecordData)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.EjCategoryRecordData>(SuperOffice.CRM.Rows.EjCategoryRecordData, SuperOffice.CRM.Rows.EjCategoryRecordData)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of EjCategoryRecordData)(EjCategoryRecordData, EjCategoryRecordData)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.EjCategoryRecordData)(SuperOffice.CRM.Rows.EjCategoryRecordData, SuperOffice.CRM.Rows.EjCategoryRecordData)
-  name.vb: AssignByReflection(Of EjCategoryRecordData)(EjCategoryRecordData, EjCategoryRecordData)
+  name: AssignByReflection<EjCategoryRecordData>(EjCategoryRecordData)
+  nameWithType: ObjectExtensions.AssignByReflection<EjCategoryRecordData>(EjCategoryRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.EjCategoryRecordData>(SuperOffice.CRM.Rows.EjCategoryRecordData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of EjCategoryRecordData)(EjCategoryRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.EjCategoryRecordData)(SuperOffice.CRM.Rows.EjCategoryRecordData)
+  name.vb: AssignByReflection(Of EjCategoryRecordData)(EjCategoryRecordData)
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.EjCategoryRecordData,SuperOffice.CRM.Rows.EjCategoryRecordData)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<EjCategoryRecordData>
+    nameWithType: ObjectExtensions.AssignByReflection<EjCategoryRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.EjCategoryRecordData>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.EjCategoryRecordData
-    name: EjCategoryRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.EjCategoryRecordData.html
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Rows.EjCategoryRecordData
     name: EjCategoryRecordData
+    nameWithType: EjCategoryRecordData
+    fullName: SuperOffice.CRM.Rows.EjCategoryRecordData
     isExternal: true
-    href: SuperOffice.CRM.Rows.EjCategoryRecordData.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.EjCategoryRecordData
-    name: EjCategoryRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.EjCategoryRecordData.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.EjCategoryRecordData,SuperOffice.CRM.Rows.EjCategoryRecordData)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of EjCategoryRecordData)
+    nameWithType: ObjectExtensions.AssignByReflection(Of EjCategoryRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.EjCategoryRecordData)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Rows.EjCategoryRecordData
     name: EjCategoryRecordData
+    nameWithType: EjCategoryRecordData
+    fullName: SuperOffice.CRM.Rows.EjCategoryRecordData
     isExternal: true
-    href: SuperOffice.CRM.Rows.EjCategoryRecordData.html
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.EjCategoryRecordData
-    name: EjCategoryRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.EjCategoryRecordData.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.EjCategoryRecordData
-    name: EjCategoryRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.EjCategoryRecordData.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.EjCategoryRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<EjCategoryRecordData>(EjCategoryRecordData)
-  nameWithType: ObjectExtensions.GraphCopy<EjCategoryRecordData>(EjCategoryRecordData)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.EjCategoryRecordData>(SuperOffice.CRM.Rows.EjCategoryRecordData)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of EjCategoryRecordData)(EjCategoryRecordData)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.EjCategoryRecordData)(SuperOffice.CRM.Rows.EjCategoryRecordData)
-  name.vb: GraphCopy(Of EjCategoryRecordData)(EjCategoryRecordData)
+  name: GraphCopy<EjCategoryRecordData>()
+  nameWithType: ObjectExtensions.GraphCopy<EjCategoryRecordData>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.EjCategoryRecordData>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of EjCategoryRecordData)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.EjCategoryRecordData)()
+  name.vb: GraphCopy(Of EjCategoryRecordData)()
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Rows.EjCategoryRecordData)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<EjCategoryRecordData>
+    nameWithType: ObjectExtensions.GraphCopy<EjCategoryRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.EjCategoryRecordData>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.EjCategoryRecordData
-    name: EjCategoryRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.EjCategoryRecordData.html
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Rows.EjCategoryRecordData
-    name: EjCategoryRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.EjCategoryRecordData.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Rows.EjCategoryRecordData)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of EjCategoryRecordData)
+    nameWithType: ObjectExtensions.GraphCopy(Of EjCategoryRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.EjCategoryRecordData)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.EjCategoryRecordData
-    name: EjCategoryRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.EjCategoryRecordData.html
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.EjCategoryRecordData
-    name: EjCategoryRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.EjCategoryRecordData.html
-  - name: )
-- uid: SuperOffice.CRM.Data
-  commentId: N:SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM.Data
-  nameWithType: SuperOffice.CRM.Data
-  fullName: SuperOffice.CRM.Data
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.EjCategoryRecordData.SuperOffice.CRM.Rows.EjCategoryRecordDataExtensions.ToInsert
+  commentId: M:SuperOffice.CRM.Rows.EjCategoryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EjCategoryRecordData)
+  parent: SuperOffice.CRM.Rows.EjCategoryRecordDataExtensions
+  definition: SuperOffice.CRM.Rows.EjCategoryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EjCategoryRecordData)
+  name: ToInsert()
+  nameWithType: EjCategoryRecordDataExtensions.ToInsert()
+  fullName: SuperOffice.CRM.Rows.EjCategoryRecordDataExtensions.ToInsert()
   spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.CRM.Rows.EjCategoryRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: EjCategoryRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.EjCategoryRecordDataExtensions.ToInsert
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.CRM.Data.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.CRM.Rows.EjCategoryRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: EjCategoryRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.EjCategoryRecordDataExtensions.ToInsert
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.EjCategoryRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<EjCategoryRecordData, To>()
+  nameWithType: Converters.MapEnums<EjCategoryRecordData, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.EjCategoryRecordData, To>()
+  nameWithType.vb: Converters.MapEnums(Of EjCategoryRecordData, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.EjCategoryRecordData, To)()
+  name.vb: MapEnums(Of EjCategoryRecordData, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<EjCategoryRecordData, To>
+    nameWithType: Converters.MapEnums<EjCategoryRecordData, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.EjCategoryRecordData, To>
     isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of EjCategoryRecordData, To)
+    nameWithType: Converters.MapEnums(Of EjCategoryRecordData, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.EjCategoryRecordData, To)
     isExternal: true
-    href: SuperOffice.CRM.Data.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -959,130 +665,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.CRM.Rows.EjCategoryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EjCategoryRecordData)
-  commentId: M:SuperOffice.CRM.Rows.EjCategoryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EjCategoryRecordData)
-  isExternal: true
-  href: SuperOffice.CRM.Rows.EjCategoryRecordDataExtensions.html#SuperOffice_CRM_Rows_EjCategoryRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_EjCategoryRecordData_
-  name: ToInsert(EjCategoryRecordData)
-  nameWithType: EjCategoryRecordDataExtensions.ToInsert(EjCategoryRecordData)
-  fullName: SuperOffice.CRM.Rows.EjCategoryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EjCategoryRecordData)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.EjCategoryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EjCategoryRecordData)
-    name: ToInsert
-    isExternal: true
-    href: SuperOffice.CRM.Rows.EjCategoryRecordDataExtensions.html#SuperOffice_CRM_Rows_EjCategoryRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_EjCategoryRecordData_
-  - name: (
-  - uid: SuperOffice.CRM.Rows.EjCategoryRecordData
-    name: EjCategoryRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.EjCategoryRecordData.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.EjCategoryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EjCategoryRecordData)
-    name: ToInsert
-    isExternal: true
-    href: SuperOffice.CRM.Rows.EjCategoryRecordDataExtensions.html#SuperOffice_CRM_Rows_EjCategoryRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_EjCategoryRecordData_
-  - name: (
-  - uid: SuperOffice.CRM.Rows.EjCategoryRecordData
-    name: EjCategoryRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.EjCategoryRecordData.html
-  - name: )
-- uid: SuperOffice.CRM.Rows.EjCategoryRecordDataExtensions
-  commentId: T:SuperOffice.CRM.Rows.EjCategoryRecordDataExtensions
-  parent: SuperOffice.CRM.Rows
-  isExternal: true
-  href: SuperOffice.CRM.Rows.EjCategoryRecordDataExtensions.html
-  name: EjCategoryRecordDataExtensions
-  nameWithType: EjCategoryRecordDataExtensions
-  fullName: SuperOffice.CRM.Rows.EjCategoryRecordDataExtensions
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<From, To>(From)
-  nameWithType: Converters.MapEnums<From, To>(From)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
-  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
-  name.vb: MapEnums(Of From, To)(From)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - name: From
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - name: From
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters
-  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
-  parent: SuperOffice.ErpSync.ConnectorWS
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
-  name: Converters
-  nameWithType: Converters
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   name: AssignByReflection<T>(T, T)
   nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
   fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
@@ -1091,46 +710,56 @@ references:
   name.vb: AssignByReflection(Of T)(T, T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
-  - name: ','
-  - name: " "
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.ObjectExtensions
   commentId: T:SuperOffice.Util.ObjectExtensions
   parent: SuperOffice.Util
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
   name: ObjectExtensions
   nameWithType: ObjectExtensions
   fullName: SuperOffice.Util.ObjectExtensions
 - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   name: GraphCopy<T>(T)
   nameWithType: ObjectExtensions.GraphCopy<T>(T)
   fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
@@ -1139,164 +768,176 @@ references:
   name.vb: GraphCopy(Of T)(T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS
-  commentId: N:SuperOffice.ErpSync.ConnectorWS
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.EjCategoryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EjCategoryRecordData)
+  commentId: M:SuperOffice.CRM.Rows.EjCategoryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EjCategoryRecordData)
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.ErpSync.ConnectorWS
-  nameWithType: SuperOffice.ErpSync.ConnectorWS
-  fullName: SuperOffice.ErpSync.ConnectorWS
+  name: ToInsert(EjCategoryRecordData)
+  nameWithType: EjCategoryRecordDataExtensions.ToInsert(EjCategoryRecordData)
+  fullName: SuperOffice.CRM.Rows.EjCategoryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EjCategoryRecordData)
   spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.CRM.Rows.EjCategoryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EjCategoryRecordData)
+    name: ToInsert
+    nameWithType: EjCategoryRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.EjCategoryRecordDataExtensions.ToInsert
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.EjCategoryRecordData
+    name: EjCategoryRecordData
+    nameWithType: EjCategoryRecordData
+    fullName: SuperOffice.CRM.Rows.EjCategoryRecordData
     isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.CRM.Rows.EjCategoryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.EjCategoryRecordData)
+    name: ToInsert
+    nameWithType: EjCategoryRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.EjCategoryRecordDataExtensions.ToInsert
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.EjCategoryRecordData
+    name: EjCategoryRecordData
+    nameWithType: EjCategoryRecordData
+    fullName: SuperOffice.CRM.Rows.EjCategoryRecordData
     isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.EjCategoryRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.EjCategoryRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: EjCategoryRecordDataExtensions
+  nameWithType: EjCategoryRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.EjCategoryRecordDataExtensions
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.Data.TicketCategoryFlags
   commentId: T:SuperOffice.Data.TicketCategoryFlags
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.TicketCategoryFlags.html
   name: TicketCategoryFlags
   nameWithType: TicketCategoryFlags
   fullName: SuperOffice.Data.TicketCategoryFlags
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
 - uid: SuperOffice.Data.TicketCategoryDelegateMethod
   commentId: T:SuperOffice.Data.TicketCategoryDelegateMethod
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.TicketCategoryDelegateMethod.html
   name: TicketCategoryDelegateMethod
   nameWithType: TicketCategoryDelegateMethod
   fullName: SuperOffice.Data.TicketCategoryDelegateMethod
 - uid: SuperOffice.CRM.Rows.EjCategoryRecordData.#ctor*
   commentId: Overload:SuperOffice.CRM.Rows.EjCategoryRecordData.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Rows.EjCategoryRecordData.html#SuperOffice_CRM_Rows_EjCategoryRecordData__ctor
   name: EjCategoryRecordData
   nameWithType: EjCategoryRecordData.EjCategoryRecordData
   fullName: SuperOffice.CRM.Rows.EjCategoryRecordData.EjCategoryRecordData
-  nameWithType.vb: EjCategoryRecordData.New
-  fullName.vb: SuperOffice.CRM.Rows.EjCategoryRecordData.New
-  name.vb: New

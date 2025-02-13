@@ -17,23 +17,18 @@ items:
   nameWithType: ActivityInformationListItem
   fullName: SuperOffice.CRM.Services.ActivityInformationListItem
   type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Carrier object for ActivityInformationListItem.
-
-    Services for the ActivityInformationListItem Carrier is available from the <xref href="SuperOffice.CRM.Services.IAppointmentAgent?text=Appointment+Agent" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nCarrier object for ActivityInformationListItem.\nServices for the ActivityInformationListItem Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IAppointmentAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public class ActivityInformationListItem : Carrier
+    content: 'public class ActivityInformationListItem : Carrier'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
-
-      Public Class ActivityInformationListItem Inherits Carrier
+      Public Class ActivityInformationListItem
+          Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.AppointmentAgent
     commentId: T:SuperOffice.CRM.Services.AppointmentAgent
@@ -41,14 +36,12 @@ items:
     commentId: T:SuperOffice.CRM.Services.IAppointmentAgent
   inheritance:
   - System.Object
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.ActivityInformationListItem.#ctor
   commentId: M:SuperOffice.CRM.Services.ActivityInformationListItem.#ctor
   id: '#ctor'
@@ -60,18 +53,21 @@ items:
   nameWithType: ActivityInformationListItem.ActivityInformationListItem()
   fullName: SuperOffice.CRM.Services.ActivityInformationListItem.ActivityInformationListItem()
   type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Default constructor
-  example: []
+  summary: "\nDefault constructor\n"
   syntax:
     content: public ActivityInformationListItem()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.ActivityInformationListItem.#ctor*
-  nameWithType.vb: ActivityInformationListItem.New()
-  fullName.vb: SuperOffice.CRM.Services.ActivityInformationListItem.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.ActivityInformationListItem.ToString
   commentId: M:SuperOffice.CRM.Services.ActivityInformationListItem.ToString
   id: ToString
@@ -83,18 +79,26 @@ items:
   nameWithType: ActivityInformationListItem.ToString()
   fullName: SuperOffice.CRM.Services.ActivityInformationListItem.ToString()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the carrier contents as a formatted string.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string.\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString() As String
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.CRM.Services.ActivityInformationListItem.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Services.ActivityInformationListItem.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.ActivityInformationListItem.ToString(System.String)
   id: ToString(System.String)
@@ -102,18 +106,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(string)
-  nameWithType: ActivityInformationListItem.ToString(string)
-  fullName: SuperOffice.CRM.Services.ActivityInformationListItem.ToString(string)
+  name: ToString(String)
+  nameWithType: ActivityInformationListItem.ToString(String)
+  fullName: SuperOffice.CRM.Services.ActivityInformationListItem.ToString(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Returns the carrier contents as a formatted string, useful for debugging.
-
-    Each line in the output is prefixed with the input value.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -125,9 +128,10 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.ActivityInformationListItem.ToString*
-  nameWithType.vb: ActivityInformationListItem.ToString(String)
-  fullName.vb: SuperOffice.CRM.Services.ActivityInformationListItem.ToString(String)
-  name.vb: ToString(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.ActivityInformationListItem.Date
   commentId: P:SuperOffice.CRM.Services.ActivityInformationListItem.Date
   id: Date
@@ -139,28 +143,28 @@ items:
   nameWithType: ActivityInformationListItem.Date
   fullName: SuperOffice.CRM.Services.ActivityInformationListItem.Date
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Date that this item is valid for; there is exactly one item per date, ordered by date.
-  example: []
+  summary: "\nDate that this item is valid for; there is exactly one item per date, ordered by date. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual DateTime Date { get; set; }
+    content: public virtual DateTime Date { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property [Date] As Date
+    content.vb: Public Overridable Property Date As DateTime
   overload: SuperOffice.CRM.Services.ActivityInformationListItem.Date*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ActivityInformationListItem.ActivityInformation
   commentId: P:SuperOffice.CRM.Services.ActivityInformationListItem.ActivityInformation
   id: ActivityInformation
@@ -172,33 +176,38 @@ items:
   nameWithType: ActivityInformationListItem.ActivityInformation
   fullName: SuperOffice.CRM.Services.ActivityInformationListItem.ActivityInformation
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Activity information summary - number of free and busy activities.
-  example: []
+  summary: "\nActivity information summary - number of free and busy activities. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual ActivitySummary ActivityInformation { get; set; }
+    content: public virtual ActivitySummary ActivityInformation { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.ActivitySummary
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ActivityInformation As ActivitySummary
+    content.vb: Public Overridable Property ActivityInformation As ActivitySummary
   overload: SuperOffice.CRM.Services.ActivityInformationListItem.ActivityInformation*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
 - uid: SuperOffice.CRM.Services.AppointmentAgent
   commentId: T:SuperOffice.CRM.Services.AppointmentAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.AppointmentAgent.html
   name: AppointmentAgent
   nameWithType: AppointmentAgent
   fullName: SuperOffice.CRM.Services.AppointmentAgent
@@ -206,79 +215,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.IAppointmentAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.IAppointmentAgent.html
   name: IAppointmentAgent
   nameWithType: IAppointmentAgent
   fullName: SuperOffice.CRM.Services.IAppointmentAgent
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.ActivityInformationListItem.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.ActivityInformationListItem.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.ActivityInformationListItem.html#SuperOffice_CRM_Services_ActivityInformationListItem__ctor
   name: ActivityInformationListItem
   nameWithType: ActivityInformationListItem.ActivityInformationListItem
   fullName: SuperOffice.CRM.Services.ActivityInformationListItem.ActivityInformationListItem
-  nameWithType.vb: ActivityInformationListItem.New
-  fullName.vb: SuperOffice.CRM.Services.ActivityInformationListItem.New
-  name.vb: New
 - uid: SuperOffice.CRM.Services.ActivityInformationListItem.ToString*
   commentId: Overload:SuperOffice.CRM.Services.ActivityInformationListItem.ToString
   isExternal: true
-  href: SuperOffice.CRM.Services.ActivityInformationListItem.html#SuperOffice_CRM_Services_ActivityInformationListItem_ToString
   name: ToString
   nameWithType: ActivityInformationListItem.ToString
   fullName: SuperOffice.CRM.Services.ActivityInformationListItem.ToString
@@ -286,35 +234,29 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.ActivityInformationListItem.Date*
   commentId: Overload:SuperOffice.CRM.Services.ActivityInformationListItem.Date
   isExternal: true
-  href: SuperOffice.CRM.Services.ActivityInformationListItem.html#SuperOffice_CRM_Services_ActivityInformationListItem_Date
   name: Date
   nameWithType: ActivityInformationListItem.Date
   fullName: SuperOffice.CRM.Services.ActivityInformationListItem.Date
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
 - uid: SuperOffice.CRM.Services.ActivityInformationListItem.ActivityInformation*
   commentId: Overload:SuperOffice.CRM.Services.ActivityInformationListItem.ActivityInformation
   isExternal: true
-  href: SuperOffice.CRM.Services.ActivityInformationListItem.html#SuperOffice_CRM_Services_ActivityInformationListItem_ActivityInformation
   name: ActivityInformation
   nameWithType: ActivityInformationListItem.ActivityInformation
   fullName: SuperOffice.CRM.Services.ActivityInformationListItem.ActivityInformation
@@ -322,7 +264,6 @@ references:
   commentId: T:SuperOffice.CRM.Services.ActivitySummary
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.ActivitySummary.html
   name: ActivitySummary
   nameWithType: ActivitySummary
   fullName: SuperOffice.CRM.Services.ActivitySummary

@@ -5,41 +5,69 @@ items:
   id: PrefDescAccessFlags
   parent: SuperOffice.WebApi.Data
   children:
+  - SuperOffice.WebApi.Data.PrefDescAccessFlags.adminGUI
   - SuperOffice.WebApi.Data.PrefDescAccessFlags.CRMGUI
   - SuperOffice.WebApi.Data.PrefDescAccessFlags.Level0
   - SuperOffice.WebApi.Data.PrefDescAccessFlags.Unknown
+  - SuperOffice.WebApi.Data.PrefDescAccessFlags.value__
   - SuperOffice.WebApi.Data.PrefDescAccessFlags.WizardMode
-  - SuperOffice.WebApi.Data.PrefDescAccessFlags.adminGUI
   langs:
   - csharp
   - vb
   name: PrefDescAccessFlags
   nameWithType: PrefDescAccessFlags
   fullName: SuperOffice.WebApi.Data.PrefDescAccessFlags
-  type: Enum
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Value for field 'accessflags' in table 'prefdesc'.
-
-    This Enum is used by:  PrefDesc.accessFlags
-
-    This Enum consists of flag values that can be combined.
-  example: []
+  summary: "\nValue for field &apos;accessflags&apos; in table &apos;prefdesc&apos;.\nThis Enum is used by:  PrefDesc.accessFlags\nThis Enum consists of flag values that can be combined.\n"
   syntax:
-    content: >-
-      [Flags]
-
-      public enum PrefDescAccessFlags : short
+    content: 'public sealed class PrefDescAccessFlags : Enum'
     content.vb: >-
-      <Flags>
+      Public NotInheritable Class PrefDescAccessFlags
+          Inherits
 
-      Public Enum PrefDescAccessFlags As Short
-  attributes:
-  - type: System.FlagsAttribute
-    ctor: System.FlagsAttribute.#ctor
-    arguments: []
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.PrefDescAccessFlags.value__
+  commentId: F:SuperOffice.WebApi.Data.PrefDescAccessFlags.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.PrefDescAccessFlags
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: PrefDescAccessFlags.value__
+  fullName: SuperOffice.WebApi.Data.PrefDescAccessFlags.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.PrefDescAccessFlags.Unknown
   commentId: F:SuperOffice.WebApi.Data.PrefDescAccessFlags.Unknown
   id: Unknown
@@ -51,15 +79,24 @@ items:
   nameWithType: PrefDescAccessFlags.Unknown
   fullName: SuperOffice.WebApi.Data.PrefDescAccessFlags.Unknown
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '0: Unknown - used when initializing'
-  example: []
+  summary: "\n0: Unknown - used when initializing\n"
   syntax:
-    content: Unknown = 0
+    content: public const PrefDescAccessFlags Unknown
     return:
       type: SuperOffice.WebApi.Data.PrefDescAccessFlags
+    content.vb: Public Const Unknown As PrefDescAccessFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.PrefDescAccessFlags.WizardMode
   commentId: F:SuperOffice.WebApi.Data.PrefDescAccessFlags.WizardMode
   id: WizardMode
@@ -71,26 +108,24 @@ items:
   nameWithType: PrefDescAccessFlags.WizardMode
   fullName: SuperOffice.WebApi.Data.PrefDescAccessFlags.WizardMode
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '1: Wizard mode is password-protected and only accessible to SuperOffice personnel.'
-  example: []
+  summary: "\n1: Wizard mode is password-protected and only accessible to SuperOffice personnel.\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      WizardMode = 1
+    content: public const PrefDescAccessFlags WizardMode
     return:
       type: SuperOffice.WebApi.Data.PrefDescAccessFlags
-    content.vb: >-
-      <EnumMember>
-
-      WizardMode = 1
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const WizardMode As PrefDescAccessFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.PrefDescAccessFlags.Level0
   commentId: F:SuperOffice.WebApi.Data.PrefDescAccessFlags.Level0
   id: Level0
@@ -102,26 +137,24 @@ items:
   nameWithType: PrefDescAccessFlags.Level0
   fullName: SuperOffice.WebApi.Data.PrefDescAccessFlags.Level0
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '2: Preference settable only by CRM5 superuser'
-  example: []
+  summary: "\n2: Preference settable only by CRM5 superuser\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Level0 = 2
+    content: public const PrefDescAccessFlags Level0
     return:
       type: SuperOffice.WebApi.Data.PrefDescAccessFlags
-    content.vb: >-
-      <EnumMember>
-
-      Level0 = 2
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Level0 As PrefDescAccessFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.PrefDescAccessFlags.adminGUI
   commentId: F:SuperOffice.WebApi.Data.PrefDescAccessFlags.adminGUI
   id: adminGUI
@@ -133,26 +166,24 @@ items:
   nameWithType: PrefDescAccessFlags.adminGUI
   fullName: SuperOffice.WebApi.Data.PrefDescAccessFlags.adminGUI
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '4: Show preference in SOADMIN GUI'
-  example: []
+  summary: "\n4: Show preference in SOADMIN GUI\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      adminGUI = 4
+    content: public const PrefDescAccessFlags adminGUI
     return:
       type: SuperOffice.WebApi.Data.PrefDescAccessFlags
-    content.vb: >-
-      <EnumMember>
-
-      adminGUI = 4
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const adminGUI As PrefDescAccessFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.PrefDescAccessFlags.CRMGUI
   commentId: F:SuperOffice.WebApi.Data.PrefDescAccessFlags.CRMGUI
   id: CRMGUI
@@ -164,69 +195,55 @@ items:
   nameWithType: PrefDescAccessFlags.CRMGUI
   fullName: SuperOffice.WebApi.Data.PrefDescAccessFlags.CRMGUI
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '8: Show preference in CRM5 GUI'
-  example: []
+  summary: "\n8: Show preference in CRM5 GUI\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      CRMGUI = 8
+    content: public const PrefDescAccessFlags CRMGUI
     return:
       type: SuperOffice.WebApi.Data.PrefDescAccessFlags
-    content.vb: >-
-      <EnumMember>
-
-      CRMGUI = 8
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const CRMGUI As PrefDescAccessFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.WebApi.Data.PrefDescAccessFlags
   commentId: T:SuperOffice.WebApi.Data.PrefDescAccessFlags
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.PrefDescAccessFlags.html
   name: PrefDescAccessFlags
   nameWithType: PrefDescAccessFlags
   fullName: SuperOffice.WebApi.Data.PrefDescAccessFlags

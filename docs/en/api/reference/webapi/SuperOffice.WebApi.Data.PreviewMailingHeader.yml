@@ -30,17 +30,18 @@ items:
   nameWithType: PreviewMailingHeader
   fullName: SuperOffice.WebApi.Data.PreviewMailingHeader
   type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Carrier object for PreviewMailingHeader.
-
-    A shipment with information intended for previewing it.
-  example: []
+  summary: "\nCarrier object for PreviewMailingHeader.\nA shipment with information intended for previewing it.    \n"
   syntax:
     content: 'public class PreviewMailingHeader : Carrier'
-    content.vb: Public Class PreviewMailingHeader Inherits Carrier
+    content.vb: >-
+      Public Class PreviewMailingHeader
+          Inherits Carrier
   seealso:
   - linkId: SuperOffice.WebApi.Agents.MarketingAgent
     commentId: T:SuperOffice.WebApi.Agents.MarketingAgent
@@ -50,13 +51,12 @@ items:
   inheritedMembers:
   - SuperOffice.WebApi.Data.Carrier.TableRight
   - SuperOffice.WebApi.Data.Carrier.FieldProperties
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.WebApi.Data.PreviewMailingHeader.#ctor
   commentId: M:SuperOffice.WebApi.Data.PreviewMailingHeader.#ctor
   id: '#ctor'
@@ -68,18 +68,21 @@ items:
   nameWithType: PreviewMailingHeader.PreviewMailingHeader()
   fullName: SuperOffice.WebApi.Data.PreviewMailingHeader.PreviewMailingHeader()
   type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Default constructor - defaults any enum props to 0.
-  example: []
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
   syntax:
     content: public PreviewMailingHeader()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.WebApi.Data.PreviewMailingHeader.#ctor*
-  nameWithType.vb: PreviewMailingHeader.New()
-  fullName.vb: SuperOffice.WebApi.Data.PreviewMailingHeader.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.PreviewMailingHeader.StartDate
   commentId: P:SuperOffice.WebApi.Data.PreviewMailingHeader.StartDate
   id: StartDate
@@ -91,18 +94,28 @@ items:
   nameWithType: PreviewMailingHeader.StartDate
   fullName: SuperOffice.WebApi.Data.PreviewMailingHeader.StartDate
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The date and time when to start this shipment
-  example: []
+  summary: "\nThe date and time when to start this shipment\n"
   syntax:
     content: public virtual DateTime StartDate { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property StartDate As Date
+    content.vb: Public Overridable Property StartDate As DateTime
   overload: SuperOffice.WebApi.Data.PreviewMailingHeader.StartDate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.PreviewMailingHeader.Status_String
   commentId: P:SuperOffice.WebApi.Data.PreviewMailingHeader.Status_String
   id: Status_String
@@ -114,36 +127,29 @@ items:
   nameWithType: PreviewMailingHeader.Status_String
   fullName: SuperOffice.WebApi.Data.PreviewMailingHeader.Status_String
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Sending/stopped/failed etc.
-
-    Raw string enum value.
-  example: []
+  summary: "\nSending/stopped/failed etc.\nRaw string enum value.\n"
   syntax:
-    content: >-
-      [JsonProperty("Status")]
-
-      public string Status_String { get; set; }
+    content: public string Status_String { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <JsonProperty("Status")>
-
-      Public Property Status_String As String
+    content.vb: Public Property Status_String As String
   overload: SuperOffice.WebApi.Data.PreviewMailingHeader.Status_String*
   seealso:
   - linkId: SuperOffice.WebApi.Data.PreviewMailingHeader.Status
     commentId: P:SuperOffice.WebApi.Data.PreviewMailingHeader.Status
-  attributes:
-  - type: Newtonsoft.Json.JsonPropertyAttribute
-    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: Status
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.PreviewMailingHeader.Status
   commentId: P:SuperOffice.WebApi.Data.PreviewMailingHeader.Status
   id: Status
@@ -155,34 +161,29 @@ items:
   nameWithType: PreviewMailingHeader.Status
   fullName: SuperOffice.WebApi.Data.PreviewMailingHeader.Status
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Sending/stopped/failed etc.
-
-    NULL if unknown enum value.
-  example: []
+  summary: "\nSending/stopped/failed etc.\nNULL if unknown enum value.\n"
   syntax:
-    content: >-
-      [JsonIgnore]
-
-      public ShipmentStatus? Status { get; set; }
+    content: public Nullable<ShipmentStatus> Status { get; set; }
     parameters: []
     return:
       type: System.Nullable{SuperOffice.WebApi.Data.ShipmentStatus}
-    content.vb: >-
-      <JsonIgnore>
-
-      Public Property Status As ShipmentStatus?
+    content.vb: Public Property Status As Nullable(Of ShipmentStatus)
   overload: SuperOffice.WebApi.Data.PreviewMailingHeader.Status*
   seealso:
   - linkId: SuperOffice.WebApi.Data.PreviewMailingHeader.Status_String
     commentId: P:SuperOffice.WebApi.Data.PreviewMailingHeader.Status_String
-  attributes:
-  - type: Newtonsoft.Json.JsonIgnoreAttribute
-    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.PreviewMailingHeader.ShipmentId
   commentId: P:SuperOffice.WebApi.Data.PreviewMailingHeader.ShipmentId
   id: ShipmentId
@@ -194,11 +195,13 @@ items:
   nameWithType: PreviewMailingHeader.ShipmentId
   fullName: SuperOffice.WebApi.Data.PreviewMailingHeader.ShipmentId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Primary key
-  example: []
+  summary: "\nPrimary key\n"
   syntax:
     content: public virtual int ShipmentId { get; set; }
     parameters: []
@@ -206,6 +209,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property ShipmentId As Integer
   overload: SuperOffice.WebApi.Data.PreviewMailingHeader.ShipmentId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.PreviewMailingHeader.ShipmentDescription
   commentId: P:SuperOffice.WebApi.Data.PreviewMailingHeader.ShipmentDescription
   id: ShipmentDescription
@@ -217,11 +228,13 @@ items:
   nameWithType: PreviewMailingHeader.ShipmentDescription
   fullName: SuperOffice.WebApi.Data.PreviewMailingHeader.ShipmentDescription
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Describes the shipment
-  example: []
+  summary: "\nDescribes the shipment\n"
   syntax:
     content: public virtual string ShipmentDescription { get; set; }
     parameters: []
@@ -229,6 +242,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property ShipmentDescription As String
   overload: SuperOffice.WebApi.Data.PreviewMailingHeader.ShipmentDescription*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.PreviewMailingHeader.FromAddress
   commentId: P:SuperOffice.WebApi.Data.PreviewMailingHeader.FromAddress
   id: FromAddress
@@ -240,11 +261,13 @@ items:
   nameWithType: PreviewMailingHeader.FromAddress
   fullName: SuperOffice.WebApi.Data.PreviewMailingHeader.FromAddress
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Email address to put in the From header of the messages
-  example: []
+  summary: "\nEmail address to put in the From header of the messages\n"
   syntax:
     content: public virtual string FromAddress { get; set; }
     parameters: []
@@ -252,6 +275,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property FromAddress As String
   overload: SuperOffice.WebApi.Data.PreviewMailingHeader.FromAddress*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.PreviewMailingHeader.Configuration
   commentId: P:SuperOffice.WebApi.Data.PreviewMailingHeader.Configuration
   id: Configuration
@@ -263,11 +294,13 @@ items:
   nameWithType: PreviewMailingHeader.Configuration
   fullName: SuperOffice.WebApi.Data.PreviewMailingHeader.Configuration
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: This field indicates what kind of shipment this is.
-  example: []
+  summary: "\nThis field indicates what kind of shipment this is.\n"
   syntax:
     content: public virtual int Configuration { get; set; }
     parameters: []
@@ -275,6 +308,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property Configuration As Integer
   overload: SuperOffice.WebApi.Data.PreviewMailingHeader.Configuration*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.PreviewMailingHeader.PersonId
   commentId: P:SuperOffice.WebApi.Data.PreviewMailingHeader.PersonId
   id: PersonId
@@ -286,11 +327,13 @@ items:
   nameWithType: PreviewMailingHeader.PersonId
   fullName: SuperOffice.WebApi.Data.PreviewMailingHeader.PersonId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Primary key
-  example: []
+  summary: "\nPrimary key\n"
   syntax:
     content: public virtual int PersonId { get; set; }
     parameters: []
@@ -298,6 +341,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property PersonId As Integer
   overload: SuperOffice.WebApi.Data.PreviewMailingHeader.PersonId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.PreviewMailingHeader.PersonFullName
   commentId: P:SuperOffice.WebApi.Data.PreviewMailingHeader.PersonFullName
   id: PersonFullName
@@ -309,11 +360,13 @@ items:
   nameWithType: PreviewMailingHeader.PersonFullName
   fullName: SuperOffice.WebApi.Data.PreviewMailingHeader.PersonFullName
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Get the persons full name (internal name used in clients for employees).
-  example: []
+  summary: "\nGet the persons full name (internal name used in clients for employees). \n"
   syntax:
     content: public virtual string PersonFullName { get; set; }
     parameters: []
@@ -321,6 +374,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property PersonFullName As String
   overload: SuperOffice.WebApi.Data.PreviewMailingHeader.PersonFullName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.PreviewMailingHeader.ShipmentType
   commentId: P:SuperOffice.WebApi.Data.PreviewMailingHeader.ShipmentType
   id: ShipmentType
@@ -332,11 +393,13 @@ items:
   nameWithType: PreviewMailingHeader.ShipmentType
   fullName: SuperOffice.WebApi.Data.PreviewMailingHeader.ShipmentType
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The list item
-  example: []
+  summary: "\nThe list item\n"
   syntax:
     content: public virtual string ShipmentType { get; set; }
     parameters: []
@@ -344,6 +407,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property ShipmentType As String
   overload: SuperOffice.WebApi.Data.PreviewMailingHeader.ShipmentType*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.PreviewMailingHeader.MessageId
   commentId: P:SuperOffice.WebApi.Data.PreviewMailingHeader.MessageId
   id: MessageId
@@ -355,11 +426,13 @@ items:
   nameWithType: PreviewMailingHeader.MessageId
   fullName: SuperOffice.WebApi.Data.PreviewMailingHeader.MessageId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Primary key
-  example: []
+  summary: "\nPrimary key\n"
   syntax:
     content: public virtual int MessageId { get; set; }
     parameters: []
@@ -367,6 +440,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property MessageId As Integer
   overload: SuperOffice.WebApi.Data.PreviewMailingHeader.MessageId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.PreviewMailingHeader.MessageSubject
   commentId: P:SuperOffice.WebApi.Data.PreviewMailingHeader.MessageSubject
   id: MessageSubject
@@ -378,11 +459,13 @@ items:
   nameWithType: PreviewMailingHeader.MessageSubject
   fullName: SuperOffice.WebApi.Data.PreviewMailingHeader.MessageSubject
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The mail subject field of the message
-  example: []
+  summary: "\nThe mail subject field of the message\n"
   syntax:
     content: public virtual string MessageSubject { get; set; }
     parameters: []
@@ -390,6 +473,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property MessageSubject As String
   overload: SuperOffice.WebApi.Data.PreviewMailingHeader.MessageSubject*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.PreviewMailingHeader.DocumentMessageId
   commentId: P:SuperOffice.WebApi.Data.PreviewMailingHeader.DocumentMessageId
   id: DocumentMessageId
@@ -401,11 +492,13 @@ items:
   nameWithType: PreviewMailingHeader.DocumentMessageId
   fullName: SuperOffice.WebApi.Data.PreviewMailingHeader.DocumentMessageId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: If a document was used as the message this is the document ID.
-  example: []
+  summary: "\nIf a document was used as the message this is the document ID.\n"
   syntax:
     content: public virtual int DocumentMessageId { get; set; }
     parameters: []
@@ -413,6 +506,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property DocumentMessageId As Integer
   overload: SuperOffice.WebApi.Data.PreviewMailingHeader.DocumentMessageId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.PreviewMailingHeader.NumSent
   commentId: P:SuperOffice.WebApi.Data.PreviewMailingHeader.NumSent
   id: NumSent
@@ -424,11 +525,13 @@ items:
   nameWithType: PreviewMailingHeader.NumSent
   fullName: SuperOffice.WebApi.Data.PreviewMailingHeader.NumSent
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Number of emails sent at the current time.
-  example: []
+  summary: "\nNumber of emails sent at the current time.\n"
   syntax:
     content: public virtual int NumSent { get; set; }
     parameters: []
@@ -436,6 +539,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property NumSent As Integer
   overload: SuperOffice.WebApi.Data.PreviewMailingHeader.NumSent*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.PreviewMailingHeader.NumOpened
   commentId: P:SuperOffice.WebApi.Data.PreviewMailingHeader.NumOpened
   id: NumOpened
@@ -447,11 +558,13 @@ items:
   nameWithType: PreviewMailingHeader.NumOpened
   fullName: SuperOffice.WebApi.Data.PreviewMailingHeader.NumOpened
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Number of recipients that opened the email.
-  example: []
+  summary: "\nNumber of recipients that opened the email.\n"
   syntax:
     content: public virtual int NumOpened { get; set; }
     parameters: []
@@ -459,6 +572,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property NumOpened As Integer
   overload: SuperOffice.WebApi.Data.PreviewMailingHeader.NumOpened*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.PreviewMailingHeader.NumBounced
   commentId: P:SuperOffice.WebApi.Data.PreviewMailingHeader.NumBounced
   id: NumBounced
@@ -470,11 +591,13 @@ items:
   nameWithType: PreviewMailingHeader.NumBounced
   fullName: SuperOffice.WebApi.Data.PreviewMailingHeader.NumBounced
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Number of recipients that resulted in a bounce.
-  example: []
+  summary: "\nNumber of recipients that resulted in a bounce.\n"
   syntax:
     content: public virtual int NumBounced { get; set; }
     parameters: []
@@ -482,6 +605,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property NumBounced As Integer
   overload: SuperOffice.WebApi.Data.PreviewMailingHeader.NumBounced*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.PreviewMailingHeader.NumClicks
   commentId: P:SuperOffice.WebApi.Data.PreviewMailingHeader.NumClicks
   id: NumClicks
@@ -493,11 +624,13 @@ items:
   nameWithType: PreviewMailingHeader.NumClicks
   fullName: SuperOffice.WebApi.Data.PreviewMailingHeader.NumClicks
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Number of recipients that clicked at least 1 link in the mailing.
-  example: []
+  summary: "\nNumber of recipients that clicked at least 1 link in the mailing.\n"
   syntax:
     content: public virtual int NumClicks { get; set; }
     parameters: []
@@ -505,67 +638,32 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property NumClicks As Integer
   overload: SuperOffice.WebApi.Data.PreviewMailingHeader.NumClicks*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
-- uid: SuperOffice.WebApi.Agents.MarketingAgent
-  commentId: T:SuperOffice.WebApi.Agents.MarketingAgent
-  isExternal: true
-  href: SuperOffice.WebApi.Agents.MarketingAgent.html
-  name: MarketingAgent
-  nameWithType: MarketingAgent
-  fullName: SuperOffice.WebApi.Agents.MarketingAgent
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.WebApi.Data.Carrier
   commentId: T:SuperOffice.WebApi.Data.Carrier
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html
   name: Carrier
   nameWithType: Carrier
   fullName: SuperOffice.WebApi.Data.Carrier
@@ -573,7 +671,6 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_TableRight
   name: TableRight
   nameWithType: Carrier.TableRight
   fullName: SuperOffice.WebApi.Data.Carrier.TableRight
@@ -581,355 +678,147 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_FieldProperties
   name: FieldProperties
   nameWithType: Carrier.FieldProperties
   fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
+- uid: SuperOffice.WebApi.Agents.MarketingAgent
+  commentId: T:SuperOffice.WebApi.Agents.MarketingAgent
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: MarketingAgent
+  nameWithType: MarketingAgent
+  fullName: SuperOffice.WebApi.Agents.MarketingAgent
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Data.PreviewMailingHeader.#ctor*
   commentId: Overload:SuperOffice.WebApi.Data.PreviewMailingHeader.#ctor
   isExternal: true
-  href: SuperOffice.WebApi.Data.PreviewMailingHeader.html#SuperOffice_WebApi_Data_PreviewMailingHeader__ctor
   name: PreviewMailingHeader
   nameWithType: PreviewMailingHeader.PreviewMailingHeader
   fullName: SuperOffice.WebApi.Data.PreviewMailingHeader.PreviewMailingHeader
-  nameWithType.vb: PreviewMailingHeader.New
-  fullName.vb: SuperOffice.WebApi.Data.PreviewMailingHeader.New
-  name.vb: New
 - uid: SuperOffice.WebApi.Data.PreviewMailingHeader.StartDate*
   commentId: Overload:SuperOffice.WebApi.Data.PreviewMailingHeader.StartDate
   isExternal: true
-  href: SuperOffice.WebApi.Data.PreviewMailingHeader.html#SuperOffice_WebApi_Data_PreviewMailingHeader_StartDate
   name: StartDate
   nameWithType: PreviewMailingHeader.StartDate
   fullName: SuperOffice.WebApi.Data.PreviewMailingHeader.StartDate
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
-- uid: SuperOffice.WebApi.Data.PreviewMailingHeader.Status
-  commentId: P:SuperOffice.WebApi.Data.PreviewMailingHeader.Status
-  isExternal: true
-  href: SuperOffice.WebApi.Data.PreviewMailingHeader.html#SuperOffice_WebApi_Data_PreviewMailingHeader_Status
-  name: Status
-  nameWithType: PreviewMailingHeader.Status
-  fullName: SuperOffice.WebApi.Data.PreviewMailingHeader.Status
 - uid: SuperOffice.WebApi.Data.PreviewMailingHeader.Status_String*
   commentId: Overload:SuperOffice.WebApi.Data.PreviewMailingHeader.Status_String
   isExternal: true
-  href: SuperOffice.WebApi.Data.PreviewMailingHeader.html#SuperOffice_WebApi_Data_PreviewMailingHeader_Status_String
   name: Status_String
   nameWithType: PreviewMailingHeader.Status_String
   fullName: SuperOffice.WebApi.Data.PreviewMailingHeader.Status_String
+- uid: SuperOffice.WebApi.Data.PreviewMailingHeader.Status
+  commentId: P:SuperOffice.WebApi.Data.PreviewMailingHeader.Status
+  isExternal: true
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
-- uid: SuperOffice.WebApi.Data.PreviewMailingHeader.Status_String
-  commentId: P:SuperOffice.WebApi.Data.PreviewMailingHeader.Status_String
-  isExternal: true
-  href: SuperOffice.WebApi.Data.PreviewMailingHeader.html#SuperOffice_WebApi_Data_PreviewMailingHeader_Status_String
-  name: Status_String
-  nameWithType: PreviewMailingHeader.Status_String
-  fullName: SuperOffice.WebApi.Data.PreviewMailingHeader.Status_String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.WebApi.Data.PreviewMailingHeader.Status*
   commentId: Overload:SuperOffice.WebApi.Data.PreviewMailingHeader.Status
   isExternal: true
-  href: SuperOffice.WebApi.Data.PreviewMailingHeader.html#SuperOffice_WebApi_Data_PreviewMailingHeader_Status
   name: Status
   nameWithType: PreviewMailingHeader.Status
   fullName: SuperOffice.WebApi.Data.PreviewMailingHeader.Status
-- uid: System.Nullable{SuperOffice.WebApi.Data.ShipmentStatus}
-  commentId: T:System.Nullable{SuperOffice.WebApi.Data.ShipmentStatus}
-  parent: System
-  definition: System.Nullable`1
-  href: SuperOffice.WebApi.Data.ShipmentStatus.html
-  name: ShipmentStatus?
-  nameWithType: ShipmentStatus?
-  fullName: SuperOffice.WebApi.Data.ShipmentStatus?
-  spec.csharp:
-  - uid: SuperOffice.WebApi.Data.ShipmentStatus
-    name: ShipmentStatus
-    isExternal: true
-    href: SuperOffice.WebApi.Data.ShipmentStatus.html
-  - name: '?'
-  spec.vb:
-  - uid: SuperOffice.WebApi.Data.ShipmentStatus
-    name: ShipmentStatus
-    isExternal: true
-    href: SuperOffice.WebApi.Data.ShipmentStatus.html
-  - name: '?'
-- uid: System.Nullable`1
-  commentId: T:System.Nullable`1
+- uid: SuperOffice.WebApi.Data.PreviewMailingHeader.Status_String
+  commentId: P:SuperOffice.WebApi.Data.PreviewMailingHeader.Status_String
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
-  name: Nullable<T>
-  nameWithType: Nullable<T>
-  fullName: System.Nullable<T>
-  nameWithType.vb: Nullable(Of T)
-  fullName.vb: System.Nullable(Of T)
-  name.vb: Nullable(Of T)
+- uid: System.Nullable{SuperOffice.WebApi.Data.ShipmentStatus}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.ShipmentStatus}'
+  definition: System.Nullable`1
+  name: Nullable<ShipmentStatus>
+  nameWithType: Nullable<ShipmentStatus>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.ShipmentStatus>
+  nameWithType.vb: Nullable(Of ShipmentStatus)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.ShipmentStatus)
+  name.vb: Nullable(Of ShipmentStatus)
   spec.csharp:
   - uid: System.Nullable`1
     name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
   - name: <
-  - name: T
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ShipmentStatus
+    name: ShipmentStatus
+    nameWithType: ShipmentStatus
+    fullName: SuperOffice.WebApi.Data.ShipmentStatus
+    isExternal: true
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Nullable`1
     name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ShipmentStatus
+    name: ShipmentStatus
+    nameWithType: ShipmentStatus
+    fullName: SuperOffice.WebApi.Data.ShipmentStatus
+    isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Data.PreviewMailingHeader.ShipmentId*
   commentId: Overload:SuperOffice.WebApi.Data.PreviewMailingHeader.ShipmentId
   isExternal: true
-  href: SuperOffice.WebApi.Data.PreviewMailingHeader.html#SuperOffice_WebApi_Data_PreviewMailingHeader_ShipmentId
   name: ShipmentId
   nameWithType: PreviewMailingHeader.ShipmentId
   fullName: SuperOffice.WebApi.Data.PreviewMailingHeader.ShipmentId
@@ -937,101 +826,84 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.WebApi.Data.PreviewMailingHeader.ShipmentDescription*
   commentId: Overload:SuperOffice.WebApi.Data.PreviewMailingHeader.ShipmentDescription
   isExternal: true
-  href: SuperOffice.WebApi.Data.PreviewMailingHeader.html#SuperOffice_WebApi_Data_PreviewMailingHeader_ShipmentDescription
   name: ShipmentDescription
   nameWithType: PreviewMailingHeader.ShipmentDescription
   fullName: SuperOffice.WebApi.Data.PreviewMailingHeader.ShipmentDescription
 - uid: SuperOffice.WebApi.Data.PreviewMailingHeader.FromAddress*
   commentId: Overload:SuperOffice.WebApi.Data.PreviewMailingHeader.FromAddress
   isExternal: true
-  href: SuperOffice.WebApi.Data.PreviewMailingHeader.html#SuperOffice_WebApi_Data_PreviewMailingHeader_FromAddress
   name: FromAddress
   nameWithType: PreviewMailingHeader.FromAddress
   fullName: SuperOffice.WebApi.Data.PreviewMailingHeader.FromAddress
 - uid: SuperOffice.WebApi.Data.PreviewMailingHeader.Configuration*
   commentId: Overload:SuperOffice.WebApi.Data.PreviewMailingHeader.Configuration
   isExternal: true
-  href: SuperOffice.WebApi.Data.PreviewMailingHeader.html#SuperOffice_WebApi_Data_PreviewMailingHeader_Configuration
   name: Configuration
   nameWithType: PreviewMailingHeader.Configuration
   fullName: SuperOffice.WebApi.Data.PreviewMailingHeader.Configuration
 - uid: SuperOffice.WebApi.Data.PreviewMailingHeader.PersonId*
   commentId: Overload:SuperOffice.WebApi.Data.PreviewMailingHeader.PersonId
   isExternal: true
-  href: SuperOffice.WebApi.Data.PreviewMailingHeader.html#SuperOffice_WebApi_Data_PreviewMailingHeader_PersonId
   name: PersonId
   nameWithType: PreviewMailingHeader.PersonId
   fullName: SuperOffice.WebApi.Data.PreviewMailingHeader.PersonId
 - uid: SuperOffice.WebApi.Data.PreviewMailingHeader.PersonFullName*
   commentId: Overload:SuperOffice.WebApi.Data.PreviewMailingHeader.PersonFullName
   isExternal: true
-  href: SuperOffice.WebApi.Data.PreviewMailingHeader.html#SuperOffice_WebApi_Data_PreviewMailingHeader_PersonFullName
   name: PersonFullName
   nameWithType: PreviewMailingHeader.PersonFullName
   fullName: SuperOffice.WebApi.Data.PreviewMailingHeader.PersonFullName
 - uid: SuperOffice.WebApi.Data.PreviewMailingHeader.ShipmentType*
   commentId: Overload:SuperOffice.WebApi.Data.PreviewMailingHeader.ShipmentType
   isExternal: true
-  href: SuperOffice.WebApi.Data.PreviewMailingHeader.html#SuperOffice_WebApi_Data_PreviewMailingHeader_ShipmentType
   name: ShipmentType
   nameWithType: PreviewMailingHeader.ShipmentType
   fullName: SuperOffice.WebApi.Data.PreviewMailingHeader.ShipmentType
 - uid: SuperOffice.WebApi.Data.PreviewMailingHeader.MessageId*
   commentId: Overload:SuperOffice.WebApi.Data.PreviewMailingHeader.MessageId
   isExternal: true
-  href: SuperOffice.WebApi.Data.PreviewMailingHeader.html#SuperOffice_WebApi_Data_PreviewMailingHeader_MessageId
   name: MessageId
   nameWithType: PreviewMailingHeader.MessageId
   fullName: SuperOffice.WebApi.Data.PreviewMailingHeader.MessageId
 - uid: SuperOffice.WebApi.Data.PreviewMailingHeader.MessageSubject*
   commentId: Overload:SuperOffice.WebApi.Data.PreviewMailingHeader.MessageSubject
   isExternal: true
-  href: SuperOffice.WebApi.Data.PreviewMailingHeader.html#SuperOffice_WebApi_Data_PreviewMailingHeader_MessageSubject
   name: MessageSubject
   nameWithType: PreviewMailingHeader.MessageSubject
   fullName: SuperOffice.WebApi.Data.PreviewMailingHeader.MessageSubject
 - uid: SuperOffice.WebApi.Data.PreviewMailingHeader.DocumentMessageId*
   commentId: Overload:SuperOffice.WebApi.Data.PreviewMailingHeader.DocumentMessageId
   isExternal: true
-  href: SuperOffice.WebApi.Data.PreviewMailingHeader.html#SuperOffice_WebApi_Data_PreviewMailingHeader_DocumentMessageId
   name: DocumentMessageId
   nameWithType: PreviewMailingHeader.DocumentMessageId
   fullName: SuperOffice.WebApi.Data.PreviewMailingHeader.DocumentMessageId
 - uid: SuperOffice.WebApi.Data.PreviewMailingHeader.NumSent*
   commentId: Overload:SuperOffice.WebApi.Data.PreviewMailingHeader.NumSent
   isExternal: true
-  href: SuperOffice.WebApi.Data.PreviewMailingHeader.html#SuperOffice_WebApi_Data_PreviewMailingHeader_NumSent
   name: NumSent
   nameWithType: PreviewMailingHeader.NumSent
   fullName: SuperOffice.WebApi.Data.PreviewMailingHeader.NumSent
 - uid: SuperOffice.WebApi.Data.PreviewMailingHeader.NumOpened*
   commentId: Overload:SuperOffice.WebApi.Data.PreviewMailingHeader.NumOpened
   isExternal: true
-  href: SuperOffice.WebApi.Data.PreviewMailingHeader.html#SuperOffice_WebApi_Data_PreviewMailingHeader_NumOpened
   name: NumOpened
   nameWithType: PreviewMailingHeader.NumOpened
   fullName: SuperOffice.WebApi.Data.PreviewMailingHeader.NumOpened
 - uid: SuperOffice.WebApi.Data.PreviewMailingHeader.NumBounced*
   commentId: Overload:SuperOffice.WebApi.Data.PreviewMailingHeader.NumBounced
   isExternal: true
-  href: SuperOffice.WebApi.Data.PreviewMailingHeader.html#SuperOffice_WebApi_Data_PreviewMailingHeader_NumBounced
   name: NumBounced
   nameWithType: PreviewMailingHeader.NumBounced
   fullName: SuperOffice.WebApi.Data.PreviewMailingHeader.NumBounced
 - uid: SuperOffice.WebApi.Data.PreviewMailingHeader.NumClicks*
   commentId: Overload:SuperOffice.WebApi.Data.PreviewMailingHeader.NumClicks
   isExternal: true
-  href: SuperOffice.WebApi.Data.PreviewMailingHeader.html#SuperOffice_WebApi_Data_PreviewMailingHeader_NumClicks
   name: NumClicks
   nameWithType: PreviewMailingHeader.NumClicks
   fullName: SuperOffice.WebApi.Data.PreviewMailingHeader.NumClicks

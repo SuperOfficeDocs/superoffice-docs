@@ -18,7 +18,6 @@ references:
 - uid: SuperOffice.Services.ClassFactoryInitializer
   commentId: T:SuperOffice.Services.ClassFactoryInitializer
   isExternal: true
-  href: SuperOffice.Services.ClassFactoryInitializer.html
   name: ClassFactoryInitializer
   nameWithType: ClassFactoryInitializer
   fullName: SuperOffice.Services.ClassFactoryInitializer

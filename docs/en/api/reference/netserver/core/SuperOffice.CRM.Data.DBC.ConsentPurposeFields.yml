@@ -28,24 +28,27 @@ items:
   nameWithType: DBC.ConsentPurposeFields
   fullName: SuperOffice.CRM.Data.DBC.ConsentPurposeFields
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Fields for ConsentPurpose, GDPR purpose alternatives
-  example: []
+  summary: "\nFields for ConsentPurpose, GDPR purpose alternatives\n"
   syntax:
-    content: public static class DBC.ConsentPurposeFields
-    content.vb: Public Module DBC.ConsentPurposeFields
+    content: 'public static class ConsentPurposeFields : Object'
+    content.vb: >-
+      Public Module ConsentPurposeFields
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
 - uid: SuperOffice.CRM.Data.DBC.ConsentPurposeFields.ConsentPurposeId
   commentId: F:SuperOffice.CRM.Data.DBC.ConsentPurposeFields.ConsentPurposeId
   id: ConsentPurposeId
@@ -57,16 +60,24 @@ items:
   nameWithType: DBC.ConsentPurposeFields.ConsentPurposeId
   fullName: SuperOffice.CRM.Data.DBC.ConsentPurposeFields.ConsentPurposeId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ConsentPurpose.ConsentPurposeId: Primary key'
-  example: []
+  summary: "\nConsentPurpose.ConsentPurposeId: Primary key\n"
   syntax:
     content: public const string ConsentPurposeId = "consentpurpose_id"
     return:
       type: System.String
     content.vb: Public Const ConsentPurposeId As String = "consentpurpose_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ConsentPurposeFields.Name
   commentId: F:SuperOffice.CRM.Data.DBC.ConsentPurposeFields.Name
   id: Name
@@ -78,16 +89,24 @@ items:
   nameWithType: DBC.ConsentPurposeFields.Name
   fullName: SuperOffice.CRM.Data.DBC.ConsentPurposeFields.Name
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ConsentPurpose.Name: The name of this purpose'
-  example: []
+  summary: "\nConsentPurpose.Name: The name of this purpose\n"
   syntax:
     content: public const string Name = "name"
     return:
       type: System.String
     content.vb: Public Const Name As String = "name"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ConsentPurposeFields.Rank
   commentId: F:SuperOffice.CRM.Data.DBC.ConsentPurposeFields.Rank
   id: Rank
@@ -99,16 +118,24 @@ items:
   nameWithType: DBC.ConsentPurposeFields.Rank
   fullName: SuperOffice.CRM.Data.DBC.ConsentPurposeFields.Rank
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ConsentPurpose.Rank: Rank order'
-  example: []
+  summary: "\nConsentPurpose.Rank: Rank order\n"
   syntax:
     content: public const string Rank = "rank"
     return:
       type: System.String
     content.vb: Public Const Rank As String = "rank"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ConsentPurposeFields.Tooltip
   commentId: F:SuperOffice.CRM.Data.DBC.ConsentPurposeFields.Tooltip
   id: Tooltip
@@ -120,16 +147,24 @@ items:
   nameWithType: DBC.ConsentPurposeFields.Tooltip
   fullName: SuperOffice.CRM.Data.DBC.ConsentPurposeFields.Tooltip
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ConsentPurpose.Tooltip: List item tooltip'
-  example: []
+  summary: "\nConsentPurpose.Tooltip: List item tooltip\n"
   syntax:
     content: public const string Tooltip = "tooltip"
     return:
       type: System.String
     content.vb: Public Const Tooltip As String = "tooltip"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ConsentPurposeFields.Deleted
   commentId: F:SuperOffice.CRM.Data.DBC.ConsentPurposeFields.Deleted
   id: Deleted
@@ -141,16 +176,24 @@ items:
   nameWithType: DBC.ConsentPurposeFields.Deleted
   fullName: SuperOffice.CRM.Data.DBC.ConsentPurposeFields.Deleted
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "ConsentPurpose.Deleted: 0 -&gt; record is active 1 -&gt; record is 'deleted' and should not be shown in lists"
-  example: []
+  summary: "\nConsentPurpose.Deleted: 0 -> record is active 1 -> record is &apos;deleted&apos; and should not be shown in lists\n"
   syntax:
     content: public const string Deleted = "deleted"
     return:
       type: System.String
     content.vb: Public Const Deleted As String = "deleted"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ConsentPurposeFields.Key
   commentId: F:SuperOffice.CRM.Data.DBC.ConsentPurposeFields.Key
   id: Key
@@ -162,16 +205,24 @@ items:
   nameWithType: DBC.ConsentPurposeFields.Key
   fullName: SuperOffice.CRM.Data.DBC.ConsentPurposeFields.Key
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ConsentPurpose.Key: The key used to refer to this purpose, like #Process, #Emarketing etc.'
-  example: []
+  summary: "\nConsentPurpose.Key: The key used to refer to this purpose, like #Process, #Emarketing etc.\n"
   syntax:
     content: public const string Key = "key"
     return:
       type: System.String
     content.vb: Public Const Key As String = "key"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ConsentPurposeFields.ConsentText
   commentId: F:SuperOffice.CRM.Data.DBC.ConsentPurposeFields.ConsentText
   id: ConsentText
@@ -183,16 +234,24 @@ items:
   nameWithType: DBC.ConsentPurposeFields.ConsentText
   fullName: SuperOffice.CRM.Data.DBC.ConsentPurposeFields.ConsentText
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ConsentPurpose.ConsentText: Form text used for the actual checkbox'
-  example: []
+  summary: "\nConsentPurpose.ConsentText: Form text used for the actual checkbox\n"
   syntax:
     content: public const string ConsentText = "consentText"
     return:
       type: System.String
     content.vb: Public Const ConsentText As String = "consentText"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ConsentPurposeFields.FormText
   commentId: F:SuperOffice.CRM.Data.DBC.ConsentPurposeFields.FormText
   id: FormText
@@ -204,16 +263,24 @@ items:
   nameWithType: DBC.ConsentPurposeFields.FormText
   fullName: SuperOffice.CRM.Data.DBC.ConsentPurposeFields.FormText
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ConsentPurpose.FormText: Text for the consent form, the long text to be shown when asking the end-user for this kind of consent'
-  example: []
+  summary: "\nConsentPurpose.FormText: Text for the consent form, the long text to be shown when asking the end-user for this kind of consent\n"
   syntax:
     content: public const string FormText = "formText"
     return:
       type: System.String
     content.vb: Public Const FormText As String = "formText"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ConsentPurposeFields.PrivacyStatementDesc
   commentId: F:SuperOffice.CRM.Data.DBC.ConsentPurposeFields.PrivacyStatementDesc
   id: PrivacyStatementDesc
@@ -225,16 +292,24 @@ items:
   nameWithType: DBC.ConsentPurposeFields.PrivacyStatementDesc
   fullName: SuperOffice.CRM.Data.DBC.ConsentPurposeFields.PrivacyStatementDesc
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ConsentPurpose.PrivacyStatementDesc: A heading or description of the privacy text'
-  example: []
+  summary: "\nConsentPurpose.PrivacyStatementDesc: A heading or description of the privacy text\n"
   syntax:
     content: public const string PrivacyStatementDesc = "privacyStatementDesc"
     return:
       type: System.String
     content.vb: Public Const PrivacyStatementDesc As String = "privacyStatementDesc"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ConsentPurposeFields.PrivacyStatementUrl
   commentId: F:SuperOffice.CRM.Data.DBC.ConsentPurposeFields.PrivacyStatementUrl
   id: PrivacyStatementUrl
@@ -246,16 +321,24 @@ items:
   nameWithType: DBC.ConsentPurposeFields.PrivacyStatementUrl
   fullName: SuperOffice.CRM.Data.DBC.ConsentPurposeFields.PrivacyStatementUrl
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ConsentPurpose.PrivacyStatementUrl: Url referencing the actual privacy statement text; may have different urls for different languages'
-  example: []
+  summary: "\nConsentPurpose.PrivacyStatementUrl: Url referencing the actual privacy statement text; may have different urls for different languages\n"
   syntax:
     content: public const string PrivacyStatementUrl = "privacyStatementUrl"
     return:
       type: System.String
     content.vb: Public Const PrivacyStatementUrl As String = "privacyStatementUrl"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ConsentPurposeFields.Active
   commentId: F:SuperOffice.CRM.Data.DBC.ConsentPurposeFields.Active
   id: Active
@@ -267,16 +350,24 @@ items:
   nameWithType: DBC.ConsentPurposeFields.Active
   fullName: SuperOffice.CRM.Data.DBC.ConsentPurposeFields.Active
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ConsentPurpose.Active: True if this consent purpose is active'
-  example: []
+  summary: "\nConsentPurpose.Active: True if this consent purpose is active\n"
   syntax:
     content: public const string Active = "active"
     return:
       type: System.String
     content.vb: Public Const Active As String = "active"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ConsentPurposeFields.Registered
   commentId: F:SuperOffice.CRM.Data.DBC.ConsentPurposeFields.Registered
   id: Registered
@@ -288,16 +379,24 @@ items:
   nameWithType: DBC.ConsentPurposeFields.Registered
   fullName: SuperOffice.CRM.Data.DBC.ConsentPurposeFields.Registered
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ConsentPurpose.Registered: Registered when'
-  example: []
+  summary: "\nConsentPurpose.Registered: Registered when\n"
   syntax:
     content: public const string Registered = "registered"
     return:
       type: System.String
     content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ConsentPurposeFields.RegisteredAssociateId
   commentId: F:SuperOffice.CRM.Data.DBC.ConsentPurposeFields.RegisteredAssociateId
   id: RegisteredAssociateId
@@ -309,16 +408,24 @@ items:
   nameWithType: DBC.ConsentPurposeFields.RegisteredAssociateId
   fullName: SuperOffice.CRM.Data.DBC.ConsentPurposeFields.RegisteredAssociateId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ConsentPurpose.RegisteredAssociateId: Registered by whom'
-  example: []
+  summary: "\nConsentPurpose.RegisteredAssociateId: Registered by whom\n"
   syntax:
     content: public const string RegisteredAssociateId = "registered_associate_id"
     return:
       type: System.String
     content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ConsentPurposeFields.Updated
   commentId: F:SuperOffice.CRM.Data.DBC.ConsentPurposeFields.Updated
   id: Updated
@@ -330,16 +437,24 @@ items:
   nameWithType: DBC.ConsentPurposeFields.Updated
   fullName: SuperOffice.CRM.Data.DBC.ConsentPurposeFields.Updated
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ConsentPurpose.Updated: Last updated when'
-  example: []
+  summary: "\nConsentPurpose.Updated: Last updated when\n"
   syntax:
     content: public const string Updated = "updated"
     return:
       type: System.String
     content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ConsentPurposeFields.UpdatedAssociateId
   commentId: F:SuperOffice.CRM.Data.DBC.ConsentPurposeFields.UpdatedAssociateId
   id: UpdatedAssociateId
@@ -351,16 +466,24 @@ items:
   nameWithType: DBC.ConsentPurposeFields.UpdatedAssociateId
   fullName: SuperOffice.CRM.Data.DBC.ConsentPurposeFields.UpdatedAssociateId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ConsentPurpose.UpdatedAssociateId: Last updated by whom'
-  example: []
+  summary: "\nConsentPurpose.UpdatedAssociateId: Last updated by whom\n"
   syntax:
     content: public const string UpdatedAssociateId = "updated_associate_id"
     return:
       type: System.String
     content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ConsentPurposeFields.UpdatedCount
   commentId: F:SuperOffice.CRM.Data.DBC.ConsentPurposeFields.UpdatedCount
   id: UpdatedCount
@@ -372,288 +495,41 @@ items:
   nameWithType: DBC.ConsentPurposeFields.UpdatedCount
   fullName: SuperOffice.CRM.Data.DBC.ConsentPurposeFields.UpdatedCount
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ConsentPurpose.UpdatedCount: Number of updates made to this record'
-  example: []
+  summary: "\nConsentPurpose.UpdatedCount: Number of updates made to this record\n"
   syntax:
     content: public const string UpdatedCount = "updatedCount"
     return:
       type: System.String
     content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Data
   nameWithType: SuperOffice.CRM.Data
   fullName: SuperOffice.CRM.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.CRM.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.CRM.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -661,10 +537,6 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String

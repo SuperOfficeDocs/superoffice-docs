@@ -6,13 +6,13 @@ items:
   parent: SuperOffice.WebApi.Data
   children:
   - SuperOffice.WebApi.Data.ProjectTypeStatusLink.#ctor
+  - SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjectTypeStatusLinkId
   - SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjStatusId
   - SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjStatusName
   - SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjStatusTooltip
   - SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjTypeId
   - SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjTypeName
   - SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjTypeTooltip
-  - SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjectTypeStatusLinkId
   langs:
   - csharp
   - vb
@@ -20,27 +20,30 @@ items:
   nameWithType: ProjectTypeStatusLink
   fullName: SuperOffice.WebApi.Data.ProjectTypeStatusLink
   type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Carrier object for ProjectTypeStatusLink.
-  example: []
+  summary: "\nCarrier object for ProjectTypeStatusLink.\n\n"
   syntax:
     content: 'public class ProjectTypeStatusLink : Carrier'
-    content.vb: Public Class ProjectTypeStatusLink Inherits Carrier
+    content.vb: >-
+      Public Class ProjectTypeStatusLink
+          Inherits Carrier
   inheritance:
   - System.Object
   - SuperOffice.WebApi.Data.Carrier
   inheritedMembers:
   - SuperOffice.WebApi.Data.Carrier.TableRight
   - SuperOffice.WebApi.Data.Carrier.FieldProperties
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.WebApi.Data.ProjectTypeStatusLink.#ctor
   commentId: M:SuperOffice.WebApi.Data.ProjectTypeStatusLink.#ctor
   id: '#ctor'
@@ -52,18 +55,21 @@ items:
   nameWithType: ProjectTypeStatusLink.ProjectTypeStatusLink()
   fullName: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjectTypeStatusLink()
   type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Default constructor - defaults any enum props to 0.
-  example: []
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
   syntax:
     content: public ProjectTypeStatusLink()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.WebApi.Data.ProjectTypeStatusLink.#ctor*
-  nameWithType.vb: ProjectTypeStatusLink.New()
-  fullName.vb: SuperOffice.WebApi.Data.ProjectTypeStatusLink.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjectTypeStatusLinkId
   commentId: P:SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjectTypeStatusLinkId
   id: ProjectTypeStatusLinkId
@@ -75,11 +81,13 @@ items:
   nameWithType: ProjectTypeStatusLink.ProjectTypeStatusLinkId
   fullName: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjectTypeStatusLinkId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Primary key
-  example: []
+  summary: "\nPrimary key\n"
   syntax:
     content: public virtual int ProjectTypeStatusLinkId { get; set; }
     parameters: []
@@ -87,6 +95,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property ProjectTypeStatusLinkId As Integer
   overload: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjectTypeStatusLinkId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjTypeId
   commentId: P:SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjTypeId
   id: ProjTypeId
@@ -98,11 +114,13 @@ items:
   nameWithType: ProjectTypeStatusLink.ProjTypeId
   fullName: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjTypeId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Primary key
-  example: []
+  summary: "\nPrimary key\n"
   syntax:
     content: public virtual int ProjTypeId { get; set; }
     parameters: []
@@ -110,6 +128,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property ProjTypeId As Integer
   overload: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjTypeId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjTypeName
   commentId: P:SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjTypeName
   id: ProjTypeName
@@ -121,11 +147,13 @@ items:
   nameWithType: ProjectTypeStatusLink.ProjTypeName
   fullName: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjTypeName
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The list item
-  example: []
+  summary: "\nThe list item\n"
   syntax:
     content: public virtual string ProjTypeName { get; set; }
     parameters: []
@@ -133,6 +161,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property ProjTypeName As String
   overload: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjTypeName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjTypeTooltip
   commentId: P:SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjTypeTooltip
   id: ProjTypeTooltip
@@ -144,11 +180,13 @@ items:
   nameWithType: ProjectTypeStatusLink.ProjTypeTooltip
   fullName: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjTypeTooltip
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Tooltip or other description
-  example: []
+  summary: "\nTooltip or other description\n"
   syntax:
     content: public virtual string ProjTypeTooltip { get; set; }
     parameters: []
@@ -156,6 +194,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property ProjTypeTooltip As String
   overload: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjTypeTooltip*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjStatusId
   commentId: P:SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjStatusId
   id: ProjStatusId
@@ -167,11 +213,13 @@ items:
   nameWithType: ProjectTypeStatusLink.ProjStatusId
   fullName: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjStatusId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Primary key
-  example: []
+  summary: "\nPrimary key\n"
   syntax:
     content: public virtual int ProjStatusId { get; set; }
     parameters: []
@@ -179,6 +227,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property ProjStatusId As Integer
   overload: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjStatusId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjStatusName
   commentId: P:SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjStatusName
   id: ProjStatusName
@@ -190,11 +246,13 @@ items:
   nameWithType: ProjectTypeStatusLink.ProjStatusName
   fullName: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjStatusName
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The list item
-  example: []
+  summary: "\nThe list item\n"
   syntax:
     content: public virtual string ProjStatusName { get; set; }
     parameters: []
@@ -202,6 +260,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property ProjStatusName As String
   overload: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjStatusName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjStatusTooltip
   commentId: P:SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjStatusTooltip
   id: ProjStatusTooltip
@@ -213,11 +279,13 @@ items:
   nameWithType: ProjectTypeStatusLink.ProjStatusTooltip
   fullName: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjStatusTooltip
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Tooltip or other description
-  example: []
+  summary: "\nTooltip or other description\n"
   syntax:
     content: public virtual string ProjStatusTooltip { get; set; }
     parameters: []
@@ -225,60 +293,32 @@ items:
       type: System.String
     content.vb: Public Overridable Property ProjStatusTooltip As String
   overload: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjStatusTooltip*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.WebApi.Data.Carrier
   commentId: T:SuperOffice.WebApi.Data.Carrier
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html
   name: Carrier
   nameWithType: Carrier
   fullName: SuperOffice.WebApi.Data.Carrier
@@ -286,7 +326,6 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_TableRight
   name: TableRight
   nameWithType: Carrier.TableRight
   fullName: SuperOffice.WebApi.Data.Carrier.TableRight
@@ -294,250 +333,24 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_FieldProperties
   name: FieldProperties
   nameWithType: Carrier.FieldProperties
   fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Data.ProjectTypeStatusLink.#ctor*
   commentId: Overload:SuperOffice.WebApi.Data.ProjectTypeStatusLink.#ctor
   isExternal: true
-  href: SuperOffice.WebApi.Data.ProjectTypeStatusLink.html#SuperOffice_WebApi_Data_ProjectTypeStatusLink__ctor
   name: ProjectTypeStatusLink
   nameWithType: ProjectTypeStatusLink.ProjectTypeStatusLink
   fullName: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjectTypeStatusLink
-  nameWithType.vb: ProjectTypeStatusLink.New
-  fullName.vb: SuperOffice.WebApi.Data.ProjectTypeStatusLink.New
-  name.vb: New
 - uid: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjectTypeStatusLinkId*
   commentId: Overload:SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjectTypeStatusLinkId
   isExternal: true
-  href: SuperOffice.WebApi.Data.ProjectTypeStatusLink.html#SuperOffice_WebApi_Data_ProjectTypeStatusLink_ProjectTypeStatusLinkId
   name: ProjectTypeStatusLinkId
   nameWithType: ProjectTypeStatusLink.ProjectTypeStatusLinkId
   fullName: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjectTypeStatusLinkId
@@ -545,24 +358,18 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjTypeId*
   commentId: Overload:SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjTypeId
   isExternal: true
-  href: SuperOffice.WebApi.Data.ProjectTypeStatusLink.html#SuperOffice_WebApi_Data_ProjectTypeStatusLink_ProjTypeId
   name: ProjTypeId
   nameWithType: ProjectTypeStatusLink.ProjTypeId
   fullName: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjTypeId
 - uid: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjTypeName*
   commentId: Overload:SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjTypeName
   isExternal: true
-  href: SuperOffice.WebApi.Data.ProjectTypeStatusLink.html#SuperOffice_WebApi_Data_ProjectTypeStatusLink_ProjTypeName
   name: ProjTypeName
   nameWithType: ProjectTypeStatusLink.ProjTypeName
   fullName: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjTypeName
@@ -570,38 +377,30 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjTypeTooltip*
   commentId: Overload:SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjTypeTooltip
   isExternal: true
-  href: SuperOffice.WebApi.Data.ProjectTypeStatusLink.html#SuperOffice_WebApi_Data_ProjectTypeStatusLink_ProjTypeTooltip
   name: ProjTypeTooltip
   nameWithType: ProjectTypeStatusLink.ProjTypeTooltip
   fullName: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjTypeTooltip
 - uid: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjStatusId*
   commentId: Overload:SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjStatusId
   isExternal: true
-  href: SuperOffice.WebApi.Data.ProjectTypeStatusLink.html#SuperOffice_WebApi_Data_ProjectTypeStatusLink_ProjStatusId
   name: ProjStatusId
   nameWithType: ProjectTypeStatusLink.ProjStatusId
   fullName: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjStatusId
 - uid: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjStatusName*
   commentId: Overload:SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjStatusName
   isExternal: true
-  href: SuperOffice.WebApi.Data.ProjectTypeStatusLink.html#SuperOffice_WebApi_Data_ProjectTypeStatusLink_ProjStatusName
   name: ProjStatusName
   nameWithType: ProjectTypeStatusLink.ProjStatusName
   fullName: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjStatusName
 - uid: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjStatusTooltip*
   commentId: Overload:SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjStatusTooltip
   isExternal: true
-  href: SuperOffice.WebApi.Data.ProjectTypeStatusLink.html#SuperOffice_WebApi_Data_ProjectTypeStatusLink_ProjStatusTooltip
   name: ProjStatusTooltip
   nameWithType: ProjectTypeStatusLink.ProjStatusTooltip
   fullName: SuperOffice.WebApi.Data.ProjectTypeStatusLink.ProjStatusTooltip

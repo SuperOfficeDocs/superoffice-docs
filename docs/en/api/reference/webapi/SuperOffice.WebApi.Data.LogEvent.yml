@@ -11,24 +11,64 @@ items:
   - SuperOffice.WebApi.Data.LogEvent.Lock
   - SuperOffice.WebApi.Data.LogEvent.None
   - SuperOffice.WebApi.Data.LogEvent.Unlock
+  - SuperOffice.WebApi.Data.LogEvent.value__
   langs:
   - csharp
   - vb
   name: LogEvent
   nameWithType: LogEvent
   fullName: SuperOffice.WebApi.Data.LogEvent
-  type: Enum
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Log events
-
-    This Enum is used by:  target_revision.log_event
-  example: []
+  summary: "\nLog events\nThis Enum is used by:  target_revision.log_event\n"
   syntax:
-    content: 'public enum LogEvent : short'
-    content.vb: Public Enum LogEvent As Short
+    content: 'public sealed class LogEvent : Enum'
+    content.vb: >-
+      Public NotInheritable Class LogEvent
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.LogEvent.value__
+  commentId: F:SuperOffice.WebApi.Data.LogEvent.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.LogEvent
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: LogEvent.value__
+  fullName: SuperOffice.WebApi.Data.LogEvent.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.LogEvent.None
   commentId: F:SuperOffice.WebApi.Data.LogEvent.None
   id: None
@@ -40,26 +80,24 @@ items:
   nameWithType: LogEvent.None
   fullName: SuperOffice.WebApi.Data.LogEvent.None
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '0: None'
-  example: []
+  summary: "\n0: None\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      None = 0
+    content: public const LogEvent None
     return:
       type: SuperOffice.WebApi.Data.LogEvent
-    content.vb: >-
-      <EnumMember>
-
-      None = 0
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const None As LogEvent
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.LogEvent.Create
   commentId: F:SuperOffice.WebApi.Data.LogEvent.Create
   id: Create
@@ -71,26 +109,24 @@ items:
   nameWithType: LogEvent.Create
   fullName: SuperOffice.WebApi.Data.LogEvent.Create
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '1: Create'
-  example: []
+  summary: "\n1: Create\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Create = 1
+    content: public const LogEvent Create
     return:
       type: SuperOffice.WebApi.Data.LogEvent
-    content.vb: >-
-      <EnumMember>
-
-      Create = 1
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Create As LogEvent
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.LogEvent.Edit
   commentId: F:SuperOffice.WebApi.Data.LogEvent.Edit
   id: Edit
@@ -102,26 +138,24 @@ items:
   nameWithType: LogEvent.Edit
   fullName: SuperOffice.WebApi.Data.LogEvent.Edit
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '2: Edit'
-  example: []
+  summary: "\n2: Edit\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Edit = 2
+    content: public const LogEvent Edit
     return:
       type: SuperOffice.WebApi.Data.LogEvent
-    content.vb: >-
-      <EnumMember>
-
-      Edit = 2
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Edit As LogEvent
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.LogEvent.Delete
   commentId: F:SuperOffice.WebApi.Data.LogEvent.Delete
   id: Delete
@@ -133,26 +167,24 @@ items:
   nameWithType: LogEvent.Delete
   fullName: SuperOffice.WebApi.Data.LogEvent.Delete
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '3: Delete'
-  example: []
+  summary: "\n3: Delete\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Delete = 3
+    content: public const LogEvent Delete
     return:
       type: SuperOffice.WebApi.Data.LogEvent
-    content.vb: >-
-      <EnumMember>
-
-      Delete = 3
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Delete As LogEvent
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.LogEvent.Lock
   commentId: F:SuperOffice.WebApi.Data.LogEvent.Lock
   id: Lock
@@ -164,26 +196,24 @@ items:
   nameWithType: LogEvent.Lock
   fullName: SuperOffice.WebApi.Data.LogEvent.Lock
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '4: Lock'
-  example: []
+  summary: "\n4: Lock\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Lock = 4
+    content: public const LogEvent Lock
     return:
       type: SuperOffice.WebApi.Data.LogEvent
-    content.vb: >-
-      <EnumMember>
-
-      Lock = 4
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Lock As LogEvent
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.LogEvent.Unlock
   commentId: F:SuperOffice.WebApi.Data.LogEvent.Unlock
   id: Unlock
@@ -195,69 +225,55 @@ items:
   nameWithType: LogEvent.Unlock
   fullName: SuperOffice.WebApi.Data.LogEvent.Unlock
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '5: Unlock'
-  example: []
+  summary: "\n5: Unlock\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Unlock = 5
+    content: public const LogEvent Unlock
     return:
       type: SuperOffice.WebApi.Data.LogEvent
-    content.vb: >-
-      <EnumMember>
-
-      Unlock = 5
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Unlock As LogEvent
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.WebApi.Data.LogEvent
   commentId: T:SuperOffice.WebApi.Data.LogEvent
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.LogEvent.html
   name: LogEvent
   nameWithType: LogEvent
   fullName: SuperOffice.WebApi.Data.LogEvent

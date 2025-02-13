@@ -13,70 +13,32 @@ items:
   nameWithType: PerformanceMonitoring
   fullName: SuperOffice.Exceptions.PerformanceMonitoring
   type: Class
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Exceptions
-  summary: >-
-    This class is an encapsulation of the Windows Performance Counters. Use the static Increment/Decrement methods
-
-    combined with the Counters enum to do your counting. All public methods are thread safe.
-  remarks: >-
-    Performance counter categories cannot be edited, i.e., you cannot add a new counter to an already existing category.
-
-    At the same time, enumerating all counters to see if they match the current definitions in the code takes a loooong
-
-    time, there is some kind of timeout or hangup in there.
-
-    <p></p>
-
-    Therefore, you must set the CreateCounters property to true in the Diagnostics section of the config file, and run once
-
-    to re-create all categories, if you run for the first time or have changed/added to the counter definitions.
-
-    <p></p>
-
-    To add a new counter, you need to do several things: 1) Add a new member to the Counters enum.
-
-    2) Add corresponding cases or switches (if new category) to the CounterEnumFromCategoryAndName,
-
-    to bind the enum to a category and counter name. Finally, you must add counter creation data to the 
-
-    CreateCountersForThreading or other creation method (make a new one for a new category); this is where you
-
-    set up the counter name, help and type information that is needed by the system and shown in Perfmon.
-  example: []
+  summary: "\nThis class is an encapsulation of the Windows Performance Counters. Use the static Increment/Decrement methods\ncombined with the Counters enum to do your counting. All public methods are thread safe.\n"
+  remarks: "\nPerformance counter categories cannot be edited, i.e., you cannot add a new counter to an already existing category.\nAt the same time, enumerating all counters to see if they match the current definitions in the code takes a loooong\ntime, there is some kind of timeout or hangup in there.\n<p></p>\nTherefore, you must set the CreateCounters property to true in the Diagnostics section of the config file, and run once\nto re-create all categories, if you run for the first time or have changed/added to the counter definitions.\n<p></p>\nTo add a new counter, you need to do several things: 1) Add a new member to the <see cref=\"!:Counters\"></see> enum.\n2) Add corresponding cases or switches (if new category) to the <see cref=\"!:CounterEnumFromCategoryAndName\"></see>,\nto bind the enum to a category and counter name. Finally, you must add counter creation data to the \n<see cref=\"!:CreateCountersForThreading\"></see> or other creation method (make a new one for a new category); this is where you\nset up the counter name, help and type information that is needed by the system and shown in Perfmon.\n"
   syntax:
-    content: >-
-      [Obsolete("This is no longer in use", true)]
-
-      public class PerformanceMonitoring
+    content: 'public class PerformanceMonitoring : Object'
     content.vb: >-
-      <Obsolete("This is no longer in use", True)>
-
       Public Class PerformanceMonitoring
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.Exceptions.PerformanceMonitoring.EnumUtil.MapEnums``2
-  - SuperOffice.Exceptions.PerformanceMonitoring.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.Exceptions.PerformanceMonitoring.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Exceptions.PerformanceMonitoring)
   - SuperOffice.Exceptions.PerformanceMonitoring.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: This is no longer in use
-    - type: System.Boolean
-      value: true
+  - SuperOffice.Exceptions.PerformanceMonitoring.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.Exceptions.PerformanceMonitoring.#ctor
   commentId: M:SuperOffice.Exceptions.PerformanceMonitoring.#ctor
   id: '#ctor'
@@ -88,497 +50,189 @@ items:
   nameWithType: PerformanceMonitoring.PerformanceMonitoring()
   fullName: SuperOffice.Exceptions.PerformanceMonitoring.PerformanceMonitoring()
   type: Constructor
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Exceptions
   syntax:
     content: public PerformanceMonitoring()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.Exceptions.PerformanceMonitoring.#ctor*
-  nameWithType.vb: PerformanceMonitoring.New()
-  fullName.vb: SuperOffice.Exceptions.PerformanceMonitoring.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 references:
 - uid: SuperOffice.Exceptions
   commentId: N:SuperOffice.Exceptions
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Exceptions
   nameWithType: SuperOffice.Exceptions
   fullName: SuperOffice.Exceptions
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Exceptions
-    name: Exceptions
-    isExternal: true
-    href: SuperOffice.Exceptions.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Exceptions
-    name: Exceptions
-    isExternal: true
-    href: SuperOffice.Exceptions.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Exceptions.PerformanceMonitoring.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<PerformanceMonitoring, To>(PerformanceMonitoring)
-  nameWithType: EnumUtil.MapEnums<PerformanceMonitoring, To>(PerformanceMonitoring)
-  fullName: EnumUtil.MapEnums<SuperOffice.Exceptions.PerformanceMonitoring, To>(SuperOffice.Exceptions.PerformanceMonitoring)
-  nameWithType.vb: EnumUtil.MapEnums(Of PerformanceMonitoring, To)(PerformanceMonitoring)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Exceptions.PerformanceMonitoring, To)(SuperOffice.Exceptions.PerformanceMonitoring)
-  name.vb: MapEnums(Of PerformanceMonitoring, To)(PerformanceMonitoring)
+  name: MapEnums<PerformanceMonitoring, To>()
+  nameWithType: EnumUtil.MapEnums<PerformanceMonitoring, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Exceptions.PerformanceMonitoring, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of PerformanceMonitoring, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Exceptions.PerformanceMonitoring, To)()
+  name.vb: MapEnums(Of PerformanceMonitoring, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Exceptions.PerformanceMonitoring)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<PerformanceMonitoring, To>
+    nameWithType: EnumUtil.MapEnums<PerformanceMonitoring, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Exceptions.PerformanceMonitoring, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Exceptions.PerformanceMonitoring
-    name: PerformanceMonitoring
-    isExternal: true
-    href: SuperOffice.Exceptions.PerformanceMonitoring.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Exceptions.PerformanceMonitoring
-    name: PerformanceMonitoring
-    isExternal: true
-    href: SuperOffice.Exceptions.PerformanceMonitoring.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Exceptions.PerformanceMonitoring)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of PerformanceMonitoring, To)
+    nameWithType: EnumUtil.MapEnums(Of PerformanceMonitoring, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Exceptions.PerformanceMonitoring, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Exceptions.PerformanceMonitoring
-    name: PerformanceMonitoring
-    isExternal: true
-    href: SuperOffice.Exceptions.PerformanceMonitoring.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Exceptions.PerformanceMonitoring
-    name: PerformanceMonitoring
-    isExternal: true
-    href: SuperOffice.Exceptions.PerformanceMonitoring.html
-  - name: )
-- uid: SuperOffice.Exceptions.PerformanceMonitoring.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  parent: SuperOffice.ErpSync.ConnectorWS.Converters
-  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<PerformanceMonitoring, To>(PerformanceMonitoring)
-  nameWithType: Converters.MapEnums<PerformanceMonitoring, To>(PerformanceMonitoring)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Exceptions.PerformanceMonitoring, To>(SuperOffice.Exceptions.PerformanceMonitoring)
-  nameWithType.vb: Converters.MapEnums(Of PerformanceMonitoring, To)(PerformanceMonitoring)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Exceptions.PerformanceMonitoring, To)(SuperOffice.Exceptions.PerformanceMonitoring)
-  name.vb: MapEnums(Of PerformanceMonitoring, To)(PerformanceMonitoring)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Exceptions.PerformanceMonitoring)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Exceptions.PerformanceMonitoring
-    name: PerformanceMonitoring
-    isExternal: true
-    href: SuperOffice.Exceptions.PerformanceMonitoring.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Exceptions.PerformanceMonitoring
-    name: PerformanceMonitoring
-    isExternal: true
-    href: SuperOffice.Exceptions.PerformanceMonitoring.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Exceptions.PerformanceMonitoring)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Exceptions.PerformanceMonitoring
-    name: PerformanceMonitoring
-    isExternal: true
-    href: SuperOffice.Exceptions.PerformanceMonitoring.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.Exceptions.PerformanceMonitoring
-    name: PerformanceMonitoring
-    isExternal: true
-    href: SuperOffice.Exceptions.PerformanceMonitoring.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Exceptions.PerformanceMonitoring.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Exceptions.PerformanceMonitoring)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<PerformanceMonitoring>(PerformanceMonitoring, PerformanceMonitoring)
-  nameWithType: ObjectExtensions.AssignByReflection<PerformanceMonitoring>(PerformanceMonitoring, PerformanceMonitoring)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Exceptions.PerformanceMonitoring>(SuperOffice.Exceptions.PerformanceMonitoring, SuperOffice.Exceptions.PerformanceMonitoring)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of PerformanceMonitoring)(PerformanceMonitoring, PerformanceMonitoring)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Exceptions.PerformanceMonitoring)(SuperOffice.Exceptions.PerformanceMonitoring, SuperOffice.Exceptions.PerformanceMonitoring)
-  name.vb: AssignByReflection(Of PerformanceMonitoring)(PerformanceMonitoring, PerformanceMonitoring)
+  name: AssignByReflection<PerformanceMonitoring>(PerformanceMonitoring)
+  nameWithType: ObjectExtensions.AssignByReflection<PerformanceMonitoring>(PerformanceMonitoring)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Exceptions.PerformanceMonitoring>(SuperOffice.Exceptions.PerformanceMonitoring)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of PerformanceMonitoring)(PerformanceMonitoring)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Exceptions.PerformanceMonitoring)(SuperOffice.Exceptions.PerformanceMonitoring)
+  name.vb: AssignByReflection(Of PerformanceMonitoring)(PerformanceMonitoring)
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Exceptions.PerformanceMonitoring,SuperOffice.Exceptions.PerformanceMonitoring)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<PerformanceMonitoring>
+    nameWithType: ObjectExtensions.AssignByReflection<PerformanceMonitoring>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Exceptions.PerformanceMonitoring>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.Exceptions.PerformanceMonitoring
-    name: PerformanceMonitoring
-    isExternal: true
-    href: SuperOffice.Exceptions.PerformanceMonitoring.html
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Exceptions.PerformanceMonitoring
     name: PerformanceMonitoring
+    nameWithType: PerformanceMonitoring
+    fullName: SuperOffice.Exceptions.PerformanceMonitoring
     isExternal: true
-    href: SuperOffice.Exceptions.PerformanceMonitoring.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Exceptions.PerformanceMonitoring
-    name: PerformanceMonitoring
-    isExternal: true
-    href: SuperOffice.Exceptions.PerformanceMonitoring.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Exceptions.PerformanceMonitoring,SuperOffice.Exceptions.PerformanceMonitoring)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of PerformanceMonitoring)
+    nameWithType: ObjectExtensions.AssignByReflection(Of PerformanceMonitoring)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Exceptions.PerformanceMonitoring)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Exceptions.PerformanceMonitoring
     name: PerformanceMonitoring
+    nameWithType: PerformanceMonitoring
+    fullName: SuperOffice.Exceptions.PerformanceMonitoring
     isExternal: true
-    href: SuperOffice.Exceptions.PerformanceMonitoring.html
   - name: )
-  - name: (
-  - uid: SuperOffice.Exceptions.PerformanceMonitoring
-    name: PerformanceMonitoring
-    isExternal: true
-    href: SuperOffice.Exceptions.PerformanceMonitoring.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Exceptions.PerformanceMonitoring
-    name: PerformanceMonitoring
-    isExternal: true
-    href: SuperOffice.Exceptions.PerformanceMonitoring.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Exceptions.PerformanceMonitoring.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<PerformanceMonitoring>(PerformanceMonitoring)
-  nameWithType: ObjectExtensions.GraphCopy<PerformanceMonitoring>(PerformanceMonitoring)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Exceptions.PerformanceMonitoring>(SuperOffice.Exceptions.PerformanceMonitoring)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of PerformanceMonitoring)(PerformanceMonitoring)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Exceptions.PerformanceMonitoring)(SuperOffice.Exceptions.PerformanceMonitoring)
-  name.vb: GraphCopy(Of PerformanceMonitoring)(PerformanceMonitoring)
+  name: GraphCopy<PerformanceMonitoring>()
+  nameWithType: ObjectExtensions.GraphCopy<PerformanceMonitoring>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Exceptions.PerformanceMonitoring>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of PerformanceMonitoring)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Exceptions.PerformanceMonitoring)()
+  name.vb: GraphCopy(Of PerformanceMonitoring)()
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Exceptions.PerformanceMonitoring)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<PerformanceMonitoring>
+    nameWithType: ObjectExtensions.GraphCopy<PerformanceMonitoring>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Exceptions.PerformanceMonitoring>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.Exceptions.PerformanceMonitoring
-    name: PerformanceMonitoring
-    isExternal: true
-    href: SuperOffice.Exceptions.PerformanceMonitoring.html
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Exceptions.PerformanceMonitoring
-    name: PerformanceMonitoring
-    isExternal: true
-    href: SuperOffice.Exceptions.PerformanceMonitoring.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Exceptions.PerformanceMonitoring)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of PerformanceMonitoring)
+    nameWithType: ObjectExtensions.GraphCopy(Of PerformanceMonitoring)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Exceptions.PerformanceMonitoring)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Exceptions.PerformanceMonitoring
-    name: PerformanceMonitoring
-    isExternal: true
-    href: SuperOffice.Exceptions.PerformanceMonitoring.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Exceptions.PerformanceMonitoring.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<PerformanceMonitoring, To>()
+  nameWithType: Converters.MapEnums<PerformanceMonitoring, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Exceptions.PerformanceMonitoring, To>()
+  nameWithType.vb: Converters.MapEnums(Of PerformanceMonitoring, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Exceptions.PerformanceMonitoring, To)()
+  name.vb: MapEnums(Of PerformanceMonitoring, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<PerformanceMonitoring, To>
+    nameWithType: Converters.MapEnums<PerformanceMonitoring, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Exceptions.PerformanceMonitoring, To>
+    isExternal: true
   - name: (
-  - uid: SuperOffice.Exceptions.PerformanceMonitoring
-    name: PerformanceMonitoring
-    isExternal: true
-    href: SuperOffice.Exceptions.PerformanceMonitoring.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of PerformanceMonitoring, To)
+    nameWithType: Converters.MapEnums(Of PerformanceMonitoring, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Exceptions.PerformanceMonitoring, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -587,93 +241,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<From, To>(From)
-  nameWithType: Converters.MapEnums<From, To>(From)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
-  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
-  name.vb: MapEnums(Of From, To)(From)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - name: From
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - name: From
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters
-  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
-  parent: SuperOffice.ErpSync.ConnectorWS
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
-  name: Converters
-  nameWithType: Converters
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   name: AssignByReflection<T>(T, T)
   nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
   fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
@@ -682,46 +286,56 @@ references:
   name.vb: AssignByReflection(Of T)(T, T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
-  - name: ','
-  - name: " "
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.ObjectExtensions
   commentId: T:SuperOffice.Util.ObjectExtensions
   parent: SuperOffice.Util
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
   name: ObjectExtensions
   nameWithType: ObjectExtensions
   fullName: SuperOffice.Util.ObjectExtensions
 - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   name: GraphCopy<T>(T)
   nameWithType: ObjectExtensions.GraphCopy<T>(T)
   fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
@@ -730,99 +344,95 @@ references:
   name.vb: GraphCopy(Of T)(T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS
-  commentId: N:SuperOffice.ErpSync.ConnectorWS
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.ErpSync.ConnectorWS
-  nameWithType: SuperOffice.ErpSync.ConnectorWS
-  fullName: SuperOffice.ErpSync.ConnectorWS
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
 - uid: SuperOffice.Exceptions.PerformanceMonitoring.#ctor*
   commentId: Overload:SuperOffice.Exceptions.PerformanceMonitoring.#ctor
   isExternal: true
-  href: SuperOffice.Exceptions.PerformanceMonitoring.html#SuperOffice_Exceptions_PerformanceMonitoring__ctor
   name: PerformanceMonitoring
   nameWithType: PerformanceMonitoring.PerformanceMonitoring
   fullName: SuperOffice.Exceptions.PerformanceMonitoring.PerformanceMonitoring
-  nameWithType.vb: PerformanceMonitoring.New
-  fullName.vb: SuperOffice.Exceptions.PerformanceMonitoring.New
-  name.vb: New

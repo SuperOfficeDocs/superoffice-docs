@@ -24,6 +24,9 @@ items:
   nameWithType: IUserInfo
   fullName: SuperOffice.CRM.IUserInfo
   type: Interface
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
@@ -33,6 +36,12 @@ items:
   extensionMethods:
   - SuperOffice.CRM.IUserInfo.EnumUtil.MapEnums``2
   - SuperOffice.CRM.IUserInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
 - uid: SuperOffice.CRM.IUserInfo.AssociateId
   commentId: P:SuperOffice.CRM.IUserInfo.AssociateId
   id: AssociateId
@@ -44,6 +53,9 @@ items:
   nameWithType: IUserInfo.AssociateId
   fullName: SuperOffice.CRM.IUserInfo.AssociateId
   type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
@@ -54,6 +66,10 @@ items:
       type: System.Int32
     content.vb: ReadOnly Property AssociateId As Integer
   overload: SuperOffice.CRM.IUserInfo.AssociateId*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
 - uid: SuperOffice.CRM.IUserInfo.AssociateName
   commentId: P:SuperOffice.CRM.IUserInfo.AssociateName
   id: AssociateName
@@ -65,6 +81,9 @@ items:
   nameWithType: IUserInfo.AssociateName
   fullName: SuperOffice.CRM.IUserInfo.AssociateName
   type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
@@ -75,6 +94,10 @@ items:
       type: System.String
     content.vb: ReadOnly Property AssociateName As String
   overload: SuperOffice.CRM.IUserInfo.AssociateName*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
 - uid: SuperOffice.CRM.IUserInfo.CountryDomainName
   commentId: P:SuperOffice.CRM.IUserInfo.CountryDomainName
   id: CountryDomainName
@@ -86,6 +109,9 @@ items:
   nameWithType: IUserInfo.CountryDomainName
   fullName: SuperOffice.CRM.IUserInfo.CountryDomainName
   type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
@@ -96,6 +122,10 @@ items:
       type: System.String
     content.vb: ReadOnly Property CountryDomainName As String
   overload: SuperOffice.CRM.IUserInfo.CountryDomainName*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
 - uid: SuperOffice.CRM.IUserInfo.CountryId
   commentId: P:SuperOffice.CRM.IUserInfo.CountryId
   id: CountryId
@@ -107,6 +137,9 @@ items:
   nameWithType: IUserInfo.CountryId
   fullName: SuperOffice.CRM.IUserInfo.CountryId
   type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
@@ -117,6 +150,10 @@ items:
       type: System.Int32
     content.vb: ReadOnly Property CountryId As Integer
   overload: SuperOffice.CRM.IUserInfo.CountryId*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
 - uid: SuperOffice.CRM.IUserInfo.CountryName
   commentId: P:SuperOffice.CRM.IUserInfo.CountryName
   id: CountryName
@@ -128,6 +165,9 @@ items:
   nameWithType: IUserInfo.CountryName
   fullName: SuperOffice.CRM.IUserInfo.CountryName
   type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
@@ -138,6 +178,10 @@ items:
       type: System.String
     content.vb: ReadOnly Property CountryName As String
   overload: SuperOffice.CRM.IUserInfo.CountryName*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
 - uid: SuperOffice.CRM.IUserInfo.Email
   commentId: P:SuperOffice.CRM.IUserInfo.Email
   id: Email
@@ -149,6 +193,9 @@ items:
   nameWithType: IUserInfo.Email
   fullName: SuperOffice.CRM.IUserInfo.Email
   type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
@@ -159,6 +206,10 @@ items:
       type: System.String
     content.vb: ReadOnly Property Email As String
   overload: SuperOffice.CRM.IUserInfo.Email*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
 - uid: SuperOffice.CRM.IUserInfo.FullName
   commentId: P:SuperOffice.CRM.IUserInfo.FullName
   id: FullName
@@ -170,6 +221,9 @@ items:
   nameWithType: IUserInfo.FullName
   fullName: SuperOffice.CRM.IUserInfo.FullName
   type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
@@ -180,6 +234,10 @@ items:
       type: System.String
     content.vb: ReadOnly Property FullName As String
   overload: SuperOffice.CRM.IUserInfo.FullName*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
 - uid: SuperOffice.CRM.IUserInfo.FunctionRights
   commentId: P:SuperOffice.CRM.IUserInfo.FunctionRights
   id: FunctionRights
@@ -191,6 +249,9 @@ items:
   nameWithType: IUserInfo.FunctionRights
   fullName: SuperOffice.CRM.IUserInfo.FunctionRights
   type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
@@ -201,6 +262,10 @@ items:
       type: System.String[]
     content.vb: ReadOnly Property FunctionRights As String()
   overload: SuperOffice.CRM.IUserInfo.FunctionRights*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
 - uid: SuperOffice.CRM.IUserInfo.Licenses
   commentId: P:SuperOffice.CRM.IUserInfo.Licenses
   id: Licenses
@@ -212,6 +277,9 @@ items:
   nameWithType: IUserInfo.Licenses
   fullName: SuperOffice.CRM.IUserInfo.Licenses
   type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
@@ -222,6 +290,10 @@ items:
       type: System.String[]
     content.vb: ReadOnly Property Licenses As String()
   overload: SuperOffice.CRM.IUserInfo.Licenses*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
 - uid: SuperOffice.CRM.IUserInfo.RoleId
   commentId: P:SuperOffice.CRM.IUserInfo.RoleId
   id: RoleId
@@ -233,6 +305,9 @@ items:
   nameWithType: IUserInfo.RoleId
   fullName: SuperOffice.CRM.IUserInfo.RoleId
   type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
@@ -243,6 +318,10 @@ items:
       type: System.Int32
     content.vb: ReadOnly Property RoleId As Integer
   overload: SuperOffice.CRM.IUserInfo.RoleId*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
 - uid: SuperOffice.CRM.IUserInfo.RoleName
   commentId: P:SuperOffice.CRM.IUserInfo.RoleName
   id: RoleName
@@ -254,6 +333,9 @@ items:
   nameWithType: IUserInfo.RoleName
   fullName: SuperOffice.CRM.IUserInfo.RoleName
   type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
@@ -264,6 +346,10 @@ items:
       type: System.String
     content.vb: ReadOnly Property RoleName As String
   overload: SuperOffice.CRM.IUserInfo.RoleName*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
 - uid: SuperOffice.CRM.IUserInfo.Ticket
   commentId: P:SuperOffice.CRM.IUserInfo.Ticket
   id: Ticket
@@ -275,6 +361,9 @@ items:
   nameWithType: IUserInfo.Ticket
   fullName: SuperOffice.CRM.IUserInfo.Ticket
   type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
@@ -285,144 +374,88 @@ items:
       type: System.String
     content.vb: ReadOnly Property Ticket As String
   overload: SuperOffice.CRM.IUserInfo.Ticket*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
 references:
 - uid: SuperOffice.CRM
   commentId: N:SuperOffice.CRM
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM
   nameWithType: SuperOffice.CRM
   fullName: SuperOffice.CRM
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
 - uid: SuperOffice.CRM.IUserInfo.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<IUserInfo, To>(IUserInfo)
-  nameWithType: EnumUtil.MapEnums<IUserInfo, To>(IUserInfo)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.IUserInfo, To>(SuperOffice.CRM.IUserInfo)
-  nameWithType.vb: EnumUtil.MapEnums(Of IUserInfo, To)(IUserInfo)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.IUserInfo, To)(SuperOffice.CRM.IUserInfo)
-  name.vb: MapEnums(Of IUserInfo, To)(IUserInfo)
+  name: MapEnums<IUserInfo, To>()
+  nameWithType: EnumUtil.MapEnums<IUserInfo, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.IUserInfo, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of IUserInfo, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.IUserInfo, To)()
+  name.vb: MapEnums(Of IUserInfo, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.IUserInfo)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<IUserInfo, To>
+    nameWithType: EnumUtil.MapEnums<IUserInfo, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.IUserInfo, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.IUserInfo
-    name: IUserInfo
-    isExternal: true
-    href: SuperOffice.CRM.IUserInfo.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.IUserInfo
-    name: IUserInfo
-    isExternal: true
-    href: SuperOffice.CRM.IUserInfo.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.IUserInfo)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of IUserInfo, To)
+    nameWithType: EnumUtil.MapEnums(Of IUserInfo, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.IUserInfo, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.IUserInfo
-    name: IUserInfo
-    isExternal: true
-    href: SuperOffice.CRM.IUserInfo.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.IUserInfo
-    name: IUserInfo
-    isExternal: true
-    href: SuperOffice.CRM.IUserInfo.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.IUserInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<IUserInfo, To>(IUserInfo)
-  nameWithType: Converters.MapEnums<IUserInfo, To>(IUserInfo)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.IUserInfo, To>(SuperOffice.CRM.IUserInfo)
-  nameWithType.vb: Converters.MapEnums(Of IUserInfo, To)(IUserInfo)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.IUserInfo, To)(SuperOffice.CRM.IUserInfo)
-  name.vb: MapEnums(Of IUserInfo, To)(IUserInfo)
+  name: MapEnums<IUserInfo, To>()
+  nameWithType: Converters.MapEnums<IUserInfo, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.IUserInfo, To>()
+  nameWithType.vb: Converters.MapEnums(Of IUserInfo, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.IUserInfo, To)()
+  name.vb: MapEnums(Of IUserInfo, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.IUserInfo)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<IUserInfo, To>
+    nameWithType: Converters.MapEnums<IUserInfo, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.IUserInfo, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.IUserInfo
-    name: IUserInfo
-    isExternal: true
-    href: SuperOffice.CRM.IUserInfo.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.IUserInfo
-    name: IUserInfo
-    isExternal: true
-    href: SuperOffice.CRM.IUserInfo.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.IUserInfo)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of IUserInfo, To)
+    nameWithType: Converters.MapEnums(Of IUserInfo, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.IUserInfo, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.IUserInfo
-    name: IUserInfo
-    isExternal: true
-    href: SuperOffice.CRM.IUserInfo.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.IUserInfo
-    name: IUserInfo
-    isExternal: true
-    href: SuperOffice.CRM.IUserInfo.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -431,45 +464,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -478,83 +509,50 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.CRM.IUserInfo.AssociateId*
   commentId: Overload:SuperOffice.CRM.IUserInfo.AssociateId
   isExternal: true
-  href: SuperOffice.CRM.IUserInfo.html#SuperOffice_CRM_IUserInfo_AssociateId
   name: AssociateId
   nameWithType: IUserInfo.AssociateId
   fullName: SuperOffice.CRM.IUserInfo.AssociateId
@@ -562,24 +560,18 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.CRM.IUserInfo.AssociateName*
   commentId: Overload:SuperOffice.CRM.IUserInfo.AssociateName
   isExternal: true
-  href: SuperOffice.CRM.IUserInfo.html#SuperOffice_CRM_IUserInfo_AssociateName
   name: AssociateName
   nameWithType: IUserInfo.AssociateName
   fullName: SuperOffice.CRM.IUserInfo.AssociateName
@@ -587,103 +579,92 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.CRM.IUserInfo.CountryDomainName*
   commentId: Overload:SuperOffice.CRM.IUserInfo.CountryDomainName
   isExternal: true
-  href: SuperOffice.CRM.IUserInfo.html#SuperOffice_CRM_IUserInfo_CountryDomainName
   name: CountryDomainName
   nameWithType: IUserInfo.CountryDomainName
   fullName: SuperOffice.CRM.IUserInfo.CountryDomainName
 - uid: SuperOffice.CRM.IUserInfo.CountryId*
   commentId: Overload:SuperOffice.CRM.IUserInfo.CountryId
   isExternal: true
-  href: SuperOffice.CRM.IUserInfo.html#SuperOffice_CRM_IUserInfo_CountryId
   name: CountryId
   nameWithType: IUserInfo.CountryId
   fullName: SuperOffice.CRM.IUserInfo.CountryId
 - uid: SuperOffice.CRM.IUserInfo.CountryName*
   commentId: Overload:SuperOffice.CRM.IUserInfo.CountryName
   isExternal: true
-  href: SuperOffice.CRM.IUserInfo.html#SuperOffice_CRM_IUserInfo_CountryName
   name: CountryName
   nameWithType: IUserInfo.CountryName
   fullName: SuperOffice.CRM.IUserInfo.CountryName
 - uid: SuperOffice.CRM.IUserInfo.Email*
   commentId: Overload:SuperOffice.CRM.IUserInfo.Email
   isExternal: true
-  href: SuperOffice.CRM.IUserInfo.html#SuperOffice_CRM_IUserInfo_Email
   name: Email
   nameWithType: IUserInfo.Email
   fullName: SuperOffice.CRM.IUserInfo.Email
 - uid: SuperOffice.CRM.IUserInfo.FullName*
   commentId: Overload:SuperOffice.CRM.IUserInfo.FullName
   isExternal: true
-  href: SuperOffice.CRM.IUserInfo.html#SuperOffice_CRM_IUserInfo_FullName
   name: FullName
   nameWithType: IUserInfo.FullName
   fullName: SuperOffice.CRM.IUserInfo.FullName
 - uid: SuperOffice.CRM.IUserInfo.FunctionRights*
   commentId: Overload:SuperOffice.CRM.IUserInfo.FunctionRights
   isExternal: true
-  href: SuperOffice.CRM.IUserInfo.html#SuperOffice_CRM_IUserInfo_FunctionRights
   name: FunctionRights
   nameWithType: IUserInfo.FunctionRights
   fullName: SuperOffice.CRM.IUserInfo.FunctionRights
 - uid: System.String[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string[]
-  nameWithType: string[]
-  fullName: string[]
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
   nameWithType.vb: String()
-  fullName.vb: String()
+  fullName.vb: System.String()
   name.vb: String()
   spec.csharp:
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.IUserInfo.Licenses*
   commentId: Overload:SuperOffice.CRM.IUserInfo.Licenses
   isExternal: true
-  href: SuperOffice.CRM.IUserInfo.html#SuperOffice_CRM_IUserInfo_Licenses
   name: Licenses
   nameWithType: IUserInfo.Licenses
   fullName: SuperOffice.CRM.IUserInfo.Licenses
 - uid: SuperOffice.CRM.IUserInfo.RoleId*
   commentId: Overload:SuperOffice.CRM.IUserInfo.RoleId
   isExternal: true
-  href: SuperOffice.CRM.IUserInfo.html#SuperOffice_CRM_IUserInfo_RoleId
   name: RoleId
   nameWithType: IUserInfo.RoleId
   fullName: SuperOffice.CRM.IUserInfo.RoleId
 - uid: SuperOffice.CRM.IUserInfo.RoleName*
   commentId: Overload:SuperOffice.CRM.IUserInfo.RoleName
   isExternal: true
-  href: SuperOffice.CRM.IUserInfo.html#SuperOffice_CRM_IUserInfo_RoleName
   name: RoleName
   nameWithType: IUserInfo.RoleName
   fullName: SuperOffice.CRM.IUserInfo.RoleName
 - uid: SuperOffice.CRM.IUserInfo.Ticket*
   commentId: Overload:SuperOffice.CRM.IUserInfo.Ticket
   isExternal: true
-  href: SuperOffice.CRM.IUserInfo.html#SuperOffice_CRM_IUserInfo_Ticket
   name: Ticket
   nameWithType: IUserInfo.Ticket
   fullName: SuperOffice.CRM.IUserInfo.Ticket

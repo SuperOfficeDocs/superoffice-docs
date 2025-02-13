@@ -35,9 +35,9 @@ items:
   - SuperOffice.CRM.Services.IErpSyncAgent.GetErpFieldValues(System.Int32,SuperOffice.Data.CrmActorType,System.Int32,System.String[])
   - SuperOffice.CRM.Services.IErpSyncAgent.GetErpSyncConnectionSummary(System.Int32)
   - SuperOffice.CRM.Services.IErpSyncAgent.GetErpSyncConnectorEntity(System.Int32)
+  - SuperOffice.CRM.Services.IErpSyncAgent.GetFieldsForNewErpActor(System.Int32,SuperOffice.Data.ErpActorType)
   - SuperOffice.CRM.Services.IErpSyncAgent.GetFieldValuesFromCrm(System.Int32,SuperOffice.Data.CrmActorType)
   - SuperOffice.CRM.Services.IErpSyncAgent.GetFieldValuesFromErp(System.Int32,SuperOffice.Data.ErpActorType,System.String)
-  - SuperOffice.CRM.Services.IErpSyncAgent.GetFieldsForNewErpActor(System.Int32,SuperOffice.Data.ErpActorType)
   - SuperOffice.CRM.Services.IErpSyncAgent.MoveErpFieldItem(System.Int32,System.Int32,System.Int32,SuperOffice.Data.ErpActorType)
   - SuperOffice.CRM.Services.IErpSyncAgent.SaveActorTypeMapping(SuperOffice.CRM.Services.ErpSyncActorTypeMapping)
   - SuperOffice.CRM.Services.IErpSyncAgent.SaveConnection(SuperOffice.CRM.Services.ErpConnection)
@@ -61,32 +61,15 @@ items:
   nameWithType: IErpSyncAgent
   fullName: SuperOffice.CRM.Services.IErpSyncAgent
   type: Interface
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Interface for the ErpSync Agent
-
-    Services for the ERP Integration Services feature
-
-    <p></p>
-
-    <b>Online Restricted:</b> This agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
+  summary: "\nInterface for the ErpSync Agent\nServices for the ERP Integration Services feature\n<p></p>\n<strong>Online Restricted:</strong> This agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
   example:
-  - >-
-    <pre><code class="lang-csharp">using SuperOffice;
-
-    using SuperOffice.CRM.Services;
-
-
-    using (SoSession mySession = SoSession.Authenticate("user", "pass"))
-
-    {
-       using (ErpSyncAgent agent = new ErpSyncAgent())
-       {
-          // call methods on agent here...
-       }
-    }</code></pre>
+  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (ErpSyncAgent agent = new ErpSyncAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
   syntax:
     content: >-
       [Agent("ErpSync Agent", "Interface for the ErpSync Agent. Services for the ERP Integration Services feature")]
@@ -95,7 +78,8 @@ items:
     content.vb: >-
       <Agent("ErpSync Agent", "Interface for the ErpSync Agent. Services for the ERP Integration Services feature")>
 
-      Public Interface IErpSyncAgent Inherits IAgent
+      Public Interface IErpSyncAgent
+          Inherits IAgent
   attributes:
   - type: SuperOffice.CRM.Services.Reflection.AgentAttribute
     ctor: SuperOffice.CRM.Services.Reflection.AgentAttribute.#ctor(System.String,System.String)
@@ -104,6 +88,12 @@ items:
       value: ErpSync Agent
     - type: System.String
       value: Interface for the ErpSync Agent. Services for the ERP Integration Services feature
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.CreateDefaultErpSyncConnectorEntity
   commentId: M:SuperOffice.CRM.Services.IErpSyncAgent.CreateDefaultErpSyncConnectorEntity
   id: CreateDefaultErpSyncConnectorEntity
@@ -115,24 +105,19 @@ items:
   nameWithType: IErpSyncAgent.CreateDefaultErpSyncConnectorEntity()
   fullName: SuperOffice.CRM.Services.IErpSyncAgent.CreateDefaultErpSyncConnectorEntity()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new ErpSyncConnectorEntity.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-
-    <p></p>
-
-    <b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
-  example: []
+  summary: "\nLoading default values into a new ErpSyncConnectorEntity.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
   syntax:
     content: ErpSyncConnectorEntity CreateDefaultErpSyncConnectorEntity()
     return:
       type: SuperOffice.CRM.Services.ErpSyncConnectorEntity
       description: New ErpSyncConnectorEntity with default values
-    content.vb: Function CreateDefaultErpSyncConnectorEntity() As ErpSyncConnectorEntity
+    content.vb: Function CreateDefaultErpSyncConnectorEntity As ErpSyncConnectorEntity
   overload: SuperOffice.CRM.Services.IErpSyncAgent.CreateDefaultErpSyncConnectorEntity*
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.SaveErpSyncConnectorEntity(SuperOffice.CRM.Services.ErpSyncConnectorEntity)
   commentId: M:SuperOffice.CRM.Services.IErpSyncAgent.SaveErpSyncConnectorEntity(SuperOffice.CRM.Services.ErpSyncConnectorEntity)
@@ -145,16 +130,13 @@ items:
   nameWithType: IErpSyncAgent.SaveErpSyncConnectorEntity(ErpSyncConnectorEntity)
   fullName: SuperOffice.CRM.Services.IErpSyncAgent.SaveErpSyncConnectorEntity(SuperOffice.CRM.Services.ErpSyncConnectorEntity)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Updates the existing ErpSyncConnectorEntity or creates a new ErpSyncConnectorEntity if the id parameter is empty
-
-    <p></p>
-
-    <b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
-  example: []
+  summary: "\nUpdates the existing ErpSyncConnectorEntity or creates a new ErpSyncConnectorEntity if the id parameter is empty\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
   syntax:
     content: ErpSyncConnectorEntity SaveErpSyncConnectorEntity(ErpSyncConnectorEntity erpSyncConnectorEntity)
     parameters:
@@ -173,20 +155,17 @@ items:
   langs:
   - csharp
   - vb
-  name: DeleteErpSyncConnectorEntity(int)
-  nameWithType: IErpSyncAgent.DeleteErpSyncConnectorEntity(int)
-  fullName: SuperOffice.CRM.Services.IErpSyncAgent.DeleteErpSyncConnectorEntity(int)
+  name: DeleteErpSyncConnectorEntity(Int32)
+  nameWithType: IErpSyncAgent.DeleteErpSyncConnectorEntity(Int32)
+  fullName: SuperOffice.CRM.Services.IErpSyncAgent.DeleteErpSyncConnectorEntity(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Deletes the ErpSyncConnectorEntity
-
-    <p></p>
-
-    <b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
-  example: []
+  summary: "\nDeletes the ErpSyncConnectorEntity\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
   syntax:
     content: void DeleteErpSyncConnectorEntity(int erpSyncConnectorEntityId)
     parameters:
@@ -195,9 +174,6 @@ items:
       description: The identity of the ErpSyncConnectorEntity
     content.vb: Sub DeleteErpSyncConnectorEntity(erpSyncConnectorEntityId As Integer)
   overload: SuperOffice.CRM.Services.IErpSyncAgent.DeleteErpSyncConnectorEntity*
-  nameWithType.vb: IErpSyncAgent.DeleteErpSyncConnectorEntity(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IErpSyncAgent.DeleteErpSyncConnectorEntity(Integer)
-  name.vb: DeleteErpSyncConnectorEntity(Integer)
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.GetConnection(System.Int32)
   commentId: M:SuperOffice.CRM.Services.IErpSyncAgent.GetConnection(System.Int32)
   id: GetConnection(System.Int32)
@@ -205,20 +181,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetConnection(int)
-  nameWithType: IErpSyncAgent.GetConnection(int)
-  fullName: SuperOffice.CRM.Services.IErpSyncAgent.GetConnection(int)
+  name: GetConnection(Int32)
+  nameWithType: IErpSyncAgent.GetConnection(Int32)
+  fullName: SuperOffice.CRM.Services.IErpSyncAgent.GetConnection(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Returns the specified connection.
-
-    <p></p>
-
-    <b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
-  example: []
+  summary: "\nReturns the specified connection.\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
   syntax:
     content: ErpConnection GetConnection(int erpConnectionId)
     parameters:
@@ -230,9 +203,6 @@ items:
       description: The connection
     content.vb: Function GetConnection(erpConnectionId As Integer) As ErpConnection
   overload: SuperOffice.CRM.Services.IErpSyncAgent.GetConnection*
-  nameWithType.vb: IErpSyncAgent.GetConnection(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IErpSyncAgent.GetConnection(Integer)
-  name.vb: GetConnection(Integer)
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.SaveConnection(SuperOffice.CRM.Services.ErpConnection)
   commentId: M:SuperOffice.CRM.Services.IErpSyncAgent.SaveConnection(SuperOffice.CRM.Services.ErpConnection)
   id: SaveConnection(SuperOffice.CRM.Services.ErpConnection)
@@ -244,16 +214,13 @@ items:
   nameWithType: IErpSyncAgent.SaveConnection(ErpConnection)
   fullName: SuperOffice.CRM.Services.IErpSyncAgent.SaveConnection(SuperOffice.CRM.Services.ErpConnection)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Saves a connection to the database.
-
-    <p></p>
-
-    <b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
-  example: []
+  summary: "\nSaves a connection to the database.\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
   syntax:
     content: ErpConnection SaveConnection(ErpConnection connection)
     parameters:
@@ -272,20 +239,17 @@ items:
   langs:
   - csharp
   - vb
-  name: DeleteConnection(int)
-  nameWithType: IErpSyncAgent.DeleteConnection(int)
-  fullName: SuperOffice.CRM.Services.IErpSyncAgent.DeleteConnection(int)
+  name: DeleteConnection(Int32)
+  nameWithType: IErpSyncAgent.DeleteConnection(Int32)
+  fullName: SuperOffice.CRM.Services.IErpSyncAgent.DeleteConnection(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Deletes a connection from the database.
-
-    <p></p>
-
-    <b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
-  example: []
+  summary: "\nDeletes a connection from the database.\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
   syntax:
     content: void DeleteConnection(int erpConnectionId)
     parameters:
@@ -294,9 +258,6 @@ items:
       description: Primary key of the connection
     content.vb: Sub DeleteConnection(erpConnectionId As Integer)
   overload: SuperOffice.CRM.Services.IErpSyncAgent.DeleteConnection*
-  nameWithType.vb: IErpSyncAgent.DeleteConnection(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IErpSyncAgent.DeleteConnection(Integer)
-  name.vb: DeleteConnection(Integer)
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.GetConfigurationFields(System.Int32)
   commentId: M:SuperOffice.CRM.Services.IErpSyncAgent.GetConfigurationFields(System.Int32)
   id: GetConfigurationFields(System.Int32)
@@ -304,20 +265,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetConfigurationFields(int)
-  nameWithType: IErpSyncAgent.GetConfigurationFields(int)
-  fullName: SuperOffice.CRM.Services.IErpSyncAgent.GetConfigurationFields(int)
+  name: GetConfigurationFields(Int32)
+  nameWithType: IErpSyncAgent.GetConfigurationFields(Int32)
+  fullName: SuperOffice.CRM.Services.IErpSyncAgent.GetConfigurationFields(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Returns all fields needed to connect to the given connector
-
-    <p></p>
-
-    <b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
-  example: []
+  summary: "\nReturns all fields needed to connect to the given connector\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
   syntax:
     content: FieldMetadata[] GetConfigurationFields(int erpConnectorId)
     parameters:
@@ -329,9 +287,6 @@ items:
       description: The fields
     content.vb: Function GetConfigurationFields(erpConnectorId As Integer) As FieldMetadata()
   overload: SuperOffice.CRM.Services.IErpSyncAgent.GetConfigurationFields*
-  nameWithType.vb: IErpSyncAgent.GetConfigurationFields(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IErpSyncAgent.GetConfigurationFields(Integer)
-  name.vb: GetConfigurationFields(Integer)
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.GetErpConnectionConfigFields(System.Int32)
   commentId: M:SuperOffice.CRM.Services.IErpSyncAgent.GetErpConnectionConfigFields(System.Int32)
   id: GetErpConnectionConfigFields(System.Int32)
@@ -339,20 +294,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetErpConnectionConfigFields(int)
-  nameWithType: IErpSyncAgent.GetErpConnectionConfigFields(int)
-  fullName: SuperOffice.CRM.Services.IErpSyncAgent.GetErpConnectionConfigFields(int)
+  name: GetErpConnectionConfigFields(Int32)
+  nameWithType: IErpSyncAgent.GetErpConnectionConfigFields(Int32)
+  fullName: SuperOffice.CRM.Services.IErpSyncAgent.GetErpConnectionConfigFields(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Returns the config fields for the connection.
-
-    <p></p>
-
-    <b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
-  example: []
+  summary: "\nReturns the config fields for the connection.\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
   syntax:
     content: StringDictionary GetErpConnectionConfigFields(int erpConnectionId)
     parameters:
@@ -364,9 +316,6 @@ items:
       description: Config Fields
     content.vb: Function GetErpConnectionConfigFields(erpConnectionId As Integer) As StringDictionary
   overload: SuperOffice.CRM.Services.IErpSyncAgent.GetErpConnectionConfigFields*
-  nameWithType.vb: IErpSyncAgent.GetErpConnectionConfigFields(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IErpSyncAgent.GetErpConnectionConfigFields(Integer)
-  name.vb: GetErpConnectionConfigFields(Integer)
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.ToggleErpConnectionActive(System.Int32)
   commentId: M:SuperOffice.CRM.Services.IErpSyncAgent.ToggleErpConnectionActive(System.Int32)
   id: ToggleErpConnectionActive(System.Int32)
@@ -374,20 +323,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToggleErpConnectionActive(int)
-  nameWithType: IErpSyncAgent.ToggleErpConnectionActive(int)
-  fullName: SuperOffice.CRM.Services.IErpSyncAgent.ToggleErpConnectionActive(int)
+  name: ToggleErpConnectionActive(Int32)
+  nameWithType: IErpSyncAgent.ToggleErpConnectionActive(Int32)
+  fullName: SuperOffice.CRM.Services.IErpSyncAgent.ToggleErpConnectionActive(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Toggles the Active state of the connection
-
-    <p></p>
-
-    <b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
-  example: []
+  summary: "\nToggles the Active state of the connection\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
   syntax:
     content: string[] ToggleErpConnectionActive(int erpConnectionId)
     parameters:
@@ -399,9 +345,6 @@ items:
       description: Contains the reason for why the toggle failed. Empty if operation was successful
     content.vb: Function ToggleErpConnectionActive(erpConnectionId As Integer) As String()
   overload: SuperOffice.CRM.Services.IErpSyncAgent.ToggleErpConnectionActive*
-  nameWithType.vb: IErpSyncAgent.ToggleErpConnectionActive(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IErpSyncAgent.ToggleErpConnectionActive(Integer)
-  name.vb: ToggleErpConnectionActive(Integer)
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.TestConnectionById(System.Int32)
   commentId: M:SuperOffice.CRM.Services.IErpSyncAgent.TestConnectionById(System.Int32)
   id: TestConnectionById(System.Int32)
@@ -409,20 +352,17 @@ items:
   langs:
   - csharp
   - vb
-  name: TestConnectionById(int)
-  nameWithType: IErpSyncAgent.TestConnectionById(int)
-  fullName: SuperOffice.CRM.Services.IErpSyncAgent.TestConnectionById(int)
+  name: TestConnectionById(Int32)
+  nameWithType: IErpSyncAgent.TestConnectionById(Int32)
+  fullName: SuperOffice.CRM.Services.IErpSyncAgent.TestConnectionById(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Tests to see if we can establish a connection with the given config fields
-
-    <p></p>
-
-    <b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
-  example: []
+  summary: "\nTests to see if we can establish a connection with the given config fields\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
   syntax:
     content: bool TestConnectionById(int erpConnectionId)
     parameters:
@@ -434,9 +374,6 @@ items:
       description: Returns true if success
     content.vb: Function TestConnectionById(erpConnectionId As Integer) As Boolean
   overload: SuperOffice.CRM.Services.IErpSyncAgent.TestConnectionById*
-  nameWithType.vb: IErpSyncAgent.TestConnectionById(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IErpSyncAgent.TestConnectionById(Integer)
-  name.vb: TestConnectionById(Integer)
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.TestConnectionByConfig(System.Int32,SuperOffice.CRM.Services.StringDictionary)
   commentId: M:SuperOffice.CRM.Services.IErpSyncAgent.TestConnectionByConfig(System.Int32,SuperOffice.CRM.Services.StringDictionary)
   id: TestConnectionByConfig(System.Int32,SuperOffice.CRM.Services.StringDictionary)
@@ -444,20 +381,17 @@ items:
   langs:
   - csharp
   - vb
-  name: TestConnectionByConfig(int, StringDictionary)
-  nameWithType: IErpSyncAgent.TestConnectionByConfig(int, StringDictionary)
-  fullName: SuperOffice.CRM.Services.IErpSyncAgent.TestConnectionByConfig(int, SuperOffice.CRM.Services.StringDictionary)
+  name: TestConnectionByConfig(Int32, StringDictionary)
+  nameWithType: IErpSyncAgent.TestConnectionByConfig(Int32, StringDictionary)
+  fullName: SuperOffice.CRM.Services.IErpSyncAgent.TestConnectionByConfig(System.Int32, SuperOffice.CRM.Services.StringDictionary)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Tests to see if the given connection has a valid connection to its connector
-
-    <p></p>
-
-    <b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
-  example: []
+  summary: "\nTests to see if the given connection has a valid connection to its connector\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
   syntax:
     content: bool TestConnectionByConfig(int erpConnectionId, StringDictionary configFields)
     parameters:
@@ -472,9 +406,6 @@ items:
       description: Returns true if success
     content.vb: Function TestConnectionByConfig(erpConnectionId As Integer, configFields As StringDictionary) As Boolean
   overload: SuperOffice.CRM.Services.IErpSyncAgent.TestConnectionByConfig*
-  nameWithType.vb: IErpSyncAgent.TestConnectionByConfig(Integer, StringDictionary)
-  fullName.vb: SuperOffice.CRM.Services.IErpSyncAgent.TestConnectionByConfig(Integer, SuperOffice.CRM.Services.StringDictionary)
-  name.vb: TestConnectionByConfig(Integer, StringDictionary)
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.SaveErpConnectionSyncPriorities(System.Int32[])
   commentId: M:SuperOffice.CRM.Services.IErpSyncAgent.SaveErpConnectionSyncPriorities(System.Int32[])
   id: SaveErpConnectionSyncPriorities(System.Int32[])
@@ -482,20 +413,17 @@ items:
   langs:
   - csharp
   - vb
-  name: SaveErpConnectionSyncPriorities(int[])
-  nameWithType: IErpSyncAgent.SaveErpConnectionSyncPriorities(int[])
-  fullName: SuperOffice.CRM.Services.IErpSyncAgent.SaveErpConnectionSyncPriorities(int[])
+  name: SaveErpConnectionSyncPriorities(Int32[])
+  nameWithType: IErpSyncAgent.SaveErpConnectionSyncPriorities(Int32[])
+  fullName: SuperOffice.CRM.Services.IErpSyncAgent.SaveErpConnectionSyncPriorities(System.Int32[])
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Takes an array of the ErpConnection ids and saves these as ordered sync priorities
-
-    <p></p>
-
-    <b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
-  example: []
+  summary: "\nTakes an array of the ErpConnection ids and saves these as ordered sync priorities\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
   syntax:
     content: bool SaveErpConnectionSyncPriorities(int[] erpConnectionIds)
     parameters:
@@ -507,9 +435,9 @@ items:
       description: Returns true if new sync priorities is saved
     content.vb: Function SaveErpConnectionSyncPriorities(erpConnectionIds As Integer()) As Boolean
   overload: SuperOffice.CRM.Services.IErpSyncAgent.SaveErpConnectionSyncPriorities*
-  nameWithType.vb: IErpSyncAgent.SaveErpConnectionSyncPriorities(Integer())
-  fullName.vb: SuperOffice.CRM.Services.IErpSyncAgent.SaveErpConnectionSyncPriorities(Integer())
-  name.vb: SaveErpConnectionSyncPriorities(Integer())
+  nameWithType.vb: IErpSyncAgent.SaveErpConnectionSyncPriorities(Int32())
+  fullName.vb: SuperOffice.CRM.Services.IErpSyncAgent.SaveErpConnectionSyncPriorities(System.Int32())
+  name.vb: SaveErpConnectionSyncPriorities(Int32())
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.MoveErpFieldItem(System.Int32,System.Int32,System.Int32,SuperOffice.Data.ErpActorType)
   commentId: M:SuperOffice.CRM.Services.IErpSyncAgent.MoveErpFieldItem(System.Int32,System.Int32,System.Int32,SuperOffice.Data.ErpActorType)
   id: MoveErpFieldItem(System.Int32,System.Int32,System.Int32,SuperOffice.Data.ErpActorType)
@@ -517,20 +445,17 @@ items:
   langs:
   - csharp
   - vb
-  name: MoveErpFieldItem(int, int, int, ErpActorType)
-  nameWithType: IErpSyncAgent.MoveErpFieldItem(int, int, int, ErpActorType)
-  fullName: SuperOffice.CRM.Services.IErpSyncAgent.MoveErpFieldItem(int, int, int, SuperOffice.Data.ErpActorType)
+  name: MoveErpFieldItem(Int32, Int32, Int32, ErpActorType)
+  nameWithType: IErpSyncAgent.MoveErpFieldItem(Int32, Int32, Int32, ErpActorType)
+  fullName: SuperOffice.CRM.Services.IErpSyncAgent.MoveErpFieldItem(System.Int32, System.Int32, System.Int32, SuperOffice.Data.ErpActorType)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Moves the rank of the erp field up or down
-
-    <p></p>
-
-    <b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
-  example: []
+  summary: "\nMoves the rank of the erp field up or down\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
   syntax:
     content: void MoveErpFieldItem(int erpFieldId, int direction, int erpConnectionId, ErpActorType erpActorType)
     parameters:
@@ -548,9 +473,6 @@ items:
       description: The actor type for which we want to rank fields
     content.vb: Sub MoveErpFieldItem(erpFieldId As Integer, direction As Integer, erpConnectionId As Integer, erpActorType As ErpActorType)
   overload: SuperOffice.CRM.Services.IErpSyncAgent.MoveErpFieldItem*
-  nameWithType.vb: IErpSyncAgent.MoveErpFieldItem(Integer, Integer, Integer, ErpActorType)
-  fullName.vb: SuperOffice.CRM.Services.IErpSyncAgent.MoveErpFieldItem(Integer, Integer, Integer, SuperOffice.Data.ErpActorType)
-  name.vb: MoveErpFieldItem(Integer, Integer, Integer, ErpActorType)
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.SupportsAdvancedSearch(System.Int32,SuperOffice.Data.ErpActorType)
   commentId: M:SuperOffice.CRM.Services.IErpSyncAgent.SupportsAdvancedSearch(System.Int32,SuperOffice.Data.ErpActorType)
   id: SupportsAdvancedSearch(System.Int32,SuperOffice.Data.ErpActorType)
@@ -558,20 +480,17 @@ items:
   langs:
   - csharp
   - vb
-  name: SupportsAdvancedSearch(int, ErpActorType)
-  nameWithType: IErpSyncAgent.SupportsAdvancedSearch(int, ErpActorType)
-  fullName: SuperOffice.CRM.Services.IErpSyncAgent.SupportsAdvancedSearch(int, SuperOffice.Data.ErpActorType)
+  name: SupportsAdvancedSearch(Int32, ErpActorType)
+  nameWithType: IErpSyncAgent.SupportsAdvancedSearch(Int32, ErpActorType)
+  fullName: SuperOffice.CRM.Services.IErpSyncAgent.SupportsAdvancedSearch(System.Int32, SuperOffice.Data.ErpActorType)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Indicates if the connection supports advanced search for the given erp actor
-
-    <p></p>
-
-    <b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
-  example: []
+  summary: "\nIndicates if the connection supports advanced search for the given erp actor\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
   syntax:
     content: bool SupportsAdvancedSearch(int erpConnectionId, ErpActorType erpActorType)
     parameters:
@@ -586,9 +505,6 @@ items:
       description: True if advanced search is supported
     content.vb: Function SupportsAdvancedSearch(erpConnectionId As Integer, erpActorType As ErpActorType) As Boolean
   overload: SuperOffice.CRM.Services.IErpSyncAgent.SupportsAdvancedSearch*
-  nameWithType.vb: IErpSyncAgent.SupportsAdvancedSearch(Integer, ErpActorType)
-  fullName.vb: SuperOffice.CRM.Services.IErpSyncAgent.SupportsAdvancedSearch(Integer, SuperOffice.Data.ErpActorType)
-  name.vb: SupportsAdvancedSearch(Integer, ErpActorType)
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.GetAllConnectors
   commentId: M:SuperOffice.CRM.Services.IErpSyncAgent.GetAllConnectors
   id: GetAllConnectors
@@ -600,22 +516,19 @@ items:
   nameWithType: IErpSyncAgent.GetAllConnectors()
   fullName: SuperOffice.CRM.Services.IErpSyncAgent.GetAllConnectors()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Returns all ERP Sync connectors. Uses the `ErpConnector` archive.
-
-    <p></p>
-
-    <b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
-  example: []
+  summary: "\nReturns all ERP Sync connectors. Uses the `ErpConnector` archive.\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
   syntax:
     content: ListItem[] GetAllConnectors()
     return:
       type: SuperOffice.CRM.Services.ListItem[]
       description: The connector id, name, url
-    content.vb: Function GetAllConnectors() As ListItem()
+    content.vb: Function GetAllConnectors As ListItem()
   overload: SuperOffice.CRM.Services.IErpSyncAgent.GetAllConnectors*
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.GetAllConnections(System.Boolean)
   commentId: M:SuperOffice.CRM.Services.IErpSyncAgent.GetAllConnections(System.Boolean)
@@ -624,20 +537,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetAllConnections(bool)
-  nameWithType: IErpSyncAgent.GetAllConnections(bool)
-  fullName: SuperOffice.CRM.Services.IErpSyncAgent.GetAllConnections(bool)
+  name: GetAllConnections(Boolean)
+  nameWithType: IErpSyncAgent.GetAllConnections(Boolean)
+  fullName: SuperOffice.CRM.Services.IErpSyncAgent.GetAllConnections(System.Boolean)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Returns all ERP Sync connections without config field data. Uses the `ErpConnection` archive.
-
-    <p></p>
-
-    <b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
-  example: []
+  summary: "\nReturns all ERP Sync connections without config field data. Uses the `ErpConnection` archive.\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
   syntax:
     content: ErpConnection[] GetAllConnections(bool includeDeleted)
     parameters:
@@ -649,9 +559,6 @@ items:
       description: The connection id, name, description
     content.vb: Function GetAllConnections(includeDeleted As Boolean) As ErpConnection()
   overload: SuperOffice.CRM.Services.IErpSyncAgent.GetAllConnections*
-  nameWithType.vb: IErpSyncAgent.GetAllConnections(Boolean)
-  fullName.vb: SuperOffice.CRM.Services.IErpSyncAgent.GetAllConnections(Boolean)
-  name.vb: GetAllConnections(Boolean)
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.GetConnectionsAndDisplayFields(SuperOffice.Data.CrmActorType,System.Int32)
   commentId: M:SuperOffice.CRM.Services.IErpSyncAgent.GetConnectionsAndDisplayFields(SuperOffice.Data.CrmActorType,System.Int32)
   id: GetConnectionsAndDisplayFields(SuperOffice.Data.CrmActorType,System.Int32)
@@ -659,20 +566,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetConnectionsAndDisplayFields(CrmActorType, int)
-  nameWithType: IErpSyncAgent.GetConnectionsAndDisplayFields(CrmActorType, int)
-  fullName: SuperOffice.CRM.Services.IErpSyncAgent.GetConnectionsAndDisplayFields(SuperOffice.Data.CrmActorType, int)
+  name: GetConnectionsAndDisplayFields(CrmActorType, Int32)
+  nameWithType: IErpSyncAgent.GetConnectionsAndDisplayFields(CrmActorType, Int32)
+  fullName: SuperOffice.CRM.Services.IErpSyncAgent.GetConnectionsAndDisplayFields(SuperOffice.Data.CrmActorType, System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Get all connection statuses and fields for a given entity
-
-    <p></p>
-
-    <b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
-  example: []
+  summary: "\nGet all connection statuses and fields for a given entity\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
   syntax:
     content: ErpConnectionData[] GetConnectionsAndDisplayFields(CrmActorType crmActorType, int entityId)
     parameters:
@@ -687,9 +591,6 @@ items:
       description: An array of ErpConnectionData carriers
     content.vb: Function GetConnectionsAndDisplayFields(crmActorType As CrmActorType, entityId As Integer) As ErpConnectionData()
   overload: SuperOffice.CRM.Services.IErpSyncAgent.GetConnectionsAndDisplayFields*
-  nameWithType.vb: IErpSyncAgent.GetConnectionsAndDisplayFields(CrmActorType, Integer)
-  fullName.vb: SuperOffice.CRM.Services.IErpSyncAgent.GetConnectionsAndDisplayFields(SuperOffice.Data.CrmActorType, Integer)
-  name.vb: GetConnectionsAndDisplayFields(CrmActorType, Integer)
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.GetErpFieldValues(System.Int32,SuperOffice.Data.CrmActorType,System.Int32,System.String[])
   commentId: M:SuperOffice.CRM.Services.IErpSyncAgent.GetErpFieldValues(System.Int32,SuperOffice.Data.CrmActorType,System.Int32,System.String[])
   id: GetErpFieldValues(System.Int32,SuperOffice.Data.CrmActorType,System.Int32,System.String[])
@@ -697,20 +598,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetErpFieldValues(int, CrmActorType, int, string[])
-  nameWithType: IErpSyncAgent.GetErpFieldValues(int, CrmActorType, int, string[])
-  fullName: SuperOffice.CRM.Services.IErpSyncAgent.GetErpFieldValues(int, SuperOffice.Data.CrmActorType, int, string[])
+  name: GetErpFieldValues(Int32, CrmActorType, Int32, String[])
+  nameWithType: IErpSyncAgent.GetErpFieldValues(Int32, CrmActorType, Int32, String[])
+  fullName: SuperOffice.CRM.Services.IErpSyncAgent.GetErpFieldValues(System.Int32, SuperOffice.Data.CrmActorType, System.Int32, System.String[])
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Get the values for the specified fields from the ERP connection
-
-    <p></p>
-
-    <b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
-  example: []
+  summary: "\nGet the values for the specified fields from the ERP connection\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
   syntax:
     content: string[] GetErpFieldValues(int erpConnectionId, CrmActorType crmActorType, int entityId, string[] fieldKeys)
     parameters:
@@ -731,9 +629,9 @@ items:
       description: An array containing the values for the specified fields, in the same order
     content.vb: Function GetErpFieldValues(erpConnectionId As Integer, crmActorType As CrmActorType, entityId As Integer, fieldKeys As String()) As String()
   overload: SuperOffice.CRM.Services.IErpSyncAgent.GetErpFieldValues*
-  nameWithType.vb: IErpSyncAgent.GetErpFieldValues(Integer, CrmActorType, Integer, String())
-  fullName.vb: SuperOffice.CRM.Services.IErpSyncAgent.GetErpFieldValues(Integer, SuperOffice.Data.CrmActorType, Integer, String())
-  name.vb: GetErpFieldValues(Integer, CrmActorType, Integer, String())
+  nameWithType.vb: IErpSyncAgent.GetErpFieldValues(Int32, CrmActorType, Int32, String())
+  fullName.vb: SuperOffice.CRM.Services.IErpSyncAgent.GetErpFieldValues(System.Int32, SuperOffice.Data.CrmActorType, System.Int32, System.String())
+  name.vb: GetErpFieldValues(Int32, CrmActorType, Int32, String())
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.GetFieldsForNewErpActor(System.Int32,SuperOffice.Data.ErpActorType)
   commentId: M:SuperOffice.CRM.Services.IErpSyncAgent.GetFieldsForNewErpActor(System.Int32,SuperOffice.Data.ErpActorType)
   id: GetFieldsForNewErpActor(System.Int32,SuperOffice.Data.ErpActorType)
@@ -741,20 +639,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetFieldsForNewErpActor(int, ErpActorType)
-  nameWithType: IErpSyncAgent.GetFieldsForNewErpActor(int, ErpActorType)
-  fullName: SuperOffice.CRM.Services.IErpSyncAgent.GetFieldsForNewErpActor(int, SuperOffice.Data.ErpActorType)
+  name: GetFieldsForNewErpActor(Int32, ErpActorType)
+  nameWithType: IErpSyncAgent.GetFieldsForNewErpActor(Int32, ErpActorType)
+  fullName: SuperOffice.CRM.Services.IErpSyncAgent.GetFieldsForNewErpActor(System.Int32, SuperOffice.Data.ErpActorType)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Get the fields that must be filled out when creating a new ERP actor
-
-    <p></p>
-
-    <b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
-  example: []
+  summary: "\nGet the fields that must be filled out when creating a new ERP actor\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
   syntax:
     content: FieldMetadata[] GetFieldsForNewErpActor(int erpConnectionId, ErpActorType erpActorType)
     parameters:
@@ -769,9 +664,6 @@ items:
       description: The fields that are required for the new ERP actor
     content.vb: Function GetFieldsForNewErpActor(erpConnectionId As Integer, erpActorType As ErpActorType) As FieldMetadata()
   overload: SuperOffice.CRM.Services.IErpSyncAgent.GetFieldsForNewErpActor*
-  nameWithType.vb: IErpSyncAgent.GetFieldsForNewErpActor(Integer, ErpActorType)
-  fullName.vb: SuperOffice.CRM.Services.IErpSyncAgent.GetFieldsForNewErpActor(Integer, SuperOffice.Data.ErpActorType)
-  name.vb: GetFieldsForNewErpActor(Integer, ErpActorType)
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.GetConnectionListMappings(System.Int32)
   commentId: M:SuperOffice.CRM.Services.IErpSyncAgent.GetConnectionListMappings(System.Int32)
   id: GetConnectionListMappings(System.Int32)
@@ -779,20 +671,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetConnectionListMappings(int)
-  nameWithType: IErpSyncAgent.GetConnectionListMappings(int)
-  fullName: SuperOffice.CRM.Services.IErpSyncAgent.GetConnectionListMappings(int)
+  name: GetConnectionListMappings(Int32)
+  nameWithType: IErpSyncAgent.GetConnectionListMappings(Int32)
+  fullName: SuperOffice.CRM.Services.IErpSyncAgent.GetConnectionListMappings(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Returns the listmappings for the specified connection.
-
-    <p></p>
-
-    <b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
-  example: []
+  summary: "\nReturns the listmappings for the specified connection.\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
   syntax:
     content: ErpConnectionListMappingContainer GetConnectionListMappings(int erpConnectionId)
     parameters:
@@ -804,9 +693,6 @@ items:
       description: The listmappings
     content.vb: Function GetConnectionListMappings(erpConnectionId As Integer) As ErpConnectionListMappingContainer
   overload: SuperOffice.CRM.Services.IErpSyncAgent.GetConnectionListMappings*
-  nameWithType.vb: IErpSyncAgent.GetConnectionListMappings(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IErpSyncAgent.GetConnectionListMappings(Integer)
-  name.vb: GetConnectionListMappings(Integer)
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.SaveConnectionListMappings(SuperOffice.CRM.Services.ErpConnectionListMappingContainer)
   commentId: M:SuperOffice.CRM.Services.IErpSyncAgent.SaveConnectionListMappings(SuperOffice.CRM.Services.ErpConnectionListMappingContainer)
   id: SaveConnectionListMappings(SuperOffice.CRM.Services.ErpConnectionListMappingContainer)
@@ -818,16 +704,13 @@ items:
   nameWithType: IErpSyncAgent.SaveConnectionListMappings(ErpConnectionListMappingContainer)
   fullName: SuperOffice.CRM.Services.IErpSyncAgent.SaveConnectionListMappings(SuperOffice.CRM.Services.ErpConnectionListMappingContainer)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Saves a connection to the database.
-
-    <p></p>
-
-    <b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
-  example: []
+  summary: "\nSaves a connection to the database.\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
   syntax:
     content: ErpConnectionListMappingContainer SaveConnectionListMappings(ErpConnectionListMappingContainer listMapping)
     parameters:
@@ -846,20 +729,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ConnectActor(int, int, CrmActorType, string, ErpActorType, ErpSyncFieldValue[])
-  nameWithType: IErpSyncAgent.ConnectActor(int, int, CrmActorType, string, ErpActorType, ErpSyncFieldValue[])
-  fullName: SuperOffice.CRM.Services.IErpSyncAgent.ConnectActor(int, int, SuperOffice.Data.CrmActorType, string, SuperOffice.Data.ErpActorType, SuperOffice.CRM.Services.ErpSyncFieldValue[])
+  name: ConnectActor(Int32, Int32, CrmActorType, String, ErpActorType, ErpSyncFieldValue[])
+  nameWithType: IErpSyncAgent.ConnectActor(Int32, Int32, CrmActorType, String, ErpActorType, ErpSyncFieldValue[])
+  fullName: SuperOffice.CRM.Services.IErpSyncAgent.ConnectActor(System.Int32, System.Int32, SuperOffice.Data.CrmActorType, System.String, SuperOffice.Data.ErpActorType, SuperOffice.CRM.Services.ErpSyncFieldValue[])
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Create a link between Erp and Crm and set default values
-
-    <p></p>
-
-    <b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
-  example: []
+  summary: "\nCreate a link between Erp and Crm and set default values\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
   syntax:
     content: void ConnectActor(int erpConnectionId, int crmRecordId, CrmActorType crmActorType, string erpKey, ErpActorType erpActorType, ErpSyncFieldValue[] fieldValues)
     parameters:
@@ -874,7 +754,6 @@ items:
       description: The Crm Actor type
     - id: erpKey
       type: System.String
-      description: ''
     - id: erpActorType
       type: SuperOffice.Data.ErpActorType
       description: The Erp Actor type
@@ -883,9 +762,9 @@ items:
       description: The Crm Fields
     content.vb: Sub ConnectActor(erpConnectionId As Integer, crmRecordId As Integer, crmActorType As CrmActorType, erpKey As String, erpActorType As ErpActorType, fieldValues As ErpSyncFieldValue())
   overload: SuperOffice.CRM.Services.IErpSyncAgent.ConnectActor*
-  nameWithType.vb: IErpSyncAgent.ConnectActor(Integer, Integer, CrmActorType, String, ErpActorType, ErpSyncFieldValue())
-  fullName.vb: SuperOffice.CRM.Services.IErpSyncAgent.ConnectActor(Integer, Integer, SuperOffice.Data.CrmActorType, String, SuperOffice.Data.ErpActorType, SuperOffice.CRM.Services.ErpSyncFieldValue())
-  name.vb: ConnectActor(Integer, Integer, CrmActorType, String, ErpActorType, ErpSyncFieldValue())
+  nameWithType.vb: IErpSyncAgent.ConnectActor(Int32, Int32, CrmActorType, String, ErpActorType, ErpSyncFieldValue())
+  fullName.vb: SuperOffice.CRM.Services.IErpSyncAgent.ConnectActor(System.Int32, System.Int32, SuperOffice.Data.CrmActorType, System.String, SuperOffice.Data.ErpActorType, SuperOffice.CRM.Services.ErpSyncFieldValue())
+  name.vb: ConnectActor(Int32, Int32, CrmActorType, String, ErpActorType, ErpSyncFieldValue())
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.TryConnectActor(System.Int32,System.Int32,SuperOffice.Data.CrmActorType,System.String,SuperOffice.Data.ErpActorType,SuperOffice.CRM.Services.ErpSyncFieldValue[])
   commentId: M:SuperOffice.CRM.Services.IErpSyncAgent.TryConnectActor(System.Int32,System.Int32,SuperOffice.Data.CrmActorType,System.String,SuperOffice.Data.ErpActorType,SuperOffice.CRM.Services.ErpSyncFieldValue[])
   id: TryConnectActor(System.Int32,System.Int32,SuperOffice.Data.CrmActorType,System.String,SuperOffice.Data.ErpActorType,SuperOffice.CRM.Services.ErpSyncFieldValue[])
@@ -893,20 +772,17 @@ items:
   langs:
   - csharp
   - vb
-  name: TryConnectActor(int, int, CrmActorType, string, ErpActorType, ErpSyncFieldValue[])
-  nameWithType: IErpSyncAgent.TryConnectActor(int, int, CrmActorType, string, ErpActorType, ErpSyncFieldValue[])
-  fullName: SuperOffice.CRM.Services.IErpSyncAgent.TryConnectActor(int, int, SuperOffice.Data.CrmActorType, string, SuperOffice.Data.ErpActorType, SuperOffice.CRM.Services.ErpSyncFieldValue[])
+  name: TryConnectActor(Int32, Int32, CrmActorType, String, ErpActorType, ErpSyncFieldValue[])
+  nameWithType: IErpSyncAgent.TryConnectActor(Int32, Int32, CrmActorType, String, ErpActorType, ErpSyncFieldValue[])
+  fullName: SuperOffice.CRM.Services.IErpSyncAgent.TryConnectActor(System.Int32, System.Int32, SuperOffice.Data.CrmActorType, System.String, SuperOffice.Data.ErpActorType, SuperOffice.CRM.Services.ErpSyncFieldValue[])
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Create a link between Erp and Crm and set default values
-
-    <p></p>
-
-    <b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
-  example: []
+  summary: "\nCreate a link between Erp and Crm and set default values\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
   syntax:
     content: bool TryConnectActor(int erpConnectionId, int crmRecordId, CrmActorType crmActorType, string erpKey, ErpActorType erpActorType, ErpSyncFieldValue[] fieldValues)
     parameters:
@@ -921,7 +797,6 @@ items:
       description: The Crm Actor type
     - id: erpKey
       type: System.String
-      description: ''
     - id: erpActorType
       type: SuperOffice.Data.ErpActorType
       description: The Erp Actor type
@@ -930,12 +805,11 @@ items:
       description: The Crm Fields
     return:
       type: System.Boolean
-      description: ''
     content.vb: Function TryConnectActor(erpConnectionId As Integer, crmRecordId As Integer, crmActorType As CrmActorType, erpKey As String, erpActorType As ErpActorType, fieldValues As ErpSyncFieldValue()) As Boolean
   overload: SuperOffice.CRM.Services.IErpSyncAgent.TryConnectActor*
-  nameWithType.vb: IErpSyncAgent.TryConnectActor(Integer, Integer, CrmActorType, String, ErpActorType, ErpSyncFieldValue())
-  fullName.vb: SuperOffice.CRM.Services.IErpSyncAgent.TryConnectActor(Integer, Integer, SuperOffice.Data.CrmActorType, String, SuperOffice.Data.ErpActorType, SuperOffice.CRM.Services.ErpSyncFieldValue())
-  name.vb: TryConnectActor(Integer, Integer, CrmActorType, String, ErpActorType, ErpSyncFieldValue())
+  nameWithType.vb: IErpSyncAgent.TryConnectActor(Int32, Int32, CrmActorType, String, ErpActorType, ErpSyncFieldValue())
+  fullName.vb: SuperOffice.CRM.Services.IErpSyncAgent.TryConnectActor(System.Int32, System.Int32, SuperOffice.Data.CrmActorType, System.String, SuperOffice.Data.ErpActorType, SuperOffice.CRM.Services.ErpSyncFieldValue())
+  name.vb: TryConnectActor(Int32, Int32, CrmActorType, String, ErpActorType, ErpSyncFieldValue())
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.GetFieldValuesFromCrm(System.Int32,SuperOffice.Data.CrmActorType)
   commentId: M:SuperOffice.CRM.Services.IErpSyncAgent.GetFieldValuesFromCrm(System.Int32,SuperOffice.Data.CrmActorType)
   id: GetFieldValuesFromCrm(System.Int32,SuperOffice.Data.CrmActorType)
@@ -943,20 +817,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetFieldValuesFromCrm(int, CrmActorType)
-  nameWithType: IErpSyncAgent.GetFieldValuesFromCrm(int, CrmActorType)
-  fullName: SuperOffice.CRM.Services.IErpSyncAgent.GetFieldValuesFromCrm(int, SuperOffice.Data.CrmActorType)
+  name: GetFieldValuesFromCrm(Int32, CrmActorType)
+  nameWithType: IErpSyncAgent.GetFieldValuesFromCrm(Int32, CrmActorType)
+  fullName: SuperOffice.CRM.Services.IErpSyncAgent.GetFieldValuesFromCrm(System.Int32, SuperOffice.Data.CrmActorType)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Get Crm Field values
-
-    <p></p>
-
-    <b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
-  example: []
+  summary: "\nGet Crm Field values\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
   syntax:
     content: ErpSyncFieldValue[] GetFieldValuesFromCrm(int recordId, CrmActorType actorTypeCrm)
     parameters:
@@ -971,9 +842,6 @@ items:
       description: The Crm Fields
     content.vb: Function GetFieldValuesFromCrm(recordId As Integer, actorTypeCrm As CrmActorType) As ErpSyncFieldValue()
   overload: SuperOffice.CRM.Services.IErpSyncAgent.GetFieldValuesFromCrm*
-  nameWithType.vb: IErpSyncAgent.GetFieldValuesFromCrm(Integer, CrmActorType)
-  fullName.vb: SuperOffice.CRM.Services.IErpSyncAgent.GetFieldValuesFromCrm(Integer, SuperOffice.Data.CrmActorType)
-  name.vb: GetFieldValuesFromCrm(Integer, CrmActorType)
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.GetFieldValuesFromErp(System.Int32,SuperOffice.Data.ErpActorType,System.String)
   commentId: M:SuperOffice.CRM.Services.IErpSyncAgent.GetFieldValuesFromErp(System.Int32,SuperOffice.Data.ErpActorType,System.String)
   id: GetFieldValuesFromErp(System.Int32,SuperOffice.Data.ErpActorType,System.String)
@@ -981,20 +849,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetFieldValuesFromErp(int, ErpActorType, string)
-  nameWithType: IErpSyncAgent.GetFieldValuesFromErp(int, ErpActorType, string)
-  fullName: SuperOffice.CRM.Services.IErpSyncAgent.GetFieldValuesFromErp(int, SuperOffice.Data.ErpActorType, string)
+  name: GetFieldValuesFromErp(Int32, ErpActorType, String)
+  nameWithType: IErpSyncAgent.GetFieldValuesFromErp(Int32, ErpActorType, String)
+  fullName: SuperOffice.CRM.Services.IErpSyncAgent.GetFieldValuesFromErp(System.Int32, SuperOffice.Data.ErpActorType, System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Get Erp Field values
-
-    <p></p>
-
-    <b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
-  example: []
+  summary: "\nGet Erp Field values\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
   syntax:
     content: ErpSyncFieldValue[] GetFieldValuesFromErp(int erpConnectionId, ErpActorType actorTypeErp, string erpKey)
     parameters:
@@ -1012,9 +877,6 @@ items:
       description: The Erp Fields
     content.vb: Function GetFieldValuesFromErp(erpConnectionId As Integer, actorTypeErp As ErpActorType, erpKey As String) As ErpSyncFieldValue()
   overload: SuperOffice.CRM.Services.IErpSyncAgent.GetFieldValuesFromErp*
-  nameWithType.vb: IErpSyncAgent.GetFieldValuesFromErp(Integer, ErpActorType, String)
-  fullName.vb: SuperOffice.CRM.Services.IErpSyncAgent.GetFieldValuesFromErp(Integer, SuperOffice.Data.ErpActorType, String)
-  name.vb: GetFieldValuesFromErp(Integer, ErpActorType, String)
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.GetActorTypeMapping(System.Int32,SuperOffice.Data.ErpActorType)
   commentId: M:SuperOffice.CRM.Services.IErpSyncAgent.GetActorTypeMapping(System.Int32,SuperOffice.Data.ErpActorType)
   id: GetActorTypeMapping(System.Int32,SuperOffice.Data.ErpActorType)
@@ -1022,20 +884,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetActorTypeMapping(int, ErpActorType)
-  nameWithType: IErpSyncAgent.GetActorTypeMapping(int, ErpActorType)
-  fullName: SuperOffice.CRM.Services.IErpSyncAgent.GetActorTypeMapping(int, SuperOffice.Data.ErpActorType)
+  name: GetActorTypeMapping(Int32, ErpActorType)
+  nameWithType: IErpSyncAgent.GetActorTypeMapping(Int32, ErpActorType)
+  fullName: SuperOffice.CRM.Services.IErpSyncAgent.GetActorTypeMapping(System.Int32, SuperOffice.Data.ErpActorType)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Get the current mappings for one connection/actor; connection+actor type = unique key
-
-    <p></p>
-
-    <b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
-  example: []
+  summary: "\nGet the current mappings for one connection/actor; connection+actor type = unique key\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
   syntax:
     content: ErpSyncActorTypeMapping GetActorTypeMapping(int erpConnectionId, ErpActorType actorType)
     parameters:
@@ -1050,9 +909,6 @@ items:
       description: The current mapping from the database
     content.vb: Function GetActorTypeMapping(erpConnectionId As Integer, actorType As ErpActorType) As ErpSyncActorTypeMapping
   overload: SuperOffice.CRM.Services.IErpSyncAgent.GetActorTypeMapping*
-  nameWithType.vb: IErpSyncAgent.GetActorTypeMapping(Integer, ErpActorType)
-  fullName.vb: SuperOffice.CRM.Services.IErpSyncAgent.GetActorTypeMapping(Integer, SuperOffice.Data.ErpActorType)
-  name.vb: GetActorTypeMapping(Integer, ErpActorType)
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.CreateActorLink(System.Int32,System.Int32,SuperOffice.Data.CrmActorType,System.String,SuperOffice.Data.ErpActorType)
   commentId: M:SuperOffice.CRM.Services.IErpSyncAgent.CreateActorLink(System.Int32,System.Int32,SuperOffice.Data.CrmActorType,System.String,SuperOffice.Data.ErpActorType)
   id: CreateActorLink(System.Int32,System.Int32,SuperOffice.Data.CrmActorType,System.String,SuperOffice.Data.ErpActorType)
@@ -1060,20 +916,17 @@ items:
   langs:
   - csharp
   - vb
-  name: CreateActorLink(int, int, CrmActorType, string, ErpActorType)
-  nameWithType: IErpSyncAgent.CreateActorLink(int, int, CrmActorType, string, ErpActorType)
-  fullName: SuperOffice.CRM.Services.IErpSyncAgent.CreateActorLink(int, int, SuperOffice.Data.CrmActorType, string, SuperOffice.Data.ErpActorType)
+  name: CreateActorLink(Int32, Int32, CrmActorType, String, ErpActorType)
+  nameWithType: IErpSyncAgent.CreateActorLink(Int32, Int32, CrmActorType, String, ErpActorType)
+  fullName: SuperOffice.CRM.Services.IErpSyncAgent.CreateActorLink(System.Int32, System.Int32, SuperOffice.Data.CrmActorType, System.String, SuperOffice.Data.ErpActorType)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Link a crm entity to an erp entity
-
-    <p></p>
-
-    <b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
-  example: []
+  summary: "\nLink a crm entity to an erp entity\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
   syntax:
     content: bool CreateActorLink(int erpConnectionId, int crmRecordId, CrmActorType crmActorType, string erpKey, ErpActorType erpActorType)
     parameters:
@@ -1097,9 +950,6 @@ items:
       description: True if success
     content.vb: Function CreateActorLink(erpConnectionId As Integer, crmRecordId As Integer, crmActorType As CrmActorType, erpKey As String, erpActorType As ErpActorType) As Boolean
   overload: SuperOffice.CRM.Services.IErpSyncAgent.CreateActorLink*
-  nameWithType.vb: IErpSyncAgent.CreateActorLink(Integer, Integer, CrmActorType, String, ErpActorType)
-  fullName.vb: SuperOffice.CRM.Services.IErpSyncAgent.CreateActorLink(Integer, Integer, SuperOffice.Data.CrmActorType, String, SuperOffice.Data.ErpActorType)
-  name.vb: CreateActorLink(Integer, Integer, CrmActorType, String, ErpActorType)
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.BreakActorLink(System.Int32,System.Int32,SuperOffice.Data.CrmActorType)
   commentId: M:SuperOffice.CRM.Services.IErpSyncAgent.BreakActorLink(System.Int32,System.Int32,SuperOffice.Data.CrmActorType)
   id: BreakActorLink(System.Int32,System.Int32,SuperOffice.Data.CrmActorType)
@@ -1107,20 +957,17 @@ items:
   langs:
   - csharp
   - vb
-  name: BreakActorLink(int, int, CrmActorType)
-  nameWithType: IErpSyncAgent.BreakActorLink(int, int, CrmActorType)
-  fullName: SuperOffice.CRM.Services.IErpSyncAgent.BreakActorLink(int, int, SuperOffice.Data.CrmActorType)
+  name: BreakActorLink(Int32, Int32, CrmActorType)
+  nameWithType: IErpSyncAgent.BreakActorLink(Int32, Int32, CrmActorType)
+  fullName: SuperOffice.CRM.Services.IErpSyncAgent.BreakActorLink(System.Int32, System.Int32, SuperOffice.Data.CrmActorType)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Remove the link between a CRM entity and an ERP entity
-
-    <p></p>
-
-    <b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
-  example: []
+  summary: "\nRemove the link between a CRM entity and an ERP entity\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
   syntax:
     content: bool BreakActorLink(int erpConnectionId, int crmRecordId, CrmActorType crmActorType)
     parameters:
@@ -1138,9 +985,6 @@ items:
       description: True if success
     content.vb: Function BreakActorLink(erpConnectionId As Integer, crmRecordId As Integer, crmActorType As CrmActorType) As Boolean
   overload: SuperOffice.CRM.Services.IErpSyncAgent.BreakActorLink*
-  nameWithType.vb: IErpSyncAgent.BreakActorLink(Integer, Integer, CrmActorType)
-  fullName.vb: SuperOffice.CRM.Services.IErpSyncAgent.BreakActorLink(Integer, Integer, SuperOffice.Data.CrmActorType)
-  name.vb: BreakActorLink(Integer, Integer, CrmActorType)
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.CreateErpActorFromCrm(System.Int32,System.Int32,SuperOffice.Data.ErpActorType,SuperOffice.Data.CrmActorType,SuperOffice.CRM.Services.StringDictionary)
   commentId: M:SuperOffice.CRM.Services.IErpSyncAgent.CreateErpActorFromCrm(System.Int32,System.Int32,SuperOffice.Data.ErpActorType,SuperOffice.Data.CrmActorType,SuperOffice.CRM.Services.StringDictionary)
   id: CreateErpActorFromCrm(System.Int32,System.Int32,SuperOffice.Data.ErpActorType,SuperOffice.Data.CrmActorType,SuperOffice.CRM.Services.StringDictionary)
@@ -1148,20 +992,17 @@ items:
   langs:
   - csharp
   - vb
-  name: CreateErpActorFromCrm(int, int, ErpActorType, CrmActorType, StringDictionary)
-  nameWithType: IErpSyncAgent.CreateErpActorFromCrm(int, int, ErpActorType, CrmActorType, StringDictionary)
-  fullName: SuperOffice.CRM.Services.IErpSyncAgent.CreateErpActorFromCrm(int, int, SuperOffice.Data.ErpActorType, SuperOffice.Data.CrmActorType, SuperOffice.CRM.Services.StringDictionary)
+  name: CreateErpActorFromCrm(Int32, Int32, ErpActorType, CrmActorType, StringDictionary)
+  nameWithType: IErpSyncAgent.CreateErpActorFromCrm(Int32, Int32, ErpActorType, CrmActorType, StringDictionary)
+  fullName: SuperOffice.CRM.Services.IErpSyncAgent.CreateErpActorFromCrm(System.Int32, System.Int32, SuperOffice.Data.ErpActorType, SuperOffice.Data.CrmActorType, SuperOffice.CRM.Services.StringDictionary)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Create ErpActor from crm entity
-
-    <p></p>
-
-    <b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
-  example: []
+  summary: "\nCreate ErpActor from crm entity\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
   syntax:
     content: bool CreateErpActorFromCrm(int connectionId, int crmEntityId, ErpActorType erpActorType, CrmActorType crmActorType, StringDictionary erpFieldKeyValues)
     parameters:
@@ -1185,9 +1026,6 @@ items:
       description: Created ERP actor with success
     content.vb: Function CreateErpActorFromCrm(connectionId As Integer, crmEntityId As Integer, erpActorType As ErpActorType, crmActorType As CrmActorType, erpFieldKeyValues As StringDictionary) As Boolean
   overload: SuperOffice.CRM.Services.IErpSyncAgent.CreateErpActorFromCrm*
-  nameWithType.vb: IErpSyncAgent.CreateErpActorFromCrm(Integer, Integer, ErpActorType, CrmActorType, StringDictionary)
-  fullName.vb: SuperOffice.CRM.Services.IErpSyncAgent.CreateErpActorFromCrm(Integer, Integer, SuperOffice.Data.ErpActorType, SuperOffice.Data.CrmActorType, SuperOffice.CRM.Services.StringDictionary)
-  name.vb: CreateErpActorFromCrm(Integer, Integer, ErpActorType, CrmActorType, StringDictionary)
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.SaveActorTypeMapping(SuperOffice.CRM.Services.ErpSyncActorTypeMapping)
   commentId: M:SuperOffice.CRM.Services.IErpSyncAgent.SaveActorTypeMapping(SuperOffice.CRM.Services.ErpSyncActorTypeMapping)
   id: SaveActorTypeMapping(SuperOffice.CRM.Services.ErpSyncActorTypeMapping)
@@ -1199,16 +1037,13 @@ items:
   nameWithType: IErpSyncAgent.SaveActorTypeMapping(ErpSyncActorTypeMapping)
   fullName: SuperOffice.CRM.Services.IErpSyncAgent.SaveActorTypeMapping(SuperOffice.CRM.Services.ErpSyncActorTypeMapping)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Save mappings for a connection/actor
-
-    <p></p>
-
-    <b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
-  example: []
+  summary: "\nSave mappings for a connection/actor\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
   syntax:
     content: ErpSyncActorTypeMapping SaveActorTypeMapping(ErpSyncActorTypeMapping mapping)
     parameters:
@@ -1227,20 +1062,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ValidateArchiveColumnConfig(string, int)
-  nameWithType: IErpSyncAgent.ValidateArchiveColumnConfig(string, int)
-  fullName: SuperOffice.CRM.Services.IErpSyncAgent.ValidateArchiveColumnConfig(string, int)
+  name: ValidateArchiveColumnConfig(String, Int32)
+  nameWithType: IErpSyncAgent.ValidateArchiveColumnConfig(String, Int32)
+  fullName: SuperOffice.CRM.Services.IErpSyncAgent.ValidateArchiveColumnConfig(System.String, System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Clear field info from table SUPERLISTCOLUMNSIZE if field mapping changed on given connection
-
-    <p></p>
-
-    <b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
-  example: []
+  summary: "\nClear field info from table SUPERLISTCOLUMNSIZE if field mapping changed on given connection\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
   syntax:
     content: void ValidateArchiveColumnConfig(string listOwner, int erpConnectionId)
     parameters:
@@ -1252,9 +1084,6 @@ items:
       description: The ERP connection ID
     content.vb: Sub ValidateArchiveColumnConfig(listOwner As String, erpConnectionId As Integer)
   overload: SuperOffice.CRM.Services.IErpSyncAgent.ValidateArchiveColumnConfig*
-  nameWithType.vb: IErpSyncAgent.ValidateArchiveColumnConfig(String, Integer)
-  fullName.vb: SuperOffice.CRM.Services.IErpSyncAgent.ValidateArchiveColumnConfig(String, Integer)
-  name.vb: ValidateArchiveColumnConfig(String, Integer)
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.UpdateConnectionFields(System.Int32)
   commentId: M:SuperOffice.CRM.Services.IErpSyncAgent.UpdateConnectionFields(System.Int32)
   id: UpdateConnectionFields(System.Int32)
@@ -1262,20 +1091,17 @@ items:
   langs:
   - csharp
   - vb
-  name: UpdateConnectionFields(int)
-  nameWithType: IErpSyncAgent.UpdateConnectionFields(int)
-  fullName: SuperOffice.CRM.Services.IErpSyncAgent.UpdateConnectionFields(int)
+  name: UpdateConnectionFields(Int32)
+  nameWithType: IErpSyncAgent.UpdateConnectionFields(Int32)
+  fullName: SuperOffice.CRM.Services.IErpSyncAgent.UpdateConnectionFields(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Gets all supported actor types, and all fields for each actor type, and save this state to the CRM database
-
-    <p></p>
-
-    <b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
-  example: []
+  summary: "\nGets all supported actor types, and all fields for each actor type, and save this state to the CRM database\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
   syntax:
     content: bool UpdateConnectionFields(int erpConnectionId)
     parameters:
@@ -1287,9 +1113,6 @@ items:
       description: Success or fail
     content.vb: Function UpdateConnectionFields(erpConnectionId As Integer) As Boolean
   overload: SuperOffice.CRM.Services.IErpSyncAgent.UpdateConnectionFields*
-  nameWithType.vb: IErpSyncAgent.UpdateConnectionFields(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IErpSyncAgent.UpdateConnectionFields(Integer)
-  name.vb: UpdateConnectionFields(Integer)
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.GetCrmActorType(System.Int32,SuperOffice.Data.ErpActorType)
   commentId: M:SuperOffice.CRM.Services.IErpSyncAgent.GetCrmActorType(System.Int32,SuperOffice.Data.ErpActorType)
   id: GetCrmActorType(System.Int32,SuperOffice.Data.ErpActorType)
@@ -1297,20 +1120,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetCrmActorType(int, ErpActorType)
-  nameWithType: IErpSyncAgent.GetCrmActorType(int, ErpActorType)
-  fullName: SuperOffice.CRM.Services.IErpSyncAgent.GetCrmActorType(int, SuperOffice.Data.ErpActorType)
+  name: GetCrmActorType(Int32, ErpActorType)
+  nameWithType: IErpSyncAgent.GetCrmActorType(Int32, ErpActorType)
+  fullName: SuperOffice.CRM.Services.IErpSyncAgent.GetCrmActorType(System.Int32, SuperOffice.Data.ErpActorType)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Retrieves the CrmActorType that are mapped to a specific ErpActorType for this connection
-
-    <p></p>
-
-    <b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
-  example: []
+  summary: "\nRetrieves the CrmActorType that are mapped to a specific ErpActorType for this connection\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
   syntax:
     content: CrmActorType GetCrmActorType(int erpConnectionId, ErpActorType erpActorType)
     parameters:
@@ -1325,9 +1145,6 @@ items:
       description: The CrmActorType
     content.vb: Function GetCrmActorType(erpConnectionId As Integer, erpActorType As ErpActorType) As CrmActorType
   overload: SuperOffice.CRM.Services.IErpSyncAgent.GetCrmActorType*
-  nameWithType.vb: IErpSyncAgent.GetCrmActorType(Integer, ErpActorType)
-  fullName.vb: SuperOffice.CRM.Services.IErpSyncAgent.GetCrmActorType(Integer, SuperOffice.Data.ErpActorType)
-  name.vb: GetCrmActorType(Integer, ErpActorType)
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.GetErpSyncConnectionSummary(System.Int32)
   commentId: M:SuperOffice.CRM.Services.IErpSyncAgent.GetErpSyncConnectionSummary(System.Int32)
   id: GetErpSyncConnectionSummary(System.Int32)
@@ -1335,20 +1152,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetErpSyncConnectionSummary(int)
-  nameWithType: IErpSyncAgent.GetErpSyncConnectionSummary(int)
-  fullName: SuperOffice.CRM.Services.IErpSyncAgent.GetErpSyncConnectionSummary(int)
+  name: GetErpSyncConnectionSummary(Int32)
+  nameWithType: IErpSyncAgent.GetErpSyncConnectionSummary(Int32)
+  fullName: SuperOffice.CRM.Services.IErpSyncAgent.GetErpSyncConnectionSummary(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Get a summary of the current ErpSync configuration/setup
-
-    <p></p>
-
-    <b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
-  example: []
+  summary: "\nGet a summary of the current ErpSync configuration/setup\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
   syntax:
     content: ErpSyncConnectionSummary GetErpSyncConnectionSummary(int erpSyncConnectionId)
     parameters:
@@ -1360,9 +1174,6 @@ items:
       description: Summary of connection information, and one summary element per configured actor type
     content.vb: Function GetErpSyncConnectionSummary(erpSyncConnectionId As Integer) As ErpSyncConnectionSummary
   overload: SuperOffice.CRM.Services.IErpSyncAgent.GetErpSyncConnectionSummary*
-  nameWithType.vb: IErpSyncAgent.GetErpSyncConnectionSummary(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IErpSyncAgent.GetErpSyncConnectionSummary(Integer)
-  name.vb: GetErpSyncConnectionSummary(Integer)
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.GetErpSyncConnectorEntity(System.Int32)
   commentId: M:SuperOffice.CRM.Services.IErpSyncAgent.GetErpSyncConnectorEntity(System.Int32)
   id: GetErpSyncConnectorEntity(System.Int32)
@@ -1370,20 +1181,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetErpSyncConnectorEntity(int)
-  nameWithType: IErpSyncAgent.GetErpSyncConnectorEntity(int)
-  fullName: SuperOffice.CRM.Services.IErpSyncAgent.GetErpSyncConnectorEntity(int)
+  name: GetErpSyncConnectorEntity(Int32)
+  nameWithType: IErpSyncAgent.GetErpSyncConnectorEntity(Int32)
+  fullName: SuperOffice.CRM.Services.IErpSyncAgent.GetErpSyncConnectorEntity(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Gets a ErpSyncConnectorEntity object.                        
-
-    <p></p>
-
-    <b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
-  example: []
+  summary: "\nGets a ErpSyncConnectorEntity object.                        \n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
   syntax:
     content: ErpSyncConnectorEntity GetErpSyncConnectorEntity(int erpSyncConnectorEntityId)
     parameters:
@@ -1395,9 +1203,6 @@ items:
       description: ErpSyncConnectorEntity
     content.vb: Function GetErpSyncConnectorEntity(erpSyncConnectorEntityId As Integer) As ErpSyncConnectorEntity
   overload: SuperOffice.CRM.Services.IErpSyncAgent.GetErpSyncConnectorEntity*
-  nameWithType.vb: IErpSyncAgent.GetErpSyncConnectorEntity(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IErpSyncAgent.GetErpSyncConnectorEntity(Integer)
-  name.vb: GetErpSyncConnectorEntity(Integer)
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.CanDeleteErpSyncConnectorEntity(System.Int32)
   commentId: M:SuperOffice.CRM.Services.IErpSyncAgent.CanDeleteErpSyncConnectorEntity(System.Int32)
   id: CanDeleteErpSyncConnectorEntity(System.Int32)
@@ -1405,20 +1210,17 @@ items:
   langs:
   - csharp
   - vb
-  name: CanDeleteErpSyncConnectorEntity(int)
-  nameWithType: IErpSyncAgent.CanDeleteErpSyncConnectorEntity(int)
-  fullName: SuperOffice.CRM.Services.IErpSyncAgent.CanDeleteErpSyncConnectorEntity(int)
+  name: CanDeleteErpSyncConnectorEntity(Int32)
+  nameWithType: IErpSyncAgent.CanDeleteErpSyncConnectorEntity(Int32)
+  fullName: SuperOffice.CRM.Services.IErpSyncAgent.CanDeleteErpSyncConnectorEntity(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Can we delete the connector?
-
-    <p></p>
-
-    <b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
-  example: []
+  summary: "\nCan we delete the connector?\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
   syntax:
     content: ErpSyncResponseCode CanDeleteErpSyncConnectorEntity(int erpSyncConnectorId)
     parameters:
@@ -1430,9 +1232,6 @@ items:
       description: Enum response says ok or what is wrong
     content.vb: Function CanDeleteErpSyncConnectorEntity(erpSyncConnectorId As Integer) As ErpSyncResponseCode
   overload: SuperOffice.CRM.Services.IErpSyncAgent.CanDeleteErpSyncConnectorEntity*
-  nameWithType.vb: IErpSyncAgent.CanDeleteErpSyncConnectorEntity(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IErpSyncAgent.CanDeleteErpSyncConnectorEntity(Integer)
-  name.vb: CanDeleteErpSyncConnectorEntity(Integer)
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.TestConnectorUrl(System.String)
   commentId: M:SuperOffice.CRM.Services.IErpSyncAgent.TestConnectorUrl(System.String)
   id: TestConnectorUrl(System.String)
@@ -1440,20 +1239,17 @@ items:
   langs:
   - csharp
   - vb
-  name: TestConnectorUrl(string)
-  nameWithType: IErpSyncAgent.TestConnectorUrl(string)
-  fullName: SuperOffice.CRM.Services.IErpSyncAgent.TestConnectorUrl(string)
+  name: TestConnectorUrl(String)
+  nameWithType: IErpSyncAgent.TestConnectorUrl(String)
+  fullName: SuperOffice.CRM.Services.IErpSyncAgent.TestConnectorUrl(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Test if connector urls anwers
-
-    <p></p>
-
-    <b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
-  example: []
+  summary: "\nTest if connector urls anwers\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
   syntax:
     content: ErpSyncResponseCode TestConnectorUrl(string url)
     parameters:
@@ -1465,9 +1261,6 @@ items:
       description: Enum response says ok or what is wrong
     content.vb: Function TestConnectorUrl(url As String) As ErpSyncResponseCode
   overload: SuperOffice.CRM.Services.IErpSyncAgent.TestConnectorUrl*
-  nameWithType.vb: IErpSyncAgent.TestConnectorUrl(String)
-  fullName.vb: SuperOffice.CRM.Services.IErpSyncAgent.TestConnectorUrl(String)
-  name.vb: TestConnectorUrl(String)
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.SaveDefaultValueInfo(SuperOffice.CRM.Services.ErpSyncDefaultValue)
   commentId: M:SuperOffice.CRM.Services.IErpSyncAgent.SaveDefaultValueInfo(SuperOffice.CRM.Services.ErpSyncDefaultValue)
   id: SaveDefaultValueInfo(SuperOffice.CRM.Services.ErpSyncDefaultValue)
@@ -1479,16 +1272,13 @@ items:
   nameWithType: IErpSyncAgent.SaveDefaultValueInfo(ErpSyncDefaultValue)
   fullName: SuperOffice.CRM.Services.IErpSyncAgent.SaveDefaultValueInfo(SuperOffice.CRM.Services.ErpSyncDefaultValue)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Save information about a default value for an ERP field
-
-    <p></p>
-
-    <b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
-  example: []
+  summary: "\nSave information about a default value for an ERP field\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
   syntax:
     content: ErpSyncDefaultValue SaveDefaultValueInfo(ErpSyncDefaultValue erpSyncDefaultValue)
     parameters:
@@ -1507,20 +1297,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetDefaultValueInfo(int)
-  nameWithType: IErpSyncAgent.GetDefaultValueInfo(int)
-  fullName: SuperOffice.CRM.Services.IErpSyncAgent.GetDefaultValueInfo(int)
+  name: GetDefaultValueInfo(Int32)
+  nameWithType: IErpSyncAgent.GetDefaultValueInfo(Int32)
+  fullName: SuperOffice.CRM.Services.IErpSyncAgent.GetDefaultValueInfo(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Get information about default value for an ERP field
-
-    <p></p>
-
-    <b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
-  example: []
+  summary: "\nGet information about default value for an ERP field\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
   syntax:
     content: ErpSyncDefaultValue GetDefaultValueInfo(int erpFieldId)
     parameters:
@@ -1532,9 +1319,6 @@ items:
       description: Object with information about default values
     content.vb: Function GetDefaultValueInfo(erpFieldId As Integer) As ErpSyncDefaultValue
   overload: SuperOffice.CRM.Services.IErpSyncAgent.GetDefaultValueInfo*
-  nameWithType.vb: IErpSyncAgent.GetDefaultValueInfo(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IErpSyncAgent.GetDefaultValueInfo(Integer)
-  name.vb: GetDefaultValueInfo(Integer)
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.SyncAll
   commentId: M:SuperOffice.CRM.Services.IErpSyncAgent.SyncAll
   id: SyncAll
@@ -1546,22 +1330,19 @@ items:
   nameWithType: IErpSyncAgent.SyncAll()
   fullName: SuperOffice.CRM.Services.IErpSyncAgent.SyncAll()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Sync all active connections
-
-    <p></p>
-
-    <b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
-  example: []
+  summary: "\nSync all active connections\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
   syntax:
     content: PluginResponse SyncAll()
     return:
       type: SuperOffice.CRM.Services.PluginResponse
       description: The response
-    content.vb: Function SyncAll() As PluginResponse
+    content.vb: Function SyncAll As PluginResponse
   overload: SuperOffice.CRM.Services.IErpSyncAgent.SyncAll*
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.ForceSyncAll
   commentId: M:SuperOffice.CRM.Services.IErpSyncAgent.ForceSyncAll
@@ -1574,22 +1355,19 @@ items:
   nameWithType: IErpSyncAgent.ForceSyncAll()
   fullName: SuperOffice.CRM.Services.IErpSyncAgent.ForceSyncAll()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Sync all active connections even when automatic sync is off
-
-    <p></p>
-
-    <b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
-  example: []
+  summary: "\nSync all active connections even when automatic sync is off\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
   syntax:
     content: PluginResponse ForceSyncAll()
     return:
       type: SuperOffice.CRM.Services.PluginResponse
       description: The response
-    content.vb: Function ForceSyncAll() As PluginResponse
+    content.vb: Function ForceSyncAll As PluginResponse
   overload: SuperOffice.CRM.Services.IErpSyncAgent.ForceSyncAll*
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.ForceResync(System.Int32,System.Int32[])
   commentId: M:SuperOffice.CRM.Services.IErpSyncAgent.ForceResync(System.Int32,System.Int32[])
@@ -1598,20 +1376,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ForceResync(int, int[])
-  nameWithType: IErpSyncAgent.ForceResync(int, int[])
-  fullName: SuperOffice.CRM.Services.IErpSyncAgent.ForceResync(int, int[])
+  name: ForceResync(Int32, Int32[])
+  nameWithType: IErpSyncAgent.ForceResync(Int32, Int32[])
+  fullName: SuperOffice.CRM.Services.IErpSyncAgent.ForceResync(System.Int32, System.Int32[])
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Force resync from CRM or given Erp connection to all other connections
-
-    <p></p>
-
-    <b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
-  example: []
+  summary: "\nForce resync from CRM or given Erp connection to all other connections\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
   syntax:
     content: PluginResponse ForceResync(int erpConnectionId, int[] internalKeyIds)
     parameters:
@@ -1626,9 +1401,9 @@ items:
       description: The response
     content.vb: Function ForceResync(erpConnectionId As Integer, internalKeyIds As Integer()) As PluginResponse
   overload: SuperOffice.CRM.Services.IErpSyncAgent.ForceResync*
-  nameWithType.vb: IErpSyncAgent.ForceResync(Integer, Integer())
-  fullName.vb: SuperOffice.CRM.Services.IErpSyncAgent.ForceResync(Integer, Integer())
-  name.vb: ForceResync(Integer, Integer())
+  nameWithType.vb: IErpSyncAgent.ForceResync(Int32, Int32())
+  fullName.vb: SuperOffice.CRM.Services.IErpSyncAgent.ForceResync(System.Int32, System.Int32())
+  name.vb: ForceResync(Int32, Int32())
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.ForceResyncNoBlankValues(System.Int32,System.Int32[])
   commentId: M:SuperOffice.CRM.Services.IErpSyncAgent.ForceResyncNoBlankValues(System.Int32,System.Int32[])
   id: ForceResyncNoBlankValues(System.Int32,System.Int32[])
@@ -1636,20 +1411,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ForceResyncNoBlankValues(int, int[])
-  nameWithType: IErpSyncAgent.ForceResyncNoBlankValues(int, int[])
-  fullName: SuperOffice.CRM.Services.IErpSyncAgent.ForceResyncNoBlankValues(int, int[])
+  name: ForceResyncNoBlankValues(Int32, Int32[])
+  nameWithType: IErpSyncAgent.ForceResyncNoBlankValues(Int32, Int32[])
+  fullName: SuperOffice.CRM.Services.IErpSyncAgent.ForceResyncNoBlankValues(System.Int32, System.Int32[])
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Force resync from CRM or given Erp connection to all other connections and tell the sync that you don't want blank values to overwrite non-blank values. Useful on import.
-
-    <p></p>
-
-    <b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
-  example: []
+  summary: "\nForce resync from CRM or given Erp connection to all other connections and tell the sync that you don&apos;t want blank values to overwrite non-blank values. Useful on import.\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
   syntax:
     content: PluginResponse ForceResyncNoBlankValues(int erpConnectionId, int[] internalKeyIds)
     parameters:
@@ -1664,9 +1436,9 @@ items:
       description: The response
     content.vb: Function ForceResyncNoBlankValues(erpConnectionId As Integer, internalKeyIds As Integer()) As PluginResponse
   overload: SuperOffice.CRM.Services.IErpSyncAgent.ForceResyncNoBlankValues*
-  nameWithType.vb: IErpSyncAgent.ForceResyncNoBlankValues(Integer, Integer())
-  fullName.vb: SuperOffice.CRM.Services.IErpSyncAgent.ForceResyncNoBlankValues(Integer, Integer())
-  name.vb: ForceResyncNoBlankValues(Integer, Integer())
+  nameWithType.vb: IErpSyncAgent.ForceResyncNoBlankValues(Int32, Int32())
+  fullName.vb: SuperOffice.CRM.Services.IErpSyncAgent.ForceResyncNoBlankValues(System.Int32, System.Int32())
+  name.vb: ForceResyncNoBlankValues(Int32, Int32())
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.ForceResyncBatchTask(System.Int32,System.Int32[])
   commentId: M:SuperOffice.CRM.Services.IErpSyncAgent.ForceResyncBatchTask(System.Int32,System.Int32[])
   id: ForceResyncBatchTask(System.Int32,System.Int32[])
@@ -1674,20 +1446,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ForceResyncBatchTask(int, int[])
-  nameWithType: IErpSyncAgent.ForceResyncBatchTask(int, int[])
-  fullName: SuperOffice.CRM.Services.IErpSyncAgent.ForceResyncBatchTask(int, int[])
+  name: ForceResyncBatchTask(Int32, Int32[])
+  nameWithType: IErpSyncAgent.ForceResyncBatchTask(Int32, Int32[])
+  fullName: SuperOffice.CRM.Services.IErpSyncAgent.ForceResyncBatchTask(System.Int32, System.Int32[])
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Start batch task to force resync from CRM or given Erp connection to all other connections
-
-    <p></p>
-
-    <b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
-  example: []
+  summary: "\nStart batch task to force resync from CRM or given Erp connection to all other connections\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
   syntax:
     content: void ForceResyncBatchTask(int erpConnectionId, int[] internalKeyIds)
     parameters:
@@ -1699,9 +1468,9 @@ items:
       description: The internal keys of the entities to resync, or empty to resync all
     content.vb: Sub ForceResyncBatchTask(erpConnectionId As Integer, internalKeyIds As Integer())
   overload: SuperOffice.CRM.Services.IErpSyncAgent.ForceResyncBatchTask*
-  nameWithType.vb: IErpSyncAgent.ForceResyncBatchTask(Integer, Integer())
-  fullName.vb: SuperOffice.CRM.Services.IErpSyncAgent.ForceResyncBatchTask(Integer, Integer())
-  name.vb: ForceResyncBatchTask(Integer, Integer())
+  nameWithType.vb: IErpSyncAgent.ForceResyncBatchTask(Int32, Int32())
+  fullName.vb: SuperOffice.CRM.Services.IErpSyncAgent.ForceResyncBatchTask(System.Int32, System.Int32())
+  name.vb: ForceResyncBatchTask(Int32, Int32())
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.ForceResyncExternal(System.Int32,SuperOffice.Data.ErpActorType,System.String[])
   commentId: M:SuperOffice.CRM.Services.IErpSyncAgent.ForceResyncExternal(System.Int32,SuperOffice.Data.ErpActorType,System.String[])
   id: ForceResyncExternal(System.Int32,SuperOffice.Data.ErpActorType,System.String[])
@@ -1709,20 +1478,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ForceResyncExternal(int, ErpActorType, string[])
-  nameWithType: IErpSyncAgent.ForceResyncExternal(int, ErpActorType, string[])
-  fullName: SuperOffice.CRM.Services.IErpSyncAgent.ForceResyncExternal(int, SuperOffice.Data.ErpActorType, string[])
+  name: ForceResyncExternal(Int32, ErpActorType, String[])
+  nameWithType: IErpSyncAgent.ForceResyncExternal(Int32, ErpActorType, String[])
+  fullName: SuperOffice.CRM.Services.IErpSyncAgent.ForceResyncExternal(System.Int32, SuperOffice.Data.ErpActorType, System.String[])
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Force resync from CRM or given Erp connection to all other connections, using external keys
-
-    <p></p>
-
-    <b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
-  example: []
+  summary: "\nForce resync from CRM or given Erp connection to all other connections, using external keys\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
   syntax:
     content: PluginResponse ForceResyncExternal(int erpConnectionId, ErpActorType erpActorType, string[] externalKeys)
     parameters:
@@ -1740,9 +1506,9 @@ items:
       description: The response
     content.vb: Function ForceResyncExternal(erpConnectionId As Integer, erpActorType As ErpActorType, externalKeys As String()) As PluginResponse
   overload: SuperOffice.CRM.Services.IErpSyncAgent.ForceResyncExternal*
-  nameWithType.vb: IErpSyncAgent.ForceResyncExternal(Integer, ErpActorType, String())
-  fullName.vb: SuperOffice.CRM.Services.IErpSyncAgent.ForceResyncExternal(Integer, SuperOffice.Data.ErpActorType, String())
-  name.vb: ForceResyncExternal(Integer, ErpActorType, String())
+  nameWithType.vb: IErpSyncAgent.ForceResyncExternal(Int32, ErpActorType, String())
+  fullName.vb: SuperOffice.CRM.Services.IErpSyncAgent.ForceResyncExternal(System.Int32, SuperOffice.Data.ErpActorType, System.String())
+  name.vb: ForceResyncExternal(Int32, ErpActorType, String())
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.ForceResyncExternalNoBlankValues(System.Int32,SuperOffice.Data.ErpActorType,System.String[])
   commentId: M:SuperOffice.CRM.Services.IErpSyncAgent.ForceResyncExternalNoBlankValues(System.Int32,SuperOffice.Data.ErpActorType,System.String[])
   id: ForceResyncExternalNoBlankValues(System.Int32,SuperOffice.Data.ErpActorType,System.String[])
@@ -1750,20 +1516,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ForceResyncExternalNoBlankValues(int, ErpActorType, string[])
-  nameWithType: IErpSyncAgent.ForceResyncExternalNoBlankValues(int, ErpActorType, string[])
-  fullName: SuperOffice.CRM.Services.IErpSyncAgent.ForceResyncExternalNoBlankValues(int, SuperOffice.Data.ErpActorType, string[])
+  name: ForceResyncExternalNoBlankValues(Int32, ErpActorType, String[])
+  nameWithType: IErpSyncAgent.ForceResyncExternalNoBlankValues(Int32, ErpActorType, String[])
+  fullName: SuperOffice.CRM.Services.IErpSyncAgent.ForceResyncExternalNoBlankValues(System.Int32, SuperOffice.Data.ErpActorType, System.String[])
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Force resync from CRM or given Erp connection to all other connections, using external keys, and tell the sync that you don't want blank values to overwrite non-blank values. Useful on import.
-
-    <p></p>
-
-    <b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
-  example: []
+  summary: "\nForce resync from CRM or given Erp connection to all other connections, using external keys, and tell the sync that you don&apos;t want blank values to overwrite non-blank values. Useful on import.\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
   syntax:
     content: PluginResponse ForceResyncExternalNoBlankValues(int erpConnectionId, ErpActorType erpActorType, string[] externalKeys)
     parameters:
@@ -1781,9 +1544,9 @@ items:
       description: The response
     content.vb: Function ForceResyncExternalNoBlankValues(erpConnectionId As Integer, erpActorType As ErpActorType, externalKeys As String()) As PluginResponse
   overload: SuperOffice.CRM.Services.IErpSyncAgent.ForceResyncExternalNoBlankValues*
-  nameWithType.vb: IErpSyncAgent.ForceResyncExternalNoBlankValues(Integer, ErpActorType, String())
-  fullName.vb: SuperOffice.CRM.Services.IErpSyncAgent.ForceResyncExternalNoBlankValues(Integer, SuperOffice.Data.ErpActorType, String())
-  name.vb: ForceResyncExternalNoBlankValues(Integer, ErpActorType, String())
+  nameWithType.vb: IErpSyncAgent.ForceResyncExternalNoBlankValues(Int32, ErpActorType, String())
+  fullName.vb: SuperOffice.CRM.Services.IErpSyncAgent.ForceResyncExternalNoBlankValues(System.Int32, SuperOffice.Data.ErpActorType, System.String())
+  name.vb: ForceResyncExternalNoBlankValues(Int32, ErpActorType, String())
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.GetEngineStatus
   commentId: M:SuperOffice.CRM.Services.IErpSyncAgent.GetEngineStatus
   id: GetEngineStatus
@@ -1795,22 +1558,19 @@ items:
   nameWithType: IErpSyncAgent.GetEngineStatus()
   fullName: SuperOffice.CRM.Services.IErpSyncAgent.GetEngineStatus()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Get the current status of the Sync engine
-
-    <p></p>
-
-    <b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
-  example: []
+  summary: "\nGet the current status of the Sync engine\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
   syntax:
     content: ErpSyncEngineStatus GetEngineStatus()
     return:
       type: SuperOffice.CRM.Services.ErpSyncEngineStatus
       description: The current status of the engine
-    content.vb: Function GetEngineStatus() As ErpSyncEngineStatus
+    content.vb: Function GetEngineStatus As ErpSyncEngineStatus
   overload: SuperOffice.CRM.Services.IErpSyncAgent.GetEngineStatus*
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.ChangeEngineStatus(System.Boolean)
   commentId: M:SuperOffice.CRM.Services.IErpSyncAgent.ChangeEngineStatus(System.Boolean)
@@ -1819,20 +1579,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ChangeEngineStatus(bool)
-  nameWithType: IErpSyncAgent.ChangeEngineStatus(bool)
-  fullName: SuperOffice.CRM.Services.IErpSyncAgent.ChangeEngineStatus(bool)
+  name: ChangeEngineStatus(Boolean)
+  nameWithType: IErpSyncAgent.ChangeEngineStatus(Boolean)
+  fullName: SuperOffice.CRM.Services.IErpSyncAgent.ChangeEngineStatus(System.Boolean)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Change the current running/stopped status of the Sync engine
-
-    <p></p>
-
-    <b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
-  example: []
+  summary: "\nChange the current running/stopped status of the Sync engine\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
   syntax:
     content: ErpSyncEngineStatus ChangeEngineStatus(bool run)
     parameters:
@@ -1844,9 +1601,6 @@ items:
       description: The current status of the engine
     content.vb: Function ChangeEngineStatus(run As Boolean) As ErpSyncEngineStatus
   overload: SuperOffice.CRM.Services.IErpSyncAgent.ChangeEngineStatus*
-  nameWithType.vb: IErpSyncAgent.ChangeEngineStatus(Boolean)
-  fullName.vb: SuperOffice.CRM.Services.IErpSyncAgent.ChangeEngineStatus(Boolean)
-  name.vb: ChangeEngineStatus(Boolean)
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.ChangeEngineInterval(System.TimeSpan)
   commentId: M:SuperOffice.CRM.Services.IErpSyncAgent.ChangeEngineInterval(System.TimeSpan)
   id: ChangeEngineInterval(System.TimeSpan)
@@ -1858,16 +1612,13 @@ items:
   nameWithType: IErpSyncAgent.ChangeEngineInterval(TimeSpan)
   fullName: SuperOffice.CRM.Services.IErpSyncAgent.ChangeEngineInterval(System.TimeSpan)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Change the interval for each run of the Sync Engine
-
-    <p></p>
-
-    <b>Online Restricted:</b> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
-  example: []
+  summary: "\nChange the interval for each run of the Sync Engine\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
   syntax:
     content: void ChangeEngineInterval(TimeSpan interval)
     parameters:
@@ -1880,44 +1631,12 @@ references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.CreateDefaultErpSyncConnectorEntity*
   commentId: Overload:SuperOffice.CRM.Services.IErpSyncAgent.CreateDefaultErpSyncConnectorEntity
   isExternal: true
-  href: SuperOffice.CRM.Services.IErpSyncAgent.html#SuperOffice_CRM_Services_IErpSyncAgent_CreateDefaultErpSyncConnectorEntity
   name: CreateDefaultErpSyncConnectorEntity
   nameWithType: IErpSyncAgent.CreateDefaultErpSyncConnectorEntity
   fullName: SuperOffice.CRM.Services.IErpSyncAgent.CreateDefaultErpSyncConnectorEntity
@@ -1925,21 +1644,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.ErpSyncConnectorEntity
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.ErpSyncConnectorEntity.html
   name: ErpSyncConnectorEntity
   nameWithType: ErpSyncConnectorEntity
   fullName: SuperOffice.CRM.Services.ErpSyncConnectorEntity
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.SaveErpSyncConnectorEntity*
   commentId: Overload:SuperOffice.CRM.Services.IErpSyncAgent.SaveErpSyncConnectorEntity
   isExternal: true
-  href: SuperOffice.CRM.Services.IErpSyncAgent.html#SuperOffice_CRM_Services_IErpSyncAgent_SaveErpSyncConnectorEntity_SuperOffice_CRM_Services_ErpSyncConnectorEntity_
   name: SaveErpSyncConnectorEntity
   nameWithType: IErpSyncAgent.SaveErpSyncConnectorEntity
   fullName: SuperOffice.CRM.Services.IErpSyncAgent.SaveErpSyncConnectorEntity
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.DeleteErpSyncConnectorEntity*
   commentId: Overload:SuperOffice.CRM.Services.IErpSyncAgent.DeleteErpSyncConnectorEntity
   isExternal: true
-  href: SuperOffice.CRM.Services.IErpSyncAgent.html#SuperOffice_CRM_Services_IErpSyncAgent_DeleteErpSyncConnectorEntity_System_Int32_
   name: DeleteErpSyncConnectorEntity
   nameWithType: IErpSyncAgent.DeleteErpSyncConnectorEntity
   fullName: SuperOffice.CRM.Services.IErpSyncAgent.DeleteErpSyncConnectorEntity
@@ -1947,24 +1663,18 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.GetConnection*
   commentId: Overload:SuperOffice.CRM.Services.IErpSyncAgent.GetConnection
   isExternal: true
-  href: SuperOffice.CRM.Services.IErpSyncAgent.html#SuperOffice_CRM_Services_IErpSyncAgent_GetConnection_System_Int32_
   name: GetConnection
   nameWithType: IErpSyncAgent.GetConnection
   fullName: SuperOffice.CRM.Services.IErpSyncAgent.GetConnection
@@ -1972,34 +1682,29 @@ references:
   commentId: T:SuperOffice.CRM.Services.ErpConnection
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.ErpConnection.html
   name: ErpConnection
   nameWithType: ErpConnection
   fullName: SuperOffice.CRM.Services.ErpConnection
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.SaveConnection*
   commentId: Overload:SuperOffice.CRM.Services.IErpSyncAgent.SaveConnection
   isExternal: true
-  href: SuperOffice.CRM.Services.IErpSyncAgent.html#SuperOffice_CRM_Services_IErpSyncAgent_SaveConnection_SuperOffice_CRM_Services_ErpConnection_
   name: SaveConnection
   nameWithType: IErpSyncAgent.SaveConnection
   fullName: SuperOffice.CRM.Services.IErpSyncAgent.SaveConnection
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.DeleteConnection*
   commentId: Overload:SuperOffice.CRM.Services.IErpSyncAgent.DeleteConnection
   isExternal: true
-  href: SuperOffice.CRM.Services.IErpSyncAgent.html#SuperOffice_CRM_Services_IErpSyncAgent_DeleteConnection_System_Int32_
   name: DeleteConnection
   nameWithType: IErpSyncAgent.DeleteConnection
   fullName: SuperOffice.CRM.Services.IErpSyncAgent.DeleteConnection
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.GetConfigurationFields*
   commentId: Overload:SuperOffice.CRM.Services.IErpSyncAgent.GetConfigurationFields
   isExternal: true
-  href: SuperOffice.CRM.Services.IErpSyncAgent.html#SuperOffice_CRM_Services_IErpSyncAgent_GetConfigurationFields_System_Int32_
   name: GetConfigurationFields
   nameWithType: IErpSyncAgent.GetConfigurationFields
   fullName: SuperOffice.CRM.Services.IErpSyncAgent.GetConfigurationFields
 - uid: SuperOffice.CRM.Services.FieldMetadata[]
   isExternal: true
-  href: SuperOffice.CRM.Services.FieldMetadata.html
   name: FieldMetadata[]
   nameWithType: FieldMetadata[]
   fullName: SuperOffice.CRM.Services.FieldMetadata[]
@@ -2009,21 +1714,24 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.FieldMetadata
     name: FieldMetadata
+    nameWithType: FieldMetadata
+    fullName: SuperOffice.CRM.Services.FieldMetadata
     isExternal: true
-    href: SuperOffice.CRM.Services.FieldMetadata.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.Services.FieldMetadata
     name: FieldMetadata
+    nameWithType: FieldMetadata
+    fullName: SuperOffice.CRM.Services.FieldMetadata
     isExternal: true
-    href: SuperOffice.CRM.Services.FieldMetadata.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.GetErpConnectionConfigFields*
   commentId: Overload:SuperOffice.CRM.Services.IErpSyncAgent.GetErpConnectionConfigFields
   isExternal: true
-  href: SuperOffice.CRM.Services.IErpSyncAgent.html#SuperOffice_CRM_Services_IErpSyncAgent_GetErpConnectionConfigFields_System_Int32_
   name: GetErpConnectionConfigFields
   nameWithType: IErpSyncAgent.GetErpConnectionConfigFields
   fullName: SuperOffice.CRM.Services.IErpSyncAgent.GetErpConnectionConfigFields
@@ -2035,37 +1743,38 @@ references:
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.ToggleErpConnectionActive*
   commentId: Overload:SuperOffice.CRM.Services.IErpSyncAgent.ToggleErpConnectionActive
   isExternal: true
-  href: SuperOffice.CRM.Services.IErpSyncAgent.html#SuperOffice_CRM_Services_IErpSyncAgent_ToggleErpConnectionActive_System_Int32_
   name: ToggleErpConnectionActive
   nameWithType: IErpSyncAgent.ToggleErpConnectionActive
   fullName: SuperOffice.CRM.Services.IErpSyncAgent.ToggleErpConnectionActive
 - uid: System.String[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string[]
-  nameWithType: string[]
-  fullName: string[]
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
   nameWithType.vb: String()
-  fullName.vb: String()
+  fullName.vb: System.String()
   name.vb: String()
   spec.csharp:
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.TestConnectionById*
   commentId: Overload:SuperOffice.CRM.Services.IErpSyncAgent.TestConnectionById
   isExternal: true
-  href: SuperOffice.CRM.Services.IErpSyncAgent.html#SuperOffice_CRM_Services_IErpSyncAgent_TestConnectionById_System_Int32_
   name: TestConnectionById
   nameWithType: IErpSyncAgent.TestConnectionById
   fullName: SuperOffice.CRM.Services.IErpSyncAgent.TestConnectionById
@@ -2073,54 +1782,50 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.TestConnectionByConfig*
   commentId: Overload:SuperOffice.CRM.Services.IErpSyncAgent.TestConnectionByConfig
   isExternal: true
-  href: SuperOffice.CRM.Services.IErpSyncAgent.html#SuperOffice_CRM_Services_IErpSyncAgent_TestConnectionByConfig_System_Int32_SuperOffice_CRM_Services_StringDictionary_
   name: TestConnectionByConfig
   nameWithType: IErpSyncAgent.TestConnectionByConfig
   fullName: SuperOffice.CRM.Services.IErpSyncAgent.TestConnectionByConfig
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.SaveErpConnectionSyncPriorities*
   commentId: Overload:SuperOffice.CRM.Services.IErpSyncAgent.SaveErpConnectionSyncPriorities
   isExternal: true
-  href: SuperOffice.CRM.Services.IErpSyncAgent.html#SuperOffice_CRM_Services_IErpSyncAgent_SaveErpConnectionSyncPriorities_System_Int32___
   name: SaveErpConnectionSyncPriorities
   nameWithType: IErpSyncAgent.SaveErpConnectionSyncPriorities
   fullName: SuperOffice.CRM.Services.IErpSyncAgent.SaveErpConnectionSyncPriorities
 - uid: System.Int32[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int[]
-  nameWithType: int[]
-  fullName: int[]
-  nameWithType.vb: Integer()
-  fullName.vb: Integer()
-  name.vb: Integer()
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
   spec.csharp:
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.MoveErpFieldItem*
   commentId: Overload:SuperOffice.CRM.Services.IErpSyncAgent.MoveErpFieldItem
   isExternal: true
-  href: SuperOffice.CRM.Services.IErpSyncAgent.html#SuperOffice_CRM_Services_IErpSyncAgent_MoveErpFieldItem_System_Int32_System_Int32_System_Int32_SuperOffice_Data_ErpActorType_
   name: MoveErpFieldItem
   nameWithType: IErpSyncAgent.MoveErpFieldItem
   fullName: SuperOffice.CRM.Services.IErpSyncAgent.MoveErpFieldItem
@@ -2132,20 +1837,17 @@ references:
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.SupportsAdvancedSearch*
   commentId: Overload:SuperOffice.CRM.Services.IErpSyncAgent.SupportsAdvancedSearch
   isExternal: true
-  href: SuperOffice.CRM.Services.IErpSyncAgent.html#SuperOffice_CRM_Services_IErpSyncAgent_SupportsAdvancedSearch_System_Int32_SuperOffice_Data_ErpActorType_
   name: SupportsAdvancedSearch
   nameWithType: IErpSyncAgent.SupportsAdvancedSearch
   fullName: SuperOffice.CRM.Services.IErpSyncAgent.SupportsAdvancedSearch
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.GetAllConnectors*
   commentId: Overload:SuperOffice.CRM.Services.IErpSyncAgent.GetAllConnectors
   isExternal: true
-  href: SuperOffice.CRM.Services.IErpSyncAgent.html#SuperOffice_CRM_Services_IErpSyncAgent_GetAllConnectors
   name: GetAllConnectors
   nameWithType: IErpSyncAgent.GetAllConnectors
   fullName: SuperOffice.CRM.Services.IErpSyncAgent.GetAllConnectors
 - uid: SuperOffice.CRM.Services.ListItem[]
   isExternal: true
-  href: SuperOffice.CRM.Services.ListItem.html
   name: ListItem[]
   nameWithType: ListItem[]
   fullName: SuperOffice.CRM.Services.ListItem[]
@@ -2155,27 +1857,29 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.ListItem
     name: ListItem
+    nameWithType: ListItem
+    fullName: SuperOffice.CRM.Services.ListItem
     isExternal: true
-    href: SuperOffice.CRM.Services.ListItem.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.Services.ListItem
     name: ListItem
+    nameWithType: ListItem
+    fullName: SuperOffice.CRM.Services.ListItem
     isExternal: true
-    href: SuperOffice.CRM.Services.ListItem.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.GetAllConnections*
   commentId: Overload:SuperOffice.CRM.Services.IErpSyncAgent.GetAllConnections
   isExternal: true
-  href: SuperOffice.CRM.Services.IErpSyncAgent.html#SuperOffice_CRM_Services_IErpSyncAgent_GetAllConnections_System_Boolean_
   name: GetAllConnections
   nameWithType: IErpSyncAgent.GetAllConnections
   fullName: SuperOffice.CRM.Services.IErpSyncAgent.GetAllConnections
 - uid: SuperOffice.CRM.Services.ErpConnection[]
   isExternal: true
-  href: SuperOffice.CRM.Services.ErpConnection.html
   name: ErpConnection[]
   nameWithType: ErpConnection[]
   fullName: SuperOffice.CRM.Services.ErpConnection[]
@@ -2185,21 +1889,24 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.ErpConnection
     name: ErpConnection
+    nameWithType: ErpConnection
+    fullName: SuperOffice.CRM.Services.ErpConnection
     isExternal: true
-    href: SuperOffice.CRM.Services.ErpConnection.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.Services.ErpConnection
     name: ErpConnection
+    nameWithType: ErpConnection
+    fullName: SuperOffice.CRM.Services.ErpConnection
     isExternal: true
-    href: SuperOffice.CRM.Services.ErpConnection.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.GetConnectionsAndDisplayFields*
   commentId: Overload:SuperOffice.CRM.Services.IErpSyncAgent.GetConnectionsAndDisplayFields
   isExternal: true
-  href: SuperOffice.CRM.Services.IErpSyncAgent.html#SuperOffice_CRM_Services_IErpSyncAgent_GetConnectionsAndDisplayFields_SuperOffice_Data_CrmActorType_System_Int32_
   name: GetConnectionsAndDisplayFields
   nameWithType: IErpSyncAgent.GetConnectionsAndDisplayFields
   fullName: SuperOffice.CRM.Services.IErpSyncAgent.GetConnectionsAndDisplayFields
@@ -2210,7 +1917,6 @@ references:
   fullName: SuperOffice.Data.CrmActorType
 - uid: SuperOffice.CRM.Services.ErpConnectionData[]
   isExternal: true
-  href: SuperOffice.CRM.Services.ErpConnectionData.html
   name: ErpConnectionData[]
   nameWithType: ErpConnectionData[]
   fullName: SuperOffice.CRM.Services.ErpConnectionData[]
@@ -2220,35 +1926,36 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.ErpConnectionData
     name: ErpConnectionData
+    nameWithType: ErpConnectionData
+    fullName: SuperOffice.CRM.Services.ErpConnectionData
     isExternal: true
-    href: SuperOffice.CRM.Services.ErpConnectionData.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.Services.ErpConnectionData
     name: ErpConnectionData
+    nameWithType: ErpConnectionData
+    fullName: SuperOffice.CRM.Services.ErpConnectionData
     isExternal: true
-    href: SuperOffice.CRM.Services.ErpConnectionData.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.GetErpFieldValues*
   commentId: Overload:SuperOffice.CRM.Services.IErpSyncAgent.GetErpFieldValues
   isExternal: true
-  href: SuperOffice.CRM.Services.IErpSyncAgent.html#SuperOffice_CRM_Services_IErpSyncAgent_GetErpFieldValues_System_Int32_SuperOffice_Data_CrmActorType_System_Int32_System_String___
   name: GetErpFieldValues
   nameWithType: IErpSyncAgent.GetErpFieldValues
   fullName: SuperOffice.CRM.Services.IErpSyncAgent.GetErpFieldValues
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.GetFieldsForNewErpActor*
   commentId: Overload:SuperOffice.CRM.Services.IErpSyncAgent.GetFieldsForNewErpActor
   isExternal: true
-  href: SuperOffice.CRM.Services.IErpSyncAgent.html#SuperOffice_CRM_Services_IErpSyncAgent_GetFieldsForNewErpActor_System_Int32_SuperOffice_Data_ErpActorType_
   name: GetFieldsForNewErpActor
   nameWithType: IErpSyncAgent.GetFieldsForNewErpActor
   fullName: SuperOffice.CRM.Services.IErpSyncAgent.GetFieldsForNewErpActor
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.GetConnectionListMappings*
   commentId: Overload:SuperOffice.CRM.Services.IErpSyncAgent.GetConnectionListMappings
   isExternal: true
-  href: SuperOffice.CRM.Services.IErpSyncAgent.html#SuperOffice_CRM_Services_IErpSyncAgent_GetConnectionListMappings_System_Int32_
   name: GetConnectionListMappings
   nameWithType: IErpSyncAgent.GetConnectionListMappings
   fullName: SuperOffice.CRM.Services.IErpSyncAgent.GetConnectionListMappings
@@ -2256,21 +1963,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.ErpConnectionListMappingContainer
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.ErpConnectionListMappingContainer.html
   name: ErpConnectionListMappingContainer
   nameWithType: ErpConnectionListMappingContainer
   fullName: SuperOffice.CRM.Services.ErpConnectionListMappingContainer
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.SaveConnectionListMappings*
   commentId: Overload:SuperOffice.CRM.Services.IErpSyncAgent.SaveConnectionListMappings
   isExternal: true
-  href: SuperOffice.CRM.Services.IErpSyncAgent.html#SuperOffice_CRM_Services_IErpSyncAgent_SaveConnectionListMappings_SuperOffice_CRM_Services_ErpConnectionListMappingContainer_
   name: SaveConnectionListMappings
   nameWithType: IErpSyncAgent.SaveConnectionListMappings
   fullName: SuperOffice.CRM.Services.IErpSyncAgent.SaveConnectionListMappings
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.ConnectActor*
   commentId: Overload:SuperOffice.CRM.Services.IErpSyncAgent.ConnectActor
   isExternal: true
-  href: SuperOffice.CRM.Services.IErpSyncAgent.html#SuperOffice_CRM_Services_IErpSyncAgent_ConnectActor_System_Int32_System_Int32_SuperOffice_Data_CrmActorType_System_String_SuperOffice_Data_ErpActorType_SuperOffice_CRM_Services_ErpSyncFieldValue___
   name: ConnectActor
   nameWithType: IErpSyncAgent.ConnectActor
   fullName: SuperOffice.CRM.Services.IErpSyncAgent.ConnectActor
@@ -2278,16 +1982,11 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.CRM.Services.ErpSyncFieldValue[]
   isExternal: true
-  href: SuperOffice.CRM.Services.ErpSyncFieldValue.html
   name: ErpSyncFieldValue[]
   nameWithType: ErpSyncFieldValue[]
   fullName: SuperOffice.CRM.Services.ErpSyncFieldValue[]
@@ -2297,42 +1996,42 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.ErpSyncFieldValue
     name: ErpSyncFieldValue
+    nameWithType: ErpSyncFieldValue
+    fullName: SuperOffice.CRM.Services.ErpSyncFieldValue
     isExternal: true
-    href: SuperOffice.CRM.Services.ErpSyncFieldValue.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.Services.ErpSyncFieldValue
     name: ErpSyncFieldValue
+    nameWithType: ErpSyncFieldValue
+    fullName: SuperOffice.CRM.Services.ErpSyncFieldValue
     isExternal: true
-    href: SuperOffice.CRM.Services.ErpSyncFieldValue.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.TryConnectActor*
   commentId: Overload:SuperOffice.CRM.Services.IErpSyncAgent.TryConnectActor
   isExternal: true
-  href: SuperOffice.CRM.Services.IErpSyncAgent.html#SuperOffice_CRM_Services_IErpSyncAgent_TryConnectActor_System_Int32_System_Int32_SuperOffice_Data_CrmActorType_System_String_SuperOffice_Data_ErpActorType_SuperOffice_CRM_Services_ErpSyncFieldValue___
   name: TryConnectActor
   nameWithType: IErpSyncAgent.TryConnectActor
   fullName: SuperOffice.CRM.Services.IErpSyncAgent.TryConnectActor
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.GetFieldValuesFromCrm*
   commentId: Overload:SuperOffice.CRM.Services.IErpSyncAgent.GetFieldValuesFromCrm
   isExternal: true
-  href: SuperOffice.CRM.Services.IErpSyncAgent.html#SuperOffice_CRM_Services_IErpSyncAgent_GetFieldValuesFromCrm_System_Int32_SuperOffice_Data_CrmActorType_
   name: GetFieldValuesFromCrm
   nameWithType: IErpSyncAgent.GetFieldValuesFromCrm
   fullName: SuperOffice.CRM.Services.IErpSyncAgent.GetFieldValuesFromCrm
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.GetFieldValuesFromErp*
   commentId: Overload:SuperOffice.CRM.Services.IErpSyncAgent.GetFieldValuesFromErp
   isExternal: true
-  href: SuperOffice.CRM.Services.IErpSyncAgent.html#SuperOffice_CRM_Services_IErpSyncAgent_GetFieldValuesFromErp_System_Int32_SuperOffice_Data_ErpActorType_System_String_
   name: GetFieldValuesFromErp
   nameWithType: IErpSyncAgent.GetFieldValuesFromErp
   fullName: SuperOffice.CRM.Services.IErpSyncAgent.GetFieldValuesFromErp
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.GetActorTypeMapping*
   commentId: Overload:SuperOffice.CRM.Services.IErpSyncAgent.GetActorTypeMapping
   isExternal: true
-  href: SuperOffice.CRM.Services.IErpSyncAgent.html#SuperOffice_CRM_Services_IErpSyncAgent_GetActorTypeMapping_System_Int32_SuperOffice_Data_ErpActorType_
   name: GetActorTypeMapping
   nameWithType: IErpSyncAgent.GetActorTypeMapping
   fullName: SuperOffice.CRM.Services.IErpSyncAgent.GetActorTypeMapping
@@ -2340,63 +2039,54 @@ references:
   commentId: T:SuperOffice.CRM.Services.ErpSyncActorTypeMapping
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.ErpSyncActorTypeMapping.html
   name: ErpSyncActorTypeMapping
   nameWithType: ErpSyncActorTypeMapping
   fullName: SuperOffice.CRM.Services.ErpSyncActorTypeMapping
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.CreateActorLink*
   commentId: Overload:SuperOffice.CRM.Services.IErpSyncAgent.CreateActorLink
   isExternal: true
-  href: SuperOffice.CRM.Services.IErpSyncAgent.html#SuperOffice_CRM_Services_IErpSyncAgent_CreateActorLink_System_Int32_System_Int32_SuperOffice_Data_CrmActorType_System_String_SuperOffice_Data_ErpActorType_
   name: CreateActorLink
   nameWithType: IErpSyncAgent.CreateActorLink
   fullName: SuperOffice.CRM.Services.IErpSyncAgent.CreateActorLink
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.BreakActorLink*
   commentId: Overload:SuperOffice.CRM.Services.IErpSyncAgent.BreakActorLink
   isExternal: true
-  href: SuperOffice.CRM.Services.IErpSyncAgent.html#SuperOffice_CRM_Services_IErpSyncAgent_BreakActorLink_System_Int32_System_Int32_SuperOffice_Data_CrmActorType_
   name: BreakActorLink
   nameWithType: IErpSyncAgent.BreakActorLink
   fullName: SuperOffice.CRM.Services.IErpSyncAgent.BreakActorLink
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.CreateErpActorFromCrm*
   commentId: Overload:SuperOffice.CRM.Services.IErpSyncAgent.CreateErpActorFromCrm
   isExternal: true
-  href: SuperOffice.CRM.Services.IErpSyncAgent.html#SuperOffice_CRM_Services_IErpSyncAgent_CreateErpActorFromCrm_System_Int32_System_Int32_SuperOffice_Data_ErpActorType_SuperOffice_Data_CrmActorType_SuperOffice_CRM_Services_StringDictionary_
   name: CreateErpActorFromCrm
   nameWithType: IErpSyncAgent.CreateErpActorFromCrm
   fullName: SuperOffice.CRM.Services.IErpSyncAgent.CreateErpActorFromCrm
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.SaveActorTypeMapping*
   commentId: Overload:SuperOffice.CRM.Services.IErpSyncAgent.SaveActorTypeMapping
   isExternal: true
-  href: SuperOffice.CRM.Services.IErpSyncAgent.html#SuperOffice_CRM_Services_IErpSyncAgent_SaveActorTypeMapping_SuperOffice_CRM_Services_ErpSyncActorTypeMapping_
   name: SaveActorTypeMapping
   nameWithType: IErpSyncAgent.SaveActorTypeMapping
   fullName: SuperOffice.CRM.Services.IErpSyncAgent.SaveActorTypeMapping
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.ValidateArchiveColumnConfig*
   commentId: Overload:SuperOffice.CRM.Services.IErpSyncAgent.ValidateArchiveColumnConfig
   isExternal: true
-  href: SuperOffice.CRM.Services.IErpSyncAgent.html#SuperOffice_CRM_Services_IErpSyncAgent_ValidateArchiveColumnConfig_System_String_System_Int32_
   name: ValidateArchiveColumnConfig
   nameWithType: IErpSyncAgent.ValidateArchiveColumnConfig
   fullName: SuperOffice.CRM.Services.IErpSyncAgent.ValidateArchiveColumnConfig
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.UpdateConnectionFields*
   commentId: Overload:SuperOffice.CRM.Services.IErpSyncAgent.UpdateConnectionFields
   isExternal: true
-  href: SuperOffice.CRM.Services.IErpSyncAgent.html#SuperOffice_CRM_Services_IErpSyncAgent_UpdateConnectionFields_System_Int32_
   name: UpdateConnectionFields
   nameWithType: IErpSyncAgent.UpdateConnectionFields
   fullName: SuperOffice.CRM.Services.IErpSyncAgent.UpdateConnectionFields
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.GetCrmActorType*
   commentId: Overload:SuperOffice.CRM.Services.IErpSyncAgent.GetCrmActorType
   isExternal: true
-  href: SuperOffice.CRM.Services.IErpSyncAgent.html#SuperOffice_CRM_Services_IErpSyncAgent_GetCrmActorType_System_Int32_SuperOffice_Data_ErpActorType_
   name: GetCrmActorType
   nameWithType: IErpSyncAgent.GetCrmActorType
   fullName: SuperOffice.CRM.Services.IErpSyncAgent.GetCrmActorType
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.GetErpSyncConnectionSummary*
   commentId: Overload:SuperOffice.CRM.Services.IErpSyncAgent.GetErpSyncConnectionSummary
   isExternal: true
-  href: SuperOffice.CRM.Services.IErpSyncAgent.html#SuperOffice_CRM_Services_IErpSyncAgent_GetErpSyncConnectionSummary_System_Int32_
   name: GetErpSyncConnectionSummary
   nameWithType: IErpSyncAgent.GetErpSyncConnectionSummary
   fullName: SuperOffice.CRM.Services.IErpSyncAgent.GetErpSyncConnectionSummary
@@ -2404,21 +2094,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.ErpSyncConnectionSummary
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.ErpSyncConnectionSummary.html
   name: ErpSyncConnectionSummary
   nameWithType: ErpSyncConnectionSummary
   fullName: SuperOffice.CRM.Services.ErpSyncConnectionSummary
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.GetErpSyncConnectorEntity*
   commentId: Overload:SuperOffice.CRM.Services.IErpSyncAgent.GetErpSyncConnectorEntity
   isExternal: true
-  href: SuperOffice.CRM.Services.IErpSyncAgent.html#SuperOffice_CRM_Services_IErpSyncAgent_GetErpSyncConnectorEntity_System_Int32_
   name: GetErpSyncConnectorEntity
   nameWithType: IErpSyncAgent.GetErpSyncConnectorEntity
   fullName: SuperOffice.CRM.Services.IErpSyncAgent.GetErpSyncConnectorEntity
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.CanDeleteErpSyncConnectorEntity*
   commentId: Overload:SuperOffice.CRM.Services.IErpSyncAgent.CanDeleteErpSyncConnectorEntity
   isExternal: true
-  href: SuperOffice.CRM.Services.IErpSyncAgent.html#SuperOffice_CRM_Services_IErpSyncAgent_CanDeleteErpSyncConnectorEntity_System_Int32_
   name: CanDeleteErpSyncConnectorEntity
   nameWithType: IErpSyncAgent.CanDeleteErpSyncConnectorEntity
   fullName: SuperOffice.CRM.Services.IErpSyncAgent.CanDeleteErpSyncConnectorEntity
@@ -2430,14 +2117,12 @@ references:
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.TestConnectorUrl*
   commentId: Overload:SuperOffice.CRM.Services.IErpSyncAgent.TestConnectorUrl
   isExternal: true
-  href: SuperOffice.CRM.Services.IErpSyncAgent.html#SuperOffice_CRM_Services_IErpSyncAgent_TestConnectorUrl_System_String_
   name: TestConnectorUrl
   nameWithType: IErpSyncAgent.TestConnectorUrl
   fullName: SuperOffice.CRM.Services.IErpSyncAgent.TestConnectorUrl
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.SaveDefaultValueInfo*
   commentId: Overload:SuperOffice.CRM.Services.IErpSyncAgent.SaveDefaultValueInfo
   isExternal: true
-  href: SuperOffice.CRM.Services.IErpSyncAgent.html#SuperOffice_CRM_Services_IErpSyncAgent_SaveDefaultValueInfo_SuperOffice_CRM_Services_ErpSyncDefaultValue_
   name: SaveDefaultValueInfo
   nameWithType: IErpSyncAgent.SaveDefaultValueInfo
   fullName: SuperOffice.CRM.Services.IErpSyncAgent.SaveDefaultValueInfo
@@ -2445,21 +2130,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.ErpSyncDefaultValue
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.ErpSyncDefaultValue.html
   name: ErpSyncDefaultValue
   nameWithType: ErpSyncDefaultValue
   fullName: SuperOffice.CRM.Services.ErpSyncDefaultValue
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.GetDefaultValueInfo*
   commentId: Overload:SuperOffice.CRM.Services.IErpSyncAgent.GetDefaultValueInfo
   isExternal: true
-  href: SuperOffice.CRM.Services.IErpSyncAgent.html#SuperOffice_CRM_Services_IErpSyncAgent_GetDefaultValueInfo_System_Int32_
   name: GetDefaultValueInfo
   nameWithType: IErpSyncAgent.GetDefaultValueInfo
   fullName: SuperOffice.CRM.Services.IErpSyncAgent.GetDefaultValueInfo
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.SyncAll*
   commentId: Overload:SuperOffice.CRM.Services.IErpSyncAgent.SyncAll
   isExternal: true
-  href: SuperOffice.CRM.Services.IErpSyncAgent.html#SuperOffice_CRM_Services_IErpSyncAgent_SyncAll
   name: SyncAll
   nameWithType: IErpSyncAgent.SyncAll
   fullName: SuperOffice.CRM.Services.IErpSyncAgent.SyncAll
@@ -2467,56 +2149,48 @@ references:
   commentId: T:SuperOffice.CRM.Services.PluginResponse
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.PluginResponse.html
   name: PluginResponse
   nameWithType: PluginResponse
   fullName: SuperOffice.CRM.Services.PluginResponse
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.ForceSyncAll*
   commentId: Overload:SuperOffice.CRM.Services.IErpSyncAgent.ForceSyncAll
   isExternal: true
-  href: SuperOffice.CRM.Services.IErpSyncAgent.html#SuperOffice_CRM_Services_IErpSyncAgent_ForceSyncAll
   name: ForceSyncAll
   nameWithType: IErpSyncAgent.ForceSyncAll
   fullName: SuperOffice.CRM.Services.IErpSyncAgent.ForceSyncAll
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.ForceResync*
   commentId: Overload:SuperOffice.CRM.Services.IErpSyncAgent.ForceResync
   isExternal: true
-  href: SuperOffice.CRM.Services.IErpSyncAgent.html#SuperOffice_CRM_Services_IErpSyncAgent_ForceResync_System_Int32_System_Int32___
   name: ForceResync
   nameWithType: IErpSyncAgent.ForceResync
   fullName: SuperOffice.CRM.Services.IErpSyncAgent.ForceResync
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.ForceResyncNoBlankValues*
   commentId: Overload:SuperOffice.CRM.Services.IErpSyncAgent.ForceResyncNoBlankValues
   isExternal: true
-  href: SuperOffice.CRM.Services.IErpSyncAgent.html#SuperOffice_CRM_Services_IErpSyncAgent_ForceResyncNoBlankValues_System_Int32_System_Int32___
   name: ForceResyncNoBlankValues
   nameWithType: IErpSyncAgent.ForceResyncNoBlankValues
   fullName: SuperOffice.CRM.Services.IErpSyncAgent.ForceResyncNoBlankValues
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.ForceResyncBatchTask*
   commentId: Overload:SuperOffice.CRM.Services.IErpSyncAgent.ForceResyncBatchTask
   isExternal: true
-  href: SuperOffice.CRM.Services.IErpSyncAgent.html#SuperOffice_CRM_Services_IErpSyncAgent_ForceResyncBatchTask_System_Int32_System_Int32___
   name: ForceResyncBatchTask
   nameWithType: IErpSyncAgent.ForceResyncBatchTask
   fullName: SuperOffice.CRM.Services.IErpSyncAgent.ForceResyncBatchTask
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.ForceResyncExternal*
   commentId: Overload:SuperOffice.CRM.Services.IErpSyncAgent.ForceResyncExternal
   isExternal: true
-  href: SuperOffice.CRM.Services.IErpSyncAgent.html#SuperOffice_CRM_Services_IErpSyncAgent_ForceResyncExternal_System_Int32_SuperOffice_Data_ErpActorType_System_String___
   name: ForceResyncExternal
   nameWithType: IErpSyncAgent.ForceResyncExternal
   fullName: SuperOffice.CRM.Services.IErpSyncAgent.ForceResyncExternal
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.ForceResyncExternalNoBlankValues*
   commentId: Overload:SuperOffice.CRM.Services.IErpSyncAgent.ForceResyncExternalNoBlankValues
   isExternal: true
-  href: SuperOffice.CRM.Services.IErpSyncAgent.html#SuperOffice_CRM_Services_IErpSyncAgent_ForceResyncExternalNoBlankValues_System_Int32_SuperOffice_Data_ErpActorType_System_String___
   name: ForceResyncExternalNoBlankValues
   nameWithType: IErpSyncAgent.ForceResyncExternalNoBlankValues
   fullName: SuperOffice.CRM.Services.IErpSyncAgent.ForceResyncExternalNoBlankValues
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.GetEngineStatus*
   commentId: Overload:SuperOffice.CRM.Services.IErpSyncAgent.GetEngineStatus
   isExternal: true
-  href: SuperOffice.CRM.Services.IErpSyncAgent.html#SuperOffice_CRM_Services_IErpSyncAgent_GetEngineStatus
   name: GetEngineStatus
   nameWithType: IErpSyncAgent.GetEngineStatus
   fullName: SuperOffice.CRM.Services.IErpSyncAgent.GetEngineStatus
@@ -2524,29 +2198,23 @@ references:
   commentId: T:SuperOffice.CRM.Services.ErpSyncEngineStatus
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.ErpSyncEngineStatus.html
   name: ErpSyncEngineStatus
   nameWithType: ErpSyncEngineStatus
   fullName: SuperOffice.CRM.Services.ErpSyncEngineStatus
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.ChangeEngineStatus*
   commentId: Overload:SuperOffice.CRM.Services.IErpSyncAgent.ChangeEngineStatus
   isExternal: true
-  href: SuperOffice.CRM.Services.IErpSyncAgent.html#SuperOffice_CRM_Services_IErpSyncAgent_ChangeEngineStatus_System_Boolean_
   name: ChangeEngineStatus
   nameWithType: IErpSyncAgent.ChangeEngineStatus
   fullName: SuperOffice.CRM.Services.IErpSyncAgent.ChangeEngineStatus
 - uid: SuperOffice.CRM.Services.IErpSyncAgent.ChangeEngineInterval*
   commentId: Overload:SuperOffice.CRM.Services.IErpSyncAgent.ChangeEngineInterval
   isExternal: true
-  href: SuperOffice.CRM.Services.IErpSyncAgent.html#SuperOffice_CRM_Services_IErpSyncAgent_ChangeEngineInterval_System_TimeSpan_
   name: ChangeEngineInterval
   nameWithType: IErpSyncAgent.ChangeEngineInterval
   fullName: SuperOffice.CRM.Services.IErpSyncAgent.ChangeEngineInterval
 - uid: System.TimeSpan
-  commentId: T:System.TimeSpan
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.timespan
   name: TimeSpan
   nameWithType: TimeSpan
   fullName: System.TimeSpan

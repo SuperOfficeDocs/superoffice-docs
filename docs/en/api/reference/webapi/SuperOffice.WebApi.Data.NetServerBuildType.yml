@@ -11,21 +11,64 @@ items:
   - SuperOffice.WebApi.Data.NetServerBuildType.Release
   - SuperOffice.WebApi.Data.NetServerBuildType.ReleaseCandidate
   - SuperOffice.WebApi.Data.NetServerBuildType.Stable
+  - SuperOffice.WebApi.Data.NetServerBuildType.value__
   langs:
   - csharp
   - vb
   name: NetServerBuildType
   nameWithType: NetServerBuildType
   fullName: SuperOffice.WebApi.Data.NetServerBuildType
-  type: Enum
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: ''
-  example: []
+  summary: "\n\n"
   syntax:
-    content: public enum NetServerBuildType
-    content.vb: Public Enum NetServerBuildType
+    content: 'public sealed class NetServerBuildType : Enum'
+    content.vb: >-
+      Public NotInheritable Class NetServerBuildType
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.NetServerBuildType.value__
+  commentId: F:SuperOffice.WebApi.Data.NetServerBuildType.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.NetServerBuildType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: NetServerBuildType.value__
+  fullName: SuperOffice.WebApi.Data.NetServerBuildType.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.NetServerBuildType.Feature
   commentId: F:SuperOffice.WebApi.Data.NetServerBuildType.Feature
   id: Feature
@@ -37,26 +80,24 @@ items:
   nameWithType: NetServerBuildType.Feature
   fullName: SuperOffice.WebApi.Data.NetServerBuildType.Feature
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '0: SuperOffice Research and Product Development confidential version that never shall run on machines not owned by SuperOffice Research and Product Development.'
-  example: []
+  summary: "\n0: SuperOffice Research and Product Development confidential version that never shall run on machines not owned by SuperOffice Research and Product Development.\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Feature = 0
+    content: public const NetServerBuildType Feature
     return:
       type: SuperOffice.WebApi.Data.NetServerBuildType
-    content.vb: >-
-      <EnumMember>
-
-      Feature = 0
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Feature As NetServerBuildType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.NetServerBuildType.Stable
   commentId: F:SuperOffice.WebApi.Data.NetServerBuildType.Stable
   id: Stable
@@ -68,26 +109,24 @@ items:
   nameWithType: NetServerBuildType.Stable
   fullName: SuperOffice.WebApi.Data.NetServerBuildType.Stable
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '1: SuperOffice Research and Product Development confidential version that never shall run on machines not owned by SuperOffice Research and Product Development.'
-  example: []
+  summary: "\n1: SuperOffice Research and Product Development confidential version that never shall run on machines not owned by SuperOffice Research and Product Development.\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Stable = 1
+    content: public const NetServerBuildType Stable
     return:
       type: SuperOffice.WebApi.Data.NetServerBuildType
-    content.vb: >-
-      <EnumMember>
-
-      Stable = 1
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Stable As NetServerBuildType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.NetServerBuildType.Alpha
   commentId: F:SuperOffice.WebApi.Data.NetServerBuildType.Alpha
   id: Alpha
@@ -99,26 +138,24 @@ items:
   nameWithType: NetServerBuildType.Alpha
   fullName: SuperOffice.WebApi.Data.NetServerBuildType.Alpha
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '2: SuperOffice Confidential version that shall only be used by SuperOffice or partners with a signed and valid agreement with SuperOffice.'
-  example: []
+  summary: "\n2: SuperOffice Confidential version that shall only be used by SuperOffice or partners with a signed and valid agreement with SuperOffice.\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Alpha = 2
+    content: public const NetServerBuildType Alpha
     return:
       type: SuperOffice.WebApi.Data.NetServerBuildType
-    content.vb: >-
-      <EnumMember>
-
-      Alpha = 2
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Alpha As NetServerBuildType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.NetServerBuildType.Beta
   commentId: F:SuperOffice.WebApi.Data.NetServerBuildType.Beta
   id: Beta
@@ -130,26 +167,24 @@ items:
   nameWithType: NetServerBuildType.Beta
   fullName: SuperOffice.WebApi.Data.NetServerBuildType.Beta
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '3: Beta version intended for SuperOffice with beta partners'
-  example: []
+  summary: "\n3: Beta version intended for SuperOffice with beta partners\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Beta = 3
+    content: public const NetServerBuildType Beta
     return:
       type: SuperOffice.WebApi.Data.NetServerBuildType
-    content.vb: >-
-      <EnumMember>
-
-      Beta = 3
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Beta As NetServerBuildType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.NetServerBuildType.ReleaseCandidate
   commentId: F:SuperOffice.WebApi.Data.NetServerBuildType.ReleaseCandidate
   id: ReleaseCandidate
@@ -161,26 +196,24 @@ items:
   nameWithType: NetServerBuildType.ReleaseCandidate
   fullName: SuperOffice.WebApi.Data.NetServerBuildType.ReleaseCandidate
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '4: Release candidate intended for customers participating in a ramp-up or beta program.'
-  example: []
+  summary: "\n4: Release candidate intended for customers participating in a ramp-up or beta program.\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      ReleaseCandidate = 4
+    content: public const NetServerBuildType ReleaseCandidate
     return:
       type: SuperOffice.WebApi.Data.NetServerBuildType
-    content.vb: >-
-      <EnumMember>
-
-      ReleaseCandidate = 4
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const ReleaseCandidate As NetServerBuildType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.NetServerBuildType.Release
   commentId: F:SuperOffice.WebApi.Data.NetServerBuildType.Release
   id: Release
@@ -192,69 +225,55 @@ items:
   nameWithType: NetServerBuildType.Release
   fullName: SuperOffice.WebApi.Data.NetServerBuildType.Release
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '5: Release intended for customers.'
-  example: []
+  summary: "\n5: Release intended for customers.\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Release = 5
+    content: public const NetServerBuildType Release
     return:
       type: SuperOffice.WebApi.Data.NetServerBuildType
-    content.vb: >-
-      <EnumMember>
-
-      Release = 5
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Release As NetServerBuildType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.WebApi.Data.NetServerBuildType
   commentId: T:SuperOffice.WebApi.Data.NetServerBuildType
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.NetServerBuildType.html
   name: NetServerBuildType
   nameWithType: NetServerBuildType
   fullName: SuperOffice.WebApi.Data.NetServerBuildType

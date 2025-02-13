@@ -21,70 +21,28 @@ items:
   nameWithType: IArchiveControlEventHandler
   fullName: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler
   type: Interface
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: >-
-    This interface defines a handler for archive row events - what should happen when a user double-clicks or otherwise
-
-    operates on a row of a custom archive; and which action items (buttons, menus) should be shown
-  remarks: >-
-    Custom archives will attempt to instantiate an object implementing this interface, and marked with an
-
-    attribute giving the <b>same name</b> as the archives' data provider. If such an instance is created, it
-
-    will then be called as follows:
-
-    <p></p>
-
-    <table><thead><tr><th class="term">Event</th><th class="description">Call / action taken</th></tr></thead><tbody><tr><td class="term">Construction</td><td class="description"><xref href="SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.GetButtonItems" data-throw-if-not-resolved="false"></xref> is called once, returning an array of items. Buttons are shown
-
-    from left to right in the order they are returned</td></tr><tr><td class="term">Row selection changes</td><td class="description">The <xref href="SuperOffice.CRM.ArchiveLists.RowActionItemInfo.CanExecute" data-throw-if-not-resolved="false"></xref> method is called
-
-    on each action originally returned from <xref href="SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.GetButtonItems" data-throw-if-not-resolved="false"></xref>, whenever the set of currently selected rows changes
-
-    (including on reload, where no rows are initially selected). Return values are used to enable/disable/show/hide buttons.</td></tr><tr><td class="term">Right-click/context menu popup</td><td class="description"><b>Before</b> the menu is shown, then <xref href="SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.GetMenuItems(SuperOffice.CRM.ArchiveLists.RowInfo%5b%5d)" data-throw-if-not-resolved="false"></xref> method
-
-    is called to get the content of the menu. Then, the <xref href="SuperOffice.CRM.ArchiveLists.RowActionItemInfo.CanExecute" data-throw-if-not-resolved="false"></xref> delegate on each
-
-    returned menu item is called, to determine whether it should be visible and enabled. The menu is then shown.</td></tr><tr><td class="term">Menu or button clicked</td><td class="description">In Windows, the <xref href="SuperOffice.CRM.ArchiveLists.RowActionItemInfo.Execute" data-throw-if-not-resolved="false"></xref> delegate
-
-    is called, and its result value processed as described in its comments. In Web, the RowActionItemInfo.ActionScript
-
-    is executed in the Browser.</td></tr><tr><td class="term">Mouse doubleclick on row</td><td class="description">If an 'open' action has been declared, then it is processed; otherwise nothing happens</td></tr></tbody></table>
-
-    <p></p>Row selection, double-clicking/Enter key, Add button, Delete button/Del key are special events that have a strongly typed interface;
-
-    other actions are defined and handled by the generic <xref href="SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.GetMenuItems(SuperOffice.CRM.ArchiveLists.RowInfo%5b%5d)" data-throw-if-not-resolved="false"></xref> and <xref href="SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.GetButtonItems" data-throw-if-not-resolved="false"></xref> methods, and the
-
-    delegates embedded in their return values.
-
-    <p></p>There are two possible constructor signatures for this class:
-
-    <table><thead><tr><th class="term">Signature</th><th class="description">Meaning</th></tr></thead><tbody><tr><td class="term">No arguments/no constructor</td><td class="description">Your code does not care about the "guiName" and "hWnd"
-
-    parameters. This is the case if there is only the one archive with this provider name, or if the behaviour of all
-
-    archives for this provider should be identical. It also means that you do not plan to invoke GUI methods that
-
-    require the knowledge of the Win32 HWND of the archive control itself.</td></tr><tr><td class="term">string guiName, int hWnd</td><td class="description">Your code needs at least one of these two items, either to
-
-    differentiate behaviour based on the gui control name (between different archives for the same provider); or you want
-
-    to perform GUI operations that require the Win32 HWND of the archive control window.</td></tr></tbody></table>
-
-    <p></p>The factory code will automatically recognize and call either of these two constructors. You can also 
-
-    omit defining a constructor altogether if you have no initialization code. Constructors with other signatures will
-
-    not cause failures, but they will not be called.
-  example: []
+  summary: "\nThis interface defines a handler for archive row events - what should happen when a user double-clicks or otherwise\noperates on a row of a custom archive; and which action items (buttons, menus) should be shown\n"
+  remarks: "\nCustom archives will attempt to instantiate an object implementing this interface, and marked with an\nattribute giving the <strong>same name</strong> as the archives&apos; data provider. If such an instance is created, it\nwill then be called as follows:\n<p></p>\n<table><thead><tr><th>Event</th><th>Call / action taken</th></tr></thead><tbody><tr><td>Construction</td><td><xref href=\"SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.GetButtonItems\" data-throw-if-not-resolved=\"false\"></xref> is called once, returning an array of items. Buttons are shown\nfrom left to right in the order they are returned</td></tr><tr><td>Row selection changes</td><td>The <xref href=\"SuperOffice.CRM.ArchiveLists.RowActionItemInfo.CanExecute\" data-throw-if-not-resolved=\"false\"></xref> method is called\non each action originally returned from <xref href=\"SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.GetButtonItems\" data-throw-if-not-resolved=\"false\"></xref>, whenever the set of currently selected rows changes\n(including on reload, where no rows are initially selected). Return values are used to enable/disable/show/hide buttons.</td></tr><tr><td>Right-click/context menu popup</td><td><strong>Before</strong> the menu is shown, then <xref href=\"SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.GetMenuItems(SuperOffice.CRM.ArchiveLists.RowInfo%5b%5d)\" data-throw-if-not-resolved=\"false\"></xref> method\nis called to get the content of the menu. Then, the <xref href=\"SuperOffice.CRM.ArchiveLists.RowActionItemInfo.CanExecute\" data-throw-if-not-resolved=\"false\"></xref> delegate on each\nreturned menu item is called, to determine whether it should be visible and enabled. The menu is then shown.</td></tr><tr><td>Menu or button clicked</td><td>In Windows, the <xref href=\"SuperOffice.CRM.ArchiveLists.RowActionItemInfo.Execute\" data-throw-if-not-resolved=\"false\"></xref> delegate\nis called, and its result value processed as described in its comments. In Web, the <see cref=\"!:RowActionItemInfo.ActionScript\"></see>\nis executed in the Browser.</td></tr><tr><td>Mouse doubleclick on row</td><td>If an &apos;open&apos; action has been declared, then it is processed; otherwise nothing happens</td></tr></tbody></table>\n<p></p>Row selection, double-clicking/Enter key, Add button, Delete button/Del key are special events that have a strongly typed interface;\nother actions are defined and handled by the generic <xref href=\"SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.GetMenuItems(SuperOffice.CRM.ArchiveLists.RowInfo%5b%5d)\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.GetButtonItems\" data-throw-if-not-resolved=\"false\"></xref> methods, and the\ndelegates embedded in their return values.\n<p></p>There are two possible constructor signatures for this class:\n<table><thead><tr><th>Signature</th><th>Meaning</th></tr></thead><tbody><tr><td>No arguments/no constructor</td><td>Your code does not care about the &quot;guiName&quot; and &quot;hWnd&quot;\nparameters. This is the case if there is only the one archive with this provider name, or if the behaviour of all\narchives for this provider should be identical. It also means that you do not plan to invoke GUI methods that\nrequire the knowledge of the Win32 HWND of the archive control itself.</td></tr><tr><td>string guiName, int hWnd</td><td>Your code needs at least one of these two items, either to\ndifferentiate behaviour based on the gui control name (between different archives for the same provider); or you want\nto perform GUI operations that require the Win32 HWND of the archive control window.</td></tr></tbody></table>\n<p></p>The factory code will automatically recognize and call either of these two constructors. You can also \nomit defining a constructor altogether if you have no initialization code. Constructors with other signatures will\nnot cause failures, but they will not be called.\n"
   syntax:
-    content: public interface IArchiveControlEventHandler
-    content.vb: Public Interface IArchiveControlEventHandler
+    content: 'public interface IArchiveControlEventHandler : IPlugin'
+    content.vb: >-
+      Public Interface IArchiveControlEventHandler
+          Inherits IPlugin
   extensionMethods:
   - SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.EnumUtil.MapEnums``2
   - SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
 - uid: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.GetMenuItems(SuperOffice.CRM.ArchiveLists.RowInfo[])
   commentId: M:SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.GetMenuItems(SuperOffice.CRM.ArchiveLists.RowInfo[])
   id: GetMenuItems(SuperOffice.CRM.ArchiveLists.RowInfo[])
@@ -96,11 +54,13 @@ items:
   nameWithType: IArchiveControlEventHandler.GetMenuItems(RowInfo[])
   fullName: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.GetMenuItems(SuperOffice.CRM.ArchiveLists.RowInfo[])
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: Get context menu items for a particular set of rows; called when user right-clicks to trigger popup menu; see class remarks
-  example: []
+  summary: "\nGet context menu items for a particular set of rows; called when user right-clicks to trigger popup menu; see class remarks\n"
   syntax:
     content: RowActionItemInfo[] GetMenuItems(RowInfo[] rowInfo)
     parameters:
@@ -126,19 +86,22 @@ items:
   nameWithType: IArchiveControlEventHandler.GetButtonItems()
   fullName: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.GetButtonItems()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: Get button actions for a custom archive; called once during construction; see class remarks
-  example: []
+  summary: "\nGet button actions for a custom archive; called once during construction; see class remarks\n"
   syntax:
     content: RowActionItemInfo[] GetButtonItems()
     return:
       type: SuperOffice.CRM.ArchiveLists.RowActionItemInfo[]
       description: >-
         Array of button items to be included in toolbar; their visibility and enabled state can be determined at a later
-                    point depending on the selected rows, through the <xref href="SuperOffice.CRM.ArchiveLists.RowActionItemInfo.CanExecute" data-throw-if-not-resolved="false"></xref> method
-    content.vb: Function GetButtonItems() As RowActionItemInfo()
+
+        point depending on the selected rows, through the <xref href="SuperOffice.CRM.ArchiveLists.RowActionItemInfo.CanExecute" data-throw-if-not-resolved="false"></xref> method
+    content.vb: Function GetButtonItems As RowActionItemInfo()
   overload: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.GetButtonItems*
 - uid: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.GetImage(System.String)
   commentId: M:SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.GetImage(System.String)
@@ -147,18 +110,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetImage(string)
-  nameWithType: IArchiveControlEventHandler.GetImage(string)
-  fullName: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.GetImage(string)
+  name: GetImage(String)
+  nameWithType: IArchiveControlEventHandler.GetImage(String)
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.GetImage(System.String)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: >-
-    Return a graphic image corresponding to an image hint; or null if the hint refers to a standard graphic that is already present in the
-
-    calling client code's graphic library
-  example: []
+  summary: "\nReturn a graphic image corresponding to an image hint; or null if the hint refers to a standard graphic that is already present in the\ncalling client code&apos;s graphic library\n"
   syntax:
     content: Image GetImage(string iconHint)
     parameters:
@@ -170,9 +132,6 @@ items:
       description: Image, or null; if null then the system will attempt to find a corresponding standard icon
     content.vb: Function GetImage(iconHint As String) As Image
   overload: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.GetImage*
-  nameWithType.vb: IArchiveControlEventHandler.GetImage(String)
-  fullName.vb: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.GetImage(String)
-  name.vb: GetImage(String)
 - uid: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.HasAddButton
   commentId: M:SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.HasAddButton
   id: HasAddButton
@@ -184,17 +143,18 @@ items:
   nameWithType: IArchiveControlEventHandler.HasAddButton()
   fullName: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.HasAddButton()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: Should the system-supplied Add button/context menu item be shown on this archive?
-  example: []
+  summary: "\nShould the system-supplied Add button/context menu item be shown on this archive?\n"
   syntax:
     content: bool HasAddButton()
     return:
       type: System.Boolean
-      description: ''
-    content.vb: Function HasAddButton() As Boolean
+    content.vb: Function HasAddButton As Boolean
   overload: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.HasAddButton*
 - uid: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.CanAddRow(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
   commentId: M:SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.CanAddRow(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
@@ -207,14 +167,13 @@ items:
   nameWithType: IArchiveControlEventHandler.CanAddRow(ArchiveRestrictionInfo[])
   fullName: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.CanAddRow(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: >-
-    Can a row be added? If the return value does not have the Write right set, then the Add button will be disable
-
-    and the return values' Reason will be set as the tooltip
-  example: []
+  summary: "\nCan a row be added? If the return value does not have the Write right set, then the Add button will be disable\nand the return values&apos; Reason will be set as the tooltip\n"
   syntax:
     content: FieldRight CanAddRow(ArchiveRestrictionInfo[] context)
     parameters:
@@ -225,8 +184,10 @@ items:
       type: SuperOffice.CRM.Security.FieldRight
       description: >-
         Desired state of Add button; the <xref href="SuperOffice.CRM.Security.FieldRight.CanUIUpdate" data-throw-if-not-resolved="false"></xref> is
-                    bound to the enabled state. If false, then the <xref href="SuperOffice.CRM.Security.GenericRight.Reason" data-throw-if-not-resolved="false"></xref> is
-                    shown as the tooltip to explain to the user why the button is disabled
+
+        bound to the enabled state. If false, then the <xref href="SuperOffice.CRM.Security.GenericRight.Reason" data-throw-if-not-resolved="false"></xref> is
+
+        shown as the tooltip to explain to the user why the button is disabled
     content.vb: Function CanAddRow(context As ArchiveRestrictionInfo()) As FieldRight
   overload: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.CanAddRow*
   nameWithType.vb: IArchiveControlEventHandler.CanAddRow(ArchiveRestrictionInfo())
@@ -243,11 +204,13 @@ items:
   nameWithType: IArchiveControlEventHandler.AddRow(ArchiveRestrictionInfo[])
   fullName: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.AddRow(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: Handler called when the user clicks the Add button or menu item
-  example: []
+  summary: "\nHandler called when the user clicks the Add button or menu item\n"
   syntax:
     content: ArchiveRestrictionInfo AddRow(ArchiveRestrictionInfo[] context)
     parameters:
@@ -256,19 +219,30 @@ items:
       description: Current archive restrictions that define the context of the archive
     return:
       type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
-      description: >-
+      description: >
         The result is processed as follows:
-                    <p></p>If a null value is returned here, no action is taken by the archive control
-                    <p></p>If a non-null archive restriction is returned, then it is added to the other restriction currently
-                    in force, and the data provider is called. The result set is then processed depending on matching primary
-                    keys and row types of the result set with those already in the <b>selected rows only</b> of the archive:
-                    <p></p>
-                    <table><thead><tr><th class="term">Provider returns</th><th class="description">Action taken in archive</th></tr></thead><tbody><tr><td class="term">PrimaryKey+RowType match</td><td class="description">The existing row is updated with the values from the provider</td></tr><tr><td class="term">PrimaryKey+RowType mismatch</td><td class="description">A new row is added</td></tr><tr><td class="term">Existing row not matched by new provider result</td><td class="description">Previously selected row is deleted from archive</td></tr></tbody></table>
-                    <p></p>
-                    This delegate should thus return an archive restriction that <b>refetches</b> the currently selected rows, as far as is
-                    relevant; and this result set will update/replace/extend the currently selected rows.
-                    <p></p>
-                    If there are no currently selected rows, then no rows can/will be deleted from the archive
+
+        <p></p>If a null value is returned here, no action is taken by the archive control
+
+        <p></p>If a non-null archive restriction is returned, then it is added to the other restriction currently
+
+        in force, and the data provider is called. The result set is then processed depending on matching primary
+
+        keys and row types of the result set with those already in the <strong>selected rows only</strong> of the archive:
+
+        <p></p>
+
+        <table><thead><tr><th>Provider returns</th><th>Action taken in archive</th></tr></thead><tbody><tr><td>PrimaryKey+RowType match</td><td>The existing row is updated with the values from the provider</td></tr><tr><td>PrimaryKey+RowType mismatch</td><td>A new row is added</td></tr><tr><td>Existing row not matched by new provider result</td><td>Previously selected row is deleted from archive</td></tr></tbody></table>
+
+        <p></p>
+
+        This delegate should thus return an archive restriction that <strong>refetches</strong> the currently selected rows, as far as is
+
+        relevant; and this result set will update/replace/extend the currently selected rows.
+
+        <p></p>
+
+        If there are no currently selected rows, then no rows can/will be deleted from the archive
     content.vb: Function AddRow(context As ArchiveRestrictionInfo()) As ArchiveRestrictionInfo
   overload: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.AddRow*
   nameWithType.vb: IArchiveControlEventHandler.AddRow(ArchiveRestrictionInfo())
@@ -285,22 +259,18 @@ items:
   nameWithType: IArchiveControlEventHandler.HasDeleteButton()
   fullName: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.HasDeleteButton()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: >-
-    Should the system-supplied Delete button/menu item be shown on this archive?
-
-    The enabled/disabled state will be set automatically based on the selected rows' RowRight
-
-    sentry information
-  example: []
+  summary: "\nShould the system-supplied Delete button/menu item be shown on this archive?\nThe enabled/disabled state will be set automatically based on the selected rows&apos; RowRight\nsentry information\n"
   syntax:
     content: bool HasDeleteButton()
     return:
       type: System.Boolean
-      description: ''
-    content.vb: Function HasDeleteButton() As Boolean
+    content.vb: Function HasDeleteButton As Boolean
   overload: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.HasDeleteButton*
 - uid: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.DeleteRows(SuperOffice.CRM.ArchiveLists.RowInfo[])
   commentId: M:SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.DeleteRows(SuperOffice.CRM.ArchiveLists.RowInfo[])
@@ -313,11 +283,13 @@ items:
   nameWithType: IArchiveControlEventHandler.DeleteRows(RowInfo[])
   fullName: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.DeleteRows(SuperOffice.CRM.ArchiveLists.RowInfo[])
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: Delete one or more rows
-  example: []
+  summary: "\nDelete one or more rows\n"
   syntax:
     content: ArchiveRestrictionInfo DeleteRows(RowInfo[] rowInfo)
     parameters:
@@ -326,19 +298,30 @@ items:
       description: Information identifying the rows to be deleted
     return:
       type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
-      description: >-
+      description: >
         The result is processed as follows:
-                    <p></p>If a null value is returned here, no action is taken by the archive control
-                    <p></p>If a non-null archive restriction is returned, then it is added to the other restriction currently
-                    in force, and the data provider is called. The result set is then processed depending on matching primary
-                    keys and row types of the result set with those already in the <b>selected rows only</b> of the archive:
-                    <p></p>
-                    <table><thead><tr><th class="term">Provider returns</th><th class="description">Action taken in archive</th></tr></thead><tbody><tr><td class="term">PrimaryKey+RowType match</td><td class="description">The existing row is updated with the values from the provider</td></tr><tr><td class="term">PrimaryKey+RowType mismatch</td><td class="description">A new row is added</td></tr><tr><td class="term">Existing row not matched by new provider result</td><td class="description">Previously selected row is deleted from archive</td></tr></tbody></table>
-                    <p></p>
-                    This delegate should thus return an archive restriction that <b>refetches</b> the currently selected rows, as far as is
-                    relevant; and this result set will update/replace/extend the currently selected rows.
-                    <p></p>
-                    If there are no currently selected rows, then no rows can/will be deleted from the archive
+
+        <p></p>If a null value is returned here, no action is taken by the archive control
+
+        <p></p>If a non-null archive restriction is returned, then it is added to the other restriction currently
+
+        in force, and the data provider is called. The result set is then processed depending on matching primary
+
+        keys and row types of the result set with those already in the <strong>selected rows only</strong> of the archive:
+
+        <p></p>
+
+        <table><thead><tr><th>Provider returns</th><th>Action taken in archive</th></tr></thead><tbody><tr><td>PrimaryKey+RowType match</td><td>The existing row is updated with the values from the provider</td></tr><tr><td>PrimaryKey+RowType mismatch</td><td>A new row is added</td></tr><tr><td>Existing row not matched by new provider result</td><td>Previously selected row is deleted from archive</td></tr></tbody></table>
+
+        <p></p>
+
+        This delegate should thus return an archive restriction that <strong>refetches</strong> the currently selected rows, as far as is
+
+        relevant; and this result set will update/replace/extend the currently selected rows.
+
+        <p></p>
+
+        If there are no currently selected rows, then no rows can/will be deleted from the archive
     content.vb: Function DeleteRows(rowInfo As RowInfo()) As ArchiveRestrictionInfo
   overload: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.DeleteRows*
   nameWithType.vb: IArchiveControlEventHandler.DeleteRows(RowInfo())
@@ -355,11 +338,13 @@ items:
   nameWithType: IArchiveControlEventHandler.EditRow(RowInfo)
   fullName: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.EditRow(SuperOffice.CRM.ArchiveLists.RowInfo)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: Edit one row (show detail dialog, jump to other application, etc)
-  example: []
+  summary: "\nEdit one row (show detail dialog, jump to other application, etc)\n"
   syntax:
     content: ArchiveRestrictionInfo EditRow(RowInfo rowInfo)
     parameters:
@@ -368,240 +353,110 @@ items:
       description: Information identifying the row to be deleted
     return:
       type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
-      description: >-
+      description: >
         The result is processed as follows:
-                    <p></p>If a null value is returned here, no action is taken by the archive control
-                    <p></p>If a non-null archive restriction is returned, then it is added to the other restriction currently
-                    in force, and the data provider is called. The result set is then processed depending on matching primary
-                    keys and row types of the result set with those already in the <b>selected rows only</b> of the archive:
-                    <p></p>
-                    <table><thead><tr><th class="term">Provider returns</th><th class="description">Action taken in archive</th></tr></thead><tbody><tr><td class="term">PrimaryKey+RowType match</td><td class="description">The existing row is updated with the values from the provider</td></tr><tr><td class="term">PrimaryKey+RowType mismatch</td><td class="description">A new row is added</td></tr><tr><td class="term">Existing row not matched by new provider result</td><td class="description">Previously selected row is deleted from archive</td></tr></tbody></table>
-                    <p></p>
-                    This delegate should thus return an archive restriction that <b>refetches</b> the currently selected rows, as far as is
-                    relevant; and this result set will update/replace/extend the currently selected rows.
-                    <p></p>
-                    If there are no currently selected rows, then no rows can/will be deleted from the archive
+
+        <p></p>If a null value is returned here, no action is taken by the archive control
+
+        <p></p>If a non-null archive restriction is returned, then it is added to the other restriction currently
+
+        in force, and the data provider is called. The result set is then processed depending on matching primary
+
+        keys and row types of the result set with those already in the <strong>selected rows only</strong> of the archive:
+
+        <p></p>
+
+        <table><thead><tr><th>Provider returns</th><th>Action taken in archive</th></tr></thead><tbody><tr><td>PrimaryKey+RowType match</td><td>The existing row is updated with the values from the provider</td></tr><tr><td>PrimaryKey+RowType mismatch</td><td>A new row is added</td></tr><tr><td>Existing row not matched by new provider result</td><td>Previously selected row is deleted from archive</td></tr></tbody></table>
+
+        <p></p>
+
+        This delegate should thus return an archive restriction that <strong>refetches</strong> the currently selected rows, as far as is
+
+        relevant; and this result set will update/replace/extend the currently selected rows.
+
+        <p></p>
+
+        If there are no currently selected rows, then no rows can/will be deleted from the archive
     content.vb: Function EditRow(rowInfo As RowInfo) As ArchiveRestrictionInfo
   overload: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.EditRow*
 references:
-- uid: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.GetButtonItems
-  commentId: M:SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.GetButtonItems
-  isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.html#SuperOffice_CRM_ArchiveLists_IArchiveControlEventHandler_GetButtonItems
-  name: GetButtonItems()
-  nameWithType: IArchiveControlEventHandler.GetButtonItems()
-  fullName: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.GetButtonItems()
-  spec.csharp:
-  - uid: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.GetButtonItems
-    name: GetButtonItems
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.html#SuperOffice_CRM_ArchiveLists_IArchiveControlEventHandler_GetButtonItems
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.GetButtonItems
-    name: GetButtonItems
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.html#SuperOffice_CRM_ArchiveLists_IArchiveControlEventHandler_GetButtonItems
-  - name: (
-  - name: )
-- uid: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.CanExecute
-  commentId: F:SuperOffice.CRM.ArchiveLists.RowActionItemInfo.CanExecute
-  isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.html#SuperOffice_CRM_ArchiveLists_RowActionItemInfo_CanExecute
-  name: CanExecute
-  nameWithType: RowActionItemInfo.CanExecute
-  fullName: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.CanExecute
-- uid: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.GetMenuItems(SuperOffice.CRM.ArchiveLists.RowInfo[])
-  commentId: M:SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.GetMenuItems(SuperOffice.CRM.ArchiveLists.RowInfo[])
-  isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.html#SuperOffice_CRM_ArchiveLists_IArchiveControlEventHandler_GetMenuItems_SuperOffice_CRM_ArchiveLists_RowInfo___
-  name: GetMenuItems(RowInfo[])
-  nameWithType: IArchiveControlEventHandler.GetMenuItems(RowInfo[])
-  fullName: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.GetMenuItems(SuperOffice.CRM.ArchiveLists.RowInfo[])
-  nameWithType.vb: IArchiveControlEventHandler.GetMenuItems(RowInfo())
-  fullName.vb: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.GetMenuItems(SuperOffice.CRM.ArchiveLists.RowInfo())
-  name.vb: GetMenuItems(RowInfo())
-  spec.csharp:
-  - uid: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.GetMenuItems(SuperOffice.CRM.ArchiveLists.RowInfo[])
-    name: GetMenuItems
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.html#SuperOffice_CRM_ArchiveLists_IArchiveControlEventHandler_GetMenuItems_SuperOffice_CRM_ArchiveLists_RowInfo___
-  - name: (
-  - uid: SuperOffice.CRM.ArchiveLists.RowInfo
-    name: RowInfo
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.RowInfo.html
-  - name: '['
-  - name: ']'
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.GetMenuItems(SuperOffice.CRM.ArchiveLists.RowInfo[])
-    name: GetMenuItems
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.html#SuperOffice_CRM_ArchiveLists_IArchiveControlEventHandler_GetMenuItems_SuperOffice_CRM_ArchiveLists_RowInfo___
-  - name: (
-  - uid: SuperOffice.CRM.ArchiveLists.RowInfo
-    name: RowInfo
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.RowInfo.html
-  - name: (
-  - name: )
-  - name: )
-- uid: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.Execute
-  commentId: P:SuperOffice.CRM.ArchiveLists.RowActionItemInfo.Execute
-  isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.html#SuperOffice_CRM_ArchiveLists_RowActionItemInfo_Execute
-  name: Execute
-  nameWithType: RowActionItemInfo.Execute
-  fullName: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.Execute
 - uid: SuperOffice.CRM.ArchiveLists
   commentId: N:SuperOffice.CRM.ArchiveLists
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.ArchiveLists
   nameWithType: SuperOffice.CRM.ArchiveLists
   fullName: SuperOffice.CRM.ArchiveLists
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.ArchiveLists
-    name: ArchiveLists
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.ArchiveLists
-    name: ArchiveLists
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.html
 - uid: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<IArchiveControlEventHandler, To>(IArchiveControlEventHandler)
-  nameWithType: EnumUtil.MapEnums<IArchiveControlEventHandler, To>(IArchiveControlEventHandler)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler, To>(SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler)
-  nameWithType.vb: EnumUtil.MapEnums(Of IArchiveControlEventHandler, To)(IArchiveControlEventHandler)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler, To)(SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler)
-  name.vb: MapEnums(Of IArchiveControlEventHandler, To)(IArchiveControlEventHandler)
+  name: MapEnums<IArchiveControlEventHandler, To>()
+  nameWithType: EnumUtil.MapEnums<IArchiveControlEventHandler, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of IArchiveControlEventHandler, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler, To)()
+  name.vb: MapEnums(Of IArchiveControlEventHandler, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<IArchiveControlEventHandler, To>
+    nameWithType: EnumUtil.MapEnums<IArchiveControlEventHandler, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler
-    name: IArchiveControlEventHandler
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler
-    name: IArchiveControlEventHandler
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of IArchiveControlEventHandler, To)
+    nameWithType: EnumUtil.MapEnums(Of IArchiveControlEventHandler, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler
-    name: IArchiveControlEventHandler
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler
-    name: IArchiveControlEventHandler
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<IArchiveControlEventHandler, To>(IArchiveControlEventHandler)
-  nameWithType: Converters.MapEnums<IArchiveControlEventHandler, To>(IArchiveControlEventHandler)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler, To>(SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler)
-  nameWithType.vb: Converters.MapEnums(Of IArchiveControlEventHandler, To)(IArchiveControlEventHandler)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler, To)(SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler)
-  name.vb: MapEnums(Of IArchiveControlEventHandler, To)(IArchiveControlEventHandler)
+  name: MapEnums<IArchiveControlEventHandler, To>()
+  nameWithType: Converters.MapEnums<IArchiveControlEventHandler, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler, To>()
+  nameWithType.vb: Converters.MapEnums(Of IArchiveControlEventHandler, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler, To)()
+  name.vb: MapEnums(Of IArchiveControlEventHandler, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<IArchiveControlEventHandler, To>
+    nameWithType: Converters.MapEnums<IArchiveControlEventHandler, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler
-    name: IArchiveControlEventHandler
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler
-    name: IArchiveControlEventHandler
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of IArchiveControlEventHandler, To)
+    nameWithType: Converters.MapEnums(Of IArchiveControlEventHandler, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler
-    name: IArchiveControlEventHandler
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler
-    name: IArchiveControlEventHandler
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -610,45 +465,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -657,89 +510,55 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.GetMenuItems*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.GetMenuItems
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.html#SuperOffice_CRM_ArchiveLists_IArchiveControlEventHandler_GetMenuItems_SuperOffice_CRM_ArchiveLists_RowInfo___
   name: GetMenuItems
   nameWithType: IArchiveControlEventHandler.GetMenuItems
   fullName: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.GetMenuItems
 - uid: SuperOffice.CRM.ArchiveLists.RowInfo[]
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.RowInfo.html
   name: RowInfo[]
   nameWithType: RowInfo[]
   fullName: SuperOffice.CRM.ArchiveLists.RowInfo[]
@@ -749,20 +568,23 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.ArchiveLists.RowInfo
     name: RowInfo
+    nameWithType: RowInfo
+    fullName: SuperOffice.CRM.ArchiveLists.RowInfo
     isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.RowInfo.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.ArchiveLists.RowInfo
     name: RowInfo
+    nameWithType: RowInfo
+    fullName: SuperOffice.CRM.ArchiveLists.RowInfo
     isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.RowInfo.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.ArchiveLists.RowActionItemInfo[]
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.html
   name: RowActionItemInfo[]
   nameWithType: RowActionItemInfo[]
   fullName: SuperOffice.CRM.ArchiveLists.RowActionItemInfo[]
@@ -772,28 +594,30 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.ArchiveLists.RowActionItemInfo
     name: RowActionItemInfo
+    nameWithType: RowActionItemInfo
+    fullName: SuperOffice.CRM.ArchiveLists.RowActionItemInfo
     isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.ArchiveLists.RowActionItemInfo
     name: RowActionItemInfo
+    nameWithType: RowActionItemInfo
+    fullName: SuperOffice.CRM.ArchiveLists.RowActionItemInfo
     isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.RowActionItemInfo.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.GetButtonItems*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.GetButtonItems
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.html#SuperOffice_CRM_ArchiveLists_IArchiveControlEventHandler_GetButtonItems
   name: GetButtonItems
   nameWithType: IArchiveControlEventHandler.GetButtonItems
   fullName: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.GetButtonItems
 - uid: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.GetImage*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.GetImage
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.html#SuperOffice_CRM_ArchiveLists_IArchiveControlEventHandler_GetImage_System_String_
   name: GetImage
   nameWithType: IArchiveControlEventHandler.GetImage
   fullName: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.GetImage
@@ -801,59 +625,23 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: System.Drawing.Image
-  commentId: T:System.Drawing.Image
-  parent: System.Drawing
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.drawing.image
   name: Image
   nameWithType: Image
   fullName: System.Drawing.Image
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
-- uid: System.Drawing
-  commentId: N:System.Drawing
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Drawing
-  nameWithType: System.Drawing
-  fullName: System.Drawing
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Drawing
-    name: Drawing
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.drawing
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Drawing
-    name: Drawing
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.drawing
 - uid: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.HasAddButton*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.HasAddButton
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.html#SuperOffice_CRM_ArchiveLists_IArchiveControlEventHandler_HasAddButton
   name: HasAddButton
   nameWithType: IArchiveControlEventHandler.HasAddButton
   fullName: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.HasAddButton
@@ -861,37 +649,17 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
-- uid: SuperOffice.CRM.Security.FieldRight.CanUIUpdate
-  commentId: P:SuperOffice.CRM.Security.FieldRight.CanUIUpdate
-  isExternal: true
-  name: CanUIUpdate
-  nameWithType: FieldRight.CanUIUpdate
-  fullName: SuperOffice.CRM.Security.FieldRight.CanUIUpdate
-- uid: SuperOffice.CRM.Security.GenericRight.Reason
-  commentId: P:SuperOffice.CRM.Security.GenericRight.Reason
-  parent: SuperOffice.CRM.Security.GenericRight
-  isExternal: true
-  href: SuperOffice.CRM.Security.GenericRight.html#SuperOffice_CRM_Security_GenericRight_Reason
-  name: Reason
-  nameWithType: GenericRight.Reason
-  fullName: SuperOffice.CRM.Security.GenericRight.Reason
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.CanAddRow*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.CanAddRow
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.html#SuperOffice_CRM_ArchiveLists_IArchiveControlEventHandler_CanAddRow_SuperOffice_CRM_ArchiveLists_ArchiveRestrictionInfo___
   name: CanAddRow
   nameWithType: IArchiveControlEventHandler.CanAddRow
   fullName: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.CanAddRow
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.html
   name: ArchiveRestrictionInfo[]
   nameWithType: ArchiveRestrictionInfo[]
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
@@ -901,74 +669,37 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
     name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
     isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
     name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
     isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Security.FieldRight
   commentId: T:SuperOffice.CRM.Security.FieldRight
   parent: SuperOffice.CRM.Security
   isExternal: true
-  href: SuperOffice.CRM.Security.FieldRight.html
   name: FieldRight
   nameWithType: FieldRight
   fullName: SuperOffice.CRM.Security.FieldRight
-- uid: SuperOffice.CRM.Security.GenericRight
-  commentId: T:SuperOffice.CRM.Security.GenericRight
-  parent: SuperOffice.CRM.Security
-  isExternal: true
-  href: SuperOffice.CRM.Security.GenericRight.html
-  name: GenericRight
-  nameWithType: GenericRight
-  fullName: SuperOffice.CRM.Security.GenericRight
 - uid: SuperOffice.CRM.Security
   commentId: N:SuperOffice.CRM.Security
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Security
   nameWithType: SuperOffice.CRM.Security
   fullName: SuperOffice.CRM.Security
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Security
-    name: Security
-    isExternal: true
-    href: SuperOffice.CRM.Security.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Security
-    name: Security
-    isExternal: true
-    href: SuperOffice.CRM.Security.html
 - uid: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.AddRow*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.AddRow
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.html#SuperOffice_CRM_ArchiveLists_IArchiveControlEventHandler_AddRow_SuperOffice_CRM_ArchiveLists_ArchiveRestrictionInfo___
   name: AddRow
   nameWithType: IArchiveControlEventHandler.AddRow
   fullName: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.AddRow
@@ -976,28 +707,24 @@ references:
   commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
   parent: SuperOffice.CRM.ArchiveLists
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.html
   name: ArchiveRestrictionInfo
   nameWithType: ArchiveRestrictionInfo
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
 - uid: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.HasDeleteButton*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.HasDeleteButton
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.html#SuperOffice_CRM_ArchiveLists_IArchiveControlEventHandler_HasDeleteButton
   name: HasDeleteButton
   nameWithType: IArchiveControlEventHandler.HasDeleteButton
   fullName: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.HasDeleteButton
 - uid: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.DeleteRows*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.DeleteRows
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.html#SuperOffice_CRM_ArchiveLists_IArchiveControlEventHandler_DeleteRows_SuperOffice_CRM_ArchiveLists_RowInfo___
   name: DeleteRows
   nameWithType: IArchiveControlEventHandler.DeleteRows
   fullName: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.DeleteRows
 - uid: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.EditRow*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.EditRow
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.html#SuperOffice_CRM_ArchiveLists_IArchiveControlEventHandler_EditRow_SuperOffice_CRM_ArchiveLists_RowInfo_
   name: EditRow
   nameWithType: IArchiveControlEventHandler.EditRow
   fullName: SuperOffice.CRM.ArchiveLists.IArchiveControlEventHandler.EditRow
@@ -1005,7 +732,6 @@ references:
   commentId: T:SuperOffice.CRM.ArchiveLists.RowInfo
   parent: SuperOffice.CRM.ArchiveLists
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.RowInfo.html
   name: RowInfo
   nameWithType: RowInfo
   fullName: SuperOffice.CRM.ArchiveLists.RowInfo

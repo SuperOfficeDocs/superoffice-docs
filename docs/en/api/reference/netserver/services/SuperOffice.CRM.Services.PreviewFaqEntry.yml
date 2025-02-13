@@ -20,27 +20,18 @@ items:
   nameWithType: PreviewFaqEntry
   fullName: SuperOffice.CRM.Services.PreviewFaqEntry
   type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    A faq entry with information suitable for preview.
-
-    <p></p>
-
-    Carrier object for PreviewFaqEntry.
-
-    Services for the PreviewFaqEntry Carrier is available from the <xref href="SuperOffice.CRM.Services.ICustomerServiceAgent?text=CustomerService+Agent" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nA faq entry with information suitable for preview.\n<p></p>\nCarrier object for PreviewFaqEntry.\nServices for the PreviewFaqEntry Carrier is available from the <xref href=\"SuperOffice.CRM.Services.ICustomerServiceAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public class PreviewFaqEntry : Carrier
+    content: 'public class PreviewFaqEntry : Carrier'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
-
-      Public Class PreviewFaqEntry Inherits Carrier
+      Public Class PreviewFaqEntry
+          Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.CustomerServiceAgent
     commentId: T:SuperOffice.CRM.Services.CustomerServiceAgent
@@ -48,14 +39,12 @@ items:
     commentId: T:SuperOffice.CRM.Services.ICustomerServiceAgent
   inheritance:
   - System.Object
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.PreviewFaqEntry.#ctor
   commentId: M:SuperOffice.CRM.Services.PreviewFaqEntry.#ctor
   id: '#ctor'
@@ -67,18 +56,21 @@ items:
   nameWithType: PreviewFaqEntry.PreviewFaqEntry()
   fullName: SuperOffice.CRM.Services.PreviewFaqEntry.PreviewFaqEntry()
   type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Default constructor
-  example: []
+  summary: "\nDefault constructor\n"
   syntax:
     content: public PreviewFaqEntry()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.PreviewFaqEntry.#ctor*
-  nameWithType.vb: PreviewFaqEntry.New()
-  fullName.vb: SuperOffice.CRM.Services.PreviewFaqEntry.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.PreviewFaqEntry.ToString
   commentId: M:SuperOffice.CRM.Services.PreviewFaqEntry.ToString
   id: ToString
@@ -90,18 +82,26 @@ items:
   nameWithType: PreviewFaqEntry.ToString()
   fullName: SuperOffice.CRM.Services.PreviewFaqEntry.ToString()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the carrier contents as a formatted string.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string.\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString() As String
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.CRM.Services.PreviewFaqEntry.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Services.PreviewFaqEntry.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.PreviewFaqEntry.ToString(System.String)
   id: ToString(System.String)
@@ -109,18 +109,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(string)
-  nameWithType: PreviewFaqEntry.ToString(string)
-  fullName: SuperOffice.CRM.Services.PreviewFaqEntry.ToString(string)
+  name: ToString(String)
+  nameWithType: PreviewFaqEntry.ToString(String)
+  fullName: SuperOffice.CRM.Services.PreviewFaqEntry.ToString(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Returns the carrier contents as a formatted string, useful for debugging.
-
-    Each line in the output is prefixed with the input value.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -132,9 +131,10 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.PreviewFaqEntry.ToString*
-  nameWithType.vb: PreviewFaqEntry.ToString(String)
-  fullName.vb: SuperOffice.CRM.Services.PreviewFaqEntry.ToString(String)
-  name.vb: ToString(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.PreviewFaqEntry.Title
   commentId: P:SuperOffice.CRM.Services.PreviewFaqEntry.Title
   id: Title
@@ -146,28 +146,28 @@ items:
   nameWithType: PreviewFaqEntry.Title
   fullName: SuperOffice.CRM.Services.PreviewFaqEntry.Title
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The title of this entry.
-  example: []
+  summary: "\nThe title of this entry. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string Title { get; set; }
+    content: public virtual string Title { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Title As String
+    content.vb: Public Overridable Property Title As String
   overload: SuperOffice.CRM.Services.PreviewFaqEntry.Title*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.PreviewFaqEntry.RegisteredByFullName
   commentId: P:SuperOffice.CRM.Services.PreviewFaqEntry.RegisteredByFullName
   id: RegisteredByFullName
@@ -179,28 +179,28 @@ items:
   nameWithType: PreviewFaqEntry.RegisteredByFullName
   fullName: SuperOffice.CRM.Services.PreviewFaqEntry.RegisteredByFullName
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Full name of associate that created this faq entry
-  example: []
+  summary: "\nFull name of associate that created this faq entry \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string RegisteredByFullName { get; set; }
+    content: public virtual string RegisteredByFullName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property RegisteredByFullName As String
+    content.vb: Public Overridable Property RegisteredByFullName As String
   overload: SuperOffice.CRM.Services.PreviewFaqEntry.RegisteredByFullName*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.PreviewFaqEntry.Updated
   commentId: P:SuperOffice.CRM.Services.PreviewFaqEntry.Updated
   id: Updated
@@ -212,28 +212,28 @@ items:
   nameWithType: PreviewFaqEntry.Updated
   fullName: SuperOffice.CRM.Services.PreviewFaqEntry.Updated
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Date/time this faq entry was last updated.
-  example: []
+  summary: "\nDate/time this faq entry was last updated. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual DateTime Updated { get; set; }
+    content: public virtual DateTime Updated { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Updated As Date
+    content.vb: Public Overridable Property Updated As DateTime
   overload: SuperOffice.CRM.Services.PreviewFaqEntry.Updated*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.PreviewFaqEntry.Question
   commentId: P:SuperOffice.CRM.Services.PreviewFaqEntry.Question
   id: Question
@@ -245,28 +245,28 @@ items:
   nameWithType: PreviewFaqEntry.Question
   fullName: SuperOffice.CRM.Services.PreviewFaqEntry.Question
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The question for this entry.
-  example: []
+  summary: "\nThe question for this entry. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string Question { get; set; }
+    content: public virtual string Question { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Question As String
+    content.vb: Public Overridable Property Question As String
   overload: SuperOffice.CRM.Services.PreviewFaqEntry.Question*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.PreviewFaqEntry.Answer
   commentId: P:SuperOffice.CRM.Services.PreviewFaqEntry.Answer
   id: Answer
@@ -278,33 +278,38 @@ items:
   nameWithType: PreviewFaqEntry.Answer
   fullName: SuperOffice.CRM.Services.PreviewFaqEntry.Answer
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The answer for this entry.
-  example: []
+  summary: "\nThe answer for this entry. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string Answer { get; set; }
+    content: public virtual string Answer { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Answer As String
+    content.vb: Public Overridable Property Answer As String
   overload: SuperOffice.CRM.Services.PreviewFaqEntry.Answer*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
 - uid: SuperOffice.CRM.Services.CustomerServiceAgent
   commentId: T:SuperOffice.CRM.Services.CustomerServiceAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.CustomerServiceAgent.html
   name: CustomerServiceAgent
   nameWithType: CustomerServiceAgent
   fullName: SuperOffice.CRM.Services.CustomerServiceAgent
@@ -312,79 +317,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.ICustomerServiceAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.ICustomerServiceAgent.html
   name: ICustomerServiceAgent
   nameWithType: ICustomerServiceAgent
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.PreviewFaqEntry.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.PreviewFaqEntry.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.PreviewFaqEntry.html#SuperOffice_CRM_Services_PreviewFaqEntry__ctor
   name: PreviewFaqEntry
   nameWithType: PreviewFaqEntry.PreviewFaqEntry
   fullName: SuperOffice.CRM.Services.PreviewFaqEntry.PreviewFaqEntry
-  nameWithType.vb: PreviewFaqEntry.New
-  fullName.vb: SuperOffice.CRM.Services.PreviewFaqEntry.New
-  name.vb: New
 - uid: SuperOffice.CRM.Services.PreviewFaqEntry.ToString*
   commentId: Overload:SuperOffice.CRM.Services.PreviewFaqEntry.ToString
   isExternal: true
-  href: SuperOffice.CRM.Services.PreviewFaqEntry.html#SuperOffice_CRM_Services_PreviewFaqEntry_ToString
   name: ToString
   nameWithType: PreviewFaqEntry.ToString
   fullName: SuperOffice.CRM.Services.PreviewFaqEntry.ToString
@@ -392,56 +336,47 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.PreviewFaqEntry.Title*
   commentId: Overload:SuperOffice.CRM.Services.PreviewFaqEntry.Title
   isExternal: true
-  href: SuperOffice.CRM.Services.PreviewFaqEntry.html#SuperOffice_CRM_Services_PreviewFaqEntry_Title
   name: Title
   nameWithType: PreviewFaqEntry.Title
   fullName: SuperOffice.CRM.Services.PreviewFaqEntry.Title
 - uid: SuperOffice.CRM.Services.PreviewFaqEntry.RegisteredByFullName*
   commentId: Overload:SuperOffice.CRM.Services.PreviewFaqEntry.RegisteredByFullName
   isExternal: true
-  href: SuperOffice.CRM.Services.PreviewFaqEntry.html#SuperOffice_CRM_Services_PreviewFaqEntry_RegisteredByFullName
   name: RegisteredByFullName
   nameWithType: PreviewFaqEntry.RegisteredByFullName
   fullName: SuperOffice.CRM.Services.PreviewFaqEntry.RegisteredByFullName
 - uid: SuperOffice.CRM.Services.PreviewFaqEntry.Updated*
   commentId: Overload:SuperOffice.CRM.Services.PreviewFaqEntry.Updated
   isExternal: true
-  href: SuperOffice.CRM.Services.PreviewFaqEntry.html#SuperOffice_CRM_Services_PreviewFaqEntry_Updated
   name: Updated
   nameWithType: PreviewFaqEntry.Updated
   fullName: SuperOffice.CRM.Services.PreviewFaqEntry.Updated
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
 - uid: SuperOffice.CRM.Services.PreviewFaqEntry.Question*
   commentId: Overload:SuperOffice.CRM.Services.PreviewFaqEntry.Question
   isExternal: true
-  href: SuperOffice.CRM.Services.PreviewFaqEntry.html#SuperOffice_CRM_Services_PreviewFaqEntry_Question
   name: Question
   nameWithType: PreviewFaqEntry.Question
   fullName: SuperOffice.CRM.Services.PreviewFaqEntry.Question
 - uid: SuperOffice.CRM.Services.PreviewFaqEntry.Answer*
   commentId: Overload:SuperOffice.CRM.Services.PreviewFaqEntry.Answer
   isExternal: true
-  href: SuperOffice.CRM.Services.PreviewFaqEntry.html#SuperOffice_CRM_Services_PreviewFaqEntry_Answer
   name: Answer
   nameWithType: PreviewFaqEntry.Answer
   fullName: SuperOffice.CRM.Services.PreviewFaqEntry.Answer

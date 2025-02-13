@@ -16,28 +16,15 @@ items:
   nameWithType: IRelationAgent
   fullName: SuperOffice.CRM.Services.IRelationAgent
   type: Interface
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Interface for the Relation Agent
-
-    Contact/Person relations
+  summary: "\nInterface for the Relation Agent\nContact/Person relations\n"
   example:
-  - >-
-    <pre><code class="lang-csharp">using SuperOffice;
-
-    using SuperOffice.CRM.Services;
-
-
-    using (SoSession mySession = SoSession.Authenticate("user", "pass"))
-
-    {
-       using (RelationAgent agent = new RelationAgent())
-       {
-          // call methods on agent here...
-       }
-    }</code></pre>
+  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (RelationAgent agent = new RelationAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
   syntax:
     content: >-
       [Agent("Relation Agent", "Interface for the Relation Agent. Contact/Person relations")]
@@ -46,7 +33,8 @@ items:
     content.vb: >-
       <Agent("Relation Agent", "Interface for the Relation Agent. Contact/Person relations")>
 
-      Public Interface IRelationAgent Inherits IAgent
+      Public Interface IRelationAgent
+          Inherits IAgent
   attributes:
   - type: SuperOffice.CRM.Services.Reflection.AgentAttribute
     ctor: SuperOffice.CRM.Services.Reflection.AgentAttribute.#ctor(System.String,System.String)
@@ -55,6 +43,12 @@ items:
       value: Relation Agent
     - type: System.String
       value: Interface for the Relation Agent. Contact/Person relations
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
 - uid: SuperOffice.CRM.Services.IRelationAgent.CreateDefaultContactRelationEntity
   commentId: M:SuperOffice.CRM.Services.IRelationAgent.CreateDefaultContactRelationEntity
   id: CreateDefaultContactRelationEntity
@@ -66,20 +60,19 @@ items:
   nameWithType: IRelationAgent.CreateDefaultContactRelationEntity()
   fullName: SuperOffice.CRM.Services.IRelationAgent.CreateDefaultContactRelationEntity()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new ContactRelationEntity.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-  example: []
+  summary: "\nLoading default values into a new ContactRelationEntity.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
   syntax:
     content: ContactRelationEntity CreateDefaultContactRelationEntity()
     return:
       type: SuperOffice.CRM.Services.ContactRelationEntity
       description: New ContactRelationEntity with default values
-    content.vb: Function CreateDefaultContactRelationEntity() As ContactRelationEntity
+    content.vb: Function CreateDefaultContactRelationEntity As ContactRelationEntity
   overload: SuperOffice.CRM.Services.IRelationAgent.CreateDefaultContactRelationEntity*
 - uid: SuperOffice.CRM.Services.IRelationAgent.GetContactRelationEntity(System.Int32)
   commentId: M:SuperOffice.CRM.Services.IRelationAgent.GetContactRelationEntity(System.Int32)
@@ -88,15 +81,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetContactRelationEntity(int)
-  nameWithType: IRelationAgent.GetContactRelationEntity(int)
-  fullName: SuperOffice.CRM.Services.IRelationAgent.GetContactRelationEntity(int)
+  name: GetContactRelationEntity(Int32)
+  nameWithType: IRelationAgent.GetContactRelationEntity(Int32)
+  fullName: SuperOffice.CRM.Services.IRelationAgent.GetContactRelationEntity(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Gets a ContactRelationEntity object.
-  example: []
+  summary: "\nGets a ContactRelationEntity object.                        \n"
   syntax:
     content: ContactRelationEntity GetContactRelationEntity(int contactRelationEntityId)
     parameters:
@@ -108,9 +103,6 @@ items:
       description: ContactRelationEntity
     content.vb: Function GetContactRelationEntity(contactRelationEntityId As Integer) As ContactRelationEntity
   overload: SuperOffice.CRM.Services.IRelationAgent.GetContactRelationEntity*
-  nameWithType.vb: IRelationAgent.GetContactRelationEntity(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IRelationAgent.GetContactRelationEntity(Integer)
-  name.vb: GetContactRelationEntity(Integer)
 - uid: SuperOffice.CRM.Services.IRelationAgent.SaveContactRelation(SuperOffice.CRM.Services.ContactRelationEntity)
   commentId: M:SuperOffice.CRM.Services.IRelationAgent.SaveContactRelation(SuperOffice.CRM.Services.ContactRelationEntity)
   id: SaveContactRelation(SuperOffice.CRM.Services.ContactRelationEntity)
@@ -122,11 +114,13 @@ items:
   nameWithType: IRelationAgent.SaveContactRelation(ContactRelationEntity)
   fullName: SuperOffice.CRM.Services.IRelationAgent.SaveContactRelation(SuperOffice.CRM.Services.ContactRelationEntity)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Creates a new or updates an existing contact relation.
-  example: []
+  summary: "\nCreates a new or updates an existing contact relation.\n"
   syntax:
     content: ContactRelationEntity SaveContactRelation(ContactRelationEntity contactRelationEntity)
     parameters:
@@ -145,15 +139,17 @@ items:
   langs:
   - csharp
   - vb
-  name: DeleteContactRelation(int)
-  nameWithType: IRelationAgent.DeleteContactRelation(int)
-  fullName: SuperOffice.CRM.Services.IRelationAgent.DeleteContactRelation(int)
+  name: DeleteContactRelation(Int32)
+  nameWithType: IRelationAgent.DeleteContactRelation(Int32)
+  fullName: SuperOffice.CRM.Services.IRelationAgent.DeleteContactRelation(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Deletes the spesified contact relation.
-  example: []
+  summary: "\nDeletes the spesified contact relation.\n"
   syntax:
     content: void DeleteContactRelation(int contactRelationEntityId)
     parameters:
@@ -162,51 +158,16 @@ items:
       description: Relation to delete
     content.vb: Sub DeleteContactRelation(contactRelationEntityId As Integer)
   overload: SuperOffice.CRM.Services.IRelationAgent.DeleteContactRelation*
-  nameWithType.vb: IRelationAgent.DeleteContactRelation(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IRelationAgent.DeleteContactRelation(Integer)
-  name.vb: DeleteContactRelation(Integer)
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
 - uid: SuperOffice.CRM.Services.IRelationAgent.CreateDefaultContactRelationEntity*
   commentId: Overload:SuperOffice.CRM.Services.IRelationAgent.CreateDefaultContactRelationEntity
   isExternal: true
-  href: SuperOffice.CRM.Services.IRelationAgent.html#SuperOffice_CRM_Services_IRelationAgent_CreateDefaultContactRelationEntity
   name: CreateDefaultContactRelationEntity
   nameWithType: IRelationAgent.CreateDefaultContactRelationEntity
   fullName: SuperOffice.CRM.Services.IRelationAgent.CreateDefaultContactRelationEntity
@@ -214,14 +175,12 @@ references:
   commentId: T:SuperOffice.CRM.Services.ContactRelationEntity
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.ContactRelationEntity.html
   name: ContactRelationEntity
   nameWithType: ContactRelationEntity
   fullName: SuperOffice.CRM.Services.ContactRelationEntity
 - uid: SuperOffice.CRM.Services.IRelationAgent.GetContactRelationEntity*
   commentId: Overload:SuperOffice.CRM.Services.IRelationAgent.GetContactRelationEntity
   isExternal: true
-  href: SuperOffice.CRM.Services.IRelationAgent.html#SuperOffice_CRM_Services_IRelationAgent_GetContactRelationEntity_System_Int32_
   name: GetContactRelationEntity
   nameWithType: IRelationAgent.GetContactRelationEntity
   fullName: SuperOffice.CRM.Services.IRelationAgent.GetContactRelationEntity
@@ -229,31 +188,24 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.CRM.Services.IRelationAgent.SaveContactRelation*
   commentId: Overload:SuperOffice.CRM.Services.IRelationAgent.SaveContactRelation
   isExternal: true
-  href: SuperOffice.CRM.Services.IRelationAgent.html#SuperOffice_CRM_Services_IRelationAgent_SaveContactRelation_SuperOffice_CRM_Services_ContactRelationEntity_
   name: SaveContactRelation
   nameWithType: IRelationAgent.SaveContactRelation
   fullName: SuperOffice.CRM.Services.IRelationAgent.SaveContactRelation
 - uid: SuperOffice.CRM.Services.IRelationAgent.DeleteContactRelation*
   commentId: Overload:SuperOffice.CRM.Services.IRelationAgent.DeleteContactRelation
   isExternal: true
-  href: SuperOffice.CRM.Services.IRelationAgent.html#SuperOffice_CRM_Services_IRelationAgent_DeleteContactRelation_System_Int32_
   name: DeleteContactRelation
   nameWithType: IRelationAgent.DeleteContactRelation
   fullName: SuperOffice.CRM.Services.IRelationAgent.DeleteContactRelation

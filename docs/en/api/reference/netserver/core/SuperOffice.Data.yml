@@ -48,15 +48,15 @@ items:
   - SuperOffice.Data.CsLoginOrigin
   - SuperOffice.Data.CsLoginStatus
   - SuperOffice.Data.CustomFieldType
+  - SuperOffice.Data.DashboardLayout
+  - SuperOffice.Data.DashboardTileEntityType
+  - SuperOffice.Data.DashboardTileOptionType
+  - SuperOffice.Data.DashboardTileType
   - SuperOffice.Data.DashTileCurrencyMode
   - SuperOffice.Data.DashTileEntityType
   - SuperOffice.Data.DashTileMeasure
   - SuperOffice.Data.DashTileType
   - SuperOffice.Data.DashTileUsage
-  - SuperOffice.Data.DashboardLayout
-  - SuperOffice.Data.DashboardTileEntityType
-  - SuperOffice.Data.DashboardTileOptionType
-  - SuperOffice.Data.DashboardTileType
   - SuperOffice.Data.DatabaseStepAttribute
   - SuperOffice.Data.DbConvert
   - SuperOffice.Data.DbConvertType
@@ -76,21 +76,21 @@ items:
   - SuperOffice.Data.Domain
   - SuperOffice.Data.DurationUnit
   - SuperOffice.Data.EFieldRight
-  - SuperOffice.Data.EMailFlags
-  - SuperOffice.Data.EMailFolderAttributeConstants
-  - SuperOffice.Data.EMailMergeTargetType
-  - SuperOffice.Data.EMailPriority
-  - SuperOffice.Data.EMailRecipientType
-  - SuperOffice.Data.ETableRight
   - SuperOffice.Data.EjAccess
   - SuperOffice.Data.EjUserStatus
   - SuperOffice.Data.ElementStatus
   - SuperOffice.Data.EmailAccountStatus
+  - SuperOffice.Data.EMailFlags
+  - SuperOffice.Data.EMailFolderAttributeConstants
   - SuperOffice.Data.EmailFromType
+  - SuperOffice.Data.EMailMergeTargetType
+  - SuperOffice.Data.EMailPriority
+  - SuperOffice.Data.EMailRecipientType
   - SuperOffice.Data.EmailReplyToType
   - SuperOffice.Data.EmailType
   - SuperOffice.Data.ErpActorType
   - SuperOffice.Data.ErpSyncResponseCode
+  - SuperOffice.Data.ETableRight
   - SuperOffice.Data.EventHandlerType
   - SuperOffice.Data.ExecuteOnEvent
   - SuperOffice.Data.ExtraDataFieldType
@@ -98,9 +98,9 @@ items:
   - SuperOffice.Data.FieldAccess
   - SuperOffice.Data.FieldDataType
   - SuperOffice.Data.FieldMetadataType
+  - SuperOffice.Data.FormsRecaptchaMode
   - SuperOffice.Data.FormSubmissionStatus
   - SuperOffice.Data.FormType
-  - SuperOffice.Data.FormsRecaptchaMode
   - SuperOffice.Data.FreeBusy
   - SuperOffice.Data.FreeTextOperator
   - SuperOffice.Data.GdprLegalBases
@@ -109,11 +109,6 @@ items:
   - SuperOffice.Data.GeneratorEncoding
   - SuperOffice.Data.GuideStepConstants
   - SuperOffice.Data.HtmlSanitizerOptions
-  - SuperOffice.Data.INestedPersist
-  - SuperOffice.Data.ISoCollection
-  - SuperOffice.Data.ISoDataRecord
-  - SuperOffice.Data.ISoItem
-  - SuperOffice.Data.ISoftTriggerPlugin
   - SuperOffice.Data.ImageEmbedType
   - SuperOffice.Data.ImportAction
   - SuperOffice.Data.ImportBlankAction
@@ -128,16 +123,21 @@ items:
   - SuperOffice.Data.ImportPhoneUrlsEmail
   - SuperOffice.Data.ImportProductDuplicateMatch
   - SuperOffice.Data.InboxStatus
+  - SuperOffice.Data.INestedPersist
   - SuperOffice.Data.InterRestrictionOperator
   - SuperOffice.Data.InvitationStatus
+  - SuperOffice.Data.ISoCollection
+  - SuperOffice.Data.ISoDataRecord
+  - SuperOffice.Data.ISoftTriggerPlugin
+  - SuperOffice.Data.ISoItem
   - SuperOffice.Data.LayoutUnits
   - SuperOffice.Data.LicenceType
   - SuperOffice.Data.LocalizedTextType
   - SuperOffice.Data.LogEvent
   - SuperOffice.Data.LoginFlags
-  - SuperOffice.Data.MDOSortOrder
-  - SuperOffice.Data.MailClient
   - SuperOffice.Data.MailboxType
+  - SuperOffice.Data.MailClient
+  - SuperOffice.Data.MDOSortOrder
   - SuperOffice.Data.MessageActionType
   - SuperOffice.Data.MessageHeaderStdItem
   - SuperOffice.Data.MessageHeaderStdItemCol
@@ -157,9 +157,9 @@ items:
   - SuperOffice.Data.OnIdUpdate
   - SuperOffice.Data.OnSaved
   - SuperOffice.Data.OrderBySortType
-  - SuperOffice.Data.PKContainer
   - SuperOffice.Data.ParticipantType
   - SuperOffice.Data.PhoneType
+  - SuperOffice.Data.PKContainer
   - SuperOffice.Data.PrefDescAccessFlags
   - SuperOffice.Data.PrefDescCache
   - SuperOffice.Data.PrefDescCacheExtensions
@@ -183,8 +183,8 @@ items:
   - SuperOffice.Data.RecurrencePattern
   - SuperOffice.Data.RecurrenceUpdateMode
   - SuperOffice.Data.RecurrenceYearlyPattern
-  - SuperOffice.Data.RefCounts
   - SuperOffice.Data.RefcountFlags
+  - SuperOffice.Data.RefCounts
   - SuperOffice.Data.Registry
   - SuperOffice.Data.RelationTarget
   - SuperOffice.Data.ReplyTemplateAccessLevel
@@ -239,19 +239,19 @@ items:
   - SuperOffice.Data.ShowWindowState
   - SuperOffice.Data.SoCommand
   - SuperOffice.Data.SoConnection
-  - SuperOffice.Data.SoDataReader
   - SuperOffice.Data.SoDatabase
   - SuperOffice.Data.SoDatabase.Version
   - SuperOffice.Data.SoDatabaseEnvironmentInfoPlugin
+  - SuperOffice.Data.SoDataReader
   - SuperOffice.Data.SoDuplicateChecker
+  - SuperOffice.Data.SoftTrigger
+  - SuperOffice.Data.SoftTrigger.OnChange
+  - SuperOffice.Data.SoftTriggerPluginAttribute
   - SuperOffice.Data.SoParameter
   - SuperOffice.Data.SoParameterCollection
   - SuperOffice.Data.SoPreference
   - SuperOffice.Data.SoSqlParameter
   - SuperOffice.Data.SoTransaction
-  - SuperOffice.Data.SoftTrigger
-  - SuperOffice.Data.SoftTrigger.OnChange
-  - SuperOffice.Data.SoftTriggerPluginAttribute
   - SuperOffice.Data.StatusDefConstants
   - SuperOffice.Data.StatusScreenPanelType
   - SuperOffice.Data.StringSearchType
@@ -294,15 +294,15 @@ items:
   - SuperOffice.Data.TravelEncryptionOwn
   - SuperOffice.Data.TrlogTransType
   - SuperOffice.Data.TtlFlags
-  - SuperOffice.Data.UDefFieldType
-  - SuperOffice.Data.UDefType
   - SuperOffice.Data.UdefConvertHelper
+  - SuperOffice.Data.UDefFieldType
   - SuperOffice.Data.UdefHelper
   - SuperOffice.Data.UdefHelper.UDefFieldDatabaseType
   - SuperOffice.Data.UdefJustification
   - SuperOffice.Data.UdefParser
   - SuperOffice.Data.UdefPublishHelper
   - SuperOffice.Data.UdefPublishHelper.IProgressHandler
+  - SuperOffice.Data.UDefType
   - SuperOffice.Data.UpsertNomatchAction
   - SuperOffice.Data.UpsertRowActionStatus
   - SuperOffice.Data.UrlEncoding
@@ -311,8 +311,8 @@ items:
   - SuperOffice.Data.VideoMeetingStatus
   - SuperOffice.Data.Visibility
   - SuperOffice.Data.WebhookState
-  - SuperOffice.Data.WeekOfMonth
   - SuperOffice.Data.Weekday
+  - SuperOffice.Data.WeekOfMonth
   - SuperOffice.Data.WidgetRequiredFields
   - SuperOffice.Data.WidgetTheme
   - SuperOffice.Data.WorkflowActionType
@@ -344,7 +344,6 @@ references:
   commentId: T:SuperOffice.Data.AddressType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.AddressType.html
   name: AddressType
   nameWithType: AddressType
   fullName: SuperOffice.Data.AddressType
@@ -352,7 +351,6 @@ references:
   commentId: T:SuperOffice.Data.AppAvailState
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.AppAvailState.html
   name: AppAvailState
   nameWithType: AppAvailState
   fullName: SuperOffice.Data.AppAvailState
@@ -360,7 +358,6 @@ references:
   commentId: T:SuperOffice.Data.AppointmentPrivate
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.AppointmentPrivate.html
   name: AppointmentPrivate
   nameWithType: AppointmentPrivate
   fullName: SuperOffice.Data.AppointmentPrivate
@@ -368,7 +365,6 @@ references:
   commentId: T:SuperOffice.Data.AppointmentStatus
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.AppointmentStatus.html
   name: AppointmentStatus
   nameWithType: AppointmentStatus
   fullName: SuperOffice.Data.AppointmentStatus
@@ -376,7 +372,6 @@ references:
   commentId: T:SuperOffice.Data.AppointmentType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.AppointmentType.html
   name: AppointmentType
   nameWithType: AppointmentType
   fullName: SuperOffice.Data.AppointmentType
@@ -384,7 +379,6 @@ references:
   commentId: T:SuperOffice.Data.FieldAccess
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.FieldAccess.html
   name: FieldAccess
   nameWithType: FieldAccess
   fullName: SuperOffice.Data.FieldAccess
@@ -392,7 +386,6 @@ references:
   commentId: T:SuperOffice.Data.FieldMetadataType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.FieldMetadataType.html
   name: FieldMetadataType
   nameWithType: FieldMetadataType
   fullName: SuperOffice.Data.FieldMetadataType
@@ -400,7 +393,6 @@ references:
   commentId: T:SuperOffice.Data.DocTmplDirection
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.DocTmplDirection.html
   name: DocTmplDirection
   nameWithType: DocTmplDirection
   fullName: SuperOffice.Data.DocTmplDirection
@@ -408,7 +400,6 @@ references:
   commentId: T:SuperOffice.Data.DocTmplQuoteType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.DocTmplQuoteType.html
   name: DocTmplQuoteType
   nameWithType: DocTmplQuoteType
   fullName: SuperOffice.Data.DocTmplQuoteType
@@ -416,7 +407,6 @@ references:
   commentId: T:SuperOffice.Data.DocTmplType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.DocTmplType.html
   name: DocTmplType
   nameWithType: DocTmplType
   fullName: SuperOffice.Data.DocTmplType
@@ -424,7 +414,6 @@ references:
   commentId: T:SuperOffice.Data.ExecuteOnEvent
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ExecuteOnEvent.html
   name: ExecuteOnEvent
   nameWithType: ExecuteOnEvent
   fullName: SuperOffice.Data.ExecuteOnEvent
@@ -432,7 +421,6 @@ references:
   commentId: T:SuperOffice.Data.ExtraDataFieldType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ExtraDataFieldType.html
   name: ExtraDataFieldType
   nameWithType: ExtraDataFieldType
   fullName: SuperOffice.Data.ExtraDataFieldType
@@ -440,7 +428,6 @@ references:
   commentId: T:SuperOffice.Data.FieldDataType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.FieldDataType.html
   name: FieldDataType
   nameWithType: FieldDataType
   fullName: SuperOffice.Data.FieldDataType
@@ -448,7 +435,6 @@ references:
   commentId: T:SuperOffice.Data.Navigation
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.Navigation.html
   name: Navigation
   nameWithType: Navigation
   fullName: SuperOffice.Data.Navigation
@@ -456,7 +442,6 @@ references:
   commentId: T:SuperOffice.Data.PhoneType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.PhoneType.html
   name: PhoneType
   nameWithType: PhoneType
   fullName: SuperOffice.Data.PhoneType
@@ -464,7 +449,6 @@ references:
   commentId: T:SuperOffice.Data.PrefDescAccessFlags
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.PrefDescAccessFlags.html
   name: PrefDescAccessFlags
   nameWithType: PrefDescAccessFlags
   fullName: SuperOffice.Data.PrefDescAccessFlags
@@ -472,7 +456,6 @@ references:
   commentId: T:SuperOffice.Data.PrefDescValueType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.PrefDescValueType.html
   name: PrefDescValueType
   nameWithType: PrefDescValueType
   fullName: SuperOffice.Data.PrefDescValueType
@@ -480,7 +463,6 @@ references:
   commentId: T:SuperOffice.Data.RefcountFlags
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.RefcountFlags.html
   name: RefcountFlags
   nameWithType: RefcountFlags
   fullName: SuperOffice.Data.RefcountFlags
@@ -488,7 +470,6 @@ references:
   commentId: T:SuperOffice.Data.SaleDone
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.SaleDone.html
   name: SaleDone
   nameWithType: SaleDone
   fullName: SuperOffice.Data.SaleDone
@@ -496,7 +477,6 @@ references:
   commentId: T:SuperOffice.Data.SaleStatus
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.SaleStatus.html
   name: SaleStatus
   nameWithType: SaleStatus
   fullName: SuperOffice.Data.SaleStatus
@@ -504,7 +484,6 @@ references:
   commentId: T:SuperOffice.Data.ShowState
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ShowState.html
   name: ShowState
   nameWithType: ShowState
   fullName: SuperOffice.Data.ShowState
@@ -512,7 +491,6 @@ references:
   commentId: T:SuperOffice.Data.TaskDirection
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.TaskDirection.html
   name: TaskDirection
   nameWithType: TaskDirection
   fullName: SuperOffice.Data.TaskDirection
@@ -520,7 +498,6 @@ references:
   commentId: T:SuperOffice.Data.TaskType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.TaskType.html
   name: TaskType
   nameWithType: TaskType
   fullName: SuperOffice.Data.TaskType
@@ -528,7 +505,6 @@ references:
   commentId: T:SuperOffice.Data.TextType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.TextType.html
   name: TextType
   nameWithType: TextType
   fullName: SuperOffice.Data.TextType
@@ -536,7 +512,6 @@ references:
   commentId: T:SuperOffice.Data.TravelEncryptionChild
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.TravelEncryptionChild.html
   name: TravelEncryptionChild
   nameWithType: TravelEncryptionChild
   fullName: SuperOffice.Data.TravelEncryptionChild
@@ -544,7 +519,6 @@ references:
   commentId: T:SuperOffice.Data.TravelEncryptionOwn
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.TravelEncryptionOwn.html
   name: TravelEncryptionOwn
   nameWithType: TravelEncryptionOwn
   fullName: SuperOffice.Data.TravelEncryptionOwn
@@ -552,7 +526,6 @@ references:
   commentId: T:SuperOffice.Data.TrlogTransType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.TrlogTransType.html
   name: TrlogTransType
   nameWithType: TrlogTransType
   fullName: SuperOffice.Data.TrlogTransType
@@ -560,7 +533,6 @@ references:
   commentId: T:SuperOffice.Data.PreferenceLevel
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.PreferenceLevel.html
   name: PreferenceLevel
   nameWithType: PreferenceLevel
   fullName: SuperOffice.Data.PreferenceLevel
@@ -568,7 +540,6 @@ references:
   commentId: T:SuperOffice.Data.DurationUnit
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.DurationUnit.html
   name: DurationUnit
   nameWithType: DurationUnit
   fullName: SuperOffice.Data.DurationUnit
@@ -576,7 +547,6 @@ references:
   commentId: T:SuperOffice.Data.SelectionUnionType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.SelectionUnionType.html
   name: SelectionUnionType
   nameWithType: SelectionUnionType
   fullName: SuperOffice.Data.SelectionUnionType
@@ -584,7 +554,6 @@ references:
   commentId: T:SuperOffice.Data.CredentialUsage
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.CredentialUsage.html
   name: CredentialUsage
   nameWithType: CredentialUsage
   fullName: SuperOffice.Data.CredentialUsage
@@ -592,7 +561,6 @@ references:
   commentId: T:SuperOffice.Data.EmailType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.EmailType.html
   name: EmailType
   nameWithType: EmailType
   fullName: SuperOffice.Data.EmailType
@@ -600,7 +568,6 @@ references:
   commentId: T:SuperOffice.Data.ShipmentStatus
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ShipmentStatus.html
   name: ShipmentStatus
   nameWithType: ShipmentStatus
   fullName: SuperOffice.Data.ShipmentStatus
@@ -608,7 +575,6 @@ references:
   commentId: T:SuperOffice.Data.ShipmentAddrStatus
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ShipmentAddrStatus.html
   name: ShipmentAddrStatus
   nameWithType: ShipmentAddrStatus
   fullName: SuperOffice.Data.ShipmentAddrStatus
@@ -616,7 +582,6 @@ references:
   commentId: T:SuperOffice.Data.ShipmentLinkRedirectKind
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ShipmentLinkRedirectKind.html
   name: ShipmentLinkRedirectKind
   nameWithType: ShipmentLinkRedirectKind
   fullName: SuperOffice.Data.ShipmentLinkRedirectKind
@@ -624,7 +589,6 @@ references:
   commentId: T:SuperOffice.Data.ShipmentLinkAction
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ShipmentLinkAction.html
   name: ShipmentLinkAction
   nameWithType: ShipmentLinkAction
   fullName: SuperOffice.Data.ShipmentLinkAction
@@ -632,7 +596,6 @@ references:
   commentId: T:SuperOffice.Data.ShipmentLinkTaskFlags
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ShipmentLinkTaskFlags.html
   name: ShipmentLinkTaskFlags
   nameWithType: ShipmentLinkTaskFlags
   fullName: SuperOffice.Data.ShipmentLinkTaskFlags
@@ -640,7 +603,6 @@ references:
   commentId: T:SuperOffice.Data.ShipmentLinkType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ShipmentLinkType.html
   name: ShipmentLinkType
   nameWithType: ShipmentLinkType
   fullName: SuperOffice.Data.ShipmentLinkType
@@ -648,7 +610,6 @@ references:
   commentId: T:SuperOffice.Data.ShipmentListStatus
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ShipmentListStatus.html
   name: ShipmentListStatus
   nameWithType: ShipmentListStatus
   fullName: SuperOffice.Data.ShipmentListStatus
@@ -656,7 +617,6 @@ references:
   commentId: T:SuperOffice.Data.TicketOrigin
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.TicketOrigin.html
   name: TicketOrigin
   nameWithType: TicketOrigin
   fullName: SuperOffice.Data.TicketOrigin
@@ -664,7 +624,6 @@ references:
   commentId: T:SuperOffice.Data.TicketStatusTimeCounter
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.TicketStatusTimeCounter.html
   name: TicketStatusTimeCounter
   nameWithType: TicketStatusTimeCounter
   fullName: SuperOffice.Data.TicketStatusTimeCounter
@@ -672,7 +631,6 @@ references:
   commentId: T:SuperOffice.Data.QuoteVersionState
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.QuoteVersionState.html
   name: QuoteVersionState
   nameWithType: QuoteVersionState
   fullName: SuperOffice.Data.QuoteVersionState
@@ -680,7 +638,6 @@ references:
   commentId: T:SuperOffice.Data.BlobLinkType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.BlobLinkType.html
   name: BlobLinkType
   nameWithType: BlobLinkType
   fullName: SuperOffice.Data.BlobLinkType
@@ -688,7 +645,6 @@ references:
   commentId: T:SuperOffice.Data.QuoteStatus
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.QuoteStatus.html
   name: QuoteStatus
   nameWithType: QuoteStatus
   fullName: SuperOffice.Data.QuoteStatus
@@ -696,7 +652,6 @@ references:
   commentId: T:SuperOffice.Data.ValueOverride
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ValueOverride.html
   name: ValueOverride
   nameWithType: ValueOverride
   fullName: SuperOffice.Data.ValueOverride
@@ -704,7 +659,6 @@ references:
   commentId: T:SuperOffice.Data.ErpActorType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ErpActorType.html
   name: ErpActorType
   nameWithType: ErpActorType
   fullName: SuperOffice.Data.ErpActorType
@@ -712,7 +666,6 @@ references:
   commentId: T:SuperOffice.Data.CrmActorType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.CrmActorType.html
   name: CrmActorType
   nameWithType: CrmActorType
   fullName: SuperOffice.Data.CrmActorType
@@ -720,7 +673,6 @@ references:
   commentId: T:SuperOffice.Data.ExtraFieldFlags
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ExtraFieldFlags.html
   name: ExtraFieldFlags
   nameWithType: ExtraFieldFlags
   fullName: SuperOffice.Data.ExtraFieldFlags
@@ -728,7 +680,6 @@ references:
   commentId: T:SuperOffice.Data.TtlFlags
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.TtlFlags.html
   name: TtlFlags
   nameWithType: TtlFlags
   fullName: SuperOffice.Data.TtlFlags
@@ -736,7 +687,6 @@ references:
   commentId: T:SuperOffice.Data.ScreenChooserType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ScreenChooserType.html
   name: ScreenChooserType
   nameWithType: ScreenChooserType
   fullName: SuperOffice.Data.ScreenChooserType
@@ -744,7 +694,6 @@ references:
   commentId: T:SuperOffice.Data.AssociateType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.AssociateType.html
   name: AssociateType
   nameWithType: AssociateType
   fullName: SuperOffice.Data.AssociateType
@@ -752,7 +701,6 @@ references:
   commentId: T:SuperOffice.Data.AllDayEvent
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.AllDayEvent.html
   name: AllDayEvent
   nameWithType: AllDayEvent
   fullName: SuperOffice.Data.AllDayEvent
@@ -760,7 +708,6 @@ references:
   commentId: T:SuperOffice.Data.FreeBusy
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.FreeBusy.html
   name: FreeBusy
   nameWithType: FreeBusy
   fullName: SuperOffice.Data.FreeBusy
@@ -768,7 +715,6 @@ references:
   commentId: T:SuperOffice.Data.PublishType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.PublishType.html
   name: PublishType
   nameWithType: PublishType
   fullName: SuperOffice.Data.PublishType
@@ -776,7 +722,6 @@ references:
   commentId: T:SuperOffice.Data.UdefJustification
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.UdefJustification.html
   name: UdefJustification
   nameWithType: UdefJustification
   fullName: SuperOffice.Data.UdefJustification
@@ -784,7 +729,6 @@ references:
   commentId: T:SuperOffice.Data.RoleType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.RoleType.html
   name: RoleType
   nameWithType: RoleType
   fullName: SuperOffice.Data.RoleType
@@ -792,7 +736,6 @@ references:
   commentId: T:SuperOffice.Data.RecurrencePattern
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.RecurrencePattern.html
   name: RecurrencePattern
   nameWithType: RecurrencePattern
   fullName: SuperOffice.Data.RecurrencePattern
@@ -800,7 +743,6 @@ references:
   commentId: T:SuperOffice.Data.ShowWindowState
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ShowWindowState.html
   name: ShowWindowState
   nameWithType: ShowWindowState
   fullName: SuperOffice.Data.ShowWindowState
@@ -808,7 +750,6 @@ references:
   commentId: T:SuperOffice.Data.EMailMergeTargetType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.EMailMergeTargetType.html
   name: EMailMergeTargetType
   nameWithType: EMailMergeTargetType
   fullName: SuperOffice.Data.EMailMergeTargetType
@@ -816,7 +757,6 @@ references:
   commentId: T:SuperOffice.Data.AssignmentStatus
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.AssignmentStatus.html
   name: AssignmentStatus
   nameWithType: AssignmentStatus
   fullName: SuperOffice.Data.AssignmentStatus
@@ -824,7 +764,6 @@ references:
   commentId: T:SuperOffice.Data.ColorIndex
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ColorIndex.html
   name: ColorIndex
   nameWithType: ColorIndex
   fullName: SuperOffice.Data.ColorIndex
@@ -832,7 +771,6 @@ references:
   commentId: T:SuperOffice.Data.UrlEncoding
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.UrlEncoding.html
   name: UrlEncoding
   nameWithType: UrlEncoding
   fullName: SuperOffice.Data.UrlEncoding
@@ -840,7 +778,6 @@ references:
   commentId: T:SuperOffice.Data.RelationTarget
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.RelationTarget.html
   name: RelationTarget
   nameWithType: RelationTarget
   fullName: SuperOffice.Data.RelationTarget
@@ -848,7 +785,6 @@ references:
   commentId: T:SuperOffice.Data.UDefType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.UDefType.html
   name: UDefType
   nameWithType: UDefType
   fullName: SuperOffice.Data.UDefType
@@ -856,7 +792,6 @@ references:
   commentId: T:SuperOffice.Data.UDefFieldType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.UDefFieldType.html
   name: UDefFieldType
   nameWithType: UDefFieldType
   fullName: SuperOffice.Data.UDefFieldType
@@ -864,7 +799,6 @@ references:
   commentId: T:SuperOffice.Data.CustomFieldType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.CustomFieldType.html
   name: CustomFieldType
   nameWithType: CustomFieldType
   fullName: SuperOffice.Data.CustomFieldType
@@ -872,7 +806,6 @@ references:
   commentId: T:SuperOffice.Data.ImportBlankAction
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ImportBlankAction.html
   name: ImportBlankAction
   nameWithType: ImportBlankAction
   fullName: SuperOffice.Data.ImportBlankAction
@@ -880,7 +813,6 @@ references:
   commentId: T:SuperOffice.Data.ImportCompanyDuplicateAction
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ImportCompanyDuplicateAction.html
   name: ImportCompanyDuplicateAction
   nameWithType: ImportCompanyDuplicateAction
   fullName: SuperOffice.Data.ImportCompanyDuplicateAction
@@ -888,7 +820,6 @@ references:
   commentId: T:SuperOffice.Data.ImportContactDuplicateMatch
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ImportContactDuplicateMatch.html
   name: ImportContactDuplicateMatch
   nameWithType: ImportContactDuplicateMatch
   fullName: SuperOffice.Data.ImportContactDuplicateMatch
@@ -896,7 +827,6 @@ references:
   commentId: T:SuperOffice.Data.ImportProductDuplicateMatch
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ImportProductDuplicateMatch.html
   name: ImportProductDuplicateMatch
   nameWithType: ImportProductDuplicateMatch
   fullName: SuperOffice.Data.ImportProductDuplicateMatch
@@ -904,7 +834,6 @@ references:
   commentId: T:SuperOffice.Data.ImportPersonDuplicateMatch
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ImportPersonDuplicateMatch.html
   name: ImportPersonDuplicateMatch
   nameWithType: ImportPersonDuplicateMatch
   fullName: SuperOffice.Data.ImportPersonDuplicateMatch
@@ -912,7 +841,6 @@ references:
   commentId: T:SuperOffice.Data.ImportDuplicateAction
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ImportDuplicateAction.html
   name: ImportDuplicateAction
   nameWithType: ImportDuplicateAction
   fullName: SuperOffice.Data.ImportDuplicateAction
@@ -920,7 +848,6 @@ references:
   commentId: T:SuperOffice.Data.ImportNewListItem
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ImportNewListItem.html
   name: ImportNewListItem
   nameWithType: ImportNewListItem
   fullName: SuperOffice.Data.ImportNewListItem
@@ -928,7 +855,6 @@ references:
   commentId: T:SuperOffice.Data.ImportPhoneUrlsEmail
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ImportPhoneUrlsEmail.html
   name: ImportPhoneUrlsEmail
   nameWithType: ImportPhoneUrlsEmail
   fullName: SuperOffice.Data.ImportPhoneUrlsEmail
@@ -936,7 +862,6 @@ references:
   commentId: T:SuperOffice.Data.SystemEventScope
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.SystemEventScope.html
   name: SystemEventScope
   nameWithType: SystemEventScope
   fullName: SuperOffice.Data.SystemEventScope
@@ -944,7 +869,6 @@ references:
   commentId: T:SuperOffice.Data.ImportEntityType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ImportEntityType.html
   name: ImportEntityType
   nameWithType: ImportEntityType
   fullName: SuperOffice.Data.ImportEntityType
@@ -952,7 +876,6 @@ references:
   commentId: T:SuperOffice.Data.ImportAction
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ImportAction.html
   name: ImportAction
   nameWithType: ImportAction
   fullName: SuperOffice.Data.ImportAction
@@ -960,7 +883,6 @@ references:
   commentId: T:SuperOffice.Data.FreeTextOperator
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.FreeTextOperator.html
   name: FreeTextOperator
   nameWithType: FreeTextOperator
   fullName: SuperOffice.Data.FreeTextOperator
@@ -968,7 +890,6 @@ references:
   commentId: T:SuperOffice.Data.ErpSyncResponseCode
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ErpSyncResponseCode.html
   name: ErpSyncResponseCode
   nameWithType: ErpSyncResponseCode
   fullName: SuperOffice.Data.ErpSyncResponseCode
@@ -976,7 +897,6 @@ references:
   commentId: T:SuperOffice.Data.TicketBaseStatus
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.TicketBaseStatus.html
   name: TicketBaseStatus
   nameWithType: TicketBaseStatus
   fullName: SuperOffice.Data.TicketBaseStatus
@@ -984,7 +904,6 @@ references:
   commentId: T:SuperOffice.Data.TicketLogAction
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.TicketLogAction.html
   name: TicketLogAction
   nameWithType: TicketLogAction
   fullName: SuperOffice.Data.TicketLogAction
@@ -992,7 +911,6 @@ references:
   commentId: T:SuperOffice.Data.TicketLogFieldChange
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.TicketLogFieldChange.html
   name: TicketLogFieldChange
   nameWithType: TicketLogFieldChange
   fullName: SuperOffice.Data.TicketLogFieldChange
@@ -1000,7 +918,6 @@ references:
   commentId: T:SuperOffice.Data.ReportCategory
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ReportCategory.html
   name: ReportCategory
   nameWithType: ReportCategory
   fullName: SuperOffice.Data.ReportCategory
@@ -1008,7 +925,6 @@ references:
   commentId: T:SuperOffice.Data.EMailPriority
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.EMailPriority.html
   name: EMailPriority
   nameWithType: EMailPriority
   fullName: SuperOffice.Data.EMailPriority
@@ -1016,7 +932,6 @@ references:
   commentId: T:SuperOffice.Data.EMailFlags
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.EMailFlags.html
   name: EMailFlags
   nameWithType: EMailFlags
   fullName: SuperOffice.Data.EMailFlags
@@ -1024,7 +939,6 @@ references:
   commentId: T:SuperOffice.Data.BatchTaskState
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.BatchTaskState.html
   name: BatchTaskState
   nameWithType: BatchTaskState
   fullName: SuperOffice.Data.BatchTaskState
@@ -1032,7 +946,6 @@ references:
   commentId: T:SuperOffice.Data.BatchTaskCancellationBehaviour
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.BatchTaskCancellationBehaviour.html
   name: BatchTaskCancellationBehaviour
   nameWithType: BatchTaskCancellationBehaviour
   fullName: SuperOffice.Data.BatchTaskCancellationBehaviour
@@ -1040,7 +953,6 @@ references:
   commentId: T:SuperOffice.Data.SelectionType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.SelectionType.html
   name: SelectionType
   nameWithType: SelectionType
   fullName: SuperOffice.Data.SelectionType
@@ -1048,7 +960,6 @@ references:
   commentId: T:SuperOffice.Data.SelectionSystemType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.SelectionSystemType.html
   name: SelectionSystemType
   nameWithType: SelectionSystemType
   fullName: SuperOffice.Data.SelectionSystemType
@@ -1056,7 +967,6 @@ references:
   commentId: T:SuperOffice.Data.ReportLayout
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ReportLayout.html
   name: ReportLayout
   nameWithType: ReportLayout
   fullName: SuperOffice.Data.ReportLayout
@@ -1064,7 +974,6 @@ references:
   commentId: T:SuperOffice.Data.ReportPaperOrientation
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ReportPaperOrientation.html
   name: ReportPaperOrientation
   nameWithType: ReportPaperOrientation
   fullName: SuperOffice.Data.ReportPaperOrientation
@@ -1072,7 +981,6 @@ references:
   commentId: T:SuperOffice.Data.GeneratorEncoding
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.GeneratorEncoding.html
   name: GeneratorEncoding
   nameWithType: GeneratorEncoding
   fullName: SuperOffice.Data.GeneratorEncoding
@@ -1080,7 +988,6 @@ references:
   commentId: T:SuperOffice.Data.DashboardLayout
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.DashboardLayout.html
   name: DashboardLayout
   nameWithType: DashboardLayout
   fullName: SuperOffice.Data.DashboardLayout
@@ -1088,7 +995,6 @@ references:
   commentId: T:SuperOffice.Data.DashboardTileType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.DashboardTileType.html
   name: DashboardTileType
   nameWithType: DashboardTileType
   fullName: SuperOffice.Data.DashboardTileType
@@ -1096,7 +1002,6 @@ references:
   commentId: T:SuperOffice.Data.DashboardTileEntityType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.DashboardTileEntityType.html
   name: DashboardTileEntityType
   nameWithType: DashboardTileEntityType
   fullName: SuperOffice.Data.DashboardTileEntityType
@@ -1104,7 +1009,6 @@ references:
   commentId: T:SuperOffice.Data.DashboardTileOptionType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.DashboardTileOptionType.html
   name: DashboardTileOptionType
   nameWithType: DashboardTileOptionType
   fullName: SuperOffice.Data.DashboardTileOptionType
@@ -1112,7 +1016,6 @@ references:
   commentId: T:SuperOffice.Data.DashTileType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.DashTileType.html
   name: DashTileType
   nameWithType: DashTileType
   fullName: SuperOffice.Data.DashTileType
@@ -1120,7 +1023,6 @@ references:
   commentId: T:SuperOffice.Data.DashTileCurrencyMode
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.DashTileCurrencyMode.html
   name: DashTileCurrencyMode
   nameWithType: DashTileCurrencyMode
   fullName: SuperOffice.Data.DashTileCurrencyMode
@@ -1128,7 +1030,6 @@ references:
   commentId: T:SuperOffice.Data.DashTileMeasure
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.DashTileMeasure.html
   name: DashTileMeasure
   nameWithType: DashTileMeasure
   fullName: SuperOffice.Data.DashTileMeasure
@@ -1136,7 +1037,6 @@ references:
   commentId: T:SuperOffice.Data.DashTileEntityType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.DashTileEntityType.html
   name: DashTileEntityType
   nameWithType: DashTileEntityType
   fullName: SuperOffice.Data.DashTileEntityType
@@ -1144,7 +1044,6 @@ references:
   commentId: T:SuperOffice.Data.DashTileUsage
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.DashTileUsage.html
   name: DashTileUsage
   nameWithType: DashTileUsage
   fullName: SuperOffice.Data.DashTileUsage
@@ -1152,7 +1051,6 @@ references:
   commentId: T:SuperOffice.Data.TargetAssignementLevel
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.TargetAssignementLevel.html
   name: TargetAssignementLevel
   nameWithType: TargetAssignementLevel
   fullName: SuperOffice.Data.TargetAssignementLevel
@@ -1160,7 +1058,6 @@ references:
   commentId: T:SuperOffice.Data.TargetEntityType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.TargetEntityType.html
   name: TargetEntityType
   nameWithType: TargetEntityType
   fullName: SuperOffice.Data.TargetEntityType
@@ -1168,7 +1065,6 @@ references:
   commentId: T:SuperOffice.Data.TargetMeasurementUnit
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.TargetMeasurementUnit.html
   name: TargetMeasurementUnit
   nameWithType: TargetMeasurementUnit
   fullName: SuperOffice.Data.TargetMeasurementUnit
@@ -1176,7 +1072,6 @@ references:
   commentId: T:SuperOffice.Data.TargetPeriodType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.TargetPeriodType.html
   name: TargetPeriodType
   nameWithType: TargetPeriodType
   fullName: SuperOffice.Data.TargetPeriodType
@@ -1184,7 +1079,6 @@ references:
   commentId: T:SuperOffice.Data.TargetLevel
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.TargetLevel.html
   name: TargetLevel
   nameWithType: TargetLevel
   fullName: SuperOffice.Data.TargetLevel
@@ -1192,7 +1086,6 @@ references:
   commentId: T:SuperOffice.Data.LogEvent
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.LogEvent.html
   name: LogEvent
   nameWithType: LogEvent
   fullName: SuperOffice.Data.LogEvent
@@ -1200,7 +1093,6 @@ references:
   commentId: T:SuperOffice.Data.WorkflowInstanceStatus
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.WorkflowInstanceStatus.html
   name: WorkflowInstanceStatus
   nameWithType: WorkflowInstanceStatus
   fullName: SuperOffice.Data.WorkflowInstanceStatus
@@ -1208,7 +1100,6 @@ references:
   commentId: T:SuperOffice.Data.WorkflowDefinitionStatus
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.WorkflowDefinitionStatus.html
   name: WorkflowDefinitionStatus
   nameWithType: WorkflowDefinitionStatus
   fullName: SuperOffice.Data.WorkflowDefinitionStatus
@@ -1216,7 +1107,6 @@ references:
   commentId: T:SuperOffice.Data.WorkflowOwnerType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.WorkflowOwnerType.html
   name: WorkflowOwnerType
   nameWithType: WorkflowOwnerType
   fullName: SuperOffice.Data.WorkflowOwnerType
@@ -1224,7 +1114,6 @@ references:
   commentId: T:SuperOffice.Data.EmailFromType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.EmailFromType.html
   name: EmailFromType
   nameWithType: EmailFromType
   fullName: SuperOffice.Data.EmailFromType
@@ -1232,7 +1121,6 @@ references:
   commentId: T:SuperOffice.Data.EmailReplyToType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.EmailReplyToType.html
   name: EmailReplyToType
   nameWithType: EmailReplyToType
   fullName: SuperOffice.Data.EmailReplyToType
@@ -1240,7 +1128,6 @@ references:
   commentId: T:SuperOffice.Data.WorkflowTimeWaitAlgorithm
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.WorkflowTimeWaitAlgorithm.html
   name: WorkflowTimeWaitAlgorithm
   nameWithType: WorkflowTimeWaitAlgorithm
   fullName: SuperOffice.Data.WorkflowTimeWaitAlgorithm
@@ -1248,7 +1135,6 @@ references:
   commentId: T:SuperOffice.Data.WorkflowActionType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.WorkflowActionType.html
   name: WorkflowActionType
   nameWithType: WorkflowActionType
   fullName: SuperOffice.Data.WorkflowActionType
@@ -1256,7 +1142,6 @@ references:
   commentId: T:SuperOffice.Data.WorkflowTimeWaitIntervalType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.WorkflowTimeWaitIntervalType.html
   name: WorkflowTimeWaitIntervalType
   nameWithType: WorkflowTimeWaitIntervalType
   fullName: SuperOffice.Data.WorkflowTimeWaitIntervalType
@@ -1264,7 +1149,6 @@ references:
   commentId: T:SuperOffice.Data.WorkflowEventType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.WorkflowEventType.html
   name: WorkflowEventType
   nameWithType: WorkflowEventType
   fullName: SuperOffice.Data.WorkflowEventType
@@ -1272,7 +1156,6 @@ references:
   commentId: T:SuperOffice.Data.WorkflowContentType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.WorkflowContentType.html
   name: WorkflowContentType
   nameWithType: WorkflowContentType
   fullName: SuperOffice.Data.WorkflowContentType
@@ -1280,7 +1163,6 @@ references:
   commentId: T:SuperOffice.Data.WorkflowNotifyEmailType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.WorkflowNotifyEmailType.html
   name: WorkflowNotifyEmailType
   nameWithType: WorkflowNotifyEmailType
   fullName: SuperOffice.Data.WorkflowNotifyEmailType
@@ -1288,7 +1170,6 @@ references:
   commentId: T:SuperOffice.Data.WorkflowNotifySMSType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.WorkflowNotifySMSType.html
   name: WorkflowNotifySMSType
   nameWithType: WorkflowNotifySMSType
   fullName: SuperOffice.Data.WorkflowNotifySMSType
@@ -1296,7 +1177,6 @@ references:
   commentId: T:SuperOffice.Data.WorkflowWaitForActionType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.WorkflowWaitForActionType.html
   name: WorkflowWaitForActionType
   nameWithType: WorkflowWaitForActionType
   fullName: SuperOffice.Data.WorkflowWaitForActionType
@@ -1304,7 +1184,6 @@ references:
   commentId: T:SuperOffice.Data.WorkflowGoalType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.WorkflowGoalType.html
   name: WorkflowGoalType
   nameWithType: WorkflowGoalType
   fullName: SuperOffice.Data.WorkflowGoalType
@@ -1312,7 +1191,6 @@ references:
   commentId: T:SuperOffice.Data.WorkflowStepType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.WorkflowStepType.html
   name: WorkflowStepType
   nameWithType: WorkflowStepType
   fullName: SuperOffice.Data.WorkflowStepType
@@ -1320,7 +1198,6 @@ references:
   commentId: T:SuperOffice.Data.WorkflowTriggerType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.WorkflowTriggerType.html
   name: WorkflowTriggerType
   nameWithType: WorkflowTriggerType
   fullName: SuperOffice.Data.WorkflowTriggerType
@@ -1328,7 +1205,6 @@ references:
   commentId: T:SuperOffice.Data.WorkflowSplitOptionType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.WorkflowSplitOptionType.html
   name: WorkflowSplitOptionType
   nameWithType: WorkflowSplitOptionType
   fullName: SuperOffice.Data.WorkflowSplitOptionType
@@ -1336,7 +1212,6 @@ references:
   commentId: T:SuperOffice.Data.ShipmentFlags
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ShipmentFlags.html
   name: ShipmentFlags
   nameWithType: ShipmentFlags
   fullName: SuperOffice.Data.ShipmentFlags
@@ -1344,7 +1219,6 @@ references:
   commentId: T:SuperOffice.Data.ActivityStatus
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ActivityStatus.html
   name: ActivityStatus
   nameWithType: ActivityStatus
   fullName: SuperOffice.Data.ActivityStatus
@@ -1352,7 +1226,6 @@ references:
   commentId: T:SuperOffice.Data.InvitationStatus
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.InvitationStatus.html
   name: InvitationStatus
   nameWithType: InvitationStatus
   fullName: SuperOffice.Data.InvitationStatus
@@ -1360,7 +1233,6 @@ references:
   commentId: T:SuperOffice.Data.BookingType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.BookingType.html
   name: BookingType
   nameWithType: BookingType
   fullName: SuperOffice.Data.BookingType
@@ -1368,7 +1240,6 @@ references:
   commentId: T:SuperOffice.Data.LocalizedTextType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.LocalizedTextType.html
   name: LocalizedTextType
   nameWithType: LocalizedTextType
   fullName: SuperOffice.Data.LocalizedTextType
@@ -1376,7 +1247,6 @@ references:
   commentId: T:SuperOffice.Data.StringSearchType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.StringSearchType.html
   name: StringSearchType
   nameWithType: StringSearchType
   fullName: SuperOffice.Data.StringSearchType
@@ -1384,7 +1254,6 @@ references:
   commentId: T:SuperOffice.Data.ETableRight
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ETableRight.html
   name: ETableRight
   nameWithType: ETableRight
   fullName: SuperOffice.Data.ETableRight
@@ -1392,7 +1261,6 @@ references:
   commentId: T:SuperOffice.Data.RecurrenceUpdateMode
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.RecurrenceUpdateMode.html
   name: RecurrenceUpdateMode
   nameWithType: RecurrenceUpdateMode
   fullName: SuperOffice.Data.RecurrenceUpdateMode
@@ -1400,7 +1268,6 @@ references:
   commentId: T:SuperOffice.Data.ConceptualImageType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ConceptualImageType.html
   name: ConceptualImageType
   nameWithType: ConceptualImageType
   fullName: SuperOffice.Data.ConceptualImageType
@@ -1408,7 +1275,6 @@ references:
   commentId: T:SuperOffice.Data.Visibility
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.Visibility.html
   name: Visibility
   nameWithType: Visibility
   fullName: SuperOffice.Data.Visibility
@@ -1416,7 +1282,6 @@ references:
   commentId: T:SuperOffice.Data.CredentialControlType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.CredentialControlType.html
   name: CredentialControlType
   nameWithType: CredentialControlType
   fullName: SuperOffice.Data.CredentialControlType
@@ -1424,7 +1289,6 @@ references:
   commentId: T:SuperOffice.Data.RecurrenceEndType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.RecurrenceEndType.html
   name: RecurrenceEndType
   nameWithType: RecurrenceEndType
   fullName: SuperOffice.Data.RecurrenceEndType
@@ -1432,7 +1296,6 @@ references:
   commentId: T:SuperOffice.Data.EFieldRight
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.EFieldRight.html
   name: EFieldRight
   nameWithType: EFieldRight
   fullName: SuperOffice.Data.EFieldRight
@@ -1440,7 +1303,6 @@ references:
   commentId: T:SuperOffice.Data.InterRestrictionOperator
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.InterRestrictionOperator.html
   name: InterRestrictionOperator
   nameWithType: InterRestrictionOperator
   fullName: SuperOffice.Data.InterRestrictionOperator
@@ -1448,7 +1310,6 @@ references:
   commentId: T:SuperOffice.Data.Weekday
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.Weekday.html
   name: Weekday
   nameWithType: Weekday
   fullName: SuperOffice.Data.Weekday
@@ -1456,7 +1317,6 @@ references:
   commentId: T:SuperOffice.Data.RecurrenceYearlyPattern
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.RecurrenceYearlyPattern.html
   name: RecurrenceYearlyPattern
   nameWithType: RecurrenceYearlyPattern
   fullName: SuperOffice.Data.RecurrenceYearlyPattern
@@ -1464,7 +1324,6 @@ references:
   commentId: T:SuperOffice.Data.RecurrenceMonthlyPattern
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.RecurrenceMonthlyPattern.html
   name: RecurrenceMonthlyPattern
   nameWithType: RecurrenceMonthlyPattern
   fullName: SuperOffice.Data.RecurrenceMonthlyPattern
@@ -1472,7 +1331,6 @@ references:
   commentId: T:SuperOffice.Data.RecurrenceDailyPattern
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.RecurrenceDailyPattern.html
   name: RecurrenceDailyPattern
   nameWithType: RecurrenceDailyPattern
   fullName: SuperOffice.Data.RecurrenceDailyPattern
@@ -1480,7 +1338,6 @@ references:
   commentId: T:SuperOffice.Data.WeekOfMonth
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.WeekOfMonth.html
   name: WeekOfMonth
   nameWithType: WeekOfMonth
   fullName: SuperOffice.Data.WeekOfMonth
@@ -1488,7 +1345,6 @@ references:
   commentId: T:SuperOffice.Data.OrderBySortType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.OrderBySortType.html
   name: OrderBySortType
   nameWithType: OrderBySortType
   fullName: SuperOffice.Data.OrderBySortType
@@ -1496,7 +1352,6 @@ references:
   commentId: T:SuperOffice.Data.EjUserStatus
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.EjUserStatus.html
   name: EjUserStatus
   nameWithType: EjUserStatus
   fullName: SuperOffice.Data.EjUserStatus
@@ -1504,7 +1359,6 @@ references:
   commentId: T:SuperOffice.Data.StatusScreenPanelType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.StatusScreenPanelType.html
   name: StatusScreenPanelType
   nameWithType: StatusScreenPanelType
   fullName: SuperOffice.Data.StatusScreenPanelType
@@ -1512,7 +1366,6 @@ references:
   commentId: T:SuperOffice.Data.NetServerBuildType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.NetServerBuildType.html
   name: NetServerBuildType
   nameWithType: NetServerBuildType
   fullName: SuperOffice.Data.NetServerBuildType
@@ -1520,7 +1373,6 @@ references:
   commentId: T:SuperOffice.Data.QuoteVersionButtonAction
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.QuoteVersionButtonAction.html
   name: QuoteVersionButtonAction
   nameWithType: QuoteVersionButtonAction
   fullName: SuperOffice.Data.QuoteVersionButtonAction
@@ -1528,7 +1380,6 @@ references:
   commentId: T:SuperOffice.Data.TemporaryKeyDomain
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.TemporaryKeyDomain.html
   name: TemporaryKeyDomain
   nameWithType: TemporaryKeyDomain
   fullName: SuperOffice.Data.TemporaryKeyDomain
@@ -1536,7 +1387,6 @@ references:
   commentId: T:SuperOffice.Data.DocTmplPrivacyType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.DocTmplPrivacyType.html
   name: DocTmplPrivacyType
   nameWithType: DocTmplPrivacyType
   fullName: SuperOffice.Data.DocTmplPrivacyType
@@ -1544,7 +1394,6 @@ references:
   commentId: T:SuperOffice.Data.WebhookState
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.WebhookState.html
   name: WebhookState
   nameWithType: WebhookState
   fullName: SuperOffice.Data.WebhookState
@@ -1552,7 +1401,6 @@ references:
   commentId: T:SuperOffice.Data.CommandAction
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.CommandAction.html
   name: CommandAction
   nameWithType: CommandAction
   fullName: SuperOffice.Data.CommandAction
@@ -1560,7 +1408,6 @@ references:
   commentId: T:SuperOffice.Data.CommandActionResult
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.CommandActionResult.html
   name: CommandActionResult
   nameWithType: CommandActionResult
   fullName: SuperOffice.Data.CommandActionResult
@@ -1568,7 +1415,6 @@ references:
   commentId: T:SuperOffice.Data.NotificationPlatform
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.NotificationPlatform.html
   name: NotificationPlatform
   nameWithType: NotificationPlatform
   fullName: SuperOffice.Data.NotificationPlatform
@@ -1576,7 +1422,6 @@ references:
   commentId: T:SuperOffice.Data.NotificationMessageType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.NotificationMessageType.html
   name: NotificationMessageType
   nameWithType: NotificationMessageType
   fullName: SuperOffice.Data.NotificationMessageType
@@ -1584,7 +1429,6 @@ references:
   commentId: T:SuperOffice.Data.CalMethod
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.CalMethod.html
   name: CalMethod
   nameWithType: CalMethod
   fullName: SuperOffice.Data.CalMethod
@@ -1592,7 +1436,6 @@ references:
   commentId: T:SuperOffice.Data.CalReplyStatus
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.CalReplyStatus.html
   name: CalReplyStatus
   nameWithType: CalReplyStatus
   fullName: SuperOffice.Data.CalReplyStatus
@@ -1600,7 +1443,6 @@ references:
   commentId: T:SuperOffice.Data.SenderMailMode
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.SenderMailMode.html
   name: SenderMailMode
   nameWithType: SenderMailMode
   fullName: SuperOffice.Data.SenderMailMode
@@ -1608,7 +1450,6 @@ references:
   commentId: T:SuperOffice.Data.FormsRecaptchaMode
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.FormsRecaptchaMode.html
   name: FormsRecaptchaMode
   nameWithType: FormsRecaptchaMode
   fullName: SuperOffice.Data.FormsRecaptchaMode
@@ -1616,7 +1457,6 @@ references:
   commentId: T:SuperOffice.Data.AppointmentCautionWarning
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.AppointmentCautionWarning.html
   name: AppointmentCautionWarning
   nameWithType: AppointmentCautionWarning
   fullName: SuperOffice.Data.AppointmentCautionWarning
@@ -1624,7 +1464,6 @@ references:
   commentId: T:SuperOffice.Data.DocTmplInvitationType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.DocTmplInvitationType.html
   name: DocTmplInvitationType
   nameWithType: DocTmplInvitationType
   fullName: SuperOffice.Data.DocTmplInvitationType
@@ -1632,7 +1471,6 @@ references:
   commentId: T:SuperOffice.Data.VideoMeetingStatus
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.VideoMeetingStatus.html
   name: VideoMeetingStatus
   nameWithType: VideoMeetingStatus
   fullName: SuperOffice.Data.VideoMeetingStatus
@@ -1640,7 +1478,6 @@ references:
   commentId: T:SuperOffice.Data.UpsertNomatchAction
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.UpsertNomatchAction.html
   name: UpsertNomatchAction
   nameWithType: UpsertNomatchAction
   fullName: SuperOffice.Data.UpsertNomatchAction
@@ -1648,7 +1485,6 @@ references:
   commentId: T:SuperOffice.Data.UpsertRowActionStatus
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.UpsertRowActionStatus.html
   name: UpsertRowActionStatus
   nameWithType: UpsertRowActionStatus
   fullName: SuperOffice.Data.UpsertRowActionStatus
@@ -1656,7 +1492,6 @@ references:
   commentId: T:SuperOffice.Data.MailboxType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.MailboxType.html
   name: MailboxType
   nameWithType: MailboxType
   fullName: SuperOffice.Data.MailboxType
@@ -1664,7 +1499,6 @@ references:
   commentId: T:SuperOffice.Data.DeltaType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.DeltaType.html
   name: DeltaType
   nameWithType: DeltaType
   fullName: SuperOffice.Data.DeltaType
@@ -1672,7 +1506,6 @@ references:
   commentId: T:SuperOffice.Data.DeltaState
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.DeltaState.html
   name: DeltaState
   nameWithType: DeltaState
   fullName: SuperOffice.Data.DeltaState
@@ -1680,7 +1513,6 @@ references:
   commentId: T:SuperOffice.Data.NotificationEventType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.NotificationEventType.html
   name: NotificationEventType
   nameWithType: NotificationEventType
   fullName: SuperOffice.Data.NotificationEventType
@@ -1688,7 +1520,6 @@ references:
   commentId: T:SuperOffice.Data.Registry
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.Registry.html
   name: Registry
   nameWithType: Registry
   fullName: SuperOffice.Data.Registry
@@ -1696,7 +1527,6 @@ references:
   commentId: T:SuperOffice.Data.ChangePasswordType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ChangePasswordType.html
   name: ChangePasswordType
   nameWithType: ChangePasswordType
   fullName: SuperOffice.Data.ChangePasswordType
@@ -1704,7 +1534,6 @@ references:
   commentId: T:SuperOffice.Data.MessageHeaderStdItem
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.MessageHeaderStdItem.html
   name: MessageHeaderStdItem
   nameWithType: MessageHeaderStdItem
   fullName: SuperOffice.Data.MessageHeaderStdItem
@@ -1712,7 +1541,6 @@ references:
   commentId: T:SuperOffice.Data.MessageHeaderStdItemCol
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.MessageHeaderStdItemCol.html
   name: MessageHeaderStdItemCol
   nameWithType: MessageHeaderStdItemCol
   fullName: SuperOffice.Data.MessageHeaderStdItemCol
@@ -1720,7 +1548,6 @@ references:
   commentId: T:SuperOffice.Data.MessageActionType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.MessageActionType.html
   name: MessageActionType
   nameWithType: MessageActionType
   fullName: SuperOffice.Data.MessageActionType
@@ -1728,7 +1555,6 @@ references:
   commentId: T:SuperOffice.Data.RecipientType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.RecipientType.html
   name: RecipientType
   nameWithType: RecipientType
   fullName: SuperOffice.Data.RecipientType
@@ -1736,7 +1562,6 @@ references:
   commentId: T:SuperOffice.Data.ImageEmbedType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ImageEmbedType.html
   name: ImageEmbedType
   nameWithType: ImageEmbedType
   fullName: SuperOffice.Data.ImageEmbedType
@@ -1744,7 +1569,6 @@ references:
   commentId: T:SuperOffice.Data.TaskListItemType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.TaskListItemType.html
   name: TaskListItemType
   nameWithType: TaskListItemType
   fullName: SuperOffice.Data.TaskListItemType
@@ -1752,7 +1576,6 @@ references:
   commentId: T:SuperOffice.Data.ShowTaskItemInClient
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ShowTaskItemInClient.html
   name: ShowTaskItemInClient
   nameWithType: ShowTaskItemInClient
   fullName: SuperOffice.Data.ShowTaskItemInClient
@@ -1760,7 +1583,6 @@ references:
   commentId: T:SuperOffice.Data.ArchiveBehaviour
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ArchiveBehaviour.html
   name: ArchiveBehaviour
   nameWithType: ArchiveBehaviour
   fullName: SuperOffice.Data.ArchiveBehaviour
@@ -1768,7 +1590,6 @@ references:
   commentId: T:SuperOffice.Data.AiTextStyle
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.AiTextStyle.html
   name: AiTextStyle
   nameWithType: AiTextStyle
   fullName: SuperOffice.Data.AiTextStyle
@@ -1776,7 +1597,6 @@ references:
   commentId: T:SuperOffice.Data.HtmlSanitizerOptions
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.HtmlSanitizerOptions.html
   name: HtmlSanitizerOptions
   nameWithType: HtmlSanitizerOptions
   fullName: SuperOffice.Data.HtmlSanitizerOptions
@@ -1784,7 +1604,6 @@ references:
   commentId: T:SuperOffice.Data.SystemMessageType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.SystemMessageType.html
   name: SystemMessageType
   nameWithType: SystemMessageType
   fullName: SuperOffice.Data.SystemMessageType
@@ -1792,7 +1611,6 @@ references:
   commentId: T:SuperOffice.Data.MailClient
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.MailClient.html
   name: MailClient
   nameWithType: MailClient
   fullName: SuperOffice.Data.MailClient
@@ -1800,7 +1618,6 @@ references:
   commentId: T:SuperOffice.Data.DocumentHandler
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.DocumentHandler.html
   name: DocumentHandler
   nameWithType: DocumentHandler
   fullName: SuperOffice.Data.DocumentHandler
@@ -1808,7 +1625,6 @@ references:
   commentId: T:SuperOffice.Data.EventHandlerType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.EventHandlerType.html
   name: EventHandlerType
   nameWithType: EventHandlerType
   fullName: SuperOffice.Data.EventHandlerType
@@ -1816,7 +1632,6 @@ references:
   commentId: T:SuperOffice.Data.Domain
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.Domain.html
   name: Domain
   nameWithType: Domain
   fullName: SuperOffice.Data.Domain
@@ -1824,7 +1639,6 @@ references:
   commentId: T:SuperOffice.Data.FormSubmissionStatus
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.FormSubmissionStatus.html
   name: FormSubmissionStatus
   nameWithType: FormSubmissionStatus
   fullName: SuperOffice.Data.FormSubmissionStatus
@@ -1832,7 +1646,6 @@ references:
   commentId: T:SuperOffice.Data.TicketPriorityStatus
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.TicketPriorityStatus.html
   name: TicketPriorityStatus
   nameWithType: TicketPriorityStatus
   fullName: SuperOffice.Data.TicketPriorityStatus
@@ -1840,7 +1653,6 @@ references:
   commentId: T:SuperOffice.Data.TicketCategoryDelegateMethod
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.TicketCategoryDelegateMethod.html
   name: TicketCategoryDelegateMethod
   nameWithType: TicketCategoryDelegateMethod
   fullName: SuperOffice.Data.TicketCategoryDelegateMethod
@@ -1848,7 +1660,6 @@ references:
   commentId: T:SuperOffice.Data.TicketCategoryClosingStatus
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.TicketCategoryClosingStatus.html
   name: TicketCategoryClosingStatus
   nameWithType: TicketCategoryClosingStatus
   fullName: SuperOffice.Data.TicketCategoryClosingStatus
@@ -1856,7 +1667,6 @@ references:
   commentId: T:SuperOffice.Data.TicketCategoryFlags
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.TicketCategoryFlags.html
   name: TicketCategoryFlags
   nameWithType: TicketCategoryFlags
   fullName: SuperOffice.Data.TicketCategoryFlags
@@ -1864,7 +1674,6 @@ references:
   commentId: T:SuperOffice.Data.TicketPriorityFlags
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.TicketPriorityFlags.html
   name: TicketPriorityFlags
   nameWithType: TicketPriorityFlags
   fullName: SuperOffice.Data.TicketPriorityFlags
@@ -1872,7 +1681,6 @@ references:
   commentId: T:SuperOffice.Data.TicketPriorityEscalateEvent
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.TicketPriorityEscalateEvent.html
   name: TicketPriorityEscalateEvent
   nameWithType: TicketPriorityEscalateEvent
   fullName: SuperOffice.Data.TicketPriorityEscalateEvent
@@ -1880,7 +1688,6 @@ references:
   commentId: T:SuperOffice.Data.TicketSecurityLevel
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.TicketSecurityLevel.html
   name: TicketSecurityLevel
   nameWithType: TicketSecurityLevel
   fullName: SuperOffice.Data.TicketSecurityLevel
@@ -1888,7 +1695,6 @@ references:
   commentId: T:SuperOffice.Data.TicketPriorityEscalateAction
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.TicketPriorityEscalateAction.html
   name: TicketPriorityEscalateAction
   nameWithType: TicketPriorityEscalateAction
   fullName: SuperOffice.Data.TicketPriorityEscalateAction
@@ -1896,7 +1702,6 @@ references:
   commentId: T:SuperOffice.Data.TicketReadStatus
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.TicketReadStatus.html
   name: TicketReadStatus
   nameWithType: TicketReadStatus
   fullName: SuperOffice.Data.TicketReadStatus
@@ -1904,7 +1709,6 @@ references:
   commentId: T:SuperOffice.Data.TicketMessageType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.TicketMessageType.html
   name: TicketMessageType
   nameWithType: TicketMessageType
   fullName: SuperOffice.Data.TicketMessageType
@@ -1912,7 +1716,6 @@ references:
   commentId: T:SuperOffice.Data.TicketMessageCategory
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.TicketMessageCategory.html
   name: TicketMessageCategory
   nameWithType: TicketMessageCategory
   fullName: SuperOffice.Data.TicketMessageCategory
@@ -1920,7 +1723,6 @@ references:
   commentId: T:SuperOffice.Data.TagEntity
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.TagEntity.html
   name: TagEntity
   nameWithType: TagEntity
   fullName: SuperOffice.Data.TagEntity
@@ -1928,7 +1730,6 @@ references:
   commentId: T:SuperOffice.Data.LoginFlags
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.LoginFlags.html
   name: LoginFlags
   nameWithType: LoginFlags
   fullName: SuperOffice.Data.LoginFlags
@@ -1936,7 +1737,6 @@ references:
   commentId: T:SuperOffice.Data.DesignType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.DesignType.html
   name: DesignType
   nameWithType: DesignType
   fullName: SuperOffice.Data.DesignType
@@ -1944,7 +1744,6 @@ references:
   commentId: T:SuperOffice.Data.ShipmentMessageType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ShipmentMessageType.html
   name: ShipmentMessageType
   nameWithType: ShipmentMessageType
   fullName: SuperOffice.Data.ShipmentMessageType
@@ -1952,7 +1751,6 @@ references:
   commentId: T:SuperOffice.Data.TicketAlertAction
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.TicketAlertAction.html
   name: TicketAlertAction
   nameWithType: TicketAlertAction
   fullName: SuperOffice.Data.TicketAlertAction
@@ -1960,7 +1758,6 @@ references:
   commentId: T:SuperOffice.Data.ReplyTemplateBodyFlags
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ReplyTemplateBodyFlags.html
   name: ReplyTemplateBodyFlags
   nameWithType: ReplyTemplateBodyFlags
   fullName: SuperOffice.Data.ReplyTemplateBodyFlags
@@ -1968,7 +1765,6 @@ references:
   commentId: T:SuperOffice.Data.ReplyTemplateAccessLevel
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ReplyTemplateAccessLevel.html
   name: ReplyTemplateAccessLevel
   nameWithType: ReplyTemplateAccessLevel
   fullName: SuperOffice.Data.ReplyTemplateAccessLevel
@@ -1976,7 +1772,6 @@ references:
   commentId: T:SuperOffice.Data.ReplyTemplateFlags
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ReplyTemplateFlags.html
   name: ReplyTemplateFlags
   nameWithType: ReplyTemplateFlags
   fullName: SuperOffice.Data.ReplyTemplateFlags
@@ -1984,7 +1779,6 @@ references:
   commentId: T:SuperOffice.Data.BadgeType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.BadgeType.html
   name: BadgeType
   nameWithType: BadgeType
   fullName: SuperOffice.Data.BadgeType
@@ -1992,7 +1786,6 @@ references:
   commentId: T:SuperOffice.Data.ScriptType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ScriptType.html
   name: ScriptType
   nameWithType: ScriptType
   fullName: SuperOffice.Data.ScriptType
@@ -2000,7 +1793,6 @@ references:
   commentId: T:SuperOffice.Data.CcTemplateType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.CcTemplateType.html
   name: CcTemplateType
   nameWithType: CcTemplateType
   fullName: SuperOffice.Data.CcTemplateType
@@ -2008,7 +1800,6 @@ references:
   commentId: T:SuperOffice.Data.WidgetTheme
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.WidgetTheme.html
   name: WidgetTheme
   nameWithType: WidgetTheme
   fullName: SuperOffice.Data.WidgetTheme
@@ -2016,7 +1807,6 @@ references:
   commentId: T:SuperOffice.Data.WidgetRequiredFields
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.WidgetRequiredFields.html
   name: WidgetRequiredFields
   nameWithType: WidgetRequiredFields
   fullName: SuperOffice.Data.WidgetRequiredFields
@@ -2024,7 +1814,6 @@ references:
   commentId: T:SuperOffice.Data.ChatSessionFlags
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ChatSessionFlags.html
   name: ChatSessionFlags
   nameWithType: ChatSessionFlags
   fullName: SuperOffice.Data.ChatSessionFlags
@@ -2032,7 +1821,6 @@ references:
   commentId: T:SuperOffice.Data.ChatStatus
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ChatStatus.html
   name: ChatStatus
   nameWithType: ChatStatus
   fullName: SuperOffice.Data.ChatStatus
@@ -2040,7 +1828,6 @@ references:
   commentId: T:SuperOffice.Data.ConfigType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ConfigType.html
   name: ConfigType
   nameWithType: ConfigType
   fullName: SuperOffice.Data.ConfigType
@@ -2048,7 +1835,6 @@ references:
   commentId: T:SuperOffice.Data.FormType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.FormType.html
   name: FormType
   nameWithType: FormType
   fullName: SuperOffice.Data.FormType
@@ -2056,7 +1842,6 @@ references:
   commentId: T:SuperOffice.Data.ServiceAuthStatus
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ServiceAuthStatus.html
   name: ServiceAuthStatus
   nameWithType: ServiceAuthStatus
   fullName: SuperOffice.Data.ServiceAuthStatus
@@ -2064,7 +1849,6 @@ references:
   commentId: T:SuperOffice.Data.EmailAccountStatus
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.EmailAccountStatus.html
   name: EmailAccountStatus
   nameWithType: EmailAccountStatus
   fullName: SuperOffice.Data.EmailAccountStatus
@@ -2072,7 +1856,6 @@ references:
   commentId: T:SuperOffice.Data.RecipientSorting
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.RecipientSorting.html
   name: RecipientSorting
   nameWithType: RecipientSorting
   fullName: SuperOffice.Data.RecipientSorting
@@ -2080,7 +1863,6 @@ references:
   commentId: T:SuperOffice.Data.ModifiedAppointmentFields
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ModifiedAppointmentFields.html
   name: ModifiedAppointmentFields
   nameWithType: ModifiedAppointmentFields
   fullName: SuperOffice.Data.ModifiedAppointmentFields
@@ -2088,7 +1870,6 @@ references:
   commentId: T:SuperOffice.Data.ElementStatus
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ElementStatus.html
   name: ElementStatus
   nameWithType: ElementStatus
   fullName: SuperOffice.Data.ElementStatus
@@ -2096,7 +1877,6 @@ references:
   commentId: T:SuperOffice.Data.ChatTopicFlag
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ChatTopicFlag.html
   name: ChatTopicFlag
   nameWithType: ChatTopicFlag
   fullName: SuperOffice.Data.ChatTopicFlag
@@ -2104,7 +1884,6 @@ references:
   commentId: T:SuperOffice.Data.ChatSessionStatus
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ChatSessionStatus.html
   name: ChatSessionStatus
   nameWithType: ChatSessionStatus
   fullName: SuperOffice.Data.ChatSessionStatus
@@ -2112,7 +1891,6 @@ references:
   commentId: T:SuperOffice.Data.ChatMessageType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ChatMessageType.html
   name: ChatMessageType
   nameWithType: ChatMessageType
   fullName: SuperOffice.Data.ChatMessageType
@@ -2120,7 +1898,6 @@ references:
   commentId: T:SuperOffice.Data.ChatMessageSpecialType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ChatMessageSpecialType.html
   name: ChatMessageSpecialType
   nameWithType: ChatMessageSpecialType
   fullName: SuperOffice.Data.ChatMessageSpecialType
@@ -2128,7 +1905,6 @@ references:
   commentId: T:SuperOffice.Data.ChatWidgetSize
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ChatWidgetSize.html
   name: ChatWidgetSize
   nameWithType: ChatWidgetSize
   fullName: SuperOffice.Data.ChatWidgetSize
@@ -2136,7 +1912,6 @@ references:
   commentId: T:SuperOffice.Data.ParticipantType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ParticipantType.html
   name: ParticipantType
   nameWithType: ParticipantType
   fullName: SuperOffice.Data.ParticipantType
@@ -2144,7 +1919,6 @@ references:
   commentId: T:SuperOffice.Data.ApplicationType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ApplicationType.html
   name: ApplicationType
   nameWithType: ApplicationType
   fullName: SuperOffice.Data.ApplicationType
@@ -2152,7 +1926,6 @@ references:
   commentId: T:SuperOffice.Data.DiaryGroupType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.DiaryGroupType.html
   name: DiaryGroupType
   nameWithType: DiaryGroupType
   fullName: SuperOffice.Data.DiaryGroupType
@@ -2160,7 +1933,6 @@ references:
   commentId: T:SuperOffice.Data.SelectionMemberType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.SelectionMemberType.html
   name: SelectionMemberType
   nameWithType: SelectionMemberType
   fullName: SuperOffice.Data.SelectionMemberType
@@ -2168,7 +1940,6 @@ references:
   commentId: T:SuperOffice.Data.TaskItem
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.TaskItem.html
   name: TaskItem
   nameWithType: TaskItem
   fullName: SuperOffice.Data.TaskItem
@@ -2176,172 +1947,96 @@ references:
   commentId: T:SuperOffice.Data.EMailRecipientType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.EMailRecipientType.html
   name: EMailRecipientType
   nameWithType: EMailRecipientType
   fullName: SuperOffice.Data.EMailRecipientType
 - uid: SuperOffice.Data.SaleTypeConstants
   commentId: T:SuperOffice.Data.SaleTypeConstants
   isExternal: true
-  href: SuperOffice.Data.SaleTypeConstants.html
   name: SaleTypeConstants
   nameWithType: SaleTypeConstants
   fullName: SuperOffice.Data.SaleTypeConstants
 - uid: SuperOffice.Data.SaleStageConstants
   commentId: T:SuperOffice.Data.SaleStageConstants
   isExternal: true
-  href: SuperOffice.Data.SaleStageConstants.html
   name: SaleStageConstants
   nameWithType: SaleStageConstants
   fullName: SuperOffice.Data.SaleStageConstants
 - uid: SuperOffice.Data.GdprPurposes
   commentId: T:SuperOffice.Data.GdprPurposes
   isExternal: true
-  href: SuperOffice.Data.GdprPurposes.html
   name: GdprPurposes
   nameWithType: GdprPurposes
   fullName: SuperOffice.Data.GdprPurposes
 - uid: SuperOffice.Data.GdprSources
   commentId: T:SuperOffice.Data.GdprSources
   isExternal: true
-  href: SuperOffice.Data.GdprSources.html
   name: GdprSources
   nameWithType: GdprSources
   fullName: SuperOffice.Data.GdprSources
 - uid: SuperOffice.Data.GdprLegalBases
   commentId: T:SuperOffice.Data.GdprLegalBases
   isExternal: true
-  href: SuperOffice.Data.GdprLegalBases.html
   name: GdprLegalBases
   nameWithType: GdprLegalBases
   fullName: SuperOffice.Data.GdprLegalBases
 - uid: SuperOffice.Data.ProjectTypeConstants
   commentId: T:SuperOffice.Data.ProjectTypeConstants
   isExternal: true
-  href: SuperOffice.Data.ProjectTypeConstants.html
   name: ProjectTypeConstants
   nameWithType: ProjectTypeConstants
   fullName: SuperOffice.Data.ProjectTypeConstants
 - uid: SuperOffice.Data.ProjectStatusConstants
   commentId: T:SuperOffice.Data.ProjectStatusConstants
   isExternal: true
-  href: SuperOffice.Data.ProjectStatusConstants.html
   name: ProjectStatusConstants
   nameWithType: ProjectStatusConstants
   fullName: SuperOffice.Data.ProjectStatusConstants
 - uid: SuperOffice.Data.GuideStepConstants
   commentId: T:SuperOffice.Data.GuideStepConstants
   isExternal: true
-  href: SuperOffice.Data.GuideStepConstants.html
   name: GuideStepConstants
   nameWithType: GuideStepConstants
   fullName: SuperOffice.Data.GuideStepConstants
 - uid: SuperOffice.Data.StatusDefConstants
   commentId: T:SuperOffice.Data.StatusDefConstants
   isExternal: true
-  href: SuperOffice.Data.StatusDefConstants.html
   name: StatusDefConstants
   nameWithType: StatusDefConstants
   fullName: SuperOffice.Data.StatusDefConstants
 - uid: SuperOffice.Data.ImportColumnDef
   commentId: T:SuperOffice.Data.ImportColumnDef
   isExternal: true
-  href: SuperOffice.Data.ImportColumnDef.html
   name: ImportColumnDef
   nameWithType: ImportColumnDef
   fullName: SuperOffice.Data.ImportColumnDef
 - uid: SuperOffice.Data.ImportColumnDef.ImportColumn
   commentId: T:SuperOffice.Data.ImportColumnDef.ImportColumn
   isExternal: true
-  href: SuperOffice.Data.ImportColumnDef.html
   name: ImportColumnDef.ImportColumn
   nameWithType: ImportColumnDef.ImportColumn
   fullName: SuperOffice.Data.ImportColumnDef.ImportColumn
-  spec.csharp:
-  - uid: SuperOffice.Data.ImportColumnDef
-    name: ImportColumnDef
-    isExternal: true
-    href: SuperOffice.Data.ImportColumnDef.html
-  - name: .
-  - uid: SuperOffice.Data.ImportColumnDef.ImportColumn
-    name: ImportColumn
-    isExternal: true
-    href: SuperOffice.Data.ImportColumnDef.ImportColumn.html
-  spec.vb:
-  - uid: SuperOffice.Data.ImportColumnDef
-    name: ImportColumnDef
-    isExternal: true
-    href: SuperOffice.Data.ImportColumnDef.html
-  - name: .
-  - uid: SuperOffice.Data.ImportColumnDef.ImportColumn
-    name: ImportColumn
-    isExternal: true
-    href: SuperOffice.Data.ImportColumnDef.ImportColumn.html
 - uid: SuperOffice.Data.DictionaryConstants
   commentId: T:SuperOffice.Data.DictionaryConstants
   isExternal: true
-  href: SuperOffice.Data.DictionaryConstants.html
   name: DictionaryConstants
   nameWithType: DictionaryConstants
   fullName: SuperOffice.Data.DictionaryConstants
 - uid: SuperOffice.Data.DictionaryConstants.ConceptualFieldType
   commentId: T:SuperOffice.Data.DictionaryConstants.ConceptualFieldType
   isExternal: true
-  href: SuperOffice.Data.DictionaryConstants.html
   name: DictionaryConstants.ConceptualFieldType
   nameWithType: DictionaryConstants.ConceptualFieldType
   fullName: SuperOffice.Data.DictionaryConstants.ConceptualFieldType
-  spec.csharp:
-  - uid: SuperOffice.Data.DictionaryConstants
-    name: DictionaryConstants
-    isExternal: true
-    href: SuperOffice.Data.DictionaryConstants.html
-  - name: .
-  - uid: SuperOffice.Data.DictionaryConstants.ConceptualFieldType
-    name: ConceptualFieldType
-    isExternal: true
-    href: SuperOffice.Data.DictionaryConstants.ConceptualFieldType.html
-  spec.vb:
-  - uid: SuperOffice.Data.DictionaryConstants
-    name: DictionaryConstants
-    isExternal: true
-    href: SuperOffice.Data.DictionaryConstants.html
-  - name: .
-  - uid: SuperOffice.Data.DictionaryConstants.ConceptualFieldType
-    name: ConceptualFieldType
-    isExternal: true
-    href: SuperOffice.Data.DictionaryConstants.ConceptualFieldType.html
 - uid: SuperOffice.Data.DictionaryConstants.PhysicalFieldType
   commentId: T:SuperOffice.Data.DictionaryConstants.PhysicalFieldType
   isExternal: true
-  href: SuperOffice.Data.DictionaryConstants.html
   name: DictionaryConstants.PhysicalFieldType
   nameWithType: DictionaryConstants.PhysicalFieldType
   fullName: SuperOffice.Data.DictionaryConstants.PhysicalFieldType
-  spec.csharp:
-  - uid: SuperOffice.Data.DictionaryConstants
-    name: DictionaryConstants
-    isExternal: true
-    href: SuperOffice.Data.DictionaryConstants.html
-  - name: .
-  - uid: SuperOffice.Data.DictionaryConstants.PhysicalFieldType
-    name: PhysicalFieldType
-    isExternal: true
-    href: SuperOffice.Data.DictionaryConstants.PhysicalFieldType.html
-  spec.vb:
-  - uid: SuperOffice.Data.DictionaryConstants
-    name: DictionaryConstants
-    isExternal: true
-    href: SuperOffice.Data.DictionaryConstants.html
-  - name: .
-  - uid: SuperOffice.Data.DictionaryConstants.PhysicalFieldType
-    name: PhysicalFieldType
-    isExternal: true
-    href: SuperOffice.Data.DictionaryConstants.PhysicalFieldType.html
 - uid: SuperOffice.Data.EMailFolderAttributeConstants
   commentId: T:SuperOffice.Data.EMailFolderAttributeConstants
   isExternal: true
-  href: SuperOffice.Data.EMailFolderAttributeConstants.html
   name: EMailFolderAttributeConstants
   nameWithType: EMailFolderAttributeConstants
   fullName: SuperOffice.Data.EMailFolderAttributeConstants
@@ -2349,7 +2044,6 @@ references:
   commentId: T:SuperOffice.Data.SystemReport
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.SystemReport.html
   name: SystemReport
   nameWithType: SystemReport
   fullName: SuperOffice.Data.SystemReport
@@ -2357,7 +2051,6 @@ references:
   commentId: T:SuperOffice.Data.LayoutUnits
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.LayoutUnits.html
   name: LayoutUnits
   nameWithType: LayoutUnits
   fullName: SuperOffice.Data.LayoutUnits
@@ -2365,7 +2058,6 @@ references:
   commentId: T:SuperOffice.Data.ReportType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ReportType.html
   name: ReportType
   nameWithType: ReportType
   fullName: SuperOffice.Data.ReportType
@@ -2373,7 +2065,6 @@ references:
   commentId: T:SuperOffice.Data.SaintTarget
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.SaintTarget.html
   name: SaintTarget
   nameWithType: SaintTarget
   fullName: SuperOffice.Data.SaintTarget
@@ -2381,7 +2072,6 @@ references:
   commentId: T:SuperOffice.Data.SaintCounterType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.SaintCounterType.html
   name: SaintCounterType
   nameWithType: SaintCounterType
   fullName: SuperOffice.Data.SaintCounterType
@@ -2389,7 +2079,6 @@ references:
   commentId: T:SuperOffice.Data.LicenceType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.LicenceType.html
   name: LicenceType
   nameWithType: LicenceType
   fullName: SuperOffice.Data.LicenceType
@@ -2397,7 +2086,6 @@ references:
   commentId: T:SuperOffice.Data.ArchiveJoinType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ArchiveJoinType.html
   name: ArchiveJoinType
   nameWithType: ArchiveJoinType
   fullName: SuperOffice.Data.ArchiveJoinType
@@ -2405,7 +2093,6 @@ references:
   commentId: T:SuperOffice.Data.SaleStageIndex
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.SaleStageIndex.html
   name: SaleStageIndex
   nameWithType: SaleStageIndex
   fullName: SuperOffice.Data.SaleStageIndex
@@ -2413,7 +2100,6 @@ references:
   commentId: T:SuperOffice.Data.RoundDirection
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.RoundDirection.html
   name: RoundDirection
   nameWithType: RoundDirection
   fullName: SuperOffice.Data.RoundDirection
@@ -2421,7 +2107,6 @@ references:
   commentId: T:SuperOffice.Data.MoveMergeOperation
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.MoveMergeOperation.html
   name: MoveMergeOperation
   nameWithType: MoveMergeOperation
   fullName: SuperOffice.Data.MoveMergeOperation
@@ -2429,7 +2114,6 @@ references:
   commentId: T:SuperOffice.Data.CsAuthenticationType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.CsAuthenticationType.html
   name: CsAuthenticationType
   nameWithType: CsAuthenticationType
   fullName: SuperOffice.Data.CsAuthenticationType
@@ -2437,7 +2121,6 @@ references:
   commentId: T:SuperOffice.Data.CsLoginStatus
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.CsLoginStatus.html
   name: CsLoginStatus
   nameWithType: CsLoginStatus
   fullName: SuperOffice.Data.CsLoginStatus
@@ -2445,7 +2128,6 @@ references:
   commentId: T:SuperOffice.Data.CsLoginAuthType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.CsLoginAuthType.html
   name: CsLoginAuthType
   nameWithType: CsLoginAuthType
   fullName: SuperOffice.Data.CsLoginAuthType
@@ -2453,7 +2135,6 @@ references:
   commentId: T:SuperOffice.Data.CsLoginOrigin
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.CsLoginOrigin.html
   name: CsLoginOrigin
   nameWithType: CsLoginOrigin
   fullName: SuperOffice.Data.CsLoginOrigin
@@ -2461,7 +2142,6 @@ references:
   commentId: T:SuperOffice.Data.EjAccess
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.EjAccess.html
   name: EjAccess
   nameWithType: EjAccess
   fullName: SuperOffice.Data.EjAccess
@@ -2469,7 +2149,6 @@ references:
   commentId: T:SuperOffice.Data.MessagingStatus
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.MessagingStatus.html
   name: MessagingStatus
   nameWithType: MessagingStatus
   fullName: SuperOffice.Data.MessagingStatus
@@ -2477,7 +2156,6 @@ references:
   commentId: T:SuperOffice.Data.InboxStatus
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.InboxStatus.html
   name: InboxStatus
   nameWithType: InboxStatus
   fullName: SuperOffice.Data.InboxStatus
@@ -2485,28 +2163,24 @@ references:
   commentId: T:SuperOffice.Data.MDOSortOrder
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.MDOSortOrder.html
   name: MDOSortOrder
   nameWithType: MDOSortOrder
   fullName: SuperOffice.Data.MDOSortOrder
 - uid: SuperOffice.Data.QuoteRights
   commentId: T:SuperOffice.Data.QuoteRights
   isExternal: true
-  href: SuperOffice.Data.QuoteRights.html
   name: QuoteRights
   nameWithType: QuoteRights
   fullName: SuperOffice.Data.QuoteRights
 - uid: SuperOffice.Data.UdefParser
   commentId: T:SuperOffice.Data.UdefParser
   isExternal: true
-  href: SuperOffice.Data.UdefParser.html
   name: UdefParser
   nameWithType: UdefParser
   fullName: SuperOffice.Data.UdefParser
 - uid: SuperOffice.Data.TablesInfo
   commentId: T:SuperOffice.Data.TablesInfo
   isExternal: true
-  href: SuperOffice.Data.TablesInfo.html
   name: TablesInfo
   nameWithType: TablesInfo
   fullName: SuperOffice.Data.TablesInfo
@@ -2514,14 +2188,12 @@ references:
   commentId: T:SuperOffice.Data.DatabaseStepAttribute
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.DatabaseStepAttribute.html
   name: DatabaseStepAttribute
   nameWithType: DatabaseStepAttribute
   fullName: SuperOffice.Data.DatabaseStepAttribute
 - uid: SuperOffice.Data.CachedSequence
   commentId: T:SuperOffice.Data.CachedSequence
   isExternal: true
-  href: SuperOffice.Data.CachedSequence.html
   name: CachedSequence
   nameWithType: CachedSequence
   fullName: SuperOffice.Data.CachedSequence
@@ -2529,14 +2201,12 @@ references:
   commentId: T:SuperOffice.Data.DbConvertType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.DbConvertType.html
   name: DbConvertType
   nameWithType: DbConvertType
   fullName: SuperOffice.Data.DbConvertType
 - uid: SuperOffice.Data.DbConvert
   commentId: T:SuperOffice.Data.DbConvert
   isExternal: true
-  href: SuperOffice.Data.DbConvert.html
   name: DbConvert
   nameWithType: DbConvert
   fullName: SuperOffice.Data.DbConvert
@@ -2544,7 +2214,6 @@ references:
   commentId: T:SuperOffice.Data.OnSaved
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.OnSaved.html
   name: OnSaved
   nameWithType: OnSaved
   fullName: SuperOffice.Data.OnSaved
@@ -2552,7 +2221,6 @@ references:
   commentId: T:SuperOffice.Data.OnIdUpdate
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.OnIdUpdate.html
   name: OnIdUpdate
   nameWithType: OnIdUpdate
   fullName: SuperOffice.Data.OnIdUpdate
@@ -2560,7 +2228,6 @@ references:
   commentId: T:SuperOffice.Data.INestedPersist
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.INestedPersist.html
   name: INestedPersist
   nameWithType: INestedPersist
   fullName: SuperOffice.Data.INestedPersist
@@ -2568,7 +2235,6 @@ references:
   commentId: T:SuperOffice.Data.NestedPersist
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.NestedPersist.html
   name: NestedPersist
   nameWithType: NestedPersist
   fullName: SuperOffice.Data.NestedPersist
@@ -2576,14 +2242,12 @@ references:
   commentId: T:SuperOffice.Data.NestedCollectionPersist
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.NestedCollectionPersist.html
   name: NestedCollectionPersist
   nameWithType: NestedCollectionPersist
   fullName: SuperOffice.Data.NestedCollectionPersist
 - uid: SuperOffice.Data.NestedCollectionPersist`1
   commentId: T:SuperOffice.Data.NestedCollectionPersist`1
   isExternal: true
-  href: SuperOffice.Data.NestedCollectionPersist-1.html
   name: NestedCollectionPersist<TNestedPersist>
   nameWithType: NestedCollectionPersist<TNestedPersist>
   fullName: SuperOffice.Data.NestedCollectionPersist<TNestedPersist>
@@ -2593,33 +2257,43 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.NestedCollectionPersist`1
     name: NestedCollectionPersist
+    nameWithType: NestedCollectionPersist
+    fullName: SuperOffice.Data.NestedCollectionPersist
     isExternal: true
-    href: SuperOffice.Data.NestedCollectionPersist-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - name: TNestedPersist
+    nameWithType: TNestedPersist
+    fullName: TNestedPersist
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.NestedCollectionPersist`1
     name: NestedCollectionPersist
+    nameWithType: NestedCollectionPersist
+    fullName: SuperOffice.Data.NestedCollectionPersist
     isExternal: true
-    href: SuperOffice.Data.NestedCollectionPersist-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: TNestedPersist
+    nameWithType: TNestedPersist
+    fullName: TNestedPersist
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.NestedPersistFacade
   commentId: T:SuperOffice.Data.NestedPersistFacade
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.NestedPersistFacade.html
   name: NestedPersistFacade
   nameWithType: NestedPersistFacade
   fullName: SuperOffice.Data.NestedPersistFacade
 - uid: SuperOffice.Data.MultiSave
   commentId: T:SuperOffice.Data.MultiSave
   isExternal: true
-  href: SuperOffice.Data.MultiSave.html
   name: MultiSave
   nameWithType: MultiSave
   fullName: SuperOffice.Data.MultiSave
@@ -2627,14 +2301,12 @@ references:
   commentId: T:SuperOffice.Data.PKContainer
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.PKContainer.html
   name: PKContainer
   nameWithType: PKContainer
   fullName: SuperOffice.Data.PKContainer
 - uid: SuperOffice.Data.PrefDescCache
   commentId: T:SuperOffice.Data.PrefDescCache
   isExternal: true
-  href: SuperOffice.Data.PrefDescCache.html
   name: PrefDescCache
   nameWithType: PrefDescCache
   fullName: SuperOffice.Data.PrefDescCache
@@ -2642,7 +2314,6 @@ references:
   commentId: T:SuperOffice.Data.PrefDescCacheExtensions
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.PrefDescCacheExtensions.html
   name: PrefDescCacheExtensions
   nameWithType: PrefDescCacheExtensions
   fullName: SuperOffice.Data.PrefDescCacheExtensions
@@ -2650,7 +2321,6 @@ references:
   commentId: T:SuperOffice.Data.QueryExecutionHelper
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.QueryExecutionHelper.html
   name: QueryExecutionHelper
   nameWithType: QueryExecutionHelper
   fullName: SuperOffice.Data.QueryExecutionHelper
@@ -2658,205 +2328,73 @@ references:
   commentId: T:SuperOffice.Data.QueryExecutionHelper.ExecutionType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.QueryExecutionHelper.html
   name: QueryExecutionHelper.ExecutionType
   nameWithType: QueryExecutionHelper.ExecutionType
   fullName: SuperOffice.Data.QueryExecutionHelper.ExecutionType
-  spec.csharp:
-  - uid: SuperOffice.Data.QueryExecutionHelper
-    name: QueryExecutionHelper
-    isExternal: true
-    href: SuperOffice.Data.QueryExecutionHelper.html
-  - name: .
-  - uid: SuperOffice.Data.QueryExecutionHelper.ExecutionType
-    name: ExecutionType
-    isExternal: true
-    href: SuperOffice.Data.QueryExecutionHelper.ExecutionType.html
-  spec.vb:
-  - uid: SuperOffice.Data.QueryExecutionHelper
-    name: QueryExecutionHelper
-    isExternal: true
-    href: SuperOffice.Data.QueryExecutionHelper.html
-  - name: .
-  - uid: SuperOffice.Data.QueryExecutionHelper.ExecutionType
-    name: ExecutionType
-    isExternal: true
-    href: SuperOffice.Data.QueryExecutionHelper.ExecutionType.html
 - uid: SuperOffice.Data.QueryExectionExtensions
   commentId: T:SuperOffice.Data.QueryExectionExtensions
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.QueryExectionExtensions.html
   name: QueryExectionExtensions
   nameWithType: QueryExectionExtensions
   fullName: SuperOffice.Data.QueryExectionExtensions
 - uid: SuperOffice.Data.RefCounts
   commentId: T:SuperOffice.Data.RefCounts
   isExternal: true
-  href: SuperOffice.Data.RefCounts.html
   name: RefCounts
   nameWithType: RefCounts
   fullName: SuperOffice.Data.RefCounts
 - uid: SuperOffice.Data.S
   commentId: T:SuperOffice.Data.S
   isExternal: true
-  href: SuperOffice.Data.S.html
   name: S
   nameWithType: S
   fullName: SuperOffice.Data.S
 - uid: SuperOffice.Data.S.Math
   commentId: T:SuperOffice.Data.S.Math
   isExternal: true
-  href: SuperOffice.Data.S.html
   name: S.Math
   nameWithType: S.Math
   fullName: SuperOffice.Data.S.Math
-  spec.csharp:
-  - uid: SuperOffice.Data.S
-    name: S
-    isExternal: true
-    href: SuperOffice.Data.S.html
-  - name: .
-  - uid: SuperOffice.Data.S.Math
-    name: Math
-    isExternal: true
-    href: SuperOffice.Data.S.Math.html
-  spec.vb:
-  - uid: SuperOffice.Data.S
-    name: S
-    isExternal: true
-    href: SuperOffice.Data.S.html
-  - name: .
-  - uid: SuperOffice.Data.S.Math
-    name: Math
-    isExternal: true
-    href: SuperOffice.Data.S.Math.html
 - uid: SuperOffice.Data.S.ResultModifier
   commentId: T:SuperOffice.Data.S.ResultModifier
   isExternal: true
-  href: SuperOffice.Data.S.html
   name: S.ResultModifier
   nameWithType: S.ResultModifier
   fullName: SuperOffice.Data.S.ResultModifier
-  spec.csharp:
-  - uid: SuperOffice.Data.S
-    name: S
-    isExternal: true
-    href: SuperOffice.Data.S.html
-  - name: .
-  - uid: SuperOffice.Data.S.ResultModifier
-    name: ResultModifier
-    isExternal: true
-    href: SuperOffice.Data.S.ResultModifier.html
-  spec.vb:
-  - uid: SuperOffice.Data.S
-    name: S
-    isExternal: true
-    href: SuperOffice.Data.S.html
-  - name: .
-  - uid: SuperOffice.Data.S.ResultModifier
-    name: ResultModifier
-    isExternal: true
-    href: SuperOffice.Data.S.ResultModifier.html
 - uid: SuperOffice.Data.S.ArgumentFunctions
   commentId: T:SuperOffice.Data.S.ArgumentFunctions
   isExternal: true
-  href: SuperOffice.Data.S.html
   name: S.ArgumentFunctions
   nameWithType: S.ArgumentFunctions
   fullName: SuperOffice.Data.S.ArgumentFunctions
-  spec.csharp:
-  - uid: SuperOffice.Data.S
-    name: S
-    isExternal: true
-    href: SuperOffice.Data.S.html
-  - name: .
-  - uid: SuperOffice.Data.S.ArgumentFunctions
-    name: ArgumentFunctions
-    isExternal: true
-    href: SuperOffice.Data.S.ArgumentFunctions.html
-  spec.vb:
-  - uid: SuperOffice.Data.S
-    name: S
-    isExternal: true
-    href: SuperOffice.Data.S.html
-  - name: .
-  - uid: SuperOffice.Data.S.ArgumentFunctions
-    name: ArgumentFunctions
-    isExternal: true
-    href: SuperOffice.Data.S.ArgumentFunctions.html
 - uid: SuperOffice.Data.S.FieldExpression
   commentId: T:SuperOffice.Data.S.FieldExpression
   isExternal: true
-  href: SuperOffice.Data.S.html
   name: S.FieldExpression
   nameWithType: S.FieldExpression
   fullName: SuperOffice.Data.S.FieldExpression
-  spec.csharp:
-  - uid: SuperOffice.Data.S
-    name: S
-    isExternal: true
-    href: SuperOffice.Data.S.html
-  - name: .
-  - uid: SuperOffice.Data.S.FieldExpression
-    name: FieldExpression
-    isExternal: true
-    href: SuperOffice.Data.S.FieldExpression.html
-  spec.vb:
-  - uid: SuperOffice.Data.S
-    name: S
-    isExternal: true
-    href: SuperOffice.Data.S.html
-  - name: .
-  - uid: SuperOffice.Data.S.FieldExpression
-    name: FieldExpression
-    isExternal: true
-    href: SuperOffice.Data.S.FieldExpression.html
 - uid: SuperOffice.Data.S.TableExpression
   commentId: T:SuperOffice.Data.S.TableExpression
   isExternal: true
-  href: SuperOffice.Data.S.html
   name: S.TableExpression
   nameWithType: S.TableExpression
   fullName: SuperOffice.Data.S.TableExpression
-  spec.csharp:
-  - uid: SuperOffice.Data.S
-    name: S
-    isExternal: true
-    href: SuperOffice.Data.S.html
-  - name: .
-  - uid: SuperOffice.Data.S.TableExpression
-    name: TableExpression
-    isExternal: true
-    href: SuperOffice.Data.S.TableExpression.html
-  spec.vb:
-  - uid: SuperOffice.Data.S
-    name: S
-    isExternal: true
-    href: SuperOffice.Data.S.html
-  - name: .
-  - uid: SuperOffice.Data.S.TableExpression
-    name: TableExpression
-    isExternal: true
-    href: SuperOffice.Data.S.TableExpression.html
 - uid: SuperOffice.Data.Sequence
   commentId: T:SuperOffice.Data.Sequence
   isExternal: true
-  href: SuperOffice.Data.Sequence.html
   name: Sequence
   nameWithType: Sequence
   fullName: SuperOffice.Data.Sequence
 - uid: SuperOffice.Data.ServicePreferenceMapper
   commentId: T:SuperOffice.Data.ServicePreferenceMapper
   isExternal: true
-  href: SuperOffice.Data.ServicePreferenceMapper.html
   name: ServicePreferenceMapper
   nameWithType: ServicePreferenceMapper
   fullName: SuperOffice.Data.ServicePreferenceMapper
 - uid: SuperOffice.Data.ServicePreferenceMappings
   commentId: T:SuperOffice.Data.ServicePreferenceMappings
   isExternal: true
-  href: SuperOffice.Data.ServicePreferenceMappings.html
   name: ServicePreferenceMappings
   nameWithType: ServicePreferenceMappings
   fullName: SuperOffice.Data.ServicePreferenceMappings
@@ -2864,138 +2402,33 @@ references:
   commentId: T:SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ServicePreferenceMappings.html
   name: ServicePreferenceMappings.PreferenceMappingType
   nameWithType: ServicePreferenceMappings.PreferenceMappingType
   fullName: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingType
-  spec.csharp:
-  - uid: SuperOffice.Data.ServicePreferenceMappings
-    name: ServicePreferenceMappings
-    isExternal: true
-    href: SuperOffice.Data.ServicePreferenceMappings.html
-  - name: .
-  - uid: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingType
-    name: PreferenceMappingType
-    isExternal: true
-    href: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingType.html
-  spec.vb:
-  - uid: SuperOffice.Data.ServicePreferenceMappings
-    name: ServicePreferenceMappings
-    isExternal: true
-    href: SuperOffice.Data.ServicePreferenceMappings.html
-  - name: .
-  - uid: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingType
-    name: PreferenceMappingType
-    isExternal: true
-    href: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingType.html
 - uid: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo
   commentId: T:SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo
   isExternal: true
-  href: SuperOffice.Data.ServicePreferenceMappings.html
   name: ServicePreferenceMappings.PreferenceMappingInfo
   nameWithType: ServicePreferenceMappings.PreferenceMappingInfo
   fullName: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo
-  spec.csharp:
-  - uid: SuperOffice.Data.ServicePreferenceMappings
-    name: ServicePreferenceMappings
-    isExternal: true
-    href: SuperOffice.Data.ServicePreferenceMappings.html
-  - name: .
-  - uid: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo
-    name: PreferenceMappingInfo
-    isExternal: true
-    href: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.html
-  spec.vb:
-  - uid: SuperOffice.Data.ServicePreferenceMappings
-    name: ServicePreferenceMappings
-    isExternal: true
-    href: SuperOffice.Data.ServicePreferenceMappings.html
-  - name: .
-  - uid: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo
-    name: PreferenceMappingInfo
-    isExternal: true
-    href: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.html
 - uid: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder
   commentId: T:SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ServicePreferenceMappings.html
   name: ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder
   nameWithType: ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder
   fullName: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder
-  spec.csharp:
-  - uid: SuperOffice.Data.ServicePreferenceMappings
-    name: ServicePreferenceMappings
-    isExternal: true
-    href: SuperOffice.Data.ServicePreferenceMappings.html
-  - name: .
-  - uid: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo
-    name: PreferenceMappingInfo
-    isExternal: true
-    href: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.html
-  - name: .
-  - uid: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder
-    name: IndividualDecoder
-    isExternal: true
-    href: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder.html
-  spec.vb:
-  - uid: SuperOffice.Data.ServicePreferenceMappings
-    name: ServicePreferenceMappings
-    isExternal: true
-    href: SuperOffice.Data.ServicePreferenceMappings.html
-  - name: .
-  - uid: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo
-    name: PreferenceMappingInfo
-    isExternal: true
-    href: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.html
-  - name: .
-  - uid: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder
-    name: IndividualDecoder
-    isExternal: true
-    href: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualDecoder.html
 - uid: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualEncoder
   commentId: T:SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualEncoder
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ServicePreferenceMappings.html
   name: ServicePreferenceMappings.PreferenceMappingInfo.IndividualEncoder
   nameWithType: ServicePreferenceMappings.PreferenceMappingInfo.IndividualEncoder
   fullName: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualEncoder
-  spec.csharp:
-  - uid: SuperOffice.Data.ServicePreferenceMappings
-    name: ServicePreferenceMappings
-    isExternal: true
-    href: SuperOffice.Data.ServicePreferenceMappings.html
-  - name: .
-  - uid: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo
-    name: PreferenceMappingInfo
-    isExternal: true
-    href: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.html
-  - name: .
-  - uid: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualEncoder
-    name: IndividualEncoder
-    isExternal: true
-    href: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualEncoder.html
-  spec.vb:
-  - uid: SuperOffice.Data.ServicePreferenceMappings
-    name: ServicePreferenceMappings
-    isExternal: true
-    href: SuperOffice.Data.ServicePreferenceMappings.html
-  - name: .
-  - uid: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo
-    name: PreferenceMappingInfo
-    isExternal: true
-    href: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.html
-  - name: .
-  - uid: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualEncoder
-    name: IndividualEncoder
-    isExternal: true
-    href: SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingInfo.IndividualEncoder.html
 - uid: SuperOffice.Data.SoCommand
   commentId: T:SuperOffice.Data.SoCommand
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.SoCommand.html
   name: SoCommand
   nameWithType: SoCommand
   fullName: SuperOffice.Data.SoCommand
@@ -3003,7 +2436,6 @@ references:
   commentId: T:SuperOffice.Data.SoConnection
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.SoConnection.html
   name: SoConnection
   nameWithType: SoConnection
   fullName: SuperOffice.Data.SoConnection
@@ -3011,7 +2443,6 @@ references:
   commentId: T:SuperOffice.Data.SoDatabase
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.SoDatabase.html
   name: SoDatabase
   nameWithType: SoDatabase
   fullName: SuperOffice.Data.SoDatabase
@@ -3019,34 +2450,12 @@ references:
   commentId: T:SuperOffice.Data.SoDatabase.Version
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.SoDatabase.html
   name: SoDatabase.Version
   nameWithType: SoDatabase.Version
   fullName: SuperOffice.Data.SoDatabase.Version
-  spec.csharp:
-  - uid: SuperOffice.Data.SoDatabase
-    name: SoDatabase
-    isExternal: true
-    href: SuperOffice.Data.SoDatabase.html
-  - name: .
-  - uid: SuperOffice.Data.SoDatabase.Version
-    name: Version
-    isExternal: true
-    href: SuperOffice.Data.SoDatabase.Version.html
-  spec.vb:
-  - uid: SuperOffice.Data.SoDatabase
-    name: SoDatabase
-    isExternal: true
-    href: SuperOffice.Data.SoDatabase.html
-  - name: .
-  - uid: SuperOffice.Data.SoDatabase.Version
-    name: Version
-    isExternal: true
-    href: SuperOffice.Data.SoDatabase.Version.html
 - uid: SuperOffice.Data.SoDatabaseEnvironmentInfoPlugin
   commentId: T:SuperOffice.Data.SoDatabaseEnvironmentInfoPlugin
   isExternal: true
-  href: SuperOffice.Data.SoDatabaseEnvironmentInfoPlugin.html
   name: SoDatabaseEnvironmentInfoPlugin
   nameWithType: SoDatabaseEnvironmentInfoPlugin
   fullName: SuperOffice.Data.SoDatabaseEnvironmentInfoPlugin
@@ -3054,7 +2463,6 @@ references:
   commentId: T:SuperOffice.Data.ISoDataRecord
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ISoDataRecord.html
   name: ISoDataRecord
   nameWithType: ISoDataRecord
   fullName: SuperOffice.Data.ISoDataRecord
@@ -3062,7 +2470,6 @@ references:
   commentId: T:SuperOffice.Data.SoDataReader
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.SoDataReader.html
   name: SoDataReader
   nameWithType: SoDataReader
   fullName: SuperOffice.Data.SoDataReader
@@ -3070,7 +2477,6 @@ references:
   commentId: T:SuperOffice.Data.SoDuplicateChecker
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.SoDuplicateChecker.html
   name: SoDuplicateChecker
   nameWithType: SoDuplicateChecker
   fullName: SuperOffice.Data.SoDuplicateChecker
@@ -3078,7 +2484,6 @@ references:
   commentId: T:SuperOffice.Data.SoftTrigger
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.SoftTrigger.html
   name: SoftTrigger
   nameWithType: SoftTrigger
   fullName: SuperOffice.Data.SoftTrigger
@@ -3086,35 +2491,13 @@ references:
   commentId: T:SuperOffice.Data.SoftTrigger.OnChange
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.SoftTrigger.html
   name: SoftTrigger.OnChange
   nameWithType: SoftTrigger.OnChange
   fullName: SuperOffice.Data.SoftTrigger.OnChange
-  spec.csharp:
-  - uid: SuperOffice.Data.SoftTrigger
-    name: SoftTrigger
-    isExternal: true
-    href: SuperOffice.Data.SoftTrigger.html
-  - name: .
-  - uid: SuperOffice.Data.SoftTrigger.OnChange
-    name: OnChange
-    isExternal: true
-    href: SuperOffice.Data.SoftTrigger.OnChange.html
-  spec.vb:
-  - uid: SuperOffice.Data.SoftTrigger
-    name: SoftTrigger
-    isExternal: true
-    href: SuperOffice.Data.SoftTrigger.html
-  - name: .
-  - uid: SuperOffice.Data.SoftTrigger.OnChange
-    name: OnChange
-    isExternal: true
-    href: SuperOffice.Data.SoftTrigger.OnChange.html
 - uid: SuperOffice.Data.ISoftTriggerPlugin
   commentId: T:SuperOffice.Data.ISoftTriggerPlugin
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ISoftTriggerPlugin.html
   name: ISoftTriggerPlugin
   nameWithType: ISoftTriggerPlugin
   fullName: SuperOffice.Data.ISoftTriggerPlugin
@@ -3122,7 +2505,6 @@ references:
   commentId: T:SuperOffice.Data.SoftTriggerPluginAttribute
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.SoftTriggerPluginAttribute.html
   name: SoftTriggerPluginAttribute
   nameWithType: SoftTriggerPluginAttribute
   fullName: SuperOffice.Data.SoftTriggerPluginAttribute
@@ -3130,7 +2512,6 @@ references:
   commentId: T:SuperOffice.Data.ISoItem
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ISoItem.html
   name: ISoItem
   nameWithType: ISoItem
   fullName: SuperOffice.Data.ISoItem
@@ -3138,7 +2519,6 @@ references:
   commentId: T:SuperOffice.Data.ISoCollection
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ISoCollection.html
   name: ISoCollection
   nameWithType: ISoCollection
   fullName: SuperOffice.Data.ISoCollection
@@ -3146,14 +2526,12 @@ references:
   commentId: T:SuperOffice.Data.SoParameter
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.SoParameter.html
   name: SoParameter
   nameWithType: SoParameter
   fullName: SuperOffice.Data.SoParameter
 - uid: SuperOffice.Data.SoParameterCollection
   commentId: T:SuperOffice.Data.SoParameterCollection
   isExternal: true
-  href: SuperOffice.Data.SoParameterCollection.html
   name: SoParameterCollection
   nameWithType: SoParameterCollection
   fullName: SuperOffice.Data.SoParameterCollection
@@ -3161,14 +2539,12 @@ references:
   commentId: T:SuperOffice.Data.UserPreferenceCacheObject
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.UserPreferenceCacheObject.html
   name: UserPreferenceCacheObject
   nameWithType: UserPreferenceCacheObject
   fullName: SuperOffice.Data.UserPreferenceCacheObject
 - uid: SuperOffice.Data.SoPreference
   commentId: T:SuperOffice.Data.SoPreference
   isExternal: true
-  href: SuperOffice.Data.SoPreference.html
   name: SoPreference
   nameWithType: SoPreference
   fullName: SuperOffice.Data.SoPreference
@@ -3176,7 +2552,6 @@ references:
   commentId: T:SuperOffice.Data.SoSqlParameter
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.SoSqlParameter.html
   name: SoSqlParameter
   nameWithType: SoSqlParameter
   fullName: SuperOffice.Data.SoSqlParameter
@@ -3184,7 +2559,6 @@ references:
   commentId: T:SuperOffice.Data.SoTransaction
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.SoTransaction.html
   name: SoTransaction
   nameWithType: SoTransaction
   fullName: SuperOffice.Data.SoTransaction
@@ -3192,14 +2566,12 @@ references:
   commentId: T:SuperOffice.Data.ScopedSystemEvent
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ScopedSystemEvent.html
   name: ScopedSystemEvent
   nameWithType: ScopedSystemEvent
   fullName: SuperOffice.Data.ScopedSystemEvent
 - uid: SuperOffice.Data.SystemEventHelper
   commentId: T:SuperOffice.Data.SystemEventHelper
   isExternal: true
-  href: SuperOffice.Data.SystemEventHelper.html
   name: SystemEventHelper
   nameWithType: SystemEventHelper
   fullName: SuperOffice.Data.SystemEventHelper
@@ -3207,41 +2579,18 @@ references:
   commentId: T:SuperOffice.Data.SystemEventHelper.Scope
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.SystemEventHelper.html
   name: SystemEventHelper.Scope
   nameWithType: SystemEventHelper.Scope
   fullName: SuperOffice.Data.SystemEventHelper.Scope
-  spec.csharp:
-  - uid: SuperOffice.Data.SystemEventHelper
-    name: SystemEventHelper
-    isExternal: true
-    href: SuperOffice.Data.SystemEventHelper.html
-  - name: .
-  - uid: SuperOffice.Data.SystemEventHelper.Scope
-    name: Scope
-    isExternal: true
-    href: SuperOffice.Data.SystemEventHelper.Scope.html
-  spec.vb:
-  - uid: SuperOffice.Data.SystemEventHelper
-    name: SystemEventHelper
-    isExternal: true
-    href: SuperOffice.Data.SystemEventHelper.html
-  - name: .
-  - uid: SuperOffice.Data.SystemEventHelper.Scope
-    name: Scope
-    isExternal: true
-    href: SuperOffice.Data.SystemEventHelper.Scope.html
 - uid: SuperOffice.Data.UdefConvertHelper
   commentId: T:SuperOffice.Data.UdefConvertHelper
   isExternal: true
-  href: SuperOffice.Data.UdefConvertHelper.html
   name: UdefConvertHelper
   nameWithType: UdefConvertHelper
   fullName: SuperOffice.Data.UdefConvertHelper
 - uid: SuperOffice.Data.UdefHelper
   commentId: T:SuperOffice.Data.UdefHelper
   isExternal: true
-  href: SuperOffice.Data.UdefHelper.html
   name: UdefHelper
   nameWithType: UdefHelper
   fullName: SuperOffice.Data.UdefHelper
@@ -3249,34 +2598,12 @@ references:
   commentId: T:SuperOffice.Data.UdefHelper.UDefFieldDatabaseType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.UdefHelper.html
   name: UdefHelper.UDefFieldDatabaseType
   nameWithType: UdefHelper.UDefFieldDatabaseType
   fullName: SuperOffice.Data.UdefHelper.UDefFieldDatabaseType
-  spec.csharp:
-  - uid: SuperOffice.Data.UdefHelper
-    name: UdefHelper
-    isExternal: true
-    href: SuperOffice.Data.UdefHelper.html
-  - name: .
-  - uid: SuperOffice.Data.UdefHelper.UDefFieldDatabaseType
-    name: UDefFieldDatabaseType
-    isExternal: true
-    href: SuperOffice.Data.UdefHelper.UDefFieldDatabaseType.html
-  spec.vb:
-  - uid: SuperOffice.Data.UdefHelper
-    name: UdefHelper
-    isExternal: true
-    href: SuperOffice.Data.UdefHelper.html
-  - name: .
-  - uid: SuperOffice.Data.UdefHelper.UDefFieldDatabaseType
-    name: UDefFieldDatabaseType
-    isExternal: true
-    href: SuperOffice.Data.UdefHelper.UDefFieldDatabaseType.html
 - uid: SuperOffice.Data.UdefPublishHelper
   commentId: T:SuperOffice.Data.UdefPublishHelper
   isExternal: true
-  href: SuperOffice.Data.UdefPublishHelper.html
   name: UdefPublishHelper
   nameWithType: UdefPublishHelper
   fullName: SuperOffice.Data.UdefPublishHelper
@@ -3284,54 +2611,12 @@ references:
   commentId: T:SuperOffice.Data.UdefPublishHelper.IProgressHandler
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.UdefPublishHelper.html
   name: UdefPublishHelper.IProgressHandler
   nameWithType: UdefPublishHelper.IProgressHandler
   fullName: SuperOffice.Data.UdefPublishHelper.IProgressHandler
-  spec.csharp:
-  - uid: SuperOffice.Data.UdefPublishHelper
-    name: UdefPublishHelper
-    isExternal: true
-    href: SuperOffice.Data.UdefPublishHelper.html
-  - name: .
-  - uid: SuperOffice.Data.UdefPublishHelper.IProgressHandler
-    name: IProgressHandler
-    isExternal: true
-    href: SuperOffice.Data.UdefPublishHelper.IProgressHandler.html
-  spec.vb:
-  - uid: SuperOffice.Data.UdefPublishHelper
-    name: UdefPublishHelper
-    isExternal: true
-    href: SuperOffice.Data.UdefPublishHelper.html
-  - name: .
-  - uid: SuperOffice.Data.UdefPublishHelper.IProgressHandler
-    name: IProgressHandler
-    isExternal: true
-    href: SuperOffice.Data.UdefPublishHelper.IProgressHandler.html
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html

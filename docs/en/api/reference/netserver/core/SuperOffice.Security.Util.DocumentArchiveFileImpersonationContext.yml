@@ -15,39 +15,35 @@ items:
   nameWithType: DocumentArchiveFileImpersonationContext
   fullName: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext
   type: Class
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Security.Util
-  summary: Helper class for impersonation.
+  summary: "\nHelper class for impersonation.\n"
   example:
-  - >-
-    <pre><code class="lang-csharp">new DocumentArchiveFileImpersonationContext().Execute(() =&gt; {
-        // in here we are the correct user to access the document archive files, log folder etc
-        // do something as the configured Document Archive user (if not configured the original NetServer user will be used).
-    });
-
-    // we are now back to the original NetServer user</code></pre>
-
-    This way of impersonation is guaranteed to return to the original user, also
-
-    during exception handling - thereby avoiding a potential security hole.
+  - "\n<pre><code>new DocumentArchiveFileImpersonationContext().Execute(() => {\n    // in here we are the correct user to access the document archive files, log folder etc\n    // do something as the configured Document Archive user (if not configured the original NetServer user will be used).\n});\n// we are now back to the original NetServer user</code></pre>\nThis way of impersonation is guaranteed to return to the original user, also\nduring exception handling - thereby avoiding a potential security hole.\n"
   syntax:
-    content: public sealed class DocumentArchiveFileImpersonationContext
-    content.vb: Public NotInheritable Class DocumentArchiveFileImpersonationContext
+    content: 'public sealed class DocumentArchiveFileImpersonationContext : Object'
+    content.vb: >-
+      Public NotInheritable Class DocumentArchiveFileImpersonationContext
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
   extensionMethods:
   - SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.EnumUtil.MapEnums``2
-  - SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext)
   - SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
 - uid: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.Execute(System.Action)
   commentId: M:SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.Execute(System.Action)
   id: Execute(System.Action)
@@ -59,6 +55,9 @@ items:
   nameWithType: DocumentArchiveFileImpersonationContext.Execute(Action)
   fullName: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.Execute(System.Action)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Security.Util
@@ -69,6 +68,10 @@ items:
       type: System.Action
     content.vb: Public Sub Execute(action As Action)
   overload: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.Execute*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.Execute``1(System.Func{``0})
   commentId: M:SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.Execute``1(System.Func{``0})
   id: Execute``1(System.Func{``0})
@@ -80,6 +83,9 @@ items:
   nameWithType: DocumentArchiveFileImpersonationContext.Execute<T>(Func<T>)
   fullName: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.Execute<T>(System.Func<T>)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Security.Util
@@ -95,6 +101,10 @@ items:
     content.vb: Public Function Execute(Of T)(func As Func(Of T)) As T
   overload: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.Execute*
   nameWithType.vb: DocumentArchiveFileImpersonationContext.Execute(Of T)(Func(Of T))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
   fullName.vb: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.Execute(Of T)(System.Func(Of T))
   name.vb: Execute(Of T)(Func(Of T))
 - uid: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.#ctor
@@ -108,483 +118,189 @@ items:
   nameWithType: DocumentArchiveFileImpersonationContext.DocumentArchiveFileImpersonationContext()
   fullName: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.DocumentArchiveFileImpersonationContext()
   type: Constructor
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Security.Util
   syntax:
     content: public DocumentArchiveFileImpersonationContext()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.#ctor*
-  nameWithType.vb: DocumentArchiveFileImpersonationContext.New()
-  fullName.vb: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 references:
 - uid: SuperOffice.Security.Util
   commentId: N:SuperOffice.Security.Util
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Security.Util
   nameWithType: SuperOffice.Security.Util
   fullName: SuperOffice.Security.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Security
-    name: Security
-    isExternal: true
-    href: SuperOffice.Security.html
-  - name: .
-  - uid: SuperOffice.Security.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Security.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Security
-    name: Security
-    isExternal: true
-    href: SuperOffice.Security.html
-  - name: .
-  - uid: SuperOffice.Security.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Security.Util.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<DocumentArchiveFileImpersonationContext, To>(DocumentArchiveFileImpersonationContext)
-  nameWithType: EnumUtil.MapEnums<DocumentArchiveFileImpersonationContext, To>(DocumentArchiveFileImpersonationContext)
-  fullName: EnumUtil.MapEnums<SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext, To>(SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext)
-  nameWithType.vb: EnumUtil.MapEnums(Of DocumentArchiveFileImpersonationContext, To)(DocumentArchiveFileImpersonationContext)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext, To)(SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext)
-  name.vb: MapEnums(Of DocumentArchiveFileImpersonationContext, To)(DocumentArchiveFileImpersonationContext)
+  name: MapEnums<DocumentArchiveFileImpersonationContext, To>()
+  nameWithType: EnumUtil.MapEnums<DocumentArchiveFileImpersonationContext, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of DocumentArchiveFileImpersonationContext, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext, To)()
+  name.vb: MapEnums(Of DocumentArchiveFileImpersonationContext, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<DocumentArchiveFileImpersonationContext, To>
+    nameWithType: EnumUtil.MapEnums<DocumentArchiveFileImpersonationContext, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext
-    name: DocumentArchiveFileImpersonationContext
-    isExternal: true
-    href: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext
-    name: DocumentArchiveFileImpersonationContext
-    isExternal: true
-    href: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of DocumentArchiveFileImpersonationContext, To)
+    nameWithType: EnumUtil.MapEnums(Of DocumentArchiveFileImpersonationContext, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext
-    name: DocumentArchiveFileImpersonationContext
-    isExternal: true
-    href: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext
-    name: DocumentArchiveFileImpersonationContext
-    isExternal: true
-    href: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.html
-  - name: )
-- uid: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  parent: SuperOffice.ErpSync.ConnectorWS.Converters
-  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<DocumentArchiveFileImpersonationContext, To>(DocumentArchiveFileImpersonationContext)
-  nameWithType: Converters.MapEnums<DocumentArchiveFileImpersonationContext, To>(DocumentArchiveFileImpersonationContext)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext, To>(SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext)
-  nameWithType.vb: Converters.MapEnums(Of DocumentArchiveFileImpersonationContext, To)(DocumentArchiveFileImpersonationContext)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext, To)(SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext)
-  name.vb: MapEnums(Of DocumentArchiveFileImpersonationContext, To)(DocumentArchiveFileImpersonationContext)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext
-    name: DocumentArchiveFileImpersonationContext
-    isExternal: true
-    href: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext
-    name: DocumentArchiveFileImpersonationContext
-    isExternal: true
-    href: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext
-    name: DocumentArchiveFileImpersonationContext
-    isExternal: true
-    href: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext
-    name: DocumentArchiveFileImpersonationContext
-    isExternal: true
-    href: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<DocumentArchiveFileImpersonationContext>(DocumentArchiveFileImpersonationContext, DocumentArchiveFileImpersonationContext)
-  nameWithType: ObjectExtensions.AssignByReflection<DocumentArchiveFileImpersonationContext>(DocumentArchiveFileImpersonationContext, DocumentArchiveFileImpersonationContext)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext>(SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext, SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of DocumentArchiveFileImpersonationContext)(DocumentArchiveFileImpersonationContext, DocumentArchiveFileImpersonationContext)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext)(SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext, SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext)
-  name.vb: AssignByReflection(Of DocumentArchiveFileImpersonationContext)(DocumentArchiveFileImpersonationContext, DocumentArchiveFileImpersonationContext)
+  name: AssignByReflection<DocumentArchiveFileImpersonationContext>(DocumentArchiveFileImpersonationContext)
+  nameWithType: ObjectExtensions.AssignByReflection<DocumentArchiveFileImpersonationContext>(DocumentArchiveFileImpersonationContext)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext>(SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of DocumentArchiveFileImpersonationContext)(DocumentArchiveFileImpersonationContext)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext)(SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext)
+  name.vb: AssignByReflection(Of DocumentArchiveFileImpersonationContext)(DocumentArchiveFileImpersonationContext)
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext,SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<DocumentArchiveFileImpersonationContext>
+    nameWithType: ObjectExtensions.AssignByReflection<DocumentArchiveFileImpersonationContext>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext
-    name: DocumentArchiveFileImpersonationContext
-    isExternal: true
-    href: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.html
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext
     name: DocumentArchiveFileImpersonationContext
+    nameWithType: DocumentArchiveFileImpersonationContext
+    fullName: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext
     isExternal: true
-    href: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext
-    name: DocumentArchiveFileImpersonationContext
-    isExternal: true
-    href: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext,SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of DocumentArchiveFileImpersonationContext)
+    nameWithType: ObjectExtensions.AssignByReflection(Of DocumentArchiveFileImpersonationContext)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext
     name: DocumentArchiveFileImpersonationContext
+    nameWithType: DocumentArchiveFileImpersonationContext
+    fullName: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext
     isExternal: true
-    href: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.html
   - name: )
-  - name: (
-  - uid: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext
-    name: DocumentArchiveFileImpersonationContext
-    isExternal: true
-    href: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext
-    name: DocumentArchiveFileImpersonationContext
-    isExternal: true
-    href: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<DocumentArchiveFileImpersonationContext>(DocumentArchiveFileImpersonationContext)
-  nameWithType: ObjectExtensions.GraphCopy<DocumentArchiveFileImpersonationContext>(DocumentArchiveFileImpersonationContext)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext>(SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of DocumentArchiveFileImpersonationContext)(DocumentArchiveFileImpersonationContext)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext)(SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext)
-  name.vb: GraphCopy(Of DocumentArchiveFileImpersonationContext)(DocumentArchiveFileImpersonationContext)
+  name: GraphCopy<DocumentArchiveFileImpersonationContext>()
+  nameWithType: ObjectExtensions.GraphCopy<DocumentArchiveFileImpersonationContext>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of DocumentArchiveFileImpersonationContext)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext)()
+  name.vb: GraphCopy(Of DocumentArchiveFileImpersonationContext)()
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<DocumentArchiveFileImpersonationContext>
+    nameWithType: ObjectExtensions.GraphCopy<DocumentArchiveFileImpersonationContext>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext
-    name: DocumentArchiveFileImpersonationContext
-    isExternal: true
-    href: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.html
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext
-    name: DocumentArchiveFileImpersonationContext
-    isExternal: true
-    href: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of DocumentArchiveFileImpersonationContext)
+    nameWithType: ObjectExtensions.GraphCopy(Of DocumentArchiveFileImpersonationContext)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext
-    name: DocumentArchiveFileImpersonationContext
-    isExternal: true
-    href: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<DocumentArchiveFileImpersonationContext, To>()
+  nameWithType: Converters.MapEnums<DocumentArchiveFileImpersonationContext, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext, To>()
+  nameWithType.vb: Converters.MapEnums(Of DocumentArchiveFileImpersonationContext, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext, To)()
+  name.vb: MapEnums(Of DocumentArchiveFileImpersonationContext, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<DocumentArchiveFileImpersonationContext, To>
+    nameWithType: Converters.MapEnums<DocumentArchiveFileImpersonationContext, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext, To>
+    isExternal: true
   - name: (
-  - uid: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext
-    name: DocumentArchiveFileImpersonationContext
-    isExternal: true
-    href: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of DocumentArchiveFileImpersonationContext, To)
+    nameWithType: Converters.MapEnums(Of DocumentArchiveFileImpersonationContext, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -593,93 +309,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<From, To>(From)
-  nameWithType: Converters.MapEnums<From, To>(From)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
-  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
-  name.vb: MapEnums(Of From, To)(From)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - name: From
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - name: From
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters
-  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
-  parent: SuperOffice.ErpSync.ConnectorWS
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
-  name: Converters
-  nameWithType: Converters
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   name: AssignByReflection<T>(T, T)
   nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
   fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
@@ -688,46 +354,56 @@ references:
   name.vb: AssignByReflection(Of T)(T, T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
-  - name: ','
-  - name: " "
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.ObjectExtensions
   commentId: T:SuperOffice.Util.ObjectExtensions
   parent: SuperOffice.Util
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
   name: ObjectExtensions
   nameWithType: ObjectExtensions
   fullName: SuperOffice.Util.ObjectExtensions
 - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   name: GraphCopy<T>(T)
   nameWithType: ObjectExtensions.GraphCopy<T>(T)
   fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
@@ -736,112 +412,106 @@ references:
   name.vb: GraphCopy(Of T)(T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS
-  commentId: N:SuperOffice.ErpSync.ConnectorWS
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.ErpSync.ConnectorWS
-  nameWithType: SuperOffice.ErpSync.ConnectorWS
-  fullName: SuperOffice.ErpSync.ConnectorWS
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
 - uid: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.Execute*
   commentId: Overload:SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.Execute
   isExternal: true
-  href: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.html#SuperOffice_Security_Util_DocumentArchiveFileImpersonationContext_Execute_System_Action_
   name: Execute
   nameWithType: DocumentArchiveFileImpersonationContext.Execute
   fullName: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.Execute
 - uid: System.Action
-  commentId: T:System.Action
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.action
   name: Action
   nameWithType: Action
   fullName: System.Action
 - uid: System.Func{{T}}
-  commentId: T:System.Func{`0}
-  parent: System
+  commentId: '!:System.Func{`0}'
   definition: System.Func`1
-  href: https://learn.microsoft.com/dotnet/api/system.func-1
   name: Func<T>
   nameWithType: Func<T>
   fullName: System.Func<T>
@@ -851,21 +521,33 @@ references:
   spec.csharp:
   - uid: System.Func`1
     name: Func
+    nameWithType: Func
+    fullName: System.Func
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.func-1
   - name: <
+    nameWithType: <
+    fullName: <
   - name: T
+    nameWithType: T
+    fullName: T
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Func`1
     name: Func
+    nameWithType: Func
+    fullName: System.Func
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.func-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: '{T}'
   commentId: '!:T'
   definition: T
@@ -873,33 +555,43 @@ references:
   nameWithType: T
   fullName: T
 - uid: System.Func`1
-  commentId: T:System.Func`1
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.func-1
-  name: Func<TResult>
-  nameWithType: Func<TResult>
-  fullName: System.Func<TResult>
-  nameWithType.vb: Func(Of TResult)
-  fullName.vb: System.Func(Of TResult)
-  name.vb: Func(Of TResult)
+  name: Func<>
+  nameWithType: Func<>
+  fullName: System.Func<>
+  nameWithType.vb: Func(Of )
+  fullName.vb: System.Func(Of )
+  name.vb: Func(Of )
   spec.csharp:
   - uid: System.Func`1
     name: Func
+    nameWithType: Func
+    fullName: System.Func
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.func-1
   - name: <
-  - name: TResult
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Func`1
     name: Func
+    nameWithType: Func
+    fullName: System.Func
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.func-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TResult
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: T
   name: T
   nameWithType: T
@@ -907,10 +599,6 @@ references:
 - uid: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.#ctor*
   commentId: Overload:SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.#ctor
   isExternal: true
-  href: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.html#SuperOffice_Security_Util_DocumentArchiveFileImpersonationContext__ctor
   name: DocumentArchiveFileImpersonationContext
   nameWithType: DocumentArchiveFileImpersonationContext.DocumentArchiveFileImpersonationContext
   fullName: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.DocumentArchiveFileImpersonationContext
-  nameWithType.vb: DocumentArchiveFileImpersonationContext.New
-  fullName.vb: SuperOffice.Security.Util.DocumentArchiveFileImpersonationContext.New
-  name.vb: New

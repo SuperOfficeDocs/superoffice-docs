@@ -7,8 +7,8 @@ items:
   children:
   - SuperOffice.CRM.Lists.ListBase`2.#ctor
   - SuperOffice.CRM.Lists.ListBase`2.Contains(`1)
-  - SuperOffice.CRM.Lists.ListBase`2.CopyTo(System.Array,System.Int32)
   - SuperOffice.CRM.Lists.ListBase`2.CopyTo(`1[],System.Int32)
+  - SuperOffice.CRM.Lists.ListBase`2.CopyTo(System.Array,System.Int32)
   - SuperOffice.CRM.Lists.ListBase`2.Count
   - SuperOffice.CRM.Lists.ListBase`2.GetEnumerator
   - SuperOffice.CRM.Lists.ListBase`2.IndexOf(`1)
@@ -24,20 +24,22 @@ items:
   nameWithType: ListBase<TListSelect, TListItem>
   fullName: SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Lists
-  summary: >-
-    Listbase is the base-class for the different list-classes. Among other, it contains the array 
-
-    that keeps the lists elements.
-  example: []
+  summary: "\nListbase is the base-class for the different list-classes. Among other, it contains the array \nthat keeps the lists elements.\n"
   syntax:
-    content: 'public abstract class ListBase<TListSelect, TListItem> : IList, ICollection, IList<TListItem>, ICollection<TListItem>, IEnumerable<TListItem>, IEnumerable where TListSelect : SqlCommand where TListItem : ListItemBase<TListSelect>'
+    content: 'public abstract class ListBase<TListSelect, TListItem> : Object, IEnumerable, IEnumerable<TListItem>, IList, ICollection, IList<TListItem>, ICollection<TListItem> where TListSelect : SqlCommand where TListItem : ListItemBase<TListSelect>'
     typeParameters:
     - id: TListSelect
     - id: TListItem
-    content.vb: Public MustInherit Class ListBase(Of TListSelect As SqlCommand, TListItem As ListItemBase(Of TListSelect)) Implements IList, ICollection, IList(Of TListItem), ICollection(Of TListItem), IEnumerable(Of TListItem), IEnumerable
+    content.vb: >-
+      Public MustInherit Class ListBase(Of TListSelect As SqlCommand, TListItem As ListItemBase(Of TListSelect))
+          Inherits Object
+          Implements IEnumerable, IEnumerable(Of TListItem), IList, ICollection, IList(Of TListItem), ICollection(Of TListItem)
   inheritance:
   - System.Object
   derivedClasses:
@@ -52,24 +54,24 @@ items:
   - SuperOffice.CRM.Archives.SaleList
   - SuperOffice.CRM.Archives.UserList
   implements:
+  - System.Collections.IEnumerable
+  - System.Collections.Generic.IEnumerable{{TListItem}}
   - System.Collections.IList
   - System.Collections.ICollection
   - System.Collections.Generic.IList{{TListItem}}
   - System.Collections.Generic.ICollection{{TListItem}}
-  - System.Collections.Generic.IEnumerable{{TListItem}}
-  - System.Collections.IEnumerable
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Lists.ListBase`2.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Lists.ListBase`2.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   nameWithType.vb: ListBase(Of TListSelect, TListItem)
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
   fullName.vb: SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem)
   name.vb: ListBase(Of TListSelect, TListItem)
 - uid: SuperOffice.CRM.Lists.ListBase`2.CopyTo(System.Array,System.Int32)
@@ -79,15 +81,17 @@ items:
   langs:
   - csharp
   - vb
-  name: CopyTo(Array, int)
-  nameWithType: ListBase<TListSelect, TListItem>.CopyTo(Array, int)
-  fullName: SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>.CopyTo(System.Array, int)
+  name: CopyTo(Array, Int32)
+  nameWithType: ListBase<TListSelect, TListItem>.CopyTo(Array, Int32)
+  fullName: SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>.CopyTo(System.Array, System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Lists
-  summary: <xref href="System.Collections.ICollection.CopyTo(System.Array%2cSystem.Int32)" data-throw-if-not-resolved="false"></xref>
-  example: []
+  summary: "\n<xref href=\"System.Collections.ICollection.CopyTo(System.Array%2cSystem.Int32)\" data-throw-if-not-resolved=\"false\"></xref>\n"
   syntax:
     content: public void CopyTo(Array list, int index)
     parameters:
@@ -99,11 +103,12 @@ items:
       description: The array index
     content.vb: Public Sub CopyTo(list As Array, index As Integer)
   overload: SuperOffice.CRM.Lists.ListBase`2.CopyTo*
-  implements:
-  - System.Collections.ICollection.CopyTo(System.Array,System.Int32)
-  nameWithType.vb: ListBase(Of TListSelect, TListItem).CopyTo(Array, Integer)
-  fullName.vb: SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem).CopyTo(System.Array, Integer)
-  name.vb: CopyTo(Array, Integer)
+  nameWithType.vb: ListBase(Of TListSelect, TListItem).CopyTo(Array, Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem).CopyTo(System.Array, System.Int32)
 - uid: SuperOffice.CRM.Lists.ListBase`2.CopyTo(`1[],System.Int32)
   commentId: M:SuperOffice.CRM.Lists.ListBase`2.CopyTo(`1[],System.Int32)
   id: CopyTo(`1[],System.Int32)
@@ -111,14 +116,16 @@ items:
   langs:
   - csharp
   - vb
-  name: CopyTo(TListItem[], int)
-  nameWithType: ListBase<TListSelect, TListItem>.CopyTo(TListItem[], int)
-  fullName: SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>.CopyTo(TListItem[], int)
+  name: CopyTo(TListItem[], Int32)
+  nameWithType: ListBase<TListSelect, TListItem>.CopyTo(TListItem[], Int32)
+  fullName: SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>.CopyTo(TListItem[], System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Lists
-  example: []
   syntax:
     content: public void CopyTo(TListItem[] array, int arrayIndex)
     parameters:
@@ -128,11 +135,13 @@ items:
       type: System.Int32
     content.vb: Public Sub CopyTo(array As TListItem(), arrayIndex As Integer)
   overload: SuperOffice.CRM.Lists.ListBase`2.CopyTo*
-  implements:
-  - System.Collections.Generic.ICollection{{TListItem}}.CopyTo({TListItem}[],System.Int32)
-  nameWithType.vb: ListBase(Of TListSelect, TListItem).CopyTo(TListItem(), Integer)
-  fullName.vb: SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem).CopyTo(TListItem(), Integer)
-  name.vb: CopyTo(TListItem(), Integer)
+  nameWithType.vb: ListBase(Of TListSelect, TListItem).CopyTo(TListItem(), Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem).CopyTo(TListItem(), System.Int32)
+  name.vb: CopyTo(TListItem(), Int32)
 - uid: SuperOffice.CRM.Lists.ListBase`2.IndexOf(`1)
   commentId: M:SuperOffice.CRM.Lists.ListBase`2.IndexOf(`1)
   id: IndexOf(`1)
@@ -144,11 +153,13 @@ items:
   nameWithType: ListBase<TListSelect, TListItem>.IndexOf(TListItem)
   fullName: SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>.IndexOf(TListItem)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Lists
-  summary: Returns the object at the given index. Implemented in classes inheriting ListBase.
-  example: []
+  summary: "\nReturns the object at the given index. Implemented in classes inheriting ListBase. \n"
   syntax:
     content: public virtual int IndexOf(TListItem item)
     parameters:
@@ -160,9 +171,13 @@ items:
       description: The index of the object.
     content.vb: Public Overridable Function IndexOf(item As TListItem) As Integer
   overload: SuperOffice.CRM.Lists.ListBase`2.IndexOf*
-  implements:
-  - System.Collections.Generic.IList{{TListItem}}.IndexOf({TListItem})
   nameWithType.vb: ListBase(Of TListSelect, TListItem).IndexOf(TListItem)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
   fullName.vb: SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem).IndexOf(TListItem)
 - uid: SuperOffice.CRM.Lists.ListBase`2.Contains(`1)
   commentId: M:SuperOffice.CRM.Lists.ListBase`2.Contains(`1)
@@ -175,11 +190,13 @@ items:
   nameWithType: ListBase<TListSelect, TListItem>.Contains(TListItem)
   fullName: SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>.Contains(TListItem)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Lists
-  summary: Checks if the list contains the object or not. Implemented in classes inheriting ListBase.
-  example: []
+  summary: "\nChecks if the list contains the object or not. Implemented in classes inheriting ListBase. \n"
   syntax:
     content: public virtual bool Contains(TListItem item)
     parameters:
@@ -191,9 +208,13 @@ items:
       description: True if value is found in the Array; otherwise, False
     content.vb: Public Overridable Function Contains(item As TListItem) As Boolean
   overload: SuperOffice.CRM.Lists.ListBase`2.Contains*
-  implements:
-  - System.Collections.Generic.ICollection{{TListItem}}.Contains({TListItem})
   nameWithType.vb: ListBase(Of TListSelect, TListItem).Contains(TListItem)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
   fullName.vb: SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem).Contains(TListItem)
 - uid: SuperOffice.CRM.Lists.ListBase`2.#ctor
   commentId: M:SuperOffice.CRM.Lists.ListBase`2.#ctor
@@ -206,18 +227,23 @@ items:
   nameWithType: ListBase<TListSelect, TListItem>.ListBase()
   fullName: SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>.ListBase()
   type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Lists
-  summary: Default constructor
-  example: []
+  summary: "\nDefault constructor\n"
   syntax:
     content: public ListBase()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Lists.ListBase`2.#ctor*
-  nameWithType.vb: ListBase(Of TListSelect, TListItem).New()
-  fullName.vb: SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem).New()
-  name.vb: New()
+  nameWithType.vb: ListBase(Of TListSelect, TListItem).ListBase()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem).ListBase()
 - uid: SuperOffice.CRM.Lists.ListBase`2.OnLoad(`0,SuperOffice.Data.SoDataReader)
   commentId: M:SuperOffice.CRM.Lists.ListBase`2.OnLoad(`0,SuperOffice.Data.SoDataReader)
   id: OnLoad(`0,SuperOffice.Data.SoDataReader)
@@ -229,26 +255,30 @@ items:
   nameWithType: ListBase<TListSelect, TListItem>.OnLoad(TListSelect, SoDataReader)
   fullName: SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>.OnLoad(TListSelect, SuperOffice.Data.SoDataReader)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Lists
-  summary: >-
-    Responsible for reading each row with data from the SoDataReader and insert the object each row represents
-
-    into the class' collection.
-  example: []
+  summary: "\nResponsible for reading each row with data from the SoDataReader and insert the object each row represents\ninto the class&apos; collection. \n"
   syntax:
     content: protected virtual void OnLoad(TListSelect query, SoDataReader reader)
     parameters:
     - id: query
       type: '{TListSelect}'
-      description: ''
     - id: reader
       type: SuperOffice.Data.SoDataReader
       description: The reader which contains all data in the list.
     content.vb: Protected Overridable Sub OnLoad(query As TListSelect, reader As SoDataReader)
   overload: SuperOffice.CRM.Lists.ListBase`2.OnLoad*
   nameWithType.vb: ListBase(Of TListSelect, TListItem).OnLoad(TListSelect, SoDataReader)
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
   fullName.vb: SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem).OnLoad(TListSelect, SuperOffice.Data.SoDataReader)
 - uid: SuperOffice.CRM.Lists.ListBase`2.GetEnumerator
   commentId: M:SuperOffice.CRM.Lists.ListBase`2.GetEnumerator
@@ -261,21 +291,26 @@ items:
   nameWithType: ListBase<TListSelect, TListItem>.GetEnumerator()
   fullName: SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>.GetEnumerator()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Lists
-  summary: See MSDN-documentation for GetEnumerator.
-  example: []
+  summary: "\nSee MSDN-documentation for GetEnumerator.\n"
   syntax:
     content: public virtual IEnumerator GetEnumerator()
     return:
       type: System.Collections.IEnumerator
-      description: ''
-    content.vb: Public Overridable Function GetEnumerator() As IEnumerator
+    content.vb: Public Overridable Function GetEnumerator As IEnumerator
   overload: SuperOffice.CRM.Lists.ListBase`2.GetEnumerator*
-  implements:
-  - System.Collections.IEnumerable.GetEnumerator
   nameWithType.vb: ListBase(Of TListSelect, TListItem).GetEnumerator()
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
   fullName.vb: SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem).GetEnumerator()
 - uid: SuperOffice.CRM.Lists.ListBase`2.Item(System.Int32)
   commentId: P:SuperOffice.CRM.Lists.ListBase`2.Item(System.Int32)
@@ -284,15 +319,17 @@ items:
   langs:
   - csharp
   - vb
-  name: this[int]
-  nameWithType: ListBase<TListSelect, TListItem>.this[int]
-  fullName: SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>.this[int]
+  name: Item[Int32]
+  nameWithType: ListBase<TListSelect, TListItem>.Item[Int32]
+  fullName: SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>.Item[System.Int32]
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Lists
-  summary: Get the ListItemBase in the collection from the list.
-  example: []
+  summary: "\nGet the <see cref=\"!:ListItemBase\"></see> in the collection from the list.\n"
   syntax:
     content: public TListItem this[int index] { get; }
     parameters:
@@ -301,11 +338,17 @@ items:
       description: Index of the item in the list, where 0 is the first item.
     return:
       type: '{TListItem}'
-    content.vb: Public ReadOnly Default Property this[](index As Integer) As TListItem
+    content.vb: Public ReadOnly Property Item(index As Integer) As TListItem
   overload: SuperOffice.CRM.Lists.ListBase`2.Item*
-  nameWithType.vb: ListBase(Of TListSelect, TListItem).this[](Integer)
-  fullName.vb: SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem).this[](Integer)
-  name.vb: this[](Integer)
+  nameWithType.vb: ListBase(Of TListSelect, TListItem).Item(Int32)
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem).Item(System.Int32)
+  name.vb: Item(Int32)
 - uid: SuperOffice.CRM.Lists.ListBase`2.ListCollection
   commentId: P:SuperOffice.CRM.Lists.ListBase`2.ListCollection
   id: ListCollection
@@ -317,11 +360,13 @@ items:
   nameWithType: ListBase<TListSelect, TListItem>.ListCollection
   fullName: SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>.ListCollection
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Lists
-  summary: Set/Get property on collection.
-  example: []
+  summary: "\nSet/Get property on collection.\n"
   syntax:
     content: protected List<TListItem> ListCollection { get; set; }
     parameters: []
@@ -330,6 +375,12 @@ items:
     content.vb: Protected Property ListCollection As List(Of TListItem)
   overload: SuperOffice.CRM.Lists.ListBase`2.ListCollection*
   nameWithType.vb: ListBase(Of TListSelect, TListItem).ListCollection
+  modifiers.csharp:
+  - protected
+  - get
+  - set
+  modifiers.vb:
+  - Protected
   fullName.vb: SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem).ListCollection
 - uid: SuperOffice.CRM.Lists.ListBase`2.Count
   commentId: P:SuperOffice.CRM.Lists.ListBase`2.Count
@@ -342,11 +393,13 @@ items:
   nameWithType: ListBase<TListSelect, TListItem>.Count
   fullName: SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>.Count
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Lists
-  summary: Get the number of elements contained in the underlying collection.
-  example: []
+  summary: "\nGet the number of elements contained in the underlying collection.\n"
   syntax:
     content: public int Count { get; }
     parameters: []
@@ -354,10 +407,13 @@ items:
       type: System.Int32
     content.vb: Public ReadOnly Property Count As Integer
   overload: SuperOffice.CRM.Lists.ListBase`2.Count*
-  implements:
-  - System.Collections.ICollection.Count
-  - System.Collections.Generic.ICollection{{TListItem}}.Count
   nameWithType.vb: ListBase(Of TListSelect, TListItem).Count
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
   fullName.vb: SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem).Count
 - uid: SuperOffice.CRM.Lists.ListBase`2.IsFixedSize
   commentId: P:SuperOffice.CRM.Lists.ListBase`2.IsFixedSize
@@ -370,16 +426,13 @@ items:
   nameWithType: ListBase<TListSelect, TListItem>.IsFixedSize
   fullName: SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>.IsFixedSize
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Lists
-  summary: >-
-    A collection with a fixed size does not allow the addition or removal of elements after 
-
-    the collection is created, but it allows the modification of existing elements.
-
-    IsFixedSize will return true for lists inheriting ListBase.
-  example: []
+  summary: "\nA collection with a fixed size does not allow the addition or removal of elements after \nthe collection is created, but it allows the modification of existing elements.\nIsFixedSize will return true for lists inheriting ListBase.\n"
   syntax:
     content: public bool IsFixedSize { get; }
     parameters: []
@@ -387,9 +440,13 @@ items:
       type: System.Boolean
     content.vb: Public ReadOnly Property IsFixedSize As Boolean
   overload: SuperOffice.CRM.Lists.ListBase`2.IsFixedSize*
-  implements:
-  - System.Collections.IList.IsFixedSize
   nameWithType.vb: ListBase(Of TListSelect, TListItem).IsFixedSize
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
   fullName.vb: SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem).IsFixedSize
 - uid: SuperOffice.CRM.Lists.ListBase`2.IsReadOnly
   commentId: P:SuperOffice.CRM.Lists.ListBase`2.IsReadOnly
@@ -402,16 +459,13 @@ items:
   nameWithType: ListBase<TListSelect, TListItem>.IsReadOnly
   fullName: SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>.IsReadOnly
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Lists
-  summary: >-
-    A collection that is read-only does not allow the addition, removal, 
-
-    or modification of elements after the collection is created.
-
-    IsReadOnly will return true for lists inheriting ListBase.
-  example: []
+  summary: "\nA collection that is read-only does not allow the addition, removal, \nor modification of elements after the collection is created.\nIsReadOnly will return true for lists inheriting ListBase.\n"
   syntax:
     content: public bool IsReadOnly { get; }
     parameters: []
@@ -419,139 +473,36 @@ items:
       type: System.Boolean
     content.vb: Public ReadOnly Property IsReadOnly As Boolean
   overload: SuperOffice.CRM.Lists.ListBase`2.IsReadOnly*
-  implements:
-  - System.Collections.IList.IsReadOnly
-  - System.Collections.Generic.ICollection{{TListItem}}.IsReadOnly
   nameWithType.vb: ListBase(Of TListSelect, TListItem).IsReadOnly
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
   fullName.vb: SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem).IsReadOnly
 references:
 - uid: SuperOffice.CRM.Lists
   commentId: N:SuperOffice.CRM.Lists
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Lists
   nameWithType: SuperOffice.CRM.Lists
   fullName: SuperOffice.CRM.Lists
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Lists
-    name: Lists
-    isExternal: true
-    href: SuperOffice.CRM.Lists.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Lists
-    name: Lists
-    isExternal: true
-    href: SuperOffice.CRM.Lists.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Collections.IList
-  commentId: T:System.Collections.IList
-  parent: System.Collections
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Collections.IEnumerable
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.ilist
-  name: IList
-  nameWithType: IList
-  fullName: System.Collections.IList
-- uid: System.Collections.ICollection
-  commentId: T:System.Collections.ICollection
-  parent: System.Collections
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.icollection
-  name: ICollection
-  nameWithType: ICollection
-  fullName: System.Collections.ICollection
-- uid: System.Collections.Generic.IList{{TListItem}}
-  commentId: T:System.Collections.Generic.IList{`1}
-  parent: System.Collections.Generic
-  definition: System.Collections.Generic.IList`1
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
-  name: IList<TListItem>
-  nameWithType: IList<TListItem>
-  fullName: System.Collections.Generic.IList<TListItem>
-  nameWithType.vb: IList(Of TListItem)
-  fullName.vb: System.Collections.Generic.IList(Of TListItem)
-  name.vb: IList(Of TListItem)
-  spec.csharp:
-  - uid: System.Collections.Generic.IList`1
-    name: IList
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
-  - name: <
-  - name: TListItem
-  - name: '>'
-  spec.vb:
-  - uid: System.Collections.Generic.IList`1
-    name: IList
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TListItem
-  - name: )
-- uid: System.Collections.Generic.ICollection{{TListItem}}
-  commentId: T:System.Collections.Generic.ICollection{`1}
-  parent: System.Collections.Generic
-  definition: System.Collections.Generic.ICollection`1
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
-  name: ICollection<TListItem>
-  nameWithType: ICollection<TListItem>
-  fullName: System.Collections.Generic.ICollection<TListItem>
-  nameWithType.vb: ICollection(Of TListItem)
-  fullName.vb: System.Collections.Generic.ICollection(Of TListItem)
-  name.vb: ICollection(Of TListItem)
-  spec.csharp:
-  - uid: System.Collections.Generic.ICollection`1
-    name: ICollection
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
-  - name: <
-  - name: TListItem
-  - name: '>'
-  spec.vb:
-  - uid: System.Collections.Generic.ICollection`1
-    name: ICollection
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TListItem
-  - name: )
+  name: IEnumerable
+  nameWithType: IEnumerable
+  fullName: System.Collections.IEnumerable
 - uid: System.Collections.Generic.IEnumerable{{TListItem}}
-  commentId: T:System.Collections.Generic.IEnumerable{`1}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.IEnumerable{`1}'
   definition: System.Collections.Generic.IEnumerable`1
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   name: IEnumerable<TListItem>
   nameWithType: IEnumerable<TListItem>
   fullName: System.Collections.Generic.IEnumerable<TListItem>
@@ -561,569 +512,312 @@ references:
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
+    nameWithType: <
+    fullName: <
   - name: TListItem
+    nameWithType: TListItem
+    fullName: TListItem
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: TListItem
+    nameWithType: TListItem
+    fullName: TListItem
   - name: )
-- uid: System.Collections.IEnumerable
-  commentId: T:System.Collections.IEnumerable
-  parent: System.Collections
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.IList
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerable
-  name: IEnumerable
-  nameWithType: IEnumerable
-  fullName: System.Collections.IEnumerable
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
+  name: IList
+  nameWithType: IList
+  fullName: System.Collections.IList
+- uid: System.Collections.ICollection
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
+  name: ICollection
+  nameWithType: ICollection
+  fullName: System.Collections.ICollection
+- uid: System.Collections.Generic.IList{{TListItem}}
+  commentId: '!:System.Collections.Generic.IList{`1}'
+  definition: System.Collections.Generic.IList`1
+  name: IList<TListItem>
+  nameWithType: IList<TListItem>
+  fullName: System.Collections.Generic.IList<TListItem>
+  nameWithType.vb: IList(Of TListItem)
+  fullName.vb: System.Collections.Generic.IList(Of TListItem)
+  name.vb: IList(Of TListItem)
   spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TListItem
+    nameWithType: TListItem
+    fullName: TListItem
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TListItem
+    nameWithType: TListItem
+    fullName: TListItem
   - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.ICollection{{TListItem}}
+  commentId: '!:System.Collections.Generic.ICollection{`1}'
+  definition: System.Collections.Generic.ICollection`1
+  name: ICollection<TListItem>
+  nameWithType: ICollection<TListItem>
+  fullName: System.Collections.Generic.ICollection<TListItem>
+  nameWithType.vb: ICollection(Of TListItem)
+  fullName.vb: System.Collections.Generic.ICollection(Of TListItem)
+  name.vb: ICollection(Of TListItem)
   spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TListItem
+    nameWithType: TListItem
+    fullName: TListItem
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TListItem
+    nameWithType: TListItem
+    fullName: TListItem
   - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Lists.ListBase`2.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<ListBase<TListSelect, TListItem>, To>(ListBase<TListSelect, TListItem>)
-  nameWithType: EnumUtil.MapEnums<ListBase<TListSelect, TListItem>, To>(ListBase<TListSelect, TListItem>)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>, To>(SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>)
-  nameWithType.vb: EnumUtil.MapEnums(Of ListBase(Of TListSelect, TListItem), To)(ListBase(Of TListSelect, TListItem))
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem), To)(SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem))
-  name.vb: MapEnums(Of ListBase(Of TListSelect, TListItem), To)(ListBase(Of TListSelect, TListItem))
+  name: MapEnums<ListBase<TListSelect, TListItem>, To>()
+  nameWithType: EnumUtil.MapEnums<ListBase<TListSelect, TListItem>, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ListBase(Of TListSelect, TListItem), To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem), To)()
+  name.vb: MapEnums(Of ListBase(Of TListSelect, TListItem), To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Lists.ListBase{`0,`1})
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ListBase<TListSelect, TListItem>, To>
+    nameWithType: EnumUtil.MapEnums<ListBase<TListSelect, TListItem>, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Lists.ListBase`2
-    name: ListBase
-    isExternal: true
-    href: SuperOffice.CRM.Lists.ListBase-2.html
-  - name: <
-  - name: TListSelect
-  - name: ','
-  - name: " "
-  - name: TListItem
-  - name: '>'
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Lists.ListBase`2
-    name: ListBase
-    isExternal: true
-    href: SuperOffice.CRM.Lists.ListBase-2.html
-  - name: <
-  - name: TListSelect
-  - name: ','
-  - name: " "
-  - name: TListItem
-  - name: '>'
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Lists.ListBase{`0,`1})
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ListBase(Of TListSelect, TListItem), To)
+    nameWithType: EnumUtil.MapEnums(Of ListBase(Of TListSelect, TListItem), To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem), To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Lists.ListBase`2
-    name: ListBase
-    isExternal: true
-    href: SuperOffice.CRM.Lists.ListBase-2.html
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TListSelect
-  - name: ','
-  - name: " "
-  - name: TListItem
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Lists.ListBase`2
-    name: ListBase
-    isExternal: true
-    href: SuperOffice.CRM.Lists.ListBase-2.html
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TListSelect
-  - name: ','
-  - name: " "
-  - name: TListItem
-  - name: )
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Lists.ListBase`2.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<ListBase<TListSelect, TListItem>, To>(ListBase<TListSelect, TListItem>)
-  nameWithType: Converters.MapEnums<ListBase<TListSelect, TListItem>, To>(ListBase<TListSelect, TListItem>)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>, To>(SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>)
-  nameWithType.vb: Converters.MapEnums(Of ListBase(Of TListSelect, TListItem), To)(ListBase(Of TListSelect, TListItem))
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem), To)(SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem))
-  name.vb: MapEnums(Of ListBase(Of TListSelect, TListItem), To)(ListBase(Of TListSelect, TListItem))
+  name: MapEnums<ListBase<TListSelect, TListItem>, To>()
+  nameWithType: Converters.MapEnums<ListBase<TListSelect, TListItem>, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>, To>()
+  nameWithType.vb: Converters.MapEnums(Of ListBase(Of TListSelect, TListItem), To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem), To)()
+  name.vb: MapEnums(Of ListBase(Of TListSelect, TListItem), To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Lists.ListBase{`0,`1})
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ListBase<TListSelect, TListItem>, To>
+    nameWithType: Converters.MapEnums<ListBase<TListSelect, TListItem>, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Lists.ListBase`2
-    name: ListBase
-    isExternal: true
-    href: SuperOffice.CRM.Lists.ListBase-2.html
-  - name: <
-  - name: TListSelect
-  - name: ','
-  - name: " "
-  - name: TListItem
-  - name: '>'
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Lists.ListBase`2
-    name: ListBase
-    isExternal: true
-    href: SuperOffice.CRM.Lists.ListBase-2.html
-  - name: <
-  - name: TListSelect
-  - name: ','
-  - name: " "
-  - name: TListItem
-  - name: '>'
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Lists.ListBase{`0,`1})
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ListBase(Of TListSelect, TListItem), To)
+    nameWithType: Converters.MapEnums(Of ListBase(Of TListSelect, TListItem), To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem), To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Lists.ListBase`2
-    name: ListBase
-    isExternal: true
-    href: SuperOffice.CRM.Lists.ListBase-2.html
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TListSelect
-  - name: ','
-  - name: " "
-  - name: TListItem
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Lists.ListBase`2
-    name: ListBase
-    isExternal: true
-    href: SuperOffice.CRM.Lists.ListBase-2.html
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TListSelect
-  - name: ','
-  - name: " "
-  - name: TListItem
-  - name: )
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
-- uid: System.Collections
-  commentId: N:System.Collections
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Collections
-  nameWithType: System.Collections
-  fullName: System.Collections
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-- uid: System.Collections.Generic.IList`1
-  commentId: T:System.Collections.Generic.IList`1
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
-  name: IList<T>
-  nameWithType: IList<T>
-  fullName: System.Collections.Generic.IList<T>
-  nameWithType.vb: IList(Of T)
-  fullName.vb: System.Collections.Generic.IList(Of T)
-  name.vb: IList(Of T)
-  spec.csharp:
-  - uid: System.Collections.Generic.IList`1
-    name: IList
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
-  - name: <
-  - name: T
-  - name: '>'
-  spec.vb:
-  - uid: System.Collections.Generic.IList`1
-    name: IList
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
-- uid: System.Collections.Generic.ICollection`1
-  commentId: T:System.Collections.Generic.ICollection`1
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
-  name: ICollection<T>
-  nameWithType: ICollection<T>
-  fullName: System.Collections.Generic.ICollection<T>
-  nameWithType.vb: ICollection(Of T)
-  fullName.vb: System.Collections.Generic.ICollection(Of T)
-  name.vb: ICollection(Of T)
-  spec.csharp:
-  - uid: System.Collections.Generic.ICollection`1
-    name: ICollection
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
-  - name: <
-  - name: T
-  - name: '>'
-  spec.vb:
-  - uid: System.Collections.Generic.ICollection`1
-    name: ICollection
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
 - uid: System.Collections.Generic.IEnumerable`1
-  commentId: T:System.Collections.Generic.IEnumerable`1
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  name: IEnumerable<T>
-  nameWithType: IEnumerable<T>
-  fullName: System.Collections.Generic.IEnumerable<T>
-  nameWithType.vb: IEnumerable(Of T)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
-  name.vb: IEnumerable(Of T)
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
-  - name: T
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IList`1
+  isExternal: true
+  name: IList<>
+  nameWithType: IList<>
+  fullName: System.Collections.Generic.IList<>
+  nameWithType.vb: IList(Of )
+  fullName.vb: System.Collections.Generic.IList(Of )
+  name.vb: IList(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.ICollection`1
+  isExternal: true
+  name: ICollection<>
+  nameWithType: ICollection<>
+  fullName: System.Collections.Generic.ICollection<>
+  nameWithType.vb: ICollection(Of )
+  fullName.vb: System.Collections.Generic.ICollection(Of )
+  name.vb: ICollection(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -1132,45 +826,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -1179,138 +871,57 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-- uid: System.Collections.ICollection.CopyTo(System.Array,System.Int32)
-  commentId: M:System.Collections.ICollection.CopyTo(System.Array,System.Int32)
-  parent: System.Collections.ICollection
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.icollection.copyto
-  name: CopyTo(Array, int)
-  nameWithType: ICollection.CopyTo(Array, int)
-  fullName: System.Collections.ICollection.CopyTo(System.Array, int)
-  nameWithType.vb: ICollection.CopyTo(Array, Integer)
-  fullName.vb: System.Collections.ICollection.CopyTo(System.Array, Integer)
-  name.vb: CopyTo(Array, Integer)
-  spec.csharp:
-  - uid: System.Collections.ICollection.CopyTo(System.Array,System.Int32)
-    name: CopyTo
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.icollection.copyto
-  - name: (
-  - uid: System.Array
-    name: Array
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.array
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: )
-  spec.vb:
-  - uid: System.Collections.ICollection.CopyTo(System.Array,System.Int32)
-    name: CopyTo
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.icollection.copyto
-  - name: (
-  - uid: System.Array
-    name: Array
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.array
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: )
 - uid: SuperOffice.CRM.Lists.ListBase`2.CopyTo*
   commentId: Overload:SuperOffice.CRM.Lists.ListBase`2.CopyTo
   isExternal: true
-  href: SuperOffice.CRM.Lists.ListBase-2.html#SuperOffice_CRM_Lists_ListBase_2_CopyTo_System_Array_System_Int32_
   name: CopyTo
   nameWithType: ListBase<TListSelect, TListItem>.CopyTo
   fullName: SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>.CopyTo
   nameWithType.vb: ListBase(Of TListSelect, TListItem).CopyTo
   fullName.vb: SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem).CopyTo
 - uid: System.Array
-  commentId: T:System.Array
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.array
   name: Array
   nameWithType: Array
   fullName: System.Array
@@ -1318,56 +929,9 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
-- uid: System.Collections.Generic.ICollection{{TListItem}}.CopyTo({TListItem}[],System.Int32)
-  commentId: M:System.Collections.Generic.ICollection{`1}.CopyTo(`1[],System.Int32)
-  parent: System.Collections.Generic.ICollection{{TListItem}}
-  definition: System.Collections.Generic.ICollection`1.CopyTo(`0[],System.Int32)
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.copyto
-  name: CopyTo(TListItem[], int)
-  nameWithType: ICollection<TListItem>.CopyTo(TListItem[], int)
-  fullName: System.Collections.Generic.ICollection<TListItem>.CopyTo(TListItem[], int)
-  nameWithType.vb: ICollection(Of TListItem).CopyTo(TListItem(), Integer)
-  fullName.vb: System.Collections.Generic.ICollection(Of TListItem).CopyTo(TListItem(), Integer)
-  name.vb: CopyTo(TListItem(), Integer)
-  spec.csharp:
-  - uid: System.Collections.Generic.ICollection{`1}.CopyTo(`1[],System.Int32)
-    name: CopyTo
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.copyto
-  - name: (
-  - name: TListItem
-  - name: '['
-  - name: ']'
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: )
-  spec.vb:
-  - uid: System.Collections.Generic.ICollection{`1}.CopyTo(`1[],System.Int32)
-    name: CopyTo
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.copyto
-  - name: (
-  - name: TListItem
-  - name: (
-  - name: )
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: )
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: '{TListItem}[]'
   isExternal: true
   name: TListItem[]
@@ -1378,120 +942,32 @@ references:
   name.vb: TListItem()
   spec.csharp:
   - name: TListItem
-  - name: '['
-  - name: ']'
+    nameWithType: TListItem
+    fullName: TListItem
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - name: TListItem
-  - name: (
-  - name: )
-- uid: System.Collections.Generic.ICollection`1.CopyTo(`0[],System.Int32)
-  commentId: M:System.Collections.Generic.ICollection`1.CopyTo(`0[],System.Int32)
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.copyto
-  name: CopyTo(T[], int)
-  nameWithType: ICollection<T>.CopyTo(T[], int)
-  fullName: System.Collections.Generic.ICollection<T>.CopyTo(T[], int)
-  nameWithType.vb: ICollection(Of T).CopyTo(T(), Integer)
-  fullName.vb: System.Collections.Generic.ICollection(Of T).CopyTo(T(), Integer)
-  name.vb: CopyTo(T(), Integer)
-  spec.csharp:
-  - uid: System.Collections.Generic.ICollection`1.CopyTo(`0[],System.Int32)
-    name: CopyTo
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.copyto
-  - name: (
-  - name: T
-  - name: '['
-  - name: ']'
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: )
-  spec.vb:
-  - uid: System.Collections.Generic.ICollection`1.CopyTo(`0[],System.Int32)
-    name: CopyTo
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.copyto
-  - name: (
-  - name: T
-  - name: (
-  - name: )
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: )
+    nameWithType: TListItem
+    fullName: TListItem
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Lists.ListBase`2.IndexOf*
   commentId: Overload:SuperOffice.CRM.Lists.ListBase`2.IndexOf
   isExternal: true
-  href: SuperOffice.CRM.Lists.ListBase-2.html#SuperOffice_CRM_Lists_ListBase_2_IndexOf__1_
   name: IndexOf
   nameWithType: ListBase<TListSelect, TListItem>.IndexOf
   fullName: SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>.IndexOf
   nameWithType.vb: ListBase(Of TListSelect, TListItem).IndexOf
   fullName.vb: SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem).IndexOf
-- uid: System.Collections.Generic.IList{{TListItem}}.IndexOf({TListItem})
-  commentId: M:System.Collections.Generic.IList{`1}.IndexOf(`1)
-  parent: System.Collections.Generic.IList{{TListItem}}
-  definition: System.Collections.Generic.IList`1.IndexOf(`0)
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1.indexof
-  name: IndexOf(TListItem)
-  nameWithType: IList<TListItem>.IndexOf(TListItem)
-  fullName: System.Collections.Generic.IList<TListItem>.IndexOf(TListItem)
-  nameWithType.vb: IList(Of TListItem).IndexOf(TListItem)
-  fullName.vb: System.Collections.Generic.IList(Of TListItem).IndexOf(TListItem)
-  spec.csharp:
-  - uid: System.Collections.Generic.IList{`1}.IndexOf(`1)
-    name: IndexOf
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1.indexof
-  - name: (
-  - name: TListItem
-  - name: )
-  spec.vb:
-  - uid: System.Collections.Generic.IList{`1}.IndexOf(`1)
-    name: IndexOf
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1.indexof
-  - name: (
-  - name: TListItem
-  - name: )
 - uid: '{TListItem}'
   commentId: '!:TListItem'
   definition: TListItem
   name: TListItem
   nameWithType: TListItem
   fullName: TListItem
-- uid: System.Collections.Generic.IList`1.IndexOf(`0)
-  commentId: M:System.Collections.Generic.IList`1.IndexOf(`0)
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1.indexof
-  name: IndexOf(T)
-  nameWithType: IList<T>.IndexOf(T)
-  fullName: System.Collections.Generic.IList<T>.IndexOf(T)
-  nameWithType.vb: IList(Of T).IndexOf(T)
-  fullName.vb: System.Collections.Generic.IList(Of T).IndexOf(T)
-  spec.csharp:
-  - uid: System.Collections.Generic.IList`1.IndexOf(`0)
-    name: IndexOf
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1.indexof
-  - name: (
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: System.Collections.Generic.IList`1.IndexOf(`0)
-    name: IndexOf
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1.indexof
-  - name: (
-  - name: T
-  - name: )
 - uid: TListItem
   name: TListItem
   nameWithType: TListItem
@@ -1499,88 +975,29 @@ references:
 - uid: SuperOffice.CRM.Lists.ListBase`2.Contains*
   commentId: Overload:SuperOffice.CRM.Lists.ListBase`2.Contains
   isExternal: true
-  href: SuperOffice.CRM.Lists.ListBase-2.html#SuperOffice_CRM_Lists_ListBase_2_Contains__1_
   name: Contains
   nameWithType: ListBase<TListSelect, TListItem>.Contains
   fullName: SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>.Contains
   nameWithType.vb: ListBase(Of TListSelect, TListItem).Contains
   fullName.vb: SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem).Contains
-- uid: System.Collections.Generic.ICollection{{TListItem}}.Contains({TListItem})
-  commentId: M:System.Collections.Generic.ICollection{`1}.Contains(`1)
-  parent: System.Collections.Generic.ICollection{{TListItem}}
-  definition: System.Collections.Generic.ICollection`1.Contains(`0)
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.contains
-  name: Contains(TListItem)
-  nameWithType: ICollection<TListItem>.Contains(TListItem)
-  fullName: System.Collections.Generic.ICollection<TListItem>.Contains(TListItem)
-  nameWithType.vb: ICollection(Of TListItem).Contains(TListItem)
-  fullName.vb: System.Collections.Generic.ICollection(Of TListItem).Contains(TListItem)
-  spec.csharp:
-  - uid: System.Collections.Generic.ICollection{`1}.Contains(`1)
-    name: Contains
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.contains
-  - name: (
-  - name: TListItem
-  - name: )
-  spec.vb:
-  - uid: System.Collections.Generic.ICollection{`1}.Contains(`1)
-    name: Contains
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.contains
-  - name: (
-  - name: TListItem
-  - name: )
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
-- uid: System.Collections.Generic.ICollection`1.Contains(`0)
-  commentId: M:System.Collections.Generic.ICollection`1.Contains(`0)
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.contains
-  name: Contains(T)
-  nameWithType: ICollection<T>.Contains(T)
-  fullName: System.Collections.Generic.ICollection<T>.Contains(T)
-  nameWithType.vb: ICollection(Of T).Contains(T)
-  fullName.vb: System.Collections.Generic.ICollection(Of T).Contains(T)
-  spec.csharp:
-  - uid: System.Collections.Generic.ICollection`1.Contains(`0)
-    name: Contains
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.contains
-  - name: (
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: System.Collections.Generic.ICollection`1.Contains(`0)
-    name: Contains
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.contains
-  - name: (
-  - name: T
-  - name: )
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.CRM.Lists.ListBase`2.#ctor*
   commentId: Overload:SuperOffice.CRM.Lists.ListBase`2.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Lists.ListBase-2.html#SuperOffice_CRM_Lists_ListBase_2__ctor
   name: ListBase
   nameWithType: ListBase<TListSelect, TListItem>.ListBase
   fullName: SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>.ListBase
-  nameWithType.vb: ListBase(Of TListSelect, TListItem).New
-  fullName.vb: SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem).New
-  name.vb: New
+  nameWithType.vb: ListBase(Of TListSelect, TListItem).ListBase
+  fullName.vb: SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem).ListBase
 - uid: SuperOffice.CRM.Lists.ListBase`2.OnLoad*
   commentId: Overload:SuperOffice.CRM.Lists.ListBase`2.OnLoad
   isExternal: true
-  href: SuperOffice.CRM.Lists.ListBase-2.html#SuperOffice_CRM_Lists_ListBase_2_OnLoad__0_SuperOffice_Data_SoDataReader_
   name: OnLoad
   nameWithType: ListBase<TListSelect, TListItem>.OnLoad
   fullName: SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>.OnLoad
@@ -1596,7 +1013,6 @@ references:
   commentId: T:SuperOffice.Data.SoDataReader
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.SoDataReader.html
   name: SoDataReader
   nameWithType: SoDataReader
   fullName: SuperOffice.Data.SoDataReader
@@ -1607,93 +1023,41 @@ references:
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
 - uid: SuperOffice.CRM.Lists.ListBase`2.GetEnumerator*
   commentId: Overload:SuperOffice.CRM.Lists.ListBase`2.GetEnumerator
   isExternal: true
-  href: SuperOffice.CRM.Lists.ListBase-2.html#SuperOffice_CRM_Lists_ListBase_2_GetEnumerator
   name: GetEnumerator
   nameWithType: ListBase<TListSelect, TListItem>.GetEnumerator
   fullName: SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>.GetEnumerator
   nameWithType.vb: ListBase(Of TListSelect, TListItem).GetEnumerator
   fullName.vb: SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem).GetEnumerator
-- uid: System.Collections.IEnumerable.GetEnumerator
-  commentId: M:System.Collections.IEnumerable.GetEnumerator
-  parent: System.Collections.IEnumerable
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerable.getenumerator
-  name: GetEnumerator()
-  nameWithType: IEnumerable.GetEnumerator()
-  fullName: System.Collections.IEnumerable.GetEnumerator()
-  spec.csharp:
-  - uid: System.Collections.IEnumerable.GetEnumerator
-    name: GetEnumerator
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerable.getenumerator
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Collections.IEnumerable.GetEnumerator
-    name: GetEnumerator
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerable.getenumerator
-  - name: (
-  - name: )
 - uid: System.Collections.IEnumerator
-  commentId: T:System.Collections.IEnumerator
-  parent: System.Collections
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerator
   name: IEnumerator
   nameWithType: IEnumerator
   fullName: System.Collections.IEnumerator
 - uid: SuperOffice.CRM.Lists.ListBase`2.Item*
   commentId: Overload:SuperOffice.CRM.Lists.ListBase`2.Item
   isExternal: true
-  href: SuperOffice.CRM.Lists.ListBase-2.html#SuperOffice_CRM_Lists_ListBase_2_Item_System_Int32_
-  name: this
-  nameWithType: ListBase<TListSelect, TListItem>.this
-  fullName: SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>.this
-  nameWithType.vb: ListBase(Of TListSelect, TListItem).this[]
-  fullName.vb: SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem).this[]
-  name.vb: this[]
+  name: Item
+  nameWithType: ListBase<TListSelect, TListItem>.Item
+  fullName: SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>.Item
+  nameWithType.vb: ListBase(Of TListSelect, TListItem).Item
+  fullName.vb: SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem).Item
 - uid: SuperOffice.CRM.Lists.ListBase`2.ListCollection*
   commentId: Overload:SuperOffice.CRM.Lists.ListBase`2.ListCollection
   isExternal: true
-  href: SuperOffice.CRM.Lists.ListBase-2.html#SuperOffice_CRM_Lists_ListBase_2_ListCollection
   name: ListCollection
   nameWithType: ListBase<TListSelect, TListItem>.ListCollection
   fullName: SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>.ListCollection
   nameWithType.vb: ListBase(Of TListSelect, TListItem).ListCollection
   fullName.vb: SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem).ListCollection
 - uid: System.Collections.Generic.List{{TListItem}}
-  commentId: T:System.Collections.Generic.List{`1}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.List{`1}'
   definition: System.Collections.Generic.List`1
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   name: List<TListItem>
   nameWithType: List<TListItem>
   fullName: System.Collections.Generic.List<TListItem>
@@ -1703,135 +1067,92 @@ references:
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: <
+    nameWithType: <
+    fullName: <
   - name: TListItem
+    nameWithType: TListItem
+    fullName: TListItem
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.List`1
     name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: TListItem
+    nameWithType: TListItem
+    fullName: TListItem
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Collections.Generic.List`1
-  commentId: T:System.Collections.Generic.List`1
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
-  name: List<T>
-  nameWithType: List<T>
-  fullName: System.Collections.Generic.List<T>
-  nameWithType.vb: List(Of T)
-  fullName.vb: System.Collections.Generic.List(Of T)
-  name.vb: List(Of T)
+  name: List<>
+  nameWithType: List<>
+  fullName: System.Collections.Generic.List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: System.Collections.Generic.List(Of )
+  name.vb: List(Of )
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: <
-  - name: T
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.List`1
     name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Lists.ListBase`2.Count*
   commentId: Overload:SuperOffice.CRM.Lists.ListBase`2.Count
   isExternal: true
-  href: SuperOffice.CRM.Lists.ListBase-2.html#SuperOffice_CRM_Lists_ListBase_2_Count
   name: Count
   nameWithType: ListBase<TListSelect, TListItem>.Count
   fullName: SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>.Count
   nameWithType.vb: ListBase(Of TListSelect, TListItem).Count
   fullName.vb: SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem).Count
-- uid: System.Collections.ICollection.Count
-  commentId: P:System.Collections.ICollection.Count
-  parent: System.Collections.ICollection
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.icollection.count
-  name: Count
-  nameWithType: ICollection.Count
-  fullName: System.Collections.ICollection.Count
-- uid: System.Collections.Generic.ICollection{{TListItem}}.Count
-  commentId: P:System.Collections.Generic.ICollection{`1}.Count
-  parent: System.Collections.Generic.ICollection{{TListItem}}
-  definition: System.Collections.Generic.ICollection`1.Count
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.count
-  name: Count
-  nameWithType: ICollection<TListItem>.Count
-  fullName: System.Collections.Generic.ICollection<TListItem>.Count
-  nameWithType.vb: ICollection(Of TListItem).Count
-  fullName.vb: System.Collections.Generic.ICollection(Of TListItem).Count
-- uid: System.Collections.Generic.ICollection`1.Count
-  commentId: P:System.Collections.Generic.ICollection`1.Count
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.count
-  name: Count
-  nameWithType: ICollection<T>.Count
-  fullName: System.Collections.Generic.ICollection<T>.Count
-  nameWithType.vb: ICollection(Of T).Count
-  fullName.vb: System.Collections.Generic.ICollection(Of T).Count
 - uid: SuperOffice.CRM.Lists.ListBase`2.IsFixedSize*
   commentId: Overload:SuperOffice.CRM.Lists.ListBase`2.IsFixedSize
   isExternal: true
-  href: SuperOffice.CRM.Lists.ListBase-2.html#SuperOffice_CRM_Lists_ListBase_2_IsFixedSize
   name: IsFixedSize
   nameWithType: ListBase<TListSelect, TListItem>.IsFixedSize
   fullName: SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>.IsFixedSize
   nameWithType.vb: ListBase(Of TListSelect, TListItem).IsFixedSize
   fullName.vb: SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem).IsFixedSize
-- uid: System.Collections.IList.IsFixedSize
-  commentId: P:System.Collections.IList.IsFixedSize
-  parent: System.Collections.IList
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.ilist.isfixedsize
-  name: IsFixedSize
-  nameWithType: IList.IsFixedSize
-  fullName: System.Collections.IList.IsFixedSize
 - uid: SuperOffice.CRM.Lists.ListBase`2.IsReadOnly*
   commentId: Overload:SuperOffice.CRM.Lists.ListBase`2.IsReadOnly
   isExternal: true
-  href: SuperOffice.CRM.Lists.ListBase-2.html#SuperOffice_CRM_Lists_ListBase_2_IsReadOnly
   name: IsReadOnly
   nameWithType: ListBase<TListSelect, TListItem>.IsReadOnly
   fullName: SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>.IsReadOnly
   nameWithType.vb: ListBase(Of TListSelect, TListItem).IsReadOnly
   fullName.vb: SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem).IsReadOnly
-- uid: System.Collections.IList.IsReadOnly
-  commentId: P:System.Collections.IList.IsReadOnly
-  parent: System.Collections.IList
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.ilist.isreadonly
-  name: IsReadOnly
-  nameWithType: IList.IsReadOnly
-  fullName: System.Collections.IList.IsReadOnly
-- uid: System.Collections.Generic.ICollection{{TListItem}}.IsReadOnly
-  commentId: P:System.Collections.Generic.ICollection{`1}.IsReadOnly
-  parent: System.Collections.Generic.ICollection{{TListItem}}
-  definition: System.Collections.Generic.ICollection`1.IsReadOnly
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.isreadonly
-  name: IsReadOnly
-  nameWithType: ICollection<TListItem>.IsReadOnly
-  fullName: System.Collections.Generic.ICollection<TListItem>.IsReadOnly
-  nameWithType.vb: ICollection(Of TListItem).IsReadOnly
-  fullName.vb: System.Collections.Generic.ICollection(Of TListItem).IsReadOnly
-- uid: System.Collections.Generic.ICollection`1.IsReadOnly
-  commentId: P:System.Collections.Generic.ICollection`1.IsReadOnly
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1.isreadonly
-  name: IsReadOnly
-  nameWithType: ICollection<T>.IsReadOnly
-  fullName: System.Collections.Generic.ICollection<T>.IsReadOnly
-  nameWithType.vb: ICollection(Of T).IsReadOnly
-  fullName.vb: System.Collections.Generic.ICollection(Of T).IsReadOnly

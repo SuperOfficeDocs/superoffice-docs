@@ -19,31 +19,34 @@ items:
   nameWithType: CustomerServiceUrlResolver
   fullName: SuperOffice.CRM.CustomerServiceUrlResolver
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
-  summary: Base implementation of plugin, returning configuration from database.
-  example: []
+  summary: "\nBase implementation of plugin, returning configuration from database.\n"
   syntax:
-    content: 'public class CustomerServiceUrlResolver : ICustomerServiceUrlResolver'
-    content.vb: Public Class CustomerServiceUrlResolver Implements ICustomerServiceUrlResolver
+    content: 'public class CustomerServiceUrlResolver : Object, ICustomerServiceUrlResolver'
+    content.vb: >-
+      Public Class CustomerServiceUrlResolver
+          Inherits Object
+          Implements ICustomerServiceUrlResolver
   inheritance:
   - System.Object
   implements:
   - SuperOffice.CRM.ICustomerServiceUrlResolver
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.CustomerServiceUrlResolver.EnumUtil.MapEnums``2
-  - SuperOffice.CRM.CustomerServiceUrlResolver.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.CRM.CustomerServiceUrlResolver.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.CustomerServiceUrlResolver)
   - SuperOffice.CRM.CustomerServiceUrlResolver.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.CustomerServiceUrlResolver.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.CustomerServiceUrlResolver.GetCgiUrlInternal
   commentId: M:SuperOffice.CRM.CustomerServiceUrlResolver.GetCgiUrlInternal
   id: GetCgiUrlInternal
@@ -55,20 +58,27 @@ items:
   nameWithType: CustomerServiceUrlResolver.GetCgiUrlInternal()
   fullName: SuperOffice.CRM.CustomerServiceUrlResolver.GetCgiUrlInternal()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
-  summary: ''
-  example: []
+  summary: "\n\n"
   syntax:
     content: public virtual string GetCgiUrlInternal()
     return:
       type: System.String
-      description: ''
-    content.vb: Public Overridable Function GetCgiUrlInternal() As String
+    content.vb: Public Overridable Function GetCgiUrlInternal As String
   overload: SuperOffice.CRM.CustomerServiceUrlResolver.GetCgiUrlInternal*
   implements:
   - SuperOffice.CRM.ICustomerServiceUrlResolver.GetCgiUrlInternal
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.CustomerServiceUrlResolver.GetCgiUrlExternal
   commentId: M:SuperOffice.CRM.CustomerServiceUrlResolver.GetCgiUrlExternal
   id: GetCgiUrlExternal
@@ -80,20 +90,28 @@ items:
   nameWithType: CustomerServiceUrlResolver.GetCgiUrlExternal()
   fullName: SuperOffice.CRM.CustomerServiceUrlResolver.GetCgiUrlExternal()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
-  summary: ''
-  example: []
+  summary: "\n\n"
   syntax:
     content: public virtual string GetCgiUrlExternal()
     return:
       type: System.String
       description: The external URL for CS (normally used for the Customer Centre)
-    content.vb: Public Overridable Function GetCgiUrlExternal() As String
+    content.vb: Public Overridable Function GetCgiUrlExternal As String
   overload: SuperOffice.CRM.CustomerServiceUrlResolver.GetCgiUrlExternal*
   implements:
   - SuperOffice.CRM.ICustomerServiceUrlResolver.GetCgiUrlExternal
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.CustomerServiceUrlResolver.GetCgiUrlDirect
   commentId: M:SuperOffice.CRM.CustomerServiceUrlResolver.GetCgiUrlDirect
   id: GetCgiUrlDirect
@@ -105,20 +123,26 @@ items:
   nameWithType: CustomerServiceUrlResolver.GetCgiUrlDirect()
   fullName: SuperOffice.CRM.CustomerServiceUrlResolver.GetCgiUrlDirect()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
-  summary: ''
-  example: []
   syntax:
     content: public virtual string GetCgiUrlDirect()
     return:
       type: System.String
-      description: ''
-    content.vb: Public Overridable Function GetCgiUrlDirect() As String
+    content.vb: Public Overridable Function GetCgiUrlDirect As String
   overload: SuperOffice.CRM.CustomerServiceUrlResolver.GetCgiUrlDirect*
   implements:
   - SuperOffice.CRM.ICustomerServiceUrlResolver.GetCgiUrlDirect
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.CustomerServiceUrlResolver.GetCgiBin
   commentId: M:SuperOffice.CRM.CustomerServiceUrlResolver.GetCgiBin
   id: GetCgiBin
@@ -130,20 +154,27 @@ items:
   nameWithType: CustomerServiceUrlResolver.GetCgiBin()
   fullName: SuperOffice.CRM.CustomerServiceUrlResolver.GetCgiBin()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
-  summary: ''
-  example: []
+  summary: "\n\n"
   syntax:
     content: public virtual string GetCgiBin()
     return:
       type: System.String
-      description: ''
-    content.vb: Public Overridable Function GetCgiBin() As String
+    content.vb: Public Overridable Function GetCgiBin As String
   overload: SuperOffice.CRM.CustomerServiceUrlResolver.GetCgiBin*
   implements:
   - SuperOffice.CRM.ICustomerServiceUrlResolver.GetCgiBin
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.CustomerServiceUrlResolver.GetRegistryExtension
   commentId: M:SuperOffice.CRM.CustomerServiceUrlResolver.GetRegistryExtension
   id: GetRegistryExtension
@@ -155,20 +186,27 @@ items:
   nameWithType: CustomerServiceUrlResolver.GetRegistryExtension()
   fullName: SuperOffice.CRM.CustomerServiceUrlResolver.GetRegistryExtension()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
-  summary: ''
-  example: []
+  summary: "\n\n"
   syntax:
     content: public virtual string GetRegistryExtension()
     return:
       type: System.String
-      description: ''
-    content.vb: Public Overridable Function GetRegistryExtension() As String
+    content.vb: Public Overridable Function GetRegistryExtension As String
   overload: SuperOffice.CRM.CustomerServiceUrlResolver.GetRegistryExtension*
   implements:
   - SuperOffice.CRM.ICustomerServiceUrlResolver.GetRegistryExtension
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.CustomerServiceUrlResolver.GetWwwFolder
   commentId: M:SuperOffice.CRM.CustomerServiceUrlResolver.GetWwwFolder
   id: GetWwwFolder
@@ -180,20 +218,26 @@ items:
   nameWithType: CustomerServiceUrlResolver.GetWwwFolder()
   fullName: SuperOffice.CRM.CustomerServiceUrlResolver.GetWwwFolder()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
-  summary: ''
-  example: []
   syntax:
     content: public virtual string GetWwwFolder()
     return:
       type: System.String
-      description: The www folder used in CS
-    content.vb: Public Overridable Function GetWwwFolder() As String
+    content.vb: Public Overridable Function GetWwwFolder As String
   overload: SuperOffice.CRM.CustomerServiceUrlResolver.GetWwwFolder*
   implements:
   - SuperOffice.CRM.ICustomerServiceUrlResolver.GetWwwFolder
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.CustomerServiceUrlResolver.#ctor
   commentId: M:SuperOffice.CRM.CustomerServiceUrlResolver.#ctor
   id: '#ctor'
@@ -205,505 +249,196 @@ items:
   nameWithType: CustomerServiceUrlResolver.CustomerServiceUrlResolver()
   fullName: SuperOffice.CRM.CustomerServiceUrlResolver.CustomerServiceUrlResolver()
   type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
   syntax:
     content: public CustomerServiceUrlResolver()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.CustomerServiceUrlResolver.#ctor*
-  nameWithType.vb: CustomerServiceUrlResolver.New()
-  fullName.vb: SuperOffice.CRM.CustomerServiceUrlResolver.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 references:
 - uid: SuperOffice.CRM
   commentId: N:SuperOffice.CRM
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM
   nameWithType: SuperOffice.CRM
   fullName: SuperOffice.CRM
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.ICustomerServiceUrlResolver
   commentId: T:SuperOffice.CRM.ICustomerServiceUrlResolver
   parent: SuperOffice.CRM
   isExternal: true
-  href: SuperOffice.CRM.ICustomerServiceUrlResolver.html
   name: ICustomerServiceUrlResolver
   nameWithType: ICustomerServiceUrlResolver
   fullName: SuperOffice.CRM.ICustomerServiceUrlResolver
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
 - uid: SuperOffice.CRM.CustomerServiceUrlResolver.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<CustomerServiceUrlResolver, To>(CustomerServiceUrlResolver)
-  nameWithType: EnumUtil.MapEnums<CustomerServiceUrlResolver, To>(CustomerServiceUrlResolver)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.CustomerServiceUrlResolver, To>(SuperOffice.CRM.CustomerServiceUrlResolver)
-  nameWithType.vb: EnumUtil.MapEnums(Of CustomerServiceUrlResolver, To)(CustomerServiceUrlResolver)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.CustomerServiceUrlResolver, To)(SuperOffice.CRM.CustomerServiceUrlResolver)
-  name.vb: MapEnums(Of CustomerServiceUrlResolver, To)(CustomerServiceUrlResolver)
+  name: MapEnums<CustomerServiceUrlResolver, To>()
+  nameWithType: EnumUtil.MapEnums<CustomerServiceUrlResolver, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.CustomerServiceUrlResolver, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of CustomerServiceUrlResolver, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.CustomerServiceUrlResolver, To)()
+  name.vb: MapEnums(Of CustomerServiceUrlResolver, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.CustomerServiceUrlResolver)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<CustomerServiceUrlResolver, To>
+    nameWithType: EnumUtil.MapEnums<CustomerServiceUrlResolver, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.CustomerServiceUrlResolver, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.CustomerServiceUrlResolver
-    name: CustomerServiceUrlResolver
-    isExternal: true
-    href: SuperOffice.CRM.CustomerServiceUrlResolver.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.CustomerServiceUrlResolver
-    name: CustomerServiceUrlResolver
-    isExternal: true
-    href: SuperOffice.CRM.CustomerServiceUrlResolver.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.CustomerServiceUrlResolver)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of CustomerServiceUrlResolver, To)
+    nameWithType: EnumUtil.MapEnums(Of CustomerServiceUrlResolver, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.CustomerServiceUrlResolver, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.CustomerServiceUrlResolver
-    name: CustomerServiceUrlResolver
-    isExternal: true
-    href: SuperOffice.CRM.CustomerServiceUrlResolver.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.CustomerServiceUrlResolver
-    name: CustomerServiceUrlResolver
-    isExternal: true
-    href: SuperOffice.CRM.CustomerServiceUrlResolver.html
-  - name: )
-- uid: SuperOffice.CRM.CustomerServiceUrlResolver.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  parent: SuperOffice.ErpSync.ConnectorWS.Converters
-  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<CustomerServiceUrlResolver, To>(CustomerServiceUrlResolver)
-  nameWithType: Converters.MapEnums<CustomerServiceUrlResolver, To>(CustomerServiceUrlResolver)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.CustomerServiceUrlResolver, To>(SuperOffice.CRM.CustomerServiceUrlResolver)
-  nameWithType.vb: Converters.MapEnums(Of CustomerServiceUrlResolver, To)(CustomerServiceUrlResolver)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.CustomerServiceUrlResolver, To)(SuperOffice.CRM.CustomerServiceUrlResolver)
-  name.vb: MapEnums(Of CustomerServiceUrlResolver, To)(CustomerServiceUrlResolver)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.CustomerServiceUrlResolver)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.CustomerServiceUrlResolver
-    name: CustomerServiceUrlResolver
-    isExternal: true
-    href: SuperOffice.CRM.CustomerServiceUrlResolver.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.CRM.CustomerServiceUrlResolver
-    name: CustomerServiceUrlResolver
-    isExternal: true
-    href: SuperOffice.CRM.CustomerServiceUrlResolver.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.CustomerServiceUrlResolver)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.CustomerServiceUrlResolver
-    name: CustomerServiceUrlResolver
-    isExternal: true
-    href: SuperOffice.CRM.CustomerServiceUrlResolver.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.CRM.CustomerServiceUrlResolver
-    name: CustomerServiceUrlResolver
-    isExternal: true
-    href: SuperOffice.CRM.CustomerServiceUrlResolver.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.CustomerServiceUrlResolver.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.CustomerServiceUrlResolver)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<CustomerServiceUrlResolver>(CustomerServiceUrlResolver, CustomerServiceUrlResolver)
-  nameWithType: ObjectExtensions.AssignByReflection<CustomerServiceUrlResolver>(CustomerServiceUrlResolver, CustomerServiceUrlResolver)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.CustomerServiceUrlResolver>(SuperOffice.CRM.CustomerServiceUrlResolver, SuperOffice.CRM.CustomerServiceUrlResolver)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of CustomerServiceUrlResolver)(CustomerServiceUrlResolver, CustomerServiceUrlResolver)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.CustomerServiceUrlResolver)(SuperOffice.CRM.CustomerServiceUrlResolver, SuperOffice.CRM.CustomerServiceUrlResolver)
-  name.vb: AssignByReflection(Of CustomerServiceUrlResolver)(CustomerServiceUrlResolver, CustomerServiceUrlResolver)
+  name: AssignByReflection<CustomerServiceUrlResolver>(CustomerServiceUrlResolver)
+  nameWithType: ObjectExtensions.AssignByReflection<CustomerServiceUrlResolver>(CustomerServiceUrlResolver)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.CustomerServiceUrlResolver>(SuperOffice.CRM.CustomerServiceUrlResolver)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of CustomerServiceUrlResolver)(CustomerServiceUrlResolver)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.CustomerServiceUrlResolver)(SuperOffice.CRM.CustomerServiceUrlResolver)
+  name.vb: AssignByReflection(Of CustomerServiceUrlResolver)(CustomerServiceUrlResolver)
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.CustomerServiceUrlResolver,SuperOffice.CRM.CustomerServiceUrlResolver)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<CustomerServiceUrlResolver>
+    nameWithType: ObjectExtensions.AssignByReflection<CustomerServiceUrlResolver>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.CustomerServiceUrlResolver>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.CRM.CustomerServiceUrlResolver
-    name: CustomerServiceUrlResolver
-    isExternal: true
-    href: SuperOffice.CRM.CustomerServiceUrlResolver.html
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.CustomerServiceUrlResolver
     name: CustomerServiceUrlResolver
+    nameWithType: CustomerServiceUrlResolver
+    fullName: SuperOffice.CRM.CustomerServiceUrlResolver
     isExternal: true
-    href: SuperOffice.CRM.CustomerServiceUrlResolver.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.CustomerServiceUrlResolver
-    name: CustomerServiceUrlResolver
-    isExternal: true
-    href: SuperOffice.CRM.CustomerServiceUrlResolver.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.CustomerServiceUrlResolver,SuperOffice.CRM.CustomerServiceUrlResolver)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of CustomerServiceUrlResolver)
+    nameWithType: ObjectExtensions.AssignByReflection(Of CustomerServiceUrlResolver)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.CustomerServiceUrlResolver)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.CustomerServiceUrlResolver
     name: CustomerServiceUrlResolver
+    nameWithType: CustomerServiceUrlResolver
+    fullName: SuperOffice.CRM.CustomerServiceUrlResolver
     isExternal: true
-    href: SuperOffice.CRM.CustomerServiceUrlResolver.html
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.CustomerServiceUrlResolver
-    name: CustomerServiceUrlResolver
-    isExternal: true
-    href: SuperOffice.CRM.CustomerServiceUrlResolver.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.CustomerServiceUrlResolver
-    name: CustomerServiceUrlResolver
-    isExternal: true
-    href: SuperOffice.CRM.CustomerServiceUrlResolver.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.CustomerServiceUrlResolver.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<CustomerServiceUrlResolver>(CustomerServiceUrlResolver)
-  nameWithType: ObjectExtensions.GraphCopy<CustomerServiceUrlResolver>(CustomerServiceUrlResolver)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.CustomerServiceUrlResolver>(SuperOffice.CRM.CustomerServiceUrlResolver)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of CustomerServiceUrlResolver)(CustomerServiceUrlResolver)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.CustomerServiceUrlResolver)(SuperOffice.CRM.CustomerServiceUrlResolver)
-  name.vb: GraphCopy(Of CustomerServiceUrlResolver)(CustomerServiceUrlResolver)
+  name: GraphCopy<CustomerServiceUrlResolver>()
+  nameWithType: ObjectExtensions.GraphCopy<CustomerServiceUrlResolver>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.CustomerServiceUrlResolver>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of CustomerServiceUrlResolver)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.CustomerServiceUrlResolver)()
+  name.vb: GraphCopy(Of CustomerServiceUrlResolver)()
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.CustomerServiceUrlResolver)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<CustomerServiceUrlResolver>
+    nameWithType: ObjectExtensions.GraphCopy<CustomerServiceUrlResolver>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.CustomerServiceUrlResolver>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.CRM.CustomerServiceUrlResolver
-    name: CustomerServiceUrlResolver
-    isExternal: true
-    href: SuperOffice.CRM.CustomerServiceUrlResolver.html
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.CustomerServiceUrlResolver
-    name: CustomerServiceUrlResolver
-    isExternal: true
-    href: SuperOffice.CRM.CustomerServiceUrlResolver.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.CustomerServiceUrlResolver)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of CustomerServiceUrlResolver)
+    nameWithType: ObjectExtensions.GraphCopy(Of CustomerServiceUrlResolver)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.CustomerServiceUrlResolver)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.CustomerServiceUrlResolver
-    name: CustomerServiceUrlResolver
-    isExternal: true
-    href: SuperOffice.CRM.CustomerServiceUrlResolver.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.CustomerServiceUrlResolver.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<CustomerServiceUrlResolver, To>()
+  nameWithType: Converters.MapEnums<CustomerServiceUrlResolver, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.CustomerServiceUrlResolver, To>()
+  nameWithType.vb: Converters.MapEnums(Of CustomerServiceUrlResolver, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.CustomerServiceUrlResolver, To)()
+  name.vb: MapEnums(Of CustomerServiceUrlResolver, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<CustomerServiceUrlResolver, To>
+    nameWithType: Converters.MapEnums<CustomerServiceUrlResolver, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.CustomerServiceUrlResolver, To>
+    isExternal: true
   - name: (
-  - uid: SuperOffice.CRM.CustomerServiceUrlResolver
-    name: CustomerServiceUrlResolver
-    isExternal: true
-    href: SuperOffice.CRM.CustomerServiceUrlResolver.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of CustomerServiceUrlResolver, To)
+    nameWithType: Converters.MapEnums(Of CustomerServiceUrlResolver, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.CustomerServiceUrlResolver, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -712,93 +447,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<From, To>(From)
-  nameWithType: Converters.MapEnums<From, To>(From)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
-  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
-  name.vb: MapEnums(Of From, To)(From)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - name: From
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - name: From
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters
-  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
-  parent: SuperOffice.ErpSync.ConnectorWS
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
-  name: Converters
-  nameWithType: Converters
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   name: AssignByReflection<T>(T, T)
   nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
   fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
@@ -807,46 +492,56 @@ references:
   name.vb: AssignByReflection(Of T)(T, T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
-  - name: ','
-  - name: " "
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.ObjectExtensions
   commentId: T:SuperOffice.Util.ObjectExtensions
   parent: SuperOffice.Util
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
   name: ObjectExtensions
   nameWithType: ObjectExtensions
   fullName: SuperOffice.Util.ObjectExtensions
 - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   name: GraphCopy<T>(T)
   nameWithType: ObjectExtensions.GraphCopy<T>(T)
   fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
@@ -855,96 +550,95 @@ references:
   name.vb: GraphCopy(Of T)(T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS
-  commentId: N:SuperOffice.ErpSync.ConnectorWS
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.ErpSync.ConnectorWS
-  nameWithType: SuperOffice.ErpSync.ConnectorWS
-  fullName: SuperOffice.ErpSync.ConnectorWS
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
 - uid: SuperOffice.CRM.CustomerServiceUrlResolver.GetCgiUrlInternal*
   commentId: Overload:SuperOffice.CRM.CustomerServiceUrlResolver.GetCgiUrlInternal
   isExternal: true
-  href: SuperOffice.CRM.CustomerServiceUrlResolver.html#SuperOffice_CRM_CustomerServiceUrlResolver_GetCgiUrlInternal
   name: GetCgiUrlInternal
   nameWithType: CustomerServiceUrlResolver.GetCgiUrlInternal
   fullName: SuperOffice.CRM.CustomerServiceUrlResolver.GetCgiUrlInternal
@@ -952,39 +646,43 @@ references:
   commentId: M:SuperOffice.CRM.ICustomerServiceUrlResolver.GetCgiUrlInternal
   parent: SuperOffice.CRM.ICustomerServiceUrlResolver
   isExternal: true
-  href: SuperOffice.CRM.ICustomerServiceUrlResolver.html#SuperOffice_CRM_ICustomerServiceUrlResolver_GetCgiUrlInternal
   name: GetCgiUrlInternal()
   nameWithType: ICustomerServiceUrlResolver.GetCgiUrlInternal()
   fullName: SuperOffice.CRM.ICustomerServiceUrlResolver.GetCgiUrlInternal()
   spec.csharp:
   - uid: SuperOffice.CRM.ICustomerServiceUrlResolver.GetCgiUrlInternal
     name: GetCgiUrlInternal
+    nameWithType: ICustomerServiceUrlResolver.GetCgiUrlInternal
+    fullName: SuperOffice.CRM.ICustomerServiceUrlResolver.GetCgiUrlInternal
     isExternal: true
-    href: SuperOffice.CRM.ICustomerServiceUrlResolver.html#SuperOffice_CRM_ICustomerServiceUrlResolver_GetCgiUrlInternal
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.ICustomerServiceUrlResolver.GetCgiUrlInternal
     name: GetCgiUrlInternal
+    nameWithType: ICustomerServiceUrlResolver.GetCgiUrlInternal
+    fullName: SuperOffice.CRM.ICustomerServiceUrlResolver.GetCgiUrlInternal
     isExternal: true
-    href: SuperOffice.CRM.ICustomerServiceUrlResolver.html#SuperOffice_CRM_ICustomerServiceUrlResolver_GetCgiUrlInternal
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.CRM.CustomerServiceUrlResolver.GetCgiUrlExternal*
   commentId: Overload:SuperOffice.CRM.CustomerServiceUrlResolver.GetCgiUrlExternal
   isExternal: true
-  href: SuperOffice.CRM.CustomerServiceUrlResolver.html#SuperOffice_CRM_CustomerServiceUrlResolver_GetCgiUrlExternal
   name: GetCgiUrlExternal
   nameWithType: CustomerServiceUrlResolver.GetCgiUrlExternal
   fullName: SuperOffice.CRM.CustomerServiceUrlResolver.GetCgiUrlExternal
@@ -992,28 +690,36 @@ references:
   commentId: M:SuperOffice.CRM.ICustomerServiceUrlResolver.GetCgiUrlExternal
   parent: SuperOffice.CRM.ICustomerServiceUrlResolver
   isExternal: true
-  href: SuperOffice.CRM.ICustomerServiceUrlResolver.html#SuperOffice_CRM_ICustomerServiceUrlResolver_GetCgiUrlExternal
   name: GetCgiUrlExternal()
   nameWithType: ICustomerServiceUrlResolver.GetCgiUrlExternal()
   fullName: SuperOffice.CRM.ICustomerServiceUrlResolver.GetCgiUrlExternal()
   spec.csharp:
   - uid: SuperOffice.CRM.ICustomerServiceUrlResolver.GetCgiUrlExternal
     name: GetCgiUrlExternal
+    nameWithType: ICustomerServiceUrlResolver.GetCgiUrlExternal
+    fullName: SuperOffice.CRM.ICustomerServiceUrlResolver.GetCgiUrlExternal
     isExternal: true
-    href: SuperOffice.CRM.ICustomerServiceUrlResolver.html#SuperOffice_CRM_ICustomerServiceUrlResolver_GetCgiUrlExternal
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.ICustomerServiceUrlResolver.GetCgiUrlExternal
     name: GetCgiUrlExternal
+    nameWithType: ICustomerServiceUrlResolver.GetCgiUrlExternal
+    fullName: SuperOffice.CRM.ICustomerServiceUrlResolver.GetCgiUrlExternal
     isExternal: true
-    href: SuperOffice.CRM.ICustomerServiceUrlResolver.html#SuperOffice_CRM_ICustomerServiceUrlResolver_GetCgiUrlExternal
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.CustomerServiceUrlResolver.GetCgiUrlDirect*
   commentId: Overload:SuperOffice.CRM.CustomerServiceUrlResolver.GetCgiUrlDirect
   isExternal: true
-  href: SuperOffice.CRM.CustomerServiceUrlResolver.html#SuperOffice_CRM_CustomerServiceUrlResolver_GetCgiUrlDirect
   name: GetCgiUrlDirect
   nameWithType: CustomerServiceUrlResolver.GetCgiUrlDirect
   fullName: SuperOffice.CRM.CustomerServiceUrlResolver.GetCgiUrlDirect
@@ -1021,28 +727,36 @@ references:
   commentId: M:SuperOffice.CRM.ICustomerServiceUrlResolver.GetCgiUrlDirect
   parent: SuperOffice.CRM.ICustomerServiceUrlResolver
   isExternal: true
-  href: SuperOffice.CRM.ICustomerServiceUrlResolver.html#SuperOffice_CRM_ICustomerServiceUrlResolver_GetCgiUrlDirect
   name: GetCgiUrlDirect()
   nameWithType: ICustomerServiceUrlResolver.GetCgiUrlDirect()
   fullName: SuperOffice.CRM.ICustomerServiceUrlResolver.GetCgiUrlDirect()
   spec.csharp:
   - uid: SuperOffice.CRM.ICustomerServiceUrlResolver.GetCgiUrlDirect
     name: GetCgiUrlDirect
+    nameWithType: ICustomerServiceUrlResolver.GetCgiUrlDirect
+    fullName: SuperOffice.CRM.ICustomerServiceUrlResolver.GetCgiUrlDirect
     isExternal: true
-    href: SuperOffice.CRM.ICustomerServiceUrlResolver.html#SuperOffice_CRM_ICustomerServiceUrlResolver_GetCgiUrlDirect
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.ICustomerServiceUrlResolver.GetCgiUrlDirect
     name: GetCgiUrlDirect
+    nameWithType: ICustomerServiceUrlResolver.GetCgiUrlDirect
+    fullName: SuperOffice.CRM.ICustomerServiceUrlResolver.GetCgiUrlDirect
     isExternal: true
-    href: SuperOffice.CRM.ICustomerServiceUrlResolver.html#SuperOffice_CRM_ICustomerServiceUrlResolver_GetCgiUrlDirect
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.CustomerServiceUrlResolver.GetCgiBin*
   commentId: Overload:SuperOffice.CRM.CustomerServiceUrlResolver.GetCgiBin
   isExternal: true
-  href: SuperOffice.CRM.CustomerServiceUrlResolver.html#SuperOffice_CRM_CustomerServiceUrlResolver_GetCgiBin
   name: GetCgiBin
   nameWithType: CustomerServiceUrlResolver.GetCgiBin
   fullName: SuperOffice.CRM.CustomerServiceUrlResolver.GetCgiBin
@@ -1050,28 +764,36 @@ references:
   commentId: M:SuperOffice.CRM.ICustomerServiceUrlResolver.GetCgiBin
   parent: SuperOffice.CRM.ICustomerServiceUrlResolver
   isExternal: true
-  href: SuperOffice.CRM.ICustomerServiceUrlResolver.html#SuperOffice_CRM_ICustomerServiceUrlResolver_GetCgiBin
   name: GetCgiBin()
   nameWithType: ICustomerServiceUrlResolver.GetCgiBin()
   fullName: SuperOffice.CRM.ICustomerServiceUrlResolver.GetCgiBin()
   spec.csharp:
   - uid: SuperOffice.CRM.ICustomerServiceUrlResolver.GetCgiBin
     name: GetCgiBin
+    nameWithType: ICustomerServiceUrlResolver.GetCgiBin
+    fullName: SuperOffice.CRM.ICustomerServiceUrlResolver.GetCgiBin
     isExternal: true
-    href: SuperOffice.CRM.ICustomerServiceUrlResolver.html#SuperOffice_CRM_ICustomerServiceUrlResolver_GetCgiBin
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.ICustomerServiceUrlResolver.GetCgiBin
     name: GetCgiBin
+    nameWithType: ICustomerServiceUrlResolver.GetCgiBin
+    fullName: SuperOffice.CRM.ICustomerServiceUrlResolver.GetCgiBin
     isExternal: true
-    href: SuperOffice.CRM.ICustomerServiceUrlResolver.html#SuperOffice_CRM_ICustomerServiceUrlResolver_GetCgiBin
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.CustomerServiceUrlResolver.GetRegistryExtension*
   commentId: Overload:SuperOffice.CRM.CustomerServiceUrlResolver.GetRegistryExtension
   isExternal: true
-  href: SuperOffice.CRM.CustomerServiceUrlResolver.html#SuperOffice_CRM_CustomerServiceUrlResolver_GetRegistryExtension
   name: GetRegistryExtension
   nameWithType: CustomerServiceUrlResolver.GetRegistryExtension
   fullName: SuperOffice.CRM.CustomerServiceUrlResolver.GetRegistryExtension
@@ -1079,28 +801,36 @@ references:
   commentId: M:SuperOffice.CRM.ICustomerServiceUrlResolver.GetRegistryExtension
   parent: SuperOffice.CRM.ICustomerServiceUrlResolver
   isExternal: true
-  href: SuperOffice.CRM.ICustomerServiceUrlResolver.html#SuperOffice_CRM_ICustomerServiceUrlResolver_GetRegistryExtension
   name: GetRegistryExtension()
   nameWithType: ICustomerServiceUrlResolver.GetRegistryExtension()
   fullName: SuperOffice.CRM.ICustomerServiceUrlResolver.GetRegistryExtension()
   spec.csharp:
   - uid: SuperOffice.CRM.ICustomerServiceUrlResolver.GetRegistryExtension
     name: GetRegistryExtension
+    nameWithType: ICustomerServiceUrlResolver.GetRegistryExtension
+    fullName: SuperOffice.CRM.ICustomerServiceUrlResolver.GetRegistryExtension
     isExternal: true
-    href: SuperOffice.CRM.ICustomerServiceUrlResolver.html#SuperOffice_CRM_ICustomerServiceUrlResolver_GetRegistryExtension
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.ICustomerServiceUrlResolver.GetRegistryExtension
     name: GetRegistryExtension
+    nameWithType: ICustomerServiceUrlResolver.GetRegistryExtension
+    fullName: SuperOffice.CRM.ICustomerServiceUrlResolver.GetRegistryExtension
     isExternal: true
-    href: SuperOffice.CRM.ICustomerServiceUrlResolver.html#SuperOffice_CRM_ICustomerServiceUrlResolver_GetRegistryExtension
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.CustomerServiceUrlResolver.GetWwwFolder*
   commentId: Overload:SuperOffice.CRM.CustomerServiceUrlResolver.GetWwwFolder
   isExternal: true
-  href: SuperOffice.CRM.CustomerServiceUrlResolver.html#SuperOffice_CRM_CustomerServiceUrlResolver_GetWwwFolder
   name: GetWwwFolder
   nameWithType: CustomerServiceUrlResolver.GetWwwFolder
   fullName: SuperOffice.CRM.CustomerServiceUrlResolver.GetWwwFolder
@@ -1108,31 +838,36 @@ references:
   commentId: M:SuperOffice.CRM.ICustomerServiceUrlResolver.GetWwwFolder
   parent: SuperOffice.CRM.ICustomerServiceUrlResolver
   isExternal: true
-  href: SuperOffice.CRM.ICustomerServiceUrlResolver.html#SuperOffice_CRM_ICustomerServiceUrlResolver_GetWwwFolder
   name: GetWwwFolder()
   nameWithType: ICustomerServiceUrlResolver.GetWwwFolder()
   fullName: SuperOffice.CRM.ICustomerServiceUrlResolver.GetWwwFolder()
   spec.csharp:
   - uid: SuperOffice.CRM.ICustomerServiceUrlResolver.GetWwwFolder
     name: GetWwwFolder
+    nameWithType: ICustomerServiceUrlResolver.GetWwwFolder
+    fullName: SuperOffice.CRM.ICustomerServiceUrlResolver.GetWwwFolder
     isExternal: true
-    href: SuperOffice.CRM.ICustomerServiceUrlResolver.html#SuperOffice_CRM_ICustomerServiceUrlResolver_GetWwwFolder
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.ICustomerServiceUrlResolver.GetWwwFolder
     name: GetWwwFolder
+    nameWithType: ICustomerServiceUrlResolver.GetWwwFolder
+    fullName: SuperOffice.CRM.ICustomerServiceUrlResolver.GetWwwFolder
     isExternal: true
-    href: SuperOffice.CRM.ICustomerServiceUrlResolver.html#SuperOffice_CRM_ICustomerServiceUrlResolver_GetWwwFolder
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.CustomerServiceUrlResolver.#ctor*
   commentId: Overload:SuperOffice.CRM.CustomerServiceUrlResolver.#ctor
   isExternal: true
-  href: SuperOffice.CRM.CustomerServiceUrlResolver.html#SuperOffice_CRM_CustomerServiceUrlResolver__ctor
   name: CustomerServiceUrlResolver
   nameWithType: CustomerServiceUrlResolver.CustomerServiceUrlResolver
   fullName: SuperOffice.CRM.CustomerServiceUrlResolver.CustomerServiceUrlResolver
-  nameWithType.vb: CustomerServiceUrlResolver.New
-  fullName.vb: SuperOffice.CRM.CustomerServiceUrlResolver.New
-  name.vb: New

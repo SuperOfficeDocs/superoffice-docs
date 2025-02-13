@@ -18,23 +18,25 @@ items:
   nameWithType: Person_MergeRequest
   fullName: SuperOffice.WebApi.Data.Person_MergeRequest
   type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  example: []
   syntax:
-    content: public class Person_MergeRequest
-    content.vb: Public Class Person_MergeRequest
+    content: 'public class Person_MergeRequest : Object'
+    content.vb: >-
+      Public Class Person_MergeRequest
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.WebApi.Data.Person_MergeRequest.#ctor
   commentId: M:SuperOffice.WebApi.Data.Person_MergeRequest.#ctor
   id: '#ctor'
@@ -46,16 +48,20 @@ items:
   nameWithType: Person_MergeRequest.Person_MergeRequest()
   fullName: SuperOffice.WebApi.Data.Person_MergeRequest.Person_MergeRequest()
   type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
   syntax:
     content: public Person_MergeRequest()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.WebApi.Data.Person_MergeRequest.#ctor*
-  nameWithType.vb: Person_MergeRequest.New()
-  fullName.vb: SuperOffice.WebApi.Data.Person_MergeRequest.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.Person_MergeRequest.SourcePersonId
   commentId: P:SuperOffice.WebApi.Data.Person_MergeRequest.SourcePersonId
   id: SourcePersonId
@@ -67,10 +73,12 @@ items:
   nameWithType: Person_MergeRequest.SourcePersonId
   fullName: SuperOffice.WebApi.Data.Person_MergeRequest.SourcePersonId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  example: []
   syntax:
     content: public int SourcePersonId { get; set; }
     parameters: []
@@ -78,6 +86,12 @@ items:
       type: System.Int32
     content.vb: Public Property SourcePersonId As Integer
   overload: SuperOffice.WebApi.Data.Person_MergeRequest.SourcePersonId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.Person_MergeRequest.DestinationPersonId
   commentId: P:SuperOffice.WebApi.Data.Person_MergeRequest.DestinationPersonId
   id: DestinationPersonId
@@ -89,10 +103,12 @@ items:
   nameWithType: Person_MergeRequest.DestinationPersonId
   fullName: SuperOffice.WebApi.Data.Person_MergeRequest.DestinationPersonId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  example: []
   syntax:
     content: public int DestinationPersonId { get; set; }
     parameters: []
@@ -100,6 +116,12 @@ items:
       type: System.Int32
     content.vb: Public Property DestinationPersonId As Integer
   overload: SuperOffice.WebApi.Data.Person_MergeRequest.DestinationPersonId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.Person_MergeRequest.MoveAfterDate
   commentId: P:SuperOffice.WebApi.Data.Person_MergeRequest.MoveAfterDate
   id: MoveAfterDate
@@ -111,17 +133,25 @@ items:
   nameWithType: Person_MergeRequest.MoveAfterDate
   fullName: SuperOffice.WebApi.Data.Person_MergeRequest.MoveAfterDate
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  example: []
   syntax:
     content: public DateTime MoveAfterDate { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Property MoveAfterDate As Date
+    content.vb: Public Property MoveAfterDate As DateTime
   overload: SuperOffice.WebApi.Data.Person_MergeRequest.MoveAfterDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.Person_MergeRequest.DeleteSource
   commentId: P:SuperOffice.WebApi.Data.Person_MergeRequest.DeleteSource
   id: DeleteSource
@@ -133,10 +163,12 @@ items:
   nameWithType: Person_MergeRequest.DeleteSource
   fullName: SuperOffice.WebApi.Data.Person_MergeRequest.DeleteSource
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  example: []
   syntax:
     content: public bool DeleteSource { get; set; }
     parameters: []
@@ -144,6 +176,12 @@ items:
       type: System.Boolean
     content.vb: Public Property DeleteSource As Boolean
   overload: SuperOffice.WebApi.Data.Person_MergeRequest.DeleteSource*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.Person_MergeRequest.ReplaceEmptyFieldsOnDestination
   commentId: P:SuperOffice.WebApi.Data.Person_MergeRequest.ReplaceEmptyFieldsOnDestination
   id: ReplaceEmptyFieldsOnDestination
@@ -155,10 +193,12 @@ items:
   nameWithType: Person_MergeRequest.ReplaceEmptyFieldsOnDestination
   fullName: SuperOffice.WebApi.Data.Person_MergeRequest.ReplaceEmptyFieldsOnDestination
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  example: []
   syntax:
     content: public bool ReplaceEmptyFieldsOnDestination { get; set; }
     parameters: []
@@ -166,295 +206,41 @@ items:
       type: System.Boolean
     content.vb: Public Property ReplaceEmptyFieldsOnDestination As Boolean
   overload: SuperOffice.WebApi.Data.Person_MergeRequest.ReplaceEmptyFieldsOnDestination*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Data.Person_MergeRequest.#ctor*
   commentId: Overload:SuperOffice.WebApi.Data.Person_MergeRequest.#ctor
   isExternal: true
-  href: SuperOffice.WebApi.Data.Person_MergeRequest.html#SuperOffice_WebApi_Data_Person_MergeRequest__ctor
   name: Person_MergeRequest
   nameWithType: Person_MergeRequest.Person_MergeRequest
   fullName: SuperOffice.WebApi.Data.Person_MergeRequest.Person_MergeRequest
-  nameWithType.vb: Person_MergeRequest.New
-  fullName.vb: SuperOffice.WebApi.Data.Person_MergeRequest.New
-  name.vb: New
 - uid: SuperOffice.WebApi.Data.Person_MergeRequest.SourcePersonId*
   commentId: Overload:SuperOffice.WebApi.Data.Person_MergeRequest.SourcePersonId
   isExternal: true
-  href: SuperOffice.WebApi.Data.Person_MergeRequest.html#SuperOffice_WebApi_Data_Person_MergeRequest_SourcePersonId
   name: SourcePersonId
   nameWithType: Person_MergeRequest.SourcePersonId
   fullName: SuperOffice.WebApi.Data.Person_MergeRequest.SourcePersonId
@@ -462,42 +248,29 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.WebApi.Data.Person_MergeRequest.DestinationPersonId*
   commentId: Overload:SuperOffice.WebApi.Data.Person_MergeRequest.DestinationPersonId
   isExternal: true
-  href: SuperOffice.WebApi.Data.Person_MergeRequest.html#SuperOffice_WebApi_Data_Person_MergeRequest_DestinationPersonId
   name: DestinationPersonId
   nameWithType: Person_MergeRequest.DestinationPersonId
   fullName: SuperOffice.WebApi.Data.Person_MergeRequest.DestinationPersonId
 - uid: SuperOffice.WebApi.Data.Person_MergeRequest.MoveAfterDate*
   commentId: Overload:SuperOffice.WebApi.Data.Person_MergeRequest.MoveAfterDate
   isExternal: true
-  href: SuperOffice.WebApi.Data.Person_MergeRequest.html#SuperOffice_WebApi_Data_Person_MergeRequest_MoveAfterDate
   name: MoveAfterDate
   nameWithType: Person_MergeRequest.MoveAfterDate
   fullName: SuperOffice.WebApi.Data.Person_MergeRequest.MoveAfterDate
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
 - uid: SuperOffice.WebApi.Data.Person_MergeRequest.DeleteSource*
   commentId: Overload:SuperOffice.WebApi.Data.Person_MergeRequest.DeleteSource
   isExternal: true
-  href: SuperOffice.WebApi.Data.Person_MergeRequest.html#SuperOffice_WebApi_Data_Person_MergeRequest_DeleteSource
   name: DeleteSource
   nameWithType: Person_MergeRequest.DeleteSource
   fullName: SuperOffice.WebApi.Data.Person_MergeRequest.DeleteSource
@@ -505,17 +278,12 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.WebApi.Data.Person_MergeRequest.ReplaceEmptyFieldsOnDestination*
   commentId: Overload:SuperOffice.WebApi.Data.Person_MergeRequest.ReplaceEmptyFieldsOnDestination
   isExternal: true
-  href: SuperOffice.WebApi.Data.Person_MergeRequest.html#SuperOffice_WebApi_Data_Person_MergeRequest_ReplaceEmptyFieldsOnDestination
   name: ReplaceEmptyFieldsOnDestination
   nameWithType: Person_MergeRequest.ReplaceEmptyFieldsOnDestination
   fullName: SuperOffice.WebApi.Data.Person_MergeRequest.ReplaceEmptyFieldsOnDestination

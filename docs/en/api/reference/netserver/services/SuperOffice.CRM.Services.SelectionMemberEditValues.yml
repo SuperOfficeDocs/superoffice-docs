@@ -37,35 +37,26 @@ items:
   nameWithType: SelectionMemberEditValues
   fullName: SuperOffice.CRM.Services.SelectionMemberEditValues
   type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    A class representing values to change when changing company and contact details from the Edit Company Details task for selections.
-
-    <p></p>
-
-    Carrier object for SelectionMemberEditValues.
-  example: []
+  summary: "\nA class representing values to change when changing company and contact details from the Edit Company Details task for selections.\n<p></p>\nCarrier object for SelectionMemberEditValues.\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public class SelectionMemberEditValues : Carrier
+    content: 'public class SelectionMemberEditValues : Carrier'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
-
-      Public Class SelectionMemberEditValues Inherits Carrier
+      Public Class SelectionMemberEditValues
+          Inherits Carrier
   inheritance:
   - System.Object
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.SelectionMemberEditValues.#ctor
   commentId: M:SuperOffice.CRM.Services.SelectionMemberEditValues.#ctor
   id: '#ctor'
@@ -77,18 +68,21 @@ items:
   nameWithType: SelectionMemberEditValues.SelectionMemberEditValues()
   fullName: SuperOffice.CRM.Services.SelectionMemberEditValues.SelectionMemberEditValues()
   type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Default constructor
-  example: []
+  summary: "\nDefault constructor\n"
   syntax:
     content: public SelectionMemberEditValues()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.SelectionMemberEditValues.#ctor*
-  nameWithType.vb: SelectionMemberEditValues.New()
-  fullName.vb: SuperOffice.CRM.Services.SelectionMemberEditValues.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.SelectionMemberEditValues.ToString
   commentId: M:SuperOffice.CRM.Services.SelectionMemberEditValues.ToString
   id: ToString
@@ -100,18 +94,26 @@ items:
   nameWithType: SelectionMemberEditValues.ToString()
   fullName: SuperOffice.CRM.Services.SelectionMemberEditValues.ToString()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the carrier contents as a formatted string.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string.\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString() As String
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.CRM.Services.SelectionMemberEditValues.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Services.SelectionMemberEditValues.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.SelectionMemberEditValues.ToString(System.String)
   id: ToString(System.String)
@@ -119,18 +121,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(string)
-  nameWithType: SelectionMemberEditValues.ToString(string)
-  fullName: SuperOffice.CRM.Services.SelectionMemberEditValues.ToString(string)
+  name: ToString(String)
+  nameWithType: SelectionMemberEditValues.ToString(String)
+  fullName: SuperOffice.CRM.Services.SelectionMemberEditValues.ToString(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Returns the carrier contents as a formatted string, useful for debugging.
-
-    Each line in the output is prefixed with the input value.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -142,9 +143,10 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.SelectionMemberEditValues.ToString*
-  nameWithType.vb: SelectionMemberEditValues.ToString(String)
-  fullName.vb: SuperOffice.CRM.Services.SelectionMemberEditValues.ToString(String)
-  name.vb: ToString(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.SelectionMemberEditValues.CompanyCategory
   commentId: P:SuperOffice.CRM.Services.SelectionMemberEditValues.CompanyCategory
   id: CompanyCategory
@@ -156,28 +158,28 @@ items:
   nameWithType: SelectionMemberEditValues.CompanyCategory
   fullName: SuperOffice.CRM.Services.SelectionMemberEditValues.CompanyCategory
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Contains new value for the company category.
-  example: []
+  summary: "\nContains new value for the company category. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int CompanyCategory { get; set; }
+    content: public virtual int CompanyCategory { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property CompanyCategory As Integer
+    content.vb: Public Overridable Property CompanyCategory As Integer
   overload: SuperOffice.CRM.Services.SelectionMemberEditValues.CompanyCategory*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.SelectionMemberEditValues.CompanyBusiness
   commentId: P:SuperOffice.CRM.Services.SelectionMemberEditValues.CompanyBusiness
   id: CompanyBusiness
@@ -189,28 +191,28 @@ items:
   nameWithType: SelectionMemberEditValues.CompanyBusiness
   fullName: SuperOffice.CRM.Services.SelectionMemberEditValues.CompanyBusiness
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Contains new value for company business.
-  example: []
+  summary: "\nContains new value for company business. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int CompanyBusiness { get; set; }
+    content: public virtual int CompanyBusiness { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property CompanyBusiness As Integer
+    content.vb: Public Overridable Property CompanyBusiness As Integer
   overload: SuperOffice.CRM.Services.SelectionMemberEditValues.CompanyBusiness*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.SelectionMemberEditValues.CompanyOurContact
   commentId: P:SuperOffice.CRM.Services.SelectionMemberEditValues.CompanyOurContact
   id: CompanyOurContact
@@ -222,28 +224,28 @@ items:
   nameWithType: SelectionMemberEditValues.CompanyOurContact
   fullName: SuperOffice.CRM.Services.SelectionMemberEditValues.CompanyOurContact
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Contains new value for company, our contact.
-  example: []
+  summary: "\nContains new value for company, our contact. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int CompanyOurContact { get; set; }
+    content: public virtual int CompanyOurContact { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property CompanyOurContact As Integer
+    content.vb: Public Overridable Property CompanyOurContact As Integer
   overload: SuperOffice.CRM.Services.SelectionMemberEditValues.CompanyOurContact*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.SelectionMemberEditValues.CompanyName
   commentId: P:SuperOffice.CRM.Services.SelectionMemberEditValues.CompanyName
   id: CompanyName
@@ -255,28 +257,28 @@ items:
   nameWithType: SelectionMemberEditValues.CompanyName
   fullName: SuperOffice.CRM.Services.SelectionMemberEditValues.CompanyName
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Contains new value for company name.
-  example: []
+  summary: "\nContains new value for company name. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string CompanyName { get; set; }
+    content: public virtual string CompanyName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property CompanyName As String
+    content.vb: Public Overridable Property CompanyName As String
   overload: SuperOffice.CRM.Services.SelectionMemberEditValues.CompanyName*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.SelectionMemberEditValues.CompanyDepartment
   commentId: P:SuperOffice.CRM.Services.SelectionMemberEditValues.CompanyDepartment
   id: CompanyDepartment
@@ -288,28 +290,28 @@ items:
   nameWithType: SelectionMemberEditValues.CompanyDepartment
   fullName: SuperOffice.CRM.Services.SelectionMemberEditValues.CompanyDepartment
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Contains new value for the company department.
-  example: []
+  summary: "\nContains new value for the company department. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string CompanyDepartment { get; set; }
+    content: public virtual string CompanyDepartment { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property CompanyDepartment As String
+    content.vb: Public Overridable Property CompanyDepartment As String
   overload: SuperOffice.CRM.Services.SelectionMemberEditValues.CompanyDepartment*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.SelectionMemberEditValues.CompanyNumber
   commentId: P:SuperOffice.CRM.Services.SelectionMemberEditValues.CompanyNumber
   id: CompanyNumber
@@ -321,28 +323,28 @@ items:
   nameWithType: SelectionMemberEditValues.CompanyNumber
   fullName: SuperOffice.CRM.Services.SelectionMemberEditValues.CompanyNumber
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Contains new value for the company number.
-  example: []
+  summary: "\nContains new value for the company number. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string CompanyNumber { get; set; }
+    content: public virtual string CompanyNumber { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property CompanyNumber As String
+    content.vb: Public Overridable Property CompanyNumber As String
   overload: SuperOffice.CRM.Services.SelectionMemberEditValues.CompanyNumber*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.SelectionMemberEditValues.CompanyCode
   commentId: P:SuperOffice.CRM.Services.SelectionMemberEditValues.CompanyCode
   id: CompanyCode
@@ -354,28 +356,28 @@ items:
   nameWithType: SelectionMemberEditValues.CompanyCode
   fullName: SuperOffice.CRM.Services.SelectionMemberEditValues.CompanyCode
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Contains new value for the company code.
-  example: []
+  summary: "\nContains new value for the company code. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string CompanyCode { get; set; }
+    content: public virtual string CompanyCode { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property CompanyCode As String
+    content.vb: Public Overridable Property CompanyCode As String
   overload: SuperOffice.CRM.Services.SelectionMemberEditValues.CompanyCode*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.SelectionMemberEditValues.ContactPosition
   commentId: P:SuperOffice.CRM.Services.SelectionMemberEditValues.ContactPosition
   id: ContactPosition
@@ -387,28 +389,28 @@ items:
   nameWithType: SelectionMemberEditValues.ContactPosition
   fullName: SuperOffice.CRM.Services.SelectionMemberEditValues.ContactPosition
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Contains new value for the contact position.
-  example: []
+  summary: "\nContains new value for the contact position. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int ContactPosition { get; set; }
+    content: public virtual int ContactPosition { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ContactPosition As Integer
+    content.vb: Public Overridable Property ContactPosition As Integer
   overload: SuperOffice.CRM.Services.SelectionMemberEditValues.ContactPosition*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeCompanyCategory
   commentId: P:SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeCompanyCategory
   id: ChangeCompanyCategory
@@ -420,28 +422,28 @@ items:
   nameWithType: SelectionMemberEditValues.ChangeCompanyCategory
   fullName: SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeCompanyCategory
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: If true, the category of the company will be changed.
-  example: []
+  summary: "\nIf true, the category of the company will be changed. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual bool ChangeCompanyCategory { get; set; }
+    content: public virtual bool ChangeCompanyCategory { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ChangeCompanyCategory As Boolean
+    content.vb: Public Overridable Property ChangeCompanyCategory As Boolean
   overload: SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeCompanyCategory*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeCompanyBusiness
   commentId: P:SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeCompanyBusiness
   id: ChangeCompanyBusiness
@@ -453,28 +455,28 @@ items:
   nameWithType: SelectionMemberEditValues.ChangeCompanyBusiness
   fullName: SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeCompanyBusiness
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: If true, the business of the company will change.
-  example: []
+  summary: "\nIf true, the business of the company will change. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual bool ChangeCompanyBusiness { get; set; }
+    content: public virtual bool ChangeCompanyBusiness { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ChangeCompanyBusiness As Boolean
+    content.vb: Public Overridable Property ChangeCompanyBusiness As Boolean
   overload: SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeCompanyBusiness*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeCompanyOurContact
   commentId: P:SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeCompanyOurContact
   id: ChangeCompanyOurContact
@@ -486,28 +488,28 @@ items:
   nameWithType: SelectionMemberEditValues.ChangeCompanyOurContact
   fullName: SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeCompanyOurContact
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: If true, the our contact of the company will change.
-  example: []
+  summary: "\nIf true, the our contact of the company will change. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual bool ChangeCompanyOurContact { get; set; }
+    content: public virtual bool ChangeCompanyOurContact { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ChangeCompanyOurContact As Boolean
+    content.vb: Public Overridable Property ChangeCompanyOurContact As Boolean
   overload: SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeCompanyOurContact*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeCompanyName
   commentId: P:SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeCompanyName
   id: ChangeCompanyName
@@ -519,28 +521,28 @@ items:
   nameWithType: SelectionMemberEditValues.ChangeCompanyName
   fullName: SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeCompanyName
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: If true, the name of the company will change.
-  example: []
+  summary: "\nIf true, the name of the company will change. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual bool ChangeCompanyName { get; set; }
+    content: public virtual bool ChangeCompanyName { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ChangeCompanyName As Boolean
+    content.vb: Public Overridable Property ChangeCompanyName As Boolean
   overload: SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeCompanyName*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeCompanyDepartment
   commentId: P:SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeCompanyDepartment
   id: ChangeCompanyDepartment
@@ -552,28 +554,28 @@ items:
   nameWithType: SelectionMemberEditValues.ChangeCompanyDepartment
   fullName: SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeCompanyDepartment
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: If true, the department of the company will change.
-  example: []
+  summary: "\nIf true, the department of the company will change. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual bool ChangeCompanyDepartment { get; set; }
+    content: public virtual bool ChangeCompanyDepartment { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ChangeCompanyDepartment As Boolean
+    content.vb: Public Overridable Property ChangeCompanyDepartment As Boolean
   overload: SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeCompanyDepartment*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeCompanyNumber
   commentId: P:SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeCompanyNumber
   id: ChangeCompanyNumber
@@ -585,28 +587,28 @@ items:
   nameWithType: SelectionMemberEditValues.ChangeCompanyNumber
   fullName: SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeCompanyNumber
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: If true, the number of the company will change.
-  example: []
+  summary: "\nIf true, the number of the company will change. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual bool ChangeCompanyNumber { get; set; }
+    content: public virtual bool ChangeCompanyNumber { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ChangeCompanyNumber As Boolean
+    content.vb: Public Overridable Property ChangeCompanyNumber As Boolean
   overload: SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeCompanyNumber*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeCompanyCode
   commentId: P:SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeCompanyCode
   id: ChangeCompanyCode
@@ -618,28 +620,28 @@ items:
   nameWithType: SelectionMemberEditValues.ChangeCompanyCode
   fullName: SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeCompanyCode
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: If true, the code of the company will change.
-  example: []
+  summary: "\nIf true, the code of the company will change. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual bool ChangeCompanyCode { get; set; }
+    content: public virtual bool ChangeCompanyCode { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ChangeCompanyCode As Boolean
+    content.vb: Public Overridable Property ChangeCompanyCode As Boolean
   overload: SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeCompanyCode*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeContactPosition
   commentId: P:SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeContactPosition
   id: ChangeContactPosition
@@ -651,28 +653,28 @@ items:
   nameWithType: SelectionMemberEditValues.ChangeContactPosition
   fullName: SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeContactPosition
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: If true, the position of the contact will change.
-  example: []
+  summary: "\nIf true, the position of the contact will change. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual bool ChangeContactPosition { get; set; }
+    content: public virtual bool ChangeContactPosition { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ChangeContactPosition As Boolean
+    content.vb: Public Overridable Property ChangeContactPosition As Boolean
   overload: SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeContactPosition*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.SelectionMemberEditValues.CompanyCountry
   commentId: P:SuperOffice.CRM.Services.SelectionMemberEditValues.CompanyCountry
   id: CompanyCountry
@@ -684,28 +686,28 @@ items:
   nameWithType: SelectionMemberEditValues.CompanyCountry
   fullName: SuperOffice.CRM.Services.SelectionMemberEditValues.CompanyCountry
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Contains new value for the company country.
-  example: []
+  summary: "\nContains new value for the company country. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int CompanyCountry { get; set; }
+    content: public virtual int CompanyCountry { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property CompanyCountry As Integer
+    content.vb: Public Overridable Property CompanyCountry As Integer
   overload: SuperOffice.CRM.Services.SelectionMemberEditValues.CompanyCountry*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeCompanyCountry
   commentId: P:SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeCompanyCountry
   id: ChangeCompanyCountry
@@ -717,28 +719,28 @@ items:
   nameWithType: SelectionMemberEditValues.ChangeCompanyCountry
   fullName: SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeCompanyCountry
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: If true, the country of the company will change.
-  example: []
+  summary: "\nIf true, the country of the company will change. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual bool ChangeCompanyCountry { get; set; }
+    content: public virtual bool ChangeCompanyCountry { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ChangeCompanyCountry As Boolean
+    content.vb: Public Overridable Property ChangeCompanyCountry As Boolean
   overload: SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeCompanyCountry*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.SelectionMemberEditValues.ContactJobTitle
   commentId: P:SuperOffice.CRM.Services.SelectionMemberEditValues.ContactJobTitle
   id: ContactJobTitle
@@ -750,28 +752,28 @@ items:
   nameWithType: SelectionMemberEditValues.ContactJobTitle
   fullName: SuperOffice.CRM.Services.SelectionMemberEditValues.ContactJobTitle
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Contains new value for the contact VAT number.
-  example: []
+  summary: "\nContains new value for the contact VAT number. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string ContactJobTitle { get; set; }
+    content: public virtual string ContactJobTitle { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ContactJobTitle As String
+    content.vb: Public Overridable Property ContactJobTitle As String
   overload: SuperOffice.CRM.Services.SelectionMemberEditValues.ContactJobTitle*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeContactJobTitle
   commentId: P:SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeContactJobTitle
   id: ChangeContactJobTitle
@@ -783,28 +785,28 @@ items:
   nameWithType: SelectionMemberEditValues.ChangeContactJobTitle
   fullName: SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeContactJobTitle
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: If true, the VAT number  of the contact will change.
-  example: []
+  summary: "\nIf true, the VAT number  of the contact will change. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual bool ChangeContactJobTitle { get; set; }
+    content: public virtual bool ChangeContactJobTitle { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ChangeContactJobTitle As Boolean
+    content.vb: Public Overridable Property ChangeContactJobTitle As Boolean
   overload: SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeContactJobTitle*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.SelectionMemberEditValues.CompanyOrgNr
   commentId: P:SuperOffice.CRM.Services.SelectionMemberEditValues.CompanyOrgNr
   id: CompanyOrgNr
@@ -816,28 +818,28 @@ items:
   nameWithType: SelectionMemberEditValues.CompanyOrgNr
   fullName: SuperOffice.CRM.Services.SelectionMemberEditValues.CompanyOrgNr
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Contains new value for the company VAT number.
-  example: []
+  summary: "\nContains new value for the company VAT number. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string CompanyOrgNr { get; set; }
+    content: public virtual string CompanyOrgNr { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property CompanyOrgNr As String
+    content.vb: Public Overridable Property CompanyOrgNr As String
   overload: SuperOffice.CRM.Services.SelectionMemberEditValues.CompanyOrgNr*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeCompanyOrgNr
   commentId: P:SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeCompanyOrgNr
   id: ChangeCompanyOrgNr
@@ -849,98 +851,44 @@ items:
   nameWithType: SelectionMemberEditValues.ChangeCompanyOrgNr
   fullName: SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeCompanyOrgNr
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: If true, the VAT number  of the company will change.
-  example: []
+  summary: "\nIf true, the VAT number  of the company will change. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual bool ChangeCompanyOrgNr { get; set; }
+    content: public virtual bool ChangeCompanyOrgNr { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ChangeCompanyOrgNr As Boolean
+    content.vb: Public Overridable Property ChangeCompanyOrgNr As Boolean
   overload: SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeCompanyOrgNr*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.SelectionMemberEditValues.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.SelectionMemberEditValues.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.SelectionMemberEditValues.html#SuperOffice_CRM_Services_SelectionMemberEditValues__ctor
   name: SelectionMemberEditValues
   nameWithType: SelectionMemberEditValues.SelectionMemberEditValues
   fullName: SuperOffice.CRM.Services.SelectionMemberEditValues.SelectionMemberEditValues
-  nameWithType.vb: SelectionMemberEditValues.New
-  fullName.vb: SuperOffice.CRM.Services.SelectionMemberEditValues.New
-  name.vb: New
 - uid: SuperOffice.CRM.Services.SelectionMemberEditValues.ToString*
   commentId: Overload:SuperOffice.CRM.Services.SelectionMemberEditValues.ToString
   isExternal: true
-  href: SuperOffice.CRM.Services.SelectionMemberEditValues.html#SuperOffice_CRM_Services_SelectionMemberEditValues_ToString
   name: ToString
   nameWithType: SelectionMemberEditValues.ToString
   fullName: SuperOffice.CRM.Services.SelectionMemberEditValues.ToString
@@ -948,17 +896,18 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.SelectionMemberEditValues.CompanyCategory*
   commentId: Overload:SuperOffice.CRM.Services.SelectionMemberEditValues.CompanyCategory
   isExternal: true
-  href: SuperOffice.CRM.Services.SelectionMemberEditValues.html#SuperOffice_CRM_Services_SelectionMemberEditValues_CompanyCategory
   name: CompanyCategory
   nameWithType: SelectionMemberEditValues.CompanyCategory
   fullName: SuperOffice.CRM.Services.SelectionMemberEditValues.CompanyCategory
@@ -966,66 +915,54 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Services.SelectionMemberEditValues.CompanyBusiness*
   commentId: Overload:SuperOffice.CRM.Services.SelectionMemberEditValues.CompanyBusiness
   isExternal: true
-  href: SuperOffice.CRM.Services.SelectionMemberEditValues.html#SuperOffice_CRM_Services_SelectionMemberEditValues_CompanyBusiness
   name: CompanyBusiness
   nameWithType: SelectionMemberEditValues.CompanyBusiness
   fullName: SuperOffice.CRM.Services.SelectionMemberEditValues.CompanyBusiness
 - uid: SuperOffice.CRM.Services.SelectionMemberEditValues.CompanyOurContact*
   commentId: Overload:SuperOffice.CRM.Services.SelectionMemberEditValues.CompanyOurContact
   isExternal: true
-  href: SuperOffice.CRM.Services.SelectionMemberEditValues.html#SuperOffice_CRM_Services_SelectionMemberEditValues_CompanyOurContact
   name: CompanyOurContact
   nameWithType: SelectionMemberEditValues.CompanyOurContact
   fullName: SuperOffice.CRM.Services.SelectionMemberEditValues.CompanyOurContact
 - uid: SuperOffice.CRM.Services.SelectionMemberEditValues.CompanyName*
   commentId: Overload:SuperOffice.CRM.Services.SelectionMemberEditValues.CompanyName
   isExternal: true
-  href: SuperOffice.CRM.Services.SelectionMemberEditValues.html#SuperOffice_CRM_Services_SelectionMemberEditValues_CompanyName
   name: CompanyName
   nameWithType: SelectionMemberEditValues.CompanyName
   fullName: SuperOffice.CRM.Services.SelectionMemberEditValues.CompanyName
 - uid: SuperOffice.CRM.Services.SelectionMemberEditValues.CompanyDepartment*
   commentId: Overload:SuperOffice.CRM.Services.SelectionMemberEditValues.CompanyDepartment
   isExternal: true
-  href: SuperOffice.CRM.Services.SelectionMemberEditValues.html#SuperOffice_CRM_Services_SelectionMemberEditValues_CompanyDepartment
   name: CompanyDepartment
   nameWithType: SelectionMemberEditValues.CompanyDepartment
   fullName: SuperOffice.CRM.Services.SelectionMemberEditValues.CompanyDepartment
 - uid: SuperOffice.CRM.Services.SelectionMemberEditValues.CompanyNumber*
   commentId: Overload:SuperOffice.CRM.Services.SelectionMemberEditValues.CompanyNumber
   isExternal: true
-  href: SuperOffice.CRM.Services.SelectionMemberEditValues.html#SuperOffice_CRM_Services_SelectionMemberEditValues_CompanyNumber
   name: CompanyNumber
   nameWithType: SelectionMemberEditValues.CompanyNumber
   fullName: SuperOffice.CRM.Services.SelectionMemberEditValues.CompanyNumber
 - uid: SuperOffice.CRM.Services.SelectionMemberEditValues.CompanyCode*
   commentId: Overload:SuperOffice.CRM.Services.SelectionMemberEditValues.CompanyCode
   isExternal: true
-  href: SuperOffice.CRM.Services.SelectionMemberEditValues.html#SuperOffice_CRM_Services_SelectionMemberEditValues_CompanyCode
   name: CompanyCode
   nameWithType: SelectionMemberEditValues.CompanyCode
   fullName: SuperOffice.CRM.Services.SelectionMemberEditValues.CompanyCode
 - uid: SuperOffice.CRM.Services.SelectionMemberEditValues.ContactPosition*
   commentId: Overload:SuperOffice.CRM.Services.SelectionMemberEditValues.ContactPosition
   isExternal: true
-  href: SuperOffice.CRM.Services.SelectionMemberEditValues.html#SuperOffice_CRM_Services_SelectionMemberEditValues_ContactPosition
   name: ContactPosition
   nameWithType: SelectionMemberEditValues.ContactPosition
   fullName: SuperOffice.CRM.Services.SelectionMemberEditValues.ContactPosition
 - uid: SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeCompanyCategory*
   commentId: Overload:SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeCompanyCategory
   isExternal: true
-  href: SuperOffice.CRM.Services.SelectionMemberEditValues.html#SuperOffice_CRM_Services_SelectionMemberEditValues_ChangeCompanyCategory
   name: ChangeCompanyCategory
   nameWithType: SelectionMemberEditValues.ChangeCompanyCategory
   fullName: SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeCompanyCategory
@@ -1033,101 +970,84 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeCompanyBusiness*
   commentId: Overload:SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeCompanyBusiness
   isExternal: true
-  href: SuperOffice.CRM.Services.SelectionMemberEditValues.html#SuperOffice_CRM_Services_SelectionMemberEditValues_ChangeCompanyBusiness
   name: ChangeCompanyBusiness
   nameWithType: SelectionMemberEditValues.ChangeCompanyBusiness
   fullName: SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeCompanyBusiness
 - uid: SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeCompanyOurContact*
   commentId: Overload:SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeCompanyOurContact
   isExternal: true
-  href: SuperOffice.CRM.Services.SelectionMemberEditValues.html#SuperOffice_CRM_Services_SelectionMemberEditValues_ChangeCompanyOurContact
   name: ChangeCompanyOurContact
   nameWithType: SelectionMemberEditValues.ChangeCompanyOurContact
   fullName: SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeCompanyOurContact
 - uid: SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeCompanyName*
   commentId: Overload:SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeCompanyName
   isExternal: true
-  href: SuperOffice.CRM.Services.SelectionMemberEditValues.html#SuperOffice_CRM_Services_SelectionMemberEditValues_ChangeCompanyName
   name: ChangeCompanyName
   nameWithType: SelectionMemberEditValues.ChangeCompanyName
   fullName: SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeCompanyName
 - uid: SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeCompanyDepartment*
   commentId: Overload:SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeCompanyDepartment
   isExternal: true
-  href: SuperOffice.CRM.Services.SelectionMemberEditValues.html#SuperOffice_CRM_Services_SelectionMemberEditValues_ChangeCompanyDepartment
   name: ChangeCompanyDepartment
   nameWithType: SelectionMemberEditValues.ChangeCompanyDepartment
   fullName: SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeCompanyDepartment
 - uid: SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeCompanyNumber*
   commentId: Overload:SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeCompanyNumber
   isExternal: true
-  href: SuperOffice.CRM.Services.SelectionMemberEditValues.html#SuperOffice_CRM_Services_SelectionMemberEditValues_ChangeCompanyNumber
   name: ChangeCompanyNumber
   nameWithType: SelectionMemberEditValues.ChangeCompanyNumber
   fullName: SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeCompanyNumber
 - uid: SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeCompanyCode*
   commentId: Overload:SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeCompanyCode
   isExternal: true
-  href: SuperOffice.CRM.Services.SelectionMemberEditValues.html#SuperOffice_CRM_Services_SelectionMemberEditValues_ChangeCompanyCode
   name: ChangeCompanyCode
   nameWithType: SelectionMemberEditValues.ChangeCompanyCode
   fullName: SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeCompanyCode
 - uid: SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeContactPosition*
   commentId: Overload:SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeContactPosition
   isExternal: true
-  href: SuperOffice.CRM.Services.SelectionMemberEditValues.html#SuperOffice_CRM_Services_SelectionMemberEditValues_ChangeContactPosition
   name: ChangeContactPosition
   nameWithType: SelectionMemberEditValues.ChangeContactPosition
   fullName: SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeContactPosition
 - uid: SuperOffice.CRM.Services.SelectionMemberEditValues.CompanyCountry*
   commentId: Overload:SuperOffice.CRM.Services.SelectionMemberEditValues.CompanyCountry
   isExternal: true
-  href: SuperOffice.CRM.Services.SelectionMemberEditValues.html#SuperOffice_CRM_Services_SelectionMemberEditValues_CompanyCountry
   name: CompanyCountry
   nameWithType: SelectionMemberEditValues.CompanyCountry
   fullName: SuperOffice.CRM.Services.SelectionMemberEditValues.CompanyCountry
 - uid: SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeCompanyCountry*
   commentId: Overload:SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeCompanyCountry
   isExternal: true
-  href: SuperOffice.CRM.Services.SelectionMemberEditValues.html#SuperOffice_CRM_Services_SelectionMemberEditValues_ChangeCompanyCountry
   name: ChangeCompanyCountry
   nameWithType: SelectionMemberEditValues.ChangeCompanyCountry
   fullName: SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeCompanyCountry
 - uid: SuperOffice.CRM.Services.SelectionMemberEditValues.ContactJobTitle*
   commentId: Overload:SuperOffice.CRM.Services.SelectionMemberEditValues.ContactJobTitle
   isExternal: true
-  href: SuperOffice.CRM.Services.SelectionMemberEditValues.html#SuperOffice_CRM_Services_SelectionMemberEditValues_ContactJobTitle
   name: ContactJobTitle
   nameWithType: SelectionMemberEditValues.ContactJobTitle
   fullName: SuperOffice.CRM.Services.SelectionMemberEditValues.ContactJobTitle
 - uid: SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeContactJobTitle*
   commentId: Overload:SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeContactJobTitle
   isExternal: true
-  href: SuperOffice.CRM.Services.SelectionMemberEditValues.html#SuperOffice_CRM_Services_SelectionMemberEditValues_ChangeContactJobTitle
   name: ChangeContactJobTitle
   nameWithType: SelectionMemberEditValues.ChangeContactJobTitle
   fullName: SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeContactJobTitle
 - uid: SuperOffice.CRM.Services.SelectionMemberEditValues.CompanyOrgNr*
   commentId: Overload:SuperOffice.CRM.Services.SelectionMemberEditValues.CompanyOrgNr
   isExternal: true
-  href: SuperOffice.CRM.Services.SelectionMemberEditValues.html#SuperOffice_CRM_Services_SelectionMemberEditValues_CompanyOrgNr
   name: CompanyOrgNr
   nameWithType: SelectionMemberEditValues.CompanyOrgNr
   fullName: SuperOffice.CRM.Services.SelectionMemberEditValues.CompanyOrgNr
 - uid: SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeCompanyOrgNr*
   commentId: Overload:SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeCompanyOrgNr
   isExternal: true
-  href: SuperOffice.CRM.Services.SelectionMemberEditValues.html#SuperOffice_CRM_Services_SelectionMemberEditValues_ChangeCompanyOrgNr
   name: ChangeCompanyOrgNr
   nameWithType: SelectionMemberEditValues.ChangeCompanyOrgNr
   fullName: SuperOffice.CRM.Services.SelectionMemberEditValues.ChangeCompanyOrgNr

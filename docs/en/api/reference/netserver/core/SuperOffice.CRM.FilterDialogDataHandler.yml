@@ -22,29 +22,27 @@ items:
   nameWithType: FilterDialogDataHandler
   fullName: SuperOffice.CRM.FilterDialogDataHandler
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
-  summary: >-
-    Data fetch/save class for the Filter dialog. This class can be used (together with the FilterAssociates, FilterGroups and 
-
-    <xref href="SuperOffice.CRM.Lists.SelectableListHelper" data-throw-if-not-resolved="false"></xref> classes to fetch the currently selected groups and associates
-
-    of the filter dialog, as well as the from and to dates.
-  example: []
+  summary: "\nData fetch/save class for the Filter dialog. This class can be used (together with the FilterAssociates, FilterGroups and \n<xref href=\"SuperOffice.CRM.Lists.SelectableListHelper\" data-throw-if-not-resolved=\"false\"></xref> classes to fetch the currently selected groups and associates\nof the filter dialog, as well as the from and to dates.\n"
   syntax:
-    content: public static class FilterDialogDataHandler
-    content.vb: Public Module FilterDialogDataHandler
+    content: 'public static class FilterDialogDataHandler : Object'
+    content.vb: >-
+      Public Module FilterDialogDataHandler
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
 - uid: SuperOffice.CRM.FilterDialogDataHandler.GetSelectedGroupIds
   commentId: M:SuperOffice.CRM.FilterDialogDataHandler.GetSelectedGroupIds
   id: GetSelectedGroupIds
@@ -56,21 +54,26 @@ items:
   nameWithType: FilterDialogDataHandler.GetSelectedGroupIds()
   fullName: SuperOffice.CRM.FilterDialogDataHandler.GetSelectedGroupIds()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
-  summary: >-
-    Get the id's of the currently selected groups in the Filter dialog. If the All preference is set, 
-
-    all groups are considered selected. If no groups are set, the defaulting rules apply.
-  example: []
+  summary: "\nGet the id&apos;s of the currently selected groups in the Filter dialog. If the All preference is set, \nall groups are considered selected. If no groups are set, the defaulting rules apply.\n"
   syntax:
     content: public static int[] GetSelectedGroupIds()
     return:
       type: System.Int32[]
       description: Unique (but not sorted) group ids, may be empty
-    content.vb: Public Shared Function GetSelectedGroupIds() As Integer()
+    content.vb: Public Shared Function GetSelectedGroupIds As Integer()
   overload: SuperOffice.CRM.FilterDialogDataHandler.GetSelectedGroupIds*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.FilterDialogDataHandler.GetSelectedAssociateIds
   commentId: M:SuperOffice.CRM.FilterDialogDataHandler.GetSelectedAssociateIds
   id: GetSelectedAssociateIds
@@ -82,25 +85,26 @@ items:
   nameWithType: FilterDialogDataHandler.GetSelectedAssociateIds()
   fullName: SuperOffice.CRM.FilterDialogDataHandler.GetSelectedAssociateIds()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
-  summary: >-
-    Get the id's of the currently selected associates in the Filter dialog. Note that a selected group implies that all
-
-    its associates should be selected, but that logic is not maintained here - only in the presentation layer.
-
-    If the All preference is set,
-
-    all associates are considered selected. If no associates are selected, the defaulting rules apply.
-  example: []
+  summary: "\nGet the id&apos;s of the currently selected associates in the Filter dialog. Note that a selected group implies that all\nits associates should be selected, but that logic is not maintained here - only in the presentation layer.\nIf the All preference is set,\nall associates are considered selected. If no associates are selected, the defaulting rules apply.\n"
   syntax:
     content: public static int[] GetSelectedAssociateIds()
     return:
       type: System.Int32[]
       description: Unique (but not sorted) associate ids, may be empty
-    content.vb: Public Shared Function GetSelectedAssociateIds() As Integer()
+    content.vb: Public Shared Function GetSelectedAssociateIds As Integer()
   overload: SuperOffice.CRM.FilterDialogDataHandler.GetSelectedAssociateIds*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.FilterDialogDataHandler.GetFromDate
   commentId: M:SuperOffice.CRM.FilterDialogDataHandler.GetFromDate
   id: GetFromDate
@@ -112,21 +116,26 @@ items:
   nameWithType: FilterDialogDataHandler.GetFromDate()
   fullName: SuperOffice.CRM.FilterDialogDataHandler.GetFromDate()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
-  summary: >-
-    Get the 'from date', i.e., the date of the earliest visible activity. The date is recalculated based on the 'days before' (today)
-
-    value every time this method is called, and so moves with real time.
-  example: []
+  summary: "\nGet the &apos;from date&apos;, i.e., the date of the earliest visible activity. The date is recalculated based on the &apos;days before&apos; (today)\nvalue every time this method is called, and so moves with real time.\n"
   syntax:
     content: public static DateTime GetFromDate()
     return:
       type: System.DateTime
       description: Date of earliest visible activity, not necessarily earlier than today
-    content.vb: Public Shared Function GetFromDate() As Date
+    content.vb: Public Shared Function GetFromDate As DateTime
   overload: SuperOffice.CRM.FilterDialogDataHandler.GetFromDate*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.FilterDialogDataHandler.GetToDate
   commentId: M:SuperOffice.CRM.FilterDialogDataHandler.GetToDate
   id: GetToDate
@@ -138,21 +147,26 @@ items:
   nameWithType: FilterDialogDataHandler.GetToDate()
   fullName: SuperOffice.CRM.FilterDialogDataHandler.GetToDate()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
-  summary: >-
-    Get the 'to date', i.e., the date of the newest visible activity. The date is recalculated based on the 'days after' (today)
-
-    value every time this method is called, and so moves with real time.
-  example: []
+  summary: "\nGet the &apos;to date&apos;, i.e., the date of the newest visible activity. The date is recalculated based on the &apos;days after&apos; (today)\nvalue every time this method is called, and so moves with real time.\n"
   syntax:
     content: public static DateTime GetToDate()
     return:
       type: System.DateTime
       description: Date of latest visible activity, not necessarily greater than today
-    content.vb: Public Shared Function GetToDate() As Date
+    content.vb: Public Shared Function GetToDate As DateTime
   overload: SuperOffice.CRM.FilterDialogDataHandler.GetToDate*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.FilterDialogDataHandler.Save(System.Int32[],System.Int32[],System.DateTime,System.DateTime)
   commentId: M:SuperOffice.CRM.FilterDialogDataHandler.Save(System.Int32[],System.Int32[],System.DateTime,System.DateTime)
   id: Save(System.Int32[],System.Int32[],System.DateTime,System.DateTime)
@@ -160,54 +174,44 @@ items:
   langs:
   - csharp
   - vb
-  name: Save(int[], int[], DateTime, DateTime)
-  nameWithType: FilterDialogDataHandler.Save(int[], int[], DateTime, DateTime)
-  fullName: SuperOffice.CRM.FilterDialogDataHandler.Save(int[], int[], System.DateTime, System.DateTime)
+  name: Save(Int32[], Int32[], DateTime, DateTime)
+  nameWithType: FilterDialogDataHandler.Save(Int32[], Int32[], DateTime, DateTime)
+  fullName: SuperOffice.CRM.FilterDialogDataHandler.Save(System.Int32[], System.Int32[], System.DateTime, System.DateTime)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
-  summary: >-
-    Save the current Filter dialog settings: Groups, associates, from and to date. The dates are converted into days before and
-
-    days after today, for recalculation when fetching so that the interval moves properly with real time.
-  remarks: >-
-    There is a special case: 'All'. This case implies that there is no filtering on associates/groups, and is triggered by one of
-
-    two possible parameter values. Either both the associateIds and groupIds parameters are empty arrays (Length==0, not null!); or
-
-    the arrays exactly match in content the FilterAssociates and FilterGroups associate and group lists (that is, the same elements
-
-    are present, though they do not have to be in the same order).
-
-    <p></p>If the 'All' case is triggered, the number of associates and number of groups are saved as 0, and the special 'All' preference 
-
-    is set to true. This saves a lot of time on databases with many users, and is exactly the logic used in the Windows Client.
-  example: []
+  summary: "\nSave the current Filter dialog settings: Groups, associates, from and to date. The dates are converted into days before and\ndays after today, for recalculation when fetching so that the interval moves properly with real time.\n"
+  remarks: "\nThere is a special case: &apos;All&apos;. This case implies that there is no filtering on associates/groups, and is triggered by one of\ntwo possible parameter values. Either both the associateIds and groupIds parameters are empty arrays (Length==0, not null!); or\nthe arrays exactly match in content the FilterAssociates and FilterGroups associate and group lists (that is, the same elements\nare present, though they do not have to be in the same order).\n<p></p>If the &apos;All&apos; case is triggered, the number of associates and number of groups are saved as 0, and the special &apos;All&apos; preference \nis set to true. This saves a lot of time on databases with many users, and is exactly the logic used in the Windows Client.\n"
   syntax:
     content: public static void Save(int[] groupIds, int[] associateIds, DateTime fromDate, DateTime toDate)
     parameters:
     - id: groupIds
       type: System.Int32[]
-      description: >-
-        Array (may be empty but not null) of currently selected group ids. 
-                    The <xref href="SuperOffice.CRM.Lists.SelectableListHelper" data-throw-if-not-resolved="false"></xref> can be used to extract these ids from a list of selectable list items.
+      description: "Array (may be empty but not null) of currently selected group ids. \nThe <xref href=\"SuperOffice.CRM.Lists.SelectableListHelper\" data-throw-if-not-resolved=\"false\"></xref> can be used to extract these ids from a list of selectable list items."
     - id: associateIds
       type: System.Int32[]
-      description: >-
-        Array (may be empty but not null) of currently selected associate ids. 
-                    The <xref href="SuperOffice.CRM.Lists.SelectableListHelper" data-throw-if-not-resolved="false"></xref> can be used to extract these ids from a list of selectable list items.
+      description: "Array (may be empty but not null) of currently selected associate ids. \nThe <xref href=\"SuperOffice.CRM.Lists.SelectableListHelper\" data-throw-if-not-resolved=\"false\"></xref> can be used to extract these ids from a list of selectable list items."
     - id: fromDate
       type: System.DateTime
       description: Date of earliest visible activity, will be converted to days before today
     - id: toDate
       type: System.DateTime
       description: Date of latest visible activity, will be converted to days after today
-    content.vb: Public Shared Sub Save(groupIds As Integer(), associateIds As Integer(), fromDate As Date, toDate As Date)
+    content.vb: Public Shared Sub Save(groupIds As Integer(), associateIds As Integer(), fromDate As DateTime, toDate As DateTime)
   overload: SuperOffice.CRM.FilterDialogDataHandler.Save*
-  nameWithType.vb: FilterDialogDataHandler.Save(Integer(), Integer(), Date, Date)
-  fullName.vb: SuperOffice.CRM.FilterDialogDataHandler.Save(Integer(), Integer(), Date, Date)
-  name.vb: Save(Integer(), Integer(), Date, Date)
+  nameWithType.vb: FilterDialogDataHandler.Save(Int32(), Int32(), DateTime, DateTime)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.FilterDialogDataHandler.Save(System.Int32(), System.Int32(), System.DateTime, System.DateTime)
+  name.vb: Save(Int32(), Int32(), DateTime, DateTime)
 - uid: SuperOffice.CRM.FilterDialogDataHandler.AddFilterRestrictions(SuperOffice.Data.SQL.Select,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo)
   commentId: M:SuperOffice.CRM.FilterDialogDataHandler.AddFilterRestrictions(SuperOffice.Data.SQL.Select,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo)
   id: AddFilterRestrictions(SuperOffice.Data.SQL.Select,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo)
@@ -219,6 +223,9 @@ items:
   nameWithType: FilterDialogDataHandler.AddFilterRestrictions(Select, FieldInfo, FieldInfo)
   fullName: SuperOffice.CRM.FilterDialogDataHandler.AddFilterRestrictions(SuperOffice.Data.SQL.Select, SuperOffice.Data.SQL.FieldInfo, SuperOffice.Data.SQL.FieldInfo)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
@@ -231,8 +238,14 @@ items:
       type: SuperOffice.Data.SQL.FieldInfo
     - id: dateField
       type: SuperOffice.Data.SQL.FieldInfo
-    content.vb: Public Shared Sub AddFilterRestrictions(query As [Select], associateField As FieldInfo, dateField As FieldInfo)
+    content.vb: Public Shared Sub AddFilterRestrictions(query As  Select, associateField As FieldInfo, dateField As FieldInfo)
   overload: SuperOffice.CRM.FilterDialogDataHandler.AddFilterRestrictions*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.FilterDialogDataHandler.AddFilterRestrictions(SuperOffice.Data.SQL.Select,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo,System.Boolean)
   commentId: M:SuperOffice.CRM.FilterDialogDataHandler.AddFilterRestrictions(SuperOffice.Data.SQL.Select,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo,System.Boolean)
   id: AddFilterRestrictions(SuperOffice.Data.SQL.Select,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo,System.Boolean)
@@ -240,10 +253,13 @@ items:
   langs:
   - csharp
   - vb
-  name: AddFilterRestrictions(Select, FieldInfo, FieldInfo, bool)
-  nameWithType: FilterDialogDataHandler.AddFilterRestrictions(Select, FieldInfo, FieldInfo, bool)
-  fullName: SuperOffice.CRM.FilterDialogDataHandler.AddFilterRestrictions(SuperOffice.Data.SQL.Select, SuperOffice.Data.SQL.FieldInfo, SuperOffice.Data.SQL.FieldInfo, bool)
+  name: AddFilterRestrictions(Select, FieldInfo, FieldInfo, Boolean)
+  nameWithType: FilterDialogDataHandler.AddFilterRestrictions(Select, FieldInfo, FieldInfo, Boolean)
+  fullName: SuperOffice.CRM.FilterDialogDataHandler.AddFilterRestrictions(SuperOffice.Data.SQL.Select, SuperOffice.Data.SQL.FieldInfo, SuperOffice.Data.SQL.FieldInfo, System.Boolean)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
@@ -258,11 +274,14 @@ items:
       type: SuperOffice.Data.SQL.FieldInfo
     - id: includeAssoc0
       type: System.Boolean
-    content.vb: Public Shared Sub AddFilterRestrictions(query As [Select], associateField As FieldInfo, dateField As FieldInfo, includeAssoc0 As Boolean)
+    content.vb: Public Shared Sub AddFilterRestrictions(query As  Select, associateField As FieldInfo, dateField As FieldInfo, includeAssoc0 As Boolean)
   overload: SuperOffice.CRM.FilterDialogDataHandler.AddFilterRestrictions*
-  nameWithType.vb: FilterDialogDataHandler.AddFilterRestrictions(Select, FieldInfo, FieldInfo, Boolean)
-  fullName.vb: SuperOffice.CRM.FilterDialogDataHandler.AddFilterRestrictions(SuperOffice.Data.SQL.Select, SuperOffice.Data.SQL.FieldInfo, SuperOffice.Data.SQL.FieldInfo, Boolean)
-  name.vb: AddFilterRestrictions(Select, FieldInfo, FieldInfo, Boolean)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.FilterDialogDataHandler.AddFilterRestrictionsByEjuser(SuperOffice.Data.SQL.Select,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo)
   commentId: M:SuperOffice.CRM.FilterDialogDataHandler.AddFilterRestrictionsByEjuser(SuperOffice.Data.SQL.Select,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo)
   id: AddFilterRestrictionsByEjuser(SuperOffice.Data.SQL.Select,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo)
@@ -274,6 +293,9 @@ items:
   nameWithType: FilterDialogDataHandler.AddFilterRestrictionsByEjuser(Select, FieldInfo, FieldInfo)
   fullName: SuperOffice.CRM.FilterDialogDataHandler.AddFilterRestrictionsByEjuser(SuperOffice.Data.SQL.Select, SuperOffice.Data.SQL.FieldInfo, SuperOffice.Data.SQL.FieldInfo)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
@@ -286,8 +308,14 @@ items:
       type: SuperOffice.Data.SQL.FieldInfo
     - id: dateField
       type: SuperOffice.Data.SQL.FieldInfo
-    content.vb: Public Shared Sub AddFilterRestrictionsByEjuser(query As [Select], ejUserField As FieldInfo, dateField As FieldInfo)
+    content.vb: Public Shared Sub AddFilterRestrictionsByEjuser(query As  Select, ejUserField As FieldInfo, dateField As FieldInfo)
   overload: SuperOffice.CRM.FilterDialogDataHandler.AddFilterRestrictionsByEjuser*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.FilterDialogDataHandler.AreAllAssociatesSelected
   commentId: P:SuperOffice.CRM.FilterDialogDataHandler.AreAllAssociatesSelected
   id: AreAllAssociatesSelected
@@ -299,6 +327,9 @@ items:
   nameWithType: FilterDialogDataHandler.AreAllAssociatesSelected
   fullName: SuperOffice.CRM.FilterDialogDataHandler.AreAllAssociatesSelected
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
@@ -309,6 +340,14 @@ items:
       type: System.Boolean
     content.vb: Public Shared ReadOnly Property AreAllAssociatesSelected As Boolean
   overload: SuperOffice.CRM.FilterDialogDataHandler.AreAllAssociatesSelected*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
 - uid: SuperOffice.CRM.FilterDialogDataHandler.DefaultFilterValue
   commentId: P:SuperOffice.CRM.FilterDialogDataHandler.DefaultFilterValue
   id: DefaultFilterValue
@@ -320,6 +359,9 @@ items:
   nameWithType: FilterDialogDataHandler.DefaultFilterValue
   fullName: SuperOffice.CRM.FilterDialogDataHandler.DefaultFilterValue
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
@@ -330,351 +372,98 @@ items:
       type: SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter
     content.vb: Public Shared ReadOnly Property DefaultFilterValue As FilterDialogDataHandler.DefaultFilter
   overload: SuperOffice.CRM.FilterDialogDataHandler.DefaultFilterValue*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
 references:
-- uid: SuperOffice.CRM.Lists.SelectableListHelper
-  commentId: T:SuperOffice.CRM.Lists.SelectableListHelper
-  isExternal: true
-  href: SuperOffice.CRM.Lists.SelectableListHelper.html
-  name: SelectableListHelper
-  nameWithType: SelectableListHelper
-  fullName: SuperOffice.CRM.Lists.SelectableListHelper
 - uid: SuperOffice.CRM
   commentId: N:SuperOffice.CRM
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM
   nameWithType: SuperOffice.CRM
   fullName: SuperOffice.CRM
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.CRM.FilterDialogDataHandler.GetSelectedGroupIds*
   commentId: Overload:SuperOffice.CRM.FilterDialogDataHandler.GetSelectedGroupIds
   isExternal: true
-  href: SuperOffice.CRM.FilterDialogDataHandler.html#SuperOffice_CRM_FilterDialogDataHandler_GetSelectedGroupIds
   name: GetSelectedGroupIds
   nameWithType: FilterDialogDataHandler.GetSelectedGroupIds
   fullName: SuperOffice.CRM.FilterDialogDataHandler.GetSelectedGroupIds
 - uid: System.Int32[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int[]
-  nameWithType: int[]
-  fullName: int[]
-  nameWithType.vb: Integer()
-  fullName.vb: Integer()
-  name.vb: Integer()
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
   spec.csharp:
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.FilterDialogDataHandler.GetSelectedAssociateIds*
   commentId: Overload:SuperOffice.CRM.FilterDialogDataHandler.GetSelectedAssociateIds
   isExternal: true
-  href: SuperOffice.CRM.FilterDialogDataHandler.html#SuperOffice_CRM_FilterDialogDataHandler_GetSelectedAssociateIds
   name: GetSelectedAssociateIds
   nameWithType: FilterDialogDataHandler.GetSelectedAssociateIds
   fullName: SuperOffice.CRM.FilterDialogDataHandler.GetSelectedAssociateIds
 - uid: SuperOffice.CRM.FilterDialogDataHandler.GetFromDate*
   commentId: Overload:SuperOffice.CRM.FilterDialogDataHandler.GetFromDate
   isExternal: true
-  href: SuperOffice.CRM.FilterDialogDataHandler.html#SuperOffice_CRM_FilterDialogDataHandler_GetFromDate
   name: GetFromDate
   nameWithType: FilterDialogDataHandler.GetFromDate
   fullName: SuperOffice.CRM.FilterDialogDataHandler.GetFromDate
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
 - uid: SuperOffice.CRM.FilterDialogDataHandler.GetToDate*
   commentId: Overload:SuperOffice.CRM.FilterDialogDataHandler.GetToDate
   isExternal: true
-  href: SuperOffice.CRM.FilterDialogDataHandler.html#SuperOffice_CRM_FilterDialogDataHandler_GetToDate
   name: GetToDate
   nameWithType: FilterDialogDataHandler.GetToDate
   fullName: SuperOffice.CRM.FilterDialogDataHandler.GetToDate
 - uid: SuperOffice.CRM.FilterDialogDataHandler.Save*
   commentId: Overload:SuperOffice.CRM.FilterDialogDataHandler.Save
   isExternal: true
-  href: SuperOffice.CRM.FilterDialogDataHandler.html#SuperOffice_CRM_FilterDialogDataHandler_Save_System_Int32___System_Int32___System_DateTime_System_DateTime_
   name: Save
   nameWithType: FilterDialogDataHandler.Save
   fullName: SuperOffice.CRM.FilterDialogDataHandler.Save
 - uid: SuperOffice.CRM.FilterDialogDataHandler.AddFilterRestrictions*
   commentId: Overload:SuperOffice.CRM.FilterDialogDataHandler.AddFilterRestrictions
   isExternal: true
-  href: SuperOffice.CRM.FilterDialogDataHandler.html#SuperOffice_CRM_FilterDialogDataHandler_AddFilterRestrictions_SuperOffice_Data_SQL_Select_SuperOffice_Data_SQL_FieldInfo_SuperOffice_Data_SQL_FieldInfo_
   name: AddFilterRestrictions
   nameWithType: FilterDialogDataHandler.AddFilterRestrictions
   fullName: SuperOffice.CRM.FilterDialogDataHandler.AddFilterRestrictions
@@ -682,7 +471,6 @@ references:
   commentId: T:SuperOffice.Data.SQL.Select
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.Select.html
   name: Select
   nameWithType: Select
   fullName: SuperOffice.Data.SQL.Select
@@ -690,76 +478,37 @@ references:
   commentId: T:SuperOffice.Data.SQL.FieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.FieldInfo.html
   name: FieldInfo
   nameWithType: FieldInfo
   fullName: SuperOffice.Data.SQL.FieldInfo
 - uid: SuperOffice.Data.SQL
   commentId: N:SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.SQL
-    name: SQL
-    isExternal: true
-    href: SuperOffice.Data.SQL.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.SQL
-    name: SQL
-    isExternal: true
-    href: SuperOffice.Data.SQL.html
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.CRM.FilterDialogDataHandler.AddFilterRestrictionsByEjuser*
   commentId: Overload:SuperOffice.CRM.FilterDialogDataHandler.AddFilterRestrictionsByEjuser
   isExternal: true
-  href: SuperOffice.CRM.FilterDialogDataHandler.html#SuperOffice_CRM_FilterDialogDataHandler_AddFilterRestrictionsByEjuser_SuperOffice_Data_SQL_Select_SuperOffice_Data_SQL_FieldInfo_SuperOffice_Data_SQL_FieldInfo_
   name: AddFilterRestrictionsByEjuser
   nameWithType: FilterDialogDataHandler.AddFilterRestrictionsByEjuser
   fullName: SuperOffice.CRM.FilterDialogDataHandler.AddFilterRestrictionsByEjuser
 - uid: SuperOffice.CRM.FilterDialogDataHandler.AreAllAssociatesSelected*
   commentId: Overload:SuperOffice.CRM.FilterDialogDataHandler.AreAllAssociatesSelected
   isExternal: true
-  href: SuperOffice.CRM.FilterDialogDataHandler.html#SuperOffice_CRM_FilterDialogDataHandler_AreAllAssociatesSelected
   name: AreAllAssociatesSelected
   nameWithType: FilterDialogDataHandler.AreAllAssociatesSelected
   fullName: SuperOffice.CRM.FilterDialogDataHandler.AreAllAssociatesSelected
 - uid: SuperOffice.CRM.FilterDialogDataHandler.DefaultFilterValue*
   commentId: Overload:SuperOffice.CRM.FilterDialogDataHandler.DefaultFilterValue
   isExternal: true
-  href: SuperOffice.CRM.FilterDialogDataHandler.html#SuperOffice_CRM_FilterDialogDataHandler_DefaultFilterValue
   name: DefaultFilterValue
   nameWithType: FilterDialogDataHandler.DefaultFilterValue
   fullName: SuperOffice.CRM.FilterDialogDataHandler.DefaultFilterValue
@@ -767,27 +516,6 @@ references:
   commentId: T:SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter
   parent: SuperOffice.CRM
   isExternal: true
-  href: SuperOffice.CRM.FilterDialogDataHandler.html
   name: FilterDialogDataHandler.DefaultFilter
   nameWithType: FilterDialogDataHandler.DefaultFilter
   fullName: SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter
-  spec.csharp:
-  - uid: SuperOffice.CRM.FilterDialogDataHandler
-    name: FilterDialogDataHandler
-    isExternal: true
-    href: SuperOffice.CRM.FilterDialogDataHandler.html
-  - name: .
-  - uid: SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter
-    name: DefaultFilter
-    isExternal: true
-    href: SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter.html
-  spec.vb:
-  - uid: SuperOffice.CRM.FilterDialogDataHandler
-    name: FilterDialogDataHandler
-    isExternal: true
-    href: SuperOffice.CRM.FilterDialogDataHandler.html
-  - name: .
-  - uid: SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter
-    name: DefaultFilter
-    isExternal: true
-    href: SuperOffice.CRM.FilterDialogDataHandler.DefaultFilter.html

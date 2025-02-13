@@ -7,8 +7,8 @@ items:
   children:
   - SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.#ctor
   - SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.GroupId
-  - SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.MrMrsId
   - SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.MrmrsgrouplinkId
+  - SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.MrMrsId
   - SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.Registered
   - SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.RegisteredAssociateId
   - SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.Updated
@@ -21,41 +21,33 @@ items:
   nameWithType: MrMrsGroupLinkRecordData
   fullName: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: >-
-    POCO (Plain Old CLR Object) class that can be used to hold data corresponding
-
-    to a row from the MrMrsGroupLink table.
-  remarks: >-
-    Please use this class instead of a full <xref href="SuperOffice.CRM.Rows.MrMrsGroupLinkRow" data-throw-if-not-resolved="false"></xref> object when
-
-    you do not need to <b>create or update</b> a value in the database. Row objects have a large overhead
-
-    since they carry the corresponding <xref href="SuperOffice.CRM.Data.MrMrsGroupLinkTableInfo" data-throw-if-not-resolved="false"></xref> object, which
-
-    in turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.
-  example: []
+  summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the MrMrsGroupLink table.\n"
+  remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.MrMrsGroupLinkRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.MrMrsGroupLinkTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
   syntax:
-    content: public class MrMrsGroupLinkRecordData
-    content.vb: Public Class MrMrsGroupLinkRecordData
+    content: 'public class MrMrsGroupLinkRecordData : Object'
+    content.vb: >-
+      Public Class MrMrsGroupLinkRecordData
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.EnumUtil.MapEnums``2
-  - SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.SuperOffice.CRM.Rows.MrMrsGroupLinkRecordDataExtensions.ToInsert
-  - SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData)
   - SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.SuperOffice.CRM.Rows.MrMrsGroupLinkRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.MrmrsgrouplinkId
   commentId: F:SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.MrmrsgrouplinkId
   id: MrmrsgrouplinkId
@@ -67,16 +59,22 @@ items:
   nameWithType: MrMrsGroupLinkRecordData.MrmrsgrouplinkId
   fullName: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.MrmrsgrouplinkId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Primary key
-  example: []
+  summary: "\nPrimary key \n"
   syntax:
     content: public int MrmrsgrouplinkId
     return:
       type: System.Int32
     content.vb: Public MrmrsgrouplinkId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.MrMrsId
   commentId: F:SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.MrMrsId
   id: MrMrsId
@@ -88,16 +86,22 @@ items:
   nameWithType: MrMrsGroupLinkRecordData.MrMrsId
   fullName: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.MrMrsId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Link to MrMrs list table
-  example: []
+  summary: "\nLink to MrMrs list table \n"
   syntax:
     content: public int MrMrsId
     return:
       type: System.Int32
     content.vb: Public MrMrsId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.GroupId
   commentId: F:SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.GroupId
   id: GroupId
@@ -109,16 +113,22 @@ items:
   nameWithType: MrMrsGroupLinkRecordData.GroupId
   fullName: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.GroupId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Link to Group table
-  example: []
+  summary: "\nLink to Group table \n"
   syntax:
     content: public int GroupId
     return:
       type: System.Int32
     content.vb: Public GroupId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.Registered
   commentId: F:SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.Registered
   id: Registered
@@ -130,16 +140,22 @@ items:
   nameWithType: MrMrsGroupLinkRecordData.Registered
   fullName: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.Registered
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Registered when in UTC.
-  example: []
+  summary: "\nRegistered when in UTC.  \n"
   syntax:
     content: public DateTime Registered
     return:
       type: System.DateTime
-    content.vb: Public Registered As Date
+    content.vb: Public Registered As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.RegisteredAssociateId
   commentId: F:SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.RegisteredAssociateId
   id: RegisteredAssociateId
@@ -151,16 +167,22 @@ items:
   nameWithType: MrMrsGroupLinkRecordData.RegisteredAssociateId
   fullName: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.RegisteredAssociateId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Registered by whom
-  example: []
+  summary: "\nRegistered by whom \n"
   syntax:
     content: public int RegisteredAssociateId
     return:
       type: System.Int32
     content.vb: Public RegisteredAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.Updated
   commentId: F:SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.Updated
   id: Updated
@@ -172,16 +194,22 @@ items:
   nameWithType: MrMrsGroupLinkRecordData.Updated
   fullName: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.Updated
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Last updated when in UTC.
-  example: []
+  summary: "\nLast updated when in UTC.  \n"
   syntax:
     content: public DateTime Updated
     return:
       type: System.DateTime
-    content.vb: Public Updated As Date
+    content.vb: Public Updated As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.UpdatedAssociateId
   commentId: F:SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.UpdatedAssociateId
   id: UpdatedAssociateId
@@ -193,16 +221,22 @@ items:
   nameWithType: MrMrsGroupLinkRecordData.UpdatedAssociateId
   fullName: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.UpdatedAssociateId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Last updated by whom
-  example: []
+  summary: "\nLast updated by whom \n"
   syntax:
     content: public int UpdatedAssociateId
     return:
       type: System.Int32
     content.vb: Public UpdatedAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.UpdatedCount
   commentId: F:SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.UpdatedCount
   id: UpdatedCount
@@ -214,16 +248,22 @@ items:
   nameWithType: MrMrsGroupLinkRecordData.UpdatedCount
   fullName: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.UpdatedCount
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Number of updates made to this record
-  example: []
+  summary: "\nNumber of updates made to this record \n"
   syntax:
     content: public short UpdatedCount
     return:
       type: System.Int16
     content.vb: Public UpdatedCount As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.#ctor
   commentId: M:SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.#ctor
   id: '#ctor'
@@ -235,590 +275,220 @@ items:
   nameWithType: MrMrsGroupLinkRecordData.MrMrsGroupLinkRecordData()
   fullName: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.MrMrsGroupLinkRecordData()
   type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
     content: public MrMrsGroupLinkRecordData()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.#ctor*
-  nameWithType.vb: MrMrsGroupLinkRecordData.New()
-  fullName.vb: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 references:
-- uid: SuperOffice.CRM.Rows.MrMrsGroupLinkRow
-  commentId: T:SuperOffice.CRM.Rows.MrMrsGroupLinkRow
-  parent: SuperOffice.CRM.Rows
-  isExternal: true
-  href: SuperOffice.CRM.Rows.MrMrsGroupLinkRow.html
-  name: MrMrsGroupLinkRow
-  nameWithType: MrMrsGroupLinkRow
-  fullName: SuperOffice.CRM.Rows.MrMrsGroupLinkRow
-- uid: SuperOffice.CRM.Data.MrMrsGroupLinkTableInfo
-  commentId: T:SuperOffice.CRM.Data.MrMrsGroupLinkTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.MrMrsGroupLinkTableInfo.html
-  name: MrMrsGroupLinkTableInfo
-  nameWithType: MrMrsGroupLinkTableInfo
-  fullName: SuperOffice.CRM.Data.MrMrsGroupLinkTableInfo
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows
-    name: Rows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows
-    name: Rows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<MrMrsGroupLinkRecordData, To>(MrMrsGroupLinkRecordData)
-  nameWithType: EnumUtil.MapEnums<MrMrsGroupLinkRecordData, To>(MrMrsGroupLinkRecordData)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData, To>(SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData)
-  nameWithType.vb: EnumUtil.MapEnums(Of MrMrsGroupLinkRecordData, To)(MrMrsGroupLinkRecordData)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData, To)(SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData)
-  name.vb: MapEnums(Of MrMrsGroupLinkRecordData, To)(MrMrsGroupLinkRecordData)
+  name: MapEnums<MrMrsGroupLinkRecordData, To>()
+  nameWithType: EnumUtil.MapEnums<MrMrsGroupLinkRecordData, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of MrMrsGroupLinkRecordData, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData, To)()
+  name.vb: MapEnums(Of MrMrsGroupLinkRecordData, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<MrMrsGroupLinkRecordData, To>
+    nameWithType: EnumUtil.MapEnums<MrMrsGroupLinkRecordData, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData
-    name: MrMrsGroupLinkRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData
-    name: MrMrsGroupLinkRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of MrMrsGroupLinkRecordData, To)
+    nameWithType: EnumUtil.MapEnums(Of MrMrsGroupLinkRecordData, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData
-    name: MrMrsGroupLinkRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData
-    name: MrMrsGroupLinkRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.html
-  - name: )
-- uid: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.SuperOffice.CRM.Rows.MrMrsGroupLinkRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.MrMrsGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData)
-  parent: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData)
-  href: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordDataExtensions.html#SuperOffice_CRM_Rows_MrMrsGroupLinkRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_MrMrsGroupLinkRecordData_
-  name: ToInsert(MrMrsGroupLinkRecordData)
-  nameWithType: MrMrsGroupLinkRecordDataExtensions.ToInsert(MrMrsGroupLinkRecordData)
-  fullName: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData)
-    name: ToInsert
-    isExternal: true
-    href: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordDataExtensions.html#SuperOffice_CRM_Rows_MrMrsGroupLinkRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_MrMrsGroupLinkRecordData_
-  - name: (
-  - uid: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData
-    name: MrMrsGroupLinkRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData)
-    name: ToInsert
-    isExternal: true
-    href: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordDataExtensions.html#SuperOffice_CRM_Rows_MrMrsGroupLinkRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_MrMrsGroupLinkRecordData_
-  - name: (
-  - uid: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData
-    name: MrMrsGroupLinkRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.html
-  - name: )
-- uid: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  parent: SuperOffice.ErpSync.ConnectorWS.Converters
-  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<MrMrsGroupLinkRecordData, To>(MrMrsGroupLinkRecordData)
-  nameWithType: Converters.MapEnums<MrMrsGroupLinkRecordData, To>(MrMrsGroupLinkRecordData)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData, To>(SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData)
-  nameWithType.vb: Converters.MapEnums(Of MrMrsGroupLinkRecordData, To)(MrMrsGroupLinkRecordData)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData, To)(SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData)
-  name.vb: MapEnums(Of MrMrsGroupLinkRecordData, To)(MrMrsGroupLinkRecordData)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData
-    name: MrMrsGroupLinkRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData
-    name: MrMrsGroupLinkRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData
-    name: MrMrsGroupLinkRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData
-    name: MrMrsGroupLinkRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<MrMrsGroupLinkRecordData>(MrMrsGroupLinkRecordData, MrMrsGroupLinkRecordData)
-  nameWithType: ObjectExtensions.AssignByReflection<MrMrsGroupLinkRecordData>(MrMrsGroupLinkRecordData, MrMrsGroupLinkRecordData)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData>(SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData, SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of MrMrsGroupLinkRecordData)(MrMrsGroupLinkRecordData, MrMrsGroupLinkRecordData)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData)(SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData, SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData)
-  name.vb: AssignByReflection(Of MrMrsGroupLinkRecordData)(MrMrsGroupLinkRecordData, MrMrsGroupLinkRecordData)
+  name: AssignByReflection<MrMrsGroupLinkRecordData>(MrMrsGroupLinkRecordData)
+  nameWithType: ObjectExtensions.AssignByReflection<MrMrsGroupLinkRecordData>(MrMrsGroupLinkRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData>(SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of MrMrsGroupLinkRecordData)(MrMrsGroupLinkRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData)(SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData)
+  name.vb: AssignByReflection(Of MrMrsGroupLinkRecordData)(MrMrsGroupLinkRecordData)
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData,SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<MrMrsGroupLinkRecordData>
+    nameWithType: ObjectExtensions.AssignByReflection<MrMrsGroupLinkRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData
-    name: MrMrsGroupLinkRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.html
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData
     name: MrMrsGroupLinkRecordData
+    nameWithType: MrMrsGroupLinkRecordData
+    fullName: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData
     isExternal: true
-    href: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData
-    name: MrMrsGroupLinkRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData,SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of MrMrsGroupLinkRecordData)
+    nameWithType: ObjectExtensions.AssignByReflection(Of MrMrsGroupLinkRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData
     name: MrMrsGroupLinkRecordData
+    nameWithType: MrMrsGroupLinkRecordData
+    fullName: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData
     isExternal: true
-    href: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.html
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData
-    name: MrMrsGroupLinkRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData
-    name: MrMrsGroupLinkRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<MrMrsGroupLinkRecordData>(MrMrsGroupLinkRecordData)
-  nameWithType: ObjectExtensions.GraphCopy<MrMrsGroupLinkRecordData>(MrMrsGroupLinkRecordData)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData>(SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of MrMrsGroupLinkRecordData)(MrMrsGroupLinkRecordData)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData)(SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData)
-  name.vb: GraphCopy(Of MrMrsGroupLinkRecordData)(MrMrsGroupLinkRecordData)
+  name: GraphCopy<MrMrsGroupLinkRecordData>()
+  nameWithType: ObjectExtensions.GraphCopy<MrMrsGroupLinkRecordData>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of MrMrsGroupLinkRecordData)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData)()
+  name.vb: GraphCopy(Of MrMrsGroupLinkRecordData)()
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<MrMrsGroupLinkRecordData>
+    nameWithType: ObjectExtensions.GraphCopy<MrMrsGroupLinkRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData
-    name: MrMrsGroupLinkRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.html
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData
-    name: MrMrsGroupLinkRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of MrMrsGroupLinkRecordData)
+    nameWithType: ObjectExtensions.GraphCopy(Of MrMrsGroupLinkRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData
-    name: MrMrsGroupLinkRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.html
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData
-    name: MrMrsGroupLinkRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.html
-  - name: )
-- uid: SuperOffice.CRM.Data
-  commentId: N:SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM.Data
-  nameWithType: SuperOffice.CRM.Data
-  fullName: SuperOffice.CRM.Data
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.SuperOffice.CRM.Rows.MrMrsGroupLinkRecordDataExtensions.ToInsert
+  commentId: M:SuperOffice.CRM.Rows.MrMrsGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData)
+  parent: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordDataExtensions
+  definition: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData)
+  name: ToInsert()
+  nameWithType: MrMrsGroupLinkRecordDataExtensions.ToInsert()
+  fullName: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordDataExtensions.ToInsert()
   spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: MrMrsGroupLinkRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordDataExtensions.ToInsert
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.CRM.Data.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: MrMrsGroupLinkRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordDataExtensions.ToInsert
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<MrMrsGroupLinkRecordData, To>()
+  nameWithType: Converters.MapEnums<MrMrsGroupLinkRecordData, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData, To>()
+  nameWithType.vb: Converters.MapEnums(Of MrMrsGroupLinkRecordData, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData, To)()
+  name.vb: MapEnums(Of MrMrsGroupLinkRecordData, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<MrMrsGroupLinkRecordData, To>
+    nameWithType: Converters.MapEnums<MrMrsGroupLinkRecordData, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData, To>
     isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of MrMrsGroupLinkRecordData, To)
+    nameWithType: Converters.MapEnums(Of MrMrsGroupLinkRecordData, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData, To)
     isExternal: true
-    href: SuperOffice.CRM.Data.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -827,130 +497,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData)
-  commentId: M:SuperOffice.CRM.Rows.MrMrsGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData)
-  isExternal: true
-  href: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordDataExtensions.html#SuperOffice_CRM_Rows_MrMrsGroupLinkRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_MrMrsGroupLinkRecordData_
-  name: ToInsert(MrMrsGroupLinkRecordData)
-  nameWithType: MrMrsGroupLinkRecordDataExtensions.ToInsert(MrMrsGroupLinkRecordData)
-  fullName: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData)
-    name: ToInsert
-    isExternal: true
-    href: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordDataExtensions.html#SuperOffice_CRM_Rows_MrMrsGroupLinkRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_MrMrsGroupLinkRecordData_
-  - name: (
-  - uid: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData
-    name: MrMrsGroupLinkRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData)
-    name: ToInsert
-    isExternal: true
-    href: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordDataExtensions.html#SuperOffice_CRM_Rows_MrMrsGroupLinkRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_MrMrsGroupLinkRecordData_
-  - name: (
-  - uid: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData
-    name: MrMrsGroupLinkRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.html
-  - name: )
-- uid: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordDataExtensions
-  commentId: T:SuperOffice.CRM.Rows.MrMrsGroupLinkRecordDataExtensions
-  parent: SuperOffice.CRM.Rows
-  isExternal: true
-  href: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordDataExtensions.html
-  name: MrMrsGroupLinkRecordDataExtensions
-  nameWithType: MrMrsGroupLinkRecordDataExtensions
-  fullName: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordDataExtensions
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<From, To>(From)
-  nameWithType: Converters.MapEnums<From, To>(From)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
-  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
-  name.vb: MapEnums(Of From, To)(From)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - name: From
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - name: From
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters
-  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
-  parent: SuperOffice.ErpSync.ConnectorWS
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
-  name: Converters
-  nameWithType: Converters
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   name: AssignByReflection<T>(T, T)
   nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
   fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
@@ -959,46 +542,56 @@ references:
   name.vb: AssignByReflection(Of T)(T, T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
-  - name: ','
-  - name: " "
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.ObjectExtensions
   commentId: T:SuperOffice.Util.ObjectExtensions
   parent: SuperOffice.Util
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
   name: ObjectExtensions
   nameWithType: ObjectExtensions
   fullName: SuperOffice.Util.ObjectExtensions
 - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   name: GraphCopy<T>(T)
   nameWithType: ObjectExtensions.GraphCopy<T>(T)
   fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
@@ -1007,132 +600,161 @@ references:
   name.vb: GraphCopy(Of T)(T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS
-  commentId: N:SuperOffice.ErpSync.ConnectorWS
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData)
+  commentId: M:SuperOffice.CRM.Rows.MrMrsGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData)
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.ErpSync.ConnectorWS
-  nameWithType: SuperOffice.ErpSync.ConnectorWS
-  fullName: SuperOffice.ErpSync.ConnectorWS
+  name: ToInsert(MrMrsGroupLinkRecordData)
+  nameWithType: MrMrsGroupLinkRecordDataExtensions.ToInsert(MrMrsGroupLinkRecordData)
+  fullName: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData)
   spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData)
+    name: ToInsert
+    nameWithType: MrMrsGroupLinkRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordDataExtensions.ToInsert
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData
+    name: MrMrsGroupLinkRecordData
+    nameWithType: MrMrsGroupLinkRecordData
+    fullName: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData
     isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData)
+    name: ToInsert
+    nameWithType: MrMrsGroupLinkRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordDataExtensions.ToInsert
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData
+    name: MrMrsGroupLinkRecordData
+    nameWithType: MrMrsGroupLinkRecordData
+    fullName: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData
     isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.MrMrsGroupLinkRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: MrMrsGroupLinkRecordDataExtensions
+  nameWithType: MrMrsGroupLinkRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordDataExtensions
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
 - uid: System.Int16
   commentId: T:System.Int16
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int16
-  name: short
-  nameWithType: short
-  fullName: short
-  nameWithType.vb: Short
-  fullName.vb: Short
-  name.vb: Short
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.#ctor*
   commentId: Overload:SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.html#SuperOffice_CRM_Rows_MrMrsGroupLinkRecordData__ctor
   name: MrMrsGroupLinkRecordData
   nameWithType: MrMrsGroupLinkRecordData.MrMrsGroupLinkRecordData
   fullName: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.MrMrsGroupLinkRecordData
-  nameWithType.vb: MrMrsGroupLinkRecordData.New
-  fullName.vb: SuperOffice.CRM.Rows.MrMrsGroupLinkRecordData.New
-  name.vb: New

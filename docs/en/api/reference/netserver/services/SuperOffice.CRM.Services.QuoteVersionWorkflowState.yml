@@ -19,27 +19,18 @@ items:
   nameWithType: QuoteVersionWorkflowState
   fullName: SuperOffice.CRM.Services.QuoteVersionWorkflowState
   type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Information about possible button actions for the quote version dialog.
-
-    <p></p>
-
-    Carrier object for QuoteVersionWorkflowState.
-
-    Services for the QuoteVersionWorkflowState Carrier is available from the <xref href="SuperOffice.CRM.Services.IQuoteAgent?text=Quote+Agent" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nInformation about possible button actions for the quote version dialog.\n<p></p>\nCarrier object for QuoteVersionWorkflowState.\nServices for the QuoteVersionWorkflowState Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IQuoteAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public class QuoteVersionWorkflowState : Carrier
+    content: 'public class QuoteVersionWorkflowState : Carrier'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
-
-      Public Class QuoteVersionWorkflowState Inherits Carrier
+      Public Class QuoteVersionWorkflowState
+          Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.QuoteAgent
     commentId: T:SuperOffice.CRM.Services.QuoteAgent
@@ -47,14 +38,12 @@ items:
     commentId: T:SuperOffice.CRM.Services.IQuoteAgent
   inheritance:
   - System.Object
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.QuoteVersionWorkflowState.#ctor
   commentId: M:SuperOffice.CRM.Services.QuoteVersionWorkflowState.#ctor
   id: '#ctor'
@@ -66,18 +55,21 @@ items:
   nameWithType: QuoteVersionWorkflowState.QuoteVersionWorkflowState()
   fullName: SuperOffice.CRM.Services.QuoteVersionWorkflowState.QuoteVersionWorkflowState()
   type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Default constructor
-  example: []
+  summary: "\nDefault constructor\n"
   syntax:
     content: public QuoteVersionWorkflowState()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.QuoteVersionWorkflowState.#ctor*
-  nameWithType.vb: QuoteVersionWorkflowState.New()
-  fullName.vb: SuperOffice.CRM.Services.QuoteVersionWorkflowState.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.QuoteVersionWorkflowState.ToString
   commentId: M:SuperOffice.CRM.Services.QuoteVersionWorkflowState.ToString
   id: ToString
@@ -89,18 +81,26 @@ items:
   nameWithType: QuoteVersionWorkflowState.ToString()
   fullName: SuperOffice.CRM.Services.QuoteVersionWorkflowState.ToString()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the carrier contents as a formatted string.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string.\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString() As String
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.CRM.Services.QuoteVersionWorkflowState.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Services.QuoteVersionWorkflowState.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.QuoteVersionWorkflowState.ToString(System.String)
   id: ToString(System.String)
@@ -108,18 +108,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(string)
-  nameWithType: QuoteVersionWorkflowState.ToString(string)
-  fullName: SuperOffice.CRM.Services.QuoteVersionWorkflowState.ToString(string)
+  name: ToString(String)
+  nameWithType: QuoteVersionWorkflowState.ToString(String)
+  fullName: SuperOffice.CRM.Services.QuoteVersionWorkflowState.ToString(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Returns the carrier contents as a formatted string, useful for debugging.
-
-    Each line in the output is prefixed with the input value.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -131,9 +130,10 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.QuoteVersionWorkflowState.ToString*
-  nameWithType.vb: QuoteVersionWorkflowState.ToString(String)
-  fullName.vb: SuperOffice.CRM.Services.QuoteVersionWorkflowState.ToString(String)
-  name.vb: ToString(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.QuoteVersionWorkflowState.ActionButtons
   commentId: P:SuperOffice.CRM.Services.QuoteVersionWorkflowState.ActionButtons
   id: ActionButtons
@@ -145,28 +145,28 @@ items:
   nameWithType: QuoteVersionWorkflowState.ActionButtons
   fullName: SuperOffice.CRM.Services.QuoteVersionWorkflowState.ActionButtons
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Array of visible buttons with defined actions in the quote verson dialog.
-  example: []
+  summary: "\nArray of visible buttons with defined actions in the quote verson dialog. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual QuoteVersionButtonState[] ActionButtons { get; set; }
+    content: public virtual QuoteVersionButtonState[] ActionButtons { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.QuoteVersionButtonState[]
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ActionButtons As QuoteVersionButtonState()
+    content.vb: Public Overridable Property ActionButtons As QuoteVersionButtonState()
   overload: SuperOffice.CRM.Services.QuoteVersionWorkflowState.ActionButtons*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuoteVersionWorkflowState.StateImage
   commentId: P:SuperOffice.CRM.Services.QuoteVersionWorkflowState.StateImage
   id: StateImage
@@ -178,28 +178,28 @@ items:
   nameWithType: QuoteVersionWorkflowState.StateImage
   fullName: SuperOffice.CRM.Services.QuoteVersionWorkflowState.StateImage
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Information about the state image for the current quote version.
-  example: []
+  summary: "\nInformation about the state image for the current quote version. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual QuoteVersionButtonState StateImage { get; set; }
+    content: public virtual QuoteVersionButtonState StateImage { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.QuoteVersionButtonState
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property StateImage As QuoteVersionButtonState
+    content.vb: Public Overridable Property StateImage As QuoteVersionButtonState
   overload: SuperOffice.CRM.Services.QuoteVersionWorkflowState.StateImage*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuoteVersionWorkflowState.UpdatePricesButton
   commentId: P:SuperOffice.CRM.Services.QuoteVersionWorkflowState.UpdatePricesButton
   id: UpdatePricesButton
@@ -211,28 +211,28 @@ items:
   nameWithType: QuoteVersionWorkflowState.UpdatePricesButton
   fullName: SuperOffice.CRM.Services.QuoteVersionWorkflowState.UpdatePricesButton
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Information about the action for the update prices button.
-  example: []
+  summary: "\nInformation about the action for the update prices button. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual QuoteVersionButtonState UpdatePricesButton { get; set; }
+    content: public virtual QuoteVersionButtonState UpdatePricesButton { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.QuoteVersionButtonState
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property UpdatePricesButton As QuoteVersionButtonState
+    content.vb: Public Overridable Property UpdatePricesButton As QuoteVersionButtonState
   overload: SuperOffice.CRM.Services.QuoteVersionWorkflowState.UpdatePricesButton*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuoteVersionWorkflowState.Status
   commentId: P:SuperOffice.CRM.Services.QuoteVersionWorkflowState.Status
   id: Status
@@ -244,33 +244,38 @@ items:
   nameWithType: QuoteVersionWorkflowState.Status
   fullName: SuperOffice.CRM.Services.QuoteVersionWorkflowState.Status
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Status information for the Quote Version.
-  example: []
+  summary: "\nStatus information for the Quote Version. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual QuoteVersionStatusInformation Status { get; set; }
+    content: public virtual QuoteVersionStatusInformation Status { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.QuoteVersionStatusInformation
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Status As QuoteVersionStatusInformation
+    content.vb: Public Overridable Property Status As QuoteVersionStatusInformation
   overload: SuperOffice.CRM.Services.QuoteVersionWorkflowState.Status*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
 - uid: SuperOffice.CRM.Services.QuoteAgent
   commentId: T:SuperOffice.CRM.Services.QuoteAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteAgent.html
   name: QuoteAgent
   nameWithType: QuoteAgent
   fullName: SuperOffice.CRM.Services.QuoteAgent
@@ -278,79 +283,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.IQuoteAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.IQuoteAgent.html
   name: IQuoteAgent
   nameWithType: IQuoteAgent
   fullName: SuperOffice.CRM.Services.IQuoteAgent
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.QuoteVersionWorkflowState.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.QuoteVersionWorkflowState.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteVersionWorkflowState.html#SuperOffice_CRM_Services_QuoteVersionWorkflowState__ctor
   name: QuoteVersionWorkflowState
   nameWithType: QuoteVersionWorkflowState.QuoteVersionWorkflowState
   fullName: SuperOffice.CRM.Services.QuoteVersionWorkflowState.QuoteVersionWorkflowState
-  nameWithType.vb: QuoteVersionWorkflowState.New
-  fullName.vb: SuperOffice.CRM.Services.QuoteVersionWorkflowState.New
-  name.vb: New
 - uid: SuperOffice.CRM.Services.QuoteVersionWorkflowState.ToString*
   commentId: Overload:SuperOffice.CRM.Services.QuoteVersionWorkflowState.ToString
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteVersionWorkflowState.html#SuperOffice_CRM_Services_QuoteVersionWorkflowState_ToString
   name: ToString
   nameWithType: QuoteVersionWorkflowState.ToString
   fullName: SuperOffice.CRM.Services.QuoteVersionWorkflowState.ToString
@@ -358,23 +302,23 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.QuoteVersionWorkflowState.ActionButtons*
   commentId: Overload:SuperOffice.CRM.Services.QuoteVersionWorkflowState.ActionButtons
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteVersionWorkflowState.html#SuperOffice_CRM_Services_QuoteVersionWorkflowState_ActionButtons
   name: ActionButtons
   nameWithType: QuoteVersionWorkflowState.ActionButtons
   fullName: SuperOffice.CRM.Services.QuoteVersionWorkflowState.ActionButtons
 - uid: SuperOffice.CRM.Services.QuoteVersionButtonState[]
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteVersionButtonState.html
   name: QuoteVersionButtonState[]
   nameWithType: QuoteVersionButtonState[]
   fullName: SuperOffice.CRM.Services.QuoteVersionButtonState[]
@@ -384,21 +328,24 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.QuoteVersionButtonState
     name: QuoteVersionButtonState
+    nameWithType: QuoteVersionButtonState
+    fullName: SuperOffice.CRM.Services.QuoteVersionButtonState
     isExternal: true
-    href: SuperOffice.CRM.Services.QuoteVersionButtonState.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.Services.QuoteVersionButtonState
     name: QuoteVersionButtonState
+    nameWithType: QuoteVersionButtonState
+    fullName: SuperOffice.CRM.Services.QuoteVersionButtonState
     isExternal: true
-    href: SuperOffice.CRM.Services.QuoteVersionButtonState.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.QuoteVersionWorkflowState.StateImage*
   commentId: Overload:SuperOffice.CRM.Services.QuoteVersionWorkflowState.StateImage
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteVersionWorkflowState.html#SuperOffice_CRM_Services_QuoteVersionWorkflowState_StateImage
   name: StateImage
   nameWithType: QuoteVersionWorkflowState.StateImage
   fullName: SuperOffice.CRM.Services.QuoteVersionWorkflowState.StateImage
@@ -406,21 +353,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.QuoteVersionButtonState
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteVersionButtonState.html
   name: QuoteVersionButtonState
   nameWithType: QuoteVersionButtonState
   fullName: SuperOffice.CRM.Services.QuoteVersionButtonState
 - uid: SuperOffice.CRM.Services.QuoteVersionWorkflowState.UpdatePricesButton*
   commentId: Overload:SuperOffice.CRM.Services.QuoteVersionWorkflowState.UpdatePricesButton
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteVersionWorkflowState.html#SuperOffice_CRM_Services_QuoteVersionWorkflowState_UpdatePricesButton
   name: UpdatePricesButton
   nameWithType: QuoteVersionWorkflowState.UpdatePricesButton
   fullName: SuperOffice.CRM.Services.QuoteVersionWorkflowState.UpdatePricesButton
 - uid: SuperOffice.CRM.Services.QuoteVersionWorkflowState.Status*
   commentId: Overload:SuperOffice.CRM.Services.QuoteVersionWorkflowState.Status
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteVersionWorkflowState.html#SuperOffice_CRM_Services_QuoteVersionWorkflowState_Status
   name: Status
   nameWithType: QuoteVersionWorkflowState.Status
   fullName: SuperOffice.CRM.Services.QuoteVersionWorkflowState.Status
@@ -428,7 +372,6 @@ references:
   commentId: T:SuperOffice.CRM.Services.QuoteVersionStatusInformation
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteVersionStatusInformation.html
   name: QuoteVersionStatusInformation
   nameWithType: QuoteVersionStatusInformation
   fullName: SuperOffice.CRM.Services.QuoteVersionStatusInformation

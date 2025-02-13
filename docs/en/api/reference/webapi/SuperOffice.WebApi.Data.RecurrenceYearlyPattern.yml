@@ -7,6 +7,7 @@ items:
   children:
   - SuperOffice.WebApi.Data.RecurrenceYearlyPattern.DayOfMonth
   - SuperOffice.WebApi.Data.RecurrenceYearlyPattern.Unknown
+  - SuperOffice.WebApi.Data.RecurrenceYearlyPattern.value__
   - SuperOffice.WebApi.Data.RecurrenceYearlyPattern.WeekdayOfMonth
   langs:
   - csharp
@@ -14,15 +15,57 @@ items:
   name: RecurrenceYearlyPattern
   nameWithType: RecurrenceYearlyPattern
   fullName: SuperOffice.WebApi.Data.RecurrenceYearlyPattern
-  type: Enum
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Enumerator describing the different patterns for a yearly recurrence
-  example: []
+  summary: "\nEnumerator describing the different patterns for a yearly recurrence\n"
   syntax:
-    content: public enum RecurrenceYearlyPattern
-    content.vb: Public Enum RecurrenceYearlyPattern
+    content: 'public sealed class RecurrenceYearlyPattern : Enum'
+    content.vb: >-
+      Public NotInheritable Class RecurrenceYearlyPattern
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.RecurrenceYearlyPattern.value__
+  commentId: F:SuperOffice.WebApi.Data.RecurrenceYearlyPattern.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.RecurrenceYearlyPattern
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: RecurrenceYearlyPattern.value__
+  fullName: SuperOffice.WebApi.Data.RecurrenceYearlyPattern.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.RecurrenceYearlyPattern.Unknown
   commentId: F:SuperOffice.WebApi.Data.RecurrenceYearlyPattern.Unknown
   id: Unknown
@@ -34,26 +77,24 @@ items:
   nameWithType: RecurrenceYearlyPattern.Unknown
   fullName: SuperOffice.WebApi.Data.RecurrenceYearlyPattern.Unknown
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '0: 0: Unknown/undecided type'
-  example: []
+  summary: "\n0: 0: Unknown/undecided type\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Unknown = 0
+    content: public const RecurrenceYearlyPattern Unknown
     return:
       type: SuperOffice.WebApi.Data.RecurrenceYearlyPattern
-    content.vb: >-
-      <EnumMember>
-
-      Unknown = 0
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Unknown As RecurrenceYearlyPattern
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.RecurrenceYearlyPattern.DayOfMonth
   commentId: F:SuperOffice.WebApi.Data.RecurrenceYearlyPattern.DayOfMonth
   id: DayOfMonth
@@ -65,26 +106,24 @@ items:
   nameWithType: RecurrenceYearlyPattern.DayOfMonth
   fullName: SuperOffice.WebApi.Data.RecurrenceYearlyPattern.DayOfMonth
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '6: The recurrence is for a numbered day of the month, e.g. the 17. day of August'
-  example: []
+  summary: "\n6: The recurrence is for a numbered day of the month, e.g. the 17. day of August\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      DayOfMonth = 6
+    content: public const RecurrenceYearlyPattern DayOfMonth
     return:
       type: SuperOffice.WebApi.Data.RecurrenceYearlyPattern
-    content.vb: >-
-      <EnumMember>
-
-      DayOfMonth = 6
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const DayOfMonth As RecurrenceYearlyPattern
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.RecurrenceYearlyPattern.WeekdayOfMonth
   commentId: F:SuperOffice.WebApi.Data.RecurrenceYearlyPattern.WeekdayOfMonth
   id: WeekdayOfMonth
@@ -96,69 +135,55 @@ items:
   nameWithType: RecurrenceYearlyPattern.WeekdayOfMonth
   fullName: SuperOffice.WebApi.Data.RecurrenceYearlyPattern.WeekdayOfMonth
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '7: The recurrence is for weekdays in the month, e.g. the 3. thursday of August'
-  example: []
+  summary: "\n7: The recurrence is for weekdays in the month, e.g. the 3. thursday of August\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      WeekdayOfMonth = 7
+    content: public const RecurrenceYearlyPattern WeekdayOfMonth
     return:
       type: SuperOffice.WebApi.Data.RecurrenceYearlyPattern
-    content.vb: >-
-      <EnumMember>
-
-      WeekdayOfMonth = 7
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const WeekdayOfMonth As RecurrenceYearlyPattern
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.WebApi.Data.RecurrenceYearlyPattern
   commentId: T:SuperOffice.WebApi.Data.RecurrenceYearlyPattern
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.RecurrenceYearlyPattern.html
   name: RecurrenceYearlyPattern
   nameWithType: RecurrenceYearlyPattern
   fullName: SuperOffice.WebApi.Data.RecurrenceYearlyPattern

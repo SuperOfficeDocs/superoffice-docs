@@ -20,25 +20,20 @@ items:
   nameWithType: WorkflowWaitForAction
   fullName: SuperOffice.WebApi.Data.WorkflowWaitForAction
   type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Carrier object for WorkflowWaitForAction.
-
-    Workflow action info carrier
+  summary: "\nCarrier object for WorkflowWaitForAction.\nWorkflow action info carrier    \n"
   example:
-  - >-
-    Get WorkflowWaitForAction 123 using the WebApi client:
-
-    <pre><code class="lang-csharp">var configuration = new WebApiConfiguration(url);
-
-    var agent = new WorkflowAgent(configuration);
-
-    var workflowWaitForAction = agent.GetWorkflowWaitForAction( 123 );</code></pre>
+  - "\nGet WorkflowWaitForAction 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new WorkflowAgent(configuration);\nvar workflowWaitForAction = agent.GetWorkflowWaitForAction( 123 );</code></pre>\n"
   syntax:
     content: 'public class WorkflowWaitForAction : Carrier'
-    content.vb: Public Class WorkflowWaitForAction Inherits Carrier
+    content.vb: >-
+      Public Class WorkflowWaitForAction
+          Inherits Carrier
   seealso:
   - linkId: SuperOffice.WebApi.Agents.WorkflowAgent
     commentId: T:SuperOffice.WebApi.Agents.WorkflowAgent
@@ -48,13 +43,12 @@ items:
   inheritedMembers:
   - SuperOffice.WebApi.Data.Carrier.TableRight
   - SuperOffice.WebApi.Data.Carrier.FieldProperties
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.WebApi.Data.WorkflowWaitForAction.#ctor
   commentId: M:SuperOffice.WebApi.Data.WorkflowWaitForAction.#ctor
   id: '#ctor'
@@ -66,18 +60,21 @@ items:
   nameWithType: WorkflowWaitForAction.WorkflowWaitForAction()
   fullName: SuperOffice.WebApi.Data.WorkflowWaitForAction.WorkflowWaitForAction()
   type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Default constructor - defaults any enum props to 0.
-  example: []
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
   syntax:
     content: public WorkflowWaitForAction()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.WebApi.Data.WorkflowWaitForAction.#ctor*
-  nameWithType.vb: WorkflowWaitForAction.New()
-  fullName.vb: SuperOffice.WebApi.Data.WorkflowWaitForAction.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.WorkflowWaitForAction.WorkflowWaitForActionId
   commentId: P:SuperOffice.WebApi.Data.WorkflowWaitForAction.WorkflowWaitForActionId
   id: WorkflowWaitForActionId
@@ -89,11 +86,13 @@ items:
   nameWithType: WorkflowWaitForAction.WorkflowWaitForActionId
   fullName: SuperOffice.WebApi.Data.WorkflowWaitForAction.WorkflowWaitForActionId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Primary key
-  example: []
+  summary: "\nPrimary key\n"
   syntax:
     content: public virtual int WorkflowWaitForActionId { get; set; }
     parameters: []
@@ -101,6 +100,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property WorkflowWaitForActionId As Integer
   overload: SuperOffice.WebApi.Data.WorkflowWaitForAction.WorkflowWaitForActionId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.WorkflowWaitForAction.WorkflowStepId
   commentId: P:SuperOffice.WebApi.Data.WorkflowWaitForAction.WorkflowStepId
   id: WorkflowStepId
@@ -112,11 +119,13 @@ items:
   nameWithType: WorkflowWaitForAction.WorkflowStepId
   fullName: SuperOffice.WebApi.Data.WorkflowWaitForAction.WorkflowStepId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The workflow step this instance belongs to
-  example: []
+  summary: "\nThe workflow step this instance belongs to\n"
   syntax:
     content: public virtual int WorkflowStepId { get; set; }
     parameters: []
@@ -124,6 +133,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property WorkflowStepId As Integer
   overload: SuperOffice.WebApi.Data.WorkflowWaitForAction.WorkflowStepId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.WorkflowWaitForAction.WorkflowId
   commentId: P:SuperOffice.WebApi.Data.WorkflowWaitForAction.WorkflowId
   id: WorkflowId
@@ -135,11 +152,13 @@ items:
   nameWithType: WorkflowWaitForAction.WorkflowId
   fullName: SuperOffice.WebApi.Data.WorkflowWaitForAction.WorkflowId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Workflow id
-  example: []
+  summary: "\nWorkflow id\n"
   syntax:
     content: public virtual int WorkflowId { get; set; }
     parameters: []
@@ -147,6 +166,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property WorkflowId As Integer
   overload: SuperOffice.WebApi.Data.WorkflowWaitForAction.WorkflowId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.WorkflowWaitForAction.Rank
   commentId: P:SuperOffice.WebApi.Data.WorkflowWaitForAction.Rank
   id: Rank
@@ -158,11 +185,13 @@ items:
   nameWithType: WorkflowWaitForAction.Rank
   fullName: SuperOffice.WebApi.Data.WorkflowWaitForAction.Rank
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The rank of this action
-  example: []
+  summary: "\nThe rank of this action\n"
   syntax:
     content: public virtual int Rank { get; set; }
     parameters: []
@@ -170,6 +199,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property Rank As Integer
   overload: SuperOffice.WebApi.Data.WorkflowWaitForAction.Rank*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.WorkflowWaitForAction.ActionType_String
   commentId: P:SuperOffice.WebApi.Data.WorkflowWaitForAction.ActionType_String
   id: ActionType_String
@@ -181,36 +218,29 @@ items:
   nameWithType: WorkflowWaitForAction.ActionType_String
   fullName: SuperOffice.WebApi.Data.WorkflowWaitForAction.ActionType_String
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    The type of action
-
-    Raw string enum value.
-  example: []
+  summary: "\nThe type of action\nRaw string enum value.\n"
   syntax:
-    content: >-
-      [JsonProperty("ActionType")]
-
-      public string ActionType_String { get; set; }
+    content: public string ActionType_String { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <JsonProperty("ActionType")>
-
-      Public Property ActionType_String As String
+    content.vb: Public Property ActionType_String As String
   overload: SuperOffice.WebApi.Data.WorkflowWaitForAction.ActionType_String*
   seealso:
   - linkId: SuperOffice.WebApi.Data.WorkflowWaitForAction.ActionType
     commentId: P:SuperOffice.WebApi.Data.WorkflowWaitForAction.ActionType
-  attributes:
-  - type: Newtonsoft.Json.JsonPropertyAttribute
-    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: ActionType
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.WorkflowWaitForAction.ActionType
   commentId: P:SuperOffice.WebApi.Data.WorkflowWaitForAction.ActionType
   id: ActionType
@@ -222,34 +252,29 @@ items:
   nameWithType: WorkflowWaitForAction.ActionType
   fullName: SuperOffice.WebApi.Data.WorkflowWaitForAction.ActionType
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    The type of action
-
-    NULL if unknown enum value.
-  example: []
+  summary: "\nThe type of action\nNULL if unknown enum value.\n"
   syntax:
-    content: >-
-      [JsonIgnore]
-
-      public WorkflowWaitForActionType? ActionType { get; set; }
+    content: public Nullable<WorkflowWaitForActionType> ActionType { get; set; }
     parameters: []
     return:
       type: System.Nullable{SuperOffice.WebApi.Data.WorkflowWaitForActionType}
-    content.vb: >-
-      <JsonIgnore>
-
-      Public Property ActionType As WorkflowWaitForActionType?
+    content.vb: Public Property ActionType As Nullable(Of WorkflowWaitForActionType)
   overload: SuperOffice.WebApi.Data.WorkflowWaitForAction.ActionType*
   seealso:
   - linkId: SuperOffice.WebApi.Data.WorkflowWaitForAction.ActionType_String
     commentId: P:SuperOffice.WebApi.Data.WorkflowWaitForAction.ActionType_String
-  attributes:
-  - type: Newtonsoft.Json.JsonIgnoreAttribute
-    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.WorkflowWaitForAction.RestrictionGroups
   commentId: P:SuperOffice.WebApi.Data.WorkflowWaitForAction.RestrictionGroups
   id: RestrictionGroups
@@ -261,11 +286,13 @@ items:
   nameWithType: WorkflowWaitForAction.RestrictionGroups
   fullName: SuperOffice.WebApi.Data.WorkflowWaitForAction.RestrictionGroups
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The restrictions (can be multiple groups) that make up the Workflow action criteria
-  example: []
+  summary: "\nThe restrictions (can be multiple groups) that make up the Workflow action criteria\n"
   syntax:
     content: public virtual ArchiveRestrictionGroup[] RestrictionGroups { get; set; }
     parameters: []
@@ -273,67 +300,32 @@ items:
       type: SuperOffice.WebApi.Data.ArchiveRestrictionGroup[]
     content.vb: Public Overridable Property RestrictionGroups As ArchiveRestrictionGroup()
   overload: SuperOffice.WebApi.Data.WorkflowWaitForAction.RestrictionGroups*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
-- uid: SuperOffice.WebApi.Agents.WorkflowAgent
-  commentId: T:SuperOffice.WebApi.Agents.WorkflowAgent
-  isExternal: true
-  href: SuperOffice.WebApi.Agents.WorkflowAgent.html
-  name: WorkflowAgent
-  nameWithType: WorkflowAgent
-  fullName: SuperOffice.WebApi.Agents.WorkflowAgent
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.WebApi.Data.Carrier
   commentId: T:SuperOffice.WebApi.Data.Carrier
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html
   name: Carrier
   nameWithType: Carrier
   fullName: SuperOffice.WebApi.Data.Carrier
@@ -341,7 +333,6 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_TableRight
   name: TableRight
   nameWithType: Carrier.TableRight
   fullName: SuperOffice.WebApi.Data.Carrier.TableRight
@@ -349,250 +340,30 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_FieldProperties
   name: FieldProperties
   nameWithType: Carrier.FieldProperties
   fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent
+  commentId: T:SuperOffice.WebApi.Agents.WorkflowAgent
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: WorkflowAgent
+  nameWithType: WorkflowAgent
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Data.WorkflowWaitForAction.#ctor*
   commentId: Overload:SuperOffice.WebApi.Data.WorkflowWaitForAction.#ctor
   isExternal: true
-  href: SuperOffice.WebApi.Data.WorkflowWaitForAction.html#SuperOffice_WebApi_Data_WorkflowWaitForAction__ctor
   name: WorkflowWaitForAction
   nameWithType: WorkflowWaitForAction.WorkflowWaitForAction
   fullName: SuperOffice.WebApi.Data.WorkflowWaitForAction.WorkflowWaitForAction
-  nameWithType.vb: WorkflowWaitForAction.New
-  fullName.vb: SuperOffice.WebApi.Data.WorkflowWaitForAction.New
-  name.vb: New
 - uid: SuperOffice.WebApi.Data.WorkflowWaitForAction.WorkflowWaitForActionId*
   commentId: Overload:SuperOffice.WebApi.Data.WorkflowWaitForAction.WorkflowWaitForActionId
   isExternal: true
-  href: SuperOffice.WebApi.Data.WorkflowWaitForAction.html#SuperOffice_WebApi_Data_WorkflowWaitForAction_WorkflowWaitForActionId
   name: WorkflowWaitForActionId
   nameWithType: WorkflowWaitForAction.WorkflowWaitForActionId
   fullName: SuperOffice.WebApi.Data.WorkflowWaitForAction.WorkflowWaitForActionId
@@ -600,131 +371,141 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.WebApi.Data.WorkflowWaitForAction.WorkflowStepId*
   commentId: Overload:SuperOffice.WebApi.Data.WorkflowWaitForAction.WorkflowStepId
   isExternal: true
-  href: SuperOffice.WebApi.Data.WorkflowWaitForAction.html#SuperOffice_WebApi_Data_WorkflowWaitForAction_WorkflowStepId
   name: WorkflowStepId
   nameWithType: WorkflowWaitForAction.WorkflowStepId
   fullName: SuperOffice.WebApi.Data.WorkflowWaitForAction.WorkflowStepId
 - uid: SuperOffice.WebApi.Data.WorkflowWaitForAction.WorkflowId*
   commentId: Overload:SuperOffice.WebApi.Data.WorkflowWaitForAction.WorkflowId
   isExternal: true
-  href: SuperOffice.WebApi.Data.WorkflowWaitForAction.html#SuperOffice_WebApi_Data_WorkflowWaitForAction_WorkflowId
   name: WorkflowId
   nameWithType: WorkflowWaitForAction.WorkflowId
   fullName: SuperOffice.WebApi.Data.WorkflowWaitForAction.WorkflowId
 - uid: SuperOffice.WebApi.Data.WorkflowWaitForAction.Rank*
   commentId: Overload:SuperOffice.WebApi.Data.WorkflowWaitForAction.Rank
   isExternal: true
-  href: SuperOffice.WebApi.Data.WorkflowWaitForAction.html#SuperOffice_WebApi_Data_WorkflowWaitForAction_Rank
   name: Rank
   nameWithType: WorkflowWaitForAction.Rank
   fullName: SuperOffice.WebApi.Data.WorkflowWaitForAction.Rank
-- uid: SuperOffice.WebApi.Data.WorkflowWaitForAction.ActionType
-  commentId: P:SuperOffice.WebApi.Data.WorkflowWaitForAction.ActionType
-  isExternal: true
-  href: SuperOffice.WebApi.Data.WorkflowWaitForAction.html#SuperOffice_WebApi_Data_WorkflowWaitForAction_ActionType
-  name: ActionType
-  nameWithType: WorkflowWaitForAction.ActionType
-  fullName: SuperOffice.WebApi.Data.WorkflowWaitForAction.ActionType
 - uid: SuperOffice.WebApi.Data.WorkflowWaitForAction.ActionType_String*
   commentId: Overload:SuperOffice.WebApi.Data.WorkflowWaitForAction.ActionType_String
   isExternal: true
-  href: SuperOffice.WebApi.Data.WorkflowWaitForAction.html#SuperOffice_WebApi_Data_WorkflowWaitForAction_ActionType_String
   name: ActionType_String
   nameWithType: WorkflowWaitForAction.ActionType_String
   fullName: SuperOffice.WebApi.Data.WorkflowWaitForAction.ActionType_String
+- uid: SuperOffice.WebApi.Data.WorkflowWaitForAction.ActionType
+  commentId: P:SuperOffice.WebApi.Data.WorkflowWaitForAction.ActionType
+  isExternal: true
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
-- uid: SuperOffice.WebApi.Data.WorkflowWaitForAction.ActionType_String
-  commentId: P:SuperOffice.WebApi.Data.WorkflowWaitForAction.ActionType_String
-  isExternal: true
-  href: SuperOffice.WebApi.Data.WorkflowWaitForAction.html#SuperOffice_WebApi_Data_WorkflowWaitForAction_ActionType_String
-  name: ActionType_String
-  nameWithType: WorkflowWaitForAction.ActionType_String
-  fullName: SuperOffice.WebApi.Data.WorkflowWaitForAction.ActionType_String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.WebApi.Data.WorkflowWaitForAction.ActionType*
   commentId: Overload:SuperOffice.WebApi.Data.WorkflowWaitForAction.ActionType
   isExternal: true
-  href: SuperOffice.WebApi.Data.WorkflowWaitForAction.html#SuperOffice_WebApi_Data_WorkflowWaitForAction_ActionType
   name: ActionType
   nameWithType: WorkflowWaitForAction.ActionType
   fullName: SuperOffice.WebApi.Data.WorkflowWaitForAction.ActionType
-- uid: System.Nullable{SuperOffice.WebApi.Data.WorkflowWaitForActionType}
-  commentId: T:System.Nullable{SuperOffice.WebApi.Data.WorkflowWaitForActionType}
-  parent: System
-  definition: System.Nullable`1
-  href: SuperOffice.WebApi.Data.WorkflowWaitForActionType.html
-  name: WorkflowWaitForActionType?
-  nameWithType: WorkflowWaitForActionType?
-  fullName: SuperOffice.WebApi.Data.WorkflowWaitForActionType?
-  spec.csharp:
-  - uid: SuperOffice.WebApi.Data.WorkflowWaitForActionType
-    name: WorkflowWaitForActionType
-    isExternal: true
-    href: SuperOffice.WebApi.Data.WorkflowWaitForActionType.html
-  - name: '?'
-  spec.vb:
-  - uid: SuperOffice.WebApi.Data.WorkflowWaitForActionType
-    name: WorkflowWaitForActionType
-    isExternal: true
-    href: SuperOffice.WebApi.Data.WorkflowWaitForActionType.html
-  - name: '?'
-- uid: System.Nullable`1
-  commentId: T:System.Nullable`1
+- uid: SuperOffice.WebApi.Data.WorkflowWaitForAction.ActionType_String
+  commentId: P:SuperOffice.WebApi.Data.WorkflowWaitForAction.ActionType_String
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
-  name: Nullable<T>
-  nameWithType: Nullable<T>
-  fullName: System.Nullable<T>
-  nameWithType.vb: Nullable(Of T)
-  fullName.vb: System.Nullable(Of T)
-  name.vb: Nullable(Of T)
+- uid: System.Nullable{SuperOffice.WebApi.Data.WorkflowWaitForActionType}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.WorkflowWaitForActionType}'
+  definition: System.Nullable`1
+  name: Nullable<WorkflowWaitForActionType>
+  nameWithType: Nullable<WorkflowWaitForActionType>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.WorkflowWaitForActionType>
+  nameWithType.vb: Nullable(Of WorkflowWaitForActionType)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.WorkflowWaitForActionType)
+  name.vb: Nullable(Of WorkflowWaitForActionType)
   spec.csharp:
   - uid: System.Nullable`1
     name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
   - name: <
-  - name: T
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.WorkflowWaitForActionType
+    name: WorkflowWaitForActionType
+    nameWithType: WorkflowWaitForActionType
+    fullName: SuperOffice.WebApi.Data.WorkflowWaitForActionType
+    isExternal: true
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Nullable`1
     name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.WorkflowWaitForActionType
+    name: WorkflowWaitForActionType
+    nameWithType: WorkflowWaitForActionType
+    fullName: SuperOffice.WebApi.Data.WorkflowWaitForActionType
+    isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Data.WorkflowWaitForAction.RestrictionGroups*
   commentId: Overload:SuperOffice.WebApi.Data.WorkflowWaitForAction.RestrictionGroups
   isExternal: true
-  href: SuperOffice.WebApi.Data.WorkflowWaitForAction.html#SuperOffice_WebApi_Data_WorkflowWaitForAction_RestrictionGroups
   name: RestrictionGroups
   nameWithType: WorkflowWaitForAction.RestrictionGroups
   fullName: SuperOffice.WebApi.Data.WorkflowWaitForAction.RestrictionGroups
 - uid: SuperOffice.WebApi.Data.ArchiveRestrictionGroup[]
   isExternal: true
-  href: SuperOffice.WebApi.Data.ArchiveRestrictionGroup.html
   name: ArchiveRestrictionGroup[]
   nameWithType: ArchiveRestrictionGroup[]
   fullName: SuperOffice.WebApi.Data.ArchiveRestrictionGroup[]
@@ -734,14 +515,18 @@ references:
   spec.csharp:
   - uid: SuperOffice.WebApi.Data.ArchiveRestrictionGroup
     name: ArchiveRestrictionGroup
+    nameWithType: ArchiveRestrictionGroup
+    fullName: SuperOffice.WebApi.Data.ArchiveRestrictionGroup
     isExternal: true
-    href: SuperOffice.WebApi.Data.ArchiveRestrictionGroup.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.WebApi.Data.ArchiveRestrictionGroup
     name: ArchiveRestrictionGroup
+    nameWithType: ArchiveRestrictionGroup
+    fullName: SuperOffice.WebApi.Data.ArchiveRestrictionGroup
     isExternal: true
-    href: SuperOffice.WebApi.Data.ArchiveRestrictionGroup.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()

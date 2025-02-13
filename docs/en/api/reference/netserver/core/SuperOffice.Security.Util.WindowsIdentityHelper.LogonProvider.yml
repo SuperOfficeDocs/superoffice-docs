@@ -6,6 +6,7 @@ items:
   parent: SuperOffice.Security.Util
   children:
   - SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider.Default
+  - SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider.value__
   - SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider.WinNT35
   - SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider.WinNT40
   - SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider.WinNT50
@@ -15,21 +16,60 @@ items:
   name: WindowsIdentityHelper.LogonProvider
   nameWithType: WindowsIdentityHelper.LogonProvider
   fullName: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider
-  type: Enum
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Security.Util
-  summary: Logon provider used with LogonUser
-  example: []
+  summary: "\nLogon provider used with LogonUser\n"
   syntax:
-    content: public enum WindowsIdentityHelper.LogonProvider
-    content.vb: Public Enum WindowsIdentityHelper.LogonProvider
+    content: 'public sealed class LogonProvider : Enum'
+    content.vb: >-
+      Public NotInheritable Class LogonProvider
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider.EnumUtil.MapEnums``2
   - SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  - SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider)
-  - SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - System.Enum.EnumUtil.GetDescription
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider.value__
+  commentId: F:SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider.value__
+  id: value__
+  parent: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: WindowsIdentityHelper.LogonProvider.value__
+  fullName: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Security.Util
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider.Default
   commentId: F:SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider.Default
   id: Default
@@ -41,15 +81,24 @@ items:
   nameWithType: WindowsIdentityHelper.LogonProvider.Default
   fullName: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider.Default
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Security.Util
-  summary: 'Use the standard logon provider for the system. The default security provider is NTLM. Windows XP: The default provider is negotiate, unless you pass NULL for the domain name and the user name is not in UPN format. In this case the default provider is NTLM.'
-  example: []
+  summary: "\nUse the standard logon provider for the system. The default security provider is NTLM. Windows XP: The default provider is negotiate, unless you pass NULL for the domain name and the user name is not in UPN format. In this case the default provider is NTLM.\n"
   syntax:
-    content: Default = 0
+    content: public const WindowsIdentityHelper.LogonProvider Default
     return:
       type: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider
+    content.vb: Public Const Default As WindowsIdentityHelper.LogonProvider
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider.WinNT35
   commentId: F:SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider.WinNT35
   id: WinNT35
@@ -61,15 +110,24 @@ items:
   nameWithType: WindowsIdentityHelper.LogonProvider.WinNT35
   fullName: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider.WinNT35
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Security.Util
-  summary: Use the Windows NT 3.5 logon provider.
-  example: []
+  summary: "\nUse the Windows NT 3.5 logon provider. \n"
   syntax:
-    content: WinNT35 = 1
+    content: public const WindowsIdentityHelper.LogonProvider WinNT35
     return:
       type: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider
+    content.vb: Public Const WinNT35 As WindowsIdentityHelper.LogonProvider
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider.WinNT40
   commentId: F:SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider.WinNT40
   id: WinNT40
@@ -81,15 +139,24 @@ items:
   nameWithType: WindowsIdentityHelper.LogonProvider.WinNT40
   fullName: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider.WinNT40
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Security.Util
-  summary: Use the NTLM logon provider.
-  example: []
+  summary: "\nUse the NTLM logon provider.\n"
   syntax:
-    content: WinNT40 = 2
+    content: public const WindowsIdentityHelper.LogonProvider WinNT40
     return:
       type: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider
+    content.vb: Public Const WinNT40 As WindowsIdentityHelper.LogonProvider
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider.WinNT50
   commentId: F:SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider.WinNT50
   id: WinNT50
@@ -101,299 +168,115 @@ items:
   nameWithType: WindowsIdentityHelper.LogonProvider.WinNT50
   fullName: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider.WinNT50
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Security.Util
-  summary: 'Windows 2000/XP: Use the negotiate logon provider.'
-  example: []
+  summary: "\nWindows 2000/XP: Use the negotiate logon provider. \n"
   syntax:
-    content: WinNT50 = 3
+    content: public const WindowsIdentityHelper.LogonProvider WinNT50
     return:
       type: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider
+    content.vb: Public Const WinNT50 As WindowsIdentityHelper.LogonProvider
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.Security.Util
   commentId: N:SuperOffice.Security.Util
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Security.Util
   nameWithType: SuperOffice.Security.Util
   fullName: SuperOffice.Security.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Security
-    name: Security
-    isExternal: true
-    href: SuperOffice.Security.html
-  - name: .
-  - uid: SuperOffice.Security.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Security.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Security
-    name: Security
-    isExternal: true
-    href: SuperOffice.Security.html
-  - name: .
-  - uid: SuperOffice.Security.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Security.Util.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<LogonProvider, To>(LogonProvider)
-  nameWithType: EnumUtil.MapEnums<WindowsIdentityHelper.LogonProvider, To>(WindowsIdentityHelper.LogonProvider)
-  fullName: EnumUtil.MapEnums<SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider, To>(SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider)
-  nameWithType.vb: EnumUtil.MapEnums(Of WindowsIdentityHelper.LogonProvider, To)(WindowsIdentityHelper.LogonProvider)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider, To)(SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider)
-  name.vb: MapEnums(Of LogonProvider, To)(LogonProvider)
+  name: MapEnums<WindowsIdentityHelper.LogonProvider, To>()
+  nameWithType: EnumUtil.MapEnums<WindowsIdentityHelper.LogonProvider, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of WindowsIdentityHelper.LogonProvider, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider, To)()
+  name.vb: MapEnums(Of WindowsIdentityHelper.LogonProvider, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<WindowsIdentityHelper.LogonProvider, To>
+    nameWithType: EnumUtil.MapEnums<WindowsIdentityHelper.LogonProvider, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider
-    name: LogonProvider
-    isExternal: true
-    href: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider
-    name: LogonProvider
-    isExternal: true
-    href: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of WindowsIdentityHelper.LogonProvider, To)
+    nameWithType: EnumUtil.MapEnums(Of WindowsIdentityHelper.LogonProvider, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider
-    name: LogonProvider
-    isExternal: true
-    href: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider
-    name: LogonProvider
-    isExternal: true
-    href: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<LogonProvider, To>(LogonProvider)
-  nameWithType: Converters.MapEnums<WindowsIdentityHelper.LogonProvider, To>(WindowsIdentityHelper.LogonProvider)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider, To>(SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider)
-  nameWithType.vb: Converters.MapEnums(Of WindowsIdentityHelper.LogonProvider, To)(WindowsIdentityHelper.LogonProvider)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider, To)(SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider)
-  name.vb: MapEnums(Of LogonProvider, To)(LogonProvider)
+  name: MapEnums<WindowsIdentityHelper.LogonProvider, To>()
+  nameWithType: Converters.MapEnums<WindowsIdentityHelper.LogonProvider, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider, To>()
+  nameWithType.vb: Converters.MapEnums(Of WindowsIdentityHelper.LogonProvider, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider, To)()
+  name.vb: MapEnums(Of WindowsIdentityHelper.LogonProvider, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<WindowsIdentityHelper.LogonProvider, To>
+    nameWithType: Converters.MapEnums<WindowsIdentityHelper.LogonProvider, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider
-    name: LogonProvider
-    isExternal: true
-    href: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider
-    name: LogonProvider
-    isExternal: true
-    href: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of WindowsIdentityHelper.LogonProvider, To)
+    nameWithType: Converters.MapEnums(Of WindowsIdentityHelper.LogonProvider, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider
-    name: LogonProvider
-    isExternal: true
-    href: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider
-    name: LogonProvider
-    isExternal: true
-    href: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider.html
-  - name: )
-- uid: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<LogonProvider>(LogonProvider, LogonProvider)
-  nameWithType: ObjectExtensions.AssignByReflection<WindowsIdentityHelper.LogonProvider>(WindowsIdentityHelper.LogonProvider, WindowsIdentityHelper.LogonProvider)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider>(SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider, SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of WindowsIdentityHelper.LogonProvider)(WindowsIdentityHelper.LogonProvider, WindowsIdentityHelper.LogonProvider)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider)(SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider, SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider)
-  name.vb: AssignByReflection(Of LogonProvider)(LogonProvider, LogonProvider)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider,SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider
-    name: LogonProvider
-    isExternal: true
-    href: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider
-    name: LogonProvider
-    isExternal: true
-    href: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider
-    name: LogonProvider
-    isExternal: true
-    href: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider,SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider
-    name: LogonProvider
-    isExternal: true
-    href: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider
-    name: LogonProvider
-    isExternal: true
-    href: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider
-    name: LogonProvider
-    isExternal: true
-    href: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider.html
-  - name: )
-- uid: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<LogonProvider>(LogonProvider)
-  nameWithType: ObjectExtensions.GraphCopy<WindowsIdentityHelper.LogonProvider>(WindowsIdentityHelper.LogonProvider)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider>(SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of WindowsIdentityHelper.LogonProvider)(WindowsIdentityHelper.LogonProvider)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider)(SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider)
-  name.vb: GraphCopy(Of LogonProvider)(LogonProvider)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider
-    name: LogonProvider
-    isExternal: true
-    href: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider
-    name: LogonProvider
-    isExternal: true
-    href: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider
-    name: LogonProvider
-    isExternal: true
-    href: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider
-    name: LogonProvider
-    isExternal: true
-    href: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider.html
-  - name: )
-- uid: System.Enum.EnumUtil.GetDescription
-  commentId: M:EnumUtil.GetDescription(System.Enum)
-  parent: EnumUtil
-  definition: EnumUtil.GetDescription(System.Enum)
-  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  name: GetDescription(Enum)
-  nameWithType: EnumUtil.GetDescription(Enum)
-  fullName: EnumUtil.GetDescription(System.Enum)
-  spec.csharp:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
-  spec.vb:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -402,45 +285,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -449,242 +330,58 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: EnumUtil.GetDescription(System.Enum)
-  commentId: M:EnumUtil.GetDescription(System.Enum)
-  isExternal: true
-  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  name: GetDescription(Enum)
-  nameWithType: EnumUtil.GetDescription(Enum)
-  fullName: EnumUtil.GetDescription(System.Enum)
-  spec.csharp:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
-  spec.vb:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider
   commentId: T:SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider
   parent: SuperOffice.Security.Util
   isExternal: true
-  href: SuperOffice.Security.Util.WindowsIdentityHelper.html
   name: WindowsIdentityHelper.LogonProvider
   nameWithType: WindowsIdentityHelper.LogonProvider
   fullName: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider
-  spec.csharp:
-  - uid: SuperOffice.Security.Util.WindowsIdentityHelper
-    name: WindowsIdentityHelper
-    isExternal: true
-    href: SuperOffice.Security.Util.WindowsIdentityHelper.html
-  - name: .
-  - uid: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider
-    name: LogonProvider
-    isExternal: true
-    href: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider.html
-  spec.vb:
-  - uid: SuperOffice.Security.Util.WindowsIdentityHelper
-    name: WindowsIdentityHelper
-    isExternal: true
-    href: SuperOffice.Security.Util.WindowsIdentityHelper.html
-  - name: .
-  - uid: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider
-    name: LogonProvider
-    isExternal: true
-    href: SuperOffice.Security.Util.WindowsIdentityHelper.LogonProvider.html

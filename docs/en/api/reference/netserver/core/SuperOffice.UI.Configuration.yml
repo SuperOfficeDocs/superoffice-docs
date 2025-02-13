@@ -24,49 +24,25 @@ references:
 - uid: SuperOffice.UI.Configuration.ICustomUIProvider
   commentId: T:SuperOffice.UI.Configuration.ICustomUIProvider
   isExternal: true
-  href: SuperOffice.UI.Configuration.ICustomUIProvider.html
   name: ICustomUIProvider
   nameWithType: ICustomUIProvider
   fullName: SuperOffice.UI.Configuration.ICustomUIProvider
 - uid: SuperOffice.UI.Configuration.Constants
   commentId: T:SuperOffice.UI.Configuration.Constants
   isExternal: true
-  href: SuperOffice.UI.Configuration.Constants.html
   name: Constants
   nameWithType: Constants
   fullName: SuperOffice.UI.Configuration.Constants
 - uid: SuperOffice.UI.Configuration.Constants.Clients
   commentId: T:SuperOffice.UI.Configuration.Constants.Clients
   isExternal: true
-  href: SuperOffice.UI.Configuration.Constants.html
   name: Constants.Clients
   nameWithType: Constants.Clients
   fullName: SuperOffice.UI.Configuration.Constants.Clients
-  spec.csharp:
-  - uid: SuperOffice.UI.Configuration.Constants
-    name: Constants
-    isExternal: true
-    href: SuperOffice.UI.Configuration.Constants.html
-  - name: .
-  - uid: SuperOffice.UI.Configuration.Constants.Clients
-    name: Clients
-    isExternal: true
-    href: SuperOffice.UI.Configuration.Constants.Clients.html
-  spec.vb:
-  - uid: SuperOffice.UI.Configuration.Constants
-    name: Constants
-    isExternal: true
-    href: SuperOffice.UI.Configuration.Constants.html
-  - name: .
-  - uid: SuperOffice.UI.Configuration.Constants.Clients
-    name: Clients
-    isExternal: true
-    href: SuperOffice.UI.Configuration.Constants.Clients.html
 - uid: SuperOffice.UI.Configuration.Layout
   commentId: T:SuperOffice.UI.Configuration.Layout
   parent: SuperOffice.UI.Configuration
   isExternal: true
-  href: SuperOffice.UI.Configuration.Layout.html
   name: Layout
   nameWithType: Layout
   fullName: SuperOffice.UI.Configuration.Layout
@@ -74,58 +50,24 @@ references:
   commentId: T:SuperOffice.UI.Configuration.View
   parent: SuperOffice.UI.Configuration
   isExternal: true
-  href: SuperOffice.UI.Configuration.View.html
   name: View
   nameWithType: View
   fullName: SuperOffice.UI.Configuration.View
 - uid: SuperOffice.UI.Configuration.ControlGroup
   commentId: T:SuperOffice.UI.Configuration.ControlGroup
   isExternal: true
-  href: SuperOffice.UI.Configuration.ControlGroup.html
   name: ControlGroup
   nameWithType: ControlGroup
   fullName: SuperOffice.UI.Configuration.ControlGroup
 - uid: SuperOffice.UI.Configuration.Control
   commentId: T:SuperOffice.UI.Configuration.Control
   isExternal: true
-  href: SuperOffice.UI.Configuration.Control.html
   name: Control
   nameWithType: Control
   fullName: SuperOffice.UI.Configuration.Control
 - uid: SuperOffice.UI.Configuration
   commentId: N:SuperOffice.UI.Configuration
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.UI.Configuration
   nameWithType: SuperOffice.UI.Configuration
   fullName: SuperOffice.UI.Configuration
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.UI
-    name: UI
-    isExternal: true
-    href: SuperOffice.UI.html
-  - name: .
-  - uid: SuperOffice.UI.Configuration
-    name: Configuration
-    isExternal: true
-    href: SuperOffice.UI.Configuration.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.UI
-    name: UI
-    isExternal: true
-    href: SuperOffice.UI.html
-  - name: .
-  - uid: SuperOffice.UI.Configuration
-    name: Configuration
-    isExternal: true
-    href: SuperOffice.UI.Configuration.html

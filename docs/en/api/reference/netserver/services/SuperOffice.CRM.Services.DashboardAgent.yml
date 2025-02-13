@@ -12,9 +12,9 @@ items:
   - SuperOffice.CRM.Services.DashboardAgent.DeleteDashboard(System.Int32)
   - SuperOffice.CRM.Services.DashboardAgent.DeleteDashboardTile(System.Int32)
   - SuperOffice.CRM.Services.DashboardAgent.GetDashboard(System.Int32)
+  - SuperOffice.CRM.Services.DashboardAgent.GetDashboards(System.Int32)
   - SuperOffice.CRM.Services.DashboardAgent.GetDashboardTile(System.Int32)
   - SuperOffice.CRM.Services.DashboardAgent.GetDashboardTiles(System.Int32[])
-  - SuperOffice.CRM.Services.DashboardAgent.GetDashboards(System.Int32)
   - SuperOffice.CRM.Services.DashboardAgent.GetData(System.Int32,System.String)
   - SuperOffice.CRM.Services.DashboardAgent.GetDataWithSelection(System.Int32,System.Int32,System.String)
   - SuperOffice.CRM.Services.DashboardAgent.GetStandardDashboardTileFromChartId(System.String)
@@ -28,31 +28,21 @@ items:
   nameWithType: DashboardAgent
   fullName: SuperOffice.CRM.Services.DashboardAgent
   type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Facade for the Dashboard Agent
-
-    Agent lets you configure dashboard tiles and retrieve dashboard data
+  summary: "\nFacade for the Dashboard Agent\nAgent lets you configure dashboard tiles and retrieve dashboard data\n"
   example:
-  - >-
-    <pre><code class="lang-csharp">using SuperOffice;
-
-    using SuperOffice.CRM.Services;
-
-
-    using (SoSession mySession = SoSession.Authenticate("user", "pass"))
-
-    {
-       using (DashboardAgent agent = new DashboardAgent())
-       {
-          // call methods on agent here...
-       }
-    }</code></pre>
+  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (DashboardAgent agent = new DashboardAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
   syntax:
     content: 'public class DashboardAgent : AgentBase<IDashboardAgent>, IDisposable, IDashboardAgent, IAgent'
-    content.vb: Public Class DashboardAgent Inherits AgentBase(Of IDashboardAgent) Implements IDisposable, IDashboardAgent, IAgent
+    content.vb: >-
+      Public Class DashboardAgent
+          Inherits AgentBase(Of IDashboardAgent)
+          Implements IDisposable, IDashboardAgent, IAgent
   inheritance:
   - System.Object
   - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDashboardAgent}
@@ -63,13 +53,12 @@ items:
   inheritedMembers:
   - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDashboardAgent}.Dispose
   - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDashboardAgent}.InnerAgent
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.DashboardAgent.CreateDefaultDashboard
   commentId: M:SuperOffice.CRM.Services.DashboardAgent.CreateDefaultDashboard
   id: CreateDefaultDashboard
@@ -81,23 +70,26 @@ items:
   nameWithType: DashboardAgent.CreateDefaultDashboard()
   fullName: SuperOffice.CRM.Services.DashboardAgent.CreateDefaultDashboard()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new Dashboard.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-  example: []
+  summary: "\nLoading default values into a new Dashboard.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
   syntax:
     content: public Dashboard CreateDefaultDashboard()
     return:
       type: SuperOffice.CRM.Services.Dashboard
       description: New Dashboard with default values
-    content.vb: Public Function CreateDefaultDashboard() As Dashboard
+    content.vb: Public Function CreateDefaultDashboard As Dashboard
   overload: SuperOffice.CRM.Services.DashboardAgent.CreateDefaultDashboard*
   implements:
   - SuperOffice.CRM.Services.IDashboardAgent.CreateDefaultDashboard
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.DashboardAgent.SaveDashboard(SuperOffice.CRM.Services.Dashboard)
   commentId: M:SuperOffice.CRM.Services.DashboardAgent.SaveDashboard(SuperOffice.CRM.Services.Dashboard)
   id: SaveDashboard(SuperOffice.CRM.Services.Dashboard)
@@ -109,11 +101,13 @@ items:
   nameWithType: DashboardAgent.SaveDashboard(Dashboard)
   fullName: SuperOffice.CRM.Services.DashboardAgent.SaveDashboard(SuperOffice.CRM.Services.Dashboard)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Updates the existing Dashboard or creates a new Dashboard if the id parameter is empty
-  example: []
+  summary: "\nUpdates the existing Dashboard or creates a new Dashboard if the id parameter is empty\n"
   syntax:
     content: public Dashboard SaveDashboard(Dashboard dashboard)
     parameters:
@@ -127,6 +121,10 @@ items:
   overload: SuperOffice.CRM.Services.DashboardAgent.SaveDashboard*
   implements:
   - SuperOffice.CRM.Services.IDashboardAgent.SaveDashboard(SuperOffice.CRM.Services.Dashboard)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.DashboardAgent.DeleteDashboard(System.Int32)
   commentId: M:SuperOffice.CRM.Services.DashboardAgent.DeleteDashboard(System.Int32)
   id: DeleteDashboard(System.Int32)
@@ -134,15 +132,17 @@ items:
   langs:
   - csharp
   - vb
-  name: DeleteDashboard(int)
-  nameWithType: DashboardAgent.DeleteDashboard(int)
-  fullName: SuperOffice.CRM.Services.DashboardAgent.DeleteDashboard(int)
+  name: DeleteDashboard(Int32)
+  nameWithType: DashboardAgent.DeleteDashboard(Int32)
+  fullName: SuperOffice.CRM.Services.DashboardAgent.DeleteDashboard(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Deletes the Dashboard
-  example: []
+  summary: "\nDeletes the Dashboard\n"
   syntax:
     content: public void DeleteDashboard(int dashboardId)
     parameters:
@@ -153,9 +153,10 @@ items:
   overload: SuperOffice.CRM.Services.DashboardAgent.DeleteDashboard*
   implements:
   - SuperOffice.CRM.Services.IDashboardAgent.DeleteDashboard(System.Int32)
-  nameWithType.vb: DashboardAgent.DeleteDashboard(Integer)
-  fullName.vb: SuperOffice.CRM.Services.DashboardAgent.DeleteDashboard(Integer)
-  name.vb: DeleteDashboard(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.DashboardAgent.CreateDefaultDashboardTile
   commentId: M:SuperOffice.CRM.Services.DashboardAgent.CreateDefaultDashboardTile
   id: CreateDefaultDashboardTile
@@ -167,23 +168,26 @@ items:
   nameWithType: DashboardAgent.CreateDefaultDashboardTile()
   fullName: SuperOffice.CRM.Services.DashboardAgent.CreateDefaultDashboardTile()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new DashboardTile.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-  example: []
+  summary: "\nLoading default values into a new DashboardTile.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
   syntax:
     content: public DashboardTile CreateDefaultDashboardTile()
     return:
       type: SuperOffice.CRM.Services.DashboardTile
       description: New DashboardTile with default values
-    content.vb: Public Function CreateDefaultDashboardTile() As DashboardTile
+    content.vb: Public Function CreateDefaultDashboardTile As DashboardTile
   overload: SuperOffice.CRM.Services.DashboardAgent.CreateDefaultDashboardTile*
   implements:
   - SuperOffice.CRM.Services.IDashboardAgent.CreateDefaultDashboardTile
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.DashboardAgent.SaveDashboardTile(SuperOffice.CRM.Services.DashboardTile)
   commentId: M:SuperOffice.CRM.Services.DashboardAgent.SaveDashboardTile(SuperOffice.CRM.Services.DashboardTile)
   id: SaveDashboardTile(SuperOffice.CRM.Services.DashboardTile)
@@ -195,11 +199,13 @@ items:
   nameWithType: DashboardAgent.SaveDashboardTile(DashboardTile)
   fullName: SuperOffice.CRM.Services.DashboardAgent.SaveDashboardTile(SuperOffice.CRM.Services.DashboardTile)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Updates the existing DashboardTile or creates a new DashboardTile if the id parameter is empty
-  example: []
+  summary: "\nUpdates the existing DashboardTile or creates a new DashboardTile if the id parameter is empty\n"
   syntax:
     content: public DashboardTile SaveDashboardTile(DashboardTile dashboardTile)
     parameters:
@@ -213,6 +219,10 @@ items:
   overload: SuperOffice.CRM.Services.DashboardAgent.SaveDashboardTile*
   implements:
   - SuperOffice.CRM.Services.IDashboardAgent.SaveDashboardTile(SuperOffice.CRM.Services.DashboardTile)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.DashboardAgent.DeleteDashboardTile(System.Int32)
   commentId: M:SuperOffice.CRM.Services.DashboardAgent.DeleteDashboardTile(System.Int32)
   id: DeleteDashboardTile(System.Int32)
@@ -220,15 +230,17 @@ items:
   langs:
   - csharp
   - vb
-  name: DeleteDashboardTile(int)
-  nameWithType: DashboardAgent.DeleteDashboardTile(int)
-  fullName: SuperOffice.CRM.Services.DashboardAgent.DeleteDashboardTile(int)
+  name: DeleteDashboardTile(Int32)
+  nameWithType: DashboardAgent.DeleteDashboardTile(Int32)
+  fullName: SuperOffice.CRM.Services.DashboardAgent.DeleteDashboardTile(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Deletes the DashboardTile
-  example: []
+  summary: "\nDeletes the DashboardTile\n"
   syntax:
     content: public void DeleteDashboardTile(int dashboardTileId)
     parameters:
@@ -239,9 +251,10 @@ items:
   overload: SuperOffice.CRM.Services.DashboardAgent.DeleteDashboardTile*
   implements:
   - SuperOffice.CRM.Services.IDashboardAgent.DeleteDashboardTile(System.Int32)
-  nameWithType.vb: DashboardAgent.DeleteDashboardTile(Integer)
-  fullName.vb: SuperOffice.CRM.Services.DashboardAgent.DeleteDashboardTile(Integer)
-  name.vb: DeleteDashboardTile(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.DashboardAgent.GetDashboard(System.Int32)
   commentId: M:SuperOffice.CRM.Services.DashboardAgent.GetDashboard(System.Int32)
   id: GetDashboard(System.Int32)
@@ -249,15 +262,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetDashboard(int)
-  nameWithType: DashboardAgent.GetDashboard(int)
-  fullName: SuperOffice.CRM.Services.DashboardAgent.GetDashboard(int)
+  name: GetDashboard(Int32)
+  nameWithType: DashboardAgent.GetDashboard(Int32)
+  fullName: SuperOffice.CRM.Services.DashboardAgent.GetDashboard(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Gets a Dashboard object.
-  example: []
+  summary: "\nGets a Dashboard object.                        \n"
   syntax:
     content: public Dashboard GetDashboard(int dashboardId)
     parameters:
@@ -271,9 +286,10 @@ items:
   overload: SuperOffice.CRM.Services.DashboardAgent.GetDashboard*
   implements:
   - SuperOffice.CRM.Services.IDashboardAgent.GetDashboard(System.Int32)
-  nameWithType.vb: DashboardAgent.GetDashboard(Integer)
-  fullName.vb: SuperOffice.CRM.Services.DashboardAgent.GetDashboard(Integer)
-  name.vb: GetDashboard(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.DashboardAgent.GetDashboards(System.Int32)
   commentId: M:SuperOffice.CRM.Services.DashboardAgent.GetDashboards(System.Int32)
   id: GetDashboards(System.Int32)
@@ -281,15 +297,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetDashboards(int)
-  nameWithType: DashboardAgent.GetDashboards(int)
-  fullName: SuperOffice.CRM.Services.DashboardAgent.GetDashboards(int)
+  name: GetDashboards(Int32)
+  nameWithType: DashboardAgent.GetDashboards(Int32)
+  fullName: SuperOffice.CRM.Services.DashboardAgent.GetDashboards(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Gets all dashboards for an associate
-  example: []
+  summary: "\nGets all dashboards for an associate\n"
   syntax:
     content: public Dashboard[] GetDashboards(int associateId)
     parameters:
@@ -303,9 +321,10 @@ items:
   overload: SuperOffice.CRM.Services.DashboardAgent.GetDashboards*
   implements:
   - SuperOffice.CRM.Services.IDashboardAgent.GetDashboards(System.Int32)
-  nameWithType.vb: DashboardAgent.GetDashboards(Integer)
-  fullName.vb: SuperOffice.CRM.Services.DashboardAgent.GetDashboards(Integer)
-  name.vb: GetDashboards(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.DashboardAgent.SetTile(System.Int32,System.Int32,System.Int32)
   commentId: M:SuperOffice.CRM.Services.DashboardAgent.SetTile(System.Int32,System.Int32,System.Int32)
   id: SetTile(System.Int32,System.Int32,System.Int32)
@@ -313,15 +332,17 @@ items:
   langs:
   - csharp
   - vb
-  name: SetTile(int, int, int)
-  nameWithType: DashboardAgent.SetTile(int, int, int)
-  fullName: SuperOffice.CRM.Services.DashboardAgent.SetTile(int, int, int)
+  name: SetTile(Int32, Int32, Int32)
+  nameWithType: DashboardAgent.SetTile(Int32, Int32, Int32)
+  fullName: SuperOffice.CRM.Services.DashboardAgent.SetTile(System.Int32, System.Int32, System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Sets tile in the given dashboard position
-  example: []
+  summary: "\nSets tile in the given dashboard position\n"
   syntax:
     content: public Dashboard SetTile(int dashboardId, int tileId, int position)
     parameters:
@@ -341,9 +362,10 @@ items:
   overload: SuperOffice.CRM.Services.DashboardAgent.SetTile*
   implements:
   - SuperOffice.CRM.Services.IDashboardAgent.SetTile(System.Int32,System.Int32,System.Int32)
-  nameWithType.vb: DashboardAgent.SetTile(Integer, Integer, Integer)
-  fullName.vb: SuperOffice.CRM.Services.DashboardAgent.SetTile(Integer, Integer, Integer)
-  name.vb: SetTile(Integer, Integer, Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.DashboardAgent.GetDashboardTile(System.Int32)
   commentId: M:SuperOffice.CRM.Services.DashboardAgent.GetDashboardTile(System.Int32)
   id: GetDashboardTile(System.Int32)
@@ -351,15 +373,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetDashboardTile(int)
-  nameWithType: DashboardAgent.GetDashboardTile(int)
-  fullName: SuperOffice.CRM.Services.DashboardAgent.GetDashboardTile(int)
+  name: GetDashboardTile(Int32)
+  nameWithType: DashboardAgent.GetDashboardTile(Int32)
+  fullName: SuperOffice.CRM.Services.DashboardAgent.GetDashboardTile(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Gets a DashboardTile object.
-  example: []
+  summary: "\nGets a DashboardTile object.                        \n"
   syntax:
     content: public DashboardTile GetDashboardTile(int dashboardTileId)
     parameters:
@@ -373,9 +397,10 @@ items:
   overload: SuperOffice.CRM.Services.DashboardAgent.GetDashboardTile*
   implements:
   - SuperOffice.CRM.Services.IDashboardAgent.GetDashboardTile(System.Int32)
-  nameWithType.vb: DashboardAgent.GetDashboardTile(Integer)
-  fullName.vb: SuperOffice.CRM.Services.DashboardAgent.GetDashboardTile(Integer)
-  name.vb: GetDashboardTile(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.DashboardAgent.GetDashboardTiles(System.Int32[])
   commentId: M:SuperOffice.CRM.Services.DashboardAgent.GetDashboardTiles(System.Int32[])
   id: GetDashboardTiles(System.Int32[])
@@ -383,15 +408,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetDashboardTiles(int[])
-  nameWithType: DashboardAgent.GetDashboardTiles(int[])
-  fullName: SuperOffice.CRM.Services.DashboardAgent.GetDashboardTiles(int[])
+  name: GetDashboardTiles(Int32[])
+  nameWithType: DashboardAgent.GetDashboardTiles(Int32[])
+  fullName: SuperOffice.CRM.Services.DashboardAgent.GetDashboardTiles(System.Int32[])
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Gets an array of dashboard tiles for the provided ids
-  example: []
+  summary: "\nGets an array of dashboard tiles for the provided ids\n"
   syntax:
     content: public DashboardTile[] GetDashboardTiles(int[] dashboardTileIds)
     parameters:
@@ -405,9 +432,13 @@ items:
   overload: SuperOffice.CRM.Services.DashboardAgent.GetDashboardTiles*
   implements:
   - SuperOffice.CRM.Services.IDashboardAgent.GetDashboardTiles(System.Int32[])
-  nameWithType.vb: DashboardAgent.GetDashboardTiles(Integer())
-  fullName.vb: SuperOffice.CRM.Services.DashboardAgent.GetDashboardTiles(Integer())
-  name.vb: GetDashboardTiles(Integer())
+  nameWithType.vb: DashboardAgent.GetDashboardTiles(Int32())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Services.DashboardAgent.GetDashboardTiles(System.Int32())
+  name.vb: GetDashboardTiles(Int32())
 - uid: SuperOffice.CRM.Services.DashboardAgent.GetStandardDashboardTileFromChartId(System.String)
   commentId: M:SuperOffice.CRM.Services.DashboardAgent.GetStandardDashboardTileFromChartId(System.String)
   id: GetStandardDashboardTileFromChartId(System.String)
@@ -415,15 +446,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetStandardDashboardTileFromChartId(string)
-  nameWithType: DashboardAgent.GetStandardDashboardTileFromChartId(string)
-  fullName: SuperOffice.CRM.Services.DashboardAgent.GetStandardDashboardTileFromChartId(string)
+  name: GetStandardDashboardTileFromChartId(String)
+  nameWithType: DashboardAgent.GetStandardDashboardTileFromChartId(String)
+  fullName: SuperOffice.CRM.Services.DashboardAgent.GetStandardDashboardTileFromChartId(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Gets the standard tile (not personal tile) corresponding to the given chart id
-  example: []
+  summary: "\nGets the standard tile (not personal tile) corresponding to the given chart id\n"
   syntax:
     content: public DashboardTile GetStandardDashboardTileFromChartId(string chartId)
     parameters:
@@ -437,9 +470,10 @@ items:
   overload: SuperOffice.CRM.Services.DashboardAgent.GetStandardDashboardTileFromChartId*
   implements:
   - SuperOffice.CRM.Services.IDashboardAgent.GetStandardDashboardTileFromChartId(System.String)
-  nameWithType.vb: DashboardAgent.GetStandardDashboardTileFromChartId(String)
-  fullName.vb: SuperOffice.CRM.Services.DashboardAgent.GetStandardDashboardTileFromChartId(String)
-  name.vb: GetStandardDashboardTileFromChartId(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.DashboardAgent.GetData(System.Int32,System.String)
   commentId: M:SuperOffice.CRM.Services.DashboardAgent.GetData(System.Int32,System.String)
   id: GetData(System.Int32,System.String)
@@ -447,15 +481,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetData(int, string)
-  nameWithType: DashboardAgent.GetData(int, string)
-  fullName: SuperOffice.CRM.Services.DashboardAgent.GetData(int, string)
+  name: GetData(Int32, String)
+  nameWithType: DashboardAgent.GetData(Int32, String)
+  fullName: SuperOffice.CRM.Services.DashboardAgent.GetData(System.Int32, System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Get data for this tile
-  example: []
+  summary: "\nGet data for this tile\n"
   syntax:
     content: public TileData[] GetData(int dashboardTileId, string restrictions)
     parameters:
@@ -472,9 +508,10 @@ items:
   overload: SuperOffice.CRM.Services.DashboardAgent.GetData*
   implements:
   - SuperOffice.CRM.Services.IDashboardAgent.GetData(System.Int32,System.String)
-  nameWithType.vb: DashboardAgent.GetData(Integer, String)
-  fullName.vb: SuperOffice.CRM.Services.DashboardAgent.GetData(Integer, String)
-  name.vb: GetData(Integer, String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.DashboardAgent.CreateNewFromTemplate(System.Int32,System.String,System.String,System.Int32,SuperOffice.CRM.Services.VisibleFor[])
   commentId: M:SuperOffice.CRM.Services.DashboardAgent.CreateNewFromTemplate(System.Int32,System.String,System.String,System.Int32,SuperOffice.CRM.Services.VisibleFor[])
   id: CreateNewFromTemplate(System.Int32,System.String,System.String,System.Int32,SuperOffice.CRM.Services.VisibleFor[])
@@ -482,15 +519,17 @@ items:
   langs:
   - csharp
   - vb
-  name: CreateNewFromTemplate(int, string, string, int, VisibleFor[])
-  nameWithType: DashboardAgent.CreateNewFromTemplate(int, string, string, int, VisibleFor[])
-  fullName: SuperOffice.CRM.Services.DashboardAgent.CreateNewFromTemplate(int, string, string, int, SuperOffice.CRM.Services.VisibleFor[])
+  name: CreateNewFromTemplate(Int32, String, String, Int32, VisibleFor[])
+  nameWithType: DashboardAgent.CreateNewFromTemplate(Int32, String, String, Int32, VisibleFor[])
+  fullName: SuperOffice.CRM.Services.DashboardAgent.CreateNewFromTemplate(System.Int32, System.String, System.String, System.Int32, SuperOffice.CRM.Services.VisibleFor[])
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Create new tile from another tile used as template
-  example: []
+  summary: "\nCreate new tile from another tile used as template\n"
   syntax:
     content: public DashboardTile CreateNewFromTemplate(int dashboardTileId, string caption, string description, int selectionId, VisibleFor[] visibleFor)
     parameters:
@@ -516,9 +555,13 @@ items:
   overload: SuperOffice.CRM.Services.DashboardAgent.CreateNewFromTemplate*
   implements:
   - SuperOffice.CRM.Services.IDashboardAgent.CreateNewFromTemplate(System.Int32,System.String,System.String,System.Int32,SuperOffice.CRM.Services.VisibleFor[])
-  nameWithType.vb: DashboardAgent.CreateNewFromTemplate(Integer, String, String, Integer, VisibleFor())
-  fullName.vb: SuperOffice.CRM.Services.DashboardAgent.CreateNewFromTemplate(Integer, String, String, Integer, SuperOffice.CRM.Services.VisibleFor())
-  name.vb: CreateNewFromTemplate(Integer, String, String, Integer, VisibleFor())
+  nameWithType.vb: DashboardAgent.CreateNewFromTemplate(Int32, String, String, Int32, VisibleFor())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Services.DashboardAgent.CreateNewFromTemplate(System.Int32, System.String, System.String, System.Int32, SuperOffice.CRM.Services.VisibleFor())
+  name.vb: CreateNewFromTemplate(Int32, String, String, Int32, VisibleFor())
 - uid: SuperOffice.CRM.Services.DashboardAgent.GetDataWithSelection(System.Int32,System.Int32,System.String)
   commentId: M:SuperOffice.CRM.Services.DashboardAgent.GetDataWithSelection(System.Int32,System.Int32,System.String)
   id: GetDataWithSelection(System.Int32,System.Int32,System.String)
@@ -526,15 +569,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetDataWithSelection(int, int, string)
-  nameWithType: DashboardAgent.GetDataWithSelection(int, int, string)
-  fullName: SuperOffice.CRM.Services.DashboardAgent.GetDataWithSelection(int, int, string)
+  name: GetDataWithSelection(Int32, Int32, String)
+  nameWithType: DashboardAgent.GetDataWithSelection(Int32, Int32, String)
+  fullName: SuperOffice.CRM.Services.DashboardAgent.GetDataWithSelection(System.Int32, System.Int32, System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Get data for this tile
-  example: []
+  summary: "\nGet data for this tile\n"
   syntax:
     content: public TileData[] GetDataWithSelection(int dashboardTileId, int selectionId, string restrictions)
     parameters:
@@ -554,9 +599,10 @@ items:
   overload: SuperOffice.CRM.Services.DashboardAgent.GetDataWithSelection*
   implements:
   - SuperOffice.CRM.Services.IDashboardAgent.GetDataWithSelection(System.Int32,System.Int32,System.String)
-  nameWithType.vb: DashboardAgent.GetDataWithSelection(Integer, Integer, String)
-  fullName.vb: SuperOffice.CRM.Services.DashboardAgent.GetDataWithSelection(Integer, Integer, String)
-  name.vb: GetDataWithSelection(Integer, Integer, String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.DashboardAgent.#ctor
   commentId: M:SuperOffice.CRM.Services.DashboardAgent.#ctor
   id: '#ctor'
@@ -568,70 +614,31 @@ items:
   nameWithType: DashboardAgent.DashboardAgent()
   fullName: SuperOffice.CRM.Services.DashboardAgent.DashboardAgent()
   type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
   syntax:
     content: public DashboardAgent()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.DashboardAgent.#ctor*
-  nameWithType.vb: DashboardAgent.New()
-  fullName.vb: SuperOffice.CRM.Services.DashboardAgent.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
 - uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDashboardAgent}
   commentId: T:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDashboardAgent}
   parent: SuperOffice.CRM.Services
   definition: SuperOffice.CRM.Services.AgentBase`1
-  href: SuperOffice.CRM.Services.AgentBase-1.html
   name: AgentBase<IDashboardAgent>
   nameWithType: AgentBase<IDashboardAgent>
   fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IDashboardAgent>
@@ -641,32 +648,39 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.AgentBase`1
     name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
     isExternal: true
-    href: SuperOffice.CRM.Services.AgentBase-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Services.IDashboardAgent
     name: IDashboardAgent
+    nameWithType: IDashboardAgent
+    fullName: SuperOffice.CRM.Services.IDashboardAgent
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashboardAgent.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.CRM.Services.AgentBase`1
     name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
     isExternal: true
-    href: SuperOffice.CRM.Services.AgentBase-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Services.IDashboardAgent
     name: IDashboardAgent
+    nameWithType: IDashboardAgent
+    fullName: SuperOffice.CRM.Services.IDashboardAgent
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashboardAgent.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.IDisposable
-  commentId: T:System.IDisposable
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.idisposable
   name: IDisposable
   nameWithType: IDisposable
   fullName: System.IDisposable
@@ -674,7 +688,6 @@ references:
   commentId: T:SuperOffice.CRM.Services.IDashboardAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.IDashboardAgent.html
   name: IDashboardAgent
   nameWithType: IDashboardAgent
   fullName: SuperOffice.CRM.Services.IDashboardAgent
@@ -682,7 +695,6 @@ references:
   commentId: T:SuperOffice.CRM.Services.IAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.IAgent.html
   name: IAgent
   nameWithType: IAgent
   fullName: SuperOffice.CRM.Services.IAgent
@@ -690,266 +702,47 @@ references:
   commentId: M:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDashboardAgent}.Dispose
   parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDashboardAgent}
   definition: SuperOffice.CRM.Services.AgentBase`1.Dispose
-  href: SuperOffice.CRM.Services.AgentBase-1.html#SuperOffice_CRM_Services_AgentBase_1_Dispose
   name: Dispose()
   nameWithType: AgentBase<IDashboardAgent>.Dispose()
   fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IDashboardAgent>.Dispose()
   nameWithType.vb: AgentBase(Of IDashboardAgent).Dispose()
   fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IDashboardAgent).Dispose()
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDashboardAgent}.Dispose
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
     name: Dispose
+    nameWithType: AgentBase<IDashboardAgent>.Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IDashboardAgent>.Dispose
     isExternal: true
-    href: SuperOffice.CRM.Services.AgentBase-1.html#SuperOffice_CRM_Services_AgentBase_1_Dispose
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDashboardAgent}.Dispose
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
     name: Dispose
+    nameWithType: AgentBase(Of IDashboardAgent).Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IDashboardAgent).Dispose
     isExternal: true
-    href: SuperOffice.CRM.Services.AgentBase-1.html#SuperOffice_CRM_Services_AgentBase_1_Dispose
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDashboardAgent}.InnerAgent
   commentId: P:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDashboardAgent}.InnerAgent
   parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDashboardAgent}
   definition: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
-  href: SuperOffice.CRM.Services.AgentBase-1.html#SuperOffice_CRM_Services_AgentBase_1_InnerAgent
   name: InnerAgent
   nameWithType: AgentBase<IDashboardAgent>.InnerAgent
   fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IDashboardAgent>.InnerAgent
   nameWithType.vb: AgentBase(Of IDashboardAgent).InnerAgent
   fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IDashboardAgent).InnerAgent
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.AgentBase`1
   commentId: T:SuperOffice.CRM.Services.AgentBase`1
   isExternal: true
-  href: SuperOffice.CRM.Services.AgentBase-1.html
   name: AgentBase<TAgent>
   nameWithType: AgentBase<TAgent>
   fullName: SuperOffice.CRM.Services.AgentBase<TAgent>
@@ -959,25 +752,36 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.AgentBase`1
     name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
     isExternal: true
-    href: SuperOffice.CRM.Services.AgentBase-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - name: TAgent
+    nameWithType: TAgent
+    fullName: TAgent
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.CRM.Services.AgentBase`1
     name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
     isExternal: true
-    href: SuperOffice.CRM.Services.AgentBase-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: TAgent
+    nameWithType: TAgent
+    fullName: TAgent
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
   commentId: M:SuperOffice.CRM.Services.AgentBase`1.Dispose
   isExternal: true
-  href: SuperOffice.CRM.Services.AgentBase-1.html#SuperOffice_CRM_Services_AgentBase_1_Dispose
   name: Dispose()
   nameWithType: AgentBase<TAgent>.Dispose()
   fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose()
@@ -986,21 +790,30 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
     name: Dispose
+    nameWithType: AgentBase<TAgent>.Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose
     isExternal: true
-    href: SuperOffice.CRM.Services.AgentBase-1.html#SuperOffice_CRM_Services_AgentBase_1_Dispose
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
     name: Dispose
+    nameWithType: AgentBase(Of TAgent).Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose
     isExternal: true
-    href: SuperOffice.CRM.Services.AgentBase-1.html#SuperOffice_CRM_Services_AgentBase_1_Dispose
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
   commentId: P:SuperOffice.CRM.Services.AgentBase`1.InnerAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.AgentBase-1.html#SuperOffice_CRM_Services_AgentBase_1_InnerAgent
   name: InnerAgent
   nameWithType: AgentBase<TAgent>.InnerAgent
   fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.InnerAgent
@@ -1009,7 +822,6 @@ references:
 - uid: SuperOffice.CRM.Services.DashboardAgent.CreateDefaultDashboard*
   commentId: Overload:SuperOffice.CRM.Services.DashboardAgent.CreateDefaultDashboard
   isExternal: true
-  href: SuperOffice.CRM.Services.DashboardAgent.html#SuperOffice_CRM_Services_DashboardAgent_CreateDefaultDashboard
   name: CreateDefaultDashboard
   nameWithType: DashboardAgent.CreateDefaultDashboard
   fullName: SuperOffice.CRM.Services.DashboardAgent.CreateDefaultDashboard
@@ -1017,36 +829,43 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDashboardAgent.CreateDefaultDashboard
   parent: SuperOffice.CRM.Services.IDashboardAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDashboardAgent.html#SuperOffice_CRM_Services_IDashboardAgent_CreateDefaultDashboard
   name: CreateDefaultDashboard()
   nameWithType: IDashboardAgent.CreateDefaultDashboard()
   fullName: SuperOffice.CRM.Services.IDashboardAgent.CreateDefaultDashboard()
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDashboardAgent.CreateDefaultDashboard
     name: CreateDefaultDashboard
+    nameWithType: IDashboardAgent.CreateDefaultDashboard
+    fullName: SuperOffice.CRM.Services.IDashboardAgent.CreateDefaultDashboard
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashboardAgent.html#SuperOffice_CRM_Services_IDashboardAgent_CreateDefaultDashboard
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDashboardAgent.CreateDefaultDashboard
     name: CreateDefaultDashboard
+    nameWithType: IDashboardAgent.CreateDefaultDashboard
+    fullName: SuperOffice.CRM.Services.IDashboardAgent.CreateDefaultDashboard
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashboardAgent.html#SuperOffice_CRM_Services_IDashboardAgent_CreateDefaultDashboard
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.Dashboard
   commentId: T:SuperOffice.CRM.Services.Dashboard
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.Dashboard.html
   name: Dashboard
   nameWithType: Dashboard
   fullName: SuperOffice.CRM.Services.Dashboard
 - uid: SuperOffice.CRM.Services.DashboardAgent.SaveDashboard*
   commentId: Overload:SuperOffice.CRM.Services.DashboardAgent.SaveDashboard
   isExternal: true
-  href: SuperOffice.CRM.Services.DashboardAgent.html#SuperOffice_CRM_Services_DashboardAgent_SaveDashboard_SuperOffice_CRM_Services_Dashboard_
   name: SaveDashboard
   nameWithType: DashboardAgent.SaveDashboard
   fullName: SuperOffice.CRM.Services.DashboardAgent.SaveDashboard
@@ -1054,36 +873,46 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDashboardAgent.SaveDashboard(SuperOffice.CRM.Services.Dashboard)
   parent: SuperOffice.CRM.Services.IDashboardAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDashboardAgent.html#SuperOffice_CRM_Services_IDashboardAgent_SaveDashboard_SuperOffice_CRM_Services_Dashboard_
   name: SaveDashboard(Dashboard)
   nameWithType: IDashboardAgent.SaveDashboard(Dashboard)
   fullName: SuperOffice.CRM.Services.IDashboardAgent.SaveDashboard(SuperOffice.CRM.Services.Dashboard)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDashboardAgent.SaveDashboard(SuperOffice.CRM.Services.Dashboard)
     name: SaveDashboard
+    nameWithType: IDashboardAgent.SaveDashboard
+    fullName: SuperOffice.CRM.Services.IDashboardAgent.SaveDashboard
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashboardAgent.html#SuperOffice_CRM_Services_IDashboardAgent_SaveDashboard_SuperOffice_CRM_Services_Dashboard_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Services.Dashboard
     name: Dashboard
+    nameWithType: Dashboard
+    fullName: SuperOffice.CRM.Services.Dashboard
     isExternal: true
-    href: SuperOffice.CRM.Services.Dashboard.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDashboardAgent.SaveDashboard(SuperOffice.CRM.Services.Dashboard)
     name: SaveDashboard
+    nameWithType: IDashboardAgent.SaveDashboard
+    fullName: SuperOffice.CRM.Services.IDashboardAgent.SaveDashboard
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashboardAgent.html#SuperOffice_CRM_Services_IDashboardAgent_SaveDashboard_SuperOffice_CRM_Services_Dashboard_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Services.Dashboard
     name: Dashboard
+    nameWithType: Dashboard
+    fullName: SuperOffice.CRM.Services.Dashboard
     isExternal: true
-    href: SuperOffice.CRM.Services.Dashboard.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.DashboardAgent.DeleteDashboard*
   commentId: Overload:SuperOffice.CRM.Services.DashboardAgent.DeleteDashboard
   isExternal: true
-  href: SuperOffice.CRM.Services.DashboardAgent.html#SuperOffice_CRM_Services_DashboardAgent_DeleteDashboard_System_Int32_
   name: DeleteDashboard
   nameWithType: DashboardAgent.DeleteDashboard
   fullName: SuperOffice.CRM.Services.DashboardAgent.DeleteDashboard
@@ -1091,50 +920,59 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDashboardAgent.DeleteDashboard(System.Int32)
   parent: SuperOffice.CRM.Services.IDashboardAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDashboardAgent.html#SuperOffice_CRM_Services_IDashboardAgent_DeleteDashboard_System_Int32_
-  name: DeleteDashboard(int)
-  nameWithType: IDashboardAgent.DeleteDashboard(int)
-  fullName: SuperOffice.CRM.Services.IDashboardAgent.DeleteDashboard(int)
-  nameWithType.vb: IDashboardAgent.DeleteDashboard(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IDashboardAgent.DeleteDashboard(Integer)
-  name.vb: DeleteDashboard(Integer)
+  name: DeleteDashboard(Int32)
+  nameWithType: IDashboardAgent.DeleteDashboard(Int32)
+  fullName: SuperOffice.CRM.Services.IDashboardAgent.DeleteDashboard(System.Int32)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDashboardAgent.DeleteDashboard(System.Int32)
     name: DeleteDashboard
+    nameWithType: IDashboardAgent.DeleteDashboard
+    fullName: SuperOffice.CRM.Services.IDashboardAgent.DeleteDashboard
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashboardAgent.html#SuperOffice_CRM_Services_IDashboardAgent_DeleteDashboard_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDashboardAgent.DeleteDashboard(System.Int32)
     name: DeleteDashboard
+    nameWithType: IDashboardAgent.DeleteDashboard
+    fullName: SuperOffice.CRM.Services.IDashboardAgent.DeleteDashboard
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashboardAgent.html#SuperOffice_CRM_Services_IDashboardAgent_DeleteDashboard_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.DashboardAgent.CreateDefaultDashboardTile*
   commentId: Overload:SuperOffice.CRM.Services.DashboardAgent.CreateDefaultDashboardTile
   isExternal: true
-  href: SuperOffice.CRM.Services.DashboardAgent.html#SuperOffice_CRM_Services_DashboardAgent_CreateDefaultDashboardTile
   name: CreateDefaultDashboardTile
   nameWithType: DashboardAgent.CreateDefaultDashboardTile
   fullName: SuperOffice.CRM.Services.DashboardAgent.CreateDefaultDashboardTile
@@ -1142,36 +980,43 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDashboardAgent.CreateDefaultDashboardTile
   parent: SuperOffice.CRM.Services.IDashboardAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDashboardAgent.html#SuperOffice_CRM_Services_IDashboardAgent_CreateDefaultDashboardTile
   name: CreateDefaultDashboardTile()
   nameWithType: IDashboardAgent.CreateDefaultDashboardTile()
   fullName: SuperOffice.CRM.Services.IDashboardAgent.CreateDefaultDashboardTile()
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDashboardAgent.CreateDefaultDashboardTile
     name: CreateDefaultDashboardTile
+    nameWithType: IDashboardAgent.CreateDefaultDashboardTile
+    fullName: SuperOffice.CRM.Services.IDashboardAgent.CreateDefaultDashboardTile
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashboardAgent.html#SuperOffice_CRM_Services_IDashboardAgent_CreateDefaultDashboardTile
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDashboardAgent.CreateDefaultDashboardTile
     name: CreateDefaultDashboardTile
+    nameWithType: IDashboardAgent.CreateDefaultDashboardTile
+    fullName: SuperOffice.CRM.Services.IDashboardAgent.CreateDefaultDashboardTile
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashboardAgent.html#SuperOffice_CRM_Services_IDashboardAgent_CreateDefaultDashboardTile
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.DashboardTile
   commentId: T:SuperOffice.CRM.Services.DashboardTile
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.DashboardTile.html
   name: DashboardTile
   nameWithType: DashboardTile
   fullName: SuperOffice.CRM.Services.DashboardTile
 - uid: SuperOffice.CRM.Services.DashboardAgent.SaveDashboardTile*
   commentId: Overload:SuperOffice.CRM.Services.DashboardAgent.SaveDashboardTile
   isExternal: true
-  href: SuperOffice.CRM.Services.DashboardAgent.html#SuperOffice_CRM_Services_DashboardAgent_SaveDashboardTile_SuperOffice_CRM_Services_DashboardTile_
   name: SaveDashboardTile
   nameWithType: DashboardAgent.SaveDashboardTile
   fullName: SuperOffice.CRM.Services.DashboardAgent.SaveDashboardTile
@@ -1179,36 +1024,46 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDashboardAgent.SaveDashboardTile(SuperOffice.CRM.Services.DashboardTile)
   parent: SuperOffice.CRM.Services.IDashboardAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDashboardAgent.html#SuperOffice_CRM_Services_IDashboardAgent_SaveDashboardTile_SuperOffice_CRM_Services_DashboardTile_
   name: SaveDashboardTile(DashboardTile)
   nameWithType: IDashboardAgent.SaveDashboardTile(DashboardTile)
   fullName: SuperOffice.CRM.Services.IDashboardAgent.SaveDashboardTile(SuperOffice.CRM.Services.DashboardTile)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDashboardAgent.SaveDashboardTile(SuperOffice.CRM.Services.DashboardTile)
     name: SaveDashboardTile
+    nameWithType: IDashboardAgent.SaveDashboardTile
+    fullName: SuperOffice.CRM.Services.IDashboardAgent.SaveDashboardTile
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashboardAgent.html#SuperOffice_CRM_Services_IDashboardAgent_SaveDashboardTile_SuperOffice_CRM_Services_DashboardTile_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Services.DashboardTile
     name: DashboardTile
+    nameWithType: DashboardTile
+    fullName: SuperOffice.CRM.Services.DashboardTile
     isExternal: true
-    href: SuperOffice.CRM.Services.DashboardTile.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDashboardAgent.SaveDashboardTile(SuperOffice.CRM.Services.DashboardTile)
     name: SaveDashboardTile
+    nameWithType: IDashboardAgent.SaveDashboardTile
+    fullName: SuperOffice.CRM.Services.IDashboardAgent.SaveDashboardTile
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashboardAgent.html#SuperOffice_CRM_Services_IDashboardAgent_SaveDashboardTile_SuperOffice_CRM_Services_DashboardTile_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Services.DashboardTile
     name: DashboardTile
+    nameWithType: DashboardTile
+    fullName: SuperOffice.CRM.Services.DashboardTile
     isExternal: true
-    href: SuperOffice.CRM.Services.DashboardTile.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.DashboardAgent.DeleteDashboardTile*
   commentId: Overload:SuperOffice.CRM.Services.DashboardAgent.DeleteDashboardTile
   isExternal: true
-  href: SuperOffice.CRM.Services.DashboardAgent.html#SuperOffice_CRM_Services_DashboardAgent_DeleteDashboardTile_System_Int32_
   name: DeleteDashboardTile
   nameWithType: DashboardAgent.DeleteDashboardTile
   fullName: SuperOffice.CRM.Services.DashboardAgent.DeleteDashboardTile
@@ -1216,39 +1071,46 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDashboardAgent.DeleteDashboardTile(System.Int32)
   parent: SuperOffice.CRM.Services.IDashboardAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDashboardAgent.html#SuperOffice_CRM_Services_IDashboardAgent_DeleteDashboardTile_System_Int32_
-  name: DeleteDashboardTile(int)
-  nameWithType: IDashboardAgent.DeleteDashboardTile(int)
-  fullName: SuperOffice.CRM.Services.IDashboardAgent.DeleteDashboardTile(int)
-  nameWithType.vb: IDashboardAgent.DeleteDashboardTile(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IDashboardAgent.DeleteDashboardTile(Integer)
-  name.vb: DeleteDashboardTile(Integer)
+  name: DeleteDashboardTile(Int32)
+  nameWithType: IDashboardAgent.DeleteDashboardTile(Int32)
+  fullName: SuperOffice.CRM.Services.IDashboardAgent.DeleteDashboardTile(System.Int32)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDashboardAgent.DeleteDashboardTile(System.Int32)
     name: DeleteDashboardTile
+    nameWithType: IDashboardAgent.DeleteDashboardTile
+    fullName: SuperOffice.CRM.Services.IDashboardAgent.DeleteDashboardTile
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashboardAgent.html#SuperOffice_CRM_Services_IDashboardAgent_DeleteDashboardTile_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDashboardAgent.DeleteDashboardTile(System.Int32)
     name: DeleteDashboardTile
+    nameWithType: IDashboardAgent.DeleteDashboardTile
+    fullName: SuperOffice.CRM.Services.IDashboardAgent.DeleteDashboardTile
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashboardAgent.html#SuperOffice_CRM_Services_IDashboardAgent_DeleteDashboardTile_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.DashboardAgent.GetDashboard*
   commentId: Overload:SuperOffice.CRM.Services.DashboardAgent.GetDashboard
   isExternal: true
-  href: SuperOffice.CRM.Services.DashboardAgent.html#SuperOffice_CRM_Services_DashboardAgent_GetDashboard_System_Int32_
   name: GetDashboard
   nameWithType: DashboardAgent.GetDashboard
   fullName: SuperOffice.CRM.Services.DashboardAgent.GetDashboard
@@ -1256,39 +1118,46 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDashboardAgent.GetDashboard(System.Int32)
   parent: SuperOffice.CRM.Services.IDashboardAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDashboardAgent.html#SuperOffice_CRM_Services_IDashboardAgent_GetDashboard_System_Int32_
-  name: GetDashboard(int)
-  nameWithType: IDashboardAgent.GetDashboard(int)
-  fullName: SuperOffice.CRM.Services.IDashboardAgent.GetDashboard(int)
-  nameWithType.vb: IDashboardAgent.GetDashboard(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IDashboardAgent.GetDashboard(Integer)
-  name.vb: GetDashboard(Integer)
+  name: GetDashboard(Int32)
+  nameWithType: IDashboardAgent.GetDashboard(Int32)
+  fullName: SuperOffice.CRM.Services.IDashboardAgent.GetDashboard(System.Int32)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDashboardAgent.GetDashboard(System.Int32)
     name: GetDashboard
+    nameWithType: IDashboardAgent.GetDashboard
+    fullName: SuperOffice.CRM.Services.IDashboardAgent.GetDashboard
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashboardAgent.html#SuperOffice_CRM_Services_IDashboardAgent_GetDashboard_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDashboardAgent.GetDashboard(System.Int32)
     name: GetDashboard
+    nameWithType: IDashboardAgent.GetDashboard
+    fullName: SuperOffice.CRM.Services.IDashboardAgent.GetDashboard
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashboardAgent.html#SuperOffice_CRM_Services_IDashboardAgent_GetDashboard_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.DashboardAgent.GetDashboards*
   commentId: Overload:SuperOffice.CRM.Services.DashboardAgent.GetDashboards
   isExternal: true
-  href: SuperOffice.CRM.Services.DashboardAgent.html#SuperOffice_CRM_Services_DashboardAgent_GetDashboards_System_Int32_
   name: GetDashboards
   nameWithType: DashboardAgent.GetDashboards
   fullName: SuperOffice.CRM.Services.DashboardAgent.GetDashboards
@@ -1296,38 +1165,45 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDashboardAgent.GetDashboards(System.Int32)
   parent: SuperOffice.CRM.Services.IDashboardAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDashboardAgent.html#SuperOffice_CRM_Services_IDashboardAgent_GetDashboards_System_Int32_
-  name: GetDashboards(int)
-  nameWithType: IDashboardAgent.GetDashboards(int)
-  fullName: SuperOffice.CRM.Services.IDashboardAgent.GetDashboards(int)
-  nameWithType.vb: IDashboardAgent.GetDashboards(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IDashboardAgent.GetDashboards(Integer)
-  name.vb: GetDashboards(Integer)
+  name: GetDashboards(Int32)
+  nameWithType: IDashboardAgent.GetDashboards(Int32)
+  fullName: SuperOffice.CRM.Services.IDashboardAgent.GetDashboards(System.Int32)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDashboardAgent.GetDashboards(System.Int32)
     name: GetDashboards
+    nameWithType: IDashboardAgent.GetDashboards
+    fullName: SuperOffice.CRM.Services.IDashboardAgent.GetDashboards
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashboardAgent.html#SuperOffice_CRM_Services_IDashboardAgent_GetDashboards_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDashboardAgent.GetDashboards(System.Int32)
     name: GetDashboards
+    nameWithType: IDashboardAgent.GetDashboards
+    fullName: SuperOffice.CRM.Services.IDashboardAgent.GetDashboards
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashboardAgent.html#SuperOffice_CRM_Services_IDashboardAgent_GetDashboards_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.Dashboard[]
   isExternal: true
-  href: SuperOffice.CRM.Services.Dashboard.html
   name: Dashboard[]
   nameWithType: Dashboard[]
   fullName: SuperOffice.CRM.Services.Dashboard[]
@@ -1337,21 +1213,24 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.Dashboard
     name: Dashboard
+    nameWithType: Dashboard
+    fullName: SuperOffice.CRM.Services.Dashboard
     isExternal: true
-    href: SuperOffice.CRM.Services.Dashboard.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.Services.Dashboard
     name: Dashboard
+    nameWithType: Dashboard
+    fullName: SuperOffice.CRM.Services.Dashboard
     isExternal: true
-    href: SuperOffice.CRM.Services.Dashboard.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.DashboardAgent.SetTile*
   commentId: Overload:SuperOffice.CRM.Services.DashboardAgent.SetTile
   isExternal: true
-  href: SuperOffice.CRM.Services.DashboardAgent.html#SuperOffice_CRM_Services_DashboardAgent_SetTile_System_Int32_System_Int32_System_Int32_
   name: SetTile
   nameWithType: DashboardAgent.SetTile
   fullName: SuperOffice.CRM.Services.DashboardAgent.SetTile
@@ -1359,63 +1238,78 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDashboardAgent.SetTile(System.Int32,System.Int32,System.Int32)
   parent: SuperOffice.CRM.Services.IDashboardAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDashboardAgent.html#SuperOffice_CRM_Services_IDashboardAgent_SetTile_System_Int32_System_Int32_System_Int32_
-  name: SetTile(int, int, int)
-  nameWithType: IDashboardAgent.SetTile(int, int, int)
-  fullName: SuperOffice.CRM.Services.IDashboardAgent.SetTile(int, int, int)
-  nameWithType.vb: IDashboardAgent.SetTile(Integer, Integer, Integer)
-  fullName.vb: SuperOffice.CRM.Services.IDashboardAgent.SetTile(Integer, Integer, Integer)
-  name.vb: SetTile(Integer, Integer, Integer)
+  name: SetTile(Int32, Int32, Int32)
+  nameWithType: IDashboardAgent.SetTile(Int32, Int32, Int32)
+  fullName: SuperOffice.CRM.Services.IDashboardAgent.SetTile(System.Int32, System.Int32, System.Int32)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDashboardAgent.SetTile(System.Int32,System.Int32,System.Int32)
     name: SetTile
+    nameWithType: IDashboardAgent.SetTile
+    fullName: SuperOffice.CRM.Services.IDashboardAgent.SetTile
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashboardAgent.html#SuperOffice_CRM_Services_IDashboardAgent_SetTile_System_Int32_System_Int32_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDashboardAgent.SetTile(System.Int32,System.Int32,System.Int32)
     name: SetTile
+    nameWithType: IDashboardAgent.SetTile
+    fullName: SuperOffice.CRM.Services.IDashboardAgent.SetTile
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashboardAgent.html#SuperOffice_CRM_Services_IDashboardAgent_SetTile_System_Int32_System_Int32_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.DashboardAgent.GetDashboardTile*
   commentId: Overload:SuperOffice.CRM.Services.DashboardAgent.GetDashboardTile
   isExternal: true
-  href: SuperOffice.CRM.Services.DashboardAgent.html#SuperOffice_CRM_Services_DashboardAgent_GetDashboardTile_System_Int32_
   name: GetDashboardTile
   nameWithType: DashboardAgent.GetDashboardTile
   fullName: SuperOffice.CRM.Services.DashboardAgent.GetDashboardTile
@@ -1423,39 +1317,46 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDashboardAgent.GetDashboardTile(System.Int32)
   parent: SuperOffice.CRM.Services.IDashboardAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDashboardAgent.html#SuperOffice_CRM_Services_IDashboardAgent_GetDashboardTile_System_Int32_
-  name: GetDashboardTile(int)
-  nameWithType: IDashboardAgent.GetDashboardTile(int)
-  fullName: SuperOffice.CRM.Services.IDashboardAgent.GetDashboardTile(int)
-  nameWithType.vb: IDashboardAgent.GetDashboardTile(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IDashboardAgent.GetDashboardTile(Integer)
-  name.vb: GetDashboardTile(Integer)
+  name: GetDashboardTile(Int32)
+  nameWithType: IDashboardAgent.GetDashboardTile(Int32)
+  fullName: SuperOffice.CRM.Services.IDashboardAgent.GetDashboardTile(System.Int32)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDashboardAgent.GetDashboardTile(System.Int32)
     name: GetDashboardTile
+    nameWithType: IDashboardAgent.GetDashboardTile
+    fullName: SuperOffice.CRM.Services.IDashboardAgent.GetDashboardTile
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashboardAgent.html#SuperOffice_CRM_Services_IDashboardAgent_GetDashboardTile_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDashboardAgent.GetDashboardTile(System.Int32)
     name: GetDashboardTile
+    nameWithType: IDashboardAgent.GetDashboardTile
+    fullName: SuperOffice.CRM.Services.IDashboardAgent.GetDashboardTile
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashboardAgent.html#SuperOffice_CRM_Services_IDashboardAgent_GetDashboardTile_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.DashboardAgent.GetDashboardTiles*
   commentId: Overload:SuperOffice.CRM.Services.DashboardAgent.GetDashboardTiles
   isExternal: true
-  href: SuperOffice.CRM.Services.DashboardAgent.html#SuperOffice_CRM_Services_DashboardAgent_GetDashboardTiles_System_Int32___
   name: GetDashboardTiles
   nameWithType: DashboardAgent.GetDashboardTiles
   fullName: SuperOffice.CRM.Services.DashboardAgent.GetDashboardTiles
@@ -1463,65 +1364,80 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDashboardAgent.GetDashboardTiles(System.Int32[])
   parent: SuperOffice.CRM.Services.IDashboardAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDashboardAgent.html#SuperOffice_CRM_Services_IDashboardAgent_GetDashboardTiles_System_Int32___
-  name: GetDashboardTiles(int[])
-  nameWithType: IDashboardAgent.GetDashboardTiles(int[])
-  fullName: SuperOffice.CRM.Services.IDashboardAgent.GetDashboardTiles(int[])
-  nameWithType.vb: IDashboardAgent.GetDashboardTiles(Integer())
-  fullName.vb: SuperOffice.CRM.Services.IDashboardAgent.GetDashboardTiles(Integer())
-  name.vb: GetDashboardTiles(Integer())
+  name: GetDashboardTiles(Int32[])
+  nameWithType: IDashboardAgent.GetDashboardTiles(Int32[])
+  fullName: SuperOffice.CRM.Services.IDashboardAgent.GetDashboardTiles(System.Int32[])
+  nameWithType.vb: IDashboardAgent.GetDashboardTiles(Int32())
+  fullName.vb: SuperOffice.CRM.Services.IDashboardAgent.GetDashboardTiles(System.Int32())
+  name.vb: GetDashboardTiles(Int32())
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDashboardAgent.GetDashboardTiles(System.Int32[])
     name: GetDashboardTiles
+    nameWithType: IDashboardAgent.GetDashboardTiles
+    fullName: SuperOffice.CRM.Services.IDashboardAgent.GetDashboardTiles
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashboardAgent.html#SuperOffice_CRM_Services_IDashboardAgent_GetDashboardTiles_System_Int32___
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDashboardAgent.GetDashboardTiles(System.Int32[])
     name: GetDashboardTiles
+    nameWithType: IDashboardAgent.GetDashboardTiles
+    fullName: SuperOffice.CRM.Services.IDashboardAgent.GetDashboardTiles
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashboardAgent.html#SuperOffice_CRM_Services_IDashboardAgent_GetDashboardTiles_System_Int32___
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: (
+  - name: ()
+    nameWithType: ()
+    fullName: ()
   - name: )
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Int32[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int[]
-  nameWithType: int[]
-  fullName: int[]
-  nameWithType.vb: Integer()
-  fullName.vb: Integer()
-  name.vb: Integer()
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
   spec.csharp:
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.DashboardTile[]
   isExternal: true
-  href: SuperOffice.CRM.Services.DashboardTile.html
   name: DashboardTile[]
   nameWithType: DashboardTile[]
   fullName: SuperOffice.CRM.Services.DashboardTile[]
@@ -1531,21 +1447,24 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.DashboardTile
     name: DashboardTile
+    nameWithType: DashboardTile
+    fullName: SuperOffice.CRM.Services.DashboardTile
     isExternal: true
-    href: SuperOffice.CRM.Services.DashboardTile.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.Services.DashboardTile
     name: DashboardTile
+    nameWithType: DashboardTile
+    fullName: SuperOffice.CRM.Services.DashboardTile
     isExternal: true
-    href: SuperOffice.CRM.Services.DashboardTile.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.DashboardAgent.GetStandardDashboardTileFromChartId*
   commentId: Overload:SuperOffice.CRM.Services.DashboardAgent.GetStandardDashboardTileFromChartId
   isExternal: true
-  href: SuperOffice.CRM.Services.DashboardAgent.html#SuperOffice_CRM_Services_DashboardAgent_GetStandardDashboardTileFromChartId_System_String_
   name: GetStandardDashboardTileFromChartId
   nameWithType: DashboardAgent.GetStandardDashboardTileFromChartId
   fullName: SuperOffice.CRM.Services.DashboardAgent.GetStandardDashboardTileFromChartId
@@ -1553,50 +1472,53 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDashboardAgent.GetStandardDashboardTileFromChartId(System.String)
   parent: SuperOffice.CRM.Services.IDashboardAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDashboardAgent.html#SuperOffice_CRM_Services_IDashboardAgent_GetStandardDashboardTileFromChartId_System_String_
-  name: GetStandardDashboardTileFromChartId(string)
-  nameWithType: IDashboardAgent.GetStandardDashboardTileFromChartId(string)
-  fullName: SuperOffice.CRM.Services.IDashboardAgent.GetStandardDashboardTileFromChartId(string)
-  nameWithType.vb: IDashboardAgent.GetStandardDashboardTileFromChartId(String)
-  fullName.vb: SuperOffice.CRM.Services.IDashboardAgent.GetStandardDashboardTileFromChartId(String)
-  name.vb: GetStandardDashboardTileFromChartId(String)
+  name: GetStandardDashboardTileFromChartId(String)
+  nameWithType: IDashboardAgent.GetStandardDashboardTileFromChartId(String)
+  fullName: SuperOffice.CRM.Services.IDashboardAgent.GetStandardDashboardTileFromChartId(System.String)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDashboardAgent.GetStandardDashboardTileFromChartId(System.String)
     name: GetStandardDashboardTileFromChartId
+    nameWithType: IDashboardAgent.GetStandardDashboardTileFromChartId
+    fullName: SuperOffice.CRM.Services.IDashboardAgent.GetStandardDashboardTileFromChartId
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashboardAgent.html#SuperOffice_CRM_Services_IDashboardAgent_GetStandardDashboardTileFromChartId_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDashboardAgent.GetStandardDashboardTileFromChartId(System.String)
     name: GetStandardDashboardTileFromChartId
+    nameWithType: IDashboardAgent.GetStandardDashboardTileFromChartId
+    fullName: SuperOffice.CRM.Services.IDashboardAgent.GetStandardDashboardTileFromChartId
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashboardAgent.html#SuperOffice_CRM_Services_IDashboardAgent_GetStandardDashboardTileFromChartId_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.CRM.Services.DashboardAgent.GetData*
   commentId: Overload:SuperOffice.CRM.Services.DashboardAgent.GetData
   isExternal: true
-  href: SuperOffice.CRM.Services.DashboardAgent.html#SuperOffice_CRM_Services_DashboardAgent_GetData_System_Int32_System_String_
   name: GetData
   nameWithType: DashboardAgent.GetData
   fullName: SuperOffice.CRM.Services.DashboardAgent.GetData
@@ -1604,50 +1526,61 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDashboardAgent.GetData(System.Int32,System.String)
   parent: SuperOffice.CRM.Services.IDashboardAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDashboardAgent.html#SuperOffice_CRM_Services_IDashboardAgent_GetData_System_Int32_System_String_
-  name: GetData(int, string)
-  nameWithType: IDashboardAgent.GetData(int, string)
-  fullName: SuperOffice.CRM.Services.IDashboardAgent.GetData(int, string)
-  nameWithType.vb: IDashboardAgent.GetData(Integer, String)
-  fullName.vb: SuperOffice.CRM.Services.IDashboardAgent.GetData(Integer, String)
-  name.vb: GetData(Integer, String)
+  name: GetData(Int32, String)
+  nameWithType: IDashboardAgent.GetData(Int32, String)
+  fullName: SuperOffice.CRM.Services.IDashboardAgent.GetData(System.Int32, System.String)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDashboardAgent.GetData(System.Int32,System.String)
     name: GetData
+    nameWithType: IDashboardAgent.GetData
+    fullName: SuperOffice.CRM.Services.IDashboardAgent.GetData
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashboardAgent.html#SuperOffice_CRM_Services_IDashboardAgent_GetData_System_Int32_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDashboardAgent.GetData(System.Int32,System.String)
     name: GetData
+    nameWithType: IDashboardAgent.GetData
+    fullName: SuperOffice.CRM.Services.IDashboardAgent.GetData
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashboardAgent.html#SuperOffice_CRM_Services_IDashboardAgent_GetData_System_Int32_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.TileData[]
   isExternal: true
-  href: SuperOffice.CRM.Services.TileData.html
   name: TileData[]
   nameWithType: TileData[]
   fullName: SuperOffice.CRM.Services.TileData[]
@@ -1657,21 +1590,24 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.TileData
     name: TileData
+    nameWithType: TileData
+    fullName: SuperOffice.CRM.Services.TileData
     isExternal: true
-    href: SuperOffice.CRM.Services.TileData.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.Services.TileData
     name: TileData
+    nameWithType: TileData
+    fullName: SuperOffice.CRM.Services.TileData
     isExternal: true
-    href: SuperOffice.CRM.Services.TileData.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.DashboardAgent.CreateNewFromTemplate*
   commentId: Overload:SuperOffice.CRM.Services.DashboardAgent.CreateNewFromTemplate
   isExternal: true
-  href: SuperOffice.CRM.Services.DashboardAgent.html#SuperOffice_CRM_Services_DashboardAgent_CreateNewFromTemplate_System_Int32_System_String_System_String_System_Int32_SuperOffice_CRM_Services_VisibleFor___
   name: CreateNewFromTemplate
   nameWithType: DashboardAgent.CreateNewFromTemplate
   fullName: SuperOffice.CRM.Services.DashboardAgent.CreateNewFromTemplate
@@ -1679,90 +1615,118 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDashboardAgent.CreateNewFromTemplate(System.Int32,System.String,System.String,System.Int32,SuperOffice.CRM.Services.VisibleFor[])
   parent: SuperOffice.CRM.Services.IDashboardAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDashboardAgent.html#SuperOffice_CRM_Services_IDashboardAgent_CreateNewFromTemplate_System_Int32_System_String_System_String_System_Int32_SuperOffice_CRM_Services_VisibleFor___
-  name: CreateNewFromTemplate(int, string, string, int, VisibleFor[])
-  nameWithType: IDashboardAgent.CreateNewFromTemplate(int, string, string, int, VisibleFor[])
-  fullName: SuperOffice.CRM.Services.IDashboardAgent.CreateNewFromTemplate(int, string, string, int, SuperOffice.CRM.Services.VisibleFor[])
-  nameWithType.vb: IDashboardAgent.CreateNewFromTemplate(Integer, String, String, Integer, VisibleFor())
-  fullName.vb: SuperOffice.CRM.Services.IDashboardAgent.CreateNewFromTemplate(Integer, String, String, Integer, SuperOffice.CRM.Services.VisibleFor())
-  name.vb: CreateNewFromTemplate(Integer, String, String, Integer, VisibleFor())
+  name: CreateNewFromTemplate(Int32, String, String, Int32, VisibleFor[])
+  nameWithType: IDashboardAgent.CreateNewFromTemplate(Int32, String, String, Int32, VisibleFor[])
+  fullName: SuperOffice.CRM.Services.IDashboardAgent.CreateNewFromTemplate(System.Int32, System.String, System.String, System.Int32, SuperOffice.CRM.Services.VisibleFor[])
+  nameWithType.vb: IDashboardAgent.CreateNewFromTemplate(Int32, String, String, Int32, VisibleFor())
+  fullName.vb: SuperOffice.CRM.Services.IDashboardAgent.CreateNewFromTemplate(System.Int32, System.String, System.String, System.Int32, SuperOffice.CRM.Services.VisibleFor())
+  name.vb: CreateNewFromTemplate(Int32, String, String, Int32, VisibleFor())
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDashboardAgent.CreateNewFromTemplate(System.Int32,System.String,System.String,System.Int32,SuperOffice.CRM.Services.VisibleFor[])
     name: CreateNewFromTemplate
+    nameWithType: IDashboardAgent.CreateNewFromTemplate
+    fullName: SuperOffice.CRM.Services.IDashboardAgent.CreateNewFromTemplate
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashboardAgent.html#SuperOffice_CRM_Services_IDashboardAgent_CreateNewFromTemplate_System_Int32_System_String_System_String_System_Int32_SuperOffice_CRM_Services_VisibleFor___
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.CRM.Services.VisibleFor
     name: VisibleFor
+    nameWithType: VisibleFor
+    fullName: SuperOffice.CRM.Services.VisibleFor
     isExternal: true
-    href: SuperOffice.CRM.Services.VisibleFor.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDashboardAgent.CreateNewFromTemplate(System.Int32,System.String,System.String,System.Int32,SuperOffice.CRM.Services.VisibleFor[])
     name: CreateNewFromTemplate
+    nameWithType: IDashboardAgent.CreateNewFromTemplate
+    fullName: SuperOffice.CRM.Services.IDashboardAgent.CreateNewFromTemplate
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashboardAgent.html#SuperOffice_CRM_Services_IDashboardAgent_CreateNewFromTemplate_System_Int32_System_String_System_String_System_Int32_SuperOffice_CRM_Services_VisibleFor___
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.CRM.Services.VisibleFor
     name: VisibleFor
+    nameWithType: VisibleFor
+    fullName: SuperOffice.CRM.Services.VisibleFor
     isExternal: true
-    href: SuperOffice.CRM.Services.VisibleFor.html
-  - name: (
+  - name: ()
+    nameWithType: ()
+    fullName: ()
   - name: )
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.VisibleFor[]
   isExternal: true
-  href: SuperOffice.CRM.Services.VisibleFor.html
   name: VisibleFor[]
   nameWithType: VisibleFor[]
   fullName: SuperOffice.CRM.Services.VisibleFor[]
@@ -1772,21 +1736,24 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.VisibleFor
     name: VisibleFor
+    nameWithType: VisibleFor
+    fullName: SuperOffice.CRM.Services.VisibleFor
     isExternal: true
-    href: SuperOffice.CRM.Services.VisibleFor.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.Services.VisibleFor
     name: VisibleFor
+    nameWithType: VisibleFor
+    fullName: SuperOffice.CRM.Services.VisibleFor
     isExternal: true
-    href: SuperOffice.CRM.Services.VisibleFor.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.DashboardAgent.GetDataWithSelection*
   commentId: Overload:SuperOffice.CRM.Services.DashboardAgent.GetDataWithSelection
   isExternal: true
-  href: SuperOffice.CRM.Services.DashboardAgent.html#SuperOffice_CRM_Services_DashboardAgent_GetDataWithSelection_System_Int32_System_Int32_System_String_
   name: GetDataWithSelection
   nameWithType: DashboardAgent.GetDataWithSelection
   fullName: SuperOffice.CRM.Services.DashboardAgent.GetDataWithSelection
@@ -1794,66 +1761,78 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDashboardAgent.GetDataWithSelection(System.Int32,System.Int32,System.String)
   parent: SuperOffice.CRM.Services.IDashboardAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDashboardAgent.html#SuperOffice_CRM_Services_IDashboardAgent_GetDataWithSelection_System_Int32_System_Int32_System_String_
-  name: GetDataWithSelection(int, int, string)
-  nameWithType: IDashboardAgent.GetDataWithSelection(int, int, string)
-  fullName: SuperOffice.CRM.Services.IDashboardAgent.GetDataWithSelection(int, int, string)
-  nameWithType.vb: IDashboardAgent.GetDataWithSelection(Integer, Integer, String)
-  fullName.vb: SuperOffice.CRM.Services.IDashboardAgent.GetDataWithSelection(Integer, Integer, String)
-  name.vb: GetDataWithSelection(Integer, Integer, String)
+  name: GetDataWithSelection(Int32, Int32, String)
+  nameWithType: IDashboardAgent.GetDataWithSelection(Int32, Int32, String)
+  fullName: SuperOffice.CRM.Services.IDashboardAgent.GetDataWithSelection(System.Int32, System.Int32, System.String)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDashboardAgent.GetDataWithSelection(System.Int32,System.Int32,System.String)
     name: GetDataWithSelection
+    nameWithType: IDashboardAgent.GetDataWithSelection
+    fullName: SuperOffice.CRM.Services.IDashboardAgent.GetDataWithSelection
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashboardAgent.html#SuperOffice_CRM_Services_IDashboardAgent_GetDataWithSelection_System_Int32_System_Int32_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDashboardAgent.GetDataWithSelection(System.Int32,System.Int32,System.String)
     name: GetDataWithSelection
+    nameWithType: IDashboardAgent.GetDataWithSelection
+    fullName: SuperOffice.CRM.Services.IDashboardAgent.GetDataWithSelection
     isExternal: true
-    href: SuperOffice.CRM.Services.IDashboardAgent.html#SuperOffice_CRM_Services_IDashboardAgent_GetDataWithSelection_System_Int32_System_Int32_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.DashboardAgent.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.DashboardAgent.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.DashboardAgent.html#SuperOffice_CRM_Services_DashboardAgent__ctor
   name: DashboardAgent
   nameWithType: DashboardAgent.DashboardAgent
   fullName: SuperOffice.CRM.Services.DashboardAgent.DashboardAgent
-  nameWithType.vb: DashboardAgent.New
-  fullName.vb: SuperOffice.CRM.Services.DashboardAgent.New
-  name.vb: New

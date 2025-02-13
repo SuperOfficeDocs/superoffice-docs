@@ -16,51 +16,36 @@ items:
   nameWithType: MailMergeSettingsSerializer
   fullName: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.MailMerge
   syntax:
     content: 'public sealed class MailMergeSettingsSerializer : XmlSerializer1'
-    content.vb: Public NotInheritable Class MailMergeSettingsSerializer Inherits XmlSerializer1
+    content.vb: >-
+      Public NotInheritable Class MailMergeSettingsSerializer
+          Inherits XmlSerializer1
   inheritance:
   - System.Object
-  - System.Xml.Serialization.XmlSerializer
   - SuperOffice.CRM.MailMerge.XmlSerializer1
   inheritedMembers:
-  - System.Xml.Serialization.XmlSerializer.Serialize(System.IO.TextWriter,System.Object)
-  - System.Xml.Serialization.XmlSerializer.Serialize(System.IO.TextWriter,System.Object,System.Xml.Serialization.XmlSerializerNamespaces)
-  - System.Xml.Serialization.XmlSerializer.Serialize(System.IO.Stream,System.Object)
-  - System.Xml.Serialization.XmlSerializer.Serialize(System.IO.Stream,System.Object,System.Xml.Serialization.XmlSerializerNamespaces)
-  - System.Xml.Serialization.XmlSerializer.Serialize(System.Xml.XmlWriter,System.Object)
-  - System.Xml.Serialization.XmlSerializer.Serialize(System.Xml.XmlWriter,System.Object,System.Xml.Serialization.XmlSerializerNamespaces)
-  - System.Xml.Serialization.XmlSerializer.Serialize(System.Xml.XmlWriter,System.Object,System.Xml.Serialization.XmlSerializerNamespaces,System.String)
-  - System.Xml.Serialization.XmlSerializer.Serialize(System.Xml.XmlWriter,System.Object,System.Xml.Serialization.XmlSerializerNamespaces,System.String,System.String)
-  - System.Xml.Serialization.XmlSerializer.Deserialize(System.IO.Stream)
-  - System.Xml.Serialization.XmlSerializer.Deserialize(System.IO.TextReader)
-  - System.Xml.Serialization.XmlSerializer.Deserialize(System.Xml.XmlReader)
-  - System.Xml.Serialization.XmlSerializer.Deserialize(System.Xml.XmlReader,System.Xml.Serialization.XmlDeserializationEvents)
-  - System.Xml.Serialization.XmlSerializer.Deserialize(System.Xml.XmlReader,System.String)
-  - System.Xml.Serialization.XmlSerializer.Deserialize(System.Xml.XmlReader,System.String,System.Xml.Serialization.XmlDeserializationEvents)
-  - System.Xml.Serialization.XmlSerializer.FromMappings(System.Xml.Serialization.XmlMapping[])
-  - System.Xml.Serialization.XmlSerializer.FromMappings(System.Xml.Serialization.XmlMapping[],System.Type)
-  - System.Xml.Serialization.XmlSerializer.FromTypes(System.Type[])
-  - System.Xml.Serialization.XmlSerializer.GetXmlSerializerAssemblyName(System.Type)
-  - System.Xml.Serialization.XmlSerializer.GetXmlSerializerAssemblyName(System.Type,System.String)
-  - System.Xml.Serialization.XmlSerializer.UnknownNode
-  - System.Xml.Serialization.XmlSerializer.UnknownAttribute
-  - System.Xml.Serialization.XmlSerializer.UnknownElement
-  - System.Xml.Serialization.XmlSerializer.UnreferencedObject
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
+  - SuperOffice.CRM.MailMerge.XmlSerializer1.CreateReader
+  - SuperOffice.CRM.MailMerge.XmlSerializer1.CreateWriter
   extensionMethods:
   - SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.EnumUtil.MapEnums``2
-  - SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer)
   - SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
 - uid: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.CanDeserialize(System.Xml.XmlReader)
   commentId: M:SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.CanDeserialize(System.Xml.XmlReader)
   id: CanDeserialize(System.Xml.XmlReader)
@@ -72,10 +57,12 @@ items:
   nameWithType: MailMergeSettingsSerializer.CanDeserialize(XmlReader)
   fullName: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.CanDeserialize(System.Xml.XmlReader)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.MailMerge
-  example: []
   syntax:
     content: public override bool CanDeserialize(XmlReader xmlReader)
     parameters:
@@ -84,8 +71,13 @@ items:
     return:
       type: System.Boolean
     content.vb: Public Overrides Function CanDeserialize(xmlReader As XmlReader) As Boolean
-  overridden: System.Xml.Serialization.XmlSerializer.CanDeserialize(System.Xml.XmlReader)
   overload: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.CanDeserialize*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.Serialize(System.Object,System.Xml.Serialization.XmlSerializationWriter)
   commentId: M:SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.Serialize(System.Object,System.Xml.Serialization.XmlSerializationWriter)
   id: Serialize(System.Object,System.Xml.Serialization.XmlSerializationWriter)
@@ -93,14 +85,16 @@ items:
   langs:
   - csharp
   - vb
-  name: Serialize(object, XmlSerializationWriter)
-  nameWithType: MailMergeSettingsSerializer.Serialize(object, XmlSerializationWriter)
-  fullName: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.Serialize(object, System.Xml.Serialization.XmlSerializationWriter)
+  name: Serialize(Object, XmlSerializationWriter)
+  nameWithType: MailMergeSettingsSerializer.Serialize(Object, XmlSerializationWriter)
+  fullName: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.Serialize(System.Object, System.Xml.Serialization.XmlSerializationWriter)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.MailMerge
-  example: []
   syntax:
     content: protected override void Serialize(object objectToSerialize, XmlSerializationWriter writer)
     parameters:
@@ -109,11 +103,13 @@ items:
     - id: writer
       type: System.Xml.Serialization.XmlSerializationWriter
     content.vb: Protected Overrides Sub Serialize(objectToSerialize As Object, writer As XmlSerializationWriter)
-  overridden: System.Xml.Serialization.XmlSerializer.Serialize(System.Object,System.Xml.Serialization.XmlSerializationWriter)
   overload: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.Serialize*
-  nameWithType.vb: MailMergeSettingsSerializer.Serialize(Object, XmlSerializationWriter)
-  fullName.vb: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.Serialize(Object, System.Xml.Serialization.XmlSerializationWriter)
-  name.vb: Serialize(Object, XmlSerializationWriter)
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
 - uid: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.Deserialize(System.Xml.Serialization.XmlSerializationReader)
   commentId: M:SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.Deserialize(System.Xml.Serialization.XmlSerializationReader)
   id: Deserialize(System.Xml.Serialization.XmlSerializationReader)
@@ -125,10 +121,12 @@ items:
   nameWithType: MailMergeSettingsSerializer.Deserialize(XmlSerializationReader)
   fullName: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.Deserialize(System.Xml.Serialization.XmlSerializationReader)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.MailMerge
-  example: []
   syntax:
     content: protected override object Deserialize(XmlSerializationReader reader)
     parameters:
@@ -137,8 +135,13 @@ items:
     return:
       type: System.Object
     content.vb: Protected Overrides Function Deserialize(reader As XmlSerializationReader) As Object
-  overridden: System.Xml.Serialization.XmlSerializer.Deserialize(System.Xml.Serialization.XmlSerializationReader)
   overload: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.Deserialize*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
 - uid: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.#ctor
   commentId: M:SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.#ctor
   id: '#ctor'
@@ -150,1369 +153,258 @@ items:
   nameWithType: MailMergeSettingsSerializer.MailMergeSettingsSerializer()
   fullName: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.MailMergeSettingsSerializer()
   type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.MailMerge
   syntax:
     content: public MailMergeSettingsSerializer()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.#ctor*
-  nameWithType.vb: MailMergeSettingsSerializer.New()
-  fullName.vb: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 references:
 - uid: SuperOffice.CRM.MailMerge
   commentId: N:SuperOffice.CRM.MailMerge
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.MailMerge
   nameWithType: SuperOffice.CRM.MailMerge
   fullName: SuperOffice.CRM.MailMerge
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.MailMerge
-    name: MailMerge
-    isExternal: true
-    href: SuperOffice.CRM.MailMerge.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.MailMerge
-    name: MailMerge
-    isExternal: true
-    href: SuperOffice.CRM.MailMerge.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Xml.Serialization.XmlSerializer
-  commentId: T:System.Xml.Serialization.XmlSerializer
-  parent: System.Xml.Serialization
-  isExternal: true
-  name: XmlSerializer
-  nameWithType: XmlSerializer
-  fullName: System.Xml.Serialization.XmlSerializer
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.MailMerge.XmlSerializer1
   commentId: T:SuperOffice.CRM.MailMerge.XmlSerializer1
   parent: SuperOffice.CRM.MailMerge
   isExternal: true
-  href: SuperOffice.CRM.MailMerge.XmlSerializer1.html
   name: XmlSerializer1
   nameWithType: XmlSerializer1
   fullName: SuperOffice.CRM.MailMerge.XmlSerializer1
-- uid: System.Xml.Serialization.XmlSerializer.Serialize(System.IO.TextWriter,System.Object)
-  commentId: M:System.Xml.Serialization.XmlSerializer.Serialize(System.IO.TextWriter,System.Object)
-  parent: System.Xml.Serialization.XmlSerializer
+- uid: SuperOffice.CRM.MailMerge.XmlSerializer1.CreateReader
+  commentId: M:SuperOffice.CRM.MailMerge.XmlSerializer1.CreateReader
+  parent: SuperOffice.CRM.MailMerge.XmlSerializer1
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.io.textwriter
-  name: Serialize(TextWriter, object)
-  nameWithType: XmlSerializer.Serialize(TextWriter, object)
-  fullName: System.Xml.Serialization.XmlSerializer.Serialize(System.IO.TextWriter, object)
-  nameWithType.vb: XmlSerializer.Serialize(TextWriter, Object)
-  fullName.vb: System.Xml.Serialization.XmlSerializer.Serialize(System.IO.TextWriter, Object)
-  name.vb: Serialize(TextWriter, Object)
+  name: CreateReader()
+  nameWithType: XmlSerializer1.CreateReader()
+  fullName: SuperOffice.CRM.MailMerge.XmlSerializer1.CreateReader()
   spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializer.Serialize(System.IO.TextWriter,System.Object)
-    name: Serialize
+  - uid: SuperOffice.CRM.MailMerge.XmlSerializer1.CreateReader
+    name: CreateReader
+    nameWithType: XmlSerializer1.CreateReader
+    fullName: SuperOffice.CRM.MailMerge.XmlSerializer1.CreateReader
     isExternal: true
   - name: (
-  - uid: System.IO.TextWriter
-    name: TextWriter
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.textwriter
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializer.Serialize(System.IO.TextWriter,System.Object)
-    name: Serialize
+  - uid: SuperOffice.CRM.MailMerge.XmlSerializer1.CreateReader
+    name: CreateReader
+    nameWithType: XmlSerializer1.CreateReader
+    fullName: SuperOffice.CRM.MailMerge.XmlSerializer1.CreateReader
     isExternal: true
   - name: (
-  - uid: System.IO.TextWriter
-    name: TextWriter
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.textwriter
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
+    nameWithType: (
+    fullName: (
   - name: )
-- uid: System.Xml.Serialization.XmlSerializer.Serialize(System.IO.TextWriter,System.Object,System.Xml.Serialization.XmlSerializerNamespaces)
-  commentId: M:System.Xml.Serialization.XmlSerializer.Serialize(System.IO.TextWriter,System.Object,System.Xml.Serialization.XmlSerializerNamespaces)
-  parent: System.Xml.Serialization.XmlSerializer
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.MailMerge.XmlSerializer1.CreateWriter
+  commentId: M:SuperOffice.CRM.MailMerge.XmlSerializer1.CreateWriter
+  parent: SuperOffice.CRM.MailMerge.XmlSerializer1
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.io.textwriter
-  name: Serialize(TextWriter, object, XmlSerializerNamespaces)
-  nameWithType: XmlSerializer.Serialize(TextWriter, object, XmlSerializerNamespaces)
-  fullName: System.Xml.Serialization.XmlSerializer.Serialize(System.IO.TextWriter, object, System.Xml.Serialization.XmlSerializerNamespaces)
-  nameWithType.vb: XmlSerializer.Serialize(TextWriter, Object, XmlSerializerNamespaces)
-  fullName.vb: System.Xml.Serialization.XmlSerializer.Serialize(System.IO.TextWriter, Object, System.Xml.Serialization.XmlSerializerNamespaces)
-  name.vb: Serialize(TextWriter, Object, XmlSerializerNamespaces)
+  name: CreateWriter()
+  nameWithType: XmlSerializer1.CreateWriter()
+  fullName: SuperOffice.CRM.MailMerge.XmlSerializer1.CreateWriter()
   spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializer.Serialize(System.IO.TextWriter,System.Object,System.Xml.Serialization.XmlSerializerNamespaces)
-    name: Serialize
+  - uid: SuperOffice.CRM.MailMerge.XmlSerializer1.CreateWriter
+    name: CreateWriter
+    nameWithType: XmlSerializer1.CreateWriter
+    fullName: SuperOffice.CRM.MailMerge.XmlSerializer1.CreateWriter
     isExternal: true
   - name: (
-  - uid: System.IO.TextWriter
-    name: TextWriter
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.textwriter
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Xml.Serialization.XmlSerializerNamespaces
-    name: XmlSerializerNamespaces
-    isExternal: true
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializer.Serialize(System.IO.TextWriter,System.Object,System.Xml.Serialization.XmlSerializerNamespaces)
-    name: Serialize
+  - uid: SuperOffice.CRM.MailMerge.XmlSerializer1.CreateWriter
+    name: CreateWriter
+    nameWithType: XmlSerializer1.CreateWriter
+    fullName: SuperOffice.CRM.MailMerge.XmlSerializer1.CreateWriter
     isExternal: true
   - name: (
-  - uid: System.IO.TextWriter
-    name: TextWriter
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.textwriter
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Xml.Serialization.XmlSerializerNamespaces
-    name: XmlSerializerNamespaces
-    isExternal: true
+    nameWithType: (
+    fullName: (
   - name: )
-- uid: System.Xml.Serialization.XmlSerializer.Serialize(System.IO.Stream,System.Object)
-  commentId: M:System.Xml.Serialization.XmlSerializer.Serialize(System.IO.Stream,System.Object)
-  parent: System.Xml.Serialization.XmlSerializer
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  name: Serialize(Stream, object)
-  nameWithType: XmlSerializer.Serialize(Stream, object)
-  fullName: System.Xml.Serialization.XmlSerializer.Serialize(System.IO.Stream, object)
-  nameWithType.vb: XmlSerializer.Serialize(Stream, Object)
-  fullName.vb: System.Xml.Serialization.XmlSerializer.Serialize(System.IO.Stream, Object)
-  name.vb: Serialize(Stream, Object)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializer.Serialize(System.IO.Stream,System.Object)
-    name: Serialize
-    isExternal: true
-  - name: (
-  - uid: System.IO.Stream
-    name: Stream
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializer.Serialize(System.IO.Stream,System.Object)
-    name: Serialize
-    isExternal: true
-  - name: (
-  - uid: System.IO.Stream
-    name: Stream
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializer.Serialize(System.IO.Stream,System.Object,System.Xml.Serialization.XmlSerializerNamespaces)
-  commentId: M:System.Xml.Serialization.XmlSerializer.Serialize(System.IO.Stream,System.Object,System.Xml.Serialization.XmlSerializerNamespaces)
-  parent: System.Xml.Serialization.XmlSerializer
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  name: Serialize(Stream, object, XmlSerializerNamespaces)
-  nameWithType: XmlSerializer.Serialize(Stream, object, XmlSerializerNamespaces)
-  fullName: System.Xml.Serialization.XmlSerializer.Serialize(System.IO.Stream, object, System.Xml.Serialization.XmlSerializerNamespaces)
-  nameWithType.vb: XmlSerializer.Serialize(Stream, Object, XmlSerializerNamespaces)
-  fullName.vb: System.Xml.Serialization.XmlSerializer.Serialize(System.IO.Stream, Object, System.Xml.Serialization.XmlSerializerNamespaces)
-  name.vb: Serialize(Stream, Object, XmlSerializerNamespaces)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializer.Serialize(System.IO.Stream,System.Object,System.Xml.Serialization.XmlSerializerNamespaces)
-    name: Serialize
-    isExternal: true
-  - name: (
-  - uid: System.IO.Stream
-    name: Stream
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Xml.Serialization.XmlSerializerNamespaces
-    name: XmlSerializerNamespaces
-    isExternal: true
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializer.Serialize(System.IO.Stream,System.Object,System.Xml.Serialization.XmlSerializerNamespaces)
-    name: Serialize
-    isExternal: true
-  - name: (
-  - uid: System.IO.Stream
-    name: Stream
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Xml.Serialization.XmlSerializerNamespaces
-    name: XmlSerializerNamespaces
-    isExternal: true
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializer.Serialize(System.Xml.XmlWriter,System.Object)
-  commentId: M:System.Xml.Serialization.XmlSerializer.Serialize(System.Xml.XmlWriter,System.Object)
-  parent: System.Xml.Serialization.XmlSerializer
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: Serialize(XmlWriter, object)
-  nameWithType: XmlSerializer.Serialize(XmlWriter, object)
-  fullName: System.Xml.Serialization.XmlSerializer.Serialize(System.Xml.XmlWriter, object)
-  nameWithType.vb: XmlSerializer.Serialize(XmlWriter, Object)
-  fullName.vb: System.Xml.Serialization.XmlSerializer.Serialize(System.Xml.XmlWriter, Object)
-  name.vb: Serialize(XmlWriter, Object)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializer.Serialize(System.Xml.XmlWriter,System.Object)
-    name: Serialize
-    isExternal: true
-  - name: (
-  - uid: System.Xml.XmlWriter
-    name: XmlWriter
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializer.Serialize(System.Xml.XmlWriter,System.Object)
-    name: Serialize
-    isExternal: true
-  - name: (
-  - uid: System.Xml.XmlWriter
-    name: XmlWriter
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializer.Serialize(System.Xml.XmlWriter,System.Object,System.Xml.Serialization.XmlSerializerNamespaces)
-  commentId: M:System.Xml.Serialization.XmlSerializer.Serialize(System.Xml.XmlWriter,System.Object,System.Xml.Serialization.XmlSerializerNamespaces)
-  parent: System.Xml.Serialization.XmlSerializer
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: Serialize(XmlWriter, object, XmlSerializerNamespaces)
-  nameWithType: XmlSerializer.Serialize(XmlWriter, object, XmlSerializerNamespaces)
-  fullName: System.Xml.Serialization.XmlSerializer.Serialize(System.Xml.XmlWriter, object, System.Xml.Serialization.XmlSerializerNamespaces)
-  nameWithType.vb: XmlSerializer.Serialize(XmlWriter, Object, XmlSerializerNamespaces)
-  fullName.vb: System.Xml.Serialization.XmlSerializer.Serialize(System.Xml.XmlWriter, Object, System.Xml.Serialization.XmlSerializerNamespaces)
-  name.vb: Serialize(XmlWriter, Object, XmlSerializerNamespaces)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializer.Serialize(System.Xml.XmlWriter,System.Object,System.Xml.Serialization.XmlSerializerNamespaces)
-    name: Serialize
-    isExternal: true
-  - name: (
-  - uid: System.Xml.XmlWriter
-    name: XmlWriter
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Xml.Serialization.XmlSerializerNamespaces
-    name: XmlSerializerNamespaces
-    isExternal: true
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializer.Serialize(System.Xml.XmlWriter,System.Object,System.Xml.Serialization.XmlSerializerNamespaces)
-    name: Serialize
-    isExternal: true
-  - name: (
-  - uid: System.Xml.XmlWriter
-    name: XmlWriter
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Xml.Serialization.XmlSerializerNamespaces
-    name: XmlSerializerNamespaces
-    isExternal: true
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializer.Serialize(System.Xml.XmlWriter,System.Object,System.Xml.Serialization.XmlSerializerNamespaces,System.String)
-  commentId: M:System.Xml.Serialization.XmlSerializer.Serialize(System.Xml.XmlWriter,System.Object,System.Xml.Serialization.XmlSerializerNamespaces,System.String)
-  parent: System.Xml.Serialization.XmlSerializer
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: Serialize(XmlWriter, object, XmlSerializerNamespaces, string)
-  nameWithType: XmlSerializer.Serialize(XmlWriter, object, XmlSerializerNamespaces, string)
-  fullName: System.Xml.Serialization.XmlSerializer.Serialize(System.Xml.XmlWriter, object, System.Xml.Serialization.XmlSerializerNamespaces, string)
-  nameWithType.vb: XmlSerializer.Serialize(XmlWriter, Object, XmlSerializerNamespaces, String)
-  fullName.vb: System.Xml.Serialization.XmlSerializer.Serialize(System.Xml.XmlWriter, Object, System.Xml.Serialization.XmlSerializerNamespaces, String)
-  name.vb: Serialize(XmlWriter, Object, XmlSerializerNamespaces, String)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializer.Serialize(System.Xml.XmlWriter,System.Object,System.Xml.Serialization.XmlSerializerNamespaces,System.String)
-    name: Serialize
-    isExternal: true
-  - name: (
-  - uid: System.Xml.XmlWriter
-    name: XmlWriter
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Xml.Serialization.XmlSerializerNamespaces
-    name: XmlSerializerNamespaces
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializer.Serialize(System.Xml.XmlWriter,System.Object,System.Xml.Serialization.XmlSerializerNamespaces,System.String)
-    name: Serialize
-    isExternal: true
-  - name: (
-  - uid: System.Xml.XmlWriter
-    name: XmlWriter
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Xml.Serialization.XmlSerializerNamespaces
-    name: XmlSerializerNamespaces
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializer.Serialize(System.Xml.XmlWriter,System.Object,System.Xml.Serialization.XmlSerializerNamespaces,System.String,System.String)
-  commentId: M:System.Xml.Serialization.XmlSerializer.Serialize(System.Xml.XmlWriter,System.Object,System.Xml.Serialization.XmlSerializerNamespaces,System.String,System.String)
-  parent: System.Xml.Serialization.XmlSerializer
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: Serialize(XmlWriter, object, XmlSerializerNamespaces, string, string)
-  nameWithType: XmlSerializer.Serialize(XmlWriter, object, XmlSerializerNamespaces, string, string)
-  fullName: System.Xml.Serialization.XmlSerializer.Serialize(System.Xml.XmlWriter, object, System.Xml.Serialization.XmlSerializerNamespaces, string, string)
-  nameWithType.vb: XmlSerializer.Serialize(XmlWriter, Object, XmlSerializerNamespaces, String, String)
-  fullName.vb: System.Xml.Serialization.XmlSerializer.Serialize(System.Xml.XmlWriter, Object, System.Xml.Serialization.XmlSerializerNamespaces, String, String)
-  name.vb: Serialize(XmlWriter, Object, XmlSerializerNamespaces, String, String)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializer.Serialize(System.Xml.XmlWriter,System.Object,System.Xml.Serialization.XmlSerializerNamespaces,System.String,System.String)
-    name: Serialize
-    isExternal: true
-  - name: (
-  - uid: System.Xml.XmlWriter
-    name: XmlWriter
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Xml.Serialization.XmlSerializerNamespaces
-    name: XmlSerializerNamespaces
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializer.Serialize(System.Xml.XmlWriter,System.Object,System.Xml.Serialization.XmlSerializerNamespaces,System.String,System.String)
-    name: Serialize
-    isExternal: true
-  - name: (
-  - uid: System.Xml.XmlWriter
-    name: XmlWriter
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Xml.Serialization.XmlSerializerNamespaces
-    name: XmlSerializerNamespaces
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializer.Deserialize(System.IO.Stream)
-  commentId: M:System.Xml.Serialization.XmlSerializer.Deserialize(System.IO.Stream)
-  parent: System.Xml.Serialization.XmlSerializer
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  name: Deserialize(Stream)
-  nameWithType: XmlSerializer.Deserialize(Stream)
-  fullName: System.Xml.Serialization.XmlSerializer.Deserialize(System.IO.Stream)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializer.Deserialize(System.IO.Stream)
-    name: Deserialize
-    isExternal: true
-  - name: (
-  - uid: System.IO.Stream
-    name: Stream
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializer.Deserialize(System.IO.Stream)
-    name: Deserialize
-    isExternal: true
-  - name: (
-  - uid: System.IO.Stream
-    name: Stream
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializer.Deserialize(System.IO.TextReader)
-  commentId: M:System.Xml.Serialization.XmlSerializer.Deserialize(System.IO.TextReader)
-  parent: System.Xml.Serialization.XmlSerializer
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.io.textreader
-  name: Deserialize(TextReader)
-  nameWithType: XmlSerializer.Deserialize(TextReader)
-  fullName: System.Xml.Serialization.XmlSerializer.Deserialize(System.IO.TextReader)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializer.Deserialize(System.IO.TextReader)
-    name: Deserialize
-    isExternal: true
-  - name: (
-  - uid: System.IO.TextReader
-    name: TextReader
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.textreader
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializer.Deserialize(System.IO.TextReader)
-    name: Deserialize
-    isExternal: true
-  - name: (
-  - uid: System.IO.TextReader
-    name: TextReader
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.textreader
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializer.Deserialize(System.Xml.XmlReader)
-  commentId: M:System.Xml.Serialization.XmlSerializer.Deserialize(System.Xml.XmlReader)
-  parent: System.Xml.Serialization.XmlSerializer
-  isExternal: true
-  name: Deserialize(XmlReader)
-  nameWithType: XmlSerializer.Deserialize(XmlReader)
-  fullName: System.Xml.Serialization.XmlSerializer.Deserialize(System.Xml.XmlReader)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializer.Deserialize(System.Xml.XmlReader)
-    name: Deserialize
-    isExternal: true
-  - name: (
-  - uid: System.Xml.XmlReader
-    name: XmlReader
-    isExternal: true
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializer.Deserialize(System.Xml.XmlReader)
-    name: Deserialize
-    isExternal: true
-  - name: (
-  - uid: System.Xml.XmlReader
-    name: XmlReader
-    isExternal: true
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializer.Deserialize(System.Xml.XmlReader,System.Xml.Serialization.XmlDeserializationEvents)
-  commentId: M:System.Xml.Serialization.XmlSerializer.Deserialize(System.Xml.XmlReader,System.Xml.Serialization.XmlDeserializationEvents)
-  parent: System.Xml.Serialization.XmlSerializer
-  isExternal: true
-  name: Deserialize(XmlReader, XmlDeserializationEvents)
-  nameWithType: XmlSerializer.Deserialize(XmlReader, XmlDeserializationEvents)
-  fullName: System.Xml.Serialization.XmlSerializer.Deserialize(System.Xml.XmlReader, System.Xml.Serialization.XmlDeserializationEvents)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializer.Deserialize(System.Xml.XmlReader,System.Xml.Serialization.XmlDeserializationEvents)
-    name: Deserialize
-    isExternal: true
-  - name: (
-  - uid: System.Xml.XmlReader
-    name: XmlReader
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: System.Xml.Serialization.XmlDeserializationEvents
-    name: XmlDeserializationEvents
-    isExternal: true
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializer.Deserialize(System.Xml.XmlReader,System.Xml.Serialization.XmlDeserializationEvents)
-    name: Deserialize
-    isExternal: true
-  - name: (
-  - uid: System.Xml.XmlReader
-    name: XmlReader
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: System.Xml.Serialization.XmlDeserializationEvents
-    name: XmlDeserializationEvents
-    isExternal: true
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializer.Deserialize(System.Xml.XmlReader,System.String)
-  commentId: M:System.Xml.Serialization.XmlSerializer.Deserialize(System.Xml.XmlReader,System.String)
-  parent: System.Xml.Serialization.XmlSerializer
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: Deserialize(XmlReader, string)
-  nameWithType: XmlSerializer.Deserialize(XmlReader, string)
-  fullName: System.Xml.Serialization.XmlSerializer.Deserialize(System.Xml.XmlReader, string)
-  nameWithType.vb: XmlSerializer.Deserialize(XmlReader, String)
-  fullName.vb: System.Xml.Serialization.XmlSerializer.Deserialize(System.Xml.XmlReader, String)
-  name.vb: Deserialize(XmlReader, String)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializer.Deserialize(System.Xml.XmlReader,System.String)
-    name: Deserialize
-    isExternal: true
-  - name: (
-  - uid: System.Xml.XmlReader
-    name: XmlReader
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializer.Deserialize(System.Xml.XmlReader,System.String)
-    name: Deserialize
-    isExternal: true
-  - name: (
-  - uid: System.Xml.XmlReader
-    name: XmlReader
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializer.Deserialize(System.Xml.XmlReader,System.String,System.Xml.Serialization.XmlDeserializationEvents)
-  commentId: M:System.Xml.Serialization.XmlSerializer.Deserialize(System.Xml.XmlReader,System.String,System.Xml.Serialization.XmlDeserializationEvents)
-  parent: System.Xml.Serialization.XmlSerializer
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: Deserialize(XmlReader, string, XmlDeserializationEvents)
-  nameWithType: XmlSerializer.Deserialize(XmlReader, string, XmlDeserializationEvents)
-  fullName: System.Xml.Serialization.XmlSerializer.Deserialize(System.Xml.XmlReader, string, System.Xml.Serialization.XmlDeserializationEvents)
-  nameWithType.vb: XmlSerializer.Deserialize(XmlReader, String, XmlDeserializationEvents)
-  fullName.vb: System.Xml.Serialization.XmlSerializer.Deserialize(System.Xml.XmlReader, String, System.Xml.Serialization.XmlDeserializationEvents)
-  name.vb: Deserialize(XmlReader, String, XmlDeserializationEvents)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializer.Deserialize(System.Xml.XmlReader,System.String,System.Xml.Serialization.XmlDeserializationEvents)
-    name: Deserialize
-    isExternal: true
-  - name: (
-  - uid: System.Xml.XmlReader
-    name: XmlReader
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.Xml.Serialization.XmlDeserializationEvents
-    name: XmlDeserializationEvents
-    isExternal: true
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializer.Deserialize(System.Xml.XmlReader,System.String,System.Xml.Serialization.XmlDeserializationEvents)
-    name: Deserialize
-    isExternal: true
-  - name: (
-  - uid: System.Xml.XmlReader
-    name: XmlReader
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.Xml.Serialization.XmlDeserializationEvents
-    name: XmlDeserializationEvents
-    isExternal: true
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializer.FromMappings(System.Xml.Serialization.XmlMapping[])
-  commentId: M:System.Xml.Serialization.XmlSerializer.FromMappings(System.Xml.Serialization.XmlMapping[])
-  parent: System.Xml.Serialization.XmlSerializer
-  isExternal: true
-  name: FromMappings(XmlMapping[])
-  nameWithType: XmlSerializer.FromMappings(XmlMapping[])
-  fullName: System.Xml.Serialization.XmlSerializer.FromMappings(System.Xml.Serialization.XmlMapping[])
-  nameWithType.vb: XmlSerializer.FromMappings(XmlMapping())
-  fullName.vb: System.Xml.Serialization.XmlSerializer.FromMappings(System.Xml.Serialization.XmlMapping())
-  name.vb: FromMappings(XmlMapping())
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializer.FromMappings(System.Xml.Serialization.XmlMapping[])
-    name: FromMappings
-    isExternal: true
-  - name: (
-  - uid: System.Xml.Serialization.XmlMapping
-    name: XmlMapping
-    isExternal: true
-  - name: '['
-  - name: ']'
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializer.FromMappings(System.Xml.Serialization.XmlMapping[])
-    name: FromMappings
-    isExternal: true
-  - name: (
-  - uid: System.Xml.Serialization.XmlMapping
-    name: XmlMapping
-    isExternal: true
-  - name: (
-  - name: )
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializer.FromMappings(System.Xml.Serialization.XmlMapping[],System.Type)
-  commentId: M:System.Xml.Serialization.XmlSerializer.FromMappings(System.Xml.Serialization.XmlMapping[],System.Type)
-  parent: System.Xml.Serialization.XmlSerializer
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.type
-  name: FromMappings(XmlMapping[], Type)
-  nameWithType: XmlSerializer.FromMappings(XmlMapping[], Type)
-  fullName: System.Xml.Serialization.XmlSerializer.FromMappings(System.Xml.Serialization.XmlMapping[], System.Type)
-  nameWithType.vb: XmlSerializer.FromMappings(XmlMapping(), Type)
-  fullName.vb: System.Xml.Serialization.XmlSerializer.FromMappings(System.Xml.Serialization.XmlMapping(), System.Type)
-  name.vb: FromMappings(XmlMapping(), Type)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializer.FromMappings(System.Xml.Serialization.XmlMapping[],System.Type)
-    name: FromMappings
-    isExternal: true
-  - name: (
-  - uid: System.Xml.Serialization.XmlMapping
-    name: XmlMapping
-    isExternal: true
-  - name: '['
-  - name: ']'
-  - name: ','
-  - name: " "
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializer.FromMappings(System.Xml.Serialization.XmlMapping[],System.Type)
-    name: FromMappings
-    isExternal: true
-  - name: (
-  - uid: System.Xml.Serialization.XmlMapping
-    name: XmlMapping
-    isExternal: true
-  - name: (
-  - name: )
-  - name: ','
-  - name: " "
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializer.FromTypes(System.Type[])
-  commentId: M:System.Xml.Serialization.XmlSerializer.FromTypes(System.Type[])
-  parent: System.Xml.Serialization.XmlSerializer
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.type
-  name: FromTypes(Type[])
-  nameWithType: XmlSerializer.FromTypes(Type[])
-  fullName: System.Xml.Serialization.XmlSerializer.FromTypes(System.Type[])
-  nameWithType.vb: XmlSerializer.FromTypes(Type())
-  fullName.vb: System.Xml.Serialization.XmlSerializer.FromTypes(System.Type())
-  name.vb: FromTypes(Type())
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializer.FromTypes(System.Type[])
-    name: FromTypes
-    isExternal: true
-  - name: (
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: '['
-  - name: ']'
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializer.FromTypes(System.Type[])
-    name: FromTypes
-    isExternal: true
-  - name: (
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: (
-  - name: )
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializer.GetXmlSerializerAssemblyName(System.Type)
-  commentId: M:System.Xml.Serialization.XmlSerializer.GetXmlSerializerAssemblyName(System.Type)
-  parent: System.Xml.Serialization.XmlSerializer
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.type
-  name: GetXmlSerializerAssemblyName(Type)
-  nameWithType: XmlSerializer.GetXmlSerializerAssemblyName(Type)
-  fullName: System.Xml.Serialization.XmlSerializer.GetXmlSerializerAssemblyName(System.Type)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializer.GetXmlSerializerAssemblyName(System.Type)
-    name: GetXmlSerializerAssemblyName
-    isExternal: true
-  - name: (
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializer.GetXmlSerializerAssemblyName(System.Type)
-    name: GetXmlSerializerAssemblyName
-    isExternal: true
-  - name: (
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializer.GetXmlSerializerAssemblyName(System.Type,System.String)
-  commentId: M:System.Xml.Serialization.XmlSerializer.GetXmlSerializerAssemblyName(System.Type,System.String)
-  parent: System.Xml.Serialization.XmlSerializer
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.type
-  name: GetXmlSerializerAssemblyName(Type, string)
-  nameWithType: XmlSerializer.GetXmlSerializerAssemblyName(Type, string)
-  fullName: System.Xml.Serialization.XmlSerializer.GetXmlSerializerAssemblyName(System.Type, string)
-  nameWithType.vb: XmlSerializer.GetXmlSerializerAssemblyName(Type, String)
-  fullName.vb: System.Xml.Serialization.XmlSerializer.GetXmlSerializerAssemblyName(System.Type, String)
-  name.vb: GetXmlSerializerAssemblyName(Type, String)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializer.GetXmlSerializerAssemblyName(System.Type,System.String)
-    name: GetXmlSerializerAssemblyName
-    isExternal: true
-  - name: (
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializer.GetXmlSerializerAssemblyName(System.Type,System.String)
-    name: GetXmlSerializerAssemblyName
-    isExternal: true
-  - name: (
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializer.UnknownNode
-  commentId: E:System.Xml.Serialization.XmlSerializer.UnknownNode
-  parent: System.Xml.Serialization.XmlSerializer
-  isExternal: true
-  name: UnknownNode
-  nameWithType: XmlSerializer.UnknownNode
-  fullName: System.Xml.Serialization.XmlSerializer.UnknownNode
-- uid: System.Xml.Serialization.XmlSerializer.UnknownAttribute
-  commentId: E:System.Xml.Serialization.XmlSerializer.UnknownAttribute
-  parent: System.Xml.Serialization.XmlSerializer
-  isExternal: true
-  name: UnknownAttribute
-  nameWithType: XmlSerializer.UnknownAttribute
-  fullName: System.Xml.Serialization.XmlSerializer.UnknownAttribute
-- uid: System.Xml.Serialization.XmlSerializer.UnknownElement
-  commentId: E:System.Xml.Serialization.XmlSerializer.UnknownElement
-  parent: System.Xml.Serialization.XmlSerializer
-  isExternal: true
-  name: UnknownElement
-  nameWithType: XmlSerializer.UnknownElement
-  fullName: System.Xml.Serialization.XmlSerializer.UnknownElement
-- uid: System.Xml.Serialization.XmlSerializer.UnreferencedObject
-  commentId: E:System.Xml.Serialization.XmlSerializer.UnreferencedObject
-  parent: System.Xml.Serialization.XmlSerializer
-  isExternal: true
-  name: UnreferencedObject
-  nameWithType: XmlSerializer.UnreferencedObject
-  fullName: System.Xml.Serialization.XmlSerializer.UnreferencedObject
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<MailMergeSettingsSerializer, To>(MailMergeSettingsSerializer)
-  nameWithType: EnumUtil.MapEnums<MailMergeSettingsSerializer, To>(MailMergeSettingsSerializer)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer, To>(SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer)
-  nameWithType.vb: EnumUtil.MapEnums(Of MailMergeSettingsSerializer, To)(MailMergeSettingsSerializer)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer, To)(SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer)
-  name.vb: MapEnums(Of MailMergeSettingsSerializer, To)(MailMergeSettingsSerializer)
+  name: MapEnums<MailMergeSettingsSerializer, To>()
+  nameWithType: EnumUtil.MapEnums<MailMergeSettingsSerializer, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of MailMergeSettingsSerializer, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer, To)()
+  name.vb: MapEnums(Of MailMergeSettingsSerializer, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<MailMergeSettingsSerializer, To>
+    nameWithType: EnumUtil.MapEnums<MailMergeSettingsSerializer, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer
-    name: MailMergeSettingsSerializer
-    isExternal: true
-    href: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer
-    name: MailMergeSettingsSerializer
-    isExternal: true
-    href: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of MailMergeSettingsSerializer, To)
+    nameWithType: EnumUtil.MapEnums(Of MailMergeSettingsSerializer, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer
-    name: MailMergeSettingsSerializer
-    isExternal: true
-    href: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer
-    name: MailMergeSettingsSerializer
-    isExternal: true
-    href: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.html
-  - name: )
-- uid: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  parent: SuperOffice.ErpSync.ConnectorWS.Converters
-  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<MailMergeSettingsSerializer, To>(MailMergeSettingsSerializer)
-  nameWithType: Converters.MapEnums<MailMergeSettingsSerializer, To>(MailMergeSettingsSerializer)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer, To>(SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer)
-  nameWithType.vb: Converters.MapEnums(Of MailMergeSettingsSerializer, To)(MailMergeSettingsSerializer)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer, To)(SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer)
-  name.vb: MapEnums(Of MailMergeSettingsSerializer, To)(MailMergeSettingsSerializer)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer
-    name: MailMergeSettingsSerializer
-    isExternal: true
-    href: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer
-    name: MailMergeSettingsSerializer
-    isExternal: true
-    href: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer
-    name: MailMergeSettingsSerializer
-    isExternal: true
-    href: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer
-    name: MailMergeSettingsSerializer
-    isExternal: true
-    href: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<MailMergeSettingsSerializer>(MailMergeSettingsSerializer, MailMergeSettingsSerializer)
-  nameWithType: ObjectExtensions.AssignByReflection<MailMergeSettingsSerializer>(MailMergeSettingsSerializer, MailMergeSettingsSerializer)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer>(SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer, SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of MailMergeSettingsSerializer)(MailMergeSettingsSerializer, MailMergeSettingsSerializer)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer)(SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer, SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer)
-  name.vb: AssignByReflection(Of MailMergeSettingsSerializer)(MailMergeSettingsSerializer, MailMergeSettingsSerializer)
+  name: AssignByReflection<MailMergeSettingsSerializer>(MailMergeSettingsSerializer)
+  nameWithType: ObjectExtensions.AssignByReflection<MailMergeSettingsSerializer>(MailMergeSettingsSerializer)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer>(SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of MailMergeSettingsSerializer)(MailMergeSettingsSerializer)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer)(SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer)
+  name.vb: AssignByReflection(Of MailMergeSettingsSerializer)(MailMergeSettingsSerializer)
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer,SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<MailMergeSettingsSerializer>
+    nameWithType: ObjectExtensions.AssignByReflection<MailMergeSettingsSerializer>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer
-    name: MailMergeSettingsSerializer
-    isExternal: true
-    href: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.html
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer
     name: MailMergeSettingsSerializer
+    nameWithType: MailMergeSettingsSerializer
+    fullName: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer
     isExternal: true
-    href: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer
-    name: MailMergeSettingsSerializer
-    isExternal: true
-    href: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer,SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of MailMergeSettingsSerializer)
+    nameWithType: ObjectExtensions.AssignByReflection(Of MailMergeSettingsSerializer)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer
     name: MailMergeSettingsSerializer
+    nameWithType: MailMergeSettingsSerializer
+    fullName: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer
     isExternal: true
-    href: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.html
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer
-    name: MailMergeSettingsSerializer
-    isExternal: true
-    href: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer
-    name: MailMergeSettingsSerializer
-    isExternal: true
-    href: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<MailMergeSettingsSerializer>(MailMergeSettingsSerializer)
-  nameWithType: ObjectExtensions.GraphCopy<MailMergeSettingsSerializer>(MailMergeSettingsSerializer)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer>(SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of MailMergeSettingsSerializer)(MailMergeSettingsSerializer)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer)(SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer)
-  name.vb: GraphCopy(Of MailMergeSettingsSerializer)(MailMergeSettingsSerializer)
+  name: GraphCopy<MailMergeSettingsSerializer>()
+  nameWithType: ObjectExtensions.GraphCopy<MailMergeSettingsSerializer>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of MailMergeSettingsSerializer)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer)()
+  name.vb: GraphCopy(Of MailMergeSettingsSerializer)()
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<MailMergeSettingsSerializer>
+    nameWithType: ObjectExtensions.GraphCopy<MailMergeSettingsSerializer>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer
-    name: MailMergeSettingsSerializer
-    isExternal: true
-    href: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.html
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer
-    name: MailMergeSettingsSerializer
-    isExternal: true
-    href: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of MailMergeSettingsSerializer)
+    nameWithType: ObjectExtensions.GraphCopy(Of MailMergeSettingsSerializer)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer
-    name: MailMergeSettingsSerializer
-    isExternal: true
-    href: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<MailMergeSettingsSerializer, To>()
+  nameWithType: Converters.MapEnums<MailMergeSettingsSerializer, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer, To>()
+  nameWithType.vb: Converters.MapEnums(Of MailMergeSettingsSerializer, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer, To)()
+  name.vb: MapEnums(Of MailMergeSettingsSerializer, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<MailMergeSettingsSerializer, To>
+    nameWithType: Converters.MapEnums<MailMergeSettingsSerializer, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer, To>
+    isExternal: true
   - name: (
-  - uid: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer
-    name: MailMergeSettingsSerializer
-    isExternal: true
-    href: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of MailMergeSettingsSerializer, To)
+    nameWithType: Converters.MapEnums(Of MailMergeSettingsSerializer, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
-- uid: System.Xml.Serialization
-  commentId: N:System.Xml.Serialization
-  isExternal: true
-  name: System.Xml.Serialization
-  nameWithType: System.Xml.Serialization
-  fullName: System.Xml.Serialization
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-  - name: .
-  - uid: System.Xml
-    name: Xml
-    isExternal: true
-  - name: .
-  - uid: System.Xml.Serialization
-    name: Serialization
-    isExternal: true
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-  - name: .
-  - uid: System.Xml
-    name: Xml
-    isExternal: true
-  - name: .
-  - uid: System.Xml.Serialization
-    name: Serialization
-    isExternal: true
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -1521,93 +413,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<From, To>(From)
-  nameWithType: Converters.MapEnums<From, To>(From)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
-  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
-  name.vb: MapEnums(Of From, To)(From)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - name: From
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - name: From
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters
-  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
-  parent: SuperOffice.ErpSync.ConnectorWS
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
-  name: Converters
-  nameWithType: Converters
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   name: AssignByReflection<T>(T, T)
   nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
   fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
@@ -1616,46 +458,56 @@ references:
   name.vb: AssignByReflection(Of T)(T, T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
-  - name: ','
-  - name: " "
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.ObjectExtensions
   commentId: T:SuperOffice.Util.ObjectExtensions
   parent: SuperOffice.Util
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
   name: ObjectExtensions
   nameWithType: ObjectExtensions
   fullName: SuperOffice.Util.ObjectExtensions
 - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   name: GraphCopy<T>(T)
   nameWithType: ObjectExtensions.GraphCopy<T>(T)
   fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
@@ -1664,127 +516,99 @@ references:
   name.vb: GraphCopy(Of T)(T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS
-  commentId: N:SuperOffice.ErpSync.ConnectorWS
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.ErpSync.ConnectorWS
-  nameWithType: SuperOffice.ErpSync.ConnectorWS
-  fullName: SuperOffice.ErpSync.ConnectorWS
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-- uid: System.Xml.Serialization.XmlSerializer.CanDeserialize(System.Xml.XmlReader)
-  commentId: M:System.Xml.Serialization.XmlSerializer.CanDeserialize(System.Xml.XmlReader)
-  parent: System.Xml.Serialization.XmlSerializer
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  name: CanDeserialize(XmlReader)
-  nameWithType: XmlSerializer.CanDeserialize(XmlReader)
-  fullName: System.Xml.Serialization.XmlSerializer.CanDeserialize(System.Xml.XmlReader)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializer.CanDeserialize(System.Xml.XmlReader)
-    name: CanDeserialize
-    isExternal: true
-  - name: (
-  - uid: System.Xml.XmlReader
-    name: XmlReader
-    isExternal: true
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializer.CanDeserialize(System.Xml.XmlReader)
-    name: CanDeserialize
-    isExternal: true
-  - name: (
-  - uid: System.Xml.XmlReader
-    name: XmlReader
-    isExternal: true
-  - name: )
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
 - uid: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.CanDeserialize*
   commentId: Overload:SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.CanDeserialize
   isExternal: true
-  href: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.html#SuperOffice_CRM_MailMerge_MailMergeSettingsSerializer_CanDeserialize_System_Xml_XmlReader_
   name: CanDeserialize
   nameWithType: MailMergeSettingsSerializer.CanDeserialize
   fullName: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.CanDeserialize
 - uid: System.Xml.XmlReader
-  commentId: T:System.Xml.XmlReader
-  parent: System.Xml
   isExternal: true
   name: XmlReader
   nameWithType: XmlReader
@@ -1793,125 +617,27 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
-- uid: System.Xml
-  commentId: N:System.Xml
-  isExternal: true
-  name: System.Xml
-  nameWithType: System.Xml
-  fullName: System.Xml
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-  - name: .
-  - uid: System.Xml
-    name: Xml
-    isExternal: true
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-  - name: .
-  - uid: System.Xml
-    name: Xml
-    isExternal: true
-- uid: System.Xml.Serialization.XmlSerializer.Serialize(System.Object,System.Xml.Serialization.XmlSerializationWriter)
-  commentId: M:System.Xml.Serialization.XmlSerializer.Serialize(System.Object,System.Xml.Serialization.XmlSerializationWriter)
-  parent: System.Xml.Serialization.XmlSerializer
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: Serialize(object, XmlSerializationWriter)
-  nameWithType: XmlSerializer.Serialize(object, XmlSerializationWriter)
-  fullName: System.Xml.Serialization.XmlSerializer.Serialize(object, System.Xml.Serialization.XmlSerializationWriter)
-  nameWithType.vb: XmlSerializer.Serialize(Object, XmlSerializationWriter)
-  fullName.vb: System.Xml.Serialization.XmlSerializer.Serialize(Object, System.Xml.Serialization.XmlSerializationWriter)
-  name.vb: Serialize(Object, XmlSerializationWriter)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializer.Serialize(System.Object,System.Xml.Serialization.XmlSerializationWriter)
-    name: Serialize
-    isExternal: true
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Xml.Serialization.XmlSerializationWriter
-    name: XmlSerializationWriter
-    isExternal: true
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializer.Serialize(System.Object,System.Xml.Serialization.XmlSerializationWriter)
-    name: Serialize
-    isExternal: true
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Xml.Serialization.XmlSerializationWriter
-    name: XmlSerializationWriter
-    isExternal: true
-  - name: )
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.Serialize*
   commentId: Overload:SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.Serialize
   isExternal: true
-  href: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.html#SuperOffice_CRM_MailMerge_MailMergeSettingsSerializer_Serialize_System_Object_System_Xml_Serialization_XmlSerializationWriter_
   name: Serialize
   nameWithType: MailMergeSettingsSerializer.Serialize
   fullName: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.Serialize
 - uid: System.Xml.Serialization.XmlSerializationWriter
-  commentId: T:System.Xml.Serialization.XmlSerializationWriter
-  parent: System.Xml.Serialization
   isExternal: true
   name: XmlSerializationWriter
   nameWithType: XmlSerializationWriter
   fullName: System.Xml.Serialization.XmlSerializationWriter
-- uid: System.Xml.Serialization.XmlSerializer.Deserialize(System.Xml.Serialization.XmlSerializationReader)
-  commentId: M:System.Xml.Serialization.XmlSerializer.Deserialize(System.Xml.Serialization.XmlSerializationReader)
-  parent: System.Xml.Serialization.XmlSerializer
-  isExternal: true
-  name: Deserialize(XmlSerializationReader)
-  nameWithType: XmlSerializer.Deserialize(XmlSerializationReader)
-  fullName: System.Xml.Serialization.XmlSerializer.Deserialize(System.Xml.Serialization.XmlSerializationReader)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializer.Deserialize(System.Xml.Serialization.XmlSerializationReader)
-    name: Deserialize
-    isExternal: true
-  - name: (
-  - uid: System.Xml.Serialization.XmlSerializationReader
-    name: XmlSerializationReader
-    isExternal: true
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializer.Deserialize(System.Xml.Serialization.XmlSerializationReader)
-    name: Deserialize
-    isExternal: true
-  - name: (
-  - uid: System.Xml.Serialization.XmlSerializationReader
-    name: XmlSerializationReader
-    isExternal: true
-  - name: )
 - uid: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.Deserialize*
   commentId: Overload:SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.Deserialize
   isExternal: true
-  href: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.html#SuperOffice_CRM_MailMerge_MailMergeSettingsSerializer_Deserialize_System_Xml_Serialization_XmlSerializationReader_
   name: Deserialize
   nameWithType: MailMergeSettingsSerializer.Deserialize
   fullName: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.Deserialize
 - uid: System.Xml.Serialization.XmlSerializationReader
-  commentId: T:System.Xml.Serialization.XmlSerializationReader
-  parent: System.Xml.Serialization
   isExternal: true
   name: XmlSerializationReader
   nameWithType: XmlSerializationReader
@@ -1919,10 +645,6 @@ references:
 - uid: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.#ctor*
   commentId: Overload:SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.#ctor
   isExternal: true
-  href: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.html#SuperOffice_CRM_MailMerge_MailMergeSettingsSerializer__ctor
   name: MailMergeSettingsSerializer
   nameWithType: MailMergeSettingsSerializer.MailMergeSettingsSerializer
   fullName: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.MailMergeSettingsSerializer
-  nameWithType.vb: MailMergeSettingsSerializer.New
-  fullName.vb: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.New
-  name.vb: New

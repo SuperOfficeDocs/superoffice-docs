@@ -17,34 +17,64 @@ items:
   - SuperOffice.WebApi.Data.ImportAction.ProductNoChange
   - SuperOffice.WebApi.Data.ImportAction.ProductUpdated
   - SuperOffice.WebApi.Data.ImportAction.Unknown
+  - SuperOffice.WebApi.Data.ImportAction.value__
   langs:
   - csharp
   - vb
   name: ImportAction
   nameWithType: ImportAction
   fullName: SuperOffice.WebApi.Data.ImportAction
-  type: Enum
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Action being done for the import row
-
-    This Enum consists of flag values that can be combined.
-  example: []
+  summary: "\nAction being done for the import row\nThis Enum consists of flag values that can be combined.\n"
   syntax:
-    content: >-
-      [Flags]
-
-      public enum ImportAction
+    content: 'public sealed class ImportAction : Enum'
     content.vb: >-
-      <Flags>
+      Public NotInheritable Class ImportAction
+          Inherits
 
-      Public Enum ImportAction
-  attributes:
-  - type: System.FlagsAttribute
-    ctor: System.FlagsAttribute.#ctor
-    arguments: []
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.ImportAction.value__
+  commentId: F:SuperOffice.WebApi.Data.ImportAction.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.ImportAction
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: ImportAction.value__
+  fullName: SuperOffice.WebApi.Data.ImportAction.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.ImportAction.Unknown
   commentId: F:SuperOffice.WebApi.Data.ImportAction.Unknown
   id: Unknown
@@ -56,15 +86,24 @@ items:
   nameWithType: ImportAction.Unknown
   fullName: SuperOffice.WebApi.Data.ImportAction.Unknown
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '0: Unknown'
-  example: []
+  summary: "\n0: Unknown\n"
   syntax:
-    content: Unknown = 0
+    content: public const ImportAction Unknown
     return:
       type: SuperOffice.WebApi.Data.ImportAction
+    content.vb: Public Const Unknown As ImportAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ImportAction.PersonAdded
   commentId: F:SuperOffice.WebApi.Data.ImportAction.PersonAdded
   id: PersonAdded
@@ -76,26 +115,24 @@ items:
   nameWithType: ImportAction.PersonAdded
   fullName: SuperOffice.WebApi.Data.ImportAction.PersonAdded
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '1: PersonAdded'
-  example: []
+  summary: "\n1: PersonAdded\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      PersonAdded = 1
+    content: public const ImportAction PersonAdded
     return:
       type: SuperOffice.WebApi.Data.ImportAction
-    content.vb: >-
-      <EnumMember>
-
-      PersonAdded = 1
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const PersonAdded As ImportAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ImportAction.PersonUpdated
   commentId: F:SuperOffice.WebApi.Data.ImportAction.PersonUpdated
   id: PersonUpdated
@@ -107,26 +144,24 @@ items:
   nameWithType: ImportAction.PersonUpdated
   fullName: SuperOffice.WebApi.Data.ImportAction.PersonUpdated
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '2: PersonUpdated'
-  example: []
+  summary: "\n2: PersonUpdated\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      PersonUpdated = 2
+    content: public const ImportAction PersonUpdated
     return:
       type: SuperOffice.WebApi.Data.ImportAction
-    content.vb: >-
-      <EnumMember>
-
-      PersonUpdated = 2
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const PersonUpdated As ImportAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ImportAction.PersonNoChange
   commentId: F:SuperOffice.WebApi.Data.ImportAction.PersonNoChange
   id: PersonNoChange
@@ -138,26 +173,24 @@ items:
   nameWithType: ImportAction.PersonNoChange
   fullName: SuperOffice.WebApi.Data.ImportAction.PersonNoChange
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '4: PersonNoChange'
-  example: []
+  summary: "\n4: PersonNoChange\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      PersonNoChange = 4
+    content: public const ImportAction PersonNoChange
     return:
       type: SuperOffice.WebApi.Data.ImportAction
-    content.vb: >-
-      <EnumMember>
-
-      PersonNoChange = 4
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const PersonNoChange As ImportAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ImportAction.ContactAdded
   commentId: F:SuperOffice.WebApi.Data.ImportAction.ContactAdded
   id: ContactAdded
@@ -169,26 +202,24 @@ items:
   nameWithType: ImportAction.ContactAdded
   fullName: SuperOffice.WebApi.Data.ImportAction.ContactAdded
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '8: ContactAdded'
-  example: []
+  summary: "\n8: ContactAdded\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      ContactAdded = 8
+    content: public const ImportAction ContactAdded
     return:
       type: SuperOffice.WebApi.Data.ImportAction
-    content.vb: >-
-      <EnumMember>
-
-      ContactAdded = 8
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const ContactAdded As ImportAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ImportAction.ContactUpdated
   commentId: F:SuperOffice.WebApi.Data.ImportAction.ContactUpdated
   id: ContactUpdated
@@ -200,26 +231,24 @@ items:
   nameWithType: ImportAction.ContactUpdated
   fullName: SuperOffice.WebApi.Data.ImportAction.ContactUpdated
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '16: ContactUpdated'
-  example: []
+  summary: "\n16: ContactUpdated\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      ContactUpdated = 16
+    content: public const ImportAction ContactUpdated
     return:
       type: SuperOffice.WebApi.Data.ImportAction
-    content.vb: >-
-      <EnumMember>
-
-      ContactUpdated = 16
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const ContactUpdated As ImportAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ImportAction.ContactNoChange
   commentId: F:SuperOffice.WebApi.Data.ImportAction.ContactNoChange
   id: ContactNoChange
@@ -231,26 +260,24 @@ items:
   nameWithType: ImportAction.ContactNoChange
   fullName: SuperOffice.WebApi.Data.ImportAction.ContactNoChange
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '32: ContactNoChange'
-  example: []
+  summary: "\n32: ContactNoChange\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      ContactNoChange = 32
+    content: public const ImportAction ContactNoChange
     return:
       type: SuperOffice.WebApi.Data.ImportAction
-    content.vb: >-
-      <EnumMember>
-
-      ContactNoChange = 32
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const ContactNoChange As ImportAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ImportAction.ProductAdded
   commentId: F:SuperOffice.WebApi.Data.ImportAction.ProductAdded
   id: ProductAdded
@@ -262,26 +289,24 @@ items:
   nameWithType: ImportAction.ProductAdded
   fullName: SuperOffice.WebApi.Data.ImportAction.ProductAdded
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '64: ProductAdded'
-  example: []
+  summary: "\n64: ProductAdded\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      ProductAdded = 64
+    content: public const ImportAction ProductAdded
     return:
       type: SuperOffice.WebApi.Data.ImportAction
-    content.vb: >-
-      <EnumMember>
-
-      ProductAdded = 64
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const ProductAdded As ImportAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ImportAction.ProductUpdated
   commentId: F:SuperOffice.WebApi.Data.ImportAction.ProductUpdated
   id: ProductUpdated
@@ -293,26 +318,24 @@ items:
   nameWithType: ImportAction.ProductUpdated
   fullName: SuperOffice.WebApi.Data.ImportAction.ProductUpdated
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '128: ProductUpdated'
-  example: []
+  summary: "\n128: ProductUpdated\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      ProductUpdated = 128
+    content: public const ImportAction ProductUpdated
     return:
       type: SuperOffice.WebApi.Data.ImportAction
-    content.vb: >-
-      <EnumMember>
-
-      ProductUpdated = 128
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const ProductUpdated As ImportAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ImportAction.ProductNoChange
   commentId: F:SuperOffice.WebApi.Data.ImportAction.ProductNoChange
   id: ProductNoChange
@@ -324,26 +347,24 @@ items:
   nameWithType: ImportAction.ProductNoChange
   fullName: SuperOffice.WebApi.Data.ImportAction.ProductNoChange
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '256: ProductNoChange'
-  example: []
+  summary: "\n256: ProductNoChange\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      ProductNoChange = 256
+    content: public const ImportAction ProductNoChange
     return:
       type: SuperOffice.WebApi.Data.ImportAction
-    content.vb: >-
-      <EnumMember>
-
-      ProductNoChange = 256
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const ProductNoChange As ImportAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ImportAction.Obs
   commentId: F:SuperOffice.WebApi.Data.ImportAction.Obs
   id: Obs
@@ -355,26 +376,24 @@ items:
   nameWithType: ImportAction.Obs
   fullName: SuperOffice.WebApi.Data.ImportAction.Obs
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '512: Obs'
-  example: []
+  summary: "\n512: Obs\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Obs = 512
+    content: public const ImportAction Obs
     return:
       type: SuperOffice.WebApi.Data.ImportAction
-    content.vb: >-
-      <EnumMember>
-
-      Obs = 512
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Obs As ImportAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ImportAction.ObsERPDuplicate
   commentId: F:SuperOffice.WebApi.Data.ImportAction.ObsERPDuplicate
   id: ObsERPDuplicate
@@ -386,69 +405,55 @@ items:
   nameWithType: ImportAction.ObsERPDuplicate
   fullName: SuperOffice.WebApi.Data.ImportAction.ObsERPDuplicate
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '1024: ObsERPDuplicate'
-  example: []
+  summary: "\n1024: ObsERPDuplicate\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      ObsERPDuplicate = 1024
+    content: public const ImportAction ObsERPDuplicate
     return:
       type: SuperOffice.WebApi.Data.ImportAction
-    content.vb: >-
-      <EnumMember>
-
-      ObsERPDuplicate = 1024
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const ObsERPDuplicate As ImportAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.WebApi.Data.ImportAction
   commentId: T:SuperOffice.WebApi.Data.ImportAction
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.ImportAction.html
   name: ImportAction
   nameWithType: ImportAction
   fullName: SuperOffice.WebApi.Data.ImportAction

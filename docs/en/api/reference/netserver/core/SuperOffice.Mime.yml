@@ -18,7 +18,6 @@ references:
 - uid: SuperOffice.Mime.MimeDetect
   commentId: T:SuperOffice.Mime.MimeDetect
   isExternal: true
-  href: SuperOffice.Mime.MimeDetect.html
   name: MimeDetect
   nameWithType: MimeDetect
   fullName: SuperOffice.Mime.MimeDetect

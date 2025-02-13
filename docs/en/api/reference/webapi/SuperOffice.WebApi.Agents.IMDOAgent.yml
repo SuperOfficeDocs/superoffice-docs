@@ -24,16 +24,24 @@ items:
   nameWithType: IMDOAgent
   fullName: SuperOffice.WebApi.Agents.IMDOAgent
   type: Interface
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: MDO Lists, reading, searching, and item lookup.
-  example: []
+  summary: "\nMDO Lists, reading, searching, and item lookup.\n"
   syntax:
     content: 'public interface IMDOAgent : IDisposable'
-    content.vb: Public Interface IMDOAgent Inherits IDisposable
-  inheritedMembers:
-  - System.IDisposable.Dispose
+    content.vb: >-
+      Public Interface IMDOAgent
+          Inherits IDisposable
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
 - uid: SuperOffice.WebApi.Agents.IMDOAgent.GetListAsync(System.String,System.Boolean,System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IMDOAgent.GetListAsync(System.String,System.Boolean,System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
   id: GetListAsync(System.String,System.Boolean,System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
@@ -41,15 +49,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetListAsync(string, bool, string, bool, RequestOptions)
-  nameWithType: IMDOAgent.GetListAsync(string, bool, string, bool, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IMDOAgent.GetListAsync(string, bool, string, bool, SuperOffice.WebApi.RequestOptions)
+  name: GetListAsync(String, Boolean, String, Boolean, RequestOptions)
+  nameWithType: IMDOAgent.GetListAsync(String, Boolean, String, Boolean, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IMDOAgent.GetListAsync(System.String, System.Boolean, System.String, System.Boolean, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Method to get a MDO list.
-  example: []
+  summary: "\nMethod to get a MDO list.\n"
   syntax:
     content: Task<MDOListItem[]> GetListAsync(string name, bool forceFlatList, string additionalInfo, bool onlyHistory, RequestOptions requestOptions = null)
     parameters:
@@ -67,15 +77,12 @@ items:
       description: If true, return only history items
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.MDOListItem[]}
       description: Array of MDOListItem
     content.vb: Function GetListAsync(name As String, forceFlatList As Boolean, additionalInfo As String, onlyHistory As Boolean, requestOptions As RequestOptions = Nothing) As Task(Of MDOListItem())
   overload: SuperOffice.WebApi.Agents.IMDOAgent.GetListAsync*
-  nameWithType.vb: IMDOAgent.GetListAsync(String, Boolean, String, Boolean, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IMDOAgent.GetListAsync(String, Boolean, String, Boolean, SuperOffice.WebApi.RequestOptions)
-  name.vb: GetListAsync(String, Boolean, String, Boolean, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IMDOAgent.GetListWithHistoryAsync(System.String,System.Boolean,System.String,System.Int32[],System.Boolean,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IMDOAgent.GetListWithHistoryAsync(System.String,System.Boolean,System.String,System.Int32[],System.Boolean,SuperOffice.WebApi.RequestOptions)
   id: GetListWithHistoryAsync(System.String,System.Boolean,System.String,System.Int32[],System.Boolean,SuperOffice.WebApi.RequestOptions)
@@ -83,15 +90,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetListWithHistoryAsync(string, bool, string, int[], bool, RequestOptions)
-  nameWithType: IMDOAgent.GetListWithHistoryAsync(string, bool, string, int[], bool, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IMDOAgent.GetListWithHistoryAsync(string, bool, string, int[], bool, SuperOffice.WebApi.RequestOptions)
+  name: GetListWithHistoryAsync(String, Boolean, String, Int32[], Boolean, RequestOptions)
+  nameWithType: IMDOAgent.GetListWithHistoryAsync(String, Boolean, String, Int32[], Boolean, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IMDOAgent.GetListWithHistoryAsync(System.String, System.Boolean, System.String, System.Int32[], System.Boolean, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Method to get a MDO list with own history list.
-  example: []
+  summary: "\nMethod to get a MDO list with own history list.\n"
   syntax:
     content: Task<MDOListItem[]> GetListWithHistoryAsync(string name, bool forceFlatList, string additionalInfo, int[] historyItems, bool onlyHistory, RequestOptions requestOptions = null)
     parameters:
@@ -112,15 +121,15 @@ items:
       description: If true, return only history items
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.MDOListItem[]}
       description: Array of MDOListItem
     content.vb: Function GetListWithHistoryAsync(name As String, forceFlatList As Boolean, additionalInfo As String, historyItems As Integer(), onlyHistory As Boolean, requestOptions As RequestOptions = Nothing) As Task(Of MDOListItem())
   overload: SuperOffice.WebApi.Agents.IMDOAgent.GetListWithHistoryAsync*
-  nameWithType.vb: IMDOAgent.GetListWithHistoryAsync(String, Boolean, String, Integer(), Boolean, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IMDOAgent.GetListWithHistoryAsync(String, Boolean, String, Integer(), Boolean, SuperOffice.WebApi.RequestOptions)
-  name.vb: GetListWithHistoryAsync(String, Boolean, String, Integer(), Boolean, RequestOptions)
+  nameWithType.vb: IMDOAgent.GetListWithHistoryAsync(String, Boolean, String, Int32(), Boolean, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IMDOAgent.GetListWithHistoryAsync(System.String, System.Boolean, System.String, System.Int32(), System.Boolean, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetListWithHistoryAsync(String, Boolean, String, Int32(), Boolean, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IMDOAgent.GetListWithRestrictionAsync(System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IMDOAgent.GetListWithRestrictionAsync(System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
   id: GetListWithRestrictionAsync(System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
@@ -128,15 +137,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetListWithRestrictionAsync(string, string, string, RequestOptions)
-  nameWithType: IMDOAgent.GetListWithRestrictionAsync(string, string, string, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IMDOAgent.GetListWithRestrictionAsync(string, string, string, SuperOffice.WebApi.RequestOptions)
+  name: GetListWithRestrictionAsync(String, String, String, RequestOptions)
+  nameWithType: IMDOAgent.GetListWithRestrictionAsync(String, String, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IMDOAgent.GetListWithRestrictionAsync(System.String, System.String, System.String, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Method to get a MDO list with restrictions.
-  example: []
+  summary: "\nMethod to get a MDO list with restrictions.\n"
   syntax:
     content: Task<MDOListItem[]> GetListWithRestrictionAsync(string name, string additionalInfo, string searchValue, RequestOptions requestOptions = null)
     parameters:
@@ -151,15 +162,12 @@ items:
       description: the value used to restrict the list
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.MDOListItem[]}
       description: Array of MDOListItem
     content.vb: Function GetListWithRestrictionAsync(name As String, additionalInfo As String, searchValue As String, requestOptions As RequestOptions = Nothing) As Task(Of MDOListItem())
   overload: SuperOffice.WebApi.Agents.IMDOAgent.GetListWithRestrictionAsync*
-  nameWithType.vb: IMDOAgent.GetListWithRestrictionAsync(String, String, String, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IMDOAgent.GetListWithRestrictionAsync(String, String, String, SuperOffice.WebApi.RequestOptions)
-  name.vb: GetListWithRestrictionAsync(String, String, String, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IMDOAgent.GetSimpleListAsync(System.String,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IMDOAgent.GetSimpleListAsync(System.String,SuperOffice.WebApi.RequestOptions)
   id: GetSimpleListAsync(System.String,SuperOffice.WebApi.RequestOptions)
@@ -167,32 +175,31 @@ items:
   langs:
   - csharp
   - vb
-  name: GetSimpleListAsync(string, RequestOptions)
-  nameWithType: IMDOAgent.GetSimpleListAsync(string, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IMDOAgent.GetSimpleListAsync(string, SuperOffice.WebApi.RequestOptions)
+  name: GetSimpleListAsync(String, RequestOptions)
+  nameWithType: IMDOAgent.GetSimpleListAsync(String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IMDOAgent.GetSimpleListAsync(System.String, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Method returns a simple flat MDO List.
-  example: []
+  summary: "\nMethod returns a simple flat MDO List.\n"
   syntax:
     content: Task<MDOListItem[]> GetSimpleListAsync(string name, RequestOptions requestOptions = null)
     parameters:
     - id: name
       type: System.String
-      description: Conceptual name of the MDO list-
+      description: Conceptual name of the MDO list.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.MDOListItem[]}
       description: Array of MDOListItem
     content.vb: Function GetSimpleListAsync(name As String, requestOptions As RequestOptions = Nothing) As Task(Of MDOListItem())
   overload: SuperOffice.WebApi.Agents.IMDOAgent.GetSimpleListAsync*
-  nameWithType.vb: IMDOAgent.GetSimpleListAsync(String, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IMDOAgent.GetSimpleListAsync(String, SuperOffice.WebApi.RequestOptions)
-  name.vb: GetSimpleListAsync(String, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IMDOAgent.GetListItemAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IMDOAgent.GetListItemAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
   id: GetListItemAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -200,15 +207,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetListItemAsync(string, int, RequestOptions)
-  nameWithType: IMDOAgent.GetListItemAsync(string, int, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IMDOAgent.GetListItemAsync(string, int, SuperOffice.WebApi.RequestOptions)
+  name: GetListItemAsync(String, Int32, RequestOptions)
+  nameWithType: IMDOAgent.GetListItemAsync(String, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IMDOAgent.GetListItemAsync(System.String, System.Int32, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Returns a single list item
-  example: []
+  summary: "\nReturns a single list item\n"
   syntax:
     content: Task<MDOListItem> GetListItemAsync(string listName, int id, RequestOptions requestOptions = null)
     parameters:
@@ -220,15 +229,12 @@ items:
       description: Id of list item
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.MDOListItem}
       description: Single MDO list item
     content.vb: Function GetListItemAsync(listName As String, id As Integer, requestOptions As RequestOptions = Nothing) As Task(Of MDOListItem)
   overload: SuperOffice.WebApi.Agents.IMDOAgent.GetListItemAsync*
-  nameWithType.vb: IMDOAgent.GetListItemAsync(String, Integer, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IMDOAgent.GetListItemAsync(String, Integer, SuperOffice.WebApi.RequestOptions)
-  name.vb: GetListItemAsync(String, Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IMDOAgent.GetListNamesAsync(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IMDOAgent.GetListNamesAsync(SuperOffice.WebApi.RequestOptions)
   id: GetListNamesAsync(SuperOffice.WebApi.RequestOptions)
@@ -240,17 +246,19 @@ items:
   nameWithType: IMDOAgent.GetListNamesAsync(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IMDOAgent.GetListNamesAsync(SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Returns a list of all MDO List names. These names can also be used with the Archive agent as ProviderNames.
-  example: []
+  summary: "\nReturns a list of all MDO List names. These names can also be used with the Archive agent as ProviderNames.\n"
   syntax:
     content: Task<string[]> GetListNamesAsync(RequestOptions requestOptions = null)
     parameters:
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{System.String[]}
       description: Array of list names.
@@ -263,15 +271,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetListIdByListNameAsync(string, RequestOptions)
-  nameWithType: IMDOAgent.GetListIdByListNameAsync(string, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IMDOAgent.GetListIdByListNameAsync(string, SuperOffice.WebApi.RequestOptions)
+  name: GetListIdByListNameAsync(String, RequestOptions)
+  nameWithType: IMDOAgent.GetListIdByListNameAsync(String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IMDOAgent.GetListIdByListNameAsync(System.String, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Retrieve the UdListDefinition id of a list, by its name. Not all lists have such an ID, but those that are based on tables do (the list name is then the same as the table name)
-  example: []
+  summary: "\nRetrieve the UdListDefinition id of a list, by its name. Not all lists have such an ID, but those that are based on tables do (the list name is then the same as the table name)\n"
   syntax:
     content: Task<int> GetListIdByListNameAsync(string name, RequestOptions requestOptions = null)
     parameters:
@@ -280,15 +290,12 @@ items:
       description: The list name, same as the table name for lists that are backed by tables
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{System.Int32}
       description: List id in the UdListDefinition table
     content.vb: Function GetListIdByListNameAsync(name As String, requestOptions As RequestOptions = Nothing) As Task(Of Integer)
   overload: SuperOffice.WebApi.Agents.IMDOAgent.GetListIdByListNameAsync*
-  nameWithType.vb: IMDOAgent.GetListIdByListNameAsync(String, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IMDOAgent.GetListIdByListNameAsync(String, SuperOffice.WebApi.RequestOptions)
-  name.vb: GetListIdByListNameAsync(String, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IMDOAgent.GetSelectableSimpleListAsync(System.String,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IMDOAgent.GetSelectableSimpleListAsync(System.String,SuperOffice.WebApi.RequestOptions)
   id: GetSelectableSimpleListAsync(System.String,SuperOffice.WebApi.RequestOptions)
@@ -296,15 +303,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetSelectableSimpleListAsync(string, RequestOptions)
-  nameWithType: IMDOAgent.GetSelectableSimpleListAsync(string, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IMDOAgent.GetSelectableSimpleListAsync(string, SuperOffice.WebApi.RequestOptions)
+  name: GetSelectableSimpleListAsync(String, RequestOptions)
+  nameWithType: IMDOAgent.GetSelectableSimpleListAsync(String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IMDOAgent.GetSelectableSimpleListAsync(System.String, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Method returns a flat Selectable MDO List.
-  example: []
+  summary: "\nMethod returns a flat Selectable MDO List.\n"
   syntax:
     content: Task<SelectableMDOListItem[]> GetSelectableSimpleListAsync(string name, RequestOptions requestOptions = null)
     parameters:
@@ -313,15 +322,12 @@ items:
       description: Conceptual name of the MDO list
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.SelectableMDOListItem[]}
       description: Array of SelectableMDOListItem
     content.vb: Function GetSelectableSimpleListAsync(name As String, requestOptions As RequestOptions = Nothing) As Task(Of SelectableMDOListItem())
   overload: SuperOffice.WebApi.Agents.IMDOAgent.GetSelectableSimpleListAsync*
-  nameWithType.vb: IMDOAgent.GetSelectableSimpleListAsync(String, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IMDOAgent.GetSelectableSimpleListAsync(String, SuperOffice.WebApi.RequestOptions)
-  name.vb: GetSelectableSimpleListAsync(String, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IMDOAgent.GetSelectableListWithRestrictionAsync(System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IMDOAgent.GetSelectableListWithRestrictionAsync(System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
   id: GetSelectableListWithRestrictionAsync(System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
@@ -329,15 +335,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetSelectableListWithRestrictionAsync(string, string, string, RequestOptions)
-  nameWithType: IMDOAgent.GetSelectableListWithRestrictionAsync(string, string, string, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IMDOAgent.GetSelectableListWithRestrictionAsync(string, string, string, SuperOffice.WebApi.RequestOptions)
+  name: GetSelectableListWithRestrictionAsync(String, String, String, RequestOptions)
+  nameWithType: IMDOAgent.GetSelectableListWithRestrictionAsync(String, String, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IMDOAgent.GetSelectableListWithRestrictionAsync(System.String, System.String, System.String, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Method to get a Selectable MDO list with restrictions.
-  example: []
+  summary: "\nMethod to get a Selectable MDO list with restrictions.\n"
   syntax:
     content: Task<SelectableMDOListItem[]> GetSelectableListWithRestrictionAsync(string name, string additionalInfo, string searchValue, RequestOptions requestOptions = null)
     parameters:
@@ -352,15 +360,12 @@ items:
       description: the value used to restrict the list
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.SelectableMDOListItem[]}
       description: Array of SelectableMDOListItem
     content.vb: Function GetSelectableListWithRestrictionAsync(name As String, additionalInfo As String, searchValue As String, requestOptions As RequestOptions = Nothing) As Task(Of SelectableMDOListItem())
   overload: SuperOffice.WebApi.Agents.IMDOAgent.GetSelectableListWithRestrictionAsync*
-  nameWithType.vb: IMDOAgent.GetSelectableListWithRestrictionAsync(String, String, String, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IMDOAgent.GetSelectableListWithRestrictionAsync(String, String, String, SuperOffice.WebApi.RequestOptions)
-  name.vb: GetSelectableListWithRestrictionAsync(String, String, String, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IMDOAgent.GetSelectableListWithHistoryAsync(System.String,System.Boolean,System.String,System.Int32[],System.Boolean,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IMDOAgent.GetSelectableListWithHistoryAsync(System.String,System.Boolean,System.String,System.Int32[],System.Boolean,SuperOffice.WebApi.RequestOptions)
   id: GetSelectableListWithHistoryAsync(System.String,System.Boolean,System.String,System.Int32[],System.Boolean,SuperOffice.WebApi.RequestOptions)
@@ -368,15 +373,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetSelectableListWithHistoryAsync(string, bool, string, int[], bool, RequestOptions)
-  nameWithType: IMDOAgent.GetSelectableListWithHistoryAsync(string, bool, string, int[], bool, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IMDOAgent.GetSelectableListWithHistoryAsync(string, bool, string, int[], bool, SuperOffice.WebApi.RequestOptions)
+  name: GetSelectableListWithHistoryAsync(String, Boolean, String, Int32[], Boolean, RequestOptions)
+  nameWithType: IMDOAgent.GetSelectableListWithHistoryAsync(String, Boolean, String, Int32[], Boolean, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IMDOAgent.GetSelectableListWithHistoryAsync(System.String, System.Boolean, System.String, System.Int32[], System.Boolean, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Method to get a Selectable MDO list with own history list.
-  example: []
+  summary: "\nMethod to get a Selectable MDO list with own history list.\n"
   syntax:
     content: Task<SelectableMDOListItem[]> GetSelectableListWithHistoryAsync(string name, bool forceFlatList, string additionalInfo, int[] historyItems, bool onlyHistory, RequestOptions requestOptions = null)
     parameters:
@@ -397,15 +404,15 @@ items:
       description: If true, return only history items
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.SelectableMDOListItem[]}
       description: Array of SelectableMDOListItem
     content.vb: Function GetSelectableListWithHistoryAsync(name As String, forceFlatList As Boolean, additionalInfo As String, historyItems As Integer(), onlyHistory As Boolean, requestOptions As RequestOptions = Nothing) As Task(Of SelectableMDOListItem())
   overload: SuperOffice.WebApi.Agents.IMDOAgent.GetSelectableListWithHistoryAsync*
-  nameWithType.vb: IMDOAgent.GetSelectableListWithHistoryAsync(String, Boolean, String, Integer(), Boolean, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IMDOAgent.GetSelectableListWithHistoryAsync(String, Boolean, String, Integer(), Boolean, SuperOffice.WebApi.RequestOptions)
-  name.vb: GetSelectableListWithHistoryAsync(String, Boolean, String, Integer(), Boolean, RequestOptions)
+  nameWithType.vb: IMDOAgent.GetSelectableListWithHistoryAsync(String, Boolean, String, Int32(), Boolean, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IMDOAgent.GetSelectableListWithHistoryAsync(System.String, System.Boolean, System.String, System.Int32(), System.Boolean, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetSelectableListWithHistoryAsync(String, Boolean, String, Int32(), Boolean, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IMDOAgent.GetSelectableListAsync(System.String,System.Boolean,System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IMDOAgent.GetSelectableListAsync(System.String,System.Boolean,System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
   id: GetSelectableListAsync(System.String,System.Boolean,System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
@@ -413,15 +420,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetSelectableListAsync(string, bool, string, bool, RequestOptions)
-  nameWithType: IMDOAgent.GetSelectableListAsync(string, bool, string, bool, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IMDOAgent.GetSelectableListAsync(string, bool, string, bool, SuperOffice.WebApi.RequestOptions)
+  name: GetSelectableListAsync(String, Boolean, String, Boolean, RequestOptions)
+  nameWithType: IMDOAgent.GetSelectableListAsync(String, Boolean, String, Boolean, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IMDOAgent.GetSelectableListAsync(System.String, System.Boolean, System.String, System.Boolean, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Method to get a Selectable MDO list.
-  example: []
+  summary: "\nMethod to get a Selectable MDO list.\n"
   syntax:
     content: Task<SelectableMDOListItem[]> GetSelectableListAsync(string name, bool forceFlatList, string additionalInfo, bool onlyHistory, RequestOptions requestOptions = null)
     parameters:
@@ -439,15 +448,12 @@ items:
       description: If true, return only history items
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.SelectableMDOListItem[]}
       description: Array of SelectableMDOListItem
     content.vb: Function GetSelectableListAsync(name As String, forceFlatList As Boolean, additionalInfo As String, onlyHistory As Boolean, requestOptions As RequestOptions = Nothing) As Task(Of SelectableMDOListItem())
   overload: SuperOffice.WebApi.Agents.IMDOAgent.GetSelectableListAsync*
-  nameWithType.vb: IMDOAgent.GetSelectableListAsync(String, Boolean, String, Boolean, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IMDOAgent.GetSelectableListAsync(String, Boolean, String, Boolean, SuperOffice.WebApi.RequestOptions)
-  name.vb: GetSelectableListAsync(String, Boolean, String, Boolean, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IMDOAgent.SetSelectedAsync(System.String,System.String,SuperOffice.WebApi.Data.SelectableMDOListItem[],SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IMDOAgent.SetSelectedAsync(System.String,System.String,SuperOffice.WebApi.Data.SelectableMDOListItem[],SuperOffice.WebApi.RequestOptions)
   id: SetSelectedAsync(System.String,System.String,SuperOffice.WebApi.Data.SelectableMDOListItem[],SuperOffice.WebApi.RequestOptions)
@@ -455,15 +461,17 @@ items:
   langs:
   - csharp
   - vb
-  name: SetSelectedAsync(string, string, SelectableMDOListItem[], RequestOptions)
-  nameWithType: IMDOAgent.SetSelectedAsync(string, string, SelectableMDOListItem[], RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IMDOAgent.SetSelectedAsync(string, string, SuperOffice.WebApi.Data.SelectableMDOListItem[], SuperOffice.WebApi.RequestOptions)
+  name: SetSelectedAsync(String, String, SelectableMDOListItem[], RequestOptions)
+  nameWithType: IMDOAgent.SetSelectedAsync(String, String, SelectableMDOListItem[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IMDOAgent.SetSelectedAsync(System.String, System.String, SuperOffice.WebApi.Data.SelectableMDOListItem[], SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Saves the selected values as selected by their given list representation.
-  example: []
+  summary: "\nSaves the selected values as selected by their given list representation.\n"
   syntax:
     content: Task<SelectableMDOListItem[]> SetSelectedAsync(string name, string additionalInfo, SelectableMDOListItem[] selectableMDOList, RequestOptions requestOptions = null)
     parameters:
@@ -478,94 +486,25 @@ items:
       description: Items to be updated
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.SelectableMDOListItem[]}
       description: Array of updated SelectableMDOListItems
     content.vb: Function SetSelectedAsync(name As String, additionalInfo As String, selectableMDOList As SelectableMDOListItem(), requestOptions As RequestOptions = Nothing) As Task(Of SelectableMDOListItem())
   overload: SuperOffice.WebApi.Agents.IMDOAgent.SetSelectedAsync*
   nameWithType.vb: IMDOAgent.SetSelectedAsync(String, String, SelectableMDOListItem(), RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IMDOAgent.SetSelectedAsync(String, String, SuperOffice.WebApi.Data.SelectableMDOListItem(), SuperOffice.WebApi.RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IMDOAgent.SetSelectedAsync(System.String, System.String, SuperOffice.WebApi.Data.SelectableMDOListItem(), SuperOffice.WebApi.RequestOptions)
   name.vb: SetSelectedAsync(String, String, SelectableMDOListItem(), RequestOptions)
 references:
 - uid: SuperOffice.WebApi.Agents
   commentId: N:SuperOffice.WebApi.Agents
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Agents
   nameWithType: SuperOffice.WebApi.Agents
   fullName: SuperOffice.WebApi.Agents
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Agents
-    name: Agents
-    isExternal: true
-    href: SuperOffice.WebApi.Agents.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Agents
-    name: Agents
-    isExternal: true
-    href: SuperOffice.WebApi.Agents.html
-- uid: System.IDisposable.Dispose
-  commentId: M:System.IDisposable.Dispose
-  parent: System.IDisposable
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
-  name: Dispose()
-  nameWithType: IDisposable.Dispose()
-  fullName: System.IDisposable.Dispose()
-  spec.csharp:
-  - uid: System.IDisposable.Dispose
-    name: Dispose
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.IDisposable.Dispose
-    name: Dispose
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
-  - name: (
-  - name: )
-- uid: System.IDisposable
-  commentId: T:System.IDisposable
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.idisposable
-  name: IDisposable
-  nameWithType: IDisposable
-  fullName: System.IDisposable
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.WebApi.Agents.IMDOAgent.GetListAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IMDOAgent.GetListAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IMDOAgent.html#SuperOffice_WebApi_Agents_IMDOAgent_GetListAsync_System_String_System_Boolean_System_String_System_Boolean_SuperOffice_WebApi_RequestOptions_
   name: GetListAsync
   nameWithType: IMDOAgent.GetListAsync
   fullName: SuperOffice.WebApi.Agents.IMDOAgent.GetListAsync
@@ -573,37 +512,26 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.WebApi.RequestOptions
   commentId: T:SuperOffice.WebApi.RequestOptions
   parent: SuperOffice.WebApi
   isExternal: true
-  href: SuperOffice.WebApi.RequestOptions.html
   name: RequestOptions
   nameWithType: RequestOptions
   fullName: SuperOffice.WebApi.RequestOptions
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.MDOListItem[]}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.MDOListItem[]}
-  parent: System.Threading.Tasks
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.MDOListItem[]}'
   definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<MDOListItem[]>
   nameWithType: Task<MDOListItem[]>
   fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.MDOListItem[]>
@@ -613,171 +541,140 @@ references:
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.WebApi.Data.MDOListItem
     name: MDOListItem
+    nameWithType: MDOListItem
+    fullName: SuperOffice.WebApi.Data.MDOListItem
     isExternal: true
-    href: SuperOffice.WebApi.Data.MDOListItem.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.WebApi.Data.MDOListItem
     name: MDOListItem
+    nameWithType: MDOListItem
+    fullName: SuperOffice.WebApi.Data.MDOListItem
     isExternal: true
-    href: SuperOffice.WebApi.Data.MDOListItem.html
-  - name: (
+  - name: ()
+    nameWithType: ()
+    fullName: ()
   - name: )
-  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.WebApi
   commentId: N:SuperOffice.WebApi
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi
   nameWithType: SuperOffice.WebApi
   fullName: SuperOffice.WebApi
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
 - uid: System.Threading.Tasks.Task`1
-  commentId: T:System.Threading.Tasks.Task`1
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<TResult>
-  nameWithType: Task<TResult>
-  fullName: System.Threading.Tasks.Task<TResult>
-  nameWithType.vb: Task(Of TResult)
-  fullName.vb: System.Threading.Tasks.Task(Of TResult)
-  name.vb: Task(Of TResult)
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-  - name: TResult
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TResult
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
-- uid: System.Threading.Tasks
-  commentId: N:System.Threading.Tasks
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Threading.Tasks
-  nameWithType: System.Threading.Tasks
-  fullName: System.Threading.Tasks
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Threading
-    name: Threading
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading
-  - name: .
-  - uid: System.Threading.Tasks
-    name: Tasks
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Threading
-    name: Threading
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading
-  - name: .
-  - uid: System.Threading.Tasks
-    name: Tasks
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.IMDOAgent.GetListWithHistoryAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IMDOAgent.GetListWithHistoryAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IMDOAgent.html#SuperOffice_WebApi_Agents_IMDOAgent_GetListWithHistoryAsync_System_String_System_Boolean_System_String_System_Int32___System_Boolean_SuperOffice_WebApi_RequestOptions_
   name: GetListWithHistoryAsync
   nameWithType: IMDOAgent.GetListWithHistoryAsync
   fullName: SuperOffice.WebApi.Agents.IMDOAgent.GetListWithHistoryAsync
 - uid: System.Int32[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int[]
-  nameWithType: int[]
-  fullName: int[]
-  nameWithType.vb: Integer()
-  fullName.vb: Integer()
-  name.vb: Integer()
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
   spec.csharp:
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.WebApi.Agents.IMDOAgent.GetListWithRestrictionAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IMDOAgent.GetListWithRestrictionAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IMDOAgent.html#SuperOffice_WebApi_Agents_IMDOAgent_GetListWithRestrictionAsync_System_String_System_String_System_String_SuperOffice_WebApi_RequestOptions_
   name: GetListWithRestrictionAsync
   nameWithType: IMDOAgent.GetListWithRestrictionAsync
   fullName: SuperOffice.WebApi.Agents.IMDOAgent.GetListWithRestrictionAsync
 - uid: SuperOffice.WebApi.Agents.IMDOAgent.GetSimpleListAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IMDOAgent.GetSimpleListAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IMDOAgent.html#SuperOffice_WebApi_Agents_IMDOAgent_GetSimpleListAsync_System_String_SuperOffice_WebApi_RequestOptions_
   name: GetSimpleListAsync
   nameWithType: IMDOAgent.GetSimpleListAsync
   fullName: SuperOffice.WebApi.Agents.IMDOAgent.GetSimpleListAsync
 - uid: SuperOffice.WebApi.Agents.IMDOAgent.GetListItemAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IMDOAgent.GetListItemAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IMDOAgent.html#SuperOffice_WebApi_Agents_IMDOAgent_GetListItemAsync_System_String_System_Int32_SuperOffice_WebApi_RequestOptions_
   name: GetListItemAsync
   nameWithType: IMDOAgent.GetListItemAsync
   fullName: SuperOffice.WebApi.Agents.IMDOAgent.GetListItemAsync
@@ -785,18 +682,12 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.MDOListItem}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.MDOListItem}
-  parent: System.Threading.Tasks
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.MDOListItem}'
   definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<MDOListItem>
   nameWithType: Task<MDOListItem>
   fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.MDOListItem>
@@ -806,127 +697,150 @@ references:
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.WebApi.Data.MDOListItem
     name: MDOListItem
+    nameWithType: MDOListItem
+    fullName: SuperOffice.WebApi.Data.MDOListItem
     isExternal: true
-    href: SuperOffice.WebApi.Data.MDOListItem.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.WebApi.Data.MDOListItem
     name: MDOListItem
+    nameWithType: MDOListItem
+    fullName: SuperOffice.WebApi.Data.MDOListItem
     isExternal: true
-    href: SuperOffice.WebApi.Data.MDOListItem.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.IMDOAgent.GetListNamesAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IMDOAgent.GetListNamesAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IMDOAgent.html#SuperOffice_WebApi_Agents_IMDOAgent_GetListNamesAsync_SuperOffice_WebApi_RequestOptions_
   name: GetListNamesAsync
   nameWithType: IMDOAgent.GetListNamesAsync
   fullName: SuperOffice.WebApi.Agents.IMDOAgent.GetListNamesAsync
 - uid: System.Threading.Tasks.Task{System.String[]}
-  commentId: T:System.Threading.Tasks.Task{System.String[]}
-  parent: System.Threading.Tasks
+  commentId: '!:System.Threading.Tasks.Task{System.String[]}'
   definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<string[]>
-  nameWithType: Task<string[]>
-  fullName: System.Threading.Tasks.Task<string[]>
+  name: Task<String[]>
+  nameWithType: Task<String[]>
+  fullName: System.Threading.Tasks.Task<System.String[]>
   nameWithType.vb: Task(Of String())
-  fullName.vb: System.Threading.Tasks.Task(Of String())
+  fullName.vb: System.Threading.Tasks.Task(Of System.String())
   name.vb: Task(Of String())
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: (
+  - name: ()
+    nameWithType: ()
+    fullName: ()
   - name: )
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.IMDOAgent.GetListIdByListNameAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IMDOAgent.GetListIdByListNameAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IMDOAgent.html#SuperOffice_WebApi_Agents_IMDOAgent_GetListIdByListNameAsync_System_String_SuperOffice_WebApi_RequestOptions_
   name: GetListIdByListNameAsync
   nameWithType: IMDOAgent.GetListIdByListNameAsync
   fullName: SuperOffice.WebApi.Agents.IMDOAgent.GetListIdByListNameAsync
 - uid: System.Threading.Tasks.Task{System.Int32}
-  commentId: T:System.Threading.Tasks.Task{System.Int32}
-  parent: System.Threading.Tasks
+  commentId: '!:System.Threading.Tasks.Task{System.Int32}'
   definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<int>
-  nameWithType: Task<int>
-  fullName: System.Threading.Tasks.Task<int>
-  nameWithType.vb: Task(Of Integer)
-  fullName.vb: System.Threading.Tasks.Task(Of Integer)
-  name.vb: Task(Of Integer)
+  name: Task<Int32>
+  nameWithType: Task<Int32>
+  fullName: System.Threading.Tasks.Task<System.Int32>
+  nameWithType.vb: Task(Of Int32)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Int32)
+  name.vb: Task(Of Int32)
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.IMDOAgent.GetSelectableSimpleListAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IMDOAgent.GetSelectableSimpleListAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IMDOAgent.html#SuperOffice_WebApi_Agents_IMDOAgent_GetSelectableSimpleListAsync_System_String_SuperOffice_WebApi_RequestOptions_
   name: GetSelectableSimpleListAsync
   nameWithType: IMDOAgent.GetSelectableSimpleListAsync
   fullName: SuperOffice.WebApi.Agents.IMDOAgent.GetSelectableSimpleListAsync
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.SelectableMDOListItem[]}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.SelectableMDOListItem[]}
-  parent: System.Threading.Tasks
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.SelectableMDOListItem[]}'
   definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<SelectableMDOListItem[]>
   nameWithType: Task<SelectableMDOListItem[]>
   fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.SelectableMDOListItem[]>
@@ -936,62 +850,69 @@ references:
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.WebApi.Data.SelectableMDOListItem
     name: SelectableMDOListItem
+    nameWithType: SelectableMDOListItem
+    fullName: SuperOffice.WebApi.Data.SelectableMDOListItem
     isExternal: true
-    href: SuperOffice.WebApi.Data.SelectableMDOListItem.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.WebApi.Data.SelectableMDOListItem
     name: SelectableMDOListItem
+    nameWithType: SelectableMDOListItem
+    fullName: SuperOffice.WebApi.Data.SelectableMDOListItem
     isExternal: true
-    href: SuperOffice.WebApi.Data.SelectableMDOListItem.html
-  - name: (
+  - name: ()
+    nameWithType: ()
+    fullName: ()
   - name: )
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.IMDOAgent.GetSelectableListWithRestrictionAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IMDOAgent.GetSelectableListWithRestrictionAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IMDOAgent.html#SuperOffice_WebApi_Agents_IMDOAgent_GetSelectableListWithRestrictionAsync_System_String_System_String_System_String_SuperOffice_WebApi_RequestOptions_
   name: GetSelectableListWithRestrictionAsync
   nameWithType: IMDOAgent.GetSelectableListWithRestrictionAsync
   fullName: SuperOffice.WebApi.Agents.IMDOAgent.GetSelectableListWithRestrictionAsync
 - uid: SuperOffice.WebApi.Agents.IMDOAgent.GetSelectableListWithHistoryAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IMDOAgent.GetSelectableListWithHistoryAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IMDOAgent.html#SuperOffice_WebApi_Agents_IMDOAgent_GetSelectableListWithHistoryAsync_System_String_System_Boolean_System_String_System_Int32___System_Boolean_SuperOffice_WebApi_RequestOptions_
   name: GetSelectableListWithHistoryAsync
   nameWithType: IMDOAgent.GetSelectableListWithHistoryAsync
   fullName: SuperOffice.WebApi.Agents.IMDOAgent.GetSelectableListWithHistoryAsync
 - uid: SuperOffice.WebApi.Agents.IMDOAgent.GetSelectableListAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IMDOAgent.GetSelectableListAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IMDOAgent.html#SuperOffice_WebApi_Agents_IMDOAgent_GetSelectableListAsync_System_String_System_Boolean_System_String_System_Boolean_SuperOffice_WebApi_RequestOptions_
   name: GetSelectableListAsync
   nameWithType: IMDOAgent.GetSelectableListAsync
   fullName: SuperOffice.WebApi.Agents.IMDOAgent.GetSelectableListAsync
 - uid: SuperOffice.WebApi.Agents.IMDOAgent.SetSelectedAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IMDOAgent.SetSelectedAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IMDOAgent.html#SuperOffice_WebApi_Agents_IMDOAgent_SetSelectedAsync_System_String_System_String_SuperOffice_WebApi_Data_SelectableMDOListItem___SuperOffice_WebApi_RequestOptions_
   name: SetSelectedAsync
   nameWithType: IMDOAgent.SetSelectedAsync
   fullName: SuperOffice.WebApi.Agents.IMDOAgent.SetSelectedAsync
 - uid: SuperOffice.WebApi.Data.SelectableMDOListItem[]
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectableMDOListItem.html
   name: SelectableMDOListItem[]
   nameWithType: SelectableMDOListItem[]
   fullName: SuperOffice.WebApi.Data.SelectableMDOListItem[]
@@ -1001,14 +922,18 @@ references:
   spec.csharp:
   - uid: SuperOffice.WebApi.Data.SelectableMDOListItem
     name: SelectableMDOListItem
+    nameWithType: SelectableMDOListItem
+    fullName: SuperOffice.WebApi.Data.SelectableMDOListItem
     isExternal: true
-    href: SuperOffice.WebApi.Data.SelectableMDOListItem.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.WebApi.Data.SelectableMDOListItem
     name: SelectableMDOListItem
+    nameWithType: SelectableMDOListItem
+    fullName: SuperOffice.WebApi.Data.SelectableMDOListItem
     isExternal: true
-    href: SuperOffice.WebApi.Data.SelectableMDOListItem.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()

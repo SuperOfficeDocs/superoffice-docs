@@ -13,22 +13,27 @@ items:
   nameWithType: ICustomWebhookPlugin
   fullName: SuperOffice.CRM.Webhooks.ICustomWebhookPlugin
   type: Interface
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Webhooks
-  summary: >-
-    Webhooks for custom systems. There may be several of these per system - these are not prioritized.
-
-    All of them are instantiated and processed by the webhook dispatcher <xref href="SuperOffice.CRM.Webhooks.WebhookManager" data-throw-if-not-resolved="false"></xref>.
-
-    Plugins must be marked with the <xref href="SuperOffice.CRM.Webhooks.CustomWebhookPluginAttribute" data-throw-if-not-resolved="false"></xref> to be found by the class factory.
-  example: []
+  summary: "\nWebhooks for custom systems. There may be several of these per system - these are not prioritized.\nAll of them are instantiated and processed by the webhook dispatcher <xref href=\"SuperOffice.CRM.Webhooks.WebhookManager\" data-throw-if-not-resolved=\"false\"></xref>.\nPlugins must be marked with the <xref href=\"SuperOffice.CRM.Webhooks.CustomWebhookPluginAttribute\" data-throw-if-not-resolved=\"false\"></xref> to be found by the class factory.\n"
   syntax:
-    content: public interface ICustomWebhookPlugin
-    content.vb: Public Interface ICustomWebhookPlugin
+    content: 'public interface ICustomWebhookPlugin : IPlugin'
+    content.vb: >-
+      Public Interface ICustomWebhookPlugin
+          Inherits IPlugin
   extensionMethods:
   - SuperOffice.CRM.Webhooks.ICustomWebhookPlugin.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Webhooks.ICustomWebhookPlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
 - uid: SuperOffice.CRM.Webhooks.ICustomWebhookPlugin.Notify(SuperOffice.CRM.Webhooks.Webhook,SuperOffice.CRM.Webhooks.WebhookPayload)
   commentId: M:SuperOffice.CRM.Webhooks.ICustomWebhookPlugin.Notify(SuperOffice.CRM.Webhooks.Webhook,SuperOffice.CRM.Webhooks.WebhookPayload)
   id: Notify(SuperOffice.CRM.Webhooks.Webhook,SuperOffice.CRM.Webhooks.WebhookPayload)
@@ -40,11 +45,13 @@ items:
   nameWithType: ICustomWebhookPlugin.Notify(Webhook, WebhookPayload)
   fullName: SuperOffice.CRM.Webhooks.ICustomWebhookPlugin.Notify(SuperOffice.CRM.Webhooks.Webhook, SuperOffice.CRM.Webhooks.WebhookPayload)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Webhooks
-  summary: Broadcast the event to all subscribers, and mark failures/success status on the passed webhook objects.
-  example: []
+  summary: "\nBroadcast the event to all subscribers, and mark failures/success status on the passed webhook objects.\n"
   syntax:
     content: WebhookResponse Notify(Webhook webhook, WebhookPayload eventInfo)
     parameters:
@@ -60,169 +67,83 @@ items:
     content.vb: Function Notify(webhook As Webhook, eventInfo As WebhookPayload) As WebhookResponse
   overload: SuperOffice.CRM.Webhooks.ICustomWebhookPlugin.Notify*
 references:
-- uid: SuperOffice.CRM.Webhooks.WebhookManager
-  commentId: T:SuperOffice.CRM.Webhooks.WebhookManager
-  parent: SuperOffice.CRM.Webhooks
-  isExternal: true
-  href: SuperOffice.CRM.Webhooks.WebhookManager.html
-  name: WebhookManager
-  nameWithType: WebhookManager
-  fullName: SuperOffice.CRM.Webhooks.WebhookManager
-- uid: SuperOffice.CRM.Webhooks.CustomWebhookPluginAttribute
-  commentId: T:SuperOffice.CRM.Webhooks.CustomWebhookPluginAttribute
-  parent: SuperOffice.CRM.Webhooks
-  isExternal: true
-  href: SuperOffice.CRM.Webhooks.CustomWebhookPluginAttribute.html
-  name: CustomWebhookPluginAttribute
-  nameWithType: CustomWebhookPluginAttribute
-  fullName: SuperOffice.CRM.Webhooks.CustomWebhookPluginAttribute
 - uid: SuperOffice.CRM.Webhooks
   commentId: N:SuperOffice.CRM.Webhooks
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Webhooks
   nameWithType: SuperOffice.CRM.Webhooks
   fullName: SuperOffice.CRM.Webhooks
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Webhooks
-    name: Webhooks
-    isExternal: true
-    href: SuperOffice.CRM.Webhooks.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Webhooks
-    name: Webhooks
-    isExternal: true
-    href: SuperOffice.CRM.Webhooks.html
 - uid: SuperOffice.CRM.Webhooks.ICustomWebhookPlugin.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<ICustomWebhookPlugin, To>(ICustomWebhookPlugin)
-  nameWithType: EnumUtil.MapEnums<ICustomWebhookPlugin, To>(ICustomWebhookPlugin)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Webhooks.ICustomWebhookPlugin, To>(SuperOffice.CRM.Webhooks.ICustomWebhookPlugin)
-  nameWithType.vb: EnumUtil.MapEnums(Of ICustomWebhookPlugin, To)(ICustomWebhookPlugin)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Webhooks.ICustomWebhookPlugin, To)(SuperOffice.CRM.Webhooks.ICustomWebhookPlugin)
-  name.vb: MapEnums(Of ICustomWebhookPlugin, To)(ICustomWebhookPlugin)
+  name: MapEnums<ICustomWebhookPlugin, To>()
+  nameWithType: EnumUtil.MapEnums<ICustomWebhookPlugin, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Webhooks.ICustomWebhookPlugin, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ICustomWebhookPlugin, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Webhooks.ICustomWebhookPlugin, To)()
+  name.vb: MapEnums(Of ICustomWebhookPlugin, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Webhooks.ICustomWebhookPlugin)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ICustomWebhookPlugin, To>
+    nameWithType: EnumUtil.MapEnums<ICustomWebhookPlugin, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Webhooks.ICustomWebhookPlugin, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Webhooks.ICustomWebhookPlugin
-    name: ICustomWebhookPlugin
-    isExternal: true
-    href: SuperOffice.CRM.Webhooks.ICustomWebhookPlugin.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Webhooks.ICustomWebhookPlugin
-    name: ICustomWebhookPlugin
-    isExternal: true
-    href: SuperOffice.CRM.Webhooks.ICustomWebhookPlugin.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Webhooks.ICustomWebhookPlugin)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ICustomWebhookPlugin, To)
+    nameWithType: EnumUtil.MapEnums(Of ICustomWebhookPlugin, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Webhooks.ICustomWebhookPlugin, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Webhooks.ICustomWebhookPlugin
-    name: ICustomWebhookPlugin
-    isExternal: true
-    href: SuperOffice.CRM.Webhooks.ICustomWebhookPlugin.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Webhooks.ICustomWebhookPlugin
-    name: ICustomWebhookPlugin
-    isExternal: true
-    href: SuperOffice.CRM.Webhooks.ICustomWebhookPlugin.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Webhooks.ICustomWebhookPlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<ICustomWebhookPlugin, To>(ICustomWebhookPlugin)
-  nameWithType: Converters.MapEnums<ICustomWebhookPlugin, To>(ICustomWebhookPlugin)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Webhooks.ICustomWebhookPlugin, To>(SuperOffice.CRM.Webhooks.ICustomWebhookPlugin)
-  nameWithType.vb: Converters.MapEnums(Of ICustomWebhookPlugin, To)(ICustomWebhookPlugin)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Webhooks.ICustomWebhookPlugin, To)(SuperOffice.CRM.Webhooks.ICustomWebhookPlugin)
-  name.vb: MapEnums(Of ICustomWebhookPlugin, To)(ICustomWebhookPlugin)
+  name: MapEnums<ICustomWebhookPlugin, To>()
+  nameWithType: Converters.MapEnums<ICustomWebhookPlugin, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Webhooks.ICustomWebhookPlugin, To>()
+  nameWithType.vb: Converters.MapEnums(Of ICustomWebhookPlugin, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Webhooks.ICustomWebhookPlugin, To)()
+  name.vb: MapEnums(Of ICustomWebhookPlugin, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Webhooks.ICustomWebhookPlugin)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ICustomWebhookPlugin, To>
+    nameWithType: Converters.MapEnums<ICustomWebhookPlugin, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Webhooks.ICustomWebhookPlugin, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Webhooks.ICustomWebhookPlugin
-    name: ICustomWebhookPlugin
-    isExternal: true
-    href: SuperOffice.CRM.Webhooks.ICustomWebhookPlugin.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Webhooks.ICustomWebhookPlugin
-    name: ICustomWebhookPlugin
-    isExternal: true
-    href: SuperOffice.CRM.Webhooks.ICustomWebhookPlugin.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Webhooks.ICustomWebhookPlugin)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ICustomWebhookPlugin, To)
+    nameWithType: Converters.MapEnums(Of ICustomWebhookPlugin, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Webhooks.ICustomWebhookPlugin, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Webhooks.ICustomWebhookPlugin
-    name: ICustomWebhookPlugin
-    isExternal: true
-    href: SuperOffice.CRM.Webhooks.ICustomWebhookPlugin.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Webhooks.ICustomWebhookPlugin
-    name: ICustomWebhookPlugin
-    isExternal: true
-    href: SuperOffice.CRM.Webhooks.ICustomWebhookPlugin.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -231,45 +152,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -278,83 +197,50 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.CRM.Webhooks.ICustomWebhookPlugin.Notify*
   commentId: Overload:SuperOffice.CRM.Webhooks.ICustomWebhookPlugin.Notify
   isExternal: true
-  href: SuperOffice.CRM.Webhooks.ICustomWebhookPlugin.html#SuperOffice_CRM_Webhooks_ICustomWebhookPlugin_Notify_SuperOffice_CRM_Webhooks_Webhook_SuperOffice_CRM_Webhooks_WebhookPayload_
   name: Notify
   nameWithType: ICustomWebhookPlugin.Notify
   fullName: SuperOffice.CRM.Webhooks.ICustomWebhookPlugin.Notify
@@ -362,7 +248,6 @@ references:
   commentId: T:SuperOffice.CRM.Webhooks.Webhook
   parent: SuperOffice.CRM.Webhooks
   isExternal: true
-  href: SuperOffice.CRM.Webhooks.Webhook.html
   name: Webhook
   nameWithType: Webhook
   fullName: SuperOffice.CRM.Webhooks.Webhook
@@ -370,7 +255,6 @@ references:
   commentId: T:SuperOffice.CRM.Webhooks.WebhookPayload
   parent: SuperOffice.CRM.Webhooks
   isExternal: true
-  href: SuperOffice.CRM.Webhooks.WebhookPayload.html
   name: WebhookPayload
   nameWithType: WebhookPayload
   fullName: SuperOffice.CRM.Webhooks.WebhookPayload
@@ -378,7 +262,6 @@ references:
   commentId: T:SuperOffice.CRM.Webhooks.WebhookResponse
   parent: SuperOffice.CRM.Webhooks
   isExternal: true
-  href: SuperOffice.CRM.Webhooks.WebhookResponse.html
   name: WebhookResponse
   nameWithType: WebhookResponse
   fullName: SuperOffice.CRM.Webhooks.WebhookResponse

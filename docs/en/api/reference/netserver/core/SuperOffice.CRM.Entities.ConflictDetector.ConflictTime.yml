@@ -17,26 +17,29 @@ items:
   nameWithType: ConflictDetector.ConflictTime
   fullName: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: Information about start and end time of an appointment to find conflicts for.
-  example: []
+  summary: "\nInformation about start and end time of an appointment to find conflicts for.\n"
   syntax:
-    content: public class ConflictDetector.ConflictTime
-    content.vb: Public Class ConflictDetector.ConflictTime
+    content: 'public class ConflictTime : Object'
+    content.vb: >-
+      Public Class ConflictTime
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.#ctor(System.DateTime,System.DateTime)
   commentId: M:SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.#ctor(System.DateTime,System.DateTime)
   id: '#ctor(System.DateTime,System.DateTime)'
@@ -48,11 +51,13 @@ items:
   nameWithType: ConflictDetector.ConflictTime.ConflictTime(DateTime, DateTime)
   fullName: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.ConflictTime(System.DateTime, System.DateTime)
   type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: Default constructor for a descriptor for the times to detect conflict for.
-  example: []
+  summary: "\nDefault constructor for a descriptor for the times to detect conflict for.\n"
   syntax:
     content: public ConflictTime(DateTime startTime, DateTime endTime)
     parameters:
@@ -62,11 +67,12 @@ items:
     - id: endTime
       type: System.DateTime
       description: End time (i.e. both date and time) for the appointment.
-    content.vb: Public Sub New(startTime As Date, endTime As Date)
+    content.vb: Public Sub New(startTime As DateTime, endTime As DateTime)
   overload: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.#ctor*
-  nameWithType.vb: ConflictDetector.ConflictTime.New(Date, Date)
-  fullName.vb: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.New(Date, Date)
-  name.vb: New(Date, Date)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.ToString
   commentId: M:SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.ToString
   id: ToString
@@ -78,19 +84,25 @@ items:
   nameWithType: ConflictDetector.ConflictTime.ToString()
   fullName: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.ToString()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: ToString method for debugging
-  example: []
+  summary: "\nToString method for debugging\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
-      description: ''
-    content.vb: Public Overrides Function ToString() As String
-  overridden: System.Object.ToString
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.ToShortDateTimeString
   commentId: M:SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.ToShortDateTimeString
   id: ToShortDateTimeString
@@ -102,6 +114,9 @@ items:
   nameWithType: ConflictDetector.ConflictTime.ToShortDateTimeString()
   fullName: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.ToShortDateTimeString()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
@@ -109,8 +124,12 @@ items:
     content: public string ToShortDateTimeString()
     return:
       type: System.String
-    content.vb: Public Function ToShortDateTimeString() As String
+    content.vb: Public Function ToShortDateTimeString As String
   overload: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.ToShortDateTimeString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.StartTime
   commentId: P:SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.StartTime
   id: StartTime
@@ -122,18 +141,26 @@ items:
   nameWithType: ConflictDetector.ConflictTime.StartTime
   fullName: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.StartTime
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: Get start time (i.e. both date and time) for the appointment.
-  example: []
+  summary: "\nGet start time (i.e. both date and time) for the appointment.\n"
   syntax:
     content: public DateTime StartTime { get; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public ReadOnly Property StartTime As Date
+    content.vb: Public ReadOnly Property StartTime As DateTime
   overload: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.StartTime*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.EndTime
   commentId: P:SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.EndTime
   id: EndTime
@@ -145,379 +172,117 @@ items:
   nameWithType: ConflictDetector.ConflictTime.EndTime
   fullName: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.EndTime
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: Get end time (i.e. both date and time) for the appointment.
-  example: []
+  summary: "\nGet end time (i.e. both date and time) for the appointment.\n"
   syntax:
     content: public DateTime EndTime { get; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public ReadOnly Property EndTime As Date
+    content.vb: Public ReadOnly Property EndTime As DateTime
   overload: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.EndTime*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 references:
 - uid: SuperOffice.CRM.Entities
   commentId: N:SuperOffice.CRM.Entities
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Entities
   nameWithType: SuperOffice.CRM.Entities
   fullName: SuperOffice.CRM.Entities
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Entities
-    name: Entities
-    isExternal: true
-    href: SuperOffice.CRM.Entities.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Entities
-    name: Entities
-    isExternal: true
-    href: SuperOffice.CRM.Entities.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<ConflictTime, To>(ConflictTime)
-  nameWithType: EnumUtil.MapEnums<ConflictDetector.ConflictTime, To>(ConflictDetector.ConflictTime)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.ConflictDetector.ConflictTime, To>(SuperOffice.CRM.Entities.ConflictDetector.ConflictTime)
-  nameWithType.vb: EnumUtil.MapEnums(Of ConflictDetector.ConflictTime, To)(ConflictDetector.ConflictTime)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.ConflictDetector.ConflictTime, To)(SuperOffice.CRM.Entities.ConflictDetector.ConflictTime)
-  name.vb: MapEnums(Of ConflictTime, To)(ConflictTime)
+  name: MapEnums<ConflictDetector.ConflictTime, To>()
+  nameWithType: EnumUtil.MapEnums<ConflictDetector.ConflictTime, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.ConflictDetector.ConflictTime, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ConflictDetector.ConflictTime, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.ConflictDetector.ConflictTime, To)()
+  name.vb: MapEnums(Of ConflictDetector.ConflictTime, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Entities.ConflictDetector.ConflictTime)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ConflictDetector.ConflictTime, To>
+    nameWithType: EnumUtil.MapEnums<ConflictDetector.ConflictTime, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.ConflictDetector.ConflictTime, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime
-    name: ConflictTime
-    isExternal: true
-    href: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime
-    name: ConflictTime
-    isExternal: true
-    href: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Entities.ConflictDetector.ConflictTime)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ConflictDetector.ConflictTime, To)
+    nameWithType: EnumUtil.MapEnums(Of ConflictDetector.ConflictTime, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.ConflictDetector.ConflictTime, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime
-    name: ConflictTime
-    isExternal: true
-    href: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime
-    name: ConflictTime
-    isExternal: true
-    href: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<ConflictTime, To>(ConflictTime)
-  nameWithType: Converters.MapEnums<ConflictDetector.ConflictTime, To>(ConflictDetector.ConflictTime)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.ConflictDetector.ConflictTime, To>(SuperOffice.CRM.Entities.ConflictDetector.ConflictTime)
-  nameWithType.vb: Converters.MapEnums(Of ConflictDetector.ConflictTime, To)(ConflictDetector.ConflictTime)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.ConflictDetector.ConflictTime, To)(SuperOffice.CRM.Entities.ConflictDetector.ConflictTime)
-  name.vb: MapEnums(Of ConflictTime, To)(ConflictTime)
+  name: MapEnums<ConflictDetector.ConflictTime, To>()
+  nameWithType: Converters.MapEnums<ConflictDetector.ConflictTime, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.ConflictDetector.ConflictTime, To>()
+  nameWithType.vb: Converters.MapEnums(Of ConflictDetector.ConflictTime, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.ConflictDetector.ConflictTime, To)()
+  name.vb: MapEnums(Of ConflictDetector.ConflictTime, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Entities.ConflictDetector.ConflictTime)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ConflictDetector.ConflictTime, To>
+    nameWithType: Converters.MapEnums<ConflictDetector.ConflictTime, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.ConflictDetector.ConflictTime, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime
-    name: ConflictTime
-    isExternal: true
-    href: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime
-    name: ConflictTime
-    isExternal: true
-    href: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Entities.ConflictDetector.ConflictTime)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ConflictDetector.ConflictTime, To)
+    nameWithType: Converters.MapEnums(Of ConflictDetector.ConflictTime, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.ConflictDetector.ConflictTime, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime
-    name: ConflictTime
-    isExternal: true
-    href: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime
-    name: ConflictTime
-    isExternal: true
-    href: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -526,45 +291,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -573,128 +336,61 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.#ctor*
   commentId: Overload:SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.html#SuperOffice_CRM_Entities_ConflictDetector_ConflictTime__ctor_System_DateTime_System_DateTime_
   name: ConflictTime
   nameWithType: ConflictDetector.ConflictTime.ConflictTime
   fullName: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.ConflictTime
-  nameWithType.vb: ConflictDetector.ConflictTime.New
-  fullName.vb: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.New
-  name.vb: New
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
 - uid: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.ToString*
   commentId: Overload:SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.ToString
   isExternal: true
-  href: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.html#SuperOffice_CRM_Entities_ConflictDetector_ConflictTime_ToString
   name: ToString
   nameWithType: ConflictDetector.ConflictTime.ToString
   fullName: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.ToString
@@ -702,31 +398,24 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.ToShortDateTimeString*
   commentId: Overload:SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.ToShortDateTimeString
   isExternal: true
-  href: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.html#SuperOffice_CRM_Entities_ConflictDetector_ConflictTime_ToShortDateTimeString
   name: ToShortDateTimeString
   nameWithType: ConflictDetector.ConflictTime.ToShortDateTimeString
   fullName: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.ToShortDateTimeString
 - uid: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.StartTime*
   commentId: Overload:SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.StartTime
   isExternal: true
-  href: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.html#SuperOffice_CRM_Entities_ConflictDetector_ConflictTime_StartTime
   name: StartTime
   nameWithType: ConflictDetector.ConflictTime.StartTime
   fullName: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.StartTime
 - uid: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.EndTime*
   commentId: Overload:SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.EndTime
   isExternal: true
-  href: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.html#SuperOffice_CRM_Entities_ConflictDetector_ConflictTime_EndTime
   name: EndTime
   nameWithType: ConflictDetector.ConflictTime.EndTime
   fullName: SuperOffice.CRM.Entities.ConflictDetector.ConflictTime.EndTime

@@ -16,46 +16,34 @@ items:
   nameWithType: PersonRankHelper
   fullName: SuperOffice.CRM.Rows.PersonRankHelper
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Helper class to handle issues around the Rank field of the Person row
-  remarks: >-
-    Persons that belong to one contact should have a monotonically increasing set of rank values, starting with 1.
-
-    In order to move a person to a lower (earlier) rank, it is swapped with its neighbour; or if the move takes it
-
-    further, all intervening persons also get their ranks changed.
-
-    <p></p>
-
-    This class contains methods to shift a person one step up or down; set a given rank value;
-
-    and normalize (clean up) the ranks for a given contact, in case they have become inconsistent.
-
-    <p></p>
-
-    The person with rank 1 (and there should only be one!) has a special function and is used in many cases,
-
-    such as when 'add first person' in selection is used.
-  example: []
+  summary: "\nHelper class to handle issues around the Rank field of the Person row\n"
+  remarks: "\nPersons that belong to one contact should have a monotonically increasing set of rank values, starting with 1.\nIn order to move a person to a lower (earlier) rank, it is swapped with its neighbour; or if the move takes it\nfurther, all intervening persons also get their ranks changed.\n<p></p>\nThis class contains methods to shift a person one step up or down; set a given rank value;\nand normalize (clean up) the ranks for a given contact, in case they have become inconsistent.\n<p></p>\nThe person with rank 1 (and there should only be one!) has a special function and is used in many cases,\nsuch as when &apos;add first person&apos; in selection is used.\n"
   syntax:
-    content: public sealed class PersonRankHelper
-    content.vb: Public NotInheritable Class PersonRankHelper
+    content: 'public sealed class PersonRankHelper : Object'
+    content.vb: >-
+      Public NotInheritable Class PersonRankHelper
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
   extensionMethods:
   - SuperOffice.CRM.Rows.PersonRankHelper.EnumUtil.MapEnums``2
-  - SuperOffice.CRM.Rows.PersonRankHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.CRM.Rows.PersonRankHelper.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.PersonRankHelper)
   - SuperOffice.CRM.Rows.PersonRankHelper.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Rows.PersonRankHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
 - uid: SuperOffice.CRM.Rows.PersonRankHelper.#ctor
   commentId: M:SuperOffice.CRM.Rows.PersonRankHelper.#ctor
   id: '#ctor'
@@ -67,16 +55,20 @@ items:
   nameWithType: PersonRankHelper.PersonRankHelper()
   fullName: SuperOffice.CRM.Rows.PersonRankHelper.PersonRankHelper()
   type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
     content: public PersonRankHelper()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Rows.PersonRankHelper.#ctor*
-  nameWithType.vb: PersonRankHelper.New()
-  fullName.vb: SuperOffice.CRM.Rows.PersonRankHelper.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.PersonRankHelper.ChangePersonRank(System.Int32,System.Boolean)
   commentId: M:SuperOffice.CRM.Rows.PersonRankHelper.ChangePersonRank(System.Int32,System.Boolean)
   id: ChangePersonRank(System.Int32,System.Boolean)
@@ -84,15 +76,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ChangePersonRank(int, bool)
-  nameWithType: PersonRankHelper.ChangePersonRank(int, bool)
-  fullName: SuperOffice.CRM.Rows.PersonRankHelper.ChangePersonRank(int, bool)
+  name: ChangePersonRank(Int32, Boolean)
+  nameWithType: PersonRankHelper.ChangePersonRank(Int32, Boolean)
+  fullName: SuperOffice.CRM.Rows.PersonRankHelper.ChangePersonRank(System.Int32, System.Boolean)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Move one person up or down in the ranking in the Person Archive, if possible.<p></p>The person record that has rank = 1 is the primary contact for a company, and is the one used in situations where no person has been explicitly chosen (such as in selections).<p></p>This method corresponds to the move up/move down functions in the person archive in the contact panel.<p></p>This method always affects two records.
-  example: []
+  summary: "\nMove one person up or down in the ranking in the Person Archive, if possible.<p></p>The person record that has rank = 1 is the primary contact for a company, and is the one used in situations where no person has been explicitly chosen (such as in selections).<p></p>This method corresponds to the move up/move down functions in the person archive in the contact panel.<p></p>This method always affects two records.\n"
   syntax:
     content: public int ChangePersonRank(int personId, bool moveUp)
     parameters:
@@ -107,9 +101,10 @@ items:
       description: If movement occurred, the return value will be the ID of the OTHER person that got moved. A GUI should switch the positions of the original person ID and this return value.<p></p>If no movement occurred, for any reason,  0 is returned.
     content.vb: Public Function ChangePersonRank(personId As Integer, moveUp As Boolean) As Integer
   overload: SuperOffice.CRM.Rows.PersonRankHelper.ChangePersonRank*
-  nameWithType.vb: PersonRankHelper.ChangePersonRank(Integer, Boolean)
-  fullName.vb: SuperOffice.CRM.Rows.PersonRankHelper.ChangePersonRank(Integer, Boolean)
-  name.vb: ChangePersonRank(Integer, Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.PersonRankHelper.SetPersonRank(System.Int32,System.Int16)
   commentId: M:SuperOffice.CRM.Rows.PersonRankHelper.SetPersonRank(System.Int32,System.Int16)
   id: SetPersonRank(System.Int32,System.Int16)
@@ -117,15 +112,17 @@ items:
   langs:
   - csharp
   - vb
-  name: SetPersonRank(int, short)
-  nameWithType: PersonRankHelper.SetPersonRank(int, short)
-  fullName: SuperOffice.CRM.Rows.PersonRankHelper.SetPersonRank(int, short)
+  name: SetPersonRank(Int32, Int16)
+  nameWithType: PersonRankHelper.SetPersonRank(Int32, Int16)
+  fullName: SuperOffice.CRM.Rows.PersonRankHelper.SetPersonRank(System.Int32, System.Int16)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Directly set the rank field of a person record, adjusting all other person records under the same contact as needed.<p></p>This call may affect multiple records, potentially all person records belonging to one contact.<p></p>You must have write access for to affected records for this method to succeed.
-  example: []
+  summary: "\nDirectly set the rank field of a person record, adjusting all other person records under the same contact as needed.<p></p>This call may affect multiple records, potentially all person records belonging to one contact.<p></p>You must have write access for to affected records for this method to succeed.\n"
   syntax:
     content: public bool SetPersonRank(int personId, short desiredRank)
     parameters:
@@ -137,12 +134,13 @@ items:
       description: Desired rank to set, legal values are from 1 to the number of person records on this contact. Out of range values will be moved to the closest valid value and processed.
     return:
       type: System.Boolean
-      description: If movement occurred, or the person already had exactly the desired rank value, then the return value will be true. If movement did not occur, for any other reason, the return value is false.
+      description: 'If movement occurred, or the person already had exactly the desired rank value, then the return value will be true. If movement did not occur, for any other reason, the return value is false. '
     content.vb: Public Function SetPersonRank(personId As Integer, desiredRank As Short) As Boolean
   overload: SuperOffice.CRM.Rows.PersonRankHelper.SetPersonRank*
-  nameWithType.vb: PersonRankHelper.SetPersonRank(Integer, Short)
-  fullName.vb: SuperOffice.CRM.Rows.PersonRankHelper.SetPersonRank(Integer, Short)
-  name.vb: SetPersonRank(Integer, Short)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.PersonRankHelper.NormalizeRanks(System.Int32)
   commentId: M:SuperOffice.CRM.Rows.PersonRankHelper.NormalizeRanks(System.Int32)
   id: NormalizeRanks(System.Int32)
@@ -150,15 +148,17 @@ items:
   langs:
   - csharp
   - vb
-  name: NormalizeRanks(int)
-  nameWithType: PersonRankHelper.NormalizeRanks(int)
-  fullName: SuperOffice.CRM.Rows.PersonRankHelper.NormalizeRanks(int)
+  name: NormalizeRanks(Int32)
+  nameWithType: PersonRankHelper.NormalizeRanks(Int32)
+  fullName: SuperOffice.CRM.Rows.PersonRankHelper.NormalizeRanks(System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Nomralize the ranks for all persons that belong to a contact. This means that the persons will be sorted according to their current rank values, and the ranks will be made monotonically increasing from 1.
-  example: []
+  summary: "\nNomralize the ranks for all persons that belong to a contact. This means that the persons will be sorted according to their current rank values, and the ranks will be made monotonically increasing from 1.\n"
   syntax:
     content: public bool NormalizeRanks(int contactId)
     parameters:
@@ -170,476 +170,179 @@ items:
       description: The reutrn value is true if the operation suceeded, either because all persons were already normalized, or because normalization was done. It is false if Sentry blocks any required changes.
     content.vb: Public Function NormalizeRanks(contactId As Integer) As Boolean
   overload: SuperOffice.CRM.Rows.PersonRankHelper.NormalizeRanks*
-  nameWithType.vb: PersonRankHelper.NormalizeRanks(Integer)
-  fullName.vb: SuperOffice.CRM.Rows.PersonRankHelper.NormalizeRanks(Integer)
-  name.vb: NormalizeRanks(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 references:
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows
-    name: Rows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows
-    name: Rows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.Rows.PersonRankHelper.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<PersonRankHelper, To>(PersonRankHelper)
-  nameWithType: EnumUtil.MapEnums<PersonRankHelper, To>(PersonRankHelper)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.PersonRankHelper, To>(SuperOffice.CRM.Rows.PersonRankHelper)
-  nameWithType.vb: EnumUtil.MapEnums(Of PersonRankHelper, To)(PersonRankHelper)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.PersonRankHelper, To)(SuperOffice.CRM.Rows.PersonRankHelper)
-  name.vb: MapEnums(Of PersonRankHelper, To)(PersonRankHelper)
+  name: MapEnums<PersonRankHelper, To>()
+  nameWithType: EnumUtil.MapEnums<PersonRankHelper, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.PersonRankHelper, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of PersonRankHelper, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.PersonRankHelper, To)()
+  name.vb: MapEnums(Of PersonRankHelper, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Rows.PersonRankHelper)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<PersonRankHelper, To>
+    nameWithType: EnumUtil.MapEnums<PersonRankHelper, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.PersonRankHelper, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.PersonRankHelper
-    name: PersonRankHelper
-    isExternal: true
-    href: SuperOffice.CRM.Rows.PersonRankHelper.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Rows.PersonRankHelper
-    name: PersonRankHelper
-    isExternal: true
-    href: SuperOffice.CRM.Rows.PersonRankHelper.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Rows.PersonRankHelper)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of PersonRankHelper, To)
+    nameWithType: EnumUtil.MapEnums(Of PersonRankHelper, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.PersonRankHelper, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.PersonRankHelper
-    name: PersonRankHelper
-    isExternal: true
-    href: SuperOffice.CRM.Rows.PersonRankHelper.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.PersonRankHelper
-    name: PersonRankHelper
-    isExternal: true
-    href: SuperOffice.CRM.Rows.PersonRankHelper.html
-  - name: )
-- uid: SuperOffice.CRM.Rows.PersonRankHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  parent: SuperOffice.ErpSync.ConnectorWS.Converters
-  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<PersonRankHelper, To>(PersonRankHelper)
-  nameWithType: Converters.MapEnums<PersonRankHelper, To>(PersonRankHelper)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.PersonRankHelper, To>(SuperOffice.CRM.Rows.PersonRankHelper)
-  nameWithType.vb: Converters.MapEnums(Of PersonRankHelper, To)(PersonRankHelper)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.PersonRankHelper, To)(SuperOffice.CRM.Rows.PersonRankHelper)
-  name.vb: MapEnums(Of PersonRankHelper, To)(PersonRankHelper)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Rows.PersonRankHelper)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.PersonRankHelper
-    name: PersonRankHelper
-    isExternal: true
-    href: SuperOffice.CRM.Rows.PersonRankHelper.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.CRM.Rows.PersonRankHelper
-    name: PersonRankHelper
-    isExternal: true
-    href: SuperOffice.CRM.Rows.PersonRankHelper.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Rows.PersonRankHelper)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.PersonRankHelper
-    name: PersonRankHelper
-    isExternal: true
-    href: SuperOffice.CRM.Rows.PersonRankHelper.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.PersonRankHelper
-    name: PersonRankHelper
-    isExternal: true
-    href: SuperOffice.CRM.Rows.PersonRankHelper.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.PersonRankHelper.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.PersonRankHelper)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<PersonRankHelper>(PersonRankHelper, PersonRankHelper)
-  nameWithType: ObjectExtensions.AssignByReflection<PersonRankHelper>(PersonRankHelper, PersonRankHelper)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.PersonRankHelper>(SuperOffice.CRM.Rows.PersonRankHelper, SuperOffice.CRM.Rows.PersonRankHelper)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of PersonRankHelper)(PersonRankHelper, PersonRankHelper)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.PersonRankHelper)(SuperOffice.CRM.Rows.PersonRankHelper, SuperOffice.CRM.Rows.PersonRankHelper)
-  name.vb: AssignByReflection(Of PersonRankHelper)(PersonRankHelper, PersonRankHelper)
+  name: AssignByReflection<PersonRankHelper>(PersonRankHelper)
+  nameWithType: ObjectExtensions.AssignByReflection<PersonRankHelper>(PersonRankHelper)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.PersonRankHelper>(SuperOffice.CRM.Rows.PersonRankHelper)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of PersonRankHelper)(PersonRankHelper)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.PersonRankHelper)(SuperOffice.CRM.Rows.PersonRankHelper)
+  name.vb: AssignByReflection(Of PersonRankHelper)(PersonRankHelper)
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.PersonRankHelper,SuperOffice.CRM.Rows.PersonRankHelper)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<PersonRankHelper>
+    nameWithType: ObjectExtensions.AssignByReflection<PersonRankHelper>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.PersonRankHelper>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.PersonRankHelper
-    name: PersonRankHelper
-    isExternal: true
-    href: SuperOffice.CRM.Rows.PersonRankHelper.html
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Rows.PersonRankHelper
     name: PersonRankHelper
+    nameWithType: PersonRankHelper
+    fullName: SuperOffice.CRM.Rows.PersonRankHelper
     isExternal: true
-    href: SuperOffice.CRM.Rows.PersonRankHelper.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.PersonRankHelper
-    name: PersonRankHelper
-    isExternal: true
-    href: SuperOffice.CRM.Rows.PersonRankHelper.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.PersonRankHelper,SuperOffice.CRM.Rows.PersonRankHelper)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of PersonRankHelper)
+    nameWithType: ObjectExtensions.AssignByReflection(Of PersonRankHelper)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.PersonRankHelper)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Rows.PersonRankHelper
     name: PersonRankHelper
+    nameWithType: PersonRankHelper
+    fullName: SuperOffice.CRM.Rows.PersonRankHelper
     isExternal: true
-    href: SuperOffice.CRM.Rows.PersonRankHelper.html
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.PersonRankHelper
-    name: PersonRankHelper
-    isExternal: true
-    href: SuperOffice.CRM.Rows.PersonRankHelper.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.PersonRankHelper
-    name: PersonRankHelper
-    isExternal: true
-    href: SuperOffice.CRM.Rows.PersonRankHelper.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.PersonRankHelper.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<PersonRankHelper>(PersonRankHelper)
-  nameWithType: ObjectExtensions.GraphCopy<PersonRankHelper>(PersonRankHelper)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.PersonRankHelper>(SuperOffice.CRM.Rows.PersonRankHelper)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of PersonRankHelper)(PersonRankHelper)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.PersonRankHelper)(SuperOffice.CRM.Rows.PersonRankHelper)
-  name.vb: GraphCopy(Of PersonRankHelper)(PersonRankHelper)
+  name: GraphCopy<PersonRankHelper>()
+  nameWithType: ObjectExtensions.GraphCopy<PersonRankHelper>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.PersonRankHelper>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of PersonRankHelper)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.PersonRankHelper)()
+  name.vb: GraphCopy(Of PersonRankHelper)()
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Rows.PersonRankHelper)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<PersonRankHelper>
+    nameWithType: ObjectExtensions.GraphCopy<PersonRankHelper>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.PersonRankHelper>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.PersonRankHelper
-    name: PersonRankHelper
-    isExternal: true
-    href: SuperOffice.CRM.Rows.PersonRankHelper.html
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Rows.PersonRankHelper
-    name: PersonRankHelper
-    isExternal: true
-    href: SuperOffice.CRM.Rows.PersonRankHelper.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Rows.PersonRankHelper)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of PersonRankHelper)
+    nameWithType: ObjectExtensions.GraphCopy(Of PersonRankHelper)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.PersonRankHelper)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.PersonRankHelper
-    name: PersonRankHelper
-    isExternal: true
-    href: SuperOffice.CRM.Rows.PersonRankHelper.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.PersonRankHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<PersonRankHelper, To>()
+  nameWithType: Converters.MapEnums<PersonRankHelper, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.PersonRankHelper, To>()
+  nameWithType.vb: Converters.MapEnums(Of PersonRankHelper, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.PersonRankHelper, To)()
+  name.vb: MapEnums(Of PersonRankHelper, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<PersonRankHelper, To>
+    nameWithType: Converters.MapEnums<PersonRankHelper, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.PersonRankHelper, To>
+    isExternal: true
   - name: (
-  - uid: SuperOffice.CRM.Rows.PersonRankHelper
-    name: PersonRankHelper
-    isExternal: true
-    href: SuperOffice.CRM.Rows.PersonRankHelper.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of PersonRankHelper, To)
+    nameWithType: Converters.MapEnums(Of PersonRankHelper, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.PersonRankHelper, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -648,93 +351,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<From, To>(From)
-  nameWithType: Converters.MapEnums<From, To>(From)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
-  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
-  name.vb: MapEnums(Of From, To)(From)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - name: From
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - name: From
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters
-  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
-  parent: SuperOffice.ErpSync.ConnectorWS
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
-  name: Converters
-  nameWithType: Converters
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   name: AssignByReflection<T>(T, T)
   nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
   fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
@@ -743,46 +396,56 @@ references:
   name.vb: AssignByReflection(Of T)(T, T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
-  - name: ','
-  - name: " "
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.ObjectExtensions
   commentId: T:SuperOffice.Util.ObjectExtensions
   parent: SuperOffice.Util
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
   name: ObjectExtensions
   nameWithType: ObjectExtensions
   fullName: SuperOffice.Util.ObjectExtensions
 - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   name: GraphCopy<T>(T)
   nameWithType: ObjectExtensions.GraphCopy<T>(T)
   fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
@@ -791,106 +454,101 @@ references:
   name.vb: GraphCopy(Of T)(T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS
-  commentId: N:SuperOffice.ErpSync.ConnectorWS
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.ErpSync.ConnectorWS
-  nameWithType: SuperOffice.ErpSync.ConnectorWS
-  fullName: SuperOffice.ErpSync.ConnectorWS
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
 - uid: SuperOffice.CRM.Rows.PersonRankHelper.#ctor*
   commentId: Overload:SuperOffice.CRM.Rows.PersonRankHelper.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Rows.PersonRankHelper.html#SuperOffice_CRM_Rows_PersonRankHelper__ctor
   name: PersonRankHelper
   nameWithType: PersonRankHelper.PersonRankHelper
   fullName: SuperOffice.CRM.Rows.PersonRankHelper.PersonRankHelper
-  nameWithType.vb: PersonRankHelper.New
-  fullName.vb: SuperOffice.CRM.Rows.PersonRankHelper.New
-  name.vb: New
 - uid: SuperOffice.CRM.Rows.PersonRankHelper.ChangePersonRank*
   commentId: Overload:SuperOffice.CRM.Rows.PersonRankHelper.ChangePersonRank
   isExternal: true
-  href: SuperOffice.CRM.Rows.PersonRankHelper.html#SuperOffice_CRM_Rows_PersonRankHelper_ChangePersonRank_System_Int32_System_Boolean_
   name: ChangePersonRank
   nameWithType: PersonRankHelper.ChangePersonRank
   fullName: SuperOffice.CRM.Rows.PersonRankHelper.ChangePersonRank
@@ -898,28 +556,19 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.CRM.Rows.PersonRankHelper.SetPersonRank*
   commentId: Overload:SuperOffice.CRM.Rows.PersonRankHelper.SetPersonRank
   isExternal: true
-  href: SuperOffice.CRM.Rows.PersonRankHelper.html#SuperOffice_CRM_Rows_PersonRankHelper_SetPersonRank_System_Int32_System_Int16_
   name: SetPersonRank
   nameWithType: PersonRankHelper.SetPersonRank
   fullName: SuperOffice.CRM.Rows.PersonRankHelper.SetPersonRank
@@ -927,17 +576,12 @@ references:
   commentId: T:System.Int16
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int16
-  name: short
-  nameWithType: short
-  fullName: short
-  nameWithType.vb: Short
-  fullName.vb: Short
-  name.vb: Short
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.CRM.Rows.PersonRankHelper.NormalizeRanks*
   commentId: Overload:SuperOffice.CRM.Rows.PersonRankHelper.NormalizeRanks
   isExternal: true
-  href: SuperOffice.CRM.Rows.PersonRankHelper.html#SuperOffice_CRM_Rows_PersonRankHelper_NormalizeRanks_System_Int32_
   name: NormalizeRanks
   nameWithType: PersonRankHelper.NormalizeRanks
   fullName: SuperOffice.CRM.Rows.PersonRankHelper.NormalizeRanks

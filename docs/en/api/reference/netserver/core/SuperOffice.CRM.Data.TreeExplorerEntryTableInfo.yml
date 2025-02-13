@@ -33,21 +33,14 @@ items:
   nameWithType: TreeExplorerEntryTableInfo
   fullName: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "Table 'tree_explorer_entry': This table stores the entries in a tree-explorer"
-  remarks: >-
-    An instance of this class represents one instance of this table in an SQL statement. In most
-
-    cases each table appears only once in a SELECT, but in cases where you need to self-join, or
-
-    there are multiple occurrences for other reasons (typically additional restrictions in the joins),
-
-    then you will need multiple instances. <br />
-
-    Instances of this class are created by calling TablesInfo.GetTreeExplorerEntryInfo().
-  example: []
+  summary: "\nTable &apos;tree_explorer_entry&apos;: This table stores the entries in a tree-explorer\n"
+  remarks: "\nAn instance of this class represents one instance of this table in an SQL statement. In most\ncases each table appears only once in a SELECT, but in cases where you need to self-join, or\nthere are multiple occurrences for other reasons (typically additional restrictions in the joins),\nthen you will need multiple instances. <br />\nInstances of this class are created by calling <see cref=\"!:TablesInfo.GetTreeExplorerEntryInfo()\"></see>.\n"
   syntax:
     content: >-
       [DatabaseTable("tree_explorer_entry")]
@@ -56,7 +49,9 @@ items:
     content.vb: >-
       <DatabaseTable("tree_explorer_entry")>
 
-      Public Class TreeExplorerEntryTableInfo Inherits TableInfo Implements ICloneable
+      Public Class TreeExplorerEntryTableInfo
+          Inherits TableInfo
+          Implements ICloneable
   inheritance:
   - System.Object
   - SuperOffice.Data.SQL.TableInfo
@@ -77,12 +72,6 @@ items:
   - SuperOffice.Data.SQL.TableInfo.All
   - SuperOffice.Data.SQL.TableInfo.Item(System.String)
   - SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -92,6 +81,12 @@ items:
     arguments:
     - type: System.String
       value: tree_explorer_entry
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.DictionaryTableName
   commentId: F:SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.DictionaryTableName
   id: DictionaryTableName
@@ -103,16 +98,24 @@ items:
   nameWithType: TreeExplorerEntryTableInfo.DictionaryTableName
   fullName: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.DictionaryTableName
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Conceptual name of table TreeExplorerEntry in the database dictionary: tree_explorer_entry'
-  example: []
+  summary: "\nConceptual name of table TreeExplorerEntry in the database dictionary: tree_explorer_entry\n"
   syntax:
     content: public const string DictionaryTableName = "tree_explorer_entry"
     return:
       type: System.String
     content.vb: Public Const DictionaryTableName As String = "tree_explorer_entry"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.DictionaryTableNumber
   commentId: P:SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.DictionaryTableNumber
   id: DictionaryTableNumber
@@ -124,14 +127,13 @@ items:
   nameWithType: TreeExplorerEntryTableInfo.DictionaryTableNumber
   fullName: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.DictionaryTableNumber
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Table number for table TreeExplorerEntry in the database dictionary; potentially changes between databases, but
-
-    always the same over the lifetime of any single database
-  example: []
+  summary: "\nTable number for table TreeExplorerEntry in the database dictionary; potentially changes between databases, but\nalways the same over the lifetime of any single database\n"
   syntax:
     content: public int DictionaryTableNumber { get; }
     parameters: []
@@ -139,6 +141,12 @@ items:
       type: System.Int32
     content.vb: Public ReadOnly Property DictionaryTableNumber As Integer
   overload: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.DictionaryTableNumber*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.RuntimeDefinition
   commentId: P:SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.RuntimeDefinition
   id: RuntimeDefinition
@@ -150,32 +158,28 @@ items:
   nameWithType: TreeExplorerEntryTableInfo.RuntimeDefinition
   fullName: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.RuntimeDefinition
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Definition of the table as described in the deployed runtime dictionary
-  example: []
+  summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
   syntax:
-    content: >-
-      [Obsolete("Use instance property Definition or static member DictionaryTableNumber", true)]
-
-      public static SoTable RuntimeDefinition { get; }
+    content: public static SoTable RuntimeDefinition { get; }
     parameters: []
     return:
       type: SuperOffice.Data.Dictionary.SoTable
-    content.vb: >-
-      <Obsolete("Use instance property Definition or static member DictionaryTableNumber", True)>
-
-      Public Shared ReadOnly Property RuntimeDefinition As SoTable
+    content.vb: Public Shared ReadOnly Property RuntimeDefinition As SoTable
   overload: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.RuntimeDefinition*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: Use instance property Definition or static member DictionaryTableNumber
-    - type: System.Boolean
-      value: true
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.Definition
   commentId: P:SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.Definition
   id: Definition
@@ -187,11 +191,13 @@ items:
   nameWithType: TreeExplorerEntryTableInfo.Definition
   fullName: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.Definition
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Definition of the table as described in the deployed runtime dictionary
-  example: []
+  summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
   syntax:
     content: public override SoTable Definition { get; }
     parameters: []
@@ -200,6 +206,14 @@ items:
     content.vb: Public Overrides ReadOnly Property Definition As SoTable
   overridden: SuperOffice.Data.SQL.TableInfo.Definition
   overload: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.Definition*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.TreeExplorerEntryId
   commentId: P:SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.TreeExplorerEntryId
   id: TreeExplorerEntryId
@@ -211,14 +225,13 @@ items:
   nameWithType: TreeExplorerEntryTableInfo.TreeExplorerEntryId
   fullName: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.TreeExplorerEntryId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'id' in table 'tree_explorer_entry': Dictionary type PK, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Primary key
-  example: []
+  summary: "\nField &apos;id&apos; in table &apos;tree_explorer_entry&apos;: Dictionary type PK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nPrimary key\n"
   syntax:
     content: public Int32FieldInfo TreeExplorerEntryId { get; }
     parameters: []
@@ -226,6 +239,12 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property TreeExplorerEntryId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.TreeExplorerEntryId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.ParentId
   commentId: P:SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.ParentId
   id: ParentId
@@ -237,14 +256,13 @@ items:
   nameWithType: TreeExplorerEntryTableInfo.ParentId
   fullName: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.ParentId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'parent_id' in table 'tree_explorer_entry': Dictionary type FK, target: TreeExplorerEntry, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
-
-    The parent id of the entry
-  example: []
+  summary: "\nField &apos;parent_id&apos; in table &apos;tree_explorer_entry&apos;: Dictionary type FK, target: TreeExplorerEntry, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe parent id of the entry\n"
   syntax:
     content: public Int32FieldInfo ParentId { get; }
     parameters: []
@@ -252,6 +270,12 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property ParentId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.ParentId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.Name
   commentId: P:SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.Name
   id: Name
@@ -263,14 +287,13 @@ items:
   nameWithType: TreeExplorerEntryTableInfo.Name
   fullName: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.Name
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'name' in table 'tree_explorer_entry': Dictionary type String[256], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
-
-    The name of the entry
-  example: []
+  summary: "\nField &apos;name&apos; in table &apos;tree_explorer_entry&apos;: Dictionary type String[256], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe name of the entry\n"
   syntax:
     content: public StringFieldInfo Name { get; }
     parameters: []
@@ -278,6 +301,12 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property Name As StringFieldInfo
   overload: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.Name*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.Icon
   commentId: P:SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.Icon
   id: Icon
@@ -289,14 +318,13 @@ items:
   nameWithType: TreeExplorerEntryTableInfo.Icon
   fullName: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.Icon
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'icon' in table 'tree_explorer_entry': Dictionary type String[256], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
-
-    The icon of the entry
-  example: []
+  summary: "\nField &apos;icon&apos; in table &apos;tree_explorer_entry&apos;: Dictionary type String[256], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe icon of the entry\n"
   syntax:
     content: public StringFieldInfo Icon { get; }
     parameters: []
@@ -304,6 +332,12 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property Icon As StringFieldInfo
   overload: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.Icon*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.Onclick
   commentId: P:SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.Onclick
   id: Onclick
@@ -315,14 +349,13 @@ items:
   nameWithType: TreeExplorerEntryTableInfo.Onclick
   fullName: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.Onclick
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'onclick' in table 'tree_explorer_entry': Dictionary type String[256], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
-
-    The onclick action of the entry
-  example: []
+  summary: "\nField &apos;onclick&apos; in table &apos;tree_explorer_entry&apos;: Dictionary type String[256], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe onclick action of the entry\n"
   syntax:
     content: public StringFieldInfo Onclick { get; }
     parameters: []
@@ -330,6 +363,12 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property Onclick As StringFieldInfo
   overload: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.Onclick*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.Href
   commentId: P:SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.Href
   id: Href
@@ -341,14 +380,13 @@ items:
   nameWithType: TreeExplorerEntryTableInfo.Href
   fullName: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.Href
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'href' in table 'tree_explorer_entry': Dictionary type String[256], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
-
-    The href of the entry
-  example: []
+  summary: "\nField &apos;href&apos; in table &apos;tree_explorer_entry&apos;: Dictionary type String[256], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe href of the entry\n"
   syntax:
     content: public StringFieldInfo Href { get; }
     parameters: []
@@ -356,6 +394,12 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property Href As StringFieldInfo
   overload: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.Href*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.Tooltip
   commentId: P:SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.Tooltip
   id: Tooltip
@@ -367,14 +411,13 @@ items:
   nameWithType: TreeExplorerEntryTableInfo.Tooltip
   fullName: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.Tooltip
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'tooltip' in table 'tree_explorer_entry': Dictionary type Clob, .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
-
-    The tooltip of the entry
-  example: []
+  summary: "\nField &apos;tooltip&apos; in table &apos;tree_explorer_entry&apos;: Dictionary type Clob, .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe tooltip of the entry\n"
   syntax:
     content: public StringFieldInfo Tooltip { get; }
     parameters: []
@@ -382,6 +425,12 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property Tooltip As StringFieldInfo
   overload: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.Tooltip*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.Target
   commentId: P:SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.Target
   id: Target
@@ -393,14 +442,13 @@ items:
   nameWithType: TreeExplorerEntryTableInfo.Target
   fullName: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.Target
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'target' in table 'tree_explorer_entry': Dictionary type String[256], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
-
-    The target of the href of the entry
-  example: []
+  summary: "\nField &apos;target&apos; in table &apos;tree_explorer_entry&apos;: Dictionary type String[256], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe target of the href of the entry\n"
   syntax:
     content: public StringFieldInfo Target { get; }
     parameters: []
@@ -408,6 +456,12 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property Target As StringFieldInfo
   overload: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.Target*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.SortOrder
   commentId: P:SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.SortOrder
   id: SortOrder
@@ -419,14 +473,13 @@ items:
   nameWithType: TreeExplorerEntryTableInfo.SortOrder
   fullName: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.SortOrder
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'sort_order' in table 'tree_explorer_entry': Dictionary type Int, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
-
-    The order of the entry
-  example: []
+  summary: "\nField &apos;sort_order&apos; in table &apos;tree_explorer_entry&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe order of the entry\n"
   syntax:
     content: public Int32FieldInfo SortOrder { get; }
     parameters: []
@@ -434,6 +487,12 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property SortOrder As Int32FieldInfo
   overload: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.SortOrder*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.Leaf
   commentId: P:SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.Leaf
   id: Leaf
@@ -445,14 +504,13 @@ items:
   nameWithType: TreeExplorerEntryTableInfo.Leaf
   fullName: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.Leaf
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'leaf' in table 'tree_explorer_entry': Dictionary type Bool, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
-
-    True if the entry is a leaf node
-  example: []
+  summary: "\nField &apos;leaf&apos; in table &apos;tree_explorer_entry&apos;: Dictionary type Bool, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nTrue if the entry is a leaf node\n"
   syntax:
     content: public UInt16FieldInfo Leaf { get; }
     parameters: []
@@ -460,6 +518,12 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property Leaf As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.Leaf*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.SessionKey
   commentId: P:SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.SessionKey
   id: SessionKey
@@ -471,14 +535,13 @@ items:
   nameWithType: TreeExplorerEntryTableInfo.SessionKey
   fullName: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.SessionKey
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'session_key' in table 'tree_explorer_entry': Dictionary type String[256], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
-
-    The session this entry belongs to
-  example: []
+  summary: "\nField &apos;session_key&apos; in table &apos;tree_explorer_entry&apos;: Dictionary type String[256], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe session this entry belongs to\n"
   syntax:
     content: public StringFieldInfo SessionKey { get; }
     parameters: []
@@ -486,6 +549,12 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property SessionKey As StringFieldInfo
   overload: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.SessionKey*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.ExpandOrder
   commentId: P:SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.ExpandOrder
   id: ExpandOrder
@@ -497,14 +566,13 @@ items:
   nameWithType: TreeExplorerEntryTableInfo.ExpandOrder
   fullName: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.ExpandOrder
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'expand_order' in table 'tree_explorer_entry': Dictionary type Int, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
-
-    If &gt; 0 then expanded and insertorder for the tree
-  example: []
+  summary: "\nField &apos;expand_order&apos; in table &apos;tree_explorer_entry&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nIf > 0 then expanded and insertorder for the tree\n"
   syntax:
     content: public Int32FieldInfo ExpandOrder { get; }
     parameters: []
@@ -512,6 +580,12 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property ExpandOrder As Int32FieldInfo
   overload: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.ExpandOrder*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.TreeKey
   commentId: P:SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.TreeKey
   id: TreeKey
@@ -523,14 +597,13 @@ items:
   nameWithType: TreeExplorerEntryTableInfo.TreeKey
   fullName: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.TreeKey
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'tree_key' in table 'tree_explorer_entry': Dictionary type String[256], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
-
-    The key used for reloading
-  example: []
+  summary: "\nField &apos;tree_key&apos; in table &apos;tree_explorer_entry&apos;: Dictionary type String[256], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe key used for reloading\n"
   syntax:
     content: public StringFieldInfo TreeKey { get; }
     parameters: []
@@ -538,6 +611,12 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property TreeKey As StringFieldInfo
   overload: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.TreeKey*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.InternalId
   commentId: P:SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.InternalId
   id: InternalId
@@ -549,14 +628,13 @@ items:
   nameWithType: TreeExplorerEntryTableInfo.InternalId
   fullName: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.InternalId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'internal_id' in table 'tree_explorer_entry': Dictionary type String[256], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
-
-    The internal id for the tree
-  example: []
+  summary: "\nField &apos;internal_id&apos; in table &apos;tree_explorer_entry&apos;: Dictionary type String[256], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe internal id for the tree\n"
   syntax:
     content: public StringFieldInfo InternalId { get; }
     parameters: []
@@ -564,6 +642,12 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property InternalId As StringFieldInfo
   overload: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.InternalId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.InternalParent
   commentId: P:SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.InternalParent
   id: InternalParent
@@ -575,14 +659,13 @@ items:
   nameWithType: TreeExplorerEntryTableInfo.InternalParent
   fullName: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.InternalParent
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'internal_parent' in table 'tree_explorer_entry': Dictionary type String[256], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
-
-    The internal parent id for the tree
-  example: []
+  summary: "\nField &apos;internal_parent&apos; in table &apos;tree_explorer_entry&apos;: Dictionary type String[256], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe internal parent id for the tree\n"
   syntax:
     content: public StringFieldInfo InternalParent { get; }
     parameters: []
@@ -590,6 +673,12 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property InternalParent As StringFieldInfo
   overload: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.InternalParent*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.ParentId_InnerJoin_TreeExplorerEntry
   commentId: P:SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.ParentId_InnerJoin_TreeExplorerEntry
   id: ParentId_InnerJoin_TreeExplorerEntry
@@ -601,11 +690,13 @@ items:
   nameWithType: TreeExplorerEntryTableInfo.ParentId_InnerJoin_TreeExplorerEntry
   fullName: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.ParentId_InnerJoin_TreeExplorerEntry
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Generated join from the foreign key ParentId in this table, to its target table <xref href="SuperOffice.CRM.Data.TreeExplorerEntryTableInfo" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nGenerated join from the foreign key ParentId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.TreeExplorerEntryTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
     content: public TargetedInnerJoin<TreeExplorerEntryTableInfo> ParentId_InnerJoin_TreeExplorerEntry { get; }
     parameters: []
@@ -613,6 +704,12 @@ items:
       type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.TreeExplorerEntryTableInfo}
     content.vb: Public ReadOnly Property ParentId_InnerJoin_TreeExplorerEntry As TargetedInnerJoin(Of TreeExplorerEntryTableInfo)
   overload: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.ParentId_InnerJoin_TreeExplorerEntry*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.LeftOuterJoin_TreeExplorerLink_EntryId
   commentId: P:SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.LeftOuterJoin_TreeExplorerLink_EntryId
   id: LeftOuterJoin_TreeExplorerLink_EntryId
@@ -624,11 +721,13 @@ items:
   nameWithType: TreeExplorerEntryTableInfo.LeftOuterJoin_TreeExplorerLink_EntryId
   fullName: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.LeftOuterJoin_TreeExplorerLink_EntryId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Generated left outer join from the primary key TreeExplorerEntryId on this table, to TreeExplorerLink.<xref href="SuperOffice.CRM.Data.TreeExplorerLinkTableInfo.EntryId" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nGenerated left outer join from the primary key TreeExplorerEntryId on this table, to TreeExplorerLink.<xref href=\"SuperOffice.CRM.Data.TreeExplorerLinkTableInfo.EntryId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
     content: public TargetedLeftOuterJoin<TreeExplorerLinkTableInfo> LeftOuterJoin_TreeExplorerLink_EntryId { get; }
     parameters: []
@@ -636,68 +735,35 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TreeExplorerLinkTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_TreeExplorerLink_EntryId As TargetedLeftOuterJoin(Of TreeExplorerLinkTableInfo)
   overload: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.LeftOuterJoin_TreeExplorerLink_EntryId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Data
   nameWithType: SuperOffice.CRM.Data
   fullName: SuperOffice.CRM.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.CRM.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.CRM.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.SQL.TableInfo
   commentId: T:SuperOffice.Data.SQL.TableInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html
   name: TableInfo
   nameWithType: TableInfo
   fullName: SuperOffice.Data.SQL.TableInfo
 - uid: System.ICloneable
-  commentId: T:System.ICloneable
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.icloneable
   name: ICloneable
   nameWithType: ICloneable
   fullName: System.ICloneable
@@ -705,185 +771,241 @@ references:
   commentId: M:SuperOffice.Data.SQL.TableInfo.ToString
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ToString
   name: ToString()
   nameWithType: TableInfo.ToString()
   fullName: SuperOffice.Data.SQL.TableInfo.ToString()
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.ToString
     name: ToString
+    nameWithType: TableInfo.ToString
+    fullName: SuperOffice.Data.SQL.TableInfo.ToString
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ToString
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.ToString
     name: ToString
+    nameWithType: TableInfo.ToString
+    fullName: SuperOffice.Data.SQL.TableInfo.ToString
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ToString
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
   commentId: M:SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_RegisterFields_SuperOffice_Data_SQL_FieldInfo___
-  name: RegisterFields(params FieldInfo[])
-  nameWithType: TableInfo.RegisterFields(params FieldInfo[])
-  fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields(params SuperOffice.Data.SQL.FieldInfo[])
-  nameWithType.vb: TableInfo.RegisterFields(ParamArray FieldInfo())
-  fullName.vb: SuperOffice.Data.SQL.TableInfo.RegisterFields(ParamArray SuperOffice.Data.SQL.FieldInfo())
-  name.vb: RegisterFields(ParamArray FieldInfo())
+  name: RegisterFields(FieldInfo[])
+  nameWithType: TableInfo.RegisterFields(FieldInfo[])
+  fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  nameWithType.vb: TableInfo.RegisterFields(FieldInfo())
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo())
+  name.vb: RegisterFields(FieldInfo())
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
     name: RegisterFields
+    nameWithType: TableInfo.RegisterFields
+    fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_RegisterFields_SuperOffice_Data_SQL_FieldInfo___
   - name: (
-  - name: params
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.FieldInfo
     name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
     isExternal: true
-    href: SuperOffice.Data.SQL.FieldInfo.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
     name: RegisterFields
+    nameWithType: TableInfo.RegisterFields
+    fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_RegisterFields_SuperOffice_Data_SQL_FieldInfo___
   - name: (
-  - name: ParamArray
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.FieldInfo
     name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
     isExternal: true
-    href: SuperOffice.Data.SQL.FieldInfo.html
-  - name: (
+  - name: ()
+    nameWithType: ()
+    fullName: ()
   - name: )
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
   commentId: M:SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FieldInfoFromSoField_SuperOffice_Data_Dictionary_SoField_
   name: FieldInfoFromSoField(SoField)
   nameWithType: TableInfo.FieldInfoFromSoField(SoField)
   fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
     name: FieldInfoFromSoField
+    nameWithType: TableInfo.FieldInfoFromSoField
+    fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FieldInfoFromSoField_SuperOffice_Data_Dictionary_SoField_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.Dictionary.SoField
     name: SoField
+    nameWithType: SoField
+    fullName: SuperOffice.Data.Dictionary.SoField
     isExternal: true
-    href: SuperOffice.Data.Dictionary.SoField.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
     name: FieldInfoFromSoField
+    nameWithType: TableInfo.FieldInfoFromSoField
+    fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FieldInfoFromSoField_SuperOffice_Data_Dictionary_SoField_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.Dictionary.SoField
     name: SoField
+    nameWithType: SoField
+    fullName: SuperOffice.Data.Dictionary.SoField
     isExternal: true
-    href: SuperOffice.Data.Dictionary.SoField.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.Clone
   commentId: M:SuperOffice.Data.SQL.TableInfo.Clone
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Clone
   name: Clone()
   nameWithType: TableInfo.Clone()
   fullName: SuperOffice.Data.SQL.TableInfo.Clone()
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.Clone
     name: Clone
+    nameWithType: TableInfo.Clone
+    fullName: SuperOffice.Data.SQL.TableInfo.Clone
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Clone
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.Clone
     name: Clone
+    nameWithType: TableInfo.Clone
+    fullName: SuperOffice.Data.SQL.TableInfo.Clone
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Clone
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
   commentId: M:SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsSameTable_SuperOffice_Data_SQL_TableInfo_
   name: IsSameTable(TableInfo)
   nameWithType: TableInfo.IsSameTable(TableInfo)
   fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
     name: IsSameTable
+    nameWithType: TableInfo.IsSameTable
+    fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsSameTable_SuperOffice_Data_SQL_TableInfo_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
     name: IsSameTable
+    nameWithType: TableInfo.IsSameTable
+    fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsSameTable_SuperOffice_Data_SQL_TableInfo_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
   commentId: M:SuperOffice.Data.SQL.TableInfo.FindField(System.String)
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FindField_System_String_
-  name: FindField(string)
-  nameWithType: TableInfo.FindField(string)
-  fullName: SuperOffice.Data.SQL.TableInfo.FindField(string)
-  nameWithType.vb: TableInfo.FindField(String)
-  fullName.vb: SuperOffice.Data.SQL.TableInfo.FindField(String)
-  name.vb: FindField(String)
+  name: FindField(String)
+  nameWithType: TableInfo.FindField(String)
+  fullName: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
     name: FindField
+    nameWithType: TableInfo.FindField
+    fullName: SuperOffice.Data.SQL.TableInfo.FindField
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FindField_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
     name: FindField
+    nameWithType: TableInfo.FindField
+    fullName: SuperOffice.Data.SQL.TableInfo.FindField
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FindField_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.ProtAll
   commentId: P:SuperOffice.Data.SQL.TableInfo.ProtAll
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ProtAll
   name: ProtAll
   nameWithType: TableInfo.ProtAll
   fullName: SuperOffice.Data.SQL.TableInfo.ProtAll
@@ -891,7 +1013,6 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.HashCheckFields
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_HashCheckFields
   name: HashCheckFields
   nameWithType: TableInfo.HashCheckFields
   fullName: SuperOffice.Data.SQL.TableInfo.HashCheckFields
@@ -899,7 +1020,6 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.TableName
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_TableName
   name: TableName
   nameWithType: TableInfo.TableName
   fullName: SuperOffice.Data.SQL.TableInfo.TableName
@@ -907,7 +1027,6 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.DbName
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_DbName
   name: DbName
   nameWithType: TableInfo.DbName
   fullName: SuperOffice.Data.SQL.TableInfo.DbName
@@ -915,7 +1034,6 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsDictionaryTable
   name: IsDictionaryTable
   nameWithType: TableInfo.IsDictionaryTable
   fullName: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
@@ -923,7 +1041,6 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.All
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_All
   name: All
   nameWithType: TableInfo.All
   fullName: SuperOffice.Data.SQL.TableInfo.All
@@ -931,389 +1048,136 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.Item(System.String)
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: this[string]
-  nameWithType: TableInfo.this[string]
-  fullName: SuperOffice.Data.SQL.TableInfo.this[string]
-  nameWithType.vb: TableInfo.this[](String)
-  fullName.vb: SuperOffice.Data.SQL.TableInfo.this[](String)
-  name.vb: this[](String)
+  name: Item[String]
+  nameWithType: TableInfo.Item[String]
+  fullName: SuperOffice.Data.SQL.TableInfo.Item[System.String]
+  nameWithType.vb: TableInfo.Item(String)
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  name.vb: Item(String)
   spec.csharp:
-  - name: this
-  - name: '['
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ']'
-  spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
-    name: this[]
+    name: Item
+    nameWithType: TableInfo.Item
+    fullName: SuperOffice.Data.SQL.TableInfo.Item
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Item_System_String_
-  - name: (
+  - name: '['
+    nameWithType: '['
+    fullName: '['
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ']'
+    nameWithType: ']'
+    fullName: ']'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+    name: Item
+    nameWithType: TableInfo.Item
+    fullName: SuperOffice.Data.SQL.TableInfo.Item
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
   commentId: P:SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_PrimaryKeyField
   name: PrimaryKeyField
   nameWithType: TableInfo.PrimaryKeyField
   fullName: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
 - uid: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<TreeExplorerEntryTableInfo, To>(TreeExplorerEntryTableInfo)
-  nameWithType: EnumUtil.MapEnums<TreeExplorerEntryTableInfo, To>(TreeExplorerEntryTableInfo)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.TreeExplorerEntryTableInfo, To>(SuperOffice.CRM.Data.TreeExplorerEntryTableInfo)
-  nameWithType.vb: EnumUtil.MapEnums(Of TreeExplorerEntryTableInfo, To)(TreeExplorerEntryTableInfo)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.TreeExplorerEntryTableInfo, To)(SuperOffice.CRM.Data.TreeExplorerEntryTableInfo)
-  name.vb: MapEnums(Of TreeExplorerEntryTableInfo, To)(TreeExplorerEntryTableInfo)
+  name: MapEnums<TreeExplorerEntryTableInfo, To>()
+  nameWithType: EnumUtil.MapEnums<TreeExplorerEntryTableInfo, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.TreeExplorerEntryTableInfo, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of TreeExplorerEntryTableInfo, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.TreeExplorerEntryTableInfo, To)()
+  name.vb: MapEnums(Of TreeExplorerEntryTableInfo, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Data.TreeExplorerEntryTableInfo)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<TreeExplorerEntryTableInfo, To>
+    nameWithType: EnumUtil.MapEnums<TreeExplorerEntryTableInfo, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.TreeExplorerEntryTableInfo, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo
-    name: TreeExplorerEntryTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo
-    name: TreeExplorerEntryTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Data.TreeExplorerEntryTableInfo)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of TreeExplorerEntryTableInfo, To)
+    nameWithType: EnumUtil.MapEnums(Of TreeExplorerEntryTableInfo, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.TreeExplorerEntryTableInfo, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo
-    name: TreeExplorerEntryTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo
-    name: TreeExplorerEntryTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<TreeExplorerEntryTableInfo, To>(TreeExplorerEntryTableInfo)
-  nameWithType: Converters.MapEnums<TreeExplorerEntryTableInfo, To>(TreeExplorerEntryTableInfo)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.TreeExplorerEntryTableInfo, To>(SuperOffice.CRM.Data.TreeExplorerEntryTableInfo)
-  nameWithType.vb: Converters.MapEnums(Of TreeExplorerEntryTableInfo, To)(TreeExplorerEntryTableInfo)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.TreeExplorerEntryTableInfo, To)(SuperOffice.CRM.Data.TreeExplorerEntryTableInfo)
-  name.vb: MapEnums(Of TreeExplorerEntryTableInfo, To)(TreeExplorerEntryTableInfo)
+  name: MapEnums<TreeExplorerEntryTableInfo, To>()
+  nameWithType: Converters.MapEnums<TreeExplorerEntryTableInfo, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.TreeExplorerEntryTableInfo, To>()
+  nameWithType.vb: Converters.MapEnums(Of TreeExplorerEntryTableInfo, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.TreeExplorerEntryTableInfo, To)()
+  name.vb: MapEnums(Of TreeExplorerEntryTableInfo, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Data.TreeExplorerEntryTableInfo)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<TreeExplorerEntryTableInfo, To>
+    nameWithType: Converters.MapEnums<TreeExplorerEntryTableInfo, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.TreeExplorerEntryTableInfo, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo
-    name: TreeExplorerEntryTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo
-    name: TreeExplorerEntryTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Data.TreeExplorerEntryTableInfo)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of TreeExplorerEntryTableInfo, To)
+    nameWithType: Converters.MapEnums(Of TreeExplorerEntryTableInfo, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.TreeExplorerEntryTableInfo, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo
-    name: TreeExplorerEntryTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo
-    name: TreeExplorerEntryTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.Data.SQL
   commentId: N:SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.SQL
-    name: SQL
-    isExternal: true
-    href: SuperOffice.Data.SQL.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.SQL
-    name: SQL
-    isExternal: true
-    href: SuperOffice.Data.SQL.html
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -1322,45 +1186,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -1369,94 +1231,57 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.DictionaryTableNumber*
   commentId: Overload:SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.DictionaryTableNumber
   isExternal: true
-  href: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.html#SuperOffice_CRM_Data_TreeExplorerEntryTableInfo_DictionaryTableNumber
   name: DictionaryTableNumber
   nameWithType: TreeExplorerEntryTableInfo.DictionaryTableNumber
   fullName: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.DictionaryTableNumber
@@ -1464,17 +1289,12 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.RuntimeDefinition*
   commentId: Overload:SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.RuntimeDefinition
   isExternal: true
-  href: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.html#SuperOffice_CRM_Data_TreeExplorerEntryTableInfo_RuntimeDefinition
   name: RuntimeDefinition
   nameWithType: TreeExplorerEntryTableInfo.RuntimeDefinition
   fullName: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.RuntimeDefinition
@@ -1482,66 +1302,31 @@ references:
   commentId: T:SuperOffice.Data.Dictionary.SoTable
   parent: SuperOffice.Data.Dictionary
   isExternal: true
-  href: SuperOffice.Data.Dictionary.SoTable.html
   name: SoTable
   nameWithType: SoTable
   fullName: SuperOffice.Data.Dictionary.SoTable
 - uid: SuperOffice.Data.Dictionary
   commentId: N:SuperOffice.Data.Dictionary
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data.Dictionary
   nameWithType: SuperOffice.Data.Dictionary
   fullName: SuperOffice.Data.Dictionary
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.Dictionary
-    name: Dictionary
-    isExternal: true
-    href: SuperOffice.Data.Dictionary.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.Dictionary
-    name: Dictionary
-    isExternal: true
-    href: SuperOffice.Data.Dictionary.html
 - uid: SuperOffice.Data.SQL.TableInfo.Definition
   commentId: P:SuperOffice.Data.SQL.TableInfo.Definition
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Definition
   name: Definition
   nameWithType: TableInfo.Definition
   fullName: SuperOffice.Data.SQL.TableInfo.Definition
 - uid: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.Definition*
   commentId: Overload:SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.Definition
   isExternal: true
-  href: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.html#SuperOffice_CRM_Data_TreeExplorerEntryTableInfo_Definition
   name: Definition
   nameWithType: TreeExplorerEntryTableInfo.Definition
   fullName: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.Definition
 - uid: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.TreeExplorerEntryId*
   commentId: Overload:SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.TreeExplorerEntryId
   isExternal: true
-  href: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.html#SuperOffice_CRM_Data_TreeExplorerEntryTableInfo_TreeExplorerEntryId
   name: TreeExplorerEntryId
   nameWithType: TreeExplorerEntryTableInfo.TreeExplorerEntryId
   fullName: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.TreeExplorerEntryId
@@ -1549,21 +1334,18 @@ references:
   commentId: T:SuperOffice.Data.SQL.Int32FieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.Int32FieldInfo.html
   name: Int32FieldInfo
   nameWithType: Int32FieldInfo
   fullName: SuperOffice.Data.SQL.Int32FieldInfo
 - uid: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.ParentId*
   commentId: Overload:SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.ParentId
   isExternal: true
-  href: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.html#SuperOffice_CRM_Data_TreeExplorerEntryTableInfo_ParentId
   name: ParentId
   nameWithType: TreeExplorerEntryTableInfo.ParentId
   fullName: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.ParentId
 - uid: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.Name*
   commentId: Overload:SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.Name
   isExternal: true
-  href: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.html#SuperOffice_CRM_Data_TreeExplorerEntryTableInfo_Name
   name: Name
   nameWithType: TreeExplorerEntryTableInfo.Name
   fullName: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.Name
@@ -1571,67 +1353,48 @@ references:
   commentId: T:SuperOffice.Data.SQL.StringFieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.StringFieldInfo.html
   name: StringFieldInfo
   nameWithType: StringFieldInfo
   fullName: SuperOffice.Data.SQL.StringFieldInfo
 - uid: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.Icon*
   commentId: Overload:SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.Icon
   isExternal: true
-  href: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.html#SuperOffice_CRM_Data_TreeExplorerEntryTableInfo_Icon
   name: Icon
   nameWithType: TreeExplorerEntryTableInfo.Icon
   fullName: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.Icon
 - uid: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.Onclick*
   commentId: Overload:SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.Onclick
   isExternal: true
-  href: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.html#SuperOffice_CRM_Data_TreeExplorerEntryTableInfo_Onclick
   name: Onclick
   nameWithType: TreeExplorerEntryTableInfo.Onclick
   fullName: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.Onclick
 - uid: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.Href*
   commentId: Overload:SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.Href
   isExternal: true
-  href: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.html#SuperOffice_CRM_Data_TreeExplorerEntryTableInfo_Href
   name: Href
   nameWithType: TreeExplorerEntryTableInfo.Href
   fullName: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.Href
 - uid: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.Tooltip*
   commentId: Overload:SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.Tooltip
   isExternal: true
-  href: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.html#SuperOffice_CRM_Data_TreeExplorerEntryTableInfo_Tooltip
   name: Tooltip
   nameWithType: TreeExplorerEntryTableInfo.Tooltip
   fullName: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.Tooltip
 - uid: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.Target*
   commentId: Overload:SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.Target
   isExternal: true
-  href: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.html#SuperOffice_CRM_Data_TreeExplorerEntryTableInfo_Target
   name: Target
   nameWithType: TreeExplorerEntryTableInfo.Target
   fullName: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.Target
 - uid: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.SortOrder*
   commentId: Overload:SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.SortOrder
   isExternal: true
-  href: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.html#SuperOffice_CRM_Data_TreeExplorerEntryTableInfo_SortOrder
   name: SortOrder
   nameWithType: TreeExplorerEntryTableInfo.SortOrder
   fullName: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.SortOrder
-- uid: System.Int16
-  commentId: T:System.Int16
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int16
-  name: short
-  nameWithType: short
-  fullName: short
-  nameWithType.vb: Short
-  fullName.vb: Short
-  name.vb: Short
 - uid: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.Leaf*
   commentId: Overload:SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.Leaf
   isExternal: true
-  href: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.html#SuperOffice_CRM_Data_TreeExplorerEntryTableInfo_Leaf
   name: Leaf
   nameWithType: TreeExplorerEntryTableInfo.Leaf
   fullName: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.Leaf
@@ -1639,57 +1402,42 @@ references:
   commentId: T:SuperOffice.Data.SQL.UInt16FieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.UInt16FieldInfo.html
   name: UInt16FieldInfo
   nameWithType: UInt16FieldInfo
   fullName: SuperOffice.Data.SQL.UInt16FieldInfo
 - uid: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.SessionKey*
   commentId: Overload:SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.SessionKey
   isExternal: true
-  href: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.html#SuperOffice_CRM_Data_TreeExplorerEntryTableInfo_SessionKey
   name: SessionKey
   nameWithType: TreeExplorerEntryTableInfo.SessionKey
   fullName: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.SessionKey
 - uid: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.ExpandOrder*
   commentId: Overload:SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.ExpandOrder
   isExternal: true
-  href: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.html#SuperOffice_CRM_Data_TreeExplorerEntryTableInfo_ExpandOrder
   name: ExpandOrder
   nameWithType: TreeExplorerEntryTableInfo.ExpandOrder
   fullName: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.ExpandOrder
 - uid: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.TreeKey*
   commentId: Overload:SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.TreeKey
   isExternal: true
-  href: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.html#SuperOffice_CRM_Data_TreeExplorerEntryTableInfo_TreeKey
   name: TreeKey
   nameWithType: TreeExplorerEntryTableInfo.TreeKey
   fullName: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.TreeKey
 - uid: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.InternalId*
   commentId: Overload:SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.InternalId
   isExternal: true
-  href: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.html#SuperOffice_CRM_Data_TreeExplorerEntryTableInfo_InternalId
   name: InternalId
   nameWithType: TreeExplorerEntryTableInfo.InternalId
   fullName: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.InternalId
 - uid: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.InternalParent*
   commentId: Overload:SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.InternalParent
   isExternal: true
-  href: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.html#SuperOffice_CRM_Data_TreeExplorerEntryTableInfo_InternalParent
   name: InternalParent
   nameWithType: TreeExplorerEntryTableInfo.InternalParent
   fullName: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.InternalParent
-- uid: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo
-  commentId: T:SuperOffice.CRM.Data.TreeExplorerEntryTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.html
-  name: TreeExplorerEntryTableInfo
-  nameWithType: TreeExplorerEntryTableInfo
-  fullName: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo
 - uid: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.ParentId_InnerJoin_TreeExplorerEntry*
   commentId: Overload:SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.ParentId_InnerJoin_TreeExplorerEntry
   isExternal: true
-  href: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.html#SuperOffice_CRM_Data_TreeExplorerEntryTableInfo_ParentId_InnerJoin_TreeExplorerEntry
   name: ParentId_InnerJoin_TreeExplorerEntry
   nameWithType: TreeExplorerEntryTableInfo.ParentId_InnerJoin_TreeExplorerEntry
   fullName: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.ParentId_InnerJoin_TreeExplorerEntry
@@ -1697,7 +1445,6 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.TreeExplorerEntryTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
-  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   name: TargetedInnerJoin<TreeExplorerEntryTableInfo>
   nameWithType: TargetedInnerJoin<TreeExplorerEntryTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.TreeExplorerEntryTableInfo>
@@ -1707,31 +1454,40 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo
     name: TreeExplorerEntryTableInfo
+    nameWithType: TreeExplorerEntryTableInfo
+    fullName: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo
     name: TreeExplorerEntryTableInfo
+    nameWithType: TreeExplorerEntryTableInfo
+    fullName: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
   commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin`1
   isExternal: true
-  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   name: TargetedInnerJoin<TargetTableInfo>
   nameWithType: TargetedInnerJoin<TargetTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedInnerJoin<TargetTableInfo>
@@ -1741,32 +1497,36 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
   - name: )
-- uid: SuperOffice.CRM.Data.TreeExplorerLinkTableInfo.EntryId
-  commentId: P:SuperOffice.CRM.Data.TreeExplorerLinkTableInfo.EntryId
-  isExternal: true
-  href: SuperOffice.CRM.Data.TreeExplorerLinkTableInfo.html#SuperOffice_CRM_Data_TreeExplorerLinkTableInfo_EntryId
-  name: EntryId
-  nameWithType: TreeExplorerLinkTableInfo.EntryId
-  fullName: SuperOffice.CRM.Data.TreeExplorerLinkTableInfo.EntryId
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.LeftOuterJoin_TreeExplorerLink_EntryId*
   commentId: Overload:SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.LeftOuterJoin_TreeExplorerLink_EntryId
   isExternal: true
-  href: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.html#SuperOffice_CRM_Data_TreeExplorerEntryTableInfo_LeftOuterJoin_TreeExplorerLink_EntryId
   name: LeftOuterJoin_TreeExplorerLink_EntryId
   nameWithType: TreeExplorerEntryTableInfo.LeftOuterJoin_TreeExplorerLink_EntryId
   fullName: SuperOffice.CRM.Data.TreeExplorerEntryTableInfo.LeftOuterJoin_TreeExplorerLink_EntryId
@@ -1774,7 +1534,6 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TreeExplorerLinkTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
-  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   name: TargetedLeftOuterJoin<TreeExplorerLinkTableInfo>
   nameWithType: TargetedLeftOuterJoin<TreeExplorerLinkTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.TreeExplorerLinkTableInfo>
@@ -1784,31 +1543,40 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Data.TreeExplorerLinkTableInfo
     name: TreeExplorerLinkTableInfo
+    nameWithType: TreeExplorerLinkTableInfo
+    fullName: SuperOffice.CRM.Data.TreeExplorerLinkTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.TreeExplorerLinkTableInfo.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Data.TreeExplorerLinkTableInfo
     name: TreeExplorerLinkTableInfo
+    nameWithType: TreeExplorerLinkTableInfo
+    fullName: SuperOffice.CRM.Data.TreeExplorerLinkTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.TreeExplorerLinkTableInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
   commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
   isExternal: true
-  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   name: TargetedLeftOuterJoin<TargetTableInfo>
   nameWithType: TargetedLeftOuterJoin<TargetTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<TargetTableInfo>
@@ -1818,18 +1586,30 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
   - name: )
+    nameWithType: )
+    fullName: )

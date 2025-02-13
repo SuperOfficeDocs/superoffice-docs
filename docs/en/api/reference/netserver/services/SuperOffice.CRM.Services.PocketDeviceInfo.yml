@@ -10,8 +10,8 @@ items:
   - SuperOffice.CRM.Services.PocketDeviceInfo.DeviceName
   - SuperOffice.CRM.Services.PocketDeviceInfo.Language
   - SuperOffice.CRM.Services.PocketDeviceInfo.OSVersion
-  - SuperOffice.CRM.Services.PocketDeviceInfo.PNSHandle
   - SuperOffice.CRM.Services.PocketDeviceInfo.Platform
+  - SuperOffice.CRM.Services.PocketDeviceInfo.PNSHandle
   - SuperOffice.CRM.Services.PocketDeviceInfo.PocketVersion
   - SuperOffice.CRM.Services.PocketDeviceInfo.TimeZoneId
   - SuperOffice.CRM.Services.PocketDeviceInfo.ToString
@@ -23,27 +23,18 @@ items:
   nameWithType: PocketDeviceInfo
   fullName: SuperOffice.CRM.Services.PocketDeviceInfo
   type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Describes a device running Pocket CRM
-
-    <p></p>
-
-    Carrier object for PocketDeviceInfo.
-
-    Services for the PocketDeviceInfo Carrier is available from the <xref href="SuperOffice.CRM.Services.IPocketAgent?text=Pocket+Agent" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nDescribes a device running Pocket CRM\n<p></p>\nCarrier object for PocketDeviceInfo.\nServices for the PocketDeviceInfo Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IPocketAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public class PocketDeviceInfo
+    content: 'public class PocketDeviceInfo : Object'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
-
       Public Class PocketDeviceInfo
+          Inherits Object
   seealso:
   - linkId: SuperOffice.CRM.Services.PocketAgent
     commentId: T:SuperOffice.CRM.Services.PocketAgent
@@ -51,21 +42,12 @@ items:
     commentId: T:SuperOffice.CRM.Services.IPocketAgent
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.PocketDeviceInfo.#ctor
   commentId: M:SuperOffice.CRM.Services.PocketDeviceInfo.#ctor
   id: '#ctor'
@@ -77,18 +59,21 @@ items:
   nameWithType: PocketDeviceInfo.PocketDeviceInfo()
   fullName: SuperOffice.CRM.Services.PocketDeviceInfo.PocketDeviceInfo()
   type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Default constructor
-  example: []
+  summary: "\nDefault constructor\n"
   syntax:
     content: public PocketDeviceInfo()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.PocketDeviceInfo.#ctor*
-  nameWithType.vb: PocketDeviceInfo.New()
-  fullName.vb: SuperOffice.CRM.Services.PocketDeviceInfo.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.PocketDeviceInfo.ToString
   commentId: M:SuperOffice.CRM.Services.PocketDeviceInfo.ToString
   id: ToString
@@ -100,19 +85,26 @@ items:
   nameWithType: PocketDeviceInfo.ToString()
   fullName: SuperOffice.CRM.Services.PocketDeviceInfo.ToString()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the carrier contents as a formatted string.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string.\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString() As String
-  overridden: System.Object.ToString
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.CRM.Services.PocketDeviceInfo.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Services.PocketDeviceInfo.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.PocketDeviceInfo.ToString(System.String)
   id: ToString(System.String)
@@ -120,18 +112,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(string)
-  nameWithType: PocketDeviceInfo.ToString(string)
-  fullName: SuperOffice.CRM.Services.PocketDeviceInfo.ToString(string)
+  name: ToString(String)
+  nameWithType: PocketDeviceInfo.ToString(String)
+  fullName: SuperOffice.CRM.Services.PocketDeviceInfo.ToString(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Returns the carrier contents as a formatted string, useful for debugging.
-
-    Each line in the output is prefixed with the input value.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -143,9 +134,10 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.PocketDeviceInfo.ToString*
-  nameWithType.vb: PocketDeviceInfo.ToString(String)
-  fullName.vb: SuperOffice.CRM.Services.PocketDeviceInfo.ToString(String)
-  name.vb: ToString(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.PocketDeviceInfo.DeviceName
   commentId: P:SuperOffice.CRM.Services.PocketDeviceInfo.DeviceName
   id: DeviceName
@@ -157,28 +149,28 @@ items:
   nameWithType: PocketDeviceInfo.DeviceName
   fullName: SuperOffice.CRM.Services.PocketDeviceInfo.DeviceName
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "A friendly display name for the device. Ex: 'Bobbys iPhone 5S'"
-  example: []
+  summary: "\nA friendly display name for the device. Ex: &apos;Bobbys iPhone 5S&apos; \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string DeviceName { get; set; }
+    content: public virtual string DeviceName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property DeviceName As String
+    content.vb: Public Overridable Property DeviceName As String
   overload: SuperOffice.CRM.Services.PocketDeviceInfo.DeviceName*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.PocketDeviceInfo.DeviceIdentifier
   commentId: P:SuperOffice.CRM.Services.PocketDeviceInfo.DeviceIdentifier
   id: DeviceIdentifier
@@ -190,28 +182,28 @@ items:
   nameWithType: PocketDeviceInfo.DeviceIdentifier
   fullName: SuperOffice.CRM.Services.PocketDeviceInfo.DeviceIdentifier
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: A unique identifier of this device. This value should always be the same for the same device
-  example: []
+  summary: "\nA unique identifier of this device. This value should always be the same for the same device \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string DeviceIdentifier { get; set; }
+    content: public virtual string DeviceIdentifier { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property DeviceIdentifier As String
+    content.vb: Public Overridable Property DeviceIdentifier As String
   overload: SuperOffice.CRM.Services.PocketDeviceInfo.DeviceIdentifier*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.PocketDeviceInfo.PocketVersion
   commentId: P:SuperOffice.CRM.Services.PocketDeviceInfo.PocketVersion
   id: PocketVersion
@@ -223,28 +215,28 @@ items:
   nameWithType: PocketDeviceInfo.PocketVersion
   fullName: SuperOffice.CRM.Services.PocketDeviceInfo.PocketVersion
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "What version of Pocket CRM this device is running. Ex: '8.0.37'"
-  example: []
+  summary: "\nWhat version of Pocket CRM this device is running. Ex: &apos;8.0.37&apos; \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string PocketVersion { get; set; }
+    content: public virtual string PocketVersion { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property PocketVersion As String
+    content.vb: Public Overridable Property PocketVersion As String
   overload: SuperOffice.CRM.Services.PocketDeviceInfo.PocketVersion*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.PocketDeviceInfo.Language
   commentId: P:SuperOffice.CRM.Services.PocketDeviceInfo.Language
   id: Language
@@ -256,28 +248,28 @@ items:
   nameWithType: PocketDeviceInfo.Language
   fullName: SuperOffice.CRM.Services.PocketDeviceInfo.Language
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The language which this device will receive notifications translated in
-  example: []
+  summary: "\nThe language which this device will receive notifications translated in \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string Language { get; set; }
+    content: public virtual string Language { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Language As String
+    content.vb: Public Overridable Property Language As String
   overload: SuperOffice.CRM.Services.PocketDeviceInfo.Language*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.PocketDeviceInfo.PNSHandle
   commentId: P:SuperOffice.CRM.Services.PocketDeviceInfo.PNSHandle
   id: PNSHandle
@@ -289,28 +281,28 @@ items:
   nameWithType: PocketDeviceInfo.PNSHandle
   fullName: SuperOffice.CRM.Services.PocketDeviceInfo.PNSHandle
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The identifier associated with the device that will be used when talking with vendors push services
-  example: []
+  summary: "\nThe identifier associated with the device that will be used when talking with vendors push services \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string PNSHandle { get; set; }
+    content: public virtual string PNSHandle { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property PNSHandle As String
+    content.vb: Public Overridable Property PNSHandle As String
   overload: SuperOffice.CRM.Services.PocketDeviceInfo.PNSHandle*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.PocketDeviceInfo.Platform
   commentId: P:SuperOffice.CRM.Services.PocketDeviceInfo.Platform
   id: Platform
@@ -322,28 +314,28 @@ items:
   nameWithType: PocketDeviceInfo.Platform
   fullName: SuperOffice.CRM.Services.PocketDeviceInfo.Platform
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: What platform does this device belong to
-  example: []
+  summary: "\nWhat platform does this device belong to \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual NotificationPlatform Platform { get; set; }
+    content: public virtual NotificationPlatform Platform { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.NotificationPlatform
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Platform As NotificationPlatform
+    content.vb: Public Overridable Property Platform As NotificationPlatform
   overload: SuperOffice.CRM.Services.PocketDeviceInfo.Platform*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.PocketDeviceInfo.OSVersion
   commentId: P:SuperOffice.CRM.Services.PocketDeviceInfo.OSVersion
   id: OSVersion
@@ -355,28 +347,28 @@ items:
   nameWithType: PocketDeviceInfo.OSVersion
   fullName: SuperOffice.CRM.Services.PocketDeviceInfo.OSVersion
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "The operating system version. Ex: 'iOS v10.2'"
-  example: []
+  summary: "\nThe operating system version. Ex: &apos;iOS v10.2&apos; \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string OSVersion { get; set; }
+    content: public virtual string OSVersion { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property OSVersion As String
+    content.vb: Public Overridable Property OSVersion As String
   overload: SuperOffice.CRM.Services.PocketDeviceInfo.OSVersion*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.PocketDeviceInfo.TimeZoneId
   commentId: P:SuperOffice.CRM.Services.PocketDeviceInfo.TimeZoneId
   id: TimeZoneId
@@ -388,33 +380,38 @@ items:
   nameWithType: PocketDeviceInfo.TimeZoneId
   fullName: SuperOffice.CRM.Services.PocketDeviceInfo.TimeZoneId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The timezone to show for dates in messages
-  example: []
+  summary: "\nThe timezone to show for dates in messages \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int TimeZoneId { get; set; }
+    content: public virtual int TimeZoneId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property TimeZoneId As Integer
+    content.vb: Public Overridable Property TimeZoneId As Integer
   overload: SuperOffice.CRM.Services.PocketDeviceInfo.TimeZoneId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
 - uid: SuperOffice.CRM.Services.PocketAgent
   commentId: T:SuperOffice.CRM.Services.PocketAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.PocketAgent.html
   name: PocketAgent
   nameWithType: PocketAgent
   fullName: SuperOffice.CRM.Services.PocketAgent
@@ -422,298 +419,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.IPocketAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.IPocketAgent.html
   name: IPocketAgent
   nameWithType: IPocketAgent
   fullName: SuperOffice.CRM.Services.IPocketAgent
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.PocketDeviceInfo.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.PocketDeviceInfo.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.PocketDeviceInfo.html#SuperOffice_CRM_Services_PocketDeviceInfo__ctor
   name: PocketDeviceInfo
   nameWithType: PocketDeviceInfo.PocketDeviceInfo
   fullName: SuperOffice.CRM.Services.PocketDeviceInfo.PocketDeviceInfo
-  nameWithType.vb: PocketDeviceInfo.New
-  fullName.vb: SuperOffice.CRM.Services.PocketDeviceInfo.New
-  name.vb: New
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
 - uid: SuperOffice.CRM.Services.PocketDeviceInfo.ToString*
   commentId: Overload:SuperOffice.CRM.Services.PocketDeviceInfo.ToString
   isExternal: true
-  href: SuperOffice.CRM.Services.PocketDeviceInfo.html#SuperOffice_CRM_Services_PocketDeviceInfo_ToString
   name: ToString
   nameWithType: PocketDeviceInfo.ToString
   fullName: SuperOffice.CRM.Services.PocketDeviceInfo.ToString
@@ -721,52 +438,48 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.PocketDeviceInfo.DeviceName*
   commentId: Overload:SuperOffice.CRM.Services.PocketDeviceInfo.DeviceName
   isExternal: true
-  href: SuperOffice.CRM.Services.PocketDeviceInfo.html#SuperOffice_CRM_Services_PocketDeviceInfo_DeviceName
   name: DeviceName
   nameWithType: PocketDeviceInfo.DeviceName
   fullName: SuperOffice.CRM.Services.PocketDeviceInfo.DeviceName
 - uid: SuperOffice.CRM.Services.PocketDeviceInfo.DeviceIdentifier*
   commentId: Overload:SuperOffice.CRM.Services.PocketDeviceInfo.DeviceIdentifier
   isExternal: true
-  href: SuperOffice.CRM.Services.PocketDeviceInfo.html#SuperOffice_CRM_Services_PocketDeviceInfo_DeviceIdentifier
   name: DeviceIdentifier
   nameWithType: PocketDeviceInfo.DeviceIdentifier
   fullName: SuperOffice.CRM.Services.PocketDeviceInfo.DeviceIdentifier
 - uid: SuperOffice.CRM.Services.PocketDeviceInfo.PocketVersion*
   commentId: Overload:SuperOffice.CRM.Services.PocketDeviceInfo.PocketVersion
   isExternal: true
-  href: SuperOffice.CRM.Services.PocketDeviceInfo.html#SuperOffice_CRM_Services_PocketDeviceInfo_PocketVersion
   name: PocketVersion
   nameWithType: PocketDeviceInfo.PocketVersion
   fullName: SuperOffice.CRM.Services.PocketDeviceInfo.PocketVersion
 - uid: SuperOffice.CRM.Services.PocketDeviceInfo.Language*
   commentId: Overload:SuperOffice.CRM.Services.PocketDeviceInfo.Language
   isExternal: true
-  href: SuperOffice.CRM.Services.PocketDeviceInfo.html#SuperOffice_CRM_Services_PocketDeviceInfo_Language
   name: Language
   nameWithType: PocketDeviceInfo.Language
   fullName: SuperOffice.CRM.Services.PocketDeviceInfo.Language
 - uid: SuperOffice.CRM.Services.PocketDeviceInfo.PNSHandle*
   commentId: Overload:SuperOffice.CRM.Services.PocketDeviceInfo.PNSHandle
   isExternal: true
-  href: SuperOffice.CRM.Services.PocketDeviceInfo.html#SuperOffice_CRM_Services_PocketDeviceInfo_PNSHandle
   name: PNSHandle
   nameWithType: PocketDeviceInfo.PNSHandle
   fullName: SuperOffice.CRM.Services.PocketDeviceInfo.PNSHandle
 - uid: SuperOffice.CRM.Services.PocketDeviceInfo.Platform*
   commentId: Overload:SuperOffice.CRM.Services.PocketDeviceInfo.Platform
   isExternal: true
-  href: SuperOffice.CRM.Services.PocketDeviceInfo.html#SuperOffice_CRM_Services_PocketDeviceInfo_Platform
   name: Platform
   nameWithType: PocketDeviceInfo.Platform
   fullName: SuperOffice.CRM.Services.PocketDeviceInfo.Platform
@@ -779,14 +492,12 @@ references:
 - uid: SuperOffice.CRM.Services.PocketDeviceInfo.OSVersion*
   commentId: Overload:SuperOffice.CRM.Services.PocketDeviceInfo.OSVersion
   isExternal: true
-  href: SuperOffice.CRM.Services.PocketDeviceInfo.html#SuperOffice_CRM_Services_PocketDeviceInfo_OSVersion
   name: OSVersion
   nameWithType: PocketDeviceInfo.OSVersion
   fullName: SuperOffice.CRM.Services.PocketDeviceInfo.OSVersion
 - uid: SuperOffice.CRM.Services.PocketDeviceInfo.TimeZoneId*
   commentId: Overload:SuperOffice.CRM.Services.PocketDeviceInfo.TimeZoneId
   isExternal: true
-  href: SuperOffice.CRM.Services.PocketDeviceInfo.html#SuperOffice_CRM_Services_PocketDeviceInfo_TimeZoneId
   name: TimeZoneId
   nameWithType: PocketDeviceInfo.TimeZoneId
   fullName: SuperOffice.CRM.Services.PocketDeviceInfo.TimeZoneId
@@ -794,10 +505,6 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

@@ -25,27 +25,18 @@ items:
   nameWithType: AttachmentPreview
   fullName: SuperOffice.CRM.Services.AttachmentPreview
   type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Service attachment data intended for preview purposes
-
-    <p></p>
-
-    Carrier object for AttachmentPreview.
-
-    Services for the AttachmentPreview Carrier is available from the <xref href="SuperOffice.CRM.Services.ITicketAgent?text=Ticket+Agent" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nService attachment data intended for preview purposes\n<p></p>\nCarrier object for AttachmentPreview.\nServices for the AttachmentPreview Carrier is available from the <xref href=\"SuperOffice.CRM.Services.ITicketAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public class AttachmentPreview : Carrier
+    content: 'public class AttachmentPreview : Carrier'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
-
-      Public Class AttachmentPreview Inherits Carrier
+      Public Class AttachmentPreview
+          Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.TicketAgent
     commentId: T:SuperOffice.CRM.Services.TicketAgent
@@ -53,14 +44,12 @@ items:
     commentId: T:SuperOffice.CRM.Services.ITicketAgent
   inheritance:
   - System.Object
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.AttachmentPreview.#ctor
   commentId: M:SuperOffice.CRM.Services.AttachmentPreview.#ctor
   id: '#ctor'
@@ -72,18 +61,21 @@ items:
   nameWithType: AttachmentPreview.AttachmentPreview()
   fullName: SuperOffice.CRM.Services.AttachmentPreview.AttachmentPreview()
   type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Default constructor
-  example: []
+  summary: "\nDefault constructor\n"
   syntax:
     content: public AttachmentPreview()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.AttachmentPreview.#ctor*
-  nameWithType.vb: AttachmentPreview.New()
-  fullName.vb: SuperOffice.CRM.Services.AttachmentPreview.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.AttachmentPreview.ToString
   commentId: M:SuperOffice.CRM.Services.AttachmentPreview.ToString
   id: ToString
@@ -95,18 +87,26 @@ items:
   nameWithType: AttachmentPreview.ToString()
   fullName: SuperOffice.CRM.Services.AttachmentPreview.ToString()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the carrier contents as a formatted string.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string.\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString() As String
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.CRM.Services.AttachmentPreview.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Services.AttachmentPreview.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.AttachmentPreview.ToString(System.String)
   id: ToString(System.String)
@@ -114,18 +114,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(string)
-  nameWithType: AttachmentPreview.ToString(string)
-  fullName: SuperOffice.CRM.Services.AttachmentPreview.ToString(string)
+  name: ToString(String)
+  nameWithType: AttachmentPreview.ToString(String)
+  fullName: SuperOffice.CRM.Services.AttachmentPreview.ToString(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Returns the carrier contents as a formatted string, useful for debugging.
-
-    Each line in the output is prefixed with the input value.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -137,9 +136,10 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.AttachmentPreview.ToString*
-  nameWithType.vb: AttachmentPreview.ToString(String)
-  fullName.vb: SuperOffice.CRM.Services.AttachmentPreview.ToString(String)
-  name.vb: ToString(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.AttachmentPreview.Name
   commentId: P:SuperOffice.CRM.Services.AttachmentPreview.Name
   id: Name
@@ -151,28 +151,28 @@ items:
   nameWithType: AttachmentPreview.Name
   fullName: SuperOffice.CRM.Services.AttachmentPreview.Name
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Name of the attachment file
-  example: []
+  summary: "\nName of the attachment file \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string Name { get; set; }
+    content: public virtual string Name { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Name As String
+    content.vb: Public Overridable Property Name As String
   overload: SuperOffice.CRM.Services.AttachmentPreview.Name*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.AttachmentPreview.MimeType
   commentId: P:SuperOffice.CRM.Services.AttachmentPreview.MimeType
   id: MimeType
@@ -184,28 +184,28 @@ items:
   nameWithType: AttachmentPreview.MimeType
   fullName: SuperOffice.CRM.Services.AttachmentPreview.MimeType
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The mimetype of the attachment
-  example: []
+  summary: "\nThe mimetype of the attachment \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string MimeType { get; set; }
+    content: public virtual string MimeType { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property MimeType As String
+    content.vb: Public Overridable Property MimeType As String
   overload: SuperOffice.CRM.Services.AttachmentPreview.MimeType*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.AttachmentPreview.Size
   commentId: P:SuperOffice.CRM.Services.AttachmentPreview.Size
   id: Size
@@ -217,28 +217,28 @@ items:
   nameWithType: AttachmentPreview.Size
   fullName: SuperOffice.CRM.Services.AttachmentPreview.Size
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Size of the attachment in bytes
-  example: []
+  summary: "\nSize of the attachment in bytes \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int Size { get; set; }
+    content: public virtual int Size { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Size As Integer
+    content.vb: Public Overridable Property Size As Integer
   overload: SuperOffice.CRM.Services.AttachmentPreview.Size*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.AttachmentPreview.Content
   commentId: P:SuperOffice.CRM.Services.AttachmentPreview.Content
   id: Content
@@ -250,28 +250,28 @@ items:
   nameWithType: AttachmentPreview.Content
   fullName: SuperOffice.CRM.Services.AttachmentPreview.Content
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Attachment data
-  example: []
+  summary: "\nAttachment data \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual byte[] Content { get; set; }
+    content: public virtual byte[] Content { get; set; }
     parameters: []
     return:
       type: System.Byte[]
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Content As Byte()
+    content.vb: Public Overridable Property Content As Byte()
   overload: SuperOffice.CRM.Services.AttachmentPreview.Content*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.AttachmentPreview.EmailSubject
   commentId: P:SuperOffice.CRM.Services.AttachmentPreview.EmailSubject
   id: EmailSubject
@@ -283,28 +283,28 @@ items:
   nameWithType: AttachmentPreview.EmailSubject
   fullName: SuperOffice.CRM.Services.AttachmentPreview.EmailSubject
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Subject of the attached RFC822 email. Null for non-RFC822 attachment
-  example: []
+  summary: "\nSubject of the attached RFC822 email. Null for non-RFC822 attachment \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string EmailSubject { get; set; }
+    content: public virtual string EmailSubject { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property EmailSubject As String
+    content.vb: Public Overridable Property EmailSubject As String
   overload: SuperOffice.CRM.Services.AttachmentPreview.EmailSubject*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.AttachmentPreview.EmailFrom
   commentId: P:SuperOffice.CRM.Services.AttachmentPreview.EmailFrom
   id: EmailFrom
@@ -316,28 +316,28 @@ items:
   nameWithType: AttachmentPreview.EmailFrom
   fullName: SuperOffice.CRM.Services.AttachmentPreview.EmailFrom
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: From field of the attached RFC822 email. Null for non-RFC822 attachment
-  example: []
+  summary: "\nFrom field of the attached RFC822 email. Null for non-RFC822 attachment \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string EmailFrom { get; set; }
+    content: public virtual string EmailFrom { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property EmailFrom As String
+    content.vb: Public Overridable Property EmailFrom As String
   overload: SuperOffice.CRM.Services.AttachmentPreview.EmailFrom*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.AttachmentPreview.EmailTo
   commentId: P:SuperOffice.CRM.Services.AttachmentPreview.EmailTo
   id: EmailTo
@@ -349,28 +349,28 @@ items:
   nameWithType: AttachmentPreview.EmailTo
   fullName: SuperOffice.CRM.Services.AttachmentPreview.EmailTo
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: To field of the attached RFC822 email. Null for non-RFC822 attachment
-  example: []
+  summary: "\nTo field of the attached RFC822 email. Null for non-RFC822 attachment \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string EmailTo { get; set; }
+    content: public virtual string EmailTo { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property EmailTo As String
+    content.vb: Public Overridable Property EmailTo As String
   overload: SuperOffice.CRM.Services.AttachmentPreview.EmailTo*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.AttachmentPreview.EmailCc
   commentId: P:SuperOffice.CRM.Services.AttachmentPreview.EmailCc
   id: EmailCc
@@ -382,28 +382,28 @@ items:
   nameWithType: AttachmentPreview.EmailCc
   fullName: SuperOffice.CRM.Services.AttachmentPreview.EmailCc
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Cc field of the attached RFC822 email. Null for non-RFC822 attachment
-  example: []
+  summary: "\nCc field of the attached RFC822 email. Null for non-RFC822 attachment \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string EmailCc { get; set; }
+    content: public virtual string EmailCc { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property EmailCc As String
+    content.vb: Public Overridable Property EmailCc As String
   overload: SuperOffice.CRM.Services.AttachmentPreview.EmailCc*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.AttachmentPreview.EmailDate
   commentId: P:SuperOffice.CRM.Services.AttachmentPreview.EmailDate
   id: EmailDate
@@ -415,28 +415,28 @@ items:
   nameWithType: AttachmentPreview.EmailDate
   fullName: SuperOffice.CRM.Services.AttachmentPreview.EmailDate
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Date of the attached RFC822 email. Default DateTime value for non-RFC822 attachment
-  example: []
+  summary: "\nDate of the attached RFC822 email. Default DateTime value for non-RFC822 attachment \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual DateTime EmailDate { get; set; }
+    content: public virtual DateTime EmailDate { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property EmailDate As Date
+    content.vb: Public Overridable Property EmailDate As DateTime
   overload: SuperOffice.CRM.Services.AttachmentPreview.EmailDate*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.AttachmentPreview.EmailAttachmentsInfo
   commentId: P:SuperOffice.CRM.Services.AttachmentPreview.EmailAttachmentsInfo
   id: EmailAttachmentsInfo
@@ -448,33 +448,38 @@ items:
   nameWithType: AttachmentPreview.EmailAttachmentsInfo
   fullName: SuperOffice.CRM.Services.AttachmentPreview.EmailAttachmentsInfo
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The attachments inside the attached RFC822 email. Empty array for non-RFC822 attachment
-  example: []
+  summary: "\nThe attachments inside the attached RFC822 email. Empty array for non-RFC822 attachment \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual AttachmentEntity[] EmailAttachmentsInfo { get; set; }
+    content: public virtual AttachmentEntity[] EmailAttachmentsInfo { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.AttachmentEntity[]
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property EmailAttachmentsInfo As AttachmentEntity()
+    content.vb: Public Overridable Property EmailAttachmentsInfo As AttachmentEntity()
   overload: SuperOffice.CRM.Services.AttachmentPreview.EmailAttachmentsInfo*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
 - uid: SuperOffice.CRM.Services.TicketAgent
   commentId: T:SuperOffice.CRM.Services.TicketAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.TicketAgent.html
   name: TicketAgent
   nameWithType: TicketAgent
   fullName: SuperOffice.CRM.Services.TicketAgent
@@ -482,79 +487,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.ITicketAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.ITicketAgent.html
   name: ITicketAgent
   nameWithType: ITicketAgent
   fullName: SuperOffice.CRM.Services.ITicketAgent
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.AttachmentPreview.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.AttachmentPreview.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.AttachmentPreview.html#SuperOffice_CRM_Services_AttachmentPreview__ctor
   name: AttachmentPreview
   nameWithType: AttachmentPreview.AttachmentPreview
   fullName: SuperOffice.CRM.Services.AttachmentPreview.AttachmentPreview
-  nameWithType.vb: AttachmentPreview.New
-  fullName.vb: SuperOffice.CRM.Services.AttachmentPreview.New
-  name.vb: New
 - uid: SuperOffice.CRM.Services.AttachmentPreview.ToString*
   commentId: Overload:SuperOffice.CRM.Services.AttachmentPreview.ToString
   isExternal: true
-  href: SuperOffice.CRM.Services.AttachmentPreview.html#SuperOffice_CRM_Services_AttachmentPreview_ToString
   name: ToString
   nameWithType: AttachmentPreview.ToString
   fullName: SuperOffice.CRM.Services.AttachmentPreview.ToString
@@ -562,31 +506,30 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.AttachmentPreview.Name*
   commentId: Overload:SuperOffice.CRM.Services.AttachmentPreview.Name
   isExternal: true
-  href: SuperOffice.CRM.Services.AttachmentPreview.html#SuperOffice_CRM_Services_AttachmentPreview_Name
   name: Name
   nameWithType: AttachmentPreview.Name
   fullName: SuperOffice.CRM.Services.AttachmentPreview.Name
 - uid: SuperOffice.CRM.Services.AttachmentPreview.MimeType*
   commentId: Overload:SuperOffice.CRM.Services.AttachmentPreview.MimeType
   isExternal: true
-  href: SuperOffice.CRM.Services.AttachmentPreview.html#SuperOffice_CRM_Services_AttachmentPreview_MimeType
   name: MimeType
   nameWithType: AttachmentPreview.MimeType
   fullName: SuperOffice.CRM.Services.AttachmentPreview.MimeType
 - uid: SuperOffice.CRM.Services.AttachmentPreview.Size*
   commentId: Overload:SuperOffice.CRM.Services.AttachmentPreview.Size
   isExternal: true
-  href: SuperOffice.CRM.Services.AttachmentPreview.html#SuperOffice_CRM_Services_AttachmentPreview_Size
   name: Size
   nameWithType: AttachmentPreview.Size
   fullName: SuperOffice.CRM.Services.AttachmentPreview.Size
@@ -594,99 +537,84 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Services.AttachmentPreview.Content*
   commentId: Overload:SuperOffice.CRM.Services.AttachmentPreview.Content
   isExternal: true
-  href: SuperOffice.CRM.Services.AttachmentPreview.html#SuperOffice_CRM_Services_AttachmentPreview_Content
   name: Content
   nameWithType: AttachmentPreview.Content
   fullName: SuperOffice.CRM.Services.AttachmentPreview.Content
 - uid: System.Byte[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.byte
-  name: byte[]
-  nameWithType: byte[]
-  fullName: byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
   nameWithType.vb: Byte()
-  fullName.vb: Byte()
+  fullName.vb: System.Byte()
   name.vb: Byte()
   spec.csharp:
   - uid: System.Byte
-    name: byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.byte
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.Byte
     name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.byte
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.AttachmentPreview.EmailSubject*
   commentId: Overload:SuperOffice.CRM.Services.AttachmentPreview.EmailSubject
   isExternal: true
-  href: SuperOffice.CRM.Services.AttachmentPreview.html#SuperOffice_CRM_Services_AttachmentPreview_EmailSubject
   name: EmailSubject
   nameWithType: AttachmentPreview.EmailSubject
   fullName: SuperOffice.CRM.Services.AttachmentPreview.EmailSubject
 - uid: SuperOffice.CRM.Services.AttachmentPreview.EmailFrom*
   commentId: Overload:SuperOffice.CRM.Services.AttachmentPreview.EmailFrom
   isExternal: true
-  href: SuperOffice.CRM.Services.AttachmentPreview.html#SuperOffice_CRM_Services_AttachmentPreview_EmailFrom
   name: EmailFrom
   nameWithType: AttachmentPreview.EmailFrom
   fullName: SuperOffice.CRM.Services.AttachmentPreview.EmailFrom
 - uid: SuperOffice.CRM.Services.AttachmentPreview.EmailTo*
   commentId: Overload:SuperOffice.CRM.Services.AttachmentPreview.EmailTo
   isExternal: true
-  href: SuperOffice.CRM.Services.AttachmentPreview.html#SuperOffice_CRM_Services_AttachmentPreview_EmailTo
   name: EmailTo
   nameWithType: AttachmentPreview.EmailTo
   fullName: SuperOffice.CRM.Services.AttachmentPreview.EmailTo
 - uid: SuperOffice.CRM.Services.AttachmentPreview.EmailCc*
   commentId: Overload:SuperOffice.CRM.Services.AttachmentPreview.EmailCc
   isExternal: true
-  href: SuperOffice.CRM.Services.AttachmentPreview.html#SuperOffice_CRM_Services_AttachmentPreview_EmailCc
   name: EmailCc
   nameWithType: AttachmentPreview.EmailCc
   fullName: SuperOffice.CRM.Services.AttachmentPreview.EmailCc
 - uid: SuperOffice.CRM.Services.AttachmentPreview.EmailDate*
   commentId: Overload:SuperOffice.CRM.Services.AttachmentPreview.EmailDate
   isExternal: true
-  href: SuperOffice.CRM.Services.AttachmentPreview.html#SuperOffice_CRM_Services_AttachmentPreview_EmailDate
   name: EmailDate
   nameWithType: AttachmentPreview.EmailDate
   fullName: SuperOffice.CRM.Services.AttachmentPreview.EmailDate
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
 - uid: SuperOffice.CRM.Services.AttachmentPreview.EmailAttachmentsInfo*
   commentId: Overload:SuperOffice.CRM.Services.AttachmentPreview.EmailAttachmentsInfo
   isExternal: true
-  href: SuperOffice.CRM.Services.AttachmentPreview.html#SuperOffice_CRM_Services_AttachmentPreview_EmailAttachmentsInfo
   name: EmailAttachmentsInfo
   nameWithType: AttachmentPreview.EmailAttachmentsInfo
   fullName: SuperOffice.CRM.Services.AttachmentPreview.EmailAttachmentsInfo
 - uid: SuperOffice.CRM.Services.AttachmentEntity[]
   isExternal: true
-  href: SuperOffice.CRM.Services.AttachmentEntity.html
   name: AttachmentEntity[]
   nameWithType: AttachmentEntity[]
   fullName: SuperOffice.CRM.Services.AttachmentEntity[]
@@ -696,14 +624,18 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.AttachmentEntity
     name: AttachmentEntity
+    nameWithType: AttachmentEntity
+    fullName: SuperOffice.CRM.Services.AttachmentEntity
     isExternal: true
-    href: SuperOffice.CRM.Services.AttachmentEntity.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.Services.AttachmentEntity
     name: AttachmentEntity
+    nameWithType: AttachmentEntity
+    fullName: SuperOffice.CRM.Services.AttachmentEntity
     isExternal: true
-    href: SuperOffice.CRM.Services.AttachmentEntity.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()

@@ -37,17 +37,18 @@ items:
   nameWithType: BatchTaskInfo
   fullName: SuperOffice.WebApi.Data.BatchTaskInfo
   type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Carrier object for BatchTaskInfo.
-
-    BatchTaskInfo contains information about one batch task.
-  example: []
+  summary: "\nCarrier object for BatchTaskInfo.\nBatchTaskInfo contains information about one batch task.    \n"
   syntax:
     content: 'public class BatchTaskInfo : Carrier'
-    content.vb: Public Class BatchTaskInfo Inherits Carrier
+    content.vb: >-
+      Public Class BatchTaskInfo
+          Inherits Carrier
   seealso:
   - linkId: SuperOffice.WebApi.Agents.BatchAgent
     commentId: T:SuperOffice.WebApi.Agents.BatchAgent
@@ -57,13 +58,12 @@ items:
   inheritedMembers:
   - SuperOffice.WebApi.Data.Carrier.TableRight
   - SuperOffice.WebApi.Data.Carrier.FieldProperties
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.WebApi.Data.BatchTaskInfo.#ctor
   commentId: M:SuperOffice.WebApi.Data.BatchTaskInfo.#ctor
   id: '#ctor'
@@ -75,18 +75,21 @@ items:
   nameWithType: BatchTaskInfo.BatchTaskInfo()
   fullName: SuperOffice.WebApi.Data.BatchTaskInfo.BatchTaskInfo()
   type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Default constructor - defaults any enum props to 0.
-  example: []
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
   syntax:
     content: public BatchTaskInfo()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.WebApi.Data.BatchTaskInfo.#ctor*
-  nameWithType.vb: BatchTaskInfo.New()
-  fullName.vb: SuperOffice.WebApi.Data.BatchTaskInfo.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.BatchTaskInfo.Id
   commentId: P:SuperOffice.WebApi.Data.BatchTaskInfo.Id
   id: Id
@@ -98,11 +101,13 @@ items:
   nameWithType: BatchTaskInfo.Id
   fullName: SuperOffice.WebApi.Data.BatchTaskInfo.Id
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Id of the task.
-  example: []
+  summary: "\nId of the task.\n"
   syntax:
     content: public virtual int Id { get; set; }
     parameters: []
@@ -110,6 +115,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property Id As Integer
   overload: SuperOffice.WebApi.Data.BatchTaskInfo.Id*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.BatchTaskInfo.Name
   commentId: P:SuperOffice.WebApi.Data.BatchTaskInfo.Name
   id: Name
@@ -121,11 +134,13 @@ items:
   nameWithType: BatchTaskInfo.Name
   fullName: SuperOffice.WebApi.Data.BatchTaskInfo.Name
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Name of the task.
-  example: []
+  summary: "\nName of the task.\n"
   syntax:
     content: public virtual string Name { get; set; }
     parameters: []
@@ -133,6 +148,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property Name As String
   overload: SuperOffice.WebApi.Data.BatchTaskInfo.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.BatchTaskInfo.AssociateId
   commentId: P:SuperOffice.WebApi.Data.BatchTaskInfo.AssociateId
   id: AssociateId
@@ -144,11 +167,13 @@ items:
   nameWithType: BatchTaskInfo.AssociateId
   fullName: SuperOffice.WebApi.Data.BatchTaskInfo.AssociateId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Task owner. If it is a System task, AssociateId = 0.
-  example: []
+  summary: "\nTask owner. If it is a System task, AssociateId = 0.\n"
   syntax:
     content: public virtual int AssociateId { get; set; }
     parameters: []
@@ -156,6 +181,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property AssociateId As Integer
   overload: SuperOffice.WebApi.Data.BatchTaskInfo.AssociateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.BatchTaskInfo.DetailsTable
   commentId: P:SuperOffice.WebApi.Data.BatchTaskInfo.DetailsTable
   id: DetailsTable
@@ -167,11 +200,13 @@ items:
   nameWithType: BatchTaskInfo.DetailsTable
   fullName: SuperOffice.WebApi.Data.BatchTaskInfo.DetailsTable
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Id of table with more information about the task.
-  example: []
+  summary: "\nId of table with more information about the task.\n"
   syntax:
     content: public virtual short DetailsTable { get; set; }
     parameters: []
@@ -179,6 +214,14 @@ items:
       type: System.Int16
     content.vb: Public Overridable Property DetailsTable As Short
   overload: SuperOffice.WebApi.Data.BatchTaskInfo.DetailsTable*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.BatchTaskInfo.DetailsRecord
   commentId: P:SuperOffice.WebApi.Data.BatchTaskInfo.DetailsRecord
   id: DetailsRecord
@@ -190,11 +233,13 @@ items:
   nameWithType: BatchTaskInfo.DetailsRecord
   fullName: SuperOffice.WebApi.Data.BatchTaskInfo.DetailsRecord
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Record Id of a row in the DetailsTable containing more info about the task.
-  example: []
+  summary: "\nRecord Id of a row in the DetailsTable containing more info about the task.\n"
   syntax:
     content: public virtual int DetailsRecord { get; set; }
     parameters: []
@@ -202,6 +247,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property DetailsRecord As Integer
   overload: SuperOffice.WebApi.Data.BatchTaskInfo.DetailsRecord*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.BatchTaskInfo.IsSystemTask
   commentId: P:SuperOffice.WebApi.Data.BatchTaskInfo.IsSystemTask
   id: IsSystemTask
@@ -213,11 +266,13 @@ items:
   nameWithType: BatchTaskInfo.IsSystemTask
   fullName: SuperOffice.WebApi.Data.BatchTaskInfo.IsSystemTask
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: If IsSystemTask is true, the task is not initiated by an associate.
-  example: []
+  summary: "\nIf IsSystemTask is true, the task is not initiated by an associate.\n"
   syntax:
     content: public virtual bool IsSystemTask { get; set; }
     parameters: []
@@ -225,6 +280,14 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property IsSystemTask As Boolean
   overload: SuperOffice.WebApi.Data.BatchTaskInfo.IsSystemTask*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.BatchTaskInfo.IsInternalTask
   commentId: P:SuperOffice.WebApi.Data.BatchTaskInfo.IsInternalTask
   id: IsInternalTask
@@ -236,11 +299,13 @@ items:
   nameWithType: BatchTaskInfo.IsInternalTask
   fullName: SuperOffice.WebApi.Data.BatchTaskInfo.IsInternalTask
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: If IsInternalTask is true, this task will not add a trace to the database.
-  example: []
+  summary: "\nIf IsInternalTask is true, this task will not add a trace to the database.\n"
   syntax:
     content: public virtual bool IsInternalTask { get; set; }
     parameters: []
@@ -248,6 +313,14 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property IsInternalTask As Boolean
   overload: SuperOffice.WebApi.Data.BatchTaskInfo.IsInternalTask*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.BatchTaskInfo.ParameterObject
   commentId: P:SuperOffice.WebApi.Data.BatchTaskInfo.ParameterObject
   id: ParameterObject
@@ -259,11 +332,13 @@ items:
   nameWithType: BatchTaskInfo.ParameterObject
   fullName: SuperOffice.WebApi.Data.BatchTaskInfo.ParameterObject
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: ParameterObject will be serialized to a binary blob and saved in the BinaryObject table. The link to the BinaryObject will be set using DetailsTable and DetailsRecord.
-  example: []
+  summary: "\nParameterObject will be serialized to a binary blob and saved in the BinaryObject table. The link to the BinaryObject will be set using DetailsTable and DetailsRecord.\n"
   syntax:
     content: public virtual StringDictionary ParameterObject { get; set; }
     parameters: []
@@ -271,6 +346,14 @@ items:
       type: SuperOffice.WebApi.Data.StringDictionary
     content.vb: Public Overridable Property ParameterObject As StringDictionary
   overload: SuperOffice.WebApi.Data.BatchTaskInfo.ParameterObject*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.BatchTaskInfo.LastStarted
   commentId: P:SuperOffice.WebApi.Data.BatchTaskInfo.LastStarted
   id: LastStarted
@@ -282,18 +365,28 @@ items:
   nameWithType: BatchTaskInfo.LastStarted
   fullName: SuperOffice.WebApi.Data.BatchTaskInfo.LastStarted
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: When was the task last started.
-  example: []
+  summary: "\nWhen was the task last started.\n"
   syntax:
     content: public virtual DateTime LastStarted { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property LastStarted As Date
+    content.vb: Public Overridable Property LastStarted As DateTime
   overload: SuperOffice.WebApi.Data.BatchTaskInfo.LastStarted*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.BatchTaskInfo.Created
   commentId: P:SuperOffice.WebApi.Data.BatchTaskInfo.Created
   id: Created
@@ -305,18 +398,28 @@ items:
   nameWithType: BatchTaskInfo.Created
   fullName: SuperOffice.WebApi.Data.BatchTaskInfo.Created
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Task creation time.
-  example: []
+  summary: "\nTask creation time.\n"
   syntax:
     content: public virtual DateTime Created { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property Created As Date
+    content.vb: Public Overridable Property Created As DateTime
   overload: SuperOffice.WebApi.Data.BatchTaskInfo.Created*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.BatchTaskInfo.StartCount
   commentId: P:SuperOffice.WebApi.Data.BatchTaskInfo.StartCount
   id: StartCount
@@ -328,11 +431,13 @@ items:
   nameWithType: BatchTaskInfo.StartCount
   fullName: SuperOffice.WebApi.Data.BatchTaskInfo.StartCount
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Maps to the startcount field in the batchtask table.
-  example: []
+  summary: "\nMaps to the startcount field in the batchtask table.\n"
   syntax:
     content: public virtual int StartCount { get; set; }
     parameters: []
@@ -340,6 +445,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property StartCount As Integer
   overload: SuperOffice.WebApi.Data.BatchTaskInfo.StartCount*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.BatchTaskInfo.DatabaseSerialNumber
   commentId: P:SuperOffice.WebApi.Data.BatchTaskInfo.DatabaseSerialNumber
   id: DatabaseSerialNumber
@@ -351,11 +464,13 @@ items:
   nameWithType: BatchTaskInfo.DatabaseSerialNumber
   fullName: SuperOffice.WebApi.Data.BatchTaskInfo.DatabaseSerialNumber
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Serial number of the database the task is to run on.
-  example: []
+  summary: "\nSerial number of the database the task is to run on.\n"
   syntax:
     content: public virtual string DatabaseSerialNumber { get; set; }
     parameters: []
@@ -363,6 +478,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property DatabaseSerialNumber As String
   overload: SuperOffice.WebApi.Data.BatchTaskInfo.DatabaseSerialNumber*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.BatchTaskInfo.Context
   commentId: P:SuperOffice.WebApi.Data.BatchTaskInfo.Context
   id: Context
@@ -374,11 +497,13 @@ items:
   nameWithType: BatchTaskInfo.Context
   fullName: SuperOffice.WebApi.Data.BatchTaskInfo.Context
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Context for the executing task.
-  example: []
+  summary: "\nContext for the executing task.\n"
   syntax:
     content: public virtual string Context { get; set; }
     parameters: []
@@ -386,6 +511,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property Context As String
   overload: SuperOffice.WebApi.Data.BatchTaskInfo.Context*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.BatchTaskInfo.Result
   commentId: P:SuperOffice.WebApi.Data.BatchTaskInfo.Result
   id: Result
@@ -397,11 +530,13 @@ items:
   nameWithType: BatchTaskInfo.Result
   fullName: SuperOffice.WebApi.Data.BatchTaskInfo.Result
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Maps to the result field in the batchtask table.
-  example: []
+  summary: "\nMaps to the result field in the batchtask table.\n"
   syntax:
     content: public virtual string Result { get; set; }
     parameters: []
@@ -409,6 +544,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property Result As String
   overload: SuperOffice.WebApi.Data.BatchTaskInfo.Result*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.BatchTaskInfo.State_String
   commentId: P:SuperOffice.WebApi.Data.BatchTaskInfo.State_String
   id: State_String
@@ -420,36 +563,29 @@ items:
   nameWithType: BatchTaskInfo.State_String
   fullName: SuperOffice.WebApi.Data.BatchTaskInfo.State_String
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    BatchTaskState of the task.
-
-    Raw string enum value.
-  example: []
+  summary: "\nBatchTaskState of the task.\nRaw string enum value.\n"
   syntax:
-    content: >-
-      [JsonProperty("State")]
-
-      public string State_String { get; set; }
+    content: public string State_String { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <JsonProperty("State")>
-
-      Public Property State_String As String
+    content.vb: Public Property State_String As String
   overload: SuperOffice.WebApi.Data.BatchTaskInfo.State_String*
   seealso:
   - linkId: SuperOffice.WebApi.Data.BatchTaskInfo.State
     commentId: P:SuperOffice.WebApi.Data.BatchTaskInfo.State
-  attributes:
-  - type: Newtonsoft.Json.JsonPropertyAttribute
-    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: State
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.BatchTaskInfo.State
   commentId: P:SuperOffice.WebApi.Data.BatchTaskInfo.State
   id: State
@@ -461,34 +597,29 @@ items:
   nameWithType: BatchTaskInfo.State
   fullName: SuperOffice.WebApi.Data.BatchTaskInfo.State
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    BatchTaskState of the task.
-
-    NULL if unknown enum value.
-  example: []
+  summary: "\nBatchTaskState of the task.\nNULL if unknown enum value.\n"
   syntax:
-    content: >-
-      [JsonIgnore]
-
-      public BatchTaskState? State { get; set; }
+    content: public Nullable<BatchTaskState> State { get; set; }
     parameters: []
     return:
       type: System.Nullable{SuperOffice.WebApi.Data.BatchTaskState}
-    content.vb: >-
-      <JsonIgnore>
-
-      Public Property State As BatchTaskState?
+    content.vb: Public Property State As Nullable(Of BatchTaskState)
   overload: SuperOffice.WebApi.Data.BatchTaskInfo.State*
   seealso:
   - linkId: SuperOffice.WebApi.Data.BatchTaskInfo.State_String
     commentId: P:SuperOffice.WebApi.Data.BatchTaskInfo.State_String
-  attributes:
-  - type: Newtonsoft.Json.JsonIgnoreAttribute
-    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.BatchTaskInfo.Description
   commentId: P:SuperOffice.WebApi.Data.BatchTaskInfo.Description
   id: Description
@@ -500,11 +631,13 @@ items:
   nameWithType: BatchTaskInfo.Description
   fullName: SuperOffice.WebApi.Data.BatchTaskInfo.Description
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Description of the task.
-  example: []
+  summary: "\nDescription of the task.\n"
   syntax:
     content: public virtual string Description { get; set; }
     parameters: []
@@ -512,6 +645,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property Description As String
   overload: SuperOffice.WebApi.Data.BatchTaskInfo.Description*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.BatchTaskInfo.Response
   commentId: P:SuperOffice.WebApi.Data.BatchTaskInfo.Response
   id: Response
@@ -523,11 +664,13 @@ items:
   nameWithType: BatchTaskInfo.Response
   fullName: SuperOffice.WebApi.Data.BatchTaskInfo.Response
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Maps to the response field in the batchtask table.
-  example: []
+  summary: "\nMaps to the response field in the batchtask table.\n"
   syntax:
     content: public virtual string Response { get; set; }
     parameters: []
@@ -535,6 +678,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property Response As String
   overload: SuperOffice.WebApi.Data.BatchTaskInfo.Response*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.BatchTaskInfo.Request
   commentId: P:SuperOffice.WebApi.Data.BatchTaskInfo.Request
   id: Request
@@ -546,11 +697,13 @@ items:
   nameWithType: BatchTaskInfo.Request
   fullName: SuperOffice.WebApi.Data.BatchTaskInfo.Request
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Maps to the request field in the batchtask table.
-  example: []
+  summary: "\nMaps to the request field in the batchtask table.\n"
   syntax:
     content: public virtual string Request { get; set; }
     parameters: []
@@ -558,6 +711,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property Request As String
   overload: SuperOffice.WebApi.Data.BatchTaskInfo.Request*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.BatchTaskInfo.ProgressDescription
   commentId: P:SuperOffice.WebApi.Data.BatchTaskInfo.ProgressDescription
   id: ProgressDescription
@@ -569,11 +730,13 @@ items:
   nameWithType: BatchTaskInfo.ProgressDescription
   fullName: SuperOffice.WebApi.Data.BatchTaskInfo.ProgressDescription
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Descriptive text for the current stage
-  example: []
+  summary: "\nDescriptive text for the current stage\n"
   syntax:
     content: public virtual string ProgressDescription { get; set; }
     parameters: []
@@ -581,6 +744,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property ProgressDescription As String
   overload: SuperOffice.WebApi.Data.BatchTaskInfo.ProgressDescription*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.BatchTaskInfo.ProgressPercent
   commentId: P:SuperOffice.WebApi.Data.BatchTaskInfo.ProgressPercent
   id: ProgressPercent
@@ -592,11 +763,13 @@ items:
   nameWithType: BatchTaskInfo.ProgressPercent
   fullName: SuperOffice.WebApi.Data.BatchTaskInfo.ProgressPercent
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Task progress, in percent of estimated total
-  example: []
+  summary: "\nTask progress, in percent of estimated total\n"
   syntax:
     content: public virtual short ProgressPercent { get; set; }
     parameters: []
@@ -604,6 +777,14 @@ items:
       type: System.Int16
     content.vb: Public Overridable Property ProgressPercent As Short
   overload: SuperOffice.WebApi.Data.BatchTaskInfo.ProgressPercent*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.BatchTaskInfo.FileName
   commentId: P:SuperOffice.WebApi.Data.BatchTaskInfo.FileName
   id: FileName
@@ -615,11 +796,13 @@ items:
   nameWithType: BatchTaskInfo.FileName
   fullName: SuperOffice.WebApi.Data.BatchTaskInfo.FileName
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The filename related to the batchtask.
-  example: []
+  summary: "\nThe filename related to the batchtask.\n"
   syntax:
     content: public virtual string FileName { get; set; }
     parameters: []
@@ -627,6 +810,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property FileName As String
   overload: SuperOffice.WebApi.Data.BatchTaskInfo.FileName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.BatchTaskInfo.CancellationBehaviour_String
   commentId: P:SuperOffice.WebApi.Data.BatchTaskInfo.CancellationBehaviour_String
   id: CancellationBehaviour_String
@@ -638,36 +829,29 @@ items:
   nameWithType: BatchTaskInfo.CancellationBehaviour_String
   fullName: SuperOffice.WebApi.Data.BatchTaskInfo.CancellationBehaviour_String
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Indicate if the task can be stopped.
-
-    Raw string enum value.
-  example: []
+  summary: "\nIndicate if the task can be stopped.\nRaw string enum value.\n"
   syntax:
-    content: >-
-      [JsonProperty("CancellationBehaviour")]
-
-      public string CancellationBehaviour_String { get; set; }
+    content: public string CancellationBehaviour_String { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <JsonProperty("CancellationBehaviour")>
-
-      Public Property CancellationBehaviour_String As String
+    content.vb: Public Property CancellationBehaviour_String As String
   overload: SuperOffice.WebApi.Data.BatchTaskInfo.CancellationBehaviour_String*
   seealso:
   - linkId: SuperOffice.WebApi.Data.BatchTaskInfo.CancellationBehaviour
     commentId: P:SuperOffice.WebApi.Data.BatchTaskInfo.CancellationBehaviour
-  attributes:
-  - type: Newtonsoft.Json.JsonPropertyAttribute
-    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: CancellationBehaviour
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.BatchTaskInfo.CancellationBehaviour
   commentId: P:SuperOffice.WebApi.Data.BatchTaskInfo.CancellationBehaviour
   id: CancellationBehaviour
@@ -679,95 +863,47 @@ items:
   nameWithType: BatchTaskInfo.CancellationBehaviour
   fullName: SuperOffice.WebApi.Data.BatchTaskInfo.CancellationBehaviour
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Indicate if the task can be stopped.
-
-    NULL if unknown enum value.
-  example: []
+  summary: "\nIndicate if the task can be stopped.\nNULL if unknown enum value.\n"
   syntax:
-    content: >-
-      [JsonIgnore]
-
-      public BatchTaskCancellationBehaviour? CancellationBehaviour { get; set; }
+    content: public Nullable<BatchTaskCancellationBehaviour> CancellationBehaviour { get; set; }
     parameters: []
     return:
       type: System.Nullable{SuperOffice.WebApi.Data.BatchTaskCancellationBehaviour}
-    content.vb: >-
-      <JsonIgnore>
-
-      Public Property CancellationBehaviour As BatchTaskCancellationBehaviour?
+    content.vb: Public Property CancellationBehaviour As Nullable(Of BatchTaskCancellationBehaviour)
   overload: SuperOffice.WebApi.Data.BatchTaskInfo.CancellationBehaviour*
   seealso:
   - linkId: SuperOffice.WebApi.Data.BatchTaskInfo.CancellationBehaviour_String
     commentId: P:SuperOffice.WebApi.Data.BatchTaskInfo.CancellationBehaviour_String
-  attributes:
-  - type: Newtonsoft.Json.JsonIgnoreAttribute
-    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 references:
-- uid: SuperOffice.WebApi.Agents.BatchAgent
-  commentId: T:SuperOffice.WebApi.Agents.BatchAgent
-  isExternal: true
-  href: SuperOffice.WebApi.Agents.BatchAgent.html
-  name: BatchAgent
-  nameWithType: BatchAgent
-  fullName: SuperOffice.WebApi.Agents.BatchAgent
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.WebApi.Data.Carrier
   commentId: T:SuperOffice.WebApi.Data.Carrier
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html
   name: Carrier
   nameWithType: Carrier
   fullName: SuperOffice.WebApi.Data.Carrier
@@ -775,7 +911,6 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_TableRight
   name: TableRight
   nameWithType: Carrier.TableRight
   fullName: SuperOffice.WebApi.Data.Carrier.TableRight
@@ -783,250 +918,30 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_FieldProperties
   name: FieldProperties
   nameWithType: Carrier.FieldProperties
   fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
+- uid: SuperOffice.WebApi.Agents.BatchAgent
+  commentId: T:SuperOffice.WebApi.Agents.BatchAgent
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: BatchAgent
+  nameWithType: BatchAgent
+  fullName: SuperOffice.WebApi.Agents.BatchAgent
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Data.BatchTaskInfo.#ctor*
   commentId: Overload:SuperOffice.WebApi.Data.BatchTaskInfo.#ctor
   isExternal: true
-  href: SuperOffice.WebApi.Data.BatchTaskInfo.html#SuperOffice_WebApi_Data_BatchTaskInfo__ctor
   name: BatchTaskInfo
   nameWithType: BatchTaskInfo.BatchTaskInfo
   fullName: SuperOffice.WebApi.Data.BatchTaskInfo.BatchTaskInfo
-  nameWithType.vb: BatchTaskInfo.New
-  fullName.vb: SuperOffice.WebApi.Data.BatchTaskInfo.New
-  name.vb: New
 - uid: SuperOffice.WebApi.Data.BatchTaskInfo.Id*
   commentId: Overload:SuperOffice.WebApi.Data.BatchTaskInfo.Id
   isExternal: true
-  href: SuperOffice.WebApi.Data.BatchTaskInfo.html#SuperOffice_WebApi_Data_BatchTaskInfo_Id
   name: Id
   nameWithType: BatchTaskInfo.Id
   fullName: SuperOffice.WebApi.Data.BatchTaskInfo.Id
@@ -1034,17 +949,12 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.WebApi.Data.BatchTaskInfo.Name*
   commentId: Overload:SuperOffice.WebApi.Data.BatchTaskInfo.Name
   isExternal: true
-  href: SuperOffice.WebApi.Data.BatchTaskInfo.html#SuperOffice_WebApi_Data_BatchTaskInfo_Name
   name: Name
   nameWithType: BatchTaskInfo.Name
   fullName: SuperOffice.WebApi.Data.BatchTaskInfo.Name
@@ -1052,24 +962,18 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.WebApi.Data.BatchTaskInfo.AssociateId*
   commentId: Overload:SuperOffice.WebApi.Data.BatchTaskInfo.AssociateId
   isExternal: true
-  href: SuperOffice.WebApi.Data.BatchTaskInfo.html#SuperOffice_WebApi_Data_BatchTaskInfo_AssociateId
   name: AssociateId
   nameWithType: BatchTaskInfo.AssociateId
   fullName: SuperOffice.WebApi.Data.BatchTaskInfo.AssociateId
 - uid: SuperOffice.WebApi.Data.BatchTaskInfo.DetailsTable*
   commentId: Overload:SuperOffice.WebApi.Data.BatchTaskInfo.DetailsTable
   isExternal: true
-  href: SuperOffice.WebApi.Data.BatchTaskInfo.html#SuperOffice_WebApi_Data_BatchTaskInfo_DetailsTable
   name: DetailsTable
   nameWithType: BatchTaskInfo.DetailsTable
   fullName: SuperOffice.WebApi.Data.BatchTaskInfo.DetailsTable
@@ -1077,24 +981,18 @@ references:
   commentId: T:System.Int16
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int16
-  name: short
-  nameWithType: short
-  fullName: short
-  nameWithType.vb: Short
-  fullName.vb: Short
-  name.vb: Short
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.WebApi.Data.BatchTaskInfo.DetailsRecord*
   commentId: Overload:SuperOffice.WebApi.Data.BatchTaskInfo.DetailsRecord
   isExternal: true
-  href: SuperOffice.WebApi.Data.BatchTaskInfo.html#SuperOffice_WebApi_Data_BatchTaskInfo_DetailsRecord
   name: DetailsRecord
   nameWithType: BatchTaskInfo.DetailsRecord
   fullName: SuperOffice.WebApi.Data.BatchTaskInfo.DetailsRecord
 - uid: SuperOffice.WebApi.Data.BatchTaskInfo.IsSystemTask*
   commentId: Overload:SuperOffice.WebApi.Data.BatchTaskInfo.IsSystemTask
   isExternal: true
-  href: SuperOffice.WebApi.Data.BatchTaskInfo.html#SuperOffice_WebApi_Data_BatchTaskInfo_IsSystemTask
   name: IsSystemTask
   nameWithType: BatchTaskInfo.IsSystemTask
   fullName: SuperOffice.WebApi.Data.BatchTaskInfo.IsSystemTask
@@ -1102,24 +1000,18 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.WebApi.Data.BatchTaskInfo.IsInternalTask*
   commentId: Overload:SuperOffice.WebApi.Data.BatchTaskInfo.IsInternalTask
   isExternal: true
-  href: SuperOffice.WebApi.Data.BatchTaskInfo.html#SuperOffice_WebApi_Data_BatchTaskInfo_IsInternalTask
   name: IsInternalTask
   nameWithType: BatchTaskInfo.IsInternalTask
   fullName: SuperOffice.WebApi.Data.BatchTaskInfo.IsInternalTask
 - uid: SuperOffice.WebApi.Data.BatchTaskInfo.ParameterObject*
   commentId: Overload:SuperOffice.WebApi.Data.BatchTaskInfo.ParameterObject
   isExternal: true
-  href: SuperOffice.WebApi.Data.BatchTaskInfo.html#SuperOffice_WebApi_Data_BatchTaskInfo_ParameterObject
   name: ParameterObject
   nameWithType: BatchTaskInfo.ParameterObject
   fullName: SuperOffice.WebApi.Data.BatchTaskInfo.ParameterObject
@@ -1127,226 +1019,243 @@ references:
   commentId: T:SuperOffice.WebApi.Data.StringDictionary
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.StringDictionary.html
   name: StringDictionary
   nameWithType: StringDictionary
   fullName: SuperOffice.WebApi.Data.StringDictionary
 - uid: SuperOffice.WebApi.Data.BatchTaskInfo.LastStarted*
   commentId: Overload:SuperOffice.WebApi.Data.BatchTaskInfo.LastStarted
   isExternal: true
-  href: SuperOffice.WebApi.Data.BatchTaskInfo.html#SuperOffice_WebApi_Data_BatchTaskInfo_LastStarted
   name: LastStarted
   nameWithType: BatchTaskInfo.LastStarted
   fullName: SuperOffice.WebApi.Data.BatchTaskInfo.LastStarted
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
 - uid: SuperOffice.WebApi.Data.BatchTaskInfo.Created*
   commentId: Overload:SuperOffice.WebApi.Data.BatchTaskInfo.Created
   isExternal: true
-  href: SuperOffice.WebApi.Data.BatchTaskInfo.html#SuperOffice_WebApi_Data_BatchTaskInfo_Created
   name: Created
   nameWithType: BatchTaskInfo.Created
   fullName: SuperOffice.WebApi.Data.BatchTaskInfo.Created
 - uid: SuperOffice.WebApi.Data.BatchTaskInfo.StartCount*
   commentId: Overload:SuperOffice.WebApi.Data.BatchTaskInfo.StartCount
   isExternal: true
-  href: SuperOffice.WebApi.Data.BatchTaskInfo.html#SuperOffice_WebApi_Data_BatchTaskInfo_StartCount
   name: StartCount
   nameWithType: BatchTaskInfo.StartCount
   fullName: SuperOffice.WebApi.Data.BatchTaskInfo.StartCount
 - uid: SuperOffice.WebApi.Data.BatchTaskInfo.DatabaseSerialNumber*
   commentId: Overload:SuperOffice.WebApi.Data.BatchTaskInfo.DatabaseSerialNumber
   isExternal: true
-  href: SuperOffice.WebApi.Data.BatchTaskInfo.html#SuperOffice_WebApi_Data_BatchTaskInfo_DatabaseSerialNumber
   name: DatabaseSerialNumber
   nameWithType: BatchTaskInfo.DatabaseSerialNumber
   fullName: SuperOffice.WebApi.Data.BatchTaskInfo.DatabaseSerialNumber
 - uid: SuperOffice.WebApi.Data.BatchTaskInfo.Context*
   commentId: Overload:SuperOffice.WebApi.Data.BatchTaskInfo.Context
   isExternal: true
-  href: SuperOffice.WebApi.Data.BatchTaskInfo.html#SuperOffice_WebApi_Data_BatchTaskInfo_Context
   name: Context
   nameWithType: BatchTaskInfo.Context
   fullName: SuperOffice.WebApi.Data.BatchTaskInfo.Context
 - uid: SuperOffice.WebApi.Data.BatchTaskInfo.Result*
   commentId: Overload:SuperOffice.WebApi.Data.BatchTaskInfo.Result
   isExternal: true
-  href: SuperOffice.WebApi.Data.BatchTaskInfo.html#SuperOffice_WebApi_Data_BatchTaskInfo_Result
   name: Result
   nameWithType: BatchTaskInfo.Result
   fullName: SuperOffice.WebApi.Data.BatchTaskInfo.Result
-- uid: SuperOffice.WebApi.Data.BatchTaskInfo.State
-  commentId: P:SuperOffice.WebApi.Data.BatchTaskInfo.State
-  isExternal: true
-  href: SuperOffice.WebApi.Data.BatchTaskInfo.html#SuperOffice_WebApi_Data_BatchTaskInfo_State
-  name: State
-  nameWithType: BatchTaskInfo.State
-  fullName: SuperOffice.WebApi.Data.BatchTaskInfo.State
 - uid: SuperOffice.WebApi.Data.BatchTaskInfo.State_String*
   commentId: Overload:SuperOffice.WebApi.Data.BatchTaskInfo.State_String
   isExternal: true
-  href: SuperOffice.WebApi.Data.BatchTaskInfo.html#SuperOffice_WebApi_Data_BatchTaskInfo_State_String
   name: State_String
   nameWithType: BatchTaskInfo.State_String
   fullName: SuperOffice.WebApi.Data.BatchTaskInfo.State_String
-- uid: SuperOffice.WebApi.Data.BatchTaskInfo.State_String
-  commentId: P:SuperOffice.WebApi.Data.BatchTaskInfo.State_String
+- uid: SuperOffice.WebApi.Data.BatchTaskInfo.State
+  commentId: P:SuperOffice.WebApi.Data.BatchTaskInfo.State
   isExternal: true
-  href: SuperOffice.WebApi.Data.BatchTaskInfo.html#SuperOffice_WebApi_Data_BatchTaskInfo_State_String
-  name: State_String
-  nameWithType: BatchTaskInfo.State_String
-  fullName: SuperOffice.WebApi.Data.BatchTaskInfo.State_String
 - uid: SuperOffice.WebApi.Data.BatchTaskInfo.State*
   commentId: Overload:SuperOffice.WebApi.Data.BatchTaskInfo.State
   isExternal: true
-  href: SuperOffice.WebApi.Data.BatchTaskInfo.html#SuperOffice_WebApi_Data_BatchTaskInfo_State
   name: State
   nameWithType: BatchTaskInfo.State
   fullName: SuperOffice.WebApi.Data.BatchTaskInfo.State
-- uid: System.Nullable{SuperOffice.WebApi.Data.BatchTaskState}
-  commentId: T:System.Nullable{SuperOffice.WebApi.Data.BatchTaskState}
-  parent: System
-  definition: System.Nullable`1
-  href: SuperOffice.WebApi.Data.BatchTaskState.html
-  name: BatchTaskState?
-  nameWithType: BatchTaskState?
-  fullName: SuperOffice.WebApi.Data.BatchTaskState?
-  spec.csharp:
-  - uid: SuperOffice.WebApi.Data.BatchTaskState
-    name: BatchTaskState
-    isExternal: true
-    href: SuperOffice.WebApi.Data.BatchTaskState.html
-  - name: '?'
-  spec.vb:
-  - uid: SuperOffice.WebApi.Data.BatchTaskState
-    name: BatchTaskState
-    isExternal: true
-    href: SuperOffice.WebApi.Data.BatchTaskState.html
-  - name: '?'
-- uid: System.Nullable`1
-  commentId: T:System.Nullable`1
+- uid: SuperOffice.WebApi.Data.BatchTaskInfo.State_String
+  commentId: P:SuperOffice.WebApi.Data.BatchTaskInfo.State_String
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
-  name: Nullable<T>
-  nameWithType: Nullable<T>
-  fullName: System.Nullable<T>
-  nameWithType.vb: Nullable(Of T)
-  fullName.vb: System.Nullable(Of T)
-  name.vb: Nullable(Of T)
+- uid: System.Nullable{SuperOffice.WebApi.Data.BatchTaskState}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.BatchTaskState}'
+  definition: System.Nullable`1
+  name: Nullable<BatchTaskState>
+  nameWithType: Nullable<BatchTaskState>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.BatchTaskState>
+  nameWithType.vb: Nullable(Of BatchTaskState)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.BatchTaskState)
+  name.vb: Nullable(Of BatchTaskState)
   spec.csharp:
   - uid: System.Nullable`1
     name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
   - name: <
-  - name: T
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.BatchTaskState
+    name: BatchTaskState
+    nameWithType: BatchTaskState
+    fullName: SuperOffice.WebApi.Data.BatchTaskState
+    isExternal: true
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Nullable`1
     name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.BatchTaskState
+    name: BatchTaskState
+    nameWithType: BatchTaskState
+    fullName: SuperOffice.WebApi.Data.BatchTaskState
+    isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Data.BatchTaskInfo.Description*
   commentId: Overload:SuperOffice.WebApi.Data.BatchTaskInfo.Description
   isExternal: true
-  href: SuperOffice.WebApi.Data.BatchTaskInfo.html#SuperOffice_WebApi_Data_BatchTaskInfo_Description
   name: Description
   nameWithType: BatchTaskInfo.Description
   fullName: SuperOffice.WebApi.Data.BatchTaskInfo.Description
 - uid: SuperOffice.WebApi.Data.BatchTaskInfo.Response*
   commentId: Overload:SuperOffice.WebApi.Data.BatchTaskInfo.Response
   isExternal: true
-  href: SuperOffice.WebApi.Data.BatchTaskInfo.html#SuperOffice_WebApi_Data_BatchTaskInfo_Response
   name: Response
   nameWithType: BatchTaskInfo.Response
   fullName: SuperOffice.WebApi.Data.BatchTaskInfo.Response
 - uid: SuperOffice.WebApi.Data.BatchTaskInfo.Request*
   commentId: Overload:SuperOffice.WebApi.Data.BatchTaskInfo.Request
   isExternal: true
-  href: SuperOffice.WebApi.Data.BatchTaskInfo.html#SuperOffice_WebApi_Data_BatchTaskInfo_Request
   name: Request
   nameWithType: BatchTaskInfo.Request
   fullName: SuperOffice.WebApi.Data.BatchTaskInfo.Request
 - uid: SuperOffice.WebApi.Data.BatchTaskInfo.ProgressDescription*
   commentId: Overload:SuperOffice.WebApi.Data.BatchTaskInfo.ProgressDescription
   isExternal: true
-  href: SuperOffice.WebApi.Data.BatchTaskInfo.html#SuperOffice_WebApi_Data_BatchTaskInfo_ProgressDescription
   name: ProgressDescription
   nameWithType: BatchTaskInfo.ProgressDescription
   fullName: SuperOffice.WebApi.Data.BatchTaskInfo.ProgressDescription
 - uid: SuperOffice.WebApi.Data.BatchTaskInfo.ProgressPercent*
   commentId: Overload:SuperOffice.WebApi.Data.BatchTaskInfo.ProgressPercent
   isExternal: true
-  href: SuperOffice.WebApi.Data.BatchTaskInfo.html#SuperOffice_WebApi_Data_BatchTaskInfo_ProgressPercent
   name: ProgressPercent
   nameWithType: BatchTaskInfo.ProgressPercent
   fullName: SuperOffice.WebApi.Data.BatchTaskInfo.ProgressPercent
 - uid: SuperOffice.WebApi.Data.BatchTaskInfo.FileName*
   commentId: Overload:SuperOffice.WebApi.Data.BatchTaskInfo.FileName
   isExternal: true
-  href: SuperOffice.WebApi.Data.BatchTaskInfo.html#SuperOffice_WebApi_Data_BatchTaskInfo_FileName
   name: FileName
   nameWithType: BatchTaskInfo.FileName
   fullName: SuperOffice.WebApi.Data.BatchTaskInfo.FileName
-- uid: SuperOffice.WebApi.Data.BatchTaskInfo.CancellationBehaviour
-  commentId: P:SuperOffice.WebApi.Data.BatchTaskInfo.CancellationBehaviour
-  isExternal: true
-  href: SuperOffice.WebApi.Data.BatchTaskInfo.html#SuperOffice_WebApi_Data_BatchTaskInfo_CancellationBehaviour
-  name: CancellationBehaviour
-  nameWithType: BatchTaskInfo.CancellationBehaviour
-  fullName: SuperOffice.WebApi.Data.BatchTaskInfo.CancellationBehaviour
 - uid: SuperOffice.WebApi.Data.BatchTaskInfo.CancellationBehaviour_String*
   commentId: Overload:SuperOffice.WebApi.Data.BatchTaskInfo.CancellationBehaviour_String
   isExternal: true
-  href: SuperOffice.WebApi.Data.BatchTaskInfo.html#SuperOffice_WebApi_Data_BatchTaskInfo_CancellationBehaviour_String
   name: CancellationBehaviour_String
   nameWithType: BatchTaskInfo.CancellationBehaviour_String
   fullName: SuperOffice.WebApi.Data.BatchTaskInfo.CancellationBehaviour_String
-- uid: SuperOffice.WebApi.Data.BatchTaskInfo.CancellationBehaviour_String
-  commentId: P:SuperOffice.WebApi.Data.BatchTaskInfo.CancellationBehaviour_String
+- uid: SuperOffice.WebApi.Data.BatchTaskInfo.CancellationBehaviour
+  commentId: P:SuperOffice.WebApi.Data.BatchTaskInfo.CancellationBehaviour
   isExternal: true
-  href: SuperOffice.WebApi.Data.BatchTaskInfo.html#SuperOffice_WebApi_Data_BatchTaskInfo_CancellationBehaviour_String
-  name: CancellationBehaviour_String
-  nameWithType: BatchTaskInfo.CancellationBehaviour_String
-  fullName: SuperOffice.WebApi.Data.BatchTaskInfo.CancellationBehaviour_String
 - uid: SuperOffice.WebApi.Data.BatchTaskInfo.CancellationBehaviour*
   commentId: Overload:SuperOffice.WebApi.Data.BatchTaskInfo.CancellationBehaviour
   isExternal: true
-  href: SuperOffice.WebApi.Data.BatchTaskInfo.html#SuperOffice_WebApi_Data_BatchTaskInfo_CancellationBehaviour
   name: CancellationBehaviour
   nameWithType: BatchTaskInfo.CancellationBehaviour
   fullName: SuperOffice.WebApi.Data.BatchTaskInfo.CancellationBehaviour
+- uid: SuperOffice.WebApi.Data.BatchTaskInfo.CancellationBehaviour_String
+  commentId: P:SuperOffice.WebApi.Data.BatchTaskInfo.CancellationBehaviour_String
+  isExternal: true
 - uid: System.Nullable{SuperOffice.WebApi.Data.BatchTaskCancellationBehaviour}
-  commentId: T:System.Nullable{SuperOffice.WebApi.Data.BatchTaskCancellationBehaviour}
-  parent: System
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.BatchTaskCancellationBehaviour}'
   definition: System.Nullable`1
-  href: SuperOffice.WebApi.Data.BatchTaskCancellationBehaviour.html
-  name: BatchTaskCancellationBehaviour?
-  nameWithType: BatchTaskCancellationBehaviour?
-  fullName: SuperOffice.WebApi.Data.BatchTaskCancellationBehaviour?
+  name: Nullable<BatchTaskCancellationBehaviour>
+  nameWithType: Nullable<BatchTaskCancellationBehaviour>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.BatchTaskCancellationBehaviour>
+  nameWithType.vb: Nullable(Of BatchTaskCancellationBehaviour)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.BatchTaskCancellationBehaviour)
+  name.vb: Nullable(Of BatchTaskCancellationBehaviour)
   spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.WebApi.Data.BatchTaskCancellationBehaviour
     name: BatchTaskCancellationBehaviour
+    nameWithType: BatchTaskCancellationBehaviour
+    fullName: SuperOffice.WebApi.Data.BatchTaskCancellationBehaviour
     isExternal: true
-    href: SuperOffice.WebApi.Data.BatchTaskCancellationBehaviour.html
-  - name: '?'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.WebApi.Data.BatchTaskCancellationBehaviour
     name: BatchTaskCancellationBehaviour
+    nameWithType: BatchTaskCancellationBehaviour
+    fullName: SuperOffice.WebApi.Data.BatchTaskCancellationBehaviour
     isExternal: true
-    href: SuperOffice.WebApi.Data.BatchTaskCancellationBehaviour.html
-  - name: '?'
+  - name: )
+    nameWithType: )
+    fullName: )

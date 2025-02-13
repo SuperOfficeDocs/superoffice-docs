@@ -27,22 +27,20 @@ items:
   nameWithType: SuggestedAppointmentEntity
   fullName: SuperOffice.WebApi.Data.SuggestedAppointmentEntity
   type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Carrier object for SuggestedAppointmentEntity.
+  summary: "\nCarrier object for SuggestedAppointmentEntity.\n\n"
   example:
-  - >-
-    Get SuggestedAppointmentEntity 123 using the WebApi client:
-
-    <pre><code class="lang-csharp">var configuration = new WebApiConfiguration(url);
-
-    var agent = new AppointmentAgent(configuration);
-
-    var suggestedAppointmentEntity = agent.GetSuggestedAppointmentEntity( 123 );</code></pre>
+  - "\nGet SuggestedAppointmentEntity 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new AppointmentAgent(configuration);\nvar suggestedAppointmentEntity = agent.GetSuggestedAppointmentEntity( 123 );</code></pre>\n"
   syntax:
     content: 'public class SuggestedAppointmentEntity : Carrier'
-    content.vb: Public Class SuggestedAppointmentEntity Inherits Carrier
+    content.vb: >-
+      Public Class SuggestedAppointmentEntity
+          Inherits Carrier
   seealso:
   - linkId: SuperOffice.WebApi.Agents.AppointmentAgent
     commentId: T:SuperOffice.WebApi.Agents.AppointmentAgent
@@ -52,13 +50,12 @@ items:
   inheritedMembers:
   - SuperOffice.WebApi.Data.Carrier.TableRight
   - SuperOffice.WebApi.Data.Carrier.FieldProperties
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.#ctor
   commentId: M:SuperOffice.WebApi.Data.SuggestedAppointmentEntity.#ctor
   id: '#ctor'
@@ -70,18 +67,21 @@ items:
   nameWithType: SuggestedAppointmentEntity.SuggestedAppointmentEntity()
   fullName: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.SuggestedAppointmentEntity()
   type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Default constructor - defaults any enum props to 0.
-  example: []
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
   syntax:
     content: public SuggestedAppointmentEntity()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.#ctor*
-  nameWithType.vb: SuggestedAppointmentEntity.New()
-  fullName.vb: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.SuggestedAppointmentId
   commentId: P:SuperOffice.WebApi.Data.SuggestedAppointmentEntity.SuggestedAppointmentId
   id: SuggestedAppointmentId
@@ -93,11 +93,13 @@ items:
   nameWithType: SuggestedAppointmentEntity.SuggestedAppointmentId
   fullName: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.SuggestedAppointmentId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Primary key
-  example: []
+  summary: "\nPrimary key\n"
   syntax:
     content: public virtual int SuggestedAppointmentId { get; set; }
     parameters: []
@@ -105,6 +107,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property SuggestedAppointmentId As Integer
   overload: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.SuggestedAppointmentId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.Name
   commentId: P:SuperOffice.WebApi.Data.SuggestedAppointmentEntity.Name
   id: Name
@@ -116,11 +126,13 @@ items:
   nameWithType: SuggestedAppointmentEntity.Name
   fullName: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.Name
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Item name, visible in Guide
-  example: []
+  summary: "\nItem name, visible in Guide\n"
   syntax:
     content: public virtual string Name { get; set; }
     parameters: []
@@ -128,6 +140,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property Name As String
   overload: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.Tooltip
   commentId: P:SuperOffice.WebApi.Data.SuggestedAppointmentEntity.Tooltip
   id: Tooltip
@@ -139,11 +159,13 @@ items:
   nameWithType: SuggestedAppointmentEntity.Tooltip
   fullName: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.Tooltip
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Tooltip / description
-  example: []
+  summary: "\nTooltip / description\n"
   syntax:
     content: public virtual string Tooltip { get; set; }
     parameters: []
@@ -151,6 +173,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property Tooltip As String
   overload: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.Tooltip*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.Rank
   commentId: P:SuperOffice.WebApi.Data.SuggestedAppointmentEntity.Rank
   id: Rank
@@ -162,11 +192,13 @@ items:
   nameWithType: SuggestedAppointmentEntity.Rank
   fullName: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.Rank
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Rank, controls rank of non-instantiated items in Guide
-  example: []
+  summary: "\nRank, controls rank of non-instantiated items in Guide\n"
   syntax:
     content: public virtual short Rank { get; set; }
     parameters: []
@@ -174,6 +206,14 @@ items:
       type: System.Int16
     content.vb: Public Overridable Property Rank As Short
   overload: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.Rank*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.Deleted
   commentId: P:SuperOffice.WebApi.Data.SuggestedAppointmentEntity.Deleted
   id: Deleted
@@ -185,11 +225,13 @@ items:
   nameWithType: SuggestedAppointmentEntity.Deleted
   fullName: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.Deleted
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: 0 -&gt; record is active 1 -&gt; record is 'deleted' and should not be shown in lists
-  example: []
+  summary: "\n0 -> record is active 1 -> record is &apos;deleted&apos; and should not be shown in lists\n"
   syntax:
     content: public virtual bool Deleted { get; set; }
     parameters: []
@@ -197,6 +239,14 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property Deleted As Boolean
   overload: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.Deleted*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.DaysFuture
   commentId: P:SuperOffice.WebApi.Data.SuggestedAppointmentEntity.DaysFuture
   id: DaysFuture
@@ -208,11 +258,13 @@ items:
   nameWithType: SuggestedAppointmentEntity.DaysFuture
   fullName: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.DaysFuture
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: How many days into the future the appointment should be scheduled
-  example: []
+  summary: "\nHow many days into the future the appointment should be scheduled\n"
   syntax:
     content: public virtual short DaysFuture { get; set; }
     parameters: []
@@ -220,6 +272,14 @@ items:
       type: System.Int16
     content.vb: Public Overridable Property DaysFuture As Short
   overload: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.DaysFuture*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.Duration
   commentId: P:SuperOffice.WebApi.Data.SuggestedAppointmentEntity.Duration
   id: Duration
@@ -231,11 +291,13 @@ items:
   nameWithType: SuggestedAppointmentEntity.Duration
   fullName: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.Duration
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Duration in minutes of suggested appointment
-  example: []
+  summary: "\nDuration in minutes of suggested appointment\n"
   syntax:
     content: public virtual TimeSpan Duration { get; set; }
     parameters: []
@@ -243,6 +305,14 @@ items:
       type: System.TimeSpan
     content.vb: Public Overridable Property Duration As TimeSpan
   overload: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.Duration*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.AutoSuggest
   commentId: P:SuperOffice.WebApi.Data.SuggestedAppointmentEntity.AutoSuggest
   id: AutoSuggest
@@ -254,11 +324,13 @@ items:
   nameWithType: SuggestedAppointmentEntity.AutoSuggest
   fullName: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.AutoSuggest
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Should this appointment be auto-suggested
-  example: []
+  summary: "\nShould this appointment be auto-suggested\n"
   syntax:
     content: public virtual bool AutoSuggest { get; set; }
     parameters: []
@@ -266,6 +338,14 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property AutoSuggest As Boolean
   overload: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.AutoSuggest*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.IsMilestone
   commentId: P:SuperOffice.WebApi.Data.SuggestedAppointmentEntity.IsMilestone
   id: IsMilestone
@@ -277,11 +357,13 @@ items:
   nameWithType: SuggestedAppointmentEntity.IsMilestone
   fullName: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.IsMilestone
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Is this a milestone activity
-  example: []
+  summary: "\nIs this a milestone activity\n"
   syntax:
     content: public virtual bool IsMilestone { get; set; }
     parameters: []
@@ -289,6 +371,14 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property IsMilestone As Boolean
   overload: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.IsMilestone*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.AssignToMember
   commentId: P:SuperOffice.WebApi.Data.SuggestedAppointmentEntity.AssignToMember
   id: AssignToMember
@@ -300,11 +390,13 @@ items:
   nameWithType: SuggestedAppointmentEntity.AssignToMember
   fullName: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.AssignToMember
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Should this appointment be assigned to project member
-  example: []
+  summary: "\nShould this appointment be assigned to project member\n"
   syntax:
     content: public virtual bool AssignToMember { get; set; }
     parameters: []
@@ -312,6 +404,14 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property AssignToMember As Boolean
   overload: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.AssignToMember*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.Text
   commentId: P:SuperOffice.WebApi.Data.SuggestedAppointmentEntity.Text
   id: Text
@@ -323,11 +423,13 @@ items:
   nameWithType: SuggestedAppointmentEntity.Text
   fullName: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.Text
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The suggested text of the new appointment
-  example: []
+  summary: "\nThe suggested text of the new appointment\n"
   syntax:
     content: public virtual string Text { get; set; }
     parameters: []
@@ -335,6 +437,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property Text As String
   overload: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.Text*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.ProjectTypeStatusLink
   commentId: P:SuperOffice.WebApi.Data.SuggestedAppointmentEntity.ProjectTypeStatusLink
   id: ProjectTypeStatusLink
@@ -346,11 +456,13 @@ items:
   nameWithType: SuggestedAppointmentEntity.ProjectTypeStatusLink
   fullName: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.ProjectTypeStatusLink
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Project type and project status link info
-  example: []
+  summary: "\nProject type and project status link info\n"
   syntax:
     content: public virtual ProjectTypeStatusLink ProjectTypeStatusLink { get; set; }
     parameters: []
@@ -358,6 +470,14 @@ items:
       type: SuperOffice.WebApi.Data.ProjectTypeStatusLink
     content.vb: Public Overridable Property ProjectTypeStatusLink As ProjectTypeStatusLink
   overload: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.ProjectTypeStatusLink*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.SaleTypeStageLink
   commentId: P:SuperOffice.WebApi.Data.SuggestedAppointmentEntity.SaleTypeStageLink
   id: SaleTypeStageLink
@@ -369,11 +489,13 @@ items:
   nameWithType: SuggestedAppointmentEntity.SaleTypeStageLink
   fullName: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.SaleTypeStageLink
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Sale type and stage link info
-  example: []
+  summary: "\nSale type and stage link info\n"
   syntax:
     content: public virtual SaleTypeStageLink SaleTypeStageLink { get; set; }
     parameters: []
@@ -381,6 +503,14 @@ items:
       type: SuperOffice.WebApi.Data.SaleTypeStageLink
     content.vb: Public Overridable Property SaleTypeStageLink As SaleTypeStageLink
   overload: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.SaleTypeStageLink*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.Type
   commentId: P:SuperOffice.WebApi.Data.SuggestedAppointmentEntity.Type
   id: Type
@@ -392,11 +522,13 @@ items:
   nameWithType: SuggestedAppointmentEntity.Type
   fullName: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.Type
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Type of the suggested appointment
-  example: []
+  summary: "\nType of the suggested appointment\n"
   syntax:
     content: public virtual Task Type { get; set; }
     parameters: []
@@ -404,67 +536,32 @@ items:
       type: SuperOffice.WebApi.Data.Task
     content.vb: Public Overridable Property Type As Task
   overload: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.Type*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
-- uid: SuperOffice.WebApi.Agents.AppointmentAgent
-  commentId: T:SuperOffice.WebApi.Agents.AppointmentAgent
-  isExternal: true
-  href: SuperOffice.WebApi.Agents.AppointmentAgent.html
-  name: AppointmentAgent
-  nameWithType: AppointmentAgent
-  fullName: SuperOffice.WebApi.Agents.AppointmentAgent
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.WebApi.Data.Carrier
   commentId: T:SuperOffice.WebApi.Data.Carrier
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html
   name: Carrier
   nameWithType: Carrier
   fullName: SuperOffice.WebApi.Data.Carrier
@@ -472,7 +569,6 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_TableRight
   name: TableRight
   nameWithType: Carrier.TableRight
   fullName: SuperOffice.WebApi.Data.Carrier.TableRight
@@ -480,250 +576,30 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_FieldProperties
   name: FieldProperties
   nameWithType: Carrier.FieldProperties
   fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
+- uid: SuperOffice.WebApi.Agents.AppointmentAgent
+  commentId: T:SuperOffice.WebApi.Agents.AppointmentAgent
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: AppointmentAgent
+  nameWithType: AppointmentAgent
+  fullName: SuperOffice.WebApi.Agents.AppointmentAgent
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.#ctor*
   commentId: Overload:SuperOffice.WebApi.Data.SuggestedAppointmentEntity.#ctor
   isExternal: true
-  href: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.html#SuperOffice_WebApi_Data_SuggestedAppointmentEntity__ctor
   name: SuggestedAppointmentEntity
   nameWithType: SuggestedAppointmentEntity.SuggestedAppointmentEntity
   fullName: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.SuggestedAppointmentEntity
-  nameWithType.vb: SuggestedAppointmentEntity.New
-  fullName.vb: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.New
-  name.vb: New
 - uid: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.SuggestedAppointmentId*
   commentId: Overload:SuperOffice.WebApi.Data.SuggestedAppointmentEntity.SuggestedAppointmentId
   isExternal: true
-  href: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.html#SuperOffice_WebApi_Data_SuggestedAppointmentEntity_SuggestedAppointmentId
   name: SuggestedAppointmentId
   nameWithType: SuggestedAppointmentEntity.SuggestedAppointmentId
   fullName: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.SuggestedAppointmentId
@@ -731,17 +607,12 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.Name*
   commentId: Overload:SuperOffice.WebApi.Data.SuggestedAppointmentEntity.Name
   isExternal: true
-  href: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.html#SuperOffice_WebApi_Data_SuggestedAppointmentEntity_Name
   name: Name
   nameWithType: SuggestedAppointmentEntity.Name
   fullName: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.Name
@@ -749,24 +620,18 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.Tooltip*
   commentId: Overload:SuperOffice.WebApi.Data.SuggestedAppointmentEntity.Tooltip
   isExternal: true
-  href: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.html#SuperOffice_WebApi_Data_SuggestedAppointmentEntity_Tooltip
   name: Tooltip
   nameWithType: SuggestedAppointmentEntity.Tooltip
   fullName: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.Tooltip
 - uid: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.Rank*
   commentId: Overload:SuperOffice.WebApi.Data.SuggestedAppointmentEntity.Rank
   isExternal: true
-  href: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.html#SuperOffice_WebApi_Data_SuggestedAppointmentEntity_Rank
   name: Rank
   nameWithType: SuggestedAppointmentEntity.Rank
   fullName: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.Rank
@@ -774,17 +639,12 @@ references:
   commentId: T:System.Int16
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int16
-  name: short
-  nameWithType: short
-  fullName: short
-  nameWithType.vb: Short
-  fullName.vb: Short
-  name.vb: Short
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.Deleted*
   commentId: Overload:SuperOffice.WebApi.Data.SuggestedAppointmentEntity.Deleted
   isExternal: true
-  href: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.html#SuperOffice_WebApi_Data_SuggestedAppointmentEntity_Deleted
   name: Deleted
   nameWithType: SuggestedAppointmentEntity.Deleted
   fullName: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.Deleted
@@ -792,67 +652,53 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.DaysFuture*
   commentId: Overload:SuperOffice.WebApi.Data.SuggestedAppointmentEntity.DaysFuture
   isExternal: true
-  href: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.html#SuperOffice_WebApi_Data_SuggestedAppointmentEntity_DaysFuture
   name: DaysFuture
   nameWithType: SuggestedAppointmentEntity.DaysFuture
   fullName: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.DaysFuture
 - uid: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.Duration*
   commentId: Overload:SuperOffice.WebApi.Data.SuggestedAppointmentEntity.Duration
   isExternal: true
-  href: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.html#SuperOffice_WebApi_Data_SuggestedAppointmentEntity_Duration
   name: Duration
   nameWithType: SuggestedAppointmentEntity.Duration
   fullName: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.Duration
 - uid: System.TimeSpan
-  commentId: T:System.TimeSpan
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.timespan
   name: TimeSpan
   nameWithType: TimeSpan
   fullName: System.TimeSpan
 - uid: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.AutoSuggest*
   commentId: Overload:SuperOffice.WebApi.Data.SuggestedAppointmentEntity.AutoSuggest
   isExternal: true
-  href: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.html#SuperOffice_WebApi_Data_SuggestedAppointmentEntity_AutoSuggest
   name: AutoSuggest
   nameWithType: SuggestedAppointmentEntity.AutoSuggest
   fullName: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.AutoSuggest
 - uid: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.IsMilestone*
   commentId: Overload:SuperOffice.WebApi.Data.SuggestedAppointmentEntity.IsMilestone
   isExternal: true
-  href: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.html#SuperOffice_WebApi_Data_SuggestedAppointmentEntity_IsMilestone
   name: IsMilestone
   nameWithType: SuggestedAppointmentEntity.IsMilestone
   fullName: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.IsMilestone
 - uid: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.AssignToMember*
   commentId: Overload:SuperOffice.WebApi.Data.SuggestedAppointmentEntity.AssignToMember
   isExternal: true
-  href: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.html#SuperOffice_WebApi_Data_SuggestedAppointmentEntity_AssignToMember
   name: AssignToMember
   nameWithType: SuggestedAppointmentEntity.AssignToMember
   fullName: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.AssignToMember
 - uid: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.Text*
   commentId: Overload:SuperOffice.WebApi.Data.SuggestedAppointmentEntity.Text
   isExternal: true
-  href: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.html#SuperOffice_WebApi_Data_SuggestedAppointmentEntity_Text
   name: Text
   nameWithType: SuggestedAppointmentEntity.Text
   fullName: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.Text
 - uid: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.ProjectTypeStatusLink*
   commentId: Overload:SuperOffice.WebApi.Data.SuggestedAppointmentEntity.ProjectTypeStatusLink
   isExternal: true
-  href: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.html#SuperOffice_WebApi_Data_SuggestedAppointmentEntity_ProjectTypeStatusLink
   name: ProjectTypeStatusLink
   nameWithType: SuggestedAppointmentEntity.ProjectTypeStatusLink
   fullName: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.ProjectTypeStatusLink
@@ -860,14 +706,12 @@ references:
   commentId: T:SuperOffice.WebApi.Data.ProjectTypeStatusLink
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.ProjectTypeStatusLink.html
   name: ProjectTypeStatusLink
   nameWithType: ProjectTypeStatusLink
   fullName: SuperOffice.WebApi.Data.ProjectTypeStatusLink
 - uid: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.SaleTypeStageLink*
   commentId: Overload:SuperOffice.WebApi.Data.SuggestedAppointmentEntity.SaleTypeStageLink
   isExternal: true
-  href: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.html#SuperOffice_WebApi_Data_SuggestedAppointmentEntity_SaleTypeStageLink
   name: SaleTypeStageLink
   nameWithType: SuggestedAppointmentEntity.SaleTypeStageLink
   fullName: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.SaleTypeStageLink
@@ -875,14 +719,12 @@ references:
   commentId: T:SuperOffice.WebApi.Data.SaleTypeStageLink
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.SaleTypeStageLink.html
   name: SaleTypeStageLink
   nameWithType: SaleTypeStageLink
   fullName: SuperOffice.WebApi.Data.SaleTypeStageLink
 - uid: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.Type*
   commentId: Overload:SuperOffice.WebApi.Data.SuggestedAppointmentEntity.Type
   isExternal: true
-  href: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.html#SuperOffice_WebApi_Data_SuggestedAppointmentEntity_Type
   name: Type
   nameWithType: SuggestedAppointmentEntity.Type
   fullName: SuperOffice.WebApi.Data.SuggestedAppointmentEntity.Type
@@ -890,7 +732,6 @@ references:
   commentId: T:SuperOffice.WebApi.Data.Task
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.Task.html
   name: Task
   nameWithType: Task
   fullName: SuperOffice.WebApi.Data.Task

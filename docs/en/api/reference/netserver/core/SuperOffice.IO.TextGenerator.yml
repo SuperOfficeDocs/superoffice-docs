@@ -5,6 +5,9 @@ items:
   id: TextGenerator
   parent: SuperOffice.IO
   children:
+  - SuperOffice.IO.TextGenerator._endTags
+  - SuperOffice.IO.TextGenerator._padTag
+  - SuperOffice.IO.TextGenerator._startTags
   - SuperOffice.IO.TextGenerator.EndTags
   - SuperOffice.IO.TextGenerator.Generate(System.IO.Stream)
   - SuperOffice.IO.TextGenerator.Generate(System.IO.Stream,System.IO.Stream)
@@ -14,9 +17,6 @@ items:
   - SuperOffice.IO.TextGenerator.TagStart
   - SuperOffice.IO.TextGenerator.TextEncoding
   - SuperOffice.IO.TextGenerator.Writer
-  - SuperOffice.IO.TextGenerator._endTags
-  - SuperOffice.IO.TextGenerator._padTag
-  - SuperOffice.IO.TextGenerator._startTags
   langs:
   - csharp
   - vb
@@ -24,12 +24,17 @@ items:
   nameWithType: TextGenerator
   fullName: SuperOffice.IO.TextGenerator
   type: Class
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.IO
   syntax:
     content: 'public class TextGenerator : Generator'
-    content.vb: Public Class TextGenerator Inherits Generator
+    content.vb: >-
+      Public Class TextGenerator
+          Inherits Generator
   inheritance:
   - System.Object
   - SuperOffice.IO.Generator
@@ -55,16 +60,15 @@ items:
   - SuperOffice.IO.Generator.Tags
   - SuperOffice.IO.Generator.Encoding
   - SuperOffice.IO.Generator.OldEncoding
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.IO.TextGenerator.EnumUtil.MapEnums``2
   - SuperOffice.IO.TextGenerator.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.IO.TextGenerator._startTags
   commentId: F:SuperOffice.IO.TextGenerator._startTags
   id: _startTags
@@ -76,6 +80,9 @@ items:
   nameWithType: TextGenerator._startTags
   fullName: SuperOffice.IO.TextGenerator._startTags
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.IO
@@ -84,6 +91,10 @@ items:
     return:
       type: System.Collections.Generic.List{System.String}
     content.vb: Protected _startTags As List(Of String)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
 - uid: SuperOffice.IO.TextGenerator._endTags
   commentId: F:SuperOffice.IO.TextGenerator._endTags
   id: _endTags
@@ -95,6 +106,9 @@ items:
   nameWithType: TextGenerator._endTags
   fullName: SuperOffice.IO.TextGenerator._endTags
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.IO
@@ -103,6 +117,10 @@ items:
     return:
       type: System.Collections.Generic.List{System.String}
     content.vb: Protected _endTags As List(Of String)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
 - uid: SuperOffice.IO.TextGenerator._padTag
   commentId: F:SuperOffice.IO.TextGenerator._padTag
   id: _padTag
@@ -114,6 +132,9 @@ items:
   nameWithType: TextGenerator._padTag
   fullName: SuperOffice.IO.TextGenerator._padTag
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.IO
@@ -122,6 +143,10 @@ items:
     return:
       type: System.Char
     content.vb: Protected _padTag As Char
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
 - uid: SuperOffice.IO.TextGenerator.Generate(System.IO.Stream,System.IO.Stream)
   commentId: M:SuperOffice.IO.TextGenerator.Generate(System.IO.Stream,System.IO.Stream)
   id: Generate(System.IO.Stream,System.IO.Stream)
@@ -133,6 +158,9 @@ items:
   nameWithType: TextGenerator.Generate(Stream, Stream)
   fullName: SuperOffice.IO.TextGenerator.Generate(System.IO.Stream, System.IO.Stream)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.IO
@@ -145,6 +173,10 @@ items:
       type: System.IO.Stream
     content.vb: Public Sub Generate(template As Stream, output As Stream)
   overload: SuperOffice.IO.TextGenerator.Generate*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.IO.TextGenerator.Generate(System.IO.Stream)
   commentId: M:SuperOffice.IO.TextGenerator.Generate(System.IO.Stream)
   id: Generate(System.IO.Stream)
@@ -156,14 +188,12 @@ items:
   nameWithType: TextGenerator.Generate(Stream)
   fullName: SuperOffice.IO.TextGenerator.Generate(System.IO.Stream)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.IO
-  summary: >-
-    Generate from the <xref href="SuperOffice.IO.Generator.Template" data-throw-if-not-resolved="false"></xref> to the Output.
-
-    <param name="output">Stream to output to</param>
-  example: []
   syntax:
     content: public override void Generate(Stream output)
     parameters:
@@ -172,6 +202,12 @@ items:
     content.vb: Public Overrides Sub Generate(output As Stream)
   overridden: SuperOffice.IO.Generator.Generate(System.IO.Stream)
   overload: SuperOffice.IO.TextGenerator.Generate*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.IO.TextGenerator.TagStart
   commentId: P:SuperOffice.IO.TextGenerator.TagStart
   id: TagStart
@@ -183,30 +219,27 @@ items:
   nameWithType: TextGenerator.TagStart
   fullName: SuperOffice.IO.TextGenerator.TagStart
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.IO
   syntax:
-    content: >-
-      [Obsolete("TextGenerator now supports multiple tag characters. Use StartTags instead.", true)]
-
-      protected virtual char TagStart { get; }
+    content: protected virtual char TagStart { get; }
     parameters: []
     return:
       type: System.Char
-    content.vb: >-
-      <Obsolete("TextGenerator now supports multiple tag characters. Use StartTags instead.", True)>
-
-      Protected Overridable ReadOnly Property TagStart As Char
+    content.vb: Protected Overridable ReadOnly Property TagStart As Char
   overload: SuperOffice.IO.TextGenerator.TagStart*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: TextGenerator now supports multiple tag characters. Use StartTags instead.
-    - type: System.Boolean
-      value: true
+  modifiers.csharp:
+  - protected
+  - virtual
+  - get
+  modifiers.vb:
+  - Protected
+  - Overridable
+  - ReadOnly
 - uid: SuperOffice.IO.TextGenerator.StartTags
   commentId: P:SuperOffice.IO.TextGenerator.StartTags
   id: StartTags
@@ -218,11 +251,13 @@ items:
   nameWithType: TextGenerator.StartTags
   fullName: SuperOffice.IO.TextGenerator.StartTags
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.IO
-  summary: Start trigger characters for valid tags
-  example: []
+  summary: "\nStart trigger characters for valid tags\n"
   syntax:
     content: public virtual string[] StartTags { get; set; }
     parameters: []
@@ -230,6 +265,14 @@ items:
       type: System.String[]
     content.vb: Public Overridable Property StartTags As String()
   overload: SuperOffice.IO.TextGenerator.StartTags*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.IO.TextGenerator.TagEnd
   commentId: P:SuperOffice.IO.TextGenerator.TagEnd
   id: TagEnd
@@ -241,30 +284,27 @@ items:
   nameWithType: TextGenerator.TagEnd
   fullName: SuperOffice.IO.TextGenerator.TagEnd
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.IO
   syntax:
-    content: >-
-      [Obsolete("TextGenerator now supports multiple tag characters. Use EndTags instead.", true)]
-
-      protected virtual char TagEnd { get; }
+    content: protected virtual char TagEnd { get; }
     parameters: []
     return:
       type: System.Char
-    content.vb: >-
-      <Obsolete("TextGenerator now supports multiple tag characters. Use EndTags instead.", True)>
-
-      Protected Overridable ReadOnly Property TagEnd As Char
+    content.vb: Protected Overridable ReadOnly Property TagEnd As Char
   overload: SuperOffice.IO.TextGenerator.TagEnd*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: TextGenerator now supports multiple tag characters. Use EndTags instead.
-    - type: System.Boolean
-      value: true
+  modifiers.csharp:
+  - protected
+  - virtual
+  - get
+  modifiers.vb:
+  - Protected
+  - Overridable
+  - ReadOnly
 - uid: SuperOffice.IO.TextGenerator.EndTags
   commentId: P:SuperOffice.IO.TextGenerator.EndTags
   id: EndTags
@@ -276,11 +316,13 @@ items:
   nameWithType: TextGenerator.EndTags
   fullName: SuperOffice.IO.TextGenerator.EndTags
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.IO
-  summary: End trigger characters for valid tags
-  example: []
+  summary: "\nEnd trigger characters for valid tags\n"
   syntax:
     content: public virtual string[] EndTags { get; set; }
     parameters: []
@@ -288,6 +330,14 @@ items:
       type: System.String[]
     content.vb: Public Overridable Property EndTags As String()
   overload: SuperOffice.IO.TextGenerator.EndTags*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.IO.TextGenerator.Reader
   commentId: P:SuperOffice.IO.TextGenerator.Reader
   id: Reader
@@ -299,6 +349,9 @@ items:
   nameWithType: TextGenerator.Reader
   fullName: SuperOffice.IO.TextGenerator.Reader
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.IO
@@ -309,6 +362,12 @@ items:
       type: System.IO.StreamReader
     content.vb: Protected ReadOnly Property Reader As StreamReader
   overload: SuperOffice.IO.TextGenerator.Reader*
+  modifiers.csharp:
+  - protected
+  - get
+  modifiers.vb:
+  - Protected
+  - ReadOnly
 - uid: SuperOffice.IO.TextGenerator.Writer
   commentId: P:SuperOffice.IO.TextGenerator.Writer
   id: Writer
@@ -320,6 +379,9 @@ items:
   nameWithType: TextGenerator.Writer
   fullName: SuperOffice.IO.TextGenerator.Writer
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.IO
@@ -330,6 +392,12 @@ items:
       type: System.IO.StreamWriter
     content.vb: Protected ReadOnly Property Writer As StreamWriter
   overload: SuperOffice.IO.TextGenerator.Writer*
+  modifiers.csharp:
+  - protected
+  - get
+  modifiers.vb:
+  - Protected
+  - ReadOnly
 - uid: SuperOffice.IO.TextGenerator.TextEncoding
   commentId: P:SuperOffice.IO.TextGenerator.TextEncoding
   id: TextEncoding
@@ -341,11 +409,13 @@ items:
   nameWithType: TextGenerator.TextEncoding
   fullName: SuperOffice.IO.TextGenerator.TextEncoding
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.IO
-  summary: How the source template is encoded
-  example: []
+  summary: "\nHow the source template is encoded\n"
   syntax:
     content: public Encoding TextEncoding { get; set; }
     parameters: []
@@ -353,50 +423,30 @@ items:
       type: System.Text.Encoding
     content.vb: Public Property TextEncoding As Encoding
   overload: SuperOffice.IO.TextGenerator.TextEncoding*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 references:
 - uid: SuperOffice.IO
   commentId: N:SuperOffice.IO
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.IO
   nameWithType: SuperOffice.IO
   fullName: SuperOffice.IO
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.IO
-    name: IO
-    isExternal: true
-    href: SuperOffice.IO.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.IO
-    name: IO
-    isExternal: true
-    href: SuperOffice.IO.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.IO.Generator
   commentId: T:SuperOffice.IO.Generator
   parent: SuperOffice.IO
   isExternal: true
-  href: SuperOffice.IO.Generator.html
   name: Generator
   nameWithType: Generator
   fullName: SuperOffice.IO.Generator
@@ -404,7 +454,6 @@ references:
   commentId: F:SuperOffice.IO.Generator.OptionSkipLtGtTags
   parent: SuperOffice.IO.Generator
   isExternal: true
-  href: SuperOffice.IO.Generator.html#SuperOffice_IO_Generator_OptionSkipLtGtTags
   name: OptionSkipLtGtTags
   nameWithType: Generator.OptionSkipLtGtTags
   fullName: SuperOffice.IO.Generator.OptionSkipLtGtTags
@@ -412,7 +461,6 @@ references:
   commentId: F:SuperOffice.IO.Generator.RegExTag
   parent: SuperOffice.IO.Generator
   isExternal: true
-  href: SuperOffice.IO.Generator.html#SuperOffice_IO_Generator_RegExTag
   name: RegExTag
   nameWithType: Generator.RegExTag
   fullName: SuperOffice.IO.Generator.RegExTag
@@ -420,641 +468,826 @@ references:
   commentId: M:SuperOffice.IO.Generator.SetOption(System.String)
   parent: SuperOffice.IO.Generator
   isExternal: true
-  href: SuperOffice.IO.Generator.html#SuperOffice_IO_Generator_SetOption_System_String_
-  name: SetOption(string)
-  nameWithType: Generator.SetOption(string)
-  fullName: SuperOffice.IO.Generator.SetOption(string)
-  nameWithType.vb: Generator.SetOption(String)
-  fullName.vb: SuperOffice.IO.Generator.SetOption(String)
-  name.vb: SetOption(String)
+  name: SetOption(String)
+  nameWithType: Generator.SetOption(String)
+  fullName: SuperOffice.IO.Generator.SetOption(System.String)
   spec.csharp:
   - uid: SuperOffice.IO.Generator.SetOption(System.String)
     name: SetOption
+    nameWithType: Generator.SetOption
+    fullName: SuperOffice.IO.Generator.SetOption
     isExternal: true
-    href: SuperOffice.IO.Generator.html#SuperOffice_IO_Generator_SetOption_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.IO.Generator.SetOption(System.String)
     name: SetOption
+    nameWithType: Generator.SetOption
+    fullName: SuperOffice.IO.Generator.SetOption
     isExternal: true
-    href: SuperOffice.IO.Generator.html#SuperOffice_IO_Generator_SetOption_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.IO.Generator.HasOption(System.String)
   commentId: M:SuperOffice.IO.Generator.HasOption(System.String)
   parent: SuperOffice.IO.Generator
   isExternal: true
-  href: SuperOffice.IO.Generator.html#SuperOffice_IO_Generator_HasOption_System_String_
-  name: HasOption(string)
-  nameWithType: Generator.HasOption(string)
-  fullName: SuperOffice.IO.Generator.HasOption(string)
-  nameWithType.vb: Generator.HasOption(String)
-  fullName.vb: SuperOffice.IO.Generator.HasOption(String)
-  name.vb: HasOption(String)
+  name: HasOption(String)
+  nameWithType: Generator.HasOption(String)
+  fullName: SuperOffice.IO.Generator.HasOption(System.String)
   spec.csharp:
   - uid: SuperOffice.IO.Generator.HasOption(System.String)
     name: HasOption
+    nameWithType: Generator.HasOption
+    fullName: SuperOffice.IO.Generator.HasOption
     isExternal: true
-    href: SuperOffice.IO.Generator.html#SuperOffice_IO_Generator_HasOption_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.IO.Generator.HasOption(System.String)
     name: HasOption
+    nameWithType: Generator.HasOption
+    fullName: SuperOffice.IO.Generator.HasOption
     isExternal: true
-    href: SuperOffice.IO.Generator.html#SuperOffice_IO_Generator_HasOption_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.IO.Generator.GetGenerator(System.IO.Stream,SuperOffice.IO.TagContainer,SuperOffice.Data.GeneratorEncoding)
   commentId: M:SuperOffice.IO.Generator.GetGenerator(System.IO.Stream,SuperOffice.IO.TagContainer,SuperOffice.Data.GeneratorEncoding)
   parent: SuperOffice.IO.Generator
   isExternal: true
-  href: SuperOffice.IO.Generator.html#SuperOffice_IO_Generator_GetGenerator_System_IO_Stream_SuperOffice_IO_TagContainer_SuperOffice_Data_GeneratorEncoding_
   name: GetGenerator(Stream, TagContainer, GeneratorEncoding)
   nameWithType: Generator.GetGenerator(Stream, TagContainer, GeneratorEncoding)
   fullName: SuperOffice.IO.Generator.GetGenerator(System.IO.Stream, SuperOffice.IO.TagContainer, SuperOffice.Data.GeneratorEncoding)
   spec.csharp:
   - uid: SuperOffice.IO.Generator.GetGenerator(System.IO.Stream,SuperOffice.IO.TagContainer,SuperOffice.Data.GeneratorEncoding)
     name: GetGenerator
+    nameWithType: Generator.GetGenerator
+    fullName: SuperOffice.IO.Generator.GetGenerator
     isExternal: true
-    href: SuperOffice.IO.Generator.html#SuperOffice_IO_Generator_GetGenerator_System_IO_Stream_SuperOffice_IO_TagContainer_SuperOffice_Data_GeneratorEncoding_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.IO.Stream
     name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.IO.TagContainer
     name: TagContainer
+    nameWithType: TagContainer
+    fullName: SuperOffice.IO.TagContainer
     isExternal: true
-    href: SuperOffice.IO.TagContainer.html
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.Data.GeneratorEncoding
     name: GeneratorEncoding
+    nameWithType: GeneratorEncoding
+    fullName: SuperOffice.Data.GeneratorEncoding
     isExternal: true
-    href: SuperOffice.Data.GeneratorEncoding.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.IO.Generator.GetGenerator(System.IO.Stream,SuperOffice.IO.TagContainer,SuperOffice.Data.GeneratorEncoding)
     name: GetGenerator
+    nameWithType: Generator.GetGenerator
+    fullName: SuperOffice.IO.Generator.GetGenerator
     isExternal: true
-    href: SuperOffice.IO.Generator.html#SuperOffice_IO_Generator_GetGenerator_System_IO_Stream_SuperOffice_IO_TagContainer_SuperOffice_Data_GeneratorEncoding_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.IO.Stream
     name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.IO.TagContainer
     name: TagContainer
+    nameWithType: TagContainer
+    fullName: SuperOffice.IO.TagContainer
     isExternal: true
-    href: SuperOffice.IO.TagContainer.html
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.Data.GeneratorEncoding
     name: GeneratorEncoding
+    nameWithType: GeneratorEncoding
+    fullName: SuperOffice.Data.GeneratorEncoding
     isExternal: true
-    href: SuperOffice.Data.GeneratorEncoding.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.IO.Generator.GetGenerator(System.IO.Stream,SuperOffice.IO.TagContainer,SuperOffice.Data.GeneratorEncoding,System.String)
   commentId: M:SuperOffice.IO.Generator.GetGenerator(System.IO.Stream,SuperOffice.IO.TagContainer,SuperOffice.Data.GeneratorEncoding,System.String)
   parent: SuperOffice.IO.Generator
   isExternal: true
-  href: SuperOffice.IO.Generator.html#SuperOffice_IO_Generator_GetGenerator_System_IO_Stream_SuperOffice_IO_TagContainer_SuperOffice_Data_GeneratorEncoding_System_String_
-  name: GetGenerator(Stream, TagContainer, GeneratorEncoding, string)
-  nameWithType: Generator.GetGenerator(Stream, TagContainer, GeneratorEncoding, string)
-  fullName: SuperOffice.IO.Generator.GetGenerator(System.IO.Stream, SuperOffice.IO.TagContainer, SuperOffice.Data.GeneratorEncoding, string)
-  nameWithType.vb: Generator.GetGenerator(Stream, TagContainer, GeneratorEncoding, String)
-  fullName.vb: SuperOffice.IO.Generator.GetGenerator(System.IO.Stream, SuperOffice.IO.TagContainer, SuperOffice.Data.GeneratorEncoding, String)
-  name.vb: GetGenerator(Stream, TagContainer, GeneratorEncoding, String)
+  name: GetGenerator(Stream, TagContainer, GeneratorEncoding, String)
+  nameWithType: Generator.GetGenerator(Stream, TagContainer, GeneratorEncoding, String)
+  fullName: SuperOffice.IO.Generator.GetGenerator(System.IO.Stream, SuperOffice.IO.TagContainer, SuperOffice.Data.GeneratorEncoding, System.String)
   spec.csharp:
   - uid: SuperOffice.IO.Generator.GetGenerator(System.IO.Stream,SuperOffice.IO.TagContainer,SuperOffice.Data.GeneratorEncoding,System.String)
     name: GetGenerator
+    nameWithType: Generator.GetGenerator
+    fullName: SuperOffice.IO.Generator.GetGenerator
     isExternal: true
-    href: SuperOffice.IO.Generator.html#SuperOffice_IO_Generator_GetGenerator_System_IO_Stream_SuperOffice_IO_TagContainer_SuperOffice_Data_GeneratorEncoding_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.IO.Stream
     name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.IO.TagContainer
     name: TagContainer
+    nameWithType: TagContainer
+    fullName: SuperOffice.IO.TagContainer
     isExternal: true
-    href: SuperOffice.IO.TagContainer.html
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.Data.GeneratorEncoding
     name: GeneratorEncoding
+    nameWithType: GeneratorEncoding
+    fullName: SuperOffice.Data.GeneratorEncoding
     isExternal: true
-    href: SuperOffice.Data.GeneratorEncoding.html
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.IO.Generator.GetGenerator(System.IO.Stream,SuperOffice.IO.TagContainer,SuperOffice.Data.GeneratorEncoding,System.String)
     name: GetGenerator
+    nameWithType: Generator.GetGenerator
+    fullName: SuperOffice.IO.Generator.GetGenerator
     isExternal: true
-    href: SuperOffice.IO.Generator.html#SuperOffice_IO_Generator_GetGenerator_System_IO_Stream_SuperOffice_IO_TagContainer_SuperOffice_Data_GeneratorEncoding_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.IO.Stream
     name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.IO.TagContainer
     name: TagContainer
+    nameWithType: TagContainer
+    fullName: SuperOffice.IO.TagContainer
     isExternal: true
-    href: SuperOffice.IO.TagContainer.html
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.Data.GeneratorEncoding
     name: GeneratorEncoding
+    nameWithType: GeneratorEncoding
+    fullName: SuperOffice.Data.GeneratorEncoding
     isExternal: true
-    href: SuperOffice.Data.GeneratorEncoding.html
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.IO.Generator.GetGenerator(System.String,SuperOffice.IO.TagContainer,SuperOffice.Data.GeneratorEncoding)
   commentId: M:SuperOffice.IO.Generator.GetGenerator(System.String,SuperOffice.IO.TagContainer,SuperOffice.Data.GeneratorEncoding)
   parent: SuperOffice.IO.Generator
   isExternal: true
-  href: SuperOffice.IO.Generator.html#SuperOffice_IO_Generator_GetGenerator_System_String_SuperOffice_IO_TagContainer_SuperOffice_Data_GeneratorEncoding_
-  name: GetGenerator(string, TagContainer, GeneratorEncoding)
-  nameWithType: Generator.GetGenerator(string, TagContainer, GeneratorEncoding)
-  fullName: SuperOffice.IO.Generator.GetGenerator(string, SuperOffice.IO.TagContainer, SuperOffice.Data.GeneratorEncoding)
-  nameWithType.vb: Generator.GetGenerator(String, TagContainer, GeneratorEncoding)
-  fullName.vb: SuperOffice.IO.Generator.GetGenerator(String, SuperOffice.IO.TagContainer, SuperOffice.Data.GeneratorEncoding)
-  name.vb: GetGenerator(String, TagContainer, GeneratorEncoding)
+  name: GetGenerator(String, TagContainer, GeneratorEncoding)
+  nameWithType: Generator.GetGenerator(String, TagContainer, GeneratorEncoding)
+  fullName: SuperOffice.IO.Generator.GetGenerator(System.String, SuperOffice.IO.TagContainer, SuperOffice.Data.GeneratorEncoding)
   spec.csharp:
   - uid: SuperOffice.IO.Generator.GetGenerator(System.String,SuperOffice.IO.TagContainer,SuperOffice.Data.GeneratorEncoding)
     name: GetGenerator
+    nameWithType: Generator.GetGenerator
+    fullName: SuperOffice.IO.Generator.GetGenerator
     isExternal: true
-    href: SuperOffice.IO.Generator.html#SuperOffice_IO_Generator_GetGenerator_System_String_SuperOffice_IO_TagContainer_SuperOffice_Data_GeneratorEncoding_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.IO.TagContainer
     name: TagContainer
+    nameWithType: TagContainer
+    fullName: SuperOffice.IO.TagContainer
     isExternal: true
-    href: SuperOffice.IO.TagContainer.html
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.Data.GeneratorEncoding
     name: GeneratorEncoding
+    nameWithType: GeneratorEncoding
+    fullName: SuperOffice.Data.GeneratorEncoding
     isExternal: true
-    href: SuperOffice.Data.GeneratorEncoding.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.IO.Generator.GetGenerator(System.String,SuperOffice.IO.TagContainer,SuperOffice.Data.GeneratorEncoding)
     name: GetGenerator
+    nameWithType: Generator.GetGenerator
+    fullName: SuperOffice.IO.Generator.GetGenerator
     isExternal: true
-    href: SuperOffice.IO.Generator.html#SuperOffice_IO_Generator_GetGenerator_System_String_SuperOffice_IO_TagContainer_SuperOffice_Data_GeneratorEncoding_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.IO.TagContainer
     name: TagContainer
+    nameWithType: TagContainer
+    fullName: SuperOffice.IO.TagContainer
     isExternal: true
-    href: SuperOffice.IO.TagContainer.html
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.Data.GeneratorEncoding
     name: GeneratorEncoding
+    nameWithType: GeneratorEncoding
+    fullName: SuperOffice.Data.GeneratorEncoding
     isExternal: true
-    href: SuperOffice.Data.GeneratorEncoding.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.IO.Generator.GetGenerator(System.String,SuperOffice.IO.TagContainer,SuperOffice.Data.GeneratorEncoding,System.String)
   commentId: M:SuperOffice.IO.Generator.GetGenerator(System.String,SuperOffice.IO.TagContainer,SuperOffice.Data.GeneratorEncoding,System.String)
   parent: SuperOffice.IO.Generator
   isExternal: true
-  href: SuperOffice.IO.Generator.html#SuperOffice_IO_Generator_GetGenerator_System_String_SuperOffice_IO_TagContainer_SuperOffice_Data_GeneratorEncoding_System_String_
-  name: GetGenerator(string, TagContainer, GeneratorEncoding, string)
-  nameWithType: Generator.GetGenerator(string, TagContainer, GeneratorEncoding, string)
-  fullName: SuperOffice.IO.Generator.GetGenerator(string, SuperOffice.IO.TagContainer, SuperOffice.Data.GeneratorEncoding, string)
-  nameWithType.vb: Generator.GetGenerator(String, TagContainer, GeneratorEncoding, String)
-  fullName.vb: SuperOffice.IO.Generator.GetGenerator(String, SuperOffice.IO.TagContainer, SuperOffice.Data.GeneratorEncoding, String)
-  name.vb: GetGenerator(String, TagContainer, GeneratorEncoding, String)
+  name: GetGenerator(String, TagContainer, GeneratorEncoding, String)
+  nameWithType: Generator.GetGenerator(String, TagContainer, GeneratorEncoding, String)
+  fullName: SuperOffice.IO.Generator.GetGenerator(System.String, SuperOffice.IO.TagContainer, SuperOffice.Data.GeneratorEncoding, System.String)
   spec.csharp:
   - uid: SuperOffice.IO.Generator.GetGenerator(System.String,SuperOffice.IO.TagContainer,SuperOffice.Data.GeneratorEncoding,System.String)
     name: GetGenerator
+    nameWithType: Generator.GetGenerator
+    fullName: SuperOffice.IO.Generator.GetGenerator
     isExternal: true
-    href: SuperOffice.IO.Generator.html#SuperOffice_IO_Generator_GetGenerator_System_String_SuperOffice_IO_TagContainer_SuperOffice_Data_GeneratorEncoding_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.IO.TagContainer
     name: TagContainer
+    nameWithType: TagContainer
+    fullName: SuperOffice.IO.TagContainer
     isExternal: true
-    href: SuperOffice.IO.TagContainer.html
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.Data.GeneratorEncoding
     name: GeneratorEncoding
+    nameWithType: GeneratorEncoding
+    fullName: SuperOffice.Data.GeneratorEncoding
     isExternal: true
-    href: SuperOffice.Data.GeneratorEncoding.html
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.IO.Generator.GetGenerator(System.String,SuperOffice.IO.TagContainer,SuperOffice.Data.GeneratorEncoding,System.String)
     name: GetGenerator
+    nameWithType: Generator.GetGenerator
+    fullName: SuperOffice.IO.Generator.GetGenerator
     isExternal: true
-    href: SuperOffice.IO.Generator.html#SuperOffice_IO_Generator_GetGenerator_System_String_SuperOffice_IO_TagContainer_SuperOffice_Data_GeneratorEncoding_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.IO.TagContainer
     name: TagContainer
+    nameWithType: TagContainer
+    fullName: SuperOffice.IO.TagContainer
     isExternal: true
-    href: SuperOffice.IO.TagContainer.html
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.Data.GeneratorEncoding
     name: GeneratorEncoding
+    nameWithType: GeneratorEncoding
+    fullName: SuperOffice.Data.GeneratorEncoding
     isExternal: true
-    href: SuperOffice.Data.GeneratorEncoding.html
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.IO.Generator.GetGenerator(System.IO.Stream,SuperOffice.IO.TagContainer,System.String)
   commentId: M:SuperOffice.IO.Generator.GetGenerator(System.IO.Stream,SuperOffice.IO.TagContainer,System.String)
   parent: SuperOffice.IO.Generator
   isExternal: true
-  href: SuperOffice.IO.Generator.html#SuperOffice_IO_Generator_GetGenerator_System_IO_Stream_SuperOffice_IO_TagContainer_System_String_
-  name: GetGenerator(Stream, TagContainer, string)
-  nameWithType: Generator.GetGenerator(Stream, TagContainer, string)
-  fullName: SuperOffice.IO.Generator.GetGenerator(System.IO.Stream, SuperOffice.IO.TagContainer, string)
-  nameWithType.vb: Generator.GetGenerator(Stream, TagContainer, String)
-  fullName.vb: SuperOffice.IO.Generator.GetGenerator(System.IO.Stream, SuperOffice.IO.TagContainer, String)
-  name.vb: GetGenerator(Stream, TagContainer, String)
+  name: GetGenerator(Stream, TagContainer, String)
+  nameWithType: Generator.GetGenerator(Stream, TagContainer, String)
+  fullName: SuperOffice.IO.Generator.GetGenerator(System.IO.Stream, SuperOffice.IO.TagContainer, System.String)
   spec.csharp:
   - uid: SuperOffice.IO.Generator.GetGenerator(System.IO.Stream,SuperOffice.IO.TagContainer,System.String)
     name: GetGenerator
+    nameWithType: Generator.GetGenerator
+    fullName: SuperOffice.IO.Generator.GetGenerator
     isExternal: true
-    href: SuperOffice.IO.Generator.html#SuperOffice_IO_Generator_GetGenerator_System_IO_Stream_SuperOffice_IO_TagContainer_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.IO.Stream
     name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.IO.TagContainer
     name: TagContainer
+    nameWithType: TagContainer
+    fullName: SuperOffice.IO.TagContainer
     isExternal: true
-    href: SuperOffice.IO.TagContainer.html
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.IO.Generator.GetGenerator(System.IO.Stream,SuperOffice.IO.TagContainer,System.String)
     name: GetGenerator
+    nameWithType: Generator.GetGenerator
+    fullName: SuperOffice.IO.Generator.GetGenerator
     isExternal: true
-    href: SuperOffice.IO.Generator.html#SuperOffice_IO_Generator_GetGenerator_System_IO_Stream_SuperOffice_IO_TagContainer_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.IO.Stream
     name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.IO.TagContainer
     name: TagContainer
+    nameWithType: TagContainer
+    fullName: SuperOffice.IO.TagContainer
     isExternal: true
-    href: SuperOffice.IO.TagContainer.html
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.IO.Generator.GetGenerator(System.IO.Stream,SuperOffice.IO.TagContainer,System.String,System.String)
   commentId: M:SuperOffice.IO.Generator.GetGenerator(System.IO.Stream,SuperOffice.IO.TagContainer,System.String,System.String)
   parent: SuperOffice.IO.Generator
   isExternal: true
-  href: SuperOffice.IO.Generator.html#SuperOffice_IO_Generator_GetGenerator_System_IO_Stream_SuperOffice_IO_TagContainer_System_String_System_String_
-  name: GetGenerator(Stream, TagContainer, string, string)
-  nameWithType: Generator.GetGenerator(Stream, TagContainer, string, string)
-  fullName: SuperOffice.IO.Generator.GetGenerator(System.IO.Stream, SuperOffice.IO.TagContainer, string, string)
-  nameWithType.vb: Generator.GetGenerator(Stream, TagContainer, String, String)
-  fullName.vb: SuperOffice.IO.Generator.GetGenerator(System.IO.Stream, SuperOffice.IO.TagContainer, String, String)
-  name.vb: GetGenerator(Stream, TagContainer, String, String)
+  name: GetGenerator(Stream, TagContainer, String, String)
+  nameWithType: Generator.GetGenerator(Stream, TagContainer, String, String)
+  fullName: SuperOffice.IO.Generator.GetGenerator(System.IO.Stream, SuperOffice.IO.TagContainer, System.String, System.String)
   spec.csharp:
   - uid: SuperOffice.IO.Generator.GetGenerator(System.IO.Stream,SuperOffice.IO.TagContainer,System.String,System.String)
     name: GetGenerator
+    nameWithType: Generator.GetGenerator
+    fullName: SuperOffice.IO.Generator.GetGenerator
     isExternal: true
-    href: SuperOffice.IO.Generator.html#SuperOffice_IO_Generator_GetGenerator_System_IO_Stream_SuperOffice_IO_TagContainer_System_String_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.IO.Stream
     name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.IO.TagContainer
     name: TagContainer
+    nameWithType: TagContainer
+    fullName: SuperOffice.IO.TagContainer
     isExternal: true
-    href: SuperOffice.IO.TagContainer.html
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.IO.Generator.GetGenerator(System.IO.Stream,SuperOffice.IO.TagContainer,System.String,System.String)
     name: GetGenerator
+    nameWithType: Generator.GetGenerator
+    fullName: SuperOffice.IO.Generator.GetGenerator
     isExternal: true
-    href: SuperOffice.IO.Generator.html#SuperOffice_IO_Generator_GetGenerator_System_IO_Stream_SuperOffice_IO_TagContainer_System_String_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.IO.Stream
     name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.IO.TagContainer
     name: TagContainer
+    nameWithType: TagContainer
+    fullName: SuperOffice.IO.TagContainer
     isExternal: true
-    href: SuperOffice.IO.TagContainer.html
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.IO.Generator.AddExtensionMapping(System.String,System.String)
   commentId: M:SuperOffice.IO.Generator.AddExtensionMapping(System.String,System.String)
   parent: SuperOffice.IO.Generator
   isExternal: true
-  href: SuperOffice.IO.Generator.html#SuperOffice_IO_Generator_AddExtensionMapping_System_String_System_String_
-  name: AddExtensionMapping(string, string)
-  nameWithType: Generator.AddExtensionMapping(string, string)
-  fullName: SuperOffice.IO.Generator.AddExtensionMapping(string, string)
-  nameWithType.vb: Generator.AddExtensionMapping(String, String)
-  fullName.vb: SuperOffice.IO.Generator.AddExtensionMapping(String, String)
-  name.vb: AddExtensionMapping(String, String)
+  name: AddExtensionMapping(String, String)
+  nameWithType: Generator.AddExtensionMapping(String, String)
+  fullName: SuperOffice.IO.Generator.AddExtensionMapping(System.String, System.String)
   spec.csharp:
   - uid: SuperOffice.IO.Generator.AddExtensionMapping(System.String,System.String)
     name: AddExtensionMapping
+    nameWithType: Generator.AddExtensionMapping
+    fullName: SuperOffice.IO.Generator.AddExtensionMapping
     isExternal: true
-    href: SuperOffice.IO.Generator.html#SuperOffice_IO_Generator_AddExtensionMapping_System_String_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.IO.Generator.AddExtensionMapping(System.String,System.String)
     name: AddExtensionMapping
+    nameWithType: Generator.AddExtensionMapping
+    fullName: SuperOffice.IO.Generator.AddExtensionMapping
     isExternal: true
-    href: SuperOffice.IO.Generator.html#SuperOffice_IO_Generator_AddExtensionMapping_System_String_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.IO.Generator.GetEncoding(System.String)
   commentId: M:SuperOffice.IO.Generator.GetEncoding(System.String)
   parent: SuperOffice.IO.Generator
   isExternal: true
-  href: SuperOffice.IO.Generator.html#SuperOffice_IO_Generator_GetEncoding_System_String_
-  name: GetEncoding(string)
-  nameWithType: Generator.GetEncoding(string)
-  fullName: SuperOffice.IO.Generator.GetEncoding(string)
-  nameWithType.vb: Generator.GetEncoding(String)
-  fullName.vb: SuperOffice.IO.Generator.GetEncoding(String)
-  name.vb: GetEncoding(String)
+  name: GetEncoding(String)
+  nameWithType: Generator.GetEncoding(String)
+  fullName: SuperOffice.IO.Generator.GetEncoding(System.String)
   spec.csharp:
   - uid: SuperOffice.IO.Generator.GetEncoding(System.String)
     name: GetEncoding
+    nameWithType: Generator.GetEncoding
+    fullName: SuperOffice.IO.Generator.GetEncoding
     isExternal: true
-    href: SuperOffice.IO.Generator.html#SuperOffice_IO_Generator_GetEncoding_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.IO.Generator.GetEncoding(System.String)
     name: GetEncoding
+    nameWithType: Generator.GetEncoding
+    fullName: SuperOffice.IO.Generator.GetEncoding
     isExternal: true
-    href: SuperOffice.IO.Generator.html#SuperOffice_IO_Generator_GetEncoding_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.IO.Generator.Generate
   commentId: M:SuperOffice.IO.Generator.Generate
   parent: SuperOffice.IO.Generator
   isExternal: true
-  href: SuperOffice.IO.Generator.html#SuperOffice_IO_Generator_Generate
   name: Generate()
   nameWithType: Generator.Generate()
   fullName: SuperOffice.IO.Generator.Generate()
   spec.csharp:
   - uid: SuperOffice.IO.Generator.Generate
     name: Generate
+    nameWithType: Generator.Generate
+    fullName: SuperOffice.IO.Generator.Generate
     isExternal: true
-    href: SuperOffice.IO.Generator.html#SuperOffice_IO_Generator_Generate
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.IO.Generator.Generate
     name: Generate
+    nameWithType: Generator.Generate
+    fullName: SuperOffice.IO.Generator.Generate
     isExternal: true
-    href: SuperOffice.IO.Generator.html#SuperOffice_IO_Generator_Generate
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.IO.Generator.GetDefaultTextEncoding(SuperOffice.Data.GeneratorEncoding)
   commentId: M:SuperOffice.IO.Generator.GetDefaultTextEncoding(SuperOffice.Data.GeneratorEncoding)
   parent: SuperOffice.IO.Generator
   isExternal: true
-  href: SuperOffice.IO.Generator.html#SuperOffice_IO_Generator_GetDefaultTextEncoding_SuperOffice_Data_GeneratorEncoding_
   name: GetDefaultTextEncoding(GeneratorEncoding)
   nameWithType: Generator.GetDefaultTextEncoding(GeneratorEncoding)
   fullName: SuperOffice.IO.Generator.GetDefaultTextEncoding(SuperOffice.Data.GeneratorEncoding)
   spec.csharp:
   - uid: SuperOffice.IO.Generator.GetDefaultTextEncoding(SuperOffice.Data.GeneratorEncoding)
     name: GetDefaultTextEncoding
+    nameWithType: Generator.GetDefaultTextEncoding
+    fullName: SuperOffice.IO.Generator.GetDefaultTextEncoding
     isExternal: true
-    href: SuperOffice.IO.Generator.html#SuperOffice_IO_Generator_GetDefaultTextEncoding_SuperOffice_Data_GeneratorEncoding_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.GeneratorEncoding
     name: GeneratorEncoding
+    nameWithType: GeneratorEncoding
+    fullName: SuperOffice.Data.GeneratorEncoding
     isExternal: true
-    href: SuperOffice.Data.GeneratorEncoding.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.IO.Generator.GetDefaultTextEncoding(SuperOffice.Data.GeneratorEncoding)
     name: GetDefaultTextEncoding
+    nameWithType: Generator.GetDefaultTextEncoding
+    fullName: SuperOffice.IO.Generator.GetDefaultTextEncoding
     isExternal: true
-    href: SuperOffice.IO.Generator.html#SuperOffice_IO_Generator_GetDefaultTextEncoding_SuperOffice_Data_GeneratorEncoding_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.GeneratorEncoding
     name: GeneratorEncoding
+    nameWithType: GeneratorEncoding
+    fullName: SuperOffice.Data.GeneratorEncoding
     isExternal: true
-    href: SuperOffice.Data.GeneratorEncoding.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.IO.Generator.GetTagData(System.String)
   commentId: M:SuperOffice.IO.Generator.GetTagData(System.String)
   parent: SuperOffice.IO.Generator
   isExternal: true
-  href: SuperOffice.IO.Generator.html#SuperOffice_IO_Generator_GetTagData_System_String_
-  name: GetTagData(string)
-  nameWithType: Generator.GetTagData(string)
-  fullName: SuperOffice.IO.Generator.GetTagData(string)
-  nameWithType.vb: Generator.GetTagData(String)
-  fullName.vb: SuperOffice.IO.Generator.GetTagData(String)
-  name.vb: GetTagData(String)
+  name: GetTagData(String)
+  nameWithType: Generator.GetTagData(String)
+  fullName: SuperOffice.IO.Generator.GetTagData(System.String)
   spec.csharp:
   - uid: SuperOffice.IO.Generator.GetTagData(System.String)
     name: GetTagData
+    nameWithType: Generator.GetTagData
+    fullName: SuperOffice.IO.Generator.GetTagData
     isExternal: true
-    href: SuperOffice.IO.Generator.html#SuperOffice_IO_Generator_GetTagData_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.IO.Generator.GetTagData(System.String)
     name: GetTagData
+    nameWithType: Generator.GetTagData
+    fullName: SuperOffice.IO.Generator.GetTagData
     isExternal: true
-    href: SuperOffice.IO.Generator.html#SuperOffice_IO_Generator_GetTagData_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.IO.Generator.AddTagRegex(System.Text.RegularExpressions.Regex)
   commentId: M:SuperOffice.IO.Generator.AddTagRegex(System.Text.RegularExpressions.Regex)
   parent: SuperOffice.IO.Generator
   isExternal: true
-  href: SuperOffice.IO.Generator.html#SuperOffice_IO_Generator_AddTagRegex_System_Text_RegularExpressions_Regex_
   name: AddTagRegex(Regex)
   nameWithType: Generator.AddTagRegex(Regex)
   fullName: SuperOffice.IO.Generator.AddTagRegex(System.Text.RegularExpressions.Regex)
   spec.csharp:
   - uid: SuperOffice.IO.Generator.AddTagRegex(System.Text.RegularExpressions.Regex)
     name: AddTagRegex
+    nameWithType: Generator.AddTagRegex
+    fullName: SuperOffice.IO.Generator.AddTagRegex
     isExternal: true
-    href: SuperOffice.IO.Generator.html#SuperOffice_IO_Generator_AddTagRegex_System_Text_RegularExpressions_Regex_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Text.RegularExpressions.Regex
     name: Regex
+    nameWithType: Regex
+    fullName: System.Text.RegularExpressions.Regex
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.text.regularexpressions.regex
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.IO.Generator.AddTagRegex(System.Text.RegularExpressions.Regex)
     name: AddTagRegex
+    nameWithType: Generator.AddTagRegex
+    fullName: SuperOffice.IO.Generator.AddTagRegex
     isExternal: true
-    href: SuperOffice.IO.Generator.html#SuperOffice_IO_Generator_AddTagRegex_System_Text_RegularExpressions_Regex_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Text.RegularExpressions.Regex
     name: Regex
+    nameWithType: Regex
+    fullName: System.Text.RegularExpressions.Regex
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.text.regularexpressions.regex
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.IO.Generator.UiCulture
   commentId: P:SuperOffice.IO.Generator.UiCulture
   parent: SuperOffice.IO.Generator
   isExternal: true
-  href: SuperOffice.IO.Generator.html#SuperOffice_IO_Generator_UiCulture
   name: UiCulture
   nameWithType: Generator.UiCulture
   fullName: SuperOffice.IO.Generator.UiCulture
@@ -1062,7 +1295,6 @@ references:
   commentId: P:SuperOffice.IO.Generator.Template
   parent: SuperOffice.IO.Generator
   isExternal: true
-  href: SuperOffice.IO.Generator.html#SuperOffice_IO_Generator_Template
   name: Template
   nameWithType: Generator.Template
   fullName: SuperOffice.IO.Generator.Template
@@ -1070,7 +1302,6 @@ references:
   commentId: P:SuperOffice.IO.Generator.Tags
   parent: SuperOffice.IO.Generator
   isExternal: true
-  href: SuperOffice.IO.Generator.html#SuperOffice_IO_Generator_Tags
   name: Tags
   nameWithType: Generator.Tags
   fullName: SuperOffice.IO.Generator.Tags
@@ -1078,7 +1309,6 @@ references:
   commentId: P:SuperOffice.IO.Generator.Encoding
   parent: SuperOffice.IO.Generator
   isExternal: true
-  href: SuperOffice.IO.Generator.html#SuperOffice_IO_Generator_Encoding
   name: Encoding
   nameWithType: Generator.Encoding
   fullName: SuperOffice.IO.Generator.Encoding
@@ -1086,346 +1316,86 @@ references:
   commentId: P:SuperOffice.IO.Generator.OldEncoding
   parent: SuperOffice.IO.Generator
   isExternal: true
-  href: SuperOffice.IO.Generator.html#SuperOffice_IO_Generator_OldEncoding
   name: OldEncoding
   nameWithType: Generator.OldEncoding
   fullName: SuperOffice.IO.Generator.OldEncoding
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
 - uid: SuperOffice.IO.TextGenerator.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<TextGenerator, To>(TextGenerator)
-  nameWithType: EnumUtil.MapEnums<TextGenerator, To>(TextGenerator)
-  fullName: EnumUtil.MapEnums<SuperOffice.IO.TextGenerator, To>(SuperOffice.IO.TextGenerator)
-  nameWithType.vb: EnumUtil.MapEnums(Of TextGenerator, To)(TextGenerator)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.IO.TextGenerator, To)(SuperOffice.IO.TextGenerator)
-  name.vb: MapEnums(Of TextGenerator, To)(TextGenerator)
+  name: MapEnums<TextGenerator, To>()
+  nameWithType: EnumUtil.MapEnums<TextGenerator, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.IO.TextGenerator, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of TextGenerator, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.IO.TextGenerator, To)()
+  name.vb: MapEnums(Of TextGenerator, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.IO.TextGenerator)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<TextGenerator, To>
+    nameWithType: EnumUtil.MapEnums<TextGenerator, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.IO.TextGenerator, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.IO.TextGenerator
-    name: TextGenerator
-    isExternal: true
-    href: SuperOffice.IO.TextGenerator.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.IO.TextGenerator
-    name: TextGenerator
-    isExternal: true
-    href: SuperOffice.IO.TextGenerator.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.IO.TextGenerator)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of TextGenerator, To)
+    nameWithType: EnumUtil.MapEnums(Of TextGenerator, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.IO.TextGenerator, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.IO.TextGenerator
-    name: TextGenerator
-    isExternal: true
-    href: SuperOffice.IO.TextGenerator.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.IO.TextGenerator
-    name: TextGenerator
-    isExternal: true
-    href: SuperOffice.IO.TextGenerator.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.IO.TextGenerator.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<TextGenerator, To>(TextGenerator)
-  nameWithType: Converters.MapEnums<TextGenerator, To>(TextGenerator)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.IO.TextGenerator, To>(SuperOffice.IO.TextGenerator)
-  nameWithType.vb: Converters.MapEnums(Of TextGenerator, To)(TextGenerator)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.IO.TextGenerator, To)(SuperOffice.IO.TextGenerator)
-  name.vb: MapEnums(Of TextGenerator, To)(TextGenerator)
+  name: MapEnums<TextGenerator, To>()
+  nameWithType: Converters.MapEnums<TextGenerator, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.IO.TextGenerator, To>()
+  nameWithType.vb: Converters.MapEnums(Of TextGenerator, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.IO.TextGenerator, To)()
+  name.vb: MapEnums(Of TextGenerator, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.IO.TextGenerator)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<TextGenerator, To>
+    nameWithType: Converters.MapEnums<TextGenerator, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.IO.TextGenerator, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.IO.TextGenerator
-    name: TextGenerator
-    isExternal: true
-    href: SuperOffice.IO.TextGenerator.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.IO.TextGenerator
-    name: TextGenerator
-    isExternal: true
-    href: SuperOffice.IO.TextGenerator.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.IO.TextGenerator)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of TextGenerator, To)
+    nameWithType: Converters.MapEnums(Of TextGenerator, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.IO.TextGenerator, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.IO.TextGenerator
-    name: TextGenerator
-    isExternal: true
-    href: SuperOffice.IO.TextGenerator.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.IO.TextGenerator
-    name: TextGenerator
-    isExternal: true
-    href: SuperOffice.IO.TextGenerator.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -1434,45 +1404,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -1481,382 +1449,269 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: System.Collections.Generic.List{System.String}
-  commentId: T:System.Collections.Generic.List{System.String}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.List{System.String}'
   definition: System.Collections.Generic.List`1
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
-  name: List<string>
-  nameWithType: List<string>
-  fullName: System.Collections.Generic.List<string>
+  name: List<String>
+  nameWithType: List<String>
+  fullName: System.Collections.Generic.List<System.String>
   nameWithType.vb: List(Of String)
-  fullName.vb: System.Collections.Generic.List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of System.String)
   name.vb: List(Of String)
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: <
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: '>'
-  spec.vb:
-  - uid: System.Collections.Generic.List`1
-    name: List
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
-  - name: (
-  - name: Of
-  - name: " "
+    nameWithType: <
+    fullName: <
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: System.Collections.Generic.List`1
-  commentId: T:System.Collections.Generic.List`1
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
-  name: List<T>
-  nameWithType: List<T>
-  fullName: System.Collections.Generic.List<T>
-  nameWithType.vb: List(Of T)
-  fullName.vb: System.Collections.Generic.List(Of T)
-  name.vb: List(Of T)
-  spec.csharp:
-  - uid: System.Collections.Generic.List`1
-    name: List
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
-  - name: <
-  - name: T
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.List`1
     name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
   - name: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
+  name: List<>
+  nameWithType: List<>
+  fullName: System.Collections.Generic.List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: System.Collections.Generic.List(Of )
+  name.vb: List(Of )
   spec.csharp:
-  - uid: System
-    name: System
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
-  - uid: System
-    name: System
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Char
   commentId: T:System.Char
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.char
-  name: char
-  nameWithType: char
-  fullName: char
-  nameWithType.vb: Char
-  fullName.vb: Char
-  name.vb: Char
+  name: Char
+  nameWithType: Char
+  fullName: System.Char
 - uid: SuperOffice.IO.TextGenerator.Generate*
   commentId: Overload:SuperOffice.IO.TextGenerator.Generate
   isExternal: true
-  href: SuperOffice.IO.TextGenerator.html#SuperOffice_IO_TextGenerator_Generate_System_IO_Stream_System_IO_Stream_
   name: Generate
   nameWithType: TextGenerator.Generate
   fullName: SuperOffice.IO.TextGenerator.Generate
 - uid: System.IO.Stream
-  commentId: T:System.IO.Stream
-  parent: System.IO
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.io.stream
   name: Stream
   nameWithType: Stream
   fullName: System.IO.Stream
-- uid: System.IO
-  commentId: N:System.IO
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.IO
-  nameWithType: System.IO
-  fullName: System.IO
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.IO
-    name: IO
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.IO
-    name: IO
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io
 - uid: SuperOffice.IO.Generator.Generate(System.IO.Stream)
   commentId: M:SuperOffice.IO.Generator.Generate(System.IO.Stream)
   parent: SuperOffice.IO.Generator
   isExternal: true
-  href: SuperOffice.IO.Generator.html#SuperOffice_IO_Generator_Generate_System_IO_Stream_
   name: Generate(Stream)
   nameWithType: Generator.Generate(Stream)
   fullName: SuperOffice.IO.Generator.Generate(System.IO.Stream)
   spec.csharp:
   - uid: SuperOffice.IO.Generator.Generate(System.IO.Stream)
     name: Generate
+    nameWithType: Generator.Generate
+    fullName: SuperOffice.IO.Generator.Generate
     isExternal: true
-    href: SuperOffice.IO.Generator.html#SuperOffice_IO_Generator_Generate_System_IO_Stream_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.IO.Stream
     name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.IO.Generator.Generate(System.IO.Stream)
     name: Generate
+    nameWithType: Generator.Generate
+    fullName: SuperOffice.IO.Generator.Generate
     isExternal: true
-    href: SuperOffice.IO.Generator.html#SuperOffice_IO_Generator_Generate_System_IO_Stream_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.IO.Stream
     name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.IO.TextGenerator.TagStart*
   commentId: Overload:SuperOffice.IO.TextGenerator.TagStart
   isExternal: true
-  href: SuperOffice.IO.TextGenerator.html#SuperOffice_IO_TextGenerator_TagStart
   name: TagStart
   nameWithType: TextGenerator.TagStart
   fullName: SuperOffice.IO.TextGenerator.TagStart
 - uid: SuperOffice.IO.TextGenerator.StartTags*
   commentId: Overload:SuperOffice.IO.TextGenerator.StartTags
   isExternal: true
-  href: SuperOffice.IO.TextGenerator.html#SuperOffice_IO_TextGenerator_StartTags
   name: StartTags
   nameWithType: TextGenerator.StartTags
   fullName: SuperOffice.IO.TextGenerator.StartTags
 - uid: System.String[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string[]
-  nameWithType: string[]
-  fullName: string[]
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
   nameWithType.vb: String()
-  fullName.vb: String()
+  fullName.vb: System.String()
   name.vb: String()
   spec.csharp:
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.IO.TextGenerator.TagEnd*
   commentId: Overload:SuperOffice.IO.TextGenerator.TagEnd
   isExternal: true
-  href: SuperOffice.IO.TextGenerator.html#SuperOffice_IO_TextGenerator_TagEnd
   name: TagEnd
   nameWithType: TextGenerator.TagEnd
   fullName: SuperOffice.IO.TextGenerator.TagEnd
 - uid: SuperOffice.IO.TextGenerator.EndTags*
   commentId: Overload:SuperOffice.IO.TextGenerator.EndTags
   isExternal: true
-  href: SuperOffice.IO.TextGenerator.html#SuperOffice_IO_TextGenerator_EndTags
   name: EndTags
   nameWithType: TextGenerator.EndTags
   fullName: SuperOffice.IO.TextGenerator.EndTags
 - uid: SuperOffice.IO.TextGenerator.Reader*
   commentId: Overload:SuperOffice.IO.TextGenerator.Reader
   isExternal: true
-  href: SuperOffice.IO.TextGenerator.html#SuperOffice_IO_TextGenerator_Reader
   name: Reader
   nameWithType: TextGenerator.Reader
   fullName: SuperOffice.IO.TextGenerator.Reader
 - uid: System.IO.StreamReader
-  commentId: T:System.IO.StreamReader
-  parent: System.IO
+  commentId: '!:System.IO.StreamReader'
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.io.streamreader
   name: StreamReader
   nameWithType: StreamReader
   fullName: System.IO.StreamReader
 - uid: SuperOffice.IO.TextGenerator.Writer*
   commentId: Overload:SuperOffice.IO.TextGenerator.Writer
   isExternal: true
-  href: SuperOffice.IO.TextGenerator.html#SuperOffice_IO_TextGenerator_Writer
   name: Writer
   nameWithType: TextGenerator.Writer
   fullName: SuperOffice.IO.TextGenerator.Writer
 - uid: System.IO.StreamWriter
-  commentId: T:System.IO.StreamWriter
-  parent: System.IO
+  commentId: '!:System.IO.StreamWriter'
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.io.streamwriter
   name: StreamWriter
   nameWithType: StreamWriter
   fullName: System.IO.StreamWriter
 - uid: SuperOffice.IO.TextGenerator.TextEncoding*
   commentId: Overload:SuperOffice.IO.TextGenerator.TextEncoding
   isExternal: true
-  href: SuperOffice.IO.TextGenerator.html#SuperOffice_IO_TextGenerator_TextEncoding
   name: TextEncoding
   nameWithType: TextGenerator.TextEncoding
   fullName: SuperOffice.IO.TextGenerator.TextEncoding
 - uid: System.Text.Encoding
-  commentId: T:System.Text.Encoding
-  parent: System.Text
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.text.encoding
   name: Encoding
   nameWithType: Encoding
   fullName: System.Text.Encoding
-- uid: System.Text
-  commentId: N:System.Text
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Text
-  nameWithType: System.Text
-  fullName: System.Text
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Text
-    name: Text
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.text
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Text
-    name: Text
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.text

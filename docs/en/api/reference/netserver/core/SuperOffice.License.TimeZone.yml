@@ -18,7 +18,6 @@ references:
 - uid: SuperOffice.License.TimeZone.TimeZoneService
   commentId: T:SuperOffice.License.TimeZone.TimeZoneService
   isExternal: true
-  href: SuperOffice.License.TimeZone.TimeZoneService.html
   name: TimeZoneService
   nameWithType: TimeZoneService
   fullName: SuperOffice.License.TimeZone.TimeZoneService

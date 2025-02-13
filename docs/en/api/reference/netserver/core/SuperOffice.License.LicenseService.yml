@@ -6,6 +6,10 @@ items:
   parent: SuperOffice.License
   children:
   - SuperOffice.License.LicenseService.#ctor
+  - SuperOffice.License.LicenseService._GetLicenseUrl(System.String)
+  - SuperOffice.License.LicenseService._licenseUrlOverride
+  - SuperOffice.License.LicenseService._SetLicenseConfiguration(System.Reflection.Assembly)
+  - SuperOffice.License.LicenseService._SetLicenseUrlOverride(System.String)
   - SuperOffice.License.LicenseService.AcceptLicense(SuperOffice.License.AcceptLicenseRequest)
   - SuperOffice.License.LicenseService.ChangeSerialNumber(SuperOffice.License.ChangeSerialNumberRequest)
   - SuperOffice.License.LicenseService.GetCurrentLicenseInfo(SuperOffice.License.GetCurrentLicenseInfoRequest)
@@ -18,10 +22,6 @@ items:
   - SuperOffice.License.LicenseService.SetLicenseUrlOverride(System.String)
   - SuperOffice.License.LicenseService.SetTimeout(System.Int32)
   - SuperOffice.License.LicenseService.UpdateLicense(SuperOffice.License.UpdateLicenseRequest)
-  - SuperOffice.License.LicenseService._GetLicenseUrl(System.String)
-  - SuperOffice.License.LicenseService._SetLicenseConfiguration(System.Reflection.Assembly)
-  - SuperOffice.License.LicenseService._SetLicenseUrlOverride(System.String)
-  - SuperOffice.License.LicenseService._licenseUrlOverride
   langs:
   - csharp
   - vb
@@ -29,46 +29,31 @@ items:
   nameWithType: LicenseService
   fullName: SuperOffice.License.LicenseService
   type: Class
+  source:
+    path: SoLicense
+    isExternal: true
   assemblies:
   - SoLicense
   namespace: SuperOffice.License
-  summary: Facade for License service hosted by SuperOffice (or one of the partners)
-  example: []
+  summary: "\nFacade for License service hosted by SuperOffice (or one of the partners)\n"
   syntax:
     content: 'public class LicenseService : WcfClientBase<ILicenseService>'
-    content.vb: Public Class LicenseService Inherits WcfClientBase(Of ILicenseService)
+    content.vb: >-
+      Public Class LicenseService
+          Inherits WcfClientBase(Of ILicenseService)
   inheritance:
   - System.Object
-  - SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}
-  inheritedMembers:
-  - SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.SetUrl(System.String)
-  - SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.CreateChannel
-  - SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.CreateChannel(System.String)
-  - SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.CreateBinding(System.ServiceModel.EndpointAddress,System.Boolean@)
-  - SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.SetCredentials(System.ServiceModel.Description.ClientCredentials,System.Boolean)
-  - SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.CreateEndPoint(System.String)
-  - SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.ConfigureBinding(System.ServiceModel.BasicHttpBinding)
-  - SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.IsSecureUrl(System.Uri)
-  - SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.InitBinding(System.ServiceModel.BasicHttpBinding)
-  - SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.Execute``1(System.Func{SuperOffice.License.ILicenseService,{TRetVal}})
-  - SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.Execute``1(System.Func{SuperOffice.License.ILicenseService,{TRetVal}},System.String)
-  - SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.ExecuteAction(System.Action{SuperOffice.License.ILicenseService})
-  - SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.ExecuteAction(System.Action{SuperOffice.License.ILicenseService},System.String)
-  - SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.DefaultUrl
-  - SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.MessageSize
-  - SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.Timeout
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.License.LicenseService.EnumUtil.MapEnums``2
-  - SuperOffice.License.LicenseService.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.License.LicenseService.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.License.LicenseService)
   - SuperOffice.License.LicenseService.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.License.LicenseService.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.License.LicenseService._licenseUrlOverride
   commentId: F:SuperOffice.License.LicenseService._licenseUrlOverride
   id: _licenseUrlOverride
@@ -80,6 +65,9 @@ items:
   nameWithType: LicenseService._licenseUrlOverride
   fullName: SuperOffice.License.LicenseService._licenseUrlOverride
   type: Field
+  source:
+    path: SoLicense
+    isExternal: true
   assemblies:
   - SoLicense
   namespace: SuperOffice.License
@@ -88,6 +76,10 @@ items:
     return:
       type: System.String
     content.vb: Protected _licenseUrlOverride As String
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
 - uid: SuperOffice.License.LicenseService.SetLicenseUrlOverride(System.String)
   commentId: M:SuperOffice.License.LicenseService.SetLicenseUrlOverride(System.String)
   id: SetLicenseUrlOverride(System.String)
@@ -95,15 +87,17 @@ items:
   langs:
   - csharp
   - vb
-  name: SetLicenseUrlOverride(string)
-  nameWithType: LicenseService.SetLicenseUrlOverride(string)
-  fullName: SuperOffice.License.LicenseService.SetLicenseUrlOverride(string)
+  name: SetLicenseUrlOverride(String)
+  nameWithType: LicenseService.SetLicenseUrlOverride(String)
+  fullName: SuperOffice.License.LicenseService.SetLicenseUrlOverride(System.String)
   type: Method
+  source:
+    path: SoLicense
+    isExternal: true
   assemblies:
   - SoLicense
   namespace: SuperOffice.License
-  summary: Set license URL override - used by windows ServerSetup and DbSetup
-  example: []
+  summary: "\nSet license URL override - used by windows ServerSetup and DbSetup\n"
   syntax:
     content: public void SetLicenseUrlOverride(string licenseUrlOverride)
     parameters:
@@ -112,9 +106,10 @@ items:
       description: Use this URL instead of the one on the license
     content.vb: Public Sub SetLicenseUrlOverride(licenseUrlOverride As String)
   overload: SuperOffice.License.LicenseService.SetLicenseUrlOverride*
-  nameWithType.vb: LicenseService.SetLicenseUrlOverride(String)
-  fullName.vb: SuperOffice.License.LicenseService.SetLicenseUrlOverride(String)
-  name.vb: SetLicenseUrlOverride(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.License.LicenseService.SetTimeout(System.Int32)
   commentId: M:SuperOffice.License.LicenseService.SetTimeout(System.Int32)
   id: SetTimeout(System.Int32)
@@ -122,10 +117,13 @@ items:
   langs:
   - csharp
   - vb
-  name: SetTimeout(int)
-  nameWithType: LicenseService.SetTimeout(int)
-  fullName: SuperOffice.License.LicenseService.SetTimeout(int)
+  name: SetTimeout(Int32)
+  nameWithType: LicenseService.SetTimeout(Int32)
+  fullName: SuperOffice.License.LicenseService.SetTimeout(System.Int32)
   type: Method
+  source:
+    path: SoLicense
+    isExternal: true
   assemblies:
   - SoLicense
   namespace: SuperOffice.License
@@ -136,9 +134,10 @@ items:
       type: System.Int32
     content.vb: Public Sub SetTimeout(numSeconds As Integer)
   overload: SuperOffice.License.LicenseService.SetTimeout*
-  nameWithType.vb: LicenseService.SetTimeout(Integer)
-  fullName.vb: SuperOffice.License.LicenseService.SetTimeout(Integer)
-  name.vb: SetTimeout(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.License.LicenseService._SetLicenseUrlOverride(System.String)
   commentId: M:SuperOffice.License.LicenseService._SetLicenseUrlOverride(System.String)
   id: _SetLicenseUrlOverride(System.String)
@@ -146,10 +145,13 @@ items:
   langs:
   - csharp
   - vb
-  name: _SetLicenseUrlOverride(string)
-  nameWithType: LicenseService._SetLicenseUrlOverride(string)
-  fullName: SuperOffice.License.LicenseService._SetLicenseUrlOverride(string)
+  name: _SetLicenseUrlOverride(String)
+  nameWithType: LicenseService._SetLicenseUrlOverride(String)
+  fullName: SuperOffice.License.LicenseService._SetLicenseUrlOverride(System.String)
   type: Method
+  source:
+    path: SoLicense
+    isExternal: true
   assemblies:
   - SoLicense
   namespace: SuperOffice.License
@@ -160,9 +162,12 @@ items:
       type: System.String
     content.vb: Public Shared Sub _SetLicenseUrlOverride(url As String)
   overload: SuperOffice.License.LicenseService._SetLicenseUrlOverride*
-  nameWithType.vb: LicenseService._SetLicenseUrlOverride(String)
-  fullName.vb: SuperOffice.License.LicenseService._SetLicenseUrlOverride(String)
-  name.vb: _SetLicenseUrlOverride(String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.License.LicenseService._SetLicenseConfiguration(System.Reflection.Assembly)
   commentId: M:SuperOffice.License.LicenseService._SetLicenseConfiguration(System.Reflection.Assembly)
   id: _SetLicenseConfiguration(System.Reflection.Assembly)
@@ -174,6 +179,9 @@ items:
   nameWithType: LicenseService._SetLicenseConfiguration(Assembly)
   fullName: SuperOffice.License.LicenseService._SetLicenseConfiguration(System.Reflection.Assembly)
   type: Method
+  source:
+    path: SoLicense
+    isExternal: true
   assemblies:
   - SoLicense
   namespace: SuperOffice.License
@@ -184,6 +192,12 @@ items:
       type: System.Reflection.Assembly
     content.vb: Public Shared Sub _SetLicenseConfiguration(assembly As Assembly)
   overload: SuperOffice.License.LicenseService._SetLicenseConfiguration*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.License.LicenseService._GetLicenseUrl(System.String)
   commentId: M:SuperOffice.License.LicenseService._GetLicenseUrl(System.String)
   id: _GetLicenseUrl(System.String)
@@ -191,15 +205,17 @@ items:
   langs:
   - csharp
   - vb
-  name: _GetLicenseUrl(string)
-  nameWithType: LicenseService._GetLicenseUrl(string)
-  fullName: SuperOffice.License.LicenseService._GetLicenseUrl(string)
+  name: _GetLicenseUrl(String)
+  nameWithType: LicenseService._GetLicenseUrl(String)
+  fullName: SuperOffice.License.LicenseService._GetLicenseUrl(System.String)
   type: Method
+  source:
+    path: SoLicense
+    isExternal: true
   assemblies:
   - SoLicense
   namespace: SuperOffice.License
-  summary: Return the potentially overridden license server URL. Checks appSettings "SuperLicenseSvcUrl" value for override.
-  example: []
+  summary: "\nReturn the potentially overridden license server URL. Checks appSettings &quot;SuperLicenseSvcUrl&quot; value for override.\n"
   syntax:
     content: public static string _GetLicenseUrl(string url)
     parameters:
@@ -211,9 +227,12 @@ items:
       description: License URL we should actually call (usually the same as the input parameter)
     content.vb: Public Shared Function _GetLicenseUrl(url As String) As String
   overload: SuperOffice.License.LicenseService._GetLicenseUrl*
-  nameWithType.vb: LicenseService._GetLicenseUrl(String)
-  fullName.vb: SuperOffice.License.LicenseService._GetLicenseUrl(String)
-  name.vb: _GetLicenseUrl(String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.License.LicenseService.GetLicenseUrl(System.String)
   commentId: M:SuperOffice.License.LicenseService.GetLicenseUrl(System.String)
   id: GetLicenseUrl(System.String)
@@ -221,15 +240,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetLicenseUrl(string)
-  nameWithType: LicenseService.GetLicenseUrl(string)
-  fullName: SuperOffice.License.LicenseService.GetLicenseUrl(string)
+  name: GetLicenseUrl(String)
+  nameWithType: LicenseService.GetLicenseUrl(String)
+  fullName: SuperOffice.License.LicenseService.GetLicenseUrl(System.String)
   type: Method
+  source:
+    path: SoLicense
+    isExternal: true
   assemblies:
   - SoLicense
   namespace: SuperOffice.License
-  summary: Return the potentially overridden license server URL. Checks appSettings "SuperLicenseSvcUrl" value for override.
-  example: []
+  summary: "\nReturn the potentially overridden license server URL. Checks appSettings &quot;SuperLicenseSvcUrl&quot; value for override.\n"
   syntax:
     content: public string GetLicenseUrl(string url)
     parameters:
@@ -241,9 +262,10 @@ items:
       description: License URL we should actually call (usually the same as the input parameter)
     content.vb: Public Function GetLicenseUrl(url As String) As String
   overload: SuperOffice.License.LicenseService.GetLicenseUrl*
-  nameWithType.vb: LicenseService.GetLicenseUrl(String)
-  fullName.vb: SuperOffice.License.LicenseService.GetLicenseUrl(String)
-  name.vb: GetLicenseUrl(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.License.LicenseService.PingLicenseSystem(SuperOffice.License.CheckLicenseStatusRequest)
   commentId: M:SuperOffice.License.LicenseService.PingLicenseSystem(SuperOffice.License.CheckLicenseStatusRequest)
   id: PingLicenseSystem(SuperOffice.License.CheckLicenseStatusRequest)
@@ -255,22 +277,30 @@ items:
   nameWithType: LicenseService.PingLicenseSystem(CheckLicenseStatusRequest)
   fullName: SuperOffice.License.LicenseService.PingLicenseSystem(SuperOffice.License.CheckLicenseStatusRequest)
   type: Method
+  source:
+    path: SoLicense
+    isExternal: true
   assemblies:
   - SoLicense
   namespace: SuperOffice.License
-  summary: Ping the license service
-  example: []
+  summary: "\nPing the license service\n"
   syntax:
     content: public virtual CheckLicenseStatusResult PingLicenseSystem(CheckLicenseStatusRequest req)
     parameters:
     - id: req
       type: SuperOffice.License.CheckLicenseStatusRequest
-      description: Request
+      description: 'Request '
     return:
       type: SuperOffice.License.CheckLicenseStatusResult
       description: Ping response
     content.vb: Public Overridable Function PingLicenseSystem(req As CheckLicenseStatusRequest) As CheckLicenseStatusResult
   overload: SuperOffice.License.LicenseService.PingLicenseSystem*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.License.LicenseService.GetCurrentLicenseInfo(SuperOffice.License.GetCurrentLicenseInfoRequest)
   commentId: M:SuperOffice.License.LicenseService.GetCurrentLicenseInfo(SuperOffice.License.GetCurrentLicenseInfoRequest)
   id: GetCurrentLicenseInfo(SuperOffice.License.GetCurrentLicenseInfoRequest)
@@ -282,11 +312,13 @@ items:
   nameWithType: LicenseService.GetCurrentLicenseInfo(GetCurrentLicenseInfoRequest)
   fullName: SuperOffice.License.LicenseService.GetCurrentLicenseInfo(SuperOffice.License.GetCurrentLicenseInfoRequest)
   type: Method
+  source:
+    path: SoLicense
+    isExternal: true
   assemblies:
   - SoLicense
   namespace: SuperOffice.License
-  summary: Get current license info
-  example: []
+  summary: "\nGet current license info\n"
   syntax:
     content: public virtual GetCurrentLicenseInfoResult GetCurrentLicenseInfo(GetCurrentLicenseInfoRequest req)
     parameters:
@@ -298,6 +330,12 @@ items:
       description: Response
     content.vb: Public Overridable Function GetCurrentLicenseInfo(req As GetCurrentLicenseInfoRequest) As GetCurrentLicenseInfoResult
   overload: SuperOffice.License.LicenseService.GetCurrentLicenseInfo*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.License.LicenseService.GetLicenseModuleDetails(System.String,SuperOffice.License.GetLicenseModuleDetailsRequest)
   commentId: M:SuperOffice.License.LicenseService.GetLicenseModuleDetails(System.String,SuperOffice.License.GetLicenseModuleDetailsRequest)
   id: GetLicenseModuleDetails(System.String,SuperOffice.License.GetLicenseModuleDetailsRequest)
@@ -305,10 +343,13 @@ items:
   langs:
   - csharp
   - vb
-  name: GetLicenseModuleDetails(string, GetLicenseModuleDetailsRequest)
-  nameWithType: LicenseService.GetLicenseModuleDetails(string, GetLicenseModuleDetailsRequest)
-  fullName: SuperOffice.License.LicenseService.GetLicenseModuleDetails(string, SuperOffice.License.GetLicenseModuleDetailsRequest)
+  name: GetLicenseModuleDetails(String, GetLicenseModuleDetailsRequest)
+  nameWithType: LicenseService.GetLicenseModuleDetails(String, GetLicenseModuleDetailsRequest)
+  fullName: SuperOffice.License.LicenseService.GetLicenseModuleDetails(System.String, SuperOffice.License.GetLicenseModuleDetailsRequest)
   type: Method
+  source:
+    path: SoLicense
+    isExternal: true
   assemblies:
   - SoLicense
   namespace: SuperOffice.License
@@ -323,9 +364,12 @@ items:
       type: System.String
     content.vb: Public Overridable Function GetLicenseModuleDetails(url As String, req As GetLicenseModuleDetailsRequest) As String
   overload: SuperOffice.License.LicenseService.GetLicenseModuleDetails*
-  nameWithType.vb: LicenseService.GetLicenseModuleDetails(String, GetLicenseModuleDetailsRequest)
-  fullName.vb: SuperOffice.License.LicenseService.GetLicenseModuleDetails(String, SuperOffice.License.GetLicenseModuleDetailsRequest)
-  name.vb: GetLicenseModuleDetails(String, GetLicenseModuleDetailsRequest)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.License.LicenseService.AcceptLicense(SuperOffice.License.AcceptLicenseRequest)
   commentId: M:SuperOffice.License.LicenseService.AcceptLicense(SuperOffice.License.AcceptLicenseRequest)
   id: AcceptLicense(SuperOffice.License.AcceptLicenseRequest)
@@ -337,11 +381,13 @@ items:
   nameWithType: LicenseService.AcceptLicense(AcceptLicenseRequest)
   fullName: SuperOffice.License.LicenseService.AcceptLicense(SuperOffice.License.AcceptLicenseRequest)
   type: Method
+  source:
+    path: SoLicense
+    isExternal: true
   assemblies:
   - SoLicense
   namespace: SuperOffice.License
-  summary: Accept a license
-  example: []
+  summary: "\nAccept a license\n"
   syntax:
     content: public virtual void AcceptLicense(AcceptLicenseRequest req)
     parameters:
@@ -350,6 +396,12 @@ items:
       description: Request
     content.vb: Public Overridable Sub AcceptLicense(req As AcceptLicenseRequest)
   overload: SuperOffice.License.LicenseService.AcceptLicense*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.License.LicenseService.ChangeSerialNumber(SuperOffice.License.ChangeSerialNumberRequest)
   commentId: M:SuperOffice.License.LicenseService.ChangeSerialNumber(SuperOffice.License.ChangeSerialNumberRequest)
   id: ChangeSerialNumber(SuperOffice.License.ChangeSerialNumberRequest)
@@ -361,11 +413,13 @@ items:
   nameWithType: LicenseService.ChangeSerialNumber(ChangeSerialNumberRequest)
   fullName: SuperOffice.License.LicenseService.ChangeSerialNumber(SuperOffice.License.ChangeSerialNumberRequest)
   type: Method
+  source:
+    path: SoLicense
+    isExternal: true
   assemblies:
   - SoLicense
   namespace: SuperOffice.License
-  summary: Reqest to change serial number
-  example: []
+  summary: "\nReqest to change serial number\n"
   syntax:
     content: public virtual ChangeSerialNumberResult ChangeSerialNumber(ChangeSerialNumberRequest req)
     parameters:
@@ -377,6 +431,12 @@ items:
       description: Response to change serial number.
     content.vb: Public Overridable Function ChangeSerialNumber(req As ChangeSerialNumberRequest) As ChangeSerialNumberResult
   overload: SuperOffice.License.LicenseService.ChangeSerialNumber*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.License.LicenseService.MakeTestLicense(System.String,SuperOffice.License.MakeTestLicenseRequest)
   commentId: M:SuperOffice.License.LicenseService.MakeTestLicense(System.String,SuperOffice.License.MakeTestLicenseRequest)
   id: MakeTestLicense(System.String,SuperOffice.License.MakeTestLicenseRequest)
@@ -384,15 +444,17 @@ items:
   langs:
   - csharp
   - vb
-  name: MakeTestLicense(string, MakeTestLicenseRequest)
-  nameWithType: LicenseService.MakeTestLicense(string, MakeTestLicenseRequest)
-  fullName: SuperOffice.License.LicenseService.MakeTestLicense(string, SuperOffice.License.MakeTestLicenseRequest)
+  name: MakeTestLicense(String, MakeTestLicenseRequest)
+  nameWithType: LicenseService.MakeTestLicense(String, MakeTestLicenseRequest)
+  fullName: SuperOffice.License.LicenseService.MakeTestLicense(System.String, SuperOffice.License.MakeTestLicenseRequest)
   type: Method
+  source:
+    path: SoLicense
+    isExternal: true
   assemblies:
   - SoLicense
   namespace: SuperOffice.License
-  summary: Make a test license
-  example: []
+  summary: "\nMake a test license\n"
   syntax:
     content: public virtual MakeTestLicenseResult MakeTestLicense(string url, MakeTestLicenseRequest req)
     parameters:
@@ -407,9 +469,12 @@ items:
       description: Response
     content.vb: Public Overridable Function MakeTestLicense(url As String, req As MakeTestLicenseRequest) As MakeTestLicenseResult
   overload: SuperOffice.License.LicenseService.MakeTestLicense*
-  nameWithType.vb: LicenseService.MakeTestLicense(String, MakeTestLicenseRequest)
-  fullName.vb: SuperOffice.License.LicenseService.MakeTestLicense(String, SuperOffice.License.MakeTestLicenseRequest)
-  name.vb: MakeTestLicense(String, MakeTestLicenseRequest)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.License.LicenseService.GetShopUrl(SuperOffice.License.GetShopUrlRequest)
   commentId: M:SuperOffice.License.LicenseService.GetShopUrl(SuperOffice.License.GetShopUrlRequest)
   id: GetShopUrl(SuperOffice.License.GetShopUrlRequest)
@@ -421,11 +486,13 @@ items:
   nameWithType: LicenseService.GetShopUrl(GetShopUrlRequest)
   fullName: SuperOffice.License.LicenseService.GetShopUrl(SuperOffice.License.GetShopUrlRequest)
   type: Method
+  source:
+    path: SoLicense
+    isExternal: true
   assemblies:
   - SoLicense
   namespace: SuperOffice.License
-  summary: Get the shop URL for the Admin button to point to.
-  example: []
+  summary: "\nGet the shop URL for the Admin button to point to.\n"
   syntax:
     content: public virtual string GetShopUrl(GetShopUrlRequest req)
     parameters:
@@ -436,6 +503,12 @@ items:
       type: System.String
     content.vb: Public Overridable Function GetShopUrl(req As GetShopUrlRequest) As String
   overload: SuperOffice.License.LicenseService.GetShopUrl*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.License.LicenseService.UpdateLicense(SuperOffice.License.UpdateLicenseRequest)
   commentId: M:SuperOffice.License.LicenseService.UpdateLicense(SuperOffice.License.UpdateLicenseRequest)
   id: UpdateLicense(SuperOffice.License.UpdateLicenseRequest)
@@ -447,14 +520,13 @@ items:
   nameWithType: LicenseService.UpdateLicense(UpdateLicenseRequest)
   fullName: SuperOffice.License.LicenseService.UpdateLicense(SuperOffice.License.UpdateLicenseRequest)
   type: Method
+  source:
+    path: SoLicense
+    isExternal: true
   assemblies:
   - SoLicense
   namespace: SuperOffice.License
-  summary: >-
-    Tell the license server the actual license usage. Used during upgrade/transition from old to new pricelist.
-
-    Calling this will make the transition permanent.
-  example: []
+  summary: "\nTell the license server the actual license usage. Used during upgrade/transition from old to new pricelist.\nCalling this will make the transition permanent.\n"
   syntax:
     content: public virtual UpdateLicenseResult UpdateLicense(UpdateLicenseRequest req)
     parameters:
@@ -466,6 +538,12 @@ items:
       description: Updated license info. This needs to sent to AcceptLicense after writing to local db.
     content.vb: Public Overridable Function UpdateLicense(req As UpdateLicenseRequest) As UpdateLicenseResult
   overload: SuperOffice.License.LicenseService.UpdateLicense*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.License.LicenseService.GetCurrentLicenseInfoWithAssignments(SuperOffice.License.GetCurrentLicenseInfoWithAssignmentsRequest)
   commentId: M:SuperOffice.License.LicenseService.GetCurrentLicenseInfoWithAssignments(SuperOffice.License.GetCurrentLicenseInfoWithAssignmentsRequest)
   id: GetCurrentLicenseInfoWithAssignments(SuperOffice.License.GetCurrentLicenseInfoWithAssignmentsRequest)
@@ -477,14 +555,13 @@ items:
   nameWithType: LicenseService.GetCurrentLicenseInfoWithAssignments(GetCurrentLicenseInfoWithAssignmentsRequest)
   fullName: SuperOffice.License.LicenseService.GetCurrentLicenseInfoWithAssignments(SuperOffice.License.GetCurrentLicenseInfoWithAssignmentsRequest)
   type: Method
+  source:
+    path: SoLicense
+    isExternal: true
   assemblies:
   - SoLicense
   namespace: SuperOffice.License
-  summary: >-
-    Tell the license server the actual license usage. Used during upgrade/transition from old to new pricelist.
-
-    Calling this will make the transition permanent.
-  example: []
+  summary: "\nTell the license server the actual license usage. Used during upgrade/transition from old to new pricelist.\nCalling this will make the transition permanent.\n"
   syntax:
     content: public virtual GetCurrentLicenseInfoWithAssignmentsResult GetCurrentLicenseInfoWithAssignments(GetCurrentLicenseInfoWithAssignmentsRequest req)
     parameters:
@@ -496,6 +573,12 @@ items:
       description: Upgraded license info with site + user assignments and possible new serial number.
     content.vb: Public Overridable Function GetCurrentLicenseInfoWithAssignments(req As GetCurrentLicenseInfoWithAssignmentsRequest) As GetCurrentLicenseInfoWithAssignmentsResult
   overload: SuperOffice.License.LicenseService.GetCurrentLicenseInfoWithAssignments*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.License.LicenseService.#ctor
   commentId: M:SuperOffice.License.LicenseService.#ctor
   id: '#ctor'
@@ -507,1587 +590,189 @@ items:
   nameWithType: LicenseService.LicenseService()
   fullName: SuperOffice.License.LicenseService.LicenseService()
   type: Constructor
+  source:
+    path: SoLicense
+    isExternal: true
   assemblies:
   - SoLicense
   namespace: SuperOffice.License
   syntax:
     content: public LicenseService()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.License.LicenseService.#ctor*
-  nameWithType.vb: LicenseService.New()
-  fullName.vb: SuperOffice.License.LicenseService.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 references:
 - uid: SuperOffice.License
   commentId: N:SuperOffice.License
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.License
   nameWithType: SuperOffice.License
   fullName: SuperOffice.License
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.License
-    name: License
-    isExternal: true
-    href: SuperOffice.License.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.License
-    name: License
-    isExternal: true
-    href: SuperOffice.License.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}
-  commentId: T:SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}
-  parent: SuperOffice
-  definition: SuperOffice.WcfClientBase`1
-  name: WcfClientBase<ILicenseService>
-  nameWithType: WcfClientBase<ILicenseService>
-  fullName: SuperOffice.WcfClientBase<SuperOffice.License.ILicenseService>
-  nameWithType.vb: WcfClientBase(Of ILicenseService)
-  fullName.vb: SuperOffice.WcfClientBase(Of SuperOffice.License.ILicenseService)
-  name.vb: WcfClientBase(Of ILicenseService)
-  spec.csharp:
-  - uid: SuperOffice.WcfClientBase`1
-    name: WcfClientBase
-    isExternal: true
-  - name: <
-  - uid: SuperOffice.License.ILicenseService
-    name: ILicenseService
-    isExternal: true
-  - name: '>'
-  spec.vb:
-  - uid: SuperOffice.WcfClientBase`1
-    name: WcfClientBase
-    isExternal: true
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.License.ILicenseService
-    name: ILicenseService
-    isExternal: true
-  - name: )
-- uid: SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.SetUrl(System.String)
-  commentId: M:SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.SetUrl(System.String)
-  parent: SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}
-  definition: SuperOffice.WcfClientBase`1.SetUrl(System.String)
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: SetUrl(string)
-  nameWithType: WcfClientBase<ILicenseService>.SetUrl(string)
-  fullName: SuperOffice.WcfClientBase<SuperOffice.License.ILicenseService>.SetUrl(string)
-  nameWithType.vb: WcfClientBase(Of ILicenseService).SetUrl(String)
-  fullName.vb: SuperOffice.WcfClientBase(Of SuperOffice.License.ILicenseService).SetUrl(String)
-  name.vb: SetUrl(String)
-  spec.csharp:
-  - uid: SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.SetUrl(System.String)
-    name: SetUrl
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.SetUrl(System.String)
-    name: SetUrl
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.CreateChannel
-  commentId: M:SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.CreateChannel
-  parent: SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}
-  definition: SuperOffice.WcfClientBase`1.CreateChannel
-  name: CreateChannel()
-  nameWithType: WcfClientBase<ILicenseService>.CreateChannel()
-  fullName: SuperOffice.WcfClientBase<SuperOffice.License.ILicenseService>.CreateChannel()
-  nameWithType.vb: WcfClientBase(Of ILicenseService).CreateChannel()
-  fullName.vb: SuperOffice.WcfClientBase(Of SuperOffice.License.ILicenseService).CreateChannel()
-  spec.csharp:
-  - uid: SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.CreateChannel
-    name: CreateChannel
-    isExternal: true
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.CreateChannel
-    name: CreateChannel
-    isExternal: true
-  - name: (
-  - name: )
-- uid: SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.CreateChannel(System.String)
-  commentId: M:SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.CreateChannel(System.String)
-  parent: SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}
-  definition: SuperOffice.WcfClientBase`1.CreateChannel(System.String)
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: CreateChannel(string)
-  nameWithType: WcfClientBase<ILicenseService>.CreateChannel(string)
-  fullName: SuperOffice.WcfClientBase<SuperOffice.License.ILicenseService>.CreateChannel(string)
-  nameWithType.vb: WcfClientBase(Of ILicenseService).CreateChannel(String)
-  fullName.vb: SuperOffice.WcfClientBase(Of SuperOffice.License.ILicenseService).CreateChannel(String)
-  name.vb: CreateChannel(String)
-  spec.csharp:
-  - uid: SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.CreateChannel(System.String)
-    name: CreateChannel
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.CreateChannel(System.String)
-    name: CreateChannel
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.CreateBinding(System.ServiceModel.EndpointAddress,System.Boolean@)
-  commentId: M:SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.CreateBinding(System.ServiceModel.EndpointAddress,System.Boolean@)
-  parent: SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}
-  definition: SuperOffice.WcfClientBase`1.CreateBinding(System.ServiceModel.EndpointAddress,System.Boolean@)
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: CreateBinding(EndpointAddress, out bool)
-  nameWithType: WcfClientBase<ILicenseService>.CreateBinding(EndpointAddress, out bool)
-  fullName: SuperOffice.WcfClientBase<SuperOffice.License.ILicenseService>.CreateBinding(System.ServiceModel.EndpointAddress, out bool)
-  nameWithType.vb: WcfClientBase(Of ILicenseService).CreateBinding(EndpointAddress, Boolean)
-  fullName.vb: SuperOffice.WcfClientBase(Of SuperOffice.License.ILicenseService).CreateBinding(System.ServiceModel.EndpointAddress, Boolean)
-  name.vb: CreateBinding(EndpointAddress, Boolean)
-  spec.csharp:
-  - uid: SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.CreateBinding(System.ServiceModel.EndpointAddress,System.Boolean@)
-    name: CreateBinding
-    isExternal: true
-  - name: (
-  - uid: System.ServiceModel.EndpointAddress
-    name: EndpointAddress
-    isExternal: true
-  - name: ','
-  - name: " "
-  - name: out
-  - name: " "
-  - uid: System.Boolean
-    name: bool
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.CreateBinding(System.ServiceModel.EndpointAddress,System.Boolean@)
-    name: CreateBinding
-    isExternal: true
-  - name: (
-  - uid: System.ServiceModel.EndpointAddress
-    name: EndpointAddress
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: Boolean
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-- uid: SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.SetCredentials(System.ServiceModel.Description.ClientCredentials,System.Boolean)
-  commentId: M:SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.SetCredentials(System.ServiceModel.Description.ClientCredentials,System.Boolean)
-  parent: SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}
-  definition: SuperOffice.WcfClientBase`1.SetCredentials(System.ServiceModel.Description.ClientCredentials,System.Boolean)
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: SetCredentials(ClientCredentials, bool)
-  nameWithType: WcfClientBase<ILicenseService>.SetCredentials(ClientCredentials, bool)
-  fullName: SuperOffice.WcfClientBase<SuperOffice.License.ILicenseService>.SetCredentials(System.ServiceModel.Description.ClientCredentials, bool)
-  nameWithType.vb: WcfClientBase(Of ILicenseService).SetCredentials(ClientCredentials, Boolean)
-  fullName.vb: SuperOffice.WcfClientBase(Of SuperOffice.License.ILicenseService).SetCredentials(System.ServiceModel.Description.ClientCredentials, Boolean)
-  name.vb: SetCredentials(ClientCredentials, Boolean)
-  spec.csharp:
-  - uid: SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.SetCredentials(System.ServiceModel.Description.ClientCredentials,System.Boolean)
-    name: SetCredentials
-    isExternal: true
-  - name: (
-  - uid: System.ServiceModel.Description.ClientCredentials
-    name: ClientCredentials
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: bool
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.SetCredentials(System.ServiceModel.Description.ClientCredentials,System.Boolean)
-    name: SetCredentials
-    isExternal: true
-  - name: (
-  - uid: System.ServiceModel.Description.ClientCredentials
-    name: ClientCredentials
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: Boolean
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-- uid: SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.CreateEndPoint(System.String)
-  commentId: M:SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.CreateEndPoint(System.String)
-  parent: SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}
-  definition: SuperOffice.WcfClientBase`1.CreateEndPoint(System.String)
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: CreateEndPoint(string)
-  nameWithType: WcfClientBase<ILicenseService>.CreateEndPoint(string)
-  fullName: SuperOffice.WcfClientBase<SuperOffice.License.ILicenseService>.CreateEndPoint(string)
-  nameWithType.vb: WcfClientBase(Of ILicenseService).CreateEndPoint(String)
-  fullName.vb: SuperOffice.WcfClientBase(Of SuperOffice.License.ILicenseService).CreateEndPoint(String)
-  name.vb: CreateEndPoint(String)
-  spec.csharp:
-  - uid: SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.CreateEndPoint(System.String)
-    name: CreateEndPoint
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.CreateEndPoint(System.String)
-    name: CreateEndPoint
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.ConfigureBinding(System.ServiceModel.BasicHttpBinding)
-  commentId: M:SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.ConfigureBinding(System.ServiceModel.BasicHttpBinding)
-  parent: SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}
-  definition: SuperOffice.WcfClientBase`1.ConfigureBinding(System.ServiceModel.BasicHttpBinding)
-  name: ConfigureBinding(BasicHttpBinding)
-  nameWithType: WcfClientBase<ILicenseService>.ConfigureBinding(BasicHttpBinding)
-  fullName: SuperOffice.WcfClientBase<SuperOffice.License.ILicenseService>.ConfigureBinding(System.ServiceModel.BasicHttpBinding)
-  nameWithType.vb: WcfClientBase(Of ILicenseService).ConfigureBinding(BasicHttpBinding)
-  fullName.vb: SuperOffice.WcfClientBase(Of SuperOffice.License.ILicenseService).ConfigureBinding(System.ServiceModel.BasicHttpBinding)
-  spec.csharp:
-  - uid: SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.ConfigureBinding(System.ServiceModel.BasicHttpBinding)
-    name: ConfigureBinding
-    isExternal: true
-  - name: (
-  - uid: System.ServiceModel.BasicHttpBinding
-    name: BasicHttpBinding
-    isExternal: true
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.ConfigureBinding(System.ServiceModel.BasicHttpBinding)
-    name: ConfigureBinding
-    isExternal: true
-  - name: (
-  - uid: System.ServiceModel.BasicHttpBinding
-    name: BasicHttpBinding
-    isExternal: true
-  - name: )
-- uid: SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.IsSecureUrl(System.Uri)
-  commentId: M:SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.IsSecureUrl(System.Uri)
-  parent: SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}
-  definition: SuperOffice.WcfClientBase`1.IsSecureUrl(System.Uri)
-  name: IsSecureUrl(Uri)
-  nameWithType: WcfClientBase<ILicenseService>.IsSecureUrl(Uri)
-  fullName: SuperOffice.WcfClientBase<SuperOffice.License.ILicenseService>.IsSecureUrl(System.Uri)
-  nameWithType.vb: WcfClientBase(Of ILicenseService).IsSecureUrl(Uri)
-  fullName.vb: SuperOffice.WcfClientBase(Of SuperOffice.License.ILicenseService).IsSecureUrl(System.Uri)
-  spec.csharp:
-  - uid: SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.IsSecureUrl(System.Uri)
-    name: IsSecureUrl
-    isExternal: true
-  - name: (
-  - uid: System.Uri
-    name: Uri
-    isExternal: true
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.IsSecureUrl(System.Uri)
-    name: IsSecureUrl
-    isExternal: true
-  - name: (
-  - uid: System.Uri
-    name: Uri
-    isExternal: true
-  - name: )
-- uid: SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.InitBinding(System.ServiceModel.BasicHttpBinding)
-  commentId: M:SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.InitBinding(System.ServiceModel.BasicHttpBinding)
-  parent: SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}
-  definition: SuperOffice.WcfClientBase`1.InitBinding(System.ServiceModel.BasicHttpBinding)
-  name: InitBinding(BasicHttpBinding)
-  nameWithType: WcfClientBase<ILicenseService>.InitBinding(BasicHttpBinding)
-  fullName: SuperOffice.WcfClientBase<SuperOffice.License.ILicenseService>.InitBinding(System.ServiceModel.BasicHttpBinding)
-  nameWithType.vb: WcfClientBase(Of ILicenseService).InitBinding(BasicHttpBinding)
-  fullName.vb: SuperOffice.WcfClientBase(Of SuperOffice.License.ILicenseService).InitBinding(System.ServiceModel.BasicHttpBinding)
-  spec.csharp:
-  - uid: SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.InitBinding(System.ServiceModel.BasicHttpBinding)
-    name: InitBinding
-    isExternal: true
-  - name: (
-  - uid: System.ServiceModel.BasicHttpBinding
-    name: BasicHttpBinding
-    isExternal: true
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.InitBinding(System.ServiceModel.BasicHttpBinding)
-    name: InitBinding
-    isExternal: true
-  - name: (
-  - uid: System.ServiceModel.BasicHttpBinding
-    name: BasicHttpBinding
-    isExternal: true
-  - name: )
-- uid: SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.Execute``1(System.Func{SuperOffice.License.ILicenseService,{TRetVal}})
-  commentId: M:SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.Execute``1(System.Func{SuperOffice.License.ILicenseService,``0})
-  parent: SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}
-  definition: SuperOffice.WcfClientBase`1.Execute``1(System.Func{`0,``0})
-  href: https://learn.microsoft.com/dotnet/api/system.func-2
-  name: Execute<TRetVal>(Func<ILicenseService, TRetVal>)
-  nameWithType: WcfClientBase<ILicenseService>.Execute<TRetVal>(Func<ILicenseService, TRetVal>)
-  fullName: SuperOffice.WcfClientBase<SuperOffice.License.ILicenseService>.Execute<TRetVal>(System.Func<SuperOffice.License.ILicenseService, TRetVal>)
-  nameWithType.vb: WcfClientBase(Of ILicenseService).Execute(Of TRetVal)(Func(Of ILicenseService, TRetVal))
-  fullName.vb: SuperOffice.WcfClientBase(Of SuperOffice.License.ILicenseService).Execute(Of TRetVal)(System.Func(Of SuperOffice.License.ILicenseService, TRetVal))
-  name.vb: Execute(Of TRetVal)(Func(Of ILicenseService, TRetVal))
-  spec.csharp:
-  - uid: SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.Execute``1(System.Func{SuperOffice.License.ILicenseService,``0})
-    name: Execute
-    isExternal: true
-  - name: <
-  - name: TRetVal
-  - name: '>'
-  - name: (
-  - uid: System.Func`2
-    name: Func
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.func-2
-  - name: <
-  - uid: SuperOffice.License.ILicenseService
-    name: ILicenseService
-    isExternal: true
-  - name: ','
-  - name: " "
-  - name: TRetVal
-  - name: '>'
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.Execute``1(System.Func{SuperOffice.License.ILicenseService,``0})
-    name: Execute
-    isExternal: true
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TRetVal
-  - name: )
-  - name: (
-  - uid: System.Func`2
-    name: Func
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.func-2
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.License.ILicenseService
-    name: ILicenseService
-    isExternal: true
-  - name: ','
-  - name: " "
-  - name: TRetVal
-  - name: )
-  - name: )
-- uid: SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.Execute``1(System.Func{SuperOffice.License.ILicenseService,{TRetVal}},System.String)
-  commentId: M:SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.Execute``1(System.Func{SuperOffice.License.ILicenseService,``0},System.String)
-  parent: SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}
-  definition: SuperOffice.WcfClientBase`1.Execute``1(System.Func{`0,``0},System.String)
-  href: https://learn.microsoft.com/dotnet/api/system.func-2
-  name: Execute<TRetVal>(Func<ILicenseService, TRetVal>, string)
-  nameWithType: WcfClientBase<ILicenseService>.Execute<TRetVal>(Func<ILicenseService, TRetVal>, string)
-  fullName: SuperOffice.WcfClientBase<SuperOffice.License.ILicenseService>.Execute<TRetVal>(System.Func<SuperOffice.License.ILicenseService, TRetVal>, string)
-  nameWithType.vb: WcfClientBase(Of ILicenseService).Execute(Of TRetVal)(Func(Of ILicenseService, TRetVal), String)
-  fullName.vb: SuperOffice.WcfClientBase(Of SuperOffice.License.ILicenseService).Execute(Of TRetVal)(System.Func(Of SuperOffice.License.ILicenseService, TRetVal), String)
-  name.vb: Execute(Of TRetVal)(Func(Of ILicenseService, TRetVal), String)
-  spec.csharp:
-  - uid: SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.Execute``1(System.Func{SuperOffice.License.ILicenseService,``0},System.String)
-    name: Execute
-    isExternal: true
-  - name: <
-  - name: TRetVal
-  - name: '>'
-  - name: (
-  - uid: System.Func`2
-    name: Func
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.func-2
-  - name: <
-  - uid: SuperOffice.License.ILicenseService
-    name: ILicenseService
-    isExternal: true
-  - name: ','
-  - name: " "
-  - name: TRetVal
-  - name: '>'
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.Execute``1(System.Func{SuperOffice.License.ILicenseService,``0},System.String)
-    name: Execute
-    isExternal: true
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TRetVal
-  - name: )
-  - name: (
-  - uid: System.Func`2
-    name: Func
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.func-2
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.License.ILicenseService
-    name: ILicenseService
-    isExternal: true
-  - name: ','
-  - name: " "
-  - name: TRetVal
-  - name: )
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.ExecuteAction(System.Action{SuperOffice.License.ILicenseService})
-  commentId: M:SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.ExecuteAction(System.Action{SuperOffice.License.ILicenseService})
-  parent: SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}
-  definition: SuperOffice.WcfClientBase`1.ExecuteAction(System.Action{`0})
-  href: https://learn.microsoft.com/dotnet/api/system.action-1
-  name: ExecuteAction(Action<ILicenseService>)
-  nameWithType: WcfClientBase<ILicenseService>.ExecuteAction(Action<ILicenseService>)
-  fullName: SuperOffice.WcfClientBase<SuperOffice.License.ILicenseService>.ExecuteAction(System.Action<SuperOffice.License.ILicenseService>)
-  nameWithType.vb: WcfClientBase(Of ILicenseService).ExecuteAction(Action(Of ILicenseService))
-  fullName.vb: SuperOffice.WcfClientBase(Of SuperOffice.License.ILicenseService).ExecuteAction(System.Action(Of SuperOffice.License.ILicenseService))
-  name.vb: ExecuteAction(Action(Of ILicenseService))
-  spec.csharp:
-  - uid: SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.ExecuteAction(System.Action{SuperOffice.License.ILicenseService})
-    name: ExecuteAction
-    isExternal: true
-  - name: (
-  - uid: System.Action`1
-    name: Action
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.action-1
-  - name: <
-  - uid: SuperOffice.License.ILicenseService
-    name: ILicenseService
-    isExternal: true
-  - name: '>'
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.ExecuteAction(System.Action{SuperOffice.License.ILicenseService})
-    name: ExecuteAction
-    isExternal: true
-  - name: (
-  - uid: System.Action`1
-    name: Action
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.action-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.License.ILicenseService
-    name: ILicenseService
-    isExternal: true
-  - name: )
-  - name: )
-- uid: SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.ExecuteAction(System.Action{SuperOffice.License.ILicenseService},System.String)
-  commentId: M:SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.ExecuteAction(System.Action{SuperOffice.License.ILicenseService},System.String)
-  parent: SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}
-  definition: SuperOffice.WcfClientBase`1.ExecuteAction(System.Action{`0},System.String)
-  href: https://learn.microsoft.com/dotnet/api/system.action-1
-  name: ExecuteAction(Action<ILicenseService>, string)
-  nameWithType: WcfClientBase<ILicenseService>.ExecuteAction(Action<ILicenseService>, string)
-  fullName: SuperOffice.WcfClientBase<SuperOffice.License.ILicenseService>.ExecuteAction(System.Action<SuperOffice.License.ILicenseService>, string)
-  nameWithType.vb: WcfClientBase(Of ILicenseService).ExecuteAction(Action(Of ILicenseService), String)
-  fullName.vb: SuperOffice.WcfClientBase(Of SuperOffice.License.ILicenseService).ExecuteAction(System.Action(Of SuperOffice.License.ILicenseService), String)
-  name.vb: ExecuteAction(Action(Of ILicenseService), String)
-  spec.csharp:
-  - uid: SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.ExecuteAction(System.Action{SuperOffice.License.ILicenseService},System.String)
-    name: ExecuteAction
-    isExternal: true
-  - name: (
-  - uid: System.Action`1
-    name: Action
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.action-1
-  - name: <
-  - uid: SuperOffice.License.ILicenseService
-    name: ILicenseService
-    isExternal: true
-  - name: '>'
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.ExecuteAction(System.Action{SuperOffice.License.ILicenseService},System.String)
-    name: ExecuteAction
-    isExternal: true
-  - name: (
-  - uid: System.Action`1
-    name: Action
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.action-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.License.ILicenseService
-    name: ILicenseService
-    isExternal: true
-  - name: )
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.DefaultUrl
-  commentId: P:SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.DefaultUrl
-  parent: SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}
-  definition: SuperOffice.WcfClientBase`1.DefaultUrl
-  name: DefaultUrl
-  nameWithType: WcfClientBase<ILicenseService>.DefaultUrl
-  fullName: SuperOffice.WcfClientBase<SuperOffice.License.ILicenseService>.DefaultUrl
-  nameWithType.vb: WcfClientBase(Of ILicenseService).DefaultUrl
-  fullName.vb: SuperOffice.WcfClientBase(Of SuperOffice.License.ILicenseService).DefaultUrl
-- uid: SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.MessageSize
-  commentId: P:SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.MessageSize
-  parent: SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}
-  definition: SuperOffice.WcfClientBase`1.MessageSize
-  name: MessageSize
-  nameWithType: WcfClientBase<ILicenseService>.MessageSize
-  fullName: SuperOffice.WcfClientBase<SuperOffice.License.ILicenseService>.MessageSize
-  nameWithType.vb: WcfClientBase(Of ILicenseService).MessageSize
-  fullName.vb: SuperOffice.WcfClientBase(Of SuperOffice.License.ILicenseService).MessageSize
-- uid: SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.Timeout
-  commentId: P:SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}.Timeout
-  parent: SuperOffice.WcfClientBase{SuperOffice.License.ILicenseService}
-  definition: SuperOffice.WcfClientBase`1.Timeout
-  name: Timeout
-  nameWithType: WcfClientBase<ILicenseService>.Timeout
-  fullName: SuperOffice.WcfClientBase<SuperOffice.License.ILicenseService>.Timeout
-  nameWithType.vb: WcfClientBase(Of ILicenseService).Timeout
-  fullName.vb: SuperOffice.WcfClientBase(Of SuperOffice.License.ILicenseService).Timeout
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.License.LicenseService.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<LicenseService, To>(LicenseService)
-  nameWithType: EnumUtil.MapEnums<LicenseService, To>(LicenseService)
-  fullName: EnumUtil.MapEnums<SuperOffice.License.LicenseService, To>(SuperOffice.License.LicenseService)
-  nameWithType.vb: EnumUtil.MapEnums(Of LicenseService, To)(LicenseService)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.License.LicenseService, To)(SuperOffice.License.LicenseService)
-  name.vb: MapEnums(Of LicenseService, To)(LicenseService)
+  name: MapEnums<LicenseService, To>()
+  nameWithType: EnumUtil.MapEnums<LicenseService, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.License.LicenseService, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of LicenseService, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.License.LicenseService, To)()
+  name.vb: MapEnums(Of LicenseService, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.License.LicenseService)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<LicenseService, To>
+    nameWithType: EnumUtil.MapEnums<LicenseService, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.License.LicenseService, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.License.LicenseService
-    name: LicenseService
-    isExternal: true
-    href: SuperOffice.License.LicenseService.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.License.LicenseService
-    name: LicenseService
-    isExternal: true
-    href: SuperOffice.License.LicenseService.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.License.LicenseService)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of LicenseService, To)
+    nameWithType: EnumUtil.MapEnums(Of LicenseService, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.License.LicenseService, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.License.LicenseService
-    name: LicenseService
-    isExternal: true
-    href: SuperOffice.License.LicenseService.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.License.LicenseService
-    name: LicenseService
-    isExternal: true
-    href: SuperOffice.License.LicenseService.html
-  - name: )
-- uid: SuperOffice.License.LicenseService.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  parent: SuperOffice.ErpSync.ConnectorWS.Converters
-  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<LicenseService, To>(LicenseService)
-  nameWithType: Converters.MapEnums<LicenseService, To>(LicenseService)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.License.LicenseService, To>(SuperOffice.License.LicenseService)
-  nameWithType.vb: Converters.MapEnums(Of LicenseService, To)(LicenseService)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.License.LicenseService, To)(SuperOffice.License.LicenseService)
-  name.vb: MapEnums(Of LicenseService, To)(LicenseService)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.License.LicenseService)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.License.LicenseService
-    name: LicenseService
-    isExternal: true
-    href: SuperOffice.License.LicenseService.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.License.LicenseService
-    name: LicenseService
-    isExternal: true
-    href: SuperOffice.License.LicenseService.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.License.LicenseService)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.License.LicenseService
-    name: LicenseService
-    isExternal: true
-    href: SuperOffice.License.LicenseService.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.License.LicenseService
-    name: LicenseService
-    isExternal: true
-    href: SuperOffice.License.LicenseService.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.License.LicenseService.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.License.LicenseService)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<LicenseService>(LicenseService, LicenseService)
-  nameWithType: ObjectExtensions.AssignByReflection<LicenseService>(LicenseService, LicenseService)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.License.LicenseService>(SuperOffice.License.LicenseService, SuperOffice.License.LicenseService)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of LicenseService)(LicenseService, LicenseService)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.License.LicenseService)(SuperOffice.License.LicenseService, SuperOffice.License.LicenseService)
-  name.vb: AssignByReflection(Of LicenseService)(LicenseService, LicenseService)
+  name: AssignByReflection<LicenseService>(LicenseService)
+  nameWithType: ObjectExtensions.AssignByReflection<LicenseService>(LicenseService)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.License.LicenseService>(SuperOffice.License.LicenseService)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of LicenseService)(LicenseService)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.License.LicenseService)(SuperOffice.License.LicenseService)
+  name.vb: AssignByReflection(Of LicenseService)(LicenseService)
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.License.LicenseService,SuperOffice.License.LicenseService)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<LicenseService>
+    nameWithType: ObjectExtensions.AssignByReflection<LicenseService>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.License.LicenseService>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.License.LicenseService
-    name: LicenseService
-    isExternal: true
-    href: SuperOffice.License.LicenseService.html
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.License.LicenseService
     name: LicenseService
+    nameWithType: LicenseService
+    fullName: SuperOffice.License.LicenseService
     isExternal: true
-    href: SuperOffice.License.LicenseService.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.License.LicenseService
-    name: LicenseService
-    isExternal: true
-    href: SuperOffice.License.LicenseService.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.License.LicenseService,SuperOffice.License.LicenseService)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of LicenseService)
+    nameWithType: ObjectExtensions.AssignByReflection(Of LicenseService)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.License.LicenseService)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.License.LicenseService
     name: LicenseService
+    nameWithType: LicenseService
+    fullName: SuperOffice.License.LicenseService
     isExternal: true
-    href: SuperOffice.License.LicenseService.html
   - name: )
-  - name: (
-  - uid: SuperOffice.License.LicenseService
-    name: LicenseService
-    isExternal: true
-    href: SuperOffice.License.LicenseService.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.License.LicenseService
-    name: LicenseService
-    isExternal: true
-    href: SuperOffice.License.LicenseService.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.License.LicenseService.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<LicenseService>(LicenseService)
-  nameWithType: ObjectExtensions.GraphCopy<LicenseService>(LicenseService)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.License.LicenseService>(SuperOffice.License.LicenseService)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of LicenseService)(LicenseService)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.License.LicenseService)(SuperOffice.License.LicenseService)
-  name.vb: GraphCopy(Of LicenseService)(LicenseService)
+  name: GraphCopy<LicenseService>()
+  nameWithType: ObjectExtensions.GraphCopy<LicenseService>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.License.LicenseService>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of LicenseService)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.License.LicenseService)()
+  name.vb: GraphCopy(Of LicenseService)()
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.License.LicenseService)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<LicenseService>
+    nameWithType: ObjectExtensions.GraphCopy<LicenseService>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.License.LicenseService>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.License.LicenseService
-    name: LicenseService
-    isExternal: true
-    href: SuperOffice.License.LicenseService.html
-  - name: '>'
   - name: (
-  - uid: SuperOffice.License.LicenseService
-    name: LicenseService
-    isExternal: true
-    href: SuperOffice.License.LicenseService.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.License.LicenseService)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of LicenseService)
+    nameWithType: ObjectExtensions.GraphCopy(Of LicenseService)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.License.LicenseService)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.License.LicenseService
-    name: LicenseService
-    isExternal: true
-    href: SuperOffice.License.LicenseService.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.License.LicenseService.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<LicenseService, To>()
+  nameWithType: Converters.MapEnums<LicenseService, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.License.LicenseService, To>()
+  nameWithType.vb: Converters.MapEnums(Of LicenseService, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.License.LicenseService, To)()
+  name.vb: MapEnums(Of LicenseService, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<LicenseService, To>
+    nameWithType: Converters.MapEnums<LicenseService, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.License.LicenseService, To>
+    isExternal: true
   - name: (
-  - uid: SuperOffice.License.LicenseService
-    name: LicenseService
-    isExternal: true
-    href: SuperOffice.License.LicenseService.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of LicenseService, To)
+    nameWithType: Converters.MapEnums(Of LicenseService, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.License.LicenseService, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.WcfClientBase`1
-  commentId: T:SuperOffice.WcfClientBase`1
-  isExternal: true
-  name: WcfClientBase<TService>
-  nameWithType: WcfClientBase<TService>
-  fullName: SuperOffice.WcfClientBase<TService>
-  nameWithType.vb: WcfClientBase(Of TService)
-  fullName.vb: SuperOffice.WcfClientBase(Of TService)
-  name.vb: WcfClientBase(Of TService)
-  spec.csharp:
-  - uid: SuperOffice.WcfClientBase`1
-    name: WcfClientBase
-    isExternal: true
-  - name: <
-  - name: TService
-  - name: '>'
-  spec.vb:
-  - uid: SuperOffice.WcfClientBase`1
-    name: WcfClientBase
-    isExternal: true
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TService
-  - name: )
-- uid: SuperOffice
-  commentId: N:SuperOffice
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice
-  nameWithType: SuperOffice
-  fullName: SuperOffice
-- uid: SuperOffice.WcfClientBase`1.SetUrl(System.String)
-  commentId: M:SuperOffice.WcfClientBase`1.SetUrl(System.String)
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: SetUrl(string)
-  nameWithType: WcfClientBase<TService>.SetUrl(string)
-  fullName: SuperOffice.WcfClientBase<TService>.SetUrl(string)
-  nameWithType.vb: WcfClientBase(Of TService).SetUrl(String)
-  fullName.vb: SuperOffice.WcfClientBase(Of TService).SetUrl(String)
-  name.vb: SetUrl(String)
-  spec.csharp:
-  - uid: SuperOffice.WcfClientBase`1.SetUrl(System.String)
-    name: SetUrl
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.WcfClientBase`1.SetUrl(System.String)
-    name: SetUrl
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: SuperOffice.WcfClientBase`1.CreateChannel
-  commentId: M:SuperOffice.WcfClientBase`1.CreateChannel
-  isExternal: true
-  name: CreateChannel()
-  nameWithType: WcfClientBase<TService>.CreateChannel()
-  fullName: SuperOffice.WcfClientBase<TService>.CreateChannel()
-  nameWithType.vb: WcfClientBase(Of TService).CreateChannel()
-  fullName.vb: SuperOffice.WcfClientBase(Of TService).CreateChannel()
-  spec.csharp:
-  - uid: SuperOffice.WcfClientBase`1.CreateChannel
-    name: CreateChannel
-    isExternal: true
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.WcfClientBase`1.CreateChannel
-    name: CreateChannel
-    isExternal: true
-  - name: (
-  - name: )
-- uid: SuperOffice.WcfClientBase`1.CreateChannel(System.String)
-  commentId: M:SuperOffice.WcfClientBase`1.CreateChannel(System.String)
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: CreateChannel(string)
-  nameWithType: WcfClientBase<TService>.CreateChannel(string)
-  fullName: SuperOffice.WcfClientBase<TService>.CreateChannel(string)
-  nameWithType.vb: WcfClientBase(Of TService).CreateChannel(String)
-  fullName.vb: SuperOffice.WcfClientBase(Of TService).CreateChannel(String)
-  name.vb: CreateChannel(String)
-  spec.csharp:
-  - uid: SuperOffice.WcfClientBase`1.CreateChannel(System.String)
-    name: CreateChannel
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.WcfClientBase`1.CreateChannel(System.String)
-    name: CreateChannel
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: SuperOffice.WcfClientBase`1.CreateBinding(System.ServiceModel.EndpointAddress,System.Boolean@)
-  commentId: M:SuperOffice.WcfClientBase`1.CreateBinding(System.ServiceModel.EndpointAddress,System.Boolean@)
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: CreateBinding(EndpointAddress, out bool)
-  nameWithType: WcfClientBase<TService>.CreateBinding(EndpointAddress, out bool)
-  fullName: SuperOffice.WcfClientBase<TService>.CreateBinding(System.ServiceModel.EndpointAddress, out bool)
-  nameWithType.vb: WcfClientBase(Of TService).CreateBinding(EndpointAddress, Boolean)
-  fullName.vb: SuperOffice.WcfClientBase(Of TService).CreateBinding(System.ServiceModel.EndpointAddress, Boolean)
-  name.vb: CreateBinding(EndpointAddress, Boolean)
-  spec.csharp:
-  - uid: SuperOffice.WcfClientBase`1.CreateBinding(System.ServiceModel.EndpointAddress,System.Boolean@)
-    name: CreateBinding
-    isExternal: true
-  - name: (
-  - uid: System.ServiceModel.EndpointAddress
-    name: EndpointAddress
-    isExternal: true
-  - name: ','
-  - name: " "
-  - name: out
-  - name: " "
-  - uid: System.Boolean
-    name: bool
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.WcfClientBase`1.CreateBinding(System.ServiceModel.EndpointAddress,System.Boolean@)
-    name: CreateBinding
-    isExternal: true
-  - name: (
-  - uid: System.ServiceModel.EndpointAddress
-    name: EndpointAddress
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: Boolean
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-- uid: SuperOffice.WcfClientBase`1.SetCredentials(System.ServiceModel.Description.ClientCredentials,System.Boolean)
-  commentId: M:SuperOffice.WcfClientBase`1.SetCredentials(System.ServiceModel.Description.ClientCredentials,System.Boolean)
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: SetCredentials(ClientCredentials, bool)
-  nameWithType: WcfClientBase<TService>.SetCredentials(ClientCredentials, bool)
-  fullName: SuperOffice.WcfClientBase<TService>.SetCredentials(System.ServiceModel.Description.ClientCredentials, bool)
-  nameWithType.vb: WcfClientBase(Of TService).SetCredentials(ClientCredentials, Boolean)
-  fullName.vb: SuperOffice.WcfClientBase(Of TService).SetCredentials(System.ServiceModel.Description.ClientCredentials, Boolean)
-  name.vb: SetCredentials(ClientCredentials, Boolean)
-  spec.csharp:
-  - uid: SuperOffice.WcfClientBase`1.SetCredentials(System.ServiceModel.Description.ClientCredentials,System.Boolean)
-    name: SetCredentials
-    isExternal: true
-  - name: (
-  - uid: System.ServiceModel.Description.ClientCredentials
-    name: ClientCredentials
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: bool
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.WcfClientBase`1.SetCredentials(System.ServiceModel.Description.ClientCredentials,System.Boolean)
-    name: SetCredentials
-    isExternal: true
-  - name: (
-  - uid: System.ServiceModel.Description.ClientCredentials
-    name: ClientCredentials
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: Boolean
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-- uid: SuperOffice.WcfClientBase`1.CreateEndPoint(System.String)
-  commentId: M:SuperOffice.WcfClientBase`1.CreateEndPoint(System.String)
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: CreateEndPoint(string)
-  nameWithType: WcfClientBase<TService>.CreateEndPoint(string)
-  fullName: SuperOffice.WcfClientBase<TService>.CreateEndPoint(string)
-  nameWithType.vb: WcfClientBase(Of TService).CreateEndPoint(String)
-  fullName.vb: SuperOffice.WcfClientBase(Of TService).CreateEndPoint(String)
-  name.vb: CreateEndPoint(String)
-  spec.csharp:
-  - uid: SuperOffice.WcfClientBase`1.CreateEndPoint(System.String)
-    name: CreateEndPoint
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.WcfClientBase`1.CreateEndPoint(System.String)
-    name: CreateEndPoint
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: SuperOffice.WcfClientBase`1.ConfigureBinding(System.ServiceModel.BasicHttpBinding)
-  commentId: M:SuperOffice.WcfClientBase`1.ConfigureBinding(System.ServiceModel.BasicHttpBinding)
-  isExternal: true
-  name: ConfigureBinding(BasicHttpBinding)
-  nameWithType: WcfClientBase<TService>.ConfigureBinding(BasicHttpBinding)
-  fullName: SuperOffice.WcfClientBase<TService>.ConfigureBinding(System.ServiceModel.BasicHttpBinding)
-  nameWithType.vb: WcfClientBase(Of TService).ConfigureBinding(BasicHttpBinding)
-  fullName.vb: SuperOffice.WcfClientBase(Of TService).ConfigureBinding(System.ServiceModel.BasicHttpBinding)
-  spec.csharp:
-  - uid: SuperOffice.WcfClientBase`1.ConfigureBinding(System.ServiceModel.BasicHttpBinding)
-    name: ConfigureBinding
-    isExternal: true
-  - name: (
-  - uid: System.ServiceModel.BasicHttpBinding
-    name: BasicHttpBinding
-    isExternal: true
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.WcfClientBase`1.ConfigureBinding(System.ServiceModel.BasicHttpBinding)
-    name: ConfigureBinding
-    isExternal: true
-  - name: (
-  - uid: System.ServiceModel.BasicHttpBinding
-    name: BasicHttpBinding
-    isExternal: true
-  - name: )
-- uid: SuperOffice.WcfClientBase`1.IsSecureUrl(System.Uri)
-  commentId: M:SuperOffice.WcfClientBase`1.IsSecureUrl(System.Uri)
-  isExternal: true
-  name: IsSecureUrl(Uri)
-  nameWithType: WcfClientBase<TService>.IsSecureUrl(Uri)
-  fullName: SuperOffice.WcfClientBase<TService>.IsSecureUrl(System.Uri)
-  nameWithType.vb: WcfClientBase(Of TService).IsSecureUrl(Uri)
-  fullName.vb: SuperOffice.WcfClientBase(Of TService).IsSecureUrl(System.Uri)
-  spec.csharp:
-  - uid: SuperOffice.WcfClientBase`1.IsSecureUrl(System.Uri)
-    name: IsSecureUrl
-    isExternal: true
-  - name: (
-  - uid: System.Uri
-    name: Uri
-    isExternal: true
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.WcfClientBase`1.IsSecureUrl(System.Uri)
-    name: IsSecureUrl
-    isExternal: true
-  - name: (
-  - uid: System.Uri
-    name: Uri
-    isExternal: true
-  - name: )
-- uid: SuperOffice.WcfClientBase`1.InitBinding(System.ServiceModel.BasicHttpBinding)
-  commentId: M:SuperOffice.WcfClientBase`1.InitBinding(System.ServiceModel.BasicHttpBinding)
-  isExternal: true
-  name: InitBinding(BasicHttpBinding)
-  nameWithType: WcfClientBase<TService>.InitBinding(BasicHttpBinding)
-  fullName: SuperOffice.WcfClientBase<TService>.InitBinding(System.ServiceModel.BasicHttpBinding)
-  nameWithType.vb: WcfClientBase(Of TService).InitBinding(BasicHttpBinding)
-  fullName.vb: SuperOffice.WcfClientBase(Of TService).InitBinding(System.ServiceModel.BasicHttpBinding)
-  spec.csharp:
-  - uid: SuperOffice.WcfClientBase`1.InitBinding(System.ServiceModel.BasicHttpBinding)
-    name: InitBinding
-    isExternal: true
-  - name: (
-  - uid: System.ServiceModel.BasicHttpBinding
-    name: BasicHttpBinding
-    isExternal: true
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.WcfClientBase`1.InitBinding(System.ServiceModel.BasicHttpBinding)
-    name: InitBinding
-    isExternal: true
-  - name: (
-  - uid: System.ServiceModel.BasicHttpBinding
-    name: BasicHttpBinding
-    isExternal: true
-  - name: )
-- uid: SuperOffice.WcfClientBase`1.Execute``1(System.Func{`0,``0})
-  commentId: M:SuperOffice.WcfClientBase`1.Execute``1(System.Func{`0,``0})
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.func-2
-  name: Execute<TRetVal>(Func<TService, TRetVal>)
-  nameWithType: WcfClientBase<TService>.Execute<TRetVal>(Func<TService, TRetVal>)
-  fullName: SuperOffice.WcfClientBase<TService>.Execute<TRetVal>(System.Func<TService, TRetVal>)
-  nameWithType.vb: WcfClientBase(Of TService).Execute(Of TRetVal)(Func(Of TService, TRetVal))
-  fullName.vb: SuperOffice.WcfClientBase(Of TService).Execute(Of TRetVal)(System.Func(Of TService, TRetVal))
-  name.vb: Execute(Of TRetVal)(Func(Of TService, TRetVal))
-  spec.csharp:
-  - uid: SuperOffice.WcfClientBase`1.Execute``1(System.Func{`0,``0})
-    name: Execute
-    isExternal: true
-  - name: <
-  - name: TRetVal
-  - name: '>'
-  - name: (
-  - uid: System.Func`2
-    name: Func
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.func-2
-  - name: <
-  - name: TService
-  - name: ','
-  - name: " "
-  - name: TRetVal
-  - name: '>'
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.WcfClientBase`1.Execute``1(System.Func{`0,``0})
-    name: Execute
-    isExternal: true
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TRetVal
-  - name: )
-  - name: (
-  - uid: System.Func`2
-    name: Func
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.func-2
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TService
-  - name: ','
-  - name: " "
-  - name: TRetVal
-  - name: )
-  - name: )
-- uid: SuperOffice.WcfClientBase`1.Execute``1(System.Func{`0,``0},System.String)
-  commentId: M:SuperOffice.WcfClientBase`1.Execute``1(System.Func{`0,``0},System.String)
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.func-2
-  name: Execute<TRetVal>(Func<TService, TRetVal>, string)
-  nameWithType: WcfClientBase<TService>.Execute<TRetVal>(Func<TService, TRetVal>, string)
-  fullName: SuperOffice.WcfClientBase<TService>.Execute<TRetVal>(System.Func<TService, TRetVal>, string)
-  nameWithType.vb: WcfClientBase(Of TService).Execute(Of TRetVal)(Func(Of TService, TRetVal), String)
-  fullName.vb: SuperOffice.WcfClientBase(Of TService).Execute(Of TRetVal)(System.Func(Of TService, TRetVal), String)
-  name.vb: Execute(Of TRetVal)(Func(Of TService, TRetVal), String)
-  spec.csharp:
-  - uid: SuperOffice.WcfClientBase`1.Execute``1(System.Func{`0,``0},System.String)
-    name: Execute
-    isExternal: true
-  - name: <
-  - name: TRetVal
-  - name: '>'
-  - name: (
-  - uid: System.Func`2
-    name: Func
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.func-2
-  - name: <
-  - name: TService
-  - name: ','
-  - name: " "
-  - name: TRetVal
-  - name: '>'
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.WcfClientBase`1.Execute``1(System.Func{`0,``0},System.String)
-    name: Execute
-    isExternal: true
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TRetVal
-  - name: )
-  - name: (
-  - uid: System.Func`2
-    name: Func
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.func-2
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TService
-  - name: ','
-  - name: " "
-  - name: TRetVal
-  - name: )
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: SuperOffice.WcfClientBase`1.ExecuteAction(System.Action{`0})
-  commentId: M:SuperOffice.WcfClientBase`1.ExecuteAction(System.Action{`0})
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.action-1
-  name: ExecuteAction(Action<TService>)
-  nameWithType: WcfClientBase<TService>.ExecuteAction(Action<TService>)
-  fullName: SuperOffice.WcfClientBase<TService>.ExecuteAction(System.Action<TService>)
-  nameWithType.vb: WcfClientBase(Of TService).ExecuteAction(Action(Of TService))
-  fullName.vb: SuperOffice.WcfClientBase(Of TService).ExecuteAction(System.Action(Of TService))
-  name.vb: ExecuteAction(Action(Of TService))
-  spec.csharp:
-  - uid: SuperOffice.WcfClientBase`1.ExecuteAction(System.Action{`0})
-    name: ExecuteAction
-    isExternal: true
-  - name: (
-  - uid: System.Action`1
-    name: Action
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.action-1
-  - name: <
-  - name: TService
-  - name: '>'
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.WcfClientBase`1.ExecuteAction(System.Action{`0})
-    name: ExecuteAction
-    isExternal: true
-  - name: (
-  - uid: System.Action`1
-    name: Action
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.action-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TService
-  - name: )
-  - name: )
-- uid: SuperOffice.WcfClientBase`1.ExecuteAction(System.Action{`0},System.String)
-  commentId: M:SuperOffice.WcfClientBase`1.ExecuteAction(System.Action{`0},System.String)
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.action-1
-  name: ExecuteAction(Action<TService>, string)
-  nameWithType: WcfClientBase<TService>.ExecuteAction(Action<TService>, string)
-  fullName: SuperOffice.WcfClientBase<TService>.ExecuteAction(System.Action<TService>, string)
-  nameWithType.vb: WcfClientBase(Of TService).ExecuteAction(Action(Of TService), String)
-  fullName.vb: SuperOffice.WcfClientBase(Of TService).ExecuteAction(System.Action(Of TService), String)
-  name.vb: ExecuteAction(Action(Of TService), String)
-  spec.csharp:
-  - uid: SuperOffice.WcfClientBase`1.ExecuteAction(System.Action{`0},System.String)
-    name: ExecuteAction
-    isExternal: true
-  - name: (
-  - uid: System.Action`1
-    name: Action
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.action-1
-  - name: <
-  - name: TService
-  - name: '>'
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.WcfClientBase`1.ExecuteAction(System.Action{`0},System.String)
-    name: ExecuteAction
-    isExternal: true
-  - name: (
-  - uid: System.Action`1
-    name: Action
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.action-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TService
-  - name: )
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: SuperOffice.WcfClientBase`1.DefaultUrl
-  commentId: P:SuperOffice.WcfClientBase`1.DefaultUrl
-  isExternal: true
-  name: DefaultUrl
-  nameWithType: WcfClientBase<TService>.DefaultUrl
-  fullName: SuperOffice.WcfClientBase<TService>.DefaultUrl
-  nameWithType.vb: WcfClientBase(Of TService).DefaultUrl
-  fullName.vb: SuperOffice.WcfClientBase(Of TService).DefaultUrl
-- uid: SuperOffice.WcfClientBase`1.MessageSize
-  commentId: P:SuperOffice.WcfClientBase`1.MessageSize
-  isExternal: true
-  name: MessageSize
-  nameWithType: WcfClientBase<TService>.MessageSize
-  fullName: SuperOffice.WcfClientBase<TService>.MessageSize
-  nameWithType.vb: WcfClientBase(Of TService).MessageSize
-  fullName.vb: SuperOffice.WcfClientBase(Of TService).MessageSize
-- uid: SuperOffice.WcfClientBase`1.Timeout
-  commentId: P:SuperOffice.WcfClientBase`1.Timeout
-  isExternal: true
-  name: Timeout
-  nameWithType: WcfClientBase<TService>.Timeout
-  fullName: SuperOffice.WcfClientBase<TService>.Timeout
-  nameWithType.vb: WcfClientBase(Of TService).Timeout
-  fullName.vb: SuperOffice.WcfClientBase(Of TService).Timeout
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -2096,93 +781,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<From, To>(From)
-  nameWithType: Converters.MapEnums<From, To>(From)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
-  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
-  name.vb: MapEnums(Of From, To)(From)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - name: From
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - name: From
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters
-  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
-  parent: SuperOffice.ErpSync.ConnectorWS
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
-  name: Converters
-  nameWithType: Converters
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   name: AssignByReflection<T>(T, T)
   nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
   fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
@@ -2191,46 +826,56 @@ references:
   name.vb: AssignByReflection(Of T)(T, T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
-  - name: ','
-  - name: " "
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.ObjectExtensions
   commentId: T:SuperOffice.Util.ObjectExtensions
   parent: SuperOffice.Util
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
   name: ObjectExtensions
   nameWithType: ObjectExtensions
   fullName: SuperOffice.Util.ObjectExtensions
 - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   name: GraphCopy<T>(T)
   nameWithType: ObjectExtensions.GraphCopy<T>(T)
   fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
@@ -2239,114 +884,108 @@ references:
   name.vb: GraphCopy(Of T)(T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS
-  commentId: N:SuperOffice.ErpSync.ConnectorWS
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.ErpSync.ConnectorWS
-  nameWithType: SuperOffice.ErpSync.ConnectorWS
-  fullName: SuperOffice.ErpSync.ConnectorWS
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.License.LicenseService.SetLicenseUrlOverride*
   commentId: Overload:SuperOffice.License.LicenseService.SetLicenseUrlOverride
   isExternal: true
-  href: SuperOffice.License.LicenseService.html#SuperOffice_License_LicenseService_SetLicenseUrlOverride_System_String_
   name: SetLicenseUrlOverride
   nameWithType: LicenseService.SetLicenseUrlOverride
   fullName: SuperOffice.License.LicenseService.SetLicenseUrlOverride
 - uid: SuperOffice.License.LicenseService.SetTimeout*
   commentId: Overload:SuperOffice.License.LicenseService.SetTimeout
   isExternal: true
-  href: SuperOffice.License.LicenseService.html#SuperOffice_License_LicenseService_SetTimeout_System_Int32_
   name: SetTimeout
   nameWithType: LicenseService.SetTimeout
   fullName: SuperOffice.License.LicenseService.SetTimeout
@@ -2354,93 +993,51 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.License.LicenseService._SetLicenseUrlOverride*
   commentId: Overload:SuperOffice.License.LicenseService._SetLicenseUrlOverride
   isExternal: true
-  href: SuperOffice.License.LicenseService.html#SuperOffice_License_LicenseService__SetLicenseUrlOverride_System_String_
   name: _SetLicenseUrlOverride
   nameWithType: LicenseService._SetLicenseUrlOverride
   fullName: SuperOffice.License.LicenseService._SetLicenseUrlOverride
 - uid: SuperOffice.License.LicenseService._SetLicenseConfiguration*
   commentId: Overload:SuperOffice.License.LicenseService._SetLicenseConfiguration
   isExternal: true
-  href: SuperOffice.License.LicenseService.html#SuperOffice_License_LicenseService__SetLicenseConfiguration_System_Reflection_Assembly_
   name: _SetLicenseConfiguration
   nameWithType: LicenseService._SetLicenseConfiguration
   fullName: SuperOffice.License.LicenseService._SetLicenseConfiguration
 - uid: System.Reflection.Assembly
-  commentId: T:System.Reflection.Assembly
-  parent: System.Reflection
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.reflection.assembly
   name: Assembly
   nameWithType: Assembly
   fullName: System.Reflection.Assembly
-- uid: System.Reflection
-  commentId: N:System.Reflection
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Reflection
-  nameWithType: System.Reflection
-  fullName: System.Reflection
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Reflection
-    name: Reflection
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.reflection
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Reflection
-    name: Reflection
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.reflection
 - uid: SuperOffice.License.LicenseService._GetLicenseUrl*
   commentId: Overload:SuperOffice.License.LicenseService._GetLicenseUrl
   isExternal: true
-  href: SuperOffice.License.LicenseService.html#SuperOffice_License_LicenseService__GetLicenseUrl_System_String_
   name: _GetLicenseUrl
   nameWithType: LicenseService._GetLicenseUrl
   fullName: SuperOffice.License.LicenseService._GetLicenseUrl
 - uid: SuperOffice.License.LicenseService.GetLicenseUrl*
   commentId: Overload:SuperOffice.License.LicenseService.GetLicenseUrl
   isExternal: true
-  href: SuperOffice.License.LicenseService.html#SuperOffice_License_LicenseService_GetLicenseUrl_System_String_
   name: GetLicenseUrl
   nameWithType: LicenseService.GetLicenseUrl
   fullName: SuperOffice.License.LicenseService.GetLicenseUrl
 - uid: SuperOffice.License.LicenseService.PingLicenseSystem*
   commentId: Overload:SuperOffice.License.LicenseService.PingLicenseSystem
   isExternal: true
-  href: SuperOffice.License.LicenseService.html#SuperOffice_License_LicenseService_PingLicenseSystem_SuperOffice_License_CheckLicenseStatusRequest_
   name: PingLicenseSystem
   nameWithType: LicenseService.PingLicenseSystem
   fullName: SuperOffice.License.LicenseService.PingLicenseSystem
 - uid: SuperOffice.License.CheckLicenseStatusRequest
-  commentId: T:SuperOffice.License.CheckLicenseStatusRequest
-  parent: SuperOffice.License
+  commentId: '!:SuperOffice.License.CheckLicenseStatusRequest'
   isExternal: true
   name: CheckLicenseStatusRequest
   nameWithType: CheckLicenseStatusRequest
   fullName: SuperOffice.License.CheckLicenseStatusRequest
 - uid: SuperOffice.License.CheckLicenseStatusResult
-  commentId: T:SuperOffice.License.CheckLicenseStatusResult
-  parent: SuperOffice.License
   isExternal: true
   name: CheckLicenseStatusResult
   nameWithType: CheckLicenseStatusResult
@@ -2448,20 +1045,17 @@ references:
 - uid: SuperOffice.License.LicenseService.GetCurrentLicenseInfo*
   commentId: Overload:SuperOffice.License.LicenseService.GetCurrentLicenseInfo
   isExternal: true
-  href: SuperOffice.License.LicenseService.html#SuperOffice_License_LicenseService_GetCurrentLicenseInfo_SuperOffice_License_GetCurrentLicenseInfoRequest_
   name: GetCurrentLicenseInfo
   nameWithType: LicenseService.GetCurrentLicenseInfo
   fullName: SuperOffice.License.LicenseService.GetCurrentLicenseInfo
 - uid: SuperOffice.License.GetCurrentLicenseInfoRequest
-  commentId: T:SuperOffice.License.GetCurrentLicenseInfoRequest
-  parent: SuperOffice.License
+  commentId: '!:SuperOffice.License.GetCurrentLicenseInfoRequest'
   isExternal: true
   name: GetCurrentLicenseInfoRequest
   nameWithType: GetCurrentLicenseInfoRequest
   fullName: SuperOffice.License.GetCurrentLicenseInfoRequest
 - uid: SuperOffice.License.GetCurrentLicenseInfoResult
-  commentId: T:SuperOffice.License.GetCurrentLicenseInfoResult
-  parent: SuperOffice.License
+  commentId: '!:SuperOffice.License.GetCurrentLicenseInfoResult'
   isExternal: true
   name: GetCurrentLicenseInfoResult
   nameWithType: GetCurrentLicenseInfoResult
@@ -2469,13 +1063,11 @@ references:
 - uid: SuperOffice.License.LicenseService.GetLicenseModuleDetails*
   commentId: Overload:SuperOffice.License.LicenseService.GetLicenseModuleDetails
   isExternal: true
-  href: SuperOffice.License.LicenseService.html#SuperOffice_License_LicenseService_GetLicenseModuleDetails_System_String_SuperOffice_License_GetLicenseModuleDetailsRequest_
   name: GetLicenseModuleDetails
   nameWithType: LicenseService.GetLicenseModuleDetails
   fullName: SuperOffice.License.LicenseService.GetLicenseModuleDetails
 - uid: SuperOffice.License.GetLicenseModuleDetailsRequest
-  commentId: T:SuperOffice.License.GetLicenseModuleDetailsRequest
-  parent: SuperOffice.License
+  commentId: '!:SuperOffice.License.GetLicenseModuleDetailsRequest'
   isExternal: true
   name: GetLicenseModuleDetailsRequest
   nameWithType: GetLicenseModuleDetailsRequest
@@ -2483,13 +1075,11 @@ references:
 - uid: SuperOffice.License.LicenseService.AcceptLicense*
   commentId: Overload:SuperOffice.License.LicenseService.AcceptLicense
   isExternal: true
-  href: SuperOffice.License.LicenseService.html#SuperOffice_License_LicenseService_AcceptLicense_SuperOffice_License_AcceptLicenseRequest_
   name: AcceptLicense
   nameWithType: LicenseService.AcceptLicense
   fullName: SuperOffice.License.LicenseService.AcceptLicense
 - uid: SuperOffice.License.AcceptLicenseRequest
-  commentId: T:SuperOffice.License.AcceptLicenseRequest
-  parent: SuperOffice.License
+  commentId: '!:SuperOffice.License.AcceptLicenseRequest'
   isExternal: true
   name: AcceptLicenseRequest
   nameWithType: AcceptLicenseRequest
@@ -2497,20 +1087,17 @@ references:
 - uid: SuperOffice.License.LicenseService.ChangeSerialNumber*
   commentId: Overload:SuperOffice.License.LicenseService.ChangeSerialNumber
   isExternal: true
-  href: SuperOffice.License.LicenseService.html#SuperOffice_License_LicenseService_ChangeSerialNumber_SuperOffice_License_ChangeSerialNumberRequest_
   name: ChangeSerialNumber
   nameWithType: LicenseService.ChangeSerialNumber
   fullName: SuperOffice.License.LicenseService.ChangeSerialNumber
 - uid: SuperOffice.License.ChangeSerialNumberRequest
-  commentId: T:SuperOffice.License.ChangeSerialNumberRequest
-  parent: SuperOffice.License
+  commentId: '!:SuperOffice.License.ChangeSerialNumberRequest'
   isExternal: true
   name: ChangeSerialNumberRequest
   nameWithType: ChangeSerialNumberRequest
   fullName: SuperOffice.License.ChangeSerialNumberRequest
 - uid: SuperOffice.License.ChangeSerialNumberResult
-  commentId: T:SuperOffice.License.ChangeSerialNumberResult
-  parent: SuperOffice.License
+  commentId: '!:SuperOffice.License.ChangeSerialNumberResult'
   isExternal: true
   name: ChangeSerialNumberResult
   nameWithType: ChangeSerialNumberResult
@@ -2518,20 +1105,17 @@ references:
 - uid: SuperOffice.License.LicenseService.MakeTestLicense*
   commentId: Overload:SuperOffice.License.LicenseService.MakeTestLicense
   isExternal: true
-  href: SuperOffice.License.LicenseService.html#SuperOffice_License_LicenseService_MakeTestLicense_System_String_SuperOffice_License_MakeTestLicenseRequest_
   name: MakeTestLicense
   nameWithType: LicenseService.MakeTestLicense
   fullName: SuperOffice.License.LicenseService.MakeTestLicense
 - uid: SuperOffice.License.MakeTestLicenseRequest
-  commentId: T:SuperOffice.License.MakeTestLicenseRequest
-  parent: SuperOffice.License
+  commentId: '!:SuperOffice.License.MakeTestLicenseRequest'
   isExternal: true
   name: MakeTestLicenseRequest
   nameWithType: MakeTestLicenseRequest
   fullName: SuperOffice.License.MakeTestLicenseRequest
 - uid: SuperOffice.License.MakeTestLicenseResult
-  commentId: T:SuperOffice.License.MakeTestLicenseResult
-  parent: SuperOffice.License
+  commentId: '!:SuperOffice.License.MakeTestLicenseResult'
   isExternal: true
   name: MakeTestLicenseResult
   nameWithType: MakeTestLicenseResult
@@ -2539,13 +1123,11 @@ references:
 - uid: SuperOffice.License.LicenseService.GetShopUrl*
   commentId: Overload:SuperOffice.License.LicenseService.GetShopUrl
   isExternal: true
-  href: SuperOffice.License.LicenseService.html#SuperOffice_License_LicenseService_GetShopUrl_SuperOffice_License_GetShopUrlRequest_
   name: GetShopUrl
   nameWithType: LicenseService.GetShopUrl
   fullName: SuperOffice.License.LicenseService.GetShopUrl
 - uid: SuperOffice.License.GetShopUrlRequest
-  commentId: T:SuperOffice.License.GetShopUrlRequest
-  parent: SuperOffice.License
+  commentId: '!:SuperOffice.License.GetShopUrlRequest'
   isExternal: true
   name: GetShopUrlRequest
   nameWithType: GetShopUrlRequest
@@ -2553,20 +1135,17 @@ references:
 - uid: SuperOffice.License.LicenseService.UpdateLicense*
   commentId: Overload:SuperOffice.License.LicenseService.UpdateLicense
   isExternal: true
-  href: SuperOffice.License.LicenseService.html#SuperOffice_License_LicenseService_UpdateLicense_SuperOffice_License_UpdateLicenseRequest_
   name: UpdateLicense
   nameWithType: LicenseService.UpdateLicense
   fullName: SuperOffice.License.LicenseService.UpdateLicense
 - uid: SuperOffice.License.UpdateLicenseRequest
-  commentId: T:SuperOffice.License.UpdateLicenseRequest
-  parent: SuperOffice.License
+  commentId: '!:SuperOffice.License.UpdateLicenseRequest'
   isExternal: true
   name: UpdateLicenseRequest
   nameWithType: UpdateLicenseRequest
   fullName: SuperOffice.License.UpdateLicenseRequest
 - uid: SuperOffice.License.UpdateLicenseResult
-  commentId: T:SuperOffice.License.UpdateLicenseResult
-  parent: SuperOffice.License
+  commentId: '!:SuperOffice.License.UpdateLicenseResult'
   isExternal: true
   name: UpdateLicenseResult
   nameWithType: UpdateLicenseResult
@@ -2574,20 +1153,17 @@ references:
 - uid: SuperOffice.License.LicenseService.GetCurrentLicenseInfoWithAssignments*
   commentId: Overload:SuperOffice.License.LicenseService.GetCurrentLicenseInfoWithAssignments
   isExternal: true
-  href: SuperOffice.License.LicenseService.html#SuperOffice_License_LicenseService_GetCurrentLicenseInfoWithAssignments_SuperOffice_License_GetCurrentLicenseInfoWithAssignmentsRequest_
   name: GetCurrentLicenseInfoWithAssignments
   nameWithType: LicenseService.GetCurrentLicenseInfoWithAssignments
   fullName: SuperOffice.License.LicenseService.GetCurrentLicenseInfoWithAssignments
 - uid: SuperOffice.License.GetCurrentLicenseInfoWithAssignmentsRequest
-  commentId: T:SuperOffice.License.GetCurrentLicenseInfoWithAssignmentsRequest
-  parent: SuperOffice.License
+  commentId: '!:SuperOffice.License.GetCurrentLicenseInfoWithAssignmentsRequest'
   isExternal: true
   name: GetCurrentLicenseInfoWithAssignmentsRequest
   nameWithType: GetCurrentLicenseInfoWithAssignmentsRequest
   fullName: SuperOffice.License.GetCurrentLicenseInfoWithAssignmentsRequest
 - uid: SuperOffice.License.GetCurrentLicenseInfoWithAssignmentsResult
-  commentId: T:SuperOffice.License.GetCurrentLicenseInfoWithAssignmentsResult
-  parent: SuperOffice.License
+  commentId: '!:SuperOffice.License.GetCurrentLicenseInfoWithAssignmentsResult'
   isExternal: true
   name: GetCurrentLicenseInfoWithAssignmentsResult
   nameWithType: GetCurrentLicenseInfoWithAssignmentsResult
@@ -2595,10 +1171,6 @@ references:
 - uid: SuperOffice.License.LicenseService.#ctor*
   commentId: Overload:SuperOffice.License.LicenseService.#ctor
   isExternal: true
-  href: SuperOffice.License.LicenseService.html#SuperOffice_License_LicenseService__ctor
   name: LicenseService
   nameWithType: LicenseService.LicenseService
   fullName: SuperOffice.License.LicenseService.LicenseService
-  nameWithType.vb: LicenseService.New
-  fullName.vb: SuperOffice.License.LicenseService.New
-  name.vb: New

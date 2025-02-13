@@ -26,25 +26,24 @@ items:
   nameWithType: RoleEntity
   fullName: SuperOffice.WebApi.Data.RoleEntity
   type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Carrier object for RoleEntity.
-  remarks: >-
-    Use <xref href="SuperOffice.CRM.Services.ArchiveAgent?text=Archive+agent" data-throw-if-not-resolved="false"></xref>:
-                All RoleEntity: <pre><code class="lang-csharp">"Role"</code></pre>
+  summary: "\nCarrier object for RoleEntity.\n\n"
+  remarks: >
+    Use <xref href="SuperOffice.CRM.Services.ArchiveAgent" data-throw-if-not-resolved="false"></xref>:
+
+    All RoleEntity: <pre><code>&quot;Role&quot;</code></pre>
   example:
-  - >-
-    Get RoleEntity 123 using the WebApi client:
-
-    <pre><code class="lang-csharp">var configuration = new WebApiConfiguration(url);
-
-    var agent = new UserAgent(configuration);
-
-    var roleEntity = agent.GetRoleEntity( 123 );</code></pre>
+  - "\nGet RoleEntity 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new UserAgent(configuration);\nvar roleEntity = agent.GetRoleEntity( 123 );</code></pre>\n"
   syntax:
     content: 'public class RoleEntity : Carrier'
-    content.vb: Public Class RoleEntity Inherits Carrier
+    content.vb: >-
+      Public Class RoleEntity
+          Inherits Carrier
   seealso:
   - linkId: SuperOffice.WebApi.Agents.UserAgent
     commentId: T:SuperOffice.WebApi.Agents.UserAgent
@@ -58,13 +57,12 @@ items:
   inheritedMembers:
   - SuperOffice.WebApi.Data.Carrier.TableRight
   - SuperOffice.WebApi.Data.Carrier.FieldProperties
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.WebApi.Data.RoleEntity.#ctor
   commentId: M:SuperOffice.WebApi.Data.RoleEntity.#ctor
   id: '#ctor'
@@ -76,18 +74,21 @@ items:
   nameWithType: RoleEntity.RoleEntity()
   fullName: SuperOffice.WebApi.Data.RoleEntity.RoleEntity()
   type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Default constructor - defaults any enum props to 0.
-  example: []
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
   syntax:
     content: public RoleEntity()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.WebApi.Data.RoleEntity.#ctor*
-  nameWithType.vb: RoleEntity.New()
-  fullName.vb: SuperOffice.WebApi.Data.RoleEntity.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.RoleEntity.RoleId
   commentId: P:SuperOffice.WebApi.Data.RoleEntity.RoleId
   id: RoleId
@@ -99,11 +100,13 @@ items:
   nameWithType: RoleEntity.RoleId
   fullName: SuperOffice.WebApi.Data.RoleEntity.RoleId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Primary key
-  example: []
+  summary: "\nPrimary key\n"
   syntax:
     content: public virtual int RoleId { get; set; }
     parameters: []
@@ -111,6 +114,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property RoleId As Integer
   overload: SuperOffice.WebApi.Data.RoleEntity.RoleId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.RoleEntity.Name
   commentId: P:SuperOffice.WebApi.Data.RoleEntity.Name
   id: Name
@@ -122,11 +133,13 @@ items:
   nameWithType: RoleEntity.Name
   fullName: SuperOffice.WebApi.Data.RoleEntity.Name
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Visible role name
-  example: []
+  summary: "\nVisible role name\n"
   syntax:
     content: public virtual string Name { get; set; }
     parameters: []
@@ -134,6 +147,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property Name As String
   overload: SuperOffice.WebApi.Data.RoleEntity.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.RoleEntity.Tooltip
   commentId: P:SuperOffice.WebApi.Data.RoleEntity.Tooltip
   id: Tooltip
@@ -145,11 +166,13 @@ items:
   nameWithType: RoleEntity.Tooltip
   fullName: SuperOffice.WebApi.Data.RoleEntity.Tooltip
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Description of the role.
-  example: []
+  summary: "\nDescription of the role.\n"
   syntax:
     content: public virtual string Tooltip { get; set; }
     parameters: []
@@ -157,6 +180,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property Tooltip As String
   overload: SuperOffice.WebApi.Data.RoleEntity.Tooltip*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.RoleEntity.RoleType_String
   commentId: P:SuperOffice.WebApi.Data.RoleEntity.RoleType_String
   id: RoleType_String
@@ -168,36 +199,29 @@ items:
   nameWithType: RoleEntity.RoleType_String
   fullName: SuperOffice.WebApi.Data.RoleEntity.RoleType_String
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    The role type. Note that changing this field has no effect, so treat this as a read-only field. 
-
-    Raw string enum value.
-  example: []
+  summary: "\nThe role type. Note that changing this field has no effect, so treat this as a read-only field. \nRaw string enum value.\n"
   syntax:
-    content: >-
-      [JsonProperty("RoleType")]
-
-      public string RoleType_String { get; set; }
+    content: public string RoleType_String { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <JsonProperty("RoleType")>
-
-      Public Property RoleType_String As String
+    content.vb: Public Property RoleType_String As String
   overload: SuperOffice.WebApi.Data.RoleEntity.RoleType_String*
   seealso:
   - linkId: SuperOffice.WebApi.Data.RoleEntity.RoleType
     commentId: P:SuperOffice.WebApi.Data.RoleEntity.RoleType
-  attributes:
-  - type: Newtonsoft.Json.JsonPropertyAttribute
-    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: RoleType
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.RoleEntity.RoleType
   commentId: P:SuperOffice.WebApi.Data.RoleEntity.RoleType
   id: RoleType
@@ -209,34 +233,29 @@ items:
   nameWithType: RoleEntity.RoleType
   fullName: SuperOffice.WebApi.Data.RoleEntity.RoleType
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    The role type. Note that changing this field has no effect, so treat this as a read-only field. 
-
-    NULL if unknown enum value.
-  example: []
+  summary: "\nThe role type. Note that changing this field has no effect, so treat this as a read-only field. \nNULL if unknown enum value.\n"
   syntax:
-    content: >-
-      [JsonIgnore]
-
-      public RoleType? RoleType { get; set; }
+    content: public Nullable<RoleType> RoleType { get; set; }
     parameters: []
     return:
       type: System.Nullable{SuperOffice.WebApi.Data.RoleType}
-    content.vb: >-
-      <JsonIgnore>
-
-      Public Property RoleType As RoleType?
+    content.vb: Public Property RoleType As Nullable(Of RoleType)
   overload: SuperOffice.WebApi.Data.RoleEntity.RoleType*
   seealso:
   - linkId: SuperOffice.WebApi.Data.RoleEntity.RoleType_String
     commentId: P:SuperOffice.WebApi.Data.RoleEntity.RoleType_String
-  attributes:
-  - type: Newtonsoft.Json.JsonIgnoreAttribute
-    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.RoleEntity.Deleted
   commentId: P:SuperOffice.WebApi.Data.RoleEntity.Deleted
   id: Deleted
@@ -248,11 +267,13 @@ items:
   nameWithType: RoleEntity.Deleted
   fullName: SuperOffice.WebApi.Data.RoleEntity.Deleted
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: 1 if role has been deleted (we do not actually delete)
-  example: []
+  summary: "\n1 if role has been deleted (we do not actually delete)\n"
   syntax:
     content: public virtual short Deleted { get; set; }
     parameters: []
@@ -260,6 +281,14 @@ items:
       type: System.Int16
     content.vb: Public Overridable Property Deleted As Short
   overload: SuperOffice.WebApi.Data.RoleEntity.Deleted*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.RoleEntity.Rank
   commentId: P:SuperOffice.WebApi.Data.RoleEntity.Rank
   id: Rank
@@ -271,11 +300,13 @@ items:
   nameWithType: RoleEntity.Rank
   fullName: SuperOffice.WebApi.Data.RoleEntity.Rank
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Sorting rank of this role in lists
-  example: []
+  summary: "\nSorting rank of this role in lists\n"
   syntax:
     content: public virtual short Rank { get; set; }
     parameters: []
@@ -283,6 +314,14 @@ items:
       type: System.Int16
     content.vb: Public Overridable Property Rank As Short
   overload: SuperOffice.WebApi.Data.RoleEntity.Rank*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.RoleEntity.Created
   commentId: P:SuperOffice.WebApi.Data.RoleEntity.Created
   id: Created
@@ -294,18 +333,28 @@ items:
   nameWithType: RoleEntity.Created
   fullName: SuperOffice.WebApi.Data.RoleEntity.Created
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Registered when
-  example: []
+  summary: "\nRegistered when\n"
   syntax:
     content: public virtual DateTime Created { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property Created As Date
+    content.vb: Public Overridable Property Created As DateTime
   overload: SuperOffice.WebApi.Data.RoleEntity.Created*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.RoleEntity.UseCategories
   commentId: P:SuperOffice.WebApi.Data.RoleEntity.UseCategories
   id: UseCategories
@@ -317,11 +366,13 @@ items:
   nameWithType: RoleEntity.UseCategories
   fullName: SuperOffice.WebApi.Data.RoleEntity.UseCategories
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Apply role category membership to users
-  example: []
+  summary: "\nApply role category membership to users\n"
   syntax:
     content: public virtual short UseCategories { get; set; }
     parameters: []
@@ -329,6 +380,14 @@ items:
       type: System.Int16
     content.vb: Public Overridable Property UseCategories As Short
   overload: SuperOffice.WebApi.Data.RoleEntity.UseCategories*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.RoleEntity.CreatedBy
   commentId: P:SuperOffice.WebApi.Data.RoleEntity.CreatedBy
   id: CreatedBy
@@ -340,11 +399,13 @@ items:
   nameWithType: RoleEntity.CreatedBy
   fullName: SuperOffice.WebApi.Data.RoleEntity.CreatedBy
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Created by user
-  example: []
+  summary: "\nCreated by user\n"
   syntax:
     content: public virtual Associate CreatedBy { get; set; }
     parameters: []
@@ -352,6 +413,14 @@ items:
       type: SuperOffice.WebApi.Data.Associate
     content.vb: Public Overridable Property CreatedBy As Associate
   overload: SuperOffice.WebApi.Data.RoleEntity.CreatedBy*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.RoleEntity.Updated
   commentId: P:SuperOffice.WebApi.Data.RoleEntity.Updated
   id: Updated
@@ -363,18 +432,28 @@ items:
   nameWithType: RoleEntity.Updated
   fullName: SuperOffice.WebApi.Data.RoleEntity.Updated
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Last updated when
-  example: []
+  summary: "\nLast updated when\n"
   syntax:
     content: public virtual DateTime Updated { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property Updated As Date
+    content.vb: Public Overridable Property Updated As DateTime
   overload: SuperOffice.WebApi.Data.RoleEntity.Updated*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.RoleEntity.UpdatedBy
   commentId: P:SuperOffice.WebApi.Data.RoleEntity.UpdatedBy
   id: UpdatedBy
@@ -386,11 +465,13 @@ items:
   nameWithType: RoleEntity.UpdatedBy
   fullName: SuperOffice.WebApi.Data.RoleEntity.UpdatedBy
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Last updated by user
-  example: []
+  summary: "\nLast updated by user\n"
   syntax:
     content: public virtual Associate UpdatedBy { get; set; }
     parameters: []
@@ -398,6 +479,14 @@ items:
       type: SuperOffice.WebApi.Data.Associate
     content.vb: Public Overridable Property UpdatedBy As Associate
   overload: SuperOffice.WebApi.Data.RoleEntity.UpdatedBy*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.RoleEntity.DataRights
   commentId: P:SuperOffice.WebApi.Data.RoleEntity.DataRights
   id: DataRights
@@ -409,11 +498,13 @@ items:
   nameWithType: RoleEntity.DataRights
   fullName: SuperOffice.WebApi.Data.RoleEntity.DataRights
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Data rights matrix - defines role's access to data owned by current user, users in same group, and other users.
-  example: []
+  summary: "\nData rights matrix - defines role&apos;s access to data owned by current user, users in same group, and other users.\n"
   syntax:
     content: public virtual DataRights DataRights { get; set; }
     parameters: []
@@ -421,80 +512,32 @@ items:
       type: SuperOffice.WebApi.Data.DataRights
     content.vb: Public Overridable Property DataRights As DataRights
   overload: SuperOffice.WebApi.Data.RoleEntity.DataRights*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
-- uid: SuperOffice.WebApi.Agents.UserAgent
-  commentId: T:SuperOffice.WebApi.Agents.UserAgent
-  isExternal: true
-  href: SuperOffice.WebApi.Agents.UserAgent.html
-  name: UserAgent
-  nameWithType: UserAgent
-  fullName: SuperOffice.WebApi.Agents.UserAgent
-- uid: SuperOffice.WebApi.Agents.ArchiveAgent
-  commentId: T:SuperOffice.WebApi.Agents.ArchiveAgent
-  isExternal: true
-  href: SuperOffice.WebApi.Agents.ArchiveAgent.html
-  name: ArchiveAgent
-  nameWithType: ArchiveAgent
-  fullName: SuperOffice.WebApi.Agents.ArchiveAgent
-- uid: ArchiveAgent.GetArchiveListByColumns2(string,string,string,string,string,int,int)
-  commentId: M:ArchiveAgent.GetArchiveListByColumns2(string,string,string,string,string,int,int)
-  isExternal: true
-- uid: SuperOffice.CRM.Services.ArchiveAgent
-  commentId: T:SuperOffice.CRM.Services.ArchiveAgent
-  isExternal: true
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.WebApi.Data.Carrier
   commentId: T:SuperOffice.WebApi.Data.Carrier
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html
   name: Carrier
   nameWithType: Carrier
   fullName: SuperOffice.WebApi.Data.Carrier
@@ -502,7 +545,6 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_TableRight
   name: TableRight
   nameWithType: Carrier.TableRight
   fullName: SuperOffice.WebApi.Data.Carrier.TableRight
@@ -510,250 +552,39 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_FieldProperties
   name: FieldProperties
   nameWithType: Carrier.FieldProperties
   fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
+- uid: SuperOffice.WebApi.Agents.UserAgent
+  commentId: T:SuperOffice.WebApi.Agents.UserAgent
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
+  name: UserAgent
+  nameWithType: UserAgent
+  fullName: SuperOffice.WebApi.Agents.UserAgent
+- uid: SuperOffice.WebApi.Agents.ArchiveAgent
+  commentId: T:SuperOffice.WebApi.Agents.ArchiveAgent
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
+  name: ArchiveAgent
+  nameWithType: ArchiveAgent
+  fullName: SuperOffice.WebApi.Agents.ArchiveAgent
+- uid: ArchiveAgent.GetArchiveListByColumns2(string,string,string,string,string,int,int)
+  commentId: M:ArchiveAgent.GetArchiveListByColumns2(string,string,string,string,string,int,int)
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Data.RoleEntity.#ctor*
   commentId: Overload:SuperOffice.WebApi.Data.RoleEntity.#ctor
   isExternal: true
-  href: SuperOffice.WebApi.Data.RoleEntity.html#SuperOffice_WebApi_Data_RoleEntity__ctor
   name: RoleEntity
   nameWithType: RoleEntity.RoleEntity
   fullName: SuperOffice.WebApi.Data.RoleEntity.RoleEntity
-  nameWithType.vb: RoleEntity.New
-  fullName.vb: SuperOffice.WebApi.Data.RoleEntity.New
-  name.vb: New
 - uid: SuperOffice.WebApi.Data.RoleEntity.RoleId*
   commentId: Overload:SuperOffice.WebApi.Data.RoleEntity.RoleId
   isExternal: true
-  href: SuperOffice.WebApi.Data.RoleEntity.html#SuperOffice_WebApi_Data_RoleEntity_RoleId
   name: RoleId
   nameWithType: RoleEntity.RoleId
   fullName: SuperOffice.WebApi.Data.RoleEntity.RoleId
@@ -761,17 +592,12 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.WebApi.Data.RoleEntity.Name*
   commentId: Overload:SuperOffice.WebApi.Data.RoleEntity.Name
   isExternal: true
-  href: SuperOffice.WebApi.Data.RoleEntity.html#SuperOffice_WebApi_Data_RoleEntity_Name
   name: Name
   nameWithType: RoleEntity.Name
   fullName: SuperOffice.WebApi.Data.RoleEntity.Name
@@ -779,100 +605,117 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.WebApi.Data.RoleEntity.Tooltip*
   commentId: Overload:SuperOffice.WebApi.Data.RoleEntity.Tooltip
   isExternal: true
-  href: SuperOffice.WebApi.Data.RoleEntity.html#SuperOffice_WebApi_Data_RoleEntity_Tooltip
   name: Tooltip
   nameWithType: RoleEntity.Tooltip
   fullName: SuperOffice.WebApi.Data.RoleEntity.Tooltip
-- uid: SuperOffice.WebApi.Data.RoleEntity.RoleType
-  commentId: P:SuperOffice.WebApi.Data.RoleEntity.RoleType
-  isExternal: true
-  href: SuperOffice.WebApi.Data.RoleEntity.html#SuperOffice_WebApi_Data_RoleEntity_RoleType
-  name: RoleType
-  nameWithType: RoleEntity.RoleType
-  fullName: SuperOffice.WebApi.Data.RoleEntity.RoleType
 - uid: SuperOffice.WebApi.Data.RoleEntity.RoleType_String*
   commentId: Overload:SuperOffice.WebApi.Data.RoleEntity.RoleType_String
   isExternal: true
-  href: SuperOffice.WebApi.Data.RoleEntity.html#SuperOffice_WebApi_Data_RoleEntity_RoleType_String
   name: RoleType_String
   nameWithType: RoleEntity.RoleType_String
   fullName: SuperOffice.WebApi.Data.RoleEntity.RoleType_String
-- uid: SuperOffice.WebApi.Data.RoleEntity.RoleType_String
-  commentId: P:SuperOffice.WebApi.Data.RoleEntity.RoleType_String
+- uid: SuperOffice.WebApi.Data.RoleEntity.RoleType
+  commentId: P:SuperOffice.WebApi.Data.RoleEntity.RoleType
   isExternal: true
-  href: SuperOffice.WebApi.Data.RoleEntity.html#SuperOffice_WebApi_Data_RoleEntity_RoleType_String
-  name: RoleType_String
-  nameWithType: RoleEntity.RoleType_String
-  fullName: SuperOffice.WebApi.Data.RoleEntity.RoleType_String
 - uid: SuperOffice.WebApi.Data.RoleEntity.RoleType*
   commentId: Overload:SuperOffice.WebApi.Data.RoleEntity.RoleType
   isExternal: true
-  href: SuperOffice.WebApi.Data.RoleEntity.html#SuperOffice_WebApi_Data_RoleEntity_RoleType
   name: RoleType
   nameWithType: RoleEntity.RoleType
   fullName: SuperOffice.WebApi.Data.RoleEntity.RoleType
-- uid: System.Nullable{SuperOffice.WebApi.Data.RoleType}
-  commentId: T:System.Nullable{SuperOffice.WebApi.Data.RoleType}
-  parent: System
-  definition: System.Nullable`1
-  href: SuperOffice.WebApi.Data.RoleType.html
-  name: RoleType?
-  nameWithType: RoleType?
-  fullName: SuperOffice.WebApi.Data.RoleType?
-  spec.csharp:
-  - uid: SuperOffice.WebApi.Data.RoleType
-    name: RoleType
-    isExternal: true
-    href: SuperOffice.WebApi.Data.RoleType.html
-  - name: '?'
-  spec.vb:
-  - uid: SuperOffice.WebApi.Data.RoleType
-    name: RoleType
-    isExternal: true
-    href: SuperOffice.WebApi.Data.RoleType.html
-  - name: '?'
-- uid: System.Nullable`1
-  commentId: T:System.Nullable`1
+- uid: SuperOffice.WebApi.Data.RoleEntity.RoleType_String
+  commentId: P:SuperOffice.WebApi.Data.RoleEntity.RoleType_String
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
-  name: Nullable<T>
-  nameWithType: Nullable<T>
-  fullName: System.Nullable<T>
-  nameWithType.vb: Nullable(Of T)
-  fullName.vb: System.Nullable(Of T)
-  name.vb: Nullable(Of T)
+- uid: System.Nullable{SuperOffice.WebApi.Data.RoleType}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.RoleType}'
+  definition: System.Nullable`1
+  name: Nullable<RoleType>
+  nameWithType: Nullable<RoleType>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.RoleType>
+  nameWithType.vb: Nullable(Of RoleType)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.RoleType)
+  name.vb: Nullable(Of RoleType)
   spec.csharp:
   - uid: System.Nullable`1
     name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
   - name: <
-  - name: T
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.RoleType
+    name: RoleType
+    nameWithType: RoleType
+    fullName: SuperOffice.WebApi.Data.RoleType
+    isExternal: true
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Nullable`1
     name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.RoleType
+    name: RoleType
+    nameWithType: RoleType
+    fullName: SuperOffice.WebApi.Data.RoleType
+    isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Data.RoleEntity.Deleted*
   commentId: Overload:SuperOffice.WebApi.Data.RoleEntity.Deleted
   isExternal: true
-  href: SuperOffice.WebApi.Data.RoleEntity.html#SuperOffice_WebApi_Data_RoleEntity_Deleted
   name: Deleted
   nameWithType: RoleEntity.Deleted
   fullName: SuperOffice.WebApi.Data.RoleEntity.Deleted
@@ -880,49 +723,35 @@ references:
   commentId: T:System.Int16
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int16
-  name: short
-  nameWithType: short
-  fullName: short
-  nameWithType.vb: Short
-  fullName.vb: Short
-  name.vb: Short
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.WebApi.Data.RoleEntity.Rank*
   commentId: Overload:SuperOffice.WebApi.Data.RoleEntity.Rank
   isExternal: true
-  href: SuperOffice.WebApi.Data.RoleEntity.html#SuperOffice_WebApi_Data_RoleEntity_Rank
   name: Rank
   nameWithType: RoleEntity.Rank
   fullName: SuperOffice.WebApi.Data.RoleEntity.Rank
 - uid: SuperOffice.WebApi.Data.RoleEntity.Created*
   commentId: Overload:SuperOffice.WebApi.Data.RoleEntity.Created
   isExternal: true
-  href: SuperOffice.WebApi.Data.RoleEntity.html#SuperOffice_WebApi_Data_RoleEntity_Created
   name: Created
   nameWithType: RoleEntity.Created
   fullName: SuperOffice.WebApi.Data.RoleEntity.Created
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
 - uid: SuperOffice.WebApi.Data.RoleEntity.UseCategories*
   commentId: Overload:SuperOffice.WebApi.Data.RoleEntity.UseCategories
   isExternal: true
-  href: SuperOffice.WebApi.Data.RoleEntity.html#SuperOffice_WebApi_Data_RoleEntity_UseCategories
   name: UseCategories
   nameWithType: RoleEntity.UseCategories
   fullName: SuperOffice.WebApi.Data.RoleEntity.UseCategories
 - uid: SuperOffice.WebApi.Data.RoleEntity.CreatedBy*
   commentId: Overload:SuperOffice.WebApi.Data.RoleEntity.CreatedBy
   isExternal: true
-  href: SuperOffice.WebApi.Data.RoleEntity.html#SuperOffice_WebApi_Data_RoleEntity_CreatedBy
   name: CreatedBy
   nameWithType: RoleEntity.CreatedBy
   fullName: SuperOffice.WebApi.Data.RoleEntity.CreatedBy
@@ -930,28 +759,24 @@ references:
   commentId: T:SuperOffice.WebApi.Data.Associate
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.Associate.html
   name: Associate
   nameWithType: Associate
   fullName: SuperOffice.WebApi.Data.Associate
 - uid: SuperOffice.WebApi.Data.RoleEntity.Updated*
   commentId: Overload:SuperOffice.WebApi.Data.RoleEntity.Updated
   isExternal: true
-  href: SuperOffice.WebApi.Data.RoleEntity.html#SuperOffice_WebApi_Data_RoleEntity_Updated
   name: Updated
   nameWithType: RoleEntity.Updated
   fullName: SuperOffice.WebApi.Data.RoleEntity.Updated
 - uid: SuperOffice.WebApi.Data.RoleEntity.UpdatedBy*
   commentId: Overload:SuperOffice.WebApi.Data.RoleEntity.UpdatedBy
   isExternal: true
-  href: SuperOffice.WebApi.Data.RoleEntity.html#SuperOffice_WebApi_Data_RoleEntity_UpdatedBy
   name: UpdatedBy
   nameWithType: RoleEntity.UpdatedBy
   fullName: SuperOffice.WebApi.Data.RoleEntity.UpdatedBy
 - uid: SuperOffice.WebApi.Data.RoleEntity.DataRights*
   commentId: Overload:SuperOffice.WebApi.Data.RoleEntity.DataRights
   isExternal: true
-  href: SuperOffice.WebApi.Data.RoleEntity.html#SuperOffice_WebApi_Data_RoleEntity_DataRights
   name: DataRights
   nameWithType: RoleEntity.DataRights
   fullName: SuperOffice.WebApi.Data.RoleEntity.DataRights
@@ -959,7 +784,6 @@ references:
   commentId: T:SuperOffice.WebApi.Data.DataRights
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.DataRights.html
   name: DataRights
   nameWithType: DataRights
   fullName: SuperOffice.WebApi.Data.DataRights

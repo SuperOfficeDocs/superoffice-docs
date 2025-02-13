@@ -15,12 +15,17 @@ items:
   nameWithType: CacheMailQueue
   fullName: SuperOffice.CRM.Mail.CacheMailQueue
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Mail
   syntax:
     content: 'public class CacheMailQueue : ThreadStaticQueuedThreadBase<CacheMailQueueProcessor, CacheMailQueueArgument>'
-    content.vb: Public Class CacheMailQueue Inherits ThreadStaticQueuedThreadBase(Of CacheMailQueueProcessor, CacheMailQueueArgument)
+    content.vb: >-
+      Public Class CacheMailQueue
+          Inherits ThreadStaticQueuedThreadBase(Of CacheMailQueueProcessor, CacheMailQueueArgument)
   inheritance:
   - System.Object
   - SuperOffice.Threading.AsynchronousHandler{SuperOffice.CRM.Mail.CacheMailQueueProcessor,SuperOffice.CRM.Mail.CacheMailQueueArgument}
@@ -38,16 +43,15 @@ items:
   - SuperOffice.Threading.AsynchronousHandler{SuperOffice.CRM.Mail.CacheMailQueueProcessor,SuperOffice.CRM.Mail.CacheMailQueueArgument}.WasSetupCalled
   - SuperOffice.Threading.AsynchronousHandler{SuperOffice.CRM.Mail.CacheMailQueueProcessor,SuperOffice.CRM.Mail.CacheMailQueueArgument}.HasWorkToDo
   - SuperOffice.Threading.AsynchronousHandler{SuperOffice.CRM.Mail.CacheMailQueueProcessor,SuperOffice.CRM.Mail.CacheMailQueueArgument}.ThreadName
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Mail.CacheMailQueue.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Mail.CacheMailQueue.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Mail.CacheMailQueue.CacheMailForAllAssociates
   commentId: M:SuperOffice.CRM.Mail.CacheMailQueue.CacheMailForAllAssociates
   id: CacheMailForAllAssociates
@@ -59,13 +63,22 @@ items:
   nameWithType: CacheMailQueue.CacheMailForAllAssociates()
   fullName: SuperOffice.CRM.Mail.CacheMailQueue.CacheMailForAllAssociates()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Mail
   syntax:
     content: public static void CacheMailForAllAssociates()
-    content.vb: Public Shared Sub CacheMailForAllAssociates()
+    content.vb: Public Shared Sub CacheMailForAllAssociates
   overload: SuperOffice.CRM.Mail.CacheMailQueue.CacheMailForAllAssociates*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Mail.CacheMailQueue.CacheMailForSingleAssociate(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials,System.String)
   commentId: M:SuperOffice.CRM.Mail.CacheMailQueue.CacheMailForSingleAssociate(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials,System.String)
   id: CacheMailForSingleAssociate(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials,System.String)
@@ -73,10 +86,13 @@ items:
   langs:
   - csharp
   - vb
-  name: CacheMailForSingleAssociate(int, SoMailCredentials, string)
-  nameWithType: CacheMailQueue.CacheMailForSingleAssociate(int, SoMailCredentials, string)
-  fullName: SuperOffice.CRM.Mail.CacheMailQueue.CacheMailForSingleAssociate(int, SuperOffice.CRM.Mail.SoMailCredentials, string)
+  name: CacheMailForSingleAssociate(Int32, SoMailCredentials, String)
+  nameWithType: CacheMailQueue.CacheMailForSingleAssociate(Int32, SoMailCredentials, String)
+  fullName: SuperOffice.CRM.Mail.CacheMailQueue.CacheMailForSingleAssociate(System.Int32, SuperOffice.CRM.Mail.SoMailCredentials, System.String)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Mail
@@ -91,9 +107,12 @@ items:
       type: System.String
     content.vb: Public Shared Sub CacheMailForSingleAssociate(associateId As Integer, credentials As SoMailCredentials, folder As String)
   overload: SuperOffice.CRM.Mail.CacheMailQueue.CacheMailForSingleAssociate*
-  nameWithType.vb: CacheMailQueue.CacheMailForSingleAssociate(Integer, SoMailCredentials, String)
-  fullName.vb: SuperOffice.CRM.Mail.CacheMailQueue.CacheMailForSingleAssociate(Integer, SuperOffice.CRM.Mail.SoMailCredentials, String)
-  name.vb: CacheMailForSingleAssociate(Integer, SoMailCredentials, String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Mail.CacheMailQueue.UpdateMailCacheForSingleAssociate(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials,System.String,SuperOffice.CRM.Mail.MailEnvelope[])
   commentId: M:SuperOffice.CRM.Mail.CacheMailQueue.UpdateMailCacheForSingleAssociate(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials,System.String,SuperOffice.CRM.Mail.MailEnvelope[])
   id: UpdateMailCacheForSingleAssociate(System.Int32,SuperOffice.CRM.Mail.SoMailCredentials,System.String,SuperOffice.CRM.Mail.MailEnvelope[])
@@ -101,10 +120,13 @@ items:
   langs:
   - csharp
   - vb
-  name: UpdateMailCacheForSingleAssociate(int, SoMailCredentials, string, MailEnvelope[])
-  nameWithType: CacheMailQueue.UpdateMailCacheForSingleAssociate(int, SoMailCredentials, string, MailEnvelope[])
-  fullName: SuperOffice.CRM.Mail.CacheMailQueue.UpdateMailCacheForSingleAssociate(int, SuperOffice.CRM.Mail.SoMailCredentials, string, SuperOffice.CRM.Mail.MailEnvelope[])
+  name: UpdateMailCacheForSingleAssociate(Int32, SoMailCredentials, String, MailEnvelope[])
+  nameWithType: CacheMailQueue.UpdateMailCacheForSingleAssociate(Int32, SoMailCredentials, String, MailEnvelope[])
+  fullName: SuperOffice.CRM.Mail.CacheMailQueue.UpdateMailCacheForSingleAssociate(System.Int32, SuperOffice.CRM.Mail.SoMailCredentials, System.String, SuperOffice.CRM.Mail.MailEnvelope[])
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Mail
@@ -121,63 +143,33 @@ items:
       type: SuperOffice.CRM.Mail.MailEnvelope[]
     content.vb: Public Shared Sub UpdateMailCacheForSingleAssociate(associateId As Integer, credentials As SoMailCredentials, folder As String, envelopes As MailEnvelope())
   overload: SuperOffice.CRM.Mail.CacheMailQueue.UpdateMailCacheForSingleAssociate*
-  nameWithType.vb: CacheMailQueue.UpdateMailCacheForSingleAssociate(Integer, SoMailCredentials, String, MailEnvelope())
-  fullName.vb: SuperOffice.CRM.Mail.CacheMailQueue.UpdateMailCacheForSingleAssociate(Integer, SuperOffice.CRM.Mail.SoMailCredentials, String, SuperOffice.CRM.Mail.MailEnvelope())
-  name.vb: UpdateMailCacheForSingleAssociate(Integer, SoMailCredentials, String, MailEnvelope())
+  nameWithType.vb: CacheMailQueue.UpdateMailCacheForSingleAssociate(Int32, SoMailCredentials, String, MailEnvelope())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Mail.CacheMailQueue.UpdateMailCacheForSingleAssociate(System.Int32, SuperOffice.CRM.Mail.SoMailCredentials, System.String, SuperOffice.CRM.Mail.MailEnvelope())
+  name.vb: UpdateMailCacheForSingleAssociate(Int32, SoMailCredentials, String, MailEnvelope())
 references:
 - uid: SuperOffice.CRM.Mail
   commentId: N:SuperOffice.CRM.Mail
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Mail
   nameWithType: SuperOffice.CRM.Mail
   fullName: SuperOffice.CRM.Mail
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Mail
-    name: Mail
-    isExternal: true
-    href: SuperOffice.CRM.Mail.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Mail
-    name: Mail
-    isExternal: true
-    href: SuperOffice.CRM.Mail.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Threading.AsynchronousHandler{SuperOffice.CRM.Mail.CacheMailQueueProcessor,SuperOffice.CRM.Mail.CacheMailQueueArgument}
   commentId: T:SuperOffice.Threading.AsynchronousHandler{SuperOffice.CRM.Mail.CacheMailQueueProcessor,SuperOffice.CRM.Mail.CacheMailQueueArgument}
   parent: SuperOffice.Threading
   definition: SuperOffice.Threading.AsynchronousHandler`2
-  href: SuperOffice.CRM.Mail.CacheMailQueueProcessor.html
   name: AsynchronousHandler<CacheMailQueueProcessor, CacheMailQueueArgument>
   nameWithType: AsynchronousHandler<CacheMailQueueProcessor, CacheMailQueueArgument>
   fullName: SuperOffice.Threading.AsynchronousHandler<SuperOffice.CRM.Mail.CacheMailQueueProcessor, SuperOffice.CRM.Mail.CacheMailQueueArgument>
@@ -187,42 +179,57 @@ references:
   spec.csharp:
   - uid: SuperOffice.Threading.AsynchronousHandler`2
     name: AsynchronousHandler
+    nameWithType: AsynchronousHandler
+    fullName: SuperOffice.Threading.AsynchronousHandler
     isExternal: true
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Mail.CacheMailQueueProcessor
     name: CacheMailQueueProcessor
+    nameWithType: CacheMailQueueProcessor
+    fullName: SuperOffice.CRM.Mail.CacheMailQueueProcessor
     isExternal: true
-    href: SuperOffice.CRM.Mail.CacheMailQueueProcessor.html
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.CRM.Mail.CacheMailQueueArgument
     name: CacheMailQueueArgument
+    nameWithType: CacheMailQueueArgument
+    fullName: SuperOffice.CRM.Mail.CacheMailQueueArgument
     isExternal: true
-    href: SuperOffice.CRM.Mail.CacheMailQueueArgument.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Threading.AsynchronousHandler`2
     name: AsynchronousHandler
+    nameWithType: AsynchronousHandler
+    fullName: SuperOffice.Threading.AsynchronousHandler
     isExternal: true
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Mail.CacheMailQueueProcessor
     name: CacheMailQueueProcessor
+    nameWithType: CacheMailQueueProcessor
+    fullName: SuperOffice.CRM.Mail.CacheMailQueueProcessor
     isExternal: true
-    href: SuperOffice.CRM.Mail.CacheMailQueueProcessor.html
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.CRM.Mail.CacheMailQueueArgument
     name: CacheMailQueueArgument
+    nameWithType: CacheMailQueueArgument
+    fullName: SuperOffice.CRM.Mail.CacheMailQueueArgument
     isExternal: true
-    href: SuperOffice.CRM.Mail.CacheMailQueueArgument.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.QueuedThreadBase{SuperOffice.CRM.Mail.CacheMailQueueProcessor,SuperOffice.CRM.Mail.CacheMailQueueArgument}
   commentId: T:SuperOffice.Threading.QueuedThreadBase{SuperOffice.CRM.Mail.CacheMailQueueProcessor,SuperOffice.CRM.Mail.CacheMailQueueArgument}
   parent: SuperOffice.Threading
   definition: SuperOffice.Threading.QueuedThreadBase`2
-  href: SuperOffice.CRM.Mail.CacheMailQueueProcessor.html
   name: QueuedThreadBase<CacheMailQueueProcessor, CacheMailQueueArgument>
   nameWithType: QueuedThreadBase<CacheMailQueueProcessor, CacheMailQueueArgument>
   fullName: SuperOffice.Threading.QueuedThreadBase<SuperOffice.CRM.Mail.CacheMailQueueProcessor, SuperOffice.CRM.Mail.CacheMailQueueArgument>
@@ -232,42 +239,57 @@ references:
   spec.csharp:
   - uid: SuperOffice.Threading.QueuedThreadBase`2
     name: QueuedThreadBase
+    nameWithType: QueuedThreadBase
+    fullName: SuperOffice.Threading.QueuedThreadBase
     isExternal: true
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Mail.CacheMailQueueProcessor
     name: CacheMailQueueProcessor
+    nameWithType: CacheMailQueueProcessor
+    fullName: SuperOffice.CRM.Mail.CacheMailQueueProcessor
     isExternal: true
-    href: SuperOffice.CRM.Mail.CacheMailQueueProcessor.html
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.CRM.Mail.CacheMailQueueArgument
     name: CacheMailQueueArgument
+    nameWithType: CacheMailQueueArgument
+    fullName: SuperOffice.CRM.Mail.CacheMailQueueArgument
     isExternal: true
-    href: SuperOffice.CRM.Mail.CacheMailQueueArgument.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Threading.QueuedThreadBase`2
     name: QueuedThreadBase
+    nameWithType: QueuedThreadBase
+    fullName: SuperOffice.Threading.QueuedThreadBase
     isExternal: true
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Mail.CacheMailQueueProcessor
     name: CacheMailQueueProcessor
+    nameWithType: CacheMailQueueProcessor
+    fullName: SuperOffice.CRM.Mail.CacheMailQueueProcessor
     isExternal: true
-    href: SuperOffice.CRM.Mail.CacheMailQueueProcessor.html
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.CRM.Mail.CacheMailQueueArgument
     name: CacheMailQueueArgument
+    nameWithType: CacheMailQueueArgument
+    fullName: SuperOffice.CRM.Mail.CacheMailQueueArgument
     isExternal: true
-    href: SuperOffice.CRM.Mail.CacheMailQueueArgument.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.ThreadStaticQueuedThreadBase{SuperOffice.CRM.Mail.CacheMailQueueProcessor,SuperOffice.CRM.Mail.CacheMailQueueArgument}
   commentId: T:SuperOffice.Threading.ThreadStaticQueuedThreadBase{SuperOffice.CRM.Mail.CacheMailQueueProcessor,SuperOffice.CRM.Mail.CacheMailQueueArgument}
   parent: SuperOffice.Threading
   definition: SuperOffice.Threading.ThreadStaticQueuedThreadBase`2
-  href: SuperOffice.CRM.Mail.CacheMailQueueProcessor.html
   name: ThreadStaticQueuedThreadBase<CacheMailQueueProcessor, CacheMailQueueArgument>
   nameWithType: ThreadStaticQueuedThreadBase<CacheMailQueueProcessor, CacheMailQueueArgument>
   fullName: SuperOffice.Threading.ThreadStaticQueuedThreadBase<SuperOffice.CRM.Mail.CacheMailQueueProcessor, SuperOffice.CRM.Mail.CacheMailQueueArgument>
@@ -277,37 +299,53 @@ references:
   spec.csharp:
   - uid: SuperOffice.Threading.ThreadStaticQueuedThreadBase`2
     name: ThreadStaticQueuedThreadBase
+    nameWithType: ThreadStaticQueuedThreadBase
+    fullName: SuperOffice.Threading.ThreadStaticQueuedThreadBase
     isExternal: true
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Mail.CacheMailQueueProcessor
     name: CacheMailQueueProcessor
+    nameWithType: CacheMailQueueProcessor
+    fullName: SuperOffice.CRM.Mail.CacheMailQueueProcessor
     isExternal: true
-    href: SuperOffice.CRM.Mail.CacheMailQueueProcessor.html
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.CRM.Mail.CacheMailQueueArgument
     name: CacheMailQueueArgument
+    nameWithType: CacheMailQueueArgument
+    fullName: SuperOffice.CRM.Mail.CacheMailQueueArgument
     isExternal: true
-    href: SuperOffice.CRM.Mail.CacheMailQueueArgument.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Threading.ThreadStaticQueuedThreadBase`2
     name: ThreadStaticQueuedThreadBase
+    nameWithType: ThreadStaticQueuedThreadBase
+    fullName: SuperOffice.Threading.ThreadStaticQueuedThreadBase
     isExternal: true
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Mail.CacheMailQueueProcessor
     name: CacheMailQueueProcessor
+    nameWithType: CacheMailQueueProcessor
+    fullName: SuperOffice.CRM.Mail.CacheMailQueueProcessor
     isExternal: true
-    href: SuperOffice.CRM.Mail.CacheMailQueueProcessor.html
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.CRM.Mail.CacheMailQueueArgument
     name: CacheMailQueueArgument
+    nameWithType: CacheMailQueueArgument
+    fullName: SuperOffice.CRM.Mail.CacheMailQueueArgument
     isExternal: true
-    href: SuperOffice.CRM.Mail.CacheMailQueueArgument.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.ThreadStaticQueuedThreadBase{SuperOffice.CRM.Mail.CacheMailQueueProcessor,SuperOffice.CRM.Mail.CacheMailQueueArgument}.WorkInformation
   commentId: P:SuperOffice.Threading.ThreadStaticQueuedThreadBase{SuperOffice.CRM.Mail.CacheMailQueueProcessor,SuperOffice.CRM.Mail.CacheMailQueueArgument}.WorkInformation
   parent: SuperOffice.Threading.ThreadStaticQueuedThreadBase{SuperOffice.CRM.Mail.CacheMailQueueProcessor,SuperOffice.CRM.Mail.CacheMailQueueArgument}
@@ -327,17 +365,29 @@ references:
   nameWithType.vb: QueuedThreadBase(Of CacheMailQueueProcessor, CacheMailQueueArgument).ScheduleNewWork()
   fullName.vb: SuperOffice.Threading.QueuedThreadBase(Of SuperOffice.CRM.Mail.CacheMailQueueProcessor, SuperOffice.CRM.Mail.CacheMailQueueArgument).ScheduleNewWork()
   spec.csharp:
-  - uid: SuperOffice.Threading.QueuedThreadBase{SuperOffice.CRM.Mail.CacheMailQueueProcessor,SuperOffice.CRM.Mail.CacheMailQueueArgument}.ScheduleNewWork
+  - uid: SuperOffice.Threading.QueuedThreadBase`2.ScheduleNewWork
     name: ScheduleNewWork
+    nameWithType: QueuedThreadBase<CacheMailQueueProcessor, CacheMailQueueArgument>.ScheduleNewWork
+    fullName: SuperOffice.Threading.QueuedThreadBase<SuperOffice.CRM.Mail.CacheMailQueueProcessor, SuperOffice.CRM.Mail.CacheMailQueueArgument>.ScheduleNewWork
     isExternal: true
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Threading.QueuedThreadBase{SuperOffice.CRM.Mail.CacheMailQueueProcessor,SuperOffice.CRM.Mail.CacheMailQueueArgument}.ScheduleNewWork
+  - uid: SuperOffice.Threading.QueuedThreadBase`2.ScheduleNewWork
     name: ScheduleNewWork
+    nameWithType: QueuedThreadBase(Of CacheMailQueueProcessor, CacheMailQueueArgument).ScheduleNewWork
+    fullName: SuperOffice.Threading.QueuedThreadBase(Of SuperOffice.CRM.Mail.CacheMailQueueProcessor, SuperOffice.CRM.Mail.CacheMailQueueArgument).ScheduleNewWork
     isExternal: true
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.AsynchronousHandler{SuperOffice.CRM.Mail.CacheMailQueueProcessor,SuperOffice.CRM.Mail.CacheMailQueueArgument}.ToString
   commentId: M:SuperOffice.Threading.AsynchronousHandler{SuperOffice.CRM.Mail.CacheMailQueueProcessor,SuperOffice.CRM.Mail.CacheMailQueueArgument}.ToString
   parent: SuperOffice.Threading.AsynchronousHandler{SuperOffice.CRM.Mail.CacheMailQueueProcessor,SuperOffice.CRM.Mail.CacheMailQueueArgument}
@@ -348,77 +398,115 @@ references:
   nameWithType.vb: AsynchronousHandler(Of CacheMailQueueProcessor, CacheMailQueueArgument).ToString()
   fullName.vb: SuperOffice.Threading.AsynchronousHandler(Of SuperOffice.CRM.Mail.CacheMailQueueProcessor, SuperOffice.CRM.Mail.CacheMailQueueArgument).ToString()
   spec.csharp:
-  - uid: SuperOffice.Threading.AsynchronousHandler{SuperOffice.CRM.Mail.CacheMailQueueProcessor,SuperOffice.CRM.Mail.CacheMailQueueArgument}.ToString
+  - uid: SuperOffice.Threading.AsynchronousHandler`2.ToString
     name: ToString
+    nameWithType: AsynchronousHandler<CacheMailQueueProcessor, CacheMailQueueArgument>.ToString
+    fullName: SuperOffice.Threading.AsynchronousHandler<SuperOffice.CRM.Mail.CacheMailQueueProcessor, SuperOffice.CRM.Mail.CacheMailQueueArgument>.ToString
     isExternal: true
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Threading.AsynchronousHandler{SuperOffice.CRM.Mail.CacheMailQueueProcessor,SuperOffice.CRM.Mail.CacheMailQueueArgument}.ToString
+  - uid: SuperOffice.Threading.AsynchronousHandler`2.ToString
     name: ToString
+    nameWithType: AsynchronousHandler(Of CacheMailQueueProcessor, CacheMailQueueArgument).ToString
+    fullName: SuperOffice.Threading.AsynchronousHandler(Of SuperOffice.CRM.Mail.CacheMailQueueProcessor, SuperOffice.CRM.Mail.CacheMailQueueArgument).ToString
     isExternal: true
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.AsynchronousHandler{SuperOffice.CRM.Mail.CacheMailQueueProcessor,SuperOffice.CRM.Mail.CacheMailQueueArgument}.OnSetup(SuperOffice.CRM.Mail.CacheMailQueueArgument)
   commentId: M:SuperOffice.Threading.AsynchronousHandler{SuperOffice.CRM.Mail.CacheMailQueueProcessor,SuperOffice.CRM.Mail.CacheMailQueueArgument}.OnSetup(SuperOffice.CRM.Mail.CacheMailQueueArgument)
   parent: SuperOffice.Threading.AsynchronousHandler{SuperOffice.CRM.Mail.CacheMailQueueProcessor,SuperOffice.CRM.Mail.CacheMailQueueArgument}
   definition: SuperOffice.Threading.AsynchronousHandler`2.OnSetup(`1)
-  href: SuperOffice.CRM.Mail.CacheMailQueueArgument.html
   name: OnSetup(CacheMailQueueArgument)
   nameWithType: AsynchronousHandler<CacheMailQueueProcessor, CacheMailQueueArgument>.OnSetup(CacheMailQueueArgument)
   fullName: SuperOffice.Threading.AsynchronousHandler<SuperOffice.CRM.Mail.CacheMailQueueProcessor, SuperOffice.CRM.Mail.CacheMailQueueArgument>.OnSetup(SuperOffice.CRM.Mail.CacheMailQueueArgument)
   nameWithType.vb: AsynchronousHandler(Of CacheMailQueueProcessor, CacheMailQueueArgument).OnSetup(CacheMailQueueArgument)
   fullName.vb: SuperOffice.Threading.AsynchronousHandler(Of SuperOffice.CRM.Mail.CacheMailQueueProcessor, SuperOffice.CRM.Mail.CacheMailQueueArgument).OnSetup(SuperOffice.CRM.Mail.CacheMailQueueArgument)
   spec.csharp:
-  - uid: SuperOffice.Threading.AsynchronousHandler{SuperOffice.CRM.Mail.CacheMailQueueProcessor,SuperOffice.CRM.Mail.CacheMailQueueArgument}.OnSetup(SuperOffice.CRM.Mail.CacheMailQueueArgument)
+  - uid: SuperOffice.Threading.AsynchronousHandler`2.OnSetup(`1)
     name: OnSetup
+    nameWithType: AsynchronousHandler<CacheMailQueueProcessor, CacheMailQueueArgument>.OnSetup
+    fullName: SuperOffice.Threading.AsynchronousHandler<SuperOffice.CRM.Mail.CacheMailQueueProcessor, SuperOffice.CRM.Mail.CacheMailQueueArgument>.OnSetup
     isExternal: true
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Mail.CacheMailQueueArgument
     name: CacheMailQueueArgument
+    nameWithType: CacheMailQueueArgument
+    fullName: SuperOffice.CRM.Mail.CacheMailQueueArgument
     isExternal: true
-    href: SuperOffice.CRM.Mail.CacheMailQueueArgument.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Threading.AsynchronousHandler{SuperOffice.CRM.Mail.CacheMailQueueProcessor,SuperOffice.CRM.Mail.CacheMailQueueArgument}.OnSetup(SuperOffice.CRM.Mail.CacheMailQueueArgument)
+  - uid: SuperOffice.Threading.AsynchronousHandler`2.OnSetup(`1)
     name: OnSetup
+    nameWithType: AsynchronousHandler(Of CacheMailQueueProcessor, CacheMailQueueArgument).OnSetup
+    fullName: SuperOffice.Threading.AsynchronousHandler(Of SuperOffice.CRM.Mail.CacheMailQueueProcessor, SuperOffice.CRM.Mail.CacheMailQueueArgument).OnSetup
     isExternal: true
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Mail.CacheMailQueueArgument
     name: CacheMailQueueArgument
+    nameWithType: CacheMailQueueArgument
+    fullName: SuperOffice.CRM.Mail.CacheMailQueueArgument
     isExternal: true
-    href: SuperOffice.CRM.Mail.CacheMailQueueArgument.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.AsynchronousHandler{SuperOffice.CRM.Mail.CacheMailQueueProcessor,SuperOffice.CRM.Mail.CacheMailQueueArgument}.SynchronousSetup(SuperOffice.CRM.Mail.CacheMailQueueArgument)
   commentId: M:SuperOffice.Threading.AsynchronousHandler{SuperOffice.CRM.Mail.CacheMailQueueProcessor,SuperOffice.CRM.Mail.CacheMailQueueArgument}.SynchronousSetup(SuperOffice.CRM.Mail.CacheMailQueueArgument)
   parent: SuperOffice.Threading.AsynchronousHandler{SuperOffice.CRM.Mail.CacheMailQueueProcessor,SuperOffice.CRM.Mail.CacheMailQueueArgument}
   definition: SuperOffice.Threading.AsynchronousHandler`2.SynchronousSetup(`1)
-  href: SuperOffice.CRM.Mail.CacheMailQueueArgument.html
   name: SynchronousSetup(CacheMailQueueArgument)
   nameWithType: AsynchronousHandler<CacheMailQueueProcessor, CacheMailQueueArgument>.SynchronousSetup(CacheMailQueueArgument)
   fullName: SuperOffice.Threading.AsynchronousHandler<SuperOffice.CRM.Mail.CacheMailQueueProcessor, SuperOffice.CRM.Mail.CacheMailQueueArgument>.SynchronousSetup(SuperOffice.CRM.Mail.CacheMailQueueArgument)
   nameWithType.vb: AsynchronousHandler(Of CacheMailQueueProcessor, CacheMailQueueArgument).SynchronousSetup(CacheMailQueueArgument)
   fullName.vb: SuperOffice.Threading.AsynchronousHandler(Of SuperOffice.CRM.Mail.CacheMailQueueProcessor, SuperOffice.CRM.Mail.CacheMailQueueArgument).SynchronousSetup(SuperOffice.CRM.Mail.CacheMailQueueArgument)
   spec.csharp:
-  - uid: SuperOffice.Threading.AsynchronousHandler{SuperOffice.CRM.Mail.CacheMailQueueProcessor,SuperOffice.CRM.Mail.CacheMailQueueArgument}.SynchronousSetup(SuperOffice.CRM.Mail.CacheMailQueueArgument)
+  - uid: SuperOffice.Threading.AsynchronousHandler`2.SynchronousSetup(`1)
     name: SynchronousSetup
+    nameWithType: AsynchronousHandler<CacheMailQueueProcessor, CacheMailQueueArgument>.SynchronousSetup
+    fullName: SuperOffice.Threading.AsynchronousHandler<SuperOffice.CRM.Mail.CacheMailQueueProcessor, SuperOffice.CRM.Mail.CacheMailQueueArgument>.SynchronousSetup
     isExternal: true
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Mail.CacheMailQueueArgument
     name: CacheMailQueueArgument
+    nameWithType: CacheMailQueueArgument
+    fullName: SuperOffice.CRM.Mail.CacheMailQueueArgument
     isExternal: true
-    href: SuperOffice.CRM.Mail.CacheMailQueueArgument.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Threading.AsynchronousHandler{SuperOffice.CRM.Mail.CacheMailQueueProcessor,SuperOffice.CRM.Mail.CacheMailQueueArgument}.SynchronousSetup(SuperOffice.CRM.Mail.CacheMailQueueArgument)
+  - uid: SuperOffice.Threading.AsynchronousHandler`2.SynchronousSetup(`1)
     name: SynchronousSetup
+    nameWithType: AsynchronousHandler(Of CacheMailQueueProcessor, CacheMailQueueArgument).SynchronousSetup
+    fullName: SuperOffice.Threading.AsynchronousHandler(Of SuperOffice.CRM.Mail.CacheMailQueueProcessor, SuperOffice.CRM.Mail.CacheMailQueueArgument).SynchronousSetup
     isExternal: true
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Mail.CacheMailQueueArgument
     name: CacheMailQueueArgument
+    nameWithType: CacheMailQueueArgument
+    fullName: SuperOffice.CRM.Mail.CacheMailQueueArgument
     isExternal: true
-    href: SuperOffice.CRM.Mail.CacheMailQueueArgument.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.AsynchronousHandler{SuperOffice.CRM.Mail.CacheMailQueueProcessor,SuperOffice.CRM.Mail.CacheMailQueueArgument}.AsynchronousOperation
   commentId: M:SuperOffice.Threading.AsynchronousHandler{SuperOffice.CRM.Mail.CacheMailQueueProcessor,SuperOffice.CRM.Mail.CacheMailQueueArgument}.AsynchronousOperation
   parent: SuperOffice.Threading.AsynchronousHandler{SuperOffice.CRM.Mail.CacheMailQueueProcessor,SuperOffice.CRM.Mail.CacheMailQueueArgument}
@@ -429,17 +517,29 @@ references:
   nameWithType.vb: AsynchronousHandler(Of CacheMailQueueProcessor, CacheMailQueueArgument).AsynchronousOperation()
   fullName.vb: SuperOffice.Threading.AsynchronousHandler(Of SuperOffice.CRM.Mail.CacheMailQueueProcessor, SuperOffice.CRM.Mail.CacheMailQueueArgument).AsynchronousOperation()
   spec.csharp:
-  - uid: SuperOffice.Threading.AsynchronousHandler{SuperOffice.CRM.Mail.CacheMailQueueProcessor,SuperOffice.CRM.Mail.CacheMailQueueArgument}.AsynchronousOperation
+  - uid: SuperOffice.Threading.AsynchronousHandler`2.AsynchronousOperation
     name: AsynchronousOperation
+    nameWithType: AsynchronousHandler<CacheMailQueueProcessor, CacheMailQueueArgument>.AsynchronousOperation
+    fullName: SuperOffice.Threading.AsynchronousHandler<SuperOffice.CRM.Mail.CacheMailQueueProcessor, SuperOffice.CRM.Mail.CacheMailQueueArgument>.AsynchronousOperation
     isExternal: true
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Threading.AsynchronousHandler{SuperOffice.CRM.Mail.CacheMailQueueProcessor,SuperOffice.CRM.Mail.CacheMailQueueArgument}.AsynchronousOperation
+  - uid: SuperOffice.Threading.AsynchronousHandler`2.AsynchronousOperation
     name: AsynchronousOperation
+    nameWithType: AsynchronousHandler(Of CacheMailQueueProcessor, CacheMailQueueArgument).AsynchronousOperation
+    fullName: SuperOffice.Threading.AsynchronousHandler(Of SuperOffice.CRM.Mail.CacheMailQueueProcessor, SuperOffice.CRM.Mail.CacheMailQueueArgument).AsynchronousOperation
     isExternal: true
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.AsynchronousHandler{SuperOffice.CRM.Mail.CacheMailQueueProcessor,SuperOffice.CRM.Mail.CacheMailQueueArgument}.ExecuteWork
   commentId: M:SuperOffice.Threading.AsynchronousHandler{SuperOffice.CRM.Mail.CacheMailQueueProcessor,SuperOffice.CRM.Mail.CacheMailQueueArgument}.ExecuteWork
   parent: SuperOffice.Threading.AsynchronousHandler{SuperOffice.CRM.Mail.CacheMailQueueProcessor,SuperOffice.CRM.Mail.CacheMailQueueArgument}
@@ -450,17 +550,29 @@ references:
   nameWithType.vb: AsynchronousHandler(Of CacheMailQueueProcessor, CacheMailQueueArgument).ExecuteWork()
   fullName.vb: SuperOffice.Threading.AsynchronousHandler(Of SuperOffice.CRM.Mail.CacheMailQueueProcessor, SuperOffice.CRM.Mail.CacheMailQueueArgument).ExecuteWork()
   spec.csharp:
-  - uid: SuperOffice.Threading.AsynchronousHandler{SuperOffice.CRM.Mail.CacheMailQueueProcessor,SuperOffice.CRM.Mail.CacheMailQueueArgument}.ExecuteWork
+  - uid: SuperOffice.Threading.AsynchronousHandler`2.ExecuteWork
     name: ExecuteWork
+    nameWithType: AsynchronousHandler<CacheMailQueueProcessor, CacheMailQueueArgument>.ExecuteWork
+    fullName: SuperOffice.Threading.AsynchronousHandler<SuperOffice.CRM.Mail.CacheMailQueueProcessor, SuperOffice.CRM.Mail.CacheMailQueueArgument>.ExecuteWork
     isExternal: true
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Threading.AsynchronousHandler{SuperOffice.CRM.Mail.CacheMailQueueProcessor,SuperOffice.CRM.Mail.CacheMailQueueArgument}.ExecuteWork
+  - uid: SuperOffice.Threading.AsynchronousHandler`2.ExecuteWork
     name: ExecuteWork
+    nameWithType: AsynchronousHandler(Of CacheMailQueueProcessor, CacheMailQueueArgument).ExecuteWork
+    fullName: SuperOffice.Threading.AsynchronousHandler(Of SuperOffice.CRM.Mail.CacheMailQueueProcessor, SuperOffice.CRM.Mail.CacheMailQueueArgument).ExecuteWork
     isExternal: true
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.AsynchronousHandler{SuperOffice.CRM.Mail.CacheMailQueueProcessor,SuperOffice.CRM.Mail.CacheMailQueueArgument}.Processor
   commentId: P:SuperOffice.Threading.AsynchronousHandler{SuperOffice.CRM.Mail.CacheMailQueueProcessor,SuperOffice.CRM.Mail.CacheMailQueueArgument}.Processor
   parent: SuperOffice.Threading.AsynchronousHandler{SuperOffice.CRM.Mail.CacheMailQueueProcessor,SuperOffice.CRM.Mail.CacheMailQueueArgument}
@@ -497,342 +609,83 @@ references:
   fullName: SuperOffice.Threading.AsynchronousHandler<SuperOffice.CRM.Mail.CacheMailQueueProcessor, SuperOffice.CRM.Mail.CacheMailQueueArgument>.ThreadName
   nameWithType.vb: AsynchronousHandler(Of CacheMailQueueProcessor, CacheMailQueueArgument).ThreadName
   fullName.vb: SuperOffice.Threading.AsynchronousHandler(Of SuperOffice.CRM.Mail.CacheMailQueueProcessor, SuperOffice.CRM.Mail.CacheMailQueueArgument).ThreadName
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
 - uid: SuperOffice.CRM.Mail.CacheMailQueue.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<CacheMailQueue, To>(CacheMailQueue)
-  nameWithType: EnumUtil.MapEnums<CacheMailQueue, To>(CacheMailQueue)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Mail.CacheMailQueue, To>(SuperOffice.CRM.Mail.CacheMailQueue)
-  nameWithType.vb: EnumUtil.MapEnums(Of CacheMailQueue, To)(CacheMailQueue)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Mail.CacheMailQueue, To)(SuperOffice.CRM.Mail.CacheMailQueue)
-  name.vb: MapEnums(Of CacheMailQueue, To)(CacheMailQueue)
+  name: MapEnums<CacheMailQueue, To>()
+  nameWithType: EnumUtil.MapEnums<CacheMailQueue, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Mail.CacheMailQueue, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of CacheMailQueue, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Mail.CacheMailQueue, To)()
+  name.vb: MapEnums(Of CacheMailQueue, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Mail.CacheMailQueue)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<CacheMailQueue, To>
+    nameWithType: EnumUtil.MapEnums<CacheMailQueue, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Mail.CacheMailQueue, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Mail.CacheMailQueue
-    name: CacheMailQueue
-    isExternal: true
-    href: SuperOffice.CRM.Mail.CacheMailQueue.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Mail.CacheMailQueue
-    name: CacheMailQueue
-    isExternal: true
-    href: SuperOffice.CRM.Mail.CacheMailQueue.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Mail.CacheMailQueue)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of CacheMailQueue, To)
+    nameWithType: EnumUtil.MapEnums(Of CacheMailQueue, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Mail.CacheMailQueue, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Mail.CacheMailQueue
-    name: CacheMailQueue
-    isExternal: true
-    href: SuperOffice.CRM.Mail.CacheMailQueue.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Mail.CacheMailQueue
-    name: CacheMailQueue
-    isExternal: true
-    href: SuperOffice.CRM.Mail.CacheMailQueue.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Mail.CacheMailQueue.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<CacheMailQueue, To>(CacheMailQueue)
-  nameWithType: Converters.MapEnums<CacheMailQueue, To>(CacheMailQueue)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Mail.CacheMailQueue, To>(SuperOffice.CRM.Mail.CacheMailQueue)
-  nameWithType.vb: Converters.MapEnums(Of CacheMailQueue, To)(CacheMailQueue)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Mail.CacheMailQueue, To)(SuperOffice.CRM.Mail.CacheMailQueue)
-  name.vb: MapEnums(Of CacheMailQueue, To)(CacheMailQueue)
+  name: MapEnums<CacheMailQueue, To>()
+  nameWithType: Converters.MapEnums<CacheMailQueue, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Mail.CacheMailQueue, To>()
+  nameWithType.vb: Converters.MapEnums(Of CacheMailQueue, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Mail.CacheMailQueue, To)()
+  name.vb: MapEnums(Of CacheMailQueue, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Mail.CacheMailQueue)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<CacheMailQueue, To>
+    nameWithType: Converters.MapEnums<CacheMailQueue, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Mail.CacheMailQueue, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Mail.CacheMailQueue
-    name: CacheMailQueue
-    isExternal: true
-    href: SuperOffice.CRM.Mail.CacheMailQueue.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Mail.CacheMailQueue
-    name: CacheMailQueue
-    isExternal: true
-    href: SuperOffice.CRM.Mail.CacheMailQueue.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Mail.CacheMailQueue)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of CacheMailQueue, To)
+    nameWithType: Converters.MapEnums(Of CacheMailQueue, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Mail.CacheMailQueue, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Mail.CacheMailQueue
-    name: CacheMailQueue
-    isExternal: true
-    href: SuperOffice.CRM.Mail.CacheMailQueue.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Mail.CacheMailQueue
-    name: CacheMailQueue
-    isExternal: true
-    href: SuperOffice.CRM.Mail.CacheMailQueue.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.Threading.AsynchronousHandler`2
   commentId: T:SuperOffice.Threading.AsynchronousHandler`2
   isExternal: true
-  href: SuperOffice.Threading.AsynchronousHandler-2.html
   name: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>
   nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>
   fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>
@@ -842,58 +695,54 @@ references:
   spec.csharp:
   - uid: SuperOffice.Threading.AsynchronousHandler`2
     name: AsynchronousHandler
+    nameWithType: AsynchronousHandler
+    fullName: SuperOffice.Threading.AsynchronousHandler
     isExternal: true
-    href: SuperOffice.Threading.AsynchronousHandler-2.html
   - name: <
+    nameWithType: <
+    fullName: <
   - name: TAsynchronousHandlerProcessor
-  - name: ','
-  - name: " "
+    nameWithType: TAsynchronousHandlerProcessor
+    fullName: TAsynchronousHandlerProcessor
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: TAsynchronousArgument
+    nameWithType: TAsynchronousArgument
+    fullName: TAsynchronousArgument
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Threading.AsynchronousHandler`2
     name: AsynchronousHandler
+    nameWithType: AsynchronousHandler
+    fullName: SuperOffice.Threading.AsynchronousHandler
     isExternal: true
-    href: SuperOffice.Threading.AsynchronousHandler-2.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: TAsynchronousHandlerProcessor
-  - name: ','
-  - name: " "
+    nameWithType: TAsynchronousHandlerProcessor
+    fullName: TAsynchronousHandlerProcessor
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: TAsynchronousArgument
+    nameWithType: TAsynchronousArgument
+    fullName: TAsynchronousArgument
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading
   commentId: N:SuperOffice.Threading
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Threading
   nameWithType: SuperOffice.Threading
   fullName: SuperOffice.Threading
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Threading
-    name: Threading
-    isExternal: true
-    href: SuperOffice.Threading.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Threading
-    name: Threading
-    isExternal: true
-    href: SuperOffice.Threading.html
 - uid: SuperOffice.Threading.QueuedThreadBase`2
   commentId: T:SuperOffice.Threading.QueuedThreadBase`2
   isExternal: true
-  href: SuperOffice.Threading.QueuedThreadBase-2.html
   name: QueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>
   nameWithType: QueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>
   fullName: SuperOffice.Threading.QueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>
@@ -903,31 +752,48 @@ references:
   spec.csharp:
   - uid: SuperOffice.Threading.QueuedThreadBase`2
     name: QueuedThreadBase
+    nameWithType: QueuedThreadBase
+    fullName: SuperOffice.Threading.QueuedThreadBase
     isExternal: true
-    href: SuperOffice.Threading.QueuedThreadBase-2.html
   - name: <
+    nameWithType: <
+    fullName: <
   - name: TAsynchronousHandlerProcessor
-  - name: ','
-  - name: " "
+    nameWithType: TAsynchronousHandlerProcessor
+    fullName: TAsynchronousHandlerProcessor
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: TAsynchronousArgument
+    nameWithType: TAsynchronousArgument
+    fullName: TAsynchronousArgument
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Threading.QueuedThreadBase`2
     name: QueuedThreadBase
+    nameWithType: QueuedThreadBase
+    fullName: SuperOffice.Threading.QueuedThreadBase
     isExternal: true
-    href: SuperOffice.Threading.QueuedThreadBase-2.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: TAsynchronousHandlerProcessor
-  - name: ','
-  - name: " "
+    nameWithType: TAsynchronousHandlerProcessor
+    fullName: TAsynchronousHandlerProcessor
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: TAsynchronousArgument
+    nameWithType: TAsynchronousArgument
+    fullName: TAsynchronousArgument
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.ThreadStaticQueuedThreadBase`2
   commentId: T:SuperOffice.Threading.ThreadStaticQueuedThreadBase`2
   isExternal: true
-  href: SuperOffice.Threading.ThreadStaticQueuedThreadBase-2.html
   name: ThreadStaticQueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>
   nameWithType: ThreadStaticQueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>
   fullName: SuperOffice.Threading.ThreadStaticQueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>
@@ -937,27 +803,45 @@ references:
   spec.csharp:
   - uid: SuperOffice.Threading.ThreadStaticQueuedThreadBase`2
     name: ThreadStaticQueuedThreadBase
+    nameWithType: ThreadStaticQueuedThreadBase
+    fullName: SuperOffice.Threading.ThreadStaticQueuedThreadBase
     isExternal: true
-    href: SuperOffice.Threading.ThreadStaticQueuedThreadBase-2.html
   - name: <
+    nameWithType: <
+    fullName: <
   - name: TAsynchronousHandlerProcessor
-  - name: ','
-  - name: " "
+    nameWithType: TAsynchronousHandlerProcessor
+    fullName: TAsynchronousHandlerProcessor
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: TAsynchronousArgument
+    nameWithType: TAsynchronousArgument
+    fullName: TAsynchronousArgument
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Threading.ThreadStaticQueuedThreadBase`2
     name: ThreadStaticQueuedThreadBase
+    nameWithType: ThreadStaticQueuedThreadBase
+    fullName: SuperOffice.Threading.ThreadStaticQueuedThreadBase
     isExternal: true
-    href: SuperOffice.Threading.ThreadStaticQueuedThreadBase-2.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: TAsynchronousHandlerProcessor
-  - name: ','
-  - name: " "
+    nameWithType: TAsynchronousHandlerProcessor
+    fullName: TAsynchronousHandlerProcessor
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: TAsynchronousArgument
+    nameWithType: TAsynchronousArgument
+    fullName: TAsynchronousArgument
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.ThreadStaticQueuedThreadBase`2.WorkInformation
   commentId: P:SuperOffice.Threading.ThreadStaticQueuedThreadBase`2.WorkInformation
   isExternal: true
@@ -969,7 +853,6 @@ references:
 - uid: SuperOffice.Threading.QueuedThreadBase`2.ScheduleNewWork
   commentId: M:SuperOffice.Threading.QueuedThreadBase`2.ScheduleNewWork
   isExternal: true
-  href: SuperOffice.Threading.QueuedThreadBase-2.html#SuperOffice_Threading_QueuedThreadBase_2_ScheduleNewWork
   name: ScheduleNewWork()
   nameWithType: QueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ScheduleNewWork()
   fullName: SuperOffice.Threading.QueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ScheduleNewWork()
@@ -978,21 +861,30 @@ references:
   spec.csharp:
   - uid: SuperOffice.Threading.QueuedThreadBase`2.ScheduleNewWork
     name: ScheduleNewWork
+    nameWithType: QueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ScheduleNewWork
+    fullName: SuperOffice.Threading.QueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ScheduleNewWork
     isExternal: true
-    href: SuperOffice.Threading.QueuedThreadBase-2.html#SuperOffice_Threading_QueuedThreadBase_2_ScheduleNewWork
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Threading.QueuedThreadBase`2.ScheduleNewWork
     name: ScheduleNewWork
+    nameWithType: QueuedThreadBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).ScheduleNewWork
+    fullName: SuperOffice.Threading.QueuedThreadBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).ScheduleNewWork
     isExternal: true
-    href: SuperOffice.Threading.QueuedThreadBase-2.html#SuperOffice_Threading_QueuedThreadBase_2_ScheduleNewWork
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.AsynchronousHandler`2.ToString
   commentId: M:SuperOffice.Threading.AsynchronousHandler`2.ToString
   isExternal: true
-  href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_ToString
   name: ToString()
   nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ToString()
   fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ToString()
@@ -1001,21 +893,30 @@ references:
   spec.csharp:
   - uid: SuperOffice.Threading.AsynchronousHandler`2.ToString
     name: ToString
+    nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ToString
+    fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ToString
     isExternal: true
-    href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_ToString
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Threading.AsynchronousHandler`2.ToString
     name: ToString
+    nameWithType: AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).ToString
+    fullName: SuperOffice.Threading.AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).ToString
     isExternal: true
-    href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_ToString
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.AsynchronousHandler`2.OnSetup(`1)
   commentId: M:SuperOffice.Threading.AsynchronousHandler`2.OnSetup(`1)
   isExternal: true
-  href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_OnSetup__1_
   name: OnSetup(TAsynchronousArgument)
   nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.OnSetup(TAsynchronousArgument)
   fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.OnSetup(TAsynchronousArgument)
@@ -1024,23 +925,36 @@ references:
   spec.csharp:
   - uid: SuperOffice.Threading.AsynchronousHandler`2.OnSetup(`1)
     name: OnSetup
+    nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.OnSetup
+    fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.OnSetup
     isExternal: true
-    href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_OnSetup__1_
   - name: (
+    nameWithType: (
+    fullName: (
   - name: TAsynchronousArgument
+    nameWithType: TAsynchronousArgument
+    fullName: TAsynchronousArgument
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Threading.AsynchronousHandler`2.OnSetup(`1)
     name: OnSetup
+    nameWithType: AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).OnSetup
+    fullName: SuperOffice.Threading.AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).OnSetup
     isExternal: true
-    href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_OnSetup__1_
   - name: (
+    nameWithType: (
+    fullName: (
   - name: TAsynchronousArgument
+    nameWithType: TAsynchronousArgument
+    fullName: TAsynchronousArgument
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.AsynchronousHandler`2.SynchronousSetup(`1)
   commentId: M:SuperOffice.Threading.AsynchronousHandler`2.SynchronousSetup(`1)
   isExternal: true
-  href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_SynchronousSetup__1_
   name: SynchronousSetup(TAsynchronousArgument)
   nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.SynchronousSetup(TAsynchronousArgument)
   fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.SynchronousSetup(TAsynchronousArgument)
@@ -1049,23 +963,36 @@ references:
   spec.csharp:
   - uid: SuperOffice.Threading.AsynchronousHandler`2.SynchronousSetup(`1)
     name: SynchronousSetup
+    nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.SynchronousSetup
+    fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.SynchronousSetup
     isExternal: true
-    href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_SynchronousSetup__1_
   - name: (
+    nameWithType: (
+    fullName: (
   - name: TAsynchronousArgument
+    nameWithType: TAsynchronousArgument
+    fullName: TAsynchronousArgument
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Threading.AsynchronousHandler`2.SynchronousSetup(`1)
     name: SynchronousSetup
+    nameWithType: AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).SynchronousSetup
+    fullName: SuperOffice.Threading.AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).SynchronousSetup
     isExternal: true
-    href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_SynchronousSetup__1_
   - name: (
+    nameWithType: (
+    fullName: (
   - name: TAsynchronousArgument
+    nameWithType: TAsynchronousArgument
+    fullName: TAsynchronousArgument
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.AsynchronousHandler`2.AsynchronousOperation
   commentId: M:SuperOffice.Threading.AsynchronousHandler`2.AsynchronousOperation
   isExternal: true
-  href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_AsynchronousOperation
   name: AsynchronousOperation()
   nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.AsynchronousOperation()
   fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.AsynchronousOperation()
@@ -1074,21 +1001,30 @@ references:
   spec.csharp:
   - uid: SuperOffice.Threading.AsynchronousHandler`2.AsynchronousOperation
     name: AsynchronousOperation
+    nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.AsynchronousOperation
+    fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.AsynchronousOperation
     isExternal: true
-    href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_AsynchronousOperation
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Threading.AsynchronousHandler`2.AsynchronousOperation
     name: AsynchronousOperation
+    nameWithType: AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).AsynchronousOperation
+    fullName: SuperOffice.Threading.AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).AsynchronousOperation
     isExternal: true
-    href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_AsynchronousOperation
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.AsynchronousHandler`2.ExecuteWork
   commentId: M:SuperOffice.Threading.AsynchronousHandler`2.ExecuteWork
   isExternal: true
-  href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_ExecuteWork
   name: ExecuteWork()
   nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ExecuteWork()
   fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ExecuteWork()
@@ -1097,21 +1033,30 @@ references:
   spec.csharp:
   - uid: SuperOffice.Threading.AsynchronousHandler`2.ExecuteWork
     name: ExecuteWork
+    nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ExecuteWork
+    fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ExecuteWork
     isExternal: true
-    href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_ExecuteWork
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Threading.AsynchronousHandler`2.ExecuteWork
     name: ExecuteWork
+    nameWithType: AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).ExecuteWork
+    fullName: SuperOffice.Threading.AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).ExecuteWork
     isExternal: true
-    href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_ExecuteWork
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.AsynchronousHandler`2.Processor
   commentId: P:SuperOffice.Threading.AsynchronousHandler`2.Processor
   isExternal: true
-  href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_Processor
   name: Processor
   nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.Processor
   fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.Processor
@@ -1120,7 +1065,6 @@ references:
 - uid: SuperOffice.Threading.AsynchronousHandler`2.WasSetupCalled
   commentId: P:SuperOffice.Threading.AsynchronousHandler`2.WasSetupCalled
   isExternal: true
-  href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_WasSetupCalled
   name: WasSetupCalled
   nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.WasSetupCalled
   fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.WasSetupCalled
@@ -1129,7 +1073,6 @@ references:
 - uid: SuperOffice.Threading.AsynchronousHandler`2.HasWorkToDo
   commentId: P:SuperOffice.Threading.AsynchronousHandler`2.HasWorkToDo
   isExternal: true
-  href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_HasWorkToDo
   name: HasWorkToDo
   nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.HasWorkToDo
   fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.HasWorkToDo
@@ -1138,7 +1081,6 @@ references:
 - uid: SuperOffice.Threading.AsynchronousHandler`2.ThreadName
   commentId: P:SuperOffice.Threading.AsynchronousHandler`2.ThreadName
   isExternal: true
-  href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_ThreadName
   name: ThreadName
   nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ThreadName
   fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ThreadName
@@ -1147,7 +1089,6 @@ references:
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -1156,45 +1097,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -1203,90 +1142,56 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.CRM.Mail.CacheMailQueue.CacheMailForAllAssociates*
   commentId: Overload:SuperOffice.CRM.Mail.CacheMailQueue.CacheMailForAllAssociates
   isExternal: true
-  href: SuperOffice.CRM.Mail.CacheMailQueue.html#SuperOffice_CRM_Mail_CacheMailQueue_CacheMailForAllAssociates
   name: CacheMailForAllAssociates
   nameWithType: CacheMailQueue.CacheMailForAllAssociates
   fullName: SuperOffice.CRM.Mail.CacheMailQueue.CacheMailForAllAssociates
 - uid: SuperOffice.CRM.Mail.CacheMailQueue.CacheMailForSingleAssociate*
   commentId: Overload:SuperOffice.CRM.Mail.CacheMailQueue.CacheMailForSingleAssociate
   isExternal: true
-  href: SuperOffice.CRM.Mail.CacheMailQueue.html#SuperOffice_CRM_Mail_CacheMailQueue_CacheMailForSingleAssociate_System_Int32_SuperOffice_CRM_Mail_SoMailCredentials_System_String_
   name: CacheMailForSingleAssociate
   nameWithType: CacheMailQueue.CacheMailForSingleAssociate
   fullName: SuperOffice.CRM.Mail.CacheMailQueue.CacheMailForSingleAssociate
@@ -1294,18 +1199,13 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Mail.SoMailCredentials
   commentId: T:SuperOffice.CRM.Mail.SoMailCredentials
   parent: SuperOffice.CRM.Mail
   isExternal: true
-  href: SuperOffice.CRM.Mail.SoMailCredentials.html
   name: SoMailCredentials
   nameWithType: SoMailCredentials
   fullName: SuperOffice.CRM.Mail.SoMailCredentials
@@ -1313,17 +1213,12 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.CRM.Mail.CacheMailQueue.UpdateMailCacheForSingleAssociate*
   commentId: Overload:SuperOffice.CRM.Mail.CacheMailQueue.UpdateMailCacheForSingleAssociate
   isExternal: true
-  href: SuperOffice.CRM.Mail.CacheMailQueue.html#SuperOffice_CRM_Mail_CacheMailQueue_UpdateMailCacheForSingleAssociate_System_Int32_SuperOffice_CRM_Mail_SoMailCredentials_System_String_SuperOffice_CRM_Mail_MailEnvelope___
   name: UpdateMailCacheForSingleAssociate
   nameWithType: CacheMailQueue.UpdateMailCacheForSingleAssociate
   fullName: SuperOffice.CRM.Mail.CacheMailQueue.UpdateMailCacheForSingleAssociate
@@ -1338,12 +1233,18 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Mail.MailEnvelope
     name: MailEnvelope
+    nameWithType: MailEnvelope
+    fullName: SuperOffice.CRM.Mail.MailEnvelope
     isExternal: true
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.Mail.MailEnvelope
     name: MailEnvelope
+    nameWithType: MailEnvelope
+    fullName: SuperOffice.CRM.Mail.MailEnvelope
     isExternal: true
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()

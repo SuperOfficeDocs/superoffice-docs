@@ -15,21 +15,64 @@ items:
   - SuperOffice.WebApi.Data.ReportCategory.Project
   - SuperOffice.WebApi.Data.ReportCategory.Sale
   - SuperOffice.WebApi.Data.ReportCategory.Selection
+  - SuperOffice.WebApi.Data.ReportCategory.value__
   langs:
   - csharp
   - vb
   name: ReportCategory
   nameWithType: ReportCategory
   fullName: SuperOffice.WebApi.Data.ReportCategory
-  type: Enum
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The avaliable category
-  example: []
+  summary: "\nThe avaliable category\n"
   syntax:
-    content: public enum ReportCategory
-    content.vb: Public Enum ReportCategory
+    content: 'public sealed class ReportCategory : Enum'
+    content.vb: >-
+      Public NotInheritable Class ReportCategory
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.ReportCategory.value__
+  commentId: F:SuperOffice.WebApi.Data.ReportCategory.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.ReportCategory
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: ReportCategory.value__
+  fullName: SuperOffice.WebApi.Data.ReportCategory.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.ReportCategory.None
   commentId: F:SuperOffice.WebApi.Data.ReportCategory.None
   id: None
@@ -41,26 +84,24 @@ items:
   nameWithType: ReportCategory.None
   fullName: SuperOffice.WebApi.Data.ReportCategory.None
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '0: New/empty report'
-  example: []
+  summary: "\n0: New/empty report\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      None = 0
+    content: public const ReportCategory None
     return:
       type: SuperOffice.WebApi.Data.ReportCategory
-    content.vb: >-
-      <EnumMember>
-
-      None = 0
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const None As ReportCategory
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ReportCategory.All
   commentId: F:SuperOffice.WebApi.Data.ReportCategory.All
   id: All
@@ -72,26 +113,24 @@ items:
   nameWithType: ReportCategory.All
   fullName: SuperOffice.WebApi.Data.ReportCategory.All
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '1: All reports'
-  example: []
+  summary: "\n1: All reports\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      All = 1
+    content: public const ReportCategory All
     return:
       type: SuperOffice.WebApi.Data.ReportCategory
-    content.vb: >-
-      <EnumMember>
-
-      All = 1
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const All As ReportCategory
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ReportCategory.Contact
   commentId: F:SuperOffice.WebApi.Data.ReportCategory.Contact
   id: Contact
@@ -103,26 +142,24 @@ items:
   nameWithType: ReportCategory.Contact
   fullName: SuperOffice.WebApi.Data.ReportCategory.Contact
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '2: 2: Company reports'
-  example: []
+  summary: "\n2: 2: Company reports\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Contact = 2
+    content: public const ReportCategory Contact
     return:
       type: SuperOffice.WebApi.Data.ReportCategory
-    content.vb: >-
-      <EnumMember>
-
-      Contact = 2
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Contact As ReportCategory
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ReportCategory.Project
   commentId: F:SuperOffice.WebApi.Data.ReportCategory.Project
   id: Project
@@ -134,26 +171,24 @@ items:
   nameWithType: ReportCategory.Project
   fullName: SuperOffice.WebApi.Data.ReportCategory.Project
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '3: 3: Project reports'
-  example: []
+  summary: "\n3: 3: Project reports\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Project = 3
+    content: public const ReportCategory Project
     return:
       type: SuperOffice.WebApi.Data.ReportCategory
-    content.vb: >-
-      <EnumMember>
-
-      Project = 3
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Project As ReportCategory
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ReportCategory.Sale
   commentId: F:SuperOffice.WebApi.Data.ReportCategory.Sale
   id: Sale
@@ -165,26 +200,24 @@ items:
   nameWithType: ReportCategory.Sale
   fullName: SuperOffice.WebApi.Data.ReportCategory.Sale
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '4: 4: Sale reports'
-  example: []
+  summary: "\n4: 4: Sale reports\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Sale = 4
+    content: public const ReportCategory Sale
     return:
       type: SuperOffice.WebApi.Data.ReportCategory
-    content.vb: >-
-      <EnumMember>
-
-      Sale = 4
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Sale As ReportCategory
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ReportCategory.Appointment
   commentId: F:SuperOffice.WebApi.Data.ReportCategory.Appointment
   id: Appointment
@@ -196,26 +229,24 @@ items:
   nameWithType: ReportCategory.Appointment
   fullName: SuperOffice.WebApi.Data.ReportCategory.Appointment
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '5: 5: Appointment reports'
-  example: []
+  summary: "\n5: 5: Appointment reports\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Appointment = 5
+    content: public const ReportCategory Appointment
     return:
       type: SuperOffice.WebApi.Data.ReportCategory
-    content.vb: >-
-      <EnumMember>
-
-      Appointment = 5
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Appointment As ReportCategory
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ReportCategory.Selection
   commentId: F:SuperOffice.WebApi.Data.ReportCategory.Selection
   id: Selection
@@ -227,26 +258,24 @@ items:
   nameWithType: ReportCategory.Selection
   fullName: SuperOffice.WebApi.Data.ReportCategory.Selection
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '6: 6: Selection reports'
-  example: []
+  summary: "\n6: 6: Selection reports\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Selection = 6
+    content: public const ReportCategory Selection
     return:
       type: SuperOffice.WebApi.Data.ReportCategory
-    content.vb: >-
-      <EnumMember>
-
-      Selection = 6
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Selection As ReportCategory
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ReportCategory.Person
   commentId: F:SuperOffice.WebApi.Data.ReportCategory.Person
   id: Person
@@ -258,26 +287,24 @@ items:
   nameWithType: ReportCategory.Person
   fullName: SuperOffice.WebApi.Data.ReportCategory.Person
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '7: 7: Person reports'
-  example: []
+  summary: "\n7: 7: Person reports\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Person = 7
+    content: public const ReportCategory Person
     return:
       type: SuperOffice.WebApi.Data.ReportCategory
-    content.vb: >-
-      <EnumMember>
-
-      Person = 7
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Person As ReportCategory
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ReportCategory.Diary
   commentId: F:SuperOffice.WebApi.Data.ReportCategory.Diary
   id: Diary
@@ -289,26 +316,24 @@ items:
   nameWithType: ReportCategory.Diary
   fullName: SuperOffice.WebApi.Data.ReportCategory.Diary
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '8: 8: Diary reports'
-  example: []
+  summary: "\n8: 8: Diary reports\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Diary = 8
+    content: public const ReportCategory Diary
     return:
       type: SuperOffice.WebApi.Data.ReportCategory
-    content.vb: >-
-      <EnumMember>
-
-      Diary = 8
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Diary As ReportCategory
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ReportCategory.Favorites
   commentId: F:SuperOffice.WebApi.Data.ReportCategory.Favorites
   id: Favorites
@@ -320,69 +345,55 @@ items:
   nameWithType: ReportCategory.Favorites
   fullName: SuperOffice.WebApi.Data.ReportCategory.Favorites
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '9: Favorite reports for an associate'
-  example: []
+  summary: "\n9: Favorite reports for an associate\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Favorites = 9
+    content: public const ReportCategory Favorites
     return:
       type: SuperOffice.WebApi.Data.ReportCategory
-    content.vb: >-
-      <EnumMember>
-
-      Favorites = 9
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Favorites As ReportCategory
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.WebApi.Data.ReportCategory
   commentId: T:SuperOffice.WebApi.Data.ReportCategory
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.ReportCategory.html
   name: ReportCategory
   nameWithType: ReportCategory
   fullName: SuperOffice.WebApi.Data.ReportCategory

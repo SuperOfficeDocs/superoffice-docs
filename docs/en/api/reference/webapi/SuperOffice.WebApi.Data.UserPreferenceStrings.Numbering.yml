@@ -21,24 +21,27 @@ items:
   nameWithType: UserPreferenceStrings.Numbering
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering
   type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Numbering
-  example: []
+  summary: "\nNumbering\n"
   syntax:
-    content: public static class UserPreferenceStrings.Numbering
-    content.vb: Public Module UserPreferenceStrings.Numbering
+    content: 'public static class Numbering : Object'
+    content.vb: >-
+      Public Module Numbering
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering.Section
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering.Section
   id: Section
@@ -50,16 +53,24 @@ items:
   nameWithType: UserPreferenceStrings.Numbering.Section
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering.Section
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Section heading
-  example: []
+  summary: "\nSection heading\n"
   syntax:
     content: public const string Section = "Numbering"
     return:
       type: System.String
     content.vb: Public Const Section As String = "Numbering"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering.DefaultAllocate
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering.DefaultAllocate
   id: DefaultAllocate
@@ -71,19 +82,24 @@ items:
   nameWithType: UserPreferenceStrings.Numbering.DefaultAllocate
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering.DefaultAllocate
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Automatic allocation of a new number when a new document is created
-
-    <p></p>Control type: Bool, access: Wizard
-  example: []
+  summary: "\nAutomatic allocation of a new number when a new document is created\n<p></p>Control type: Bool, access: Wizard\n"
   syntax:
     content: public const string DefaultAllocate = "DefaultAllocate"
     return:
       type: System.String
     content.vb: Public Const DefaultAllocate As String = "DefaultAllocate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering.DefaultAllowBlank
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering.DefaultAllowBlank
   id: DefaultAllowBlank
@@ -95,19 +111,24 @@ items:
   nameWithType: UserPreferenceStrings.Numbering.DefaultAllowBlank
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering.DefaultAllowBlank
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Whether blank values are permitted for new counters
-
-    <p></p>Control type: Bool, access: Wizard
-  example: []
+  summary: "\nWhether blank values are permitted for new counters\n<p></p>Control type: Bool, access: Wizard\n"
   syntax:
     content: public const string DefaultAllowBlank = "DefaultAllowBlank"
     return:
       type: System.String
     content.vb: Public Const DefaultAllowBlank As String = "DefaultAllowBlank"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering.DefaultReadOnly
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering.DefaultReadOnly
   id: DefaultReadOnly
@@ -119,19 +140,24 @@ items:
   nameWithType: UserPreferenceStrings.Numbering.DefaultReadOnly
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering.DefaultReadOnly
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Whether numbers allocated to a document or documents of a given template type may be amended (write-protected)
-
-    <p></p>Control type: Bool, access: Wizard
-  example: []
+  summary: "\nWhether numbers allocated to a document or documents of a given template type may be amended (write-protected)\n<p></p>Control type: Bool, access: Wizard\n"
   syntax:
     content: public const string DefaultReadOnly = "DefaultReadOnly"
     return:
       type: System.String
     content.vb: Public Const DefaultReadOnly As String = "DefaultReadOnly"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering.DefaultSatPrefix
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering.DefaultSatPrefix
   id: DefaultSatPrefix
@@ -143,19 +169,24 @@ items:
   nameWithType: UserPreferenceStrings.Numbering.DefaultSatPrefix
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering.DefaultSatPrefix
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Default prefix for new counters on Satellite databases 
-
-    <p></p>Control type: Number, access: Wizard
-  example: []
+  summary: "\nDefault prefix for new counters on Satellite databases \n<p></p>Control type: Number, access: Wizard\n"
   syntax:
     content: public const string DefaultSatPrefix = "DefaultSatPrefix"
     return:
       type: System.String
     content.vb: Public Const DefaultSatPrefix As String = "DefaultSatPrefix"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering.DefaultTravelPrefix
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering.DefaultTravelPrefix
   id: DefaultTravelPrefix
@@ -167,19 +198,24 @@ items:
   nameWithType: UserPreferenceStrings.Numbering.DefaultTravelPrefix
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering.DefaultTravelPrefix
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Default prefix for new counters on Travel databases
-
-    <p></p>Control type: Number, access: Wizard
-  example: []
+  summary: "\nDefault prefix for new counters on Travel databases\n<p></p>Control type: Number, access: Wizard\n"
   syntax:
     content: public const string DefaultTravelPrefix = "DefaultTravelPrefix"
     return:
       type: System.String
     content.vb: Public Const DefaultTravelPrefix As String = "DefaultTravelPrefix"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering.DefaultUnique
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering.DefaultUnique
   id: DefaultUnique
@@ -191,19 +227,24 @@ items:
   nameWithType: UserPreferenceStrings.Numbering.DefaultUnique
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering.DefaultUnique
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Numbers with a new counter must be unique.
-
-    <p></p>Control type: Bool, access: Wizard
-  example: []
+  summary: "\nNumbers with a new counter must be unique.\n<p></p>Control type: Bool, access: Wizard\n"
   syntax:
     content: public const string DefaultUnique = "DefaultUnique"
     return:
       type: System.String
     content.vb: Public Const DefaultUnique As String = "DefaultUnique"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering.NumberEachTemplate
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering.NumberEachTemplate
   id: NumberEachTemplate
@@ -215,19 +256,24 @@ items:
   nameWithType: UserPreferenceStrings.Numbering.NumberEachTemplate
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering.NumberEachTemplate
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    If Yes, separate counters are maintained for each document template
-
-    <p></p>Control type: Bool, access: Wizard
-  example: []
+  summary: "\nIf Yes, separate counters are maintained for each document template\n<p></p>Control type: Bool, access: Wizard\n"
   syntax:
     content: public const string NumberEachTemplate = "NumberEachTemplate"
     return:
       type: System.String
     content.vb: Public Const NumberEachTemplate As String = "NumberEachTemplate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering.DefaultStart
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering.DefaultStart
   id: DefaultStart
@@ -239,291 +285,41 @@ items:
   nameWithType: UserPreferenceStrings.Numbering.DefaultStart
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Numbering.DefaultStart
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    If Yes, separate counters are maintained for each document template
-
-    <p></p>Control type: Bool, access: Wizard
-  example: []
+  summary: "\nIf Yes, separate counters are maintained for each document template\n<p></p>Control type: Bool, access: Wizard\n"
   syntax:
     content: public const string DefaultStart = "DefaultStart"
     return:
       type: System.String
     content.vb: Public Const DefaultStart As String = "DefaultStart"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -531,10 +327,6 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String

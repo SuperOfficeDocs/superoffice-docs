@@ -25,28 +25,15 @@ items:
   nameWithType: IReportAgent
   fullName: SuperOffice.CRM.Services.IReportAgent
   type: Interface
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Interface for the Report Agent
-
-    Run reports, set favourites, labels
+  summary: "\nInterface for the Report Agent\nRun reports, set favourites, labels\n"
   example:
-  - >-
-    <pre><code class="lang-csharp">using SuperOffice;
-
-    using SuperOffice.CRM.Services;
-
-
-    using (SoSession mySession = SoSession.Authenticate("user", "pass"))
-
-    {
-       using (ReportAgent agent = new ReportAgent())
-       {
-          // call methods on agent here...
-       }
-    }</code></pre>
+  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (ReportAgent agent = new ReportAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
   syntax:
     content: >-
       [Agent("Report Agent", "Interface for the Report Agent. Run reports, set favourites, labels")]
@@ -55,7 +42,8 @@ items:
     content.vb: >-
       <Agent("Report Agent", "Interface for the Report Agent. Run reports, set favourites, labels")>
 
-      Public Interface IReportAgent Inherits IAgent
+      Public Interface IReportAgent
+          Inherits IAgent
   attributes:
   - type: SuperOffice.CRM.Services.Reflection.AgentAttribute
     ctor: SuperOffice.CRM.Services.Reflection.AgentAttribute.#ctor(System.String,System.String)
@@ -64,6 +52,12 @@ items:
       value: Report Agent
     - type: System.String
       value: Interface for the Report Agent. Run reports, set favourites, labels
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
 - uid: SuperOffice.CRM.Services.IReportAgent.CreateDefaultReportEntity
   commentId: M:SuperOffice.CRM.Services.IReportAgent.CreateDefaultReportEntity
   id: CreateDefaultReportEntity
@@ -75,20 +69,19 @@ items:
   nameWithType: IReportAgent.CreateDefaultReportEntity()
   fullName: SuperOffice.CRM.Services.IReportAgent.CreateDefaultReportEntity()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new ReportEntity.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-  example: []
+  summary: "\nLoading default values into a new ReportEntity.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
   syntax:
     content: ReportEntity CreateDefaultReportEntity()
     return:
       type: SuperOffice.CRM.Services.ReportEntity
       description: New ReportEntity with default values
-    content.vb: Function CreateDefaultReportEntity() As ReportEntity
+    content.vb: Function CreateDefaultReportEntity As ReportEntity
   overload: SuperOffice.CRM.Services.IReportAgent.CreateDefaultReportEntity*
 - uid: SuperOffice.CRM.Services.IReportAgent.SaveReportEntity(SuperOffice.CRM.Services.ReportEntity)
   commentId: M:SuperOffice.CRM.Services.IReportAgent.SaveReportEntity(SuperOffice.CRM.Services.ReportEntity)
@@ -101,11 +94,13 @@ items:
   nameWithType: IReportAgent.SaveReportEntity(ReportEntity)
   fullName: SuperOffice.CRM.Services.IReportAgent.SaveReportEntity(SuperOffice.CRM.Services.ReportEntity)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Updates the existing ReportEntity or creates a new ReportEntity if the id parameter is empty
-  example: []
+  summary: "\nUpdates the existing ReportEntity or creates a new ReportEntity if the id parameter is empty\n"
   syntax:
     content: ReportEntity SaveReportEntity(ReportEntity reportEntity)
     parameters:
@@ -128,20 +123,19 @@ items:
   nameWithType: IReportAgent.CreateDefaultReportLabelLayoutEntity()
   fullName: SuperOffice.CRM.Services.IReportAgent.CreateDefaultReportLabelLayoutEntity()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new ReportLabelLayoutEntity.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-  example: []
+  summary: "\nLoading default values into a new ReportLabelLayoutEntity.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
   syntax:
     content: ReportLabelLayoutEntity CreateDefaultReportLabelLayoutEntity()
     return:
       type: SuperOffice.CRM.Services.ReportLabelLayoutEntity
       description: New ReportLabelLayoutEntity with default values
-    content.vb: Function CreateDefaultReportLabelLayoutEntity() As ReportLabelLayoutEntity
+    content.vb: Function CreateDefaultReportLabelLayoutEntity As ReportLabelLayoutEntity
   overload: SuperOffice.CRM.Services.IReportAgent.CreateDefaultReportLabelLayoutEntity*
 - uid: SuperOffice.CRM.Services.IReportAgent.SaveReportLabelLayoutEntity(SuperOffice.CRM.Services.ReportLabelLayoutEntity)
   commentId: M:SuperOffice.CRM.Services.IReportAgent.SaveReportLabelLayoutEntity(SuperOffice.CRM.Services.ReportLabelLayoutEntity)
@@ -154,11 +148,13 @@ items:
   nameWithType: IReportAgent.SaveReportLabelLayoutEntity(ReportLabelLayoutEntity)
   fullName: SuperOffice.CRM.Services.IReportAgent.SaveReportLabelLayoutEntity(SuperOffice.CRM.Services.ReportLabelLayoutEntity)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Updates the existing ReportLabelLayoutEntity or creates a new ReportLabelLayoutEntity if the id parameter is empty
-  example: []
+  summary: "\nUpdates the existing ReportLabelLayoutEntity or creates a new ReportLabelLayoutEntity if the id parameter is empty\n"
   syntax:
     content: ReportLabelLayoutEntity SaveReportLabelLayoutEntity(ReportLabelLayoutEntity reportLabelLayoutEntity)
     parameters:
@@ -177,15 +173,17 @@ items:
   langs:
   - csharp
   - vb
-  name: DeleteReportLabelLayoutEntity(int)
-  nameWithType: IReportAgent.DeleteReportLabelLayoutEntity(int)
-  fullName: SuperOffice.CRM.Services.IReportAgent.DeleteReportLabelLayoutEntity(int)
+  name: DeleteReportLabelLayoutEntity(Int32)
+  nameWithType: IReportAgent.DeleteReportLabelLayoutEntity(Int32)
+  fullName: SuperOffice.CRM.Services.IReportAgent.DeleteReportLabelLayoutEntity(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Deletes the ReportLabelLayoutEntity
-  example: []
+  summary: "\nDeletes the ReportLabelLayoutEntity\n"
   syntax:
     content: void DeleteReportLabelLayoutEntity(int reportLabelLayoutEntityId)
     parameters:
@@ -194,9 +192,6 @@ items:
       description: The identity of the ReportLabelLayoutEntity
     content.vb: Sub DeleteReportLabelLayoutEntity(reportLabelLayoutEntityId As Integer)
   overload: SuperOffice.CRM.Services.IReportAgent.DeleteReportLabelLayoutEntity*
-  nameWithType.vb: IReportAgent.DeleteReportLabelLayoutEntity(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IReportAgent.DeleteReportLabelLayoutEntity(Integer)
-  name.vb: DeleteReportLabelLayoutEntity(Integer)
 - uid: SuperOffice.CRM.Services.IReportAgent.GetReportEntity(System.Int32)
   commentId: M:SuperOffice.CRM.Services.IReportAgent.GetReportEntity(System.Int32)
   id: GetReportEntity(System.Int32)
@@ -204,15 +199,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetReportEntity(int)
-  nameWithType: IReportAgent.GetReportEntity(int)
-  fullName: SuperOffice.CRM.Services.IReportAgent.GetReportEntity(int)
+  name: GetReportEntity(Int32)
+  nameWithType: IReportAgent.GetReportEntity(Int32)
+  fullName: SuperOffice.CRM.Services.IReportAgent.GetReportEntity(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Gets a ReportEntity object.
-  example: []
+  summary: "\nGets a ReportEntity object.                        \n"
   syntax:
     content: ReportEntity GetReportEntity(int reportEntityId)
     parameters:
@@ -224,9 +221,6 @@ items:
       description: ReportEntity
     content.vb: Function GetReportEntity(reportEntityId As Integer) As ReportEntity
   overload: SuperOffice.CRM.Services.IReportAgent.GetReportEntity*
-  nameWithType.vb: IReportAgent.GetReportEntity(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IReportAgent.GetReportEntity(Integer)
-  name.vb: GetReportEntity(Integer)
 - uid: SuperOffice.CRM.Services.IReportAgent.CreateFavorite(System.Int32,System.String,System.String)
   commentId: M:SuperOffice.CRM.Services.IReportAgent.CreateFavorite(System.Int32,System.String,System.String)
   id: CreateFavorite(System.Int32,System.String,System.String)
@@ -234,15 +228,17 @@ items:
   langs:
   - csharp
   - vb
-  name: CreateFavorite(int, string, string)
-  nameWithType: IReportAgent.CreateFavorite(int, string, string)
-  fullName: SuperOffice.CRM.Services.IReportAgent.CreateFavorite(int, string, string)
+  name: CreateFavorite(Int32, String, String)
+  nameWithType: IReportAgent.CreateFavorite(Int32, String, String)
+  fullName: SuperOffice.CRM.Services.IReportAgent.CreateFavorite(System.Int32, System.String, System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Creates the report as favorite. The sourceId is the key to the report that the favorite is based on.
-  example: []
+  summary: "\nCreates the report as favorite. The sourceId is the key to the report that the favorite is based on.\n"
   syntax:
     content: ReportEntity CreateFavorite(int sourceId, string name, string description)
     parameters:
@@ -260,9 +256,6 @@ items:
       description: The new favorite ReportEntity.
     content.vb: Function CreateFavorite(sourceId As Integer, name As String, description As String) As ReportEntity
   overload: SuperOffice.CRM.Services.IReportAgent.CreateFavorite*
-  nameWithType.vb: IReportAgent.CreateFavorite(Integer, String, String)
-  fullName.vb: SuperOffice.CRM.Services.IReportAgent.CreateFavorite(Integer, String, String)
-  name.vb: CreateFavorite(Integer, String, String)
 - uid: SuperOffice.CRM.Services.IReportAgent.DeleteFavorite(System.Int32)
   commentId: M:SuperOffice.CRM.Services.IReportAgent.DeleteFavorite(System.Int32)
   id: DeleteFavorite(System.Int32)
@@ -270,15 +263,17 @@ items:
   langs:
   - csharp
   - vb
-  name: DeleteFavorite(int)
-  nameWithType: IReportAgent.DeleteFavorite(int)
-  fullName: SuperOffice.CRM.Services.IReportAgent.DeleteFavorite(int)
+  name: DeleteFavorite(Int32)
+  nameWithType: IReportAgent.DeleteFavorite(Int32)
+  fullName: SuperOffice.CRM.Services.IReportAgent.DeleteFavorite(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Deletes the report favorite.
-  example: []
+  summary: "\nDeletes the report favorite.\n"
   syntax:
     content: void DeleteFavorite(int reportEntityId)
     parameters:
@@ -287,9 +282,6 @@ items:
       description: The id of the report favorite to delete.
     content.vb: Sub DeleteFavorite(reportEntityId As Integer)
   overload: SuperOffice.CRM.Services.IReportAgent.DeleteFavorite*
-  nameWithType.vb: IReportAgent.DeleteFavorite(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IReportAgent.DeleteFavorite(Integer)
-  name.vb: DeleteFavorite(Integer)
 - uid: SuperOffice.CRM.Services.IReportAgent.UpdateFavorite(SuperOffice.CRM.Services.ReportEntity)
   commentId: M:SuperOffice.CRM.Services.IReportAgent.UpdateFavorite(SuperOffice.CRM.Services.ReportEntity)
   id: UpdateFavorite(SuperOffice.CRM.Services.ReportEntity)
@@ -301,11 +293,13 @@ items:
   nameWithType: IReportAgent.UpdateFavorite(ReportEntity)
   fullName: SuperOffice.CRM.Services.IReportAgent.UpdateFavorite(SuperOffice.CRM.Services.ReportEntity)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Updates the favorite.
-  example: []
+  summary: "\nUpdates the favorite.\n"
   syntax:
     content: ReportEntity UpdateFavorite(ReportEntity reportEntity)
     parameters:
@@ -324,15 +318,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GenerateReport(int, int, string, string, string, ArchiveRestrictionInfo[])
-  nameWithType: IReportAgent.GenerateReport(int, int, string, string, string, ArchiveRestrictionInfo[])
-  fullName: SuperOffice.CRM.Services.IReportAgent.GenerateReport(int, int, string, string, string, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  name: GenerateReport(Int32, Int32, String, String, String, ArchiveRestrictionInfo[])
+  nameWithType: IReportAgent.GenerateReport(Int32, Int32, String, String, String, ArchiveRestrictionInfo[])
+  fullName: SuperOffice.CRM.Services.IReportAgent.GenerateReport(System.Int32, System.Int32, System.String, System.String, System.String, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Generates the report in PDF format
-  example: []
+  summary: "\nGenerates the report in PDF format\n"
   syntax:
     content: string GenerateReport(int reportId, int labelLayoutId, string filename, string language, string fileType, ArchiveRestrictionInfo[] restrictions)
     parameters:
@@ -341,7 +337,7 @@ items:
       description: The id of the report.
     - id: labelLayoutId
       type: System.Int32
-      description: The id of the labellayout. Use 0 if the report isn't of type label.
+      description: The id of the labellayout. Use 0 if the report isn&apos;t of type label.
     - id: filename
       type: System.String
       description: Filename of the report.
@@ -350,7 +346,6 @@ items:
       description: Language to use when generating the report.
     - id: fileType
       type: System.String
-      description: ''
     - id: restrictions
       type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
       description: Use restrictions to provide additional restrictions when generating the report.
@@ -359,9 +354,9 @@ items:
       description: Batch task id, as string. Used to be path to the generated report, but no more.
     content.vb: Function GenerateReport(reportId As Integer, labelLayoutId As Integer, filename As String, language As String, fileType As String, restrictions As ArchiveRestrictionInfo()) As String
   overload: SuperOffice.CRM.Services.IReportAgent.GenerateReport*
-  nameWithType.vb: IReportAgent.GenerateReport(Integer, Integer, String, String, String, ArchiveRestrictionInfo())
-  fullName.vb: SuperOffice.CRM.Services.IReportAgent.GenerateReport(Integer, Integer, String, String, String, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo())
-  name.vb: GenerateReport(Integer, Integer, String, String, String, ArchiveRestrictionInfo())
+  nameWithType.vb: IReportAgent.GenerateReport(Int32, Int32, String, String, String, ArchiveRestrictionInfo())
+  fullName.vb: SuperOffice.CRM.Services.IReportAgent.GenerateReport(System.Int32, System.Int32, System.String, System.String, System.String, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo())
+  name.vb: GenerateReport(Int32, Int32, String, String, String, ArchiveRestrictionInfo())
 - uid: SuperOffice.CRM.Services.IReportAgent.ImportReport(System.String)
   commentId: M:SuperOffice.CRM.Services.IReportAgent.ImportReport(System.String)
   id: ImportReport(System.String)
@@ -369,15 +364,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ImportReport(string)
-  nameWithType: IReportAgent.ImportReport(string)
-  fullName: SuperOffice.CRM.Services.IReportAgent.ImportReport(string)
+  name: ImportReport(String)
+  nameWithType: IReportAgent.ImportReport(String)
+  fullName: SuperOffice.CRM.Services.IReportAgent.ImportReport(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Takes the input stream and create a report. This stream must be on a valid xml format
-  example: []
+  summary: "\nTakes the input stream and create a report. This stream must be on a valid xml format\n"
   syntax:
     content: int ImportReport(string report)
     parameters:
@@ -389,9 +386,6 @@ items:
       description: The id of the newly imported report
     content.vb: Function ImportReport(report As String) As Integer
   overload: SuperOffice.CRM.Services.IReportAgent.ImportReport*
-  nameWithType.vb: IReportAgent.ImportReport(String)
-  fullName.vb: SuperOffice.CRM.Services.IReportAgent.ImportReport(String)
-  name.vb: ImportReport(String)
 - uid: SuperOffice.CRM.Services.IReportAgent.DeleteReport(System.Int32)
   commentId: M:SuperOffice.CRM.Services.IReportAgent.DeleteReport(System.Int32)
   id: DeleteReport(System.Int32)
@@ -399,15 +393,17 @@ items:
   langs:
   - csharp
   - vb
-  name: DeleteReport(int)
-  nameWithType: IReportAgent.DeleteReport(int)
-  fullName: SuperOffice.CRM.Services.IReportAgent.DeleteReport(int)
+  name: DeleteReport(Int32)
+  nameWithType: IReportAgent.DeleteReport(Int32)
+  fullName: SuperOffice.CRM.Services.IReportAgent.DeleteReport(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Delete the report with the given id
-  example: []
+  summary: "\nDelete the report with the given id\n"
   syntax:
     content: bool DeleteReport(int reportId)
     parameters:
@@ -419,9 +415,6 @@ items:
       description: Delete ok?
     content.vb: Function DeleteReport(reportId As Integer) As Boolean
   overload: SuperOffice.CRM.Services.IReportAgent.DeleteReport*
-  nameWithType.vb: IReportAgent.DeleteReport(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IReportAgent.DeleteReport(Integer)
-  name.vb: DeleteReport(Integer)
 - uid: SuperOffice.CRM.Services.IReportAgent.GetReportLabelLayoutEntity(System.Int32)
   commentId: M:SuperOffice.CRM.Services.IReportAgent.GetReportLabelLayoutEntity(System.Int32)
   id: GetReportLabelLayoutEntity(System.Int32)
@@ -429,15 +422,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetReportLabelLayoutEntity(int)
-  nameWithType: IReportAgent.GetReportLabelLayoutEntity(int)
-  fullName: SuperOffice.CRM.Services.IReportAgent.GetReportLabelLayoutEntity(int)
+  name: GetReportLabelLayoutEntity(Int32)
+  nameWithType: IReportAgent.GetReportLabelLayoutEntity(Int32)
+  fullName: SuperOffice.CRM.Services.IReportAgent.GetReportLabelLayoutEntity(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Gets a ReportLabelLayoutEntity object.
-  example: []
+  summary: "\nGets a ReportLabelLayoutEntity object.                        \n"
   syntax:
     content: ReportLabelLayoutEntity GetReportLabelLayoutEntity(int reportLabelLayoutEntityId)
     parameters:
@@ -449,51 +444,16 @@ items:
       description: ReportLabelLayoutEntity
     content.vb: Function GetReportLabelLayoutEntity(reportLabelLayoutEntityId As Integer) As ReportLabelLayoutEntity
   overload: SuperOffice.CRM.Services.IReportAgent.GetReportLabelLayoutEntity*
-  nameWithType.vb: IReportAgent.GetReportLabelLayoutEntity(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IReportAgent.GetReportLabelLayoutEntity(Integer)
-  name.vb: GetReportLabelLayoutEntity(Integer)
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
 - uid: SuperOffice.CRM.Services.IReportAgent.CreateDefaultReportEntity*
   commentId: Overload:SuperOffice.CRM.Services.IReportAgent.CreateDefaultReportEntity
   isExternal: true
-  href: SuperOffice.CRM.Services.IReportAgent.html#SuperOffice_CRM_Services_IReportAgent_CreateDefaultReportEntity
   name: CreateDefaultReportEntity
   nameWithType: IReportAgent.CreateDefaultReportEntity
   fullName: SuperOffice.CRM.Services.IReportAgent.CreateDefaultReportEntity
@@ -501,21 +461,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.ReportEntity
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.ReportEntity.html
   name: ReportEntity
   nameWithType: ReportEntity
   fullName: SuperOffice.CRM.Services.ReportEntity
 - uid: SuperOffice.CRM.Services.IReportAgent.SaveReportEntity*
   commentId: Overload:SuperOffice.CRM.Services.IReportAgent.SaveReportEntity
   isExternal: true
-  href: SuperOffice.CRM.Services.IReportAgent.html#SuperOffice_CRM_Services_IReportAgent_SaveReportEntity_SuperOffice_CRM_Services_ReportEntity_
   name: SaveReportEntity
   nameWithType: IReportAgent.SaveReportEntity
   fullName: SuperOffice.CRM.Services.IReportAgent.SaveReportEntity
 - uid: SuperOffice.CRM.Services.IReportAgent.CreateDefaultReportLabelLayoutEntity*
   commentId: Overload:SuperOffice.CRM.Services.IReportAgent.CreateDefaultReportLabelLayoutEntity
   isExternal: true
-  href: SuperOffice.CRM.Services.IReportAgent.html#SuperOffice_CRM_Services_IReportAgent_CreateDefaultReportLabelLayoutEntity
   name: CreateDefaultReportLabelLayoutEntity
   nameWithType: IReportAgent.CreateDefaultReportLabelLayoutEntity
   fullName: SuperOffice.CRM.Services.IReportAgent.CreateDefaultReportLabelLayoutEntity
@@ -523,21 +480,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.ReportLabelLayoutEntity
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.ReportLabelLayoutEntity.html
   name: ReportLabelLayoutEntity
   nameWithType: ReportLabelLayoutEntity
   fullName: SuperOffice.CRM.Services.ReportLabelLayoutEntity
 - uid: SuperOffice.CRM.Services.IReportAgent.SaveReportLabelLayoutEntity*
   commentId: Overload:SuperOffice.CRM.Services.IReportAgent.SaveReportLabelLayoutEntity
   isExternal: true
-  href: SuperOffice.CRM.Services.IReportAgent.html#SuperOffice_CRM_Services_IReportAgent_SaveReportLabelLayoutEntity_SuperOffice_CRM_Services_ReportLabelLayoutEntity_
   name: SaveReportLabelLayoutEntity
   nameWithType: IReportAgent.SaveReportLabelLayoutEntity
   fullName: SuperOffice.CRM.Services.IReportAgent.SaveReportLabelLayoutEntity
 - uid: SuperOffice.CRM.Services.IReportAgent.DeleteReportLabelLayoutEntity*
   commentId: Overload:SuperOffice.CRM.Services.IReportAgent.DeleteReportLabelLayoutEntity
   isExternal: true
-  href: SuperOffice.CRM.Services.IReportAgent.html#SuperOffice_CRM_Services_IReportAgent_DeleteReportLabelLayoutEntity_System_Int32_
   name: DeleteReportLabelLayoutEntity
   nameWithType: IReportAgent.DeleteReportLabelLayoutEntity
   fullName: SuperOffice.CRM.Services.IReportAgent.DeleteReportLabelLayoutEntity
@@ -545,31 +499,24 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.CRM.Services.IReportAgent.GetReportEntity*
   commentId: Overload:SuperOffice.CRM.Services.IReportAgent.GetReportEntity
   isExternal: true
-  href: SuperOffice.CRM.Services.IReportAgent.html#SuperOffice_CRM_Services_IReportAgent_GetReportEntity_System_Int32_
   name: GetReportEntity
   nameWithType: IReportAgent.GetReportEntity
   fullName: SuperOffice.CRM.Services.IReportAgent.GetReportEntity
 - uid: SuperOffice.CRM.Services.IReportAgent.CreateFavorite*
   commentId: Overload:SuperOffice.CRM.Services.IReportAgent.CreateFavorite
   isExternal: true
-  href: SuperOffice.CRM.Services.IReportAgent.html#SuperOffice_CRM_Services_IReportAgent_CreateFavorite_System_Int32_System_String_System_String_
   name: CreateFavorite
   nameWithType: IReportAgent.CreateFavorite
   fullName: SuperOffice.CRM.Services.IReportAgent.CreateFavorite
@@ -577,31 +524,24 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.CRM.Services.IReportAgent.DeleteFavorite*
   commentId: Overload:SuperOffice.CRM.Services.IReportAgent.DeleteFavorite
   isExternal: true
-  href: SuperOffice.CRM.Services.IReportAgent.html#SuperOffice_CRM_Services_IReportAgent_DeleteFavorite_System_Int32_
   name: DeleteFavorite
   nameWithType: IReportAgent.DeleteFavorite
   fullName: SuperOffice.CRM.Services.IReportAgent.DeleteFavorite
 - uid: SuperOffice.CRM.Services.IReportAgent.UpdateFavorite*
   commentId: Overload:SuperOffice.CRM.Services.IReportAgent.UpdateFavorite
   isExternal: true
-  href: SuperOffice.CRM.Services.IReportAgent.html#SuperOffice_CRM_Services_IReportAgent_UpdateFavorite_SuperOffice_CRM_Services_ReportEntity_
   name: UpdateFavorite
   nameWithType: IReportAgent.UpdateFavorite
   fullName: SuperOffice.CRM.Services.IReportAgent.UpdateFavorite
 - uid: SuperOffice.CRM.Services.IReportAgent.GenerateReport*
   commentId: Overload:SuperOffice.CRM.Services.IReportAgent.GenerateReport
   isExternal: true
-  href: SuperOffice.CRM.Services.IReportAgent.html#SuperOffice_CRM_Services_IReportAgent_GenerateReport_System_Int32_System_Int32_System_String_System_String_System_String_SuperOffice_CRM_ArchiveLists_ArchiveRestrictionInfo___
   name: GenerateReport
   nameWithType: IReportAgent.GenerateReport
   fullName: SuperOffice.CRM.Services.IReportAgent.GenerateReport
@@ -616,26 +556,30 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
     name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
     isExternal: true
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
     name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
     isExternal: true
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.IReportAgent.ImportReport*
   commentId: Overload:SuperOffice.CRM.Services.IReportAgent.ImportReport
   isExternal: true
-  href: SuperOffice.CRM.Services.IReportAgent.html#SuperOffice_CRM_Services_IReportAgent_ImportReport_System_String_
   name: ImportReport
   nameWithType: IReportAgent.ImportReport
   fullName: SuperOffice.CRM.Services.IReportAgent.ImportReport
 - uid: SuperOffice.CRM.Services.IReportAgent.DeleteReport*
   commentId: Overload:SuperOffice.CRM.Services.IReportAgent.DeleteReport
   isExternal: true
-  href: SuperOffice.CRM.Services.IReportAgent.html#SuperOffice_CRM_Services_IReportAgent_DeleteReport_System_Int32_
   name: DeleteReport
   nameWithType: IReportAgent.DeleteReport
   fullName: SuperOffice.CRM.Services.IReportAgent.DeleteReport
@@ -643,17 +587,12 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.CRM.Services.IReportAgent.GetReportLabelLayoutEntity*
   commentId: Overload:SuperOffice.CRM.Services.IReportAgent.GetReportLabelLayoutEntity
   isExternal: true
-  href: SuperOffice.CRM.Services.IReportAgent.html#SuperOffice_CRM_Services_IReportAgent_GetReportLabelLayoutEntity_System_Int32_
   name: GetReportLabelLayoutEntity
   nameWithType: IReportAgent.GetReportLabelLayoutEntity
   fullName: SuperOffice.CRM.Services.IReportAgent.GetReportLabelLayoutEntity

@@ -28,39 +28,20 @@ items:
   nameWithType: ProbHeadingLinkRows
   fullName: SuperOffice.CRM.Rows.ProbHeadingLinkRows
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: >-
-    Heading link table for Prob, for MDO headers
-
-    Collection of ProbHeadingLinkRow. Each element of the collection represents one row in the ProbHeadingLink
-
-    table.
-  remarks: >-
-    Row collections can be created in several ways. 
-
-    <ul><li><span class="term">Use the static <xref href="SuperOffice.CRM.Rows.ProbHeadingLinkRows.CreateNew" data-throw-if-not-resolved="false"></xref> method to create a new, empty collection. You can then add objects of type
-
-    <xref href="SuperOffice.CRM.Rows.ProbHeadingLinkRow" data-throw-if-not-resolved="false"></xref> to it, and use methods like Save to operate on the whole collection.</span></li><li><span class="term">You can create a (nested) ProbHeadingLinkRows <xref href="SuperOffice.CRM.Rows.ProbHeadingLinkRows.CustomSearch" data-throw-if-not-resolved="false"></xref> object to obtain a query pre-populated with
-
-    the correct tableinfo and return fields. This query can be modified with restrictions, etc. Then, use the static <xref href="SuperOffice.CRM.Rows.ProbHeadingLinkRows.GetFromCustomSearch(SuperOffice.CRM.Rows.ProbHeadingLinkRows.CustomSearch)" data-throw-if-not-resolved="false"></xref> method
-
-    to apply the query to the database and obtain the result as a Rows object, with one item for each table row that matched your query.</span></li><li><span class="term">For each non-unique index defined for the table, there is a corresponding GetFromIdx method to make retrieving data via the indexes easy.</span></li></ul>
-
-    Unique indexes are handled through the <xref href="SuperOffice.CRM.Rows.ProbHeadingLinkRow" data-throw-if-not-resolved="false"></xref> object directly,
-
-    which has nested classes and GetFromIdx methods for each unique index. Similarly, there is a <xref href="SuperOffice.CRM.Rows.ProbHeadingLinkRows.GetFromReader(SuperOffice.Data.SoDataReader%2cSuperOffice.CRM.Data.ProbHeadingLinkTableInfo)" data-throw-if-not-resolved="false"></xref>
-
-    method to retrieve the results of queries that return more than one row (this method will iterate over the reader to fetch ALL results, so beware of fetching
-
-    huge result sets).
-
-    <p></p>
-  example: []
+  summary: "\nHeading link table for Prob, for MDO headers\nCollection of ProbHeadingLinkRow. Each element of the collection represents one row in the ProbHeadingLink\ntable. \n"
+  remarks: "\nRow collections can be created in several ways. \n<ul><li>Use the static <xref href=\"SuperOffice.CRM.Rows.ProbHeadingLinkRows.CreateNew\" data-throw-if-not-resolved=\"false\"></xref> method to create a new, empty collection. You can then add objects of type\n<xref href=\"SuperOffice.CRM.Rows.ProbHeadingLinkRow\" data-throw-if-not-resolved=\"false\"></xref> to it, and use methods like <see cref=\"!:Save\"></see> to operate on the whole collection.</li><li>You can create a (nested) ProbHeadingLinkRows <xref href=\"SuperOffice.CRM.Rows.ProbHeadingLinkRows.CustomSearch\" data-throw-if-not-resolved=\"false\"></xref> object to obtain a query pre-populated with\nthe correct tableinfo and return fields. This query can be modified with restrictions, etc. Then, use the static <xref href=\"SuperOffice.CRM.Rows.ProbHeadingLinkRows.GetFromCustomSearch(SuperOffice.CRM.Rows.ProbHeadingLinkRows.CustomSearch)\" data-throw-if-not-resolved=\"false\"></xref> method\nto apply the query to the database and obtain the result as a Rows object, with one item for each table row that matched your query.</li><li>For each non-unique index defined for the table, there is a corresponding GetFromIdx method to make retrieving data via the indexes easy.</li></ul>\nUnique indexes are handled through the <xref href=\"SuperOffice.CRM.Rows.ProbHeadingLinkRow\" data-throw-if-not-resolved=\"false\"></xref> object directly,\nwhich has nested classes and GetFromIdx methods for each unique index. Similarly, there is a <xref href=\"SuperOffice.CRM.Rows.ProbHeadingLinkRows.GetFromReader(SuperOffice.Data.SoDataReader%2cSuperOffice.CRM.Data.ProbHeadingLinkTableInfo)\" data-throw-if-not-resolved=\"false\"></xref>\nmethod to retrieve the results of queries that return more than one row (this method will iterate over the reader to fetch ALL results, so beware of fetching\nhuge result sets).\n<p></p>\n"
   syntax:
-    content: 'public class ProbHeadingLinkRows : TableRowsBase, INestedPersist, IEnumerable<INestedPersist>, ISoCollection, INotifyCollectionChanged, IBindingList, IList, ICollection, IEnumerable'
-    content.vb: Public Class ProbHeadingLinkRows Inherits TableRowsBase Implements INestedPersist, IEnumerable(Of INestedPersist), ISoCollection, INotifyCollectionChanged, IBindingList, IList, ICollection, IEnumerable
+    content: 'public class ProbHeadingLinkRows : TableRowsBase, INestedPersist, IEnumerable<INestedPersist>, ISoCollection, IEnumerable, IList, ICollection, INotifyCollectionChanged, IBindingList'
+    content.vb: >-
+      Public Class ProbHeadingLinkRows
+          Inherits TableRowsBase
+          Implements INestedPersist, IEnumerable(Of INestedPersist), ISoCollection, IEnumerable, IList, ICollection, INotifyCollectionChanged, IBindingList
   inheritance:
   - System.Object
   - SuperOffice.Data.NestedPersist
@@ -71,11 +52,11 @@ items:
   - SuperOffice.Data.INestedPersist
   - System.Collections.Generic.IEnumerable{SuperOffice.Data.INestedPersist}
   - SuperOffice.Data.ISoCollection
-  - System.Collections.Specialized.INotifyCollectionChanged
-  - System.ComponentModel.IBindingList
+  - System.Collections.IEnumerable
   - System.Collections.IList
   - System.Collections.ICollection
-  - System.Collections.IEnumerable
+  - System.Collections.Specialized.INotifyCollectionChanged
+  - System.ComponentModel.IBindingList
   inheritedMembers:
   - SuperOffice.CRM.Rows.TableRowsBase._innerList
   - SuperOffice.CRM.Rows.TableRowsBase._allHasBeenMarkedForDelete
@@ -93,6 +74,8 @@ items:
   - SuperOffice.CRM.Rows.TableRowsBase.Sort(System.Collections.IComparer)
   - SuperOffice.CRM.Rows.TableRowsBase.GetPrimaryKeys
   - SuperOffice.CRM.Rows.TableRowsBase.OnAdded(System.Object,System.Int32)
+  - SuperOffice.CRM.Rows.TableRowsBase.SuperOffice#Data#ISoCollection#Add(SuperOffice.Data.ISoItem)
+  - SuperOffice.CRM.Rows.TableRowsBase.SuperOffice#Data#ISoCollection#AddNew
   - SuperOffice.CRM.Rows.TableRowsBase.CopyTo(System.Array,System.Int32)
   - SuperOffice.CRM.Rows.TableRowsBase.IndexOf(System.Object)
   - SuperOffice.CRM.Rows.TableRowsBase.Contains(System.Object)
@@ -132,18 +115,28 @@ items:
   - SuperOffice.Data.NestedPersist._isSaving
   - SuperOffice.Data.NestedPersist.SetSaveOwner(SuperOffice.Data.INestedPersist)
   - SuperOffice.Data.NestedPersist.Save
+  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdate
+  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdate
+  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
+  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
+  - SuperOffice.Data.NestedPersist.add_OnElementSaved(SuperOffice.Data.OnSaved)
+  - SuperOffice.Data.NestedPersist.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+  - SuperOffice.Data.NestedPersist.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  - SuperOffice.Data.NestedPersist.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
   - SuperOffice.Data.NestedPersist.IsSaving
   - SuperOffice.Data.NestedPersist.OnElementSaved
   - SuperOffice.Data.NestedPersist.OnElementIdUpdate
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Rows.ProbHeadingLinkRows.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.ProbHeadingLinkRows.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Rows.ProbHeadingLinkRows.ForEach(System.Action{SuperOffice.CRM.Rows.ProbHeadingLinkRow})
   commentId: M:SuperOffice.CRM.Rows.ProbHeadingLinkRows.ForEach(System.Action{SuperOffice.CRM.Rows.ProbHeadingLinkRow})
   id: ForEach(System.Action{SuperOffice.CRM.Rows.ProbHeadingLinkRow})
@@ -155,11 +148,13 @@ items:
   nameWithType: ProbHeadingLinkRows.ForEach(Action<ProbHeadingLinkRow>)
   fullName: SuperOffice.CRM.Rows.ProbHeadingLinkRows.ForEach(System.Action<SuperOffice.CRM.Rows.ProbHeadingLinkRow>)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Method that iterates over all members and applies the action parameter to each of them
-  example: []
+  summary: "\nMethod that iterates over all members and applies the action parameter to each of them\n"
   syntax:
     content: public void ForEach(Action<ProbHeadingLinkRow> whatToDo)
     parameters:
@@ -168,6 +163,10 @@ items:
     content.vb: Public Sub ForEach(whatToDo As Action(Of ProbHeadingLinkRow))
   overload: SuperOffice.CRM.Rows.ProbHeadingLinkRows.ForEach*
   nameWithType.vb: ProbHeadingLinkRows.ForEach(Action(Of ProbHeadingLinkRow))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
   fullName.vb: SuperOffice.CRM.Rows.ProbHeadingLinkRows.ForEach(System.Action(Of SuperOffice.CRM.Rows.ProbHeadingLinkRow))
   name.vb: ForEach(Action(Of ProbHeadingLinkRow))
 - uid: SuperOffice.CRM.Rows.ProbHeadingLinkRows.Find(System.Predicate{SuperOffice.CRM.Rows.ProbHeadingLinkRow})
@@ -181,11 +180,13 @@ items:
   nameWithType: ProbHeadingLinkRows.Find(Predicate<ProbHeadingLinkRow>)
   fullName: SuperOffice.CRM.Rows.ProbHeadingLinkRows.Find(System.Predicate<SuperOffice.CRM.Rows.ProbHeadingLinkRow>)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Apply the predicate to each element of the collection and return the first row that matches; if no match then return null
-  example: []
+  summary: "\nApply the predicate to each element of the collection and return the first row that matches; if no match then return null\n"
   syntax:
     content: public ProbHeadingLinkRow Find(Predicate<ProbHeadingLinkRow> condition)
     parameters:
@@ -196,6 +197,10 @@ items:
     content.vb: Public Function Find(condition As Predicate(Of ProbHeadingLinkRow)) As ProbHeadingLinkRow
   overload: SuperOffice.CRM.Rows.ProbHeadingLinkRows.Find*
   nameWithType.vb: ProbHeadingLinkRows.Find(Predicate(Of ProbHeadingLinkRow))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
   fullName.vb: SuperOffice.CRM.Rows.ProbHeadingLinkRows.Find(System.Predicate(Of SuperOffice.CRM.Rows.ProbHeadingLinkRow))
   name.vb: Find(Predicate(Of ProbHeadingLinkRow))
 - uid: SuperOffice.CRM.Rows.ProbHeadingLinkRows.FindAll(System.Predicate{SuperOffice.CRM.Rows.ProbHeadingLinkRow})
@@ -209,11 +214,13 @@ items:
   nameWithType: ProbHeadingLinkRows.FindAll(Predicate<ProbHeadingLinkRow>)
   fullName: SuperOffice.CRM.Rows.ProbHeadingLinkRows.FindAll(System.Predicate<SuperOffice.CRM.Rows.ProbHeadingLinkRow>)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Return a new collection that contains only those elements that match the condition. Elements are shared, not clones! of the original collection
-  example: []
+  summary: "\nReturn a new collection that contains only those elements that match the condition. Elements are shared, not clones! of the original collection\n"
   syntax:
     content: public ProbHeadingLinkRows FindAll(Predicate<ProbHeadingLinkRow> condition)
     parameters:
@@ -224,6 +231,10 @@ items:
     content.vb: Public Function FindAll(condition As Predicate(Of ProbHeadingLinkRow)) As ProbHeadingLinkRows
   overload: SuperOffice.CRM.Rows.ProbHeadingLinkRows.FindAll*
   nameWithType.vb: ProbHeadingLinkRows.FindAll(Predicate(Of ProbHeadingLinkRow))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
   fullName.vb: SuperOffice.CRM.Rows.ProbHeadingLinkRows.FindAll(System.Predicate(Of SuperOffice.CRM.Rows.ProbHeadingLinkRow))
   name.vb: FindAll(Predicate(Of ProbHeadingLinkRow))
 - uid: SuperOffice.CRM.Rows.ProbHeadingLinkRows.CreateNew
@@ -237,18 +248,26 @@ items:
   nameWithType: ProbHeadingLinkRows.CreateNew()
   fullName: SuperOffice.CRM.Rows.ProbHeadingLinkRows.CreateNew()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Create a new instance of the ProbHeadingLinkRows object. This collection will contain no rows.
-  example: []
+  summary: "\nCreate a new instance of the ProbHeadingLinkRows object. This collection will contain no rows.\n"
   syntax:
     content: public static ProbHeadingLinkRows CreateNew()
     return:
       type: SuperOffice.CRM.Rows.ProbHeadingLinkRows
-      description: A new instance of the ProbHeadingLinkRows object.
-    content.vb: Public Shared Function CreateNew() As ProbHeadingLinkRows
+      description: "\nA new instance of the ProbHeadingLinkRows object.\n"
+    content.vb: Public Shared Function CreateNew As ProbHeadingLinkRows
   overload: SuperOffice.CRM.Rows.ProbHeadingLinkRows.CreateNew*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Rows.ProbHeadingLinkRows.GetFromCustomSearch(SuperOffice.CRM.Rows.ProbHeadingLinkRows.CustomSearch)
   commentId: M:SuperOffice.CRM.Rows.ProbHeadingLinkRows.GetFromCustomSearch(SuperOffice.CRM.Rows.ProbHeadingLinkRows.CustomSearch)
   id: GetFromCustomSearch(SuperOffice.CRM.Rows.ProbHeadingLinkRows.CustomSearch)
@@ -256,20 +275,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetFromCustomSearch(CustomSearch)
+  name: GetFromCustomSearch(ProbHeadingLinkRows.CustomSearch)
   nameWithType: ProbHeadingLinkRows.GetFromCustomSearch(ProbHeadingLinkRows.CustomSearch)
   fullName: SuperOffice.CRM.Rows.ProbHeadingLinkRows.GetFromCustomSearch(SuperOffice.CRM.Rows.ProbHeadingLinkRows.CustomSearch)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: >-
-    Create a new instance of the ProbHeadingLinkRows object, and populate it with data from a custom search.
-
-    If the search returns no results, an empty collection will be returned; if the result contains
-
-    rows, a collection of ProbHeadingLinkRow objects representing each row will be returned.
-  example: []
+  summary: "\nCreate a new instance of the ProbHeadingLinkRows object, and populate it with data from a custom search.\nIf the search returns no results, an empty collection will be returned; if the result contains\nrows, a collection of ProbHeadingLinkRow objects representing each row will be returned. \n"
   syntax:
     content: public static ProbHeadingLinkRows GetFromCustomSearch(ProbHeadingLinkRows.CustomSearch query)
     parameters:
@@ -281,6 +297,12 @@ items:
       description: A new instance of the ProbHeadingLinkRows object, reflecting the result of the query.
     content.vb: Public Shared Function GetFromCustomSearch(query As ProbHeadingLinkRows.CustomSearch) As ProbHeadingLinkRows
   overload: SuperOffice.CRM.Rows.ProbHeadingLinkRows.GetFromCustomSearch*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Rows.ProbHeadingLinkRows.GetFromIdxProbId(System.Int32)
   commentId: M:SuperOffice.CRM.Rows.ProbHeadingLinkRows.GetFromIdxProbId(System.Int32)
   id: GetFromIdxProbId(System.Int32)
@@ -288,22 +310,18 @@ items:
   langs:
   - csharp
   - vb
-  name: GetFromIdxProbId(int)
-  nameWithType: ProbHeadingLinkRows.GetFromIdxProbId(int)
-  fullName: SuperOffice.CRM.Rows.ProbHeadingLinkRows.GetFromIdxProbId(int)
+  name: GetFromIdxProbId(Int32)
+  nameWithType: ProbHeadingLinkRows.GetFromIdxProbId(Int32)
+  fullName: SuperOffice.CRM.Rows.ProbHeadingLinkRows.GetFromIdxProbId(System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: >-
-    Create a new instance of the ProbHeadingLinkRow object, by querying the database table via the index 'IDXProbHLProb_id'.
-
-    This method is intended to make it easy to use efficient queries that match a database index.
-  remarks: >-
-    This method represents one of the unique indexes on the ProbHeadingLink table. Non-unique indexes have corresponding inner classes
-
-    and methods in the <xref href="SuperOffice.CRM.Rows.ProbHeadingLinkRows" data-throw-if-not-resolved="false"></xref> collection, since they may return more than one row.
-  example: []
+  summary: "\nCreate a new instance of the ProbHeadingLinkRow object, by querying the database table via the index &apos;IDXProbHLProb_id&apos;.\nThis method is intended to make it easy to use efficient queries that match a database index.\n"
+  remarks: "\nThis method represents one of the unique indexes on the ProbHeadingLink table. Non-unique indexes have corresponding inner classes\nand methods in the <xref href=\"SuperOffice.CRM.Rows.ProbHeadingLinkRows\" data-throw-if-not-resolved=\"false\"></xref> collection, since they may return more than one row.\n"
   syntax:
     content: public static ProbHeadingLinkRows GetFromIdxProbId(int probId)
     parameters:
@@ -311,14 +329,15 @@ items:
       type: System.Int32
     return:
       type: SuperOffice.CRM.Rows.ProbHeadingLinkRows
-      description: >-
-        Row object that represents the result of the search. IsNew will be true if 
-                    the query did not match any row in the table
+      description: "Row object that represents the result of the search. <see cref=\"!:IsNew\"></see> will be true if \nthe query did not match any row in the table"
     content.vb: Public Shared Function GetFromIdxProbId(probId As Integer) As ProbHeadingLinkRows
   overload: SuperOffice.CRM.Rows.ProbHeadingLinkRows.GetFromIdxProbId*
-  nameWithType.vb: ProbHeadingLinkRows.GetFromIdxProbId(Integer)
-  fullName.vb: SuperOffice.CRM.Rows.ProbHeadingLinkRows.GetFromIdxProbId(Integer)
-  name.vb: GetFromIdxProbId(Integer)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Rows.ProbHeadingLinkRows.GetFromIdxHeadingId(System.Int32)
   commentId: M:SuperOffice.CRM.Rows.ProbHeadingLinkRows.GetFromIdxHeadingId(System.Int32)
   id: GetFromIdxHeadingId(System.Int32)
@@ -326,22 +345,18 @@ items:
   langs:
   - csharp
   - vb
-  name: GetFromIdxHeadingId(int)
-  nameWithType: ProbHeadingLinkRows.GetFromIdxHeadingId(int)
-  fullName: SuperOffice.CRM.Rows.ProbHeadingLinkRows.GetFromIdxHeadingId(int)
+  name: GetFromIdxHeadingId(Int32)
+  nameWithType: ProbHeadingLinkRows.GetFromIdxHeadingId(Int32)
+  fullName: SuperOffice.CRM.Rows.ProbHeadingLinkRows.GetFromIdxHeadingId(System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: >-
-    Create a new instance of the ProbHeadingLinkRow object, by querying the database table via the index 'IDXProbHLHeading_id'.
-
-    This method is intended to make it easy to use efficient queries that match a database index.
-  remarks: >-
-    This method represents one of the unique indexes on the ProbHeadingLink table. Non-unique indexes have corresponding inner classes
-
-    and methods in the <xref href="SuperOffice.CRM.Rows.ProbHeadingLinkRows" data-throw-if-not-resolved="false"></xref> collection, since they may return more than one row.
-  example: []
+  summary: "\nCreate a new instance of the ProbHeadingLinkRow object, by querying the database table via the index &apos;IDXProbHLHeading_id&apos;.\nThis method is intended to make it easy to use efficient queries that match a database index.\n"
+  remarks: "\nThis method represents one of the unique indexes on the ProbHeadingLink table. Non-unique indexes have corresponding inner classes\nand methods in the <xref href=\"SuperOffice.CRM.Rows.ProbHeadingLinkRows\" data-throw-if-not-resolved=\"false\"></xref> collection, since they may return more than one row.\n"
   syntax:
     content: public static ProbHeadingLinkRows GetFromIdxHeadingId(int headingId)
     parameters:
@@ -349,14 +364,15 @@ items:
       type: System.Int32
     return:
       type: SuperOffice.CRM.Rows.ProbHeadingLinkRows
-      description: >-
-        Row object that represents the result of the search. IsNew will be true if 
-                    the query did not match any row in the table
+      description: "Row object that represents the result of the search. <see cref=\"!:IsNew\"></see> will be true if \nthe query did not match any row in the table"
     content.vb: Public Shared Function GetFromIdxHeadingId(headingId As Integer) As ProbHeadingLinkRows
   overload: SuperOffice.CRM.Rows.ProbHeadingLinkRows.GetFromIdxHeadingId*
-  nameWithType.vb: ProbHeadingLinkRows.GetFromIdxHeadingId(Integer)
-  fullName.vb: SuperOffice.CRM.Rows.ProbHeadingLinkRows.GetFromIdxHeadingId(Integer)
-  name.vb: GetFromIdxHeadingId(Integer)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Rows.ProbHeadingLinkRows.GetFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.ProbHeadingLinkTableInfo)
   commentId: M:SuperOffice.CRM.Rows.ProbHeadingLinkRows.GetFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.ProbHeadingLinkTableInfo)
   id: GetFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.ProbHeadingLinkTableInfo)
@@ -368,24 +384,13 @@ items:
   nameWithType: ProbHeadingLinkRows.GetFromReader(SoDataReader, ProbHeadingLinkTableInfo)
   fullName: SuperOffice.CRM.Rows.ProbHeadingLinkRows.GetFromReader(SuperOffice.Data.SoDataReader, SuperOffice.CRM.Data.ProbHeadingLinkTableInfo)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: >-
-    Create a new instance of the ProbHeadingLinkRows object, and populate it with data from a reader.
-
-    If the search returns no results, an empty collection will be returned; if the result contains
-
-    rows, a collection of ProbHeadingLinkRow objects representing each row will be returned. 
-
-    <p></p>Note that the internal logic starts by calling reader.<xref href="SuperOffice.Data.SoDataReader.Read" data-throw-if-not-resolved="false"></xref>, 
-
-    which is correct if you hand the method the result of an <xref href="SuperOffice.Data.SoCommand.ExecuteReader" data-throw-if-not-resolved="false"></xref>,
-
-    but if the reader has already been advanced one or more rows, the current row will be skipped and collection
-
-    population will start with the next row.
-  example: []
+  summary: "\nCreate a new instance of the ProbHeadingLinkRows object, and populate it with data from a reader.\nIf the search returns no results, an empty collection will be returned; if the result contains\nrows, a collection of ProbHeadingLinkRow objects representing each row will be returned. \n<p></p>Note that the internal logic starts by calling reader.<xref href=\"SuperOffice.Data.SoDataReader.Read\" data-throw-if-not-resolved=\"false\"></xref>, \nwhich is correct if you hand the method the result of an <xref href=\"SuperOffice.Data.SoCommand.ExecuteReader\" data-throw-if-not-resolved=\"false\"></xref>,\nbut if the reader has already been advanced one or more rows, the current row will be skipped and collection\npopulation will start with the next row.\n"
   syntax:
     content: public static ProbHeadingLinkRows GetFromReader(SoDataReader reader, ProbHeadingLinkTableInfo tableInfo)
     parameters:
@@ -401,6 +406,12 @@ items:
       type: SuperOffice.CRM.Rows.ProbHeadingLinkRows
     content.vb: Public Shared Function GetFromReader(reader As SoDataReader, tableInfo As ProbHeadingLinkTableInfo) As ProbHeadingLinkRows
   overload: SuperOffice.CRM.Rows.ProbHeadingLinkRows.GetFromReader*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Rows.ProbHeadingLinkRows.Add(SuperOffice.CRM.Rows.ProbHeadingLinkRow)
   commentId: M:SuperOffice.CRM.Rows.ProbHeadingLinkRows.Add(SuperOffice.CRM.Rows.ProbHeadingLinkRow)
   id: Add(SuperOffice.CRM.Rows.ProbHeadingLinkRow)
@@ -412,11 +423,13 @@ items:
   nameWithType: ProbHeadingLinkRows.Add(ProbHeadingLinkRow)
   fullName: SuperOffice.CRM.Rows.ProbHeadingLinkRows.Add(SuperOffice.CRM.Rows.ProbHeadingLinkRow)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Add one ProbHeadingLinkRow to the collection.
-  example: []
+  summary: "\nAdd one ProbHeadingLinkRow to the collection.\n"
   syntax:
     content: public int Add(ProbHeadingLinkRow row)
     parameters:
@@ -428,6 +441,10 @@ items:
       description: The index of the added ProbHeadingLinkRow.
     content.vb: Public Function Add(row As ProbHeadingLinkRow) As Integer
   overload: SuperOffice.CRM.Rows.ProbHeadingLinkRows.Add*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.ProbHeadingLinkRows.AddRange(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ProbHeadingLinkRow})
   commentId: M:SuperOffice.CRM.Rows.ProbHeadingLinkRows.AddRange(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ProbHeadingLinkRow})
   id: AddRange(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ProbHeadingLinkRow})
@@ -439,11 +456,13 @@ items:
   nameWithType: ProbHeadingLinkRows.AddRange(IEnumerable<ProbHeadingLinkRow>)
   fullName: SuperOffice.CRM.Rows.ProbHeadingLinkRows.AddRange(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.ProbHeadingLinkRow>)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Add a range of ProbHeadingLinkRow to the collection.
-  example: []
+  summary: "\nAdd a range of ProbHeadingLinkRow to the collection.\n"
   syntax:
     content: public ProbHeadingLinkRows AddRange(IEnumerable<ProbHeadingLinkRow> rows)
     parameters:
@@ -455,6 +474,10 @@ items:
     content.vb: Public Function AddRange(rows As IEnumerable(Of ProbHeadingLinkRow)) As ProbHeadingLinkRows
   overload: SuperOffice.CRM.Rows.ProbHeadingLinkRows.AddRange*
   nameWithType.vb: ProbHeadingLinkRows.AddRange(IEnumerable(Of ProbHeadingLinkRow))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
   fullName.vb: SuperOffice.CRM.Rows.ProbHeadingLinkRows.AddRange(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.ProbHeadingLinkRow))
   name.vb: AddRange(IEnumerable(Of ProbHeadingLinkRow))
 - uid: SuperOffice.CRM.Rows.ProbHeadingLinkRows.AddNew
@@ -468,18 +491,24 @@ items:
   nameWithType: ProbHeadingLinkRows.AddNew()
   fullName: SuperOffice.CRM.Rows.ProbHeadingLinkRows.AddNew()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Add a new instance of ProbHeadingLinkRow added to the collection.
-  example: []
+  summary: "\nAdd a new instance of ProbHeadingLinkRow added to the collection.\n"
   syntax:
     content: public ProbHeadingLinkRow AddNew()
     return:
       type: SuperOffice.CRM.Rows.ProbHeadingLinkRow
       description: A new instance of ProbHeadingLinkRow added to the collection.
-    content.vb: Public Function AddNew() As ProbHeadingLinkRow
+    content.vb: Public Function AddNew As ProbHeadingLinkRow
   overload: SuperOffice.CRM.Rows.ProbHeadingLinkRows.AddNew*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.ProbHeadingLinkRows.Remove(SuperOffice.CRM.Rows.ProbHeadingLinkRow)
   commentId: M:SuperOffice.CRM.Rows.ProbHeadingLinkRows.Remove(SuperOffice.CRM.Rows.ProbHeadingLinkRow)
   id: Remove(SuperOffice.CRM.Rows.ProbHeadingLinkRow)
@@ -491,11 +520,13 @@ items:
   nameWithType: ProbHeadingLinkRows.Remove(ProbHeadingLinkRow)
   fullName: SuperOffice.CRM.Rows.ProbHeadingLinkRows.Remove(SuperOffice.CRM.Rows.ProbHeadingLinkRow)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Removes the given ProbHeadingLinkRow from the collection
-  example: []
+  summary: "\nRemoves the given ProbHeadingLinkRow from the collection\n"
   syntax:
     content: public void Remove(ProbHeadingLinkRow row)
     parameters:
@@ -504,6 +535,10 @@ items:
       description: the ProbHeadingLinkRow to be removed
     content.vb: Public Sub Remove(row As ProbHeadingLinkRow)
   overload: SuperOffice.CRM.Rows.ProbHeadingLinkRows.Remove*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.ProbHeadingLinkRows.CreateChild
   commentId: M:SuperOffice.CRM.Rows.ProbHeadingLinkRows.CreateChild
   id: CreateChild
@@ -515,19 +550,27 @@ items:
   nameWithType: ProbHeadingLinkRows.CreateChild()
   fullName: SuperOffice.CRM.Rows.ProbHeadingLinkRows.CreateChild()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Create a new instance of ProbHeadingLinkRow
-  example: []
+  summary: "\nCreate a new instance of ProbHeadingLinkRow\n"
   syntax:
     content: protected override TableRowBase CreateChild()
     return:
       type: SuperOffice.CRM.Rows.TableRowBase
       description: New instance of ProbHeadingLinkRow
-    content.vb: Protected Overrides Function CreateChild() As TableRowBase
+    content.vb: Protected Overrides Function CreateChild As TableRowBase
   overridden: SuperOffice.CRM.Rows.TableRowsBase.CreateChild
   overload: SuperOffice.CRM.Rows.ProbHeadingLinkRows.CreateChild*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
 - uid: SuperOffice.CRM.Rows.ProbHeadingLinkRows.ToArray
   commentId: M:SuperOffice.CRM.Rows.ProbHeadingLinkRows.ToArray
   id: ToArray
@@ -539,6 +582,9 @@ items:
   nameWithType: ProbHeadingLinkRows.ToArray()
   fullName: SuperOffice.CRM.Rows.ProbHeadingLinkRows.ToArray()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
@@ -546,8 +592,12 @@ items:
     content: public ProbHeadingLinkRow[] ToArray()
     return:
       type: SuperOffice.CRM.Rows.ProbHeadingLinkRow[]
-    content.vb: Public Function ToArray() As ProbHeadingLinkRow()
+    content.vb: Public Function ToArray As ProbHeadingLinkRow()
   overload: SuperOffice.CRM.Rows.ProbHeadingLinkRows.ToArray*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.ProbHeadingLinkRows.ToString
   commentId: M:SuperOffice.CRM.Rows.ProbHeadingLinkRows.ToString
   id: ToString
@@ -559,18 +609,25 @@ items:
   nameWithType: ProbHeadingLinkRows.ToString()
   fullName: SuperOffice.CRM.Rows.ProbHeadingLinkRows.ToString()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: 'For debugging: Number of members, and the first (up to) 5 items'
-  example: []
+  summary: "\nFor debugging: Number of members, and the first (up to) 5 items\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
-    content.vb: Public Overrides Function ToString() As String
-  overridden: System.Object.ToString
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.CRM.Rows.ProbHeadingLinkRows.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Rows.ProbHeadingLinkRows.Item(System.Int32)
   commentId: P:SuperOffice.CRM.Rows.ProbHeadingLinkRows.Item(System.Int32)
   id: Item(System.Int32)
@@ -578,15 +635,17 @@ items:
   langs:
   - csharp
   - vb
-  name: this[int]
-  nameWithType: ProbHeadingLinkRows.this[int]
-  fullName: SuperOffice.CRM.Rows.ProbHeadingLinkRows.this[int]
+  name: Item[Int32]
+  nameWithType: ProbHeadingLinkRows.Item[Int32]
+  fullName: SuperOffice.CRM.Rows.ProbHeadingLinkRows.Item[System.Int32]
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Get a ProbHeadingLinkRow given its index in the collection.
-  example: []
+  summary: "\nGet a ProbHeadingLinkRow given its index in the collection.\n"
   syntax:
     content: public ProbHeadingLinkRow this[int index] { get; }
     parameters:
@@ -595,192 +654,35 @@ items:
       description: Index of the ProbHeadingLinkRow in the collection
     return:
       type: SuperOffice.CRM.Rows.ProbHeadingLinkRow
-    content.vb: Public ReadOnly Default Property this[](index As Integer) As ProbHeadingLinkRow
+    content.vb: Public ReadOnly Property Item(index As Integer) As ProbHeadingLinkRow
   overload: SuperOffice.CRM.Rows.ProbHeadingLinkRows.Item*
-  nameWithType.vb: ProbHeadingLinkRows.this[](Integer)
-  fullName.vb: SuperOffice.CRM.Rows.ProbHeadingLinkRows.this[](Integer)
-  name.vb: this[](Integer)
+  nameWithType.vb: ProbHeadingLinkRows.Item(Int32)
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: SuperOffice.CRM.Rows.ProbHeadingLinkRows.Item(System.Int32)
+  name.vb: Item(Int32)
 references:
-- uid: SuperOffice.CRM.Rows.ProbHeadingLinkRows.CreateNew
-  commentId: M:SuperOffice.CRM.Rows.ProbHeadingLinkRows.CreateNew
-  isExternal: true
-  href: SuperOffice.CRM.Rows.ProbHeadingLinkRows.html#SuperOffice_CRM_Rows_ProbHeadingLinkRows_CreateNew
-  name: CreateNew()
-  nameWithType: ProbHeadingLinkRows.CreateNew()
-  fullName: SuperOffice.CRM.Rows.ProbHeadingLinkRows.CreateNew()
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ProbHeadingLinkRows.CreateNew
-    name: CreateNew
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ProbHeadingLinkRows.html#SuperOffice_CRM_Rows_ProbHeadingLinkRows_CreateNew
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.ProbHeadingLinkRows.CreateNew
-    name: CreateNew
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ProbHeadingLinkRows.html#SuperOffice_CRM_Rows_ProbHeadingLinkRows_CreateNew
-  - name: (
-  - name: )
-- uid: SuperOffice.CRM.Rows.ProbHeadingLinkRow
-  commentId: T:SuperOffice.CRM.Rows.ProbHeadingLinkRow
-  parent: SuperOffice.CRM.Rows
-  isExternal: true
-  href: SuperOffice.CRM.Rows.ProbHeadingLinkRow.html
-  name: ProbHeadingLinkRow
-  nameWithType: ProbHeadingLinkRow
-  fullName: SuperOffice.CRM.Rows.ProbHeadingLinkRow
-- uid: SuperOffice.CRM.Rows.ProbHeadingLinkRows.CustomSearch
-  commentId: T:SuperOffice.CRM.Rows.ProbHeadingLinkRows.CustomSearch
-  parent: SuperOffice.CRM.Rows
-  isExternal: true
-  href: SuperOffice.CRM.Rows.ProbHeadingLinkRows.html
-  name: ProbHeadingLinkRows.CustomSearch
-  nameWithType: ProbHeadingLinkRows.CustomSearch
-  fullName: SuperOffice.CRM.Rows.ProbHeadingLinkRows.CustomSearch
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ProbHeadingLinkRows
-    name: ProbHeadingLinkRows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ProbHeadingLinkRows.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows.ProbHeadingLinkRows.CustomSearch
-    name: CustomSearch
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ProbHeadingLinkRows.CustomSearch.html
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.ProbHeadingLinkRows
-    name: ProbHeadingLinkRows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ProbHeadingLinkRows.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows.ProbHeadingLinkRows.CustomSearch
-    name: CustomSearch
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ProbHeadingLinkRows.CustomSearch.html
-- uid: SuperOffice.CRM.Rows.ProbHeadingLinkRows.GetFromCustomSearch(SuperOffice.CRM.Rows.ProbHeadingLinkRows.CustomSearch)
-  commentId: M:SuperOffice.CRM.Rows.ProbHeadingLinkRows.GetFromCustomSearch(SuperOffice.CRM.Rows.ProbHeadingLinkRows.CustomSearch)
-  isExternal: true
-  href: SuperOffice.CRM.Rows.ProbHeadingLinkRows.html#SuperOffice_CRM_Rows_ProbHeadingLinkRows_GetFromCustomSearch_SuperOffice_CRM_Rows_ProbHeadingLinkRows_CustomSearch_
-  name: GetFromCustomSearch(CustomSearch)
-  nameWithType: ProbHeadingLinkRows.GetFromCustomSearch(ProbHeadingLinkRows.CustomSearch)
-  fullName: SuperOffice.CRM.Rows.ProbHeadingLinkRows.GetFromCustomSearch(SuperOffice.CRM.Rows.ProbHeadingLinkRows.CustomSearch)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ProbHeadingLinkRows.GetFromCustomSearch(SuperOffice.CRM.Rows.ProbHeadingLinkRows.CustomSearch)
-    name: GetFromCustomSearch
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ProbHeadingLinkRows.html#SuperOffice_CRM_Rows_ProbHeadingLinkRows_GetFromCustomSearch_SuperOffice_CRM_Rows_ProbHeadingLinkRows_CustomSearch_
-  - name: (
-  - uid: SuperOffice.CRM.Rows.ProbHeadingLinkRows.CustomSearch
-    name: CustomSearch
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ProbHeadingLinkRows.CustomSearch.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.ProbHeadingLinkRows.GetFromCustomSearch(SuperOffice.CRM.Rows.ProbHeadingLinkRows.CustomSearch)
-    name: GetFromCustomSearch
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ProbHeadingLinkRows.html#SuperOffice_CRM_Rows_ProbHeadingLinkRows_GetFromCustomSearch_SuperOffice_CRM_Rows_ProbHeadingLinkRows_CustomSearch_
-  - name: (
-  - uid: SuperOffice.CRM.Rows.ProbHeadingLinkRows.CustomSearch
-    name: CustomSearch
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ProbHeadingLinkRows.CustomSearch.html
-  - name: )
-- uid: SuperOffice.CRM.Rows.ProbHeadingLinkRows.GetFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.ProbHeadingLinkTableInfo)
-  commentId: M:SuperOffice.CRM.Rows.ProbHeadingLinkRows.GetFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.ProbHeadingLinkTableInfo)
-  isExternal: true
-  href: SuperOffice.CRM.Rows.ProbHeadingLinkRows.html#SuperOffice_CRM_Rows_ProbHeadingLinkRows_GetFromReader_SuperOffice_Data_SoDataReader_SuperOffice_CRM_Data_ProbHeadingLinkTableInfo_
-  name: GetFromReader(SoDataReader, ProbHeadingLinkTableInfo)
-  nameWithType: ProbHeadingLinkRows.GetFromReader(SoDataReader, ProbHeadingLinkTableInfo)
-  fullName: SuperOffice.CRM.Rows.ProbHeadingLinkRows.GetFromReader(SuperOffice.Data.SoDataReader, SuperOffice.CRM.Data.ProbHeadingLinkTableInfo)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ProbHeadingLinkRows.GetFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.ProbHeadingLinkTableInfo)
-    name: GetFromReader
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ProbHeadingLinkRows.html#SuperOffice_CRM_Rows_ProbHeadingLinkRows_GetFromReader_SuperOffice_Data_SoDataReader_SuperOffice_CRM_Data_ProbHeadingLinkTableInfo_
-  - name: (
-  - uid: SuperOffice.Data.SoDataReader
-    name: SoDataReader
-    isExternal: true
-    href: SuperOffice.Data.SoDataReader.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Data.ProbHeadingLinkTableInfo
-    name: ProbHeadingLinkTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.ProbHeadingLinkTableInfo.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.ProbHeadingLinkRows.GetFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.ProbHeadingLinkTableInfo)
-    name: GetFromReader
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ProbHeadingLinkRows.html#SuperOffice_CRM_Rows_ProbHeadingLinkRows_GetFromReader_SuperOffice_Data_SoDataReader_SuperOffice_CRM_Data_ProbHeadingLinkTableInfo_
-  - name: (
-  - uid: SuperOffice.Data.SoDataReader
-    name: SoDataReader
-    isExternal: true
-    href: SuperOffice.Data.SoDataReader.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Data.ProbHeadingLinkTableInfo
-    name: ProbHeadingLinkTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.ProbHeadingLinkTableInfo.html
-  - name: )
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows
-    name: Rows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows
-    name: Rows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.NestedPersist
   commentId: T:SuperOffice.Data.NestedPersist
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.NestedPersist.html
   name: NestedPersist
   nameWithType: NestedPersist
   fullName: SuperOffice.Data.NestedPersist
@@ -788,7 +690,6 @@ references:
   commentId: T:SuperOffice.Data.NestedPersistFacade
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.NestedPersistFacade.html
   name: NestedPersistFacade
   nameWithType: NestedPersistFacade
   fullName: SuperOffice.Data.NestedPersistFacade
@@ -796,7 +697,6 @@ references:
   commentId: T:SuperOffice.Data.NestedCollectionPersist
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.NestedCollectionPersist.html
   name: NestedCollectionPersist
   nameWithType: NestedCollectionPersist
   fullName: SuperOffice.Data.NestedCollectionPersist
@@ -804,7 +704,6 @@ references:
   commentId: T:SuperOffice.CRM.Rows.TableRowsBase
   parent: SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.CRM.Rows.TableRowsBase.html
   name: TableRowsBase
   nameWithType: TableRowsBase
   fullName: SuperOffice.CRM.Rows.TableRowsBase
@@ -812,15 +711,12 @@ references:
   commentId: T:SuperOffice.Data.INestedPersist
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.INestedPersist.html
   name: INestedPersist
   nameWithType: INestedPersist
   fullName: SuperOffice.Data.INestedPersist
 - uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.INestedPersist}
-  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.Data.INestedPersist}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Data.INestedPersist}'
   definition: System.Collections.Generic.IEnumerable`1
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   name: IEnumerable<INestedPersist>
   nameWithType: IEnumerable<INestedPersist>
   fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.INestedPersist>
@@ -830,80 +726,73 @@ references:
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.Data.INestedPersist
     name: INestedPersist
+    nameWithType: INestedPersist
+    fullName: SuperOffice.Data.INestedPersist
     isExternal: true
-    href: SuperOffice.Data.INestedPersist.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.Data.INestedPersist
     name: INestedPersist
+    nameWithType: INestedPersist
+    fullName: SuperOffice.Data.INestedPersist
     isExternal: true
-    href: SuperOffice.Data.INestedPersist.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.ISoCollection
   commentId: T:SuperOffice.Data.ISoCollection
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ISoCollection.html
   name: ISoCollection
   nameWithType: ISoCollection
   fullName: SuperOffice.Data.ISoCollection
-- uid: System.Collections.Specialized.INotifyCollectionChanged
-  commentId: T:System.Collections.Specialized.INotifyCollectionChanged
-  parent: System.Collections.Specialized
+- uid: System.Collections.IEnumerable
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.specialized.inotifycollectionchanged
-  name: INotifyCollectionChanged
-  nameWithType: INotifyCollectionChanged
-  fullName: System.Collections.Specialized.INotifyCollectionChanged
-- uid: System.ComponentModel.IBindingList
-  commentId: T:System.ComponentModel.IBindingList
-  parent: System.ComponentModel
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.ibindinglist
-  name: IBindingList
-  nameWithType: IBindingList
-  fullName: System.ComponentModel.IBindingList
+  name: IEnumerable
+  nameWithType: IEnumerable
+  fullName: System.Collections.IEnumerable
 - uid: System.Collections.IList
-  commentId: T:System.Collections.IList
-  parent: System.Collections
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.ilist
   name: IList
   nameWithType: IList
   fullName: System.Collections.IList
 - uid: System.Collections.ICollection
-  commentId: T:System.Collections.ICollection
-  parent: System.Collections
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.icollection
   name: ICollection
   nameWithType: ICollection
   fullName: System.Collections.ICollection
-- uid: System.Collections.IEnumerable
-  commentId: T:System.Collections.IEnumerable
-  parent: System.Collections
+- uid: System.Collections.Specialized.INotifyCollectionChanged
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerable
-  name: IEnumerable
-  nameWithType: IEnumerable
-  fullName: System.Collections.IEnumerable
+  name: INotifyCollectionChanged
+  nameWithType: INotifyCollectionChanged
+  fullName: System.Collections.Specialized.INotifyCollectionChanged
+- uid: System.ComponentModel.IBindingList
+  isExternal: true
+  name: IBindingList
+  nameWithType: IBindingList
+  fullName: System.ComponentModel.IBindingList
 - uid: SuperOffice.CRM.Rows.TableRowsBase._innerList
   commentId: F:SuperOffice.CRM.Rows.TableRowsBase._innerList
   parent: SuperOffice.CRM.Rows.TableRowsBase
   isExternal: true
-  href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase__innerList
   name: _innerList
   nameWithType: TableRowsBase._innerList
   fullName: SuperOffice.CRM.Rows.TableRowsBase._innerList
@@ -911,7 +800,6 @@ references:
   commentId: F:SuperOffice.CRM.Rows.TableRowsBase._allHasBeenMarkedForDelete
   parent: SuperOffice.CRM.Rows.TableRowsBase
   isExternal: true
-  href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase__allHasBeenMarkedForDelete
   name: _allHasBeenMarkedForDelete
   nameWithType: TableRowsBase._allHasBeenMarkedForDelete
   fullName: SuperOffice.CRM.Rows.TableRowsBase._allHasBeenMarkedForDelete
@@ -919,7 +807,6 @@ references:
   commentId: F:SuperOffice.CRM.Rows.TableRowsBase._sentries
   parent: SuperOffice.CRM.Rows.TableRowsBase
   isExternal: true
-  href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase__sentries
   name: _sentries
   nameWithType: TableRowsBase._sentries
   fullName: SuperOffice.CRM.Rows.TableRowsBase._sentries
@@ -927,7 +814,6 @@ references:
   commentId: F:SuperOffice.CRM.Rows.TableRowsBase._idx
   parent: SuperOffice.CRM.Rows.TableRowsBase
   isExternal: true
-  href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase__idx
   name: _idx
   nameWithType: TableRowsBase._idx
   fullName: SuperOffice.CRM.Rows.TableRowsBase._idx
@@ -935,622 +821,906 @@ references:
   commentId: M:SuperOffice.CRM.Rows.TableRowsBase.OnIndexChanged(SuperOffice.CRM.Rows.IdxBase)
   parent: SuperOffice.CRM.Rows.TableRowsBase
   isExternal: true
-  href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_OnIndexChanged_SuperOffice_CRM_Rows_IdxBase_
   name: OnIndexChanged(IdxBase)
   nameWithType: TableRowsBase.OnIndexChanged(IdxBase)
   fullName: SuperOffice.CRM.Rows.TableRowsBase.OnIndexChanged(SuperOffice.CRM.Rows.IdxBase)
   spec.csharp:
   - uid: SuperOffice.CRM.Rows.TableRowsBase.OnIndexChanged(SuperOffice.CRM.Rows.IdxBase)
     name: OnIndexChanged
+    nameWithType: TableRowsBase.OnIndexChanged
+    fullName: SuperOffice.CRM.Rows.TableRowsBase.OnIndexChanged
     isExternal: true
-    href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_OnIndexChanged_SuperOffice_CRM_Rows_IdxBase_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Rows.IdxBase
     name: IdxBase
+    nameWithType: IdxBase
+    fullName: SuperOffice.CRM.Rows.IdxBase
     isExternal: true
-    href: SuperOffice.CRM.Rows.IdxBase.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Rows.TableRowsBase.OnIndexChanged(SuperOffice.CRM.Rows.IdxBase)
     name: OnIndexChanged
+    nameWithType: TableRowsBase.OnIndexChanged
+    fullName: SuperOffice.CRM.Rows.TableRowsBase.OnIndexChanged
     isExternal: true
-    href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_OnIndexChanged_SuperOffice_CRM_Rows_IdxBase_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Rows.IdxBase
     name: IdxBase
+    nameWithType: IdxBase
+    fullName: SuperOffice.CRM.Rows.IdxBase
     isExternal: true
-    href: SuperOffice.CRM.Rows.IdxBase.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.TableRowsBase.Load(SuperOffice.CRM.Rows.IdxBase)
   commentId: M:SuperOffice.CRM.Rows.TableRowsBase.Load(SuperOffice.CRM.Rows.IdxBase)
   parent: SuperOffice.CRM.Rows.TableRowsBase
   isExternal: true
-  href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_Load_SuperOffice_CRM_Rows_IdxBase_
   name: Load(IdxBase)
   nameWithType: TableRowsBase.Load(IdxBase)
   fullName: SuperOffice.CRM.Rows.TableRowsBase.Load(SuperOffice.CRM.Rows.IdxBase)
   spec.csharp:
   - uid: SuperOffice.CRM.Rows.TableRowsBase.Load(SuperOffice.CRM.Rows.IdxBase)
     name: Load
+    nameWithType: TableRowsBase.Load
+    fullName: SuperOffice.CRM.Rows.TableRowsBase.Load
     isExternal: true
-    href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_Load_SuperOffice_CRM_Rows_IdxBase_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Rows.IdxBase
     name: IdxBase
+    nameWithType: IdxBase
+    fullName: SuperOffice.CRM.Rows.IdxBase
     isExternal: true
-    href: SuperOffice.CRM.Rows.IdxBase.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Rows.TableRowsBase.Load(SuperOffice.CRM.Rows.IdxBase)
     name: Load
+    nameWithType: TableRowsBase.Load
+    fullName: SuperOffice.CRM.Rows.TableRowsBase.Load
     isExternal: true
-    href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_Load_SuperOffice_CRM_Rows_IdxBase_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Rows.IdxBase
     name: IdxBase
+    nameWithType: IdxBase
+    fullName: SuperOffice.CRM.Rows.IdxBase
     isExternal: true
-    href: SuperOffice.CRM.Rows.IdxBase.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.TableRowsBase.RowsLoad
   commentId: M:SuperOffice.CRM.Rows.TableRowsBase.RowsLoad
   parent: SuperOffice.CRM.Rows.TableRowsBase
   isExternal: true
-  href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_RowsLoad
   name: RowsLoad()
   nameWithType: TableRowsBase.RowsLoad()
   fullName: SuperOffice.CRM.Rows.TableRowsBase.RowsLoad()
   spec.csharp:
   - uid: SuperOffice.CRM.Rows.TableRowsBase.RowsLoad
     name: RowsLoad
+    nameWithType: TableRowsBase.RowsLoad
+    fullName: SuperOffice.CRM.Rows.TableRowsBase.RowsLoad
     isExternal: true
-    href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_RowsLoad
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Rows.TableRowsBase.RowsLoad
     name: RowsLoad
+    nameWithType: TableRowsBase.RowsLoad
+    fullName: SuperOffice.CRM.Rows.TableRowsBase.RowsLoad
     isExternal: true
-    href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_RowsLoad
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.TableRowsBase.RowsLoad(SuperOffice.CRM.Rows.ITableRowLoadHandlerFactory)
   commentId: M:SuperOffice.CRM.Rows.TableRowsBase.RowsLoad(SuperOffice.CRM.Rows.ITableRowLoadHandlerFactory)
   parent: SuperOffice.CRM.Rows.TableRowsBase
   isExternal: true
-  href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_RowsLoad_SuperOffice_CRM_Rows_ITableRowLoadHandlerFactory_
   name: RowsLoad(ITableRowLoadHandlerFactory)
   nameWithType: TableRowsBase.RowsLoad(ITableRowLoadHandlerFactory)
   fullName: SuperOffice.CRM.Rows.TableRowsBase.RowsLoad(SuperOffice.CRM.Rows.ITableRowLoadHandlerFactory)
   spec.csharp:
   - uid: SuperOffice.CRM.Rows.TableRowsBase.RowsLoad(SuperOffice.CRM.Rows.ITableRowLoadHandlerFactory)
     name: RowsLoad
+    nameWithType: TableRowsBase.RowsLoad
+    fullName: SuperOffice.CRM.Rows.TableRowsBase.RowsLoad
     isExternal: true
-    href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_RowsLoad_SuperOffice_CRM_Rows_ITableRowLoadHandlerFactory_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Rows.ITableRowLoadHandlerFactory
     name: ITableRowLoadHandlerFactory
+    nameWithType: ITableRowLoadHandlerFactory
+    fullName: SuperOffice.CRM.Rows.ITableRowLoadHandlerFactory
     isExternal: true
-    href: SuperOffice.CRM.Rows.ITableRowLoadHandlerFactory.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Rows.TableRowsBase.RowsLoad(SuperOffice.CRM.Rows.ITableRowLoadHandlerFactory)
     name: RowsLoad
+    nameWithType: TableRowsBase.RowsLoad
+    fullName: SuperOffice.CRM.Rows.TableRowsBase.RowsLoad
     isExternal: true
-    href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_RowsLoad_SuperOffice_CRM_Rows_ITableRowLoadHandlerFactory_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Rows.ITableRowLoadHandlerFactory
     name: ITableRowLoadHandlerFactory
+    nameWithType: ITableRowLoadHandlerFactory
+    fullName: SuperOffice.CRM.Rows.ITableRowLoadHandlerFactory
     isExternal: true
-    href: SuperOffice.CRM.Rows.ITableRowLoadHandlerFactory.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.TableRowsBase.Delete
   commentId: M:SuperOffice.CRM.Rows.TableRowsBase.Delete
   parent: SuperOffice.CRM.Rows.TableRowsBase
   isExternal: true
-  href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_Delete
   name: Delete()
   nameWithType: TableRowsBase.Delete()
   fullName: SuperOffice.CRM.Rows.TableRowsBase.Delete()
   spec.csharp:
   - uid: SuperOffice.CRM.Rows.TableRowsBase.Delete
     name: Delete
+    nameWithType: TableRowsBase.Delete
+    fullName: SuperOffice.CRM.Rows.TableRowsBase.Delete
     isExternal: true
-    href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_Delete
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Rows.TableRowsBase.Delete
     name: Delete
+    nameWithType: TableRowsBase.Delete
+    fullName: SuperOffice.CRM.Rows.TableRowsBase.Delete
     isExternal: true
-    href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_Delete
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.TableRowsBase.GetEnumerator
   commentId: M:SuperOffice.CRM.Rows.TableRowsBase.GetEnumerator
   parent: SuperOffice.CRM.Rows.TableRowsBase
   isExternal: true
-  href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_GetEnumerator
   name: GetEnumerator()
   nameWithType: TableRowsBase.GetEnumerator()
   fullName: SuperOffice.CRM.Rows.TableRowsBase.GetEnumerator()
   spec.csharp:
   - uid: SuperOffice.CRM.Rows.TableRowsBase.GetEnumerator
     name: GetEnumerator
+    nameWithType: TableRowsBase.GetEnumerator
+    fullName: SuperOffice.CRM.Rows.TableRowsBase.GetEnumerator
     isExternal: true
-    href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_GetEnumerator
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Rows.TableRowsBase.GetEnumerator
     name: GetEnumerator
+    nameWithType: TableRowsBase.GetEnumerator
+    fullName: SuperOffice.CRM.Rows.TableRowsBase.GetEnumerator
     isExternal: true
-    href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_GetEnumerator
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.TableRowsBase.Add(SuperOffice.CRM.Rows.TableRowBase)
   commentId: M:SuperOffice.CRM.Rows.TableRowsBase.Add(SuperOffice.CRM.Rows.TableRowBase)
   parent: SuperOffice.CRM.Rows.TableRowsBase
   isExternal: true
-  href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_Add_SuperOffice_CRM_Rows_TableRowBase_
   name: Add(TableRowBase)
   nameWithType: TableRowsBase.Add(TableRowBase)
   fullName: SuperOffice.CRM.Rows.TableRowsBase.Add(SuperOffice.CRM.Rows.TableRowBase)
   spec.csharp:
   - uid: SuperOffice.CRM.Rows.TableRowsBase.Add(SuperOffice.CRM.Rows.TableRowBase)
     name: Add
+    nameWithType: TableRowsBase.Add
+    fullName: SuperOffice.CRM.Rows.TableRowsBase.Add
     isExternal: true
-    href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_Add_SuperOffice_CRM_Rows_TableRowBase_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Rows.TableRowBase
     name: TableRowBase
+    nameWithType: TableRowBase
+    fullName: SuperOffice.CRM.Rows.TableRowBase
     isExternal: true
-    href: SuperOffice.CRM.Rows.TableRowBase.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Rows.TableRowsBase.Add(SuperOffice.CRM.Rows.TableRowBase)
     name: Add
+    nameWithType: TableRowsBase.Add
+    fullName: SuperOffice.CRM.Rows.TableRowsBase.Add
     isExternal: true
-    href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_Add_SuperOffice_CRM_Rows_TableRowBase_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Rows.TableRowBase
     name: TableRowBase
+    nameWithType: TableRowBase
+    fullName: SuperOffice.CRM.Rows.TableRowBase
     isExternal: true
-    href: SuperOffice.CRM.Rows.TableRowBase.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.TableRowsBase.Remove(SuperOffice.CRM.Rows.TableRowBase)
   commentId: M:SuperOffice.CRM.Rows.TableRowsBase.Remove(SuperOffice.CRM.Rows.TableRowBase)
   parent: SuperOffice.CRM.Rows.TableRowsBase
   isExternal: true
-  href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_Remove_SuperOffice_CRM_Rows_TableRowBase_
   name: Remove(TableRowBase)
   nameWithType: TableRowsBase.Remove(TableRowBase)
   fullName: SuperOffice.CRM.Rows.TableRowsBase.Remove(SuperOffice.CRM.Rows.TableRowBase)
   spec.csharp:
   - uid: SuperOffice.CRM.Rows.TableRowsBase.Remove(SuperOffice.CRM.Rows.TableRowBase)
     name: Remove
+    nameWithType: TableRowsBase.Remove
+    fullName: SuperOffice.CRM.Rows.TableRowsBase.Remove
     isExternal: true
-    href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_Remove_SuperOffice_CRM_Rows_TableRowBase_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Rows.TableRowBase
     name: TableRowBase
+    nameWithType: TableRowBase
+    fullName: SuperOffice.CRM.Rows.TableRowBase
     isExternal: true
-    href: SuperOffice.CRM.Rows.TableRowBase.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Rows.TableRowsBase.Remove(SuperOffice.CRM.Rows.TableRowBase)
     name: Remove
+    nameWithType: TableRowsBase.Remove
+    fullName: SuperOffice.CRM.Rows.TableRowsBase.Remove
     isExternal: true
-    href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_Remove_SuperOffice_CRM_Rows_TableRowBase_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Rows.TableRowBase
     name: TableRowBase
+    nameWithType: TableRowBase
+    fullName: SuperOffice.CRM.Rows.TableRowBase
     isExternal: true
-    href: SuperOffice.CRM.Rows.TableRowBase.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.TableRowsBase.Clear
   commentId: M:SuperOffice.CRM.Rows.TableRowsBase.Clear
   parent: SuperOffice.CRM.Rows.TableRowsBase
   isExternal: true
-  href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_Clear
   name: Clear()
   nameWithType: TableRowsBase.Clear()
   fullName: SuperOffice.CRM.Rows.TableRowsBase.Clear()
   spec.csharp:
   - uid: SuperOffice.CRM.Rows.TableRowsBase.Clear
     name: Clear
+    nameWithType: TableRowsBase.Clear
+    fullName: SuperOffice.CRM.Rows.TableRowsBase.Clear
     isExternal: true
-    href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_Clear
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Rows.TableRowsBase.Clear
     name: Clear
+    nameWithType: TableRowsBase.Clear
+    fullName: SuperOffice.CRM.Rows.TableRowsBase.Clear
     isExternal: true
-    href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_Clear
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.TableRowsBase.Sort(System.Collections.IComparer)
   commentId: M:SuperOffice.CRM.Rows.TableRowsBase.Sort(System.Collections.IComparer)
   parent: SuperOffice.CRM.Rows.TableRowsBase
   isExternal: true
-  href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_Sort_System_Collections_IComparer_
   name: Sort(IComparer)
   nameWithType: TableRowsBase.Sort(IComparer)
   fullName: SuperOffice.CRM.Rows.TableRowsBase.Sort(System.Collections.IComparer)
   spec.csharp:
   - uid: SuperOffice.CRM.Rows.TableRowsBase.Sort(System.Collections.IComparer)
     name: Sort
+    nameWithType: TableRowsBase.Sort
+    fullName: SuperOffice.CRM.Rows.TableRowsBase.Sort
     isExternal: true
-    href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_Sort_System_Collections_IComparer_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Collections.IComparer
     name: IComparer
+    nameWithType: IComparer
+    fullName: System.Collections.IComparer
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.icomparer
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Rows.TableRowsBase.Sort(System.Collections.IComparer)
     name: Sort
+    nameWithType: TableRowsBase.Sort
+    fullName: SuperOffice.CRM.Rows.TableRowsBase.Sort
     isExternal: true
-    href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_Sort_System_Collections_IComparer_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Collections.IComparer
     name: IComparer
+    nameWithType: IComparer
+    fullName: System.Collections.IComparer
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.icomparer
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.TableRowsBase.GetPrimaryKeys
   commentId: M:SuperOffice.CRM.Rows.TableRowsBase.GetPrimaryKeys
   parent: SuperOffice.CRM.Rows.TableRowsBase
   isExternal: true
-  href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_GetPrimaryKeys
   name: GetPrimaryKeys()
   nameWithType: TableRowsBase.GetPrimaryKeys()
   fullName: SuperOffice.CRM.Rows.TableRowsBase.GetPrimaryKeys()
   spec.csharp:
   - uid: SuperOffice.CRM.Rows.TableRowsBase.GetPrimaryKeys
     name: GetPrimaryKeys
+    nameWithType: TableRowsBase.GetPrimaryKeys
+    fullName: SuperOffice.CRM.Rows.TableRowsBase.GetPrimaryKeys
     isExternal: true
-    href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_GetPrimaryKeys
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Rows.TableRowsBase.GetPrimaryKeys
     name: GetPrimaryKeys
+    nameWithType: TableRowsBase.GetPrimaryKeys
+    fullName: SuperOffice.CRM.Rows.TableRowsBase.GetPrimaryKeys
     isExternal: true
-    href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_GetPrimaryKeys
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.TableRowsBase.OnAdded(System.Object,System.Int32)
   commentId: M:SuperOffice.CRM.Rows.TableRowsBase.OnAdded(System.Object,System.Int32)
   parent: SuperOffice.CRM.Rows.TableRowsBase
   isExternal: true
-  href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_OnAdded_System_Object_System_Int32_
-  name: OnAdded(object, int)
-  nameWithType: TableRowsBase.OnAdded(object, int)
-  fullName: SuperOffice.CRM.Rows.TableRowsBase.OnAdded(object, int)
-  nameWithType.vb: TableRowsBase.OnAdded(Object, Integer)
-  fullName.vb: SuperOffice.CRM.Rows.TableRowsBase.OnAdded(Object, Integer)
-  name.vb: OnAdded(Object, Integer)
+  name: OnAdded(Object, Int32)
+  nameWithType: TableRowsBase.OnAdded(Object, Int32)
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.OnAdded(System.Object, System.Int32)
   spec.csharp:
   - uid: SuperOffice.CRM.Rows.TableRowsBase.OnAdded(System.Object,System.Int32)
     name: OnAdded
+    nameWithType: TableRowsBase.OnAdded
+    fullName: SuperOffice.CRM.Rows.TableRowsBase.OnAdded
     isExternal: true
-    href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_OnAdded_System_Object_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Object
-    name: object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Rows.TableRowsBase.OnAdded(System.Object,System.Int32)
     name: OnAdded
+    nameWithType: TableRowsBase.OnAdded
+    fullName: SuperOffice.CRM.Rows.TableRowsBase.OnAdded
     isExternal: true
-    href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_OnAdded_System_Object_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Object
     name: Object
+    nameWithType: Object
+    fullName: System.Object
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TableRowsBase.SuperOffice#Data#ISoCollection#Add(SuperOffice.Data.ISoItem)
+  commentId: M:SuperOffice.CRM.Rows.TableRowsBase.SuperOffice#Data#ISoCollection#Add(SuperOffice.Data.ISoItem)
+  parent: SuperOffice.CRM.Rows.TableRowsBase
+  isExternal: true
+  name: ISoCollection.Add(ISoItem)
+  nameWithType: TableRowsBase.ISoCollection.Add(ISoItem)
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.SuperOffice.Data.ISoCollection.Add(SuperOffice.Data.ISoItem)
+  nameWithType.vb: TableRowsBase.SuperOffice.Data.ISoCollection.Add(ISoItem)
+  name.vb: SuperOffice.Data.ISoCollection.Add(ISoItem)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TableRowsBase.SuperOffice#Data#ISoCollection#Add(SuperOffice.Data.ISoItem)
+    name: ISoCollection.Add
+    nameWithType: TableRowsBase.ISoCollection.Add
+    fullName: SuperOffice.CRM.Rows.TableRowsBase.SuperOffice.Data.ISoCollection.Add
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.ISoItem
+    name: ISoItem
+    nameWithType: ISoItem
+    fullName: SuperOffice.Data.ISoItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TableRowsBase.SuperOffice#Data#ISoCollection#Add(SuperOffice.Data.ISoItem)
+    name: SuperOffice.Data.ISoCollection.Add
+    nameWithType: TableRowsBase.SuperOffice.Data.ISoCollection.Add
+    fullName: SuperOffice.CRM.Rows.TableRowsBase.SuperOffice.Data.ISoCollection.Add
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.ISoItem
+    name: ISoItem
+    nameWithType: ISoItem
+    fullName: SuperOffice.Data.ISoItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TableRowsBase.SuperOffice#Data#ISoCollection#AddNew
+  commentId: M:SuperOffice.CRM.Rows.TableRowsBase.SuperOffice#Data#ISoCollection#AddNew
+  parent: SuperOffice.CRM.Rows.TableRowsBase
+  isExternal: true
+  name: ISoCollection.AddNew()
+  nameWithType: TableRowsBase.ISoCollection.AddNew()
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.SuperOffice.Data.ISoCollection.AddNew()
+  nameWithType.vb: TableRowsBase.SuperOffice.Data.ISoCollection.AddNew()
+  name.vb: SuperOffice.Data.ISoCollection.AddNew()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TableRowsBase.SuperOffice#Data#ISoCollection#AddNew
+    name: ISoCollection.AddNew
+    nameWithType: TableRowsBase.ISoCollection.AddNew
+    fullName: SuperOffice.CRM.Rows.TableRowsBase.SuperOffice.Data.ISoCollection.AddNew
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TableRowsBase.SuperOffice#Data#ISoCollection#AddNew
+    name: SuperOffice.Data.ISoCollection.AddNew
+    nameWithType: TableRowsBase.SuperOffice.Data.ISoCollection.AddNew
+    fullName: SuperOffice.CRM.Rows.TableRowsBase.SuperOffice.Data.ISoCollection.AddNew
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.TableRowsBase.CopyTo(System.Array,System.Int32)
   commentId: M:SuperOffice.CRM.Rows.TableRowsBase.CopyTo(System.Array,System.Int32)
   parent: SuperOffice.CRM.Rows.TableRowsBase
   isExternal: true
-  href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_CopyTo_System_Array_System_Int32_
-  name: CopyTo(Array, int)
-  nameWithType: TableRowsBase.CopyTo(Array, int)
-  fullName: SuperOffice.CRM.Rows.TableRowsBase.CopyTo(System.Array, int)
-  nameWithType.vb: TableRowsBase.CopyTo(Array, Integer)
-  fullName.vb: SuperOffice.CRM.Rows.TableRowsBase.CopyTo(System.Array, Integer)
-  name.vb: CopyTo(Array, Integer)
+  name: CopyTo(Array, Int32)
+  nameWithType: TableRowsBase.CopyTo(Array, Int32)
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.CopyTo(System.Array, System.Int32)
   spec.csharp:
   - uid: SuperOffice.CRM.Rows.TableRowsBase.CopyTo(System.Array,System.Int32)
     name: CopyTo
+    nameWithType: TableRowsBase.CopyTo
+    fullName: SuperOffice.CRM.Rows.TableRowsBase.CopyTo
     isExternal: true
-    href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_CopyTo_System_Array_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Array
     name: Array
+    nameWithType: Array
+    fullName: System.Array
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.array
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Rows.TableRowsBase.CopyTo(System.Array,System.Int32)
     name: CopyTo
+    nameWithType: TableRowsBase.CopyTo
+    fullName: SuperOffice.CRM.Rows.TableRowsBase.CopyTo
     isExternal: true
-    href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_CopyTo_System_Array_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Array
     name: Array
+    nameWithType: Array
+    fullName: System.Array
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.array
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.TableRowsBase.IndexOf(System.Object)
   commentId: M:SuperOffice.CRM.Rows.TableRowsBase.IndexOf(System.Object)
   parent: SuperOffice.CRM.Rows.TableRowsBase
   isExternal: true
-  href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_IndexOf_System_Object_
-  name: IndexOf(object)
-  nameWithType: TableRowsBase.IndexOf(object)
-  fullName: SuperOffice.CRM.Rows.TableRowsBase.IndexOf(object)
-  nameWithType.vb: TableRowsBase.IndexOf(Object)
-  fullName.vb: SuperOffice.CRM.Rows.TableRowsBase.IndexOf(Object)
-  name.vb: IndexOf(Object)
+  name: IndexOf(Object)
+  nameWithType: TableRowsBase.IndexOf(Object)
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.IndexOf(System.Object)
   spec.csharp:
   - uid: SuperOffice.CRM.Rows.TableRowsBase.IndexOf(System.Object)
     name: IndexOf
+    nameWithType: TableRowsBase.IndexOf
+    fullName: SuperOffice.CRM.Rows.TableRowsBase.IndexOf
     isExternal: true
-    href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_IndexOf_System_Object_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Object
-    name: object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Rows.TableRowsBase.IndexOf(System.Object)
     name: IndexOf
+    nameWithType: TableRowsBase.IndexOf
+    fullName: SuperOffice.CRM.Rows.TableRowsBase.IndexOf
     isExternal: true
-    href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_IndexOf_System_Object_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Object
     name: Object
+    nameWithType: Object
+    fullName: System.Object
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.TableRowsBase.Contains(System.Object)
   commentId: M:SuperOffice.CRM.Rows.TableRowsBase.Contains(System.Object)
   parent: SuperOffice.CRM.Rows.TableRowsBase
   isExternal: true
-  href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_Contains_System_Object_
-  name: Contains(object)
-  nameWithType: TableRowsBase.Contains(object)
-  fullName: SuperOffice.CRM.Rows.TableRowsBase.Contains(object)
-  nameWithType.vb: TableRowsBase.Contains(Object)
-  fullName.vb: SuperOffice.CRM.Rows.TableRowsBase.Contains(Object)
-  name.vb: Contains(Object)
+  name: Contains(Object)
+  nameWithType: TableRowsBase.Contains(Object)
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.Contains(System.Object)
   spec.csharp:
   - uid: SuperOffice.CRM.Rows.TableRowsBase.Contains(System.Object)
     name: Contains
+    nameWithType: TableRowsBase.Contains
+    fullName: SuperOffice.CRM.Rows.TableRowsBase.Contains
     isExternal: true
-    href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_Contains_System_Object_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Object
-    name: object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Rows.TableRowsBase.Contains(System.Object)
     name: Contains
+    nameWithType: TableRowsBase.Contains
+    fullName: SuperOffice.CRM.Rows.TableRowsBase.Contains
     isExternal: true
-    href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_Contains_System_Object_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Object
     name: Object
+    nameWithType: Object
+    fullName: System.Object
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.TableRowsBase.AddIndex(System.ComponentModel.PropertyDescriptor)
   commentId: M:SuperOffice.CRM.Rows.TableRowsBase.AddIndex(System.ComponentModel.PropertyDescriptor)
   parent: SuperOffice.CRM.Rows.TableRowsBase
   isExternal: true
-  href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_AddIndex_System_ComponentModel_PropertyDescriptor_
   name: AddIndex(PropertyDescriptor)
   nameWithType: TableRowsBase.AddIndex(PropertyDescriptor)
   fullName: SuperOffice.CRM.Rows.TableRowsBase.AddIndex(System.ComponentModel.PropertyDescriptor)
   spec.csharp:
   - uid: SuperOffice.CRM.Rows.TableRowsBase.AddIndex(System.ComponentModel.PropertyDescriptor)
     name: AddIndex
+    nameWithType: TableRowsBase.AddIndex
+    fullName: SuperOffice.CRM.Rows.TableRowsBase.AddIndex
     isExternal: true
-    href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_AddIndex_System_ComponentModel_PropertyDescriptor_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.ComponentModel.PropertyDescriptor
     name: PropertyDescriptor
+    nameWithType: PropertyDescriptor
+    fullName: System.ComponentModel.PropertyDescriptor
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.componentmodel.propertydescriptor
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Rows.TableRowsBase.AddIndex(System.ComponentModel.PropertyDescriptor)
     name: AddIndex
+    nameWithType: TableRowsBase.AddIndex
+    fullName: SuperOffice.CRM.Rows.TableRowsBase.AddIndex
     isExternal: true
-    href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_AddIndex_System_ComponentModel_PropertyDescriptor_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.ComponentModel.PropertyDescriptor
     name: PropertyDescriptor
+    nameWithType: PropertyDescriptor
+    fullName: System.ComponentModel.PropertyDescriptor
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.componentmodel.propertydescriptor
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.TableRowsBase.ApplySort(System.ComponentModel.PropertyDescriptor,System.ComponentModel.ListSortDirection)
   commentId: M:SuperOffice.CRM.Rows.TableRowsBase.ApplySort(System.ComponentModel.PropertyDescriptor,System.ComponentModel.ListSortDirection)
   parent: SuperOffice.CRM.Rows.TableRowsBase
   isExternal: true
-  href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_ApplySort_System_ComponentModel_PropertyDescriptor_System_ComponentModel_ListSortDirection_
   name: ApplySort(PropertyDescriptor, ListSortDirection)
   nameWithType: TableRowsBase.ApplySort(PropertyDescriptor, ListSortDirection)
   fullName: SuperOffice.CRM.Rows.TableRowsBase.ApplySort(System.ComponentModel.PropertyDescriptor, System.ComponentModel.ListSortDirection)
   spec.csharp:
   - uid: SuperOffice.CRM.Rows.TableRowsBase.ApplySort(System.ComponentModel.PropertyDescriptor,System.ComponentModel.ListSortDirection)
     name: ApplySort
+    nameWithType: TableRowsBase.ApplySort
+    fullName: SuperOffice.CRM.Rows.TableRowsBase.ApplySort
     isExternal: true
-    href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_ApplySort_System_ComponentModel_PropertyDescriptor_System_ComponentModel_ListSortDirection_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.ComponentModel.PropertyDescriptor
     name: PropertyDescriptor
+    nameWithType: PropertyDescriptor
+    fullName: System.ComponentModel.PropertyDescriptor
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.componentmodel.propertydescriptor
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.ComponentModel.ListSortDirection
     name: ListSortDirection
+    nameWithType: ListSortDirection
+    fullName: System.ComponentModel.ListSortDirection
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.componentmodel.listsortdirection
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Rows.TableRowsBase.ApplySort(System.ComponentModel.PropertyDescriptor,System.ComponentModel.ListSortDirection)
     name: ApplySort
+    nameWithType: TableRowsBase.ApplySort
+    fullName: SuperOffice.CRM.Rows.TableRowsBase.ApplySort
     isExternal: true
-    href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_ApplySort_System_ComponentModel_PropertyDescriptor_System_ComponentModel_ListSortDirection_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.ComponentModel.PropertyDescriptor
     name: PropertyDescriptor
+    nameWithType: PropertyDescriptor
+    fullName: System.ComponentModel.PropertyDescriptor
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.componentmodel.propertydescriptor
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.ComponentModel.ListSortDirection
     name: ListSortDirection
+    nameWithType: ListSortDirection
+    fullName: System.ComponentModel.ListSortDirection
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.componentmodel.listsortdirection
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.TableRowsBase.Find(System.ComponentModel.PropertyDescriptor,System.Object)
   commentId: M:SuperOffice.CRM.Rows.TableRowsBase.Find(System.ComponentModel.PropertyDescriptor,System.Object)
   parent: SuperOffice.CRM.Rows.TableRowsBase
   isExternal: true
-  href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_Find_System_ComponentModel_PropertyDescriptor_System_Object_
-  name: Find(PropertyDescriptor, object)
-  nameWithType: TableRowsBase.Find(PropertyDescriptor, object)
-  fullName: SuperOffice.CRM.Rows.TableRowsBase.Find(System.ComponentModel.PropertyDescriptor, object)
-  nameWithType.vb: TableRowsBase.Find(PropertyDescriptor, Object)
-  fullName.vb: SuperOffice.CRM.Rows.TableRowsBase.Find(System.ComponentModel.PropertyDescriptor, Object)
-  name.vb: Find(PropertyDescriptor, Object)
+  name: Find(PropertyDescriptor, Object)
+  nameWithType: TableRowsBase.Find(PropertyDescriptor, Object)
+  fullName: SuperOffice.CRM.Rows.TableRowsBase.Find(System.ComponentModel.PropertyDescriptor, System.Object)
   spec.csharp:
   - uid: SuperOffice.CRM.Rows.TableRowsBase.Find(System.ComponentModel.PropertyDescriptor,System.Object)
     name: Find
+    nameWithType: TableRowsBase.Find
+    fullName: SuperOffice.CRM.Rows.TableRowsBase.Find
     isExternal: true
-    href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_Find_System_ComponentModel_PropertyDescriptor_System_Object_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.ComponentModel.PropertyDescriptor
     name: PropertyDescriptor
+    nameWithType: PropertyDescriptor
+    fullName: System.ComponentModel.PropertyDescriptor
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.componentmodel.propertydescriptor
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Object
-    name: object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Rows.TableRowsBase.Find(System.ComponentModel.PropertyDescriptor,System.Object)
     name: Find
+    nameWithType: TableRowsBase.Find
+    fullName: SuperOffice.CRM.Rows.TableRowsBase.Find
     isExternal: true
-    href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_Find_System_ComponentModel_PropertyDescriptor_System_Object_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.ComponentModel.PropertyDescriptor
     name: PropertyDescriptor
+    nameWithType: PropertyDescriptor
+    fullName: System.ComponentModel.PropertyDescriptor
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.componentmodel.propertydescriptor
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Object
     name: Object
+    nameWithType: Object
+    fullName: System.Object
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.TableRowsBase.RemoveIndex(System.ComponentModel.PropertyDescriptor)
   commentId: M:SuperOffice.CRM.Rows.TableRowsBase.RemoveIndex(System.ComponentModel.PropertyDescriptor)
   parent: SuperOffice.CRM.Rows.TableRowsBase
   isExternal: true
-  href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_RemoveIndex_System_ComponentModel_PropertyDescriptor_
   name: RemoveIndex(PropertyDescriptor)
   nameWithType: TableRowsBase.RemoveIndex(PropertyDescriptor)
   fullName: SuperOffice.CRM.Rows.TableRowsBase.RemoveIndex(System.ComponentModel.PropertyDescriptor)
   spec.csharp:
   - uid: SuperOffice.CRM.Rows.TableRowsBase.RemoveIndex(System.ComponentModel.PropertyDescriptor)
     name: RemoveIndex
+    nameWithType: TableRowsBase.RemoveIndex
+    fullName: SuperOffice.CRM.Rows.TableRowsBase.RemoveIndex
     isExternal: true
-    href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_RemoveIndex_System_ComponentModel_PropertyDescriptor_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.ComponentModel.PropertyDescriptor
     name: PropertyDescriptor
+    nameWithType: PropertyDescriptor
+    fullName: System.ComponentModel.PropertyDescriptor
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.componentmodel.propertydescriptor
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Rows.TableRowsBase.RemoveIndex(System.ComponentModel.PropertyDescriptor)
     name: RemoveIndex
+    nameWithType: TableRowsBase.RemoveIndex
+    fullName: SuperOffice.CRM.Rows.TableRowsBase.RemoveIndex
     isExternal: true
-    href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_RemoveIndex_System_ComponentModel_PropertyDescriptor_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.ComponentModel.PropertyDescriptor
     name: PropertyDescriptor
+    nameWithType: PropertyDescriptor
+    fullName: System.ComponentModel.PropertyDescriptor
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.componentmodel.propertydescriptor
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.TableRowsBase.RemoveSort
   commentId: M:SuperOffice.CRM.Rows.TableRowsBase.RemoveSort
   parent: SuperOffice.CRM.Rows.TableRowsBase
   isExternal: true
-  href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_RemoveSort
   name: RemoveSort()
   nameWithType: TableRowsBase.RemoveSort()
   fullName: SuperOffice.CRM.Rows.TableRowsBase.RemoveSort()
   spec.csharp:
   - uid: SuperOffice.CRM.Rows.TableRowsBase.RemoveSort
     name: RemoveSort
+    nameWithType: TableRowsBase.RemoveSort
+    fullName: SuperOffice.CRM.Rows.TableRowsBase.RemoveSort
     isExternal: true
-    href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_RemoveSort
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Rows.TableRowsBase.RemoveSort
     name: RemoveSort
+    nameWithType: TableRowsBase.RemoveSort
+    fullName: SuperOffice.CRM.Rows.TableRowsBase.RemoveSort
     isExternal: true
-    href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_RemoveSort
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.TableRowsBase.Sentries
   commentId: P:SuperOffice.CRM.Rows.TableRowsBase.Sentries
   parent: SuperOffice.CRM.Rows.TableRowsBase
   isExternal: true
-  href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_Sentries
   name: Sentries
   nameWithType: TableRowsBase.Sentries
   fullName: SuperOffice.CRM.Rows.TableRowsBase.Sentries
@@ -1558,7 +1728,6 @@ references:
   commentId: P:SuperOffice.CRM.Rows.TableRowsBase.IsDirty
   parent: SuperOffice.CRM.Rows.TableRowsBase
   isExternal: true
-  href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_IsDirty
   name: IsDirty
   nameWithType: TableRowsBase.IsDirty
   fullName: SuperOffice.CRM.Rows.TableRowsBase.IsDirty
@@ -1566,7 +1735,6 @@ references:
   commentId: P:SuperOffice.CRM.Rows.TableRowsBase.Index
   parent: SuperOffice.CRM.Rows.TableRowsBase
   isExternal: true
-  href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_Index
   name: Index
   nameWithType: TableRowsBase.Index
   fullName: SuperOffice.CRM.Rows.TableRowsBase.Index
@@ -1574,7 +1742,6 @@ references:
   commentId: P:SuperOffice.CRM.Rows.TableRowsBase.Count
   parent: SuperOffice.CRM.Rows.TableRowsBase
   isExternal: true
-  href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_Count
   name: Count
   nameWithType: TableRowsBase.Count
   fullName: SuperOffice.CRM.Rows.TableRowsBase.Count
@@ -1582,7 +1749,6 @@ references:
   commentId: P:SuperOffice.CRM.Rows.TableRowsBase.IsMarkedForDelete
   parent: SuperOffice.CRM.Rows.TableRowsBase
   isExternal: true
-  href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_IsMarkedForDelete
   name: IsMarkedForDelete
   nameWithType: TableRowsBase.IsMarkedForDelete
   fullName: SuperOffice.CRM.Rows.TableRowsBase.IsMarkedForDelete
@@ -1590,7 +1756,6 @@ references:
   commentId: P:SuperOffice.CRM.Rows.TableRowsBase.IsFixedSize
   parent: SuperOffice.CRM.Rows.TableRowsBase
   isExternal: true
-  href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_IsFixedSize
   name: IsFixedSize
   nameWithType: TableRowsBase.IsFixedSize
   fullName: SuperOffice.CRM.Rows.TableRowsBase.IsFixedSize
@@ -1598,7 +1763,6 @@ references:
   commentId: P:SuperOffice.CRM.Rows.TableRowsBase.IsReadOnly
   parent: SuperOffice.CRM.Rows.TableRowsBase
   isExternal: true
-  href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_IsReadOnly
   name: IsReadOnly
   nameWithType: TableRowsBase.IsReadOnly
   fullName: SuperOffice.CRM.Rows.TableRowsBase.IsReadOnly
@@ -1606,7 +1770,6 @@ references:
   commentId: P:SuperOffice.CRM.Rows.TableRowsBase.AllowEdit
   parent: SuperOffice.CRM.Rows.TableRowsBase
   isExternal: true
-  href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_AllowEdit
   name: AllowEdit
   nameWithType: TableRowsBase.AllowEdit
   fullName: SuperOffice.CRM.Rows.TableRowsBase.AllowEdit
@@ -1614,7 +1777,6 @@ references:
   commentId: P:SuperOffice.CRM.Rows.TableRowsBase.AllowNew
   parent: SuperOffice.CRM.Rows.TableRowsBase
   isExternal: true
-  href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_AllowNew
   name: AllowNew
   nameWithType: TableRowsBase.AllowNew
   fullName: SuperOffice.CRM.Rows.TableRowsBase.AllowNew
@@ -1622,7 +1784,6 @@ references:
   commentId: P:SuperOffice.CRM.Rows.TableRowsBase.AllowRemove
   parent: SuperOffice.CRM.Rows.TableRowsBase
   isExternal: true
-  href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_AllowRemove
   name: AllowRemove
   nameWithType: TableRowsBase.AllowRemove
   fullName: SuperOffice.CRM.Rows.TableRowsBase.AllowRemove
@@ -1630,7 +1791,6 @@ references:
   commentId: P:SuperOffice.CRM.Rows.TableRowsBase.IsSorted
   parent: SuperOffice.CRM.Rows.TableRowsBase
   isExternal: true
-  href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_IsSorted
   name: IsSorted
   nameWithType: TableRowsBase.IsSorted
   fullName: SuperOffice.CRM.Rows.TableRowsBase.IsSorted
@@ -1638,7 +1798,6 @@ references:
   commentId: P:SuperOffice.CRM.Rows.TableRowsBase.SortDirection
   parent: SuperOffice.CRM.Rows.TableRowsBase
   isExternal: true
-  href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_SortDirection
   name: SortDirection
   nameWithType: TableRowsBase.SortDirection
   fullName: SuperOffice.CRM.Rows.TableRowsBase.SortDirection
@@ -1646,7 +1805,6 @@ references:
   commentId: P:SuperOffice.CRM.Rows.TableRowsBase.SortProperty
   parent: SuperOffice.CRM.Rows.TableRowsBase
   isExternal: true
-  href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_SortProperty
   name: SortProperty
   nameWithType: TableRowsBase.SortProperty
   fullName: SuperOffice.CRM.Rows.TableRowsBase.SortProperty
@@ -1654,7 +1812,6 @@ references:
   commentId: P:SuperOffice.CRM.Rows.TableRowsBase.SupportsChangeNotification
   parent: SuperOffice.CRM.Rows.TableRowsBase
   isExternal: true
-  href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_SupportsChangeNotification
   name: SupportsChangeNotification
   nameWithType: TableRowsBase.SupportsChangeNotification
   fullName: SuperOffice.CRM.Rows.TableRowsBase.SupportsChangeNotification
@@ -1662,7 +1819,6 @@ references:
   commentId: P:SuperOffice.CRM.Rows.TableRowsBase.SupportsSearching
   parent: SuperOffice.CRM.Rows.TableRowsBase
   isExternal: true
-  href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_SupportsSearching
   name: SupportsSearching
   nameWithType: TableRowsBase.SupportsSearching
   fullName: SuperOffice.CRM.Rows.TableRowsBase.SupportsSearching
@@ -1670,7 +1826,6 @@ references:
   commentId: P:SuperOffice.CRM.Rows.TableRowsBase.SupportsSorting
   parent: SuperOffice.CRM.Rows.TableRowsBase
   isExternal: true
-  href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_SupportsSorting
   name: SupportsSorting
   nameWithType: TableRowsBase.SupportsSorting
   fullName: SuperOffice.CRM.Rows.TableRowsBase.SupportsSorting
@@ -1678,7 +1833,6 @@ references:
   commentId: E:SuperOffice.CRM.Rows.TableRowsBase._onCollectionChanged
   parent: SuperOffice.CRM.Rows.TableRowsBase
   isExternal: true
-  href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase__onCollectionChanged
   name: _onCollectionChanged
   nameWithType: TableRowsBase._onCollectionChanged
   fullName: SuperOffice.CRM.Rows.TableRowsBase._onCollectionChanged
@@ -1686,7 +1840,6 @@ references:
   commentId: E:SuperOffice.CRM.Rows.TableRowsBase.CollectionChanged
   parent: SuperOffice.CRM.Rows.TableRowsBase
   isExternal: true
-  href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_CollectionChanged
   name: CollectionChanged
   nameWithType: TableRowsBase.CollectionChanged
   fullName: SuperOffice.CRM.Rows.TableRowsBase.CollectionChanged
@@ -1694,7 +1847,6 @@ references:
   commentId: E:SuperOffice.CRM.Rows.TableRowsBase.ListChanged
   parent: SuperOffice.CRM.Rows.TableRowsBase
   isExternal: true
-  href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_ListChanged
   name: ListChanged
   nameWithType: TableRowsBase.ListChanged
   fullName: SuperOffice.CRM.Rows.TableRowsBase.ListChanged
@@ -1702,29 +1854,37 @@ references:
   commentId: M:SuperOffice.Data.NestedCollectionPersist.GetFacadingItems
   parent: SuperOffice.Data.NestedCollectionPersist
   isExternal: true
-  href: SuperOffice.Data.NestedCollectionPersist.html#SuperOffice_Data_NestedCollectionPersist_GetFacadingItems
   name: GetFacadingItems()
   nameWithType: NestedCollectionPersist.GetFacadingItems()
   fullName: SuperOffice.Data.NestedCollectionPersist.GetFacadingItems()
   spec.csharp:
   - uid: SuperOffice.Data.NestedCollectionPersist.GetFacadingItems
     name: GetFacadingItems
+    nameWithType: NestedCollectionPersist.GetFacadingItems
+    fullName: SuperOffice.Data.NestedCollectionPersist.GetFacadingItems
     isExternal: true
-    href: SuperOffice.Data.NestedCollectionPersist.html#SuperOffice_Data_NestedCollectionPersist_GetFacadingItems
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.NestedCollectionPersist.GetFacadingItems
     name: GetFacadingItems
+    nameWithType: NestedCollectionPersist.GetFacadingItems
+    fullName: SuperOffice.Data.NestedCollectionPersist.GetFacadingItems
     isExternal: true
-    href: SuperOffice.Data.NestedCollectionPersist.html#SuperOffice_Data_NestedCollectionPersist_GetFacadingItems
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.NestedCollectionPersist.IsDeleted
   commentId: P:SuperOffice.Data.NestedCollectionPersist.IsDeleted
   parent: SuperOffice.Data.NestedCollectionPersist
   isExternal: true
-  href: SuperOffice.Data.NestedCollectionPersist.html#SuperOffice_Data_NestedCollectionPersist_IsDeleted
   name: IsDeleted
   nameWithType: NestedCollectionPersist.IsDeleted
   fullName: SuperOffice.Data.NestedCollectionPersist.IsDeleted
@@ -1732,174 +1892,232 @@ references:
   commentId: M:SuperOffice.Data.NestedPersistFacade.OnPreIdUpdate
   parent: SuperOffice.Data.NestedPersistFacade
   isExternal: true
-  href: SuperOffice.Data.NestedPersistFacade.html#SuperOffice_Data_NestedPersistFacade_OnPreIdUpdate
   name: OnPreIdUpdate()
   nameWithType: NestedPersistFacade.OnPreIdUpdate()
   fullName: SuperOffice.Data.NestedPersistFacade.OnPreIdUpdate()
   spec.csharp:
   - uid: SuperOffice.Data.NestedPersistFacade.OnPreIdUpdate
     name: OnPreIdUpdate
+    nameWithType: NestedPersistFacade.OnPreIdUpdate
+    fullName: SuperOffice.Data.NestedPersistFacade.OnPreIdUpdate
     isExternal: true
-    href: SuperOffice.Data.NestedPersistFacade.html#SuperOffice_Data_NestedPersistFacade_OnPreIdUpdate
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.NestedPersistFacade.OnPreIdUpdate
     name: OnPreIdUpdate
+    nameWithType: NestedPersistFacade.OnPreIdUpdate
+    fullName: SuperOffice.Data.NestedPersistFacade.OnPreIdUpdate
     isExternal: true
-    href: SuperOffice.Data.NestedPersistFacade.html#SuperOffice_Data_NestedPersistFacade_OnPreIdUpdate
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
   commentId: M:SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
   parent: SuperOffice.Data.NestedPersistFacade
   isExternal: true
-  href: SuperOffice.Data.NestedPersistFacade.html#SuperOffice_Data_NestedPersistFacade_OnPrimaryKeyRequest_SuperOffice_Data_PKContainer_
   name: OnPrimaryKeyRequest(PKContainer)
   nameWithType: NestedPersistFacade.OnPrimaryKeyRequest(PKContainer)
   fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
   spec.csharp:
   - uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
     name: OnPrimaryKeyRequest
+    nameWithType: NestedPersistFacade.OnPrimaryKeyRequest
+    fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequest
     isExternal: true
-    href: SuperOffice.Data.NestedPersistFacade.html#SuperOffice_Data_NestedPersistFacade_OnPrimaryKeyRequest_SuperOffice_Data_PKContainer_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.PKContainer
     name: PKContainer
+    nameWithType: PKContainer
+    fullName: SuperOffice.Data.PKContainer
     isExternal: true
-    href: SuperOffice.Data.PKContainer.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
     name: OnPrimaryKeyRequest
+    nameWithType: NestedPersistFacade.OnPrimaryKeyRequest
+    fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequest
     isExternal: true
-    href: SuperOffice.Data.NestedPersistFacade.html#SuperOffice_Data_NestedPersistFacade_OnPrimaryKeyRequest_SuperOffice_Data_PKContainer_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.PKContainer
     name: PKContainer
+    nameWithType: PKContainer
+    fullName: SuperOffice.Data.PKContainer
     isExternal: true
-    href: SuperOffice.Data.PKContainer.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
   commentId: M:SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
   parent: SuperOffice.Data.NestedPersistFacade
   isExternal: true
-  href: SuperOffice.Data.NestedPersistFacade.html#SuperOffice_Data_NestedPersistFacade_OnPrimaryKeyUpdate_SuperOffice_Data_PKContainer_
   name: OnPrimaryKeyUpdate(PKContainer)
   nameWithType: NestedPersistFacade.OnPrimaryKeyUpdate(PKContainer)
   fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
   spec.csharp:
   - uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
     name: OnPrimaryKeyUpdate
+    nameWithType: NestedPersistFacade.OnPrimaryKeyUpdate
+    fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdate
     isExternal: true
-    href: SuperOffice.Data.NestedPersistFacade.html#SuperOffice_Data_NestedPersistFacade_OnPrimaryKeyUpdate_SuperOffice_Data_PKContainer_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.PKContainer
     name: PKContainer
+    nameWithType: PKContainer
+    fullName: SuperOffice.Data.PKContainer
     isExternal: true
-    href: SuperOffice.Data.PKContainer.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
     name: OnPrimaryKeyUpdate
+    nameWithType: NestedPersistFacade.OnPrimaryKeyUpdate
+    fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdate
     isExternal: true
-    href: SuperOffice.Data.NestedPersistFacade.html#SuperOffice_Data_NestedPersistFacade_OnPrimaryKeyUpdate_SuperOffice_Data_PKContainer_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.PKContainer
     name: PKContainer
+    nameWithType: PKContainer
+    fullName: SuperOffice.Data.PKContainer
     isExternal: true
-    href: SuperOffice.Data.PKContainer.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.NestedPersistFacade.OnIdUpdate
   commentId: M:SuperOffice.Data.NestedPersistFacade.OnIdUpdate
   parent: SuperOffice.Data.NestedPersistFacade
   isExternal: true
-  href: SuperOffice.Data.NestedPersistFacade.html#SuperOffice_Data_NestedPersistFacade_OnIdUpdate
   name: OnIdUpdate()
   nameWithType: NestedPersistFacade.OnIdUpdate()
   fullName: SuperOffice.Data.NestedPersistFacade.OnIdUpdate()
   spec.csharp:
   - uid: SuperOffice.Data.NestedPersistFacade.OnIdUpdate
     name: OnIdUpdate
+    nameWithType: NestedPersistFacade.OnIdUpdate
+    fullName: SuperOffice.Data.NestedPersistFacade.OnIdUpdate
     isExternal: true
-    href: SuperOffice.Data.NestedPersistFacade.html#SuperOffice_Data_NestedPersistFacade_OnIdUpdate
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.NestedPersistFacade.OnIdUpdate
     name: OnIdUpdate
+    nameWithType: NestedPersistFacade.OnIdUpdate
+    fullName: SuperOffice.Data.NestedPersistFacade.OnIdUpdate
     isExternal: true
-    href: SuperOffice.Data.NestedPersistFacade.html#SuperOffice_Data_NestedPersistFacade_OnIdUpdate
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.NestedPersistFacade.OnSave(SuperOffice.Data.SQL.BatchSave)
   commentId: M:SuperOffice.Data.NestedPersistFacade.OnSave(SuperOffice.Data.SQL.BatchSave)
   parent: SuperOffice.Data.NestedPersistFacade
   isExternal: true
-  href: SuperOffice.Data.NestedPersistFacade.html#SuperOffice_Data_NestedPersistFacade_OnSave_SuperOffice_Data_SQL_BatchSave_
   name: OnSave(BatchSave)
   nameWithType: NestedPersistFacade.OnSave(BatchSave)
   fullName: SuperOffice.Data.NestedPersistFacade.OnSave(SuperOffice.Data.SQL.BatchSave)
   spec.csharp:
   - uid: SuperOffice.Data.NestedPersistFacade.OnSave(SuperOffice.Data.SQL.BatchSave)
     name: OnSave
+    nameWithType: NestedPersistFacade.OnSave
+    fullName: SuperOffice.Data.NestedPersistFacade.OnSave
     isExternal: true
-    href: SuperOffice.Data.NestedPersistFacade.html#SuperOffice_Data_NestedPersistFacade_OnSave_SuperOffice_Data_SQL_BatchSave_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.BatchSave
     name: BatchSave
+    nameWithType: BatchSave
+    fullName: SuperOffice.Data.SQL.BatchSave
     isExternal: true
-    href: SuperOffice.Data.SQL.BatchSave.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.NestedPersistFacade.OnSave(SuperOffice.Data.SQL.BatchSave)
     name: OnSave
+    nameWithType: NestedPersistFacade.OnSave
+    fullName: SuperOffice.Data.NestedPersistFacade.OnSave
     isExternal: true
-    href: SuperOffice.Data.NestedPersistFacade.html#SuperOffice_Data_NestedPersistFacade_OnSave_SuperOffice_Data_SQL_BatchSave_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.BatchSave
     name: BatchSave
+    nameWithType: BatchSave
+    fullName: SuperOffice.Data.SQL.BatchSave
     isExternal: true
-    href: SuperOffice.Data.SQL.BatchSave.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.NestedPersistFacade.OnSaved(System.Boolean)
   commentId: M:SuperOffice.Data.NestedPersistFacade.OnSaved(System.Boolean)
   parent: SuperOffice.Data.NestedPersistFacade
   isExternal: true
-  href: SuperOffice.Data.NestedPersistFacade.html#SuperOffice_Data_NestedPersistFacade_OnSaved_System_Boolean_
-  name: OnSaved(bool)
-  nameWithType: NestedPersistFacade.OnSaved(bool)
-  fullName: SuperOffice.Data.NestedPersistFacade.OnSaved(bool)
-  nameWithType.vb: NestedPersistFacade.OnSaved(Boolean)
-  fullName.vb: SuperOffice.Data.NestedPersistFacade.OnSaved(Boolean)
-  name.vb: OnSaved(Boolean)
+  name: OnSaved(Boolean)
+  nameWithType: NestedPersistFacade.OnSaved(Boolean)
+  fullName: SuperOffice.Data.NestedPersistFacade.OnSaved(System.Boolean)
   spec.csharp:
   - uid: SuperOffice.Data.NestedPersistFacade.OnSaved(System.Boolean)
     name: OnSaved
+    nameWithType: NestedPersistFacade.OnSaved
+    fullName: SuperOffice.Data.NestedPersistFacade.OnSaved
     isExternal: true
-    href: SuperOffice.Data.NestedPersistFacade.html#SuperOffice_Data_NestedPersistFacade_OnSaved_System_Boolean_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Boolean
-    name: bool
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.NestedPersistFacade.OnSaved(System.Boolean)
     name: OnSaved
+    nameWithType: NestedPersistFacade.OnSaved
+    fullName: SuperOffice.Data.NestedPersistFacade.OnSaved
     isExternal: true
-    href: SuperOffice.Data.NestedPersistFacade.html#SuperOffice_Data_NestedPersistFacade_OnSaved_System_Boolean_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Boolean
     name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.NestedPersist._saveOwner
   commentId: F:SuperOffice.Data.NestedPersist._saveOwner
   parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  href: SuperOffice.Data.NestedPersist.html#SuperOffice_Data_NestedPersist__saveOwner
   name: _saveOwner
   nameWithType: NestedPersist._saveOwner
   fullName: SuperOffice.Data.NestedPersist._saveOwner
@@ -1907,7 +2125,6 @@ references:
   commentId: F:SuperOffice.Data.NestedPersist._isSaving
   parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  href: SuperOffice.Data.NestedPersist.html#SuperOffice_Data_NestedPersist__isSaving
   name: _isSaving
   nameWithType: NestedPersist._isSaving
   fullName: SuperOffice.Data.NestedPersist._isSaving
@@ -1915,59 +2132,480 @@ references:
   commentId: M:SuperOffice.Data.NestedPersist.SetSaveOwner(SuperOffice.Data.INestedPersist)
   parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  href: SuperOffice.Data.NestedPersist.html#SuperOffice_Data_NestedPersist_SetSaveOwner_SuperOffice_Data_INestedPersist_
   name: SetSaveOwner(INestedPersist)
   nameWithType: NestedPersist.SetSaveOwner(INestedPersist)
   fullName: SuperOffice.Data.NestedPersist.SetSaveOwner(SuperOffice.Data.INestedPersist)
   spec.csharp:
   - uid: SuperOffice.Data.NestedPersist.SetSaveOwner(SuperOffice.Data.INestedPersist)
     name: SetSaveOwner
+    nameWithType: NestedPersist.SetSaveOwner
+    fullName: SuperOffice.Data.NestedPersist.SetSaveOwner
     isExternal: true
-    href: SuperOffice.Data.NestedPersist.html#SuperOffice_Data_NestedPersist_SetSaveOwner_SuperOffice_Data_INestedPersist_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.INestedPersist
     name: INestedPersist
+    nameWithType: INestedPersist
+    fullName: SuperOffice.Data.INestedPersist
     isExternal: true
-    href: SuperOffice.Data.INestedPersist.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.NestedPersist.SetSaveOwner(SuperOffice.Data.INestedPersist)
     name: SetSaveOwner
+    nameWithType: NestedPersist.SetSaveOwner
+    fullName: SuperOffice.Data.NestedPersist.SetSaveOwner
     isExternal: true
-    href: SuperOffice.Data.NestedPersist.html#SuperOffice_Data_NestedPersist_SetSaveOwner_SuperOffice_Data_INestedPersist_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.INestedPersist
     name: INestedPersist
+    nameWithType: INestedPersist
+    fullName: SuperOffice.Data.INestedPersist
     isExternal: true
-    href: SuperOffice.Data.INestedPersist.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.NestedPersist.Save
   commentId: M:SuperOffice.Data.NestedPersist.Save
   parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  href: SuperOffice.Data.NestedPersist.html#SuperOffice_Data_NestedPersist_Save
   name: Save()
   nameWithType: NestedPersist.Save()
   fullName: SuperOffice.Data.NestedPersist.Save()
   spec.csharp:
   - uid: SuperOffice.Data.NestedPersist.Save
     name: Save
+    nameWithType: NestedPersist.Save
+    fullName: SuperOffice.Data.NestedPersist.Save
     isExternal: true
-    href: SuperOffice.Data.NestedPersist.html#SuperOffice_Data_NestedPersist_Save
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.NestedPersist.Save
     name: Save
+    nameWithType: NestedPersist.Save
+    fullName: SuperOffice.Data.NestedPersist.Save
     isExternal: true
-    href: SuperOffice.Data.NestedPersist.html#SuperOffice_Data_NestedPersist_Save
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdate
+  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdate
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: INestedPersist.OnPreIdUpdate()
+  nameWithType: NestedPersist.INestedPersist.OnPreIdUpdate()
+  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdate()
+  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdate()
+  name.vb: SuperOffice.Data.INestedPersist.OnPreIdUpdate()
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdate
+    name: INestedPersist.OnPreIdUpdate
+    nameWithType: NestedPersist.INestedPersist.OnPreIdUpdate
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdate
+    name: SuperOffice.Data.INestedPersist.OnPreIdUpdate
+    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdate
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: INestedPersist.OnPrimaryKeyRequest(PKContainer)
+  nameWithType: NestedPersist.INestedPersist.OnPrimaryKeyRequest(PKContainer)
+  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest(PKContainer)
+  name.vb: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest(PKContainer)
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+    name: INestedPersist.OnPrimaryKeyRequest
+    nameWithType: NestedPersist.INestedPersist.OnPrimaryKeyRequest
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.PKContainer
+    name: PKContainer
+    nameWithType: PKContainer
+    fullName: SuperOffice.Data.PKContainer
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+    name: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest
+    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.PKContainer
+    name: PKContainer
+    nameWithType: PKContainer
+    fullName: SuperOffice.Data.PKContainer
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: INestedPersist.OnPrimaryKeyUpdate(PKContainer)
+  nameWithType: NestedPersist.INestedPersist.OnPrimaryKeyUpdate(PKContainer)
+  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate(PKContainer)
+  name.vb: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate(PKContainer)
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+    name: INestedPersist.OnPrimaryKeyUpdate
+    nameWithType: NestedPersist.INestedPersist.OnPrimaryKeyUpdate
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.PKContainer
+    name: PKContainer
+    nameWithType: PKContainer
+    fullName: SuperOffice.Data.PKContainer
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+    name: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate
+    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.PKContainer
+    name: PKContainer
+    nameWithType: PKContainer
+    fullName: SuperOffice.Data.PKContainer
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdate
+  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdate
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: INestedPersist.OnIdUpdate()
+  nameWithType: NestedPersist.INestedPersist.OnIdUpdate()
+  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdate()
+  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdate()
+  name.vb: SuperOffice.Data.INestedPersist.OnIdUpdate()
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdate
+    name: INestedPersist.OnIdUpdate
+    nameWithType: NestedPersist.INestedPersist.OnIdUpdate
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdate
+    name: SuperOffice.Data.INestedPersist.OnIdUpdate
+    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdate
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
+  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: INestedPersist.OnSave(BatchSave)
+  nameWithType: NestedPersist.INestedPersist.OnSave(BatchSave)
+  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSave(SuperOffice.Data.SQL.BatchSave)
+  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnSave(BatchSave)
+  name.vb: SuperOffice.Data.INestedPersist.OnSave(BatchSave)
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
+    name: INestedPersist.OnSave
+    nameWithType: NestedPersist.INestedPersist.OnSave
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSave
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.BatchSave
+    name: BatchSave
+    nameWithType: BatchSave
+    fullName: SuperOffice.Data.SQL.BatchSave
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
+    name: SuperOffice.Data.INestedPersist.OnSave
+    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnSave
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSave
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.BatchSave
+    name: BatchSave
+    nameWithType: BatchSave
+    fullName: SuperOffice.Data.SQL.BatchSave
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
+  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: INestedPersist.OnSaved(Boolean)
+  nameWithType: NestedPersist.INestedPersist.OnSaved(Boolean)
+  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSaved(System.Boolean)
+  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnSaved(Boolean)
+  name.vb: SuperOffice.Data.INestedPersist.OnSaved(Boolean)
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
+    name: INestedPersist.OnSaved
+    nameWithType: NestedPersist.INestedPersist.OnSaved
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
+    name: SuperOffice.Data.INestedPersist.OnSaved
+    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnSaved
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NestedPersist.add_OnElementSaved(SuperOffice.Data.OnSaved)
+  commentId: M:SuperOffice.Data.NestedPersist.add_OnElementSaved(SuperOffice.Data.OnSaved)
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: add_OnElementSaved(OnSaved)
+  nameWithType: NestedPersist.add_OnElementSaved(OnSaved)
+  fullName: SuperOffice.Data.NestedPersist.add_OnElementSaved(SuperOffice.Data.OnSaved)
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersist.add_OnElementSaved(SuperOffice.Data.OnSaved)
+    name: add_OnElementSaved
+    nameWithType: NestedPersist.add_OnElementSaved
+    fullName: SuperOffice.Data.NestedPersist.add_OnElementSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnSaved
+    name: OnSaved
+    nameWithType: OnSaved
+    fullName: SuperOffice.Data.OnSaved
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersist.add_OnElementSaved(SuperOffice.Data.OnSaved)
+    name: add_OnElementSaved
+    nameWithType: NestedPersist.add_OnElementSaved
+    fullName: SuperOffice.Data.NestedPersist.add_OnElementSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnSaved
+    name: OnSaved
+    nameWithType: OnSaved
+    fullName: SuperOffice.Data.OnSaved
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NestedPersist.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+  commentId: M:SuperOffice.Data.NestedPersist.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: remove_OnElementSaved(OnSaved)
+  nameWithType: NestedPersist.remove_OnElementSaved(OnSaved)
+  fullName: SuperOffice.Data.NestedPersist.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersist.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+    name: remove_OnElementSaved
+    nameWithType: NestedPersist.remove_OnElementSaved
+    fullName: SuperOffice.Data.NestedPersist.remove_OnElementSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnSaved
+    name: OnSaved
+    nameWithType: OnSaved
+    fullName: SuperOffice.Data.OnSaved
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersist.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+    name: remove_OnElementSaved
+    nameWithType: NestedPersist.remove_OnElementSaved
+    fullName: SuperOffice.Data.NestedPersist.remove_OnElementSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnSaved
+    name: OnSaved
+    nameWithType: OnSaved
+    fullName: SuperOffice.Data.OnSaved
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NestedPersist.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  commentId: M:SuperOffice.Data.NestedPersist.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: add_OnElementIdUpdate(OnIdUpdate)
+  nameWithType: NestedPersist.add_OnElementIdUpdate(OnIdUpdate)
+  fullName: SuperOffice.Data.NestedPersist.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersist.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+    name: add_OnElementIdUpdate
+    nameWithType: NestedPersist.add_OnElementIdUpdate
+    fullName: SuperOffice.Data.NestedPersist.add_OnElementIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: OnIdUpdate
+    fullName: SuperOffice.Data.OnIdUpdate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersist.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+    name: add_OnElementIdUpdate
+    nameWithType: NestedPersist.add_OnElementIdUpdate
+    fullName: SuperOffice.Data.NestedPersist.add_OnElementIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: OnIdUpdate
+    fullName: SuperOffice.Data.OnIdUpdate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NestedPersist.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  commentId: M:SuperOffice.Data.NestedPersist.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: remove_OnElementIdUpdate(OnIdUpdate)
+  nameWithType: NestedPersist.remove_OnElementIdUpdate(OnIdUpdate)
+  fullName: SuperOffice.Data.NestedPersist.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersist.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+    name: remove_OnElementIdUpdate
+    nameWithType: NestedPersist.remove_OnElementIdUpdate
+    fullName: SuperOffice.Data.NestedPersist.remove_OnElementIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: OnIdUpdate
+    fullName: SuperOffice.Data.OnIdUpdate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersist.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+    name: remove_OnElementIdUpdate
+    nameWithType: NestedPersist.remove_OnElementIdUpdate
+    fullName: SuperOffice.Data.NestedPersist.remove_OnElementIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: OnIdUpdate
+    fullName: SuperOffice.Data.OnIdUpdate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.NestedPersist.IsSaving
   commentId: P:SuperOffice.Data.NestedPersist.IsSaving
   parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  href: SuperOffice.Data.NestedPersist.html#SuperOffice_Data_NestedPersist_IsSaving
   name: IsSaving
   nameWithType: NestedPersist.IsSaving
   fullName: SuperOffice.Data.NestedPersist.IsSaving
@@ -1975,7 +2613,6 @@ references:
   commentId: E:SuperOffice.Data.NestedPersist.OnElementSaved
   parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  href: SuperOffice.Data.NestedPersist.html#SuperOffice_Data_NestedPersist_OnElementSaved
   name: OnElementSaved
   nameWithType: NestedPersist.OnElementSaved
   fullName: SuperOffice.Data.NestedPersist.OnElementSaved
@@ -1983,505 +2620,130 @@ references:
   commentId: E:SuperOffice.Data.NestedPersist.OnElementIdUpdate
   parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  href: SuperOffice.Data.NestedPersist.html#SuperOffice_Data_NestedPersist_OnElementIdUpdate
   name: OnElementIdUpdate
   nameWithType: NestedPersist.OnElementIdUpdate
   fullName: SuperOffice.Data.NestedPersist.OnElementIdUpdate
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
 - uid: SuperOffice.CRM.Rows.ProbHeadingLinkRows.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<ProbHeadingLinkRows, To>(ProbHeadingLinkRows)
-  nameWithType: EnumUtil.MapEnums<ProbHeadingLinkRows, To>(ProbHeadingLinkRows)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.ProbHeadingLinkRows, To>(SuperOffice.CRM.Rows.ProbHeadingLinkRows)
-  nameWithType.vb: EnumUtil.MapEnums(Of ProbHeadingLinkRows, To)(ProbHeadingLinkRows)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.ProbHeadingLinkRows, To)(SuperOffice.CRM.Rows.ProbHeadingLinkRows)
-  name.vb: MapEnums(Of ProbHeadingLinkRows, To)(ProbHeadingLinkRows)
+  name: MapEnums<ProbHeadingLinkRows, To>()
+  nameWithType: EnumUtil.MapEnums<ProbHeadingLinkRows, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.ProbHeadingLinkRows, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ProbHeadingLinkRows, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.ProbHeadingLinkRows, To)()
+  name.vb: MapEnums(Of ProbHeadingLinkRows, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Rows.ProbHeadingLinkRows)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ProbHeadingLinkRows, To>
+    nameWithType: EnumUtil.MapEnums<ProbHeadingLinkRows, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.ProbHeadingLinkRows, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.ProbHeadingLinkRows
-    name: ProbHeadingLinkRows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ProbHeadingLinkRows.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Rows.ProbHeadingLinkRows
-    name: ProbHeadingLinkRows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ProbHeadingLinkRows.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Rows.ProbHeadingLinkRows)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ProbHeadingLinkRows, To)
+    nameWithType: EnumUtil.MapEnums(Of ProbHeadingLinkRows, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.ProbHeadingLinkRows, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.ProbHeadingLinkRows
-    name: ProbHeadingLinkRows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ProbHeadingLinkRows.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.ProbHeadingLinkRows
-    name: ProbHeadingLinkRows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ProbHeadingLinkRows.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.ProbHeadingLinkRows.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<ProbHeadingLinkRows, To>(ProbHeadingLinkRows)
-  nameWithType: Converters.MapEnums<ProbHeadingLinkRows, To>(ProbHeadingLinkRows)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.ProbHeadingLinkRows, To>(SuperOffice.CRM.Rows.ProbHeadingLinkRows)
-  nameWithType.vb: Converters.MapEnums(Of ProbHeadingLinkRows, To)(ProbHeadingLinkRows)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.ProbHeadingLinkRows, To)(SuperOffice.CRM.Rows.ProbHeadingLinkRows)
-  name.vb: MapEnums(Of ProbHeadingLinkRows, To)(ProbHeadingLinkRows)
+  name: MapEnums<ProbHeadingLinkRows, To>()
+  nameWithType: Converters.MapEnums<ProbHeadingLinkRows, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.ProbHeadingLinkRows, To>()
+  nameWithType.vb: Converters.MapEnums(Of ProbHeadingLinkRows, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.ProbHeadingLinkRows, To)()
+  name.vb: MapEnums(Of ProbHeadingLinkRows, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Rows.ProbHeadingLinkRows)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ProbHeadingLinkRows, To>
+    nameWithType: Converters.MapEnums<ProbHeadingLinkRows, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.ProbHeadingLinkRows, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.ProbHeadingLinkRows
-    name: ProbHeadingLinkRows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ProbHeadingLinkRows.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Rows.ProbHeadingLinkRows
-    name: ProbHeadingLinkRows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ProbHeadingLinkRows.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Rows.ProbHeadingLinkRows)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ProbHeadingLinkRows, To)
+    nameWithType: Converters.MapEnums(Of ProbHeadingLinkRows, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.ProbHeadingLinkRows, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.ProbHeadingLinkRows
-    name: ProbHeadingLinkRows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ProbHeadingLinkRows.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.ProbHeadingLinkRows
-    name: ProbHeadingLinkRows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ProbHeadingLinkRows.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
 - uid: System.Collections.Generic.IEnumerable`1
-  commentId: T:System.Collections.Generic.IEnumerable`1
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  name: IEnumerable<T>
-  nameWithType: IEnumerable<T>
-  fullName: System.Collections.Generic.IEnumerable<T>
-  nameWithType.vb: IEnumerable(Of T)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
-  name.vb: IEnumerable(Of T)
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
-  - name: T
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
-- uid: System.Collections.Specialized
-  commentId: N:System.Collections.Specialized
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Collections.Specialized
-  nameWithType: System.Collections.Specialized
-  fullName: System.Collections.Specialized
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Specialized
-    name: Specialized
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.specialized
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Specialized
-    name: Specialized
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.specialized
-- uid: System.ComponentModel
-  commentId: N:System.ComponentModel
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.ComponentModel
-  nameWithType: System.ComponentModel
-  fullName: System.ComponentModel
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.ComponentModel
-    name: ComponentModel
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.ComponentModel
-    name: ComponentModel
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
-- uid: System.Collections
-  commentId: N:System.Collections
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Collections
-  nameWithType: System.Collections
-  fullName: System.Collections
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -2490,45 +2752,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -2537,91 +2797,56 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.CRM.Rows.ProbHeadingLinkRows.ForEach*
   commentId: Overload:SuperOffice.CRM.Rows.ProbHeadingLinkRows.ForEach
   isExternal: true
-  href: SuperOffice.CRM.Rows.ProbHeadingLinkRows.html#SuperOffice_CRM_Rows_ProbHeadingLinkRows_ForEach_System_Action_SuperOffice_CRM_Rows_ProbHeadingLinkRow__
   name: ForEach
   nameWithType: ProbHeadingLinkRows.ForEach
   fullName: SuperOffice.CRM.Rows.ProbHeadingLinkRows.ForEach
 - uid: System.Action{SuperOffice.CRM.Rows.ProbHeadingLinkRow}
-  commentId: T:System.Action{SuperOffice.CRM.Rows.ProbHeadingLinkRow}
-  parent: System
+  commentId: '!:System.Action{SuperOffice.CRM.Rows.ProbHeadingLinkRow}'
   definition: System.Action`1
-  href: https://learn.microsoft.com/dotnet/api/system.action-1
   name: Action<ProbHeadingLinkRow>
   nameWithType: Action<ProbHeadingLinkRow>
   fullName: System.Action<SuperOffice.CRM.Rows.ProbHeadingLinkRow>
@@ -2631,67 +2856,84 @@ references:
   spec.csharp:
   - uid: System.Action`1
     name: Action
+    nameWithType: Action
+    fullName: System.Action
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.action-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Rows.ProbHeadingLinkRow
     name: ProbHeadingLinkRow
+    nameWithType: ProbHeadingLinkRow
+    fullName: SuperOffice.CRM.Rows.ProbHeadingLinkRow
     isExternal: true
-    href: SuperOffice.CRM.Rows.ProbHeadingLinkRow.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Action`1
     name: Action
+    nameWithType: Action
+    fullName: System.Action
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.action-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Rows.ProbHeadingLinkRow
     name: ProbHeadingLinkRow
+    nameWithType: ProbHeadingLinkRow
+    fullName: SuperOffice.CRM.Rows.ProbHeadingLinkRow
     isExternal: true
-    href: SuperOffice.CRM.Rows.ProbHeadingLinkRow.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Action`1
-  commentId: T:System.Action`1
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.action-1
-  name: Action<T>
-  nameWithType: Action<T>
-  fullName: System.Action<T>
-  nameWithType.vb: Action(Of T)
-  fullName.vb: System.Action(Of T)
-  name.vb: Action(Of T)
+  name: Action<>
+  nameWithType: Action<>
+  fullName: System.Action<>
+  nameWithType.vb: Action(Of )
+  fullName.vb: System.Action(Of )
+  name.vb: Action(Of )
   spec.csharp:
   - uid: System.Action`1
     name: Action
+    nameWithType: Action
+    fullName: System.Action
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.action-1
   - name: <
-  - name: T
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Action`1
     name: Action
+    nameWithType: Action
+    fullName: System.Action
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.action-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.ProbHeadingLinkRows.Find*
   commentId: Overload:SuperOffice.CRM.Rows.ProbHeadingLinkRows.Find
   isExternal: true
-  href: SuperOffice.CRM.Rows.ProbHeadingLinkRows.html#SuperOffice_CRM_Rows_ProbHeadingLinkRows_Find_System_Predicate_SuperOffice_CRM_Rows_ProbHeadingLinkRow__
   name: Find
   nameWithType: ProbHeadingLinkRows.Find
   fullName: SuperOffice.CRM.Rows.ProbHeadingLinkRows.Find
 - uid: System.Predicate{SuperOffice.CRM.Rows.ProbHeadingLinkRow}
-  commentId: T:System.Predicate{SuperOffice.CRM.Rows.ProbHeadingLinkRow}
-  parent: System
+  commentId: '!:System.Predicate{SuperOffice.CRM.Rows.ProbHeadingLinkRow}'
   definition: System.Predicate`1
-  href: https://learn.microsoft.com/dotnet/api/system.predicate-1
   name: Predicate<ProbHeadingLinkRow>
   nameWithType: Predicate<ProbHeadingLinkRow>
   fullName: System.Predicate<SuperOffice.CRM.Rows.ProbHeadingLinkRow>
@@ -2701,59 +2943,85 @@ references:
   spec.csharp:
   - uid: System.Predicate`1
     name: Predicate
+    nameWithType: Predicate
+    fullName: System.Predicate
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.predicate-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Rows.ProbHeadingLinkRow
     name: ProbHeadingLinkRow
+    nameWithType: ProbHeadingLinkRow
+    fullName: SuperOffice.CRM.Rows.ProbHeadingLinkRow
     isExternal: true
-    href: SuperOffice.CRM.Rows.ProbHeadingLinkRow.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Predicate`1
     name: Predicate
+    nameWithType: Predicate
+    fullName: System.Predicate
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.predicate-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Rows.ProbHeadingLinkRow
     name: ProbHeadingLinkRow
+    nameWithType: ProbHeadingLinkRow
+    fullName: SuperOffice.CRM.Rows.ProbHeadingLinkRow
     isExternal: true
-    href: SuperOffice.CRM.Rows.ProbHeadingLinkRow.html
   - name: )
-- uid: System.Predicate`1
-  commentId: T:System.Predicate`1
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ProbHeadingLinkRow
+  commentId: T:SuperOffice.CRM.Rows.ProbHeadingLinkRow
+  parent: SuperOffice.CRM.Rows
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.predicate-1
-  name: Predicate<T>
-  nameWithType: Predicate<T>
-  fullName: System.Predicate<T>
-  nameWithType.vb: Predicate(Of T)
-  fullName.vb: System.Predicate(Of T)
-  name.vb: Predicate(Of T)
+  name: ProbHeadingLinkRow
+  nameWithType: ProbHeadingLinkRow
+  fullName: SuperOffice.CRM.Rows.ProbHeadingLinkRow
+- uid: System.Predicate`1
+  isExternal: true
+  name: Predicate<>
+  nameWithType: Predicate<>
+  fullName: System.Predicate<>
+  nameWithType.vb: Predicate(Of )
+  fullName.vb: System.Predicate(Of )
+  name.vb: Predicate(Of )
   spec.csharp:
   - uid: System.Predicate`1
     name: Predicate
+    nameWithType: Predicate
+    fullName: System.Predicate
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.predicate-1
   - name: <
-  - name: T
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Predicate`1
     name: Predicate
+    nameWithType: Predicate
+    fullName: System.Predicate
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.predicate-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.ProbHeadingLinkRows.FindAll*
   commentId: Overload:SuperOffice.CRM.Rows.ProbHeadingLinkRows.FindAll
   isExternal: true
-  href: SuperOffice.CRM.Rows.ProbHeadingLinkRows.html#SuperOffice_CRM_Rows_ProbHeadingLinkRows_FindAll_System_Predicate_SuperOffice_CRM_Rows_ProbHeadingLinkRow__
   name: FindAll
   nameWithType: ProbHeadingLinkRows.FindAll
   fullName: SuperOffice.CRM.Rows.ProbHeadingLinkRows.FindAll
@@ -2761,28 +3029,31 @@ references:
   commentId: T:SuperOffice.CRM.Rows.ProbHeadingLinkRows
   parent: SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.CRM.Rows.ProbHeadingLinkRows.html
   name: ProbHeadingLinkRows
   nameWithType: ProbHeadingLinkRows
   fullName: SuperOffice.CRM.Rows.ProbHeadingLinkRows
 - uid: SuperOffice.CRM.Rows.ProbHeadingLinkRows.CreateNew*
   commentId: Overload:SuperOffice.CRM.Rows.ProbHeadingLinkRows.CreateNew
   isExternal: true
-  href: SuperOffice.CRM.Rows.ProbHeadingLinkRows.html#SuperOffice_CRM_Rows_ProbHeadingLinkRows_CreateNew
   name: CreateNew
   nameWithType: ProbHeadingLinkRows.CreateNew
   fullName: SuperOffice.CRM.Rows.ProbHeadingLinkRows.CreateNew
 - uid: SuperOffice.CRM.Rows.ProbHeadingLinkRows.GetFromCustomSearch*
   commentId: Overload:SuperOffice.CRM.Rows.ProbHeadingLinkRows.GetFromCustomSearch
   isExternal: true
-  href: SuperOffice.CRM.Rows.ProbHeadingLinkRows.html#SuperOffice_CRM_Rows_ProbHeadingLinkRows_GetFromCustomSearch_SuperOffice_CRM_Rows_ProbHeadingLinkRows_CustomSearch_
   name: GetFromCustomSearch
   nameWithType: ProbHeadingLinkRows.GetFromCustomSearch
   fullName: SuperOffice.CRM.Rows.ProbHeadingLinkRows.GetFromCustomSearch
+- uid: SuperOffice.CRM.Rows.ProbHeadingLinkRows.CustomSearch
+  commentId: T:SuperOffice.CRM.Rows.ProbHeadingLinkRows.CustomSearch
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: ProbHeadingLinkRows.CustomSearch
+  nameWithType: ProbHeadingLinkRows.CustomSearch
+  fullName: SuperOffice.CRM.Rows.ProbHeadingLinkRows.CustomSearch
 - uid: SuperOffice.CRM.Rows.ProbHeadingLinkRows.GetFromIdxProbId*
   commentId: Overload:SuperOffice.CRM.Rows.ProbHeadingLinkRows.GetFromIdxProbId
   isExternal: true
-  href: SuperOffice.CRM.Rows.ProbHeadingLinkRows.html#SuperOffice_CRM_Rows_ProbHeadingLinkRows_GetFromIdxProbId_System_Int32_
   name: GetFromIdxProbId
   nameWithType: ProbHeadingLinkRows.GetFromIdxProbId
   fullName: SuperOffice.CRM.Rows.ProbHeadingLinkRows.GetFromIdxProbId
@@ -2790,67 +3061,25 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Rows.ProbHeadingLinkRows.GetFromIdxHeadingId*
   commentId: Overload:SuperOffice.CRM.Rows.ProbHeadingLinkRows.GetFromIdxHeadingId
   isExternal: true
-  href: SuperOffice.CRM.Rows.ProbHeadingLinkRows.html#SuperOffice_CRM_Rows_ProbHeadingLinkRows_GetFromIdxHeadingId_System_Int32_
   name: GetFromIdxHeadingId
   nameWithType: ProbHeadingLinkRows.GetFromIdxHeadingId
   fullName: SuperOffice.CRM.Rows.ProbHeadingLinkRows.GetFromIdxHeadingId
-- uid: SuperOffice.Data.SoDataReader.Read
-  commentId: M:SuperOffice.Data.SoDataReader.Read
+- uid: SuperOffice.CRM.Rows.ProbHeadingLinkRows.GetFromReader*
+  commentId: Overload:SuperOffice.CRM.Rows.ProbHeadingLinkRows.GetFromReader
   isExternal: true
-  href: SuperOffice.Data.SoDataReader.html#SuperOffice_Data_SoDataReader_Read
-  name: Read()
-  nameWithType: SoDataReader.Read()
-  fullName: SuperOffice.Data.SoDataReader.Read()
-  spec.csharp:
-  - uid: SuperOffice.Data.SoDataReader.Read
-    name: Read
-    isExternal: true
-    href: SuperOffice.Data.SoDataReader.html#SuperOffice_Data_SoDataReader_Read
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Data.SoDataReader.Read
-    name: Read
-    isExternal: true
-    href: SuperOffice.Data.SoDataReader.html#SuperOffice_Data_SoDataReader_Read
-  - name: (
-  - name: )
-- uid: SuperOffice.Data.SoCommand.ExecuteReader
-  commentId: M:SuperOffice.Data.SoCommand.ExecuteReader
-  isExternal: true
-  href: SuperOffice.Data.SoCommand.html#SuperOffice_Data_SoCommand_ExecuteReader
-  name: ExecuteReader()
-  nameWithType: SoCommand.ExecuteReader()
-  fullName: SuperOffice.Data.SoCommand.ExecuteReader()
-  spec.csharp:
-  - uid: SuperOffice.Data.SoCommand.ExecuteReader
-    name: ExecuteReader
-    isExternal: true
-    href: SuperOffice.Data.SoCommand.html#SuperOffice_Data_SoCommand_ExecuteReader
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Data.SoCommand.ExecuteReader
-    name: ExecuteReader
-    isExternal: true
-    href: SuperOffice.Data.SoCommand.html#SuperOffice_Data_SoCommand_ExecuteReader
-  - name: (
-  - name: )
+  name: GetFromReader
+  nameWithType: ProbHeadingLinkRows.GetFromReader
+  fullName: SuperOffice.CRM.Rows.ProbHeadingLinkRows.GetFromReader
 - uid: SuperOffice.Data.SoDataReader
   commentId: T:SuperOffice.Data.SoDataReader
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.SoDataReader.html
   name: SoDataReader
   nameWithType: SoDataReader
   fullName: SuperOffice.Data.SoDataReader
@@ -2858,73 +3087,30 @@ references:
   commentId: T:SuperOffice.CRM.Data.ProbHeadingLinkTableInfo
   parent: SuperOffice.CRM.Data
   isExternal: true
-  href: SuperOffice.CRM.Data.ProbHeadingLinkTableInfo.html
   name: ProbHeadingLinkTableInfo
   nameWithType: ProbHeadingLinkTableInfo
   fullName: SuperOffice.CRM.Data.ProbHeadingLinkTableInfo
-- uid: SuperOffice.CRM.Rows.ProbHeadingLinkRows.GetFromReader*
-  commentId: Overload:SuperOffice.CRM.Rows.ProbHeadingLinkRows.GetFromReader
-  isExternal: true
-  href: SuperOffice.CRM.Rows.ProbHeadingLinkRows.html#SuperOffice_CRM_Rows_ProbHeadingLinkRows_GetFromReader_SuperOffice_Data_SoDataReader_SuperOffice_CRM_Data_ProbHeadingLinkTableInfo_
-  name: GetFromReader
-  nameWithType: ProbHeadingLinkRows.GetFromReader
-  fullName: SuperOffice.CRM.Rows.ProbHeadingLinkRows.GetFromReader
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Data
   nameWithType: SuperOffice.CRM.Data
   fullName: SuperOffice.CRM.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.CRM.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.CRM.Data.html
 - uid: SuperOffice.CRM.Rows.ProbHeadingLinkRows.Add*
   commentId: Overload:SuperOffice.CRM.Rows.ProbHeadingLinkRows.Add
   isExternal: true
-  href: SuperOffice.CRM.Rows.ProbHeadingLinkRows.html#SuperOffice_CRM_Rows_ProbHeadingLinkRows_Add_SuperOffice_CRM_Rows_ProbHeadingLinkRow_
   name: Add
   nameWithType: ProbHeadingLinkRows.Add
   fullName: SuperOffice.CRM.Rows.ProbHeadingLinkRows.Add
 - uid: SuperOffice.CRM.Rows.ProbHeadingLinkRows.AddRange*
   commentId: Overload:SuperOffice.CRM.Rows.ProbHeadingLinkRows.AddRange
   isExternal: true
-  href: SuperOffice.CRM.Rows.ProbHeadingLinkRows.html#SuperOffice_CRM_Rows_ProbHeadingLinkRows_AddRange_System_Collections_Generic_IEnumerable_SuperOffice_CRM_Rows_ProbHeadingLinkRow__
   name: AddRange
   nameWithType: ProbHeadingLinkRows.AddRange
   fullName: SuperOffice.CRM.Rows.ProbHeadingLinkRows.AddRange
 - uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ProbHeadingLinkRow}
-  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ProbHeadingLinkRow}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ProbHeadingLinkRow}'
   definition: System.Collections.Generic.IEnumerable`1
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   name: IEnumerable<ProbHeadingLinkRow>
   nameWithType: IEnumerable<ProbHeadingLinkRow>
   fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.ProbHeadingLinkRow>
@@ -2934,38 +3120,46 @@ references:
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Rows.ProbHeadingLinkRow
     name: ProbHeadingLinkRow
+    nameWithType: ProbHeadingLinkRow
+    fullName: SuperOffice.CRM.Rows.ProbHeadingLinkRow
     isExternal: true
-    href: SuperOffice.CRM.Rows.ProbHeadingLinkRow.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Rows.ProbHeadingLinkRow
     name: ProbHeadingLinkRow
+    nameWithType: ProbHeadingLinkRow
+    fullName: SuperOffice.CRM.Rows.ProbHeadingLinkRow
     isExternal: true
-    href: SuperOffice.CRM.Rows.ProbHeadingLinkRow.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.ProbHeadingLinkRows.AddNew*
   commentId: Overload:SuperOffice.CRM.Rows.ProbHeadingLinkRows.AddNew
   isExternal: true
-  href: SuperOffice.CRM.Rows.ProbHeadingLinkRows.html#SuperOffice_CRM_Rows_ProbHeadingLinkRows_AddNew
   name: AddNew
   nameWithType: ProbHeadingLinkRows.AddNew
   fullName: SuperOffice.CRM.Rows.ProbHeadingLinkRows.AddNew
 - uid: SuperOffice.CRM.Rows.ProbHeadingLinkRows.Remove*
   commentId: Overload:SuperOffice.CRM.Rows.ProbHeadingLinkRows.Remove
   isExternal: true
-  href: SuperOffice.CRM.Rows.ProbHeadingLinkRows.html#SuperOffice_CRM_Rows_ProbHeadingLinkRows_Remove_SuperOffice_CRM_Rows_ProbHeadingLinkRow_
   name: Remove
   nameWithType: ProbHeadingLinkRows.Remove
   fullName: SuperOffice.CRM.Rows.ProbHeadingLinkRows.Remove
@@ -2973,28 +3167,36 @@ references:
   commentId: M:SuperOffice.CRM.Rows.TableRowsBase.CreateChild
   parent: SuperOffice.CRM.Rows.TableRowsBase
   isExternal: true
-  href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_CreateChild
   name: CreateChild()
   nameWithType: TableRowsBase.CreateChild()
   fullName: SuperOffice.CRM.Rows.TableRowsBase.CreateChild()
   spec.csharp:
   - uid: SuperOffice.CRM.Rows.TableRowsBase.CreateChild
     name: CreateChild
+    nameWithType: TableRowsBase.CreateChild
+    fullName: SuperOffice.CRM.Rows.TableRowsBase.CreateChild
     isExternal: true
-    href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_CreateChild
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Rows.TableRowsBase.CreateChild
     name: CreateChild
+    nameWithType: TableRowsBase.CreateChild
+    fullName: SuperOffice.CRM.Rows.TableRowsBase.CreateChild
     isExternal: true
-    href: SuperOffice.CRM.Rows.TableRowsBase.html#SuperOffice_CRM_Rows_TableRowsBase_CreateChild
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.ProbHeadingLinkRows.CreateChild*
   commentId: Overload:SuperOffice.CRM.Rows.ProbHeadingLinkRows.CreateChild
   isExternal: true
-  href: SuperOffice.CRM.Rows.ProbHeadingLinkRows.html#SuperOffice_CRM_Rows_ProbHeadingLinkRows_CreateChild
   name: CreateChild
   nameWithType: ProbHeadingLinkRows.CreateChild
   fullName: SuperOffice.CRM.Rows.ProbHeadingLinkRows.CreateChild
@@ -3002,20 +3204,17 @@ references:
   commentId: T:SuperOffice.CRM.Rows.TableRowBase
   parent: SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.CRM.Rows.TableRowBase.html
   name: TableRowBase
   nameWithType: TableRowBase
   fullName: SuperOffice.CRM.Rows.TableRowBase
 - uid: SuperOffice.CRM.Rows.ProbHeadingLinkRows.ToArray*
   commentId: Overload:SuperOffice.CRM.Rows.ProbHeadingLinkRows.ToArray
   isExternal: true
-  href: SuperOffice.CRM.Rows.ProbHeadingLinkRows.html#SuperOffice_CRM_Rows_ProbHeadingLinkRows_ToArray
   name: ToArray
   nameWithType: ProbHeadingLinkRows.ToArray
   fullName: SuperOffice.CRM.Rows.ProbHeadingLinkRows.ToArray
 - uid: SuperOffice.CRM.Rows.ProbHeadingLinkRow[]
   isExternal: true
-  href: SuperOffice.CRM.Rows.ProbHeadingLinkRow.html
   name: ProbHeadingLinkRow[]
   nameWithType: ProbHeadingLinkRow[]
   fullName: SuperOffice.CRM.Rows.ProbHeadingLinkRow[]
@@ -3025,45 +3224,24 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Rows.ProbHeadingLinkRow
     name: ProbHeadingLinkRow
+    nameWithType: ProbHeadingLinkRow
+    fullName: SuperOffice.CRM.Rows.ProbHeadingLinkRow
     isExternal: true
-    href: SuperOffice.CRM.Rows.ProbHeadingLinkRow.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.Rows.ProbHeadingLinkRow
     name: ProbHeadingLinkRow
+    nameWithType: ProbHeadingLinkRow
+    fullName: SuperOffice.CRM.Rows.ProbHeadingLinkRow
     isExternal: true
-    href: SuperOffice.CRM.Rows.ProbHeadingLinkRow.html
-  - name: (
-  - name: )
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Rows.ProbHeadingLinkRows.ToString*
   commentId: Overload:SuperOffice.CRM.Rows.ProbHeadingLinkRows.ToString
   isExternal: true
-  href: SuperOffice.CRM.Rows.ProbHeadingLinkRows.html#SuperOffice_CRM_Rows_ProbHeadingLinkRows_ToString
   name: ToString
   nameWithType: ProbHeadingLinkRows.ToString
   fullName: SuperOffice.CRM.Rows.ProbHeadingLinkRows.ToString
@@ -3071,20 +3249,12 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.CRM.Rows.ProbHeadingLinkRows.Item*
   commentId: Overload:SuperOffice.CRM.Rows.ProbHeadingLinkRows.Item
   isExternal: true
-  href: SuperOffice.CRM.Rows.ProbHeadingLinkRows.html#SuperOffice_CRM_Rows_ProbHeadingLinkRows_Item_System_Int32_
-  name: this
-  nameWithType: ProbHeadingLinkRows.this
-  fullName: SuperOffice.CRM.Rows.ProbHeadingLinkRows.this
-  nameWithType.vb: ProbHeadingLinkRows.this[]
-  fullName.vb: SuperOffice.CRM.Rows.ProbHeadingLinkRows.this[]
-  name.vb: this[]
+  name: Item
+  nameWithType: ProbHeadingLinkRows.Item
+  fullName: SuperOffice.CRM.Rows.ProbHeadingLinkRows.Item

@@ -9,30 +9,67 @@ items:
   - SuperOffice.CRM.Rows.MDOListElementType.History
   - SuperOffice.CRM.Rows.MDOListElementType.Root
   - SuperOffice.CRM.Rows.MDOListElementType.SubNode
+  - SuperOffice.CRM.Rows.MDOListElementType.value__
   langs:
   - csharp
   - vb
   name: MDOListElementType
   nameWithType: MDOListElementType
   fullName: SuperOffice.CRM.Rows.MDOListElementType
-  type: Enum
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Rows
-  summary: >-
-    What kind of element are we dealing with in the MDO-list?
-
-    Same enum for all MDO-lists.
-  example: []
+  summary: "\nWhat kind of element are we dealing with in the MDO-list?\nSame enum for all MDO-lists.\n"
   syntax:
-    content: public enum MDOListElementType
-    content.vb: Public Enum MDOListElementType
+    content: 'public sealed class MDOListElementType : Enum'
+    content.vb: >-
+      Public NotInheritable Class MDOListElementType
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.CRM.Rows.MDOListElementType.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.MDOListElementType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  - SuperOffice.CRM.Rows.MDOListElementType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.MDOListElementType)
-  - SuperOffice.CRM.Rows.MDOListElementType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - System.Enum.EnumUtil.GetDescription
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.CRM.Rows.MDOListElementType.value__
+  commentId: F:SuperOffice.CRM.Rows.MDOListElementType.value__
+  id: value__
+  parent: SuperOffice.CRM.Rows.MDOListElementType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: MDOListElementType.value__
+  fullName: SuperOffice.CRM.Rows.MDOListElementType.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.MDOListElementType.Heading
   commentId: F:SuperOffice.CRM.Rows.MDOListElementType.Heading
   id: Heading
@@ -44,15 +81,24 @@ items:
   nameWithType: MDOListElementType.Heading
   fullName: SuperOffice.CRM.Rows.MDOListElementType.Heading
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Rows
-  summary: A heading that has sub-nodes underneath.
-  example: []
+  summary: "\nA heading that has sub-nodes underneath.\n"
   syntax:
-    content: Heading = 0
+    content: public const MDOListElementType Heading
     return:
       type: SuperOffice.CRM.Rows.MDOListElementType
+    content.vb: Public Const Heading As MDOListElementType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Rows.MDOListElementType.History
   commentId: F:SuperOffice.CRM.Rows.MDOListElementType.History
   id: History
@@ -64,15 +110,24 @@ items:
   nameWithType: MDOListElementType.History
   fullName: SuperOffice.CRM.Rows.MDOListElementType.History
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Rows
-  summary: A history-node
-  example: []
+  summary: "\nA history-node\n"
   syntax:
-    content: History = 1
+    content: public const MDOListElementType History
     return:
       type: SuperOffice.CRM.Rows.MDOListElementType
+    content.vb: Public Const History As MDOListElementType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Rows.MDOListElementType.Root
   commentId: F:SuperOffice.CRM.Rows.MDOListElementType.Root
   id: Root
@@ -84,15 +139,24 @@ items:
   nameWithType: MDOListElementType.Root
   fullName: SuperOffice.CRM.Rows.MDOListElementType.Root
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Rows
-  summary: A node that has no heading.
-  example: []
+  summary: "\nA node that has no heading.\n"
   syntax:
-    content: Root = 2
+    content: public const MDOListElementType Root
     return:
       type: SuperOffice.CRM.Rows.MDOListElementType
+    content.vb: Public Const Root As MDOListElementType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Rows.MDOListElementType.SubNode
   commentId: F:SuperOffice.CRM.Rows.MDOListElementType.SubNode
   id: SubNode
@@ -104,299 +168,115 @@ items:
   nameWithType: MDOListElementType.SubNode
   fullName: SuperOffice.CRM.Rows.MDOListElementType.SubNode
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Rows
-  summary: A node that has a heading.
-  example: []
+  summary: "\nA node that has a heading.\n"
   syntax:
-    content: SubNode = 3
+    content: public const MDOListElementType SubNode
     return:
       type: SuperOffice.CRM.Rows.MDOListElementType
+    content.vb: Public Const SubNode As MDOListElementType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows
-    name: Rows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows
-    name: Rows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.Rows.MDOListElementType.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<MDOListElementType, To>(MDOListElementType)
-  nameWithType: EnumUtil.MapEnums<MDOListElementType, To>(MDOListElementType)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.MDOListElementType, To>(SuperOffice.CRM.Rows.MDOListElementType)
-  nameWithType.vb: EnumUtil.MapEnums(Of MDOListElementType, To)(MDOListElementType)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.MDOListElementType, To)(SuperOffice.CRM.Rows.MDOListElementType)
-  name.vb: MapEnums(Of MDOListElementType, To)(MDOListElementType)
+  name: MapEnums<MDOListElementType, To>()
+  nameWithType: EnumUtil.MapEnums<MDOListElementType, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.MDOListElementType, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of MDOListElementType, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.MDOListElementType, To)()
+  name.vb: MapEnums(Of MDOListElementType, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Rows.MDOListElementType)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<MDOListElementType, To>
+    nameWithType: EnumUtil.MapEnums<MDOListElementType, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.MDOListElementType, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.MDOListElementType
-    name: MDOListElementType
-    isExternal: true
-    href: SuperOffice.CRM.Rows.MDOListElementType.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Rows.MDOListElementType
-    name: MDOListElementType
-    isExternal: true
-    href: SuperOffice.CRM.Rows.MDOListElementType.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Rows.MDOListElementType)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of MDOListElementType, To)
+    nameWithType: EnumUtil.MapEnums(Of MDOListElementType, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.MDOListElementType, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.MDOListElementType
-    name: MDOListElementType
-    isExternal: true
-    href: SuperOffice.CRM.Rows.MDOListElementType.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.MDOListElementType
-    name: MDOListElementType
-    isExternal: true
-    href: SuperOffice.CRM.Rows.MDOListElementType.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.MDOListElementType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<MDOListElementType, To>(MDOListElementType)
-  nameWithType: Converters.MapEnums<MDOListElementType, To>(MDOListElementType)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.MDOListElementType, To>(SuperOffice.CRM.Rows.MDOListElementType)
-  nameWithType.vb: Converters.MapEnums(Of MDOListElementType, To)(MDOListElementType)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.MDOListElementType, To)(SuperOffice.CRM.Rows.MDOListElementType)
-  name.vb: MapEnums(Of MDOListElementType, To)(MDOListElementType)
+  name: MapEnums<MDOListElementType, To>()
+  nameWithType: Converters.MapEnums<MDOListElementType, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.MDOListElementType, To>()
+  nameWithType.vb: Converters.MapEnums(Of MDOListElementType, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.MDOListElementType, To)()
+  name.vb: MapEnums(Of MDOListElementType, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Rows.MDOListElementType)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<MDOListElementType, To>
+    nameWithType: Converters.MapEnums<MDOListElementType, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.MDOListElementType, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.MDOListElementType
-    name: MDOListElementType
-    isExternal: true
-    href: SuperOffice.CRM.Rows.MDOListElementType.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Rows.MDOListElementType
-    name: MDOListElementType
-    isExternal: true
-    href: SuperOffice.CRM.Rows.MDOListElementType.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Rows.MDOListElementType)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of MDOListElementType, To)
+    nameWithType: Converters.MapEnums(Of MDOListElementType, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.MDOListElementType, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.MDOListElementType
-    name: MDOListElementType
-    isExternal: true
-    href: SuperOffice.CRM.Rows.MDOListElementType.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.MDOListElementType
-    name: MDOListElementType
-    isExternal: true
-    href: SuperOffice.CRM.Rows.MDOListElementType.html
-  - name: )
-- uid: SuperOffice.CRM.Rows.MDOListElementType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.MDOListElementType)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<MDOListElementType>(MDOListElementType, MDOListElementType)
-  nameWithType: ObjectExtensions.AssignByReflection<MDOListElementType>(MDOListElementType, MDOListElementType)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.MDOListElementType>(SuperOffice.CRM.Rows.MDOListElementType, SuperOffice.CRM.Rows.MDOListElementType)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of MDOListElementType)(MDOListElementType, MDOListElementType)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.MDOListElementType)(SuperOffice.CRM.Rows.MDOListElementType, SuperOffice.CRM.Rows.MDOListElementType)
-  name.vb: AssignByReflection(Of MDOListElementType)(MDOListElementType, MDOListElementType)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.MDOListElementType,SuperOffice.CRM.Rows.MDOListElementType)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.MDOListElementType
-    name: MDOListElementType
-    isExternal: true
-    href: SuperOffice.CRM.Rows.MDOListElementType.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.CRM.Rows.MDOListElementType
-    name: MDOListElementType
-    isExternal: true
-    href: SuperOffice.CRM.Rows.MDOListElementType.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.MDOListElementType
-    name: MDOListElementType
-    isExternal: true
-    href: SuperOffice.CRM.Rows.MDOListElementType.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.MDOListElementType,SuperOffice.CRM.Rows.MDOListElementType)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.MDOListElementType
-    name: MDOListElementType
-    isExternal: true
-    href: SuperOffice.CRM.Rows.MDOListElementType.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.MDOListElementType
-    name: MDOListElementType
-    isExternal: true
-    href: SuperOffice.CRM.Rows.MDOListElementType.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.MDOListElementType
-    name: MDOListElementType
-    isExternal: true
-    href: SuperOffice.CRM.Rows.MDOListElementType.html
-  - name: )
-- uid: SuperOffice.CRM.Rows.MDOListElementType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<MDOListElementType>(MDOListElementType)
-  nameWithType: ObjectExtensions.GraphCopy<MDOListElementType>(MDOListElementType)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.MDOListElementType>(SuperOffice.CRM.Rows.MDOListElementType)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of MDOListElementType)(MDOListElementType)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.MDOListElementType)(SuperOffice.CRM.Rows.MDOListElementType)
-  name.vb: GraphCopy(Of MDOListElementType)(MDOListElementType)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Rows.MDOListElementType)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.MDOListElementType
-    name: MDOListElementType
-    isExternal: true
-    href: SuperOffice.CRM.Rows.MDOListElementType.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.CRM.Rows.MDOListElementType
-    name: MDOListElementType
-    isExternal: true
-    href: SuperOffice.CRM.Rows.MDOListElementType.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Rows.MDOListElementType)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.MDOListElementType
-    name: MDOListElementType
-    isExternal: true
-    href: SuperOffice.CRM.Rows.MDOListElementType.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.MDOListElementType
-    name: MDOListElementType
-    isExternal: true
-    href: SuperOffice.CRM.Rows.MDOListElementType.html
-  - name: )
-- uid: System.Enum.EnumUtil.GetDescription
-  commentId: M:EnumUtil.GetDescription(System.Enum)
-  parent: EnumUtil
-  definition: EnumUtil.GetDescription(System.Enum)
-  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  name: GetDescription(Enum)
-  nameWithType: EnumUtil.GetDescription(Enum)
-  fullName: EnumUtil.GetDescription(System.Enum)
-  spec.csharp:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
-  spec.vb:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -405,45 +285,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -452,222 +330,58 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: EnumUtil.GetDescription(System.Enum)
-  commentId: M:EnumUtil.GetDescription(System.Enum)
-  isExternal: true
-  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  name: GetDescription(Enum)
-  nameWithType: EnumUtil.GetDescription(Enum)
-  fullName: EnumUtil.GetDescription(System.Enum)
-  spec.csharp:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
-  spec.vb:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Rows.MDOListElementType
   commentId: T:SuperOffice.CRM.Rows.MDOListElementType
   parent: SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.CRM.Rows.MDOListElementType.html
   name: MDOListElementType
   nameWithType: MDOListElementType
   fullName: SuperOffice.CRM.Rows.MDOListElementType

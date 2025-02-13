@@ -36,35 +36,30 @@ references:
 - uid: SuperOffice.CRM.Data.Util.Duplicates.ContactSoundExDuplicateRule
   commentId: T:SuperOffice.CRM.Data.Util.Duplicates.ContactSoundExDuplicateRule
   isExternal: true
-  href: SuperOffice.CRM.Data.Util.Duplicates.ContactSoundExDuplicateRule.html
   name: ContactSoundExDuplicateRule
   nameWithType: ContactSoundExDuplicateRule
   fullName: SuperOffice.CRM.Data.Util.Duplicates.ContactSoundExDuplicateRule
 - uid: SuperOffice.CRM.Data.Util.Duplicates.ContactNameDuplicateRule
   commentId: T:SuperOffice.CRM.Data.Util.Duplicates.ContactNameDuplicateRule
   isExternal: true
-  href: SuperOffice.CRM.Data.Util.Duplicates.ContactNameDuplicateRule.html
   name: ContactNameDuplicateRule
   nameWithType: ContactNameDuplicateRule
   fullName: SuperOffice.CRM.Data.Util.Duplicates.ContactNameDuplicateRule
 - uid: SuperOffice.CRM.Data.Util.Duplicates.ContactNameDepartmentDuplicateRule
   commentId: T:SuperOffice.CRM.Data.Util.Duplicates.ContactNameDepartmentDuplicateRule
   isExternal: true
-  href: SuperOffice.CRM.Data.Util.Duplicates.ContactNameDepartmentDuplicateRule.html
   name: ContactNameDepartmentDuplicateRule
   nameWithType: ContactNameDepartmentDuplicateRule
   fullName: SuperOffice.CRM.Data.Util.Duplicates.ContactNameDepartmentDuplicateRule
 - uid: SuperOffice.CRM.Data.Util.Duplicates.ContactDomainDuplicateRule
   commentId: T:SuperOffice.CRM.Data.Util.Duplicates.ContactDomainDuplicateRule
   isExternal: true
-  href: SuperOffice.CRM.Data.Util.Duplicates.ContactDomainDuplicateRule.html
   name: ContactDomainDuplicateRule
   nameWithType: ContactDomainDuplicateRule
   fullName: SuperOffice.CRM.Data.Util.Duplicates.ContactDomainDuplicateRule
 - uid: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector
   commentId: T:SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector
   isExternal: true
-  href: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector.html
   name: DuplicateDetector
   nameWithType: DuplicateDetector
   fullName: SuperOffice.CRM.Data.Util.Duplicates.DuplicateDetector
@@ -72,7 +67,6 @@ references:
   commentId: T:SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry
   parent: SuperOffice.CRM.Data.Util.Duplicates
   isExternal: true
-  href: SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry.html
   name: DuplicateEntry
   nameWithType: DuplicateEntry
   fullName: SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry
@@ -80,7 +74,6 @@ references:
   commentId: T:SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule
   parent: SuperOffice.CRM.Data.Util.Duplicates
   isExternal: true
-  href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.html
   name: IDuplicateRule
   nameWithType: IDuplicateRule
   fullName: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule
@@ -88,7 +81,6 @@ references:
   commentId: T:SuperOffice.CRM.Data.Util.Duplicates.IContactDuplicateRule
   parent: SuperOffice.CRM.Data.Util.Duplicates
   isExternal: true
-  href: SuperOffice.CRM.Data.Util.Duplicates.IContactDuplicateRule.html
   name: IContactDuplicateRule
   nameWithType: IContactDuplicateRule
   fullName: SuperOffice.CRM.Data.Util.Duplicates.IContactDuplicateRule
@@ -96,7 +88,6 @@ references:
   commentId: T:SuperOffice.CRM.Data.Util.Duplicates.ContactDuplicateRulePluginAttribute
   parent: SuperOffice.CRM.Data.Util.Duplicates
   isExternal: true
-  href: SuperOffice.CRM.Data.Util.Duplicates.ContactDuplicateRulePluginAttribute.html
   name: ContactDuplicateRulePluginAttribute
   nameWithType: ContactDuplicateRulePluginAttribute
   fullName: SuperOffice.CRM.Data.Util.Duplicates.ContactDuplicateRulePluginAttribute
@@ -104,7 +95,6 @@ references:
   commentId: T:SuperOffice.CRM.Data.Util.Duplicates.IContactDepartmentDuplicateRule
   parent: SuperOffice.CRM.Data.Util.Duplicates
   isExternal: true
-  href: SuperOffice.CRM.Data.Util.Duplicates.IContactDepartmentDuplicateRule.html
   name: IContactDepartmentDuplicateRule
   nameWithType: IContactDepartmentDuplicateRule
   fullName: SuperOffice.CRM.Data.Util.Duplicates.IContactDepartmentDuplicateRule
@@ -112,7 +102,6 @@ references:
   commentId: T:SuperOffice.CRM.Data.Util.Duplicates.ContactDepartmentDuplicateRulePluginAttribute
   parent: SuperOffice.CRM.Data.Util.Duplicates
   isExternal: true
-  href: SuperOffice.CRM.Data.Util.Duplicates.ContactDepartmentDuplicateRulePluginAttribute.html
   name: ContactDepartmentDuplicateRulePluginAttribute
   nameWithType: ContactDepartmentDuplicateRulePluginAttribute
   fullName: SuperOffice.CRM.Data.Util.Duplicates.ContactDepartmentDuplicateRulePluginAttribute
@@ -120,7 +109,6 @@ references:
   commentId: T:SuperOffice.CRM.Data.Util.Duplicates.IProjectDuplicateRule
   parent: SuperOffice.CRM.Data.Util.Duplicates
   isExternal: true
-  href: SuperOffice.CRM.Data.Util.Duplicates.IProjectDuplicateRule.html
   name: IProjectDuplicateRule
   nameWithType: IProjectDuplicateRule
   fullName: SuperOffice.CRM.Data.Util.Duplicates.IProjectDuplicateRule
@@ -128,7 +116,6 @@ references:
   commentId: T:SuperOffice.CRM.Data.Util.Duplicates.ProjectDuplicateRulePluginAttribute
   parent: SuperOffice.CRM.Data.Util.Duplicates
   isExternal: true
-  href: SuperOffice.CRM.Data.Util.Duplicates.ProjectDuplicateRulePluginAttribute.html
   name: ProjectDuplicateRulePluginAttribute
   nameWithType: ProjectDuplicateRulePluginAttribute
   fullName: SuperOffice.CRM.Data.Util.Duplicates.ProjectDuplicateRulePluginAttribute
@@ -136,7 +123,6 @@ references:
   commentId: T:SuperOffice.CRM.Data.Util.Duplicates.ISelectionDuplicateRule
   parent: SuperOffice.CRM.Data.Util.Duplicates
   isExternal: true
-  href: SuperOffice.CRM.Data.Util.Duplicates.ISelectionDuplicateRule.html
   name: ISelectionDuplicateRule
   nameWithType: ISelectionDuplicateRule
   fullName: SuperOffice.CRM.Data.Util.Duplicates.ISelectionDuplicateRule
@@ -144,92 +130,36 @@ references:
   commentId: T:SuperOffice.CRM.Data.Util.Duplicates.SelectionDuplicateRulePluginAttribute
   parent: SuperOffice.CRM.Data.Util.Duplicates
   isExternal: true
-  href: SuperOffice.CRM.Data.Util.Duplicates.SelectionDuplicateRulePluginAttribute.html
   name: SelectionDuplicateRulePluginAttribute
   nameWithType: SelectionDuplicateRulePluginAttribute
   fullName: SuperOffice.CRM.Data.Util.Duplicates.SelectionDuplicateRulePluginAttribute
 - uid: SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule
   commentId: T:SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule
   isExternal: true
-  href: SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule.html
   name: ProjectSoundexDuplicateRule
   nameWithType: ProjectSoundexDuplicateRule
   fullName: SuperOffice.CRM.Data.Util.Duplicates.ProjectSoundexDuplicateRule
 - uid: SuperOffice.CRM.Data.Util.Duplicates.ProjectNameDuplicateRule
   commentId: T:SuperOffice.CRM.Data.Util.Duplicates.ProjectNameDuplicateRule
   isExternal: true
-  href: SuperOffice.CRM.Data.Util.Duplicates.ProjectNameDuplicateRule.html
   name: ProjectNameDuplicateRule
   nameWithType: ProjectNameDuplicateRule
   fullName: SuperOffice.CRM.Data.Util.Duplicates.ProjectNameDuplicateRule
 - uid: SuperOffice.CRM.Data.Util.Duplicates.SelectionSoundexDuplicateRule
   commentId: T:SuperOffice.CRM.Data.Util.Duplicates.SelectionSoundexDuplicateRule
   isExternal: true
-  href: SuperOffice.CRM.Data.Util.Duplicates.SelectionSoundexDuplicateRule.html
   name: SelectionSoundexDuplicateRule
   nameWithType: SelectionSoundexDuplicateRule
   fullName: SuperOffice.CRM.Data.Util.Duplicates.SelectionSoundexDuplicateRule
 - uid: SuperOffice.CRM.Data.Util.Duplicates.SelectionNameDuplicateRule
   commentId: T:SuperOffice.CRM.Data.Util.Duplicates.SelectionNameDuplicateRule
   isExternal: true
-  href: SuperOffice.CRM.Data.Util.Duplicates.SelectionNameDuplicateRule.html
   name: SelectionNameDuplicateRule
   nameWithType: SelectionNameDuplicateRule
   fullName: SuperOffice.CRM.Data.Util.Duplicates.SelectionNameDuplicateRule
 - uid: SuperOffice.CRM.Data.Util.Duplicates
   commentId: N:SuperOffice.CRM.Data.Util.Duplicates
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Data.Util.Duplicates
   nameWithType: SuperOffice.CRM.Data.Util.Duplicates
   fullName: SuperOffice.CRM.Data.Util.Duplicates
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.CRM.Data.html
-  - name: .
-  - uid: SuperOffice.CRM.Data.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.CRM.Data.Util.html
-  - name: .
-  - uid: SuperOffice.CRM.Data.Util.Duplicates
-    name: Duplicates
-    isExternal: true
-    href: SuperOffice.CRM.Data.Util.Duplicates.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.CRM.Data.html
-  - name: .
-  - uid: SuperOffice.CRM.Data.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.CRM.Data.Util.html
-  - name: .
-  - uid: SuperOffice.CRM.Data.Util.Duplicates
-    name: Duplicates
-    isExternal: true
-    href: SuperOffice.CRM.Data.Util.Duplicates.html

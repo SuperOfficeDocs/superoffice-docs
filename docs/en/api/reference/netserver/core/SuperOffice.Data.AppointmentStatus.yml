@@ -19,44 +19,67 @@ items:
   - SuperOffice.Data.AppointmentStatus.NotStarted
   - SuperOffice.Data.AppointmentStatus.Started
   - SuperOffice.Data.AppointmentStatus.UnknownOrPostIt
+  - SuperOffice.Data.AppointmentStatus.value__
   langs:
   - csharp
   - vb
   name: AppointmentStatus
   nameWithType: AppointmentStatus
   fullName: SuperOffice.Data.AppointmentStatus
-  type: Enum
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: >-
-    Value for field 'status' in table 'appointment'.
-
-    This Enum is used by:  appointment.status
-  example: []
+  summary: "\nValue for field &apos;status&apos; in table &apos;appointment&apos;.\nThis Enum is used by:  appointment.status\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public enum AppointmentStatus : short
+    content: 'public sealed class AppointmentStatus : Enum'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
+      Public NotInheritable Class AppointmentStatus
+          Inherits
 
-      Public Enum AppointmentStatus As Short
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.AppointmentStatus.EnumUtil.MapEnums``2
   - SuperOffice.Data.AppointmentStatus.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  - SuperOffice.Data.AppointmentStatus.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.AppointmentStatus)
-  - SuperOffice.Data.AppointmentStatus.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - System.Enum.EnumUtil.GetDescription
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.AppointmentStatus.value__
+  commentId: F:SuperOffice.Data.AppointmentStatus.value__
+  id: value__
+  parent: SuperOffice.Data.AppointmentStatus
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: AppointmentStatus.value__
+  fullName: SuperOffice.Data.AppointmentStatus.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.AppointmentStatus.UnknownOrPostIt
   commentId: F:SuperOffice.Data.AppointmentStatus.UnknownOrPostIt
   id: UnknownOrPostIt
@@ -68,26 +91,24 @@ items:
   nameWithType: AppointmentStatus.UnknownOrPostIt
   fullName: SuperOffice.Data.AppointmentStatus.UnknownOrPostIt
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '0: Appointment is not initialized or it is a Post-IT for users diary, used together with ApointmentType.Note only'
-  example: []
+  summary: "\n0: Appointment is not initialized or it is a Post-IT for users diary, used together with ApointmentType.Note only\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      UnknownOrPostIt = 0
+    content: public const AppointmentStatus UnknownOrPostIt
     return:
       type: SuperOffice.Data.AppointmentStatus
-    content.vb: >-
-      <EnumMember>
-
-      UnknownOrPostIt = 0
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const UnknownOrPostIt As AppointmentStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.AppointmentStatus.NotStarted
   commentId: F:SuperOffice.Data.AppointmentStatus.NotStarted
   id: NotStarted
@@ -99,26 +120,24 @@ items:
   nameWithType: AppointmentStatus.NotStarted
   fullName: SuperOffice.Data.AppointmentStatus.NotStarted
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '1: Appointment has not been started'
-  example: []
+  summary: "\n1: Appointment has not been started\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      NotStarted = 1
+    content: public const AppointmentStatus NotStarted
     return:
       type: SuperOffice.Data.AppointmentStatus
-    content.vb: >-
-      <EnumMember>
-
-      NotStarted = 1
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const NotStarted As AppointmentStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.AppointmentStatus.Started
   commentId: F:SuperOffice.Data.AppointmentStatus.Started
   id: Started
@@ -130,26 +149,24 @@ items:
   nameWithType: AppointmentStatus.Started
   fullName: SuperOffice.Data.AppointmentStatus.Started
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '2: Appointment has been started, but not completed'
-  example: []
+  summary: "\n2: Appointment has been started, but not completed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Started = 2
+    content: public const AppointmentStatus Started
     return:
       type: SuperOffice.Data.AppointmentStatus
-    content.vb: >-
-      <EnumMember>
-
-      Started = 2
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Started As AppointmentStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.AppointmentStatus.Completed
   commentId: F:SuperOffice.Data.AppointmentStatus.Completed
   id: Completed
@@ -161,26 +178,24 @@ items:
   nameWithType: AppointmentStatus.Completed
   fullName: SuperOffice.Data.AppointmentStatus.Completed
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '3: Appointment is completed'
-  example: []
+  summary: "\n3: Appointment is completed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Completed = 3
+    content: public const AppointmentStatus Completed
     return:
       type: SuperOffice.Data.AppointmentStatus
-    content.vb: >-
-      <EnumMember>
-
-      Completed = 3
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Completed As AppointmentStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.AppointmentStatus.Hidden
   commentId: F:SuperOffice.Data.AppointmentStatus.Hidden
   id: Hidden
@@ -192,26 +207,24 @@ items:
   nameWithType: AppointmentStatus.Hidden
   fullName: SuperOffice.Data.AppointmentStatus.Hidden
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '4: Appointment is hidden'
-  example: []
+  summary: "\n4: Appointment is hidden\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Hidden = 4
+    content: public const AppointmentStatus Hidden
     return:
       type: SuperOffice.Data.AppointmentStatus
-    content.vb: >-
-      <EnumMember>
-
-      Hidden = 4
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Hidden As AppointmentStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.AppointmentStatus.Booking
   commentId: F:SuperOffice.Data.AppointmentStatus.Booking
   id: Booking
@@ -223,26 +236,24 @@ items:
   nameWithType: AppointmentStatus.Booking
   fullName: SuperOffice.Data.AppointmentStatus.Booking
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '5: Appointment is a booking invitation (initial status for a booking)'
-  example: []
+  summary: "\n5: Appointment is a booking invitation (initial status for a booking)\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Booking = 5
+    content: public const AppointmentStatus Booking
     return:
       type: SuperOffice.Data.AppointmentStatus
-    content.vb: >-
-      <EnumMember>
-
-      Booking = 5
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Booking As AppointmentStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.AppointmentStatus.BookingMoved
   commentId: F:SuperOffice.Data.AppointmentStatus.BookingMoved
   id: BookingMoved
@@ -254,26 +265,24 @@ items:
   nameWithType: AppointmentStatus.BookingMoved
   fullName: SuperOffice.Data.AppointmentStatus.BookingMoved
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '6: Appointment is a booking that has been moved since it was seen by the invitee'
-  example: []
+  summary: "\n6: Appointment is a booking that has been moved since it was seen by the invitee\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      BookingMoved = 6
+    content: public const AppointmentStatus BookingMoved
     return:
       type: SuperOffice.Data.AppointmentStatus
-    content.vb: >-
-      <EnumMember>
-
-      BookingMoved = 6
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const BookingMoved As AppointmentStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.AppointmentStatus.BookingSeen
   commentId: F:SuperOffice.Data.AppointmentStatus.BookingSeen
   id: BookingSeen
@@ -285,26 +294,24 @@ items:
   nameWithType: AppointmentStatus.BookingSeen
   fullName: SuperOffice.Data.AppointmentStatus.BookingSeen
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '7: Appointment is a booking and has been seen, but neither accepted nor rejected'
-  example: []
+  summary: "\n7: Appointment is a booking and has been seen, but neither accepted nor rejected\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      BookingSeen = 7
+    content: public const AppointmentStatus BookingSeen
     return:
       type: SuperOffice.Data.AppointmentStatus
-    content.vb: >-
-      <EnumMember>
-
-      BookingSeen = 7
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const BookingSeen As AppointmentStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.AppointmentStatus.BookingMovedSeen
   commentId: F:SuperOffice.Data.AppointmentStatus.BookingMovedSeen
   id: BookingMovedSeen
@@ -316,26 +323,24 @@ items:
   nameWithType: AppointmentStatus.BookingMovedSeen
   fullName: SuperOffice.Data.AppointmentStatus.BookingMovedSeen
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '8: Appointment is a booking that has been moved. The movement has been seen but neither accepted nor rejected'
-  example: []
+  summary: "\n8: Appointment is a booking that has been moved. The movement has been seen but neither accepted nor rejected\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      BookingMovedSeen = 8
+    content: public const AppointmentStatus BookingMovedSeen
     return:
       type: SuperOffice.Data.AppointmentStatus
-    content.vb: >-
-      <EnumMember>
-
-      BookingMovedSeen = 8
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const BookingMovedSeen As AppointmentStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.AppointmentStatus.BookingDeclined
   commentId: F:SuperOffice.Data.AppointmentStatus.BookingDeclined
   id: BookingDeclined
@@ -347,26 +352,24 @@ items:
   nameWithType: AppointmentStatus.BookingDeclined
   fullName: SuperOffice.Data.AppointmentStatus.BookingDeclined
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '9: Appointment is a booking that has been seen and declined'
-  example: []
+  summary: "\n9: Appointment is a booking that has been seen and declined\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      BookingDeclined = 9
+    content: public const AppointmentStatus BookingDeclined
     return:
       type: SuperOffice.Data.AppointmentStatus
-    content.vb: >-
-      <EnumMember>
-
-      BookingDeclined = 9
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const BookingDeclined As AppointmentStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.AppointmentStatus.BookingDeleted
   commentId: F:SuperOffice.Data.AppointmentStatus.BookingDeleted
   id: BookingDeleted
@@ -378,26 +381,24 @@ items:
   nameWithType: AppointmentStatus.BookingDeleted
   fullName: SuperOffice.Data.AppointmentStatus.BookingDeleted
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '10: Status of "child" appointment whose "mother" has been deleted (the meeting is cancelled)'
-  example: []
+  summary: "\n10: Status of &quot;child&quot; appointment whose &quot;mother&quot; has been deleted (the meeting is cancelled)\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      BookingDeleted = 10
+    content: public const AppointmentStatus BookingDeleted
     return:
       type: SuperOffice.Data.AppointmentStatus
-    content.vb: >-
-      <EnumMember>
-
-      BookingDeleted = 10
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const BookingDeleted As AppointmentStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.AppointmentStatus.Assignment
   commentId: F:SuperOffice.Data.AppointmentStatus.Assignment
   id: Assignment
@@ -409,26 +410,24 @@ items:
   nameWithType: AppointmentStatus.Assignment
   fullName: SuperOffice.Data.AppointmentStatus.Assignment
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '11: You are assigned this appointment (initial status, like Booking(5) )'
-  example: []
+  summary: "\n11: You are assigned this appointment (initial status, like Booking(5) )\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Assignment = 11
+    content: public const AppointmentStatus Assignment
     return:
       type: SuperOffice.Data.AppointmentStatus
-    content.vb: >-
-      <EnumMember>
-
-      Assignment = 11
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Assignment As AppointmentStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.AppointmentStatus.AssignmentSeen
   commentId: F:SuperOffice.Data.AppointmentStatus.AssignmentSeen
   id: AssignmentSeen
@@ -440,26 +439,24 @@ items:
   nameWithType: AppointmentStatus.AssignmentSeen
   fullName: SuperOffice.Data.AppointmentStatus.AssignmentSeen
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '12: You have seen the assignment, but not yet declined or accepted it'
-  example: []
+  summary: "\n12: You have seen the assignment, but not yet declined or accepted it\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      AssignmentSeen = 12
+    content: public const AppointmentStatus AssignmentSeen
     return:
       type: SuperOffice.Data.AppointmentStatus
-    content.vb: >-
-      <EnumMember>
-
-      AssignmentSeen = 12
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const AssignmentSeen As AppointmentStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.AppointmentStatus.AssignmentDeclined
   commentId: F:SuperOffice.Data.AppointmentStatus.AssignmentDeclined
   id: AssignmentDeclined
@@ -471,300 +468,115 @@ items:
   nameWithType: AppointmentStatus.AssignmentDeclined
   fullName: SuperOffice.Data.AppointmentStatus.AssignmentDeclined
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '13: You have declined the appointment assigned to you'
-  example: []
+  summary: "\n13: You have declined the appointment assigned to you\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      AssignmentDeclined = 13
+    content: public const AppointmentStatus AssignmentDeclined
     return:
       type: SuperOffice.Data.AppointmentStatus
-    content.vb: >-
-      <EnumMember>
-
-      AssignmentDeclined = 13
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const AssignmentDeclined As AppointmentStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.AppointmentStatus.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<AppointmentStatus, To>(AppointmentStatus)
-  nameWithType: EnumUtil.MapEnums<AppointmentStatus, To>(AppointmentStatus)
-  fullName: EnumUtil.MapEnums<SuperOffice.Data.AppointmentStatus, To>(SuperOffice.Data.AppointmentStatus)
-  nameWithType.vb: EnumUtil.MapEnums(Of AppointmentStatus, To)(AppointmentStatus)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.AppointmentStatus, To)(SuperOffice.Data.AppointmentStatus)
-  name.vb: MapEnums(Of AppointmentStatus, To)(AppointmentStatus)
+  name: MapEnums<AppointmentStatus, To>()
+  nameWithType: EnumUtil.MapEnums<AppointmentStatus, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.AppointmentStatus, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of AppointmentStatus, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.AppointmentStatus, To)()
+  name.vb: MapEnums(Of AppointmentStatus, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.AppointmentStatus)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<AppointmentStatus, To>
+    nameWithType: EnumUtil.MapEnums<AppointmentStatus, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.AppointmentStatus, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.AppointmentStatus
-    name: AppointmentStatus
-    isExternal: true
-    href: SuperOffice.Data.AppointmentStatus.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.AppointmentStatus
-    name: AppointmentStatus
-    isExternal: true
-    href: SuperOffice.Data.AppointmentStatus.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.AppointmentStatus)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of AppointmentStatus, To)
+    nameWithType: EnumUtil.MapEnums(Of AppointmentStatus, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.AppointmentStatus, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.AppointmentStatus
-    name: AppointmentStatus
-    isExternal: true
-    href: SuperOffice.Data.AppointmentStatus.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.AppointmentStatus
-    name: AppointmentStatus
-    isExternal: true
-    href: SuperOffice.Data.AppointmentStatus.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.AppointmentStatus.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<AppointmentStatus, To>(AppointmentStatus)
-  nameWithType: Converters.MapEnums<AppointmentStatus, To>(AppointmentStatus)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.AppointmentStatus, To>(SuperOffice.Data.AppointmentStatus)
-  nameWithType.vb: Converters.MapEnums(Of AppointmentStatus, To)(AppointmentStatus)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.AppointmentStatus, To)(SuperOffice.Data.AppointmentStatus)
-  name.vb: MapEnums(Of AppointmentStatus, To)(AppointmentStatus)
+  name: MapEnums<AppointmentStatus, To>()
+  nameWithType: Converters.MapEnums<AppointmentStatus, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.AppointmentStatus, To>()
+  nameWithType.vb: Converters.MapEnums(Of AppointmentStatus, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.AppointmentStatus, To)()
+  name.vb: MapEnums(Of AppointmentStatus, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.AppointmentStatus)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<AppointmentStatus, To>
+    nameWithType: Converters.MapEnums<AppointmentStatus, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.AppointmentStatus, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.AppointmentStatus
-    name: AppointmentStatus
-    isExternal: true
-    href: SuperOffice.Data.AppointmentStatus.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.AppointmentStatus
-    name: AppointmentStatus
-    isExternal: true
-    href: SuperOffice.Data.AppointmentStatus.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.AppointmentStatus)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of AppointmentStatus, To)
+    nameWithType: Converters.MapEnums(Of AppointmentStatus, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.AppointmentStatus, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.AppointmentStatus
-    name: AppointmentStatus
-    isExternal: true
-    href: SuperOffice.Data.AppointmentStatus.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.AppointmentStatus
-    name: AppointmentStatus
-    isExternal: true
-    href: SuperOffice.Data.AppointmentStatus.html
-  - name: )
-- uid: SuperOffice.Data.AppointmentStatus.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.AppointmentStatus)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<AppointmentStatus>(AppointmentStatus, AppointmentStatus)
-  nameWithType: ObjectExtensions.AssignByReflection<AppointmentStatus>(AppointmentStatus, AppointmentStatus)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.AppointmentStatus>(SuperOffice.Data.AppointmentStatus, SuperOffice.Data.AppointmentStatus)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of AppointmentStatus)(AppointmentStatus, AppointmentStatus)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.AppointmentStatus)(SuperOffice.Data.AppointmentStatus, SuperOffice.Data.AppointmentStatus)
-  name.vb: AssignByReflection(Of AppointmentStatus)(AppointmentStatus, AppointmentStatus)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.AppointmentStatus,SuperOffice.Data.AppointmentStatus)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.Data.AppointmentStatus
-    name: AppointmentStatus
-    isExternal: true
-    href: SuperOffice.Data.AppointmentStatus.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Data.AppointmentStatus
-    name: AppointmentStatus
-    isExternal: true
-    href: SuperOffice.Data.AppointmentStatus.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Data.AppointmentStatus
-    name: AppointmentStatus
-    isExternal: true
-    href: SuperOffice.Data.AppointmentStatus.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.AppointmentStatus,SuperOffice.Data.AppointmentStatus)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.AppointmentStatus
-    name: AppointmentStatus
-    isExternal: true
-    href: SuperOffice.Data.AppointmentStatus.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.Data.AppointmentStatus
-    name: AppointmentStatus
-    isExternal: true
-    href: SuperOffice.Data.AppointmentStatus.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Data.AppointmentStatus
-    name: AppointmentStatus
-    isExternal: true
-    href: SuperOffice.Data.AppointmentStatus.html
-  - name: )
-- uid: SuperOffice.Data.AppointmentStatus.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<AppointmentStatus>(AppointmentStatus)
-  nameWithType: ObjectExtensions.GraphCopy<AppointmentStatus>(AppointmentStatus)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.AppointmentStatus>(SuperOffice.Data.AppointmentStatus)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of AppointmentStatus)(AppointmentStatus)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.AppointmentStatus)(SuperOffice.Data.AppointmentStatus)
-  name.vb: GraphCopy(Of AppointmentStatus)(AppointmentStatus)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.AppointmentStatus)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.Data.AppointmentStatus
-    name: AppointmentStatus
-    isExternal: true
-    href: SuperOffice.Data.AppointmentStatus.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Data.AppointmentStatus
-    name: AppointmentStatus
-    isExternal: true
-    href: SuperOffice.Data.AppointmentStatus.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.AppointmentStatus)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.AppointmentStatus
-    name: AppointmentStatus
-    isExternal: true
-    href: SuperOffice.Data.AppointmentStatus.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.Data.AppointmentStatus
-    name: AppointmentStatus
-    isExternal: true
-    href: SuperOffice.Data.AppointmentStatus.html
-  - name: )
-- uid: System.Enum.EnumUtil.GetDescription
-  commentId: M:EnumUtil.GetDescription(System.Enum)
-  parent: EnumUtil
-  definition: EnumUtil.GetDescription(System.Enum)
-  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  name: GetDescription(Enum)
-  nameWithType: EnumUtil.GetDescription(Enum)
-  fullName: EnumUtil.GetDescription(System.Enum)
-  spec.csharp:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
-  spec.vb:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -773,45 +585,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -820,222 +630,58 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: EnumUtil.GetDescription(System.Enum)
-  commentId: M:EnumUtil.GetDescription(System.Enum)
-  isExternal: true
-  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  name: GetDescription(Enum)
-  nameWithType: EnumUtil.GetDescription(Enum)
-  fullName: EnumUtil.GetDescription(System.Enum)
-  spec.csharp:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
-  spec.vb:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.Data.AppointmentStatus
   commentId: T:SuperOffice.Data.AppointmentStatus
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.AppointmentStatus.html
   name: AppointmentStatus
   nameWithType: AppointmentStatus
   fullName: SuperOffice.Data.AppointmentStatus

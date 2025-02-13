@@ -16,17 +16,19 @@ items:
   nameWithType: MenuListItem
   fullName: SuperOffice.CRM.Lists.MenuListItem
   type: Class
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Lists
-  summary: >-
-    MenuListItem is inherited from <xref href="SuperOffice.CRM.Lists.SoListItem" data-throw-if-not-resolved="false"></xref>. In addition to the standard list items
-
-    the class have properties specific to displaying menuitems in the main menu and the context menus.
-  example: []
+  summary: "\nMenuListItem is inherited from <xref href=\"SuperOffice.CRM.Lists.SoListItem\" data-throw-if-not-resolved=\"false\"></xref>. In addition to the standard list items\nthe class have properties specific to displaying menuitems in the main menu and the context menus.\n"
   syntax:
     content: 'public class MenuListItem : SoListItem, IComparable<ISoListItem>, IComparable, IMenuListItem, ISoListItem'
-    content.vb: Public Class MenuListItem Inherits SoListItem Implements IComparable(Of ISoListItem), IComparable, IMenuListItem, ISoListItem
+    content.vb: >-
+      Public Class MenuListItem
+          Inherits SoListItem
+          Implements IComparable(Of ISoListItem), IComparable, IMenuListItem, ISoListItem
   inheritance:
   - System.Object
   - SuperOffice.CRM.Lists.SoListItem
@@ -50,14 +52,15 @@ items:
   - SuperOffice.CRM.Lists.SoListItem.StyleHint
   - SuperOffice.CRM.Lists.SoListItem.ExtraInfo
   - SuperOffice.CRM.Lists.SoListItem.FullName
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Lists.MenuListItem.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Lists.MenuListItem.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Lists.MenuListItem.#ctor(System.Int32,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String)
   commentId: M:SuperOffice.CRM.Lists.MenuListItem.#ctor(System.Int32,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String)
   id: '#ctor(System.Int32,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String)'
@@ -65,15 +68,17 @@ items:
   langs:
   - csharp
   - vb
-  name: MenuListItem(int, string, string, string, int, string, string, string)
-  nameWithType: MenuListItem.MenuListItem(int, string, string, string, int, string, string, string)
-  fullName: SuperOffice.CRM.Lists.MenuListItem.MenuListItem(int, string, string, string, int, string, string, string)
+  name: MenuListItem(Int32, String, String, String, Int32, String, String, String)
+  nameWithType: MenuListItem.MenuListItem(Int32, String, String, String, Int32, String, String, String)
+  fullName: SuperOffice.CRM.Lists.MenuListItem.MenuListItem(System.Int32, System.String, System.String, System.String, System.Int32, System.String, System.String, System.String)
   type: Constructor
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Lists
-  summary: Default constructor
-  example: []
+  summary: "\nDefault constructor\n"
   syntax:
     content: public MenuListItem(int Id, string Name, string Tooltip, string Type, int Color, string IconHint, string Url, string CrudFlag)
     parameters:
@@ -100,12 +105,12 @@ items:
       description: A url for a MenuListItem is usually a soprotocol url
     - id: CrudFlag
       type: System.String
-      description: ''
     content.vb: Public Sub New(Id As Integer, Name As String, Tooltip As String, Type As String, Color As Integer, IconHint As String, Url As String, CrudFlag As String)
   overload: SuperOffice.CRM.Lists.MenuListItem.#ctor*
-  nameWithType.vb: MenuListItem.New(Integer, String, String, String, Integer, String, String, String)
-  fullName.vb: SuperOffice.CRM.Lists.MenuListItem.New(Integer, String, String, String, Integer, String, String, String)
-  name.vb: New(Integer, String, String, String, Integer, String, String, String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Lists.MenuListItem.Url
   commentId: P:SuperOffice.CRM.Lists.MenuListItem.Url
   id: Url
@@ -117,11 +122,13 @@ items:
   nameWithType: MenuListItem.Url
   fullName: SuperOffice.CRM.Lists.MenuListItem.Url
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Lists
-  summary: ''
-  example: []
+  summary: "\n\n"
   syntax:
     content: public string Url { get; }
     parameters: []
@@ -131,6 +138,12 @@ items:
   overload: SuperOffice.CRM.Lists.MenuListItem.Url*
   implements:
   - SuperOffice.CRM.Lists.IMenuListItem.Url
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Lists.MenuListItem.CrudFlags
   commentId: P:SuperOffice.CRM.Lists.MenuListItem.CrudFlags
   id: CrudFlags
@@ -142,11 +155,13 @@ items:
   nameWithType: MenuListItem.CrudFlags
   fullName: SuperOffice.CRM.Lists.MenuListItem.CrudFlags
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Lists
-  summary: ''
-  example: []
+  summary: "\n\n"
   syntax:
     content: public string CrudFlags { get; }
     parameters: []
@@ -156,6 +171,12 @@ items:
   overload: SuperOffice.CRM.Lists.MenuListItem.CrudFlags*
   implements:
   - SuperOffice.CRM.Lists.IMenuListItem.CrudFlags
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Lists.MenuListItem.SubItems
   commentId: P:SuperOffice.CRM.Lists.MenuListItem.SubItems
   id: SubItems
@@ -167,11 +188,13 @@ items:
   nameWithType: MenuListItem.SubItems
   fullName: SuperOffice.CRM.Lists.MenuListItem.SubItems
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Lists
-  summary: ''
-  example: []
+  summary: "\n\n"
   syntax:
     content: public List<MenuListItem> SubItems { get; }
     parameters: []
@@ -181,68 +204,36 @@ items:
   overload: SuperOffice.CRM.Lists.MenuListItem.SubItems*
   implements:
   - SuperOffice.CRM.Lists.IMenuListItem.SubItems
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 references:
-- uid: SuperOffice.CRM.Lists.SoListItem
-  commentId: T:SuperOffice.CRM.Lists.SoListItem
-  parent: SuperOffice.CRM.Lists
-  isExternal: true
-  href: SuperOffice.CRM.Lists.SoListItem.html
-  name: SoListItem
-  nameWithType: SoListItem
-  fullName: SuperOffice.CRM.Lists.SoListItem
 - uid: SuperOffice.CRM.Lists
   commentId: N:SuperOffice.CRM.Lists
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Lists
   nameWithType: SuperOffice.CRM.Lists
   fullName: SuperOffice.CRM.Lists
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Lists
-    name: Lists
-    isExternal: true
-    href: SuperOffice.CRM.Lists.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Lists
-    name: Lists
-    isExternal: true
-    href: SuperOffice.CRM.Lists.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Lists.SoListItem
+  commentId: T:SuperOffice.CRM.Lists.SoListItem
+  parent: SuperOffice.CRM.Lists
+  isExternal: true
+  name: SoListItem
+  nameWithType: SoListItem
+  fullName: SuperOffice.CRM.Lists.SoListItem
 - uid: System.IComparable{SuperOffice.CRM.Lists.ISoListItem}
-  commentId: T:System.IComparable{SuperOffice.CRM.Lists.ISoListItem}
-  parent: System
+  commentId: '!:System.IComparable{SuperOffice.CRM.Lists.ISoListItem}'
   definition: System.IComparable`1
-  href: https://learn.microsoft.com/dotnet/api/system.icomparable-1
   name: IComparable<ISoListItem>
   nameWithType: IComparable<ISoListItem>
   fullName: System.IComparable<SuperOffice.CRM.Lists.ISoListItem>
@@ -252,32 +243,39 @@ references:
   spec.csharp:
   - uid: System.IComparable`1
     name: IComparable
+    nameWithType: IComparable
+    fullName: System.IComparable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Lists.ISoListItem
     name: ISoListItem
+    nameWithType: ISoListItem
+    fullName: SuperOffice.CRM.Lists.ISoListItem
     isExternal: true
-    href: SuperOffice.CRM.Lists.ISoListItem.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.IComparable`1
     name: IComparable
+    nameWithType: IComparable
+    fullName: System.IComparable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Lists.ISoListItem
     name: ISoListItem
+    nameWithType: ISoListItem
+    fullName: SuperOffice.CRM.Lists.ISoListItem
     isExternal: true
-    href: SuperOffice.CRM.Lists.ISoListItem.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.IComparable
-  commentId: T:System.IComparable
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.icomparable
   name: IComparable
   nameWithType: IComparable
   fullName: System.IComparable
@@ -285,7 +283,6 @@ references:
   commentId: T:SuperOffice.CRM.Lists.IMenuListItem
   parent: SuperOffice.CRM.Lists
   isExternal: true
-  href: SuperOffice.CRM.Lists.IMenuListItem.html
   name: IMenuListItem
   nameWithType: IMenuListItem
   fullName: SuperOffice.CRM.Lists.IMenuListItem
@@ -293,7 +290,6 @@ references:
   commentId: T:SuperOffice.CRM.Lists.ISoListItem
   parent: SuperOffice.CRM.Lists
   isExternal: true
-  href: SuperOffice.CRM.Lists.ISoListItem.html
   name: ISoListItem
   nameWithType: ISoListItem
   fullName: SuperOffice.CRM.Lists.ISoListItem
@@ -301,81 +297,109 @@ references:
   commentId: M:SuperOffice.CRM.Lists.SoListItem.ToString
   parent: SuperOffice.CRM.Lists.SoListItem
   isExternal: true
-  href: SuperOffice.CRM.Lists.SoListItem.html#SuperOffice_CRM_Lists_SoListItem_ToString
   name: ToString()
   nameWithType: SoListItem.ToString()
   fullName: SuperOffice.CRM.Lists.SoListItem.ToString()
   spec.csharp:
   - uid: SuperOffice.CRM.Lists.SoListItem.ToString
     name: ToString
+    nameWithType: SoListItem.ToString
+    fullName: SuperOffice.CRM.Lists.SoListItem.ToString
     isExternal: true
-    href: SuperOffice.CRM.Lists.SoListItem.html#SuperOffice_CRM_Lists_SoListItem_ToString
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Lists.SoListItem.ToString
     name: ToString
+    nameWithType: SoListItem.ToString
+    fullName: SuperOffice.CRM.Lists.SoListItem.ToString
     isExternal: true
-    href: SuperOffice.CRM.Lists.SoListItem.html#SuperOffice_CRM_Lists_SoListItem_ToString
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Lists.SoListItem.CompareTo(SuperOffice.CRM.Lists.ISoListItem)
   commentId: M:SuperOffice.CRM.Lists.SoListItem.CompareTo(SuperOffice.CRM.Lists.ISoListItem)
   parent: SuperOffice.CRM.Lists.SoListItem
   isExternal: true
-  href: SuperOffice.CRM.Lists.SoListItem.html#SuperOffice_CRM_Lists_SoListItem_CompareTo_SuperOffice_CRM_Lists_ISoListItem_
   name: CompareTo(ISoListItem)
   nameWithType: SoListItem.CompareTo(ISoListItem)
   fullName: SuperOffice.CRM.Lists.SoListItem.CompareTo(SuperOffice.CRM.Lists.ISoListItem)
   spec.csharp:
   - uid: SuperOffice.CRM.Lists.SoListItem.CompareTo(SuperOffice.CRM.Lists.ISoListItem)
     name: CompareTo
+    nameWithType: SoListItem.CompareTo
+    fullName: SuperOffice.CRM.Lists.SoListItem.CompareTo
     isExternal: true
-    href: SuperOffice.CRM.Lists.SoListItem.html#SuperOffice_CRM_Lists_SoListItem_CompareTo_SuperOffice_CRM_Lists_ISoListItem_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Lists.ISoListItem
     name: ISoListItem
+    nameWithType: ISoListItem
+    fullName: SuperOffice.CRM.Lists.ISoListItem
     isExternal: true
-    href: SuperOffice.CRM.Lists.ISoListItem.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Lists.SoListItem.CompareTo(SuperOffice.CRM.Lists.ISoListItem)
     name: CompareTo
+    nameWithType: SoListItem.CompareTo
+    fullName: SuperOffice.CRM.Lists.SoListItem.CompareTo
     isExternal: true
-    href: SuperOffice.CRM.Lists.SoListItem.html#SuperOffice_CRM_Lists_SoListItem_CompareTo_SuperOffice_CRM_Lists_ISoListItem_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Lists.ISoListItem
     name: ISoListItem
+    nameWithType: ISoListItem
+    fullName: SuperOffice.CRM.Lists.ISoListItem
     isExternal: true
-    href: SuperOffice.CRM.Lists.ISoListItem.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Lists.SoListItem.GetHashCode
   commentId: M:SuperOffice.CRM.Lists.SoListItem.GetHashCode
   parent: SuperOffice.CRM.Lists.SoListItem
   isExternal: true
-  href: SuperOffice.CRM.Lists.SoListItem.html#SuperOffice_CRM_Lists_SoListItem_GetHashCode
   name: GetHashCode()
   nameWithType: SoListItem.GetHashCode()
   fullName: SuperOffice.CRM.Lists.SoListItem.GetHashCode()
   spec.csharp:
   - uid: SuperOffice.CRM.Lists.SoListItem.GetHashCode
     name: GetHashCode
+    nameWithType: SoListItem.GetHashCode
+    fullName: SuperOffice.CRM.Lists.SoListItem.GetHashCode
     isExternal: true
-    href: SuperOffice.CRM.Lists.SoListItem.html#SuperOffice_CRM_Lists_SoListItem_GetHashCode
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Lists.SoListItem.GetHashCode
     name: GetHashCode
+    nameWithType: SoListItem.GetHashCode
+    fullName: SuperOffice.CRM.Lists.SoListItem.GetHashCode
     isExternal: true
-    href: SuperOffice.CRM.Lists.SoListItem.html#SuperOffice_CRM_Lists_SoListItem_GetHashCode
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Lists.SoListItem.Id
   commentId: P:SuperOffice.CRM.Lists.SoListItem.Id
   parent: SuperOffice.CRM.Lists.SoListItem
   isExternal: true
-  href: SuperOffice.CRM.Lists.SoListItem.html#SuperOffice_CRM_Lists_SoListItem_Id
   name: Id
   nameWithType: SoListItem.Id
   fullName: SuperOffice.CRM.Lists.SoListItem.Id
@@ -383,7 +407,6 @@ references:
   commentId: P:SuperOffice.CRM.Lists.SoListItem.Name
   parent: SuperOffice.CRM.Lists.SoListItem
   isExternal: true
-  href: SuperOffice.CRM.Lists.SoListItem.html#SuperOffice_CRM_Lists_SoListItem_Name
   name: Name
   nameWithType: SoListItem.Name
   fullName: SuperOffice.CRM.Lists.SoListItem.Name
@@ -391,7 +414,6 @@ references:
   commentId: P:SuperOffice.CRM.Lists.SoListItem.Tooltip
   parent: SuperOffice.CRM.Lists.SoListItem
   isExternal: true
-  href: SuperOffice.CRM.Lists.SoListItem.html#SuperOffice_CRM_Lists_SoListItem_Tooltip
   name: Tooltip
   nameWithType: SoListItem.Tooltip
   fullName: SuperOffice.CRM.Lists.SoListItem.Tooltip
@@ -399,7 +421,6 @@ references:
   commentId: P:SuperOffice.CRM.Lists.SoListItem.Rank
   parent: SuperOffice.CRM.Lists.SoListItem
   isExternal: true
-  href: SuperOffice.CRM.Lists.SoListItem.html#SuperOffice_CRM_Lists_SoListItem_Rank
   name: Rank
   nameWithType: SoListItem.Rank
   fullName: SuperOffice.CRM.Lists.SoListItem.Rank
@@ -407,7 +428,6 @@ references:
   commentId: P:SuperOffice.CRM.Lists.SoListItem.Deleted
   parent: SuperOffice.CRM.Lists.SoListItem
   isExternal: true
-  href: SuperOffice.CRM.Lists.SoListItem.html#SuperOffice_CRM_Lists_SoListItem_Deleted
   name: Deleted
   nameWithType: SoListItem.Deleted
   fullName: SuperOffice.CRM.Lists.SoListItem.Deleted
@@ -415,7 +435,6 @@ references:
   commentId: P:SuperOffice.CRM.Lists.SoListItem.Type
   parent: SuperOffice.CRM.Lists.SoListItem
   isExternal: true
-  href: SuperOffice.CRM.Lists.SoListItem.html#SuperOffice_CRM_Lists_SoListItem_Type
   name: Type
   nameWithType: SoListItem.Type
   fullName: SuperOffice.CRM.Lists.SoListItem.Type
@@ -423,7 +442,6 @@ references:
   commentId: P:SuperOffice.CRM.Lists.SoListItem.Color
   parent: SuperOffice.CRM.Lists.SoListItem
   isExternal: true
-  href: SuperOffice.CRM.Lists.SoListItem.html#SuperOffice_CRM_Lists_SoListItem_Color
   name: Color
   nameWithType: SoListItem.Color
   fullName: SuperOffice.CRM.Lists.SoListItem.Color
@@ -431,7 +449,6 @@ references:
   commentId: P:SuperOffice.CRM.Lists.SoListItem.IconHint
   parent: SuperOffice.CRM.Lists.SoListItem
   isExternal: true
-  href: SuperOffice.CRM.Lists.SoListItem.html#SuperOffice_CRM_Lists_SoListItem_IconHint
   name: IconHint
   nameWithType: SoListItem.IconHint
   fullName: SuperOffice.CRM.Lists.SoListItem.IconHint
@@ -439,7 +456,6 @@ references:
   commentId: P:SuperOffice.CRM.Lists.SoListItem.StyleHint
   parent: SuperOffice.CRM.Lists.SoListItem
   isExternal: true
-  href: SuperOffice.CRM.Lists.SoListItem.html#SuperOffice_CRM_Lists_SoListItem_StyleHint
   name: StyleHint
   nameWithType: SoListItem.StyleHint
   fullName: SuperOffice.CRM.Lists.SoListItem.StyleHint
@@ -447,7 +463,6 @@ references:
   commentId: P:SuperOffice.CRM.Lists.SoListItem.ExtraInfo
   parent: SuperOffice.CRM.Lists.SoListItem
   isExternal: true
-  href: SuperOffice.CRM.Lists.SoListItem.html#SuperOffice_CRM_Lists_SoListItem_ExtraInfo
   name: ExtraInfo
   nameWithType: SoListItem.ExtraInfo
   fullName: SuperOffice.CRM.Lists.SoListItem.ExtraInfo
@@ -455,326 +470,124 @@ references:
   commentId: P:SuperOffice.CRM.Lists.SoListItem.FullName
   parent: SuperOffice.CRM.Lists.SoListItem
   isExternal: true
-  href: SuperOffice.CRM.Lists.SoListItem.html#SuperOffice_CRM_Lists_SoListItem_FullName
   name: FullName
   nameWithType: SoListItem.FullName
   fullName: SuperOffice.CRM.Lists.SoListItem.FullName
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
 - uid: SuperOffice.CRM.Lists.MenuListItem.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<MenuListItem, To>(MenuListItem)
-  nameWithType: EnumUtil.MapEnums<MenuListItem, To>(MenuListItem)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Lists.MenuListItem, To>(SuperOffice.CRM.Lists.MenuListItem)
-  nameWithType.vb: EnumUtil.MapEnums(Of MenuListItem, To)(MenuListItem)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Lists.MenuListItem, To)(SuperOffice.CRM.Lists.MenuListItem)
-  name.vb: MapEnums(Of MenuListItem, To)(MenuListItem)
+  name: MapEnums<MenuListItem, To>()
+  nameWithType: EnumUtil.MapEnums<MenuListItem, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Lists.MenuListItem, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of MenuListItem, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Lists.MenuListItem, To)()
+  name.vb: MapEnums(Of MenuListItem, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Lists.MenuListItem)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<MenuListItem, To>
+    nameWithType: EnumUtil.MapEnums<MenuListItem, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Lists.MenuListItem, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Lists.MenuListItem
-    name: MenuListItem
-    isExternal: true
-    href: SuperOffice.CRM.Lists.MenuListItem.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Lists.MenuListItem
-    name: MenuListItem
-    isExternal: true
-    href: SuperOffice.CRM.Lists.MenuListItem.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Lists.MenuListItem)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of MenuListItem, To)
+    nameWithType: EnumUtil.MapEnums(Of MenuListItem, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Lists.MenuListItem, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Lists.MenuListItem
-    name: MenuListItem
-    isExternal: true
-    href: SuperOffice.CRM.Lists.MenuListItem.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Lists.MenuListItem
-    name: MenuListItem
-    isExternal: true
-    href: SuperOffice.CRM.Lists.MenuListItem.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Lists.MenuListItem.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<MenuListItem, To>(MenuListItem)
-  nameWithType: Converters.MapEnums<MenuListItem, To>(MenuListItem)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Lists.MenuListItem, To>(SuperOffice.CRM.Lists.MenuListItem)
-  nameWithType.vb: Converters.MapEnums(Of MenuListItem, To)(MenuListItem)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Lists.MenuListItem, To)(SuperOffice.CRM.Lists.MenuListItem)
-  name.vb: MapEnums(Of MenuListItem, To)(MenuListItem)
+  name: MapEnums<MenuListItem, To>()
+  nameWithType: Converters.MapEnums<MenuListItem, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Lists.MenuListItem, To>()
+  nameWithType.vb: Converters.MapEnums(Of MenuListItem, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Lists.MenuListItem, To)()
+  name.vb: MapEnums(Of MenuListItem, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Lists.MenuListItem)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<MenuListItem, To>
+    nameWithType: Converters.MapEnums<MenuListItem, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Lists.MenuListItem, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Lists.MenuListItem
-    name: MenuListItem
-    isExternal: true
-    href: SuperOffice.CRM.Lists.MenuListItem.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Lists.MenuListItem
-    name: MenuListItem
-    isExternal: true
-    href: SuperOffice.CRM.Lists.MenuListItem.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Lists.MenuListItem)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of MenuListItem, To)
+    nameWithType: Converters.MapEnums(Of MenuListItem, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Lists.MenuListItem, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Lists.MenuListItem
-    name: MenuListItem
-    isExternal: true
-    href: SuperOffice.CRM.Lists.MenuListItem.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Lists.MenuListItem
-    name: MenuListItem
-    isExternal: true
-    href: SuperOffice.CRM.Lists.MenuListItem.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: System.IComparable`1
-  commentId: T:System.IComparable`1
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.icomparable-1
-  name: IComparable<T>
-  nameWithType: IComparable<T>
-  fullName: System.IComparable<T>
-  nameWithType.vb: IComparable(Of T)
-  fullName.vb: System.IComparable(Of T)
-  name.vb: IComparable(Of T)
+  name: IComparable<>
+  nameWithType: IComparable<>
+  fullName: System.IComparable<>
+  nameWithType.vb: IComparable(Of )
+  fullName.vb: System.IComparable(Of )
+  name.vb: IComparable(Of )
   spec.csharp:
   - uid: System.IComparable`1
     name: IComparable
+    nameWithType: IComparable
+    fullName: System.IComparable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1
   - name: <
-  - name: T
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.IComparable`1
     name: IComparable
+    nameWithType: IComparable
+    fullName: System.IComparable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -783,45 +596,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -830,115 +641,70 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.CRM.Lists.MenuListItem.#ctor*
   commentId: Overload:SuperOffice.CRM.Lists.MenuListItem.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Lists.MenuListItem.html#SuperOffice_CRM_Lists_MenuListItem__ctor_System_Int32_System_String_System_String_System_String_System_Int32_System_String_System_String_System_String_
   name: MenuListItem
   nameWithType: MenuListItem.MenuListItem
   fullName: SuperOffice.CRM.Lists.MenuListItem.MenuListItem
-  nameWithType.vb: MenuListItem.New
-  fullName.vb: SuperOffice.CRM.Lists.MenuListItem.New
-  name.vb: New
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.CRM.Lists.MenuListItem.Url*
   commentId: Overload:SuperOffice.CRM.Lists.MenuListItem.Url
   isExternal: true
-  href: SuperOffice.CRM.Lists.MenuListItem.html#SuperOffice_CRM_Lists_MenuListItem_Url
   name: Url
   nameWithType: MenuListItem.Url
   fullName: SuperOffice.CRM.Lists.MenuListItem.Url
@@ -946,14 +712,12 @@ references:
   commentId: P:SuperOffice.CRM.Lists.IMenuListItem.Url
   parent: SuperOffice.CRM.Lists.IMenuListItem
   isExternal: true
-  href: SuperOffice.CRM.Lists.IMenuListItem.html#SuperOffice_CRM_Lists_IMenuListItem_Url
   name: Url
   nameWithType: IMenuListItem.Url
   fullName: SuperOffice.CRM.Lists.IMenuListItem.Url
 - uid: SuperOffice.CRM.Lists.MenuListItem.CrudFlags*
   commentId: Overload:SuperOffice.CRM.Lists.MenuListItem.CrudFlags
   isExternal: true
-  href: SuperOffice.CRM.Lists.MenuListItem.html#SuperOffice_CRM_Lists_MenuListItem_CrudFlags
   name: CrudFlags
   nameWithType: MenuListItem.CrudFlags
   fullName: SuperOffice.CRM.Lists.MenuListItem.CrudFlags
@@ -961,14 +725,12 @@ references:
   commentId: P:SuperOffice.CRM.Lists.IMenuListItem.CrudFlags
   parent: SuperOffice.CRM.Lists.IMenuListItem
   isExternal: true
-  href: SuperOffice.CRM.Lists.IMenuListItem.html#SuperOffice_CRM_Lists_IMenuListItem_CrudFlags
   name: CrudFlags
   nameWithType: IMenuListItem.CrudFlags
   fullName: SuperOffice.CRM.Lists.IMenuListItem.CrudFlags
 - uid: SuperOffice.CRM.Lists.MenuListItem.SubItems*
   commentId: Overload:SuperOffice.CRM.Lists.MenuListItem.SubItems
   isExternal: true
-  href: SuperOffice.CRM.Lists.MenuListItem.html#SuperOffice_CRM_Lists_MenuListItem_SubItems
   name: SubItems
   nameWithType: MenuListItem.SubItems
   fullName: SuperOffice.CRM.Lists.MenuListItem.SubItems
@@ -976,15 +738,12 @@ references:
   commentId: P:SuperOffice.CRM.Lists.IMenuListItem.SubItems
   parent: SuperOffice.CRM.Lists.IMenuListItem
   isExternal: true
-  href: SuperOffice.CRM.Lists.IMenuListItem.html#SuperOffice_CRM_Lists_IMenuListItem_SubItems
   name: SubItems
   nameWithType: IMenuListItem.SubItems
   fullName: SuperOffice.CRM.Lists.IMenuListItem.SubItems
 - uid: System.Collections.Generic.List{SuperOffice.CRM.Lists.MenuListItem}
-  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.Lists.MenuListItem}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.List{SuperOffice.CRM.Lists.MenuListItem}'
   definition: System.Collections.Generic.List`1
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   name: List<MenuListItem>
   nameWithType: List<MenuListItem>
   fullName: System.Collections.Generic.List<SuperOffice.CRM.Lists.MenuListItem>
@@ -994,89 +753,72 @@ references:
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Lists.MenuListItem
     name: MenuListItem
+    nameWithType: MenuListItem
+    fullName: SuperOffice.CRM.Lists.MenuListItem
     isExternal: true
-    href: SuperOffice.CRM.Lists.MenuListItem.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.List`1
     name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Lists.MenuListItem
     name: MenuListItem
+    nameWithType: MenuListItem
+    fullName: SuperOffice.CRM.Lists.MenuListItem
     isExternal: true
-    href: SuperOffice.CRM.Lists.MenuListItem.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Collections.Generic.List`1
-  commentId: T:System.Collections.Generic.List`1
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
-  name: List<T>
-  nameWithType: List<T>
-  fullName: System.Collections.Generic.List<T>
-  nameWithType.vb: List(Of T)
-  fullName.vb: System.Collections.Generic.List(Of T)
-  name.vb: List(Of T)
+  name: List<>
+  nameWithType: List<>
+  fullName: System.Collections.Generic.List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: System.Collections.Generic.List(Of )
+  name.vb: List(Of )
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: <
-  - name: T
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.List`1
     name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+    nameWithType: )
+    fullName: )

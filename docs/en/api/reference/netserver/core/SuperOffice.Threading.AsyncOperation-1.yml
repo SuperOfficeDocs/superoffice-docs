@@ -15,31 +15,35 @@ items:
   name: AsyncOperation<TArgument>
   nameWithType: AsyncOperation<TArgument>
   fullName: SuperOffice.Threading.AsyncOperation<TArgument>
-  type: Delegate
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Threading
-  summary: >-
-    Delegate describing the function signature required for the method that is
-
-    called to initiate user processing in a new NetServer thread
-  example: []
+  summary: "\nDelegate describing the function signature required for the method that is\ncalled to initiate user processing in a new NetServer thread\n"
   syntax:
-    content: public delegate void AsyncOperation<TArgument>(AsyncContext context, TArgument argument)
-    parameters:
-    - id: context
-      type: SuperOffice.Threading.AsyncContext
-      description: NetServer context
-    - id: argument
-      type: '{TArgument}'
-      description: User-supplied argument, passed directly from the SpawnThread call
+    content: 'public sealed class AsyncOperation<TArgument> : MulticastDelegate'
     typeParameters:
     - id: TArgument
-    content.vb: Public Delegate Sub AsyncOperation(Of TArgument)(context As AsyncContext, argument As TArgument)
+    content.vb: >-
+      Public NotInheritable Class AsyncOperation(Of TArgument)
+          Inherits MulticastDelegate
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Threading.AsyncOperation`1.EnumUtil.MapEnums``2
   - SuperOffice.Threading.AsyncOperation`1.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   nameWithType.vb: AsyncOperation(Of TArgument)
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
   fullName.vb: SuperOffice.Threading.AsyncOperation(Of TArgument)
   name.vb: AsyncOperation(Of TArgument)
 - uid: SuperOffice.Threading.AsyncOperation`1.#ctor(System.Object,System.IntPtr)
@@ -49,25 +53,31 @@ items:
   langs:
   - csharp
   - vb
-  name: AsyncOperation(object, IntPtr)
-  nameWithType: AsyncOperation<TArgument>.AsyncOperation(object, IntPtr)
-  fullName: SuperOffice.Threading.AsyncOperation<TArgument>.AsyncOperation(object, System.IntPtr)
+  name: AsyncOperation(Object, IntPtr)
+  nameWithType: AsyncOperation<TArgument>.AsyncOperation(Object, IntPtr)
+  fullName: SuperOffice.Threading.AsyncOperation<TArgument>.AsyncOperation(System.Object, System.IntPtr)
   type: Constructor
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Threading
   syntax:
-    content: public AsyncOperation(object @object, IntPtr method)
+    content: public AsyncOperation(object object, IntPtr method)
     parameters:
     - id: object
       type: System.Object
     - id: method
       type: System.IntPtr
-    content.vb: Public Sub New([object] As Object, method As IntPtr)
+    content.vb: Public Sub New(object As Object, method As IntPtr)
   overload: SuperOffice.Threading.AsyncOperation`1.#ctor*
-  nameWithType.vb: AsyncOperation(Of TArgument).New(Object, IntPtr)
-  fullName.vb: SuperOffice.Threading.AsyncOperation(Of TArgument).New(Object, System.IntPtr)
-  name.vb: New(Object, IntPtr)
+  nameWithType.vb: AsyncOperation(Of TArgument).AsyncOperation(Object, IntPtr)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Threading.AsyncOperation(Of TArgument).AsyncOperation(System.Object, System.IntPtr)
 - uid: SuperOffice.Threading.AsyncOperation`1.Invoke(SuperOffice.Threading.AsyncContext,`0)
   commentId: M:SuperOffice.Threading.AsyncOperation`1.Invoke(SuperOffice.Threading.AsyncContext,`0)
   id: Invoke(SuperOffice.Threading.AsyncContext,`0)
@@ -79,6 +89,9 @@ items:
   nameWithType: AsyncOperation<TArgument>.Invoke(AsyncContext, TArgument)
   fullName: SuperOffice.Threading.AsyncOperation<TArgument>.Invoke(SuperOffice.Threading.AsyncContext, TArgument)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Threading
@@ -92,6 +105,12 @@ items:
     content.vb: Public Overridable Sub Invoke(context As AsyncContext, argument As TArgument)
   overload: SuperOffice.Threading.AsyncOperation`1.Invoke*
   nameWithType.vb: AsyncOperation(Of TArgument).Invoke(AsyncContext, TArgument)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
   fullName.vb: SuperOffice.Threading.AsyncOperation(Of TArgument).Invoke(SuperOffice.Threading.AsyncContext, TArgument)
 - uid: SuperOffice.Threading.AsyncOperation`1.BeginInvoke(SuperOffice.Threading.AsyncContext,`0,System.AsyncCallback,System.Object)
   commentId: M:SuperOffice.Threading.AsyncOperation`1.BeginInvoke(SuperOffice.Threading.AsyncContext,`0,System.AsyncCallback,System.Object)
@@ -100,15 +119,18 @@ items:
   langs:
   - csharp
   - vb
-  name: BeginInvoke(AsyncContext, TArgument, AsyncCallback, object)
-  nameWithType: AsyncOperation<TArgument>.BeginInvoke(AsyncContext, TArgument, AsyncCallback, object)
-  fullName: SuperOffice.Threading.AsyncOperation<TArgument>.BeginInvoke(SuperOffice.Threading.AsyncContext, TArgument, System.AsyncCallback, object)
+  name: BeginInvoke(AsyncContext, TArgument, AsyncCallback, Object)
+  nameWithType: AsyncOperation<TArgument>.BeginInvoke(AsyncContext, TArgument, AsyncCallback, Object)
+  fullName: SuperOffice.Threading.AsyncOperation<TArgument>.BeginInvoke(SuperOffice.Threading.AsyncContext, TArgument, System.AsyncCallback, System.Object)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Threading
   syntax:
-    content: public virtual IAsyncResult BeginInvoke(AsyncContext context, TArgument argument, AsyncCallback callback, object @object)
+    content: public virtual IAsyncResult BeginInvoke(AsyncContext context, TArgument argument, AsyncCallback callback, object object)
     parameters:
     - id: context
       type: SuperOffice.Threading.AsyncContext
@@ -120,11 +142,16 @@ items:
       type: System.Object
     return:
       type: System.IAsyncResult
-    content.vb: Public Overridable Function BeginInvoke(context As AsyncContext, argument As TArgument, callback As AsyncCallback, [object] As Object) As IAsyncResult
+    content.vb: Public Overridable Function BeginInvoke(context As AsyncContext, argument As TArgument, callback As AsyncCallback, object As Object) As IAsyncResult
   overload: SuperOffice.Threading.AsyncOperation`1.BeginInvoke*
   nameWithType.vb: AsyncOperation(Of TArgument).BeginInvoke(AsyncContext, TArgument, AsyncCallback, Object)
-  fullName.vb: SuperOffice.Threading.AsyncOperation(Of TArgument).BeginInvoke(SuperOffice.Threading.AsyncContext, TArgument, System.AsyncCallback, Object)
-  name.vb: BeginInvoke(AsyncContext, TArgument, AsyncCallback, Object)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: SuperOffice.Threading.AsyncOperation(Of TArgument).BeginInvoke(SuperOffice.Threading.AsyncContext, TArgument, System.AsyncCallback, System.Object)
 - uid: SuperOffice.Threading.AsyncOperation`1.EndInvoke(System.IAsyncResult)
   commentId: M:SuperOffice.Threading.AsyncOperation`1.EndInvoke(System.IAsyncResult)
   id: EndInvoke(System.IAsyncResult)
@@ -136,6 +163,9 @@ items:
   nameWithType: AsyncOperation<TArgument>.EndInvoke(IAsyncResult)
   fullName: SuperOffice.Threading.AsyncOperation<TArgument>.EndInvoke(System.IAsyncResult)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Threading
@@ -147,178 +177,225 @@ items:
     content.vb: Public Overridable Sub EndInvoke(result As IAsyncResult)
   overload: SuperOffice.Threading.AsyncOperation`1.EndInvoke*
   nameWithType.vb: AsyncOperation(Of TArgument).EndInvoke(IAsyncResult)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
   fullName.vb: SuperOffice.Threading.AsyncOperation(Of TArgument).EndInvoke(System.IAsyncResult)
 references:
 - uid: SuperOffice.Threading
   commentId: N:SuperOffice.Threading
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Threading
   nameWithType: SuperOffice.Threading
   fullName: SuperOffice.Threading
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Threading
-    name: Threading
-    isExternal: true
-    href: SuperOffice.Threading.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Threading
-    name: Threading
-    isExternal: true
-    href: SuperOffice.Threading.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Threading.AsyncOperation`1.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<AsyncOperation<TArgument>, To>(AsyncOperation<TArgument>)
-  nameWithType: EnumUtil.MapEnums<AsyncOperation<TArgument>, To>(AsyncOperation<TArgument>)
-  fullName: EnumUtil.MapEnums<SuperOffice.Threading.AsyncOperation<TArgument>, To>(SuperOffice.Threading.AsyncOperation<TArgument>)
-  nameWithType.vb: EnumUtil.MapEnums(Of AsyncOperation(Of TArgument), To)(AsyncOperation(Of TArgument))
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Threading.AsyncOperation(Of TArgument), To)(SuperOffice.Threading.AsyncOperation(Of TArgument))
-  name.vb: MapEnums(Of AsyncOperation(Of TArgument), To)(AsyncOperation(Of TArgument))
+  name: MapEnums<AsyncOperation<TArgument>, To>()
+  nameWithType: EnumUtil.MapEnums<AsyncOperation<TArgument>, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Threading.AsyncOperation<TArgument>, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of AsyncOperation(Of TArgument), To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Threading.AsyncOperation(Of TArgument), To)()
+  name.vb: MapEnums(Of AsyncOperation(Of TArgument), To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Threading.AsyncOperation{`0})
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<AsyncOperation<TArgument>, To>
+    nameWithType: EnumUtil.MapEnums<AsyncOperation<TArgument>, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Threading.AsyncOperation<TArgument>, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Threading.AsyncOperation`1
-    name: AsyncOperation
-    isExternal: true
-    href: SuperOffice.Threading.AsyncOperation-1.html
-  - name: <
-  - name: TArgument
-  - name: '>'
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Threading.AsyncOperation`1
-    name: AsyncOperation
-    isExternal: true
-    href: SuperOffice.Threading.AsyncOperation-1.html
-  - name: <
-  - name: TArgument
-  - name: '>'
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Threading.AsyncOperation{`0})
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of AsyncOperation(Of TArgument), To)
+    nameWithType: EnumUtil.MapEnums(Of AsyncOperation(Of TArgument), To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Threading.AsyncOperation(Of TArgument), To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Threading.AsyncOperation`1
-    name: AsyncOperation
-    isExternal: true
-    href: SuperOffice.Threading.AsyncOperation-1.html
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TArgument
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.Threading.AsyncOperation`1
-    name: AsyncOperation
-    isExternal: true
-    href: SuperOffice.Threading.AsyncOperation-1.html
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TArgument
-  - name: )
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.AsyncOperation`1.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<AsyncOperation<TArgument>, To>(AsyncOperation<TArgument>)
-  nameWithType: Converters.MapEnums<AsyncOperation<TArgument>, To>(AsyncOperation<TArgument>)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Threading.AsyncOperation<TArgument>, To>(SuperOffice.Threading.AsyncOperation<TArgument>)
-  nameWithType.vb: Converters.MapEnums(Of AsyncOperation(Of TArgument), To)(AsyncOperation(Of TArgument))
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Threading.AsyncOperation(Of TArgument), To)(SuperOffice.Threading.AsyncOperation(Of TArgument))
-  name.vb: MapEnums(Of AsyncOperation(Of TArgument), To)(AsyncOperation(Of TArgument))
+  name: MapEnums<AsyncOperation<TArgument>, To>()
+  nameWithType: Converters.MapEnums<AsyncOperation<TArgument>, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Threading.AsyncOperation<TArgument>, To>()
+  nameWithType.vb: Converters.MapEnums(Of AsyncOperation(Of TArgument), To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Threading.AsyncOperation(Of TArgument), To)()
+  name.vb: MapEnums(Of AsyncOperation(Of TArgument), To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Threading.AsyncOperation{`0})
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<AsyncOperation<TArgument>, To>
+    nameWithType: Converters.MapEnums<AsyncOperation<TArgument>, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Threading.AsyncOperation<TArgument>, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Threading.AsyncOperation`1
-    name: AsyncOperation
-    isExternal: true
-    href: SuperOffice.Threading.AsyncOperation-1.html
-  - name: <
-  - name: TArgument
-  - name: '>'
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Threading.AsyncOperation`1
-    name: AsyncOperation
-    isExternal: true
-    href: SuperOffice.Threading.AsyncOperation-1.html
-  - name: <
-  - name: TArgument
-  - name: '>'
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Threading.AsyncOperation{`0})
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of AsyncOperation(Of TArgument), To)
+    nameWithType: Converters.MapEnums(Of AsyncOperation(Of TArgument), To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Threading.AsyncOperation(Of TArgument), To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Threading.AsyncOperation`1
-    name: AsyncOperation
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.Threading.AsyncOperation-1.html
   - name: (
-  - name: Of
-  - name: " "
-  - name: TArgument
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.Threading.AsyncOperation`1
-    name: AsyncOperation
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.Threading.AsyncOperation-1.html
   - name: (
-  - name: Of
-  - name: " "
-  - name: TArgument
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Threading.AsyncOperation`1.#ctor*
+  commentId: Overload:SuperOffice.Threading.AsyncOperation`1.#ctor
+  isExternal: true
+  name: AsyncOperation
+  nameWithType: AsyncOperation<TArgument>.AsyncOperation
+  fullName: SuperOffice.Threading.AsyncOperation<TArgument>.AsyncOperation
+  nameWithType.vb: AsyncOperation(Of TArgument).AsyncOperation
+  fullName.vb: SuperOffice.Threading.AsyncOperation(Of TArgument).AsyncOperation
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: SuperOffice.Threading.AsyncOperation`1.Invoke*
+  commentId: Overload:SuperOffice.Threading.AsyncOperation`1.Invoke
+  isExternal: true
+  name: Invoke
+  nameWithType: AsyncOperation<TArgument>.Invoke
+  fullName: SuperOffice.Threading.AsyncOperation<TArgument>.Invoke
+  nameWithType.vb: AsyncOperation(Of TArgument).Invoke
+  fullName.vb: SuperOffice.Threading.AsyncOperation(Of TArgument).Invoke
 - uid: SuperOffice.Threading.AsyncContext
   commentId: T:SuperOffice.Threading.AsyncContext
   parent: SuperOffice.Threading
   isExternal: true
-  href: SuperOffice.Threading.AsyncContext.html
   name: AsyncContext
   nameWithType: AsyncContext
   fullName: SuperOffice.Threading.AsyncContext
@@ -328,216 +405,31 @@ references:
   name: TArgument
   nameWithType: TArgument
   fullName: TArgument
-- uid: EnumUtil.MapEnums``2(``0)
-  commentId: M:EnumUtil.MapEnums``2(``0)
-  isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<From, To>(From)
-  nameWithType: EnumUtil.MapEnums<From, To>(From)
-  fullName: EnumUtil.MapEnums<From, To>(From)
-  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
-  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
-  name.vb: MapEnums(Of From, To)(From)
-  spec.csharp:
-  - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - name: From
-  - name: )
-  spec.vb:
-  - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - name: From
-  - name: )
-- uid: EnumUtil
-  commentId: T:EnumUtil
-  isExternal: true
-  href: EnumUtil.html
-  name: EnumUtil
-  nameWithType: EnumUtil
-  fullName: EnumUtil
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<From, To>(From)
-  nameWithType: Converters.MapEnums<From, To>(From)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
-  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
-  name.vb: MapEnums(Of From, To)(From)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - name: From
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - name: From
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters
-  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
-  parent: SuperOffice.ErpSync.ConnectorWS
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
-  name: Converters
-  nameWithType: Converters
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: TArgument
   name: TArgument
   nameWithType: TArgument
   fullName: TArgument
-- uid: SuperOffice.ErpSync.ConnectorWS
-  commentId: N:SuperOffice.ErpSync.ConnectorWS
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.ErpSync.ConnectorWS
-  nameWithType: SuperOffice.ErpSync.ConnectorWS
-  fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-- uid: SuperOffice.Threading.AsyncOperation`1.#ctor*
-  commentId: Overload:SuperOffice.Threading.AsyncOperation`1.#ctor
-  isExternal: true
-  href: SuperOffice.Threading.AsyncOperation-1.html#SuperOffice_Threading_AsyncOperation_1__ctor_System_Object_System_IntPtr_
-  name: AsyncOperation
-  nameWithType: AsyncOperation<TArgument>.AsyncOperation
-  fullName: SuperOffice.Threading.AsyncOperation<TArgument>.AsyncOperation
-  nameWithType.vb: AsyncOperation(Of TArgument).New
-  fullName.vb: SuperOffice.Threading.AsyncOperation(Of TArgument).New
-  name.vb: New
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.IntPtr
-  commentId: T:System.IntPtr
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.intptr
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: SuperOffice.Threading.AsyncOperation`1.Invoke*
-  commentId: Overload:SuperOffice.Threading.AsyncOperation`1.Invoke
-  isExternal: true
-  href: SuperOffice.Threading.AsyncOperation-1.html#SuperOffice_Threading_AsyncOperation_1_Invoke_SuperOffice_Threading_AsyncContext__0_
-  name: Invoke
-  nameWithType: AsyncOperation<TArgument>.Invoke
-  fullName: SuperOffice.Threading.AsyncOperation<TArgument>.Invoke
-  nameWithType.vb: AsyncOperation(Of TArgument).Invoke
-  fullName.vb: SuperOffice.Threading.AsyncOperation(Of TArgument).Invoke
 - uid: SuperOffice.Threading.AsyncOperation`1.BeginInvoke*
   commentId: Overload:SuperOffice.Threading.AsyncOperation`1.BeginInvoke
   isExternal: true
-  href: SuperOffice.Threading.AsyncOperation-1.html#SuperOffice_Threading_AsyncOperation_1_BeginInvoke_SuperOffice_Threading_AsyncContext__0_System_AsyncCallback_System_Object_
   name: BeginInvoke
   nameWithType: AsyncOperation<TArgument>.BeginInvoke
   fullName: SuperOffice.Threading.AsyncOperation<TArgument>.BeginInvoke
   nameWithType.vb: AsyncOperation(Of TArgument).BeginInvoke
   fullName.vb: SuperOffice.Threading.AsyncOperation(Of TArgument).BeginInvoke
 - uid: System.AsyncCallback
-  commentId: T:System.AsyncCallback
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.asynccallback
   name: AsyncCallback
   nameWithType: AsyncCallback
   fullName: System.AsyncCallback
 - uid: System.IAsyncResult
-  commentId: T:System.IAsyncResult
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.iasyncresult
   name: IAsyncResult
   nameWithType: IAsyncResult
   fullName: System.IAsyncResult
 - uid: SuperOffice.Threading.AsyncOperation`1.EndInvoke*
   commentId: Overload:SuperOffice.Threading.AsyncOperation`1.EndInvoke
   isExternal: true
-  href: SuperOffice.Threading.AsyncOperation-1.html#SuperOffice_Threading_AsyncOperation_1_EndInvoke_System_IAsyncResult_
   name: EndInvoke
   nameWithType: AsyncOperation<TArgument>.EndInvoke
   fullName: SuperOffice.Threading.AsyncOperation<TArgument>.EndInvoke

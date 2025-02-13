@@ -18,7 +18,6 @@ references:
 - uid: SuperOffice.CRM.CS.CsSessionManager
   commentId: T:SuperOffice.CRM.CS.CsSessionManager
   isExternal: true
-  href: SuperOffice.CRM.CS.CsSessionManager.html
   name: CsSessionManager
   nameWithType: CsSessionManager
   fullName: SuperOffice.CRM.CS.CsSessionManager

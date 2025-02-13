@@ -6,6 +6,7 @@ items:
   parent: SuperOffice.CRM.ArchiveLists
   children:
   - SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.#ctor
+  - SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1._entityHelper
   - SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.AllowOrderBy
   - SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.BaseClassShouldFilterColumns
   - SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.BaseClassShouldFilterEntities
@@ -31,7 +32,6 @@ items:
   - SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
   - SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.SortData(System.Collections.Generic.List{`0})
   - SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.Visible
-  - SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1._entityHelper
   langs:
   - csharp
   - vb
@@ -39,14 +39,20 @@ items:
   nameWithType: InMemoryProviderBase<RowType>
   fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: 'public abstract class InMemoryProviderBase<RowType> : IArchiveProvider, IArchiveProviderHasRows, IArchiveProviderHasColumns, IArchiveProviderHasEntities where RowType : ArchiveRow, new()'
+    content: 'public abstract class InMemoryProviderBase<RowType> : Object, IArchiveProvider, IArchiveProviderHasRows, IArchiveProviderHasColumns, IArchiveProviderHasEntities, IPlugin where RowType : ArchiveRow, new()'
     typeParameters:
     - id: RowType
-    content.vb: Public MustInherit Class InMemoryProviderBase(Of RowType As {ArchiveRow, New}) Implements IArchiveProvider, IArchiveProviderHasRows, IArchiveProviderHasColumns, IArchiveProviderHasEntities
+    content.vb: >-
+      Public MustInherit Class InMemoryProviderBase(Of RowType As {ArchiveRow, New})
+          Inherits Object
+          Implements IArchiveProvider, IArchiveProviderHasRows, IArchiveProviderHasColumns, IArchiveProviderHasEntities, IPlugin
   inheritance:
   - System.Object
   derivedClasses:
@@ -64,18 +70,18 @@ items:
   - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows
   - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns
   - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.EnumUtil.MapEnums``2
   - SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   nameWithType.vb: InMemoryProviderBase(Of RowType)
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
   fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType)
   name.vb: InMemoryProviderBase(Of RowType)
 - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1._entityHelper
@@ -89,6 +95,9 @@ items:
   nameWithType: InMemoryProviderBase<RowType>._entityHelper
   fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>._entityHelper
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
@@ -98,6 +107,10 @@ items:
       type: SuperOffice.CRM.ArchiveLists.EntityHelper
     content.vb: Protected _entityHelper As EntityHelper
   nameWithType.vb: InMemoryProviderBase(Of RowType)._entityHelper
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
   fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType)._entityHelper
 - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.Visible
   commentId: F:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.Visible
@@ -110,17 +123,25 @@ items:
   nameWithType: InMemoryProviderBase<RowType>.Visible
   fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.Visible
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: Symbolic boolean constant for <xref href="SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo" data-throw-if-not-resolved="false"></xref> constructor, evaluates to 'true'
-  example: []
+  summary: "\nSymbolic boolean constant for <xref href=\"SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo\" data-throw-if-not-resolved=\"false\"></xref> constructor, evaluates to &apos;true&apos;\n"
   syntax:
     content: protected const bool Visible = true
     return:
       type: System.Boolean
     content.vb: Protected Const Visible As Boolean = True
   nameWithType.vb: InMemoryProviderBase(Of RowType).Visible
+  modifiers.csharp:
+  - protected
+  - const
+  modifiers.vb:
+  - Protected
+  - Const
   fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType).Visible
 - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.Invisible
   commentId: F:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.Invisible
@@ -133,17 +154,25 @@ items:
   nameWithType: InMemoryProviderBase<RowType>.Invisible
   fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.Invisible
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: Symbolic boolean constant for <xref href="SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo" data-throw-if-not-resolved="false"></xref> constructor, evaluates to 'false'
-  example: []
+  summary: "\nSymbolic boolean constant for <xref href=\"SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo\" data-throw-if-not-resolved=\"false\"></xref> constructor, evaluates to &apos;false&apos;\n"
   syntax:
     content: protected const bool Invisible = false
     return:
       type: System.Boolean
     content.vb: Protected Const Invisible As Boolean = False
   nameWithType.vb: InMemoryProviderBase(Of RowType).Invisible
+  modifiers.csharp:
+  - protected
+  - const
+  modifiers.vb:
+  - Protected
+  - Const
   fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType).Invisible
 - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.AllowOrderBy
   commentId: F:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.AllowOrderBy
@@ -156,17 +185,25 @@ items:
   nameWithType: InMemoryProviderBase<RowType>.AllowOrderBy
   fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.AllowOrderBy
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: Symbolic boolean constant for <xref href="SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo" data-throw-if-not-resolved="false"></xref> constructor, evaluates to 'true'
-  example: []
+  summary: "\nSymbolic boolean constant for <xref href=\"SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo\" data-throw-if-not-resolved=\"false\"></xref> constructor, evaluates to &apos;true&apos;\n"
   syntax:
     content: protected const bool AllowOrderBy = true
     return:
       type: System.Boolean
     content.vb: Protected Const AllowOrderBy As Boolean = True
   nameWithType.vb: InMemoryProviderBase(Of RowType).AllowOrderBy
+  modifiers.csharp:
+  - protected
+  - const
+  modifiers.vb:
+  - Protected
+  - Const
   fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType).AllowOrderBy
 - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.DenyOrderBy
   commentId: F:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.DenyOrderBy
@@ -179,17 +216,25 @@ items:
   nameWithType: InMemoryProviderBase<RowType>.DenyOrderBy
   fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.DenyOrderBy
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: Symbolic boolean constant for <xref href="SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo" data-throw-if-not-resolved="false"></xref> constructor, evaluates to 'false'
-  example: []
+  summary: "\nSymbolic boolean constant for <xref href=\"SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo\" data-throw-if-not-resolved=\"false\"></xref> constructor, evaluates to &apos;false&apos;\n"
   syntax:
     content: protected const bool DenyOrderBy = false
     return:
       type: System.Boolean
     content.vb: Protected Const DenyOrderBy As Boolean = False
   nameWithType.vb: InMemoryProviderBase(Of RowType).DenyOrderBy
+  modifiers.csharp:
+  - protected
+  - const
+  modifiers.vb:
+  - Protected
+  - Const
   fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType).DenyOrderBy
 - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.Options
   commentId: F:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.Options
@@ -202,17 +247,23 @@ items:
   nameWithType: InMemoryProviderBase<RowType>.Options
   fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.Options
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: Options from GetRows() call
-  example: []
+  summary: "\nOptions from GetRows() call\n"
   syntax:
     content: protected string Options
     return:
       type: System.String
     content.vb: Protected Options As String
   nameWithType.vb: InMemoryProviderBase(Of RowType).Options
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
   fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType).Options
 - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.#ctor
   commentId: M:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.#ctor
@@ -225,16 +276,22 @@ items:
   nameWithType: InMemoryProviderBase<RowType>.InMemoryProviderBase()
   fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.InMemoryProviderBase()
   type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: protected InMemoryProviderBase()
-    content.vb: Protected Sub New()
+    content.vb: Protected Sub New
   overload: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.#ctor*
-  nameWithType.vb: InMemoryProviderBase(Of RowType).New()
-  fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType).New()
-  name.vb: New()
+  nameWithType.vb: InMemoryProviderBase(Of RowType).InMemoryProviderBase()
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType).InMemoryProviderBase()
 - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.GetResultData
   commentId: M:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.GetResultData
   id: GetResultData
@@ -246,19 +303,27 @@ items:
   nameWithType: InMemoryProviderBase<RowType>.GetResultData()
   fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.GetResultData()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: 'Subclass contract: Return a list of ArchiveRow items that are the current result'
-  example: []
+  summary: "\nSubclass contract: Return a list of ArchiveRow items that are the current result\n"
   syntax:
     content: protected abstract List<RowType> GetResultData()
     return:
       type: System.Collections.Generic.List{{RowType}}
       description: result list, which may be paged, sorted and column-filtered, or not, according to the abstract properties
-    content.vb: Protected MustOverride Function GetResultData() As List(Of RowType)
+    content.vb: Protected MustOverride Function GetResultData As List(Of RowType)
   overload: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.GetResultData*
   nameWithType.vb: InMemoryProviderBase(Of RowType).GetResultData()
+  modifiers.csharp:
+  - protected
+  - abstract
+  modifiers.vb:
+  - Protected
+  - MustOverride
   fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType).GetResultData()
 - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.RegisterEntity(SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo)
   commentId: M:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.RegisterEntity(SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo)
@@ -271,11 +336,13 @@ items:
   nameWithType: InMemoryProviderBase<RowType>.RegisterEntity(ArchiveRowTypeInfo)
   fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.RegisterEntity(SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: Register an entity on this provider
-  example: []
+  summary: "\nRegister an entity on this provider\n"
   syntax:
     content: protected ArchiveRowTypeInfo RegisterEntity(ArchiveRowTypeInfo entity)
     parameters:
@@ -288,6 +355,10 @@ items:
     content.vb: Protected Function RegisterEntity(entity As ArchiveRowTypeInfo) As ArchiveRowTypeInfo
   overload: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.RegisterEntity*
   nameWithType.vb: InMemoryProviderBase(Of RowType).RegisterEntity(ArchiveRowTypeInfo)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
   fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType).RegisterEntity(SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo)
 - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.GetReader(System.String)
   commentId: M:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.GetReader(System.String)
@@ -296,36 +367,35 @@ items:
   langs:
   - csharp
   - vb
-  name: GetReader(string)
-  nameWithType: InMemoryProviderBase<RowType>.GetReader(string)
-  fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.GetReader(string)
+  name: GetReader(String)
+  nameWithType: InMemoryProviderBase<RowType>.GetReader(String)
+  fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.GetReader(System.String)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: >-
-    Start the reader and return an IDataReader (which, as we remember, also inherits IDataRecord for access to
-
-    individual data fields). This provides an alternative, more generic and more standards-based interface to
-
-    data. Use <b>either</b> GetRows <b>or</b> GetReader on any particular archive provider instance.
-  example: []
   syntax:
     content: public virtual IDataReader GetReader(string options)
     parameters:
     - id: options
       type: System.String
-      description: ''
     return:
       type: System.Data.IDataReader
-      description: ''
     content.vb: Public Overridable Function GetReader(options As String) As IDataReader
   overload: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.GetReader*
   implements:
   - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetReader(System.String)
   nameWithType.vb: InMemoryProviderBase(Of RowType).GetReader(String)
-  fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType).GetReader(String)
-  name.vb: GetReader(String)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType).GetReader(System.String)
 - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.GetRows(System.String)
   commentId: M:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.GetRows(System.String)
   id: GetRows(System.String)
@@ -333,53 +403,35 @@ items:
   langs:
   - csharp
   - vb
-  name: GetRows(string)
-  nameWithType: InMemoryProviderBase<RowType>.GetRows(string)
-  fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.GetRows(string)
+  name: GetRows(String)
+  nameWithType: InMemoryProviderBase<RowType>.GetRows(String)
+  fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.GetRows(System.String)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: >-
-    Start the query and return an iterator. The .Current property will be a valid ArchiveRow containing one row, as long as 
-
-    a previous call to .MoveNext returned true. This is the standard semantics for an iterator. Do remember to call Close afterwards,
-
-    to clean up all resources.
-  remarks: >-
-    You can use the foreach keyword to iterate over rows, like this:
-
-    <pre><code class="lang-csharp">IArchiveProvider provider = ArchiveProviderFactory.Create("person");
-
-    // not shown - set desired columns, entities, restrictions, paging
-
-    foreach( ArchiveRow row in provider.GetRows() )
-
-    {
-    	// process row here
-    }
-
-    provider.Close();</code></pre>
-  example: []
   syntax:
     content: public virtual IEnumerable<ArchiveRow> GetRows(string options)
     parameters:
     - id: options
       type: System.String
-      description: >-
-        A set of options, using the query string format (name=value&amp;...). Can be null or empty.
-                    <table><thead><tr><th class="term">Option</th><th class="description">Purpose/effect</th></tr></thead><tbody><tr><td class="term">countrows=true</td><td class="description">Prepare to return a count of the full result set</td></tr></tbody></table>
-                    Options set here may trigger additional, asynchronous processing that will prepare results for the GetInformation method, if possible.
     return:
       type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.ArchiveLists.ArchiveRow}
-      description: An iterator, following the usual conventions. MoveNext will return false when there are no more rows, which can either be because the result set is exhausted, or because the page size has been reached
     content.vb: Public Overridable Function GetRows(options As String) As IEnumerable(Of ArchiveRow)
   overload: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.GetRows*
   implements:
   - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetRows(System.String)
   nameWithType.vb: InMemoryProviderBase(Of RowType).GetRows(String)
-  fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType).GetRows(String)
-  name.vb: GetRows(String)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType).GetRows(System.String)
 - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.GetResultInformation
   commentId: M:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.GetResultInformation
   id: GetResultInformation
@@ -391,26 +443,27 @@ items:
   nameWithType: InMemoryProviderBase<RowType>.GetResultInformation()
   fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.GetResultInformation()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: >-
-    Get additional information about the result, such as row count or other optional items. This method should be called some time after
-
-    GetRows, but before Close. Delaying calls to this method as long as possible will give its (asynchronous) internal counterpart
-
-    more time to complete and lessen the response-time impact of calling it.
-  example: []
   syntax:
     content: public virtual ArchiveResultInformation GetResultInformation()
     return:
       type: SuperOffice.CRM.ArchiveLists.ArchiveResultInformation
-      description: ''
-    content.vb: Public Overridable Function GetResultInformation() As ArchiveResultInformation
+    content.vb: Public Overridable Function GetResultInformation As ArchiveResultInformation
   overload: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.GetResultInformation*
   implements:
   - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetResultInformation
   nameWithType.vb: InMemoryProviderBase(Of RowType).GetResultInformation()
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
   fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType).GetResultInformation()
 - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.SortData(System.Collections.Generic.List{`0})
   commentId: M:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.SortData(System.Collections.Generic.List{`0})
@@ -423,20 +476,25 @@ items:
   nameWithType: InMemoryProviderBase<RowType>.SortData(List<RowType>)
   fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.SortData(System.Collections.Generic.List<RowType>)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: Sort the given list of archive rows according to the current orderby criteria
-  example: []
+  summary: "\nSort the given list of archive rows according to the current orderby criteria\n"
   syntax:
     content: protected void SortData(List<RowType> dataToSort)
     parameters:
     - id: dataToSort
       type: System.Collections.Generic.List{{RowType}}
-      description: ''
     content.vb: Protected Sub SortData(dataToSort As List(Of RowType))
   overload: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.SortData*
   nameWithType.vb: InMemoryProviderBase(Of RowType).SortData(List(Of RowType))
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
   fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType).SortData(System.Collections.Generic.List(Of RowType))
   name.vb: SortData(List(Of RowType))
 - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.Close
@@ -450,21 +508,25 @@ items:
   nameWithType: InMemoryProviderBase<RowType>.Close()
   fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.Close()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: >-
-    Call this method after the last desired row has been read; this gives the provider the chance
-
-    to close and free any underlying queries
-  example: []
   syntax:
     content: public virtual void Close()
-    content.vb: Public Overridable Sub Close()
+    content.vb: Public Overridable Sub Close
   overload: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.Close*
   implements:
   - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.Close
   nameWithType.vb: InMemoryProviderBase(Of RowType).Close()
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
   fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType).Close()
 - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.SetPagingInfo(System.Int32,System.Int32)
   commentId: M:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.SetPagingInfo(System.Int32,System.Int32)
@@ -473,38 +535,35 @@ items:
   langs:
   - csharp
   - vb
-  name: SetPagingInfo(int, int)
-  nameWithType: InMemoryProviderBase<RowType>.SetPagingInfo(int, int)
-  fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.SetPagingInfo(int, int)
+  name: SetPagingInfo(Int32, Int32)
+  nameWithType: InMemoryProviderBase<RowType>.SetPagingInfo(Int32, Int32)
+  fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.SetPagingInfo(System.Int32, System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: >-
-    Set the paging properties of the provider. The default is to fetch page zero, of one thousand (1000) rows. A more reasonable page size
-
-    is probably around 100. Note that the query processing strategy may change for very large pages (more than 1000) and give significantly
-
-    longer response times. Performance is improved by setting the page size low, as long as you don't set it lower than what you
-
-    realistically expect to need (fetching multiple pages is more expensive than fetching one).
-  example: []
   syntax:
     content: public virtual void SetPagingInfo(int pageSize, int pageNumber)
     parameters:
     - id: pageSize
       type: System.Int32
-      description: Desired page size
     - id: pageNumber
       type: System.Int32
-      description: Desired page number to return
     content.vb: Public Overridable Sub SetPagingInfo(pageSize As Integer, pageNumber As Integer)
   overload: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.SetPagingInfo*
   implements:
   - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.SetPagingInfo(System.Int32,System.Int32)
-  nameWithType.vb: InMemoryProviderBase(Of RowType).SetPagingInfo(Integer, Integer)
-  fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType).SetPagingInfo(Integer, Integer)
-  name.vb: SetPagingInfo(Integer, Integer)
+  nameWithType.vb: InMemoryProviderBase(Of RowType).SetPagingInfo(Int32, Int32)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType).SetPagingInfo(System.Int32, System.Int32)
 - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.GetAvailableColumns
   commentId: M:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.GetAvailableColumns
   id: GetAvailableColumns
@@ -516,20 +575,27 @@ items:
   nameWithType: InMemoryProviderBase<RowType>.GetAvailableColumns()
   fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.GetAvailableColumns()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: Get the list of columns handled by this provider
-  example: []
   syntax:
     content: public virtual List<ArchiveColumnInfo> GetAvailableColumns()
     return:
       type: System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo}
-    content.vb: Public Overridable Function GetAvailableColumns() As List(Of ArchiveColumnInfo)
+    content.vb: Public Overridable Function GetAvailableColumns As List(Of ArchiveColumnInfo)
   overload: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.GetAvailableColumns*
   implements:
   - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.GetAvailableColumns
   nameWithType.vb: InMemoryProviderBase(Of RowType).GetAvailableColumns()
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
   fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType).GetAvailableColumns()
 - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.SetDesiredColumns(System.String[])
   commentId: M:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.SetDesiredColumns(System.String[])
@@ -538,28 +604,34 @@ items:
   langs:
   - csharp
   - vb
-  name: SetDesiredColumns(params string[])
-  nameWithType: InMemoryProviderBase<RowType>.SetDesiredColumns(params string[])
-  fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.SetDesiredColumns(params string[])
+  name: SetDesiredColumns(String[])
+  nameWithType: InMemoryProviderBase<RowType>.SetDesiredColumns(String[])
+  fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.SetDesiredColumns(System.String[])
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: Set which columns should actually be returned, must be a subset of the <a href="GetAvailableColumns">GetAvailableColumns</a> result
-  example: []
   syntax:
     content: public virtual void SetDesiredColumns(params string[] columnIds)
     parameters:
     - id: columnIds
       type: System.String[]
-      description: Array of column ID's representing the desired columns
     content.vb: Public Overridable Sub SetDesiredColumns(ParamArray columnIds As String())
   overload: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.SetDesiredColumns*
   implements:
   - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetDesiredColumns(System.String[])
-  nameWithType.vb: InMemoryProviderBase(Of RowType).SetDesiredColumns(ParamArray String())
-  fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType).SetDesiredColumns(ParamArray String())
-  name.vb: SetDesiredColumns(ParamArray String())
+  nameWithType.vb: InMemoryProviderBase(Of RowType).SetDesiredColumns(String())
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType).SetDesiredColumns(System.String())
+  name.vb: SetDesiredColumns(String())
 - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
   commentId: M:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
   id: SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
@@ -567,27 +639,34 @@ items:
   langs:
   - csharp
   - vb
-  name: SetOrderBy(params ArchiveOrderByInfo[])
-  nameWithType: InMemoryProviderBase<RowType>.SetOrderBy(params ArchiveOrderByInfo[])
-  fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.SetOrderBy(params SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+  name: SetOrderBy(ArchiveOrderByInfo[])
+  nameWithType: InMemoryProviderBase<RowType>.SetOrderBy(ArchiveOrderByInfo[])
+  fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
-  example: []
   syntax:
     content: public virtual void SetOrderBy(params ArchiveOrderByInfo[] orderBy)
     parameters:
     - id: orderBy
       type: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[]
-      description: Array of order by items
     content.vb: Public Overridable Sub SetOrderBy(ParamArray orderBy As ArchiveOrderByInfo())
   overload: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.SetOrderBy*
   implements:
   - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
-  nameWithType.vb: InMemoryProviderBase(Of RowType).SetOrderBy(ParamArray ArchiveOrderByInfo())
-  fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType).SetOrderBy(ParamArray SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo())
-  name.vb: SetOrderBy(ParamArray ArchiveOrderByInfo())
+  nameWithType.vb: InMemoryProviderBase(Of RowType).SetOrderBy(ArchiveOrderByInfo())
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType).SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo())
+  name.vb: SetOrderBy(ArchiveOrderByInfo())
 - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
   commentId: M:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
   id: SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
@@ -595,31 +674,36 @@ items:
   langs:
   - csharp
   - vb
-  name: SetRestriction(params ArchiveRestrictionInfo[])
-  nameWithType: InMemoryProviderBase<RowType>.SetRestriction(params ArchiveRestrictionInfo[])
-  fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.SetRestriction(params SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  name: SetRestriction(ArchiveRestrictionInfo[])
+  nameWithType: InMemoryProviderBase<RowType>.SetRestriction(ArchiveRestrictionInfo[])
+  fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: Set query restriction globally, supersedes previous restrictions
-  example: []
   syntax:
     content: public virtual bool SetRestriction(params ArchiveRestrictionInfo[] restrictions)
     parameters:
     - id: restrictions
       type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
-      description: Array of restrictions, with an implicit AND between them
     return:
       type: System.Boolean
-      description: true if at least one of the restrictions matched one of the available columns of the provider
     content.vb: Public Overridable Function SetRestriction(ParamArray restrictions As ArchiveRestrictionInfo()) As Boolean
   overload: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.SetRestriction*
   implements:
   - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
-  nameWithType.vb: InMemoryProviderBase(Of RowType).SetRestriction(ParamArray ArchiveRestrictionInfo())
-  fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType).SetRestriction(ParamArray SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo())
-  name.vb: SetRestriction(ParamArray ArchiveRestrictionInfo())
+  nameWithType.vb: InMemoryProviderBase(Of RowType).SetRestriction(ArchiveRestrictionInfo())
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType).SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo())
+  name.vb: SetRestriction(ArchiveRestrictionInfo())
 - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.GetAvailableEntities
   commentId: M:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.GetAvailableEntities
   id: GetAvailableEntities
@@ -631,20 +715,27 @@ items:
   nameWithType: InMemoryProviderBase<RowType>.GetAvailableEntities()
   fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.GetAvailableEntities()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: Get the list of entities supported by this provider
-  example: []
   syntax:
     content: public virtual List<ArchiveRowTypeInfo> GetAvailableEntities()
     return:
       type: System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo}
-    content.vb: Public Overridable Function GetAvailableEntities() As List(Of ArchiveRowTypeInfo)
+    content.vb: Public Overridable Function GetAvailableEntities As List(Of ArchiveRowTypeInfo)
   overload: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.GetAvailableEntities*
   implements:
   - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities.GetAvailableEntities
   nameWithType.vb: InMemoryProviderBase(Of RowType).GetAvailableEntities()
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
   fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType).GetAvailableEntities()
 - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.SetDesiredEntities(System.String[])
   commentId: M:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.SetDesiredEntities(System.String[])
@@ -653,27 +744,34 @@ items:
   langs:
   - csharp
   - vb
-  name: SetDesiredEntities(params string[])
-  nameWithType: InMemoryProviderBase<RowType>.SetDesiredEntities(params string[])
-  fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.SetDesiredEntities(params string[])
+  name: SetDesiredEntities(String[])
+  nameWithType: InMemoryProviderBase<RowType>.SetDesiredEntities(String[])
+  fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.SetDesiredEntities(System.String[])
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
-  example: []
   syntax:
     content: public virtual void SetDesiredEntities(params string[] entities)
     parameters:
     - id: entities
       type: System.String[]
-      description: Array of entity names, semantically equivalent to ArchiveEntityInfo.Name fields.
     content.vb: Public Overridable Sub SetDesiredEntities(ParamArray entities As String())
   overload: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.SetDesiredEntities*
   implements:
   - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities.SetDesiredEntities(System.String[])
-  nameWithType.vb: InMemoryProviderBase(Of RowType).SetDesiredEntities(ParamArray String())
-  fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType).SetDesiredEntities(ParamArray String())
-  name.vb: SetDesiredEntities(ParamArray String())
+  nameWithType.vb: InMemoryProviderBase(Of RowType).SetDesiredEntities(String())
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType).SetDesiredEntities(System.String())
+  name.vb: SetDesiredEntities(String())
 - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.EntityHelper
   commentId: P:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.EntityHelper
   id: EntityHelper
@@ -685,6 +783,9 @@ items:
   nameWithType: InMemoryProviderBase<RowType>.EntityHelper
   fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.EntityHelper
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
@@ -696,6 +797,12 @@ items:
     content.vb: Protected ReadOnly Property EntityHelper As EntityHelper
   overload: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.EntityHelper*
   nameWithType.vb: InMemoryProviderBase(Of RowType).EntityHelper
+  modifiers.csharp:
+  - protected
+  - get
+  modifiers.vb:
+  - Protected
+  - ReadOnly
   fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType).EntityHelper
 - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.ColumnHelper
   commentId: P:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.ColumnHelper
@@ -708,6 +815,9 @@ items:
   nameWithType: InMemoryProviderBase<RowType>.ColumnHelper
   fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.ColumnHelper
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
@@ -719,6 +829,12 @@ items:
     content.vb: Protected ReadOnly Property ColumnHelper As ColumnHelper
   overload: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.ColumnHelper*
   nameWithType.vb: InMemoryProviderBase(Of RowType).ColumnHelper
+  modifiers.csharp:
+  - protected
+  - get
+  modifiers.vb:
+  - Protected
+  - ReadOnly
   fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType).ColumnHelper
 - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.BaseClassShouldFilterColumns
   commentId: P:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.BaseClassShouldFilterColumns
@@ -731,18 +847,14 @@ items:
   nameWithType: InMemoryProviderBase<RowType>.BaseClassShouldFilterColumns
   fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.BaseClassShouldFilterColumns
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: >-
-    Subclass contract: Return true if the base class should filter columns according to SetDesiredColumns. If this property is false,
-
-    the actual ArchiveRow objects are returned; otherwise a typed copy is made and ColumnData are populated accoprding to DesiredColumns.
-  remarks: >-
-    If columns are cheap to get, the subclass can save code by leaving the filtering to this base class. Conversely, if somecolumns are expensive
-
-    to calculate, the subclass should do the filtering itself to improve performance.
-  example: []
+  summary: "\nSubclass contract: Return true if the base class should filter columns according to SetDesiredColumns. If this property is false,\nthe actual ArchiveRow objects are returned; otherwise a typed copy is made and ColumnData are populated accoprding to DesiredColumns.\n"
+  remarks: "\nIf columns are cheap to get, the subclass can save code by leaving the filtering to this base class. Conversely, if somecolumns are expensive\nto calculate, the subclass should do the filtering itself to improve performance.\n"
   syntax:
     content: protected abstract bool BaseClassShouldFilterColumns { get; }
     parameters: []
@@ -751,6 +863,14 @@ items:
     content.vb: Protected MustOverride ReadOnly Property BaseClassShouldFilterColumns As Boolean
   overload: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.BaseClassShouldFilterColumns*
   nameWithType.vb: InMemoryProviderBase(Of RowType).BaseClassShouldFilterColumns
+  modifiers.csharp:
+  - protected
+  - abstract
+  - get
+  modifiers.vb:
+  - Protected
+  - MustOverride
+  - ReadOnly
   fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType).BaseClassShouldFilterColumns
 - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.BaseClassShouldFilterEntities
   commentId: P:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.BaseClassShouldFilterEntities
@@ -763,18 +883,14 @@ items:
   nameWithType: InMemoryProviderBase<RowType>.BaseClassShouldFilterEntities
   fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.BaseClassShouldFilterEntities
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: >-
-    Subclass contract: Return true if the base class should filter columns according to SetDesiredColumns. If this property is false,
-
-    the actual ArchiveRow objects are returned; otherwise a typed copy is made and ColumnData are populated accoprding to DesiredColumns.
-  remarks: >-
-    If columns are cheap to get, the subclass can save code by leaving the filtering to this base class. Conversely, if somecolumns are expensive
-
-    to calculate, the subclass should do the filtering itself to improve performance.
-  example: []
+  summary: "\nSubclass contract: Return true if the base class should filter columns according to SetDesiredColumns. If this property is false,\nthe actual ArchiveRow objects are returned; otherwise a typed copy is made and ColumnData are populated accoprding to DesiredColumns.\n"
+  remarks: "\nIf columns are cheap to get, the subclass can save code by leaving the filtering to this base class. Conversely, if somecolumns are expensive\nto calculate, the subclass should do the filtering itself to improve performance.\n"
   syntax:
     content: protected abstract bool BaseClassShouldFilterEntities { get; }
     parameters: []
@@ -783,6 +899,14 @@ items:
     content.vb: Protected MustOverride ReadOnly Property BaseClassShouldFilterEntities As Boolean
   overload: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.BaseClassShouldFilterEntities*
   nameWithType.vb: InMemoryProviderBase(Of RowType).BaseClassShouldFilterEntities
+  modifiers.csharp:
+  - protected
+  - abstract
+  - get
+  modifiers.vb:
+  - Protected
+  - MustOverride
+  - ReadOnly
   fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType).BaseClassShouldFilterEntities
 - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.BaseClassShouldPage
   commentId: P:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.BaseClassShouldPage
@@ -795,18 +919,14 @@ items:
   nameWithType: InMemoryProviderBase<RowType>.BaseClassShouldPage
   fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.BaseClassShouldPage
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: >-
-    Subclass contract: Return true if the base class should perform filter entities according to SetDesiredEntities. If this property is false,
-
-    the result set is assumed to represent the chosen entities only.
-  remarks: >-
-    If rows are cheap to get, the subclass can save code by leaving the filtering to this base class. Conversely, if rows are expensive
-
-    to calculate, the subclass should do the entity filtering itself to improve performance.
-  example: []
+  summary: "\nSubclass contract: Return true if the base class should perform filter entities according to SetDesiredEntities. If this property is false,\nthe result set is assumed to represent the chosen entities only.\n"
+  remarks: "\nIf rows are cheap to get, the subclass can save code by leaving the filtering to this base class. Conversely, if rows are expensive\nto calculate, the subclass should do the entity filtering itself to improve performance.\n"
   syntax:
     content: protected abstract bool BaseClassShouldPage { get; }
     parameters: []
@@ -815,6 +935,14 @@ items:
     content.vb: Protected MustOverride ReadOnly Property BaseClassShouldPage As Boolean
   overload: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.BaseClassShouldPage*
   nameWithType.vb: InMemoryProviderBase(Of RowType).BaseClassShouldPage
+  modifiers.csharp:
+  - protected
+  - abstract
+  - get
+  modifiers.vb:
+  - Protected
+  - MustOverride
+  - ReadOnly
   fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType).BaseClassShouldPage
 - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.BaseClassShouldSort
   commentId: P:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.BaseClassShouldSort
@@ -827,14 +955,13 @@ items:
   nameWithType: InMemoryProviderBase<RowType>.BaseClassShouldSort
   fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.BaseClassShouldSort
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: >-
-    Subclass contract: Return true if the base class should perform sorting according to SetOrderBy. If this property is false,
-
-    the result set is assumed to be correctly ordered.
-  example: []
+  summary: "\nSubclass contract: Return true if the base class should perform sorting according to SetOrderBy. If this property is false,\nthe result set is assumed to be correctly ordered.\n"
   syntax:
     content: protected abstract bool BaseClassShouldSort { get; }
     parameters: []
@@ -843,61 +970,33 @@ items:
     content.vb: Protected MustOverride ReadOnly Property BaseClassShouldSort As Boolean
   overload: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.BaseClassShouldSort*
   nameWithType.vb: InMemoryProviderBase(Of RowType).BaseClassShouldSort
+  modifiers.csharp:
+  - protected
+  - abstract
+  - get
+  modifiers.vb:
+  - Protected
+  - MustOverride
+  - ReadOnly
   fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType).BaseClassShouldSort
 references:
 - uid: SuperOffice.CRM.ArchiveLists
   commentId: N:SuperOffice.CRM.ArchiveLists
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.ArchiveLists
   nameWithType: SuperOffice.CRM.ArchiveLists
   fullName: SuperOffice.CRM.ArchiveLists
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.ArchiveLists
-    name: ArchiveLists
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.ArchiveLists
-    name: ArchiveLists
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.ArchiveLists.IArchiveProvider
   commentId: T:SuperOffice.CRM.ArchiveLists.IArchiveProvider
   parent: SuperOffice.CRM.ArchiveLists
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.IArchiveProvider.html
   name: IArchiveProvider
   nameWithType: IArchiveProvider
   fullName: SuperOffice.CRM.ArchiveLists.IArchiveProvider
@@ -905,7 +1004,6 @@ references:
   commentId: T:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows
   parent: SuperOffice.CRM.ArchiveLists
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.html
   name: IArchiveProviderHasRows
   nameWithType: IArchiveProviderHasRows
   fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows
@@ -913,7 +1011,6 @@ references:
   commentId: T:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns
   parent: SuperOffice.CRM.ArchiveLists
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.html
   name: IArchiveProviderHasColumns
   nameWithType: IArchiveProviderHasColumns
   fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns
@@ -921,378 +1018,86 @@ references:
   commentId: T:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities
   parent: SuperOffice.CRM.ArchiveLists
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities.html
   name: IArchiveProviderHasEntities
   nameWithType: IArchiveProviderHasEntities
   fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
 - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<InMemoryProviderBase<RowType>, To>(InMemoryProviderBase<RowType>)
-  nameWithType: EnumUtil.MapEnums<InMemoryProviderBase<RowType>, To>(InMemoryProviderBase<RowType>)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>, To>(SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>)
-  nameWithType.vb: EnumUtil.MapEnums(Of InMemoryProviderBase(Of RowType), To)(InMemoryProviderBase(Of RowType))
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType), To)(SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType))
-  name.vb: MapEnums(Of InMemoryProviderBase(Of RowType), To)(InMemoryProviderBase(Of RowType))
+  name: MapEnums<InMemoryProviderBase<RowType>, To>()
+  nameWithType: EnumUtil.MapEnums<InMemoryProviderBase<RowType>, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of InMemoryProviderBase(Of RowType), To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType), To)()
+  name.vb: MapEnums(Of InMemoryProviderBase(Of RowType), To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{`0})
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<InMemoryProviderBase<RowType>, To>
+    nameWithType: EnumUtil.MapEnums<InMemoryProviderBase<RowType>, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1
-    name: InMemoryProviderBase
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase-1.html
-  - name: <
-  - name: RowType
-  - name: '>'
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1
-    name: InMemoryProviderBase
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase-1.html
-  - name: <
-  - name: RowType
-  - name: '>'
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{`0})
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of InMemoryProviderBase(Of RowType), To)
+    nameWithType: EnumUtil.MapEnums(Of InMemoryProviderBase(Of RowType), To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType), To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1
-    name: InMemoryProviderBase
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase-1.html
-  - name: (
-  - name: Of
-  - name: " "
-  - name: RowType
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1
-    name: InMemoryProviderBase
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase-1.html
-  - name: (
-  - name: Of
-  - name: " "
-  - name: RowType
-  - name: )
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<InMemoryProviderBase<RowType>, To>(InMemoryProviderBase<RowType>)
-  nameWithType: Converters.MapEnums<InMemoryProviderBase<RowType>, To>(InMemoryProviderBase<RowType>)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>, To>(SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>)
-  nameWithType.vb: Converters.MapEnums(Of InMemoryProviderBase(Of RowType), To)(InMemoryProviderBase(Of RowType))
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType), To)(SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType))
-  name.vb: MapEnums(Of InMemoryProviderBase(Of RowType), To)(InMemoryProviderBase(Of RowType))
+  name: MapEnums<InMemoryProviderBase<RowType>, To>()
+  nameWithType: Converters.MapEnums<InMemoryProviderBase<RowType>, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>, To>()
+  nameWithType.vb: Converters.MapEnums(Of InMemoryProviderBase(Of RowType), To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType), To)()
+  name.vb: MapEnums(Of InMemoryProviderBase(Of RowType), To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{`0})
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<InMemoryProviderBase<RowType>, To>
+    nameWithType: Converters.MapEnums<InMemoryProviderBase<RowType>, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1
-    name: InMemoryProviderBase
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase-1.html
-  - name: <
-  - name: RowType
-  - name: '>'
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1
-    name: InMemoryProviderBase
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase-1.html
-  - name: <
-  - name: RowType
-  - name: '>'
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.ArchiveLists.InMemoryProviderBase{`0})
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of InMemoryProviderBase(Of RowType), To)
+    nameWithType: Converters.MapEnums(Of InMemoryProviderBase(Of RowType), To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType), To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1
-    name: InMemoryProviderBase
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase-1.html
-  - name: (
-  - name: Of
-  - name: " "
-  - name: RowType
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1
-    name: InMemoryProviderBase
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase-1.html
-  - name: (
-  - name: Of
-  - name: " "
-  - name: RowType
-  - name: )
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -1301,45 +1106,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -1348,141 +1151,87 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.CRM.ArchiveLists.EntityHelper
   commentId: T:SuperOffice.CRM.ArchiveLists.EntityHelper
   parent: SuperOffice.CRM.ArchiveLists
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.EntityHelper.html
   name: EntityHelper
   nameWithType: EntityHelper
   fullName: SuperOffice.CRM.ArchiveLists.EntityHelper
-- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
-  commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
-  parent: SuperOffice.CRM.ArchiveLists
-  isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.html
-  name: ArchiveColumnInfo
-  nameWithType: ArchiveColumnInfo
-  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.#ctor*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.#ctor
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase-1.html#SuperOffice_CRM_ArchiveLists_InMemoryProviderBase_1__ctor
   name: InMemoryProviderBase
   nameWithType: InMemoryProviderBase<RowType>.InMemoryProviderBase
   fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.InMemoryProviderBase
-  nameWithType.vb: InMemoryProviderBase(Of RowType).New
-  fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType).New
-  name.vb: New
+  nameWithType.vb: InMemoryProviderBase(Of RowType).InMemoryProviderBase
+  fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType).InMemoryProviderBase
 - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.GetResultData*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.GetResultData
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase-1.html#SuperOffice_CRM_ArchiveLists_InMemoryProviderBase_1_GetResultData
   name: GetResultData
   nameWithType: InMemoryProviderBase<RowType>.GetResultData
   fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.GetResultData
   nameWithType.vb: InMemoryProviderBase(Of RowType).GetResultData
   fullName.vb: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase(Of RowType).GetResultData
 - uid: System.Collections.Generic.List{{RowType}}
-  commentId: T:System.Collections.Generic.List{`0}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.List{`0}'
   definition: System.Collections.Generic.List`1
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   name: List<RowType>
   nameWithType: List<RowType>
   fullName: System.Collections.Generic.List<RowType>
@@ -1492,90 +1241,74 @@ references:
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: <
+    nameWithType: <
+    fullName: <
   - name: RowType
+    nameWithType: RowType
+    fullName: RowType
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.List`1
     name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: RowType
+    nameWithType: RowType
+    fullName: RowType
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Collections.Generic.List`1
-  commentId: T:System.Collections.Generic.List`1
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
-  name: List<T>
-  nameWithType: List<T>
-  fullName: System.Collections.Generic.List<T>
-  nameWithType.vb: List(Of T)
-  fullName.vb: System.Collections.Generic.List(Of T)
-  name.vb: List(Of T)
+  name: List<>
+  nameWithType: List<>
+  fullName: System.Collections.Generic.List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: System.Collections.Generic.List(Of )
+  name.vb: List(Of )
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: <
-  - name: T
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.List`1
     name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.RegisterEntity*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.RegisterEntity
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase-1.html#SuperOffice_CRM_ArchiveLists_InMemoryProviderBase_1_RegisterEntity_SuperOffice_CRM_ArchiveLists_ArchiveRowTypeInfo_
   name: RegisterEntity
   nameWithType: InMemoryProviderBase<RowType>.RegisterEntity
   fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.RegisterEntity
@@ -1585,14 +1318,12 @@ references:
   commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
   parent: SuperOffice.CRM.ArchiveLists
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.html
   name: ArchiveRowTypeInfo
   nameWithType: ArchiveRowTypeInfo
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
 - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.GetReader*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.GetReader
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase-1.html#SuperOffice_CRM_ArchiveLists_InMemoryProviderBase_1_GetReader_System_String_
   name: GetReader
   nameWithType: InMemoryProviderBase<RowType>.GetReader
   fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.GetReader
@@ -1602,74 +1333,51 @@ references:
   commentId: M:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetReader(System.String)
   parent: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.html#SuperOffice_CRM_ArchiveLists_IArchiveProviderHasRows_GetReader_System_String_
-  name: GetReader(string)
-  nameWithType: IArchiveProviderHasRows.GetReader(string)
-  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetReader(string)
-  nameWithType.vb: IArchiveProviderHasRows.GetReader(String)
-  fullName.vb: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetReader(String)
-  name.vb: GetReader(String)
+  name: GetReader(String)
+  nameWithType: IArchiveProviderHasRows.GetReader(String)
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetReader(System.String)
   spec.csharp:
   - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetReader(System.String)
     name: GetReader
+    nameWithType: IArchiveProviderHasRows.GetReader
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetReader
     isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.html#SuperOffice_CRM_ArchiveLists_IArchiveProviderHasRows_GetReader_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetReader(System.String)
     name: GetReader
+    nameWithType: IArchiveProviderHasRows.GetReader
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetReader
     isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.html#SuperOffice_CRM_ArchiveLists_IArchiveProviderHasRows_GetReader_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Data.IDataReader
-  commentId: T:System.Data.IDataReader
-  parent: System.Data
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.data.idatareader
   name: IDataReader
   nameWithType: IDataReader
   fullName: System.Data.IDataReader
-- uid: System.Data
-  commentId: N:System.Data
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Data
-  nameWithType: System.Data
-  fullName: System.Data
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Data
-    name: Data
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.data
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Data
-    name: Data
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.data
 - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.GetRows*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.GetRows
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase-1.html#SuperOffice_CRM_ArchiveLists_InMemoryProviderBase_1_GetRows_System_String_
   name: GetRows
   nameWithType: InMemoryProviderBase<RowType>.GetRows
   fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.GetRows
@@ -1679,40 +1387,46 @@ references:
   commentId: M:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetRows(System.String)
   parent: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.html#SuperOffice_CRM_ArchiveLists_IArchiveProviderHasRows_GetRows_System_String_
-  name: GetRows(string)
-  nameWithType: IArchiveProviderHasRows.GetRows(string)
-  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetRows(string)
-  nameWithType.vb: IArchiveProviderHasRows.GetRows(String)
-  fullName.vb: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetRows(String)
-  name.vb: GetRows(String)
+  name: GetRows(String)
+  nameWithType: IArchiveProviderHasRows.GetRows(String)
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetRows(System.String)
   spec.csharp:
   - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetRows(System.String)
     name: GetRows
+    nameWithType: IArchiveProviderHasRows.GetRows
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetRows
     isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.html#SuperOffice_CRM_ArchiveLists_IArchiveProviderHasRows_GetRows_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetRows(System.String)
     name: GetRows
+    nameWithType: IArchiveProviderHasRows.GetRows
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetRows
     isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.html#SuperOffice_CRM_ArchiveLists_IArchiveProviderHasRows_GetRows_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.ArchiveLists.ArchiveRow}
-  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.CRM.ArchiveLists.ArchiveRow}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.ArchiveLists.ArchiveRow}'
   definition: System.Collections.Generic.IEnumerable`1
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   name: IEnumerable<ArchiveRow>
   nameWithType: IEnumerable<ArchiveRow>
   fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.ArchiveLists.ArchiveRow>
@@ -1722,57 +1436,78 @@ references:
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
     name: ArchiveRow
+    nameWithType: ArchiveRow
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow
     isExternal: true
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
     name: ArchiveRow
+    nameWithType: ArchiveRow
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow
     isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Collections.Generic.IEnumerable`1
-  commentId: T:System.Collections.Generic.IEnumerable`1
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  name: IEnumerable<T>
-  nameWithType: IEnumerable<T>
-  fullName: System.Collections.Generic.IEnumerable<T>
-  nameWithType.vb: IEnumerable(Of T)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
-  name.vb: IEnumerable(Of T)
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
-  - name: T
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.GetResultInformation*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.GetResultInformation
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase-1.html#SuperOffice_CRM_ArchiveLists_InMemoryProviderBase_1_GetResultInformation
   name: GetResultInformation
   nameWithType: InMemoryProviderBase<RowType>.GetResultInformation
   fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.GetResultInformation
@@ -1782,36 +1517,43 @@ references:
   commentId: M:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetResultInformation
   parent: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.html#SuperOffice_CRM_ArchiveLists_IArchiveProviderHasRows_GetResultInformation
   name: GetResultInformation()
   nameWithType: IArchiveProviderHasRows.GetResultInformation()
   fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetResultInformation()
   spec.csharp:
   - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetResultInformation
     name: GetResultInformation
+    nameWithType: IArchiveProviderHasRows.GetResultInformation
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetResultInformation
     isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.html#SuperOffice_CRM_ArchiveLists_IArchiveProviderHasRows_GetResultInformation
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetResultInformation
     name: GetResultInformation
+    nameWithType: IArchiveProviderHasRows.GetResultInformation
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetResultInformation
     isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.html#SuperOffice_CRM_ArchiveLists_IArchiveProviderHasRows_GetResultInformation
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveResultInformation
   commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveResultInformation
   parent: SuperOffice.CRM.ArchiveLists
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.ArchiveResultInformation.html
   name: ArchiveResultInformation
   nameWithType: ArchiveResultInformation
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveResultInformation
 - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.SortData*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.SortData
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase-1.html#SuperOffice_CRM_ArchiveLists_InMemoryProviderBase_1_SortData_System_Collections_Generic_List__0__
   name: SortData
   nameWithType: InMemoryProviderBase<RowType>.SortData
   fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.SortData
@@ -1820,7 +1562,6 @@ references:
 - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.Close*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.Close
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase-1.html#SuperOffice_CRM_ArchiveLists_InMemoryProviderBase_1_Close
   name: Close
   nameWithType: InMemoryProviderBase<RowType>.Close
   fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.Close
@@ -1830,28 +1571,36 @@ references:
   commentId: M:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.Close
   parent: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.html#SuperOffice_CRM_ArchiveLists_IArchiveProviderHasRows_Close
   name: Close()
   nameWithType: IArchiveProviderHasRows.Close()
   fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.Close()
   spec.csharp:
   - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.Close
     name: Close
+    nameWithType: IArchiveProviderHasRows.Close
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.Close
     isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.html#SuperOffice_CRM_ArchiveLists_IArchiveProviderHasRows_Close
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.Close
     name: Close
+    nameWithType: IArchiveProviderHasRows.Close
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.Close
     isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.html#SuperOffice_CRM_ArchiveLists_IArchiveProviderHasRows_Close
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.SetPagingInfo*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.SetPagingInfo
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase-1.html#SuperOffice_CRM_ArchiveLists_InMemoryProviderBase_1_SetPagingInfo_System_Int32_System_Int32_
   name: SetPagingInfo
   nameWithType: InMemoryProviderBase<RowType>.SetPagingInfo
   fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.SetPagingInfo
@@ -1861,62 +1610,69 @@ references:
   commentId: M:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.SetPagingInfo(System.Int32,System.Int32)
   parent: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.html#SuperOffice_CRM_ArchiveLists_IArchiveProviderHasRows_SetPagingInfo_System_Int32_System_Int32_
-  name: SetPagingInfo(int, int)
-  nameWithType: IArchiveProviderHasRows.SetPagingInfo(int, int)
-  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.SetPagingInfo(int, int)
-  nameWithType.vb: IArchiveProviderHasRows.SetPagingInfo(Integer, Integer)
-  fullName.vb: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.SetPagingInfo(Integer, Integer)
-  name.vb: SetPagingInfo(Integer, Integer)
+  name: SetPagingInfo(Int32, Int32)
+  nameWithType: IArchiveProviderHasRows.SetPagingInfo(Int32, Int32)
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.SetPagingInfo(System.Int32, System.Int32)
   spec.csharp:
   - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.SetPagingInfo(System.Int32,System.Int32)
     name: SetPagingInfo
+    nameWithType: IArchiveProviderHasRows.SetPagingInfo
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.SetPagingInfo
     isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.html#SuperOffice_CRM_ArchiveLists_IArchiveProviderHasRows_SetPagingInfo_System_Int32_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.SetPagingInfo(System.Int32,System.Int32)
     name: SetPagingInfo
+    nameWithType: IArchiveProviderHasRows.SetPagingInfo
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.SetPagingInfo
     isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.html#SuperOffice_CRM_ArchiveLists_IArchiveProviderHasRows_SetPagingInfo_System_Int32_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.GetAvailableColumns*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.GetAvailableColumns
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase-1.html#SuperOffice_CRM_ArchiveLists_InMemoryProviderBase_1_GetAvailableColumns
   name: GetAvailableColumns
   nameWithType: InMemoryProviderBase<RowType>.GetAvailableColumns
   fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.GetAvailableColumns
@@ -1926,29 +1682,36 @@ references:
   commentId: M:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.GetAvailableColumns
   parent: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.html#SuperOffice_CRM_ArchiveLists_IArchiveProviderHasColumns_GetAvailableColumns
   name: GetAvailableColumns()
   nameWithType: IArchiveProviderHasColumns.GetAvailableColumns()
   fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.GetAvailableColumns()
   spec.csharp:
   - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.GetAvailableColumns
     name: GetAvailableColumns
+    nameWithType: IArchiveProviderHasColumns.GetAvailableColumns
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.GetAvailableColumns
     isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.html#SuperOffice_CRM_ArchiveLists_IArchiveProviderHasColumns_GetAvailableColumns
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.GetAvailableColumns
     name: GetAvailableColumns
+    nameWithType: IArchiveProviderHasColumns.GetAvailableColumns
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.GetAvailableColumns
     isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.html#SuperOffice_CRM_ArchiveLists_IArchiveProviderHasColumns_GetAvailableColumns
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo}
-  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo}'
   definition: System.Collections.Generic.List`1
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   name: List<ArchiveColumnInfo>
   nameWithType: List<ArchiveColumnInfo>
   fullName: System.Collections.Generic.List<SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo>
@@ -1958,31 +1721,40 @@ references:
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
     name: ArchiveColumnInfo
+    nameWithType: ArchiveColumnInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
     isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.List`1
     name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
     name: ArchiveColumnInfo
+    nameWithType: ArchiveColumnInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
     isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.SetDesiredColumns*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.SetDesiredColumns
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase-1.html#SuperOffice_CRM_ArchiveLists_InMemoryProviderBase_1_SetDesiredColumns_System_String___
   name: SetDesiredColumns
   nameWithType: InMemoryProviderBase<RowType>.SetDesiredColumns
   fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.SetDesiredColumns
@@ -1992,70 +1764,81 @@ references:
   commentId: M:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetDesiredColumns(System.String[])
   parent: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.html#SuperOffice_CRM_ArchiveLists_IArchiveProviderHasColumns_SetDesiredColumns_System_String___
-  name: SetDesiredColumns(params string[])
-  nameWithType: IArchiveProviderHasColumns.SetDesiredColumns(params string[])
-  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetDesiredColumns(params string[])
-  nameWithType.vb: IArchiveProviderHasColumns.SetDesiredColumns(ParamArray String())
-  fullName.vb: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetDesiredColumns(ParamArray String())
-  name.vb: SetDesiredColumns(ParamArray String())
+  name: SetDesiredColumns(String[])
+  nameWithType: IArchiveProviderHasColumns.SetDesiredColumns(String[])
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetDesiredColumns(System.String[])
+  nameWithType.vb: IArchiveProviderHasColumns.SetDesiredColumns(String())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetDesiredColumns(System.String())
+  name.vb: SetDesiredColumns(String())
   spec.csharp:
   - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetDesiredColumns(System.String[])
     name: SetDesiredColumns
+    nameWithType: IArchiveProviderHasColumns.SetDesiredColumns
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetDesiredColumns
     isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.html#SuperOffice_CRM_ArchiveLists_IArchiveProviderHasColumns_SetDesiredColumns_System_String___
   - name: (
-  - name: params
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetDesiredColumns(System.String[])
     name: SetDesiredColumns
+    nameWithType: IArchiveProviderHasColumns.SetDesiredColumns
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetDesiredColumns
     isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.html#SuperOffice_CRM_ArchiveLists_IArchiveProviderHasColumns_SetDesiredColumns_System_String___
   - name: (
-  - name: ParamArray
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: (
+  - name: ()
+    nameWithType: ()
+    fullName: ()
   - name: )
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.String[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string[]
-  nameWithType: string[]
-  fullName: string[]
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
   nameWithType.vb: String()
-  fullName.vb: String()
+  fullName.vb: System.String()
   name.vb: String()
   spec.csharp:
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.SetOrderBy*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.SetOrderBy
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase-1.html#SuperOffice_CRM_ArchiveLists_InMemoryProviderBase_1_SetOrderBy_SuperOffice_CRM_ArchiveLists_ArchiveOrderByInfo___
   name: SetOrderBy
   nameWithType: InMemoryProviderBase<RowType>.SetOrderBy
   fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.SetOrderBy
@@ -2065,44 +1848,54 @@ references:
   commentId: M:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
   parent: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.html#SuperOffice_CRM_ArchiveLists_IArchiveProviderHasColumns_SetOrderBy_SuperOffice_CRM_ArchiveLists_ArchiveOrderByInfo___
-  name: SetOrderBy(params ArchiveOrderByInfo[])
-  nameWithType: IArchiveProviderHasColumns.SetOrderBy(params ArchiveOrderByInfo[])
-  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetOrderBy(params SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
-  nameWithType.vb: IArchiveProviderHasColumns.SetOrderBy(ParamArray ArchiveOrderByInfo())
-  fullName.vb: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetOrderBy(ParamArray SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo())
-  name.vb: SetOrderBy(ParamArray ArchiveOrderByInfo())
+  name: SetOrderBy(ArchiveOrderByInfo[])
+  nameWithType: IArchiveProviderHasColumns.SetOrderBy(ArchiveOrderByInfo[])
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+  nameWithType.vb: IArchiveProviderHasColumns.SetOrderBy(ArchiveOrderByInfo())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo())
+  name.vb: SetOrderBy(ArchiveOrderByInfo())
   spec.csharp:
   - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
     name: SetOrderBy
+    nameWithType: IArchiveProviderHasColumns.SetOrderBy
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetOrderBy
     isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.html#SuperOffice_CRM_ArchiveLists_IArchiveProviderHasColumns_SetOrderBy_SuperOffice_CRM_ArchiveLists_ArchiveOrderByInfo___
   - name: (
-  - name: params
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
     name: ArchiveOrderByInfo
+    nameWithType: ArchiveOrderByInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
     isExternal: true
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
     name: SetOrderBy
+    nameWithType: IArchiveProviderHasColumns.SetOrderBy
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetOrderBy
     isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.html#SuperOffice_CRM_ArchiveLists_IArchiveProviderHasColumns_SetOrderBy_SuperOffice_CRM_ArchiveLists_ArchiveOrderByInfo___
   - name: (
-  - name: ParamArray
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
     name: ArchiveOrderByInfo
+    nameWithType: ArchiveOrderByInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
     isExternal: true
-  - name: (
+  - name: ()
+    nameWithType: ()
+    fullName: ()
   - name: )
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[]
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.html
   name: ArchiveOrderByInfo[]
   nameWithType: ArchiveOrderByInfo[]
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[]
@@ -2112,21 +1905,24 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
     name: ArchiveOrderByInfo
+    nameWithType: ArchiveOrderByInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
     isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
     name: ArchiveOrderByInfo
+    nameWithType: ArchiveOrderByInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
     isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.SetRestriction*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.SetRestriction
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase-1.html#SuperOffice_CRM_ArchiveLists_InMemoryProviderBase_1_SetRestriction_SuperOffice_CRM_ArchiveLists_ArchiveRestrictionInfo___
   name: SetRestriction
   nameWithType: InMemoryProviderBase<RowType>.SetRestriction
   fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.SetRestriction
@@ -2136,44 +1932,54 @@ references:
   commentId: M:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
   parent: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.html#SuperOffice_CRM_ArchiveLists_IArchiveProviderHasColumns_SetRestriction_SuperOffice_CRM_ArchiveLists_ArchiveRestrictionInfo___
-  name: SetRestriction(params ArchiveRestrictionInfo[])
-  nameWithType: IArchiveProviderHasColumns.SetRestriction(params ArchiveRestrictionInfo[])
-  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetRestriction(params SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
-  nameWithType.vb: IArchiveProviderHasColumns.SetRestriction(ParamArray ArchiveRestrictionInfo())
-  fullName.vb: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetRestriction(ParamArray SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo())
-  name.vb: SetRestriction(ParamArray ArchiveRestrictionInfo())
+  name: SetRestriction(ArchiveRestrictionInfo[])
+  nameWithType: IArchiveProviderHasColumns.SetRestriction(ArchiveRestrictionInfo[])
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  nameWithType.vb: IArchiveProviderHasColumns.SetRestriction(ArchiveRestrictionInfo())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo())
+  name.vb: SetRestriction(ArchiveRestrictionInfo())
   spec.csharp:
   - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
     name: SetRestriction
+    nameWithType: IArchiveProviderHasColumns.SetRestriction
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetRestriction
     isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.html#SuperOffice_CRM_ArchiveLists_IArchiveProviderHasColumns_SetRestriction_SuperOffice_CRM_ArchiveLists_ArchiveRestrictionInfo___
   - name: (
-  - name: params
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
     name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
     isExternal: true
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
     name: SetRestriction
+    nameWithType: IArchiveProviderHasColumns.SetRestriction
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetRestriction
     isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.html#SuperOffice_CRM_ArchiveLists_IArchiveProviderHasColumns_SetRestriction_SuperOffice_CRM_ArchiveLists_ArchiveRestrictionInfo___
   - name: (
-  - name: ParamArray
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
     name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
     isExternal: true
-  - name: (
+  - name: ()
+    nameWithType: ()
+    fullName: ()
   - name: )
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.html
   name: ArchiveRestrictionInfo[]
   nameWithType: ArchiveRestrictionInfo[]
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
@@ -2183,21 +1989,24 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
     name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
     isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
     name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
     isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.GetAvailableEntities*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.GetAvailableEntities
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase-1.html#SuperOffice_CRM_ArchiveLists_InMemoryProviderBase_1_GetAvailableEntities
   name: GetAvailableEntities
   nameWithType: InMemoryProviderBase<RowType>.GetAvailableEntities
   fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.GetAvailableEntities
@@ -2207,29 +2016,36 @@ references:
   commentId: M:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities.GetAvailableEntities
   parent: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities.html#SuperOffice_CRM_ArchiveLists_IArchiveProviderHasEntities_GetAvailableEntities
   name: GetAvailableEntities()
   nameWithType: IArchiveProviderHasEntities.GetAvailableEntities()
   fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities.GetAvailableEntities()
   spec.csharp:
   - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities.GetAvailableEntities
     name: GetAvailableEntities
+    nameWithType: IArchiveProviderHasEntities.GetAvailableEntities
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities.GetAvailableEntities
     isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities.html#SuperOffice_CRM_ArchiveLists_IArchiveProviderHasEntities_GetAvailableEntities
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities.GetAvailableEntities
     name: GetAvailableEntities
+    nameWithType: IArchiveProviderHasEntities.GetAvailableEntities
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities.GetAvailableEntities
     isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities.html#SuperOffice_CRM_ArchiveLists_IArchiveProviderHasEntities_GetAvailableEntities
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo}
-  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo}'
   definition: System.Collections.Generic.List`1
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   name: List<ArchiveRowTypeInfo>
   nameWithType: List<ArchiveRowTypeInfo>
   fullName: System.Collections.Generic.List<SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo>
@@ -2239,31 +2055,40 @@ references:
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
     name: ArchiveRowTypeInfo
+    nameWithType: ArchiveRowTypeInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
     isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.List`1
     name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
     name: ArchiveRowTypeInfo
+    nameWithType: ArchiveRowTypeInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
     isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.SetDesiredEntities*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.SetDesiredEntities
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase-1.html#SuperOffice_CRM_ArchiveLists_InMemoryProviderBase_1_SetDesiredEntities_System_String___
   name: SetDesiredEntities
   nameWithType: InMemoryProviderBase<RowType>.SetDesiredEntities
   fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.SetDesiredEntities
@@ -2273,47 +2098,55 @@ references:
   commentId: M:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities.SetDesiredEntities(System.String[])
   parent: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities.html#SuperOffice_CRM_ArchiveLists_IArchiveProviderHasEntities_SetDesiredEntities_System_String___
-  name: SetDesiredEntities(params string[])
-  nameWithType: IArchiveProviderHasEntities.SetDesiredEntities(params string[])
-  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities.SetDesiredEntities(params string[])
-  nameWithType.vb: IArchiveProviderHasEntities.SetDesiredEntities(ParamArray String())
-  fullName.vb: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities.SetDesiredEntities(ParamArray String())
-  name.vb: SetDesiredEntities(ParamArray String())
+  name: SetDesiredEntities(String[])
+  nameWithType: IArchiveProviderHasEntities.SetDesiredEntities(String[])
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities.SetDesiredEntities(System.String[])
+  nameWithType.vb: IArchiveProviderHasEntities.SetDesiredEntities(String())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities.SetDesiredEntities(System.String())
+  name.vb: SetDesiredEntities(String())
   spec.csharp:
   - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities.SetDesiredEntities(System.String[])
     name: SetDesiredEntities
+    nameWithType: IArchiveProviderHasEntities.SetDesiredEntities
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities.SetDesiredEntities
     isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities.html#SuperOffice_CRM_ArchiveLists_IArchiveProviderHasEntities_SetDesiredEntities_System_String___
   - name: (
-  - name: params
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities.SetDesiredEntities(System.String[])
     name: SetDesiredEntities
+    nameWithType: IArchiveProviderHasEntities.SetDesiredEntities
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities.SetDesiredEntities
     isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities.html#SuperOffice_CRM_ArchiveLists_IArchiveProviderHasEntities_SetDesiredEntities_System_String___
   - name: (
-  - name: ParamArray
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: (
+  - name: ()
+    nameWithType: ()
+    fullName: ()
   - name: )
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.EntityHelper*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.EntityHelper
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase-1.html#SuperOffice_CRM_ArchiveLists_InMemoryProviderBase_1_EntityHelper
   name: EntityHelper
   nameWithType: InMemoryProviderBase<RowType>.EntityHelper
   fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.EntityHelper
@@ -2322,7 +2155,6 @@ references:
 - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.ColumnHelper*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.ColumnHelper
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase-1.html#SuperOffice_CRM_ArchiveLists_InMemoryProviderBase_1_ColumnHelper
   name: ColumnHelper
   nameWithType: InMemoryProviderBase<RowType>.ColumnHelper
   fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.ColumnHelper
@@ -2332,14 +2164,12 @@ references:
   commentId: T:SuperOffice.CRM.ArchiveLists.ColumnHelper
   parent: SuperOffice.CRM.ArchiveLists
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.ColumnHelper.html
   name: ColumnHelper
   nameWithType: ColumnHelper
   fullName: SuperOffice.CRM.ArchiveLists.ColumnHelper
 - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.BaseClassShouldFilterColumns*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.BaseClassShouldFilterColumns
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase-1.html#SuperOffice_CRM_ArchiveLists_InMemoryProviderBase_1_BaseClassShouldFilterColumns
   name: BaseClassShouldFilterColumns
   nameWithType: InMemoryProviderBase<RowType>.BaseClassShouldFilterColumns
   fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.BaseClassShouldFilterColumns
@@ -2348,7 +2178,6 @@ references:
 - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.BaseClassShouldFilterEntities*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.BaseClassShouldFilterEntities
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase-1.html#SuperOffice_CRM_ArchiveLists_InMemoryProviderBase_1_BaseClassShouldFilterEntities
   name: BaseClassShouldFilterEntities
   nameWithType: InMemoryProviderBase<RowType>.BaseClassShouldFilterEntities
   fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.BaseClassShouldFilterEntities
@@ -2357,7 +2186,6 @@ references:
 - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.BaseClassShouldPage*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.BaseClassShouldPage
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase-1.html#SuperOffice_CRM_ArchiveLists_InMemoryProviderBase_1_BaseClassShouldPage
   name: BaseClassShouldPage
   nameWithType: InMemoryProviderBase<RowType>.BaseClassShouldPage
   fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.BaseClassShouldPage
@@ -2366,7 +2194,6 @@ references:
 - uid: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.BaseClassShouldSort*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.InMemoryProviderBase`1.BaseClassShouldSort
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase-1.html#SuperOffice_CRM_ArchiveLists_InMemoryProviderBase_1_BaseClassShouldSort
   name: BaseClassShouldSort
   nameWithType: InMemoryProviderBase<RowType>.BaseClassShouldSort
   fullName: SuperOffice.CRM.ArchiveLists.InMemoryProviderBase<RowType>.BaseClassShouldSort

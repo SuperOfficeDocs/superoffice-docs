@@ -40,37 +40,20 @@ items:
   nameWithType: Sale
   fullName: SuperOffice.CRM.Services.Sale
   type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Carrier object for Sale.
-
-    Services for the Sale Carrier is available from the <xref href="SuperOffice.CRM.Services.ISaleAgent?text=Sale+Agent" data-throw-if-not-resolved="false"></xref>.
+  summary: "\nCarrier object for Sale.\nServices for the Sale Carrier is available from the <xref href=\"SuperOffice.CRM.Services.ISaleAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   example:
-  - >-
-    Get Sale 123 using the agent:
-
-    <pre><code class="lang-csharp">using SuperOffice;
-
-    using SuperOffice.CRM.Services;
-
-
-    using (SoSession mySession = SoSession.Authenticate("user", "pass"))
-
-    {
-       var agent = new SaleAgent();
-       var sale = agent.GetSale( 123 );
-    }</code></pre>
+  - "\nGet Sale 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new SaleAgent();\n    var sale = agent.GetSale( 123 );\n }</code></pre>\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public class Sale : Carrier
+    content: 'public class Sale : Carrier'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
-
-      Public Class Sale Inherits Carrier
+      Public Class Sale
+          Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.SaleAgent
     commentId: T:SuperOffice.CRM.Services.SaleAgent
@@ -78,14 +61,12 @@ items:
     commentId: T:SuperOffice.CRM.Services.ISaleAgent
   inheritance:
   - System.Object
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.Sale.#ctor
   commentId: M:SuperOffice.CRM.Services.Sale.#ctor
   id: '#ctor'
@@ -97,18 +78,21 @@ items:
   nameWithType: Sale.Sale()
   fullName: SuperOffice.CRM.Services.Sale.Sale()
   type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Default constructor
-  example: []
+  summary: "\nDefault constructor\n"
   syntax:
     content: public Sale()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.Sale.#ctor*
-  nameWithType.vb: Sale.New()
-  fullName.vb: SuperOffice.CRM.Services.Sale.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.Sale.ToString
   commentId: M:SuperOffice.CRM.Services.Sale.ToString
   id: ToString
@@ -120,18 +104,26 @@ items:
   nameWithType: Sale.ToString()
   fullName: SuperOffice.CRM.Services.Sale.ToString()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the carrier contents as a formatted string.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string.\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString() As String
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.CRM.Services.Sale.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Services.Sale.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.Sale.ToString(System.String)
   id: ToString(System.String)
@@ -139,18 +131,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(string)
-  nameWithType: Sale.ToString(string)
-  fullName: SuperOffice.CRM.Services.Sale.ToString(string)
+  name: ToString(String)
+  nameWithType: Sale.ToString(String)
+  fullName: SuperOffice.CRM.Services.Sale.ToString(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Returns the carrier contents as a formatted string, useful for debugging.
-
-    Each line in the output is prefixed with the input value.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -162,9 +153,10 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.Sale.ToString*
-  nameWithType.vb: Sale.ToString(String)
-  fullName.vb: SuperOffice.CRM.Services.Sale.ToString(String)
-  name.vb: ToString(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.Sale.ContactName
   commentId: P:SuperOffice.CRM.Services.Sale.ContactName
   id: ContactName
@@ -176,28 +168,28 @@ items:
   nameWithType: Sale.ContactName
   fullName: SuperOffice.CRM.Services.Sale.ContactName
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Contact name
-  example: []
+  summary: "\nContact name \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string ContactName { get; set; }
+    content: public virtual string ContactName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ContactName As String
+    content.vb: Public Overridable Property ContactName As String
   overload: SuperOffice.CRM.Services.Sale.ContactName*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.Sale.SaleDate
   commentId: P:SuperOffice.CRM.Services.Sale.SaleDate
   id: SaleDate
@@ -209,28 +201,28 @@ items:
   nameWithType: Sale.SaleDate
   fullName: SuperOffice.CRM.Services.Sale.SaleDate
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: (expected / lost / won) sales date
-  example: []
+  summary: "\n(expected / lost / won) sales date \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual DateTime SaleDate { get; set; }
+    content: public virtual DateTime SaleDate { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property SaleDate As Date
+    content.vb: Public Overridable Property SaleDate As DateTime
   overload: SuperOffice.CRM.Services.Sale.SaleDate*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.Sale.SaleId
   commentId: P:SuperOffice.CRM.Services.Sale.SaleId
   id: SaleId
@@ -242,28 +234,28 @@ items:
   nameWithType: Sale.SaleId
   fullName: SuperOffice.CRM.Services.Sale.SaleId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Primary key
-  example: []
+  summary: "\nPrimary key \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int SaleId { get; set; }
+    content: public virtual int SaleId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property SaleId As Integer
+    content.vb: Public Overridable Property SaleId As Integer
   overload: SuperOffice.CRM.Services.Sale.SaleId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.Sale.Probability
   commentId: P:SuperOffice.CRM.Services.Sale.Probability
   id: Probability
@@ -275,28 +267,28 @@ items:
   nameWithType: Sale.Probability
   fullName: SuperOffice.CRM.Services.Sale.Probability
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Actual probability, may differ from the one in the list
-  example: []
+  summary: "\nActual probability, may differ from the one in the list \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual short Probability { get; set; }
+    content: public virtual short Probability { get; set; }
     parameters: []
     return:
       type: System.Int16
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Probability As Short
+    content.vb: Public Overridable Property Probability As Short
   overload: SuperOffice.CRM.Services.Sale.Probability*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.Sale.Title
   commentId: P:SuperOffice.CRM.Services.Sale.Title
   id: Title
@@ -308,28 +300,28 @@ items:
   nameWithType: Sale.Title
   fullName: SuperOffice.CRM.Services.Sale.Title
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Sale heading (short description?)
-  example: []
+  summary: "\nSale heading (short description?) \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string Title { get; set; }
+    content: public virtual string Title { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Title As String
+    content.vb: Public Overridable Property Title As String
   overload: SuperOffice.CRM.Services.Sale.Title*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.Sale.Amount
   commentId: P:SuperOffice.CRM.Services.Sale.Amount
   id: Amount
@@ -341,28 +333,28 @@ items:
   nameWithType: Sale.Amount
   fullName: SuperOffice.CRM.Services.Sale.Amount
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Total sale amount
-  example: []
+  summary: "\nTotal sale amount \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual double Amount { get; set; }
+    content: public virtual double Amount { get; set; }
     parameters: []
     return:
       type: System.Double
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Amount As Double
+    content.vb: Public Overridable Property Amount As Double
   overload: SuperOffice.CRM.Services.Sale.Amount*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.Sale.Currency
   commentId: P:SuperOffice.CRM.Services.Sale.Currency
   id: Currency
@@ -374,28 +366,28 @@ items:
   nameWithType: Sale.Currency
   fullName: SuperOffice.CRM.Services.Sale.Currency
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Currency the sale was made in.
-  example: []
+  summary: "\nCurrency the sale was made in. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string Currency { get; set; }
+    content: public virtual string Currency { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Currency As String
+    content.vb: Public Overridable Property Currency As String
   overload: SuperOffice.CRM.Services.Sale.Currency*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.Sale.ProjectName
   commentId: P:SuperOffice.CRM.Services.Sale.ProjectName
   id: ProjectName
@@ -407,28 +399,28 @@ items:
   nameWithType: Sale.ProjectName
   fullName: SuperOffice.CRM.Services.Sale.ProjectName
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Project name
-  example: []
+  summary: "\nProject name \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string ProjectName { get; set; }
+    content: public virtual string ProjectName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ProjectName As String
+    content.vb: Public Overridable Property ProjectName As String
   overload: SuperOffice.CRM.Services.Sale.ProjectName*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.Sale.AssociateFullName
   commentId: P:SuperOffice.CRM.Services.Sale.AssociateFullName
   id: AssociateFullName
@@ -440,28 +432,28 @@ items:
   nameWithType: Sale.AssociateFullName
   fullName: SuperOffice.CRM.Services.Sale.AssociateFullName
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The sale's owner
-  example: []
+  summary: "\nThe sale&apos;s owner \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string AssociateFullName { get; set; }
+    content: public virtual string AssociateFullName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property AssociateFullName As String
+    content.vb: Public Overridable Property AssociateFullName As String
   overload: SuperOffice.CRM.Services.Sale.AssociateFullName*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.Sale.Description
   commentId: P:SuperOffice.CRM.Services.Sale.Description
   id: Description
@@ -473,28 +465,28 @@ items:
   nameWithType: Sale.Description
   fullName: SuperOffice.CRM.Services.Sale.Description
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The sales description
-  example: []
+  summary: "\nThe sales description \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string Description { get; set; }
+    content: public virtual string Description { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Description As String
+    content.vb: Public Overridable Property Description As String
   overload: SuperOffice.CRM.Services.Sale.Description*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.Sale.Status
   commentId: P:SuperOffice.CRM.Services.Sale.Status
   id: Status
@@ -506,28 +498,28 @@ items:
   nameWithType: Sale.Status
   fullName: SuperOffice.CRM.Services.Sale.Status
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The sale's status, indicating wether the sale is open, sold or lost.
-  example: []
+  summary: "\nThe sale&apos;s status, indicating wether the sale is open, sold or lost. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual SaleStatus Status { get; set; }
+    content: public virtual SaleStatus Status { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.SaleStatus
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Status As SaleStatus
+    content.vb: Public Overridable Property Status As SaleStatus
   overload: SuperOffice.CRM.Services.Sale.Status*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.Sale.WeightedAmount
   commentId: P:SuperOffice.CRM.Services.Sale.WeightedAmount
   id: WeightedAmount
@@ -539,28 +531,28 @@ items:
   nameWithType: Sale.WeightedAmount
   fullName: SuperOffice.CRM.Services.Sale.WeightedAmount
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The weighted amount ( amount *  probability / 100)
-  example: []
+  summary: "\nThe weighted amount ( amount *  probability / 100) \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual double WeightedAmount { get; set; }
+    content: public virtual double WeightedAmount { get; set; }
     parameters: []
     return:
       type: System.Double
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property WeightedAmount As Double
+    content.vb: Public Overridable Property WeightedAmount As Double
   overload: SuperOffice.CRM.Services.Sale.WeightedAmount*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.Sale.ProjectId
   commentId: P:SuperOffice.CRM.Services.Sale.ProjectId
   id: ProjectId
@@ -572,28 +564,28 @@ items:
   nameWithType: Sale.ProjectId
   fullName: SuperOffice.CRM.Services.Sale.ProjectId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Optional project reference
-  example: []
+  summary: "\nOptional project reference \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int ProjectId { get; set; }
+    content: public virtual int ProjectId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ProjectId As Integer
+    content.vb: Public Overridable Property ProjectId As Integer
   overload: SuperOffice.CRM.Services.Sale.ProjectId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.Sale.EarningPercent
   commentId: P:SuperOffice.CRM.Services.Sale.EarningPercent
   id: EarningPercent
@@ -605,28 +597,28 @@ items:
   nameWithType: Sale.EarningPercent
   fullName: SuperOffice.CRM.Services.Sale.EarningPercent
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Earning as percent of total
-  example: []
+  summary: "\nEarning as percent of total \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual double EarningPercent { get; set; }
+    content: public virtual double EarningPercent { get; set; }
     parameters: []
     return:
       type: System.Double
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property EarningPercent As Double
+    content.vb: Public Overridable Property EarningPercent As Double
   overload: SuperOffice.CRM.Services.Sale.EarningPercent*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.Sale.Earning
   commentId: P:SuperOffice.CRM.Services.Sale.Earning
   id: Earning
@@ -638,28 +630,28 @@ items:
   nameWithType: Sale.Earning
   fullName: SuperOffice.CRM.Services.Sale.Earning
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Earning on sale
-  example: []
+  summary: "\nEarning on sale \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual double Earning { get; set; }
+    content: public virtual double Earning { get; set; }
     parameters: []
     return:
       type: System.Double
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Earning As Double
+    content.vb: Public Overridable Property Earning As Double
   overload: SuperOffice.CRM.Services.Sale.Earning*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.Sale.ContactId
   commentId: P:SuperOffice.CRM.Services.Sale.ContactId
   id: ContactId
@@ -671,28 +663,28 @@ items:
   nameWithType: Sale.ContactId
   fullName: SuperOffice.CRM.Services.Sale.ContactId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Optional contact reference
-  example: []
+  summary: "\nOptional contact reference \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int ContactId { get; set; }
+    content: public virtual int ContactId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ContactId As Integer
+    content.vb: Public Overridable Property ContactId As Integer
   overload: SuperOffice.CRM.Services.Sale.ContactId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.Sale.AssociateId
   commentId: P:SuperOffice.CRM.Services.Sale.AssociateId
   id: AssociateId
@@ -704,28 +696,28 @@ items:
   nameWithType: Sale.AssociateId
   fullName: SuperOffice.CRM.Services.Sale.AssociateId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The sale's owner id
-  example: []
+  summary: "\nThe sale&apos;s owner id \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int AssociateId { get; set; }
+    content: public virtual int AssociateId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property AssociateId As Integer
+    content.vb: Public Overridable Property AssociateId As Integer
   overload: SuperOffice.CRM.Services.Sale.AssociateId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.Sale.PersonId
   commentId: P:SuperOffice.CRM.Services.Sale.PersonId
   id: PersonId
@@ -737,28 +729,28 @@ items:
   nameWithType: Sale.PersonId
   fullName: SuperOffice.CRM.Services.Sale.PersonId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The sale's contact persons id
-  example: []
+  summary: "\nThe sale&apos;s contact persons id \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int PersonId { get; set; }
+    content: public virtual int PersonId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property PersonId As Integer
+    content.vb: Public Overridable Property PersonId As Integer
   overload: SuperOffice.CRM.Services.Sale.PersonId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.Sale.SaleTypeId
   commentId: P:SuperOffice.CRM.Services.Sale.SaleTypeId
   id: SaleTypeId
@@ -770,28 +762,28 @@ items:
   nameWithType: Sale.SaleTypeId
   fullName: SuperOffice.CRM.Services.Sale.SaleTypeId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The sale's type id
-  example: []
+  summary: "\nThe sale&apos;s type id \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int SaleTypeId { get; set; }
+    content: public virtual int SaleTypeId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property SaleTypeId As Integer
+    content.vb: Public Overridable Property SaleTypeId As Integer
   overload: SuperOffice.CRM.Services.Sale.SaleTypeId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.Sale.SaleTypeName
   commentId: P:SuperOffice.CRM.Services.Sale.SaleTypeName
   id: SaleTypeName
@@ -803,28 +795,28 @@ items:
   nameWithType: Sale.SaleTypeName
   fullName: SuperOffice.CRM.Services.Sale.SaleTypeName
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The sale's type name
-  example: []
+  summary: "\nThe sale&apos;s type name \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string SaleTypeName { get; set; }
+    content: public virtual string SaleTypeName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property SaleTypeName As String
+    content.vb: Public Overridable Property SaleTypeName As String
   overload: SuperOffice.CRM.Services.Sale.SaleTypeName*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.Sale.PersonFullName
   commentId: P:SuperOffice.CRM.Services.Sale.PersonFullName
   id: PersonFullName
@@ -836,28 +828,28 @@ items:
   nameWithType: Sale.PersonFullName
   fullName: SuperOffice.CRM.Services.Sale.PersonFullName
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The name of the person this sale belongs to.
-  example: []
+  summary: "\nThe name of the person this sale belongs to. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string PersonFullName { get; set; }
+    content: public virtual string PersonFullName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property PersonFullName As String
+    content.vb: Public Overridable Property PersonFullName As String
   overload: SuperOffice.CRM.Services.Sale.PersonFullName*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.Sale.Completed
   commentId: P:SuperOffice.CRM.Services.Sale.Completed
   id: Completed
@@ -869,28 +861,28 @@ items:
   nameWithType: Sale.Completed
   fullName: SuperOffice.CRM.Services.Sale.Completed
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The Sale completed state. The completed state is either Started or Completed. NotStarted is treated as Started. The value maps to the Done database field.
-  example: []
+  summary: "\nThe Sale completed state. The completed state is either Started or Completed. NotStarted is treated as Started. The value maps to the Done database field. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual ActivityStatus Completed { get; set; }
+    content: public virtual ActivityStatus Completed { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.ActivityStatus
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Completed As ActivityStatus
+    content.vb: Public Overridable Property Completed As ActivityStatus
   overload: SuperOffice.CRM.Services.Sale.Completed*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.Sale.ActiveErpLinks
   commentId: P:SuperOffice.CRM.Services.Sale.ActiveErpLinks
   id: ActiveErpLinks
@@ -902,28 +894,28 @@ items:
   nameWithType: Sale.ActiveErpLinks
   fullName: SuperOffice.CRM.Services.Sale.ActiveErpLinks
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The number of active erp links
-  example: []
+  summary: "\nThe number of active erp links \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int ActiveErpLinks { get; set; }
+    content: public virtual int ActiveErpLinks { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ActiveErpLinks As Integer
+    content.vb: Public Overridable Property ActiveErpLinks As Integer
   overload: SuperOffice.CRM.Services.Sale.ActiveErpLinks*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.Sale.NextDueDate
   commentId: P:SuperOffice.CRM.Services.Sale.NextDueDate
   id: NextDueDate
@@ -935,28 +927,28 @@ items:
   nameWithType: Sale.NextDueDate
   fullName: SuperOffice.CRM.Services.Sale.NextDueDate
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Next due date, this is a denormalization of 'closest future activity date, or most recent if no future activities'. Maintained by the system, but very convenient for searching.
-  example: []
+  summary: "\nNext due date, this is a denormalization of &apos;closest future activity date, or most recent if no future activities&apos;. Maintained by the system, but very convenient for searching. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual DateTime NextDueDate { get; set; }
+    content: public virtual DateTime NextDueDate { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property NextDueDate As Date
+    content.vb: Public Overridable Property NextDueDate As DateTime
   overload: SuperOffice.CRM.Services.Sale.NextDueDate*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.Sale.Number
   commentId: P:SuperOffice.CRM.Services.Sale.Number
   id: Number
@@ -968,33 +960,38 @@ items:
   nameWithType: Sale.Number
   fullName: SuperOffice.CRM.Services.Sale.Number
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Alphanumeric user field
-  example: []
+  summary: "\nAlphanumeric user field \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string Number { get; set; }
+    content: public virtual string Number { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Number As String
+    content.vb: Public Overridable Property Number As String
   overload: SuperOffice.CRM.Services.Sale.Number*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
 - uid: SuperOffice.CRM.Services.SaleAgent
   commentId: T:SuperOffice.CRM.Services.SaleAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.SaleAgent.html
   name: SaleAgent
   nameWithType: SaleAgent
   fullName: SuperOffice.CRM.Services.SaleAgent
@@ -1002,79 +999,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.ISaleAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.ISaleAgent.html
   name: ISaleAgent
   nameWithType: ISaleAgent
   fullName: SuperOffice.CRM.Services.ISaleAgent
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.Sale.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.Sale.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.Sale.html#SuperOffice_CRM_Services_Sale__ctor
   name: Sale
   nameWithType: Sale.Sale
   fullName: SuperOffice.CRM.Services.Sale.Sale
-  nameWithType.vb: Sale.New
-  fullName.vb: SuperOffice.CRM.Services.Sale.New
-  name.vb: New
 - uid: SuperOffice.CRM.Services.Sale.ToString*
   commentId: Overload:SuperOffice.CRM.Services.Sale.ToString
   isExternal: true
-  href: SuperOffice.CRM.Services.Sale.html#SuperOffice_CRM_Services_Sale_ToString
   name: ToString
   nameWithType: Sale.ToString
   fullName: SuperOffice.CRM.Services.Sale.ToString
@@ -1082,42 +1018,35 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.Sale.ContactName*
   commentId: Overload:SuperOffice.CRM.Services.Sale.ContactName
   isExternal: true
-  href: SuperOffice.CRM.Services.Sale.html#SuperOffice_CRM_Services_Sale_ContactName
   name: ContactName
   nameWithType: Sale.ContactName
   fullName: SuperOffice.CRM.Services.Sale.ContactName
 - uid: SuperOffice.CRM.Services.Sale.SaleDate*
   commentId: Overload:SuperOffice.CRM.Services.Sale.SaleDate
   isExternal: true
-  href: SuperOffice.CRM.Services.Sale.html#SuperOffice_CRM_Services_Sale_SaleDate
   name: SaleDate
   nameWithType: Sale.SaleDate
   fullName: SuperOffice.CRM.Services.Sale.SaleDate
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
 - uid: SuperOffice.CRM.Services.Sale.SaleId*
   commentId: Overload:SuperOffice.CRM.Services.Sale.SaleId
   isExternal: true
-  href: SuperOffice.CRM.Services.Sale.html#SuperOffice_CRM_Services_Sale_SaleId
   name: SaleId
   nameWithType: Sale.SaleId
   fullName: SuperOffice.CRM.Services.Sale.SaleId
@@ -1125,17 +1054,12 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Services.Sale.Probability*
   commentId: Overload:SuperOffice.CRM.Services.Sale.Probability
   isExternal: true
-  href: SuperOffice.CRM.Services.Sale.html#SuperOffice_CRM_Services_Sale_Probability
   name: Probability
   nameWithType: Sale.Probability
   fullName: SuperOffice.CRM.Services.Sale.Probability
@@ -1143,24 +1067,18 @@ references:
   commentId: T:System.Int16
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int16
-  name: short
-  nameWithType: short
-  fullName: short
-  nameWithType.vb: Short
-  fullName.vb: Short
-  name.vb: Short
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.CRM.Services.Sale.Title*
   commentId: Overload:SuperOffice.CRM.Services.Sale.Title
   isExternal: true
-  href: SuperOffice.CRM.Services.Sale.html#SuperOffice_CRM_Services_Sale_Title
   name: Title
   nameWithType: Sale.Title
   fullName: SuperOffice.CRM.Services.Sale.Title
 - uid: SuperOffice.CRM.Services.Sale.Amount*
   commentId: Overload:SuperOffice.CRM.Services.Sale.Amount
   isExternal: true
-  href: SuperOffice.CRM.Services.Sale.html#SuperOffice_CRM_Services_Sale_Amount
   name: Amount
   nameWithType: Sale.Amount
   fullName: SuperOffice.CRM.Services.Sale.Amount
@@ -1168,45 +1086,36 @@ references:
   commentId: T:System.Double
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.double
-  name: double
-  nameWithType: double
-  fullName: double
-  nameWithType.vb: Double
-  fullName.vb: Double
-  name.vb: Double
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
 - uid: SuperOffice.CRM.Services.Sale.Currency*
   commentId: Overload:SuperOffice.CRM.Services.Sale.Currency
   isExternal: true
-  href: SuperOffice.CRM.Services.Sale.html#SuperOffice_CRM_Services_Sale_Currency
   name: Currency
   nameWithType: Sale.Currency
   fullName: SuperOffice.CRM.Services.Sale.Currency
 - uid: SuperOffice.CRM.Services.Sale.ProjectName*
   commentId: Overload:SuperOffice.CRM.Services.Sale.ProjectName
   isExternal: true
-  href: SuperOffice.CRM.Services.Sale.html#SuperOffice_CRM_Services_Sale_ProjectName
   name: ProjectName
   nameWithType: Sale.ProjectName
   fullName: SuperOffice.CRM.Services.Sale.ProjectName
 - uid: SuperOffice.CRM.Services.Sale.AssociateFullName*
   commentId: Overload:SuperOffice.CRM.Services.Sale.AssociateFullName
   isExternal: true
-  href: SuperOffice.CRM.Services.Sale.html#SuperOffice_CRM_Services_Sale_AssociateFullName
   name: AssociateFullName
   nameWithType: Sale.AssociateFullName
   fullName: SuperOffice.CRM.Services.Sale.AssociateFullName
 - uid: SuperOffice.CRM.Services.Sale.Description*
   commentId: Overload:SuperOffice.CRM.Services.Sale.Description
   isExternal: true
-  href: SuperOffice.CRM.Services.Sale.html#SuperOffice_CRM_Services_Sale_Description
   name: Description
   nameWithType: Sale.Description
   fullName: SuperOffice.CRM.Services.Sale.Description
 - uid: SuperOffice.CRM.Services.Sale.Status*
   commentId: Overload:SuperOffice.CRM.Services.Sale.Status
   isExternal: true
-  href: SuperOffice.CRM.Services.Sale.html#SuperOffice_CRM_Services_Sale_Status
   name: Status
   nameWithType: Sale.Status
   fullName: SuperOffice.CRM.Services.Sale.Status
@@ -1218,77 +1127,66 @@ references:
 - uid: SuperOffice.CRM.Services.Sale.WeightedAmount*
   commentId: Overload:SuperOffice.CRM.Services.Sale.WeightedAmount
   isExternal: true
-  href: SuperOffice.CRM.Services.Sale.html#SuperOffice_CRM_Services_Sale_WeightedAmount
   name: WeightedAmount
   nameWithType: Sale.WeightedAmount
   fullName: SuperOffice.CRM.Services.Sale.WeightedAmount
 - uid: SuperOffice.CRM.Services.Sale.ProjectId*
   commentId: Overload:SuperOffice.CRM.Services.Sale.ProjectId
   isExternal: true
-  href: SuperOffice.CRM.Services.Sale.html#SuperOffice_CRM_Services_Sale_ProjectId
   name: ProjectId
   nameWithType: Sale.ProjectId
   fullName: SuperOffice.CRM.Services.Sale.ProjectId
 - uid: SuperOffice.CRM.Services.Sale.EarningPercent*
   commentId: Overload:SuperOffice.CRM.Services.Sale.EarningPercent
   isExternal: true
-  href: SuperOffice.CRM.Services.Sale.html#SuperOffice_CRM_Services_Sale_EarningPercent
   name: EarningPercent
   nameWithType: Sale.EarningPercent
   fullName: SuperOffice.CRM.Services.Sale.EarningPercent
 - uid: SuperOffice.CRM.Services.Sale.Earning*
   commentId: Overload:SuperOffice.CRM.Services.Sale.Earning
   isExternal: true
-  href: SuperOffice.CRM.Services.Sale.html#SuperOffice_CRM_Services_Sale_Earning
   name: Earning
   nameWithType: Sale.Earning
   fullName: SuperOffice.CRM.Services.Sale.Earning
 - uid: SuperOffice.CRM.Services.Sale.ContactId*
   commentId: Overload:SuperOffice.CRM.Services.Sale.ContactId
   isExternal: true
-  href: SuperOffice.CRM.Services.Sale.html#SuperOffice_CRM_Services_Sale_ContactId
   name: ContactId
   nameWithType: Sale.ContactId
   fullName: SuperOffice.CRM.Services.Sale.ContactId
 - uid: SuperOffice.CRM.Services.Sale.AssociateId*
   commentId: Overload:SuperOffice.CRM.Services.Sale.AssociateId
   isExternal: true
-  href: SuperOffice.CRM.Services.Sale.html#SuperOffice_CRM_Services_Sale_AssociateId
   name: AssociateId
   nameWithType: Sale.AssociateId
   fullName: SuperOffice.CRM.Services.Sale.AssociateId
 - uid: SuperOffice.CRM.Services.Sale.PersonId*
   commentId: Overload:SuperOffice.CRM.Services.Sale.PersonId
   isExternal: true
-  href: SuperOffice.CRM.Services.Sale.html#SuperOffice_CRM_Services_Sale_PersonId
   name: PersonId
   nameWithType: Sale.PersonId
   fullName: SuperOffice.CRM.Services.Sale.PersonId
 - uid: SuperOffice.CRM.Services.Sale.SaleTypeId*
   commentId: Overload:SuperOffice.CRM.Services.Sale.SaleTypeId
   isExternal: true
-  href: SuperOffice.CRM.Services.Sale.html#SuperOffice_CRM_Services_Sale_SaleTypeId
   name: SaleTypeId
   nameWithType: Sale.SaleTypeId
   fullName: SuperOffice.CRM.Services.Sale.SaleTypeId
 - uid: SuperOffice.CRM.Services.Sale.SaleTypeName*
   commentId: Overload:SuperOffice.CRM.Services.Sale.SaleTypeName
   isExternal: true
-  href: SuperOffice.CRM.Services.Sale.html#SuperOffice_CRM_Services_Sale_SaleTypeName
   name: SaleTypeName
   nameWithType: Sale.SaleTypeName
   fullName: SuperOffice.CRM.Services.Sale.SaleTypeName
 - uid: SuperOffice.CRM.Services.Sale.PersonFullName*
   commentId: Overload:SuperOffice.CRM.Services.Sale.PersonFullName
   isExternal: true
-  href: SuperOffice.CRM.Services.Sale.html#SuperOffice_CRM_Services_Sale_PersonFullName
   name: PersonFullName
   nameWithType: Sale.PersonFullName
   fullName: SuperOffice.CRM.Services.Sale.PersonFullName
 - uid: SuperOffice.CRM.Services.Sale.Completed*
   commentId: Overload:SuperOffice.CRM.Services.Sale.Completed
   isExternal: true
-  href: SuperOffice.CRM.Services.Sale.html#SuperOffice_CRM_Services_Sale_Completed
   name: Completed
   nameWithType: Sale.Completed
   fullName: SuperOffice.CRM.Services.Sale.Completed
@@ -1300,21 +1198,18 @@ references:
 - uid: SuperOffice.CRM.Services.Sale.ActiveErpLinks*
   commentId: Overload:SuperOffice.CRM.Services.Sale.ActiveErpLinks
   isExternal: true
-  href: SuperOffice.CRM.Services.Sale.html#SuperOffice_CRM_Services_Sale_ActiveErpLinks
   name: ActiveErpLinks
   nameWithType: Sale.ActiveErpLinks
   fullName: SuperOffice.CRM.Services.Sale.ActiveErpLinks
 - uid: SuperOffice.CRM.Services.Sale.NextDueDate*
   commentId: Overload:SuperOffice.CRM.Services.Sale.NextDueDate
   isExternal: true
-  href: SuperOffice.CRM.Services.Sale.html#SuperOffice_CRM_Services_Sale_NextDueDate
   name: NextDueDate
   nameWithType: Sale.NextDueDate
   fullName: SuperOffice.CRM.Services.Sale.NextDueDate
 - uid: SuperOffice.CRM.Services.Sale.Number*
   commentId: Overload:SuperOffice.CRM.Services.Sale.Number
   isExternal: true
-  href: SuperOffice.CRM.Services.Sale.html#SuperOffice_CRM_Services_Sale_Number
   name: Number
   nameWithType: Sale.Number
   fullName: SuperOffice.CRM.Services.Sale.Number

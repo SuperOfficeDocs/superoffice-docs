@@ -15,15 +15,24 @@ items:
   nameWithType: UdefPublishHelper.IProgressHandler
   fullName: SuperOffice.Data.UdefPublishHelper.IProgressHandler
   type: Interface
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
   syntax:
-    content: public interface UdefPublishHelper.IProgressHandler
-    content.vb: Public Interface UdefPublishHelper.IProgressHandler
+    content: public interface IProgressHandler
+    content.vb: Public Interface IProgressHandler
   extensionMethods:
   - SuperOffice.Data.UdefPublishHelper.IProgressHandler.EnumUtil.MapEnums``2
   - SuperOffice.Data.UdefPublishHelper.IProgressHandler.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
 - uid: SuperOffice.Data.UdefPublishHelper.IProgressHandler.IncrementProgress(System.Int32)
   commentId: M:SuperOffice.Data.UdefPublishHelper.IProgressHandler.IncrementProgress(System.Int32)
   id: IncrementProgress(System.Int32)
@@ -31,10 +40,13 @@ items:
   langs:
   - csharp
   - vb
-  name: IncrementProgress(int)
-  nameWithType: UdefPublishHelper.IProgressHandler.IncrementProgress(int)
-  fullName: SuperOffice.Data.UdefPublishHelper.IProgressHandler.IncrementProgress(int)
+  name: IncrementProgress(Int32)
+  nameWithType: UdefPublishHelper.IProgressHandler.IncrementProgress(Int32)
+  fullName: SuperOffice.Data.UdefPublishHelper.IProgressHandler.IncrementProgress(System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
@@ -45,9 +57,6 @@ items:
       type: System.Int32
     content.vb: Sub IncrementProgress(numOperationsDone As Integer)
   overload: SuperOffice.Data.UdefPublishHelper.IProgressHandler.IncrementProgress*
-  nameWithType.vb: UdefPublishHelper.IProgressHandler.IncrementProgress(Integer)
-  fullName.vb: SuperOffice.Data.UdefPublishHelper.IProgressHandler.IncrementProgress(Integer)
-  name.vb: IncrementProgress(Integer)
 - uid: SuperOffice.Data.UdefPublishHelper.IProgressHandler.SetProgressDescription(System.String)
   commentId: M:SuperOffice.Data.UdefPublishHelper.IProgressHandler.SetProgressDescription(System.String)
   id: SetProgressDescription(System.String)
@@ -55,10 +64,13 @@ items:
   langs:
   - csharp
   - vb
-  name: SetProgressDescription(string)
-  nameWithType: UdefPublishHelper.IProgressHandler.SetProgressDescription(string)
-  fullName: SuperOffice.Data.UdefPublishHelper.IProgressHandler.SetProgressDescription(string)
+  name: SetProgressDescription(String)
+  nameWithType: UdefPublishHelper.IProgressHandler.SetProgressDescription(String)
+  fullName: SuperOffice.Data.UdefPublishHelper.IProgressHandler.SetProgressDescription(System.String)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
@@ -69,9 +81,6 @@ items:
       type: System.String
     content.vb: Sub SetProgressDescription(description As String)
   overload: SuperOffice.Data.UdefPublishHelper.IProgressHandler.SetProgressDescription*
-  nameWithType.vb: UdefPublishHelper.IProgressHandler.SetProgressDescription(String)
-  fullName.vb: SuperOffice.Data.UdefPublishHelper.IProgressHandler.SetProgressDescription(String)
-  name.vb: SetProgressDescription(String)
 - uid: SuperOffice.Data.UdefPublishHelper.IProgressHandler.NumOperations
   commentId: P:SuperOffice.Data.UdefPublishHelper.IProgressHandler.NumOperations
   id: NumOperations
@@ -83,6 +92,9 @@ items:
   nameWithType: UdefPublishHelper.IProgressHandler.NumOperations
   fullName: SuperOffice.Data.UdefPublishHelper.IProgressHandler.NumOperations
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
@@ -93,144 +105,87 @@ items:
       type: System.Int32
     content.vb: Property NumOperations As Integer
   overload: SuperOffice.Data.UdefPublishHelper.IProgressHandler.NumOperations*
+  modifiers.csharp:
+  - get
+  - set
 references:
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
 - uid: SuperOffice.Data.UdefPublishHelper.IProgressHandler.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<IProgressHandler, To>(IProgressHandler)
-  nameWithType: EnumUtil.MapEnums<UdefPublishHelper.IProgressHandler, To>(UdefPublishHelper.IProgressHandler)
-  fullName: EnumUtil.MapEnums<SuperOffice.Data.UdefPublishHelper.IProgressHandler, To>(SuperOffice.Data.UdefPublishHelper.IProgressHandler)
-  nameWithType.vb: EnumUtil.MapEnums(Of UdefPublishHelper.IProgressHandler, To)(UdefPublishHelper.IProgressHandler)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.UdefPublishHelper.IProgressHandler, To)(SuperOffice.Data.UdefPublishHelper.IProgressHandler)
-  name.vb: MapEnums(Of IProgressHandler, To)(IProgressHandler)
+  name: MapEnums<UdefPublishHelper.IProgressHandler, To>()
+  nameWithType: EnumUtil.MapEnums<UdefPublishHelper.IProgressHandler, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.UdefPublishHelper.IProgressHandler, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of UdefPublishHelper.IProgressHandler, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.UdefPublishHelper.IProgressHandler, To)()
+  name.vb: MapEnums(Of UdefPublishHelper.IProgressHandler, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.UdefPublishHelper.IProgressHandler)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<UdefPublishHelper.IProgressHandler, To>
+    nameWithType: EnumUtil.MapEnums<UdefPublishHelper.IProgressHandler, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.UdefPublishHelper.IProgressHandler, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.UdefPublishHelper.IProgressHandler
-    name: IProgressHandler
-    isExternal: true
-    href: SuperOffice.Data.UdefPublishHelper.IProgressHandler.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.UdefPublishHelper.IProgressHandler
-    name: IProgressHandler
-    isExternal: true
-    href: SuperOffice.Data.UdefPublishHelper.IProgressHandler.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.UdefPublishHelper.IProgressHandler)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of UdefPublishHelper.IProgressHandler, To)
+    nameWithType: EnumUtil.MapEnums(Of UdefPublishHelper.IProgressHandler, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.UdefPublishHelper.IProgressHandler, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.UdefPublishHelper.IProgressHandler
-    name: IProgressHandler
-    isExternal: true
-    href: SuperOffice.Data.UdefPublishHelper.IProgressHandler.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.UdefPublishHelper.IProgressHandler
-    name: IProgressHandler
-    isExternal: true
-    href: SuperOffice.Data.UdefPublishHelper.IProgressHandler.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.UdefPublishHelper.IProgressHandler.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<IProgressHandler, To>(IProgressHandler)
-  nameWithType: Converters.MapEnums<UdefPublishHelper.IProgressHandler, To>(UdefPublishHelper.IProgressHandler)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.UdefPublishHelper.IProgressHandler, To>(SuperOffice.Data.UdefPublishHelper.IProgressHandler)
-  nameWithType.vb: Converters.MapEnums(Of UdefPublishHelper.IProgressHandler, To)(UdefPublishHelper.IProgressHandler)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.UdefPublishHelper.IProgressHandler, To)(SuperOffice.Data.UdefPublishHelper.IProgressHandler)
-  name.vb: MapEnums(Of IProgressHandler, To)(IProgressHandler)
+  name: MapEnums<UdefPublishHelper.IProgressHandler, To>()
+  nameWithType: Converters.MapEnums<UdefPublishHelper.IProgressHandler, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.UdefPublishHelper.IProgressHandler, To>()
+  nameWithType.vb: Converters.MapEnums(Of UdefPublishHelper.IProgressHandler, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.UdefPublishHelper.IProgressHandler, To)()
+  name.vb: MapEnums(Of UdefPublishHelper.IProgressHandler, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.UdefPublishHelper.IProgressHandler)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<UdefPublishHelper.IProgressHandler, To>
+    nameWithType: Converters.MapEnums<UdefPublishHelper.IProgressHandler, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.UdefPublishHelper.IProgressHandler, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.UdefPublishHelper.IProgressHandler
-    name: IProgressHandler
-    isExternal: true
-    href: SuperOffice.Data.UdefPublishHelper.IProgressHandler.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.UdefPublishHelper.IProgressHandler
-    name: IProgressHandler
-    isExternal: true
-    href: SuperOffice.Data.UdefPublishHelper.IProgressHandler.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.UdefPublishHelper.IProgressHandler)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of UdefPublishHelper.IProgressHandler, To)
+    nameWithType: Converters.MapEnums(Of UdefPublishHelper.IProgressHandler, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.UdefPublishHelper.IProgressHandler, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.UdefPublishHelper.IProgressHandler
-    name: IProgressHandler
-    isExternal: true
-    href: SuperOffice.Data.UdefPublishHelper.IProgressHandler.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.UdefPublishHelper.IProgressHandler
-    name: IProgressHandler
-    isExternal: true
-    href: SuperOffice.Data.UdefPublishHelper.IProgressHandler.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -239,45 +194,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -286,83 +239,50 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.Data.UdefPublishHelper.IProgressHandler.IncrementProgress*
   commentId: Overload:SuperOffice.Data.UdefPublishHelper.IProgressHandler.IncrementProgress
   isExternal: true
-  href: SuperOffice.Data.UdefPublishHelper.IProgressHandler.html#SuperOffice_Data_UdefPublishHelper_IProgressHandler_IncrementProgress_System_Int32_
   name: IncrementProgress
   nameWithType: UdefPublishHelper.IProgressHandler.IncrementProgress
   fullName: SuperOffice.Data.UdefPublishHelper.IProgressHandler.IncrementProgress
@@ -370,24 +290,18 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.Data.UdefPublishHelper.IProgressHandler.SetProgressDescription*
   commentId: Overload:SuperOffice.Data.UdefPublishHelper.IProgressHandler.SetProgressDescription
   isExternal: true
-  href: SuperOffice.Data.UdefPublishHelper.IProgressHandler.html#SuperOffice_Data_UdefPublishHelper_IProgressHandler_SetProgressDescription_System_String_
   name: SetProgressDescription
   nameWithType: UdefPublishHelper.IProgressHandler.SetProgressDescription
   fullName: SuperOffice.Data.UdefPublishHelper.IProgressHandler.SetProgressDescription
@@ -395,17 +309,12 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.Data.UdefPublishHelper.IProgressHandler.NumOperations*
   commentId: Overload:SuperOffice.Data.UdefPublishHelper.IProgressHandler.NumOperations
   isExternal: true
-  href: SuperOffice.Data.UdefPublishHelper.IProgressHandler.html#SuperOffice_Data_UdefPublishHelper_IProgressHandler_NumOperations
   name: NumOperations
   nameWithType: UdefPublishHelper.IProgressHandler.NumOperations
   fullName: SuperOffice.Data.UdefPublishHelper.IProgressHandler.NumOperations

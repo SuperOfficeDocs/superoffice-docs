@@ -7,24 +7,64 @@ items:
   children:
   - SuperOffice.WebApi.Data.ConfigType.Options
   - SuperOffice.WebApi.Data.ConfigType.Style
+  - SuperOffice.WebApi.Data.ConfigType.value__
   langs:
   - csharp
   - vb
   name: ConfigType
   nameWithType: ConfigType
   fullName: SuperOffice.WebApi.Data.ConfigType
-  type: Enum
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Value for field 'type' in table 'cust_config'.
-
-    This Enum is used by:  cust_config.type
-  example: []
+  summary: "\nValue for field &apos;type&apos; in table &apos;cust_config&apos;.\nThis Enum is used by:  cust_config.type\n"
   syntax:
-    content: 'public enum ConfigType : short'
-    content.vb: Public Enum ConfigType As Short
+    content: 'public sealed class ConfigType : Enum'
+    content.vb: >-
+      Public NotInheritable Class ConfigType
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.ConfigType.value__
+  commentId: F:SuperOffice.WebApi.Data.ConfigType.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.ConfigType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: ConfigType.value__
+  fullName: SuperOffice.WebApi.Data.ConfigType.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.ConfigType.Style
   commentId: F:SuperOffice.WebApi.Data.ConfigType.Style
   id: Style
@@ -36,26 +76,24 @@ items:
   nameWithType: ConfigType.Style
   fullName: SuperOffice.WebApi.Data.ConfigType.Style
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '0: The row contains style data'
-  example: []
+  summary: "\n0: The row contains style data\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Style = 0
+    content: public const ConfigType Style
     return:
       type: SuperOffice.WebApi.Data.ConfigType
-    content.vb: >-
-      <EnumMember>
-
-      Style = 0
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Style As ConfigType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ConfigType.Options
   commentId: F:SuperOffice.WebApi.Data.ConfigType.Options
   id: Options
@@ -67,69 +105,55 @@ items:
   nameWithType: ConfigType.Options
   fullName: SuperOffice.WebApi.Data.ConfigType.Options
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '1: The row contains options data'
-  example: []
+  summary: "\n1: The row contains options data\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Options = 1
+    content: public const ConfigType Options
     return:
       type: SuperOffice.WebApi.Data.ConfigType
-    content.vb: >-
-      <EnumMember>
-
-      Options = 1
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Options As ConfigType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.WebApi.Data.ConfigType
   commentId: T:SuperOffice.WebApi.Data.ConfigType
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.ConfigType.html
   name: ConfigType
   nameWithType: ConfigType
   fullName: SuperOffice.WebApi.Data.ConfigType

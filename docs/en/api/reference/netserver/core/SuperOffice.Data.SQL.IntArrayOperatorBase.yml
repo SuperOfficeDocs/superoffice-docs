@@ -13,14 +13,19 @@ items:
   nameWithType: IntArrayOperatorBase
   fullName: SuperOffice.Data.SQL.IntArrayOperatorBase
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: COmmon base class for the specialized operators for int[] fields (tags)
-  example: []
+  summary: "\nCOmmon base class for the specialized operators for int[] fields (tags)\n"
   syntax:
     content: 'public abstract class IntArrayOperatorBase : ArrayCompare, ICloneable'
-    content.vb: Public MustInherit Class IntArrayOperatorBase Inherits ArrayCompare Implements ICloneable
+    content.vb: >-
+      Public MustInherit Class IntArrayOperatorBase
+          Inherits ArrayCompare
+          Implements ICloneable
   inheritance:
   - System.Object
   - SuperOffice.Data.SQL.QueryElement
@@ -50,15 +55,17 @@ items:
   - SuperOffice.Data.SQL.Restriction.Or(SuperOffice.Data.SQL.Restriction)
   - SuperOffice.Data.SQL.Restriction.RestrictionAnd(SuperOffice.Data.SQL.Restriction,SuperOffice.Data.SQL.Restriction)
   - SuperOffice.Data.SQL.Restriction.RestrictionOr(SuperOffice.Data.SQL.Restriction,SuperOffice.Data.SQL.Restriction)
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.Data.SQL.IntArrayOperatorBase.EnumUtil.MapEnums``2
   - SuperOffice.Data.SQL.IntArrayOperatorBase.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
 - uid: SuperOffice.Data.SQL.IntArrayOperatorBase.#ctor(SuperOffice.Data.SQL.Argument,SuperOffice.Data.SQL.Argument[])
   commentId: M:SuperOffice.Data.SQL.IntArrayOperatorBase.#ctor(SuperOffice.Data.SQL.Argument,SuperOffice.Data.SQL.Argument[])
   id: '#ctor(SuperOffice.Data.SQL.Argument,SuperOffice.Data.SQL.Argument[])'
@@ -66,10 +73,13 @@ items:
   langs:
   - csharp
   - vb
-  name: IntArrayOperatorBase(Argument, params Argument[])
-  nameWithType: IntArrayOperatorBase.IntArrayOperatorBase(Argument, params Argument[])
-  fullName: SuperOffice.Data.SQL.IntArrayOperatorBase.IntArrayOperatorBase(SuperOffice.Data.SQL.Argument, params SuperOffice.Data.SQL.Argument[])
+  name: IntArrayOperatorBase(Argument, Argument[])
+  nameWithType: IntArrayOperatorBase.IntArrayOperatorBase(Argument, Argument[])
+  fullName: SuperOffice.Data.SQL.IntArrayOperatorBase.IntArrayOperatorBase(SuperOffice.Data.SQL.Argument, SuperOffice.Data.SQL.Argument[])
   type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
@@ -82,63 +92,31 @@ items:
       type: SuperOffice.Data.SQL.Argument[]
     content.vb: Public Sub New(left As Argument, ParamArray right As Argument())
   overload: SuperOffice.Data.SQL.IntArrayOperatorBase.#ctor*
-  nameWithType.vb: IntArrayOperatorBase.New(Argument, ParamArray Argument())
-  fullName.vb: SuperOffice.Data.SQL.IntArrayOperatorBase.New(SuperOffice.Data.SQL.Argument, ParamArray SuperOffice.Data.SQL.Argument())
-  name.vb: New(Argument, ParamArray Argument())
+  nameWithType.vb: IntArrayOperatorBase.IntArrayOperatorBase(Argument, Argument())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Data.SQL.IntArrayOperatorBase.IntArrayOperatorBase(SuperOffice.Data.SQL.Argument, SuperOffice.Data.SQL.Argument())
+  name.vb: IntArrayOperatorBase(Argument, Argument())
 references:
 - uid: SuperOffice.Data.SQL
   commentId: N:SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.SQL
-    name: SQL
-    isExternal: true
-    href: SuperOffice.Data.SQL.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.SQL
-    name: SQL
-    isExternal: true
-    href: SuperOffice.Data.SQL.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.SQL.QueryElement
   commentId: T:SuperOffice.Data.SQL.QueryElement
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.QueryElement.html
   name: QueryElement
   nameWithType: QueryElement
   fullName: SuperOffice.Data.SQL.QueryElement
@@ -146,7 +124,6 @@ references:
   commentId: T:SuperOffice.Data.SQL.Restriction
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.Restriction.html
   name: Restriction
   nameWithType: Restriction
   fullName: SuperOffice.Data.SQL.Restriction
@@ -154,7 +131,6 @@ references:
   commentId: T:SuperOffice.Data.SQL.Compare
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.Compare.html
   name: Compare
   nameWithType: Compare
   fullName: SuperOffice.Data.SQL.Compare
@@ -162,15 +138,11 @@ references:
   commentId: T:SuperOffice.Data.SQL.ArrayCompare
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.ArrayCompare.html
   name: ArrayCompare
   nameWithType: ArrayCompare
   fullName: SuperOffice.Data.SQL.ArrayCompare
 - uid: System.ICloneable
-  commentId: T:System.ICloneable
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.icloneable
   name: ICloneable
   nameWithType: ICloneable
   fullName: System.ICloneable
@@ -178,7 +150,6 @@ references:
   commentId: F:SuperOffice.Data.SQL.ArrayCompare._right
   parent: SuperOffice.Data.SQL.ArrayCompare
   isExternal: true
-  href: SuperOffice.Data.SQL.ArrayCompare.html#SuperOffice_Data_SQL_ArrayCompare__right
   name: _right
   nameWithType: ArrayCompare._right
   fullName: SuperOffice.Data.SQL.ArrayCompare._right
@@ -186,73 +157,99 @@ references:
   commentId: M:SuperOffice.Data.SQL.ArrayCompare.GetSubElements
   parent: SuperOffice.Data.SQL.ArrayCompare
   isExternal: true
-  href: SuperOffice.Data.SQL.ArrayCompare.html#SuperOffice_Data_SQL_ArrayCompare_GetSubElements
   name: GetSubElements()
   nameWithType: ArrayCompare.GetSubElements()
   fullName: SuperOffice.Data.SQL.ArrayCompare.GetSubElements()
   spec.csharp:
   - uid: SuperOffice.Data.SQL.ArrayCompare.GetSubElements
     name: GetSubElements
+    nameWithType: ArrayCompare.GetSubElements
+    fullName: SuperOffice.Data.SQL.ArrayCompare.GetSubElements
     isExternal: true
-    href: SuperOffice.Data.SQL.ArrayCompare.html#SuperOffice_Data_SQL_ArrayCompare_GetSubElements
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.ArrayCompare.GetSubElements
     name: GetSubElements
+    nameWithType: ArrayCompare.GetSubElements
+    fullName: SuperOffice.Data.SQL.ArrayCompare.GetSubElements
     isExternal: true
-    href: SuperOffice.Data.SQL.ArrayCompare.html#SuperOffice_Data_SQL_ArrayCompare_GetSubElements
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.ArrayCompare.Clone
   commentId: M:SuperOffice.Data.SQL.ArrayCompare.Clone
   parent: SuperOffice.Data.SQL.ArrayCompare
   isExternal: true
-  href: SuperOffice.Data.SQL.ArrayCompare.html#SuperOffice_Data_SQL_ArrayCompare_Clone
   name: Clone()
   nameWithType: ArrayCompare.Clone()
   fullName: SuperOffice.Data.SQL.ArrayCompare.Clone()
   spec.csharp:
   - uid: SuperOffice.Data.SQL.ArrayCompare.Clone
     name: Clone
+    nameWithType: ArrayCompare.Clone
+    fullName: SuperOffice.Data.SQL.ArrayCompare.Clone
     isExternal: true
-    href: SuperOffice.Data.SQL.ArrayCompare.html#SuperOffice_Data_SQL_ArrayCompare_Clone
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.ArrayCompare.Clone
     name: Clone
+    nameWithType: ArrayCompare.Clone
+    fullName: SuperOffice.Data.SQL.ArrayCompare.Clone
     isExternal: true
-    href: SuperOffice.Data.SQL.ArrayCompare.html#SuperOffice_Data_SQL_ArrayCompare_Clone
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.ArrayCompare.ToString
   commentId: M:SuperOffice.Data.SQL.ArrayCompare.ToString
   parent: SuperOffice.Data.SQL.ArrayCompare
   isExternal: true
-  href: SuperOffice.Data.SQL.ArrayCompare.html#SuperOffice_Data_SQL_ArrayCompare_ToString
   name: ToString()
   nameWithType: ArrayCompare.ToString()
   fullName: SuperOffice.Data.SQL.ArrayCompare.ToString()
   spec.csharp:
   - uid: SuperOffice.Data.SQL.ArrayCompare.ToString
     name: ToString
+    nameWithType: ArrayCompare.ToString
+    fullName: SuperOffice.Data.SQL.ArrayCompare.ToString
     isExternal: true
-    href: SuperOffice.Data.SQL.ArrayCompare.html#SuperOffice_Data_SQL_ArrayCompare_ToString
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.ArrayCompare.ToString
     name: ToString
+    nameWithType: ArrayCompare.ToString
+    fullName: SuperOffice.Data.SQL.ArrayCompare.ToString
     isExternal: true
-    href: SuperOffice.Data.SQL.ArrayCompare.html#SuperOffice_Data_SQL_ArrayCompare_ToString
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.ArrayCompare.Right
   commentId: P:SuperOffice.Data.SQL.ArrayCompare.Right
   parent: SuperOffice.Data.SQL.ArrayCompare
   isExternal: true
-  href: SuperOffice.Data.SQL.ArrayCompare.html#SuperOffice_Data_SQL_ArrayCompare_Right
   name: Right
   nameWithType: ArrayCompare.Right
   fullName: SuperOffice.Data.SQL.ArrayCompare.Right
@@ -260,151 +257,195 @@ references:
   commentId: M:SuperOffice.Data.SQL.Compare.IsTableInvolved(SuperOffice.Data.SQL.TableInfo)
   parent: SuperOffice.Data.SQL.Compare
   isExternal: true
-  href: SuperOffice.Data.SQL.Compare.html#SuperOffice_Data_SQL_Compare_IsTableInvolved_SuperOffice_Data_SQL_TableInfo_
   name: IsTableInvolved(TableInfo)
   nameWithType: Compare.IsTableInvolved(TableInfo)
   fullName: SuperOffice.Data.SQL.Compare.IsTableInvolved(SuperOffice.Data.SQL.TableInfo)
   spec.csharp:
   - uid: SuperOffice.Data.SQL.Compare.IsTableInvolved(SuperOffice.Data.SQL.TableInfo)
     name: IsTableInvolved
+    nameWithType: Compare.IsTableInvolved
+    fullName: SuperOffice.Data.SQL.Compare.IsTableInvolved
     isExternal: true
-    href: SuperOffice.Data.SQL.Compare.html#SuperOffice_Data_SQL_Compare_IsTableInvolved_SuperOffice_Data_SQL_TableInfo_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.Compare.IsTableInvolved(SuperOffice.Data.SQL.TableInfo)
     name: IsTableInvolved
+    nameWithType: Compare.IsTableInvolved
+    fullName: SuperOffice.Data.SQL.Compare.IsTableInvolved
     isExternal: true
-    href: SuperOffice.Data.SQL.Compare.html#SuperOffice_Data_SQL_Compare_IsTableInvolved_SuperOffice_Data_SQL_TableInfo_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.Compare.AreAllTablesInvolved(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.Dictionary.SoTable[])
   commentId: M:SuperOffice.Data.SQL.Compare.AreAllTablesInvolved(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.Dictionary.SoTable[])
   parent: SuperOffice.Data.SQL.Compare
   isExternal: true
-  href: SuperOffice.Data.SQL.Compare.html#SuperOffice_Data_SQL_Compare_AreAllTablesInvolved_SuperOffice_Data_SQL_TableInfo_SuperOffice_Data_Dictionary_SoTable___
-  name: AreAllTablesInvolved(TableInfo, params SoTable[])
-  nameWithType: Compare.AreAllTablesInvolved(TableInfo, params SoTable[])
-  fullName: SuperOffice.Data.SQL.Compare.AreAllTablesInvolved(SuperOffice.Data.SQL.TableInfo, params SuperOffice.Data.Dictionary.SoTable[])
-  nameWithType.vb: Compare.AreAllTablesInvolved(TableInfo, ParamArray SoTable())
-  fullName.vb: SuperOffice.Data.SQL.Compare.AreAllTablesInvolved(SuperOffice.Data.SQL.TableInfo, ParamArray SuperOffice.Data.Dictionary.SoTable())
-  name.vb: AreAllTablesInvolved(TableInfo, ParamArray SoTable())
+  name: AreAllTablesInvolved(TableInfo, SoTable[])
+  nameWithType: Compare.AreAllTablesInvolved(TableInfo, SoTable[])
+  fullName: SuperOffice.Data.SQL.Compare.AreAllTablesInvolved(SuperOffice.Data.SQL.TableInfo, SuperOffice.Data.Dictionary.SoTable[])
+  nameWithType.vb: Compare.AreAllTablesInvolved(TableInfo, SoTable())
+  fullName.vb: SuperOffice.Data.SQL.Compare.AreAllTablesInvolved(SuperOffice.Data.SQL.TableInfo, SuperOffice.Data.Dictionary.SoTable())
+  name.vb: AreAllTablesInvolved(TableInfo, SoTable())
   spec.csharp:
   - uid: SuperOffice.Data.SQL.Compare.AreAllTablesInvolved(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.Dictionary.SoTable[])
     name: AreAllTablesInvolved
+    nameWithType: Compare.AreAllTablesInvolved
+    fullName: SuperOffice.Data.SQL.Compare.AreAllTablesInvolved
     isExternal: true
-    href: SuperOffice.Data.SQL.Compare.html#SuperOffice_Data_SQL_Compare_AreAllTablesInvolved_SuperOffice_Data_SQL_TableInfo_SuperOffice_Data_Dictionary_SoTable___
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html
-  - name: ','
-  - name: " "
-  - name: params
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.Data.Dictionary.SoTable
     name: SoTable
+    nameWithType: SoTable
+    fullName: SuperOffice.Data.Dictionary.SoTable
     isExternal: true
-    href: SuperOffice.Data.Dictionary.SoTable.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.Compare.AreAllTablesInvolved(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.Dictionary.SoTable[])
     name: AreAllTablesInvolved
+    nameWithType: Compare.AreAllTablesInvolved
+    fullName: SuperOffice.Data.SQL.Compare.AreAllTablesInvolved
     isExternal: true
-    href: SuperOffice.Data.SQL.Compare.html#SuperOffice_Data_SQL_Compare_AreAllTablesInvolved_SuperOffice_Data_SQL_TableInfo_SuperOffice_Data_Dictionary_SoTable___
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html
-  - name: ','
-  - name: " "
-  - name: ParamArray
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.Data.Dictionary.SoTable
     name: SoTable
+    nameWithType: SoTable
+    fullName: SuperOffice.Data.Dictionary.SoTable
     isExternal: true
-    href: SuperOffice.Data.Dictionary.SoTable.html
-  - name: (
+  - name: ()
+    nameWithType: ()
+    fullName: ()
   - name: )
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.Compare.GetInvolvedTables(System.Collections.Generic.Dictionary{SuperOffice.Data.SQL.TableInfo,System.Object}@)
   commentId: M:SuperOffice.Data.SQL.Compare.GetInvolvedTables(System.Collections.Generic.Dictionary{SuperOffice.Data.SQL.TableInfo,System.Object}@)
   parent: SuperOffice.Data.SQL.Compare
   isExternal: true
-  href: SuperOffice.Data.SQL.Compare.html#SuperOffice_Data_SQL_Compare_GetInvolvedTables_System_Collections_Generic_Dictionary_SuperOffice_Data_SQL_TableInfo_System_Object___
-  name: GetInvolvedTables(ref Dictionary<TableInfo, object>)
-  nameWithType: Compare.GetInvolvedTables(ref Dictionary<TableInfo, object>)
-  fullName: SuperOffice.Data.SQL.Compare.GetInvolvedTables(ref System.Collections.Generic.Dictionary<SuperOffice.Data.SQL.TableInfo, object>)
+  name: GetInvolvedTables(Dictionary<TableInfo, Object>)
+  nameWithType: Compare.GetInvolvedTables(Dictionary<TableInfo, Object>)
+  fullName: SuperOffice.Data.SQL.Compare.GetInvolvedTables(System.Collections.Generic.Dictionary<SuperOffice.Data.SQL.TableInfo, System.Object>)
   nameWithType.vb: Compare.GetInvolvedTables(Dictionary(Of TableInfo, Object))
-  fullName.vb: SuperOffice.Data.SQL.Compare.GetInvolvedTables(System.Collections.Generic.Dictionary(Of SuperOffice.Data.SQL.TableInfo, Object))
+  fullName.vb: SuperOffice.Data.SQL.Compare.GetInvolvedTables(System.Collections.Generic.Dictionary(Of SuperOffice.Data.SQL.TableInfo, System.Object))
   name.vb: GetInvolvedTables(Dictionary(Of TableInfo, Object))
   spec.csharp:
   - uid: SuperOffice.Data.SQL.Compare.GetInvolvedTables(System.Collections.Generic.Dictionary{SuperOffice.Data.SQL.TableInfo,System.Object}@)
     name: GetInvolvedTables
+    nameWithType: Compare.GetInvolvedTables
+    fullName: SuperOffice.Data.SQL.Compare.GetInvolvedTables
     isExternal: true
-    href: SuperOffice.Data.SQL.Compare.html#SuperOffice_Data_SQL_Compare_GetInvolvedTables_System_Collections_Generic_Dictionary_SuperOffice_Data_SQL_TableInfo_System_Object___
   - name: (
-  - name: ref
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Object
-    name: object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.Compare.GetInvolvedTables(System.Collections.Generic.Dictionary{SuperOffice.Data.SQL.TableInfo,System.Object}@)
     name: GetInvolvedTables
+    nameWithType: Compare.GetInvolvedTables
+    fullName: SuperOffice.Data.SQL.Compare.GetInvolvedTables
     isExternal: true
-    href: SuperOffice.Data.SQL.Compare.html#SuperOffice_Data_SQL_Compare_GetInvolvedTables_System_Collections_Generic_Dictionary_SuperOffice_Data_SQL_TableInfo_System_Object___
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Object
     name: Object
+    nameWithType: Object
+    fullName: System.Object
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
+    nameWithType: )
+    fullName: )
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.Compare.GetTypedSubElement``1
   commentId: M:SuperOffice.Data.SQL.Compare.GetTypedSubElement``1
   parent: SuperOffice.Data.SQL.Compare
   isExternal: true
-  href: SuperOffice.Data.SQL.Compare.html#SuperOffice_Data_SQL_Compare_GetTypedSubElement__1
   name: GetTypedSubElement<T>()
   nameWithType: Compare.GetTypedSubElement<T>()
   fullName: SuperOffice.Data.SQL.Compare.GetTypedSubElement<T>()
@@ -413,31 +454,32 @@ references:
   name.vb: GetTypedSubElement(Of T)()
   spec.csharp:
   - uid: SuperOffice.Data.SQL.Compare.GetTypedSubElement``1
-    name: GetTypedSubElement
+    name: GetTypedSubElement<T>
+    nameWithType: Compare.GetTypedSubElement<T>
+    fullName: SuperOffice.Data.SQL.Compare.GetTypedSubElement<T>
     isExternal: true
-    href: SuperOffice.Data.SQL.Compare.html#SuperOffice_Data_SQL_Compare_GetTypedSubElement__1
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.Compare.GetTypedSubElement``1
-    name: GetTypedSubElement
+    name: GetTypedSubElement(Of T)
+    nameWithType: Compare.GetTypedSubElement(Of T)
+    fullName: SuperOffice.Data.SQL.Compare.GetTypedSubElement(Of T)
     isExternal: true
-    href: SuperOffice.Data.SQL.Compare.html#SuperOffice_Data_SQL_Compare_GetTypedSubElement__1
   - name: (
-  - name: Of
-  - name: " "
-  - name: T
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.Compare.Left
   commentId: P:SuperOffice.Data.SQL.Compare.Left
   parent: SuperOffice.Data.SQL.Compare
   isExternal: true
-  href: SuperOffice.Data.SQL.Compare.html#SuperOffice_Data_SQL_Compare_Left
   name: Left
   nameWithType: Compare.Left
   fullName: SuperOffice.Data.SQL.Compare.Left
@@ -445,7 +487,6 @@ references:
   commentId: P:SuperOffice.Data.SQL.Compare.IsRelationDescription
   parent: SuperOffice.Data.SQL.Compare
   isExternal: true
-  href: SuperOffice.Data.SQL.Compare.html#SuperOffice_Data_SQL_Compare_IsRelationDescription
   name: IsRelationDescription
   nameWithType: Compare.IsRelationDescription
   fullName: SuperOffice.Data.SQL.Compare.IsRelationDescription
@@ -453,458 +494,275 @@ references:
   commentId: M:SuperOffice.Data.SQL.Restriction.And(SuperOffice.Data.SQL.Restriction)
   parent: SuperOffice.Data.SQL.Restriction
   isExternal: true
-  href: SuperOffice.Data.SQL.Restriction.html#SuperOffice_Data_SQL_Restriction_And_SuperOffice_Data_SQL_Restriction_
   name: And(Restriction)
   nameWithType: Restriction.And(Restriction)
   fullName: SuperOffice.Data.SQL.Restriction.And(SuperOffice.Data.SQL.Restriction)
   spec.csharp:
   - uid: SuperOffice.Data.SQL.Restriction.And(SuperOffice.Data.SQL.Restriction)
     name: And
+    nameWithType: Restriction.And
+    fullName: SuperOffice.Data.SQL.Restriction.And
     isExternal: true
-    href: SuperOffice.Data.SQL.Restriction.html#SuperOffice_Data_SQL_Restriction_And_SuperOffice_Data_SQL_Restriction_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.Restriction
     name: Restriction
+    nameWithType: Restriction
+    fullName: SuperOffice.Data.SQL.Restriction
     isExternal: true
-    href: SuperOffice.Data.SQL.Restriction.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.Restriction.And(SuperOffice.Data.SQL.Restriction)
     name: And
+    nameWithType: Restriction.And
+    fullName: SuperOffice.Data.SQL.Restriction.And
     isExternal: true
-    href: SuperOffice.Data.SQL.Restriction.html#SuperOffice_Data_SQL_Restriction_And_SuperOffice_Data_SQL_Restriction_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.Restriction
     name: Restriction
+    nameWithType: Restriction
+    fullName: SuperOffice.Data.SQL.Restriction
     isExternal: true
-    href: SuperOffice.Data.SQL.Restriction.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.Restriction.Or(SuperOffice.Data.SQL.Restriction)
   commentId: M:SuperOffice.Data.SQL.Restriction.Or(SuperOffice.Data.SQL.Restriction)
   parent: SuperOffice.Data.SQL.Restriction
   isExternal: true
-  href: SuperOffice.Data.SQL.Restriction.html#SuperOffice_Data_SQL_Restriction_Or_SuperOffice_Data_SQL_Restriction_
   name: Or(Restriction)
   nameWithType: Restriction.Or(Restriction)
   fullName: SuperOffice.Data.SQL.Restriction.Or(SuperOffice.Data.SQL.Restriction)
   spec.csharp:
   - uid: SuperOffice.Data.SQL.Restriction.Or(SuperOffice.Data.SQL.Restriction)
     name: Or
+    nameWithType: Restriction.Or
+    fullName: SuperOffice.Data.SQL.Restriction.Or
     isExternal: true
-    href: SuperOffice.Data.SQL.Restriction.html#SuperOffice_Data_SQL_Restriction_Or_SuperOffice_Data_SQL_Restriction_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.Restriction
     name: Restriction
+    nameWithType: Restriction
+    fullName: SuperOffice.Data.SQL.Restriction
     isExternal: true
-    href: SuperOffice.Data.SQL.Restriction.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.Restriction.Or(SuperOffice.Data.SQL.Restriction)
     name: Or
+    nameWithType: Restriction.Or
+    fullName: SuperOffice.Data.SQL.Restriction.Or
     isExternal: true
-    href: SuperOffice.Data.SQL.Restriction.html#SuperOffice_Data_SQL_Restriction_Or_SuperOffice_Data_SQL_Restriction_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.Restriction
     name: Restriction
+    nameWithType: Restriction
+    fullName: SuperOffice.Data.SQL.Restriction
     isExternal: true
-    href: SuperOffice.Data.SQL.Restriction.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.Restriction.RestrictionAnd(SuperOffice.Data.SQL.Restriction,SuperOffice.Data.SQL.Restriction)
   commentId: M:SuperOffice.Data.SQL.Restriction.RestrictionAnd(SuperOffice.Data.SQL.Restriction,SuperOffice.Data.SQL.Restriction)
   parent: SuperOffice.Data.SQL.Restriction
   isExternal: true
-  href: SuperOffice.Data.SQL.Restriction.html#SuperOffice_Data_SQL_Restriction_RestrictionAnd_SuperOffice_Data_SQL_Restriction_SuperOffice_Data_SQL_Restriction_
   name: RestrictionAnd(Restriction, Restriction)
   nameWithType: Restriction.RestrictionAnd(Restriction, Restriction)
   fullName: SuperOffice.Data.SQL.Restriction.RestrictionAnd(SuperOffice.Data.SQL.Restriction, SuperOffice.Data.SQL.Restriction)
   spec.csharp:
   - uid: SuperOffice.Data.SQL.Restriction.RestrictionAnd(SuperOffice.Data.SQL.Restriction,SuperOffice.Data.SQL.Restriction)
     name: RestrictionAnd
+    nameWithType: Restriction.RestrictionAnd
+    fullName: SuperOffice.Data.SQL.Restriction.RestrictionAnd
     isExternal: true
-    href: SuperOffice.Data.SQL.Restriction.html#SuperOffice_Data_SQL_Restriction_RestrictionAnd_SuperOffice_Data_SQL_Restriction_SuperOffice_Data_SQL_Restriction_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.Restriction
     name: Restriction
+    nameWithType: Restriction
+    fullName: SuperOffice.Data.SQL.Restriction
     isExternal: true
-    href: SuperOffice.Data.SQL.Restriction.html
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.Data.SQL.Restriction
     name: Restriction
+    nameWithType: Restriction
+    fullName: SuperOffice.Data.SQL.Restriction
     isExternal: true
-    href: SuperOffice.Data.SQL.Restriction.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.Restriction.RestrictionAnd(SuperOffice.Data.SQL.Restriction,SuperOffice.Data.SQL.Restriction)
     name: RestrictionAnd
+    nameWithType: Restriction.RestrictionAnd
+    fullName: SuperOffice.Data.SQL.Restriction.RestrictionAnd
     isExternal: true
-    href: SuperOffice.Data.SQL.Restriction.html#SuperOffice_Data_SQL_Restriction_RestrictionAnd_SuperOffice_Data_SQL_Restriction_SuperOffice_Data_SQL_Restriction_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.Restriction
     name: Restriction
+    nameWithType: Restriction
+    fullName: SuperOffice.Data.SQL.Restriction
     isExternal: true
-    href: SuperOffice.Data.SQL.Restriction.html
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.Data.SQL.Restriction
     name: Restriction
+    nameWithType: Restriction
+    fullName: SuperOffice.Data.SQL.Restriction
     isExternal: true
-    href: SuperOffice.Data.SQL.Restriction.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.Restriction.RestrictionOr(SuperOffice.Data.SQL.Restriction,SuperOffice.Data.SQL.Restriction)
   commentId: M:SuperOffice.Data.SQL.Restriction.RestrictionOr(SuperOffice.Data.SQL.Restriction,SuperOffice.Data.SQL.Restriction)
   parent: SuperOffice.Data.SQL.Restriction
   isExternal: true
-  href: SuperOffice.Data.SQL.Restriction.html#SuperOffice_Data_SQL_Restriction_RestrictionOr_SuperOffice_Data_SQL_Restriction_SuperOffice_Data_SQL_Restriction_
   name: RestrictionOr(Restriction, Restriction)
   nameWithType: Restriction.RestrictionOr(Restriction, Restriction)
   fullName: SuperOffice.Data.SQL.Restriction.RestrictionOr(SuperOffice.Data.SQL.Restriction, SuperOffice.Data.SQL.Restriction)
   spec.csharp:
   - uid: SuperOffice.Data.SQL.Restriction.RestrictionOr(SuperOffice.Data.SQL.Restriction,SuperOffice.Data.SQL.Restriction)
     name: RestrictionOr
+    nameWithType: Restriction.RestrictionOr
+    fullName: SuperOffice.Data.SQL.Restriction.RestrictionOr
     isExternal: true
-    href: SuperOffice.Data.SQL.Restriction.html#SuperOffice_Data_SQL_Restriction_RestrictionOr_SuperOffice_Data_SQL_Restriction_SuperOffice_Data_SQL_Restriction_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.Restriction
     name: Restriction
+    nameWithType: Restriction
+    fullName: SuperOffice.Data.SQL.Restriction
     isExternal: true
-    href: SuperOffice.Data.SQL.Restriction.html
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.Data.SQL.Restriction
     name: Restriction
+    nameWithType: Restriction
+    fullName: SuperOffice.Data.SQL.Restriction
     isExternal: true
-    href: SuperOffice.Data.SQL.Restriction.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.Restriction.RestrictionOr(SuperOffice.Data.SQL.Restriction,SuperOffice.Data.SQL.Restriction)
     name: RestrictionOr
+    nameWithType: Restriction.RestrictionOr
+    fullName: SuperOffice.Data.SQL.Restriction.RestrictionOr
     isExternal: true
-    href: SuperOffice.Data.SQL.Restriction.html#SuperOffice_Data_SQL_Restriction_RestrictionOr_SuperOffice_Data_SQL_Restriction_SuperOffice_Data_SQL_Restriction_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.Restriction
     name: Restriction
+    nameWithType: Restriction
+    fullName: SuperOffice.Data.SQL.Restriction
     isExternal: true
-    href: SuperOffice.Data.SQL.Restriction.html
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.Data.SQL.Restriction
     name: Restriction
+    nameWithType: Restriction
+    fullName: SuperOffice.Data.SQL.Restriction
     isExternal: true
-    href: SuperOffice.Data.SQL.Restriction.html
   - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.IntArrayOperatorBase.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<IntArrayOperatorBase, To>(IntArrayOperatorBase)
-  nameWithType: EnumUtil.MapEnums<IntArrayOperatorBase, To>(IntArrayOperatorBase)
-  fullName: EnumUtil.MapEnums<SuperOffice.Data.SQL.IntArrayOperatorBase, To>(SuperOffice.Data.SQL.IntArrayOperatorBase)
-  nameWithType.vb: EnumUtil.MapEnums(Of IntArrayOperatorBase, To)(IntArrayOperatorBase)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.SQL.IntArrayOperatorBase, To)(SuperOffice.Data.SQL.IntArrayOperatorBase)
-  name.vb: MapEnums(Of IntArrayOperatorBase, To)(IntArrayOperatorBase)
+  name: MapEnums<IntArrayOperatorBase, To>()
+  nameWithType: EnumUtil.MapEnums<IntArrayOperatorBase, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.SQL.IntArrayOperatorBase, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of IntArrayOperatorBase, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.SQL.IntArrayOperatorBase, To)()
+  name.vb: MapEnums(Of IntArrayOperatorBase, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.SQL.IntArrayOperatorBase)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<IntArrayOperatorBase, To>
+    nameWithType: EnumUtil.MapEnums<IntArrayOperatorBase, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.SQL.IntArrayOperatorBase, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.SQL.IntArrayOperatorBase
-    name: IntArrayOperatorBase
-    isExternal: true
-    href: SuperOffice.Data.SQL.IntArrayOperatorBase.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.SQL.IntArrayOperatorBase
-    name: IntArrayOperatorBase
-    isExternal: true
-    href: SuperOffice.Data.SQL.IntArrayOperatorBase.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.SQL.IntArrayOperatorBase)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of IntArrayOperatorBase, To)
+    nameWithType: EnumUtil.MapEnums(Of IntArrayOperatorBase, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.SQL.IntArrayOperatorBase, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.SQL.IntArrayOperatorBase
-    name: IntArrayOperatorBase
-    isExternal: true
-    href: SuperOffice.Data.SQL.IntArrayOperatorBase.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.SQL.IntArrayOperatorBase
-    name: IntArrayOperatorBase
-    isExternal: true
-    href: SuperOffice.Data.SQL.IntArrayOperatorBase.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.IntArrayOperatorBase.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<IntArrayOperatorBase, To>(IntArrayOperatorBase)
-  nameWithType: Converters.MapEnums<IntArrayOperatorBase, To>(IntArrayOperatorBase)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.SQL.IntArrayOperatorBase, To>(SuperOffice.Data.SQL.IntArrayOperatorBase)
-  nameWithType.vb: Converters.MapEnums(Of IntArrayOperatorBase, To)(IntArrayOperatorBase)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.SQL.IntArrayOperatorBase, To)(SuperOffice.Data.SQL.IntArrayOperatorBase)
-  name.vb: MapEnums(Of IntArrayOperatorBase, To)(IntArrayOperatorBase)
+  name: MapEnums<IntArrayOperatorBase, To>()
+  nameWithType: Converters.MapEnums<IntArrayOperatorBase, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.SQL.IntArrayOperatorBase, To>()
+  nameWithType.vb: Converters.MapEnums(Of IntArrayOperatorBase, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.SQL.IntArrayOperatorBase, To)()
+  name.vb: MapEnums(Of IntArrayOperatorBase, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.SQL.IntArrayOperatorBase)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<IntArrayOperatorBase, To>
+    nameWithType: Converters.MapEnums<IntArrayOperatorBase, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.SQL.IntArrayOperatorBase, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.SQL.IntArrayOperatorBase
-    name: IntArrayOperatorBase
-    isExternal: true
-    href: SuperOffice.Data.SQL.IntArrayOperatorBase.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.SQL.IntArrayOperatorBase
-    name: IntArrayOperatorBase
-    isExternal: true
-    href: SuperOffice.Data.SQL.IntArrayOperatorBase.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.SQL.IntArrayOperatorBase)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of IntArrayOperatorBase, To)
+    nameWithType: Converters.MapEnums(Of IntArrayOperatorBase, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.SQL.IntArrayOperatorBase, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.SQL.IntArrayOperatorBase
-    name: IntArrayOperatorBase
-    isExternal: true
-    href: SuperOffice.Data.SQL.IntArrayOperatorBase.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.SQL.IntArrayOperatorBase
-    name: IntArrayOperatorBase
-    isExternal: true
-    href: SuperOffice.Data.SQL.IntArrayOperatorBase.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -913,45 +771,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -960,100 +816,62 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.Data.SQL.IntArrayOperatorBase.#ctor*
   commentId: Overload:SuperOffice.Data.SQL.IntArrayOperatorBase.#ctor
   isExternal: true
-  href: SuperOffice.Data.SQL.IntArrayOperatorBase.html#SuperOffice_Data_SQL_IntArrayOperatorBase__ctor_SuperOffice_Data_SQL_Argument_SuperOffice_Data_SQL_Argument___
   name: IntArrayOperatorBase
   nameWithType: IntArrayOperatorBase.IntArrayOperatorBase
   fullName: SuperOffice.Data.SQL.IntArrayOperatorBase.IntArrayOperatorBase
-  nameWithType.vb: IntArrayOperatorBase.New
-  fullName.vb: SuperOffice.Data.SQL.IntArrayOperatorBase.New
-  name.vb: New
 - uid: SuperOffice.Data.SQL.Argument
   commentId: T:SuperOffice.Data.SQL.Argument
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.Argument.html
   name: Argument
   nameWithType: Argument
   fullName: SuperOffice.Data.SQL.Argument
 - uid: SuperOffice.Data.SQL.Argument[]
   isExternal: true
-  href: SuperOffice.Data.SQL.Argument.html
   name: Argument[]
   nameWithType: Argument[]
   fullName: SuperOffice.Data.SQL.Argument[]
@@ -1063,14 +881,18 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.Argument
     name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.Data.SQL.Argument
     name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()

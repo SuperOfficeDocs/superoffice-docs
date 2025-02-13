@@ -23,28 +23,15 @@ items:
   nameWithType: IFavouriteAgent
   fullName: SuperOffice.CRM.Services.IFavouriteAgent
   type: Interface
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Interface for the Favourite Agent
-
-    Agent used for retrieveing and setting favourites
+  summary: "\nInterface for the Favourite Agent\nAgent used for retrieveing and setting favourites\n"
   example:
-  - >-
-    <pre><code class="lang-csharp">using SuperOffice;
-
-    using SuperOffice.CRM.Services;
-
-
-    using (SoSession mySession = SoSession.Authenticate("user", "pass"))
-
-    {
-       using (FavouriteAgent agent = new FavouriteAgent())
-       {
-          // call methods on agent here...
-       }
-    }</code></pre>
+  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (FavouriteAgent agent = new FavouriteAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
   syntax:
     content: >-
       [Agent("Favourite Agent", "Interface for the Favourite Agent. Agent used for retrieveing and setting favourites")]
@@ -53,7 +40,8 @@ items:
     content.vb: >-
       <Agent("Favourite Agent", "Interface for the Favourite Agent. Agent used for retrieveing and setting favourites")>
 
-      Public Interface IFavouriteAgent Inherits IAgent
+      Public Interface IFavouriteAgent
+          Inherits IAgent
   attributes:
   - type: SuperOffice.CRM.Services.Reflection.AgentAttribute
     ctor: SuperOffice.CRM.Services.Reflection.AgentAttribute.#ctor(System.String,System.String)
@@ -62,6 +50,12 @@ items:
       value: Favourite Agent
     - type: System.String
       value: Interface for the Favourite Agent. Agent used for retrieveing and setting favourites
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
 - uid: SuperOffice.CRM.Services.IFavouriteAgent.IsFavourite(System.String,System.Int32,System.Int32)
   commentId: M:SuperOffice.CRM.Services.IFavouriteAgent.IsFavourite(System.String,System.Int32,System.Int32)
   id: IsFavourite(System.String,System.Int32,System.Int32)
@@ -69,15 +63,17 @@ items:
   langs:
   - csharp
   - vb
-  name: IsFavourite(string, int, int)
-  nameWithType: IFavouriteAgent.IsFavourite(string, int, int)
-  fullName: SuperOffice.CRM.Services.IFavouriteAgent.IsFavourite(string, int, int)
+  name: IsFavourite(String, Int32, Int32)
+  nameWithType: IFavouriteAgent.IsFavourite(String, Int32, Int32)
+  fullName: SuperOffice.CRM.Services.IFavouriteAgent.IsFavourite(System.String, System.Int32, System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Checks if a record in a table is a favourite for an associate
-  example: []
+  summary: "\nChecks if a record in a table is a favourite for an associate\n"
   syntax:
     content: bool IsFavourite(string tableName, int recordId, int associateId)
     parameters:
@@ -95,9 +91,6 @@ items:
       description: Is Favourite?
     content.vb: Function IsFavourite(tableName As String, recordId As Integer, associateId As Integer) As Boolean
   overload: SuperOffice.CRM.Services.IFavouriteAgent.IsFavourite*
-  nameWithType.vb: IFavouriteAgent.IsFavourite(String, Integer, Integer)
-  fullName.vb: SuperOffice.CRM.Services.IFavouriteAgent.IsFavourite(String, Integer, Integer)
-  name.vb: IsFavourite(String, Integer, Integer)
 - uid: SuperOffice.CRM.Services.IFavouriteAgent.AddFavourite(System.String,System.Int32,System.Int32,System.String)
   commentId: M:SuperOffice.CRM.Services.IFavouriteAgent.AddFavourite(System.String,System.Int32,System.Int32,System.String)
   id: AddFavourite(System.String,System.Int32,System.Int32,System.String)
@@ -105,15 +98,17 @@ items:
   langs:
   - csharp
   - vb
-  name: AddFavourite(string, int, int, string)
-  nameWithType: IFavouriteAgent.AddFavourite(string, int, int, string)
-  fullName: SuperOffice.CRM.Services.IFavouriteAgent.AddFavourite(string, int, int, string)
+  name: AddFavourite(String, Int32, Int32, String)
+  nameWithType: IFavouriteAgent.AddFavourite(String, Int32, Int32, String)
+  fullName: SuperOffice.CRM.Services.IFavouriteAgent.AddFavourite(System.String, System.Int32, System.Int32, System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Add a record in a table as a favourite for an associate
-  example: []
+  summary: "\nAdd a record in a table as a favourite for an associate\n"
   syntax:
     content: void AddFavourite(string tableName, int recordId, int associateId, string extraInfo)
     parameters:
@@ -131,9 +126,6 @@ items:
       description: Any extra information
     content.vb: Sub AddFavourite(tableName As String, recordId As Integer, associateId As Integer, extraInfo As String)
   overload: SuperOffice.CRM.Services.IFavouriteAgent.AddFavourite*
-  nameWithType.vb: IFavouriteAgent.AddFavourite(String, Integer, Integer, String)
-  fullName.vb: SuperOffice.CRM.Services.IFavouriteAgent.AddFavourite(String, Integer, Integer, String)
-  name.vb: AddFavourite(String, Integer, Integer, String)
 - uid: SuperOffice.CRM.Services.IFavouriteAgent.AddFavourites(System.String,System.Int32[],System.Int32,System.String)
   commentId: M:SuperOffice.CRM.Services.IFavouriteAgent.AddFavourites(System.String,System.Int32[],System.Int32,System.String)
   id: AddFavourites(System.String,System.Int32[],System.Int32,System.String)
@@ -141,15 +133,17 @@ items:
   langs:
   - csharp
   - vb
-  name: AddFavourites(string, int[], int, string)
-  nameWithType: IFavouriteAgent.AddFavourites(string, int[], int, string)
-  fullName: SuperOffice.CRM.Services.IFavouriteAgent.AddFavourites(string, int[], int, string)
+  name: AddFavourites(String, Int32[], Int32, String)
+  nameWithType: IFavouriteAgent.AddFavourites(String, Int32[], Int32, String)
+  fullName: SuperOffice.CRM.Services.IFavouriteAgent.AddFavourites(System.String, System.Int32[], System.Int32, System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Add a list of record ids as favourites for an associate
-  example: []
+  summary: "\nAdd a list of record ids as favourites for an associate\n"
   syntax:
     content: void AddFavourites(string tableName, int[] recordIds, int associateId, string extraInfo)
     parameters:
@@ -167,9 +161,9 @@ items:
       description: Any extra information
     content.vb: Sub AddFavourites(tableName As String, recordIds As Integer(), associateId As Integer, extraInfo As String)
   overload: SuperOffice.CRM.Services.IFavouriteAgent.AddFavourites*
-  nameWithType.vb: IFavouriteAgent.AddFavourites(String, Integer(), Integer, String)
-  fullName.vb: SuperOffice.CRM.Services.IFavouriteAgent.AddFavourites(String, Integer(), Integer, String)
-  name.vb: AddFavourites(String, Integer(), Integer, String)
+  nameWithType.vb: IFavouriteAgent.AddFavourites(String, Int32(), Int32, String)
+  fullName.vb: SuperOffice.CRM.Services.IFavouriteAgent.AddFavourites(System.String, System.Int32(), System.Int32, System.String)
+  name.vb: AddFavourites(String, Int32(), Int32, String)
 - uid: SuperOffice.CRM.Services.IFavouriteAgent.AddTicketsToFavouritesByProvider(System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Int32,System.String)
   commentId: M:SuperOffice.CRM.Services.IFavouriteAgent.AddTicketsToFavouritesByProvider(System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Int32,System.String)
   id: AddTicketsToFavouritesByProvider(System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Int32,System.String)
@@ -177,15 +171,17 @@ items:
   langs:
   - csharp
   - vb
-  name: AddTicketsToFavouritesByProvider(string, ArchiveRestrictionInfo[], int, string)
-  nameWithType: IFavouriteAgent.AddTicketsToFavouritesByProvider(string, ArchiveRestrictionInfo[], int, string)
-  fullName: SuperOffice.CRM.Services.IFavouriteAgent.AddTicketsToFavouritesByProvider(string, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[], int, string)
+  name: AddTicketsToFavouritesByProvider(String, ArchiveRestrictionInfo[], Int32, String)
+  nameWithType: IFavouriteAgent.AddTicketsToFavouritesByProvider(String, ArchiveRestrictionInfo[], Int32, String)
+  fullName: SuperOffice.CRM.Services.IFavouriteAgent.AddTicketsToFavouritesByProvider(System.String, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[], System.Int32, System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Add a list of tickets as favourites that are given by the ticket provider.
-  example: []
+  summary: "\nAdd a list of tickets as favourites that are given by the ticket provider.\n"
   syntax:
     content: void AddTicketsToFavouritesByProvider(string providerName, ArchiveRestrictionInfo[] restrictions, int associateId, string extraInfo)
     parameters:
@@ -203,9 +199,9 @@ items:
       description: Any extra information
     content.vb: Sub AddTicketsToFavouritesByProvider(providerName As String, restrictions As ArchiveRestrictionInfo(), associateId As Integer, extraInfo As String)
   overload: SuperOffice.CRM.Services.IFavouriteAgent.AddTicketsToFavouritesByProvider*
-  nameWithType.vb: IFavouriteAgent.AddTicketsToFavouritesByProvider(String, ArchiveRestrictionInfo(), Integer, String)
-  fullName.vb: SuperOffice.CRM.Services.IFavouriteAgent.AddTicketsToFavouritesByProvider(String, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo(), Integer, String)
-  name.vb: AddTicketsToFavouritesByProvider(String, ArchiveRestrictionInfo(), Integer, String)
+  nameWithType.vb: IFavouriteAgent.AddTicketsToFavouritesByProvider(String, ArchiveRestrictionInfo(), Int32, String)
+  fullName.vb: SuperOffice.CRM.Services.IFavouriteAgent.AddTicketsToFavouritesByProvider(System.String, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo(), System.Int32, System.String)
+  name.vb: AddTicketsToFavouritesByProvider(String, ArchiveRestrictionInfo(), Int32, String)
 - uid: SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavourites(System.String,System.Int32[],System.Int32)
   commentId: M:SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavourites(System.String,System.Int32[],System.Int32)
   id: RemoveFavourites(System.String,System.Int32[],System.Int32)
@@ -213,15 +209,17 @@ items:
   langs:
   - csharp
   - vb
-  name: RemoveFavourites(string, int[], int)
-  nameWithType: IFavouriteAgent.RemoveFavourites(string, int[], int)
-  fullName: SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavourites(string, int[], int)
+  name: RemoveFavourites(String, Int32[], Int32)
+  nameWithType: IFavouriteAgent.RemoveFavourites(String, Int32[], Int32)
+  fullName: SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavourites(System.String, System.Int32[], System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Remove a list of record ids from favourites for an associate
-  example: []
+  summary: "\nRemove a list of record ids from favourites for an associate\n"
   syntax:
     content: void RemoveFavourites(string tableName, int[] recordIds, int associateId)
     parameters:
@@ -236,9 +234,9 @@ items:
       description: Id of a current user
     content.vb: Sub RemoveFavourites(tableName As String, recordIds As Integer(), associateId As Integer)
   overload: SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavourites*
-  nameWithType.vb: IFavouriteAgent.RemoveFavourites(String, Integer(), Integer)
-  fullName.vb: SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavourites(String, Integer(), Integer)
-  name.vb: RemoveFavourites(String, Integer(), Integer)
+  nameWithType.vb: IFavouriteAgent.RemoveFavourites(String, Int32(), Int32)
+  fullName.vb: SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavourites(System.String, System.Int32(), System.Int32)
+  name.vb: RemoveFavourites(String, Int32(), Int32)
 - uid: SuperOffice.CRM.Services.IFavouriteAgent.RemoveTicketsFromFavouritesByProvider(System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Int32)
   commentId: M:SuperOffice.CRM.Services.IFavouriteAgent.RemoveTicketsFromFavouritesByProvider(System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Int32)
   id: RemoveTicketsFromFavouritesByProvider(System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Int32)
@@ -246,15 +244,17 @@ items:
   langs:
   - csharp
   - vb
-  name: RemoveTicketsFromFavouritesByProvider(string, ArchiveRestrictionInfo[], int)
-  nameWithType: IFavouriteAgent.RemoveTicketsFromFavouritesByProvider(string, ArchiveRestrictionInfo[], int)
-  fullName: SuperOffice.CRM.Services.IFavouriteAgent.RemoveTicketsFromFavouritesByProvider(string, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[], int)
+  name: RemoveTicketsFromFavouritesByProvider(String, ArchiveRestrictionInfo[], Int32)
+  nameWithType: IFavouriteAgent.RemoveTicketsFromFavouritesByProvider(String, ArchiveRestrictionInfo[], Int32)
+  fullName: SuperOffice.CRM.Services.IFavouriteAgent.RemoveTicketsFromFavouritesByProvider(System.String, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[], System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Remove a list of tickets from favourites that are given by the ticket provider.
-  example: []
+  summary: "\nRemove a list of tickets from favourites that are given by the ticket provider.\n"
   syntax:
     content: void RemoveTicketsFromFavouritesByProvider(string providerName, ArchiveRestrictionInfo[] restrictions, int associateId)
     parameters:
@@ -269,9 +269,9 @@ items:
       description: Id of a current user
     content.vb: Sub RemoveTicketsFromFavouritesByProvider(providerName As String, restrictions As ArchiveRestrictionInfo(), associateId As Integer)
   overload: SuperOffice.CRM.Services.IFavouriteAgent.RemoveTicketsFromFavouritesByProvider*
-  nameWithType.vb: IFavouriteAgent.RemoveTicketsFromFavouritesByProvider(String, ArchiveRestrictionInfo(), Integer)
-  fullName.vb: SuperOffice.CRM.Services.IFavouriteAgent.RemoveTicketsFromFavouritesByProvider(String, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo(), Integer)
-  name.vb: RemoveTicketsFromFavouritesByProvider(String, ArchiveRestrictionInfo(), Integer)
+  nameWithType.vb: IFavouriteAgent.RemoveTicketsFromFavouritesByProvider(String, ArchiveRestrictionInfo(), Int32)
+  fullName.vb: SuperOffice.CRM.Services.IFavouriteAgent.RemoveTicketsFromFavouritesByProvider(System.String, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo(), System.Int32)
+  name.vb: RemoveTicketsFromFavouritesByProvider(String, ArchiveRestrictionInfo(), Int32)
 - uid: SuperOffice.CRM.Services.IFavouriteAgent.GetFavourites(System.String,System.Int32)
   commentId: M:SuperOffice.CRM.Services.IFavouriteAgent.GetFavourites(System.String,System.Int32)
   id: GetFavourites(System.String,System.Int32)
@@ -279,15 +279,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetFavourites(string, int)
-  nameWithType: IFavouriteAgent.GetFavourites(string, int)
-  fullName: SuperOffice.CRM.Services.IFavouriteAgent.GetFavourites(string, int)
+  name: GetFavourites(String, Int32)
+  nameWithType: IFavouriteAgent.GetFavourites(String, Int32)
+  fullName: SuperOffice.CRM.Services.IFavouriteAgent.GetFavourites(System.String, System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Get all favourites for a table and associate
-  example: []
+  summary: "\nGet all favourites for a table and associate\n"
   syntax:
     content: Favourite[] GetFavourites(string tableName, int associateId)
     parameters:
@@ -302,9 +304,6 @@ items:
       description: Requested favourites for a table and associate
     content.vb: Function GetFavourites(tableName As String, associateId As Integer) As Favourite()
   overload: SuperOffice.CRM.Services.IFavouriteAgent.GetFavourites*
-  nameWithType.vb: IFavouriteAgent.GetFavourites(String, Integer)
-  fullName.vb: SuperOffice.CRM.Services.IFavouriteAgent.GetFavourites(String, Integer)
-  name.vb: GetFavourites(String, Integer)
 - uid: SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavourite(System.String,System.Int32,System.Int32)
   commentId: M:SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavourite(System.String,System.Int32,System.Int32)
   id: RemoveFavourite(System.String,System.Int32,System.Int32)
@@ -312,15 +311,17 @@ items:
   langs:
   - csharp
   - vb
-  name: RemoveFavourite(string, int, int)
-  nameWithType: IFavouriteAgent.RemoveFavourite(string, int, int)
-  fullName: SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavourite(string, int, int)
+  name: RemoveFavourite(String, Int32, Int32)
+  nameWithType: IFavouriteAgent.RemoveFavourite(String, Int32, Int32)
+  fullName: SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavourite(System.String, System.Int32, System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Remove favourite for a table, record id and associate
-  example: []
+  summary: "\nRemove favourite for a table, record id and associate\n"
   syntax:
     content: void RemoveFavourite(string tableName, int recordId, int associateId)
     parameters:
@@ -335,9 +336,6 @@ items:
       description: Id of a current user
     content.vb: Sub RemoveFavourite(tableName As String, recordId As Integer, associateId As Integer)
   overload: SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavourite*
-  nameWithType.vb: IFavouriteAgent.RemoveFavourite(String, Integer, Integer)
-  fullName.vb: SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavourite(String, Integer, Integer)
-  name.vb: RemoveFavourite(String, Integer, Integer)
 - uid: SuperOffice.CRM.Services.IFavouriteAgent.RemoveAllFavourites(System.String,System.Int32)
   commentId: M:SuperOffice.CRM.Services.IFavouriteAgent.RemoveAllFavourites(System.String,System.Int32)
   id: RemoveAllFavourites(System.String,System.Int32)
@@ -345,15 +343,17 @@ items:
   langs:
   - csharp
   - vb
-  name: RemoveAllFavourites(string, int)
-  nameWithType: IFavouriteAgent.RemoveAllFavourites(string, int)
-  fullName: SuperOffice.CRM.Services.IFavouriteAgent.RemoveAllFavourites(string, int)
+  name: RemoveAllFavourites(String, Int32)
+  nameWithType: IFavouriteAgent.RemoveAllFavourites(String, Int32)
+  fullName: SuperOffice.CRM.Services.IFavouriteAgent.RemoveAllFavourites(System.String, System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Remove all favourites for a table and associate
-  example: []
+  summary: "\nRemove all favourites for a table and associate\n"
   syntax:
     content: void RemoveAllFavourites(string tableName, int associateId)
     parameters:
@@ -365,9 +365,6 @@ items:
       description: Id of a current user
     content.vb: Sub RemoveAllFavourites(tableName As String, associateId As Integer)
   overload: SuperOffice.CRM.Services.IFavouriteAgent.RemoveAllFavourites*
-  nameWithType.vb: IFavouriteAgent.RemoveAllFavourites(String, Integer)
-  fullName.vb: SuperOffice.CRM.Services.IFavouriteAgent.RemoveAllFavourites(String, Integer)
-  name.vb: RemoveAllFavourites(String, Integer)
 - uid: SuperOffice.CRM.Services.IFavouriteAgent.ToggleFavourite(System.String,System.Int32,System.Int32,System.String)
   commentId: M:SuperOffice.CRM.Services.IFavouriteAgent.ToggleFavourite(System.String,System.Int32,System.Int32,System.String)
   id: ToggleFavourite(System.String,System.Int32,System.Int32,System.String)
@@ -375,15 +372,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToggleFavourite(string, int, int, string)
-  nameWithType: IFavouriteAgent.ToggleFavourite(string, int, int, string)
-  fullName: SuperOffice.CRM.Services.IFavouriteAgent.ToggleFavourite(string, int, int, string)
+  name: ToggleFavourite(String, Int32, Int32, String)
+  nameWithType: IFavouriteAgent.ToggleFavourite(String, Int32, Int32, String)
+  fullName: SuperOffice.CRM.Services.IFavouriteAgent.ToggleFavourite(System.String, System.Int32, System.Int32, System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Toggle a record in a table as a favourite for an associate
-  example: []
+  summary: "\nToggle a record in a table as a favourite for an associate\n"
   syntax:
     content: bool ToggleFavourite(string tableName, int recordId, int associateId, string extraInfo)
     parameters:
@@ -404,9 +403,6 @@ items:
       description: Return the new value, true if added, false if removed
     content.vb: Function ToggleFavourite(tableName As String, recordId As Integer, associateId As Integer, extraInfo As String) As Boolean
   overload: SuperOffice.CRM.Services.IFavouriteAgent.ToggleFavourite*
-  nameWithType.vb: IFavouriteAgent.ToggleFavourite(String, Integer, Integer, String)
-  fullName.vb: SuperOffice.CRM.Services.IFavouriteAgent.ToggleFavourite(String, Integer, Integer, String)
-  name.vb: ToggleFavourite(String, Integer, Integer, String)
 - uid: SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavouritesById(System.Int32[])
   commentId: M:SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavouritesById(System.Int32[])
   id: RemoveFavouritesById(System.Int32[])
@@ -414,15 +410,17 @@ items:
   langs:
   - csharp
   - vb
-  name: RemoveFavouritesById(int[])
-  nameWithType: IFavouriteAgent.RemoveFavouritesById(int[])
-  fullName: SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavouritesById(int[])
+  name: RemoveFavouritesById(Int32[])
+  nameWithType: IFavouriteAgent.RemoveFavouritesById(Int32[])
+  fullName: SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavouritesById(System.Int32[])
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Remove favourite using favourite id
-  example: []
+  summary: "\nRemove favourite using favourite id \n"
   syntax:
     content: void RemoveFavouritesById(int[] favouriteIds)
     parameters:
@@ -431,51 +429,19 @@ items:
       description: Ids of favourite rows to delete
     content.vb: Sub RemoveFavouritesById(favouriteIds As Integer())
   overload: SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavouritesById*
-  nameWithType.vb: IFavouriteAgent.RemoveFavouritesById(Integer())
-  fullName.vb: SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavouritesById(Integer())
-  name.vb: RemoveFavouritesById(Integer())
+  nameWithType.vb: IFavouriteAgent.RemoveFavouritesById(Int32())
+  fullName.vb: SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavouritesById(System.Int32())
+  name.vb: RemoveFavouritesById(Int32())
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
 - uid: SuperOffice.CRM.Services.IFavouriteAgent.IsFavourite*
   commentId: Overload:SuperOffice.CRM.Services.IFavouriteAgent.IsFavourite
   isExternal: true
-  href: SuperOffice.CRM.Services.IFavouriteAgent.html#SuperOffice_CRM_Services_IFavouriteAgent_IsFavourite_System_String_System_Int32_System_Int32_
   name: IsFavourite
   nameWithType: IFavouriteAgent.IsFavourite
   fullName: SuperOffice.CRM.Services.IFavouriteAgent.IsFavourite
@@ -483,83 +449,70 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.CRM.Services.IFavouriteAgent.AddFavourite*
   commentId: Overload:SuperOffice.CRM.Services.IFavouriteAgent.AddFavourite
   isExternal: true
-  href: SuperOffice.CRM.Services.IFavouriteAgent.html#SuperOffice_CRM_Services_IFavouriteAgent_AddFavourite_System_String_System_Int32_System_Int32_System_String_
   name: AddFavourite
   nameWithType: IFavouriteAgent.AddFavourite
   fullName: SuperOffice.CRM.Services.IFavouriteAgent.AddFavourite
 - uid: SuperOffice.CRM.Services.IFavouriteAgent.AddFavourites*
   commentId: Overload:SuperOffice.CRM.Services.IFavouriteAgent.AddFavourites
   isExternal: true
-  href: SuperOffice.CRM.Services.IFavouriteAgent.html#SuperOffice_CRM_Services_IFavouriteAgent_AddFavourites_System_String_System_Int32___System_Int32_System_String_
   name: AddFavourites
   nameWithType: IFavouriteAgent.AddFavourites
   fullName: SuperOffice.CRM.Services.IFavouriteAgent.AddFavourites
 - uid: System.Int32[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int[]
-  nameWithType: int[]
-  fullName: int[]
-  nameWithType.vb: Integer()
-  fullName.vb: Integer()
-  name.vb: Integer()
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
   spec.csharp:
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.IFavouriteAgent.AddTicketsToFavouritesByProvider*
   commentId: Overload:SuperOffice.CRM.Services.IFavouriteAgent.AddTicketsToFavouritesByProvider
   isExternal: true
-  href: SuperOffice.CRM.Services.IFavouriteAgent.html#SuperOffice_CRM_Services_IFavouriteAgent_AddTicketsToFavouritesByProvider_System_String_SuperOffice_CRM_ArchiveLists_ArchiveRestrictionInfo___System_Int32_System_String_
   name: AddTicketsToFavouritesByProvider
   nameWithType: IFavouriteAgent.AddTicketsToFavouritesByProvider
   fullName: SuperOffice.CRM.Services.IFavouriteAgent.AddTicketsToFavouritesByProvider
@@ -574,39 +527,41 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
     name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
     isExternal: true
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
     name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
     isExternal: true
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavourites*
   commentId: Overload:SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavourites
   isExternal: true
-  href: SuperOffice.CRM.Services.IFavouriteAgent.html#SuperOffice_CRM_Services_IFavouriteAgent_RemoveFavourites_System_String_System_Int32___System_Int32_
   name: RemoveFavourites
   nameWithType: IFavouriteAgent.RemoveFavourites
   fullName: SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavourites
 - uid: SuperOffice.CRM.Services.IFavouriteAgent.RemoveTicketsFromFavouritesByProvider*
   commentId: Overload:SuperOffice.CRM.Services.IFavouriteAgent.RemoveTicketsFromFavouritesByProvider
   isExternal: true
-  href: SuperOffice.CRM.Services.IFavouriteAgent.html#SuperOffice_CRM_Services_IFavouriteAgent_RemoveTicketsFromFavouritesByProvider_System_String_SuperOffice_CRM_ArchiveLists_ArchiveRestrictionInfo___System_Int32_
   name: RemoveTicketsFromFavouritesByProvider
   nameWithType: IFavouriteAgent.RemoveTicketsFromFavouritesByProvider
   fullName: SuperOffice.CRM.Services.IFavouriteAgent.RemoveTicketsFromFavouritesByProvider
 - uid: SuperOffice.CRM.Services.IFavouriteAgent.GetFavourites*
   commentId: Overload:SuperOffice.CRM.Services.IFavouriteAgent.GetFavourites
   isExternal: true
-  href: SuperOffice.CRM.Services.IFavouriteAgent.html#SuperOffice_CRM_Services_IFavouriteAgent_GetFavourites_System_String_System_Int32_
   name: GetFavourites
   nameWithType: IFavouriteAgent.GetFavourites
   fullName: SuperOffice.CRM.Services.IFavouriteAgent.GetFavourites
 - uid: SuperOffice.CRM.Services.Favourite[]
   isExternal: true
-  href: SuperOffice.CRM.Services.Favourite.html
   name: Favourite[]
   nameWithType: Favourite[]
   fullName: SuperOffice.CRM.Services.Favourite[]
@@ -616,42 +571,42 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.Favourite
     name: Favourite
+    nameWithType: Favourite
+    fullName: SuperOffice.CRM.Services.Favourite
     isExternal: true
-    href: SuperOffice.CRM.Services.Favourite.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.Services.Favourite
     name: Favourite
+    nameWithType: Favourite
+    fullName: SuperOffice.CRM.Services.Favourite
     isExternal: true
-    href: SuperOffice.CRM.Services.Favourite.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavourite*
   commentId: Overload:SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavourite
   isExternal: true
-  href: SuperOffice.CRM.Services.IFavouriteAgent.html#SuperOffice_CRM_Services_IFavouriteAgent_RemoveFavourite_System_String_System_Int32_System_Int32_
   name: RemoveFavourite
   nameWithType: IFavouriteAgent.RemoveFavourite
   fullName: SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavourite
 - uid: SuperOffice.CRM.Services.IFavouriteAgent.RemoveAllFavourites*
   commentId: Overload:SuperOffice.CRM.Services.IFavouriteAgent.RemoveAllFavourites
   isExternal: true
-  href: SuperOffice.CRM.Services.IFavouriteAgent.html#SuperOffice_CRM_Services_IFavouriteAgent_RemoveAllFavourites_System_String_System_Int32_
   name: RemoveAllFavourites
   nameWithType: IFavouriteAgent.RemoveAllFavourites
   fullName: SuperOffice.CRM.Services.IFavouriteAgent.RemoveAllFavourites
 - uid: SuperOffice.CRM.Services.IFavouriteAgent.ToggleFavourite*
   commentId: Overload:SuperOffice.CRM.Services.IFavouriteAgent.ToggleFavourite
   isExternal: true
-  href: SuperOffice.CRM.Services.IFavouriteAgent.html#SuperOffice_CRM_Services_IFavouriteAgent_ToggleFavourite_System_String_System_Int32_System_Int32_System_String_
   name: ToggleFavourite
   nameWithType: IFavouriteAgent.ToggleFavourite
   fullName: SuperOffice.CRM.Services.IFavouriteAgent.ToggleFavourite
 - uid: SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavouritesById*
   commentId: Overload:SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavouritesById
   isExternal: true
-  href: SuperOffice.CRM.Services.IFavouriteAgent.html#SuperOffice_CRM_Services_IFavouriteAgent_RemoveFavouritesById_System_Int32___
   name: RemoveFavouritesById
   nameWithType: IFavouriteAgent.RemoveFavouritesById
   fullName: SuperOffice.CRM.Services.IFavouriteAgent.RemoveFavouritesById

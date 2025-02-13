@@ -21,24 +21,27 @@ items:
   nameWithType: DBC.ReplyTemplateBodyFields
   fullName: SuperOffice.CRM.Data.DBC.ReplyTemplateBodyFields
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Fields for ReplyTemplateBody, Contains the body of the reply templates in different languages
-  example: []
+  summary: "\nFields for ReplyTemplateBody, Contains the body of the reply templates in different languages\n"
   syntax:
-    content: public static class DBC.ReplyTemplateBodyFields
-    content.vb: Public Module DBC.ReplyTemplateBodyFields
+    content: 'public static class ReplyTemplateBodyFields : Object'
+    content.vb: >-
+      Public Module ReplyTemplateBodyFields
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
 - uid: SuperOffice.CRM.Data.DBC.ReplyTemplateBodyFields.ReplyTemplateBodyId
   commentId: F:SuperOffice.CRM.Data.DBC.ReplyTemplateBodyFields.ReplyTemplateBodyId
   id: ReplyTemplateBodyId
@@ -50,16 +53,24 @@ items:
   nameWithType: DBC.ReplyTemplateBodyFields.ReplyTemplateBodyId
   fullName: SuperOffice.CRM.Data.DBC.ReplyTemplateBodyFields.ReplyTemplateBodyId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ReplyTemplateBody.ReplyTemplateBodyId: The primary key (auto-incremented)'
-  example: []
+  summary: "\nReplyTemplateBody.ReplyTemplateBodyId: The primary key (auto-incremented)\n"
   syntax:
     content: public const string ReplyTemplateBodyId = "id"
     return:
       type: System.String
     content.vb: Public Const ReplyTemplateBodyId As String = "id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ReplyTemplateBodyFields.ReplyTemplateId
   commentId: F:SuperOffice.CRM.Data.DBC.ReplyTemplateBodyFields.ReplyTemplateId
   id: ReplyTemplateId
@@ -71,16 +82,24 @@ items:
   nameWithType: DBC.ReplyTemplateBodyFields.ReplyTemplateId
   fullName: SuperOffice.CRM.Data.DBC.ReplyTemplateBodyFields.ReplyTemplateId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ReplyTemplateBody.ReplyTemplateId: Links the body to a reply template'
-  example: []
+  summary: "\nReplyTemplateBody.ReplyTemplateId: Links the body to a reply template\n"
   syntax:
     content: public const string ReplyTemplateId = "reply_template_id"
     return:
       type: System.String
     content.vb: Public Const ReplyTemplateId As String = "reply_template_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ReplyTemplateBodyFields.LanguageId
   commentId: F:SuperOffice.CRM.Data.DBC.ReplyTemplateBodyFields.LanguageId
   id: LanguageId
@@ -92,16 +111,24 @@ items:
   nameWithType: DBC.ReplyTemplateBodyFields.LanguageId
   fullName: SuperOffice.CRM.Data.DBC.ReplyTemplateBodyFields.LanguageId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ReplyTemplateBody.LanguageId: Links the body to a reply template'
-  example: []
+  summary: "\nReplyTemplateBody.LanguageId: Links the body to a reply template\n"
   syntax:
     content: public const string LanguageId = "language_id"
     return:
       type: System.String
     content.vb: Public Const LanguageId As String = "language_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ReplyTemplateBodyFields.Flags
   commentId: F:SuperOffice.CRM.Data.DBC.ReplyTemplateBodyFields.Flags
   id: Flags
@@ -113,16 +140,24 @@ items:
   nameWithType: DBC.ReplyTemplateBodyFields.Flags
   fullName: SuperOffice.CRM.Data.DBC.ReplyTemplateBodyFields.Flags
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ReplyTemplateBody.Flags: Identifies the status of the template body. Default, not default etc.'
-  example: []
+  summary: "\nReplyTemplateBody.Flags: Identifies the status of the template body. Default, not default etc.\n"
   syntax:
     content: public const string Flags = "flags"
     return:
       type: System.String
     content.vb: Public Const Flags As String = "flags"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ReplyTemplateBodyFields.BodyPlain
   commentId: F:SuperOffice.CRM.Data.DBC.ReplyTemplateBodyFields.BodyPlain
   id: BodyPlain
@@ -134,16 +169,24 @@ items:
   nameWithType: DBC.ReplyTemplateBodyFields.BodyPlain
   fullName: SuperOffice.CRM.Data.DBC.ReplyTemplateBodyFields.BodyPlain
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ReplyTemplateBody.BodyPlain: The plain text version of the body.'
-  example: []
+  summary: "\nReplyTemplateBody.BodyPlain: The plain text version of the body.\n"
   syntax:
     content: public const string BodyPlain = "body_plain"
     return:
       type: System.String
     content.vb: Public Const BodyPlain As String = "body_plain"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ReplyTemplateBodyFields.BodyHtml
   commentId: F:SuperOffice.CRM.Data.DBC.ReplyTemplateBodyFields.BodyHtml
   id: BodyHtml
@@ -155,16 +198,24 @@ items:
   nameWithType: DBC.ReplyTemplateBodyFields.BodyHtml
   fullName: SuperOffice.CRM.Data.DBC.ReplyTemplateBodyFields.BodyHtml
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ReplyTemplateBody.BodyHtml: The html version of the body.'
-  example: []
+  summary: "\nReplyTemplateBody.BodyHtml: The html version of the body.\n"
   syntax:
     content: public const string BodyHtml = "body_html"
     return:
       type: System.String
     content.vb: Public Const BodyHtml As String = "body_html"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ReplyTemplateBodyFields.Subject
   commentId: F:SuperOffice.CRM.Data.DBC.ReplyTemplateBodyFields.Subject
   id: Subject
@@ -176,16 +227,24 @@ items:
   nameWithType: DBC.ReplyTemplateBodyFields.Subject
   fullName: SuperOffice.CRM.Data.DBC.ReplyTemplateBodyFields.Subject
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ReplyTemplateBody.Subject: Subject of the outgoing message. Ignored if not needed'
-  example: []
+  summary: "\nReplyTemplateBody.Subject: Subject of the outgoing message. Ignored if not needed\n"
   syntax:
     content: public const string Subject = "subject"
     return:
       type: System.String
     content.vb: Public Const Subject As String = "subject"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ReplyTemplateBodyFields.Headers
   commentId: F:SuperOffice.CRM.Data.DBC.ReplyTemplateBodyFields.Headers
   id: Headers
@@ -197,16 +256,24 @@ items:
   nameWithType: DBC.ReplyTemplateBodyFields.Headers
   fullName: SuperOffice.CRM.Data.DBC.ReplyTemplateBodyFields.Headers
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ReplyTemplateBody.Headers: Additional headers. Optional'
-  example: []
+  summary: "\nReplyTemplateBody.Headers: Additional headers. Optional\n"
   syntax:
     content: public const string Headers = "headers"
     return:
       type: System.String
     content.vb: Public Const Headers As String = "headers"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ReplyTemplateBodyFields.BodySms
   commentId: F:SuperOffice.CRM.Data.DBC.ReplyTemplateBodyFields.BodySms
   id: BodySms
@@ -218,288 +285,41 @@ items:
   nameWithType: DBC.ReplyTemplateBodyFields.BodySms
   fullName: SuperOffice.CRM.Data.DBC.ReplyTemplateBodyFields.BodySms
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ReplyTemplateBody.BodySms: The sms version of the body.'
-  example: []
+  summary: "\nReplyTemplateBody.BodySms: The sms version of the body.\n"
   syntax:
     content: public const string BodySms = "body_sms"
     return:
       type: System.String
     content.vb: Public Const BodySms As String = "body_sms"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Data
   nameWithType: SuperOffice.CRM.Data
   fullName: SuperOffice.CRM.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.CRM.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.CRM.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -507,10 +327,6 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String

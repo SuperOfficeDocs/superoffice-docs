@@ -24,30 +24,29 @@ items:
   nameWithType: ChatMessage
   fullName: SuperOffice.WebApi.Data.ChatMessage
   type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Carrier object for ChatMessage.
-
-    A message in a chat session
-  example: []
+  summary: "\nCarrier object for ChatMessage.\nA message in a chat session    \n"
   syntax:
-    content: public class ChatMessage
-    content.vb: Public Class ChatMessage
+    content: 'public class ChatMessage : Object'
+    content.vb: >-
+      Public Class ChatMessage
+          Inherits Object
   seealso:
   - linkId: SuperOffice.WebApi.Agents.ChatAgent
     commentId: T:SuperOffice.WebApi.Agents.ChatAgent
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.WebApi.Data.ChatMessage.#ctor
   commentId: M:SuperOffice.WebApi.Data.ChatMessage.#ctor
   id: '#ctor'
@@ -59,18 +58,21 @@ items:
   nameWithType: ChatMessage.ChatMessage()
   fullName: SuperOffice.WebApi.Data.ChatMessage.ChatMessage()
   type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Default constructor - defaults any enum props to 0.
-  example: []
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
   syntax:
     content: public ChatMessage()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.WebApi.Data.ChatMessage.#ctor*
-  nameWithType.vb: ChatMessage.New()
-  fullName.vb: SuperOffice.WebApi.Data.ChatMessage.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.ChatMessage.ChatMessageId
   commentId: P:SuperOffice.WebApi.Data.ChatMessage.ChatMessageId
   id: ChatMessageId
@@ -82,11 +84,13 @@ items:
   nameWithType: ChatMessage.ChatMessageId
   fullName: SuperOffice.WebApi.Data.ChatMessage.ChatMessageId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The primary key (auto-incremented)
-  example: []
+  summary: "\nThe primary key (auto-incremented)\n"
   syntax:
     content: public virtual int ChatMessageId { get; set; }
     parameters: []
@@ -94,6 +98,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property ChatMessageId As Integer
   overload: SuperOffice.WebApi.Data.ChatMessage.ChatMessageId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.ChatMessage.ChatSessionId
   commentId: P:SuperOffice.WebApi.Data.ChatMessage.ChatSessionId
   id: ChatSessionId
@@ -105,11 +117,13 @@ items:
   nameWithType: ChatMessage.ChatSessionId
   fullName: SuperOffice.WebApi.Data.ChatMessage.ChatSessionId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The reference to the associated chat session.
-  example: []
+  summary: "\nThe reference to the associated chat session.\n"
   syntax:
     content: public virtual int ChatSessionId { get; set; }
     parameters: []
@@ -117,6 +131,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property ChatSessionId As Integer
   overload: SuperOffice.WebApi.Data.ChatMessage.ChatSessionId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.ChatMessage.Type_String
   commentId: P:SuperOffice.WebApi.Data.ChatMessage.Type_String
   id: Type_String
@@ -128,36 +150,29 @@ items:
   nameWithType: ChatMessage.Type_String
   fullName: SuperOffice.WebApi.Data.ChatMessage.Type_String
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    The type of the message.
-
-    Raw string enum value.
-  example: []
+  summary: "\nThe type of the message.\nRaw string enum value.\n"
   syntax:
-    content: >-
-      [JsonProperty("Type")]
-
-      public string Type_String { get; set; }
+    content: public string Type_String { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <JsonProperty("Type")>
-
-      Public Property Type_String As String
+    content.vb: Public Property Type_String As String
   overload: SuperOffice.WebApi.Data.ChatMessage.Type_String*
   seealso:
   - linkId: SuperOffice.WebApi.Data.ChatMessage.Type
     commentId: P:SuperOffice.WebApi.Data.ChatMessage.Type
-  attributes:
-  - type: Newtonsoft.Json.JsonPropertyAttribute
-    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: Type
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.ChatMessage.Type
   commentId: P:SuperOffice.WebApi.Data.ChatMessage.Type
   id: Type
@@ -169,34 +184,29 @@ items:
   nameWithType: ChatMessage.Type
   fullName: SuperOffice.WebApi.Data.ChatMessage.Type
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    The type of the message.
-
-    NULL if unknown enum value.
-  example: []
+  summary: "\nThe type of the message.\nNULL if unknown enum value.\n"
   syntax:
-    content: >-
-      [JsonIgnore]
-
-      public ChatMessageType? Type { get; set; }
+    content: public Nullable<ChatMessageType> Type { get; set; }
     parameters: []
     return:
       type: System.Nullable{SuperOffice.WebApi.Data.ChatMessageType}
-    content.vb: >-
-      <JsonIgnore>
-
-      Public Property Type As ChatMessageType?
+    content.vb: Public Property Type As Nullable(Of ChatMessageType)
   overload: SuperOffice.WebApi.Data.ChatMessage.Type*
   seealso:
   - linkId: SuperOffice.WebApi.Data.ChatMessage.Type_String
     commentId: P:SuperOffice.WebApi.Data.ChatMessage.Type_String
-  attributes:
-  - type: Newtonsoft.Json.JsonIgnoreAttribute
-    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.ChatMessage.Message
   commentId: P:SuperOffice.WebApi.Data.ChatMessage.Message
   id: Message
@@ -208,11 +218,13 @@ items:
   nameWithType: ChatMessage.Message
   fullName: SuperOffice.WebApi.Data.ChatMessage.Message
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The message.
-  example: []
+  summary: "\nThe message.\n"
   syntax:
     content: public virtual string Message { get; set; }
     parameters: []
@@ -220,6 +232,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property Message As String
   overload: SuperOffice.WebApi.Data.ChatMessage.Message*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.ChatMessage.Author
   commentId: P:SuperOffice.WebApi.Data.ChatMessage.Author
   id: Author
@@ -231,11 +251,13 @@ items:
   nameWithType: ChatMessage.Author
   fullName: SuperOffice.WebApi.Data.ChatMessage.Author
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The author of the message.
-  example: []
+  summary: "\nThe author of the message.\n"
   syntax:
     content: public virtual string Author { get; set; }
     parameters: []
@@ -243,6 +265,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property Author As String
   overload: SuperOffice.WebApi.Data.ChatMessage.Author*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.ChatMessage.ReadByCustomer
   commentId: P:SuperOffice.WebApi.Data.ChatMessage.ReadByCustomer
   id: ReadByCustomer
@@ -254,11 +284,13 @@ items:
   nameWithType: ChatMessage.ReadByCustomer
   fullName: SuperOffice.WebApi.Data.ChatMessage.ReadByCustomer
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Whether the message has been read by the customer or not.
-  example: []
+  summary: "\nWhether the message has been read by the customer or not.\n"
   syntax:
     content: public virtual short ReadByCustomer { get; set; }
     parameters: []
@@ -266,6 +298,14 @@ items:
       type: System.Int16
     content.vb: Public Overridable Property ReadByCustomer As Short
   overload: SuperOffice.WebApi.Data.ChatMessage.ReadByCustomer*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.ChatMessage.SpecialType_String
   commentId: P:SuperOffice.WebApi.Data.ChatMessage.SpecialType_String
   id: SpecialType_String
@@ -277,36 +317,29 @@ items:
   nameWithType: ChatMessage.SpecialType_String
   fullName: SuperOffice.WebApi.Data.ChatMessage.SpecialType_String
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Enum indicating if it is a special message, such as an URL redirection, etc.
-
-    Raw string enum value.
-  example: []
+  summary: "\nEnum indicating if it is a special message, such as an URL redirection, etc.\nRaw string enum value.\n"
   syntax:
-    content: >-
-      [JsonProperty("SpecialType")]
-
-      public string SpecialType_String { get; set; }
+    content: public string SpecialType_String { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <JsonProperty("SpecialType")>
-
-      Public Property SpecialType_String As String
+    content.vb: Public Property SpecialType_String As String
   overload: SuperOffice.WebApi.Data.ChatMessage.SpecialType_String*
   seealso:
   - linkId: SuperOffice.WebApi.Data.ChatMessage.SpecialType
     commentId: P:SuperOffice.WebApi.Data.ChatMessage.SpecialType
-  attributes:
-  - type: Newtonsoft.Json.JsonPropertyAttribute
-    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: SpecialType
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.ChatMessage.SpecialType
   commentId: P:SuperOffice.WebApi.Data.ChatMessage.SpecialType
   id: SpecialType
@@ -318,34 +351,29 @@ items:
   nameWithType: ChatMessage.SpecialType
   fullName: SuperOffice.WebApi.Data.ChatMessage.SpecialType
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Enum indicating if it is a special message, such as an URL redirection, etc.
-
-    NULL if unknown enum value.
-  example: []
+  summary: "\nEnum indicating if it is a special message, such as an URL redirection, etc.\nNULL if unknown enum value.\n"
   syntax:
-    content: >-
-      [JsonIgnore]
-
-      public ChatMessageSpecialType? SpecialType { get; set; }
+    content: public Nullable<ChatMessageSpecialType> SpecialType { get; set; }
     parameters: []
     return:
       type: System.Nullable{SuperOffice.WebApi.Data.ChatMessageSpecialType}
-    content.vb: >-
-      <JsonIgnore>
-
-      Public Property SpecialType As ChatMessageSpecialType?
+    content.vb: Public Property SpecialType As Nullable(Of ChatMessageSpecialType)
   overload: SuperOffice.WebApi.Data.ChatMessage.SpecialType*
   seealso:
   - linkId: SuperOffice.WebApi.Data.ChatMessage.SpecialType_String
     commentId: P:SuperOffice.WebApi.Data.ChatMessage.SpecialType_String
-  attributes:
-  - type: Newtonsoft.Json.JsonIgnoreAttribute
-    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.ChatMessage.SpecialParam
   commentId: P:SuperOffice.WebApi.Data.ChatMessage.SpecialParam
   id: SpecialParam
@@ -357,11 +385,13 @@ items:
   nameWithType: ChatMessage.SpecialParam
   fullName: SuperOffice.WebApi.Data.ChatMessage.SpecialParam
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Special parameter for the special_type.
-  example: []
+  summary: "\nSpecial parameter for the special_type.\n"
   syntax:
     content: public virtual string SpecialParam { get; set; }
     parameters: []
@@ -369,6 +399,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property SpecialParam As String
   overload: SuperOffice.WebApi.Data.ChatMessage.SpecialParam*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.ChatMessage.WhenPosted
   commentId: P:SuperOffice.WebApi.Data.ChatMessage.WhenPosted
   id: WhenPosted
@@ -380,314 +418,63 @@ items:
   nameWithType: ChatMessage.WhenPosted
   fullName: SuperOffice.WebApi.Data.ChatMessage.WhenPosted
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: When the message was posted (UTC timestamp).
-  example: []
+  summary: "\nWhen the message was posted (UTC timestamp).\n"
   syntax:
     content: public virtual DateTime WhenPosted { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property WhenPosted As Date
+    content.vb: Public Overridable Property WhenPosted As DateTime
   overload: SuperOffice.WebApi.Data.ChatMessage.WhenPosted*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
-- uid: SuperOffice.WebApi.Agents.ChatAgent
-  commentId: T:SuperOffice.WebApi.Agents.ChatAgent
-  isExternal: true
-  href: SuperOffice.WebApi.Agents.ChatAgent.html
-  name: ChatAgent
-  nameWithType: ChatAgent
-  fullName: SuperOffice.WebApi.Agents.ChatAgent
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Agents.ChatAgent
+  commentId: T:SuperOffice.WebApi.Agents.ChatAgent
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: ChatAgent
+  nameWithType: ChatAgent
+  fullName: SuperOffice.WebApi.Agents.ChatAgent
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Data.ChatMessage.#ctor*
   commentId: Overload:SuperOffice.WebApi.Data.ChatMessage.#ctor
   isExternal: true
-  href: SuperOffice.WebApi.Data.ChatMessage.html#SuperOffice_WebApi_Data_ChatMessage__ctor
   name: ChatMessage
   nameWithType: ChatMessage.ChatMessage
   fullName: SuperOffice.WebApi.Data.ChatMessage.ChatMessage
-  nameWithType.vb: ChatMessage.New
-  fullName.vb: SuperOffice.WebApi.Data.ChatMessage.New
-  name.vb: New
 - uid: SuperOffice.WebApi.Data.ChatMessage.ChatMessageId*
   commentId: Overload:SuperOffice.WebApi.Data.ChatMessage.ChatMessageId
   isExternal: true
-  href: SuperOffice.WebApi.Data.ChatMessage.html#SuperOffice_WebApi_Data_ChatMessage_ChatMessageId
   name: ChatMessageId
   nameWithType: ChatMessage.ChatMessageId
   fullName: SuperOffice.WebApi.Data.ChatMessage.ChatMessageId
@@ -695,125 +482,136 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.WebApi.Data.ChatMessage.ChatSessionId*
   commentId: Overload:SuperOffice.WebApi.Data.ChatMessage.ChatSessionId
   isExternal: true
-  href: SuperOffice.WebApi.Data.ChatMessage.html#SuperOffice_WebApi_Data_ChatMessage_ChatSessionId
   name: ChatSessionId
   nameWithType: ChatMessage.ChatSessionId
   fullName: SuperOffice.WebApi.Data.ChatMessage.ChatSessionId
-- uid: SuperOffice.WebApi.Data.ChatMessage.Type
-  commentId: P:SuperOffice.WebApi.Data.ChatMessage.Type
-  isExternal: true
-  href: SuperOffice.WebApi.Data.ChatMessage.html#SuperOffice_WebApi_Data_ChatMessage_Type
-  name: Type
-  nameWithType: ChatMessage.Type
-  fullName: SuperOffice.WebApi.Data.ChatMessage.Type
 - uid: SuperOffice.WebApi.Data.ChatMessage.Type_String*
   commentId: Overload:SuperOffice.WebApi.Data.ChatMessage.Type_String
   isExternal: true
-  href: SuperOffice.WebApi.Data.ChatMessage.html#SuperOffice_WebApi_Data_ChatMessage_Type_String
   name: Type_String
   nameWithType: ChatMessage.Type_String
   fullName: SuperOffice.WebApi.Data.ChatMessage.Type_String
+- uid: SuperOffice.WebApi.Data.ChatMessage.Type
+  commentId: P:SuperOffice.WebApi.Data.ChatMessage.Type
+  isExternal: true
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
-- uid: SuperOffice.WebApi.Data.ChatMessage.Type_String
-  commentId: P:SuperOffice.WebApi.Data.ChatMessage.Type_String
-  isExternal: true
-  href: SuperOffice.WebApi.Data.ChatMessage.html#SuperOffice_WebApi_Data_ChatMessage_Type_String
-  name: Type_String
-  nameWithType: ChatMessage.Type_String
-  fullName: SuperOffice.WebApi.Data.ChatMessage.Type_String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.WebApi.Data.ChatMessage.Type*
   commentId: Overload:SuperOffice.WebApi.Data.ChatMessage.Type
   isExternal: true
-  href: SuperOffice.WebApi.Data.ChatMessage.html#SuperOffice_WebApi_Data_ChatMessage_Type
   name: Type
   nameWithType: ChatMessage.Type
   fullName: SuperOffice.WebApi.Data.ChatMessage.Type
-- uid: System.Nullable{SuperOffice.WebApi.Data.ChatMessageType}
-  commentId: T:System.Nullable{SuperOffice.WebApi.Data.ChatMessageType}
-  parent: System
-  definition: System.Nullable`1
-  href: SuperOffice.WebApi.Data.ChatMessageType.html
-  name: ChatMessageType?
-  nameWithType: ChatMessageType?
-  fullName: SuperOffice.WebApi.Data.ChatMessageType?
-  spec.csharp:
-  - uid: SuperOffice.WebApi.Data.ChatMessageType
-    name: ChatMessageType
-    isExternal: true
-    href: SuperOffice.WebApi.Data.ChatMessageType.html
-  - name: '?'
-  spec.vb:
-  - uid: SuperOffice.WebApi.Data.ChatMessageType
-    name: ChatMessageType
-    isExternal: true
-    href: SuperOffice.WebApi.Data.ChatMessageType.html
-  - name: '?'
-- uid: System.Nullable`1
-  commentId: T:System.Nullable`1
+- uid: SuperOffice.WebApi.Data.ChatMessage.Type_String
+  commentId: P:SuperOffice.WebApi.Data.ChatMessage.Type_String
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
-  name: Nullable<T>
-  nameWithType: Nullable<T>
-  fullName: System.Nullable<T>
-  nameWithType.vb: Nullable(Of T)
-  fullName.vb: System.Nullable(Of T)
-  name.vb: Nullable(Of T)
+- uid: System.Nullable{SuperOffice.WebApi.Data.ChatMessageType}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.ChatMessageType}'
+  definition: System.Nullable`1
+  name: Nullable<ChatMessageType>
+  nameWithType: Nullable<ChatMessageType>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.ChatMessageType>
+  nameWithType.vb: Nullable(Of ChatMessageType)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.ChatMessageType)
+  name.vb: Nullable(Of ChatMessageType)
   spec.csharp:
   - uid: System.Nullable`1
     name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
   - name: <
-  - name: T
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ChatMessageType
+    name: ChatMessageType
+    nameWithType: ChatMessageType
+    fullName: SuperOffice.WebApi.Data.ChatMessageType
+    isExternal: true
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Nullable`1
     name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ChatMessageType
+    name: ChatMessageType
+    nameWithType: ChatMessageType
+    fullName: SuperOffice.WebApi.Data.ChatMessageType
+    isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Data.ChatMessage.Message*
   commentId: Overload:SuperOffice.WebApi.Data.ChatMessage.Message
   isExternal: true
-  href: SuperOffice.WebApi.Data.ChatMessage.html#SuperOffice_WebApi_Data_ChatMessage_Message
   name: Message
   nameWithType: ChatMessage.Message
   fullName: SuperOffice.WebApi.Data.ChatMessage.Message
 - uid: SuperOffice.WebApi.Data.ChatMessage.Author*
   commentId: Overload:SuperOffice.WebApi.Data.ChatMessage.Author
   isExternal: true
-  href: SuperOffice.WebApi.Data.ChatMessage.html#SuperOffice_WebApi_Data_ChatMessage_Author
   name: Author
   nameWithType: ChatMessage.Author
   fullName: SuperOffice.WebApi.Data.ChatMessage.Author
 - uid: SuperOffice.WebApi.Data.ChatMessage.ReadByCustomer*
   commentId: Overload:SuperOffice.WebApi.Data.ChatMessage.ReadByCustomer
   isExternal: true
-  href: SuperOffice.WebApi.Data.ChatMessage.html#SuperOffice_WebApi_Data_ChatMessage_ReadByCustomer
   name: ReadByCustomer
   nameWithType: ChatMessage.ReadByCustomer
   fullName: SuperOffice.WebApi.Data.ChatMessage.ReadByCustomer
@@ -821,83 +619,84 @@ references:
   commentId: T:System.Int16
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int16
-  name: short
-  nameWithType: short
-  fullName: short
-  nameWithType.vb: Short
-  fullName.vb: Short
-  name.vb: Short
-- uid: SuperOffice.WebApi.Data.ChatMessage.SpecialType
-  commentId: P:SuperOffice.WebApi.Data.ChatMessage.SpecialType
-  isExternal: true
-  href: SuperOffice.WebApi.Data.ChatMessage.html#SuperOffice_WebApi_Data_ChatMessage_SpecialType
-  name: SpecialType
-  nameWithType: ChatMessage.SpecialType
-  fullName: SuperOffice.WebApi.Data.ChatMessage.SpecialType
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.WebApi.Data.ChatMessage.SpecialType_String*
   commentId: Overload:SuperOffice.WebApi.Data.ChatMessage.SpecialType_String
   isExternal: true
-  href: SuperOffice.WebApi.Data.ChatMessage.html#SuperOffice_WebApi_Data_ChatMessage_SpecialType_String
   name: SpecialType_String
   nameWithType: ChatMessage.SpecialType_String
   fullName: SuperOffice.WebApi.Data.ChatMessage.SpecialType_String
-- uid: SuperOffice.WebApi.Data.ChatMessage.SpecialType_String
-  commentId: P:SuperOffice.WebApi.Data.ChatMessage.SpecialType_String
+- uid: SuperOffice.WebApi.Data.ChatMessage.SpecialType
+  commentId: P:SuperOffice.WebApi.Data.ChatMessage.SpecialType
   isExternal: true
-  href: SuperOffice.WebApi.Data.ChatMessage.html#SuperOffice_WebApi_Data_ChatMessage_SpecialType_String
-  name: SpecialType_String
-  nameWithType: ChatMessage.SpecialType_String
-  fullName: SuperOffice.WebApi.Data.ChatMessage.SpecialType_String
 - uid: SuperOffice.WebApi.Data.ChatMessage.SpecialType*
   commentId: Overload:SuperOffice.WebApi.Data.ChatMessage.SpecialType
   isExternal: true
-  href: SuperOffice.WebApi.Data.ChatMessage.html#SuperOffice_WebApi_Data_ChatMessage_SpecialType
   name: SpecialType
   nameWithType: ChatMessage.SpecialType
   fullName: SuperOffice.WebApi.Data.ChatMessage.SpecialType
+- uid: SuperOffice.WebApi.Data.ChatMessage.SpecialType_String
+  commentId: P:SuperOffice.WebApi.Data.ChatMessage.SpecialType_String
+  isExternal: true
 - uid: System.Nullable{SuperOffice.WebApi.Data.ChatMessageSpecialType}
-  commentId: T:System.Nullable{SuperOffice.WebApi.Data.ChatMessageSpecialType}
-  parent: System
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.ChatMessageSpecialType}'
   definition: System.Nullable`1
-  href: SuperOffice.WebApi.Data.ChatMessageSpecialType.html
-  name: ChatMessageSpecialType?
-  nameWithType: ChatMessageSpecialType?
-  fullName: SuperOffice.WebApi.Data.ChatMessageSpecialType?
+  name: Nullable<ChatMessageSpecialType>
+  nameWithType: Nullable<ChatMessageSpecialType>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.ChatMessageSpecialType>
+  nameWithType.vb: Nullable(Of ChatMessageSpecialType)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.ChatMessageSpecialType)
+  name.vb: Nullable(Of ChatMessageSpecialType)
   spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.WebApi.Data.ChatMessageSpecialType
     name: ChatMessageSpecialType
+    nameWithType: ChatMessageSpecialType
+    fullName: SuperOffice.WebApi.Data.ChatMessageSpecialType
     isExternal: true
-    href: SuperOffice.WebApi.Data.ChatMessageSpecialType.html
-  - name: '?'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.WebApi.Data.ChatMessageSpecialType
     name: ChatMessageSpecialType
+    nameWithType: ChatMessageSpecialType
+    fullName: SuperOffice.WebApi.Data.ChatMessageSpecialType
     isExternal: true
-    href: SuperOffice.WebApi.Data.ChatMessageSpecialType.html
-  - name: '?'
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Data.ChatMessage.SpecialParam*
   commentId: Overload:SuperOffice.WebApi.Data.ChatMessage.SpecialParam
   isExternal: true
-  href: SuperOffice.WebApi.Data.ChatMessage.html#SuperOffice_WebApi_Data_ChatMessage_SpecialParam
   name: SpecialParam
   nameWithType: ChatMessage.SpecialParam
   fullName: SuperOffice.WebApi.Data.ChatMessage.SpecialParam
 - uid: SuperOffice.WebApi.Data.ChatMessage.WhenPosted*
   commentId: Overload:SuperOffice.WebApi.Data.ChatMessage.WhenPosted
   isExternal: true
-  href: SuperOffice.WebApi.Data.ChatMessage.html#SuperOffice_WebApi_Data_ChatMessage_WhenPosted
   name: WhenPosted
   nameWithType: ChatMessage.WhenPosted
   fullName: SuperOffice.WebApi.Data.ChatMessage.WhenPosted
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date

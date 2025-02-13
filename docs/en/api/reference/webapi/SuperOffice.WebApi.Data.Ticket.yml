@@ -80,25 +80,20 @@ items:
   nameWithType: Ticket
   fullName: SuperOffice.WebApi.Data.Ticket
   type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Carrier object for Ticket.
-
-    The ticket carrier is used for representing a service request.
+  summary: "\nCarrier object for Ticket.\nThe ticket carrier is used for representing a service request.    \n"
   example:
-  - >-
-    Get Ticket 123 using the WebApi client:
-
-    <pre><code class="lang-csharp">var configuration = new WebApiConfiguration(url);
-
-    var agent = new TicketAgent(configuration);
-
-    var ticket = agent.GetTicket( 123 );</code></pre>
+  - "\nGet Ticket 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new TicketAgent(configuration);\nvar ticket = agent.GetTicket( 123 );</code></pre>\n"
   syntax:
     content: 'public class Ticket : Carrier'
-    content.vb: Public Class Ticket Inherits Carrier
+    content.vb: >-
+      Public Class Ticket
+          Inherits Carrier
   seealso:
   - linkId: SuperOffice.WebApi.Agents.TicketAgent
     commentId: T:SuperOffice.WebApi.Agents.TicketAgent
@@ -108,13 +103,12 @@ items:
   inheritedMembers:
   - SuperOffice.WebApi.Data.Carrier.TableRight
   - SuperOffice.WebApi.Data.Carrier.FieldProperties
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.WebApi.Data.Ticket.#ctor
   commentId: M:SuperOffice.WebApi.Data.Ticket.#ctor
   id: '#ctor'
@@ -126,18 +120,21 @@ items:
   nameWithType: Ticket.Ticket()
   fullName: SuperOffice.WebApi.Data.Ticket.Ticket()
   type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Default constructor - defaults any enum props to 0.
-  example: []
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
   syntax:
     content: public Ticket()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.WebApi.Data.Ticket.#ctor*
-  nameWithType.vb: Ticket.New()
-  fullName.vb: SuperOffice.WebApi.Data.Ticket.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.Ticket.TicketId
   commentId: P:SuperOffice.WebApi.Data.Ticket.TicketId
   id: TicketId
@@ -149,11 +146,13 @@ items:
   nameWithType: Ticket.TicketId
   fullName: SuperOffice.WebApi.Data.Ticket.TicketId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The primary key (auto-incremented)
-  example: []
+  summary: "\nThe primary key (auto-incremented)\n"
   syntax:
     content: public virtual int TicketId { get; set; }
     parameters: []
@@ -161,6 +160,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property TicketId As Integer
   overload: SuperOffice.WebApi.Data.Ticket.TicketId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Ticket.Title
   commentId: P:SuperOffice.WebApi.Data.Ticket.Title
   id: Title
@@ -172,11 +179,13 @@ items:
   nameWithType: Ticket.Title
   fullName: SuperOffice.WebApi.Data.Ticket.Title
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The title of the ticket.
-  example: []
+  summary: "\nThe title of the ticket.\n"
   syntax:
     content: public virtual string Title { get; set; }
     parameters: []
@@ -184,6 +193,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property Title As String
   overload: SuperOffice.WebApi.Data.Ticket.Title*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Ticket.CreatedAt
   commentId: P:SuperOffice.WebApi.Data.Ticket.CreatedAt
   id: CreatedAt
@@ -195,18 +212,28 @@ items:
   nameWithType: Ticket.CreatedAt
   fullName: SuperOffice.WebApi.Data.Ticket.CreatedAt
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: When the ticket was created.
-  example: []
+  summary: "\nWhen the ticket was created.\n"
   syntax:
     content: public virtual DateTime CreatedAt { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property CreatedAt As Date
+    content.vb: Public Overridable Property CreatedAt As DateTime
   overload: SuperOffice.WebApi.Data.Ticket.CreatedAt*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Ticket.LastChanged
   commentId: P:SuperOffice.WebApi.Data.Ticket.LastChanged
   id: LastChanged
@@ -218,18 +245,28 @@ items:
   nameWithType: Ticket.LastChanged
   fullName: SuperOffice.WebApi.Data.Ticket.LastChanged
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The last time the ticket was modified.
-  example: []
+  summary: "\nThe last time the ticket was modified.\n"
   syntax:
     content: public virtual DateTime LastChanged { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property LastChanged As Date
+    content.vb: Public Overridable Property LastChanged As DateTime
   overload: SuperOffice.WebApi.Data.Ticket.LastChanged*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Ticket.ReadByOwner
   commentId: P:SuperOffice.WebApi.Data.Ticket.ReadByOwner
   id: ReadByOwner
@@ -241,18 +278,28 @@ items:
   nameWithType: Ticket.ReadByOwner
   fullName: SuperOffice.WebApi.Data.Ticket.ReadByOwner
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The datetime for when the ticket last was read by the owner.
-  example: []
+  summary: "\nThe datetime for when the ticket last was read by the owner.\n"
   syntax:
     content: public virtual DateTime ReadByOwner { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property ReadByOwner As Date
+    content.vb: Public Overridable Property ReadByOwner As DateTime
   overload: SuperOffice.WebApi.Data.Ticket.ReadByOwner*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Ticket.ReadByCustomer
   commentId: P:SuperOffice.WebApi.Data.Ticket.ReadByCustomer
   id: ReadByCustomer
@@ -264,18 +311,28 @@ items:
   nameWithType: Ticket.ReadByCustomer
   fullName: SuperOffice.WebApi.Data.Ticket.ReadByCustomer
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The datetime for when the ticket was read by the customer.
-  example: []
+  summary: "\nThe datetime for when the ticket was read by the customer.\n"
   syntax:
     content: public virtual DateTime ReadByCustomer { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property ReadByCustomer As Date
+    content.vb: Public Overridable Property ReadByCustomer As DateTime
   overload: SuperOffice.WebApi.Data.Ticket.ReadByCustomer*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Ticket.FirstReadByUser
   commentId: P:SuperOffice.WebApi.Data.Ticket.FirstReadByUser
   id: FirstReadByUser
@@ -287,18 +344,28 @@ items:
   nameWithType: Ticket.FirstReadByUser
   fullName: SuperOffice.WebApi.Data.Ticket.FirstReadByUser
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The datetime for when the ticket first was read by a user.
-  example: []
+  summary: "\nThe datetime for when the ticket first was read by a user.\n"
   syntax:
     content: public virtual DateTime FirstReadByUser { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property FirstReadByUser As Date
+    content.vb: Public Overridable Property FirstReadByUser As DateTime
   overload: SuperOffice.WebApi.Data.Ticket.FirstReadByUser*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Ticket.Activate
   commentId: P:SuperOffice.WebApi.Data.Ticket.Activate
   id: Activate
@@ -310,18 +377,28 @@ items:
   nameWithType: Ticket.Activate
   fullName: SuperOffice.WebApi.Data.Ticket.Activate
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: When the ticket should be activated, if it is postponed.
-  example: []
+  summary: "\nWhen the ticket should be activated, if it is postponed.\n"
   syntax:
     content: public virtual DateTime Activate { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property Activate As Date
+    content.vb: Public Overridable Property Activate As DateTime
   overload: SuperOffice.WebApi.Data.Ticket.Activate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Ticket.ClosedAt
   commentId: P:SuperOffice.WebApi.Data.Ticket.ClosedAt
   id: ClosedAt
@@ -333,18 +410,28 @@ items:
   nameWithType: Ticket.ClosedAt
   fullName: SuperOffice.WebApi.Data.Ticket.ClosedAt
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: When the ticket was closed.
-  example: []
+  summary: "\nWhen the ticket was closed.\n"
   syntax:
     content: public virtual DateTime ClosedAt { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property ClosedAt As Date
+    content.vb: Public Overridable Property ClosedAt As DateTime
   overload: SuperOffice.WebApi.Data.Ticket.ClosedAt*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Ticket.RepliedAt
   commentId: P:SuperOffice.WebApi.Data.Ticket.RepliedAt
   id: RepliedAt
@@ -356,18 +443,28 @@ items:
   nameWithType: Ticket.RepliedAt
   fullName: SuperOffice.WebApi.Data.Ticket.RepliedAt
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The datetime for when the ticket was replied to. I.e. the first external message added to the ticket.
-  example: []
+  summary: "\nThe datetime for when the ticket was replied to. I.e. the first external message added to the ticket.\n"
   syntax:
     content: public virtual DateTime RepliedAt { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property RepliedAt As Date
+    content.vb: Public Overridable Property RepliedAt As DateTime
   overload: SuperOffice.WebApi.Data.Ticket.RepliedAt*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Ticket.AlertTimeout
   commentId: P:SuperOffice.WebApi.Data.Ticket.AlertTimeout
   id: AlertTimeout
@@ -379,18 +476,28 @@ items:
   nameWithType: Ticket.AlertTimeout
   fullName: SuperOffice.WebApi.Data.Ticket.AlertTimeout
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The datetime for when the ticket should jump to the next alert_level.
-  example: []
+  summary: "\nThe datetime for when the ticket should jump to the next alert_level.\n"
   syntax:
     content: public virtual DateTime AlertTimeout { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property AlertTimeout As Date
+    content.vb: Public Overridable Property AlertTimeout As DateTime
   overload: SuperOffice.WebApi.Data.Ticket.AlertTimeout*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Ticket.Deadline
   commentId: P:SuperOffice.WebApi.Data.Ticket.Deadline
   id: Deadline
@@ -402,18 +509,28 @@ items:
   nameWithType: Ticket.Deadline
   fullName: SuperOffice.WebApi.Data.Ticket.Deadline
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Deadline for ticket.
-  example: []
+  summary: "\nDeadline for ticket.\n"
   syntax:
     content: public virtual DateTime Deadline { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property Deadline As Date
+    content.vb: Public Overridable Property Deadline As DateTime
   overload: SuperOffice.WebApi.Data.Ticket.Deadline*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Ticket.CreatedBy
   commentId: P:SuperOffice.WebApi.Data.Ticket.CreatedBy
   id: CreatedBy
@@ -425,11 +542,13 @@ items:
   nameWithType: Ticket.CreatedBy
   fullName: SuperOffice.WebApi.Data.Ticket.CreatedBy
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The id of the user who created the ticket. 1 (system user) if the ticket was created externally
-  example: []
+  summary: "\nThe id of the user who created the ticket. 1 (system user) if the ticket was created externally\n"
   syntax:
     content: public virtual int CreatedBy { get; set; }
     parameters: []
@@ -437,6 +556,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property CreatedBy As Integer
   overload: SuperOffice.WebApi.Data.Ticket.CreatedBy*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Ticket.CreatedByName
   commentId: P:SuperOffice.WebApi.Data.Ticket.CreatedByName
   id: CreatedByName
@@ -448,11 +575,13 @@ items:
   nameWithType: Ticket.CreatedByName
   fullName: SuperOffice.WebApi.Data.Ticket.CreatedByName
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Initials, also login name, possibly database user name
-  example: []
+  summary: "\nInitials, also login name, possibly database user name\n"
   syntax:
     content: public virtual string CreatedByName { get; set; }
     parameters: []
@@ -460,6 +589,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property CreatedByName As String
   overload: SuperOffice.WebApi.Data.Ticket.CreatedByName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Ticket.Author
   commentId: P:SuperOffice.WebApi.Data.Ticket.Author
   id: Author
@@ -471,11 +608,13 @@ items:
   nameWithType: Ticket.Author
   fullName: SuperOffice.WebApi.Data.Ticket.Author
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: A string representing the author of the ticket (same as author of first message).
-  example: []
+  summary: "\nA string representing the author of the ticket (same as author of first message).\n"
   syntax:
     content: public virtual string Author { get; set; }
     parameters: []
@@ -483,6 +622,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property Author As String
   overload: SuperOffice.WebApi.Data.Ticket.Author*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Ticket.OwnedBy
   commentId: P:SuperOffice.WebApi.Data.Ticket.OwnedBy
   id: OwnedBy
@@ -494,11 +641,13 @@ items:
   nameWithType: Ticket.OwnedBy
   fullName: SuperOffice.WebApi.Data.Ticket.OwnedBy
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The id of the user who owns the ticket. 1 (system user) if the ticket is unassigned.
-  example: []
+  summary: "\nThe id of the user who owns the ticket. 1 (system user) if the ticket is unassigned.\n"
   syntax:
     content: public virtual int OwnedBy { get; set; }
     parameters: []
@@ -506,6 +655,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property OwnedBy As Integer
   overload: SuperOffice.WebApi.Data.Ticket.OwnedBy*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Ticket.OwnedByName
   commentId: P:SuperOffice.WebApi.Data.Ticket.OwnedByName
   id: OwnedByName
@@ -517,11 +674,13 @@ items:
   nameWithType: Ticket.OwnedByName
   fullName: SuperOffice.WebApi.Data.Ticket.OwnedByName
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Initials, also login name, possibly database user name
-  example: []
+  summary: "\nInitials, also login name, possibly database user name\n"
   syntax:
     content: public virtual string OwnedByName { get; set; }
     parameters: []
@@ -529,6 +688,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property OwnedByName As String
   overload: SuperOffice.WebApi.Data.Ticket.OwnedByName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Ticket.Category
   commentId: P:SuperOffice.WebApi.Data.Ticket.Category
   id: Category
@@ -540,11 +707,13 @@ items:
   nameWithType: Ticket.Category
   fullName: SuperOffice.WebApi.Data.Ticket.Category
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The id of the category a ticket is in.
-  example: []
+  summary: "\nThe id of the category a ticket is in.\n"
   syntax:
     content: public virtual int Category { get; set; }
     parameters: []
@@ -552,6 +721,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property Category As Integer
   overload: SuperOffice.WebApi.Data.Ticket.Category*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Ticket.CategoryName
   commentId: P:SuperOffice.WebApi.Data.Ticket.CategoryName
   id: CategoryName
@@ -563,11 +740,13 @@ items:
   nameWithType: Ticket.CategoryName
   fullName: SuperOffice.WebApi.Data.Ticket.CategoryName
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The (short) name of this category. E.g. &amp;apos;support&amp;apos;.
-  example: []
+  summary: "\nThe (short) name of this category. E.g. &amp;apos;support&amp;apos;.\n"
   syntax:
     content: public virtual string CategoryName { get; set; }
     parameters: []
@@ -575,6 +754,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property CategoryName As String
   overload: SuperOffice.WebApi.Data.Ticket.CategoryName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Ticket.CategoryFullname
   commentId: P:SuperOffice.WebApi.Data.Ticket.CategoryFullname
   id: CategoryFullname
@@ -586,11 +773,13 @@ items:
   nameWithType: Ticket.CategoryFullname
   fullName: SuperOffice.WebApi.Data.Ticket.CategoryFullname
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The fullname (compiled from parents&amp;apos; names) for this category. E.g. &amp;apos;norway/product A/support&amp;apos;.
-  example: []
+  summary: "\nThe fullname (compiled from parents&amp;apos; names) for this category. E.g. &amp;apos;norway/product A/support&amp;apos;.\n"
   syntax:
     content: public virtual string CategoryFullname { get; set; }
     parameters: []
@@ -598,6 +787,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property CategoryFullname As String
   overload: SuperOffice.WebApi.Data.Ticket.CategoryFullname*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Ticket.Slevel_String
   commentId: P:SuperOffice.WebApi.Data.Ticket.Slevel_String
   id: Slevel_String
@@ -609,36 +806,29 @@ items:
   nameWithType: Ticket.Slevel_String
   fullName: SuperOffice.WebApi.Data.Ticket.Slevel_String
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    The securitylevel of the ticket.
-
-    Raw string enum value.
-  example: []
+  summary: "\nThe securitylevel of the ticket.\nRaw string enum value.\n"
   syntax:
-    content: >-
-      [JsonProperty("Slevel")]
-
-      public string Slevel_String { get; set; }
+    content: public string Slevel_String { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <JsonProperty("Slevel")>
-
-      Public Property Slevel_String As String
+    content.vb: Public Property Slevel_String As String
   overload: SuperOffice.WebApi.Data.Ticket.Slevel_String*
   seealso:
   - linkId: SuperOffice.WebApi.Data.Ticket.Slevel
     commentId: P:SuperOffice.WebApi.Data.Ticket.Slevel
-  attributes:
-  - type: Newtonsoft.Json.JsonPropertyAttribute
-    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: Slevel
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.Ticket.Slevel
   commentId: P:SuperOffice.WebApi.Data.Ticket.Slevel
   id: Slevel
@@ -650,34 +840,29 @@ items:
   nameWithType: Ticket.Slevel
   fullName: SuperOffice.WebApi.Data.Ticket.Slevel
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    The securitylevel of the ticket.
-
-    NULL if unknown enum value.
-  example: []
+  summary: "\nThe securitylevel of the ticket.\nNULL if unknown enum value.\n"
   syntax:
-    content: >-
-      [JsonIgnore]
-
-      public TicketSecurityLevel? Slevel { get; set; }
+    content: public Nullable<TicketSecurityLevel> Slevel { get; set; }
     parameters: []
     return:
       type: System.Nullable{SuperOffice.WebApi.Data.TicketSecurityLevel}
-    content.vb: >-
-      <JsonIgnore>
-
-      Public Property Slevel As TicketSecurityLevel?
+    content.vb: Public Property Slevel As Nullable(Of TicketSecurityLevel)
   overload: SuperOffice.WebApi.Data.Ticket.Slevel*
   seealso:
   - linkId: SuperOffice.WebApi.Data.Ticket.Slevel_String
     commentId: P:SuperOffice.WebApi.Data.Ticket.Slevel_String
-  attributes:
-  - type: Newtonsoft.Json.JsonIgnoreAttribute
-    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.Ticket.Priority
   commentId: P:SuperOffice.WebApi.Data.Ticket.Priority
   id: Priority
@@ -689,11 +874,13 @@ items:
   nameWithType: Ticket.Priority
   fullName: SuperOffice.WebApi.Data.Ticket.Priority
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The reference to the ticket_priority table.
-  example: []
+  summary: "\nThe reference to the ticket_priority table.\n"
   syntax:
     content: public virtual int Priority { get; set; }
     parameters: []
@@ -701,6 +888,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property Priority As Integer
   overload: SuperOffice.WebApi.Data.Ticket.Priority*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Ticket.PriorityName
   commentId: P:SuperOffice.WebApi.Data.Ticket.PriorityName
   id: PriorityName
@@ -712,11 +907,13 @@ items:
   nameWithType: Ticket.PriorityName
   fullName: SuperOffice.WebApi.Data.Ticket.PriorityName
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The name of the priority.
-  example: []
+  summary: "\nThe name of the priority.\n"
   syntax:
     content: public virtual string PriorityName { get; set; }
     parameters: []
@@ -724,6 +921,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property PriorityName As String
   overload: SuperOffice.WebApi.Data.Ticket.PriorityName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Ticket.BaseStatus_String
   commentId: P:SuperOffice.WebApi.Data.Ticket.BaseStatus_String
   id: BaseStatus_String
@@ -735,36 +940,29 @@ items:
   nameWithType: Ticket.BaseStatus_String
   fullName: SuperOffice.WebApi.Data.Ticket.BaseStatus_String
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    The status of the ticket. I.e. active/closed/postponed/deleted
-
-    Raw string enum value.
-  example: []
+  summary: "\nThe status of the ticket. I.e. active/closed/postponed/deleted\nRaw string enum value.\n"
   syntax:
-    content: >-
-      [JsonProperty("BaseStatus")]
-
-      public string BaseStatus_String { get; set; }
+    content: public string BaseStatus_String { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <JsonProperty("BaseStatus")>
-
-      Public Property BaseStatus_String As String
+    content.vb: Public Property BaseStatus_String As String
   overload: SuperOffice.WebApi.Data.Ticket.BaseStatus_String*
   seealso:
   - linkId: SuperOffice.WebApi.Data.Ticket.BaseStatus
     commentId: P:SuperOffice.WebApi.Data.Ticket.BaseStatus
-  attributes:
-  - type: Newtonsoft.Json.JsonPropertyAttribute
-    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: BaseStatus
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.Ticket.BaseStatus
   commentId: P:SuperOffice.WebApi.Data.Ticket.BaseStatus
   id: BaseStatus
@@ -776,34 +974,29 @@ items:
   nameWithType: Ticket.BaseStatus
   fullName: SuperOffice.WebApi.Data.Ticket.BaseStatus
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    The status of the ticket. I.e. active/closed/postponed/deleted
-
-    NULL if unknown enum value.
-  example: []
+  summary: "\nThe status of the ticket. I.e. active/closed/postponed/deleted\nNULL if unknown enum value.\n"
   syntax:
-    content: >-
-      [JsonIgnore]
-
-      public TicketBaseStatus? BaseStatus { get; set; }
+    content: public Nullable<TicketBaseStatus> BaseStatus { get; set; }
     parameters: []
     return:
       type: System.Nullable{SuperOffice.WebApi.Data.TicketBaseStatus}
-    content.vb: >-
-      <JsonIgnore>
-
-      Public Property BaseStatus As TicketBaseStatus?
+    content.vb: Public Property BaseStatus As Nullable(Of TicketBaseStatus)
   overload: SuperOffice.WebApi.Data.Ticket.BaseStatus*
   seealso:
   - linkId: SuperOffice.WebApi.Data.Ticket.BaseStatus_String
     commentId: P:SuperOffice.WebApi.Data.Ticket.BaseStatus_String
-  attributes:
-  - type: Newtonsoft.Json.JsonIgnoreAttribute
-    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.Ticket.TicketStatus
   commentId: P:SuperOffice.WebApi.Data.Ticket.TicketStatus
   id: TicketStatus
@@ -815,11 +1008,13 @@ items:
   nameWithType: Ticket.TicketStatus
   fullName: SuperOffice.WebApi.Data.Ticket.TicketStatus
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: User defined ticket status
-  example: []
+  summary: "\nUser defined ticket status\n"
   syntax:
     content: public virtual int TicketStatus { get; set; }
     parameters: []
@@ -827,6 +1022,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property TicketStatus As Integer
   overload: SuperOffice.WebApi.Data.Ticket.TicketStatus*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Ticket.TicketStatusDisplayValue
   commentId: P:SuperOffice.WebApi.Data.Ticket.TicketStatusDisplayValue
   id: TicketStatusDisplayValue
@@ -838,11 +1041,13 @@ items:
   nameWithType: Ticket.TicketStatusDisplayValue
   fullName: SuperOffice.WebApi.Data.Ticket.TicketStatusDisplayValue
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Get the display name of the ticket status.
-  example: []
+  summary: "\nGet the display name of the ticket status.\n"
   syntax:
     content: public virtual string TicketStatusDisplayValue { get; set; }
     parameters: []
@@ -850,6 +1055,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property TicketStatusDisplayValue As String
   overload: SuperOffice.WebApi.Data.Ticket.TicketStatusDisplayValue*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Ticket.Origin_String
   commentId: P:SuperOffice.WebApi.Data.Ticket.Origin_String
   id: Origin_String
@@ -861,36 +1074,29 @@ items:
   nameWithType: Ticket.Origin_String
   fullName: SuperOffice.WebApi.Data.Ticket.Origin_String
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    What is the origin of this ticket
-
-    Raw string enum value.
-  example: []
+  summary: "\nWhat is the origin of this ticket\nRaw string enum value.\n"
   syntax:
-    content: >-
-      [JsonProperty("Origin")]
-
-      public string Origin_String { get; set; }
+    content: public string Origin_String { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <JsonProperty("Origin")>
-
-      Public Property Origin_String As String
+    content.vb: Public Property Origin_String As String
   overload: SuperOffice.WebApi.Data.Ticket.Origin_String*
   seealso:
   - linkId: SuperOffice.WebApi.Data.Ticket.Origin
     commentId: P:SuperOffice.WebApi.Data.Ticket.Origin
-  attributes:
-  - type: Newtonsoft.Json.JsonPropertyAttribute
-    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: Origin
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.Ticket.Origin
   commentId: P:SuperOffice.WebApi.Data.Ticket.Origin
   id: Origin
@@ -902,34 +1108,29 @@ items:
   nameWithType: Ticket.Origin
   fullName: SuperOffice.WebApi.Data.Ticket.Origin
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    What is the origin of this ticket
-
-    NULL if unknown enum value.
-  example: []
+  summary: "\nWhat is the origin of this ticket\nNULL if unknown enum value.\n"
   syntax:
-    content: >-
-      [JsonIgnore]
-
-      public TicketOrigin? Origin { get; set; }
+    content: public Nullable<TicketOrigin> Origin { get; set; }
     parameters: []
     return:
       type: System.Nullable{SuperOffice.WebApi.Data.TicketOrigin}
-    content.vb: >-
-      <JsonIgnore>
-
-      Public Property Origin As TicketOrigin?
+    content.vb: Public Property Origin As Nullable(Of TicketOrigin)
   overload: SuperOffice.WebApi.Data.Ticket.Origin*
   seealso:
   - linkId: SuperOffice.WebApi.Data.Ticket.Origin_String
     commentId: P:SuperOffice.WebApi.Data.Ticket.Origin_String
-  attributes:
-  - type: Newtonsoft.Json.JsonIgnoreAttribute
-    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.Ticket.CustId
   commentId: P:SuperOffice.WebApi.Data.Ticket.CustId
   id: CustId
@@ -941,11 +1142,13 @@ items:
   nameWithType: Ticket.CustId
   fullName: SuperOffice.WebApi.Data.Ticket.CustId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The reference to the customer. NULL or -1 if ticket is not connected to customer.
-  example: []
+  summary: "\nThe reference to the customer. NULL or -1 if ticket is not connected to customer.\n"
   syntax:
     content: public virtual int CustId { get; set; }
     parameters: []
@@ -953,6 +1156,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property CustId As Integer
   overload: SuperOffice.WebApi.Data.Ticket.CustId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Ticket.PersonFirstname
   commentId: P:SuperOffice.WebApi.Data.Ticket.PersonFirstname
   id: PersonFirstname
@@ -964,11 +1175,13 @@ items:
   nameWithType: Ticket.PersonFirstname
   fullName: SuperOffice.WebApi.Data.Ticket.PersonFirstname
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: First name
-  example: []
+  summary: "\nFirst name\n"
   syntax:
     content: public virtual string PersonFirstname { get; set; }
     parameters: []
@@ -976,6 +1189,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property PersonFirstname As String
   overload: SuperOffice.WebApi.Data.Ticket.PersonFirstname*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Ticket.PersonMiddleName
   commentId: P:SuperOffice.WebApi.Data.Ticket.PersonMiddleName
   id: PersonMiddleName
@@ -987,11 +1208,13 @@ items:
   nameWithType: Ticket.PersonMiddleName
   fullName: SuperOffice.WebApi.Data.Ticket.PersonMiddleName
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Middle name or 'van' etc.
-  example: []
+  summary: "\nMiddle name or &apos;van&apos; etc.\n"
   syntax:
     content: public virtual string PersonMiddleName { get; set; }
     parameters: []
@@ -999,6 +1222,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property PersonMiddleName As String
   overload: SuperOffice.WebApi.Data.Ticket.PersonMiddleName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Ticket.PersonLastname
   commentId: P:SuperOffice.WebApi.Data.Ticket.PersonLastname
   id: PersonLastname
@@ -1010,11 +1241,13 @@ items:
   nameWithType: Ticket.PersonLastname
   fullName: SuperOffice.WebApi.Data.Ticket.PersonLastname
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Last name
-  example: []
+  summary: "\nLast name\n"
   syntax:
     content: public virtual string PersonLastname { get; set; }
     parameters: []
@@ -1022,6 +1255,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property PersonLastname As String
   overload: SuperOffice.WebApi.Data.Ticket.PersonLastname*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Ticket.PersonFullname
   commentId: P:SuperOffice.WebApi.Data.Ticket.PersonFullname
   id: PersonFullname
@@ -1033,11 +1274,13 @@ items:
   nameWithType: Ticket.PersonFullname
   fullName: SuperOffice.WebApi.Data.Ticket.PersonFullname
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Get the full name for the primary person (customer)
-  example: []
+  summary: "\nGet the full name for the primary person (customer)\n"
   syntax:
     content: public virtual string PersonFullname { get; set; }
     parameters: []
@@ -1045,6 +1288,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property PersonFullname As String
   overload: SuperOffice.WebApi.Data.Ticket.PersonFullname*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Ticket.AlertLevel
   commentId: P:SuperOffice.WebApi.Data.Ticket.AlertLevel
   id: AlertLevel
@@ -1056,11 +1307,13 @@ items:
   nameWithType: Ticket.AlertLevel
   fullName: SuperOffice.WebApi.Data.Ticket.AlertLevel
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The alert level for the ticket. Matches the level value of the ticket_alert table.
-  example: []
+  summary: "\nThe alert level for the ticket. Matches the level value of the ticket_alert table.\n"
   syntax:
     content: public virtual short AlertLevel { get; set; }
     parameters: []
@@ -1068,6 +1321,14 @@ items:
       type: System.Int16
     content.vb: Public Overridable Property AlertLevel As Short
   overload: SuperOffice.WebApi.Data.Ticket.AlertLevel*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Ticket.ConnectId
   commentId: P:SuperOffice.WebApi.Data.Ticket.ConnectId
   id: ConnectId
@@ -1079,11 +1340,13 @@ items:
   nameWithType: Ticket.ConnectId
   fullName: SuperOffice.WebApi.Data.Ticket.ConnectId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: If a ticket is connected to another ticket, this field is set to the id of the &amp;apos;master&amp;apos; ticket.
-  example: []
+  summary: "\nIf a ticket is connected to another ticket, this field is set to the id of the &amp;apos;master&amp;apos; ticket.\n"
   syntax:
     content: public virtual int ConnectId { get; set; }
     parameters: []
@@ -1091,6 +1354,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property ConnectId As Integer
   overload: SuperOffice.WebApi.Data.Ticket.ConnectId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Ticket.ReadStatus_String
   commentId: P:SuperOffice.WebApi.Data.Ticket.ReadStatus_String
   id: ReadStatus_String
@@ -1102,36 +1373,29 @@ items:
   nameWithType: Ticket.ReadStatus_String
   fullName: SuperOffice.WebApi.Data.Ticket.ReadStatus_String
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Whether the owner has read the ticket or not (red, yellow, green).
-
-    Raw string enum value.
-  example: []
+  summary: "\nWhether the owner has read the ticket or not (red, yellow, green).\nRaw string enum value.\n"
   syntax:
-    content: >-
-      [JsonProperty("ReadStatus")]
-
-      public string ReadStatus_String { get; set; }
+    content: public string ReadStatus_String { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <JsonProperty("ReadStatus")>
-
-      Public Property ReadStatus_String As String
+    content.vb: Public Property ReadStatus_String As String
   overload: SuperOffice.WebApi.Data.Ticket.ReadStatus_String*
   seealso:
   - linkId: SuperOffice.WebApi.Data.Ticket.ReadStatus
     commentId: P:SuperOffice.WebApi.Data.Ticket.ReadStatus
-  attributes:
-  - type: Newtonsoft.Json.JsonPropertyAttribute
-    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: ReadStatus
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.Ticket.ReadStatus
   commentId: P:SuperOffice.WebApi.Data.Ticket.ReadStatus
   id: ReadStatus
@@ -1143,34 +1407,29 @@ items:
   nameWithType: Ticket.ReadStatus
   fullName: SuperOffice.WebApi.Data.Ticket.ReadStatus
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Whether the owner has read the ticket or not (red, yellow, green).
-
-    NULL if unknown enum value.
-  example: []
+  summary: "\nWhether the owner has read the ticket or not (red, yellow, green).\nNULL if unknown enum value.\n"
   syntax:
-    content: >-
-      [JsonIgnore]
-
-      public TicketReadStatus? ReadStatus { get; set; }
+    content: public Nullable<TicketReadStatus> ReadStatus { get; set; }
     parameters: []
     return:
       type: System.Nullable{SuperOffice.WebApi.Data.TicketReadStatus}
-    content.vb: >-
-      <JsonIgnore>
-
-      Public Property ReadStatus As TicketReadStatus?
+    content.vb: Public Property ReadStatus As Nullable(Of TicketReadStatus)
   overload: SuperOffice.WebApi.Data.Ticket.ReadStatus*
   seealso:
   - linkId: SuperOffice.WebApi.Data.Ticket.ReadStatus_String
     commentId: P:SuperOffice.WebApi.Data.Ticket.ReadStatus_String
-  attributes:
-  - type: Newtonsoft.Json.JsonIgnoreAttribute
-    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.Ticket.TimeToReply
   commentId: P:SuperOffice.WebApi.Data.Ticket.TimeToReply
   id: TimeToReply
@@ -1182,11 +1441,13 @@ items:
   nameWithType: Ticket.TimeToReply
   fullName: SuperOffice.WebApi.Data.Ticket.TimeToReply
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The time (minutes) between when the ticket was created and when it was replied to. Calculated based on priority&amp;apos;s timeframe.
-  example: []
+  summary: "\nThe time (minutes) between when the ticket was created and when it was replied to. Calculated based on priority&amp;apos;s timeframe.\n"
   syntax:
     content: public virtual int TimeToReply { get; set; }
     parameters: []
@@ -1194,6 +1455,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property TimeToReply As Integer
   overload: SuperOffice.WebApi.Data.Ticket.TimeToReply*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Ticket.RealTimeToReply
   commentId: P:SuperOffice.WebApi.Data.Ticket.RealTimeToReply
   id: RealTimeToReply
@@ -1205,11 +1474,13 @@ items:
   nameWithType: Ticket.RealTimeToReply
   fullName: SuperOffice.WebApi.Data.Ticket.RealTimeToReply
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Same as time_to_reply, but not calculated based on priority.
-  example: []
+  summary: "\nSame as time_to_reply, but not calculated based on priority.\n"
   syntax:
     content: public virtual int RealTimeToReply { get; set; }
     parameters: []
@@ -1217,6 +1488,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property RealTimeToReply As Integer
   overload: SuperOffice.WebApi.Data.Ticket.RealTimeToReply*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Ticket.TimeToClose
   commentId: P:SuperOffice.WebApi.Data.Ticket.TimeToClose
   id: TimeToClose
@@ -1228,11 +1507,13 @@ items:
   nameWithType: Ticket.TimeToClose
   fullName: SuperOffice.WebApi.Data.Ticket.TimeToClose
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The time (minutes) between when the ticket was created and when it was closed. Calculated based on priority&amp;apos;s timeframe.
-  example: []
+  summary: "\nThe time (minutes) between when the ticket was created and when it was closed. Calculated based on priority&amp;apos;s timeframe.\n"
   syntax:
     content: public virtual int TimeToClose { get; set; }
     parameters: []
@@ -1240,6 +1521,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property TimeToClose As Integer
   overload: SuperOffice.WebApi.Data.Ticket.TimeToClose*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Ticket.RealTimeToClose
   commentId: P:SuperOffice.WebApi.Data.Ticket.RealTimeToClose
   id: RealTimeToClose
@@ -1251,11 +1540,13 @@ items:
   nameWithType: Ticket.RealTimeToClose
   fullName: SuperOffice.WebApi.Data.Ticket.RealTimeToClose
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Same as time_to_close, but not calculated based on priority.
-  example: []
+  summary: "\nSame as time_to_close, but not calculated based on priority.\n"
   syntax:
     content: public virtual int RealTimeToClose { get; set; }
     parameters: []
@@ -1263,6 +1554,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property RealTimeToClose As Integer
   overload: SuperOffice.WebApi.Data.Ticket.RealTimeToClose*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Ticket.TimeSpentInternally
   commentId: P:SuperOffice.WebApi.Data.Ticket.TimeSpentInternally
   id: TimeSpentInternally
@@ -1274,11 +1573,13 @@ items:
   nameWithType: Ticket.TimeSpentInternally
   fullName: SuperOffice.WebApi.Data.Ticket.TimeSpentInternally
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The total time (seconds) within the priority's office hours the ticket has been in an open status (configurable), not including current state
-  example: []
+  summary: "\nThe total time (seconds) within the priority&apos;s office hours the ticket has been in an open status (configurable), not including current state\n"
   syntax:
     content: public virtual int TimeSpentInternally { get; set; }
     parameters: []
@@ -1286,6 +1587,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property TimeSpentInternally As Integer
   overload: SuperOffice.WebApi.Data.Ticket.TimeSpentInternally*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Ticket.TimeSpentExternally
   commentId: P:SuperOffice.WebApi.Data.Ticket.TimeSpentExternally
   id: TimeSpentExternally
@@ -1297,11 +1606,13 @@ items:
   nameWithType: Ticket.TimeSpentExternally
   fullName: SuperOffice.WebApi.Data.Ticket.TimeSpentExternally
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The total time (seconds) within the priority's office hours the ticket has been in a external waiting status (configurable), not including current state
-  example: []
+  summary: "\nThe total time (seconds) within the priority&apos;s office hours the ticket has been in a external waiting status (configurable), not including current state\n"
   syntax:
     content: public virtual int TimeSpentExternally { get; set; }
     parameters: []
@@ -1309,6 +1620,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property TimeSpentExternally As Integer
   overload: SuperOffice.WebApi.Data.Ticket.TimeSpentExternally*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Ticket.TimeSpentQueue
   commentId: P:SuperOffice.WebApi.Data.Ticket.TimeSpentQueue
   id: TimeSpentQueue
@@ -1320,11 +1639,13 @@ items:
   nameWithType: Ticket.TimeSpentQueue
   fullName: SuperOffice.WebApi.Data.Ticket.TimeSpentQueue
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The total time (seconds) within the priority's office hours the ticket has been in a queue status, not including current state
-  example: []
+  summary: "\nThe total time (seconds) within the priority&apos;s office hours the ticket has been in a queue status, not including current state\n"
   syntax:
     content: public virtual int TimeSpentQueue { get; set; }
     parameters: []
@@ -1332,6 +1653,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property TimeSpentQueue As Integer
   overload: SuperOffice.WebApi.Data.Ticket.TimeSpentQueue*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Ticket.RealTimeSpentInternally
   commentId: P:SuperOffice.WebApi.Data.Ticket.RealTimeSpentInternally
   id: RealTimeSpentInternally
@@ -1343,11 +1672,13 @@ items:
   nameWithType: Ticket.RealTimeSpentInternally
   fullName: SuperOffice.WebApi.Data.Ticket.RealTimeSpentInternally
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The total time (seconds) within 24x7 the ticket has been in an open status (configurable), not including current state
-  example: []
+  summary: "\nThe total time (seconds) within 24x7 the ticket has been in an open status (configurable), not including current state\n"
   syntax:
     content: public virtual int RealTimeSpentInternally { get; set; }
     parameters: []
@@ -1355,6 +1686,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property RealTimeSpentInternally As Integer
   overload: SuperOffice.WebApi.Data.Ticket.RealTimeSpentInternally*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Ticket.RealTimeSpentExternally
   commentId: P:SuperOffice.WebApi.Data.Ticket.RealTimeSpentExternally
   id: RealTimeSpentExternally
@@ -1366,11 +1705,13 @@ items:
   nameWithType: Ticket.RealTimeSpentExternally
   fullName: SuperOffice.WebApi.Data.Ticket.RealTimeSpentExternally
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The total time (seconds) within 24x7 the ticket has been in a external waiting status (configurable), not including current state
-  example: []
+  summary: "\nThe total time (seconds) within 24x7 the ticket has been in a external waiting status (configurable), not including current state\n"
   syntax:
     content: public virtual int RealTimeSpentExternally { get; set; }
     parameters: []
@@ -1378,6 +1719,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property RealTimeSpentExternally As Integer
   overload: SuperOffice.WebApi.Data.Ticket.RealTimeSpentExternally*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Ticket.RealTimeSpentQueue
   commentId: P:SuperOffice.WebApi.Data.Ticket.RealTimeSpentQueue
   id: RealTimeSpentQueue
@@ -1389,11 +1738,13 @@ items:
   nameWithType: Ticket.RealTimeSpentQueue
   fullName: SuperOffice.WebApi.Data.Ticket.RealTimeSpentQueue
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The total time (seconds) within 24x7 hours the ticket has been in a queue status, not including current state
-  example: []
+  summary: "\nThe total time (seconds) within 24x7 hours the ticket has been in a queue status, not including current state\n"
   syntax:
     content: public virtual int RealTimeSpentQueue { get; set; }
     parameters: []
@@ -1401,6 +1752,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property RealTimeSpentQueue As Integer
   overload: SuperOffice.WebApi.Data.Ticket.RealTimeSpentQueue*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Ticket.TimeSpent
   commentId: P:SuperOffice.WebApi.Data.Ticket.TimeSpent
   id: TimeSpent
@@ -1412,11 +1771,13 @@ items:
   nameWithType: Ticket.TimeSpent
   fullName: SuperOffice.WebApi.Data.Ticket.TimeSpent
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The total time (minutes). Aggregated time spent from ticket&amp;apos;s messages. Read-only for external use.
-  example: []
+  summary: "\nThe total time (minutes). Aggregated time spent from ticket&amp;apos;s messages. Read-only for external use.\n"
   syntax:
     content: public virtual int TimeSpent { get; set; }
     parameters: []
@@ -1424,6 +1785,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property TimeSpent As Integer
   overload: SuperOffice.WebApi.Data.Ticket.TimeSpent*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Ticket.HasAttachment
   commentId: P:SuperOffice.WebApi.Data.Ticket.HasAttachment
   id: HasAttachment
@@ -1435,11 +1804,13 @@ items:
   nameWithType: Ticket.HasAttachment
   fullName: SuperOffice.WebApi.Data.Ticket.HasAttachment
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Boolean indicating if this ticket has one or more attachments.
-  example: []
+  summary: "\nBoolean indicating if this ticket has one or more attachments.\n"
   syntax:
     content: public virtual bool HasAttachment { get; set; }
     parameters: []
@@ -1447,6 +1818,14 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property HasAttachment As Boolean
   overload: SuperOffice.WebApi.Data.Ticket.HasAttachment*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Ticket.NumReplies
   commentId: P:SuperOffice.WebApi.Data.Ticket.NumReplies
   id: NumReplies
@@ -1458,11 +1837,13 @@ items:
   nameWithType: Ticket.NumReplies
   fullName: SuperOffice.WebApi.Data.Ticket.NumReplies
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The number of replies (messages) to the customer for this request.
-  example: []
+  summary: "\nThe number of replies (messages) to the customer for this request.\n"
   syntax:
     content: public virtual int NumReplies { get; set; }
     parameters: []
@@ -1470,6 +1851,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property NumReplies As Integer
   overload: SuperOffice.WebApi.Data.Ticket.NumReplies*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Ticket.NumMessages
   commentId: P:SuperOffice.WebApi.Data.Ticket.NumMessages
   id: NumMessages
@@ -1481,11 +1870,13 @@ items:
   nameWithType: Ticket.NumMessages
   fullName: SuperOffice.WebApi.Data.Ticket.NumMessages
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The total number of messages for this request.
-  example: []
+  summary: "\nThe total number of messages for this request.\n"
   syntax:
     content: public virtual int NumMessages { get; set; }
     parameters: []
@@ -1493,6 +1884,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property NumMessages As Integer
   overload: SuperOffice.WebApi.Data.Ticket.NumMessages*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Ticket.FromAddress
   commentId: P:SuperOffice.WebApi.Data.Ticket.FromAddress
   id: FromAddress
@@ -1504,11 +1903,13 @@ items:
   nameWithType: Ticket.FromAddress
   fullName: SuperOffice.WebApi.Data.Ticket.FromAddress
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The from-address used when this ticket got created, e.g. by email
-  example: []
+  summary: "\nThe from-address used when this ticket got created, e.g. by email\n"
   syntax:
     content: public virtual string FromAddress { get; set; }
     parameters: []
@@ -1516,6 +1917,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property FromAddress As String
   overload: SuperOffice.WebApi.Data.Ticket.FromAddress*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Ticket.ContactId
   commentId: P:SuperOffice.WebApi.Data.Ticket.ContactId
   id: ContactId
@@ -1527,11 +1936,13 @@ items:
   nameWithType: Ticket.ContactId
   fullName: SuperOffice.WebApi.Data.Ticket.ContactId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The company of the person in the cust_id field, if that person belongs to a company
-  example: []
+  summary: "\nThe company of the person in the cust_id field, if that person belongs to a company\n"
   syntax:
     content: public virtual int ContactId { get; set; }
     parameters: []
@@ -1539,6 +1950,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property ContactId As Integer
   overload: SuperOffice.WebApi.Data.Ticket.ContactId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Ticket.ContactName
   commentId: P:SuperOffice.WebApi.Data.Ticket.ContactName
   id: ContactName
@@ -1550,11 +1969,13 @@ items:
   nameWithType: Ticket.ContactName
   fullName: SuperOffice.WebApi.Data.Ticket.ContactName
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The name of the connected contact
-  example: []
+  summary: "\nThe name of the connected contact\n"
   syntax:
     content: public virtual string ContactName { get; set; }
     parameters: []
@@ -1562,6 +1983,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property ContactName As String
   overload: SuperOffice.WebApi.Data.Ticket.ContactName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Ticket.OwnedByAssociateId
   commentId: P:SuperOffice.WebApi.Data.Ticket.OwnedByAssociateId
   id: OwnedByAssociateId
@@ -1573,11 +2002,13 @@ items:
   nameWithType: Ticket.OwnedByAssociateId
   fullName: SuperOffice.WebApi.Data.Ticket.OwnedByAssociateId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The associate id of the owner of the ticket.
-  example: []
+  summary: "\nThe associate id of the owner of the ticket.\n"
   syntax:
     content: public virtual int OwnedByAssociateId { get; set; }
     parameters: []
@@ -1585,6 +2016,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property OwnedByAssociateId As Integer
   overload: SuperOffice.WebApi.Data.Ticket.OwnedByAssociateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Ticket.Language
   commentId: P:SuperOffice.WebApi.Data.Ticket.Language
   id: Language
@@ -1596,11 +2035,13 @@ items:
   nameWithType: Ticket.Language
   fullName: SuperOffice.WebApi.Data.Ticket.Language
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The language of the first external message
-  example: []
+  summary: "\nThe language of the first external message\n"
   syntax:
     content: public virtual string Language { get; set; }
     parameters: []
@@ -1608,6 +2049,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property Language As String
   overload: SuperOffice.WebApi.Data.Ticket.Language*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Ticket.Sentiment
   commentId: P:SuperOffice.WebApi.Data.Ticket.Sentiment
   id: Sentiment
@@ -1619,11 +2068,13 @@ items:
   nameWithType: Ticket.Sentiment
   fullName: SuperOffice.WebApi.Data.Ticket.Sentiment
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The sentiment index of the last external message
-  example: []
+  summary: "\nThe sentiment index of the last external message\n"
   syntax:
     content: public virtual int Sentiment { get; set; }
     parameters: []
@@ -1631,6 +2082,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property Sentiment As Integer
   overload: SuperOffice.WebApi.Data.Ticket.Sentiment*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Ticket.SentimentConfidence
   commentId: P:SuperOffice.WebApi.Data.Ticket.SentimentConfidence
   id: SentimentConfidence
@@ -1642,11 +2101,13 @@ items:
   nameWithType: Ticket.SentimentConfidence
   fullName: SuperOffice.WebApi.Data.Ticket.SentimentConfidence
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The sentiment confidence of the last external message
-  example: []
+  summary: "\nThe sentiment confidence of the last external message\n"
   syntax:
     content: public virtual int SentimentConfidence { get; set; }
     parameters: []
@@ -1654,6 +2115,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property SentimentConfidence As Integer
   overload: SuperOffice.WebApi.Data.Ticket.SentimentConfidence*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Ticket.SaleId
   commentId: P:SuperOffice.WebApi.Data.Ticket.SaleId
   id: SaleId
@@ -1665,11 +2134,13 @@ items:
   nameWithType: Ticket.SaleId
   fullName: SuperOffice.WebApi.Data.Ticket.SaleId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Reference to sale table
-  example: []
+  summary: "\nReference to sale table\n"
   syntax:
     content: public virtual int SaleId { get; set; }
     parameters: []
@@ -1677,6 +2148,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property SaleId As Integer
   overload: SuperOffice.WebApi.Data.Ticket.SaleId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Ticket.ProjectId
   commentId: P:SuperOffice.WebApi.Data.Ticket.ProjectId
   id: ProjectId
@@ -1688,11 +2167,13 @@ items:
   nameWithType: Ticket.ProjectId
   fullName: SuperOffice.WebApi.Data.Ticket.ProjectId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Reference to project table
-  example: []
+  summary: "\nReference to project table\n"
   syntax:
     content: public virtual int ProjectId { get; set; }
     parameters: []
@@ -1700,6 +2181,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property ProjectId As Integer
   overload: SuperOffice.WebApi.Data.Ticket.ProjectId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Ticket.SaleHeading
   commentId: P:SuperOffice.WebApi.Data.Ticket.SaleHeading
   id: SaleHeading
@@ -1711,11 +2200,13 @@ items:
   nameWithType: Ticket.SaleHeading
   fullName: SuperOffice.WebApi.Data.Ticket.SaleHeading
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The heading of the connected sale
-  example: []
+  summary: "\nThe heading of the connected sale\n"
   syntax:
     content: public virtual string SaleHeading { get; set; }
     parameters: []
@@ -1723,6 +2214,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property SaleHeading As String
   overload: SuperOffice.WebApi.Data.Ticket.SaleHeading*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Ticket.ProjectName
   commentId: P:SuperOffice.WebApi.Data.Ticket.ProjectName
   id: ProjectName
@@ -1734,11 +2233,13 @@ items:
   nameWithType: Ticket.ProjectName
   fullName: SuperOffice.WebApi.Data.Ticket.ProjectName
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The name of the connected project
-  example: []
+  summary: "\nThe name of the connected project\n"
   syntax:
     content: public virtual string ProjectName { get; set; }
     parameters: []
@@ -1746,6 +2247,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property ProjectName As String
   overload: SuperOffice.WebApi.Data.Ticket.ProjectName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Ticket.FormSubmissionId
   commentId: P:SuperOffice.WebApi.Data.Ticket.FormSubmissionId
   id: FormSubmissionId
@@ -1757,11 +2266,13 @@ items:
   nameWithType: Ticket.FormSubmissionId
   fullName: SuperOffice.WebApi.Data.Ticket.FormSubmissionId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: If this ticket was created from a form submission, this field will point to that record
-  example: []
+  summary: "\nIf this ticket was created from a form submission, this field will point to that record\n"
   syntax:
     content: public virtual int FormSubmissionId { get; set; }
     parameters: []
@@ -1769,6 +2280,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property FormSubmissionId As Integer
   overload: SuperOffice.WebApi.Data.Ticket.FormSubmissionId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Ticket.TicketTypeId
   commentId: P:SuperOffice.WebApi.Data.Ticket.TicketTypeId
   id: TicketTypeId
@@ -1780,11 +2299,13 @@ items:
   nameWithType: Ticket.TicketTypeId
   fullName: SuperOffice.WebApi.Data.Ticket.TicketTypeId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The id of the Request Type
-  example: []
+  summary: "\nThe id of the Request Type\n"
   syntax:
     content: public virtual int TicketTypeId { get; set; }
     parameters: []
@@ -1792,6 +2313,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property TicketTypeId As Integer
   overload: SuperOffice.WebApi.Data.Ticket.TicketTypeId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Ticket.TicketTypeName
   commentId: P:SuperOffice.WebApi.Data.Ticket.TicketTypeName
   id: TicketTypeName
@@ -1803,11 +2332,13 @@ items:
   nameWithType: Ticket.TicketTypeName
   fullName: SuperOffice.WebApi.Data.Ticket.TicketTypeName
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The name of the Request Type
-  example: []
+  summary: "\nThe name of the Request Type\n"
   syntax:
     content: public virtual string TicketTypeName { get; set; }
     parameters: []
@@ -1815,67 +2346,32 @@ items:
       type: System.String
     content.vb: Public Overridable Property TicketTypeName As String
   overload: SuperOffice.WebApi.Data.Ticket.TicketTypeName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
-- uid: SuperOffice.WebApi.Agents.TicketAgent
-  commentId: T:SuperOffice.WebApi.Agents.TicketAgent
-  isExternal: true
-  href: SuperOffice.WebApi.Agents.TicketAgent.html
-  name: TicketAgent
-  nameWithType: TicketAgent
-  fullName: SuperOffice.WebApi.Agents.TicketAgent
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.WebApi.Data.Carrier
   commentId: T:SuperOffice.WebApi.Data.Carrier
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html
   name: Carrier
   nameWithType: Carrier
   fullName: SuperOffice.WebApi.Data.Carrier
@@ -1883,7 +2379,6 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_TableRight
   name: TableRight
   nameWithType: Carrier.TableRight
   fullName: SuperOffice.WebApi.Data.Carrier.TableRight
@@ -1891,250 +2386,30 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_FieldProperties
   name: FieldProperties
   nameWithType: Carrier.FieldProperties
   fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
+- uid: SuperOffice.WebApi.Agents.TicketAgent
+  commentId: T:SuperOffice.WebApi.Agents.TicketAgent
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: TicketAgent
+  nameWithType: TicketAgent
+  fullName: SuperOffice.WebApi.Agents.TicketAgent
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Data.Ticket.#ctor*
   commentId: Overload:SuperOffice.WebApi.Data.Ticket.#ctor
   isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket__ctor
   name: Ticket
   nameWithType: Ticket.Ticket
   fullName: SuperOffice.WebApi.Data.Ticket.Ticket
-  nameWithType.vb: Ticket.New
-  fullName.vb: SuperOffice.WebApi.Data.Ticket.New
-  name.vb: New
 - uid: SuperOffice.WebApi.Data.Ticket.TicketId*
   commentId: Overload:SuperOffice.WebApi.Data.Ticket.TicketId
   isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_TicketId
   name: TicketId
   nameWithType: Ticket.TicketId
   fullName: SuperOffice.WebApi.Data.Ticket.TicketId
@@ -2142,17 +2417,12 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.WebApi.Data.Ticket.Title*
   commentId: Overload:SuperOffice.WebApi.Data.Ticket.Title
   isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_Title
   name: Title
   nameWithType: Ticket.Title
   fullName: SuperOffice.WebApi.Data.Ticket.Title
@@ -2160,389 +2430,400 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.WebApi.Data.Ticket.CreatedAt*
   commentId: Overload:SuperOffice.WebApi.Data.Ticket.CreatedAt
   isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_CreatedAt
   name: CreatedAt
   nameWithType: Ticket.CreatedAt
   fullName: SuperOffice.WebApi.Data.Ticket.CreatedAt
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
 - uid: SuperOffice.WebApi.Data.Ticket.LastChanged*
   commentId: Overload:SuperOffice.WebApi.Data.Ticket.LastChanged
   isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_LastChanged
   name: LastChanged
   nameWithType: Ticket.LastChanged
   fullName: SuperOffice.WebApi.Data.Ticket.LastChanged
 - uid: SuperOffice.WebApi.Data.Ticket.ReadByOwner*
   commentId: Overload:SuperOffice.WebApi.Data.Ticket.ReadByOwner
   isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_ReadByOwner
   name: ReadByOwner
   nameWithType: Ticket.ReadByOwner
   fullName: SuperOffice.WebApi.Data.Ticket.ReadByOwner
 - uid: SuperOffice.WebApi.Data.Ticket.ReadByCustomer*
   commentId: Overload:SuperOffice.WebApi.Data.Ticket.ReadByCustomer
   isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_ReadByCustomer
   name: ReadByCustomer
   nameWithType: Ticket.ReadByCustomer
   fullName: SuperOffice.WebApi.Data.Ticket.ReadByCustomer
 - uid: SuperOffice.WebApi.Data.Ticket.FirstReadByUser*
   commentId: Overload:SuperOffice.WebApi.Data.Ticket.FirstReadByUser
   isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_FirstReadByUser
   name: FirstReadByUser
   nameWithType: Ticket.FirstReadByUser
   fullName: SuperOffice.WebApi.Data.Ticket.FirstReadByUser
 - uid: SuperOffice.WebApi.Data.Ticket.Activate*
   commentId: Overload:SuperOffice.WebApi.Data.Ticket.Activate
   isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_Activate
   name: Activate
   nameWithType: Ticket.Activate
   fullName: SuperOffice.WebApi.Data.Ticket.Activate
 - uid: SuperOffice.WebApi.Data.Ticket.ClosedAt*
   commentId: Overload:SuperOffice.WebApi.Data.Ticket.ClosedAt
   isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_ClosedAt
   name: ClosedAt
   nameWithType: Ticket.ClosedAt
   fullName: SuperOffice.WebApi.Data.Ticket.ClosedAt
 - uid: SuperOffice.WebApi.Data.Ticket.RepliedAt*
   commentId: Overload:SuperOffice.WebApi.Data.Ticket.RepliedAt
   isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_RepliedAt
   name: RepliedAt
   nameWithType: Ticket.RepliedAt
   fullName: SuperOffice.WebApi.Data.Ticket.RepliedAt
 - uid: SuperOffice.WebApi.Data.Ticket.AlertTimeout*
   commentId: Overload:SuperOffice.WebApi.Data.Ticket.AlertTimeout
   isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_AlertTimeout
   name: AlertTimeout
   nameWithType: Ticket.AlertTimeout
   fullName: SuperOffice.WebApi.Data.Ticket.AlertTimeout
 - uid: SuperOffice.WebApi.Data.Ticket.Deadline*
   commentId: Overload:SuperOffice.WebApi.Data.Ticket.Deadline
   isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_Deadline
   name: Deadline
   nameWithType: Ticket.Deadline
   fullName: SuperOffice.WebApi.Data.Ticket.Deadline
 - uid: SuperOffice.WebApi.Data.Ticket.CreatedBy*
   commentId: Overload:SuperOffice.WebApi.Data.Ticket.CreatedBy
   isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_CreatedBy
   name: CreatedBy
   nameWithType: Ticket.CreatedBy
   fullName: SuperOffice.WebApi.Data.Ticket.CreatedBy
 - uid: SuperOffice.WebApi.Data.Ticket.CreatedByName*
   commentId: Overload:SuperOffice.WebApi.Data.Ticket.CreatedByName
   isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_CreatedByName
   name: CreatedByName
   nameWithType: Ticket.CreatedByName
   fullName: SuperOffice.WebApi.Data.Ticket.CreatedByName
 - uid: SuperOffice.WebApi.Data.Ticket.Author*
   commentId: Overload:SuperOffice.WebApi.Data.Ticket.Author
   isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_Author
   name: Author
   nameWithType: Ticket.Author
   fullName: SuperOffice.WebApi.Data.Ticket.Author
 - uid: SuperOffice.WebApi.Data.Ticket.OwnedBy*
   commentId: Overload:SuperOffice.WebApi.Data.Ticket.OwnedBy
   isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_OwnedBy
   name: OwnedBy
   nameWithType: Ticket.OwnedBy
   fullName: SuperOffice.WebApi.Data.Ticket.OwnedBy
 - uid: SuperOffice.WebApi.Data.Ticket.OwnedByName*
   commentId: Overload:SuperOffice.WebApi.Data.Ticket.OwnedByName
   isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_OwnedByName
   name: OwnedByName
   nameWithType: Ticket.OwnedByName
   fullName: SuperOffice.WebApi.Data.Ticket.OwnedByName
 - uid: SuperOffice.WebApi.Data.Ticket.Category*
   commentId: Overload:SuperOffice.WebApi.Data.Ticket.Category
   isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_Category
   name: Category
   nameWithType: Ticket.Category
   fullName: SuperOffice.WebApi.Data.Ticket.Category
 - uid: SuperOffice.WebApi.Data.Ticket.CategoryName*
   commentId: Overload:SuperOffice.WebApi.Data.Ticket.CategoryName
   isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_CategoryName
   name: CategoryName
   nameWithType: Ticket.CategoryName
   fullName: SuperOffice.WebApi.Data.Ticket.CategoryName
 - uid: SuperOffice.WebApi.Data.Ticket.CategoryFullname*
   commentId: Overload:SuperOffice.WebApi.Data.Ticket.CategoryFullname
   isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_CategoryFullname
   name: CategoryFullname
   nameWithType: Ticket.CategoryFullname
   fullName: SuperOffice.WebApi.Data.Ticket.CategoryFullname
-- uid: SuperOffice.WebApi.Data.Ticket.Slevel
-  commentId: P:SuperOffice.WebApi.Data.Ticket.Slevel
-  isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_Slevel
-  name: Slevel
-  nameWithType: Ticket.Slevel
-  fullName: SuperOffice.WebApi.Data.Ticket.Slevel
 - uid: SuperOffice.WebApi.Data.Ticket.Slevel_String*
   commentId: Overload:SuperOffice.WebApi.Data.Ticket.Slevel_String
   isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_Slevel_String
   name: Slevel_String
   nameWithType: Ticket.Slevel_String
   fullName: SuperOffice.WebApi.Data.Ticket.Slevel_String
-- uid: SuperOffice.WebApi.Data.Ticket.Slevel_String
-  commentId: P:SuperOffice.WebApi.Data.Ticket.Slevel_String
+- uid: SuperOffice.WebApi.Data.Ticket.Slevel
+  commentId: P:SuperOffice.WebApi.Data.Ticket.Slevel
   isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_Slevel_String
-  name: Slevel_String
-  nameWithType: Ticket.Slevel_String
-  fullName: SuperOffice.WebApi.Data.Ticket.Slevel_String
 - uid: SuperOffice.WebApi.Data.Ticket.Slevel*
   commentId: Overload:SuperOffice.WebApi.Data.Ticket.Slevel
   isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_Slevel
   name: Slevel
   nameWithType: Ticket.Slevel
   fullName: SuperOffice.WebApi.Data.Ticket.Slevel
-- uid: System.Nullable{SuperOffice.WebApi.Data.TicketSecurityLevel}
-  commentId: T:System.Nullable{SuperOffice.WebApi.Data.TicketSecurityLevel}
-  parent: System
-  definition: System.Nullable`1
-  href: SuperOffice.WebApi.Data.TicketSecurityLevel.html
-  name: TicketSecurityLevel?
-  nameWithType: TicketSecurityLevel?
-  fullName: SuperOffice.WebApi.Data.TicketSecurityLevel?
-  spec.csharp:
-  - uid: SuperOffice.WebApi.Data.TicketSecurityLevel
-    name: TicketSecurityLevel
-    isExternal: true
-    href: SuperOffice.WebApi.Data.TicketSecurityLevel.html
-  - name: '?'
-  spec.vb:
-  - uid: SuperOffice.WebApi.Data.TicketSecurityLevel
-    name: TicketSecurityLevel
-    isExternal: true
-    href: SuperOffice.WebApi.Data.TicketSecurityLevel.html
-  - name: '?'
-- uid: System.Nullable`1
-  commentId: T:System.Nullable`1
+- uid: SuperOffice.WebApi.Data.Ticket.Slevel_String
+  commentId: P:SuperOffice.WebApi.Data.Ticket.Slevel_String
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
-  name: Nullable<T>
-  nameWithType: Nullable<T>
-  fullName: System.Nullable<T>
-  nameWithType.vb: Nullable(Of T)
-  fullName.vb: System.Nullable(Of T)
-  name.vb: Nullable(Of T)
+- uid: System.Nullable{SuperOffice.WebApi.Data.TicketSecurityLevel}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.TicketSecurityLevel}'
+  definition: System.Nullable`1
+  name: Nullable<TicketSecurityLevel>
+  nameWithType: Nullable<TicketSecurityLevel>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.TicketSecurityLevel>
+  nameWithType.vb: Nullable(Of TicketSecurityLevel)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.TicketSecurityLevel)
+  name.vb: Nullable(Of TicketSecurityLevel)
   spec.csharp:
   - uid: System.Nullable`1
     name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
   - name: <
-  - name: T
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.TicketSecurityLevel
+    name: TicketSecurityLevel
+    nameWithType: TicketSecurityLevel
+    fullName: SuperOffice.WebApi.Data.TicketSecurityLevel
+    isExternal: true
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Nullable`1
     name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.TicketSecurityLevel
+    name: TicketSecurityLevel
+    nameWithType: TicketSecurityLevel
+    fullName: SuperOffice.WebApi.Data.TicketSecurityLevel
+    isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Data.Ticket.Priority*
   commentId: Overload:SuperOffice.WebApi.Data.Ticket.Priority
   isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_Priority
   name: Priority
   nameWithType: Ticket.Priority
   fullName: SuperOffice.WebApi.Data.Ticket.Priority
 - uid: SuperOffice.WebApi.Data.Ticket.PriorityName*
   commentId: Overload:SuperOffice.WebApi.Data.Ticket.PriorityName
   isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_PriorityName
   name: PriorityName
   nameWithType: Ticket.PriorityName
   fullName: SuperOffice.WebApi.Data.Ticket.PriorityName
-- uid: SuperOffice.WebApi.Data.Ticket.BaseStatus
-  commentId: P:SuperOffice.WebApi.Data.Ticket.BaseStatus
-  isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_BaseStatus
-  name: BaseStatus
-  nameWithType: Ticket.BaseStatus
-  fullName: SuperOffice.WebApi.Data.Ticket.BaseStatus
 - uid: SuperOffice.WebApi.Data.Ticket.BaseStatus_String*
   commentId: Overload:SuperOffice.WebApi.Data.Ticket.BaseStatus_String
   isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_BaseStatus_String
   name: BaseStatus_String
   nameWithType: Ticket.BaseStatus_String
   fullName: SuperOffice.WebApi.Data.Ticket.BaseStatus_String
-- uid: SuperOffice.WebApi.Data.Ticket.BaseStatus_String
-  commentId: P:SuperOffice.WebApi.Data.Ticket.BaseStatus_String
+- uid: SuperOffice.WebApi.Data.Ticket.BaseStatus
+  commentId: P:SuperOffice.WebApi.Data.Ticket.BaseStatus
   isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_BaseStatus_String
-  name: BaseStatus_String
-  nameWithType: Ticket.BaseStatus_String
-  fullName: SuperOffice.WebApi.Data.Ticket.BaseStatus_String
 - uid: SuperOffice.WebApi.Data.Ticket.BaseStatus*
   commentId: Overload:SuperOffice.WebApi.Data.Ticket.BaseStatus
   isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_BaseStatus
   name: BaseStatus
   nameWithType: Ticket.BaseStatus
   fullName: SuperOffice.WebApi.Data.Ticket.BaseStatus
+- uid: SuperOffice.WebApi.Data.Ticket.BaseStatus_String
+  commentId: P:SuperOffice.WebApi.Data.Ticket.BaseStatus_String
+  isExternal: true
 - uid: System.Nullable{SuperOffice.WebApi.Data.TicketBaseStatus}
-  commentId: T:System.Nullable{SuperOffice.WebApi.Data.TicketBaseStatus}
-  parent: System
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.TicketBaseStatus}'
   definition: System.Nullable`1
-  href: SuperOffice.WebApi.Data.TicketBaseStatus.html
-  name: TicketBaseStatus?
-  nameWithType: TicketBaseStatus?
-  fullName: SuperOffice.WebApi.Data.TicketBaseStatus?
+  name: Nullable<TicketBaseStatus>
+  nameWithType: Nullable<TicketBaseStatus>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.TicketBaseStatus>
+  nameWithType.vb: Nullable(Of TicketBaseStatus)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.TicketBaseStatus)
+  name.vb: Nullable(Of TicketBaseStatus)
   spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.WebApi.Data.TicketBaseStatus
     name: TicketBaseStatus
+    nameWithType: TicketBaseStatus
+    fullName: SuperOffice.WebApi.Data.TicketBaseStatus
     isExternal: true
-    href: SuperOffice.WebApi.Data.TicketBaseStatus.html
-  - name: '?'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.WebApi.Data.TicketBaseStatus
     name: TicketBaseStatus
+    nameWithType: TicketBaseStatus
+    fullName: SuperOffice.WebApi.Data.TicketBaseStatus
     isExternal: true
-    href: SuperOffice.WebApi.Data.TicketBaseStatus.html
-  - name: '?'
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Data.Ticket.TicketStatus*
   commentId: Overload:SuperOffice.WebApi.Data.Ticket.TicketStatus
   isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_TicketStatus
   name: TicketStatus
   nameWithType: Ticket.TicketStatus
   fullName: SuperOffice.WebApi.Data.Ticket.TicketStatus
 - uid: SuperOffice.WebApi.Data.Ticket.TicketStatusDisplayValue*
   commentId: Overload:SuperOffice.WebApi.Data.Ticket.TicketStatusDisplayValue
   isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_TicketStatusDisplayValue
   name: TicketStatusDisplayValue
   nameWithType: Ticket.TicketStatusDisplayValue
   fullName: SuperOffice.WebApi.Data.Ticket.TicketStatusDisplayValue
-- uid: SuperOffice.WebApi.Data.Ticket.Origin
-  commentId: P:SuperOffice.WebApi.Data.Ticket.Origin
-  isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_Origin
-  name: Origin
-  nameWithType: Ticket.Origin
-  fullName: SuperOffice.WebApi.Data.Ticket.Origin
 - uid: SuperOffice.WebApi.Data.Ticket.Origin_String*
   commentId: Overload:SuperOffice.WebApi.Data.Ticket.Origin_String
   isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_Origin_String
   name: Origin_String
   nameWithType: Ticket.Origin_String
   fullName: SuperOffice.WebApi.Data.Ticket.Origin_String
-- uid: SuperOffice.WebApi.Data.Ticket.Origin_String
-  commentId: P:SuperOffice.WebApi.Data.Ticket.Origin_String
+- uid: SuperOffice.WebApi.Data.Ticket.Origin
+  commentId: P:SuperOffice.WebApi.Data.Ticket.Origin
   isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_Origin_String
-  name: Origin_String
-  nameWithType: Ticket.Origin_String
-  fullName: SuperOffice.WebApi.Data.Ticket.Origin_String
 - uid: SuperOffice.WebApi.Data.Ticket.Origin*
   commentId: Overload:SuperOffice.WebApi.Data.Ticket.Origin
   isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_Origin
   name: Origin
   nameWithType: Ticket.Origin
   fullName: SuperOffice.WebApi.Data.Ticket.Origin
+- uid: SuperOffice.WebApi.Data.Ticket.Origin_String
+  commentId: P:SuperOffice.WebApi.Data.Ticket.Origin_String
+  isExternal: true
 - uid: System.Nullable{SuperOffice.WebApi.Data.TicketOrigin}
-  commentId: T:System.Nullable{SuperOffice.WebApi.Data.TicketOrigin}
-  parent: System
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.TicketOrigin}'
   definition: System.Nullable`1
-  href: SuperOffice.WebApi.Data.TicketOrigin.html
-  name: TicketOrigin?
-  nameWithType: TicketOrigin?
-  fullName: SuperOffice.WebApi.Data.TicketOrigin?
+  name: Nullable<TicketOrigin>
+  nameWithType: Nullable<TicketOrigin>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.TicketOrigin>
+  nameWithType.vb: Nullable(Of TicketOrigin)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.TicketOrigin)
+  name.vb: Nullable(Of TicketOrigin)
   spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.WebApi.Data.TicketOrigin
     name: TicketOrigin
+    nameWithType: TicketOrigin
+    fullName: SuperOffice.WebApi.Data.TicketOrigin
     isExternal: true
-    href: SuperOffice.WebApi.Data.TicketOrigin.html
-  - name: '?'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.WebApi.Data.TicketOrigin
     name: TicketOrigin
+    nameWithType: TicketOrigin
+    fullName: SuperOffice.WebApi.Data.TicketOrigin
     isExternal: true
-    href: SuperOffice.WebApi.Data.TicketOrigin.html
-  - name: '?'
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Data.Ticket.CustId*
   commentId: Overload:SuperOffice.WebApi.Data.Ticket.CustId
   isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_CustId
   name: CustId
   nameWithType: Ticket.CustId
   fullName: SuperOffice.WebApi.Data.Ticket.CustId
 - uid: SuperOffice.WebApi.Data.Ticket.PersonFirstname*
   commentId: Overload:SuperOffice.WebApi.Data.Ticket.PersonFirstname
   isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_PersonFirstname
   name: PersonFirstname
   nameWithType: Ticket.PersonFirstname
   fullName: SuperOffice.WebApi.Data.Ticket.PersonFirstname
 - uid: SuperOffice.WebApi.Data.Ticket.PersonMiddleName*
   commentId: Overload:SuperOffice.WebApi.Data.Ticket.PersonMiddleName
   isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_PersonMiddleName
   name: PersonMiddleName
   nameWithType: Ticket.PersonMiddleName
   fullName: SuperOffice.WebApi.Data.Ticket.PersonMiddleName
 - uid: SuperOffice.WebApi.Data.Ticket.PersonLastname*
   commentId: Overload:SuperOffice.WebApi.Data.Ticket.PersonLastname
   isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_PersonLastname
   name: PersonLastname
   nameWithType: Ticket.PersonLastname
   fullName: SuperOffice.WebApi.Data.Ticket.PersonLastname
 - uid: SuperOffice.WebApi.Data.Ticket.PersonFullname*
   commentId: Overload:SuperOffice.WebApi.Data.Ticket.PersonFullname
   isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_PersonFullname
   name: PersonFullname
   nameWithType: Ticket.PersonFullname
   fullName: SuperOffice.WebApi.Data.Ticket.PersonFullname
 - uid: SuperOffice.WebApi.Data.Ticket.AlertLevel*
   commentId: Overload:SuperOffice.WebApi.Data.Ticket.AlertLevel
   isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_AlertLevel
   name: AlertLevel
   nameWithType: Ticket.AlertLevel
   fullName: SuperOffice.WebApi.Data.Ticket.AlertLevel
@@ -2550,149 +2831,145 @@ references:
   commentId: T:System.Int16
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int16
-  name: short
-  nameWithType: short
-  fullName: short
-  nameWithType.vb: Short
-  fullName.vb: Short
-  name.vb: Short
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.WebApi.Data.Ticket.ConnectId*
   commentId: Overload:SuperOffice.WebApi.Data.Ticket.ConnectId
   isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_ConnectId
   name: ConnectId
   nameWithType: Ticket.ConnectId
   fullName: SuperOffice.WebApi.Data.Ticket.ConnectId
-- uid: SuperOffice.WebApi.Data.Ticket.ReadStatus
-  commentId: P:SuperOffice.WebApi.Data.Ticket.ReadStatus
-  isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_ReadStatus
-  name: ReadStatus
-  nameWithType: Ticket.ReadStatus
-  fullName: SuperOffice.WebApi.Data.Ticket.ReadStatus
 - uid: SuperOffice.WebApi.Data.Ticket.ReadStatus_String*
   commentId: Overload:SuperOffice.WebApi.Data.Ticket.ReadStatus_String
   isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_ReadStatus_String
   name: ReadStatus_String
   nameWithType: Ticket.ReadStatus_String
   fullName: SuperOffice.WebApi.Data.Ticket.ReadStatus_String
-- uid: SuperOffice.WebApi.Data.Ticket.ReadStatus_String
-  commentId: P:SuperOffice.WebApi.Data.Ticket.ReadStatus_String
+- uid: SuperOffice.WebApi.Data.Ticket.ReadStatus
+  commentId: P:SuperOffice.WebApi.Data.Ticket.ReadStatus
   isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_ReadStatus_String
-  name: ReadStatus_String
-  nameWithType: Ticket.ReadStatus_String
-  fullName: SuperOffice.WebApi.Data.Ticket.ReadStatus_String
 - uid: SuperOffice.WebApi.Data.Ticket.ReadStatus*
   commentId: Overload:SuperOffice.WebApi.Data.Ticket.ReadStatus
   isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_ReadStatus
   name: ReadStatus
   nameWithType: Ticket.ReadStatus
   fullName: SuperOffice.WebApi.Data.Ticket.ReadStatus
+- uid: SuperOffice.WebApi.Data.Ticket.ReadStatus_String
+  commentId: P:SuperOffice.WebApi.Data.Ticket.ReadStatus_String
+  isExternal: true
 - uid: System.Nullable{SuperOffice.WebApi.Data.TicketReadStatus}
-  commentId: T:System.Nullable{SuperOffice.WebApi.Data.TicketReadStatus}
-  parent: System
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.TicketReadStatus}'
   definition: System.Nullable`1
-  href: SuperOffice.WebApi.Data.TicketReadStatus.html
-  name: TicketReadStatus?
-  nameWithType: TicketReadStatus?
-  fullName: SuperOffice.WebApi.Data.TicketReadStatus?
+  name: Nullable<TicketReadStatus>
+  nameWithType: Nullable<TicketReadStatus>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.TicketReadStatus>
+  nameWithType.vb: Nullable(Of TicketReadStatus)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.TicketReadStatus)
+  name.vb: Nullable(Of TicketReadStatus)
   spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.WebApi.Data.TicketReadStatus
     name: TicketReadStatus
+    nameWithType: TicketReadStatus
+    fullName: SuperOffice.WebApi.Data.TicketReadStatus
     isExternal: true
-    href: SuperOffice.WebApi.Data.TicketReadStatus.html
-  - name: '?'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.WebApi.Data.TicketReadStatus
     name: TicketReadStatus
+    nameWithType: TicketReadStatus
+    fullName: SuperOffice.WebApi.Data.TicketReadStatus
     isExternal: true
-    href: SuperOffice.WebApi.Data.TicketReadStatus.html
-  - name: '?'
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Data.Ticket.TimeToReply*
   commentId: Overload:SuperOffice.WebApi.Data.Ticket.TimeToReply
   isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_TimeToReply
   name: TimeToReply
   nameWithType: Ticket.TimeToReply
   fullName: SuperOffice.WebApi.Data.Ticket.TimeToReply
 - uid: SuperOffice.WebApi.Data.Ticket.RealTimeToReply*
   commentId: Overload:SuperOffice.WebApi.Data.Ticket.RealTimeToReply
   isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_RealTimeToReply
   name: RealTimeToReply
   nameWithType: Ticket.RealTimeToReply
   fullName: SuperOffice.WebApi.Data.Ticket.RealTimeToReply
 - uid: SuperOffice.WebApi.Data.Ticket.TimeToClose*
   commentId: Overload:SuperOffice.WebApi.Data.Ticket.TimeToClose
   isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_TimeToClose
   name: TimeToClose
   nameWithType: Ticket.TimeToClose
   fullName: SuperOffice.WebApi.Data.Ticket.TimeToClose
 - uid: SuperOffice.WebApi.Data.Ticket.RealTimeToClose*
   commentId: Overload:SuperOffice.WebApi.Data.Ticket.RealTimeToClose
   isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_RealTimeToClose
   name: RealTimeToClose
   nameWithType: Ticket.RealTimeToClose
   fullName: SuperOffice.WebApi.Data.Ticket.RealTimeToClose
 - uid: SuperOffice.WebApi.Data.Ticket.TimeSpentInternally*
   commentId: Overload:SuperOffice.WebApi.Data.Ticket.TimeSpentInternally
   isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_TimeSpentInternally
   name: TimeSpentInternally
   nameWithType: Ticket.TimeSpentInternally
   fullName: SuperOffice.WebApi.Data.Ticket.TimeSpentInternally
 - uid: SuperOffice.WebApi.Data.Ticket.TimeSpentExternally*
   commentId: Overload:SuperOffice.WebApi.Data.Ticket.TimeSpentExternally
   isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_TimeSpentExternally
   name: TimeSpentExternally
   nameWithType: Ticket.TimeSpentExternally
   fullName: SuperOffice.WebApi.Data.Ticket.TimeSpentExternally
 - uid: SuperOffice.WebApi.Data.Ticket.TimeSpentQueue*
   commentId: Overload:SuperOffice.WebApi.Data.Ticket.TimeSpentQueue
   isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_TimeSpentQueue
   name: TimeSpentQueue
   nameWithType: Ticket.TimeSpentQueue
   fullName: SuperOffice.WebApi.Data.Ticket.TimeSpentQueue
 - uid: SuperOffice.WebApi.Data.Ticket.RealTimeSpentInternally*
   commentId: Overload:SuperOffice.WebApi.Data.Ticket.RealTimeSpentInternally
   isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_RealTimeSpentInternally
   name: RealTimeSpentInternally
   nameWithType: Ticket.RealTimeSpentInternally
   fullName: SuperOffice.WebApi.Data.Ticket.RealTimeSpentInternally
 - uid: SuperOffice.WebApi.Data.Ticket.RealTimeSpentExternally*
   commentId: Overload:SuperOffice.WebApi.Data.Ticket.RealTimeSpentExternally
   isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_RealTimeSpentExternally
   name: RealTimeSpentExternally
   nameWithType: Ticket.RealTimeSpentExternally
   fullName: SuperOffice.WebApi.Data.Ticket.RealTimeSpentExternally
 - uid: SuperOffice.WebApi.Data.Ticket.RealTimeSpentQueue*
   commentId: Overload:SuperOffice.WebApi.Data.Ticket.RealTimeSpentQueue
   isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_RealTimeSpentQueue
   name: RealTimeSpentQueue
   nameWithType: Ticket.RealTimeSpentQueue
   fullName: SuperOffice.WebApi.Data.Ticket.RealTimeSpentQueue
 - uid: SuperOffice.WebApi.Data.Ticket.TimeSpent*
   commentId: Overload:SuperOffice.WebApi.Data.Ticket.TimeSpent
   isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_TimeSpent
   name: TimeSpent
   nameWithType: Ticket.TimeSpent
   fullName: SuperOffice.WebApi.Data.Ticket.TimeSpent
 - uid: SuperOffice.WebApi.Data.Ticket.HasAttachment*
   commentId: Overload:SuperOffice.WebApi.Data.Ticket.HasAttachment
   isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_HasAttachment
   name: HasAttachment
   nameWithType: Ticket.HasAttachment
   fullName: SuperOffice.WebApi.Data.Ticket.HasAttachment
@@ -2700,122 +2977,102 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.WebApi.Data.Ticket.NumReplies*
   commentId: Overload:SuperOffice.WebApi.Data.Ticket.NumReplies
   isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_NumReplies
   name: NumReplies
   nameWithType: Ticket.NumReplies
   fullName: SuperOffice.WebApi.Data.Ticket.NumReplies
 - uid: SuperOffice.WebApi.Data.Ticket.NumMessages*
   commentId: Overload:SuperOffice.WebApi.Data.Ticket.NumMessages
   isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_NumMessages
   name: NumMessages
   nameWithType: Ticket.NumMessages
   fullName: SuperOffice.WebApi.Data.Ticket.NumMessages
 - uid: SuperOffice.WebApi.Data.Ticket.FromAddress*
   commentId: Overload:SuperOffice.WebApi.Data.Ticket.FromAddress
   isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_FromAddress
   name: FromAddress
   nameWithType: Ticket.FromAddress
   fullName: SuperOffice.WebApi.Data.Ticket.FromAddress
 - uid: SuperOffice.WebApi.Data.Ticket.ContactId*
   commentId: Overload:SuperOffice.WebApi.Data.Ticket.ContactId
   isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_ContactId
   name: ContactId
   nameWithType: Ticket.ContactId
   fullName: SuperOffice.WebApi.Data.Ticket.ContactId
 - uid: SuperOffice.WebApi.Data.Ticket.ContactName*
   commentId: Overload:SuperOffice.WebApi.Data.Ticket.ContactName
   isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_ContactName
   name: ContactName
   nameWithType: Ticket.ContactName
   fullName: SuperOffice.WebApi.Data.Ticket.ContactName
 - uid: SuperOffice.WebApi.Data.Ticket.OwnedByAssociateId*
   commentId: Overload:SuperOffice.WebApi.Data.Ticket.OwnedByAssociateId
   isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_OwnedByAssociateId
   name: OwnedByAssociateId
   nameWithType: Ticket.OwnedByAssociateId
   fullName: SuperOffice.WebApi.Data.Ticket.OwnedByAssociateId
 - uid: SuperOffice.WebApi.Data.Ticket.Language*
   commentId: Overload:SuperOffice.WebApi.Data.Ticket.Language
   isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_Language
   name: Language
   nameWithType: Ticket.Language
   fullName: SuperOffice.WebApi.Data.Ticket.Language
 - uid: SuperOffice.WebApi.Data.Ticket.Sentiment*
   commentId: Overload:SuperOffice.WebApi.Data.Ticket.Sentiment
   isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_Sentiment
   name: Sentiment
   nameWithType: Ticket.Sentiment
   fullName: SuperOffice.WebApi.Data.Ticket.Sentiment
 - uid: SuperOffice.WebApi.Data.Ticket.SentimentConfidence*
   commentId: Overload:SuperOffice.WebApi.Data.Ticket.SentimentConfidence
   isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_SentimentConfidence
   name: SentimentConfidence
   nameWithType: Ticket.SentimentConfidence
   fullName: SuperOffice.WebApi.Data.Ticket.SentimentConfidence
 - uid: SuperOffice.WebApi.Data.Ticket.SaleId*
   commentId: Overload:SuperOffice.WebApi.Data.Ticket.SaleId
   isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_SaleId
   name: SaleId
   nameWithType: Ticket.SaleId
   fullName: SuperOffice.WebApi.Data.Ticket.SaleId
 - uid: SuperOffice.WebApi.Data.Ticket.ProjectId*
   commentId: Overload:SuperOffice.WebApi.Data.Ticket.ProjectId
   isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_ProjectId
   name: ProjectId
   nameWithType: Ticket.ProjectId
   fullName: SuperOffice.WebApi.Data.Ticket.ProjectId
 - uid: SuperOffice.WebApi.Data.Ticket.SaleHeading*
   commentId: Overload:SuperOffice.WebApi.Data.Ticket.SaleHeading
   isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_SaleHeading
   name: SaleHeading
   nameWithType: Ticket.SaleHeading
   fullName: SuperOffice.WebApi.Data.Ticket.SaleHeading
 - uid: SuperOffice.WebApi.Data.Ticket.ProjectName*
   commentId: Overload:SuperOffice.WebApi.Data.Ticket.ProjectName
   isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_ProjectName
   name: ProjectName
   nameWithType: Ticket.ProjectName
   fullName: SuperOffice.WebApi.Data.Ticket.ProjectName
 - uid: SuperOffice.WebApi.Data.Ticket.FormSubmissionId*
   commentId: Overload:SuperOffice.WebApi.Data.Ticket.FormSubmissionId
   isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_FormSubmissionId
   name: FormSubmissionId
   nameWithType: Ticket.FormSubmissionId
   fullName: SuperOffice.WebApi.Data.Ticket.FormSubmissionId
 - uid: SuperOffice.WebApi.Data.Ticket.TicketTypeId*
   commentId: Overload:SuperOffice.WebApi.Data.Ticket.TicketTypeId
   isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_TicketTypeId
   name: TicketTypeId
   nameWithType: Ticket.TicketTypeId
   fullName: SuperOffice.WebApi.Data.Ticket.TicketTypeId
 - uid: SuperOffice.WebApi.Data.Ticket.TicketTypeName*
   commentId: Overload:SuperOffice.WebApi.Data.Ticket.TicketTypeName
   isExternal: true
-  href: SuperOffice.WebApi.Data.Ticket.html#SuperOffice_WebApi_Data_Ticket_TicketTypeName
   name: TicketTypeName
   nameWithType: Ticket.TicketTypeName
   fullName: SuperOffice.WebApi.Data.Ticket.TicketTypeName

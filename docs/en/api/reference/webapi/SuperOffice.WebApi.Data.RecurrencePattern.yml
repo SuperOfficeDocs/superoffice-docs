@@ -9,6 +9,7 @@ items:
   - SuperOffice.WebApi.Data.RecurrencePattern.Daily
   - SuperOffice.WebApi.Data.RecurrencePattern.Monthly
   - SuperOffice.WebApi.Data.RecurrencePattern.Unknown
+  - SuperOffice.WebApi.Data.RecurrencePattern.value__
   - SuperOffice.WebApi.Data.RecurrencePattern.Weekly
   - SuperOffice.WebApi.Data.RecurrencePattern.Yearly
   langs:
@@ -17,18 +18,57 @@ items:
   name: RecurrencePattern
   nameWithType: RecurrencePattern
   fullName: SuperOffice.WebApi.Data.RecurrencePattern
-  type: Enum
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Enumerator describing the main pattern of recurrence.
-
-    This Enum is used by:  RecurrenceRule.pattern
-  example: []
+  summary: "\nEnumerator describing the main pattern of recurrence.\nThis Enum is used by:  RecurrenceRule.pattern\n"
   syntax:
-    content: 'public enum RecurrencePattern : short'
-    content.vb: Public Enum RecurrencePattern As Short
+    content: 'public sealed class RecurrencePattern : Enum'
+    content.vb: >-
+      Public NotInheritable Class RecurrencePattern
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.RecurrencePattern.value__
+  commentId: F:SuperOffice.WebApi.Data.RecurrencePattern.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.RecurrencePattern
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: RecurrencePattern.value__
+  fullName: SuperOffice.WebApi.Data.RecurrencePattern.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.RecurrencePattern.Unknown
   commentId: F:SuperOffice.WebApi.Data.RecurrencePattern.Unknown
   id: Unknown
@@ -40,26 +80,24 @@ items:
   nameWithType: RecurrencePattern.Unknown
   fullName: SuperOffice.WebApi.Data.RecurrencePattern.Unknown
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '0: 0: Unknown/undecided type'
-  example: []
+  summary: "\n0: 0: Unknown/undecided type\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Unknown = 0
+    content: public const RecurrencePattern Unknown
     return:
       type: SuperOffice.WebApi.Data.RecurrencePattern
-    content.vb: >-
-      <EnumMember>
-
-      Unknown = 0
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Unknown As RecurrencePattern
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.RecurrencePattern.Daily
   commentId: F:SuperOffice.WebApi.Data.RecurrencePattern.Daily
   id: Daily
@@ -71,26 +109,24 @@ items:
   nameWithType: RecurrencePattern.Daily
   fullName: SuperOffice.WebApi.Data.RecurrencePattern.Daily
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '1: Dayly recurrence.'
-  example: []
+  summary: "\n1: Dayly recurrence.\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Daily = 1
+    content: public const RecurrencePattern Daily
     return:
       type: SuperOffice.WebApi.Data.RecurrencePattern
-    content.vb: >-
-      <EnumMember>
-
-      Daily = 1
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Daily As RecurrencePattern
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.RecurrencePattern.Weekly
   commentId: F:SuperOffice.WebApi.Data.RecurrencePattern.Weekly
   id: Weekly
@@ -102,26 +138,24 @@ items:
   nameWithType: RecurrencePattern.Weekly
   fullName: SuperOffice.WebApi.Data.RecurrencePattern.Weekly
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '2: Weekly recurrence.'
-  example: []
+  summary: "\n2: Weekly recurrence.\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Weekly = 2
+    content: public const RecurrencePattern Weekly
     return:
       type: SuperOffice.WebApi.Data.RecurrencePattern
-    content.vb: >-
-      <EnumMember>
-
-      Weekly = 2
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Weekly As RecurrencePattern
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.RecurrencePattern.Monthly
   commentId: F:SuperOffice.WebApi.Data.RecurrencePattern.Monthly
   id: Monthly
@@ -133,26 +167,24 @@ items:
   nameWithType: RecurrencePattern.Monthly
   fullName: SuperOffice.WebApi.Data.RecurrencePattern.Monthly
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '3: Monthly recurrence.'
-  example: []
+  summary: "\n3: Monthly recurrence.\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Monthly = 3
+    content: public const RecurrencePattern Monthly
     return:
       type: SuperOffice.WebApi.Data.RecurrencePattern
-    content.vb: >-
-      <EnumMember>
-
-      Monthly = 3
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Monthly As RecurrencePattern
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.RecurrencePattern.Yearly
   commentId: F:SuperOffice.WebApi.Data.RecurrencePattern.Yearly
   id: Yearly
@@ -164,26 +196,24 @@ items:
   nameWithType: RecurrencePattern.Yearly
   fullName: SuperOffice.WebApi.Data.RecurrencePattern.Yearly
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '4: Yearly recurrence.'
-  example: []
+  summary: "\n4: Yearly recurrence.\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Yearly = 4
+    content: public const RecurrencePattern Yearly
     return:
       type: SuperOffice.WebApi.Data.RecurrencePattern
-    content.vb: >-
-      <EnumMember>
-
-      Yearly = 4
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Yearly As RecurrencePattern
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.RecurrencePattern.Custom
   commentId: F:SuperOffice.WebApi.Data.RecurrencePattern.Custom
   id: Custom
@@ -195,69 +225,55 @@ items:
   nameWithType: RecurrencePattern.Custom
   fullName: SuperOffice.WebApi.Data.RecurrencePattern.Custom
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '5: Custom recurrence, only dates are specified.  See RecurrenceDayPattern for details'
-  example: []
+  summary: "\n5: Custom recurrence, only dates are specified.  See RecurrenceDayPattern for details\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Custom = 5
+    content: public const RecurrencePattern Custom
     return:
       type: SuperOffice.WebApi.Data.RecurrencePattern
-    content.vb: >-
-      <EnumMember>
-
-      Custom = 5
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Custom As RecurrencePattern
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.WebApi.Data.RecurrencePattern
   commentId: T:SuperOffice.WebApi.Data.RecurrencePattern
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.RecurrencePattern.html
   name: RecurrencePattern
   nameWithType: RecurrencePattern
   fullName: SuperOffice.WebApi.Data.RecurrencePattern

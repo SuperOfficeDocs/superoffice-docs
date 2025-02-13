@@ -18,27 +18,18 @@ items:
   nameWithType: ImportColumnInfo
   fullName: SuperOffice.CRM.Services.ImportColumnInfo
   type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Column info for importlines.
-
-    <p></p>
-
-    Carrier object for ImportColumnInfo.
-
-    Services for the ImportColumnInfo Carrier is available from the <xref href="SuperOffice.CRM.Services.IImportAgent?text=Import+Agent" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nColumn info for importlines.\n<p></p>\nCarrier object for ImportColumnInfo.\nServices for the ImportColumnInfo Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IImportAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public class ImportColumnInfo : Carrier
+    content: 'public class ImportColumnInfo : Carrier'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
-
-      Public Class ImportColumnInfo Inherits Carrier
+      Public Class ImportColumnInfo
+          Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.ImportAgent
     commentId: T:SuperOffice.CRM.Services.ImportAgent
@@ -46,14 +37,12 @@ items:
     commentId: T:SuperOffice.CRM.Services.IImportAgent
   inheritance:
   - System.Object
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.ImportColumnInfo.#ctor
   commentId: M:SuperOffice.CRM.Services.ImportColumnInfo.#ctor
   id: '#ctor'
@@ -65,18 +54,21 @@ items:
   nameWithType: ImportColumnInfo.ImportColumnInfo()
   fullName: SuperOffice.CRM.Services.ImportColumnInfo.ImportColumnInfo()
   type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Default constructor
-  example: []
+  summary: "\nDefault constructor\n"
   syntax:
     content: public ImportColumnInfo()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.ImportColumnInfo.#ctor*
-  nameWithType.vb: ImportColumnInfo.New()
-  fullName.vb: SuperOffice.CRM.Services.ImportColumnInfo.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.ImportColumnInfo.ToString
   commentId: M:SuperOffice.CRM.Services.ImportColumnInfo.ToString
   id: ToString
@@ -88,18 +80,26 @@ items:
   nameWithType: ImportColumnInfo.ToString()
   fullName: SuperOffice.CRM.Services.ImportColumnInfo.ToString()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the carrier contents as a formatted string.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string.\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString() As String
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.CRM.Services.ImportColumnInfo.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Services.ImportColumnInfo.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.ImportColumnInfo.ToString(System.String)
   id: ToString(System.String)
@@ -107,18 +107,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(string)
-  nameWithType: ImportColumnInfo.ToString(string)
-  fullName: SuperOffice.CRM.Services.ImportColumnInfo.ToString(string)
+  name: ToString(String)
+  nameWithType: ImportColumnInfo.ToString(String)
+  fullName: SuperOffice.CRM.Services.ImportColumnInfo.ToString(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Returns the carrier contents as a formatted string, useful for debugging.
-
-    Each line in the output is prefixed with the input value.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -130,9 +129,10 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.ImportColumnInfo.ToString*
-  nameWithType.vb: ImportColumnInfo.ToString(String)
-  fullName.vb: SuperOffice.CRM.Services.ImportColumnInfo.ToString(String)
-  name.vb: ToString(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.ImportColumnInfo.Name
   commentId: P:SuperOffice.CRM.Services.ImportColumnInfo.Name
   id: Name
@@ -144,28 +144,28 @@ items:
   nameWithType: ImportColumnInfo.Name
   fullName: SuperOffice.CRM.Services.ImportColumnInfo.Name
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Name of the column
-  example: []
+  summary: "\nName of the column \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string Name { get; set; }
+    content: public virtual string Name { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Name As String
+    content.vb: Public Overridable Property Name As String
   overload: SuperOffice.CRM.Services.ImportColumnInfo.Name*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ImportColumnInfo.DisplayName
   commentId: P:SuperOffice.CRM.Services.ImportColumnInfo.DisplayName
   id: DisplayName
@@ -177,28 +177,28 @@ items:
   nameWithType: ImportColumnInfo.DisplayName
   fullName: SuperOffice.CRM.Services.ImportColumnInfo.DisplayName
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Display name of the column
-  example: []
+  summary: "\nDisplay name of the column \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string DisplayName { get; set; }
+    content: public virtual string DisplayName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property DisplayName As String
+    content.vb: Public Overridable Property DisplayName As String
   overload: SuperOffice.CRM.Services.ImportColumnInfo.DisplayName*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ImportColumnInfo.Locked
   commentId: P:SuperOffice.CRM.Services.ImportColumnInfo.Locked
   id: Locked
@@ -210,33 +210,38 @@ items:
   nameWithType: ImportColumnInfo.Locked
   fullName: SuperOffice.CRM.Services.ImportColumnInfo.Locked
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: If true disable the option of choose column
-  example: []
+  summary: "\nIf true disable the option of choose column \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual bool Locked { get; set; }
+    content: public virtual bool Locked { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Locked As Boolean
+    content.vb: Public Overridable Property Locked As Boolean
   overload: SuperOffice.CRM.Services.ImportColumnInfo.Locked*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
 - uid: SuperOffice.CRM.Services.ImportAgent
   commentId: T:SuperOffice.CRM.Services.ImportAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.ImportAgent.html
   name: ImportAgent
   nameWithType: ImportAgent
   fullName: SuperOffice.CRM.Services.ImportAgent
@@ -244,79 +249,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.IImportAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.IImportAgent.html
   name: IImportAgent
   nameWithType: IImportAgent
   fullName: SuperOffice.CRM.Services.IImportAgent
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.ImportColumnInfo.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.ImportColumnInfo.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.ImportColumnInfo.html#SuperOffice_CRM_Services_ImportColumnInfo__ctor
   name: ImportColumnInfo
   nameWithType: ImportColumnInfo.ImportColumnInfo
   fullName: SuperOffice.CRM.Services.ImportColumnInfo.ImportColumnInfo
-  nameWithType.vb: ImportColumnInfo.New
-  fullName.vb: SuperOffice.CRM.Services.ImportColumnInfo.New
-  name.vb: New
 - uid: SuperOffice.CRM.Services.ImportColumnInfo.ToString*
   commentId: Overload:SuperOffice.CRM.Services.ImportColumnInfo.ToString
   isExternal: true
-  href: SuperOffice.CRM.Services.ImportColumnInfo.html#SuperOffice_CRM_Services_ImportColumnInfo_ToString
   name: ToString
   nameWithType: ImportColumnInfo.ToString
   fullName: SuperOffice.CRM.Services.ImportColumnInfo.ToString
@@ -324,31 +268,30 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.ImportColumnInfo.Name*
   commentId: Overload:SuperOffice.CRM.Services.ImportColumnInfo.Name
   isExternal: true
-  href: SuperOffice.CRM.Services.ImportColumnInfo.html#SuperOffice_CRM_Services_ImportColumnInfo_Name
   name: Name
   nameWithType: ImportColumnInfo.Name
   fullName: SuperOffice.CRM.Services.ImportColumnInfo.Name
 - uid: SuperOffice.CRM.Services.ImportColumnInfo.DisplayName*
   commentId: Overload:SuperOffice.CRM.Services.ImportColumnInfo.DisplayName
   isExternal: true
-  href: SuperOffice.CRM.Services.ImportColumnInfo.html#SuperOffice_CRM_Services_ImportColumnInfo_DisplayName
   name: DisplayName
   nameWithType: ImportColumnInfo.DisplayName
   fullName: SuperOffice.CRM.Services.ImportColumnInfo.DisplayName
 - uid: SuperOffice.CRM.Services.ImportColumnInfo.Locked*
   commentId: Overload:SuperOffice.CRM.Services.ImportColumnInfo.Locked
   isExternal: true
-  href: SuperOffice.CRM.Services.ImportColumnInfo.html#SuperOffice_CRM_Services_ImportColumnInfo_Locked
   name: Locked
   nameWithType: ImportColumnInfo.Locked
   fullName: SuperOffice.CRM.Services.ImportColumnInfo.Locked
@@ -356,10 +299,6 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

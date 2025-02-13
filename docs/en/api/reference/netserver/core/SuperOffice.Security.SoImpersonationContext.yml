@@ -19,33 +19,34 @@ items:
   nameWithType: SoImpersonationContext
   fullName: SuperOffice.Security.SoImpersonationContext
   type: Class
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Security
-  summary: >-
-    Utility class assisting with impersonation.  Impersonation is only permitted if a system 
-
-    user is logged in using CRM5 username and password and the user that is impersonated is 
-
-    an employee or external person.
-  example: []
+  summary: "\nUtility class assisting with impersonation.  Impersonation is only permitted if a system \nuser is logged in using CRM5 username and password and the user that is impersonated is \nan employee or external person.\n"
   syntax:
-    content: 'public sealed class SoImpersonationContext : IDisposable'
-    content.vb: Public NotInheritable Class SoImpersonationContext Implements IDisposable
+    content: 'public sealed class SoImpersonationContext : Object, IDisposable'
+    content.vb: >-
+      Public NotInheritable Class SoImpersonationContext
+          Inherits Object
+          Implements IDisposable
   inheritance:
   - System.Object
   implements:
   - System.IDisposable
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
   extensionMethods:
   - SuperOffice.Security.SoImpersonationContext.EnumUtil.MapEnums``2
   - SuperOffice.Security.SoImpersonationContext.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
 - uid: SuperOffice.Security.SoImpersonationContext.CanImpersonate
   commentId: M:SuperOffice.Security.SoImpersonationContext.CanImpersonate
   id: CanImpersonate
@@ -57,18 +58,26 @@ items:
   nameWithType: SoImpersonationContext.CanImpersonate()
   fullName: SuperOffice.Security.SoImpersonationContext.CanImpersonate()
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Security
-  summary: Check if the currently logged in user is permitted to impersonate.
-  example: []
+  summary: "\nCheck if the currently logged in user is permitted to impersonate.\n"
   syntax:
     content: public static bool CanImpersonate()
     return:
       type: System.Boolean
       description: True if the currently logged in user is permitted to impersonate.
-    content.vb: Public Shared Function CanImpersonate() As Boolean
+    content.vb: Public Shared Function CanImpersonate As Boolean
   overload: SuperOffice.Security.SoImpersonationContext.CanImpersonate*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Security.SoImpersonationContext.CanImpersonate(SuperOffice.Security.Principal.SoPrincipal)
   commentId: M:SuperOffice.Security.SoImpersonationContext.CanImpersonate(SuperOffice.Security.Principal.SoPrincipal)
   id: CanImpersonate(SuperOffice.Security.Principal.SoPrincipal)
@@ -80,11 +89,13 @@ items:
   nameWithType: SoImpersonationContext.CanImpersonate(SoPrincipal)
   fullName: SuperOffice.Security.SoImpersonationContext.CanImpersonate(SuperOffice.Security.Principal.SoPrincipal)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Security
-  summary: Check if the user represented by the provided principle is permitted to impersonate.
-  example: []
+  summary: "\nCheck if the user represented by the provided principle is permitted to impersonate.\n"
   syntax:
     content: public static bool CanImpersonate(SoPrincipal impersonator)
     parameters:
@@ -96,6 +107,12 @@ items:
       description: True if the user represented by the provided principle is permitted to impersonate.
     content.vb: Public Shared Function CanImpersonate(impersonator As SoPrincipal) As Boolean
   overload: SuperOffice.Security.SoImpersonationContext.CanImpersonate*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Security.SoImpersonationContext.Impersonate(System.String)
   commentId: M:SuperOffice.Security.SoImpersonationContext.Impersonate(System.String)
   id: Impersonate(System.String)
@@ -103,34 +120,18 @@ items:
   langs:
   - csharp
   - vb
-  name: Impersonate(string)
-  nameWithType: SoImpersonationContext.Impersonate(string)
-  fullName: SuperOffice.Security.SoImpersonationContext.Impersonate(string)
+  name: Impersonate(String)
+  nameWithType: SoImpersonationContext.Impersonate(String)
+  fullName: SuperOffice.Security.SoImpersonationContext.Impersonate(System.String)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Security
-  summary: >-
-    Impersonate as the user with the provided user name.  Only users of type System logged in with 
-
-    username and passwords are permitted to impersonate.  Call <xref href="SuperOffice.Security.SoImpersonationContext.Dispose" data-throw-if-not-resolved="false"></xref>
-
-    or <xref href="SuperOffice.Security.SoImpersonationContext.Revert" data-throw-if-not-resolved="false"></xref>.  Impersonation is not supported with remote mode.
-  remarks: >-
-    Impersonation lives in the thread scope.  Threads executed with the 
-
-    <xref href="SuperOffice.SoContext.SpawnThread%60%601(SuperOffice.Threading.AsyncOperation%7b%60%600%7d%2c%60%600%2cSystem.String)" data-throw-if-not-resolved="false"></xref> or 
-
-    <xref href="SuperOffice.Threading.ThreadManager.SpawnThread%60%601(SuperOffice.Threading.AsyncOperation%7b%60%600%7d%2c%60%600%2cSystem.String%2cSystem.Boolean%2cSystem.Boolean%2cSystem.Boolean)" data-throw-if-not-resolved="false"></xref> 
-
-    will also be executed inside the scope of the impersonated user.
-
-    It is not permitted to log out using <xref href="SuperOffice.SoSession.Close" data-throw-if-not-resolved="false"></xref> or
-
-    in any other way end the current session like calling 
-
-    <xref href="SuperOffice.SoSession.Suspend" data-throw-if-not-resolved="false"></xref> while in a impersonated state.
-  example: []
+  summary: "\nImpersonate as the user with the provided user name.  Only users of type System logged in with \nusername and passwords are permitted to impersonate.  Call <xref href=\"SuperOffice.Security.SoImpersonationContext.Dispose\" data-throw-if-not-resolved=\"false\"></xref>\nor <xref href=\"SuperOffice.Security.SoImpersonationContext.Revert\" data-throw-if-not-resolved=\"false\"></xref>.  Impersonation is not supported with remote mode.\n"
+  remarks: "\nImpersonation lives in the thread scope.  Threads executed with the \n<xref href=\"SuperOffice.SoContext.SpawnThread%60%601(SuperOffice.Threading.AsyncOperation%7b%60%600%7d%2c%60%600%2cSystem.String)\" data-throw-if-not-resolved=\"false\"></xref> or \n<xref href=\"SuperOffice.Threading.ThreadManager.SpawnThread%60%601(SuperOffice.Threading.AsyncOperation%7b%60%600%7d%2c%60%600%2cSystem.String%2cSystem.Boolean%2cSystem.Boolean%2cSystem.Boolean)\" data-throw-if-not-resolved=\"false\"></xref> \nwill also be executed inside the scope of the impersonated user.\nIt is not permitted to log out using <xref href=\"SuperOffice.SoSession.Close\" data-throw-if-not-resolved=\"false\"></xref> or\nin any other way end the current session like calling \n<xref href=\"SuperOffice.SoSession.Suspend\" data-throw-if-not-resolved=\"false\"></xref> while in a impersonated state.\n"
   syntax:
     content: public static SoImpersonationContext Impersonate(string user)
     parameters:
@@ -142,9 +143,12 @@ items:
       description: Disposable context for the impersonation.
     content.vb: Public Shared Function Impersonate(user As String) As SoImpersonationContext
   overload: SuperOffice.Security.SoImpersonationContext.Impersonate*
-  nameWithType.vb: SoImpersonationContext.Impersonate(String)
-  fullName.vb: SuperOffice.Security.SoImpersonationContext.Impersonate(String)
-  name.vb: Impersonate(String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Security.SoImpersonationContext.Revert
   commentId: M:SuperOffice.Security.SoImpersonationContext.Revert
   id: Revert
@@ -156,15 +160,21 @@ items:
   nameWithType: SoImpersonationContext.Revert()
   fullName: SuperOffice.Security.SoImpersonationContext.Revert()
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Security
-  summary: Revert impersonation.
-  example: []
+  summary: "\nRevert impersonation.\n"
   syntax:
     content: public void Revert()
-    content.vb: Public Sub Revert()
+    content.vb: Public Sub Revert
   overload: SuperOffice.Security.SoImpersonationContext.Revert*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Security.SoImpersonationContext.Dispose
   commentId: M:SuperOffice.Security.SoImpersonationContext.Dispose
   id: Dispose
@@ -176,17 +186,21 @@ items:
   nameWithType: SoImpersonationContext.Dispose()
   fullName: SuperOffice.Security.SoImpersonationContext.Dispose()
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Security
-  summary: Dispose of the SoImpersonationContext and implcitly call <xref href="SuperOffice.Security.SoImpersonationContext.Revert" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nDispose of the SoImpersonationContext and implcitly call <xref href=\"SuperOffice.Security.SoImpersonationContext.Revert\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
     content: public void Dispose()
-    content.vb: Public Sub Dispose()
+    content.vb: Public Sub Dispose
   overload: SuperOffice.Security.SoImpersonationContext.Dispose*
-  implements:
-  - System.IDisposable.Dispose
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Security.SoImpersonationContext.RealPrincipal
   commentId: P:SuperOffice.Security.SoImpersonationContext.RealPrincipal
   id: RealPrincipal
@@ -198,11 +212,13 @@ items:
   nameWithType: SoImpersonationContext.RealPrincipal
   fullName: SuperOffice.Security.SoImpersonationContext.RealPrincipal
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Security
-  summary: Principle of the impersonating user.
-  example: []
+  summary: "\nPrinciple of the impersonating user.\n"
   syntax:
     content: public SoPrincipal RealPrincipal { get; }
     parameters: []
@@ -210,6 +226,12 @@ items:
       type: SuperOffice.Security.Principal.SoPrincipal
     content.vb: Public ReadOnly Property RealPrincipal As SoPrincipal
   overload: SuperOffice.Security.SoImpersonationContext.RealPrincipal*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Security.SoImpersonationContext.ImpersonatedPrincipal
   commentId: P:SuperOffice.Security.SoImpersonationContext.ImpersonatedPrincipal
   id: ImpersonatedPrincipal
@@ -221,11 +243,13 @@ items:
   nameWithType: SoImpersonationContext.ImpersonatedPrincipal
   fullName: SuperOffice.Security.SoImpersonationContext.ImpersonatedPrincipal
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Security
-  summary: Principal of the impersonated user.
-  example: []
+  summary: "\nPrincipal of the impersonated user.\n"
   syntax:
     content: public SoPrincipal ImpersonatedPrincipal { get; }
     parameters: []
@@ -233,365 +257,108 @@ items:
       type: SuperOffice.Security.Principal.SoPrincipal
     content.vb: Public ReadOnly Property ImpersonatedPrincipal As SoPrincipal
   overload: SuperOffice.Security.SoImpersonationContext.ImpersonatedPrincipal*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 references:
 - uid: SuperOffice.Security
   commentId: N:SuperOffice.Security
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Security
   nameWithType: SuperOffice.Security
   fullName: SuperOffice.Security
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Security
-    name: Security
-    isExternal: true
-    href: SuperOffice.Security.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Security
-    name: Security
-    isExternal: true
-    href: SuperOffice.Security.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: System.IDisposable
-  commentId: T:System.IDisposable
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.idisposable
   name: IDisposable
   nameWithType: IDisposable
   fullName: System.IDisposable
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
 - uid: SuperOffice.Security.SoImpersonationContext.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<SoImpersonationContext, To>(SoImpersonationContext)
-  nameWithType: EnumUtil.MapEnums<SoImpersonationContext, To>(SoImpersonationContext)
-  fullName: EnumUtil.MapEnums<SuperOffice.Security.SoImpersonationContext, To>(SuperOffice.Security.SoImpersonationContext)
-  nameWithType.vb: EnumUtil.MapEnums(Of SoImpersonationContext, To)(SoImpersonationContext)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Security.SoImpersonationContext, To)(SuperOffice.Security.SoImpersonationContext)
-  name.vb: MapEnums(Of SoImpersonationContext, To)(SoImpersonationContext)
+  name: MapEnums<SoImpersonationContext, To>()
+  nameWithType: EnumUtil.MapEnums<SoImpersonationContext, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Security.SoImpersonationContext, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SoImpersonationContext, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Security.SoImpersonationContext, To)()
+  name.vb: MapEnums(Of SoImpersonationContext, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Security.SoImpersonationContext)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SoImpersonationContext, To>
+    nameWithType: EnumUtil.MapEnums<SoImpersonationContext, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Security.SoImpersonationContext, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Security.SoImpersonationContext
-    name: SoImpersonationContext
-    isExternal: true
-    href: SuperOffice.Security.SoImpersonationContext.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Security.SoImpersonationContext
-    name: SoImpersonationContext
-    isExternal: true
-    href: SuperOffice.Security.SoImpersonationContext.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Security.SoImpersonationContext)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SoImpersonationContext, To)
+    nameWithType: EnumUtil.MapEnums(Of SoImpersonationContext, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Security.SoImpersonationContext, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Security.SoImpersonationContext
-    name: SoImpersonationContext
-    isExternal: true
-    href: SuperOffice.Security.SoImpersonationContext.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Security.SoImpersonationContext
-    name: SoImpersonationContext
-    isExternal: true
-    href: SuperOffice.Security.SoImpersonationContext.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Security.SoImpersonationContext.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<SoImpersonationContext, To>(SoImpersonationContext)
-  nameWithType: Converters.MapEnums<SoImpersonationContext, To>(SoImpersonationContext)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.SoImpersonationContext, To>(SuperOffice.Security.SoImpersonationContext)
-  nameWithType.vb: Converters.MapEnums(Of SoImpersonationContext, To)(SoImpersonationContext)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.SoImpersonationContext, To)(SuperOffice.Security.SoImpersonationContext)
-  name.vb: MapEnums(Of SoImpersonationContext, To)(SoImpersonationContext)
+  name: MapEnums<SoImpersonationContext, To>()
+  nameWithType: Converters.MapEnums<SoImpersonationContext, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.SoImpersonationContext, To>()
+  nameWithType.vb: Converters.MapEnums(Of SoImpersonationContext, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.SoImpersonationContext, To)()
+  name.vb: MapEnums(Of SoImpersonationContext, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Security.SoImpersonationContext)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SoImpersonationContext, To>
+    nameWithType: Converters.MapEnums<SoImpersonationContext, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.SoImpersonationContext, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Security.SoImpersonationContext
-    name: SoImpersonationContext
-    isExternal: true
-    href: SuperOffice.Security.SoImpersonationContext.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Security.SoImpersonationContext
-    name: SoImpersonationContext
-    isExternal: true
-    href: SuperOffice.Security.SoImpersonationContext.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Security.SoImpersonationContext)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SoImpersonationContext, To)
+    nameWithType: Converters.MapEnums(Of SoImpersonationContext, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.SoImpersonationContext, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Security.SoImpersonationContext
-    name: SoImpersonationContext
-    isExternal: true
-    href: SuperOffice.Security.SoImpersonationContext.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Security.SoImpersonationContext
-    name: SoImpersonationContext
-    isExternal: true
-    href: SuperOffice.Security.SoImpersonationContext.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -600,45 +367,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -647,83 +412,50 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.Security.SoImpersonationContext.CanImpersonate*
   commentId: Overload:SuperOffice.Security.SoImpersonationContext.CanImpersonate
   isExternal: true
-  href: SuperOffice.Security.SoImpersonationContext.html#SuperOffice_Security_SoImpersonationContext_CanImpersonate
   name: CanImpersonate
   nameWithType: SoImpersonationContext.CanImpersonate
   fullName: SuperOffice.Security.SoImpersonationContext.CanImpersonate
@@ -731,314 +463,25 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.Security.Principal.SoPrincipal
   commentId: T:SuperOffice.Security.Principal.SoPrincipal
   parent: SuperOffice.Security.Principal
   isExternal: true
-  href: SuperOffice.Security.Principal.SoPrincipal.html
   name: SoPrincipal
   nameWithType: SoPrincipal
   fullName: SuperOffice.Security.Principal.SoPrincipal
 - uid: SuperOffice.Security.Principal
   commentId: N:SuperOffice.Security.Principal
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Security.Principal
   nameWithType: SuperOffice.Security.Principal
   fullName: SuperOffice.Security.Principal
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Security
-    name: Security
-    isExternal: true
-    href: SuperOffice.Security.html
-  - name: .
-  - uid: SuperOffice.Security.Principal
-    name: Principal
-    isExternal: true
-    href: SuperOffice.Security.Principal.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Security
-    name: Security
-    isExternal: true
-    href: SuperOffice.Security.html
-  - name: .
-  - uid: SuperOffice.Security.Principal
-    name: Principal
-    isExternal: true
-    href: SuperOffice.Security.Principal.html
-- uid: SuperOffice.Security.SoImpersonationContext.Dispose
-  commentId: M:SuperOffice.Security.SoImpersonationContext.Dispose
-  isExternal: true
-  href: SuperOffice.Security.SoImpersonationContext.html#SuperOffice_Security_SoImpersonationContext_Dispose
-  name: Dispose()
-  nameWithType: SoImpersonationContext.Dispose()
-  fullName: SuperOffice.Security.SoImpersonationContext.Dispose()
-  spec.csharp:
-  - uid: SuperOffice.Security.SoImpersonationContext.Dispose
-    name: Dispose
-    isExternal: true
-    href: SuperOffice.Security.SoImpersonationContext.html#SuperOffice_Security_SoImpersonationContext_Dispose
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Security.SoImpersonationContext.Dispose
-    name: Dispose
-    isExternal: true
-    href: SuperOffice.Security.SoImpersonationContext.html#SuperOffice_Security_SoImpersonationContext_Dispose
-  - name: (
-  - name: )
-- uid: SuperOffice.Security.SoImpersonationContext.Revert
-  commentId: M:SuperOffice.Security.SoImpersonationContext.Revert
-  isExternal: true
-  href: SuperOffice.Security.SoImpersonationContext.html#SuperOffice_Security_SoImpersonationContext_Revert
-  name: Revert()
-  nameWithType: SoImpersonationContext.Revert()
-  fullName: SuperOffice.Security.SoImpersonationContext.Revert()
-  spec.csharp:
-  - uid: SuperOffice.Security.SoImpersonationContext.Revert
-    name: Revert
-    isExternal: true
-    href: SuperOffice.Security.SoImpersonationContext.html#SuperOffice_Security_SoImpersonationContext_Revert
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Security.SoImpersonationContext.Revert
-    name: Revert
-    isExternal: true
-    href: SuperOffice.Security.SoImpersonationContext.html#SuperOffice_Security_SoImpersonationContext_Revert
-  - name: (
-  - name: )
-- uid: SuperOffice.SoContext.SpawnThread``1(SuperOffice.Threading.AsyncOperation{``0},``0,System.String)
-  commentId: M:SuperOffice.SoContext.SpawnThread``1(SuperOffice.Threading.AsyncOperation{``0},``0,System.String)
-  isExternal: true
-  href: SuperOffice.SoContext.html#SuperOffice_SoContext_SpawnThread__1_SuperOffice_Threading_AsyncOperation___0____0_System_String_
-  name: SpawnThread<TArgument>(AsyncOperation<TArgument>, TArgument, string)
-  nameWithType: SoContext.SpawnThread<TArgument>(AsyncOperation<TArgument>, TArgument, string)
-  fullName: SuperOffice.SoContext.SpawnThread<TArgument>(SuperOffice.Threading.AsyncOperation<TArgument>, TArgument, string)
-  nameWithType.vb: SoContext.SpawnThread(Of TArgument)(AsyncOperation(Of TArgument), TArgument, String)
-  fullName.vb: SuperOffice.SoContext.SpawnThread(Of TArgument)(SuperOffice.Threading.AsyncOperation(Of TArgument), TArgument, String)
-  name.vb: SpawnThread(Of TArgument)(AsyncOperation(Of TArgument), TArgument, String)
-  spec.csharp:
-  - uid: SuperOffice.SoContext.SpawnThread``1(SuperOffice.Threading.AsyncOperation{``0},``0,System.String)
-    name: SpawnThread
-    isExternal: true
-    href: SuperOffice.SoContext.html#SuperOffice_SoContext_SpawnThread__1_SuperOffice_Threading_AsyncOperation___0____0_System_String_
-  - name: <
-  - name: TArgument
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Threading.AsyncOperation`1
-    name: AsyncOperation
-    isExternal: true
-    href: SuperOffice.Threading.AsyncOperation-1.html
-  - name: <
-  - name: TArgument
-  - name: '>'
-  - name: ','
-  - name: " "
-  - name: TArgument
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.SoContext.SpawnThread``1(SuperOffice.Threading.AsyncOperation{``0},``0,System.String)
-    name: SpawnThread
-    isExternal: true
-    href: SuperOffice.SoContext.html#SuperOffice_SoContext_SpawnThread__1_SuperOffice_Threading_AsyncOperation___0____0_System_String_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TArgument
-  - name: )
-  - name: (
-  - uid: SuperOffice.Threading.AsyncOperation`1
-    name: AsyncOperation
-    isExternal: true
-    href: SuperOffice.Threading.AsyncOperation-1.html
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TArgument
-  - name: )
-  - name: ','
-  - name: " "
-  - name: TArgument
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: SuperOffice.Threading.ThreadManager.SpawnThread``1(SuperOffice.Threading.AsyncOperation{``0},``0,System.String,System.Boolean,System.Boolean,System.Boolean)
-  commentId: M:SuperOffice.Threading.ThreadManager.SpawnThread``1(SuperOffice.Threading.AsyncOperation{``0},``0,System.String,System.Boolean,System.Boolean,System.Boolean)
-  isExternal: true
-  href: SuperOffice.Threading.ThreadManager.html#SuperOffice_Threading_ThreadManager_SpawnThread__1_SuperOffice_Threading_AsyncOperation___0____0_System_String_System_Boolean_System_Boolean_System_Boolean_
-  name: SpawnThread<TArgument>(AsyncOperation<TArgument>, TArgument, string, bool, bool, bool)
-  nameWithType: ThreadManager.SpawnThread<TArgument>(AsyncOperation<TArgument>, TArgument, string, bool, bool, bool)
-  fullName: SuperOffice.Threading.ThreadManager.SpawnThread<TArgument>(SuperOffice.Threading.AsyncOperation<TArgument>, TArgument, string, bool, bool, bool)
-  nameWithType.vb: ThreadManager.SpawnThread(Of TArgument)(AsyncOperation(Of TArgument), TArgument, String, Boolean, Boolean, Boolean)
-  fullName.vb: SuperOffice.Threading.ThreadManager.SpawnThread(Of TArgument)(SuperOffice.Threading.AsyncOperation(Of TArgument), TArgument, String, Boolean, Boolean, Boolean)
-  name.vb: SpawnThread(Of TArgument)(AsyncOperation(Of TArgument), TArgument, String, Boolean, Boolean, Boolean)
-  spec.csharp:
-  - uid: SuperOffice.Threading.ThreadManager.SpawnThread``1(SuperOffice.Threading.AsyncOperation{``0},``0,System.String,System.Boolean,System.Boolean,System.Boolean)
-    name: SpawnThread
-    isExternal: true
-    href: SuperOffice.Threading.ThreadManager.html#SuperOffice_Threading_ThreadManager_SpawnThread__1_SuperOffice_Threading_AsyncOperation___0____0_System_String_System_Boolean_System_Boolean_System_Boolean_
-  - name: <
-  - name: TArgument
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Threading.AsyncOperation`1
-    name: AsyncOperation
-    isExternal: true
-    href: SuperOffice.Threading.AsyncOperation-1.html
-  - name: <
-  - name: TArgument
-  - name: '>'
-  - name: ','
-  - name: " "
-  - name: TArgument
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: bool
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: bool
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: bool
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Threading.ThreadManager.SpawnThread``1(SuperOffice.Threading.AsyncOperation{``0},``0,System.String,System.Boolean,System.Boolean,System.Boolean)
-    name: SpawnThread
-    isExternal: true
-    href: SuperOffice.Threading.ThreadManager.html#SuperOffice_Threading_ThreadManager_SpawnThread__1_SuperOffice_Threading_AsyncOperation___0____0_System_String_System_Boolean_System_Boolean_System_Boolean_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TArgument
-  - name: )
-  - name: (
-  - uid: SuperOffice.Threading.AsyncOperation`1
-    name: AsyncOperation
-    isExternal: true
-    href: SuperOffice.Threading.AsyncOperation-1.html
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TArgument
-  - name: )
-  - name: ','
-  - name: " "
-  - name: TArgument
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: Boolean
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: Boolean
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: Boolean
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-- uid: SuperOffice.SoSession.Close
-  commentId: M:SuperOffice.SoSession.Close
-  isExternal: true
-  href: SuperOffice.SoSession.html#SuperOffice_SoSession_Close
-  name: Close()
-  nameWithType: SoSession.Close()
-  fullName: SuperOffice.SoSession.Close()
-  spec.csharp:
-  - uid: SuperOffice.SoSession.Close
-    name: Close
-    isExternal: true
-    href: SuperOffice.SoSession.html#SuperOffice_SoSession_Close
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.SoSession.Close
-    name: Close
-    isExternal: true
-    href: SuperOffice.SoSession.html#SuperOffice_SoSession_Close
-  - name: (
-  - name: )
-- uid: SuperOffice.SoSession.Suspend
-  commentId: M:SuperOffice.SoSession.Suspend
-  isExternal: true
-  href: SuperOffice.SoSession.html#SuperOffice_SoSession_Suspend
-  name: Suspend()
-  nameWithType: SoSession.Suspend()
-  fullName: SuperOffice.SoSession.Suspend()
-  spec.csharp:
-  - uid: SuperOffice.SoSession.Suspend
-    name: Suspend
-    isExternal: true
-    href: SuperOffice.SoSession.html#SuperOffice_SoSession_Suspend
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.SoSession.Suspend
-    name: Suspend
-    isExternal: true
-    href: SuperOffice.SoSession.html#SuperOffice_SoSession_Suspend
-  - name: (
-  - name: )
 - uid: SuperOffice.Security.SoImpersonationContext.Impersonate*
   commentId: Overload:SuperOffice.Security.SoImpersonationContext.Impersonate
   isExternal: true
-  href: SuperOffice.Security.SoImpersonationContext.html#SuperOffice_Security_SoImpersonationContext_Impersonate_System_String_
   name: Impersonate
   nameWithType: SoImpersonationContext.Impersonate
   fullName: SuperOffice.Security.SoImpersonationContext.Impersonate
@@ -1046,68 +489,37 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.Security.SoImpersonationContext
   commentId: T:SuperOffice.Security.SoImpersonationContext
   parent: SuperOffice.Security
   isExternal: true
-  href: SuperOffice.Security.SoImpersonationContext.html
   name: SoImpersonationContext
   nameWithType: SoImpersonationContext
   fullName: SuperOffice.Security.SoImpersonationContext
 - uid: SuperOffice.Security.SoImpersonationContext.Revert*
   commentId: Overload:SuperOffice.Security.SoImpersonationContext.Revert
   isExternal: true
-  href: SuperOffice.Security.SoImpersonationContext.html#SuperOffice_Security_SoImpersonationContext_Revert
   name: Revert
   nameWithType: SoImpersonationContext.Revert
   fullName: SuperOffice.Security.SoImpersonationContext.Revert
 - uid: SuperOffice.Security.SoImpersonationContext.Dispose*
   commentId: Overload:SuperOffice.Security.SoImpersonationContext.Dispose
   isExternal: true
-  href: SuperOffice.Security.SoImpersonationContext.html#SuperOffice_Security_SoImpersonationContext_Dispose
   name: Dispose
   nameWithType: SoImpersonationContext.Dispose
   fullName: SuperOffice.Security.SoImpersonationContext.Dispose
-- uid: System.IDisposable.Dispose
-  commentId: M:System.IDisposable.Dispose
-  parent: System.IDisposable
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
-  name: Dispose()
-  nameWithType: IDisposable.Dispose()
-  fullName: System.IDisposable.Dispose()
-  spec.csharp:
-  - uid: System.IDisposable.Dispose
-    name: Dispose
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.IDisposable.Dispose
-    name: Dispose
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
-  - name: (
-  - name: )
 - uid: SuperOffice.Security.SoImpersonationContext.RealPrincipal*
   commentId: Overload:SuperOffice.Security.SoImpersonationContext.RealPrincipal
   isExternal: true
-  href: SuperOffice.Security.SoImpersonationContext.html#SuperOffice_Security_SoImpersonationContext_RealPrincipal
   name: RealPrincipal
   nameWithType: SoImpersonationContext.RealPrincipal
   fullName: SuperOffice.Security.SoImpersonationContext.RealPrincipal
 - uid: SuperOffice.Security.SoImpersonationContext.ImpersonatedPrincipal*
   commentId: Overload:SuperOffice.Security.SoImpersonationContext.ImpersonatedPrincipal
   isExternal: true
-  href: SuperOffice.Security.SoImpersonationContext.html#SuperOffice_Security_SoImpersonationContext_ImpersonatedPrincipal
   name: ImpersonatedPrincipal
   nameWithType: SoImpersonationContext.ImpersonatedPrincipal
   fullName: SuperOffice.Security.SoImpersonationContext.ImpersonatedPrincipal

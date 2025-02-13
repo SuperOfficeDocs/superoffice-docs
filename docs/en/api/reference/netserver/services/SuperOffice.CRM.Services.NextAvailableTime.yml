@@ -19,27 +19,18 @@ items:
   nameWithType: NextAvailableTime
   fullName: SuperOffice.CRM.Services.NextAvailableTime
   type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    The soonest-available working time slot
-
-    <p></p>
-
-    Carrier object for NextAvailableTime.
-
-    Services for the NextAvailableTime Carrier is available from the <xref href="SuperOffice.CRM.Services.IAppointmentAgent?text=Appointment+Agent" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nThe soonest-available working time slot\n<p></p>\nCarrier object for NextAvailableTime.\nServices for the NextAvailableTime Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IAppointmentAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public class NextAvailableTime : Carrier
+    content: 'public class NextAvailableTime : Carrier'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
-
-      Public Class NextAvailableTime Inherits Carrier
+      Public Class NextAvailableTime
+          Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.AppointmentAgent
     commentId: T:SuperOffice.CRM.Services.AppointmentAgent
@@ -47,14 +38,12 @@ items:
     commentId: T:SuperOffice.CRM.Services.IAppointmentAgent
   inheritance:
   - System.Object
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.NextAvailableTime.#ctor
   commentId: M:SuperOffice.CRM.Services.NextAvailableTime.#ctor
   id: '#ctor'
@@ -66,18 +55,21 @@ items:
   nameWithType: NextAvailableTime.NextAvailableTime()
   fullName: SuperOffice.CRM.Services.NextAvailableTime.NextAvailableTime()
   type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Default constructor
-  example: []
+  summary: "\nDefault constructor\n"
   syntax:
     content: public NextAvailableTime()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.NextAvailableTime.#ctor*
-  nameWithType.vb: NextAvailableTime.New()
-  fullName.vb: SuperOffice.CRM.Services.NextAvailableTime.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.NextAvailableTime.ToString
   commentId: M:SuperOffice.CRM.Services.NextAvailableTime.ToString
   id: ToString
@@ -89,18 +81,26 @@ items:
   nameWithType: NextAvailableTime.ToString()
   fullName: SuperOffice.CRM.Services.NextAvailableTime.ToString()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the carrier contents as a formatted string.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string.\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString() As String
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.CRM.Services.NextAvailableTime.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Services.NextAvailableTime.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.NextAvailableTime.ToString(System.String)
   id: ToString(System.String)
@@ -108,18 +108,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(string)
-  nameWithType: NextAvailableTime.ToString(string)
-  fullName: SuperOffice.CRM.Services.NextAvailableTime.ToString(string)
+  name: ToString(String)
+  nameWithType: NextAvailableTime.ToString(String)
+  fullName: SuperOffice.CRM.Services.NextAvailableTime.ToString(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Returns the carrier contents as a formatted string, useful for debugging.
-
-    Each line in the output is prefixed with the input value.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -131,9 +130,10 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.NextAvailableTime.ToString*
-  nameWithType.vb: NextAvailableTime.ToString(String)
-  fullName.vb: SuperOffice.CRM.Services.NextAvailableTime.ToString(String)
-  name.vb: ToString(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.NextAvailableTime.AvailableTimeStart
   commentId: P:SuperOffice.CRM.Services.NextAvailableTime.AvailableTimeStart
   id: AvailableTimeStart
@@ -145,28 +145,28 @@ items:
   nameWithType: NextAvailableTime.AvailableTimeStart
   fullName: SuperOffice.CRM.Services.NextAvailableTime.AvailableTimeStart
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The available start date time.
-  example: []
+  summary: "\nThe available start date time. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual DateTime AvailableTimeStart { get; set; }
+    content: public virtual DateTime AvailableTimeStart { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property AvailableTimeStart As Date
+    content.vb: Public Overridable Property AvailableTimeStart As DateTime
   overload: SuperOffice.CRM.Services.NextAvailableTime.AvailableTimeStart*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.NextAvailableTime.AvailableTimeEnd
   commentId: P:SuperOffice.CRM.Services.NextAvailableTime.AvailableTimeEnd
   id: AvailableTimeEnd
@@ -178,28 +178,28 @@ items:
   nameWithType: NextAvailableTime.AvailableTimeEnd
   fullName: SuperOffice.CRM.Services.NextAvailableTime.AvailableTimeEnd
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The available end date time.
-  example: []
+  summary: "\nThe available end date time. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual DateTime AvailableTimeEnd { get; set; }
+    content: public virtual DateTime AvailableTimeEnd { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property AvailableTimeEnd As Date
+    content.vb: Public Overridable Property AvailableTimeEnd As DateTime
   overload: SuperOffice.CRM.Services.NextAvailableTime.AvailableTimeEnd*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.NextAvailableTime.RecommendedTimeStart
   commentId: P:SuperOffice.CRM.Services.NextAvailableTime.RecommendedTimeStart
   id: RecommendedTimeStart
@@ -211,28 +211,28 @@ items:
   nameWithType: NextAvailableTime.RecommendedTimeStart
   fullName: SuperOffice.CRM.Services.NextAvailableTime.RecommendedTimeStart
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The recommended start date time.
-  example: []
+  summary: "\nThe recommended start date time. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual DateTime RecommendedTimeStart { get; set; }
+    content: public virtual DateTime RecommendedTimeStart { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property RecommendedTimeStart As Date
+    content.vb: Public Overridable Property RecommendedTimeStart As DateTime
   overload: SuperOffice.CRM.Services.NextAvailableTime.RecommendedTimeStart*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.NextAvailableTime.RecommendedTimeEnd
   commentId: P:SuperOffice.CRM.Services.NextAvailableTime.RecommendedTimeEnd
   id: RecommendedTimeEnd
@@ -244,33 +244,38 @@ items:
   nameWithType: NextAvailableTime.RecommendedTimeEnd
   fullName: SuperOffice.CRM.Services.NextAvailableTime.RecommendedTimeEnd
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The recomended end date time.
-  example: []
+  summary: "\nThe recomended end date time. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual DateTime RecommendedTimeEnd { get; set; }
+    content: public virtual DateTime RecommendedTimeEnd { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property RecommendedTimeEnd As Date
+    content.vb: Public Overridable Property RecommendedTimeEnd As DateTime
   overload: SuperOffice.CRM.Services.NextAvailableTime.RecommendedTimeEnd*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
 - uid: SuperOffice.CRM.Services.AppointmentAgent
   commentId: T:SuperOffice.CRM.Services.AppointmentAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.AppointmentAgent.html
   name: AppointmentAgent
   nameWithType: AppointmentAgent
   fullName: SuperOffice.CRM.Services.AppointmentAgent
@@ -278,79 +283,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.IAppointmentAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.IAppointmentAgent.html
   name: IAppointmentAgent
   nameWithType: IAppointmentAgent
   fullName: SuperOffice.CRM.Services.IAppointmentAgent
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.NextAvailableTime.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.NextAvailableTime.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.NextAvailableTime.html#SuperOffice_CRM_Services_NextAvailableTime__ctor
   name: NextAvailableTime
   nameWithType: NextAvailableTime.NextAvailableTime
   fullName: SuperOffice.CRM.Services.NextAvailableTime.NextAvailableTime
-  nameWithType.vb: NextAvailableTime.New
-  fullName.vb: SuperOffice.CRM.Services.NextAvailableTime.New
-  name.vb: New
 - uid: SuperOffice.CRM.Services.NextAvailableTime.ToString*
   commentId: Overload:SuperOffice.CRM.Services.NextAvailableTime.ToString
   isExternal: true
-  href: SuperOffice.CRM.Services.NextAvailableTime.html#SuperOffice_CRM_Services_NextAvailableTime_ToString
   name: ToString
   nameWithType: NextAvailableTime.ToString
   fullName: SuperOffice.CRM.Services.NextAvailableTime.ToString
@@ -358,49 +302,41 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.NextAvailableTime.AvailableTimeStart*
   commentId: Overload:SuperOffice.CRM.Services.NextAvailableTime.AvailableTimeStart
   isExternal: true
-  href: SuperOffice.CRM.Services.NextAvailableTime.html#SuperOffice_CRM_Services_NextAvailableTime_AvailableTimeStart
   name: AvailableTimeStart
   nameWithType: NextAvailableTime.AvailableTimeStart
   fullName: SuperOffice.CRM.Services.NextAvailableTime.AvailableTimeStart
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
 - uid: SuperOffice.CRM.Services.NextAvailableTime.AvailableTimeEnd*
   commentId: Overload:SuperOffice.CRM.Services.NextAvailableTime.AvailableTimeEnd
   isExternal: true
-  href: SuperOffice.CRM.Services.NextAvailableTime.html#SuperOffice_CRM_Services_NextAvailableTime_AvailableTimeEnd
   name: AvailableTimeEnd
   nameWithType: NextAvailableTime.AvailableTimeEnd
   fullName: SuperOffice.CRM.Services.NextAvailableTime.AvailableTimeEnd
 - uid: SuperOffice.CRM.Services.NextAvailableTime.RecommendedTimeStart*
   commentId: Overload:SuperOffice.CRM.Services.NextAvailableTime.RecommendedTimeStart
   isExternal: true
-  href: SuperOffice.CRM.Services.NextAvailableTime.html#SuperOffice_CRM_Services_NextAvailableTime_RecommendedTimeStart
   name: RecommendedTimeStart
   nameWithType: NextAvailableTime.RecommendedTimeStart
   fullName: SuperOffice.CRM.Services.NextAvailableTime.RecommendedTimeStart
 - uid: SuperOffice.CRM.Services.NextAvailableTime.RecommendedTimeEnd*
   commentId: Overload:SuperOffice.CRM.Services.NextAvailableTime.RecommendedTimeEnd
   isExternal: true
-  href: SuperOffice.CRM.Services.NextAvailableTime.html#SuperOffice_CRM_Services_NextAvailableTime_RecommendedTimeEnd
   name: RecommendedTimeEnd
   nameWithType: NextAvailableTime.RecommendedTimeEnd
   fullName: SuperOffice.CRM.Services.NextAvailableTime.RecommendedTimeEnd

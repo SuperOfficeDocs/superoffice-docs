@@ -16,58 +16,36 @@ items:
   nameWithType: VisitorPatternHelper<ReturnType>
   fullName: SuperOffice.Util.VisitorPatternHelper<ReturnType>
   type: Class
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: Helper class for performing a Visitor-type invocation of methods on some node structure
-  remarks: >-
-    See http://en.wikipedia.org/wiki/Visitor_pattern for a description of the Visitor pattern.
-
-    Visitor is a fairly abstract pattern and will usually require some thought to follow through.
-
-    <p></p>
-
-    The VisitorPatternHelper class performs the dispatching/invocation of visitor methods,
-
-    so the client class only needs to provide methods that handle the required types of nodes in 
-
-    the visited structure.
-
-    <p></p>
-
-    Generally the client class will provide a class instance that contains one or more Visit methods. It will
-
-    then call the <xref href="SuperOffice.Util.VisitorPatternHelper%601.InvokeStrictVisitor(System.Object%5b%5d)" data-throw-if-not-resolved="false"></xref> or <xref href="SuperOffice.Util.VisitorPatternHelper%601.InvokeTolerantVisitor(System.Object%5b%5d)" data-throw-if-not-resolved="false"></xref> method, giving
-
-    the root node of some structure to be visited as the input parameter(s).
-
-    <p></p>
-
-    The VisitorPatternHelper will reflect on the client class and try to find a method whose signature
-
-    matches the input. If it finds one, it will forward the call to this method, which may recursively
-
-    call one of the InvokeXXXVisitor methods in turn.
-  example: []
+  summary: "\nHelper class for performing a Visitor-type invocation of methods on some node structure\n"
+  remarks: "\nSee http://en.wikipedia.org/wiki/Visitor_pattern for a description of the Visitor pattern.\nVisitor is a fairly abstract pattern and will usually require some thought to follow through.\n<p></p>\nThe <see cref=\"!:VisitorPatternHelper\"></see> class performs the dispatching/invocation of visitor methods,\nso the client class only needs to provide methods that handle the required types of nodes in \nthe visited structure.\n<p></p>\nGenerally the client class will provide a class instance that contains one or more Visit methods. It will\nthen call the <xref href=\"SuperOffice.Util.VisitorPatternHelper%601.InvokeStrictVisitor(System.Object%5b%5d)\" data-throw-if-not-resolved=\"false\"></xref> or <xref href=\"SuperOffice.Util.VisitorPatternHelper%601.InvokeTolerantVisitor(System.Object%5b%5d)\" data-throw-if-not-resolved=\"false\"></xref> method, giving\nthe root node of some structure to be visited as the input parameter(s).\n<p></p>\nThe VisitorPatternHelper will reflect on the client class and try to find a method whose signature\nmatches the input. If it finds one, it will forward the call to this method, which may recursively\ncall one of the InvokeXXXVisitor methods in turn.\n"
   syntax:
-    content: public sealed class VisitorPatternHelper<ReturnType>
+    content: 'public sealed class VisitorPatternHelper<ReturnType> : Object'
     typeParameters:
     - id: ReturnType
       description: Return type for the visit methods
-    content.vb: Public NotInheritable Class VisitorPatternHelper(Of ReturnType)
+    content.vb: >-
+      Public NotInheritable Class VisitorPatternHelper(Of ReturnType)
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
   extensionMethods:
   - SuperOffice.Util.VisitorPatternHelper`1.EnumUtil.MapEnums``2
   - SuperOffice.Util.VisitorPatternHelper`1.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   nameWithType.vb: VisitorPatternHelper(Of ReturnType)
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
   fullName.vb: SuperOffice.Util.VisitorPatternHelper(Of ReturnType)
   name.vb: VisitorPatternHelper(Of ReturnType)
 - uid: SuperOffice.Util.VisitorPatternHelper`1.#ctor(System.String,System.Object)
@@ -77,15 +55,17 @@ items:
   langs:
   - csharp
   - vb
-  name: VisitorPatternHelper(string, object)
-  nameWithType: VisitorPatternHelper<ReturnType>.VisitorPatternHelper(string, object)
-  fullName: SuperOffice.Util.VisitorPatternHelper<ReturnType>.VisitorPatternHelper(string, object)
+  name: VisitorPatternHelper(String, Object)
+  nameWithType: VisitorPatternHelper<ReturnType>.VisitorPatternHelper(String, Object)
+  fullName: SuperOffice.Util.VisitorPatternHelper<ReturnType>.VisitorPatternHelper(System.String, System.Object)
   type: Constructor
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: Initialize the visitor helper with a method prefix and a target class
-  example: []
+  summary: "\nInitialize the visitor helper with a method prefix and a target class\n"
   syntax:
     content: public VisitorPatternHelper(string methodPrefix, object targetClass)
     parameters:
@@ -97,9 +77,12 @@ items:
       description: The class that contains the visitation methods
     content.vb: Public Sub New(methodPrefix As String, targetClass As Object)
   overload: SuperOffice.Util.VisitorPatternHelper`1.#ctor*
-  nameWithType.vb: VisitorPatternHelper(Of ReturnType).New(String, Object)
-  fullName.vb: SuperOffice.Util.VisitorPatternHelper(Of ReturnType).New(String, Object)
-  name.vb: New(String, Object)
+  nameWithType.vb: VisitorPatternHelper(Of ReturnType).VisitorPatternHelper(String, Object)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Util.VisitorPatternHelper(Of ReturnType).VisitorPatternHelper(System.String, System.Object)
 - uid: SuperOffice.Util.VisitorPatternHelper`1.InvokeStrictVisitor(System.Object[])
   commentId: M:SuperOffice.Util.VisitorPatternHelper`1.InvokeStrictVisitor(System.Object[])
   id: InvokeStrictVisitor(System.Object[])
@@ -107,18 +90,17 @@ items:
   langs:
   - csharp
   - vb
-  name: InvokeStrictVisitor(params object[])
-  nameWithType: VisitorPatternHelper<ReturnType>.InvokeStrictVisitor(params object[])
-  fullName: SuperOffice.Util.VisitorPatternHelper<ReturnType>.InvokeStrictVisitor(params object[])
+  name: InvokeStrictVisitor(Object[])
+  nameWithType: VisitorPatternHelper<ReturnType>.InvokeStrictVisitor(Object[])
+  fullName: SuperOffice.Util.VisitorPatternHelper<ReturnType>.InvokeStrictVisitor(System.Object[])
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: >-
-    Invoke the visitor, by finding and calling the method in the target class that has a signature
-
-    matching the visitorArguments. If no such method is found, an exception is thrown.
-  example: []
+  summary: "\nInvoke the visitor, by finding and calling the method in the target class that has a signature\nmatching the visitorArguments. If no such method is found, an exception is thrown.\n"
   syntax:
     content: public ReturnType InvokeStrictVisitor(params object[] visitorArguments)
     parameters:
@@ -133,13 +115,14 @@ items:
   exceptions:
   - type: SuperOffice.Exceptions.SoNotImplementedException
     commentId: T:SuperOffice.Exceptions.SoNotImplementedException
-    description: >-
-      Thrown if the target class (given to the constructor)
-                  does not contain a method with the given name prefix and parameter signature corresponding to 
-                  the current set of parameters (visitorArguments)
-  nameWithType.vb: VisitorPatternHelper(Of ReturnType).InvokeStrictVisitor(ParamArray Object())
-  fullName.vb: SuperOffice.Util.VisitorPatternHelper(Of ReturnType).InvokeStrictVisitor(ParamArray Object())
-  name.vb: InvokeStrictVisitor(ParamArray Object())
+    description: "Thrown if the target class (given to the constructor)\ndoes not contain a method with the given name prefix and parameter signature corresponding to \nthe current set of parameters (visitorArguments)"
+  nameWithType.vb: VisitorPatternHelper(Of ReturnType).InvokeStrictVisitor(Object())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Util.VisitorPatternHelper(Of ReturnType).InvokeStrictVisitor(System.Object())
+  name.vb: InvokeStrictVisitor(Object())
 - uid: SuperOffice.Util.VisitorPatternHelper`1.InvokeTolerantVisitor(System.Object[])
   commentId: M:SuperOffice.Util.VisitorPatternHelper`1.InvokeTolerantVisitor(System.Object[])
   id: InvokeTolerantVisitor(System.Object[])
@@ -147,20 +130,17 @@ items:
   langs:
   - csharp
   - vb
-  name: InvokeTolerantVisitor(params object[])
-  nameWithType: VisitorPatternHelper<ReturnType>.InvokeTolerantVisitor(params object[])
-  fullName: SuperOffice.Util.VisitorPatternHelper<ReturnType>.InvokeTolerantVisitor(params object[])
+  name: InvokeTolerantVisitor(Object[])
+  nameWithType: VisitorPatternHelper<ReturnType>.InvokeTolerantVisitor(Object[])
+  fullName: SuperOffice.Util.VisitorPatternHelper<ReturnType>.InvokeTolerantVisitor(System.Object[])
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: >-
-    Invoke the visitor, by finding and calling the method in the target class that has a signature
-
-    matching the visitorArguments. If no such method is found, no call is made and default(ReturnType) is returned
-
-    (no exception thrown).
-  example: []
+  summary: "\nInvoke the visitor, by finding and calling the method in the target class that has a signature\nmatching the visitorArguments. If no such method is found, no call is made and default(ReturnType) is returned\n(no exception thrown).\n"
   syntax:
     content: public ReturnType InvokeTolerantVisitor(params object[] visitorArguments)
     parameters:
@@ -172,9 +152,13 @@ items:
       description: Return value from the visitation method
     content.vb: Public Function InvokeTolerantVisitor(ParamArray visitorArguments As Object()) As ReturnType
   overload: SuperOffice.Util.VisitorPatternHelper`1.InvokeTolerantVisitor*
-  nameWithType.vb: VisitorPatternHelper(Of ReturnType).InvokeTolerantVisitor(ParamArray Object())
-  fullName.vb: SuperOffice.Util.VisitorPatternHelper(Of ReturnType).InvokeTolerantVisitor(ParamArray Object())
-  name.vb: InvokeTolerantVisitor(ParamArray Object())
+  nameWithType.vb: VisitorPatternHelper(Of ReturnType).InvokeTolerantVisitor(Object())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Util.VisitorPatternHelper(Of ReturnType).InvokeTolerantVisitor(System.Object())
+  name.vb: InvokeTolerantVisitor(Object())
 - uid: SuperOffice.Util.VisitorPatternHelper`1.InvokeVisitor(System.Boolean,System.Object[])
   commentId: M:SuperOffice.Util.VisitorPatternHelper`1.InvokeVisitor(System.Boolean,System.Object[])
   id: InvokeVisitor(System.Boolean,System.Object[])
@@ -182,18 +166,17 @@ items:
   langs:
   - csharp
   - vb
-  name: InvokeVisitor(bool, params object[])
-  nameWithType: VisitorPatternHelper<ReturnType>.InvokeVisitor(bool, params object[])
-  fullName: SuperOffice.Util.VisitorPatternHelper<ReturnType>.InvokeVisitor(bool, params object[])
+  name: InvokeVisitor(Boolean, Object[])
+  nameWithType: VisitorPatternHelper<ReturnType>.InvokeVisitor(Boolean, Object[])
+  fullName: SuperOffice.Util.VisitorPatternHelper<ReturnType>.InvokeVisitor(System.Boolean, System.Object[])
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: >-
-    InvokeVisitor checks the in-parameters type against the already existing method dictionary.
-
-    When the key is found in the array, the key's object method is called.
-  example: []
+  summary: "\nInvokeVisitor checks the in-parameters type against the already existing method dictionary.\nWhen the key is found in the array, the key&apos;s object method is called.\n"
   syntax:
     content: public ReturnType InvokeVisitor(bool failIfMissing, params object[] visitorArguments)
     parameters:
@@ -201,10 +184,7 @@ items:
       type: System.Boolean
     - id: visitorArguments
       type: System.Object[]
-      description: >-
-        arguments as passed to the method.  The arguments' type needs to be an 
-
-        exact match of the type implemented in the appropriate target method.
+      description: "\narguments as passed to the method.  The arguments&apos; type needs to be an \nexact match of the type implemented in the appropriate target method.\n"
     return:
       type: '{ReturnType}'
       description: returns the ReturnType returned from the Invoked target method
@@ -217,472 +197,104 @@ items:
   - type: SuperOffice.Exceptions.SoException
     commentId: T:SuperOffice.Exceptions.SoException
     description: An exception was thrown while trying to invoke the target method
-  nameWithType.vb: VisitorPatternHelper(Of ReturnType).InvokeVisitor(Boolean, ParamArray Object())
-  fullName.vb: SuperOffice.Util.VisitorPatternHelper(Of ReturnType).InvokeVisitor(Boolean, ParamArray Object())
-  name.vb: InvokeVisitor(Boolean, ParamArray Object())
+  nameWithType.vb: VisitorPatternHelper(Of ReturnType).InvokeVisitor(Boolean, Object())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Util.VisitorPatternHelper(Of ReturnType).InvokeVisitor(System.Boolean, System.Object())
+  name.vb: InvokeVisitor(Boolean, Object())
 references:
-- uid: SuperOffice.Util.VisitorPatternHelper`1.InvokeStrictVisitor(System.Object[])
-  commentId: M:SuperOffice.Util.VisitorPatternHelper`1.InvokeStrictVisitor(System.Object[])
-  isExternal: true
-  href: SuperOffice.Util.VisitorPatternHelper-1.html#SuperOffice_Util_VisitorPatternHelper_1_InvokeStrictVisitor_System_Object___
-  name: InvokeStrictVisitor(params object[])
-  nameWithType: VisitorPatternHelper<ReturnType>.InvokeStrictVisitor(params object[])
-  fullName: SuperOffice.Util.VisitorPatternHelper<ReturnType>.InvokeStrictVisitor(params object[])
-  nameWithType.vb: VisitorPatternHelper(Of ReturnType).InvokeStrictVisitor(ParamArray Object())
-  fullName.vb: SuperOffice.Util.VisitorPatternHelper(Of ReturnType).InvokeStrictVisitor(ParamArray Object())
-  name.vb: InvokeStrictVisitor(ParamArray Object())
-  spec.csharp:
-  - uid: SuperOffice.Util.VisitorPatternHelper`1.InvokeStrictVisitor(System.Object[])
-    name: InvokeStrictVisitor
-    isExternal: true
-    href: SuperOffice.Util.VisitorPatternHelper-1.html#SuperOffice_Util_VisitorPatternHelper_1_InvokeStrictVisitor_System_Object___
-  - name: (
-  - name: params
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: '['
-  - name: ']'
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.VisitorPatternHelper`1.InvokeStrictVisitor(System.Object[])
-    name: InvokeStrictVisitor
-    isExternal: true
-    href: SuperOffice.Util.VisitorPatternHelper-1.html#SuperOffice_Util_VisitorPatternHelper_1_InvokeStrictVisitor_System_Object___
-  - name: (
-  - name: ParamArray
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: (
-  - name: )
-  - name: )
-- uid: SuperOffice.Util.VisitorPatternHelper`1.InvokeTolerantVisitor(System.Object[])
-  commentId: M:SuperOffice.Util.VisitorPatternHelper`1.InvokeTolerantVisitor(System.Object[])
-  isExternal: true
-  href: SuperOffice.Util.VisitorPatternHelper-1.html#SuperOffice_Util_VisitorPatternHelper_1_InvokeTolerantVisitor_System_Object___
-  name: InvokeTolerantVisitor(params object[])
-  nameWithType: VisitorPatternHelper<ReturnType>.InvokeTolerantVisitor(params object[])
-  fullName: SuperOffice.Util.VisitorPatternHelper<ReturnType>.InvokeTolerantVisitor(params object[])
-  nameWithType.vb: VisitorPatternHelper(Of ReturnType).InvokeTolerantVisitor(ParamArray Object())
-  fullName.vb: SuperOffice.Util.VisitorPatternHelper(Of ReturnType).InvokeTolerantVisitor(ParamArray Object())
-  name.vb: InvokeTolerantVisitor(ParamArray Object())
-  spec.csharp:
-  - uid: SuperOffice.Util.VisitorPatternHelper`1.InvokeTolerantVisitor(System.Object[])
-    name: InvokeTolerantVisitor
-    isExternal: true
-    href: SuperOffice.Util.VisitorPatternHelper-1.html#SuperOffice_Util_VisitorPatternHelper_1_InvokeTolerantVisitor_System_Object___
-  - name: (
-  - name: params
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: '['
-  - name: ']'
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.VisitorPatternHelper`1.InvokeTolerantVisitor(System.Object[])
-    name: InvokeTolerantVisitor
-    isExternal: true
-    href: SuperOffice.Util.VisitorPatternHelper-1.html#SuperOffice_Util_VisitorPatternHelper_1_InvokeTolerantVisitor_System_Object___
-  - name: (
-  - name: ParamArray
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: (
-  - name: )
-  - name: )
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Util.VisitorPatternHelper`1.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<VisitorPatternHelper<ReturnType>, To>(VisitorPatternHelper<ReturnType>)
-  nameWithType: EnumUtil.MapEnums<VisitorPatternHelper<ReturnType>, To>(VisitorPatternHelper<ReturnType>)
-  fullName: EnumUtil.MapEnums<SuperOffice.Util.VisitorPatternHelper<ReturnType>, To>(SuperOffice.Util.VisitorPatternHelper<ReturnType>)
-  nameWithType.vb: EnumUtil.MapEnums(Of VisitorPatternHelper(Of ReturnType), To)(VisitorPatternHelper(Of ReturnType))
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Util.VisitorPatternHelper(Of ReturnType), To)(SuperOffice.Util.VisitorPatternHelper(Of ReturnType))
-  name.vb: MapEnums(Of VisitorPatternHelper(Of ReturnType), To)(VisitorPatternHelper(Of ReturnType))
+  name: MapEnums<VisitorPatternHelper<ReturnType>, To>()
+  nameWithType: EnumUtil.MapEnums<VisitorPatternHelper<ReturnType>, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Util.VisitorPatternHelper<ReturnType>, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of VisitorPatternHelper(Of ReturnType), To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Util.VisitorPatternHelper(Of ReturnType), To)()
+  name.vb: MapEnums(Of VisitorPatternHelper(Of ReturnType), To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Util.VisitorPatternHelper{`0})
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<VisitorPatternHelper<ReturnType>, To>
+    nameWithType: EnumUtil.MapEnums<VisitorPatternHelper<ReturnType>, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Util.VisitorPatternHelper<ReturnType>, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Util.VisitorPatternHelper`1
-    name: VisitorPatternHelper
-    isExternal: true
-    href: SuperOffice.Util.VisitorPatternHelper-1.html
-  - name: <
-  - name: ReturnType
-  - name: '>'
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Util.VisitorPatternHelper`1
-    name: VisitorPatternHelper
-    isExternal: true
-    href: SuperOffice.Util.VisitorPatternHelper-1.html
-  - name: <
-  - name: ReturnType
-  - name: '>'
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Util.VisitorPatternHelper{`0})
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of VisitorPatternHelper(Of ReturnType), To)
+    nameWithType: EnumUtil.MapEnums(Of VisitorPatternHelper(Of ReturnType), To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Util.VisitorPatternHelper(Of ReturnType), To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Util.VisitorPatternHelper`1
-    name: VisitorPatternHelper
-    isExternal: true
-    href: SuperOffice.Util.VisitorPatternHelper-1.html
-  - name: (
-  - name: Of
-  - name: " "
-  - name: ReturnType
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.Util.VisitorPatternHelper`1
-    name: VisitorPatternHelper
-    isExternal: true
-    href: SuperOffice.Util.VisitorPatternHelper-1.html
-  - name: (
-  - name: Of
-  - name: " "
-  - name: ReturnType
-  - name: )
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.VisitorPatternHelper`1.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<VisitorPatternHelper<ReturnType>, To>(VisitorPatternHelper<ReturnType>)
-  nameWithType: Converters.MapEnums<VisitorPatternHelper<ReturnType>, To>(VisitorPatternHelper<ReturnType>)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.VisitorPatternHelper<ReturnType>, To>(SuperOffice.Util.VisitorPatternHelper<ReturnType>)
-  nameWithType.vb: Converters.MapEnums(Of VisitorPatternHelper(Of ReturnType), To)(VisitorPatternHelper(Of ReturnType))
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.VisitorPatternHelper(Of ReturnType), To)(SuperOffice.Util.VisitorPatternHelper(Of ReturnType))
-  name.vb: MapEnums(Of VisitorPatternHelper(Of ReturnType), To)(VisitorPatternHelper(Of ReturnType))
+  name: MapEnums<VisitorPatternHelper<ReturnType>, To>()
+  nameWithType: Converters.MapEnums<VisitorPatternHelper<ReturnType>, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.VisitorPatternHelper<ReturnType>, To>()
+  nameWithType.vb: Converters.MapEnums(Of VisitorPatternHelper(Of ReturnType), To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.VisitorPatternHelper(Of ReturnType), To)()
+  name.vb: MapEnums(Of VisitorPatternHelper(Of ReturnType), To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Util.VisitorPatternHelper{`0})
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<VisitorPatternHelper<ReturnType>, To>
+    nameWithType: Converters.MapEnums<VisitorPatternHelper<ReturnType>, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.VisitorPatternHelper<ReturnType>, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Util.VisitorPatternHelper`1
-    name: VisitorPatternHelper
-    isExternal: true
-    href: SuperOffice.Util.VisitorPatternHelper-1.html
-  - name: <
-  - name: ReturnType
-  - name: '>'
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Util.VisitorPatternHelper`1
-    name: VisitorPatternHelper
-    isExternal: true
-    href: SuperOffice.Util.VisitorPatternHelper-1.html
-  - name: <
-  - name: ReturnType
-  - name: '>'
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Util.VisitorPatternHelper{`0})
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of VisitorPatternHelper(Of ReturnType), To)
+    nameWithType: Converters.MapEnums(Of VisitorPatternHelper(Of ReturnType), To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.VisitorPatternHelper(Of ReturnType), To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Util.VisitorPatternHelper`1
-    name: VisitorPatternHelper
-    isExternal: true
-    href: SuperOffice.Util.VisitorPatternHelper-1.html
-  - name: (
-  - name: Of
-  - name: " "
-  - name: ReturnType
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.Util.VisitorPatternHelper`1
-    name: VisitorPatternHelper
-    isExternal: true
-    href: SuperOffice.Util.VisitorPatternHelper-1.html
-  - name: (
-  - name: Of
-  - name: " "
-  - name: ReturnType
-  - name: )
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -691,45 +303,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -738,139 +348,102 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.Util.VisitorPatternHelper`1.#ctor*
   commentId: Overload:SuperOffice.Util.VisitorPatternHelper`1.#ctor
   isExternal: true
-  href: SuperOffice.Util.VisitorPatternHelper-1.html#SuperOffice_Util_VisitorPatternHelper_1__ctor_System_String_System_Object_
   name: VisitorPatternHelper
   nameWithType: VisitorPatternHelper<ReturnType>.VisitorPatternHelper
   fullName: SuperOffice.Util.VisitorPatternHelper<ReturnType>.VisitorPatternHelper
-  nameWithType.vb: VisitorPatternHelper(Of ReturnType).New
-  fullName.vb: SuperOffice.Util.VisitorPatternHelper(Of ReturnType).New
-  name.vb: New
+  nameWithType.vb: VisitorPatternHelper(Of ReturnType).VisitorPatternHelper
+  fullName.vb: SuperOffice.Util.VisitorPatternHelper(Of ReturnType).VisitorPatternHelper
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
-- uid: SuperOffice.Exceptions.SoNotImplementedException
-  commentId: T:SuperOffice.Exceptions.SoNotImplementedException
-  isExternal: true
-  href: SuperOffice.Exceptions.SoNotImplementedException.html
-  name: SoNotImplementedException
-  nameWithType: SoNotImplementedException
-  fullName: SuperOffice.Exceptions.SoNotImplementedException
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.Util.VisitorPatternHelper`1.InvokeStrictVisitor*
   commentId: Overload:SuperOffice.Util.VisitorPatternHelper`1.InvokeStrictVisitor
   isExternal: true
-  href: SuperOffice.Util.VisitorPatternHelper-1.html#SuperOffice_Util_VisitorPatternHelper_1_InvokeStrictVisitor_System_Object___
   name: InvokeStrictVisitor
   nameWithType: VisitorPatternHelper<ReturnType>.InvokeStrictVisitor
   fullName: SuperOffice.Util.VisitorPatternHelper<ReturnType>.InvokeStrictVisitor
   nameWithType.vb: VisitorPatternHelper(Of ReturnType).InvokeStrictVisitor
   fullName.vb: SuperOffice.Util.VisitorPatternHelper(Of ReturnType).InvokeStrictVisitor
+- uid: SuperOffice.Exceptions.SoNotImplementedException
+  commentId: T:SuperOffice.Exceptions.SoNotImplementedException
+  isExternal: true
+  name: SoNotImplementedException
+  nameWithType: SoNotImplementedException
+  fullName: SuperOffice.Exceptions.SoNotImplementedException
 - uid: System.Object[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object[]
-  nameWithType: object[]
-  fullName: object[]
+  name: Object[]
+  nameWithType: Object[]
+  fullName: System.Object[]
   nameWithType.vb: Object()
-  fullName.vb: Object()
+  fullName.vb: System.Object()
   name.vb: Object()
   spec.csharp:
   - uid: System.Object
-    name: object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.Object
     name: Object
+    nameWithType: Object
+    fullName: System.Object
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: '{ReturnType}'
   commentId: '!:ReturnType'
   definition: ReturnType
@@ -884,64 +457,36 @@ references:
 - uid: SuperOffice.Util.VisitorPatternHelper`1.InvokeTolerantVisitor*
   commentId: Overload:SuperOffice.Util.VisitorPatternHelper`1.InvokeTolerantVisitor
   isExternal: true
-  href: SuperOffice.Util.VisitorPatternHelper-1.html#SuperOffice_Util_VisitorPatternHelper_1_InvokeTolerantVisitor_System_Object___
   name: InvokeTolerantVisitor
   nameWithType: VisitorPatternHelper<ReturnType>.InvokeTolerantVisitor
   fullName: SuperOffice.Util.VisitorPatternHelper<ReturnType>.InvokeTolerantVisitor
   nameWithType.vb: VisitorPatternHelper(Of ReturnType).InvokeTolerantVisitor
   fullName.vb: SuperOffice.Util.VisitorPatternHelper(Of ReturnType).InvokeTolerantVisitor
-- uid: SuperOffice.Exceptions.SoException
-  commentId: T:SuperOffice.Exceptions.SoException
-  parent: SuperOffice.Exceptions
-  isExternal: true
-  href: SuperOffice.Exceptions.SoException.html
-  name: SoException
-  nameWithType: SoException
-  fullName: SuperOffice.Exceptions.SoException
 - uid: SuperOffice.Util.VisitorPatternHelper`1.InvokeVisitor*
   commentId: Overload:SuperOffice.Util.VisitorPatternHelper`1.InvokeVisitor
   isExternal: true
-  href: SuperOffice.Util.VisitorPatternHelper-1.html#SuperOffice_Util_VisitorPatternHelper_1_InvokeVisitor_System_Boolean_System_Object___
   name: InvokeVisitor
   nameWithType: VisitorPatternHelper<ReturnType>.InvokeVisitor
   fullName: SuperOffice.Util.VisitorPatternHelper<ReturnType>.InvokeVisitor
   nameWithType.vb: VisitorPatternHelper(Of ReturnType).InvokeVisitor
   fullName.vb: SuperOffice.Util.VisitorPatternHelper(Of ReturnType).InvokeVisitor
+- uid: SuperOffice.Exceptions.SoException
+  commentId: T:SuperOffice.Exceptions.SoException
+  parent: SuperOffice.Exceptions
+  isExternal: true
+  name: SoException
+  nameWithType: SoException
+  fullName: SuperOffice.Exceptions.SoException
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.Exceptions
   commentId: N:SuperOffice.Exceptions
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Exceptions
   nameWithType: SuperOffice.Exceptions
   fullName: SuperOffice.Exceptions
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Exceptions
-    name: Exceptions
-    isExternal: true
-    href: SuperOffice.Exceptions.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Exceptions
-    name: Exceptions
-    isExternal: true
-    href: SuperOffice.Exceptions.html

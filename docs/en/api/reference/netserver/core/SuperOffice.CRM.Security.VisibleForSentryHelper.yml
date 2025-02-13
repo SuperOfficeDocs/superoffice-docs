@@ -14,27 +14,27 @@ items:
   nameWithType: VisibleForSentryHelper
   fullName: SuperOffice.CRM.Security.VisibleForSentryHelper
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Security
-  summary: >-
-    Helper class for sentry functionality, to modify SELECT queries so that they include the
-
-    correct join and restriction
-  example: []
+  summary: "\nHelper class for sentry functionality, to modify SELECT queries so that they include the\ncorrect join and restriction\n"
   syntax:
-    content: public static class VisibleForSentryHelper
-    content.vb: Public Module VisibleForSentryHelper
+    content: 'public static class VisibleForSentryHelper : Object'
+    content.vb: >-
+      Public Module VisibleForSentryHelper
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
 - uid: SuperOffice.CRM.Security.VisibleForSentryHelper.GetVisibleForRestriction(SuperOffice.CRM.Data.VisibleForTableInfo)
   commentId: M:SuperOffice.CRM.Security.VisibleForSentryHelper.GetVisibleForRestriction(SuperOffice.CRM.Data.VisibleForTableInfo)
   id: GetVisibleForRestriction(SuperOffice.CRM.Data.VisibleForTableInfo)
@@ -46,26 +46,29 @@ items:
   nameWithType: VisibleForSentryHelper.GetVisibleForRestriction(VisibleForTableInfo)
   fullName: SuperOffice.CRM.Security.VisibleForSentryHelper.GetVisibleForRestriction(SuperOffice.CRM.Data.VisibleForTableInfo)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Security
-  summary: Get the VisibleFor restriction clause, checking for access via forAll, forGroupId and forAssociateId
-  remarks: >-
-    The group id check includes both the primary and all secondary user groups the current
-
-    associate is a member of
-  example: []
+  summary: "\nGet the VisibleFor restriction clause, checking for access via forAll, forGroupId and forAssociateId\n"
+  remarks: "\nThe group id check includes both the primary and all secondary user groups the current\nassociate is a member of\n"
   syntax:
     content: public static Restriction GetVisibleForRestriction(VisibleForTableInfo v)
     parameters:
     - id: v
       type: SuperOffice.CRM.Data.VisibleForTableInfo
-      description: ''
     return:
       type: SuperOffice.Data.SQL.Restriction
-      description: ''
     content.vb: Public Shared Function GetVisibleForRestriction(v As VisibleForTableInfo) As Restriction
   overload: SuperOffice.CRM.Security.VisibleForSentryHelper.GetVisibleForRestriction*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Security.VisibleForSentryHelper.JoinVisibleFor(SuperOffice.Data.SQL.Select,SuperOffice.Data.SQL.TableInfo)
   commentId: M:SuperOffice.CRM.Security.VisibleForSentryHelper.JoinVisibleFor(SuperOffice.Data.SQL.Select,SuperOffice.Data.SQL.TableInfo)
   id: JoinVisibleFor(SuperOffice.Data.SQL.Select,SuperOffice.Data.SQL.TableInfo)
@@ -77,25 +80,14 @@ items:
   nameWithType: VisibleForSentryHelper.JoinVisibleFor(Select, TableInfo)
   fullName: SuperOffice.CRM.Security.VisibleForSentryHelper.JoinVisibleFor(SuperOffice.Data.SQL.Select, SuperOffice.Data.SQL.TableInfo)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Security
-  summary: Modify the given query by adding the join to VisibleFor, with the proper restrictions
-  remarks: >-
-    If a join to VisibleFor is not required for the given table, nothing happens. If a join already
-
-    exists in the query, and is an outer join, then it is upgraded to an inner join. If restrictions
-
-    should be set up-front for filtering for this main table, that is done.
-
-    <p></p>
-
-    Important note - if the main table is itself an outer-joined table, then any joins created here
-
-    will also be left-outer (and existing ones will not be changed to inner), as that would break
-
-    the original left outer join and make it behave like an inner. Sorry, that is how SQL works.
-  example: []
+  summary: "\nModify the given query by adding the join to VisibleFor, with the proper restrictions\n"
+  remarks: "\nIf a join to VisibleFor is not required for the given table, nothing happens. If a join already\nexists in the query, and is an outer join, then it is upgraded to an inner join. If restrictions\nshould be set up-front for filtering for this main table, that is done.\n<p></p>\nImportant note - if the main table is itself an outer-joined table, then any joins created here\nwill also be left-outer (and existing ones will not be changed to inner), as that would break\nthe original left outer join and make it behave like an inner. Sorry, that is how SQL works.\n"
   syntax:
     content: public static void JoinVisibleFor(Select sql, TableInfo mainTable)
     parameters:
@@ -105,287 +97,37 @@ items:
     - id: mainTable
       type: SuperOffice.Data.SQL.TableInfo
       description: Main table of query
-    content.vb: Public Shared Sub JoinVisibleFor(sql As [Select], mainTable As TableInfo)
+    content.vb: Public Shared Sub JoinVisibleFor(sql As  Select, mainTable As TableInfo)
   overload: SuperOffice.CRM.Security.VisibleForSentryHelper.JoinVisibleFor*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 references:
 - uid: SuperOffice.CRM.Security
   commentId: N:SuperOffice.CRM.Security
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Security
   nameWithType: SuperOffice.CRM.Security
   fullName: SuperOffice.CRM.Security
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Security
-    name: Security
-    isExternal: true
-    href: SuperOffice.CRM.Security.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Security
-    name: Security
-    isExternal: true
-    href: SuperOffice.CRM.Security.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.CRM.Security.VisibleForSentryHelper.GetVisibleForRestriction*
   commentId: Overload:SuperOffice.CRM.Security.VisibleForSentryHelper.GetVisibleForRestriction
   isExternal: true
-  href: SuperOffice.CRM.Security.VisibleForSentryHelper.html#SuperOffice_CRM_Security_VisibleForSentryHelper_GetVisibleForRestriction_SuperOffice_CRM_Data_VisibleForTableInfo_
   name: GetVisibleForRestriction
   nameWithType: VisibleForSentryHelper.GetVisibleForRestriction
   fullName: SuperOffice.CRM.Security.VisibleForSentryHelper.GetVisibleForRestriction
@@ -393,7 +135,6 @@ references:
   commentId: T:SuperOffice.CRM.Data.VisibleForTableInfo
   parent: SuperOffice.CRM.Data
   isExternal: true
-  href: SuperOffice.CRM.Data.VisibleForTableInfo.html
   name: VisibleForTableInfo
   nameWithType: VisibleForTableInfo
   fullName: SuperOffice.CRM.Data.VisibleForTableInfo
@@ -401,88 +142,24 @@ references:
   commentId: T:SuperOffice.Data.SQL.Restriction
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.Restriction.html
   name: Restriction
   nameWithType: Restriction
   fullName: SuperOffice.Data.SQL.Restriction
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Data
   nameWithType: SuperOffice.CRM.Data
   fullName: SuperOffice.CRM.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.CRM.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.CRM.Data.html
 - uid: SuperOffice.Data.SQL
   commentId: N:SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.SQL
-    name: SQL
-    isExternal: true
-    href: SuperOffice.Data.SQL.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.SQL
-    name: SQL
-    isExternal: true
-    href: SuperOffice.Data.SQL.html
 - uid: SuperOffice.CRM.Security.VisibleForSentryHelper.JoinVisibleFor*
   commentId: Overload:SuperOffice.CRM.Security.VisibleForSentryHelper.JoinVisibleFor
   isExternal: true
-  href: SuperOffice.CRM.Security.VisibleForSentryHelper.html#SuperOffice_CRM_Security_VisibleForSentryHelper_JoinVisibleFor_SuperOffice_Data_SQL_Select_SuperOffice_Data_SQL_TableInfo_
   name: JoinVisibleFor
   nameWithType: VisibleForSentryHelper.JoinVisibleFor
   fullName: SuperOffice.CRM.Security.VisibleForSentryHelper.JoinVisibleFor
@@ -490,7 +167,6 @@ references:
   commentId: T:SuperOffice.Data.SQL.Select
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.Select.html
   name: Select
   nameWithType: Select
   fullName: SuperOffice.Data.SQL.Select
@@ -498,7 +174,6 @@ references:
   commentId: T:SuperOffice.Data.SQL.TableInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html
   name: TableInfo
   nameWithType: TableInfo
   fullName: SuperOffice.Data.SQL.TableInfo

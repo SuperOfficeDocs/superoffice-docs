@@ -9,41 +9,72 @@ items:
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features.ContactFull
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features.Extra
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features.NoContact
-  - SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features.NoPerson
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features.None
+  - SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features.NoPerson
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features.PersonFull
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features.Project
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features.Sale
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features.Shallow
+  - SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features.value__
   langs:
   - csharp
   - vb
   name: TicketExtenderBase.Features
   nameWithType: TicketExtenderBase.Features
   fullName: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features
-  type: Enum
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: >-
-      [Flags]
-
-      public enum TicketExtenderBase.Features
+    content: 'public sealed class Features : Enum'
     content.vb: >-
-      <Flags>
+      Public NotInheritable Class Features
+          Inherits
 
-      Public Enum TicketExtenderBase.Features
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features.EnumUtil.MapEnums``2
   - SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  - SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features)
-  - SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - System.Enum.SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.String)
-  attributes:
-  - type: System.FlagsAttribute
-    ctor: System.FlagsAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features.value__
+  commentId: F:SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features.value__
+  id: value__
+  parent: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: TicketExtenderBase.Features.value__
+  fullName: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features.value__
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features.None
   commentId: F:SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features.None
   id: None
@@ -55,13 +86,23 @@ items:
   nameWithType: TicketExtenderBase.Features.None
   fullName: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features.None
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: None = 0
+    content: public const TicketExtenderBase.Features None
     return:
       type: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features
+    content.vb: Public Const None As TicketExtenderBase.Features
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features.ContactFull
   commentId: F:SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features.ContactFull
   id: ContactFull
@@ -73,13 +114,23 @@ items:
   nameWithType: TicketExtenderBase.Features.ContactFull
   fullName: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features.ContactFull
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: ContactFull = 2
+    content: public const TicketExtenderBase.Features ContactFull
     return:
       type: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features
+    content.vb: Public Const ContactFull As TicketExtenderBase.Features
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features.PersonFull
   commentId: F:SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features.PersonFull
   id: PersonFull
@@ -91,13 +142,23 @@ items:
   nameWithType: TicketExtenderBase.Features.PersonFull
   fullName: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features.PersonFull
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: PersonFull = 4
+    content: public const TicketExtenderBase.Features PersonFull
     return:
       type: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features
+    content.vb: Public Const PersonFull As TicketExtenderBase.Features
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features.Extra
   commentId: F:SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features.Extra
   id: Extra
@@ -109,13 +170,23 @@ items:
   nameWithType: TicketExtenderBase.Features.Extra
   fullName: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features.Extra
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: Extra = 8
+    content: public const TicketExtenderBase.Features Extra
     return:
       type: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features
+    content.vb: Public Const Extra As TicketExtenderBase.Features
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features.NoPerson
   commentId: F:SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features.NoPerson
   id: NoPerson
@@ -127,13 +198,23 @@ items:
   nameWithType: TicketExtenderBase.Features.NoPerson
   fullName: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features.NoPerson
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: NoPerson = 16
+    content: public const TicketExtenderBase.Features NoPerson
     return:
       type: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features
+    content.vb: Public Const NoPerson As TicketExtenderBase.Features
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features.NoContact
   commentId: F:SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features.NoContact
   id: NoContact
@@ -145,13 +226,23 @@ items:
   nameWithType: TicketExtenderBase.Features.NoContact
   fullName: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features.NoContact
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: NoContact = 32
+    content: public const TicketExtenderBase.Features NoContact
     return:
       type: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features
+    content.vb: Public Const NoContact As TicketExtenderBase.Features
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features.Sale
   commentId: F:SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features.Sale
   id: Sale
@@ -163,13 +254,23 @@ items:
   nameWithType: TicketExtenderBase.Features.Sale
   fullName: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features.Sale
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: Sale = 64
+    content: public const TicketExtenderBase.Features Sale
     return:
       type: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features
+    content.vb: Public Const Sale As TicketExtenderBase.Features
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features.Project
   commentId: F:SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features.Project
   id: Project
@@ -181,13 +282,23 @@ items:
   nameWithType: TicketExtenderBase.Features.Project
   fullName: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features.Project
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: Project = 128
+    content: public const TicketExtenderBase.Features Project
     return:
       type: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features
+    content.vb: Public Const Project As TicketExtenderBase.Features
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features.Shallow
   commentId: F:SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features.Shallow
   id: Shallow
@@ -199,14 +310,23 @@ items:
   nameWithType: TicketExtenderBase.Features.Shallow
   fullName: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features.Shallow
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: Shallow = Extra | NoPerson | NoContact
+    content: public const TicketExtenderBase.Features Shallow
     return:
       type: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features
-    content.vb: Shallow = Extra Or NoPerson Or NoContact
+    content.vb: Public Const Shallow As TicketExtenderBase.Features
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features.All
   commentId: F:SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features.All
   id: All
@@ -218,313 +338,114 @@ items:
   nameWithType: TicketExtenderBase.Features.All
   fullName: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features.All
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: All = ContactFull | PersonFull | Extra | Sale | Project
+    content: public const TicketExtenderBase.Features All
     return:
       type: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features
-    content.vb: All = ContactFull Or PersonFull Or Extra Or Sale Or Project
+    content.vb: Public Const All As TicketExtenderBase.Features
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.CRM.ArchiveLists
   commentId: N:SuperOffice.CRM.ArchiveLists
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.ArchiveLists
   nameWithType: SuperOffice.CRM.ArchiveLists
   fullName: SuperOffice.CRM.ArchiveLists
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.ArchiveLists
-    name: ArchiveLists
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.ArchiveLists
-    name: ArchiveLists
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<Features, To>(Features)
-  nameWithType: EnumUtil.MapEnums<TicketExtenderBase.Features, To>(TicketExtenderBase.Features)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features, To>(SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features)
-  nameWithType.vb: EnumUtil.MapEnums(Of TicketExtenderBase.Features, To)(TicketExtenderBase.Features)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features, To)(SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features)
-  name.vb: MapEnums(Of Features, To)(Features)
+  name: MapEnums<TicketExtenderBase.Features, To>()
+  nameWithType: EnumUtil.MapEnums<TicketExtenderBase.Features, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of TicketExtenderBase.Features, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features, To)()
+  name.vb: MapEnums(Of TicketExtenderBase.Features, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<TicketExtenderBase.Features, To>
+    nameWithType: EnumUtil.MapEnums<TicketExtenderBase.Features, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features
-    name: Features
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features
-    name: Features
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of TicketExtenderBase.Features, To)
+    nameWithType: EnumUtil.MapEnums(Of TicketExtenderBase.Features, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features
-    name: Features
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features
-    name: Features
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<Features, To>(Features)
-  nameWithType: Converters.MapEnums<TicketExtenderBase.Features, To>(TicketExtenderBase.Features)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features, To>(SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features)
-  nameWithType.vb: Converters.MapEnums(Of TicketExtenderBase.Features, To)(TicketExtenderBase.Features)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features, To)(SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features)
-  name.vb: MapEnums(Of Features, To)(Features)
+  name: MapEnums<TicketExtenderBase.Features, To>()
+  nameWithType: Converters.MapEnums<TicketExtenderBase.Features, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features, To>()
+  nameWithType.vb: Converters.MapEnums(Of TicketExtenderBase.Features, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features, To)()
+  name.vb: MapEnums(Of TicketExtenderBase.Features, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<TicketExtenderBase.Features, To>
+    nameWithType: Converters.MapEnums<TicketExtenderBase.Features, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features
-    name: Features
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features
-    name: Features
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of TicketExtenderBase.Features, To)
+    nameWithType: Converters.MapEnums(Of TicketExtenderBase.Features, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features
-    name: Features
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features
-    name: Features
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features.html
-  - name: )
-- uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<Features>(Features, Features)
-  nameWithType: ObjectExtensions.AssignByReflection<TicketExtenderBase.Features>(TicketExtenderBase.Features, TicketExtenderBase.Features)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features>(SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features, SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of TicketExtenderBase.Features)(TicketExtenderBase.Features, TicketExtenderBase.Features)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features)(SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features, SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features)
-  name.vb: AssignByReflection(Of Features)(Features, Features)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features,SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features
-    name: Features
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features
-    name: Features
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features
-    name: Features
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features,SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features
-    name: Features
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features
-    name: Features
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features
-    name: Features
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features.html
-  - name: )
-- uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<Features>(Features)
-  nameWithType: ObjectExtensions.GraphCopy<TicketExtenderBase.Features>(TicketExtenderBase.Features)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features>(SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of TicketExtenderBase.Features)(TicketExtenderBase.Features)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features)(SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features)
-  name.vb: GraphCopy(Of Features)(Features)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features
-    name: Features
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features
-    name: Features
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features
-    name: Features
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features
-    name: Features
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features.html
-  - name: )
-- uid: System.Enum.SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.String)
-  commentId: M:SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.Enum,System.String)
-  parent: SuperOffice.CRM.RegistryExtensions
-  definition: SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.Enum,System.String)
-  href: SuperOffice.CRM.RegistryExtensions.html#SuperOffice_CRM_RegistryExtensions_GetRegistryRow_System_Enum_System_String_
-  name: GetRegistryRow(Enum, string)
-  nameWithType: RegistryExtensions.GetRegistryRow(Enum, string)
-  fullName: SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.Enum, string)
-  nameWithType.vb: RegistryExtensions.GetRegistryRow(Enum, String)
-  fullName.vb: SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.Enum, String)
-  name.vb: GetRegistryRow(Enum, String)
-  spec.csharp:
-  - uid: SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.Enum,System.String)
-    name: GetRegistryRow
-    isExternal: true
-    href: SuperOffice.CRM.RegistryExtensions.html#SuperOffice_CRM_RegistryExtensions_GetRegistryRow_System_Enum_System_String_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.Enum,System.String)
-    name: GetRegistryRow
-    isExternal: true
-    href: SuperOffice.CRM.RegistryExtensions.html#SuperOffice_CRM_RegistryExtensions_GetRegistryRow_System_Enum_System_String_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -533,45 +454,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -580,292 +499,58 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.Enum,System.String)
-  commentId: M:SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.Enum,System.String)
-  isExternal: true
-  href: SuperOffice.CRM.RegistryExtensions.html#SuperOffice_CRM_RegistryExtensions_GetRegistryRow_System_Enum_System_String_
-  name: GetRegistryRow(Enum, string)
-  nameWithType: RegistryExtensions.GetRegistryRow(Enum, string)
-  fullName: SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.Enum, string)
-  nameWithType.vb: RegistryExtensions.GetRegistryRow(Enum, String)
-  fullName.vb: SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.Enum, String)
-  name.vb: GetRegistryRow(Enum, String)
-  spec.csharp:
-  - uid: SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.Enum,System.String)
-    name: GetRegistryRow
-    isExternal: true
-    href: SuperOffice.CRM.RegistryExtensions.html#SuperOffice_CRM_RegistryExtensions_GetRegistryRow_System_Enum_System_String_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.Enum,System.String)
-    name: GetRegistryRow
-    isExternal: true
-    href: SuperOffice.CRM.RegistryExtensions.html#SuperOffice_CRM_RegistryExtensions_GetRegistryRow_System_Enum_System_String_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: SuperOffice.CRM.RegistryExtensions
-  commentId: T:SuperOffice.CRM.RegistryExtensions
-  parent: SuperOffice.CRM
-  isExternal: true
-  href: SuperOffice.CRM.RegistryExtensions.html
-  name: RegistryExtensions
-  nameWithType: RegistryExtensions
-  fullName: SuperOffice.CRM.RegistryExtensions
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-- uid: SuperOffice.CRM
-  commentId: N:SuperOffice.CRM
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM
-  nameWithType: SuperOffice.CRM
-  fullName: SuperOffice.CRM
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features
   commentId: T:SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features
   parent: SuperOffice.CRM.ArchiveLists
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.html
   name: TicketExtenderBase.Features
   nameWithType: TicketExtenderBase.Features
   fullName: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features
-  spec.csharp:
-  - uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase
-    name: TicketExtenderBase
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.html
-  - name: .
-  - uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features
-    name: Features
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features.html
-  spec.vb:
-  - uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase
-    name: TicketExtenderBase
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.html
-  - name: .
-  - uid: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features
-    name: Features
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.TicketExtenderBase.Features.html

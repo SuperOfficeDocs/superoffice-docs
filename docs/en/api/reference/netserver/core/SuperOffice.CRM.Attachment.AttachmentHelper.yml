@@ -19,24 +19,27 @@ items:
   nameWithType: AttachmentHelper
   fullName: SuperOffice.CRM.Attachment.AttachmentHelper
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Attachment
-  summary: Utility class for attachments helper methods.
-  example: []
+  summary: "\nUtility class for attachments helper methods.\n"
   syntax:
-    content: public static class AttachmentHelper
-    content.vb: Public Module AttachmentHelper
+    content: 'public static class AttachmentHelper : Object'
+    content.vb: >-
+      Public Module AttachmentHelper
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
 - uid: SuperOffice.CRM.Attachment.AttachmentHelper.DeleteAttachment(System.Int32)
   commentId: M:SuperOffice.CRM.Attachment.AttachmentHelper.DeleteAttachment(System.Int32)
   id: DeleteAttachment(System.Int32)
@@ -44,15 +47,17 @@ items:
   langs:
   - csharp
   - vb
-  name: DeleteAttachment(int)
-  nameWithType: AttachmentHelper.DeleteAttachment(int)
-  fullName: SuperOffice.CRM.Attachment.AttachmentHelper.DeleteAttachment(int)
+  name: DeleteAttachment(Int32)
+  nameWithType: AttachmentHelper.DeleteAttachment(Int32)
+  fullName: SuperOffice.CRM.Attachment.AttachmentHelper.DeleteAttachment(System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Attachment
-  summary: Deletes attachment from attachment table and from disk. It will NOT delete the link between the attachment and ticket, kb entry etc.
-  example: []
+  summary: "\nDeletes attachment from attachment table and from disk. It will NOT delete the link between the attachment and ticket, kb entry etc.\n"
   syntax:
     content: public static void DeleteAttachment(int attachmentId)
     parameters:
@@ -61,9 +66,12 @@ items:
       description: Id of attachment to delete
     content.vb: Public Shared Sub DeleteAttachment(attachmentId As Integer)
   overload: SuperOffice.CRM.Attachment.AttachmentHelper.DeleteAttachment*
-  nameWithType.vb: AttachmentHelper.DeleteAttachment(Integer)
-  fullName.vb: SuperOffice.CRM.Attachment.AttachmentHelper.DeleteAttachment(Integer)
-  name.vb: DeleteAttachment(Integer)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Attachment.AttachmentHelper.GetAttachmentCount(System.Int32[])
   commentId: M:SuperOffice.CRM.Attachment.AttachmentHelper.GetAttachmentCount(System.Int32[])
   id: GetAttachmentCount(System.Int32[])
@@ -71,10 +79,13 @@ items:
   langs:
   - csharp
   - vb
-  name: GetAttachmentCount(params int[])
-  nameWithType: AttachmentHelper.GetAttachmentCount(params int[])
-  fullName: SuperOffice.CRM.Attachment.AttachmentHelper.GetAttachmentCount(params int[])
+  name: GetAttachmentCount(Int32[])
+  nameWithType: AttachmentHelper.GetAttachmentCount(Int32[])
+  fullName: SuperOffice.CRM.Attachment.AttachmentHelper.GetAttachmentCount(System.Int32[])
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Attachment
@@ -87,9 +98,15 @@ items:
       type: System.Int32
     content.vb: Public Shared Function GetAttachmentCount(ParamArray ticketIds As Integer()) As Integer
   overload: SuperOffice.CRM.Attachment.AttachmentHelper.GetAttachmentCount*
-  nameWithType.vb: AttachmentHelper.GetAttachmentCount(ParamArray Integer())
-  fullName.vb: SuperOffice.CRM.Attachment.AttachmentHelper.GetAttachmentCount(ParamArray Integer())
-  name.vb: GetAttachmentCount(ParamArray Integer())
+  nameWithType.vb: AttachmentHelper.GetAttachmentCount(Int32())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Attachment.AttachmentHelper.GetAttachmentCount(System.Int32())
+  name.vb: GetAttachmentCount(Int32())
 - uid: SuperOffice.CRM.Attachment.AttachmentHelper.AddAttachmentsToMessage(System.Int32,System.Int32[])
   commentId: M:SuperOffice.CRM.Attachment.AttachmentHelper.AddAttachmentsToMessage(System.Int32,System.Int32[])
   id: AddAttachmentsToMessage(System.Int32,System.Int32[])
@@ -97,10 +114,13 @@ items:
   langs:
   - csharp
   - vb
-  name: AddAttachmentsToMessage(int, int[])
-  nameWithType: AttachmentHelper.AddAttachmentsToMessage(int, int[])
-  fullName: SuperOffice.CRM.Attachment.AttachmentHelper.AddAttachmentsToMessage(int, int[])
+  name: AddAttachmentsToMessage(Int32, Int32[])
+  nameWithType: AttachmentHelper.AddAttachmentsToMessage(Int32, Int32[])
+  fullName: SuperOffice.CRM.Attachment.AttachmentHelper.AddAttachmentsToMessage(System.Int32, System.Int32[])
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Attachment
@@ -113,9 +133,15 @@ items:
       type: System.Int32[]
     content.vb: Public Shared Sub AddAttachmentsToMessage(ejMessageId As Integer, attachmentIds As Integer())
   overload: SuperOffice.CRM.Attachment.AttachmentHelper.AddAttachmentsToMessage*
-  nameWithType.vb: AttachmentHelper.AddAttachmentsToMessage(Integer, Integer())
-  fullName.vb: SuperOffice.CRM.Attachment.AttachmentHelper.AddAttachmentsToMessage(Integer, Integer())
-  name.vb: AddAttachmentsToMessage(Integer, Integer())
+  nameWithType.vb: AttachmentHelper.AddAttachmentsToMessage(Int32, Int32())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Attachment.AttachmentHelper.AddAttachmentsToMessage(System.Int32, System.Int32())
+  name.vb: AddAttachmentsToMessage(Int32, Int32())
 - uid: SuperOffice.CRM.Attachment.AttachmentHelper.AddAttachmentsToMessage2(System.Int32,System.Int32[])
   commentId: M:SuperOffice.CRM.Attachment.AttachmentHelper.AddAttachmentsToMessage2(System.Int32,System.Int32[])
   id: AddAttachmentsToMessage2(System.Int32,System.Int32[])
@@ -123,33 +149,38 @@ items:
   langs:
   - csharp
   - vb
-  name: AddAttachmentsToMessage2(int, int[])
-  nameWithType: AttachmentHelper.AddAttachmentsToMessage2(int, int[])
-  fullName: SuperOffice.CRM.Attachment.AttachmentHelper.AddAttachmentsToMessage2(int, int[])
+  name: AddAttachmentsToMessage2(Int32, Int32[])
+  nameWithType: AttachmentHelper.AddAttachmentsToMessage2(Int32, Int32[])
+  fullName: SuperOffice.CRM.Attachment.AttachmentHelper.AddAttachmentsToMessage2(System.Int32, System.Int32[])
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Attachment
-  summary: TicketAgentImplementation::AddAttachments
-  example: []
+  summary: "\nTicketAgentImplementation::AddAttachments\n"
   syntax:
     content: public static void AddAttachmentsToMessage2(int ejMessageId, int[] attachmentIds)
     parameters:
     - id: ejMessageId
       type: System.Int32
-      description: ''
     - id: attachmentIds
       type: System.Int32[]
-      description: ''
     content.vb: Public Shared Sub AddAttachmentsToMessage2(ejMessageId As Integer, attachmentIds As Integer())
   overload: SuperOffice.CRM.Attachment.AttachmentHelper.AddAttachmentsToMessage2*
   exceptions:
   - type: SuperOffice.Exceptions.SoSentryException
     commentId: T:SuperOffice.Exceptions.SoSentryException
-    description: ''
-  nameWithType.vb: AttachmentHelper.AddAttachmentsToMessage2(Integer, Integer())
-  fullName.vb: SuperOffice.CRM.Attachment.AttachmentHelper.AddAttachmentsToMessage2(Integer, Integer())
-  name.vb: AddAttachmentsToMessage2(Integer, Integer())
+  nameWithType.vb: AttachmentHelper.AddAttachmentsToMessage2(Int32, Int32())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Attachment.AttachmentHelper.AddAttachmentsToMessage2(System.Int32, System.Int32())
+  name.vb: AddAttachmentsToMessage2(Int32, Int32())
 - uid: SuperOffice.CRM.Attachment.AttachmentHelper.GetDefaultAttachmentLocationId
   commentId: M:SuperOffice.CRM.Attachment.AttachmentHelper.GetDefaultAttachmentLocationId
   id: GetDefaultAttachmentLocationId
@@ -161,6 +192,9 @@ items:
   nameWithType: AttachmentHelper.GetDefaultAttachmentLocationId()
   fullName: SuperOffice.CRM.Attachment.AttachmentHelper.GetDefaultAttachmentLocationId()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Attachment
@@ -168,8 +202,14 @@ items:
     content: public static int GetDefaultAttachmentLocationId()
     return:
       type: System.Int32
-    content.vb: Public Shared Function GetDefaultAttachmentLocationId() As Integer
+    content.vb: Public Shared Function GetDefaultAttachmentLocationId As Integer
   overload: SuperOffice.CRM.Attachment.AttachmentHelper.GetDefaultAttachmentLocationId*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Attachment.AttachmentHelper.UpdateTicketHasAttachment(System.Int32,System.Boolean)
   commentId: M:SuperOffice.CRM.Attachment.AttachmentHelper.UpdateTicketHasAttachment(System.Int32,System.Boolean)
   id: UpdateTicketHasAttachment(System.Int32,System.Boolean)
@@ -177,10 +217,13 @@ items:
   langs:
   - csharp
   - vb
-  name: UpdateTicketHasAttachment(int, bool)
-  nameWithType: AttachmentHelper.UpdateTicketHasAttachment(int, bool)
-  fullName: SuperOffice.CRM.Attachment.AttachmentHelper.UpdateTicketHasAttachment(int, bool)
+  name: UpdateTicketHasAttachment(Int32, Boolean)
+  nameWithType: AttachmentHelper.UpdateTicketHasAttachment(Int32, Boolean)
+  fullName: SuperOffice.CRM.Attachment.AttachmentHelper.UpdateTicketHasAttachment(System.Int32, System.Boolean)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Attachment
@@ -193,9 +236,12 @@ items:
       type: System.Boolean
     content.vb: Public Shared Sub UpdateTicketHasAttachment(ticketId As Integer, value As Boolean)
   overload: SuperOffice.CRM.Attachment.AttachmentHelper.UpdateTicketHasAttachment*
-  nameWithType.vb: AttachmentHelper.UpdateTicketHasAttachment(Integer, Boolean)
-  fullName.vb: SuperOffice.CRM.Attachment.AttachmentHelper.UpdateTicketHasAttachment(Integer, Boolean)
-  name.vb: UpdateTicketHasAttachment(Integer, Boolean)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Attachment.AttachmentHelper.HasAttachmentAccess(System.Int32,SuperOffice.Data.EFieldRight)
   commentId: M:SuperOffice.CRM.Attachment.AttachmentHelper.HasAttachmentAccess(System.Int32,SuperOffice.Data.EFieldRight)
   id: HasAttachmentAccess(System.Int32,SuperOffice.Data.EFieldRight)
@@ -203,10 +249,13 @@ items:
   langs:
   - csharp
   - vb
-  name: HasAttachmentAccess(int, EFieldRight)
-  nameWithType: AttachmentHelper.HasAttachmentAccess(int, EFieldRight)
-  fullName: SuperOffice.CRM.Attachment.AttachmentHelper.HasAttachmentAccess(int, SuperOffice.Data.EFieldRight)
+  name: HasAttachmentAccess(Int32, EFieldRight)
+  nameWithType: AttachmentHelper.HasAttachmentAccess(Int32, EFieldRight)
+  fullName: SuperOffice.CRM.Attachment.AttachmentHelper.HasAttachmentAccess(System.Int32, SuperOffice.Data.EFieldRight)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Attachment
@@ -221,288 +270,35 @@ items:
       type: System.Boolean
     content.vb: Public Shared Function HasAttachmentAccess(attachmentId As Integer, requiredRight As EFieldRight) As Boolean
   overload: SuperOffice.CRM.Attachment.AttachmentHelper.HasAttachmentAccess*
-  nameWithType.vb: AttachmentHelper.HasAttachmentAccess(Integer, EFieldRight)
-  fullName.vb: SuperOffice.CRM.Attachment.AttachmentHelper.HasAttachmentAccess(Integer, SuperOffice.Data.EFieldRight)
-  name.vb: HasAttachmentAccess(Integer, EFieldRight)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 references:
 - uid: SuperOffice.CRM.Attachment
   commentId: N:SuperOffice.CRM.Attachment
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Attachment
   nameWithType: SuperOffice.CRM.Attachment
   fullName: SuperOffice.CRM.Attachment
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Attachment
-    name: Attachment
-    isExternal: true
-    href: SuperOffice.CRM.Attachment.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Attachment
-    name: Attachment
-    isExternal: true
-    href: SuperOffice.CRM.Attachment.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.CRM.Attachment.AttachmentHelper.DeleteAttachment*
   commentId: Overload:SuperOffice.CRM.Attachment.AttachmentHelper.DeleteAttachment
   isExternal: true
-  href: SuperOffice.CRM.Attachment.AttachmentHelper.html#SuperOffice_CRM_Attachment_AttachmentHelper_DeleteAttachment_System_Int32_
   name: DeleteAttachment
   nameWithType: AttachmentHelper.DeleteAttachment
   fullName: SuperOffice.CRM.Attachment.AttachmentHelper.DeleteAttachment
@@ -510,75 +306,68 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Attachment.AttachmentHelper.GetAttachmentCount*
   commentId: Overload:SuperOffice.CRM.Attachment.AttachmentHelper.GetAttachmentCount
   isExternal: true
-  href: SuperOffice.CRM.Attachment.AttachmentHelper.html#SuperOffice_CRM_Attachment_AttachmentHelper_GetAttachmentCount_System_Int32___
   name: GetAttachmentCount
   nameWithType: AttachmentHelper.GetAttachmentCount
   fullName: SuperOffice.CRM.Attachment.AttachmentHelper.GetAttachmentCount
 - uid: System.Int32[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int[]
-  nameWithType: int[]
-  fullName: int[]
-  nameWithType.vb: Integer()
-  fullName.vb: Integer()
-  name.vb: Integer()
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
   spec.csharp:
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Attachment.AttachmentHelper.AddAttachmentsToMessage*
   commentId: Overload:SuperOffice.CRM.Attachment.AttachmentHelper.AddAttachmentsToMessage
   isExternal: true
-  href: SuperOffice.CRM.Attachment.AttachmentHelper.html#SuperOffice_CRM_Attachment_AttachmentHelper_AddAttachmentsToMessage_System_Int32_System_Int32___
   name: AddAttachmentsToMessage
   nameWithType: AttachmentHelper.AddAttachmentsToMessage
   fullName: SuperOffice.CRM.Attachment.AttachmentHelper.AddAttachmentsToMessage
-- uid: SuperOffice.Exceptions.SoSentryException
-  commentId: T:SuperOffice.Exceptions.SoSentryException
-  isExternal: true
-  href: SuperOffice.Exceptions.SoSentryException.html
-  name: SoSentryException
-  nameWithType: SoSentryException
-  fullName: SuperOffice.Exceptions.SoSentryException
 - uid: SuperOffice.CRM.Attachment.AttachmentHelper.AddAttachmentsToMessage2*
   commentId: Overload:SuperOffice.CRM.Attachment.AttachmentHelper.AddAttachmentsToMessage2
   isExternal: true
-  href: SuperOffice.CRM.Attachment.AttachmentHelper.html#SuperOffice_CRM_Attachment_AttachmentHelper_AddAttachmentsToMessage2_System_Int32_System_Int32___
   name: AddAttachmentsToMessage2
   nameWithType: AttachmentHelper.AddAttachmentsToMessage2
   fullName: SuperOffice.CRM.Attachment.AttachmentHelper.AddAttachmentsToMessage2
+- uid: SuperOffice.Exceptions.SoSentryException
+  commentId: T:SuperOffice.Exceptions.SoSentryException
+  isExternal: true
+  name: SoSentryException
+  nameWithType: SoSentryException
+  fullName: SuperOffice.Exceptions.SoSentryException
 - uid: SuperOffice.CRM.Attachment.AttachmentHelper.GetDefaultAttachmentLocationId*
   commentId: Overload:SuperOffice.CRM.Attachment.AttachmentHelper.GetDefaultAttachmentLocationId
   isExternal: true
-  href: SuperOffice.CRM.Attachment.AttachmentHelper.html#SuperOffice_CRM_Attachment_AttachmentHelper_GetDefaultAttachmentLocationId
   name: GetDefaultAttachmentLocationId
   nameWithType: AttachmentHelper.GetDefaultAttachmentLocationId
   fullName: SuperOffice.CRM.Attachment.AttachmentHelper.GetDefaultAttachmentLocationId
 - uid: SuperOffice.CRM.Attachment.AttachmentHelper.UpdateTicketHasAttachment*
   commentId: Overload:SuperOffice.CRM.Attachment.AttachmentHelper.UpdateTicketHasAttachment
   isExternal: true
-  href: SuperOffice.CRM.Attachment.AttachmentHelper.html#SuperOffice_CRM_Attachment_AttachmentHelper_UpdateTicketHasAttachment_System_Int32_System_Boolean_
   name: UpdateTicketHasAttachment
   nameWithType: AttachmentHelper.UpdateTicketHasAttachment
   fullName: SuperOffice.CRM.Attachment.AttachmentHelper.UpdateTicketHasAttachment
@@ -586,17 +375,12 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.CRM.Attachment.AttachmentHelper.HasAttachmentAccess*
   commentId: Overload:SuperOffice.CRM.Attachment.AttachmentHelper.HasAttachmentAccess
   isExternal: true
-  href: SuperOffice.CRM.Attachment.AttachmentHelper.html#SuperOffice_CRM_Attachment_AttachmentHelper_HasAttachmentAccess_System_Int32_SuperOffice_Data_EFieldRight_
   name: HasAttachmentAccess
   nameWithType: AttachmentHelper.HasAttachmentAccess
   fullName: SuperOffice.CRM.Attachment.AttachmentHelper.HasAttachmentAccess
@@ -604,34 +388,12 @@ references:
   commentId: T:SuperOffice.Data.EFieldRight
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.EFieldRight.html
   name: EFieldRight
   nameWithType: EFieldRight
   fullName: SuperOffice.Data.EFieldRight
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html

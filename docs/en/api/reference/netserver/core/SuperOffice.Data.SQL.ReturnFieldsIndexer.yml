@@ -18,26 +18,31 @@ items:
   nameWithType: ReturnFieldsIndexer
   fullName: SuperOffice.Data.SQL.ReturnFieldsIndexer
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: Indexer for a collection of arguments (like <xref href="SuperOffice.Data.SQL.ReturnFieldsCollection" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nIndexer for a collection of arguments (like <xref href=\"SuperOffice.Data.SQL.ReturnFieldsCollection\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
-    content: public sealed class ReturnFieldsIndexer
-    content.vb: Public NotInheritable Class ReturnFieldsIndexer
+    content: 'public sealed class ReturnFieldsIndexer : Object'
+    content.vb: >-
+      Public NotInheritable Class ReturnFieldsIndexer
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
   extensionMethods:
   - SuperOffice.Data.SQL.ReturnFieldsIndexer.EnumUtil.MapEnums``2
   - SuperOffice.Data.SQL.ReturnFieldsIndexer.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
 - uid: SuperOffice.Data.SQL.ReturnFieldsIndexer.#ctor(System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Argument},System.Int32)
   commentId: M:SuperOffice.Data.SQL.ReturnFieldsIndexer.#ctor(System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Argument},System.Int32)
   id: '#ctor(System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Argument},System.Int32)'
@@ -45,15 +50,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ReturnFieldsIndexer(IEnumerable<Argument>, int)
-  nameWithType: ReturnFieldsIndexer.ReturnFieldsIndexer(IEnumerable<Argument>, int)
-  fullName: SuperOffice.Data.SQL.ReturnFieldsIndexer.ReturnFieldsIndexer(System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.Argument>, int)
+  name: ReturnFieldsIndexer(IEnumerable<Argument>, Int32)
+  nameWithType: ReturnFieldsIndexer.ReturnFieldsIndexer(IEnumerable<Argument>, Int32)
+  fullName: SuperOffice.Data.SQL.ReturnFieldsIndexer.ReturnFieldsIndexer(System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.Argument>, System.Int32)
   type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: Default constructor for the indexer, indexing a collection of arguments.
-  example: []
+  summary: "\nDefault constructor for the indexer, indexing a collection of arguments.\n"
   syntax:
     content: public ReturnFieldsIndexer(IEnumerable<Argument> returnFields, int lengthHint)
     parameters:
@@ -62,12 +69,16 @@ items:
       description: Collection of arguments to index.
     - id: lengthHint
       type: System.Int32
-      description: Hint of the length for preallocation of indexes.  '0' should be used when the length is unknown.
+      description: Hint of the length for preallocation of indexes.  &apos;0&apos; should be used when the length is unknown.
     content.vb: Public Sub New(returnFields As IEnumerable(Of Argument), lengthHint As Integer)
   overload: SuperOffice.Data.SQL.ReturnFieldsIndexer.#ctor*
-  nameWithType.vb: ReturnFieldsIndexer.New(IEnumerable(Of Argument), Integer)
-  fullName.vb: SuperOffice.Data.SQL.ReturnFieldsIndexer.New(System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.Argument), Integer)
-  name.vb: New(IEnumerable(Of Argument), Integer)
+  nameWithType.vb: ReturnFieldsIndexer.ReturnFieldsIndexer(IEnumerable(Of Argument), Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Data.SQL.ReturnFieldsIndexer.ReturnFieldsIndexer(System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.Argument), System.Int32)
+  name.vb: ReturnFieldsIndexer(IEnumerable(Of Argument), Int32)
 - uid: SuperOffice.Data.SQL.ReturnFieldsIndexer.GetIndexOfField(SuperOffice.Data.SQL.Argument)
   commentId: M:SuperOffice.Data.SQL.ReturnFieldsIndexer.GetIndexOfField(SuperOffice.Data.SQL.Argument)
   id: GetIndexOfField(SuperOffice.Data.SQL.Argument)
@@ -79,11 +90,13 @@ items:
   nameWithType: ReturnFieldsIndexer.GetIndexOfField(Argument)
   fullName: SuperOffice.Data.SQL.ReturnFieldsIndexer.GetIndexOfField(SuperOffice.Data.SQL.Argument)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: Obtain the index of the field.
-  example: []
+  summary: "\nObtain the index of the field.\n"
   syntax:
     content: public int GetIndexOfField(Argument argument)
     parameters:
@@ -95,6 +108,10 @@ items:
       description: Index of the field.  -1 is returned if the index can not be found.
     content.vb: Public Function GetIndexOfField(argument As Argument) As Integer
   overload: SuperOffice.Data.SQL.ReturnFieldsIndexer.GetIndexOfField*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.SQL.ReturnFieldsIndexer.GetIndexOfField(SuperOffice.Data.SQL.FieldInfo)
   commentId: M:SuperOffice.Data.SQL.ReturnFieldsIndexer.GetIndexOfField(SuperOffice.Data.SQL.FieldInfo)
   id: GetIndexOfField(SuperOffice.Data.SQL.FieldInfo)
@@ -106,11 +123,13 @@ items:
   nameWithType: ReturnFieldsIndexer.GetIndexOfField(FieldInfo)
   fullName: SuperOffice.Data.SQL.ReturnFieldsIndexer.GetIndexOfField(SuperOffice.Data.SQL.FieldInfo)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: Obtain the index of the field.
-  example: []
+  summary: "\nObtain the index of the field.\n"
   syntax:
     content: public int GetIndexOfField(FieldInfo field)
     parameters:
@@ -122,6 +141,10 @@ items:
       description: Index of the field.  -1 is returned if the index can not be found.
     content.vb: Public Function GetIndexOfField(field As FieldInfo) As Integer
   overload: SuperOffice.Data.SQL.ReturnFieldsIndexer.GetIndexOfField*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.SQL.ReturnFieldsIndexer.GetIndexOfField(System.Int32)
   commentId: M:SuperOffice.Data.SQL.ReturnFieldsIndexer.GetIndexOfField(System.Int32)
   id: GetIndexOfField(System.Int32)
@@ -129,15 +152,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetIndexOfField(int)
-  nameWithType: ReturnFieldsIndexer.GetIndexOfField(int)
-  fullName: SuperOffice.Data.SQL.ReturnFieldsIndexer.GetIndexOfField(int)
+  name: GetIndexOfField(Int32)
+  nameWithType: ReturnFieldsIndexer.GetIndexOfField(Int32)
+  fullName: SuperOffice.Data.SQL.ReturnFieldsIndexer.GetIndexOfField(System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: Obtain the index of the field.
-  example: []
+  summary: "\nObtain the index of the field.\n"
   syntax:
     content: public int GetIndexOfField(int fieldNumber)
     parameters:
@@ -149,9 +174,10 @@ items:
       description: Index of the field.  -1 is returned if the index can not be found.
     content.vb: Public Function GetIndexOfField(fieldNumber As Integer) As Integer
   overload: SuperOffice.Data.SQL.ReturnFieldsIndexer.GetIndexOfField*
-  nameWithType.vb: ReturnFieldsIndexer.GetIndexOfField(Integer)
-  fullName.vb: SuperOffice.Data.SQL.ReturnFieldsIndexer.GetIndexOfField(Integer)
-  name.vb: GetIndexOfField(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.SQL.ReturnFieldsIndexer.GetFieldInfoFromIndex(System.Int32)
   commentId: M:SuperOffice.Data.SQL.ReturnFieldsIndexer.GetFieldInfoFromIndex(System.Int32)
   id: GetFieldInfoFromIndex(System.Int32)
@@ -159,15 +185,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetFieldInfoFromIndex(int)
-  nameWithType: ReturnFieldsIndexer.GetFieldInfoFromIndex(int)
-  fullName: SuperOffice.Data.SQL.ReturnFieldsIndexer.GetFieldInfoFromIndex(int)
+  name: GetFieldInfoFromIndex(Int32)
+  nameWithType: ReturnFieldsIndexer.GetFieldInfoFromIndex(Int32)
+  fullName: SuperOffice.Data.SQL.ReturnFieldsIndexer.GetFieldInfoFromIndex(System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: Get FieldInfo from a provided index.
-  example: []
+  summary: "\nGet FieldInfo from a provided index.\n"
   syntax:
     content: public FieldInfo GetFieldInfoFromIndex(int index)
     parameters:
@@ -179,9 +207,10 @@ items:
       description: Field info is return if one exists for the index, otherwise null.
     content.vb: Public Function GetFieldInfoFromIndex(index As Integer) As FieldInfo
   overload: SuperOffice.Data.SQL.ReturnFieldsIndexer.GetFieldInfoFromIndex*
-  nameWithType.vb: ReturnFieldsIndexer.GetFieldInfoFromIndex(Integer)
-  fullName.vb: SuperOffice.Data.SQL.ReturnFieldsIndexer.GetFieldInfoFromIndex(Integer)
-  name.vb: GetFieldInfoFromIndex(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.SQL.ReturnFieldsIndexer.GetArgumentFromIndex(System.Int32)
   commentId: M:SuperOffice.Data.SQL.ReturnFieldsIndexer.GetArgumentFromIndex(System.Int32)
   id: GetArgumentFromIndex(System.Int32)
@@ -189,15 +218,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetArgumentFromIndex(int)
-  nameWithType: ReturnFieldsIndexer.GetArgumentFromIndex(int)
-  fullName: SuperOffice.Data.SQL.ReturnFieldsIndexer.GetArgumentFromIndex(int)
+  name: GetArgumentFromIndex(Int32)
+  nameWithType: ReturnFieldsIndexer.GetArgumentFromIndex(Int32)
+  fullName: SuperOffice.Data.SQL.ReturnFieldsIndexer.GetArgumentFromIndex(System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: Get argument from the given index.
-  example: []
+  summary: "\nGet argument from the given index.\n"
   syntax:
     content: public Argument GetArgumentFromIndex(int index)
     parameters:
@@ -209,378 +240,101 @@ items:
       description: Argument at the given index.
     content.vb: Public Function GetArgumentFromIndex(index As Integer) As Argument
   overload: SuperOffice.Data.SQL.ReturnFieldsIndexer.GetArgumentFromIndex*
-  nameWithType.vb: ReturnFieldsIndexer.GetArgumentFromIndex(Integer)
-  fullName.vb: SuperOffice.Data.SQL.ReturnFieldsIndexer.GetArgumentFromIndex(Integer)
-  name.vb: GetArgumentFromIndex(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 references:
-- uid: SuperOffice.Data.SQL.ReturnFieldsCollection
-  commentId: T:SuperOffice.Data.SQL.ReturnFieldsCollection
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  href: SuperOffice.Data.SQL.ReturnFieldsCollection.html
-  name: ReturnFieldsCollection
-  nameWithType: ReturnFieldsCollection
-  fullName: SuperOffice.Data.SQL.ReturnFieldsCollection
 - uid: SuperOffice.Data.SQL
   commentId: N:SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.SQL
-    name: SQL
-    isExternal: true
-    href: SuperOffice.Data.SQL.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.SQL
-    name: SQL
-    isExternal: true
-    href: SuperOffice.Data.SQL.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.SQL.ReturnFieldsIndexer.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<ReturnFieldsIndexer, To>(ReturnFieldsIndexer)
-  nameWithType: EnumUtil.MapEnums<ReturnFieldsIndexer, To>(ReturnFieldsIndexer)
-  fullName: EnumUtil.MapEnums<SuperOffice.Data.SQL.ReturnFieldsIndexer, To>(SuperOffice.Data.SQL.ReturnFieldsIndexer)
-  nameWithType.vb: EnumUtil.MapEnums(Of ReturnFieldsIndexer, To)(ReturnFieldsIndexer)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.SQL.ReturnFieldsIndexer, To)(SuperOffice.Data.SQL.ReturnFieldsIndexer)
-  name.vb: MapEnums(Of ReturnFieldsIndexer, To)(ReturnFieldsIndexer)
+  name: MapEnums<ReturnFieldsIndexer, To>()
+  nameWithType: EnumUtil.MapEnums<ReturnFieldsIndexer, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.SQL.ReturnFieldsIndexer, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ReturnFieldsIndexer, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.SQL.ReturnFieldsIndexer, To)()
+  name.vb: MapEnums(Of ReturnFieldsIndexer, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.SQL.ReturnFieldsIndexer)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ReturnFieldsIndexer, To>
+    nameWithType: EnumUtil.MapEnums<ReturnFieldsIndexer, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.SQL.ReturnFieldsIndexer, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.SQL.ReturnFieldsIndexer
-    name: ReturnFieldsIndexer
-    isExternal: true
-    href: SuperOffice.Data.SQL.ReturnFieldsIndexer.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.SQL.ReturnFieldsIndexer
-    name: ReturnFieldsIndexer
-    isExternal: true
-    href: SuperOffice.Data.SQL.ReturnFieldsIndexer.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.SQL.ReturnFieldsIndexer)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ReturnFieldsIndexer, To)
+    nameWithType: EnumUtil.MapEnums(Of ReturnFieldsIndexer, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.SQL.ReturnFieldsIndexer, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.SQL.ReturnFieldsIndexer
-    name: ReturnFieldsIndexer
-    isExternal: true
-    href: SuperOffice.Data.SQL.ReturnFieldsIndexer.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.SQL.ReturnFieldsIndexer
-    name: ReturnFieldsIndexer
-    isExternal: true
-    href: SuperOffice.Data.SQL.ReturnFieldsIndexer.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.ReturnFieldsIndexer.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<ReturnFieldsIndexer, To>(ReturnFieldsIndexer)
-  nameWithType: Converters.MapEnums<ReturnFieldsIndexer, To>(ReturnFieldsIndexer)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.SQL.ReturnFieldsIndexer, To>(SuperOffice.Data.SQL.ReturnFieldsIndexer)
-  nameWithType.vb: Converters.MapEnums(Of ReturnFieldsIndexer, To)(ReturnFieldsIndexer)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.SQL.ReturnFieldsIndexer, To)(SuperOffice.Data.SQL.ReturnFieldsIndexer)
-  name.vb: MapEnums(Of ReturnFieldsIndexer, To)(ReturnFieldsIndexer)
+  name: MapEnums<ReturnFieldsIndexer, To>()
+  nameWithType: Converters.MapEnums<ReturnFieldsIndexer, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.SQL.ReturnFieldsIndexer, To>()
+  nameWithType.vb: Converters.MapEnums(Of ReturnFieldsIndexer, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.SQL.ReturnFieldsIndexer, To)()
+  name.vb: MapEnums(Of ReturnFieldsIndexer, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.SQL.ReturnFieldsIndexer)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ReturnFieldsIndexer, To>
+    nameWithType: Converters.MapEnums<ReturnFieldsIndexer, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.SQL.ReturnFieldsIndexer, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.SQL.ReturnFieldsIndexer
-    name: ReturnFieldsIndexer
-    isExternal: true
-    href: SuperOffice.Data.SQL.ReturnFieldsIndexer.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.SQL.ReturnFieldsIndexer
-    name: ReturnFieldsIndexer
-    isExternal: true
-    href: SuperOffice.Data.SQL.ReturnFieldsIndexer.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.SQL.ReturnFieldsIndexer)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ReturnFieldsIndexer, To)
+    nameWithType: Converters.MapEnums(Of ReturnFieldsIndexer, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.SQL.ReturnFieldsIndexer, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.SQL.ReturnFieldsIndexer
-    name: ReturnFieldsIndexer
-    isExternal: true
-    href: SuperOffice.Data.SQL.ReturnFieldsIndexer.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.SQL.ReturnFieldsIndexer
-    name: ReturnFieldsIndexer
-    isExternal: true
-    href: SuperOffice.Data.SQL.ReturnFieldsIndexer.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -589,45 +343,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -636,94 +388,56 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.Data.SQL.ReturnFieldsIndexer.#ctor*
   commentId: Overload:SuperOffice.Data.SQL.ReturnFieldsIndexer.#ctor
   isExternal: true
-  href: SuperOffice.Data.SQL.ReturnFieldsIndexer.html#SuperOffice_Data_SQL_ReturnFieldsIndexer__ctor_System_Collections_Generic_IEnumerable_SuperOffice_Data_SQL_Argument__System_Int32_
   name: ReturnFieldsIndexer
   nameWithType: ReturnFieldsIndexer.ReturnFieldsIndexer
   fullName: SuperOffice.Data.SQL.ReturnFieldsIndexer.ReturnFieldsIndexer
-  nameWithType.vb: ReturnFieldsIndexer.New
-  fullName.vb: SuperOffice.Data.SQL.ReturnFieldsIndexer.New
-  name.vb: New
 - uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Argument}
-  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Argument}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Argument}'
   definition: System.Collections.Generic.IEnumerable`1
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   name: IEnumerable<Argument>
   nameWithType: IEnumerable<Argument>
   fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.Argument>
@@ -733,107 +447,85 @@ references:
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.Data.SQL.Argument
     name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.Data.SQL.Argument
     name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: System.Collections.Generic.IEnumerable`1
-  commentId: T:System.Collections.Generic.IEnumerable`1
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  name: IEnumerable<T>
-  nameWithType: IEnumerable<T>
-  fullName: System.Collections.Generic.IEnumerable<T>
-  nameWithType.vb: IEnumerable(Of T)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
-  name.vb: IEnumerable(Of T)
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
-  - name: T
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.ReturnFieldsIndexer.GetIndexOfField*
   commentId: Overload:SuperOffice.Data.SQL.ReturnFieldsIndexer.GetIndexOfField
   isExternal: true
-  href: SuperOffice.Data.SQL.ReturnFieldsIndexer.html#SuperOffice_Data_SQL_ReturnFieldsIndexer_GetIndexOfField_SuperOffice_Data_SQL_Argument_
   name: GetIndexOfField
   nameWithType: ReturnFieldsIndexer.GetIndexOfField
   fullName: SuperOffice.Data.SQL.ReturnFieldsIndexer.GetIndexOfField
@@ -841,7 +533,6 @@ references:
   commentId: T:SuperOffice.Data.SQL.Argument
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.Argument.html
   name: Argument
   nameWithType: Argument
   fullName: SuperOffice.Data.SQL.Argument
@@ -849,21 +540,18 @@ references:
   commentId: T:SuperOffice.Data.SQL.FieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.FieldInfo.html
   name: FieldInfo
   nameWithType: FieldInfo
   fullName: SuperOffice.Data.SQL.FieldInfo
 - uid: SuperOffice.Data.SQL.ReturnFieldsIndexer.GetFieldInfoFromIndex*
   commentId: Overload:SuperOffice.Data.SQL.ReturnFieldsIndexer.GetFieldInfoFromIndex
   isExternal: true
-  href: SuperOffice.Data.SQL.ReturnFieldsIndexer.html#SuperOffice_Data_SQL_ReturnFieldsIndexer_GetFieldInfoFromIndex_System_Int32_
   name: GetFieldInfoFromIndex
   nameWithType: ReturnFieldsIndexer.GetFieldInfoFromIndex
   fullName: SuperOffice.Data.SQL.ReturnFieldsIndexer.GetFieldInfoFromIndex
 - uid: SuperOffice.Data.SQL.ReturnFieldsIndexer.GetArgumentFromIndex*
   commentId: Overload:SuperOffice.Data.SQL.ReturnFieldsIndexer.GetArgumentFromIndex
   isExternal: true
-  href: SuperOffice.Data.SQL.ReturnFieldsIndexer.html#SuperOffice_Data_SQL_ReturnFieldsIndexer_GetArgumentFromIndex_System_Int32_
   name: GetArgumentFromIndex
   nameWithType: ReturnFieldsIndexer.GetArgumentFromIndex
   fullName: SuperOffice.Data.SQL.ReturnFieldsIndexer.GetArgumentFromIndex

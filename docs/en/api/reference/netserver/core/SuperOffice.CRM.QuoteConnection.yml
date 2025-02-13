@@ -9,15 +9,15 @@ items:
   - SuperOffice.CRM.QuoteConnection.#ctor(System.String)
   - SuperOffice.CRM.QuoteConnection.AllAccess
   - SuperOffice.CRM.QuoteConnection.AssociateAccessIds
-  - SuperOffice.CRM.QuoteConnection.CRMConnectionId
   - SuperOffice.CRM.QuoteConnection.CheckLicensesFor(SuperOffice.CRM.IQuoteConnector)
   - SuperOffice.CRM.QuoteConnection.Connector
   - SuperOffice.CRM.QuoteConnection.ConnectorName
+  - SuperOffice.CRM.QuoteConnection.CRMConnectionId
   - SuperOffice.CRM.QuoteConnection.Deleted
   - SuperOffice.CRM.QuoteConnection.DisplayDescription
   - SuperOffice.CRM.QuoteConnection.DisplayName
-  - SuperOffice.CRM.QuoteConnection.ERPName
   - SuperOffice.CRM.QuoteConnection.ErpConnectionId
+  - SuperOffice.CRM.QuoteConnection.ERPName
   - SuperOffice.CRM.QuoteConnection.ExtraData
   - SuperOffice.CRM.QuoteConnection.Initialize
   - SuperOffice.CRM.QuoteConnection.Initialize(System.Collections.Generic.Dictionary{System.String,System.String},SuperOffice.CRM.UserInfo,System.Boolean)
@@ -33,29 +33,29 @@ items:
   nameWithType: QuoteConnection
   fullName: SuperOffice.CRM.QuoteConnection
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
-  summary: >-
-    Represent one connection to an ERP system and uses an <xref href="SuperOffice.CRM.IQuoteConnector" data-throw-if-not-resolved="false"></xref> implementation (the real connection) and an <xref href="SuperOffice.CRM.Sale.QuoteConnectorMediator" data-throw-if-not-resolved="false"></xref> to wrap the real connection.
-
-    Has a connection to the CRM database too, and gets data from it when needed.
-  example: []
+  summary: "\nRepresent one connection to an ERP system and uses an <xref href=\"SuperOffice.CRM.IQuoteConnector\" data-throw-if-not-resolved=\"false\"></xref> implementation (the real connection) and an <xref href=\"SuperOffice.CRM.Sale.QuoteConnectorMediator\" data-throw-if-not-resolved=\"false\"></xref> to wrap the real connection.\nHas a connection to the CRM database too, and gets data from it when needed.\n"
   syntax:
-    content: public class QuoteConnection
-    content.vb: Public Class QuoteConnection
+    content: 'public class QuoteConnection : Object'
+    content.vb: >-
+      Public Class QuoteConnection
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.QuoteConnection.EnumUtil.MapEnums``2
   - SuperOffice.CRM.QuoteConnection.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.QuoteConnection.CheckLicensesFor(SuperOffice.CRM.IQuoteConnector)
   commentId: M:SuperOffice.CRM.QuoteConnection.CheckLicensesFor(SuperOffice.CRM.IQuoteConnector)
   id: CheckLicensesFor(SuperOffice.CRM.IQuoteConnector)
@@ -67,6 +67,9 @@ items:
   nameWithType: QuoteConnection.CheckLicensesFor(IQuoteConnector)
   fullName: SuperOffice.CRM.QuoteConnection.CheckLicensesFor(SuperOffice.CRM.IQuoteConnector)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
@@ -79,6 +82,12 @@ items:
       type: SuperOffice.CRM.IQuoteConnector
     content.vb: Public Shared Function CheckLicensesFor(connector As IQuoteConnector) As IQuoteConnector
   overload: SuperOffice.CRM.QuoteConnection.CheckLicensesFor*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.QuoteConnection.#ctor(System.String)
   commentId: M:SuperOffice.CRM.QuoteConnection.#ctor(System.String)
   id: '#ctor(System.String)'
@@ -86,15 +95,17 @@ items:
   langs:
   - csharp
   - vb
-  name: QuoteConnection(string)
-  nameWithType: QuoteConnection.QuoteConnection(string)
-  fullName: SuperOffice.CRM.QuoteConnection.QuoteConnection(string)
+  name: QuoteConnection(String)
+  nameWithType: QuoteConnection.QuoteConnection(String)
+  fullName: SuperOffice.CRM.QuoteConnection.QuoteConnection(System.String)
   type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
-  summary: Create a connection without a database record.
-  example: []
+  summary: "\nCreate a connection without a database record. \n"
   syntax:
     content: public QuoteConnection(string connectorName)
     parameters:
@@ -103,9 +114,10 @@ items:
       description: Name of the <xref href="SuperOffice.CRM.IQuoteConnector" data-throw-if-not-resolved="false"></xref> plugin
     content.vb: Public Sub New(connectorName As String)
   overload: SuperOffice.CRM.QuoteConnection.#ctor*
-  nameWithType.vb: QuoteConnection.New(String)
-  fullName.vb: SuperOffice.CRM.QuoteConnection.New(String)
-  name.vb: New(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.QuoteConnection.#ctor(SuperOffice.CRM.Rows.QuoteConnectionRow,System.Int32[],System.Int32[],System.Collections.Generic.Dictionary{System.String,System.String},SuperOffice.CRM.UserInfo,System.Boolean)
   commentId: M:SuperOffice.CRM.QuoteConnection.#ctor(SuperOffice.CRM.Rows.QuoteConnectionRow,System.Int32[],System.Int32[],System.Collections.Generic.Dictionary{System.String,System.String},SuperOffice.CRM.UserInfo,System.Boolean)
   id: '#ctor(SuperOffice.CRM.Rows.QuoteConnectionRow,System.Int32[],System.Int32[],System.Collections.Generic.Dictionary{System.String,System.String},SuperOffice.CRM.UserInfo,System.Boolean)'
@@ -113,15 +125,17 @@ items:
   langs:
   - csharp
   - vb
-  name: QuoteConnection(QuoteConnectionRow, int[], int[], Dictionary<string, string>, UserInfo, bool)
-  nameWithType: QuoteConnection.QuoteConnection(QuoteConnectionRow, int[], int[], Dictionary<string, string>, UserInfo, bool)
-  fullName: SuperOffice.CRM.QuoteConnection.QuoteConnection(SuperOffice.CRM.Rows.QuoteConnectionRow, int[], int[], System.Collections.Generic.Dictionary<string, string>, SuperOffice.CRM.UserInfo, bool)
+  name: QuoteConnection(QuoteConnectionRow, Int32[], Int32[], Dictionary<String, String>, UserInfo, Boolean)
+  nameWithType: QuoteConnection.QuoteConnection(QuoteConnectionRow, Int32[], Int32[], Dictionary<String, String>, UserInfo, Boolean)
+  fullName: SuperOffice.CRM.QuoteConnection.QuoteConnection(SuperOffice.CRM.Rows.QuoteConnectionRow, System.Int32[], System.Int32[], System.Collections.Generic.Dictionary<System.String, System.String>, SuperOffice.CRM.UserInfo, System.Boolean)
   type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
-  summary: Create a QuoteConnection from information in the database. Used by the <xref href="SuperOffice.CRM.QuoteConnectionManager" data-throw-if-not-resolved="false"></xref> to create instances from the database information.
-  example: []
+  summary: "\nCreate a QuoteConnection from information in the database. Used by the <xref href=\"SuperOffice.CRM.QuoteConnectionManager\" data-throw-if-not-resolved=\"false\"></xref> to create instances from the database information.\n"
   syntax:
     content: public QuoteConnection(QuoteConnectionRow quoteConnectionRow, int[] associateAccesIds, int[] usergroupAccesIds, Dictionary<string, string> connectionConfigFieldInfos, UserInfo user, bool isOnTravel)
     parameters:
@@ -129,22 +143,23 @@ items:
       type: SuperOffice.CRM.Rows.QuoteConnectionRow
     - id: associateAccesIds
       type: System.Int32[]
-      description: ''
     - id: usergroupAccesIds
       type: System.Int32[]
-      description: ''
     - id: connectionConfigFieldInfos
       type: System.Collections.Generic.Dictionary{System.String,System.String}
-      description: ''
     - id: user
       type: SuperOffice.CRM.UserInfo
     - id: isOnTravel
       type: System.Boolean
     content.vb: Public Sub New(quoteConnectionRow As QuoteConnectionRow, associateAccesIds As Integer(), usergroupAccesIds As Integer(), connectionConfigFieldInfos As Dictionary(Of String, String), user As UserInfo, isOnTravel As Boolean)
   overload: SuperOffice.CRM.QuoteConnection.#ctor*
-  nameWithType.vb: QuoteConnection.New(QuoteConnectionRow, Integer(), Integer(), Dictionary(Of String, String), UserInfo, Boolean)
-  fullName.vb: SuperOffice.CRM.QuoteConnection.New(SuperOffice.CRM.Rows.QuoteConnectionRow, Integer(), Integer(), System.Collections.Generic.Dictionary(Of String, String), SuperOffice.CRM.UserInfo, Boolean)
-  name.vb: New(QuoteConnectionRow, Integer(), Integer(), Dictionary(Of String, String), UserInfo, Boolean)
+  nameWithType.vb: QuoteConnection.QuoteConnection(QuoteConnectionRow, Int32(), Int32(), Dictionary(Of String, String), UserInfo, Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.QuoteConnection.QuoteConnection(SuperOffice.CRM.Rows.QuoteConnectionRow, System.Int32(), System.Int32(), System.Collections.Generic.Dictionary(Of System.String, System.String), SuperOffice.CRM.UserInfo, System.Boolean)
+  name.vb: QuoteConnection(QuoteConnectionRow, Int32(), Int32(), Dictionary(Of String, String), UserInfo, Boolean)
 - uid: SuperOffice.CRM.QuoteConnection.Initialize
   commentId: M:SuperOffice.CRM.QuoteConnection.Initialize
   id: Initialize
@@ -156,17 +171,23 @@ items:
   nameWithType: QuoteConnection.Initialize()
   fullName: SuperOffice.CRM.QuoteConnection.Initialize()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
-  summary: On-demand initialization of connection
-  example: []
+  summary: "\nOn-demand initialization of connection\n"
   syntax:
     content: public PluginResponseInfo Initialize()
     return:
       type: SuperOffice.CRM.PluginResponseInfo
-    content.vb: Public Function Initialize() As PluginResponseInfo
+    content.vb: Public Function Initialize As PluginResponseInfo
   overload: SuperOffice.CRM.QuoteConnection.Initialize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.QuoteConnection.Initialize(System.Collections.Generic.Dictionary{System.String,System.String},SuperOffice.CRM.UserInfo,System.Boolean)
   commentId: M:SuperOffice.CRM.QuoteConnection.Initialize(System.Collections.Generic.Dictionary{System.String,System.String},SuperOffice.CRM.UserInfo,System.Boolean)
   id: Initialize(System.Collections.Generic.Dictionary{System.String,System.String},SuperOffice.CRM.UserInfo,System.Boolean)
@@ -174,34 +195,37 @@ items:
   langs:
   - csharp
   - vb
-  name: Initialize(Dictionary<string, string>, UserInfo, bool)
-  nameWithType: QuoteConnection.Initialize(Dictionary<string, string>, UserInfo, bool)
-  fullName: SuperOffice.CRM.QuoteConnection.Initialize(System.Collections.Generic.Dictionary<string, string>, SuperOffice.CRM.UserInfo, bool)
+  name: Initialize(Dictionary<String, String>, UserInfo, Boolean)
+  nameWithType: QuoteConnection.Initialize(Dictionary<String, String>, UserInfo, Boolean)
+  fullName: SuperOffice.CRM.QuoteConnection.Initialize(System.Collections.Generic.Dictionary<System.String, System.String>, SuperOffice.CRM.UserInfo, System.Boolean)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
-  summary: Create a new connection and initialize the connection if neccessary.  Subsequent calls have not effect.
-  example: []
+  summary: "\nCreate a new connection and initialize the connection if neccessary.  Subsequent calls have not effect.\n"
   syntax:
     content: public PluginResponseInfo Initialize(Dictionary<string, string> connectionConfigFieldInfos, UserInfo user, bool isOnTravel)
     parameters:
     - id: connectionConfigFieldInfos
       type: System.Collections.Generic.Dictionary{System.String,System.String}
-      description: ''
     - id: user
       type: SuperOffice.CRM.UserInfo
-      description: ''
     - id: isOnTravel
       type: System.Boolean
-      description: ''
     return:
       type: SuperOffice.CRM.PluginResponseInfo
       description: <xref href="SuperOffice.CRM.Sale.QuoteConnectorMediator" data-throw-if-not-resolved="false"></xref> wrapping the real connection
     content.vb: Public Function Initialize(connectionConfigFieldInfos As Dictionary(Of String, String), user As UserInfo, isOnTravel As Boolean) As PluginResponseInfo
   overload: SuperOffice.CRM.QuoteConnection.Initialize*
   nameWithType.vb: QuoteConnection.Initialize(Dictionary(Of String, String), UserInfo, Boolean)
-  fullName.vb: SuperOffice.CRM.QuoteConnection.Initialize(System.Collections.Generic.Dictionary(Of String, String), SuperOffice.CRM.UserInfo, Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.QuoteConnection.Initialize(System.Collections.Generic.Dictionary(Of System.String, System.String), SuperOffice.CRM.UserInfo, System.Boolean)
   name.vb: Initialize(Dictionary(Of String, String), UserInfo, Boolean)
 - uid: SuperOffice.CRM.QuoteConnection.ToString
   commentId: M:SuperOffice.CRM.QuoteConnection.ToString
@@ -214,19 +238,25 @@ items:
   nameWithType: QuoteConnection.ToString()
   fullName: SuperOffice.CRM.QuoteConnection.ToString()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
-  summary: Default toString returning CRMConnectionId, DisplayName and ConnectorName
-  example: []
+  summary: "\nDefault toString returning CRMConnectionId, DisplayName and ConnectorName\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
-      description: ''
-    content.vb: Public Overrides Function ToString() As String
-  overridden: System.Object.ToString
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.CRM.QuoteConnection.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.QuoteConnection.Connector
   commentId: P:SuperOffice.CRM.QuoteConnection.Connector
   id: Connector
@@ -238,14 +268,13 @@ items:
   nameWithType: QuoteConnection.Connector
   fullName: SuperOffice.CRM.QuoteConnection.Connector
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
-  summary: >-
-    Returns the QuoteConnectorMediator that wraps the real connector. 
-
-    May return NULL if the connector is not available.
-  example: []
+  summary: "\nReturns the QuoteConnectorMediator that wraps the real connector. \nMay return NULL if the connector is not available.\n"
   syntax:
     content: public IQuoteConnector Connector { get; }
     parameters: []
@@ -253,6 +282,12 @@ items:
       type: SuperOffice.CRM.IQuoteConnector
     content.vb: Public ReadOnly Property Connector As IQuoteConnector
   overload: SuperOffice.CRM.QuoteConnection.Connector*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.QuoteConnection.CRMConnectionId
   commentId: P:SuperOffice.CRM.QuoteConnection.CRMConnectionId
   id: CRMConnectionId
@@ -264,6 +299,9 @@ items:
   nameWithType: QuoteConnection.CRMConnectionId
   fullName: SuperOffice.CRM.QuoteConnection.CRMConnectionId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
@@ -274,6 +312,12 @@ items:
       type: System.Int32
     content.vb: Public Property CRMConnectionId As Integer
   overload: SuperOffice.CRM.QuoteConnection.CRMConnectionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.QuoteConnection.ERPName
   commentId: P:SuperOffice.CRM.QuoteConnection.ERPName
   id: ERPName
@@ -285,6 +329,9 @@ items:
   nameWithType: QuoteConnection.ERPName
   fullName: SuperOffice.CRM.QuoteConnection.ERPName
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
@@ -295,6 +342,12 @@ items:
       type: System.String
     content.vb: Public Property ERPName As String
   overload: SuperOffice.CRM.QuoteConnection.ERPName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.QuoteConnection.ConnectorName
   commentId: P:SuperOffice.CRM.QuoteConnection.ConnectorName
   id: ConnectorName
@@ -306,11 +359,13 @@ items:
   nameWithType: QuoteConnection.ConnectorName
   fullName: SuperOffice.CRM.QuoteConnection.ConnectorName
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
-  summary: Name of the connector we are going to use.
-  example: []
+  summary: "\nName of the connector we are going to use.\n"
   syntax:
     content: public string ConnectorName { get; set; }
     parameters: []
@@ -318,6 +373,12 @@ items:
       type: System.String
     content.vb: Public Property ConnectorName As String
   overload: SuperOffice.CRM.QuoteConnection.ConnectorName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.QuoteConnection.ErpConnectionId
   commentId: P:SuperOffice.CRM.QuoteConnection.ErpConnectionId
   id: ErpConnectionId
@@ -329,6 +390,9 @@ items:
   nameWithType: QuoteConnection.ErpConnectionId
   fullName: SuperOffice.CRM.QuoteConnection.ErpConnectionId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
@@ -339,6 +403,12 @@ items:
       type: System.Int32
     content.vb: Public Property ErpConnectionId As Integer
   overload: SuperOffice.CRM.QuoteConnection.ErpConnectionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.QuoteConnection.DisplayName
   commentId: P:SuperOffice.CRM.QuoteConnection.DisplayName
   id: DisplayName
@@ -350,6 +420,9 @@ items:
   nameWithType: QuoteConnection.DisplayName
   fullName: SuperOffice.CRM.QuoteConnection.DisplayName
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
@@ -360,6 +433,12 @@ items:
       type: System.String
     content.vb: Public Property DisplayName As String
   overload: SuperOffice.CRM.QuoteConnection.DisplayName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.QuoteConnection.DisplayDescription
   commentId: P:SuperOffice.CRM.QuoteConnection.DisplayDescription
   id: DisplayDescription
@@ -371,6 +450,9 @@ items:
   nameWithType: QuoteConnection.DisplayDescription
   fullName: SuperOffice.CRM.QuoteConnection.DisplayDescription
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
@@ -381,6 +463,12 @@ items:
       type: System.String
     content.vb: Public Property DisplayDescription As String
   overload: SuperOffice.CRM.QuoteConnection.DisplayDescription*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.QuoteConnection.ExtraData
   commentId: P:SuperOffice.CRM.QuoteConnection.ExtraData
   id: ExtraData
@@ -392,6 +480,9 @@ items:
   nameWithType: QuoteConnection.ExtraData
   fullName: SuperOffice.CRM.QuoteConnection.ExtraData
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
@@ -402,6 +493,12 @@ items:
       type: System.String
     content.vb: Public Property ExtraData As String
   overload: SuperOffice.CRM.QuoteConnection.ExtraData*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.QuoteConnection.Deleted
   commentId: P:SuperOffice.CRM.QuoteConnection.Deleted
   id: Deleted
@@ -413,11 +510,13 @@ items:
   nameWithType: QuoteConnection.Deleted
   fullName: SuperOffice.CRM.QuoteConnection.Deleted
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
-  summary: Has the connection been deleted?
-  example: []
+  summary: "\nHas the connection been deleted?\n"
   syntax:
     content: public bool Deleted { get; set; }
     parameters: []
@@ -425,6 +524,12 @@ items:
       type: System.Boolean
     content.vb: Public Property Deleted As Boolean
   overload: SuperOffice.CRM.QuoteConnection.Deleted*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.QuoteConnection.IsAvailable
   commentId: P:SuperOffice.CRM.QuoteConnection.IsAvailable
   id: IsAvailable
@@ -436,11 +541,13 @@ items:
   nameWithType: QuoteConnection.IsAvailable
   fullName: SuperOffice.CRM.QuoteConnection.IsAvailable
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
-  summary: Is the connection available for use, or is the connection missing something? False if the Initialization of the connector failed.
-  example: []
+  summary: "\nIs the connection available for use, or is the connection missing something? False if the Initialization of the connector failed.\n"
   syntax:
     content: public bool IsAvailable { get; set; }
     parameters: []
@@ -448,6 +555,12 @@ items:
       type: System.Boolean
     content.vb: Public Property IsAvailable As Boolean
   overload: SuperOffice.CRM.QuoteConnection.IsAvailable*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.QuoteConnection.AllAccess
   commentId: P:SuperOffice.CRM.QuoteConnection.AllAccess
   id: AllAccess
@@ -459,14 +572,13 @@ items:
   nameWithType: QuoteConnection.AllAccess
   fullName: SuperOffice.CRM.QuoteConnection.AllAccess
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
-  summary: >-
-    Is this connection accessible to everyone?  If not, then the QuoteConnectionAccess table tells us who can access it.
-
-    <xref href="SuperOffice.CRM.QuoteConnection.UserGroupAccessIds" data-throw-if-not-resolved="false"></xref> and/or <xref href="SuperOffice.CRM.QuoteConnection.AssociateAccessIds" data-throw-if-not-resolved="false"></xref> should be filled in if this value is false.
-  example: []
+  summary: "\nIs this connection accessible to everyone?  If not, then the QuoteConnectionAccess table tells us who can access it.\n<xref href=\"SuperOffice.CRM.QuoteConnection.UserGroupAccessIds\" data-throw-if-not-resolved=\"false\"></xref> and/or <xref href=\"SuperOffice.CRM.QuoteConnection.AssociateAccessIds\" data-throw-if-not-resolved=\"false\"></xref> should be filled in if this value is false.\n"
   syntax:
     content: public bool AllAccess { get; set; }
     parameters: []
@@ -474,6 +586,12 @@ items:
       type: System.Boolean
     content.vb: Public Property AllAccess As Boolean
   overload: SuperOffice.CRM.QuoteConnection.AllAccess*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.QuoteConnection.UserGroupAccessIds
   commentId: P:SuperOffice.CRM.QuoteConnection.UserGroupAccessIds
   id: UserGroupAccessIds
@@ -485,11 +603,13 @@ items:
   nameWithType: QuoteConnection.UserGroupAccessIds
   fullName: SuperOffice.CRM.QuoteConnection.UserGroupAccessIds
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
-  summary: Array of ids containing usergroups that will have access to this connection.
-  example: []
+  summary: "\nArray of ids containing usergroups that will have access to this connection.\n"
   syntax:
     content: public int[] UserGroupAccessIds { get; set; }
     parameters: []
@@ -497,6 +617,12 @@ items:
       type: System.Int32[]
     content.vb: Public Property UserGroupAccessIds As Integer()
   overload: SuperOffice.CRM.QuoteConnection.UserGroupAccessIds*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.QuoteConnection.AssociateAccessIds
   commentId: P:SuperOffice.CRM.QuoteConnection.AssociateAccessIds
   id: AssociateAccessIds
@@ -508,11 +634,13 @@ items:
   nameWithType: QuoteConnection.AssociateAccessIds
   fullName: SuperOffice.CRM.QuoteConnection.AssociateAccessIds
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
-  summary: Array of ids containing associates that will have access to this connection.
-  example: []
+  summary: "\nArray of ids containing associates that will have access to this connection.\n"
   syntax:
     content: public int[] AssociateAccessIds { get; set; }
     parameters: []
@@ -520,6 +648,12 @@ items:
       type: System.Int32[]
     content.vb: Public Property AssociateAccessIds As Integer()
   overload: SuperOffice.CRM.QuoteConnection.AssociateAccessIds*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.QuoteConnection.Rank
   commentId: P:SuperOffice.CRM.QuoteConnection.Rank
   id: Rank
@@ -531,11 +665,13 @@ items:
   nameWithType: QuoteConnection.Rank
   fullName: SuperOffice.CRM.QuoteConnection.Rank
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
-  summary: The connections rank.
-  example: []
+  summary: "\nThe connections rank.\n"
   syntax:
     content: public int Rank { get; set; }
     parameters: []
@@ -543,6 +679,12 @@ items:
       type: System.Int32
     content.vb: Public Property Rank As Integer
   overload: SuperOffice.CRM.QuoteConnection.Rank*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.QuoteConnection.InitializeResponse
   commentId: P:SuperOffice.CRM.QuoteConnection.InitializeResponse
   id: InitializeResponse
@@ -554,11 +696,13 @@ items:
   nameWithType: QuoteConnection.InitializeResponse
   fullName: SuperOffice.CRM.QuoteConnection.InitializeResponse
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
-  summary: What happened when we tried to initialize connector?  NULL if the connector has not been initialized yet.
-  example: []
+  summary: "\nWhat happened when we tried to initialize connector?  NULL if the connector has not been initialized yet.\n"
   syntax:
     content: public PluginResponseInfo InitializeResponse { get; }
     parameters: []
@@ -566,372 +710,103 @@ items:
       type: SuperOffice.CRM.PluginResponseInfo
     content.vb: Public ReadOnly Property InitializeResponse As PluginResponseInfo
   overload: SuperOffice.CRM.QuoteConnection.InitializeResponse*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 references:
-- uid: SuperOffice.CRM.IQuoteConnector
-  commentId: T:SuperOffice.CRM.IQuoteConnector
-  parent: SuperOffice.CRM
-  isExternal: true
-  href: SuperOffice.CRM.IQuoteConnector.html
-  name: IQuoteConnector
-  nameWithType: IQuoteConnector
-  fullName: SuperOffice.CRM.IQuoteConnector
-- uid: SuperOffice.CRM.Sale.QuoteConnectorMediator
-  commentId: T:SuperOffice.CRM.Sale.QuoteConnectorMediator
-  isExternal: true
-  href: SuperOffice.CRM.Sale.QuoteConnectorMediator.html
-  name: QuoteConnectorMediator
-  nameWithType: QuoteConnectorMediator
-  fullName: SuperOffice.CRM.Sale.QuoteConnectorMediator
 - uid: SuperOffice.CRM
   commentId: N:SuperOffice.CRM
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM
   nameWithType: SuperOffice.CRM
   fullName: SuperOffice.CRM
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.QuoteConnection.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<QuoteConnection, To>(QuoteConnection)
-  nameWithType: EnumUtil.MapEnums<QuoteConnection, To>(QuoteConnection)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.QuoteConnection, To>(SuperOffice.CRM.QuoteConnection)
-  nameWithType.vb: EnumUtil.MapEnums(Of QuoteConnection, To)(QuoteConnection)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.QuoteConnection, To)(SuperOffice.CRM.QuoteConnection)
-  name.vb: MapEnums(Of QuoteConnection, To)(QuoteConnection)
+  name: MapEnums<QuoteConnection, To>()
+  nameWithType: EnumUtil.MapEnums<QuoteConnection, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.QuoteConnection, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of QuoteConnection, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.QuoteConnection, To)()
+  name.vb: MapEnums(Of QuoteConnection, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.QuoteConnection)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<QuoteConnection, To>
+    nameWithType: EnumUtil.MapEnums<QuoteConnection, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.QuoteConnection, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.QuoteConnection
-    name: QuoteConnection
-    isExternal: true
-    href: SuperOffice.CRM.QuoteConnection.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.QuoteConnection
-    name: QuoteConnection
-    isExternal: true
-    href: SuperOffice.CRM.QuoteConnection.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.QuoteConnection)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of QuoteConnection, To)
+    nameWithType: EnumUtil.MapEnums(Of QuoteConnection, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.QuoteConnection, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.QuoteConnection
-    name: QuoteConnection
-    isExternal: true
-    href: SuperOffice.CRM.QuoteConnection.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.QuoteConnection
-    name: QuoteConnection
-    isExternal: true
-    href: SuperOffice.CRM.QuoteConnection.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.QuoteConnection.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<QuoteConnection, To>(QuoteConnection)
-  nameWithType: Converters.MapEnums<QuoteConnection, To>(QuoteConnection)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.QuoteConnection, To>(SuperOffice.CRM.QuoteConnection)
-  nameWithType.vb: Converters.MapEnums(Of QuoteConnection, To)(QuoteConnection)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.QuoteConnection, To)(SuperOffice.CRM.QuoteConnection)
-  name.vb: MapEnums(Of QuoteConnection, To)(QuoteConnection)
+  name: MapEnums<QuoteConnection, To>()
+  nameWithType: Converters.MapEnums<QuoteConnection, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.QuoteConnection, To>()
+  nameWithType.vb: Converters.MapEnums(Of QuoteConnection, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.QuoteConnection, To)()
+  name.vb: MapEnums(Of QuoteConnection, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.QuoteConnection)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<QuoteConnection, To>
+    nameWithType: Converters.MapEnums<QuoteConnection, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.QuoteConnection, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.QuoteConnection
-    name: QuoteConnection
-    isExternal: true
-    href: SuperOffice.CRM.QuoteConnection.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.QuoteConnection
-    name: QuoteConnection
-    isExternal: true
-    href: SuperOffice.CRM.QuoteConnection.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.QuoteConnection)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of QuoteConnection, To)
+    nameWithType: Converters.MapEnums(Of QuoteConnection, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.QuoteConnection, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.QuoteConnection
-    name: QuoteConnection
-    isExternal: true
-    href: SuperOffice.CRM.QuoteConnection.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.QuoteConnection
-    name: QuoteConnection
-    isExternal: true
-    href: SuperOffice.CRM.QuoteConnection.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -940,45 +815,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -987,198 +860,169 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.CRM.QuoteConnection.CheckLicensesFor*
   commentId: Overload:SuperOffice.CRM.QuoteConnection.CheckLicensesFor
   isExternal: true
-  href: SuperOffice.CRM.QuoteConnection.html#SuperOffice_CRM_QuoteConnection_CheckLicensesFor_SuperOffice_CRM_IQuoteConnector_
   name: CheckLicensesFor
   nameWithType: QuoteConnection.CheckLicensesFor
   fullName: SuperOffice.CRM.QuoteConnection.CheckLicensesFor
+- uid: SuperOffice.CRM.IQuoteConnector
+  commentId: T:SuperOffice.CRM.IQuoteConnector
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: IQuoteConnector
+  nameWithType: IQuoteConnector
+  fullName: SuperOffice.CRM.IQuoteConnector
 - uid: SuperOffice.CRM.QuoteConnection.#ctor*
   commentId: Overload:SuperOffice.CRM.QuoteConnection.#ctor
   isExternal: true
-  href: SuperOffice.CRM.QuoteConnection.html#SuperOffice_CRM_QuoteConnection__ctor_System_String_
   name: QuoteConnection
   nameWithType: QuoteConnection.QuoteConnection
   fullName: SuperOffice.CRM.QuoteConnection.QuoteConnection
-  nameWithType.vb: QuoteConnection.New
-  fullName.vb: SuperOffice.CRM.QuoteConnection.New
-  name.vb: New
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
-- uid: SuperOffice.CRM.QuoteConnectionManager
-  commentId: T:SuperOffice.CRM.QuoteConnectionManager
-  parent: SuperOffice.CRM
-  isExternal: true
-  href: SuperOffice.CRM.QuoteConnectionManager.html
-  name: QuoteConnectionManager
-  nameWithType: QuoteConnectionManager
-  fullName: SuperOffice.CRM.QuoteConnectionManager
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.CRM.Rows.QuoteConnectionRow
   commentId: T:SuperOffice.CRM.Rows.QuoteConnectionRow
   parent: SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.CRM.Rows.QuoteConnectionRow.html
   name: QuoteConnectionRow
   nameWithType: QuoteConnectionRow
   fullName: SuperOffice.CRM.Rows.QuoteConnectionRow
 - uid: System.Int32[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int[]
-  nameWithType: int[]
-  fullName: int[]
-  nameWithType.vb: Integer()
-  fullName.vb: Integer()
-  name.vb: Integer()
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
   spec.csharp:
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: System.Collections.Generic.Dictionary{System.String,System.String}
-  commentId: T:System.Collections.Generic.Dictionary{System.String,System.String}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.Dictionary{System.String,System.String}'
   definition: System.Collections.Generic.Dictionary`2
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
-  name: Dictionary<string, string>
-  nameWithType: Dictionary<string, string>
-  fullName: System.Collections.Generic.Dictionary<string, string>
+  name: Dictionary<String, String>
+  nameWithType: Dictionary<String, String>
+  fullName: System.Collections.Generic.Dictionary<System.String, System.String>
   nameWithType.vb: Dictionary(Of String, String)
-  fullName.vb: System.Collections.Generic.Dictionary(Of String, String)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, System.String)
   name.vb: Dictionary(Of String, String)
   spec.csharp:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.UserInfo
   commentId: T:SuperOffice.CRM.UserInfo
   parent: SuperOffice.CRM
   isExternal: true
-  href: SuperOffice.CRM.UserInfo.html
   name: UserInfo
   nameWithType: UserInfo
   fullName: SuperOffice.CRM.UserInfo
@@ -1186,125 +1030,68 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows
-    name: Rows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows
-    name: Rows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.html
 - uid: System.Collections.Generic.Dictionary`2
-  commentId: T:System.Collections.Generic.Dictionary`2
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
-  name: Dictionary<TKey, TValue>
-  nameWithType: Dictionary<TKey, TValue>
-  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
-  nameWithType.vb: Dictionary(Of TKey, TValue)
-  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
-  name.vb: Dictionary(Of TKey, TValue)
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: System.Collections.Generic.Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: System.Collections.Generic.Dictionary(Of , )
+  name.vb: Dictionary(Of , )
   spec.csharp:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
   - name: <
-  - name: TKey
-  - name: ','
-  - name: " "
-  - name: TValue
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TKey
-  - name: ','
-  - name: " "
-  - name: TValue
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.QuoteConnection.Initialize*
   commentId: Overload:SuperOffice.CRM.QuoteConnection.Initialize
   isExternal: true
-  href: SuperOffice.CRM.QuoteConnection.html#SuperOffice_CRM_QuoteConnection_Initialize
   name: Initialize
   nameWithType: QuoteConnection.Initialize
   fullName: SuperOffice.CRM.QuoteConnection.Initialize
@@ -1312,52 +1099,24 @@ references:
   commentId: T:SuperOffice.CRM.PluginResponseInfo
   parent: SuperOffice.CRM
   isExternal: true
-  href: SuperOffice.CRM.PluginResponseInfo.html
   name: PluginResponseInfo
   nameWithType: PluginResponseInfo
   fullName: SuperOffice.CRM.PluginResponseInfo
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
 - uid: SuperOffice.CRM.QuoteConnection.ToString*
   commentId: Overload:SuperOffice.CRM.QuoteConnection.ToString
   isExternal: true
-  href: SuperOffice.CRM.QuoteConnection.html#SuperOffice_CRM_QuoteConnection_ToString
   name: ToString
   nameWithType: QuoteConnection.ToString
   fullName: SuperOffice.CRM.QuoteConnection.ToString
 - uid: SuperOffice.CRM.QuoteConnection.Connector*
   commentId: Overload:SuperOffice.CRM.QuoteConnection.Connector
   isExternal: true
-  href: SuperOffice.CRM.QuoteConnection.html#SuperOffice_CRM_QuoteConnection_Connector
   name: Connector
   nameWithType: QuoteConnection.Connector
   fullName: SuperOffice.CRM.QuoteConnection.Connector
 - uid: SuperOffice.CRM.QuoteConnection.CRMConnectionId*
   commentId: Overload:SuperOffice.CRM.QuoteConnection.CRMConnectionId
   isExternal: true
-  href: SuperOffice.CRM.QuoteConnection.html#SuperOffice_CRM_QuoteConnection_CRMConnectionId
   name: CRMConnectionId
   nameWithType: QuoteConnection.CRMConnectionId
   fullName: SuperOffice.CRM.QuoteConnection.CRMConnectionId
@@ -1365,115 +1124,84 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.QuoteConnection.ERPName*
   commentId: Overload:SuperOffice.CRM.QuoteConnection.ERPName
   isExternal: true
-  href: SuperOffice.CRM.QuoteConnection.html#SuperOffice_CRM_QuoteConnection_ERPName
   name: ERPName
   nameWithType: QuoteConnection.ERPName
   fullName: SuperOffice.CRM.QuoteConnection.ERPName
 - uid: SuperOffice.CRM.QuoteConnection.ConnectorName*
   commentId: Overload:SuperOffice.CRM.QuoteConnection.ConnectorName
   isExternal: true
-  href: SuperOffice.CRM.QuoteConnection.html#SuperOffice_CRM_QuoteConnection_ConnectorName
   name: ConnectorName
   nameWithType: QuoteConnection.ConnectorName
   fullName: SuperOffice.CRM.QuoteConnection.ConnectorName
 - uid: SuperOffice.CRM.QuoteConnection.ErpConnectionId*
   commentId: Overload:SuperOffice.CRM.QuoteConnection.ErpConnectionId
   isExternal: true
-  href: SuperOffice.CRM.QuoteConnection.html#SuperOffice_CRM_QuoteConnection_ErpConnectionId
   name: ErpConnectionId
   nameWithType: QuoteConnection.ErpConnectionId
   fullName: SuperOffice.CRM.QuoteConnection.ErpConnectionId
 - uid: SuperOffice.CRM.QuoteConnection.DisplayName*
   commentId: Overload:SuperOffice.CRM.QuoteConnection.DisplayName
   isExternal: true
-  href: SuperOffice.CRM.QuoteConnection.html#SuperOffice_CRM_QuoteConnection_DisplayName
   name: DisplayName
   nameWithType: QuoteConnection.DisplayName
   fullName: SuperOffice.CRM.QuoteConnection.DisplayName
 - uid: SuperOffice.CRM.QuoteConnection.DisplayDescription*
   commentId: Overload:SuperOffice.CRM.QuoteConnection.DisplayDescription
   isExternal: true
-  href: SuperOffice.CRM.QuoteConnection.html#SuperOffice_CRM_QuoteConnection_DisplayDescription
   name: DisplayDescription
   nameWithType: QuoteConnection.DisplayDescription
   fullName: SuperOffice.CRM.QuoteConnection.DisplayDescription
 - uid: SuperOffice.CRM.QuoteConnection.ExtraData*
   commentId: Overload:SuperOffice.CRM.QuoteConnection.ExtraData
   isExternal: true
-  href: SuperOffice.CRM.QuoteConnection.html#SuperOffice_CRM_QuoteConnection_ExtraData
   name: ExtraData
   nameWithType: QuoteConnection.ExtraData
   fullName: SuperOffice.CRM.QuoteConnection.ExtraData
 - uid: SuperOffice.CRM.QuoteConnection.Deleted*
   commentId: Overload:SuperOffice.CRM.QuoteConnection.Deleted
   isExternal: true
-  href: SuperOffice.CRM.QuoteConnection.html#SuperOffice_CRM_QuoteConnection_Deleted
   name: Deleted
   nameWithType: QuoteConnection.Deleted
   fullName: SuperOffice.CRM.QuoteConnection.Deleted
 - uid: SuperOffice.CRM.QuoteConnection.IsAvailable*
   commentId: Overload:SuperOffice.CRM.QuoteConnection.IsAvailable
   isExternal: true
-  href: SuperOffice.CRM.QuoteConnection.html#SuperOffice_CRM_QuoteConnection_IsAvailable
   name: IsAvailable
   nameWithType: QuoteConnection.IsAvailable
   fullName: SuperOffice.CRM.QuoteConnection.IsAvailable
-- uid: SuperOffice.CRM.QuoteConnection.UserGroupAccessIds
-  commentId: P:SuperOffice.CRM.QuoteConnection.UserGroupAccessIds
-  isExternal: true
-  href: SuperOffice.CRM.QuoteConnection.html#SuperOffice_CRM_QuoteConnection_UserGroupAccessIds
-  name: UserGroupAccessIds
-  nameWithType: QuoteConnection.UserGroupAccessIds
-  fullName: SuperOffice.CRM.QuoteConnection.UserGroupAccessIds
-- uid: SuperOffice.CRM.QuoteConnection.AssociateAccessIds
-  commentId: P:SuperOffice.CRM.QuoteConnection.AssociateAccessIds
-  isExternal: true
-  href: SuperOffice.CRM.QuoteConnection.html#SuperOffice_CRM_QuoteConnection_AssociateAccessIds
-  name: AssociateAccessIds
-  nameWithType: QuoteConnection.AssociateAccessIds
-  fullName: SuperOffice.CRM.QuoteConnection.AssociateAccessIds
 - uid: SuperOffice.CRM.QuoteConnection.AllAccess*
   commentId: Overload:SuperOffice.CRM.QuoteConnection.AllAccess
   isExternal: true
-  href: SuperOffice.CRM.QuoteConnection.html#SuperOffice_CRM_QuoteConnection_AllAccess
   name: AllAccess
   nameWithType: QuoteConnection.AllAccess
   fullName: SuperOffice.CRM.QuoteConnection.AllAccess
 - uid: SuperOffice.CRM.QuoteConnection.UserGroupAccessIds*
   commentId: Overload:SuperOffice.CRM.QuoteConnection.UserGroupAccessIds
   isExternal: true
-  href: SuperOffice.CRM.QuoteConnection.html#SuperOffice_CRM_QuoteConnection_UserGroupAccessIds
   name: UserGroupAccessIds
   nameWithType: QuoteConnection.UserGroupAccessIds
   fullName: SuperOffice.CRM.QuoteConnection.UserGroupAccessIds
 - uid: SuperOffice.CRM.QuoteConnection.AssociateAccessIds*
   commentId: Overload:SuperOffice.CRM.QuoteConnection.AssociateAccessIds
   isExternal: true
-  href: SuperOffice.CRM.QuoteConnection.html#SuperOffice_CRM_QuoteConnection_AssociateAccessIds
   name: AssociateAccessIds
   nameWithType: QuoteConnection.AssociateAccessIds
   fullName: SuperOffice.CRM.QuoteConnection.AssociateAccessIds
 - uid: SuperOffice.CRM.QuoteConnection.Rank*
   commentId: Overload:SuperOffice.CRM.QuoteConnection.Rank
   isExternal: true
-  href: SuperOffice.CRM.QuoteConnection.html#SuperOffice_CRM_QuoteConnection_Rank
   name: Rank
   nameWithType: QuoteConnection.Rank
   fullName: SuperOffice.CRM.QuoteConnection.Rank
 - uid: SuperOffice.CRM.QuoteConnection.InitializeResponse*
   commentId: Overload:SuperOffice.CRM.QuoteConnection.InitializeResponse
   isExternal: true
-  href: SuperOffice.CRM.QuoteConnection.html#SuperOffice_CRM_QuoteConnection_InitializeResponse
   name: InitializeResponse
   nameWithType: QuoteConnection.InitializeResponse
   fullName: SuperOffice.CRM.QuoteConnection.InitializeResponse

@@ -26,21 +26,18 @@ references:
 - uid: SuperOffice.Globalization.CultureSettingHelper
   commentId: T:SuperOffice.Globalization.CultureSettingHelper
   isExternal: true
-  href: SuperOffice.Globalization.CultureSettingHelper.html
   name: CultureSettingHelper
   nameWithType: CultureSettingHelper
   fullName: SuperOffice.Globalization.CultureSettingHelper
 - uid: SuperOffice.Globalization.IResourceManager
   commentId: T:SuperOffice.Globalization.IResourceManager
   isExternal: true
-  href: SuperOffice.Globalization.IResourceManager.html
   name: IResourceManager
   nameWithType: IResourceManager
   fullName: SuperOffice.Globalization.IResourceManager
 - uid: SuperOffice.Globalization.RC
   commentId: T:SuperOffice.Globalization.RC
   isExternal: true
-  href: SuperOffice.Globalization.RC.html
   name: RC
   nameWithType: RC
   fullName: SuperOffice.Globalization.RC
@@ -48,7 +45,6 @@ references:
   commentId: T:SuperOffice.Globalization.IResourceProvider
   parent: SuperOffice.Globalization
   isExternal: true
-  href: SuperOffice.Globalization.IResourceProvider.html
   name: IResourceProvider
   nameWithType: IResourceProvider
   fullName: SuperOffice.Globalization.IResourceProvider
@@ -56,7 +52,6 @@ references:
   commentId: T:SuperOffice.Globalization.IUnfilteredResourceProvider
   parent: SuperOffice.Globalization
   isExternal: true
-  href: SuperOffice.Globalization.IUnfilteredResourceProvider.html
   name: IUnfilteredResourceProvider
   nameWithType: IUnfilteredResourceProvider
   fullName: SuperOffice.Globalization.IUnfilteredResourceProvider
@@ -64,55 +59,30 @@ references:
   commentId: T:SuperOffice.Globalization.ISearchableResourceProvider
   parent: SuperOffice.Globalization
   isExternal: true
-  href: SuperOffice.Globalization.ISearchableResourceProvider.html
   name: ISearchableResourceProvider
   nameWithType: ISearchableResourceProvider
   fullName: SuperOffice.Globalization.ISearchableResourceProvider
 - uid: SuperOffice.Globalization.ITranslatedResourceProvider
   commentId: T:SuperOffice.Globalization.ITranslatedResourceProvider
   isExternal: true
-  href: SuperOffice.Globalization.ITranslatedResourceProvider.html
   name: ITranslatedResourceProvider
   nameWithType: ITranslatedResourceProvider
   fullName: SuperOffice.Globalization.ITranslatedResourceProvider
 - uid: SuperOffice.Globalization.ResourceProviderAttribute
   commentId: T:SuperOffice.Globalization.ResourceProviderAttribute
   isExternal: true
-  href: SuperOffice.Globalization.ResourceProviderAttribute.html
   name: ResourceProviderAttribute
   nameWithType: ResourceProviderAttribute
   fullName: SuperOffice.Globalization.ResourceProviderAttribute
 - uid: SuperOffice.Globalization.ResourceDllProviderBase
   commentId: T:SuperOffice.Globalization.ResourceDllProviderBase
   isExternal: true
-  href: SuperOffice.Globalization.ResourceDllProviderBase.html
   name: ResourceDllProviderBase
   nameWithType: ResourceDllProviderBase
   fullName: SuperOffice.Globalization.ResourceDllProviderBase
 - uid: SuperOffice.Globalization
   commentId: N:SuperOffice.Globalization
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Globalization
   nameWithType: SuperOffice.Globalization
   fullName: SuperOffice.Globalization
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Globalization
-    name: Globalization
-    isExternal: true
-    href: SuperOffice.Globalization.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Globalization
-    name: Globalization
-    isExternal: true
-    href: SuperOffice.Globalization.html

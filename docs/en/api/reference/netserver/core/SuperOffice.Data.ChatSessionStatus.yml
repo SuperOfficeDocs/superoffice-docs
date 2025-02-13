@@ -17,44 +17,67 @@ items:
   - SuperOffice.Data.ChatSessionStatus.PreChatForm
   - SuperOffice.Data.ChatSessionStatus.RequestPosted
   - SuperOffice.Data.ChatSessionStatus.UserLast
+  - SuperOffice.Data.ChatSessionStatus.value__
   langs:
   - csharp
   - vb
   name: ChatSessionStatus
   nameWithType: ChatSessionStatus
   fullName: SuperOffice.Data.ChatSessionStatus
-  type: Enum
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: >-
-    Chat Session status
-
-    This Enum is used by:  chat_session.status
-  example: []
+  summary: "\nChat Session status\nThis Enum is used by:  chat_session.status\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public enum ChatSessionStatus : short
+    content: 'public sealed class ChatSessionStatus : Enum'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
+      Public NotInheritable Class ChatSessionStatus
+          Inherits
 
-      Public Enum ChatSessionStatus As Short
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.ChatSessionStatus.EnumUtil.MapEnums``2
   - SuperOffice.Data.ChatSessionStatus.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  - SuperOffice.Data.ChatSessionStatus.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ChatSessionStatus)
-  - SuperOffice.Data.ChatSessionStatus.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - System.Enum.EnumUtil.GetDescription
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.ChatSessionStatus.value__
+  commentId: F:SuperOffice.Data.ChatSessionStatus.value__
+  id: value__
+  parent: SuperOffice.Data.ChatSessionStatus
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: ChatSessionStatus.value__
+  fullName: SuperOffice.Data.ChatSessionStatus.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.ChatSessionStatus.Invalid
   commentId: F:SuperOffice.Data.ChatSessionStatus.Invalid
   id: Invalid
@@ -66,26 +89,24 @@ items:
   nameWithType: ChatSessionStatus.Invalid
   fullName: SuperOffice.Data.ChatSessionStatus.Invalid
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '0: Unknown'
-  example: []
+  summary: "\n0: Unknown\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Invalid = 0
+    content: public const ChatSessionStatus Invalid
     return:
       type: SuperOffice.Data.ChatSessionStatus
-    content.vb: >-
-      <EnumMember>
-
-      Invalid = 0
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Invalid As ChatSessionStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ChatSessionStatus.PreChatForm
   commentId: F:SuperOffice.Data.ChatSessionStatus.PreChatForm
   id: PreChatForm
@@ -97,26 +118,24 @@ items:
   nameWithType: ChatSessionStatus.PreChatForm
   fullName: SuperOffice.Data.ChatSessionStatus.PreChatForm
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '1: PreChatForm'
-  example: []
+  summary: "\n1: PreChatForm\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      PreChatForm = 1
+    content: public const ChatSessionStatus PreChatForm
     return:
       type: SuperOffice.Data.ChatSessionStatus
-    content.vb: >-
-      <EnumMember>
-
-      PreChatForm = 1
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const PreChatForm As ChatSessionStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ChatSessionStatus.Faq
   commentId: F:SuperOffice.Data.ChatSessionStatus.Faq
   id: Faq
@@ -128,26 +147,24 @@ items:
   nameWithType: ChatSessionStatus.Faq
   fullName: SuperOffice.Data.ChatSessionStatus.Faq
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '2: FAQ'
-  example: []
+  summary: "\n2: FAQ\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Faq = 2
+    content: public const ChatSessionStatus Faq
     return:
       type: SuperOffice.Data.ChatSessionStatus
-    content.vb: >-
-      <EnumMember>
-
-      Faq = 2
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Faq As ChatSessionStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ChatSessionStatus.OfflineForm
   commentId: F:SuperOffice.Data.ChatSessionStatus.OfflineForm
   id: OfflineForm
@@ -159,26 +176,24 @@ items:
   nameWithType: ChatSessionStatus.OfflineForm
   fullName: SuperOffice.Data.ChatSessionStatus.OfflineForm
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '3: OfflineForm'
-  example: []
+  summary: "\n3: OfflineForm\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      OfflineForm = 3
+    content: public const ChatSessionStatus OfflineForm
     return:
       type: SuperOffice.Data.ChatSessionStatus
-    content.vb: >-
-      <EnumMember>
-
-      OfflineForm = 3
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const OfflineForm As ChatSessionStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ChatSessionStatus.InQueue
   commentId: F:SuperOffice.Data.ChatSessionStatus.InQueue
   id: InQueue
@@ -190,26 +205,24 @@ items:
   nameWithType: ChatSessionStatus.InQueue
   fullName: SuperOffice.Data.ChatSessionStatus.InQueue
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '4: InQueue - waiting to be picked up'
-  example: []
+  summary: "\n4: InQueue - waiting to be picked up\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      InQueue = 4
+    content: public const ChatSessionStatus InQueue
     return:
       type: SuperOffice.Data.ChatSessionStatus
-    content.vb: >-
-      <EnumMember>
-
-      InQueue = 4
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const InQueue As ChatSessionStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ChatSessionStatus.CustomerLast
   commentId: F:SuperOffice.Data.ChatSessionStatus.CustomerLast
   id: CustomerLast
@@ -221,26 +234,24 @@ items:
   nameWithType: ChatSessionStatus.CustomerLast
   fullName: SuperOffice.Data.ChatSessionStatus.CustomerLast
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '5: CustomerLast - customer wrote last message'
-  example: []
+  summary: "\n5: CustomerLast - customer wrote last message\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      CustomerLast = 5
+    content: public const ChatSessionStatus CustomerLast
     return:
       type: SuperOffice.Data.ChatSessionStatus
-    content.vb: >-
-      <EnumMember>
-
-      CustomerLast = 5
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const CustomerLast As ChatSessionStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ChatSessionStatus.UserLast
   commentId: F:SuperOffice.Data.ChatSessionStatus.UserLast
   id: UserLast
@@ -252,26 +263,24 @@ items:
   nameWithType: ChatSessionStatus.UserLast
   fullName: SuperOffice.Data.ChatSessionStatus.UserLast
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '6: UserLast - user agent wrote last message'
-  example: []
+  summary: "\n6: UserLast - user agent wrote last message\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      UserLast = 6
+    content: public const ChatSessionStatus UserLast
     return:
       type: SuperOffice.Data.ChatSessionStatus
-    content.vb: >-
-      <EnumMember>
-
-      UserLast = 6
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const UserLast As ChatSessionStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ChatSessionStatus.Finished
   commentId: F:SuperOffice.Data.ChatSessionStatus.Finished
   id: Finished
@@ -283,26 +292,24 @@ items:
   nameWithType: ChatSessionStatus.Finished
   fullName: SuperOffice.Data.ChatSessionStatus.Finished
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '7: Finished - may be deleted later'
-  example: []
+  summary: "\n7: Finished - may be deleted later\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Finished = 7
+    content: public const ChatSessionStatus Finished
     return:
       type: SuperOffice.Data.ChatSessionStatus
-    content.vb: >-
-      <EnumMember>
-
-      Finished = 7
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Finished As ChatSessionStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ChatSessionStatus.Deleted
   commentId: F:SuperOffice.Data.ChatSessionStatus.Deleted
   id: Deleted
@@ -314,26 +321,24 @@ items:
   nameWithType: ChatSessionStatus.Deleted
   fullName: SuperOffice.Data.ChatSessionStatus.Deleted
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '8: Deleted - ready to delete. Usually cleaned within 24 hrs'
-  example: []
+  summary: "\n8: Deleted - ready to delete. Usually cleaned within 24 hrs\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Deleted = 8
+    content: public const ChatSessionStatus Deleted
     return:
       type: SuperOffice.Data.ChatSessionStatus
-    content.vb: >-
-      <EnumMember>
-
-      Deleted = 8
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Deleted As ChatSessionStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ChatSessionStatus.Closed
   commentId: F:SuperOffice.Data.ChatSessionStatus.Closed
   id: Closed
@@ -345,26 +350,24 @@ items:
   nameWithType: ChatSessionStatus.Closed
   fullName: SuperOffice.Data.ChatSessionStatus.Closed
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '9: Closed'
-  example: []
+  summary: "\n9: Closed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Closed = 9
+    content: public const ChatSessionStatus Closed
     return:
       type: SuperOffice.Data.ChatSessionStatus
-    content.vb: >-
-      <EnumMember>
-
-      Closed = 9
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Closed As ChatSessionStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ChatSessionStatus.RequestPosted
   commentId: F:SuperOffice.Data.ChatSessionStatus.RequestPosted
   id: RequestPosted
@@ -376,26 +379,24 @@ items:
   nameWithType: ChatSessionStatus.RequestPosted
   fullName: SuperOffice.Data.ChatSessionStatus.RequestPosted
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '10: RequestPosted'
-  example: []
+  summary: "\n10: RequestPosted\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      RequestPosted = 10
+    content: public const ChatSessionStatus RequestPosted
     return:
       type: SuperOffice.Data.ChatSessionStatus
-    content.vb: >-
-      <EnumMember>
-
-      RequestPosted = 10
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const RequestPosted As ChatSessionStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ChatSessionStatus.ClosedFromQueue
   commentId: F:SuperOffice.Data.ChatSessionStatus.ClosedFromQueue
   id: ClosedFromQueue
@@ -407,300 +408,115 @@ items:
   nameWithType: ChatSessionStatus.ClosedFromQueue
   fullName: SuperOffice.Data.ChatSessionStatus.ClosedFromQueue
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '11: ClosedFromQueue'
-  example: []
+  summary: "\n11: ClosedFromQueue\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      ClosedFromQueue = 11
+    content: public const ChatSessionStatus ClosedFromQueue
     return:
       type: SuperOffice.Data.ChatSessionStatus
-    content.vb: >-
-      <EnumMember>
-
-      ClosedFromQueue = 11
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const ClosedFromQueue As ChatSessionStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.ChatSessionStatus.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<ChatSessionStatus, To>(ChatSessionStatus)
-  nameWithType: EnumUtil.MapEnums<ChatSessionStatus, To>(ChatSessionStatus)
-  fullName: EnumUtil.MapEnums<SuperOffice.Data.ChatSessionStatus, To>(SuperOffice.Data.ChatSessionStatus)
-  nameWithType.vb: EnumUtil.MapEnums(Of ChatSessionStatus, To)(ChatSessionStatus)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.ChatSessionStatus, To)(SuperOffice.Data.ChatSessionStatus)
-  name.vb: MapEnums(Of ChatSessionStatus, To)(ChatSessionStatus)
+  name: MapEnums<ChatSessionStatus, To>()
+  nameWithType: EnumUtil.MapEnums<ChatSessionStatus, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.ChatSessionStatus, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ChatSessionStatus, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.ChatSessionStatus, To)()
+  name.vb: MapEnums(Of ChatSessionStatus, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.ChatSessionStatus)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ChatSessionStatus, To>
+    nameWithType: EnumUtil.MapEnums<ChatSessionStatus, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.ChatSessionStatus, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.ChatSessionStatus
-    name: ChatSessionStatus
-    isExternal: true
-    href: SuperOffice.Data.ChatSessionStatus.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.ChatSessionStatus
-    name: ChatSessionStatus
-    isExternal: true
-    href: SuperOffice.Data.ChatSessionStatus.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.ChatSessionStatus)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ChatSessionStatus, To)
+    nameWithType: EnumUtil.MapEnums(Of ChatSessionStatus, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.ChatSessionStatus, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.ChatSessionStatus
-    name: ChatSessionStatus
-    isExternal: true
-    href: SuperOffice.Data.ChatSessionStatus.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.ChatSessionStatus
-    name: ChatSessionStatus
-    isExternal: true
-    href: SuperOffice.Data.ChatSessionStatus.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.ChatSessionStatus.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<ChatSessionStatus, To>(ChatSessionStatus)
-  nameWithType: Converters.MapEnums<ChatSessionStatus, To>(ChatSessionStatus)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ChatSessionStatus, To>(SuperOffice.Data.ChatSessionStatus)
-  nameWithType.vb: Converters.MapEnums(Of ChatSessionStatus, To)(ChatSessionStatus)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ChatSessionStatus, To)(SuperOffice.Data.ChatSessionStatus)
-  name.vb: MapEnums(Of ChatSessionStatus, To)(ChatSessionStatus)
+  name: MapEnums<ChatSessionStatus, To>()
+  nameWithType: Converters.MapEnums<ChatSessionStatus, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ChatSessionStatus, To>()
+  nameWithType.vb: Converters.MapEnums(Of ChatSessionStatus, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ChatSessionStatus, To)()
+  name.vb: MapEnums(Of ChatSessionStatus, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.ChatSessionStatus)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ChatSessionStatus, To>
+    nameWithType: Converters.MapEnums<ChatSessionStatus, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ChatSessionStatus, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.ChatSessionStatus
-    name: ChatSessionStatus
-    isExternal: true
-    href: SuperOffice.Data.ChatSessionStatus.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.ChatSessionStatus
-    name: ChatSessionStatus
-    isExternal: true
-    href: SuperOffice.Data.ChatSessionStatus.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.ChatSessionStatus)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ChatSessionStatus, To)
+    nameWithType: Converters.MapEnums(Of ChatSessionStatus, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ChatSessionStatus, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.ChatSessionStatus
-    name: ChatSessionStatus
-    isExternal: true
-    href: SuperOffice.Data.ChatSessionStatus.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.ChatSessionStatus
-    name: ChatSessionStatus
-    isExternal: true
-    href: SuperOffice.Data.ChatSessionStatus.html
-  - name: )
-- uid: SuperOffice.Data.ChatSessionStatus.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ChatSessionStatus)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<ChatSessionStatus>(ChatSessionStatus, ChatSessionStatus)
-  nameWithType: ObjectExtensions.AssignByReflection<ChatSessionStatus>(ChatSessionStatus, ChatSessionStatus)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.ChatSessionStatus>(SuperOffice.Data.ChatSessionStatus, SuperOffice.Data.ChatSessionStatus)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ChatSessionStatus)(ChatSessionStatus, ChatSessionStatus)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.ChatSessionStatus)(SuperOffice.Data.ChatSessionStatus, SuperOffice.Data.ChatSessionStatus)
-  name.vb: AssignByReflection(Of ChatSessionStatus)(ChatSessionStatus, ChatSessionStatus)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ChatSessionStatus,SuperOffice.Data.ChatSessionStatus)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.Data.ChatSessionStatus
-    name: ChatSessionStatus
-    isExternal: true
-    href: SuperOffice.Data.ChatSessionStatus.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Data.ChatSessionStatus
-    name: ChatSessionStatus
-    isExternal: true
-    href: SuperOffice.Data.ChatSessionStatus.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Data.ChatSessionStatus
-    name: ChatSessionStatus
-    isExternal: true
-    href: SuperOffice.Data.ChatSessionStatus.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ChatSessionStatus,SuperOffice.Data.ChatSessionStatus)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.ChatSessionStatus
-    name: ChatSessionStatus
-    isExternal: true
-    href: SuperOffice.Data.ChatSessionStatus.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.Data.ChatSessionStatus
-    name: ChatSessionStatus
-    isExternal: true
-    href: SuperOffice.Data.ChatSessionStatus.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Data.ChatSessionStatus
-    name: ChatSessionStatus
-    isExternal: true
-    href: SuperOffice.Data.ChatSessionStatus.html
-  - name: )
-- uid: SuperOffice.Data.ChatSessionStatus.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<ChatSessionStatus>(ChatSessionStatus)
-  nameWithType: ObjectExtensions.GraphCopy<ChatSessionStatus>(ChatSessionStatus)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.ChatSessionStatus>(SuperOffice.Data.ChatSessionStatus)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of ChatSessionStatus)(ChatSessionStatus)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.ChatSessionStatus)(SuperOffice.Data.ChatSessionStatus)
-  name.vb: GraphCopy(Of ChatSessionStatus)(ChatSessionStatus)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.ChatSessionStatus)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.Data.ChatSessionStatus
-    name: ChatSessionStatus
-    isExternal: true
-    href: SuperOffice.Data.ChatSessionStatus.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Data.ChatSessionStatus
-    name: ChatSessionStatus
-    isExternal: true
-    href: SuperOffice.Data.ChatSessionStatus.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.ChatSessionStatus)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.ChatSessionStatus
-    name: ChatSessionStatus
-    isExternal: true
-    href: SuperOffice.Data.ChatSessionStatus.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.Data.ChatSessionStatus
-    name: ChatSessionStatus
-    isExternal: true
-    href: SuperOffice.Data.ChatSessionStatus.html
-  - name: )
-- uid: System.Enum.EnumUtil.GetDescription
-  commentId: M:EnumUtil.GetDescription(System.Enum)
-  parent: EnumUtil
-  definition: EnumUtil.GetDescription(System.Enum)
-  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  name: GetDescription(Enum)
-  nameWithType: EnumUtil.GetDescription(Enum)
-  fullName: EnumUtil.GetDescription(System.Enum)
-  spec.csharp:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
-  spec.vb:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -709,45 +525,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -756,222 +570,58 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: EnumUtil.GetDescription(System.Enum)
-  commentId: M:EnumUtil.GetDescription(System.Enum)
-  isExternal: true
-  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  name: GetDescription(Enum)
-  nameWithType: EnumUtil.GetDescription(Enum)
-  fullName: EnumUtil.GetDescription(System.Enum)
-  spec.csharp:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
-  spec.vb:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.Data.ChatSessionStatus
   commentId: T:SuperOffice.Data.ChatSessionStatus
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ChatSessionStatus.html
   name: ChatSessionStatus
   nameWithType: ChatSessionStatus
   fullName: SuperOffice.Data.ChatSessionStatus

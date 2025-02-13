@@ -24,41 +24,20 @@ items:
   nameWithType: ForeignDevice
   fullName: SuperOffice.CRM.Services.ForeignDevice
   type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Saves a foreign device belonging to the ForeignDevice and application name specified.
-
-    <p></p>
-
-    Carrier object for ForeignDevice.
-
-    Services for the ForeignDevice Carrier is available from the <xref href="SuperOffice.CRM.Services.IForeignSystemAgent?text=ForeignSystem+Agent" data-throw-if-not-resolved="false"></xref>.
+  summary: "\nSaves a foreign device belonging to the ForeignDevice and application name specified.\n<p></p>\nCarrier object for ForeignDevice.\nServices for the ForeignDevice Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IForeignSystemAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   example:
-  - >-
-    Get ForeignDevice 123 using the agent:
-
-    <pre><code class="lang-csharp">using SuperOffice;
-
-    using SuperOffice.CRM.Services;
-
-
-    using (SoSession mySession = SoSession.Authenticate("user", "pass"))
-
-    {
-       var agent = new ForeignSystemAgent();
-       var foreignDevice = agent.GetForeignDevice( 123 );
-    }</code></pre>
+  - "\nGet ForeignDevice 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new ForeignSystemAgent();\n    var foreignDevice = agent.GetForeignDevice( 123 );\n }</code></pre>\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public class ForeignDevice : Carrier
+    content: 'public class ForeignDevice : Carrier'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
-
-      Public Class ForeignDevice Inherits Carrier
+      Public Class ForeignDevice
+          Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.ForeignSystemAgent
     commentId: T:SuperOffice.CRM.Services.ForeignSystemAgent
@@ -66,14 +45,12 @@ items:
     commentId: T:SuperOffice.CRM.Services.IForeignSystemAgent
   inheritance:
   - System.Object
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.ForeignDevice.#ctor
   commentId: M:SuperOffice.CRM.Services.ForeignDevice.#ctor
   id: '#ctor'
@@ -85,18 +62,21 @@ items:
   nameWithType: ForeignDevice.ForeignDevice()
   fullName: SuperOffice.CRM.Services.ForeignDevice.ForeignDevice()
   type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Default constructor
-  example: []
+  summary: "\nDefault constructor\n"
   syntax:
     content: public ForeignDevice()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.ForeignDevice.#ctor*
-  nameWithType.vb: ForeignDevice.New()
-  fullName.vb: SuperOffice.CRM.Services.ForeignDevice.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.ForeignDevice.ToString
   commentId: M:SuperOffice.CRM.Services.ForeignDevice.ToString
   id: ToString
@@ -108,18 +88,26 @@ items:
   nameWithType: ForeignDevice.ToString()
   fullName: SuperOffice.CRM.Services.ForeignDevice.ToString()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the carrier contents as a formatted string.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string.\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString() As String
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.CRM.Services.ForeignDevice.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Services.ForeignDevice.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.ForeignDevice.ToString(System.String)
   id: ToString(System.String)
@@ -127,18 +115,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(string)
-  nameWithType: ForeignDevice.ToString(string)
-  fullName: SuperOffice.CRM.Services.ForeignDevice.ToString(string)
+  name: ToString(String)
+  nameWithType: ForeignDevice.ToString(String)
+  fullName: SuperOffice.CRM.Services.ForeignDevice.ToString(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Returns the carrier contents as a formatted string, useful for debugging.
-
-    Each line in the output is prefixed with the input value.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -150,9 +137,10 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.ForeignDevice.ToString*
-  nameWithType.vb: ForeignDevice.ToString(String)
-  fullName.vb: SuperOffice.CRM.Services.ForeignDevice.ToString(String)
-  name.vb: ToString(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.ForeignDevice.ForeignDeviceId
   commentId: P:SuperOffice.CRM.Services.ForeignDevice.ForeignDeviceId
   id: ForeignDeviceId
@@ -164,28 +152,28 @@ items:
   nameWithType: ForeignDevice.ForeignDeviceId
   fullName: SuperOffice.CRM.Services.ForeignDevice.ForeignDeviceId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Primary key
-  example: []
+  summary: "\nPrimary key \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int ForeignDeviceId { get; set; }
+    content: public virtual int ForeignDeviceId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ForeignDeviceId As Integer
+    content.vb: Public Overridable Property ForeignDeviceId As Integer
   overload: SuperOffice.CRM.Services.ForeignDevice.ForeignDeviceId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ForeignDevice.Name
   commentId: P:SuperOffice.CRM.Services.ForeignDevice.Name
   id: Name
@@ -197,28 +185,28 @@ items:
   nameWithType: ForeignDevice.Name
   fullName: SuperOffice.CRM.Services.ForeignDevice.Name
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Name of device
-  example: []
+  summary: "\nName of device \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string Name { get; set; }
+    content: public virtual string Name { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Name As String
+    content.vb: Public Overridable Property Name As String
   overload: SuperOffice.CRM.Services.ForeignDevice.Name*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ForeignDevice.CreatedDate
   commentId: P:SuperOffice.CRM.Services.ForeignDevice.CreatedDate
   id: CreatedDate
@@ -230,28 +218,28 @@ items:
   nameWithType: ForeignDevice.CreatedDate
   fullName: SuperOffice.CRM.Services.ForeignDevice.CreatedDate
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Registered when  in UTC.
-  example: []
+  summary: "\nRegistered when  in UTC.\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual DateTime CreatedDate { get; set; }
+    content: public virtual DateTime CreatedDate { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property CreatedDate As Date
+    content.vb: Public Overridable Property CreatedDate As DateTime
   overload: SuperOffice.CRM.Services.ForeignDevice.CreatedDate*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ForeignDevice.UpdatedDate
   commentId: P:SuperOffice.CRM.Services.ForeignDevice.UpdatedDate
   id: UpdatedDate
@@ -263,28 +251,28 @@ items:
   nameWithType: ForeignDevice.UpdatedDate
   fullName: SuperOffice.CRM.Services.ForeignDevice.UpdatedDate
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Last updated when  in UTC.
-  example: []
+  summary: "\nLast updated when  in UTC.\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual DateTime UpdatedDate { get; set; }
+    content: public virtual DateTime UpdatedDate { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property UpdatedDate As Date
+    content.vb: Public Overridable Property UpdatedDate As DateTime
   overload: SuperOffice.CRM.Services.ForeignDevice.UpdatedDate*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ForeignDevice.AssociateFullName
   commentId: P:SuperOffice.CRM.Services.ForeignDevice.AssociateFullName
   id: AssociateFullName
@@ -296,28 +284,28 @@ items:
   nameWithType: ForeignDevice.AssociateFullName
   fullName: SuperOffice.CRM.Services.ForeignDevice.AssociateFullName
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The person owning the Foreign Device
-  example: []
+  summary: "\nThe person owning the Foreign Device \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string AssociateFullName { get; set; }
+    content: public virtual string AssociateFullName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property AssociateFullName As String
+    content.vb: Public Overridable Property AssociateFullName As String
   overload: SuperOffice.CRM.Services.ForeignDevice.AssociateFullName*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ForeignDevice.CreatedBy
   commentId: P:SuperOffice.CRM.Services.ForeignDevice.CreatedBy
   id: CreatedBy
@@ -329,28 +317,28 @@ items:
   nameWithType: ForeignDevice.CreatedBy
   fullName: SuperOffice.CRM.Services.ForeignDevice.CreatedBy
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The person that created the device.
-  example: []
+  summary: "\nThe person that created the device. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string CreatedBy { get; set; }
+    content: public virtual string CreatedBy { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property CreatedBy As String
+    content.vb: Public Overridable Property CreatedBy As String
   overload: SuperOffice.CRM.Services.ForeignDevice.CreatedBy*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ForeignDevice.UpdatedBy
   commentId: P:SuperOffice.CRM.Services.ForeignDevice.UpdatedBy
   id: UpdatedBy
@@ -362,28 +350,28 @@ items:
   nameWithType: ForeignDevice.UpdatedBy
   fullName: SuperOffice.CRM.Services.ForeignDevice.UpdatedBy
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The person that last updated this device.
-  example: []
+  summary: "\nThe person that last updated this device. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string UpdatedBy { get; set; }
+    content: public virtual string UpdatedBy { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property UpdatedBy As String
+    content.vb: Public Overridable Property UpdatedBy As String
   overload: SuperOffice.CRM.Services.ForeignDevice.UpdatedBy*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ForeignDevice.DeviceIdentifier
   commentId: P:SuperOffice.CRM.Services.ForeignDevice.DeviceIdentifier
   id: DeviceIdentifier
@@ -395,28 +383,28 @@ items:
   nameWithType: ForeignDevice.DeviceIdentifier
   fullName: SuperOffice.CRM.Services.ForeignDevice.DeviceIdentifier
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Optional unique id of device (Palm pilot device ID, etc)
-  example: []
+  summary: "\nOptional unique id of device (Palm pilot device ID, etc) \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string DeviceIdentifier { get; set; }
+    content: public virtual string DeviceIdentifier { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property DeviceIdentifier As String
+    content.vb: Public Overridable Property DeviceIdentifier As String
   overload: SuperOffice.CRM.Services.ForeignDevice.DeviceIdentifier*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ForeignDevice.ForeignAppId
   commentId: P:SuperOffice.CRM.Services.ForeignDevice.ForeignAppId
   id: ForeignAppId
@@ -428,33 +416,38 @@ items:
   nameWithType: ForeignDevice.ForeignAppId
   fullName: SuperOffice.CRM.Services.ForeignDevice.ForeignAppId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Reference to foregin application (device type)
-  example: []
+  summary: "\nReference to foregin application (device type) \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int ForeignAppId { get; set; }
+    content: public virtual int ForeignAppId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ForeignAppId As Integer
+    content.vb: Public Overridable Property ForeignAppId As Integer
   overload: SuperOffice.CRM.Services.ForeignDevice.ForeignAppId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
 - uid: SuperOffice.CRM.Services.ForeignSystemAgent
   commentId: T:SuperOffice.CRM.Services.ForeignSystemAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.ForeignSystemAgent.html
   name: ForeignSystemAgent
   nameWithType: ForeignSystemAgent
   fullName: SuperOffice.CRM.Services.ForeignSystemAgent
@@ -462,79 +455,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.IForeignSystemAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.IForeignSystemAgent.html
   name: IForeignSystemAgent
   nameWithType: IForeignSystemAgent
   fullName: SuperOffice.CRM.Services.IForeignSystemAgent
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.ForeignDevice.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.ForeignDevice.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.ForeignDevice.html#SuperOffice_CRM_Services_ForeignDevice__ctor
   name: ForeignDevice
   nameWithType: ForeignDevice.ForeignDevice
   fullName: SuperOffice.CRM.Services.ForeignDevice.ForeignDevice
-  nameWithType.vb: ForeignDevice.New
-  fullName.vb: SuperOffice.CRM.Services.ForeignDevice.New
-  name.vb: New
 - uid: SuperOffice.CRM.Services.ForeignDevice.ToString*
   commentId: Overload:SuperOffice.CRM.Services.ForeignDevice.ToString
   isExternal: true
-  href: SuperOffice.CRM.Services.ForeignDevice.html#SuperOffice_CRM_Services_ForeignDevice_ToString
   name: ToString
   nameWithType: ForeignDevice.ToString
   fullName: SuperOffice.CRM.Services.ForeignDevice.ToString
@@ -542,17 +474,18 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.ForeignDevice.ForeignDeviceId*
   commentId: Overload:SuperOffice.CRM.Services.ForeignDevice.ForeignDeviceId
   isExternal: true
-  href: SuperOffice.CRM.Services.ForeignDevice.html#SuperOffice_CRM_Services_ForeignDevice_ForeignDeviceId
   name: ForeignDeviceId
   nameWithType: ForeignDevice.ForeignDeviceId
   fullName: SuperOffice.CRM.Services.ForeignDevice.ForeignDeviceId
@@ -560,77 +493,59 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Services.ForeignDevice.Name*
   commentId: Overload:SuperOffice.CRM.Services.ForeignDevice.Name
   isExternal: true
-  href: SuperOffice.CRM.Services.ForeignDevice.html#SuperOffice_CRM_Services_ForeignDevice_Name
   name: Name
   nameWithType: ForeignDevice.Name
   fullName: SuperOffice.CRM.Services.ForeignDevice.Name
 - uid: SuperOffice.CRM.Services.ForeignDevice.CreatedDate*
   commentId: Overload:SuperOffice.CRM.Services.ForeignDevice.CreatedDate
   isExternal: true
-  href: SuperOffice.CRM.Services.ForeignDevice.html#SuperOffice_CRM_Services_ForeignDevice_CreatedDate
   name: CreatedDate
   nameWithType: ForeignDevice.CreatedDate
   fullName: SuperOffice.CRM.Services.ForeignDevice.CreatedDate
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
 - uid: SuperOffice.CRM.Services.ForeignDevice.UpdatedDate*
   commentId: Overload:SuperOffice.CRM.Services.ForeignDevice.UpdatedDate
   isExternal: true
-  href: SuperOffice.CRM.Services.ForeignDevice.html#SuperOffice_CRM_Services_ForeignDevice_UpdatedDate
   name: UpdatedDate
   nameWithType: ForeignDevice.UpdatedDate
   fullName: SuperOffice.CRM.Services.ForeignDevice.UpdatedDate
 - uid: SuperOffice.CRM.Services.ForeignDevice.AssociateFullName*
   commentId: Overload:SuperOffice.CRM.Services.ForeignDevice.AssociateFullName
   isExternal: true
-  href: SuperOffice.CRM.Services.ForeignDevice.html#SuperOffice_CRM_Services_ForeignDevice_AssociateFullName
   name: AssociateFullName
   nameWithType: ForeignDevice.AssociateFullName
   fullName: SuperOffice.CRM.Services.ForeignDevice.AssociateFullName
 - uid: SuperOffice.CRM.Services.ForeignDevice.CreatedBy*
   commentId: Overload:SuperOffice.CRM.Services.ForeignDevice.CreatedBy
   isExternal: true
-  href: SuperOffice.CRM.Services.ForeignDevice.html#SuperOffice_CRM_Services_ForeignDevice_CreatedBy
   name: CreatedBy
   nameWithType: ForeignDevice.CreatedBy
   fullName: SuperOffice.CRM.Services.ForeignDevice.CreatedBy
 - uid: SuperOffice.CRM.Services.ForeignDevice.UpdatedBy*
   commentId: Overload:SuperOffice.CRM.Services.ForeignDevice.UpdatedBy
   isExternal: true
-  href: SuperOffice.CRM.Services.ForeignDevice.html#SuperOffice_CRM_Services_ForeignDevice_UpdatedBy
   name: UpdatedBy
   nameWithType: ForeignDevice.UpdatedBy
   fullName: SuperOffice.CRM.Services.ForeignDevice.UpdatedBy
 - uid: SuperOffice.CRM.Services.ForeignDevice.DeviceIdentifier*
   commentId: Overload:SuperOffice.CRM.Services.ForeignDevice.DeviceIdentifier
   isExternal: true
-  href: SuperOffice.CRM.Services.ForeignDevice.html#SuperOffice_CRM_Services_ForeignDevice_DeviceIdentifier
   name: DeviceIdentifier
   nameWithType: ForeignDevice.DeviceIdentifier
   fullName: SuperOffice.CRM.Services.ForeignDevice.DeviceIdentifier
 - uid: SuperOffice.CRM.Services.ForeignDevice.ForeignAppId*
   commentId: Overload:SuperOffice.CRM.Services.ForeignDevice.ForeignAppId
   isExternal: true
-  href: SuperOffice.CRM.Services.ForeignDevice.html#SuperOffice_CRM_Services_ForeignDevice_ForeignAppId
   name: ForeignAppId
   nameWithType: ForeignDevice.ForeignAppId
   fullName: SuperOffice.CRM.Services.ForeignDevice.ForeignAppId

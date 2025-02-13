@@ -11,29 +11,67 @@ items:
   - SuperOffice.CRM.ValueOverrideInfo.OverrideEarningAmount
   - SuperOffice.CRM.ValueOverrideInfo.OverrideEarningPercent
   - SuperOffice.CRM.ValueOverrideInfo.OverrideTotal
+  - SuperOffice.CRM.ValueOverrideInfo.value__
   langs:
   - csharp
   - vb
   name: ValueOverrideInfo
   nameWithType: ValueOverrideInfo
   fullName: SuperOffice.CRM.ValueOverrideInfo
-  type: Enum
+  type: Class
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: >-
-    Which field the user changed last.
-
-    This helps the calulation to calculate the other fields correctly.
-  example: []
+  summary: "\nWhich field the user changed last.\nThis helps the calulation to calculate the other fields correctly.\n"
   syntax:
-    content: public enum ValueOverrideInfo
-    content.vb: Public Enum ValueOverrideInfo
+    content: 'public sealed class ValueOverrideInfo : Enum'
+    content.vb: >-
+      Public NotInheritable Class ValueOverrideInfo
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.CRM.ValueOverrideInfo.EnumUtil.MapEnums``2
   - SuperOffice.CRM.ValueOverrideInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  - SuperOffice.CRM.ValueOverrideInfo.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ValueOverrideInfo)
-  - SuperOffice.CRM.ValueOverrideInfo.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.CRM.ValueOverrideInfo.value__
+  commentId: F:SuperOffice.CRM.ValueOverrideInfo.value__
+  id: value__
+  parent: SuperOffice.CRM.ValueOverrideInfo
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: ValueOverrideInfo.value__
+  fullName: SuperOffice.CRM.ValueOverrideInfo.value__
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.ValueOverrideInfo.None
   commentId: F:SuperOffice.CRM.ValueOverrideInfo.None
   id: None
@@ -45,15 +83,24 @@ items:
   nameWithType: ValueOverrideInfo.None
   fullName: SuperOffice.CRM.ValueOverrideInfo.None
   type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: '0: Discount data is from the ERP system and has not been overridden'
-  example: []
+  summary: "\n0: Discount data is from the ERP system and has not been overridden\n"
   syntax:
-    content: None = 0
+    content: public const ValueOverrideInfo None
     return:
       type: SuperOffice.CRM.ValueOverrideInfo
+    content.vb: Public Const None As ValueOverrideInfo
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.ValueOverrideInfo.OverrideTotal
   commentId: F:SuperOffice.CRM.ValueOverrideInfo.OverrideTotal
   id: OverrideTotal
@@ -65,15 +112,24 @@ items:
   nameWithType: ValueOverrideInfo.OverrideTotal
   fullName: SuperOffice.CRM.ValueOverrideInfo.OverrideTotal
   type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: '1: The Total amount has been overridden; all other fields should be recalculated'
-  example: []
+  summary: "\n1: The Total amount has been overridden; all other fields should be recalculated\n"
   syntax:
-    content: OverrideTotal = 1
+    content: public const ValueOverrideInfo OverrideTotal
     return:
       type: SuperOffice.CRM.ValueOverrideInfo
+    content.vb: Public Const OverrideTotal As ValueOverrideInfo
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.ValueOverrideInfo.OverrideDiscountPercent
   commentId: F:SuperOffice.CRM.ValueOverrideInfo.OverrideDiscountPercent
   id: OverrideDiscountPercent
@@ -85,15 +141,24 @@ items:
   nameWithType: ValueOverrideInfo.OverrideDiscountPercent
   fullName: SuperOffice.CRM.ValueOverrideInfo.OverrideDiscountPercent
   type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: '2: The discount percentage has been overriden; all other fields should be recalculated'
-  example: []
+  summary: "\n2: The discount percentage has been overriden; all other fields should be recalculated\n"
   syntax:
-    content: OverrideDiscountPercent = 2
+    content: public const ValueOverrideInfo OverrideDiscountPercent
     return:
       type: SuperOffice.CRM.ValueOverrideInfo
+    content.vb: Public Const OverrideDiscountPercent As ValueOverrideInfo
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.ValueOverrideInfo.OverrideDiscountAmount
   commentId: F:SuperOffice.CRM.ValueOverrideInfo.OverrideDiscountAmount
   id: OverrideDiscountAmount
@@ -105,15 +170,24 @@ items:
   nameWithType: ValueOverrideInfo.OverrideDiscountAmount
   fullName: SuperOffice.CRM.ValueOverrideInfo.OverrideDiscountAmount
   type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: '3: The discount amount has been overridden; all other fields should be recalculated'
-  example: []
+  summary: "\n3: The discount amount has been overridden; all other fields should be recalculated\n"
   syntax:
-    content: OverrideDiscountAmount = 3
+    content: public const ValueOverrideInfo OverrideDiscountAmount
     return:
       type: SuperOffice.CRM.ValueOverrideInfo
+    content.vb: Public Const OverrideDiscountAmount As ValueOverrideInfo
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.ValueOverrideInfo.OverrideEarningPercent
   commentId: F:SuperOffice.CRM.ValueOverrideInfo.OverrideEarningPercent
   id: OverrideEarningPercent
@@ -125,15 +199,24 @@ items:
   nameWithType: ValueOverrideInfo.OverrideEarningPercent
   fullName: SuperOffice.CRM.ValueOverrideInfo.OverrideEarningPercent
   type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: '4: The earning percent has been overridden; all other fields should be recalculated'
-  example: []
+  summary: "\n4: The earning percent has been overridden; all other fields should be recalculated\n"
   syntax:
-    content: OverrideEarningPercent = 4
+    content: public const ValueOverrideInfo OverrideEarningPercent
     return:
       type: SuperOffice.CRM.ValueOverrideInfo
+    content.vb: Public Const OverrideEarningPercent As ValueOverrideInfo
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.ValueOverrideInfo.OverrideEarningAmount
   commentId: F:SuperOffice.CRM.ValueOverrideInfo.OverrideEarningAmount
   id: OverrideEarningAmount
@@ -145,259 +228,115 @@ items:
   nameWithType: ValueOverrideInfo.OverrideEarningAmount
   fullName: SuperOffice.CRM.ValueOverrideInfo.OverrideEarningAmount
   type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: '5: The earning amount has been overridden; all other fields should be recalculated'
-  example: []
+  summary: "\n5: The earning amount has been overridden; all other fields should be recalculated\n"
   syntax:
-    content: OverrideEarningAmount = 5
+    content: public const ValueOverrideInfo OverrideEarningAmount
     return:
       type: SuperOffice.CRM.ValueOverrideInfo
+    content.vb: Public Const OverrideEarningAmount As ValueOverrideInfo
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.CRM
   commentId: N:SuperOffice.CRM
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM
   nameWithType: SuperOffice.CRM
   fullName: SuperOffice.CRM
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.ValueOverrideInfo.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<ValueOverrideInfo, To>(ValueOverrideInfo)
-  nameWithType: EnumUtil.MapEnums<ValueOverrideInfo, To>(ValueOverrideInfo)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ValueOverrideInfo, To>(SuperOffice.CRM.ValueOverrideInfo)
-  nameWithType.vb: EnumUtil.MapEnums(Of ValueOverrideInfo, To)(ValueOverrideInfo)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ValueOverrideInfo, To)(SuperOffice.CRM.ValueOverrideInfo)
-  name.vb: MapEnums(Of ValueOverrideInfo, To)(ValueOverrideInfo)
+  name: MapEnums<ValueOverrideInfo, To>()
+  nameWithType: EnumUtil.MapEnums<ValueOverrideInfo, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ValueOverrideInfo, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ValueOverrideInfo, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ValueOverrideInfo, To)()
+  name.vb: MapEnums(Of ValueOverrideInfo, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.ValueOverrideInfo)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ValueOverrideInfo, To>
+    nameWithType: EnumUtil.MapEnums<ValueOverrideInfo, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.ValueOverrideInfo, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.ValueOverrideInfo
-    name: ValueOverrideInfo
-    isExternal: true
-    href: SuperOffice.CRM.ValueOverrideInfo.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.ValueOverrideInfo
-    name: ValueOverrideInfo
-    isExternal: true
-    href: SuperOffice.CRM.ValueOverrideInfo.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.ValueOverrideInfo)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ValueOverrideInfo, To)
+    nameWithType: EnumUtil.MapEnums(Of ValueOverrideInfo, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ValueOverrideInfo, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.ValueOverrideInfo
-    name: ValueOverrideInfo
-    isExternal: true
-    href: SuperOffice.CRM.ValueOverrideInfo.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.ValueOverrideInfo
-    name: ValueOverrideInfo
-    isExternal: true
-    href: SuperOffice.CRM.ValueOverrideInfo.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.ValueOverrideInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<ValueOverrideInfo, To>(ValueOverrideInfo)
-  nameWithType: Converters.MapEnums<ValueOverrideInfo, To>(ValueOverrideInfo)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ValueOverrideInfo, To>(SuperOffice.CRM.ValueOverrideInfo)
-  nameWithType.vb: Converters.MapEnums(Of ValueOverrideInfo, To)(ValueOverrideInfo)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ValueOverrideInfo, To)(SuperOffice.CRM.ValueOverrideInfo)
-  name.vb: MapEnums(Of ValueOverrideInfo, To)(ValueOverrideInfo)
+  name: MapEnums<ValueOverrideInfo, To>()
+  nameWithType: Converters.MapEnums<ValueOverrideInfo, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ValueOverrideInfo, To>()
+  nameWithType.vb: Converters.MapEnums(Of ValueOverrideInfo, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ValueOverrideInfo, To)()
+  name.vb: MapEnums(Of ValueOverrideInfo, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.ValueOverrideInfo)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ValueOverrideInfo, To>
+    nameWithType: Converters.MapEnums<ValueOverrideInfo, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ValueOverrideInfo, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.ValueOverrideInfo
-    name: ValueOverrideInfo
-    isExternal: true
-    href: SuperOffice.CRM.ValueOverrideInfo.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.ValueOverrideInfo
-    name: ValueOverrideInfo
-    isExternal: true
-    href: SuperOffice.CRM.ValueOverrideInfo.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.ValueOverrideInfo)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ValueOverrideInfo, To)
+    nameWithType: Converters.MapEnums(Of ValueOverrideInfo, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ValueOverrideInfo, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.ValueOverrideInfo
-    name: ValueOverrideInfo
-    isExternal: true
-    href: SuperOffice.CRM.ValueOverrideInfo.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.ValueOverrideInfo
-    name: ValueOverrideInfo
-    isExternal: true
-    href: SuperOffice.CRM.ValueOverrideInfo.html
-  - name: )
-- uid: SuperOffice.CRM.ValueOverrideInfo.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ValueOverrideInfo)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<ValueOverrideInfo>(ValueOverrideInfo, ValueOverrideInfo)
-  nameWithType: ObjectExtensions.AssignByReflection<ValueOverrideInfo>(ValueOverrideInfo, ValueOverrideInfo)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ValueOverrideInfo>(SuperOffice.CRM.ValueOverrideInfo, SuperOffice.CRM.ValueOverrideInfo)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ValueOverrideInfo)(ValueOverrideInfo, ValueOverrideInfo)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ValueOverrideInfo)(SuperOffice.CRM.ValueOverrideInfo, SuperOffice.CRM.ValueOverrideInfo)
-  name.vb: AssignByReflection(Of ValueOverrideInfo)(ValueOverrideInfo, ValueOverrideInfo)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ValueOverrideInfo,SuperOffice.CRM.ValueOverrideInfo)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.CRM.ValueOverrideInfo
-    name: ValueOverrideInfo
-    isExternal: true
-    href: SuperOffice.CRM.ValueOverrideInfo.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.CRM.ValueOverrideInfo
-    name: ValueOverrideInfo
-    isExternal: true
-    href: SuperOffice.CRM.ValueOverrideInfo.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.ValueOverrideInfo
-    name: ValueOverrideInfo
-    isExternal: true
-    href: SuperOffice.CRM.ValueOverrideInfo.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ValueOverrideInfo,SuperOffice.CRM.ValueOverrideInfo)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.ValueOverrideInfo
-    name: ValueOverrideInfo
-    isExternal: true
-    href: SuperOffice.CRM.ValueOverrideInfo.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.CRM.ValueOverrideInfo
-    name: ValueOverrideInfo
-    isExternal: true
-    href: SuperOffice.CRM.ValueOverrideInfo.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.ValueOverrideInfo
-    name: ValueOverrideInfo
-    isExternal: true
-    href: SuperOffice.CRM.ValueOverrideInfo.html
-  - name: )
-- uid: SuperOffice.CRM.ValueOverrideInfo.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<ValueOverrideInfo>(ValueOverrideInfo)
-  nameWithType: ObjectExtensions.GraphCopy<ValueOverrideInfo>(ValueOverrideInfo)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ValueOverrideInfo>(SuperOffice.CRM.ValueOverrideInfo)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of ValueOverrideInfo)(ValueOverrideInfo)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ValueOverrideInfo)(SuperOffice.CRM.ValueOverrideInfo)
-  name.vb: GraphCopy(Of ValueOverrideInfo)(ValueOverrideInfo)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.ValueOverrideInfo)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.CRM.ValueOverrideInfo
-    name: ValueOverrideInfo
-    isExternal: true
-    href: SuperOffice.CRM.ValueOverrideInfo.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.CRM.ValueOverrideInfo
-    name: ValueOverrideInfo
-    isExternal: true
-    href: SuperOffice.CRM.ValueOverrideInfo.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.ValueOverrideInfo)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.ValueOverrideInfo
-    name: ValueOverrideInfo
-    isExternal: true
-    href: SuperOffice.CRM.ValueOverrideInfo.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.CRM.ValueOverrideInfo
-    name: ValueOverrideInfo
-    isExternal: true
-    href: SuperOffice.CRM.ValueOverrideInfo.html
-  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -406,45 +345,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -453,193 +390,58 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.ValueOverrideInfo
   commentId: T:SuperOffice.CRM.ValueOverrideInfo
   parent: SuperOffice.CRM
   isExternal: true
-  href: SuperOffice.CRM.ValueOverrideInfo.html
   name: ValueOverrideInfo
   nameWithType: ValueOverrideInfo
   fullName: SuperOffice.CRM.ValueOverrideInfo

@@ -33,6 +33,9 @@ items:
   nameWithType: IFileAccess
   fullName: SuperOffice.IO.Files.IFileAccess
   type: Interface
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.IO.Files
@@ -42,6 +45,12 @@ items:
   extensionMethods:
   - SuperOffice.IO.Files.IFileAccess.EnumUtil.MapEnums``2
   - SuperOffice.IO.Files.IFileAccess.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
 - uid: SuperOffice.IO.Files.IFileAccess.EnsureAccess(System.Action)
   commentId: M:SuperOffice.IO.Files.IFileAccess.EnsureAccess(System.Action)
   id: EnsureAccess(System.Action)
@@ -53,11 +62,13 @@ items:
   nameWithType: IFileAccess.EnsureAccess(Action)
   fullName: SuperOffice.IO.Files.IFileAccess.EnsureAccess(System.Action)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.IO.Files
   summary: Impersonation for Windows Disk File Access. For Azure File Access this is a noop.
-  example: []
   syntax:
     content: void EnsureAccess(Action action)
     parameters:
@@ -76,11 +87,13 @@ items:
   nameWithType: IFileAccess.EnsureAccess<T>(Func<T>)
   fullName: SuperOffice.IO.Files.IFileAccess.EnsureAccess<T>(System.Func<T>)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.IO.Files
   summary: Impersonation for Windows Disk File Access. For Azure File Access this is a noop.
-  example: []
   syntax:
     content: T EnsureAccess<T>(Func<T> func)
     parameters:
@@ -102,10 +115,13 @@ items:
   langs:
   - csharp
   - vb
-  name: FileExists(string)
-  nameWithType: IFileAccess.FileExists(string)
-  fullName: SuperOffice.IO.Files.IFileAccess.FileExists(string)
+  name: FileExists(String)
+  nameWithType: IFileAccess.FileExists(String)
+  fullName: SuperOffice.IO.Files.IFileAccess.FileExists(System.String)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.IO.Files
@@ -118,9 +134,6 @@ items:
       type: System.Boolean
     content.vb: Function FileExists(path As String) As Boolean
   overload: SuperOffice.IO.Files.IFileAccess.FileExists*
-  nameWithType.vb: IFileAccess.FileExists(String)
-  fullName.vb: SuperOffice.IO.Files.IFileAccess.FileExists(String)
-  name.vb: FileExists(String)
 - uid: SuperOffice.IO.Files.IFileAccess.DirectoryGetFiles(System.String,System.String,System.Boolean)
   commentId: M:SuperOffice.IO.Files.IFileAccess.DirectoryGetFiles(System.String,System.String,System.Boolean)
   id: DirectoryGetFiles(System.String,System.String,System.Boolean)
@@ -128,10 +141,13 @@ items:
   langs:
   - csharp
   - vb
-  name: DirectoryGetFiles(string, string, bool)
-  nameWithType: IFileAccess.DirectoryGetFiles(string, string, bool)
-  fullName: SuperOffice.IO.Files.IFileAccess.DirectoryGetFiles(string, string, bool)
+  name: DirectoryGetFiles(String, String, Boolean)
+  nameWithType: IFileAccess.DirectoryGetFiles(String, String, Boolean)
+  fullName: SuperOffice.IO.Files.IFileAccess.DirectoryGetFiles(System.String, System.String, System.Boolean)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.IO.Files
@@ -148,9 +164,6 @@ items:
       type: System.String[]
     content.vb: Function DirectoryGetFiles(path As String, searchPattern As String, searchInSubdirectories As Boolean = False) As String()
   overload: SuperOffice.IO.Files.IFileAccess.DirectoryGetFiles*
-  nameWithType.vb: IFileAccess.DirectoryGetFiles(String, String, Boolean)
-  fullName.vb: SuperOffice.IO.Files.IFileAccess.DirectoryGetFiles(String, String, Boolean)
-  name.vb: DirectoryGetFiles(String, String, Boolean)
 - uid: SuperOffice.IO.Files.IFileAccess.DirectoryGetFileInfos(System.String)
   commentId: M:SuperOffice.IO.Files.IFileAccess.DirectoryGetFileInfos(System.String)
   id: DirectoryGetFileInfos(System.String)
@@ -158,10 +171,13 @@ items:
   langs:
   - csharp
   - vb
-  name: DirectoryGetFileInfos(string)
-  nameWithType: IFileAccess.DirectoryGetFileInfos(string)
-  fullName: SuperOffice.IO.Files.IFileAccess.DirectoryGetFileInfos(string)
+  name: DirectoryGetFileInfos(String)
+  nameWithType: IFileAccess.DirectoryGetFileInfos(String)
+  fullName: SuperOffice.IO.Files.IFileAccess.DirectoryGetFileInfos(System.String)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.IO.Files
@@ -174,9 +190,6 @@ items:
       type: SuperOffice.IO.Files.SoFileInfo[]
     content.vb: Function DirectoryGetFileInfos(path As String) As SoFileInfo()
   overload: SuperOffice.IO.Files.IFileAccess.DirectoryGetFileInfos*
-  nameWithType.vb: IFileAccess.DirectoryGetFileInfos(String)
-  fullName.vb: SuperOffice.IO.Files.IFileAccess.DirectoryGetFileInfos(String)
-  name.vb: DirectoryGetFileInfos(String)
 - uid: SuperOffice.IO.Files.IFileAccess.CreateDirectoryIfNotExists(System.String)
   commentId: M:SuperOffice.IO.Files.IFileAccess.CreateDirectoryIfNotExists(System.String)
   id: CreateDirectoryIfNotExists(System.String)
@@ -184,10 +197,13 @@ items:
   langs:
   - csharp
   - vb
-  name: CreateDirectoryIfNotExists(string)
-  nameWithType: IFileAccess.CreateDirectoryIfNotExists(string)
-  fullName: SuperOffice.IO.Files.IFileAccess.CreateDirectoryIfNotExists(string)
+  name: CreateDirectoryIfNotExists(String)
+  nameWithType: IFileAccess.CreateDirectoryIfNotExists(String)
+  fullName: SuperOffice.IO.Files.IFileAccess.CreateDirectoryIfNotExists(System.String)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.IO.Files
@@ -198,9 +214,6 @@ items:
       type: System.String
     content.vb: Sub CreateDirectoryIfNotExists(path As String)
   overload: SuperOffice.IO.Files.IFileAccess.CreateDirectoryIfNotExists*
-  nameWithType.vb: IFileAccess.CreateDirectoryIfNotExists(String)
-  fullName.vb: SuperOffice.IO.Files.IFileAccess.CreateDirectoryIfNotExists(String)
-  name.vb: CreateDirectoryIfNotExists(String)
 - uid: SuperOffice.IO.Files.IFileAccess.DirectoryExists(System.String)
   commentId: M:SuperOffice.IO.Files.IFileAccess.DirectoryExists(System.String)
   id: DirectoryExists(System.String)
@@ -208,10 +221,13 @@ items:
   langs:
   - csharp
   - vb
-  name: DirectoryExists(string)
-  nameWithType: IFileAccess.DirectoryExists(string)
-  fullName: SuperOffice.IO.Files.IFileAccess.DirectoryExists(string)
+  name: DirectoryExists(String)
+  nameWithType: IFileAccess.DirectoryExists(String)
+  fullName: SuperOffice.IO.Files.IFileAccess.DirectoryExists(System.String)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.IO.Files
@@ -224,9 +240,6 @@ items:
       type: System.Boolean
     content.vb: Function DirectoryExists(path As String) As Boolean
   overload: SuperOffice.IO.Files.IFileAccess.DirectoryExists*
-  nameWithType.vb: IFileAccess.DirectoryExists(String)
-  fullName.vb: SuperOffice.IO.Files.IFileAccess.DirectoryExists(String)
-  name.vb: DirectoryExists(String)
 - uid: SuperOffice.IO.Files.IFileAccess.GetFileName(System.String)
   commentId: M:SuperOffice.IO.Files.IFileAccess.GetFileName(System.String)
   id: GetFileName(System.String)
@@ -234,10 +247,13 @@ items:
   langs:
   - csharp
   - vb
-  name: GetFileName(string)
-  nameWithType: IFileAccess.GetFileName(string)
-  fullName: SuperOffice.IO.Files.IFileAccess.GetFileName(string)
+  name: GetFileName(String)
+  nameWithType: IFileAccess.GetFileName(String)
+  fullName: SuperOffice.IO.Files.IFileAccess.GetFileName(System.String)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.IO.Files
@@ -250,9 +266,6 @@ items:
       type: System.String
     content.vb: Function GetFileName(path As String) As String
   overload: SuperOffice.IO.Files.IFileAccess.GetFileName*
-  nameWithType.vb: IFileAccess.GetFileName(String)
-  fullName.vb: SuperOffice.IO.Files.IFileAccess.GetFileName(String)
-  name.vb: GetFileName(String)
 - uid: SuperOffice.IO.Files.IFileAccess.GetFileNameWithoutExtension(System.String)
   commentId: M:SuperOffice.IO.Files.IFileAccess.GetFileNameWithoutExtension(System.String)
   id: GetFileNameWithoutExtension(System.String)
@@ -260,10 +273,13 @@ items:
   langs:
   - csharp
   - vb
-  name: GetFileNameWithoutExtension(string)
-  nameWithType: IFileAccess.GetFileNameWithoutExtension(string)
-  fullName: SuperOffice.IO.Files.IFileAccess.GetFileNameWithoutExtension(string)
+  name: GetFileNameWithoutExtension(String)
+  nameWithType: IFileAccess.GetFileNameWithoutExtension(String)
+  fullName: SuperOffice.IO.Files.IFileAccess.GetFileNameWithoutExtension(System.String)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.IO.Files
@@ -276,9 +292,6 @@ items:
       type: System.String
     content.vb: Function GetFileNameWithoutExtension(path As String) As String
   overload: SuperOffice.IO.Files.IFileAccess.GetFileNameWithoutExtension*
-  nameWithType.vb: IFileAccess.GetFileNameWithoutExtension(String)
-  fullName.vb: SuperOffice.IO.Files.IFileAccess.GetFileNameWithoutExtension(String)
-  name.vb: GetFileNameWithoutExtension(String)
 - uid: SuperOffice.IO.Files.IFileAccess.GetDirectoryName(System.String)
   commentId: M:SuperOffice.IO.Files.IFileAccess.GetDirectoryName(System.String)
   id: GetDirectoryName(System.String)
@@ -286,10 +299,13 @@ items:
   langs:
   - csharp
   - vb
-  name: GetDirectoryName(string)
-  nameWithType: IFileAccess.GetDirectoryName(string)
-  fullName: SuperOffice.IO.Files.IFileAccess.GetDirectoryName(string)
+  name: GetDirectoryName(String)
+  nameWithType: IFileAccess.GetDirectoryName(String)
+  fullName: SuperOffice.IO.Files.IFileAccess.GetDirectoryName(System.String)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.IO.Files
@@ -302,9 +318,6 @@ items:
       type: System.String
     content.vb: Function GetDirectoryName(path As String) As String
   overload: SuperOffice.IO.Files.IFileAccess.GetDirectoryName*
-  nameWithType.vb: IFileAccess.GetDirectoryName(String)
-  fullName.vb: SuperOffice.IO.Files.IFileAccess.GetDirectoryName(String)
-  name.vb: GetDirectoryName(String)
 - uid: SuperOffice.IO.Files.IFileAccess.PathCombine(System.String[])
   commentId: M:SuperOffice.IO.Files.IFileAccess.PathCombine(System.String[])
   id: PathCombine(System.String[])
@@ -312,10 +325,13 @@ items:
   langs:
   - csharp
   - vb
-  name: PathCombine(params string[])
-  nameWithType: IFileAccess.PathCombine(params string[])
-  fullName: SuperOffice.IO.Files.IFileAccess.PathCombine(params string[])
+  name: PathCombine(String[])
+  nameWithType: IFileAccess.PathCombine(String[])
+  fullName: SuperOffice.IO.Files.IFileAccess.PathCombine(System.String[])
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.IO.Files
@@ -328,9 +344,9 @@ items:
       type: System.String
     content.vb: Function PathCombine(ParamArray paths As String()) As String
   overload: SuperOffice.IO.Files.IFileAccess.PathCombine*
-  nameWithType.vb: IFileAccess.PathCombine(ParamArray String())
-  fullName.vb: SuperOffice.IO.Files.IFileAccess.PathCombine(ParamArray String())
-  name.vb: PathCombine(ParamArray String())
+  nameWithType.vb: IFileAccess.PathCombine(String())
+  fullName.vb: SuperOffice.IO.Files.IFileAccess.PathCombine(System.String())
+  name.vb: PathCombine(String())
 - uid: SuperOffice.IO.Files.IFileAccess.PathGetExtension(System.String)
   commentId: M:SuperOffice.IO.Files.IFileAccess.PathGetExtension(System.String)
   id: PathGetExtension(System.String)
@@ -338,10 +354,13 @@ items:
   langs:
   - csharp
   - vb
-  name: PathGetExtension(string)
-  nameWithType: IFileAccess.PathGetExtension(string)
-  fullName: SuperOffice.IO.Files.IFileAccess.PathGetExtension(string)
+  name: PathGetExtension(String)
+  nameWithType: IFileAccess.PathGetExtension(String)
+  fullName: SuperOffice.IO.Files.IFileAccess.PathGetExtension(System.String)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.IO.Files
@@ -354,9 +373,6 @@ items:
       type: System.String
     content.vb: Function PathGetExtension(path As String) As String
   overload: SuperOffice.IO.Files.IFileAccess.PathGetExtension*
-  nameWithType.vb: IFileAccess.PathGetExtension(String)
-  fullName.vb: SuperOffice.IO.Files.IFileAccess.PathGetExtension(String)
-  name.vb: PathGetExtension(String)
 - uid: SuperOffice.IO.Files.IFileAccess.PathGetInvalidFileNameChars
   commentId: M:SuperOffice.IO.Files.IFileAccess.PathGetInvalidFileNameChars
   id: PathGetInvalidFileNameChars
@@ -368,6 +384,9 @@ items:
   nameWithType: IFileAccess.PathGetInvalidFileNameChars()
   fullName: SuperOffice.IO.Files.IFileAccess.PathGetInvalidFileNameChars()
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.IO.Files
@@ -375,7 +394,7 @@ items:
     content: char[] PathGetInvalidFileNameChars()
     return:
       type: System.Char[]
-    content.vb: Function PathGetInvalidFileNameChars() As Char()
+    content.vb: Function PathGetInvalidFileNameChars As Char()
   overload: SuperOffice.IO.Files.IFileAccess.PathGetInvalidFileNameChars*
 - uid: SuperOffice.IO.Files.IFileAccess.PathGetFileName(System.String)
   commentId: M:SuperOffice.IO.Files.IFileAccess.PathGetFileName(System.String)
@@ -384,10 +403,13 @@ items:
   langs:
   - csharp
   - vb
-  name: PathGetFileName(string)
-  nameWithType: IFileAccess.PathGetFileName(string)
-  fullName: SuperOffice.IO.Files.IFileAccess.PathGetFileName(string)
+  name: PathGetFileName(String)
+  nameWithType: IFileAccess.PathGetFileName(String)
+  fullName: SuperOffice.IO.Files.IFileAccess.PathGetFileName(System.String)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.IO.Files
@@ -400,9 +422,6 @@ items:
       type: System.String
     content.vb: Function PathGetFileName(path As String) As String
   overload: SuperOffice.IO.Files.IFileAccess.PathGetFileName*
-  nameWithType.vb: IFileAccess.PathGetFileName(String)
-  fullName.vb: SuperOffice.IO.Files.IFileAccess.PathGetFileName(String)
-  name.vb: PathGetFileName(String)
 - uid: SuperOffice.IO.Files.IFileAccess.OpenReadOnlyNoLock(System.String)
   commentId: M:SuperOffice.IO.Files.IFileAccess.OpenReadOnlyNoLock(System.String)
   id: OpenReadOnlyNoLock(System.String)
@@ -410,16 +429,18 @@ items:
   langs:
   - csharp
   - vb
-  name: OpenReadOnlyNoLock(string)
-  nameWithType: IFileAccess.OpenReadOnlyNoLock(string)
-  fullName: SuperOffice.IO.Files.IFileAccess.OpenReadOnlyNoLock(string)
+  name: OpenReadOnlyNoLock(String)
+  nameWithType: IFileAccess.OpenReadOnlyNoLock(String)
+  fullName: SuperOffice.IO.Files.IFileAccess.OpenReadOnlyNoLock(System.String)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.IO.Files
   summary: Open a file/blob for reading
   remarks: Will call System.IO.File.Open() or Azure.Storage.Blobs.BlobClient.OpenRead()
-  example: []
   syntax:
     content: Stream OpenReadOnlyNoLock(string path)
     parameters:
@@ -433,9 +454,6 @@ items:
   - type: SuperOffice.Exceptions.SoFileNotFoundException
     commentId: T:SuperOffice.Exceptions.SoFileNotFoundException
     description: Wraps System.IO.FileNotFoundException and Azure.RequestFailedException when Status is 404. Check for SoFileNotFoundException instead of doing FileExists before call to this method.
-  nameWithType.vb: IFileAccess.OpenReadOnlyNoLock(String)
-  fullName.vb: SuperOffice.IO.Files.IFileAccess.OpenReadOnlyNoLock(String)
-  name.vb: OpenReadOnlyNoLock(String)
 - uid: SuperOffice.IO.Files.IFileAccess.SaveStreamToFile(System.IO.Stream,System.String)
   commentId: M:SuperOffice.IO.Files.IFileAccess.SaveStreamToFile(System.IO.Stream,System.String)
   id: SaveStreamToFile(System.IO.Stream,System.String)
@@ -443,16 +461,18 @@ items:
   langs:
   - csharp
   - vb
-  name: SaveStreamToFile(Stream, string)
-  nameWithType: IFileAccess.SaveStreamToFile(Stream, string)
-  fullName: SuperOffice.IO.Files.IFileAccess.SaveStreamToFile(System.IO.Stream, string)
+  name: SaveStreamToFile(Stream, String)
+  nameWithType: IFileAccess.SaveStreamToFile(Stream, String)
+  fullName: SuperOffice.IO.Files.IFileAccess.SaveStreamToFile(System.IO.Stream, System.String)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.IO.Files
   summary: Save a stream to file/blob
   remarks: Will call System.IO.File.Create() or Azure.Storage.Blobs.BlobClient.Upload(), both implementations will overwrite any existing file/blob.
-  example: []
   syntax:
     content: void SaveStreamToFile(Stream stream, string path)
     parameters:
@@ -462,9 +482,6 @@ items:
       type: System.String
     content.vb: Sub SaveStreamToFile(stream As Stream, path As String)
   overload: SuperOffice.IO.Files.IFileAccess.SaveStreamToFile*
-  nameWithType.vb: IFileAccess.SaveStreamToFile(Stream, String)
-  fullName.vb: SuperOffice.IO.Files.IFileAccess.SaveStreamToFile(System.IO.Stream, String)
-  name.vb: SaveStreamToFile(Stream, String)
 - uid: SuperOffice.IO.Files.IFileAccess.CreateForWrite(System.String)
   commentId: M:SuperOffice.IO.Files.IFileAccess.CreateForWrite(System.String)
   id: CreateForWrite(System.String)
@@ -472,10 +489,13 @@ items:
   langs:
   - csharp
   - vb
-  name: CreateForWrite(string)
-  nameWithType: IFileAccess.CreateForWrite(string)
-  fullName: SuperOffice.IO.Files.IFileAccess.CreateForWrite(string)
+  name: CreateForWrite(String)
+  nameWithType: IFileAccess.CreateForWrite(String)
+  fullName: SuperOffice.IO.Files.IFileAccess.CreateForWrite(System.String)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.IO.Files
@@ -488,9 +508,6 @@ items:
       type: System.IO.Stream
     content.vb: Function CreateForWrite(path As String) As Stream
   overload: SuperOffice.IO.Files.IFileAccess.CreateForWrite*
-  nameWithType.vb: IFileAccess.CreateForWrite(String)
-  fullName.vb: SuperOffice.IO.Files.IFileAccess.CreateForWrite(String)
-  name.vb: CreateForWrite(String)
 - uid: SuperOffice.IO.Files.IFileAccess.FileDelete(System.String)
   commentId: M:SuperOffice.IO.Files.IFileAccess.FileDelete(System.String)
   id: FileDelete(System.String)
@@ -498,10 +515,13 @@ items:
   langs:
   - csharp
   - vb
-  name: FileDelete(string)
-  nameWithType: IFileAccess.FileDelete(string)
-  fullName: SuperOffice.IO.Files.IFileAccess.FileDelete(string)
+  name: FileDelete(String)
+  nameWithType: IFileAccess.FileDelete(String)
+  fullName: SuperOffice.IO.Files.IFileAccess.FileDelete(System.String)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.IO.Files
@@ -512,9 +532,6 @@ items:
       type: System.String
     content.vb: Sub FileDelete(path As String)
   overload: SuperOffice.IO.Files.IFileAccess.FileDelete*
-  nameWithType.vb: IFileAccess.FileDelete(String)
-  fullName.vb: SuperOffice.IO.Files.IFileAccess.FileDelete(String)
-  name.vb: FileDelete(String)
 - uid: SuperOffice.IO.Files.IFileAccess.ArchivePath
   commentId: P:SuperOffice.IO.Files.IFileAccess.ArchivePath
   id: ArchivePath
@@ -526,6 +543,9 @@ items:
   nameWithType: IFileAccess.ArchivePath
   fullName: SuperOffice.IO.Files.IFileAccess.ArchivePath
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.IO.Files
@@ -536,6 +556,10 @@ items:
       type: System.String
     content.vb: ReadOnly Property ArchivePath As String
   overload: SuperOffice.IO.Files.IFileAccess.ArchivePath*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
 - uid: SuperOffice.IO.Files.IFileAccess.TemplatesPath
   commentId: P:SuperOffice.IO.Files.IFileAccess.TemplatesPath
   id: TemplatesPath
@@ -547,6 +571,9 @@ items:
   nameWithType: IFileAccess.TemplatesPath
   fullName: SuperOffice.IO.Files.IFileAccess.TemplatesPath
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.IO.Files
@@ -557,6 +584,10 @@ items:
       type: System.String
     content.vb: ReadOnly Property TemplatesPath As String
   overload: SuperOffice.IO.Files.IFileAccess.TemplatesPath*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
 - uid: SuperOffice.IO.Files.IFileAccess.TemporaryPath
   commentId: P:SuperOffice.IO.Files.IFileAccess.TemporaryPath
   id: TemporaryPath
@@ -568,6 +599,9 @@ items:
   nameWithType: IFileAccess.TemporaryPath
   fullName: SuperOffice.IO.Files.IFileAccess.TemporaryPath
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.IO.Files
@@ -578,154 +612,88 @@ items:
       type: System.String
     content.vb: ReadOnly Property TemporaryPath As String
   overload: SuperOffice.IO.Files.IFileAccess.TemporaryPath*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
 references:
 - uid: SuperOffice.IO.Files
   commentId: N:SuperOffice.IO.Files
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.IO.Files
   nameWithType: SuperOffice.IO.Files
   fullName: SuperOffice.IO.Files
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.IO
-    name: IO
-    isExternal: true
-    href: SuperOffice.IO.html
-  - name: .
-  - uid: SuperOffice.IO.Files
-    name: Files
-    isExternal: true
-    href: SuperOffice.IO.Files.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.IO
-    name: IO
-    isExternal: true
-    href: SuperOffice.IO.html
-  - name: .
-  - uid: SuperOffice.IO.Files
-    name: Files
-    isExternal: true
-    href: SuperOffice.IO.Files.html
 - uid: SuperOffice.IO.Files.IFileAccess.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<IFileAccess, To>(IFileAccess)
-  nameWithType: EnumUtil.MapEnums<IFileAccess, To>(IFileAccess)
-  fullName: EnumUtil.MapEnums<SuperOffice.IO.Files.IFileAccess, To>(SuperOffice.IO.Files.IFileAccess)
-  nameWithType.vb: EnumUtil.MapEnums(Of IFileAccess, To)(IFileAccess)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.IO.Files.IFileAccess, To)(SuperOffice.IO.Files.IFileAccess)
-  name.vb: MapEnums(Of IFileAccess, To)(IFileAccess)
+  name: MapEnums<IFileAccess, To>()
+  nameWithType: EnumUtil.MapEnums<IFileAccess, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.IO.Files.IFileAccess, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of IFileAccess, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.IO.Files.IFileAccess, To)()
+  name.vb: MapEnums(Of IFileAccess, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.IO.Files.IFileAccess)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<IFileAccess, To>
+    nameWithType: EnumUtil.MapEnums<IFileAccess, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.IO.Files.IFileAccess, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.IO.Files.IFileAccess
-    name: IFileAccess
-    isExternal: true
-    href: SuperOffice.IO.Files.IFileAccess.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.IO.Files.IFileAccess
-    name: IFileAccess
-    isExternal: true
-    href: SuperOffice.IO.Files.IFileAccess.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.IO.Files.IFileAccess)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of IFileAccess, To)
+    nameWithType: EnumUtil.MapEnums(Of IFileAccess, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.IO.Files.IFileAccess, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.IO.Files.IFileAccess
-    name: IFileAccess
-    isExternal: true
-    href: SuperOffice.IO.Files.IFileAccess.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.IO.Files.IFileAccess
-    name: IFileAccess
-    isExternal: true
-    href: SuperOffice.IO.Files.IFileAccess.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.IO.Files.IFileAccess.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<IFileAccess, To>(IFileAccess)
-  nameWithType: Converters.MapEnums<IFileAccess, To>(IFileAccess)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.IO.Files.IFileAccess, To>(SuperOffice.IO.Files.IFileAccess)
-  nameWithType.vb: Converters.MapEnums(Of IFileAccess, To)(IFileAccess)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.IO.Files.IFileAccess, To)(SuperOffice.IO.Files.IFileAccess)
-  name.vb: MapEnums(Of IFileAccess, To)(IFileAccess)
+  name: MapEnums<IFileAccess, To>()
+  nameWithType: Converters.MapEnums<IFileAccess, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.IO.Files.IFileAccess, To>()
+  nameWithType.vb: Converters.MapEnums(Of IFileAccess, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.IO.Files.IFileAccess, To)()
+  name.vb: MapEnums(Of IFileAccess, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.IO.Files.IFileAccess)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<IFileAccess, To>
+    nameWithType: Converters.MapEnums<IFileAccess, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.IO.Files.IFileAccess, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.IO.Files.IFileAccess
-    name: IFileAccess
-    isExternal: true
-    href: SuperOffice.IO.Files.IFileAccess.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.IO.Files.IFileAccess
-    name: IFileAccess
-    isExternal: true
-    href: SuperOffice.IO.Files.IFileAccess.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.IO.Files.IFileAccess)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of IFileAccess, To)
+    nameWithType: Converters.MapEnums(Of IFileAccess, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.IO.Files.IFileAccess, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.IO.Files.IFileAccess
-    name: IFileAccess
-    isExternal: true
-    href: SuperOffice.IO.Files.IFileAccess.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.IO.Files.IFileAccess
-    name: IFileAccess
-    isExternal: true
-    href: SuperOffice.IO.Files.IFileAccess.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -734,45 +702,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -781,106 +747,61 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.IO.Files.IFileAccess.EnsureAccess*
   commentId: Overload:SuperOffice.IO.Files.IFileAccess.EnsureAccess
   isExternal: true
-  href: SuperOffice.IO.Files.IFileAccess.html#SuperOffice_IO_Files_IFileAccess_EnsureAccess_System_Action_
   name: EnsureAccess
   nameWithType: IFileAccess.EnsureAccess
   fullName: SuperOffice.IO.Files.IFileAccess.EnsureAccess
 - uid: System.Action
-  commentId: T:System.Action
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.action
   name: Action
   nameWithType: Action
   fullName: System.Action
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: System.Func{{T}}
-  commentId: T:System.Func{`0}
-  parent: System
+  commentId: '!:System.Func{`0}'
   definition: System.Func`1
-  href: https://learn.microsoft.com/dotnet/api/system.func-1
   name: Func<T>
   nameWithType: Func<T>
   fullName: System.Func<T>
@@ -890,21 +811,33 @@ references:
   spec.csharp:
   - uid: System.Func`1
     name: Func
+    nameWithType: Func
+    fullName: System.Func
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.func-1
   - name: <
+    nameWithType: <
+    fullName: <
   - name: T
+    nameWithType: T
+    fullName: T
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Func`1
     name: Func
+    nameWithType: Func
+    fullName: System.Func
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.func-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: '{T}'
   commentId: '!:T'
   definition: T
@@ -912,33 +845,43 @@ references:
   nameWithType: T
   fullName: T
 - uid: System.Func`1
-  commentId: T:System.Func`1
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.func-1
-  name: Func<TResult>
-  nameWithType: Func<TResult>
-  fullName: System.Func<TResult>
-  nameWithType.vb: Func(Of TResult)
-  fullName.vb: System.Func(Of TResult)
-  name.vb: Func(Of TResult)
+  name: Func<>
+  nameWithType: Func<>
+  fullName: System.Func<>
+  nameWithType.vb: Func(Of )
+  fullName.vb: System.Func(Of )
+  name.vb: Func(Of )
   spec.csharp:
   - uid: System.Func`1
     name: Func
+    nameWithType: Func
+    fullName: System.Func
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.func-1
   - name: <
-  - name: TResult
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Func`1
     name: Func
+    nameWithType: Func
+    fullName: System.Func
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.func-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TResult
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: T
   name: T
   nameWithType: T
@@ -946,7 +889,6 @@ references:
 - uid: SuperOffice.IO.Files.IFileAccess.FileExists*
   commentId: Overload:SuperOffice.IO.Files.IFileAccess.FileExists
   isExternal: true
-  href: SuperOffice.IO.Files.IFileAccess.html#SuperOffice_IO_Files_IFileAccess_FileExists_System_String_
   name: FileExists
   nameWithType: IFileAccess.FileExists
   fullName: SuperOffice.IO.Files.IFileAccess.FileExists
@@ -954,64 +896,62 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.IO.Files.IFileAccess.DirectoryGetFiles*
   commentId: Overload:SuperOffice.IO.Files.IFileAccess.DirectoryGetFiles
   isExternal: true
-  href: SuperOffice.IO.Files.IFileAccess.html#SuperOffice_IO_Files_IFileAccess_DirectoryGetFiles_System_String_System_String_System_Boolean_
   name: DirectoryGetFiles
   nameWithType: IFileAccess.DirectoryGetFiles
   fullName: SuperOffice.IO.Files.IFileAccess.DirectoryGetFiles
 - uid: System.String[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string[]
-  nameWithType: string[]
-  fullName: string[]
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
   nameWithType.vb: String()
-  fullName.vb: String()
+  fullName.vb: System.String()
   name.vb: String()
   spec.csharp:
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.IO.Files.IFileAccess.DirectoryGetFileInfos*
   commentId: Overload:SuperOffice.IO.Files.IFileAccess.DirectoryGetFileInfos
   isExternal: true
-  href: SuperOffice.IO.Files.IFileAccess.html#SuperOffice_IO_Files_IFileAccess_DirectoryGetFileInfos_System_String_
   name: DirectoryGetFileInfos
   nameWithType: IFileAccess.DirectoryGetFileInfos
   fullName: SuperOffice.IO.Files.IFileAccess.DirectoryGetFileInfos
 - uid: SuperOffice.IO.Files.SoFileInfo[]
   isExternal: true
-  href: SuperOffice.IO.Files.SoFileInfo.html
   name: SoFileInfo[]
   nameWithType: SoFileInfo[]
   fullName: SuperOffice.IO.Files.SoFileInfo[]
@@ -1021,191 +961,151 @@ references:
   spec.csharp:
   - uid: SuperOffice.IO.Files.SoFileInfo
     name: SoFileInfo
+    nameWithType: SoFileInfo
+    fullName: SuperOffice.IO.Files.SoFileInfo
     isExternal: true
-    href: SuperOffice.IO.Files.SoFileInfo.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.IO.Files.SoFileInfo
     name: SoFileInfo
+    nameWithType: SoFileInfo
+    fullName: SuperOffice.IO.Files.SoFileInfo
     isExternal: true
-    href: SuperOffice.IO.Files.SoFileInfo.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.IO.Files.IFileAccess.CreateDirectoryIfNotExists*
   commentId: Overload:SuperOffice.IO.Files.IFileAccess.CreateDirectoryIfNotExists
   isExternal: true
-  href: SuperOffice.IO.Files.IFileAccess.html#SuperOffice_IO_Files_IFileAccess_CreateDirectoryIfNotExists_System_String_
   name: CreateDirectoryIfNotExists
   nameWithType: IFileAccess.CreateDirectoryIfNotExists
   fullName: SuperOffice.IO.Files.IFileAccess.CreateDirectoryIfNotExists
 - uid: SuperOffice.IO.Files.IFileAccess.DirectoryExists*
   commentId: Overload:SuperOffice.IO.Files.IFileAccess.DirectoryExists
   isExternal: true
-  href: SuperOffice.IO.Files.IFileAccess.html#SuperOffice_IO_Files_IFileAccess_DirectoryExists_System_String_
   name: DirectoryExists
   nameWithType: IFileAccess.DirectoryExists
   fullName: SuperOffice.IO.Files.IFileAccess.DirectoryExists
 - uid: SuperOffice.IO.Files.IFileAccess.GetFileName*
   commentId: Overload:SuperOffice.IO.Files.IFileAccess.GetFileName
   isExternal: true
-  href: SuperOffice.IO.Files.IFileAccess.html#SuperOffice_IO_Files_IFileAccess_GetFileName_System_String_
   name: GetFileName
   nameWithType: IFileAccess.GetFileName
   fullName: SuperOffice.IO.Files.IFileAccess.GetFileName
 - uid: SuperOffice.IO.Files.IFileAccess.GetFileNameWithoutExtension*
   commentId: Overload:SuperOffice.IO.Files.IFileAccess.GetFileNameWithoutExtension
   isExternal: true
-  href: SuperOffice.IO.Files.IFileAccess.html#SuperOffice_IO_Files_IFileAccess_GetFileNameWithoutExtension_System_String_
   name: GetFileNameWithoutExtension
   nameWithType: IFileAccess.GetFileNameWithoutExtension
   fullName: SuperOffice.IO.Files.IFileAccess.GetFileNameWithoutExtension
 - uid: SuperOffice.IO.Files.IFileAccess.GetDirectoryName*
   commentId: Overload:SuperOffice.IO.Files.IFileAccess.GetDirectoryName
   isExternal: true
-  href: SuperOffice.IO.Files.IFileAccess.html#SuperOffice_IO_Files_IFileAccess_GetDirectoryName_System_String_
   name: GetDirectoryName
   nameWithType: IFileAccess.GetDirectoryName
   fullName: SuperOffice.IO.Files.IFileAccess.GetDirectoryName
 - uid: SuperOffice.IO.Files.IFileAccess.PathCombine*
   commentId: Overload:SuperOffice.IO.Files.IFileAccess.PathCombine
   isExternal: true
-  href: SuperOffice.IO.Files.IFileAccess.html#SuperOffice_IO_Files_IFileAccess_PathCombine_System_String___
   name: PathCombine
   nameWithType: IFileAccess.PathCombine
   fullName: SuperOffice.IO.Files.IFileAccess.PathCombine
 - uid: SuperOffice.IO.Files.IFileAccess.PathGetExtension*
   commentId: Overload:SuperOffice.IO.Files.IFileAccess.PathGetExtension
   isExternal: true
-  href: SuperOffice.IO.Files.IFileAccess.html#SuperOffice_IO_Files_IFileAccess_PathGetExtension_System_String_
   name: PathGetExtension
   nameWithType: IFileAccess.PathGetExtension
   fullName: SuperOffice.IO.Files.IFileAccess.PathGetExtension
 - uid: SuperOffice.IO.Files.IFileAccess.PathGetInvalidFileNameChars*
   commentId: Overload:SuperOffice.IO.Files.IFileAccess.PathGetInvalidFileNameChars
   isExternal: true
-  href: SuperOffice.IO.Files.IFileAccess.html#SuperOffice_IO_Files_IFileAccess_PathGetInvalidFileNameChars
   name: PathGetInvalidFileNameChars
   nameWithType: IFileAccess.PathGetInvalidFileNameChars
   fullName: SuperOffice.IO.Files.IFileAccess.PathGetInvalidFileNameChars
 - uid: System.Char[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.char
-  name: char[]
-  nameWithType: char[]
-  fullName: char[]
+  name: Char[]
+  nameWithType: Char[]
+  fullName: System.Char[]
   nameWithType.vb: Char()
-  fullName.vb: Char()
+  fullName.vb: System.Char()
   name.vb: Char()
   spec.csharp:
   - uid: System.Char
-    name: char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.char
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.Char
     name: Char
+    nameWithType: Char
+    fullName: System.Char
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.char
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.IO.Files.IFileAccess.PathGetFileName*
   commentId: Overload:SuperOffice.IO.Files.IFileAccess.PathGetFileName
   isExternal: true
-  href: SuperOffice.IO.Files.IFileAccess.html#SuperOffice_IO_Files_IFileAccess_PathGetFileName_System_String_
   name: PathGetFileName
   nameWithType: IFileAccess.PathGetFileName
   fullName: SuperOffice.IO.Files.IFileAccess.PathGetFileName
-- uid: SuperOffice.Exceptions.SoFileNotFoundException
-  commentId: T:SuperOffice.Exceptions.SoFileNotFoundException
-  isExternal: true
-  href: SuperOffice.Exceptions.SoFileNotFoundException.html
-  name: SoFileNotFoundException
-  nameWithType: SoFileNotFoundException
-  fullName: SuperOffice.Exceptions.SoFileNotFoundException
 - uid: SuperOffice.IO.Files.IFileAccess.OpenReadOnlyNoLock*
   commentId: Overload:SuperOffice.IO.Files.IFileAccess.OpenReadOnlyNoLock
   isExternal: true
-  href: SuperOffice.IO.Files.IFileAccess.html#SuperOffice_IO_Files_IFileAccess_OpenReadOnlyNoLock_System_String_
   name: OpenReadOnlyNoLock
   nameWithType: IFileAccess.OpenReadOnlyNoLock
   fullName: SuperOffice.IO.Files.IFileAccess.OpenReadOnlyNoLock
-- uid: System.IO.Stream
-  commentId: T:System.IO.Stream
-  parent: System.IO
+- uid: SuperOffice.Exceptions.SoFileNotFoundException
+  commentId: T:SuperOffice.Exceptions.SoFileNotFoundException
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  name: SoFileNotFoundException
+  nameWithType: SoFileNotFoundException
+  fullName: SuperOffice.Exceptions.SoFileNotFoundException
+- uid: System.IO.Stream
+  isExternal: true
   name: Stream
   nameWithType: Stream
   fullName: System.IO.Stream
-- uid: System.IO
-  commentId: N:System.IO
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.IO
-  nameWithType: System.IO
-  fullName: System.IO
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.IO
-    name: IO
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.IO
-    name: IO
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io
 - uid: SuperOffice.IO.Files.IFileAccess.SaveStreamToFile*
   commentId: Overload:SuperOffice.IO.Files.IFileAccess.SaveStreamToFile
   isExternal: true
-  href: SuperOffice.IO.Files.IFileAccess.html#SuperOffice_IO_Files_IFileAccess_SaveStreamToFile_System_IO_Stream_System_String_
   name: SaveStreamToFile
   nameWithType: IFileAccess.SaveStreamToFile
   fullName: SuperOffice.IO.Files.IFileAccess.SaveStreamToFile
 - uid: SuperOffice.IO.Files.IFileAccess.CreateForWrite*
   commentId: Overload:SuperOffice.IO.Files.IFileAccess.CreateForWrite
   isExternal: true
-  href: SuperOffice.IO.Files.IFileAccess.html#SuperOffice_IO_Files_IFileAccess_CreateForWrite_System_String_
   name: CreateForWrite
   nameWithType: IFileAccess.CreateForWrite
   fullName: SuperOffice.IO.Files.IFileAccess.CreateForWrite
 - uid: SuperOffice.IO.Files.IFileAccess.FileDelete*
   commentId: Overload:SuperOffice.IO.Files.IFileAccess.FileDelete
   isExternal: true
-  href: SuperOffice.IO.Files.IFileAccess.html#SuperOffice_IO_Files_IFileAccess_FileDelete_System_String_
   name: FileDelete
   nameWithType: IFileAccess.FileDelete
   fullName: SuperOffice.IO.Files.IFileAccess.FileDelete
 - uid: SuperOffice.IO.Files.IFileAccess.ArchivePath*
   commentId: Overload:SuperOffice.IO.Files.IFileAccess.ArchivePath
   isExternal: true
-  href: SuperOffice.IO.Files.IFileAccess.html#SuperOffice_IO_Files_IFileAccess_ArchivePath
   name: ArchivePath
   nameWithType: IFileAccess.ArchivePath
   fullName: SuperOffice.IO.Files.IFileAccess.ArchivePath
 - uid: SuperOffice.IO.Files.IFileAccess.TemplatesPath*
   commentId: Overload:SuperOffice.IO.Files.IFileAccess.TemplatesPath
   isExternal: true
-  href: SuperOffice.IO.Files.IFileAccess.html#SuperOffice_IO_Files_IFileAccess_TemplatesPath
   name: TemplatesPath
   nameWithType: IFileAccess.TemplatesPath
   fullName: SuperOffice.IO.Files.IFileAccess.TemplatesPath
 - uid: SuperOffice.IO.Files.IFileAccess.TemporaryPath*
   commentId: Overload:SuperOffice.IO.Files.IFileAccess.TemporaryPath
   isExternal: true
-  href: SuperOffice.IO.Files.IFileAccess.html#SuperOffice_IO_Files_IFileAccess_TemporaryPath
   name: TemporaryPath
   nameWithType: IFileAccess.TemporaryPath
   fullName: SuperOffice.IO.Files.IFileAccess.TemporaryPath

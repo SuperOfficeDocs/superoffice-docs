@@ -18,27 +18,18 @@ items:
   nameWithType: ProductExtraDataField
   fullName: SuperOffice.CRM.Services.ProductExtraDataField
   type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    A way to show some simple extra data on a product, typically to hep the user to identify the correct product. Basically a bucket of additional info that the ERP system would like to store and show in the user interface. Information placed here is shown in the GUI if the “provide-extra-data” capability is true.
-
-    <p></p>
-
-    Carrier object for ProductExtraDataField.
-
-    Services for the ProductExtraDataField Carrier is available from the <xref href="SuperOffice.CRM.Services.IQuoteAgent?text=Quote+Agent" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nA way to show some simple extra data on a product, typically to hep the user to identify the correct product. Basically a bucket of additional info that the ERP system would like to store and show in the user interface. Information placed here is shown in the GUI if the “provide-extra-data” capability is true.\n<p></p>\nCarrier object for ProductExtraDataField.\nServices for the ProductExtraDataField Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IQuoteAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public class ProductExtraDataField : Carrier
+    content: 'public class ProductExtraDataField : Carrier'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
-
-      Public Class ProductExtraDataField Inherits Carrier
+      Public Class ProductExtraDataField
+          Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.QuoteAgent
     commentId: T:SuperOffice.CRM.Services.QuoteAgent
@@ -46,14 +37,12 @@ items:
     commentId: T:SuperOffice.CRM.Services.IQuoteAgent
   inheritance:
   - System.Object
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.ProductExtraDataField.#ctor
   commentId: M:SuperOffice.CRM.Services.ProductExtraDataField.#ctor
   id: '#ctor'
@@ -65,18 +54,21 @@ items:
   nameWithType: ProductExtraDataField.ProductExtraDataField()
   fullName: SuperOffice.CRM.Services.ProductExtraDataField.ProductExtraDataField()
   type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Default constructor
-  example: []
+  summary: "\nDefault constructor\n"
   syntax:
     content: public ProductExtraDataField()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.ProductExtraDataField.#ctor*
-  nameWithType.vb: ProductExtraDataField.New()
-  fullName.vb: SuperOffice.CRM.Services.ProductExtraDataField.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.ProductExtraDataField.ToString
   commentId: M:SuperOffice.CRM.Services.ProductExtraDataField.ToString
   id: ToString
@@ -88,18 +80,26 @@ items:
   nameWithType: ProductExtraDataField.ToString()
   fullName: SuperOffice.CRM.Services.ProductExtraDataField.ToString()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the carrier contents as a formatted string.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string.\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString() As String
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.CRM.Services.ProductExtraDataField.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Services.ProductExtraDataField.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.ProductExtraDataField.ToString(System.String)
   id: ToString(System.String)
@@ -107,18 +107,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(string)
-  nameWithType: ProductExtraDataField.ToString(string)
-  fullName: SuperOffice.CRM.Services.ProductExtraDataField.ToString(string)
+  name: ToString(String)
+  nameWithType: ProductExtraDataField.ToString(String)
+  fullName: SuperOffice.CRM.Services.ProductExtraDataField.ToString(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Returns the carrier contents as a formatted string, useful for debugging.
-
-    Each line in the output is prefixed with the input value.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -130,9 +129,10 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.ProductExtraDataField.ToString*
-  nameWithType.vb: ProductExtraDataField.ToString(String)
-  fullName.vb: SuperOffice.CRM.Services.ProductExtraDataField.ToString(String)
-  name.vb: ToString(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.ProductExtraDataField.Name
   commentId: P:SuperOffice.CRM.Services.ProductExtraDataField.Name
   id: Name
@@ -144,28 +144,28 @@ items:
   nameWithType: ProductExtraDataField.Name
   fullName: SuperOffice.CRM.Services.ProductExtraDataField.Name
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Label for the field
-  example: []
+  summary: "\nLabel for the field \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string Name { get; set; }
+    content: public virtual string Name { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Name As String
+    content.vb: Public Overridable Property Name As String
   overload: SuperOffice.CRM.Services.ProductExtraDataField.Name*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ProductExtraDataField.Value
   commentId: P:SuperOffice.CRM.Services.ProductExtraDataField.Value
   id: Value
@@ -177,28 +177,28 @@ items:
   nameWithType: ProductExtraDataField.Value
   fullName: SuperOffice.CRM.Services.ProductExtraDataField.Value
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Value for the field. If type is string, it can contain formatspecifiers (use this for displaying numbers correctly as the user's computer is set up).
-  example: []
+  summary: "\nValue for the field. If type is string, it can contain formatspecifiers (use this for displaying numbers correctly as the user&apos;s computer is set up). \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string Value { get; set; }
+    content: public virtual string Value { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Value As String
+    content.vb: Public Overridable Property Value As String
   overload: SuperOffice.CRM.Services.ProductExtraDataField.Value*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ProductExtraDataField.Type
   commentId: P:SuperOffice.CRM.Services.ProductExtraDataField.Type
   id: Type
@@ -210,33 +210,38 @@ items:
   nameWithType: ProductExtraDataField.Type
   fullName: SuperOffice.CRM.Services.ProductExtraDataField.Type
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: String, url, image. How the value should be interpreted.
-  example: []
+  summary: "\nString, url, image. How the value should be interpreted. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual ExtraDataFieldType Type { get; set; }
+    content: public virtual ExtraDataFieldType Type { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.ExtraDataFieldType
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Type As ExtraDataFieldType
+    content.vb: Public Overridable Property Type As ExtraDataFieldType
   overload: SuperOffice.CRM.Services.ProductExtraDataField.Type*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
 - uid: SuperOffice.CRM.Services.QuoteAgent
   commentId: T:SuperOffice.CRM.Services.QuoteAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteAgent.html
   name: QuoteAgent
   nameWithType: QuoteAgent
   fullName: SuperOffice.CRM.Services.QuoteAgent
@@ -244,79 +249,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.IQuoteAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.IQuoteAgent.html
   name: IQuoteAgent
   nameWithType: IQuoteAgent
   fullName: SuperOffice.CRM.Services.IQuoteAgent
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.ProductExtraDataField.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.ProductExtraDataField.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.ProductExtraDataField.html#SuperOffice_CRM_Services_ProductExtraDataField__ctor
   name: ProductExtraDataField
   nameWithType: ProductExtraDataField.ProductExtraDataField
   fullName: SuperOffice.CRM.Services.ProductExtraDataField.ProductExtraDataField
-  nameWithType.vb: ProductExtraDataField.New
-  fullName.vb: SuperOffice.CRM.Services.ProductExtraDataField.New
-  name.vb: New
 - uid: SuperOffice.CRM.Services.ProductExtraDataField.ToString*
   commentId: Overload:SuperOffice.CRM.Services.ProductExtraDataField.ToString
   isExternal: true
-  href: SuperOffice.CRM.Services.ProductExtraDataField.html#SuperOffice_CRM_Services_ProductExtraDataField_ToString
   name: ToString
   nameWithType: ProductExtraDataField.ToString
   fullName: SuperOffice.CRM.Services.ProductExtraDataField.ToString
@@ -324,31 +268,30 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.ProductExtraDataField.Name*
   commentId: Overload:SuperOffice.CRM.Services.ProductExtraDataField.Name
   isExternal: true
-  href: SuperOffice.CRM.Services.ProductExtraDataField.html#SuperOffice_CRM_Services_ProductExtraDataField_Name
   name: Name
   nameWithType: ProductExtraDataField.Name
   fullName: SuperOffice.CRM.Services.ProductExtraDataField.Name
 - uid: SuperOffice.CRM.Services.ProductExtraDataField.Value*
   commentId: Overload:SuperOffice.CRM.Services.ProductExtraDataField.Value
   isExternal: true
-  href: SuperOffice.CRM.Services.ProductExtraDataField.html#SuperOffice_CRM_Services_ProductExtraDataField_Value
   name: Value
   nameWithType: ProductExtraDataField.Value
   fullName: SuperOffice.CRM.Services.ProductExtraDataField.Value
 - uid: SuperOffice.CRM.Services.ProductExtraDataField.Type*
   commentId: Overload:SuperOffice.CRM.Services.ProductExtraDataField.Type
   isExternal: true
-  href: SuperOffice.CRM.Services.ProductExtraDataField.html#SuperOffice_CRM_Services_ProductExtraDataField_Type
   name: Type
   nameWithType: ProductExtraDataField.Type
   fullName: SuperOffice.CRM.Services.ProductExtraDataField.Type

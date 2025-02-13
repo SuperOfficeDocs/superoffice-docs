@@ -22,17 +22,18 @@ items:
   nameWithType: EMailAttachment
   fullName: SuperOffice.WebApi.Data.EMailAttachment
   type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Carrier object for EMailAttachment.
-
-    Information about an attachment
-  example: []
+  summary: "\nCarrier object for EMailAttachment.\nInformation about an attachment    \n"
   syntax:
     content: 'public class EMailAttachment : Carrier'
-    content.vb: Public Class EMailAttachment Inherits Carrier
+    content.vb: >-
+      Public Class EMailAttachment
+          Inherits Carrier
   seealso:
   - linkId: SuperOffice.WebApi.Agents.EMailAgent
     commentId: T:SuperOffice.WebApi.Agents.EMailAgent
@@ -42,13 +43,12 @@ items:
   inheritedMembers:
   - SuperOffice.WebApi.Data.Carrier.TableRight
   - SuperOffice.WebApi.Data.Carrier.FieldProperties
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.WebApi.Data.EMailAttachment.#ctor
   commentId: M:SuperOffice.WebApi.Data.EMailAttachment.#ctor
   id: '#ctor'
@@ -60,18 +60,21 @@ items:
   nameWithType: EMailAttachment.EMailAttachment()
   fullName: SuperOffice.WebApi.Data.EMailAttachment.EMailAttachment()
   type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Default constructor - defaults any enum props to 0.
-  example: []
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
   syntax:
     content: public EMailAttachment()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.WebApi.Data.EMailAttachment.#ctor*
-  nameWithType.vb: EMailAttachment.New()
-  fullName.vb: SuperOffice.WebApi.Data.EMailAttachment.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.EMailAttachment.Description
   commentId: P:SuperOffice.WebApi.Data.EMailAttachment.Description
   id: Description
@@ -83,11 +86,13 @@ items:
   nameWithType: EMailAttachment.Description
   fullName: SuperOffice.WebApi.Data.EMailAttachment.Description
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Name/description
-  example: []
+  summary: "\nName/description\n"
   syntax:
     content: public virtual string Description { get; set; }
     parameters: []
@@ -95,6 +100,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property Description As String
   overload: SuperOffice.WebApi.Data.EMailAttachment.Description*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.EMailAttachment.Filename
   commentId: P:SuperOffice.WebApi.Data.EMailAttachment.Filename
   id: Filename
@@ -106,11 +119,13 @@ items:
   nameWithType: EMailAttachment.Filename
   fullName: SuperOffice.WebApi.Data.EMailAttachment.Filename
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Filename
-  example: []
+  summary: "\nFilename\n"
   syntax:
     content: public virtual string Filename { get; set; }
     parameters: []
@@ -118,6 +133,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property Filename As String
   overload: SuperOffice.WebApi.Data.EMailAttachment.Filename*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.EMailAttachment.Size
   commentId: P:SuperOffice.WebApi.Data.EMailAttachment.Size
   id: Size
@@ -129,11 +152,13 @@ items:
   nameWithType: EMailAttachment.Size
   fullName: SuperOffice.WebApi.Data.EMailAttachment.Size
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Size of attachment
-  example: []
+  summary: "\nSize of attachment\n"
   syntax:
     content: public virtual int Size { get; set; }
     parameters: []
@@ -141,6 +166,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property Size As Integer
   overload: SuperOffice.WebApi.Data.EMailAttachment.Size*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.EMailAttachment.Type
   commentId: P:SuperOffice.WebApi.Data.EMailAttachment.Type
   id: Type
@@ -152,11 +185,13 @@ items:
   nameWithType: EMailAttachment.Type
   fullName: SuperOffice.WebApi.Data.EMailAttachment.Type
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Attachment Content-Type
-  example: []
+  summary: "\nAttachment Content-Type\n"
   syntax:
     content: public virtual string Type { get; set; }
     parameters: []
@@ -164,6 +199,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property Type As String
   overload: SuperOffice.WebApi.Data.EMailAttachment.Type*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.EMailAttachment.Encoding
   commentId: P:SuperOffice.WebApi.Data.EMailAttachment.Encoding
   id: Encoding
@@ -175,11 +218,13 @@ items:
   nameWithType: EMailAttachment.Encoding
   fullName: SuperOffice.WebApi.Data.EMailAttachment.Encoding
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Content-Transfer-Encoding
-  example: []
+  summary: "\nContent-Transfer-Encoding\n"
   syntax:
     content: public virtual string Encoding { get; set; }
     parameters: []
@@ -187,6 +232,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property Encoding As String
   overload: SuperOffice.WebApi.Data.EMailAttachment.Encoding*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.EMailAttachment.Id
   commentId: P:SuperOffice.WebApi.Data.EMailAttachment.Id
   id: Id
@@ -198,11 +251,13 @@ items:
   nameWithType: EMailAttachment.Id
   fullName: SuperOffice.WebApi.Data.EMailAttachment.Id
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Content-ID
-  example: []
+  summary: "\nContent-ID\n"
   syntax:
     content: public virtual string Id { get; set; }
     parameters: []
@@ -210,6 +265,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property Id As String
   overload: SuperOffice.WebApi.Data.EMailAttachment.Id*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.EMailAttachment.Disposition
   commentId: P:SuperOffice.WebApi.Data.EMailAttachment.Disposition
   id: Disposition
@@ -221,11 +284,13 @@ items:
   nameWithType: EMailAttachment.Disposition
   fullName: SuperOffice.WebApi.Data.EMailAttachment.Disposition
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Content-Disposition
-  example: []
+  summary: "\nContent-Disposition\n"
   syntax:
     content: public virtual string Disposition { get; set; }
     parameters: []
@@ -233,6 +298,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property Disposition As String
   overload: SuperOffice.WebApi.Data.EMailAttachment.Disposition*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.EMailAttachment.IsSafeFileExtension
   commentId: P:SuperOffice.WebApi.Data.EMailAttachment.IsSafeFileExtension
   id: IsSafeFileExtension
@@ -244,11 +317,13 @@ items:
   nameWithType: EMailAttachment.IsSafeFileExtension
   fullName: SuperOffice.WebApi.Data.EMailAttachment.IsSafeFileExtension
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: If the user should be allowed to download and perform other actions on the attachment.
-  example: []
+  summary: "\nIf the user should be allowed to download and perform other actions on the attachment.\n"
   syntax:
     content: public virtual bool IsSafeFileExtension { get; set; }
     parameters: []
@@ -256,6 +331,14 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property IsSafeFileExtension As Boolean
   overload: SuperOffice.WebApi.Data.EMailAttachment.IsSafeFileExtension*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.EMailAttachment.Stream
   commentId: P:SuperOffice.WebApi.Data.EMailAttachment.Stream
   id: Stream
@@ -267,11 +350,13 @@ items:
   nameWithType: EMailAttachment.Stream
   fullName: SuperOffice.WebApi.Data.EMailAttachment.Stream
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Binary stream for outgoing attachments. This property will not be populated for existing e-mail items.
-  example: []
+  summary: "\nBinary stream for outgoing attachments. This property will not be populated for existing e-mail items.\n"
   syntax:
     content: public virtual byte[] Stream { get; set; }
     parameters: []
@@ -279,67 +364,32 @@ items:
       type: System.Byte[]
     content.vb: Public Overridable Property Stream As Byte()
   overload: SuperOffice.WebApi.Data.EMailAttachment.Stream*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
-- uid: SuperOffice.WebApi.Agents.EMailAgent
-  commentId: T:SuperOffice.WebApi.Agents.EMailAgent
-  isExternal: true
-  href: SuperOffice.WebApi.Agents.EMailAgent.html
-  name: EMailAgent
-  nameWithType: EMailAgent
-  fullName: SuperOffice.WebApi.Agents.EMailAgent
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.WebApi.Data.Carrier
   commentId: T:SuperOffice.WebApi.Data.Carrier
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html
   name: Carrier
   nameWithType: Carrier
   fullName: SuperOffice.WebApi.Data.Carrier
@@ -347,7 +397,6 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_TableRight
   name: TableRight
   nameWithType: Carrier.TableRight
   fullName: SuperOffice.WebApi.Data.Carrier.TableRight
@@ -355,250 +404,30 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_FieldProperties
   name: FieldProperties
   nameWithType: Carrier.FieldProperties
   fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
+- uid: SuperOffice.WebApi.Agents.EMailAgent
+  commentId: T:SuperOffice.WebApi.Agents.EMailAgent
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: EMailAgent
+  nameWithType: EMailAgent
+  fullName: SuperOffice.WebApi.Agents.EMailAgent
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Data.EMailAttachment.#ctor*
   commentId: Overload:SuperOffice.WebApi.Data.EMailAttachment.#ctor
   isExternal: true
-  href: SuperOffice.WebApi.Data.EMailAttachment.html#SuperOffice_WebApi_Data_EMailAttachment__ctor
   name: EMailAttachment
   nameWithType: EMailAttachment.EMailAttachment
   fullName: SuperOffice.WebApi.Data.EMailAttachment.EMailAttachment
-  nameWithType.vb: EMailAttachment.New
-  fullName.vb: SuperOffice.WebApi.Data.EMailAttachment.New
-  name.vb: New
 - uid: SuperOffice.WebApi.Data.EMailAttachment.Description*
   commentId: Overload:SuperOffice.WebApi.Data.EMailAttachment.Description
   isExternal: true
-  href: SuperOffice.WebApi.Data.EMailAttachment.html#SuperOffice_WebApi_Data_EMailAttachment_Description
   name: Description
   nameWithType: EMailAttachment.Description
   fullName: SuperOffice.WebApi.Data.EMailAttachment.Description
@@ -606,24 +435,18 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.WebApi.Data.EMailAttachment.Filename*
   commentId: Overload:SuperOffice.WebApi.Data.EMailAttachment.Filename
   isExternal: true
-  href: SuperOffice.WebApi.Data.EMailAttachment.html#SuperOffice_WebApi_Data_EMailAttachment_Filename
   name: Filename
   nameWithType: EMailAttachment.Filename
   fullName: SuperOffice.WebApi.Data.EMailAttachment.Filename
 - uid: SuperOffice.WebApi.Data.EMailAttachment.Size*
   commentId: Overload:SuperOffice.WebApi.Data.EMailAttachment.Size
   isExternal: true
-  href: SuperOffice.WebApi.Data.EMailAttachment.html#SuperOffice_WebApi_Data_EMailAttachment_Size
   name: Size
   nameWithType: EMailAttachment.Size
   fullName: SuperOffice.WebApi.Data.EMailAttachment.Size
@@ -631,45 +454,36 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.WebApi.Data.EMailAttachment.Type*
   commentId: Overload:SuperOffice.WebApi.Data.EMailAttachment.Type
   isExternal: true
-  href: SuperOffice.WebApi.Data.EMailAttachment.html#SuperOffice_WebApi_Data_EMailAttachment_Type
   name: Type
   nameWithType: EMailAttachment.Type
   fullName: SuperOffice.WebApi.Data.EMailAttachment.Type
 - uid: SuperOffice.WebApi.Data.EMailAttachment.Encoding*
   commentId: Overload:SuperOffice.WebApi.Data.EMailAttachment.Encoding
   isExternal: true
-  href: SuperOffice.WebApi.Data.EMailAttachment.html#SuperOffice_WebApi_Data_EMailAttachment_Encoding
   name: Encoding
   nameWithType: EMailAttachment.Encoding
   fullName: SuperOffice.WebApi.Data.EMailAttachment.Encoding
 - uid: SuperOffice.WebApi.Data.EMailAttachment.Id*
   commentId: Overload:SuperOffice.WebApi.Data.EMailAttachment.Id
   isExternal: true
-  href: SuperOffice.WebApi.Data.EMailAttachment.html#SuperOffice_WebApi_Data_EMailAttachment_Id
   name: Id
   nameWithType: EMailAttachment.Id
   fullName: SuperOffice.WebApi.Data.EMailAttachment.Id
 - uid: SuperOffice.WebApi.Data.EMailAttachment.Disposition*
   commentId: Overload:SuperOffice.WebApi.Data.EMailAttachment.Disposition
   isExternal: true
-  href: SuperOffice.WebApi.Data.EMailAttachment.html#SuperOffice_WebApi_Data_EMailAttachment_Disposition
   name: Disposition
   nameWithType: EMailAttachment.Disposition
   fullName: SuperOffice.WebApi.Data.EMailAttachment.Disposition
 - uid: SuperOffice.WebApi.Data.EMailAttachment.IsSafeFileExtension*
   commentId: Overload:SuperOffice.WebApi.Data.EMailAttachment.IsSafeFileExtension
   isExternal: true
-  href: SuperOffice.WebApi.Data.EMailAttachment.html#SuperOffice_WebApi_Data_EMailAttachment_IsSafeFileExtension
   name: IsSafeFileExtension
   nameWithType: EMailAttachment.IsSafeFileExtension
   fullName: SuperOffice.WebApi.Data.EMailAttachment.IsSafeFileExtension
@@ -677,40 +491,38 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.WebApi.Data.EMailAttachment.Stream*
   commentId: Overload:SuperOffice.WebApi.Data.EMailAttachment.Stream
   isExternal: true
-  href: SuperOffice.WebApi.Data.EMailAttachment.html#SuperOffice_WebApi_Data_EMailAttachment_Stream
   name: Stream
   nameWithType: EMailAttachment.Stream
   fullName: SuperOffice.WebApi.Data.EMailAttachment.Stream
 - uid: System.Byte[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.byte
-  name: byte[]
-  nameWithType: byte[]
-  fullName: byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
   nameWithType.vb: Byte()
-  fullName.vb: Byte()
+  fullName.vb: System.Byte()
   name.vb: Byte()
   spec.csharp:
   - uid: System.Byte
-    name: byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.byte
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.Byte
     name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.byte
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()

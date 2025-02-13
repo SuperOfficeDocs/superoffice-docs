@@ -32,24 +32,27 @@ items:
   nameWithType: UserPreferenceStrings.Phone
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone
   type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Phone
-  example: []
+  summary: "\nPhone\n"
   syntax:
-    content: public static class UserPreferenceStrings.Phone
-    content.vb: Public Module UserPreferenceStrings.Phone
+    content: 'public static class Phone : Object'
+    content.vb: >-
+      Public Module Phone
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.Section
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.Section
   id: Section
@@ -61,16 +64,24 @@ items:
   nameWithType: UserPreferenceStrings.Phone.Section
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.Section
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Section heading
-  example: []
+  summary: "\nSection heading\n"
   syntax:
     content: public const string Section = "Phone"
     return:
       type: System.String
     content.vb: Public Const Section As String = "Phone"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.DdeData
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.DdeData
   id: DdeData
@@ -82,19 +93,24 @@ items:
   nameWithType: UserPreferenceStrings.Phone.DdeData
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.DdeData
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    DDE Data
-
-    <p></p>Control type: Text, access: Wizard
-  example: []
+  summary: "\nDDE Data\n<p></p>Control type: Text, access: Wizard\n"
   syntax:
     content: public const string DdeData = "DdeData"
     return:
       type: System.String
     content.vb: Public Const DdeData As String = "DdeData"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.DdeItem
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.DdeItem
   id: DdeItem
@@ -106,19 +122,24 @@ items:
   nameWithType: UserPreferenceStrings.Phone.DdeItem
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.DdeItem
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    DDE Item
-
-    <p></p>Control type: Text, access: Wizard
-  example: []
+  summary: "\nDDE Item\n<p></p>Control type: Text, access: Wizard\n"
   syntax:
     content: public const string DdeItem = "DdeItem"
     return:
       type: System.String
     content.vb: Public Const DdeItem As String = "DdeItem"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.DdeService
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.DdeService
   id: DdeService
@@ -130,19 +151,24 @@ items:
   nameWithType: UserPreferenceStrings.Phone.DdeService
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.DdeService
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    DDE Service
-
-    <p></p>Control type: Text, access: Wizard
-  example: []
+  summary: "\nDDE Service\n<p></p>Control type: Text, access: Wizard\n"
   syntax:
     content: public const string DdeService = "DdeService"
     return:
       type: System.String
     content.vb: Public Const DdeService As String = "DdeService"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.DdeTopic
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.DdeTopic
   id: DdeTopic
@@ -154,19 +180,24 @@ items:
   nameWithType: UserPreferenceStrings.Phone.DdeTopic
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.DdeTopic
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    DDE Topic
-
-    <p></p>Control type: Text, access: Wizard
-  example: []
+  summary: "\nDDE Topic\n<p></p>Control type: Text, access: Wizard\n"
   syntax:
     content: public const string DdeTopic = "DdeTopic"
     return:
       type: System.String
     content.vb: Public Const DdeTopic As String = "DdeTopic"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.DdeType
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.DdeType
   id: DdeType
@@ -178,19 +209,24 @@ items:
   nameWithType: UserPreferenceStrings.Phone.DdeType
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.DdeType
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    DDE Type
-
-    <p></p>Control type: List, access: Wizard
-  example: []
+  summary: "\nDDE Type\n<p></p>Control type: List, access: Wizard\n"
   syntax:
     content: public const string DdeType = "DdeType"
     return:
       type: System.String
     content.vb: Public Const DdeType As String = "DdeType"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.DialType
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.DialType
   id: DialType
@@ -202,19 +238,24 @@ items:
   nameWithType: UserPreferenceStrings.Phone.DialType
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.DialType
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Dial type
-
-    <p></p>Control type: List, access: Wizard
-  example: []
+  summary: "\nDial type\n<p></p>Control type: List, access: Wizard\n"
   syntax:
     content: public const string DialType = "DialType"
     return:
       type: System.String
     content.vb: Public Const DialType As String = "DialType"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.FormatNumber
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.FormatNumber
   id: FormatNumber
@@ -226,19 +267,24 @@ items:
   nameWithType: UserPreferenceStrings.Phone.FormatNumber
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.FormatNumber
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Formats number
-
-    <p></p>Control type: Bool, access: Wizard
-  example: []
+  summary: "\nFormats number\n<p></p>Control type: Bool, access: Wizard\n"
   syntax:
     content: public const string FormatNumber = "FormatNumber"
     return:
       type: System.String
     content.vb: Public Const FormatNumber As String = "FormatNumber"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.LocalAreaCode
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.LocalAreaCode
   id: LocalAreaCode
@@ -250,19 +296,24 @@ items:
   nameWithType: UserPreferenceStrings.Phone.LocalAreaCode
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.LocalAreaCode
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Local area code
-
-    <p></p>Control type: Text, access: Wizard
-  example: []
+  summary: "\nLocal area code\n<p></p>Control type: Text, access: Wizard\n"
   syntax:
     content: public const string LocalAreaCode = "LocalAreaCode"
     return:
       type: System.String
     content.vb: Public Const LocalAreaCode As String = "LocalAreaCode"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.LongDistancePrefix
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.LongDistancePrefix
   id: LongDistancePrefix
@@ -274,19 +325,24 @@ items:
   nameWithType: UserPreferenceStrings.Phone.LongDistancePrefix
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.LongDistancePrefix
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Long distance prefix
-
-    <p></p>Control type: Text, access: Wizard
-  example: []
+  summary: "\nLong distance prefix\n<p></p>Control type: Text, access: Wizard\n"
   syntax:
     content: public const string LongDistancePrefix = "LongDistancePrefix"
     return:
       type: System.String
     content.vb: Public Const LongDistancePrefix As String = "LongDistancePrefix"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.Postfix
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.Postfix
   id: Postfix
@@ -298,19 +354,24 @@ items:
   nameWithType: UserPreferenceStrings.Phone.Postfix
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.Postfix
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Suffix - e.g. Command to reset your modem
-
-    <p></p>Control type: Text, access: Wizard
-  example: []
+  summary: "\nSuffix - e.g. Command to reset your modem\n<p></p>Control type: Text, access: Wizard\n"
   syntax:
     content: public const string Postfix = "Postfix"
     return:
       type: System.String
     content.vb: Public Const Postfix As String = "Postfix"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.Prefix
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.Prefix
   id: Prefix
@@ -322,19 +383,24 @@ items:
   nameWithType: UserPreferenceStrings.Phone.Prefix
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.Prefix
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Prefix - e.g. Dial 0 to get an outside line
-
-    <p></p>Control type: Text, access: Wizard
-  example: []
+  summary: "\nPrefix - e.g. Dial 0 to get an outside line\n<p></p>Control type: Text, access: Wizard\n"
   syntax:
     content: public const string Prefix = "Prefix"
     return:
       type: System.String
     content.vb: Public Const Prefix As String = "Prefix"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.ProgDir
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.ProgDir
   id: ProgDir
@@ -346,19 +412,24 @@ items:
   nameWithType: UserPreferenceStrings.Phone.ProgDir
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.ProgDir
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Program folder
-
-    <p></p>Control type: Text, access: Wizard
-  example: []
+  summary: "\nProgram folder\n<p></p>Control type: Text, access: Wizard\n"
   syntax:
     content: public const string ProgDir = "ProgDir"
     return:
       type: System.String
     content.vb: Public Const ProgDir As String = "ProgDir"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.ProgFile
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.ProgFile
   id: ProgFile
@@ -370,19 +441,24 @@ items:
   nameWithType: UserPreferenceStrings.Phone.ProgFile
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.ProgFile
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Program file
-
-    <p></p>Control type: Text, access: Wizard
-  example: []
+  summary: "\nProgram file\n<p></p>Control type: Text, access: Wizard\n"
   syntax:
     content: public const string ProgFile = "ProgFile"
     return:
       type: System.String
     content.vb: Public Const ProgFile As String = "ProgFile"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.ProgParam
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.ProgParam
   id: ProgParam
@@ -394,19 +470,24 @@ items:
   nameWithType: UserPreferenceStrings.Phone.ProgParam
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.ProgParam
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Program parameter
-
-    <p></p>Control type: Text, access: Wizard
-  example: []
+  summary: "\nProgram parameter\n<p></p>Control type: Text, access: Wizard\n"
   syntax:
     content: public const string ProgParam = "ProgParam"
     return:
       type: System.String
     content.vb: Public Const ProgParam As String = "ProgParam"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.ReporterDocumentDlgExpanded
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.ReporterDocumentDlgExpanded
   id: ReporterDocumentDlgExpanded
@@ -418,19 +499,24 @@ items:
   nameWithType: UserPreferenceStrings.Phone.ReporterDocumentDlgExpanded
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.ReporterDocumentDlgExpanded
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Expands the Save report dialog by default
-
-    <p></p>Control type: Bool, access: Wizard
-  example: []
+  summary: "\nExpands the Save report dialog by default\n<p></p>Control type: Bool, access: Wizard\n"
   syntax:
     content: public const string ReporterDocumentDlgExpanded = "ReporterDocumentDlgExpanded"
     return:
       type: System.String
     content.vb: Public Const ReporterDocumentDlgExpanded As String = "ReporterDocumentDlgExpanded"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.ReporterDocumentDlgOpenDoc
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.ReporterDocumentDlgOpenDoc
   id: ReporterDocumentDlgOpenDoc
@@ -442,19 +528,24 @@ items:
   nameWithType: UserPreferenceStrings.Phone.ReporterDocumentDlgOpenDoc
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.ReporterDocumentDlgOpenDoc
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Opens the report after you have saved it in CRM.
-
-    <p></p>Control type: Bool, access: Wizard
-  example: []
+  summary: "\nOpens the report after you have saved it in CRM.\n<p></p>Control type: Bool, access: Wizard\n"
   syntax:
     content: public const string ReporterDocumentDlgOpenDoc = "ReporterDocumentDlgOpenDoc"
     return:
       type: System.String
     content.vb: Public Const ReporterDocumentDlgOpenDoc As String = "ReporterDocumentDlgOpenDoc"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.ReporterLastUsedReport
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.ReporterLastUsedReport
   id: ReporterLastUsedReport
@@ -466,19 +557,24 @@ items:
   nameWithType: UserPreferenceStrings.Phone.ReporterLastUsedReport
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.ReporterLastUsedReport
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    ID of the report that was active when you last logged out
-
-    <p></p>Control type: Number, access: Wizard
-  example: []
+  summary: "\nID of the report that was active when you last logged out\n<p></p>Control type: Number, access: Wizard\n"
   syntax:
     content: public const string ReporterLastUsedReport = "ReporterLastUsedReport"
     return:
       type: System.String
     content.vb: Public Const ReporterLastUsedReport As String = "ReporterLastUsedReport"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.EnablePersonalScripts
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.EnablePersonalScripts
   id: EnablePersonalScripts
@@ -490,19 +586,24 @@ items:
   nameWithType: UserPreferenceStrings.Phone.EnablePersonalScripts
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.EnablePersonalScripts
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Enable personal scripts in CRM.win
-
-    <p></p>Control type: Number, access: Admin, Admin users, Wizard
-  example: []
+  summary: "\nEnable personal scripts in CRM.win\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
   syntax:
     content: public const string EnablePersonalScripts = "EnablePersonalScripts"
     return:
       type: System.String
     content.vb: Public Const EnablePersonalScripts As String = "EnablePersonalScripts"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.EnableScripting
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.EnableScripting
   id: EnableScripting
@@ -514,291 +615,41 @@ items:
   nameWithType: UserPreferenceStrings.Phone.EnableScripting
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Phone.EnableScripting
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Enables scripting in CRM.win
-
-    <p></p>Control type: Number, access: Admin, Admin users, Wizard
-  example: []
+  summary: "\nEnables scripting in CRM.win\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
   syntax:
     content: public const string EnableScripting = "EnableScripting"
     return:
       type: System.String
     content.vb: Public Const EnableScripting As String = "EnableScripting"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -806,10 +657,6 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String

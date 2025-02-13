@@ -20,28 +20,15 @@ items:
   nameWithType: IDatabaseTableAgent
   fullName: SuperOffice.CRM.Services.IDatabaseTableAgent
   type: Interface
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Interface for the DatabaseTable Agent
-
-    Agent used for CRUD operations on database tables. Read, add, update, delete rows in tables.
+  summary: "\nInterface for the DatabaseTable Agent\nAgent used for CRUD operations on database tables. Read, add, update, delete rows in tables.\n"
   example:
-  - >-
-    <pre><code class="lang-csharp">using SuperOffice;
-
-    using SuperOffice.CRM.Services;
-
-
-    using (SoSession mySession = SoSession.Authenticate("user", "pass"))
-
-    {
-       using (DatabaseTableAgent agent = new DatabaseTableAgent())
-       {
-          // call methods on agent here...
-       }
-    }</code></pre>
+  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (DatabaseTableAgent agent = new DatabaseTableAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
   syntax:
     content: >-
       [Agent("DatabaseTable Agent", "Interface for the DatabaseTable Agent. Agent used for CRUD operations on database tables. Read, add, update, delete rows in tables.")]
@@ -50,7 +37,8 @@ items:
     content.vb: >-
       <Agent("DatabaseTable Agent", "Interface for the DatabaseTable Agent. Agent used for CRUD operations on database tables. Read, add, update, delete rows in tables.")>
 
-      Public Interface IDatabaseTableAgent Inherits IAgent
+      Public Interface IDatabaseTableAgent
+          Inherits IAgent
   attributes:
   - type: SuperOffice.CRM.Services.Reflection.AgentAttribute
     ctor: SuperOffice.CRM.Services.Reflection.AgentAttribute.#ctor(System.String,System.String)
@@ -59,6 +47,12 @@ items:
       value: DatabaseTable Agent
     - type: System.String
       value: Interface for the DatabaseTable Agent. Agent used for CRUD operations on database tables. Read, add, update, delete rows in tables.
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
 - uid: SuperOffice.CRM.Services.IDatabaseTableAgent.ReadRow(System.String,System.Int32)
   commentId: M:SuperOffice.CRM.Services.IDatabaseTableAgent.ReadRow(System.String,System.Int32)
   id: ReadRow(System.String,System.Int32)
@@ -66,21 +60,23 @@ items:
   langs:
   - csharp
   - vb
-  name: ReadRow(string, int)
-  nameWithType: IDatabaseTableAgent.ReadRow(string, int)
-  fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.ReadRow(string, int)
+  name: ReadRow(String, Int32)
+  nameWithType: IDatabaseTableAgent.ReadRow(String, Int32)
+  fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.ReadRow(System.String, System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Read a row from a table
-  example: []
+  summary: "\nRead a row from a table\n"
   syntax:
     content: TableRecord ReadRow(string tableName, int id)
     parameters:
     - id: tableName
       type: System.String
-      description: The name of the table to fetch; in the current release this must be an 'extratable'. Use the database name, on the form y_aTable
+      description: The name of the table to fetch; in the current release this must be an &apos;extratable&apos;. Use the database name, on the form y_aTable
     - id: id
       type: System.Int32
       description: The id of the row to fetch
@@ -89,9 +85,6 @@ items:
       description: The row from the table
     content.vb: Function ReadRow(tableName As String, id As Integer) As TableRecord
   overload: SuperOffice.CRM.Services.IDatabaseTableAgent.ReadRow*
-  nameWithType.vb: IDatabaseTableAgent.ReadRow(String, Integer)
-  fullName.vb: SuperOffice.CRM.Services.IDatabaseTableAgent.ReadRow(String, Integer)
-  name.vb: ReadRow(String, Integer)
 - uid: SuperOffice.CRM.Services.IDatabaseTableAgent.InsertRow(System.String,SuperOffice.CRM.Services.StringDictionary)
   commentId: M:SuperOffice.CRM.Services.IDatabaseTableAgent.InsertRow(System.String,SuperOffice.CRM.Services.StringDictionary)
   id: InsertRow(System.String,SuperOffice.CRM.Services.StringDictionary)
@@ -99,21 +92,23 @@ items:
   langs:
   - csharp
   - vb
-  name: InsertRow(string, StringDictionary)
-  nameWithType: IDatabaseTableAgent.InsertRow(string, StringDictionary)
-  fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.InsertRow(string, SuperOffice.CRM.Services.StringDictionary)
+  name: InsertRow(String, StringDictionary)
+  nameWithType: IDatabaseTableAgent.InsertRow(String, StringDictionary)
+  fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.InsertRow(System.String, SuperOffice.CRM.Services.StringDictionary)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Insert a row into a table
-  example: []
+  summary: "\nInsert a row into a table\n"
   syntax:
     content: int InsertRow(string tableName, StringDictionary values)
     parameters:
     - id: tableName
       type: System.String
-      description: The name of the table to insert into; in the current release this must be an 'extratable'. Use the database name, on the form y_aTable
+      description: The name of the table to insert into; in the current release this must be an &apos;extratable&apos;. Use the database name, on the form y_aTable
     - id: values
       type: SuperOffice.CRM.Services.StringDictionary
       description: A StringDictionary with the values to insert. You do not need to specify all the values in the table. The omitted ones will get default values
@@ -122,9 +117,6 @@ items:
       description: The id of the newly inserted row
     content.vb: Function InsertRow(tableName As String, values As StringDictionary) As Integer
   overload: SuperOffice.CRM.Services.IDatabaseTableAgent.InsertRow*
-  nameWithType.vb: IDatabaseTableAgent.InsertRow(String, StringDictionary)
-  fullName.vb: SuperOffice.CRM.Services.IDatabaseTableAgent.InsertRow(String, SuperOffice.CRM.Services.StringDictionary)
-  name.vb: InsertRow(String, StringDictionary)
 - uid: SuperOffice.CRM.Services.IDatabaseTableAgent.UpdateRow(System.String,System.Int32,SuperOffice.CRM.Services.StringDictionary)
   commentId: M:SuperOffice.CRM.Services.IDatabaseTableAgent.UpdateRow(System.String,System.Int32,SuperOffice.CRM.Services.StringDictionary)
   id: UpdateRow(System.String,System.Int32,SuperOffice.CRM.Services.StringDictionary)
@@ -132,21 +124,23 @@ items:
   langs:
   - csharp
   - vb
-  name: UpdateRow(string, int, StringDictionary)
-  nameWithType: IDatabaseTableAgent.UpdateRow(string, int, StringDictionary)
-  fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.UpdateRow(string, int, SuperOffice.CRM.Services.StringDictionary)
+  name: UpdateRow(String, Int32, StringDictionary)
+  nameWithType: IDatabaseTableAgent.UpdateRow(String, Int32, StringDictionary)
+  fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.UpdateRow(System.String, System.Int32, SuperOffice.CRM.Services.StringDictionary)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Update a row in a table
-  example: []
+  summary: "\nUpdate a row in a table\n"
   syntax:
     content: void UpdateRow(string tableName, int id, StringDictionary values)
     parameters:
     - id: tableName
       type: System.String
-      description: The name of the table to update; in the current release this must be an 'extratable'. Use the database name, on the form y_aTable
+      description: The name of the table to update; in the current release this must be an &apos;extratable&apos;. Use the database name, on the form y_aTable
     - id: id
       type: System.Int32
       description: The id of the row to update
@@ -155,9 +149,6 @@ items:
       description: A StringDictionary with the values to update. You do not need to specify all the values in the table. The omitted ones will remain unchanged
     content.vb: Sub UpdateRow(tableName As String, id As Integer, values As StringDictionary)
   overload: SuperOffice.CRM.Services.IDatabaseTableAgent.UpdateRow*
-  nameWithType.vb: IDatabaseTableAgent.UpdateRow(String, Integer, StringDictionary)
-  fullName.vb: SuperOffice.CRM.Services.IDatabaseTableAgent.UpdateRow(String, Integer, SuperOffice.CRM.Services.StringDictionary)
-  name.vb: UpdateRow(String, Integer, StringDictionary)
 - uid: SuperOffice.CRM.Services.IDatabaseTableAgent.DeleteRow(System.String,System.Int32)
   commentId: M:SuperOffice.CRM.Services.IDatabaseTableAgent.DeleteRow(System.String,System.Int32)
   id: DeleteRow(System.String,System.Int32)
@@ -165,29 +156,28 @@ items:
   langs:
   - csharp
   - vb
-  name: DeleteRow(string, int)
-  nameWithType: IDatabaseTableAgent.DeleteRow(string, int)
-  fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.DeleteRow(string, int)
+  name: DeleteRow(String, Int32)
+  nameWithType: IDatabaseTableAgent.DeleteRow(String, Int32)
+  fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.DeleteRow(System.String, System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Delete a row from a table
-  example: []
+  summary: "\nDelete a row from a table\n"
   syntax:
     content: void DeleteRow(string tableName, int id)
     parameters:
     - id: tableName
       type: System.String
-      description: The name of the table to delete from; in the current release this must be an 'extratable'. Use the database name, on the form y_aTable
+      description: The name of the table to delete from; in the current release this must be an &apos;extratable&apos;. Use the database name, on the form y_aTable
     - id: id
       type: System.Int32
       description: The id of the row to delete
     content.vb: Sub DeleteRow(tableName As String, id As Integer)
   overload: SuperOffice.CRM.Services.IDatabaseTableAgent.DeleteRow*
-  nameWithType.vb: IDatabaseTableAgent.DeleteRow(String, Integer)
-  fullName.vb: SuperOffice.CRM.Services.IDatabaseTableAgent.DeleteRow(String, Integer)
-  name.vb: DeleteRow(String, Integer)
 - uid: SuperOffice.CRM.Services.IDatabaseTableAgent.Insert(System.String,System.String[],System.String[][])
   commentId: M:SuperOffice.CRM.Services.IDatabaseTableAgent.Insert(System.String,System.String[],System.String[][])
   id: Insert(System.String,System.String[],System.String[][])
@@ -195,15 +185,17 @@ items:
   langs:
   - csharp
   - vb
-  name: Insert(string, string[], string[][])
-  nameWithType: IDatabaseTableAgent.Insert(string, string[], string[][])
-  fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.Insert(string, string[], string[][])
+  name: Insert(String, String[], String[][])
+  nameWithType: IDatabaseTableAgent.Insert(String, String[], String[][])
+  fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.Insert(System.String, System.String[], System.String[][])
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Mass-insert rows, with or without primary keys specified. Works on physical tables with no special processing for udef etc.; traveltransactionlog and WebHooks are supported
-  example: []
+  summary: "\nMass-insert rows, with or without primary keys specified. Works on physical tables with no special processing for udef etc.; traveltransactionlog and WebHooks are supported\n"
   syntax:
     content: MassOperationResult Insert(string tableName, string[] columns, string[][] data)
     parameters:
@@ -215,14 +207,14 @@ items:
       description: List of column names, in the same order as in the Data parameter
     - id: data
       type: System.String[][]
-      description: Outer array = rows, inner = columns in specified order; use CultureDataFormatter to format values that aren't string or int
+      description: Outer array = rows, inner = columns in specified order; use CultureDataFormatter to format values that aren&apos;t string or int
     return:
       type: SuperOffice.CRM.Services.MassOperationResult
       description: Summary of results
     content.vb: Function Insert(tableName As String, columns As String(), data As String()()) As MassOperationResult
   overload: SuperOffice.CRM.Services.IDatabaseTableAgent.Insert*
   nameWithType.vb: IDatabaseTableAgent.Insert(String, String(), String()())
-  fullName.vb: SuperOffice.CRM.Services.IDatabaseTableAgent.Insert(String, String(), String()())
+  fullName.vb: SuperOffice.CRM.Services.IDatabaseTableAgent.Insert(System.String, System.String(), System.String()())
   name.vb: Insert(String, String(), String()())
 - uid: SuperOffice.CRM.Services.IDatabaseTableAgent.Truncate(System.String)
   commentId: M:SuperOffice.CRM.Services.IDatabaseTableAgent.Truncate(System.String)
@@ -231,15 +223,17 @@ items:
   langs:
   - csharp
   - vb
-  name: Truncate(string)
-  nameWithType: IDatabaseTableAgent.Truncate(string)
-  fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.Truncate(string)
+  name: Truncate(String)
+  nameWithType: IDatabaseTableAgent.Truncate(String)
+  fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.Truncate(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Drop all rows in a table. This clearance is not individually logged in TravelTransactionlog or Webhook/script calls
-  example: []
+  summary: "\nDrop all rows in a table. This clearance is not individually logged in TravelTransactionlog or Webhook/script calls\n"
   syntax:
     content: MassOperationResult Truncate(string tableName)
     parameters:
@@ -251,9 +245,6 @@ items:
       description: Summary of results
     content.vb: Function Truncate(tableName As String) As MassOperationResult
   overload: SuperOffice.CRM.Services.IDatabaseTableAgent.Truncate*
-  nameWithType.vb: IDatabaseTableAgent.Truncate(String)
-  fullName.vb: SuperOffice.CRM.Services.IDatabaseTableAgent.Truncate(String)
-  name.vb: Truncate(String)
 - uid: SuperOffice.CRM.Services.IDatabaseTableAgent.Upsert(System.String,System.String[],System.String[],System.String[][],SuperOffice.Data.UpsertNomatchAction,System.Boolean)
   commentId: M:SuperOffice.CRM.Services.IDatabaseTableAgent.Upsert(System.String,System.String[],System.String[],System.String[][],SuperOffice.Data.UpsertNomatchAction,System.Boolean)
   id: Upsert(System.String,System.String[],System.String[],System.String[][],SuperOffice.Data.UpsertNomatchAction,System.Boolean)
@@ -261,15 +252,17 @@ items:
   langs:
   - csharp
   - vb
-  name: Upsert(string, string[], string[], string[][], UpsertNomatchAction, bool)
-  nameWithType: IDatabaseTableAgent.Upsert(string, string[], string[], string[][], UpsertNomatchAction, bool)
-  fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.Upsert(string, string[], string[], string[][], SuperOffice.Data.UpsertNomatchAction, bool)
+  name: Upsert(String, String[], String[], String[][], UpsertNomatchAction, Boolean)
+  nameWithType: IDatabaseTableAgent.Upsert(String, String[], String[], String[][], UpsertNomatchAction, Boolean)
+  fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.Upsert(System.String, System.String[], System.String[], System.String[][], SuperOffice.Data.UpsertNomatchAction, System.Boolean)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Insert or update rows, optionally deleting/zeroing 'leftover' rows. Special support for UDEF, as well as optional extensive information return. Traveltransactionlog and WebHooks are supported
-  example: []
+  summary: "\nInsert or update rows, optionally deleting/zeroing &apos;leftover&apos; rows. Special support for UDEF, as well as optional extensive information return. Traveltransactionlog and WebHooks are supported\n"
   syntax:
     content: MassOperationResult Upsert(string tableName, string[] columns, string[] keys, string[][] data, UpsertNomatchAction nomatchAction, bool returnRowStatus)
     parameters:
@@ -290,14 +283,14 @@ items:
       description: Action to take on rows in the target table, that are not matched by any rows in the incoming data. Use the deletion options with care. NEVER use deletion if your Upsert is so large you need to divide it into multiple batches.
     - id: returnRowStatus
       type: System.Boolean
-      description: If true, then the 'RowStatus' member of the return carrier will be populated with a per-row status, for each incoming row
+      description: If true, then the &apos;RowStatus&apos; member of the return carrier will be populated with a per-row status, for each incoming row
     return:
       type: SuperOffice.CRM.Services.MassOperationResult
       description: Summary of results
     content.vb: Function Upsert(tableName As String, columns As String(), keys As String(), data As String()(), nomatchAction As UpsertNomatchAction, returnRowStatus As Boolean) As MassOperationResult
   overload: SuperOffice.CRM.Services.IDatabaseTableAgent.Upsert*
   nameWithType.vb: IDatabaseTableAgent.Upsert(String, String(), String(), String()(), UpsertNomatchAction, Boolean)
-  fullName.vb: SuperOffice.CRM.Services.IDatabaseTableAgent.Upsert(String, String(), String(), String()(), SuperOffice.Data.UpsertNomatchAction, Boolean)
+  fullName.vb: SuperOffice.CRM.Services.IDatabaseTableAgent.Upsert(System.String, System.String(), System.String(), System.String()(), SuperOffice.Data.UpsertNomatchAction, System.Boolean)
   name.vb: Upsert(String, String(), String(), String()(), UpsertNomatchAction, Boolean)
 - uid: SuperOffice.CRM.Services.IDatabaseTableAgent.Delete(System.String,System.Int32[])
   commentId: M:SuperOffice.CRM.Services.IDatabaseTableAgent.Delete(System.String,System.Int32[])
@@ -306,15 +299,17 @@ items:
   langs:
   - csharp
   - vb
-  name: Delete(string, int[])
-  nameWithType: IDatabaseTableAgent.Delete(string, int[])
-  fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.Delete(string, int[])
+  name: Delete(String, Int32[])
+  nameWithType: IDatabaseTableAgent.Delete(String, Int32[])
+  fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.Delete(System.String, System.Int32[])
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Delete rows, by primary key; traveltransactionlog and WebHooks are supported
-  example: []
+  summary: "\nDelete rows, by primary key; traveltransactionlog and WebHooks are supported\n"
   syntax:
     content: MassOperationResult Delete(string tableName, int[] iDs)
     parameters:
@@ -329,51 +324,19 @@ items:
       description: Summary of results
     content.vb: Function Delete(tableName As String, iDs As Integer()) As MassOperationResult
   overload: SuperOffice.CRM.Services.IDatabaseTableAgent.Delete*
-  nameWithType.vb: IDatabaseTableAgent.Delete(String, Integer())
-  fullName.vb: SuperOffice.CRM.Services.IDatabaseTableAgent.Delete(String, Integer())
-  name.vb: Delete(String, Integer())
+  nameWithType.vb: IDatabaseTableAgent.Delete(String, Int32())
+  fullName.vb: SuperOffice.CRM.Services.IDatabaseTableAgent.Delete(System.String, System.Int32())
+  name.vb: Delete(String, Int32())
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
 - uid: SuperOffice.CRM.Services.IDatabaseTableAgent.ReadRow*
   commentId: Overload:SuperOffice.CRM.Services.IDatabaseTableAgent.ReadRow
   isExternal: true
-  href: SuperOffice.CRM.Services.IDatabaseTableAgent.html#SuperOffice_CRM_Services_IDatabaseTableAgent_ReadRow_System_String_System_Int32_
   name: ReadRow
   nameWithType: IDatabaseTableAgent.ReadRow
   fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.ReadRow
@@ -381,43 +344,32 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Services.TableRecord
   commentId: T:SuperOffice.CRM.Services.TableRecord
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.TableRecord.html
   name: TableRecord
   nameWithType: TableRecord
   fullName: SuperOffice.CRM.Services.TableRecord
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.CRM.Services.IDatabaseTableAgent.InsertRow*
   commentId: Overload:SuperOffice.CRM.Services.IDatabaseTableAgent.InsertRow
   isExternal: true
-  href: SuperOffice.CRM.Services.IDatabaseTableAgent.html#SuperOffice_CRM_Services_IDatabaseTableAgent_InsertRow_System_String_SuperOffice_CRM_Services_StringDictionary_
   name: InsertRow
   nameWithType: IDatabaseTableAgent.InsertRow
   fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.InsertRow
@@ -429,93 +381,95 @@ references:
 - uid: SuperOffice.CRM.Services.IDatabaseTableAgent.UpdateRow*
   commentId: Overload:SuperOffice.CRM.Services.IDatabaseTableAgent.UpdateRow
   isExternal: true
-  href: SuperOffice.CRM.Services.IDatabaseTableAgent.html#SuperOffice_CRM_Services_IDatabaseTableAgent_UpdateRow_System_String_System_Int32_SuperOffice_CRM_Services_StringDictionary_
   name: UpdateRow
   nameWithType: IDatabaseTableAgent.UpdateRow
   fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.UpdateRow
 - uid: SuperOffice.CRM.Services.IDatabaseTableAgent.DeleteRow*
   commentId: Overload:SuperOffice.CRM.Services.IDatabaseTableAgent.DeleteRow
   isExternal: true
-  href: SuperOffice.CRM.Services.IDatabaseTableAgent.html#SuperOffice_CRM_Services_IDatabaseTableAgent_DeleteRow_System_String_System_Int32_
   name: DeleteRow
   nameWithType: IDatabaseTableAgent.DeleteRow
   fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.DeleteRow
 - uid: SuperOffice.CRM.Services.IDatabaseTableAgent.Insert*
   commentId: Overload:SuperOffice.CRM.Services.IDatabaseTableAgent.Insert
   isExternal: true
-  href: SuperOffice.CRM.Services.IDatabaseTableAgent.html#SuperOffice_CRM_Services_IDatabaseTableAgent_Insert_System_String_System_String___System_String_____
   name: Insert
   nameWithType: IDatabaseTableAgent.Insert
   fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.Insert
 - uid: System.String[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string[]
-  nameWithType: string[]
-  fullName: string[]
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
   nameWithType.vb: String()
-  fullName.vb: String()
+  fullName.vb: System.String()
   name.vb: String()
   spec.csharp:
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: System.String[][]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string[][]
-  nameWithType: string[][]
-  fullName: string[][]
+  name: String[][]
+  nameWithType: String[][]
+  fullName: System.String[][]
   nameWithType.vb: String()()
-  fullName.vb: String()()
+  fullName.vb: System.String()()
   name.vb: String()()
   spec.csharp:
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: '['
-  - name: ']'
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: (
-  - name: )
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.MassOperationResult
   commentId: T:SuperOffice.CRM.Services.MassOperationResult
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.MassOperationResult.html
   name: MassOperationResult
   nameWithType: MassOperationResult
   fullName: SuperOffice.CRM.Services.MassOperationResult
 - uid: SuperOffice.CRM.Services.IDatabaseTableAgent.Truncate*
   commentId: Overload:SuperOffice.CRM.Services.IDatabaseTableAgent.Truncate
   isExternal: true
-  href: SuperOffice.CRM.Services.IDatabaseTableAgent.html#SuperOffice_CRM_Services_IDatabaseTableAgent_Truncate_System_String_
   name: Truncate
   nameWithType: IDatabaseTableAgent.Truncate
   fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.Truncate
 - uid: SuperOffice.CRM.Services.IDatabaseTableAgent.Upsert*
   commentId: Overload:SuperOffice.CRM.Services.IDatabaseTableAgent.Upsert
   isExternal: true
-  href: SuperOffice.CRM.Services.IDatabaseTableAgent.html#SuperOffice_CRM_Services_IDatabaseTableAgent_Upsert_System_String_System_String___System_String___System_String_____SuperOffice_Data_UpsertNomatchAction_System_Boolean_
   name: Upsert
   nameWithType: IDatabaseTableAgent.Upsert
   fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.Upsert
@@ -528,40 +482,38 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.CRM.Services.IDatabaseTableAgent.Delete*
   commentId: Overload:SuperOffice.CRM.Services.IDatabaseTableAgent.Delete
   isExternal: true
-  href: SuperOffice.CRM.Services.IDatabaseTableAgent.html#SuperOffice_CRM_Services_IDatabaseTableAgent_Delete_System_String_System_Int32___
   name: Delete
   nameWithType: IDatabaseTableAgent.Delete
   fullName: SuperOffice.CRM.Services.IDatabaseTableAgent.Delete
 - uid: System.Int32[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int[]
-  nameWithType: int[]
-  fullName: int[]
-  nameWithType.vb: Integer()
-  fullName.vb: Integer()
-  name.vb: Integer()
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
   spec.csharp:
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()

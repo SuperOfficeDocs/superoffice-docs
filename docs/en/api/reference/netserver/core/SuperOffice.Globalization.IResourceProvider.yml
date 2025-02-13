@@ -17,20 +17,27 @@ items:
   nameWithType: IResourceProvider
   fullName: SuperOffice.Globalization.IResourceProvider
   type: Interface
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.Globalization
-  summary: >-
-    Interface for resource provider classes
-
-    When defined in the Client section of the config file, classes of this type will be loaded as providers for text resources
-  example: []
+  summary: "\nInterface for resource provider classes\nWhen defined in the Client section of the config file, classes of this type will be loaded as providers for text resources\n"
   syntax:
-    content: public interface IResourceProvider
-    content.vb: Public Interface IResourceProvider
+    content: 'public interface IResourceProvider : IPlugin'
+    content.vb: >-
+      Public Interface IResourceProvider
+          Inherits IPlugin
   extensionMethods:
   - SuperOffice.Globalization.IResourceProvider.EnumUtil.MapEnums``2
   - SuperOffice.Globalization.IResourceProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
 - uid: SuperOffice.Globalization.IResourceProvider.Initialize
   commentId: M:SuperOffice.Globalization.IResourceProvider.Initialize
   id: Initialize
@@ -42,25 +49,17 @@ items:
   nameWithType: IResourceProvider.Initialize()
   fullName: SuperOffice.Globalization.IResourceProvider.Initialize()
   type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.Globalization
-  summary: >-
-    Initializes the provider.
-
-    To improve performance frequently used data should be loaded into memory here.
-  remarks: >-
-    Implementers MUST use the Thread.CurrentThread.CurrentUICulture to determine the culture they
-
-    are currently servicing. In a multi-threaded international world, there is no reason to expect
-
-    that two adjacent threads will have the same culture. Static variables implementing
-
-    any concept that sounds like 'current culture' should excite the deepest suspicion.
-  example: []
+  summary: "\nInitializes the provider.\nTo improve performance frequently used data should be loaded into memory here.\n"
+  remarks: "\nImplementers MUST use the Thread.CurrentThread.CurrentUICulture to determine the culture they\nare currently servicing. In a multi-threaded international world, there is no reason to expect\nthat two adjacent threads will have the same culture. Static variables implementing\nany concept that sounds like &apos;current culture&apos; should excite the deepest suspicion.\n"
   syntax:
     content: void Initialize()
-    content.vb: Sub Initialize()
+    content.vb: Sub Initialize
   overload: SuperOffice.Globalization.IResourceProvider.Initialize*
 - uid: SuperOffice.Globalization.IResourceProvider.CanInitialize
   commentId: M:SuperOffice.Globalization.IResourceProvider.CanInitialize
@@ -73,29 +72,20 @@ items:
   nameWithType: IResourceProvider.CanInitialize()
   fullName: SuperOffice.Globalization.IResourceProvider.CanInitialize()
   type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.Globalization
-  summary: Check if all requirements for initialization have been met.
-  remarks: >-
-    For instance, if the provider needs database access, then it should make a fast check inside this
-
-    method to verify that a valid session is running. 
-
-    <p></p>
-
-    When this method returns true, <xref href="SuperOffice.Globalization.IResourceProvider.Initialize" data-throw-if-not-resolved="false"></xref> will be called <b>once</b>. If this
-
-    method returns false, then it will be called repeatedly. High performance in this implementation
-
-    is essential.
-  example: []
+  summary: "\nCheck if all requirements for initialization have been met. \n"
+  remarks: "\nFor instance, if the provider needs database access, then it should make a fast check inside this\nmethod to verify that a valid session is running. \n<p></p>\nWhen this method returns true, <xref href=\"SuperOffice.Globalization.IResourceProvider.Initialize\" data-throw-if-not-resolved=\"false\"></xref> will be called <strong>once</strong>. If this\nmethod returns false, then it will be called repeatedly. High performance in this implementation\nis essential.\n"
   syntax:
     content: bool CanInitialize()
     return:
       type: System.Boolean
       description: true if a subsequent call to Initialized will succeed
-    content.vb: Function CanInitialize() As Boolean
+    content.vb: Function CanInitialize As Boolean
   overload: SuperOffice.Globalization.IResourceProvider.CanInitialize*
 - uid: SuperOffice.Globalization.IResourceProvider.GetSupportedLanguages
   commentId: M:SuperOffice.Globalization.IResourceProvider.GetSupportedLanguages
@@ -108,17 +98,18 @@ items:
   nameWithType: IResourceProvider.GetSupportedLanguages()
   fullName: SuperOffice.Globalization.IResourceProvider.GetSupportedLanguages()
   type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.Globalization
-  summary: Return an array of cultures that this provider has resources for. This method is called once, after Initialize.
-  example: []
+  summary: "\nReturn an array of cultures that this provider has resources for. This method is called once, after Initialize.\n"
   syntax:
     content: CultureInfo[] GetSupportedLanguages()
     return:
       type: System.Globalization.CultureInfo[]
-      description: ''
-    content.vb: Function GetSupportedLanguages() As CultureInfo()
+    content.vb: Function GetSupportedLanguages As CultureInfo()
   overload: SuperOffice.Globalization.IResourceProvider.GetSupportedLanguages*
 - uid: SuperOffice.Globalization.IResourceProvider.GetResource(System.String)
   commentId: M:SuperOffice.Globalization.IResourceProvider.GetResource(System.String)
@@ -127,15 +118,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetResource(string)
-  nameWithType: IResourceProvider.GetResource(string)
-  fullName: SuperOffice.Globalization.IResourceProvider.GetResource(string)
+  name: GetResource(String)
+  nameWithType: IResourceProvider.GetResource(String)
+  fullName: SuperOffice.Globalization.IResourceProvider.GetResource(System.String)
   type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.Globalization
-  summary: Returns a string from this provider in the current culture
-  example: []
+  summary: "\nReturns a string from this provider in the current culture\n"
   syntax:
     content: string GetResource(string name)
     parameters:
@@ -147,9 +140,6 @@ items:
       description: The resource string, or null if not found
     content.vb: Function GetResource(name As String) As String
   overload: SuperOffice.Globalization.IResourceProvider.GetResource*
-  nameWithType.vb: IResourceProvider.GetResource(String)
-  fullName.vb: SuperOffice.Globalization.IResourceProvider.GetResource(String)
-  name.vb: GetResource(String)
 - uid: SuperOffice.Globalization.IResourceProvider.GetResource(System.String,System.String)
   commentId: M:SuperOffice.Globalization.IResourceProvider.GetResource(System.String,System.String)
   id: GetResource(System.String,System.String)
@@ -157,15 +147,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetResource(string, string)
-  nameWithType: IResourceProvider.GetResource(string, string)
-  fullName: SuperOffice.Globalization.IResourceProvider.GetResource(string, string)
+  name: GetResource(String, String)
+  nameWithType: IResourceProvider.GetResource(String, String)
+  fullName: SuperOffice.Globalization.IResourceProvider.GetResource(System.String, System.String)
   type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.Globalization
-  summary: Returns a string from this provider in the specified culture
-  example: []
+  summary: "\nReturns a string from this provider in the specified culture\n"
   syntax:
     content: string GetResource(string name, string cultureName)
     parameters:
@@ -180,147 +172,84 @@ items:
       description: The resource string, or null if not found
     content.vb: Function GetResource(name As String, cultureName As String) As String
   overload: SuperOffice.Globalization.IResourceProvider.GetResource*
-  nameWithType.vb: IResourceProvider.GetResource(String, String)
-  fullName.vb: SuperOffice.Globalization.IResourceProvider.GetResource(String, String)
-  name.vb: GetResource(String, String)
 references:
 - uid: SuperOffice.Globalization
   commentId: N:SuperOffice.Globalization
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Globalization
   nameWithType: SuperOffice.Globalization
   fullName: SuperOffice.Globalization
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Globalization
-    name: Globalization
-    isExternal: true
-    href: SuperOffice.Globalization.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Globalization
-    name: Globalization
-    isExternal: true
-    href: SuperOffice.Globalization.html
 - uid: SuperOffice.Globalization.IResourceProvider.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<IResourceProvider, To>(IResourceProvider)
-  nameWithType: EnumUtil.MapEnums<IResourceProvider, To>(IResourceProvider)
-  fullName: EnumUtil.MapEnums<SuperOffice.Globalization.IResourceProvider, To>(SuperOffice.Globalization.IResourceProvider)
-  nameWithType.vb: EnumUtil.MapEnums(Of IResourceProvider, To)(IResourceProvider)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Globalization.IResourceProvider, To)(SuperOffice.Globalization.IResourceProvider)
-  name.vb: MapEnums(Of IResourceProvider, To)(IResourceProvider)
+  name: MapEnums<IResourceProvider, To>()
+  nameWithType: EnumUtil.MapEnums<IResourceProvider, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Globalization.IResourceProvider, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of IResourceProvider, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Globalization.IResourceProvider, To)()
+  name.vb: MapEnums(Of IResourceProvider, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Globalization.IResourceProvider)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<IResourceProvider, To>
+    nameWithType: EnumUtil.MapEnums<IResourceProvider, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Globalization.IResourceProvider, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Globalization.IResourceProvider
-    name: IResourceProvider
-    isExternal: true
-    href: SuperOffice.Globalization.IResourceProvider.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Globalization.IResourceProvider
-    name: IResourceProvider
-    isExternal: true
-    href: SuperOffice.Globalization.IResourceProvider.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Globalization.IResourceProvider)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of IResourceProvider, To)
+    nameWithType: EnumUtil.MapEnums(Of IResourceProvider, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Globalization.IResourceProvider, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Globalization.IResourceProvider
-    name: IResourceProvider
-    isExternal: true
-    href: SuperOffice.Globalization.IResourceProvider.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Globalization.IResourceProvider
-    name: IResourceProvider
-    isExternal: true
-    href: SuperOffice.Globalization.IResourceProvider.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Globalization.IResourceProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<IResourceProvider, To>(IResourceProvider)
-  nameWithType: Converters.MapEnums<IResourceProvider, To>(IResourceProvider)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Globalization.IResourceProvider, To>(SuperOffice.Globalization.IResourceProvider)
-  nameWithType.vb: Converters.MapEnums(Of IResourceProvider, To)(IResourceProvider)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Globalization.IResourceProvider, To)(SuperOffice.Globalization.IResourceProvider)
-  name.vb: MapEnums(Of IResourceProvider, To)(IResourceProvider)
+  name: MapEnums<IResourceProvider, To>()
+  nameWithType: Converters.MapEnums<IResourceProvider, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Globalization.IResourceProvider, To>()
+  nameWithType.vb: Converters.MapEnums(Of IResourceProvider, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Globalization.IResourceProvider, To)()
+  name.vb: MapEnums(Of IResourceProvider, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Globalization.IResourceProvider)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<IResourceProvider, To>
+    nameWithType: Converters.MapEnums<IResourceProvider, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Globalization.IResourceProvider, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Globalization.IResourceProvider
-    name: IResourceProvider
-    isExternal: true
-    href: SuperOffice.Globalization.IResourceProvider.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Globalization.IResourceProvider
-    name: IResourceProvider
-    isExternal: true
-    href: SuperOffice.Globalization.IResourceProvider.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Globalization.IResourceProvider)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of IResourceProvider, To)
+    nameWithType: Converters.MapEnums(Of IResourceProvider, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Globalization.IResourceProvider, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Globalization.IResourceProvider
-    name: IResourceProvider
-    isExternal: true
-    href: SuperOffice.Globalization.IResourceProvider.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Globalization.IResourceProvider
-    name: IResourceProvider
-    isExternal: true
-    href: SuperOffice.Globalization.IResourceProvider.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -329,45 +258,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -376,112 +303,56 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.Globalization.IResourceProvider.Initialize*
   commentId: Overload:SuperOffice.Globalization.IResourceProvider.Initialize
   isExternal: true
-  href: SuperOffice.Globalization.IResourceProvider.html#SuperOffice_Globalization_IResourceProvider_Initialize
   name: Initialize
   nameWithType: IResourceProvider.Initialize
   fullName: SuperOffice.Globalization.IResourceProvider.Initialize
-- uid: SuperOffice.Globalization.IResourceProvider.Initialize
-  commentId: M:SuperOffice.Globalization.IResourceProvider.Initialize
-  parent: SuperOffice.Globalization.IResourceProvider
-  isExternal: true
-  href: SuperOffice.Globalization.IResourceProvider.html#SuperOffice_Globalization_IResourceProvider_Initialize
-  name: Initialize()
-  nameWithType: IResourceProvider.Initialize()
-  fullName: SuperOffice.Globalization.IResourceProvider.Initialize()
-  spec.csharp:
-  - uid: SuperOffice.Globalization.IResourceProvider.Initialize
-    name: Initialize
-    isExternal: true
-    href: SuperOffice.Globalization.IResourceProvider.html#SuperOffice_Globalization_IResourceProvider_Initialize
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Globalization.IResourceProvider.Initialize
-    name: Initialize
-    isExternal: true
-    href: SuperOffice.Globalization.IResourceProvider.html#SuperOffice_Globalization_IResourceProvider_Initialize
-  - name: (
-  - name: )
 - uid: SuperOffice.Globalization.IResourceProvider.CanInitialize*
   commentId: Overload:SuperOffice.Globalization.IResourceProvider.CanInitialize
   isExternal: true
-  href: SuperOffice.Globalization.IResourceProvider.html#SuperOffice_Globalization_IResourceProvider_CanInitialize
   name: CanInitialize
   nameWithType: IResourceProvider.CanInitialize
   fullName: SuperOffice.Globalization.IResourceProvider.CanInitialize
@@ -489,38 +360,23 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
-- uid: SuperOffice.Globalization.IResourceProvider
-  commentId: T:SuperOffice.Globalization.IResourceProvider
-  parent: SuperOffice.Globalization
-  isExternal: true
-  href: SuperOffice.Globalization.IResourceProvider.html
-  name: IResourceProvider
-  nameWithType: IResourceProvider
-  fullName: SuperOffice.Globalization.IResourceProvider
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.Globalization.IResourceProvider.GetSupportedLanguages*
   commentId: Overload:SuperOffice.Globalization.IResourceProvider.GetSupportedLanguages
   isExternal: true
-  href: SuperOffice.Globalization.IResourceProvider.html#SuperOffice_Globalization_IResourceProvider_GetSupportedLanguages
   name: GetSupportedLanguages
   nameWithType: IResourceProvider.GetSupportedLanguages
   fullName: SuperOffice.Globalization.IResourceProvider.GetSupportedLanguages
 - uid: System.Globalization.CultureInfo[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo
   name: CultureInfo[]
   nameWithType: CultureInfo[]
   fullName: System.Globalization.CultureInfo[]
@@ -530,21 +386,24 @@ references:
   spec.csharp:
   - uid: System.Globalization.CultureInfo
     name: CultureInfo
+    nameWithType: CultureInfo
+    fullName: System.Globalization.CultureInfo
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.Globalization.CultureInfo
     name: CultureInfo
+    nameWithType: CultureInfo
+    fullName: System.Globalization.CultureInfo
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.globalization.cultureinfo
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.Globalization.IResourceProvider.GetResource*
   commentId: Overload:SuperOffice.Globalization.IResourceProvider.GetResource
   isExternal: true
-  href: SuperOffice.Globalization.IResourceProvider.html#SuperOffice_Globalization_IResourceProvider_GetResource_System_String_
   name: GetResource
   nameWithType: IResourceProvider.GetResource
   fullName: SuperOffice.Globalization.IResourceProvider.GetResource
@@ -552,10 +411,6 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String

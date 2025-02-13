@@ -28,27 +28,30 @@ items:
   nameWithType: ServiceLogData
   fullName: SuperOffice.CRM.Services.Implementation.ServiceLogData
   type: Class
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services.Implementation
   syntax:
-    content: public class ServiceLogData
-    content.vb: Public Class ServiceLogData
+    content: 'public class ServiceLogData : Object'
+    content.vb: >-
+      Public Class ServiceLogData
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Services.Implementation.ServiceLogData.EnumUtil.MapEnums``2
-  - SuperOffice.CRM.Services.Implementation.ServiceLogData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.CRM.Services.Implementation.ServiceLogData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Services.Implementation.ServiceLogData)
   - SuperOffice.CRM.Services.Implementation.ServiceLogData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Services.Implementation.ServiceLogData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.Implementation.ServiceLogData.AgentName
   commentId: F:SuperOffice.CRM.Services.Implementation.ServiceLogData.AgentName
   id: AgentName
@@ -60,6 +63,9 @@ items:
   nameWithType: ServiceLogData.AgentName
   fullName: SuperOffice.CRM.Services.Implementation.ServiceLogData.AgentName
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services.Implementation
@@ -68,6 +74,10 @@ items:
     return:
       type: System.String
     content.vb: Public AgentName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.Implementation.ServiceLogData.MethodName
   commentId: F:SuperOffice.CRM.Services.Implementation.ServiceLogData.MethodName
   id: MethodName
@@ -79,6 +89,9 @@ items:
   nameWithType: ServiceLogData.MethodName
   fullName: SuperOffice.CRM.Services.Implementation.ServiceLogData.MethodName
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services.Implementation
@@ -87,6 +100,10 @@ items:
     return:
       type: System.String
     content.vb: Public MethodName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.Implementation.ServiceLogData.Parameters
   commentId: F:SuperOffice.CRM.Services.Implementation.ServiceLogData.Parameters
   id: Parameters
@@ -98,6 +115,9 @@ items:
   nameWithType: ServiceLogData.Parameters
   fullName: SuperOffice.CRM.Services.Implementation.ServiceLogData.Parameters
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services.Implementation
@@ -106,6 +126,10 @@ items:
     return:
       type: System.String[]
     content.vb: Public Parameters As String()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.Implementation.ServiceLogData.ReturnValue
   commentId: F:SuperOffice.CRM.Services.Implementation.ServiceLogData.ReturnValue
   id: ReturnValue
@@ -117,6 +141,9 @@ items:
   nameWithType: ServiceLogData.ReturnValue
   fullName: SuperOffice.CRM.Services.Implementation.ServiceLogData.ReturnValue
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services.Implementation
@@ -125,6 +152,10 @@ items:
     return:
       type: System.String
     content.vb: Public ReturnValue As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.Implementation.ServiceLogData.ContextId
   commentId: F:SuperOffice.CRM.Services.Implementation.ServiceLogData.ContextId
   id: ContextId
@@ -136,6 +167,9 @@ items:
   nameWithType: ServiceLogData.ContextId
   fullName: SuperOffice.CRM.Services.Implementation.ServiceLogData.ContextId
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services.Implementation
@@ -144,6 +178,10 @@ items:
     return:
       type: System.String
     content.vb: Public ContextId As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.Implementation.ServiceLogData.ThreadId
   commentId: F:SuperOffice.CRM.Services.Implementation.ServiceLogData.ThreadId
   id: ThreadId
@@ -155,6 +193,9 @@ items:
   nameWithType: ServiceLogData.ThreadId
   fullName: SuperOffice.CRM.Services.Implementation.ServiceLogData.ThreadId
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services.Implementation
@@ -163,6 +204,10 @@ items:
     return:
       type: System.Int32
     content.vb: Public ThreadId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.Implementation.ServiceLogData.ThreadName
   commentId: F:SuperOffice.CRM.Services.Implementation.ServiceLogData.ThreadName
   id: ThreadName
@@ -174,6 +219,9 @@ items:
   nameWithType: ServiceLogData.ThreadName
   fullName: SuperOffice.CRM.Services.Implementation.ServiceLogData.ThreadName
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services.Implementation
@@ -182,6 +230,10 @@ items:
     return:
       type: System.String
     content.vb: Public ThreadName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.Implementation.ServiceLogData.Runtime
   commentId: F:SuperOffice.CRM.Services.Implementation.ServiceLogData.Runtime
   id: Runtime
@@ -193,6 +245,9 @@ items:
   nameWithType: ServiceLogData.Runtime
   fullName: SuperOffice.CRM.Services.Implementation.ServiceLogData.Runtime
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services.Implementation
@@ -201,6 +256,10 @@ items:
     return:
       type: System.Int32
     content.vb: Public Runtime As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.Implementation.ServiceLogData.AssocName
   commentId: F:SuperOffice.CRM.Services.Implementation.ServiceLogData.AssocName
   id: AssocName
@@ -212,6 +271,9 @@ items:
   nameWithType: ServiceLogData.AssocName
   fullName: SuperOffice.CRM.Services.Implementation.ServiceLogData.AssocName
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services.Implementation
@@ -220,6 +282,10 @@ items:
     return:
       type: System.String
     content.vb: Public AssocName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.Implementation.ServiceLogData.AppToken
   commentId: F:SuperOffice.CRM.Services.Implementation.ServiceLogData.AppToken
   id: AppToken
@@ -231,6 +297,9 @@ items:
   nameWithType: ServiceLogData.AppToken
   fullName: SuperOffice.CRM.Services.Implementation.ServiceLogData.AppToken
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services.Implementation
@@ -239,6 +308,10 @@ items:
     return:
       type: System.String
     content.vb: Public AppToken As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.Implementation.ServiceLogData.AppName
   commentId: F:SuperOffice.CRM.Services.Implementation.ServiceLogData.AppName
   id: AppName
@@ -250,6 +323,9 @@ items:
   nameWithType: ServiceLogData.AppName
   fullName: SuperOffice.CRM.Services.Implementation.ServiceLogData.AppName
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services.Implementation
@@ -258,6 +334,10 @@ items:
     return:
       type: System.String
     content.vb: Public AppName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.Implementation.ServiceLogData.OpSeqNo
   commentId: F:SuperOffice.CRM.Services.Implementation.ServiceLogData.OpSeqNo
   id: OpSeqNo
@@ -269,6 +349,9 @@ items:
   nameWithType: ServiceLogData.OpSeqNo
   fullName: SuperOffice.CRM.Services.Implementation.ServiceLogData.OpSeqNo
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services.Implementation
@@ -277,6 +360,10 @@ items:
     return:
       type: System.Int32
     content.vb: Public OpSeqNo As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.Implementation.ServiceLogData.DbOps
   commentId: F:SuperOffice.CRM.Services.Implementation.ServiceLogData.DbOps
   id: DbOps
@@ -288,6 +375,9 @@ items:
   nameWithType: ServiceLogData.DbOps
   fullName: SuperOffice.CRM.Services.Implementation.ServiceLogData.DbOps
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services.Implementation
@@ -296,6 +386,10 @@ items:
     return:
       type: System.Int32
     content.vb: Public DbOps As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.Implementation.ServiceLogData.DbRows
   commentId: F:SuperOffice.CRM.Services.Implementation.ServiceLogData.DbRows
   id: DbRows
@@ -307,6 +401,9 @@ items:
   nameWithType: ServiceLogData.DbRows
   fullName: SuperOffice.CRM.Services.Implementation.ServiceLogData.DbRows
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services.Implementation
@@ -315,6 +412,10 @@ items:
     return:
       type: System.Int32
     content.vb: Public DbRows As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.Implementation.ServiceLogData.MaxParallelThreads
   commentId: F:SuperOffice.CRM.Services.Implementation.ServiceLogData.MaxParallelThreads
   id: MaxParallelThreads
@@ -326,6 +427,9 @@ items:
   nameWithType: ServiceLogData.MaxParallelThreads
   fullName: SuperOffice.CRM.Services.Implementation.ServiceLogData.MaxParallelThreads
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services.Implementation
@@ -334,6 +438,10 @@ items:
     return:
       type: System.Int32
     content.vb: Public MaxParallelThreads As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.Implementation.ServiceLogData.#ctor
   commentId: M:SuperOffice.CRM.Services.Implementation.ServiceLogData.#ctor
   id: '#ctor'
@@ -345,517 +453,189 @@ items:
   nameWithType: ServiceLogData.ServiceLogData()
   fullName: SuperOffice.CRM.Services.Implementation.ServiceLogData.ServiceLogData()
   type: Constructor
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services.Implementation
   syntax:
     content: public ServiceLogData()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.Implementation.ServiceLogData.#ctor*
-  nameWithType.vb: ServiceLogData.New()
-  fullName.vb: SuperOffice.CRM.Services.Implementation.ServiceLogData.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 references:
 - uid: SuperOffice.CRM.Services.Implementation
   commentId: N:SuperOffice.CRM.Services.Implementation
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Services.Implementation
   nameWithType: SuperOffice.CRM.Services.Implementation
   fullName: SuperOffice.CRM.Services.Implementation
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  - name: .
-  - uid: SuperOffice.CRM.Services.Implementation
-    name: Implementation
-    isExternal: true
-    href: SuperOffice.CRM.Services.Implementation.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  - name: .
-  - uid: SuperOffice.CRM.Services.Implementation
-    name: Implementation
-    isExternal: true
-    href: SuperOffice.CRM.Services.Implementation.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.Services.Implementation.ServiceLogData.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<ServiceLogData, To>(ServiceLogData)
-  nameWithType: EnumUtil.MapEnums<ServiceLogData, To>(ServiceLogData)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Services.Implementation.ServiceLogData, To>(SuperOffice.CRM.Services.Implementation.ServiceLogData)
-  nameWithType.vb: EnumUtil.MapEnums(Of ServiceLogData, To)(ServiceLogData)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Services.Implementation.ServiceLogData, To)(SuperOffice.CRM.Services.Implementation.ServiceLogData)
-  name.vb: MapEnums(Of ServiceLogData, To)(ServiceLogData)
+  name: MapEnums<ServiceLogData, To>()
+  nameWithType: EnumUtil.MapEnums<ServiceLogData, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Services.Implementation.ServiceLogData, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ServiceLogData, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Services.Implementation.ServiceLogData, To)()
+  name.vb: MapEnums(Of ServiceLogData, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Services.Implementation.ServiceLogData)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ServiceLogData, To>
+    nameWithType: EnumUtil.MapEnums<ServiceLogData, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Services.Implementation.ServiceLogData, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Services.Implementation.ServiceLogData
-    name: ServiceLogData
-    isExternal: true
-    href: SuperOffice.CRM.Services.Implementation.ServiceLogData.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Services.Implementation.ServiceLogData
-    name: ServiceLogData
-    isExternal: true
-    href: SuperOffice.CRM.Services.Implementation.ServiceLogData.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Services.Implementation.ServiceLogData)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ServiceLogData, To)
+    nameWithType: EnumUtil.MapEnums(Of ServiceLogData, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Services.Implementation.ServiceLogData, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Services.Implementation.ServiceLogData
-    name: ServiceLogData
-    isExternal: true
-    href: SuperOffice.CRM.Services.Implementation.ServiceLogData.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Services.Implementation.ServiceLogData
-    name: ServiceLogData
-    isExternal: true
-    href: SuperOffice.CRM.Services.Implementation.ServiceLogData.html
-  - name: )
-- uid: SuperOffice.CRM.Services.Implementation.ServiceLogData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  parent: SuperOffice.ErpSync.ConnectorWS.Converters
-  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<ServiceLogData, To>(ServiceLogData)
-  nameWithType: Converters.MapEnums<ServiceLogData, To>(ServiceLogData)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Services.Implementation.ServiceLogData, To>(SuperOffice.CRM.Services.Implementation.ServiceLogData)
-  nameWithType.vb: Converters.MapEnums(Of ServiceLogData, To)(ServiceLogData)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Services.Implementation.ServiceLogData, To)(SuperOffice.CRM.Services.Implementation.ServiceLogData)
-  name.vb: MapEnums(Of ServiceLogData, To)(ServiceLogData)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Services.Implementation.ServiceLogData)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Services.Implementation.ServiceLogData
-    name: ServiceLogData
-    isExternal: true
-    href: SuperOffice.CRM.Services.Implementation.ServiceLogData.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.CRM.Services.Implementation.ServiceLogData
-    name: ServiceLogData
-    isExternal: true
-    href: SuperOffice.CRM.Services.Implementation.ServiceLogData.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Services.Implementation.ServiceLogData)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Services.Implementation.ServiceLogData
-    name: ServiceLogData
-    isExternal: true
-    href: SuperOffice.CRM.Services.Implementation.ServiceLogData.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Services.Implementation.ServiceLogData
-    name: ServiceLogData
-    isExternal: true
-    href: SuperOffice.CRM.Services.Implementation.ServiceLogData.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.Implementation.ServiceLogData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Services.Implementation.ServiceLogData)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<ServiceLogData>(ServiceLogData, ServiceLogData)
-  nameWithType: ObjectExtensions.AssignByReflection<ServiceLogData>(ServiceLogData, ServiceLogData)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Services.Implementation.ServiceLogData>(SuperOffice.CRM.Services.Implementation.ServiceLogData, SuperOffice.CRM.Services.Implementation.ServiceLogData)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ServiceLogData)(ServiceLogData, ServiceLogData)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Services.Implementation.ServiceLogData)(SuperOffice.CRM.Services.Implementation.ServiceLogData, SuperOffice.CRM.Services.Implementation.ServiceLogData)
-  name.vb: AssignByReflection(Of ServiceLogData)(ServiceLogData, ServiceLogData)
+  name: AssignByReflection<ServiceLogData>(ServiceLogData)
+  nameWithType: ObjectExtensions.AssignByReflection<ServiceLogData>(ServiceLogData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Services.Implementation.ServiceLogData>(SuperOffice.CRM.Services.Implementation.ServiceLogData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ServiceLogData)(ServiceLogData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Services.Implementation.ServiceLogData)(SuperOffice.CRM.Services.Implementation.ServiceLogData)
+  name.vb: AssignByReflection(Of ServiceLogData)(ServiceLogData)
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Services.Implementation.ServiceLogData,SuperOffice.CRM.Services.Implementation.ServiceLogData)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<ServiceLogData>
+    nameWithType: ObjectExtensions.AssignByReflection<ServiceLogData>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Services.Implementation.ServiceLogData>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.CRM.Services.Implementation.ServiceLogData
-    name: ServiceLogData
-    isExternal: true
-    href: SuperOffice.CRM.Services.Implementation.ServiceLogData.html
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Services.Implementation.ServiceLogData
     name: ServiceLogData
+    nameWithType: ServiceLogData
+    fullName: SuperOffice.CRM.Services.Implementation.ServiceLogData
     isExternal: true
-    href: SuperOffice.CRM.Services.Implementation.ServiceLogData.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Services.Implementation.ServiceLogData
-    name: ServiceLogData
-    isExternal: true
-    href: SuperOffice.CRM.Services.Implementation.ServiceLogData.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Services.Implementation.ServiceLogData,SuperOffice.CRM.Services.Implementation.ServiceLogData)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of ServiceLogData)
+    nameWithType: ObjectExtensions.AssignByReflection(Of ServiceLogData)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Services.Implementation.ServiceLogData)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Services.Implementation.ServiceLogData
     name: ServiceLogData
+    nameWithType: ServiceLogData
+    fullName: SuperOffice.CRM.Services.Implementation.ServiceLogData
     isExternal: true
-    href: SuperOffice.CRM.Services.Implementation.ServiceLogData.html
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Services.Implementation.ServiceLogData
-    name: ServiceLogData
-    isExternal: true
-    href: SuperOffice.CRM.Services.Implementation.ServiceLogData.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Services.Implementation.ServiceLogData
-    name: ServiceLogData
-    isExternal: true
-    href: SuperOffice.CRM.Services.Implementation.ServiceLogData.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.Implementation.ServiceLogData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<ServiceLogData>(ServiceLogData)
-  nameWithType: ObjectExtensions.GraphCopy<ServiceLogData>(ServiceLogData)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Services.Implementation.ServiceLogData>(SuperOffice.CRM.Services.Implementation.ServiceLogData)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of ServiceLogData)(ServiceLogData)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Services.Implementation.ServiceLogData)(SuperOffice.CRM.Services.Implementation.ServiceLogData)
-  name.vb: GraphCopy(Of ServiceLogData)(ServiceLogData)
+  name: GraphCopy<ServiceLogData>()
+  nameWithType: ObjectExtensions.GraphCopy<ServiceLogData>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Services.Implementation.ServiceLogData>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ServiceLogData)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Services.Implementation.ServiceLogData)()
+  name.vb: GraphCopy(Of ServiceLogData)()
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Services.Implementation.ServiceLogData)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<ServiceLogData>
+    nameWithType: ObjectExtensions.GraphCopy<ServiceLogData>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Services.Implementation.ServiceLogData>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.CRM.Services.Implementation.ServiceLogData
-    name: ServiceLogData
-    isExternal: true
-    href: SuperOffice.CRM.Services.Implementation.ServiceLogData.html
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Services.Implementation.ServiceLogData
-    name: ServiceLogData
-    isExternal: true
-    href: SuperOffice.CRM.Services.Implementation.ServiceLogData.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Services.Implementation.ServiceLogData)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of ServiceLogData)
+    nameWithType: ObjectExtensions.GraphCopy(Of ServiceLogData)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Services.Implementation.ServiceLogData)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Services.Implementation.ServiceLogData
-    name: ServiceLogData
-    isExternal: true
-    href: SuperOffice.CRM.Services.Implementation.ServiceLogData.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.Implementation.ServiceLogData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ServiceLogData, To>()
+  nameWithType: Converters.MapEnums<ServiceLogData, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Services.Implementation.ServiceLogData, To>()
+  nameWithType.vb: Converters.MapEnums(Of ServiceLogData, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Services.Implementation.ServiceLogData, To)()
+  name.vb: MapEnums(Of ServiceLogData, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ServiceLogData, To>
+    nameWithType: Converters.MapEnums<ServiceLogData, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Services.Implementation.ServiceLogData, To>
+    isExternal: true
   - name: (
-  - uid: SuperOffice.CRM.Services.Implementation.ServiceLogData
-    name: ServiceLogData
-    isExternal: true
-    href: SuperOffice.CRM.Services.Implementation.ServiceLogData.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ServiceLogData, To)
+    nameWithType: Converters.MapEnums(Of ServiceLogData, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Services.Implementation.ServiceLogData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -864,93 +644,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<From, To>(From)
-  nameWithType: Converters.MapEnums<From, To>(From)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
-  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
-  name.vb: MapEnums(Of From, To)(From)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - name: From
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - name: From
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters
-  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
-  parent: SuperOffice.ErpSync.ConnectorWS
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
-  name: Converters
-  nameWithType: Converters
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   name: AssignByReflection<T>(T, T)
   nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
   fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
@@ -959,46 +689,56 @@ references:
   name.vb: AssignByReflection(Of T)(T, T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
-  - name: ','
-  - name: " "
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.ObjectExtensions
   commentId: T:SuperOffice.Util.ObjectExtensions
   parent: SuperOffice.Util
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
   name: ObjectExtensions
   nameWithType: ObjectExtensions
   fullName: SuperOffice.Util.ObjectExtensions
 - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   name: GraphCopy<T>(T)
   nameWithType: ObjectExtensions.GraphCopy<T>(T)
   fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
@@ -1007,144 +747,135 @@ references:
   name.vb: GraphCopy(Of T)(T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS
-  commentId: N:SuperOffice.ErpSync.ConnectorWS
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.ErpSync.ConnectorWS
-  nameWithType: SuperOffice.ErpSync.ConnectorWS
-  fullName: SuperOffice.ErpSync.ConnectorWS
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: System.String[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string[]
-  nameWithType: string[]
-  fullName: string[]
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
   nameWithType.vb: String()
-  fullName.vb: String()
+  fullName.vb: System.String()
   name.vb: String()
   spec.csharp:
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Services.Implementation.ServiceLogData.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.Implementation.ServiceLogData.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.Implementation.ServiceLogData.html#SuperOffice_CRM_Services_Implementation_ServiceLogData__ctor
   name: ServiceLogData
   nameWithType: ServiceLogData.ServiceLogData
   fullName: SuperOffice.CRM.Services.Implementation.ServiceLogData.ServiceLogData
-  nameWithType.vb: ServiceLogData.New
-  fullName.vb: SuperOffice.CRM.Services.Implementation.ServiceLogData.New
-  name.vb: New

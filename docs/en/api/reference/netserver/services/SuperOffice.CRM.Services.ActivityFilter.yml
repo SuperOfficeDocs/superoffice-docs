@@ -20,27 +20,18 @@ items:
   nameWithType: ActivityFilter
   fullName: SuperOffice.CRM.Services.ActivityFilter
   type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Activity list filter information.
-
-    <p></p>
-
-    Carrier object for ActivityFilter.
-
-    Services for the ActivityFilter Carrier is available from the <xref href="SuperOffice.CRM.Services.IArchiveAgent?text=Archive+Agent" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nActivity list filter information.\n<p></p>\nCarrier object for ActivityFilter.\nServices for the ActivityFilter Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IArchiveAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public class ActivityFilter : Carrier
+    content: 'public class ActivityFilter : Carrier'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
-
-      Public Class ActivityFilter Inherits Carrier
+      Public Class ActivityFilter
+          Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.ArchiveAgent
     commentId: T:SuperOffice.CRM.Services.ArchiveAgent
@@ -48,14 +39,12 @@ items:
     commentId: T:SuperOffice.CRM.Services.IArchiveAgent
   inheritance:
   - System.Object
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.ActivityFilter.#ctor
   commentId: M:SuperOffice.CRM.Services.ActivityFilter.#ctor
   id: '#ctor'
@@ -67,18 +56,21 @@ items:
   nameWithType: ActivityFilter.ActivityFilter()
   fullName: SuperOffice.CRM.Services.ActivityFilter.ActivityFilter()
   type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Default constructor
-  example: []
+  summary: "\nDefault constructor\n"
   syntax:
     content: public ActivityFilter()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.ActivityFilter.#ctor*
-  nameWithType.vb: ActivityFilter.New()
-  fullName.vb: SuperOffice.CRM.Services.ActivityFilter.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.ActivityFilter.ToString
   commentId: M:SuperOffice.CRM.Services.ActivityFilter.ToString
   id: ToString
@@ -90,18 +82,26 @@ items:
   nameWithType: ActivityFilter.ToString()
   fullName: SuperOffice.CRM.Services.ActivityFilter.ToString()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the carrier contents as a formatted string.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string.\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString() As String
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.CRM.Services.ActivityFilter.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Services.ActivityFilter.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.ActivityFilter.ToString(System.String)
   id: ToString(System.String)
@@ -109,18 +109,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(string)
-  nameWithType: ActivityFilter.ToString(string)
-  fullName: SuperOffice.CRM.Services.ActivityFilter.ToString(string)
+  name: ToString(String)
+  nameWithType: ActivityFilter.ToString(String)
+  fullName: SuperOffice.CRM.Services.ActivityFilter.ToString(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Returns the carrier contents as a formatted string, useful for debugging.
-
-    Each line in the output is prefixed with the input value.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -132,9 +131,10 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.ActivityFilter.ToString*
-  nameWithType.vb: ActivityFilter.ToString(String)
-  fullName.vb: SuperOffice.CRM.Services.ActivityFilter.ToString(String)
-  name.vb: ToString(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.ActivityFilter.FromDate
   commentId: P:SuperOffice.CRM.Services.ActivityFilter.FromDate
   id: FromDate
@@ -146,28 +146,28 @@ items:
   nameWithType: ActivityFilter.FromDate
   fullName: SuperOffice.CRM.Services.ActivityFilter.FromDate
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The filtering From date
-  example: []
+  summary: "\nThe filtering From date \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual DateTime FromDate { get; set; }
+    content: public virtual DateTime FromDate { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property FromDate As Date
+    content.vb: Public Overridable Property FromDate As DateTime
   overload: SuperOffice.CRM.Services.ActivityFilter.FromDate*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ActivityFilter.ToDate
   commentId: P:SuperOffice.CRM.Services.ActivityFilter.ToDate
   id: ToDate
@@ -179,28 +179,28 @@ items:
   nameWithType: ActivityFilter.ToDate
   fullName: SuperOffice.CRM.Services.ActivityFilter.ToDate
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The filtering To date
-  example: []
+  summary: "\nThe filtering To date \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual DateTime ToDate { get; set; }
+    content: public virtual DateTime ToDate { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ToDate As Date
+    content.vb: Public Overridable Property ToDate As DateTime
   overload: SuperOffice.CRM.Services.ActivityFilter.ToDate*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ActivityFilter.AssociateList
   commentId: P:SuperOffice.CRM.Services.ActivityFilter.AssociateList
   id: AssociateList
@@ -212,28 +212,28 @@ items:
   nameWithType: ActivityFilter.AssociateList
   fullName: SuperOffice.CRM.Services.ActivityFilter.AssociateList
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The list of associates to filter on
-  example: []
+  summary: "\nThe list of associates to filter on \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual SelectableMDOListItem[] AssociateList { get; set; }
+    content: public virtual SelectableMDOListItem[] AssociateList { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.SelectableMDOListItem[]
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property AssociateList As SelectableMDOListItem()
+    content.vb: Public Overridable Property AssociateList As SelectableMDOListItem()
   overload: SuperOffice.CRM.Services.ActivityFilter.AssociateList*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ActivityFilter.GroupList
   commentId: P:SuperOffice.CRM.Services.ActivityFilter.GroupList
   id: GroupList
@@ -245,28 +245,28 @@ items:
   nameWithType: ActivityFilter.GroupList
   fullName: SuperOffice.CRM.Services.ActivityFilter.GroupList
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The list of groups to filter on
-  example: []
+  summary: "\nThe list of groups to filter on \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual SelectableMDOListItem[] GroupList { get; set; }
+    content: public virtual SelectableMDOListItem[] GroupList { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.SelectableMDOListItem[]
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property GroupList As SelectableMDOListItem()
+    content.vb: Public Overridable Property GroupList As SelectableMDOListItem()
   overload: SuperOffice.CRM.Services.ActivityFilter.GroupList*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ActivityFilter.FutureDateList
   commentId: P:SuperOffice.CRM.Services.ActivityFilter.FutureDateList
   id: FutureDateList
@@ -278,33 +278,38 @@ items:
   nameWithType: ActivityFilter.FutureDateList
   fullName: SuperOffice.CRM.Services.ActivityFilter.FutureDateList
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The list of future date selections. This is a static MDO list with standard values.
-  example: []
+  summary: "\nThe list of future date selections. This is a static MDO list with standard values. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual MDOListItem[] FutureDateList { get; set; }
+    content: public virtual MDOListItem[] FutureDateList { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.MDOListItem[]
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property FutureDateList As MDOListItem()
+    content.vb: Public Overridable Property FutureDateList As MDOListItem()
   overload: SuperOffice.CRM.Services.ActivityFilter.FutureDateList*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
 - uid: SuperOffice.CRM.Services.ArchiveAgent
   commentId: T:SuperOffice.CRM.Services.ArchiveAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.ArchiveAgent.html
   name: ArchiveAgent
   nameWithType: ArchiveAgent
   fullName: SuperOffice.CRM.Services.ArchiveAgent
@@ -312,79 +317,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.IArchiveAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.IArchiveAgent.html
   name: IArchiveAgent
   nameWithType: IArchiveAgent
   fullName: SuperOffice.CRM.Services.IArchiveAgent
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.ActivityFilter.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.ActivityFilter.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.ActivityFilter.html#SuperOffice_CRM_Services_ActivityFilter__ctor
   name: ActivityFilter
   nameWithType: ActivityFilter.ActivityFilter
   fullName: SuperOffice.CRM.Services.ActivityFilter.ActivityFilter
-  nameWithType.vb: ActivityFilter.New
-  fullName.vb: SuperOffice.CRM.Services.ActivityFilter.New
-  name.vb: New
 - uid: SuperOffice.CRM.Services.ActivityFilter.ToString*
   commentId: Overload:SuperOffice.CRM.Services.ActivityFilter.ToString
   isExternal: true
-  href: SuperOffice.CRM.Services.ActivityFilter.html#SuperOffice_CRM_Services_ActivityFilter_ToString
   name: ToString
   nameWithType: ActivityFilter.ToString
   fullName: SuperOffice.CRM.Services.ActivityFilter.ToString
@@ -392,48 +336,40 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.ActivityFilter.FromDate*
   commentId: Overload:SuperOffice.CRM.Services.ActivityFilter.FromDate
   isExternal: true
-  href: SuperOffice.CRM.Services.ActivityFilter.html#SuperOffice_CRM_Services_ActivityFilter_FromDate
   name: FromDate
   nameWithType: ActivityFilter.FromDate
   fullName: SuperOffice.CRM.Services.ActivityFilter.FromDate
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
 - uid: SuperOffice.CRM.Services.ActivityFilter.ToDate*
   commentId: Overload:SuperOffice.CRM.Services.ActivityFilter.ToDate
   isExternal: true
-  href: SuperOffice.CRM.Services.ActivityFilter.html#SuperOffice_CRM_Services_ActivityFilter_ToDate
   name: ToDate
   nameWithType: ActivityFilter.ToDate
   fullName: SuperOffice.CRM.Services.ActivityFilter.ToDate
 - uid: SuperOffice.CRM.Services.ActivityFilter.AssociateList*
   commentId: Overload:SuperOffice.CRM.Services.ActivityFilter.AssociateList
   isExternal: true
-  href: SuperOffice.CRM.Services.ActivityFilter.html#SuperOffice_CRM_Services_ActivityFilter_AssociateList
   name: AssociateList
   nameWithType: ActivityFilter.AssociateList
   fullName: SuperOffice.CRM.Services.ActivityFilter.AssociateList
 - uid: SuperOffice.CRM.Services.SelectableMDOListItem[]
   isExternal: true
-  href: SuperOffice.CRM.Services.SelectableMDOListItem.html
   name: SelectableMDOListItem[]
   nameWithType: SelectableMDOListItem[]
   fullName: SuperOffice.CRM.Services.SelectableMDOListItem[]
@@ -443,34 +379,35 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.SelectableMDOListItem
     name: SelectableMDOListItem
+    nameWithType: SelectableMDOListItem
+    fullName: SuperOffice.CRM.Services.SelectableMDOListItem
     isExternal: true
-    href: SuperOffice.CRM.Services.SelectableMDOListItem.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.Services.SelectableMDOListItem
     name: SelectableMDOListItem
+    nameWithType: SelectableMDOListItem
+    fullName: SuperOffice.CRM.Services.SelectableMDOListItem
     isExternal: true
-    href: SuperOffice.CRM.Services.SelectableMDOListItem.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.ActivityFilter.GroupList*
   commentId: Overload:SuperOffice.CRM.Services.ActivityFilter.GroupList
   isExternal: true
-  href: SuperOffice.CRM.Services.ActivityFilter.html#SuperOffice_CRM_Services_ActivityFilter_GroupList
   name: GroupList
   nameWithType: ActivityFilter.GroupList
   fullName: SuperOffice.CRM.Services.ActivityFilter.GroupList
 - uid: SuperOffice.CRM.Services.ActivityFilter.FutureDateList*
   commentId: Overload:SuperOffice.CRM.Services.ActivityFilter.FutureDateList
   isExternal: true
-  href: SuperOffice.CRM.Services.ActivityFilter.html#SuperOffice_CRM_Services_ActivityFilter_FutureDateList
   name: FutureDateList
   nameWithType: ActivityFilter.FutureDateList
   fullName: SuperOffice.CRM.Services.ActivityFilter.FutureDateList
 - uid: SuperOffice.CRM.Services.MDOListItem[]
   isExternal: true
-  href: SuperOffice.CRM.Services.MDOListItem.html
   name: MDOListItem[]
   nameWithType: MDOListItem[]
   fullName: SuperOffice.CRM.Services.MDOListItem[]
@@ -480,14 +417,18 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.MDOListItem
     name: MDOListItem
+    nameWithType: MDOListItem
+    fullName: SuperOffice.CRM.Services.MDOListItem
     isExternal: true
-    href: SuperOffice.CRM.Services.MDOListItem.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.Services.MDOListItem
     name: MDOListItem
+    nameWithType: MDOListItem
+    fullName: SuperOffice.CRM.Services.MDOListItem
     isExternal: true
-    href: SuperOffice.CRM.Services.MDOListItem.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()

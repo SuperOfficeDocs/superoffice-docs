@@ -35,21 +35,14 @@ items:
   nameWithType: OutboxTableInfo
   fullName: SuperOffice.CRM.Data.OutboxTableInfo
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "Table 'outbox': Outgoing emails with sending status and other info"
-  remarks: >-
-    An instance of this class represents one instance of this table in an SQL statement. In most
-
-    cases each table appears only once in a SELECT, but in cases where you need to self-join, or
-
-    there are multiple occurrences for other reasons (typically additional restrictions in the joins),
-
-    then you will need multiple instances. <br />
-
-    Instances of this class are created by calling TablesInfo.GetOutboxInfo().
-  example: []
+  summary: "\nTable &apos;outbox&apos;: Outgoing emails with sending status and other info\n"
+  remarks: "\nAn instance of this class represents one instance of this table in an SQL statement. In most\ncases each table appears only once in a SELECT, but in cases where you need to self-join, or\nthere are multiple occurrences for other reasons (typically additional restrictions in the joins),\nthen you will need multiple instances. <br />\nInstances of this class are created by calling <see cref=\"!:TablesInfo.GetOutboxInfo()\"></see>.\n"
   syntax:
     content: >-
       [DatabaseTable("outbox")]
@@ -58,7 +51,9 @@ items:
     content.vb: >-
       <DatabaseTable("outbox")>
 
-      Public Class OutboxTableInfo Inherits TableInfo Implements ICloneable
+      Public Class OutboxTableInfo
+          Inherits TableInfo
+          Implements ICloneable
   inheritance:
   - System.Object
   - SuperOffice.Data.SQL.TableInfo
@@ -79,12 +74,6 @@ items:
   - SuperOffice.Data.SQL.TableInfo.All
   - SuperOffice.Data.SQL.TableInfo.Item(System.String)
   - SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Data.OutboxTableInfo.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Data.OutboxTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -94,6 +83,12 @@ items:
     arguments:
     - type: System.String
       value: outbox
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Data.OutboxTableInfo.DictionaryTableName
   commentId: F:SuperOffice.CRM.Data.OutboxTableInfo.DictionaryTableName
   id: DictionaryTableName
@@ -105,16 +100,24 @@ items:
   nameWithType: OutboxTableInfo.DictionaryTableName
   fullName: SuperOffice.CRM.Data.OutboxTableInfo.DictionaryTableName
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Conceptual name of table Outbox in the database dictionary: outbox'
-  example: []
+  summary: "\nConceptual name of table Outbox in the database dictionary: outbox\n"
   syntax:
     content: public const string DictionaryTableName = "outbox"
     return:
       type: System.String
     content.vb: Public Const DictionaryTableName As String = "outbox"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.OutboxTableInfo.DictionaryTableNumber
   commentId: P:SuperOffice.CRM.Data.OutboxTableInfo.DictionaryTableNumber
   id: DictionaryTableNumber
@@ -126,14 +129,13 @@ items:
   nameWithType: OutboxTableInfo.DictionaryTableNumber
   fullName: SuperOffice.CRM.Data.OutboxTableInfo.DictionaryTableNumber
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Table number for table Outbox in the database dictionary; potentially changes between databases, but
-
-    always the same over the lifetime of any single database
-  example: []
+  summary: "\nTable number for table Outbox in the database dictionary; potentially changes between databases, but\nalways the same over the lifetime of any single database\n"
   syntax:
     content: public int DictionaryTableNumber { get; }
     parameters: []
@@ -141,6 +143,12 @@ items:
       type: System.Int32
     content.vb: Public ReadOnly Property DictionaryTableNumber As Integer
   overload: SuperOffice.CRM.Data.OutboxTableInfo.DictionaryTableNumber*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.OutboxTableInfo.RuntimeDefinition
   commentId: P:SuperOffice.CRM.Data.OutboxTableInfo.RuntimeDefinition
   id: RuntimeDefinition
@@ -152,32 +160,28 @@ items:
   nameWithType: OutboxTableInfo.RuntimeDefinition
   fullName: SuperOffice.CRM.Data.OutboxTableInfo.RuntimeDefinition
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Definition of the table as described in the deployed runtime dictionary
-  example: []
+  summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
   syntax:
-    content: >-
-      [Obsolete("Use instance property Definition or static member DictionaryTableNumber", true)]
-
-      public static SoTable RuntimeDefinition { get; }
+    content: public static SoTable RuntimeDefinition { get; }
     parameters: []
     return:
       type: SuperOffice.Data.Dictionary.SoTable
-    content.vb: >-
-      <Obsolete("Use instance property Definition or static member DictionaryTableNumber", True)>
-
-      Public Shared ReadOnly Property RuntimeDefinition As SoTable
+    content.vb: Public Shared ReadOnly Property RuntimeDefinition As SoTable
   overload: SuperOffice.CRM.Data.OutboxTableInfo.RuntimeDefinition*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: Use instance property Definition or static member DictionaryTableNumber
-    - type: System.Boolean
-      value: true
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.OutboxTableInfo.Definition
   commentId: P:SuperOffice.CRM.Data.OutboxTableInfo.Definition
   id: Definition
@@ -189,11 +193,13 @@ items:
   nameWithType: OutboxTableInfo.Definition
   fullName: SuperOffice.CRM.Data.OutboxTableInfo.Definition
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Definition of the table as described in the deployed runtime dictionary
-  example: []
+  summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
   syntax:
     content: public override SoTable Definition { get; }
     parameters: []
@@ -202,6 +208,14 @@ items:
     content.vb: Public Overrides ReadOnly Property Definition As SoTable
   overridden: SuperOffice.Data.SQL.TableInfo.Definition
   overload: SuperOffice.CRM.Data.OutboxTableInfo.Definition*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.OutboxTableInfo.OutboxId
   commentId: P:SuperOffice.CRM.Data.OutboxTableInfo.OutboxId
   id: OutboxId
@@ -213,14 +227,13 @@ items:
   nameWithType: OutboxTableInfo.OutboxId
   fullName: SuperOffice.CRM.Data.OutboxTableInfo.OutboxId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'id' in table 'outbox': Dictionary type PK, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Primary key
-  example: []
+  summary: "\nField &apos;id&apos; in table &apos;outbox&apos;: Dictionary type PK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nPrimary key\n"
   syntax:
     content: public Int32FieldInfo OutboxId { get; }
     parameters: []
@@ -228,6 +241,12 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property OutboxId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.OutboxTableInfo.OutboxId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.OutboxTableInfo.TicketId
   commentId: P:SuperOffice.CRM.Data.OutboxTableInfo.TicketId
   id: TicketId
@@ -239,14 +258,13 @@ items:
   nameWithType: OutboxTableInfo.TicketId
   fullName: SuperOffice.CRM.Data.OutboxTableInfo.TicketId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'ticket_id' in table 'outbox': Dictionary type FK, target: Ticket, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
-
-    The ticket.id this reference is connected to.
-  example: []
+  summary: "\nField &apos;ticket_id&apos; in table &apos;outbox&apos;: Dictionary type FK, target: Ticket, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe ticket.id this reference is connected to.\n"
   syntax:
     content: public Int32FieldInfo TicketId { get; }
     parameters: []
@@ -254,6 +272,12 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property TicketId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.OutboxTableInfo.TicketId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.OutboxTableInfo.MessageId
   commentId: P:SuperOffice.CRM.Data.OutboxTableInfo.MessageId
   id: MessageId
@@ -265,14 +289,13 @@ items:
   nameWithType: OutboxTableInfo.MessageId
   fullName: SuperOffice.CRM.Data.OutboxTableInfo.MessageId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'message_id' in table 'outbox': Dictionary type FK, target: EjMessage, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
-
-    The message.id this reference is connected to.
-  example: []
+  summary: "\nField &apos;message_id&apos; in table &apos;outbox&apos;: Dictionary type FK, target: EjMessage, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe message.id this reference is connected to.\n"
   syntax:
     content: public Int32FieldInfo MessageId { get; }
     parameters: []
@@ -280,6 +303,12 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property MessageId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.OutboxTableInfo.MessageId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.OutboxTableInfo.Subject
   commentId: P:SuperOffice.CRM.Data.OutboxTableInfo.Subject
   id: Subject
@@ -291,14 +320,13 @@ items:
   nameWithType: OutboxTableInfo.Subject
   fullName: SuperOffice.CRM.Data.OutboxTableInfo.Subject
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'subject' in table 'outbox': Dictionary type String[256], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Subject of the mail
-  example: []
+  summary: "\nField &apos;subject&apos; in table &apos;outbox&apos;: Dictionary type String[256], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nSubject of the mail\n"
   syntax:
     content: public StringFieldInfo Subject { get; }
     parameters: []
@@ -306,6 +334,12 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property Subject As StringFieldInfo
   overload: SuperOffice.CRM.Data.OutboxTableInfo.Subject*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.OutboxTableInfo.FromEmail
   commentId: P:SuperOffice.CRM.Data.OutboxTableInfo.FromEmail
   id: FromEmail
@@ -317,14 +351,13 @@ items:
   nameWithType: OutboxTableInfo.FromEmail
   fullName: SuperOffice.CRM.Data.OutboxTableInfo.FromEmail
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'from_email' in table 'outbox': Dictionary type String[256], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Mail address of the sender
-  example: []
+  summary: "\nField &apos;from_email&apos; in table &apos;outbox&apos;: Dictionary type String[256], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nMail address of the sender\n"
   syntax:
     content: public StringFieldInfo FromEmail { get; }
     parameters: []
@@ -332,6 +365,12 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property FromEmail As StringFieldInfo
   overload: SuperOffice.CRM.Data.OutboxTableInfo.FromEmail*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.OutboxTableInfo.FromEnvelope
   commentId: P:SuperOffice.CRM.Data.OutboxTableInfo.FromEnvelope
   id: FromEnvelope
@@ -343,14 +382,13 @@ items:
   nameWithType: OutboxTableInfo.FromEnvelope
   fullName: SuperOffice.CRM.Data.OutboxTableInfo.FromEnvelope
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'from_envelope' in table 'outbox': Dictionary type String[256], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Envelope (smtp) Mail address of the sender
-  example: []
+  summary: "\nField &apos;from_envelope&apos; in table &apos;outbox&apos;: Dictionary type String[256], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nEnvelope (smtp) Mail address of the sender\n"
   syntax:
     content: public StringFieldInfo FromEnvelope { get; }
     parameters: []
@@ -358,6 +396,12 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property FromEnvelope As StringFieldInfo
   overload: SuperOffice.CRM.Data.OutboxTableInfo.FromEnvelope*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.OutboxTableInfo.Rcpt
   commentId: P:SuperOffice.CRM.Data.OutboxTableInfo.Rcpt
   id: Rcpt
@@ -369,14 +413,13 @@ items:
   nameWithType: OutboxTableInfo.Rcpt
   fullName: SuperOffice.CRM.Data.OutboxTableInfo.Rcpt
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'rcpt' in table 'outbox': Dictionary type Clob, .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
-
-    A list of recipience
-  example: []
+  summary: "\nField &apos;rcpt&apos; in table &apos;outbox&apos;: Dictionary type Clob, .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nA list of recipience\n"
   syntax:
     content: public StringFieldInfo Rcpt { get; }
     parameters: []
@@ -384,6 +427,12 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property Rcpt As StringFieldInfo
   overload: SuperOffice.CRM.Data.OutboxTableInfo.Rcpt*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.OutboxTableInfo.MailSize
   commentId: P:SuperOffice.CRM.Data.OutboxTableInfo.MailSize
   id: MailSize
@@ -395,14 +444,13 @@ items:
   nameWithType: OutboxTableInfo.MailSize
   fullName: SuperOffice.CRM.Data.OutboxTableInfo.MailSize
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'mail_size' in table 'outbox': Dictionary type Int, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
-
-    The size of the mail in bytes
-  example: []
+  summary: "\nField &apos;mail_size&apos; in table &apos;outbox&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe size of the mail in bytes\n"
   syntax:
     content: public Int32FieldInfo MailSize { get; }
     parameters: []
@@ -410,6 +458,12 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property MailSize As Int32FieldInfo
   overload: SuperOffice.CRM.Data.OutboxTableInfo.MailSize*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.OutboxTableInfo.Created
   commentId: P:SuperOffice.CRM.Data.OutboxTableInfo.Created
   id: Created
@@ -421,14 +475,13 @@ items:
   nameWithType: OutboxTableInfo.Created
   fullName: SuperOffice.CRM.Data.OutboxTableInfo.Created
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'created' in table 'outbox': Dictionary type DateTime, .NET type: <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref><p></p>
-
-    When the mail was created
-  example: []
+  summary: "\nField &apos;created&apos; in table &apos;outbox&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nWhen the mail was created\n"
   syntax:
     content: public DateTimeFieldInfo Created { get; }
     parameters: []
@@ -436,6 +489,12 @@ items:
       type: SuperOffice.Data.SQL.DateTimeFieldInfo
     content.vb: Public ReadOnly Property Created As DateTimeFieldInfo
   overload: SuperOffice.CRM.Data.OutboxTableInfo.Created*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.OutboxTableInfo.Status
   commentId: P:SuperOffice.CRM.Data.OutboxTableInfo.Status
   id: Status
@@ -447,14 +506,13 @@ items:
   nameWithType: OutboxTableInfo.Status
   fullName: SuperOffice.CRM.Data.OutboxTableInfo.Status
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'status' in table 'outbox': Dictionary type Int, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Status enum
-  example: []
+  summary: "\nField &apos;status&apos; in table &apos;outbox&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nStatus enum\n"
   syntax:
     content: public Int32FieldInfo Status { get; }
     parameters: []
@@ -462,6 +520,12 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property Status As Int32FieldInfo
   overload: SuperOffice.CRM.Data.OutboxTableInfo.Status*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.OutboxTableInfo.Retries
   commentId: P:SuperOffice.CRM.Data.OutboxTableInfo.Retries
   id: Retries
@@ -473,14 +537,13 @@ items:
   nameWithType: OutboxTableInfo.Retries
   fullName: SuperOffice.CRM.Data.OutboxTableInfo.Retries
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'retries' in table 'outbox': Dictionary type Int, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
-
-    The number of times we have tried to send this mail
-  example: []
+  summary: "\nField &apos;retries&apos; in table &apos;outbox&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe number of times we have tried to send this mail\n"
   syntax:
     content: public Int32FieldInfo Retries { get; }
     parameters: []
@@ -488,6 +551,12 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property Retries As Int32FieldInfo
   overload: SuperOffice.CRM.Data.OutboxTableInfo.Retries*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.OutboxTableInfo.NextRetry
   commentId: P:SuperOffice.CRM.Data.OutboxTableInfo.NextRetry
   id: NextRetry
@@ -499,14 +568,13 @@ items:
   nameWithType: OutboxTableInfo.NextRetry
   fullName: SuperOffice.CRM.Data.OutboxTableInfo.NextRetry
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'next_retry' in table 'outbox': Dictionary type DateTime, .NET type: <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref><p></p>
-
-    When is the next time we should try again?
-  example: []
+  summary: "\nField &apos;next_retry&apos; in table &apos;outbox&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nWhen is the next time we should try again?\n"
   syntax:
     content: public DateTimeFieldInfo NextRetry { get; }
     parameters: []
@@ -514,6 +582,12 @@ items:
       type: SuperOffice.Data.SQL.DateTimeFieldInfo
     content.vb: Public ReadOnly Property NextRetry As DateTimeFieldInfo
   overload: SuperOffice.CRM.Data.OutboxTableInfo.NextRetry*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.OutboxTableInfo.Pid
   commentId: P:SuperOffice.CRM.Data.OutboxTableInfo.Pid
   id: Pid
@@ -525,14 +599,13 @@ items:
   nameWithType: OutboxTableInfo.Pid
   fullName: SuperOffice.CRM.Data.OutboxTableInfo.Pid
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'pid' in table 'outbox': Dictionary type Int, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
-
-    The process id owning this message
-  example: []
+  summary: "\nField &apos;pid&apos; in table &apos;outbox&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe process id owning this message\n"
   syntax:
     content: public Int32FieldInfo Pid { get; }
     parameters: []
@@ -540,6 +613,12 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property Pid As Int32FieldInfo
   overload: SuperOffice.CRM.Data.OutboxTableInfo.Pid*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.OutboxTableInfo.LastError
   commentId: P:SuperOffice.CRM.Data.OutboxTableInfo.LastError
   id: LastError
@@ -551,14 +630,13 @@ items:
   nameWithType: OutboxTableInfo.LastError
   fullName: SuperOffice.CRM.Data.OutboxTableInfo.LastError
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'last_error' in table 'outbox': Dictionary type String[256], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
-
-    The last error reported when sending this message
-  example: []
+  summary: "\nField &apos;last_error&apos; in table &apos;outbox&apos;: Dictionary type String[256], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe last error reported when sending this message\n"
   syntax:
     content: public StringFieldInfo LastError { get; }
     parameters: []
@@ -566,6 +644,12 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property LastError As StringFieldInfo
   overload: SuperOffice.CRM.Data.OutboxTableInfo.LastError*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.OutboxTableInfo.Type
   commentId: P:SuperOffice.CRM.Data.OutboxTableInfo.Type
   id: Type
@@ -577,14 +661,13 @@ items:
   nameWithType: OutboxTableInfo.Type
   fullName: SuperOffice.CRM.Data.OutboxTableInfo.Type
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'type' in table 'outbox': Dictionary type Enum, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Indicates if this is a SMS to be sent via WebServices or a normal email. 0 = email, 1 = sms
-  example: []
+  summary: "\nField &apos;type&apos; in table &apos;outbox&apos;: Dictionary type Enum, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nIndicates if this is a SMS to be sent via WebServices or a normal email. 0 = email, 1 = sms\n"
   syntax:
     content: public UInt16FieldInfo Type { get; }
     parameters: []
@@ -592,6 +675,12 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property Type As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.OutboxTableInfo.Type*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.OutboxTableInfo.Rfc822Content
   commentId: P:SuperOffice.CRM.Data.OutboxTableInfo.Rfc822Content
   id: Rfc822Content
@@ -603,14 +692,13 @@ items:
   nameWithType: OutboxTableInfo.Rfc822Content
   fullName: SuperOffice.CRM.Data.OutboxTableInfo.Rfc822Content
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'rfc822_content' in table 'outbox': Dictionary type Clob, .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
-
-    The content of the outgoing email as a string. Alternative to using outbox file
-  example: []
+  summary: "\nField &apos;rfc822_content&apos; in table &apos;outbox&apos;: Dictionary type Clob, .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe content of the outgoing email as a string. Alternative to using outbox file\n"
   syntax:
     content: public StringFieldInfo Rfc822Content { get; }
     parameters: []
@@ -618,6 +706,12 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property Rfc822Content As StringFieldInfo
   overload: SuperOffice.CRM.Data.OutboxTableInfo.Rfc822Content*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.OutboxTableInfo.TicketId_InnerJoin_Ticket
   commentId: P:SuperOffice.CRM.Data.OutboxTableInfo.TicketId_InnerJoin_Ticket
   id: TicketId_InnerJoin_Ticket
@@ -629,11 +723,13 @@ items:
   nameWithType: OutboxTableInfo.TicketId_InnerJoin_Ticket
   fullName: SuperOffice.CRM.Data.OutboxTableInfo.TicketId_InnerJoin_Ticket
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Generated join from the foreign key TicketId in this table, to its target table <xref href="SuperOffice.CRM.Data.TicketTableInfo" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nGenerated join from the foreign key TicketId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.TicketTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
     content: public TargetedInnerJoin<TicketTableInfo> TicketId_InnerJoin_Ticket { get; }
     parameters: []
@@ -641,6 +737,12 @@ items:
       type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.TicketTableInfo}
     content.vb: Public ReadOnly Property TicketId_InnerJoin_Ticket As TargetedInnerJoin(Of TicketTableInfo)
   overload: SuperOffice.CRM.Data.OutboxTableInfo.TicketId_InnerJoin_Ticket*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.OutboxTableInfo.MessageId_InnerJoin_EjMessage
   commentId: P:SuperOffice.CRM.Data.OutboxTableInfo.MessageId_InnerJoin_EjMessage
   id: MessageId_InnerJoin_EjMessage
@@ -652,11 +754,13 @@ items:
   nameWithType: OutboxTableInfo.MessageId_InnerJoin_EjMessage
   fullName: SuperOffice.CRM.Data.OutboxTableInfo.MessageId_InnerJoin_EjMessage
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Generated join from the foreign key MessageId in this table, to its target table <xref href="SuperOffice.CRM.Data.EjMessageTableInfo" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nGenerated join from the foreign key MessageId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.EjMessageTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
     content: public TargetedInnerJoin<EjMessageTableInfo> MessageId_InnerJoin_EjMessage { get; }
     parameters: []
@@ -664,6 +768,12 @@ items:
       type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.EjMessageTableInfo}
     content.vb: Public ReadOnly Property MessageId_InnerJoin_EjMessage As TargetedInnerJoin(Of EjMessageTableInfo)
   overload: SuperOffice.CRM.Data.OutboxTableInfo.MessageId_InnerJoin_EjMessage*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.OutboxTableInfo.LeftOuterJoin_Sms_OutboxId
   commentId: P:SuperOffice.CRM.Data.OutboxTableInfo.LeftOuterJoin_Sms_OutboxId
   id: LeftOuterJoin_Sms_OutboxId
@@ -675,11 +785,13 @@ items:
   nameWithType: OutboxTableInfo.LeftOuterJoin_Sms_OutboxId
   fullName: SuperOffice.CRM.Data.OutboxTableInfo.LeftOuterJoin_Sms_OutboxId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Generated left outer join from the primary key OutboxId on this table, to Sms.<xref href="SuperOffice.CRM.Data.SmsTableInfo.OutboxId" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nGenerated left outer join from the primary key OutboxId on this table, to Sms.<xref href=\"SuperOffice.CRM.Data.SmsTableInfo.OutboxId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
     content: public TargetedLeftOuterJoin<SmsTableInfo> LeftOuterJoin_Sms_OutboxId { get; }
     parameters: []
@@ -687,68 +799,35 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.SmsTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_Sms_OutboxId As TargetedLeftOuterJoin(Of SmsTableInfo)
   overload: SuperOffice.CRM.Data.OutboxTableInfo.LeftOuterJoin_Sms_OutboxId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Data
   nameWithType: SuperOffice.CRM.Data
   fullName: SuperOffice.CRM.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.CRM.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.CRM.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.SQL.TableInfo
   commentId: T:SuperOffice.Data.SQL.TableInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html
   name: TableInfo
   nameWithType: TableInfo
   fullName: SuperOffice.Data.SQL.TableInfo
 - uid: System.ICloneable
-  commentId: T:System.ICloneable
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.icloneable
   name: ICloneable
   nameWithType: ICloneable
   fullName: System.ICloneable
@@ -756,185 +835,241 @@ references:
   commentId: M:SuperOffice.Data.SQL.TableInfo.ToString
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ToString
   name: ToString()
   nameWithType: TableInfo.ToString()
   fullName: SuperOffice.Data.SQL.TableInfo.ToString()
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.ToString
     name: ToString
+    nameWithType: TableInfo.ToString
+    fullName: SuperOffice.Data.SQL.TableInfo.ToString
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ToString
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.ToString
     name: ToString
+    nameWithType: TableInfo.ToString
+    fullName: SuperOffice.Data.SQL.TableInfo.ToString
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ToString
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
   commentId: M:SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_RegisterFields_SuperOffice_Data_SQL_FieldInfo___
-  name: RegisterFields(params FieldInfo[])
-  nameWithType: TableInfo.RegisterFields(params FieldInfo[])
-  fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields(params SuperOffice.Data.SQL.FieldInfo[])
-  nameWithType.vb: TableInfo.RegisterFields(ParamArray FieldInfo())
-  fullName.vb: SuperOffice.Data.SQL.TableInfo.RegisterFields(ParamArray SuperOffice.Data.SQL.FieldInfo())
-  name.vb: RegisterFields(ParamArray FieldInfo())
+  name: RegisterFields(FieldInfo[])
+  nameWithType: TableInfo.RegisterFields(FieldInfo[])
+  fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  nameWithType.vb: TableInfo.RegisterFields(FieldInfo())
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo())
+  name.vb: RegisterFields(FieldInfo())
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
     name: RegisterFields
+    nameWithType: TableInfo.RegisterFields
+    fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_RegisterFields_SuperOffice_Data_SQL_FieldInfo___
   - name: (
-  - name: params
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.FieldInfo
     name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
     isExternal: true
-    href: SuperOffice.Data.SQL.FieldInfo.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
     name: RegisterFields
+    nameWithType: TableInfo.RegisterFields
+    fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_RegisterFields_SuperOffice_Data_SQL_FieldInfo___
   - name: (
-  - name: ParamArray
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.FieldInfo
     name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
     isExternal: true
-    href: SuperOffice.Data.SQL.FieldInfo.html
-  - name: (
+  - name: ()
+    nameWithType: ()
+    fullName: ()
   - name: )
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
   commentId: M:SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FieldInfoFromSoField_SuperOffice_Data_Dictionary_SoField_
   name: FieldInfoFromSoField(SoField)
   nameWithType: TableInfo.FieldInfoFromSoField(SoField)
   fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
     name: FieldInfoFromSoField
+    nameWithType: TableInfo.FieldInfoFromSoField
+    fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FieldInfoFromSoField_SuperOffice_Data_Dictionary_SoField_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.Dictionary.SoField
     name: SoField
+    nameWithType: SoField
+    fullName: SuperOffice.Data.Dictionary.SoField
     isExternal: true
-    href: SuperOffice.Data.Dictionary.SoField.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
     name: FieldInfoFromSoField
+    nameWithType: TableInfo.FieldInfoFromSoField
+    fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FieldInfoFromSoField_SuperOffice_Data_Dictionary_SoField_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.Dictionary.SoField
     name: SoField
+    nameWithType: SoField
+    fullName: SuperOffice.Data.Dictionary.SoField
     isExternal: true
-    href: SuperOffice.Data.Dictionary.SoField.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.Clone
   commentId: M:SuperOffice.Data.SQL.TableInfo.Clone
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Clone
   name: Clone()
   nameWithType: TableInfo.Clone()
   fullName: SuperOffice.Data.SQL.TableInfo.Clone()
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.Clone
     name: Clone
+    nameWithType: TableInfo.Clone
+    fullName: SuperOffice.Data.SQL.TableInfo.Clone
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Clone
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.Clone
     name: Clone
+    nameWithType: TableInfo.Clone
+    fullName: SuperOffice.Data.SQL.TableInfo.Clone
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Clone
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
   commentId: M:SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsSameTable_SuperOffice_Data_SQL_TableInfo_
   name: IsSameTable(TableInfo)
   nameWithType: TableInfo.IsSameTable(TableInfo)
   fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
     name: IsSameTable
+    nameWithType: TableInfo.IsSameTable
+    fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsSameTable_SuperOffice_Data_SQL_TableInfo_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
     name: IsSameTable
+    nameWithType: TableInfo.IsSameTable
+    fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsSameTable_SuperOffice_Data_SQL_TableInfo_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
   commentId: M:SuperOffice.Data.SQL.TableInfo.FindField(System.String)
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FindField_System_String_
-  name: FindField(string)
-  nameWithType: TableInfo.FindField(string)
-  fullName: SuperOffice.Data.SQL.TableInfo.FindField(string)
-  nameWithType.vb: TableInfo.FindField(String)
-  fullName.vb: SuperOffice.Data.SQL.TableInfo.FindField(String)
-  name.vb: FindField(String)
+  name: FindField(String)
+  nameWithType: TableInfo.FindField(String)
+  fullName: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
     name: FindField
+    nameWithType: TableInfo.FindField
+    fullName: SuperOffice.Data.SQL.TableInfo.FindField
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FindField_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
     name: FindField
+    nameWithType: TableInfo.FindField
+    fullName: SuperOffice.Data.SQL.TableInfo.FindField
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FindField_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.ProtAll
   commentId: P:SuperOffice.Data.SQL.TableInfo.ProtAll
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ProtAll
   name: ProtAll
   nameWithType: TableInfo.ProtAll
   fullName: SuperOffice.Data.SQL.TableInfo.ProtAll
@@ -942,7 +1077,6 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.HashCheckFields
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_HashCheckFields
   name: HashCheckFields
   nameWithType: TableInfo.HashCheckFields
   fullName: SuperOffice.Data.SQL.TableInfo.HashCheckFields
@@ -950,7 +1084,6 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.TableName
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_TableName
   name: TableName
   nameWithType: TableInfo.TableName
   fullName: SuperOffice.Data.SQL.TableInfo.TableName
@@ -958,7 +1091,6 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.DbName
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_DbName
   name: DbName
   nameWithType: TableInfo.DbName
   fullName: SuperOffice.Data.SQL.TableInfo.DbName
@@ -966,7 +1098,6 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsDictionaryTable
   name: IsDictionaryTable
   nameWithType: TableInfo.IsDictionaryTable
   fullName: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
@@ -974,7 +1105,6 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.All
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_All
   name: All
   nameWithType: TableInfo.All
   fullName: SuperOffice.Data.SQL.TableInfo.All
@@ -982,389 +1112,136 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.Item(System.String)
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: this[string]
-  nameWithType: TableInfo.this[string]
-  fullName: SuperOffice.Data.SQL.TableInfo.this[string]
-  nameWithType.vb: TableInfo.this[](String)
-  fullName.vb: SuperOffice.Data.SQL.TableInfo.this[](String)
-  name.vb: this[](String)
+  name: Item[String]
+  nameWithType: TableInfo.Item[String]
+  fullName: SuperOffice.Data.SQL.TableInfo.Item[System.String]
+  nameWithType.vb: TableInfo.Item(String)
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  name.vb: Item(String)
   spec.csharp:
-  - name: this
-  - name: '['
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ']'
-  spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
-    name: this[]
+    name: Item
+    nameWithType: TableInfo.Item
+    fullName: SuperOffice.Data.SQL.TableInfo.Item
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Item_System_String_
-  - name: (
+  - name: '['
+    nameWithType: '['
+    fullName: '['
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ']'
+    nameWithType: ']'
+    fullName: ']'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+    name: Item
+    nameWithType: TableInfo.Item
+    fullName: SuperOffice.Data.SQL.TableInfo.Item
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
   commentId: P:SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_PrimaryKeyField
   name: PrimaryKeyField
   nameWithType: TableInfo.PrimaryKeyField
   fullName: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
 - uid: SuperOffice.CRM.Data.OutboxTableInfo.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<OutboxTableInfo, To>(OutboxTableInfo)
-  nameWithType: EnumUtil.MapEnums<OutboxTableInfo, To>(OutboxTableInfo)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.OutboxTableInfo, To>(SuperOffice.CRM.Data.OutboxTableInfo)
-  nameWithType.vb: EnumUtil.MapEnums(Of OutboxTableInfo, To)(OutboxTableInfo)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.OutboxTableInfo, To)(SuperOffice.CRM.Data.OutboxTableInfo)
-  name.vb: MapEnums(Of OutboxTableInfo, To)(OutboxTableInfo)
+  name: MapEnums<OutboxTableInfo, To>()
+  nameWithType: EnumUtil.MapEnums<OutboxTableInfo, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.OutboxTableInfo, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of OutboxTableInfo, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.OutboxTableInfo, To)()
+  name.vb: MapEnums(Of OutboxTableInfo, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Data.OutboxTableInfo)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<OutboxTableInfo, To>
+    nameWithType: EnumUtil.MapEnums<OutboxTableInfo, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.OutboxTableInfo, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Data.OutboxTableInfo
-    name: OutboxTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.OutboxTableInfo.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Data.OutboxTableInfo
-    name: OutboxTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.OutboxTableInfo.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Data.OutboxTableInfo)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of OutboxTableInfo, To)
+    nameWithType: EnumUtil.MapEnums(Of OutboxTableInfo, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.OutboxTableInfo, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Data.OutboxTableInfo
-    name: OutboxTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.OutboxTableInfo.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Data.OutboxTableInfo
-    name: OutboxTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.OutboxTableInfo.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Data.OutboxTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<OutboxTableInfo, To>(OutboxTableInfo)
-  nameWithType: Converters.MapEnums<OutboxTableInfo, To>(OutboxTableInfo)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.OutboxTableInfo, To>(SuperOffice.CRM.Data.OutboxTableInfo)
-  nameWithType.vb: Converters.MapEnums(Of OutboxTableInfo, To)(OutboxTableInfo)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.OutboxTableInfo, To)(SuperOffice.CRM.Data.OutboxTableInfo)
-  name.vb: MapEnums(Of OutboxTableInfo, To)(OutboxTableInfo)
+  name: MapEnums<OutboxTableInfo, To>()
+  nameWithType: Converters.MapEnums<OutboxTableInfo, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.OutboxTableInfo, To>()
+  nameWithType.vb: Converters.MapEnums(Of OutboxTableInfo, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.OutboxTableInfo, To)()
+  name.vb: MapEnums(Of OutboxTableInfo, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Data.OutboxTableInfo)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<OutboxTableInfo, To>
+    nameWithType: Converters.MapEnums<OutboxTableInfo, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.OutboxTableInfo, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Data.OutboxTableInfo
-    name: OutboxTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.OutboxTableInfo.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Data.OutboxTableInfo
-    name: OutboxTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.OutboxTableInfo.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Data.OutboxTableInfo)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of OutboxTableInfo, To)
+    nameWithType: Converters.MapEnums(Of OutboxTableInfo, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.OutboxTableInfo, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Data.OutboxTableInfo
-    name: OutboxTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.OutboxTableInfo.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Data.OutboxTableInfo
-    name: OutboxTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.OutboxTableInfo.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.Data.SQL
   commentId: N:SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.SQL
-    name: SQL
-    isExternal: true
-    href: SuperOffice.Data.SQL.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.SQL
-    name: SQL
-    isExternal: true
-    href: SuperOffice.Data.SQL.html
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -1373,45 +1250,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -1420,94 +1295,57 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.CRM.Data.OutboxTableInfo.DictionaryTableNumber*
   commentId: Overload:SuperOffice.CRM.Data.OutboxTableInfo.DictionaryTableNumber
   isExternal: true
-  href: SuperOffice.CRM.Data.OutboxTableInfo.html#SuperOffice_CRM_Data_OutboxTableInfo_DictionaryTableNumber
   name: DictionaryTableNumber
   nameWithType: OutboxTableInfo.DictionaryTableNumber
   fullName: SuperOffice.CRM.Data.OutboxTableInfo.DictionaryTableNumber
@@ -1515,17 +1353,12 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Data.OutboxTableInfo.RuntimeDefinition*
   commentId: Overload:SuperOffice.CRM.Data.OutboxTableInfo.RuntimeDefinition
   isExternal: true
-  href: SuperOffice.CRM.Data.OutboxTableInfo.html#SuperOffice_CRM_Data_OutboxTableInfo_RuntimeDefinition
   name: RuntimeDefinition
   nameWithType: OutboxTableInfo.RuntimeDefinition
   fullName: SuperOffice.CRM.Data.OutboxTableInfo.RuntimeDefinition
@@ -1533,66 +1366,31 @@ references:
   commentId: T:SuperOffice.Data.Dictionary.SoTable
   parent: SuperOffice.Data.Dictionary
   isExternal: true
-  href: SuperOffice.Data.Dictionary.SoTable.html
   name: SoTable
   nameWithType: SoTable
   fullName: SuperOffice.Data.Dictionary.SoTable
 - uid: SuperOffice.Data.Dictionary
   commentId: N:SuperOffice.Data.Dictionary
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data.Dictionary
   nameWithType: SuperOffice.Data.Dictionary
   fullName: SuperOffice.Data.Dictionary
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.Dictionary
-    name: Dictionary
-    isExternal: true
-    href: SuperOffice.Data.Dictionary.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.Dictionary
-    name: Dictionary
-    isExternal: true
-    href: SuperOffice.Data.Dictionary.html
 - uid: SuperOffice.Data.SQL.TableInfo.Definition
   commentId: P:SuperOffice.Data.SQL.TableInfo.Definition
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Definition
   name: Definition
   nameWithType: TableInfo.Definition
   fullName: SuperOffice.Data.SQL.TableInfo.Definition
 - uid: SuperOffice.CRM.Data.OutboxTableInfo.Definition*
   commentId: Overload:SuperOffice.CRM.Data.OutboxTableInfo.Definition
   isExternal: true
-  href: SuperOffice.CRM.Data.OutboxTableInfo.html#SuperOffice_CRM_Data_OutboxTableInfo_Definition
   name: Definition
   nameWithType: OutboxTableInfo.Definition
   fullName: SuperOffice.CRM.Data.OutboxTableInfo.Definition
 - uid: SuperOffice.CRM.Data.OutboxTableInfo.OutboxId*
   commentId: Overload:SuperOffice.CRM.Data.OutboxTableInfo.OutboxId
   isExternal: true
-  href: SuperOffice.CRM.Data.OutboxTableInfo.html#SuperOffice_CRM_Data_OutboxTableInfo_OutboxId
   name: OutboxId
   nameWithType: OutboxTableInfo.OutboxId
   fullName: SuperOffice.CRM.Data.OutboxTableInfo.OutboxId
@@ -1600,28 +1398,24 @@ references:
   commentId: T:SuperOffice.Data.SQL.Int32FieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.Int32FieldInfo.html
   name: Int32FieldInfo
   nameWithType: Int32FieldInfo
   fullName: SuperOffice.Data.SQL.Int32FieldInfo
 - uid: SuperOffice.CRM.Data.OutboxTableInfo.TicketId*
   commentId: Overload:SuperOffice.CRM.Data.OutboxTableInfo.TicketId
   isExternal: true
-  href: SuperOffice.CRM.Data.OutboxTableInfo.html#SuperOffice_CRM_Data_OutboxTableInfo_TicketId
   name: TicketId
   nameWithType: OutboxTableInfo.TicketId
   fullName: SuperOffice.CRM.Data.OutboxTableInfo.TicketId
 - uid: SuperOffice.CRM.Data.OutboxTableInfo.MessageId*
   commentId: Overload:SuperOffice.CRM.Data.OutboxTableInfo.MessageId
   isExternal: true
-  href: SuperOffice.CRM.Data.OutboxTableInfo.html#SuperOffice_CRM_Data_OutboxTableInfo_MessageId
   name: MessageId
   nameWithType: OutboxTableInfo.MessageId
   fullName: SuperOffice.CRM.Data.OutboxTableInfo.MessageId
 - uid: SuperOffice.CRM.Data.OutboxTableInfo.Subject*
   commentId: Overload:SuperOffice.CRM.Data.OutboxTableInfo.Subject
   isExternal: true
-  href: SuperOffice.CRM.Data.OutboxTableInfo.html#SuperOffice_CRM_Data_OutboxTableInfo_Subject
   name: Subject
   nameWithType: OutboxTableInfo.Subject
   fullName: SuperOffice.CRM.Data.OutboxTableInfo.Subject
@@ -1629,53 +1423,36 @@ references:
   commentId: T:SuperOffice.Data.SQL.StringFieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.StringFieldInfo.html
   name: StringFieldInfo
   nameWithType: StringFieldInfo
   fullName: SuperOffice.Data.SQL.StringFieldInfo
 - uid: SuperOffice.CRM.Data.OutboxTableInfo.FromEmail*
   commentId: Overload:SuperOffice.CRM.Data.OutboxTableInfo.FromEmail
   isExternal: true
-  href: SuperOffice.CRM.Data.OutboxTableInfo.html#SuperOffice_CRM_Data_OutboxTableInfo_FromEmail
   name: FromEmail
   nameWithType: OutboxTableInfo.FromEmail
   fullName: SuperOffice.CRM.Data.OutboxTableInfo.FromEmail
 - uid: SuperOffice.CRM.Data.OutboxTableInfo.FromEnvelope*
   commentId: Overload:SuperOffice.CRM.Data.OutboxTableInfo.FromEnvelope
   isExternal: true
-  href: SuperOffice.CRM.Data.OutboxTableInfo.html#SuperOffice_CRM_Data_OutboxTableInfo_FromEnvelope
   name: FromEnvelope
   nameWithType: OutboxTableInfo.FromEnvelope
   fullName: SuperOffice.CRM.Data.OutboxTableInfo.FromEnvelope
 - uid: SuperOffice.CRM.Data.OutboxTableInfo.Rcpt*
   commentId: Overload:SuperOffice.CRM.Data.OutboxTableInfo.Rcpt
   isExternal: true
-  href: SuperOffice.CRM.Data.OutboxTableInfo.html#SuperOffice_CRM_Data_OutboxTableInfo_Rcpt
   name: Rcpt
   nameWithType: OutboxTableInfo.Rcpt
   fullName: SuperOffice.CRM.Data.OutboxTableInfo.Rcpt
 - uid: SuperOffice.CRM.Data.OutboxTableInfo.MailSize*
   commentId: Overload:SuperOffice.CRM.Data.OutboxTableInfo.MailSize
   isExternal: true
-  href: SuperOffice.CRM.Data.OutboxTableInfo.html#SuperOffice_CRM_Data_OutboxTableInfo_MailSize
   name: MailSize
   nameWithType: OutboxTableInfo.MailSize
   fullName: SuperOffice.CRM.Data.OutboxTableInfo.MailSize
-- uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
 - uid: SuperOffice.CRM.Data.OutboxTableInfo.Created*
   commentId: Overload:SuperOffice.CRM.Data.OutboxTableInfo.Created
   isExternal: true
-  href: SuperOffice.CRM.Data.OutboxTableInfo.html#SuperOffice_CRM_Data_OutboxTableInfo_Created
   name: Created
   nameWithType: OutboxTableInfo.Created
   fullName: SuperOffice.CRM.Data.OutboxTableInfo.Created
@@ -1683,60 +1460,42 @@ references:
   commentId: T:SuperOffice.Data.SQL.DateTimeFieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.DateTimeFieldInfo.html
   name: DateTimeFieldInfo
   nameWithType: DateTimeFieldInfo
   fullName: SuperOffice.Data.SQL.DateTimeFieldInfo
 - uid: SuperOffice.CRM.Data.OutboxTableInfo.Status*
   commentId: Overload:SuperOffice.CRM.Data.OutboxTableInfo.Status
   isExternal: true
-  href: SuperOffice.CRM.Data.OutboxTableInfo.html#SuperOffice_CRM_Data_OutboxTableInfo_Status
   name: Status
   nameWithType: OutboxTableInfo.Status
   fullName: SuperOffice.CRM.Data.OutboxTableInfo.Status
 - uid: SuperOffice.CRM.Data.OutboxTableInfo.Retries*
   commentId: Overload:SuperOffice.CRM.Data.OutboxTableInfo.Retries
   isExternal: true
-  href: SuperOffice.CRM.Data.OutboxTableInfo.html#SuperOffice_CRM_Data_OutboxTableInfo_Retries
   name: Retries
   nameWithType: OutboxTableInfo.Retries
   fullName: SuperOffice.CRM.Data.OutboxTableInfo.Retries
 - uid: SuperOffice.CRM.Data.OutboxTableInfo.NextRetry*
   commentId: Overload:SuperOffice.CRM.Data.OutboxTableInfo.NextRetry
   isExternal: true
-  href: SuperOffice.CRM.Data.OutboxTableInfo.html#SuperOffice_CRM_Data_OutboxTableInfo_NextRetry
   name: NextRetry
   nameWithType: OutboxTableInfo.NextRetry
   fullName: SuperOffice.CRM.Data.OutboxTableInfo.NextRetry
 - uid: SuperOffice.CRM.Data.OutboxTableInfo.Pid*
   commentId: Overload:SuperOffice.CRM.Data.OutboxTableInfo.Pid
   isExternal: true
-  href: SuperOffice.CRM.Data.OutboxTableInfo.html#SuperOffice_CRM_Data_OutboxTableInfo_Pid
   name: Pid
   nameWithType: OutboxTableInfo.Pid
   fullName: SuperOffice.CRM.Data.OutboxTableInfo.Pid
 - uid: SuperOffice.CRM.Data.OutboxTableInfo.LastError*
   commentId: Overload:SuperOffice.CRM.Data.OutboxTableInfo.LastError
   isExternal: true
-  href: SuperOffice.CRM.Data.OutboxTableInfo.html#SuperOffice_CRM_Data_OutboxTableInfo_LastError
   name: LastError
   nameWithType: OutboxTableInfo.LastError
   fullName: SuperOffice.CRM.Data.OutboxTableInfo.LastError
-- uid: System.Int16
-  commentId: T:System.Int16
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int16
-  name: short
-  nameWithType: short
-  fullName: short
-  nameWithType.vb: Short
-  fullName.vb: Short
-  name.vb: Short
 - uid: SuperOffice.CRM.Data.OutboxTableInfo.Type*
   commentId: Overload:SuperOffice.CRM.Data.OutboxTableInfo.Type
   isExternal: true
-  href: SuperOffice.CRM.Data.OutboxTableInfo.html#SuperOffice_CRM_Data_OutboxTableInfo_Type
   name: Type
   nameWithType: OutboxTableInfo.Type
   fullName: SuperOffice.CRM.Data.OutboxTableInfo.Type
@@ -1744,29 +1503,18 @@ references:
   commentId: T:SuperOffice.Data.SQL.UInt16FieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.UInt16FieldInfo.html
   name: UInt16FieldInfo
   nameWithType: UInt16FieldInfo
   fullName: SuperOffice.Data.SQL.UInt16FieldInfo
 - uid: SuperOffice.CRM.Data.OutboxTableInfo.Rfc822Content*
   commentId: Overload:SuperOffice.CRM.Data.OutboxTableInfo.Rfc822Content
   isExternal: true
-  href: SuperOffice.CRM.Data.OutboxTableInfo.html#SuperOffice_CRM_Data_OutboxTableInfo_Rfc822Content
   name: Rfc822Content
   nameWithType: OutboxTableInfo.Rfc822Content
   fullName: SuperOffice.CRM.Data.OutboxTableInfo.Rfc822Content
-- uid: SuperOffice.CRM.Data.TicketTableInfo
-  commentId: T:SuperOffice.CRM.Data.TicketTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.TicketTableInfo.html
-  name: TicketTableInfo
-  nameWithType: TicketTableInfo
-  fullName: SuperOffice.CRM.Data.TicketTableInfo
 - uid: SuperOffice.CRM.Data.OutboxTableInfo.TicketId_InnerJoin_Ticket*
   commentId: Overload:SuperOffice.CRM.Data.OutboxTableInfo.TicketId_InnerJoin_Ticket
   isExternal: true
-  href: SuperOffice.CRM.Data.OutboxTableInfo.html#SuperOffice_CRM_Data_OutboxTableInfo_TicketId_InnerJoin_Ticket
   name: TicketId_InnerJoin_Ticket
   nameWithType: OutboxTableInfo.TicketId_InnerJoin_Ticket
   fullName: SuperOffice.CRM.Data.OutboxTableInfo.TicketId_InnerJoin_Ticket
@@ -1774,7 +1522,6 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.TicketTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
-  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   name: TargetedInnerJoin<TicketTableInfo>
   nameWithType: TargetedInnerJoin<TicketTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.TicketTableInfo>
@@ -1784,31 +1531,40 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Data.TicketTableInfo
     name: TicketTableInfo
+    nameWithType: TicketTableInfo
+    fullName: SuperOffice.CRM.Data.TicketTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.TicketTableInfo.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Data.TicketTableInfo
     name: TicketTableInfo
+    nameWithType: TicketTableInfo
+    fullName: SuperOffice.CRM.Data.TicketTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.TicketTableInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
   commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin`1
   isExternal: true
-  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   name: TargetedInnerJoin<TargetTableInfo>
   nameWithType: TargetedInnerJoin<TargetTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedInnerJoin<TargetTableInfo>
@@ -1818,33 +1574,36 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
   - name: )
-- uid: SuperOffice.CRM.Data.EjMessageTableInfo
-  commentId: T:SuperOffice.CRM.Data.EjMessageTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.EjMessageTableInfo.html
-  name: EjMessageTableInfo
-  nameWithType: EjMessageTableInfo
-  fullName: SuperOffice.CRM.Data.EjMessageTableInfo
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Data.OutboxTableInfo.MessageId_InnerJoin_EjMessage*
   commentId: Overload:SuperOffice.CRM.Data.OutboxTableInfo.MessageId_InnerJoin_EjMessage
   isExternal: true
-  href: SuperOffice.CRM.Data.OutboxTableInfo.html#SuperOffice_CRM_Data_OutboxTableInfo_MessageId_InnerJoin_EjMessage
   name: MessageId_InnerJoin_EjMessage
   nameWithType: OutboxTableInfo.MessageId_InnerJoin_EjMessage
   fullName: SuperOffice.CRM.Data.OutboxTableInfo.MessageId_InnerJoin_EjMessage
@@ -1852,7 +1611,6 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.EjMessageTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
-  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   name: TargetedInnerJoin<EjMessageTableInfo>
   nameWithType: TargetedInnerJoin<EjMessageTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.EjMessageTableInfo>
@@ -1862,38 +1620,40 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Data.EjMessageTableInfo
     name: EjMessageTableInfo
+    nameWithType: EjMessageTableInfo
+    fullName: SuperOffice.CRM.Data.EjMessageTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.EjMessageTableInfo.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Data.EjMessageTableInfo
     name: EjMessageTableInfo
+    nameWithType: EjMessageTableInfo
+    fullName: SuperOffice.CRM.Data.EjMessageTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.EjMessageTableInfo.html
   - name: )
-- uid: SuperOffice.CRM.Data.SmsTableInfo.OutboxId
-  commentId: P:SuperOffice.CRM.Data.SmsTableInfo.OutboxId
-  isExternal: true
-  href: SuperOffice.CRM.Data.SmsTableInfo.html#SuperOffice_CRM_Data_SmsTableInfo_OutboxId
-  name: OutboxId
-  nameWithType: SmsTableInfo.OutboxId
-  fullName: SuperOffice.CRM.Data.SmsTableInfo.OutboxId
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Data.OutboxTableInfo.LeftOuterJoin_Sms_OutboxId*
   commentId: Overload:SuperOffice.CRM.Data.OutboxTableInfo.LeftOuterJoin_Sms_OutboxId
   isExternal: true
-  href: SuperOffice.CRM.Data.OutboxTableInfo.html#SuperOffice_CRM_Data_OutboxTableInfo_LeftOuterJoin_Sms_OutboxId
   name: LeftOuterJoin_Sms_OutboxId
   nameWithType: OutboxTableInfo.LeftOuterJoin_Sms_OutboxId
   fullName: SuperOffice.CRM.Data.OutboxTableInfo.LeftOuterJoin_Sms_OutboxId
@@ -1901,7 +1661,6 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.SmsTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
-  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   name: TargetedLeftOuterJoin<SmsTableInfo>
   nameWithType: TargetedLeftOuterJoin<SmsTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.SmsTableInfo>
@@ -1911,31 +1670,40 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Data.SmsTableInfo
     name: SmsTableInfo
+    nameWithType: SmsTableInfo
+    fullName: SuperOffice.CRM.Data.SmsTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.SmsTableInfo.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Data.SmsTableInfo
     name: SmsTableInfo
+    nameWithType: SmsTableInfo
+    fullName: SuperOffice.CRM.Data.SmsTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.SmsTableInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
   commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
   isExternal: true
-  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   name: TargetedLeftOuterJoin<TargetTableInfo>
   nameWithType: TargetedLeftOuterJoin<TargetTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<TargetTableInfo>
@@ -1945,18 +1713,30 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
   - name: )
+    nameWithType: )
+    fullName: )

@@ -37,31 +37,21 @@ items:
   nameWithType: MarketingAgent
   fullName: SuperOffice.CRM.Services.MarketingAgent
   type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Facade for the Marketing Agent
-
-    Agent used for Marketing functions, such as Forms
+  summary: "\nFacade for the Marketing Agent\nAgent used for Marketing functions, such as Forms\n"
   example:
-  - >-
-    <pre><code class="lang-csharp">using SuperOffice;
-
-    using SuperOffice.CRM.Services;
-
-
-    using (SoSession mySession = SoSession.Authenticate("user", "pass"))
-
-    {
-       using (MarketingAgent agent = new MarketingAgent())
-       {
-          // call methods on agent here...
-       }
-    }</code></pre>
+  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (MarketingAgent agent = new MarketingAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
   syntax:
     content: 'public class MarketingAgent : AgentBase<IMarketingAgent>, IDisposable, IMarketingAgent, IAgent'
-    content.vb: Public Class MarketingAgent Inherits AgentBase(Of IMarketingAgent) Implements IDisposable, IMarketingAgent, IAgent
+    content.vb: >-
+      Public Class MarketingAgent
+          Inherits AgentBase(Of IMarketingAgent)
+          Implements IDisposable, IMarketingAgent, IAgent
   inheritance:
   - System.Object
   - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IMarketingAgent}
@@ -72,13 +62,12 @@ items:
   inheritedMembers:
   - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IMarketingAgent}.Dispose
   - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IMarketingAgent}.InnerAgent
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.MarketingAgent.CreateDefaultFormEntity
   commentId: M:SuperOffice.CRM.Services.MarketingAgent.CreateDefaultFormEntity
   id: CreateDefaultFormEntity
@@ -90,23 +79,26 @@ items:
   nameWithType: MarketingAgent.CreateDefaultFormEntity()
   fullName: SuperOffice.CRM.Services.MarketingAgent.CreateDefaultFormEntity()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new FormEntity.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-  example: []
+  summary: "\nLoading default values into a new FormEntity.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
   syntax:
     content: public FormEntity CreateDefaultFormEntity()
     return:
       type: SuperOffice.CRM.Services.FormEntity
       description: New FormEntity with default values
-    content.vb: Public Function CreateDefaultFormEntity() As FormEntity
+    content.vb: Public Function CreateDefaultFormEntity As FormEntity
   overload: SuperOffice.CRM.Services.MarketingAgent.CreateDefaultFormEntity*
   implements:
   - SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormEntity
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.MarketingAgent.SaveFormEntity(SuperOffice.CRM.Services.FormEntity)
   commentId: M:SuperOffice.CRM.Services.MarketingAgent.SaveFormEntity(SuperOffice.CRM.Services.FormEntity)
   id: SaveFormEntity(SuperOffice.CRM.Services.FormEntity)
@@ -118,11 +110,13 @@ items:
   nameWithType: MarketingAgent.SaveFormEntity(FormEntity)
   fullName: SuperOffice.CRM.Services.MarketingAgent.SaveFormEntity(SuperOffice.CRM.Services.FormEntity)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Updates the existing FormEntity or creates a new FormEntity if the id parameter is empty
-  example: []
+  summary: "\nUpdates the existing FormEntity or creates a new FormEntity if the id parameter is empty\n"
   syntax:
     content: public FormEntity SaveFormEntity(FormEntity formEntity)
     parameters:
@@ -136,6 +130,10 @@ items:
   overload: SuperOffice.CRM.Services.MarketingAgent.SaveFormEntity*
   implements:
   - SuperOffice.CRM.Services.IMarketingAgent.SaveFormEntity(SuperOffice.CRM.Services.FormEntity)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.MarketingAgent.DeleteFormEntity(System.Int32)
   commentId: M:SuperOffice.CRM.Services.MarketingAgent.DeleteFormEntity(System.Int32)
   id: DeleteFormEntity(System.Int32)
@@ -143,15 +141,17 @@ items:
   langs:
   - csharp
   - vb
-  name: DeleteFormEntity(int)
-  nameWithType: MarketingAgent.DeleteFormEntity(int)
-  fullName: SuperOffice.CRM.Services.MarketingAgent.DeleteFormEntity(int)
+  name: DeleteFormEntity(Int32)
+  nameWithType: MarketingAgent.DeleteFormEntity(Int32)
+  fullName: SuperOffice.CRM.Services.MarketingAgent.DeleteFormEntity(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Deletes the FormEntity
-  example: []
+  summary: "\nDeletes the FormEntity\n"
   syntax:
     content: public void DeleteFormEntity(int formEntityId)
     parameters:
@@ -162,9 +162,10 @@ items:
   overload: SuperOffice.CRM.Services.MarketingAgent.DeleteFormEntity*
   implements:
   - SuperOffice.CRM.Services.IMarketingAgent.DeleteFormEntity(System.Int32)
-  nameWithType.vb: MarketingAgent.DeleteFormEntity(Integer)
-  fullName.vb: SuperOffice.CRM.Services.MarketingAgent.DeleteFormEntity(Integer)
-  name.vb: DeleteFormEntity(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.MarketingAgent.CreateDefaultFormSubmissionEntity
   commentId: M:SuperOffice.CRM.Services.MarketingAgent.CreateDefaultFormSubmissionEntity
   id: CreateDefaultFormSubmissionEntity
@@ -176,23 +177,26 @@ items:
   nameWithType: MarketingAgent.CreateDefaultFormSubmissionEntity()
   fullName: SuperOffice.CRM.Services.MarketingAgent.CreateDefaultFormSubmissionEntity()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new FormSubmissionEntity.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-  example: []
+  summary: "\nLoading default values into a new FormSubmissionEntity.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
   syntax:
     content: public FormSubmissionEntity CreateDefaultFormSubmissionEntity()
     return:
       type: SuperOffice.CRM.Services.FormSubmissionEntity
       description: New FormSubmissionEntity with default values
-    content.vb: Public Function CreateDefaultFormSubmissionEntity() As FormSubmissionEntity
+    content.vb: Public Function CreateDefaultFormSubmissionEntity As FormSubmissionEntity
   overload: SuperOffice.CRM.Services.MarketingAgent.CreateDefaultFormSubmissionEntity*
   implements:
   - SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormSubmissionEntity
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.MarketingAgent.SaveFormSubmissionEntity(SuperOffice.CRM.Services.FormSubmissionEntity)
   commentId: M:SuperOffice.CRM.Services.MarketingAgent.SaveFormSubmissionEntity(SuperOffice.CRM.Services.FormSubmissionEntity)
   id: SaveFormSubmissionEntity(SuperOffice.CRM.Services.FormSubmissionEntity)
@@ -204,11 +208,13 @@ items:
   nameWithType: MarketingAgent.SaveFormSubmissionEntity(FormSubmissionEntity)
   fullName: SuperOffice.CRM.Services.MarketingAgent.SaveFormSubmissionEntity(SuperOffice.CRM.Services.FormSubmissionEntity)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Updates the existing FormSubmissionEntity or creates a new FormSubmissionEntity if the id parameter is empty
-  example: []
+  summary: "\nUpdates the existing FormSubmissionEntity or creates a new FormSubmissionEntity if the id parameter is empty\n"
   syntax:
     content: public FormSubmissionEntity SaveFormSubmissionEntity(FormSubmissionEntity formSubmissionEntity)
     parameters:
@@ -222,6 +228,10 @@ items:
   overload: SuperOffice.CRM.Services.MarketingAgent.SaveFormSubmissionEntity*
   implements:
   - SuperOffice.CRM.Services.IMarketingAgent.SaveFormSubmissionEntity(SuperOffice.CRM.Services.FormSubmissionEntity)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.MarketingAgent.DeleteFormSubmissionEntity(System.Int32)
   commentId: M:SuperOffice.CRM.Services.MarketingAgent.DeleteFormSubmissionEntity(System.Int32)
   id: DeleteFormSubmissionEntity(System.Int32)
@@ -229,15 +239,17 @@ items:
   langs:
   - csharp
   - vb
-  name: DeleteFormSubmissionEntity(int)
-  nameWithType: MarketingAgent.DeleteFormSubmissionEntity(int)
-  fullName: SuperOffice.CRM.Services.MarketingAgent.DeleteFormSubmissionEntity(int)
+  name: DeleteFormSubmissionEntity(Int32)
+  nameWithType: MarketingAgent.DeleteFormSubmissionEntity(Int32)
+  fullName: SuperOffice.CRM.Services.MarketingAgent.DeleteFormSubmissionEntity(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Deletes the FormSubmissionEntity
-  example: []
+  summary: "\nDeletes the FormSubmissionEntity\n"
   syntax:
     content: public void DeleteFormSubmissionEntity(int formSubmissionEntityId)
     parameters:
@@ -248,9 +260,10 @@ items:
   overload: SuperOffice.CRM.Services.MarketingAgent.DeleteFormSubmissionEntity*
   implements:
   - SuperOffice.CRM.Services.IMarketingAgent.DeleteFormSubmissionEntity(System.Int32)
-  nameWithType.vb: MarketingAgent.DeleteFormSubmissionEntity(Integer)
-  fullName.vb: SuperOffice.CRM.Services.MarketingAgent.DeleteFormSubmissionEntity(Integer)
-  name.vb: DeleteFormSubmissionEntity(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.MarketingAgent.CreateDefaultShipmentMessageBlockEntity
   commentId: M:SuperOffice.CRM.Services.MarketingAgent.CreateDefaultShipmentMessageBlockEntity
   id: CreateDefaultShipmentMessageBlockEntity
@@ -262,23 +275,26 @@ items:
   nameWithType: MarketingAgent.CreateDefaultShipmentMessageBlockEntity()
   fullName: SuperOffice.CRM.Services.MarketingAgent.CreateDefaultShipmentMessageBlockEntity()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new ShipmentMessageBlockEntity.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-  example: []
+  summary: "\nLoading default values into a new ShipmentMessageBlockEntity.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
   syntax:
     content: public ShipmentMessageBlockEntity CreateDefaultShipmentMessageBlockEntity()
     return:
       type: SuperOffice.CRM.Services.ShipmentMessageBlockEntity
       description: New ShipmentMessageBlockEntity with default values
-    content.vb: Public Function CreateDefaultShipmentMessageBlockEntity() As ShipmentMessageBlockEntity
+    content.vb: Public Function CreateDefaultShipmentMessageBlockEntity As ShipmentMessageBlockEntity
   overload: SuperOffice.CRM.Services.MarketingAgent.CreateDefaultShipmentMessageBlockEntity*
   implements:
   - SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageBlockEntity
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.MarketingAgent.SaveShipmentMessageBlockEntity(SuperOffice.CRM.Services.ShipmentMessageBlockEntity)
   commentId: M:SuperOffice.CRM.Services.MarketingAgent.SaveShipmentMessageBlockEntity(SuperOffice.CRM.Services.ShipmentMessageBlockEntity)
   id: SaveShipmentMessageBlockEntity(SuperOffice.CRM.Services.ShipmentMessageBlockEntity)
@@ -290,11 +306,13 @@ items:
   nameWithType: MarketingAgent.SaveShipmentMessageBlockEntity(ShipmentMessageBlockEntity)
   fullName: SuperOffice.CRM.Services.MarketingAgent.SaveShipmentMessageBlockEntity(SuperOffice.CRM.Services.ShipmentMessageBlockEntity)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Updates the existing ShipmentMessageBlockEntity or creates a new ShipmentMessageBlockEntity if the id parameter is empty
-  example: []
+  summary: "\nUpdates the existing ShipmentMessageBlockEntity or creates a new ShipmentMessageBlockEntity if the id parameter is empty\n"
   syntax:
     content: public ShipmentMessageBlockEntity SaveShipmentMessageBlockEntity(ShipmentMessageBlockEntity shipmentMessageBlockEntity)
     parameters:
@@ -308,6 +326,10 @@ items:
   overload: SuperOffice.CRM.Services.MarketingAgent.SaveShipmentMessageBlockEntity*
   implements:
   - SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageBlockEntity(SuperOffice.CRM.Services.ShipmentMessageBlockEntity)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.MarketingAgent.DeleteShipmentMessageBlockEntity(System.Int32)
   commentId: M:SuperOffice.CRM.Services.MarketingAgent.DeleteShipmentMessageBlockEntity(System.Int32)
   id: DeleteShipmentMessageBlockEntity(System.Int32)
@@ -315,15 +337,17 @@ items:
   langs:
   - csharp
   - vb
-  name: DeleteShipmentMessageBlockEntity(int)
-  nameWithType: MarketingAgent.DeleteShipmentMessageBlockEntity(int)
-  fullName: SuperOffice.CRM.Services.MarketingAgent.DeleteShipmentMessageBlockEntity(int)
+  name: DeleteShipmentMessageBlockEntity(Int32)
+  nameWithType: MarketingAgent.DeleteShipmentMessageBlockEntity(Int32)
+  fullName: SuperOffice.CRM.Services.MarketingAgent.DeleteShipmentMessageBlockEntity(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Deletes the ShipmentMessageBlockEntity
-  example: []
+  summary: "\nDeletes the ShipmentMessageBlockEntity\n"
   syntax:
     content: public void DeleteShipmentMessageBlockEntity(int shipmentMessageBlockEntityId)
     parameters:
@@ -334,9 +358,10 @@ items:
   overload: SuperOffice.CRM.Services.MarketingAgent.DeleteShipmentMessageBlockEntity*
   implements:
   - SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageBlockEntity(System.Int32)
-  nameWithType.vb: MarketingAgent.DeleteShipmentMessageBlockEntity(Integer)
-  fullName.vb: SuperOffice.CRM.Services.MarketingAgent.DeleteShipmentMessageBlockEntity(Integer)
-  name.vb: DeleteShipmentMessageBlockEntity(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.MarketingAgent.CreateDefaultShipmentMessageEntity
   commentId: M:SuperOffice.CRM.Services.MarketingAgent.CreateDefaultShipmentMessageEntity
   id: CreateDefaultShipmentMessageEntity
@@ -348,23 +373,26 @@ items:
   nameWithType: MarketingAgent.CreateDefaultShipmentMessageEntity()
   fullName: SuperOffice.CRM.Services.MarketingAgent.CreateDefaultShipmentMessageEntity()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new ShipmentMessageEntity.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-  example: []
+  summary: "\nLoading default values into a new ShipmentMessageEntity.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
   syntax:
     content: public ShipmentMessageEntity CreateDefaultShipmentMessageEntity()
     return:
       type: SuperOffice.CRM.Services.ShipmentMessageEntity
       description: New ShipmentMessageEntity with default values
-    content.vb: Public Function CreateDefaultShipmentMessageEntity() As ShipmentMessageEntity
+    content.vb: Public Function CreateDefaultShipmentMessageEntity As ShipmentMessageEntity
   overload: SuperOffice.CRM.Services.MarketingAgent.CreateDefaultShipmentMessageEntity*
   implements:
   - SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageEntity
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.MarketingAgent.SaveShipmentMessageEntity(SuperOffice.CRM.Services.ShipmentMessageEntity)
   commentId: M:SuperOffice.CRM.Services.MarketingAgent.SaveShipmentMessageEntity(SuperOffice.CRM.Services.ShipmentMessageEntity)
   id: SaveShipmentMessageEntity(SuperOffice.CRM.Services.ShipmentMessageEntity)
@@ -376,11 +404,13 @@ items:
   nameWithType: MarketingAgent.SaveShipmentMessageEntity(ShipmentMessageEntity)
   fullName: SuperOffice.CRM.Services.MarketingAgent.SaveShipmentMessageEntity(SuperOffice.CRM.Services.ShipmentMessageEntity)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Updates the existing ShipmentMessageEntity or creates a new ShipmentMessageEntity if the id parameter is empty
-  example: []
+  summary: "\nUpdates the existing ShipmentMessageEntity or creates a new ShipmentMessageEntity if the id parameter is empty\n"
   syntax:
     content: public ShipmentMessageEntity SaveShipmentMessageEntity(ShipmentMessageEntity shipmentMessageEntity)
     parameters:
@@ -394,6 +424,10 @@ items:
   overload: SuperOffice.CRM.Services.MarketingAgent.SaveShipmentMessageEntity*
   implements:
   - SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageEntity(SuperOffice.CRM.Services.ShipmentMessageEntity)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.MarketingAgent.DeleteShipmentMessageEntity(System.Int32)
   commentId: M:SuperOffice.CRM.Services.MarketingAgent.DeleteShipmentMessageEntity(System.Int32)
   id: DeleteShipmentMessageEntity(System.Int32)
@@ -401,15 +435,17 @@ items:
   langs:
   - csharp
   - vb
-  name: DeleteShipmentMessageEntity(int)
-  nameWithType: MarketingAgent.DeleteShipmentMessageEntity(int)
-  fullName: SuperOffice.CRM.Services.MarketingAgent.DeleteShipmentMessageEntity(int)
+  name: DeleteShipmentMessageEntity(Int32)
+  nameWithType: MarketingAgent.DeleteShipmentMessageEntity(Int32)
+  fullName: SuperOffice.CRM.Services.MarketingAgent.DeleteShipmentMessageEntity(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Deletes the ShipmentMessageEntity
-  example: []
+  summary: "\nDeletes the ShipmentMessageEntity\n"
   syntax:
     content: public void DeleteShipmentMessageEntity(int shipmentMessageEntityId)
     parameters:
@@ -420,9 +456,10 @@ items:
   overload: SuperOffice.CRM.Services.MarketingAgent.DeleteShipmentMessageEntity*
   implements:
   - SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageEntity(System.Int32)
-  nameWithType.vb: MarketingAgent.DeleteShipmentMessageEntity(Integer)
-  fullName.vb: SuperOffice.CRM.Services.MarketingAgent.DeleteShipmentMessageEntity(Integer)
-  name.vb: DeleteShipmentMessageEntity(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.MarketingAgent.GetFormEntity(System.Int32)
   commentId: M:SuperOffice.CRM.Services.MarketingAgent.GetFormEntity(System.Int32)
   id: GetFormEntity(System.Int32)
@@ -430,15 +467,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetFormEntity(int)
-  nameWithType: MarketingAgent.GetFormEntity(int)
-  fullName: SuperOffice.CRM.Services.MarketingAgent.GetFormEntity(int)
+  name: GetFormEntity(Int32)
+  nameWithType: MarketingAgent.GetFormEntity(Int32)
+  fullName: SuperOffice.CRM.Services.MarketingAgent.GetFormEntity(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Gets a FormEntity object.
-  example: []
+  summary: "\nGets a FormEntity object.                        \n"
   syntax:
     content: public FormEntity GetFormEntity(int formEntityId)
     parameters:
@@ -452,9 +491,10 @@ items:
   overload: SuperOffice.CRM.Services.MarketingAgent.GetFormEntity*
   implements:
   - SuperOffice.CRM.Services.IMarketingAgent.GetFormEntity(System.Int32)
-  nameWithType.vb: MarketingAgent.GetFormEntity(Integer)
-  fullName.vb: SuperOffice.CRM.Services.MarketingAgent.GetFormEntity(Integer)
-  name.vb: GetFormEntity(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.MarketingAgent.VerifyGoogleRecaptcha(System.String,System.String)
   commentId: M:SuperOffice.CRM.Services.MarketingAgent.VerifyGoogleRecaptcha(System.String,System.String)
   id: VerifyGoogleRecaptcha(System.String,System.String)
@@ -462,15 +502,17 @@ items:
   langs:
   - csharp
   - vb
-  name: VerifyGoogleRecaptcha(string, string)
-  nameWithType: MarketingAgent.VerifyGoogleRecaptcha(string, string)
-  fullName: SuperOffice.CRM.Services.MarketingAgent.VerifyGoogleRecaptcha(string, string)
+  name: VerifyGoogleRecaptcha(String, String)
+  nameWithType: MarketingAgent.VerifyGoogleRecaptcha(String, String)
+  fullName: SuperOffice.CRM.Services.MarketingAgent.VerifyGoogleRecaptcha(System.String, System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: This method will try to verify a Google recaptcha token. The token is gained from the recaptcha frontend component
-  example: []
+  summary: "\nThis method will try to verify a Google recaptcha token. The token is gained from the recaptcha frontend component\n"
   syntax:
     content: public bool VerifyGoogleRecaptcha(string token, string optionalSecretKey)
     parameters:
@@ -487,9 +529,10 @@ items:
   overload: SuperOffice.CRM.Services.MarketingAgent.VerifyGoogleRecaptcha*
   implements:
   - SuperOffice.CRM.Services.IMarketingAgent.VerifyGoogleRecaptcha(System.String,System.String)
-  nameWithType.vb: MarketingAgent.VerifyGoogleRecaptcha(String, String)
-  fullName.vb: SuperOffice.CRM.Services.MarketingAgent.VerifyGoogleRecaptcha(String, String)
-  name.vb: VerifyGoogleRecaptcha(String, String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.MarketingAgent.GetFormSubmissionEntity(System.Int32)
   commentId: M:SuperOffice.CRM.Services.MarketingAgent.GetFormSubmissionEntity(System.Int32)
   id: GetFormSubmissionEntity(System.Int32)
@@ -497,15 +540,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetFormSubmissionEntity(int)
-  nameWithType: MarketingAgent.GetFormSubmissionEntity(int)
-  fullName: SuperOffice.CRM.Services.MarketingAgent.GetFormSubmissionEntity(int)
+  name: GetFormSubmissionEntity(Int32)
+  nameWithType: MarketingAgent.GetFormSubmissionEntity(Int32)
+  fullName: SuperOffice.CRM.Services.MarketingAgent.GetFormSubmissionEntity(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Gets a FormSubmissionEntity object.
-  example: []
+  summary: "\nGets a FormSubmissionEntity object.                        \n"
   syntax:
     content: public FormSubmissionEntity GetFormSubmissionEntity(int formSubmissionEntityId)
     parameters:
@@ -519,9 +564,10 @@ items:
   overload: SuperOffice.CRM.Services.MarketingAgent.GetFormSubmissionEntity*
   implements:
   - SuperOffice.CRM.Services.IMarketingAgent.GetFormSubmissionEntity(System.Int32)
-  nameWithType.vb: MarketingAgent.GetFormSubmissionEntity(Integer)
-  fullName.vb: SuperOffice.CRM.Services.MarketingAgent.GetFormSubmissionEntity(Integer)
-  name.vb: GetFormSubmissionEntity(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.MarketingAgent.CalculateMailingStatistics(System.Int32)
   commentId: M:SuperOffice.CRM.Services.MarketingAgent.CalculateMailingStatistics(System.Int32)
   id: CalculateMailingStatistics(System.Int32)
@@ -529,15 +575,17 @@ items:
   langs:
   - csharp
   - vb
-  name: CalculateMailingStatistics(int)
-  nameWithType: MarketingAgent.CalculateMailingStatistics(int)
-  fullName: SuperOffice.CRM.Services.MarketingAgent.CalculateMailingStatistics(int)
+  name: CalculateMailingStatistics(Int32)
+  nameWithType: MarketingAgent.CalculateMailingStatistics(Int32)
+  fullName: SuperOffice.CRM.Services.MarketingAgent.CalculateMailingStatistics(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Calculate open and click rates for one or more mailings
-  example: []
+  summary: "\nCalculate open and click rates for one or more mailings\n"
   syntax:
     content: public int CalculateMailingStatistics(int shipmentId)
     parameters:
@@ -551,9 +599,10 @@ items:
   overload: SuperOffice.CRM.Services.MarketingAgent.CalculateMailingStatistics*
   implements:
   - SuperOffice.CRM.Services.IMarketingAgent.CalculateMailingStatistics(System.Int32)
-  nameWithType.vb: MarketingAgent.CalculateMailingStatistics(Integer)
-  fullName.vb: SuperOffice.CRM.Services.MarketingAgent.CalculateMailingStatistics(Integer)
-  name.vb: CalculateMailingStatistics(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.MarketingAgent.GetFormSubmissionsCount(System.Int32,SuperOffice.Data.FormSubmissionStatus)
   commentId: M:SuperOffice.CRM.Services.MarketingAgent.GetFormSubmissionsCount(System.Int32,SuperOffice.Data.FormSubmissionStatus)
   id: GetFormSubmissionsCount(System.Int32,SuperOffice.Data.FormSubmissionStatus)
@@ -561,15 +610,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetFormSubmissionsCount(int, FormSubmissionStatus)
-  nameWithType: MarketingAgent.GetFormSubmissionsCount(int, FormSubmissionStatus)
-  fullName: SuperOffice.CRM.Services.MarketingAgent.GetFormSubmissionsCount(int, SuperOffice.Data.FormSubmissionStatus)
+  name: GetFormSubmissionsCount(Int32, FormSubmissionStatus)
+  nameWithType: MarketingAgent.GetFormSubmissionsCount(Int32, FormSubmissionStatus)
+  fullName: SuperOffice.CRM.Services.MarketingAgent.GetFormSubmissionsCount(System.Int32, SuperOffice.Data.FormSubmissionStatus)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Get counnt of submissions for given form and status. Count for all forms is returned if negative formId is given
-  example: []
+  summary: "\nGet counnt of submissions for given form and status. Count for all forms is returned if negative formId is given\n"
   syntax:
     content: public int GetFormSubmissionsCount(int formId, FormSubmissionStatus status)
     parameters:
@@ -586,9 +637,10 @@ items:
   overload: SuperOffice.CRM.Services.MarketingAgent.GetFormSubmissionsCount*
   implements:
   - SuperOffice.CRM.Services.IMarketingAgent.GetFormSubmissionsCount(System.Int32,SuperOffice.Data.FormSubmissionStatus)
-  nameWithType.vb: MarketingAgent.GetFormSubmissionsCount(Integer, FormSubmissionStatus)
-  fullName.vb: SuperOffice.CRM.Services.MarketingAgent.GetFormSubmissionsCount(Integer, SuperOffice.Data.FormSubmissionStatus)
-  name.vb: GetFormSubmissionsCount(Integer, FormSubmissionStatus)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.MarketingAgent.GetPreviewMailing(System.Int32)
   commentId: M:SuperOffice.CRM.Services.MarketingAgent.GetPreviewMailing(System.Int32)
   id: GetPreviewMailing(System.Int32)
@@ -596,15 +648,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetPreviewMailing(int)
-  nameWithType: MarketingAgent.GetPreviewMailing(int)
-  fullName: SuperOffice.CRM.Services.MarketingAgent.GetPreviewMailing(int)
+  name: GetPreviewMailing(Int32)
+  nameWithType: MarketingAgent.GetPreviewMailing(Int32)
+  fullName: SuperOffice.CRM.Services.MarketingAgent.GetPreviewMailing(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Get a shipment message from its shipment address id
-  example: []
+  summary: "\nGet a shipment message from its shipment address id\n"
   syntax:
     content: public PreviewMailing GetPreviewMailing(int shipmentAddrId)
     parameters:
@@ -618,9 +672,10 @@ items:
   overload: SuperOffice.CRM.Services.MarketingAgent.GetPreviewMailing*
   implements:
   - SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailing(System.Int32)
-  nameWithType.vb: MarketingAgent.GetPreviewMailing(Integer)
-  fullName.vb: SuperOffice.CRM.Services.MarketingAgent.GetPreviewMailing(Integer)
-  name.vb: GetPreviewMailing(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.MarketingAgent.GetPreviewMailingHeader(System.Int32)
   commentId: M:SuperOffice.CRM.Services.MarketingAgent.GetPreviewMailingHeader(System.Int32)
   id: GetPreviewMailingHeader(System.Int32)
@@ -628,15 +683,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetPreviewMailingHeader(int)
-  nameWithType: MarketingAgent.GetPreviewMailingHeader(int)
-  fullName: SuperOffice.CRM.Services.MarketingAgent.GetPreviewMailingHeader(int)
+  name: GetPreviewMailingHeader(Int32)
+  nameWithType: MarketingAgent.GetPreviewMailingHeader(Int32)
+  fullName: SuperOffice.CRM.Services.MarketingAgent.GetPreviewMailingHeader(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Get a shipment from its shipment id
-  example: []
+  summary: "\nGet a shipment from its shipment id\n"
   syntax:
     content: public PreviewMailingHeader GetPreviewMailingHeader(int shipmentId)
     parameters:
@@ -650,9 +707,10 @@ items:
   overload: SuperOffice.CRM.Services.MarketingAgent.GetPreviewMailingHeader*
   implements:
   - SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailingHeader(System.Int32)
-  nameWithType.vb: MarketingAgent.GetPreviewMailingHeader(Integer)
-  fullName.vb: SuperOffice.CRM.Services.MarketingAgent.GetPreviewMailingHeader(Integer)
-  name.vb: GetPreviewMailingHeader(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.MarketingAgent.GetShipmentMessageBlockEntity(System.Int32)
   commentId: M:SuperOffice.CRM.Services.MarketingAgent.GetShipmentMessageBlockEntity(System.Int32)
   id: GetShipmentMessageBlockEntity(System.Int32)
@@ -660,15 +718,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetShipmentMessageBlockEntity(int)
-  nameWithType: MarketingAgent.GetShipmentMessageBlockEntity(int)
-  fullName: SuperOffice.CRM.Services.MarketingAgent.GetShipmentMessageBlockEntity(int)
+  name: GetShipmentMessageBlockEntity(Int32)
+  nameWithType: MarketingAgent.GetShipmentMessageBlockEntity(Int32)
+  fullName: SuperOffice.CRM.Services.MarketingAgent.GetShipmentMessageBlockEntity(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Gets a ShipmentMessageBlockEntity object.
-  example: []
+  summary: "\nGets a ShipmentMessageBlockEntity object.                        \n"
   syntax:
     content: public ShipmentMessageBlockEntity GetShipmentMessageBlockEntity(int shipmentMessageBlockEntityId)
     parameters:
@@ -682,9 +742,10 @@ items:
   overload: SuperOffice.CRM.Services.MarketingAgent.GetShipmentMessageBlockEntity*
   implements:
   - SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageBlockEntity(System.Int32)
-  nameWithType.vb: MarketingAgent.GetShipmentMessageBlockEntity(Integer)
-  fullName.vb: SuperOffice.CRM.Services.MarketingAgent.GetShipmentMessageBlockEntity(Integer)
-  name.vb: GetShipmentMessageBlockEntity(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.MarketingAgent.GetUserBlocks(System.Int32)
   commentId: M:SuperOffice.CRM.Services.MarketingAgent.GetUserBlocks(System.Int32)
   id: GetUserBlocks(System.Int32)
@@ -692,15 +753,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetUserBlocks(int)
-  nameWithType: MarketingAgent.GetUserBlocks(int)
-  fullName: SuperOffice.CRM.Services.MarketingAgent.GetUserBlocks(int)
+  name: GetUserBlocks(Int32)
+  nameWithType: MarketingAgent.GetUserBlocks(Int32)
+  fullName: SuperOffice.CRM.Services.MarketingAgent.GetUserBlocks(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Get the saved user blocks to be used in a shipment/mailing message
-  example: []
+  summary: "\nGet the saved user blocks to be used in a shipment/mailing message\n"
   syntax:
     content: public ShipmentMessageBlockEntity[] GetUserBlocks(int associateId)
     parameters:
@@ -714,9 +777,10 @@ items:
   overload: SuperOffice.CRM.Services.MarketingAgent.GetUserBlocks*
   implements:
   - SuperOffice.CRM.Services.IMarketingAgent.GetUserBlocks(System.Int32)
-  nameWithType.vb: MarketingAgent.GetUserBlocks(Integer)
-  fullName.vb: SuperOffice.CRM.Services.MarketingAgent.GetUserBlocks(Integer)
-  name.vb: GetUserBlocks(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.MarketingAgent.GetShipmentMessageEntity(System.Int32)
   commentId: M:SuperOffice.CRM.Services.MarketingAgent.GetShipmentMessageEntity(System.Int32)
   id: GetShipmentMessageEntity(System.Int32)
@@ -724,15 +788,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetShipmentMessageEntity(int)
-  nameWithType: MarketingAgent.GetShipmentMessageEntity(int)
-  fullName: SuperOffice.CRM.Services.MarketingAgent.GetShipmentMessageEntity(int)
+  name: GetShipmentMessageEntity(Int32)
+  nameWithType: MarketingAgent.GetShipmentMessageEntity(Int32)
+  fullName: SuperOffice.CRM.Services.MarketingAgent.GetShipmentMessageEntity(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Gets a ShipmentMessageEntity object.
-  example: []
+  summary: "\nGets a ShipmentMessageEntity object.                        \n"
   syntax:
     content: public ShipmentMessageEntity GetShipmentMessageEntity(int shipmentMessageEntityId)
     parameters:
@@ -746,9 +812,10 @@ items:
   overload: SuperOffice.CRM.Services.MarketingAgent.GetShipmentMessageEntity*
   implements:
   - SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageEntity(System.Int32)
-  nameWithType.vb: MarketingAgent.GetShipmentMessageEntity(Integer)
-  fullName.vb: SuperOffice.CRM.Services.MarketingAgent.GetShipmentMessageEntity(Integer)
-  name.vb: GetShipmentMessageEntity(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.MarketingAgent.RenameMailingByMessageId(System.Int32,System.String)
   commentId: M:SuperOffice.CRM.Services.MarketingAgent.RenameMailingByMessageId(System.Int32,System.String)
   id: RenameMailingByMessageId(System.Int32,System.String)
@@ -756,15 +823,17 @@ items:
   langs:
   - csharp
   - vb
-  name: RenameMailingByMessageId(int, string)
-  nameWithType: MarketingAgent.RenameMailingByMessageId(int, string)
-  fullName: SuperOffice.CRM.Services.MarketingAgent.RenameMailingByMessageId(int, string)
+  name: RenameMailingByMessageId(Int32, String)
+  nameWithType: MarketingAgent.RenameMailingByMessageId(Int32, String)
+  fullName: SuperOffice.CRM.Services.MarketingAgent.RenameMailingByMessageId(System.Int32, System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Change the mailing name (shipment description) that the given message (MessageId) belongs to
-  example: []
+  summary: "\nChange the mailing name (shipment description) that the given message (MessageId) belongs to\n"
   syntax:
     content: public void RenameMailingByMessageId(int messageId, string name)
     parameters:
@@ -778,9 +847,10 @@ items:
   overload: SuperOffice.CRM.Services.MarketingAgent.RenameMailingByMessageId*
   implements:
   - SuperOffice.CRM.Services.IMarketingAgent.RenameMailingByMessageId(System.Int32,System.String)
-  nameWithType.vb: MarketingAgent.RenameMailingByMessageId(Integer, String)
-  fullName.vb: SuperOffice.CRM.Services.MarketingAgent.RenameMailingByMessageId(Integer, String)
-  name.vb: RenameMailingByMessageId(Integer, String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.MarketingAgent.DeleteMessageAndShipment(System.Int32)
   commentId: M:SuperOffice.CRM.Services.MarketingAgent.DeleteMessageAndShipment(System.Int32)
   id: DeleteMessageAndShipment(System.Int32)
@@ -788,15 +858,17 @@ items:
   langs:
   - csharp
   - vb
-  name: DeleteMessageAndShipment(int)
-  nameWithType: MarketingAgent.DeleteMessageAndShipment(int)
-  fullName: SuperOffice.CRM.Services.MarketingAgent.DeleteMessageAndShipment(int)
+  name: DeleteMessageAndShipment(Int32)
+  nameWithType: MarketingAgent.DeleteMessageAndShipment(Int32)
+  fullName: SuperOffice.CRM.Services.MarketingAgent.DeleteMessageAndShipment(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Delete the message and the shipment the message (MessageId) belongs to
-  example: []
+  summary: "\nDelete the message and the shipment the message (MessageId) belongs to\n"
   syntax:
     content: public void DeleteMessageAndShipment(int messageId)
     parameters:
@@ -807,9 +879,10 @@ items:
   overload: SuperOffice.CRM.Services.MarketingAgent.DeleteMessageAndShipment*
   implements:
   - SuperOffice.CRM.Services.IMarketingAgent.DeleteMessageAndShipment(System.Int32)
-  nameWithType.vb: MarketingAgent.DeleteMessageAndShipment(Integer)
-  fullName.vb: SuperOffice.CRM.Services.MarketingAgent.DeleteMessageAndShipment(Integer)
-  name.vb: DeleteMessageAndShipment(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.MarketingAgent.#ctor
   commentId: M:SuperOffice.CRM.Services.MarketingAgent.#ctor
   id: '#ctor'
@@ -821,70 +894,31 @@ items:
   nameWithType: MarketingAgent.MarketingAgent()
   fullName: SuperOffice.CRM.Services.MarketingAgent.MarketingAgent()
   type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
   syntax:
     content: public MarketingAgent()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.MarketingAgent.#ctor*
-  nameWithType.vb: MarketingAgent.New()
-  fullName.vb: SuperOffice.CRM.Services.MarketingAgent.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
 - uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IMarketingAgent}
   commentId: T:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IMarketingAgent}
   parent: SuperOffice.CRM.Services
   definition: SuperOffice.CRM.Services.AgentBase`1
-  href: SuperOffice.CRM.Services.AgentBase-1.html
   name: AgentBase<IMarketingAgent>
   nameWithType: AgentBase<IMarketingAgent>
   fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IMarketingAgent>
@@ -894,32 +928,39 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.AgentBase`1
     name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
     isExternal: true
-    href: SuperOffice.CRM.Services.AgentBase-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Services.IMarketingAgent
     name: IMarketingAgent
+    nameWithType: IMarketingAgent
+    fullName: SuperOffice.CRM.Services.IMarketingAgent
     isExternal: true
-    href: SuperOffice.CRM.Services.IMarketingAgent.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.CRM.Services.AgentBase`1
     name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
     isExternal: true
-    href: SuperOffice.CRM.Services.AgentBase-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Services.IMarketingAgent
     name: IMarketingAgent
+    nameWithType: IMarketingAgent
+    fullName: SuperOffice.CRM.Services.IMarketingAgent
     isExternal: true
-    href: SuperOffice.CRM.Services.IMarketingAgent.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.IDisposable
-  commentId: T:System.IDisposable
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.idisposable
   name: IDisposable
   nameWithType: IDisposable
   fullName: System.IDisposable
@@ -927,7 +968,6 @@ references:
   commentId: T:SuperOffice.CRM.Services.IMarketingAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.IMarketingAgent.html
   name: IMarketingAgent
   nameWithType: IMarketingAgent
   fullName: SuperOffice.CRM.Services.IMarketingAgent
@@ -935,7 +975,6 @@ references:
   commentId: T:SuperOffice.CRM.Services.IAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.IAgent.html
   name: IAgent
   nameWithType: IAgent
   fullName: SuperOffice.CRM.Services.IAgent
@@ -943,266 +982,47 @@ references:
   commentId: M:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IMarketingAgent}.Dispose
   parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IMarketingAgent}
   definition: SuperOffice.CRM.Services.AgentBase`1.Dispose
-  href: SuperOffice.CRM.Services.AgentBase-1.html#SuperOffice_CRM_Services_AgentBase_1_Dispose
   name: Dispose()
   nameWithType: AgentBase<IMarketingAgent>.Dispose()
   fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IMarketingAgent>.Dispose()
   nameWithType.vb: AgentBase(Of IMarketingAgent).Dispose()
   fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IMarketingAgent).Dispose()
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IMarketingAgent}.Dispose
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
     name: Dispose
+    nameWithType: AgentBase<IMarketingAgent>.Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IMarketingAgent>.Dispose
     isExternal: true
-    href: SuperOffice.CRM.Services.AgentBase-1.html#SuperOffice_CRM_Services_AgentBase_1_Dispose
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IMarketingAgent}.Dispose
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
     name: Dispose
+    nameWithType: AgentBase(Of IMarketingAgent).Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IMarketingAgent).Dispose
     isExternal: true
-    href: SuperOffice.CRM.Services.AgentBase-1.html#SuperOffice_CRM_Services_AgentBase_1_Dispose
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IMarketingAgent}.InnerAgent
   commentId: P:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IMarketingAgent}.InnerAgent
   parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IMarketingAgent}
   definition: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
-  href: SuperOffice.CRM.Services.AgentBase-1.html#SuperOffice_CRM_Services_AgentBase_1_InnerAgent
   name: InnerAgent
   nameWithType: AgentBase<IMarketingAgent>.InnerAgent
   fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IMarketingAgent>.InnerAgent
   nameWithType.vb: AgentBase(Of IMarketingAgent).InnerAgent
   fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IMarketingAgent).InnerAgent
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.AgentBase`1
   commentId: T:SuperOffice.CRM.Services.AgentBase`1
   isExternal: true
-  href: SuperOffice.CRM.Services.AgentBase-1.html
   name: AgentBase<TAgent>
   nameWithType: AgentBase<TAgent>
   fullName: SuperOffice.CRM.Services.AgentBase<TAgent>
@@ -1212,25 +1032,36 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.AgentBase`1
     name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
     isExternal: true
-    href: SuperOffice.CRM.Services.AgentBase-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - name: TAgent
+    nameWithType: TAgent
+    fullName: TAgent
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.CRM.Services.AgentBase`1
     name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
     isExternal: true
-    href: SuperOffice.CRM.Services.AgentBase-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: TAgent
+    nameWithType: TAgent
+    fullName: TAgent
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
   commentId: M:SuperOffice.CRM.Services.AgentBase`1.Dispose
   isExternal: true
-  href: SuperOffice.CRM.Services.AgentBase-1.html#SuperOffice_CRM_Services_AgentBase_1_Dispose
   name: Dispose()
   nameWithType: AgentBase<TAgent>.Dispose()
   fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose()
@@ -1239,21 +1070,30 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
     name: Dispose
+    nameWithType: AgentBase<TAgent>.Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose
     isExternal: true
-    href: SuperOffice.CRM.Services.AgentBase-1.html#SuperOffice_CRM_Services_AgentBase_1_Dispose
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
     name: Dispose
+    nameWithType: AgentBase(Of TAgent).Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose
     isExternal: true
-    href: SuperOffice.CRM.Services.AgentBase-1.html#SuperOffice_CRM_Services_AgentBase_1_Dispose
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
   commentId: P:SuperOffice.CRM.Services.AgentBase`1.InnerAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.AgentBase-1.html#SuperOffice_CRM_Services_AgentBase_1_InnerAgent
   name: InnerAgent
   nameWithType: AgentBase<TAgent>.InnerAgent
   fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.InnerAgent
@@ -1262,7 +1102,6 @@ references:
 - uid: SuperOffice.CRM.Services.MarketingAgent.CreateDefaultFormEntity*
   commentId: Overload:SuperOffice.CRM.Services.MarketingAgent.CreateDefaultFormEntity
   isExternal: true
-  href: SuperOffice.CRM.Services.MarketingAgent.html#SuperOffice_CRM_Services_MarketingAgent_CreateDefaultFormEntity
   name: CreateDefaultFormEntity
   nameWithType: MarketingAgent.CreateDefaultFormEntity
   fullName: SuperOffice.CRM.Services.MarketingAgent.CreateDefaultFormEntity
@@ -1270,36 +1109,43 @@ references:
   commentId: M:SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormEntity
   parent: SuperOffice.CRM.Services.IMarketingAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_CreateDefaultFormEntity
   name: CreateDefaultFormEntity()
   nameWithType: IMarketingAgent.CreateDefaultFormEntity()
   fullName: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormEntity()
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormEntity
     name: CreateDefaultFormEntity
+    nameWithType: IMarketingAgent.CreateDefaultFormEntity
+    fullName: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormEntity
     isExternal: true
-    href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_CreateDefaultFormEntity
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormEntity
     name: CreateDefaultFormEntity
+    nameWithType: IMarketingAgent.CreateDefaultFormEntity
+    fullName: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormEntity
     isExternal: true
-    href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_CreateDefaultFormEntity
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.FormEntity
   commentId: T:SuperOffice.CRM.Services.FormEntity
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.FormEntity.html
   name: FormEntity
   nameWithType: FormEntity
   fullName: SuperOffice.CRM.Services.FormEntity
 - uid: SuperOffice.CRM.Services.MarketingAgent.SaveFormEntity*
   commentId: Overload:SuperOffice.CRM.Services.MarketingAgent.SaveFormEntity
   isExternal: true
-  href: SuperOffice.CRM.Services.MarketingAgent.html#SuperOffice_CRM_Services_MarketingAgent_SaveFormEntity_SuperOffice_CRM_Services_FormEntity_
   name: SaveFormEntity
   nameWithType: MarketingAgent.SaveFormEntity
   fullName: SuperOffice.CRM.Services.MarketingAgent.SaveFormEntity
@@ -1307,36 +1153,46 @@ references:
   commentId: M:SuperOffice.CRM.Services.IMarketingAgent.SaveFormEntity(SuperOffice.CRM.Services.FormEntity)
   parent: SuperOffice.CRM.Services.IMarketingAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_SaveFormEntity_SuperOffice_CRM_Services_FormEntity_
   name: SaveFormEntity(FormEntity)
   nameWithType: IMarketingAgent.SaveFormEntity(FormEntity)
   fullName: SuperOffice.CRM.Services.IMarketingAgent.SaveFormEntity(SuperOffice.CRM.Services.FormEntity)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IMarketingAgent.SaveFormEntity(SuperOffice.CRM.Services.FormEntity)
     name: SaveFormEntity
+    nameWithType: IMarketingAgent.SaveFormEntity
+    fullName: SuperOffice.CRM.Services.IMarketingAgent.SaveFormEntity
     isExternal: true
-    href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_SaveFormEntity_SuperOffice_CRM_Services_FormEntity_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Services.FormEntity
     name: FormEntity
+    nameWithType: FormEntity
+    fullName: SuperOffice.CRM.Services.FormEntity
     isExternal: true
-    href: SuperOffice.CRM.Services.FormEntity.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IMarketingAgent.SaveFormEntity(SuperOffice.CRM.Services.FormEntity)
     name: SaveFormEntity
+    nameWithType: IMarketingAgent.SaveFormEntity
+    fullName: SuperOffice.CRM.Services.IMarketingAgent.SaveFormEntity
     isExternal: true
-    href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_SaveFormEntity_SuperOffice_CRM_Services_FormEntity_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Services.FormEntity
     name: FormEntity
+    nameWithType: FormEntity
+    fullName: SuperOffice.CRM.Services.FormEntity
     isExternal: true
-    href: SuperOffice.CRM.Services.FormEntity.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.MarketingAgent.DeleteFormEntity*
   commentId: Overload:SuperOffice.CRM.Services.MarketingAgent.DeleteFormEntity
   isExternal: true
-  href: SuperOffice.CRM.Services.MarketingAgent.html#SuperOffice_CRM_Services_MarketingAgent_DeleteFormEntity_System_Int32_
   name: DeleteFormEntity
   nameWithType: MarketingAgent.DeleteFormEntity
   fullName: SuperOffice.CRM.Services.MarketingAgent.DeleteFormEntity
@@ -1344,50 +1200,59 @@ references:
   commentId: M:SuperOffice.CRM.Services.IMarketingAgent.DeleteFormEntity(System.Int32)
   parent: SuperOffice.CRM.Services.IMarketingAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_DeleteFormEntity_System_Int32_
-  name: DeleteFormEntity(int)
-  nameWithType: IMarketingAgent.DeleteFormEntity(int)
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.DeleteFormEntity(int)
-  nameWithType.vb: IMarketingAgent.DeleteFormEntity(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IMarketingAgent.DeleteFormEntity(Integer)
-  name.vb: DeleteFormEntity(Integer)
+  name: DeleteFormEntity(Int32)
+  nameWithType: IMarketingAgent.DeleteFormEntity(Int32)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.DeleteFormEntity(System.Int32)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IMarketingAgent.DeleteFormEntity(System.Int32)
     name: DeleteFormEntity
+    nameWithType: IMarketingAgent.DeleteFormEntity
+    fullName: SuperOffice.CRM.Services.IMarketingAgent.DeleteFormEntity
     isExternal: true
-    href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_DeleteFormEntity_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IMarketingAgent.DeleteFormEntity(System.Int32)
     name: DeleteFormEntity
+    nameWithType: IMarketingAgent.DeleteFormEntity
+    fullName: SuperOffice.CRM.Services.IMarketingAgent.DeleteFormEntity
     isExternal: true
-    href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_DeleteFormEntity_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.MarketingAgent.CreateDefaultFormSubmissionEntity*
   commentId: Overload:SuperOffice.CRM.Services.MarketingAgent.CreateDefaultFormSubmissionEntity
   isExternal: true
-  href: SuperOffice.CRM.Services.MarketingAgent.html#SuperOffice_CRM_Services_MarketingAgent_CreateDefaultFormSubmissionEntity
   name: CreateDefaultFormSubmissionEntity
   nameWithType: MarketingAgent.CreateDefaultFormSubmissionEntity
   fullName: SuperOffice.CRM.Services.MarketingAgent.CreateDefaultFormSubmissionEntity
@@ -1395,36 +1260,43 @@ references:
   commentId: M:SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormSubmissionEntity
   parent: SuperOffice.CRM.Services.IMarketingAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_CreateDefaultFormSubmissionEntity
   name: CreateDefaultFormSubmissionEntity()
   nameWithType: IMarketingAgent.CreateDefaultFormSubmissionEntity()
   fullName: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormSubmissionEntity()
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormSubmissionEntity
     name: CreateDefaultFormSubmissionEntity
+    nameWithType: IMarketingAgent.CreateDefaultFormSubmissionEntity
+    fullName: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormSubmissionEntity
     isExternal: true
-    href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_CreateDefaultFormSubmissionEntity
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormSubmissionEntity
     name: CreateDefaultFormSubmissionEntity
+    nameWithType: IMarketingAgent.CreateDefaultFormSubmissionEntity
+    fullName: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultFormSubmissionEntity
     isExternal: true
-    href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_CreateDefaultFormSubmissionEntity
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.FormSubmissionEntity
   commentId: T:SuperOffice.CRM.Services.FormSubmissionEntity
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.FormSubmissionEntity.html
   name: FormSubmissionEntity
   nameWithType: FormSubmissionEntity
   fullName: SuperOffice.CRM.Services.FormSubmissionEntity
 - uid: SuperOffice.CRM.Services.MarketingAgent.SaveFormSubmissionEntity*
   commentId: Overload:SuperOffice.CRM.Services.MarketingAgent.SaveFormSubmissionEntity
   isExternal: true
-  href: SuperOffice.CRM.Services.MarketingAgent.html#SuperOffice_CRM_Services_MarketingAgent_SaveFormSubmissionEntity_SuperOffice_CRM_Services_FormSubmissionEntity_
   name: SaveFormSubmissionEntity
   nameWithType: MarketingAgent.SaveFormSubmissionEntity
   fullName: SuperOffice.CRM.Services.MarketingAgent.SaveFormSubmissionEntity
@@ -1432,36 +1304,46 @@ references:
   commentId: M:SuperOffice.CRM.Services.IMarketingAgent.SaveFormSubmissionEntity(SuperOffice.CRM.Services.FormSubmissionEntity)
   parent: SuperOffice.CRM.Services.IMarketingAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_SaveFormSubmissionEntity_SuperOffice_CRM_Services_FormSubmissionEntity_
   name: SaveFormSubmissionEntity(FormSubmissionEntity)
   nameWithType: IMarketingAgent.SaveFormSubmissionEntity(FormSubmissionEntity)
   fullName: SuperOffice.CRM.Services.IMarketingAgent.SaveFormSubmissionEntity(SuperOffice.CRM.Services.FormSubmissionEntity)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IMarketingAgent.SaveFormSubmissionEntity(SuperOffice.CRM.Services.FormSubmissionEntity)
     name: SaveFormSubmissionEntity
+    nameWithType: IMarketingAgent.SaveFormSubmissionEntity
+    fullName: SuperOffice.CRM.Services.IMarketingAgent.SaveFormSubmissionEntity
     isExternal: true
-    href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_SaveFormSubmissionEntity_SuperOffice_CRM_Services_FormSubmissionEntity_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Services.FormSubmissionEntity
     name: FormSubmissionEntity
+    nameWithType: FormSubmissionEntity
+    fullName: SuperOffice.CRM.Services.FormSubmissionEntity
     isExternal: true
-    href: SuperOffice.CRM.Services.FormSubmissionEntity.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IMarketingAgent.SaveFormSubmissionEntity(SuperOffice.CRM.Services.FormSubmissionEntity)
     name: SaveFormSubmissionEntity
+    nameWithType: IMarketingAgent.SaveFormSubmissionEntity
+    fullName: SuperOffice.CRM.Services.IMarketingAgent.SaveFormSubmissionEntity
     isExternal: true
-    href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_SaveFormSubmissionEntity_SuperOffice_CRM_Services_FormSubmissionEntity_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Services.FormSubmissionEntity
     name: FormSubmissionEntity
+    nameWithType: FormSubmissionEntity
+    fullName: SuperOffice.CRM.Services.FormSubmissionEntity
     isExternal: true
-    href: SuperOffice.CRM.Services.FormSubmissionEntity.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.MarketingAgent.DeleteFormSubmissionEntity*
   commentId: Overload:SuperOffice.CRM.Services.MarketingAgent.DeleteFormSubmissionEntity
   isExternal: true
-  href: SuperOffice.CRM.Services.MarketingAgent.html#SuperOffice_CRM_Services_MarketingAgent_DeleteFormSubmissionEntity_System_Int32_
   name: DeleteFormSubmissionEntity
   nameWithType: MarketingAgent.DeleteFormSubmissionEntity
   fullName: SuperOffice.CRM.Services.MarketingAgent.DeleteFormSubmissionEntity
@@ -1469,39 +1351,46 @@ references:
   commentId: M:SuperOffice.CRM.Services.IMarketingAgent.DeleteFormSubmissionEntity(System.Int32)
   parent: SuperOffice.CRM.Services.IMarketingAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_DeleteFormSubmissionEntity_System_Int32_
-  name: DeleteFormSubmissionEntity(int)
-  nameWithType: IMarketingAgent.DeleteFormSubmissionEntity(int)
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.DeleteFormSubmissionEntity(int)
-  nameWithType.vb: IMarketingAgent.DeleteFormSubmissionEntity(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IMarketingAgent.DeleteFormSubmissionEntity(Integer)
-  name.vb: DeleteFormSubmissionEntity(Integer)
+  name: DeleteFormSubmissionEntity(Int32)
+  nameWithType: IMarketingAgent.DeleteFormSubmissionEntity(Int32)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.DeleteFormSubmissionEntity(System.Int32)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IMarketingAgent.DeleteFormSubmissionEntity(System.Int32)
     name: DeleteFormSubmissionEntity
+    nameWithType: IMarketingAgent.DeleteFormSubmissionEntity
+    fullName: SuperOffice.CRM.Services.IMarketingAgent.DeleteFormSubmissionEntity
     isExternal: true
-    href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_DeleteFormSubmissionEntity_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IMarketingAgent.DeleteFormSubmissionEntity(System.Int32)
     name: DeleteFormSubmissionEntity
+    nameWithType: IMarketingAgent.DeleteFormSubmissionEntity
+    fullName: SuperOffice.CRM.Services.IMarketingAgent.DeleteFormSubmissionEntity
     isExternal: true
-    href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_DeleteFormSubmissionEntity_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.MarketingAgent.CreateDefaultShipmentMessageBlockEntity*
   commentId: Overload:SuperOffice.CRM.Services.MarketingAgent.CreateDefaultShipmentMessageBlockEntity
   isExternal: true
-  href: SuperOffice.CRM.Services.MarketingAgent.html#SuperOffice_CRM_Services_MarketingAgent_CreateDefaultShipmentMessageBlockEntity
   name: CreateDefaultShipmentMessageBlockEntity
   nameWithType: MarketingAgent.CreateDefaultShipmentMessageBlockEntity
   fullName: SuperOffice.CRM.Services.MarketingAgent.CreateDefaultShipmentMessageBlockEntity
@@ -1509,36 +1398,43 @@ references:
   commentId: M:SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageBlockEntity
   parent: SuperOffice.CRM.Services.IMarketingAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_CreateDefaultShipmentMessageBlockEntity
   name: CreateDefaultShipmentMessageBlockEntity()
   nameWithType: IMarketingAgent.CreateDefaultShipmentMessageBlockEntity()
   fullName: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageBlockEntity()
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageBlockEntity
     name: CreateDefaultShipmentMessageBlockEntity
+    nameWithType: IMarketingAgent.CreateDefaultShipmentMessageBlockEntity
+    fullName: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageBlockEntity
     isExternal: true
-    href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_CreateDefaultShipmentMessageBlockEntity
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageBlockEntity
     name: CreateDefaultShipmentMessageBlockEntity
+    nameWithType: IMarketingAgent.CreateDefaultShipmentMessageBlockEntity
+    fullName: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageBlockEntity
     isExternal: true
-    href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_CreateDefaultShipmentMessageBlockEntity
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.ShipmentMessageBlockEntity
   commentId: T:SuperOffice.CRM.Services.ShipmentMessageBlockEntity
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.ShipmentMessageBlockEntity.html
   name: ShipmentMessageBlockEntity
   nameWithType: ShipmentMessageBlockEntity
   fullName: SuperOffice.CRM.Services.ShipmentMessageBlockEntity
 - uid: SuperOffice.CRM.Services.MarketingAgent.SaveShipmentMessageBlockEntity*
   commentId: Overload:SuperOffice.CRM.Services.MarketingAgent.SaveShipmentMessageBlockEntity
   isExternal: true
-  href: SuperOffice.CRM.Services.MarketingAgent.html#SuperOffice_CRM_Services_MarketingAgent_SaveShipmentMessageBlockEntity_SuperOffice_CRM_Services_ShipmentMessageBlockEntity_
   name: SaveShipmentMessageBlockEntity
   nameWithType: MarketingAgent.SaveShipmentMessageBlockEntity
   fullName: SuperOffice.CRM.Services.MarketingAgent.SaveShipmentMessageBlockEntity
@@ -1546,36 +1442,46 @@ references:
   commentId: M:SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageBlockEntity(SuperOffice.CRM.Services.ShipmentMessageBlockEntity)
   parent: SuperOffice.CRM.Services.IMarketingAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_SaveShipmentMessageBlockEntity_SuperOffice_CRM_Services_ShipmentMessageBlockEntity_
   name: SaveShipmentMessageBlockEntity(ShipmentMessageBlockEntity)
   nameWithType: IMarketingAgent.SaveShipmentMessageBlockEntity(ShipmentMessageBlockEntity)
   fullName: SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageBlockEntity(SuperOffice.CRM.Services.ShipmentMessageBlockEntity)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageBlockEntity(SuperOffice.CRM.Services.ShipmentMessageBlockEntity)
     name: SaveShipmentMessageBlockEntity
+    nameWithType: IMarketingAgent.SaveShipmentMessageBlockEntity
+    fullName: SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageBlockEntity
     isExternal: true
-    href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_SaveShipmentMessageBlockEntity_SuperOffice_CRM_Services_ShipmentMessageBlockEntity_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Services.ShipmentMessageBlockEntity
     name: ShipmentMessageBlockEntity
+    nameWithType: ShipmentMessageBlockEntity
+    fullName: SuperOffice.CRM.Services.ShipmentMessageBlockEntity
     isExternal: true
-    href: SuperOffice.CRM.Services.ShipmentMessageBlockEntity.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageBlockEntity(SuperOffice.CRM.Services.ShipmentMessageBlockEntity)
     name: SaveShipmentMessageBlockEntity
+    nameWithType: IMarketingAgent.SaveShipmentMessageBlockEntity
+    fullName: SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageBlockEntity
     isExternal: true
-    href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_SaveShipmentMessageBlockEntity_SuperOffice_CRM_Services_ShipmentMessageBlockEntity_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Services.ShipmentMessageBlockEntity
     name: ShipmentMessageBlockEntity
+    nameWithType: ShipmentMessageBlockEntity
+    fullName: SuperOffice.CRM.Services.ShipmentMessageBlockEntity
     isExternal: true
-    href: SuperOffice.CRM.Services.ShipmentMessageBlockEntity.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.MarketingAgent.DeleteShipmentMessageBlockEntity*
   commentId: Overload:SuperOffice.CRM.Services.MarketingAgent.DeleteShipmentMessageBlockEntity
   isExternal: true
-  href: SuperOffice.CRM.Services.MarketingAgent.html#SuperOffice_CRM_Services_MarketingAgent_DeleteShipmentMessageBlockEntity_System_Int32_
   name: DeleteShipmentMessageBlockEntity
   nameWithType: MarketingAgent.DeleteShipmentMessageBlockEntity
   fullName: SuperOffice.CRM.Services.MarketingAgent.DeleteShipmentMessageBlockEntity
@@ -1583,39 +1489,46 @@ references:
   commentId: M:SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageBlockEntity(System.Int32)
   parent: SuperOffice.CRM.Services.IMarketingAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_DeleteShipmentMessageBlockEntity_System_Int32_
-  name: DeleteShipmentMessageBlockEntity(int)
-  nameWithType: IMarketingAgent.DeleteShipmentMessageBlockEntity(int)
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageBlockEntity(int)
-  nameWithType.vb: IMarketingAgent.DeleteShipmentMessageBlockEntity(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageBlockEntity(Integer)
-  name.vb: DeleteShipmentMessageBlockEntity(Integer)
+  name: DeleteShipmentMessageBlockEntity(Int32)
+  nameWithType: IMarketingAgent.DeleteShipmentMessageBlockEntity(Int32)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageBlockEntity(System.Int32)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageBlockEntity(System.Int32)
     name: DeleteShipmentMessageBlockEntity
+    nameWithType: IMarketingAgent.DeleteShipmentMessageBlockEntity
+    fullName: SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageBlockEntity
     isExternal: true
-    href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_DeleteShipmentMessageBlockEntity_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageBlockEntity(System.Int32)
     name: DeleteShipmentMessageBlockEntity
+    nameWithType: IMarketingAgent.DeleteShipmentMessageBlockEntity
+    fullName: SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageBlockEntity
     isExternal: true
-    href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_DeleteShipmentMessageBlockEntity_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.MarketingAgent.CreateDefaultShipmentMessageEntity*
   commentId: Overload:SuperOffice.CRM.Services.MarketingAgent.CreateDefaultShipmentMessageEntity
   isExternal: true
-  href: SuperOffice.CRM.Services.MarketingAgent.html#SuperOffice_CRM_Services_MarketingAgent_CreateDefaultShipmentMessageEntity
   name: CreateDefaultShipmentMessageEntity
   nameWithType: MarketingAgent.CreateDefaultShipmentMessageEntity
   fullName: SuperOffice.CRM.Services.MarketingAgent.CreateDefaultShipmentMessageEntity
@@ -1623,36 +1536,43 @@ references:
   commentId: M:SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageEntity
   parent: SuperOffice.CRM.Services.IMarketingAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_CreateDefaultShipmentMessageEntity
   name: CreateDefaultShipmentMessageEntity()
   nameWithType: IMarketingAgent.CreateDefaultShipmentMessageEntity()
   fullName: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageEntity()
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageEntity
     name: CreateDefaultShipmentMessageEntity
+    nameWithType: IMarketingAgent.CreateDefaultShipmentMessageEntity
+    fullName: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageEntity
     isExternal: true
-    href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_CreateDefaultShipmentMessageEntity
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageEntity
     name: CreateDefaultShipmentMessageEntity
+    nameWithType: IMarketingAgent.CreateDefaultShipmentMessageEntity
+    fullName: SuperOffice.CRM.Services.IMarketingAgent.CreateDefaultShipmentMessageEntity
     isExternal: true
-    href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_CreateDefaultShipmentMessageEntity
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.ShipmentMessageEntity
   commentId: T:SuperOffice.CRM.Services.ShipmentMessageEntity
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.ShipmentMessageEntity.html
   name: ShipmentMessageEntity
   nameWithType: ShipmentMessageEntity
   fullName: SuperOffice.CRM.Services.ShipmentMessageEntity
 - uid: SuperOffice.CRM.Services.MarketingAgent.SaveShipmentMessageEntity*
   commentId: Overload:SuperOffice.CRM.Services.MarketingAgent.SaveShipmentMessageEntity
   isExternal: true
-  href: SuperOffice.CRM.Services.MarketingAgent.html#SuperOffice_CRM_Services_MarketingAgent_SaveShipmentMessageEntity_SuperOffice_CRM_Services_ShipmentMessageEntity_
   name: SaveShipmentMessageEntity
   nameWithType: MarketingAgent.SaveShipmentMessageEntity
   fullName: SuperOffice.CRM.Services.MarketingAgent.SaveShipmentMessageEntity
@@ -1660,36 +1580,46 @@ references:
   commentId: M:SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageEntity(SuperOffice.CRM.Services.ShipmentMessageEntity)
   parent: SuperOffice.CRM.Services.IMarketingAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_SaveShipmentMessageEntity_SuperOffice_CRM_Services_ShipmentMessageEntity_
   name: SaveShipmentMessageEntity(ShipmentMessageEntity)
   nameWithType: IMarketingAgent.SaveShipmentMessageEntity(ShipmentMessageEntity)
   fullName: SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageEntity(SuperOffice.CRM.Services.ShipmentMessageEntity)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageEntity(SuperOffice.CRM.Services.ShipmentMessageEntity)
     name: SaveShipmentMessageEntity
+    nameWithType: IMarketingAgent.SaveShipmentMessageEntity
+    fullName: SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageEntity
     isExternal: true
-    href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_SaveShipmentMessageEntity_SuperOffice_CRM_Services_ShipmentMessageEntity_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Services.ShipmentMessageEntity
     name: ShipmentMessageEntity
+    nameWithType: ShipmentMessageEntity
+    fullName: SuperOffice.CRM.Services.ShipmentMessageEntity
     isExternal: true
-    href: SuperOffice.CRM.Services.ShipmentMessageEntity.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageEntity(SuperOffice.CRM.Services.ShipmentMessageEntity)
     name: SaveShipmentMessageEntity
+    nameWithType: IMarketingAgent.SaveShipmentMessageEntity
+    fullName: SuperOffice.CRM.Services.IMarketingAgent.SaveShipmentMessageEntity
     isExternal: true
-    href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_SaveShipmentMessageEntity_SuperOffice_CRM_Services_ShipmentMessageEntity_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Services.ShipmentMessageEntity
     name: ShipmentMessageEntity
+    nameWithType: ShipmentMessageEntity
+    fullName: SuperOffice.CRM.Services.ShipmentMessageEntity
     isExternal: true
-    href: SuperOffice.CRM.Services.ShipmentMessageEntity.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.MarketingAgent.DeleteShipmentMessageEntity*
   commentId: Overload:SuperOffice.CRM.Services.MarketingAgent.DeleteShipmentMessageEntity
   isExternal: true
-  href: SuperOffice.CRM.Services.MarketingAgent.html#SuperOffice_CRM_Services_MarketingAgent_DeleteShipmentMessageEntity_System_Int32_
   name: DeleteShipmentMessageEntity
   nameWithType: MarketingAgent.DeleteShipmentMessageEntity
   fullName: SuperOffice.CRM.Services.MarketingAgent.DeleteShipmentMessageEntity
@@ -1697,39 +1627,46 @@ references:
   commentId: M:SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageEntity(System.Int32)
   parent: SuperOffice.CRM.Services.IMarketingAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_DeleteShipmentMessageEntity_System_Int32_
-  name: DeleteShipmentMessageEntity(int)
-  nameWithType: IMarketingAgent.DeleteShipmentMessageEntity(int)
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageEntity(int)
-  nameWithType.vb: IMarketingAgent.DeleteShipmentMessageEntity(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageEntity(Integer)
-  name.vb: DeleteShipmentMessageEntity(Integer)
+  name: DeleteShipmentMessageEntity(Int32)
+  nameWithType: IMarketingAgent.DeleteShipmentMessageEntity(Int32)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageEntity(System.Int32)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageEntity(System.Int32)
     name: DeleteShipmentMessageEntity
+    nameWithType: IMarketingAgent.DeleteShipmentMessageEntity
+    fullName: SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageEntity
     isExternal: true
-    href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_DeleteShipmentMessageEntity_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageEntity(System.Int32)
     name: DeleteShipmentMessageEntity
+    nameWithType: IMarketingAgent.DeleteShipmentMessageEntity
+    fullName: SuperOffice.CRM.Services.IMarketingAgent.DeleteShipmentMessageEntity
     isExternal: true
-    href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_DeleteShipmentMessageEntity_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.MarketingAgent.GetFormEntity*
   commentId: Overload:SuperOffice.CRM.Services.MarketingAgent.GetFormEntity
   isExternal: true
-  href: SuperOffice.CRM.Services.MarketingAgent.html#SuperOffice_CRM_Services_MarketingAgent_GetFormEntity_System_Int32_
   name: GetFormEntity
   nameWithType: MarketingAgent.GetFormEntity
   fullName: SuperOffice.CRM.Services.MarketingAgent.GetFormEntity
@@ -1737,39 +1674,46 @@ references:
   commentId: M:SuperOffice.CRM.Services.IMarketingAgent.GetFormEntity(System.Int32)
   parent: SuperOffice.CRM.Services.IMarketingAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_GetFormEntity_System_Int32_
-  name: GetFormEntity(int)
-  nameWithType: IMarketingAgent.GetFormEntity(int)
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetFormEntity(int)
-  nameWithType.vb: IMarketingAgent.GetFormEntity(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IMarketingAgent.GetFormEntity(Integer)
-  name.vb: GetFormEntity(Integer)
+  name: GetFormEntity(Int32)
+  nameWithType: IMarketingAgent.GetFormEntity(Int32)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetFormEntity(System.Int32)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IMarketingAgent.GetFormEntity(System.Int32)
     name: GetFormEntity
+    nameWithType: IMarketingAgent.GetFormEntity
+    fullName: SuperOffice.CRM.Services.IMarketingAgent.GetFormEntity
     isExternal: true
-    href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_GetFormEntity_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IMarketingAgent.GetFormEntity(System.Int32)
     name: GetFormEntity
+    nameWithType: IMarketingAgent.GetFormEntity
+    fullName: SuperOffice.CRM.Services.IMarketingAgent.GetFormEntity
     isExternal: true
-    href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_GetFormEntity_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.MarketingAgent.VerifyGoogleRecaptcha*
   commentId: Overload:SuperOffice.CRM.Services.MarketingAgent.VerifyGoogleRecaptcha
   isExternal: true
-  href: SuperOffice.CRM.Services.MarketingAgent.html#SuperOffice_CRM_Services_MarketingAgent_VerifyGoogleRecaptcha_System_String_System_String_
   name: VerifyGoogleRecaptcha
   nameWithType: MarketingAgent.VerifyGoogleRecaptcha
   fullName: SuperOffice.CRM.Services.MarketingAgent.VerifyGoogleRecaptcha
@@ -1777,73 +1721,76 @@ references:
   commentId: M:SuperOffice.CRM.Services.IMarketingAgent.VerifyGoogleRecaptcha(System.String,System.String)
   parent: SuperOffice.CRM.Services.IMarketingAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_VerifyGoogleRecaptcha_System_String_System_String_
-  name: VerifyGoogleRecaptcha(string, string)
-  nameWithType: IMarketingAgent.VerifyGoogleRecaptcha(string, string)
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.VerifyGoogleRecaptcha(string, string)
-  nameWithType.vb: IMarketingAgent.VerifyGoogleRecaptcha(String, String)
-  fullName.vb: SuperOffice.CRM.Services.IMarketingAgent.VerifyGoogleRecaptcha(String, String)
-  name.vb: VerifyGoogleRecaptcha(String, String)
+  name: VerifyGoogleRecaptcha(String, String)
+  nameWithType: IMarketingAgent.VerifyGoogleRecaptcha(String, String)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.VerifyGoogleRecaptcha(System.String, System.String)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IMarketingAgent.VerifyGoogleRecaptcha(System.String,System.String)
     name: VerifyGoogleRecaptcha
+    nameWithType: IMarketingAgent.VerifyGoogleRecaptcha
+    fullName: SuperOffice.CRM.Services.IMarketingAgent.VerifyGoogleRecaptcha
     isExternal: true
-    href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_VerifyGoogleRecaptcha_System_String_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IMarketingAgent.VerifyGoogleRecaptcha(System.String,System.String)
     name: VerifyGoogleRecaptcha
+    nameWithType: IMarketingAgent.VerifyGoogleRecaptcha
+    fullName: SuperOffice.CRM.Services.IMarketingAgent.VerifyGoogleRecaptcha
     isExternal: true
-    href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_VerifyGoogleRecaptcha_System_String_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.CRM.Services.MarketingAgent.GetFormSubmissionEntity*
   commentId: Overload:SuperOffice.CRM.Services.MarketingAgent.GetFormSubmissionEntity
   isExternal: true
-  href: SuperOffice.CRM.Services.MarketingAgent.html#SuperOffice_CRM_Services_MarketingAgent_GetFormSubmissionEntity_System_Int32_
   name: GetFormSubmissionEntity
   nameWithType: MarketingAgent.GetFormSubmissionEntity
   fullName: SuperOffice.CRM.Services.MarketingAgent.GetFormSubmissionEntity
@@ -1851,39 +1798,46 @@ references:
   commentId: M:SuperOffice.CRM.Services.IMarketingAgent.GetFormSubmissionEntity(System.Int32)
   parent: SuperOffice.CRM.Services.IMarketingAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_GetFormSubmissionEntity_System_Int32_
-  name: GetFormSubmissionEntity(int)
-  nameWithType: IMarketingAgent.GetFormSubmissionEntity(int)
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetFormSubmissionEntity(int)
-  nameWithType.vb: IMarketingAgent.GetFormSubmissionEntity(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IMarketingAgent.GetFormSubmissionEntity(Integer)
-  name.vb: GetFormSubmissionEntity(Integer)
+  name: GetFormSubmissionEntity(Int32)
+  nameWithType: IMarketingAgent.GetFormSubmissionEntity(Int32)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetFormSubmissionEntity(System.Int32)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IMarketingAgent.GetFormSubmissionEntity(System.Int32)
     name: GetFormSubmissionEntity
+    nameWithType: IMarketingAgent.GetFormSubmissionEntity
+    fullName: SuperOffice.CRM.Services.IMarketingAgent.GetFormSubmissionEntity
     isExternal: true
-    href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_GetFormSubmissionEntity_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IMarketingAgent.GetFormSubmissionEntity(System.Int32)
     name: GetFormSubmissionEntity
+    nameWithType: IMarketingAgent.GetFormSubmissionEntity
+    fullName: SuperOffice.CRM.Services.IMarketingAgent.GetFormSubmissionEntity
     isExternal: true
-    href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_GetFormSubmissionEntity_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.MarketingAgent.CalculateMailingStatistics*
   commentId: Overload:SuperOffice.CRM.Services.MarketingAgent.CalculateMailingStatistics
   isExternal: true
-  href: SuperOffice.CRM.Services.MarketingAgent.html#SuperOffice_CRM_Services_MarketingAgent_CalculateMailingStatistics_System_Int32_
   name: CalculateMailingStatistics
   nameWithType: MarketingAgent.CalculateMailingStatistics
   fullName: SuperOffice.CRM.Services.MarketingAgent.CalculateMailingStatistics
@@ -1891,39 +1845,46 @@ references:
   commentId: M:SuperOffice.CRM.Services.IMarketingAgent.CalculateMailingStatistics(System.Int32)
   parent: SuperOffice.CRM.Services.IMarketingAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_CalculateMailingStatistics_System_Int32_
-  name: CalculateMailingStatistics(int)
-  nameWithType: IMarketingAgent.CalculateMailingStatistics(int)
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.CalculateMailingStatistics(int)
-  nameWithType.vb: IMarketingAgent.CalculateMailingStatistics(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IMarketingAgent.CalculateMailingStatistics(Integer)
-  name.vb: CalculateMailingStatistics(Integer)
+  name: CalculateMailingStatistics(Int32)
+  nameWithType: IMarketingAgent.CalculateMailingStatistics(Int32)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.CalculateMailingStatistics(System.Int32)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IMarketingAgent.CalculateMailingStatistics(System.Int32)
     name: CalculateMailingStatistics
+    nameWithType: IMarketingAgent.CalculateMailingStatistics
+    fullName: SuperOffice.CRM.Services.IMarketingAgent.CalculateMailingStatistics
     isExternal: true
-    href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_CalculateMailingStatistics_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IMarketingAgent.CalculateMailingStatistics(System.Int32)
     name: CalculateMailingStatistics
+    nameWithType: IMarketingAgent.CalculateMailingStatistics
+    fullName: SuperOffice.CRM.Services.IMarketingAgent.CalculateMailingStatistics
     isExternal: true
-    href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_CalculateMailingStatistics_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.MarketingAgent.GetFormSubmissionsCount*
   commentId: Overload:SuperOffice.CRM.Services.MarketingAgent.GetFormSubmissionsCount
   isExternal: true
-  href: SuperOffice.CRM.Services.MarketingAgent.html#SuperOffice_CRM_Services_MarketingAgent_GetFormSubmissionsCount_System_Int32_SuperOffice_Data_FormSubmissionStatus_
   name: GetFormSubmissionsCount
   nameWithType: MarketingAgent.GetFormSubmissionsCount
   fullName: SuperOffice.CRM.Services.MarketingAgent.GetFormSubmissionsCount
@@ -1931,45 +1892,59 @@ references:
   commentId: M:SuperOffice.CRM.Services.IMarketingAgent.GetFormSubmissionsCount(System.Int32,SuperOffice.Data.FormSubmissionStatus)
   parent: SuperOffice.CRM.Services.IMarketingAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_GetFormSubmissionsCount_System_Int32_SuperOffice_Data_FormSubmissionStatus_
-  name: GetFormSubmissionsCount(int, FormSubmissionStatus)
-  nameWithType: IMarketingAgent.GetFormSubmissionsCount(int, FormSubmissionStatus)
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetFormSubmissionsCount(int, SuperOffice.Data.FormSubmissionStatus)
-  nameWithType.vb: IMarketingAgent.GetFormSubmissionsCount(Integer, FormSubmissionStatus)
-  fullName.vb: SuperOffice.CRM.Services.IMarketingAgent.GetFormSubmissionsCount(Integer, SuperOffice.Data.FormSubmissionStatus)
-  name.vb: GetFormSubmissionsCount(Integer, FormSubmissionStatus)
+  name: GetFormSubmissionsCount(Int32, FormSubmissionStatus)
+  nameWithType: IMarketingAgent.GetFormSubmissionsCount(Int32, FormSubmissionStatus)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetFormSubmissionsCount(System.Int32, SuperOffice.Data.FormSubmissionStatus)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IMarketingAgent.GetFormSubmissionsCount(System.Int32,SuperOffice.Data.FormSubmissionStatus)
     name: GetFormSubmissionsCount
+    nameWithType: IMarketingAgent.GetFormSubmissionsCount
+    fullName: SuperOffice.CRM.Services.IMarketingAgent.GetFormSubmissionsCount
     isExternal: true
-    href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_GetFormSubmissionsCount_System_Int32_SuperOffice_Data_FormSubmissionStatus_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.Data.FormSubmissionStatus
     name: FormSubmissionStatus
+    nameWithType: FormSubmissionStatus
+    fullName: SuperOffice.Data.FormSubmissionStatus
     isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IMarketingAgent.GetFormSubmissionsCount(System.Int32,SuperOffice.Data.FormSubmissionStatus)
     name: GetFormSubmissionsCount
+    nameWithType: IMarketingAgent.GetFormSubmissionsCount
+    fullName: SuperOffice.CRM.Services.IMarketingAgent.GetFormSubmissionsCount
     isExternal: true
-    href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_GetFormSubmissionsCount_System_Int32_SuperOffice_Data_FormSubmissionStatus_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.Data.FormSubmissionStatus
     name: FormSubmissionStatus
+    nameWithType: FormSubmissionStatus
+    fullName: SuperOffice.Data.FormSubmissionStatus
     isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.FormSubmissionStatus
   isExternal: true
   name: FormSubmissionStatus
@@ -1978,7 +1953,6 @@ references:
 - uid: SuperOffice.CRM.Services.MarketingAgent.GetPreviewMailing*
   commentId: Overload:SuperOffice.CRM.Services.MarketingAgent.GetPreviewMailing
   isExternal: true
-  href: SuperOffice.CRM.Services.MarketingAgent.html#SuperOffice_CRM_Services_MarketingAgent_GetPreviewMailing_System_Int32_
   name: GetPreviewMailing
   nameWithType: MarketingAgent.GetPreviewMailing
   fullName: SuperOffice.CRM.Services.MarketingAgent.GetPreviewMailing
@@ -1986,47 +1960,53 @@ references:
   commentId: M:SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailing(System.Int32)
   parent: SuperOffice.CRM.Services.IMarketingAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_GetPreviewMailing_System_Int32_
-  name: GetPreviewMailing(int)
-  nameWithType: IMarketingAgent.GetPreviewMailing(int)
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailing(int)
-  nameWithType.vb: IMarketingAgent.GetPreviewMailing(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailing(Integer)
-  name.vb: GetPreviewMailing(Integer)
+  name: GetPreviewMailing(Int32)
+  nameWithType: IMarketingAgent.GetPreviewMailing(Int32)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailing(System.Int32)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailing(System.Int32)
     name: GetPreviewMailing
+    nameWithType: IMarketingAgent.GetPreviewMailing
+    fullName: SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailing
     isExternal: true
-    href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_GetPreviewMailing_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailing(System.Int32)
     name: GetPreviewMailing
+    nameWithType: IMarketingAgent.GetPreviewMailing
+    fullName: SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailing
     isExternal: true
-    href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_GetPreviewMailing_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.PreviewMailing
   commentId: T:SuperOffice.CRM.Services.PreviewMailing
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.PreviewMailing.html
   name: PreviewMailing
   nameWithType: PreviewMailing
   fullName: SuperOffice.CRM.Services.PreviewMailing
 - uid: SuperOffice.CRM.Services.MarketingAgent.GetPreviewMailingHeader*
   commentId: Overload:SuperOffice.CRM.Services.MarketingAgent.GetPreviewMailingHeader
   isExternal: true
-  href: SuperOffice.CRM.Services.MarketingAgent.html#SuperOffice_CRM_Services_MarketingAgent_GetPreviewMailingHeader_System_Int32_
   name: GetPreviewMailingHeader
   nameWithType: MarketingAgent.GetPreviewMailingHeader
   fullName: SuperOffice.CRM.Services.MarketingAgent.GetPreviewMailingHeader
@@ -2034,47 +2014,53 @@ references:
   commentId: M:SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailingHeader(System.Int32)
   parent: SuperOffice.CRM.Services.IMarketingAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_GetPreviewMailingHeader_System_Int32_
-  name: GetPreviewMailingHeader(int)
-  nameWithType: IMarketingAgent.GetPreviewMailingHeader(int)
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailingHeader(int)
-  nameWithType.vb: IMarketingAgent.GetPreviewMailingHeader(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailingHeader(Integer)
-  name.vb: GetPreviewMailingHeader(Integer)
+  name: GetPreviewMailingHeader(Int32)
+  nameWithType: IMarketingAgent.GetPreviewMailingHeader(Int32)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailingHeader(System.Int32)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailingHeader(System.Int32)
     name: GetPreviewMailingHeader
+    nameWithType: IMarketingAgent.GetPreviewMailingHeader
+    fullName: SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailingHeader
     isExternal: true
-    href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_GetPreviewMailingHeader_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailingHeader(System.Int32)
     name: GetPreviewMailingHeader
+    nameWithType: IMarketingAgent.GetPreviewMailingHeader
+    fullName: SuperOffice.CRM.Services.IMarketingAgent.GetPreviewMailingHeader
     isExternal: true
-    href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_GetPreviewMailingHeader_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.PreviewMailingHeader
   commentId: T:SuperOffice.CRM.Services.PreviewMailingHeader
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.PreviewMailingHeader.html
   name: PreviewMailingHeader
   nameWithType: PreviewMailingHeader
   fullName: SuperOffice.CRM.Services.PreviewMailingHeader
 - uid: SuperOffice.CRM.Services.MarketingAgent.GetShipmentMessageBlockEntity*
   commentId: Overload:SuperOffice.CRM.Services.MarketingAgent.GetShipmentMessageBlockEntity
   isExternal: true
-  href: SuperOffice.CRM.Services.MarketingAgent.html#SuperOffice_CRM_Services_MarketingAgent_GetShipmentMessageBlockEntity_System_Int32_
   name: GetShipmentMessageBlockEntity
   nameWithType: MarketingAgent.GetShipmentMessageBlockEntity
   fullName: SuperOffice.CRM.Services.MarketingAgent.GetShipmentMessageBlockEntity
@@ -2082,39 +2068,46 @@ references:
   commentId: M:SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageBlockEntity(System.Int32)
   parent: SuperOffice.CRM.Services.IMarketingAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_GetShipmentMessageBlockEntity_System_Int32_
-  name: GetShipmentMessageBlockEntity(int)
-  nameWithType: IMarketingAgent.GetShipmentMessageBlockEntity(int)
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageBlockEntity(int)
-  nameWithType.vb: IMarketingAgent.GetShipmentMessageBlockEntity(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageBlockEntity(Integer)
-  name.vb: GetShipmentMessageBlockEntity(Integer)
+  name: GetShipmentMessageBlockEntity(Int32)
+  nameWithType: IMarketingAgent.GetShipmentMessageBlockEntity(Int32)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageBlockEntity(System.Int32)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageBlockEntity(System.Int32)
     name: GetShipmentMessageBlockEntity
+    nameWithType: IMarketingAgent.GetShipmentMessageBlockEntity
+    fullName: SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageBlockEntity
     isExternal: true
-    href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_GetShipmentMessageBlockEntity_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageBlockEntity(System.Int32)
     name: GetShipmentMessageBlockEntity
+    nameWithType: IMarketingAgent.GetShipmentMessageBlockEntity
+    fullName: SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageBlockEntity
     isExternal: true
-    href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_GetShipmentMessageBlockEntity_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.MarketingAgent.GetUserBlocks*
   commentId: Overload:SuperOffice.CRM.Services.MarketingAgent.GetUserBlocks
   isExternal: true
-  href: SuperOffice.CRM.Services.MarketingAgent.html#SuperOffice_CRM_Services_MarketingAgent_GetUserBlocks_System_Int32_
   name: GetUserBlocks
   nameWithType: MarketingAgent.GetUserBlocks
   fullName: SuperOffice.CRM.Services.MarketingAgent.GetUserBlocks
@@ -2122,38 +2115,45 @@ references:
   commentId: M:SuperOffice.CRM.Services.IMarketingAgent.GetUserBlocks(System.Int32)
   parent: SuperOffice.CRM.Services.IMarketingAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_GetUserBlocks_System_Int32_
-  name: GetUserBlocks(int)
-  nameWithType: IMarketingAgent.GetUserBlocks(int)
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetUserBlocks(int)
-  nameWithType.vb: IMarketingAgent.GetUserBlocks(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IMarketingAgent.GetUserBlocks(Integer)
-  name.vb: GetUserBlocks(Integer)
+  name: GetUserBlocks(Int32)
+  nameWithType: IMarketingAgent.GetUserBlocks(Int32)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetUserBlocks(System.Int32)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IMarketingAgent.GetUserBlocks(System.Int32)
     name: GetUserBlocks
+    nameWithType: IMarketingAgent.GetUserBlocks
+    fullName: SuperOffice.CRM.Services.IMarketingAgent.GetUserBlocks
     isExternal: true
-    href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_GetUserBlocks_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IMarketingAgent.GetUserBlocks(System.Int32)
     name: GetUserBlocks
+    nameWithType: IMarketingAgent.GetUserBlocks
+    fullName: SuperOffice.CRM.Services.IMarketingAgent.GetUserBlocks
     isExternal: true
-    href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_GetUserBlocks_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.ShipmentMessageBlockEntity[]
   isExternal: true
-  href: SuperOffice.CRM.Services.ShipmentMessageBlockEntity.html
   name: ShipmentMessageBlockEntity[]
   nameWithType: ShipmentMessageBlockEntity[]
   fullName: SuperOffice.CRM.Services.ShipmentMessageBlockEntity[]
@@ -2163,21 +2163,24 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.ShipmentMessageBlockEntity
     name: ShipmentMessageBlockEntity
+    nameWithType: ShipmentMessageBlockEntity
+    fullName: SuperOffice.CRM.Services.ShipmentMessageBlockEntity
     isExternal: true
-    href: SuperOffice.CRM.Services.ShipmentMessageBlockEntity.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.Services.ShipmentMessageBlockEntity
     name: ShipmentMessageBlockEntity
+    nameWithType: ShipmentMessageBlockEntity
+    fullName: SuperOffice.CRM.Services.ShipmentMessageBlockEntity
     isExternal: true
-    href: SuperOffice.CRM.Services.ShipmentMessageBlockEntity.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.MarketingAgent.GetShipmentMessageEntity*
   commentId: Overload:SuperOffice.CRM.Services.MarketingAgent.GetShipmentMessageEntity
   isExternal: true
-  href: SuperOffice.CRM.Services.MarketingAgent.html#SuperOffice_CRM_Services_MarketingAgent_GetShipmentMessageEntity_System_Int32_
   name: GetShipmentMessageEntity
   nameWithType: MarketingAgent.GetShipmentMessageEntity
   fullName: SuperOffice.CRM.Services.MarketingAgent.GetShipmentMessageEntity
@@ -2185,39 +2188,46 @@ references:
   commentId: M:SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageEntity(System.Int32)
   parent: SuperOffice.CRM.Services.IMarketingAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_GetShipmentMessageEntity_System_Int32_
-  name: GetShipmentMessageEntity(int)
-  nameWithType: IMarketingAgent.GetShipmentMessageEntity(int)
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageEntity(int)
-  nameWithType.vb: IMarketingAgent.GetShipmentMessageEntity(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageEntity(Integer)
-  name.vb: GetShipmentMessageEntity(Integer)
+  name: GetShipmentMessageEntity(Int32)
+  nameWithType: IMarketingAgent.GetShipmentMessageEntity(Int32)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageEntity(System.Int32)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageEntity(System.Int32)
     name: GetShipmentMessageEntity
+    nameWithType: IMarketingAgent.GetShipmentMessageEntity
+    fullName: SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageEntity
     isExternal: true
-    href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_GetShipmentMessageEntity_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageEntity(System.Int32)
     name: GetShipmentMessageEntity
+    nameWithType: IMarketingAgent.GetShipmentMessageEntity
+    fullName: SuperOffice.CRM.Services.IMarketingAgent.GetShipmentMessageEntity
     isExternal: true
-    href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_GetShipmentMessageEntity_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.MarketingAgent.RenameMailingByMessageId*
   commentId: Overload:SuperOffice.CRM.Services.MarketingAgent.RenameMailingByMessageId
   isExternal: true
-  href: SuperOffice.CRM.Services.MarketingAgent.html#SuperOffice_CRM_Services_MarketingAgent_RenameMailingByMessageId_System_Int32_System_String_
   name: RenameMailingByMessageId
   nameWithType: MarketingAgent.RenameMailingByMessageId
   fullName: SuperOffice.CRM.Services.MarketingAgent.RenameMailingByMessageId
@@ -2225,51 +2235,62 @@ references:
   commentId: M:SuperOffice.CRM.Services.IMarketingAgent.RenameMailingByMessageId(System.Int32,System.String)
   parent: SuperOffice.CRM.Services.IMarketingAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_RenameMailingByMessageId_System_Int32_System_String_
-  name: RenameMailingByMessageId(int, string)
-  nameWithType: IMarketingAgent.RenameMailingByMessageId(int, string)
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.RenameMailingByMessageId(int, string)
-  nameWithType.vb: IMarketingAgent.RenameMailingByMessageId(Integer, String)
-  fullName.vb: SuperOffice.CRM.Services.IMarketingAgent.RenameMailingByMessageId(Integer, String)
-  name.vb: RenameMailingByMessageId(Integer, String)
+  name: RenameMailingByMessageId(Int32, String)
+  nameWithType: IMarketingAgent.RenameMailingByMessageId(Int32, String)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.RenameMailingByMessageId(System.Int32, System.String)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IMarketingAgent.RenameMailingByMessageId(System.Int32,System.String)
     name: RenameMailingByMessageId
+    nameWithType: IMarketingAgent.RenameMailingByMessageId
+    fullName: SuperOffice.CRM.Services.IMarketingAgent.RenameMailingByMessageId
     isExternal: true
-    href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_RenameMailingByMessageId_System_Int32_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IMarketingAgent.RenameMailingByMessageId(System.Int32,System.String)
     name: RenameMailingByMessageId
+    nameWithType: IMarketingAgent.RenameMailingByMessageId
+    fullName: SuperOffice.CRM.Services.IMarketingAgent.RenameMailingByMessageId
     isExternal: true
-    href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_RenameMailingByMessageId_System_Int32_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.MarketingAgent.DeleteMessageAndShipment*
   commentId: Overload:SuperOffice.CRM.Services.MarketingAgent.DeleteMessageAndShipment
   isExternal: true
-  href: SuperOffice.CRM.Services.MarketingAgent.html#SuperOffice_CRM_Services_MarketingAgent_DeleteMessageAndShipment_System_Int32_
   name: DeleteMessageAndShipment
   nameWithType: MarketingAgent.DeleteMessageAndShipment
   fullName: SuperOffice.CRM.Services.MarketingAgent.DeleteMessageAndShipment
@@ -2277,42 +2298,46 @@ references:
   commentId: M:SuperOffice.CRM.Services.IMarketingAgent.DeleteMessageAndShipment(System.Int32)
   parent: SuperOffice.CRM.Services.IMarketingAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_DeleteMessageAndShipment_System_Int32_
-  name: DeleteMessageAndShipment(int)
-  nameWithType: IMarketingAgent.DeleteMessageAndShipment(int)
-  fullName: SuperOffice.CRM.Services.IMarketingAgent.DeleteMessageAndShipment(int)
-  nameWithType.vb: IMarketingAgent.DeleteMessageAndShipment(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IMarketingAgent.DeleteMessageAndShipment(Integer)
-  name.vb: DeleteMessageAndShipment(Integer)
+  name: DeleteMessageAndShipment(Int32)
+  nameWithType: IMarketingAgent.DeleteMessageAndShipment(Int32)
+  fullName: SuperOffice.CRM.Services.IMarketingAgent.DeleteMessageAndShipment(System.Int32)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IMarketingAgent.DeleteMessageAndShipment(System.Int32)
     name: DeleteMessageAndShipment
+    nameWithType: IMarketingAgent.DeleteMessageAndShipment
+    fullName: SuperOffice.CRM.Services.IMarketingAgent.DeleteMessageAndShipment
     isExternal: true
-    href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_DeleteMessageAndShipment_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IMarketingAgent.DeleteMessageAndShipment(System.Int32)
     name: DeleteMessageAndShipment
+    nameWithType: IMarketingAgent.DeleteMessageAndShipment
+    fullName: SuperOffice.CRM.Services.IMarketingAgent.DeleteMessageAndShipment
     isExternal: true
-    href: SuperOffice.CRM.Services.IMarketingAgent.html#SuperOffice_CRM_Services_IMarketingAgent_DeleteMessageAndShipment_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.MarketingAgent.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.MarketingAgent.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.MarketingAgent.html#SuperOffice_CRM_Services_MarketingAgent__ctor
   name: MarketingAgent
   nameWithType: MarketingAgent.MarketingAgent
   fullName: SuperOffice.CRM.Services.MarketingAgent.MarketingAgent
-  nameWithType.vb: MarketingAgent.New
-  fullName.vb: SuperOffice.CRM.Services.MarketingAgent.New
-  name.vb: New

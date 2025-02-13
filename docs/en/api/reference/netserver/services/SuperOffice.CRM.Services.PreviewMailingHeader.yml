@@ -31,27 +31,18 @@ items:
   nameWithType: PreviewMailingHeader
   fullName: SuperOffice.CRM.Services.PreviewMailingHeader
   type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    A shipment with information intended for previewing it.
-
-    <p></p>
-
-    Carrier object for PreviewMailingHeader.
-
-    Services for the PreviewMailingHeader Carrier is available from the <xref href="SuperOffice.CRM.Services.IMarketingAgent?text=Marketing+Agent" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nA shipment with information intended for previewing it.\n<p></p>\nCarrier object for PreviewMailingHeader.\nServices for the PreviewMailingHeader Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IMarketingAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public class PreviewMailingHeader : Carrier
+    content: 'public class PreviewMailingHeader : Carrier'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
-
-      Public Class PreviewMailingHeader Inherits Carrier
+      Public Class PreviewMailingHeader
+          Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.MarketingAgent
     commentId: T:SuperOffice.CRM.Services.MarketingAgent
@@ -59,14 +50,12 @@ items:
     commentId: T:SuperOffice.CRM.Services.IMarketingAgent
   inheritance:
   - System.Object
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.PreviewMailingHeader.#ctor
   commentId: M:SuperOffice.CRM.Services.PreviewMailingHeader.#ctor
   id: '#ctor'
@@ -78,18 +67,21 @@ items:
   nameWithType: PreviewMailingHeader.PreviewMailingHeader()
   fullName: SuperOffice.CRM.Services.PreviewMailingHeader.PreviewMailingHeader()
   type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Default constructor
-  example: []
+  summary: "\nDefault constructor\n"
   syntax:
     content: public PreviewMailingHeader()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.PreviewMailingHeader.#ctor*
-  nameWithType.vb: PreviewMailingHeader.New()
-  fullName.vb: SuperOffice.CRM.Services.PreviewMailingHeader.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.PreviewMailingHeader.ToString
   commentId: M:SuperOffice.CRM.Services.PreviewMailingHeader.ToString
   id: ToString
@@ -101,18 +93,26 @@ items:
   nameWithType: PreviewMailingHeader.ToString()
   fullName: SuperOffice.CRM.Services.PreviewMailingHeader.ToString()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the carrier contents as a formatted string.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string.\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString() As String
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.CRM.Services.PreviewMailingHeader.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Services.PreviewMailingHeader.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.PreviewMailingHeader.ToString(System.String)
   id: ToString(System.String)
@@ -120,18 +120,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(string)
-  nameWithType: PreviewMailingHeader.ToString(string)
-  fullName: SuperOffice.CRM.Services.PreviewMailingHeader.ToString(string)
+  name: ToString(String)
+  nameWithType: PreviewMailingHeader.ToString(String)
+  fullName: SuperOffice.CRM.Services.PreviewMailingHeader.ToString(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Returns the carrier contents as a formatted string, useful for debugging.
-
-    Each line in the output is prefixed with the input value.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -143,9 +142,10 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.PreviewMailingHeader.ToString*
-  nameWithType.vb: PreviewMailingHeader.ToString(String)
-  fullName.vb: SuperOffice.CRM.Services.PreviewMailingHeader.ToString(String)
-  name.vb: ToString(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.PreviewMailingHeader.StartDate
   commentId: P:SuperOffice.CRM.Services.PreviewMailingHeader.StartDate
   id: StartDate
@@ -157,28 +157,28 @@ items:
   nameWithType: PreviewMailingHeader.StartDate
   fullName: SuperOffice.CRM.Services.PreviewMailingHeader.StartDate
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The date and time when to start this shipment
-  example: []
+  summary: "\nThe date and time when to start this shipment \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual DateTime StartDate { get; set; }
+    content: public virtual DateTime StartDate { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property StartDate As Date
+    content.vb: Public Overridable Property StartDate As DateTime
   overload: SuperOffice.CRM.Services.PreviewMailingHeader.StartDate*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.PreviewMailingHeader.Status
   commentId: P:SuperOffice.CRM.Services.PreviewMailingHeader.Status
   id: Status
@@ -190,28 +190,28 @@ items:
   nameWithType: PreviewMailingHeader.Status
   fullName: SuperOffice.CRM.Services.PreviewMailingHeader.Status
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Sending/stopped/failed etc.
-  example: []
+  summary: "\nSending/stopped/failed etc. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual ShipmentStatus Status { get; set; }
+    content: public virtual ShipmentStatus Status { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.ShipmentStatus
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Status As ShipmentStatus
+    content.vb: Public Overridable Property Status As ShipmentStatus
   overload: SuperOffice.CRM.Services.PreviewMailingHeader.Status*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.PreviewMailingHeader.ShipmentId
   commentId: P:SuperOffice.CRM.Services.PreviewMailingHeader.ShipmentId
   id: ShipmentId
@@ -223,28 +223,28 @@ items:
   nameWithType: PreviewMailingHeader.ShipmentId
   fullName: SuperOffice.CRM.Services.PreviewMailingHeader.ShipmentId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Primary key
-  example: []
+  summary: "\nPrimary key \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int ShipmentId { get; set; }
+    content: public virtual int ShipmentId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ShipmentId As Integer
+    content.vb: Public Overridable Property ShipmentId As Integer
   overload: SuperOffice.CRM.Services.PreviewMailingHeader.ShipmentId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.PreviewMailingHeader.ShipmentDescription
   commentId: P:SuperOffice.CRM.Services.PreviewMailingHeader.ShipmentDescription
   id: ShipmentDescription
@@ -256,28 +256,28 @@ items:
   nameWithType: PreviewMailingHeader.ShipmentDescription
   fullName: SuperOffice.CRM.Services.PreviewMailingHeader.ShipmentDescription
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Describes the shipment
-  example: []
+  summary: "\nDescribes the shipment \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string ShipmentDescription { get; set; }
+    content: public virtual string ShipmentDescription { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ShipmentDescription As String
+    content.vb: Public Overridable Property ShipmentDescription As String
   overload: SuperOffice.CRM.Services.PreviewMailingHeader.ShipmentDescription*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.PreviewMailingHeader.FromAddress
   commentId: P:SuperOffice.CRM.Services.PreviewMailingHeader.FromAddress
   id: FromAddress
@@ -289,28 +289,28 @@ items:
   nameWithType: PreviewMailingHeader.FromAddress
   fullName: SuperOffice.CRM.Services.PreviewMailingHeader.FromAddress
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Email address to put in the From header of the messages
-  example: []
+  summary: "\nEmail address to put in the From header of the messages \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string FromAddress { get; set; }
+    content: public virtual string FromAddress { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property FromAddress As String
+    content.vb: Public Overridable Property FromAddress As String
   overload: SuperOffice.CRM.Services.PreviewMailingHeader.FromAddress*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.PreviewMailingHeader.Configuration
   commentId: P:SuperOffice.CRM.Services.PreviewMailingHeader.Configuration
   id: Configuration
@@ -322,28 +322,28 @@ items:
   nameWithType: PreviewMailingHeader.Configuration
   fullName: SuperOffice.CRM.Services.PreviewMailingHeader.Configuration
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: This field indicates what kind of shipment this is.
-  example: []
+  summary: "\nThis field indicates what kind of shipment this is. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int Configuration { get; set; }
+    content: public virtual int Configuration { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Configuration As Integer
+    content.vb: Public Overridable Property Configuration As Integer
   overload: SuperOffice.CRM.Services.PreviewMailingHeader.Configuration*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.PreviewMailingHeader.PersonId
   commentId: P:SuperOffice.CRM.Services.PreviewMailingHeader.PersonId
   id: PersonId
@@ -355,28 +355,28 @@ items:
   nameWithType: PreviewMailingHeader.PersonId
   fullName: SuperOffice.CRM.Services.PreviewMailingHeader.PersonId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Primary key
-  example: []
+  summary: "\nPrimary key \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int PersonId { get; set; }
+    content: public virtual int PersonId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property PersonId As Integer
+    content.vb: Public Overridable Property PersonId As Integer
   overload: SuperOffice.CRM.Services.PreviewMailingHeader.PersonId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.PreviewMailingHeader.PersonFullName
   commentId: P:SuperOffice.CRM.Services.PreviewMailingHeader.PersonFullName
   id: PersonFullName
@@ -388,28 +388,28 @@ items:
   nameWithType: PreviewMailingHeader.PersonFullName
   fullName: SuperOffice.CRM.Services.PreviewMailingHeader.PersonFullName
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Get the persons full name (internal name used in clients for employees).
-  example: []
+  summary: "\nGet the persons full name (internal name used in clients for employees).  \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string PersonFullName { get; set; }
+    content: public virtual string PersonFullName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property PersonFullName As String
+    content.vb: Public Overridable Property PersonFullName As String
   overload: SuperOffice.CRM.Services.PreviewMailingHeader.PersonFullName*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.PreviewMailingHeader.ShipmentType
   commentId: P:SuperOffice.CRM.Services.PreviewMailingHeader.ShipmentType
   id: ShipmentType
@@ -421,28 +421,28 @@ items:
   nameWithType: PreviewMailingHeader.ShipmentType
   fullName: SuperOffice.CRM.Services.PreviewMailingHeader.ShipmentType
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The list item
-  example: []
+  summary: "\nThe list item \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string ShipmentType { get; set; }
+    content: public virtual string ShipmentType { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ShipmentType As String
+    content.vb: Public Overridable Property ShipmentType As String
   overload: SuperOffice.CRM.Services.PreviewMailingHeader.ShipmentType*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.PreviewMailingHeader.MessageId
   commentId: P:SuperOffice.CRM.Services.PreviewMailingHeader.MessageId
   id: MessageId
@@ -454,28 +454,28 @@ items:
   nameWithType: PreviewMailingHeader.MessageId
   fullName: SuperOffice.CRM.Services.PreviewMailingHeader.MessageId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Primary key
-  example: []
+  summary: "\nPrimary key \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int MessageId { get; set; }
+    content: public virtual int MessageId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property MessageId As Integer
+    content.vb: Public Overridable Property MessageId As Integer
   overload: SuperOffice.CRM.Services.PreviewMailingHeader.MessageId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.PreviewMailingHeader.MessageSubject
   commentId: P:SuperOffice.CRM.Services.PreviewMailingHeader.MessageSubject
   id: MessageSubject
@@ -487,28 +487,28 @@ items:
   nameWithType: PreviewMailingHeader.MessageSubject
   fullName: SuperOffice.CRM.Services.PreviewMailingHeader.MessageSubject
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The mail subject field of the message
-  example: []
+  summary: "\nThe mail subject field of the message \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string MessageSubject { get; set; }
+    content: public virtual string MessageSubject { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property MessageSubject As String
+    content.vb: Public Overridable Property MessageSubject As String
   overload: SuperOffice.CRM.Services.PreviewMailingHeader.MessageSubject*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.PreviewMailingHeader.DocumentMessageId
   commentId: P:SuperOffice.CRM.Services.PreviewMailingHeader.DocumentMessageId
   id: DocumentMessageId
@@ -520,28 +520,28 @@ items:
   nameWithType: PreviewMailingHeader.DocumentMessageId
   fullName: SuperOffice.CRM.Services.PreviewMailingHeader.DocumentMessageId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: If a document was used as the message this is the document ID.
-  example: []
+  summary: "\nIf a document was used as the message this is the document ID. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int DocumentMessageId { get; set; }
+    content: public virtual int DocumentMessageId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property DocumentMessageId As Integer
+    content.vb: Public Overridable Property DocumentMessageId As Integer
   overload: SuperOffice.CRM.Services.PreviewMailingHeader.DocumentMessageId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.PreviewMailingHeader.NumSent
   commentId: P:SuperOffice.CRM.Services.PreviewMailingHeader.NumSent
   id: NumSent
@@ -553,28 +553,28 @@ items:
   nameWithType: PreviewMailingHeader.NumSent
   fullName: SuperOffice.CRM.Services.PreviewMailingHeader.NumSent
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Number of emails sent at the current time.
-  example: []
+  summary: "\nNumber of emails sent at the current time. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int NumSent { get; set; }
+    content: public virtual int NumSent { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property NumSent As Integer
+    content.vb: Public Overridable Property NumSent As Integer
   overload: SuperOffice.CRM.Services.PreviewMailingHeader.NumSent*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.PreviewMailingHeader.NumOpened
   commentId: P:SuperOffice.CRM.Services.PreviewMailingHeader.NumOpened
   id: NumOpened
@@ -586,28 +586,28 @@ items:
   nameWithType: PreviewMailingHeader.NumOpened
   fullName: SuperOffice.CRM.Services.PreviewMailingHeader.NumOpened
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Number of recipients that opened the email.
-  example: []
+  summary: "\nNumber of recipients that opened the email. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int NumOpened { get; set; }
+    content: public virtual int NumOpened { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property NumOpened As Integer
+    content.vb: Public Overridable Property NumOpened As Integer
   overload: SuperOffice.CRM.Services.PreviewMailingHeader.NumOpened*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.PreviewMailingHeader.NumBounced
   commentId: P:SuperOffice.CRM.Services.PreviewMailingHeader.NumBounced
   id: NumBounced
@@ -619,28 +619,28 @@ items:
   nameWithType: PreviewMailingHeader.NumBounced
   fullName: SuperOffice.CRM.Services.PreviewMailingHeader.NumBounced
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Number of recipients that resulted in a bounce.
-  example: []
+  summary: "\nNumber of recipients that resulted in a bounce. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int NumBounced { get; set; }
+    content: public virtual int NumBounced { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property NumBounced As Integer
+    content.vb: Public Overridable Property NumBounced As Integer
   overload: SuperOffice.CRM.Services.PreviewMailingHeader.NumBounced*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.PreviewMailingHeader.NumClicks
   commentId: P:SuperOffice.CRM.Services.PreviewMailingHeader.NumClicks
   id: NumClicks
@@ -652,33 +652,38 @@ items:
   nameWithType: PreviewMailingHeader.NumClicks
   fullName: SuperOffice.CRM.Services.PreviewMailingHeader.NumClicks
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Number of recipients that clicked at least 1 link in the mailing.
-  example: []
+  summary: "\nNumber of recipients that clicked at least 1 link in the mailing. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int NumClicks { get; set; }
+    content: public virtual int NumClicks { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property NumClicks As Integer
+    content.vb: Public Overridable Property NumClicks As Integer
   overload: SuperOffice.CRM.Services.PreviewMailingHeader.NumClicks*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
 - uid: SuperOffice.CRM.Services.MarketingAgent
   commentId: T:SuperOffice.CRM.Services.MarketingAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.MarketingAgent.html
   name: MarketingAgent
   nameWithType: MarketingAgent
   fullName: SuperOffice.CRM.Services.MarketingAgent
@@ -686,79 +691,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.IMarketingAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.IMarketingAgent.html
   name: IMarketingAgent
   nameWithType: IMarketingAgent
   fullName: SuperOffice.CRM.Services.IMarketingAgent
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.PreviewMailingHeader.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.PreviewMailingHeader.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.PreviewMailingHeader.html#SuperOffice_CRM_Services_PreviewMailingHeader__ctor
   name: PreviewMailingHeader
   nameWithType: PreviewMailingHeader.PreviewMailingHeader
   fullName: SuperOffice.CRM.Services.PreviewMailingHeader.PreviewMailingHeader
-  nameWithType.vb: PreviewMailingHeader.New
-  fullName.vb: SuperOffice.CRM.Services.PreviewMailingHeader.New
-  name.vb: New
 - uid: SuperOffice.CRM.Services.PreviewMailingHeader.ToString*
   commentId: Overload:SuperOffice.CRM.Services.PreviewMailingHeader.ToString
   isExternal: true
-  href: SuperOffice.CRM.Services.PreviewMailingHeader.html#SuperOffice_CRM_Services_PreviewMailingHeader_ToString
   name: ToString
   nameWithType: PreviewMailingHeader.ToString
   fullName: SuperOffice.CRM.Services.PreviewMailingHeader.ToString
@@ -766,35 +710,29 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.PreviewMailingHeader.StartDate*
   commentId: Overload:SuperOffice.CRM.Services.PreviewMailingHeader.StartDate
   isExternal: true
-  href: SuperOffice.CRM.Services.PreviewMailingHeader.html#SuperOffice_CRM_Services_PreviewMailingHeader_StartDate
   name: StartDate
   nameWithType: PreviewMailingHeader.StartDate
   fullName: SuperOffice.CRM.Services.PreviewMailingHeader.StartDate
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
 - uid: SuperOffice.CRM.Services.PreviewMailingHeader.Status*
   commentId: Overload:SuperOffice.CRM.Services.PreviewMailingHeader.Status
   isExternal: true
-  href: SuperOffice.CRM.Services.PreviewMailingHeader.html#SuperOffice_CRM_Services_PreviewMailingHeader_Status
   name: Status
   nameWithType: PreviewMailingHeader.Status
   fullName: SuperOffice.CRM.Services.PreviewMailingHeader.Status
@@ -807,7 +745,6 @@ references:
 - uid: SuperOffice.CRM.Services.PreviewMailingHeader.ShipmentId*
   commentId: Overload:SuperOffice.CRM.Services.PreviewMailingHeader.ShipmentId
   isExternal: true
-  href: SuperOffice.CRM.Services.PreviewMailingHeader.html#SuperOffice_CRM_Services_PreviewMailingHeader_ShipmentId
   name: ShipmentId
   nameWithType: PreviewMailingHeader.ShipmentId
   fullName: SuperOffice.CRM.Services.PreviewMailingHeader.ShipmentId
@@ -815,101 +752,84 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Services.PreviewMailingHeader.ShipmentDescription*
   commentId: Overload:SuperOffice.CRM.Services.PreviewMailingHeader.ShipmentDescription
   isExternal: true
-  href: SuperOffice.CRM.Services.PreviewMailingHeader.html#SuperOffice_CRM_Services_PreviewMailingHeader_ShipmentDescription
   name: ShipmentDescription
   nameWithType: PreviewMailingHeader.ShipmentDescription
   fullName: SuperOffice.CRM.Services.PreviewMailingHeader.ShipmentDescription
 - uid: SuperOffice.CRM.Services.PreviewMailingHeader.FromAddress*
   commentId: Overload:SuperOffice.CRM.Services.PreviewMailingHeader.FromAddress
   isExternal: true
-  href: SuperOffice.CRM.Services.PreviewMailingHeader.html#SuperOffice_CRM_Services_PreviewMailingHeader_FromAddress
   name: FromAddress
   nameWithType: PreviewMailingHeader.FromAddress
   fullName: SuperOffice.CRM.Services.PreviewMailingHeader.FromAddress
 - uid: SuperOffice.CRM.Services.PreviewMailingHeader.Configuration*
   commentId: Overload:SuperOffice.CRM.Services.PreviewMailingHeader.Configuration
   isExternal: true
-  href: SuperOffice.CRM.Services.PreviewMailingHeader.html#SuperOffice_CRM_Services_PreviewMailingHeader_Configuration
   name: Configuration
   nameWithType: PreviewMailingHeader.Configuration
   fullName: SuperOffice.CRM.Services.PreviewMailingHeader.Configuration
 - uid: SuperOffice.CRM.Services.PreviewMailingHeader.PersonId*
   commentId: Overload:SuperOffice.CRM.Services.PreviewMailingHeader.PersonId
   isExternal: true
-  href: SuperOffice.CRM.Services.PreviewMailingHeader.html#SuperOffice_CRM_Services_PreviewMailingHeader_PersonId
   name: PersonId
   nameWithType: PreviewMailingHeader.PersonId
   fullName: SuperOffice.CRM.Services.PreviewMailingHeader.PersonId
 - uid: SuperOffice.CRM.Services.PreviewMailingHeader.PersonFullName*
   commentId: Overload:SuperOffice.CRM.Services.PreviewMailingHeader.PersonFullName
   isExternal: true
-  href: SuperOffice.CRM.Services.PreviewMailingHeader.html#SuperOffice_CRM_Services_PreviewMailingHeader_PersonFullName
   name: PersonFullName
   nameWithType: PreviewMailingHeader.PersonFullName
   fullName: SuperOffice.CRM.Services.PreviewMailingHeader.PersonFullName
 - uid: SuperOffice.CRM.Services.PreviewMailingHeader.ShipmentType*
   commentId: Overload:SuperOffice.CRM.Services.PreviewMailingHeader.ShipmentType
   isExternal: true
-  href: SuperOffice.CRM.Services.PreviewMailingHeader.html#SuperOffice_CRM_Services_PreviewMailingHeader_ShipmentType
   name: ShipmentType
   nameWithType: PreviewMailingHeader.ShipmentType
   fullName: SuperOffice.CRM.Services.PreviewMailingHeader.ShipmentType
 - uid: SuperOffice.CRM.Services.PreviewMailingHeader.MessageId*
   commentId: Overload:SuperOffice.CRM.Services.PreviewMailingHeader.MessageId
   isExternal: true
-  href: SuperOffice.CRM.Services.PreviewMailingHeader.html#SuperOffice_CRM_Services_PreviewMailingHeader_MessageId
   name: MessageId
   nameWithType: PreviewMailingHeader.MessageId
   fullName: SuperOffice.CRM.Services.PreviewMailingHeader.MessageId
 - uid: SuperOffice.CRM.Services.PreviewMailingHeader.MessageSubject*
   commentId: Overload:SuperOffice.CRM.Services.PreviewMailingHeader.MessageSubject
   isExternal: true
-  href: SuperOffice.CRM.Services.PreviewMailingHeader.html#SuperOffice_CRM_Services_PreviewMailingHeader_MessageSubject
   name: MessageSubject
   nameWithType: PreviewMailingHeader.MessageSubject
   fullName: SuperOffice.CRM.Services.PreviewMailingHeader.MessageSubject
 - uid: SuperOffice.CRM.Services.PreviewMailingHeader.DocumentMessageId*
   commentId: Overload:SuperOffice.CRM.Services.PreviewMailingHeader.DocumentMessageId
   isExternal: true
-  href: SuperOffice.CRM.Services.PreviewMailingHeader.html#SuperOffice_CRM_Services_PreviewMailingHeader_DocumentMessageId
   name: DocumentMessageId
   nameWithType: PreviewMailingHeader.DocumentMessageId
   fullName: SuperOffice.CRM.Services.PreviewMailingHeader.DocumentMessageId
 - uid: SuperOffice.CRM.Services.PreviewMailingHeader.NumSent*
   commentId: Overload:SuperOffice.CRM.Services.PreviewMailingHeader.NumSent
   isExternal: true
-  href: SuperOffice.CRM.Services.PreviewMailingHeader.html#SuperOffice_CRM_Services_PreviewMailingHeader_NumSent
   name: NumSent
   nameWithType: PreviewMailingHeader.NumSent
   fullName: SuperOffice.CRM.Services.PreviewMailingHeader.NumSent
 - uid: SuperOffice.CRM.Services.PreviewMailingHeader.NumOpened*
   commentId: Overload:SuperOffice.CRM.Services.PreviewMailingHeader.NumOpened
   isExternal: true
-  href: SuperOffice.CRM.Services.PreviewMailingHeader.html#SuperOffice_CRM_Services_PreviewMailingHeader_NumOpened
   name: NumOpened
   nameWithType: PreviewMailingHeader.NumOpened
   fullName: SuperOffice.CRM.Services.PreviewMailingHeader.NumOpened
 - uid: SuperOffice.CRM.Services.PreviewMailingHeader.NumBounced*
   commentId: Overload:SuperOffice.CRM.Services.PreviewMailingHeader.NumBounced
   isExternal: true
-  href: SuperOffice.CRM.Services.PreviewMailingHeader.html#SuperOffice_CRM_Services_PreviewMailingHeader_NumBounced
   name: NumBounced
   nameWithType: PreviewMailingHeader.NumBounced
   fullName: SuperOffice.CRM.Services.PreviewMailingHeader.NumBounced
 - uid: SuperOffice.CRM.Services.PreviewMailingHeader.NumClicks*
   commentId: Overload:SuperOffice.CRM.Services.PreviewMailingHeader.NumClicks
   isExternal: true
-  href: SuperOffice.CRM.Services.PreviewMailingHeader.html#SuperOffice_CRM_Services_PreviewMailingHeader_NumClicks
   name: NumClicks
   nameWithType: PreviewMailingHeader.NumClicks
   fullName: SuperOffice.CRM.Services.PreviewMailingHeader.NumClicks

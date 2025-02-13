@@ -18,27 +18,18 @@ items:
   nameWithType: StatisticsDataValue
   fullName: SuperOffice.CRM.Services.StatisticsDataValue
   type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    This class contains a single data value in a data set, used by CS for Status Screen reports
-
-    <p></p>
-
-    Carrier object for StatisticsDataValue.
-
-    Services for the StatisticsDataValue Carrier is available from the <xref href="SuperOffice.CRM.Services.ICustomerServiceAgent?text=CustomerService+Agent" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nThis class contains a single data value in a data set, used by CS for Status Screen reports\n<p></p>\nCarrier object for StatisticsDataValue.\nServices for the StatisticsDataValue Carrier is available from the <xref href=\"SuperOffice.CRM.Services.ICustomerServiceAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public class StatisticsDataValue : Carrier
+    content: 'public class StatisticsDataValue : Carrier'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
-
-      Public Class StatisticsDataValue Inherits Carrier
+      Public Class StatisticsDataValue
+          Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.CustomerServiceAgent
     commentId: T:SuperOffice.CRM.Services.CustomerServiceAgent
@@ -46,14 +37,12 @@ items:
     commentId: T:SuperOffice.CRM.Services.ICustomerServiceAgent
   inheritance:
   - System.Object
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.StatisticsDataValue.#ctor
   commentId: M:SuperOffice.CRM.Services.StatisticsDataValue.#ctor
   id: '#ctor'
@@ -65,18 +54,21 @@ items:
   nameWithType: StatisticsDataValue.StatisticsDataValue()
   fullName: SuperOffice.CRM.Services.StatisticsDataValue.StatisticsDataValue()
   type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Default constructor
-  example: []
+  summary: "\nDefault constructor\n"
   syntax:
     content: public StatisticsDataValue()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.StatisticsDataValue.#ctor*
-  nameWithType.vb: StatisticsDataValue.New()
-  fullName.vb: SuperOffice.CRM.Services.StatisticsDataValue.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.StatisticsDataValue.ToString
   commentId: M:SuperOffice.CRM.Services.StatisticsDataValue.ToString
   id: ToString
@@ -88,18 +80,26 @@ items:
   nameWithType: StatisticsDataValue.ToString()
   fullName: SuperOffice.CRM.Services.StatisticsDataValue.ToString()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the carrier contents as a formatted string.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string.\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString() As String
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.CRM.Services.StatisticsDataValue.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Services.StatisticsDataValue.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.StatisticsDataValue.ToString(System.String)
   id: ToString(System.String)
@@ -107,18 +107,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(string)
-  nameWithType: StatisticsDataValue.ToString(string)
-  fullName: SuperOffice.CRM.Services.StatisticsDataValue.ToString(string)
+  name: ToString(String)
+  nameWithType: StatisticsDataValue.ToString(String)
+  fullName: SuperOffice.CRM.Services.StatisticsDataValue.ToString(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Returns the carrier contents as a formatted string, useful for debugging.
-
-    Each line in the output is prefixed with the input value.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -130,9 +129,10 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.StatisticsDataValue.ToString*
-  nameWithType.vb: StatisticsDataValue.ToString(String)
-  fullName.vb: SuperOffice.CRM.Services.StatisticsDataValue.ToString(String)
-  name.vb: ToString(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.StatisticsDataValue.Label
   commentId: P:SuperOffice.CRM.Services.StatisticsDataValue.Label
   id: Label
@@ -144,28 +144,28 @@ items:
   nameWithType: StatisticsDataValue.Label
   fullName: SuperOffice.CRM.Services.StatisticsDataValue.Label
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The label for the data value
-  example: []
+  summary: "\nThe label for the data value \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string Label { get; set; }
+    content: public virtual string Label { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Label As String
+    content.vb: Public Overridable Property Label As String
   overload: SuperOffice.CRM.Services.StatisticsDataValue.Label*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.StatisticsDataValue.Value
   commentId: P:SuperOffice.CRM.Services.StatisticsDataValue.Value
   id: Value
@@ -177,28 +177,28 @@ items:
   nameWithType: StatisticsDataValue.Value
   fullName: SuperOffice.CRM.Services.StatisticsDataValue.Value
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The value for the data value
-  example: []
+  summary: "\nThe value for the data value \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual double Value { get; set; }
+    content: public virtual double Value { get; set; }
     parameters: []
     return:
       type: System.Double
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Value As Double
+    content.vb: Public Overridable Property Value As Double
   overload: SuperOffice.CRM.Services.StatisticsDataValue.Value*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.StatisticsDataValue.Description
   commentId: P:SuperOffice.CRM.Services.StatisticsDataValue.Description
   id: Description
@@ -210,33 +210,38 @@ items:
   nameWithType: StatisticsDataValue.Description
   fullName: SuperOffice.CRM.Services.StatisticsDataValue.Description
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Tooltip for data value
-  example: []
+  summary: "\nTooltip for data value \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string Description { get; set; }
+    content: public virtual string Description { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Description As String
+    content.vb: Public Overridable Property Description As String
   overload: SuperOffice.CRM.Services.StatisticsDataValue.Description*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
 - uid: SuperOffice.CRM.Services.CustomerServiceAgent
   commentId: T:SuperOffice.CRM.Services.CustomerServiceAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.CustomerServiceAgent.html
   name: CustomerServiceAgent
   nameWithType: CustomerServiceAgent
   fullName: SuperOffice.CRM.Services.CustomerServiceAgent
@@ -244,79 +249,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.ICustomerServiceAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.ICustomerServiceAgent.html
   name: ICustomerServiceAgent
   nameWithType: ICustomerServiceAgent
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.StatisticsDataValue.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.StatisticsDataValue.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.StatisticsDataValue.html#SuperOffice_CRM_Services_StatisticsDataValue__ctor
   name: StatisticsDataValue
   nameWithType: StatisticsDataValue.StatisticsDataValue
   fullName: SuperOffice.CRM.Services.StatisticsDataValue.StatisticsDataValue
-  nameWithType.vb: StatisticsDataValue.New
-  fullName.vb: SuperOffice.CRM.Services.StatisticsDataValue.New
-  name.vb: New
 - uid: SuperOffice.CRM.Services.StatisticsDataValue.ToString*
   commentId: Overload:SuperOffice.CRM.Services.StatisticsDataValue.ToString
   isExternal: true
-  href: SuperOffice.CRM.Services.StatisticsDataValue.html#SuperOffice_CRM_Services_StatisticsDataValue_ToString
   name: ToString
   nameWithType: StatisticsDataValue.ToString
   fullName: SuperOffice.CRM.Services.StatisticsDataValue.ToString
@@ -324,24 +268,24 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.StatisticsDataValue.Label*
   commentId: Overload:SuperOffice.CRM.Services.StatisticsDataValue.Label
   isExternal: true
-  href: SuperOffice.CRM.Services.StatisticsDataValue.html#SuperOffice_CRM_Services_StatisticsDataValue_Label
   name: Label
   nameWithType: StatisticsDataValue.Label
   fullName: SuperOffice.CRM.Services.StatisticsDataValue.Label
 - uid: SuperOffice.CRM.Services.StatisticsDataValue.Value*
   commentId: Overload:SuperOffice.CRM.Services.StatisticsDataValue.Value
   isExternal: true
-  href: SuperOffice.CRM.Services.StatisticsDataValue.html#SuperOffice_CRM_Services_StatisticsDataValue_Value
   name: Value
   nameWithType: StatisticsDataValue.Value
   fullName: SuperOffice.CRM.Services.StatisticsDataValue.Value
@@ -349,17 +293,12 @@ references:
   commentId: T:System.Double
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.double
-  name: double
-  nameWithType: double
-  fullName: double
-  nameWithType.vb: Double
-  fullName.vb: Double
-  name.vb: Double
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
 - uid: SuperOffice.CRM.Services.StatisticsDataValue.Description*
   commentId: Overload:SuperOffice.CRM.Services.StatisticsDataValue.Description
   isExternal: true
-  href: SuperOffice.CRM.Services.StatisticsDataValue.html#SuperOffice_CRM_Services_StatisticsDataValue_Description
   name: Description
   nameWithType: StatisticsDataValue.Description
   fullName: SuperOffice.CRM.Services.StatisticsDataValue.Description

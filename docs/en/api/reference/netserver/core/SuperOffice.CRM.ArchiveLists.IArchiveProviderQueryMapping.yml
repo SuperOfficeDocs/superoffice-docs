@@ -13,17 +13,25 @@ items:
   nameWithType: IArchiveProviderQueryMapping
   fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderQueryMapping
   type: Interface
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: Optional interface for extenders.
-  example: []
+  summary: "\nOptional interface for extenders.\n"
   syntax:
     content: public interface IArchiveProviderQueryMapping
     content.vb: Public Interface IArchiveProviderQueryMapping
   extensionMethods:
   - SuperOffice.CRM.ArchiveLists.IArchiveProviderQueryMapping.EnumUtil.MapEnums``2
   - SuperOffice.CRM.ArchiveLists.IArchiveProviderQueryMapping.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
 - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderQueryMapping.GetArchiveColumnName(SuperOffice.Data.Dictionary.SoField)
   commentId: M:SuperOffice.CRM.ArchiveLists.IArchiveProviderQueryMapping.GetArchiveColumnName(SuperOffice.Data.Dictionary.SoField)
   id: GetArchiveColumnName(SuperOffice.Data.Dictionary.SoField)
@@ -35,18 +43,19 @@ items:
   nameWithType: IArchiveProviderQueryMapping.GetArchiveColumnName(SoField)
   fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderQueryMapping.GetArchiveColumnName(SuperOffice.Data.Dictionary.SoField)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: Gets the archive column name using the SoField as reference.
-  remarks: Method is invoked on child extenders and stops at the first match. Can only be run after <xref href="SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.ModifyQuery" data-throw-if-not-resolved="false"></xref> has been invoked.
-  example: []
+  summary: "\nGets the archive column name using the SoField as reference.\n"
+  remarks: "\nMethod is invoked on child extenders and stops at the first match. Can only be run after <xref href=\"SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.ModifyQuery\" data-throw-if-not-resolved=\"false\"></xref> has been invoked.\n"
   syntax:
     content: string GetArchiveColumnName(SoField field)
     parameters:
     - id: field
       type: SuperOffice.Data.Dictionary.SoField
-      description: ''
     return:
       type: System.String
       description: Returns archive column name, null if no SoField match was found.
@@ -56,150 +65,80 @@ references:
 - uid: SuperOffice.CRM.ArchiveLists
   commentId: N:SuperOffice.CRM.ArchiveLists
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.ArchiveLists
   nameWithType: SuperOffice.CRM.ArchiveLists
   fullName: SuperOffice.CRM.ArchiveLists
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.ArchiveLists
-    name: ArchiveLists
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.ArchiveLists
-    name: ArchiveLists
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.html
 - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderQueryMapping.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<IArchiveProviderQueryMapping, To>(IArchiveProviderQueryMapping)
-  nameWithType: EnumUtil.MapEnums<IArchiveProviderQueryMapping, To>(IArchiveProviderQueryMapping)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.IArchiveProviderQueryMapping, To>(SuperOffice.CRM.ArchiveLists.IArchiveProviderQueryMapping)
-  nameWithType.vb: EnumUtil.MapEnums(Of IArchiveProviderQueryMapping, To)(IArchiveProviderQueryMapping)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.IArchiveProviderQueryMapping, To)(SuperOffice.CRM.ArchiveLists.IArchiveProviderQueryMapping)
-  name.vb: MapEnums(Of IArchiveProviderQueryMapping, To)(IArchiveProviderQueryMapping)
+  name: MapEnums<IArchiveProviderQueryMapping, To>()
+  nameWithType: EnumUtil.MapEnums<IArchiveProviderQueryMapping, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.IArchiveProviderQueryMapping, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of IArchiveProviderQueryMapping, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.IArchiveProviderQueryMapping, To)()
+  name.vb: MapEnums(Of IArchiveProviderQueryMapping, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.ArchiveLists.IArchiveProviderQueryMapping)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<IArchiveProviderQueryMapping, To>
+    nameWithType: EnumUtil.MapEnums<IArchiveProviderQueryMapping, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.IArchiveProviderQueryMapping, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderQueryMapping
-    name: IArchiveProviderQueryMapping
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.IArchiveProviderQueryMapping.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderQueryMapping
-    name: IArchiveProviderQueryMapping
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.IArchiveProviderQueryMapping.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.ArchiveLists.IArchiveProviderQueryMapping)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of IArchiveProviderQueryMapping, To)
+    nameWithType: EnumUtil.MapEnums(Of IArchiveProviderQueryMapping, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.IArchiveProviderQueryMapping, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderQueryMapping
-    name: IArchiveProviderQueryMapping
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.IArchiveProviderQueryMapping.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderQueryMapping
-    name: IArchiveProviderQueryMapping
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.IArchiveProviderQueryMapping.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderQueryMapping.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<IArchiveProviderQueryMapping, To>(IArchiveProviderQueryMapping)
-  nameWithType: Converters.MapEnums<IArchiveProviderQueryMapping, To>(IArchiveProviderQueryMapping)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.IArchiveProviderQueryMapping, To>(SuperOffice.CRM.ArchiveLists.IArchiveProviderQueryMapping)
-  nameWithType.vb: Converters.MapEnums(Of IArchiveProviderQueryMapping, To)(IArchiveProviderQueryMapping)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.IArchiveProviderQueryMapping, To)(SuperOffice.CRM.ArchiveLists.IArchiveProviderQueryMapping)
-  name.vb: MapEnums(Of IArchiveProviderQueryMapping, To)(IArchiveProviderQueryMapping)
+  name: MapEnums<IArchiveProviderQueryMapping, To>()
+  nameWithType: Converters.MapEnums<IArchiveProviderQueryMapping, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.IArchiveProviderQueryMapping, To>()
+  nameWithType.vb: Converters.MapEnums(Of IArchiveProviderQueryMapping, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.IArchiveProviderQueryMapping, To)()
+  name.vb: MapEnums(Of IArchiveProviderQueryMapping, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.ArchiveLists.IArchiveProviderQueryMapping)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<IArchiveProviderQueryMapping, To>
+    nameWithType: Converters.MapEnums<IArchiveProviderQueryMapping, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.IArchiveProviderQueryMapping, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderQueryMapping
-    name: IArchiveProviderQueryMapping
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.IArchiveProviderQueryMapping.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderQueryMapping
-    name: IArchiveProviderQueryMapping
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.IArchiveProviderQueryMapping.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.ArchiveLists.IArchiveProviderQueryMapping)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of IArchiveProviderQueryMapping, To)
+    nameWithType: Converters.MapEnums(Of IArchiveProviderQueryMapping, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.IArchiveProviderQueryMapping, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderQueryMapping
-    name: IArchiveProviderQueryMapping
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.IArchiveProviderQueryMapping.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderQueryMapping
-    name: IArchiveProviderQueryMapping
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.IArchiveProviderQueryMapping.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -208,45 +147,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -255,105 +192,50 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.ModifyQuery
-  commentId: M:SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.ModifyQuery
-  parent: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend
-  isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.html#SuperOffice_CRM_ArchiveLists_IArchiveProviderDoesExtend_ModifyQuery
-  name: ModifyQuery()
-  nameWithType: IArchiveProviderDoesExtend.ModifyQuery()
-  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.ModifyQuery()
-  spec.csharp:
-  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.ModifyQuery
-    name: ModifyQuery
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.html#SuperOffice_CRM_ArchiveLists_IArchiveProviderDoesExtend_ModifyQuery
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.ModifyQuery
-    name: ModifyQuery
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.html#SuperOffice_CRM_ArchiveLists_IArchiveProviderDoesExtend_ModifyQuery
-  - name: (
-  - name: )
 - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderQueryMapping.GetArchiveColumnName*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.IArchiveProviderQueryMapping.GetArchiveColumnName
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.IArchiveProviderQueryMapping.html#SuperOffice_CRM_ArchiveLists_IArchiveProviderQueryMapping_GetArchiveColumnName_SuperOffice_Data_Dictionary_SoField_
   name: GetArchiveColumnName
   nameWithType: IArchiveProviderQueryMapping.GetArchiveColumnName
   fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderQueryMapping.GetArchiveColumnName
@@ -361,7 +243,6 @@ references:
   commentId: T:SuperOffice.Data.Dictionary.SoField
   parent: SuperOffice.Data.Dictionary
   isExternal: true
-  href: SuperOffice.Data.Dictionary.SoField.html
   name: SoField
   nameWithType: SoField
   fullName: SuperOffice.Data.Dictionary.SoField
@@ -369,62 +250,18 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
-- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend
-  commentId: T:SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend
-  parent: SuperOffice.CRM.ArchiveLists
-  isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.html
-  name: IArchiveProviderDoesExtend
-  nameWithType: IArchiveProviderDoesExtend
-  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.Data.Dictionary
   commentId: N:SuperOffice.Data.Dictionary
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data.Dictionary
   nameWithType: SuperOffice.Data.Dictionary
   fullName: SuperOffice.Data.Dictionary
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.Dictionary
-    name: Dictionary
-    isExternal: true
-    href: SuperOffice.Data.Dictionary.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.Dictionary
-    name: Dictionary
-    isExternal: true
-    href: SuperOffice.Data.Dictionary.html
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System

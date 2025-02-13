@@ -30,11 +30,13 @@ items:
   nameWithType: UserGroupCache
   fullName: SuperOffice.CRM.Security.UserGroupCache
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Security
-  summary: Cache holding information about the users (e.g.  associates) user groups
-  example: []
+  summary: "\nCache holding information about the users (e.g.  associates) user groups\n"
   syntax:
     content: >-
       [CacheV2("Database", 0)]
@@ -43,7 +45,9 @@ items:
     content.vb: >-
       <CacheV2("Database", 0)>
 
-      Public NotInheritable Class UserGroupCache Inherits CacheBaseV2 Implements IFlushableV2, IDisposable
+      Public NotInheritable Class UserGroupCache
+          Inherits CacheBaseV2
+          Implements IFlushableV2, IDisposable
   inheritance:
   - System.Object
   - SuperOffice.Data.Cache.CacheBaseV2
@@ -51,17 +55,13 @@ items:
   - SuperOffice.Data.Cache.IFlushableV2
   - System.IDisposable
   inheritedMembers:
+  - SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidated(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave)
   - SuperOffice.Data.Cache.CacheBaseV2.Dispose
   - SuperOffice.Data.Cache.CacheBaseV2.Flush
   - SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate
   - SuperOffice.Data.Cache.CacheBaseV2.GetCurrent``1
+  - SuperOffice.Data.Cache.CacheBaseV2.Load
   - SuperOffice.Data.Cache.CacheBaseV2.Disposed
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
   extensionMethods:
   - SuperOffice.CRM.Security.UserGroupCache.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Security.UserGroupCache.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -73,6 +73,14 @@ items:
       value: Database
     - type: System.Int32
       value: 0
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
 - uid: SuperOffice.CRM.Security.UserGroupCache.GetCount
   commentId: M:SuperOffice.CRM.Security.UserGroupCache.GetCount
   id: GetCount
@@ -84,17 +92,23 @@ items:
   nameWithType: UserGroupCache.GetCount()
   fullName: SuperOffice.CRM.Security.UserGroupCache.GetCount()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Security
-  summary: Get the number of user groups in the system
-  example: []
+  summary: "\nGet the number of user groups in the system\n"
   syntax:
     content: public int GetCount()
     return:
       type: System.Int32
-    content.vb: Public Function GetCount() As Integer
+    content.vb: Public Function GetCount As Integer
   overload: SuperOffice.CRM.Security.UserGroupCache.GetCount*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Security.UserGroupCache.GetUserGroupIds
   commentId: M:SuperOffice.CRM.Security.UserGroupCache.GetUserGroupIds
   id: GetUserGroupIds
@@ -106,18 +120,24 @@ items:
   nameWithType: UserGroupCache.GetUserGroupIds()
   fullName: SuperOffice.CRM.Security.UserGroupCache.GetUserGroupIds()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Security
-  summary: Get all user group id's as an array
-  example: []
+  summary: "\nGet all user group id&apos;s as an array\n"
   syntax:
     content: public IEnumerable<int> GetUserGroupIds()
     return:
       type: System.Collections.Generic.IEnumerable{System.Int32}
       description: Array, may be empty but never null
-    content.vb: Public Function GetUserGroupIds() As IEnumerable(Of Integer)
+    content.vb: Public Function GetUserGroupIds As IEnumerable(Of Integer)
   overload: SuperOffice.CRM.Security.UserGroupCache.GetUserGroupIds*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Security.UserGroupCache.GetGroupRelationToUser(System.Int32)
   commentId: M:SuperOffice.CRM.Security.UserGroupCache.GetGroupRelationToUser(System.Int32)
   id: GetGroupRelationToUser(System.Int32)
@@ -125,15 +145,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetGroupRelationToUser(int)
-  nameWithType: UserGroupCache.GetGroupRelationToUser(int)
-  fullName: SuperOffice.CRM.Security.UserGroupCache.GetGroupRelationToUser(int)
+  name: GetGroupRelationToUser(Int32)
+  nameWithType: UserGroupCache.GetGroupRelationToUser(Int32)
+  fullName: SuperOffice.CRM.Security.UserGroupCache.GetGroupRelationToUser(System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Security
-  summary: Get the group relation from the currently logged on user to another user.
-  example: []
+  summary: "\nGet the group relation from the currently logged on user to another user.\n"
   syntax:
     content: public UserGroupCache.GroupRelation GetGroupRelationToUser(int toAssociateId)
     parameters:
@@ -145,9 +167,10 @@ items:
       description: Kind of relation to the group.
     content.vb: Public Function GetGroupRelationToUser(toAssociateId As Integer) As UserGroupCache.GroupRelation
   overload: SuperOffice.CRM.Security.UserGroupCache.GetGroupRelationToUser*
-  nameWithType.vb: UserGroupCache.GetGroupRelationToUser(Integer)
-  fullName.vb: SuperOffice.CRM.Security.UserGroupCache.GetGroupRelationToUser(Integer)
-  name.vb: GetGroupRelationToUser(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Security.UserGroupCache.GetGroupRelationToUser(System.Int32,System.Int32)
   commentId: M:SuperOffice.CRM.Security.UserGroupCache.GetGroupRelationToUser(System.Int32,System.Int32)
   id: GetGroupRelationToUser(System.Int32,System.Int32)
@@ -155,10 +178,13 @@ items:
   langs:
   - csharp
   - vb
-  name: GetGroupRelationToUser(int, int)
-  nameWithType: UserGroupCache.GetGroupRelationToUser(int, int)
-  fullName: SuperOffice.CRM.Security.UserGroupCache.GetGroupRelationToUser(int, int)
+  name: GetGroupRelationToUser(Int32, Int32)
+  nameWithType: UserGroupCache.GetGroupRelationToUser(Int32, Int32)
+  fullName: SuperOffice.CRM.Security.UserGroupCache.GetGroupRelationToUser(System.Int32, System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Security
@@ -173,9 +199,10 @@ items:
       type: SuperOffice.CRM.Security.UserGroupCache.GroupRelation
     content.vb: Public Function GetGroupRelationToUser(fromAssociateId As Integer, toAssociateId As Integer) As UserGroupCache.GroupRelation
   overload: SuperOffice.CRM.Security.UserGroupCache.GetGroupRelationToUser*
-  nameWithType.vb: UserGroupCache.GetGroupRelationToUser(Integer, Integer)
-  fullName.vb: SuperOffice.CRM.Security.UserGroupCache.GetGroupRelationToUser(Integer, Integer)
-  name.vb: GetGroupRelationToUser(Integer, Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Security.UserGroupCache.GetGroupRelationToUser(System.Int32,System.Int32,System.Int32@)
   commentId: M:SuperOffice.CRM.Security.UserGroupCache.GetGroupRelationToUser(System.Int32,System.Int32,System.Int32@)
   id: GetGroupRelationToUser(System.Int32,System.Int32,System.Int32@)
@@ -183,15 +210,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetGroupRelationToUser(int, int, out int)
-  nameWithType: UserGroupCache.GetGroupRelationToUser(int, int, out int)
-  fullName: SuperOffice.CRM.Security.UserGroupCache.GetGroupRelationToUser(int, int, out int)
+  name: GetGroupRelationToUser(Int32, Int32, out Int32)
+  nameWithType: UserGroupCache.GetGroupRelationToUser(Int32, Int32, out Int32)
+  fullName: SuperOffice.CRM.Security.UserGroupCache.GetGroupRelationToUser(System.Int32, System.Int32, out System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Security
-  summary: Get the group relation between two users.
-  example: []
+  summary: "\nGet the group relation between two users.\n"
   syntax:
     content: public UserGroupCache.GroupRelation GetGroupRelationToUser(int fromAssociateId, int toAssociateId, out int firstCommonGroup)
     parameters:
@@ -206,11 +235,15 @@ items:
     return:
       type: SuperOffice.CRM.Security.UserGroupCache.GroupRelation
       description: Kind of relation to the group.
-    content.vb: Public Function GetGroupRelationToUser(fromAssociateId As Integer, toAssociateId As Integer, firstCommonGroup As Integer) As UserGroupCache.GroupRelation
+    content.vb: Public Function GetGroupRelationToUser(fromAssociateId As Integer, toAssociateId As Integer, ByRef firstCommonGroup As Integer) As UserGroupCache.GroupRelation
   overload: SuperOffice.CRM.Security.UserGroupCache.GetGroupRelationToUser*
-  nameWithType.vb: UserGroupCache.GetGroupRelationToUser(Integer, Integer, Integer)
-  fullName.vb: SuperOffice.CRM.Security.UserGroupCache.GetGroupRelationToUser(Integer, Integer, Integer)
-  name.vb: GetGroupRelationToUser(Integer, Integer, Integer)
+  nameWithType.vb: UserGroupCache.GetGroupRelationToUser(Int32, Int32, ByRef Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Security.UserGroupCache.GetGroupRelationToUser(System.Int32, System.Int32, ByRef System.Int32)
+  name.vb: GetGroupRelationToUser(Int32, Int32, ByRef Int32)
 - uid: SuperOffice.CRM.Security.UserGroupCache.IsAssociateInGroup(System.Int32)
   commentId: M:SuperOffice.CRM.Security.UserGroupCache.IsAssociateInGroup(System.Int32)
   id: IsAssociateInGroup(System.Int32)
@@ -218,15 +251,17 @@ items:
   langs:
   - csharp
   - vb
-  name: IsAssociateInGroup(int)
-  nameWithType: UserGroupCache.IsAssociateInGroup(int)
-  fullName: SuperOffice.CRM.Security.UserGroupCache.IsAssociateInGroup(int)
+  name: IsAssociateInGroup(Int32)
+  nameWithType: UserGroupCache.IsAssociateInGroup(Int32)
+  fullName: SuperOffice.CRM.Security.UserGroupCache.IsAssociateInGroup(System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Security
-  summary: Check if the currently logged on associate is member of a group.
-  example: []
+  summary: "\nCheck if the currently logged on associate is member of a group.\n"
   syntax:
     content: public bool IsAssociateInGroup(int userGroupId)
     parameters:
@@ -238,9 +273,10 @@ items:
       description: True if the user is member of the UserGroup.
     content.vb: Public Function IsAssociateInGroup(userGroupId As Integer) As Boolean
   overload: SuperOffice.CRM.Security.UserGroupCache.IsAssociateInGroup*
-  nameWithType.vb: UserGroupCache.IsAssociateInGroup(Integer)
-  fullName.vb: SuperOffice.CRM.Security.UserGroupCache.IsAssociateInGroup(Integer)
-  name.vb: IsAssociateInGroup(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Security.UserGroupCache.IsAssociateInGroup(System.Int32,System.Int32)
   commentId: M:SuperOffice.CRM.Security.UserGroupCache.IsAssociateInGroup(System.Int32,System.Int32)
   id: IsAssociateInGroup(System.Int32,System.Int32)
@@ -248,15 +284,17 @@ items:
   langs:
   - csharp
   - vb
-  name: IsAssociateInGroup(int, int)
-  nameWithType: UserGroupCache.IsAssociateInGroup(int, int)
-  fullName: SuperOffice.CRM.Security.UserGroupCache.IsAssociateInGroup(int, int)
+  name: IsAssociateInGroup(Int32, Int32)
+  nameWithType: UserGroupCache.IsAssociateInGroup(Int32, Int32)
+  fullName: SuperOffice.CRM.Security.UserGroupCache.IsAssociateInGroup(System.Int32, System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Security
-  summary: Check if an associate is member of a group.
-  example: []
+  summary: "\nCheck if an associate is member of a group.\n"
   syntax:
     content: public bool IsAssociateInGroup(int associateId, int userGroupId)
     parameters:
@@ -271,9 +309,10 @@ items:
       description: True if the user is member of the UserGroup.
     content.vb: Public Function IsAssociateInGroup(associateId As Integer, userGroupId As Integer) As Boolean
   overload: SuperOffice.CRM.Security.UserGroupCache.IsAssociateInGroup*
-  nameWithType.vb: UserGroupCache.IsAssociateInGroup(Integer, Integer)
-  fullName.vb: SuperOffice.CRM.Security.UserGroupCache.IsAssociateInGroup(Integer, Integer)
-  name.vb: IsAssociateInGroup(Integer, Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Security.UserGroupCache.GetAssociatesInGroup(System.Int32)
   commentId: M:SuperOffice.CRM.Security.UserGroupCache.GetAssociatesInGroup(System.Int32)
   id: GetAssociatesInGroup(System.Int32)
@@ -281,15 +320,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetAssociatesInGroup(int)
-  nameWithType: UserGroupCache.GetAssociatesInGroup(int)
-  fullName: SuperOffice.CRM.Security.UserGroupCache.GetAssociatesInGroup(int)
+  name: GetAssociatesInGroup(Int32)
+  nameWithType: UserGroupCache.GetAssociatesInGroup(Int32)
+  fullName: SuperOffice.CRM.Security.UserGroupCache.GetAssociatesInGroup(System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Security
-  summary: Get the id's of all associates in a group (primary or secondary group does not matter)
-  example: []
+  summary: "\nGet the id&apos;s of all associates in a group (primary or secondary group does not matter)\n"
   syntax:
     content: public IEnumerable<int> GetAssociatesInGroup(int userGroupId)
     parameters:
@@ -301,9 +342,10 @@ items:
       description: Array of associates, may be empty but never null
     content.vb: Public Function GetAssociatesInGroup(userGroupId As Integer) As IEnumerable(Of Integer)
   overload: SuperOffice.CRM.Security.UserGroupCache.GetAssociatesInGroup*
-  nameWithType.vb: UserGroupCache.GetAssociatesInGroup(Integer)
-  fullName.vb: SuperOffice.CRM.Security.UserGroupCache.GetAssociatesInGroup(Integer)
-  name.vb: GetAssociatesInGroup(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Security.UserGroupCache.GetSecondaryGroupsForAssociate
   commentId: M:SuperOffice.CRM.Security.UserGroupCache.GetSecondaryGroupsForAssociate
   id: GetSecondaryGroupsForAssociate
@@ -315,18 +357,24 @@ items:
   nameWithType: UserGroupCache.GetSecondaryGroupsForAssociate()
   fullName: SuperOffice.CRM.Security.UserGroupCache.GetSecondaryGroupsForAssociate()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Security
-  summary: Get secondary groups that the logged in user is member of.
-  example: []
+  summary: "\nGet secondary groups that the logged in user is member of.\n"
   syntax:
     content: public IEnumerable<int> GetSecondaryGroupsForAssociate()
     return:
       type: System.Collections.Generic.IEnumerable{System.Int32}
       description: List of secondary groups the logged in user is member of.
-    content.vb: Public Function GetSecondaryGroupsForAssociate() As IEnumerable(Of Integer)
+    content.vb: Public Function GetSecondaryGroupsForAssociate As IEnumerable(Of Integer)
   overload: SuperOffice.CRM.Security.UserGroupCache.GetSecondaryGroupsForAssociate*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Security.UserGroupCache.GetSecondaryGroupsForAssociate(System.Int32)
   commentId: M:SuperOffice.CRM.Security.UserGroupCache.GetSecondaryGroupsForAssociate(System.Int32)
   id: GetSecondaryGroupsForAssociate(System.Int32)
@@ -334,15 +382,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetSecondaryGroupsForAssociate(int)
-  nameWithType: UserGroupCache.GetSecondaryGroupsForAssociate(int)
-  fullName: SuperOffice.CRM.Security.UserGroupCache.GetSecondaryGroupsForAssociate(int)
+  name: GetSecondaryGroupsForAssociate(Int32)
+  nameWithType: UserGroupCache.GetSecondaryGroupsForAssociate(Int32)
+  fullName: SuperOffice.CRM.Security.UserGroupCache.GetSecondaryGroupsForAssociate(System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Security
-  summary: Get secondary groups that a given associate is member of.
-  example: []
+  summary: "\nGet secondary groups that a given associate is member of.\n"
   syntax:
     content: public IEnumerable<int> GetSecondaryGroupsForAssociate(int associateId)
     parameters:
@@ -354,9 +404,10 @@ items:
       description: List of secondary groups the associate is member of.
     content.vb: Public Function GetSecondaryGroupsForAssociate(associateId As Integer) As IEnumerable(Of Integer)
   overload: SuperOffice.CRM.Security.UserGroupCache.GetSecondaryGroupsForAssociate*
-  nameWithType.vb: UserGroupCache.GetSecondaryGroupsForAssociate(Integer)
-  fullName.vb: SuperOffice.CRM.Security.UserGroupCache.GetSecondaryGroupsForAssociate(Integer)
-  name.vb: GetSecondaryGroupsForAssociate(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Security.UserGroupCache.GetAllGroupsForAssociate
   commentId: M:SuperOffice.CRM.Security.UserGroupCache.GetAllGroupsForAssociate
   id: GetAllGroupsForAssociate
@@ -368,18 +419,24 @@ items:
   nameWithType: UserGroupCache.GetAllGroupsForAssociate()
   fullName: SuperOffice.CRM.Security.UserGroupCache.GetAllGroupsForAssociate()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Security
-  summary: Get all groups (e.g. primary and secondary) that the logged in user belongs to.
-  example: []
+  summary: "\nGet all groups (e.g. primary and secondary) that the logged in user belongs to.\n"
   syntax:
     content: public IEnumerable<int> GetAllGroupsForAssociate()
     return:
       type: System.Collections.Generic.IEnumerable{System.Int32}
       description: All groups that an associate belongs to.
-    content.vb: Public Function GetAllGroupsForAssociate() As IEnumerable(Of Integer)
+    content.vb: Public Function GetAllGroupsForAssociate As IEnumerable(Of Integer)
   overload: SuperOffice.CRM.Security.UserGroupCache.GetAllGroupsForAssociate*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Security.UserGroupCache.GetAllGroupsForAssociate(System.Int32)
   commentId: M:SuperOffice.CRM.Security.UserGroupCache.GetAllGroupsForAssociate(System.Int32)
   id: GetAllGroupsForAssociate(System.Int32)
@@ -387,15 +444,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetAllGroupsForAssociate(int)
-  nameWithType: UserGroupCache.GetAllGroupsForAssociate(int)
-  fullName: SuperOffice.CRM.Security.UserGroupCache.GetAllGroupsForAssociate(int)
+  name: GetAllGroupsForAssociate(Int32)
+  nameWithType: UserGroupCache.GetAllGroupsForAssociate(Int32)
+  fullName: SuperOffice.CRM.Security.UserGroupCache.GetAllGroupsForAssociate(System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Security
-  summary: Get all groups (e.g. primary and secondary) that the associate represented by the associateId belongs to.
-  example: []
+  summary: "\nGet all groups (e.g. primary and secondary) that the associate represented by the associateId belongs to.\n"
   syntax:
     content: public IEnumerable<int> GetAllGroupsForAssociate(int associateId)
     parameters:
@@ -407,9 +466,10 @@ items:
       description: All groups that an associate belongs to.
     content.vb: Public Function GetAllGroupsForAssociate(associateId As Integer) As IEnumerable(Of Integer)
   overload: SuperOffice.CRM.Security.UserGroupCache.GetAllGroupsForAssociate*
-  nameWithType.vb: UserGroupCache.GetAllGroupsForAssociate(Integer)
-  fullName.vb: SuperOffice.CRM.Security.UserGroupCache.GetAllGroupsForAssociate(Integer)
-  name.vb: GetAllGroupsForAssociate(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Security.UserGroupCache.GetDefaultUserGroup
   commentId: M:SuperOffice.CRM.Security.UserGroupCache.GetDefaultUserGroup
   id: GetDefaultUserGroup
@@ -421,18 +481,24 @@ items:
   nameWithType: UserGroupCache.GetDefaultUserGroup()
   fullName: SuperOffice.CRM.Security.UserGroupCache.GetDefaultUserGroup()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Security
-  summary: Get the default user group for the logged in associate.
-  example: []
+  summary: "\nGet the default user group for the logged in associate.\n"
   syntax:
     content: public int GetDefaultUserGroup()
     return:
       type: System.Int32
       description: Defualt usergroup for the associate. 0 means that there are no usergroups.
-    content.vb: Public Function GetDefaultUserGroup() As Integer
+    content.vb: Public Function GetDefaultUserGroup As Integer
   overload: SuperOffice.CRM.Security.UserGroupCache.GetDefaultUserGroup*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Security.UserGroupCache.GetDefaultUserGroup(System.Int32)
   commentId: M:SuperOffice.CRM.Security.UserGroupCache.GetDefaultUserGroup(System.Int32)
   id: GetDefaultUserGroup(System.Int32)
@@ -440,15 +506,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetDefaultUserGroup(int)
-  nameWithType: UserGroupCache.GetDefaultUserGroup(int)
-  fullName: SuperOffice.CRM.Security.UserGroupCache.GetDefaultUserGroup(int)
+  name: GetDefaultUserGroup(Int32)
+  nameWithType: UserGroupCache.GetDefaultUserGroup(Int32)
+  fullName: SuperOffice.CRM.Security.UserGroupCache.GetDefaultUserGroup(System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Security
-  summary: Get the default user group for an associate.
-  example: []
+  summary: "\nGet the default user group for an associate.\n"
   syntax:
     content: public int GetDefaultUserGroup(int associateId)
     parameters:
@@ -460,9 +528,10 @@ items:
       description: Defualt usergroup for the associate. 0 means that there are no usergroups.
     content.vb: Public Function GetDefaultUserGroup(associateId As Integer) As Integer
   overload: SuperOffice.CRM.Security.UserGroupCache.GetDefaultUserGroup*
-  nameWithType.vb: UserGroupCache.GetDefaultUserGroup(Integer)
-  fullName.vb: SuperOffice.CRM.Security.UserGroupCache.GetDefaultUserGroup(Integer)
-  name.vb: GetDefaultUserGroup(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Security.UserGroupCache.GetUserGroup(System.Int32)
   commentId: M:SuperOffice.CRM.Security.UserGroupCache.GetUserGroup(System.Int32)
   id: GetUserGroup(System.Int32)
@@ -470,15 +539,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetUserGroup(int)
-  nameWithType: UserGroupCache.GetUserGroup(int)
-  fullName: SuperOffice.CRM.Security.UserGroupCache.GetUserGroup(int)
+  name: GetUserGroup(Int32)
+  nameWithType: UserGroupCache.GetUserGroup(Int32)
+  fullName: SuperOffice.CRM.Security.UserGroupCache.GetUserGroup(System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Security
-  summary: Get a <xref href="SuperOffice.CRM.Rows.UserGroupRecordData" data-throw-if-not-resolved="false"></xref> from it's primary key.
-  example: []
+  summary: "\nGet a <xref href=\"SuperOffice.CRM.Rows.UserGroupRecordData\" data-throw-if-not-resolved=\"false\"></xref> from it&apos;s primary key.\n"
   syntax:
     content: public UserGroupRecordData GetUserGroup(int userGroupId)
     parameters:
@@ -490,9 +561,10 @@ items:
       description: Instance of the record.
     content.vb: Public Function GetUserGroup(userGroupId As Integer) As UserGroupRecordData
   overload: SuperOffice.CRM.Security.UserGroupCache.GetUserGroup*
-  nameWithType.vb: UserGroupCache.GetUserGroup(Integer)
-  fullName.vb: SuperOffice.CRM.Security.UserGroupCache.GetUserGroup(Integer)
-  name.vb: GetUserGroup(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Security.UserGroupCache.GetCurrent
   commentId: M:SuperOffice.CRM.Security.UserGroupCache.GetCurrent
   id: GetCurrent
@@ -504,17 +576,25 @@ items:
   nameWithType: UserGroupCache.GetCurrent()
   fullName: SuperOffice.CRM.Security.UserGroupCache.GetCurrent()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Security
-  summary: Obtain an instance of the cache
-  example: []
+  summary: "\nObtain an instance of the cache\n"
   syntax:
     content: public static UserGroupCache GetCurrent()
     return:
       type: SuperOffice.CRM.Security.UserGroupCache
-    content.vb: Public Shared Function GetCurrent() As UserGroupCache
+    content.vb: Public Shared Function GetCurrent As UserGroupCache
   overload: SuperOffice.CRM.Security.UserGroupCache.GetCurrent*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Security.UserGroupCache.OnLoad
   commentId: M:SuperOffice.CRM.Security.UserGroupCache.OnLoad
   id: OnLoad
@@ -526,15 +606,23 @@ items:
   nameWithType: UserGroupCache.OnLoad()
   fullName: SuperOffice.CRM.Security.UserGroupCache.OnLoad()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Security
-  example: []
   syntax:
     content: protected override void OnLoad()
-    content.vb: Protected Overrides Sub OnLoad()
+    content.vb: Protected Overrides Sub OnLoad
   overridden: SuperOffice.Data.Cache.CacheBaseV2.OnLoad
   overload: SuperOffice.CRM.Security.UserGroupCache.OnLoad*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
 - uid: SuperOffice.CRM.Security.UserGroupCache.TableNames
   commentId: P:SuperOffice.CRM.Security.UserGroupCache.TableNames
   id: TableNames
@@ -546,14 +634,12 @@ items:
   nameWithType: UserGroupCache.TableNames
   fullName: SuperOffice.CRM.Security.UserGroupCache.TableNames
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Security
-  summary: >-
-    Gets the names of the table data that are cached in this cache. When these tables are updated
-
-    the cache will be disposed so a new cache instance can take its place.
-  example: []
   syntax:
     content: protected override IEnumerable<string> TableNames { get; }
     parameters: []
@@ -562,60 +648,32 @@ items:
     content.vb: Protected Overrides ReadOnly Property TableNames As IEnumerable(Of String)
   overridden: SuperOffice.Data.Cache.CacheBaseV2.TableNames
   overload: SuperOffice.CRM.Security.UserGroupCache.TableNames*
+  modifiers.csharp:
+  - protected
+  - override
+  - get
+  modifiers.vb:
+  - Protected
+  - Overrides
+  - ReadOnly
 references:
 - uid: SuperOffice.CRM.Security
   commentId: N:SuperOffice.CRM.Security
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Security
   nameWithType: SuperOffice.CRM.Security
   fullName: SuperOffice.CRM.Security
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Security
-    name: Security
-    isExternal: true
-    href: SuperOffice.CRM.Security.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Security
-    name: Security
-    isExternal: true
-    href: SuperOffice.CRM.Security.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.Cache.CacheBaseV2
   commentId: T:SuperOffice.Data.Cache.CacheBaseV2
   parent: SuperOffice.Data.Cache
   isExternal: true
-  href: SuperOffice.Data.Cache.CacheBaseV2.html
   name: CacheBaseV2
   nameWithType: CacheBaseV2
   fullName: SuperOffice.Data.Cache.CacheBaseV2
@@ -623,89 +681,184 @@ references:
   commentId: T:SuperOffice.Data.Cache.IFlushableV2
   parent: SuperOffice.Data.Cache
   isExternal: true
-  href: SuperOffice.Data.Cache.IFlushableV2.html
   name: IFlushableV2
   nameWithType: IFlushableV2
   fullName: SuperOffice.Data.Cache.IFlushableV2
 - uid: System.IDisposable
-  commentId: T:System.IDisposable
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.idisposable
   name: IDisposable
   nameWithType: IDisposable
   fullName: System.IDisposable
+- uid: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidated(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave)
+  commentId: M:SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidated(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave)
+  parent: SuperOffice.Data.Cache.CacheBaseV2
+  isExternal: true
+  name: IsCacheInvalidated(String, Int32, PrivateSave)
+  nameWithType: CacheBaseV2.IsCacheInvalidated(String, Int32, PrivateSave)
+  fullName: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidated(System.String, System.Int32, SuperOffice.Data.SQL.PrivateSave)
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidated(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave)
+    name: IsCacheInvalidated
+    nameWithType: CacheBaseV2.IsCacheInvalidated
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidated
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SQL.PrivateSave
+    name: PrivateSave
+    nameWithType: PrivateSave
+    fullName: SuperOffice.Data.SQL.PrivateSave
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidated(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave)
+    name: IsCacheInvalidated
+    nameWithType: CacheBaseV2.IsCacheInvalidated
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidated
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SQL.PrivateSave
+    name: PrivateSave
+    nameWithType: PrivateSave
+    fullName: SuperOffice.Data.SQL.PrivateSave
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.Cache.CacheBaseV2.Dispose
   commentId: M:SuperOffice.Data.Cache.CacheBaseV2.Dispose
   parent: SuperOffice.Data.Cache.CacheBaseV2
   isExternal: true
-  href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_Dispose
   name: Dispose()
   nameWithType: CacheBaseV2.Dispose()
   fullName: SuperOffice.Data.Cache.CacheBaseV2.Dispose()
   spec.csharp:
   - uid: SuperOffice.Data.Cache.CacheBaseV2.Dispose
     name: Dispose
+    nameWithType: CacheBaseV2.Dispose
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.Dispose
     isExternal: true
-    href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_Dispose
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.Cache.CacheBaseV2.Dispose
     name: Dispose
+    nameWithType: CacheBaseV2.Dispose
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.Dispose
     isExternal: true
-    href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_Dispose
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.Cache.CacheBaseV2.Flush
   commentId: M:SuperOffice.Data.Cache.CacheBaseV2.Flush
   parent: SuperOffice.Data.Cache.CacheBaseV2
   isExternal: true
-  href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_Flush
   name: Flush()
   nameWithType: CacheBaseV2.Flush()
   fullName: SuperOffice.Data.Cache.CacheBaseV2.Flush()
   spec.csharp:
   - uid: SuperOffice.Data.Cache.CacheBaseV2.Flush
     name: Flush
+    nameWithType: CacheBaseV2.Flush
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.Flush
     isExternal: true
-    href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_Flush
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.Cache.CacheBaseV2.Flush
     name: Flush
+    nameWithType: CacheBaseV2.Flush
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.Flush
     isExternal: true
-    href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_Flush
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate
   commentId: M:SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate
   parent: SuperOffice.Data.Cache.CacheBaseV2
   isExternal: true
-  href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_BeginDisableAutoUpdate
   name: BeginDisableAutoUpdate()
   nameWithType: CacheBaseV2.BeginDisableAutoUpdate()
   fullName: SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate()
   spec.csharp:
   - uid: SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate
     name: BeginDisableAutoUpdate
+    nameWithType: CacheBaseV2.BeginDisableAutoUpdate
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate
     isExternal: true
-    href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_BeginDisableAutoUpdate
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate
     name: BeginDisableAutoUpdate
+    nameWithType: CacheBaseV2.BeginDisableAutoUpdate
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate
     isExternal: true
-    href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_BeginDisableAutoUpdate
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.Cache.CacheBaseV2.GetCurrent``1
   commentId: M:SuperOffice.Data.Cache.CacheBaseV2.GetCurrent``1
   parent: SuperOffice.Data.Cache.CacheBaseV2
   isExternal: true
-  href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_GetCurrent__1
   name: GetCurrent<T>()
   nameWithType: CacheBaseV2.GetCurrent<T>()
   fullName: SuperOffice.Data.Cache.CacheBaseV2.GetCurrent<T>()
@@ -714,383 +867,149 @@ references:
   name.vb: GetCurrent(Of T)()
   spec.csharp:
   - uid: SuperOffice.Data.Cache.CacheBaseV2.GetCurrent``1
-    name: GetCurrent
+    name: GetCurrent<T>
+    nameWithType: CacheBaseV2.GetCurrent<T>
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.GetCurrent<T>
     isExternal: true
-    href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_GetCurrent__1
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.Cache.CacheBaseV2.GetCurrent``1
-    name: GetCurrent
+    name: GetCurrent(Of T)
+    nameWithType: CacheBaseV2.GetCurrent(Of T)
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.GetCurrent(Of T)
     isExternal: true
-    href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_GetCurrent__1
   - name: (
-  - name: Of
-  - name: " "
-  - name: T
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Cache.CacheBaseV2.Load
+  commentId: M:SuperOffice.Data.Cache.CacheBaseV2.Load
+  parent: SuperOffice.Data.Cache.CacheBaseV2
+  isExternal: true
+  name: Load()
+  nameWithType: CacheBaseV2.Load()
+  fullName: SuperOffice.Data.Cache.CacheBaseV2.Load()
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.Load
+    name: Load
+    nameWithType: CacheBaseV2.Load
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.Load
+    isExternal: true
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.CacheBaseV2.Load
+    name: Load
+    nameWithType: CacheBaseV2.Load
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.Load
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.Cache.CacheBaseV2.Disposed
   commentId: P:SuperOffice.Data.Cache.CacheBaseV2.Disposed
   parent: SuperOffice.Data.Cache.CacheBaseV2
   isExternal: true
-  href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_Disposed
   name: Disposed
   nameWithType: CacheBaseV2.Disposed
   fullName: SuperOffice.Data.Cache.CacheBaseV2.Disposed
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
 - uid: SuperOffice.CRM.Security.UserGroupCache.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<UserGroupCache, To>(UserGroupCache)
-  nameWithType: EnumUtil.MapEnums<UserGroupCache, To>(UserGroupCache)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Security.UserGroupCache, To>(SuperOffice.CRM.Security.UserGroupCache)
-  nameWithType.vb: EnumUtil.MapEnums(Of UserGroupCache, To)(UserGroupCache)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Security.UserGroupCache, To)(SuperOffice.CRM.Security.UserGroupCache)
-  name.vb: MapEnums(Of UserGroupCache, To)(UserGroupCache)
+  name: MapEnums<UserGroupCache, To>()
+  nameWithType: EnumUtil.MapEnums<UserGroupCache, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Security.UserGroupCache, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of UserGroupCache, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Security.UserGroupCache, To)()
+  name.vb: MapEnums(Of UserGroupCache, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Security.UserGroupCache)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<UserGroupCache, To>
+    nameWithType: EnumUtil.MapEnums<UserGroupCache, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Security.UserGroupCache, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Security.UserGroupCache
-    name: UserGroupCache
-    isExternal: true
-    href: SuperOffice.CRM.Security.UserGroupCache.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Security.UserGroupCache
-    name: UserGroupCache
-    isExternal: true
-    href: SuperOffice.CRM.Security.UserGroupCache.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Security.UserGroupCache)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of UserGroupCache, To)
+    nameWithType: EnumUtil.MapEnums(Of UserGroupCache, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Security.UserGroupCache, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Security.UserGroupCache
-    name: UserGroupCache
-    isExternal: true
-    href: SuperOffice.CRM.Security.UserGroupCache.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Security.UserGroupCache
-    name: UserGroupCache
-    isExternal: true
-    href: SuperOffice.CRM.Security.UserGroupCache.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Security.UserGroupCache.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<UserGroupCache, To>(UserGroupCache)
-  nameWithType: Converters.MapEnums<UserGroupCache, To>(UserGroupCache)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Security.UserGroupCache, To>(SuperOffice.CRM.Security.UserGroupCache)
-  nameWithType.vb: Converters.MapEnums(Of UserGroupCache, To)(UserGroupCache)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Security.UserGroupCache, To)(SuperOffice.CRM.Security.UserGroupCache)
-  name.vb: MapEnums(Of UserGroupCache, To)(UserGroupCache)
+  name: MapEnums<UserGroupCache, To>()
+  nameWithType: Converters.MapEnums<UserGroupCache, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Security.UserGroupCache, To>()
+  nameWithType.vb: Converters.MapEnums(Of UserGroupCache, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Security.UserGroupCache, To)()
+  name.vb: MapEnums(Of UserGroupCache, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Security.UserGroupCache)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<UserGroupCache, To>
+    nameWithType: Converters.MapEnums<UserGroupCache, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Security.UserGroupCache, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Security.UserGroupCache
-    name: UserGroupCache
-    isExternal: true
-    href: SuperOffice.CRM.Security.UserGroupCache.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Security.UserGroupCache
-    name: UserGroupCache
-    isExternal: true
-    href: SuperOffice.CRM.Security.UserGroupCache.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Security.UserGroupCache)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of UserGroupCache, To)
+    nameWithType: Converters.MapEnums(Of UserGroupCache, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Security.UserGroupCache, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Security.UserGroupCache
-    name: UserGroupCache
-    isExternal: true
-    href: SuperOffice.CRM.Security.UserGroupCache.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Security.UserGroupCache
-    name: UserGroupCache
-    isExternal: true
-    href: SuperOffice.CRM.Security.UserGroupCache.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.Data.Cache
   commentId: N:SuperOffice.Data.Cache
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data.Cache
   nameWithType: SuperOffice.Data.Cache
   fullName: SuperOffice.Data.Cache
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.Cache
-    name: Cache
-    isExternal: true
-    href: SuperOffice.Data.Cache.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.Cache
-    name: Cache
-    isExternal: true
-    href: SuperOffice.Data.Cache.html
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -1099,45 +1018,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -1146,83 +1063,50 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.CRM.Security.UserGroupCache.GetCount*
   commentId: Overload:SuperOffice.CRM.Security.UserGroupCache.GetCount
   isExternal: true
-  href: SuperOffice.CRM.Security.UserGroupCache.html#SuperOffice_CRM_Security_UserGroupCache_GetCount
   name: GetCount
   nameWithType: UserGroupCache.GetCount
   fullName: SuperOffice.CRM.Security.UserGroupCache.GetCount
@@ -1230,124 +1114,99 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Security.UserGroupCache.GetUserGroupIds*
   commentId: Overload:SuperOffice.CRM.Security.UserGroupCache.GetUserGroupIds
   isExternal: true
-  href: SuperOffice.CRM.Security.UserGroupCache.html#SuperOffice_CRM_Security_UserGroupCache_GetUserGroupIds
   name: GetUserGroupIds
   nameWithType: UserGroupCache.GetUserGroupIds
   fullName: SuperOffice.CRM.Security.UserGroupCache.GetUserGroupIds
 - uid: System.Collections.Generic.IEnumerable{System.Int32}
-  commentId: T:System.Collections.Generic.IEnumerable{System.Int32}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.IEnumerable{System.Int32}'
   definition: System.Collections.Generic.IEnumerable`1
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  name: IEnumerable<int>
-  nameWithType: IEnumerable<int>
-  fullName: System.Collections.Generic.IEnumerable<int>
-  nameWithType.vb: IEnumerable(Of Integer)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of Integer)
-  name.vb: IEnumerable(Of Integer)
+  name: IEnumerable<Int32>
+  nameWithType: IEnumerable<Int32>
+  fullName: System.Collections.Generic.IEnumerable<System.Int32>
+  nameWithType.vb: IEnumerable(Of Int32)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Int32)
+  name.vb: IEnumerable(Of Int32)
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Collections.Generic.IEnumerable`1
-  commentId: T:System.Collections.Generic.IEnumerable`1
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  name: IEnumerable<T>
-  nameWithType: IEnumerable<T>
-  fullName: System.Collections.Generic.IEnumerable<T>
-  nameWithType.vb: IEnumerable(Of T)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
-  name.vb: IEnumerable(Of T)
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
-  - name: T
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Security.UserGroupCache.GetGroupRelationToUser*
   commentId: Overload:SuperOffice.CRM.Security.UserGroupCache.GetGroupRelationToUser
   isExternal: true
-  href: SuperOffice.CRM.Security.UserGroupCache.html#SuperOffice_CRM_Security_UserGroupCache_GetGroupRelationToUser_System_Int32_
   name: GetGroupRelationToUser
   nameWithType: UserGroupCache.GetGroupRelationToUser
   fullName: SuperOffice.CRM.Security.UserGroupCache.GetGroupRelationToUser
@@ -1355,34 +1214,12 @@ references:
   commentId: T:SuperOffice.CRM.Security.UserGroupCache.GroupRelation
   parent: SuperOffice.CRM.Security
   isExternal: true
-  href: SuperOffice.CRM.Security.UserGroupCache.html
   name: UserGroupCache.GroupRelation
   nameWithType: UserGroupCache.GroupRelation
   fullName: SuperOffice.CRM.Security.UserGroupCache.GroupRelation
-  spec.csharp:
-  - uid: SuperOffice.CRM.Security.UserGroupCache
-    name: UserGroupCache
-    isExternal: true
-    href: SuperOffice.CRM.Security.UserGroupCache.html
-  - name: .
-  - uid: SuperOffice.CRM.Security.UserGroupCache.GroupRelation
-    name: GroupRelation
-    isExternal: true
-    href: SuperOffice.CRM.Security.UserGroupCache.GroupRelation.html
-  spec.vb:
-  - uid: SuperOffice.CRM.Security.UserGroupCache
-    name: UserGroupCache
-    isExternal: true
-    href: SuperOffice.CRM.Security.UserGroupCache.html
-  - name: .
-  - uid: SuperOffice.CRM.Security.UserGroupCache.GroupRelation
-    name: GroupRelation
-    isExternal: true
-    href: SuperOffice.CRM.Security.UserGroupCache.GroupRelation.html
 - uid: SuperOffice.CRM.Security.UserGroupCache.IsAssociateInGroup*
   commentId: Overload:SuperOffice.CRM.Security.UserGroupCache.IsAssociateInGroup
   isExternal: true
-  href: SuperOffice.CRM.Security.UserGroupCache.html#SuperOffice_CRM_Security_UserGroupCache_IsAssociateInGroup_System_Int32_
   name: IsAssociateInGroup
   nameWithType: UserGroupCache.IsAssociateInGroup
   fullName: SuperOffice.CRM.Security.UserGroupCache.IsAssociateInGroup
@@ -1390,97 +1227,55 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.CRM.Security.UserGroupCache.GetAssociatesInGroup*
   commentId: Overload:SuperOffice.CRM.Security.UserGroupCache.GetAssociatesInGroup
   isExternal: true
-  href: SuperOffice.CRM.Security.UserGroupCache.html#SuperOffice_CRM_Security_UserGroupCache_GetAssociatesInGroup_System_Int32_
   name: GetAssociatesInGroup
   nameWithType: UserGroupCache.GetAssociatesInGroup
   fullName: SuperOffice.CRM.Security.UserGroupCache.GetAssociatesInGroup
 - uid: SuperOffice.CRM.Security.UserGroupCache.GetSecondaryGroupsForAssociate*
   commentId: Overload:SuperOffice.CRM.Security.UserGroupCache.GetSecondaryGroupsForAssociate
   isExternal: true
-  href: SuperOffice.CRM.Security.UserGroupCache.html#SuperOffice_CRM_Security_UserGroupCache_GetSecondaryGroupsForAssociate
   name: GetSecondaryGroupsForAssociate
   nameWithType: UserGroupCache.GetSecondaryGroupsForAssociate
   fullName: SuperOffice.CRM.Security.UserGroupCache.GetSecondaryGroupsForAssociate
 - uid: SuperOffice.CRM.Security.UserGroupCache.GetAllGroupsForAssociate*
   commentId: Overload:SuperOffice.CRM.Security.UserGroupCache.GetAllGroupsForAssociate
   isExternal: true
-  href: SuperOffice.CRM.Security.UserGroupCache.html#SuperOffice_CRM_Security_UserGroupCache_GetAllGroupsForAssociate
   name: GetAllGroupsForAssociate
   nameWithType: UserGroupCache.GetAllGroupsForAssociate
   fullName: SuperOffice.CRM.Security.UserGroupCache.GetAllGroupsForAssociate
 - uid: SuperOffice.CRM.Security.UserGroupCache.GetDefaultUserGroup*
   commentId: Overload:SuperOffice.CRM.Security.UserGroupCache.GetDefaultUserGroup
   isExternal: true
-  href: SuperOffice.CRM.Security.UserGroupCache.html#SuperOffice_CRM_Security_UserGroupCache_GetDefaultUserGroup
   name: GetDefaultUserGroup
   nameWithType: UserGroupCache.GetDefaultUserGroup
   fullName: SuperOffice.CRM.Security.UserGroupCache.GetDefaultUserGroup
+- uid: SuperOffice.CRM.Security.UserGroupCache.GetUserGroup*
+  commentId: Overload:SuperOffice.CRM.Security.UserGroupCache.GetUserGroup
+  isExternal: true
+  name: GetUserGroup
+  nameWithType: UserGroupCache.GetUserGroup
+  fullName: SuperOffice.CRM.Security.UserGroupCache.GetUserGroup
 - uid: SuperOffice.CRM.Rows.UserGroupRecordData
   commentId: T:SuperOffice.CRM.Rows.UserGroupRecordData
   parent: SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.CRM.Rows.UserGroupRecordData.html
   name: UserGroupRecordData
   nameWithType: UserGroupRecordData
   fullName: SuperOffice.CRM.Rows.UserGroupRecordData
-- uid: SuperOffice.CRM.Security.UserGroupCache.GetUserGroup*
-  commentId: Overload:SuperOffice.CRM.Security.UserGroupCache.GetUserGroup
-  isExternal: true
-  href: SuperOffice.CRM.Security.UserGroupCache.html#SuperOffice_CRM_Security_UserGroupCache_GetUserGroup_System_Int32_
-  name: GetUserGroup
-  nameWithType: UserGroupCache.GetUserGroup
-  fullName: SuperOffice.CRM.Security.UserGroupCache.GetUserGroup
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows
-    name: Rows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows
-    name: Rows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.html
 - uid: SuperOffice.CRM.Security.UserGroupCache.GetCurrent*
   commentId: Overload:SuperOffice.CRM.Security.UserGroupCache.GetCurrent
   isExternal: true
-  href: SuperOffice.CRM.Security.UserGroupCache.html#SuperOffice_CRM_Security_UserGroupCache_GetCurrent
   name: GetCurrent
   nameWithType: UserGroupCache.GetCurrent
   fullName: SuperOffice.CRM.Security.UserGroupCache.GetCurrent
@@ -1488,7 +1283,6 @@ references:
   commentId: T:SuperOffice.CRM.Security.UserGroupCache
   parent: SuperOffice.CRM.Security
   isExternal: true
-  href: SuperOffice.CRM.Security.UserGroupCache.html
   name: UserGroupCache
   nameWithType: UserGroupCache
   fullName: SuperOffice.CRM.Security.UserGroupCache
@@ -1496,28 +1290,36 @@ references:
   commentId: M:SuperOffice.Data.Cache.CacheBaseV2.OnLoad
   parent: SuperOffice.Data.Cache.CacheBaseV2
   isExternal: true
-  href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_OnLoad
   name: OnLoad()
   nameWithType: CacheBaseV2.OnLoad()
   fullName: SuperOffice.Data.Cache.CacheBaseV2.OnLoad()
   spec.csharp:
   - uid: SuperOffice.Data.Cache.CacheBaseV2.OnLoad
     name: OnLoad
+    nameWithType: CacheBaseV2.OnLoad
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.OnLoad
     isExternal: true
-    href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_OnLoad
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.Cache.CacheBaseV2.OnLoad
     name: OnLoad
+    nameWithType: CacheBaseV2.OnLoad
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.OnLoad
     isExternal: true
-    href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_OnLoad
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Security.UserGroupCache.OnLoad*
   commentId: Overload:SuperOffice.CRM.Security.UserGroupCache.OnLoad
   isExternal: true
-  href: SuperOffice.CRM.Security.UserGroupCache.html#SuperOffice_CRM_Security_UserGroupCache_OnLoad
   name: OnLoad
   nameWithType: UserGroupCache.OnLoad
   fullName: SuperOffice.CRM.Security.UserGroupCache.OnLoad
@@ -1525,49 +1327,55 @@ references:
   commentId: P:SuperOffice.Data.Cache.CacheBaseV2.TableNames
   parent: SuperOffice.Data.Cache.CacheBaseV2
   isExternal: true
-  href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_TableNames
   name: TableNames
   nameWithType: CacheBaseV2.TableNames
   fullName: SuperOffice.Data.Cache.CacheBaseV2.TableNames
 - uid: SuperOffice.CRM.Security.UserGroupCache.TableNames*
   commentId: Overload:SuperOffice.CRM.Security.UserGroupCache.TableNames
   isExternal: true
-  href: SuperOffice.CRM.Security.UserGroupCache.html#SuperOffice_CRM_Security_UserGroupCache_TableNames
   name: TableNames
   nameWithType: UserGroupCache.TableNames
   fullName: SuperOffice.CRM.Security.UserGroupCache.TableNames
 - uid: System.Collections.Generic.IEnumerable{System.String}
-  commentId: T:System.Collections.Generic.IEnumerable{System.String}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.IEnumerable{System.String}'
   definition: System.Collections.Generic.IEnumerable`1
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  name: IEnumerable<string>
-  nameWithType: IEnumerable<string>
-  fullName: System.Collections.Generic.IEnumerable<string>
+  name: IEnumerable<String>
+  nameWithType: IEnumerable<String>
+  fullName: System.Collections.Generic.IEnumerable<System.String>
   nameWithType.vb: IEnumerable(Of String)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of String)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.String)
   name.vb: IEnumerable(Of String)
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )

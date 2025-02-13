@@ -21,58 +21,24 @@ references:
   commentId: T:SuperOffice.CRM.TicketMessage.TicketMessageContent
   parent: SuperOffice.CRM.TicketMessage
   isExternal: true
-  href: SuperOffice.CRM.TicketMessage.TicketMessageContent.html
   name: TicketMessageContent
   nameWithType: TicketMessageContent
   fullName: SuperOffice.CRM.TicketMessage.TicketMessageContent
 - uid: SuperOffice.CRM.TicketMessage.AttachmentEntity
   commentId: T:SuperOffice.CRM.TicketMessage.AttachmentEntity
   isExternal: true
-  href: SuperOffice.CRM.TicketMessage.AttachmentEntity.html
   name: AttachmentEntity
   nameWithType: AttachmentEntity
   fullName: SuperOffice.CRM.TicketMessage.AttachmentEntity
 - uid: SuperOffice.CRM.TicketMessage.TicketMessageHelper
   commentId: T:SuperOffice.CRM.TicketMessage.TicketMessageHelper
   isExternal: true
-  href: SuperOffice.CRM.TicketMessage.TicketMessageHelper.html
   name: TicketMessageHelper
   nameWithType: TicketMessageHelper
   fullName: SuperOffice.CRM.TicketMessage.TicketMessageHelper
 - uid: SuperOffice.CRM.TicketMessage
   commentId: N:SuperOffice.CRM.TicketMessage
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.TicketMessage
   nameWithType: SuperOffice.CRM.TicketMessage
   fullName: SuperOffice.CRM.TicketMessage
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.TicketMessage
-    name: TicketMessage
-    isExternal: true
-    href: SuperOffice.CRM.TicketMessage.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.TicketMessage
-    name: TicketMessage
-    isExternal: true
-    href: SuperOffice.CRM.TicketMessage.html

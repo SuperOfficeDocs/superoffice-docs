@@ -13,17 +13,27 @@ items:
   nameWithType: ISoIdentityValidator
   fullName: SuperOffice.Security.Principal.ISoIdentityValidator
   type: Interface
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Security.Principal
-  summary: Interface for plugin capable validating the authentication process
-  example: []
+  summary: "\nInterface for plugin capable validating the authentication process\n"
   syntax:
-    content: public interface ISoIdentityValidator
-    content.vb: Public Interface ISoIdentityValidator
+    content: 'public interface ISoIdentityValidator : IPlugin'
+    content.vb: >-
+      Public Interface ISoIdentityValidator
+          Inherits IPlugin
   extensionMethods:
   - SuperOffice.Security.Principal.ISoIdentityValidator.EnumUtil.MapEnums``2
   - SuperOffice.Security.Principal.ISoIdentityValidator.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
 - uid: SuperOffice.Security.Principal.ISoIdentityValidator.TryValidateIdentity(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},SuperOffice.Security.Principal.ISoIdentity,SuperOffice.Data.SoConnection,System.String@)
   commentId: M:SuperOffice.Security.Principal.ISoIdentityValidator.TryValidateIdentity(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},SuperOffice.Security.Principal.ISoIdentity,SuperOffice.Data.SoConnection,System.String@)
   id: TryValidateIdentity(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},SuperOffice.Security.Principal.ISoIdentity,SuperOffice.Data.SoConnection,System.String@)
@@ -31,20 +41,17 @@ items:
   langs:
   - csharp
   - vb
-  name: TryValidateIdentity(IEnumerable<ClaimsIdentity>, ISoIdentity, SoConnection, out string)
-  nameWithType: ISoIdentityValidator.TryValidateIdentity(IEnumerable<ClaimsIdentity>, ISoIdentity, SoConnection, out string)
-  fullName: SuperOffice.Security.Principal.ISoIdentityValidator.TryValidateIdentity(System.Collections.Generic.IEnumerable<System.Security.Claims.ClaimsIdentity>, SuperOffice.Security.Principal.ISoIdentity, SuperOffice.Data.SoConnection, out string)
+  name: TryValidateIdentity(IEnumerable<ClaimsIdentity>, ISoIdentity, SoConnection, out String)
+  nameWithType: ISoIdentityValidator.TryValidateIdentity(IEnumerable<ClaimsIdentity>, ISoIdentity, SoConnection, out String)
+  fullName: SuperOffice.Security.Principal.ISoIdentityValidator.TryValidateIdentity(System.Collections.Generic.IEnumerable<System.Security.Claims.ClaimsIdentity>, SuperOffice.Security.Principal.ISoIdentity, SuperOffice.Data.SoConnection, out System.String)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Security.Principal
-  summary: >-
-    Validate the tokens after they are resolved.  At least one of the 
-
-    validators must respond Valid for authentication to succeed. The 
-
-    Authentication process fails if one of the validators return Rejected.
-  example: []
+  summary: "\nValidate the tokens after they are resolved.  At least one of the \nvalidators must respond Valid for authentication to succeed. The \nAuthentication process fails if one of the validators return Rejected.\n"
   syntax:
     content: TokenValidationResult TryValidateIdentity(IEnumerable<ClaimsIdentity> identities, ISoIdentity identity, SoConnection dbConnection, out string reason)
     parameters:
@@ -57,165 +64,93 @@ items:
       type: SuperOffice.Data.SoConnection
     - id: reason
       type: System.String
-      description: >-
-        The reason for the result.  This value should 
-                    always be set to something meaningfull if Rejected is returned.
+      description: "The reason for the result.  This value should \nalways be set to something meaningfull if Rejected is returned."
     return:
       type: SuperOffice.Security.TokenValidationResult
       description: Result of validation.
-    content.vb: Function TryValidateIdentity(identities As IEnumerable(Of ClaimsIdentity), identity As ISoIdentity, dbConnection As SoConnection, reason As String) As TokenValidationResult
+    content.vb: Function TryValidateIdentity(identities As IEnumerable(Of ClaimsIdentity), identity As ISoIdentity, dbConnection As SoConnection, ByRef reason As String) As TokenValidationResult
   overload: SuperOffice.Security.Principal.ISoIdentityValidator.TryValidateIdentity*
-  nameWithType.vb: ISoIdentityValidator.TryValidateIdentity(IEnumerable(Of ClaimsIdentity), ISoIdentity, SoConnection, String)
-  fullName.vb: SuperOffice.Security.Principal.ISoIdentityValidator.TryValidateIdentity(System.Collections.Generic.IEnumerable(Of System.Security.Claims.ClaimsIdentity), SuperOffice.Security.Principal.ISoIdentity, SuperOffice.Data.SoConnection, String)
-  name.vb: TryValidateIdentity(IEnumerable(Of ClaimsIdentity), ISoIdentity, SoConnection, String)
+  nameWithType.vb: ISoIdentityValidator.TryValidateIdentity(IEnumerable(Of ClaimsIdentity), ISoIdentity, SoConnection, ByRef String)
+  fullName.vb: SuperOffice.Security.Principal.ISoIdentityValidator.TryValidateIdentity(System.Collections.Generic.IEnumerable(Of System.Security.Claims.ClaimsIdentity), SuperOffice.Security.Principal.ISoIdentity, SuperOffice.Data.SoConnection, ByRef System.String)
+  name.vb: TryValidateIdentity(IEnumerable(Of ClaimsIdentity), ISoIdentity, SoConnection, ByRef String)
 references:
 - uid: SuperOffice.Security.Principal
   commentId: N:SuperOffice.Security.Principal
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Security.Principal
   nameWithType: SuperOffice.Security.Principal
   fullName: SuperOffice.Security.Principal
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Security
-    name: Security
-    isExternal: true
-    href: SuperOffice.Security.html
-  - name: .
-  - uid: SuperOffice.Security.Principal
-    name: Principal
-    isExternal: true
-    href: SuperOffice.Security.Principal.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Security
-    name: Security
-    isExternal: true
-    href: SuperOffice.Security.html
-  - name: .
-  - uid: SuperOffice.Security.Principal
-    name: Principal
-    isExternal: true
-    href: SuperOffice.Security.Principal.html
 - uid: SuperOffice.Security.Principal.ISoIdentityValidator.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<ISoIdentityValidator, To>(ISoIdentityValidator)
-  nameWithType: EnumUtil.MapEnums<ISoIdentityValidator, To>(ISoIdentityValidator)
-  fullName: EnumUtil.MapEnums<SuperOffice.Security.Principal.ISoIdentityValidator, To>(SuperOffice.Security.Principal.ISoIdentityValidator)
-  nameWithType.vb: EnumUtil.MapEnums(Of ISoIdentityValidator, To)(ISoIdentityValidator)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Security.Principal.ISoIdentityValidator, To)(SuperOffice.Security.Principal.ISoIdentityValidator)
-  name.vb: MapEnums(Of ISoIdentityValidator, To)(ISoIdentityValidator)
+  name: MapEnums<ISoIdentityValidator, To>()
+  nameWithType: EnumUtil.MapEnums<ISoIdentityValidator, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Security.Principal.ISoIdentityValidator, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ISoIdentityValidator, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Security.Principal.ISoIdentityValidator, To)()
+  name.vb: MapEnums(Of ISoIdentityValidator, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Security.Principal.ISoIdentityValidator)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ISoIdentityValidator, To>
+    nameWithType: EnumUtil.MapEnums<ISoIdentityValidator, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Security.Principal.ISoIdentityValidator, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Security.Principal.ISoIdentityValidator
-    name: ISoIdentityValidator
-    isExternal: true
-    href: SuperOffice.Security.Principal.ISoIdentityValidator.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Security.Principal.ISoIdentityValidator
-    name: ISoIdentityValidator
-    isExternal: true
-    href: SuperOffice.Security.Principal.ISoIdentityValidator.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Security.Principal.ISoIdentityValidator)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ISoIdentityValidator, To)
+    nameWithType: EnumUtil.MapEnums(Of ISoIdentityValidator, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Security.Principal.ISoIdentityValidator, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Security.Principal.ISoIdentityValidator
-    name: ISoIdentityValidator
-    isExternal: true
-    href: SuperOffice.Security.Principal.ISoIdentityValidator.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Security.Principal.ISoIdentityValidator
-    name: ISoIdentityValidator
-    isExternal: true
-    href: SuperOffice.Security.Principal.ISoIdentityValidator.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Security.Principal.ISoIdentityValidator.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<ISoIdentityValidator, To>(ISoIdentityValidator)
-  nameWithType: Converters.MapEnums<ISoIdentityValidator, To>(ISoIdentityValidator)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.Principal.ISoIdentityValidator, To>(SuperOffice.Security.Principal.ISoIdentityValidator)
-  nameWithType.vb: Converters.MapEnums(Of ISoIdentityValidator, To)(ISoIdentityValidator)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.Principal.ISoIdentityValidator, To)(SuperOffice.Security.Principal.ISoIdentityValidator)
-  name.vb: MapEnums(Of ISoIdentityValidator, To)(ISoIdentityValidator)
+  name: MapEnums<ISoIdentityValidator, To>()
+  nameWithType: Converters.MapEnums<ISoIdentityValidator, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.Principal.ISoIdentityValidator, To>()
+  nameWithType.vb: Converters.MapEnums(Of ISoIdentityValidator, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.Principal.ISoIdentityValidator, To)()
+  name.vb: MapEnums(Of ISoIdentityValidator, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Security.Principal.ISoIdentityValidator)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ISoIdentityValidator, To>
+    nameWithType: Converters.MapEnums<ISoIdentityValidator, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.Principal.ISoIdentityValidator, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Security.Principal.ISoIdentityValidator
-    name: ISoIdentityValidator
-    isExternal: true
-    href: SuperOffice.Security.Principal.ISoIdentityValidator.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Security.Principal.ISoIdentityValidator
-    name: ISoIdentityValidator
-    isExternal: true
-    href: SuperOffice.Security.Principal.ISoIdentityValidator.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Security.Principal.ISoIdentityValidator)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ISoIdentityValidator, To)
+    nameWithType: Converters.MapEnums(Of ISoIdentityValidator, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.Principal.ISoIdentityValidator, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Security.Principal.ISoIdentityValidator
-    name: ISoIdentityValidator
-    isExternal: true
-    href: SuperOffice.Security.Principal.ISoIdentityValidator.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Security.Principal.ISoIdentityValidator
-    name: ISoIdentityValidator
-    isExternal: true
-    href: SuperOffice.Security.Principal.ISoIdentityValidator.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -224,45 +159,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -271,91 +204,56 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.Security.Principal.ISoIdentityValidator.TryValidateIdentity*
   commentId: Overload:SuperOffice.Security.Principal.ISoIdentityValidator.TryValidateIdentity
   isExternal: true
-  href: SuperOffice.Security.Principal.ISoIdentityValidator.html#SuperOffice_Security_Principal_ISoIdentityValidator_TryValidateIdentity_System_Collections_Generic_IEnumerable_System_Security_Claims_ClaimsIdentity__SuperOffice_Security_Principal_ISoIdentity_SuperOffice_Data_SoConnection_System_String__
   name: TryValidateIdentity
   nameWithType: ISoIdentityValidator.TryValidateIdentity
   fullName: SuperOffice.Security.Principal.ISoIdentityValidator.TryValidateIdentity
 - uid: System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity}
-  commentId: T:System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity}'
   definition: System.Collections.Generic.IEnumerable`1
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   name: IEnumerable<ClaimsIdentity>
   nameWithType: IEnumerable<ClaimsIdentity>
   fullName: System.Collections.Generic.IEnumerable<System.Security.Claims.ClaimsIdentity>
@@ -365,32 +263,41 @@ references:
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: System.Security.Claims.ClaimsIdentity
     name: ClaimsIdentity
+    nameWithType: ClaimsIdentity
+    fullName: System.Security.Claims.ClaimsIdentity
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.security.claims.claimsidentity
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: System.Security.Claims.ClaimsIdentity
     name: ClaimsIdentity
+    nameWithType: ClaimsIdentity
+    fullName: System.Security.Claims.ClaimsIdentity
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.security.claims.claimsidentity
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Security.Principal.ISoIdentity
   commentId: T:SuperOffice.Security.Principal.ISoIdentity
   parent: SuperOffice.Security.Principal
   isExternal: true
-  href: SuperOffice.Security.Principal.ISoIdentity.html
   name: ISoIdentity
   nameWithType: ISoIdentity
   fullName: SuperOffice.Security.Principal.ISoIdentity
@@ -398,7 +305,6 @@ references:
   commentId: T:SuperOffice.Data.SoConnection
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.SoConnection.html
   name: SoConnection
   nameWithType: SoConnection
   fullName: SuperOffice.Data.SoConnection
@@ -406,144 +312,69 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.Security.TokenValidationResult
   commentId: T:SuperOffice.Security.TokenValidationResult
   parent: SuperOffice.Security
   isExternal: true
-  href: SuperOffice.Security.TokenValidationResult.html
   name: TokenValidationResult
   nameWithType: TokenValidationResult
   fullName: SuperOffice.Security.TokenValidationResult
 - uid: System.Collections.Generic.IEnumerable`1
-  commentId: T:System.Collections.Generic.IEnumerable`1
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  name: IEnumerable<T>
-  nameWithType: IEnumerable<T>
-  fullName: System.Collections.Generic.IEnumerable<T>
-  nameWithType.vb: IEnumerable(Of T)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
-  name.vb: IEnumerable(Of T)
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
-  - name: T
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.Security
   commentId: N:SuperOffice.Security
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Security
   nameWithType: SuperOffice.Security
   fullName: SuperOffice.Security
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Security
-    name: Security
-    isExternal: true
-    href: SuperOffice.Security.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Security
-    name: Security
-    isExternal: true
-    href: SuperOffice.Security.html

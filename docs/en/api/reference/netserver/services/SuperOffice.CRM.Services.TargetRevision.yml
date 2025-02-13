@@ -19,27 +19,18 @@ items:
   nameWithType: TargetRevision
   fullName: SuperOffice.CRM.Services.TargetRevision
   type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Target revision carrier
-
-    <p></p>
-
-    Carrier object for TargetRevision.
-
-    Services for the TargetRevision Carrier is available from the <xref href="SuperOffice.CRM.Services.ITargetsAgent?text=Targets+Agent" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nTarget revision carrier\n<p></p>\nCarrier object for TargetRevision.\nServices for the TargetRevision Carrier is available from the <xref href=\"SuperOffice.CRM.Services.ITargetsAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public class TargetRevision : Carrier
+    content: 'public class TargetRevision : Carrier'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
-
-      Public Class TargetRevision Inherits Carrier
+      Public Class TargetRevision
+          Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.TargetsAgent
     commentId: T:SuperOffice.CRM.Services.TargetsAgent
@@ -47,14 +38,12 @@ items:
     commentId: T:SuperOffice.CRM.Services.ITargetsAgent
   inheritance:
   - System.Object
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.TargetRevision.#ctor
   commentId: M:SuperOffice.CRM.Services.TargetRevision.#ctor
   id: '#ctor'
@@ -66,18 +55,21 @@ items:
   nameWithType: TargetRevision.TargetRevision()
   fullName: SuperOffice.CRM.Services.TargetRevision.TargetRevision()
   type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Default constructor
-  example: []
+  summary: "\nDefault constructor\n"
   syntax:
     content: public TargetRevision()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.TargetRevision.#ctor*
-  nameWithType.vb: TargetRevision.New()
-  fullName.vb: SuperOffice.CRM.Services.TargetRevision.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.TargetRevision.ToString
   commentId: M:SuperOffice.CRM.Services.TargetRevision.ToString
   id: ToString
@@ -89,18 +81,26 @@ items:
   nameWithType: TargetRevision.ToString()
   fullName: SuperOffice.CRM.Services.TargetRevision.ToString()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the carrier contents as a formatted string.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string.\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString() As String
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.CRM.Services.TargetRevision.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Services.TargetRevision.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.TargetRevision.ToString(System.String)
   id: ToString(System.String)
@@ -108,18 +108,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(string)
-  nameWithType: TargetRevision.ToString(string)
-  fullName: SuperOffice.CRM.Services.TargetRevision.ToString(string)
+  name: ToString(String)
+  nameWithType: TargetRevision.ToString(String)
+  fullName: SuperOffice.CRM.Services.TargetRevision.ToString(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Returns the carrier contents as a formatted string, useful for debugging.
-
-    Each line in the output is prefixed with the input value.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -131,9 +130,10 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.TargetRevision.ToString*
-  nameWithType.vb: TargetRevision.ToString(String)
-  fullName.vb: SuperOffice.CRM.Services.TargetRevision.ToString(String)
-  name.vb: ToString(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.TargetRevision.LogEvent
   commentId: P:SuperOffice.CRM.Services.TargetRevision.LogEvent
   id: LogEvent
@@ -145,28 +145,28 @@ items:
   nameWithType: TargetRevision.LogEvent
   fullName: SuperOffice.CRM.Services.TargetRevision.LogEvent
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Log event class (create, edit, delete, lock, unlock...
-  example: []
+  summary: "\nLog event class (create, edit, delete, lock, unlock... \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual LogEvent LogEvent { get; set; }
+    content: public virtual LogEvent LogEvent { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.LogEvent
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property LogEvent As LogEvent
+    content.vb: Public Overridable Property LogEvent As LogEvent
   overload: SuperOffice.CRM.Services.TargetRevision.LogEvent*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.TargetRevision.Who
   commentId: P:SuperOffice.CRM.Services.TargetRevision.Who
   id: Who
@@ -178,28 +178,28 @@ items:
   nameWithType: TargetRevision.Who
   fullName: SuperOffice.CRM.Services.TargetRevision.Who
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Who made the change
-  example: []
+  summary: "\nWho made the change \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual Associate Who { get; set; }
+    content: public virtual Associate Who { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.Associate
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Who As Associate
+    content.vb: Public Overridable Property Who As Associate
   overload: SuperOffice.CRM.Services.TargetRevision.Who*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.TargetRevision.When
   commentId: P:SuperOffice.CRM.Services.TargetRevision.When
   id: When
@@ -211,28 +211,28 @@ items:
   nameWithType: TargetRevision.When
   fullName: SuperOffice.CRM.Services.TargetRevision.When
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Registered when  in UTC.
-  example: []
+  summary: "\nRegistered when  in UTC.\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual DateTime When { get; set; }
+    content: public virtual DateTime When { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property [When] As Date
+    content.vb: Public Overridable Property When As DateTime
   overload: SuperOffice.CRM.Services.TargetRevision.When*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.TargetRevision.Changes
   commentId: P:SuperOffice.CRM.Services.TargetRevision.Changes
   id: Changes
@@ -244,33 +244,38 @@ items:
   nameWithType: TargetRevision.Changes
   fullName: SuperOffice.CRM.Services.TargetRevision.Changes
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Collection of changes
-  example: []
+  summary: "\nCollection of changes \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual TargetChange[] Changes { get; set; }
+    content: public virtual TargetChange[] Changes { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.TargetChange[]
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Changes As TargetChange()
+    content.vb: Public Overridable Property Changes As TargetChange()
   overload: SuperOffice.CRM.Services.TargetRevision.Changes*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
 - uid: SuperOffice.CRM.Services.TargetsAgent
   commentId: T:SuperOffice.CRM.Services.TargetsAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.TargetsAgent.html
   name: TargetsAgent
   nameWithType: TargetsAgent
   fullName: SuperOffice.CRM.Services.TargetsAgent
@@ -278,79 +283,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.ITargetsAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.ITargetsAgent.html
   name: ITargetsAgent
   nameWithType: ITargetsAgent
   fullName: SuperOffice.CRM.Services.ITargetsAgent
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.TargetRevision.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.TargetRevision.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.TargetRevision.html#SuperOffice_CRM_Services_TargetRevision__ctor
   name: TargetRevision
   nameWithType: TargetRevision.TargetRevision
   fullName: SuperOffice.CRM.Services.TargetRevision.TargetRevision
-  nameWithType.vb: TargetRevision.New
-  fullName.vb: SuperOffice.CRM.Services.TargetRevision.New
-  name.vb: New
 - uid: SuperOffice.CRM.Services.TargetRevision.ToString*
   commentId: Overload:SuperOffice.CRM.Services.TargetRevision.ToString
   isExternal: true
-  href: SuperOffice.CRM.Services.TargetRevision.html#SuperOffice_CRM_Services_TargetRevision_ToString
   name: ToString
   nameWithType: TargetRevision.ToString
   fullName: SuperOffice.CRM.Services.TargetRevision.ToString
@@ -358,17 +302,18 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.TargetRevision.LogEvent*
   commentId: Overload:SuperOffice.CRM.Services.TargetRevision.LogEvent
   isExternal: true
-  href: SuperOffice.CRM.Services.TargetRevision.html#SuperOffice_CRM_Services_TargetRevision_LogEvent
   name: LogEvent
   nameWithType: TargetRevision.LogEvent
   fullName: SuperOffice.CRM.Services.TargetRevision.LogEvent
@@ -381,7 +326,6 @@ references:
 - uid: SuperOffice.CRM.Services.TargetRevision.Who*
   commentId: Overload:SuperOffice.CRM.Services.TargetRevision.Who
   isExternal: true
-  href: SuperOffice.CRM.Services.TargetRevision.html#SuperOffice_CRM_Services_TargetRevision_Who
   name: Who
   nameWithType: TargetRevision.Who
   fullName: SuperOffice.CRM.Services.TargetRevision.Who
@@ -389,38 +333,28 @@ references:
   commentId: T:SuperOffice.CRM.Services.Associate
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.Associate.html
   name: Associate
   nameWithType: Associate
   fullName: SuperOffice.CRM.Services.Associate
 - uid: SuperOffice.CRM.Services.TargetRevision.When*
   commentId: Overload:SuperOffice.CRM.Services.TargetRevision.When
   isExternal: true
-  href: SuperOffice.CRM.Services.TargetRevision.html#SuperOffice_CRM_Services_TargetRevision_When
   name: When
   nameWithType: TargetRevision.When
   fullName: SuperOffice.CRM.Services.TargetRevision.When
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
 - uid: SuperOffice.CRM.Services.TargetRevision.Changes*
   commentId: Overload:SuperOffice.CRM.Services.TargetRevision.Changes
   isExternal: true
-  href: SuperOffice.CRM.Services.TargetRevision.html#SuperOffice_CRM_Services_TargetRevision_Changes
   name: Changes
   nameWithType: TargetRevision.Changes
   fullName: SuperOffice.CRM.Services.TargetRevision.Changes
 - uid: SuperOffice.CRM.Services.TargetChange[]
   isExternal: true
-  href: SuperOffice.CRM.Services.TargetChange.html
   name: TargetChange[]
   nameWithType: TargetChange[]
   fullName: SuperOffice.CRM.Services.TargetChange[]
@@ -430,14 +364,18 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.TargetChange
     name: TargetChange
+    nameWithType: TargetChange
+    fullName: SuperOffice.CRM.Services.TargetChange
     isExternal: true
-    href: SuperOffice.CRM.Services.TargetChange.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.Services.TargetChange
     name: TargetChange
+    nameWithType: TargetChange
+    fullName: SuperOffice.CRM.Services.TargetChange
     isExternal: true
-    href: SuperOffice.CRM.Services.TargetChange.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()

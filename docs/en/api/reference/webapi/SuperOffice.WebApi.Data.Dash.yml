@@ -26,25 +26,20 @@ items:
   nameWithType: Dash
   fullName: SuperOffice.WebApi.Data.Dash
   type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Carrier object for Dash.
-
-    Dashboard configuration
+  summary: "\nCarrier object for Dash.\nDashboard configuration    \n"
   example:
-  - >-
-    Get Dash 123 using the WebApi client:
-
-    <pre><code class="lang-csharp">var configuration = new WebApiConfiguration(url);
-
-    var agent = new DashAgent(configuration);
-
-    var dash = agent.GetDash( 123 );</code></pre>
+  - "\nGet Dash 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new DashAgent(configuration);\nvar dash = agent.GetDash( 123 );</code></pre>\n"
   syntax:
     content: 'public class Dash : Carrier'
-    content.vb: Public Class Dash Inherits Carrier
+    content.vb: >-
+      Public Class Dash
+          Inherits Carrier
   seealso:
   - linkId: SuperOffice.WebApi.Agents.DashAgent
     commentId: T:SuperOffice.WebApi.Agents.DashAgent
@@ -54,13 +49,12 @@ items:
   inheritedMembers:
   - SuperOffice.WebApi.Data.Carrier.TableRight
   - SuperOffice.WebApi.Data.Carrier.FieldProperties
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.WebApi.Data.Dash.#ctor
   commentId: M:SuperOffice.WebApi.Data.Dash.#ctor
   id: '#ctor'
@@ -72,18 +66,21 @@ items:
   nameWithType: Dash.Dash()
   fullName: SuperOffice.WebApi.Data.Dash.Dash()
   type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Default constructor - defaults any enum props to 0.
-  example: []
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
   syntax:
     content: public Dash()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.WebApi.Data.Dash.#ctor*
-  nameWithType.vb: Dash.New()
-  fullName.vb: SuperOffice.WebApi.Data.Dash.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.Dash.DashboardId
   commentId: P:SuperOffice.WebApi.Data.Dash.DashboardId
   id: DashboardId
@@ -95,11 +92,13 @@ items:
   nameWithType: Dash.DashboardId
   fullName: SuperOffice.WebApi.Data.Dash.DashboardId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Primary key
-  example: []
+  summary: "\nPrimary key\n"
   syntax:
     content: public virtual int DashboardId { get; set; }
     parameters: []
@@ -107,6 +106,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property DashboardId As Integer
   overload: SuperOffice.WebApi.Data.Dash.DashboardId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Dash.UniqueId
   commentId: P:SuperOffice.WebApi.Data.Dash.UniqueId
   id: UniqueId
@@ -118,11 +125,13 @@ items:
   nameWithType: Dash.UniqueId
   fullName: SuperOffice.WebApi.Data.Dash.UniqueId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: GUID identifying a default dashboard from SuperOffice
-  example: []
+  summary: "\nGUID identifying a default dashboard from SuperOffice\n"
   syntax:
     content: public virtual string UniqueId { get; set; }
     parameters: []
@@ -130,6 +139,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property UniqueId As String
   overload: SuperOffice.WebApi.Data.Dash.UniqueId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Dash.Name
   commentId: P:SuperOffice.WebApi.Data.Dash.Name
   id: Name
@@ -141,11 +158,13 @@ items:
   nameWithType: Dash.Name
   fullName: SuperOffice.WebApi.Data.Dash.Name
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The name of this dashboard
-  example: []
+  summary: "\nThe name of this dashboard\n"
   syntax:
     content: public virtual string Name { get; set; }
     parameters: []
@@ -153,6 +172,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property Name As String
   overload: SuperOffice.WebApi.Data.Dash.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Dash.Description
   commentId: P:SuperOffice.WebApi.Data.Dash.Description
   id: Description
@@ -164,11 +191,13 @@ items:
   nameWithType: Dash.Description
   fullName: SuperOffice.WebApi.Data.Dash.Description
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Detailed description
-  example: []
+  summary: "\nDetailed description\n"
   syntax:
     content: public virtual string Description { get; set; }
     parameters: []
@@ -176,6 +205,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property Description As String
   overload: SuperOffice.WebApi.Data.Dash.Description*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Dash.AssociateId
   commentId: P:SuperOffice.WebApi.Data.Dash.AssociateId
   id: AssociateId
@@ -187,11 +224,13 @@ items:
   nameWithType: Dash.AssociateId
   fullName: SuperOffice.WebApi.Data.Dash.AssociateId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Associate who owns this dashboard
-  example: []
+  summary: "\nAssociate who owns this dashboard\n"
   syntax:
     content: public virtual int AssociateId { get; set; }
     parameters: []
@@ -199,6 +238,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property AssociateId As Integer
   overload: SuperOffice.WebApi.Data.Dash.AssociateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Dash.Columns
   commentId: P:SuperOffice.WebApi.Data.Dash.Columns
   id: Columns
@@ -210,11 +257,13 @@ items:
   nameWithType: Dash.Columns
   fullName: SuperOffice.WebApi.Data.Dash.Columns
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: How many columns there will be in the dashboard.
-  example: []
+  summary: "\nHow many columns there will be in the dashboard.\n"
   syntax:
     content: public virtual int Columns { get; set; }
     parameters: []
@@ -222,6 +271,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property Columns As Integer
   overload: SuperOffice.WebApi.Data.Dash.Columns*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Dash.Theme
   commentId: P:SuperOffice.WebApi.Data.Dash.Theme
   id: Theme
@@ -233,11 +290,13 @@ items:
   nameWithType: Dash.Theme
   fullName: SuperOffice.WebApi.Data.Dash.Theme
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The theme for this dashboard
-  example: []
+  summary: "\nThe theme for this dashboard\n"
   syntax:
     content: public virtual DashTheme Theme { get; set; }
     parameters: []
@@ -245,6 +304,14 @@ items:
       type: SuperOffice.WebApi.Data.DashTheme
     content.vb: Public Overridable Property Theme As DashTheme
   overload: SuperOffice.WebApi.Data.Dash.Theme*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Dash.VisibleForAll
   commentId: P:SuperOffice.WebApi.Data.Dash.VisibleForAll
   id: VisibleForAll
@@ -256,11 +323,13 @@ items:
   nameWithType: Dash.VisibleForAll
   fullName: SuperOffice.WebApi.Data.Dash.VisibleForAll
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: True if visible for all
-  example: []
+  summary: "\nTrue if visible for all\n"
   syntax:
     content: public virtual short VisibleForAll { get; set; }
     parameters: []
@@ -268,6 +337,14 @@ items:
       type: System.Int16
     content.vb: Public Overridable Property VisibleForAll As Short
   overload: SuperOffice.WebApi.Data.Dash.VisibleForAll*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Dash.VisibleForAssociates
   commentId: P:SuperOffice.WebApi.Data.Dash.VisibleForAssociates
   id: VisibleForAssociates
@@ -279,11 +356,13 @@ items:
   nameWithType: Dash.VisibleForAssociates
   fullName: SuperOffice.WebApi.Data.Dash.VisibleForAssociates
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Array of references to the visible for associates
-  example: []
+  summary: "\nArray of references to the visible for associates\n"
   syntax:
     content: public virtual int[] VisibleForAssociates { get; set; }
     parameters: []
@@ -291,6 +370,14 @@ items:
       type: System.Int32[]
     content.vb: Public Overridable Property VisibleForAssociates As Integer()
   overload: SuperOffice.WebApi.Data.Dash.VisibleForAssociates*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Dash.VisibleForGroups
   commentId: P:SuperOffice.WebApi.Data.Dash.VisibleForGroups
   id: VisibleForGroups
@@ -302,11 +389,13 @@ items:
   nameWithType: Dash.VisibleForGroups
   fullName: SuperOffice.WebApi.Data.Dash.VisibleForGroups
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Array of references to the visible for groups
-  example: []
+  summary: "\nArray of references to the visible for groups\n"
   syntax:
     content: public virtual int[] VisibleForGroups { get; set; }
     parameters: []
@@ -314,6 +403,14 @@ items:
       type: System.Int32[]
     content.vb: Public Overridable Property VisibleForGroups As Integer()
   overload: SuperOffice.WebApi.Data.Dash.VisibleForGroups*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Dash.PinForAll
   commentId: P:SuperOffice.WebApi.Data.Dash.PinForAll
   id: PinForAll
@@ -325,11 +422,13 @@ items:
   nameWithType: Dash.PinForAll
   fullName: SuperOffice.WebApi.Data.Dash.PinForAll
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: True if pinned for all
-  example: []
+  summary: "\nTrue if pinned for all\n"
   syntax:
     content: public virtual short PinForAll { get; set; }
     parameters: []
@@ -337,6 +436,14 @@ items:
       type: System.Int16
     content.vb: Public Overridable Property PinForAll As Short
   overload: SuperOffice.WebApi.Data.Dash.PinForAll*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Dash.PinForAssociates
   commentId: P:SuperOffice.WebApi.Data.Dash.PinForAssociates
   id: PinForAssociates
@@ -348,11 +455,13 @@ items:
   nameWithType: Dash.PinForAssociates
   fullName: SuperOffice.WebApi.Data.Dash.PinForAssociates
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Array of references to the pinned associates
-  example: []
+  summary: "\nArray of references to the pinned associates\n"
   syntax:
     content: public virtual int[] PinForAssociates { get; set; }
     parameters: []
@@ -360,6 +469,14 @@ items:
       type: System.Int32[]
     content.vb: Public Overridable Property PinForAssociates As Integer()
   overload: SuperOffice.WebApi.Data.Dash.PinForAssociates*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Dash.PinForGroups
   commentId: P:SuperOffice.WebApi.Data.Dash.PinForGroups
   id: PinForGroups
@@ -371,11 +488,13 @@ items:
   nameWithType: Dash.PinForGroups
   fullName: SuperOffice.WebApi.Data.Dash.PinForGroups
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Array of references to the pinned groups
-  example: []
+  summary: "\nArray of references to the pinned groups\n"
   syntax:
     content: public virtual int[] PinForGroups { get; set; }
     parameters: []
@@ -383,67 +502,32 @@ items:
       type: System.Int32[]
     content.vb: Public Overridable Property PinForGroups As Integer()
   overload: SuperOffice.WebApi.Data.Dash.PinForGroups*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
-- uid: SuperOffice.WebApi.Agents.DashAgent
-  commentId: T:SuperOffice.WebApi.Agents.DashAgent
-  isExternal: true
-  href: SuperOffice.WebApi.Agents.DashAgent.html
-  name: DashAgent
-  nameWithType: DashAgent
-  fullName: SuperOffice.WebApi.Agents.DashAgent
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.WebApi.Data.Carrier
   commentId: T:SuperOffice.WebApi.Data.Carrier
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html
   name: Carrier
   nameWithType: Carrier
   fullName: SuperOffice.WebApi.Data.Carrier
@@ -451,7 +535,6 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_TableRight
   name: TableRight
   nameWithType: Carrier.TableRight
   fullName: SuperOffice.WebApi.Data.Carrier.TableRight
@@ -459,250 +542,30 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_FieldProperties
   name: FieldProperties
   nameWithType: Carrier.FieldProperties
   fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
+- uid: SuperOffice.WebApi.Agents.DashAgent
+  commentId: T:SuperOffice.WebApi.Agents.DashAgent
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: DashAgent
+  nameWithType: DashAgent
+  fullName: SuperOffice.WebApi.Agents.DashAgent
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Data.Dash.#ctor*
   commentId: Overload:SuperOffice.WebApi.Data.Dash.#ctor
   isExternal: true
-  href: SuperOffice.WebApi.Data.Dash.html#SuperOffice_WebApi_Data_Dash__ctor
   name: Dash
   nameWithType: Dash.Dash
   fullName: SuperOffice.WebApi.Data.Dash.Dash
-  nameWithType.vb: Dash.New
-  fullName.vb: SuperOffice.WebApi.Data.Dash.New
-  name.vb: New
 - uid: SuperOffice.WebApi.Data.Dash.DashboardId*
   commentId: Overload:SuperOffice.WebApi.Data.Dash.DashboardId
   isExternal: true
-  href: SuperOffice.WebApi.Data.Dash.html#SuperOffice_WebApi_Data_Dash_DashboardId
   name: DashboardId
   nameWithType: Dash.DashboardId
   fullName: SuperOffice.WebApi.Data.Dash.DashboardId
@@ -710,17 +573,12 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.WebApi.Data.Dash.UniqueId*
   commentId: Overload:SuperOffice.WebApi.Data.Dash.UniqueId
   isExternal: true
-  href: SuperOffice.WebApi.Data.Dash.html#SuperOffice_WebApi_Data_Dash_UniqueId
   name: UniqueId
   nameWithType: Dash.UniqueId
   fullName: SuperOffice.WebApi.Data.Dash.UniqueId
@@ -728,45 +586,36 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.WebApi.Data.Dash.Name*
   commentId: Overload:SuperOffice.WebApi.Data.Dash.Name
   isExternal: true
-  href: SuperOffice.WebApi.Data.Dash.html#SuperOffice_WebApi_Data_Dash_Name
   name: Name
   nameWithType: Dash.Name
   fullName: SuperOffice.WebApi.Data.Dash.Name
 - uid: SuperOffice.WebApi.Data.Dash.Description*
   commentId: Overload:SuperOffice.WebApi.Data.Dash.Description
   isExternal: true
-  href: SuperOffice.WebApi.Data.Dash.html#SuperOffice_WebApi_Data_Dash_Description
   name: Description
   nameWithType: Dash.Description
   fullName: SuperOffice.WebApi.Data.Dash.Description
 - uid: SuperOffice.WebApi.Data.Dash.AssociateId*
   commentId: Overload:SuperOffice.WebApi.Data.Dash.AssociateId
   isExternal: true
-  href: SuperOffice.WebApi.Data.Dash.html#SuperOffice_WebApi_Data_Dash_AssociateId
   name: AssociateId
   nameWithType: Dash.AssociateId
   fullName: SuperOffice.WebApi.Data.Dash.AssociateId
 - uid: SuperOffice.WebApi.Data.Dash.Columns*
   commentId: Overload:SuperOffice.WebApi.Data.Dash.Columns
   isExternal: true
-  href: SuperOffice.WebApi.Data.Dash.html#SuperOffice_WebApi_Data_Dash_Columns
   name: Columns
   nameWithType: Dash.Columns
   fullName: SuperOffice.WebApi.Data.Dash.Columns
 - uid: SuperOffice.WebApi.Data.Dash.Theme*
   commentId: Overload:SuperOffice.WebApi.Data.Dash.Theme
   isExternal: true
-  href: SuperOffice.WebApi.Data.Dash.html#SuperOffice_WebApi_Data_Dash_Theme
   name: Theme
   nameWithType: Dash.Theme
   fullName: SuperOffice.WebApi.Data.Dash.Theme
@@ -774,14 +623,12 @@ references:
   commentId: T:SuperOffice.WebApi.Data.DashTheme
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.DashTheme.html
   name: DashTheme
   nameWithType: DashTheme
   fullName: SuperOffice.WebApi.Data.DashTheme
 - uid: SuperOffice.WebApi.Data.Dash.VisibleForAll*
   commentId: Overload:SuperOffice.WebApi.Data.Dash.VisibleForAll
   isExternal: true
-  href: SuperOffice.WebApi.Data.Dash.html#SuperOffice_WebApi_Data_Dash_VisibleForAll
   name: VisibleForAll
   nameWithType: Dash.VisibleForAll
   fullName: SuperOffice.WebApi.Data.Dash.VisibleForAll
@@ -789,68 +636,62 @@ references:
   commentId: T:System.Int16
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int16
-  name: short
-  nameWithType: short
-  fullName: short
-  nameWithType.vb: Short
-  fullName.vb: Short
-  name.vb: Short
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.WebApi.Data.Dash.VisibleForAssociates*
   commentId: Overload:SuperOffice.WebApi.Data.Dash.VisibleForAssociates
   isExternal: true
-  href: SuperOffice.WebApi.Data.Dash.html#SuperOffice_WebApi_Data_Dash_VisibleForAssociates
   name: VisibleForAssociates
   nameWithType: Dash.VisibleForAssociates
   fullName: SuperOffice.WebApi.Data.Dash.VisibleForAssociates
 - uid: System.Int32[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int[]
-  nameWithType: int[]
-  fullName: int[]
-  nameWithType.vb: Integer()
-  fullName.vb: Integer()
-  name.vb: Integer()
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
   spec.csharp:
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.WebApi.Data.Dash.VisibleForGroups*
   commentId: Overload:SuperOffice.WebApi.Data.Dash.VisibleForGroups
   isExternal: true
-  href: SuperOffice.WebApi.Data.Dash.html#SuperOffice_WebApi_Data_Dash_VisibleForGroups
   name: VisibleForGroups
   nameWithType: Dash.VisibleForGroups
   fullName: SuperOffice.WebApi.Data.Dash.VisibleForGroups
 - uid: SuperOffice.WebApi.Data.Dash.PinForAll*
   commentId: Overload:SuperOffice.WebApi.Data.Dash.PinForAll
   isExternal: true
-  href: SuperOffice.WebApi.Data.Dash.html#SuperOffice_WebApi_Data_Dash_PinForAll
   name: PinForAll
   nameWithType: Dash.PinForAll
   fullName: SuperOffice.WebApi.Data.Dash.PinForAll
 - uid: SuperOffice.WebApi.Data.Dash.PinForAssociates*
   commentId: Overload:SuperOffice.WebApi.Data.Dash.PinForAssociates
   isExternal: true
-  href: SuperOffice.WebApi.Data.Dash.html#SuperOffice_WebApi_Data_Dash_PinForAssociates
   name: PinForAssociates
   nameWithType: Dash.PinForAssociates
   fullName: SuperOffice.WebApi.Data.Dash.PinForAssociates
 - uid: SuperOffice.WebApi.Data.Dash.PinForGroups*
   commentId: Overload:SuperOffice.WebApi.Data.Dash.PinForGroups
   isExternal: true
-  href: SuperOffice.WebApi.Data.Dash.html#SuperOffice_WebApi_Data_Dash_PinForGroups
   name: PinForGroups
   nameWithType: Dash.PinForGroups
   fullName: SuperOffice.WebApi.Data.Dash.PinForGroups

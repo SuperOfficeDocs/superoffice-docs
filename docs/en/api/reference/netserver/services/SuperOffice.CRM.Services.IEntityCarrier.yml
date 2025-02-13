@@ -16,12 +16,21 @@ items:
   nameWithType: IEntityCarrier
   fullName: SuperOffice.CRM.Services.IEntityCarrier
   type: Interface
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
   syntax:
     content: public interface IEntityCarrier
     content.vb: Public Interface IEntityCarrier
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
 - uid: SuperOffice.CRM.Services.IEntityCarrier.CreatedBy
   commentId: P:SuperOffice.CRM.Services.IEntityCarrier.CreatedBy
   id: CreatedBy
@@ -33,11 +42,13 @@ items:
   nameWithType: IEntityCarrier.CreatedBy
   fullName: SuperOffice.CRM.Services.IEntityCarrier.CreatedBy
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The associate that first created the entity. The property is read-only.
-  example: []
+  summary: "\nThe associate that first created the entity. The property is read-only.\n"
   syntax:
     content: Associate CreatedBy { get; set; }
     parameters: []
@@ -45,6 +56,9 @@ items:
       type: SuperOffice.CRM.Services.Associate
     content.vb: Property CreatedBy As Associate
   overload: SuperOffice.CRM.Services.IEntityCarrier.CreatedBy*
+  modifiers.csharp:
+  - get
+  - set
 - uid: SuperOffice.CRM.Services.IEntityCarrier.UpdatedBy
   commentId: P:SuperOffice.CRM.Services.IEntityCarrier.UpdatedBy
   id: UpdatedBy
@@ -56,11 +70,13 @@ items:
   nameWithType: IEntityCarrier.UpdatedBy
   fullName: SuperOffice.CRM.Services.IEntityCarrier.UpdatedBy
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The person that last updated the entity.
-  example: []
+  summary: "\nThe person that last updated the entity.\n"
   syntax:
     content: Associate UpdatedBy { get; set; }
     parameters: []
@@ -68,6 +84,9 @@ items:
       type: SuperOffice.CRM.Services.Associate
     content.vb: Property UpdatedBy As Associate
   overload: SuperOffice.CRM.Services.IEntityCarrier.UpdatedBy*
+  modifiers.csharp:
+  - get
+  - set
 - uid: SuperOffice.CRM.Services.IEntityCarrier.CreatedDate
   commentId: P:SuperOffice.CRM.Services.IEntityCarrier.CreatedDate
   id: CreatedDate
@@ -79,18 +98,23 @@ items:
   nameWithType: IEntityCarrier.CreatedDate
   fullName: SuperOffice.CRM.Services.IEntityCarrier.CreatedDate
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Registered date
-  example: []
+  summary: "\nRegistered date\n"
   syntax:
     content: DateTime CreatedDate { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Property CreatedDate As Date
+    content.vb: Property CreatedDate As DateTime
   overload: SuperOffice.CRM.Services.IEntityCarrier.CreatedDate*
+  modifiers.csharp:
+  - get
+  - set
 - uid: SuperOffice.CRM.Services.IEntityCarrier.UpdatedDate
   commentId: P:SuperOffice.CRM.Services.IEntityCarrier.UpdatedDate
   id: UpdatedDate
@@ -102,60 +126,33 @@ items:
   nameWithType: IEntityCarrier.UpdatedDate
   fullName: SuperOffice.CRM.Services.IEntityCarrier.UpdatedDate
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Updated date
-  example: []
+  summary: "\nUpdated date\n"
   syntax:
     content: DateTime UpdatedDate { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Property UpdatedDate As Date
+    content.vb: Property UpdatedDate As DateTime
   overload: SuperOffice.CRM.Services.IEntityCarrier.UpdatedDate*
+  modifiers.csharp:
+  - get
+  - set
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
 - uid: SuperOffice.CRM.Services.IEntityCarrier.CreatedBy*
   commentId: Overload:SuperOffice.CRM.Services.IEntityCarrier.CreatedBy
   isExternal: true
-  href: SuperOffice.CRM.Services.IEntityCarrier.html#SuperOffice_CRM_Services_IEntityCarrier_CreatedBy
   name: CreatedBy
   nameWithType: IEntityCarrier.CreatedBy
   fullName: SuperOffice.CRM.Services.IEntityCarrier.CreatedBy
@@ -163,46 +160,29 @@ references:
   commentId: T:SuperOffice.CRM.Services.Associate
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.Associate.html
   name: Associate
   nameWithType: Associate
   fullName: SuperOffice.CRM.Services.Associate
 - uid: SuperOffice.CRM.Services.IEntityCarrier.UpdatedBy*
   commentId: Overload:SuperOffice.CRM.Services.IEntityCarrier.UpdatedBy
   isExternal: true
-  href: SuperOffice.CRM.Services.IEntityCarrier.html#SuperOffice_CRM_Services_IEntityCarrier_UpdatedBy
   name: UpdatedBy
   nameWithType: IEntityCarrier.UpdatedBy
   fullName: SuperOffice.CRM.Services.IEntityCarrier.UpdatedBy
 - uid: SuperOffice.CRM.Services.IEntityCarrier.CreatedDate*
   commentId: Overload:SuperOffice.CRM.Services.IEntityCarrier.CreatedDate
   isExternal: true
-  href: SuperOffice.CRM.Services.IEntityCarrier.html#SuperOffice_CRM_Services_IEntityCarrier_CreatedDate
   name: CreatedDate
   nameWithType: IEntityCarrier.CreatedDate
   fullName: SuperOffice.CRM.Services.IEntityCarrier.CreatedDate
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.IEntityCarrier.UpdatedDate*
   commentId: Overload:SuperOffice.CRM.Services.IEntityCarrier.UpdatedDate
   isExternal: true
-  href: SuperOffice.CRM.Services.IEntityCarrier.html#SuperOffice_CRM_Services_IEntityCarrier_UpdatedDate
   name: UpdatedDate
   nameWithType: IEntityCarrier.UpdatedDate
   fullName: SuperOffice.CRM.Services.IEntityCarrier.UpdatedDate

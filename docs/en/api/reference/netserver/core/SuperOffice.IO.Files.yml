@@ -21,7 +21,6 @@ references:
 - uid: SuperOffice.IO.Files.DiskFileAccess
   commentId: T:SuperOffice.IO.Files.DiskFileAccess
   isExternal: true
-  href: SuperOffice.IO.Files.DiskFileAccess.html
   name: DiskFileAccess
   nameWithType: DiskFileAccess
   fullName: SuperOffice.IO.Files.DiskFileAccess
@@ -29,58 +28,24 @@ references:
   commentId: T:SuperOffice.IO.Files.IFileAccess
   parent: SuperOffice.IO.Files
   isExternal: true
-  href: SuperOffice.IO.Files.IFileAccess.html
   name: IFileAccess
   nameWithType: IFileAccess
   fullName: SuperOffice.IO.Files.IFileAccess
 - uid: SuperOffice.IO.Files.SoFileInfo
   commentId: T:SuperOffice.IO.Files.SoFileInfo
   isExternal: true
-  href: SuperOffice.IO.Files.SoFileInfo.html
   name: SoFileInfo
   nameWithType: SoFileInfo
   fullName: SuperOffice.IO.Files.SoFileInfo
 - uid: SuperOffice.IO.Files.SoArcConfiguration
   commentId: T:SuperOffice.IO.Files.SoArcConfiguration
   isExternal: true
-  href: SuperOffice.IO.Files.SoArcConfiguration.html
   name: SoArcConfiguration
   nameWithType: SoArcConfiguration
   fullName: SuperOffice.IO.Files.SoArcConfiguration
 - uid: SuperOffice.IO.Files
   commentId: N:SuperOffice.IO.Files
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.IO.Files
   nameWithType: SuperOffice.IO.Files
   fullName: SuperOffice.IO.Files
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.IO
-    name: IO
-    isExternal: true
-    href: SuperOffice.IO.html
-  - name: .
-  - uid: SuperOffice.IO.Files
-    name: Files
-    isExternal: true
-    href: SuperOffice.IO.Files.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.IO
-    name: IO
-    isExternal: true
-    href: SuperOffice.IO.html
-  - name: .
-  - uid: SuperOffice.IO.Files
-    name: Files
-    isExternal: true
-    href: SuperOffice.IO.Files.html

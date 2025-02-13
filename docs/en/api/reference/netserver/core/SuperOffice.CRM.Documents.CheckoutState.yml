@@ -9,26 +9,67 @@ items:
   - SuperOffice.CRM.Documents.CheckoutState.CheckedOutOwn
   - SuperOffice.CRM.Documents.CheckoutState.LockingNotSupported
   - SuperOffice.CRM.Documents.CheckoutState.NotCheckedOut
+  - SuperOffice.CRM.Documents.CheckoutState.value__
   langs:
   - csharp
   - vb
   name: CheckoutState
   nameWithType: CheckoutState
   fullName: SuperOffice.CRM.Documents.CheckoutState
-  type: Enum
+  type: Class
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Documents
-  summary: Enum listing the possible checkout states of a document, as seen from outside the document plugin
-  example: []
+  summary: "\nEnum listing the possible checkout states of a document, as seen from outside the document plugin\n"
   syntax:
-    content: public enum CheckoutState
-    content.vb: Public Enum CheckoutState
+    content: 'public sealed class CheckoutState : Enum'
+    content.vb: >-
+      Public NotInheritable Class CheckoutState
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.CRM.Documents.CheckoutState.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Documents.CheckoutState.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  - SuperOffice.CRM.Documents.CheckoutState.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Documents.CheckoutState)
-  - SuperOffice.CRM.Documents.CheckoutState.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.CRM.Documents.CheckoutState.value__
+  commentId: F:SuperOffice.CRM.Documents.CheckoutState.value__
+  id: value__
+  parent: SuperOffice.CRM.Documents.CheckoutState
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: CheckoutState.value__
+  fullName: SuperOffice.CRM.Documents.CheckoutState.value__
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Documents.CheckoutState.NotCheckedOut
   commentId: F:SuperOffice.CRM.Documents.CheckoutState.NotCheckedOut
   id: NotCheckedOut
@@ -40,15 +81,24 @@ items:
   nameWithType: CheckoutState.NotCheckedOut
   fullName: SuperOffice.CRM.Documents.CheckoutState.NotCheckedOut
   type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Documents
-  summary: Document is not checked out
-  example: []
+  summary: "\nDocument is not checked out\n"
   syntax:
-    content: NotCheckedOut = 0
+    content: public const CheckoutState NotCheckedOut
     return:
       type: SuperOffice.CRM.Documents.CheckoutState
+    content.vb: Public Const NotCheckedOut As CheckoutState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Documents.CheckoutState.CheckedOutOwn
   commentId: F:SuperOffice.CRM.Documents.CheckoutState.CheckedOutOwn
   id: CheckedOutOwn
@@ -60,15 +110,24 @@ items:
   nameWithType: CheckoutState.CheckedOutOwn
   fullName: SuperOffice.CRM.Documents.CheckoutState.CheckedOutOwn
   type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Documents
-  summary: Document is checked out, to the user making the query
-  example: []
+  summary: "\nDocument is checked out, to the user making the query\n"
   syntax:
-    content: CheckedOutOwn = 1
+    content: public const CheckoutState CheckedOutOwn
     return:
       type: SuperOffice.CRM.Documents.CheckoutState
+    content.vb: Public Const CheckedOutOwn As CheckoutState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Documents.CheckoutState.CheckedOutOther
   commentId: F:SuperOffice.CRM.Documents.CheckoutState.CheckedOutOther
   id: CheckedOutOther
@@ -80,15 +139,24 @@ items:
   nameWithType: CheckoutState.CheckedOutOther
   fullName: SuperOffice.CRM.Documents.CheckoutState.CheckedOutOther
   type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Documents
-  summary: Document is checked out, to a user different from the one making the query
-  example: []
+  summary: "\nDocument is checked out, to a user different from the one making the query\n"
   syntax:
-    content: CheckedOutOther = 2
+    content: public const CheckoutState CheckedOutOther
     return:
       type: SuperOffice.CRM.Documents.CheckoutState
+    content.vb: Public Const CheckedOutOther As CheckoutState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Documents.CheckoutState.LockingNotSupported
   commentId: F:SuperOffice.CRM.Documents.CheckoutState.LockingNotSupported
   id: LockingNotSupported
@@ -100,274 +168,115 @@ items:
   nameWithType: CheckoutState.LockingNotSupported
   fullName: SuperOffice.CRM.Documents.CheckoutState.LockingNotSupported
   type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM.Documents
-  summary: >-
-    Locking is not supported or selected for this document. The document is always
-
-    'writeable' in the sense of not being protected by any locks. The document may
-
-    still be read-only due to Sentry constraints.
-  example: []
+  summary: "\nLocking is not supported or selected for this document. The document is always\n&apos;writeable&apos; in the sense of not being protected by any locks. The document may\nstill be read-only due to Sentry constraints.\n"
   syntax:
-    content: LockingNotSupported = 3
+    content: public const CheckoutState LockingNotSupported
     return:
       type: SuperOffice.CRM.Documents.CheckoutState
+    content.vb: Public Const LockingNotSupported As CheckoutState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.CRM.Documents
   commentId: N:SuperOffice.CRM.Documents
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Documents
   nameWithType: SuperOffice.CRM.Documents
   fullName: SuperOffice.CRM.Documents
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Documents
-    name: Documents
-    isExternal: true
-    href: SuperOffice.CRM.Documents.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Documents
-    name: Documents
-    isExternal: true
-    href: SuperOffice.CRM.Documents.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.Documents.CheckoutState.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<CheckoutState, To>(CheckoutState)
-  nameWithType: EnumUtil.MapEnums<CheckoutState, To>(CheckoutState)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Documents.CheckoutState, To>(SuperOffice.CRM.Documents.CheckoutState)
-  nameWithType.vb: EnumUtil.MapEnums(Of CheckoutState, To)(CheckoutState)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Documents.CheckoutState, To)(SuperOffice.CRM.Documents.CheckoutState)
-  name.vb: MapEnums(Of CheckoutState, To)(CheckoutState)
+  name: MapEnums<CheckoutState, To>()
+  nameWithType: EnumUtil.MapEnums<CheckoutState, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Documents.CheckoutState, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of CheckoutState, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Documents.CheckoutState, To)()
+  name.vb: MapEnums(Of CheckoutState, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Documents.CheckoutState)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<CheckoutState, To>
+    nameWithType: EnumUtil.MapEnums<CheckoutState, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Documents.CheckoutState, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Documents.CheckoutState
-    name: CheckoutState
-    isExternal: true
-    href: SuperOffice.CRM.Documents.CheckoutState.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Documents.CheckoutState
-    name: CheckoutState
-    isExternal: true
-    href: SuperOffice.CRM.Documents.CheckoutState.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Documents.CheckoutState)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of CheckoutState, To)
+    nameWithType: EnumUtil.MapEnums(Of CheckoutState, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Documents.CheckoutState, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Documents.CheckoutState
-    name: CheckoutState
-    isExternal: true
-    href: SuperOffice.CRM.Documents.CheckoutState.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Documents.CheckoutState
-    name: CheckoutState
-    isExternal: true
-    href: SuperOffice.CRM.Documents.CheckoutState.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Documents.CheckoutState.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<CheckoutState, To>(CheckoutState)
-  nameWithType: Converters.MapEnums<CheckoutState, To>(CheckoutState)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Documents.CheckoutState, To>(SuperOffice.CRM.Documents.CheckoutState)
-  nameWithType.vb: Converters.MapEnums(Of CheckoutState, To)(CheckoutState)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Documents.CheckoutState, To)(SuperOffice.CRM.Documents.CheckoutState)
-  name.vb: MapEnums(Of CheckoutState, To)(CheckoutState)
+  name: MapEnums<CheckoutState, To>()
+  nameWithType: Converters.MapEnums<CheckoutState, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Documents.CheckoutState, To>()
+  nameWithType.vb: Converters.MapEnums(Of CheckoutState, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Documents.CheckoutState, To)()
+  name.vb: MapEnums(Of CheckoutState, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Documents.CheckoutState)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<CheckoutState, To>
+    nameWithType: Converters.MapEnums<CheckoutState, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Documents.CheckoutState, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Documents.CheckoutState
-    name: CheckoutState
-    isExternal: true
-    href: SuperOffice.CRM.Documents.CheckoutState.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Documents.CheckoutState
-    name: CheckoutState
-    isExternal: true
-    href: SuperOffice.CRM.Documents.CheckoutState.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Documents.CheckoutState)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of CheckoutState, To)
+    nameWithType: Converters.MapEnums(Of CheckoutState, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Documents.CheckoutState, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Documents.CheckoutState
-    name: CheckoutState
-    isExternal: true
-    href: SuperOffice.CRM.Documents.CheckoutState.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Documents.CheckoutState
-    name: CheckoutState
-    isExternal: true
-    href: SuperOffice.CRM.Documents.CheckoutState.html
-  - name: )
-- uid: SuperOffice.CRM.Documents.CheckoutState.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Documents.CheckoutState)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<CheckoutState>(CheckoutState, CheckoutState)
-  nameWithType: ObjectExtensions.AssignByReflection<CheckoutState>(CheckoutState, CheckoutState)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Documents.CheckoutState>(SuperOffice.CRM.Documents.CheckoutState, SuperOffice.CRM.Documents.CheckoutState)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of CheckoutState)(CheckoutState, CheckoutState)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Documents.CheckoutState)(SuperOffice.CRM.Documents.CheckoutState, SuperOffice.CRM.Documents.CheckoutState)
-  name.vb: AssignByReflection(Of CheckoutState)(CheckoutState, CheckoutState)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Documents.CheckoutState,SuperOffice.CRM.Documents.CheckoutState)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.CRM.Documents.CheckoutState
-    name: CheckoutState
-    isExternal: true
-    href: SuperOffice.CRM.Documents.CheckoutState.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.CRM.Documents.CheckoutState
-    name: CheckoutState
-    isExternal: true
-    href: SuperOffice.CRM.Documents.CheckoutState.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Documents.CheckoutState
-    name: CheckoutState
-    isExternal: true
-    href: SuperOffice.CRM.Documents.CheckoutState.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Documents.CheckoutState,SuperOffice.CRM.Documents.CheckoutState)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Documents.CheckoutState
-    name: CheckoutState
-    isExternal: true
-    href: SuperOffice.CRM.Documents.CheckoutState.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Documents.CheckoutState
-    name: CheckoutState
-    isExternal: true
-    href: SuperOffice.CRM.Documents.CheckoutState.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Documents.CheckoutState
-    name: CheckoutState
-    isExternal: true
-    href: SuperOffice.CRM.Documents.CheckoutState.html
-  - name: )
-- uid: SuperOffice.CRM.Documents.CheckoutState.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<CheckoutState>(CheckoutState)
-  nameWithType: ObjectExtensions.GraphCopy<CheckoutState>(CheckoutState)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Documents.CheckoutState>(SuperOffice.CRM.Documents.CheckoutState)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of CheckoutState)(CheckoutState)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Documents.CheckoutState)(SuperOffice.CRM.Documents.CheckoutState)
-  name.vb: GraphCopy(Of CheckoutState)(CheckoutState)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Documents.CheckoutState)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.CRM.Documents.CheckoutState
-    name: CheckoutState
-    isExternal: true
-    href: SuperOffice.CRM.Documents.CheckoutState.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.CRM.Documents.CheckoutState
-    name: CheckoutState
-    isExternal: true
-    href: SuperOffice.CRM.Documents.CheckoutState.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Documents.CheckoutState)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Documents.CheckoutState
-    name: CheckoutState
-    isExternal: true
-    href: SuperOffice.CRM.Documents.CheckoutState.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Documents.CheckoutState
-    name: CheckoutState
-    isExternal: true
-    href: SuperOffice.CRM.Documents.CheckoutState.html
-  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -376,45 +285,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -423,193 +330,58 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Documents.CheckoutState
   commentId: T:SuperOffice.CRM.Documents.CheckoutState
   parent: SuperOffice.CRM.Documents
   isExternal: true
-  href: SuperOffice.CRM.Documents.CheckoutState.html
   name: CheckoutState
   nameWithType: CheckoutState
   fullName: SuperOffice.CRM.Documents.CheckoutState

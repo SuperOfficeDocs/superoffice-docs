@@ -8,49 +8,79 @@ items:
   - SuperOffice.WebApi.Data.ETableRight.Delete
   - SuperOffice.WebApi.Data.ETableRight.F
   - SuperOffice.WebApi.Data.ETableRight.FI
-  - SuperOffice.WebApi.Data.ETableRight.FULL
   - SuperOffice.WebApi.Data.ETableRight.Filtering
+  - SuperOffice.WebApi.Data.ETableRight.FULL
   - SuperOffice.WebApi.Data.ETableRight.Insert
   - SuperOffice.WebApi.Data.ETableRight.None
   - SuperOffice.WebApi.Data.ETableRight.R
+  - SuperOffice.WebApi.Data.ETableRight.RestrictedUpdate
   - SuperOffice.WebApi.Data.ETableRight.RF
   - SuperOffice.WebApi.Data.ETableRight.RI
-  - SuperOffice.WebApi.Data.ETableRight.RestrictedUpdate
   - SuperOffice.WebApi.Data.ETableRight.Select
   - SuperOffice.WebApi.Data.ETableRight.UDR
-  - SuperOffice.WebApi.Data.ETableRight.UR
-  - SuperOffice.WebApi.Data.ETableRight.URI
   - SuperOffice.WebApi.Data.ETableRight.Uninitialized
   - SuperOffice.WebApi.Data.ETableRight.Unused1
   - SuperOffice.WebApi.Data.ETableRight.Update
+  - SuperOffice.WebApi.Data.ETableRight.UR
+  - SuperOffice.WebApi.Data.ETableRight.URI
+  - SuperOffice.WebApi.Data.ETableRight.value__
   langs:
   - csharp
   - vb
   name: ETableRight
   nameWithType: ETableRight
   fullName: SuperOffice.WebApi.Data.ETableRight
-  type: Enum
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Table right is a combination of bits representing permissions on a row.
-
-    This Enum consists of flag values that can be combined.
-  example: []
+  summary: "\nTable right is a combination of bits representing permissions on a row.\nThis Enum consists of flag values that can be combined.\n"
   syntax:
-    content: >-
-      [Flags]
-
-      public enum ETableRight
+    content: 'public sealed class ETableRight : Enum'
     content.vb: >-
-      <Flags>
+      Public NotInheritable Class ETableRight
+          Inherits
 
-      Public Enum ETableRight
-  attributes:
-  - type: System.FlagsAttribute
-    ctor: System.FlagsAttribute.#ctor
-    arguments: []
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.ETableRight.value__
+  commentId: F:SuperOffice.WebApi.Data.ETableRight.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.ETableRight
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: ETableRight.value__
+  fullName: SuperOffice.WebApi.Data.ETableRight.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.ETableRight.None
   commentId: F:SuperOffice.WebApi.Data.ETableRight.None
   id: None
@@ -62,15 +92,24 @@ items:
   nameWithType: ETableRight.None
   fullName: SuperOffice.WebApi.Data.ETableRight.None
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '0: The row should be hidden from the user.'
-  example: []
+  summary: "\n0: The row should be hidden from the user.\n"
   syntax:
-    content: None = 0
+    content: public const ETableRight None
     return:
       type: SuperOffice.WebApi.Data.ETableRight
+    content.vb: Public Const None As ETableRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ETableRight.Select
   commentId: F:SuperOffice.WebApi.Data.ETableRight.Select
   id: Select
@@ -82,26 +121,24 @@ items:
   nameWithType: ETableRight.Select
   fullName: SuperOffice.WebApi.Data.ETableRight.Select
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '1: The user is allowed to see the row.'
-  example: []
+  summary: "\n1: The user is allowed to see the row.\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Select = 1
+    content: public const ETableRight Select
     return:
       type: SuperOffice.WebApi.Data.ETableRight
-    content.vb: >-
-      <EnumMember>
-
-      Select = 1
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Select As ETableRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ETableRight.Update
   commentId: F:SuperOffice.WebApi.Data.ETableRight.Update
   id: Update
@@ -113,26 +150,24 @@ items:
   nameWithType: ETableRight.Update
   fullName: SuperOffice.WebApi.Data.ETableRight.Update
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '2: The user is allowed to modify the values in this row.'
-  example: []
+  summary: "\n2: The user is allowed to modify the values in this row.\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Update = 2
+    content: public const ETableRight Update
     return:
       type: SuperOffice.WebApi.Data.ETableRight
-    content.vb: >-
-      <EnumMember>
-
-      Update = 2
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Update As ETableRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ETableRight.UR
   commentId: F:SuperOffice.WebApi.Data.ETableRight.UR
   id: UR
@@ -144,16 +179,24 @@ items:
   nameWithType: ETableRight.UR
   fullName: SuperOffice.WebApi.Data.ETableRight.UR
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '3: Select or Update'
-  example: []
+  summary: "\n3: Select or Update\n"
   syntax:
-    content: UR = R | Update
+    content: public const ETableRight UR
     return:
       type: SuperOffice.WebApi.Data.ETableRight
-    content.vb: UR = R Or Update
+    content.vb: Public Const UR As ETableRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ETableRight.Insert
   commentId: F:SuperOffice.WebApi.Data.ETableRight.Insert
   id: Insert
@@ -165,26 +208,24 @@ items:
   nameWithType: ETableRight.Insert
   fullName: SuperOffice.WebApi.Data.ETableRight.Insert
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '4: The user is allowed to add new rows to the table.'
-  example: []
+  summary: "\n4: The user is allowed to add new rows to the table.\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Insert = 4
+    content: public const ETableRight Insert
     return:
       type: SuperOffice.WebApi.Data.ETableRight
-    content.vb: >-
-      <EnumMember>
-
-      Insert = 4
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Insert As ETableRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ETableRight.RI
   commentId: F:SuperOffice.WebApi.Data.ETableRight.RI
   id: RI
@@ -196,16 +237,24 @@ items:
   nameWithType: ETableRight.RI
   fullName: SuperOffice.WebApi.Data.ETableRight.RI
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '5: Select and Insert (Anonymous)'
-  example: []
+  summary: "\n5: Select and Insert (Anonymous)\n"
   syntax:
-    content: RI = R | Insert
+    content: public const ETableRight RI
     return:
       type: SuperOffice.WebApi.Data.ETableRight
-    content.vb: RI = R Or Insert
+    content.vb: Public Const RI As ETableRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ETableRight.URI
   commentId: F:SuperOffice.WebApi.Data.ETableRight.URI
   id: URI
@@ -217,16 +266,24 @@ items:
   nameWithType: ETableRight.URI
   fullName: SuperOffice.WebApi.Data.ETableRight.URI
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '7: Select, Update, Insert'
-  example: []
+  summary: "\n7: Select, Update, Insert\n"
   syntax:
-    content: URI = Update | RI
+    content: public const ETableRight URI
     return:
       type: SuperOffice.WebApi.Data.ETableRight
-    content.vb: URI = Update Or RI
+    content.vb: Public Const URI As ETableRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ETableRight.Delete
   commentId: F:SuperOffice.WebApi.Data.ETableRight.Delete
   id: Delete
@@ -238,26 +295,24 @@ items:
   nameWithType: ETableRight.Delete
   fullName: SuperOffice.WebApi.Data.ETableRight.Delete
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '8: The user is allowed to delete this row.'
-  example: []
+  summary: "\n8: The user is allowed to delete this row.\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Delete = 8
+    content: public const ETableRight Delete
     return:
       type: SuperOffice.WebApi.Data.ETableRight
-    content.vb: >-
-      <EnumMember>
-
-      Delete = 8
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Delete As ETableRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ETableRight.UDR
   commentId: F:SuperOffice.WebApi.Data.ETableRight.UDR
   id: UDR
@@ -269,16 +324,24 @@ items:
   nameWithType: ETableRight.UDR
   fullName: SuperOffice.WebApi.Data.ETableRight.UDR
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '11: Select, Update, Delete'
-  example: []
+  summary: "\n11: Select, Update, Delete\n"
   syntax:
-    content: UDR = UR | Delete
+    content: public const ETableRight UDR
     return:
       type: SuperOffice.WebApi.Data.ETableRight
-    content.vb: UDR = UR Or Delete
+    content.vb: Public Const UDR As ETableRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ETableRight.FULL
   commentId: F:SuperOffice.WebApi.Data.ETableRight.FULL
   id: FULL
@@ -290,16 +353,24 @@ items:
   nameWithType: ETableRight.FULL
   fullName: SuperOffice.WebApi.Data.ETableRight.FULL
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '15: Select, Update, Insert, Delete - no restrictions'
-  example: []
+  summary: "\n15: Select, Update, Insert, Delete - no restrictions\n"
   syntax:
-    content: FULL = Insert | UDR
+    content: public const ETableRight FULL
     return:
       type: SuperOffice.WebApi.Data.ETableRight
-    content.vb: FULL = Insert Or UDR
+    content.vb: Public Const FULL As ETableRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ETableRight.Filtering
   commentId: F:SuperOffice.WebApi.Data.ETableRight.Filtering
   id: Filtering
@@ -311,26 +382,24 @@ items:
   nameWithType: ETableRight.Filtering
   fullName: SuperOffice.WebApi.Data.ETableRight.Filtering
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '16: A flag used to indicate that some fields may be hidden.'
-  example: []
+  summary: "\n16: A flag used to indicate that some fields may be hidden.\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Filtering = 16
+    content: public const ETableRight Filtering
     return:
       type: SuperOffice.WebApi.Data.ETableRight
-    content.vb: >-
-      <EnumMember>
-
-      Filtering = 16
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Filtering As ETableRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ETableRight.RF
   commentId: F:SuperOffice.WebApi.Data.ETableRight.RF
   id: RF
@@ -342,16 +411,24 @@ items:
   nameWithType: ETableRight.RF
   fullName: SuperOffice.WebApi.Data.ETableRight.RF
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '17: Select or Filter'
-  example: []
+  summary: "\n17: Select or Filter\n"
   syntax:
-    content: RF = R | F
+    content: public const ETableRight RF
     return:
       type: SuperOffice.WebApi.Data.ETableRight
-    content.vb: RF = R Or F
+    content.vb: Public Const RF As ETableRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ETableRight.FI
   commentId: F:SuperOffice.WebApi.Data.ETableRight.FI
   id: FI
@@ -363,16 +440,24 @@ items:
   nameWithType: ETableRight.FI
   fullName: SuperOffice.WebApi.Data.ETableRight.FI
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '20: Filtering and Insert (Anonymous)'
-  example: []
+  summary: "\n20: Filtering and Insert (Anonymous)\n"
   syntax:
-    content: FI = Insert | F
+    content: public const ETableRight FI
     return:
       type: SuperOffice.WebApi.Data.ETableRight
-    content.vb: FI = Insert Or F
+    content.vb: Public Const FI As ETableRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ETableRight.RestrictedUpdate
   commentId: F:SuperOffice.WebApi.Data.ETableRight.RestrictedUpdate
   id: RestrictedUpdate
@@ -384,26 +469,24 @@ items:
   nameWithType: ETableRight.RestrictedUpdate
   fullName: SuperOffice.WebApi.Data.ETableRight.RestrictedUpdate
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '32: A hint flag used to indicate that some fields may not be updateable, even though the user has update access to the row.'
-  example: []
+  summary: "\n32: A hint flag used to indicate that some fields may not be updateable, even though the user has update access to the row.\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      RestrictedUpdate = 32
+    content: public const ETableRight RestrictedUpdate
     return:
       type: SuperOffice.WebApi.Data.ETableRight
-    content.vb: >-
-      <EnumMember>
-
-      RestrictedUpdate = 32
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const RestrictedUpdate As ETableRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ETableRight.Unused1
   commentId: F:SuperOffice.WebApi.Data.ETableRight.Unused1
   id: Unused1
@@ -415,26 +498,24 @@ items:
   nameWithType: ETableRight.Unused1
   fullName: SuperOffice.WebApi.Data.ETableRight.Unused1
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '64: Unused value only present for serializatrion purposes'
-  example: []
+  summary: "\n64: Unused value only present for serializatrion purposes\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Unused1 = 64
+    content: public const ETableRight Unused1
     return:
       type: SuperOffice.WebApi.Data.ETableRight
-    content.vb: >-
-      <EnumMember>
-
-      Unused1 = 64
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Unused1 As ETableRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ETableRight.Uninitialized
   commentId: F:SuperOffice.WebApi.Data.ETableRight.Uninitialized
   id: Uninitialized
@@ -446,26 +527,24 @@ items:
   nameWithType: ETableRight.Uninitialized
   fullName: SuperOffice.WebApi.Data.ETableRight.Uninitialized
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '128: Magic value to indicate not'
-  example: []
+  summary: "\n128: Magic value to indicate not\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Uninitialized = 128
+    content: public const ETableRight Uninitialized
     return:
       type: SuperOffice.WebApi.Data.ETableRight
-    content.vb: >-
-      <EnumMember>
-
-      Uninitialized = 128
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Uninitialized As ETableRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ETableRight.R
   commentId: F:SuperOffice.WebApi.Data.ETableRight.R
   id: R
@@ -477,26 +556,24 @@ items:
   nameWithType: ETableRight.R
   fullName: SuperOffice.WebApi.Data.ETableRight.R
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '1: Select only'
-  example: []
+  summary: "\n1: Select only\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      R = 1
+    content: public const ETableRight R
     return:
       type: SuperOffice.WebApi.Data.ETableRight
-    content.vb: >-
-      <EnumMember>
-
-      R = 1
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const R As ETableRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ETableRight.F
   commentId: F:SuperOffice.WebApi.Data.ETableRight.F
   id: F
@@ -508,69 +585,55 @@ items:
   nameWithType: ETableRight.F
   fullName: SuperOffice.WebApi.Data.ETableRight.F
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '16: just Filtering'
-  example: []
+  summary: "\n16: just Filtering\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      F = 16
+    content: public const ETableRight F
     return:
       type: SuperOffice.WebApi.Data.ETableRight
-    content.vb: >-
-      <EnumMember>
-
-      F = 16
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const F As ETableRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.WebApi.Data.ETableRight
   commentId: T:SuperOffice.WebApi.Data.ETableRight
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.ETableRight.html
   name: ETableRight
   nameWithType: ETableRight
   fullName: SuperOffice.WebApi.Data.ETableRight

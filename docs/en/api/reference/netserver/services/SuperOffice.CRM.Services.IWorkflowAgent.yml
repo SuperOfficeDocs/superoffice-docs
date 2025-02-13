@@ -46,28 +46,15 @@ items:
   nameWithType: IWorkflowAgent
   fullName: SuperOffice.CRM.Services.IWorkflowAgent
   type: Interface
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Interface for the Workflow Agent
-
-    Agent lets you configure workflow automation
+  summary: "\nInterface for the Workflow Agent\nAgent lets you configure workflow automation\n"
   example:
-  - >-
-    <pre><code class="lang-csharp">using SuperOffice;
-
-    using SuperOffice.CRM.Services;
-
-
-    using (SoSession mySession = SoSession.Authenticate("user", "pass"))
-
-    {
-       using (WorkflowAgent agent = new WorkflowAgent())
-       {
-          // call methods on agent here...
-       }
-    }</code></pre>
+  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (WorkflowAgent agent = new WorkflowAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
   syntax:
     content: >-
       [Agent("Workflow Agent", "Interface for the Workflow Agent. Agent lets you configure workflow automation")]
@@ -76,7 +63,8 @@ items:
     content.vb: >-
       <Agent("Workflow Agent", "Interface for the Workflow Agent. Agent lets you configure workflow automation")>
 
-      Public Interface IWorkflowAgent Inherits IAgent
+      Public Interface IWorkflowAgent
+          Inherits IAgent
   attributes:
   - type: SuperOffice.CRM.Services.Reflection.AgentAttribute
     ctor: SuperOffice.CRM.Services.Reflection.AgentAttribute.#ctor(System.String,System.String)
@@ -85,6 +73,12 @@ items:
       value: Workflow Agent
     - type: System.String
       value: Interface for the Workflow Agent. Agent lets you configure workflow automation
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
 - uid: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultEmailFlow
   commentId: M:SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultEmailFlow
   id: CreateDefaultEmailFlow
@@ -96,20 +90,19 @@ items:
   nameWithType: IWorkflowAgent.CreateDefaultEmailFlow()
   fullName: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultEmailFlow()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new EmailFlow.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-  example: []
+  summary: "\nLoading default values into a new EmailFlow.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
   syntax:
     content: EmailFlow CreateDefaultEmailFlow()
     return:
       type: SuperOffice.CRM.Services.EmailFlow
       description: New EmailFlow with default values
-    content.vb: Function CreateDefaultEmailFlow() As EmailFlow
+    content.vb: Function CreateDefaultEmailFlow As EmailFlow
   overload: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultEmailFlow*
 - uid: SuperOffice.CRM.Services.IWorkflowAgent.SaveEmailFlow(SuperOffice.CRM.Services.EmailFlow)
   commentId: M:SuperOffice.CRM.Services.IWorkflowAgent.SaveEmailFlow(SuperOffice.CRM.Services.EmailFlow)
@@ -122,11 +115,13 @@ items:
   nameWithType: IWorkflowAgent.SaveEmailFlow(EmailFlow)
   fullName: SuperOffice.CRM.Services.IWorkflowAgent.SaveEmailFlow(SuperOffice.CRM.Services.EmailFlow)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Updates the existing EmailFlow or creates a new EmailFlow if the id parameter is empty
-  example: []
+  summary: "\nUpdates the existing EmailFlow or creates a new EmailFlow if the id parameter is empty\n"
   syntax:
     content: EmailFlow SaveEmailFlow(EmailFlow emailFlow)
     parameters:
@@ -145,15 +140,17 @@ items:
   langs:
   - csharp
   - vb
-  name: DeleteEmailFlow(int)
-  nameWithType: IWorkflowAgent.DeleteEmailFlow(int)
-  fullName: SuperOffice.CRM.Services.IWorkflowAgent.DeleteEmailFlow(int)
+  name: DeleteEmailFlow(Int32)
+  nameWithType: IWorkflowAgent.DeleteEmailFlow(Int32)
+  fullName: SuperOffice.CRM.Services.IWorkflowAgent.DeleteEmailFlow(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Deletes the EmailFlow
-  example: []
+  summary: "\nDeletes the EmailFlow\n"
   syntax:
     content: void DeleteEmailFlow(int emailFlowId)
     parameters:
@@ -162,9 +159,6 @@ items:
       description: The identity of the EmailFlow
     content.vb: Sub DeleteEmailFlow(emailFlowId As Integer)
   overload: SuperOffice.CRM.Services.IWorkflowAgent.DeleteEmailFlow*
-  nameWithType.vb: IWorkflowAgent.DeleteEmailFlow(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IWorkflowAgent.DeleteEmailFlow(Integer)
-  name.vb: DeleteEmailFlow(Integer)
 - uid: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowEvent
   commentId: M:SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowEvent
   id: CreateDefaultWorkflowEvent
@@ -176,20 +170,19 @@ items:
   nameWithType: IWorkflowAgent.CreateDefaultWorkflowEvent()
   fullName: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowEvent()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new WorkflowEvent.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-  example: []
+  summary: "\nLoading default values into a new WorkflowEvent.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
   syntax:
     content: WorkflowEvent CreateDefaultWorkflowEvent()
     return:
       type: SuperOffice.CRM.Services.WorkflowEvent
       description: New WorkflowEvent with default values
-    content.vb: Function CreateDefaultWorkflowEvent() As WorkflowEvent
+    content.vb: Function CreateDefaultWorkflowEvent As WorkflowEvent
   overload: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowEvent*
 - uid: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowEventResult
   commentId: M:SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowEventResult
@@ -202,20 +195,19 @@ items:
   nameWithType: IWorkflowAgent.CreateDefaultWorkflowEventResult()
   fullName: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowEventResult()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new WorkflowEventResult.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-  example: []
+  summary: "\nLoading default values into a new WorkflowEventResult.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
   syntax:
     content: WorkflowEventResult CreateDefaultWorkflowEventResult()
     return:
       type: SuperOffice.CRM.Services.WorkflowEventResult
       description: New WorkflowEventResult with default values
-    content.vb: Function CreateDefaultWorkflowEventResult() As WorkflowEventResult
+    content.vb: Function CreateDefaultWorkflowEventResult As WorkflowEventResult
   overload: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowEventResult*
 - uid: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowFilter
   commentId: M:SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowFilter
@@ -228,20 +220,19 @@ items:
   nameWithType: IWorkflowAgent.CreateDefaultWorkflowFilter()
   fullName: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowFilter()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new WorkflowFilter.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-  example: []
+  summary: "\nLoading default values into a new WorkflowFilter.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
   syntax:
     content: WorkflowFilter CreateDefaultWorkflowFilter()
     return:
       type: SuperOffice.CRM.Services.WorkflowFilter
       description: New WorkflowFilter with default values
-    content.vb: Function CreateDefaultWorkflowFilter() As WorkflowFilter
+    content.vb: Function CreateDefaultWorkflowFilter As WorkflowFilter
   overload: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowFilter*
 - uid: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowGoal
   commentId: M:SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowGoal
@@ -254,20 +245,19 @@ items:
   nameWithType: IWorkflowAgent.CreateDefaultWorkflowGoal()
   fullName: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowGoal()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new WorkflowGoal.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-  example: []
+  summary: "\nLoading default values into a new WorkflowGoal.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
   syntax:
     content: WorkflowGoal CreateDefaultWorkflowGoal()
     return:
       type: SuperOffice.CRM.Services.WorkflowGoal
       description: New WorkflowGoal with default values
-    content.vb: Function CreateDefaultWorkflowGoal() As WorkflowGoal
+    content.vb: Function CreateDefaultWorkflowGoal As WorkflowGoal
   overload: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowGoal*
 - uid: SuperOffice.CRM.Services.IWorkflowAgent.SaveWorkflowGoal(SuperOffice.CRM.Services.WorkflowGoal)
   commentId: M:SuperOffice.CRM.Services.IWorkflowAgent.SaveWorkflowGoal(SuperOffice.CRM.Services.WorkflowGoal)
@@ -280,11 +270,13 @@ items:
   nameWithType: IWorkflowAgent.SaveWorkflowGoal(WorkflowGoal)
   fullName: SuperOffice.CRM.Services.IWorkflowAgent.SaveWorkflowGoal(SuperOffice.CRM.Services.WorkflowGoal)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Updates the existing WorkflowGoal or creates a new WorkflowGoal if the id parameter is empty
-  example: []
+  summary: "\nUpdates the existing WorkflowGoal or creates a new WorkflowGoal if the id parameter is empty\n"
   syntax:
     content: WorkflowGoal SaveWorkflowGoal(WorkflowGoal workflowGoal)
     parameters:
@@ -303,15 +295,17 @@ items:
   langs:
   - csharp
   - vb
-  name: DeleteWorkflowGoal(int)
-  nameWithType: IWorkflowAgent.DeleteWorkflowGoal(int)
-  fullName: SuperOffice.CRM.Services.IWorkflowAgent.DeleteWorkflowGoal(int)
+  name: DeleteWorkflowGoal(Int32)
+  nameWithType: IWorkflowAgent.DeleteWorkflowGoal(Int32)
+  fullName: SuperOffice.CRM.Services.IWorkflowAgent.DeleteWorkflowGoal(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Deletes the WorkflowGoal
-  example: []
+  summary: "\nDeletes the WorkflowGoal\n"
   syntax:
     content: void DeleteWorkflowGoal(int workflowGoalId)
     parameters:
@@ -320,9 +314,6 @@ items:
       description: The identity of the WorkflowGoal
     content.vb: Sub DeleteWorkflowGoal(workflowGoalId As Integer)
   overload: SuperOffice.CRM.Services.IWorkflowAgent.DeleteWorkflowGoal*
-  nameWithType.vb: IWorkflowAgent.DeleteWorkflowGoal(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IWorkflowAgent.DeleteWorkflowGoal(Integer)
-  name.vb: DeleteWorkflowGoal(Integer)
 - uid: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowTrigger
   commentId: M:SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowTrigger
   id: CreateDefaultWorkflowTrigger
@@ -334,20 +325,19 @@ items:
   nameWithType: IWorkflowAgent.CreateDefaultWorkflowTrigger()
   fullName: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowTrigger()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new WorkflowTrigger.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-  example: []
+  summary: "\nLoading default values into a new WorkflowTrigger.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
   syntax:
     content: WorkflowTrigger CreateDefaultWorkflowTrigger()
     return:
       type: SuperOffice.CRM.Services.WorkflowTrigger
       description: New WorkflowTrigger with default values
-    content.vb: Function CreateDefaultWorkflowTrigger() As WorkflowTrigger
+    content.vb: Function CreateDefaultWorkflowTrigger As WorkflowTrigger
   overload: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowTrigger*
 - uid: SuperOffice.CRM.Services.IWorkflowAgent.SaveWorkflowTrigger(SuperOffice.CRM.Services.WorkflowTrigger)
   commentId: M:SuperOffice.CRM.Services.IWorkflowAgent.SaveWorkflowTrigger(SuperOffice.CRM.Services.WorkflowTrigger)
@@ -360,11 +350,13 @@ items:
   nameWithType: IWorkflowAgent.SaveWorkflowTrigger(WorkflowTrigger)
   fullName: SuperOffice.CRM.Services.IWorkflowAgent.SaveWorkflowTrigger(SuperOffice.CRM.Services.WorkflowTrigger)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Updates the existing WorkflowTrigger or creates a new WorkflowTrigger if the id parameter is empty
-  example: []
+  summary: "\nUpdates the existing WorkflowTrigger or creates a new WorkflowTrigger if the id parameter is empty\n"
   syntax:
     content: WorkflowTrigger SaveWorkflowTrigger(WorkflowTrigger workflowTrigger)
     parameters:
@@ -383,15 +375,17 @@ items:
   langs:
   - csharp
   - vb
-  name: DeleteWorkflowTrigger(int)
-  nameWithType: IWorkflowAgent.DeleteWorkflowTrigger(int)
-  fullName: SuperOffice.CRM.Services.IWorkflowAgent.DeleteWorkflowTrigger(int)
+  name: DeleteWorkflowTrigger(Int32)
+  nameWithType: IWorkflowAgent.DeleteWorkflowTrigger(Int32)
+  fullName: SuperOffice.CRM.Services.IWorkflowAgent.DeleteWorkflowTrigger(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Deletes the WorkflowTrigger
-  example: []
+  summary: "\nDeletes the WorkflowTrigger\n"
   syntax:
     content: void DeleteWorkflowTrigger(int workflowTriggerId)
     parameters:
@@ -400,9 +394,6 @@ items:
       description: The identity of the WorkflowTrigger
     content.vb: Sub DeleteWorkflowTrigger(workflowTriggerId As Integer)
   overload: SuperOffice.CRM.Services.IWorkflowAgent.DeleteWorkflowTrigger*
-  nameWithType.vb: IWorkflowAgent.DeleteWorkflowTrigger(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IWorkflowAgent.DeleteWorkflowTrigger(Integer)
-  name.vb: DeleteWorkflowTrigger(Integer)
 - uid: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowWaitForAction
   commentId: M:SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowWaitForAction
   id: CreateDefaultWorkflowWaitForAction
@@ -414,20 +405,19 @@ items:
   nameWithType: IWorkflowAgent.CreateDefaultWorkflowWaitForAction()
   fullName: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowWaitForAction()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new WorkflowWaitForAction.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-  example: []
+  summary: "\nLoading default values into a new WorkflowWaitForAction.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
   syntax:
     content: WorkflowWaitForAction CreateDefaultWorkflowWaitForAction()
     return:
       type: SuperOffice.CRM.Services.WorkflowWaitForAction
       description: New WorkflowWaitForAction with default values
-    content.vb: Function CreateDefaultWorkflowWaitForAction() As WorkflowWaitForAction
+    content.vb: Function CreateDefaultWorkflowWaitForAction As WorkflowWaitForAction
   overload: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowWaitForAction*
 - uid: SuperOffice.CRM.Services.IWorkflowAgent.SaveWorkflowWaitForAction(SuperOffice.CRM.Services.WorkflowWaitForAction)
   commentId: M:SuperOffice.CRM.Services.IWorkflowAgent.SaveWorkflowWaitForAction(SuperOffice.CRM.Services.WorkflowWaitForAction)
@@ -440,11 +430,13 @@ items:
   nameWithType: IWorkflowAgent.SaveWorkflowWaitForAction(WorkflowWaitForAction)
   fullName: SuperOffice.CRM.Services.IWorkflowAgent.SaveWorkflowWaitForAction(SuperOffice.CRM.Services.WorkflowWaitForAction)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Updates the existing WorkflowWaitForAction or creates a new WorkflowWaitForAction if the id parameter is empty
-  example: []
+  summary: "\nUpdates the existing WorkflowWaitForAction or creates a new WorkflowWaitForAction if the id parameter is empty\n"
   syntax:
     content: WorkflowWaitForAction SaveWorkflowWaitForAction(WorkflowWaitForAction workflowWaitForAction)
     parameters:
@@ -463,15 +455,17 @@ items:
   langs:
   - csharp
   - vb
-  name: DeleteWorkflowWaitForAction(int)
-  nameWithType: IWorkflowAgent.DeleteWorkflowWaitForAction(int)
-  fullName: SuperOffice.CRM.Services.IWorkflowAgent.DeleteWorkflowWaitForAction(int)
+  name: DeleteWorkflowWaitForAction(Int32)
+  nameWithType: IWorkflowAgent.DeleteWorkflowWaitForAction(Int32)
+  fullName: SuperOffice.CRM.Services.IWorkflowAgent.DeleteWorkflowWaitForAction(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Deletes the WorkflowWaitForAction
-  example: []
+  summary: "\nDeletes the WorkflowWaitForAction\n"
   syntax:
     content: void DeleteWorkflowWaitForAction(int workflowWaitForActionId)
     parameters:
@@ -480,9 +474,6 @@ items:
       description: The identity of the WorkflowWaitForAction
     content.vb: Sub DeleteWorkflowWaitForAction(workflowWaitForActionId As Integer)
   overload: SuperOffice.CRM.Services.IWorkflowAgent.DeleteWorkflowWaitForAction*
-  nameWithType.vb: IWorkflowAgent.DeleteWorkflowWaitForAction(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IWorkflowAgent.DeleteWorkflowWaitForAction(Integer)
-  name.vb: DeleteWorkflowWaitForAction(Integer)
 - uid: SuperOffice.CRM.Services.IWorkflowAgent.GetEmailFlow(System.Int32)
   commentId: M:SuperOffice.CRM.Services.IWorkflowAgent.GetEmailFlow(System.Int32)
   id: GetEmailFlow(System.Int32)
@@ -490,15 +481,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetEmailFlow(int)
-  nameWithType: IWorkflowAgent.GetEmailFlow(int)
-  fullName: SuperOffice.CRM.Services.IWorkflowAgent.GetEmailFlow(int)
+  name: GetEmailFlow(Int32)
+  nameWithType: IWorkflowAgent.GetEmailFlow(Int32)
+  fullName: SuperOffice.CRM.Services.IWorkflowAgent.GetEmailFlow(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Gets a EmailFlow object.
-  example: []
+  summary: "\nGets a EmailFlow object.                        \n"
   syntax:
     content: EmailFlow GetEmailFlow(int emailFlowId)
     parameters:
@@ -510,9 +503,6 @@ items:
       description: EmailFlow
     content.vb: Function GetEmailFlow(emailFlowId As Integer) As EmailFlow
   overload: SuperOffice.CRM.Services.IWorkflowAgent.GetEmailFlow*
-  nameWithType.vb: IWorkflowAgent.GetEmailFlow(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IWorkflowAgent.GetEmailFlow(Integer)
-  name.vb: GetEmailFlow(Integer)
 - uid: SuperOffice.CRM.Services.IWorkflowAgent.TryAddPersonsToEmailFlow(System.Int32,System.Int32[])
   commentId: M:SuperOffice.CRM.Services.IWorkflowAgent.TryAddPersonsToEmailFlow(System.Int32,System.Int32[])
   id: TryAddPersonsToEmailFlow(System.Int32,System.Int32[])
@@ -520,15 +510,17 @@ items:
   langs:
   - csharp
   - vb
-  name: TryAddPersonsToEmailFlow(int, int[])
-  nameWithType: IWorkflowAgent.TryAddPersonsToEmailFlow(int, int[])
-  fullName: SuperOffice.CRM.Services.IWorkflowAgent.TryAddPersonsToEmailFlow(int, int[])
+  name: TryAddPersonsToEmailFlow(Int32, Int32[])
+  nameWithType: IWorkflowAgent.TryAddPersonsToEmailFlow(Int32, Int32[])
+  fullName: SuperOffice.CRM.Services.IWorkflowAgent.TryAddPersonsToEmailFlow(System.Int32, System.Int32[])
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Try to add a participant to the EmailFlow. Same function available in PersonAgent
-  example: []
+  summary: "\nTry to add a participant to the EmailFlow. Same function available in PersonAgent\n"
   syntax:
     content: bool[] TryAddPersonsToEmailFlow(int emailFlowId, int[] personIds)
     parameters:
@@ -543,9 +535,9 @@ items:
       description: True if the corresponding participant was successfully added, false if it could not be added because of filter criteria or other reason
     content.vb: Function TryAddPersonsToEmailFlow(emailFlowId As Integer, personIds As Integer()) As Boolean()
   overload: SuperOffice.CRM.Services.IWorkflowAgent.TryAddPersonsToEmailFlow*
-  nameWithType.vb: IWorkflowAgent.TryAddPersonsToEmailFlow(Integer, Integer())
-  fullName.vb: SuperOffice.CRM.Services.IWorkflowAgent.TryAddPersonsToEmailFlow(Integer, Integer())
-  name.vb: TryAddPersonsToEmailFlow(Integer, Integer())
+  nameWithType.vb: IWorkflowAgent.TryAddPersonsToEmailFlow(Int32, Int32())
+  fullName.vb: SuperOffice.CRM.Services.IWorkflowAgent.TryAddPersonsToEmailFlow(System.Int32, System.Int32())
+  name.vb: TryAddPersonsToEmailFlow(Int32, Int32())
 - uid: SuperOffice.CRM.Services.IWorkflowAgent.RemoveParticipantsFromEmailFlow(System.Int32,System.Int32[])
   commentId: M:SuperOffice.CRM.Services.IWorkflowAgent.RemoveParticipantsFromEmailFlow(System.Int32,System.Int32[])
   id: RemoveParticipantsFromEmailFlow(System.Int32,System.Int32[])
@@ -553,15 +545,17 @@ items:
   langs:
   - csharp
   - vb
-  name: RemoveParticipantsFromEmailFlow(int, int[])
-  nameWithType: IWorkflowAgent.RemoveParticipantsFromEmailFlow(int, int[])
-  fullName: SuperOffice.CRM.Services.IWorkflowAgent.RemoveParticipantsFromEmailFlow(int, int[])
+  name: RemoveParticipantsFromEmailFlow(Int32, Int32[])
+  nameWithType: IWorkflowAgent.RemoveParticipantsFromEmailFlow(Int32, Int32[])
+  fullName: SuperOffice.CRM.Services.IWorkflowAgent.RemoveParticipantsFromEmailFlow(System.Int32, System.Int32[])
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Remove participants (actually workflow instances) from the workflow
-  example: []
+  summary: "\nRemove participants (actually workflow instances) from the workflow\n"
   syntax:
     content: void RemoveParticipantsFromEmailFlow(int emailFlowId, int[] workflowInstanceIds)
     parameters:
@@ -573,9 +567,9 @@ items:
       description: Array of Workflow instances (representing participants) to be completely removed from the workflow
     content.vb: Sub RemoveParticipantsFromEmailFlow(emailFlowId As Integer, workflowInstanceIds As Integer())
   overload: SuperOffice.CRM.Services.IWorkflowAgent.RemoveParticipantsFromEmailFlow*
-  nameWithType.vb: IWorkflowAgent.RemoveParticipantsFromEmailFlow(Integer, Integer())
-  fullName.vb: SuperOffice.CRM.Services.IWorkflowAgent.RemoveParticipantsFromEmailFlow(Integer, Integer())
-  name.vb: RemoveParticipantsFromEmailFlow(Integer, Integer())
+  nameWithType.vb: IWorkflowAgent.RemoveParticipantsFromEmailFlow(Int32, Int32())
+  fullName.vb: SuperOffice.CRM.Services.IWorkflowAgent.RemoveParticipantsFromEmailFlow(System.Int32, System.Int32())
+  name.vb: RemoveParticipantsFromEmailFlow(Int32, Int32())
 - uid: SuperOffice.CRM.Services.IWorkflowAgent.CreateEmailFlowContent(System.Int32,System.String)
   commentId: M:SuperOffice.CRM.Services.IWorkflowAgent.CreateEmailFlowContent(System.Int32,System.String)
   id: CreateEmailFlowContent(System.Int32,System.String)
@@ -583,15 +577,17 @@ items:
   langs:
   - csharp
   - vb
-  name: CreateEmailFlowContent(int, string)
-  nameWithType: IWorkflowAgent.CreateEmailFlowContent(int, string)
-  fullName: SuperOffice.CRM.Services.IWorkflowAgent.CreateEmailFlowContent(int, string)
+  name: CreateEmailFlowContent(Int32, String)
+  nameWithType: IWorkflowAgent.CreateEmailFlowContent(Int32, String)
+  fullName: SuperOffice.CRM.Services.IWorkflowAgent.CreateEmailFlowContent(System.Int32, System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Create content to an email flow
-  example: []
+  summary: "\nCreate content to an email flow\n"
   syntax:
     content: int CreateEmailFlowContent(int emailFlowId, string contentName)
     parameters:
@@ -606,9 +602,6 @@ items:
       description: Id of shipment created
     content.vb: Function CreateEmailFlowContent(emailFlowId As Integer, contentName As String) As Integer
   overload: SuperOffice.CRM.Services.IWorkflowAgent.CreateEmailFlowContent*
-  nameWithType.vb: IWorkflowAgent.CreateEmailFlowContent(Integer, String)
-  fullName.vb: SuperOffice.CRM.Services.IWorkflowAgent.CreateEmailFlowContent(Integer, String)
-  name.vb: CreateEmailFlowContent(Integer, String)
 - uid: SuperOffice.CRM.Services.IWorkflowAgent.ConnectEmailFlowContent(System.Int32,System.Int32)
   commentId: M:SuperOffice.CRM.Services.IWorkflowAgent.ConnectEmailFlowContent(System.Int32,System.Int32)
   id: ConnectEmailFlowContent(System.Int32,System.Int32)
@@ -616,15 +609,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ConnectEmailFlowContent(int, int)
-  nameWithType: IWorkflowAgent.ConnectEmailFlowContent(int, int)
-  fullName: SuperOffice.CRM.Services.IWorkflowAgent.ConnectEmailFlowContent(int, int)
+  name: ConnectEmailFlowContent(Int32, Int32)
+  nameWithType: IWorkflowAgent.ConnectEmailFlowContent(Int32, Int32)
+  fullName: SuperOffice.CRM.Services.IWorkflowAgent.ConnectEmailFlowContent(System.Int32, System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Link any SMessage to the email flow. The SMessage (and any related SShipment etc) should probably not be used/visible elsewhere.
-  example: []
+  summary: "\nLink any SMessage to the email flow. The SMessage (and any related SShipment etc) should probably not be used/visible elsewhere.\n"
   syntax:
     content: void ConnectEmailFlowContent(int emailFlowId, int messageId)
     parameters:
@@ -636,9 +631,6 @@ items:
       description: The s_message to connect to the flow. A shipment, form or flow may be connected to that s_message.
     content.vb: Sub ConnectEmailFlowContent(emailFlowId As Integer, messageId As Integer)
   overload: SuperOffice.CRM.Services.IWorkflowAgent.ConnectEmailFlowContent*
-  nameWithType.vb: IWorkflowAgent.ConnectEmailFlowContent(Integer, Integer)
-  fullName.vb: SuperOffice.CRM.Services.IWorkflowAgent.ConnectEmailFlowContent(Integer, Integer)
-  name.vb: ConnectEmailFlowContent(Integer, Integer)
 - uid: SuperOffice.CRM.Services.IWorkflowAgent.CopyEmailFlowContent(System.Int32,System.Int32)
   commentId: M:SuperOffice.CRM.Services.IWorkflowAgent.CopyEmailFlowContent(System.Int32,System.Int32)
   id: CopyEmailFlowContent(System.Int32,System.Int32)
@@ -646,15 +638,17 @@ items:
   langs:
   - csharp
   - vb
-  name: CopyEmailFlowContent(int, int)
-  nameWithType: IWorkflowAgent.CopyEmailFlowContent(int, int)
-  fullName: SuperOffice.CRM.Services.IWorkflowAgent.CopyEmailFlowContent(int, int)
+  name: CopyEmailFlowContent(Int32, Int32)
+  nameWithType: IWorkflowAgent.CopyEmailFlowContent(Int32, Int32)
+  fullName: SuperOffice.CRM.Services.IWorkflowAgent.CopyEmailFlowContent(System.Int32, System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Copy smessage and connected shipment to the email flow. The SMessage (and any related SShipment etc) should probably not be used/visible elsewhere.
-  example: []
+  summary: "\nCopy smessage and connected shipment to the email flow. The SMessage (and any related SShipment etc) should probably not be used/visible elsewhere.\n"
   syntax:
     content: int CopyEmailFlowContent(int emailFlowId, int shipmentId)
     parameters:
@@ -669,9 +663,6 @@ items:
       description: Newly created shipment id for this content
     content.vb: Function CopyEmailFlowContent(emailFlowId As Integer, shipmentId As Integer) As Integer
   overload: SuperOffice.CRM.Services.IWorkflowAgent.CopyEmailFlowContent*
-  nameWithType.vb: IWorkflowAgent.CopyEmailFlowContent(Integer, Integer)
-  fullName.vb: SuperOffice.CRM.Services.IWorkflowAgent.CopyEmailFlowContent(Integer, Integer)
-  name.vb: CopyEmailFlowContent(Integer, Integer)
 - uid: SuperOffice.CRM.Services.IWorkflowAgent.UpdateFormSubmissions(System.Int32)
   commentId: M:SuperOffice.CRM.Services.IWorkflowAgent.UpdateFormSubmissions(System.Int32)
   id: UpdateFormSubmissions(System.Int32)
@@ -679,15 +670,17 @@ items:
   langs:
   - csharp
   - vb
-  name: UpdateFormSubmissions(int)
-  nameWithType: IWorkflowAgent.UpdateFormSubmissions(int)
-  fullName: SuperOffice.CRM.Services.IWorkflowAgent.UpdateFormSubmissions(int)
+  name: UpdateFormSubmissions(Int32)
+  nameWithType: IWorkflowAgent.UpdateFormSubmissions(Int32)
+  fullName: SuperOffice.CRM.Services.IWorkflowAgent.UpdateFormSubmissions(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Attempt to update stored field values for up to the given number of form submissions
-  example: []
+  summary: "\nAttempt to update stored field values for up to the given number of form submissions\n"
   syntax:
     content: int UpdateFormSubmissions(int maxCount)
     parameters:
@@ -699,9 +692,6 @@ items:
       description: Number of form submissions converted
     content.vb: Function UpdateFormSubmissions(maxCount As Integer) As Integer
   overload: SuperOffice.CRM.Services.IWorkflowAgent.UpdateFormSubmissions*
-  nameWithType.vb: IWorkflowAgent.UpdateFormSubmissions(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IWorkflowAgent.UpdateFormSubmissions(Integer)
-  name.vb: UpdateFormSubmissions(Integer)
 - uid: SuperOffice.CRM.Services.IWorkflowAgent.SetStatusOnWorkflow(System.Int32,SuperOffice.Data.WorkflowDefinitionStatus)
   commentId: M:SuperOffice.CRM.Services.IWorkflowAgent.SetStatusOnWorkflow(System.Int32,SuperOffice.Data.WorkflowDefinitionStatus)
   id: SetStatusOnWorkflow(System.Int32,SuperOffice.Data.WorkflowDefinitionStatus)
@@ -709,15 +699,17 @@ items:
   langs:
   - csharp
   - vb
-  name: SetStatusOnWorkflow(int, WorkflowDefinitionStatus)
-  nameWithType: IWorkflowAgent.SetStatusOnWorkflow(int, WorkflowDefinitionStatus)
-  fullName: SuperOffice.CRM.Services.IWorkflowAgent.SetStatusOnWorkflow(int, SuperOffice.Data.WorkflowDefinitionStatus)
+  name: SetStatusOnWorkflow(Int32, WorkflowDefinitionStatus)
+  nameWithType: IWorkflowAgent.SetStatusOnWorkflow(Int32, WorkflowDefinitionStatus)
+  fullName: SuperOffice.CRM.Services.IWorkflowAgent.SetStatusOnWorkflow(System.Int32, SuperOffice.Data.WorkflowDefinitionStatus)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Set status on workflow, Run or pause flow
-  example: []
+  summary: "\nSet status on workflow, Run or pause flow\n"
   syntax:
     content: WorkflowDefinitionStatus SetStatusOnWorkflow(int emailFlowId, WorkflowDefinitionStatus status)
     parameters:
@@ -732,9 +724,6 @@ items:
       description: The new status
     content.vb: Function SetStatusOnWorkflow(emailFlowId As Integer, status As WorkflowDefinitionStatus) As WorkflowDefinitionStatus
   overload: SuperOffice.CRM.Services.IWorkflowAgent.SetStatusOnWorkflow*
-  nameWithType.vb: IWorkflowAgent.SetStatusOnWorkflow(Integer, WorkflowDefinitionStatus)
-  fullName.vb: SuperOffice.CRM.Services.IWorkflowAgent.SetStatusOnWorkflow(Integer, SuperOffice.Data.WorkflowDefinitionStatus)
-  name.vb: SetStatusOnWorkflow(Integer, WorkflowDefinitionStatus)
 - uid: SuperOffice.CRM.Services.IWorkflowAgent.CopyEmailFlow(System.Int32,System.String)
   commentId: M:SuperOffice.CRM.Services.IWorkflowAgent.CopyEmailFlow(System.Int32,System.String)
   id: CopyEmailFlow(System.Int32,System.String)
@@ -742,15 +731,17 @@ items:
   langs:
   - csharp
   - vb
-  name: CopyEmailFlow(int, string)
-  nameWithType: IWorkflowAgent.CopyEmailFlow(int, string)
-  fullName: SuperOffice.CRM.Services.IWorkflowAgent.CopyEmailFlow(int, string)
+  name: CopyEmailFlow(Int32, String)
+  nameWithType: IWorkflowAgent.CopyEmailFlow(Int32, String)
+  fullName: SuperOffice.CRM.Services.IWorkflowAgent.CopyEmailFlow(System.Int32, System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Copy an email flow.
-  example: []
+  summary: "\nCopy an email flow.\n"
   syntax:
     content: int CopyEmailFlow(int emailFlowId, string newName)
     parameters:
@@ -765,9 +756,6 @@ items:
       description: Newly created email flow id for this content
     content.vb: Function CopyEmailFlow(emailFlowId As Integer, newName As String) As Integer
   overload: SuperOffice.CRM.Services.IWorkflowAgent.CopyEmailFlow*
-  nameWithType.vb: IWorkflowAgent.CopyEmailFlow(Integer, String)
-  fullName.vb: SuperOffice.CRM.Services.IWorkflowAgent.CopyEmailFlow(Integer, String)
-  name.vb: CopyEmailFlow(Integer, String)
 - uid: SuperOffice.CRM.Services.IWorkflowAgent.Run
   commentId: M:SuperOffice.CRM.Services.IWorkflowAgent.Run
   id: Run
@@ -779,17 +767,19 @@ items:
   nameWithType: IWorkflowAgent.Run()
   fullName: SuperOffice.CRM.Services.IWorkflowAgent.Run()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Run the workflow engine right now
-  example: []
+  summary: "\nRun the workflow engine right now\n"
   syntax:
     content: DateTime Run()
     return:
       type: System.DateTime
       description: Suggested time for next run
-    content.vb: Function Run() As Date
+    content.vb: Function Run As DateTime
   overload: SuperOffice.CRM.Services.IWorkflowAgent.Run*
 - uid: SuperOffice.CRM.Services.IWorkflowAgent.SendEvent(SuperOffice.CRM.Services.WorkflowEvent)
   commentId: M:SuperOffice.CRM.Services.IWorkflowAgent.SendEvent(SuperOffice.CRM.Services.WorkflowEvent)
@@ -802,11 +792,13 @@ items:
   nameWithType: IWorkflowAgent.SendEvent(WorkflowEvent)
   fullName: SuperOffice.CRM.Services.IWorkflowAgent.SendEvent(SuperOffice.CRM.Services.WorkflowEvent)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Send a workflow event. Most event signaling will finish very quickly as they normally just change the state of a workflow instance
-  example: []
+  summary: "\nSend a workflow event. Most event signaling will finish very quickly as they normally just change the state of a workflow instance\n"
   syntax:
     content: WorkflowEventResult SendEvent(WorkflowEvent workflowEvent)
     parameters:
@@ -825,15 +817,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetWorkflowGoal(int)
-  nameWithType: IWorkflowAgent.GetWorkflowGoal(int)
-  fullName: SuperOffice.CRM.Services.IWorkflowAgent.GetWorkflowGoal(int)
+  name: GetWorkflowGoal(Int32)
+  nameWithType: IWorkflowAgent.GetWorkflowGoal(Int32)
+  fullName: SuperOffice.CRM.Services.IWorkflowAgent.GetWorkflowGoal(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Gets a WorkflowGoal object.
-  example: []
+  summary: "\nGets a WorkflowGoal object.                        \n"
   syntax:
     content: WorkflowGoal GetWorkflowGoal(int workflowGoalId)
     parameters:
@@ -845,9 +839,6 @@ items:
       description: WorkflowGoal
     content.vb: Function GetWorkflowGoal(workflowGoalId As Integer) As WorkflowGoal
   overload: SuperOffice.CRM.Services.IWorkflowAgent.GetWorkflowGoal*
-  nameWithType.vb: IWorkflowAgent.GetWorkflowGoal(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IWorkflowAgent.GetWorkflowGoal(Integer)
-  name.vb: GetWorkflowGoal(Integer)
 - uid: SuperOffice.CRM.Services.IWorkflowAgent.GetWorkflowStep(System.Int32)
   commentId: M:SuperOffice.CRM.Services.IWorkflowAgent.GetWorkflowStep(System.Int32)
   id: GetWorkflowStep(System.Int32)
@@ -855,15 +846,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetWorkflowStep(int)
-  nameWithType: IWorkflowAgent.GetWorkflowStep(int)
-  fullName: SuperOffice.CRM.Services.IWorkflowAgent.GetWorkflowStep(int)
+  name: GetWorkflowStep(Int32)
+  nameWithType: IWorkflowAgent.GetWorkflowStep(Int32)
+  fullName: SuperOffice.CRM.Services.IWorkflowAgent.GetWorkflowStep(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Get Workflowstep by ID
-  example: []
+  summary: "\nGet Workflowstep by ID\n"
   syntax:
     content: WorkflowStepBase GetWorkflowStep(int workflowStepId)
     parameters:
@@ -875,9 +868,6 @@ items:
       description: The Workflow step
     content.vb: Function GetWorkflowStep(workflowStepId As Integer) As WorkflowStepBase
   overload: SuperOffice.CRM.Services.IWorkflowAgent.GetWorkflowStep*
-  nameWithType.vb: IWorkflowAgent.GetWorkflowStep(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IWorkflowAgent.GetWorkflowStep(Integer)
-  name.vb: GetWorkflowStep(Integer)
 - uid: SuperOffice.CRM.Services.IWorkflowAgent.AddAfterWorkflowStep(System.Int32,SuperOffice.CRM.Services.WorkflowStepBase)
   commentId: M:SuperOffice.CRM.Services.IWorkflowAgent.AddAfterWorkflowStep(System.Int32,SuperOffice.CRM.Services.WorkflowStepBase)
   id: AddAfterWorkflowStep(System.Int32,SuperOffice.CRM.Services.WorkflowStepBase)
@@ -885,15 +875,17 @@ items:
   langs:
   - csharp
   - vb
-  name: AddAfterWorkflowStep(int, WorkflowStepBase)
-  nameWithType: IWorkflowAgent.AddAfterWorkflowStep(int, WorkflowStepBase)
-  fullName: SuperOffice.CRM.Services.IWorkflowAgent.AddAfterWorkflowStep(int, SuperOffice.CRM.Services.WorkflowStepBase)
+  name: AddAfterWorkflowStep(Int32, WorkflowStepBase)
+  nameWithType: IWorkflowAgent.AddAfterWorkflowStep(Int32, WorkflowStepBase)
+  fullName: SuperOffice.CRM.Services.IWorkflowAgent.AddAfterWorkflowStep(System.Int32, SuperOffice.CRM.Services.WorkflowStepBase)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Add another step (and any of its substeps) after the given step id (which must exist), and move any following steps in the workflow further down the line.
-  example: []
+  summary: "\nAdd another step (and any of its substeps) after the given step id (which must exist), and move any following steps in the workflow further down the line.\n"
   syntax:
     content: WorkflowStepBase AddAfterWorkflowStep(int workflowStepId, WorkflowStepBase subStep)
     parameters:
@@ -908,9 +900,6 @@ items:
       description: The added step
     content.vb: Function AddAfterWorkflowStep(workflowStepId As Integer, subStep As WorkflowStepBase) As WorkflowStepBase
   overload: SuperOffice.CRM.Services.IWorkflowAgent.AddAfterWorkflowStep*
-  nameWithType.vb: IWorkflowAgent.AddAfterWorkflowStep(Integer, WorkflowStepBase)
-  fullName.vb: SuperOffice.CRM.Services.IWorkflowAgent.AddAfterWorkflowStep(Integer, SuperOffice.CRM.Services.WorkflowStepBase)
-  name.vb: AddAfterWorkflowStep(Integer, WorkflowStepBase)
 - uid: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowStepFromType(SuperOffice.Data.WorkflowStepType)
   commentId: M:SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowStepFromType(SuperOffice.Data.WorkflowStepType)
   id: CreateDefaultWorkflowStepFromType(SuperOffice.Data.WorkflowStepType)
@@ -922,11 +911,13 @@ items:
   nameWithType: IWorkflowAgent.CreateDefaultWorkflowStepFromType(WorkflowStepType)
   fullName: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowStepFromType(SuperOffice.Data.WorkflowStepType)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Creates a new carrier from the step type given, with the right kind of properties, defaults set.
-  example: []
+  summary: "\nCreates a new carrier from the step type given, with the right kind of properties, defaults set.\n"
   syntax:
     content: WorkflowStepBase CreateDefaultWorkflowStepFromType(WorkflowStepType stepType)
     parameters:
@@ -935,7 +926,6 @@ items:
       description: Step type to create
     return:
       type: SuperOffice.CRM.Services.WorkflowStepBase
-      description: ''
     content.vb: Function CreateDefaultWorkflowStepFromType(stepType As WorkflowStepType) As WorkflowStepBase
   overload: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowStepFromType*
 - uid: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowStepOptionFromType(SuperOffice.Data.WorkflowSplitOptionType)
@@ -949,11 +939,13 @@ items:
   nameWithType: IWorkflowAgent.CreateDefaultWorkflowStepOptionFromType(WorkflowSplitOptionType)
   fullName: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowStepOptionFromType(SuperOffice.Data.WorkflowSplitOptionType)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Creates a new carrier from the option type given, with the right kind of properties, defaults set.
-  example: []
+  summary: "\nCreates a new carrier from the option type given, with the right kind of properties, defaults set.\n"
   syntax:
     content: WorkflowStepOptionBase CreateDefaultWorkflowStepOptionFromType(WorkflowSplitOptionType optionType)
     parameters:
@@ -962,7 +954,6 @@ items:
       description: Option type to create
     return:
       type: SuperOffice.CRM.Services.WorkflowStepOptionBase
-      description: ''
     content.vb: Function CreateDefaultWorkflowStepOptionFromType(optionType As WorkflowSplitOptionType) As WorkflowStepOptionBase
   overload: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowStepOptionFromType*
 - uid: SuperOffice.CRM.Services.IWorkflowAgent.GetWorkflowStepOption(System.Int32)
@@ -972,15 +963,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetWorkflowStepOption(int)
-  nameWithType: IWorkflowAgent.GetWorkflowStepOption(int)
-  fullName: SuperOffice.CRM.Services.IWorkflowAgent.GetWorkflowStepOption(int)
+  name: GetWorkflowStepOption(Int32)
+  nameWithType: IWorkflowAgent.GetWorkflowStepOption(Int32)
+  fullName: SuperOffice.CRM.Services.IWorkflowAgent.GetWorkflowStepOption(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Get WorkflowStepOption by ID
-  example: []
+  summary: "\nGet WorkflowStepOption by ID\n"
   syntax:
     content: WorkflowStepOptionBase GetWorkflowStepOption(int workflowStepOptionId)
     parameters:
@@ -992,9 +985,6 @@ items:
       description: The Workflow step option
     content.vb: Function GetWorkflowStepOption(workflowStepOptionId As Integer) As WorkflowStepOptionBase
   overload: SuperOffice.CRM.Services.IWorkflowAgent.GetWorkflowStepOption*
-  nameWithType.vb: IWorkflowAgent.GetWorkflowStepOption(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IWorkflowAgent.GetWorkflowStepOption(Integer)
-  name.vb: GetWorkflowStepOption(Integer)
 - uid: SuperOffice.CRM.Services.IWorkflowAgent.GetWorkflowTrigger(System.Int32)
   commentId: M:SuperOffice.CRM.Services.IWorkflowAgent.GetWorkflowTrigger(System.Int32)
   id: GetWorkflowTrigger(System.Int32)
@@ -1002,15 +992,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetWorkflowTrigger(int)
-  nameWithType: IWorkflowAgent.GetWorkflowTrigger(int)
-  fullName: SuperOffice.CRM.Services.IWorkflowAgent.GetWorkflowTrigger(int)
+  name: GetWorkflowTrigger(Int32)
+  nameWithType: IWorkflowAgent.GetWorkflowTrigger(Int32)
+  fullName: SuperOffice.CRM.Services.IWorkflowAgent.GetWorkflowTrigger(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Gets a WorkflowTrigger object.
-  example: []
+  summary: "\nGets a WorkflowTrigger object.                        \n"
   syntax:
     content: WorkflowTrigger GetWorkflowTrigger(int workflowTriggerId)
     parameters:
@@ -1022,9 +1014,6 @@ items:
       description: WorkflowTrigger
     content.vb: Function GetWorkflowTrigger(workflowTriggerId As Integer) As WorkflowTrigger
   overload: SuperOffice.CRM.Services.IWorkflowAgent.GetWorkflowTrigger*
-  nameWithType.vb: IWorkflowAgent.GetWorkflowTrigger(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IWorkflowAgent.GetWorkflowTrigger(Integer)
-  name.vb: GetWorkflowTrigger(Integer)
 - uid: SuperOffice.CRM.Services.IWorkflowAgent.GetWorkflowWaitForAction(System.Int32)
   commentId: M:SuperOffice.CRM.Services.IWorkflowAgent.GetWorkflowWaitForAction(System.Int32)
   id: GetWorkflowWaitForAction(System.Int32)
@@ -1032,15 +1021,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetWorkflowWaitForAction(int)
-  nameWithType: IWorkflowAgent.GetWorkflowWaitForAction(int)
-  fullName: SuperOffice.CRM.Services.IWorkflowAgent.GetWorkflowWaitForAction(int)
+  name: GetWorkflowWaitForAction(Int32)
+  nameWithType: IWorkflowAgent.GetWorkflowWaitForAction(Int32)
+  fullName: SuperOffice.CRM.Services.IWorkflowAgent.GetWorkflowWaitForAction(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Gets a WorkflowWaitForAction object.
-  example: []
+  summary: "\nGets a WorkflowWaitForAction object.                        \n"
   syntax:
     content: WorkflowWaitForAction GetWorkflowWaitForAction(int workflowWaitForActionId)
     parameters:
@@ -1052,51 +1043,16 @@ items:
       description: WorkflowWaitForAction
     content.vb: Function GetWorkflowWaitForAction(workflowWaitForActionId As Integer) As WorkflowWaitForAction
   overload: SuperOffice.CRM.Services.IWorkflowAgent.GetWorkflowWaitForAction*
-  nameWithType.vb: IWorkflowAgent.GetWorkflowWaitForAction(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IWorkflowAgent.GetWorkflowWaitForAction(Integer)
-  name.vb: GetWorkflowWaitForAction(Integer)
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
 - uid: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultEmailFlow*
   commentId: Overload:SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultEmailFlow
   isExternal: true
-  href: SuperOffice.CRM.Services.IWorkflowAgent.html#SuperOffice_CRM_Services_IWorkflowAgent_CreateDefaultEmailFlow
   name: CreateDefaultEmailFlow
   nameWithType: IWorkflowAgent.CreateDefaultEmailFlow
   fullName: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultEmailFlow
@@ -1104,21 +1060,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.EmailFlow
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.EmailFlow.html
   name: EmailFlow
   nameWithType: EmailFlow
   fullName: SuperOffice.CRM.Services.EmailFlow
 - uid: SuperOffice.CRM.Services.IWorkflowAgent.SaveEmailFlow*
   commentId: Overload:SuperOffice.CRM.Services.IWorkflowAgent.SaveEmailFlow
   isExternal: true
-  href: SuperOffice.CRM.Services.IWorkflowAgent.html#SuperOffice_CRM_Services_IWorkflowAgent_SaveEmailFlow_SuperOffice_CRM_Services_EmailFlow_
   name: SaveEmailFlow
   nameWithType: IWorkflowAgent.SaveEmailFlow
   fullName: SuperOffice.CRM.Services.IWorkflowAgent.SaveEmailFlow
 - uid: SuperOffice.CRM.Services.IWorkflowAgent.DeleteEmailFlow*
   commentId: Overload:SuperOffice.CRM.Services.IWorkflowAgent.DeleteEmailFlow
   isExternal: true
-  href: SuperOffice.CRM.Services.IWorkflowAgent.html#SuperOffice_CRM_Services_IWorkflowAgent_DeleteEmailFlow_System_Int32_
   name: DeleteEmailFlow
   nameWithType: IWorkflowAgent.DeleteEmailFlow
   fullName: SuperOffice.CRM.Services.IWorkflowAgent.DeleteEmailFlow
@@ -1126,24 +1079,18 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowEvent*
   commentId: Overload:SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowEvent
   isExternal: true
-  href: SuperOffice.CRM.Services.IWorkflowAgent.html#SuperOffice_CRM_Services_IWorkflowAgent_CreateDefaultWorkflowEvent
   name: CreateDefaultWorkflowEvent
   nameWithType: IWorkflowAgent.CreateDefaultWorkflowEvent
   fullName: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowEvent
@@ -1151,14 +1098,12 @@ references:
   commentId: T:SuperOffice.CRM.Services.WorkflowEvent
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.WorkflowEvent.html
   name: WorkflowEvent
   nameWithType: WorkflowEvent
   fullName: SuperOffice.CRM.Services.WorkflowEvent
 - uid: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowEventResult*
   commentId: Overload:SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowEventResult
   isExternal: true
-  href: SuperOffice.CRM.Services.IWorkflowAgent.html#SuperOffice_CRM_Services_IWorkflowAgent_CreateDefaultWorkflowEventResult
   name: CreateDefaultWorkflowEventResult
   nameWithType: IWorkflowAgent.CreateDefaultWorkflowEventResult
   fullName: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowEventResult
@@ -1166,14 +1111,12 @@ references:
   commentId: T:SuperOffice.CRM.Services.WorkflowEventResult
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.WorkflowEventResult.html
   name: WorkflowEventResult
   nameWithType: WorkflowEventResult
   fullName: SuperOffice.CRM.Services.WorkflowEventResult
 - uid: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowFilter*
   commentId: Overload:SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowFilter
   isExternal: true
-  href: SuperOffice.CRM.Services.IWorkflowAgent.html#SuperOffice_CRM_Services_IWorkflowAgent_CreateDefaultWorkflowFilter
   name: CreateDefaultWorkflowFilter
   nameWithType: IWorkflowAgent.CreateDefaultWorkflowFilter
   fullName: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowFilter
@@ -1181,14 +1124,12 @@ references:
   commentId: T:SuperOffice.CRM.Services.WorkflowFilter
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.WorkflowFilter.html
   name: WorkflowFilter
   nameWithType: WorkflowFilter
   fullName: SuperOffice.CRM.Services.WorkflowFilter
 - uid: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowGoal*
   commentId: Overload:SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowGoal
   isExternal: true
-  href: SuperOffice.CRM.Services.IWorkflowAgent.html#SuperOffice_CRM_Services_IWorkflowAgent_CreateDefaultWorkflowGoal
   name: CreateDefaultWorkflowGoal
   nameWithType: IWorkflowAgent.CreateDefaultWorkflowGoal
   fullName: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowGoal
@@ -1196,28 +1137,24 @@ references:
   commentId: T:SuperOffice.CRM.Services.WorkflowGoal
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.WorkflowGoal.html
   name: WorkflowGoal
   nameWithType: WorkflowGoal
   fullName: SuperOffice.CRM.Services.WorkflowGoal
 - uid: SuperOffice.CRM.Services.IWorkflowAgent.SaveWorkflowGoal*
   commentId: Overload:SuperOffice.CRM.Services.IWorkflowAgent.SaveWorkflowGoal
   isExternal: true
-  href: SuperOffice.CRM.Services.IWorkflowAgent.html#SuperOffice_CRM_Services_IWorkflowAgent_SaveWorkflowGoal_SuperOffice_CRM_Services_WorkflowGoal_
   name: SaveWorkflowGoal
   nameWithType: IWorkflowAgent.SaveWorkflowGoal
   fullName: SuperOffice.CRM.Services.IWorkflowAgent.SaveWorkflowGoal
 - uid: SuperOffice.CRM.Services.IWorkflowAgent.DeleteWorkflowGoal*
   commentId: Overload:SuperOffice.CRM.Services.IWorkflowAgent.DeleteWorkflowGoal
   isExternal: true
-  href: SuperOffice.CRM.Services.IWorkflowAgent.html#SuperOffice_CRM_Services_IWorkflowAgent_DeleteWorkflowGoal_System_Int32_
   name: DeleteWorkflowGoal
   nameWithType: IWorkflowAgent.DeleteWorkflowGoal
   fullName: SuperOffice.CRM.Services.IWorkflowAgent.DeleteWorkflowGoal
 - uid: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowTrigger*
   commentId: Overload:SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowTrigger
   isExternal: true
-  href: SuperOffice.CRM.Services.IWorkflowAgent.html#SuperOffice_CRM_Services_IWorkflowAgent_CreateDefaultWorkflowTrigger
   name: CreateDefaultWorkflowTrigger
   nameWithType: IWorkflowAgent.CreateDefaultWorkflowTrigger
   fullName: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowTrigger
@@ -1225,28 +1162,24 @@ references:
   commentId: T:SuperOffice.CRM.Services.WorkflowTrigger
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.WorkflowTrigger.html
   name: WorkflowTrigger
   nameWithType: WorkflowTrigger
   fullName: SuperOffice.CRM.Services.WorkflowTrigger
 - uid: SuperOffice.CRM.Services.IWorkflowAgent.SaveWorkflowTrigger*
   commentId: Overload:SuperOffice.CRM.Services.IWorkflowAgent.SaveWorkflowTrigger
   isExternal: true
-  href: SuperOffice.CRM.Services.IWorkflowAgent.html#SuperOffice_CRM_Services_IWorkflowAgent_SaveWorkflowTrigger_SuperOffice_CRM_Services_WorkflowTrigger_
   name: SaveWorkflowTrigger
   nameWithType: IWorkflowAgent.SaveWorkflowTrigger
   fullName: SuperOffice.CRM.Services.IWorkflowAgent.SaveWorkflowTrigger
 - uid: SuperOffice.CRM.Services.IWorkflowAgent.DeleteWorkflowTrigger*
   commentId: Overload:SuperOffice.CRM.Services.IWorkflowAgent.DeleteWorkflowTrigger
   isExternal: true
-  href: SuperOffice.CRM.Services.IWorkflowAgent.html#SuperOffice_CRM_Services_IWorkflowAgent_DeleteWorkflowTrigger_System_Int32_
   name: DeleteWorkflowTrigger
   nameWithType: IWorkflowAgent.DeleteWorkflowTrigger
   fullName: SuperOffice.CRM.Services.IWorkflowAgent.DeleteWorkflowTrigger
 - uid: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowWaitForAction*
   commentId: Overload:SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowWaitForAction
   isExternal: true
-  href: SuperOffice.CRM.Services.IWorkflowAgent.html#SuperOffice_CRM_Services_IWorkflowAgent_CreateDefaultWorkflowWaitForAction
   name: CreateDefaultWorkflowWaitForAction
   nameWithType: IWorkflowAgent.CreateDefaultWorkflowWaitForAction
   fullName: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowWaitForAction
@@ -1254,95 +1187,94 @@ references:
   commentId: T:SuperOffice.CRM.Services.WorkflowWaitForAction
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.WorkflowWaitForAction.html
   name: WorkflowWaitForAction
   nameWithType: WorkflowWaitForAction
   fullName: SuperOffice.CRM.Services.WorkflowWaitForAction
 - uid: SuperOffice.CRM.Services.IWorkflowAgent.SaveWorkflowWaitForAction*
   commentId: Overload:SuperOffice.CRM.Services.IWorkflowAgent.SaveWorkflowWaitForAction
   isExternal: true
-  href: SuperOffice.CRM.Services.IWorkflowAgent.html#SuperOffice_CRM_Services_IWorkflowAgent_SaveWorkflowWaitForAction_SuperOffice_CRM_Services_WorkflowWaitForAction_
   name: SaveWorkflowWaitForAction
   nameWithType: IWorkflowAgent.SaveWorkflowWaitForAction
   fullName: SuperOffice.CRM.Services.IWorkflowAgent.SaveWorkflowWaitForAction
 - uid: SuperOffice.CRM.Services.IWorkflowAgent.DeleteWorkflowWaitForAction*
   commentId: Overload:SuperOffice.CRM.Services.IWorkflowAgent.DeleteWorkflowWaitForAction
   isExternal: true
-  href: SuperOffice.CRM.Services.IWorkflowAgent.html#SuperOffice_CRM_Services_IWorkflowAgent_DeleteWorkflowWaitForAction_System_Int32_
   name: DeleteWorkflowWaitForAction
   nameWithType: IWorkflowAgent.DeleteWorkflowWaitForAction
   fullName: SuperOffice.CRM.Services.IWorkflowAgent.DeleteWorkflowWaitForAction
 - uid: SuperOffice.CRM.Services.IWorkflowAgent.GetEmailFlow*
   commentId: Overload:SuperOffice.CRM.Services.IWorkflowAgent.GetEmailFlow
   isExternal: true
-  href: SuperOffice.CRM.Services.IWorkflowAgent.html#SuperOffice_CRM_Services_IWorkflowAgent_GetEmailFlow_System_Int32_
   name: GetEmailFlow
   nameWithType: IWorkflowAgent.GetEmailFlow
   fullName: SuperOffice.CRM.Services.IWorkflowAgent.GetEmailFlow
 - uid: SuperOffice.CRM.Services.IWorkflowAgent.TryAddPersonsToEmailFlow*
   commentId: Overload:SuperOffice.CRM.Services.IWorkflowAgent.TryAddPersonsToEmailFlow
   isExternal: true
-  href: SuperOffice.CRM.Services.IWorkflowAgent.html#SuperOffice_CRM_Services_IWorkflowAgent_TryAddPersonsToEmailFlow_System_Int32_System_Int32___
   name: TryAddPersonsToEmailFlow
   nameWithType: IWorkflowAgent.TryAddPersonsToEmailFlow
   fullName: SuperOffice.CRM.Services.IWorkflowAgent.TryAddPersonsToEmailFlow
 - uid: System.Int32[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int[]
-  nameWithType: int[]
-  fullName: int[]
-  nameWithType.vb: Integer()
-  fullName.vb: Integer()
-  name.vb: Integer()
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
   spec.csharp:
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: System.Boolean[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool[]
-  nameWithType: bool[]
-  fullName: bool[]
+  name: Boolean[]
+  nameWithType: Boolean[]
+  fullName: System.Boolean[]
   nameWithType.vb: Boolean()
-  fullName.vb: Boolean()
+  fullName.vb: System.Boolean()
   name.vb: Boolean()
   spec.csharp:
   - uid: System.Boolean
-    name: bool
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.Boolean
     name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.IWorkflowAgent.RemoveParticipantsFromEmailFlow*
   commentId: Overload:SuperOffice.CRM.Services.IWorkflowAgent.RemoveParticipantsFromEmailFlow
   isExternal: true
-  href: SuperOffice.CRM.Services.IWorkflowAgent.html#SuperOffice_CRM_Services_IWorkflowAgent_RemoveParticipantsFromEmailFlow_System_Int32_System_Int32___
   name: RemoveParticipantsFromEmailFlow
   nameWithType: IWorkflowAgent.RemoveParticipantsFromEmailFlow
   fullName: SuperOffice.CRM.Services.IWorkflowAgent.RemoveParticipantsFromEmailFlow
 - uid: SuperOffice.CRM.Services.IWorkflowAgent.CreateEmailFlowContent*
   commentId: Overload:SuperOffice.CRM.Services.IWorkflowAgent.CreateEmailFlowContent
   isExternal: true
-  href: SuperOffice.CRM.Services.IWorkflowAgent.html#SuperOffice_CRM_Services_IWorkflowAgent_CreateEmailFlowContent_System_Int32_System_String_
   name: CreateEmailFlowContent
   nameWithType: IWorkflowAgent.CreateEmailFlowContent
   fullName: SuperOffice.CRM.Services.IWorkflowAgent.CreateEmailFlowContent
@@ -1350,38 +1282,30 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.CRM.Services.IWorkflowAgent.ConnectEmailFlowContent*
   commentId: Overload:SuperOffice.CRM.Services.IWorkflowAgent.ConnectEmailFlowContent
   isExternal: true
-  href: SuperOffice.CRM.Services.IWorkflowAgent.html#SuperOffice_CRM_Services_IWorkflowAgent_ConnectEmailFlowContent_System_Int32_System_Int32_
   name: ConnectEmailFlowContent
   nameWithType: IWorkflowAgent.ConnectEmailFlowContent
   fullName: SuperOffice.CRM.Services.IWorkflowAgent.ConnectEmailFlowContent
 - uid: SuperOffice.CRM.Services.IWorkflowAgent.CopyEmailFlowContent*
   commentId: Overload:SuperOffice.CRM.Services.IWorkflowAgent.CopyEmailFlowContent
   isExternal: true
-  href: SuperOffice.CRM.Services.IWorkflowAgent.html#SuperOffice_CRM_Services_IWorkflowAgent_CopyEmailFlowContent_System_Int32_System_Int32_
   name: CopyEmailFlowContent
   nameWithType: IWorkflowAgent.CopyEmailFlowContent
   fullName: SuperOffice.CRM.Services.IWorkflowAgent.CopyEmailFlowContent
 - uid: SuperOffice.CRM.Services.IWorkflowAgent.UpdateFormSubmissions*
   commentId: Overload:SuperOffice.CRM.Services.IWorkflowAgent.UpdateFormSubmissions
   isExternal: true
-  href: SuperOffice.CRM.Services.IWorkflowAgent.html#SuperOffice_CRM_Services_IWorkflowAgent_UpdateFormSubmissions_System_Int32_
   name: UpdateFormSubmissions
   nameWithType: IWorkflowAgent.UpdateFormSubmissions
   fullName: SuperOffice.CRM.Services.IWorkflowAgent.UpdateFormSubmissions
 - uid: SuperOffice.CRM.Services.IWorkflowAgent.SetStatusOnWorkflow*
   commentId: Overload:SuperOffice.CRM.Services.IWorkflowAgent.SetStatusOnWorkflow
   isExternal: true
-  href: SuperOffice.CRM.Services.IWorkflowAgent.html#SuperOffice_CRM_Services_IWorkflowAgent_SetStatusOnWorkflow_System_Int32_SuperOffice_Data_WorkflowDefinitionStatus_
   name: SetStatusOnWorkflow
   nameWithType: IWorkflowAgent.SetStatusOnWorkflow
   fullName: SuperOffice.CRM.Services.IWorkflowAgent.SetStatusOnWorkflow
@@ -1393,46 +1317,35 @@ references:
 - uid: SuperOffice.CRM.Services.IWorkflowAgent.CopyEmailFlow*
   commentId: Overload:SuperOffice.CRM.Services.IWorkflowAgent.CopyEmailFlow
   isExternal: true
-  href: SuperOffice.CRM.Services.IWorkflowAgent.html#SuperOffice_CRM_Services_IWorkflowAgent_CopyEmailFlow_System_Int32_System_String_
   name: CopyEmailFlow
   nameWithType: IWorkflowAgent.CopyEmailFlow
   fullName: SuperOffice.CRM.Services.IWorkflowAgent.CopyEmailFlow
 - uid: SuperOffice.CRM.Services.IWorkflowAgent.Run*
   commentId: Overload:SuperOffice.CRM.Services.IWorkflowAgent.Run
   isExternal: true
-  href: SuperOffice.CRM.Services.IWorkflowAgent.html#SuperOffice_CRM_Services_IWorkflowAgent_Run
   name: Run
   nameWithType: IWorkflowAgent.Run
   fullName: SuperOffice.CRM.Services.IWorkflowAgent.Run
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
 - uid: SuperOffice.CRM.Services.IWorkflowAgent.SendEvent*
   commentId: Overload:SuperOffice.CRM.Services.IWorkflowAgent.SendEvent
   isExternal: true
-  href: SuperOffice.CRM.Services.IWorkflowAgent.html#SuperOffice_CRM_Services_IWorkflowAgent_SendEvent_SuperOffice_CRM_Services_WorkflowEvent_
   name: SendEvent
   nameWithType: IWorkflowAgent.SendEvent
   fullName: SuperOffice.CRM.Services.IWorkflowAgent.SendEvent
 - uid: SuperOffice.CRM.Services.IWorkflowAgent.GetWorkflowGoal*
   commentId: Overload:SuperOffice.CRM.Services.IWorkflowAgent.GetWorkflowGoal
   isExternal: true
-  href: SuperOffice.CRM.Services.IWorkflowAgent.html#SuperOffice_CRM_Services_IWorkflowAgent_GetWorkflowGoal_System_Int32_
   name: GetWorkflowGoal
   nameWithType: IWorkflowAgent.GetWorkflowGoal
   fullName: SuperOffice.CRM.Services.IWorkflowAgent.GetWorkflowGoal
 - uid: SuperOffice.CRM.Services.IWorkflowAgent.GetWorkflowStep*
   commentId: Overload:SuperOffice.CRM.Services.IWorkflowAgent.GetWorkflowStep
   isExternal: true
-  href: SuperOffice.CRM.Services.IWorkflowAgent.html#SuperOffice_CRM_Services_IWorkflowAgent_GetWorkflowStep_System_Int32_
   name: GetWorkflowStep
   nameWithType: IWorkflowAgent.GetWorkflowStep
   fullName: SuperOffice.CRM.Services.IWorkflowAgent.GetWorkflowStep
@@ -1440,21 +1353,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.WorkflowStepBase
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.WorkflowStepBase.html
   name: WorkflowStepBase
   nameWithType: WorkflowStepBase
   fullName: SuperOffice.CRM.Services.WorkflowStepBase
 - uid: SuperOffice.CRM.Services.IWorkflowAgent.AddAfterWorkflowStep*
   commentId: Overload:SuperOffice.CRM.Services.IWorkflowAgent.AddAfterWorkflowStep
   isExternal: true
-  href: SuperOffice.CRM.Services.IWorkflowAgent.html#SuperOffice_CRM_Services_IWorkflowAgent_AddAfterWorkflowStep_System_Int32_SuperOffice_CRM_Services_WorkflowStepBase_
   name: AddAfterWorkflowStep
   nameWithType: IWorkflowAgent.AddAfterWorkflowStep
   fullName: SuperOffice.CRM.Services.IWorkflowAgent.AddAfterWorkflowStep
 - uid: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowStepFromType*
   commentId: Overload:SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowStepFromType
   isExternal: true
-  href: SuperOffice.CRM.Services.IWorkflowAgent.html#SuperOffice_CRM_Services_IWorkflowAgent_CreateDefaultWorkflowStepFromType_SuperOffice_Data_WorkflowStepType_
   name: CreateDefaultWorkflowStepFromType
   nameWithType: IWorkflowAgent.CreateDefaultWorkflowStepFromType
   fullName: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowStepFromType
@@ -1466,7 +1376,6 @@ references:
 - uid: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowStepOptionFromType*
   commentId: Overload:SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowStepOptionFromType
   isExternal: true
-  href: SuperOffice.CRM.Services.IWorkflowAgent.html#SuperOffice_CRM_Services_IWorkflowAgent_CreateDefaultWorkflowStepOptionFromType_SuperOffice_Data_WorkflowSplitOptionType_
   name: CreateDefaultWorkflowStepOptionFromType
   nameWithType: IWorkflowAgent.CreateDefaultWorkflowStepOptionFromType
   fullName: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowStepOptionFromType
@@ -1479,28 +1388,24 @@ references:
   commentId: T:SuperOffice.CRM.Services.WorkflowStepOptionBase
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.WorkflowStepOptionBase.html
   name: WorkflowStepOptionBase
   nameWithType: WorkflowStepOptionBase
   fullName: SuperOffice.CRM.Services.WorkflowStepOptionBase
 - uid: SuperOffice.CRM.Services.IWorkflowAgent.GetWorkflowStepOption*
   commentId: Overload:SuperOffice.CRM.Services.IWorkflowAgent.GetWorkflowStepOption
   isExternal: true
-  href: SuperOffice.CRM.Services.IWorkflowAgent.html#SuperOffice_CRM_Services_IWorkflowAgent_GetWorkflowStepOption_System_Int32_
   name: GetWorkflowStepOption
   nameWithType: IWorkflowAgent.GetWorkflowStepOption
   fullName: SuperOffice.CRM.Services.IWorkflowAgent.GetWorkflowStepOption
 - uid: SuperOffice.CRM.Services.IWorkflowAgent.GetWorkflowTrigger*
   commentId: Overload:SuperOffice.CRM.Services.IWorkflowAgent.GetWorkflowTrigger
   isExternal: true
-  href: SuperOffice.CRM.Services.IWorkflowAgent.html#SuperOffice_CRM_Services_IWorkflowAgent_GetWorkflowTrigger_System_Int32_
   name: GetWorkflowTrigger
   nameWithType: IWorkflowAgent.GetWorkflowTrigger
   fullName: SuperOffice.CRM.Services.IWorkflowAgent.GetWorkflowTrigger
 - uid: SuperOffice.CRM.Services.IWorkflowAgent.GetWorkflowWaitForAction*
   commentId: Overload:SuperOffice.CRM.Services.IWorkflowAgent.GetWorkflowWaitForAction
   isExternal: true
-  href: SuperOffice.CRM.Services.IWorkflowAgent.html#SuperOffice_CRM_Services_IWorkflowAgent_GetWorkflowWaitForAction_System_Int32_
   name: GetWorkflowWaitForAction
   nameWithType: IWorkflowAgent.GetWorkflowWaitForAction
   fullName: SuperOffice.CRM.Services.IWorkflowAgent.GetWorkflowWaitForAction

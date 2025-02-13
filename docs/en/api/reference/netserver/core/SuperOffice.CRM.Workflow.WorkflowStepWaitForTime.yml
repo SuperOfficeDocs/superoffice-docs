@@ -16,12 +16,17 @@ items:
   nameWithType: WorkflowStepWaitForTime
   fullName: SuperOffice.CRM.Workflow.WorkflowStepWaitForTime
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Workflow
   syntax:
     content: 'public class WorkflowStepWaitForTime : WorkflowStepBase'
-    content.vb: Public Class WorkflowStepWaitForTime Inherits WorkflowStepBase
+    content.vb: >-
+      Public Class WorkflowStepWaitForTime
+          Inherits WorkflowStepBase
   inheritance:
   - System.Object
   - SuperOffice.CRM.Workflow.WorkflowStepBase
@@ -30,16 +35,15 @@ items:
   - SuperOffice.CRM.Workflow.WorkflowStepBase.Row
   - SuperOffice.CRM.Workflow.WorkflowStepBase.InstanceRow
   - SuperOffice.CRM.Workflow.WorkflowStepBase.Settings
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Workflow.WorkflowStepWaitForTime.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Workflow.WorkflowStepWaitForTime.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Workflow.WorkflowStepWaitForTime.#ctor(SuperOffice.CRM.Rows.WorkflowStepRow,SuperOffice.CRM.Rows.WorkflowInstanceRow)
   commentId: M:SuperOffice.CRM.Workflow.WorkflowStepWaitForTime.#ctor(SuperOffice.CRM.Rows.WorkflowStepRow,SuperOffice.CRM.Rows.WorkflowInstanceRow)
   id: '#ctor(SuperOffice.CRM.Rows.WorkflowStepRow,SuperOffice.CRM.Rows.WorkflowInstanceRow)'
@@ -51,6 +55,9 @@ items:
   nameWithType: WorkflowStepWaitForTime.WorkflowStepWaitForTime(WorkflowStepRow, WorkflowInstanceRow)
   fullName: SuperOffice.CRM.Workflow.WorkflowStepWaitForTime.WorkflowStepWaitForTime(SuperOffice.CRM.Rows.WorkflowStepRow, SuperOffice.CRM.Rows.WorkflowInstanceRow)
   type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Workflow
@@ -63,9 +70,10 @@ items:
       type: SuperOffice.CRM.Rows.WorkflowInstanceRow
     content.vb: Public Sub New(row As WorkflowStepRow, instanceRow As WorkflowInstanceRow)
   overload: SuperOffice.CRM.Workflow.WorkflowStepWaitForTime.#ctor*
-  nameWithType.vb: WorkflowStepWaitForTime.New(WorkflowStepRow, WorkflowInstanceRow)
-  fullName.vb: SuperOffice.CRM.Workflow.WorkflowStepWaitForTime.New(SuperOffice.CRM.Rows.WorkflowStepRow, SuperOffice.CRM.Rows.WorkflowInstanceRow)
-  name.vb: New(WorkflowStepRow, WorkflowInstanceRow)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Workflow.WorkflowStepWaitForTime.Save
   commentId: M:SuperOffice.CRM.Workflow.WorkflowStepWaitForTime.Save
   id: Save
@@ -77,15 +85,23 @@ items:
   nameWithType: WorkflowStepWaitForTime.Save()
   fullName: SuperOffice.CRM.Workflow.WorkflowStepWaitForTime.Save()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Workflow
-  example: []
   syntax:
     content: public override void Save()
-    content.vb: Public Overrides Sub Save()
+    content.vb: Public Overrides Sub Save
   overridden: SuperOffice.CRM.Workflow.WorkflowStepBase.Save
   overload: SuperOffice.CRM.Workflow.WorkflowStepWaitForTime.Save*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Workflow.WorkflowStepWaitForTime.Execute
   commentId: M:SuperOffice.CRM.Workflow.WorkflowStepWaitForTime.Execute
   id: Execute
@@ -97,17 +113,25 @@ items:
   nameWithType: WorkflowStepWaitForTime.Execute()
   fullName: SuperOffice.CRM.Workflow.WorkflowStepWaitForTime.Execute()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Workflow
-  example: []
   syntax:
     content: public override DateTime Execute()
     return:
       type: System.DateTime
-    content.vb: Public Overrides Function Execute() As Date
+    content.vb: Public Overrides Function Execute As DateTime
   overridden: SuperOffice.CRM.Workflow.WorkflowStepBase.Execute
   overload: SuperOffice.CRM.Workflow.WorkflowStepWaitForTime.Execute*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Workflow.WorkflowStepWaitForTime.GetSettings(System.String)
   commentId: M:SuperOffice.CRM.Workflow.WorkflowStepWaitForTime.GetSettings(System.String)
   id: GetSettings(System.String)
@@ -115,10 +139,13 @@ items:
   langs:
   - csharp
   - vb
-  name: GetSettings(string)
-  nameWithType: WorkflowStepWaitForTime.GetSettings(string)
-  fullName: SuperOffice.CRM.Workflow.WorkflowStepWaitForTime.GetSettings(string)
+  name: GetSettings(String)
+  nameWithType: WorkflowStepWaitForTime.GetSettings(String)
+  fullName: SuperOffice.CRM.Workflow.WorkflowStepWaitForTime.GetSettings(System.String)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Workflow
@@ -131,63 +158,30 @@ items:
       type: SuperOffice.CRM.Workflow.WaitForTimeSettings
     content.vb: Public Shared Function GetSettings(settingsJson As String) As WaitForTimeSettings
   overload: SuperOffice.CRM.Workflow.WorkflowStepWaitForTime.GetSettings*
-  nameWithType.vb: WorkflowStepWaitForTime.GetSettings(String)
-  fullName.vb: SuperOffice.CRM.Workflow.WorkflowStepWaitForTime.GetSettings(String)
-  name.vb: GetSettings(String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 references:
 - uid: SuperOffice.CRM.Workflow
   commentId: N:SuperOffice.CRM.Workflow
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Workflow
   nameWithType: SuperOffice.CRM.Workflow
   fullName: SuperOffice.CRM.Workflow
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Workflow
-    name: Workflow
-    isExternal: true
-    href: SuperOffice.CRM.Workflow.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Workflow
-    name: Workflow
-    isExternal: true
-    href: SuperOffice.CRM.Workflow.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.Workflow.WorkflowStepBase
   commentId: T:SuperOffice.CRM.Workflow.WorkflowStepBase
   parent: SuperOffice.CRM.Workflow
   isExternal: true
-  href: SuperOffice.CRM.Workflow.WorkflowStepBase.html
   name: WorkflowStepBase
   nameWithType: WorkflowStepBase
   fullName: SuperOffice.CRM.Workflow.WorkflowStepBase
@@ -195,40 +189,47 @@ references:
   commentId: M:SuperOffice.CRM.Workflow.WorkflowStepBase.NextStepId(System.Int32)
   parent: SuperOffice.CRM.Workflow.WorkflowStepBase
   isExternal: true
-  href: SuperOffice.CRM.Workflow.WorkflowStepBase.html#SuperOffice_CRM_Workflow_WorkflowStepBase_NextStepId_System_Int32_
-  name: NextStepId(int)
-  nameWithType: WorkflowStepBase.NextStepId(int)
-  fullName: SuperOffice.CRM.Workflow.WorkflowStepBase.NextStepId(int)
-  nameWithType.vb: WorkflowStepBase.NextStepId(Integer)
-  fullName.vb: SuperOffice.CRM.Workflow.WorkflowStepBase.NextStepId(Integer)
-  name.vb: NextStepId(Integer)
+  name: NextStepId(Int32)
+  nameWithType: WorkflowStepBase.NextStepId(Int32)
+  fullName: SuperOffice.CRM.Workflow.WorkflowStepBase.NextStepId(System.Int32)
   spec.csharp:
   - uid: SuperOffice.CRM.Workflow.WorkflowStepBase.NextStepId(System.Int32)
     name: NextStepId
+    nameWithType: WorkflowStepBase.NextStepId
+    fullName: SuperOffice.CRM.Workflow.WorkflowStepBase.NextStepId
     isExternal: true
-    href: SuperOffice.CRM.Workflow.WorkflowStepBase.html#SuperOffice_CRM_Workflow_WorkflowStepBase_NextStepId_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Workflow.WorkflowStepBase.NextStepId(System.Int32)
     name: NextStepId
+    nameWithType: WorkflowStepBase.NextStepId
+    fullName: SuperOffice.CRM.Workflow.WorkflowStepBase.NextStepId
     isExternal: true
-    href: SuperOffice.CRM.Workflow.WorkflowStepBase.html#SuperOffice_CRM_Workflow_WorkflowStepBase_NextStepId_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Workflow.WorkflowStepBase.Row
   commentId: P:SuperOffice.CRM.Workflow.WorkflowStepBase.Row
   parent: SuperOffice.CRM.Workflow.WorkflowStepBase
   isExternal: true
-  href: SuperOffice.CRM.Workflow.WorkflowStepBase.html#SuperOffice_CRM_Workflow_WorkflowStepBase_Row
   name: Row
   nameWithType: WorkflowStepBase.Row
   fullName: SuperOffice.CRM.Workflow.WorkflowStepBase.Row
@@ -236,7 +237,6 @@ references:
   commentId: P:SuperOffice.CRM.Workflow.WorkflowStepBase.InstanceRow
   parent: SuperOffice.CRM.Workflow.WorkflowStepBase
   isExternal: true
-  href: SuperOffice.CRM.Workflow.WorkflowStepBase.html#SuperOffice_CRM_Workflow_WorkflowStepBase_InstanceRow
   name: InstanceRow
   nameWithType: WorkflowStepBase.InstanceRow
   fullName: SuperOffice.CRM.Workflow.WorkflowStepBase.InstanceRow
@@ -244,346 +244,86 @@ references:
   commentId: P:SuperOffice.CRM.Workflow.WorkflowStepBase.Settings
   parent: SuperOffice.CRM.Workflow.WorkflowStepBase
   isExternal: true
-  href: SuperOffice.CRM.Workflow.WorkflowStepBase.html#SuperOffice_CRM_Workflow_WorkflowStepBase_Settings
   name: Settings
   nameWithType: WorkflowStepBase.Settings
   fullName: SuperOffice.CRM.Workflow.WorkflowStepBase.Settings
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
 - uid: SuperOffice.CRM.Workflow.WorkflowStepWaitForTime.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<WorkflowStepWaitForTime, To>(WorkflowStepWaitForTime)
-  nameWithType: EnumUtil.MapEnums<WorkflowStepWaitForTime, To>(WorkflowStepWaitForTime)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Workflow.WorkflowStepWaitForTime, To>(SuperOffice.CRM.Workflow.WorkflowStepWaitForTime)
-  nameWithType.vb: EnumUtil.MapEnums(Of WorkflowStepWaitForTime, To)(WorkflowStepWaitForTime)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Workflow.WorkflowStepWaitForTime, To)(SuperOffice.CRM.Workflow.WorkflowStepWaitForTime)
-  name.vb: MapEnums(Of WorkflowStepWaitForTime, To)(WorkflowStepWaitForTime)
+  name: MapEnums<WorkflowStepWaitForTime, To>()
+  nameWithType: EnumUtil.MapEnums<WorkflowStepWaitForTime, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Workflow.WorkflowStepWaitForTime, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of WorkflowStepWaitForTime, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Workflow.WorkflowStepWaitForTime, To)()
+  name.vb: MapEnums(Of WorkflowStepWaitForTime, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Workflow.WorkflowStepWaitForTime)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<WorkflowStepWaitForTime, To>
+    nameWithType: EnumUtil.MapEnums<WorkflowStepWaitForTime, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Workflow.WorkflowStepWaitForTime, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Workflow.WorkflowStepWaitForTime
-    name: WorkflowStepWaitForTime
-    isExternal: true
-    href: SuperOffice.CRM.Workflow.WorkflowStepWaitForTime.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Workflow.WorkflowStepWaitForTime
-    name: WorkflowStepWaitForTime
-    isExternal: true
-    href: SuperOffice.CRM.Workflow.WorkflowStepWaitForTime.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Workflow.WorkflowStepWaitForTime)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of WorkflowStepWaitForTime, To)
+    nameWithType: EnumUtil.MapEnums(Of WorkflowStepWaitForTime, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Workflow.WorkflowStepWaitForTime, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Workflow.WorkflowStepWaitForTime
-    name: WorkflowStepWaitForTime
-    isExternal: true
-    href: SuperOffice.CRM.Workflow.WorkflowStepWaitForTime.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Workflow.WorkflowStepWaitForTime
-    name: WorkflowStepWaitForTime
-    isExternal: true
-    href: SuperOffice.CRM.Workflow.WorkflowStepWaitForTime.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Workflow.WorkflowStepWaitForTime.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<WorkflowStepWaitForTime, To>(WorkflowStepWaitForTime)
-  nameWithType: Converters.MapEnums<WorkflowStepWaitForTime, To>(WorkflowStepWaitForTime)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Workflow.WorkflowStepWaitForTime, To>(SuperOffice.CRM.Workflow.WorkflowStepWaitForTime)
-  nameWithType.vb: Converters.MapEnums(Of WorkflowStepWaitForTime, To)(WorkflowStepWaitForTime)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Workflow.WorkflowStepWaitForTime, To)(SuperOffice.CRM.Workflow.WorkflowStepWaitForTime)
-  name.vb: MapEnums(Of WorkflowStepWaitForTime, To)(WorkflowStepWaitForTime)
+  name: MapEnums<WorkflowStepWaitForTime, To>()
+  nameWithType: Converters.MapEnums<WorkflowStepWaitForTime, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Workflow.WorkflowStepWaitForTime, To>()
+  nameWithType.vb: Converters.MapEnums(Of WorkflowStepWaitForTime, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Workflow.WorkflowStepWaitForTime, To)()
+  name.vb: MapEnums(Of WorkflowStepWaitForTime, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Workflow.WorkflowStepWaitForTime)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<WorkflowStepWaitForTime, To>
+    nameWithType: Converters.MapEnums<WorkflowStepWaitForTime, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Workflow.WorkflowStepWaitForTime, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Workflow.WorkflowStepWaitForTime
-    name: WorkflowStepWaitForTime
-    isExternal: true
-    href: SuperOffice.CRM.Workflow.WorkflowStepWaitForTime.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Workflow.WorkflowStepWaitForTime
-    name: WorkflowStepWaitForTime
-    isExternal: true
-    href: SuperOffice.CRM.Workflow.WorkflowStepWaitForTime.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Workflow.WorkflowStepWaitForTime)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of WorkflowStepWaitForTime, To)
+    nameWithType: Converters.MapEnums(Of WorkflowStepWaitForTime, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Workflow.WorkflowStepWaitForTime, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Workflow.WorkflowStepWaitForTime
-    name: WorkflowStepWaitForTime
-    isExternal: true
-    href: SuperOffice.CRM.Workflow.WorkflowStepWaitForTime.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Workflow.WorkflowStepWaitForTime
-    name: WorkflowStepWaitForTime
-    isExternal: true
-    href: SuperOffice.CRM.Workflow.WorkflowStepWaitForTime.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -592,45 +332,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -639,94 +377,57 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.CRM.Workflow.WorkflowStepWaitForTime.#ctor*
   commentId: Overload:SuperOffice.CRM.Workflow.WorkflowStepWaitForTime.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Workflow.WorkflowStepWaitForTime.html#SuperOffice_CRM_Workflow_WorkflowStepWaitForTime__ctor_SuperOffice_CRM_Rows_WorkflowStepRow_SuperOffice_CRM_Rows_WorkflowInstanceRow_
   name: WorkflowStepWaitForTime
   nameWithType: WorkflowStepWaitForTime.WorkflowStepWaitForTime
   fullName: SuperOffice.CRM.Workflow.WorkflowStepWaitForTime.WorkflowStepWaitForTime
-  nameWithType.vb: WorkflowStepWaitForTime.New
-  fullName.vb: SuperOffice.CRM.Workflow.WorkflowStepWaitForTime.New
-  name.vb: New
 - uid: SuperOffice.CRM.Rows.WorkflowStepRow
   commentId: T:SuperOffice.CRM.Rows.WorkflowStepRow
   parent: SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.CRM.Rows.WorkflowStepRow.html
   name: WorkflowStepRow
   nameWithType: WorkflowStepRow
   fullName: SuperOffice.CRM.Rows.WorkflowStepRow
@@ -734,73 +435,49 @@ references:
   commentId: T:SuperOffice.CRM.Rows.WorkflowInstanceRow
   parent: SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.CRM.Rows.WorkflowInstanceRow.html
   name: WorkflowInstanceRow
   nameWithType: WorkflowInstanceRow
   fullName: SuperOffice.CRM.Rows.WorkflowInstanceRow
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows
-    name: Rows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows
-    name: Rows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.html
 - uid: SuperOffice.CRM.Workflow.WorkflowStepBase.Save
   commentId: M:SuperOffice.CRM.Workflow.WorkflowStepBase.Save
   parent: SuperOffice.CRM.Workflow.WorkflowStepBase
   isExternal: true
-  href: SuperOffice.CRM.Workflow.WorkflowStepBase.html#SuperOffice_CRM_Workflow_WorkflowStepBase_Save
   name: Save()
   nameWithType: WorkflowStepBase.Save()
   fullName: SuperOffice.CRM.Workflow.WorkflowStepBase.Save()
   spec.csharp:
   - uid: SuperOffice.CRM.Workflow.WorkflowStepBase.Save
     name: Save
+    nameWithType: WorkflowStepBase.Save
+    fullName: SuperOffice.CRM.Workflow.WorkflowStepBase.Save
     isExternal: true
-    href: SuperOffice.CRM.Workflow.WorkflowStepBase.html#SuperOffice_CRM_Workflow_WorkflowStepBase_Save
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Workflow.WorkflowStepBase.Save
     name: Save
+    nameWithType: WorkflowStepBase.Save
+    fullName: SuperOffice.CRM.Workflow.WorkflowStepBase.Save
     isExternal: true
-    href: SuperOffice.CRM.Workflow.WorkflowStepBase.html#SuperOffice_CRM_Workflow_WorkflowStepBase_Save
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Workflow.WorkflowStepWaitForTime.Save*
   commentId: Overload:SuperOffice.CRM.Workflow.WorkflowStepWaitForTime.Save
   isExternal: true
-  href: SuperOffice.CRM.Workflow.WorkflowStepWaitForTime.html#SuperOffice_CRM_Workflow_WorkflowStepWaitForTime_Save
   name: Save
   nameWithType: WorkflowStepWaitForTime.Save
   fullName: SuperOffice.CRM.Workflow.WorkflowStepWaitForTime.Save
@@ -808,46 +485,47 @@ references:
   commentId: M:SuperOffice.CRM.Workflow.WorkflowStepBase.Execute
   parent: SuperOffice.CRM.Workflow.WorkflowStepBase
   isExternal: true
-  href: SuperOffice.CRM.Workflow.WorkflowStepBase.html#SuperOffice_CRM_Workflow_WorkflowStepBase_Execute
   name: Execute()
   nameWithType: WorkflowStepBase.Execute()
   fullName: SuperOffice.CRM.Workflow.WorkflowStepBase.Execute()
   spec.csharp:
   - uid: SuperOffice.CRM.Workflow.WorkflowStepBase.Execute
     name: Execute
+    nameWithType: WorkflowStepBase.Execute
+    fullName: SuperOffice.CRM.Workflow.WorkflowStepBase.Execute
     isExternal: true
-    href: SuperOffice.CRM.Workflow.WorkflowStepBase.html#SuperOffice_CRM_Workflow_WorkflowStepBase_Execute
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Workflow.WorkflowStepBase.Execute
     name: Execute
+    nameWithType: WorkflowStepBase.Execute
+    fullName: SuperOffice.CRM.Workflow.WorkflowStepBase.Execute
     isExternal: true
-    href: SuperOffice.CRM.Workflow.WorkflowStepBase.html#SuperOffice_CRM_Workflow_WorkflowStepBase_Execute
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Workflow.WorkflowStepWaitForTime.Execute*
   commentId: Overload:SuperOffice.CRM.Workflow.WorkflowStepWaitForTime.Execute
   isExternal: true
-  href: SuperOffice.CRM.Workflow.WorkflowStepWaitForTime.html#SuperOffice_CRM_Workflow_WorkflowStepWaitForTime_Execute
   name: Execute
   nameWithType: WorkflowStepWaitForTime.Execute
   fullName: SuperOffice.CRM.Workflow.WorkflowStepWaitForTime.Execute
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
 - uid: SuperOffice.CRM.Workflow.WorkflowStepWaitForTime.GetSettings*
   commentId: Overload:SuperOffice.CRM.Workflow.WorkflowStepWaitForTime.GetSettings
   isExternal: true
-  href: SuperOffice.CRM.Workflow.WorkflowStepWaitForTime.html#SuperOffice_CRM_Workflow_WorkflowStepWaitForTime_GetSettings_System_String_
   name: GetSettings
   nameWithType: WorkflowStepWaitForTime.GetSettings
   fullName: SuperOffice.CRM.Workflow.WorkflowStepWaitForTime.GetSettings
@@ -855,18 +533,13 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.CRM.Workflow.WaitForTimeSettings
   commentId: T:SuperOffice.CRM.Workflow.WaitForTimeSettings
   parent: SuperOffice.CRM.Workflow
   isExternal: true
-  href: SuperOffice.CRM.Workflow.WaitForTimeSettings.html
   name: WaitForTimeSettings
   nameWithType: WaitForTimeSettings
   fullName: SuperOffice.CRM.Workflow.WaitForTimeSettings

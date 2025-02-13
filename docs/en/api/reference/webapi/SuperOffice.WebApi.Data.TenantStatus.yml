@@ -19,24 +19,26 @@ items:
   nameWithType: TenantStatus
   fullName: SuperOffice.WebApi.Data.TenantStatus
   type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: 'Online tenant status: Endpoint URL, State, IsRunning'
-  example: []
+  summary: "\nOnline tenant status: Endpoint URL, State, IsRunning\n"
   syntax:
-    content: public class TenantStatus
-    content.vb: Public Class TenantStatus
+    content: 'public class TenantStatus : Object'
+    content.vb: >-
+      Public Class TenantStatus
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.WebApi.Data.TenantStatus.#ctor
   commentId: M:SuperOffice.WebApi.Data.TenantStatus.#ctor
   id: '#ctor'
@@ -48,16 +50,20 @@ items:
   nameWithType: TenantStatus.TenantStatus()
   fullName: SuperOffice.WebApi.Data.TenantStatus.TenantStatus()
   type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
   syntax:
     content: public TenantStatus()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.WebApi.Data.TenantStatus.#ctor*
-  nameWithType.vb: TenantStatus.New()
-  fullName.vb: SuperOffice.WebApi.Data.TenantStatus.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.TenantStatus.ContextIdentifier
   commentId: P:SuperOffice.WebApi.Data.TenantStatus.ContextIdentifier
   id: ContextIdentifier
@@ -69,11 +75,13 @@ items:
   nameWithType: TenantStatus.ContextIdentifier
   fullName: SuperOffice.WebApi.Data.TenantStatus.ContextIdentifier
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: 'Customer identifier: "Cust30884"'
-  example: []
+  summary: "\nCustomer identifier: &quot;Cust30884&quot;\n"
   syntax:
     content: public string ContextIdentifier { get; set; }
     parameters: []
@@ -81,6 +89,12 @@ items:
       type: System.String
     content.vb: Public Property ContextIdentifier As String
   overload: SuperOffice.WebApi.Data.TenantStatus.ContextIdentifier*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.TenantStatus.Endpoint
   commentId: P:SuperOffice.WebApi.Data.TenantStatus.Endpoint
   id: Endpoint
@@ -92,11 +106,13 @@ items:
   nameWithType: TenantStatus.Endpoint
   fullName: SuperOffice.WebApi.Data.TenantStatus.Endpoint
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: 'Base URL to tenant: "https://sod2.superoffice.com/Cust30884"'
-  example: []
+  summary: "\nBase URL to tenant: &quot;https://sod2.superoffice.com/Cust30884&quot;\n"
   syntax:
     content: public string Endpoint { get; set; }
     parameters: []
@@ -104,6 +120,12 @@ items:
       type: System.String
     content.vb: Public Property Endpoint As String
   overload: SuperOffice.WebApi.Data.TenantStatus.Endpoint*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.TenantStatus.State
   commentId: P:SuperOffice.WebApi.Data.TenantStatus.State
   id: State
@@ -115,11 +137,13 @@ items:
   nameWithType: TenantStatus.State
   fullName: SuperOffice.WebApi.Data.TenantStatus.State
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Is the tenant running or down for maintenance?
-  example: []
+  summary: "\nIs the tenant running or down for maintenance?\n"
   syntax:
     content: public TenantState State { get; set; }
     parameters: []
@@ -127,6 +151,12 @@ items:
       type: SuperOffice.WebApi.Data.TenantState
     content.vb: Public Property State As TenantState
   overload: SuperOffice.WebApi.Data.TenantStatus.State*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.TenantStatus.IsRunning
   commentId: P:SuperOffice.WebApi.Data.TenantStatus.IsRunning
   id: IsRunning
@@ -138,14 +168,13 @@ items:
   nameWithType: TenantStatus.IsRunning
   fullName: SuperOffice.WebApi.Data.TenantStatus.IsRunning
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Is the tenant state Running or OnlineMaintenance.  
-
-    This indicates that APIs are up and running and all is good.
-  example: []
+  summary: "\nIs the tenant state Running or OnlineMaintenance.  \nThis indicates that APIs are up and running and all is good.\n"
   syntax:
     content: public bool IsRunning { get; set; }
     parameters: []
@@ -153,6 +182,12 @@ items:
       type: System.Boolean
     content.vb: Public Property IsRunning As Boolean
   overload: SuperOffice.WebApi.Data.TenantStatus.IsRunning*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.TenantStatus.ValidUntil
   commentId: P:SuperOffice.WebApi.Data.TenantStatus.ValidUntil
   id: ValidUntil
@@ -164,18 +199,26 @@ items:
   nameWithType: TenantStatus.ValidUntil
   fullName: SuperOffice.WebApi.Data.TenantStatus.ValidUntil
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: When to check next time if an updated state is needed.
-  example: []
+  summary: "\nWhen to check next time if an updated state is needed.\n"
   syntax:
     content: public DateTime ValidUntil { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Property ValidUntil As Date
+    content.vb: Public Property ValidUntil As DateTime
   overload: SuperOffice.WebApi.Data.TenantStatus.ValidUntil*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.TenantStatus.Api
   commentId: P:SuperOffice.WebApi.Data.TenantStatus.Api
   id: Api
@@ -187,11 +230,13 @@ items:
   nameWithType: TenantStatus.Api
   fullName: SuperOffice.WebApi.Data.TenantStatus.Api
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: 'Base URL to tenant API: "https://sod2.superoffice.com/Cust30884/api"'
-  example: []
+  summary: "\nBase URL to tenant API: &quot;https://sod2.superoffice.com/Cust30884/api&quot;\n"
   syntax:
     content: public string Api { get; set; }
     parameters: []
@@ -199,295 +244,41 @@ items:
       type: System.String
     content.vb: Public Property Api As String
   overload: SuperOffice.WebApi.Data.TenantStatus.Api*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Data.TenantStatus.#ctor*
   commentId: Overload:SuperOffice.WebApi.Data.TenantStatus.#ctor
   isExternal: true
-  href: SuperOffice.WebApi.Data.TenantStatus.html#SuperOffice_WebApi_Data_TenantStatus__ctor
   name: TenantStatus
   nameWithType: TenantStatus.TenantStatus
   fullName: SuperOffice.WebApi.Data.TenantStatus.TenantStatus
-  nameWithType.vb: TenantStatus.New
-  fullName.vb: SuperOffice.WebApi.Data.TenantStatus.New
-  name.vb: New
 - uid: SuperOffice.WebApi.Data.TenantStatus.ContextIdentifier*
   commentId: Overload:SuperOffice.WebApi.Data.TenantStatus.ContextIdentifier
   isExternal: true
-  href: SuperOffice.WebApi.Data.TenantStatus.html#SuperOffice_WebApi_Data_TenantStatus_ContextIdentifier
   name: ContextIdentifier
   nameWithType: TenantStatus.ContextIdentifier
   fullName: SuperOffice.WebApi.Data.TenantStatus.ContextIdentifier
@@ -495,24 +286,18 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.WebApi.Data.TenantStatus.Endpoint*
   commentId: Overload:SuperOffice.WebApi.Data.TenantStatus.Endpoint
   isExternal: true
-  href: SuperOffice.WebApi.Data.TenantStatus.html#SuperOffice_WebApi_Data_TenantStatus_Endpoint
   name: Endpoint
   nameWithType: TenantStatus.Endpoint
   fullName: SuperOffice.WebApi.Data.TenantStatus.Endpoint
 - uid: SuperOffice.WebApi.Data.TenantStatus.State*
   commentId: Overload:SuperOffice.WebApi.Data.TenantStatus.State
   isExternal: true
-  href: SuperOffice.WebApi.Data.TenantStatus.html#SuperOffice_WebApi_Data_TenantStatus_State
   name: State
   nameWithType: TenantStatus.State
   fullName: SuperOffice.WebApi.Data.TenantStatus.State
@@ -520,14 +305,12 @@ references:
   commentId: T:SuperOffice.WebApi.Data.TenantState
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.TenantState.html
   name: TenantState
   nameWithType: TenantState
   fullName: SuperOffice.WebApi.Data.TenantState
 - uid: SuperOffice.WebApi.Data.TenantStatus.IsRunning*
   commentId: Overload:SuperOffice.WebApi.Data.TenantStatus.IsRunning
   isExternal: true
-  href: SuperOffice.WebApi.Data.TenantStatus.html#SuperOffice_WebApi_Data_TenantStatus_IsRunning
   name: IsRunning
   nameWithType: TenantStatus.IsRunning
   fullName: SuperOffice.WebApi.Data.TenantStatus.IsRunning
@@ -535,35 +318,23 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.WebApi.Data.TenantStatus.ValidUntil*
   commentId: Overload:SuperOffice.WebApi.Data.TenantStatus.ValidUntil
   isExternal: true
-  href: SuperOffice.WebApi.Data.TenantStatus.html#SuperOffice_WebApi_Data_TenantStatus_ValidUntil
   name: ValidUntil
   nameWithType: TenantStatus.ValidUntil
   fullName: SuperOffice.WebApi.Data.TenantStatus.ValidUntil
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
 - uid: SuperOffice.WebApi.Data.TenantStatus.Api*
   commentId: Overload:SuperOffice.WebApi.Data.TenantStatus.Api
   isExternal: true
-  href: SuperOffice.WebApi.Data.TenantStatus.html#SuperOffice_WebApi_Data_TenantStatus_Api
   name: Api
   nameWithType: TenantStatus.Api
   fullName: SuperOffice.WebApi.Data.TenantStatus.Api

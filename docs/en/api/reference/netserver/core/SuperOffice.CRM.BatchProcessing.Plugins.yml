@@ -32,105 +32,90 @@ references:
 - uid: SuperOffice.CRM.BatchProcessing.Plugins.BulkUpdateBatchPlugin
   commentId: T:SuperOffice.CRM.BatchProcessing.Plugins.BulkUpdateBatchPlugin
   isExternal: true
-  href: SuperOffice.CRM.BatchProcessing.Plugins.BulkUpdateBatchPlugin.html
   name: BulkUpdateBatchPlugin
   nameWithType: BulkUpdateBatchPlugin
   fullName: SuperOffice.CRM.BatchProcessing.Plugins.BulkUpdateBatchPlugin
 - uid: SuperOffice.CRM.BatchProcessing.Plugins.CSMailMergeBatchPlugin
   commentId: T:SuperOffice.CRM.BatchProcessing.Plugins.CSMailMergeBatchPlugin
   isExternal: true
-  href: SuperOffice.CRM.BatchProcessing.Plugins.CSMailMergeBatchPlugin.html
   name: CSMailMergeBatchPlugin
   nameWithType: CSMailMergeBatchPlugin
   fullName: SuperOffice.CRM.BatchProcessing.Plugins.CSMailMergeBatchPlugin
 - uid: SuperOffice.CRM.BatchProcessing.Plugins.ErpForceResyncBatchPlugin
   commentId: T:SuperOffice.CRM.BatchProcessing.Plugins.ErpForceResyncBatchPlugin
   isExternal: true
-  href: SuperOffice.CRM.BatchProcessing.Plugins.ErpForceResyncBatchPlugin.html
   name: ErpForceResyncBatchPlugin
   nameWithType: ErpForceResyncBatchPlugin
   fullName: SuperOffice.CRM.BatchProcessing.Plugins.ErpForceResyncBatchPlugin
 - uid: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin
   commentId: T:SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin
   isExternal: true
-  href: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.html
   name: ExportSelectionToFileBatchPlugin
   nameWithType: ExportSelectionToFileBatchPlugin
   fullName: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin
 - uid: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters
   commentId: T:SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters
   isExternal: true
-  href: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters.html
   name: ExportSelectionToFileBatchParameters
   nameWithType: ExportSelectionToFileBatchParameters
   fullName: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchParameters
 - uid: SuperOffice.CRM.BatchProcessing.Plugins.FreetextIndexRowsBatchPlugin
   commentId: T:SuperOffice.CRM.BatchProcessing.Plugins.FreetextIndexRowsBatchPlugin
   isExternal: true
-  href: SuperOffice.CRM.BatchProcessing.Plugins.FreetextIndexRowsBatchPlugin.html
   name: FreetextIndexRowsBatchPlugin
   nameWithType: FreetextIndexRowsBatchPlugin
   fullName: SuperOffice.CRM.BatchProcessing.Plugins.FreetextIndexRowsBatchPlugin
 - uid: SuperOffice.CRM.BatchProcessing.Plugins.FreetextRegenBatchPlugin
   commentId: T:SuperOffice.CRM.BatchProcessing.Plugins.FreetextRegenBatchPlugin
   isExternal: true
-  href: SuperOffice.CRM.BatchProcessing.Plugins.FreetextRegenBatchPlugin.html
   name: FreetextRegenBatchPlugin
   nameWithType: FreetextRegenBatchPlugin
   fullName: SuperOffice.CRM.BatchProcessing.Plugins.FreetextRegenBatchPlugin
 - uid: SuperOffice.CRM.BatchProcessing.Plugins.ImportBatchPlugin
   commentId: T:SuperOffice.CRM.BatchProcessing.Plugins.ImportBatchPlugin
   isExternal: true
-  href: SuperOffice.CRM.BatchProcessing.Plugins.ImportBatchPlugin.html
   name: ImportBatchPlugin
   nameWithType: ImportBatchPlugin
   fullName: SuperOffice.CRM.BatchProcessing.Plugins.ImportBatchPlugin
 - uid: SuperOffice.CRM.BatchProcessing.Plugins.ImportProductImageBatchPlugin
   commentId: T:SuperOffice.CRM.BatchProcessing.Plugins.ImportProductImageBatchPlugin
   isExternal: true
-  href: SuperOffice.CRM.BatchProcessing.Plugins.ImportProductImageBatchPlugin.html
   name: ImportProductImageBatchPlugin
   nameWithType: ImportProductImageBatchPlugin
   fullName: SuperOffice.CRM.BatchProcessing.Plugins.ImportProductImageBatchPlugin
 - uid: SuperOffice.CRM.BatchProcessing.Plugins.MailMergeBatchPlugin
   commentId: T:SuperOffice.CRM.BatchProcessing.Plugins.MailMergeBatchPlugin
   isExternal: true
-  href: SuperOffice.CRM.BatchProcessing.Plugins.MailMergeBatchPlugin.html
   name: MailMergeBatchPlugin
   nameWithType: MailMergeBatchPlugin
   fullName: SuperOffice.CRM.BatchProcessing.Plugins.MailMergeBatchPlugin
 - uid: SuperOffice.CRM.BatchProcessing.Plugins.MaintenanceBatchPlugin
   commentId: T:SuperOffice.CRM.BatchProcessing.Plugins.MaintenanceBatchPlugin
   isExternal: true
-  href: SuperOffice.CRM.BatchProcessing.Plugins.MaintenanceBatchPlugin.html
   name: MaintenanceBatchPlugin
   nameWithType: MaintenanceBatchPlugin
   fullName: SuperOffice.CRM.BatchProcessing.Plugins.MaintenanceBatchPlugin
 - uid: SuperOffice.CRM.BatchProcessing.Plugins.ReporterBatchPlugin
   commentId: T:SuperOffice.CRM.BatchProcessing.Plugins.ReporterBatchPlugin
   isExternal: true
-  href: SuperOffice.CRM.BatchProcessing.Plugins.ReporterBatchPlugin.html
   name: ReporterBatchPlugin
   nameWithType: ReporterBatchPlugin
   fullName: SuperOffice.CRM.BatchProcessing.Plugins.ReporterBatchPlugin
 - uid: SuperOffice.CRM.BatchProcessing.Plugins.SaintRegenBatchPlugin
   commentId: T:SuperOffice.CRM.BatchProcessing.Plugins.SaintRegenBatchPlugin
   isExternal: true
-  href: SuperOffice.CRM.BatchProcessing.Plugins.SaintRegenBatchPlugin.html
   name: SaintRegenBatchPlugin
   nameWithType: SaintRegenBatchPlugin
   fullName: SuperOffice.CRM.BatchProcessing.Plugins.SaintRegenBatchPlugin
 - uid: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler
   commentId: T:SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler
   isExternal: true
-  href: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler.html
   name: ProgressHandler
   nameWithType: ProgressHandler
   fullName: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler
 - uid: SuperOffice.CRM.BatchProcessing.Plugins.UdefPublishBatchPlugin
   commentId: T:SuperOffice.CRM.BatchProcessing.Plugins.UdefPublishBatchPlugin
   isExternal: true
-  href: SuperOffice.CRM.BatchProcessing.Plugins.UdefPublishBatchPlugin.html
   name: UdefPublishBatchPlugin
   nameWithType: UdefPublishBatchPlugin
   fullName: SuperOffice.CRM.BatchProcessing.Plugins.UdefPublishBatchPlugin

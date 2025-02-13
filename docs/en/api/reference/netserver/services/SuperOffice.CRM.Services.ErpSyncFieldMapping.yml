@@ -32,27 +32,18 @@ items:
   nameWithType: ErpSyncFieldMapping
   fullName: SuperOffice.CRM.Services.ErpSyncFieldMapping
   type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Mapping information for one field pair (ERP &lt;-&gt; SuperOffice)
-
-    <p></p>
-
-    Carrier object for ErpSyncFieldMapping.
-
-    Services for the ErpSyncFieldMapping Carrier is available from the <xref href="SuperOffice.CRM.Services.IErpSyncAgent?text=ErpSync+Agent" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nMapping information for one field pair (ERP &lt;-> SuperOffice)\n<p></p>\nCarrier object for ErpSyncFieldMapping.\nServices for the ErpSyncFieldMapping Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IErpSyncAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public class ErpSyncFieldMapping : Carrier
+    content: 'public class ErpSyncFieldMapping : Carrier'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
-
-      Public Class ErpSyncFieldMapping Inherits Carrier
+      Public Class ErpSyncFieldMapping
+          Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.ErpSyncAgent
     commentId: T:SuperOffice.CRM.Services.ErpSyncAgent
@@ -60,14 +51,12 @@ items:
     commentId: T:SuperOffice.CRM.Services.IErpSyncAgent
   inheritance:
   - System.Object
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.ErpSyncFieldMapping.#ctor
   commentId: M:SuperOffice.CRM.Services.ErpSyncFieldMapping.#ctor
   id: '#ctor'
@@ -79,18 +68,21 @@ items:
   nameWithType: ErpSyncFieldMapping.ErpSyncFieldMapping()
   fullName: SuperOffice.CRM.Services.ErpSyncFieldMapping.ErpSyncFieldMapping()
   type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Default constructor
-  example: []
+  summary: "\nDefault constructor\n"
   syntax:
     content: public ErpSyncFieldMapping()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.ErpSyncFieldMapping.#ctor*
-  nameWithType.vb: ErpSyncFieldMapping.New()
-  fullName.vb: SuperOffice.CRM.Services.ErpSyncFieldMapping.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.ErpSyncFieldMapping.ToString
   commentId: M:SuperOffice.CRM.Services.ErpSyncFieldMapping.ToString
   id: ToString
@@ -102,18 +94,26 @@ items:
   nameWithType: ErpSyncFieldMapping.ToString()
   fullName: SuperOffice.CRM.Services.ErpSyncFieldMapping.ToString()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the carrier contents as a formatted string.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string.\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString() As String
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.CRM.Services.ErpSyncFieldMapping.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Services.ErpSyncFieldMapping.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.ErpSyncFieldMapping.ToString(System.String)
   id: ToString(System.String)
@@ -121,18 +121,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(string)
-  nameWithType: ErpSyncFieldMapping.ToString(string)
-  fullName: SuperOffice.CRM.Services.ErpSyncFieldMapping.ToString(string)
+  name: ToString(String)
+  nameWithType: ErpSyncFieldMapping.ToString(String)
+  fullName: SuperOffice.CRM.Services.ErpSyncFieldMapping.ToString(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Returns the carrier contents as a formatted string, useful for debugging.
-
-    Each line in the output is prefixed with the input value.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -144,9 +143,10 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.ErpSyncFieldMapping.ToString*
-  nameWithType.vb: ErpSyncFieldMapping.ToString(String)
-  fullName.vb: SuperOffice.CRM.Services.ErpSyncFieldMapping.ToString(String)
-  name.vb: ToString(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.ErpSyncFieldMapping.ErpFieldId
   commentId: P:SuperOffice.CRM.Services.ErpSyncFieldMapping.ErpFieldId
   id: ErpFieldId
@@ -158,28 +158,28 @@ items:
   nameWithType: ErpSyncFieldMapping.ErpFieldId
   fullName: SuperOffice.CRM.Services.ErpSyncFieldMapping.ErpFieldId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Primary key
-  example: []
+  summary: "\nPrimary key \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int ErpFieldId { get; set; }
+    content: public virtual int ErpFieldId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ErpFieldId As Integer
+    content.vb: Public Overridable Property ErpFieldId As Integer
   overload: SuperOffice.CRM.Services.ErpSyncFieldMapping.ErpFieldId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ErpSyncFieldMapping.CrmFieldKey
   commentId: P:SuperOffice.CRM.Services.ErpSyncFieldMapping.CrmFieldKey
   id: CrmFieldKey
@@ -191,28 +191,28 @@ items:
   nameWithType: ErpSyncFieldMapping.CrmFieldKey
   fullName: SuperOffice.CRM.Services.ErpSyncFieldMapping.CrmFieldKey
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The CRM field name, as implemented by the Sync entities
-  example: []
+  summary: "\nThe CRM field name, as implemented by the Sync entities \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string CrmFieldKey { get; set; }
+    content: public virtual string CrmFieldKey { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property CrmFieldKey As String
+    content.vb: Public Overridable Property CrmFieldKey As String
   overload: SuperOffice.CRM.Services.ErpSyncFieldMapping.CrmFieldKey*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ErpSyncFieldMapping.CrmDisplayName
   commentId: P:SuperOffice.CRM.Services.ErpSyncFieldMapping.CrmDisplayName
   id: CrmDisplayName
@@ -224,28 +224,28 @@ items:
   nameWithType: ErpSyncFieldMapping.CrmDisplayName
   fullName: SuperOffice.CRM.Services.ErpSyncFieldMapping.CrmDisplayName
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Display name of CRM field; ignored on Save
-  example: []
+  summary: "\nDisplay name of CRM field; ignored on Save \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string CrmDisplayName { get; set; }
+    content: public virtual string CrmDisplayName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property CrmDisplayName As String
+    content.vb: Public Overridable Property CrmDisplayName As String
   overload: SuperOffice.CRM.Services.ErpSyncFieldMapping.CrmDisplayName*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ErpSyncFieldMapping.CrmDisplayTooltip
   commentId: P:SuperOffice.CRM.Services.ErpSyncFieldMapping.CrmDisplayTooltip
   id: CrmDisplayTooltip
@@ -257,28 +257,28 @@ items:
   nameWithType: ErpSyncFieldMapping.CrmDisplayTooltip
   fullName: SuperOffice.CRM.Services.ErpSyncFieldMapping.CrmDisplayTooltip
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Tooltip text for CRM field; ignored on Save
-  example: []
+  summary: "\nTooltip text for CRM field; ignored on Save \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string CrmDisplayTooltip { get; set; }
+    content: public virtual string CrmDisplayTooltip { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property CrmDisplayTooltip As String
+    content.vb: Public Overridable Property CrmDisplayTooltip As String
   overload: SuperOffice.CRM.Services.ErpSyncFieldMapping.CrmDisplayTooltip*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ErpSyncFieldMapping.ErpFieldKey
   commentId: P:SuperOffice.CRM.Services.ErpSyncFieldMapping.ErpFieldKey
   id: ErpFieldKey
@@ -290,28 +290,28 @@ items:
   nameWithType: ErpSyncFieldMapping.ErpFieldKey
   fullName: SuperOffice.CRM.Services.ErpSyncFieldMapping.ErpFieldKey
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The ERP field key
-  example: []
+  summary: "\nThe ERP field key \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string ErpFieldKey { get; set; }
+    content: public virtual string ErpFieldKey { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ErpFieldKey As String
+    content.vb: Public Overridable Property ErpFieldKey As String
   overload: SuperOffice.CRM.Services.ErpSyncFieldMapping.ErpFieldKey*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ErpSyncFieldMapping.FieldType
   commentId: P:SuperOffice.CRM.Services.ErpSyncFieldMapping.FieldType
   id: FieldType
@@ -323,28 +323,28 @@ items:
   nameWithType: ErpSyncFieldMapping.FieldType
   fullName: SuperOffice.CRM.Services.ErpSyncFieldMapping.FieldType
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Field type
-  example: []
+  summary: "\nField type \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual FieldMetadataType FieldType { get; set; }
+    content: public virtual FieldMetadataType FieldType { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.FieldMetadataType
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property FieldType As FieldMetadataType
+    content.vb: Public Overridable Property FieldType As FieldMetadataType
   overload: SuperOffice.CRM.Services.ErpSyncFieldMapping.FieldType*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ErpSyncFieldMapping.ErpDisplayName
   commentId: P:SuperOffice.CRM.Services.ErpSyncFieldMapping.ErpDisplayName
   id: ErpDisplayName
@@ -356,28 +356,28 @@ items:
   nameWithType: ErpSyncFieldMapping.ErpDisplayName
   fullName: SuperOffice.CRM.Services.ErpSyncFieldMapping.ErpDisplayName
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Display name of ERP field; ignored on Save
-  example: []
+  summary: "\nDisplay name of ERP field; ignored on Save \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string ErpDisplayName { get; set; }
+    content: public virtual string ErpDisplayName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ErpDisplayName As String
+    content.vb: Public Overridable Property ErpDisplayName As String
   overload: SuperOffice.CRM.Services.ErpSyncFieldMapping.ErpDisplayName*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ErpSyncFieldMapping.ErpDisplayTooltip
   commentId: P:SuperOffice.CRM.Services.ErpSyncFieldMapping.ErpDisplayTooltip
   id: ErpDisplayTooltip
@@ -389,28 +389,28 @@ items:
   nameWithType: ErpSyncFieldMapping.ErpDisplayTooltip
   fullName: SuperOffice.CRM.Services.ErpSyncFieldMapping.ErpDisplayTooltip
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Tooltip text for ERP field; ignored on Save
-  example: []
+  summary: "\nTooltip text for ERP field; ignored on Save \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string ErpDisplayTooltip { get; set; }
+    content: public virtual string ErpDisplayTooltip { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ErpDisplayTooltip As String
+    content.vb: Public Overridable Property ErpDisplayTooltip As String
   overload: SuperOffice.CRM.Services.ErpSyncFieldMapping.ErpDisplayTooltip*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ErpSyncFieldMapping.SyncToCrm
   commentId: P:SuperOffice.CRM.Services.ErpSyncFieldMapping.SyncToCrm
   id: SyncToCrm
@@ -422,28 +422,28 @@ items:
   nameWithType: ErpSyncFieldMapping.SyncToCrm
   fullName: SuperOffice.CRM.Services.ErpSyncFieldMapping.SyncToCrm
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Should value changes in ERP be automatically transferred to CRM
-  example: []
+  summary: "\nShould value changes in ERP be automatically transferred to CRM \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual bool SyncToCrm { get; set; }
+    content: public virtual bool SyncToCrm { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property SyncToCrm As Boolean
+    content.vb: Public Overridable Property SyncToCrm As Boolean
   overload: SuperOffice.CRM.Services.ErpSyncFieldMapping.SyncToCrm*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ErpSyncFieldMapping.SyncToErp
   commentId: P:SuperOffice.CRM.Services.ErpSyncFieldMapping.SyncToErp
   id: SyncToErp
@@ -455,28 +455,28 @@ items:
   nameWithType: ErpSyncFieldMapping.SyncToErp
   fullName: SuperOffice.CRM.Services.ErpSyncFieldMapping.SyncToErp
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Should value changes in CRM be automatically transferred to ERP
-  example: []
+  summary: "\nShould value changes in CRM be automatically transferred to ERP \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual bool SyncToErp { get; set; }
+    content: public virtual bool SyncToErp { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property SyncToErp As Boolean
+    content.vb: Public Overridable Property SyncToErp As Boolean
   overload: SuperOffice.CRM.Services.ErpSyncFieldMapping.SyncToErp*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ErpSyncFieldMapping.ShowInGui
   commentId: P:SuperOffice.CRM.Services.ErpSyncFieldMapping.ShowInGui
   id: ShowInGui
@@ -488,28 +488,28 @@ items:
   nameWithType: ErpSyncFieldMapping.ShowInGui
   fullName: SuperOffice.CRM.Services.ErpSyncFieldMapping.ShowInGui
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Should this field be shown as a (read-only!) field in the CRM Gui
-  example: []
+  summary: "\nShould this field be shown as a (read-only!) field in the CRM Gui \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual bool ShowInGui { get; set; }
+    content: public virtual bool ShowInGui { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ShowInGui As Boolean
+    content.vb: Public Overridable Property ShowInGui As Boolean
   overload: SuperOffice.CRM.Services.ErpSyncFieldMapping.ShowInGui*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ErpSyncFieldMapping.ShowInSearch
   commentId: P:SuperOffice.CRM.Services.ErpSyncFieldMapping.ShowInSearch
   id: ShowInSearch
@@ -521,28 +521,28 @@ items:
   nameWithType: ErpSyncFieldMapping.ShowInSearch
   fullName: SuperOffice.CRM.Services.ErpSyncFieldMapping.ShowInSearch
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Should this field be shown in searches
-  example: []
+  summary: "\nShould this field be shown in searches \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual bool ShowInSearch { get; set; }
+    content: public virtual bool ShowInSearch { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ShowInSearch As Boolean
+    content.vb: Public Overridable Property ShowInSearch As Boolean
   overload: SuperOffice.CRM.Services.ErpSyncFieldMapping.ShowInSearch*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ErpSyncFieldMapping.AlreadyMapped
   commentId: P:SuperOffice.CRM.Services.ErpSyncFieldMapping.AlreadyMapped
   id: AlreadyMapped
@@ -554,28 +554,28 @@ items:
   nameWithType: ErpSyncFieldMapping.AlreadyMapped
   fullName: SuperOffice.CRM.Services.ErpSyncFieldMapping.AlreadyMapped
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Is this ERPField already mapped in some other connection? If so, then it cannot be one-way mapped TO SuperOffice here
-  example: []
+  summary: "\nIs this ERPField already mapped in some other connection? If so, then it cannot be one-way mapped TO SuperOffice here \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual bool AlreadyMapped { get; set; }
+    content: public virtual bool AlreadyMapped { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property AlreadyMapped As Boolean
+    content.vb: Public Overridable Property AlreadyMapped As Boolean
   overload: SuperOffice.CRM.Services.ErpSyncFieldMapping.AlreadyMapped*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ErpSyncFieldMapping.MissingInERP
   commentId: P:SuperOffice.CRM.Services.ErpSyncFieldMapping.MissingInERP
   id: MissingInERP
@@ -587,28 +587,28 @@ items:
   nameWithType: ErpSyncFieldMapping.MissingInERP
   fullName: SuperOffice.CRM.Services.ErpSyncFieldMapping.MissingInERP
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: This field existed previously, but now the connection no longer supports it. Probably not a good sign, unmap it...
-  example: []
+  summary: "\nThis field existed previously, but now the connection no longer supports it. Probably not a good sign, unmap it... \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual bool MissingInERP { get; set; }
+    content: public virtual bool MissingInERP { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property MissingInERP As Boolean
+    content.vb: Public Overridable Property MissingInERP As Boolean
   overload: SuperOffice.CRM.Services.ErpSyncFieldMapping.MissingInERP*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ErpSyncFieldMapping.MissingInCRM
   commentId: P:SuperOffice.CRM.Services.ErpSyncFieldMapping.MissingInCRM
   id: MissingInCRM
@@ -620,28 +620,28 @@ items:
   nameWithType: ErpSyncFieldMapping.MissingInCRM
   fullName: SuperOffice.CRM.Services.ErpSyncFieldMapping.MissingInCRM
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: This field existed previously, but now CRM no longer supports it (udef change?). Probably not a good sign, unmap it...
-  example: []
+  summary: "\nThis field existed previously, but now CRM no longer supports it (udef change?). Probably not a good sign, unmap it... \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual bool MissingInCRM { get; set; }
+    content: public virtual bool MissingInCRM { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property MissingInCRM As Boolean
+    content.vb: Public Overridable Property MissingInCRM As Boolean
   overload: SuperOffice.CRM.Services.ErpSyncFieldMapping.MissingInCRM*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ErpSyncFieldMapping.Access
   commentId: P:SuperOffice.CRM.Services.ErpSyncFieldMapping.Access
   id: Access
@@ -653,28 +653,28 @@ items:
   nameWithType: ErpSyncFieldMapping.Access
   fullName: SuperOffice.CRM.Services.ErpSyncFieldMapping.Access
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Access restrictions for the field
-  example: []
+  summary: "\nAccess restrictions for the field \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual FieldAccess Access { get; set; }
+    content: public virtual FieldAccess Access { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.FieldAccess
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Access As FieldAccess
+    content.vb: Public Overridable Property Access As FieldAccess
   overload: SuperOffice.CRM.Services.ErpSyncFieldMapping.Access*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ErpSyncFieldMapping.ListReference
   commentId: P:SuperOffice.CRM.Services.ErpSyncFieldMapping.ListReference
   id: ListReference
@@ -686,33 +686,38 @@ items:
   nameWithType: ErpSyncFieldMapping.ListReference
   fullName: SuperOffice.CRM.Services.ErpSyncFieldMapping.ListReference
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Field is read-only, for lookup in gui
-  example: []
+  summary: "\nField is read-only, for lookup in gui \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string ListReference { get; set; }
+    content: public virtual string ListReference { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ListReference As String
+    content.vb: Public Overridable Property ListReference As String
   overload: SuperOffice.CRM.Services.ErpSyncFieldMapping.ListReference*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
 - uid: SuperOffice.CRM.Services.ErpSyncAgent
   commentId: T:SuperOffice.CRM.Services.ErpSyncAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.ErpSyncAgent.html
   name: ErpSyncAgent
   nameWithType: ErpSyncAgent
   fullName: SuperOffice.CRM.Services.ErpSyncAgent
@@ -720,79 +725,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.IErpSyncAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.IErpSyncAgent.html
   name: IErpSyncAgent
   nameWithType: IErpSyncAgent
   fullName: SuperOffice.CRM.Services.IErpSyncAgent
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.ErpSyncFieldMapping.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.ErpSyncFieldMapping.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.ErpSyncFieldMapping.html#SuperOffice_CRM_Services_ErpSyncFieldMapping__ctor
   name: ErpSyncFieldMapping
   nameWithType: ErpSyncFieldMapping.ErpSyncFieldMapping
   fullName: SuperOffice.CRM.Services.ErpSyncFieldMapping.ErpSyncFieldMapping
-  nameWithType.vb: ErpSyncFieldMapping.New
-  fullName.vb: SuperOffice.CRM.Services.ErpSyncFieldMapping.New
-  name.vb: New
 - uid: SuperOffice.CRM.Services.ErpSyncFieldMapping.ToString*
   commentId: Overload:SuperOffice.CRM.Services.ErpSyncFieldMapping.ToString
   isExternal: true
-  href: SuperOffice.CRM.Services.ErpSyncFieldMapping.html#SuperOffice_CRM_Services_ErpSyncFieldMapping_ToString
   name: ToString
   nameWithType: ErpSyncFieldMapping.ToString
   fullName: SuperOffice.CRM.Services.ErpSyncFieldMapping.ToString
@@ -800,17 +744,18 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.ErpSyncFieldMapping.ErpFieldId*
   commentId: Overload:SuperOffice.CRM.Services.ErpSyncFieldMapping.ErpFieldId
   isExternal: true
-  href: SuperOffice.CRM.Services.ErpSyncFieldMapping.html#SuperOffice_CRM_Services_ErpSyncFieldMapping_ErpFieldId
   name: ErpFieldId
   nameWithType: ErpSyncFieldMapping.ErpFieldId
   fullName: SuperOffice.CRM.Services.ErpSyncFieldMapping.ErpFieldId
@@ -818,45 +763,36 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Services.ErpSyncFieldMapping.CrmFieldKey*
   commentId: Overload:SuperOffice.CRM.Services.ErpSyncFieldMapping.CrmFieldKey
   isExternal: true
-  href: SuperOffice.CRM.Services.ErpSyncFieldMapping.html#SuperOffice_CRM_Services_ErpSyncFieldMapping_CrmFieldKey
   name: CrmFieldKey
   nameWithType: ErpSyncFieldMapping.CrmFieldKey
   fullName: SuperOffice.CRM.Services.ErpSyncFieldMapping.CrmFieldKey
 - uid: SuperOffice.CRM.Services.ErpSyncFieldMapping.CrmDisplayName*
   commentId: Overload:SuperOffice.CRM.Services.ErpSyncFieldMapping.CrmDisplayName
   isExternal: true
-  href: SuperOffice.CRM.Services.ErpSyncFieldMapping.html#SuperOffice_CRM_Services_ErpSyncFieldMapping_CrmDisplayName
   name: CrmDisplayName
   nameWithType: ErpSyncFieldMapping.CrmDisplayName
   fullName: SuperOffice.CRM.Services.ErpSyncFieldMapping.CrmDisplayName
 - uid: SuperOffice.CRM.Services.ErpSyncFieldMapping.CrmDisplayTooltip*
   commentId: Overload:SuperOffice.CRM.Services.ErpSyncFieldMapping.CrmDisplayTooltip
   isExternal: true
-  href: SuperOffice.CRM.Services.ErpSyncFieldMapping.html#SuperOffice_CRM_Services_ErpSyncFieldMapping_CrmDisplayTooltip
   name: CrmDisplayTooltip
   nameWithType: ErpSyncFieldMapping.CrmDisplayTooltip
   fullName: SuperOffice.CRM.Services.ErpSyncFieldMapping.CrmDisplayTooltip
 - uid: SuperOffice.CRM.Services.ErpSyncFieldMapping.ErpFieldKey*
   commentId: Overload:SuperOffice.CRM.Services.ErpSyncFieldMapping.ErpFieldKey
   isExternal: true
-  href: SuperOffice.CRM.Services.ErpSyncFieldMapping.html#SuperOffice_CRM_Services_ErpSyncFieldMapping_ErpFieldKey
   name: ErpFieldKey
   nameWithType: ErpSyncFieldMapping.ErpFieldKey
   fullName: SuperOffice.CRM.Services.ErpSyncFieldMapping.ErpFieldKey
 - uid: SuperOffice.CRM.Services.ErpSyncFieldMapping.FieldType*
   commentId: Overload:SuperOffice.CRM.Services.ErpSyncFieldMapping.FieldType
   isExternal: true
-  href: SuperOffice.CRM.Services.ErpSyncFieldMapping.html#SuperOffice_CRM_Services_ErpSyncFieldMapping_FieldType
   name: FieldType
   nameWithType: ErpSyncFieldMapping.FieldType
   fullName: SuperOffice.CRM.Services.ErpSyncFieldMapping.FieldType
@@ -868,21 +804,18 @@ references:
 - uid: SuperOffice.CRM.Services.ErpSyncFieldMapping.ErpDisplayName*
   commentId: Overload:SuperOffice.CRM.Services.ErpSyncFieldMapping.ErpDisplayName
   isExternal: true
-  href: SuperOffice.CRM.Services.ErpSyncFieldMapping.html#SuperOffice_CRM_Services_ErpSyncFieldMapping_ErpDisplayName
   name: ErpDisplayName
   nameWithType: ErpSyncFieldMapping.ErpDisplayName
   fullName: SuperOffice.CRM.Services.ErpSyncFieldMapping.ErpDisplayName
 - uid: SuperOffice.CRM.Services.ErpSyncFieldMapping.ErpDisplayTooltip*
   commentId: Overload:SuperOffice.CRM.Services.ErpSyncFieldMapping.ErpDisplayTooltip
   isExternal: true
-  href: SuperOffice.CRM.Services.ErpSyncFieldMapping.html#SuperOffice_CRM_Services_ErpSyncFieldMapping_ErpDisplayTooltip
   name: ErpDisplayTooltip
   nameWithType: ErpSyncFieldMapping.ErpDisplayTooltip
   fullName: SuperOffice.CRM.Services.ErpSyncFieldMapping.ErpDisplayTooltip
 - uid: SuperOffice.CRM.Services.ErpSyncFieldMapping.SyncToCrm*
   commentId: Overload:SuperOffice.CRM.Services.ErpSyncFieldMapping.SyncToCrm
   isExternal: true
-  href: SuperOffice.CRM.Services.ErpSyncFieldMapping.html#SuperOffice_CRM_Services_ErpSyncFieldMapping_SyncToCrm
   name: SyncToCrm
   nameWithType: ErpSyncFieldMapping.SyncToCrm
   fullName: SuperOffice.CRM.Services.ErpSyncFieldMapping.SyncToCrm
@@ -890,59 +823,48 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.CRM.Services.ErpSyncFieldMapping.SyncToErp*
   commentId: Overload:SuperOffice.CRM.Services.ErpSyncFieldMapping.SyncToErp
   isExternal: true
-  href: SuperOffice.CRM.Services.ErpSyncFieldMapping.html#SuperOffice_CRM_Services_ErpSyncFieldMapping_SyncToErp
   name: SyncToErp
   nameWithType: ErpSyncFieldMapping.SyncToErp
   fullName: SuperOffice.CRM.Services.ErpSyncFieldMapping.SyncToErp
 - uid: SuperOffice.CRM.Services.ErpSyncFieldMapping.ShowInGui*
   commentId: Overload:SuperOffice.CRM.Services.ErpSyncFieldMapping.ShowInGui
   isExternal: true
-  href: SuperOffice.CRM.Services.ErpSyncFieldMapping.html#SuperOffice_CRM_Services_ErpSyncFieldMapping_ShowInGui
   name: ShowInGui
   nameWithType: ErpSyncFieldMapping.ShowInGui
   fullName: SuperOffice.CRM.Services.ErpSyncFieldMapping.ShowInGui
 - uid: SuperOffice.CRM.Services.ErpSyncFieldMapping.ShowInSearch*
   commentId: Overload:SuperOffice.CRM.Services.ErpSyncFieldMapping.ShowInSearch
   isExternal: true
-  href: SuperOffice.CRM.Services.ErpSyncFieldMapping.html#SuperOffice_CRM_Services_ErpSyncFieldMapping_ShowInSearch
   name: ShowInSearch
   nameWithType: ErpSyncFieldMapping.ShowInSearch
   fullName: SuperOffice.CRM.Services.ErpSyncFieldMapping.ShowInSearch
 - uid: SuperOffice.CRM.Services.ErpSyncFieldMapping.AlreadyMapped*
   commentId: Overload:SuperOffice.CRM.Services.ErpSyncFieldMapping.AlreadyMapped
   isExternal: true
-  href: SuperOffice.CRM.Services.ErpSyncFieldMapping.html#SuperOffice_CRM_Services_ErpSyncFieldMapping_AlreadyMapped
   name: AlreadyMapped
   nameWithType: ErpSyncFieldMapping.AlreadyMapped
   fullName: SuperOffice.CRM.Services.ErpSyncFieldMapping.AlreadyMapped
 - uid: SuperOffice.CRM.Services.ErpSyncFieldMapping.MissingInERP*
   commentId: Overload:SuperOffice.CRM.Services.ErpSyncFieldMapping.MissingInERP
   isExternal: true
-  href: SuperOffice.CRM.Services.ErpSyncFieldMapping.html#SuperOffice_CRM_Services_ErpSyncFieldMapping_MissingInERP
   name: MissingInERP
   nameWithType: ErpSyncFieldMapping.MissingInERP
   fullName: SuperOffice.CRM.Services.ErpSyncFieldMapping.MissingInERP
 - uid: SuperOffice.CRM.Services.ErpSyncFieldMapping.MissingInCRM*
   commentId: Overload:SuperOffice.CRM.Services.ErpSyncFieldMapping.MissingInCRM
   isExternal: true
-  href: SuperOffice.CRM.Services.ErpSyncFieldMapping.html#SuperOffice_CRM_Services_ErpSyncFieldMapping_MissingInCRM
   name: MissingInCRM
   nameWithType: ErpSyncFieldMapping.MissingInCRM
   fullName: SuperOffice.CRM.Services.ErpSyncFieldMapping.MissingInCRM
 - uid: SuperOffice.CRM.Services.ErpSyncFieldMapping.Access*
   commentId: Overload:SuperOffice.CRM.Services.ErpSyncFieldMapping.Access
   isExternal: true
-  href: SuperOffice.CRM.Services.ErpSyncFieldMapping.html#SuperOffice_CRM_Services_ErpSyncFieldMapping_Access
   name: Access
   nameWithType: ErpSyncFieldMapping.Access
   fullName: SuperOffice.CRM.Services.ErpSyncFieldMapping.Access
@@ -954,7 +876,6 @@ references:
 - uid: SuperOffice.CRM.Services.ErpSyncFieldMapping.ListReference*
   commentId: Overload:SuperOffice.CRM.Services.ErpSyncFieldMapping.ListReference
   isExternal: true
-  href: SuperOffice.CRM.Services.ErpSyncFieldMapping.html#SuperOffice_CRM_Services_ErpSyncFieldMapping_ListReference
   name: ListReference
   nameWithType: ErpSyncFieldMapping.ListReference
   fullName: SuperOffice.CRM.Services.ErpSyncFieldMapping.ListReference

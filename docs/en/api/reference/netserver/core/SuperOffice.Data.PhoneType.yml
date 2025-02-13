@@ -13,44 +13,67 @@ items:
   - SuperOffice.Data.PhoneType.PersonPager
   - SuperOffice.Data.PhoneType.PersonPrivate
   - SuperOffice.Data.PhoneType.Unknown
+  - SuperOffice.Data.PhoneType.value__
   langs:
   - csharp
   - vb
   name: PhoneType
   nameWithType: PhoneType
   fullName: SuperOffice.Data.PhoneType
-  type: Enum
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: >-
-    The type of Phone
-
-    This Enum is used by:  phone.ptype_idx
-  example: []
+  summary: "\nThe type of Phone\nThis Enum is used by:  phone.ptype_idx\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public enum PhoneType : short
+    content: 'public sealed class PhoneType : Enum'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
+      Public NotInheritable Class PhoneType
+          Inherits
 
-      Public Enum PhoneType As Short
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.PhoneType.EnumUtil.MapEnums``2
   - SuperOffice.Data.PhoneType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  - SuperOffice.Data.PhoneType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.PhoneType)
-  - SuperOffice.Data.PhoneType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - System.Enum.EnumUtil.GetDescription
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.PhoneType.value__
+  commentId: F:SuperOffice.Data.PhoneType.value__
+  id: value__
+  parent: SuperOffice.Data.PhoneType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: PhoneType.value__
+  fullName: SuperOffice.Data.PhoneType.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.PhoneType.Unknown
   commentId: F:SuperOffice.Data.PhoneType.Unknown
   id: Unknown
@@ -62,26 +85,24 @@ items:
   nameWithType: PhoneType.Unknown
   fullName: SuperOffice.Data.PhoneType.Unknown
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '0: Unknown - used when initializing'
-  example: []
+  summary: "\n0: Unknown - used when initializing \n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Unknown = 0
+    content: public const PhoneType Unknown
     return:
       type: SuperOffice.Data.PhoneType
-    content.vb: >-
-      <EnumMember>
-
-      Unknown = 0
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Unknown As PhoneType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.PhoneType.ContactPhone
   commentId: F:SuperOffice.Data.PhoneType.ContactPhone
   id: ContactPhone
@@ -93,26 +114,24 @@ items:
   nameWithType: PhoneType.ContactPhone
   fullName: SuperOffice.Data.PhoneType.ContactPhone
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '1: Telephone number for a contact.'
-  example: []
+  summary: "\n1: Telephone number for a contact.\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      ContactPhone = 1
+    content: public const PhoneType ContactPhone
     return:
       type: SuperOffice.Data.PhoneType
-    content.vb: >-
-      <EnumMember>
-
-      ContactPhone = 1
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const ContactPhone As PhoneType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.PhoneType.ContactFax
   commentId: F:SuperOffice.Data.PhoneType.ContactFax
   id: ContactFax
@@ -124,26 +143,24 @@ items:
   nameWithType: PhoneType.ContactFax
   fullName: SuperOffice.Data.PhoneType.ContactFax
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '3: Facsimile number for a contact'
-  example: []
+  summary: "\n3: Facsimile number for a contact\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      ContactFax = 3
+    content: public const PhoneType ContactFax
     return:
       type: SuperOffice.Data.PhoneType
-    content.vb: >-
-      <EnumMember>
-
-      ContactFax = 3
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const ContactFax As PhoneType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.PhoneType.PersonDirectPhone
   commentId: F:SuperOffice.Data.PhoneType.PersonDirectPhone
   id: PersonDirectPhone
@@ -155,26 +172,24 @@ items:
   nameWithType: PhoneType.PersonDirectPhone
   fullName: SuperOffice.Data.PhoneType.PersonDirectPhone
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '16385: Direct dial telephone for a person'
-  example: []
+  summary: "\n16385: Direct dial telephone for a person\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      PersonDirectPhone = 16385
+    content: public const PhoneType PersonDirectPhone
     return:
       type: SuperOffice.Data.PhoneType
-    content.vb: >-
-      <EnumMember>
-
-      PersonDirectPhone = 16385
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const PersonDirectPhone As PhoneType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.PhoneType.PersonDirectFax
   commentId: F:SuperOffice.Data.PhoneType.PersonDirectFax
   id: PersonDirectFax
@@ -186,26 +201,24 @@ items:
   nameWithType: PhoneType.PersonDirectFax
   fullName: SuperOffice.Data.PhoneType.PersonDirectFax
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '16387: Direct facsimile number for a person'
-  example: []
+  summary: "\n16387: Direct facsimile number for a person\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      PersonDirectFax = 16387
+    content: public const PhoneType PersonDirectFax
     return:
       type: SuperOffice.Data.PhoneType
-    content.vb: >-
-      <EnumMember>
-
-      PersonDirectFax = 16387
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const PersonDirectFax As PhoneType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.PhoneType.PersonPrivate
   commentId: F:SuperOffice.Data.PhoneType.PersonPrivate
   id: PersonPrivate
@@ -217,26 +230,24 @@ items:
   nameWithType: PhoneType.PersonPrivate
   fullName: SuperOffice.Data.PhoneType.PersonPrivate
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '16388: Private telephone for a person'
-  example: []
+  summary: "\n16388: Private telephone for a person\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      PersonPrivate = 16388
+    content: public const PhoneType PersonPrivate
     return:
       type: SuperOffice.Data.PhoneType
-    content.vb: >-
-      <EnumMember>
-
-      PersonPrivate = 16388
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const PersonPrivate As PhoneType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.PhoneType.PersonMobile
   commentId: F:SuperOffice.Data.PhoneType.PersonMobile
   id: PersonMobile
@@ -248,26 +259,24 @@ items:
   nameWithType: PhoneType.PersonMobile
   fullName: SuperOffice.Data.PhoneType.PersonMobile
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '16389: Cellular telephone for a person'
-  example: []
+  summary: "\n16389: Cellular telephone for a person\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      PersonMobile = 16389
+    content: public const PhoneType PersonMobile
     return:
       type: SuperOffice.Data.PhoneType
-    content.vb: >-
-      <EnumMember>
-
-      PersonMobile = 16389
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const PersonMobile As PhoneType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.PhoneType.PersonPager
   commentId: F:SuperOffice.Data.PhoneType.PersonPager
   id: PersonPager
@@ -279,300 +288,115 @@ items:
   nameWithType: PhoneType.PersonPager
   fullName: SuperOffice.Data.PhoneType.PersonPager
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '16390: Pager number for a person'
-  example: []
+  summary: "\n16390: Pager number for a person\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      PersonPager = 16390
+    content: public const PhoneType PersonPager
     return:
       type: SuperOffice.Data.PhoneType
-    content.vb: >-
-      <EnumMember>
-
-      PersonPager = 16390
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const PersonPager As PhoneType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.PhoneType.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<PhoneType, To>(PhoneType)
-  nameWithType: EnumUtil.MapEnums<PhoneType, To>(PhoneType)
-  fullName: EnumUtil.MapEnums<SuperOffice.Data.PhoneType, To>(SuperOffice.Data.PhoneType)
-  nameWithType.vb: EnumUtil.MapEnums(Of PhoneType, To)(PhoneType)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.PhoneType, To)(SuperOffice.Data.PhoneType)
-  name.vb: MapEnums(Of PhoneType, To)(PhoneType)
+  name: MapEnums<PhoneType, To>()
+  nameWithType: EnumUtil.MapEnums<PhoneType, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.PhoneType, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of PhoneType, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.PhoneType, To)()
+  name.vb: MapEnums(Of PhoneType, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.PhoneType)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<PhoneType, To>
+    nameWithType: EnumUtil.MapEnums<PhoneType, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.PhoneType, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.PhoneType
-    name: PhoneType
-    isExternal: true
-    href: SuperOffice.Data.PhoneType.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.PhoneType
-    name: PhoneType
-    isExternal: true
-    href: SuperOffice.Data.PhoneType.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.PhoneType)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of PhoneType, To)
+    nameWithType: EnumUtil.MapEnums(Of PhoneType, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.PhoneType, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.PhoneType
-    name: PhoneType
-    isExternal: true
-    href: SuperOffice.Data.PhoneType.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.PhoneType
-    name: PhoneType
-    isExternal: true
-    href: SuperOffice.Data.PhoneType.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.PhoneType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<PhoneType, To>(PhoneType)
-  nameWithType: Converters.MapEnums<PhoneType, To>(PhoneType)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.PhoneType, To>(SuperOffice.Data.PhoneType)
-  nameWithType.vb: Converters.MapEnums(Of PhoneType, To)(PhoneType)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.PhoneType, To)(SuperOffice.Data.PhoneType)
-  name.vb: MapEnums(Of PhoneType, To)(PhoneType)
+  name: MapEnums<PhoneType, To>()
+  nameWithType: Converters.MapEnums<PhoneType, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.PhoneType, To>()
+  nameWithType.vb: Converters.MapEnums(Of PhoneType, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.PhoneType, To)()
+  name.vb: MapEnums(Of PhoneType, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.PhoneType)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<PhoneType, To>
+    nameWithType: Converters.MapEnums<PhoneType, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.PhoneType, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.PhoneType
-    name: PhoneType
-    isExternal: true
-    href: SuperOffice.Data.PhoneType.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.PhoneType
-    name: PhoneType
-    isExternal: true
-    href: SuperOffice.Data.PhoneType.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.PhoneType)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of PhoneType, To)
+    nameWithType: Converters.MapEnums(Of PhoneType, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.PhoneType, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.PhoneType
-    name: PhoneType
-    isExternal: true
-    href: SuperOffice.Data.PhoneType.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.PhoneType
-    name: PhoneType
-    isExternal: true
-    href: SuperOffice.Data.PhoneType.html
-  - name: )
-- uid: SuperOffice.Data.PhoneType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.PhoneType)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<PhoneType>(PhoneType, PhoneType)
-  nameWithType: ObjectExtensions.AssignByReflection<PhoneType>(PhoneType, PhoneType)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.PhoneType>(SuperOffice.Data.PhoneType, SuperOffice.Data.PhoneType)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of PhoneType)(PhoneType, PhoneType)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.PhoneType)(SuperOffice.Data.PhoneType, SuperOffice.Data.PhoneType)
-  name.vb: AssignByReflection(Of PhoneType)(PhoneType, PhoneType)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.PhoneType,SuperOffice.Data.PhoneType)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.Data.PhoneType
-    name: PhoneType
-    isExternal: true
-    href: SuperOffice.Data.PhoneType.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Data.PhoneType
-    name: PhoneType
-    isExternal: true
-    href: SuperOffice.Data.PhoneType.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Data.PhoneType
-    name: PhoneType
-    isExternal: true
-    href: SuperOffice.Data.PhoneType.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.PhoneType,SuperOffice.Data.PhoneType)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.PhoneType
-    name: PhoneType
-    isExternal: true
-    href: SuperOffice.Data.PhoneType.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.Data.PhoneType
-    name: PhoneType
-    isExternal: true
-    href: SuperOffice.Data.PhoneType.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Data.PhoneType
-    name: PhoneType
-    isExternal: true
-    href: SuperOffice.Data.PhoneType.html
-  - name: )
-- uid: SuperOffice.Data.PhoneType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<PhoneType>(PhoneType)
-  nameWithType: ObjectExtensions.GraphCopy<PhoneType>(PhoneType)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.PhoneType>(SuperOffice.Data.PhoneType)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of PhoneType)(PhoneType)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.PhoneType)(SuperOffice.Data.PhoneType)
-  name.vb: GraphCopy(Of PhoneType)(PhoneType)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.PhoneType)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.Data.PhoneType
-    name: PhoneType
-    isExternal: true
-    href: SuperOffice.Data.PhoneType.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Data.PhoneType
-    name: PhoneType
-    isExternal: true
-    href: SuperOffice.Data.PhoneType.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.PhoneType)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.PhoneType
-    name: PhoneType
-    isExternal: true
-    href: SuperOffice.Data.PhoneType.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.Data.PhoneType
-    name: PhoneType
-    isExternal: true
-    href: SuperOffice.Data.PhoneType.html
-  - name: )
-- uid: System.Enum.EnumUtil.GetDescription
-  commentId: M:EnumUtil.GetDescription(System.Enum)
-  parent: EnumUtil
-  definition: EnumUtil.GetDescription(System.Enum)
-  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  name: GetDescription(Enum)
-  nameWithType: EnumUtil.GetDescription(Enum)
-  fullName: EnumUtil.GetDescription(System.Enum)
-  spec.csharp:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
-  spec.vb:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -581,45 +405,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -628,222 +450,58 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: EnumUtil.GetDescription(System.Enum)
-  commentId: M:EnumUtil.GetDescription(System.Enum)
-  isExternal: true
-  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  name: GetDescription(Enum)
-  nameWithType: EnumUtil.GetDescription(Enum)
-  fullName: EnumUtil.GetDescription(System.Enum)
-  spec.csharp:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
-  spec.vb:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.Data.PhoneType
   commentId: T:SuperOffice.Data.PhoneType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.PhoneType.html
   name: PhoneType
   nameWithType: PhoneType
   fullName: SuperOffice.Data.PhoneType

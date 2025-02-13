@@ -15,36 +15,28 @@ items:
   nameWithType: ISoCollection
   fullName: SuperOffice.Data.ISoCollection
   type: Interface
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: ''
-  remarks: >-
-    <table><tbody><tr><td class="term"></td><td class="description"></td></tr><tr><td class="term"></td><td class="description">
-        </td></tr></tbody></table>
-  example: []
+  summary: "\n\n"
+  remarks: "\n\n<table><tbody><tr><td></td><td></td></tr><tr><td></td><td>\n</td></tr></tbody></table>\n"
   syntax:
-    content: 'public interface ISoCollection : IList, ICollection, IEnumerable'
-    content.vb: Public Interface ISoCollection Inherits IList, ICollection, IEnumerable
-  inheritedMembers:
-  - System.Collections.IList.Add(System.Object)
-  - System.Collections.IList.Contains(System.Object)
-  - System.Collections.IList.Clear
-  - System.Collections.IList.IndexOf(System.Object)
-  - System.Collections.IList.Insert(System.Int32,System.Object)
-  - System.Collections.IList.Remove(System.Object)
-  - System.Collections.IList.RemoveAt(System.Int32)
-  - System.Collections.IList.Item(System.Int32)
-  - System.Collections.IList.IsReadOnly
-  - System.Collections.IList.IsFixedSize
-  - System.Collections.ICollection.CopyTo(System.Array,System.Int32)
-  - System.Collections.ICollection.Count
-  - System.Collections.ICollection.SyncRoot
-  - System.Collections.ICollection.IsSynchronized
-  - System.Collections.IEnumerable.GetEnumerator
+    content: 'public interface ISoCollection : IEnumerable, IList, ICollection'
+    content.vb: >-
+      Public Interface ISoCollection
+          Inherits IEnumerable, IList, ICollection
   extensionMethods:
   - SuperOffice.Data.ISoCollection.EnumUtil.MapEnums``2
   - SuperOffice.Data.ISoCollection.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
 - uid: SuperOffice.Data.ISoCollection.AddNew
   commentId: M:SuperOffice.Data.ISoCollection.AddNew
   id: AddNew
@@ -56,6 +48,9 @@ items:
   nameWithType: ISoCollection.AddNew()
   fullName: SuperOffice.Data.ISoCollection.AddNew()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
@@ -63,7 +58,7 @@ items:
     content: ISoItem AddNew()
     return:
       type: SuperOffice.Data.ISoItem
-    content.vb: Function AddNew() As ISoItem
+    content.vb: Function AddNew As ISoItem
   overload: SuperOffice.Data.ISoCollection.AddNew*
 - uid: SuperOffice.Data.ISoCollection.Add(SuperOffice.Data.ISoItem)
   commentId: M:SuperOffice.Data.ISoCollection.Add(SuperOffice.Data.ISoItem)
@@ -76,11 +71,13 @@ items:
   nameWithType: ISoCollection.Add(ISoItem)
   fullName: SuperOffice.Data.ISoCollection.Add(SuperOffice.Data.ISoItem)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: Adds the specified item.
-  example: []
+  summary: "\nAdds the specified item.\n"
   syntax:
     content: int Add(ISoItem item)
     parameters:
@@ -103,11 +100,13 @@ items:
   nameWithType: ISoCollection.IsDirty
   fullName: SuperOffice.Data.ISoCollection.IsDirty
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: Is the object dirty, e.g. has some of the data in the object been changed?
-  example: []
+  summary: "\nIs the object dirty, e.g. has some of the data in the object been changed?\n"
   syntax:
     content: bool IsDirty { get; }
     parameters: []
@@ -116,537 +115,88 @@ items:
       description: <code>true</code> if dirty; otherwise, <code>false</code>.
     content.vb: ReadOnly Property IsDirty As Boolean
   overload: SuperOffice.Data.ISoCollection.IsDirty*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
 references:
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-- uid: System.Collections.IList.Add(System.Object)
-  commentId: M:System.Collections.IList.Add(System.Object)
-  parent: System.Collections.IList
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.ilist.add
-  name: Add(object)
-  nameWithType: IList.Add(object)
-  fullName: System.Collections.IList.Add(object)
-  nameWithType.vb: IList.Add(Object)
-  fullName.vb: System.Collections.IList.Add(Object)
-  name.vb: Add(Object)
-  spec.csharp:
-  - uid: System.Collections.IList.Add(System.Object)
-    name: Add
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.ilist.add
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Collections.IList.Add(System.Object)
-    name: Add
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.ilist.add
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Collections.IList.Contains(System.Object)
-  commentId: M:System.Collections.IList.Contains(System.Object)
-  parent: System.Collections.IList
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.ilist.contains
-  name: Contains(object)
-  nameWithType: IList.Contains(object)
-  fullName: System.Collections.IList.Contains(object)
-  nameWithType.vb: IList.Contains(Object)
-  fullName.vb: System.Collections.IList.Contains(Object)
-  name.vb: Contains(Object)
-  spec.csharp:
-  - uid: System.Collections.IList.Contains(System.Object)
-    name: Contains
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.ilist.contains
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Collections.IList.Contains(System.Object)
-    name: Contains
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.ilist.contains
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Collections.IList.Clear
-  commentId: M:System.Collections.IList.Clear
-  parent: System.Collections.IList
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.ilist.clear
-  name: Clear()
-  nameWithType: IList.Clear()
-  fullName: System.Collections.IList.Clear()
-  spec.csharp:
-  - uid: System.Collections.IList.Clear
-    name: Clear
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.ilist.clear
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Collections.IList.Clear
-    name: Clear
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.ilist.clear
-  - name: (
-  - name: )
-- uid: System.Collections.IList.IndexOf(System.Object)
-  commentId: M:System.Collections.IList.IndexOf(System.Object)
-  parent: System.Collections.IList
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.ilist.indexof
-  name: IndexOf(object)
-  nameWithType: IList.IndexOf(object)
-  fullName: System.Collections.IList.IndexOf(object)
-  nameWithType.vb: IList.IndexOf(Object)
-  fullName.vb: System.Collections.IList.IndexOf(Object)
-  name.vb: IndexOf(Object)
-  spec.csharp:
-  - uid: System.Collections.IList.IndexOf(System.Object)
-    name: IndexOf
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.ilist.indexof
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Collections.IList.IndexOf(System.Object)
-    name: IndexOf
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.ilist.indexof
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Collections.IList.Insert(System.Int32,System.Object)
-  commentId: M:System.Collections.IList.Insert(System.Int32,System.Object)
-  parent: System.Collections.IList
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.ilist.insert
-  name: Insert(int, object)
-  nameWithType: IList.Insert(int, object)
-  fullName: System.Collections.IList.Insert(int, object)
-  nameWithType.vb: IList.Insert(Integer, Object)
-  fullName.vb: System.Collections.IList.Insert(Integer, Object)
-  name.vb: Insert(Integer, Object)
-  spec.csharp:
-  - uid: System.Collections.IList.Insert(System.Int32,System.Object)
-    name: Insert
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.ilist.insert
-  - name: (
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Collections.IList.Insert(System.Int32,System.Object)
-    name: Insert
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.ilist.insert
-  - name: (
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Collections.IList.Remove(System.Object)
-  commentId: M:System.Collections.IList.Remove(System.Object)
-  parent: System.Collections.IList
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.ilist.remove
-  name: Remove(object)
-  nameWithType: IList.Remove(object)
-  fullName: System.Collections.IList.Remove(object)
-  nameWithType.vb: IList.Remove(Object)
-  fullName.vb: System.Collections.IList.Remove(Object)
-  name.vb: Remove(Object)
-  spec.csharp:
-  - uid: System.Collections.IList.Remove(System.Object)
-    name: Remove
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.ilist.remove
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Collections.IList.Remove(System.Object)
-    name: Remove
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.ilist.remove
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Collections.IList.RemoveAt(System.Int32)
-  commentId: M:System.Collections.IList.RemoveAt(System.Int32)
-  parent: System.Collections.IList
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.ilist.removeat
-  name: RemoveAt(int)
-  nameWithType: IList.RemoveAt(int)
-  fullName: System.Collections.IList.RemoveAt(int)
-  nameWithType.vb: IList.RemoveAt(Integer)
-  fullName.vb: System.Collections.IList.RemoveAt(Integer)
-  name.vb: RemoveAt(Integer)
-  spec.csharp:
-  - uid: System.Collections.IList.RemoveAt(System.Int32)
-    name: RemoveAt
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.ilist.removeat
-  - name: (
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: )
-  spec.vb:
-  - uid: System.Collections.IList.RemoveAt(System.Int32)
-    name: RemoveAt
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.ilist.removeat
-  - name: (
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: )
-- uid: System.Collections.IList.Item(System.Int32)
-  commentId: P:System.Collections.IList.Item(System.Int32)
-  parent: System.Collections.IList
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: this[int]
-  nameWithType: IList.this[int]
-  fullName: System.Collections.IList.this[int]
-  nameWithType.vb: IList.this[](Integer)
-  fullName.vb: System.Collections.IList.this[](Integer)
-  name.vb: this[](Integer)
-  spec.csharp:
-  - name: this
-  - name: '['
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ']'
-  spec.vb:
-  - uid: System.Collections.IList.Item(System.Int32)
-    name: this[]
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.ilist.item
-  - name: (
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: )
-- uid: System.Collections.IList.IsReadOnly
-  commentId: P:System.Collections.IList.IsReadOnly
-  parent: System.Collections.IList
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.ilist.isreadonly
-  name: IsReadOnly
-  nameWithType: IList.IsReadOnly
-  fullName: System.Collections.IList.IsReadOnly
-- uid: System.Collections.IList.IsFixedSize
-  commentId: P:System.Collections.IList.IsFixedSize
-  parent: System.Collections.IList
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.ilist.isfixedsize
-  name: IsFixedSize
-  nameWithType: IList.IsFixedSize
-  fullName: System.Collections.IList.IsFixedSize
-- uid: System.Collections.ICollection.CopyTo(System.Array,System.Int32)
-  commentId: M:System.Collections.ICollection.CopyTo(System.Array,System.Int32)
-  parent: System.Collections.ICollection
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.icollection.copyto
-  name: CopyTo(Array, int)
-  nameWithType: ICollection.CopyTo(Array, int)
-  fullName: System.Collections.ICollection.CopyTo(System.Array, int)
-  nameWithType.vb: ICollection.CopyTo(Array, Integer)
-  fullName.vb: System.Collections.ICollection.CopyTo(System.Array, Integer)
-  name.vb: CopyTo(Array, Integer)
-  spec.csharp:
-  - uid: System.Collections.ICollection.CopyTo(System.Array,System.Int32)
-    name: CopyTo
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.icollection.copyto
-  - name: (
-  - uid: System.Array
-    name: Array
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.array
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: )
-  spec.vb:
-  - uid: System.Collections.ICollection.CopyTo(System.Array,System.Int32)
-    name: CopyTo
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.icollection.copyto
-  - name: (
-  - uid: System.Array
-    name: Array
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.array
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: )
-- uid: System.Collections.ICollection.Count
-  commentId: P:System.Collections.ICollection.Count
-  parent: System.Collections.ICollection
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.icollection.count
-  name: Count
-  nameWithType: ICollection.Count
-  fullName: System.Collections.ICollection.Count
-- uid: System.Collections.ICollection.SyncRoot
-  commentId: P:System.Collections.ICollection.SyncRoot
-  parent: System.Collections.ICollection
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.icollection.syncroot
-  name: SyncRoot
-  nameWithType: ICollection.SyncRoot
-  fullName: System.Collections.ICollection.SyncRoot
-- uid: System.Collections.ICollection.IsSynchronized
-  commentId: P:System.Collections.ICollection.IsSynchronized
-  parent: System.Collections.ICollection
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.icollection.issynchronized
-  name: IsSynchronized
-  nameWithType: ICollection.IsSynchronized
-  fullName: System.Collections.ICollection.IsSynchronized
-- uid: System.Collections.IEnumerable.GetEnumerator
-  commentId: M:System.Collections.IEnumerable.GetEnumerator
-  parent: System.Collections.IEnumerable
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerable.getenumerator
-  name: GetEnumerator()
-  nameWithType: IEnumerable.GetEnumerator()
-  fullName: System.Collections.IEnumerable.GetEnumerator()
-  spec.csharp:
-  - uid: System.Collections.IEnumerable.GetEnumerator
-    name: GetEnumerator
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerable.getenumerator
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Collections.IEnumerable.GetEnumerator
-    name: GetEnumerator
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerable.getenumerator
-  - name: (
-  - name: )
 - uid: SuperOffice.Data.ISoCollection.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<ISoCollection, To>(ISoCollection)
-  nameWithType: EnumUtil.MapEnums<ISoCollection, To>(ISoCollection)
-  fullName: EnumUtil.MapEnums<SuperOffice.Data.ISoCollection, To>(SuperOffice.Data.ISoCollection)
-  nameWithType.vb: EnumUtil.MapEnums(Of ISoCollection, To)(ISoCollection)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.ISoCollection, To)(SuperOffice.Data.ISoCollection)
-  name.vb: MapEnums(Of ISoCollection, To)(ISoCollection)
+  name: MapEnums<ISoCollection, To>()
+  nameWithType: EnumUtil.MapEnums<ISoCollection, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.ISoCollection, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ISoCollection, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.ISoCollection, To)()
+  name.vb: MapEnums(Of ISoCollection, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.ISoCollection)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ISoCollection, To>
+    nameWithType: EnumUtil.MapEnums<ISoCollection, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.ISoCollection, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.ISoCollection
-    name: ISoCollection
-    isExternal: true
-    href: SuperOffice.Data.ISoCollection.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.ISoCollection
-    name: ISoCollection
-    isExternal: true
-    href: SuperOffice.Data.ISoCollection.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.ISoCollection)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ISoCollection, To)
+    nameWithType: EnumUtil.MapEnums(Of ISoCollection, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.ISoCollection, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.ISoCollection
-    name: ISoCollection
-    isExternal: true
-    href: SuperOffice.Data.ISoCollection.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.ISoCollection
-    name: ISoCollection
-    isExternal: true
-    href: SuperOffice.Data.ISoCollection.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.ISoCollection.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<ISoCollection, To>(ISoCollection)
-  nameWithType: Converters.MapEnums<ISoCollection, To>(ISoCollection)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ISoCollection, To>(SuperOffice.Data.ISoCollection)
-  nameWithType.vb: Converters.MapEnums(Of ISoCollection, To)(ISoCollection)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ISoCollection, To)(SuperOffice.Data.ISoCollection)
-  name.vb: MapEnums(Of ISoCollection, To)(ISoCollection)
+  name: MapEnums<ISoCollection, To>()
+  nameWithType: Converters.MapEnums<ISoCollection, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ISoCollection, To>()
+  nameWithType.vb: Converters.MapEnums(Of ISoCollection, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ISoCollection, To)()
+  name.vb: MapEnums(Of ISoCollection, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.ISoCollection)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ISoCollection, To>
+    nameWithType: Converters.MapEnums<ISoCollection, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ISoCollection, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.ISoCollection
-    name: ISoCollection
-    isExternal: true
-    href: SuperOffice.Data.ISoCollection.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.ISoCollection
-    name: ISoCollection
-    isExternal: true
-    href: SuperOffice.Data.ISoCollection.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.ISoCollection)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ISoCollection, To)
+    nameWithType: Converters.MapEnums(Of ISoCollection, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ISoCollection, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.ISoCollection
-    name: ISoCollection
-    isExternal: true
-    href: SuperOffice.Data.ISoCollection.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.ISoCollection
-    name: ISoCollection
-    isExternal: true
-    href: SuperOffice.Data.ISoCollection.html
-  - name: )
-- uid: System.Collections.IList
-  commentId: T:System.Collections.IList
-  parent: System.Collections
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.ilist
-  name: IList
-  nameWithType: IList
-  fullName: System.Collections.IList
-- uid: System.Collections.ICollection
-  commentId: T:System.Collections.ICollection
-  parent: System.Collections
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.icollection
-  name: ICollection
-  nameWithType: ICollection
-  fullName: System.Collections.ICollection
-- uid: System.Collections.IEnumerable
-  commentId: T:System.Collections.IEnumerable
-  parent: System.Collections
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerable
-  name: IEnumerable
-  nameWithType: IEnumerable
-  fullName: System.Collections.IEnumerable
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -655,45 +205,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -702,110 +250,50 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: System.Collections
-  commentId: N:System.Collections
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Collections
-  nameWithType: System.Collections
-  fullName: System.Collections
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.Data.ISoCollection.AddNew*
   commentId: Overload:SuperOffice.Data.ISoCollection.AddNew
   isExternal: true
-  href: SuperOffice.Data.ISoCollection.html#SuperOffice_Data_ISoCollection_AddNew
   name: AddNew
   nameWithType: ISoCollection.AddNew
   fullName: SuperOffice.Data.ISoCollection.AddNew
@@ -813,14 +301,12 @@ references:
   commentId: T:SuperOffice.Data.ISoItem
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ISoItem.html
   name: ISoItem
   nameWithType: ISoItem
   fullName: SuperOffice.Data.ISoItem
 - uid: SuperOffice.Data.ISoCollection.Add*
   commentId: Overload:SuperOffice.Data.ISoCollection.Add
   isExternal: true
-  href: SuperOffice.Data.ISoCollection.html#SuperOffice_Data_ISoCollection_Add_SuperOffice_Data_ISoItem_
   name: Add
   nameWithType: ISoCollection.Add
   fullName: SuperOffice.Data.ISoCollection.Add
@@ -828,24 +314,18 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.Data.ISoCollection.IsDirty*
   commentId: Overload:SuperOffice.Data.ISoCollection.IsDirty
   isExternal: true
-  href: SuperOffice.Data.ISoCollection.html#SuperOffice_Data_ISoCollection_IsDirty
   name: IsDirty
   nameWithType: ISoCollection.IsDirty
   fullName: SuperOffice.Data.ISoCollection.IsDirty
@@ -853,10 +333,6 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

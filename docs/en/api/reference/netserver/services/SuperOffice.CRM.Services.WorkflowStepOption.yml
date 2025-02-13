@@ -22,41 +22,20 @@ items:
   nameWithType: WorkflowStepOption
   fullName: SuperOffice.CRM.Services.WorkflowStepOption
   type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Workflow step option
-
-    <p></p>
-
-    Carrier object for WorkflowStepOption.
-
-    Services for the WorkflowStepOption Carrier is available from the <xref href="SuperOffice.CRM.Services.IWorkflowAgent?text=Workflow+Agent" data-throw-if-not-resolved="false"></xref>.
+  summary: "\nWorkflow step option\n<p></p>\nCarrier object for WorkflowStepOption.\nServices for the WorkflowStepOption Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IWorkflowAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   example:
-  - >-
-    Get WorkflowStepOption 123 using the agent:
-
-    <pre><code class="lang-csharp">using SuperOffice;
-
-    using SuperOffice.CRM.Services;
-
-
-    using (SoSession mySession = SoSession.Authenticate("user", "pass"))
-
-    {
-       var agent = new WorkflowAgent();
-       var workflowStepOption = agent.GetWorkflowStepOption( 123 );
-    }</code></pre>
+  - "\nGet WorkflowStepOption 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new WorkflowAgent();\n    var workflowStepOption = agent.GetWorkflowStepOption( 123 );\n }</code></pre>\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public class WorkflowStepOption : Carrier
+    content: 'public class WorkflowStepOption : Carrier'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
-
-      Public Class WorkflowStepOption Inherits Carrier
+      Public Class WorkflowStepOption
+          Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.WorkflowAgent
     commentId: T:SuperOffice.CRM.Services.WorkflowAgent
@@ -64,14 +43,12 @@ items:
     commentId: T:SuperOffice.CRM.Services.IWorkflowAgent
   inheritance:
   - System.Object
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.WorkflowStepOption.#ctor
   commentId: M:SuperOffice.CRM.Services.WorkflowStepOption.#ctor
   id: '#ctor'
@@ -83,18 +60,21 @@ items:
   nameWithType: WorkflowStepOption.WorkflowStepOption()
   fullName: SuperOffice.CRM.Services.WorkflowStepOption.WorkflowStepOption()
   type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Default constructor
-  example: []
+  summary: "\nDefault constructor\n"
   syntax:
     content: public WorkflowStepOption()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.WorkflowStepOption.#ctor*
-  nameWithType.vb: WorkflowStepOption.New()
-  fullName.vb: SuperOffice.CRM.Services.WorkflowStepOption.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.WorkflowStepOption.ToString
   commentId: M:SuperOffice.CRM.Services.WorkflowStepOption.ToString
   id: ToString
@@ -106,18 +86,26 @@ items:
   nameWithType: WorkflowStepOption.ToString()
   fullName: SuperOffice.CRM.Services.WorkflowStepOption.ToString()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the carrier contents as a formatted string.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string.\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString() As String
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.CRM.Services.WorkflowStepOption.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Services.WorkflowStepOption.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.WorkflowStepOption.ToString(System.String)
   id: ToString(System.String)
@@ -125,18 +113,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(string)
-  nameWithType: WorkflowStepOption.ToString(string)
-  fullName: SuperOffice.CRM.Services.WorkflowStepOption.ToString(string)
+  name: ToString(String)
+  nameWithType: WorkflowStepOption.ToString(String)
+  fullName: SuperOffice.CRM.Services.WorkflowStepOption.ToString(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Returns the carrier contents as a formatted string, useful for debugging.
-
-    Each line in the output is prefixed with the input value.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -148,9 +135,10 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.WorkflowStepOption.ToString*
-  nameWithType.vb: WorkflowStepOption.ToString(String)
-  fullName.vb: SuperOffice.CRM.Services.WorkflowStepOption.ToString(String)
-  name.vb: ToString(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.WorkflowStepOption.WorkflowStepOptionId
   commentId: P:SuperOffice.CRM.Services.WorkflowStepOption.WorkflowStepOptionId
   id: WorkflowStepOptionId
@@ -162,28 +150,28 @@ items:
   nameWithType: WorkflowStepOption.WorkflowStepOptionId
   fullName: SuperOffice.CRM.Services.WorkflowStepOption.WorkflowStepOptionId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Primary key
-  example: []
+  summary: "\nPrimary key \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int WorkflowStepOptionId { get; set; }
+    content: public virtual int WorkflowStepOptionId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property WorkflowStepOptionId As Integer
+    content.vb: Public Overridable Property WorkflowStepOptionId As Integer
   overload: SuperOffice.CRM.Services.WorkflowStepOption.WorkflowStepOptionId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.WorkflowStepOption.WorkflowStepId
   commentId: P:SuperOffice.CRM.Services.WorkflowStepOption.WorkflowStepId
   id: WorkflowStepId
@@ -195,28 +183,28 @@ items:
   nameWithType: WorkflowStepOption.WorkflowStepId
   fullName: SuperOffice.CRM.Services.WorkflowStepOption.WorkflowStepId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The workflow step this instance belongs to
-  example: []
+  summary: "\nThe workflow step this instance belongs to \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int WorkflowStepId { get; set; }
+    content: public virtual int WorkflowStepId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property WorkflowStepId As Integer
+    content.vb: Public Overridable Property WorkflowStepId As Integer
   overload: SuperOffice.CRM.Services.WorkflowStepOption.WorkflowStepId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.WorkflowStepOption.WorkflowId
   commentId: P:SuperOffice.CRM.Services.WorkflowStepOption.WorkflowId
   id: WorkflowId
@@ -228,28 +216,28 @@ items:
   nameWithType: WorkflowStepOption.WorkflowId
   fullName: SuperOffice.CRM.Services.WorkflowStepOption.WorkflowId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The flow this instance belongs to
-  example: []
+  summary: "\nThe flow this instance belongs to \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int WorkflowId { get; set; }
+    content: public virtual int WorkflowId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property WorkflowId As Integer
+    content.vb: Public Overridable Property WorkflowId As Integer
   overload: SuperOffice.CRM.Services.WorkflowStepOption.WorkflowId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.WorkflowStepOption.Key
   commentId: P:SuperOffice.CRM.Services.WorkflowStepOption.Key
   id: Key
@@ -261,28 +249,28 @@ items:
   nameWithType: WorkflowStepOption.Key
   fullName: SuperOffice.CRM.Services.WorkflowStepOption.Key
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: A key used to refer to this option
-  example: []
+  summary: "\nA key used to refer to this option \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string Key { get; set; }
+    content: public virtual string Key { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Key As String
+    content.vb: Public Overridable Property Key As String
   overload: SuperOffice.CRM.Services.WorkflowStepOption.Key*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.WorkflowStepOption.Name
   commentId: P:SuperOffice.CRM.Services.WorkflowStepOption.Name
   id: Name
@@ -294,28 +282,28 @@ items:
   nameWithType: WorkflowStepOption.Name
   fullName: SuperOffice.CRM.Services.WorkflowStepOption.Name
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The name of this option
-  example: []
+  summary: "\nThe name of this option \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string Name { get; set; }
+    content: public virtual string Name { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Name As String
+    content.vb: Public Overridable Property Name As String
   overload: SuperOffice.CRM.Services.WorkflowStepOption.Name*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.WorkflowStepOption.Rank
   commentId: P:SuperOffice.CRM.Services.WorkflowStepOption.Rank
   id: Rank
@@ -327,28 +315,28 @@ items:
   nameWithType: WorkflowStepOption.Rank
   fullName: SuperOffice.CRM.Services.WorkflowStepOption.Rank
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The rank of this option
-  example: []
+  summary: "\nThe rank of this option \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int Rank { get; set; }
+    content: public virtual int Rank { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Rank As Integer
+    content.vb: Public Overridable Property Rank As Integer
   overload: SuperOffice.CRM.Services.WorkflowStepOption.Rank*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.WorkflowStepOption.Steps
   commentId: P:SuperOffice.CRM.Services.WorkflowStepOption.Steps
   id: Steps
@@ -360,33 +348,38 @@ items:
   nameWithType: WorkflowStepOption.Steps
   fullName: SuperOffice.CRM.Services.WorkflowStepOption.Steps
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The steps to execute if this option/path is selected
-  example: []
+  summary: "\nThe steps to execute if this option/path is selected \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual WorkflowStepBase[] Steps { get; set; }
+    content: public virtual WorkflowStepBase[] Steps { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.WorkflowStepBase[]
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Steps As WorkflowStepBase()
+    content.vb: Public Overridable Property Steps As WorkflowStepBase()
   overload: SuperOffice.CRM.Services.WorkflowStepOption.Steps*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
 - uid: SuperOffice.CRM.Services.WorkflowAgent
   commentId: T:SuperOffice.CRM.Services.WorkflowAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.WorkflowAgent.html
   name: WorkflowAgent
   nameWithType: WorkflowAgent
   fullName: SuperOffice.CRM.Services.WorkflowAgent
@@ -394,79 +387,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.IWorkflowAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.IWorkflowAgent.html
   name: IWorkflowAgent
   nameWithType: IWorkflowAgent
   fullName: SuperOffice.CRM.Services.IWorkflowAgent
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.WorkflowStepOption.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.WorkflowStepOption.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.WorkflowStepOption.html#SuperOffice_CRM_Services_WorkflowStepOption__ctor
   name: WorkflowStepOption
   nameWithType: WorkflowStepOption.WorkflowStepOption
   fullName: SuperOffice.CRM.Services.WorkflowStepOption.WorkflowStepOption
-  nameWithType.vb: WorkflowStepOption.New
-  fullName.vb: SuperOffice.CRM.Services.WorkflowStepOption.New
-  name.vb: New
 - uid: SuperOffice.CRM.Services.WorkflowStepOption.ToString*
   commentId: Overload:SuperOffice.CRM.Services.WorkflowStepOption.ToString
   isExternal: true
-  href: SuperOffice.CRM.Services.WorkflowStepOption.html#SuperOffice_CRM_Services_WorkflowStepOption_ToString
   name: ToString
   nameWithType: WorkflowStepOption.ToString
   fullName: SuperOffice.CRM.Services.WorkflowStepOption.ToString
@@ -474,17 +406,18 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.WorkflowStepOption.WorkflowStepOptionId*
   commentId: Overload:SuperOffice.CRM.Services.WorkflowStepOption.WorkflowStepOptionId
   isExternal: true
-  href: SuperOffice.CRM.Services.WorkflowStepOption.html#SuperOffice_CRM_Services_WorkflowStepOption_WorkflowStepOptionId
   name: WorkflowStepOptionId
   nameWithType: WorkflowStepOption.WorkflowStepOptionId
   fullName: SuperOffice.CRM.Services.WorkflowStepOption.WorkflowStepOptionId
@@ -492,58 +425,47 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Services.WorkflowStepOption.WorkflowStepId*
   commentId: Overload:SuperOffice.CRM.Services.WorkflowStepOption.WorkflowStepId
   isExternal: true
-  href: SuperOffice.CRM.Services.WorkflowStepOption.html#SuperOffice_CRM_Services_WorkflowStepOption_WorkflowStepId
   name: WorkflowStepId
   nameWithType: WorkflowStepOption.WorkflowStepId
   fullName: SuperOffice.CRM.Services.WorkflowStepOption.WorkflowStepId
 - uid: SuperOffice.CRM.Services.WorkflowStepOption.WorkflowId*
   commentId: Overload:SuperOffice.CRM.Services.WorkflowStepOption.WorkflowId
   isExternal: true
-  href: SuperOffice.CRM.Services.WorkflowStepOption.html#SuperOffice_CRM_Services_WorkflowStepOption_WorkflowId
   name: WorkflowId
   nameWithType: WorkflowStepOption.WorkflowId
   fullName: SuperOffice.CRM.Services.WorkflowStepOption.WorkflowId
 - uid: SuperOffice.CRM.Services.WorkflowStepOption.Key*
   commentId: Overload:SuperOffice.CRM.Services.WorkflowStepOption.Key
   isExternal: true
-  href: SuperOffice.CRM.Services.WorkflowStepOption.html#SuperOffice_CRM_Services_WorkflowStepOption_Key
   name: Key
   nameWithType: WorkflowStepOption.Key
   fullName: SuperOffice.CRM.Services.WorkflowStepOption.Key
 - uid: SuperOffice.CRM.Services.WorkflowStepOption.Name*
   commentId: Overload:SuperOffice.CRM.Services.WorkflowStepOption.Name
   isExternal: true
-  href: SuperOffice.CRM.Services.WorkflowStepOption.html#SuperOffice_CRM_Services_WorkflowStepOption_Name
   name: Name
   nameWithType: WorkflowStepOption.Name
   fullName: SuperOffice.CRM.Services.WorkflowStepOption.Name
 - uid: SuperOffice.CRM.Services.WorkflowStepOption.Rank*
   commentId: Overload:SuperOffice.CRM.Services.WorkflowStepOption.Rank
   isExternal: true
-  href: SuperOffice.CRM.Services.WorkflowStepOption.html#SuperOffice_CRM_Services_WorkflowStepOption_Rank
   name: Rank
   nameWithType: WorkflowStepOption.Rank
   fullName: SuperOffice.CRM.Services.WorkflowStepOption.Rank
 - uid: SuperOffice.CRM.Services.WorkflowStepOption.Steps*
   commentId: Overload:SuperOffice.CRM.Services.WorkflowStepOption.Steps
   isExternal: true
-  href: SuperOffice.CRM.Services.WorkflowStepOption.html#SuperOffice_CRM_Services_WorkflowStepOption_Steps
   name: Steps
   nameWithType: WorkflowStepOption.Steps
   fullName: SuperOffice.CRM.Services.WorkflowStepOption.Steps
 - uid: SuperOffice.CRM.Services.WorkflowStepBase[]
   isExternal: true
-  href: SuperOffice.CRM.Services.WorkflowStepBase.html
   name: WorkflowStepBase[]
   nameWithType: WorkflowStepBase[]
   fullName: SuperOffice.CRM.Services.WorkflowStepBase[]
@@ -553,14 +475,18 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.WorkflowStepBase
     name: WorkflowStepBase
+    nameWithType: WorkflowStepBase
+    fullName: SuperOffice.CRM.Services.WorkflowStepBase
     isExternal: true
-    href: SuperOffice.CRM.Services.WorkflowStepBase.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.Services.WorkflowStepBase
     name: WorkflowStepBase
+    nameWithType: WorkflowStepBase
+    fullName: SuperOffice.CRM.Services.WorkflowStepBase
     isExternal: true
-    href: SuperOffice.CRM.Services.WorkflowStepBase.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()

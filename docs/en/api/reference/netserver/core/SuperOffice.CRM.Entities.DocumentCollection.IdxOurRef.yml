@@ -15,14 +15,19 @@ items:
   nameWithType: DocumentCollection.IdxOurRef
   fullName: SuperOffice.CRM.Entities.DocumentCollection.IdxOurRef
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: Class representing index 'IDXDocOur_ref'.
-  example: []
+  summary: "\nClass representing index &apos;IDXDocOur_ref&apos;.\n"
   syntax:
-    content: 'public sealed class DocumentCollection.IdxOurRef : DocumentCollection.DocumentCollectionIdx<DocumentRows.IdxOurRef>, ISentryIgnorable'
-    content.vb: Public NotInheritable Class DocumentCollection.IdxOurRef Inherits DocumentCollection.DocumentCollectionIdx(Of DocumentRows.IdxOurRef) Implements ISentryIgnorable
+    content: 'public sealed class IdxOurRef : DocumentCollection.DocumentCollectionIdx<DocumentRows.IdxOurRef>, ISentryIgnorable'
+    content.vb: >-
+      Public NotInheritable Class IdxOurRef
+          Inherits DocumentCollection.DocumentCollectionIdx(Of DocumentRows.IdxOurRef)
+          Implements ISentryIgnorable
   inheritance:
   - System.Object
   - SuperOffice.CRM.Entities.EntityIdxBase
@@ -32,16 +37,17 @@ items:
   - SuperOffice.CRM.Entities.DocumentCollection.DocumentCollectionIdx{SuperOffice.CRM.Rows.DocumentRows.IdxOurRef}
   implements:
   - SuperOffice.CRM.Security.ISentryIgnorable
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
   extensionMethods:
   - SuperOffice.CRM.Entities.DocumentCollection.IdxOurRef.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Entities.DocumentCollection.IdxOurRef.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
 - uid: SuperOffice.CRM.Entities.DocumentCollection.IdxOurRef.#ctor(System.String)
   commentId: M:SuperOffice.CRM.Entities.DocumentCollection.IdxOurRef.#ctor(System.String)
   id: '#ctor(System.String)'
@@ -49,18 +55,17 @@ items:
   langs:
   - csharp
   - vb
-  name: IdxOurRef(string)
-  nameWithType: DocumentCollection.IdxOurRef.IdxOurRef(string)
-  fullName: SuperOffice.CRM.Entities.DocumentCollection.IdxOurRef.IdxOurRef(string)
+  name: IdxOurRef(String)
+  nameWithType: DocumentCollection.IdxOurRef.IdxOurRef(String)
+  fullName: SuperOffice.CRM.Entities.DocumentCollection.IdxOurRef.IdxOurRef(System.String)
   type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: >-
-    Constructor for class DocumentCollection.IdxOurRef
-
-    This class represents index 'IDXDocOur_ref'.
-  example: []
+  summary: "\nConstructor for class DocumentCollection.IdxOurRef\nThis class represents index &apos;IDXDocOur_ref&apos;.\n"
   syntax:
     content: public IdxOurRef(string ourRef)
     parameters:
@@ -69,9 +74,10 @@ items:
       description: Our reference, searchable field from freetext search
     content.vb: Public Sub New(ourRef As String)
   overload: SuperOffice.CRM.Entities.DocumentCollection.IdxOurRef.#ctor*
-  nameWithType.vb: DocumentCollection.IdxOurRef.New(String)
-  fullName.vb: SuperOffice.CRM.Entities.DocumentCollection.IdxOurRef.New(String)
-  name.vb: New(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Entities.DocumentCollection.IdxOurRef.#ctor(System.String,SuperOffice.Data.StringSearchType)
   commentId: M:SuperOffice.CRM.Entities.DocumentCollection.IdxOurRef.#ctor(System.String,SuperOffice.Data.StringSearchType)
   id: '#ctor(System.String,SuperOffice.Data.StringSearchType)'
@@ -79,18 +85,17 @@ items:
   langs:
   - csharp
   - vb
-  name: IdxOurRef(string, StringSearchType)
-  nameWithType: DocumentCollection.IdxOurRef.IdxOurRef(string, StringSearchType)
-  fullName: SuperOffice.CRM.Entities.DocumentCollection.IdxOurRef.IdxOurRef(string, SuperOffice.Data.StringSearchType)
+  name: IdxOurRef(String, StringSearchType)
+  nameWithType: DocumentCollection.IdxOurRef.IdxOurRef(String, StringSearchType)
+  fullName: SuperOffice.CRM.Entities.DocumentCollection.IdxOurRef.IdxOurRef(System.String, SuperOffice.Data.StringSearchType)
   type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: >-
-    Constructor for class DocumentCollection.IdxOurRef
-
-    This class represents index 'IDXDocOur_ref'.
-  example: []
+  summary: "\nConstructor for class DocumentCollection.IdxOurRef\nThis class represents index &apos;IDXDocOur_ref&apos;.\n"
   syntax:
     content: public IdxOurRef(string ourRef, StringSearchType ourRefSearchType)
     parameters:
@@ -102,9 +107,10 @@ items:
       description: How to search for ourRef
     content.vb: Public Sub New(ourRef As String, ourRefSearchType As StringSearchType)
   overload: SuperOffice.CRM.Entities.DocumentCollection.IdxOurRef.#ctor*
-  nameWithType.vb: DocumentCollection.IdxOurRef.New(String, StringSearchType)
-  fullName.vb: SuperOffice.CRM.Entities.DocumentCollection.IdxOurRef.New(String, SuperOffice.Data.StringSearchType)
-  name.vb: New(String, StringSearchType)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Entities.DocumentCollection.IdxOurRef.OurRef
   commentId: P:SuperOffice.CRM.Entities.DocumentCollection.IdxOurRef.OurRef
   id: OurRef
@@ -116,11 +122,13 @@ items:
   nameWithType: DocumentCollection.IdxOurRef.OurRef
   fullName: SuperOffice.CRM.Entities.DocumentCollection.IdxOurRef.OurRef
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: Our reference, searchable field from freetext search
-  example: []
+  summary: "\nOur reference, searchable field from freetext search\n"
   syntax:
     content: public string OurRef { get; set; }
     parameters: []
@@ -128,60 +136,30 @@ items:
       type: System.String
     content.vb: Public Property OurRef As String
   overload: SuperOffice.CRM.Entities.DocumentCollection.IdxOurRef.OurRef*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 references:
 - uid: SuperOffice.CRM.Entities
   commentId: N:SuperOffice.CRM.Entities
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Entities
   nameWithType: SuperOffice.CRM.Entities
   fullName: SuperOffice.CRM.Entities
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Entities
-    name: Entities
-    isExternal: true
-    href: SuperOffice.CRM.Entities.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Entities
-    name: Entities
-    isExternal: true
-    href: SuperOffice.CRM.Entities.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.Entities.EntityIdxBase
   commentId: T:SuperOffice.CRM.Entities.EntityIdxBase
   parent: SuperOffice.CRM.Entities
   isExternal: true
-  href: SuperOffice.CRM.Entities.EntityIdxBase.html
   name: EntityIdxBase
   nameWithType: EntityIdxBase
   fullName: SuperOffice.CRM.Entities.EntityIdxBase
@@ -189,7 +167,6 @@ references:
   commentId: T:SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.DocumentTableInfo,SuperOffice.CRM.Rows.DocumentRow.DocumentRowIdxBase}
   parent: SuperOffice.CRM.Entities
   definition: SuperOffice.CRM.Entities.EntityIdxBase`2
-  href: SuperOffice.CRM.Entities.EntityIdxBase-2.html
   name: EntityIdxBase<DocumentTableInfo, DocumentRow.DocumentRowIdxBase>
   nameWithType: EntityIdxBase<DocumentTableInfo, DocumentRow.DocumentRowIdxBase>
   fullName: SuperOffice.CRM.Entities.EntityIdxBase<SuperOffice.CRM.Data.DocumentTableInfo, SuperOffice.CRM.Rows.DocumentRow.DocumentRowIdxBase>
@@ -199,110 +176,71 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Entities.EntityIdxBase`2
     name: EntityIdxBase
+    nameWithType: EntityIdxBase
+    fullName: SuperOffice.CRM.Entities.EntityIdxBase
     isExternal: true
-    href: SuperOffice.CRM.Entities.EntityIdxBase-2.html
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Data.DocumentTableInfo
     name: DocumentTableInfo
+    nameWithType: DocumentTableInfo
+    fullName: SuperOffice.CRM.Data.DocumentTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.DocumentTableInfo.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.DocumentRow
-    name: DocumentRow
-    isExternal: true
-    href: SuperOffice.CRM.Rows.DocumentRow.html
-  - name: .
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.CRM.Rows.DocumentRow.DocumentRowIdxBase
-    name: DocumentRowIdxBase
+    name: DocumentRow.DocumentRowIdxBase
+    nameWithType: DocumentRow.DocumentRowIdxBase
+    fullName: SuperOffice.CRM.Rows.DocumentRow.DocumentRowIdxBase
     isExternal: true
-    href: SuperOffice.CRM.Rows.DocumentRow.DocumentRowIdxBase.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.CRM.Entities.EntityIdxBase`2
     name: EntityIdxBase
+    nameWithType: EntityIdxBase
+    fullName: SuperOffice.CRM.Entities.EntityIdxBase
     isExternal: true
-    href: SuperOffice.CRM.Entities.EntityIdxBase-2.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Data.DocumentTableInfo
     name: DocumentTableInfo
+    nameWithType: DocumentTableInfo
+    fullName: SuperOffice.CRM.Data.DocumentTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.DocumentTableInfo.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.DocumentRow
-    name: DocumentRow
-    isExternal: true
-    href: SuperOffice.CRM.Rows.DocumentRow.html
-  - name: .
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.CRM.Rows.DocumentRow.DocumentRowIdxBase
-    name: DocumentRowIdxBase
+    name: DocumentRow.DocumentRowIdxBase
+    nameWithType: DocumentRow.DocumentRowIdxBase
+    fullName: SuperOffice.CRM.Rows.DocumentRow.DocumentRowIdxBase
     isExternal: true
-    href: SuperOffice.CRM.Rows.DocumentRow.DocumentRowIdxBase.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Entities.Document.DocumentIdxBase
   commentId: T:SuperOffice.CRM.Entities.Document.DocumentIdxBase
   parent: SuperOffice.CRM.Entities
   isExternal: true
-  href: SuperOffice.CRM.Entities.Document.html
   name: Document.DocumentIdxBase
   nameWithType: Document.DocumentIdxBase
   fullName: SuperOffice.CRM.Entities.Document.DocumentIdxBase
-  spec.csharp:
-  - uid: SuperOffice.CRM.Entities.Document
-    name: Document
-    isExternal: true
-    href: SuperOffice.CRM.Entities.Document.html
-  - name: .
-  - uid: SuperOffice.CRM.Entities.Document.DocumentIdxBase
-    name: DocumentIdxBase
-    isExternal: true
-    href: SuperOffice.CRM.Entities.Document.DocumentIdxBase.html
-  spec.vb:
-  - uid: SuperOffice.CRM.Entities.Document
-    name: Document
-    isExternal: true
-    href: SuperOffice.CRM.Entities.Document.html
-  - name: .
-  - uid: SuperOffice.CRM.Entities.Document.DocumentIdxBase
-    name: DocumentIdxBase
-    isExternal: true
-    href: SuperOffice.CRM.Entities.Document.DocumentIdxBase.html
 - uid: SuperOffice.CRM.Entities.DocumentCollection.DocumentCollectionIdx
   commentId: T:SuperOffice.CRM.Entities.DocumentCollection.DocumentCollectionIdx
   parent: SuperOffice.CRM.Entities
   isExternal: true
-  href: SuperOffice.CRM.Entities.DocumentCollection.html
   name: DocumentCollection.DocumentCollectionIdx
   nameWithType: DocumentCollection.DocumentCollectionIdx
   fullName: SuperOffice.CRM.Entities.DocumentCollection.DocumentCollectionIdx
-  spec.csharp:
-  - uid: SuperOffice.CRM.Entities.DocumentCollection
-    name: DocumentCollection
-    isExternal: true
-    href: SuperOffice.CRM.Entities.DocumentCollection.html
-  - name: .
-  - uid: SuperOffice.CRM.Entities.DocumentCollection.DocumentCollectionIdx
-    name: DocumentCollectionIdx
-    isExternal: true
-    href: SuperOffice.CRM.Entities.DocumentCollection.DocumentCollectionIdx.html
-  spec.vb:
-  - uid: SuperOffice.CRM.Entities.DocumentCollection
-    name: DocumentCollection
-    isExternal: true
-    href: SuperOffice.CRM.Entities.DocumentCollection.html
-  - name: .
-  - uid: SuperOffice.CRM.Entities.DocumentCollection.DocumentCollectionIdx
-    name: DocumentCollectionIdx
-    isExternal: true
-    href: SuperOffice.CRM.Entities.DocumentCollection.DocumentCollectionIdx.html
 - uid: SuperOffice.CRM.Entities.DocumentCollection.DocumentCollectionIdx{SuperOffice.CRM.Rows.DocumentRows.IdxOurRef}
   commentId: T:SuperOffice.CRM.Entities.DocumentCollection.DocumentCollectionIdx{SuperOffice.CRM.Rows.DocumentRows.IdxOurRef}
   parent: SuperOffice.CRM.Entities
   definition: SuperOffice.CRM.Entities.DocumentCollection.DocumentCollectionIdx`1
-  href: SuperOffice.CRM.Entities.DocumentCollection.html
   name: DocumentCollection.DocumentCollectionIdx<DocumentRows.IdxOurRef>
   nameWithType: DocumentCollection.DocumentCollectionIdx<DocumentRows.IdxOurRef>
   fullName: SuperOffice.CRM.Entities.DocumentCollection.DocumentCollectionIdx<SuperOffice.CRM.Rows.DocumentRows.IdxOurRef>
@@ -310,369 +248,123 @@ references:
   fullName.vb: SuperOffice.CRM.Entities.DocumentCollection.DocumentCollectionIdx(Of SuperOffice.CRM.Rows.DocumentRows.IdxOurRef)
   name.vb: DocumentCollection.DocumentCollectionIdx(Of DocumentRows.IdxOurRef)
   spec.csharp:
-  - uid: SuperOffice.CRM.Entities.DocumentCollection
-    name: DocumentCollection
-    isExternal: true
-    href: SuperOffice.CRM.Entities.DocumentCollection.html
-  - name: .
   - uid: SuperOffice.CRM.Entities.DocumentCollection.DocumentCollectionIdx`1
-    name: DocumentCollectionIdx
+    name: DocumentCollection.DocumentCollectionIdx
+    nameWithType: DocumentCollection.DocumentCollectionIdx
+    fullName: SuperOffice.CRM.Entities.DocumentCollection.DocumentCollectionIdx
     isExternal: true
-    href: SuperOffice.CRM.Entities.DocumentCollection.DocumentCollectionIdx-1.html
   - name: <
-  - uid: SuperOffice.CRM.Rows.DocumentRows
-    name: DocumentRows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.DocumentRows.html
-  - name: .
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Rows.DocumentRows.IdxOurRef
-    name: IdxOurRef
+    name: DocumentRows.IdxOurRef
+    nameWithType: DocumentRows.IdxOurRef
+    fullName: SuperOffice.CRM.Rows.DocumentRows.IdxOurRef
     isExternal: true
-    href: SuperOffice.CRM.Rows.DocumentRows.IdxOurRef.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
-  - uid: SuperOffice.CRM.Entities.DocumentCollection
-    name: DocumentCollection
-    isExternal: true
-    href: SuperOffice.CRM.Entities.DocumentCollection.html
-  - name: .
   - uid: SuperOffice.CRM.Entities.DocumentCollection.DocumentCollectionIdx`1
-    name: DocumentCollectionIdx
+    name: DocumentCollection.DocumentCollectionIdx
+    nameWithType: DocumentCollection.DocumentCollectionIdx
+    fullName: SuperOffice.CRM.Entities.DocumentCollection.DocumentCollectionIdx
     isExternal: true
-    href: SuperOffice.CRM.Entities.DocumentCollection.DocumentCollectionIdx-1.html
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.DocumentRows
-    name: DocumentRows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.DocumentRows.html
-  - name: .
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Rows.DocumentRows.IdxOurRef
-    name: IdxOurRef
+    name: DocumentRows.IdxOurRef
+    nameWithType: DocumentRows.IdxOurRef
+    fullName: SuperOffice.CRM.Rows.DocumentRows.IdxOurRef
     isExternal: true
-    href: SuperOffice.CRM.Rows.DocumentRows.IdxOurRef.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Security.ISentryIgnorable
   commentId: T:SuperOffice.CRM.Security.ISentryIgnorable
   parent: SuperOffice.CRM.Security
   isExternal: true
-  href: SuperOffice.CRM.Security.ISentryIgnorable.html
   name: ISentryIgnorable
   nameWithType: ISentryIgnorable
   fullName: SuperOffice.CRM.Security.ISentryIgnorable
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
 - uid: SuperOffice.CRM.Entities.DocumentCollection.IdxOurRef.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<IdxOurRef, To>(IdxOurRef)
-  nameWithType: EnumUtil.MapEnums<DocumentCollection.IdxOurRef, To>(DocumentCollection.IdxOurRef)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.DocumentCollection.IdxOurRef, To>(SuperOffice.CRM.Entities.DocumentCollection.IdxOurRef)
-  nameWithType.vb: EnumUtil.MapEnums(Of DocumentCollection.IdxOurRef, To)(DocumentCollection.IdxOurRef)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.DocumentCollection.IdxOurRef, To)(SuperOffice.CRM.Entities.DocumentCollection.IdxOurRef)
-  name.vb: MapEnums(Of IdxOurRef, To)(IdxOurRef)
+  name: MapEnums<DocumentCollection.IdxOurRef, To>()
+  nameWithType: EnumUtil.MapEnums<DocumentCollection.IdxOurRef, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.DocumentCollection.IdxOurRef, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of DocumentCollection.IdxOurRef, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.DocumentCollection.IdxOurRef, To)()
+  name.vb: MapEnums(Of DocumentCollection.IdxOurRef, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Entities.DocumentCollection.IdxOurRef)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<DocumentCollection.IdxOurRef, To>
+    nameWithType: EnumUtil.MapEnums<DocumentCollection.IdxOurRef, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.DocumentCollection.IdxOurRef, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Entities.DocumentCollection.IdxOurRef
-    name: IdxOurRef
-    isExternal: true
-    href: SuperOffice.CRM.Entities.DocumentCollection.IdxOurRef.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Entities.DocumentCollection.IdxOurRef
-    name: IdxOurRef
-    isExternal: true
-    href: SuperOffice.CRM.Entities.DocumentCollection.IdxOurRef.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Entities.DocumentCollection.IdxOurRef)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of DocumentCollection.IdxOurRef, To)
+    nameWithType: EnumUtil.MapEnums(Of DocumentCollection.IdxOurRef, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.DocumentCollection.IdxOurRef, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Entities.DocumentCollection.IdxOurRef
-    name: IdxOurRef
-    isExternal: true
-    href: SuperOffice.CRM.Entities.DocumentCollection.IdxOurRef.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Entities.DocumentCollection.IdxOurRef
-    name: IdxOurRef
-    isExternal: true
-    href: SuperOffice.CRM.Entities.DocumentCollection.IdxOurRef.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Entities.DocumentCollection.IdxOurRef.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<IdxOurRef, To>(IdxOurRef)
-  nameWithType: Converters.MapEnums<DocumentCollection.IdxOurRef, To>(DocumentCollection.IdxOurRef)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.DocumentCollection.IdxOurRef, To>(SuperOffice.CRM.Entities.DocumentCollection.IdxOurRef)
-  nameWithType.vb: Converters.MapEnums(Of DocumentCollection.IdxOurRef, To)(DocumentCollection.IdxOurRef)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.DocumentCollection.IdxOurRef, To)(SuperOffice.CRM.Entities.DocumentCollection.IdxOurRef)
-  name.vb: MapEnums(Of IdxOurRef, To)(IdxOurRef)
+  name: MapEnums<DocumentCollection.IdxOurRef, To>()
+  nameWithType: Converters.MapEnums<DocumentCollection.IdxOurRef, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.DocumentCollection.IdxOurRef, To>()
+  nameWithType.vb: Converters.MapEnums(Of DocumentCollection.IdxOurRef, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.DocumentCollection.IdxOurRef, To)()
+  name.vb: MapEnums(Of DocumentCollection.IdxOurRef, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Entities.DocumentCollection.IdxOurRef)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<DocumentCollection.IdxOurRef, To>
+    nameWithType: Converters.MapEnums<DocumentCollection.IdxOurRef, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.DocumentCollection.IdxOurRef, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Entities.DocumentCollection.IdxOurRef
-    name: IdxOurRef
-    isExternal: true
-    href: SuperOffice.CRM.Entities.DocumentCollection.IdxOurRef.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Entities.DocumentCollection.IdxOurRef
-    name: IdxOurRef
-    isExternal: true
-    href: SuperOffice.CRM.Entities.DocumentCollection.IdxOurRef.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Entities.DocumentCollection.IdxOurRef)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of DocumentCollection.IdxOurRef, To)
+    nameWithType: Converters.MapEnums(Of DocumentCollection.IdxOurRef, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.DocumentCollection.IdxOurRef, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Entities.DocumentCollection.IdxOurRef
-    name: IdxOurRef
-    isExternal: true
-    href: SuperOffice.CRM.Entities.DocumentCollection.IdxOurRef.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Entities.DocumentCollection.IdxOurRef
-    name: IdxOurRef
-    isExternal: true
-    href: SuperOffice.CRM.Entities.DocumentCollection.IdxOurRef.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.CRM.Entities.EntityIdxBase`2
   commentId: T:SuperOffice.CRM.Entities.EntityIdxBase`2
   isExternal: true
-  href: SuperOffice.CRM.Entities.EntityIdxBase-2.html
   name: EntityIdxBase<TTableInfo, TIdx>
   nameWithType: EntityIdxBase<TTableInfo, TIdx>
   fullName: SuperOffice.CRM.Entities.EntityIdxBase<TTableInfo, TIdx>
@@ -682,31 +374,48 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Entities.EntityIdxBase`2
     name: EntityIdxBase
+    nameWithType: EntityIdxBase
+    fullName: SuperOffice.CRM.Entities.EntityIdxBase
     isExternal: true
-    href: SuperOffice.CRM.Entities.EntityIdxBase-2.html
   - name: <
+    nameWithType: <
+    fullName: <
   - name: TTableInfo
-  - name: ','
-  - name: " "
+    nameWithType: TTableInfo
+    fullName: TTableInfo
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: TIdx
+    nameWithType: TIdx
+    fullName: TIdx
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.CRM.Entities.EntityIdxBase`2
     name: EntityIdxBase
+    nameWithType: EntityIdxBase
+    fullName: SuperOffice.CRM.Entities.EntityIdxBase
     isExternal: true
-    href: SuperOffice.CRM.Entities.EntityIdxBase-2.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: TTableInfo
-  - name: ','
-  - name: " "
+    nameWithType: TTableInfo
+    fullName: TTableInfo
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: TIdx
+    nameWithType: TIdx
+    fullName: TIdx
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Entities.DocumentCollection.DocumentCollectionIdx`1
   commentId: T:SuperOffice.CRM.Entities.DocumentCollection.DocumentCollectionIdx`1
   isExternal: true
-  href: SuperOffice.CRM.Entities.DocumentCollection.html
   name: DocumentCollection.DocumentCollectionIdx<TIdx>
   nameWithType: DocumentCollection.DocumentCollectionIdx<TIdx>
   fullName: SuperOffice.CRM.Entities.DocumentCollection.DocumentCollectionIdx<TIdx>
@@ -714,74 +423,44 @@ references:
   fullName.vb: SuperOffice.CRM.Entities.DocumentCollection.DocumentCollectionIdx(Of TIdx)
   name.vb: DocumentCollection.DocumentCollectionIdx(Of TIdx)
   spec.csharp:
-  - uid: SuperOffice.CRM.Entities.DocumentCollection
-    name: DocumentCollection
-    isExternal: true
-    href: SuperOffice.CRM.Entities.DocumentCollection.html
-  - name: .
   - uid: SuperOffice.CRM.Entities.DocumentCollection.DocumentCollectionIdx`1
-    name: DocumentCollectionIdx
+    name: DocumentCollection.DocumentCollectionIdx
+    nameWithType: DocumentCollection.DocumentCollectionIdx
+    fullName: SuperOffice.CRM.Entities.DocumentCollection.DocumentCollectionIdx
     isExternal: true
-    href: SuperOffice.CRM.Entities.DocumentCollection.DocumentCollectionIdx-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - name: TIdx
+    nameWithType: TIdx
+    fullName: TIdx
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
-  - uid: SuperOffice.CRM.Entities.DocumentCollection
-    name: DocumentCollection
-    isExternal: true
-    href: SuperOffice.CRM.Entities.DocumentCollection.html
-  - name: .
   - uid: SuperOffice.CRM.Entities.DocumentCollection.DocumentCollectionIdx`1
-    name: DocumentCollectionIdx
+    name: DocumentCollection.DocumentCollectionIdx
+    nameWithType: DocumentCollection.DocumentCollectionIdx
+    fullName: SuperOffice.CRM.Entities.DocumentCollection.DocumentCollectionIdx
     isExternal: true
-    href: SuperOffice.CRM.Entities.DocumentCollection.DocumentCollectionIdx-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: TIdx
+    nameWithType: TIdx
+    fullName: TIdx
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Security
   commentId: N:SuperOffice.CRM.Security
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Security
   nameWithType: SuperOffice.CRM.Security
   fullName: SuperOffice.CRM.Security
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Security
-    name: Security
-    isExternal: true
-    href: SuperOffice.CRM.Security.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Security
-    name: Security
-    isExternal: true
-    href: SuperOffice.CRM.Security.html
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -790,45 +469,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -837,139 +514,76 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.CRM.Entities.DocumentCollection.IdxOurRef.#ctor*
   commentId: Overload:SuperOffice.CRM.Entities.DocumentCollection.IdxOurRef.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Entities.DocumentCollection.IdxOurRef.html#SuperOffice_CRM_Entities_DocumentCollection_IdxOurRef__ctor_System_String_
   name: IdxOurRef
   nameWithType: DocumentCollection.IdxOurRef.IdxOurRef
   fullName: SuperOffice.CRM.Entities.DocumentCollection.IdxOurRef.IdxOurRef
-  nameWithType.vb: DocumentCollection.IdxOurRef.New
-  fullName.vb: SuperOffice.CRM.Entities.DocumentCollection.IdxOurRef.New
-  name.vb: New
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.Data.StringSearchType
   commentId: T:SuperOffice.Data.StringSearchType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.StringSearchType.html
   name: StringSearchType
   nameWithType: StringSearchType
   fullName: SuperOffice.Data.StringSearchType
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
 - uid: SuperOffice.CRM.Entities.DocumentCollection.IdxOurRef.OurRef*
   commentId: Overload:SuperOffice.CRM.Entities.DocumentCollection.IdxOurRef.OurRef
   isExternal: true
-  href: SuperOffice.CRM.Entities.DocumentCollection.IdxOurRef.html#SuperOffice_CRM_Entities_DocumentCollection_IdxOurRef_OurRef
   name: OurRef
   nameWithType: DocumentCollection.IdxOurRef.OurRef
   fullName: SuperOffice.CRM.Entities.DocumentCollection.IdxOurRef.OurRef

@@ -1,0 +1,779 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Configuration.VersionProperties
+  commentId: T:SuperOffice.Configuration.VersionProperties
+  id: VersionProperties
+  parent: SuperOffice.Configuration
+  children:
+  - SuperOffice.Configuration.VersionProperties.#ctor
+  - SuperOffice.Configuration.VersionProperties.GetBoolSetting(System.String,System.Boolean)
+  - SuperOffice.Configuration.VersionProperties.GetDoubleSetting(System.String,System.Double)
+  - SuperOffice.Configuration.VersionProperties.GetIntSetting(System.String,System.Int32)
+  - SuperOffice.Configuration.VersionProperties.GetSetting(System.String,System.String)
+  - SuperOffice.Configuration.VersionProperties.UpdateSettings(System.Collections.Generic.IDictionary{System.String,System.String})
+  langs:
+  - csharp
+  - vb
+  name: VersionProperties
+  nameWithType: VersionProperties
+  fullName: SuperOffice.Configuration.VersionProperties
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nHolds settings defined in OC, in <strong>Version Properties</strong>\n"
+  remarks: "\nThis is a dictionary of key/value pairs. The Key can be the name of a setting, or &lt;CustXXXX>:&lt;name-of-setting>.\nThe forms are equivalent, except for the target. The plain form means every tenant in the process; the alternate form\ncan set or override for a particular tenant.\n<br />\nThe value is whatever the setting requires\n<br />\nThis mechanism is intended for <strong>experimental features</strong> that need (and must allow) repeated changes\nto their state or configuration. It does not replace Feature Toggles, nor other ordinary settings for logging\nor other product features.\n<br />\nIt should only be used for temporary, explorative code that we need to test in Prod, but want/nees to be able\nto fine-tune or turn off entirely, perhaps in a hurry when we realise it wasn&apos;t such a good idea after all.\nThese values are refreshed through the Local Service Proxy about every 30 seconds, giving a quite short latency\nfrom setting in OC to actual effect in code.\n"
+  syntax:
+    content: 'public class VersionProperties : Object'
+    content.vb: >-
+      Public Class VersionProperties
+          Inherits Object
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.Configuration.VersionProperties.EnumUtil.MapEnums``2
+  - SuperOffice.Configuration.VersionProperties.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Configuration.VersionProperties)
+  - SuperOffice.Configuration.VersionProperties.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Configuration.VersionProperties.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Configuration.VersionProperties.GetSetting(System.String,System.String)
+  commentId: M:SuperOffice.Configuration.VersionProperties.GetSetting(System.String,System.String)
+  id: GetSetting(System.String,System.String)
+  parent: SuperOffice.Configuration.VersionProperties
+  langs:
+  - csharp
+  - vb
+  name: GetSetting(String, String)
+  nameWithType: VersionProperties.GetSetting(String, String)
+  fullName: SuperOffice.Configuration.VersionProperties.GetSetting(System.String, System.String)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  syntax:
+    content: public static string GetSetting(string settingName, string defaultValue = "")
+    parameters:
+    - id: settingName
+      type: System.String
+    - id: defaultValue
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetSetting(settingName As String, defaultValue As String = "") As String
+  overload: SuperOffice.Configuration.VersionProperties.GetSetting*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.VersionProperties.GetBoolSetting(System.String,System.Boolean)
+  commentId: M:SuperOffice.Configuration.VersionProperties.GetBoolSetting(System.String,System.Boolean)
+  id: GetBoolSetting(System.String,System.Boolean)
+  parent: SuperOffice.Configuration.VersionProperties
+  langs:
+  - csharp
+  - vb
+  name: GetBoolSetting(String, Boolean)
+  nameWithType: VersionProperties.GetBoolSetting(String, Boolean)
+  fullName: SuperOffice.Configuration.VersionProperties.GetBoolSetting(System.String, System.Boolean)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  syntax:
+    content: public static bool GetBoolSetting(string settingName, bool defaultValue = false)
+    parameters:
+    - id: settingName
+      type: System.String
+    - id: defaultValue
+      type: System.Boolean
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function GetBoolSetting(settingName As String, defaultValue As Boolean = False) As Boolean
+  overload: SuperOffice.Configuration.VersionProperties.GetBoolSetting*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.VersionProperties.GetIntSetting(System.String,System.Int32)
+  commentId: M:SuperOffice.Configuration.VersionProperties.GetIntSetting(System.String,System.Int32)
+  id: GetIntSetting(System.String,System.Int32)
+  parent: SuperOffice.Configuration.VersionProperties
+  langs:
+  - csharp
+  - vb
+  name: GetIntSetting(String, Int32)
+  nameWithType: VersionProperties.GetIntSetting(String, Int32)
+  fullName: SuperOffice.Configuration.VersionProperties.GetIntSetting(System.String, System.Int32)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  syntax:
+    content: public static int GetIntSetting(string settingName, int defaultValue = 0)
+    parameters:
+    - id: settingName
+      type: System.String
+    - id: defaultValue
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function GetIntSetting(settingName As String, defaultValue As Integer = 0) As Integer
+  overload: SuperOffice.Configuration.VersionProperties.GetIntSetting*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.VersionProperties.GetDoubleSetting(System.String,System.Double)
+  commentId: M:SuperOffice.Configuration.VersionProperties.GetDoubleSetting(System.String,System.Double)
+  id: GetDoubleSetting(System.String,System.Double)
+  parent: SuperOffice.Configuration.VersionProperties
+  langs:
+  - csharp
+  - vb
+  name: GetDoubleSetting(String, Double)
+  nameWithType: VersionProperties.GetDoubleSetting(String, Double)
+  fullName: SuperOffice.Configuration.VersionProperties.GetDoubleSetting(System.String, System.Double)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  syntax:
+    content: public static double GetDoubleSetting(string settingName, double defaultValue = 0)
+    parameters:
+    - id: settingName
+      type: System.String
+    - id: defaultValue
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Shared Function GetDoubleSetting(settingName As String, defaultValue As Double = 0) As Double
+  overload: SuperOffice.Configuration.VersionProperties.GetDoubleSetting*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.VersionProperties.UpdateSettings(System.Collections.Generic.IDictionary{System.String,System.String})
+  commentId: M:SuperOffice.Configuration.VersionProperties.UpdateSettings(System.Collections.Generic.IDictionary{System.String,System.String})
+  id: UpdateSettings(System.Collections.Generic.IDictionary{System.String,System.String})
+  parent: SuperOffice.Configuration.VersionProperties
+  langs:
+  - csharp
+  - vb
+  name: UpdateSettings(IDictionary<String, String>)
+  nameWithType: VersionProperties.UpdateSettings(IDictionary<String, String>)
+  fullName: SuperOffice.Configuration.VersionProperties.UpdateSettings(System.Collections.Generic.IDictionary<System.String, System.String>)
+  type: Method
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  syntax:
+    content: public static void UpdateSettings(IDictionary<string, string> rawSettings)
+    parameters:
+    - id: rawSettings
+      type: System.Collections.Generic.IDictionary{System.String,System.String}
+    content.vb: Public Shared Sub UpdateSettings(rawSettings As IDictionary(Of String, String))
+  overload: SuperOffice.Configuration.VersionProperties.UpdateSettings*
+  nameWithType.vb: VersionProperties.UpdateSettings(IDictionary(Of String, String))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Configuration.VersionProperties.UpdateSettings(System.Collections.Generic.IDictionary(Of System.String, System.String))
+  name.vb: UpdateSettings(IDictionary(Of String, String))
+- uid: SuperOffice.Configuration.VersionProperties.#ctor
+  commentId: M:SuperOffice.Configuration.VersionProperties.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Configuration.VersionProperties
+  langs:
+  - csharp
+  - vb
+  name: VersionProperties()
+  nameWithType: VersionProperties.VersionProperties()
+  fullName: SuperOffice.Configuration.VersionProperties.VersionProperties()
+  type: Constructor
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  syntax:
+    content: public VersionProperties()
+    content.vb: Public Sub New
+  overload: SuperOffice.Configuration.VersionProperties.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.Configuration
+  commentId: N:SuperOffice.Configuration
+  isExternal: true
+  name: SuperOffice.Configuration
+  nameWithType: SuperOffice.Configuration
+  fullName: SuperOffice.Configuration
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Configuration.VersionProperties.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<VersionProperties, To>()
+  nameWithType: EnumUtil.MapEnums<VersionProperties, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Configuration.VersionProperties, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of VersionProperties, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Configuration.VersionProperties, To)()
+  name.vb: MapEnums(Of VersionProperties, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<VersionProperties, To>
+    nameWithType: EnumUtil.MapEnums<VersionProperties, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Configuration.VersionProperties, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of VersionProperties, To)
+    nameWithType: EnumUtil.MapEnums(Of VersionProperties, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Configuration.VersionProperties, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Configuration.VersionProperties.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Configuration.VersionProperties)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<VersionProperties>(VersionProperties)
+  nameWithType: ObjectExtensions.AssignByReflection<VersionProperties>(VersionProperties)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Configuration.VersionProperties>(SuperOffice.Configuration.VersionProperties)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of VersionProperties)(VersionProperties)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Configuration.VersionProperties)(SuperOffice.Configuration.VersionProperties)
+  name.vb: AssignByReflection(Of VersionProperties)(VersionProperties)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<VersionProperties>
+    nameWithType: ObjectExtensions.AssignByReflection<VersionProperties>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Configuration.VersionProperties>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Configuration.VersionProperties
+    name: VersionProperties
+    nameWithType: VersionProperties
+    fullName: SuperOffice.Configuration.VersionProperties
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of VersionProperties)
+    nameWithType: ObjectExtensions.AssignByReflection(Of VersionProperties)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Configuration.VersionProperties)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Configuration.VersionProperties
+    name: VersionProperties
+    nameWithType: VersionProperties
+    fullName: SuperOffice.Configuration.VersionProperties
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Configuration.VersionProperties.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<VersionProperties>()
+  nameWithType: ObjectExtensions.GraphCopy<VersionProperties>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Configuration.VersionProperties>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of VersionProperties)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Configuration.VersionProperties)()
+  name.vb: GraphCopy(Of VersionProperties)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<VersionProperties>
+    nameWithType: ObjectExtensions.GraphCopy<VersionProperties>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Configuration.VersionProperties>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of VersionProperties)
+    nameWithType: ObjectExtensions.GraphCopy(Of VersionProperties)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Configuration.VersionProperties)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Configuration.VersionProperties.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<VersionProperties, To>()
+  nameWithType: Converters.MapEnums<VersionProperties, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Configuration.VersionProperties, To>()
+  nameWithType.vb: Converters.MapEnums(Of VersionProperties, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Configuration.VersionProperties, To)()
+  name.vb: MapEnums(Of VersionProperties, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<VersionProperties, To>
+    nameWithType: Converters.MapEnums<VersionProperties, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Configuration.VersionProperties, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of VersionProperties, To)
+    nameWithType: Converters.MapEnums(Of VersionProperties, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Configuration.VersionProperties, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Configuration.VersionProperties.GetSetting*
+  commentId: Overload:SuperOffice.Configuration.VersionProperties.GetSetting
+  isExternal: true
+  name: GetSetting
+  nameWithType: VersionProperties.GetSetting
+  fullName: SuperOffice.Configuration.VersionProperties.GetSetting
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Configuration.VersionProperties.GetBoolSetting*
+  commentId: Overload:SuperOffice.Configuration.VersionProperties.GetBoolSetting
+  isExternal: true
+  name: GetBoolSetting
+  nameWithType: VersionProperties.GetBoolSetting
+  fullName: SuperOffice.Configuration.VersionProperties.GetBoolSetting
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Configuration.VersionProperties.GetIntSetting*
+  commentId: Overload:SuperOffice.Configuration.VersionProperties.GetIntSetting
+  isExternal: true
+  name: GetIntSetting
+  nameWithType: VersionProperties.GetIntSetting
+  fullName: SuperOffice.Configuration.VersionProperties.GetIntSetting
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Configuration.VersionProperties.GetDoubleSetting*
+  commentId: Overload:SuperOffice.Configuration.VersionProperties.GetDoubleSetting
+  isExternal: true
+  name: GetDoubleSetting
+  nameWithType: VersionProperties.GetDoubleSetting
+  fullName: SuperOffice.Configuration.VersionProperties.GetDoubleSetting
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: SuperOffice.Configuration.VersionProperties.UpdateSettings*
+  commentId: Overload:SuperOffice.Configuration.VersionProperties.UpdateSettings
+  isExternal: true
+  name: UpdateSettings
+  nameWithType: VersionProperties.UpdateSettings
+  fullName: SuperOffice.Configuration.VersionProperties.UpdateSettings
+- uid: System.Collections.Generic.IDictionary{System.String,System.String}
+  commentId: '!:System.Collections.Generic.IDictionary{System.String,System.String}'
+  definition: System.Collections.Generic.IDictionary`2
+  name: IDictionary<String, String>
+  nameWithType: IDictionary<String, String>
+  fullName: System.Collections.Generic.IDictionary<System.String, System.String>
+  nameWithType.vb: IDictionary(Of String, String)
+  fullName.vb: System.Collections.Generic.IDictionary(Of System.String, System.String)
+  name.vb: IDictionary(Of String, String)
+  spec.csharp:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IDictionary`2
+  isExternal: true
+  name: IDictionary<, >
+  nameWithType: IDictionary<, >
+  fullName: System.Collections.Generic.IDictionary<, >
+  nameWithType.vb: IDictionary(Of , )
+  fullName.vb: System.Collections.Generic.IDictionary(Of , )
+  name.vb: IDictionary(Of , )
+  spec.csharp:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Configuration.VersionProperties.#ctor*
+  commentId: Overload:SuperOffice.Configuration.VersionProperties.#ctor
+  isExternal: true
+  name: VersionProperties
+  nameWithType: VersionProperties.VersionProperties
+  fullName: SuperOffice.Configuration.VersionProperties.VersionProperties

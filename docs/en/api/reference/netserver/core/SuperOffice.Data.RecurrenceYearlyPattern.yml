@@ -7,6 +7,7 @@ items:
   children:
   - SuperOffice.Data.RecurrenceYearlyPattern.DayOfMonth
   - SuperOffice.Data.RecurrenceYearlyPattern.Unknown
+  - SuperOffice.Data.RecurrenceYearlyPattern.value__
   - SuperOffice.Data.RecurrenceYearlyPattern.WeekdayOfMonth
   langs:
   - csharp
@@ -14,35 +15,60 @@ items:
   name: RecurrenceYearlyPattern
   nameWithType: RecurrenceYearlyPattern
   fullName: SuperOffice.Data.RecurrenceYearlyPattern
-  type: Enum
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: Enumerator describing the different patterns for a yearly recurrence
-  example: []
+  summary: "\nEnumerator describing the different patterns for a yearly recurrence\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public enum RecurrenceYearlyPattern
+    content: 'public sealed class RecurrenceYearlyPattern : Enum'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
+      Public NotInheritable Class RecurrenceYearlyPattern
+          Inherits
 
-      Public Enum RecurrenceYearlyPattern
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.RecurrenceYearlyPattern.EnumUtil.MapEnums``2
   - SuperOffice.Data.RecurrenceYearlyPattern.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  - SuperOffice.Data.RecurrenceYearlyPattern.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.RecurrenceYearlyPattern)
-  - SuperOffice.Data.RecurrenceYearlyPattern.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - System.Enum.EnumUtil.GetDescription
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.RecurrenceYearlyPattern.value__
+  commentId: F:SuperOffice.Data.RecurrenceYearlyPattern.value__
+  id: value__
+  parent: SuperOffice.Data.RecurrenceYearlyPattern
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: RecurrenceYearlyPattern.value__
+  fullName: SuperOffice.Data.RecurrenceYearlyPattern.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.RecurrenceYearlyPattern.Unknown
   commentId: F:SuperOffice.Data.RecurrenceYearlyPattern.Unknown
   id: Unknown
@@ -54,26 +80,24 @@ items:
   nameWithType: RecurrenceYearlyPattern.Unknown
   fullName: SuperOffice.Data.RecurrenceYearlyPattern.Unknown
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '0: 0: Unknown/undecided type'
-  example: []
+  summary: "\n0: 0: Unknown/undecided type\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Unknown = 0
+    content: public const RecurrenceYearlyPattern Unknown
     return:
       type: SuperOffice.Data.RecurrenceYearlyPattern
-    content.vb: >-
-      <EnumMember>
-
-      Unknown = 0
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Unknown As RecurrenceYearlyPattern
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.RecurrenceYearlyPattern.DayOfMonth
   commentId: F:SuperOffice.Data.RecurrenceYearlyPattern.DayOfMonth
   id: DayOfMonth
@@ -85,26 +109,24 @@ items:
   nameWithType: RecurrenceYearlyPattern.DayOfMonth
   fullName: SuperOffice.Data.RecurrenceYearlyPattern.DayOfMonth
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '6: The recurrence is for a numbered day of the month, e.g. the 17. day of August'
-  example: []
+  summary: "\n6: The recurrence is for a numbered day of the month, e.g. the 17. day of August\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      DayOfMonth = 6
+    content: public const RecurrenceYearlyPattern DayOfMonth
     return:
       type: SuperOffice.Data.RecurrenceYearlyPattern
-    content.vb: >-
-      <EnumMember>
-
-      DayOfMonth = 6
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const DayOfMonth As RecurrenceYearlyPattern
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.RecurrenceYearlyPattern.WeekdayOfMonth
   commentId: F:SuperOffice.Data.RecurrenceYearlyPattern.WeekdayOfMonth
   id: WeekdayOfMonth
@@ -116,300 +138,115 @@ items:
   nameWithType: RecurrenceYearlyPattern.WeekdayOfMonth
   fullName: SuperOffice.Data.RecurrenceYearlyPattern.WeekdayOfMonth
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '7: The recurrence is for weekdays in the month, e.g. the 3. thursday of August'
-  example: []
+  summary: "\n7: The recurrence is for weekdays in the month, e.g. the 3. thursday of August\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      WeekdayOfMonth = 7
+    content: public const RecurrenceYearlyPattern WeekdayOfMonth
     return:
       type: SuperOffice.Data.RecurrenceYearlyPattern
-    content.vb: >-
-      <EnumMember>
-
-      WeekdayOfMonth = 7
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const WeekdayOfMonth As RecurrenceYearlyPattern
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.RecurrenceYearlyPattern.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<RecurrenceYearlyPattern, To>(RecurrenceYearlyPattern)
-  nameWithType: EnumUtil.MapEnums<RecurrenceYearlyPattern, To>(RecurrenceYearlyPattern)
-  fullName: EnumUtil.MapEnums<SuperOffice.Data.RecurrenceYearlyPattern, To>(SuperOffice.Data.RecurrenceYearlyPattern)
-  nameWithType.vb: EnumUtil.MapEnums(Of RecurrenceYearlyPattern, To)(RecurrenceYearlyPattern)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.RecurrenceYearlyPattern, To)(SuperOffice.Data.RecurrenceYearlyPattern)
-  name.vb: MapEnums(Of RecurrenceYearlyPattern, To)(RecurrenceYearlyPattern)
+  name: MapEnums<RecurrenceYearlyPattern, To>()
+  nameWithType: EnumUtil.MapEnums<RecurrenceYearlyPattern, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.RecurrenceYearlyPattern, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of RecurrenceYearlyPattern, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.RecurrenceYearlyPattern, To)()
+  name.vb: MapEnums(Of RecurrenceYearlyPattern, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.RecurrenceYearlyPattern)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<RecurrenceYearlyPattern, To>
+    nameWithType: EnumUtil.MapEnums<RecurrenceYearlyPattern, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.RecurrenceYearlyPattern, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.RecurrenceYearlyPattern
-    name: RecurrenceYearlyPattern
-    isExternal: true
-    href: SuperOffice.Data.RecurrenceYearlyPattern.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.RecurrenceYearlyPattern
-    name: RecurrenceYearlyPattern
-    isExternal: true
-    href: SuperOffice.Data.RecurrenceYearlyPattern.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.RecurrenceYearlyPattern)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of RecurrenceYearlyPattern, To)
+    nameWithType: EnumUtil.MapEnums(Of RecurrenceYearlyPattern, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.RecurrenceYearlyPattern, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.RecurrenceYearlyPattern
-    name: RecurrenceYearlyPattern
-    isExternal: true
-    href: SuperOffice.Data.RecurrenceYearlyPattern.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.RecurrenceYearlyPattern
-    name: RecurrenceYearlyPattern
-    isExternal: true
-    href: SuperOffice.Data.RecurrenceYearlyPattern.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.RecurrenceYearlyPattern.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<RecurrenceYearlyPattern, To>(RecurrenceYearlyPattern)
-  nameWithType: Converters.MapEnums<RecurrenceYearlyPattern, To>(RecurrenceYearlyPattern)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.RecurrenceYearlyPattern, To>(SuperOffice.Data.RecurrenceYearlyPattern)
-  nameWithType.vb: Converters.MapEnums(Of RecurrenceYearlyPattern, To)(RecurrenceYearlyPattern)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.RecurrenceYearlyPattern, To)(SuperOffice.Data.RecurrenceYearlyPattern)
-  name.vb: MapEnums(Of RecurrenceYearlyPattern, To)(RecurrenceYearlyPattern)
+  name: MapEnums<RecurrenceYearlyPattern, To>()
+  nameWithType: Converters.MapEnums<RecurrenceYearlyPattern, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.RecurrenceYearlyPattern, To>()
+  nameWithType.vb: Converters.MapEnums(Of RecurrenceYearlyPattern, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.RecurrenceYearlyPattern, To)()
+  name.vb: MapEnums(Of RecurrenceYearlyPattern, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.RecurrenceYearlyPattern)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<RecurrenceYearlyPattern, To>
+    nameWithType: Converters.MapEnums<RecurrenceYearlyPattern, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.RecurrenceYearlyPattern, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.RecurrenceYearlyPattern
-    name: RecurrenceYearlyPattern
-    isExternal: true
-    href: SuperOffice.Data.RecurrenceYearlyPattern.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.RecurrenceYearlyPattern
-    name: RecurrenceYearlyPattern
-    isExternal: true
-    href: SuperOffice.Data.RecurrenceYearlyPattern.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.RecurrenceYearlyPattern)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of RecurrenceYearlyPattern, To)
+    nameWithType: Converters.MapEnums(Of RecurrenceYearlyPattern, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.RecurrenceYearlyPattern, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.RecurrenceYearlyPattern
-    name: RecurrenceYearlyPattern
-    isExternal: true
-    href: SuperOffice.Data.RecurrenceYearlyPattern.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.RecurrenceYearlyPattern
-    name: RecurrenceYearlyPattern
-    isExternal: true
-    href: SuperOffice.Data.RecurrenceYearlyPattern.html
-  - name: )
-- uid: SuperOffice.Data.RecurrenceYearlyPattern.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.RecurrenceYearlyPattern)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<RecurrenceYearlyPattern>(RecurrenceYearlyPattern, RecurrenceYearlyPattern)
-  nameWithType: ObjectExtensions.AssignByReflection<RecurrenceYearlyPattern>(RecurrenceYearlyPattern, RecurrenceYearlyPattern)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.RecurrenceYearlyPattern>(SuperOffice.Data.RecurrenceYearlyPattern, SuperOffice.Data.RecurrenceYearlyPattern)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of RecurrenceYearlyPattern)(RecurrenceYearlyPattern, RecurrenceYearlyPattern)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.RecurrenceYearlyPattern)(SuperOffice.Data.RecurrenceYearlyPattern, SuperOffice.Data.RecurrenceYearlyPattern)
-  name.vb: AssignByReflection(Of RecurrenceYearlyPattern)(RecurrenceYearlyPattern, RecurrenceYearlyPattern)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.RecurrenceYearlyPattern,SuperOffice.Data.RecurrenceYearlyPattern)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.Data.RecurrenceYearlyPattern
-    name: RecurrenceYearlyPattern
-    isExternal: true
-    href: SuperOffice.Data.RecurrenceYearlyPattern.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Data.RecurrenceYearlyPattern
-    name: RecurrenceYearlyPattern
-    isExternal: true
-    href: SuperOffice.Data.RecurrenceYearlyPattern.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Data.RecurrenceYearlyPattern
-    name: RecurrenceYearlyPattern
-    isExternal: true
-    href: SuperOffice.Data.RecurrenceYearlyPattern.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.RecurrenceYearlyPattern,SuperOffice.Data.RecurrenceYearlyPattern)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.RecurrenceYearlyPattern
-    name: RecurrenceYearlyPattern
-    isExternal: true
-    href: SuperOffice.Data.RecurrenceYearlyPattern.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.Data.RecurrenceYearlyPattern
-    name: RecurrenceYearlyPattern
-    isExternal: true
-    href: SuperOffice.Data.RecurrenceYearlyPattern.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Data.RecurrenceYearlyPattern
-    name: RecurrenceYearlyPattern
-    isExternal: true
-    href: SuperOffice.Data.RecurrenceYearlyPattern.html
-  - name: )
-- uid: SuperOffice.Data.RecurrenceYearlyPattern.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<RecurrenceYearlyPattern>(RecurrenceYearlyPattern)
-  nameWithType: ObjectExtensions.GraphCopy<RecurrenceYearlyPattern>(RecurrenceYearlyPattern)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.RecurrenceYearlyPattern>(SuperOffice.Data.RecurrenceYearlyPattern)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of RecurrenceYearlyPattern)(RecurrenceYearlyPattern)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.RecurrenceYearlyPattern)(SuperOffice.Data.RecurrenceYearlyPattern)
-  name.vb: GraphCopy(Of RecurrenceYearlyPattern)(RecurrenceYearlyPattern)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.RecurrenceYearlyPattern)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.Data.RecurrenceYearlyPattern
-    name: RecurrenceYearlyPattern
-    isExternal: true
-    href: SuperOffice.Data.RecurrenceYearlyPattern.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Data.RecurrenceYearlyPattern
-    name: RecurrenceYearlyPattern
-    isExternal: true
-    href: SuperOffice.Data.RecurrenceYearlyPattern.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.RecurrenceYearlyPattern)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.RecurrenceYearlyPattern
-    name: RecurrenceYearlyPattern
-    isExternal: true
-    href: SuperOffice.Data.RecurrenceYearlyPattern.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.Data.RecurrenceYearlyPattern
-    name: RecurrenceYearlyPattern
-    isExternal: true
-    href: SuperOffice.Data.RecurrenceYearlyPattern.html
-  - name: )
-- uid: System.Enum.EnumUtil.GetDescription
-  commentId: M:EnumUtil.GetDescription(System.Enum)
-  parent: EnumUtil
-  definition: EnumUtil.GetDescription(System.Enum)
-  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  name: GetDescription(Enum)
-  nameWithType: EnumUtil.GetDescription(Enum)
-  fullName: EnumUtil.GetDescription(System.Enum)
-  spec.csharp:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
-  spec.vb:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -418,45 +255,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -465,222 +300,58 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: EnumUtil.GetDescription(System.Enum)
-  commentId: M:EnumUtil.GetDescription(System.Enum)
-  isExternal: true
-  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  name: GetDescription(Enum)
-  nameWithType: EnumUtil.GetDescription(Enum)
-  fullName: EnumUtil.GetDescription(System.Enum)
-  spec.csharp:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
-  spec.vb:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.Data.RecurrenceYearlyPattern
   commentId: T:SuperOffice.Data.RecurrenceYearlyPattern
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.RecurrenceYearlyPattern.html
   name: RecurrenceYearlyPattern
   nameWithType: RecurrenceYearlyPattern
   fullName: SuperOffice.Data.RecurrenceYearlyPattern

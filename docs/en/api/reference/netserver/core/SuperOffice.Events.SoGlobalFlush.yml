@@ -15,16 +15,31 @@ items:
   name: SoGlobalFlush
   nameWithType: SoGlobalFlush
   fullName: SuperOffice.Events.SoGlobalFlush
-  type: Delegate
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Events
   syntax:
-    content: public delegate void SoGlobalFlush()
-    content.vb: Public Delegate Sub SoGlobalFlush()
+    content: 'public sealed class SoGlobalFlush : MulticastDelegate'
+    content.vb: >-
+      Public NotInheritable Class SoGlobalFlush
+          Inherits MulticastDelegate
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Events.SoGlobalFlush.EnumUtil.MapEnums``2
   - SuperOffice.Events.SoGlobalFlush.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
 - uid: SuperOffice.Events.SoGlobalFlush.#ctor(System.Object,System.IntPtr)
   commentId: M:SuperOffice.Events.SoGlobalFlush.#ctor(System.Object,System.IntPtr)
   id: '#ctor(System.Object,System.IntPtr)'
@@ -32,25 +47,29 @@ items:
   langs:
   - csharp
   - vb
-  name: SoGlobalFlush(object, IntPtr)
-  nameWithType: SoGlobalFlush.SoGlobalFlush(object, IntPtr)
-  fullName: SuperOffice.Events.SoGlobalFlush.SoGlobalFlush(object, System.IntPtr)
+  name: SoGlobalFlush(Object, IntPtr)
+  nameWithType: SoGlobalFlush.SoGlobalFlush(Object, IntPtr)
+  fullName: SuperOffice.Events.SoGlobalFlush.SoGlobalFlush(System.Object, System.IntPtr)
   type: Constructor
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Events
   syntax:
-    content: public SoGlobalFlush(object @object, IntPtr method)
+    content: public SoGlobalFlush(object object, IntPtr method)
     parameters:
     - id: object
       type: System.Object
     - id: method
       type: System.IntPtr
-    content.vb: Public Sub New([object] As Object, method As IntPtr)
+    content.vb: Public Sub New(object As Object, method As IntPtr)
   overload: SuperOffice.Events.SoGlobalFlush.#ctor*
-  nameWithType.vb: SoGlobalFlush.New(Object, IntPtr)
-  fullName.vb: SuperOffice.Events.SoGlobalFlush.New(Object, System.IntPtr)
-  name.vb: New(Object, IntPtr)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Events.SoGlobalFlush.Invoke
   commentId: M:SuperOffice.Events.SoGlobalFlush.Invoke
   id: Invoke
@@ -62,13 +81,22 @@ items:
   nameWithType: SoGlobalFlush.Invoke()
   fullName: SuperOffice.Events.SoGlobalFlush.Invoke()
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Events
   syntax:
     content: public virtual void Invoke()
-    content.vb: Public Overridable Sub Invoke()
+    content.vb: Public Overridable Sub Invoke
   overload: SuperOffice.Events.SoGlobalFlush.Invoke*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.Events.SoGlobalFlush.BeginInvoke(System.AsyncCallback,System.Object)
   commentId: M:SuperOffice.Events.SoGlobalFlush.BeginInvoke(System.AsyncCallback,System.Object)
   id: BeginInvoke(System.AsyncCallback,System.Object)
@@ -76,15 +104,18 @@ items:
   langs:
   - csharp
   - vb
-  name: BeginInvoke(AsyncCallback, object)
-  nameWithType: SoGlobalFlush.BeginInvoke(AsyncCallback, object)
-  fullName: SuperOffice.Events.SoGlobalFlush.BeginInvoke(System.AsyncCallback, object)
+  name: BeginInvoke(AsyncCallback, Object)
+  nameWithType: SoGlobalFlush.BeginInvoke(AsyncCallback, Object)
+  fullName: SuperOffice.Events.SoGlobalFlush.BeginInvoke(System.AsyncCallback, System.Object)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Events
   syntax:
-    content: public virtual IAsyncResult BeginInvoke(AsyncCallback callback, object @object)
+    content: public virtual IAsyncResult BeginInvoke(AsyncCallback callback, object object)
     parameters:
     - id: callback
       type: System.AsyncCallback
@@ -92,11 +123,14 @@ items:
       type: System.Object
     return:
       type: System.IAsyncResult
-    content.vb: Public Overridable Function BeginInvoke(callback As AsyncCallback, [object] As Object) As IAsyncResult
+    content.vb: Public Overridable Function BeginInvoke(callback As AsyncCallback, object As Object) As IAsyncResult
   overload: SuperOffice.Events.SoGlobalFlush.BeginInvoke*
-  nameWithType.vb: SoGlobalFlush.BeginInvoke(AsyncCallback, Object)
-  fullName.vb: SuperOffice.Events.SoGlobalFlush.BeginInvoke(System.AsyncCallback, Object)
-  name.vb: BeginInvoke(AsyncCallback, Object)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.Events.SoGlobalFlush.EndInvoke(System.IAsyncResult)
   commentId: M:SuperOffice.Events.SoGlobalFlush.EndInvoke(System.IAsyncResult)
   id: EndInvoke(System.IAsyncResult)
@@ -108,6 +142,9 @@ items:
   nameWithType: SoGlobalFlush.EndInvoke(IAsyncResult)
   fullName: SuperOffice.Events.SoGlobalFlush.EndInvoke(System.IAsyncResult)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Events
@@ -118,144 +155,103 @@ items:
       type: System.IAsyncResult
     content.vb: Public Overridable Sub EndInvoke(result As IAsyncResult)
   overload: SuperOffice.Events.SoGlobalFlush.EndInvoke*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
 - uid: SuperOffice.Events
   commentId: N:SuperOffice.Events
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Events
   nameWithType: SuperOffice.Events
   fullName: SuperOffice.Events
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Events
-    name: Events
-    isExternal: true
-    href: SuperOffice.Events.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Events
-    name: Events
-    isExternal: true
-    href: SuperOffice.Events.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Events.SoGlobalFlush.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<SoGlobalFlush, To>(SoGlobalFlush)
-  nameWithType: EnumUtil.MapEnums<SoGlobalFlush, To>(SoGlobalFlush)
-  fullName: EnumUtil.MapEnums<SuperOffice.Events.SoGlobalFlush, To>(SuperOffice.Events.SoGlobalFlush)
-  nameWithType.vb: EnumUtil.MapEnums(Of SoGlobalFlush, To)(SoGlobalFlush)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Events.SoGlobalFlush, To)(SuperOffice.Events.SoGlobalFlush)
-  name.vb: MapEnums(Of SoGlobalFlush, To)(SoGlobalFlush)
+  name: MapEnums<SoGlobalFlush, To>()
+  nameWithType: EnumUtil.MapEnums<SoGlobalFlush, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Events.SoGlobalFlush, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SoGlobalFlush, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Events.SoGlobalFlush, To)()
+  name.vb: MapEnums(Of SoGlobalFlush, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Events.SoGlobalFlush)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SoGlobalFlush, To>
+    nameWithType: EnumUtil.MapEnums<SoGlobalFlush, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Events.SoGlobalFlush, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Events.SoGlobalFlush
-    name: SoGlobalFlush
-    isExternal: true
-    href: SuperOffice.Events.SoGlobalFlush.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Events.SoGlobalFlush
-    name: SoGlobalFlush
-    isExternal: true
-    href: SuperOffice.Events.SoGlobalFlush.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Events.SoGlobalFlush)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SoGlobalFlush, To)
+    nameWithType: EnumUtil.MapEnums(Of SoGlobalFlush, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Events.SoGlobalFlush, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Events.SoGlobalFlush
-    name: SoGlobalFlush
-    isExternal: true
-    href: SuperOffice.Events.SoGlobalFlush.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Events.SoGlobalFlush
-    name: SoGlobalFlush
-    isExternal: true
-    href: SuperOffice.Events.SoGlobalFlush.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Events.SoGlobalFlush.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<SoGlobalFlush, To>(SoGlobalFlush)
-  nameWithType: Converters.MapEnums<SoGlobalFlush, To>(SoGlobalFlush)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Events.SoGlobalFlush, To>(SuperOffice.Events.SoGlobalFlush)
-  nameWithType.vb: Converters.MapEnums(Of SoGlobalFlush, To)(SoGlobalFlush)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Events.SoGlobalFlush, To)(SuperOffice.Events.SoGlobalFlush)
-  name.vb: MapEnums(Of SoGlobalFlush, To)(SoGlobalFlush)
+  name: MapEnums<SoGlobalFlush, To>()
+  nameWithType: Converters.MapEnums<SoGlobalFlush, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Events.SoGlobalFlush, To>()
+  nameWithType.vb: Converters.MapEnums(Of SoGlobalFlush, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Events.SoGlobalFlush, To)()
+  name.vb: MapEnums(Of SoGlobalFlush, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Events.SoGlobalFlush)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SoGlobalFlush, To>
+    nameWithType: Converters.MapEnums<SoGlobalFlush, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Events.SoGlobalFlush, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Events.SoGlobalFlush
-    name: SoGlobalFlush
-    isExternal: true
-    href: SuperOffice.Events.SoGlobalFlush.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Events.SoGlobalFlush
-    name: SoGlobalFlush
-    isExternal: true
-    href: SuperOffice.Events.SoGlobalFlush.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Events.SoGlobalFlush)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SoGlobalFlush, To)
+    nameWithType: Converters.MapEnums(Of SoGlobalFlush, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Events.SoGlobalFlush, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Events.SoGlobalFlush
-    name: SoGlobalFlush
-    isExternal: true
-    href: SuperOffice.Events.SoGlobalFlush.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Events.SoGlobalFlush
-    name: SoGlobalFlush
-    isExternal: true
-    href: SuperOffice.Events.SoGlobalFlush.html
-  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -264,45 +260,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -311,149 +305,85 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.Events.SoGlobalFlush.#ctor*
   commentId: Overload:SuperOffice.Events.SoGlobalFlush.#ctor
   isExternal: true
-  href: SuperOffice.Events.SoGlobalFlush.html#SuperOffice_Events_SoGlobalFlush__ctor_System_Object_System_IntPtr_
   name: SoGlobalFlush
   nameWithType: SoGlobalFlush.SoGlobalFlush
   fullName: SuperOffice.Events.SoGlobalFlush.SoGlobalFlush
-  nameWithType.vb: SoGlobalFlush.New
-  fullName.vb: SuperOffice.Events.SoGlobalFlush.New
-  name.vb: New
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
 - uid: System.IntPtr
   commentId: T:System.IntPtr
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.intptr
   name: IntPtr
   nameWithType: IntPtr
   fullName: System.IntPtr
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.Events.SoGlobalFlush.Invoke*
   commentId: Overload:SuperOffice.Events.SoGlobalFlush.Invoke
   isExternal: true
-  href: SuperOffice.Events.SoGlobalFlush.html#SuperOffice_Events_SoGlobalFlush_Invoke
   name: Invoke
   nameWithType: SoGlobalFlush.Invoke
   fullName: SuperOffice.Events.SoGlobalFlush.Invoke
 - uid: SuperOffice.Events.SoGlobalFlush.BeginInvoke*
   commentId: Overload:SuperOffice.Events.SoGlobalFlush.BeginInvoke
   isExternal: true
-  href: SuperOffice.Events.SoGlobalFlush.html#SuperOffice_Events_SoGlobalFlush_BeginInvoke_System_AsyncCallback_System_Object_
   name: BeginInvoke
   nameWithType: SoGlobalFlush.BeginInvoke
   fullName: SuperOffice.Events.SoGlobalFlush.BeginInvoke
 - uid: System.AsyncCallback
-  commentId: T:System.AsyncCallback
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.asynccallback
   name: AsyncCallback
   nameWithType: AsyncCallback
   fullName: System.AsyncCallback
 - uid: System.IAsyncResult
-  commentId: T:System.IAsyncResult
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.iasyncresult
   name: IAsyncResult
   nameWithType: IAsyncResult
   fullName: System.IAsyncResult
 - uid: SuperOffice.Events.SoGlobalFlush.EndInvoke*
   commentId: Overload:SuperOffice.Events.SoGlobalFlush.EndInvoke
   isExternal: true
-  href: SuperOffice.Events.SoGlobalFlush.html#SuperOffice_Events_SoGlobalFlush_EndInvoke_System_IAsyncResult_
   name: EndInvoke
   nameWithType: SoGlobalFlush.EndInvoke
   fullName: SuperOffice.Events.SoGlobalFlush.EndInvoke

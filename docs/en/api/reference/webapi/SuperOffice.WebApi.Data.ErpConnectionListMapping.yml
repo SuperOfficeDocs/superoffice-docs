@@ -18,17 +18,18 @@ items:
   nameWithType: ErpConnectionListMapping
   fullName: SuperOffice.WebApi.Data.ErpConnectionListMapping
   type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Carrier object for ErpConnectionListMapping.
-
-    Information about a mapping between two lists between CRM and the ERP system.
-  example: []
+  summary: "\nCarrier object for ErpConnectionListMapping.\nInformation about a mapping between two lists between CRM and the ERP system.    \n"
   syntax:
     content: 'public class ErpConnectionListMapping : Carrier'
-    content.vb: Public Class ErpConnectionListMapping Inherits Carrier
+    content.vb: >-
+      Public Class ErpConnectionListMapping
+          Inherits Carrier
   seealso:
   - linkId: SuperOffice.WebApi.Agents.ErpSyncAgent
     commentId: T:SuperOffice.WebApi.Agents.ErpSyncAgent
@@ -38,13 +39,12 @@ items:
   inheritedMembers:
   - SuperOffice.WebApi.Data.Carrier.TableRight
   - SuperOffice.WebApi.Data.Carrier.FieldProperties
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.WebApi.Data.ErpConnectionListMapping.#ctor
   commentId: M:SuperOffice.WebApi.Data.ErpConnectionListMapping.#ctor
   id: '#ctor'
@@ -56,18 +56,21 @@ items:
   nameWithType: ErpConnectionListMapping.ErpConnectionListMapping()
   fullName: SuperOffice.WebApi.Data.ErpConnectionListMapping.ErpConnectionListMapping()
   type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Default constructor - defaults any enum props to 0.
-  example: []
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
   syntax:
     content: public ErpConnectionListMapping()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.WebApi.Data.ErpConnectionListMapping.#ctor*
-  nameWithType.vb: ErpConnectionListMapping.New()
-  fullName.vb: SuperOffice.WebApi.Data.ErpConnectionListMapping.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.ErpConnectionListMapping.CrmList
   commentId: P:SuperOffice.WebApi.Data.ErpConnectionListMapping.CrmList
   id: CrmList
@@ -79,11 +82,13 @@ items:
   nameWithType: ErpConnectionListMapping.CrmList
   fullName: SuperOffice.WebApi.Data.ErpConnectionListMapping.CrmList
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The SuperOffice listItem
-  example: []
+  summary: "\nThe SuperOffice listItem\n"
   syntax:
     content: public virtual MDOListItem CrmList { get; set; }
     parameters: []
@@ -91,6 +96,14 @@ items:
       type: SuperOffice.WebApi.Data.MDOListItem
     content.vb: Public Overridable Property CrmList As MDOListItem
   overload: SuperOffice.WebApi.Data.ErpConnectionListMapping.CrmList*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.ErpConnectionListMapping.ErpListName
   commentId: P:SuperOffice.WebApi.Data.ErpConnectionListMapping.ErpListName
   id: ErpListName
@@ -102,11 +115,13 @@ items:
   nameWithType: ErpConnectionListMapping.ErpListName
   fullName: SuperOffice.WebApi.Data.ErpConnectionListMapping.ErpListName
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The ERP list name, if the field has a list of values supplied by the ERP Connector
-  example: []
+  summary: "\nThe ERP list name, if the field has a list of values supplied by the ERP Connector\n"
   syntax:
     content: public virtual string ErpListName { get; set; }
     parameters: []
@@ -114,6 +129,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property ErpListName As String
   overload: SuperOffice.WebApi.Data.ErpConnectionListMapping.ErpListName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.ErpConnectionListMapping.ErpCrmListItemMappings
   commentId: P:SuperOffice.WebApi.Data.ErpConnectionListMapping.ErpCrmListItemMappings
   id: ErpCrmListItemMappings
@@ -125,11 +148,13 @@ items:
   nameWithType: ErpConnectionListMapping.ErpCrmListItemMappings
   fullName: SuperOffice.WebApi.Data.ErpConnectionListMapping.ErpCrmListItemMappings
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Array of all the list item mappings
-  example: []
+  summary: "\nArray of all the list item mappings\n"
   syntax:
     content: public virtual ErpCrmListItemMapping[] ErpCrmListItemMappings { get; set; }
     parameters: []
@@ -137,6 +162,14 @@ items:
       type: SuperOffice.WebApi.Data.ErpCrmListItemMapping[]
     content.vb: Public Overridable Property ErpCrmListItemMappings As ErpCrmListItemMapping()
   overload: SuperOffice.WebApi.Data.ErpConnectionListMapping.ErpCrmListItemMappings*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.ErpConnectionListMapping.ErpActorTypeName
   commentId: P:SuperOffice.WebApi.Data.ErpConnectionListMapping.ErpActorTypeName
   id: ErpActorTypeName
@@ -148,11 +181,13 @@ items:
   nameWithType: ErpConnectionListMapping.ErpActorTypeName
   fullName: SuperOffice.WebApi.Data.ErpConnectionListMapping.ErpActorTypeName
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The actorType belonging to the ListMapping
-  example: []
+  summary: "\nThe actorType belonging to the ListMapping\n"
   syntax:
     content: public virtual string ErpActorTypeName { get; set; }
     parameters: []
@@ -160,6 +195,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property ErpActorTypeName As String
   overload: SuperOffice.WebApi.Data.ErpConnectionListMapping.ErpActorTypeName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.ErpConnectionListMapping.ErpFieldId
   commentId: P:SuperOffice.WebApi.Data.ErpConnectionListMapping.ErpFieldId
   id: ErpFieldId
@@ -171,11 +214,13 @@ items:
   nameWithType: ErpConnectionListMapping.ErpFieldId
   fullName: SuperOffice.WebApi.Data.ErpConnectionListMapping.ErpFieldId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The id of the field that is using the lists. Readonly
-  example: []
+  summary: "\nThe id of the field that is using the lists. Readonly\n"
   syntax:
     content: public virtual int ErpFieldId { get; set; }
     parameters: []
@@ -183,67 +228,32 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property ErpFieldId As Integer
   overload: SuperOffice.WebApi.Data.ErpConnectionListMapping.ErpFieldId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
-- uid: SuperOffice.WebApi.Agents.ErpSyncAgent
-  commentId: T:SuperOffice.WebApi.Agents.ErpSyncAgent
-  isExternal: true
-  href: SuperOffice.WebApi.Agents.ErpSyncAgent.html
-  name: ErpSyncAgent
-  nameWithType: ErpSyncAgent
-  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.WebApi.Data.Carrier
   commentId: T:SuperOffice.WebApi.Data.Carrier
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html
   name: Carrier
   nameWithType: Carrier
   fullName: SuperOffice.WebApi.Data.Carrier
@@ -251,7 +261,6 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_TableRight
   name: TableRight
   nameWithType: Carrier.TableRight
   fullName: SuperOffice.WebApi.Data.Carrier.TableRight
@@ -259,250 +268,30 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_FieldProperties
   name: FieldProperties
   nameWithType: Carrier.FieldProperties
   fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent
+  commentId: T:SuperOffice.WebApi.Agents.ErpSyncAgent
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: ErpSyncAgent
+  nameWithType: ErpSyncAgent
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Data.ErpConnectionListMapping.#ctor*
   commentId: Overload:SuperOffice.WebApi.Data.ErpConnectionListMapping.#ctor
   isExternal: true
-  href: SuperOffice.WebApi.Data.ErpConnectionListMapping.html#SuperOffice_WebApi_Data_ErpConnectionListMapping__ctor
   name: ErpConnectionListMapping
   nameWithType: ErpConnectionListMapping.ErpConnectionListMapping
   fullName: SuperOffice.WebApi.Data.ErpConnectionListMapping.ErpConnectionListMapping
-  nameWithType.vb: ErpConnectionListMapping.New
-  fullName.vb: SuperOffice.WebApi.Data.ErpConnectionListMapping.New
-  name.vb: New
 - uid: SuperOffice.WebApi.Data.ErpConnectionListMapping.CrmList*
   commentId: Overload:SuperOffice.WebApi.Data.ErpConnectionListMapping.CrmList
   isExternal: true
-  href: SuperOffice.WebApi.Data.ErpConnectionListMapping.html#SuperOffice_WebApi_Data_ErpConnectionListMapping_CrmList
   name: CrmList
   nameWithType: ErpConnectionListMapping.CrmList
   fullName: SuperOffice.WebApi.Data.ErpConnectionListMapping.CrmList
@@ -510,14 +299,12 @@ references:
   commentId: T:SuperOffice.WebApi.Data.MDOListItem
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.MDOListItem.html
   name: MDOListItem
   nameWithType: MDOListItem
   fullName: SuperOffice.WebApi.Data.MDOListItem
 - uid: SuperOffice.WebApi.Data.ErpConnectionListMapping.ErpListName*
   commentId: Overload:SuperOffice.WebApi.Data.ErpConnectionListMapping.ErpListName
   isExternal: true
-  href: SuperOffice.WebApi.Data.ErpConnectionListMapping.html#SuperOffice_WebApi_Data_ErpConnectionListMapping_ErpListName
   name: ErpListName
   nameWithType: ErpConnectionListMapping.ErpListName
   fullName: SuperOffice.WebApi.Data.ErpConnectionListMapping.ErpListName
@@ -525,23 +312,17 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.WebApi.Data.ErpConnectionListMapping.ErpCrmListItemMappings*
   commentId: Overload:SuperOffice.WebApi.Data.ErpConnectionListMapping.ErpCrmListItemMappings
   isExternal: true
-  href: SuperOffice.WebApi.Data.ErpConnectionListMapping.html#SuperOffice_WebApi_Data_ErpConnectionListMapping_ErpCrmListItemMappings
   name: ErpCrmListItemMappings
   nameWithType: ErpConnectionListMapping.ErpCrmListItemMappings
   fullName: SuperOffice.WebApi.Data.ErpConnectionListMapping.ErpCrmListItemMappings
 - uid: SuperOffice.WebApi.Data.ErpCrmListItemMapping[]
   isExternal: true
-  href: SuperOffice.WebApi.Data.ErpCrmListItemMapping.html
   name: ErpCrmListItemMapping[]
   nameWithType: ErpCrmListItemMapping[]
   fullName: SuperOffice.WebApi.Data.ErpCrmListItemMapping[]
@@ -551,28 +332,30 @@ references:
   spec.csharp:
   - uid: SuperOffice.WebApi.Data.ErpCrmListItemMapping
     name: ErpCrmListItemMapping
+    nameWithType: ErpCrmListItemMapping
+    fullName: SuperOffice.WebApi.Data.ErpCrmListItemMapping
     isExternal: true
-    href: SuperOffice.WebApi.Data.ErpCrmListItemMapping.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.WebApi.Data.ErpCrmListItemMapping
     name: ErpCrmListItemMapping
+    nameWithType: ErpCrmListItemMapping
+    fullName: SuperOffice.WebApi.Data.ErpCrmListItemMapping
     isExternal: true
-    href: SuperOffice.WebApi.Data.ErpCrmListItemMapping.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.WebApi.Data.ErpConnectionListMapping.ErpActorTypeName*
   commentId: Overload:SuperOffice.WebApi.Data.ErpConnectionListMapping.ErpActorTypeName
   isExternal: true
-  href: SuperOffice.WebApi.Data.ErpConnectionListMapping.html#SuperOffice_WebApi_Data_ErpConnectionListMapping_ErpActorTypeName
   name: ErpActorTypeName
   nameWithType: ErpConnectionListMapping.ErpActorTypeName
   fullName: SuperOffice.WebApi.Data.ErpConnectionListMapping.ErpActorTypeName
 - uid: SuperOffice.WebApi.Data.ErpConnectionListMapping.ErpFieldId*
   commentId: Overload:SuperOffice.WebApi.Data.ErpConnectionListMapping.ErpFieldId
   isExternal: true
-  href: SuperOffice.WebApi.Data.ErpConnectionListMapping.html#SuperOffice_WebApi_Data_ErpConnectionListMapping_ErpFieldId
   name: ErpFieldId
   nameWithType: ErpConnectionListMapping.ErpFieldId
   fullName: SuperOffice.WebApi.Data.ErpConnectionListMapping.ErpFieldId
@@ -580,10 +363,6 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

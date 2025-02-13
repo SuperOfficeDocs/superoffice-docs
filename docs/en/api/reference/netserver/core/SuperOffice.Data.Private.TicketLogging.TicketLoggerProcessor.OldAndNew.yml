@@ -29,7 +29,6 @@ items:
     content: 'public class OldAndNew : Object'
     content.vb: >-
       Public Class OldAndNew
-
           Inherits Object
   inheritance:
   - System.Object

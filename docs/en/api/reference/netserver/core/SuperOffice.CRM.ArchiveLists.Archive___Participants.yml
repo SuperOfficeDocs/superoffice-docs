@@ -19,7 +19,6 @@ references:
 - uid: SuperOffice.CRM.ArchiveLists.Archive___Participants.BookingParticipantsEmailOnlyProvider
   commentId: T:SuperOffice.CRM.ArchiveLists.Archive___Participants.BookingParticipantsEmailOnlyProvider
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.Archive___Participants.BookingParticipantsEmailOnlyProvider.html
   name: BookingParticipantsEmailOnlyProvider
   nameWithType: BookingParticipantsEmailOnlyProvider
   fullName: SuperOffice.CRM.ArchiveLists.Archive___Participants.BookingParticipantsEmailOnlyProvider
@@ -27,54 +26,12 @@ references:
   commentId: T:SuperOffice.CRM.ArchiveLists.Archive___Participants.ParticipantsEmailOnlyProvider
   parent: SuperOffice.CRM.ArchiveLists.Archive___Participants
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.Archive___Participants.ParticipantsEmailOnlyProvider.html
   name: ParticipantsEmailOnlyProvider
   nameWithType: ParticipantsEmailOnlyProvider
   fullName: SuperOffice.CRM.ArchiveLists.Archive___Participants.ParticipantsEmailOnlyProvider
 - uid: SuperOffice.CRM.ArchiveLists.Archive___Participants
   commentId: N:SuperOffice.CRM.ArchiveLists.Archive___Participants
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.ArchiveLists.Archive___Participants
   nameWithType: SuperOffice.CRM.ArchiveLists.Archive___Participants
   fullName: SuperOffice.CRM.ArchiveLists.Archive___Participants
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.ArchiveLists
-    name: ArchiveLists
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.html
-  - name: .
-  - uid: SuperOffice.CRM.ArchiveLists.Archive___Participants
-    name: Archive___Participants
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.Archive___Participants.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.ArchiveLists
-    name: ArchiveLists
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.html
-  - name: .
-  - uid: SuperOffice.CRM.ArchiveLists.Archive___Participants
-    name: Archive___Participants
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.Archive___Participants.html

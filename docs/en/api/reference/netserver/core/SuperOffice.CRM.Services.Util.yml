@@ -19,7 +19,6 @@ references:
 - uid: SuperOffice.CRM.Services.Util.SerializationHelper
   commentId: T:SuperOffice.CRM.Services.Util.SerializationHelper
   isExternal: true
-  href: SuperOffice.CRM.Services.Util.SerializationHelper.html
   name: SerializationHelper
   nameWithType: SerializationHelper
   fullName: SuperOffice.CRM.Services.Util.SerializationHelper
@@ -27,74 +26,12 @@ references:
   commentId: T:SuperOffice.CRM.Services.Util.SerializationHelper.ReadXmlHelper
   parent: SuperOffice.CRM.Services.Util
   isExternal: true
-  href: SuperOffice.CRM.Services.Util.SerializationHelper.html
   name: SerializationHelper.ReadXmlHelper
   nameWithType: SerializationHelper.ReadXmlHelper
   fullName: SuperOffice.CRM.Services.Util.SerializationHelper.ReadXmlHelper
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.Util.SerializationHelper
-    name: SerializationHelper
-    isExternal: true
-    href: SuperOffice.CRM.Services.Util.SerializationHelper.html
-  - name: .
-  - uid: SuperOffice.CRM.Services.Util.SerializationHelper.ReadXmlHelper
-    name: ReadXmlHelper
-    isExternal: true
-    href: SuperOffice.CRM.Services.Util.SerializationHelper.ReadXmlHelper.html
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.Util.SerializationHelper
-    name: SerializationHelper
-    isExternal: true
-    href: SuperOffice.CRM.Services.Util.SerializationHelper.html
-  - name: .
-  - uid: SuperOffice.CRM.Services.Util.SerializationHelper.ReadXmlHelper
-    name: ReadXmlHelper
-    isExternal: true
-    href: SuperOffice.CRM.Services.Util.SerializationHelper.ReadXmlHelper.html
 - uid: SuperOffice.CRM.Services.Util
   commentId: N:SuperOffice.CRM.Services.Util
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Services.Util
   nameWithType: SuperOffice.CRM.Services.Util
   fullName: SuperOffice.CRM.Services.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  - name: .
-  - uid: SuperOffice.CRM.Services.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.CRM.Services.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  - name: .
-  - uid: SuperOffice.CRM.Services.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.CRM.Services.Util.html

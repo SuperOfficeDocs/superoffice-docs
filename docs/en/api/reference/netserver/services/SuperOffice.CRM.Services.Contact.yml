@@ -39,37 +39,20 @@ items:
   nameWithType: Contact
   fullName: SuperOffice.CRM.Services.Contact
   type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Carrier object for Contact.
-
-    Services for the Contact Carrier is available from the <xref href="SuperOffice.CRM.Services.IContactAgent?text=Contact+Agent" data-throw-if-not-resolved="false"></xref>.
+  summary: "\nCarrier object for Contact.\nServices for the Contact Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IContactAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   example:
-  - >-
-    Get Contact 123 using the agent:
-
-    <pre><code class="lang-csharp">using SuperOffice;
-
-    using SuperOffice.CRM.Services;
-
-
-    using (SoSession mySession = SoSession.Authenticate("user", "pass"))
-
-    {
-       var agent = new ContactAgent();
-       var contact = agent.GetContact( 123 );
-    }</code></pre>
+  - "\nGet Contact 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new ContactAgent();\n    var contact = agent.GetContact( 123 );\n }</code></pre>\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public class Contact : Carrier
+    content: 'public class Contact : Carrier'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
-
-      Public Class Contact Inherits Carrier
+      Public Class Contact
+          Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.ContactAgent
     commentId: T:SuperOffice.CRM.Services.ContactAgent
@@ -77,14 +60,12 @@ items:
     commentId: T:SuperOffice.CRM.Services.IContactAgent
   inheritance:
   - System.Object
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.Contact.#ctor
   commentId: M:SuperOffice.CRM.Services.Contact.#ctor
   id: '#ctor'
@@ -96,18 +77,21 @@ items:
   nameWithType: Contact.Contact()
   fullName: SuperOffice.CRM.Services.Contact.Contact()
   type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Default constructor
-  example: []
+  summary: "\nDefault constructor\n"
   syntax:
     content: public Contact()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.Contact.#ctor*
-  nameWithType.vb: Contact.New()
-  fullName.vb: SuperOffice.CRM.Services.Contact.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.Contact.ToString
   commentId: M:SuperOffice.CRM.Services.Contact.ToString
   id: ToString
@@ -119,18 +103,26 @@ items:
   nameWithType: Contact.ToString()
   fullName: SuperOffice.CRM.Services.Contact.ToString()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the carrier contents as a formatted string.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string.\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString() As String
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.CRM.Services.Contact.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Services.Contact.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.Contact.ToString(System.String)
   id: ToString(System.String)
@@ -138,18 +130,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(string)
-  nameWithType: Contact.ToString(string)
-  fullName: SuperOffice.CRM.Services.Contact.ToString(string)
+  name: ToString(String)
+  nameWithType: Contact.ToString(String)
+  fullName: SuperOffice.CRM.Services.Contact.ToString(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Returns the carrier contents as a formatted string, useful for debugging.
-
-    Each line in the output is prefixed with the input value.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -161,9 +152,10 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.Contact.ToString*
-  nameWithType.vb: Contact.ToString(String)
-  fullName.vb: SuperOffice.CRM.Services.Contact.ToString(String)
-  name.vb: ToString(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.Contact.ContactId
   commentId: P:SuperOffice.CRM.Services.Contact.ContactId
   id: ContactId
@@ -175,28 +167,28 @@ items:
   nameWithType: Contact.ContactId
   fullName: SuperOffice.CRM.Services.Contact.ContactId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Primary key
-  example: []
+  summary: "\nPrimary key \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int ContactId { get; set; }
+    content: public virtual int ContactId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ContactId As Integer
+    content.vb: Public Overridable Property ContactId As Integer
   overload: SuperOffice.CRM.Services.Contact.ContactId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.Contact.Name
   commentId: P:SuperOffice.CRM.Services.Contact.Name
   id: Name
@@ -208,28 +200,28 @@ items:
   nameWithType: Contact.Name
   fullName: SuperOffice.CRM.Services.Contact.Name
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Contact name
-  example: []
+  summary: "\nContact name \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string Name { get; set; }
+    content: public virtual string Name { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Name As String
+    content.vb: Public Overridable Property Name As String
   overload: SuperOffice.CRM.Services.Contact.Name*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.Contact.OrgNr
   commentId: P:SuperOffice.CRM.Services.Contact.OrgNr
   id: OrgNr
@@ -241,28 +233,28 @@ items:
   nameWithType: Contact.OrgNr
   fullName: SuperOffice.CRM.Services.Contact.OrgNr
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: VAT number or similar
-  example: []
+  summary: "\nVAT number or similar \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string OrgNr { get; set; }
+    content: public virtual string OrgNr { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property OrgNr As String
+    content.vb: Public Overridable Property OrgNr As String
   overload: SuperOffice.CRM.Services.Contact.OrgNr*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.Contact.Department
   commentId: P:SuperOffice.CRM.Services.Contact.Department
   id: Department
@@ -274,28 +266,28 @@ items:
   nameWithType: Contact.Department
   fullName: SuperOffice.CRM.Services.Contact.Department
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Department
-  example: []
+  summary: "\nDepartment \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string Department { get; set; }
+    content: public virtual string Department { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Department As String
+    content.vb: Public Overridable Property Department As String
   overload: SuperOffice.CRM.Services.Contact.Department*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.Contact.URL
   commentId: P:SuperOffice.CRM.Services.Contact.URL
   id: URL
@@ -307,28 +299,28 @@ items:
   nameWithType: Contact.URL
   fullName: SuperOffice.CRM.Services.Contact.URL
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The internet address to this contact
-  example: []
+  summary: "\nThe internet address to this contact \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string URL { get; set; }
+    content: public virtual string URL { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property URL As String
+    content.vb: Public Overridable Property URL As String
   overload: SuperOffice.CRM.Services.Contact.URL*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.Contact.City
   commentId: P:SuperOffice.CRM.Services.Contact.City
   id: City
@@ -340,28 +332,28 @@ items:
   nameWithType: Contact.City
   fullName: SuperOffice.CRM.Services.Contact.City
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: City corresponding to zip code
-  example: []
+  summary: "\nCity corresponding to zip code \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string City { get; set; }
+    content: public virtual string City { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property City As String
+    content.vb: Public Overridable Property City As String
   overload: SuperOffice.CRM.Services.Contact.City*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.Contact.DirectPhone
   commentId: P:SuperOffice.CRM.Services.Contact.DirectPhone
   id: DirectPhone
@@ -373,28 +365,28 @@ items:
   nameWithType: Contact.DirectPhone
   fullName: SuperOffice.CRM.Services.Contact.DirectPhone
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The contacts phone
-  example: []
+  summary: "\nThe contacts phone \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string DirectPhone { get; set; }
+    content: public virtual string DirectPhone { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property DirectPhone As String
+    content.vb: Public Overridable Property DirectPhone As String
   overload: SuperOffice.CRM.Services.Contact.DirectPhone*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.Contact.AssociateId
   commentId: P:SuperOffice.CRM.Services.Contact.AssociateId
   id: AssociateId
@@ -406,28 +398,28 @@ items:
   nameWithType: Contact.AssociateId
   fullName: SuperOffice.CRM.Services.Contact.AssociateId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Our contact
-  example: []
+  summary: "\nOur contact \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int AssociateId { get; set; }
+    content: public virtual int AssociateId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property AssociateId As Integer
+    content.vb: Public Overridable Property AssociateId As Integer
   overload: SuperOffice.CRM.Services.Contact.AssociateId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.Contact.CountryId
   commentId: P:SuperOffice.CRM.Services.Contact.CountryId
   id: CountryId
@@ -439,28 +431,28 @@ items:
   nameWithType: Contact.CountryId
   fullName: SuperOffice.CRM.Services.Contact.CountryId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Country
-  example: []
+  summary: "\nCountry \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int CountryId { get; set; }
+    content: public virtual int CountryId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property CountryId As Integer
+    content.vb: Public Overridable Property CountryId As Integer
   overload: SuperOffice.CRM.Services.Contact.CountryId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.Contact.EmailAddress
   commentId: P:SuperOffice.CRM.Services.Contact.EmailAddress
   id: EmailAddress
@@ -472,28 +464,28 @@ items:
   nameWithType: Contact.EmailAddress
   fullName: SuperOffice.CRM.Services.Contact.EmailAddress
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The contact email address
-  example: []
+  summary: "\nThe contact email address \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string EmailAddress { get; set; }
+    content: public virtual string EmailAddress { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property EmailAddress As String
+    content.vb: Public Overridable Property EmailAddress As String
   overload: SuperOffice.CRM.Services.Contact.EmailAddress*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.Contact.Kananame
   commentId: P:SuperOffice.CRM.Services.Contact.Kananame
   id: Kananame
@@ -505,28 +497,28 @@ items:
   nameWithType: Contact.Kananame
   fullName: SuperOffice.CRM.Services.Contact.Kananame
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Contact kana name, used in Japanese versions only
-  example: []
+  summary: "\nContact kana name, used in Japanese versions only \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string Kananame { get; set; }
+    content: public virtual string Kananame { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Kananame As String
+    content.vb: Public Overridable Property Kananame As String
   overload: SuperOffice.CRM.Services.Contact.Kananame*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.Contact.EmailAddressName
   commentId: P:SuperOffice.CRM.Services.Contact.EmailAddressName
   id: EmailAddressName
@@ -538,28 +530,28 @@ items:
   nameWithType: Contact.EmailAddressName
   fullName: SuperOffice.CRM.Services.Contact.EmailAddressName
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Visible field
-  example: []
+  summary: "\nVisible field \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string EmailAddressName { get; set; }
+    content: public virtual string EmailAddressName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property EmailAddressName As String
+    content.vb: Public Overridable Property EmailAddressName As String
   overload: SuperOffice.CRM.Services.Contact.EmailAddressName*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.Contact.URLName
   commentId: P:SuperOffice.CRM.Services.Contact.URLName
   id: URLName
@@ -571,28 +563,28 @@ items:
   nameWithType: Contact.URLName
   fullName: SuperOffice.CRM.Services.Contact.URLName
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Visible field
-  example: []
+  summary: "\nVisible field \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string URLName { get; set; }
+    content: public virtual string URLName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property URLName As String
+    content.vb: Public Overridable Property URLName As String
   overload: SuperOffice.CRM.Services.Contact.URLName*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.Contact.AssociateFullName
   commentId: P:SuperOffice.CRM.Services.Contact.AssociateFullName
   id: AssociateFullName
@@ -604,28 +596,28 @@ items:
   nameWithType: Contact.AssociateFullName
   fullName: SuperOffice.CRM.Services.Contact.AssociateFullName
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The associate's culture formatted fullname (firstname, middleName and lastname)
-  example: []
+  summary: "\nThe associate&apos;s culture formatted fullname (firstname, middleName and lastname) \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string AssociateFullName { get; set; }
+    content: public virtual string AssociateFullName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property AssociateFullName As String
+    content.vb: Public Overridable Property AssociateFullName As String
   overload: SuperOffice.CRM.Services.Contact.AssociateFullName*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.Contact.BusinessName
   commentId: P:SuperOffice.CRM.Services.Contact.BusinessName
   id: BusinessName
@@ -637,28 +629,28 @@ items:
   nameWithType: Contact.BusinessName
   fullName: SuperOffice.CRM.Services.Contact.BusinessName
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The business list item name
-  example: []
+  summary: "\nThe business list item name \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string BusinessName { get; set; }
+    content: public virtual string BusinessName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property BusinessName As String
+    content.vb: Public Overridable Property BusinessName As String
   overload: SuperOffice.CRM.Services.Contact.BusinessName*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.Contact.CategoryName
   commentId: P:SuperOffice.CRM.Services.Contact.CategoryName
   id: CategoryName
@@ -670,28 +662,28 @@ items:
   nameWithType: Contact.CategoryName
   fullName: SuperOffice.CRM.Services.Contact.CategoryName
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The category list item name
-  example: []
+  summary: "\nThe category list item name \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string CategoryName { get; set; }
+    content: public virtual string CategoryName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property CategoryName As String
+    content.vb: Public Overridable Property CategoryName As String
   overload: SuperOffice.CRM.Services.Contact.CategoryName*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.Contact.CountryName
   commentId: P:SuperOffice.CRM.Services.Contact.CountryName
   id: CountryName
@@ -703,28 +695,28 @@ items:
   nameWithType: Contact.CountryName
   fullName: SuperOffice.CRM.Services.Contact.CountryName
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Name of country in installed language
-  example: []
+  summary: "\nName of country in installed language \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string CountryName { get; set; }
+    content: public virtual string CountryName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property CountryName As String
+    content.vb: Public Overridable Property CountryName As String
   overload: SuperOffice.CRM.Services.Contact.CountryName*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.Contact.Address
   commentId: P:SuperOffice.CRM.Services.Contact.Address
   id: Address
@@ -736,28 +728,28 @@ items:
   nameWithType: Contact.Address
   fullName: SuperOffice.CRM.Services.Contact.Address
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Contact address as  a list of LocalizedFieldList objects. Used to store localized information such as formatted address data. Suitable for passing to an address control for display.
-  example: []
+  summary: "\nContact address as  a list of LocalizedFieldList objects. Used to store localized information such as formatted address data. Suitable for passing to an address control for display.  \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual Address Address { get; set; }
+    content: public virtual Address Address { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.Address
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Address As Address
+    content.vb: Public Overridable Property Address As Address
   overload: SuperOffice.CRM.Services.Contact.Address*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.Contact.FormattedAddress
   commentId: P:SuperOffice.CRM.Services.Contact.FormattedAddress
   id: FormattedAddress
@@ -769,28 +761,28 @@ items:
   nameWithType: Contact.FormattedAddress
   fullName: SuperOffice.CRM.Services.Contact.FormattedAddress
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The contact's address, formatted with linebreaks and spaces into a single string.
-  example: []
+  summary: "\nThe contact&apos;s address, formatted with linebreaks and spaces into a single string. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string FormattedAddress { get; set; }
+    content: public virtual string FormattedAddress { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property FormattedAddress As String
+    content.vb: Public Overridable Property FormattedAddress As String
   overload: SuperOffice.CRM.Services.Contact.FormattedAddress*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.Contact.FullName
   commentId: P:SuperOffice.CRM.Services.Contact.FullName
   id: FullName
@@ -802,28 +794,28 @@ items:
   nameWithType: Contact.FullName
   fullName: SuperOffice.CRM.Services.Contact.FullName
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: ''
-  example: []
+  summary: "\n\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string FullName { get; set; }
+    content: public virtual string FullName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property FullName As String
+    content.vb: Public Overridable Property FullName As String
   overload: SuperOffice.CRM.Services.Contact.FullName*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.Contact.IsOwnerContact
   commentId: P:SuperOffice.CRM.Services.Contact.IsOwnerContact
   id: IsOwnerContact
@@ -835,28 +827,28 @@ items:
   nameWithType: Contact.IsOwnerContact
   fullName: SuperOffice.CRM.Services.Contact.IsOwnerContact
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Is the contact an owner contact.  This means that all persons on this contact can on only be internal users and not external users.
-  example: []
+  summary: "\nIs the contact an owner contact.  This means that all persons on this contact can on only be internal users and not external users. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual bool IsOwnerContact { get; set; }
+    content: public virtual bool IsOwnerContact { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property IsOwnerContact As Boolean
+    content.vb: Public Overridable Property IsOwnerContact As Boolean
   overload: SuperOffice.CRM.Services.Contact.IsOwnerContact*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.Contact.ActiveErpLinks
   commentId: P:SuperOffice.CRM.Services.Contact.ActiveErpLinks
   id: ActiveErpLinks
@@ -868,28 +860,28 @@ items:
   nameWithType: Contact.ActiveErpLinks
   fullName: SuperOffice.CRM.Services.Contact.ActiveErpLinks
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The number of active erp links
-  example: []
+  summary: "\nThe number of active erp links \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int ActiveErpLinks { get; set; }
+    content: public virtual int ActiveErpLinks { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ActiveErpLinks As Integer
+    content.vb: Public Overridable Property ActiveErpLinks As Integer
   overload: SuperOffice.CRM.Services.Contact.ActiveErpLinks*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.Contact.Number1
   commentId: P:SuperOffice.CRM.Services.Contact.Number1
   id: Number1
@@ -901,28 +893,28 @@ items:
   nameWithType: Contact.Number1
   fullName: SuperOffice.CRM.Services.Contact.Number1
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Alphanumeric user field
-  example: []
+  summary: "\nAlphanumeric user field \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string Number1 { get; set; }
+    content: public virtual string Number1 { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Number1 As String
+    content.vb: Public Overridable Property Number1 As String
   overload: SuperOffice.CRM.Services.Contact.Number1*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.Contact.Number2
   commentId: P:SuperOffice.CRM.Services.Contact.Number2
   id: Number2
@@ -934,33 +926,38 @@ items:
   nameWithType: Contact.Number2
   fullName: SuperOffice.CRM.Services.Contact.Number2
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Alphanumeric user field
-  example: []
+  summary: "\nAlphanumeric user field \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string Number2 { get; set; }
+    content: public virtual string Number2 { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Number2 As String
+    content.vb: Public Overridable Property Number2 As String
   overload: SuperOffice.CRM.Services.Contact.Number2*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
 - uid: SuperOffice.CRM.Services.ContactAgent
   commentId: T:SuperOffice.CRM.Services.ContactAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.ContactAgent.html
   name: ContactAgent
   nameWithType: ContactAgent
   fullName: SuperOffice.CRM.Services.ContactAgent
@@ -968,79 +965,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.IContactAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.IContactAgent.html
   name: IContactAgent
   nameWithType: IContactAgent
   fullName: SuperOffice.CRM.Services.IContactAgent
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.Contact.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.Contact.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.Contact.html#SuperOffice_CRM_Services_Contact__ctor
   name: Contact
   nameWithType: Contact.Contact
   fullName: SuperOffice.CRM.Services.Contact.Contact
-  nameWithType.vb: Contact.New
-  fullName.vb: SuperOffice.CRM.Services.Contact.New
-  name.vb: New
 - uid: SuperOffice.CRM.Services.Contact.ToString*
   commentId: Overload:SuperOffice.CRM.Services.Contact.ToString
   isExternal: true
-  href: SuperOffice.CRM.Services.Contact.html#SuperOffice_CRM_Services_Contact_ToString
   name: ToString
   nameWithType: Contact.ToString
   fullName: SuperOffice.CRM.Services.Contact.ToString
@@ -1048,17 +984,18 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.Contact.ContactId*
   commentId: Overload:SuperOffice.CRM.Services.Contact.ContactId
   isExternal: true
-  href: SuperOffice.CRM.Services.Contact.html#SuperOffice_CRM_Services_Contact_ContactId
   name: ContactId
   nameWithType: Contact.ContactId
   fullName: SuperOffice.CRM.Services.Contact.ContactId
@@ -1066,129 +1003,108 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Services.Contact.Name*
   commentId: Overload:SuperOffice.CRM.Services.Contact.Name
   isExternal: true
-  href: SuperOffice.CRM.Services.Contact.html#SuperOffice_CRM_Services_Contact_Name
   name: Name
   nameWithType: Contact.Name
   fullName: SuperOffice.CRM.Services.Contact.Name
 - uid: SuperOffice.CRM.Services.Contact.OrgNr*
   commentId: Overload:SuperOffice.CRM.Services.Contact.OrgNr
   isExternal: true
-  href: SuperOffice.CRM.Services.Contact.html#SuperOffice_CRM_Services_Contact_OrgNr
   name: OrgNr
   nameWithType: Contact.OrgNr
   fullName: SuperOffice.CRM.Services.Contact.OrgNr
 - uid: SuperOffice.CRM.Services.Contact.Department*
   commentId: Overload:SuperOffice.CRM.Services.Contact.Department
   isExternal: true
-  href: SuperOffice.CRM.Services.Contact.html#SuperOffice_CRM_Services_Contact_Department
   name: Department
   nameWithType: Contact.Department
   fullName: SuperOffice.CRM.Services.Contact.Department
 - uid: SuperOffice.CRM.Services.Contact.URL*
   commentId: Overload:SuperOffice.CRM.Services.Contact.URL
   isExternal: true
-  href: SuperOffice.CRM.Services.Contact.html#SuperOffice_CRM_Services_Contact_URL
   name: URL
   nameWithType: Contact.URL
   fullName: SuperOffice.CRM.Services.Contact.URL
 - uid: SuperOffice.CRM.Services.Contact.City*
   commentId: Overload:SuperOffice.CRM.Services.Contact.City
   isExternal: true
-  href: SuperOffice.CRM.Services.Contact.html#SuperOffice_CRM_Services_Contact_City
   name: City
   nameWithType: Contact.City
   fullName: SuperOffice.CRM.Services.Contact.City
 - uid: SuperOffice.CRM.Services.Contact.DirectPhone*
   commentId: Overload:SuperOffice.CRM.Services.Contact.DirectPhone
   isExternal: true
-  href: SuperOffice.CRM.Services.Contact.html#SuperOffice_CRM_Services_Contact_DirectPhone
   name: DirectPhone
   nameWithType: Contact.DirectPhone
   fullName: SuperOffice.CRM.Services.Contact.DirectPhone
 - uid: SuperOffice.CRM.Services.Contact.AssociateId*
   commentId: Overload:SuperOffice.CRM.Services.Contact.AssociateId
   isExternal: true
-  href: SuperOffice.CRM.Services.Contact.html#SuperOffice_CRM_Services_Contact_AssociateId
   name: AssociateId
   nameWithType: Contact.AssociateId
   fullName: SuperOffice.CRM.Services.Contact.AssociateId
 - uid: SuperOffice.CRM.Services.Contact.CountryId*
   commentId: Overload:SuperOffice.CRM.Services.Contact.CountryId
   isExternal: true
-  href: SuperOffice.CRM.Services.Contact.html#SuperOffice_CRM_Services_Contact_CountryId
   name: CountryId
   nameWithType: Contact.CountryId
   fullName: SuperOffice.CRM.Services.Contact.CountryId
 - uid: SuperOffice.CRM.Services.Contact.EmailAddress*
   commentId: Overload:SuperOffice.CRM.Services.Contact.EmailAddress
   isExternal: true
-  href: SuperOffice.CRM.Services.Contact.html#SuperOffice_CRM_Services_Contact_EmailAddress
   name: EmailAddress
   nameWithType: Contact.EmailAddress
   fullName: SuperOffice.CRM.Services.Contact.EmailAddress
 - uid: SuperOffice.CRM.Services.Contact.Kananame*
   commentId: Overload:SuperOffice.CRM.Services.Contact.Kananame
   isExternal: true
-  href: SuperOffice.CRM.Services.Contact.html#SuperOffice_CRM_Services_Contact_Kananame
   name: Kananame
   nameWithType: Contact.Kananame
   fullName: SuperOffice.CRM.Services.Contact.Kananame
 - uid: SuperOffice.CRM.Services.Contact.EmailAddressName*
   commentId: Overload:SuperOffice.CRM.Services.Contact.EmailAddressName
   isExternal: true
-  href: SuperOffice.CRM.Services.Contact.html#SuperOffice_CRM_Services_Contact_EmailAddressName
   name: EmailAddressName
   nameWithType: Contact.EmailAddressName
   fullName: SuperOffice.CRM.Services.Contact.EmailAddressName
 - uid: SuperOffice.CRM.Services.Contact.URLName*
   commentId: Overload:SuperOffice.CRM.Services.Contact.URLName
   isExternal: true
-  href: SuperOffice.CRM.Services.Contact.html#SuperOffice_CRM_Services_Contact_URLName
   name: URLName
   nameWithType: Contact.URLName
   fullName: SuperOffice.CRM.Services.Contact.URLName
 - uid: SuperOffice.CRM.Services.Contact.AssociateFullName*
   commentId: Overload:SuperOffice.CRM.Services.Contact.AssociateFullName
   isExternal: true
-  href: SuperOffice.CRM.Services.Contact.html#SuperOffice_CRM_Services_Contact_AssociateFullName
   name: AssociateFullName
   nameWithType: Contact.AssociateFullName
   fullName: SuperOffice.CRM.Services.Contact.AssociateFullName
 - uid: SuperOffice.CRM.Services.Contact.BusinessName*
   commentId: Overload:SuperOffice.CRM.Services.Contact.BusinessName
   isExternal: true
-  href: SuperOffice.CRM.Services.Contact.html#SuperOffice_CRM_Services_Contact_BusinessName
   name: BusinessName
   nameWithType: Contact.BusinessName
   fullName: SuperOffice.CRM.Services.Contact.BusinessName
 - uid: SuperOffice.CRM.Services.Contact.CategoryName*
   commentId: Overload:SuperOffice.CRM.Services.Contact.CategoryName
   isExternal: true
-  href: SuperOffice.CRM.Services.Contact.html#SuperOffice_CRM_Services_Contact_CategoryName
   name: CategoryName
   nameWithType: Contact.CategoryName
   fullName: SuperOffice.CRM.Services.Contact.CategoryName
 - uid: SuperOffice.CRM.Services.Contact.CountryName*
   commentId: Overload:SuperOffice.CRM.Services.Contact.CountryName
   isExternal: true
-  href: SuperOffice.CRM.Services.Contact.html#SuperOffice_CRM_Services_Contact_CountryName
   name: CountryName
   nameWithType: Contact.CountryName
   fullName: SuperOffice.CRM.Services.Contact.CountryName
 - uid: SuperOffice.CRM.Services.Contact.Address*
   commentId: Overload:SuperOffice.CRM.Services.Contact.Address
   isExternal: true
-  href: SuperOffice.CRM.Services.Contact.html#SuperOffice_CRM_Services_Contact_Address
   name: Address
   nameWithType: Contact.Address
   fullName: SuperOffice.CRM.Services.Contact.Address
@@ -1196,28 +1112,24 @@ references:
   commentId: T:SuperOffice.CRM.Services.Address
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.Address.html
   name: Address
   nameWithType: Address
   fullName: SuperOffice.CRM.Services.Address
 - uid: SuperOffice.CRM.Services.Contact.FormattedAddress*
   commentId: Overload:SuperOffice.CRM.Services.Contact.FormattedAddress
   isExternal: true
-  href: SuperOffice.CRM.Services.Contact.html#SuperOffice_CRM_Services_Contact_FormattedAddress
   name: FormattedAddress
   nameWithType: Contact.FormattedAddress
   fullName: SuperOffice.CRM.Services.Contact.FormattedAddress
 - uid: SuperOffice.CRM.Services.Contact.FullName*
   commentId: Overload:SuperOffice.CRM.Services.Contact.FullName
   isExternal: true
-  href: SuperOffice.CRM.Services.Contact.html#SuperOffice_CRM_Services_Contact_FullName
   name: FullName
   nameWithType: Contact.FullName
   fullName: SuperOffice.CRM.Services.Contact.FullName
 - uid: SuperOffice.CRM.Services.Contact.IsOwnerContact*
   commentId: Overload:SuperOffice.CRM.Services.Contact.IsOwnerContact
   isExternal: true
-  href: SuperOffice.CRM.Services.Contact.html#SuperOffice_CRM_Services_Contact_IsOwnerContact
   name: IsOwnerContact
   nameWithType: Contact.IsOwnerContact
   fullName: SuperOffice.CRM.Services.Contact.IsOwnerContact
@@ -1225,31 +1137,24 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.CRM.Services.Contact.ActiveErpLinks*
   commentId: Overload:SuperOffice.CRM.Services.Contact.ActiveErpLinks
   isExternal: true
-  href: SuperOffice.CRM.Services.Contact.html#SuperOffice_CRM_Services_Contact_ActiveErpLinks
   name: ActiveErpLinks
   nameWithType: Contact.ActiveErpLinks
   fullName: SuperOffice.CRM.Services.Contact.ActiveErpLinks
 - uid: SuperOffice.CRM.Services.Contact.Number1*
   commentId: Overload:SuperOffice.CRM.Services.Contact.Number1
   isExternal: true
-  href: SuperOffice.CRM.Services.Contact.html#SuperOffice_CRM_Services_Contact_Number1
   name: Number1
   nameWithType: Contact.Number1
   fullName: SuperOffice.CRM.Services.Contact.Number1
 - uid: SuperOffice.CRM.Services.Contact.Number2*
   commentId: Overload:SuperOffice.CRM.Services.Contact.Number2
   isExternal: true
-  href: SuperOffice.CRM.Services.Contact.html#SuperOffice_CRM_Services_Contact_Number2
   name: Number2
   nameWithType: Contact.Number2
   fullName: SuperOffice.CRM.Services.Contact.Number2

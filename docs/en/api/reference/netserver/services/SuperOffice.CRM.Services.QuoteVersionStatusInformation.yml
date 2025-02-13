@@ -19,27 +19,18 @@ items:
   nameWithType: QuoteVersionStatusInformation
   fullName: SuperOffice.CRM.Services.QuoteVersionStatusInformation
   type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Information about possible button actions for the quote version dialog.
-
-    <p></p>
-
-    Carrier object for QuoteVersionStatusInformation.
-
-    Services for the QuoteVersionStatusInformation Carrier is available from the <xref href="SuperOffice.CRM.Services.IQuoteAgent?text=Quote+Agent" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nInformation about possible button actions for the quote version dialog.\n<p></p>\nCarrier object for QuoteVersionStatusInformation.\nServices for the QuoteVersionStatusInformation Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IQuoteAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public class QuoteVersionStatusInformation : Carrier
+    content: 'public class QuoteVersionStatusInformation : Carrier'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
-
-      Public Class QuoteVersionStatusInformation Inherits Carrier
+      Public Class QuoteVersionStatusInformation
+          Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.QuoteAgent
     commentId: T:SuperOffice.CRM.Services.QuoteAgent
@@ -47,14 +38,12 @@ items:
     commentId: T:SuperOffice.CRM.Services.IQuoteAgent
   inheritance:
   - System.Object
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.QuoteVersionStatusInformation.#ctor
   commentId: M:SuperOffice.CRM.Services.QuoteVersionStatusInformation.#ctor
   id: '#ctor'
@@ -66,18 +55,21 @@ items:
   nameWithType: QuoteVersionStatusInformation.QuoteVersionStatusInformation()
   fullName: SuperOffice.CRM.Services.QuoteVersionStatusInformation.QuoteVersionStatusInformation()
   type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Default constructor
-  example: []
+  summary: "\nDefault constructor\n"
   syntax:
     content: public QuoteVersionStatusInformation()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.QuoteVersionStatusInformation.#ctor*
-  nameWithType.vb: QuoteVersionStatusInformation.New()
-  fullName.vb: SuperOffice.CRM.Services.QuoteVersionStatusInformation.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.QuoteVersionStatusInformation.ToString
   commentId: M:SuperOffice.CRM.Services.QuoteVersionStatusInformation.ToString
   id: ToString
@@ -89,18 +81,26 @@ items:
   nameWithType: QuoteVersionStatusInformation.ToString()
   fullName: SuperOffice.CRM.Services.QuoteVersionStatusInformation.ToString()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the carrier contents as a formatted string.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string.\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString() As String
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.CRM.Services.QuoteVersionStatusInformation.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Services.QuoteVersionStatusInformation.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.QuoteVersionStatusInformation.ToString(System.String)
   id: ToString(System.String)
@@ -108,18 +108,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(string)
-  nameWithType: QuoteVersionStatusInformation.ToString(string)
-  fullName: SuperOffice.CRM.Services.QuoteVersionStatusInformation.ToString(string)
+  name: ToString(String)
+  nameWithType: QuoteVersionStatusInformation.ToString(String)
+  fullName: SuperOffice.CRM.Services.QuoteVersionStatusInformation.ToString(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Returns the carrier contents as a formatted string, useful for debugging.
-
-    Each line in the output is prefixed with the input value.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -131,9 +130,10 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.QuoteVersionStatusInformation.ToString*
-  nameWithType.vb: QuoteVersionStatusInformation.ToString(String)
-  fullName.vb: SuperOffice.CRM.Services.QuoteVersionStatusInformation.ToString(String)
-  name.vb: ToString(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.QuoteVersionStatusInformation.Status
   commentId: P:SuperOffice.CRM.Services.QuoteVersionStatusInformation.Status
   id: Status
@@ -145,28 +145,28 @@ items:
   nameWithType: QuoteVersionStatusInformation.Status
   fullName: SuperOffice.CRM.Services.QuoteVersionStatusInformation.Status
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: 'Status information for the quote version: Ok / OkWithInfo / Warn / Error.'
-  example: []
+  summary: "\nStatus information for the quote version: Ok / OkWithInfo / Warn / Error. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual QuoteStatus Status { get; set; }
+    content: public virtual QuoteStatus Status { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.QuoteStatus
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Status As QuoteStatus
+    content.vb: Public Overridable Property Status As QuoteStatus
   overload: SuperOffice.CRM.Services.QuoteVersionStatusInformation.Status*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuoteVersionStatusInformation.IconHint
   commentId: P:SuperOffice.CRM.Services.QuoteVersionStatusInformation.IconHint
   id: IconHint
@@ -178,28 +178,28 @@ items:
   nameWithType: QuoteVersionStatusInformation.IconHint
   fullName: SuperOffice.CRM.Services.QuoteVersionStatusInformation.IconHint
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Icon hint for the associated message.
-  example: []
+  summary: "\nIcon hint for the associated message. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string IconHint { get; set; }
+    content: public virtual string IconHint { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property IconHint As String
+    content.vb: Public Overridable Property IconHint As String
   overload: SuperOffice.CRM.Services.QuoteVersionStatusInformation.IconHint*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuoteVersionStatusInformation.DisplayMessage
   commentId: P:SuperOffice.CRM.Services.QuoteVersionStatusInformation.DisplayMessage
   id: DisplayMessage
@@ -211,28 +211,28 @@ items:
   nameWithType: QuoteVersionStatusInformation.DisplayMessage
   fullName: SuperOffice.CRM.Services.QuoteVersionStatusInformation.DisplayMessage
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Generated error message for the Quote Version. Will check for errors on quote lines, alternatives and the version itself.
-  example: []
+  summary: "\nGenerated error message for the Quote Version. Will check for errors on quote lines, alternatives and the version itself. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string DisplayMessage { get; set; }
+    content: public virtual string DisplayMessage { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property DisplayMessage As String
+    content.vb: Public Overridable Property DisplayMessage As String
   overload: SuperOffice.CRM.Services.QuoteVersionStatusInformation.DisplayMessage*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuoteVersionStatusInformation.DisplayTooltip
   commentId: P:SuperOffice.CRM.Services.QuoteVersionStatusInformation.DisplayTooltip
   id: DisplayTooltip
@@ -244,33 +244,38 @@ items:
   nameWithType: QuoteVersionStatusInformation.DisplayTooltip
   fullName: SuperOffice.CRM.Services.QuoteVersionStatusInformation.DisplayTooltip
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Generated full tooltip for the Quote Version. Will check for errors on quote lines, alternatives and the version itself.
-  example: []
+  summary: "\nGenerated full tooltip for the Quote Version. Will check for errors on quote lines, alternatives and the version itself. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string DisplayTooltip { get; set; }
+    content: public virtual string DisplayTooltip { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property DisplayTooltip As String
+    content.vb: Public Overridable Property DisplayTooltip As String
   overload: SuperOffice.CRM.Services.QuoteVersionStatusInformation.DisplayTooltip*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
 - uid: SuperOffice.CRM.Services.QuoteAgent
   commentId: T:SuperOffice.CRM.Services.QuoteAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteAgent.html
   name: QuoteAgent
   nameWithType: QuoteAgent
   fullName: SuperOffice.CRM.Services.QuoteAgent
@@ -278,79 +283,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.IQuoteAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.IQuoteAgent.html
   name: IQuoteAgent
   nameWithType: IQuoteAgent
   fullName: SuperOffice.CRM.Services.IQuoteAgent
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.QuoteVersionStatusInformation.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.QuoteVersionStatusInformation.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteVersionStatusInformation.html#SuperOffice_CRM_Services_QuoteVersionStatusInformation__ctor
   name: QuoteVersionStatusInformation
   nameWithType: QuoteVersionStatusInformation.QuoteVersionStatusInformation
   fullName: SuperOffice.CRM.Services.QuoteVersionStatusInformation.QuoteVersionStatusInformation
-  nameWithType.vb: QuoteVersionStatusInformation.New
-  fullName.vb: SuperOffice.CRM.Services.QuoteVersionStatusInformation.New
-  name.vb: New
 - uid: SuperOffice.CRM.Services.QuoteVersionStatusInformation.ToString*
   commentId: Overload:SuperOffice.CRM.Services.QuoteVersionStatusInformation.ToString
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteVersionStatusInformation.html#SuperOffice_CRM_Services_QuoteVersionStatusInformation_ToString
   name: ToString
   nameWithType: QuoteVersionStatusInformation.ToString
   fullName: SuperOffice.CRM.Services.QuoteVersionStatusInformation.ToString
@@ -358,17 +302,18 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.QuoteVersionStatusInformation.Status*
   commentId: Overload:SuperOffice.CRM.Services.QuoteVersionStatusInformation.Status
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteVersionStatusInformation.html#SuperOffice_CRM_Services_QuoteVersionStatusInformation_Status
   name: Status
   nameWithType: QuoteVersionStatusInformation.Status
   fullName: SuperOffice.CRM.Services.QuoteVersionStatusInformation.Status
@@ -380,21 +325,18 @@ references:
 - uid: SuperOffice.CRM.Services.QuoteVersionStatusInformation.IconHint*
   commentId: Overload:SuperOffice.CRM.Services.QuoteVersionStatusInformation.IconHint
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteVersionStatusInformation.html#SuperOffice_CRM_Services_QuoteVersionStatusInformation_IconHint
   name: IconHint
   nameWithType: QuoteVersionStatusInformation.IconHint
   fullName: SuperOffice.CRM.Services.QuoteVersionStatusInformation.IconHint
 - uid: SuperOffice.CRM.Services.QuoteVersionStatusInformation.DisplayMessage*
   commentId: Overload:SuperOffice.CRM.Services.QuoteVersionStatusInformation.DisplayMessage
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteVersionStatusInformation.html#SuperOffice_CRM_Services_QuoteVersionStatusInformation_DisplayMessage
   name: DisplayMessage
   nameWithType: QuoteVersionStatusInformation.DisplayMessage
   fullName: SuperOffice.CRM.Services.QuoteVersionStatusInformation.DisplayMessage
 - uid: SuperOffice.CRM.Services.QuoteVersionStatusInformation.DisplayTooltip*
   commentId: Overload:SuperOffice.CRM.Services.QuoteVersionStatusInformation.DisplayTooltip
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteVersionStatusInformation.html#SuperOffice_CRM_Services_QuoteVersionStatusInformation_DisplayTooltip
   name: DisplayTooltip
   nameWithType: QuoteVersionStatusInformation.DisplayTooltip
   fullName: SuperOffice.CRM.Services.QuoteVersionStatusInformation.DisplayTooltip

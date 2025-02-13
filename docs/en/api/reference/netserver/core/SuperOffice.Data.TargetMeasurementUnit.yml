@@ -9,44 +9,67 @@ items:
   - SuperOffice.Data.TargetMeasurementUnit.Count
   - SuperOffice.Data.TargetMeasurementUnit.None
   - SuperOffice.Data.TargetMeasurementUnit.Profit
+  - SuperOffice.Data.TargetMeasurementUnit.value__
   langs:
   - csharp
   - vb
   name: TargetMeasurementUnit
   nameWithType: TargetMeasurementUnit
   fullName: SuperOffice.Data.TargetMeasurementUnit
-  type: Enum
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: >-
-    Target measurement unit
-
-    This Enum is used by:  target_dimension.measurement_unit
-  example: []
+  summary: "\nTarget measurement unit\nThis Enum is used by:  target_dimension.measurement_unit\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public enum TargetMeasurementUnit : short
+    content: 'public sealed class TargetMeasurementUnit : Enum'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
+      Public NotInheritable Class TargetMeasurementUnit
+          Inherits
 
-      Public Enum TargetMeasurementUnit As Short
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.TargetMeasurementUnit.EnumUtil.MapEnums``2
   - SuperOffice.Data.TargetMeasurementUnit.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  - SuperOffice.Data.TargetMeasurementUnit.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.TargetMeasurementUnit)
-  - SuperOffice.Data.TargetMeasurementUnit.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - System.Enum.EnumUtil.GetDescription
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.TargetMeasurementUnit.value__
+  commentId: F:SuperOffice.Data.TargetMeasurementUnit.value__
+  id: value__
+  parent: SuperOffice.Data.TargetMeasurementUnit
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: TargetMeasurementUnit.value__
+  fullName: SuperOffice.Data.TargetMeasurementUnit.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.TargetMeasurementUnit.None
   commentId: F:SuperOffice.Data.TargetMeasurementUnit.None
   id: None
@@ -58,26 +81,24 @@ items:
   nameWithType: TargetMeasurementUnit.None
   fullName: SuperOffice.Data.TargetMeasurementUnit.None
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '0: None'
-  example: []
+  summary: "\n0: None\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      None = 0
+    content: public const TargetMeasurementUnit None
     return:
       type: SuperOffice.Data.TargetMeasurementUnit
-    content.vb: >-
-      <EnumMember>
-
-      None = 0
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const None As TargetMeasurementUnit
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TargetMeasurementUnit.Amount
   commentId: F:SuperOffice.Data.TargetMeasurementUnit.Amount
   id: Amount
@@ -89,26 +110,24 @@ items:
   nameWithType: TargetMeasurementUnit.Amount
   fullName: SuperOffice.Data.TargetMeasurementUnit.Amount
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '1: Amount'
-  example: []
+  summary: "\n1: Amount\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Amount = 1
+    content: public const TargetMeasurementUnit Amount
     return:
       type: SuperOffice.Data.TargetMeasurementUnit
-    content.vb: >-
-      <EnumMember>
-
-      Amount = 1
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Amount As TargetMeasurementUnit
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TargetMeasurementUnit.Count
   commentId: F:SuperOffice.Data.TargetMeasurementUnit.Count
   id: Count
@@ -120,26 +139,24 @@ items:
   nameWithType: TargetMeasurementUnit.Count
   fullName: SuperOffice.Data.TargetMeasurementUnit.Count
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '2: Count'
-  example: []
+  summary: "\n2: Count\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Count = 2
+    content: public const TargetMeasurementUnit Count
     return:
       type: SuperOffice.Data.TargetMeasurementUnit
-    content.vb: >-
-      <EnumMember>
-
-      Count = 2
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Count As TargetMeasurementUnit
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TargetMeasurementUnit.Profit
   commentId: F:SuperOffice.Data.TargetMeasurementUnit.Profit
   id: Profit
@@ -151,300 +168,115 @@ items:
   nameWithType: TargetMeasurementUnit.Profit
   fullName: SuperOffice.Data.TargetMeasurementUnit.Profit
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '3: Profit'
-  example: []
+  summary: "\n3: Profit\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Profit = 3
+    content: public const TargetMeasurementUnit Profit
     return:
       type: SuperOffice.Data.TargetMeasurementUnit
-    content.vb: >-
-      <EnumMember>
-
-      Profit = 3
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Profit As TargetMeasurementUnit
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.TargetMeasurementUnit.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<TargetMeasurementUnit, To>(TargetMeasurementUnit)
-  nameWithType: EnumUtil.MapEnums<TargetMeasurementUnit, To>(TargetMeasurementUnit)
-  fullName: EnumUtil.MapEnums<SuperOffice.Data.TargetMeasurementUnit, To>(SuperOffice.Data.TargetMeasurementUnit)
-  nameWithType.vb: EnumUtil.MapEnums(Of TargetMeasurementUnit, To)(TargetMeasurementUnit)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.TargetMeasurementUnit, To)(SuperOffice.Data.TargetMeasurementUnit)
-  name.vb: MapEnums(Of TargetMeasurementUnit, To)(TargetMeasurementUnit)
+  name: MapEnums<TargetMeasurementUnit, To>()
+  nameWithType: EnumUtil.MapEnums<TargetMeasurementUnit, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.TargetMeasurementUnit, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of TargetMeasurementUnit, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.TargetMeasurementUnit, To)()
+  name.vb: MapEnums(Of TargetMeasurementUnit, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.TargetMeasurementUnit)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<TargetMeasurementUnit, To>
+    nameWithType: EnumUtil.MapEnums<TargetMeasurementUnit, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.TargetMeasurementUnit, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.TargetMeasurementUnit
-    name: TargetMeasurementUnit
-    isExternal: true
-    href: SuperOffice.Data.TargetMeasurementUnit.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.TargetMeasurementUnit
-    name: TargetMeasurementUnit
-    isExternal: true
-    href: SuperOffice.Data.TargetMeasurementUnit.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.TargetMeasurementUnit)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of TargetMeasurementUnit, To)
+    nameWithType: EnumUtil.MapEnums(Of TargetMeasurementUnit, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.TargetMeasurementUnit, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.TargetMeasurementUnit
-    name: TargetMeasurementUnit
-    isExternal: true
-    href: SuperOffice.Data.TargetMeasurementUnit.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.TargetMeasurementUnit
-    name: TargetMeasurementUnit
-    isExternal: true
-    href: SuperOffice.Data.TargetMeasurementUnit.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.TargetMeasurementUnit.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<TargetMeasurementUnit, To>(TargetMeasurementUnit)
-  nameWithType: Converters.MapEnums<TargetMeasurementUnit, To>(TargetMeasurementUnit)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.TargetMeasurementUnit, To>(SuperOffice.Data.TargetMeasurementUnit)
-  nameWithType.vb: Converters.MapEnums(Of TargetMeasurementUnit, To)(TargetMeasurementUnit)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.TargetMeasurementUnit, To)(SuperOffice.Data.TargetMeasurementUnit)
-  name.vb: MapEnums(Of TargetMeasurementUnit, To)(TargetMeasurementUnit)
+  name: MapEnums<TargetMeasurementUnit, To>()
+  nameWithType: Converters.MapEnums<TargetMeasurementUnit, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.TargetMeasurementUnit, To>()
+  nameWithType.vb: Converters.MapEnums(Of TargetMeasurementUnit, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.TargetMeasurementUnit, To)()
+  name.vb: MapEnums(Of TargetMeasurementUnit, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.TargetMeasurementUnit)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<TargetMeasurementUnit, To>
+    nameWithType: Converters.MapEnums<TargetMeasurementUnit, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.TargetMeasurementUnit, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.TargetMeasurementUnit
-    name: TargetMeasurementUnit
-    isExternal: true
-    href: SuperOffice.Data.TargetMeasurementUnit.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.TargetMeasurementUnit
-    name: TargetMeasurementUnit
-    isExternal: true
-    href: SuperOffice.Data.TargetMeasurementUnit.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.TargetMeasurementUnit)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of TargetMeasurementUnit, To)
+    nameWithType: Converters.MapEnums(Of TargetMeasurementUnit, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.TargetMeasurementUnit, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.TargetMeasurementUnit
-    name: TargetMeasurementUnit
-    isExternal: true
-    href: SuperOffice.Data.TargetMeasurementUnit.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.TargetMeasurementUnit
-    name: TargetMeasurementUnit
-    isExternal: true
-    href: SuperOffice.Data.TargetMeasurementUnit.html
-  - name: )
-- uid: SuperOffice.Data.TargetMeasurementUnit.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.TargetMeasurementUnit)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<TargetMeasurementUnit>(TargetMeasurementUnit, TargetMeasurementUnit)
-  nameWithType: ObjectExtensions.AssignByReflection<TargetMeasurementUnit>(TargetMeasurementUnit, TargetMeasurementUnit)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.TargetMeasurementUnit>(SuperOffice.Data.TargetMeasurementUnit, SuperOffice.Data.TargetMeasurementUnit)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of TargetMeasurementUnit)(TargetMeasurementUnit, TargetMeasurementUnit)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.TargetMeasurementUnit)(SuperOffice.Data.TargetMeasurementUnit, SuperOffice.Data.TargetMeasurementUnit)
-  name.vb: AssignByReflection(Of TargetMeasurementUnit)(TargetMeasurementUnit, TargetMeasurementUnit)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.TargetMeasurementUnit,SuperOffice.Data.TargetMeasurementUnit)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.Data.TargetMeasurementUnit
-    name: TargetMeasurementUnit
-    isExternal: true
-    href: SuperOffice.Data.TargetMeasurementUnit.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Data.TargetMeasurementUnit
-    name: TargetMeasurementUnit
-    isExternal: true
-    href: SuperOffice.Data.TargetMeasurementUnit.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Data.TargetMeasurementUnit
-    name: TargetMeasurementUnit
-    isExternal: true
-    href: SuperOffice.Data.TargetMeasurementUnit.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.TargetMeasurementUnit,SuperOffice.Data.TargetMeasurementUnit)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.TargetMeasurementUnit
-    name: TargetMeasurementUnit
-    isExternal: true
-    href: SuperOffice.Data.TargetMeasurementUnit.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.Data.TargetMeasurementUnit
-    name: TargetMeasurementUnit
-    isExternal: true
-    href: SuperOffice.Data.TargetMeasurementUnit.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Data.TargetMeasurementUnit
-    name: TargetMeasurementUnit
-    isExternal: true
-    href: SuperOffice.Data.TargetMeasurementUnit.html
-  - name: )
-- uid: SuperOffice.Data.TargetMeasurementUnit.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<TargetMeasurementUnit>(TargetMeasurementUnit)
-  nameWithType: ObjectExtensions.GraphCopy<TargetMeasurementUnit>(TargetMeasurementUnit)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.TargetMeasurementUnit>(SuperOffice.Data.TargetMeasurementUnit)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of TargetMeasurementUnit)(TargetMeasurementUnit)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.TargetMeasurementUnit)(SuperOffice.Data.TargetMeasurementUnit)
-  name.vb: GraphCopy(Of TargetMeasurementUnit)(TargetMeasurementUnit)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.TargetMeasurementUnit)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.Data.TargetMeasurementUnit
-    name: TargetMeasurementUnit
-    isExternal: true
-    href: SuperOffice.Data.TargetMeasurementUnit.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Data.TargetMeasurementUnit
-    name: TargetMeasurementUnit
-    isExternal: true
-    href: SuperOffice.Data.TargetMeasurementUnit.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.TargetMeasurementUnit)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.TargetMeasurementUnit
-    name: TargetMeasurementUnit
-    isExternal: true
-    href: SuperOffice.Data.TargetMeasurementUnit.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.Data.TargetMeasurementUnit
-    name: TargetMeasurementUnit
-    isExternal: true
-    href: SuperOffice.Data.TargetMeasurementUnit.html
-  - name: )
-- uid: System.Enum.EnumUtil.GetDescription
-  commentId: M:EnumUtil.GetDescription(System.Enum)
-  parent: EnumUtil
-  definition: EnumUtil.GetDescription(System.Enum)
-  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  name: GetDescription(Enum)
-  nameWithType: EnumUtil.GetDescription(Enum)
-  fullName: EnumUtil.GetDescription(System.Enum)
-  spec.csharp:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
-  spec.vb:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -453,45 +285,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -500,222 +330,58 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: EnumUtil.GetDescription(System.Enum)
-  commentId: M:EnumUtil.GetDescription(System.Enum)
-  isExternal: true
-  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  name: GetDescription(Enum)
-  nameWithType: EnumUtil.GetDescription(Enum)
-  fullName: EnumUtil.GetDescription(System.Enum)
-  spec.csharp:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
-  spec.vb:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.Data.TargetMeasurementUnit
   commentId: T:SuperOffice.Data.TargetMeasurementUnit
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.TargetMeasurementUnit.html
   name: TargetMeasurementUnit
   nameWithType: TargetMeasurementUnit
   fullName: SuperOffice.Data.TargetMeasurementUnit

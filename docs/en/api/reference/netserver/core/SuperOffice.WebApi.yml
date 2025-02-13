@@ -21,7 +21,6 @@ references:
 - uid: SuperOffice.WebApi.HttpContextItem
   commentId: T:SuperOffice.WebApi.HttpContextItem
   isExternal: true
-  href: SuperOffice.WebApi.HttpContextItem.html
   name: HttpContextItem
   nameWithType: HttpContextItem
   fullName: SuperOffice.WebApi.HttpContextItem
@@ -29,7 +28,6 @@ references:
   commentId: T:SuperOffice.WebApi.PartnerAppRequestInfo
   parent: SuperOffice.WebApi
   isExternal: true
-  href: SuperOffice.WebApi.PartnerAppRequestInfo.html
   name: PartnerAppRequestInfo
   nameWithType: PartnerAppRequestInfo
   fullName: SuperOffice.WebApi.PartnerAppRequestInfo
@@ -37,41 +35,18 @@ references:
   commentId: T:SuperOffice.WebApi.IOnlineAppRequestInfo
   parent: SuperOffice.WebApi
   isExternal: true
-  href: SuperOffice.WebApi.IOnlineAppRequestInfo.html
   name: IOnlineAppRequestInfo
   nameWithType: IOnlineAppRequestInfo
   fullName: SuperOffice.WebApi.IOnlineAppRequestInfo
 - uid: SuperOffice.WebApi.OnlineAppRequestInfo
   commentId: T:SuperOffice.WebApi.OnlineAppRequestInfo
   isExternal: true
-  href: SuperOffice.WebApi.OnlineAppRequestInfo.html
   name: OnlineAppRequestInfo
   nameWithType: OnlineAppRequestInfo
   fullName: SuperOffice.WebApi.OnlineAppRequestInfo
 - uid: SuperOffice.WebApi
   commentId: N:SuperOffice.WebApi
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi
   nameWithType: SuperOffice.WebApi
   fullName: SuperOffice.WebApi
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html

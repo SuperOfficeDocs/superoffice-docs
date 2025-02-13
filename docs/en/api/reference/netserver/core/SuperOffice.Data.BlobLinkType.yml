@@ -24,44 +24,67 @@ items:
   - SuperOffice.Data.BlobLinkType.RefreshToken
   - SuperOffice.Data.BlobLinkType.StatusMonitorImage
   - SuperOffice.Data.BlobLinkType.Thumbnail
+  - SuperOffice.Data.BlobLinkType.value__
   langs:
   - csharp
   - vb
   name: BlobLinkType
   nameWithType: BlobLinkType
   fullName: SuperOffice.Data.BlobLinkType
-  type: Enum
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: >-
-    The link type, often synonymous with the blob type, of a BinaryObjectLink row
-
-    This Enum is used by:  BinaryObjectLink.linkType
-  example: []
+  summary: "\nThe link type, often synonymous with the blob type, of a BinaryObjectLink row\nThis Enum is used by:  BinaryObjectLink.linkType\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public enum BlobLinkType : short
+    content: 'public sealed class BlobLinkType : Enum'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
+      Public NotInheritable Class BlobLinkType
+          Inherits
 
-      Public Enum BlobLinkType As Short
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.BlobLinkType.EnumUtil.MapEnums``2
   - SuperOffice.Data.BlobLinkType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  - SuperOffice.Data.BlobLinkType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.BlobLinkType)
-  - SuperOffice.Data.BlobLinkType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - System.Enum.EnumUtil.GetDescription
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.BlobLinkType.value__
+  commentId: F:SuperOffice.Data.BlobLinkType.value__
+  id: value__
+  parent: SuperOffice.Data.BlobLinkType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: BlobLinkType.value__
+  fullName: SuperOffice.Data.BlobLinkType.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.BlobLinkType.PersonImage
   commentId: F:SuperOffice.Data.BlobLinkType.PersonImage
   id: PersonImage
@@ -73,26 +96,24 @@ items:
   nameWithType: BlobLinkType.PersonImage
   fullName: SuperOffice.Data.BlobLinkType.PersonImage
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '1: Portrait picture of a person'
-  example: []
+  summary: "\n1: Portrait picture of a person\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      PersonImage = 1
+    content: public const BlobLinkType PersonImage
     return:
       type: SuperOffice.Data.BlobLinkType
-    content.vb: >-
-      <EnumMember>
-
-      PersonImage = 1
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const PersonImage As BlobLinkType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.BlobLinkType.ProjectImage
   commentId: F:SuperOffice.Data.BlobLinkType.ProjectImage
   id: ProjectImage
@@ -104,26 +125,24 @@ items:
   nameWithType: BlobLinkType.ProjectImage
   fullName: SuperOffice.Data.BlobLinkType.ProjectImage
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '2: Picture bound to a project'
-  example: []
+  summary: "\n2: Picture bound to a project\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      ProjectImage = 2
+    content: public const BlobLinkType ProjectImage
     return:
       type: SuperOffice.Data.BlobLinkType
-    content.vb: >-
-      <EnumMember>
-
-      ProjectImage = 2
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const ProjectImage As BlobLinkType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.BlobLinkType.EventImage
   commentId: F:SuperOffice.Data.BlobLinkType.EventImage
   id: EventImage
@@ -135,26 +154,24 @@ items:
   nameWithType: BlobLinkType.EventImage
   fullName: SuperOffice.Data.BlobLinkType.EventImage
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '3: Picture used for a project of type Event, in the Audience client'
-  example: []
+  summary: "\n3: Picture used for a project of type Event, in the Audience client\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      EventImage = 3
+    content: public const BlobLinkType EventImage
     return:
       type: SuperOffice.Data.BlobLinkType
-    content.vb: >-
-      <EnumMember>
-
-      EventImage = 3
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const EventImage As BlobLinkType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.BlobLinkType.Thumbnail
   commentId: F:SuperOffice.Data.BlobLinkType.Thumbnail
   id: Thumbnail
@@ -166,26 +183,24 @@ items:
   nameWithType: BlobLinkType.Thumbnail
   fullName: SuperOffice.Data.BlobLinkType.Thumbnail
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '4: Generic thumbnail - not used?'
-  example: []
+  summary: "\n4: Generic thumbnail - not used?\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Thumbnail = 4
+    content: public const BlobLinkType Thumbnail
     return:
       type: SuperOffice.Data.BlobLinkType
-    content.vb: >-
-      <EnumMember>
-
-      Thumbnail = 4
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Thumbnail As BlobLinkType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.BlobLinkType.StatusMonitorImage
   commentId: F:SuperOffice.Data.BlobLinkType.StatusMonitorImage
   id: StatusMonitorImage
@@ -197,26 +212,24 @@ items:
   nameWithType: BlobLinkType.StatusMonitorImage
   fullName: SuperOffice.Data.BlobLinkType.StatusMonitorImage
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '5: Watermark image for a Status Monitor in Sales Intelligence'
-  example: []
+  summary: "\n5: Watermark image for a Status Monitor in Sales Intelligence\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      StatusMonitorImage = 5
+    content: public const BlobLinkType StatusMonitorImage
     return:
       type: SuperOffice.Data.BlobLinkType
-    content.vb: >-
-      <EnumMember>
-
-      StatusMonitorImage = 5
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const StatusMonitorImage As BlobLinkType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.BlobLinkType.BatchTask
   commentId: F:SuperOffice.Data.BlobLinkType.BatchTask
   id: BatchTask
@@ -228,26 +241,24 @@ items:
   nameWithType: BlobLinkType.BatchTask
   fullName: SuperOffice.Data.BlobLinkType.BatchTask
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '6: Information related to a BatchTask in NetServer'
-  example: []
+  summary: "\n6: Information related to a BatchTask in NetServer\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      BatchTask = 6
+    content: public const BlobLinkType BatchTask
     return:
       type: SuperOffice.Data.BlobLinkType
-    content.vb: >-
-      <EnumMember>
-
-      BatchTask = 6
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const BatchTask As BlobLinkType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.BlobLinkType.ProductImage
   commentId: F:SuperOffice.Data.BlobLinkType.ProductImage
   id: ProductImage
@@ -259,26 +270,24 @@ items:
   nameWithType: BlobLinkType.ProductImage
   fullName: SuperOffice.Data.BlobLinkType.ProductImage
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '7: Image (possibly more than one, differentiated by rank) of a Product; exactly one row should have rank=1'
-  example: []
+  summary: "\n7: Image (possibly more than one, differentiated by rank) of a Product; exactly one row should have rank=1\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      ProductImage = 7
+    content: public const BlobLinkType ProductImage
     return:
       type: SuperOffice.Data.BlobLinkType
-    content.vb: >-
-      <EnumMember>
-
-      ProductImage = 7
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const ProductImage As BlobLinkType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.BlobLinkType.ProductThumbnail
   commentId: F:SuperOffice.Data.BlobLinkType.ProductThumbnail
   id: ProductThumbnail
@@ -290,26 +299,24 @@ items:
   nameWithType: BlobLinkType.ProductThumbnail
   fullName: SuperOffice.Data.BlobLinkType.ProductThumbnail
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '8: Thumbnail image for a product, only one allowed per product'
-  example: []
+  summary: "\n8: Thumbnail image for a product, only one allowed per product\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      ProductThumbnail = 8
+    content: public const BlobLinkType ProductThumbnail
     return:
       type: SuperOffice.Data.BlobLinkType
-    content.vb: >-
-      <EnumMember>
-
-      ProductThumbnail = 8
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const ProductThumbnail As BlobLinkType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.BlobLinkType.QuoteLineImage
   commentId: F:SuperOffice.Data.BlobLinkType.QuoteLineImage
   id: QuoteLineImage
@@ -321,26 +328,24 @@ items:
   nameWithType: BlobLinkType.QuoteLineImage
   fullName: SuperOffice.Data.BlobLinkType.QuoteLineImage
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '9: Image (possibly more than one, differentiated by rank) of a Product image for a quote line, only one allowed per quote line'
-  example: []
+  summary: "\n9: Image (possibly more than one, differentiated by rank) of a Product image for a quote line, only one allowed per quote line\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      QuoteLineImage = 9
+    content: public const BlobLinkType QuoteLineImage
     return:
       type: SuperOffice.Data.BlobLinkType
-    content.vb: >-
-      <EnumMember>
-
-      QuoteLineImage = 9
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const QuoteLineImage As BlobLinkType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.BlobLinkType.QuoteLineThumbnail
   commentId: F:SuperOffice.Data.BlobLinkType.QuoteLineThumbnail
   id: QuoteLineThumbnail
@@ -352,26 +357,24 @@ items:
   nameWithType: BlobLinkType.QuoteLineThumbnail
   fullName: SuperOffice.Data.BlobLinkType.QuoteLineThumbnail
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '10: Thumbnail image for a quote line, only one allowed per quote line'
-  example: []
+  summary: "\n10: Thumbnail image for a quote line, only one allowed per quote line\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      QuoteLineThumbnail = 10
+    content: public const BlobLinkType QuoteLineThumbnail
     return:
       type: SuperOffice.Data.BlobLinkType
-    content.vb: >-
-      <EnumMember>
-
-      QuoteLineThumbnail = 10
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const QuoteLineThumbnail As BlobLinkType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.BlobLinkType.AccessToken
   commentId: F:SuperOffice.Data.BlobLinkType.AccessToken
   id: AccessToken
@@ -383,26 +386,24 @@ items:
   nameWithType: BlobLinkType.AccessToken
   fullName: SuperOffice.Data.BlobLinkType.AccessToken
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '11: Access Token used by Cloud Documents for accessing external services'
-  example: []
+  summary: "\n11: Access Token used by Cloud Documents for accessing external services\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      AccessToken = 11
+    content: public const BlobLinkType AccessToken
     return:
       type: SuperOffice.Data.BlobLinkType
-    content.vb: >-
-      <EnumMember>
-
-      AccessToken = 11
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const AccessToken As BlobLinkType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.BlobLinkType.RefreshToken
   commentId: F:SuperOffice.Data.BlobLinkType.RefreshToken
   id: RefreshToken
@@ -414,26 +415,24 @@ items:
   nameWithType: BlobLinkType.RefreshToken
   fullName: SuperOffice.Data.BlobLinkType.RefreshToken
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '12: Refresh Token used by Cloud Documents for accessing external services'
-  example: []
+  summary: "\n12: Refresh Token used by Cloud Documents for accessing external services\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      RefreshToken = 12
+    content: public const BlobLinkType RefreshToken
     return:
       type: SuperOffice.Data.BlobLinkType
-    content.vb: >-
-      <EnumMember>
-
-      RefreshToken = 12
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const RefreshToken As BlobLinkType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.BlobLinkType.Dashboard
   commentId: F:SuperOffice.Data.BlobLinkType.Dashboard
   id: Dashboard
@@ -445,26 +444,24 @@ items:
   nameWithType: BlobLinkType.Dashboard
   fullName: SuperOffice.Data.BlobLinkType.Dashboard
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '13: Dashboard'
-  example: []
+  summary: "\n13: Dashboard\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Dashboard = 13
+    content: public const BlobLinkType Dashboard
     return:
       type: SuperOffice.Data.BlobLinkType
-    content.vb: >-
-      <EnumMember>
-
-      Dashboard = 13
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Dashboard As BlobLinkType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.BlobLinkType.DashboardTile
   commentId: F:SuperOffice.Data.BlobLinkType.DashboardTile
   id: DashboardTile
@@ -476,26 +473,24 @@ items:
   nameWithType: BlobLinkType.DashboardTile
   fullName: SuperOffice.Data.BlobLinkType.DashboardTile
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '14: Dashboard tile'
-  example: []
+  summary: "\n14: Dashboard tile\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      DashboardTile = 14
+    content: public const BlobLinkType DashboardTile
     return:
       type: SuperOffice.Data.BlobLinkType
-    content.vb: >-
-      <EnumMember>
-
-      DashboardTile = 14
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const DashboardTile As BlobLinkType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.BlobLinkType.ChatTopicImage
   commentId: F:SuperOffice.Data.BlobLinkType.ChatTopicImage
   id: ChatTopicImage
@@ -507,26 +502,24 @@ items:
   nameWithType: BlobLinkType.ChatTopicImage
   fullName: SuperOffice.Data.BlobLinkType.ChatTopicImage
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '15: Chat topic image'
-  example: []
+  summary: "\n15: Chat topic image\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      ChatTopicImage = 15
+    content: public const BlobLinkType ChatTopicImage
     return:
       type: SuperOffice.Data.BlobLinkType
-    content.vb: >-
-      <EnumMember>
-
-      ChatTopicImage = 15
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const ChatTopicImage As BlobLinkType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.BlobLinkType.FormsBackgroundImage
   commentId: F:SuperOffice.Data.BlobLinkType.FormsBackgroundImage
   id: FormsBackgroundImage
@@ -538,26 +531,24 @@ items:
   nameWithType: BlobLinkType.FormsBackgroundImage
   fullName: SuperOffice.Data.BlobLinkType.FormsBackgroundImage
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '16: Forms background image'
-  example: []
+  summary: "\n16: Forms background image\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      FormsBackgroundImage = 16
+    content: public const BlobLinkType FormsBackgroundImage
     return:
       type: SuperOffice.Data.BlobLinkType
-    content.vb: >-
-      <EnumMember>
-
-      FormsBackgroundImage = 16
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const FormsBackgroundImage As BlobLinkType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.BlobLinkType.ContactImage
   commentId: F:SuperOffice.Data.BlobLinkType.ContactImage
   id: ContactImage
@@ -569,26 +560,24 @@ items:
   nameWithType: BlobLinkType.ContactImage
   fullName: SuperOffice.Data.BlobLinkType.ContactImage
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '17: Contact logo image'
-  example: []
+  summary: "\n17: Contact logo image\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      ContactImage = 17
+    content: public const BlobLinkType ContactImage
     return:
       type: SuperOffice.Data.BlobLinkType
-    content.vb: >-
-      <EnumMember>
-
-      ContactImage = 17
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const ContactImage As BlobLinkType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.BlobLinkType.DashboardHtmlTileData
   commentId: F:SuperOffice.Data.BlobLinkType.DashboardHtmlTileData
   id: DashboardHtmlTileData
@@ -600,26 +589,24 @@ items:
   nameWithType: BlobLinkType.DashboardHtmlTileData
   fullName: SuperOffice.Data.BlobLinkType.DashboardHtmlTileData
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '18: HTML data for dashboard tiles'
-  example: []
+  summary: "\n18: HTML data for dashboard tiles\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      DashboardHtmlTileData = 18
+    content: public const BlobLinkType DashboardHtmlTileData
     return:
       type: SuperOffice.Data.BlobLinkType
-    content.vb: >-
-      <EnumMember>
-
-      DashboardHtmlTileData = 18
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const DashboardHtmlTileData As BlobLinkType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.BlobLinkType.ExtraTableIcon
   commentId: F:SuperOffice.Data.BlobLinkType.ExtraTableIcon
   id: ExtraTableIcon
@@ -631,300 +618,115 @@ items:
   nameWithType: BlobLinkType.ExtraTableIcon
   fullName: SuperOffice.Data.BlobLinkType.ExtraTableIcon
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '19: Extra table icon'
-  example: []
+  summary: "\n19: Extra table icon\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      ExtraTableIcon = 19
+    content: public const BlobLinkType ExtraTableIcon
     return:
       type: SuperOffice.Data.BlobLinkType
-    content.vb: >-
-      <EnumMember>
-
-      ExtraTableIcon = 19
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const ExtraTableIcon As BlobLinkType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.BlobLinkType.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<BlobLinkType, To>(BlobLinkType)
-  nameWithType: EnumUtil.MapEnums<BlobLinkType, To>(BlobLinkType)
-  fullName: EnumUtil.MapEnums<SuperOffice.Data.BlobLinkType, To>(SuperOffice.Data.BlobLinkType)
-  nameWithType.vb: EnumUtil.MapEnums(Of BlobLinkType, To)(BlobLinkType)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.BlobLinkType, To)(SuperOffice.Data.BlobLinkType)
-  name.vb: MapEnums(Of BlobLinkType, To)(BlobLinkType)
+  name: MapEnums<BlobLinkType, To>()
+  nameWithType: EnumUtil.MapEnums<BlobLinkType, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.BlobLinkType, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of BlobLinkType, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.BlobLinkType, To)()
+  name.vb: MapEnums(Of BlobLinkType, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.BlobLinkType)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<BlobLinkType, To>
+    nameWithType: EnumUtil.MapEnums<BlobLinkType, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.BlobLinkType, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.BlobLinkType
-    name: BlobLinkType
-    isExternal: true
-    href: SuperOffice.Data.BlobLinkType.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.BlobLinkType
-    name: BlobLinkType
-    isExternal: true
-    href: SuperOffice.Data.BlobLinkType.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.BlobLinkType)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of BlobLinkType, To)
+    nameWithType: EnumUtil.MapEnums(Of BlobLinkType, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.BlobLinkType, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.BlobLinkType
-    name: BlobLinkType
-    isExternal: true
-    href: SuperOffice.Data.BlobLinkType.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.BlobLinkType
-    name: BlobLinkType
-    isExternal: true
-    href: SuperOffice.Data.BlobLinkType.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.BlobLinkType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<BlobLinkType, To>(BlobLinkType)
-  nameWithType: Converters.MapEnums<BlobLinkType, To>(BlobLinkType)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.BlobLinkType, To>(SuperOffice.Data.BlobLinkType)
-  nameWithType.vb: Converters.MapEnums(Of BlobLinkType, To)(BlobLinkType)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.BlobLinkType, To)(SuperOffice.Data.BlobLinkType)
-  name.vb: MapEnums(Of BlobLinkType, To)(BlobLinkType)
+  name: MapEnums<BlobLinkType, To>()
+  nameWithType: Converters.MapEnums<BlobLinkType, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.BlobLinkType, To>()
+  nameWithType.vb: Converters.MapEnums(Of BlobLinkType, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.BlobLinkType, To)()
+  name.vb: MapEnums(Of BlobLinkType, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.BlobLinkType)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<BlobLinkType, To>
+    nameWithType: Converters.MapEnums<BlobLinkType, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.BlobLinkType, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.BlobLinkType
-    name: BlobLinkType
-    isExternal: true
-    href: SuperOffice.Data.BlobLinkType.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.BlobLinkType
-    name: BlobLinkType
-    isExternal: true
-    href: SuperOffice.Data.BlobLinkType.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.BlobLinkType)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of BlobLinkType, To)
+    nameWithType: Converters.MapEnums(Of BlobLinkType, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.BlobLinkType, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.BlobLinkType
-    name: BlobLinkType
-    isExternal: true
-    href: SuperOffice.Data.BlobLinkType.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.BlobLinkType
-    name: BlobLinkType
-    isExternal: true
-    href: SuperOffice.Data.BlobLinkType.html
-  - name: )
-- uid: SuperOffice.Data.BlobLinkType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.BlobLinkType)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<BlobLinkType>(BlobLinkType, BlobLinkType)
-  nameWithType: ObjectExtensions.AssignByReflection<BlobLinkType>(BlobLinkType, BlobLinkType)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.BlobLinkType>(SuperOffice.Data.BlobLinkType, SuperOffice.Data.BlobLinkType)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of BlobLinkType)(BlobLinkType, BlobLinkType)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.BlobLinkType)(SuperOffice.Data.BlobLinkType, SuperOffice.Data.BlobLinkType)
-  name.vb: AssignByReflection(Of BlobLinkType)(BlobLinkType, BlobLinkType)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.BlobLinkType,SuperOffice.Data.BlobLinkType)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.Data.BlobLinkType
-    name: BlobLinkType
-    isExternal: true
-    href: SuperOffice.Data.BlobLinkType.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Data.BlobLinkType
-    name: BlobLinkType
-    isExternal: true
-    href: SuperOffice.Data.BlobLinkType.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Data.BlobLinkType
-    name: BlobLinkType
-    isExternal: true
-    href: SuperOffice.Data.BlobLinkType.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.BlobLinkType,SuperOffice.Data.BlobLinkType)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.BlobLinkType
-    name: BlobLinkType
-    isExternal: true
-    href: SuperOffice.Data.BlobLinkType.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.Data.BlobLinkType
-    name: BlobLinkType
-    isExternal: true
-    href: SuperOffice.Data.BlobLinkType.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Data.BlobLinkType
-    name: BlobLinkType
-    isExternal: true
-    href: SuperOffice.Data.BlobLinkType.html
-  - name: )
-- uid: SuperOffice.Data.BlobLinkType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<BlobLinkType>(BlobLinkType)
-  nameWithType: ObjectExtensions.GraphCopy<BlobLinkType>(BlobLinkType)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.BlobLinkType>(SuperOffice.Data.BlobLinkType)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of BlobLinkType)(BlobLinkType)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.BlobLinkType)(SuperOffice.Data.BlobLinkType)
-  name.vb: GraphCopy(Of BlobLinkType)(BlobLinkType)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.BlobLinkType)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.Data.BlobLinkType
-    name: BlobLinkType
-    isExternal: true
-    href: SuperOffice.Data.BlobLinkType.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Data.BlobLinkType
-    name: BlobLinkType
-    isExternal: true
-    href: SuperOffice.Data.BlobLinkType.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.BlobLinkType)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.BlobLinkType
-    name: BlobLinkType
-    isExternal: true
-    href: SuperOffice.Data.BlobLinkType.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.Data.BlobLinkType
-    name: BlobLinkType
-    isExternal: true
-    href: SuperOffice.Data.BlobLinkType.html
-  - name: )
-- uid: System.Enum.EnumUtil.GetDescription
-  commentId: M:EnumUtil.GetDescription(System.Enum)
-  parent: EnumUtil
-  definition: EnumUtil.GetDescription(System.Enum)
-  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  name: GetDescription(Enum)
-  nameWithType: EnumUtil.GetDescription(Enum)
-  fullName: EnumUtil.GetDescription(System.Enum)
-  spec.csharp:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
-  spec.vb:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -933,45 +735,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -980,222 +780,58 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: EnumUtil.GetDescription(System.Enum)
-  commentId: M:EnumUtil.GetDescription(System.Enum)
-  isExternal: true
-  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  name: GetDescription(Enum)
-  nameWithType: EnumUtil.GetDescription(Enum)
-  fullName: EnumUtil.GetDescription(System.Enum)
-  spec.csharp:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
-  spec.vb:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.Data.BlobLinkType
   commentId: T:SuperOffice.Data.BlobLinkType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.BlobLinkType.html
   name: BlobLinkType
   nameWithType: BlobLinkType
   fullName: SuperOffice.Data.BlobLinkType

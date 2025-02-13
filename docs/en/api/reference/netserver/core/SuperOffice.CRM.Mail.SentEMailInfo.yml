@@ -15,27 +15,29 @@ items:
   nameWithType: SentEMailInfo
   fullName: SuperOffice.CRM.Mail.SentEMailInfo
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Mail
-  summary: This class wraps MailAddress
-  example: []
+  summary: "\nThis class wraps MailAddress\n"
   syntax:
-    content: public class SentEMailInfo
-    content.vb: Public Class SentEMailInfo
+    content: 'public class SentEMailInfo : Object'
+    content.vb: >-
+      Public Class SentEMailInfo
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Mail.SentEMailInfo.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Mail.SentEMailInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Mail.SentEMailInfo.#ctor(SuperOffice.CRM.Mail.MailAddress,System.DateTime)
   commentId: M:SuperOffice.CRM.Mail.SentEMailInfo.#ctor(SuperOffice.CRM.Mail.MailAddress,System.DateTime)
   id: '#ctor(SuperOffice.CRM.Mail.MailAddress,System.DateTime)'
@@ -47,6 +49,9 @@ items:
   nameWithType: SentEMailInfo.SentEMailInfo(MailAddress, DateTime)
   fullName: SuperOffice.CRM.Mail.SentEMailInfo.SentEMailInfo(SuperOffice.CRM.Mail.MailAddress, System.DateTime)
   type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Mail
@@ -57,11 +62,12 @@ items:
       type: SuperOffice.CRM.Mail.MailAddress
     - id: timeStamp
       type: System.DateTime
-    content.vb: Public Sub New(address As MailAddress, timeStamp As Date)
+    content.vb: Public Sub New(address As MailAddress, timeStamp As DateTime)
   overload: SuperOffice.CRM.Mail.SentEMailInfo.#ctor*
-  nameWithType.vb: SentEMailInfo.New(MailAddress, Date)
-  fullName.vb: SuperOffice.CRM.Mail.SentEMailInfo.New(SuperOffice.CRM.Mail.MailAddress, Date)
-  name.vb: New(MailAddress, Date)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Mail.SentEMailInfo.MailAddressInfo
   commentId: P:SuperOffice.CRM.Mail.SentEMailInfo.MailAddressInfo
   id: MailAddressInfo
@@ -73,6 +79,9 @@ items:
   nameWithType: SentEMailInfo.MailAddressInfo
   fullName: SuperOffice.CRM.Mail.SentEMailInfo.MailAddressInfo
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Mail
@@ -83,6 +92,12 @@ items:
       type: SuperOffice.CRM.Mail.MailAddress
     content.vb: Public Property MailAddressInfo As MailAddress
   overload: SuperOffice.CRM.Mail.SentEMailInfo.MailAddressInfo*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Mail.SentEMailInfo.LatestSendTime
   commentId: P:SuperOffice.CRM.Mail.SentEMailInfo.LatestSendTime
   id: LatestSendTime
@@ -94,6 +109,9 @@ items:
   nameWithType: SentEMailInfo.LatestSendTime
   fullName: SuperOffice.CRM.Mail.SentEMailInfo.LatestSendTime
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Mail
@@ -102,393 +120,105 @@ items:
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Property LatestSendTime As Date
+    content.vb: Public Property LatestSendTime As DateTime
   overload: SuperOffice.CRM.Mail.SentEMailInfo.LatestSendTime*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 references:
 - uid: SuperOffice.CRM.Mail
   commentId: N:SuperOffice.CRM.Mail
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Mail
   nameWithType: SuperOffice.CRM.Mail
   fullName: SuperOffice.CRM.Mail
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Mail
-    name: Mail
-    isExternal: true
-    href: SuperOffice.CRM.Mail.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Mail
-    name: Mail
-    isExternal: true
-    href: SuperOffice.CRM.Mail.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.Mail.SentEMailInfo.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<SentEMailInfo, To>(SentEMailInfo)
-  nameWithType: EnumUtil.MapEnums<SentEMailInfo, To>(SentEMailInfo)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Mail.SentEMailInfo, To>(SuperOffice.CRM.Mail.SentEMailInfo)
-  nameWithType.vb: EnumUtil.MapEnums(Of SentEMailInfo, To)(SentEMailInfo)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Mail.SentEMailInfo, To)(SuperOffice.CRM.Mail.SentEMailInfo)
-  name.vb: MapEnums(Of SentEMailInfo, To)(SentEMailInfo)
+  name: MapEnums<SentEMailInfo, To>()
+  nameWithType: EnumUtil.MapEnums<SentEMailInfo, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Mail.SentEMailInfo, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SentEMailInfo, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Mail.SentEMailInfo, To)()
+  name.vb: MapEnums(Of SentEMailInfo, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Mail.SentEMailInfo)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SentEMailInfo, To>
+    nameWithType: EnumUtil.MapEnums<SentEMailInfo, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Mail.SentEMailInfo, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Mail.SentEMailInfo
-    name: SentEMailInfo
-    isExternal: true
-    href: SuperOffice.CRM.Mail.SentEMailInfo.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Mail.SentEMailInfo
-    name: SentEMailInfo
-    isExternal: true
-    href: SuperOffice.CRM.Mail.SentEMailInfo.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Mail.SentEMailInfo)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SentEMailInfo, To)
+    nameWithType: EnumUtil.MapEnums(Of SentEMailInfo, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Mail.SentEMailInfo, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Mail.SentEMailInfo
-    name: SentEMailInfo
-    isExternal: true
-    href: SuperOffice.CRM.Mail.SentEMailInfo.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Mail.SentEMailInfo
-    name: SentEMailInfo
-    isExternal: true
-    href: SuperOffice.CRM.Mail.SentEMailInfo.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Mail.SentEMailInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<SentEMailInfo, To>(SentEMailInfo)
-  nameWithType: Converters.MapEnums<SentEMailInfo, To>(SentEMailInfo)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Mail.SentEMailInfo, To>(SuperOffice.CRM.Mail.SentEMailInfo)
-  nameWithType.vb: Converters.MapEnums(Of SentEMailInfo, To)(SentEMailInfo)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Mail.SentEMailInfo, To)(SuperOffice.CRM.Mail.SentEMailInfo)
-  name.vb: MapEnums(Of SentEMailInfo, To)(SentEMailInfo)
+  name: MapEnums<SentEMailInfo, To>()
+  nameWithType: Converters.MapEnums<SentEMailInfo, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Mail.SentEMailInfo, To>()
+  nameWithType.vb: Converters.MapEnums(Of SentEMailInfo, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Mail.SentEMailInfo, To)()
+  name.vb: MapEnums(Of SentEMailInfo, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Mail.SentEMailInfo)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SentEMailInfo, To>
+    nameWithType: Converters.MapEnums<SentEMailInfo, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Mail.SentEMailInfo, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Mail.SentEMailInfo
-    name: SentEMailInfo
-    isExternal: true
-    href: SuperOffice.CRM.Mail.SentEMailInfo.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Mail.SentEMailInfo
-    name: SentEMailInfo
-    isExternal: true
-    href: SuperOffice.CRM.Mail.SentEMailInfo.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Mail.SentEMailInfo)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SentEMailInfo, To)
+    nameWithType: Converters.MapEnums(Of SentEMailInfo, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Mail.SentEMailInfo, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Mail.SentEMailInfo
-    name: SentEMailInfo
-    isExternal: true
-    href: SuperOffice.CRM.Mail.SentEMailInfo.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Mail.SentEMailInfo
-    name: SentEMailInfo
-    isExternal: true
-    href: SuperOffice.CRM.Mail.SentEMailInfo.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -497,45 +227,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -544,118 +272,72 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.CRM.Mail.SentEMailInfo.#ctor*
   commentId: Overload:SuperOffice.CRM.Mail.SentEMailInfo.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Mail.SentEMailInfo.html#SuperOffice_CRM_Mail_SentEMailInfo__ctor_SuperOffice_CRM_Mail_MailAddress_System_DateTime_
   name: SentEMailInfo
   nameWithType: SentEMailInfo.SentEMailInfo
   fullName: SuperOffice.CRM.Mail.SentEMailInfo.SentEMailInfo
-  nameWithType.vb: SentEMailInfo.New
-  fullName.vb: SuperOffice.CRM.Mail.SentEMailInfo.New
-  name.vb: New
 - uid: SuperOffice.CRM.Mail.MailAddress
-  commentId: T:SuperOffice.CRM.Mail.MailAddress
-  parent: SuperOffice.CRM.Mail
   isExternal: true
   name: MailAddress
   nameWithType: MailAddress
   fullName: SuperOffice.CRM.Mail.MailAddress
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
 - uid: SuperOffice.CRM.Mail.SentEMailInfo.MailAddressInfo*
   commentId: Overload:SuperOffice.CRM.Mail.SentEMailInfo.MailAddressInfo
   isExternal: true
-  href: SuperOffice.CRM.Mail.SentEMailInfo.html#SuperOffice_CRM_Mail_SentEMailInfo_MailAddressInfo
   name: MailAddressInfo
   nameWithType: SentEMailInfo.MailAddressInfo
   fullName: SuperOffice.CRM.Mail.SentEMailInfo.MailAddressInfo
 - uid: SuperOffice.CRM.Mail.SentEMailInfo.LatestSendTime*
   commentId: Overload:SuperOffice.CRM.Mail.SentEMailInfo.LatestSendTime
   isExternal: true
-  href: SuperOffice.CRM.Mail.SentEMailInfo.html#SuperOffice_CRM_Mail_SentEMailInfo_LatestSendTime
   name: LatestSendTime
   nameWithType: SentEMailInfo.LatestSendTime
   fullName: SuperOffice.CRM.Mail.SentEMailInfo.LatestSendTime

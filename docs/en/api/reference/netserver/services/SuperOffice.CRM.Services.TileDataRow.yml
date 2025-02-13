@@ -17,33 +17,26 @@ items:
   nameWithType: TileDataRow
   fullName: SuperOffice.CRM.Services.TileDataRow
   type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Carrier object for TileDataRow.
-
-    Services for the TileDataRow Carrier is available from the <xref href="SuperOffice.CRM.Services.IDashboardAgent?text=Dashboard+Agent" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nCarrier object for TileDataRow.\nServices for the TileDataRow Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IDashboardAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public class TileDataRow : Carrier
+    content: 'public class TileDataRow : Carrier'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
-
-      Public Class TileDataRow Inherits Carrier
+      Public Class TileDataRow
+          Inherits Carrier
   inheritance:
   - System.Object
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.TileDataRow.#ctor
   commentId: M:SuperOffice.CRM.Services.TileDataRow.#ctor
   id: '#ctor'
@@ -55,18 +48,21 @@ items:
   nameWithType: TileDataRow.TileDataRow()
   fullName: SuperOffice.CRM.Services.TileDataRow.TileDataRow()
   type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Default constructor
-  example: []
+  summary: "\nDefault constructor\n"
   syntax:
     content: public TileDataRow()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.TileDataRow.#ctor*
-  nameWithType.vb: TileDataRow.New()
-  fullName.vb: SuperOffice.CRM.Services.TileDataRow.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.TileDataRow.ToString
   commentId: M:SuperOffice.CRM.Services.TileDataRow.ToString
   id: ToString
@@ -78,18 +74,26 @@ items:
   nameWithType: TileDataRow.ToString()
   fullName: SuperOffice.CRM.Services.TileDataRow.ToString()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the carrier contents as a formatted string.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string.\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString() As String
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.CRM.Services.TileDataRow.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Services.TileDataRow.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.TileDataRow.ToString(System.String)
   id: ToString(System.String)
@@ -97,18 +101,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(string)
-  nameWithType: TileDataRow.ToString(string)
-  fullName: SuperOffice.CRM.Services.TileDataRow.ToString(string)
+  name: ToString(String)
+  nameWithType: TileDataRow.ToString(String)
+  fullName: SuperOffice.CRM.Services.TileDataRow.ToString(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Returns the carrier contents as a formatted string, useful for debugging.
-
-    Each line in the output is prefixed with the input value.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -120,9 +123,10 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.TileDataRow.ToString*
-  nameWithType.vb: TileDataRow.ToString(String)
-  fullName.vb: SuperOffice.CRM.Services.TileDataRow.ToString(String)
-  name.vb: ToString(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.TileDataRow.Field
   commentId: P:SuperOffice.CRM.Services.TileDataRow.Field
   id: Field
@@ -134,28 +138,26 @@ items:
   nameWithType: TileDataRow.Field
   fullName: SuperOffice.CRM.Services.TileDataRow.Field
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The field label
-  example: []
+  summary: "\nThe field label\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public string Field { get; set; }
+    content: public string Field { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Property Field As String
+    content.vb: Public Property Field As String
   overload: SuperOffice.CRM.Services.TileDataRow.Field*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.TileDataRow.Value
   commentId: P:SuperOffice.CRM.Services.TileDataRow.Value
   id: Value
@@ -167,106 +169,42 @@ items:
   nameWithType: TileDataRow.Value
   fullName: SuperOffice.CRM.Services.TileDataRow.Value
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The data value
-  example: []
+  summary: "\nThe data value\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public double Value { get; set; }
+    content: public double Value { get; set; }
     parameters: []
     return:
       type: System.Double
-    content.vb: >-
-      <DataMember>
-
-      Public Property Value As Double
+    content.vb: Public Property Value As Double
   overload: SuperOffice.CRM.Services.TileDataRow.Value*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 references:
-- uid: SuperOffice.CRM.Services.IDashboardAgent
-  commentId: T:SuperOffice.CRM.Services.IDashboardAgent
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.CRM.Services.IDashboardAgent.html
-  name: IDashboardAgent
-  nameWithType: IDashboardAgent
-  fullName: SuperOffice.CRM.Services.IDashboardAgent
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.TileDataRow.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.TileDataRow.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.TileDataRow.html#SuperOffice_CRM_Services_TileDataRow__ctor
   name: TileDataRow
   nameWithType: TileDataRow.TileDataRow
   fullName: SuperOffice.CRM.Services.TileDataRow.TileDataRow
-  nameWithType.vb: TileDataRow.New
-  fullName.vb: SuperOffice.CRM.Services.TileDataRow.New
-  name.vb: New
 - uid: SuperOffice.CRM.Services.TileDataRow.ToString*
   commentId: Overload:SuperOffice.CRM.Services.TileDataRow.ToString
   isExternal: true
-  href: SuperOffice.CRM.Services.TileDataRow.html#SuperOffice_CRM_Services_TileDataRow_ToString
   name: ToString
   nameWithType: TileDataRow.ToString
   fullName: SuperOffice.CRM.Services.TileDataRow.ToString
@@ -274,24 +212,24 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.TileDataRow.Field*
   commentId: Overload:SuperOffice.CRM.Services.TileDataRow.Field
   isExternal: true
-  href: SuperOffice.CRM.Services.TileDataRow.html#SuperOffice_CRM_Services_TileDataRow_Field
   name: Field
   nameWithType: TileDataRow.Field
   fullName: SuperOffice.CRM.Services.TileDataRow.Field
 - uid: SuperOffice.CRM.Services.TileDataRow.Value*
   commentId: Overload:SuperOffice.CRM.Services.TileDataRow.Value
   isExternal: true
-  href: SuperOffice.CRM.Services.TileDataRow.html#SuperOffice_CRM_Services_TileDataRow_Value
   name: Value
   nameWithType: TileDataRow.Value
   fullName: SuperOffice.CRM.Services.TileDataRow.Value
@@ -299,10 +237,6 @@ references:
   commentId: T:System.Double
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.double
-  name: double
-  nameWithType: double
-  fullName: double
-  nameWithType.vb: Double
-  fullName.vb: Double
-  name.vb: Double
+  name: Double
+  nameWithType: Double
+  fullName: System.Double

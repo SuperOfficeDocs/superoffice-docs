@@ -26,28 +26,15 @@ items:
   nameWithType: ISaintAgent
   fullName: SuperOffice.CRM.Services.ISaintAgent
   type: Interface
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Interface for the Saint Agent
-
-    Administration and maintenance of SAINT counters and statuses
+  summary: "\nInterface for the Saint Agent\nAdministration and maintenance of SAINT counters and statuses\n"
   example:
-  - >-
-    <pre><code class="lang-csharp">using SuperOffice;
-
-    using SuperOffice.CRM.Services;
-
-
-    using (SoSession mySession = SoSession.Authenticate("user", "pass"))
-
-    {
-       using (SaintAgent agent = new SaintAgent())
-       {
-          // call methods on agent here...
-       }
-    }</code></pre>
+  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (SaintAgent agent = new SaintAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
   syntax:
     content: >-
       [Agent("Saint Agent", "Interface for the Saint Agent. Administration and maintenance of SAINT counters and statuses")]
@@ -56,7 +43,8 @@ items:
     content.vb: >-
       <Agent("Saint Agent", "Interface for the Saint Agent. Administration and maintenance of SAINT counters and statuses")>
 
-      Public Interface ISaintAgent Inherits IAgent
+      Public Interface ISaintAgent
+          Inherits IAgent
   attributes:
   - type: SuperOffice.CRM.Services.Reflection.AgentAttribute
     ctor: SuperOffice.CRM.Services.Reflection.AgentAttribute.#ctor(System.String,System.String)
@@ -65,6 +53,12 @@ items:
       value: Saint Agent
     - type: System.String
       value: Interface for the Saint Agent. Administration and maintenance of SAINT counters and statuses
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
 - uid: SuperOffice.CRM.Services.ISaintAgent.CreateDefaultSaintConfiguration
   commentId: M:SuperOffice.CRM.Services.ISaintAgent.CreateDefaultSaintConfiguration
   id: CreateDefaultSaintConfiguration
@@ -76,20 +70,19 @@ items:
   nameWithType: ISaintAgent.CreateDefaultSaintConfiguration()
   fullName: SuperOffice.CRM.Services.ISaintAgent.CreateDefaultSaintConfiguration()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new SaintConfiguration.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-  example: []
+  summary: "\nLoading default values into a new SaintConfiguration.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
   syntax:
     content: SaintConfiguration CreateDefaultSaintConfiguration()
     return:
       type: SuperOffice.CRM.Services.SaintConfiguration
       description: New SaintConfiguration with default values
-    content.vb: Function CreateDefaultSaintConfiguration() As SaintConfiguration
+    content.vb: Function CreateDefaultSaintConfiguration As SaintConfiguration
   overload: SuperOffice.CRM.Services.ISaintAgent.CreateDefaultSaintConfiguration*
 - uid: SuperOffice.CRM.Services.ISaintAgent.SaveSaintConfiguration(SuperOffice.CRM.Services.SaintConfiguration)
   commentId: M:SuperOffice.CRM.Services.ISaintAgent.SaveSaintConfiguration(SuperOffice.CRM.Services.SaintConfiguration)
@@ -102,11 +95,13 @@ items:
   nameWithType: ISaintAgent.SaveSaintConfiguration(SaintConfiguration)
   fullName: SuperOffice.CRM.Services.ISaintAgent.SaveSaintConfiguration(SuperOffice.CRM.Services.SaintConfiguration)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Updates the existing SaintConfiguration or creates a new SaintConfiguration if the id parameter is empty
-  example: []
+  summary: "\nUpdates the existing SaintConfiguration or creates a new SaintConfiguration if the id parameter is empty\n"
   syntax:
     content: SaintConfiguration SaveSaintConfiguration(SaintConfiguration saintConfiguration)
     parameters:
@@ -129,20 +124,19 @@ items:
   nameWithType: ISaintAgent.CreateDefaultStatusMonitor()
   fullName: SuperOffice.CRM.Services.ISaintAgent.CreateDefaultStatusMonitor()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new StatusMonitor.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-  example: []
+  summary: "\nLoading default values into a new StatusMonitor.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
   syntax:
     content: StatusMonitor CreateDefaultStatusMonitor()
     return:
       type: SuperOffice.CRM.Services.StatusMonitor
       description: New StatusMonitor with default values
-    content.vb: Function CreateDefaultStatusMonitor() As StatusMonitor
+    content.vb: Function CreateDefaultStatusMonitor As StatusMonitor
   overload: SuperOffice.CRM.Services.ISaintAgent.CreateDefaultStatusMonitor*
 - uid: SuperOffice.CRM.Services.ISaintAgent.SaveStatusMonitor(SuperOffice.CRM.Services.StatusMonitor)
   commentId: M:SuperOffice.CRM.Services.ISaintAgent.SaveStatusMonitor(SuperOffice.CRM.Services.StatusMonitor)
@@ -155,11 +149,13 @@ items:
   nameWithType: ISaintAgent.SaveStatusMonitor(StatusMonitor)
   fullName: SuperOffice.CRM.Services.ISaintAgent.SaveStatusMonitor(SuperOffice.CRM.Services.StatusMonitor)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Updates the existing StatusMonitor or creates a new StatusMonitor if the id parameter is empty
-  example: []
+  summary: "\nUpdates the existing StatusMonitor or creates a new StatusMonitor if the id parameter is empty\n"
   syntax:
     content: StatusMonitor SaveStatusMonitor(StatusMonitor statusMonitor)
     parameters:
@@ -182,20 +178,19 @@ items:
   nameWithType: ISaintAgent.CreateDefaultStatusMonitorPeriods()
   fullName: SuperOffice.CRM.Services.ISaintAgent.CreateDefaultStatusMonitorPeriods()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new StatusMonitorPeriods.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-  example: []
+  summary: "\nLoading default values into a new StatusMonitorPeriods.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
   syntax:
     content: StatusMonitorPeriods CreateDefaultStatusMonitorPeriods()
     return:
       type: SuperOffice.CRM.Services.StatusMonitorPeriods
       description: New StatusMonitorPeriods with default values
-    content.vb: Function CreateDefaultStatusMonitorPeriods() As StatusMonitorPeriods
+    content.vb: Function CreateDefaultStatusMonitorPeriods As StatusMonitorPeriods
   overload: SuperOffice.CRM.Services.ISaintAgent.CreateDefaultStatusMonitorPeriods*
 - uid: SuperOffice.CRM.Services.ISaintAgent.SaveStatusMonitorPeriods(SuperOffice.CRM.Services.StatusMonitorPeriods)
   commentId: M:SuperOffice.CRM.Services.ISaintAgent.SaveStatusMonitorPeriods(SuperOffice.CRM.Services.StatusMonitorPeriods)
@@ -208,11 +203,13 @@ items:
   nameWithType: ISaintAgent.SaveStatusMonitorPeriods(StatusMonitorPeriods)
   fullName: SuperOffice.CRM.Services.ISaintAgent.SaveStatusMonitorPeriods(SuperOffice.CRM.Services.StatusMonitorPeriods)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Updates the existing StatusMonitorPeriods or creates a new StatusMonitorPeriods if the id parameter is empty
-  example: []
+  summary: "\nUpdates the existing StatusMonitorPeriods or creates a new StatusMonitorPeriods if the id parameter is empty\n"
   syntax:
     content: StatusMonitorPeriods SaveStatusMonitorPeriods(StatusMonitorPeriods statusMonitorPeriods)
     parameters:
@@ -235,17 +232,19 @@ items:
   nameWithType: ISaintAgent.GetSaintConfigurations()
   fullName: SuperOffice.CRM.Services.ISaintAgent.GetSaintConfigurations()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the StatusMonitorPeriods entity.
-  example: []
+  summary: "\nReturns the StatusMonitorPeriods entity.\n"
   syntax:
     content: SaintConfiguration[] GetSaintConfigurations()
     return:
       type: SuperOffice.CRM.Services.SaintConfiguration[]
       description: The SaintConfiguration for all entities
-    content.vb: Function GetSaintConfigurations() As SaintConfiguration()
+    content.vb: Function GetSaintConfigurations As SaintConfiguration()
   overload: SuperOffice.CRM.Services.ISaintAgent.GetSaintConfigurations*
 - uid: SuperOffice.CRM.Services.ISaintAgent.GetStatusMonitors(System.Int32,System.String)
   commentId: M:SuperOffice.CRM.Services.ISaintAgent.GetStatusMonitors(System.Int32,System.String)
@@ -254,15 +253,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetStatusMonitors(int, string)
-  nameWithType: ISaintAgent.GetStatusMonitors(int, string)
-  fullName: SuperOffice.CRM.Services.ISaintAgent.GetStatusMonitors(int, string)
+  name: GetStatusMonitors(Int32, String)
+  nameWithType: ISaintAgent.GetStatusMonitors(Int32, String)
+  fullName: SuperOffice.CRM.Services.ISaintAgent.GetStatusMonitors(System.Int32, System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Get all active status monitors for a specified target
-  example: []
+  summary: "\nGet all active status monitors for a specified target\n"
   syntax:
     content: StatusMonitor[] GetStatusMonitors(int id, string type)
     parameters:
@@ -271,15 +272,12 @@ items:
       description: Identity of target type(contact identity, project identity etc.)
     - id: type
       type: System.String
-      description: Type to get status monitors for("contact", "project", etc.)
+      description: Type to get status monitors for(&quot;contact&quot;, &quot;project&quot;, etc.)
     return:
       type: SuperOffice.CRM.Services.StatusMonitor[]
       description: Active status monitors
     content.vb: Function GetStatusMonitors(id As Integer, type As String) As StatusMonitor()
   overload: SuperOffice.CRM.Services.ISaintAgent.GetStatusMonitors*
-  nameWithType.vb: ISaintAgent.GetStatusMonitors(Integer, String)
-  fullName.vb: SuperOffice.CRM.Services.ISaintAgent.GetStatusMonitors(Integer, String)
-  name.vb: GetStatusMonitors(Integer, String)
 - uid: SuperOffice.CRM.Services.ISaintAgent.GetStatusMonitor(System.Int32)
   commentId: M:SuperOffice.CRM.Services.ISaintAgent.GetStatusMonitor(System.Int32)
   id: GetStatusMonitor(System.Int32)
@@ -287,15 +285,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetStatusMonitor(int)
-  nameWithType: ISaintAgent.GetStatusMonitor(int)
-  fullName: SuperOffice.CRM.Services.ISaintAgent.GetStatusMonitor(int)
+  name: GetStatusMonitor(Int32)
+  nameWithType: ISaintAgent.GetStatusMonitor(Int32)
+  fullName: SuperOffice.CRM.Services.ISaintAgent.GetStatusMonitor(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Get a single status monitor based on its identity
-  example: []
+  summary: "\nGet a single status monitor based on its identity\n"
   syntax:
     content: StatusMonitor GetStatusMonitor(int id)
     parameters:
@@ -307,9 +307,6 @@ items:
       description: The requested status monitor
     content.vb: Function GetStatusMonitor(id As Integer) As StatusMonitor
   overload: SuperOffice.CRM.Services.ISaintAgent.GetStatusMonitor*
-  nameWithType.vb: ISaintAgent.GetStatusMonitor(Integer)
-  fullName.vb: SuperOffice.CRM.Services.ISaintAgent.GetStatusMonitor(Integer)
-  name.vb: GetStatusMonitor(Integer)
 - uid: SuperOffice.CRM.Services.ISaintAgent.RegenerateStatusMonitors(System.Boolean)
   commentId: M:SuperOffice.CRM.Services.ISaintAgent.RegenerateStatusMonitors(System.Boolean)
   id: RegenerateStatusMonitors(System.Boolean)
@@ -317,15 +314,17 @@ items:
   langs:
   - csharp
   - vb
-  name: RegenerateStatusMonitors(bool)
-  nameWithType: ISaintAgent.RegenerateStatusMonitors(bool)
-  fullName: SuperOffice.CRM.Services.ISaintAgent.RegenerateStatusMonitors(bool)
+  name: RegenerateStatusMonitors(Boolean)
+  nameWithType: ISaintAgent.RegenerateStatusMonitors(Boolean)
+  fullName: SuperOffice.CRM.Services.ISaintAgent.RegenerateStatusMonitors(System.Boolean)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Regenerate status monitors
-  example: []
+  summary: "\nRegenerate status monitors\n"
   syntax:
     content: BatchTaskInfo RegenerateStatusMonitors(bool runAsBatch)
     parameters:
@@ -337,9 +336,6 @@ items:
       description: Information about the batch task, if batch execution was requested. Otherwise null
     content.vb: Function RegenerateStatusMonitors(runAsBatch As Boolean) As BatchTaskInfo
   overload: SuperOffice.CRM.Services.ISaintAgent.RegenerateStatusMonitors*
-  nameWithType.vb: ISaintAgent.RegenerateStatusMonitors(Boolean)
-  fullName.vb: SuperOffice.CRM.Services.ISaintAgent.RegenerateStatusMonitors(Boolean)
-  name.vb: RegenerateStatusMonitors(Boolean)
 - uid: SuperOffice.CRM.Services.ISaintAgent.SetRankOnStatusMonitors(System.String,System.Int32[])
   commentId: M:SuperOffice.CRM.Services.ISaintAgent.SetRankOnStatusMonitors(System.String,System.Int32[])
   id: SetRankOnStatusMonitors(System.String,System.Int32[])
@@ -347,29 +343,31 @@ items:
   langs:
   - csharp
   - vb
-  name: SetRankOnStatusMonitors(string, int[])
-  nameWithType: ISaintAgent.SetRankOnStatusMonitors(string, int[])
-  fullName: SuperOffice.CRM.Services.ISaintAgent.SetRankOnStatusMonitors(string, int[])
+  name: SetRankOnStatusMonitors(String, Int32[])
+  nameWithType: ISaintAgent.SetRankOnStatusMonitors(String, Int32[])
+  fullName: SuperOffice.CRM.Services.ISaintAgent.SetRankOnStatusMonitors(System.String, System.Int32[])
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Set rank order on status monitors
-  example: []
+  summary: "\nSet rank order on status monitors\n"
   syntax:
     content: void SetRankOnStatusMonitors(string type, int[] itemsIds)
     parameters:
     - id: type
       type: System.String
-      description: Type of status monitors to reorder ("contact", "project", etc.)
+      description: Type of status monitors to reorder (&quot;contact&quot;, &quot;project&quot;, etc.)
     - id: itemsIds
       type: System.Int32[]
       description: The ids of the items in the order you want
     content.vb: Sub SetRankOnStatusMonitors(type As String, itemsIds As Integer())
   overload: SuperOffice.CRM.Services.ISaintAgent.SetRankOnStatusMonitors*
-  nameWithType.vb: ISaintAgent.SetRankOnStatusMonitors(String, Integer())
-  fullName.vb: SuperOffice.CRM.Services.ISaintAgent.SetRankOnStatusMonitors(String, Integer())
-  name.vb: SetRankOnStatusMonitors(String, Integer())
+  nameWithType.vb: ISaintAgent.SetRankOnStatusMonitors(String, Int32())
+  fullName.vb: SuperOffice.CRM.Services.ISaintAgent.SetRankOnStatusMonitors(System.String, System.Int32())
+  name.vb: SetRankOnStatusMonitors(String, Int32())
 - uid: SuperOffice.CRM.Services.ISaintAgent.RegenerateStatusMonitor(System.Int32)
   commentId: M:SuperOffice.CRM.Services.ISaintAgent.RegenerateStatusMonitor(System.Int32)
   id: RegenerateStatusMonitor(System.Int32)
@@ -377,15 +375,17 @@ items:
   langs:
   - csharp
   - vb
-  name: RegenerateStatusMonitor(int)
-  nameWithType: ISaintAgent.RegenerateStatusMonitor(int)
-  fullName: SuperOffice.CRM.Services.ISaintAgent.RegenerateStatusMonitor(int)
+  name: RegenerateStatusMonitor(Int32)
+  nameWithType: ISaintAgent.RegenerateStatusMonitor(Int32)
+  fullName: SuperOffice.CRM.Services.ISaintAgent.RegenerateStatusMonitor(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Regenerate the given status monitor
-  example: []
+  summary: "\nRegenerate the given status monitor\n"
   syntax:
     content: void RegenerateStatusMonitor(int statusMonitorId)
     parameters:
@@ -394,9 +394,6 @@ items:
       description: The id of the statusmonitor to regenerate
     content.vb: Sub RegenerateStatusMonitor(statusMonitorId As Integer)
   overload: SuperOffice.CRM.Services.ISaintAgent.RegenerateStatusMonitor*
-  nameWithType.vb: ISaintAgent.RegenerateStatusMonitor(Integer)
-  fullName.vb: SuperOffice.CRM.Services.ISaintAgent.RegenerateStatusMonitor(Integer)
-  name.vb: RegenerateStatusMonitor(Integer)
 - uid: SuperOffice.CRM.Services.ISaintAgent.RegenerateCounters(System.Boolean)
   commentId: M:SuperOffice.CRM.Services.ISaintAgent.RegenerateCounters(System.Boolean)
   id: RegenerateCounters(System.Boolean)
@@ -404,15 +401,17 @@ items:
   langs:
   - csharp
   - vb
-  name: RegenerateCounters(bool)
-  nameWithType: ISaintAgent.RegenerateCounters(bool)
-  fullName: SuperOffice.CRM.Services.ISaintAgent.RegenerateCounters(bool)
+  name: RegenerateCounters(Boolean)
+  nameWithType: ISaintAgent.RegenerateCounters(Boolean)
+  fullName: SuperOffice.CRM.Services.ISaintAgent.RegenerateCounters(System.Boolean)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Regenerate the Saint counters - this can take several minutes
-  example: []
+  summary: "\nRegenerate the Saint counters - this can take several minutes\n"
   syntax:
     content: BatchTaskInfo RegenerateCounters(bool runAsBatch)
     parameters:
@@ -424,9 +423,6 @@ items:
       description: Information about the batch task, if batch execution was requested. Otherwise null
     content.vb: Function RegenerateCounters(runAsBatch As Boolean) As BatchTaskInfo
   overload: SuperOffice.CRM.Services.ISaintAgent.RegenerateCounters*
-  nameWithType.vb: ISaintAgent.RegenerateCounters(Boolean)
-  fullName.vb: SuperOffice.CRM.Services.ISaintAgent.RegenerateCounters(Boolean)
-  name.vb: RegenerateCounters(Boolean)
 - uid: SuperOffice.CRM.Services.ISaintAgent.GetStatusMonitorPeriods
   commentId: M:SuperOffice.CRM.Services.ISaintAgent.GetStatusMonitorPeriods
   id: GetStatusMonitorPeriods
@@ -438,60 +434,30 @@ items:
   nameWithType: ISaintAgent.GetStatusMonitorPeriods()
   fullName: SuperOffice.CRM.Services.ISaintAgent.GetStatusMonitorPeriods()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the StatusMonitorPeriods entity.
-  example: []
+  summary: "\nReturns the StatusMonitorPeriods entity.\n"
   syntax:
     content: StatusMonitorPeriods GetStatusMonitorPeriods()
     return:
       type: SuperOffice.CRM.Services.StatusMonitorPeriods
       description: The StatusMonitorEntity
-    content.vb: Function GetStatusMonitorPeriods() As StatusMonitorPeriods
+    content.vb: Function GetStatusMonitorPeriods As StatusMonitorPeriods
   overload: SuperOffice.CRM.Services.ISaintAgent.GetStatusMonitorPeriods*
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
 - uid: SuperOffice.CRM.Services.ISaintAgent.CreateDefaultSaintConfiguration*
   commentId: Overload:SuperOffice.CRM.Services.ISaintAgent.CreateDefaultSaintConfiguration
   isExternal: true
-  href: SuperOffice.CRM.Services.ISaintAgent.html#SuperOffice_CRM_Services_ISaintAgent_CreateDefaultSaintConfiguration
   name: CreateDefaultSaintConfiguration
   nameWithType: ISaintAgent.CreateDefaultSaintConfiguration
   fullName: SuperOffice.CRM.Services.ISaintAgent.CreateDefaultSaintConfiguration
@@ -499,21 +465,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.SaintConfiguration
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.SaintConfiguration.html
   name: SaintConfiguration
   nameWithType: SaintConfiguration
   fullName: SuperOffice.CRM.Services.SaintConfiguration
 - uid: SuperOffice.CRM.Services.ISaintAgent.SaveSaintConfiguration*
   commentId: Overload:SuperOffice.CRM.Services.ISaintAgent.SaveSaintConfiguration
   isExternal: true
-  href: SuperOffice.CRM.Services.ISaintAgent.html#SuperOffice_CRM_Services_ISaintAgent_SaveSaintConfiguration_SuperOffice_CRM_Services_SaintConfiguration_
   name: SaveSaintConfiguration
   nameWithType: ISaintAgent.SaveSaintConfiguration
   fullName: SuperOffice.CRM.Services.ISaintAgent.SaveSaintConfiguration
 - uid: SuperOffice.CRM.Services.ISaintAgent.CreateDefaultStatusMonitor*
   commentId: Overload:SuperOffice.CRM.Services.ISaintAgent.CreateDefaultStatusMonitor
   isExternal: true
-  href: SuperOffice.CRM.Services.ISaintAgent.html#SuperOffice_CRM_Services_ISaintAgent_CreateDefaultStatusMonitor
   name: CreateDefaultStatusMonitor
   nameWithType: ISaintAgent.CreateDefaultStatusMonitor
   fullName: SuperOffice.CRM.Services.ISaintAgent.CreateDefaultStatusMonitor
@@ -521,21 +484,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.StatusMonitor
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.StatusMonitor.html
   name: StatusMonitor
   nameWithType: StatusMonitor
   fullName: SuperOffice.CRM.Services.StatusMonitor
 - uid: SuperOffice.CRM.Services.ISaintAgent.SaveStatusMonitor*
   commentId: Overload:SuperOffice.CRM.Services.ISaintAgent.SaveStatusMonitor
   isExternal: true
-  href: SuperOffice.CRM.Services.ISaintAgent.html#SuperOffice_CRM_Services_ISaintAgent_SaveStatusMonitor_SuperOffice_CRM_Services_StatusMonitor_
   name: SaveStatusMonitor
   nameWithType: ISaintAgent.SaveStatusMonitor
   fullName: SuperOffice.CRM.Services.ISaintAgent.SaveStatusMonitor
 - uid: SuperOffice.CRM.Services.ISaintAgent.CreateDefaultStatusMonitorPeriods*
   commentId: Overload:SuperOffice.CRM.Services.ISaintAgent.CreateDefaultStatusMonitorPeriods
   isExternal: true
-  href: SuperOffice.CRM.Services.ISaintAgent.html#SuperOffice_CRM_Services_ISaintAgent_CreateDefaultStatusMonitorPeriods
   name: CreateDefaultStatusMonitorPeriods
   nameWithType: ISaintAgent.CreateDefaultStatusMonitorPeriods
   fullName: SuperOffice.CRM.Services.ISaintAgent.CreateDefaultStatusMonitorPeriods
@@ -543,27 +503,23 @@ references:
   commentId: T:SuperOffice.CRM.Services.StatusMonitorPeriods
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.StatusMonitorPeriods.html
   name: StatusMonitorPeriods
   nameWithType: StatusMonitorPeriods
   fullName: SuperOffice.CRM.Services.StatusMonitorPeriods
 - uid: SuperOffice.CRM.Services.ISaintAgent.SaveStatusMonitorPeriods*
   commentId: Overload:SuperOffice.CRM.Services.ISaintAgent.SaveStatusMonitorPeriods
   isExternal: true
-  href: SuperOffice.CRM.Services.ISaintAgent.html#SuperOffice_CRM_Services_ISaintAgent_SaveStatusMonitorPeriods_SuperOffice_CRM_Services_StatusMonitorPeriods_
   name: SaveStatusMonitorPeriods
   nameWithType: ISaintAgent.SaveStatusMonitorPeriods
   fullName: SuperOffice.CRM.Services.ISaintAgent.SaveStatusMonitorPeriods
 - uid: SuperOffice.CRM.Services.ISaintAgent.GetSaintConfigurations*
   commentId: Overload:SuperOffice.CRM.Services.ISaintAgent.GetSaintConfigurations
   isExternal: true
-  href: SuperOffice.CRM.Services.ISaintAgent.html#SuperOffice_CRM_Services_ISaintAgent_GetSaintConfigurations
   name: GetSaintConfigurations
   nameWithType: ISaintAgent.GetSaintConfigurations
   fullName: SuperOffice.CRM.Services.ISaintAgent.GetSaintConfigurations
 - uid: SuperOffice.CRM.Services.SaintConfiguration[]
   isExternal: true
-  href: SuperOffice.CRM.Services.SaintConfiguration.html
   name: SaintConfiguration[]
   nameWithType: SaintConfiguration[]
   fullName: SuperOffice.CRM.Services.SaintConfiguration[]
@@ -573,21 +529,24 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.SaintConfiguration
     name: SaintConfiguration
+    nameWithType: SaintConfiguration
+    fullName: SuperOffice.CRM.Services.SaintConfiguration
     isExternal: true
-    href: SuperOffice.CRM.Services.SaintConfiguration.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.Services.SaintConfiguration
     name: SaintConfiguration
+    nameWithType: SaintConfiguration
+    fullName: SuperOffice.CRM.Services.SaintConfiguration
     isExternal: true
-    href: SuperOffice.CRM.Services.SaintConfiguration.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.ISaintAgent.GetStatusMonitors*
   commentId: Overload:SuperOffice.CRM.Services.ISaintAgent.GetStatusMonitors
   isExternal: true
-  href: SuperOffice.CRM.Services.ISaintAgent.html#SuperOffice_CRM_Services_ISaintAgent_GetStatusMonitors_System_Int32_System_String_
   name: GetStatusMonitors
   nameWithType: ISaintAgent.GetStatusMonitors
   fullName: SuperOffice.CRM.Services.ISaintAgent.GetStatusMonitors
@@ -595,27 +554,18 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.CRM.Services.StatusMonitor[]
   isExternal: true
-  href: SuperOffice.CRM.Services.StatusMonitor.html
   name: StatusMonitor[]
   nameWithType: StatusMonitor[]
   fullName: SuperOffice.CRM.Services.StatusMonitor[]
@@ -625,35 +575,36 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.StatusMonitor
     name: StatusMonitor
+    nameWithType: StatusMonitor
+    fullName: SuperOffice.CRM.Services.StatusMonitor
     isExternal: true
-    href: SuperOffice.CRM.Services.StatusMonitor.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.Services.StatusMonitor
     name: StatusMonitor
+    nameWithType: StatusMonitor
+    fullName: SuperOffice.CRM.Services.StatusMonitor
     isExternal: true
-    href: SuperOffice.CRM.Services.StatusMonitor.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.CRM.Services.ISaintAgent.GetStatusMonitor*
   commentId: Overload:SuperOffice.CRM.Services.ISaintAgent.GetStatusMonitor
   isExternal: true
-  href: SuperOffice.CRM.Services.ISaintAgent.html#SuperOffice_CRM_Services_ISaintAgent_GetStatusMonitor_System_Int32_
   name: GetStatusMonitor
   nameWithType: ISaintAgent.GetStatusMonitor
   fullName: SuperOffice.CRM.Services.ISaintAgent.GetStatusMonitor
 - uid: SuperOffice.CRM.Services.ISaintAgent.RegenerateStatusMonitors*
   commentId: Overload:SuperOffice.CRM.Services.ISaintAgent.RegenerateStatusMonitors
   isExternal: true
-  href: SuperOffice.CRM.Services.ISaintAgent.html#SuperOffice_CRM_Services_ISaintAgent_RegenerateStatusMonitors_System_Boolean_
   name: RegenerateStatusMonitors
   nameWithType: ISaintAgent.RegenerateStatusMonitors
   fullName: SuperOffice.CRM.Services.ISaintAgent.RegenerateStatusMonitors
@@ -661,69 +612,63 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.CRM.Services.BatchTaskInfo
   commentId: T:SuperOffice.CRM.Services.BatchTaskInfo
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.BatchTaskInfo.html
   name: BatchTaskInfo
   nameWithType: BatchTaskInfo
   fullName: SuperOffice.CRM.Services.BatchTaskInfo
 - uid: SuperOffice.CRM.Services.ISaintAgent.SetRankOnStatusMonitors*
   commentId: Overload:SuperOffice.CRM.Services.ISaintAgent.SetRankOnStatusMonitors
   isExternal: true
-  href: SuperOffice.CRM.Services.ISaintAgent.html#SuperOffice_CRM_Services_ISaintAgent_SetRankOnStatusMonitors_System_String_System_Int32___
   name: SetRankOnStatusMonitors
   nameWithType: ISaintAgent.SetRankOnStatusMonitors
   fullName: SuperOffice.CRM.Services.ISaintAgent.SetRankOnStatusMonitors
 - uid: System.Int32[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int[]
-  nameWithType: int[]
-  fullName: int[]
-  nameWithType.vb: Integer()
-  fullName.vb: Integer()
-  name.vb: Integer()
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
   spec.csharp:
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.ISaintAgent.RegenerateStatusMonitor*
   commentId: Overload:SuperOffice.CRM.Services.ISaintAgent.RegenerateStatusMonitor
   isExternal: true
-  href: SuperOffice.CRM.Services.ISaintAgent.html#SuperOffice_CRM_Services_ISaintAgent_RegenerateStatusMonitor_System_Int32_
   name: RegenerateStatusMonitor
   nameWithType: ISaintAgent.RegenerateStatusMonitor
   fullName: SuperOffice.CRM.Services.ISaintAgent.RegenerateStatusMonitor
 - uid: SuperOffice.CRM.Services.ISaintAgent.RegenerateCounters*
   commentId: Overload:SuperOffice.CRM.Services.ISaintAgent.RegenerateCounters
   isExternal: true
-  href: SuperOffice.CRM.Services.ISaintAgent.html#SuperOffice_CRM_Services_ISaintAgent_RegenerateCounters_System_Boolean_
   name: RegenerateCounters
   nameWithType: ISaintAgent.RegenerateCounters
   fullName: SuperOffice.CRM.Services.ISaintAgent.RegenerateCounters
 - uid: SuperOffice.CRM.Services.ISaintAgent.GetStatusMonitorPeriods*
   commentId: Overload:SuperOffice.CRM.Services.ISaintAgent.GetStatusMonitorPeriods
   isExternal: true
-  href: SuperOffice.CRM.Services.ISaintAgent.html#SuperOffice_CRM_Services_ISaintAgent_GetStatusMonitorPeriods
   name: GetStatusMonitorPeriods
   nameWithType: ISaintAgent.GetStatusMonitorPeriods
   fullName: SuperOffice.CRM.Services.ISaintAgent.GetStatusMonitorPeriods

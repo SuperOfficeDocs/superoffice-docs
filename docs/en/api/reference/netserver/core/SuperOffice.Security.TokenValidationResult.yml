@@ -8,26 +8,67 @@ items:
   - SuperOffice.Security.TokenValidationResult.Indifferent
   - SuperOffice.Security.TokenValidationResult.Rejected
   - SuperOffice.Security.TokenValidationResult.Valid
+  - SuperOffice.Security.TokenValidationResult.value__
   langs:
   - csharp
   - vb
   name: TokenValidationResult
   nameWithType: TokenValidationResult
   fullName: SuperOffice.Security.TokenValidationResult
-  type: Enum
+  type: Class
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.Security
-  summary: Result of validation process
-  example: []
+  summary: "\nResult of validation process\n"
   syntax:
-    content: public enum TokenValidationResult
-    content.vb: Public Enum TokenValidationResult
+    content: 'public sealed class TokenValidationResult : Enum'
+    content.vb: >-
+      Public NotInheritable Class TokenValidationResult
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Security.TokenValidationResult.EnumUtil.MapEnums``2
   - SuperOffice.Security.TokenValidationResult.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  - SuperOffice.Security.TokenValidationResult.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Security.TokenValidationResult)
-  - SuperOffice.Security.TokenValidationResult.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Security.TokenValidationResult.value__
+  commentId: F:SuperOffice.Security.TokenValidationResult.value__
+  id: value__
+  parent: SuperOffice.Security.TokenValidationResult
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: TokenValidationResult.value__
+  fullName: SuperOffice.Security.TokenValidationResult.value__
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.Security
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Security.TokenValidationResult.Indifferent
   commentId: F:SuperOffice.Security.TokenValidationResult.Indifferent
   id: Indifferent
@@ -39,15 +80,24 @@ items:
   nameWithType: TokenValidationResult.Indifferent
   fullName: SuperOffice.Security.TokenValidationResult.Indifferent
   type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.Security
-  summary: The plugin is indifferent to the authentication.
-  example: []
+  summary: "\nThe plugin is indifferent to the authentication.\n"
   syntax:
-    content: Indifferent = 0
+    content: public const TokenValidationResult Indifferent
     return:
       type: SuperOffice.Security.TokenValidationResult
+    content.vb: Public Const Indifferent As TokenValidationResult
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Security.TokenValidationResult.Valid
   commentId: F:SuperOffice.Security.TokenValidationResult.Valid
   id: Valid
@@ -59,15 +109,24 @@ items:
   nameWithType: TokenValidationResult.Valid
   fullName: SuperOffice.Security.TokenValidationResult.Valid
   type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.Security
-  summary: The plugin can positively confirm the authentication.
-  example: []
+  summary: "\nThe plugin can positively confirm the authentication.\n"
   syntax:
-    content: Valid = 1
+    content: public const TokenValidationResult Valid
     return:
       type: SuperOffice.Security.TokenValidationResult
+    content.vb: Public Const Valid As TokenValidationResult
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Security.TokenValidationResult.Rejected
   commentId: F:SuperOffice.Security.TokenValidationResult.Rejected
   id: Rejected
@@ -79,259 +138,115 @@ items:
   nameWithType: TokenValidationResult.Rejected
   fullName: SuperOffice.Security.TokenValidationResult.Rejected
   type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.Security
-  summary: The plugin rejects the authentication.
-  example: []
+  summary: "\nThe plugin rejects the authentication.\n"
   syntax:
-    content: Rejected = 2
+    content: public const TokenValidationResult Rejected
     return:
       type: SuperOffice.Security.TokenValidationResult
+    content.vb: Public Const Rejected As TokenValidationResult
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.Security
   commentId: N:SuperOffice.Security
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Security
   nameWithType: SuperOffice.Security
   fullName: SuperOffice.Security
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Security
-    name: Security
-    isExternal: true
-    href: SuperOffice.Security.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Security
-    name: Security
-    isExternal: true
-    href: SuperOffice.Security.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Security.TokenValidationResult.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<TokenValidationResult, To>(TokenValidationResult)
-  nameWithType: EnumUtil.MapEnums<TokenValidationResult, To>(TokenValidationResult)
-  fullName: EnumUtil.MapEnums<SuperOffice.Security.TokenValidationResult, To>(SuperOffice.Security.TokenValidationResult)
-  nameWithType.vb: EnumUtil.MapEnums(Of TokenValidationResult, To)(TokenValidationResult)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Security.TokenValidationResult, To)(SuperOffice.Security.TokenValidationResult)
-  name.vb: MapEnums(Of TokenValidationResult, To)(TokenValidationResult)
+  name: MapEnums<TokenValidationResult, To>()
+  nameWithType: EnumUtil.MapEnums<TokenValidationResult, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Security.TokenValidationResult, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of TokenValidationResult, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Security.TokenValidationResult, To)()
+  name.vb: MapEnums(Of TokenValidationResult, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Security.TokenValidationResult)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<TokenValidationResult, To>
+    nameWithType: EnumUtil.MapEnums<TokenValidationResult, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Security.TokenValidationResult, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Security.TokenValidationResult
-    name: TokenValidationResult
-    isExternal: true
-    href: SuperOffice.Security.TokenValidationResult.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Security.TokenValidationResult
-    name: TokenValidationResult
-    isExternal: true
-    href: SuperOffice.Security.TokenValidationResult.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Security.TokenValidationResult)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of TokenValidationResult, To)
+    nameWithType: EnumUtil.MapEnums(Of TokenValidationResult, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Security.TokenValidationResult, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Security.TokenValidationResult
-    name: TokenValidationResult
-    isExternal: true
-    href: SuperOffice.Security.TokenValidationResult.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Security.TokenValidationResult
-    name: TokenValidationResult
-    isExternal: true
-    href: SuperOffice.Security.TokenValidationResult.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Security.TokenValidationResult.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<TokenValidationResult, To>(TokenValidationResult)
-  nameWithType: Converters.MapEnums<TokenValidationResult, To>(TokenValidationResult)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.TokenValidationResult, To>(SuperOffice.Security.TokenValidationResult)
-  nameWithType.vb: Converters.MapEnums(Of TokenValidationResult, To)(TokenValidationResult)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.TokenValidationResult, To)(SuperOffice.Security.TokenValidationResult)
-  name.vb: MapEnums(Of TokenValidationResult, To)(TokenValidationResult)
+  name: MapEnums<TokenValidationResult, To>()
+  nameWithType: Converters.MapEnums<TokenValidationResult, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.TokenValidationResult, To>()
+  nameWithType.vb: Converters.MapEnums(Of TokenValidationResult, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.TokenValidationResult, To)()
+  name.vb: MapEnums(Of TokenValidationResult, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Security.TokenValidationResult)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<TokenValidationResult, To>
+    nameWithType: Converters.MapEnums<TokenValidationResult, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.TokenValidationResult, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Security.TokenValidationResult
-    name: TokenValidationResult
-    isExternal: true
-    href: SuperOffice.Security.TokenValidationResult.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Security.TokenValidationResult
-    name: TokenValidationResult
-    isExternal: true
-    href: SuperOffice.Security.TokenValidationResult.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Security.TokenValidationResult)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of TokenValidationResult, To)
+    nameWithType: Converters.MapEnums(Of TokenValidationResult, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.TokenValidationResult, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Security.TokenValidationResult
-    name: TokenValidationResult
-    isExternal: true
-    href: SuperOffice.Security.TokenValidationResult.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Security.TokenValidationResult
-    name: TokenValidationResult
-    isExternal: true
-    href: SuperOffice.Security.TokenValidationResult.html
-  - name: )
-- uid: SuperOffice.Security.TokenValidationResult.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Security.TokenValidationResult)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<TokenValidationResult>(TokenValidationResult, TokenValidationResult)
-  nameWithType: ObjectExtensions.AssignByReflection<TokenValidationResult>(TokenValidationResult, TokenValidationResult)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Security.TokenValidationResult>(SuperOffice.Security.TokenValidationResult, SuperOffice.Security.TokenValidationResult)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of TokenValidationResult)(TokenValidationResult, TokenValidationResult)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Security.TokenValidationResult)(SuperOffice.Security.TokenValidationResult, SuperOffice.Security.TokenValidationResult)
-  name.vb: AssignByReflection(Of TokenValidationResult)(TokenValidationResult, TokenValidationResult)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Security.TokenValidationResult,SuperOffice.Security.TokenValidationResult)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.Security.TokenValidationResult
-    name: TokenValidationResult
-    isExternal: true
-    href: SuperOffice.Security.TokenValidationResult.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Security.TokenValidationResult
-    name: TokenValidationResult
-    isExternal: true
-    href: SuperOffice.Security.TokenValidationResult.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Security.TokenValidationResult
-    name: TokenValidationResult
-    isExternal: true
-    href: SuperOffice.Security.TokenValidationResult.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Security.TokenValidationResult,SuperOffice.Security.TokenValidationResult)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Security.TokenValidationResult
-    name: TokenValidationResult
-    isExternal: true
-    href: SuperOffice.Security.TokenValidationResult.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.Security.TokenValidationResult
-    name: TokenValidationResult
-    isExternal: true
-    href: SuperOffice.Security.TokenValidationResult.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Security.TokenValidationResult
-    name: TokenValidationResult
-    isExternal: true
-    href: SuperOffice.Security.TokenValidationResult.html
-  - name: )
-- uid: SuperOffice.Security.TokenValidationResult.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<TokenValidationResult>(TokenValidationResult)
-  nameWithType: ObjectExtensions.GraphCopy<TokenValidationResult>(TokenValidationResult)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Security.TokenValidationResult>(SuperOffice.Security.TokenValidationResult)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of TokenValidationResult)(TokenValidationResult)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Security.TokenValidationResult)(SuperOffice.Security.TokenValidationResult)
-  name.vb: GraphCopy(Of TokenValidationResult)(TokenValidationResult)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Security.TokenValidationResult)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.Security.TokenValidationResult
-    name: TokenValidationResult
-    isExternal: true
-    href: SuperOffice.Security.TokenValidationResult.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Security.TokenValidationResult
-    name: TokenValidationResult
-    isExternal: true
-    href: SuperOffice.Security.TokenValidationResult.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Security.TokenValidationResult)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Security.TokenValidationResult
-    name: TokenValidationResult
-    isExternal: true
-    href: SuperOffice.Security.TokenValidationResult.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.Security.TokenValidationResult
-    name: TokenValidationResult
-    isExternal: true
-    href: SuperOffice.Security.TokenValidationResult.html
-  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -340,45 +255,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -387,193 +300,58 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.Security.TokenValidationResult
   commentId: T:SuperOffice.Security.TokenValidationResult
   parent: SuperOffice.Security
   isExternal: true
-  href: SuperOffice.Security.TokenValidationResult.html
   name: TokenValidationResult
   nameWithType: TokenValidationResult
   fullName: SuperOffice.Security.TokenValidationResult

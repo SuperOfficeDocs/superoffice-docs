@@ -13,25 +13,26 @@ items:
   nameWithType: IQuoteLineInfoPopulator
   fullName: SuperOffice.CRM.Globalization.IQuoteLineInfoPopulator
   type: Interface
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
-  summary: Interface for managed/native callback class for on-demand data marshalling from C++
-  remarks: >-
-    C++ clients may use an infrastructure of native/managed marshalling classes
-
-    to implement on-demand population of data carriers. The name and structure
-
-    of this interface is connected with the C++ code in NSEntityInfoPopulation.clr.h
-
-    and should not be changed light-heartedly.
-  example: []
+  summary: "\nInterface for managed/native callback class for on-demand data marshalling from C++\n"
+  remarks: "\nC++ clients may use an infrastructure of native/managed marshalling classes\nto implement on-demand population of data carriers. The name and structure\nof this interface is connected with the C++ code in NSEntityInfoPopulation.clr.h\nand should not be changed light-heartedly.\n"
   syntax:
     content: public interface IQuoteLineInfoPopulator
     content.vb: Public Interface IQuoteLineInfoPopulator
   extensionMethods:
   - SuperOffice.CRM.Globalization.IQuoteLineInfoPopulator.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Globalization.IQuoteLineInfoPopulator.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
 - uid: SuperOffice.CRM.Globalization.IQuoteLineInfoPopulator.GetSimpleInfo(System.Int32)
   commentId: M:SuperOffice.CRM.Globalization.IQuoteLineInfoPopulator.GetSimpleInfo(System.Int32)
   id: GetSimpleInfo(System.Int32)
@@ -39,10 +40,13 @@ items:
   langs:
   - csharp
   - vb
-  name: GetSimpleInfo(int)
-  nameWithType: IQuoteLineInfoPopulator.GetSimpleInfo(int)
-  fullName: SuperOffice.CRM.Globalization.IQuoteLineInfoPopulator.GetSimpleInfo(int)
+  name: GetSimpleInfo(Int32)
+  nameWithType: IQuoteLineInfoPopulator.GetSimpleInfo(Int32)
+  fullName: SuperOffice.CRM.Globalization.IQuoteLineInfoPopulator.GetSimpleInfo(System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Globalization
@@ -55,157 +59,84 @@ items:
       type: SuperOffice.CRM.QuoteLineInfo
     content.vb: Function GetSimpleInfo(primaryId As Integer) As QuoteLineInfo
   overload: SuperOffice.CRM.Globalization.IQuoteLineInfoPopulator.GetSimpleInfo*
-  nameWithType.vb: IQuoteLineInfoPopulator.GetSimpleInfo(Integer)
-  fullName.vb: SuperOffice.CRM.Globalization.IQuoteLineInfoPopulator.GetSimpleInfo(Integer)
-  name.vb: GetSimpleInfo(Integer)
 references:
 - uid: SuperOffice.CRM.Globalization
   commentId: N:SuperOffice.CRM.Globalization
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Globalization
   nameWithType: SuperOffice.CRM.Globalization
   fullName: SuperOffice.CRM.Globalization
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Globalization
-    name: Globalization
-    isExternal: true
-    href: SuperOffice.CRM.Globalization.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Globalization
-    name: Globalization
-    isExternal: true
-    href: SuperOffice.CRM.Globalization.html
 - uid: SuperOffice.CRM.Globalization.IQuoteLineInfoPopulator.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<IQuoteLineInfoPopulator, To>(IQuoteLineInfoPopulator)
-  nameWithType: EnumUtil.MapEnums<IQuoteLineInfoPopulator, To>(IQuoteLineInfoPopulator)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Globalization.IQuoteLineInfoPopulator, To>(SuperOffice.CRM.Globalization.IQuoteLineInfoPopulator)
-  nameWithType.vb: EnumUtil.MapEnums(Of IQuoteLineInfoPopulator, To)(IQuoteLineInfoPopulator)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Globalization.IQuoteLineInfoPopulator, To)(SuperOffice.CRM.Globalization.IQuoteLineInfoPopulator)
-  name.vb: MapEnums(Of IQuoteLineInfoPopulator, To)(IQuoteLineInfoPopulator)
+  name: MapEnums<IQuoteLineInfoPopulator, To>()
+  nameWithType: EnumUtil.MapEnums<IQuoteLineInfoPopulator, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Globalization.IQuoteLineInfoPopulator, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of IQuoteLineInfoPopulator, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Globalization.IQuoteLineInfoPopulator, To)()
+  name.vb: MapEnums(Of IQuoteLineInfoPopulator, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Globalization.IQuoteLineInfoPopulator)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<IQuoteLineInfoPopulator, To>
+    nameWithType: EnumUtil.MapEnums<IQuoteLineInfoPopulator, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Globalization.IQuoteLineInfoPopulator, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Globalization.IQuoteLineInfoPopulator
-    name: IQuoteLineInfoPopulator
-    isExternal: true
-    href: SuperOffice.CRM.Globalization.IQuoteLineInfoPopulator.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Globalization.IQuoteLineInfoPopulator
-    name: IQuoteLineInfoPopulator
-    isExternal: true
-    href: SuperOffice.CRM.Globalization.IQuoteLineInfoPopulator.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Globalization.IQuoteLineInfoPopulator)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of IQuoteLineInfoPopulator, To)
+    nameWithType: EnumUtil.MapEnums(Of IQuoteLineInfoPopulator, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Globalization.IQuoteLineInfoPopulator, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Globalization.IQuoteLineInfoPopulator
-    name: IQuoteLineInfoPopulator
-    isExternal: true
-    href: SuperOffice.CRM.Globalization.IQuoteLineInfoPopulator.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Globalization.IQuoteLineInfoPopulator
-    name: IQuoteLineInfoPopulator
-    isExternal: true
-    href: SuperOffice.CRM.Globalization.IQuoteLineInfoPopulator.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Globalization.IQuoteLineInfoPopulator.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<IQuoteLineInfoPopulator, To>(IQuoteLineInfoPopulator)
-  nameWithType: Converters.MapEnums<IQuoteLineInfoPopulator, To>(IQuoteLineInfoPopulator)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Globalization.IQuoteLineInfoPopulator, To>(SuperOffice.CRM.Globalization.IQuoteLineInfoPopulator)
-  nameWithType.vb: Converters.MapEnums(Of IQuoteLineInfoPopulator, To)(IQuoteLineInfoPopulator)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Globalization.IQuoteLineInfoPopulator, To)(SuperOffice.CRM.Globalization.IQuoteLineInfoPopulator)
-  name.vb: MapEnums(Of IQuoteLineInfoPopulator, To)(IQuoteLineInfoPopulator)
+  name: MapEnums<IQuoteLineInfoPopulator, To>()
+  nameWithType: Converters.MapEnums<IQuoteLineInfoPopulator, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Globalization.IQuoteLineInfoPopulator, To>()
+  nameWithType.vb: Converters.MapEnums(Of IQuoteLineInfoPopulator, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Globalization.IQuoteLineInfoPopulator, To)()
+  name.vb: MapEnums(Of IQuoteLineInfoPopulator, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Globalization.IQuoteLineInfoPopulator)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<IQuoteLineInfoPopulator, To>
+    nameWithType: Converters.MapEnums<IQuoteLineInfoPopulator, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Globalization.IQuoteLineInfoPopulator, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Globalization.IQuoteLineInfoPopulator
-    name: IQuoteLineInfoPopulator
-    isExternal: true
-    href: SuperOffice.CRM.Globalization.IQuoteLineInfoPopulator.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Globalization.IQuoteLineInfoPopulator
-    name: IQuoteLineInfoPopulator
-    isExternal: true
-    href: SuperOffice.CRM.Globalization.IQuoteLineInfoPopulator.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Globalization.IQuoteLineInfoPopulator)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of IQuoteLineInfoPopulator, To)
+    nameWithType: Converters.MapEnums(Of IQuoteLineInfoPopulator, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Globalization.IQuoteLineInfoPopulator, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Globalization.IQuoteLineInfoPopulator
-    name: IQuoteLineInfoPopulator
-    isExternal: true
-    href: SuperOffice.CRM.Globalization.IQuoteLineInfoPopulator.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Globalization.IQuoteLineInfoPopulator
-    name: IQuoteLineInfoPopulator
-    isExternal: true
-    href: SuperOffice.CRM.Globalization.IQuoteLineInfoPopulator.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -214,45 +145,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -261,83 +190,50 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.CRM.Globalization.IQuoteLineInfoPopulator.GetSimpleInfo*
   commentId: Overload:SuperOffice.CRM.Globalization.IQuoteLineInfoPopulator.GetSimpleInfo
   isExternal: true
-  href: SuperOffice.CRM.Globalization.IQuoteLineInfoPopulator.html#SuperOffice_CRM_Globalization_IQuoteLineInfoPopulator_GetSimpleInfo_System_Int32_
   name: GetSimpleInfo
   nameWithType: IQuoteLineInfoPopulator.GetSimpleInfo
   fullName: SuperOffice.CRM.Globalization.IQuoteLineInfoPopulator.GetSimpleInfo
@@ -345,52 +241,25 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.QuoteLineInfo
   commentId: T:SuperOffice.CRM.QuoteLineInfo
   parent: SuperOffice.CRM
   isExternal: true
-  href: SuperOffice.CRM.QuoteLineInfo.html
   name: QuoteLineInfo
   nameWithType: QuoteLineInfo
   fullName: SuperOffice.CRM.QuoteLineInfo
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.CRM
   commentId: N:SuperOffice.CRM
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM
   nameWithType: SuperOffice.CRM
   fullName: SuperOffice.CRM
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html

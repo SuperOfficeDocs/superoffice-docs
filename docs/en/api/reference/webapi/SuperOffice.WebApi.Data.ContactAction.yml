@@ -15,34 +15,64 @@ items:
   - SuperOffice.WebApi.Data.ContactAction.UndefinedValue128
   - SuperOffice.WebApi.Data.ContactAction.Unknown
   - SuperOffice.WebApi.Data.ContactAction.Updated
+  - SuperOffice.WebApi.Data.ContactAction.value__
   langs:
   - csharp
   - vb
   name: ContactAction
   nameWithType: ContactAction
   fullName: SuperOffice.WebApi.Data.ContactAction
-  type: Enum
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Describes what type of activity/action there has been on a contact
-
-    This Enum consists of flag values that can be combined.
-  example: []
+  summary: "\nDescribes what type of activity/action there has been on a contact\nThis Enum consists of flag values that can be combined.\n"
   syntax:
-    content: >-
-      [Flags]
-
-      public enum ContactAction
+    content: 'public sealed class ContactAction : Enum'
     content.vb: >-
-      <Flags>
+      Public NotInheritable Class ContactAction
+          Inherits
 
-      Public Enum ContactAction
-  attributes:
-  - type: System.FlagsAttribute
-    ctor: System.FlagsAttribute.#ctor
-    arguments: []
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.ContactAction.value__
+  commentId: F:SuperOffice.WebApi.Data.ContactAction.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.ContactAction
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: ContactAction.value__
+  fullName: SuperOffice.WebApi.Data.ContactAction.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.ContactAction.Unknown
   commentId: F:SuperOffice.WebApi.Data.ContactAction.Unknown
   id: Unknown
@@ -54,15 +84,24 @@ items:
   nameWithType: ContactAction.Unknown
   fullName: SuperOffice.WebApi.Data.ContactAction.Unknown
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '0: Unknown/undecided type'
-  example: []
+  summary: "\n0: Unknown/undecided type\n"
   syntax:
-    content: Unknown = 0
+    content: public const ContactAction Unknown
     return:
       type: SuperOffice.WebApi.Data.ContactAction
+    content.vb: Public Const Unknown As ContactAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ContactAction.Created
   commentId: F:SuperOffice.WebApi.Data.ContactAction.Created
   id: Created
@@ -74,26 +113,24 @@ items:
   nameWithType: ContactAction.Created
   fullName: SuperOffice.WebApi.Data.ContactAction.Created
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '1: The contact was created'
-  example: []
+  summary: "\n1: The contact was created\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Created = 1
+    content: public const ContactAction Created
     return:
       type: SuperOffice.WebApi.Data.ContactAction
-    content.vb: >-
-      <EnumMember>
-
-      Created = 1
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Created As ContactAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ContactAction.Updated
   commentId: F:SuperOffice.WebApi.Data.ContactAction.Updated
   id: Updated
@@ -105,26 +142,24 @@ items:
   nameWithType: ContactAction.Updated
   fullName: SuperOffice.WebApi.Data.ContactAction.Updated
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '2: The contact was updated'
-  example: []
+  summary: "\n2: The contact was updated\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Updated = 2
+    content: public const ContactAction Updated
     return:
       type: SuperOffice.WebApi.Data.ContactAction
-    content.vb: >-
-      <EnumMember>
-
-      Updated = 2
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Updated As ContactAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ContactAction.NewActivity
   commentId: F:SuperOffice.WebApi.Data.ContactAction.NewActivity
   id: NewActivity
@@ -136,26 +171,24 @@ items:
   nameWithType: ContactAction.NewActivity
   fullName: SuperOffice.WebApi.Data.ContactAction.NewActivity
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '4: A new activity was created on the contact'
-  example: []
+  summary: "\n4: A new activity was created on the contact\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      NewActivity = 4
+    content: public const ContactAction NewActivity
     return:
       type: SuperOffice.WebApi.Data.ContactAction
-    content.vb: >-
-      <EnumMember>
-
-      NewActivity = 4
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const NewActivity As ContactAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ContactAction.ActivityCompleted
   commentId: F:SuperOffice.WebApi.Data.ContactAction.ActivityCompleted
   id: ActivityCompleted
@@ -167,26 +200,24 @@ items:
   nameWithType: ContactAction.ActivityCompleted
   fullName: SuperOffice.WebApi.Data.ContactAction.ActivityCompleted
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '8: An activity belonging to the contact was completed'
-  example: []
+  summary: "\n8: An activity belonging to the contact was completed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      ActivityCompleted = 8
+    content: public const ContactAction ActivityCompleted
     return:
       type: SuperOffice.WebApi.Data.ContactAction
-    content.vb: >-
-      <EnumMember>
-
-      ActivityCompleted = 8
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const ActivityCompleted As ContactAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ContactAction.PersonAdded
   commentId: F:SuperOffice.WebApi.Data.ContactAction.PersonAdded
   id: PersonAdded
@@ -198,26 +229,24 @@ items:
   nameWithType: ContactAction.PersonAdded
   fullName: SuperOffice.WebApi.Data.ContactAction.PersonAdded
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '16: A person was added to the contact'
-  example: []
+  summary: "\n16: A person was added to the contact\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      PersonAdded = 16
+    content: public const ContactAction PersonAdded
     return:
       type: SuperOffice.WebApi.Data.ContactAction
-    content.vb: >-
-      <EnumMember>
-
-      PersonAdded = 16
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const PersonAdded As ContactAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ContactAction.PersonUpdated
   commentId: F:SuperOffice.WebApi.Data.ContactAction.PersonUpdated
   id: PersonUpdated
@@ -229,26 +258,24 @@ items:
   nameWithType: ContactAction.PersonUpdated
   fullName: SuperOffice.WebApi.Data.ContactAction.PersonUpdated
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '32: A person belonging to the contact was updated'
-  example: []
+  summary: "\n32: A person belonging to the contact was updated\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      PersonUpdated = 32
+    content: public const ContactAction PersonUpdated
     return:
       type: SuperOffice.WebApi.Data.ContactAction
-    content.vb: >-
-      <EnumMember>
-
-      PersonUpdated = 32
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const PersonUpdated As ContactAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ContactAction.DocumentAdded
   commentId: F:SuperOffice.WebApi.Data.ContactAction.DocumentAdded
   id: DocumentAdded
@@ -260,26 +287,24 @@ items:
   nameWithType: ContactAction.DocumentAdded
   fullName: SuperOffice.WebApi.Data.ContactAction.DocumentAdded
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '64: A document was added to the contact'
-  example: []
+  summary: "\n64: A document was added to the contact\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      DocumentAdded = 64
+    content: public const ContactAction DocumentAdded
     return:
       type: SuperOffice.WebApi.Data.ContactAction
-    content.vb: >-
-      <EnumMember>
-
-      DocumentAdded = 64
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const DocumentAdded As ContactAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ContactAction.All
   commentId: F:SuperOffice.WebApi.Data.ContactAction.All
   id: All
@@ -291,16 +316,24 @@ items:
   nameWithType: ContactAction.All
   fullName: SuperOffice.WebApi.Data.ContactAction.All
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "127: Enumeration generated from the wsdl doesn't handle the [Flags] attribute (bit enumeration)"
-  example: []
+  summary: "\n127: Enumeration generated from the wsdl doesn&apos;t handle the [Flags] attribute (bit enumeration)\n"
   syntax:
-    content: All = Created | Updated | NewActivity | ActivityCompleted | PersonAdded | PersonUpdated | DocumentAdded
+    content: public const ContactAction All
     return:
       type: SuperOffice.WebApi.Data.ContactAction
-    content.vb: All = Created Or Updated Or NewActivity Or ActivityCompleted Or PersonAdded Or PersonUpdated Or DocumentAdded
+    content.vb: Public Const All As ContactAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ContactAction.UndefinedValue128
   commentId: F:SuperOffice.WebApi.Data.ContactAction.UndefinedValue128
   id: UndefinedValue128
@@ -312,69 +345,55 @@ items:
   nameWithType: ContactAction.UndefinedValue128
   fullName: SuperOffice.WebApi.Data.ContactAction.UndefinedValue128
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '128: Undefined and generated value 128'
-  example: []
+  summary: "\n128: Undefined and generated value 128\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      UndefinedValue128 = 128
+    content: public const ContactAction UndefinedValue128
     return:
       type: SuperOffice.WebApi.Data.ContactAction
-    content.vb: >-
-      <EnumMember>
-
-      UndefinedValue128 = 128
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const UndefinedValue128 As ContactAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.WebApi.Data.ContactAction
   commentId: T:SuperOffice.WebApi.Data.ContactAction
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.ContactAction.html
   name: ContactAction
   nameWithType: ContactAction
   fullName: SuperOffice.WebApi.Data.ContactAction

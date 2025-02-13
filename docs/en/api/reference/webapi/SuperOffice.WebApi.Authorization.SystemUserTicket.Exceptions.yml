@@ -18,7 +18,6 @@ references:
 - uid: SuperOffice.WebApi.Authorization.SystemUserTicket.Exceptions.SystemUserException
   commentId: T:SuperOffice.WebApi.Authorization.SystemUserTicket.Exceptions.SystemUserException
   isExternal: true
-  href: SuperOffice.WebApi.Authorization.SystemUserTicket.Exceptions.SystemUserException.html
   name: SystemUserException
   nameWithType: SystemUserException
   fullName: SuperOffice.WebApi.Authorization.SystemUserTicket.Exceptions.SystemUserException

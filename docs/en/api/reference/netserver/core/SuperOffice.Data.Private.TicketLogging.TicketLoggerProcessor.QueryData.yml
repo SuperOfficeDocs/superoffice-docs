@@ -32,7 +32,6 @@ items:
     content: 'public class QueryData : Object'
     content.vb: >-
       Public Class QueryData
-
           Inherits Object
   inheritance:
   - System.Object

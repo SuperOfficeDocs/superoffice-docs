@@ -41,7 +41,6 @@ references:
   commentId: T:SuperOffice.Data.Dialect.DatabaseOperations
   parent: SuperOffice.Data.Dialect
   isExternal: true
-  href: SuperOffice.Data.Dialect.DatabaseOperations.html
   name: DatabaseOperations
   nameWithType: DatabaseOperations
   fullName: SuperOffice.Data.Dialect.DatabaseOperations
@@ -49,91 +48,27 @@ references:
   commentId: T:SuperOffice.Data.Dialect.DatabaseOperations.TruncateOptions
   parent: SuperOffice.Data.Dialect
   isExternal: true
-  href: SuperOffice.Data.Dialect.DatabaseOperations.html
   name: DatabaseOperations.TruncateOptions
   nameWithType: DatabaseOperations.TruncateOptions
   fullName: SuperOffice.Data.Dialect.DatabaseOperations.TruncateOptions
-  spec.csharp:
-  - uid: SuperOffice.Data.Dialect.DatabaseOperations
-    name: DatabaseOperations
-    isExternal: true
-    href: SuperOffice.Data.Dialect.DatabaseOperations.html
-  - name: .
-  - uid: SuperOffice.Data.Dialect.DatabaseOperations.TruncateOptions
-    name: TruncateOptions
-    isExternal: true
-    href: SuperOffice.Data.Dialect.DatabaseOperations.TruncateOptions.html
-  spec.vb:
-  - uid: SuperOffice.Data.Dialect.DatabaseOperations
-    name: DatabaseOperations
-    isExternal: true
-    href: SuperOffice.Data.Dialect.DatabaseOperations.html
-  - name: .
-  - uid: SuperOffice.Data.Dialect.DatabaseOperations.TruncateOptions
-    name: TruncateOptions
-    isExternal: true
-    href: SuperOffice.Data.Dialect.DatabaseOperations.TruncateOptions.html
 - uid: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo
   commentId: T:SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo
   parent: SuperOffice.Data.Dialect
   isExternal: true
-  href: SuperOffice.Data.Dialect.DatabaseOperations.html
   name: DatabaseOperations.BulkImportInfo
   nameWithType: DatabaseOperations.BulkImportInfo
   fullName: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo
-  spec.csharp:
-  - uid: SuperOffice.Data.Dialect.DatabaseOperations
-    name: DatabaseOperations
-    isExternal: true
-    href: SuperOffice.Data.Dialect.DatabaseOperations.html
-  - name: .
-  - uid: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo
-    name: BulkImportInfo
-    isExternal: true
-    href: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo.html
-  spec.vb:
-  - uid: SuperOffice.Data.Dialect.DatabaseOperations
-    name: DatabaseOperations
-    isExternal: true
-    href: SuperOffice.Data.Dialect.DatabaseOperations.html
-  - name: .
-  - uid: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo
-    name: BulkImportInfo
-    isExternal: true
-    href: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo.html
 - uid: SuperOffice.Data.Dialect.DatabaseOperations.UserInfo
   commentId: T:SuperOffice.Data.Dialect.DatabaseOperations.UserInfo
   parent: SuperOffice.Data.Dialect
   isExternal: true
-  href: SuperOffice.Data.Dialect.DatabaseOperations.html
   name: DatabaseOperations.UserInfo
   nameWithType: DatabaseOperations.UserInfo
   fullName: SuperOffice.Data.Dialect.DatabaseOperations.UserInfo
-  spec.csharp:
-  - uid: SuperOffice.Data.Dialect.DatabaseOperations
-    name: DatabaseOperations
-    isExternal: true
-    href: SuperOffice.Data.Dialect.DatabaseOperations.html
-  - name: .
-  - uid: SuperOffice.Data.Dialect.DatabaseOperations.UserInfo
-    name: UserInfo
-    isExternal: true
-    href: SuperOffice.Data.Dialect.DatabaseOperations.UserInfo.html
-  spec.vb:
-  - uid: SuperOffice.Data.Dialect.DatabaseOperations
-    name: DatabaseOperations
-    isExternal: true
-    href: SuperOffice.Data.Dialect.DatabaseOperations.html
-  - name: .
-  - uid: SuperOffice.Data.Dialect.DatabaseOperations.UserInfo
-    name: UserInfo
-    isExternal: true
-    href: SuperOffice.Data.Dialect.DatabaseOperations.UserInfo.html
 - uid: SuperOffice.Data.Dialect.Dialect
   commentId: T:SuperOffice.Data.Dialect.Dialect
   parent: SuperOffice.Data.Dialect
   isExternal: true
-  href: SuperOffice.Data.Dialect.Dialect.html
   name: Dialect
   nameWithType: Dialect
   fullName: SuperOffice.Data.Dialect.Dialect
@@ -141,62 +76,19 @@ references:
   commentId: T:SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType
   parent: SuperOffice.Data.Dialect
   isExternal: true
-  href: SuperOffice.Data.Dialect.Dialect.html
   name: Dialect.EncodedArraySearchType
   nameWithType: Dialect.EncodedArraySearchType
   fullName: SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType
-  spec.csharp:
-  - uid: SuperOffice.Data.Dialect.Dialect
-    name: Dialect
-    isExternal: true
-    href: SuperOffice.Data.Dialect.Dialect.html
-  - name: .
-  - uid: SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType
-    name: EncodedArraySearchType
-    isExternal: true
-    href: SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType.html
-  spec.vb:
-  - uid: SuperOffice.Data.Dialect.Dialect
-    name: Dialect
-    isExternal: true
-    href: SuperOffice.Data.Dialect.Dialect.html
-  - name: .
-  - uid: SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType
-    name: EncodedArraySearchType
-    isExternal: true
-    href: SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType.html
 - uid: SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch
   commentId: T:SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch
   parent: SuperOffice.Data.Dialect
   isExternal: true
-  href: SuperOffice.Data.Dialect.Dialect.html
   name: Dialect.FulltextEncodedSearch
   nameWithType: Dialect.FulltextEncodedSearch
   fullName: SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch
-  spec.csharp:
-  - uid: SuperOffice.Data.Dialect.Dialect
-    name: Dialect
-    isExternal: true
-    href: SuperOffice.Data.Dialect.Dialect.html
-  - name: .
-  - uid: SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch
-    name: FulltextEncodedSearch
-    isExternal: true
-    href: SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch.html
-  spec.vb:
-  - uid: SuperOffice.Data.Dialect.Dialect
-    name: Dialect
-    isExternal: true
-    href: SuperOffice.Data.Dialect.Dialect.html
-  - name: .
-  - uid: SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch
-    name: FulltextEncodedSearch
-    isExternal: true
-    href: SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch.html
 - uid: SuperOffice.Data.Dialect.FieldValueParser
   commentId: T:SuperOffice.Data.Dialect.FieldValueParser
   isExternal: true
-  href: SuperOffice.Data.Dialect.FieldValueParser.html
   name: FieldValueParser
   nameWithType: FieldValueParser
   fullName: SuperOffice.Data.Dialect.FieldValueParser
@@ -204,7 +96,6 @@ references:
   commentId: T:SuperOffice.Data.Dialect.MassOperations
   parent: SuperOffice.Data.Dialect
   isExternal: true
-  href: SuperOffice.Data.Dialect.MassOperations.html
   name: MassOperations
   nameWithType: MassOperations
   fullName: SuperOffice.Data.Dialect.MassOperations
@@ -212,21 +103,18 @@ references:
   commentId: T:SuperOffice.Data.Dialect.MassResult
   parent: SuperOffice.Data.Dialect
   isExternal: true
-  href: SuperOffice.Data.Dialect.MassResult.html
   name: MassResult
   nameWithType: MassResult
   fullName: SuperOffice.Data.Dialect.MassResult
 - uid: SuperOffice.Data.Dialect.RowStatus
   commentId: T:SuperOffice.Data.Dialect.RowStatus
   isExternal: true
-  href: SuperOffice.Data.Dialect.RowStatus.html
   name: RowStatus
   nameWithType: RowStatus
   fullName: SuperOffice.Data.Dialect.RowStatus
 - uid: SuperOffice.Data.Dialect.Oracle12
   commentId: T:SuperOffice.Data.Dialect.Oracle12
   isExternal: true
-  href: SuperOffice.Data.Dialect.Oracle12.html
   name: Oracle12
   nameWithType: Oracle12
   fullName: SuperOffice.Data.Dialect.Oracle12
@@ -234,56 +122,48 @@ references:
   commentId: T:SuperOffice.Data.Dialect.OracleCommon
   parent: SuperOffice.Data.Dialect
   isExternal: true
-  href: SuperOffice.Data.Dialect.OracleCommon.html
   name: OracleCommon
   nameWithType: OracleCommon
   fullName: SuperOffice.Data.Dialect.OracleCommon
 - uid: SuperOffice.Data.Dialect.OracleMassOperations
   commentId: T:SuperOffice.Data.Dialect.OracleMassOperations
   isExternal: true
-  href: SuperOffice.Data.Dialect.OracleMassOperations.html
   name: OracleMassOperations
   nameWithType: OracleMassOperations
   fullName: SuperOffice.Data.Dialect.OracleMassOperations
 - uid: SuperOffice.Data.Dialect.OracleOperations
   commentId: T:SuperOffice.Data.Dialect.OracleOperations
   isExternal: true
-  href: SuperOffice.Data.Dialect.OracleOperations.html
   name: OracleOperations
   nameWithType: OracleOperations
   fullName: SuperOffice.Data.Dialect.OracleOperations
 - uid: SuperOffice.Data.Dialect.PrivateMassOperationsFactory
   commentId: T:SuperOffice.Data.Dialect.PrivateMassOperationsFactory
   isExternal: true
-  href: SuperOffice.Data.Dialect.PrivateMassOperationsFactory.html
   name: PrivateMassOperationsFactory
   nameWithType: PrivateMassOperationsFactory
   fullName: SuperOffice.Data.Dialect.PrivateMassOperationsFactory
 - uid: SuperOffice.Data.Dialect.SqlCommandXml
   commentId: T:SuperOffice.Data.Dialect.SqlCommandXml
   isExternal: true
-  href: SuperOffice.Data.Dialect.SqlCommandXml.html
   name: SqlCommandXml
   nameWithType: SqlCommandXml
   fullName: SuperOffice.Data.Dialect.SqlCommandXml
 - uid: SuperOffice.Data.Dialect.SqlServerCollationMapping
   commentId: T:SuperOffice.Data.Dialect.SqlServerCollationMapping
   isExternal: true
-  href: SuperOffice.Data.Dialect.SqlServerCollationMapping.html
   name: SqlServerCollationMapping
   nameWithType: SqlServerCollationMapping
   fullName: SuperOffice.Data.Dialect.SqlServerCollationMapping
 - uid: SuperOffice.Data.Dialect.SqlServerCommon
   commentId: T:SuperOffice.Data.Dialect.SqlServerCommon
   isExternal: true
-  href: SuperOffice.Data.Dialect.SqlServerCommon.html
   name: SqlServerCommon
   nameWithType: SqlServerCommon
   fullName: SuperOffice.Data.Dialect.SqlServerCommon
 - uid: SuperOffice.Data.Dialect.SqlServerMassOperations
   commentId: T:SuperOffice.Data.Dialect.SqlServerMassOperations
   isExternal: true
-  href: SuperOffice.Data.Dialect.SqlServerMassOperations.html
   name: SqlServerMassOperations
   nameWithType: SqlServerMassOperations
   fullName: SuperOffice.Data.Dialect.SqlServerMassOperations
@@ -291,58 +171,24 @@ references:
   commentId: T:SuperOffice.Data.Dialect.SqlServerOperations
   parent: SuperOffice.Data.Dialect
   isExternal: true
-  href: SuperOffice.Data.Dialect.SqlServerOperations.html
   name: SqlServerOperations
   nameWithType: SqlServerOperations
   fullName: SuperOffice.Data.Dialect.SqlServerOperations
 - uid: SuperOffice.Data.Dialect.SqlServer8Operations
   commentId: T:SuperOffice.Data.Dialect.SqlServer8Operations
   isExternal: true
-  href: SuperOffice.Data.Dialect.SqlServer8Operations.html
   name: SqlServer8Operations
   nameWithType: SqlServer8Operations
   fullName: SuperOffice.Data.Dialect.SqlServer8Operations
 - uid: SuperOffice.Data.Dialect.TempTableManager
   commentId: T:SuperOffice.Data.Dialect.TempTableManager
   isExternal: true
-  href: SuperOffice.Data.Dialect.TempTableManager.html
   name: TempTableManager
   nameWithType: TempTableManager
   fullName: SuperOffice.Data.Dialect.TempTableManager
 - uid: SuperOffice.Data.Dialect
   commentId: N:SuperOffice.Data.Dialect
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data.Dialect
   nameWithType: SuperOffice.Data.Dialect
   fullName: SuperOffice.Data.Dialect
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.Dialect
-    name: Dialect
-    isExternal: true
-    href: SuperOffice.Data.Dialect.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.Dialect
-    name: Dialect
-    isExternal: true
-    href: SuperOffice.Data.Dialect.html

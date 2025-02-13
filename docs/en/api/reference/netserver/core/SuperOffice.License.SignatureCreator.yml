@@ -17,18 +17,19 @@ items:
   nameWithType: SignatureCreator
   fullName: SuperOffice.License.SignatureCreator
   type: Class
+  source:
+    path: SoLicense
+    isExternal: true
   assemblies:
   - SoLicense
   namespace: SuperOffice.License
-  summary: Create signatures for module licenses - requires a public and private key to create signature hashes.
-  remarks: >-
-    Requires a full user-profile to work.  The .net 4 version of <xref href="System.Security.Cryptography.DSACryptoServiceProvider" data-throw-if-not-resolved="false"></xref> does not support
-
-    mandatory or temporary user profiles, as found on Citrix installations and in the NETWORKSVC user.
-  example: []
+  summary: "\nCreate signatures for module licenses - requires a public and private key to create signature hashes.\n"
+  remarks: "\nRequires a full user-profile to work.  The .net 4 version of <xref href=\"System.Security.Cryptography.DSACryptoServiceProvider\" data-throw-if-not-resolved=\"false\"></xref> does not support\nmandatory or temporary user profiles, as found on Citrix installations and in the NETWORKSVC user.\n"
   syntax:
     content: 'public class SignatureCreator : SignatureValidator'
-    content.vb: Public Class SignatureCreator Inherits SignatureValidator
+    content.vb: >-
+      Public Class SignatureCreator
+          Inherits SignatureValidator
   inheritance:
   - System.Object
   - SuperOffice.License.SignatureValidator
@@ -49,16 +50,15 @@ items:
   - SuperOffice.License.SignatureValidator.ComputeHashOld(SuperOffice.License.SignedPublicKey)
   - SuperOffice.License.SignatureValidator.ComputeHash(SuperOffice.License.SerialNumberChange)
   - SuperOffice.License.SignatureValidator.PublicKey
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.License.SignatureCreator.EnumUtil.MapEnums``2
   - SuperOffice.License.SignatureCreator.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.License.SignatureCreator.#ctor(SuperOffice.License.SignedPublicKey,System.Security.Cryptography.DSACryptoServiceProvider)
   commentId: M:SuperOffice.License.SignatureCreator.#ctor(SuperOffice.License.SignedPublicKey,System.Security.Cryptography.DSACryptoServiceProvider)
   id: '#ctor(SuperOffice.License.SignedPublicKey,System.Security.Cryptography.DSACryptoServiceProvider)'
@@ -70,6 +70,9 @@ items:
   nameWithType: SignatureCreator.SignatureCreator(SignedPublicKey, DSACryptoServiceProvider)
   fullName: SuperOffice.License.SignatureCreator.SignatureCreator(SuperOffice.License.SignedPublicKey, System.Security.Cryptography.DSACryptoServiceProvider)
   type: Constructor
+  source:
+    path: SoLicense
+    isExternal: true
   assemblies:
   - SoLicense
   namespace: SuperOffice.License
@@ -82,9 +85,10 @@ items:
       type: System.Security.Cryptography.DSACryptoServiceProvider
     content.vb: Public Sub New(publicKey As SignedPublicKey, privateKey As DSACryptoServiceProvider)
   overload: SuperOffice.License.SignatureCreator.#ctor*
-  nameWithType.vb: SignatureCreator.New(SignedPublicKey, DSACryptoServiceProvider)
-  fullName.vb: SuperOffice.License.SignatureCreator.New(SuperOffice.License.SignedPublicKey, System.Security.Cryptography.DSACryptoServiceProvider)
-  name.vb: New(SignedPublicKey, DSACryptoServiceProvider)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.License.SignatureCreator.#ctor(SuperOffice.License.SignedPublicKey,System.Security.Cryptography.DSACryptoServiceProvider,Microsoft.Extensions.Logging.ILogger)
   commentId: M:SuperOffice.License.SignatureCreator.#ctor(SuperOffice.License.SignedPublicKey,System.Security.Cryptography.DSACryptoServiceProvider,Microsoft.Extensions.Logging.ILogger)
   id: '#ctor(SuperOffice.License.SignedPublicKey,System.Security.Cryptography.DSACryptoServiceProvider,Microsoft.Extensions.Logging.ILogger)'
@@ -96,6 +100,9 @@ items:
   nameWithType: SignatureCreator.SignatureCreator(SignedPublicKey, DSACryptoServiceProvider, ILogger)
   fullName: SuperOffice.License.SignatureCreator.SignatureCreator(SuperOffice.License.SignedPublicKey, System.Security.Cryptography.DSACryptoServiceProvider, Microsoft.Extensions.Logging.ILogger)
   type: Constructor
+  source:
+    path: SoLicense
+    isExternal: true
   assemblies:
   - SoLicense
   namespace: SuperOffice.License
@@ -110,9 +117,10 @@ items:
       type: Microsoft.Extensions.Logging.ILogger
     content.vb: Public Sub New(publicKey As SignedPublicKey, privateKey As DSACryptoServiceProvider, logger As ILogger)
   overload: SuperOffice.License.SignatureCreator.#ctor*
-  nameWithType.vb: SignatureCreator.New(SignedPublicKey, DSACryptoServiceProvider, ILogger)
-  fullName.vb: SuperOffice.License.SignatureCreator.New(SuperOffice.License.SignedPublicKey, System.Security.Cryptography.DSACryptoServiceProvider, Microsoft.Extensions.Logging.ILogger)
-  name.vb: New(SignedPublicKey, DSACryptoServiceProvider, ILogger)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.License.SignatureCreator.Sign(System.String,System.String,SuperOffice.License.ModuleLicense)
   commentId: M:SuperOffice.License.SignatureCreator.Sign(System.String,System.String,SuperOffice.License.ModuleLicense)
   id: Sign(System.String,System.String,SuperOffice.License.ModuleLicense)
@@ -120,15 +128,17 @@ items:
   langs:
   - csharp
   - vb
-  name: Sign(string, string, ModuleLicense)
-  nameWithType: SignatureCreator.Sign(string, string, ModuleLicense)
-  fullName: SuperOffice.License.SignatureCreator.Sign(string, string, SuperOffice.License.ModuleLicense)
+  name: Sign(String, String, ModuleLicense)
+  nameWithType: SignatureCreator.Sign(String, String, ModuleLicense)
+  fullName: SuperOffice.License.SignatureCreator.Sign(System.String, System.String, SuperOffice.License.ModuleLicense)
   type: Method
+  source:
+    path: SoLicense
+    isExternal: true
   assemblies:
   - SoLicense
   namespace: SuperOffice.License
-  summary: Updates module license with new signature.
-  example: []
+  summary: "\nUpdates module license with new signature.\n"
   syntax:
     content: public void Sign(string serialNr, string companyName, ModuleLicense info)
     parameters:
@@ -143,9 +153,10 @@ items:
       description: one module - which gets its Signature property updated
     content.vb: Public Sub Sign(serialNr As String, companyName As String, info As ModuleLicense)
   overload: SuperOffice.License.SignatureCreator.Sign*
-  nameWithType.vb: SignatureCreator.Sign(String, String, ModuleLicense)
-  fullName.vb: SuperOffice.License.SignatureCreator.Sign(String, String, SuperOffice.License.ModuleLicense)
-  name.vb: Sign(String, String, ModuleLicense)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.License.SignatureCreator.Sign(SuperOffice.License.LicenseInfo)
   commentId: M:SuperOffice.License.SignatureCreator.Sign(SuperOffice.License.LicenseInfo)
   id: Sign(SuperOffice.License.LicenseInfo)
@@ -157,15 +168,14 @@ items:
   nameWithType: SignatureCreator.Sign(LicenseInfo)
   fullName: SuperOffice.License.SignatureCreator.Sign(SuperOffice.License.LicenseInfo)
   type: Method
+  source:
+    path: SoLicense
+    isExternal: true
   assemblies:
   - SoLicense
   namespace: SuperOffice.License
-  summary: Fill in the Signature and PublicKey fields of the LicenseInfo structure.
-  remarks: >-
-    The date fields are modified to represent dates without time, and have no timezone info.
-
-    The Signature and PublicKey fields are updated based on the private key the creator was initalized with.
-  example: []
+  summary: "\nFill in the Signature and PublicKey fields of the LicenseInfo structure.\n"
+  remarks: "\nThe date fields are modified to represent dates without time, and have no timezone info.\nThe Signature and PublicKey fields are updated based on the private key the creator was initalized with.\n"
   syntax:
     content: public void Sign(LicenseInfo info)
     parameters:
@@ -174,6 +184,10 @@ items:
       description: The licenses to create signature for
     content.vb: Public Sub Sign(info As LicenseInfo)
   overload: SuperOffice.License.SignatureCreator.Sign*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.License.SignatureCreator.Sign(SuperOffice.License.SerialNumberChange)
   commentId: M:SuperOffice.License.SignatureCreator.Sign(SuperOffice.License.SerialNumberChange)
   id: Sign(SuperOffice.License.SerialNumberChange)
@@ -185,11 +199,13 @@ items:
   nameWithType: SignatureCreator.Sign(SerialNumberChange)
   fullName: SuperOffice.License.SignatureCreator.Sign(SuperOffice.License.SerialNumberChange)
   type: Method
+  source:
+    path: SoLicense
+    isExternal: true
   assemblies:
   - SoLicense
   namespace: SuperOffice.License
-  summary: Fill in the signature field on the SerialNumberChange.
-  example: []
+  summary: "\nFill in the signature field on the SerialNumberChange.\n"
   syntax:
     content: public void Sign(SerialNumberChange change)
     parameters:
@@ -198,58 +214,28 @@ items:
       description: Describes the from/to serial number change. The Signature field will be modified.
     content.vb: Public Sub Sign(change As SerialNumberChange)
   overload: SuperOffice.License.SignatureCreator.Sign*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 references:
-- uid: System.Security.Cryptography.DSACryptoServiceProvider
-  commentId: T:System.Security.Cryptography.DSACryptoServiceProvider
-  parent: System.Security.Cryptography
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.security.cryptography.dsacryptoserviceprovider
-  name: DSACryptoServiceProvider
-  nameWithType: DSACryptoServiceProvider
-  fullName: System.Security.Cryptography.DSACryptoServiceProvider
 - uid: SuperOffice.License
   commentId: N:SuperOffice.License
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.License
   nameWithType: SuperOffice.License
   fullName: SuperOffice.License
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.License
-    name: License
-    isExternal: true
-    href: SuperOffice.License.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.License
-    name: License
-    isExternal: true
-    href: SuperOffice.License.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.License.SignatureValidator
   commentId: T:SuperOffice.License.SignatureValidator
   parent: SuperOffice.License
   isExternal: true
-  href: SuperOffice.License.SignatureValidator.html
   name: SignatureValidator
   nameWithType: SignatureValidator
   fullName: SuperOffice.License.SignatureValidator
@@ -257,7 +243,6 @@ references:
   commentId: F:SuperOffice.License.SignatureValidator._rootPublicKey
   parent: SuperOffice.License.SignatureValidator
   isExternal: true
-  href: SuperOffice.License.SignatureValidator.html#SuperOffice_License_SignatureValidator__rootPublicKey
   name: _rootPublicKey
   nameWithType: SignatureValidator._rootPublicKey
   fullName: SuperOffice.License.SignatureValidator._rootPublicKey
@@ -265,7 +250,6 @@ references:
   commentId: F:SuperOffice.License.SignatureValidator._testrootPublicKey
   parent: SuperOffice.License.SignatureValidator
   isExternal: true
-  href: SuperOffice.License.SignatureValidator.html#SuperOffice_License_SignatureValidator__testrootPublicKey
   name: _testrootPublicKey
   nameWithType: SignatureValidator._testrootPublicKey
   fullName: SuperOffice.License.SignatureValidator._testrootPublicKey
@@ -273,7 +257,6 @@ references:
   commentId: F:SuperOffice.License.SignatureValidator._publicKey
   parent: SuperOffice.License.SignatureValidator
   isExternal: true
-  href: SuperOffice.License.SignatureValidator.html#SuperOffice_License_SignatureValidator__publicKey
   name: _publicKey
   nameWithType: SignatureValidator._publicKey
   fullName: SuperOffice.License.SignatureValidator._publicKey
@@ -281,7 +264,6 @@ references:
   commentId: F:SuperOffice.License.SignatureValidator._signedPublicKey
   parent: SuperOffice.License.SignatureValidator
   isExternal: true
-  href: SuperOffice.License.SignatureValidator.html#SuperOffice_License_SignatureValidator__signedPublicKey
   name: _signedPublicKey
   nameWithType: SignatureValidator._signedPublicKey
   fullName: SuperOffice.License.SignatureValidator._signedPublicKey
@@ -289,769 +271,633 @@ references:
   commentId: M:SuperOffice.License.SignatureValidator.Validate(System.String,System.String,SuperOffice.License.ModuleLicense)
   parent: SuperOffice.License.SignatureValidator
   isExternal: true
-  href: SuperOffice.License.SignatureValidator.html#SuperOffice_License_SignatureValidator_Validate_System_String_System_String_SuperOffice_License_ModuleLicense_
-  name: Validate(string, string, ModuleLicense)
-  nameWithType: SignatureValidator.Validate(string, string, ModuleLicense)
-  fullName: SuperOffice.License.SignatureValidator.Validate(string, string, SuperOffice.License.ModuleLicense)
-  nameWithType.vb: SignatureValidator.Validate(String, String, ModuleLicense)
-  fullName.vb: SuperOffice.License.SignatureValidator.Validate(String, String, SuperOffice.License.ModuleLicense)
-  name.vb: Validate(String, String, ModuleLicense)
+  name: Validate(String, String, ModuleLicense)
+  nameWithType: SignatureValidator.Validate(String, String, ModuleLicense)
+  fullName: SuperOffice.License.SignatureValidator.Validate(System.String, System.String, SuperOffice.License.ModuleLicense)
   spec.csharp:
   - uid: SuperOffice.License.SignatureValidator.Validate(System.String,System.String,SuperOffice.License.ModuleLicense)
     name: Validate
+    nameWithType: SignatureValidator.Validate
+    fullName: SuperOffice.License.SignatureValidator.Validate
     isExternal: true
-    href: SuperOffice.License.SignatureValidator.html#SuperOffice_License_SignatureValidator_Validate_System_String_System_String_SuperOffice_License_ModuleLicense_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.License.ModuleLicense
     name: ModuleLicense
+    nameWithType: ModuleLicense
+    fullName: SuperOffice.License.ModuleLicense
     isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.License.SignatureValidator.Validate(System.String,System.String,SuperOffice.License.ModuleLicense)
     name: Validate
+    nameWithType: SignatureValidator.Validate
+    fullName: SuperOffice.License.SignatureValidator.Validate
     isExternal: true
-    href: SuperOffice.License.SignatureValidator.html#SuperOffice_License_SignatureValidator_Validate_System_String_System_String_SuperOffice_License_ModuleLicense_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.License.ModuleLicense
     name: ModuleLicense
+    nameWithType: ModuleLicense
+    fullName: SuperOffice.License.ModuleLicense
     isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.License.SignatureValidator.Validate(SuperOffice.License.LicenseInfo)
   commentId: M:SuperOffice.License.SignatureValidator.Validate(SuperOffice.License.LicenseInfo)
   parent: SuperOffice.License.SignatureValidator
   isExternal: true
-  href: SuperOffice.License.SignatureValidator.html#SuperOffice_License_SignatureValidator_Validate_SuperOffice_License_LicenseInfo_
   name: Validate(LicenseInfo)
   nameWithType: SignatureValidator.Validate(LicenseInfo)
   fullName: SuperOffice.License.SignatureValidator.Validate(SuperOffice.License.LicenseInfo)
   spec.csharp:
   - uid: SuperOffice.License.SignatureValidator.Validate(SuperOffice.License.LicenseInfo)
     name: Validate
+    nameWithType: SignatureValidator.Validate
+    fullName: SuperOffice.License.SignatureValidator.Validate
     isExternal: true
-    href: SuperOffice.License.SignatureValidator.html#SuperOffice_License_SignatureValidator_Validate_SuperOffice_License_LicenseInfo_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.License.LicenseInfo
     name: LicenseInfo
+    nameWithType: LicenseInfo
+    fullName: SuperOffice.License.LicenseInfo
     isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.License.SignatureValidator.Validate(SuperOffice.License.LicenseInfo)
     name: Validate
+    nameWithType: SignatureValidator.Validate
+    fullName: SuperOffice.License.SignatureValidator.Validate
     isExternal: true
-    href: SuperOffice.License.SignatureValidator.html#SuperOffice_License_SignatureValidator_Validate_SuperOffice_License_LicenseInfo_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.License.LicenseInfo
     name: LicenseInfo
+    nameWithType: LicenseInfo
+    fullName: SuperOffice.License.LicenseInfo
     isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.License.SignatureValidator.Validate(SuperOffice.License.SignedPublicKey)
   commentId: M:SuperOffice.License.SignatureValidator.Validate(SuperOffice.License.SignedPublicKey)
   parent: SuperOffice.License.SignatureValidator
   isExternal: true
-  href: SuperOffice.License.SignatureValidator.html#SuperOffice_License_SignatureValidator_Validate_SuperOffice_License_SignedPublicKey_
   name: Validate(SignedPublicKey)
   nameWithType: SignatureValidator.Validate(SignedPublicKey)
   fullName: SuperOffice.License.SignatureValidator.Validate(SuperOffice.License.SignedPublicKey)
   spec.csharp:
   - uid: SuperOffice.License.SignatureValidator.Validate(SuperOffice.License.SignedPublicKey)
     name: Validate
+    nameWithType: SignatureValidator.Validate
+    fullName: SuperOffice.License.SignatureValidator.Validate
     isExternal: true
-    href: SuperOffice.License.SignatureValidator.html#SuperOffice_License_SignatureValidator_Validate_SuperOffice_License_SignedPublicKey_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.License.SignedPublicKey
     name: SignedPublicKey
+    nameWithType: SignedPublicKey
+    fullName: SuperOffice.License.SignedPublicKey
     isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.License.SignatureValidator.Validate(SuperOffice.License.SignedPublicKey)
     name: Validate
+    nameWithType: SignatureValidator.Validate
+    fullName: SuperOffice.License.SignatureValidator.Validate
     isExternal: true
-    href: SuperOffice.License.SignatureValidator.html#SuperOffice_License_SignatureValidator_Validate_SuperOffice_License_SignedPublicKey_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.License.SignedPublicKey
     name: SignedPublicKey
+    nameWithType: SignedPublicKey
+    fullName: SuperOffice.License.SignedPublicKey
     isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.License.SignatureValidator.Validate(SuperOffice.License.SignedPublicKey,Microsoft.Extensions.Logging.ILogger)
   commentId: M:SuperOffice.License.SignatureValidator.Validate(SuperOffice.License.SignedPublicKey,Microsoft.Extensions.Logging.ILogger)
   parent: SuperOffice.License.SignatureValidator
   isExternal: true
-  href: SuperOffice.License.SignatureValidator.html#SuperOffice_License_SignatureValidator_Validate_SuperOffice_License_SignedPublicKey_Microsoft_Extensions_Logging_ILogger_
   name: Validate(SignedPublicKey, ILogger)
   nameWithType: SignatureValidator.Validate(SignedPublicKey, ILogger)
   fullName: SuperOffice.License.SignatureValidator.Validate(SuperOffice.License.SignedPublicKey, Microsoft.Extensions.Logging.ILogger)
   spec.csharp:
   - uid: SuperOffice.License.SignatureValidator.Validate(SuperOffice.License.SignedPublicKey,Microsoft.Extensions.Logging.ILogger)
     name: Validate
+    nameWithType: SignatureValidator.Validate
+    fullName: SuperOffice.License.SignatureValidator.Validate
     isExternal: true
-    href: SuperOffice.License.SignatureValidator.html#SuperOffice_License_SignatureValidator_Validate_SuperOffice_License_SignedPublicKey_Microsoft_Extensions_Logging_ILogger_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.License.SignedPublicKey
     name: SignedPublicKey
+    nameWithType: SignedPublicKey
+    fullName: SuperOffice.License.SignedPublicKey
     isExternal: true
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: Microsoft.Extensions.Logging.ILogger
     name: ILogger
+    nameWithType: ILogger
+    fullName: Microsoft.Extensions.Logging.ILogger
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.License.SignatureValidator.Validate(SuperOffice.License.SignedPublicKey,Microsoft.Extensions.Logging.ILogger)
     name: Validate
+    nameWithType: SignatureValidator.Validate
+    fullName: SuperOffice.License.SignatureValidator.Validate
     isExternal: true
-    href: SuperOffice.License.SignatureValidator.html#SuperOffice_License_SignatureValidator_Validate_SuperOffice_License_SignedPublicKey_Microsoft_Extensions_Logging_ILogger_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.License.SignedPublicKey
     name: SignedPublicKey
+    nameWithType: SignedPublicKey
+    fullName: SuperOffice.License.SignedPublicKey
     isExternal: true
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: Microsoft.Extensions.Logging.ILogger
     name: ILogger
+    nameWithType: ILogger
+    fullName: Microsoft.Extensions.Logging.ILogger
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.License.SignatureValidator.Validate(SuperOffice.License.SerialNumberChange)
   commentId: M:SuperOffice.License.SignatureValidator.Validate(SuperOffice.License.SerialNumberChange)
   parent: SuperOffice.License.SignatureValidator
   isExternal: true
-  href: SuperOffice.License.SignatureValidator.html#SuperOffice_License_SignatureValidator_Validate_SuperOffice_License_SerialNumberChange_
   name: Validate(SerialNumberChange)
   nameWithType: SignatureValidator.Validate(SerialNumberChange)
   fullName: SuperOffice.License.SignatureValidator.Validate(SuperOffice.License.SerialNumberChange)
   spec.csharp:
   - uid: SuperOffice.License.SignatureValidator.Validate(SuperOffice.License.SerialNumberChange)
     name: Validate
+    nameWithType: SignatureValidator.Validate
+    fullName: SuperOffice.License.SignatureValidator.Validate
     isExternal: true
-    href: SuperOffice.License.SignatureValidator.html#SuperOffice_License_SignatureValidator_Validate_SuperOffice_License_SerialNumberChange_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.License.SerialNumberChange
     name: SerialNumberChange
+    nameWithType: SerialNumberChange
+    fullName: SuperOffice.License.SerialNumberChange
     isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.License.SignatureValidator.Validate(SuperOffice.License.SerialNumberChange)
     name: Validate
+    nameWithType: SignatureValidator.Validate
+    fullName: SuperOffice.License.SignatureValidator.Validate
     isExternal: true
-    href: SuperOffice.License.SignatureValidator.html#SuperOffice_License_SignatureValidator_Validate_SuperOffice_License_SerialNumberChange_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.License.SerialNumberChange
     name: SerialNumberChange
+    nameWithType: SerialNumberChange
+    fullName: SuperOffice.License.SerialNumberChange
     isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.License.SignatureValidator.ComputeHash(System.String,System.String,SuperOffice.License.ModuleLicense)
   commentId: M:SuperOffice.License.SignatureValidator.ComputeHash(System.String,System.String,SuperOffice.License.ModuleLicense)
   parent: SuperOffice.License.SignatureValidator
   isExternal: true
-  href: SuperOffice.License.SignatureValidator.html#SuperOffice_License_SignatureValidator_ComputeHash_System_String_System_String_SuperOffice_License_ModuleLicense_
-  name: ComputeHash(string, string, ModuleLicense)
-  nameWithType: SignatureValidator.ComputeHash(string, string, ModuleLicense)
-  fullName: SuperOffice.License.SignatureValidator.ComputeHash(string, string, SuperOffice.License.ModuleLicense)
-  nameWithType.vb: SignatureValidator.ComputeHash(String, String, ModuleLicense)
-  fullName.vb: SuperOffice.License.SignatureValidator.ComputeHash(String, String, SuperOffice.License.ModuleLicense)
-  name.vb: ComputeHash(String, String, ModuleLicense)
+  name: ComputeHash(String, String, ModuleLicense)
+  nameWithType: SignatureValidator.ComputeHash(String, String, ModuleLicense)
+  fullName: SuperOffice.License.SignatureValidator.ComputeHash(System.String, System.String, SuperOffice.License.ModuleLicense)
   spec.csharp:
   - uid: SuperOffice.License.SignatureValidator.ComputeHash(System.String,System.String,SuperOffice.License.ModuleLicense)
     name: ComputeHash
+    nameWithType: SignatureValidator.ComputeHash
+    fullName: SuperOffice.License.SignatureValidator.ComputeHash
     isExternal: true
-    href: SuperOffice.License.SignatureValidator.html#SuperOffice_License_SignatureValidator_ComputeHash_System_String_System_String_SuperOffice_License_ModuleLicense_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.License.ModuleLicense
     name: ModuleLicense
+    nameWithType: ModuleLicense
+    fullName: SuperOffice.License.ModuleLicense
     isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.License.SignatureValidator.ComputeHash(System.String,System.String,SuperOffice.License.ModuleLicense)
     name: ComputeHash
+    nameWithType: SignatureValidator.ComputeHash
+    fullName: SuperOffice.License.SignatureValidator.ComputeHash
     isExternal: true
-    href: SuperOffice.License.SignatureValidator.html#SuperOffice_License_SignatureValidator_ComputeHash_System_String_System_String_SuperOffice_License_ModuleLicense_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.License.ModuleLicense
     name: ModuleLicense
+    nameWithType: ModuleLicense
+    fullName: SuperOffice.License.ModuleLicense
     isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.License.SignatureValidator.ComputeHash(SuperOffice.License.LicenseInfo)
   commentId: M:SuperOffice.License.SignatureValidator.ComputeHash(SuperOffice.License.LicenseInfo)
   parent: SuperOffice.License.SignatureValidator
   isExternal: true
-  href: SuperOffice.License.SignatureValidator.html#SuperOffice_License_SignatureValidator_ComputeHash_SuperOffice_License_LicenseInfo_
   name: ComputeHash(LicenseInfo)
   nameWithType: SignatureValidator.ComputeHash(LicenseInfo)
   fullName: SuperOffice.License.SignatureValidator.ComputeHash(SuperOffice.License.LicenseInfo)
   spec.csharp:
   - uid: SuperOffice.License.SignatureValidator.ComputeHash(SuperOffice.License.LicenseInfo)
     name: ComputeHash
+    nameWithType: SignatureValidator.ComputeHash
+    fullName: SuperOffice.License.SignatureValidator.ComputeHash
     isExternal: true
-    href: SuperOffice.License.SignatureValidator.html#SuperOffice_License_SignatureValidator_ComputeHash_SuperOffice_License_LicenseInfo_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.License.LicenseInfo
     name: LicenseInfo
+    nameWithType: LicenseInfo
+    fullName: SuperOffice.License.LicenseInfo
     isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.License.SignatureValidator.ComputeHash(SuperOffice.License.LicenseInfo)
     name: ComputeHash
+    nameWithType: SignatureValidator.ComputeHash
+    fullName: SuperOffice.License.SignatureValidator.ComputeHash
     isExternal: true
-    href: SuperOffice.License.SignatureValidator.html#SuperOffice_License_SignatureValidator_ComputeHash_SuperOffice_License_LicenseInfo_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.License.LicenseInfo
     name: LicenseInfo
+    nameWithType: LicenseInfo
+    fullName: SuperOffice.License.LicenseInfo
     isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.License.SignatureValidator.ComputeHash(SuperOffice.License.SignedPublicKey)
   commentId: M:SuperOffice.License.SignatureValidator.ComputeHash(SuperOffice.License.SignedPublicKey)
   parent: SuperOffice.License.SignatureValidator
   isExternal: true
-  href: SuperOffice.License.SignatureValidator.html#SuperOffice_License_SignatureValidator_ComputeHash_SuperOffice_License_SignedPublicKey_
   name: ComputeHash(SignedPublicKey)
   nameWithType: SignatureValidator.ComputeHash(SignedPublicKey)
   fullName: SuperOffice.License.SignatureValidator.ComputeHash(SuperOffice.License.SignedPublicKey)
   spec.csharp:
   - uid: SuperOffice.License.SignatureValidator.ComputeHash(SuperOffice.License.SignedPublicKey)
     name: ComputeHash
+    nameWithType: SignatureValidator.ComputeHash
+    fullName: SuperOffice.License.SignatureValidator.ComputeHash
     isExternal: true
-    href: SuperOffice.License.SignatureValidator.html#SuperOffice_License_SignatureValidator_ComputeHash_SuperOffice_License_SignedPublicKey_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.License.SignedPublicKey
     name: SignedPublicKey
+    nameWithType: SignedPublicKey
+    fullName: SuperOffice.License.SignedPublicKey
     isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.License.SignatureValidator.ComputeHash(SuperOffice.License.SignedPublicKey)
     name: ComputeHash
+    nameWithType: SignatureValidator.ComputeHash
+    fullName: SuperOffice.License.SignatureValidator.ComputeHash
     isExternal: true
-    href: SuperOffice.License.SignatureValidator.html#SuperOffice_License_SignatureValidator_ComputeHash_SuperOffice_License_SignedPublicKey_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.License.SignedPublicKey
     name: SignedPublicKey
+    nameWithType: SignedPublicKey
+    fullName: SuperOffice.License.SignedPublicKey
     isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.License.SignatureValidator.ComputeHash(SuperOffice.License.SignedPublicKey,Microsoft.Extensions.Logging.ILogger)
   commentId: M:SuperOffice.License.SignatureValidator.ComputeHash(SuperOffice.License.SignedPublicKey,Microsoft.Extensions.Logging.ILogger)
   parent: SuperOffice.License.SignatureValidator
   isExternal: true
-  href: SuperOffice.License.SignatureValidator.html#SuperOffice_License_SignatureValidator_ComputeHash_SuperOffice_License_SignedPublicKey_Microsoft_Extensions_Logging_ILogger_
   name: ComputeHash(SignedPublicKey, ILogger)
   nameWithType: SignatureValidator.ComputeHash(SignedPublicKey, ILogger)
   fullName: SuperOffice.License.SignatureValidator.ComputeHash(SuperOffice.License.SignedPublicKey, Microsoft.Extensions.Logging.ILogger)
   spec.csharp:
   - uid: SuperOffice.License.SignatureValidator.ComputeHash(SuperOffice.License.SignedPublicKey,Microsoft.Extensions.Logging.ILogger)
     name: ComputeHash
+    nameWithType: SignatureValidator.ComputeHash
+    fullName: SuperOffice.License.SignatureValidator.ComputeHash
     isExternal: true
-    href: SuperOffice.License.SignatureValidator.html#SuperOffice_License_SignatureValidator_ComputeHash_SuperOffice_License_SignedPublicKey_Microsoft_Extensions_Logging_ILogger_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.License.SignedPublicKey
     name: SignedPublicKey
+    nameWithType: SignedPublicKey
+    fullName: SuperOffice.License.SignedPublicKey
     isExternal: true
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: Microsoft.Extensions.Logging.ILogger
     name: ILogger
+    nameWithType: ILogger
+    fullName: Microsoft.Extensions.Logging.ILogger
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.License.SignatureValidator.ComputeHash(SuperOffice.License.SignedPublicKey,Microsoft.Extensions.Logging.ILogger)
     name: ComputeHash
+    nameWithType: SignatureValidator.ComputeHash
+    fullName: SuperOffice.License.SignatureValidator.ComputeHash
     isExternal: true
-    href: SuperOffice.License.SignatureValidator.html#SuperOffice_License_SignatureValidator_ComputeHash_SuperOffice_License_SignedPublicKey_Microsoft_Extensions_Logging_ILogger_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.License.SignedPublicKey
     name: SignedPublicKey
+    nameWithType: SignedPublicKey
+    fullName: SuperOffice.License.SignedPublicKey
     isExternal: true
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: Microsoft.Extensions.Logging.ILogger
     name: ILogger
+    nameWithType: ILogger
+    fullName: Microsoft.Extensions.Logging.ILogger
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.License.SignatureValidator.ComputeHashOld(SuperOffice.License.SignedPublicKey)
   commentId: M:SuperOffice.License.SignatureValidator.ComputeHashOld(SuperOffice.License.SignedPublicKey)
   parent: SuperOffice.License.SignatureValidator
   isExternal: true
-  href: SuperOffice.License.SignatureValidator.html#SuperOffice_License_SignatureValidator_ComputeHashOld_SuperOffice_License_SignedPublicKey_
   name: ComputeHashOld(SignedPublicKey)
   nameWithType: SignatureValidator.ComputeHashOld(SignedPublicKey)
   fullName: SuperOffice.License.SignatureValidator.ComputeHashOld(SuperOffice.License.SignedPublicKey)
   spec.csharp:
   - uid: SuperOffice.License.SignatureValidator.ComputeHashOld(SuperOffice.License.SignedPublicKey)
     name: ComputeHashOld
+    nameWithType: SignatureValidator.ComputeHashOld
+    fullName: SuperOffice.License.SignatureValidator.ComputeHashOld
     isExternal: true
-    href: SuperOffice.License.SignatureValidator.html#SuperOffice_License_SignatureValidator_ComputeHashOld_SuperOffice_License_SignedPublicKey_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.License.SignedPublicKey
     name: SignedPublicKey
+    nameWithType: SignedPublicKey
+    fullName: SuperOffice.License.SignedPublicKey
     isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.License.SignatureValidator.ComputeHashOld(SuperOffice.License.SignedPublicKey)
     name: ComputeHashOld
+    nameWithType: SignatureValidator.ComputeHashOld
+    fullName: SuperOffice.License.SignatureValidator.ComputeHashOld
     isExternal: true
-    href: SuperOffice.License.SignatureValidator.html#SuperOffice_License_SignatureValidator_ComputeHashOld_SuperOffice_License_SignedPublicKey_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.License.SignedPublicKey
     name: SignedPublicKey
+    nameWithType: SignedPublicKey
+    fullName: SuperOffice.License.SignedPublicKey
     isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.License.SignatureValidator.ComputeHash(SuperOffice.License.SerialNumberChange)
   commentId: M:SuperOffice.License.SignatureValidator.ComputeHash(SuperOffice.License.SerialNumberChange)
   parent: SuperOffice.License.SignatureValidator
   isExternal: true
-  href: SuperOffice.License.SignatureValidator.html#SuperOffice_License_SignatureValidator_ComputeHash_SuperOffice_License_SerialNumberChange_
   name: ComputeHash(SerialNumberChange)
   nameWithType: SignatureValidator.ComputeHash(SerialNumberChange)
   fullName: SuperOffice.License.SignatureValidator.ComputeHash(SuperOffice.License.SerialNumberChange)
   spec.csharp:
   - uid: SuperOffice.License.SignatureValidator.ComputeHash(SuperOffice.License.SerialNumberChange)
     name: ComputeHash
+    nameWithType: SignatureValidator.ComputeHash
+    fullName: SuperOffice.License.SignatureValidator.ComputeHash
     isExternal: true
-    href: SuperOffice.License.SignatureValidator.html#SuperOffice_License_SignatureValidator_ComputeHash_SuperOffice_License_SerialNumberChange_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.License.SerialNumberChange
     name: SerialNumberChange
+    nameWithType: SerialNumberChange
+    fullName: SuperOffice.License.SerialNumberChange
     isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.License.SignatureValidator.ComputeHash(SuperOffice.License.SerialNumberChange)
     name: ComputeHash
+    nameWithType: SignatureValidator.ComputeHash
+    fullName: SuperOffice.License.SignatureValidator.ComputeHash
     isExternal: true
-    href: SuperOffice.License.SignatureValidator.html#SuperOffice_License_SignatureValidator_ComputeHash_SuperOffice_License_SerialNumberChange_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.License.SerialNumberChange
     name: SerialNumberChange
+    nameWithType: SerialNumberChange
+    fullName: SuperOffice.License.SerialNumberChange
     isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.License.SignatureValidator.PublicKey
   commentId: P:SuperOffice.License.SignatureValidator.PublicKey
   parent: SuperOffice.License.SignatureValidator
   isExternal: true
-  href: SuperOffice.License.SignatureValidator.html#SuperOffice_License_SignatureValidator_PublicKey
   name: PublicKey
   nameWithType: SignatureValidator.PublicKey
   fullName: SuperOffice.License.SignatureValidator.PublicKey
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
 - uid: SuperOffice.License.SignatureCreator.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<SignatureCreator, To>(SignatureCreator)
-  nameWithType: EnumUtil.MapEnums<SignatureCreator, To>(SignatureCreator)
-  fullName: EnumUtil.MapEnums<SuperOffice.License.SignatureCreator, To>(SuperOffice.License.SignatureCreator)
-  nameWithType.vb: EnumUtil.MapEnums(Of SignatureCreator, To)(SignatureCreator)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.License.SignatureCreator, To)(SuperOffice.License.SignatureCreator)
-  name.vb: MapEnums(Of SignatureCreator, To)(SignatureCreator)
+  name: MapEnums<SignatureCreator, To>()
+  nameWithType: EnumUtil.MapEnums<SignatureCreator, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.License.SignatureCreator, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SignatureCreator, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.License.SignatureCreator, To)()
+  name.vb: MapEnums(Of SignatureCreator, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.License.SignatureCreator)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SignatureCreator, To>
+    nameWithType: EnumUtil.MapEnums<SignatureCreator, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.License.SignatureCreator, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.License.SignatureCreator
-    name: SignatureCreator
-    isExternal: true
-    href: SuperOffice.License.SignatureCreator.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.License.SignatureCreator
-    name: SignatureCreator
-    isExternal: true
-    href: SuperOffice.License.SignatureCreator.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.License.SignatureCreator)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SignatureCreator, To)
+    nameWithType: EnumUtil.MapEnums(Of SignatureCreator, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.License.SignatureCreator, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.License.SignatureCreator
-    name: SignatureCreator
-    isExternal: true
-    href: SuperOffice.License.SignatureCreator.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.License.SignatureCreator
-    name: SignatureCreator
-    isExternal: true
-    href: SuperOffice.License.SignatureCreator.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.License.SignatureCreator.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<SignatureCreator, To>(SignatureCreator)
-  nameWithType: Converters.MapEnums<SignatureCreator, To>(SignatureCreator)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.License.SignatureCreator, To>(SuperOffice.License.SignatureCreator)
-  nameWithType.vb: Converters.MapEnums(Of SignatureCreator, To)(SignatureCreator)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.License.SignatureCreator, To)(SuperOffice.License.SignatureCreator)
-  name.vb: MapEnums(Of SignatureCreator, To)(SignatureCreator)
+  name: MapEnums<SignatureCreator, To>()
+  nameWithType: Converters.MapEnums<SignatureCreator, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.License.SignatureCreator, To>()
+  nameWithType.vb: Converters.MapEnums(Of SignatureCreator, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.License.SignatureCreator, To)()
+  name.vb: MapEnums(Of SignatureCreator, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.License.SignatureCreator)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SignatureCreator, To>
+    nameWithType: Converters.MapEnums<SignatureCreator, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.License.SignatureCreator, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.License.SignatureCreator
-    name: SignatureCreator
-    isExternal: true
-    href: SuperOffice.License.SignatureCreator.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.License.SignatureCreator
-    name: SignatureCreator
-    isExternal: true
-    href: SuperOffice.License.SignatureCreator.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.License.SignatureCreator)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SignatureCreator, To)
+    nameWithType: Converters.MapEnums(Of SignatureCreator, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.License.SignatureCreator, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.License.SignatureCreator
-    name: SignatureCreator
-    isExternal: true
-    href: SuperOffice.License.SignatureCreator.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.License.SignatureCreator
-    name: SignatureCreator
-    isExternal: true
-    href: SuperOffice.License.SignatureCreator.html
-  - name: )
-- uid: System.Security.Cryptography
-  commentId: N:System.Security.Cryptography
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Security.Cryptography
-  nameWithType: System.Security.Cryptography
-  fullName: System.Security.Cryptography
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Security
-    name: Security
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.security
-  - name: .
-  - uid: System.Security.Cryptography
-    name: Cryptography
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.security.cryptography
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Security
-    name: Security
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.security
-  - name: .
-  - uid: System.Security.Cryptography
-    name: Cryptography
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.security.cryptography
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -1060,45 +906,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -1107,145 +951,71 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.License.SignatureCreator.#ctor*
   commentId: Overload:SuperOffice.License.SignatureCreator.#ctor
   isExternal: true
-  href: SuperOffice.License.SignatureCreator.html#SuperOffice_License_SignatureCreator__ctor_SuperOffice_License_SignedPublicKey_System_Security_Cryptography_DSACryptoServiceProvider_
   name: SignatureCreator
   nameWithType: SignatureCreator.SignatureCreator
   fullName: SuperOffice.License.SignatureCreator.SignatureCreator
-  nameWithType.vb: SignatureCreator.New
-  fullName.vb: SuperOffice.License.SignatureCreator.New
-  name.vb: New
 - uid: SuperOffice.License.SignedPublicKey
-  commentId: T:SuperOffice.License.SignedPublicKey
-  parent: SuperOffice.License
   isExternal: true
   name: SignedPublicKey
   nameWithType: SignedPublicKey
   fullName: SuperOffice.License.SignedPublicKey
-- uid: Microsoft.Extensions.Logging.ILogger
-  commentId: T:Microsoft.Extensions.Logging.ILogger
-  parent: Microsoft.Extensions.Logging
+- uid: System.Security.Cryptography.DSACryptoServiceProvider
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger
+  name: DSACryptoServiceProvider
+  nameWithType: DSACryptoServiceProvider
+  fullName: System.Security.Cryptography.DSACryptoServiceProvider
+- uid: Microsoft.Extensions.Logging.ILogger
+  isExternal: true
   name: ILogger
   nameWithType: ILogger
   fullName: Microsoft.Extensions.Logging.ILogger
-- uid: Microsoft.Extensions.Logging
-  commentId: N:Microsoft.Extensions.Logging
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/microsoft
-  name: Microsoft.Extensions.Logging
-  nameWithType: Microsoft.Extensions.Logging
-  fullName: Microsoft.Extensions.Logging
-  spec.csharp:
-  - uid: Microsoft
-    name: Microsoft
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/microsoft
-  - name: .
-  - uid: Microsoft.Extensions
-    name: Extensions
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
-  - name: .
-  - uid: Microsoft.Extensions.Logging
-    name: Logging
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
-  spec.vb:
-  - uid: Microsoft
-    name: Microsoft
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/microsoft
-  - name: .
-  - uid: Microsoft.Extensions
-    name: Extensions
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
-  - name: .
-  - uid: Microsoft.Extensions.Logging
-    name: Logging
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
 - uid: SuperOffice.License.SignatureCreator.Sign*
   commentId: Overload:SuperOffice.License.SignatureCreator.Sign
   isExternal: true
-  href: SuperOffice.License.SignatureCreator.html#SuperOffice_License_SignatureCreator_Sign_System_String_System_String_SuperOffice_License_ModuleLicense_
   name: Sign
   nameWithType: SignatureCreator.Sign
   fullName: SuperOffice.License.SignatureCreator.Sign
@@ -1253,30 +1023,20 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.License.ModuleLicense
-  commentId: T:SuperOffice.License.ModuleLicense
-  parent: SuperOffice.License
   isExternal: true
   name: ModuleLicense
   nameWithType: ModuleLicense
   fullName: SuperOffice.License.ModuleLicense
 - uid: SuperOffice.License.LicenseInfo
-  commentId: T:SuperOffice.License.LicenseInfo
-  parent: SuperOffice.License
   isExternal: true
   name: LicenseInfo
   nameWithType: LicenseInfo
   fullName: SuperOffice.License.LicenseInfo
 - uid: SuperOffice.License.SerialNumberChange
-  commentId: T:SuperOffice.License.SerialNumberChange
-  parent: SuperOffice.License
   isExternal: true
   name: SerialNumberChange
   nameWithType: SerialNumberChange

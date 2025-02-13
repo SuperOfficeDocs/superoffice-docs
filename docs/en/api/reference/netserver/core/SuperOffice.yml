@@ -36,14 +36,12 @@ references:
 - uid: SuperOffice.HistoryStrings
   commentId: T:SuperOffice.HistoryStrings
   isExternal: true
-  href: SuperOffice.HistoryStrings.html
   name: HistoryStrings
   nameWithType: HistoryStrings
   fullName: SuperOffice.HistoryStrings
 - uid: SuperOffice.ListNameConstants
   commentId: T:SuperOffice.ListNameConstants
   isExternal: true
-  href: SuperOffice.ListNameConstants.html
   name: ListNameConstants
   nameWithType: ListNameConstants
   fullName: SuperOffice.ListNameConstants
@@ -51,14 +49,12 @@ references:
   commentId: T:SuperOffice.NetServerBuildType
   parent: SuperOffice
   isExternal: true
-  href: SuperOffice.NetServerBuildType.html
   name: NetServerBuildType
   nameWithType: NetServerBuildType
   fullName: SuperOffice.NetServerBuildType
 - uid: SuperOffice.NetServerVersion
   commentId: T:SuperOffice.NetServerVersion
   isExternal: true
-  href: SuperOffice.NetServerVersion.html
   name: NetServerVersion
   nameWithType: NetServerVersion
   fullName: SuperOffice.NetServerVersion
@@ -66,14 +62,12 @@ references:
   commentId: T:SuperOffice.UpgradeStatus
   parent: SuperOffice
   isExternal: true
-  href: SuperOffice.UpgradeStatus.html
   name: UpgradeStatus
   nameWithType: UpgradeStatus
   fullName: SuperOffice.UpgradeStatus
 - uid: SuperOffice.Pair`2
   commentId: T:SuperOffice.Pair`2
   isExternal: true
-  href: SuperOffice.Pair-2.html
   name: Pair<TFirst, TSecond>
   nameWithType: Pair<TFirst, TSecond>
   fullName: SuperOffice.Pair<TFirst, TSecond>
@@ -83,45 +77,60 @@ references:
   spec.csharp:
   - uid: SuperOffice.Pair`2
     name: Pair
+    nameWithType: Pair
+    fullName: SuperOffice.Pair
     isExternal: true
-    href: SuperOffice.Pair-2.html
   - name: <
+    nameWithType: <
+    fullName: <
   - name: TFirst
-  - name: ','
-  - name: " "
+    nameWithType: TFirst
+    fullName: TFirst
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: TSecond
+    nameWithType: TSecond
+    fullName: TSecond
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Pair`2
     name: Pair
+    nameWithType: Pair
+    fullName: SuperOffice.Pair
     isExternal: true
-    href: SuperOffice.Pair-2.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: TFirst
-  - name: ','
-  - name: " "
+    nameWithType: TFirst
+    fullName: TFirst
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: TSecond
+    nameWithType: TSecond
+    fullName: TSecond
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ServiceConstants
   commentId: T:SuperOffice.ServiceConstants
   isExternal: true
-  href: SuperOffice.ServiceConstants.html
   name: ServiceConstants
   nameWithType: ServiceConstants
   fullName: SuperOffice.ServiceConstants
 - uid: SuperOffice.SoContext
   commentId: T:SuperOffice.SoContext
   isExternal: true
-  href: SuperOffice.SoContext.html
   name: SoContext
   nameWithType: SoContext
   fullName: SuperOffice.SoContext
 - uid: SuperOffice.CurrentPrincipalEnvironmentInfoPlugin
   commentId: T:SuperOffice.CurrentPrincipalEnvironmentInfoPlugin
   isExternal: true
-  href: SuperOffice.CurrentPrincipalEnvironmentInfoPlugin.html
   name: CurrentPrincipalEnvironmentInfoPlugin
   nameWithType: CurrentPrincipalEnvironmentInfoPlugin
   fullName: SuperOffice.CurrentPrincipalEnvironmentInfoPlugin
@@ -129,7 +138,6 @@ references:
   commentId: T:SuperOffice.SoDatabaseLogOut
   parent: SuperOffice
   isExternal: true
-  href: SuperOffice.SoDatabaseLogOut.html
   name: SoDatabaseLogOut
   nameWithType: SoDatabaseLogOut
   fullName: SuperOffice.SoDatabaseLogOut
@@ -137,7 +145,6 @@ references:
   commentId: T:SuperOffice.SoDatabaseContext
   parent: SuperOffice
   isExternal: true
-  href: SuperOffice.SoDatabaseContext.html
   name: SoDatabaseContext
   nameWithType: SoDatabaseContext
   fullName: SuperOffice.SoDatabaseContext
@@ -145,34 +152,12 @@ references:
   commentId: T:SuperOffice.SoDatabaseContext.DatabaseContext
   parent: SuperOffice
   isExternal: true
-  href: SuperOffice.SoDatabaseContext.html
   name: SoDatabaseContext.DatabaseContext
   nameWithType: SoDatabaseContext.DatabaseContext
   fullName: SuperOffice.SoDatabaseContext.DatabaseContext
-  spec.csharp:
-  - uid: SuperOffice.SoDatabaseContext
-    name: SoDatabaseContext
-    isExternal: true
-    href: SuperOffice.SoDatabaseContext.html
-  - name: .
-  - uid: SuperOffice.SoDatabaseContext.DatabaseContext
-    name: DatabaseContext
-    isExternal: true
-    href: SuperOffice.SoDatabaseContext.DatabaseContext.html
-  spec.vb:
-  - uid: SuperOffice.SoDatabaseContext
-    name: SoDatabaseContext
-    isExternal: true
-    href: SuperOffice.SoDatabaseContext.html
-  - name: .
-  - uid: SuperOffice.SoDatabaseContext.DatabaseContext
-    name: DatabaseContext
-    isExternal: true
-    href: SuperOffice.SoDatabaseContext.DatabaseContext.html
 - uid: SuperOffice.SoDatabaseContextStatic`1
   commentId: T:SuperOffice.SoDatabaseContextStatic`1
   isExternal: true
-  href: SuperOffice.SoDatabaseContextStatic-1.html
   name: SoDatabaseContextStatic<T>
   nameWithType: SoDatabaseContextStatic<T>
   fullName: SuperOffice.SoDatabaseContextStatic<T>
@@ -182,26 +167,37 @@ references:
   spec.csharp:
   - uid: SuperOffice.SoDatabaseContextStatic`1
     name: SoDatabaseContextStatic
+    nameWithType: SoDatabaseContextStatic
+    fullName: SuperOffice.SoDatabaseContextStatic
     isExternal: true
-    href: SuperOffice.SoDatabaseContextStatic-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - name: T
+    nameWithType: T
+    fullName: T
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.SoDatabaseContextStatic`1
     name: SoDatabaseContextStatic
+    nameWithType: SoDatabaseContextStatic
+    fullName: SuperOffice.SoDatabaseContextStatic
     isExternal: true
-    href: SuperOffice.SoDatabaseContextStatic-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.OperationContextType
   commentId: T:SuperOffice.OperationContextType
   parent: SuperOffice
   isExternal: true
-  href: SuperOffice.OperationContextType.html
   name: OperationContextType
   nameWithType: OperationContextType
   fullName: SuperOffice.OperationContextType
@@ -209,7 +205,6 @@ references:
   commentId: T:SuperOffice.SoOperationContext
   parent: SuperOffice
   isExternal: true
-  href: SuperOffice.SoOperationContext.html
   name: SoOperationContext
   nameWithType: SoOperationContext
   fullName: SuperOffice.SoOperationContext
@@ -217,7 +212,6 @@ references:
   commentId: T:SuperOffice.SoSession
   parent: SuperOffice
   isExternal: true
-  href: SuperOffice.SoSession.html
   name: SoSession
   nameWithType: SoSession
   fullName: SuperOffice.SoSession
@@ -225,21 +219,18 @@ references:
   commentId: T:SuperOffice.SoSystemInfo
   parent: SuperOffice
   isExternal: true
-  href: SuperOffice.SoSystemInfo.html
   name: SoSystemInfo
   nameWithType: SoSystemInfo
   fullName: SuperOffice.SoSystemInfo
 - uid: SuperOffice.UserPreferenceDefaults
   commentId: T:SuperOffice.UserPreferenceDefaults
   isExternal: true
-  href: SuperOffice.UserPreferenceDefaults.html
   name: UserPreferenceDefaults
   nameWithType: UserPreferenceDefaults
   fullName: SuperOffice.UserPreferenceDefaults
 - uid: SuperOffice.DoneNotDoneSplitter`2
   commentId: T:SuperOffice.DoneNotDoneSplitter`2
   isExternal: true
-  href: SuperOffice.DoneNotDoneSplitter-2.html
   name: DoneNotDoneSplitter<InnerProvider, RootExtender>
   nameWithType: DoneNotDoneSplitter<InnerProvider, RootExtender>
   fullName: SuperOffice.DoneNotDoneSplitter<InnerProvider, RootExtender>
@@ -249,31 +240,48 @@ references:
   spec.csharp:
   - uid: SuperOffice.DoneNotDoneSplitter`2
     name: DoneNotDoneSplitter
+    nameWithType: DoneNotDoneSplitter
+    fullName: SuperOffice.DoneNotDoneSplitter
     isExternal: true
-    href: SuperOffice.DoneNotDoneSplitter-2.html
   - name: <
+    nameWithType: <
+    fullName: <
   - name: InnerProvider
-  - name: ','
-  - name: " "
+    nameWithType: InnerProvider
+    fullName: InnerProvider
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: RootExtender
+    nameWithType: RootExtender
+    fullName: RootExtender
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.DoneNotDoneSplitter`2
     name: DoneNotDoneSplitter
+    nameWithType: DoneNotDoneSplitter
+    fullName: SuperOffice.DoneNotDoneSplitter
     isExternal: true
-    href: SuperOffice.DoneNotDoneSplitter-2.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: InnerProvider
-  - name: ','
-  - name: " "
+    nameWithType: InnerProvider
+    fullName: InnerProvider
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: RootExtender
+    nameWithType: RootExtender
+    fullName: RootExtender
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice
   commentId: N:SuperOffice
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice
   nameWithType: SuperOffice
   fullName: SuperOffice

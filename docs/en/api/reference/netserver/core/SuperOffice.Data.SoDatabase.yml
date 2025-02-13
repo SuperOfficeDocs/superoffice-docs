@@ -14,7 +14,6 @@ items:
   - SuperOffice.Data.SoDatabase.CommandTimeout
   - SuperOffice.Data.SoDatabase.CompanyName
   - SuperOffice.Data.SoDatabase.ConnectionString
-  - SuperOffice.Data.SoDatabase.DBUser
   - SuperOffice.Data.SoDatabase.Database
   - SuperOffice.Data.SoDatabase.DatabaseCountryId
   - SuperOffice.Data.SoDatabase.DatabaseMajor
@@ -22,17 +21,17 @@ items:
   - SuperOffice.Data.SoDatabase.DatabaseVersion
   - SuperOffice.Data.SoDatabase.DbPassword
   - SuperOffice.Data.SoDatabase.DbTag
+  - SuperOffice.Data.SoDatabase.DBUser
   - SuperOffice.Data.SoDatabase.DecryptData(System.String)
   - SuperOffice.Data.SoDatabase.DecryptString(System.Int32,System.String)
   - SuperOffice.Data.SoDatabase.DecryptString(System.String)
   - SuperOffice.Data.SoDatabase.Dictionary
-  - SuperOffice.Data.SoDatabase.EJRegistryExtension
-  - SuperOffice.Data.SoDatabase.EJRegistrySOPwd
-  - SuperOffice.Data.SoDatabase.EJWwwFolder
   - SuperOffice.Data.SoDatabase.EJconfigCgiBin
   - SuperOffice.Data.SoDatabase.EJconfigCgiUrl
   - SuperOffice.Data.SoDatabase.EJconfigCgiUrlInternal
-  - SuperOffice.Data.SoDatabase.EXtendedClientAccessLicense
+  - SuperOffice.Data.SoDatabase.EJRegistryExtension
+  - SuperOffice.Data.SoDatabase.EJRegistrySOPwd
+  - SuperOffice.Data.SoDatabase.EJWwwFolder
   - SuperOffice.Data.SoDatabase.EncryptData(System.Byte[])
   - SuperOffice.Data.SoDatabase.EncryptString(System.Int32,System.String)
   - SuperOffice.Data.SoDatabase.EncryptString(System.String)
@@ -40,6 +39,7 @@ items:
   - SuperOffice.Data.SoDatabase.ExpanderForCollaboration
   - SuperOffice.Data.SoDatabase.ExpanderKey
   - SuperOffice.Data.SoDatabase.ExpirationDate
+  - SuperOffice.Data.SoDatabase.EXtendedClientAccessLicense
   - SuperOffice.Data.SoDatabase.GetCurrent
   - SuperOffice.Data.SoDatabase.HasExpiredBeyondGracePeriod
   - SuperOffice.Data.SoDatabase.IgnoreADUsernameAuthentication
@@ -73,29 +73,34 @@ items:
   nameWithType: SoDatabase
   fullName: SuperOffice.Data.SoDatabase
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: Hold information about a SuperOffice CRM5 database and its licenses.
-  remarks: use <code>SoDatabase.GetCurrent()</code> to get information about the current database.
-  example: []
+  summary: "\nHold information about a SuperOffice CRM5 database and its licenses.\n"
+  remarks: "\nuse <code>SoDatabase.GetCurrent()</code> to get information about the current database.\n"
   syntax:
-    content: public sealed class SoDatabase
-    content.vb: Public NotInheritable Class SoDatabase
+    content: 'public sealed class SoDatabase : Object'
+    content.vb: >-
+      Public NotInheritable Class SoDatabase
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
   extensionMethods:
   - SuperOffice.Data.SoDatabase.EnumUtil.MapEnums``2
-  - SuperOffice.Data.SoDatabase.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.Data.SoDatabase.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.SoDatabase)
   - SuperOffice.Data.SoDatabase.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Data.SoDatabase.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
 - uid: SuperOffice.Data.SoDatabase.#ctor
   commentId: M:SuperOffice.Data.SoDatabase.#ctor
   id: '#ctor'
@@ -107,16 +112,20 @@ items:
   nameWithType: SoDatabase.SoDatabase()
   fullName: SuperOffice.Data.SoDatabase.SoDatabase()
   type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
   syntax:
     content: public SoDatabase()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.Data.SoDatabase.#ctor*
-  nameWithType.vb: SoDatabase.New()
-  fullName.vb: SuperOffice.Data.SoDatabase.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.SoDatabase.GetCurrent
   commentId: M:SuperOffice.Data.SoDatabase.GetCurrent
   id: GetCurrent
@@ -128,17 +137,25 @@ items:
   nameWithType: SoDatabase.GetCurrent()
   fullName: SuperOffice.Data.SoDatabase.GetCurrent()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: Obtain reference to the current database.
-  example: []
+  summary: "\nObtain reference to the current database.\n"
   syntax:
     content: public static SoDatabase GetCurrent()
     return:
       type: SuperOffice.Data.SoDatabase
-    content.vb: Public Shared Function GetCurrent() As SoDatabase
+    content.vb: Public Shared Function GetCurrent As SoDatabase
   overload: SuperOffice.Data.SoDatabase.GetCurrent*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Data.SoDatabase.EncryptString(System.String)
   commentId: M:SuperOffice.Data.SoDatabase.EncryptString(System.String)
   id: EncryptString(System.String)
@@ -146,15 +163,17 @@ items:
   langs:
   - csharp
   - vb
-  name: EncryptString(string)
-  nameWithType: SoDatabase.EncryptString(string)
-  fullName: SuperOffice.Data.SoDatabase.EncryptString(string)
+  name: EncryptString(String)
+  nameWithType: SoDatabase.EncryptString(String)
+  fullName: SuperOffice.Data.SoDatabase.EncryptString(System.String)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: Encrypt a string in such a way that it is only readable by the current associate.
-  example: []
+  summary: "\nEncrypt a string in such a way that it is only readable by the current associate.\n"
   syntax:
     content: public string EncryptString(string data)
     parameters:
@@ -166,9 +185,10 @@ items:
       description: Base64 encoded encrypted string.
     content.vb: Public Function EncryptString(data As String) As String
   overload: SuperOffice.Data.SoDatabase.EncryptString*
-  nameWithType.vb: SoDatabase.EncryptString(String)
-  fullName.vb: SuperOffice.Data.SoDatabase.EncryptString(String)
-  name.vb: EncryptString(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.SoDatabase.EncryptString(System.Int32,System.String)
   commentId: M:SuperOffice.Data.SoDatabase.EncryptString(System.Int32,System.String)
   id: EncryptString(System.Int32,System.String)
@@ -176,15 +196,17 @@ items:
   langs:
   - csharp
   - vb
-  name: EncryptString(int, string)
-  nameWithType: SoDatabase.EncryptString(int, string)
-  fullName: SuperOffice.Data.SoDatabase.EncryptString(int, string)
+  name: EncryptString(Int32, String)
+  nameWithType: SoDatabase.EncryptString(Int32, String)
+  fullName: SuperOffice.Data.SoDatabase.EncryptString(System.Int32, System.String)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: Encrypt a string in such a way that it is only readable by the provided associate.
-  example: []
+  summary: "\nEncrypt a string in such a way that it is only readable by the provided associate.\n"
   syntax:
     content: public string EncryptString(int associateId, string data)
     parameters:
@@ -199,9 +221,10 @@ items:
       description: Base64 encoded encrypted string.
     content.vb: Public Function EncryptString(associateId As Integer, data As String) As String
   overload: SuperOffice.Data.SoDatabase.EncryptString*
-  nameWithType.vb: SoDatabase.EncryptString(Integer, String)
-  fullName.vb: SuperOffice.Data.SoDatabase.EncryptString(Integer, String)
-  name.vb: EncryptString(Integer, String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.SoDatabase.EncryptData(System.Byte[])
   commentId: M:SuperOffice.Data.SoDatabase.EncryptData(System.Byte[])
   id: EncryptData(System.Byte[])
@@ -209,15 +232,17 @@ items:
   langs:
   - csharp
   - vb
-  name: EncryptData(byte[])
-  nameWithType: SoDatabase.EncryptData(byte[])
-  fullName: SuperOffice.Data.SoDatabase.EncryptData(byte[])
+  name: EncryptData(Byte[])
+  nameWithType: SoDatabase.EncryptData(Byte[])
+  fullName: SuperOffice.Data.SoDatabase.EncryptData(System.Byte[])
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: Encrypt an array of bytes.
-  example: []
+  summary: "\nEncrypt an array of bytes.\n"
   syntax:
     content: public string EncryptData(byte[] data)
     parameters:
@@ -230,7 +255,11 @@ items:
     content.vb: Public Function EncryptData(data As Byte()) As String
   overload: SuperOffice.Data.SoDatabase.EncryptData*
   nameWithType.vb: SoDatabase.EncryptData(Byte())
-  fullName.vb: SuperOffice.Data.SoDatabase.EncryptData(Byte())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Data.SoDatabase.EncryptData(System.Byte())
   name.vb: EncryptData(Byte())
 - uid: SuperOffice.Data.SoDatabase.DecryptString(System.String)
   commentId: M:SuperOffice.Data.SoDatabase.DecryptString(System.String)
@@ -239,15 +268,17 @@ items:
   langs:
   - csharp
   - vb
-  name: DecryptString(string)
-  nameWithType: SoDatabase.DecryptString(string)
-  fullName: SuperOffice.Data.SoDatabase.DecryptString(string)
+  name: DecryptString(String)
+  nameWithType: SoDatabase.DecryptString(String)
+  fullName: SuperOffice.Data.SoDatabase.DecryptString(System.String)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: Decrypt a string checking if it was encrypted for the current associate.
-  example: []
+  summary: "\nDecrypt a string checking if it was encrypted for the current associate.\n"
   syntax:
     content: public string DecryptString(string data)
     parameters:
@@ -259,9 +290,10 @@ items:
       description: The decrypted string if the associateId match with the currently logged in user, otherwise null.
     content.vb: Public Function DecryptString(data As String) As String
   overload: SuperOffice.Data.SoDatabase.DecryptString*
-  nameWithType.vb: SoDatabase.DecryptString(String)
-  fullName.vb: SuperOffice.Data.SoDatabase.DecryptString(String)
-  name.vb: DecryptString(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.SoDatabase.DecryptString(System.Int32,System.String)
   commentId: M:SuperOffice.Data.SoDatabase.DecryptString(System.Int32,System.String)
   id: DecryptString(System.Int32,System.String)
@@ -269,15 +301,17 @@ items:
   langs:
   - csharp
   - vb
-  name: DecryptString(int, string)
-  nameWithType: SoDatabase.DecryptString(int, string)
-  fullName: SuperOffice.Data.SoDatabase.DecryptString(int, string)
+  name: DecryptString(Int32, String)
+  nameWithType: SoDatabase.DecryptString(Int32, String)
+  fullName: SuperOffice.Data.SoDatabase.DecryptString(System.Int32, System.String)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: Decrypt a string checking if it was encrypted for the provided associateId.
-  example: []
+  summary: "\nDecrypt a string checking if it was encrypted for the provided associateId.\n"
   syntax:
     content: public string DecryptString(int associateId, string data)
     parameters:
@@ -292,9 +326,10 @@ items:
       description: The decrypted string if the associateId match with the provided associateId, otherwise null.
     content.vb: Public Function DecryptString(associateId As Integer, data As String) As String
   overload: SuperOffice.Data.SoDatabase.DecryptString*
-  nameWithType.vb: SoDatabase.DecryptString(Integer, String)
-  fullName.vb: SuperOffice.Data.SoDatabase.DecryptString(Integer, String)
-  name.vb: DecryptString(Integer, String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.SoDatabase.DecryptData(System.String)
   commentId: M:SuperOffice.Data.SoDatabase.DecryptData(System.String)
   id: DecryptData(System.String)
@@ -302,15 +337,17 @@ items:
   langs:
   - csharp
   - vb
-  name: DecryptData(string)
-  nameWithType: SoDatabase.DecryptData(string)
-  fullName: SuperOffice.Data.SoDatabase.DecryptData(string)
+  name: DecryptData(String)
+  nameWithType: SoDatabase.DecryptData(String)
+  fullName: SuperOffice.Data.SoDatabase.DecryptData(System.String)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: Decrypt data encrypted with <xref href="SuperOffice.Data.SoDatabase.EncryptData(System.Byte%5b%5d)" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nDecrypt data encrypted with <xref href=\"SuperOffice.Data.SoDatabase.EncryptData(System.Byte%5b%5d)\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
     content: public byte[] DecryptData(string data)
     parameters:
@@ -322,9 +359,10 @@ items:
       description: The decrypted data.
     content.vb: Public Function DecryptData(data As String) As Byte()
   overload: SuperOffice.Data.SoDatabase.DecryptData*
-  nameWithType.vb: SoDatabase.DecryptData(String)
-  fullName.vb: SuperOffice.Data.SoDatabase.DecryptData(String)
-  name.vb: DecryptData(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.SoDatabase.LoadSettingsFromUserPreference
   commentId: M:SuperOffice.Data.SoDatabase.LoadSettingsFromUserPreference
   id: LoadSettingsFromUserPreference
@@ -336,15 +374,21 @@ items:
   nameWithType: SoDatabase.LoadSettingsFromUserPreference()
   fullName: SuperOffice.Data.SoDatabase.LoadSettingsFromUserPreference()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: "Load/reload fundamental settings controlled by 'userpreference' rows: TravelTransactionLog, FreetextIndex, AdUsernameAuth"
-  example: []
+  summary: "\nLoad/reload fundamental settings controlled by &apos;userpreference&apos; rows: TravelTransactionLog, FreetextIndex, AdUsernameAuth\n"
   syntax:
     content: public void LoadSettingsFromUserPreference()
-    content.vb: Public Sub LoadSettingsFromUserPreference()
+    content.vb: Public Sub LoadSettingsFromUserPreference
   overload: SuperOffice.Data.SoDatabase.LoadSettingsFromUserPreference*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.SoDatabase.DatabaseCountryId
   commentId: P:SuperOffice.Data.SoDatabase.DatabaseCountryId
   id: DatabaseCountryId
@@ -356,11 +400,13 @@ items:
   nameWithType: SoDatabase.DatabaseCountryId
   fullName: SuperOffice.Data.SoDatabase.DatabaseCountryId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: CountryId for the OwnerContact referenced in the license information
-  example: []
+  summary: "\nCountryId for the OwnerContact referenced in the license information\n"
   syntax:
     content: public int DatabaseCountryId { get; }
     parameters: []
@@ -369,6 +415,12 @@ items:
       description: The database country id.
     content.vb: Public ReadOnly Property DatabaseCountryId As Integer
   overload: SuperOffice.Data.SoDatabase.DatabaseCountryId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.SoDatabase.SerialNumber
   commentId: P:SuperOffice.Data.SoDatabase.SerialNumber
   id: SerialNumber
@@ -380,11 +432,13 @@ items:
   nameWithType: SoDatabase.SerialNumber
   fullName: SuperOffice.Data.SoDatabase.SerialNumber
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: 'License Info: License serial number.'
-  example: []
+  summary: "\nLicense Info: License serial number.\n"
   syntax:
     content: public string SerialNumber { get; }
     parameters: []
@@ -392,6 +446,12 @@ items:
       type: System.String
     content.vb: Public ReadOnly Property SerialNumber As String
   overload: SuperOffice.Data.SoDatabase.SerialNumber*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.SoDatabase.DatabaseVersion
   commentId: P:SuperOffice.Data.SoDatabase.DatabaseVersion
   id: DatabaseVersion
@@ -403,11 +463,13 @@ items:
   nameWithType: SoDatabase.DatabaseVersion
   fullName: SuperOffice.Data.SoDatabase.DatabaseVersion
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: Version of the database.
-  example: []
+  summary: "\nVersion of the database.\n"
   syntax:
     content: public SoDatabase.Version DatabaseVersion { get; }
     parameters: []
@@ -415,6 +477,12 @@ items:
       type: SuperOffice.Data.SoDatabase.Version
     content.vb: Public ReadOnly Property DatabaseVersion As SoDatabase.Version
   overload: SuperOffice.Data.SoDatabase.DatabaseVersion*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.SoDatabase.IsUnicode
   commentId: P:SuperOffice.Data.SoDatabase.IsUnicode
   id: IsUnicode
@@ -426,11 +494,13 @@ items:
   nameWithType: SoDatabase.IsUnicode
   fullName: SuperOffice.Data.SoDatabase.IsUnicode
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: Is the database strings formatted as Unicode (i.e. NVARCHAR)
-  example: []
+  summary: "\nIs the database strings formatted as Unicode (i.e. NVARCHAR)\n"
   syntax:
     content: public bool IsUnicode { get; }
     parameters: []
@@ -438,6 +508,12 @@ items:
       type: System.Boolean
     content.vb: Public ReadOnly Property IsUnicode As Boolean
   overload: SuperOffice.Data.SoDatabase.IsUnicode*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.SoDatabase.CompanyName
   commentId: P:SuperOffice.Data.SoDatabase.CompanyName
   id: CompanyName
@@ -449,11 +525,13 @@ items:
   nameWithType: SoDatabase.CompanyName
   fullName: SuperOffice.Data.SoDatabase.CompanyName
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: 'License Info: Company name associate with license. NOTE: The database owner of <b>this</b> database can be different, if this is a satellite'
-  example: []
+  summary: "\nLicense Info: Company name associate with license. NOTE: The database owner of <strong>this</strong> database can be different, if this is a satellite\n"
   syntax:
     content: public string CompanyName { get; }
     parameters: []
@@ -461,6 +539,12 @@ items:
       type: System.String
     content.vb: Public ReadOnly Property CompanyName As String
   overload: SuperOffice.Data.SoDatabase.CompanyName*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.SoDatabase.LoginRights
   commentId: P:SuperOffice.Data.SoDatabase.LoginRights
   id: LoginRights
@@ -472,12 +556,14 @@ items:
   nameWithType: SoDatabase.LoginRights
   fullName: SuperOffice.Data.SoDatabase.LoginRights
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: 'License Info: Number of login rights purchased.'
-  remarks: This is the total number of employees that are permitted to use SuperOffice CRM.
-  example: []
+  summary: "\nLicense Info: Number of login rights purchased.\n"
+  remarks: "\nThis is the total number of employees that are permitted to use SuperOffice CRM.\n"
   syntax:
     content: public int LoginRights { get; }
     parameters: []
@@ -485,6 +571,12 @@ items:
       type: System.Int32
     content.vb: Public ReadOnly Property LoginRights As Integer
   overload: SuperOffice.Data.SoDatabase.LoginRights*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.SoDatabase.WindowsLoginRights
   commentId: P:SuperOffice.Data.SoDatabase.WindowsLoginRights
   id: WindowsLoginRights
@@ -496,12 +588,14 @@ items:
   nameWithType: SoDatabase.WindowsLoginRights
   fullName: SuperOffice.Data.SoDatabase.WindowsLoginRights
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: 'License Info: Number of login rights purchased for the CRM Windows Client.'
-  remarks: This number is always less than or equal to the <xref href="SuperOffice.Data.SoDatabase.LoginRights" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nLicense Info: Number of login rights purchased for the CRM Windows Client.\n"
+  remarks: "\nThis number is always less than or equal to the <xref href=\"SuperOffice.Data.SoDatabase.LoginRights\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
     content: public int WindowsLoginRights { get; }
     parameters: []
@@ -509,6 +603,12 @@ items:
       type: System.Int32
     content.vb: Public ReadOnly Property WindowsLoginRights As Integer
   overload: SuperOffice.Data.SoDatabase.WindowsLoginRights*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.SoDatabase.WebLoginRights
   commentId: P:SuperOffice.Data.SoDatabase.WebLoginRights
   id: WebLoginRights
@@ -520,12 +620,14 @@ items:
   nameWithType: SoDatabase.WebLoginRights
   fullName: SuperOffice.Data.SoDatabase.WebLoginRights
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: 'License Info: Number of login rights purchased for the CRM Web Client.'
-  remarks: This number is always less than or equal to the <xref href="SuperOffice.Data.SoDatabase.LoginRights" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nLicense Info: Number of login rights purchased for the CRM Web Client.\n"
+  remarks: "\nThis number is always less than or equal to the <xref href=\"SuperOffice.Data.SoDatabase.LoginRights\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
     content: public int WebLoginRights { get; }
     parameters: []
@@ -533,6 +635,12 @@ items:
       type: System.Int32
     content.vb: Public ReadOnly Property WebLoginRights As Integer
   overload: SuperOffice.Data.SoDatabase.WebLoginRights*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.SoDatabase.AreaManagement
   commentId: P:SuperOffice.Data.SoDatabase.AreaManagement
   id: AreaManagement
@@ -544,12 +652,14 @@ items:
   nameWithType: SoDatabase.AreaManagement
   fullName: SuperOffice.Data.SoDatabase.AreaManagement
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: 'License Info: Has Area Management license.'
-  remarks: Areas may be connected to satellites, but satellites are not required for Area Management.
-  example: []
+  summary: "\nLicense Info: Has Area Management license.\n"
+  remarks: "\nAreas may be connected to satellites, but satellites are not required for Area Management.\n"
   syntax:
     content: public bool AreaManagement { get; }
     parameters: []
@@ -557,6 +667,12 @@ items:
       type: System.Boolean
     content.vb: Public ReadOnly Property AreaManagement As Boolean
   overload: SuperOffice.Data.SoDatabase.AreaManagement*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.SoDatabase.Saint
   commentId: P:SuperOffice.Data.SoDatabase.Saint
   id: Saint
@@ -568,11 +684,13 @@ items:
   nameWithType: SoDatabase.Saint
   fullName: SuperOffice.Data.SoDatabase.Saint
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: 'License Info: Has Sales Intelligence license.'
-  example: []
+  summary: "\nLicense Info: Has Sales Intelligence license.\n"
   syntax:
     content: public bool Saint { get; }
     parameters: []
@@ -580,6 +698,12 @@ items:
       type: System.Boolean
     content.vb: Public ReadOnly Property Saint As Boolean
   overload: SuperOffice.Data.SoDatabase.Saint*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.SoDatabase.CollaborativeCRM
   commentId: P:SuperOffice.Data.SoDatabase.CollaborativeCRM
   id: CollaborativeCRM
@@ -591,32 +715,26 @@ items:
   nameWithType: SoDatabase.CollaborativeCRM
   fullName: SuperOffice.Data.SoDatabase.CollaborativeCRM
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: 'License Info: Collaborative CRM (also known as eCRM) site license'
-  example: []
+  summary: "\nLicense Info: Collaborative CRM (also known as eCRM) site license\n"
   syntax:
-    content: >-
-      [Obsolete("This license is obsolete, consider using ExpanderForCollaboration or ExpanderKey", false)]
-
-      public bool CollaborativeCRM { get; }
+    content: public bool CollaborativeCRM { get; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <Obsolete("This license is obsolete, consider using ExpanderForCollaboration or ExpanderKey", False)>
-
-      Public ReadOnly Property CollaborativeCRM As Boolean
+    content.vb: Public ReadOnly Property CollaborativeCRM As Boolean
   overload: SuperOffice.Data.SoDatabase.CollaborativeCRM*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: This license is obsolete, consider using ExpanderForCollaboration or ExpanderKey
-    - type: System.Boolean
-      value: false
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.SoDatabase.EnterpriseApplicationIntegration
   commentId: P:SuperOffice.Data.SoDatabase.EnterpriseApplicationIntegration
   id: EnterpriseApplicationIntegration
@@ -628,32 +746,26 @@ items:
   nameWithType: SoDatabase.EnterpriseApplicationIntegration
   fullName: SuperOffice.Data.SoDatabase.EnterpriseApplicationIntegration
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: 'License Info: Enterprise Application Integration site license'
-  example: []
+  summary: "\nLicense Info: Enterprise Application Integration site license\n"
   syntax:
-    content: >-
-      [Obsolete("Enterprise Application Integration License is obsolete and should be disregarded", true)]
-
-      public bool EnterpriseApplicationIntegration { get; }
+    content: public bool EnterpriseApplicationIntegration { get; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <Obsolete("Enterprise Application Integration License is obsolete and should be disregarded", True)>
-
-      Public ReadOnly Property EnterpriseApplicationIntegration As Boolean
+    content.vb: Public ReadOnly Property EnterpriseApplicationIntegration As Boolean
   overload: SuperOffice.Data.SoDatabase.EnterpriseApplicationIntegration*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: Enterprise Application Integration License is obsolete and should be disregarded
-    - type: System.Boolean
-      value: true
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.SoDatabase.EXtendedClientAccessLicense
   commentId: P:SuperOffice.Data.SoDatabase.EXtendedClientAccessLicense
   id: EXtendedClientAccessLicense
@@ -665,43 +777,27 @@ items:
   nameWithType: SoDatabase.EXtendedClientAccessLicense
   fullName: SuperOffice.Data.SoDatabase.EXtendedClientAccessLicense
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: >-
-    License Info: eXtended Client Access License - Employees allowed to access 
-
-    the SO Database. See documentation for detalis (this numbner is not exact).
-  remarks: >-
-    This number is an inexact numer and is rounded up.  Hence, SuperOffice 
-
-    Support should be contactet to obtain the excact number of licenses.  
-
-    The number is calculated in percentage steps (0, 10, 25, 40, 60, 75, 90, 100) 
-
-    of total <xref href="SuperOffice.Data.SoDatabase.LoginRights" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nLicense Info: eXtended Client Access License - Employees allowed to access \nthe SO Database. See documentation for detalis (this numbner is not exact).\n"
+  remarks: "\nThis number is an inexact numer and is rounded up.  Hence, SuperOffice \nSupport should be contactet to obtain the excact number of licenses.  \nThe number is calculated in percentage steps (0, 10, 25, 40, 60, 75, 90, 100) \nof total <xref href=\"SuperOffice.Data.SoDatabase.LoginRights\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
-    content: >-
-      [Obsolete("Extended Client Access License is obsolete and should be disregarded", true)]
-
-      public int EXtendedClientAccessLicense { get; }
+    content: public int EXtendedClientAccessLicense { get; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <Obsolete("Extended Client Access License is obsolete and should be disregarded", True)>
-
-      Public ReadOnly Property EXtendedClientAccessLicense As Integer
+    content.vb: Public ReadOnly Property EXtendedClientAccessLicense As Integer
   overload: SuperOffice.Data.SoDatabase.EXtendedClientAccessLicense*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: Extended Client Access License is obsolete and should be disregarded
-    - type: System.Boolean
-      value: true
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.SoDatabase.ExpanderKey
   commentId: P:SuperOffice.Data.SoDatabase.ExpanderKey
   id: ExpanderKey
@@ -713,32 +809,26 @@ items:
   nameWithType: SoDatabase.ExpanderKey
   fullName: SuperOffice.Data.SoDatabase.ExpanderKey
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: 'License Info: Expander Key - now always available.'
-  example: []
+  summary: "\nLicense Info: Expander Key - now always available.\n"
   syntax:
-    content: >-
-      [Obsolete("Expander Key license is obsolete. Always available now", false)]
-
-      public bool ExpanderKey { get; }
+    content: public bool ExpanderKey { get; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <Obsolete("Expander Key license is obsolete. Always available now", False)>
-
-      Public ReadOnly Property ExpanderKey As Boolean
+    content.vb: Public ReadOnly Property ExpanderKey As Boolean
   overload: SuperOffice.Data.SoDatabase.ExpanderKey*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: Expander Key license is obsolete. Always available now
-    - type: System.Boolean
-      value: false
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.SoDatabase.ExpanderForCollaboration
   commentId: P:SuperOffice.Data.SoDatabase.ExpanderForCollaboration
   id: ExpanderForCollaboration
@@ -750,11 +840,13 @@ items:
   nameWithType: SoDatabase.ExpanderForCollaboration
   fullName: SuperOffice.Data.SoDatabase.ExpanderForCollaboration
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: 'License Info: Expander For Collaboration - enables Anonymous and External users.'
-  example: []
+  summary: "\nLicense Info: Expander For Collaboration - enables Anonymous and External users.\n"
   syntax:
     content: public bool ExpanderForCollaboration { get; }
     parameters: []
@@ -762,6 +854,12 @@ items:
       type: System.Boolean
     content.vb: Public ReadOnly Property ExpanderForCollaboration As Boolean
   overload: SuperOffice.Data.SoDatabase.ExpanderForCollaboration*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.SoDatabase.Audience
   commentId: P:SuperOffice.Data.SoDatabase.Audience
   id: Audience
@@ -773,11 +871,13 @@ items:
   nameWithType: SoDatabase.Audience
   fullName: SuperOffice.Data.SoDatabase.Audience
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: 'License Info: Audience - the customer portal product.'
-  example: []
+  summary: "\nLicense Info: Audience - the customer portal product.\n"
   syntax:
     content: public int Audience { get; }
     parameters: []
@@ -785,6 +885,12 @@ items:
       type: System.Int32
     content.vb: Public ReadOnly Property Audience As Integer
   overload: SuperOffice.Data.SoDatabase.Audience*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.SoDatabase.Satellites
   commentId: P:SuperOffice.Data.SoDatabase.Satellites
   id: Satellites
@@ -796,11 +902,13 @@ items:
   nameWithType: SoDatabase.Satellites
   fullName: SuperOffice.Data.SoDatabase.Satellites
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: 'License Info: Number of Satellites'
-  example: []
+  summary: "\nLicense Info: Number of Satellites \n"
   syntax:
     content: public int Satellites { get; }
     parameters: []
@@ -808,6 +916,12 @@ items:
       type: System.Int32
     content.vb: Public ReadOnly Property Satellites As Integer
   overload: SuperOffice.Data.SoDatabase.Satellites*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.SoDatabase.ReporterStudio
   commentId: P:SuperOffice.Data.SoDatabase.ReporterStudio
   id: ReporterStudio
@@ -819,11 +933,13 @@ items:
   nameWithType: SoDatabase.ReporterStudio
   fullName: SuperOffice.Data.SoDatabase.ReporterStudio
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: 'License Info: Number of Reporter studio sites.'
-  example: []
+  summary: "\nLicense Info: Number of Reporter studio sites.\n"
   syntax:
     content: public int ReporterStudio { get; }
     parameters: []
@@ -831,6 +947,12 @@ items:
       type: System.Int32
     content.vb: Public ReadOnly Property ReporterStudio As Integer
   overload: SuperOffice.Data.SoDatabase.ReporterStudio*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.SoDatabase.RemoteTravel
   commentId: P:SuperOffice.Data.SoDatabase.RemoteTravel
   id: RemoteTravel
@@ -842,11 +964,13 @@ items:
   nameWithType: SoDatabase.RemoteTravel
   fullName: SuperOffice.Data.SoDatabase.RemoteTravel
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: 'License Info: Number of Remote Travel clients.'
-  example: []
+  summary: "\nLicense Info: Number of Remote Travel clients.\n"
   syntax:
     content: public int RemoteTravel { get; }
     parameters: []
@@ -854,6 +978,12 @@ items:
       type: System.Int32
     content.vb: Public ReadOnly Property RemoteTravel As Integer
   overload: SuperOffice.Data.SoDatabase.RemoteTravel*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.SoDatabase.SyncEngine
   commentId: P:SuperOffice.Data.SoDatabase.SyncEngine
   id: SyncEngine
@@ -865,12 +995,14 @@ items:
   nameWithType: SoDatabase.SyncEngine
   fullName: SuperOffice.Data.SoDatabase.SyncEngine
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: 'License Info: Number of Sync Engine users.'
-  remarks: Mapped to the 'SuperOffice.Synchronizer-Cal' license.
-  example: []
+  summary: "\nLicense Info: Number of Sync Engine users.\n"
+  remarks: "\nMapped to the &apos;SuperOffice.Synchronizer-Cal&apos; license.\n"
   syntax:
     content: public int SyncEngine { get; }
     parameters: []
@@ -878,6 +1010,12 @@ items:
       type: System.Int32
     content.vb: Public ReadOnly Property SyncEngine As Integer
   overload: SuperOffice.Data.SoDatabase.SyncEngine*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.SoDatabase.ExpirationDate
   commentId: P:SuperOffice.Data.SoDatabase.ExpirationDate
   id: ExpirationDate
@@ -889,18 +1027,26 @@ items:
   nameWithType: SoDatabase.ExpirationDate
   fullName: SuperOffice.Data.SoDatabase.ExpirationDate
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: 'License Info: Expiration date.'
-  example: []
+  summary: "\nLicense Info: Expiration date.\n"
   syntax:
     content: public DateTime ExpirationDate { get; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public ReadOnly Property ExpirationDate As Date
+    content.vb: Public ReadOnly Property ExpirationDate As DateTime
   overload: SuperOffice.Data.SoDatabase.ExpirationDate*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.SoDatabase.OwnerContactId
   commentId: P:SuperOffice.Data.SoDatabase.OwnerContactId
   id: OwnerContactId
@@ -912,14 +1058,13 @@ items:
   nameWithType: SoDatabase.OwnerContactId
   fullName: SuperOffice.Data.SoDatabase.OwnerContactId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: >-
-    License Info: Owner contact id. The name of this contact must correspond to <xref href="SuperOffice.Data.SoDatabase.CompanyName" data-throw-if-not-resolved="false"></xref>. 
-
-    NOTE: The id of the contact owning <b>this</b> database may be different, if this is a satellite.
-  example: []
+  summary: "\nLicense Info: Owner contact id. The name of this contact must correspond to <xref href=\"SuperOffice.Data.SoDatabase.CompanyName\" data-throw-if-not-resolved=\"false\"></xref>. \nNOTE: The id of the contact owning <strong>this</strong> database may be different, if this is a satellite.\n"
   syntax:
     content: public int OwnerContactId { get; }
     parameters: []
@@ -927,6 +1072,12 @@ items:
       type: System.Int32
     content.vb: Public ReadOnly Property OwnerContactId As Integer
   overload: SuperOffice.Data.SoDatabase.OwnerContactId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.SoDatabase.DbTag
   commentId: P:SuperOffice.Data.SoDatabase.DbTag
   id: DbTag
@@ -938,11 +1089,13 @@ items:
   nameWithType: SoDatabase.DbTag
   fullName: SuperOffice.Data.SoDatabase.DbTag
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: Unique database tag, from travelcurrent.dbtag
-  example: []
+  summary: "\nUnique database tag, from travelcurrent.dbtag\n"
   syntax:
     content: public string DbTag { get; }
     parameters: []
@@ -950,6 +1103,12 @@ items:
       type: System.String
     content.vb: Public ReadOnly Property DbTag As String
   overload: SuperOffice.Data.SoDatabase.DbTag*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.SoDatabase.CentralDbTag
   commentId: P:SuperOffice.Data.SoDatabase.CentralDbTag
   id: CentralDbTag
@@ -961,11 +1120,13 @@ items:
   nameWithType: SoDatabase.CentralDbTag
   fullName: SuperOffice.Data.SoDatabase.CentralDbTag
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: Common <xref href="SuperOffice.Data.SoDatabase.DbTag" data-throw-if-not-resolved="false"></xref> for the entire installation.
-  example: []
+  summary: "\nCommon <xref href=\"SuperOffice.Data.SoDatabase.DbTag\" data-throw-if-not-resolved=\"false\"></xref> for the entire installation.\n"
   syntax:
     content: public string CentralDbTag { get; }
     parameters: []
@@ -973,6 +1134,12 @@ items:
       type: System.String
     content.vb: Public ReadOnly Property CentralDbTag As String
   overload: SuperOffice.Data.SoDatabase.CentralDbTag*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.SoDatabase.TravelCurrentId
   commentId: P:SuperOffice.Data.SoDatabase.TravelCurrentId
   id: TravelCurrentId
@@ -984,11 +1151,13 @@ items:
   nameWithType: SoDatabase.TravelCurrentId
   fullName: SuperOffice.Data.SoDatabase.TravelCurrentId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: Is the travel current id from the TravelCurrent table
-  example: []
+  summary: "\nIs the travel current id from the TravelCurrent table\n"
   syntax:
     content: public int TravelCurrentId { get; }
     parameters: []
@@ -996,6 +1165,12 @@ items:
       type: System.Int32
     content.vb: Public ReadOnly Property TravelCurrentId As Integer
   overload: SuperOffice.Data.SoDatabase.TravelCurrentId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.SoDatabase.IsOnTravel
   commentId: P:SuperOffice.Data.SoDatabase.IsOnTravel
   id: IsOnTravel
@@ -1007,11 +1182,13 @@ items:
   nameWithType: SoDatabase.IsOnTravel
   fullName: SuperOffice.Data.SoDatabase.IsOnTravel
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: Is the current database on trevel.
-  example: []
+  summary: "\nIs the current database on trevel.\n"
   syntax:
     content: public bool IsOnTravel { get; }
     parameters: []
@@ -1019,6 +1196,12 @@ items:
       type: System.Boolean
     content.vb: Public ReadOnly Property IsOnTravel As Boolean
   overload: SuperOffice.Data.SoDatabase.IsOnTravel*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.SoDatabase.IsSatellite
   commentId: P:SuperOffice.Data.SoDatabase.IsSatellite
   id: IsSatellite
@@ -1030,11 +1213,13 @@ items:
   nameWithType: SoDatabase.IsSatellite
   fullName: SuperOffice.Data.SoDatabase.IsSatellite
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: Is the current database a Satellite
-  example: []
+  summary: "\nIs the current database a Satellite\n"
   syntax:
     content: public bool IsSatellite { get; }
     parameters: []
@@ -1042,6 +1227,12 @@ items:
       type: System.Boolean
     content.vb: Public ReadOnly Property IsSatellite As Boolean
   overload: SuperOffice.Data.SoDatabase.IsSatellite*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.SoDatabase.SatelliteId
   commentId: P:SuperOffice.Data.SoDatabase.SatelliteId
   id: SatelliteId
@@ -1053,11 +1244,13 @@ items:
   nameWithType: SoDatabase.SatelliteId
   fullName: SuperOffice.Data.SoDatabase.SatelliteId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: Satellite id for the current database.
-  example: []
+  summary: "\nSatellite id for the current database.\n"
   syntax:
     content: public int SatelliteId { get; }
     parameters: []
@@ -1065,6 +1258,12 @@ items:
       type: System.Int32
     content.vb: Public ReadOnly Property SatelliteId As Integer
   overload: SuperOffice.Data.SoDatabase.SatelliteId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.SoDatabase.TravellerId
   commentId: P:SuperOffice.Data.SoDatabase.TravellerId
   id: TravellerId
@@ -1076,11 +1275,13 @@ items:
   nameWithType: SoDatabase.TravellerId
   fullName: SuperOffice.Data.SoDatabase.TravellerId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: Traveller id (id of associate who owns this travel database)
-  example: []
+  summary: "\nTraveller id (id of associate who owns this travel database)\n"
   syntax:
     content: public int TravellerId { get; }
     parameters: []
@@ -1088,6 +1289,12 @@ items:
       type: System.Int32
     content.vb: Public ReadOnly Property TravellerId As Integer
   overload: SuperOffice.Data.SoDatabase.TravellerId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.SoDatabase.HasExpiredBeyondGracePeriod
   commentId: P:SuperOffice.Data.SoDatabase.HasExpiredBeyondGracePeriod
   id: HasExpiredBeyondGracePeriod
@@ -1099,11 +1306,13 @@ items:
   nameWithType: SoDatabase.HasExpiredBeyondGracePeriod
   fullName: SuperOffice.Data.SoDatabase.HasExpiredBeyondGracePeriod
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: Used by Sentry to determine if write access should be disabled.
-  example: []
+  summary: "\nUsed by Sentry to determine if write access should be disabled.\n"
   syntax:
     content: public bool HasExpiredBeyondGracePeriod { get; }
     parameters: []
@@ -1111,6 +1320,12 @@ items:
       type: System.Boolean
     content.vb: Public ReadOnly Property HasExpiredBeyondGracePeriod As Boolean
   overload: SuperOffice.Data.SoDatabase.HasExpiredBeyondGracePeriod*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.SoDatabase.DatabaseMajor
   commentId: P:SuperOffice.Data.SoDatabase.DatabaseMajor
   id: DatabaseMajor
@@ -1122,19 +1337,27 @@ items:
   nameWithType: SoDatabase.DatabaseMajor
   fullName: SuperOffice.Data.SoDatabase.DatabaseMajor
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: Major name of database provider
-  example: []
+  summary: "\nMajor name of database provider\n"
   syntax:
     content: public string DatabaseMajor { get; }
     parameters: []
     return:
       type: System.String
-      description: MSSQL | Oracle
+      description: "\nMSSQL | Oracle\n"
     content.vb: Public ReadOnly Property DatabaseMajor As String
   overload: SuperOffice.Data.SoDatabase.DatabaseMajor*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.SoDatabase.DatabaseMinor
   commentId: P:SuperOffice.Data.SoDatabase.DatabaseMinor
   id: DatabaseMinor
@@ -1146,19 +1369,27 @@ items:
   nameWithType: SoDatabase.DatabaseMinor
   fullName: SuperOffice.Data.SoDatabase.DatabaseMinor
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: Version number of Database
-  example: []
+  summary: "\nVersion number of Database\n"
   syntax:
     content: public string DatabaseMinor { get; }
     parameters: []
     return:
       type: System.String
-      description: version number.
+      description: "\nversion number.\n"
     content.vb: Public ReadOnly Property DatabaseMinor As String
   overload: SuperOffice.Data.SoDatabase.DatabaseMinor*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.SoDatabase.Server
   commentId: P:SuperOffice.Data.SoDatabase.Server
   id: Server
@@ -1170,11 +1401,13 @@ items:
   nameWithType: SoDatabase.Server
   fullName: SuperOffice.Data.SoDatabase.Server
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: The server where the database is located
-  example: []
+  summary: "\nThe server where the database is located\n"
   syntax:
     content: public string Server { get; }
     parameters: []
@@ -1182,6 +1415,12 @@ items:
       type: System.String
     content.vb: Public ReadOnly Property Server As String
   overload: SuperOffice.Data.SoDatabase.Server*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.SoDatabase.Database
   commentId: P:SuperOffice.Data.SoDatabase.Database
   id: Database
@@ -1193,11 +1432,13 @@ items:
   nameWithType: SoDatabase.Database
   fullName: SuperOffice.Data.SoDatabase.Database
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: Name of the database. Also used for destinct service name.
-  example: []
+  summary: "\nName of the database. Also used for destinct service name.\n"
   syntax:
     content: public string Database { get; }
     parameters: []
@@ -1205,6 +1446,12 @@ items:
       type: System.String
     content.vb: Public ReadOnly Property Database As String
   overload: SuperOffice.Data.SoDatabase.Database*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.SoDatabase.TablePrefix
   commentId: P:SuperOffice.Data.SoDatabase.TablePrefix
   id: TablePrefix
@@ -1216,11 +1463,13 @@ items:
   nameWithType: SoDatabase.TablePrefix
   fullName: SuperOffice.Data.SoDatabase.TablePrefix
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: The prefix of the SuperOffice CRM tables in the database, usually 'CRM7'.
-  example: []
+  summary: "\nThe prefix of the SuperOffice CRM tables in the database, usually &apos;CRM7&apos;.\n"
   syntax:
     content: public string TablePrefix { get; }
     parameters: []
@@ -1228,6 +1477,12 @@ items:
       type: System.String
     content.vb: Public ReadOnly Property TablePrefix As String
   overload: SuperOffice.Data.SoDatabase.TablePrefix*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.SoDatabase.ConnectionString
   commentId: P:SuperOffice.Data.SoDatabase.ConnectionString
   id: ConnectionString
@@ -1239,21 +1494,30 @@ items:
   nameWithType: SoDatabase.ConnectionString
   fullName: SuperOffice.Data.SoDatabase.ConnectionString
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: The connection string formated as a "template".
-  remarks: <ul><li><span class="term"><code>[@Server]</code></span>The server where the database is located.</li><li><span class="term"><code>[@Database]</code></span>The name of the database. Also used for destinct service name.</li><li><span class="term"><code>[@User]</code></span>The user to be used for the connection.</li><li><span class="term"><code>[@Password]</code></span>The password to be used for the connection.</li></ul>
+  summary: "\nThe connection string formated as a &quot;template&quot;.\n"
+  remarks: "\n<ul><li><code>[@Server]</code>The server where the database is located.</li><li><code>[@Database]</code>The name of the database. Also used for destinct service name.</li><li><code>[@User]</code>The user to be used for the connection.</li><li><code>[@Password]</code>The password to be used for the connection.</li></ul>\n"
   example:
-  - <ul><li><span class="term">MSSQL</span><code>Server=[@Server];Database=[@Database];User ID=[@User];Password=[@Password]</code></li><li><span class="term">Oracle</span><code>Data Source=[@Database];User ID=[@User];PASSWORD=[@Password];</code></li></ul>
+  - "\n<ul><li>MSSQL<code>Server=[@Server];Database=[@Database];User ID=[@User];Password=[@Password]</code></li><li>Oracle<code>Data Source=[@Database];User ID=[@User];PASSWORD=[@Password];</code></li></ul>\n"
   syntax:
     content: public string ConnectionString { get; }
     parameters: []
     return:
       type: System.String
-      description: The connection string, with tags that can be replaced
+      description: "\nThe connection string, with tags that can be replaced\n"
     content.vb: Public ReadOnly Property ConnectionString As String
   overload: SuperOffice.Data.SoDatabase.ConnectionString*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.SoDatabase.CommandTimeout
   commentId: P:SuperOffice.Data.SoDatabase.CommandTimeout
   id: CommandTimeout
@@ -1265,11 +1529,13 @@ items:
   nameWithType: SoDatabase.CommandTimeout
   fullName: SuperOffice.Data.SoDatabase.CommandTimeout
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: Timeout [sec] for the command to execute a command to the database.
-  example: []
+  summary: "\nTimeout [sec] for the command to execute a command to the database.\n"
   syntax:
     content: public int CommandTimeout { get; }
     parameters: []
@@ -1277,6 +1543,12 @@ items:
       type: System.Int32
     content.vb: Public ReadOnly Property CommandTimeout As Integer
   overload: SuperOffice.Data.SoDatabase.CommandTimeout*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.SoDatabase.DBUser
   commentId: P:SuperOffice.Data.SoDatabase.DBUser
   id: DBUser
@@ -1288,11 +1560,13 @@ items:
   nameWithType: SoDatabase.DBUser
   fullName: SuperOffice.Data.SoDatabase.DBUser
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: Database user
-  example: []
+  summary: "\nDatabase user\n"
   syntax:
     content: public string DBUser { get; }
     parameters: []
@@ -1300,6 +1574,12 @@ items:
       type: System.String
     content.vb: Public ReadOnly Property DBUser As String
   overload: SuperOffice.Data.SoDatabase.DBUser*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.SoDatabase.DbPassword
   commentId: P:SuperOffice.Data.SoDatabase.DbPassword
   id: DbPassword
@@ -1311,11 +1591,13 @@ items:
   nameWithType: SoDatabase.DbPassword
   fullName: SuperOffice.Data.SoDatabase.DbPassword
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: Database user password
-  example: []
+  summary: "\nDatabase user password\n"
   syntax:
     content: public string DbPassword { get; }
     parameters: []
@@ -1323,6 +1605,12 @@ items:
       type: System.String
     content.vb: Public ReadOnly Property DbPassword As String
   overload: SuperOffice.Data.SoDatabase.DbPassword*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.SoDatabase.IsInitialized
   commentId: P:SuperOffice.Data.SoDatabase.IsInitialized
   id: IsInitialized
@@ -1334,11 +1622,13 @@ items:
   nameWithType: SoDatabase.IsInitialized
   fullName: SuperOffice.Data.SoDatabase.IsInitialized
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: Have we connected to the database and has the dictionary been loaded correctly from the database?
-  example: []
+  summary: "\nHave we connected to the database and has the dictionary been loaded correctly from the database?\n"
   syntax:
     content: public bool IsInitialized { get; }
     parameters: []
@@ -1346,6 +1636,12 @@ items:
       type: System.Boolean
     content.vb: Public ReadOnly Property IsInitialized As Boolean
   overload: SuperOffice.Data.SoDatabase.IsInitialized*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.SoDatabase.ShouldLogTransactions
   commentId: P:SuperOffice.Data.SoDatabase.ShouldLogTransactions
   id: ShouldLogTransactions
@@ -1357,11 +1653,13 @@ items:
   nameWithType: SoDatabase.ShouldLogTransactions
   fullName: SuperOffice.Data.SoDatabase.ShouldLogTransactions
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: Has the "Enable Travel" preference been set for this database
-  example: []
+  summary: "\nHas the &quot;Enable Travel&quot; preference been set for this database\n"
   syntax:
     content: public bool ShouldLogTransactions { get; }
     parameters: []
@@ -1369,6 +1667,12 @@ items:
       type: System.Boolean
     content.vb: Public ReadOnly Property ShouldLogTransactions As Boolean
   overload: SuperOffice.Data.SoDatabase.ShouldLogTransactions*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.SoDatabase.ShouldFreetextIndex
   commentId: P:SuperOffice.Data.SoDatabase.ShouldFreetextIndex
   id: ShouldFreetextIndex
@@ -1380,11 +1684,13 @@ items:
   nameWithType: SoDatabase.ShouldFreetextIndex
   fullName: SuperOffice.Data.SoDatabase.ShouldFreetextIndex
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: Has the "Enable Freetext" preference been set for this database
-  example: []
+  summary: "\nHas the &quot;Enable Freetext&quot; preference been set for this database\n"
   syntax:
     content: public bool ShouldFreetextIndex { get; }
     parameters: []
@@ -1392,6 +1698,12 @@ items:
       type: System.Boolean
     content.vb: Public ReadOnly Property ShouldFreetextIndex As Boolean
   overload: SuperOffice.Data.SoDatabase.ShouldFreetextIndex*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.SoDatabase.AppointmentDocumentRelationDefinitionId
   commentId: P:SuperOffice.Data.SoDatabase.AppointmentDocumentRelationDefinitionId
   id: AppointmentDocumentRelationDefinitionId
@@ -1403,11 +1715,13 @@ items:
   nameWithType: SoDatabase.AppointmentDocumentRelationDefinitionId
   fullName: SuperOffice.Data.SoDatabase.AppointmentDocumentRelationDefinitionId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: RelDefId in table Relations that identifies an appointment to document link
-  example: []
+  summary: "\nRelDefId in table Relations that identifies an appointment to document link\n"
   syntax:
     content: public int AppointmentDocumentRelationDefinitionId { get; }
     parameters: []
@@ -1415,6 +1729,12 @@ items:
       type: System.Int32
     content.vb: Public ReadOnly Property AppointmentDocumentRelationDefinitionId As Integer
   overload: SuperOffice.Data.SoDatabase.AppointmentDocumentRelationDefinitionId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.SoDatabase.SaleDocumentRelationDefinitionId
   commentId: P:SuperOffice.Data.SoDatabase.SaleDocumentRelationDefinitionId
   id: SaleDocumentRelationDefinitionId
@@ -1426,11 +1746,13 @@ items:
   nameWithType: SoDatabase.SaleDocumentRelationDefinitionId
   fullName: SuperOffice.Data.SoDatabase.SaleDocumentRelationDefinitionId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: RelDefId in table Relations that identifies a sale to document link
-  example: []
+  summary: "\nRelDefId in table Relations that identifies a sale to document link\n"
   syntax:
     content: public int SaleDocumentRelationDefinitionId { get; }
     parameters: []
@@ -1438,6 +1760,12 @@ items:
       type: System.Int32
     content.vb: Public ReadOnly Property SaleDocumentRelationDefinitionId As Integer
   overload: SuperOffice.Data.SoDatabase.SaleDocumentRelationDefinitionId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.SoDatabase.IgnoreADUsernameAuthentication
   commentId: P:SuperOffice.Data.SoDatabase.IgnoreADUsernameAuthentication
   id: IgnoreADUsernameAuthentication
@@ -1449,11 +1777,13 @@ items:
   nameWithType: SoDatabase.IgnoreADUsernameAuthentication
   fullName: SuperOffice.Data.SoDatabase.IgnoreADUsernameAuthentication
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: Ignore Username and Password authentication with Active Directory
-  example: []
+  summary: "\nIgnore Username and Password authentication with Active Directory \n"
   syntax:
     content: public bool IgnoreADUsernameAuthentication { get; }
     parameters: []
@@ -1461,6 +1791,12 @@ items:
       type: System.Boolean
     content.vb: Public ReadOnly Property IgnoreADUsernameAuthentication As Boolean
   overload: SuperOffice.Data.SoDatabase.IgnoreADUsernameAuthentication*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.SoDatabase.EJconfigCgiBin
   commentId: P:SuperOffice.Data.SoDatabase.EJconfigCgiBin
   id: EJconfigCgiBin
@@ -1472,11 +1808,13 @@ items:
   nameWithType: SoDatabase.EJconfigCgiBin
   fullName: SuperOffice.Data.SoDatabase.EJconfigCgiBin
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: Virtual directory for eJournal CGI files. (e.g. application root)
-  example: []
+  summary: "\nVirtual directory for eJournal CGI files. (e.g. application root)\n"
   syntax:
     content: public string EJconfigCgiBin { get; }
     parameters: []
@@ -1484,6 +1822,12 @@ items:
       type: System.String
     content.vb: Public ReadOnly Property EJconfigCgiBin As String
   overload: SuperOffice.Data.SoDatabase.EJconfigCgiBin*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.SoDatabase.EJconfigCgiUrlInternal
   commentId: P:SuperOffice.Data.SoDatabase.EJconfigCgiUrlInternal
   id: EJconfigCgiUrlInternal
@@ -1495,11 +1839,13 @@ items:
   nameWithType: SoDatabase.EJconfigCgiUrlInternal
   fullName: SuperOffice.Data.SoDatabase.EJconfigCgiUrlInternal
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: Host name for eJournal installation.
-  example: []
+  summary: "\nHost name for eJournal installation.\n"
   syntax:
     content: public string EJconfigCgiUrlInternal { get; }
     parameters: []
@@ -1507,6 +1853,12 @@ items:
       type: System.String
     content.vb: Public ReadOnly Property EJconfigCgiUrlInternal As String
   overload: SuperOffice.Data.SoDatabase.EJconfigCgiUrlInternal*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.SoDatabase.EJconfigCgiUrl
   commentId: P:SuperOffice.Data.SoDatabase.EJconfigCgiUrl
   id: EJconfigCgiUrl
@@ -1518,11 +1870,13 @@ items:
   nameWithType: SoDatabase.EJconfigCgiUrl
   fullName: SuperOffice.Data.SoDatabase.EJconfigCgiUrl
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: Host name for eJournal installation (external URL)
-  example: []
+  summary: "\nHost name for eJournal installation (external URL)\n"
   syntax:
     content: public string EJconfigCgiUrl { get; }
     parameters: []
@@ -1530,6 +1884,12 @@ items:
       type: System.String
     content.vb: Public ReadOnly Property EJconfigCgiUrl As String
   overload: SuperOffice.Data.SoDatabase.EJconfigCgiUrl*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.SoDatabase.EJRegistrySOPwd
   commentId: P:SuperOffice.Data.SoDatabase.EJRegistrySOPwd
   id: EJRegistrySOPwd
@@ -1541,6 +1901,9 @@ items:
   nameWithType: SoDatabase.EJRegistrySOPwd
   fullName: SuperOffice.Data.SoDatabase.EJRegistrySOPwd
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
@@ -1551,6 +1914,12 @@ items:
       type: System.String
     content.vb: Public ReadOnly Property EJRegistrySOPwd As String
   overload: SuperOffice.Data.SoDatabase.EJRegistrySOPwd*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.SoDatabase.EJRegistryExtension
   commentId: P:SuperOffice.Data.SoDatabase.EJRegistryExtension
   id: EJRegistryExtension
@@ -1562,11 +1931,13 @@ items:
   nameWithType: SoDatabase.EJRegistryExtension
   fullName: SuperOffice.Data.SoDatabase.EJRegistryExtension
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: The file extension used to run customer service programs
-  example: []
+  summary: "\nThe file extension used to run customer service programs\n"
   syntax:
     content: public string EJRegistryExtension { get; }
     parameters: []
@@ -1574,6 +1945,12 @@ items:
       type: System.String
     content.vb: Public ReadOnly Property EJRegistryExtension As String
   overload: SuperOffice.Data.SoDatabase.EJRegistryExtension*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.SoDatabase.EJWwwFolder
   commentId: P:SuperOffice.Data.SoDatabase.EJWwwFolder
   id: EJWwwFolder
@@ -1585,6 +1962,9 @@ items:
   nameWithType: SoDatabase.EJWwwFolder
   fullName: SuperOffice.Data.SoDatabase.EJWwwFolder
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
@@ -1595,6 +1975,12 @@ items:
       type: System.String
     content.vb: Public ReadOnly Property EJWwwFolder As String
   overload: SuperOffice.Data.SoDatabase.EJWwwFolder*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.SoDatabase.Dictionary
   commentId: P:SuperOffice.Data.SoDatabase.Dictionary
   id: Dictionary
@@ -1606,11 +1992,13 @@ items:
   nameWithType: SoDatabase.Dictionary
   fullName: SuperOffice.Data.SoDatabase.Dictionary
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: The SuperOffice database dictionary
-  example: []
+  summary: "\nThe SuperOffice database dictionary\n"
   syntax:
     content: public SoDictionary Dictionary { get; }
     parameters: []
@@ -1618,463 +2006,181 @@ items:
       type: SuperOffice.Data.Dictionary.SoDictionary
     content.vb: Public ReadOnly Property Dictionary As SoDictionary
   overload: SuperOffice.Data.SoDatabase.Dictionary*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 references:
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.SoDatabase.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<SoDatabase, To>(SoDatabase)
-  nameWithType: EnumUtil.MapEnums<SoDatabase, To>(SoDatabase)
-  fullName: EnumUtil.MapEnums<SuperOffice.Data.SoDatabase, To>(SuperOffice.Data.SoDatabase)
-  nameWithType.vb: EnumUtil.MapEnums(Of SoDatabase, To)(SoDatabase)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.SoDatabase, To)(SuperOffice.Data.SoDatabase)
-  name.vb: MapEnums(Of SoDatabase, To)(SoDatabase)
+  name: MapEnums<SoDatabase, To>()
+  nameWithType: EnumUtil.MapEnums<SoDatabase, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.SoDatabase, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SoDatabase, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.SoDatabase, To)()
+  name.vb: MapEnums(Of SoDatabase, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.SoDatabase)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SoDatabase, To>
+    nameWithType: EnumUtil.MapEnums<SoDatabase, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.SoDatabase, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.SoDatabase
-    name: SoDatabase
-    isExternal: true
-    href: SuperOffice.Data.SoDatabase.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.SoDatabase
-    name: SoDatabase
-    isExternal: true
-    href: SuperOffice.Data.SoDatabase.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.SoDatabase)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SoDatabase, To)
+    nameWithType: EnumUtil.MapEnums(Of SoDatabase, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.SoDatabase, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.SoDatabase
-    name: SoDatabase
-    isExternal: true
-    href: SuperOffice.Data.SoDatabase.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.SoDatabase
-    name: SoDatabase
-    isExternal: true
-    href: SuperOffice.Data.SoDatabase.html
-  - name: )
-- uid: SuperOffice.Data.SoDatabase.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  parent: SuperOffice.ErpSync.ConnectorWS.Converters
-  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<SoDatabase, To>(SoDatabase)
-  nameWithType: Converters.MapEnums<SoDatabase, To>(SoDatabase)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.SoDatabase, To>(SuperOffice.Data.SoDatabase)
-  nameWithType.vb: Converters.MapEnums(Of SoDatabase, To)(SoDatabase)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.SoDatabase, To)(SuperOffice.Data.SoDatabase)
-  name.vb: MapEnums(Of SoDatabase, To)(SoDatabase)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.SoDatabase)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.SoDatabase
-    name: SoDatabase
-    isExternal: true
-    href: SuperOffice.Data.SoDatabase.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Data.SoDatabase
-    name: SoDatabase
-    isExternal: true
-    href: SuperOffice.Data.SoDatabase.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.SoDatabase)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.SoDatabase
-    name: SoDatabase
-    isExternal: true
-    href: SuperOffice.Data.SoDatabase.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.Data.SoDatabase
-    name: SoDatabase
-    isExternal: true
-    href: SuperOffice.Data.SoDatabase.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SoDatabase.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.SoDatabase)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<SoDatabase>(SoDatabase, SoDatabase)
-  nameWithType: ObjectExtensions.AssignByReflection<SoDatabase>(SoDatabase, SoDatabase)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.SoDatabase>(SuperOffice.Data.SoDatabase, SuperOffice.Data.SoDatabase)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of SoDatabase)(SoDatabase, SoDatabase)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.SoDatabase)(SuperOffice.Data.SoDatabase, SuperOffice.Data.SoDatabase)
-  name.vb: AssignByReflection(Of SoDatabase)(SoDatabase, SoDatabase)
+  name: AssignByReflection<SoDatabase>(SoDatabase)
+  nameWithType: ObjectExtensions.AssignByReflection<SoDatabase>(SoDatabase)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.SoDatabase>(SuperOffice.Data.SoDatabase)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of SoDatabase)(SoDatabase)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.SoDatabase)(SuperOffice.Data.SoDatabase)
+  name.vb: AssignByReflection(Of SoDatabase)(SoDatabase)
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.SoDatabase,SuperOffice.Data.SoDatabase)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<SoDatabase>
+    nameWithType: ObjectExtensions.AssignByReflection<SoDatabase>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.SoDatabase>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.Data.SoDatabase
-    name: SoDatabase
-    isExternal: true
-    href: SuperOffice.Data.SoDatabase.html
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SoDatabase
     name: SoDatabase
+    nameWithType: SoDatabase
+    fullName: SuperOffice.Data.SoDatabase
     isExternal: true
-    href: SuperOffice.Data.SoDatabase.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Data.SoDatabase
-    name: SoDatabase
-    isExternal: true
-    href: SuperOffice.Data.SoDatabase.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.SoDatabase,SuperOffice.Data.SoDatabase)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of SoDatabase)
+    nameWithType: ObjectExtensions.AssignByReflection(Of SoDatabase)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.SoDatabase)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SoDatabase
     name: SoDatabase
+    nameWithType: SoDatabase
+    fullName: SuperOffice.Data.SoDatabase
     isExternal: true
-    href: SuperOffice.Data.SoDatabase.html
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.SoDatabase
-    name: SoDatabase
-    isExternal: true
-    href: SuperOffice.Data.SoDatabase.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Data.SoDatabase
-    name: SoDatabase
-    isExternal: true
-    href: SuperOffice.Data.SoDatabase.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SoDatabase.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<SoDatabase>(SoDatabase)
-  nameWithType: ObjectExtensions.GraphCopy<SoDatabase>(SoDatabase)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.SoDatabase>(SuperOffice.Data.SoDatabase)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of SoDatabase)(SoDatabase)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.SoDatabase)(SuperOffice.Data.SoDatabase)
-  name.vb: GraphCopy(Of SoDatabase)(SoDatabase)
+  name: GraphCopy<SoDatabase>()
+  nameWithType: ObjectExtensions.GraphCopy<SoDatabase>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.SoDatabase>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of SoDatabase)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.SoDatabase)()
+  name.vb: GraphCopy(Of SoDatabase)()
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.SoDatabase)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<SoDatabase>
+    nameWithType: ObjectExtensions.GraphCopy<SoDatabase>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.SoDatabase>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.Data.SoDatabase
-    name: SoDatabase
-    isExternal: true
-    href: SuperOffice.Data.SoDatabase.html
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.SoDatabase
-    name: SoDatabase
-    isExternal: true
-    href: SuperOffice.Data.SoDatabase.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.SoDatabase)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of SoDatabase)
+    nameWithType: ObjectExtensions.GraphCopy(Of SoDatabase)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.SoDatabase)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.SoDatabase
-    name: SoDatabase
-    isExternal: true
-    href: SuperOffice.Data.SoDatabase.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SoDatabase.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<SoDatabase, To>()
+  nameWithType: Converters.MapEnums<SoDatabase, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.SoDatabase, To>()
+  nameWithType.vb: Converters.MapEnums(Of SoDatabase, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.SoDatabase, To)()
+  name.vb: MapEnums(Of SoDatabase, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SoDatabase, To>
+    nameWithType: Converters.MapEnums<SoDatabase, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.SoDatabase, To>
+    isExternal: true
   - name: (
-  - uid: SuperOffice.Data.SoDatabase
-    name: SoDatabase
-    isExternal: true
-    href: SuperOffice.Data.SoDatabase.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SoDatabase, To)
+    nameWithType: Converters.MapEnums(Of SoDatabase, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.SoDatabase, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -2083,93 +2189,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<From, To>(From)
-  nameWithType: Converters.MapEnums<From, To>(From)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
-  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
-  name.vb: MapEnums(Of From, To)(From)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - name: From
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - name: From
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters
-  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
-  parent: SuperOffice.ErpSync.ConnectorWS
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
-  name: Converters
-  nameWithType: Converters
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   name: AssignByReflection<T>(T, T)
   nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
   fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
@@ -2178,46 +2234,56 @@ references:
   name.vb: AssignByReflection(Of T)(T, T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
-  - name: ','
-  - name: " "
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.ObjectExtensions
   commentId: T:SuperOffice.Util.ObjectExtensions
   parent: SuperOffice.Util
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
   name: ObjectExtensions
   nameWithType: ObjectExtensions
   fullName: SuperOffice.Util.ObjectExtensions
 - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   name: GraphCopy<T>(T)
   nameWithType: ObjectExtensions.GraphCopy<T>(T)
   fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
@@ -2226,106 +2292,101 @@ references:
   name.vb: GraphCopy(Of T)(T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS
-  commentId: N:SuperOffice.ErpSync.ConnectorWS
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.ErpSync.ConnectorWS
-  nameWithType: SuperOffice.ErpSync.ConnectorWS
-  fullName: SuperOffice.ErpSync.ConnectorWS
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
 - uid: SuperOffice.Data.SoDatabase.#ctor*
   commentId: Overload:SuperOffice.Data.SoDatabase.#ctor
   isExternal: true
-  href: SuperOffice.Data.SoDatabase.html#SuperOffice_Data_SoDatabase__ctor
   name: SoDatabase
   nameWithType: SoDatabase.SoDatabase
   fullName: SuperOffice.Data.SoDatabase.SoDatabase
-  nameWithType.vb: SoDatabase.New
-  fullName.vb: SuperOffice.Data.SoDatabase.New
-  name.vb: New
 - uid: SuperOffice.Data.SoDatabase.GetCurrent*
   commentId: Overload:SuperOffice.Data.SoDatabase.GetCurrent
   isExternal: true
-  href: SuperOffice.Data.SoDatabase.html#SuperOffice_Data_SoDatabase_GetCurrent
   name: GetCurrent
   nameWithType: SoDatabase.GetCurrent
   fullName: SuperOffice.Data.SoDatabase.GetCurrent
@@ -2333,14 +2394,12 @@ references:
   commentId: T:SuperOffice.Data.SoDatabase
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.SoDatabase.html
   name: SoDatabase
   nameWithType: SoDatabase
   fullName: SuperOffice.Data.SoDatabase
 - uid: SuperOffice.Data.SoDatabase.EncryptString*
   commentId: Overload:SuperOffice.Data.SoDatabase.EncryptString
   isExternal: true
-  href: SuperOffice.Data.SoDatabase.html#SuperOffice_Data_SoDatabase_EncryptString_System_String_
   name: EncryptString
   nameWithType: SoDatabase.EncryptString
   fullName: SuperOffice.Data.SoDatabase.EncryptString
@@ -2348,129 +2407,81 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.Data.SoDatabase.EncryptData*
   commentId: Overload:SuperOffice.Data.SoDatabase.EncryptData
   isExternal: true
-  href: SuperOffice.Data.SoDatabase.html#SuperOffice_Data_SoDatabase_EncryptData_System_Byte___
   name: EncryptData
   nameWithType: SoDatabase.EncryptData
   fullName: SuperOffice.Data.SoDatabase.EncryptData
 - uid: System.Byte[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.byte
-  name: byte[]
-  nameWithType: byte[]
-  fullName: byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
   nameWithType.vb: Byte()
-  fullName.vb: Byte()
+  fullName.vb: System.Byte()
   name.vb: Byte()
   spec.csharp:
   - uid: System.Byte
-    name: byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.byte
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.Byte
     name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.byte
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.Data.SoDatabase.DecryptString*
   commentId: Overload:SuperOffice.Data.SoDatabase.DecryptString
   isExternal: true
-  href: SuperOffice.Data.SoDatabase.html#SuperOffice_Data_SoDatabase_DecryptString_System_String_
   name: DecryptString
   nameWithType: SoDatabase.DecryptString
   fullName: SuperOffice.Data.SoDatabase.DecryptString
-- uid: SuperOffice.Data.SoDatabase.EncryptData(System.Byte[])
-  commentId: M:SuperOffice.Data.SoDatabase.EncryptData(System.Byte[])
-  isExternal: true
-  href: SuperOffice.Data.SoDatabase.html#SuperOffice_Data_SoDatabase_EncryptData_System_Byte___
-  name: EncryptData(byte[])
-  nameWithType: SoDatabase.EncryptData(byte[])
-  fullName: SuperOffice.Data.SoDatabase.EncryptData(byte[])
-  nameWithType.vb: SoDatabase.EncryptData(Byte())
-  fullName.vb: SuperOffice.Data.SoDatabase.EncryptData(Byte())
-  name.vb: EncryptData(Byte())
-  spec.csharp:
-  - uid: SuperOffice.Data.SoDatabase.EncryptData(System.Byte[])
-    name: EncryptData
-    isExternal: true
-    href: SuperOffice.Data.SoDatabase.html#SuperOffice_Data_SoDatabase_EncryptData_System_Byte___
-  - name: (
-  - uid: System.Byte
-    name: byte
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.byte
-  - name: '['
-  - name: ']'
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Data.SoDatabase.EncryptData(System.Byte[])
-    name: EncryptData
-    isExternal: true
-    href: SuperOffice.Data.SoDatabase.html#SuperOffice_Data_SoDatabase_EncryptData_System_Byte___
-  - name: (
-  - uid: System.Byte
-    name: Byte
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.byte
-  - name: (
-  - name: )
-  - name: )
 - uid: SuperOffice.Data.SoDatabase.DecryptData*
   commentId: Overload:SuperOffice.Data.SoDatabase.DecryptData
   isExternal: true
-  href: SuperOffice.Data.SoDatabase.html#SuperOffice_Data_SoDatabase_DecryptData_System_String_
   name: DecryptData
   nameWithType: SoDatabase.DecryptData
   fullName: SuperOffice.Data.SoDatabase.DecryptData
 - uid: SuperOffice.Data.SoDatabase.LoadSettingsFromUserPreference*
   commentId: Overload:SuperOffice.Data.SoDatabase.LoadSettingsFromUserPreference
   isExternal: true
-  href: SuperOffice.Data.SoDatabase.html#SuperOffice_Data_SoDatabase_LoadSettingsFromUserPreference
   name: LoadSettingsFromUserPreference
   nameWithType: SoDatabase.LoadSettingsFromUserPreference
   fullName: SuperOffice.Data.SoDatabase.LoadSettingsFromUserPreference
 - uid: SuperOffice.Data.SoDatabase.DatabaseCountryId*
   commentId: Overload:SuperOffice.Data.SoDatabase.DatabaseCountryId
   isExternal: true
-  href: SuperOffice.Data.SoDatabase.html#SuperOffice_Data_SoDatabase_DatabaseCountryId
   name: DatabaseCountryId
   nameWithType: SoDatabase.DatabaseCountryId
   fullName: SuperOffice.Data.SoDatabase.DatabaseCountryId
 - uid: SuperOffice.Data.SoDatabase.SerialNumber*
   commentId: Overload:SuperOffice.Data.SoDatabase.SerialNumber
   isExternal: true
-  href: SuperOffice.Data.SoDatabase.html#SuperOffice_Data_SoDatabase_SerialNumber
   name: SerialNumber
   nameWithType: SoDatabase.SerialNumber
   fullName: SuperOffice.Data.SoDatabase.SerialNumber
 - uid: SuperOffice.Data.SoDatabase.DatabaseVersion*
   commentId: Overload:SuperOffice.Data.SoDatabase.DatabaseVersion
   isExternal: true
-  href: SuperOffice.Data.SoDatabase.html#SuperOffice_Data_SoDatabase_DatabaseVersion
   name: DatabaseVersion
   nameWithType: SoDatabase.DatabaseVersion
   fullName: SuperOffice.Data.SoDatabase.DatabaseVersion
@@ -2478,34 +2489,12 @@ references:
   commentId: T:SuperOffice.Data.SoDatabase.Version
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.SoDatabase.html
   name: SoDatabase.Version
   nameWithType: SoDatabase.Version
   fullName: SuperOffice.Data.SoDatabase.Version
-  spec.csharp:
-  - uid: SuperOffice.Data.SoDatabase
-    name: SoDatabase
-    isExternal: true
-    href: SuperOffice.Data.SoDatabase.html
-  - name: .
-  - uid: SuperOffice.Data.SoDatabase.Version
-    name: Version
-    isExternal: true
-    href: SuperOffice.Data.SoDatabase.Version.html
-  spec.vb:
-  - uid: SuperOffice.Data.SoDatabase
-    name: SoDatabase
-    isExternal: true
-    href: SuperOffice.Data.SoDatabase.html
-  - name: .
-  - uid: SuperOffice.Data.SoDatabase.Version
-    name: Version
-    isExternal: true
-    href: SuperOffice.Data.SoDatabase.Version.html
 - uid: SuperOffice.Data.SoDatabase.IsUnicode*
   commentId: Overload:SuperOffice.Data.SoDatabase.IsUnicode
   isExternal: true
-  href: SuperOffice.Data.SoDatabase.html#SuperOffice_Data_SoDatabase_IsUnicode
   name: IsUnicode
   nameWithType: SoDatabase.IsUnicode
   fullName: SuperOffice.Data.SoDatabase.IsUnicode
@@ -2513,378 +2502,299 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.Data.SoDatabase.CompanyName*
   commentId: Overload:SuperOffice.Data.SoDatabase.CompanyName
   isExternal: true
-  href: SuperOffice.Data.SoDatabase.html#SuperOffice_Data_SoDatabase_CompanyName
   name: CompanyName
   nameWithType: SoDatabase.CompanyName
   fullName: SuperOffice.Data.SoDatabase.CompanyName
 - uid: SuperOffice.Data.SoDatabase.LoginRights*
   commentId: Overload:SuperOffice.Data.SoDatabase.LoginRights
   isExternal: true
-  href: SuperOffice.Data.SoDatabase.html#SuperOffice_Data_SoDatabase_LoginRights
-  name: LoginRights
-  nameWithType: SoDatabase.LoginRights
-  fullName: SuperOffice.Data.SoDatabase.LoginRights
-- uid: SuperOffice.Data.SoDatabase.LoginRights
-  commentId: P:SuperOffice.Data.SoDatabase.LoginRights
-  isExternal: true
-  href: SuperOffice.Data.SoDatabase.html#SuperOffice_Data_SoDatabase_LoginRights
   name: LoginRights
   nameWithType: SoDatabase.LoginRights
   fullName: SuperOffice.Data.SoDatabase.LoginRights
 - uid: SuperOffice.Data.SoDatabase.WindowsLoginRights*
   commentId: Overload:SuperOffice.Data.SoDatabase.WindowsLoginRights
   isExternal: true
-  href: SuperOffice.Data.SoDatabase.html#SuperOffice_Data_SoDatabase_WindowsLoginRights
   name: WindowsLoginRights
   nameWithType: SoDatabase.WindowsLoginRights
   fullName: SuperOffice.Data.SoDatabase.WindowsLoginRights
 - uid: SuperOffice.Data.SoDatabase.WebLoginRights*
   commentId: Overload:SuperOffice.Data.SoDatabase.WebLoginRights
   isExternal: true
-  href: SuperOffice.Data.SoDatabase.html#SuperOffice_Data_SoDatabase_WebLoginRights
   name: WebLoginRights
   nameWithType: SoDatabase.WebLoginRights
   fullName: SuperOffice.Data.SoDatabase.WebLoginRights
 - uid: SuperOffice.Data.SoDatabase.AreaManagement*
   commentId: Overload:SuperOffice.Data.SoDatabase.AreaManagement
   isExternal: true
-  href: SuperOffice.Data.SoDatabase.html#SuperOffice_Data_SoDatabase_AreaManagement
   name: AreaManagement
   nameWithType: SoDatabase.AreaManagement
   fullName: SuperOffice.Data.SoDatabase.AreaManagement
 - uid: SuperOffice.Data.SoDatabase.Saint*
   commentId: Overload:SuperOffice.Data.SoDatabase.Saint
   isExternal: true
-  href: SuperOffice.Data.SoDatabase.html#SuperOffice_Data_SoDatabase_Saint
   name: Saint
   nameWithType: SoDatabase.Saint
   fullName: SuperOffice.Data.SoDatabase.Saint
 - uid: SuperOffice.Data.SoDatabase.CollaborativeCRM*
   commentId: Overload:SuperOffice.Data.SoDatabase.CollaborativeCRM
   isExternal: true
-  href: SuperOffice.Data.SoDatabase.html#SuperOffice_Data_SoDatabase_CollaborativeCRM
   name: CollaborativeCRM
   nameWithType: SoDatabase.CollaborativeCRM
   fullName: SuperOffice.Data.SoDatabase.CollaborativeCRM
 - uid: SuperOffice.Data.SoDatabase.EnterpriseApplicationIntegration*
   commentId: Overload:SuperOffice.Data.SoDatabase.EnterpriseApplicationIntegration
   isExternal: true
-  href: SuperOffice.Data.SoDatabase.html#SuperOffice_Data_SoDatabase_EnterpriseApplicationIntegration
   name: EnterpriseApplicationIntegration
   nameWithType: SoDatabase.EnterpriseApplicationIntegration
   fullName: SuperOffice.Data.SoDatabase.EnterpriseApplicationIntegration
 - uid: SuperOffice.Data.SoDatabase.EXtendedClientAccessLicense*
   commentId: Overload:SuperOffice.Data.SoDatabase.EXtendedClientAccessLicense
   isExternal: true
-  href: SuperOffice.Data.SoDatabase.html#SuperOffice_Data_SoDatabase_EXtendedClientAccessLicense
   name: EXtendedClientAccessLicense
   nameWithType: SoDatabase.EXtendedClientAccessLicense
   fullName: SuperOffice.Data.SoDatabase.EXtendedClientAccessLicense
 - uid: SuperOffice.Data.SoDatabase.ExpanderKey*
   commentId: Overload:SuperOffice.Data.SoDatabase.ExpanderKey
   isExternal: true
-  href: SuperOffice.Data.SoDatabase.html#SuperOffice_Data_SoDatabase_ExpanderKey
   name: ExpanderKey
   nameWithType: SoDatabase.ExpanderKey
   fullName: SuperOffice.Data.SoDatabase.ExpanderKey
 - uid: SuperOffice.Data.SoDatabase.ExpanderForCollaboration*
   commentId: Overload:SuperOffice.Data.SoDatabase.ExpanderForCollaboration
   isExternal: true
-  href: SuperOffice.Data.SoDatabase.html#SuperOffice_Data_SoDatabase_ExpanderForCollaboration
   name: ExpanderForCollaboration
   nameWithType: SoDatabase.ExpanderForCollaboration
   fullName: SuperOffice.Data.SoDatabase.ExpanderForCollaboration
 - uid: SuperOffice.Data.SoDatabase.Audience*
   commentId: Overload:SuperOffice.Data.SoDatabase.Audience
   isExternal: true
-  href: SuperOffice.Data.SoDatabase.html#SuperOffice_Data_SoDatabase_Audience
   name: Audience
   nameWithType: SoDatabase.Audience
   fullName: SuperOffice.Data.SoDatabase.Audience
 - uid: SuperOffice.Data.SoDatabase.Satellites*
   commentId: Overload:SuperOffice.Data.SoDatabase.Satellites
   isExternal: true
-  href: SuperOffice.Data.SoDatabase.html#SuperOffice_Data_SoDatabase_Satellites
   name: Satellites
   nameWithType: SoDatabase.Satellites
   fullName: SuperOffice.Data.SoDatabase.Satellites
 - uid: SuperOffice.Data.SoDatabase.ReporterStudio*
   commentId: Overload:SuperOffice.Data.SoDatabase.ReporterStudio
   isExternal: true
-  href: SuperOffice.Data.SoDatabase.html#SuperOffice_Data_SoDatabase_ReporterStudio
   name: ReporterStudio
   nameWithType: SoDatabase.ReporterStudio
   fullName: SuperOffice.Data.SoDatabase.ReporterStudio
 - uid: SuperOffice.Data.SoDatabase.RemoteTravel*
   commentId: Overload:SuperOffice.Data.SoDatabase.RemoteTravel
   isExternal: true
-  href: SuperOffice.Data.SoDatabase.html#SuperOffice_Data_SoDatabase_RemoteTravel
   name: RemoteTravel
   nameWithType: SoDatabase.RemoteTravel
   fullName: SuperOffice.Data.SoDatabase.RemoteTravel
 - uid: SuperOffice.Data.SoDatabase.SyncEngine*
   commentId: Overload:SuperOffice.Data.SoDatabase.SyncEngine
   isExternal: true
-  href: SuperOffice.Data.SoDatabase.html#SuperOffice_Data_SoDatabase_SyncEngine
   name: SyncEngine
   nameWithType: SoDatabase.SyncEngine
   fullName: SuperOffice.Data.SoDatabase.SyncEngine
 - uid: SuperOffice.Data.SoDatabase.ExpirationDate*
   commentId: Overload:SuperOffice.Data.SoDatabase.ExpirationDate
   isExternal: true
-  href: SuperOffice.Data.SoDatabase.html#SuperOffice_Data_SoDatabase_ExpirationDate
   name: ExpirationDate
   nameWithType: SoDatabase.ExpirationDate
   fullName: SuperOffice.Data.SoDatabase.ExpirationDate
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
-- uid: SuperOffice.Data.SoDatabase.CompanyName
-  commentId: P:SuperOffice.Data.SoDatabase.CompanyName
-  isExternal: true
-  href: SuperOffice.Data.SoDatabase.html#SuperOffice_Data_SoDatabase_CompanyName
-  name: CompanyName
-  nameWithType: SoDatabase.CompanyName
-  fullName: SuperOffice.Data.SoDatabase.CompanyName
 - uid: SuperOffice.Data.SoDatabase.OwnerContactId*
   commentId: Overload:SuperOffice.Data.SoDatabase.OwnerContactId
   isExternal: true
-  href: SuperOffice.Data.SoDatabase.html#SuperOffice_Data_SoDatabase_OwnerContactId
   name: OwnerContactId
   nameWithType: SoDatabase.OwnerContactId
   fullName: SuperOffice.Data.SoDatabase.OwnerContactId
 - uid: SuperOffice.Data.SoDatabase.DbTag*
   commentId: Overload:SuperOffice.Data.SoDatabase.DbTag
   isExternal: true
-  href: SuperOffice.Data.SoDatabase.html#SuperOffice_Data_SoDatabase_DbTag
-  name: DbTag
-  nameWithType: SoDatabase.DbTag
-  fullName: SuperOffice.Data.SoDatabase.DbTag
-- uid: SuperOffice.Data.SoDatabase.DbTag
-  commentId: P:SuperOffice.Data.SoDatabase.DbTag
-  isExternal: true
-  href: SuperOffice.Data.SoDatabase.html#SuperOffice_Data_SoDatabase_DbTag
   name: DbTag
   nameWithType: SoDatabase.DbTag
   fullName: SuperOffice.Data.SoDatabase.DbTag
 - uid: SuperOffice.Data.SoDatabase.CentralDbTag*
   commentId: Overload:SuperOffice.Data.SoDatabase.CentralDbTag
   isExternal: true
-  href: SuperOffice.Data.SoDatabase.html#SuperOffice_Data_SoDatabase_CentralDbTag
   name: CentralDbTag
   nameWithType: SoDatabase.CentralDbTag
   fullName: SuperOffice.Data.SoDatabase.CentralDbTag
 - uid: SuperOffice.Data.SoDatabase.TravelCurrentId*
   commentId: Overload:SuperOffice.Data.SoDatabase.TravelCurrentId
   isExternal: true
-  href: SuperOffice.Data.SoDatabase.html#SuperOffice_Data_SoDatabase_TravelCurrentId
   name: TravelCurrentId
   nameWithType: SoDatabase.TravelCurrentId
   fullName: SuperOffice.Data.SoDatabase.TravelCurrentId
 - uid: SuperOffice.Data.SoDatabase.IsOnTravel*
   commentId: Overload:SuperOffice.Data.SoDatabase.IsOnTravel
   isExternal: true
-  href: SuperOffice.Data.SoDatabase.html#SuperOffice_Data_SoDatabase_IsOnTravel
   name: IsOnTravel
   nameWithType: SoDatabase.IsOnTravel
   fullName: SuperOffice.Data.SoDatabase.IsOnTravel
 - uid: SuperOffice.Data.SoDatabase.IsSatellite*
   commentId: Overload:SuperOffice.Data.SoDatabase.IsSatellite
   isExternal: true
-  href: SuperOffice.Data.SoDatabase.html#SuperOffice_Data_SoDatabase_IsSatellite
   name: IsSatellite
   nameWithType: SoDatabase.IsSatellite
   fullName: SuperOffice.Data.SoDatabase.IsSatellite
 - uid: SuperOffice.Data.SoDatabase.SatelliteId*
   commentId: Overload:SuperOffice.Data.SoDatabase.SatelliteId
   isExternal: true
-  href: SuperOffice.Data.SoDatabase.html#SuperOffice_Data_SoDatabase_SatelliteId
   name: SatelliteId
   nameWithType: SoDatabase.SatelliteId
   fullName: SuperOffice.Data.SoDatabase.SatelliteId
 - uid: SuperOffice.Data.SoDatabase.TravellerId*
   commentId: Overload:SuperOffice.Data.SoDatabase.TravellerId
   isExternal: true
-  href: SuperOffice.Data.SoDatabase.html#SuperOffice_Data_SoDatabase_TravellerId
   name: TravellerId
   nameWithType: SoDatabase.TravellerId
   fullName: SuperOffice.Data.SoDatabase.TravellerId
 - uid: SuperOffice.Data.SoDatabase.HasExpiredBeyondGracePeriod*
   commentId: Overload:SuperOffice.Data.SoDatabase.HasExpiredBeyondGracePeriod
   isExternal: true
-  href: SuperOffice.Data.SoDatabase.html#SuperOffice_Data_SoDatabase_HasExpiredBeyondGracePeriod
   name: HasExpiredBeyondGracePeriod
   nameWithType: SoDatabase.HasExpiredBeyondGracePeriod
   fullName: SuperOffice.Data.SoDatabase.HasExpiredBeyondGracePeriod
 - uid: SuperOffice.Data.SoDatabase.DatabaseMajor*
   commentId: Overload:SuperOffice.Data.SoDatabase.DatabaseMajor
   isExternal: true
-  href: SuperOffice.Data.SoDatabase.html#SuperOffice_Data_SoDatabase_DatabaseMajor
   name: DatabaseMajor
   nameWithType: SoDatabase.DatabaseMajor
   fullName: SuperOffice.Data.SoDatabase.DatabaseMajor
 - uid: SuperOffice.Data.SoDatabase.DatabaseMinor*
   commentId: Overload:SuperOffice.Data.SoDatabase.DatabaseMinor
   isExternal: true
-  href: SuperOffice.Data.SoDatabase.html#SuperOffice_Data_SoDatabase_DatabaseMinor
   name: DatabaseMinor
   nameWithType: SoDatabase.DatabaseMinor
   fullName: SuperOffice.Data.SoDatabase.DatabaseMinor
 - uid: SuperOffice.Data.SoDatabase.Server*
   commentId: Overload:SuperOffice.Data.SoDatabase.Server
   isExternal: true
-  href: SuperOffice.Data.SoDatabase.html#SuperOffice_Data_SoDatabase_Server
   name: Server
   nameWithType: SoDatabase.Server
   fullName: SuperOffice.Data.SoDatabase.Server
 - uid: SuperOffice.Data.SoDatabase.Database*
   commentId: Overload:SuperOffice.Data.SoDatabase.Database
   isExternal: true
-  href: SuperOffice.Data.SoDatabase.html#SuperOffice_Data_SoDatabase_Database
   name: Database
   nameWithType: SoDatabase.Database
   fullName: SuperOffice.Data.SoDatabase.Database
 - uid: SuperOffice.Data.SoDatabase.TablePrefix*
   commentId: Overload:SuperOffice.Data.SoDatabase.TablePrefix
   isExternal: true
-  href: SuperOffice.Data.SoDatabase.html#SuperOffice_Data_SoDatabase_TablePrefix
   name: TablePrefix
   nameWithType: SoDatabase.TablePrefix
   fullName: SuperOffice.Data.SoDatabase.TablePrefix
 - uid: SuperOffice.Data.SoDatabase.ConnectionString*
   commentId: Overload:SuperOffice.Data.SoDatabase.ConnectionString
   isExternal: true
-  href: SuperOffice.Data.SoDatabase.html#SuperOffice_Data_SoDatabase_ConnectionString
   name: ConnectionString
   nameWithType: SoDatabase.ConnectionString
   fullName: SuperOffice.Data.SoDatabase.ConnectionString
 - uid: SuperOffice.Data.SoDatabase.CommandTimeout*
   commentId: Overload:SuperOffice.Data.SoDatabase.CommandTimeout
   isExternal: true
-  href: SuperOffice.Data.SoDatabase.html#SuperOffice_Data_SoDatabase_CommandTimeout
   name: CommandTimeout
   nameWithType: SoDatabase.CommandTimeout
   fullName: SuperOffice.Data.SoDatabase.CommandTimeout
 - uid: SuperOffice.Data.SoDatabase.DBUser*
   commentId: Overload:SuperOffice.Data.SoDatabase.DBUser
   isExternal: true
-  href: SuperOffice.Data.SoDatabase.html#SuperOffice_Data_SoDatabase_DBUser
   name: DBUser
   nameWithType: SoDatabase.DBUser
   fullName: SuperOffice.Data.SoDatabase.DBUser
 - uid: SuperOffice.Data.SoDatabase.DbPassword*
   commentId: Overload:SuperOffice.Data.SoDatabase.DbPassword
   isExternal: true
-  href: SuperOffice.Data.SoDatabase.html#SuperOffice_Data_SoDatabase_DbPassword
   name: DbPassword
   nameWithType: SoDatabase.DbPassword
   fullName: SuperOffice.Data.SoDatabase.DbPassword
 - uid: SuperOffice.Data.SoDatabase.IsInitialized*
   commentId: Overload:SuperOffice.Data.SoDatabase.IsInitialized
   isExternal: true
-  href: SuperOffice.Data.SoDatabase.html#SuperOffice_Data_SoDatabase_IsInitialized
   name: IsInitialized
   nameWithType: SoDatabase.IsInitialized
   fullName: SuperOffice.Data.SoDatabase.IsInitialized
 - uid: SuperOffice.Data.SoDatabase.ShouldLogTransactions*
   commentId: Overload:SuperOffice.Data.SoDatabase.ShouldLogTransactions
   isExternal: true
-  href: SuperOffice.Data.SoDatabase.html#SuperOffice_Data_SoDatabase_ShouldLogTransactions
   name: ShouldLogTransactions
   nameWithType: SoDatabase.ShouldLogTransactions
   fullName: SuperOffice.Data.SoDatabase.ShouldLogTransactions
 - uid: SuperOffice.Data.SoDatabase.ShouldFreetextIndex*
   commentId: Overload:SuperOffice.Data.SoDatabase.ShouldFreetextIndex
   isExternal: true
-  href: SuperOffice.Data.SoDatabase.html#SuperOffice_Data_SoDatabase_ShouldFreetextIndex
   name: ShouldFreetextIndex
   nameWithType: SoDatabase.ShouldFreetextIndex
   fullName: SuperOffice.Data.SoDatabase.ShouldFreetextIndex
 - uid: SuperOffice.Data.SoDatabase.AppointmentDocumentRelationDefinitionId*
   commentId: Overload:SuperOffice.Data.SoDatabase.AppointmentDocumentRelationDefinitionId
   isExternal: true
-  href: SuperOffice.Data.SoDatabase.html#SuperOffice_Data_SoDatabase_AppointmentDocumentRelationDefinitionId
   name: AppointmentDocumentRelationDefinitionId
   nameWithType: SoDatabase.AppointmentDocumentRelationDefinitionId
   fullName: SuperOffice.Data.SoDatabase.AppointmentDocumentRelationDefinitionId
 - uid: SuperOffice.Data.SoDatabase.SaleDocumentRelationDefinitionId*
   commentId: Overload:SuperOffice.Data.SoDatabase.SaleDocumentRelationDefinitionId
   isExternal: true
-  href: SuperOffice.Data.SoDatabase.html#SuperOffice_Data_SoDatabase_SaleDocumentRelationDefinitionId
   name: SaleDocumentRelationDefinitionId
   nameWithType: SoDatabase.SaleDocumentRelationDefinitionId
   fullName: SuperOffice.Data.SoDatabase.SaleDocumentRelationDefinitionId
 - uid: SuperOffice.Data.SoDatabase.IgnoreADUsernameAuthentication*
   commentId: Overload:SuperOffice.Data.SoDatabase.IgnoreADUsernameAuthentication
   isExternal: true
-  href: SuperOffice.Data.SoDatabase.html#SuperOffice_Data_SoDatabase_IgnoreADUsernameAuthentication
   name: IgnoreADUsernameAuthentication
   nameWithType: SoDatabase.IgnoreADUsernameAuthentication
   fullName: SuperOffice.Data.SoDatabase.IgnoreADUsernameAuthentication
 - uid: SuperOffice.Data.SoDatabase.EJconfigCgiBin*
   commentId: Overload:SuperOffice.Data.SoDatabase.EJconfigCgiBin
   isExternal: true
-  href: SuperOffice.Data.SoDatabase.html#SuperOffice_Data_SoDatabase_EJconfigCgiBin
   name: EJconfigCgiBin
   nameWithType: SoDatabase.EJconfigCgiBin
   fullName: SuperOffice.Data.SoDatabase.EJconfigCgiBin
 - uid: SuperOffice.Data.SoDatabase.EJconfigCgiUrlInternal*
   commentId: Overload:SuperOffice.Data.SoDatabase.EJconfigCgiUrlInternal
   isExternal: true
-  href: SuperOffice.Data.SoDatabase.html#SuperOffice_Data_SoDatabase_EJconfigCgiUrlInternal
   name: EJconfigCgiUrlInternal
   nameWithType: SoDatabase.EJconfigCgiUrlInternal
   fullName: SuperOffice.Data.SoDatabase.EJconfigCgiUrlInternal
 - uid: SuperOffice.Data.SoDatabase.EJconfigCgiUrl*
   commentId: Overload:SuperOffice.Data.SoDatabase.EJconfigCgiUrl
   isExternal: true
-  href: SuperOffice.Data.SoDatabase.html#SuperOffice_Data_SoDatabase_EJconfigCgiUrl
   name: EJconfigCgiUrl
   nameWithType: SoDatabase.EJconfigCgiUrl
   fullName: SuperOffice.Data.SoDatabase.EJconfigCgiUrl
 - uid: SuperOffice.Data.SoDatabase.EJRegistrySOPwd*
   commentId: Overload:SuperOffice.Data.SoDatabase.EJRegistrySOPwd
   isExternal: true
-  href: SuperOffice.Data.SoDatabase.html#SuperOffice_Data_SoDatabase_EJRegistrySOPwd
   name: EJRegistrySOPwd
   nameWithType: SoDatabase.EJRegistrySOPwd
   fullName: SuperOffice.Data.SoDatabase.EJRegistrySOPwd
 - uid: SuperOffice.Data.SoDatabase.EJRegistryExtension*
   commentId: Overload:SuperOffice.Data.SoDatabase.EJRegistryExtension
   isExternal: true
-  href: SuperOffice.Data.SoDatabase.html#SuperOffice_Data_SoDatabase_EJRegistryExtension
   name: EJRegistryExtension
   nameWithType: SoDatabase.EJRegistryExtension
   fullName: SuperOffice.Data.SoDatabase.EJRegistryExtension
 - uid: SuperOffice.Data.SoDatabase.EJWwwFolder*
   commentId: Overload:SuperOffice.Data.SoDatabase.EJWwwFolder
   isExternal: true
-  href: SuperOffice.Data.SoDatabase.html#SuperOffice_Data_SoDatabase_EJWwwFolder
   name: EJWwwFolder
   nameWithType: SoDatabase.EJWwwFolder
   fullName: SuperOffice.Data.SoDatabase.EJWwwFolder
 - uid: SuperOffice.Data.SoDatabase.Dictionary*
   commentId: Overload:SuperOffice.Data.SoDatabase.Dictionary
   isExternal: true
-  href: SuperOffice.Data.SoDatabase.html#SuperOffice_Data_SoDatabase_Dictionary
   name: Dictionary
   nameWithType: SoDatabase.Dictionary
   fullName: SuperOffice.Data.SoDatabase.Dictionary
@@ -2892,44 +2802,12 @@ references:
   commentId: T:SuperOffice.Data.Dictionary.SoDictionary
   parent: SuperOffice.Data.Dictionary
   isExternal: true
-  href: SuperOffice.Data.Dictionary.SoDictionary.html
   name: SoDictionary
   nameWithType: SoDictionary
   fullName: SuperOffice.Data.Dictionary.SoDictionary
 - uid: SuperOffice.Data.Dictionary
   commentId: N:SuperOffice.Data.Dictionary
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data.Dictionary
   nameWithType: SuperOffice.Data.Dictionary
   fullName: SuperOffice.Data.Dictionary
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.Dictionary
-    name: Dictionary
-    isExternal: true
-    href: SuperOffice.Data.Dictionary.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.Dictionary
-    name: Dictionary
-    isExternal: true
-    href: SuperOffice.Data.Dictionary.html

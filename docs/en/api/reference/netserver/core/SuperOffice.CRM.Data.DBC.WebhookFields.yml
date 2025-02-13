@@ -28,24 +28,27 @@ items:
   nameWithType: DBC.WebhookFields
   fullName: SuperOffice.CRM.Data.DBC.WebhookFields
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Fields for Webhook, Webhook URL to call when events occur in the client or in NetServer. Also tracks call+error statistics.
-  example: []
+  summary: "\nFields for Webhook, Webhook URL to call when events occur in the client or in NetServer. Also tracks call+error statistics.\n"
   syntax:
-    content: public static class DBC.WebhookFields
-    content.vb: Public Module DBC.WebhookFields
+    content: 'public static class WebhookFields : Object'
+    content.vb: >-
+      Public Module WebhookFields
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
 - uid: SuperOffice.CRM.Data.DBC.WebhookFields.WebhookId
   commentId: F:SuperOffice.CRM.Data.DBC.WebhookFields.WebhookId
   id: WebhookId
@@ -57,16 +60,24 @@ items:
   nameWithType: DBC.WebhookFields.WebhookId
   fullName: SuperOffice.CRM.Data.DBC.WebhookFields.WebhookId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Webhook.WebhookId: Primary key'
-  example: []
+  summary: "\nWebhook.WebhookId: Primary key\n"
   syntax:
     content: public const string WebhookId = "webhook_id"
     return:
       type: System.String
     content.vb: Public Const WebhookId As String = "webhook_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.WebhookFields.Name
   commentId: F:SuperOffice.CRM.Data.DBC.WebhookFields.Name
   id: Name
@@ -78,16 +89,24 @@ items:
   nameWithType: DBC.WebhookFields.Name
   fullName: SuperOffice.CRM.Data.DBC.WebhookFields.Name
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Webhook.Name: Name to identify this webhook. Does not have to be unique.'
-  example: []
+  summary: "\nWebhook.Name: Name to identify this webhook. Does not have to be unique.\n"
   syntax:
     content: public const string Name = "name"
     return:
       type: System.String
     content.vb: Public Const Name As String = "name"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.WebhookFields.Events
   commentId: F:SuperOffice.CRM.Data.DBC.WebhookFields.Events
   id: Events
@@ -99,16 +118,24 @@ items:
   nameWithType: DBC.WebhookFields.Events
   fullName: SuperOffice.CRM.Data.DBC.WebhookFields.Events
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "Webhook.Events: Comma separated list of event names that this hook responds to: 'contact.created,person.changed,project.deleted'"
-  example: []
+  summary: "\nWebhook.Events: Comma separated list of event names that this hook responds to: &apos;contact.created,person.changed,project.deleted&apos;\n"
   syntax:
     content: public const string Events = "events"
     return:
       type: System.String
     content.vb: Public Const Events As String = "events"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.WebhookFields.TargetUrl
   commentId: F:SuperOffice.CRM.Data.DBC.WebhookFields.TargetUrl
   id: TargetUrl
@@ -120,16 +147,24 @@ items:
   nameWithType: DBC.WebhookFields.TargetUrl
   fullName: SuperOffice.CRM.Data.DBC.WebhookFields.TargetUrl
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Webhook.TargetUrl: Destination to POST event info to. URL for webhooks. Id for CRM scripts'
-  example: []
+  summary: "\nWebhook.TargetUrl: Destination to POST event info to. URL for webhooks. Id for CRM scripts\n"
   syntax:
     content: public const string TargetUrl = "target_url"
     return:
       type: System.String
     content.vb: Public Const TargetUrl As String = "target_url"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.WebhookFields.Type
   commentId: F:SuperOffice.CRM.Data.DBC.WebhookFields.Type
   id: Type
@@ -141,16 +176,24 @@ items:
   nameWithType: DBC.WebhookFields.Type
   fullName: SuperOffice.CRM.Data.DBC.WebhookFields.Type
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "Webhook.Type: Name of plugin that handles this webhook. 'webhook' for HTTP POST notifications, 'crmscript' for script invocations."
-  example: []
+  summary: "\nWebhook.Type: Name of plugin that handles this webhook. &apos;webhook&apos; for HTTP POST notifications, &apos;crmscript&apos; for script invocations.\n"
   syntax:
     content: public const string Type = "type"
     return:
       type: System.String
     content.vb: Public Const Type As String = "type"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.WebhookFields.ApplicationToken
   commentId: F:SuperOffice.CRM.Data.DBC.WebhookFields.ApplicationToken
   id: ApplicationToken
@@ -162,16 +205,24 @@ items:
   nameWithType: DBC.WebhookFields.ApplicationToken
   fullName: SuperOffice.CRM.Data.DBC.WebhookFields.ApplicationToken
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "Webhook.ApplicationToken: Application that registered this hook. If set, then other apps won't be able to modify this record"
-  example: []
+  summary: "\nWebhook.ApplicationToken: Application that registered this hook. If set, then other apps won&apos;t be able to modify this record\n"
   syntax:
     content: public const string ApplicationToken = "application_token"
     return:
       type: System.String
     content.vb: Public Const ApplicationToken As String = "application_token"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.WebhookFields.Headers
   commentId: F:SuperOffice.CRM.Data.DBC.WebhookFields.Headers
   id: Headers
@@ -183,16 +234,24 @@ items:
   nameWithType: DBC.WebhookFields.Headers
   fullName: SuperOffice.CRM.Data.DBC.WebhookFields.Headers
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Webhook.Headers: Hook specific additional HTTP headers that should be added to HTTP request, stored as JSON blob'
-  example: []
+  summary: "\nWebhook.Headers: Hook specific additional HTTP headers that should be added to HTTP request, stored as JSON blob\n"
   syntax:
     content: public const string Headers = "headers"
     return:
       type: System.String
     content.vb: Public Const Headers As String = "headers"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.WebhookFields.Properties
   commentId: F:SuperOffice.CRM.Data.DBC.WebhookFields.Properties
   id: Properties
@@ -204,16 +263,24 @@ items:
   nameWithType: DBC.WebhookFields.Properties
   fullName: SuperOffice.CRM.Data.DBC.WebhookFields.Properties
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Webhook.Properties: Hook specific additional data that should be added to payload, stored as JSON blob'
-  example: []
+  summary: "\nWebhook.Properties: Hook specific additional data that should be added to payload, stored as JSON blob\n"
   syntax:
     content: public const string Properties = "properties"
     return:
       type: System.String
     content.vb: Public Const Properties As String = "properties"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.WebhookFields.Secret
   commentId: F:SuperOffice.CRM.Data.DBC.WebhookFields.Secret
   id: Secret
@@ -225,16 +292,24 @@ items:
   nameWithType: DBC.WebhookFields.Secret
   fullName: SuperOffice.CRM.Data.DBC.WebhookFields.Secret
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Webhook.Secret: Shared secret key used for generating SHA256 HMAC signature, so that receiver can verify that call came from this server'
-  example: []
+  summary: "\nWebhook.Secret: Shared secret key used for generating SHA256 HMAC signature, so that receiver can verify that call came from this server\n"
   syntax:
     content: public const string Secret = "secret"
     return:
       type: System.String
     content.vb: Public Const Secret As String = "secret"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.WebhookFields.State
   commentId: F:SuperOffice.CRM.Data.DBC.WebhookFields.State
   id: State
@@ -246,16 +321,24 @@ items:
   nameWithType: DBC.WebhookFields.State
   fullName: SuperOffice.CRM.Data.DBC.WebhookFields.State
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Webhook.State: Webhook status - should we post events to the URL? 1=Active, 2=Stopped or 3=TooManyErrors'
-  example: []
+  summary: "\nWebhook.State: Webhook status - should we post events to the URL? 1=Active, 2=Stopped or 3=TooManyErrors\n"
   syntax:
     content: public const string State = "state"
     return:
       type: System.String
     content.vb: Public Const State As String = "state"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.WebhookFields.Registered
   commentId: F:SuperOffice.CRM.Data.DBC.WebhookFields.Registered
   id: Registered
@@ -267,16 +350,24 @@ items:
   nameWithType: DBC.WebhookFields.Registered
   fullName: SuperOffice.CRM.Data.DBC.WebhookFields.Registered
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Webhook.Registered: Registered when'
-  example: []
+  summary: "\nWebhook.Registered: Registered when\n"
   syntax:
     content: public const string Registered = "registered"
     return:
       type: System.String
     content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.WebhookFields.RegisteredAssociateId
   commentId: F:SuperOffice.CRM.Data.DBC.WebhookFields.RegisteredAssociateId
   id: RegisteredAssociateId
@@ -288,16 +379,24 @@ items:
   nameWithType: DBC.WebhookFields.RegisteredAssociateId
   fullName: SuperOffice.CRM.Data.DBC.WebhookFields.RegisteredAssociateId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Webhook.RegisteredAssociateId: Registered by whom'
-  example: []
+  summary: "\nWebhook.RegisteredAssociateId: Registered by whom\n"
   syntax:
     content: public const string RegisteredAssociateId = "registered_associate_id"
     return:
       type: System.String
     content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.WebhookFields.Updated
   commentId: F:SuperOffice.CRM.Data.DBC.WebhookFields.Updated
   id: Updated
@@ -309,16 +408,24 @@ items:
   nameWithType: DBC.WebhookFields.Updated
   fullName: SuperOffice.CRM.Data.DBC.WebhookFields.Updated
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Webhook.Updated: Last updated when'
-  example: []
+  summary: "\nWebhook.Updated: Last updated when\n"
   syntax:
     content: public const string Updated = "updated"
     return:
       type: System.String
     content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.WebhookFields.UpdatedAssociateId
   commentId: F:SuperOffice.CRM.Data.DBC.WebhookFields.UpdatedAssociateId
   id: UpdatedAssociateId
@@ -330,16 +437,24 @@ items:
   nameWithType: DBC.WebhookFields.UpdatedAssociateId
   fullName: SuperOffice.CRM.Data.DBC.WebhookFields.UpdatedAssociateId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Webhook.UpdatedAssociateId: Last updated by whom'
-  example: []
+  summary: "\nWebhook.UpdatedAssociateId: Last updated by whom\n"
   syntax:
     content: public const string UpdatedAssociateId = "updated_associate_id"
     return:
       type: System.String
     content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.WebhookFields.UpdatedCount
   commentId: F:SuperOffice.CRM.Data.DBC.WebhookFields.UpdatedCount
   id: UpdatedCount
@@ -351,16 +466,24 @@ items:
   nameWithType: DBC.WebhookFields.UpdatedCount
   fullName: SuperOffice.CRM.Data.DBC.WebhookFields.UpdatedCount
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Webhook.UpdatedCount: Number of updates made to this record'
-  example: []
+  summary: "\nWebhook.UpdatedCount: Number of updates made to this record\n"
   syntax:
     content: public const string UpdatedCount = "updatedCount"
     return:
       type: System.String
     content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.WebhookFields.ErrorsEmail
   commentId: F:SuperOffice.CRM.Data.DBC.WebhookFields.ErrorsEmail
   id: ErrorsEmail
@@ -372,288 +495,41 @@ items:
   nameWithType: DBC.WebhookFields.ErrorsEmail
   fullName: SuperOffice.CRM.Data.DBC.WebhookFields.ErrorsEmail
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Webhook.ErrorsEmail: Email address to send error message to when this webhook state changes to too-many errors.'
-  example: []
+  summary: "\nWebhook.ErrorsEmail: Email address to send error message to when this webhook state changes to too-many errors.\n"
   syntax:
     content: public const string ErrorsEmail = "errors_email"
     return:
       type: System.String
     content.vb: Public Const ErrorsEmail As String = "errors_email"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Data
   nameWithType: SuperOffice.CRM.Data
   fullName: SuperOffice.CRM.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.CRM.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.CRM.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -661,10 +537,6 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String

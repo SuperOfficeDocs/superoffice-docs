@@ -17,6 +17,7 @@ items:
   - SuperOffice.WebApi.Data.EFieldRight.Unused3
   - SuperOffice.WebApi.Data.EFieldRight.Unused4
   - SuperOffice.WebApi.Data.EFieldRight.Update
+  - SuperOffice.WebApi.Data.EFieldRight.value__
   - SuperOffice.WebApi.Data.EFieldRight.Write
   langs:
   - csharp
@@ -24,28 +25,57 @@ items:
   name: EFieldRight
   nameWithType: EFieldRight
   fullName: SuperOffice.WebApi.Data.EFieldRight
-  type: Enum
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Access levels to a single field. Read and/or write.
-
-    This Enum consists of flag values that can be combined.
-  example: []
+  summary: "\nAccess levels to a single field. Read and/or write.\nThis Enum consists of flag values that can be combined.\n"
   syntax:
-    content: >-
-      [Flags]
-
-      public enum EFieldRight
+    content: 'public sealed class EFieldRight : Enum'
     content.vb: >-
-      <Flags>
+      Public NotInheritable Class EFieldRight
+          Inherits
 
-      Public Enum EFieldRight
-  attributes:
-  - type: System.FlagsAttribute
-    ctor: System.FlagsAttribute.#ctor
-    arguments: []
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.EFieldRight.value__
+  commentId: F:SuperOffice.WebApi.Data.EFieldRight.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.EFieldRight
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: EFieldRight.value__
+  fullName: SuperOffice.WebApi.Data.EFieldRight.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.EFieldRight.None
   commentId: F:SuperOffice.WebApi.Data.EFieldRight.None
   id: None
@@ -57,15 +87,24 @@ items:
   nameWithType: EFieldRight.None
   fullName: SuperOffice.WebApi.Data.EFieldRight.None
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '0: Hidden from user.'
-  example: []
+  summary: "\n0: Hidden from user.\n"
   syntax:
-    content: None = 0
+    content: public const EFieldRight None
     return:
       type: SuperOffice.WebApi.Data.EFieldRight
+    content.vb: Public Const None As EFieldRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.EFieldRight.Read
   commentId: F:SuperOffice.WebApi.Data.EFieldRight.Read
   id: Read
@@ -77,26 +116,24 @@ items:
   nameWithType: EFieldRight.Read
   fullName: SuperOffice.WebApi.Data.EFieldRight.Read
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '1: Read-only right'
-  example: []
+  summary: "\n1: Read-only right\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Read = 1
+    content: public const EFieldRight Read
     return:
       type: SuperOffice.WebApi.Data.EFieldRight
-    content.vb: >-
-      <EnumMember>
-
-      Read = 1
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Read As EFieldRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.EFieldRight.Write
   commentId: F:SuperOffice.WebApi.Data.EFieldRight.Write
   id: Write
@@ -108,26 +145,24 @@ items:
   nameWithType: EFieldRight.Write
   fullName: SuperOffice.WebApi.Data.EFieldRight.Write
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '2: Write-only (not terribly useful)'
-  example: []
+  summary: "\n2: Write-only (not terribly useful)\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Write = 2
+    content: public const EFieldRight Write
     return:
       type: SuperOffice.WebApi.Data.EFieldRight
-    content.vb: >-
-      <EnumMember>
-
-      Write = 2
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Write As EFieldRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.EFieldRight.Update
   commentId: F:SuperOffice.WebApi.Data.EFieldRight.Update
   id: Update
@@ -139,16 +174,24 @@ items:
   nameWithType: EFieldRight.Update
   fullName: SuperOffice.WebApi.Data.EFieldRight.Update
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '3: Read + Write rights combined'
-  example: []
+  summary: "\n3: Read + Write rights combined\n"
   syntax:
-    content: Update = Read | Write
+    content: public const EFieldRight Update
     return:
       type: SuperOffice.WebApi.Data.EFieldRight
-    content.vb: Update = Read Or Write
+    content.vb: Public Const Update As EFieldRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.EFieldRight.Unused1
   commentId: F:SuperOffice.WebApi.Data.EFieldRight.Unused1
   id: Unused1
@@ -160,26 +203,24 @@ items:
   nameWithType: EFieldRight.Unused1
   fullName: SuperOffice.WebApi.Data.EFieldRight.Unused1
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '4:'
-  example: []
+  summary: "\n4: \n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Unused1 = 4
+    content: public const EFieldRight Unused1
     return:
       type: SuperOffice.WebApi.Data.EFieldRight
-    content.vb: >-
-      <EnumMember>
-
-      Unused1 = 4
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Unused1 As EFieldRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.EFieldRight.Unused2
   commentId: F:SuperOffice.WebApi.Data.EFieldRight.Unused2
   id: Unused2
@@ -191,26 +232,24 @@ items:
   nameWithType: EFieldRight.Unused2
   fullName: SuperOffice.WebApi.Data.EFieldRight.Unused2
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '8:'
-  example: []
+  summary: "\n8: \n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Unused2 = 8
+    content: public const EFieldRight Unused2
     return:
       type: SuperOffice.WebApi.Data.EFieldRight
-    content.vb: >-
-      <EnumMember>
-
-      Unused2 = 8
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Unused2 As EFieldRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.EFieldRight.Unused3
   commentId: F:SuperOffice.WebApi.Data.EFieldRight.Unused3
   id: Unused3
@@ -222,26 +261,24 @@ items:
   nameWithType: EFieldRight.Unused3
   fullName: SuperOffice.WebApi.Data.EFieldRight.Unused3
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '16:'
-  example: []
+  summary: "\n16: \n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Unused3 = 16
+    content: public const EFieldRight Unused3
     return:
       type: SuperOffice.WebApi.Data.EFieldRight
-    content.vb: >-
-      <EnumMember>
-
-      Unused3 = 16
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Unused3 As EFieldRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.EFieldRight.Unused4
   commentId: F:SuperOffice.WebApi.Data.EFieldRight.Unused4
   id: Unused4
@@ -253,26 +290,24 @@ items:
   nameWithType: EFieldRight.Unused4
   fullName: SuperOffice.WebApi.Data.EFieldRight.Unused4
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '32:'
-  example: []
+  summary: "\n32: \n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Unused4 = 32
+    content: public const EFieldRight Unused4
     return:
       type: SuperOffice.WebApi.Data.EFieldRight
-    content.vb: >-
-      <EnumMember>
-
-      Unused4 = 32
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Unused4 As EFieldRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.EFieldRight.UIHintMandatory
   commentId: F:SuperOffice.WebApi.Data.EFieldRight.UIHintMandatory
   id: UIHintMandatory
@@ -284,26 +319,24 @@ items:
   nameWithType: EFieldRight.UIHintMandatory
   fullName: SuperOffice.WebApi.Data.EFieldRight.UIHintMandatory
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '64: Field must be filled out (not blank)'
-  example: []
+  summary: "\n64: Field must be filled out (not blank)\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      UIHintMandatory = 64
+    content: public const EFieldRight UIHintMandatory
     return:
       type: SuperOffice.WebApi.Data.EFieldRight
-    content.vb: >-
-      <EnumMember>
-
-      UIHintMandatory = 64
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const UIHintMandatory As EFieldRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.EFieldRight.UIHintReadOnly
   commentId: F:SuperOffice.WebApi.Data.EFieldRight.UIHintReadOnly
   id: UIHintReadOnly
@@ -315,26 +348,24 @@ items:
   nameWithType: EFieldRight.UIHintReadOnly
   fullName: SuperOffice.WebApi.Data.EFieldRight.UIHintReadOnly
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '128: Field can only be read, not updated, in the user interface.'
-  example: []
+  summary: "\n128: Field can only be read, not updated, in the user interface.\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      UIHintReadOnly = 128
+    content: public const EFieldRight UIHintReadOnly
     return:
       type: SuperOffice.WebApi.Data.EFieldRight
-    content.vb: >-
-      <EnumMember>
-
-      UIHintReadOnly = 128
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const UIHintReadOnly As EFieldRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.EFieldRight.UIHints
   commentId: F:SuperOffice.WebApi.Data.EFieldRight.UIHints
   id: UIHints
@@ -346,16 +377,24 @@ items:
   nameWithType: EFieldRight.UIHints
   fullName: SuperOffice.WebApi.Data.EFieldRight.UIHints
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '192: Rights only applied in the user interface.  These rights are threated as deny rights.'
-  example: []
+  summary: "\n192: Rights only applied in the user interface.  These rights are threated as deny rights.\n"
   syntax:
-    content: UIHints = UIHintMandatory | UIHintReadOnly
+    content: public const EFieldRight UIHints
     return:
       type: SuperOffice.WebApi.Data.EFieldRight
-    content.vb: UIHints = UIHintMandatory Or UIHintReadOnly
+    content.vb: Public Const UIHints As EFieldRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.EFieldRight.UndefinedValue256
   commentId: F:SuperOffice.WebApi.Data.EFieldRight.UndefinedValue256
   id: UndefinedValue256
@@ -367,26 +406,24 @@ items:
   nameWithType: EFieldRight.UndefinedValue256
   fullName: SuperOffice.WebApi.Data.EFieldRight.UndefinedValue256
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '256: Undefined and generated value 256'
-  example: []
+  summary: "\n256: Undefined and generated value 256\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      UndefinedValue256 = 256
+    content: public const EFieldRight UndefinedValue256
     return:
       type: SuperOffice.WebApi.Data.EFieldRight
-    content.vb: >-
-      <EnumMember>
-
-      UndefinedValue256 = 256
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const UndefinedValue256 As EFieldRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.EFieldRight.Nullable
   commentId: F:SuperOffice.WebApi.Data.EFieldRight.Nullable
   id: Nullable
@@ -398,69 +435,55 @@ items:
   nameWithType: EFieldRight.Nullable
   fullName: SuperOffice.WebApi.Data.EFieldRight.Nullable
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '32: Field can have NULL as a valid value.'
-  example: []
+  summary: "\n32: Field can have NULL as a valid value.\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Nullable = 32
+    content: public const EFieldRight Nullable
     return:
       type: SuperOffice.WebApi.Data.EFieldRight
-    content.vb: >-
-      <EnumMember>
-
-      Nullable = 32
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Nullable As EFieldRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.WebApi.Data.EFieldRight
   commentId: T:SuperOffice.WebApi.Data.EFieldRight
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.EFieldRight.html
   name: EFieldRight
   nameWithType: EFieldRight
   fullName: SuperOffice.WebApi.Data.EFieldRight

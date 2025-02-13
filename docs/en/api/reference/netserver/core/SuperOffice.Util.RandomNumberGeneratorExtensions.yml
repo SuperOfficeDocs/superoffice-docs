@@ -15,22 +15,26 @@ items:
   nameWithType: RandomNumberGeneratorExtensions
   fullName: SuperOffice.Util.RandomNumberGeneratorExtensions
   type: Class
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
   syntax:
-    content: public static class RandomNumberGeneratorExtensions
-    content.vb: Public Module RandomNumberGeneratorExtensions
+    content: 'public static class RandomNumberGeneratorExtensions : Object'
+    content.vb: >-
+      Public Module RandomNumberGeneratorExtensions
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
 - uid: SuperOffice.Util.RandomNumberGeneratorExtensions.Next(System.Security.Cryptography.RandomNumberGenerator)
   commentId: M:SuperOffice.Util.RandomNumberGeneratorExtensions.Next(System.Security.Cryptography.RandomNumberGenerator)
   id: Next(System.Security.Cryptography.RandomNumberGenerator)
@@ -43,22 +47,31 @@ items:
   nameWithType: RandomNumberGeneratorExtensions.Next(RandomNumberGenerator)
   fullName: SuperOffice.Util.RandomNumberGeneratorExtensions.Next(System.Security.Cryptography.RandomNumberGenerator)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: Returns a non-negative random integer.
-  example: []
+  summary: "\nReturns a non-negative random integer.\n"
   syntax:
     content: public static int Next(this RandomNumberGenerator rnd)
     parameters:
     - id: rnd
       type: System.Security.Cryptography.RandomNumberGenerator
-      description: ''
     return:
       type: System.Int32
-      description: ''
-    content.vb: Public Shared Function [Next](rnd As RandomNumberGenerator) As Integer
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Next(rnd As RandomNumberGenerator) As Integer
   overload: SuperOffice.Util.RandomNumberGeneratorExtensions.Next*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Util.RandomNumberGeneratorExtensions.Next(System.Security.Cryptography.RandomNumberGenerator,System.Int32)
   commentId: M:SuperOffice.Util.RandomNumberGeneratorExtensions.Next(System.Security.Cryptography.RandomNumberGenerator,System.Int32)
   id: Next(System.Security.Cryptography.RandomNumberGenerator,System.Int32)
@@ -67,32 +80,37 @@ items:
   langs:
   - csharp
   - vb
-  name: Next(RandomNumberGenerator, int)
-  nameWithType: RandomNumberGeneratorExtensions.Next(RandomNumberGenerator, int)
-  fullName: SuperOffice.Util.RandomNumberGeneratorExtensions.Next(System.Security.Cryptography.RandomNumberGenerator, int)
+  name: Next(RandomNumberGenerator, Int32)
+  nameWithType: RandomNumberGeneratorExtensions.Next(RandomNumberGenerator, Int32)
+  fullName: SuperOffice.Util.RandomNumberGeneratorExtensions.Next(System.Security.Cryptography.RandomNumberGenerator, System.Int32)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: Returns a non-negative random integer that is less than the specified maximum.
-  example: []
+  summary: "\nReturns a non-negative random integer that is less than the specified maximum.\n"
   syntax:
     content: public static int Next(this RandomNumberGenerator rnd, int maxValue)
     parameters:
     - id: rnd
       type: System.Security.Cryptography.RandomNumberGenerator
-      description: ''
     - id: maxValue
       type: System.Int32
-      description: ''
     return:
       type: System.Int32
-      description: ''
-    content.vb: Public Shared Function [Next](rnd As RandomNumberGenerator, maxValue As Integer) As Integer
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Next(rnd As RandomNumberGenerator, maxValue As Integer) As Integer
   overload: SuperOffice.Util.RandomNumberGeneratorExtensions.Next*
-  nameWithType.vb: RandomNumberGeneratorExtensions.Next(RandomNumberGenerator, Integer)
-  fullName.vb: SuperOffice.Util.RandomNumberGeneratorExtensions.Next(System.Security.Cryptography.RandomNumberGenerator, Integer)
-  name.vb: Next(RandomNumberGenerator, Integer)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Util.RandomNumberGeneratorExtensions.Next(System.Security.Cryptography.RandomNumberGenerator,System.Int32,System.Int32)
   commentId: M:SuperOffice.Util.RandomNumberGeneratorExtensions.Next(System.Security.Cryptography.RandomNumberGenerator,System.Int32,System.Int32)
   id: Next(System.Security.Cryptography.RandomNumberGenerator,System.Int32,System.Int32)
@@ -101,21 +119,22 @@ items:
   langs:
   - csharp
   - vb
-  name: Next(RandomNumberGenerator, int, int)
-  nameWithType: RandomNumberGeneratorExtensions.Next(RandomNumberGenerator, int, int)
-  fullName: SuperOffice.Util.RandomNumberGeneratorExtensions.Next(System.Security.Cryptography.RandomNumberGenerator, int, int)
+  name: Next(RandomNumberGenerator, Int32, Int32)
+  nameWithType: RandomNumberGeneratorExtensions.Next(RandomNumberGenerator, Int32, Int32)
+  fullName: SuperOffice.Util.RandomNumberGeneratorExtensions.Next(System.Security.Cryptography.RandomNumberGenerator, System.Int32, System.Int32)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: Returns a random integer that is within a specified range.
-  example: []
+  summary: "\nReturns a random integer that is within a specified range.\n"
   syntax:
     content: public static int Next(this RandomNumberGenerator rnd, int minValue, int maxValue)
     parameters:
     - id: rnd
       type: System.Security.Cryptography.RandomNumberGenerator
-      description: ''
     - id: minValue
       type: System.Int32
       description: The inclusive lower bound of the random number returned.
@@ -124,289 +143,45 @@ items:
       description: The exclusive upper bound of the random number returned. maxValue must be greater than or equal to minValue.
     return:
       type: System.Int32
-      description: ''
-    content.vb: Public Shared Function [Next](rnd As RandomNumberGenerator, minValue As Integer, maxValue As Integer) As Integer
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Next(rnd As RandomNumberGenerator, minValue As Integer, maxValue As Integer) As Integer
   overload: SuperOffice.Util.RandomNumberGeneratorExtensions.Next*
-  nameWithType.vb: RandomNumberGeneratorExtensions.Next(RandomNumberGenerator, Integer, Integer)
-  fullName.vb: SuperOffice.Util.RandomNumberGeneratorExtensions.Next(System.Security.Cryptography.RandomNumberGenerator, Integer, Integer)
-  name.vb: Next(RandomNumberGenerator, Integer, Integer)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 references:
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.Util.RandomNumberGeneratorExtensions.Next*
   commentId: Overload:SuperOffice.Util.RandomNumberGeneratorExtensions.Next
   isExternal: true
-  href: SuperOffice.Util.RandomNumberGeneratorExtensions.html#SuperOffice_Util_RandomNumberGeneratorExtensions_Next_System_Security_Cryptography_RandomNumberGenerator_
   name: Next
   nameWithType: RandomNumberGeneratorExtensions.Next
   fullName: SuperOffice.Util.RandomNumberGeneratorExtensions.Next
 - uid: System.Security.Cryptography.RandomNumberGenerator
-  commentId: T:System.Security.Cryptography.RandomNumberGenerator
-  parent: System.Security.Cryptography
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.security.cryptography.randomnumbergenerator
   name: RandomNumberGenerator
   nameWithType: RandomNumberGenerator
   fullName: System.Security.Cryptography.RandomNumberGenerator
@@ -414,47 +189,6 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
-- uid: System.Security.Cryptography
-  commentId: N:System.Security.Cryptography
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Security.Cryptography
-  nameWithType: System.Security.Cryptography
-  fullName: System.Security.Cryptography
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Security
-    name: Security
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.security
-  - name: .
-  - uid: System.Security.Cryptography
-    name: Cryptography
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.security.cryptography
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Security
-    name: Security
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.security
-  - name: .
-  - uid: System.Security.Cryptography
-    name: Cryptography
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.security.cryptography
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

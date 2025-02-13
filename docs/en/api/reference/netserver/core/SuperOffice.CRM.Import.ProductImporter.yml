@@ -16,29 +16,31 @@ items:
   nameWithType: ProductImporter
   fullName: SuperOffice.CRM.Import.ProductImporter
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Import
-  summary: Implements the import functionality in NetServer
-  example: []
+  summary: "\nImplements the import functionality in NetServer\n"
   syntax:
-    content: public class ProductImporter
-    content.vb: Public Class ProductImporter
+    content: 'public class ProductImporter : Object'
+    content.vb: >-
+      Public Class ProductImporter
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Import.ProductImporter.EnumUtil.MapEnums``2
-  - SuperOffice.CRM.Import.ProductImporter.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.CRM.Import.ProductImporter.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Import.ProductImporter)
   - SuperOffice.CRM.Import.ProductImporter.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Import.ProductImporter.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Import.ProductImporter.#ctor
   commentId: M:SuperOffice.CRM.Import.ProductImporter.#ctor
   id: '#ctor'
@@ -50,18 +52,21 @@ items:
   nameWithType: ProductImporter.ProductImporter()
   fullName: SuperOffice.CRM.Import.ProductImporter.ProductImporter()
   type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Import
-  summary: Default constructor
-  example: []
+  summary: "\nDefault constructor\n"
   syntax:
     content: public ProductImporter()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Import.ProductImporter.#ctor*
-  nameWithType.vb: ProductImporter.New()
-  fullName.vb: SuperOffice.CRM.Import.ProductImporter.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Import.ProductImporter.DoImport(SuperOffice.CRM.Import.ImportItem[],System.String[],System.Boolean,System.String,System.Int32,SuperOffice.CRM.Services.StringDictionary,System.Int32@,System.Int32@,System.Int32@)
   commentId: M:SuperOffice.CRM.Import.ProductImporter.DoImport(SuperOffice.CRM.Import.ImportItem[],System.String[],System.Boolean,System.String,System.Int32,SuperOffice.CRM.Services.StringDictionary,System.Int32@,System.Int32@,System.Int32@)
   id: DoImport(SuperOffice.CRM.Import.ImportItem[],System.String[],System.Boolean,System.String,System.Int32,SuperOffice.CRM.Services.StringDictionary,System.Int32@,System.Int32@,System.Int32@)
@@ -69,53 +74,49 @@ items:
   langs:
   - csharp
   - vb
-  name: DoImport(ImportItem[], string[], bool, string, int, StringDictionary, out int, out int, out int)
-  nameWithType: ProductImporter.DoImport(ImportItem[], string[], bool, string, int, StringDictionary, out int, out int, out int)
-  fullName: SuperOffice.CRM.Import.ProductImporter.DoImport(SuperOffice.CRM.Import.ImportItem[], string[], bool, string, int, SuperOffice.CRM.Services.StringDictionary, out int, out int, out int)
+  name: DoImport(ImportItem[], String[], Boolean, String, Int32, StringDictionary, out Int32, out Int32, out Int32)
+  nameWithType: ProductImporter.DoImport(ImportItem[], String[], Boolean, String, Int32, StringDictionary, out Int32, out Int32, out Int32)
+  fullName: SuperOffice.CRM.Import.ProductImporter.DoImport(SuperOffice.CRM.Import.ImportItem[], System.String[], System.Boolean, System.String, System.Int32, SuperOffice.CRM.Services.StringDictionary, out System.Int32, out System.Int32, out System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Import
-  summary: Import function
-  example: []
+  summary: "\nImport function\n"
   syntax:
     content: public ImportItem[] DoImport(ImportItem[] rows, string[] columnDefs, bool saveForReal, string culture, int pricelistId, StringDictionary productImages, out int countInserted, out int countUpdated, out int firstInsertedProductId)
     parameters:
     - id: rows
       type: SuperOffice.CRM.Import.ImportItem[]
-      description: ''
     - id: columnDefs
       type: System.String[]
-      description: ''
     - id: saveForReal
       type: System.Boolean
-      description: ''
     - id: culture
       type: System.String
-      description: ''
     - id: pricelistId
       type: System.Int32
-      description: ''
     - id: productImages
       type: SuperOffice.CRM.Services.StringDictionary
-      description: ''
     - id: countInserted
       type: System.Int32
-      description: ''
     - id: countUpdated
       type: System.Int32
-      description: ''
     - id: firstInsertedProductId
       type: System.Int32
-      description: ''
     return:
       type: SuperOffice.CRM.Import.ImportItem[]
-      description: ''
-    content.vb: Public Function DoImport(rows As ImportItem(), columnDefs As String(), saveForReal As Boolean, culture As String, pricelistId As Integer, productImages As StringDictionary, countInserted As Integer, countUpdated As Integer, firstInsertedProductId As Integer) As ImportItem()
+    content.vb: Public Function DoImport(rows As ImportItem(), columnDefs As String(), saveForReal As Boolean, culture As String, pricelistId As Integer, productImages As StringDictionary, ByRef countInserted As Integer, ByRef countUpdated As Integer, ByRef firstInsertedProductId As Integer) As ImportItem()
   overload: SuperOffice.CRM.Import.ProductImporter.DoImport*
-  nameWithType.vb: ProductImporter.DoImport(ImportItem(), String(), Boolean, String, Integer, StringDictionary, Integer, Integer, Integer)
-  fullName.vb: SuperOffice.CRM.Import.ProductImporter.DoImport(SuperOffice.CRM.Import.ImportItem(), String(), Boolean, String, Integer, SuperOffice.CRM.Services.StringDictionary, Integer, Integer, Integer)
-  name.vb: DoImport(ImportItem(), String(), Boolean, String, Integer, StringDictionary, Integer, Integer, Integer)
+  nameWithType.vb: ProductImporter.DoImport(ImportItem(), String(), Boolean, String, Int32, StringDictionary, ByRef Int32, ByRef Int32, ByRef Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Import.ProductImporter.DoImport(SuperOffice.CRM.Import.ImportItem(), System.String(), System.Boolean, System.String, System.Int32, SuperOffice.CRM.Services.StringDictionary, ByRef System.Int32, ByRef System.Int32, ByRef System.Int32)
+  name.vb: DoImport(ImportItem(), String(), Boolean, String, Int32, StringDictionary, ByRef Int32, ByRef Int32, ByRef Int32)
 - uid: SuperOffice.CRM.Import.ProductImporter.ImportProductImages(SuperOffice.CRM.Services.StringDictionary,SuperOffice.CRM.Entities.ProgressCallback)
   commentId: M:SuperOffice.CRM.Import.ProductImporter.ImportProductImages(SuperOffice.CRM.Services.StringDictionary,SuperOffice.CRM.Entities.ProgressCallback)
   id: ImportProductImages(SuperOffice.CRM.Services.StringDictionary,SuperOffice.CRM.Entities.ProgressCallback)
@@ -127,6 +128,9 @@ items:
   nameWithType: ProductImporter.ImportProductImages(StringDictionary, ProgressCallback)
   fullName: SuperOffice.CRM.Import.ProductImporter.ImportProductImages(SuperOffice.CRM.Services.StringDictionary, SuperOffice.CRM.Entities.ProgressCallback)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Import
@@ -139,6 +143,10 @@ items:
       type: SuperOffice.CRM.Entities.ProgressCallback
     content.vb: Public Sub ImportProductImages(productImages As StringDictionary, progressCallback As ProgressCallback)
   overload: SuperOffice.CRM.Import.ProductImporter.ImportProductImages*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Import.ProductImporter.WriteStats(System.String)
   commentId: M:SuperOffice.CRM.Import.ProductImporter.WriteStats(System.String)
   id: WriteStats(System.String)
@@ -146,517 +154,197 @@ items:
   langs:
   - csharp
   - vb
-  name: WriteStats(string)
-  nameWithType: ProductImporter.WriteStats(string)
-  fullName: SuperOffice.CRM.Import.ProductImporter.WriteStats(string)
+  name: WriteStats(String)
+  nameWithType: ProductImporter.WriteStats(String)
+  fullName: SuperOffice.CRM.Import.ProductImporter.WriteStats(System.String)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Import
-  summary: Writes out statistics - time and memory
-  example: []
+  summary: "\nWrites out statistics - time and memory\n"
   syntax:
     content: public void WriteStats(string message)
     parameters:
     - id: message
       type: System.String
-      description: ''
     content.vb: Public Sub WriteStats(message As String)
   overload: SuperOffice.CRM.Import.ProductImporter.WriteStats*
-  nameWithType.vb: ProductImporter.WriteStats(String)
-  fullName.vb: SuperOffice.CRM.Import.ProductImporter.WriteStats(String)
-  name.vb: WriteStats(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 references:
 - uid: SuperOffice.CRM.Import
   commentId: N:SuperOffice.CRM.Import
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Import
   nameWithType: SuperOffice.CRM.Import
   fullName: SuperOffice.CRM.Import
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Import
-    name: Import
-    isExternal: true
-    href: SuperOffice.CRM.Import.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Import
-    name: Import
-    isExternal: true
-    href: SuperOffice.CRM.Import.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.Import.ProductImporter.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<ProductImporter, To>(ProductImporter)
-  nameWithType: EnumUtil.MapEnums<ProductImporter, To>(ProductImporter)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Import.ProductImporter, To>(SuperOffice.CRM.Import.ProductImporter)
-  nameWithType.vb: EnumUtil.MapEnums(Of ProductImporter, To)(ProductImporter)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Import.ProductImporter, To)(SuperOffice.CRM.Import.ProductImporter)
-  name.vb: MapEnums(Of ProductImporter, To)(ProductImporter)
+  name: MapEnums<ProductImporter, To>()
+  nameWithType: EnumUtil.MapEnums<ProductImporter, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Import.ProductImporter, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ProductImporter, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Import.ProductImporter, To)()
+  name.vb: MapEnums(Of ProductImporter, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Import.ProductImporter)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ProductImporter, To>
+    nameWithType: EnumUtil.MapEnums<ProductImporter, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Import.ProductImporter, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Import.ProductImporter
-    name: ProductImporter
-    isExternal: true
-    href: SuperOffice.CRM.Import.ProductImporter.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Import.ProductImporter
-    name: ProductImporter
-    isExternal: true
-    href: SuperOffice.CRM.Import.ProductImporter.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Import.ProductImporter)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ProductImporter, To)
+    nameWithType: EnumUtil.MapEnums(Of ProductImporter, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Import.ProductImporter, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Import.ProductImporter
-    name: ProductImporter
-    isExternal: true
-    href: SuperOffice.CRM.Import.ProductImporter.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Import.ProductImporter
-    name: ProductImporter
-    isExternal: true
-    href: SuperOffice.CRM.Import.ProductImporter.html
-  - name: )
-- uid: SuperOffice.CRM.Import.ProductImporter.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  parent: SuperOffice.ErpSync.ConnectorWS.Converters
-  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<ProductImporter, To>(ProductImporter)
-  nameWithType: Converters.MapEnums<ProductImporter, To>(ProductImporter)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Import.ProductImporter, To>(SuperOffice.CRM.Import.ProductImporter)
-  nameWithType.vb: Converters.MapEnums(Of ProductImporter, To)(ProductImporter)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Import.ProductImporter, To)(SuperOffice.CRM.Import.ProductImporter)
-  name.vb: MapEnums(Of ProductImporter, To)(ProductImporter)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Import.ProductImporter)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Import.ProductImporter
-    name: ProductImporter
-    isExternal: true
-    href: SuperOffice.CRM.Import.ProductImporter.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.CRM.Import.ProductImporter
-    name: ProductImporter
-    isExternal: true
-    href: SuperOffice.CRM.Import.ProductImporter.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Import.ProductImporter)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Import.ProductImporter
-    name: ProductImporter
-    isExternal: true
-    href: SuperOffice.CRM.Import.ProductImporter.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Import.ProductImporter
-    name: ProductImporter
-    isExternal: true
-    href: SuperOffice.CRM.Import.ProductImporter.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Import.ProductImporter.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Import.ProductImporter)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<ProductImporter>(ProductImporter, ProductImporter)
-  nameWithType: ObjectExtensions.AssignByReflection<ProductImporter>(ProductImporter, ProductImporter)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Import.ProductImporter>(SuperOffice.CRM.Import.ProductImporter, SuperOffice.CRM.Import.ProductImporter)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ProductImporter)(ProductImporter, ProductImporter)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Import.ProductImporter)(SuperOffice.CRM.Import.ProductImporter, SuperOffice.CRM.Import.ProductImporter)
-  name.vb: AssignByReflection(Of ProductImporter)(ProductImporter, ProductImporter)
+  name: AssignByReflection<ProductImporter>(ProductImporter)
+  nameWithType: ObjectExtensions.AssignByReflection<ProductImporter>(ProductImporter)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Import.ProductImporter>(SuperOffice.CRM.Import.ProductImporter)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ProductImporter)(ProductImporter)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Import.ProductImporter)(SuperOffice.CRM.Import.ProductImporter)
+  name.vb: AssignByReflection(Of ProductImporter)(ProductImporter)
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Import.ProductImporter,SuperOffice.CRM.Import.ProductImporter)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<ProductImporter>
+    nameWithType: ObjectExtensions.AssignByReflection<ProductImporter>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Import.ProductImporter>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.CRM.Import.ProductImporter
-    name: ProductImporter
-    isExternal: true
-    href: SuperOffice.CRM.Import.ProductImporter.html
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Import.ProductImporter
     name: ProductImporter
+    nameWithType: ProductImporter
+    fullName: SuperOffice.CRM.Import.ProductImporter
     isExternal: true
-    href: SuperOffice.CRM.Import.ProductImporter.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Import.ProductImporter
-    name: ProductImporter
-    isExternal: true
-    href: SuperOffice.CRM.Import.ProductImporter.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Import.ProductImporter,SuperOffice.CRM.Import.ProductImporter)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of ProductImporter)
+    nameWithType: ObjectExtensions.AssignByReflection(Of ProductImporter)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Import.ProductImporter)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Import.ProductImporter
     name: ProductImporter
+    nameWithType: ProductImporter
+    fullName: SuperOffice.CRM.Import.ProductImporter
     isExternal: true
-    href: SuperOffice.CRM.Import.ProductImporter.html
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Import.ProductImporter
-    name: ProductImporter
-    isExternal: true
-    href: SuperOffice.CRM.Import.ProductImporter.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Import.ProductImporter
-    name: ProductImporter
-    isExternal: true
-    href: SuperOffice.CRM.Import.ProductImporter.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Import.ProductImporter.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<ProductImporter>(ProductImporter)
-  nameWithType: ObjectExtensions.GraphCopy<ProductImporter>(ProductImporter)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Import.ProductImporter>(SuperOffice.CRM.Import.ProductImporter)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of ProductImporter)(ProductImporter)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Import.ProductImporter)(SuperOffice.CRM.Import.ProductImporter)
-  name.vb: GraphCopy(Of ProductImporter)(ProductImporter)
+  name: GraphCopy<ProductImporter>()
+  nameWithType: ObjectExtensions.GraphCopy<ProductImporter>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Import.ProductImporter>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ProductImporter)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Import.ProductImporter)()
+  name.vb: GraphCopy(Of ProductImporter)()
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Import.ProductImporter)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<ProductImporter>
+    nameWithType: ObjectExtensions.GraphCopy<ProductImporter>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Import.ProductImporter>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.CRM.Import.ProductImporter
-    name: ProductImporter
-    isExternal: true
-    href: SuperOffice.CRM.Import.ProductImporter.html
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Import.ProductImporter
-    name: ProductImporter
-    isExternal: true
-    href: SuperOffice.CRM.Import.ProductImporter.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Import.ProductImporter)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of ProductImporter)
+    nameWithType: ObjectExtensions.GraphCopy(Of ProductImporter)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Import.ProductImporter)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Import.ProductImporter
-    name: ProductImporter
-    isExternal: true
-    href: SuperOffice.CRM.Import.ProductImporter.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Import.ProductImporter.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ProductImporter, To>()
+  nameWithType: Converters.MapEnums<ProductImporter, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Import.ProductImporter, To>()
+  nameWithType.vb: Converters.MapEnums(Of ProductImporter, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Import.ProductImporter, To)()
+  name.vb: MapEnums(Of ProductImporter, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ProductImporter, To>
+    nameWithType: Converters.MapEnums<ProductImporter, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Import.ProductImporter, To>
+    isExternal: true
   - name: (
-  - uid: SuperOffice.CRM.Import.ProductImporter
-    name: ProductImporter
-    isExternal: true
-    href: SuperOffice.CRM.Import.ProductImporter.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ProductImporter, To)
+    nameWithType: Converters.MapEnums(Of ProductImporter, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Import.ProductImporter, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -665,93 +353,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<From, To>(From)
-  nameWithType: Converters.MapEnums<From, To>(From)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
-  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
-  name.vb: MapEnums(Of From, To)(From)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - name: From
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - name: From
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters
-  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
-  parent: SuperOffice.ErpSync.ConnectorWS
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
-  name: Converters
-  nameWithType: Converters
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   name: AssignByReflection<T>(T, T)
   nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
   fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
@@ -760,46 +398,56 @@ references:
   name.vb: AssignByReflection(Of T)(T, T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
-  - name: ','
-  - name: " "
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.ObjectExtensions
   commentId: T:SuperOffice.Util.ObjectExtensions
   parent: SuperOffice.Util
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
   name: ObjectExtensions
   nameWithType: ObjectExtensions
   fullName: SuperOffice.Util.ObjectExtensions
 - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   name: GraphCopy<T>(T)
   nameWithType: ObjectExtensions.GraphCopy<T>(T)
   fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
@@ -808,112 +456,106 @@ references:
   name.vb: GraphCopy(Of T)(T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS
-  commentId: N:SuperOffice.ErpSync.ConnectorWS
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.ErpSync.ConnectorWS
-  nameWithType: SuperOffice.ErpSync.ConnectorWS
-  fullName: SuperOffice.ErpSync.ConnectorWS
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
 - uid: SuperOffice.CRM.Import.ProductImporter.#ctor*
   commentId: Overload:SuperOffice.CRM.Import.ProductImporter.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Import.ProductImporter.html#SuperOffice_CRM_Import_ProductImporter__ctor
   name: ProductImporter
   nameWithType: ProductImporter.ProductImporter
   fullName: SuperOffice.CRM.Import.ProductImporter.ProductImporter
-  nameWithType.vb: ProductImporter.New
-  fullName.vb: SuperOffice.CRM.Import.ProductImporter.New
-  name.vb: New
 - uid: SuperOffice.CRM.Import.ProductImporter.DoImport*
   commentId: Overload:SuperOffice.CRM.Import.ProductImporter.DoImport
   isExternal: true
-  href: SuperOffice.CRM.Import.ProductImporter.html#SuperOffice_CRM_Import_ProductImporter_DoImport_SuperOffice_CRM_Import_ImportItem___System_String___System_Boolean_System_String_System_Int32_SuperOffice_CRM_Services_StringDictionary_System_Int32__System_Int32__System_Int32__
   name: DoImport
   nameWithType: ProductImporter.DoImport
   fullName: SuperOffice.CRM.Import.ProductImporter.DoImport
 - uid: SuperOffice.CRM.Import.ImportItem[]
   isExternal: true
-  href: SuperOffice.CRM.Import.ImportItem.html
   name: ImportItem[]
   nameWithType: ImportItem[]
   fullName: SuperOffice.CRM.Import.ImportItem[]
@@ -923,122 +565,84 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Import.ImportItem
     name: ImportItem
+    nameWithType: ImportItem
+    fullName: SuperOffice.CRM.Import.ImportItem
     isExternal: true
-    href: SuperOffice.CRM.Import.ImportItem.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.Import.ImportItem
     name: ImportItem
+    nameWithType: ImportItem
+    fullName: SuperOffice.CRM.Import.ImportItem
     isExternal: true
-    href: SuperOffice.CRM.Import.ImportItem.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: System.String[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string[]
-  nameWithType: string[]
-  fullName: string[]
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
   nameWithType.vb: String()
-  fullName.vb: String()
+  fullName.vb: System.String()
   name.vb: String()
   spec.csharp:
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Services.StringDictionary
   commentId: T:SuperOffice.CRM.Services.StringDictionary
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.StringDictionary.html
   name: StringDictionary
   nameWithType: StringDictionary
   fullName: SuperOffice.CRM.Services.StringDictionary
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
 - uid: SuperOffice.CRM.Import.ProductImporter.ImportProductImages*
   commentId: Overload:SuperOffice.CRM.Import.ProductImporter.ImportProductImages
   isExternal: true
-  href: SuperOffice.CRM.Import.ProductImporter.html#SuperOffice_CRM_Import_ProductImporter_ImportProductImages_SuperOffice_CRM_Services_StringDictionary_SuperOffice_CRM_Entities_ProgressCallback_
   name: ImportProductImages
   nameWithType: ProductImporter.ImportProductImages
   fullName: SuperOffice.CRM.Import.ProductImporter.ImportProductImages
@@ -1046,51 +650,18 @@ references:
   commentId: T:SuperOffice.CRM.Entities.ProgressCallback
   parent: SuperOffice.CRM.Entities
   isExternal: true
-  href: SuperOffice.CRM.Entities.ProgressCallback.html
   name: ProgressCallback
   nameWithType: ProgressCallback
   fullName: SuperOffice.CRM.Entities.ProgressCallback
 - uid: SuperOffice.CRM.Entities
   commentId: N:SuperOffice.CRM.Entities
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Entities
   nameWithType: SuperOffice.CRM.Entities
   fullName: SuperOffice.CRM.Entities
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Entities
-    name: Entities
-    isExternal: true
-    href: SuperOffice.CRM.Entities.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Entities
-    name: Entities
-    isExternal: true
-    href: SuperOffice.CRM.Entities.html
 - uid: SuperOffice.CRM.Import.ProductImporter.WriteStats*
   commentId: Overload:SuperOffice.CRM.Import.ProductImporter.WriteStats
   isExternal: true
-  href: SuperOffice.CRM.Import.ProductImporter.html#SuperOffice_CRM_Import_ProductImporter_WriteStats_System_String_
   name: WriteStats
   nameWithType: ProductImporter.WriteStats
   fullName: SuperOffice.CRM.Import.ProductImporter.WriteStats

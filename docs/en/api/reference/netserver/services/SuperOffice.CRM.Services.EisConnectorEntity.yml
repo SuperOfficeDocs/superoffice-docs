@@ -19,33 +19,26 @@ items:
   nameWithType: EisConnectorEntity
   fullName: SuperOffice.CRM.Services.EisConnectorEntity
   type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Carrier object for EisConnectorEntity.
-
-    Services for the EisConnectorEntity Carrier is available from the <xref href="SuperOffice.CRM.Services.IErpSyncAgent?text=ErpSync+Agent" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nCarrier object for EisConnectorEntity.\nServices for the EisConnectorEntity Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IErpSyncAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public class EisConnectorEntity : Carrier
+    content: 'public class EisConnectorEntity : Carrier'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
-
-      Public Class EisConnectorEntity Inherits Carrier
+      Public Class EisConnectorEntity
+          Inherits Carrier
   inheritance:
   - System.Object
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.EisConnectorEntity.#ctor
   commentId: M:SuperOffice.CRM.Services.EisConnectorEntity.#ctor
   id: '#ctor'
@@ -57,18 +50,21 @@ items:
   nameWithType: EisConnectorEntity.EisConnectorEntity()
   fullName: SuperOffice.CRM.Services.EisConnectorEntity.EisConnectorEntity()
   type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Default constructor
-  example: []
+  summary: "\nDefault constructor\n"
   syntax:
     content: public EisConnectorEntity()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.EisConnectorEntity.#ctor*
-  nameWithType.vb: EisConnectorEntity.New()
-  fullName.vb: SuperOffice.CRM.Services.EisConnectorEntity.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.EisConnectorEntity.ToString
   commentId: M:SuperOffice.CRM.Services.EisConnectorEntity.ToString
   id: ToString
@@ -80,18 +76,26 @@ items:
   nameWithType: EisConnectorEntity.ToString()
   fullName: SuperOffice.CRM.Services.EisConnectorEntity.ToString()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the carrier contents as a formatted string.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string.\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString() As String
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.CRM.Services.EisConnectorEntity.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Services.EisConnectorEntity.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.EisConnectorEntity.ToString(System.String)
   id: ToString(System.String)
@@ -99,18 +103,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(string)
-  nameWithType: EisConnectorEntity.ToString(string)
-  fullName: SuperOffice.CRM.Services.EisConnectorEntity.ToString(string)
+  name: ToString(String)
+  nameWithType: EisConnectorEntity.ToString(String)
+  fullName: SuperOffice.CRM.Services.EisConnectorEntity.ToString(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Returns the carrier contents as a formatted string, useful for debugging.
-
-    Each line in the output is prefixed with the input value.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -122,9 +125,10 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.EisConnectorEntity.ToString*
-  nameWithType.vb: EisConnectorEntity.ToString(String)
-  fullName.vb: SuperOffice.CRM.Services.EisConnectorEntity.ToString(String)
-  name.vb: ToString(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.EisConnectorEntity.ErpConnectorId
   commentId: P:SuperOffice.CRM.Services.EisConnectorEntity.ErpConnectorId
   id: ErpConnectorId
@@ -136,28 +140,26 @@ items:
   nameWithType: EisConnectorEntity.ErpConnectorId
   fullName: SuperOffice.CRM.Services.EisConnectorEntity.ErpConnectorId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Primary key
-  example: []
+  summary: "\nPrimary key\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public int ErpConnectorId { get; set; }
+    content: public int ErpConnectorId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Property ErpConnectorId As Integer
+    content.vb: Public Property ErpConnectorId As Integer
   overload: SuperOffice.CRM.Services.EisConnectorEntity.ErpConnectorId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.EisConnectorEntity.DisplayName
   commentId: P:SuperOffice.CRM.Services.EisConnectorEntity.DisplayName
   id: DisplayName
@@ -169,28 +171,26 @@ items:
   nameWithType: EisConnectorEntity.DisplayName
   fullName: SuperOffice.CRM.Services.EisConnectorEntity.DisplayName
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Name shown in the list
-  example: []
+  summary: "\nName shown in the list\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public string DisplayName { get; set; }
+    content: public string DisplayName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Property DisplayName As String
+    content.vb: Public Property DisplayName As String
   overload: SuperOffice.CRM.Services.EisConnectorEntity.DisplayName*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.EisConnectorEntity.URL
   commentId: P:SuperOffice.CRM.Services.EisConnectorEntity.URL
   id: URL
@@ -202,28 +202,26 @@ items:
   nameWithType: EisConnectorEntity.URL
   fullName: SuperOffice.CRM.Services.EisConnectorEntity.URL
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The URL where the connector is located and can be called
-  example: []
+  summary: "\nThe URL where the connector is located and can be called\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public string URL { get; set; }
+    content: public string URL { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Property URL As String
+    content.vb: Public Property URL As String
   overload: SuperOffice.CRM.Services.EisConnectorEntity.URL*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.EisConnectorEntity.Deleted
   commentId: P:SuperOffice.CRM.Services.EisConnectorEntity.Deleted
   id: Deleted
@@ -235,106 +233,42 @@ items:
   nameWithType: EisConnectorEntity.Deleted
   fullName: SuperOffice.CRM.Services.EisConnectorEntity.Deleted
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: True if the connector is deleted
-  example: []
+  summary: "\nTrue if the connector is deleted\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public bool Deleted { get; set; }
+    content: public bool Deleted { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <DataMember>
-
-      Public Property Deleted As Boolean
+    content.vb: Public Property Deleted As Boolean
   overload: SuperOffice.CRM.Services.EisConnectorEntity.Deleted*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 references:
-- uid: SuperOffice.CRM.Services.IErpSyncAgent
-  commentId: T:SuperOffice.CRM.Services.IErpSyncAgent
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.CRM.Services.IErpSyncAgent.html
-  name: IErpSyncAgent
-  nameWithType: IErpSyncAgent
-  fullName: SuperOffice.CRM.Services.IErpSyncAgent
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.EisConnectorEntity.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.EisConnectorEntity.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.EisConnectorEntity.html#SuperOffice_CRM_Services_EisConnectorEntity__ctor
   name: EisConnectorEntity
   nameWithType: EisConnectorEntity.EisConnectorEntity
   fullName: SuperOffice.CRM.Services.EisConnectorEntity.EisConnectorEntity
-  nameWithType.vb: EisConnectorEntity.New
-  fullName.vb: SuperOffice.CRM.Services.EisConnectorEntity.New
-  name.vb: New
 - uid: SuperOffice.CRM.Services.EisConnectorEntity.ToString*
   commentId: Overload:SuperOffice.CRM.Services.EisConnectorEntity.ToString
   isExternal: true
-  href: SuperOffice.CRM.Services.EisConnectorEntity.html#SuperOffice_CRM_Services_EisConnectorEntity_ToString
   name: ToString
   nameWithType: EisConnectorEntity.ToString
   fullName: SuperOffice.CRM.Services.EisConnectorEntity.ToString
@@ -342,17 +276,18 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.EisConnectorEntity.ErpConnectorId*
   commentId: Overload:SuperOffice.CRM.Services.EisConnectorEntity.ErpConnectorId
   isExternal: true
-  href: SuperOffice.CRM.Services.EisConnectorEntity.html#SuperOffice_CRM_Services_EisConnectorEntity_ErpConnectorId
   name: ErpConnectorId
   nameWithType: EisConnectorEntity.ErpConnectorId
   fullName: SuperOffice.CRM.Services.EisConnectorEntity.ErpConnectorId
@@ -360,31 +295,24 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Services.EisConnectorEntity.DisplayName*
   commentId: Overload:SuperOffice.CRM.Services.EisConnectorEntity.DisplayName
   isExternal: true
-  href: SuperOffice.CRM.Services.EisConnectorEntity.html#SuperOffice_CRM_Services_EisConnectorEntity_DisplayName
   name: DisplayName
   nameWithType: EisConnectorEntity.DisplayName
   fullName: SuperOffice.CRM.Services.EisConnectorEntity.DisplayName
 - uid: SuperOffice.CRM.Services.EisConnectorEntity.URL*
   commentId: Overload:SuperOffice.CRM.Services.EisConnectorEntity.URL
   isExternal: true
-  href: SuperOffice.CRM.Services.EisConnectorEntity.html#SuperOffice_CRM_Services_EisConnectorEntity_URL
   name: URL
   nameWithType: EisConnectorEntity.URL
   fullName: SuperOffice.CRM.Services.EisConnectorEntity.URL
 - uid: SuperOffice.CRM.Services.EisConnectorEntity.Deleted*
   commentId: Overload:SuperOffice.CRM.Services.EisConnectorEntity.Deleted
   isExternal: true
-  href: SuperOffice.CRM.Services.EisConnectorEntity.html#SuperOffice_CRM_Services_EisConnectorEntity_Deleted
   name: Deleted
   nameWithType: EisConnectorEntity.Deleted
   fullName: SuperOffice.CRM.Services.EisConnectorEntity.Deleted
@@ -392,10 +320,6 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

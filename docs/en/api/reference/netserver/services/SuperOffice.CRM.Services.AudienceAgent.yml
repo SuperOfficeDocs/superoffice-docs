@@ -14,18 +14,18 @@ items:
   - SuperOffice.CRM.Services.AudienceAgent.GetAudienceLayoutOnPerson(System.Int32)
   - SuperOffice.CRM.Services.AudienceAgent.GetConfigParameter(System.String,System.String)
   - SuperOffice.CRM.Services.AudienceAgent.GetConfigParameterOnPerson(System.String,System.Int32)
-  - SuperOffice.CRM.Services.AudienceAgent.GetConfigParameterValue(System.String,System.String)
-  - SuperOffice.CRM.Services.AudienceAgent.GetConfigParameterValueOnPerson(System.String,System.Int32)
   - SuperOffice.CRM.Services.AudienceAgent.GetConfigParametersByLayoutName(System.String)
   - SuperOffice.CRM.Services.AudienceAgent.GetConfigParametersOnPerson(System.Int32)
+  - SuperOffice.CRM.Services.AudienceAgent.GetConfigParameterValue(System.String,System.String)
+  - SuperOffice.CRM.Services.AudienceAgent.GetConfigParameterValueOnPerson(System.String,System.Int32)
   - SuperOffice.CRM.Services.AudienceAgent.GetDefaultCountryFlag(System.String)
   - SuperOffice.CRM.Services.AudienceAgent.GetDefaultPersonImage(System.String)
   - SuperOffice.CRM.Services.AudienceAgent.GetDefaultProjectImage(System.String)
   - SuperOffice.CRM.Services.AudienceAgent.GetLogoImage(System.String)
   - SuperOffice.CRM.Services.AudienceAgent.GetMyAudienceLayout
   - SuperOffice.CRM.Services.AudienceAgent.GetMyConfigParameter(System.String)
-  - SuperOffice.CRM.Services.AudienceAgent.GetMyConfigParameterValue(System.String)
   - SuperOffice.CRM.Services.AudienceAgent.GetMyConfigParameters
+  - SuperOffice.CRM.Services.AudienceAgent.GetMyConfigParameterValue(System.String)
   - SuperOffice.CRM.Services.AudienceAgent.SaveAudienceLayoutEntity(SuperOffice.CRM.Services.AudienceLayoutEntity)
   - SuperOffice.CRM.Services.AudienceAgent.SaveConfigParameter(System.String,SuperOffice.CRM.Services.AudienceConfigParameter)
   - SuperOffice.CRM.Services.AudienceAgent.SetDefaultCountryFlag(System.String,System.Drawing.Image)
@@ -39,31 +39,21 @@ items:
   nameWithType: AudienceAgent
   fullName: SuperOffice.CRM.Services.AudienceAgent
   type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Facade for the Audience Agent
-
-    Services specific to the Audience client
+  summary: "\nFacade for the Audience Agent\nServices specific to the Audience client\n"
   example:
-  - >-
-    <pre><code class="lang-csharp">using SuperOffice;
-
-    using SuperOffice.CRM.Services;
-
-
-    using (SoSession mySession = SoSession.Authenticate("user", "pass"))
-
-    {
-       using (AudienceAgent agent = new AudienceAgent())
-       {
-          // call methods on agent here...
-       }
-    }</code></pre>
+  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (AudienceAgent agent = new AudienceAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
   syntax:
     content: 'public class AudienceAgent : AgentBase<IAudienceAgent>, IDisposable, IAudienceAgent, IAgent'
-    content.vb: Public Class AudienceAgent Inherits AgentBase(Of IAudienceAgent) Implements IDisposable, IAudienceAgent, IAgent
+    content.vb: >-
+      Public Class AudienceAgent
+          Inherits AgentBase(Of IAudienceAgent)
+          Implements IDisposable, IAudienceAgent, IAgent
   inheritance:
   - System.Object
   - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IAudienceAgent}
@@ -74,13 +64,12 @@ items:
   inheritedMembers:
   - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IAudienceAgent}.Dispose
   - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IAudienceAgent}.InnerAgent
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.AudienceAgent.CreateDefaultAudienceLayoutEntity
   commentId: M:SuperOffice.CRM.Services.AudienceAgent.CreateDefaultAudienceLayoutEntity
   id: CreateDefaultAudienceLayoutEntity
@@ -92,23 +81,26 @@ items:
   nameWithType: AudienceAgent.CreateDefaultAudienceLayoutEntity()
   fullName: SuperOffice.CRM.Services.AudienceAgent.CreateDefaultAudienceLayoutEntity()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new AudienceLayoutEntity.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-  example: []
+  summary: "\nLoading default values into a new AudienceLayoutEntity.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
   syntax:
     content: public AudienceLayoutEntity CreateDefaultAudienceLayoutEntity()
     return:
       type: SuperOffice.CRM.Services.AudienceLayoutEntity
       description: New AudienceLayoutEntity with default values
-    content.vb: Public Function CreateDefaultAudienceLayoutEntity() As AudienceLayoutEntity
+    content.vb: Public Function CreateDefaultAudienceLayoutEntity As AudienceLayoutEntity
   overload: SuperOffice.CRM.Services.AudienceAgent.CreateDefaultAudienceLayoutEntity*
   implements:
   - SuperOffice.CRM.Services.IAudienceAgent.CreateDefaultAudienceLayoutEntity
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.AudienceAgent.SaveAudienceLayoutEntity(SuperOffice.CRM.Services.AudienceLayoutEntity)
   commentId: M:SuperOffice.CRM.Services.AudienceAgent.SaveAudienceLayoutEntity(SuperOffice.CRM.Services.AudienceLayoutEntity)
   id: SaveAudienceLayoutEntity(SuperOffice.CRM.Services.AudienceLayoutEntity)
@@ -120,11 +112,13 @@ items:
   nameWithType: AudienceAgent.SaveAudienceLayoutEntity(AudienceLayoutEntity)
   fullName: SuperOffice.CRM.Services.AudienceAgent.SaveAudienceLayoutEntity(SuperOffice.CRM.Services.AudienceLayoutEntity)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Updates the existing AudienceLayoutEntity or creates a new AudienceLayoutEntity if the id parameter is empty
-  example: []
+  summary: "\nUpdates the existing AudienceLayoutEntity or creates a new AudienceLayoutEntity if the id parameter is empty\n"
   syntax:
     content: public AudienceLayoutEntity SaveAudienceLayoutEntity(AudienceLayoutEntity audienceLayoutEntity)
     parameters:
@@ -138,6 +132,10 @@ items:
   overload: SuperOffice.CRM.Services.AudienceAgent.SaveAudienceLayoutEntity*
   implements:
   - SuperOffice.CRM.Services.IAudienceAgent.SaveAudienceLayoutEntity(SuperOffice.CRM.Services.AudienceLayoutEntity)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.AudienceAgent.DeleteAudienceLayoutEntity(System.Int32)
   commentId: M:SuperOffice.CRM.Services.AudienceAgent.DeleteAudienceLayoutEntity(System.Int32)
   id: DeleteAudienceLayoutEntity(System.Int32)
@@ -145,15 +143,17 @@ items:
   langs:
   - csharp
   - vb
-  name: DeleteAudienceLayoutEntity(int)
-  nameWithType: AudienceAgent.DeleteAudienceLayoutEntity(int)
-  fullName: SuperOffice.CRM.Services.AudienceAgent.DeleteAudienceLayoutEntity(int)
+  name: DeleteAudienceLayoutEntity(Int32)
+  nameWithType: AudienceAgent.DeleteAudienceLayoutEntity(Int32)
+  fullName: SuperOffice.CRM.Services.AudienceAgent.DeleteAudienceLayoutEntity(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Deletes the AudienceLayoutEntity
-  example: []
+  summary: "\nDeletes the AudienceLayoutEntity\n"
   syntax:
     content: public void DeleteAudienceLayoutEntity(int audienceLayoutEntityId)
     parameters:
@@ -164,9 +164,10 @@ items:
   overload: SuperOffice.CRM.Services.AudienceAgent.DeleteAudienceLayoutEntity*
   implements:
   - SuperOffice.CRM.Services.IAudienceAgent.DeleteAudienceLayoutEntity(System.Int32)
-  nameWithType.vb: AudienceAgent.DeleteAudienceLayoutEntity(Integer)
-  fullName.vb: SuperOffice.CRM.Services.AudienceAgent.DeleteAudienceLayoutEntity(Integer)
-  name.vb: DeleteAudienceLayoutEntity(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.AudienceAgent.SaveConfigParameter(System.String,SuperOffice.CRM.Services.AudienceConfigParameter)
   commentId: M:SuperOffice.CRM.Services.AudienceAgent.SaveConfigParameter(System.String,SuperOffice.CRM.Services.AudienceConfigParameter)
   id: SaveConfigParameter(System.String,SuperOffice.CRM.Services.AudienceConfigParameter)
@@ -174,15 +175,17 @@ items:
   langs:
   - csharp
   - vb
-  name: SaveConfigParameter(string, AudienceConfigParameter)
-  nameWithType: AudienceAgent.SaveConfigParameter(string, AudienceConfigParameter)
-  fullName: SuperOffice.CRM.Services.AudienceAgent.SaveConfigParameter(string, SuperOffice.CRM.Services.AudienceConfigParameter)
+  name: SaveConfigParameter(String, AudienceConfigParameter)
+  nameWithType: AudienceAgent.SaveConfigParameter(String, AudienceConfigParameter)
+  fullName: SuperOffice.CRM.Services.AudienceAgent.SaveConfigParameter(System.String, SuperOffice.CRM.Services.AudienceConfigParameter)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Saves an Audience configuration parameter belonging to a Audience layout
-  example: []
+  summary: "\nSaves an Audience configuration parameter belonging to a Audience layout\n"
   syntax:
     content: public AudienceConfigParameter SaveConfigParameter(string layoutName, AudienceConfigParameter configParameter)
     parameters:
@@ -199,9 +202,10 @@ items:
   overload: SuperOffice.CRM.Services.AudienceAgent.SaveConfigParameter*
   implements:
   - SuperOffice.CRM.Services.IAudienceAgent.SaveConfigParameter(System.String,SuperOffice.CRM.Services.AudienceConfigParameter)
-  nameWithType.vb: AudienceAgent.SaveConfigParameter(String, AudienceConfigParameter)
-  fullName.vb: SuperOffice.CRM.Services.AudienceAgent.SaveConfigParameter(String, SuperOffice.CRM.Services.AudienceConfigParameter)
-  name.vb: SaveConfigParameter(String, AudienceConfigParameter)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.AudienceAgent.GetConfigParameterValue(System.String,System.String)
   commentId: M:SuperOffice.CRM.Services.AudienceAgent.GetConfigParameterValue(System.String,System.String)
   id: GetConfigParameterValue(System.String,System.String)
@@ -209,15 +213,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetConfigParameterValue(string, string)
-  nameWithType: AudienceAgent.GetConfigParameterValue(string, string)
-  fullName: SuperOffice.CRM.Services.AudienceAgent.GetConfigParameterValue(string, string)
+  name: GetConfigParameterValue(String, String)
+  nameWithType: AudienceAgent.GetConfigParameterValue(String, String)
+  fullName: SuperOffice.CRM.Services.AudienceAgent.GetConfigParameterValue(System.String, System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Gets the string value of an Audience configuration parameter belonging to a given Audience layout with the specified configuration parameter name
-  example: []
+  summary: "\nGets the string value of an Audience configuration parameter belonging to a given Audience layout with the specified configuration parameter name\n"
   syntax:
     content: public string GetConfigParameterValue(string layoutName, string parameterName)
     parameters:
@@ -234,9 +240,10 @@ items:
   overload: SuperOffice.CRM.Services.AudienceAgent.GetConfigParameterValue*
   implements:
   - SuperOffice.CRM.Services.IAudienceAgent.GetConfigParameterValue(System.String,System.String)
-  nameWithType.vb: AudienceAgent.GetConfigParameterValue(String, String)
-  fullName.vb: SuperOffice.CRM.Services.AudienceAgent.GetConfigParameterValue(String, String)
-  name.vb: GetConfigParameterValue(String, String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.AudienceAgent.GetConfigParameter(System.String,System.String)
   commentId: M:SuperOffice.CRM.Services.AudienceAgent.GetConfigParameter(System.String,System.String)
   id: GetConfigParameter(System.String,System.String)
@@ -244,15 +251,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetConfigParameter(string, string)
-  nameWithType: AudienceAgent.GetConfigParameter(string, string)
-  fullName: SuperOffice.CRM.Services.AudienceAgent.GetConfigParameter(string, string)
+  name: GetConfigParameter(String, String)
+  nameWithType: AudienceAgent.GetConfigParameter(String, String)
+  fullName: SuperOffice.CRM.Services.AudienceAgent.GetConfigParameter(System.String, System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Gets an Audience configuration parameter belonging to a given Audience layout with the specified configuration parameter name
-  example: []
+  summary: "\nGets an Audience configuration parameter belonging to a given Audience layout with the specified configuration parameter name\n"
   syntax:
     content: public AudienceConfigParameter GetConfigParameter(string layoutName, string parameterName)
     parameters:
@@ -269,9 +278,10 @@ items:
   overload: SuperOffice.CRM.Services.AudienceAgent.GetConfigParameter*
   implements:
   - SuperOffice.CRM.Services.IAudienceAgent.GetConfigParameter(System.String,System.String)
-  nameWithType.vb: AudienceAgent.GetConfigParameter(String, String)
-  fullName.vb: SuperOffice.CRM.Services.AudienceAgent.GetConfigParameter(String, String)
-  name.vb: GetConfigParameter(String, String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.AudienceAgent.DeleteConfigParameter(System.String,System.String)
   commentId: M:SuperOffice.CRM.Services.AudienceAgent.DeleteConfigParameter(System.String,System.String)
   id: DeleteConfigParameter(System.String,System.String)
@@ -279,15 +289,17 @@ items:
   langs:
   - csharp
   - vb
-  name: DeleteConfigParameter(string, string)
-  nameWithType: AudienceAgent.DeleteConfigParameter(string, string)
-  fullName: SuperOffice.CRM.Services.AudienceAgent.DeleteConfigParameter(string, string)
+  name: DeleteConfigParameter(String, String)
+  nameWithType: AudienceAgent.DeleteConfigParameter(String, String)
+  fullName: SuperOffice.CRM.Services.AudienceAgent.DeleteConfigParameter(System.String, System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Deletes an Audience configuration parameter belonging to a Audience layout
-  example: []
+  summary: "\nDeletes an Audience configuration parameter belonging to a Audience layout\n"
   syntax:
     content: public void DeleteConfigParameter(string layoutName, string parameterName)
     parameters:
@@ -301,9 +313,10 @@ items:
   overload: SuperOffice.CRM.Services.AudienceAgent.DeleteConfigParameter*
   implements:
   - SuperOffice.CRM.Services.IAudienceAgent.DeleteConfigParameter(System.String,System.String)
-  nameWithType.vb: AudienceAgent.DeleteConfigParameter(String, String)
-  fullName.vb: SuperOffice.CRM.Services.AudienceAgent.DeleteConfigParameter(String, String)
-  name.vb: DeleteConfigParameter(String, String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.AudienceAgent.GetMyConfigParameter(System.String)
   commentId: M:SuperOffice.CRM.Services.AudienceAgent.GetMyConfigParameter(System.String)
   id: GetMyConfigParameter(System.String)
@@ -311,15 +324,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetMyConfigParameter(string)
-  nameWithType: AudienceAgent.GetMyConfigParameter(string)
-  fullName: SuperOffice.CRM.Services.AudienceAgent.GetMyConfigParameter(string)
+  name: GetMyConfigParameter(String)
+  nameWithType: AudienceAgent.GetMyConfigParameter(String)
+  fullName: SuperOffice.CRM.Services.AudienceAgent.GetMyConfigParameter(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Gets an Audience configuration parameter belonging to the currently logged on user with the specified configuration parameter name.
-  example: []
+  summary: "\nGets an Audience configuration parameter belonging to the currently logged on user with the specified configuration parameter name.\n"
   syntax:
     content: public AudienceConfigParameter GetMyConfigParameter(string parameterName)
     parameters:
@@ -333,9 +348,10 @@ items:
   overload: SuperOffice.CRM.Services.AudienceAgent.GetMyConfigParameter*
   implements:
   - SuperOffice.CRM.Services.IAudienceAgent.GetMyConfigParameter(System.String)
-  nameWithType.vb: AudienceAgent.GetMyConfigParameter(String)
-  fullName.vb: SuperOffice.CRM.Services.AudienceAgent.GetMyConfigParameter(String)
-  name.vb: GetMyConfigParameter(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.AudienceAgent.GetMyConfigParameterValue(System.String)
   commentId: M:SuperOffice.CRM.Services.AudienceAgent.GetMyConfigParameterValue(System.String)
   id: GetMyConfigParameterValue(System.String)
@@ -343,15 +359,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetMyConfigParameterValue(string)
-  nameWithType: AudienceAgent.GetMyConfigParameterValue(string)
-  fullName: SuperOffice.CRM.Services.AudienceAgent.GetMyConfigParameterValue(string)
+  name: GetMyConfigParameterValue(String)
+  nameWithType: AudienceAgent.GetMyConfigParameterValue(String)
+  fullName: SuperOffice.CRM.Services.AudienceAgent.GetMyConfigParameterValue(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Gets the string value of an Audience configuration parameter belonging to the currently logged on user with the specified configuration parameter name.
-  example: []
+  summary: "\nGets the string value of an Audience configuration parameter belonging to the currently logged on user with the specified configuration parameter name.\n"
   syntax:
     content: public string GetMyConfigParameterValue(string parameterName)
     parameters:
@@ -365,9 +383,10 @@ items:
   overload: SuperOffice.CRM.Services.AudienceAgent.GetMyConfigParameterValue*
   implements:
   - SuperOffice.CRM.Services.IAudienceAgent.GetMyConfigParameterValue(System.String)
-  nameWithType.vb: AudienceAgent.GetMyConfigParameterValue(String)
-  fullName.vb: SuperOffice.CRM.Services.AudienceAgent.GetMyConfigParameterValue(String)
-  name.vb: GetMyConfigParameterValue(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.AudienceAgent.GetConfigParameterValueOnPerson(System.String,System.Int32)
   commentId: M:SuperOffice.CRM.Services.AudienceAgent.GetConfigParameterValueOnPerson(System.String,System.Int32)
   id: GetConfigParameterValueOnPerson(System.String,System.Int32)
@@ -375,15 +394,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetConfigParameterValueOnPerson(string, int)
-  nameWithType: AudienceAgent.GetConfigParameterValueOnPerson(string, int)
-  fullName: SuperOffice.CRM.Services.AudienceAgent.GetConfigParameterValueOnPerson(string, int)
+  name: GetConfigParameterValueOnPerson(String, Int32)
+  nameWithType: AudienceAgent.GetConfigParameterValueOnPerson(String, Int32)
+  fullName: SuperOffice.CRM.Services.AudienceAgent.GetConfigParameterValueOnPerson(System.String, System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Gets the string value of an Audience configuration parameter with the specified configuration parameter name on the person specified
-  example: []
+  summary: "\nGets the string value of an Audience configuration parameter with the specified configuration parameter name on the person specified\n"
   syntax:
     content: public string GetConfigParameterValueOnPerson(string parameterName, int personId)
     parameters:
@@ -400,9 +421,10 @@ items:
   overload: SuperOffice.CRM.Services.AudienceAgent.GetConfigParameterValueOnPerson*
   implements:
   - SuperOffice.CRM.Services.IAudienceAgent.GetConfigParameterValueOnPerson(System.String,System.Int32)
-  nameWithType.vb: AudienceAgent.GetConfigParameterValueOnPerson(String, Integer)
-  fullName.vb: SuperOffice.CRM.Services.AudienceAgent.GetConfigParameterValueOnPerson(String, Integer)
-  name.vb: GetConfigParameterValueOnPerson(String, Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.AudienceAgent.GetConfigParameterOnPerson(System.String,System.Int32)
   commentId: M:SuperOffice.CRM.Services.AudienceAgent.GetConfigParameterOnPerson(System.String,System.Int32)
   id: GetConfigParameterOnPerson(System.String,System.Int32)
@@ -410,15 +432,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetConfigParameterOnPerson(string, int)
-  nameWithType: AudienceAgent.GetConfigParameterOnPerson(string, int)
-  fullName: SuperOffice.CRM.Services.AudienceAgent.GetConfigParameterOnPerson(string, int)
+  name: GetConfigParameterOnPerson(String, Int32)
+  nameWithType: AudienceAgent.GetConfigParameterOnPerson(String, Int32)
+  fullName: SuperOffice.CRM.Services.AudienceAgent.GetConfigParameterOnPerson(System.String, System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Gets an Audience configuration parameter with the specified configuration parameter name on the person specified
-  example: []
+  summary: "\nGets an Audience configuration parameter with the specified configuration parameter name on the person specified\n"
   syntax:
     content: public AudienceConfigParameter GetConfigParameterOnPerson(string parameterName, int personId)
     parameters:
@@ -435,9 +459,10 @@ items:
   overload: SuperOffice.CRM.Services.AudienceAgent.GetConfigParameterOnPerson*
   implements:
   - SuperOffice.CRM.Services.IAudienceAgent.GetConfigParameterOnPerson(System.String,System.Int32)
-  nameWithType.vb: AudienceAgent.GetConfigParameterOnPerson(String, Integer)
-  fullName.vb: SuperOffice.CRM.Services.AudienceAgent.GetConfigParameterOnPerson(String, Integer)
-  name.vb: GetConfigParameterOnPerson(String, Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.AudienceAgent.GetConfigParametersByLayoutName(System.String)
   commentId: M:SuperOffice.CRM.Services.AudienceAgent.GetConfigParametersByLayoutName(System.String)
   id: GetConfigParametersByLayoutName(System.String)
@@ -445,15 +470,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetConfigParametersByLayoutName(string)
-  nameWithType: AudienceAgent.GetConfigParametersByLayoutName(string)
-  fullName: SuperOffice.CRM.Services.AudienceAgent.GetConfigParametersByLayoutName(string)
+  name: GetConfigParametersByLayoutName(String)
+  nameWithType: AudienceAgent.GetConfigParametersByLayoutName(String)
+  fullName: SuperOffice.CRM.Services.AudienceAgent.GetConfigParametersByLayoutName(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Gets the Audience configuration parameters belonging to a given Audience layout.
-  example: []
+  summary: "\nGets the Audience configuration parameters belonging to a given Audience layout.\n"
   syntax:
     content: public AudienceConfigParameter[] GetConfigParametersByLayoutName(string layoutName)
     parameters:
@@ -467,9 +494,10 @@ items:
   overload: SuperOffice.CRM.Services.AudienceAgent.GetConfigParametersByLayoutName*
   implements:
   - SuperOffice.CRM.Services.IAudienceAgent.GetConfigParametersByLayoutName(System.String)
-  nameWithType.vb: AudienceAgent.GetConfigParametersByLayoutName(String)
-  fullName.vb: SuperOffice.CRM.Services.AudienceAgent.GetConfigParametersByLayoutName(String)
-  name.vb: GetConfigParametersByLayoutName(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.AudienceAgent.GetMyConfigParameters
   commentId: M:SuperOffice.CRM.Services.AudienceAgent.GetMyConfigParameters
   id: GetMyConfigParameters
@@ -481,20 +509,26 @@ items:
   nameWithType: AudienceAgent.GetMyConfigParameters()
   fullName: SuperOffice.CRM.Services.AudienceAgent.GetMyConfigParameters()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Gets the Audience configuration parameters belonging to the currently logged on user.
-  example: []
+  summary: "\nGets the Audience configuration parameters belonging to the currently logged on user.\n"
   syntax:
     content: public AudienceConfigParameter[] GetMyConfigParameters()
     return:
       type: SuperOffice.CRM.Services.AudienceConfigParameter[]
       description: Array of Audience configuration parameters.
-    content.vb: Public Function GetMyConfigParameters() As AudienceConfigParameter()
+    content.vb: Public Function GetMyConfigParameters As AudienceConfigParameter()
   overload: SuperOffice.CRM.Services.AudienceAgent.GetMyConfigParameters*
   implements:
   - SuperOffice.CRM.Services.IAudienceAgent.GetMyConfigParameters
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.AudienceAgent.GetConfigParametersOnPerson(System.Int32)
   commentId: M:SuperOffice.CRM.Services.AudienceAgent.GetConfigParametersOnPerson(System.Int32)
   id: GetConfigParametersOnPerson(System.Int32)
@@ -502,15 +536,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetConfigParametersOnPerson(int)
-  nameWithType: AudienceAgent.GetConfigParametersOnPerson(int)
-  fullName: SuperOffice.CRM.Services.AudienceAgent.GetConfigParametersOnPerson(int)
+  name: GetConfigParametersOnPerson(Int32)
+  nameWithType: AudienceAgent.GetConfigParametersOnPerson(Int32)
+  fullName: SuperOffice.CRM.Services.AudienceAgent.GetConfigParametersOnPerson(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Gets the Audience configuration parameters belonging to the person specified
-  example: []
+  summary: "\nGets the Audience configuration parameters belonging to the person specified\n"
   syntax:
     content: public AudienceConfigParameter[] GetConfigParametersOnPerson(int personId)
     parameters:
@@ -524,9 +560,10 @@ items:
   overload: SuperOffice.CRM.Services.AudienceAgent.GetConfigParametersOnPerson*
   implements:
   - SuperOffice.CRM.Services.IAudienceAgent.GetConfigParametersOnPerson(System.Int32)
-  nameWithType.vb: AudienceAgent.GetConfigParametersOnPerson(Integer)
-  fullName.vb: SuperOffice.CRM.Services.AudienceAgent.GetConfigParametersOnPerson(Integer)
-  name.vb: GetConfigParametersOnPerson(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.AudienceAgent.GetAudienceLayoutEntity(System.Int32)
   commentId: M:SuperOffice.CRM.Services.AudienceAgent.GetAudienceLayoutEntity(System.Int32)
   id: GetAudienceLayoutEntity(System.Int32)
@@ -534,15 +571,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetAudienceLayoutEntity(int)
-  nameWithType: AudienceAgent.GetAudienceLayoutEntity(int)
-  fullName: SuperOffice.CRM.Services.AudienceAgent.GetAudienceLayoutEntity(int)
+  name: GetAudienceLayoutEntity(Int32)
+  nameWithType: AudienceAgent.GetAudienceLayoutEntity(Int32)
+  fullName: SuperOffice.CRM.Services.AudienceAgent.GetAudienceLayoutEntity(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Gets a AudienceLayoutEntity object.
-  example: []
+  summary: "\nGets a AudienceLayoutEntity object.                        \n"
   syntax:
     content: public AudienceLayoutEntity GetAudienceLayoutEntity(int audienceLayoutEntityId)
     parameters:
@@ -556,9 +595,10 @@ items:
   overload: SuperOffice.CRM.Services.AudienceAgent.GetAudienceLayoutEntity*
   implements:
   - SuperOffice.CRM.Services.IAudienceAgent.GetAudienceLayoutEntity(System.Int32)
-  nameWithType.vb: AudienceAgent.GetAudienceLayoutEntity(Integer)
-  fullName.vb: SuperOffice.CRM.Services.AudienceAgent.GetAudienceLayoutEntity(Integer)
-  name.vb: GetAudienceLayoutEntity(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.AudienceAgent.GetAudienceLayoutByName(System.String)
   commentId: M:SuperOffice.CRM.Services.AudienceAgent.GetAudienceLayoutByName(System.String)
   id: GetAudienceLayoutByName(System.String)
@@ -566,15 +606,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetAudienceLayoutByName(string)
-  nameWithType: AudienceAgent.GetAudienceLayoutByName(string)
-  fullName: SuperOffice.CRM.Services.AudienceAgent.GetAudienceLayoutByName(string)
+  name: GetAudienceLayoutByName(String)
+  nameWithType: AudienceAgent.GetAudienceLayoutByName(String)
+  fullName: SuperOffice.CRM.Services.AudienceAgent.GetAudienceLayoutByName(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Gets an Audience layout by it's instance name
-  example: []
+  summary: "\nGets an Audience layout by it&apos;s instance name\n"
   syntax:
     content: public AudienceLayoutEntity GetAudienceLayoutByName(string layoutName)
     parameters:
@@ -588,9 +630,10 @@ items:
   overload: SuperOffice.CRM.Services.AudienceAgent.GetAudienceLayoutByName*
   implements:
   - SuperOffice.CRM.Services.IAudienceAgent.GetAudienceLayoutByName(System.String)
-  nameWithType.vb: AudienceAgent.GetAudienceLayoutByName(String)
-  fullName.vb: SuperOffice.CRM.Services.AudienceAgent.GetAudienceLayoutByName(String)
-  name.vb: GetAudienceLayoutByName(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.AudienceAgent.GetMyAudienceLayout
   commentId: M:SuperOffice.CRM.Services.AudienceAgent.GetMyAudienceLayout
   id: GetMyAudienceLayout
@@ -602,20 +645,26 @@ items:
   nameWithType: AudienceAgent.GetMyAudienceLayout()
   fullName: SuperOffice.CRM.Services.AudienceAgent.GetMyAudienceLayout()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Gets the Audience layout belonging to the currently logged on user.
-  example: []
+  summary: "\nGets the Audience layout belonging to the currently logged on user.\n"
   syntax:
     content: public AudienceLayoutEntity GetMyAudienceLayout()
     return:
       type: SuperOffice.CRM.Services.AudienceLayoutEntity
       description: Audience layout entity
-    content.vb: Public Function GetMyAudienceLayout() As AudienceLayoutEntity
+    content.vb: Public Function GetMyAudienceLayout As AudienceLayoutEntity
   overload: SuperOffice.CRM.Services.AudienceAgent.GetMyAudienceLayout*
   implements:
   - SuperOffice.CRM.Services.IAudienceAgent.GetMyAudienceLayout
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.AudienceAgent.GetAudienceLayoutOnPerson(System.Int32)
   commentId: M:SuperOffice.CRM.Services.AudienceAgent.GetAudienceLayoutOnPerson(System.Int32)
   id: GetAudienceLayoutOnPerson(System.Int32)
@@ -623,15 +672,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetAudienceLayoutOnPerson(int)
-  nameWithType: AudienceAgent.GetAudienceLayoutOnPerson(int)
-  fullName: SuperOffice.CRM.Services.AudienceAgent.GetAudienceLayoutOnPerson(int)
+  name: GetAudienceLayoutOnPerson(Int32)
+  nameWithType: AudienceAgent.GetAudienceLayoutOnPerson(Int32)
+  fullName: SuperOffice.CRM.Services.AudienceAgent.GetAudienceLayoutOnPerson(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Gets the Audience layout belonging to the person specified.
-  example: []
+  summary: "\nGets the Audience layout belonging to the person specified.\n"
   syntax:
     content: public AudienceLayoutEntity GetAudienceLayoutOnPerson(int personId)
     parameters:
@@ -645,9 +696,10 @@ items:
   overload: SuperOffice.CRM.Services.AudienceAgent.GetAudienceLayoutOnPerson*
   implements:
   - SuperOffice.CRM.Services.IAudienceAgent.GetAudienceLayoutOnPerson(System.Int32)
-  nameWithType.vb: AudienceAgent.GetAudienceLayoutOnPerson(Integer)
-  fullName.vb: SuperOffice.CRM.Services.AudienceAgent.GetAudienceLayoutOnPerson(Integer)
-  name.vb: GetAudienceLayoutOnPerson(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.AudienceAgent.GetDefaultProjectImage(System.String)
   commentId: M:SuperOffice.CRM.Services.AudienceAgent.GetDefaultProjectImage(System.String)
   id: GetDefaultProjectImage(System.String)
@@ -655,15 +707,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetDefaultProjectImage(string)
-  nameWithType: AudienceAgent.GetDefaultProjectImage(string)
-  fullName: SuperOffice.CRM.Services.AudienceAgent.GetDefaultProjectImage(string)
+  name: GetDefaultProjectImage(String)
+  nameWithType: AudienceAgent.GetDefaultProjectImage(String)
+  fullName: SuperOffice.CRM.Services.AudienceAgent.GetDefaultProjectImage(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the default project or event image that is displayed in Audience when no project/event image is found. The image belongs to a specific Audience layout instance.
-  example: []
+  summary: "\nReturns the default project or event image that is displayed in Audience when no project/event image is found. The image belongs to a specific Audience layout instance.\n"
   syntax:
     content: public Image GetDefaultProjectImage(string layoutName)
     parameters:
@@ -677,9 +731,10 @@ items:
   overload: SuperOffice.CRM.Services.AudienceAgent.GetDefaultProjectImage*
   implements:
   - SuperOffice.CRM.Services.IAudienceAgent.GetDefaultProjectImage(System.String)
-  nameWithType.vb: AudienceAgent.GetDefaultProjectImage(String)
-  fullName.vb: SuperOffice.CRM.Services.AudienceAgent.GetDefaultProjectImage(String)
-  name.vb: GetDefaultProjectImage(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.AudienceAgent.SetDefaultProjectImage(System.String,System.Drawing.Image)
   commentId: M:SuperOffice.CRM.Services.AudienceAgent.SetDefaultProjectImage(System.String,System.Drawing.Image)
   id: SetDefaultProjectImage(System.String,System.Drawing.Image)
@@ -687,15 +742,17 @@ items:
   langs:
   - csharp
   - vb
-  name: SetDefaultProjectImage(string, Image)
-  nameWithType: AudienceAgent.SetDefaultProjectImage(string, Image)
-  fullName: SuperOffice.CRM.Services.AudienceAgent.SetDefaultProjectImage(string, System.Drawing.Image)
+  name: SetDefaultProjectImage(String, Image)
+  nameWithType: AudienceAgent.SetDefaultProjectImage(String, Image)
+  fullName: SuperOffice.CRM.Services.AudienceAgent.SetDefaultProjectImage(System.String, System.Drawing.Image)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Stores the default project or event image that is displayed in Audience when no project/event image is found. The image is set on a specific Audience layout instance.
-  example: []
+  summary: "\nStores the default project or event image that is displayed in Audience when no project/event image is found. The image is set on a specific Audience layout instance.\n"
   syntax:
     content: public void SetDefaultProjectImage(string layoutName, Image image)
     parameters:
@@ -709,9 +766,10 @@ items:
   overload: SuperOffice.CRM.Services.AudienceAgent.SetDefaultProjectImage*
   implements:
   - SuperOffice.CRM.Services.IAudienceAgent.SetDefaultProjectImage(System.String,System.Drawing.Image)
-  nameWithType.vb: AudienceAgent.SetDefaultProjectImage(String, Image)
-  fullName.vb: SuperOffice.CRM.Services.AudienceAgent.SetDefaultProjectImage(String, System.Drawing.Image)
-  name.vb: SetDefaultProjectImage(String, Image)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.AudienceAgent.SetDefaultPersonImage(System.String,System.Drawing.Image)
   commentId: M:SuperOffice.CRM.Services.AudienceAgent.SetDefaultPersonImage(System.String,System.Drawing.Image)
   id: SetDefaultPersonImage(System.String,System.Drawing.Image)
@@ -719,15 +777,17 @@ items:
   langs:
   - csharp
   - vb
-  name: SetDefaultPersonImage(string, Image)
-  nameWithType: AudienceAgent.SetDefaultPersonImage(string, Image)
-  fullName: SuperOffice.CRM.Services.AudienceAgent.SetDefaultPersonImage(string, System.Drawing.Image)
+  name: SetDefaultPersonImage(String, Image)
+  nameWithType: AudienceAgent.SetDefaultPersonImage(String, Image)
+  fullName: SuperOffice.CRM.Services.AudienceAgent.SetDefaultPersonImage(System.String, System.Drawing.Image)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Stores the default person (sales rep) image that is displayed in Audience when no person image is found. The image is set on a specific Audience layout instance.
-  example: []
+  summary: "\nStores the default person (sales rep) image that is displayed in Audience when no person image is found. The image is set on a specific Audience layout instance.\n"
   syntax:
     content: public void SetDefaultPersonImage(string layoutName, Image image)
     parameters:
@@ -741,9 +801,10 @@ items:
   overload: SuperOffice.CRM.Services.AudienceAgent.SetDefaultPersonImage*
   implements:
   - SuperOffice.CRM.Services.IAudienceAgent.SetDefaultPersonImage(System.String,System.Drawing.Image)
-  nameWithType.vb: AudienceAgent.SetDefaultPersonImage(String, Image)
-  fullName.vb: SuperOffice.CRM.Services.AudienceAgent.SetDefaultPersonImage(String, System.Drawing.Image)
-  name.vb: SetDefaultPersonImage(String, Image)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.AudienceAgent.GetDefaultPersonImage(System.String)
   commentId: M:SuperOffice.CRM.Services.AudienceAgent.GetDefaultPersonImage(System.String)
   id: GetDefaultPersonImage(System.String)
@@ -751,15 +812,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetDefaultPersonImage(string)
-  nameWithType: AudienceAgent.GetDefaultPersonImage(string)
-  fullName: SuperOffice.CRM.Services.AudienceAgent.GetDefaultPersonImage(string)
+  name: GetDefaultPersonImage(String)
+  nameWithType: AudienceAgent.GetDefaultPersonImage(String)
+  fullName: SuperOffice.CRM.Services.AudienceAgent.GetDefaultPersonImage(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the default person (sales rep) image that is displayed in Audience when no person image is found. The image belongs to a specific Audience layout instance.
-  example: []
+  summary: "\nReturns the default person (sales rep) image that is displayed in Audience when no person image is found. The image belongs to a specific Audience layout instance.\n"
   syntax:
     content: public Image GetDefaultPersonImage(string layoutName)
     parameters:
@@ -773,9 +836,10 @@ items:
   overload: SuperOffice.CRM.Services.AudienceAgent.GetDefaultPersonImage*
   implements:
   - SuperOffice.CRM.Services.IAudienceAgent.GetDefaultPersonImage(System.String)
-  nameWithType.vb: AudienceAgent.GetDefaultPersonImage(String)
-  fullName.vb: SuperOffice.CRM.Services.AudienceAgent.GetDefaultPersonImage(String)
-  name.vb: GetDefaultPersonImage(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.AudienceAgent.SetDefaultCountryFlag(System.String,System.Drawing.Image)
   commentId: M:SuperOffice.CRM.Services.AudienceAgent.SetDefaultCountryFlag(System.String,System.Drawing.Image)
   id: SetDefaultCountryFlag(System.String,System.Drawing.Image)
@@ -783,15 +847,17 @@ items:
   langs:
   - csharp
   - vb
-  name: SetDefaultCountryFlag(string, Image)
-  nameWithType: AudienceAgent.SetDefaultCountryFlag(string, Image)
-  fullName: SuperOffice.CRM.Services.AudienceAgent.SetDefaultCountryFlag(string, System.Drawing.Image)
+  name: SetDefaultCountryFlag(String, Image)
+  nameWithType: AudienceAgent.SetDefaultCountryFlag(String, Image)
+  fullName: SuperOffice.CRM.Services.AudienceAgent.SetDefaultCountryFlag(System.String, System.Drawing.Image)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Stores the default country flag image that is displayed in Audience when no person image is found. The image is set on a specific Audience layout instance.
-  example: []
+  summary: "\nStores the default country flag image that is displayed in Audience when no person image is found. The image is set on a specific Audience layout instance.\n"
   syntax:
     content: public void SetDefaultCountryFlag(string layoutName, Image image)
     parameters:
@@ -805,9 +871,10 @@ items:
   overload: SuperOffice.CRM.Services.AudienceAgent.SetDefaultCountryFlag*
   implements:
   - SuperOffice.CRM.Services.IAudienceAgent.SetDefaultCountryFlag(System.String,System.Drawing.Image)
-  nameWithType.vb: AudienceAgent.SetDefaultCountryFlag(String, Image)
-  fullName.vb: SuperOffice.CRM.Services.AudienceAgent.SetDefaultCountryFlag(String, System.Drawing.Image)
-  name.vb: SetDefaultCountryFlag(String, Image)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.AudienceAgent.GetDefaultCountryFlag(System.String)
   commentId: M:SuperOffice.CRM.Services.AudienceAgent.GetDefaultCountryFlag(System.String)
   id: GetDefaultCountryFlag(System.String)
@@ -815,15 +882,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetDefaultCountryFlag(string)
-  nameWithType: AudienceAgent.GetDefaultCountryFlag(string)
-  fullName: SuperOffice.CRM.Services.AudienceAgent.GetDefaultCountryFlag(string)
+  name: GetDefaultCountryFlag(String)
+  nameWithType: AudienceAgent.GetDefaultCountryFlag(String)
+  fullName: SuperOffice.CRM.Services.AudienceAgent.GetDefaultCountryFlag(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the default country flag image that is displayed in Audience when no person image is found. The image belongs to a specific Audience layout instance.
-  example: []
+  summary: "\nReturns the default country flag image that is displayed in Audience when no person image is found. The image belongs to a specific Audience layout instance.\n"
   syntax:
     content: public Image GetDefaultCountryFlag(string layoutName)
     parameters:
@@ -837,9 +906,10 @@ items:
   overload: SuperOffice.CRM.Services.AudienceAgent.GetDefaultCountryFlag*
   implements:
   - SuperOffice.CRM.Services.IAudienceAgent.GetDefaultCountryFlag(System.String)
-  nameWithType.vb: AudienceAgent.GetDefaultCountryFlag(String)
-  fullName.vb: SuperOffice.CRM.Services.AudienceAgent.GetDefaultCountryFlag(String)
-  name.vb: GetDefaultCountryFlag(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.AudienceAgent.GetLogoImage(System.String)
   commentId: M:SuperOffice.CRM.Services.AudienceAgent.GetLogoImage(System.String)
   id: GetLogoImage(System.String)
@@ -847,31 +917,32 @@ items:
   langs:
   - csharp
   - vb
-  name: GetLogoImage(string)
-  nameWithType: AudienceAgent.GetLogoImage(string)
-  fullName: SuperOffice.CRM.Services.AudienceAgent.GetLogoImage(string)
+  name: GetLogoImage(String)
+  nameWithType: AudienceAgent.GetLogoImage(String)
+  fullName: SuperOffice.CRM.Services.AudienceAgent.GetLogoImage(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: ''
-  example: []
+  summary: "\n\n"
   syntax:
     content: public Image GetLogoImage(string layoutName)
     parameters:
     - id: layoutName
       type: System.String
-      description: ''
     return:
       type: System.Drawing.Image
-      description: ''
     content.vb: Public Function GetLogoImage(layoutName As String) As Image
   overload: SuperOffice.CRM.Services.AudienceAgent.GetLogoImage*
   implements:
   - SuperOffice.CRM.Services.IAudienceAgent.GetLogoImage(System.String)
-  nameWithType.vb: AudienceAgent.GetLogoImage(String)
-  fullName.vb: SuperOffice.CRM.Services.AudienceAgent.GetLogoImage(String)
-  name.vb: GetLogoImage(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.AudienceAgent.SetLogoImage(System.String,System.Drawing.Image)
   commentId: M:SuperOffice.CRM.Services.AudienceAgent.SetLogoImage(System.String,System.Drawing.Image)
   id: SetLogoImage(System.String,System.Drawing.Image)
@@ -879,31 +950,32 @@ items:
   langs:
   - csharp
   - vb
-  name: SetLogoImage(string, Image)
-  nameWithType: AudienceAgent.SetLogoImage(string, Image)
-  fullName: SuperOffice.CRM.Services.AudienceAgent.SetLogoImage(string, System.Drawing.Image)
+  name: SetLogoImage(String, Image)
+  nameWithType: AudienceAgent.SetLogoImage(String, Image)
+  fullName: SuperOffice.CRM.Services.AudienceAgent.SetLogoImage(System.String, System.Drawing.Image)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: ''
-  example: []
+  summary: "\n\n"
   syntax:
     content: public void SetLogoImage(string layoutName, Image image)
     parameters:
     - id: layoutName
       type: System.String
-      description: ''
     - id: image
       type: System.Drawing.Image
-      description: ''
     content.vb: Public Sub SetLogoImage(layoutName As String, image As Image)
   overload: SuperOffice.CRM.Services.AudienceAgent.SetLogoImage*
   implements:
   - SuperOffice.CRM.Services.IAudienceAgent.SetLogoImage(System.String,System.Drawing.Image)
-  nameWithType.vb: AudienceAgent.SetLogoImage(String, Image)
-  fullName.vb: SuperOffice.CRM.Services.AudienceAgent.SetLogoImage(String, System.Drawing.Image)
-  name.vb: SetLogoImage(String, Image)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.AudienceAgent.#ctor
   commentId: M:SuperOffice.CRM.Services.AudienceAgent.#ctor
   id: '#ctor'
@@ -915,70 +987,31 @@ items:
   nameWithType: AudienceAgent.AudienceAgent()
   fullName: SuperOffice.CRM.Services.AudienceAgent.AudienceAgent()
   type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
   syntax:
     content: public AudienceAgent()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.AudienceAgent.#ctor*
-  nameWithType.vb: AudienceAgent.New()
-  fullName.vb: SuperOffice.CRM.Services.AudienceAgent.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
 - uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IAudienceAgent}
   commentId: T:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IAudienceAgent}
   parent: SuperOffice.CRM.Services
   definition: SuperOffice.CRM.Services.AgentBase`1
-  href: SuperOffice.CRM.Services.AgentBase-1.html
   name: AgentBase<IAudienceAgent>
   nameWithType: AgentBase<IAudienceAgent>
   fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IAudienceAgent>
@@ -988,32 +1021,39 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.AgentBase`1
     name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
     isExternal: true
-    href: SuperOffice.CRM.Services.AgentBase-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Services.IAudienceAgent
     name: IAudienceAgent
+    nameWithType: IAudienceAgent
+    fullName: SuperOffice.CRM.Services.IAudienceAgent
     isExternal: true
-    href: SuperOffice.CRM.Services.IAudienceAgent.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.CRM.Services.AgentBase`1
     name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
     isExternal: true
-    href: SuperOffice.CRM.Services.AgentBase-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Services.IAudienceAgent
     name: IAudienceAgent
+    nameWithType: IAudienceAgent
+    fullName: SuperOffice.CRM.Services.IAudienceAgent
     isExternal: true
-    href: SuperOffice.CRM.Services.IAudienceAgent.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.IDisposable
-  commentId: T:System.IDisposable
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.idisposable
   name: IDisposable
   nameWithType: IDisposable
   fullName: System.IDisposable
@@ -1021,7 +1061,6 @@ references:
   commentId: T:SuperOffice.CRM.Services.IAudienceAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.IAudienceAgent.html
   name: IAudienceAgent
   nameWithType: IAudienceAgent
   fullName: SuperOffice.CRM.Services.IAudienceAgent
@@ -1029,7 +1068,6 @@ references:
   commentId: T:SuperOffice.CRM.Services.IAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.IAgent.html
   name: IAgent
   nameWithType: IAgent
   fullName: SuperOffice.CRM.Services.IAgent
@@ -1037,266 +1075,47 @@ references:
   commentId: M:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IAudienceAgent}.Dispose
   parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IAudienceAgent}
   definition: SuperOffice.CRM.Services.AgentBase`1.Dispose
-  href: SuperOffice.CRM.Services.AgentBase-1.html#SuperOffice_CRM_Services_AgentBase_1_Dispose
   name: Dispose()
   nameWithType: AgentBase<IAudienceAgent>.Dispose()
   fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IAudienceAgent>.Dispose()
   nameWithType.vb: AgentBase(Of IAudienceAgent).Dispose()
   fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IAudienceAgent).Dispose()
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IAudienceAgent}.Dispose
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
     name: Dispose
+    nameWithType: AgentBase<IAudienceAgent>.Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IAudienceAgent>.Dispose
     isExternal: true
-    href: SuperOffice.CRM.Services.AgentBase-1.html#SuperOffice_CRM_Services_AgentBase_1_Dispose
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IAudienceAgent}.Dispose
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
     name: Dispose
+    nameWithType: AgentBase(Of IAudienceAgent).Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IAudienceAgent).Dispose
     isExternal: true
-    href: SuperOffice.CRM.Services.AgentBase-1.html#SuperOffice_CRM_Services_AgentBase_1_Dispose
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IAudienceAgent}.InnerAgent
   commentId: P:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IAudienceAgent}.InnerAgent
   parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IAudienceAgent}
   definition: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
-  href: SuperOffice.CRM.Services.AgentBase-1.html#SuperOffice_CRM_Services_AgentBase_1_InnerAgent
   name: InnerAgent
   nameWithType: AgentBase<IAudienceAgent>.InnerAgent
   fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IAudienceAgent>.InnerAgent
   nameWithType.vb: AgentBase(Of IAudienceAgent).InnerAgent
   fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IAudienceAgent).InnerAgent
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.AgentBase`1
   commentId: T:SuperOffice.CRM.Services.AgentBase`1
   isExternal: true
-  href: SuperOffice.CRM.Services.AgentBase-1.html
   name: AgentBase<TAgent>
   nameWithType: AgentBase<TAgent>
   fullName: SuperOffice.CRM.Services.AgentBase<TAgent>
@@ -1306,25 +1125,36 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.AgentBase`1
     name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
     isExternal: true
-    href: SuperOffice.CRM.Services.AgentBase-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - name: TAgent
+    nameWithType: TAgent
+    fullName: TAgent
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.CRM.Services.AgentBase`1
     name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
     isExternal: true
-    href: SuperOffice.CRM.Services.AgentBase-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: TAgent
+    nameWithType: TAgent
+    fullName: TAgent
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
   commentId: M:SuperOffice.CRM.Services.AgentBase`1.Dispose
   isExternal: true
-  href: SuperOffice.CRM.Services.AgentBase-1.html#SuperOffice_CRM_Services_AgentBase_1_Dispose
   name: Dispose()
   nameWithType: AgentBase<TAgent>.Dispose()
   fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose()
@@ -1333,21 +1163,30 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
     name: Dispose
+    nameWithType: AgentBase<TAgent>.Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose
     isExternal: true
-    href: SuperOffice.CRM.Services.AgentBase-1.html#SuperOffice_CRM_Services_AgentBase_1_Dispose
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
     name: Dispose
+    nameWithType: AgentBase(Of TAgent).Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose
     isExternal: true
-    href: SuperOffice.CRM.Services.AgentBase-1.html#SuperOffice_CRM_Services_AgentBase_1_Dispose
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
   commentId: P:SuperOffice.CRM.Services.AgentBase`1.InnerAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.AgentBase-1.html#SuperOffice_CRM_Services_AgentBase_1_InnerAgent
   name: InnerAgent
   nameWithType: AgentBase<TAgent>.InnerAgent
   fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.InnerAgent
@@ -1356,7 +1195,6 @@ references:
 - uid: SuperOffice.CRM.Services.AudienceAgent.CreateDefaultAudienceLayoutEntity*
   commentId: Overload:SuperOffice.CRM.Services.AudienceAgent.CreateDefaultAudienceLayoutEntity
   isExternal: true
-  href: SuperOffice.CRM.Services.AudienceAgent.html#SuperOffice_CRM_Services_AudienceAgent_CreateDefaultAudienceLayoutEntity
   name: CreateDefaultAudienceLayoutEntity
   nameWithType: AudienceAgent.CreateDefaultAudienceLayoutEntity
   fullName: SuperOffice.CRM.Services.AudienceAgent.CreateDefaultAudienceLayoutEntity
@@ -1364,36 +1202,43 @@ references:
   commentId: M:SuperOffice.CRM.Services.IAudienceAgent.CreateDefaultAudienceLayoutEntity
   parent: SuperOffice.CRM.Services.IAudienceAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_CreateDefaultAudienceLayoutEntity
   name: CreateDefaultAudienceLayoutEntity()
   nameWithType: IAudienceAgent.CreateDefaultAudienceLayoutEntity()
   fullName: SuperOffice.CRM.Services.IAudienceAgent.CreateDefaultAudienceLayoutEntity()
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IAudienceAgent.CreateDefaultAudienceLayoutEntity
     name: CreateDefaultAudienceLayoutEntity
+    nameWithType: IAudienceAgent.CreateDefaultAudienceLayoutEntity
+    fullName: SuperOffice.CRM.Services.IAudienceAgent.CreateDefaultAudienceLayoutEntity
     isExternal: true
-    href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_CreateDefaultAudienceLayoutEntity
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IAudienceAgent.CreateDefaultAudienceLayoutEntity
     name: CreateDefaultAudienceLayoutEntity
+    nameWithType: IAudienceAgent.CreateDefaultAudienceLayoutEntity
+    fullName: SuperOffice.CRM.Services.IAudienceAgent.CreateDefaultAudienceLayoutEntity
     isExternal: true
-    href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_CreateDefaultAudienceLayoutEntity
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.AudienceLayoutEntity
   commentId: T:SuperOffice.CRM.Services.AudienceLayoutEntity
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.AudienceLayoutEntity.html
   name: AudienceLayoutEntity
   nameWithType: AudienceLayoutEntity
   fullName: SuperOffice.CRM.Services.AudienceLayoutEntity
 - uid: SuperOffice.CRM.Services.AudienceAgent.SaveAudienceLayoutEntity*
   commentId: Overload:SuperOffice.CRM.Services.AudienceAgent.SaveAudienceLayoutEntity
   isExternal: true
-  href: SuperOffice.CRM.Services.AudienceAgent.html#SuperOffice_CRM_Services_AudienceAgent_SaveAudienceLayoutEntity_SuperOffice_CRM_Services_AudienceLayoutEntity_
   name: SaveAudienceLayoutEntity
   nameWithType: AudienceAgent.SaveAudienceLayoutEntity
   fullName: SuperOffice.CRM.Services.AudienceAgent.SaveAudienceLayoutEntity
@@ -1401,36 +1246,46 @@ references:
   commentId: M:SuperOffice.CRM.Services.IAudienceAgent.SaveAudienceLayoutEntity(SuperOffice.CRM.Services.AudienceLayoutEntity)
   parent: SuperOffice.CRM.Services.IAudienceAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_SaveAudienceLayoutEntity_SuperOffice_CRM_Services_AudienceLayoutEntity_
   name: SaveAudienceLayoutEntity(AudienceLayoutEntity)
   nameWithType: IAudienceAgent.SaveAudienceLayoutEntity(AudienceLayoutEntity)
   fullName: SuperOffice.CRM.Services.IAudienceAgent.SaveAudienceLayoutEntity(SuperOffice.CRM.Services.AudienceLayoutEntity)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IAudienceAgent.SaveAudienceLayoutEntity(SuperOffice.CRM.Services.AudienceLayoutEntity)
     name: SaveAudienceLayoutEntity
+    nameWithType: IAudienceAgent.SaveAudienceLayoutEntity
+    fullName: SuperOffice.CRM.Services.IAudienceAgent.SaveAudienceLayoutEntity
     isExternal: true
-    href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_SaveAudienceLayoutEntity_SuperOffice_CRM_Services_AudienceLayoutEntity_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Services.AudienceLayoutEntity
     name: AudienceLayoutEntity
+    nameWithType: AudienceLayoutEntity
+    fullName: SuperOffice.CRM.Services.AudienceLayoutEntity
     isExternal: true
-    href: SuperOffice.CRM.Services.AudienceLayoutEntity.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IAudienceAgent.SaveAudienceLayoutEntity(SuperOffice.CRM.Services.AudienceLayoutEntity)
     name: SaveAudienceLayoutEntity
+    nameWithType: IAudienceAgent.SaveAudienceLayoutEntity
+    fullName: SuperOffice.CRM.Services.IAudienceAgent.SaveAudienceLayoutEntity
     isExternal: true
-    href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_SaveAudienceLayoutEntity_SuperOffice_CRM_Services_AudienceLayoutEntity_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Services.AudienceLayoutEntity
     name: AudienceLayoutEntity
+    nameWithType: AudienceLayoutEntity
+    fullName: SuperOffice.CRM.Services.AudienceLayoutEntity
     isExternal: true
-    href: SuperOffice.CRM.Services.AudienceLayoutEntity.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.AudienceAgent.DeleteAudienceLayoutEntity*
   commentId: Overload:SuperOffice.CRM.Services.AudienceAgent.DeleteAudienceLayoutEntity
   isExternal: true
-  href: SuperOffice.CRM.Services.AudienceAgent.html#SuperOffice_CRM_Services_AudienceAgent_DeleteAudienceLayoutEntity_System_Int32_
   name: DeleteAudienceLayoutEntity
   nameWithType: AudienceAgent.DeleteAudienceLayoutEntity
   fullName: SuperOffice.CRM.Services.AudienceAgent.DeleteAudienceLayoutEntity
@@ -1438,50 +1293,59 @@ references:
   commentId: M:SuperOffice.CRM.Services.IAudienceAgent.DeleteAudienceLayoutEntity(System.Int32)
   parent: SuperOffice.CRM.Services.IAudienceAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_DeleteAudienceLayoutEntity_System_Int32_
-  name: DeleteAudienceLayoutEntity(int)
-  nameWithType: IAudienceAgent.DeleteAudienceLayoutEntity(int)
-  fullName: SuperOffice.CRM.Services.IAudienceAgent.DeleteAudienceLayoutEntity(int)
-  nameWithType.vb: IAudienceAgent.DeleteAudienceLayoutEntity(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IAudienceAgent.DeleteAudienceLayoutEntity(Integer)
-  name.vb: DeleteAudienceLayoutEntity(Integer)
+  name: DeleteAudienceLayoutEntity(Int32)
+  nameWithType: IAudienceAgent.DeleteAudienceLayoutEntity(Int32)
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.DeleteAudienceLayoutEntity(System.Int32)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IAudienceAgent.DeleteAudienceLayoutEntity(System.Int32)
     name: DeleteAudienceLayoutEntity
+    nameWithType: IAudienceAgent.DeleteAudienceLayoutEntity
+    fullName: SuperOffice.CRM.Services.IAudienceAgent.DeleteAudienceLayoutEntity
     isExternal: true
-    href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_DeleteAudienceLayoutEntity_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IAudienceAgent.DeleteAudienceLayoutEntity(System.Int32)
     name: DeleteAudienceLayoutEntity
+    nameWithType: IAudienceAgent.DeleteAudienceLayoutEntity
+    fullName: SuperOffice.CRM.Services.IAudienceAgent.DeleteAudienceLayoutEntity
     isExternal: true
-    href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_DeleteAudienceLayoutEntity_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.AudienceAgent.SaveConfigParameter*
   commentId: Overload:SuperOffice.CRM.Services.AudienceAgent.SaveConfigParameter
   isExternal: true
-  href: SuperOffice.CRM.Services.AudienceAgent.html#SuperOffice_CRM_Services_AudienceAgent_SaveConfigParameter_System_String_SuperOffice_CRM_Services_AudienceConfigParameter_
   name: SaveConfigParameter
   nameWithType: AudienceAgent.SaveConfigParameter
   fullName: SuperOffice.CRM.Services.AudienceAgent.SaveConfigParameter
@@ -1489,70 +1353,76 @@ references:
   commentId: M:SuperOffice.CRM.Services.IAudienceAgent.SaveConfigParameter(System.String,SuperOffice.CRM.Services.AudienceConfigParameter)
   parent: SuperOffice.CRM.Services.IAudienceAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_SaveConfigParameter_System_String_SuperOffice_CRM_Services_AudienceConfigParameter_
-  name: SaveConfigParameter(string, AudienceConfigParameter)
-  nameWithType: IAudienceAgent.SaveConfigParameter(string, AudienceConfigParameter)
-  fullName: SuperOffice.CRM.Services.IAudienceAgent.SaveConfigParameter(string, SuperOffice.CRM.Services.AudienceConfigParameter)
-  nameWithType.vb: IAudienceAgent.SaveConfigParameter(String, AudienceConfigParameter)
-  fullName.vb: SuperOffice.CRM.Services.IAudienceAgent.SaveConfigParameter(String, SuperOffice.CRM.Services.AudienceConfigParameter)
-  name.vb: SaveConfigParameter(String, AudienceConfigParameter)
+  name: SaveConfigParameter(String, AudienceConfigParameter)
+  nameWithType: IAudienceAgent.SaveConfigParameter(String, AudienceConfigParameter)
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.SaveConfigParameter(System.String, SuperOffice.CRM.Services.AudienceConfigParameter)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IAudienceAgent.SaveConfigParameter(System.String,SuperOffice.CRM.Services.AudienceConfigParameter)
     name: SaveConfigParameter
+    nameWithType: IAudienceAgent.SaveConfigParameter
+    fullName: SuperOffice.CRM.Services.IAudienceAgent.SaveConfigParameter
     isExternal: true
-    href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_SaveConfigParameter_System_String_SuperOffice_CRM_Services_AudienceConfigParameter_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.CRM.Services.AudienceConfigParameter
     name: AudienceConfigParameter
+    nameWithType: AudienceConfigParameter
+    fullName: SuperOffice.CRM.Services.AudienceConfigParameter
     isExternal: true
-    href: SuperOffice.CRM.Services.AudienceConfigParameter.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IAudienceAgent.SaveConfigParameter(System.String,SuperOffice.CRM.Services.AudienceConfigParameter)
     name: SaveConfigParameter
+    nameWithType: IAudienceAgent.SaveConfigParameter
+    fullName: SuperOffice.CRM.Services.IAudienceAgent.SaveConfigParameter
     isExternal: true
-    href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_SaveConfigParameter_System_String_SuperOffice_CRM_Services_AudienceConfigParameter_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.CRM.Services.AudienceConfigParameter
     name: AudienceConfigParameter
+    nameWithType: AudienceConfigParameter
+    fullName: SuperOffice.CRM.Services.AudienceConfigParameter
     isExternal: true
-    href: SuperOffice.CRM.Services.AudienceConfigParameter.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.CRM.Services.AudienceConfigParameter
   commentId: T:SuperOffice.CRM.Services.AudienceConfigParameter
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.AudienceConfigParameter.html
   name: AudienceConfigParameter
   nameWithType: AudienceConfigParameter
   fullName: SuperOffice.CRM.Services.AudienceConfigParameter
 - uid: SuperOffice.CRM.Services.AudienceAgent.GetConfigParameterValue*
   commentId: Overload:SuperOffice.CRM.Services.AudienceAgent.GetConfigParameterValue
   isExternal: true
-  href: SuperOffice.CRM.Services.AudienceAgent.html#SuperOffice_CRM_Services_AudienceAgent_GetConfigParameterValue_System_String_System_String_
   name: GetConfigParameterValue
   nameWithType: AudienceAgent.GetConfigParameterValue
   fullName: SuperOffice.CRM.Services.AudienceAgent.GetConfigParameterValue
@@ -1560,51 +1430,62 @@ references:
   commentId: M:SuperOffice.CRM.Services.IAudienceAgent.GetConfigParameterValue(System.String,System.String)
   parent: SuperOffice.CRM.Services.IAudienceAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_GetConfigParameterValue_System_String_System_String_
-  name: GetConfigParameterValue(string, string)
-  nameWithType: IAudienceAgent.GetConfigParameterValue(string, string)
-  fullName: SuperOffice.CRM.Services.IAudienceAgent.GetConfigParameterValue(string, string)
-  nameWithType.vb: IAudienceAgent.GetConfigParameterValue(String, String)
-  fullName.vb: SuperOffice.CRM.Services.IAudienceAgent.GetConfigParameterValue(String, String)
-  name.vb: GetConfigParameterValue(String, String)
+  name: GetConfigParameterValue(String, String)
+  nameWithType: IAudienceAgent.GetConfigParameterValue(String, String)
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.GetConfigParameterValue(System.String, System.String)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IAudienceAgent.GetConfigParameterValue(System.String,System.String)
     name: GetConfigParameterValue
+    nameWithType: IAudienceAgent.GetConfigParameterValue
+    fullName: SuperOffice.CRM.Services.IAudienceAgent.GetConfigParameterValue
     isExternal: true
-    href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_GetConfigParameterValue_System_String_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IAudienceAgent.GetConfigParameterValue(System.String,System.String)
     name: GetConfigParameterValue
+    nameWithType: IAudienceAgent.GetConfigParameterValue
+    fullName: SuperOffice.CRM.Services.IAudienceAgent.GetConfigParameterValue
     isExternal: true
-    href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_GetConfigParameterValue_System_String_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.AudienceAgent.GetConfigParameter*
   commentId: Overload:SuperOffice.CRM.Services.AudienceAgent.GetConfigParameter
   isExternal: true
-  href: SuperOffice.CRM.Services.AudienceAgent.html#SuperOffice_CRM_Services_AudienceAgent_GetConfigParameter_System_String_System_String_
   name: GetConfigParameter
   nameWithType: AudienceAgent.GetConfigParameter
   fullName: SuperOffice.CRM.Services.AudienceAgent.GetConfigParameter
@@ -1612,51 +1493,62 @@ references:
   commentId: M:SuperOffice.CRM.Services.IAudienceAgent.GetConfigParameter(System.String,System.String)
   parent: SuperOffice.CRM.Services.IAudienceAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_GetConfigParameter_System_String_System_String_
-  name: GetConfigParameter(string, string)
-  nameWithType: IAudienceAgent.GetConfigParameter(string, string)
-  fullName: SuperOffice.CRM.Services.IAudienceAgent.GetConfigParameter(string, string)
-  nameWithType.vb: IAudienceAgent.GetConfigParameter(String, String)
-  fullName.vb: SuperOffice.CRM.Services.IAudienceAgent.GetConfigParameter(String, String)
-  name.vb: GetConfigParameter(String, String)
+  name: GetConfigParameter(String, String)
+  nameWithType: IAudienceAgent.GetConfigParameter(String, String)
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.GetConfigParameter(System.String, System.String)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IAudienceAgent.GetConfigParameter(System.String,System.String)
     name: GetConfigParameter
+    nameWithType: IAudienceAgent.GetConfigParameter
+    fullName: SuperOffice.CRM.Services.IAudienceAgent.GetConfigParameter
     isExternal: true
-    href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_GetConfigParameter_System_String_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IAudienceAgent.GetConfigParameter(System.String,System.String)
     name: GetConfigParameter
+    nameWithType: IAudienceAgent.GetConfigParameter
+    fullName: SuperOffice.CRM.Services.IAudienceAgent.GetConfigParameter
     isExternal: true
-    href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_GetConfigParameter_System_String_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.AudienceAgent.DeleteConfigParameter*
   commentId: Overload:SuperOffice.CRM.Services.AudienceAgent.DeleteConfigParameter
   isExternal: true
-  href: SuperOffice.CRM.Services.AudienceAgent.html#SuperOffice_CRM_Services_AudienceAgent_DeleteConfigParameter_System_String_System_String_
   name: DeleteConfigParameter
   nameWithType: AudienceAgent.DeleteConfigParameter
   fullName: SuperOffice.CRM.Services.AudienceAgent.DeleteConfigParameter
@@ -1664,51 +1556,62 @@ references:
   commentId: M:SuperOffice.CRM.Services.IAudienceAgent.DeleteConfigParameter(System.String,System.String)
   parent: SuperOffice.CRM.Services.IAudienceAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_DeleteConfigParameter_System_String_System_String_
-  name: DeleteConfigParameter(string, string)
-  nameWithType: IAudienceAgent.DeleteConfigParameter(string, string)
-  fullName: SuperOffice.CRM.Services.IAudienceAgent.DeleteConfigParameter(string, string)
-  nameWithType.vb: IAudienceAgent.DeleteConfigParameter(String, String)
-  fullName.vb: SuperOffice.CRM.Services.IAudienceAgent.DeleteConfigParameter(String, String)
-  name.vb: DeleteConfigParameter(String, String)
+  name: DeleteConfigParameter(String, String)
+  nameWithType: IAudienceAgent.DeleteConfigParameter(String, String)
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.DeleteConfigParameter(System.String, System.String)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IAudienceAgent.DeleteConfigParameter(System.String,System.String)
     name: DeleteConfigParameter
+    nameWithType: IAudienceAgent.DeleteConfigParameter
+    fullName: SuperOffice.CRM.Services.IAudienceAgent.DeleteConfigParameter
     isExternal: true
-    href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_DeleteConfigParameter_System_String_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IAudienceAgent.DeleteConfigParameter(System.String,System.String)
     name: DeleteConfigParameter
+    nameWithType: IAudienceAgent.DeleteConfigParameter
+    fullName: SuperOffice.CRM.Services.IAudienceAgent.DeleteConfigParameter
     isExternal: true
-    href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_DeleteConfigParameter_System_String_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.AudienceAgent.GetMyConfigParameter*
   commentId: Overload:SuperOffice.CRM.Services.AudienceAgent.GetMyConfigParameter
   isExternal: true
-  href: SuperOffice.CRM.Services.AudienceAgent.html#SuperOffice_CRM_Services_AudienceAgent_GetMyConfigParameter_System_String_
   name: GetMyConfigParameter
   nameWithType: AudienceAgent.GetMyConfigParameter
   fullName: SuperOffice.CRM.Services.AudienceAgent.GetMyConfigParameter
@@ -1716,39 +1619,46 @@ references:
   commentId: M:SuperOffice.CRM.Services.IAudienceAgent.GetMyConfigParameter(System.String)
   parent: SuperOffice.CRM.Services.IAudienceAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_GetMyConfigParameter_System_String_
-  name: GetMyConfigParameter(string)
-  nameWithType: IAudienceAgent.GetMyConfigParameter(string)
-  fullName: SuperOffice.CRM.Services.IAudienceAgent.GetMyConfigParameter(string)
-  nameWithType.vb: IAudienceAgent.GetMyConfigParameter(String)
-  fullName.vb: SuperOffice.CRM.Services.IAudienceAgent.GetMyConfigParameter(String)
-  name.vb: GetMyConfigParameter(String)
+  name: GetMyConfigParameter(String)
+  nameWithType: IAudienceAgent.GetMyConfigParameter(String)
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.GetMyConfigParameter(System.String)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IAudienceAgent.GetMyConfigParameter(System.String)
     name: GetMyConfigParameter
+    nameWithType: IAudienceAgent.GetMyConfigParameter
+    fullName: SuperOffice.CRM.Services.IAudienceAgent.GetMyConfigParameter
     isExternal: true
-    href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_GetMyConfigParameter_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IAudienceAgent.GetMyConfigParameter(System.String)
     name: GetMyConfigParameter
+    nameWithType: IAudienceAgent.GetMyConfigParameter
+    fullName: SuperOffice.CRM.Services.IAudienceAgent.GetMyConfigParameter
     isExternal: true
-    href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_GetMyConfigParameter_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.AudienceAgent.GetMyConfigParameterValue*
   commentId: Overload:SuperOffice.CRM.Services.AudienceAgent.GetMyConfigParameterValue
   isExternal: true
-  href: SuperOffice.CRM.Services.AudienceAgent.html#SuperOffice_CRM_Services_AudienceAgent_GetMyConfigParameterValue_System_String_
   name: GetMyConfigParameterValue
   nameWithType: AudienceAgent.GetMyConfigParameterValue
   fullName: SuperOffice.CRM.Services.AudienceAgent.GetMyConfigParameterValue
@@ -1756,39 +1666,46 @@ references:
   commentId: M:SuperOffice.CRM.Services.IAudienceAgent.GetMyConfigParameterValue(System.String)
   parent: SuperOffice.CRM.Services.IAudienceAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_GetMyConfigParameterValue_System_String_
-  name: GetMyConfigParameterValue(string)
-  nameWithType: IAudienceAgent.GetMyConfigParameterValue(string)
-  fullName: SuperOffice.CRM.Services.IAudienceAgent.GetMyConfigParameterValue(string)
-  nameWithType.vb: IAudienceAgent.GetMyConfigParameterValue(String)
-  fullName.vb: SuperOffice.CRM.Services.IAudienceAgent.GetMyConfigParameterValue(String)
-  name.vb: GetMyConfigParameterValue(String)
+  name: GetMyConfigParameterValue(String)
+  nameWithType: IAudienceAgent.GetMyConfigParameterValue(String)
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.GetMyConfigParameterValue(System.String)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IAudienceAgent.GetMyConfigParameterValue(System.String)
     name: GetMyConfigParameterValue
+    nameWithType: IAudienceAgent.GetMyConfigParameterValue
+    fullName: SuperOffice.CRM.Services.IAudienceAgent.GetMyConfigParameterValue
     isExternal: true
-    href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_GetMyConfigParameterValue_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IAudienceAgent.GetMyConfigParameterValue(System.String)
     name: GetMyConfigParameterValue
+    nameWithType: IAudienceAgent.GetMyConfigParameterValue
+    fullName: SuperOffice.CRM.Services.IAudienceAgent.GetMyConfigParameterValue
     isExternal: true
-    href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_GetMyConfigParameterValue_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.AudienceAgent.GetConfigParameterValueOnPerson*
   commentId: Overload:SuperOffice.CRM.Services.AudienceAgent.GetConfigParameterValueOnPerson
   isExternal: true
-  href: SuperOffice.CRM.Services.AudienceAgent.html#SuperOffice_CRM_Services_AudienceAgent_GetConfigParameterValueOnPerson_System_String_System_Int32_
   name: GetConfigParameterValueOnPerson
   nameWithType: AudienceAgent.GetConfigParameterValueOnPerson
   fullName: SuperOffice.CRM.Services.AudienceAgent.GetConfigParameterValueOnPerson
@@ -1796,51 +1713,62 @@ references:
   commentId: M:SuperOffice.CRM.Services.IAudienceAgent.GetConfigParameterValueOnPerson(System.String,System.Int32)
   parent: SuperOffice.CRM.Services.IAudienceAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_GetConfigParameterValueOnPerson_System_String_System_Int32_
-  name: GetConfigParameterValueOnPerson(string, int)
-  nameWithType: IAudienceAgent.GetConfigParameterValueOnPerson(string, int)
-  fullName: SuperOffice.CRM.Services.IAudienceAgent.GetConfigParameterValueOnPerson(string, int)
-  nameWithType.vb: IAudienceAgent.GetConfigParameterValueOnPerson(String, Integer)
-  fullName.vb: SuperOffice.CRM.Services.IAudienceAgent.GetConfigParameterValueOnPerson(String, Integer)
-  name.vb: GetConfigParameterValueOnPerson(String, Integer)
+  name: GetConfigParameterValueOnPerson(String, Int32)
+  nameWithType: IAudienceAgent.GetConfigParameterValueOnPerson(String, Int32)
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.GetConfigParameterValueOnPerson(System.String, System.Int32)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IAudienceAgent.GetConfigParameterValueOnPerson(System.String,System.Int32)
     name: GetConfigParameterValueOnPerson
+    nameWithType: IAudienceAgent.GetConfigParameterValueOnPerson
+    fullName: SuperOffice.CRM.Services.IAudienceAgent.GetConfigParameterValueOnPerson
     isExternal: true
-    href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_GetConfigParameterValueOnPerson_System_String_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IAudienceAgent.GetConfigParameterValueOnPerson(System.String,System.Int32)
     name: GetConfigParameterValueOnPerson
+    nameWithType: IAudienceAgent.GetConfigParameterValueOnPerson
+    fullName: SuperOffice.CRM.Services.IAudienceAgent.GetConfigParameterValueOnPerson
     isExternal: true
-    href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_GetConfigParameterValueOnPerson_System_String_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.AudienceAgent.GetConfigParameterOnPerson*
   commentId: Overload:SuperOffice.CRM.Services.AudienceAgent.GetConfigParameterOnPerson
   isExternal: true
-  href: SuperOffice.CRM.Services.AudienceAgent.html#SuperOffice_CRM_Services_AudienceAgent_GetConfigParameterOnPerson_System_String_System_Int32_
   name: GetConfigParameterOnPerson
   nameWithType: AudienceAgent.GetConfigParameterOnPerson
   fullName: SuperOffice.CRM.Services.AudienceAgent.GetConfigParameterOnPerson
@@ -1848,51 +1776,62 @@ references:
   commentId: M:SuperOffice.CRM.Services.IAudienceAgent.GetConfigParameterOnPerson(System.String,System.Int32)
   parent: SuperOffice.CRM.Services.IAudienceAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_GetConfigParameterOnPerson_System_String_System_Int32_
-  name: GetConfigParameterOnPerson(string, int)
-  nameWithType: IAudienceAgent.GetConfigParameterOnPerson(string, int)
-  fullName: SuperOffice.CRM.Services.IAudienceAgent.GetConfigParameterOnPerson(string, int)
-  nameWithType.vb: IAudienceAgent.GetConfigParameterOnPerson(String, Integer)
-  fullName.vb: SuperOffice.CRM.Services.IAudienceAgent.GetConfigParameterOnPerson(String, Integer)
-  name.vb: GetConfigParameterOnPerson(String, Integer)
+  name: GetConfigParameterOnPerson(String, Int32)
+  nameWithType: IAudienceAgent.GetConfigParameterOnPerson(String, Int32)
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.GetConfigParameterOnPerson(System.String, System.Int32)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IAudienceAgent.GetConfigParameterOnPerson(System.String,System.Int32)
     name: GetConfigParameterOnPerson
+    nameWithType: IAudienceAgent.GetConfigParameterOnPerson
+    fullName: SuperOffice.CRM.Services.IAudienceAgent.GetConfigParameterOnPerson
     isExternal: true
-    href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_GetConfigParameterOnPerson_System_String_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IAudienceAgent.GetConfigParameterOnPerson(System.String,System.Int32)
     name: GetConfigParameterOnPerson
+    nameWithType: IAudienceAgent.GetConfigParameterOnPerson
+    fullName: SuperOffice.CRM.Services.IAudienceAgent.GetConfigParameterOnPerson
     isExternal: true
-    href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_GetConfigParameterOnPerson_System_String_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.AudienceAgent.GetConfigParametersByLayoutName*
   commentId: Overload:SuperOffice.CRM.Services.AudienceAgent.GetConfigParametersByLayoutName
   isExternal: true
-  href: SuperOffice.CRM.Services.AudienceAgent.html#SuperOffice_CRM_Services_AudienceAgent_GetConfigParametersByLayoutName_System_String_
   name: GetConfigParametersByLayoutName
   nameWithType: AudienceAgent.GetConfigParametersByLayoutName
   fullName: SuperOffice.CRM.Services.AudienceAgent.GetConfigParametersByLayoutName
@@ -1900,38 +1839,45 @@ references:
   commentId: M:SuperOffice.CRM.Services.IAudienceAgent.GetConfigParametersByLayoutName(System.String)
   parent: SuperOffice.CRM.Services.IAudienceAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_GetConfigParametersByLayoutName_System_String_
-  name: GetConfigParametersByLayoutName(string)
-  nameWithType: IAudienceAgent.GetConfigParametersByLayoutName(string)
-  fullName: SuperOffice.CRM.Services.IAudienceAgent.GetConfigParametersByLayoutName(string)
-  nameWithType.vb: IAudienceAgent.GetConfigParametersByLayoutName(String)
-  fullName.vb: SuperOffice.CRM.Services.IAudienceAgent.GetConfigParametersByLayoutName(String)
-  name.vb: GetConfigParametersByLayoutName(String)
+  name: GetConfigParametersByLayoutName(String)
+  nameWithType: IAudienceAgent.GetConfigParametersByLayoutName(String)
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.GetConfigParametersByLayoutName(System.String)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IAudienceAgent.GetConfigParametersByLayoutName(System.String)
     name: GetConfigParametersByLayoutName
+    nameWithType: IAudienceAgent.GetConfigParametersByLayoutName
+    fullName: SuperOffice.CRM.Services.IAudienceAgent.GetConfigParametersByLayoutName
     isExternal: true
-    href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_GetConfigParametersByLayoutName_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IAudienceAgent.GetConfigParametersByLayoutName(System.String)
     name: GetConfigParametersByLayoutName
+    nameWithType: IAudienceAgent.GetConfigParametersByLayoutName
+    fullName: SuperOffice.CRM.Services.IAudienceAgent.GetConfigParametersByLayoutName
     isExternal: true
-    href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_GetConfigParametersByLayoutName_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.AudienceConfigParameter[]
   isExternal: true
-  href: SuperOffice.CRM.Services.AudienceConfigParameter.html
   name: AudienceConfigParameter[]
   nameWithType: AudienceConfigParameter[]
   fullName: SuperOffice.CRM.Services.AudienceConfigParameter[]
@@ -1941,21 +1887,24 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.AudienceConfigParameter
     name: AudienceConfigParameter
+    nameWithType: AudienceConfigParameter
+    fullName: SuperOffice.CRM.Services.AudienceConfigParameter
     isExternal: true
-    href: SuperOffice.CRM.Services.AudienceConfigParameter.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.Services.AudienceConfigParameter
     name: AudienceConfigParameter
+    nameWithType: AudienceConfigParameter
+    fullName: SuperOffice.CRM.Services.AudienceConfigParameter
     isExternal: true
-    href: SuperOffice.CRM.Services.AudienceConfigParameter.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.AudienceAgent.GetMyConfigParameters*
   commentId: Overload:SuperOffice.CRM.Services.AudienceAgent.GetMyConfigParameters
   isExternal: true
-  href: SuperOffice.CRM.Services.AudienceAgent.html#SuperOffice_CRM_Services_AudienceAgent_GetMyConfigParameters
   name: GetMyConfigParameters
   nameWithType: AudienceAgent.GetMyConfigParameters
   fullName: SuperOffice.CRM.Services.AudienceAgent.GetMyConfigParameters
@@ -1963,28 +1912,36 @@ references:
   commentId: M:SuperOffice.CRM.Services.IAudienceAgent.GetMyConfigParameters
   parent: SuperOffice.CRM.Services.IAudienceAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_GetMyConfigParameters
   name: GetMyConfigParameters()
   nameWithType: IAudienceAgent.GetMyConfigParameters()
   fullName: SuperOffice.CRM.Services.IAudienceAgent.GetMyConfigParameters()
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IAudienceAgent.GetMyConfigParameters
     name: GetMyConfigParameters
+    nameWithType: IAudienceAgent.GetMyConfigParameters
+    fullName: SuperOffice.CRM.Services.IAudienceAgent.GetMyConfigParameters
     isExternal: true
-    href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_GetMyConfigParameters
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IAudienceAgent.GetMyConfigParameters
     name: GetMyConfigParameters
+    nameWithType: IAudienceAgent.GetMyConfigParameters
+    fullName: SuperOffice.CRM.Services.IAudienceAgent.GetMyConfigParameters
     isExternal: true
-    href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_GetMyConfigParameters
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.AudienceAgent.GetConfigParametersOnPerson*
   commentId: Overload:SuperOffice.CRM.Services.AudienceAgent.GetConfigParametersOnPerson
   isExternal: true
-  href: SuperOffice.CRM.Services.AudienceAgent.html#SuperOffice_CRM_Services_AudienceAgent_GetConfigParametersOnPerson_System_Int32_
   name: GetConfigParametersOnPerson
   nameWithType: AudienceAgent.GetConfigParametersOnPerson
   fullName: SuperOffice.CRM.Services.AudienceAgent.GetConfigParametersOnPerson
@@ -1992,39 +1949,46 @@ references:
   commentId: M:SuperOffice.CRM.Services.IAudienceAgent.GetConfigParametersOnPerson(System.Int32)
   parent: SuperOffice.CRM.Services.IAudienceAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_GetConfigParametersOnPerson_System_Int32_
-  name: GetConfigParametersOnPerson(int)
-  nameWithType: IAudienceAgent.GetConfigParametersOnPerson(int)
-  fullName: SuperOffice.CRM.Services.IAudienceAgent.GetConfigParametersOnPerson(int)
-  nameWithType.vb: IAudienceAgent.GetConfigParametersOnPerson(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IAudienceAgent.GetConfigParametersOnPerson(Integer)
-  name.vb: GetConfigParametersOnPerson(Integer)
+  name: GetConfigParametersOnPerson(Int32)
+  nameWithType: IAudienceAgent.GetConfigParametersOnPerson(Int32)
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.GetConfigParametersOnPerson(System.Int32)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IAudienceAgent.GetConfigParametersOnPerson(System.Int32)
     name: GetConfigParametersOnPerson
+    nameWithType: IAudienceAgent.GetConfigParametersOnPerson
+    fullName: SuperOffice.CRM.Services.IAudienceAgent.GetConfigParametersOnPerson
     isExternal: true
-    href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_GetConfigParametersOnPerson_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IAudienceAgent.GetConfigParametersOnPerson(System.Int32)
     name: GetConfigParametersOnPerson
+    nameWithType: IAudienceAgent.GetConfigParametersOnPerson
+    fullName: SuperOffice.CRM.Services.IAudienceAgent.GetConfigParametersOnPerson
     isExternal: true
-    href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_GetConfigParametersOnPerson_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.AudienceAgent.GetAudienceLayoutEntity*
   commentId: Overload:SuperOffice.CRM.Services.AudienceAgent.GetAudienceLayoutEntity
   isExternal: true
-  href: SuperOffice.CRM.Services.AudienceAgent.html#SuperOffice_CRM_Services_AudienceAgent_GetAudienceLayoutEntity_System_Int32_
   name: GetAudienceLayoutEntity
   nameWithType: AudienceAgent.GetAudienceLayoutEntity
   fullName: SuperOffice.CRM.Services.AudienceAgent.GetAudienceLayoutEntity
@@ -2032,39 +1996,46 @@ references:
   commentId: M:SuperOffice.CRM.Services.IAudienceAgent.GetAudienceLayoutEntity(System.Int32)
   parent: SuperOffice.CRM.Services.IAudienceAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_GetAudienceLayoutEntity_System_Int32_
-  name: GetAudienceLayoutEntity(int)
-  nameWithType: IAudienceAgent.GetAudienceLayoutEntity(int)
-  fullName: SuperOffice.CRM.Services.IAudienceAgent.GetAudienceLayoutEntity(int)
-  nameWithType.vb: IAudienceAgent.GetAudienceLayoutEntity(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IAudienceAgent.GetAudienceLayoutEntity(Integer)
-  name.vb: GetAudienceLayoutEntity(Integer)
+  name: GetAudienceLayoutEntity(Int32)
+  nameWithType: IAudienceAgent.GetAudienceLayoutEntity(Int32)
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.GetAudienceLayoutEntity(System.Int32)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IAudienceAgent.GetAudienceLayoutEntity(System.Int32)
     name: GetAudienceLayoutEntity
+    nameWithType: IAudienceAgent.GetAudienceLayoutEntity
+    fullName: SuperOffice.CRM.Services.IAudienceAgent.GetAudienceLayoutEntity
     isExternal: true
-    href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_GetAudienceLayoutEntity_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IAudienceAgent.GetAudienceLayoutEntity(System.Int32)
     name: GetAudienceLayoutEntity
+    nameWithType: IAudienceAgent.GetAudienceLayoutEntity
+    fullName: SuperOffice.CRM.Services.IAudienceAgent.GetAudienceLayoutEntity
     isExternal: true
-    href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_GetAudienceLayoutEntity_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.AudienceAgent.GetAudienceLayoutByName*
   commentId: Overload:SuperOffice.CRM.Services.AudienceAgent.GetAudienceLayoutByName
   isExternal: true
-  href: SuperOffice.CRM.Services.AudienceAgent.html#SuperOffice_CRM_Services_AudienceAgent_GetAudienceLayoutByName_System_String_
   name: GetAudienceLayoutByName
   nameWithType: AudienceAgent.GetAudienceLayoutByName
   fullName: SuperOffice.CRM.Services.AudienceAgent.GetAudienceLayoutByName
@@ -2072,39 +2043,46 @@ references:
   commentId: M:SuperOffice.CRM.Services.IAudienceAgent.GetAudienceLayoutByName(System.String)
   parent: SuperOffice.CRM.Services.IAudienceAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_GetAudienceLayoutByName_System_String_
-  name: GetAudienceLayoutByName(string)
-  nameWithType: IAudienceAgent.GetAudienceLayoutByName(string)
-  fullName: SuperOffice.CRM.Services.IAudienceAgent.GetAudienceLayoutByName(string)
-  nameWithType.vb: IAudienceAgent.GetAudienceLayoutByName(String)
-  fullName.vb: SuperOffice.CRM.Services.IAudienceAgent.GetAudienceLayoutByName(String)
-  name.vb: GetAudienceLayoutByName(String)
+  name: GetAudienceLayoutByName(String)
+  nameWithType: IAudienceAgent.GetAudienceLayoutByName(String)
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.GetAudienceLayoutByName(System.String)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IAudienceAgent.GetAudienceLayoutByName(System.String)
     name: GetAudienceLayoutByName
+    nameWithType: IAudienceAgent.GetAudienceLayoutByName
+    fullName: SuperOffice.CRM.Services.IAudienceAgent.GetAudienceLayoutByName
     isExternal: true
-    href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_GetAudienceLayoutByName_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IAudienceAgent.GetAudienceLayoutByName(System.String)
     name: GetAudienceLayoutByName
+    nameWithType: IAudienceAgent.GetAudienceLayoutByName
+    fullName: SuperOffice.CRM.Services.IAudienceAgent.GetAudienceLayoutByName
     isExternal: true
-    href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_GetAudienceLayoutByName_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.AudienceAgent.GetMyAudienceLayout*
   commentId: Overload:SuperOffice.CRM.Services.AudienceAgent.GetMyAudienceLayout
   isExternal: true
-  href: SuperOffice.CRM.Services.AudienceAgent.html#SuperOffice_CRM_Services_AudienceAgent_GetMyAudienceLayout
   name: GetMyAudienceLayout
   nameWithType: AudienceAgent.GetMyAudienceLayout
   fullName: SuperOffice.CRM.Services.AudienceAgent.GetMyAudienceLayout
@@ -2112,28 +2090,36 @@ references:
   commentId: M:SuperOffice.CRM.Services.IAudienceAgent.GetMyAudienceLayout
   parent: SuperOffice.CRM.Services.IAudienceAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_GetMyAudienceLayout
   name: GetMyAudienceLayout()
   nameWithType: IAudienceAgent.GetMyAudienceLayout()
   fullName: SuperOffice.CRM.Services.IAudienceAgent.GetMyAudienceLayout()
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IAudienceAgent.GetMyAudienceLayout
     name: GetMyAudienceLayout
+    nameWithType: IAudienceAgent.GetMyAudienceLayout
+    fullName: SuperOffice.CRM.Services.IAudienceAgent.GetMyAudienceLayout
     isExternal: true
-    href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_GetMyAudienceLayout
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IAudienceAgent.GetMyAudienceLayout
     name: GetMyAudienceLayout
+    nameWithType: IAudienceAgent.GetMyAudienceLayout
+    fullName: SuperOffice.CRM.Services.IAudienceAgent.GetMyAudienceLayout
     isExternal: true
-    href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_GetMyAudienceLayout
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.AudienceAgent.GetAudienceLayoutOnPerson*
   commentId: Overload:SuperOffice.CRM.Services.AudienceAgent.GetAudienceLayoutOnPerson
   isExternal: true
-  href: SuperOffice.CRM.Services.AudienceAgent.html#SuperOffice_CRM_Services_AudienceAgent_GetAudienceLayoutOnPerson_System_Int32_
   name: GetAudienceLayoutOnPerson
   nameWithType: AudienceAgent.GetAudienceLayoutOnPerson
   fullName: SuperOffice.CRM.Services.AudienceAgent.GetAudienceLayoutOnPerson
@@ -2141,39 +2127,46 @@ references:
   commentId: M:SuperOffice.CRM.Services.IAudienceAgent.GetAudienceLayoutOnPerson(System.Int32)
   parent: SuperOffice.CRM.Services.IAudienceAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_GetAudienceLayoutOnPerson_System_Int32_
-  name: GetAudienceLayoutOnPerson(int)
-  nameWithType: IAudienceAgent.GetAudienceLayoutOnPerson(int)
-  fullName: SuperOffice.CRM.Services.IAudienceAgent.GetAudienceLayoutOnPerson(int)
-  nameWithType.vb: IAudienceAgent.GetAudienceLayoutOnPerson(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IAudienceAgent.GetAudienceLayoutOnPerson(Integer)
-  name.vb: GetAudienceLayoutOnPerson(Integer)
+  name: GetAudienceLayoutOnPerson(Int32)
+  nameWithType: IAudienceAgent.GetAudienceLayoutOnPerson(Int32)
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.GetAudienceLayoutOnPerson(System.Int32)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IAudienceAgent.GetAudienceLayoutOnPerson(System.Int32)
     name: GetAudienceLayoutOnPerson
+    nameWithType: IAudienceAgent.GetAudienceLayoutOnPerson
+    fullName: SuperOffice.CRM.Services.IAudienceAgent.GetAudienceLayoutOnPerson
     isExternal: true
-    href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_GetAudienceLayoutOnPerson_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IAudienceAgent.GetAudienceLayoutOnPerson(System.Int32)
     name: GetAudienceLayoutOnPerson
+    nameWithType: IAudienceAgent.GetAudienceLayoutOnPerson
+    fullName: SuperOffice.CRM.Services.IAudienceAgent.GetAudienceLayoutOnPerson
     isExternal: true
-    href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_GetAudienceLayoutOnPerson_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.AudienceAgent.GetDefaultProjectImage*
   commentId: Overload:SuperOffice.CRM.Services.AudienceAgent.GetDefaultProjectImage
   isExternal: true
-  href: SuperOffice.CRM.Services.AudienceAgent.html#SuperOffice_CRM_Services_AudienceAgent_GetDefaultProjectImage_System_String_
   name: GetDefaultProjectImage
   nameWithType: AudienceAgent.GetDefaultProjectImage
   fullName: SuperOffice.CRM.Services.AudienceAgent.GetDefaultProjectImage
@@ -2181,74 +2174,51 @@ references:
   commentId: M:SuperOffice.CRM.Services.IAudienceAgent.GetDefaultProjectImage(System.String)
   parent: SuperOffice.CRM.Services.IAudienceAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_GetDefaultProjectImage_System_String_
-  name: GetDefaultProjectImage(string)
-  nameWithType: IAudienceAgent.GetDefaultProjectImage(string)
-  fullName: SuperOffice.CRM.Services.IAudienceAgent.GetDefaultProjectImage(string)
-  nameWithType.vb: IAudienceAgent.GetDefaultProjectImage(String)
-  fullName.vb: SuperOffice.CRM.Services.IAudienceAgent.GetDefaultProjectImage(String)
-  name.vb: GetDefaultProjectImage(String)
+  name: GetDefaultProjectImage(String)
+  nameWithType: IAudienceAgent.GetDefaultProjectImage(String)
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.GetDefaultProjectImage(System.String)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IAudienceAgent.GetDefaultProjectImage(System.String)
     name: GetDefaultProjectImage
+    nameWithType: IAudienceAgent.GetDefaultProjectImage
+    fullName: SuperOffice.CRM.Services.IAudienceAgent.GetDefaultProjectImage
     isExternal: true
-    href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_GetDefaultProjectImage_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IAudienceAgent.GetDefaultProjectImage(System.String)
     name: GetDefaultProjectImage
+    nameWithType: IAudienceAgent.GetDefaultProjectImage
+    fullName: SuperOffice.CRM.Services.IAudienceAgent.GetDefaultProjectImage
     isExternal: true
-    href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_GetDefaultProjectImage_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Drawing.Image
-  commentId: T:System.Drawing.Image
-  parent: System.Drawing
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.drawing.image
   name: Image
   nameWithType: Image
   fullName: System.Drawing.Image
-- uid: System.Drawing
-  commentId: N:System.Drawing
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Drawing
-  nameWithType: System.Drawing
-  fullName: System.Drawing
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Drawing
-    name: Drawing
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.drawing
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Drawing
-    name: Drawing
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.drawing
 - uid: SuperOffice.CRM.Services.AudienceAgent.SetDefaultProjectImage*
   commentId: Overload:SuperOffice.CRM.Services.AudienceAgent.SetDefaultProjectImage
   isExternal: true
-  href: SuperOffice.CRM.Services.AudienceAgent.html#SuperOffice_CRM_Services_AudienceAgent_SetDefaultProjectImage_System_String_System_Drawing_Image_
   name: SetDefaultProjectImage
   nameWithType: AudienceAgent.SetDefaultProjectImage
   fullName: SuperOffice.CRM.Services.AudienceAgent.SetDefaultProjectImage
@@ -2256,51 +2226,62 @@ references:
   commentId: M:SuperOffice.CRM.Services.IAudienceAgent.SetDefaultProjectImage(System.String,System.Drawing.Image)
   parent: SuperOffice.CRM.Services.IAudienceAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_SetDefaultProjectImage_System_String_System_Drawing_Image_
-  name: SetDefaultProjectImage(string, Image)
-  nameWithType: IAudienceAgent.SetDefaultProjectImage(string, Image)
-  fullName: SuperOffice.CRM.Services.IAudienceAgent.SetDefaultProjectImage(string, System.Drawing.Image)
-  nameWithType.vb: IAudienceAgent.SetDefaultProjectImage(String, Image)
-  fullName.vb: SuperOffice.CRM.Services.IAudienceAgent.SetDefaultProjectImage(String, System.Drawing.Image)
-  name.vb: SetDefaultProjectImage(String, Image)
+  name: SetDefaultProjectImage(String, Image)
+  nameWithType: IAudienceAgent.SetDefaultProjectImage(String, Image)
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.SetDefaultProjectImage(System.String, System.Drawing.Image)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IAudienceAgent.SetDefaultProjectImage(System.String,System.Drawing.Image)
     name: SetDefaultProjectImage
+    nameWithType: IAudienceAgent.SetDefaultProjectImage
+    fullName: SuperOffice.CRM.Services.IAudienceAgent.SetDefaultProjectImage
     isExternal: true
-    href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_SetDefaultProjectImage_System_String_System_Drawing_Image_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Drawing.Image
     name: Image
+    nameWithType: Image
+    fullName: System.Drawing.Image
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.drawing.image
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IAudienceAgent.SetDefaultProjectImage(System.String,System.Drawing.Image)
     name: SetDefaultProjectImage
+    nameWithType: IAudienceAgent.SetDefaultProjectImage
+    fullName: SuperOffice.CRM.Services.IAudienceAgent.SetDefaultProjectImage
     isExternal: true
-    href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_SetDefaultProjectImage_System_String_System_Drawing_Image_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Drawing.Image
     name: Image
+    nameWithType: Image
+    fullName: System.Drawing.Image
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.drawing.image
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.AudienceAgent.SetDefaultPersonImage*
   commentId: Overload:SuperOffice.CRM.Services.AudienceAgent.SetDefaultPersonImage
   isExternal: true
-  href: SuperOffice.CRM.Services.AudienceAgent.html#SuperOffice_CRM_Services_AudienceAgent_SetDefaultPersonImage_System_String_System_Drawing_Image_
   name: SetDefaultPersonImage
   nameWithType: AudienceAgent.SetDefaultPersonImage
   fullName: SuperOffice.CRM.Services.AudienceAgent.SetDefaultPersonImage
@@ -2308,51 +2289,62 @@ references:
   commentId: M:SuperOffice.CRM.Services.IAudienceAgent.SetDefaultPersonImage(System.String,System.Drawing.Image)
   parent: SuperOffice.CRM.Services.IAudienceAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_SetDefaultPersonImage_System_String_System_Drawing_Image_
-  name: SetDefaultPersonImage(string, Image)
-  nameWithType: IAudienceAgent.SetDefaultPersonImage(string, Image)
-  fullName: SuperOffice.CRM.Services.IAudienceAgent.SetDefaultPersonImage(string, System.Drawing.Image)
-  nameWithType.vb: IAudienceAgent.SetDefaultPersonImage(String, Image)
-  fullName.vb: SuperOffice.CRM.Services.IAudienceAgent.SetDefaultPersonImage(String, System.Drawing.Image)
-  name.vb: SetDefaultPersonImage(String, Image)
+  name: SetDefaultPersonImage(String, Image)
+  nameWithType: IAudienceAgent.SetDefaultPersonImage(String, Image)
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.SetDefaultPersonImage(System.String, System.Drawing.Image)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IAudienceAgent.SetDefaultPersonImage(System.String,System.Drawing.Image)
     name: SetDefaultPersonImage
+    nameWithType: IAudienceAgent.SetDefaultPersonImage
+    fullName: SuperOffice.CRM.Services.IAudienceAgent.SetDefaultPersonImage
     isExternal: true
-    href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_SetDefaultPersonImage_System_String_System_Drawing_Image_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Drawing.Image
     name: Image
+    nameWithType: Image
+    fullName: System.Drawing.Image
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.drawing.image
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IAudienceAgent.SetDefaultPersonImage(System.String,System.Drawing.Image)
     name: SetDefaultPersonImage
+    nameWithType: IAudienceAgent.SetDefaultPersonImage
+    fullName: SuperOffice.CRM.Services.IAudienceAgent.SetDefaultPersonImage
     isExternal: true
-    href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_SetDefaultPersonImage_System_String_System_Drawing_Image_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Drawing.Image
     name: Image
+    nameWithType: Image
+    fullName: System.Drawing.Image
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.drawing.image
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.AudienceAgent.GetDefaultPersonImage*
   commentId: Overload:SuperOffice.CRM.Services.AudienceAgent.GetDefaultPersonImage
   isExternal: true
-  href: SuperOffice.CRM.Services.AudienceAgent.html#SuperOffice_CRM_Services_AudienceAgent_GetDefaultPersonImage_System_String_
   name: GetDefaultPersonImage
   nameWithType: AudienceAgent.GetDefaultPersonImage
   fullName: SuperOffice.CRM.Services.AudienceAgent.GetDefaultPersonImage
@@ -2360,39 +2352,46 @@ references:
   commentId: M:SuperOffice.CRM.Services.IAudienceAgent.GetDefaultPersonImage(System.String)
   parent: SuperOffice.CRM.Services.IAudienceAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_GetDefaultPersonImage_System_String_
-  name: GetDefaultPersonImage(string)
-  nameWithType: IAudienceAgent.GetDefaultPersonImage(string)
-  fullName: SuperOffice.CRM.Services.IAudienceAgent.GetDefaultPersonImage(string)
-  nameWithType.vb: IAudienceAgent.GetDefaultPersonImage(String)
-  fullName.vb: SuperOffice.CRM.Services.IAudienceAgent.GetDefaultPersonImage(String)
-  name.vb: GetDefaultPersonImage(String)
+  name: GetDefaultPersonImage(String)
+  nameWithType: IAudienceAgent.GetDefaultPersonImage(String)
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.GetDefaultPersonImage(System.String)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IAudienceAgent.GetDefaultPersonImage(System.String)
     name: GetDefaultPersonImage
+    nameWithType: IAudienceAgent.GetDefaultPersonImage
+    fullName: SuperOffice.CRM.Services.IAudienceAgent.GetDefaultPersonImage
     isExternal: true
-    href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_GetDefaultPersonImage_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IAudienceAgent.GetDefaultPersonImage(System.String)
     name: GetDefaultPersonImage
+    nameWithType: IAudienceAgent.GetDefaultPersonImage
+    fullName: SuperOffice.CRM.Services.IAudienceAgent.GetDefaultPersonImage
     isExternal: true
-    href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_GetDefaultPersonImage_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.AudienceAgent.SetDefaultCountryFlag*
   commentId: Overload:SuperOffice.CRM.Services.AudienceAgent.SetDefaultCountryFlag
   isExternal: true
-  href: SuperOffice.CRM.Services.AudienceAgent.html#SuperOffice_CRM_Services_AudienceAgent_SetDefaultCountryFlag_System_String_System_Drawing_Image_
   name: SetDefaultCountryFlag
   nameWithType: AudienceAgent.SetDefaultCountryFlag
   fullName: SuperOffice.CRM.Services.AudienceAgent.SetDefaultCountryFlag
@@ -2400,51 +2399,62 @@ references:
   commentId: M:SuperOffice.CRM.Services.IAudienceAgent.SetDefaultCountryFlag(System.String,System.Drawing.Image)
   parent: SuperOffice.CRM.Services.IAudienceAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_SetDefaultCountryFlag_System_String_System_Drawing_Image_
-  name: SetDefaultCountryFlag(string, Image)
-  nameWithType: IAudienceAgent.SetDefaultCountryFlag(string, Image)
-  fullName: SuperOffice.CRM.Services.IAudienceAgent.SetDefaultCountryFlag(string, System.Drawing.Image)
-  nameWithType.vb: IAudienceAgent.SetDefaultCountryFlag(String, Image)
-  fullName.vb: SuperOffice.CRM.Services.IAudienceAgent.SetDefaultCountryFlag(String, System.Drawing.Image)
-  name.vb: SetDefaultCountryFlag(String, Image)
+  name: SetDefaultCountryFlag(String, Image)
+  nameWithType: IAudienceAgent.SetDefaultCountryFlag(String, Image)
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.SetDefaultCountryFlag(System.String, System.Drawing.Image)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IAudienceAgent.SetDefaultCountryFlag(System.String,System.Drawing.Image)
     name: SetDefaultCountryFlag
+    nameWithType: IAudienceAgent.SetDefaultCountryFlag
+    fullName: SuperOffice.CRM.Services.IAudienceAgent.SetDefaultCountryFlag
     isExternal: true
-    href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_SetDefaultCountryFlag_System_String_System_Drawing_Image_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Drawing.Image
     name: Image
+    nameWithType: Image
+    fullName: System.Drawing.Image
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.drawing.image
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IAudienceAgent.SetDefaultCountryFlag(System.String,System.Drawing.Image)
     name: SetDefaultCountryFlag
+    nameWithType: IAudienceAgent.SetDefaultCountryFlag
+    fullName: SuperOffice.CRM.Services.IAudienceAgent.SetDefaultCountryFlag
     isExternal: true
-    href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_SetDefaultCountryFlag_System_String_System_Drawing_Image_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Drawing.Image
     name: Image
+    nameWithType: Image
+    fullName: System.Drawing.Image
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.drawing.image
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.AudienceAgent.GetDefaultCountryFlag*
   commentId: Overload:SuperOffice.CRM.Services.AudienceAgent.GetDefaultCountryFlag
   isExternal: true
-  href: SuperOffice.CRM.Services.AudienceAgent.html#SuperOffice_CRM_Services_AudienceAgent_GetDefaultCountryFlag_System_String_
   name: GetDefaultCountryFlag
   nameWithType: AudienceAgent.GetDefaultCountryFlag
   fullName: SuperOffice.CRM.Services.AudienceAgent.GetDefaultCountryFlag
@@ -2452,39 +2462,46 @@ references:
   commentId: M:SuperOffice.CRM.Services.IAudienceAgent.GetDefaultCountryFlag(System.String)
   parent: SuperOffice.CRM.Services.IAudienceAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_GetDefaultCountryFlag_System_String_
-  name: GetDefaultCountryFlag(string)
-  nameWithType: IAudienceAgent.GetDefaultCountryFlag(string)
-  fullName: SuperOffice.CRM.Services.IAudienceAgent.GetDefaultCountryFlag(string)
-  nameWithType.vb: IAudienceAgent.GetDefaultCountryFlag(String)
-  fullName.vb: SuperOffice.CRM.Services.IAudienceAgent.GetDefaultCountryFlag(String)
-  name.vb: GetDefaultCountryFlag(String)
+  name: GetDefaultCountryFlag(String)
+  nameWithType: IAudienceAgent.GetDefaultCountryFlag(String)
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.GetDefaultCountryFlag(System.String)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IAudienceAgent.GetDefaultCountryFlag(System.String)
     name: GetDefaultCountryFlag
+    nameWithType: IAudienceAgent.GetDefaultCountryFlag
+    fullName: SuperOffice.CRM.Services.IAudienceAgent.GetDefaultCountryFlag
     isExternal: true
-    href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_GetDefaultCountryFlag_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IAudienceAgent.GetDefaultCountryFlag(System.String)
     name: GetDefaultCountryFlag
+    nameWithType: IAudienceAgent.GetDefaultCountryFlag
+    fullName: SuperOffice.CRM.Services.IAudienceAgent.GetDefaultCountryFlag
     isExternal: true
-    href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_GetDefaultCountryFlag_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.AudienceAgent.GetLogoImage*
   commentId: Overload:SuperOffice.CRM.Services.AudienceAgent.GetLogoImage
   isExternal: true
-  href: SuperOffice.CRM.Services.AudienceAgent.html#SuperOffice_CRM_Services_AudienceAgent_GetLogoImage_System_String_
   name: GetLogoImage
   nameWithType: AudienceAgent.GetLogoImage
   fullName: SuperOffice.CRM.Services.AudienceAgent.GetLogoImage
@@ -2492,39 +2509,46 @@ references:
   commentId: M:SuperOffice.CRM.Services.IAudienceAgent.GetLogoImage(System.String)
   parent: SuperOffice.CRM.Services.IAudienceAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_GetLogoImage_System_String_
-  name: GetLogoImage(string)
-  nameWithType: IAudienceAgent.GetLogoImage(string)
-  fullName: SuperOffice.CRM.Services.IAudienceAgent.GetLogoImage(string)
-  nameWithType.vb: IAudienceAgent.GetLogoImage(String)
-  fullName.vb: SuperOffice.CRM.Services.IAudienceAgent.GetLogoImage(String)
-  name.vb: GetLogoImage(String)
+  name: GetLogoImage(String)
+  nameWithType: IAudienceAgent.GetLogoImage(String)
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.GetLogoImage(System.String)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IAudienceAgent.GetLogoImage(System.String)
     name: GetLogoImage
+    nameWithType: IAudienceAgent.GetLogoImage
+    fullName: SuperOffice.CRM.Services.IAudienceAgent.GetLogoImage
     isExternal: true
-    href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_GetLogoImage_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IAudienceAgent.GetLogoImage(System.String)
     name: GetLogoImage
+    nameWithType: IAudienceAgent.GetLogoImage
+    fullName: SuperOffice.CRM.Services.IAudienceAgent.GetLogoImage
     isExternal: true
-    href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_GetLogoImage_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.AudienceAgent.SetLogoImage*
   commentId: Overload:SuperOffice.CRM.Services.AudienceAgent.SetLogoImage
   isExternal: true
-  href: SuperOffice.CRM.Services.AudienceAgent.html#SuperOffice_CRM_Services_AudienceAgent_SetLogoImage_System_String_System_Drawing_Image_
   name: SetLogoImage
   nameWithType: AudienceAgent.SetLogoImage
   fullName: SuperOffice.CRM.Services.AudienceAgent.SetLogoImage
@@ -2532,54 +2556,62 @@ references:
   commentId: M:SuperOffice.CRM.Services.IAudienceAgent.SetLogoImage(System.String,System.Drawing.Image)
   parent: SuperOffice.CRM.Services.IAudienceAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_SetLogoImage_System_String_System_Drawing_Image_
-  name: SetLogoImage(string, Image)
-  nameWithType: IAudienceAgent.SetLogoImage(string, Image)
-  fullName: SuperOffice.CRM.Services.IAudienceAgent.SetLogoImage(string, System.Drawing.Image)
-  nameWithType.vb: IAudienceAgent.SetLogoImage(String, Image)
-  fullName.vb: SuperOffice.CRM.Services.IAudienceAgent.SetLogoImage(String, System.Drawing.Image)
-  name.vb: SetLogoImage(String, Image)
+  name: SetLogoImage(String, Image)
+  nameWithType: IAudienceAgent.SetLogoImage(String, Image)
+  fullName: SuperOffice.CRM.Services.IAudienceAgent.SetLogoImage(System.String, System.Drawing.Image)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IAudienceAgent.SetLogoImage(System.String,System.Drawing.Image)
     name: SetLogoImage
+    nameWithType: IAudienceAgent.SetLogoImage
+    fullName: SuperOffice.CRM.Services.IAudienceAgent.SetLogoImage
     isExternal: true
-    href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_SetLogoImage_System_String_System_Drawing_Image_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Drawing.Image
     name: Image
+    nameWithType: Image
+    fullName: System.Drawing.Image
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.drawing.image
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IAudienceAgent.SetLogoImage(System.String,System.Drawing.Image)
     name: SetLogoImage
+    nameWithType: IAudienceAgent.SetLogoImage
+    fullName: SuperOffice.CRM.Services.IAudienceAgent.SetLogoImage
     isExternal: true
-    href: SuperOffice.CRM.Services.IAudienceAgent.html#SuperOffice_CRM_Services_IAudienceAgent_SetLogoImage_System_String_System_Drawing_Image_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Drawing.Image
     name: Image
+    nameWithType: Image
+    fullName: System.Drawing.Image
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.drawing.image
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.AudienceAgent.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.AudienceAgent.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.AudienceAgent.html#SuperOffice_CRM_Services_AudienceAgent__ctor
   name: AudienceAgent
   nameWithType: AudienceAgent.AudienceAgent
   fullName: SuperOffice.CRM.Services.AudienceAgent.AudienceAgent
-  nameWithType.vb: AudienceAgent.New
-  fullName.vb: SuperOffice.CRM.Services.AudienceAgent.New
-  name.vb: New

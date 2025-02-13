@@ -13,8 +13,8 @@ items:
   - SuperOffice.Util.SoMapper.GetDictionaryKey(System.Object)
   - SuperOffice.Util.SoMapper.GetDictionaryValue(System.Object)
   - SuperOffice.Util.SoMapper.Instance
-  - SuperOffice.Util.SoMapper.MapValue(System.Type,System.Type,System.Object,System.Boolean)
   - SuperOffice.Util.SoMapper.Map``2(``0,System.Boolean)
+  - SuperOffice.Util.SoMapper.MapValue(System.Type,System.Type,System.Object,System.Boolean)
   langs:
   - csharp
   - vb
@@ -22,40 +22,31 @@ items:
   nameWithType: SoMapper
   fullName: SuperOffice.Util.SoMapper
   type: Class
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: >-
-    Class for mapping values between class-instances and types based on similarly named properties with
-
-    fundamentally compatible types.
-
-
-    basic principle of operation is adhering to the "Duck test":
-
-    "When I see a bird that walks like a duck and swims like a duck and quacks like a duck,
-     I call that bird a duck."
-
-    <seealso ref="https://en.wikipedia.org/wiki/Duck_typing"></seealso>
-  example: []
+  summary: "\nClass for mapping values between class-instances and types based on similarly named properties with\nfundamentally compatible types.\n\nbasic principle of operation is adhering to the &quot;Duck test&quot;:\n&quot;When I see a bird that walks like a duck and swims like a duck and quacks like a duck,\nI call that bird a duck.&quot;\n\n<seealso ref=\"https://en.wikipedia.org/wiki/Duck_typing\"></seealso>\n"
   syntax:
-    content: public class SoMapper
-    content.vb: Public Class SoMapper
+    content: 'public class SoMapper : Object'
+    content.vb: >-
+      Public Class SoMapper
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.Util.SoMapper.EnumUtil.MapEnums``2
-  - SuperOffice.Util.SoMapper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.Util.SoMapper.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.SoMapper)
   - SuperOffice.Util.SoMapper.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Util.SoMapper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.Util.SoMapper.#ctor
   commentId: M:SuperOffice.Util.SoMapper.#ctor
   id: '#ctor'
@@ -67,18 +58,21 @@ items:
   nameWithType: SoMapper.SoMapper()
   fullName: SuperOffice.Util.SoMapper.SoMapper()
   type: Constructor
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: Default constructor
-  example: []
+  summary: "\nDefault constructor\n"
   syntax:
     content: public SoMapper()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.Util.SoMapper.#ctor*
-  nameWithType.vb: SoMapper.New()
-  fullName.vb: SuperOffice.Util.SoMapper.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Util.SoMapper.Map``2(``0,System.Boolean)
   commentId: M:SuperOffice.Util.SoMapper.Map``2(``0,System.Boolean)
   id: Map``2(``0,System.Boolean)
@@ -86,36 +80,28 @@ items:
   langs:
   - csharp
   - vb
-  name: Map<TInput, TResult>(TInput, bool)
-  nameWithType: SoMapper.Map<TInput, TResult>(TInput, bool)
-  fullName: SuperOffice.Util.SoMapper.Map<TInput, TResult>(TInput, bool)
+  name: Map<TInput, TResult>(TInput, Boolean)
+  nameWithType: SoMapper.Map<TInput, TResult>(TInput, Boolean)
+  fullName: SuperOffice.Util.SoMapper.Map<TInput, TResult>(TInput, System.Boolean)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: >-
-    Convert the given input instance and return a instance of the specified output type
-
-    using fuzzy Duck-typing and logic.
-
-    <remarks>
-
-    Will return same instance if the provided types are the same.
-
-    </remarks>
-  example: []
+  summary: "\nConvert the given input instance and return a instance of the specified output type\nusing fuzzy Duck-typing and logic.\n<remarks>\nWill return same instance if the provided types are the same.\n</remarks>\n"
   syntax:
-    content: 'public TResult Map<TInput, TResult>(TInput source, bool throwOnMismatch = true) where TResult : new()'
+    content: >-
+      public TResult Map<TInput, TResult>(TInput source, bool throwOnMismatch = true)
+          where TResult : new()
     parameters:
     - id: source
       type: '{TInput}'
       description: Value to convert.
     - id: throwOnMismatch
       type: System.Boolean
-      description: >-
-        If true, throws when there is a mismatch between the types being converted.
-
-        If false, silently ignores property with mismatch and moves along to the next one.
+      description: "\nIf true, throws when there is a mismatch between the types being converted.\nIf false, silently ignores property with mismatch and moves along to the next one.\n"
     typeParameters:
     - id: TInput
       description: Type of input-value.
@@ -127,7 +113,11 @@ items:
     content.vb: Public Function Map(Of TInput, TResult As New)(source As TInput, throwOnMismatch As Boolean = True) As TResult
   overload: SuperOffice.Util.SoMapper.Map*
   nameWithType.vb: SoMapper.Map(Of TInput, TResult)(TInput, Boolean)
-  fullName.vb: SuperOffice.Util.SoMapper.Map(Of TInput, TResult)(TInput, Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Util.SoMapper.Map(Of TInput, TResult)(TInput, System.Boolean)
   name.vb: Map(Of TInput, TResult)(TInput, Boolean)
 - uid: SuperOffice.Util.SoMapper.Clone``1(``0)
   commentId: M:SuperOffice.Util.SoMapper.Clone``1(``0)
@@ -140,20 +130,17 @@ items:
   nameWithType: SoMapper.Clone<TInput>(TInput)
   fullName: SuperOffice.Util.SoMapper.Clone<TInput>(TInput)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: >-
-    Clones the given object-graph using a recursive copy of public properties.
-
-    <remarks>
-
-    If class being copied depends on private fields, the copy may not function as expected.
-
-    </remarks>
-  example: []
+  summary: "\nClones the given object-graph using a recursive copy of public properties.\n<remarks>\nIf class being copied depends on private fields, the copy may not function as expected.\n</remarks>\n"
   syntax:
-    content: 'public TInput Clone<TInput>(TInput source) where TInput : new()'
+    content: >-
+      public TInput Clone<TInput>(TInput source)
+          where TInput : new()
     parameters:
     - id: source
       type: '{TInput}'
@@ -167,6 +154,10 @@ items:
     content.vb: Public Function Clone(Of TInput As New)(source As TInput) As TInput
   overload: SuperOffice.Util.SoMapper.Clone*
   nameWithType.vb: SoMapper.Clone(Of TInput)(TInput)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
   fullName.vb: SuperOffice.Util.SoMapper.Clone(Of TInput)(TInput)
   name.vb: Clone(Of TInput)(TInput)
 - uid: SuperOffice.Util.SoMapper.CopyProperties``2(``0,``1,System.Boolean,System.Boolean,System.Boolean)
@@ -176,15 +167,17 @@ items:
   langs:
   - csharp
   - vb
-  name: CopyProperties<TSource, TDestination>(TSource, TDestination, bool, bool, bool)
-  nameWithType: SoMapper.CopyProperties<TSource, TDestination>(TSource, TDestination, bool, bool, bool)
-  fullName: SuperOffice.Util.SoMapper.CopyProperties<TSource, TDestination>(TSource, TDestination, bool, bool, bool)
+  name: CopyProperties<TSource, TDestination>(TSource, TDestination, Boolean, Boolean, Boolean)
+  nameWithType: SoMapper.CopyProperties<TSource, TDestination>(TSource, TDestination, Boolean, Boolean, Boolean)
+  fullName: SuperOffice.Util.SoMapper.CopyProperties<TSource, TDestination>(TSource, TDestination, System.Boolean, System.Boolean, System.Boolean)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: Copies all properties of the provided source-instance onto the provided destination-instance.
-  example: []
+  summary: "\nCopies all properties of the provided source-instance onto the provided destination-instance.\n"
   syntax:
     content: public void CopyProperties<TSource, TDestination>(TSource source, TDestination destination, bool throwOnMismatch, bool copyNulls = false, bool caseInsensitive = false)
     parameters:
@@ -196,10 +189,7 @@ items:
       description: Target-value which properties will be copied onto.
     - id: throwOnMismatch
       type: System.Boolean
-      description: >-
-        If true, throws when there is a mismatch between the types being converted.
-
-        If false, silently ignores property with mismatch and moves along to the next one.
+      description: "\nIf true, throws when there is a mismatch between the types being converted.\nIf false, silently ignores property with mismatch and moves along to the next one.\n"
     - id: copyNulls
       type: System.Boolean
       description: Should null values on source be skipped and left unchanged on dest, or copied to destionation?
@@ -214,7 +204,11 @@ items:
     content.vb: Public Sub CopyProperties(Of TSource, TDestination)(source As TSource, destination As TDestination, throwOnMismatch As Boolean, copyNulls As Boolean = False, caseInsensitive As Boolean = False)
   overload: SuperOffice.Util.SoMapper.CopyProperties*
   nameWithType.vb: SoMapper.CopyProperties(Of TSource, TDestination)(TSource, TDestination, Boolean, Boolean, Boolean)
-  fullName.vb: SuperOffice.Util.SoMapper.CopyProperties(Of TSource, TDestination)(TSource, TDestination, Boolean, Boolean, Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Util.SoMapper.CopyProperties(Of TSource, TDestination)(TSource, TDestination, System.Boolean, System.Boolean, System.Boolean)
   name.vb: CopyProperties(Of TSource, TDestination)(TSource, TDestination, Boolean, Boolean, Boolean)
 - uid: SuperOffice.Util.SoMapper.CopyProperties``2(``0[],``1[],System.Boolean,System.Boolean,System.Boolean)
   commentId: M:SuperOffice.Util.SoMapper.CopyProperties``2(``0[],``1[],System.Boolean,System.Boolean,System.Boolean)
@@ -223,15 +217,20 @@ items:
   langs:
   - csharp
   - vb
-  name: CopyProperties<TSource, TDestination>(TSource[], TDestination[], bool, bool, bool)
-  nameWithType: SoMapper.CopyProperties<TSource, TDestination>(TSource[], TDestination[], bool, bool, bool)
-  fullName: SuperOffice.Util.SoMapper.CopyProperties<TSource, TDestination>(TSource[], TDestination[], bool, bool, bool)
+  name: CopyProperties<TSource, TDestination>(TSource[], TDestination[], Boolean, Boolean, Boolean)
+  nameWithType: SoMapper.CopyProperties<TSource, TDestination>(TSource[], TDestination[], Boolean, Boolean, Boolean)
+  fullName: SuperOffice.Util.SoMapper.CopyProperties<TSource, TDestination>(TSource[], TDestination[], System.Boolean, System.Boolean, System.Boolean)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
   syntax:
-    content: 'public void CopyProperties<TSource, TDestination>(TSource[] source, TDestination[] destination, bool throwOnMismatch, bool copyNulls = false, bool caseInsensitive = false) where TDestination : new()'
+    content: >-
+      public void CopyProperties<TSource, TDestination>(TSource[] source, TDestination[] destination, bool throwOnMismatch, bool copyNulls = false, bool caseInsensitive = false)
+          where TDestination : new()
     parameters:
     - id: source
       type: '{TSource}[]'
@@ -249,7 +248,11 @@ items:
     content.vb: Public Sub CopyProperties(Of TSource, TDestination As New)(source As TSource(), destination As TDestination(), throwOnMismatch As Boolean, copyNulls As Boolean = False, caseInsensitive As Boolean = False)
   overload: SuperOffice.Util.SoMapper.CopyProperties*
   nameWithType.vb: SoMapper.CopyProperties(Of TSource, TDestination)(TSource(), TDestination(), Boolean, Boolean, Boolean)
-  fullName.vb: SuperOffice.Util.SoMapper.CopyProperties(Of TSource, TDestination)(TSource(), TDestination(), Boolean, Boolean, Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Util.SoMapper.CopyProperties(Of TSource, TDestination)(TSource(), TDestination(), System.Boolean, System.Boolean, System.Boolean)
   name.vb: CopyProperties(Of TSource, TDestination)(TSource(), TDestination(), Boolean, Boolean, Boolean)
 - uid: SuperOffice.Util.SoMapper.CopyProperties(System.Type,System.Type,System.Object,System.Object,System.Boolean,System.Boolean,System.Boolean)
   commentId: M:SuperOffice.Util.SoMapper.CopyProperties(System.Type,System.Type,System.Object,System.Object,System.Boolean,System.Boolean,System.Boolean)
@@ -258,15 +261,17 @@ items:
   langs:
   - csharp
   - vb
-  name: CopyProperties(Type, Type, object, object, bool, bool, bool)
-  nameWithType: SoMapper.CopyProperties(Type, Type, object, object, bool, bool, bool)
-  fullName: SuperOffice.Util.SoMapper.CopyProperties(System.Type, System.Type, object, object, bool, bool, bool)
+  name: CopyProperties(Type, Type, Object, Object, Boolean, Boolean, Boolean)
+  nameWithType: SoMapper.CopyProperties(Type, Type, Object, Object, Boolean, Boolean, Boolean)
+  fullName: SuperOffice.Util.SoMapper.CopyProperties(System.Type, System.Type, System.Object, System.Object, System.Boolean, System.Boolean, System.Boolean)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: Copies all properties of the provided source-instance onto the provided destination-instance.
-  example: []
+  summary: "\nCopies all properties of the provided source-instance onto the provided destination-instance.\n"
   syntax:
     content: public void CopyProperties(Type sourceType, Type destinationType, object source, object destination, bool throwOnMismatch, bool copyNulls = false, bool caseInsensitive = false)
     parameters:
@@ -284,10 +289,7 @@ items:
       description: Target-value which properties will be copied onto.
     - id: throwOnMismatch
       type: System.Boolean
-      description: >-
-        If true, throws when there is a mismatch between the types being converted.
-
-        If false, silently ignores property with mismatch and moves along to the next one.
+      description: "\nIf true, throws when there is a mismatch between the types being converted.\nIf false, silently ignores property with mismatch and moves along to the next one.\n"
     - id: copyNulls
       type: System.Boolean
       description: Should null values on source be skipped and left unchanged on dest, or copied to destionation?
@@ -296,9 +298,10 @@ items:
       description: Exact match of parameter names or case insensitivity?
     content.vb: Public Sub CopyProperties(sourceType As Type, destinationType As Type, source As Object, destination As Object, throwOnMismatch As Boolean, copyNulls As Boolean = False, caseInsensitive As Boolean = False)
   overload: SuperOffice.Util.SoMapper.CopyProperties*
-  nameWithType.vb: SoMapper.CopyProperties(Type, Type, Object, Object, Boolean, Boolean, Boolean)
-  fullName.vb: SuperOffice.Util.SoMapper.CopyProperties(System.Type, System.Type, Object, Object, Boolean, Boolean, Boolean)
-  name.vb: CopyProperties(Type, Type, Object, Object, Boolean, Boolean, Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Util.SoMapper.GetDictionaryKey(System.Object)
   commentId: M:SuperOffice.Util.SoMapper.GetDictionaryKey(System.Object)
   id: GetDictionaryKey(System.Object)
@@ -306,10 +309,13 @@ items:
   langs:
   - csharp
   - vb
-  name: GetDictionaryKey(object)
-  nameWithType: SoMapper.GetDictionaryKey(object)
-  fullName: SuperOffice.Util.SoMapper.GetDictionaryKey(object)
+  name: GetDictionaryKey(Object)
+  nameWithType: SoMapper.GetDictionaryKey(Object)
+  fullName: SuperOffice.Util.SoMapper.GetDictionaryKey(System.Object)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -322,9 +328,10 @@ items:
       type: System.Object
     content.vb: Protected Function GetDictionaryKey(dictionaryEnumerationItem As Object) As Object
   overload: SuperOffice.Util.SoMapper.GetDictionaryKey*
-  nameWithType.vb: SoMapper.GetDictionaryKey(Object)
-  fullName.vb: SuperOffice.Util.SoMapper.GetDictionaryKey(Object)
-  name.vb: GetDictionaryKey(Object)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
 - uid: SuperOffice.Util.SoMapper.GetDictionaryValue(System.Object)
   commentId: M:SuperOffice.Util.SoMapper.GetDictionaryValue(System.Object)
   id: GetDictionaryValue(System.Object)
@@ -332,10 +339,13 @@ items:
   langs:
   - csharp
   - vb
-  name: GetDictionaryValue(object)
-  nameWithType: SoMapper.GetDictionaryValue(object)
-  fullName: SuperOffice.Util.SoMapper.GetDictionaryValue(object)
+  name: GetDictionaryValue(Object)
+  nameWithType: SoMapper.GetDictionaryValue(Object)
+  fullName: SuperOffice.Util.SoMapper.GetDictionaryValue(System.Object)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -348,9 +358,10 @@ items:
       type: System.Object
     content.vb: Protected Function GetDictionaryValue(dictionaryEnumerationItem As Object) As Object
   overload: SuperOffice.Util.SoMapper.GetDictionaryValue*
-  nameWithType.vb: SoMapper.GetDictionaryValue(Object)
-  fullName.vb: SuperOffice.Util.SoMapper.GetDictionaryValue(Object)
-  name.vb: GetDictionaryValue(Object)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
 - uid: SuperOffice.Util.SoMapper.MapValue(System.Type,System.Type,System.Object,System.Boolean)
   commentId: M:SuperOffice.Util.SoMapper.MapValue(System.Type,System.Type,System.Object,System.Boolean)
   id: MapValue(System.Type,System.Type,System.Object,System.Boolean)
@@ -358,10 +369,13 @@ items:
   langs:
   - csharp
   - vb
-  name: MapValue(Type, Type, object, bool)
-  nameWithType: SoMapper.MapValue(Type, Type, object, bool)
-  fullName: SuperOffice.Util.SoMapper.MapValue(System.Type, System.Type, object, bool)
+  name: MapValue(Type, Type, Object, Boolean)
+  nameWithType: SoMapper.MapValue(Type, Type, Object, Boolean)
+  fullName: SuperOffice.Util.SoMapper.MapValue(System.Type, System.Type, System.Object, System.Boolean)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -380,9 +394,10 @@ items:
       type: System.Object
     content.vb: Public Function MapValue(type1 As Type, type2 As Type, sourceValue As Object, throwOnMismatch As Boolean = True) As Object
   overload: SuperOffice.Util.SoMapper.MapValue*
-  nameWithType.vb: SoMapper.MapValue(Type, Type, Object, Boolean)
-  fullName.vb: SuperOffice.Util.SoMapper.MapValue(System.Type, System.Type, Object, Boolean)
-  name.vb: MapValue(Type, Type, Object, Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Util.SoMapper.Instance
   commentId: P:SuperOffice.Util.SoMapper.Instance
   id: Instance
@@ -394,11 +409,13 @@ items:
   nameWithType: SoMapper.Instance
   fullName: SuperOffice.Util.SoMapper.Instance
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: The default-instance of SoMapper for usage in cases where customization is not needed.
-  example: []
+  summary: "\nThe default-instance of SoMapper for usage in cases where customization is not needed.\n"
   syntax:
     content: public static SoMapper Instance { get; }
     parameters: []
@@ -406,487 +423,183 @@ items:
       type: SuperOffice.Util.SoMapper
     content.vb: Public Shared ReadOnly Property Instance As SoMapper
   overload: SuperOffice.Util.SoMapper.Instance*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
 references:
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Util.SoMapper.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<SoMapper, To>(SoMapper)
-  nameWithType: EnumUtil.MapEnums<SoMapper, To>(SoMapper)
-  fullName: EnumUtil.MapEnums<SuperOffice.Util.SoMapper, To>(SuperOffice.Util.SoMapper)
-  nameWithType.vb: EnumUtil.MapEnums(Of SoMapper, To)(SoMapper)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Util.SoMapper, To)(SuperOffice.Util.SoMapper)
-  name.vb: MapEnums(Of SoMapper, To)(SoMapper)
+  name: MapEnums<SoMapper, To>()
+  nameWithType: EnumUtil.MapEnums<SoMapper, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Util.SoMapper, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SoMapper, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Util.SoMapper, To)()
+  name.vb: MapEnums(Of SoMapper, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Util.SoMapper)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SoMapper, To>
+    nameWithType: EnumUtil.MapEnums<SoMapper, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Util.SoMapper, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Util.SoMapper
-    name: SoMapper
-    isExternal: true
-    href: SuperOffice.Util.SoMapper.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Util.SoMapper
-    name: SoMapper
-    isExternal: true
-    href: SuperOffice.Util.SoMapper.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Util.SoMapper)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SoMapper, To)
+    nameWithType: EnumUtil.MapEnums(Of SoMapper, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Util.SoMapper, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Util.SoMapper
-    name: SoMapper
-    isExternal: true
-    href: SuperOffice.Util.SoMapper.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Util.SoMapper
-    name: SoMapper
-    isExternal: true
-    href: SuperOffice.Util.SoMapper.html
-  - name: )
-- uid: SuperOffice.Util.SoMapper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  parent: SuperOffice.ErpSync.ConnectorWS.Converters
-  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<SoMapper, To>(SoMapper)
-  nameWithType: Converters.MapEnums<SoMapper, To>(SoMapper)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.SoMapper, To>(SuperOffice.Util.SoMapper)
-  nameWithType.vb: Converters.MapEnums(Of SoMapper, To)(SoMapper)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.SoMapper, To)(SuperOffice.Util.SoMapper)
-  name.vb: MapEnums(Of SoMapper, To)(SoMapper)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Util.SoMapper)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Util.SoMapper
-    name: SoMapper
-    isExternal: true
-    href: SuperOffice.Util.SoMapper.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Util.SoMapper
-    name: SoMapper
-    isExternal: true
-    href: SuperOffice.Util.SoMapper.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Util.SoMapper)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Util.SoMapper
-    name: SoMapper
-    isExternal: true
-    href: SuperOffice.Util.SoMapper.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.Util.SoMapper
-    name: SoMapper
-    isExternal: true
-    href: SuperOffice.Util.SoMapper.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.SoMapper.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.SoMapper)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<SoMapper>(SoMapper, SoMapper)
-  nameWithType: ObjectExtensions.AssignByReflection<SoMapper>(SoMapper, SoMapper)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Util.SoMapper>(SuperOffice.Util.SoMapper, SuperOffice.Util.SoMapper)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of SoMapper)(SoMapper, SoMapper)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Util.SoMapper)(SuperOffice.Util.SoMapper, SuperOffice.Util.SoMapper)
-  name.vb: AssignByReflection(Of SoMapper)(SoMapper, SoMapper)
+  name: AssignByReflection<SoMapper>(SoMapper)
+  nameWithType: ObjectExtensions.AssignByReflection<SoMapper>(SoMapper)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Util.SoMapper>(SuperOffice.Util.SoMapper)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of SoMapper)(SoMapper)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Util.SoMapper)(SuperOffice.Util.SoMapper)
+  name.vb: AssignByReflection(Of SoMapper)(SoMapper)
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.SoMapper,SuperOffice.Util.SoMapper)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<SoMapper>
+    nameWithType: ObjectExtensions.AssignByReflection<SoMapper>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Util.SoMapper>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.Util.SoMapper
-    name: SoMapper
-    isExternal: true
-    href: SuperOffice.Util.SoMapper.html
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Util.SoMapper
     name: SoMapper
+    nameWithType: SoMapper
+    fullName: SuperOffice.Util.SoMapper
     isExternal: true
-    href: SuperOffice.Util.SoMapper.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Util.SoMapper
-    name: SoMapper
-    isExternal: true
-    href: SuperOffice.Util.SoMapper.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.SoMapper,SuperOffice.Util.SoMapper)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of SoMapper)
+    nameWithType: ObjectExtensions.AssignByReflection(Of SoMapper)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Util.SoMapper)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Util.SoMapper
     name: SoMapper
+    nameWithType: SoMapper
+    fullName: SuperOffice.Util.SoMapper
     isExternal: true
-    href: SuperOffice.Util.SoMapper.html
   - name: )
-  - name: (
-  - uid: SuperOffice.Util.SoMapper
-    name: SoMapper
-    isExternal: true
-    href: SuperOffice.Util.SoMapper.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Util.SoMapper
-    name: SoMapper
-    isExternal: true
-    href: SuperOffice.Util.SoMapper.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.SoMapper.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<SoMapper>(SoMapper)
-  nameWithType: ObjectExtensions.GraphCopy<SoMapper>(SoMapper)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Util.SoMapper>(SuperOffice.Util.SoMapper)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of SoMapper)(SoMapper)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Util.SoMapper)(SuperOffice.Util.SoMapper)
-  name.vb: GraphCopy(Of SoMapper)(SoMapper)
+  name: GraphCopy<SoMapper>()
+  nameWithType: ObjectExtensions.GraphCopy<SoMapper>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Util.SoMapper>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of SoMapper)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Util.SoMapper)()
+  name.vb: GraphCopy(Of SoMapper)()
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Util.SoMapper)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<SoMapper>
+    nameWithType: ObjectExtensions.GraphCopy<SoMapper>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Util.SoMapper>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.Util.SoMapper
-    name: SoMapper
-    isExternal: true
-    href: SuperOffice.Util.SoMapper.html
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Util.SoMapper
-    name: SoMapper
-    isExternal: true
-    href: SuperOffice.Util.SoMapper.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Util.SoMapper)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of SoMapper)
+    nameWithType: ObjectExtensions.GraphCopy(Of SoMapper)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Util.SoMapper)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Util.SoMapper
-    name: SoMapper
-    isExternal: true
-    href: SuperOffice.Util.SoMapper.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.SoMapper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<SoMapper, To>()
+  nameWithType: Converters.MapEnums<SoMapper, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.SoMapper, To>()
+  nameWithType.vb: Converters.MapEnums(Of SoMapper, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.SoMapper, To)()
+  name.vb: MapEnums(Of SoMapper, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SoMapper, To>
+    nameWithType: Converters.MapEnums<SoMapper, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.SoMapper, To>
+    isExternal: true
   - name: (
-  - uid: SuperOffice.Util.SoMapper
-    name: SoMapper
-    isExternal: true
-    href: SuperOffice.Util.SoMapper.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SoMapper, To)
+    nameWithType: Converters.MapEnums(Of SoMapper, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.SoMapper, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -895,93 +608,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<From, To>(From)
-  nameWithType: Converters.MapEnums<From, To>(From)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
-  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
-  name.vb: MapEnums(Of From, To)(From)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - name: From
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - name: From
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters
-  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
-  parent: SuperOffice.ErpSync.ConnectorWS
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
-  name: Converters
-  nameWithType: Converters
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   name: AssignByReflection<T>(T, T)
   nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
   fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
@@ -990,46 +653,56 @@ references:
   name.vb: AssignByReflection(Of T)(T, T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
-  - name: ','
-  - name: " "
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.ObjectExtensions
   commentId: T:SuperOffice.Util.ObjectExtensions
   parent: SuperOffice.Util
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
   name: ObjectExtensions
   nameWithType: ObjectExtensions
   fullName: SuperOffice.Util.ObjectExtensions
 - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   name: GraphCopy<T>(T)
   nameWithType: ObjectExtensions.GraphCopy<T>(T)
   fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
@@ -1038,79 +711,95 @@ references:
   name.vb: GraphCopy(Of T)(T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
   - name: (
-  - name: T
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.Util.SoMapper.#ctor*
   commentId: Overload:SuperOffice.Util.SoMapper.#ctor
   isExternal: true
-  href: SuperOffice.Util.SoMapper.html#SuperOffice_Util_SoMapper__ctor
   name: SoMapper
   nameWithType: SoMapper.SoMapper
   fullName: SuperOffice.Util.SoMapper.SoMapper
-  nameWithType.vb: SoMapper.New
-  fullName.vb: SuperOffice.Util.SoMapper.New
-  name.vb: New
 - uid: SuperOffice.Util.SoMapper.Map*
   commentId: Overload:SuperOffice.Util.SoMapper.Map
   isExternal: true
-  href: SuperOffice.Util.SoMapper.html#SuperOffice_Util_SoMapper_Map__2___0_System_Boolean_
   name: Map
   nameWithType: SoMapper.Map
   fullName: SuperOffice.Util.SoMapper.Map
@@ -1124,13 +813,9 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: '{TResult}'
   commentId: '!:TResult'
   definition: TResult
@@ -1148,14 +833,12 @@ references:
 - uid: SuperOffice.Util.SoMapper.Clone*
   commentId: Overload:SuperOffice.Util.SoMapper.Clone
   isExternal: true
-  href: SuperOffice.Util.SoMapper.html#SuperOffice_Util_SoMapper_Clone__1___0_
   name: Clone
   nameWithType: SoMapper.Clone
   fullName: SuperOffice.Util.SoMapper.Clone
 - uid: SuperOffice.Util.SoMapper.CopyProperties*
   commentId: Overload:SuperOffice.Util.SoMapper.CopyProperties
   isExternal: true
-  href: SuperOffice.Util.SoMapper.html#SuperOffice_Util_SoMapper_CopyProperties__2___0___1_System_Boolean_System_Boolean_System_Boolean_
   name: CopyProperties
   nameWithType: SoMapper.CopyProperties
   fullName: SuperOffice.Util.SoMapper.CopyProperties
@@ -1191,12 +874,18 @@ references:
   name.vb: TSource()
   spec.csharp:
   - name: TSource
-  - name: '['
-  - name: ']'
+    nameWithType: TSource
+    fullName: TSource
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - name: TSource
-  - name: (
-  - name: )
+    nameWithType: TSource
+    fullName: TSource
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: '{TDestination}[]'
   isExternal: true
   name: TDestination[]
@@ -1207,45 +896,44 @@ references:
   name.vb: TDestination()
   spec.csharp:
   - name: TDestination
-  - name: '['
-  - name: ']'
+    nameWithType: TDestination
+    fullName: TDestination
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - name: TDestination
-  - name: (
-  - name: )
+    nameWithType: TDestination
+    fullName: TDestination
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: System.Type
-  commentId: T:System.Type
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.type
   name: Type
   nameWithType: Type
   fullName: System.Type
 - uid: SuperOffice.Util.SoMapper.GetDictionaryKey*
   commentId: Overload:SuperOffice.Util.SoMapper.GetDictionaryKey
   isExternal: true
-  href: SuperOffice.Util.SoMapper.html#SuperOffice_Util_SoMapper_GetDictionaryKey_System_Object_
   name: GetDictionaryKey
   nameWithType: SoMapper.GetDictionaryKey
   fullName: SuperOffice.Util.SoMapper.GetDictionaryKey
 - uid: SuperOffice.Util.SoMapper.GetDictionaryValue*
   commentId: Overload:SuperOffice.Util.SoMapper.GetDictionaryValue
   isExternal: true
-  href: SuperOffice.Util.SoMapper.html#SuperOffice_Util_SoMapper_GetDictionaryValue_System_Object_
   name: GetDictionaryValue
   nameWithType: SoMapper.GetDictionaryValue
   fullName: SuperOffice.Util.SoMapper.GetDictionaryValue
 - uid: SuperOffice.Util.SoMapper.MapValue*
   commentId: Overload:SuperOffice.Util.SoMapper.MapValue
   isExternal: true
-  href: SuperOffice.Util.SoMapper.html#SuperOffice_Util_SoMapper_MapValue_System_Type_System_Type_System_Object_System_Boolean_
   name: MapValue
   nameWithType: SoMapper.MapValue
   fullName: SuperOffice.Util.SoMapper.MapValue
 - uid: SuperOffice.Util.SoMapper.Instance*
   commentId: Overload:SuperOffice.Util.SoMapper.Instance
   isExternal: true
-  href: SuperOffice.Util.SoMapper.html#SuperOffice_Util_SoMapper_Instance
   name: Instance
   nameWithType: SoMapper.Instance
   fullName: SuperOffice.Util.SoMapper.Instance
@@ -1253,7 +941,6 @@ references:
   commentId: T:SuperOffice.Util.SoMapper
   parent: SuperOffice.Util
   isExternal: true
-  href: SuperOffice.Util.SoMapper.html
   name: SoMapper
   nameWithType: SoMapper
   fullName: SuperOffice.Util.SoMapper

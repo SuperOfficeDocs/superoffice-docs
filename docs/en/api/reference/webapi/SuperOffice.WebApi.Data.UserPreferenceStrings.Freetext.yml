@@ -21,24 +21,27 @@ items:
   nameWithType: UserPreferenceStrings.Freetext
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext
   type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Freetext
-  example: []
+  summary: "\nFreetext\n"
   syntax:
-    content: public static class UserPreferenceStrings.Freetext
-    content.vb: Public Module UserPreferenceStrings.Freetext
+    content: 'public static class Freetext : Object'
+    content.vb: >-
+      Public Module Freetext
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext.Section
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext.Section
   id: Section
@@ -50,16 +53,24 @@ items:
   nameWithType: UserPreferenceStrings.Freetext.Section
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext.Section
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Section heading
-  example: []
+  summary: "\nSection heading\n"
   syntax:
     content: public const string Section = "Freetext"
     return:
       type: System.String
     content.vb: Public Const Section As String = "Freetext"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext.AutoEnableTravel
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext.AutoEnableTravel
   id: AutoEnableTravel
@@ -71,19 +82,24 @@ items:
   nameWithType: UserPreferenceStrings.Freetext.AutoEnableTravel
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext.AutoEnableTravel
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Automatically enables freetext search on Travel databases. This will increase the size of local databases and the time required to generate prototypes
-
-    <p></p>Control type: Bool, access: Wizard
-  example: []
+  summary: "\nAutomatically enables freetext search on Travel databases. This will increase the size of local databases and the time required to generate prototypes\n<p></p>Control type: Bool, access: Wizard\n"
   syntax:
     content: public const string AutoEnableTravel = "AutoEnableTravel"
     return:
       type: System.String
     content.vb: Public Const AutoEnableTravel As String = "AutoEnableTravel"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext.Enabled
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext.Enabled
   id: Enabled
@@ -95,19 +111,24 @@ items:
   nameWithType: UserPreferenceStrings.Freetext.Enabled
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext.Enabled
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Enables freetext search
-
-    <p></p>Control type: Bool, access: Wizard
-  example: []
+  summary: "\nEnables freetext search\n<p></p>Control type: Bool, access: Wizard\n"
   syntax:
     content: public const string Enabled = "Enabled"
     return:
       type: System.String
     content.vb: Public Const Enabled As String = "Enabled"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext.LastGenerated
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext.LastGenerated
   id: LastGenerated
@@ -119,16 +140,24 @@ items:
   nameWithType: UserPreferenceStrings.Freetext.LastGenerated
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext.LastGenerated
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: When was last full index run? ISO DateTime set when indexing starts
-  example: []
+  summary: "\nWhen was last full index run? ISO DateTime set when indexing starts\n"
   syntax:
     content: public const string LastGenerated = "LastGenerated"
     return:
       type: System.String
     content.vb: Public Const LastGenerated As String = "LastGenerated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext.MaxSuggestWords
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext.MaxSuggestWords
   id: MaxSuggestWords
@@ -140,19 +169,24 @@ items:
   nameWithType: UserPreferenceStrings.Freetext.MaxSuggestWords
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext.MaxSuggestWords
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Maximum number of different words to be suggested as stopwords in stopword maintenance
-
-    <p></p>Control type: Number, access: Admin, Admin users, Wizard
-  example: []
+  summary: "\nMaximum number of different words to be suggested as stopwords in stopword maintenance\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
   syntax:
     content: public const string MaxSuggestWords = "MaxSuggestWords"
     return:
       type: System.String
     content.vb: Public Const MaxSuggestWords As String = "MaxSuggestWords"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext.MultiWordFTHitLimit
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext.MultiWordFTHitLimit
   id: MultiWordFTHitLimit
@@ -164,19 +198,24 @@ items:
   nameWithType: UserPreferenceStrings.Freetext.MultiWordFTHitLimit
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext.MultiWordFTHitLimit
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Maximum number of hits returned by a multi-word freetext search (0 = no limit)
-
-    <p></p>Control type: Number, access: Admin, Admin users, Wizard
-  example: []
+  summary: "\nMaximum number of hits returned by a multi-word freetext search (0 = no limit)\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
   syntax:
     content: public const string MultiWordFTHitLimit = "MultiWordFTHitLimit"
     return:
       type: System.String
     content.vb: Public Const MultiWordFTHitLimit As String = "MultiWordFTHitLimit"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext.MultiWordFTOperator
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext.MultiWordFTOperator
   id: MultiWordFTOperator
@@ -188,19 +227,24 @@ items:
   nameWithType: UserPreferenceStrings.Freetext.MultiWordFTOperator
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext.MultiWordFTOperator
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Criteria for freetext search on multiple words (1 = contains, 2 = starts with, 3 = exact match)
-
-    <p></p>Control type: List, access: Wizard
-  example: []
+  summary: "\nCriteria for freetext search on multiple words (1 = contains, 2 = starts with, 3 = exact match)\n<p></p>Control type: List, access: Wizard\n"
   syntax:
     content: public const string MultiWordFTOperator = "MultiWordFTOperator"
     return:
       type: System.String
     content.vb: Public Const MultiWordFTOperator As String = "MultiWordFTOperator"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext.SingleWordFTHitLimit
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext.SingleWordFTHitLimit
   id: SingleWordFTHitLimit
@@ -212,19 +256,24 @@ items:
   nameWithType: UserPreferenceStrings.Freetext.SingleWordFTHitLimit
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext.SingleWordFTHitLimit
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Max. number of hits returned by a single-word freetext search (0 = no limit)
-
-    <p></p>Control type: Number, access: Admin, Admin users, Wizard
-  example: []
+  summary: "\nMax. number of hits returned by a single-word freetext search (0 = no limit)\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
   syntax:
     content: public const string SingleWordFTHitLimit = "SingleWordFTHitLimit"
     return:
       type: System.String
     content.vb: Public Const SingleWordFTHitLimit As String = "SingleWordFTHitLimit"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext.SingleWordFTOperator
   commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext.SingleWordFTOperator
   id: SingleWordFTOperator
@@ -236,291 +285,41 @@ items:
   nameWithType: UserPreferenceStrings.Freetext.SingleWordFTOperator
   fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Freetext.SingleWordFTOperator
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Criteria for freetext search on a single word (1 = contains, 2 = starts with, 3 = exact match)
-
-    <p></p>Control type: List, access: Wizard
-  example: []
+  summary: "\nCriteria for freetext search on a single word (1 = contains, 2 = starts with, 3 = exact match)\n<p></p>Control type: List, access: Wizard\n"
   syntax:
     content: public const string SingleWordFTOperator = "SingleWordFTOperator"
     return:
       type: System.String
     content.vb: Public Const SingleWordFTOperator As String = "SingleWordFTOperator"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -528,10 +327,6 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String

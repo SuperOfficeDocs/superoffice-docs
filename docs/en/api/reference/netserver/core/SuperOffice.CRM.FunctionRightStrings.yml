@@ -36,6 +36,7 @@ items:
   - SuperOffice.CRM.FunctionRightStrings.AllowDictionarySDK
   - SuperOffice.CRM.FunctionRightStrings.AllowReadonlyOverride
   - SuperOffice.CRM.FunctionRightStrings.AllowSendEMail
+  - SuperOffice.CRM.FunctionRightStrings.CanApproveQuote
   - SuperOffice.CRM.FunctionRightStrings.CSCategories
   - SuperOffice.CRM.FunctionRightStrings.CSChangePref
   - SuperOffice.CRM.FunctionRightStrings.CSChangeProfile
@@ -55,7 +56,6 @@ items:
   - SuperOffice.CRM.FunctionRightStrings.CSReadSelections
   - SuperOffice.CRM.FunctionRightStrings.CSStatistics
   - SuperOffice.CRM.FunctionRightStrings.CSSystem
-  - SuperOffice.CRM.FunctionRightStrings.CanApproveQuote
   - SuperOffice.CRM.FunctionRightStrings.DefineNewTags
   - SuperOffice.CRM.FunctionRightStrings.ExtNeedPublishToSeeAppointment
   - SuperOffice.CRM.FunctionRightStrings.ExtNeedPublishToSeeDocument
@@ -85,24 +85,27 @@ items:
   nameWithType: FunctionRightStrings
   fullName: SuperOffice.CRM.FunctionRightStrings
   type: Class
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: The programmatic, well-known and constant names of functional rights
-  example: []
+  summary: "\nThe programmatic, well-known and constant names of functional rights\n"
   syntax:
-    content: public static class FunctionRightStrings
-    content.vb: Public Module FunctionRightStrings
+    content: 'public static class FunctionRightStrings : Object'
+    content.vb: >-
+      Public Module FunctionRightStrings
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
 - uid: SuperOffice.CRM.FunctionRightStrings.AdminAll
   commentId: F:SuperOffice.CRM.FunctionRightStrings.AdminAll
   id: AdminAll
@@ -114,16 +117,24 @@ items:
   nameWithType: FunctionRightStrings.AdminAll
   fullName: SuperOffice.CRM.FunctionRightStrings.AdminAll
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: General admin rights, gives access to all panels of the admin client
-  example: []
+  summary: "\nGeneral admin rights, gives access to all panels of the admin client\n"
   syntax:
     content: public const string AdminAll = "admin-all"
     return:
       type: System.String
     content.vb: Public Const AdminAll As String = "admin-all"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.AdminLists
   commentId: F:SuperOffice.CRM.FunctionRightStrings.AdminLists
   id: AdminLists
@@ -135,16 +146,24 @@ items:
   nameWithType: FunctionRightStrings.AdminLists
   fullName: SuperOffice.CRM.FunctionRightStrings.AdminLists
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: List admin rights, gives access to the Lists panel of the admin client
-  example: []
+  summary: "\nList admin rights, gives access to the Lists panel of the admin client\n"
   syntax:
     content: public const string AdminLists = "admin-lists"
     return:
       type: System.String
     content.vb: Public Const AdminLists As String = "admin-lists"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.AdminUsers
   commentId: F:SuperOffice.CRM.FunctionRightStrings.AdminUsers
   id: AdminUsers
@@ -156,16 +175,24 @@ items:
   nameWithType: FunctionRightStrings.AdminUsers
   fullName: SuperOffice.CRM.FunctionRightStrings.AdminUsers
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: User admin rights, gives access to the users panel of the admin client
-  example: []
+  summary: "\nUser admin rights, gives access to the users panel of the admin client\n"
   syntax:
     content: public const string AdminUsers = "admin-users"
     return:
       type: System.String
     content.vb: Public Const AdminUsers As String = "admin-users"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.AdminReplication
   commentId: F:SuperOffice.CRM.FunctionRightStrings.AdminReplication
   id: AdminReplication
@@ -177,16 +204,24 @@ items:
   nameWithType: FunctionRightStrings.AdminReplication
   fullName: SuperOffice.CRM.FunctionRightStrings.AdminReplication
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: Replication admin rights, gives access to the area and satellite panel of the admin client
-  example: []
+  summary: "\nReplication admin rights, gives access to the area and satellite panel of the admin client\n"
   syntax:
     content: public const string AdminReplication = "admin-replication"
     return:
       type: System.String
     content.vb: Public Const AdminReplication As String = "admin-replication"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.AdminRole
   commentId: F:SuperOffice.CRM.FunctionRightStrings.AdminRole
   id: AdminRole
@@ -198,16 +233,24 @@ items:
   nameWithType: FunctionRightStrings.AdminRole
   fullName: SuperOffice.CRM.FunctionRightStrings.AdminRole
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: Role admin rights, gives access to the Role panel of the admin client
-  example: []
+  summary: "\nRole admin rights, gives access to the Role panel of the admin client\n"
   syntax:
     content: public const string AdminRole = "admin-role"
     return:
       type: System.String
     content.vb: Public Const AdminRole As String = "admin-role"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.AdminWorkflow
   commentId: F:SuperOffice.CRM.FunctionRightStrings.AdminWorkflow
   id: AdminWorkflow
@@ -219,16 +262,24 @@ items:
   nameWithType: FunctionRightStrings.AdminWorkflow
   fullName: SuperOffice.CRM.FunctionRightStrings.AdminWorkflow
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: Sale admin righst, gives access to the Sale panel of the admin client
-  example: []
+  summary: "\nSale admin righst, gives access to the Sale panel of the admin client\n"
   syntax:
     content: public const string AdminWorkflow = "admin-workflow"
     return:
       type: System.String
     content.vb: Public Const AdminWorkflow As String = "admin-workflow"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.AdminProducts
   commentId: F:SuperOffice.CRM.FunctionRightStrings.AdminProducts
   id: AdminProducts
@@ -240,16 +291,24 @@ items:
   nameWithType: FunctionRightStrings.AdminProducts
   fullName: SuperOffice.CRM.FunctionRightStrings.AdminProducts
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: Products admin righst, gives access to the Products panel of the admin client
-  example: []
+  summary: "\nProducts admin righst, gives access to the Products panel of the admin client\n"
   syntax:
     content: public const string AdminProducts = "admin-products"
     return:
       type: System.String
     content.vb: Public Const AdminProducts As String = "admin-products"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.AdminPreferences
   commentId: F:SuperOffice.CRM.FunctionRightStrings.AdminPreferences
   id: AdminPreferences
@@ -261,16 +320,24 @@ items:
   nameWithType: FunctionRightStrings.AdminPreferences
   fullName: SuperOffice.CRM.FunctionRightStrings.AdminPreferences
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: Preferences admin righst, gives access to the Preferences panel of the admin client
-  example: []
+  summary: "\nPreferences admin righst, gives access to the Preferences panel of the admin client\n"
   syntax:
     content: public const string AdminPreferences = "admin-preferences"
     return:
       type: System.String
     content.vb: Public Const AdminPreferences As String = "admin-preferences"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.AdminScript
   commentId: F:SuperOffice.CRM.FunctionRightStrings.AdminScript
   id: AdminScript
@@ -282,16 +349,24 @@ items:
   nameWithType: FunctionRightStrings.AdminScript
   fullName: SuperOffice.CRM.FunctionRightStrings.AdminScript
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: Script admin righst, gives access to the Script panel of the admin client
-  example: []
+  summary: "\nScript admin righst, gives access to the Script panel of the admin client\n"
   syntax:
     content: public const string AdminScript = "admin-script"
     return:
       type: System.String
     content.vb: Public Const AdminScript As String = "admin-script"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.AdminQuote
   commentId: F:SuperOffice.CRM.FunctionRightStrings.AdminQuote
   id: AdminQuote
@@ -303,16 +378,24 @@ items:
   nameWithType: FunctionRightStrings.AdminQuote
   fullName: SuperOffice.CRM.FunctionRightStrings.AdminQuote
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: Quote admin rights, gives access to the Quote panel of the admin client
-  example: []
+  summary: "\nQuote admin rights, gives access to the Quote panel of the admin client\n"
   syntax:
     content: public const string AdminQuote = "admin-quote"
     return:
       type: System.String
     content.vb: Public Const AdminQuote As String = "admin-quote"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.AdminWebhooks
   commentId: F:SuperOffice.CRM.FunctionRightStrings.AdminWebhooks
   id: AdminWebhooks
@@ -324,16 +407,24 @@ items:
   nameWithType: FunctionRightStrings.AdminWebhooks
   fullName: SuperOffice.CRM.FunctionRightStrings.AdminWebhooks
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: Webhook admin rights, gives ability to save+delete+test webhooks
-  example: []
+  summary: "\nWebhook admin rights, gives ability to save+delete+test webhooks\n"
   syntax:
     content: public const string AdminWebhooks = "admin-webhooks"
     return:
       type: System.String
     content.vb: Public Const AdminWebhooks As String = "admin-webhooks"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.AllowReadonlyOverride
   commentId: F:SuperOffice.CRM.FunctionRightStrings.AllowReadonlyOverride
   id: AllowReadonlyOverride
@@ -345,16 +436,24 @@ items:
   nameWithType: FunctionRightStrings.AllowReadonlyOverride
   fullName: SuperOffice.CRM.FunctionRightStrings.AllowReadonlyOverride
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: A user who has this right is allowed to write to read-only udef fields
-  example: []
+  summary: "\nA user who has this right is allowed to write to read-only udef fields\n"
   syntax:
     content: public const string AllowReadonlyOverride = "allow-readonly-override"
     return:
       type: System.String
     content.vb: Public Const AllowReadonlyOverride As String = "allow-readonly-override"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.HideCompany
   commentId: F:SuperOffice.CRM.FunctionRightStrings.HideCompany
   id: HideCompany
@@ -366,16 +465,24 @@ items:
   nameWithType: FunctionRightStrings.HideCompany
   fullName: SuperOffice.CRM.FunctionRightStrings.HideCompany
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: A user who has this right will NOT see the company panel. This supersedes the corresponding 'Cripple' preference
-  example: []
+  summary: "\nA user who has this right will NOT see the company panel. This supersedes the corresponding &apos;Cripple&apos; preference\n"
   syntax:
     content: public const string HideCompany = "hide-company"
     return:
       type: System.String
     content.vb: Public Const HideCompany As String = "hide-company"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.HideSale
   commentId: F:SuperOffice.CRM.FunctionRightStrings.HideSale
   id: HideSale
@@ -387,16 +494,24 @@ items:
   nameWithType: FunctionRightStrings.HideSale
   fullName: SuperOffice.CRM.FunctionRightStrings.HideSale
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: A user who has this right will NOT see the sale dialog. This supersedes the corresponding 'Cripple' preference
-  example: []
+  summary: "\nA user who has this right will NOT see the sale dialog. This supersedes the corresponding &apos;Cripple&apos; preference\n"
   syntax:
     content: public const string HideSale = "hide-sale"
     return:
       type: System.String
     content.vb: Public Const HideSale As String = "hide-sale"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.HideProject
   commentId: F:SuperOffice.CRM.FunctionRightStrings.HideProject
   id: HideProject
@@ -408,16 +523,24 @@ items:
   nameWithType: FunctionRightStrings.HideProject
   fullName: SuperOffice.CRM.FunctionRightStrings.HideProject
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: A user who has this right will NOT see the project panel. This supersedes the corresponding 'Cripple' preference
-  example: []
+  summary: "\nA user who has this right will NOT see the project panel. This supersedes the corresponding &apos;Cripple&apos; preference\n"
   syntax:
     content: public const string HideProject = "hide-project"
     return:
       type: System.String
     content.vb: Public Const HideProject As String = "hide-project"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.HideInbox
   commentId: F:SuperOffice.CRM.FunctionRightStrings.HideInbox
   id: HideInbox
@@ -429,16 +552,24 @@ items:
   nameWithType: FunctionRightStrings.HideInbox
   fullName: SuperOffice.CRM.FunctionRightStrings.HideInbox
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: A user who has this right will NOT see the inbox panel. This supersedes the corresponding 'Cripple' preference
-  example: []
+  summary: "\nA user who has this right will NOT see the inbox panel. This supersedes the corresponding &apos;Cripple&apos; preference\n"
   syntax:
     content: public const string HideInbox = "hide-inbox"
     return:
       type: System.String
     content.vb: Public Const HideInbox As String = "hide-inbox"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.HideSelection
   commentId: F:SuperOffice.CRM.FunctionRightStrings.HideSelection
   id: HideSelection
@@ -450,16 +581,24 @@ items:
   nameWithType: FunctionRightStrings.HideSelection
   fullName: SuperOffice.CRM.FunctionRightStrings.HideSelection
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: A user who has this right will NOT see the selection panel. This supersedes the corresponding 'Cripple' preference
-  example: []
+  summary: "\nA user who has this right will NOT see the selection panel. This supersedes the corresponding &apos;Cripple&apos; preference\n"
   syntax:
     content: public const string HideSelection = "hide-selection"
     return:
       type: System.String
     content.vb: Public Const HideSelection As String = "hide-selection"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.HideReporter
   commentId: F:SuperOffice.CRM.FunctionRightStrings.HideReporter
   id: HideReporter
@@ -471,23 +610,24 @@ items:
   nameWithType: FunctionRightStrings.HideReporter
   fullName: SuperOffice.CRM.FunctionRightStrings.HideReporter
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: >-
-    A user who has this right will NOT see the reporter panel. This supersedes the corresponding 'Cripple' preference.
-
-    NOTE: This right can be programmatically set if the featuretoggle DisableReporter is on, OR we are running in Azure.
-
-    It's injected into the FunctionRightCache by code in its OnLoad; if that happens then it will also not be visible in Admin.
-
-    If such programmatic setting is not triggered, ordinary settings through Admin still work.
-  example: []
+  summary: "\nA user who has this right will NOT see the reporter panel. This supersedes the corresponding &apos;Cripple&apos; preference.\nNOTE: This right can be programmatically set if the featuretoggle DisableReporter is on, OR we are running in Azure.\nIt&apos;s injected into the FunctionRightCache by code in its OnLoad; if that happens then it will also not be visible in Admin.\nIf such programmatic setting is not triggered, ordinary settings through Admin still work.\n"
   syntax:
     content: public const string HideReporter = "hide-reporter"
     return:
       type: System.String
     content.vb: Public Const HideReporter As String = "hide-reporter"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.AllowBulkMailmerge
   commentId: F:SuperOffice.CRM.FunctionRightStrings.AllowBulkMailmerge
   id: AllowBulkMailmerge
@@ -499,16 +639,24 @@ items:
   nameWithType: FunctionRightStrings.AllowBulkMailmerge
   fullName: SuperOffice.CRM.FunctionRightStrings.AllowBulkMailmerge
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: A user who has this right, CAN do bulk mail merge based on selections
-  example: []
+  summary: "\nA user who has this right, CAN do bulk mail merge based on selections\n"
   syntax:
     content: public const string AllowBulkMailmerge = "allow-bulk-mailmerge"
     return:
       type: System.String
     content.vb: Public Const AllowBulkMailmerge As String = "allow-bulk-mailmerge"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.AllowBulkExport
   commentId: F:SuperOffice.CRM.FunctionRightStrings.AllowBulkExport
   id: AllowBulkExport
@@ -520,16 +668,24 @@ items:
   nameWithType: FunctionRightStrings.AllowBulkExport
   fullName: SuperOffice.CRM.FunctionRightStrings.AllowBulkExport
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: A user who has this right, CAN do bulk export based on selections
-  example: []
+  summary: "\nA user who has this right, CAN do bulk export based on selections\n"
   syntax:
     content: public const string AllowBulkExport = "allow-bulk-export"
     return:
       type: System.String
     content.vb: Public Const AllowBulkExport As String = "allow-bulk-export"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.AllowBulkGenerateActivities
   commentId: F:SuperOffice.CRM.FunctionRightStrings.AllowBulkGenerateActivities
   id: AllowBulkGenerateActivities
@@ -541,16 +697,24 @@ items:
   nameWithType: FunctionRightStrings.AllowBulkGenerateActivities
   fullName: SuperOffice.CRM.FunctionRightStrings.AllowBulkGenerateActivities
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: A user who has this right, CAN do bulk activity generation based on selections
-  example: []
+  summary: "\nA user who has this right, CAN do bulk activity generation based on selections\n"
   syntax:
     content: public const string AllowBulkGenerateActivities = "allow-bulk-generate-activities"
     return:
       type: System.String
     content.vb: Public Const AllowBulkGenerateActivities As String = "allow-bulk-generate-activities"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.AllowBulkCopyMembers
   commentId: F:SuperOffice.CRM.FunctionRightStrings.AllowBulkCopyMembers
   id: AllowBulkCopyMembers
@@ -562,16 +726,24 @@ items:
   nameWithType: FunctionRightStrings.AllowBulkCopyMembers
   fullName: SuperOffice.CRM.FunctionRightStrings.AllowBulkCopyMembers
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: A user who has this right, CAN do bulk member copy based on selections
-  example: []
+  summary: "\nA user who has this right, CAN do bulk member copy based on selections\n"
   syntax:
     content: public const string AllowBulkCopyMembers = "allow-bulk-copy-members"
     return:
       type: System.String
     content.vb: Public Const AllowBulkCopyMembers As String = "allow-bulk-copy-members"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.AllowBulkEdit
   commentId: F:SuperOffice.CRM.FunctionRightStrings.AllowBulkEdit
   id: AllowBulkEdit
@@ -583,16 +755,24 @@ items:
   nameWithType: FunctionRightStrings.AllowBulkEdit
   fullName: SuperOffice.CRM.FunctionRightStrings.AllowBulkEdit
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: A user who has this right, CAN do bulk edit based on selections
-  example: []
+  summary: "\nA user who has this right, CAN do bulk edit based on selections\n"
   syntax:
     content: public const string AllowBulkEdit = "allow-bulk-edit"
     return:
       type: System.String
     content.vb: Public Const AllowBulkEdit As String = "allow-bulk-edit"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.AllowBulkDelete
   commentId: F:SuperOffice.CRM.FunctionRightStrings.AllowBulkDelete
   id: AllowBulkDelete
@@ -604,16 +784,24 @@ items:
   nameWithType: FunctionRightStrings.AllowBulkDelete
   fullName: SuperOffice.CRM.FunctionRightStrings.AllowBulkDelete
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: A user who has this right, CAN do bulk delete based on selections
-  example: []
+  summary: "\nA user who has this right, CAN do bulk delete based on selections\n"
   syntax:
     content: public const string AllowBulkDelete = "allow-bulk-delete"
     return:
       type: System.String
     content.vb: Public Const AllowBulkDelete As String = "allow-bulk-delete"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.AllowBulkInterests
   commentId: F:SuperOffice.CRM.FunctionRightStrings.AllowBulkInterests
   id: AllowBulkInterests
@@ -625,16 +813,24 @@ items:
   nameWithType: FunctionRightStrings.AllowBulkInterests
   fullName: SuperOffice.CRM.FunctionRightStrings.AllowBulkInterests
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: A user who has this right, CAN do bulk interest generation based on selections
-  example: []
+  summary: "\nA user who has this right, CAN do bulk interest generation based on selections\n"
   syntax:
     content: public const string AllowBulkInterests = "allow-bulk-interests"
     return:
       type: System.String
     content.vb: Public Const AllowBulkInterests As String = "allow-bulk-interests"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.AllowBulkEmail
   commentId: F:SuperOffice.CRM.FunctionRightStrings.AllowBulkEmail
   id: AllowBulkEmail
@@ -646,16 +842,24 @@ items:
   nameWithType: FunctionRightStrings.AllowBulkEmail
   fullName: SuperOffice.CRM.FunctionRightStrings.AllowBulkEmail
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: A user who has this right, CAN do bulk email sending based on selections
-  example: []
+  summary: "\nA user who has this right, CAN do bulk email sending based on selections\n"
   syntax:
     content: public const string AllowBulkEmail = "allow-bulk-email"
     return:
       type: System.String
     content.vb: Public Const AllowBulkEmail As String = "allow-bulk-email"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.AllowBulkUserApplications
   commentId: F:SuperOffice.CRM.FunctionRightStrings.AllowBulkUserApplications
   id: AllowBulkUserApplications
@@ -667,16 +871,24 @@ items:
   nameWithType: FunctionRightStrings.AllowBulkUserApplications
   fullName: SuperOffice.CRM.FunctionRightStrings.AllowBulkUserApplications
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: A user who has this right, CAN use user-defined bulk tasks based on selections
-  example: []
+  summary: "\nA user who has this right, CAN use user-defined bulk tasks based on selections\n"
   syntax:
     content: public const string AllowBulkUserApplications = "allow-bulk-user-applications"
     return:
       type: System.String
     content.vb: Public Const AllowBulkUserApplications As String = "allow-bulk-user-applications"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.SeeOtherCompaniesAssociates
   commentId: F:SuperOffice.CRM.FunctionRightStrings.SeeOtherCompaniesAssociates
   id: SeeOtherCompaniesAssociates
@@ -688,16 +900,24 @@ items:
   nameWithType: FunctionRightStrings.SeeOtherCompaniesAssociates
   fullName: SuperOffice.CRM.FunctionRightStrings.SeeOtherCompaniesAssociates
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: A user who has this right, CAN see associates belonging to other company cards than his own
-  example: []
+  summary: "\nA user who has this right, CAN see associates belonging to other company cards than his own\n"
   syntax:
     content: public const string SeeOtherCompaniesAssociates = "see-other-companies-associates"
     return:
       type: System.String
     content.vb: Public Const SeeOtherCompaniesAssociates As String = "see-other-companies-associates"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.AdminSaintRegeneration
   commentId: F:SuperOffice.CRM.FunctionRightStrings.AdminSaintRegeneration
   id: AdminSaintRegeneration
@@ -709,16 +929,24 @@ items:
   nameWithType: FunctionRightStrings.AdminSaintRegeneration
   fullName: SuperOffice.CRM.FunctionRightStrings.AdminSaintRegeneration
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: A user who has this right, CAN regenerate saint counters and statuses in the admin client (global regeneration)
-  example: []
+  summary: "\nA user who has this right, CAN regenerate saint counters and statuses in the admin client (global regeneration)\n"
   syntax:
     content: public const string AdminSaintRegeneration = "admin-saint-regeneration"
     return:
       type: System.String
     content.vb: Public Const AdminSaintRegeneration As String = "admin-saint-regeneration"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.AdminSaintDefinition
   commentId: F:SuperOffice.CRM.FunctionRightStrings.AdminSaintDefinition
   id: AdminSaintDefinition
@@ -730,16 +958,24 @@ items:
   nameWithType: FunctionRightStrings.AdminSaintDefinition
   fullName: SuperOffice.CRM.FunctionRightStrings.AdminSaintDefinition
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: /// A user who has this right, CAN define saint statuses
-  example: []
+  summary: "\n/// A user who has this right, CAN define saint statuses\n"
   syntax:
     content: public const string AdminSaintDefinition = "admin-saint-definition"
     return:
       type: System.String
     content.vb: Public Const AdminSaintDefinition As String = "admin-saint-definition"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.AllowDictionarySDK
   commentId: F:SuperOffice.CRM.FunctionRightStrings.AllowDictionarySDK
   id: AllowDictionarySDK
@@ -751,16 +987,24 @@ items:
   nameWithType: FunctionRightStrings.AllowDictionarySDK
   fullName: SuperOffice.CRM.FunctionRightStrings.AllowDictionarySDK
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: A user who has this right, CAN use the dictionary SDK to programatically change the dictionary
-  example: []
+  summary: "\nA user who has this right, CAN use the dictionary SDK to programatically change the dictionary\n"
   syntax:
     content: public const string AllowDictionarySDK = "allow-dictionarySDK"
     return:
       type: System.String
     content.vb: Public Const AllowDictionarySDK As String = "allow-dictionarySDK"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.AdminUdef
   commentId: F:SuperOffice.CRM.FunctionRightStrings.AdminUdef
   id: AdminUdef
@@ -772,16 +1016,24 @@ items:
   nameWithType: FunctionRightStrings.AdminUdef
   fullName: SuperOffice.CRM.FunctionRightStrings.AdminUdef
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: Udef admin rights, gives access to the Udef (fields) panel of the admin client
-  example: []
+  summary: "\nUdef admin rights, gives access to the Udef (fields) panel of the admin client\n"
   syntax:
     content: public const string AdminUdef = "admin-udef"
     return:
       type: System.String
     content.vb: Public Const AdminUdef As String = "admin-udef"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.AdminImport
   commentId: F:SuperOffice.CRM.FunctionRightStrings.AdminImport
   id: AdminImport
@@ -793,16 +1045,24 @@ items:
   nameWithType: FunctionRightStrings.AdminImport
   fullName: SuperOffice.CRM.FunctionRightStrings.AdminImport
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: Import admin rights, gives access to the Import panel of the admin client
-  example: []
+  summary: "\nImport admin rights, gives access to the Import panel of the admin client\n"
   syntax:
     content: public const string AdminImport = "admin-import"
     return:
       type: System.String
     content.vb: Public Const AdminImport As String = "admin-import"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.ExtNeedPublishToSeeProject
   commentId: F:SuperOffice.CRM.FunctionRightStrings.ExtNeedPublishToSeeProject
   id: ExtNeedPublishToSeeProject
@@ -814,16 +1074,24 @@ items:
   nameWithType: FunctionRightStrings.ExtNeedPublishToSeeProject
   fullName: SuperOffice.CRM.FunctionRightStrings.ExtNeedPublishToSeeProject
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: External users can only see published projects
-  example: []
+  summary: "\nExternal users can only see published projects\n"
   syntax:
     content: public const string ExtNeedPublishToSeeProject = "ext-need-publish-to-see-project"
     return:
       type: System.String
     content.vb: Public Const ExtNeedPublishToSeeProject As String = "ext-need-publish-to-see-project"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.ExtNeedPublishToSeeAppointment
   commentId: F:SuperOffice.CRM.FunctionRightStrings.ExtNeedPublishToSeeAppointment
   id: ExtNeedPublishToSeeAppointment
@@ -835,16 +1103,24 @@ items:
   nameWithType: FunctionRightStrings.ExtNeedPublishToSeeAppointment
   fullName: SuperOffice.CRM.FunctionRightStrings.ExtNeedPublishToSeeAppointment
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: External users can only see published appointments
-  example: []
+  summary: "\nExternal users can only see published appointments\n"
   syntax:
     content: public const string ExtNeedPublishToSeeAppointment = "ext-need-publish-to-see-appointment"
     return:
       type: System.String
     content.vb: Public Const ExtNeedPublishToSeeAppointment As String = "ext-need-publish-to-see-appointment"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.ExtNeedPublishToSeeDocument
   commentId: F:SuperOffice.CRM.FunctionRightStrings.ExtNeedPublishToSeeDocument
   id: ExtNeedPublishToSeeDocument
@@ -856,16 +1132,24 @@ items:
   nameWithType: FunctionRightStrings.ExtNeedPublishToSeeDocument
   fullName: SuperOffice.CRM.FunctionRightStrings.ExtNeedPublishToSeeDocument
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: External users can only see published documents
-  example: []
+  summary: "\nExternal users can only see published documents\n"
   syntax:
     content: public const string ExtNeedPublishToSeeDocument = "ext-need-publish-to-see-document"
     return:
       type: System.String
     content.vb: Public Const ExtNeedPublishToSeeDocument As String = "ext-need-publish-to-see-document"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.ExtNeedPublishToSeeSale
   commentId: F:SuperOffice.CRM.FunctionRightStrings.ExtNeedPublishToSeeSale
   id: ExtNeedPublishToSeeSale
@@ -877,16 +1161,24 @@ items:
   nameWithType: FunctionRightStrings.ExtNeedPublishToSeeSale
   fullName: SuperOffice.CRM.FunctionRightStrings.ExtNeedPublishToSeeSale
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: External users can only see published sales
-  example: []
+  summary: "\nExternal users can only see published sales\n"
   syntax:
     content: public const string ExtNeedPublishToSeeSale = "ext-need-publish-to-see-sale"
     return:
       type: System.String
     content.vb: Public Const ExtNeedPublishToSeeSale As String = "ext-need-publish-to-see-sale"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.ExtSeeEventProjects
   commentId: F:SuperOffice.CRM.FunctionRightStrings.ExtSeeEventProjects
   id: ExtSeeEventProjects
@@ -898,16 +1190,24 @@ items:
   nameWithType: FunctionRightStrings.ExtSeeEventProjects
   fullName: SuperOffice.CRM.FunctionRightStrings.ExtSeeEventProjects
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: External users can only see projects that have Events
-  example: []
+  summary: "\nExternal users can only see projects that have Events\n"
   syntax:
     content: public const string ExtSeeEventProjects = "ext-see-event-projects"
     return:
       type: System.String
     content.vb: Public Const ExtSeeEventProjects As String = "ext-see-event-projects"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.ExtUseMyCompanyRights
   commentId: F:SuperOffice.CRM.FunctionRightStrings.ExtUseMyCompanyRights
   id: ExtUseMyCompanyRights
@@ -919,16 +1219,24 @@ items:
   nameWithType: FunctionRightStrings.ExtUseMyCompanyRights
   fullName: SuperOffice.CRM.FunctionRightStrings.ExtUseMyCompanyRights
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: ''
-  example: []
+  summary: "\n\n"
   syntax:
     content: public const string ExtUseMyCompanyRights = "ext-use-my-company-rights"
     return:
       type: System.String
     content.vb: Public Const ExtUseMyCompanyRights As String = "ext-use-my-company-rights"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.ExtUseSameProjectRights
   commentId: F:SuperOffice.CRM.FunctionRightStrings.ExtUseSameProjectRights
   id: ExtUseSameProjectRights
@@ -940,16 +1248,24 @@ items:
   nameWithType: FunctionRightStrings.ExtUseSameProjectRights
   fullName: SuperOffice.CRM.FunctionRightStrings.ExtUseSameProjectRights
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: ''
-  example: []
+  summary: "\n\n"
   syntax:
     content: public const string ExtUseSameProjectRights = "ext-use-same-project-rights"
     return:
       type: System.String
     content.vb: Public Const ExtUseSameProjectRights As String = "ext-use-same-project-rights"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.AdminAudience
   commentId: F:SuperOffice.CRM.FunctionRightStrings.AdminAudience
   id: AdminAudience
@@ -961,16 +1277,24 @@ items:
   nameWithType: FunctionRightStrings.AdminAudience
   fullName: SuperOffice.CRM.FunctionRightStrings.AdminAudience
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: Admin rights for audience
-  example: []
+  summary: "\nAdmin rights for audience\n"
   syntax:
     content: public const string AdminAudience = "admin-audience"
     return:
       type: System.String
     content.vb: Public Const AdminAudience As String = "admin-audience"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.SyncadminAll
   commentId: F:SuperOffice.CRM.FunctionRightStrings.SyncadminAll
   id: SyncadminAll
@@ -982,16 +1306,24 @@ items:
   nameWithType: FunctionRightStrings.SyncadminAll
   fullName: SuperOffice.CRM.FunctionRightStrings.SyncadminAll
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: General admin rights for sync modules
-  example: []
+  summary: "\nGeneral admin rights for sync modules\n"
   syntax:
     content: public const string SyncadminAll = "syncadmin-all"
     return:
       type: System.String
     content.vb: Public Const SyncadminAll As String = "syncadmin-all"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.SyncadminUser
   commentId: F:SuperOffice.CRM.FunctionRightStrings.SyncadminUser
   id: SyncadminUser
@@ -1003,16 +1335,24 @@ items:
   nameWithType: FunctionRightStrings.SyncadminUser
   fullName: SuperOffice.CRM.FunctionRightStrings.SyncadminUser
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: User admin rights for sync modules
-  example: []
+  summary: "\nUser admin rights for sync modules\n"
   syntax:
     content: public const string SyncadminUser = "syncadmin-user"
     return:
       type: System.String
     content.vb: Public Const SyncadminUser As String = "syncadmin-user"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.ManageEntities
   commentId: F:SuperOffice.CRM.FunctionRightStrings.ManageEntities
   id: ManageEntities
@@ -1024,16 +1364,24 @@ items:
   nameWithType: FunctionRightStrings.ManageEntities
   fullName: SuperOffice.CRM.FunctionRightStrings.ManageEntities
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: Manage (i.e.,  copy, move or merge) entities, such as Contact, Person, Project
-  example: []
+  summary: "\nManage (i.e.,  copy, move or merge) entities, such as Contact, Person, Project\n"
   syntax:
     content: public const string ManageEntities = "allow-manage-entities"
     return:
       type: System.String
     content.vb: Public Const ManageEntities As String = "allow-manage-entities"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.CanApproveQuote
   commentId: F:SuperOffice.CRM.FunctionRightStrings.CanApproveQuote
   id: CanApproveQuote
@@ -1045,16 +1393,24 @@ items:
   nameWithType: FunctionRightStrings.CanApproveQuote
   fullName: SuperOffice.CRM.FunctionRightStrings.CanApproveQuote
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: Approving of a quote
-  example: []
+  summary: "\nApproving of a quote\n"
   syntax:
     content: public const string CanApproveQuote = "quote-can-approve"
     return:
       type: System.String
     content.vb: Public Const CanApproveQuote As String = "quote-can-approve"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.CSListOwn
   commentId: F:SuperOffice.CRM.FunctionRightStrings.CSListOwn
   id: CSListOwn
@@ -1066,16 +1422,24 @@ items:
   nameWithType: FunctionRightStrings.CSListOwn
   fullName: SuperOffice.CRM.FunctionRightStrings.CSListOwn
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: List requests in own categories
-  example: []
+  summary: "\nList requests in own categories\n"
   syntax:
     content: public const string CSListOwn = "cs-listown"
     return:
       type: System.String
     content.vb: Public Const CSListOwn As String = "cs-listown"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.CSReadOwn
   commentId: F:SuperOffice.CRM.FunctionRightStrings.CSReadOwn
   id: CSReadOwn
@@ -1087,16 +1451,24 @@ items:
   nameWithType: FunctionRightStrings.CSReadOwn
   fullName: SuperOffice.CRM.FunctionRightStrings.CSReadOwn
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: Read requests in own categories
-  example: []
+  summary: "\nRead requests in own categories\n"
   syntax:
     content: public const string CSReadOwn = "cs-readown"
     return:
       type: System.String
     content.vb: Public Const CSReadOwn As String = "cs-readown"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.CSEditOwn
   commentId: F:SuperOffice.CRM.FunctionRightStrings.CSEditOwn
   id: CSEditOwn
@@ -1108,16 +1480,24 @@ items:
   nameWithType: FunctionRightStrings.CSEditOwn
   fullName: SuperOffice.CRM.FunctionRightStrings.CSEditOwn
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: Edit requests in member categories
-  example: []
+  summary: "\nEdit requests in member categories\n"
   syntax:
     content: public const string CSEditOwn = "cs-editown"
     return:
       type: System.String
     content.vb: Public Const CSEditOwn As String = "cs-editown"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.CSListOthers
   commentId: F:SuperOffice.CRM.FunctionRightStrings.CSListOthers
   id: CSListOthers
@@ -1129,16 +1509,24 @@ items:
   nameWithType: FunctionRightStrings.CSListOthers
   fullName: SuperOffice.CRM.FunctionRightStrings.CSListOthers
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: List all requests
-  example: []
+  summary: "\nList all requests\n"
   syntax:
     content: public const string CSListOthers = "cs-listothers"
     return:
       type: System.String
     content.vb: Public Const CSListOthers As String = "cs-listothers"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.CSReadOthers
   commentId: F:SuperOffice.CRM.FunctionRightStrings.CSReadOthers
   id: CSReadOthers
@@ -1150,16 +1538,24 @@ items:
   nameWithType: FunctionRightStrings.CSReadOthers
   fullName: SuperOffice.CRM.FunctionRightStrings.CSReadOthers
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: Read all requests
-  example: []
+  summary: "\nRead all requests\n"
   syntax:
     content: public const string CSReadOthers = "cs-readothers"
     return:
       type: System.String
     content.vb: Public Const CSReadOthers As String = "cs-readothers"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.CSEditOthers
   commentId: F:SuperOffice.CRM.FunctionRightStrings.CSEditOthers
   id: CSEditOthers
@@ -1171,16 +1567,24 @@ items:
   nameWithType: FunctionRightStrings.CSEditOthers
   fullName: SuperOffice.CRM.FunctionRightStrings.CSEditOthers
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: Edit all requests
-  example: []
+  summary: "\nEdit all requests\n"
   syntax:
     content: public const string CSEditOthers = "cs-editothers"
     return:
       type: System.String
     content.vb: Public Const CSEditOthers As String = "cs-editothers"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.CSPostToFacebook
   commentId: F:SuperOffice.CRM.FunctionRightStrings.CSPostToFacebook
   id: CSPostToFacebook
@@ -1192,16 +1596,24 @@ items:
   nameWithType: FunctionRightStrings.CSPostToFacebook
   fullName: SuperOffice.CRM.FunctionRightStrings.CSPostToFacebook
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: Facebook
-  example: []
+  summary: "\nFacebook\n"
   syntax:
     content: public const string CSPostToFacebook = "cs-posttofacebook"
     return:
       type: System.String
     content.vb: Public Const CSPostToFacebook As String = "cs-posttofacebook"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.CSDocument
   commentId: F:SuperOffice.CRM.FunctionRightStrings.CSDocument
   id: CSDocument
@@ -1213,16 +1625,24 @@ items:
   nameWithType: FunctionRightStrings.CSDocument
   fullName: SuperOffice.CRM.FunctionRightStrings.CSDocument
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: Knowledge Base
-  example: []
+  summary: "\nKnowledge Base\n"
   syntax:
     content: public const string CSDocument = "cs-document"
     return:
       type: System.String
     content.vb: Public Const CSDocument As String = "cs-document"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.CSListExtraTableContent
   commentId: F:SuperOffice.CRM.FunctionRightStrings.CSListExtraTableContent
   id: CSListExtraTableContent
@@ -1234,16 +1654,24 @@ items:
   nameWithType: FunctionRightStrings.CSListExtraTableContent
   fullName: SuperOffice.CRM.FunctionRightStrings.CSListExtraTableContent
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: List tables
-  example: []
+  summary: "\nList tables\n"
   syntax:
     content: public const string CSListExtraTableContent = "cs-listextratablecontent"
     return:
       type: System.String
     content.vb: Public Const CSListExtraTableContent As String = "cs-listextratablecontent"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.CSEditExtraTableContent
   commentId: F:SuperOffice.CRM.FunctionRightStrings.CSEditExtraTableContent
   id: CSEditExtraTableContent
@@ -1255,16 +1683,24 @@ items:
   nameWithType: FunctionRightStrings.CSEditExtraTableContent
   fullName: SuperOffice.CRM.FunctionRightStrings.CSEditExtraTableContent
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: Edit tables
-  example: []
+  summary: "\nEdit tables\n"
   syntax:
     content: public const string CSEditExtraTableContent = "cs-editextratablecontent"
     return:
       type: System.String
     content.vb: Public Const CSEditExtraTableContent As String = "cs-editextratablecontent"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.CSEditFaq
   commentId: F:SuperOffice.CRM.FunctionRightStrings.CSEditFaq
   id: CSEditFaq
@@ -1276,16 +1712,24 @@ items:
   nameWithType: FunctionRightStrings.CSEditFaq
   fullName: SuperOffice.CRM.FunctionRightStrings.CSEditFaq
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: Edit FAQ entries
-  example: []
+  summary: "\nEdit FAQ entries\n"
   syntax:
     content: public const string CSEditFaq = "cs-editfaq"
     return:
       type: System.String
     content.vb: Public Const CSEditFaq As String = "cs-editfaq"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.CSFaqAdmin
   commentId: F:SuperOffice.CRM.FunctionRightStrings.CSFaqAdmin
   id: CSFaqAdmin
@@ -1297,16 +1741,24 @@ items:
   nameWithType: FunctionRightStrings.CSFaqAdmin
   fullName: SuperOffice.CRM.FunctionRightStrings.CSFaqAdmin
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: Administrate FAQ
-  example: []
+  summary: "\nAdministrate FAQ\n"
   syntax:
     content: public const string CSFaqAdmin = "cs-faqadmin"
     return:
       type: System.String
     content.vb: Public Const CSFaqAdmin As String = "cs-faqadmin"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.CSStatistics
   commentId: F:SuperOffice.CRM.FunctionRightStrings.CSStatistics
   id: CSStatistics
@@ -1318,16 +1770,24 @@ items:
   nameWithType: FunctionRightStrings.CSStatistics
   fullName: SuperOffice.CRM.FunctionRightStrings.CSStatistics
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: View statistics
-  example: []
+  summary: "\nView statistics\n"
   syntax:
     content: public const string CSStatistics = "cs-statistics"
     return:
       type: System.String
     content.vb: Public Const CSStatistics As String = "cs-statistics"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.CSReadSelections
   commentId: F:SuperOffice.CRM.FunctionRightStrings.CSReadSelections
   id: CSReadSelections
@@ -1339,16 +1799,24 @@ items:
   nameWithType: FunctionRightStrings.CSReadSelections
   fullName: SuperOffice.CRM.FunctionRightStrings.CSReadSelections
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: View selections
-  example: []
+  summary: "\nView selections\n"
   syntax:
     content: public const string CSReadSelections = "cs-readselections"
     return:
       type: System.String
     content.vb: Public Const CSReadSelections As String = "cs-readselections"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.CSEditSelections
   commentId: F:SuperOffice.CRM.FunctionRightStrings.CSEditSelections
   id: CSEditSelections
@@ -1360,16 +1828,24 @@ items:
   nameWithType: FunctionRightStrings.CSEditSelections
   fullName: SuperOffice.CRM.FunctionRightStrings.CSEditSelections
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: Create selections
-  example: []
+  summary: "\nCreate selections\n"
   syntax:
     content: public const string CSEditSelections = "cs-editselections"
     return:
       type: System.String
     content.vb: Public Const CSEditSelections As String = "cs-editselections"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.CSChangePref
   commentId: F:SuperOffice.CRM.FunctionRightStrings.CSChangePref
   id: CSChangePref
@@ -1381,16 +1857,24 @@ items:
   nameWithType: FunctionRightStrings.CSChangePref
   fullName: SuperOffice.CRM.FunctionRightStrings.CSChangePref
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: Change own properties
-  example: []
+  summary: "\nChange own properties\n"
   syntax:
     content: public const string CSChangePref = "cs-changepref"
     return:
       type: System.String
     content.vb: Public Const CSChangePref As String = "cs-changepref"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.CSChangeProfile
   commentId: F:SuperOffice.CRM.FunctionRightStrings.CSChangeProfile
   id: CSChangeProfile
@@ -1402,16 +1886,24 @@ items:
   nameWithType: FunctionRightStrings.CSChangeProfile
   fullName: SuperOffice.CRM.FunctionRightStrings.CSChangeProfile
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: Change own profile
-  example: []
+  summary: "\nChange own profile\n"
   syntax:
     content: public const string CSChangeProfile = "cs-changeprofile"
     return:
       type: System.String
     content.vb: Public Const CSChangeProfile As String = "cs-changeprofile"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.CSCategories
   commentId: F:SuperOffice.CRM.FunctionRightStrings.CSCategories
   id: CSCategories
@@ -1423,16 +1915,24 @@ items:
   nameWithType: FunctionRightStrings.CSCategories
   fullName: SuperOffice.CRM.FunctionRightStrings.CSCategories
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: Category administration
-  example: []
+  summary: "\nCategory administration\n"
   syntax:
     content: public const string CSCategories = "cs-categories"
     return:
       type: System.String
     content.vb: Public Const CSCategories As String = "cs-categories"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.CSSystem
   commentId: F:SuperOffice.CRM.FunctionRightStrings.CSSystem
   id: CSSystem
@@ -1444,16 +1944,24 @@ items:
   nameWithType: FunctionRightStrings.CSSystem
   fullName: SuperOffice.CRM.FunctionRightStrings.CSSystem
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: Customer Service administration
-  example: []
+  summary: "\nCustomer Service administration\n"
   syntax:
     content: public const string CSSystem = "cs-system"
     return:
       type: System.String
     content.vb: Public Const CSSystem As String = "cs-system"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.MailingConsentOverride
   commentId: F:SuperOffice.CRM.FunctionRightStrings.MailingConsentOverride
   id: MailingConsentOverride
@@ -1465,16 +1973,24 @@ items:
   nameWithType: FunctionRightStrings.MailingConsentOverride
   fullName: SuperOffice.CRM.FunctionRightStrings.MailingConsentOverride
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: Can use mailing override
-  example: []
+  summary: "\nCan use mailing override\n"
   syntax:
     content: public const string MailingConsentOverride = "mailing-consent-override"
     return:
       type: System.String
     content.vb: Public Const MailingConsentOverride As String = "mailing-consent-override"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.ManagePersonConsent
   commentId: F:SuperOffice.CRM.FunctionRightStrings.ManagePersonConsent
   id: ManagePersonConsent
@@ -1486,16 +2002,24 @@ items:
   nameWithType: FunctionRightStrings.ManagePersonConsent
   fullName: SuperOffice.CRM.FunctionRightStrings.ManagePersonConsent
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: Can mange consents for a person
-  example: []
+  summary: "\nCan mange consents for a person\n"
   syntax:
     content: public const string ManagePersonConsent = "can-manage-person-consent"
     return:
       type: System.String
     content.vb: Public Const ManagePersonConsent As String = "can-manage-person-consent"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.DefineNewTags
   commentId: F:SuperOffice.CRM.FunctionRightStrings.DefineNewTags
   id: DefineNewTags
@@ -1507,16 +2031,24 @@ items:
   nameWithType: FunctionRightStrings.DefineNewTags
   fullName: SuperOffice.CRM.FunctionRightStrings.DefineNewTags
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: Can define new tags directly from user interface (as opposed to having to use List Admin)
-  example: []
+  summary: "\nCan define new tags directly from user interface (as opposed to having to use List Admin)\n"
   syntax:
     content: public const string DefineNewTags = "define-new-tags"
     return:
       type: System.String
     content.vb: Public Const DefineNewTags As String = "define-new-tags"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.AdminDashboard
   commentId: F:SuperOffice.CRM.FunctionRightStrings.AdminDashboard
   id: AdminDashboard
@@ -1528,16 +2060,24 @@ items:
   nameWithType: FunctionRightStrings.AdminDashboard
   fullName: SuperOffice.CRM.FunctionRightStrings.AdminDashboard
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: Can pin dashboards to others
-  example: []
+  summary: "\nCan pin dashboards to others\n"
   syntax:
     content: public const string AdminDashboard = "admin-dashboard"
     return:
       type: System.String
     content.vb: Public Const AdminDashboard As String = "admin-dashboard"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.LockUnlockTargetAssignment
   commentId: F:SuperOffice.CRM.FunctionRightStrings.LockUnlockTargetAssignment
   id: LockUnlockTargetAssignment
@@ -1549,16 +2089,24 @@ items:
   nameWithType: FunctionRightStrings.LockUnlockTargetAssignment
   fullName: SuperOffice.CRM.FunctionRightStrings.LockUnlockTargetAssignment
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: Can lock / unlock a target assignment
-  example: []
+  summary: "\nCan lock / unlock a target assignment\n"
   syntax:
     content: public const string LockUnlockTargetAssignment = "lock-unlock-target-assignment"
     return:
       type: System.String
     content.vb: Public Const LockUnlockTargetAssignment As String = "lock-unlock-target-assignment"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.AdminEmailFlow
   commentId: F:SuperOffice.CRM.FunctionRightStrings.AdminEmailFlow
   id: AdminEmailFlow
@@ -1570,16 +2118,24 @@ items:
   nameWithType: FunctionRightStrings.AdminEmailFlow
   fullName: SuperOffice.CRM.FunctionRightStrings.AdminEmailFlow
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: Can an create and save a flow, can edit a flow, can run a flow, can create, edit, delete flow assets, can cancel a flow.
-  example: []
+  summary: "\nCan an create and save a flow, can edit a flow, can run a flow, can create, edit, delete flow assets, can cancel a flow. \n"
   syntax:
     content: public const string AdminEmailFlow = "admin-email-flow"
     return:
       type: System.String
     content.vb: Public Const AdminEmailFlow As String = "admin-email-flow"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.AdminEmailFlowAssets
   commentId: F:SuperOffice.CRM.FunctionRightStrings.AdminEmailFlowAssets
   id: AdminEmailFlowAssets
@@ -1591,16 +2147,24 @@ items:
   nameWithType: FunctionRightStrings.AdminEmailFlowAssets
   fullName: SuperOffice.CRM.FunctionRightStrings.AdminEmailFlowAssets
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: Can create a new flow and save it. Edit button disabled, Run button disabled, cancel flow in task menu disabled. Can add, edit, delete flow assets..
-  example: []
+  summary: "\nCan create a new flow and save it. Edit button disabled, Run button disabled, cancel flow in task menu disabled. Can add, edit, delete flow assets.. \n"
   syntax:
     content: public const string AdminEmailFlowAssets = "admin-email-flow-assets"
     return:
       type: System.String
     content.vb: Public Const AdminEmailFlowAssets As String = "admin-email-flow-assets"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.TargetsAdminstrator
   commentId: F:SuperOffice.CRM.FunctionRightStrings.TargetsAdminstrator
   id: TargetsAdminstrator
@@ -1612,16 +2176,24 @@ items:
   nameWithType: FunctionRightStrings.TargetsAdminstrator
   fullName: SuperOffice.CRM.FunctionRightStrings.TargetsAdminstrator
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: Add, edit and remove target types
-  example: []
+  summary: "\nAdd, edit and remove target types\n"
   syntax:
     content: public const string TargetsAdminstrator = "targets-administrator"
     return:
       type: System.String
     content.vb: Public Const TargetsAdminstrator As String = "targets-administrator"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FunctionRightStrings.AllowSendEMail
   commentId: F:SuperOffice.CRM.FunctionRightStrings.AllowSendEMail
   id: AllowSendEMail
@@ -1633,278 +2205,41 @@ items:
   nameWithType: FunctionRightStrings.AllowSendEMail
   fullName: SuperOffice.CRM.FunctionRightStrings.AllowSendEMail
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: Grants access to send e-mail
-  example: []
+  summary: "\nGrants access to send e-mail\n"
   syntax:
     content: public const string AllowSendEMail = "allow-send-email"
     return:
       type: System.String
     content.vb: Public Const AllowSendEMail As String = "allow-send-email"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.CRM
   commentId: N:SuperOffice.CRM
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM
   nameWithType: SuperOffice.CRM
   fullName: SuperOffice.CRM
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -1912,10 +2247,6 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -35,24 +35,27 @@ items:
   nameWithType: DBC.ModuleOwnerFields
   fullName: SuperOffice.CRM.Data.DBC.ModuleOwnerFields
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Fields for ModuleOwner, Unique owner of a set of licensed modules
-  example: []
+  summary: "\nFields for ModuleOwner, Unique owner of a set of licensed modules\n"
   syntax:
-    content: public static class DBC.ModuleOwnerFields
-    content.vb: Public Module DBC.ModuleOwnerFields
+    content: 'public static class ModuleOwnerFields : Object'
+    content.vb: >-
+      Public Module ModuleOwnerFields
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
 - uid: SuperOffice.CRM.Data.DBC.ModuleOwnerFields.ModuleOwnerId
   commentId: F:SuperOffice.CRM.Data.DBC.ModuleOwnerFields.ModuleOwnerId
   id: ModuleOwnerId
@@ -64,16 +67,24 @@ items:
   nameWithType: DBC.ModuleOwnerFields.ModuleOwnerId
   fullName: SuperOffice.CRM.Data.DBC.ModuleOwnerFields.ModuleOwnerId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ModuleOwner.ModuleOwnerId: Primary key'
-  example: []
+  summary: "\nModuleOwner.ModuleOwnerId: Primary key\n"
   syntax:
     content: public const string ModuleOwnerId = "ModuleOwner_id"
     return:
       type: System.String
     content.vb: Public Const ModuleOwnerId As String = "ModuleOwner_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ModuleOwnerFields.OwnerName
   commentId: F:SuperOffice.CRM.Data.DBC.ModuleOwnerFields.OwnerName
   id: OwnerName
@@ -85,16 +96,24 @@ items:
   nameWithType: DBC.ModuleOwnerFields.OwnerName
   fullName: SuperOffice.CRM.Data.DBC.ModuleOwnerFields.OwnerName
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ModuleOwner.OwnerName: The name of the module owner, not visible in GUI but used in the code. OwnerName SUPEROFFICE is reserved and may NEVER be used by partners. This must be in UPPER CASE and only contain A-Z and 0-9. NO EXTENDED CHARACTERS please.'
-  example: []
+  summary: "\nModuleOwner.OwnerName: The name of the module owner, not visible in GUI but used in the code. OwnerName SUPEROFFICE is reserved and may NEVER be used by partners. This must be in UPPER CASE and only contain A-Z and 0-9. NO EXTENDED CHARACTERS please.\n"
   syntax:
     content: public const string OwnerName = "ownerName"
     return:
       type: System.String
     content.vb: Public Const OwnerName As String = "ownerName"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ModuleOwnerFields.OwnerDescription
   commentId: F:SuperOffice.CRM.Data.DBC.ModuleOwnerFields.OwnerDescription
   id: OwnerDescription
@@ -106,16 +125,24 @@ items:
   nameWithType: DBC.ModuleOwnerFields.OwnerDescription
   fullName: SuperOffice.CRM.Data.DBC.ModuleOwnerFields.OwnerDescription
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ModuleOwner.OwnerDescription: Human-readable description of owner, shown in GUI, default language. Additional languages can be added to LocaleText, resource type 26'
-  example: []
+  summary: "\nModuleOwner.OwnerDescription: Human-readable description of owner, shown in GUI, default language. Additional languages can be added to LocaleText, resource type 26\n"
   syntax:
     content: public const string OwnerDescription = "ownerDescription"
     return:
       type: System.String
     content.vb: Public Const OwnerDescription As String = "ownerDescription"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ModuleOwnerFields.LicenseUrl
   commentId: F:SuperOffice.CRM.Data.DBC.ModuleOwnerFields.LicenseUrl
   id: LicenseUrl
@@ -127,16 +154,24 @@ items:
   nameWithType: DBC.ModuleOwnerFields.LicenseUrl
   fullName: SuperOffice.CRM.Data.DBC.ModuleOwnerFields.LicenseUrl
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ModuleOwner.LicenseUrl: The url that will provide keycodes for all modules owned by this owner'
-  example: []
+  summary: "\nModuleOwner.LicenseUrl: The url that will provide keycodes for all modules owned by this owner\n"
   syntax:
     content: public const string LicenseUrl = "licenseUrl"
     return:
       type: System.String
     content.vb: Public Const LicenseUrl As String = "licenseUrl"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ModuleOwnerFields.LicenseVersion
   commentId: F:SuperOffice.CRM.Data.DBC.ModuleOwnerFields.LicenseVersion
   id: LicenseVersion
@@ -148,16 +183,24 @@ items:
   nameWithType: DBC.ModuleOwnerFields.LicenseVersion
   fullName: SuperOffice.CRM.Data.DBC.ModuleOwnerFields.LicenseVersion
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ModuleOwner.LicenseVersion: The url that will provide keycodes for all modules owned by this owner'
-  example: []
+  summary: "\nModuleOwner.LicenseVersion: The url that will provide keycodes for all modules owned by this owner\n"
   syntax:
     content: public const string LicenseVersion = "licenseVersion"
     return:
       type: System.String
     content.vb: Public Const LicenseVersion As String = "licenseVersion"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ModuleOwnerFields.SignedPublicKey
   commentId: F:SuperOffice.CRM.Data.DBC.ModuleOwnerFields.SignedPublicKey
   id: SignedPublicKey
@@ -169,16 +212,24 @@ items:
   nameWithType: DBC.ModuleOwnerFields.SignedPublicKey
   fullName: SuperOffice.CRM.Data.DBC.ModuleOwnerFields.SignedPublicKey
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ModuleOwner.SignedPublicKey: The public key used to verify licenses owned by this owner'
-  example: []
+  summary: "\nModuleOwner.SignedPublicKey: The public key used to verify licenses owned by this owner\n"
   syntax:
     content: public const string SignedPublicKey = "signedPublicKey"
     return:
       type: System.String
     content.vb: Public Const SignedPublicKey As String = "signedPublicKey"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ModuleOwnerFields.Signature
   commentId: F:SuperOffice.CRM.Data.DBC.ModuleOwnerFields.Signature
   id: Signature
@@ -190,16 +241,24 @@ items:
   nameWithType: DBC.ModuleOwnerFields.Signature
   fullName: SuperOffice.CRM.Data.DBC.ModuleOwnerFields.Signature
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ModuleOwner.Signature: Signature of all non-zero-amount moduleLicense rows referring to this owner'
-  example: []
+  summary: "\nModuleOwner.Signature: Signature of all non-zero-amount moduleLicense rows referring to this owner\n"
   syntax:
     content: public const string Signature = "signature"
     return:
       type: System.String
     content.vb: Public Const Signature As String = "signature"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ModuleOwnerFields.DeploymentType
   commentId: F:SuperOffice.CRM.Data.DBC.ModuleOwnerFields.DeploymentType
   id: DeploymentType
@@ -211,16 +270,24 @@ items:
   nameWithType: DBC.ModuleOwnerFields.DeploymentType
   fullName: SuperOffice.CRM.Data.DBC.ModuleOwnerFields.DeploymentType
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ModuleOwner.DeploymentType: Type of deployment'
-  example: []
+  summary: "\nModuleOwner.DeploymentType: Type of deployment\n"
   syntax:
     content: public const string DeploymentType = "deploymentType"
     return:
       type: System.String
     content.vb: Public Const DeploymentType As String = "deploymentType"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ModuleOwnerFields.ProductType
   commentId: F:SuperOffice.CRM.Data.DBC.ModuleOwnerFields.ProductType
   id: ProductType
@@ -232,16 +299,24 @@ items:
   nameWithType: DBC.ModuleOwnerFields.ProductType
   fullName: SuperOffice.CRM.Data.DBC.ModuleOwnerFields.ProductType
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ModuleOwner.ProductType: Type of product'
-  example: []
+  summary: "\nModuleOwner.ProductType: Type of product\n"
   syntax:
     content: public const string ProductType = "productType"
     return:
       type: System.String
     content.vb: Public Const ProductType As String = "productType"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ModuleOwnerFields.ProductTypeDescription
   commentId: F:SuperOffice.CRM.Data.DBC.ModuleOwnerFields.ProductTypeDescription
   id: ProductTypeDescription
@@ -253,16 +328,24 @@ items:
   nameWithType: DBC.ModuleOwnerFields.ProductTypeDescription
   fullName: SuperOffice.CRM.Data.DBC.ModuleOwnerFields.ProductTypeDescription
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ModuleOwner.ProductTypeDescription: Description of type of product'
-  example: []
+  summary: "\nModuleOwner.ProductTypeDescription: Description of type of product\n"
   syntax:
     content: public const string ProductTypeDescription = "productTypeDescription"
     return:
       type: System.String
     content.vb: Public Const ProductTypeDescription As String = "productTypeDescription"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ModuleOwnerFields.ExtraFlags
   commentId: F:SuperOffice.CRM.Data.DBC.ModuleOwnerFields.ExtraFlags
   id: ExtraFlags
@@ -274,16 +357,24 @@ items:
   nameWithType: DBC.ModuleOwnerFields.ExtraFlags
   fullName: SuperOffice.CRM.Data.DBC.ModuleOwnerFields.ExtraFlags
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ModuleOwner.ExtraFlags: Unspecified extra flags of license, part of checksum'
-  example: []
+  summary: "\nModuleOwner.ExtraFlags: Unspecified extra flags of license, part of checksum\n"
   syntax:
     content: public const string ExtraFlags = "extraFlags"
     return:
       type: System.String
     content.vb: Public Const ExtraFlags As String = "extraFlags"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ModuleOwnerFields.ExtraInfo
   commentId: F:SuperOffice.CRM.Data.DBC.ModuleOwnerFields.ExtraInfo
   id: ExtraInfo
@@ -295,16 +386,24 @@ items:
   nameWithType: DBC.ModuleOwnerFields.ExtraInfo
   fullName: SuperOffice.CRM.Data.DBC.ModuleOwnerFields.ExtraInfo
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ModuleOwner.ExtraInfo: Free field, can be used by the module owner (example: host domain, for eJournal)'
-  example: []
+  summary: "\nModuleOwner.ExtraInfo: Free field, can be used by the module owner (example: host domain, for eJournal)\n"
   syntax:
     content: public const string ExtraInfo = "extraInfo"
     return:
       type: System.String
     content.vb: Public Const ExtraInfo As String = "extraInfo"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ModuleOwnerFields.Expiration
   commentId: F:SuperOffice.CRM.Data.DBC.ModuleOwnerFields.Expiration
   id: Expiration
@@ -316,16 +415,24 @@ items:
   nameWithType: DBC.ModuleOwnerFields.Expiration
   fullName: SuperOffice.CRM.Data.DBC.ModuleOwnerFields.Expiration
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ModuleOwner.Expiration: Expiration date, 0 = forever'
-  example: []
+  summary: "\nModuleOwner.Expiration: Expiration date, 0 = forever\n"
   syntax:
     content: public const string Expiration = "expiration"
     return:
       type: System.String
     content.vb: Public Const Expiration As String = "expiration"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ModuleOwnerFields.GraceTo
   commentId: F:SuperOffice.CRM.Data.DBC.ModuleOwnerFields.GraceTo
   id: GraceTo
@@ -337,16 +444,24 @@ items:
   nameWithType: DBC.ModuleOwnerFields.GraceTo
   fullName: SuperOffice.CRM.Data.DBC.ModuleOwnerFields.GraceTo
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ModuleOwner.GraceTo: Real expiration date, when the given module actually stops working. Modules that normally update data should switch to read-only mode. Modules that only read anyway, should disable themselves in some other way'
-  example: []
+  summary: "\nModuleOwner.GraceTo: Real expiration date, when the given module actually stops working. Modules that normally update data should switch to read-only mode. Modules that only read anyway, should disable themselves in some other way\n"
   syntax:
     content: public const string GraceTo = "graceTo"
     return:
       type: System.String
     content.vb: Public Const GraceTo As String = "graceTo"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ModuleOwnerFields.MaintenanceTo
   commentId: F:SuperOffice.CRM.Data.DBC.ModuleOwnerFields.MaintenanceTo
   id: MaintenanceTo
@@ -358,16 +473,24 @@ items:
   nameWithType: DBC.ModuleOwnerFields.MaintenanceTo
   fullName: SuperOffice.CRM.Data.DBC.ModuleOwnerFields.MaintenanceTo
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ModuleOwner.MaintenanceTo: Expiration date for maintenance. After this date, upgrades should refuse to install.'
-  example: []
+  summary: "\nModuleOwner.MaintenanceTo: Expiration date for maintenance. After this date, upgrades should refuse to install.\n"
   syntax:
     content: public const string MaintenanceTo = "maintenanceTo"
     return:
       type: System.String
     content.vb: Public Const MaintenanceTo As String = "maintenanceTo"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ModuleOwnerFields.NextCheckDate
   commentId: F:SuperOffice.CRM.Data.DBC.ModuleOwnerFields.NextCheckDate
   id: NextCheckDate
@@ -379,16 +502,24 @@ items:
   nameWithType: DBC.ModuleOwnerFields.NextCheckDate
   fullName: SuperOffice.CRM.Data.DBC.ModuleOwnerFields.NextCheckDate
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ModuleOwner.NextCheckDate: When should the system next check with the license issuer'
-  example: []
+  summary: "\nModuleOwner.NextCheckDate: When should the system next check with the license issuer\n"
   syntax:
     content: public const string NextCheckDate = "nextCheckDate"
     return:
       type: System.String
     content.vb: Public Const NextCheckDate As String = "nextCheckDate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ModuleOwnerFields.AdminWarningDate
   commentId: F:SuperOffice.CRM.Data.DBC.ModuleOwnerFields.AdminWarningDate
   id: AdminWarningDate
@@ -400,16 +531,24 @@ items:
   nameWithType: DBC.ModuleOwnerFields.AdminWarningDate
   fullName: SuperOffice.CRM.Data.DBC.ModuleOwnerFields.AdminWarningDate
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ModuleOwner.AdminWarningDate: When should nagging begin (for instance, during login to SoAdmin)'
-  example: []
+  summary: "\nModuleOwner.AdminWarningDate: When should nagging begin (for instance, during login to SoAdmin)\n"
   syntax:
     content: public const string AdminWarningDate = "adminWarningDate"
     return:
       type: System.String
     content.vb: Public Const AdminWarningDate As String = "adminWarningDate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ModuleOwnerFields.EncryptedCheck
   commentId: F:SuperOffice.CRM.Data.DBC.ModuleOwnerFields.EncryptedCheck
   id: EncryptedCheck
@@ -421,16 +560,24 @@ items:
   nameWithType: DBC.ModuleOwnerFields.EncryptedCheck
   fullName: SuperOffice.CRM.Data.DBC.ModuleOwnerFields.EncryptedCheck
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ModuleOwner.EncryptedCheck: Encrypted checksum that stops tampering and copying between databases'
-  example: []
+  summary: "\nModuleOwner.EncryptedCheck: Encrypted checksum that stops tampering and copying between databases\n"
   syntax:
     content: public const string EncryptedCheck = "encryptedCheck"
     return:
       type: System.String
     content.vb: Public Const EncryptedCheck As String = "encryptedCheck"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ModuleOwnerFields.Registered
   commentId: F:SuperOffice.CRM.Data.DBC.ModuleOwnerFields.Registered
   id: Registered
@@ -442,16 +589,24 @@ items:
   nameWithType: DBC.ModuleOwnerFields.Registered
   fullName: SuperOffice.CRM.Data.DBC.ModuleOwnerFields.Registered
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ModuleOwner.Registered: Registered when'
-  example: []
+  summary: "\nModuleOwner.Registered: Registered when\n"
   syntax:
     content: public const string Registered = "registered"
     return:
       type: System.String
     content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ModuleOwnerFields.RegisteredAssociateId
   commentId: F:SuperOffice.CRM.Data.DBC.ModuleOwnerFields.RegisteredAssociateId
   id: RegisteredAssociateId
@@ -463,16 +618,24 @@ items:
   nameWithType: DBC.ModuleOwnerFields.RegisteredAssociateId
   fullName: SuperOffice.CRM.Data.DBC.ModuleOwnerFields.RegisteredAssociateId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ModuleOwner.RegisteredAssociateId: Registered by whom'
-  example: []
+  summary: "\nModuleOwner.RegisteredAssociateId: Registered by whom\n"
   syntax:
     content: public const string RegisteredAssociateId = "registered_associate_id"
     return:
       type: System.String
     content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ModuleOwnerFields.Updated
   commentId: F:SuperOffice.CRM.Data.DBC.ModuleOwnerFields.Updated
   id: Updated
@@ -484,16 +647,24 @@ items:
   nameWithType: DBC.ModuleOwnerFields.Updated
   fullName: SuperOffice.CRM.Data.DBC.ModuleOwnerFields.Updated
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ModuleOwner.Updated: Last updated when'
-  example: []
+  summary: "\nModuleOwner.Updated: Last updated when\n"
   syntax:
     content: public const string Updated = "updated"
     return:
       type: System.String
     content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ModuleOwnerFields.UpdatedAssociateId
   commentId: F:SuperOffice.CRM.Data.DBC.ModuleOwnerFields.UpdatedAssociateId
   id: UpdatedAssociateId
@@ -505,16 +676,24 @@ items:
   nameWithType: DBC.ModuleOwnerFields.UpdatedAssociateId
   fullName: SuperOffice.CRM.Data.DBC.ModuleOwnerFields.UpdatedAssociateId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ModuleOwner.UpdatedAssociateId: Last updated by whom'
-  example: []
+  summary: "\nModuleOwner.UpdatedAssociateId: Last updated by whom\n"
   syntax:
     content: public const string UpdatedAssociateId = "updated_associate_id"
     return:
       type: System.String
     content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ModuleOwnerFields.UpdatedCount
   commentId: F:SuperOffice.CRM.Data.DBC.ModuleOwnerFields.UpdatedCount
   id: UpdatedCount
@@ -526,288 +705,41 @@ items:
   nameWithType: DBC.ModuleOwnerFields.UpdatedCount
   fullName: SuperOffice.CRM.Data.DBC.ModuleOwnerFields.UpdatedCount
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ModuleOwner.UpdatedCount: Number of updates made to this record'
-  example: []
+  summary: "\nModuleOwner.UpdatedCount: Number of updates made to this record\n"
   syntax:
     content: public const string UpdatedCount = "updatedCount"
     return:
       type: System.String
     content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Data
   nameWithType: SuperOffice.CRM.Data
   fullName: SuperOffice.CRM.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.CRM.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.CRM.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -815,10 +747,6 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String

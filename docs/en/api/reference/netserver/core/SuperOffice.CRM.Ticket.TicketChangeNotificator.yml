@@ -15,22 +15,26 @@ items:
   nameWithType: TicketChangeNotificator
   fullName: SuperOffice.CRM.Ticket.TicketChangeNotificator
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Ticket
   syntax:
-    content: public static class TicketChangeNotificator
-    content.vb: Public Module TicketChangeNotificator
+    content: 'public static class TicketChangeNotificator : Object'
+    content.vb: >-
+      Public Module TicketChangeNotificator
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
 - uid: SuperOffice.CRM.Ticket.TicketChangeNotificator.SendStandardTicketNotifications(SuperOffice.CRM.Ticket.TicketChangeData,SuperOffice.CRM.Ticket.TicketChangeData)
   commentId: M:SuperOffice.CRM.Ticket.TicketChangeNotificator.SendStandardTicketNotifications(SuperOffice.CRM.Ticket.TicketChangeData,SuperOffice.CRM.Ticket.TicketChangeData)
   id: SendStandardTicketNotifications(SuperOffice.CRM.Ticket.TicketChangeData,SuperOffice.CRM.Ticket.TicketChangeData)
@@ -42,6 +46,9 @@ items:
   nameWithType: TicketChangeNotificator.SendStandardTicketNotifications(TicketChangeData, TicketChangeData)
   fullName: SuperOffice.CRM.Ticket.TicketChangeNotificator.SendStandardTicketNotifications(SuperOffice.CRM.Ticket.TicketChangeData, SuperOffice.CRM.Ticket.TicketChangeData)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Ticket
@@ -54,6 +61,12 @@ items:
       type: SuperOffice.CRM.Ticket.TicketChangeData
     content.vb: Public Shared Sub SendStandardTicketNotifications(oldData As TicketChangeData, newData As TicketChangeData)
   overload: SuperOffice.CRM.Ticket.TicketChangeNotificator.SendStandardTicketNotifications*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Ticket.TicketChangeNotificator.SendTicketTakenOverNotification(System.Int32,System.Int32,System.Int32)
   commentId: M:SuperOffice.CRM.Ticket.TicketChangeNotificator.SendTicketTakenOverNotification(System.Int32,System.Int32,System.Int32)
   id: SendTicketTakenOverNotification(System.Int32,System.Int32,System.Int32)
@@ -61,10 +74,13 @@ items:
   langs:
   - csharp
   - vb
-  name: SendTicketTakenOverNotification(int, int, int)
-  nameWithType: TicketChangeNotificator.SendTicketTakenOverNotification(int, int, int)
-  fullName: SuperOffice.CRM.Ticket.TicketChangeNotificator.SendTicketTakenOverNotification(int, int, int)
+  name: SendTicketTakenOverNotification(Int32, Int32, Int32)
+  nameWithType: TicketChangeNotificator.SendTicketTakenOverNotification(Int32, Int32, Int32)
+  fullName: SuperOffice.CRM.Ticket.TicketChangeNotificator.SendTicketTakenOverNotification(System.Int32, System.Int32, System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Ticket
@@ -79,9 +95,12 @@ items:
       type: System.Int32
     content.vb: Public Shared Sub SendTicketTakenOverNotification(ticketId As Integer, oldOwner As Integer, newOwner As Integer)
   overload: SuperOffice.CRM.Ticket.TicketChangeNotificator.SendTicketTakenOverNotification*
-  nameWithType.vb: TicketChangeNotificator.SendTicketTakenOverNotification(Integer, Integer, Integer)
-  fullName.vb: SuperOffice.CRM.Ticket.TicketChangeNotificator.SendTicketTakenOverNotification(Integer, Integer, Integer)
-  name.vb: SendTicketTakenOverNotification(Integer, Integer, Integer)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Ticket.TicketChangeNotificator.DeleteTicketNotifyEntries(System.Int32,System.Int32)
   commentId: M:SuperOffice.CRM.Ticket.TicketChangeNotificator.DeleteTicketNotifyEntries(System.Int32,System.Int32)
   id: DeleteTicketNotifyEntries(System.Int32,System.Int32)
@@ -89,10 +108,13 @@ items:
   langs:
   - csharp
   - vb
-  name: DeleteTicketNotifyEntries(int, int)
-  nameWithType: TicketChangeNotificator.DeleteTicketNotifyEntries(int, int)
-  fullName: SuperOffice.CRM.Ticket.TicketChangeNotificator.DeleteTicketNotifyEntries(int, int)
+  name: DeleteTicketNotifyEntries(Int32, Int32)
+  nameWithType: TicketChangeNotificator.DeleteTicketNotifyEntries(Int32, Int32)
+  fullName: SuperOffice.CRM.Ticket.TicketChangeNotificator.DeleteTicketNotifyEntries(System.Int32, System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Ticket
@@ -105,288 +127,35 @@ items:
       type: System.Int32
     content.vb: Public Shared Sub DeleteTicketNotifyEntries(ticketId As Integer, userId As Integer)
   overload: SuperOffice.CRM.Ticket.TicketChangeNotificator.DeleteTicketNotifyEntries*
-  nameWithType.vb: TicketChangeNotificator.DeleteTicketNotifyEntries(Integer, Integer)
-  fullName.vb: SuperOffice.CRM.Ticket.TicketChangeNotificator.DeleteTicketNotifyEntries(Integer, Integer)
-  name.vb: DeleteTicketNotifyEntries(Integer, Integer)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 references:
 - uid: SuperOffice.CRM.Ticket
   commentId: N:SuperOffice.CRM.Ticket
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Ticket
   nameWithType: SuperOffice.CRM.Ticket
   fullName: SuperOffice.CRM.Ticket
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Ticket
-    name: Ticket
-    isExternal: true
-    href: SuperOffice.CRM.Ticket.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Ticket
-    name: Ticket
-    isExternal: true
-    href: SuperOffice.CRM.Ticket.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.CRM.Ticket.TicketChangeNotificator.SendStandardTicketNotifications*
   commentId: Overload:SuperOffice.CRM.Ticket.TicketChangeNotificator.SendStandardTicketNotifications
   isExternal: true
-  href: SuperOffice.CRM.Ticket.TicketChangeNotificator.html#SuperOffice_CRM_Ticket_TicketChangeNotificator_SendStandardTicketNotifications_SuperOffice_CRM_Ticket_TicketChangeData_SuperOffice_CRM_Ticket_TicketChangeData_
   name: SendStandardTicketNotifications
   nameWithType: TicketChangeNotificator.SendStandardTicketNotifications
   fullName: SuperOffice.CRM.Ticket.TicketChangeNotificator.SendStandardTicketNotifications
@@ -394,14 +163,12 @@ references:
   commentId: T:SuperOffice.CRM.Ticket.TicketChangeData
   parent: SuperOffice.CRM.Ticket
   isExternal: true
-  href: SuperOffice.CRM.Ticket.TicketChangeData.html
   name: TicketChangeData
   nameWithType: TicketChangeData
   fullName: SuperOffice.CRM.Ticket.TicketChangeData
 - uid: SuperOffice.CRM.Ticket.TicketChangeNotificator.SendTicketTakenOverNotification*
   commentId: Overload:SuperOffice.CRM.Ticket.TicketChangeNotificator.SendTicketTakenOverNotification
   isExternal: true
-  href: SuperOffice.CRM.Ticket.TicketChangeNotificator.html#SuperOffice_CRM_Ticket_TicketChangeNotificator_SendTicketTakenOverNotification_System_Int32_System_Int32_System_Int32_
   name: SendTicketTakenOverNotification
   nameWithType: TicketChangeNotificator.SendTicketTakenOverNotification
   fullName: SuperOffice.CRM.Ticket.TicketChangeNotificator.SendTicketTakenOverNotification
@@ -409,17 +176,12 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Ticket.TicketChangeNotificator.DeleteTicketNotifyEntries*
   commentId: Overload:SuperOffice.CRM.Ticket.TicketChangeNotificator.DeleteTicketNotifyEntries
   isExternal: true
-  href: SuperOffice.CRM.Ticket.TicketChangeNotificator.html#SuperOffice_CRM_Ticket_TicketChangeNotificator_DeleteTicketNotifyEntries_System_Int32_System_Int32_
   name: DeleteTicketNotifyEntries
   nameWithType: TicketChangeNotificator.DeleteTicketNotifyEntries
   fullName: SuperOffice.CRM.Ticket.TicketChangeNotificator.DeleteTicketNotifyEntries

@@ -15,27 +15,30 @@ items:
   nameWithType: DatabaseOperations.BulkImportInfo
   fullName: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dialect
   syntax:
-    content: protected class DatabaseOperations.BulkImportInfo
-    content.vb: Protected Class DatabaseOperations.BulkImportInfo
+    content: 'protected class BulkImportInfo : Object'
+    content.vb: >-
+      Protected Class BulkImportInfo
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo.EnumUtil.MapEnums``2
-  - SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo)
   - SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - protected
+  - class
+  modifiers.vb:
+  - Protected
+  - Class
 - uid: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo.#ctor
   commentId: M:SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo.#ctor
   id: '#ctor'
@@ -47,16 +50,20 @@ items:
   nameWithType: DatabaseOperations.BulkImportInfo.BulkImportInfo()
   fullName: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo.BulkImportInfo()
   type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dialect
   syntax:
     content: public BulkImportInfo()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo.#ctor*
-  nameWithType.vb: DatabaseOperations.BulkImportInfo.New()
-  fullName.vb: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo.Data
   commentId: P:SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo.Data
   id: Data
@@ -68,6 +75,9 @@ items:
   nameWithType: DatabaseOperations.BulkImportInfo.Data
   fullName: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo.Data
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dialect
@@ -78,6 +88,12 @@ items:
       type: System.Data.DataTable
     content.vb: Public Property Data As DataTable
   overload: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo.Data*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo.Table
   commentId: P:SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo.Table
   id: Table
@@ -89,6 +105,9 @@ items:
   nameWithType: DatabaseOperations.BulkImportInfo.Table
   fullName: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo.Table
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dialect
@@ -99,497 +118,181 @@ items:
       type: SuperOffice.Data.Dictionary.SoTable
     content.vb: Public Property Table As SoTable
   overload: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo.Table*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 references:
 - uid: SuperOffice.Data.Dialect
   commentId: N:SuperOffice.Data.Dialect
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data.Dialect
   nameWithType: SuperOffice.Data.Dialect
   fullName: SuperOffice.Data.Dialect
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.Dialect
-    name: Dialect
-    isExternal: true
-    href: SuperOffice.Data.Dialect.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.Dialect
-    name: Dialect
-    isExternal: true
-    href: SuperOffice.Data.Dialect.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<BulkImportInfo, To>(BulkImportInfo)
-  nameWithType: EnumUtil.MapEnums<DatabaseOperations.BulkImportInfo, To>(DatabaseOperations.BulkImportInfo)
-  fullName: EnumUtil.MapEnums<SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo, To>(SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo)
-  nameWithType.vb: EnumUtil.MapEnums(Of DatabaseOperations.BulkImportInfo, To)(DatabaseOperations.BulkImportInfo)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo, To)(SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo)
-  name.vb: MapEnums(Of BulkImportInfo, To)(BulkImportInfo)
+  name: MapEnums<DatabaseOperations.BulkImportInfo, To>()
+  nameWithType: EnumUtil.MapEnums<DatabaseOperations.BulkImportInfo, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of DatabaseOperations.BulkImportInfo, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo, To)()
+  name.vb: MapEnums(Of DatabaseOperations.BulkImportInfo, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<DatabaseOperations.BulkImportInfo, To>
+    nameWithType: EnumUtil.MapEnums<DatabaseOperations.BulkImportInfo, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo
-    name: BulkImportInfo
-    isExternal: true
-    href: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo
-    name: BulkImportInfo
-    isExternal: true
-    href: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of DatabaseOperations.BulkImportInfo, To)
+    nameWithType: EnumUtil.MapEnums(Of DatabaseOperations.BulkImportInfo, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo
-    name: BulkImportInfo
-    isExternal: true
-    href: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo
-    name: BulkImportInfo
-    isExternal: true
-    href: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo.html
-  - name: )
-- uid: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  parent: SuperOffice.ErpSync.ConnectorWS.Converters
-  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<BulkImportInfo, To>(BulkImportInfo)
-  nameWithType: Converters.MapEnums<DatabaseOperations.BulkImportInfo, To>(DatabaseOperations.BulkImportInfo)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo, To>(SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo)
-  nameWithType.vb: Converters.MapEnums(Of DatabaseOperations.BulkImportInfo, To)(DatabaseOperations.BulkImportInfo)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo, To)(SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo)
-  name.vb: MapEnums(Of BulkImportInfo, To)(BulkImportInfo)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo
-    name: BulkImportInfo
-    isExternal: true
-    href: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo
-    name: BulkImportInfo
-    isExternal: true
-    href: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo
-    name: BulkImportInfo
-    isExternal: true
-    href: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo
-    name: BulkImportInfo
-    isExternal: true
-    href: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<BulkImportInfo>(BulkImportInfo, BulkImportInfo)
-  nameWithType: ObjectExtensions.AssignByReflection<DatabaseOperations.BulkImportInfo>(DatabaseOperations.BulkImportInfo, DatabaseOperations.BulkImportInfo)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo>(SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo, SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of DatabaseOperations.BulkImportInfo)(DatabaseOperations.BulkImportInfo, DatabaseOperations.BulkImportInfo)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo)(SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo, SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo)
-  name.vb: AssignByReflection(Of BulkImportInfo)(BulkImportInfo, BulkImportInfo)
+  name: AssignByReflection<DatabaseOperations.BulkImportInfo>(DatabaseOperations.BulkImportInfo)
+  nameWithType: ObjectExtensions.AssignByReflection<DatabaseOperations.BulkImportInfo>(DatabaseOperations.BulkImportInfo)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo>(SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of DatabaseOperations.BulkImportInfo)(DatabaseOperations.BulkImportInfo)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo)(SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo)
+  name.vb: AssignByReflection(Of DatabaseOperations.BulkImportInfo)(DatabaseOperations.BulkImportInfo)
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo,SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<DatabaseOperations.BulkImportInfo>
+    nameWithType: ObjectExtensions.AssignByReflection<DatabaseOperations.BulkImportInfo>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo
-    name: BulkImportInfo
-    isExternal: true
-    href: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo.html
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo
-    name: BulkImportInfo
+    name: DatabaseOperations.BulkImportInfo
+    nameWithType: DatabaseOperations.BulkImportInfo
+    fullName: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo
     isExternal: true
-    href: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo
-    name: BulkImportInfo
-    isExternal: true
-    href: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo,SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of DatabaseOperations.BulkImportInfo)
+    nameWithType: ObjectExtensions.AssignByReflection(Of DatabaseOperations.BulkImportInfo)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo
-    name: BulkImportInfo
+    name: DatabaseOperations.BulkImportInfo
+    nameWithType: DatabaseOperations.BulkImportInfo
+    fullName: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo
     isExternal: true
-    href: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo.html
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo
-    name: BulkImportInfo
-    isExternal: true
-    href: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo
-    name: BulkImportInfo
-    isExternal: true
-    href: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<BulkImportInfo>(BulkImportInfo)
-  nameWithType: ObjectExtensions.GraphCopy<DatabaseOperations.BulkImportInfo>(DatabaseOperations.BulkImportInfo)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo>(SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of DatabaseOperations.BulkImportInfo)(DatabaseOperations.BulkImportInfo)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo)(SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo)
-  name.vb: GraphCopy(Of BulkImportInfo)(BulkImportInfo)
+  name: GraphCopy<DatabaseOperations.BulkImportInfo>()
+  nameWithType: ObjectExtensions.GraphCopy<DatabaseOperations.BulkImportInfo>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of DatabaseOperations.BulkImportInfo)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo)()
+  name.vb: GraphCopy(Of DatabaseOperations.BulkImportInfo)()
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<DatabaseOperations.BulkImportInfo>
+    nameWithType: ObjectExtensions.GraphCopy<DatabaseOperations.BulkImportInfo>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo
-    name: BulkImportInfo
-    isExternal: true
-    href: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo.html
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo
-    name: BulkImportInfo
-    isExternal: true
-    href: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of DatabaseOperations.BulkImportInfo)
+    nameWithType: ObjectExtensions.GraphCopy(Of DatabaseOperations.BulkImportInfo)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo
-    name: BulkImportInfo
-    isExternal: true
-    href: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<DatabaseOperations.BulkImportInfo, To>()
+  nameWithType: Converters.MapEnums<DatabaseOperations.BulkImportInfo, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo, To>()
+  nameWithType.vb: Converters.MapEnums(Of DatabaseOperations.BulkImportInfo, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo, To)()
+  name.vb: MapEnums(Of DatabaseOperations.BulkImportInfo, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<DatabaseOperations.BulkImportInfo, To>
+    nameWithType: Converters.MapEnums<DatabaseOperations.BulkImportInfo, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo, To>
+    isExternal: true
   - name: (
-  - uid: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo
-    name: BulkImportInfo
-    isExternal: true
-    href: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of DatabaseOperations.BulkImportInfo, To)
+    nameWithType: Converters.MapEnums(Of DatabaseOperations.BulkImportInfo, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -598,93 +301,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<From, To>(From)
-  nameWithType: Converters.MapEnums<From, To>(From)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
-  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
-  name.vb: MapEnums(Of From, To)(From)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - name: From
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - name: From
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters
-  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
-  parent: SuperOffice.ErpSync.ConnectorWS
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
-  name: Converters
-  nameWithType: Converters
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   name: AssignByReflection<T>(T, T)
   nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
   fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
@@ -693,46 +346,56 @@ references:
   name.vb: AssignByReflection(Of T)(T, T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
-  - name: ','
-  - name: " "
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.ObjectExtensions
   commentId: T:SuperOffice.Util.ObjectExtensions
   parent: SuperOffice.Util
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
   name: ObjectExtensions
   nameWithType: ObjectExtensions
   fullName: SuperOffice.Util.ObjectExtensions
 - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   name: GraphCopy<T>(T)
   nameWithType: ObjectExtensions.GraphCopy<T>(T)
   fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
@@ -741,148 +404,112 @@ references:
   name.vb: GraphCopy(Of T)(T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS
-  commentId: N:SuperOffice.ErpSync.ConnectorWS
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.ErpSync.ConnectorWS
-  nameWithType: SuperOffice.ErpSync.ConnectorWS
-  fullName: SuperOffice.ErpSync.ConnectorWS
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
 - uid: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo.#ctor*
   commentId: Overload:SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo.#ctor
   isExternal: true
-  href: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo.html#SuperOffice_Data_Dialect_DatabaseOperations_BulkImportInfo__ctor
   name: BulkImportInfo
   nameWithType: DatabaseOperations.BulkImportInfo.BulkImportInfo
   fullName: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo.BulkImportInfo
-  nameWithType.vb: DatabaseOperations.BulkImportInfo.New
-  fullName.vb: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo.New
-  name.vb: New
 - uid: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo.Data*
   commentId: Overload:SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo.Data
   isExternal: true
-  href: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo.html#SuperOffice_Data_Dialect_DatabaseOperations_BulkImportInfo_Data
   name: Data
   nameWithType: DatabaseOperations.BulkImportInfo.Data
   fullName: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo.Data
 - uid: System.Data.DataTable
-  commentId: T:System.Data.DataTable
-  parent: System.Data
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.data.datatable
   name: DataTable
   nameWithType: DataTable
   fullName: System.Data.DataTable
-- uid: System.Data
-  commentId: N:System.Data
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Data
-  nameWithType: System.Data
-  fullName: System.Data
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Data
-    name: Data
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.data
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Data
-    name: Data
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.data
 - uid: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo.Table*
   commentId: Overload:SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo.Table
   isExternal: true
-  href: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo.html#SuperOffice_Data_Dialect_DatabaseOperations_BulkImportInfo_Table
   name: Table
   nameWithType: DatabaseOperations.BulkImportInfo.Table
   fullName: SuperOffice.Data.Dialect.DatabaseOperations.BulkImportInfo.Table
@@ -890,44 +517,12 @@ references:
   commentId: T:SuperOffice.Data.Dictionary.SoTable
   parent: SuperOffice.Data.Dictionary
   isExternal: true
-  href: SuperOffice.Data.Dictionary.SoTable.html
   name: SoTable
   nameWithType: SoTable
   fullName: SuperOffice.Data.Dictionary.SoTable
 - uid: SuperOffice.Data.Dictionary
   commentId: N:SuperOffice.Data.Dictionary
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data.Dictionary
   nameWithType: SuperOffice.Data.Dictionary
   fullName: SuperOffice.Data.Dictionary
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.Dictionary
-    name: Dictionary
-    isExternal: true
-    href: SuperOffice.Data.Dictionary.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.Dictionary
-    name: Dictionary
-    isExternal: true
-    href: SuperOffice.Data.Dictionary.html

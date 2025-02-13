@@ -14,25 +14,18 @@ items:
   nameWithType: ISoListProvider
   fullName: SuperOffice.CRM.Lists.ISoListProvider
   type: Interface
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Lists
-  summary: >-
-    Interface defining an MDO list provider, whose supported list (just one) is known
-
-    at compile time. A class implementing this interface should also use the <xref href="SuperOffice.CRM.Lists.MDOProviderPluginAttribute" data-throw-if-not-resolved="false"></xref>
-
-    to mark itself as a plugin, and it should implement the <xref href="SuperOffice.Factory.IPlugin" data-throw-if-not-resolved="false"></xref> interface for
-
-    the same reason. Note that the <xref href="SuperOffice.CRM.Lists.MDOProviderBase" data-throw-if-not-resolved="false"></xref> class implements all of these
-
-    interface, so that a derived class only needs the attribute: Interface implementation requirements
-
-    can be satisifed by base classes, while the attribute must be on the derived class.
-  example: []
+  summary: "\nInterface defining an MDO list provider, whose supported list (just one) is known\nat compile time. A class implementing this interface should also use the <xref href=\"SuperOffice.CRM.Lists.MDOProviderPluginAttribute\" data-throw-if-not-resolved=\"false\"></xref>\nto mark itself as a plugin, and it should implement the <xref href=\"SuperOffice.Factory.IPlugin\" data-throw-if-not-resolved=\"false\"></xref> interface for\nthe same reason. Note that the <xref href=\"SuperOffice.CRM.Lists.MDOProviderBase\" data-throw-if-not-resolved=\"false\"></xref> class implements all of these\ninterface, so that a derived class only needs the attribute: Interface implementation requirements\ncan be satisifed by base classes, while the attribute must be on the derived class.\n"
   syntax:
     content: 'public interface ISoListProvider : ISoList'
-    content.vb: Public Interface ISoListProvider Inherits ISoList
+    content.vb: >-
+      Public Interface ISoListProvider
+          Inherits ISoList
   inheritedMembers:
   - SuperOffice.CRM.Lists.ISoList.HistoryItems
   - SuperOffice.CRM.Lists.ISoList.RootItems
@@ -40,6 +33,12 @@ items:
   extensionMethods:
   - SuperOffice.CRM.Lists.ISoListProvider.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Lists.ISoListProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
 - uid: SuperOffice.CRM.Lists.ISoListProvider.Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
   commentId: M:SuperOffice.CRM.Lists.ISoListProvider.Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
   id: Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
@@ -47,18 +46,17 @@ items:
   langs:
   - csharp
   - vb
-  name: Construct(string, string, int[], bool, string, bool)
-  nameWithType: ISoListProvider.Construct(string, string, int[], bool, string, bool)
-  fullName: SuperOffice.CRM.Lists.ISoListProvider.Construct(string, string, int[], bool, string, bool)
+  name: Construct(String, String, Int32[], Boolean, String, Boolean)
+  nameWithType: ISoListProvider.Construct(String, String, Int32[], Boolean, String, Boolean)
+  fullName: SuperOffice.CRM.Lists.ISoListProvider.Construct(System.String, System.String, System.Int32[], System.Boolean, System.String, System.Boolean)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Lists
-  summary: >-
-    Phase two of two-stage list construction. To be called right after the constructor, at which point
-
-    all constructors have run, and the class hierarchy is initialized.
-  example: []
+  summary: "\nPhase two of two-stage list construction. To be called right after the constructor, at which point\nall constructors have run, and the class hierarchy is initialized.\n"
   syntax:
     content: void Construct(string listName, string additionalInfo, int[] historyIDs, bool onlyReadHistory, string searchValue, bool forceFlatList)
     parameters:
@@ -66,17 +64,21 @@ items:
       type: System.String
       description: >-
         List name (though note that as implemented by <xref href="SuperOffice.CRM.Lists.MDOProviderBase" data-throw-if-not-resolved="false"></xref>,
-                    this actually has to be a real table name, so subclasses should override and convert from
-                    their list name to a real table name) (yes it's a bit messy)
+
+        this actually has to be a real table name, so subclasses should override and convert from
+
+        their list name to a real table name) (yes it&apos;s a bit messy)
     - id: additionalInfo
       type: System.String
       description: Additional information to provider
     - id: historyIDs
       type: System.Int32[]
       description: >-
-        Array of history ID's; if non-null, this will BE the history; a non-null but
-                    empty array will disable reading of history altogether; a null parameter will cause history to be
-                    read from the database.
+        Array of history ID&apos;s; if non-null, this will BE the history; a non-null but
+
+        empty array will disable reading of history altogether; a null parameter will cause history to be
+
+        read from the database.
     - id: onlyReadHistory
       type: System.Boolean
       description: if true, only history will be read.
@@ -87,12 +89,13 @@ items:
       type: System.Boolean
       description: >-
         If true, the returned list will be flat, though it will still be filtered
-                    if grouping/filtering has been set up for the list
+
+        if grouping/filtering has been set up for the list
     content.vb: Sub Construct(listName As String, additionalInfo As String, historyIDs As Integer(), onlyReadHistory As Boolean, searchValue As String, forceFlatList As Boolean)
   overload: SuperOffice.CRM.Lists.ISoListProvider.Construct*
-  nameWithType.vb: ISoListProvider.Construct(String, String, Integer(), Boolean, String, Boolean)
-  fullName.vb: SuperOffice.CRM.Lists.ISoListProvider.Construct(String, String, Integer(), Boolean, String, Boolean)
-  name.vb: Construct(String, String, Integer(), Boolean, String, Boolean)
+  nameWithType.vb: ISoListProvider.Construct(String, String, Int32(), Boolean, String, Boolean)
+  fullName.vb: SuperOffice.CRM.Lists.ISoListProvider.Construct(System.String, System.String, System.Int32(), System.Boolean, System.String, System.Boolean)
+  name.vb: Construct(String, String, Int32(), Boolean, String, Boolean)
 - uid: SuperOffice.CRM.Lists.ISoListProvider.HistoryInfo
   commentId: P:SuperOffice.CRM.Lists.ISoListProvider.HistoryInfo
   id: HistoryInfo
@@ -104,11 +107,13 @@ items:
   nameWithType: ISoListProvider.HistoryInfo
   fullName: SuperOffice.CRM.Lists.ISoListProvider.HistoryInfo
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Lists
-  summary: History information for the supported list
-  example: []
+  summary: "\nHistory information for the supported list\n"
   syntax:
     content: HistoryInfo HistoryInfo { get; }
     parameters: []
@@ -116,71 +121,21 @@ items:
       type: SuperOffice.CRM.Lists.HistoryInfo
     content.vb: ReadOnly Property HistoryInfo As HistoryInfo
   overload: SuperOffice.CRM.Lists.ISoListProvider.HistoryInfo*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
 references:
-- uid: SuperOffice.CRM.Lists.MDOProviderPluginAttribute
-  commentId: T:SuperOffice.CRM.Lists.MDOProviderPluginAttribute
-  parent: SuperOffice.CRM.Lists
-  isExternal: true
-  href: SuperOffice.CRM.Lists.MDOProviderPluginAttribute.html
-  name: MDOProviderPluginAttribute
-  nameWithType: MDOProviderPluginAttribute
-  fullName: SuperOffice.CRM.Lists.MDOProviderPluginAttribute
-- uid: SuperOffice.Factory.IPlugin
-  commentId: T:SuperOffice.Factory.IPlugin
-  isExternal: true
-  name: IPlugin
-  nameWithType: IPlugin
-  fullName: SuperOffice.Factory.IPlugin
-- uid: SuperOffice.CRM.Lists.MDOProviderBase
-  commentId: T:SuperOffice.CRM.Lists.MDOProviderBase
-  parent: SuperOffice.CRM.Lists
-  isExternal: true
-  href: SuperOffice.CRM.Lists.MDOProviderBase.html
-  name: MDOProviderBase
-  nameWithType: MDOProviderBase
-  fullName: SuperOffice.CRM.Lists.MDOProviderBase
 - uid: SuperOffice.CRM.Lists
   commentId: N:SuperOffice.CRM.Lists
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Lists
   nameWithType: SuperOffice.CRM.Lists
   fullName: SuperOffice.CRM.Lists
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Lists
-    name: Lists
-    isExternal: true
-    href: SuperOffice.CRM.Lists.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Lists
-    name: Lists
-    isExternal: true
-    href: SuperOffice.CRM.Lists.html
 - uid: SuperOffice.CRM.Lists.ISoList.HistoryItems
   commentId: P:SuperOffice.CRM.Lists.ISoList.HistoryItems
   parent: SuperOffice.CRM.Lists.ISoList
   isExternal: true
-  href: SuperOffice.CRM.Lists.ISoList.html#SuperOffice_CRM_Lists_ISoList_HistoryItems
   name: HistoryItems
   nameWithType: ISoList.HistoryItems
   fullName: SuperOffice.CRM.Lists.ISoList.HistoryItems
@@ -188,7 +143,6 @@ references:
   commentId: P:SuperOffice.CRM.Lists.ISoList.RootItems
   parent: SuperOffice.CRM.Lists.ISoList
   isExternal: true
-  href: SuperOffice.CRM.Lists.ISoList.html#SuperOffice_CRM_Lists_ISoList_RootItems
   name: RootItems
   nameWithType: ISoList.RootItems
   fullName: SuperOffice.CRM.Lists.ISoList.RootItems
@@ -196,7 +150,6 @@ references:
   commentId: P:SuperOffice.CRM.Lists.ISoList.HeadingItems
   parent: SuperOffice.CRM.Lists.ISoList
   isExternal: true
-  href: SuperOffice.CRM.Lists.ISoList.html#SuperOffice_CRM_Lists_ISoList_HeadingItems
   name: HeadingItems
   nameWithType: ISoList.HeadingItems
   fullName: SuperOffice.CRM.Lists.ISoList.HeadingItems
@@ -204,120 +157,80 @@ references:
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<ISoListProvider, To>(ISoListProvider)
-  nameWithType: EnumUtil.MapEnums<ISoListProvider, To>(ISoListProvider)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Lists.ISoListProvider, To>(SuperOffice.CRM.Lists.ISoListProvider)
-  nameWithType.vb: EnumUtil.MapEnums(Of ISoListProvider, To)(ISoListProvider)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Lists.ISoListProvider, To)(SuperOffice.CRM.Lists.ISoListProvider)
-  name.vb: MapEnums(Of ISoListProvider, To)(ISoListProvider)
+  name: MapEnums<ISoListProvider, To>()
+  nameWithType: EnumUtil.MapEnums<ISoListProvider, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Lists.ISoListProvider, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ISoListProvider, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Lists.ISoListProvider, To)()
+  name.vb: MapEnums(Of ISoListProvider, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Lists.ISoListProvider)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ISoListProvider, To>
+    nameWithType: EnumUtil.MapEnums<ISoListProvider, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Lists.ISoListProvider, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Lists.ISoListProvider
-    name: ISoListProvider
-    isExternal: true
-    href: SuperOffice.CRM.Lists.ISoListProvider.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Lists.ISoListProvider
-    name: ISoListProvider
-    isExternal: true
-    href: SuperOffice.CRM.Lists.ISoListProvider.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Lists.ISoListProvider)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ISoListProvider, To)
+    nameWithType: EnumUtil.MapEnums(Of ISoListProvider, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Lists.ISoListProvider, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Lists.ISoListProvider
-    name: ISoListProvider
-    isExternal: true
-    href: SuperOffice.CRM.Lists.ISoListProvider.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Lists.ISoListProvider
-    name: ISoListProvider
-    isExternal: true
-    href: SuperOffice.CRM.Lists.ISoListProvider.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Lists.ISoListProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<ISoListProvider, To>(ISoListProvider)
-  nameWithType: Converters.MapEnums<ISoListProvider, To>(ISoListProvider)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Lists.ISoListProvider, To>(SuperOffice.CRM.Lists.ISoListProvider)
-  nameWithType.vb: Converters.MapEnums(Of ISoListProvider, To)(ISoListProvider)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Lists.ISoListProvider, To)(SuperOffice.CRM.Lists.ISoListProvider)
-  name.vb: MapEnums(Of ISoListProvider, To)(ISoListProvider)
+  name: MapEnums<ISoListProvider, To>()
+  nameWithType: Converters.MapEnums<ISoListProvider, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Lists.ISoListProvider, To>()
+  nameWithType.vb: Converters.MapEnums(Of ISoListProvider, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Lists.ISoListProvider, To)()
+  name.vb: MapEnums(Of ISoListProvider, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Lists.ISoListProvider)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ISoListProvider, To>
+    nameWithType: Converters.MapEnums<ISoListProvider, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Lists.ISoListProvider, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Lists.ISoListProvider
-    name: ISoListProvider
-    isExternal: true
-    href: SuperOffice.CRM.Lists.ISoListProvider.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Lists.ISoListProvider
-    name: ISoListProvider
-    isExternal: true
-    href: SuperOffice.CRM.Lists.ISoListProvider.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Lists.ISoListProvider)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ISoListProvider, To)
+    nameWithType: Converters.MapEnums(Of ISoListProvider, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Lists.ISoListProvider, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Lists.ISoListProvider
-    name: ISoListProvider
-    isExternal: true
-    href: SuperOffice.CRM.Lists.ISoListProvider.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Lists.ISoListProvider
-    name: ISoListProvider
-    isExternal: true
-    href: SuperOffice.CRM.Lists.ISoListProvider.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Lists.ISoList
   commentId: T:SuperOffice.CRM.Lists.ISoList
   parent: SuperOffice.CRM.Lists
   isExternal: true
-  href: SuperOffice.CRM.Lists.ISoList.html
   name: ISoList
   nameWithType: ISoList
   fullName: SuperOffice.CRM.Lists.ISoList
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -326,45 +239,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -373,83 +284,50 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.CRM.Lists.ISoListProvider.Construct*
   commentId: Overload:SuperOffice.CRM.Lists.ISoListProvider.Construct
   isExternal: true
-  href: SuperOffice.CRM.Lists.ISoListProvider.html#SuperOffice_CRM_Lists_ISoListProvider_Construct_System_String_System_String_System_Int32___System_Boolean_System_String_System_Boolean_
   name: Construct
   nameWithType: ISoListProvider.Construct
   fullName: SuperOffice.CRM.Lists.ISoListProvider.Construct
@@ -457,58 +335,51 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: System.Int32[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int[]
-  nameWithType: int[]
-  fullName: int[]
-  nameWithType.vb: Integer()
-  fullName.vb: Integer()
-  name.vb: Integer()
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
   spec.csharp:
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.CRM.Lists.ISoListProvider.HistoryInfo*
   commentId: Overload:SuperOffice.CRM.Lists.ISoListProvider.HistoryInfo
   isExternal: true
-  href: SuperOffice.CRM.Lists.ISoListProvider.html#SuperOffice_CRM_Lists_ISoListProvider_HistoryInfo
   name: HistoryInfo
   nameWithType: ISoListProvider.HistoryInfo
   fullName: SuperOffice.CRM.Lists.ISoListProvider.HistoryInfo
@@ -516,7 +387,6 @@ references:
   commentId: T:SuperOffice.CRM.Lists.HistoryInfo
   parent: SuperOffice.CRM.Lists
   isExternal: true
-  href: SuperOffice.CRM.Lists.HistoryInfo.html
   name: HistoryInfo
   nameWithType: HistoryInfo
   fullName: SuperOffice.CRM.Lists.HistoryInfo

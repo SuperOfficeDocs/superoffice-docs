@@ -13,14 +13,18 @@ items:
   nameWithType: ISaleInfo3
   fullName: SuperOffice.CRM.ISaleInfo3
   type: Interface
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: Interface providing information about a sale with extra and udef fields in custom fields info
-  example: []
+  summary: "\nInterface providing information about a sale with extra and udef fields in custom fields info\n"
   syntax:
     content: 'public interface ISaleInfo3 : ISaleInfo2, ISaleInfo'
-    content.vb: Public Interface ISaleInfo3 Inherits ISaleInfo2, ISaleInfo
+    content.vb: >-
+      Public Interface ISaleInfo3
+          Inherits ISaleInfo2, ISaleInfo
   inheritedMembers:
   - SuperOffice.CRM.ISaleInfo2.PublishActiveDate
   - SuperOffice.CRM.ISaleInfo2.Source
@@ -59,6 +63,12 @@ items:
   extensionMethods:
   - SuperOffice.CRM.ISaleInfo3.EnumUtil.MapEnums``2
   - SuperOffice.CRM.ISaleInfo3.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
 - uid: SuperOffice.CRM.ISaleInfo3.CustomFields
   commentId: P:SuperOffice.CRM.ISaleInfo3.CustomFields
   id: CustomFields
@@ -70,11 +80,13 @@ items:
   nameWithType: ISaleInfo3.CustomFields
   fullName: SuperOffice.CRM.ISaleInfo3.CustomFields
   type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: 'UDef fields and extra field values encoded as strings: "x_foo" = "[I:123]", "SuperOffice:1" = "[F:34.56]"'
-  example: []
+  summary: "\nUDef fields and extra field values encoded as strings: &quot;x_foo&quot; = &quot;[I:123]&quot;, &quot;SuperOffice:1&quot; = &quot;[F:34.56]&quot;\n"
   syntax:
     content: Dictionary<string, string> CustomFields { get; }
     parameters: []
@@ -82,39 +94,21 @@ items:
       type: System.Collections.Generic.Dictionary{System.String,System.String}
     content.vb: ReadOnly Property CustomFields As Dictionary(Of String, String)
   overload: SuperOffice.CRM.ISaleInfo3.CustomFields*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
 references:
 - uid: SuperOffice.CRM
   commentId: N:SuperOffice.CRM
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM
   nameWithType: SuperOffice.CRM
   fullName: SuperOffice.CRM
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
 - uid: SuperOffice.CRM.ISaleInfo2.PublishActiveDate
   commentId: P:SuperOffice.CRM.ISaleInfo2.PublishActiveDate
   parent: SuperOffice.CRM.ISaleInfo2
   isExternal: true
-  href: SuperOffice.CRM.ISaleInfo2.html#SuperOffice_CRM_ISaleInfo2_PublishActiveDate
   name: PublishActiveDate
   nameWithType: ISaleInfo2.PublishActiveDate
   fullName: SuperOffice.CRM.ISaleInfo2.PublishActiveDate
@@ -122,7 +116,6 @@ references:
   commentId: P:SuperOffice.CRM.ISaleInfo2.Source
   parent: SuperOffice.CRM.ISaleInfo2
   isExternal: true
-  href: SuperOffice.CRM.ISaleInfo2.html#SuperOffice_CRM_ISaleInfo2_Source
   name: Source
   nameWithType: ISaleInfo2.Source
   fullName: SuperOffice.CRM.ISaleInfo2.Source
@@ -130,7 +123,6 @@ references:
   commentId: P:SuperOffice.CRM.ISaleInfo2.HasGuide
   parent: SuperOffice.CRM.ISaleInfo2
   isExternal: true
-  href: SuperOffice.CRM.ISaleInfo2.html#SuperOffice_CRM_ISaleInfo2_HasGuide
   name: HasGuide
   nameWithType: ISaleInfo2.HasGuide
   fullName: SuperOffice.CRM.ISaleInfo2.HasGuide
@@ -138,7 +130,6 @@ references:
   commentId: P:SuperOffice.CRM.ISaleInfo2.HasStakeHolders
   parent: SuperOffice.CRM.ISaleInfo2
   isExternal: true
-  href: SuperOffice.CRM.ISaleInfo2.html#SuperOffice_CRM_ISaleInfo2_HasStakeHolders
   name: HasStakeHolders
   nameWithType: ISaleInfo2.HasStakeHolders
   fullName: SuperOffice.CRM.ISaleInfo2.HasStakeHolders
@@ -146,7 +137,6 @@ references:
   commentId: P:SuperOffice.CRM.ISaleInfo2.Earning
   parent: SuperOffice.CRM.ISaleInfo2
   isExternal: true
-  href: SuperOffice.CRM.ISaleInfo2.html#SuperOffice_CRM_ISaleInfo2_Earning
   name: Earning
   nameWithType: ISaleInfo2.Earning
   fullName: SuperOffice.CRM.ISaleInfo2.Earning
@@ -154,7 +144,6 @@ references:
   commentId: P:SuperOffice.CRM.ISaleInfo2.EarningPercent
   parent: SuperOffice.CRM.ISaleInfo2
   isExternal: true
-  href: SuperOffice.CRM.ISaleInfo2.html#SuperOffice_CRM_ISaleInfo2_EarningPercent
   name: EarningPercent
   nameWithType: ISaleInfo2.EarningPercent
   fullName: SuperOffice.CRM.ISaleInfo2.EarningPercent
@@ -162,7 +151,6 @@ references:
   commentId: P:SuperOffice.CRM.ISaleInfo2.Cost
   parent: SuperOffice.CRM.ISaleInfo2
   isExternal: true
-  href: SuperOffice.CRM.ISaleInfo2.html#SuperOffice_CRM_ISaleInfo2_Cost
   name: Cost
   nameWithType: ISaleInfo2.Cost
   fullName: SuperOffice.CRM.ISaleInfo2.Cost
@@ -170,7 +158,6 @@ references:
   commentId: P:SuperOffice.CRM.ISaleInfo2.SaleText
   parent: SuperOffice.CRM.ISaleInfo2
   isExternal: true
-  href: SuperOffice.CRM.ISaleInfo2.html#SuperOffice_CRM_ISaleInfo2_SaleText
   name: SaleText
   nameWithType: ISaleInfo2.SaleText
   fullName: SuperOffice.CRM.ISaleInfo2.SaleText
@@ -178,7 +165,6 @@ references:
   commentId: P:SuperOffice.CRM.ISaleInfo2.Registered
   parent: SuperOffice.CRM.ISaleInfo2
   isExternal: true
-  href: SuperOffice.CRM.ISaleInfo2.html#SuperOffice_CRM_ISaleInfo2_Registered
   name: Registered
   nameWithType: ISaleInfo2.Registered
   fullName: SuperOffice.CRM.ISaleInfo2.Registered
@@ -186,7 +172,6 @@ references:
   commentId: P:SuperOffice.CRM.ISaleInfo2.AssociateId
   parent: SuperOffice.CRM.ISaleInfo2
   isExternal: true
-  href: SuperOffice.CRM.ISaleInfo2.html#SuperOffice_CRM_ISaleInfo2_AssociateId
   name: AssociateId
   nameWithType: ISaleInfo2.AssociateId
   fullName: SuperOffice.CRM.ISaleInfo2.AssociateId
@@ -194,7 +179,6 @@ references:
   commentId: P:SuperOffice.CRM.ISaleInfo2.CreatedAssociate
   parent: SuperOffice.CRM.ISaleInfo2
   isExternal: true
-  href: SuperOffice.CRM.ISaleInfo2.html#SuperOffice_CRM_ISaleInfo2_CreatedAssociate
   name: CreatedAssociate
   nameWithType: ISaleInfo2.CreatedAssociate
   fullName: SuperOffice.CRM.ISaleInfo2.CreatedAssociate
@@ -202,205 +186,252 @@ references:
   commentId: M:SuperOffice.CRM.ISaleInfo.GetUserDefinedDecimal(System.Int32)
   parent: SuperOffice.CRM.ISaleInfo
   isExternal: true
-  href: SuperOffice.CRM.ISaleInfo.html#SuperOffice_CRM_ISaleInfo_GetUserDefinedDecimal_System_Int32_
-  name: GetUserDefinedDecimal(int)
-  nameWithType: ISaleInfo.GetUserDefinedDecimal(int)
-  fullName: SuperOffice.CRM.ISaleInfo.GetUserDefinedDecimal(int)
-  nameWithType.vb: ISaleInfo.GetUserDefinedDecimal(Integer)
-  fullName.vb: SuperOffice.CRM.ISaleInfo.GetUserDefinedDecimal(Integer)
-  name.vb: GetUserDefinedDecimal(Integer)
+  name: GetUserDefinedDecimal(Int32)
+  nameWithType: ISaleInfo.GetUserDefinedDecimal(Int32)
+  fullName: SuperOffice.CRM.ISaleInfo.GetUserDefinedDecimal(System.Int32)
   spec.csharp:
   - uid: SuperOffice.CRM.ISaleInfo.GetUserDefinedDecimal(System.Int32)
     name: GetUserDefinedDecimal
+    nameWithType: ISaleInfo.GetUserDefinedDecimal
+    fullName: SuperOffice.CRM.ISaleInfo.GetUserDefinedDecimal
     isExternal: true
-    href: SuperOffice.CRM.ISaleInfo.html#SuperOffice_CRM_ISaleInfo_GetUserDefinedDecimal_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.ISaleInfo.GetUserDefinedDecimal(System.Int32)
     name: GetUserDefinedDecimal
+    nameWithType: ISaleInfo.GetUserDefinedDecimal
+    fullName: SuperOffice.CRM.ISaleInfo.GetUserDefinedDecimal
     isExternal: true
-    href: SuperOffice.CRM.ISaleInfo.html#SuperOffice_CRM_ISaleInfo_GetUserDefinedDecimal_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.ISaleInfo.GetUserDefinedInt(System.Int32)
   commentId: M:SuperOffice.CRM.ISaleInfo.GetUserDefinedInt(System.Int32)
   parent: SuperOffice.CRM.ISaleInfo
   isExternal: true
-  href: SuperOffice.CRM.ISaleInfo.html#SuperOffice_CRM_ISaleInfo_GetUserDefinedInt_System_Int32_
-  name: GetUserDefinedInt(int)
-  nameWithType: ISaleInfo.GetUserDefinedInt(int)
-  fullName: SuperOffice.CRM.ISaleInfo.GetUserDefinedInt(int)
-  nameWithType.vb: ISaleInfo.GetUserDefinedInt(Integer)
-  fullName.vb: SuperOffice.CRM.ISaleInfo.GetUserDefinedInt(Integer)
-  name.vb: GetUserDefinedInt(Integer)
+  name: GetUserDefinedInt(Int32)
+  nameWithType: ISaleInfo.GetUserDefinedInt(Int32)
+  fullName: SuperOffice.CRM.ISaleInfo.GetUserDefinedInt(System.Int32)
   spec.csharp:
   - uid: SuperOffice.CRM.ISaleInfo.GetUserDefinedInt(System.Int32)
     name: GetUserDefinedInt
+    nameWithType: ISaleInfo.GetUserDefinedInt
+    fullName: SuperOffice.CRM.ISaleInfo.GetUserDefinedInt
     isExternal: true
-    href: SuperOffice.CRM.ISaleInfo.html#SuperOffice_CRM_ISaleInfo_GetUserDefinedInt_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.ISaleInfo.GetUserDefinedInt(System.Int32)
     name: GetUserDefinedInt
+    nameWithType: ISaleInfo.GetUserDefinedInt
+    fullName: SuperOffice.CRM.ISaleInfo.GetUserDefinedInt
     isExternal: true
-    href: SuperOffice.CRM.ISaleInfo.html#SuperOffice_CRM_ISaleInfo_GetUserDefinedInt_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.ISaleInfo.GetUserDefinedString(System.Int32)
   commentId: M:SuperOffice.CRM.ISaleInfo.GetUserDefinedString(System.Int32)
   parent: SuperOffice.CRM.ISaleInfo
   isExternal: true
-  href: SuperOffice.CRM.ISaleInfo.html#SuperOffice_CRM_ISaleInfo_GetUserDefinedString_System_Int32_
-  name: GetUserDefinedString(int)
-  nameWithType: ISaleInfo.GetUserDefinedString(int)
-  fullName: SuperOffice.CRM.ISaleInfo.GetUserDefinedString(int)
-  nameWithType.vb: ISaleInfo.GetUserDefinedString(Integer)
-  fullName.vb: SuperOffice.CRM.ISaleInfo.GetUserDefinedString(Integer)
-  name.vb: GetUserDefinedString(Integer)
+  name: GetUserDefinedString(Int32)
+  nameWithType: ISaleInfo.GetUserDefinedString(Int32)
+  fullName: SuperOffice.CRM.ISaleInfo.GetUserDefinedString(System.Int32)
   spec.csharp:
   - uid: SuperOffice.CRM.ISaleInfo.GetUserDefinedString(System.Int32)
     name: GetUserDefinedString
+    nameWithType: ISaleInfo.GetUserDefinedString
+    fullName: SuperOffice.CRM.ISaleInfo.GetUserDefinedString
     isExternal: true
-    href: SuperOffice.CRM.ISaleInfo.html#SuperOffice_CRM_ISaleInfo_GetUserDefinedString_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.ISaleInfo.GetUserDefinedString(System.Int32)
     name: GetUserDefinedString
+    nameWithType: ISaleInfo.GetUserDefinedString
+    fullName: SuperOffice.CRM.ISaleInfo.GetUserDefinedString
     isExternal: true
-    href: SuperOffice.CRM.ISaleInfo.html#SuperOffice_CRM_ISaleInfo_GetUserDefinedString_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.ISaleInfo.GetUserDefinedDecimal(System.String)
   commentId: M:SuperOffice.CRM.ISaleInfo.GetUserDefinedDecimal(System.String)
   parent: SuperOffice.CRM.ISaleInfo
   isExternal: true
-  href: SuperOffice.CRM.ISaleInfo.html#SuperOffice_CRM_ISaleInfo_GetUserDefinedDecimal_System_String_
-  name: GetUserDefinedDecimal(string)
-  nameWithType: ISaleInfo.GetUserDefinedDecimal(string)
-  fullName: SuperOffice.CRM.ISaleInfo.GetUserDefinedDecimal(string)
-  nameWithType.vb: ISaleInfo.GetUserDefinedDecimal(String)
-  fullName.vb: SuperOffice.CRM.ISaleInfo.GetUserDefinedDecimal(String)
-  name.vb: GetUserDefinedDecimal(String)
+  name: GetUserDefinedDecimal(String)
+  nameWithType: ISaleInfo.GetUserDefinedDecimal(String)
+  fullName: SuperOffice.CRM.ISaleInfo.GetUserDefinedDecimal(System.String)
   spec.csharp:
   - uid: SuperOffice.CRM.ISaleInfo.GetUserDefinedDecimal(System.String)
     name: GetUserDefinedDecimal
+    nameWithType: ISaleInfo.GetUserDefinedDecimal
+    fullName: SuperOffice.CRM.ISaleInfo.GetUserDefinedDecimal
     isExternal: true
-    href: SuperOffice.CRM.ISaleInfo.html#SuperOffice_CRM_ISaleInfo_GetUserDefinedDecimal_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.ISaleInfo.GetUserDefinedDecimal(System.String)
     name: GetUserDefinedDecimal
+    nameWithType: ISaleInfo.GetUserDefinedDecimal
+    fullName: SuperOffice.CRM.ISaleInfo.GetUserDefinedDecimal
     isExternal: true
-    href: SuperOffice.CRM.ISaleInfo.html#SuperOffice_CRM_ISaleInfo_GetUserDefinedDecimal_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.ISaleInfo.GetUserDefinedInt(System.String)
   commentId: M:SuperOffice.CRM.ISaleInfo.GetUserDefinedInt(System.String)
   parent: SuperOffice.CRM.ISaleInfo
   isExternal: true
-  href: SuperOffice.CRM.ISaleInfo.html#SuperOffice_CRM_ISaleInfo_GetUserDefinedInt_System_String_
-  name: GetUserDefinedInt(string)
-  nameWithType: ISaleInfo.GetUserDefinedInt(string)
-  fullName: SuperOffice.CRM.ISaleInfo.GetUserDefinedInt(string)
-  nameWithType.vb: ISaleInfo.GetUserDefinedInt(String)
-  fullName.vb: SuperOffice.CRM.ISaleInfo.GetUserDefinedInt(String)
-  name.vb: GetUserDefinedInt(String)
+  name: GetUserDefinedInt(String)
+  nameWithType: ISaleInfo.GetUserDefinedInt(String)
+  fullName: SuperOffice.CRM.ISaleInfo.GetUserDefinedInt(System.String)
   spec.csharp:
   - uid: SuperOffice.CRM.ISaleInfo.GetUserDefinedInt(System.String)
     name: GetUserDefinedInt
+    nameWithType: ISaleInfo.GetUserDefinedInt
+    fullName: SuperOffice.CRM.ISaleInfo.GetUserDefinedInt
     isExternal: true
-    href: SuperOffice.CRM.ISaleInfo.html#SuperOffice_CRM_ISaleInfo_GetUserDefinedInt_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.ISaleInfo.GetUserDefinedInt(System.String)
     name: GetUserDefinedInt
+    nameWithType: ISaleInfo.GetUserDefinedInt
+    fullName: SuperOffice.CRM.ISaleInfo.GetUserDefinedInt
     isExternal: true
-    href: SuperOffice.CRM.ISaleInfo.html#SuperOffice_CRM_ISaleInfo_GetUserDefinedInt_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.ISaleInfo.GetUserDefinedString(System.String)
   commentId: M:SuperOffice.CRM.ISaleInfo.GetUserDefinedString(System.String)
   parent: SuperOffice.CRM.ISaleInfo
   isExternal: true
-  href: SuperOffice.CRM.ISaleInfo.html#SuperOffice_CRM_ISaleInfo_GetUserDefinedString_System_String_
-  name: GetUserDefinedString(string)
-  nameWithType: ISaleInfo.GetUserDefinedString(string)
-  fullName: SuperOffice.CRM.ISaleInfo.GetUserDefinedString(string)
-  nameWithType.vb: ISaleInfo.GetUserDefinedString(String)
-  fullName.vb: SuperOffice.CRM.ISaleInfo.GetUserDefinedString(String)
-  name.vb: GetUserDefinedString(String)
+  name: GetUserDefinedString(String)
+  nameWithType: ISaleInfo.GetUserDefinedString(String)
+  fullName: SuperOffice.CRM.ISaleInfo.GetUserDefinedString(System.String)
   spec.csharp:
   - uid: SuperOffice.CRM.ISaleInfo.GetUserDefinedString(System.String)
     name: GetUserDefinedString
+    nameWithType: ISaleInfo.GetUserDefinedString
+    fullName: SuperOffice.CRM.ISaleInfo.GetUserDefinedString
     isExternal: true
-    href: SuperOffice.CRM.ISaleInfo.html#SuperOffice_CRM_ISaleInfo_GetUserDefinedString_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.ISaleInfo.GetUserDefinedString(System.String)
     name: GetUserDefinedString
+    nameWithType: ISaleInfo.GetUserDefinedString
+    fullName: SuperOffice.CRM.ISaleInfo.GetUserDefinedString
     isExternal: true
-    href: SuperOffice.CRM.ISaleInfo.html#SuperOffice_CRM_ISaleInfo_GetUserDefinedString_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.ISaleInfo.SaleId
   commentId: P:SuperOffice.CRM.ISaleInfo.SaleId
   parent: SuperOffice.CRM.ISaleInfo
   isExternal: true
-  href: SuperOffice.CRM.ISaleInfo.html#SuperOffice_CRM_ISaleInfo_SaleId
   name: SaleId
   nameWithType: ISaleInfo.SaleId
   fullName: SuperOffice.CRM.ISaleInfo.SaleId
@@ -408,7 +439,6 @@ references:
   commentId: P:SuperOffice.CRM.ISaleInfo.Associate
   parent: SuperOffice.CRM.ISaleInfo
   isExternal: true
-  href: SuperOffice.CRM.ISaleInfo.html#SuperOffice_CRM_ISaleInfo_Associate
   name: Associate
   nameWithType: ISaleInfo.Associate
   fullName: SuperOffice.CRM.ISaleInfo.Associate
@@ -416,7 +446,6 @@ references:
   commentId: P:SuperOffice.CRM.ISaleInfo.Number
   parent: SuperOffice.CRM.ISaleInfo
   isExternal: true
-  href: SuperOffice.CRM.ISaleInfo.html#SuperOffice_CRM_ISaleInfo_Number
   name: Number
   nameWithType: ISaleInfo.Number
   fullName: SuperOffice.CRM.ISaleInfo.Number
@@ -424,7 +453,6 @@ references:
   commentId: P:SuperOffice.CRM.ISaleInfo.Title
   parent: SuperOffice.CRM.ISaleInfo
   isExternal: true
-  href: SuperOffice.CRM.ISaleInfo.html#SuperOffice_CRM_ISaleInfo_Title
   name: Title
   nameWithType: ISaleInfo.Title
   fullName: SuperOffice.CRM.ISaleInfo.Title
@@ -432,7 +460,6 @@ references:
   commentId: P:SuperOffice.CRM.ISaleInfo.Amount
   parent: SuperOffice.CRM.ISaleInfo
   isExternal: true
-  href: SuperOffice.CRM.ISaleInfo.html#SuperOffice_CRM_ISaleInfo_Amount
   name: Amount
   nameWithType: ISaleInfo.Amount
   fullName: SuperOffice.CRM.ISaleInfo.Amount
@@ -440,7 +467,6 @@ references:
   commentId: P:SuperOffice.CRM.ISaleInfo.Currency
   parent: SuperOffice.CRM.ISaleInfo
   isExternal: true
-  href: SuperOffice.CRM.ISaleInfo.html#SuperOffice_CRM_ISaleInfo_Currency
   name: Currency
   nameWithType: ISaleInfo.Currency
   fullName: SuperOffice.CRM.ISaleInfo.Currency
@@ -448,7 +474,6 @@ references:
   commentId: P:SuperOffice.CRM.ISaleInfo.PublishStartDate
   parent: SuperOffice.CRM.ISaleInfo
   isExternal: true
-  href: SuperOffice.CRM.ISaleInfo.html#SuperOffice_CRM_ISaleInfo_PublishStartDate
   name: PublishStartDate
   nameWithType: ISaleInfo.PublishStartDate
   fullName: SuperOffice.CRM.ISaleInfo.PublishStartDate
@@ -456,7 +481,6 @@ references:
   commentId: P:SuperOffice.CRM.ISaleInfo.PublishEndDate
   parent: SuperOffice.CRM.ISaleInfo
   isExternal: true
-  href: SuperOffice.CRM.ISaleInfo.html#SuperOffice_CRM_ISaleInfo_PublishEndDate
   name: PublishEndDate
   nameWithType: ISaleInfo.PublishEndDate
   fullName: SuperOffice.CRM.ISaleInfo.PublishEndDate
@@ -464,7 +488,6 @@ references:
   commentId: P:SuperOffice.CRM.ISaleInfo.Type
   parent: SuperOffice.CRM.ISaleInfo
   isExternal: true
-  href: SuperOffice.CRM.ISaleInfo.html#SuperOffice_CRM_ISaleInfo_Type
   name: Type
   nameWithType: ISaleInfo.Type
   fullName: SuperOffice.CRM.ISaleInfo.Type
@@ -472,7 +495,6 @@ references:
   commentId: P:SuperOffice.CRM.ISaleInfo.Stage
   parent: SuperOffice.CRM.ISaleInfo
   isExternal: true
-  href: SuperOffice.CRM.ISaleInfo.html#SuperOffice_CRM_ISaleInfo_Stage
   name: Stage
   nameWithType: ISaleInfo.Stage
   fullName: SuperOffice.CRM.ISaleInfo.Stage
@@ -480,7 +502,6 @@ references:
   commentId: P:SuperOffice.CRM.ISaleInfo.Credited
   parent: SuperOffice.CRM.ISaleInfo
   isExternal: true
-  href: SuperOffice.CRM.ISaleInfo.html#SuperOffice_CRM_ISaleInfo_Credited
   name: Credited
   nameWithType: ISaleInfo.Credited
   fullName: SuperOffice.CRM.ISaleInfo.Credited
@@ -488,7 +509,6 @@ references:
   commentId: P:SuperOffice.CRM.ISaleInfo.Competitor
   parent: SuperOffice.CRM.ISaleInfo
   isExternal: true
-  href: SuperOffice.CRM.ISaleInfo.html#SuperOffice_CRM_ISaleInfo_Competitor
   name: Competitor
   nameWithType: ISaleInfo.Competitor
   fullName: SuperOffice.CRM.ISaleInfo.Competitor
@@ -496,7 +516,6 @@ references:
   commentId: P:SuperOffice.CRM.ISaleInfo.Probability
   parent: SuperOffice.CRM.ISaleInfo
   isExternal: true
-  href: SuperOffice.CRM.ISaleInfo.html#SuperOffice_CRM_ISaleInfo_Probability
   name: Probability
   nameWithType: ISaleInfo.Probability
   fullName: SuperOffice.CRM.ISaleInfo.Probability
@@ -504,7 +523,6 @@ references:
   commentId: P:SuperOffice.CRM.ISaleInfo.NextDueDate
   parent: SuperOffice.CRM.ISaleInfo
   isExternal: true
-  href: SuperOffice.CRM.ISaleInfo.html#SuperOffice_CRM_ISaleInfo_NextDueDate
   name: NextDueDate
   nameWithType: ISaleInfo.NextDueDate
   fullName: SuperOffice.CRM.ISaleInfo.NextDueDate
@@ -512,7 +530,6 @@ references:
   commentId: P:SuperOffice.CRM.ISaleInfo.Reason
   parent: SuperOffice.CRM.ISaleInfo
   isExternal: true
-  href: SuperOffice.CRM.ISaleInfo.html#SuperOffice_CRM_ISaleInfo_Reason
   name: Reason
   nameWithType: ISaleInfo.Reason
   fullName: SuperOffice.CRM.ISaleInfo.Reason
@@ -520,7 +537,6 @@ references:
   commentId: P:SuperOffice.CRM.ISaleInfo.SaleDate
   parent: SuperOffice.CRM.ISaleInfo
   isExternal: true
-  href: SuperOffice.CRM.ISaleInfo.html#SuperOffice_CRM_ISaleInfo_SaleDate
   name: SaleDate
   nameWithType: ISaleInfo.SaleDate
   fullName: SuperOffice.CRM.ISaleInfo.SaleDate
@@ -528,7 +544,6 @@ references:
   commentId: P:SuperOffice.CRM.ISaleInfo.Status
   parent: SuperOffice.CRM.ISaleInfo
   isExternal: true
-  href: SuperOffice.CRM.ISaleInfo.html#SuperOffice_CRM_ISaleInfo_Status
   name: Status
   nameWithType: ISaleInfo.Status
   fullName: SuperOffice.CRM.ISaleInfo.Status
@@ -536,113 +551,74 @@ references:
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<ISaleInfo3, To>(ISaleInfo3)
-  nameWithType: EnumUtil.MapEnums<ISaleInfo3, To>(ISaleInfo3)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ISaleInfo3, To>(SuperOffice.CRM.ISaleInfo3)
-  nameWithType.vb: EnumUtil.MapEnums(Of ISaleInfo3, To)(ISaleInfo3)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ISaleInfo3, To)(SuperOffice.CRM.ISaleInfo3)
-  name.vb: MapEnums(Of ISaleInfo3, To)(ISaleInfo3)
+  name: MapEnums<ISaleInfo3, To>()
+  nameWithType: EnumUtil.MapEnums<ISaleInfo3, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ISaleInfo3, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ISaleInfo3, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ISaleInfo3, To)()
+  name.vb: MapEnums(Of ISaleInfo3, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.ISaleInfo3)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ISaleInfo3, To>
+    nameWithType: EnumUtil.MapEnums<ISaleInfo3, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.ISaleInfo3, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.ISaleInfo3
-    name: ISaleInfo3
-    isExternal: true
-    href: SuperOffice.CRM.ISaleInfo3.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.ISaleInfo3
-    name: ISaleInfo3
-    isExternal: true
-    href: SuperOffice.CRM.ISaleInfo3.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.ISaleInfo3)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ISaleInfo3, To)
+    nameWithType: EnumUtil.MapEnums(Of ISaleInfo3, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ISaleInfo3, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.ISaleInfo3
-    name: ISaleInfo3
-    isExternal: true
-    href: SuperOffice.CRM.ISaleInfo3.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.ISaleInfo3
-    name: ISaleInfo3
-    isExternal: true
-    href: SuperOffice.CRM.ISaleInfo3.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.ISaleInfo3.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<ISaleInfo3, To>(ISaleInfo3)
-  nameWithType: Converters.MapEnums<ISaleInfo3, To>(ISaleInfo3)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ISaleInfo3, To>(SuperOffice.CRM.ISaleInfo3)
-  nameWithType.vb: Converters.MapEnums(Of ISaleInfo3, To)(ISaleInfo3)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ISaleInfo3, To)(SuperOffice.CRM.ISaleInfo3)
-  name.vb: MapEnums(Of ISaleInfo3, To)(ISaleInfo3)
+  name: MapEnums<ISaleInfo3, To>()
+  nameWithType: Converters.MapEnums<ISaleInfo3, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ISaleInfo3, To>()
+  nameWithType.vb: Converters.MapEnums(Of ISaleInfo3, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ISaleInfo3, To)()
+  name.vb: MapEnums(Of ISaleInfo3, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.ISaleInfo3)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ISaleInfo3, To>
+    nameWithType: Converters.MapEnums<ISaleInfo3, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ISaleInfo3, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.ISaleInfo3
-    name: ISaleInfo3
-    isExternal: true
-    href: SuperOffice.CRM.ISaleInfo3.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.ISaleInfo3
-    name: ISaleInfo3
-    isExternal: true
-    href: SuperOffice.CRM.ISaleInfo3.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.ISaleInfo3)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ISaleInfo3, To)
+    nameWithType: Converters.MapEnums(Of ISaleInfo3, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ISaleInfo3, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.ISaleInfo3
-    name: ISaleInfo3
-    isExternal: true
-    href: SuperOffice.CRM.ISaleInfo3.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.ISaleInfo3
-    name: ISaleInfo3
-    isExternal: true
-    href: SuperOffice.CRM.ISaleInfo3.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.ISaleInfo2
   commentId: T:SuperOffice.CRM.ISaleInfo2
   parent: SuperOffice.CRM
   isExternal: true
-  href: SuperOffice.CRM.ISaleInfo2.html
   name: ISaleInfo2
   nameWithType: ISaleInfo2
   fullName: SuperOffice.CRM.ISaleInfo2
@@ -650,14 +626,12 @@ references:
   commentId: T:SuperOffice.CRM.ISaleInfo
   parent: SuperOffice.CRM
   isExternal: true
-  href: SuperOffice.CRM.ISaleInfo.html
   name: ISaleInfo
   nameWithType: ISaleInfo
   fullName: SuperOffice.CRM.ISaleInfo
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -666,45 +640,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -713,201 +685,159 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.CRM.ISaleInfo3.CustomFields*
   commentId: Overload:SuperOffice.CRM.ISaleInfo3.CustomFields
   isExternal: true
-  href: SuperOffice.CRM.ISaleInfo3.html#SuperOffice_CRM_ISaleInfo3_CustomFields
   name: CustomFields
   nameWithType: ISaleInfo3.CustomFields
   fullName: SuperOffice.CRM.ISaleInfo3.CustomFields
 - uid: System.Collections.Generic.Dictionary{System.String,System.String}
-  commentId: T:System.Collections.Generic.Dictionary{System.String,System.String}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.Dictionary{System.String,System.String}'
   definition: System.Collections.Generic.Dictionary`2
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
-  name: Dictionary<string, string>
-  nameWithType: Dictionary<string, string>
-  fullName: System.Collections.Generic.Dictionary<string, string>
+  name: Dictionary<String, String>
+  nameWithType: Dictionary<String, String>
+  fullName: System.Collections.Generic.Dictionary<System.String, System.String>
   nameWithType.vb: Dictionary(Of String, String)
-  fullName.vb: System.Collections.Generic.Dictionary(Of String, String)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, System.String)
   name.vb: Dictionary(Of String, String)
   spec.csharp:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Collections.Generic.Dictionary`2
-  commentId: T:System.Collections.Generic.Dictionary`2
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
-  name: Dictionary<TKey, TValue>
-  nameWithType: Dictionary<TKey, TValue>
-  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
-  nameWithType.vb: Dictionary(Of TKey, TValue)
-  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
-  name.vb: Dictionary(Of TKey, TValue)
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: System.Collections.Generic.Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: System.Collections.Generic.Dictionary(Of , )
+  name.vb: Dictionary(Of , )
   spec.csharp:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
   - name: <
-  - name: TKey
-  - name: ','
-  - name: " "
-  - name: TValue
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TKey
-  - name: ','
-  - name: " "
-  - name: TValue
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+    nameWithType: )
+    fullName: )

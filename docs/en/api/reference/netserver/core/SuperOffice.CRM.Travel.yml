@@ -26,7 +26,6 @@ references:
 - uid: SuperOffice.CRM.Travel.AreaFilterDatabaseCopy
   commentId: T:SuperOffice.CRM.Travel.AreaFilterDatabaseCopy
   isExternal: true
-  href: SuperOffice.CRM.Travel.AreaFilterDatabaseCopy.html
   name: AreaFilterDatabaseCopy
   nameWithType: AreaFilterDatabaseCopy
   fullName: SuperOffice.CRM.Travel.AreaFilterDatabaseCopy
@@ -34,7 +33,6 @@ references:
   commentId: T:SuperOffice.CRM.Travel.DatabaseCopyParent
   parent: SuperOffice.CRM.Travel
   isExternal: true
-  href: SuperOffice.CRM.Travel.DatabaseCopyParent.html
   name: DatabaseCopyParent
   nameWithType: DatabaseCopyParent
   fullName: SuperOffice.CRM.Travel.DatabaseCopyParent
@@ -42,7 +40,6 @@ references:
   commentId: T:SuperOffice.CRM.Travel.ProcessingOption
   parent: SuperOffice.CRM.Travel
   isExternal: true
-  href: SuperOffice.CRM.Travel.ProcessingOption.html
   name: ProcessingOption
   nameWithType: ProcessingOption
   fullName: SuperOffice.CRM.Travel.ProcessingOption
@@ -50,7 +47,6 @@ references:
   commentId: T:SuperOffice.CRM.Travel.OnStartOfTable
   parent: SuperOffice.CRM.Travel
   isExternal: true
-  href: SuperOffice.CRM.Travel.OnStartOfTable.html
   name: OnStartOfTable
   nameWithType: OnStartOfTable
   fullName: SuperOffice.CRM.Travel.OnStartOfTable
@@ -58,7 +54,6 @@ references:
   commentId: T:SuperOffice.CRM.Travel.OnProcessRow
   parent: SuperOffice.CRM.Travel
   isExternal: true
-  href: SuperOffice.CRM.Travel.OnProcessRow.html
   name: OnProcessRow
   nameWithType: OnProcessRow
   fullName: SuperOffice.CRM.Travel.OnProcessRow
@@ -66,14 +61,12 @@ references:
   commentId: T:SuperOffice.CRM.Travel.OnEndOfTable
   parent: SuperOffice.CRM.Travel
   isExternal: true
-  href: SuperOffice.CRM.Travel.OnEndOfTable.html
   name: OnEndOfTable
   nameWithType: OnEndOfTable
   fullName: SuperOffice.CRM.Travel.OnEndOfTable
 - uid: SuperOffice.CRM.Travel.TravelException
   commentId: T:SuperOffice.CRM.Travel.TravelException
   isExternal: true
-  href: SuperOffice.CRM.Travel.TravelException.html
   name: TravelException
   nameWithType: TravelException
   fullName: SuperOffice.CRM.Travel.TravelException
@@ -81,51 +74,18 @@ references:
   commentId: T:SuperOffice.CRM.Travel.TableInfoAndData
   parent: SuperOffice.CRM.Travel
   isExternal: true
-  href: SuperOffice.CRM.Travel.TableInfoAndData.html
   name: TableInfoAndData
   nameWithType: TableInfoAndData
   fullName: SuperOffice.CRM.Travel.TableInfoAndData
 - uid: SuperOffice.CRM.Travel.TravelDatabaseCreator
   commentId: T:SuperOffice.CRM.Travel.TravelDatabaseCreator
   isExternal: true
-  href: SuperOffice.CRM.Travel.TravelDatabaseCreator.html
   name: TravelDatabaseCreator
   nameWithType: TravelDatabaseCreator
   fullName: SuperOffice.CRM.Travel.TravelDatabaseCreator
 - uid: SuperOffice.CRM.Travel
   commentId: N:SuperOffice.CRM.Travel
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Travel
   nameWithType: SuperOffice.CRM.Travel
   fullName: SuperOffice.CRM.Travel
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Travel
-    name: Travel
-    isExternal: true
-    href: SuperOffice.CRM.Travel.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Travel
-    name: Travel
-    isExternal: true
-    href: SuperOffice.CRM.Travel.html

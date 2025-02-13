@@ -27,24 +27,27 @@ items:
   nameWithType: UserPreferenceStrings.ToolTips
   fullName: SuperOffice.CRM.UserPreferenceStrings.ToolTips
   type: Class
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: Tooltips in the application
-  example: []
+  summary: "\nTooltips in the application\n"
   syntax:
-    content: public static class UserPreferenceStrings.ToolTips
-    content.vb: Public Module UserPreferenceStrings.ToolTips
+    content: 'public static class ToolTips : Object'
+    content.vb: >-
+      Public Module ToolTips
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
 - uid: SuperOffice.CRM.UserPreferenceStrings.ToolTips.Section
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.ToolTips.Section
   id: Section
@@ -56,16 +59,24 @@ items:
   nameWithType: UserPreferenceStrings.ToolTips.Section
   fullName: SuperOffice.CRM.UserPreferenceStrings.ToolTips.Section
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: Section heading
-  example: []
+  summary: "\nSection heading\n"
   syntax:
     content: public const string Section = "ToolTips"
     return:
       type: System.String
     content.vb: Public Const Section As String = "ToolTips"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnBApp
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnBApp
   id: TooltipOnBApp
@@ -77,19 +88,24 @@ items:
   nameWithType: UserPreferenceStrings.ToolTips.TooltipOnBApp
   fullName: SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnBApp
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: >-
-    Tooltip on Appointment button
-
-    <p></p>Control type: Text, access: Admin, Admin users, Wizard
-  example: []
+  summary: "\nTooltip on Appointment button\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
   syntax:
     content: public const string TooltipOnBApp = "TooltipOnBApp"
     return:
       type: System.String
     content.vb: Public Const TooltipOnBApp As String = "TooltipOnBApp"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnBEmail
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnBEmail
   id: TooltipOnBEmail
@@ -101,19 +117,24 @@ items:
   nameWithType: UserPreferenceStrings.ToolTips.TooltipOnBEmail
   fullName: SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnBEmail
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: >-
-    Tooltip on E-mail button
-
-    <p></p>Control type: Text, access: Admin, Admin users, Wizard
-  example: []
+  summary: "\nTooltip on E-mail button\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
   syntax:
     content: public const string TooltipOnBEmail = "TooltipOnBEmail"
     return:
       type: System.String
     content.vb: Public Const TooltipOnBEmail As String = "TooltipOnBEmail"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnBNote
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnBNote
   id: TooltipOnBNote
@@ -125,19 +146,24 @@ items:
   nameWithType: UserPreferenceStrings.ToolTips.TooltipOnBNote
   fullName: SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnBNote
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: >-
-    Tooltip on Note button
-
-    <p></p>Control type: Text, access: Admin, Admin users, Wizard
-  example: []
+  summary: "\nTooltip on Note button\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
   syntax:
     content: public const string TooltipOnBNote = "TooltipOnBNote"
     return:
       type: System.String
     content.vb: Public Const TooltipOnBNote As String = "TooltipOnBNote"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnBPhone
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnBPhone
   id: TooltipOnBPhone
@@ -149,19 +175,24 @@ items:
   nameWithType: UserPreferenceStrings.ToolTips.TooltipOnBPhone
   fullName: SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnBPhone
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: >-
-    Tooltip on Phone call button
-
-    <p></p>Control type: Text, access: Admin, Admin users, Wizard
-  example: []
+  summary: "\nTooltip on Phone call button\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
   syntax:
     content: public const string TooltipOnBPhone = "TooltipOnBPhone"
     return:
       type: System.String
     content.vb: Public Const TooltipOnBPhone As String = "TooltipOnBPhone"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnBSale
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnBSale
   id: TooltipOnBSale
@@ -173,19 +204,24 @@ items:
   nameWithType: UserPreferenceStrings.ToolTips.TooltipOnBSale
   fullName: SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnBSale
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: >-
-    Tooltip on Sale button
-
-    <p></p>Control type: Text, access: Admin, Admin users, Wizard
-  example: []
+  summary: "\nTooltip on Sale button\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
   syntax:
     content: public const string TooltipOnBSale = "TooltipOnBSale"
     return:
       type: System.String
     content.vb: Public Const TooltipOnBSale As String = "TooltipOnBSale"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnBTask
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnBTask
   id: TooltipOnBTask
@@ -197,19 +233,24 @@ items:
   nameWithType: UserPreferenceStrings.ToolTips.TooltipOnBTask
   fullName: SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnBTask
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: >-
-    Tooltip on Task button
-
-    <p></p>Control type: Text, access: Admin, Admin users, Wizard
-  example: []
+  summary: "\nTooltip on Task button\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
   syntax:
     content: public const string TooltipOnBTask = "TooltipOnBTask"
     return:
       type: System.String
     content.vb: Public Const TooltipOnBTask As String = "TooltipOnBTask"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnBWrite
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnBWrite
   id: TooltipOnBWrite
@@ -221,19 +262,24 @@ items:
   nameWithType: UserPreferenceStrings.ToolTips.TooltipOnBWrite
   fullName: SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnBWrite
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: >-
-    Tooltip on Write button
-
-    <p></p>Control type: Text, access: Admin, Admin users, Wizard
-  example: []
+  summary: "\nTooltip on Write button\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
   syntax:
     content: public const string TooltipOnBWrite = "TooltipOnBWrite"
     return:
       type: System.String
     content.vb: Public Const TooltipOnBWrite As String = "TooltipOnBWrite"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnLContact
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnLContact
   id: TooltipOnLContact
@@ -245,19 +291,24 @@ items:
   nameWithType: UserPreferenceStrings.ToolTips.TooltipOnLContact
   fullName: SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnLContact
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: >-
-    Tooltip on Company button
-
-    <p></p>Control type: Text, access: Admin, Admin users, Wizard
-  example: []
+  summary: "\nTooltip on Company button\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
   syntax:
     content: public const string TooltipOnLContact = "TooltipOnLContact"
     return:
       type: System.String
     content.vb: Public Const TooltipOnLContact As String = "TooltipOnLContact"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnLDiary
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnLDiary
   id: TooltipOnLDiary
@@ -269,19 +320,24 @@ items:
   nameWithType: UserPreferenceStrings.ToolTips.TooltipOnLDiary
   fullName: SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnLDiary
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: >-
-    Tooltip on Diary button
-
-    <p></p>Control type: Text, access: Admin, Admin users, Wizard
-  example: []
+  summary: "\nTooltip on Diary button\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
   syntax:
     content: public const string TooltipOnLDiary = "TooltipOnLDiary"
     return:
       type: System.String
     content.vb: Public Const TooltipOnLDiary As String = "TooltipOnLDiary"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnLEmail
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnLEmail
   id: TooltipOnLEmail
@@ -293,19 +349,24 @@ items:
   nameWithType: UserPreferenceStrings.ToolTips.TooltipOnLEmail
   fullName: SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnLEmail
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: >-
-    Tooltip on E-mail button in the Navigator
-
-    <p></p>Control type: Text, access: Admin, Admin users, Wizard
-  example: []
+  summary: "\nTooltip on E-mail button in the Navigator\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
   syntax:
     content: public const string TooltipOnLEmail = "TooltipOnLEmail"
     return:
       type: System.String
     content.vb: Public Const TooltipOnLEmail As String = "TooltipOnLEmail"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnLProject
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnLProject
   id: TooltipOnLProject
@@ -317,19 +378,24 @@ items:
   nameWithType: UserPreferenceStrings.ToolTips.TooltipOnLProject
   fullName: SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnLProject
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: >-
-    Tooltip on Project button
-
-    <p></p>Control type: Text, access: Admin, Admin users, Wizard
-  example: []
+  summary: "\nTooltip on Project button\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
   syntax:
     content: public const string TooltipOnLProject = "TooltipOnLProject"
     return:
       type: System.String
     content.vb: Public Const TooltipOnLProject As String = "TooltipOnLProject"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnLReporter
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnLReporter
   id: TooltipOnLReporter
@@ -341,19 +407,24 @@ items:
   nameWithType: UserPreferenceStrings.ToolTips.TooltipOnLReporter
   fullName: SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnLReporter
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: >-
-    Tooltip on Reports button
-
-    <p></p>Control type: Text, access: Admin, Admin users, Wizard
-  example: []
+  summary: "\nTooltip on Reports button\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
   syntax:
     content: public const string TooltipOnLReporter = "TooltipOnLReporter"
     return:
       type: System.String
     content.vb: Public Const TooltipOnLReporter As String = "TooltipOnLReporter"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnLSelection
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnLSelection
   id: TooltipOnLSelection
@@ -365,19 +436,24 @@ items:
   nameWithType: UserPreferenceStrings.ToolTips.TooltipOnLSelection
   fullName: SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnLSelection
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: >-
-    Tooltip on Selection button
-
-    <p></p>Control type: Text, access: Admin, Admin users, Wizard
-  example: []
+  summary: "\nTooltip on Selection button\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
   syntax:
     content: public const string TooltipOnLSelection = "TooltipOnLSelection"
     return:
       type: System.String
     content.vb: Public Const TooltipOnLSelection As String = "TooltipOnLSelection"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipsReadFactor
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipsReadFactor
   id: TooltipsReadFactor
@@ -389,281 +465,41 @@ items:
   nameWithType: UserPreferenceStrings.ToolTips.TooltipsReadFactor
   fullName: SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipsReadFactor
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: >-
-    Default read time for tooltip is multiplied by this factor
-
-    <p></p>Control type: Number, access: Admin, Admin users, Wizard
-  example: []
+  summary: "\nDefault read time for tooltip is multiplied by this factor\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
   syntax:
     content: public const string TooltipsReadFactor = "TooltipsReadFactor"
     return:
       type: System.String
     content.vb: Public Const TooltipsReadFactor As String = "TooltipsReadFactor"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.CRM
   commentId: N:SuperOffice.CRM
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM
   nameWithType: SuperOffice.CRM
   fullName: SuperOffice.CRM
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -671,10 +507,6 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String

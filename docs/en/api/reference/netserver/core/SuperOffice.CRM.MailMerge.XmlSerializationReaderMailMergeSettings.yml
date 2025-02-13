@@ -16,103 +16,30 @@ items:
   nameWithType: XmlSerializationReaderMailMergeSettings
   fullName: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.MailMerge
   syntax:
     content: 'public class XmlSerializationReaderMailMergeSettings : XmlSerializationReader'
-    content.vb: Public Class XmlSerializationReaderMailMergeSettings Inherits XmlSerializationReader
+    content.vb: >-
+      Public Class XmlSerializationReaderMailMergeSettings
+          Inherits XmlSerializationReader
   inheritance:
   - System.Object
-  - System.Xml.Serialization.XmlSerializationGeneratedCode
-  - System.Xml.Serialization.XmlSerializationReader
-  inheritedMembers:
-  - System.Xml.Serialization.XmlSerializationReader.ResolveDynamicAssembly(System.String)
-  - System.Xml.Serialization.XmlSerializationReader.GetXsiType
-  - System.Xml.Serialization.XmlSerializationReader.ReadTypedPrimitive(System.Xml.XmlQualifiedName)
-  - System.Xml.Serialization.XmlSerializationReader.ReadTypedNull(System.Xml.XmlQualifiedName)
-  - System.Xml.Serialization.XmlSerializationReader.IsXmlnsAttribute(System.String)
-  - System.Xml.Serialization.XmlSerializationReader.ParseWsdlArrayType(System.Xml.XmlAttribute)
-  - System.Xml.Serialization.XmlSerializationReader.ReadNull
-  - System.Xml.Serialization.XmlSerializationReader.GetNullAttr
-  - System.Xml.Serialization.XmlSerializationReader.ReadNullableString
-  - System.Xml.Serialization.XmlSerializationReader.ReadNullableQualifiedName
-  - System.Xml.Serialization.XmlSerializationReader.ReadElementQualifiedName
-  - System.Xml.Serialization.XmlSerializationReader.ReadXmlDocument(System.Boolean)
-  - System.Xml.Serialization.XmlSerializationReader.CollapseWhitespace(System.String)
-  - System.Xml.Serialization.XmlSerializationReader.ReadXmlNode(System.Boolean)
-  - System.Xml.Serialization.XmlSerializationReader.ToByteArrayBase64(System.String)
-  - System.Xml.Serialization.XmlSerializationReader.ToByteArrayBase64(System.Boolean)
-  - System.Xml.Serialization.XmlSerializationReader.ToByteArrayHex(System.String)
-  - System.Xml.Serialization.XmlSerializationReader.ToByteArrayHex(System.Boolean)
-  - System.Xml.Serialization.XmlSerializationReader.GetArrayLength(System.String,System.String)
-  - System.Xml.Serialization.XmlSerializationReader.ToDateTime(System.String)
-  - System.Xml.Serialization.XmlSerializationReader.ToDate(System.String)
-  - System.Xml.Serialization.XmlSerializationReader.ToTime(System.String)
-  - System.Xml.Serialization.XmlSerializationReader.ToChar(System.String)
-  - System.Xml.Serialization.XmlSerializationReader.ToEnum(System.String,System.Collections.Hashtable,System.String)
-  - System.Xml.Serialization.XmlSerializationReader.ToXmlName(System.String)
-  - System.Xml.Serialization.XmlSerializationReader.ToXmlNCName(System.String)
-  - System.Xml.Serialization.XmlSerializationReader.ToXmlNmToken(System.String)
-  - System.Xml.Serialization.XmlSerializationReader.ToXmlNmTokens(System.String)
-  - System.Xml.Serialization.XmlSerializationReader.ToXmlQualifiedName(System.String)
-  - System.Xml.Serialization.XmlSerializationReader.UnknownAttribute(System.Object,System.Xml.XmlAttribute)
-  - System.Xml.Serialization.XmlSerializationReader.UnknownAttribute(System.Object,System.Xml.XmlAttribute,System.String)
-  - System.Xml.Serialization.XmlSerializationReader.UnknownElement(System.Object,System.Xml.XmlElement)
-  - System.Xml.Serialization.XmlSerializationReader.UnknownElement(System.Object,System.Xml.XmlElement,System.String)
-  - System.Xml.Serialization.XmlSerializationReader.UnknownNode(System.Object)
-  - System.Xml.Serialization.XmlSerializationReader.UnknownNode(System.Object,System.String)
-  - System.Xml.Serialization.XmlSerializationReader.UnreferencedObject(System.String,System.Object)
-  - System.Xml.Serialization.XmlSerializationReader.CreateUnknownTypeException(System.Xml.XmlQualifiedName)
-  - System.Xml.Serialization.XmlSerializationReader.CreateReadOnlyCollectionException(System.String)
-  - System.Xml.Serialization.XmlSerializationReader.CreateAbstractTypeException(System.String,System.String)
-  - System.Xml.Serialization.XmlSerializationReader.CreateInaccessibleConstructorException(System.String)
-  - System.Xml.Serialization.XmlSerializationReader.CreateCtorHasSecurityException(System.String)
-  - System.Xml.Serialization.XmlSerializationReader.CreateUnknownNodeException
-  - System.Xml.Serialization.XmlSerializationReader.CreateUnknownConstantException(System.String,System.Type)
-  - System.Xml.Serialization.XmlSerializationReader.CreateInvalidCastException(System.Type,System.Object)
-  - System.Xml.Serialization.XmlSerializationReader.CreateInvalidCastException(System.Type,System.Object,System.String)
-  - System.Xml.Serialization.XmlSerializationReader.CreateBadDerivationException(System.String,System.String,System.String,System.String,System.String,System.String)
-  - System.Xml.Serialization.XmlSerializationReader.CreateMissingIXmlSerializableType(System.String,System.String,System.String)
-  - System.Xml.Serialization.XmlSerializationReader.EnsureArrayIndex(System.Array,System.Int32,System.Type)
-  - System.Xml.Serialization.XmlSerializationReader.ShrinkArray(System.Array,System.Int32,System.Type,System.Boolean)
-  - System.Xml.Serialization.XmlSerializationReader.ReadString(System.String)
-  - System.Xml.Serialization.XmlSerializationReader.ReadString(System.String,System.Boolean)
-  - System.Xml.Serialization.XmlSerializationReader.ReadSerializable(System.Xml.Serialization.IXmlSerializable)
-  - System.Xml.Serialization.XmlSerializationReader.ReadSerializable(System.Xml.Serialization.IXmlSerializable,System.Boolean)
-  - System.Xml.Serialization.XmlSerializationReader.ReadReference(System.String@)
-  - System.Xml.Serialization.XmlSerializationReader.AddTarget(System.String,System.Object)
-  - System.Xml.Serialization.XmlSerializationReader.AddFixup(System.Xml.Serialization.XmlSerializationReader.Fixup)
-  - System.Xml.Serialization.XmlSerializationReader.AddFixup(System.Xml.Serialization.XmlSerializationReader.CollectionFixup)
-  - System.Xml.Serialization.XmlSerializationReader.GetTarget(System.String)
-  - System.Xml.Serialization.XmlSerializationReader.Referenced(System.Object)
-  - System.Xml.Serialization.XmlSerializationReader.FixupArrayRefs(System.Object)
-  - System.Xml.Serialization.XmlSerializationReader.ReadReferencedElements
-  - System.Xml.Serialization.XmlSerializationReader.ReadReferencedElement
-  - System.Xml.Serialization.XmlSerializationReader.ReadReferencedElement(System.String,System.String)
-  - System.Xml.Serialization.XmlSerializationReader.ReadReferencingElement(System.String@)
-  - System.Xml.Serialization.XmlSerializationReader.ReadReferencingElement(System.String,System.String,System.String@)
-  - System.Xml.Serialization.XmlSerializationReader.ReadReferencingElement(System.String,System.String,System.Boolean,System.String@)
-  - System.Xml.Serialization.XmlSerializationReader.AddReadCallback(System.String,System.String,System.Type,System.Xml.Serialization.XmlSerializationReadCallback)
-  - System.Xml.Serialization.XmlSerializationReader.ReadEndElement
-  - System.Xml.Serialization.XmlSerializationReader.CheckReaderCount(System.Int32@,System.Int32@)
-  - System.Xml.Serialization.XmlSerializationReader.DecodeName
-  - System.Xml.Serialization.XmlSerializationReader.Reader
-  - System.Xml.Serialization.XmlSerializationReader.ReaderCount
-  - System.Xml.Serialization.XmlSerializationReader.Document
-  - System.Xml.Serialization.XmlSerializationReader.IsReturnValue
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings.EnumUtil.MapEnums``2
-  - SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings)
   - SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings.Read7_MailMergeSettings
   commentId: M:SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings.Read7_MailMergeSettings
   id: Read7_MailMergeSettings
@@ -124,6 +51,9 @@ items:
   nameWithType: XmlSerializationReaderMailMergeSettings.Read7_MailMergeSettings()
   fullName: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings.Read7_MailMergeSettings()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.MailMerge
@@ -131,8 +61,12 @@ items:
     content: public object Read7_MailMergeSettings()
     return:
       type: System.Object
-    content.vb: Public Function Read7_MailMergeSettings() As Object
+    content.vb: Public Function Read7_MailMergeSettings As Object
   overload: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings.Read7_MailMergeSettings*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings.InitCallbacks
   commentId: M:SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings.InitCallbacks
   id: InitCallbacks
@@ -144,15 +78,22 @@ items:
   nameWithType: XmlSerializationReaderMailMergeSettings.InitCallbacks()
   fullName: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings.InitCallbacks()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.MailMerge
-  example: []
   syntax:
     content: protected override void InitCallbacks()
-    content.vb: Protected Overrides Sub InitCallbacks()
-  overridden: System.Xml.Serialization.XmlSerializationReader.InitCallbacks
+    content.vb: Protected Overrides Sub InitCallbacks
   overload: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings.InitCallbacks*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
 - uid: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings.InitIDs
   commentId: M:SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings.InitIDs
   id: InitIDs
@@ -164,15 +105,22 @@ items:
   nameWithType: XmlSerializationReaderMailMergeSettings.InitIDs()
   fullName: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings.InitIDs()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.MailMerge
-  example: []
   syntax:
     content: protected override void InitIDs()
-    content.vb: Protected Overrides Sub InitIDs()
-  overridden: System.Xml.Serialization.XmlSerializationReader.InitIDs
+    content.vb: Protected Overrides Sub InitIDs
   overload: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings.InitIDs*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
 - uid: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings.#ctor
   commentId: M:SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings.#ctor
   id: '#ctor'
@@ -184,3055 +132,189 @@ items:
   nameWithType: XmlSerializationReaderMailMergeSettings.XmlSerializationReaderMailMergeSettings()
   fullName: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings.XmlSerializationReaderMailMergeSettings()
   type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.MailMerge
   syntax:
     content: public XmlSerializationReaderMailMergeSettings()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings.#ctor*
-  nameWithType.vb: XmlSerializationReaderMailMergeSettings.New()
-  fullName.vb: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 references:
 - uid: SuperOffice.CRM.MailMerge
   commentId: N:SuperOffice.CRM.MailMerge
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.MailMerge
   nameWithType: SuperOffice.CRM.MailMerge
   fullName: SuperOffice.CRM.MailMerge
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.MailMerge
-    name: MailMerge
-    isExternal: true
-    href: SuperOffice.CRM.MailMerge.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.MailMerge
-    name: MailMerge
-    isExternal: true
-    href: SuperOffice.CRM.MailMerge.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Xml.Serialization.XmlSerializationGeneratedCode
-  commentId: T:System.Xml.Serialization.XmlSerializationGeneratedCode
-  parent: System.Xml.Serialization
-  isExternal: true
-  name: XmlSerializationGeneratedCode
-  nameWithType: XmlSerializationGeneratedCode
-  fullName: System.Xml.Serialization.XmlSerializationGeneratedCode
-- uid: System.Xml.Serialization.XmlSerializationReader
-  commentId: T:System.Xml.Serialization.XmlSerializationReader
-  parent: System.Xml.Serialization
-  isExternal: true
-  name: XmlSerializationReader
-  nameWithType: XmlSerializationReader
-  fullName: System.Xml.Serialization.XmlSerializationReader
-- uid: System.Xml.Serialization.XmlSerializationReader.ResolveDynamicAssembly(System.String)
-  commentId: M:System.Xml.Serialization.XmlSerializationReader.ResolveDynamicAssembly(System.String)
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: ResolveDynamicAssembly(string)
-  nameWithType: XmlSerializationReader.ResolveDynamicAssembly(string)
-  fullName: System.Xml.Serialization.XmlSerializationReader.ResolveDynamicAssembly(string)
-  nameWithType.vb: XmlSerializationReader.ResolveDynamicAssembly(String)
-  fullName.vb: System.Xml.Serialization.XmlSerializationReader.ResolveDynamicAssembly(String)
-  name.vb: ResolveDynamicAssembly(String)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ResolveDynamicAssembly(System.String)
-    name: ResolveDynamicAssembly
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ResolveDynamicAssembly(System.String)
-    name: ResolveDynamicAssembly
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializationReader.GetXsiType
-  commentId: M:System.Xml.Serialization.XmlSerializationReader.GetXsiType
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  name: GetXsiType()
-  nameWithType: XmlSerializationReader.GetXsiType()
-  fullName: System.Xml.Serialization.XmlSerializationReader.GetXsiType()
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializationReader.GetXsiType
-    name: GetXsiType
-    isExternal: true
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializationReader.GetXsiType
-    name: GetXsiType
-    isExternal: true
-  - name: (
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializationReader.ReadTypedPrimitive(System.Xml.XmlQualifiedName)
-  commentId: M:System.Xml.Serialization.XmlSerializationReader.ReadTypedPrimitive(System.Xml.XmlQualifiedName)
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  name: ReadTypedPrimitive(XmlQualifiedName)
-  nameWithType: XmlSerializationReader.ReadTypedPrimitive(XmlQualifiedName)
-  fullName: System.Xml.Serialization.XmlSerializationReader.ReadTypedPrimitive(System.Xml.XmlQualifiedName)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ReadTypedPrimitive(System.Xml.XmlQualifiedName)
-    name: ReadTypedPrimitive
-    isExternal: true
-  - name: (
-  - uid: System.Xml.XmlQualifiedName
-    name: XmlQualifiedName
-    isExternal: true
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ReadTypedPrimitive(System.Xml.XmlQualifiedName)
-    name: ReadTypedPrimitive
-    isExternal: true
-  - name: (
-  - uid: System.Xml.XmlQualifiedName
-    name: XmlQualifiedName
-    isExternal: true
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializationReader.ReadTypedNull(System.Xml.XmlQualifiedName)
-  commentId: M:System.Xml.Serialization.XmlSerializationReader.ReadTypedNull(System.Xml.XmlQualifiedName)
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  name: ReadTypedNull(XmlQualifiedName)
-  nameWithType: XmlSerializationReader.ReadTypedNull(XmlQualifiedName)
-  fullName: System.Xml.Serialization.XmlSerializationReader.ReadTypedNull(System.Xml.XmlQualifiedName)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ReadTypedNull(System.Xml.XmlQualifiedName)
-    name: ReadTypedNull
-    isExternal: true
-  - name: (
-  - uid: System.Xml.XmlQualifiedName
-    name: XmlQualifiedName
-    isExternal: true
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ReadTypedNull(System.Xml.XmlQualifiedName)
-    name: ReadTypedNull
-    isExternal: true
-  - name: (
-  - uid: System.Xml.XmlQualifiedName
-    name: XmlQualifiedName
-    isExternal: true
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializationReader.IsXmlnsAttribute(System.String)
-  commentId: M:System.Xml.Serialization.XmlSerializationReader.IsXmlnsAttribute(System.String)
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: IsXmlnsAttribute(string)
-  nameWithType: XmlSerializationReader.IsXmlnsAttribute(string)
-  fullName: System.Xml.Serialization.XmlSerializationReader.IsXmlnsAttribute(string)
-  nameWithType.vb: XmlSerializationReader.IsXmlnsAttribute(String)
-  fullName.vb: System.Xml.Serialization.XmlSerializationReader.IsXmlnsAttribute(String)
-  name.vb: IsXmlnsAttribute(String)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializationReader.IsXmlnsAttribute(System.String)
-    name: IsXmlnsAttribute
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializationReader.IsXmlnsAttribute(System.String)
-    name: IsXmlnsAttribute
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializationReader.ParseWsdlArrayType(System.Xml.XmlAttribute)
-  commentId: M:System.Xml.Serialization.XmlSerializationReader.ParseWsdlArrayType(System.Xml.XmlAttribute)
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  name: ParseWsdlArrayType(XmlAttribute)
-  nameWithType: XmlSerializationReader.ParseWsdlArrayType(XmlAttribute)
-  fullName: System.Xml.Serialization.XmlSerializationReader.ParseWsdlArrayType(System.Xml.XmlAttribute)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ParseWsdlArrayType(System.Xml.XmlAttribute)
-    name: ParseWsdlArrayType
-    isExternal: true
-  - name: (
-  - uid: System.Xml.XmlAttribute
-    name: XmlAttribute
-    isExternal: true
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ParseWsdlArrayType(System.Xml.XmlAttribute)
-    name: ParseWsdlArrayType
-    isExternal: true
-  - name: (
-  - uid: System.Xml.XmlAttribute
-    name: XmlAttribute
-    isExternal: true
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializationReader.ReadNull
-  commentId: M:System.Xml.Serialization.XmlSerializationReader.ReadNull
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  name: ReadNull()
-  nameWithType: XmlSerializationReader.ReadNull()
-  fullName: System.Xml.Serialization.XmlSerializationReader.ReadNull()
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ReadNull
-    name: ReadNull
-    isExternal: true
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ReadNull
-    name: ReadNull
-    isExternal: true
-  - name: (
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializationReader.GetNullAttr
-  commentId: M:System.Xml.Serialization.XmlSerializationReader.GetNullAttr
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  name: GetNullAttr()
-  nameWithType: XmlSerializationReader.GetNullAttr()
-  fullName: System.Xml.Serialization.XmlSerializationReader.GetNullAttr()
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializationReader.GetNullAttr
-    name: GetNullAttr
-    isExternal: true
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializationReader.GetNullAttr
-    name: GetNullAttr
-    isExternal: true
-  - name: (
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializationReader.ReadNullableString
-  commentId: M:System.Xml.Serialization.XmlSerializationReader.ReadNullableString
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  name: ReadNullableString()
-  nameWithType: XmlSerializationReader.ReadNullableString()
-  fullName: System.Xml.Serialization.XmlSerializationReader.ReadNullableString()
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ReadNullableString
-    name: ReadNullableString
-    isExternal: true
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ReadNullableString
-    name: ReadNullableString
-    isExternal: true
-  - name: (
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializationReader.ReadNullableQualifiedName
-  commentId: M:System.Xml.Serialization.XmlSerializationReader.ReadNullableQualifiedName
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  name: ReadNullableQualifiedName()
-  nameWithType: XmlSerializationReader.ReadNullableQualifiedName()
-  fullName: System.Xml.Serialization.XmlSerializationReader.ReadNullableQualifiedName()
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ReadNullableQualifiedName
-    name: ReadNullableQualifiedName
-    isExternal: true
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ReadNullableQualifiedName
-    name: ReadNullableQualifiedName
-    isExternal: true
-  - name: (
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializationReader.ReadElementQualifiedName
-  commentId: M:System.Xml.Serialization.XmlSerializationReader.ReadElementQualifiedName
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  name: ReadElementQualifiedName()
-  nameWithType: XmlSerializationReader.ReadElementQualifiedName()
-  fullName: System.Xml.Serialization.XmlSerializationReader.ReadElementQualifiedName()
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ReadElementQualifiedName
-    name: ReadElementQualifiedName
-    isExternal: true
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ReadElementQualifiedName
-    name: ReadElementQualifiedName
-    isExternal: true
-  - name: (
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializationReader.ReadXmlDocument(System.Boolean)
-  commentId: M:System.Xml.Serialization.XmlSerializationReader.ReadXmlDocument(System.Boolean)
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: ReadXmlDocument(bool)
-  nameWithType: XmlSerializationReader.ReadXmlDocument(bool)
-  fullName: System.Xml.Serialization.XmlSerializationReader.ReadXmlDocument(bool)
-  nameWithType.vb: XmlSerializationReader.ReadXmlDocument(Boolean)
-  fullName.vb: System.Xml.Serialization.XmlSerializationReader.ReadXmlDocument(Boolean)
-  name.vb: ReadXmlDocument(Boolean)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ReadXmlDocument(System.Boolean)
-    name: ReadXmlDocument
-    isExternal: true
-  - name: (
-  - uid: System.Boolean
-    name: bool
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ReadXmlDocument(System.Boolean)
-    name: ReadXmlDocument
-    isExternal: true
-  - name: (
-  - uid: System.Boolean
-    name: Boolean
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializationReader.CollapseWhitespace(System.String)
-  commentId: M:System.Xml.Serialization.XmlSerializationReader.CollapseWhitespace(System.String)
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: CollapseWhitespace(string)
-  nameWithType: XmlSerializationReader.CollapseWhitespace(string)
-  fullName: System.Xml.Serialization.XmlSerializationReader.CollapseWhitespace(string)
-  nameWithType.vb: XmlSerializationReader.CollapseWhitespace(String)
-  fullName.vb: System.Xml.Serialization.XmlSerializationReader.CollapseWhitespace(String)
-  name.vb: CollapseWhitespace(String)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializationReader.CollapseWhitespace(System.String)
-    name: CollapseWhitespace
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializationReader.CollapseWhitespace(System.String)
-    name: CollapseWhitespace
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializationReader.ReadXmlNode(System.Boolean)
-  commentId: M:System.Xml.Serialization.XmlSerializationReader.ReadXmlNode(System.Boolean)
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: ReadXmlNode(bool)
-  nameWithType: XmlSerializationReader.ReadXmlNode(bool)
-  fullName: System.Xml.Serialization.XmlSerializationReader.ReadXmlNode(bool)
-  nameWithType.vb: XmlSerializationReader.ReadXmlNode(Boolean)
-  fullName.vb: System.Xml.Serialization.XmlSerializationReader.ReadXmlNode(Boolean)
-  name.vb: ReadXmlNode(Boolean)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ReadXmlNode(System.Boolean)
-    name: ReadXmlNode
-    isExternal: true
-  - name: (
-  - uid: System.Boolean
-    name: bool
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ReadXmlNode(System.Boolean)
-    name: ReadXmlNode
-    isExternal: true
-  - name: (
-  - uid: System.Boolean
-    name: Boolean
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializationReader.ToByteArrayBase64(System.String)
-  commentId: M:System.Xml.Serialization.XmlSerializationReader.ToByteArrayBase64(System.String)
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: ToByteArrayBase64(string)
-  nameWithType: XmlSerializationReader.ToByteArrayBase64(string)
-  fullName: System.Xml.Serialization.XmlSerializationReader.ToByteArrayBase64(string)
-  nameWithType.vb: XmlSerializationReader.ToByteArrayBase64(String)
-  fullName.vb: System.Xml.Serialization.XmlSerializationReader.ToByteArrayBase64(String)
-  name.vb: ToByteArrayBase64(String)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ToByteArrayBase64(System.String)
-    name: ToByteArrayBase64
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ToByteArrayBase64(System.String)
-    name: ToByteArrayBase64
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializationReader.ToByteArrayBase64(System.Boolean)
-  commentId: M:System.Xml.Serialization.XmlSerializationReader.ToByteArrayBase64(System.Boolean)
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: ToByteArrayBase64(bool)
-  nameWithType: XmlSerializationReader.ToByteArrayBase64(bool)
-  fullName: System.Xml.Serialization.XmlSerializationReader.ToByteArrayBase64(bool)
-  nameWithType.vb: XmlSerializationReader.ToByteArrayBase64(Boolean)
-  fullName.vb: System.Xml.Serialization.XmlSerializationReader.ToByteArrayBase64(Boolean)
-  name.vb: ToByteArrayBase64(Boolean)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ToByteArrayBase64(System.Boolean)
-    name: ToByteArrayBase64
-    isExternal: true
-  - name: (
-  - uid: System.Boolean
-    name: bool
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ToByteArrayBase64(System.Boolean)
-    name: ToByteArrayBase64
-    isExternal: true
-  - name: (
-  - uid: System.Boolean
-    name: Boolean
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializationReader.ToByteArrayHex(System.String)
-  commentId: M:System.Xml.Serialization.XmlSerializationReader.ToByteArrayHex(System.String)
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: ToByteArrayHex(string)
-  nameWithType: XmlSerializationReader.ToByteArrayHex(string)
-  fullName: System.Xml.Serialization.XmlSerializationReader.ToByteArrayHex(string)
-  nameWithType.vb: XmlSerializationReader.ToByteArrayHex(String)
-  fullName.vb: System.Xml.Serialization.XmlSerializationReader.ToByteArrayHex(String)
-  name.vb: ToByteArrayHex(String)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ToByteArrayHex(System.String)
-    name: ToByteArrayHex
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ToByteArrayHex(System.String)
-    name: ToByteArrayHex
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializationReader.ToByteArrayHex(System.Boolean)
-  commentId: M:System.Xml.Serialization.XmlSerializationReader.ToByteArrayHex(System.Boolean)
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: ToByteArrayHex(bool)
-  nameWithType: XmlSerializationReader.ToByteArrayHex(bool)
-  fullName: System.Xml.Serialization.XmlSerializationReader.ToByteArrayHex(bool)
-  nameWithType.vb: XmlSerializationReader.ToByteArrayHex(Boolean)
-  fullName.vb: System.Xml.Serialization.XmlSerializationReader.ToByteArrayHex(Boolean)
-  name.vb: ToByteArrayHex(Boolean)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ToByteArrayHex(System.Boolean)
-    name: ToByteArrayHex
-    isExternal: true
-  - name: (
-  - uid: System.Boolean
-    name: bool
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ToByteArrayHex(System.Boolean)
-    name: ToByteArrayHex
-    isExternal: true
-  - name: (
-  - uid: System.Boolean
-    name: Boolean
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializationReader.GetArrayLength(System.String,System.String)
-  commentId: M:System.Xml.Serialization.XmlSerializationReader.GetArrayLength(System.String,System.String)
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: GetArrayLength(string, string)
-  nameWithType: XmlSerializationReader.GetArrayLength(string, string)
-  fullName: System.Xml.Serialization.XmlSerializationReader.GetArrayLength(string, string)
-  nameWithType.vb: XmlSerializationReader.GetArrayLength(String, String)
-  fullName.vb: System.Xml.Serialization.XmlSerializationReader.GetArrayLength(String, String)
-  name.vb: GetArrayLength(String, String)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializationReader.GetArrayLength(System.String,System.String)
-    name: GetArrayLength
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializationReader.GetArrayLength(System.String,System.String)
-    name: GetArrayLength
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializationReader.ToDateTime(System.String)
-  commentId: M:System.Xml.Serialization.XmlSerializationReader.ToDateTime(System.String)
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: ToDateTime(string)
-  nameWithType: XmlSerializationReader.ToDateTime(string)
-  fullName: System.Xml.Serialization.XmlSerializationReader.ToDateTime(string)
-  nameWithType.vb: XmlSerializationReader.ToDateTime(String)
-  fullName.vb: System.Xml.Serialization.XmlSerializationReader.ToDateTime(String)
-  name.vb: ToDateTime(String)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ToDateTime(System.String)
-    name: ToDateTime
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ToDateTime(System.String)
-    name: ToDateTime
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializationReader.ToDate(System.String)
-  commentId: M:System.Xml.Serialization.XmlSerializationReader.ToDate(System.String)
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: ToDate(string)
-  nameWithType: XmlSerializationReader.ToDate(string)
-  fullName: System.Xml.Serialization.XmlSerializationReader.ToDate(string)
-  nameWithType.vb: XmlSerializationReader.ToDate(String)
-  fullName.vb: System.Xml.Serialization.XmlSerializationReader.ToDate(String)
-  name.vb: ToDate(String)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ToDate(System.String)
-    name: ToDate
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ToDate(System.String)
-    name: ToDate
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializationReader.ToTime(System.String)
-  commentId: M:System.Xml.Serialization.XmlSerializationReader.ToTime(System.String)
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: ToTime(string)
-  nameWithType: XmlSerializationReader.ToTime(string)
-  fullName: System.Xml.Serialization.XmlSerializationReader.ToTime(string)
-  nameWithType.vb: XmlSerializationReader.ToTime(String)
-  fullName.vb: System.Xml.Serialization.XmlSerializationReader.ToTime(String)
-  name.vb: ToTime(String)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ToTime(System.String)
-    name: ToTime
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ToTime(System.String)
-    name: ToTime
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializationReader.ToChar(System.String)
-  commentId: M:System.Xml.Serialization.XmlSerializationReader.ToChar(System.String)
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: ToChar(string)
-  nameWithType: XmlSerializationReader.ToChar(string)
-  fullName: System.Xml.Serialization.XmlSerializationReader.ToChar(string)
-  nameWithType.vb: XmlSerializationReader.ToChar(String)
-  fullName.vb: System.Xml.Serialization.XmlSerializationReader.ToChar(String)
-  name.vb: ToChar(String)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ToChar(System.String)
-    name: ToChar
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ToChar(System.String)
-    name: ToChar
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializationReader.ToEnum(System.String,System.Collections.Hashtable,System.String)
-  commentId: M:System.Xml.Serialization.XmlSerializationReader.ToEnum(System.String,System.Collections.Hashtable,System.String)
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: ToEnum(string, Hashtable, string)
-  nameWithType: XmlSerializationReader.ToEnum(string, Hashtable, string)
-  fullName: System.Xml.Serialization.XmlSerializationReader.ToEnum(string, System.Collections.Hashtable, string)
-  nameWithType.vb: XmlSerializationReader.ToEnum(String, Hashtable, String)
-  fullName.vb: System.Xml.Serialization.XmlSerializationReader.ToEnum(String, System.Collections.Hashtable, String)
-  name.vb: ToEnum(String, Hashtable, String)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ToEnum(System.String,System.Collections.Hashtable,System.String)
-    name: ToEnum
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.Collections.Hashtable
-    name: Hashtable
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.hashtable
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ToEnum(System.String,System.Collections.Hashtable,System.String)
-    name: ToEnum
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.Collections.Hashtable
-    name: Hashtable
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.hashtable
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializationReader.ToXmlName(System.String)
-  commentId: M:System.Xml.Serialization.XmlSerializationReader.ToXmlName(System.String)
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: ToXmlName(string)
-  nameWithType: XmlSerializationReader.ToXmlName(string)
-  fullName: System.Xml.Serialization.XmlSerializationReader.ToXmlName(string)
-  nameWithType.vb: XmlSerializationReader.ToXmlName(String)
-  fullName.vb: System.Xml.Serialization.XmlSerializationReader.ToXmlName(String)
-  name.vb: ToXmlName(String)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ToXmlName(System.String)
-    name: ToXmlName
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ToXmlName(System.String)
-    name: ToXmlName
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializationReader.ToXmlNCName(System.String)
-  commentId: M:System.Xml.Serialization.XmlSerializationReader.ToXmlNCName(System.String)
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: ToXmlNCName(string)
-  nameWithType: XmlSerializationReader.ToXmlNCName(string)
-  fullName: System.Xml.Serialization.XmlSerializationReader.ToXmlNCName(string)
-  nameWithType.vb: XmlSerializationReader.ToXmlNCName(String)
-  fullName.vb: System.Xml.Serialization.XmlSerializationReader.ToXmlNCName(String)
-  name.vb: ToXmlNCName(String)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ToXmlNCName(System.String)
-    name: ToXmlNCName
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ToXmlNCName(System.String)
-    name: ToXmlNCName
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializationReader.ToXmlNmToken(System.String)
-  commentId: M:System.Xml.Serialization.XmlSerializationReader.ToXmlNmToken(System.String)
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: ToXmlNmToken(string)
-  nameWithType: XmlSerializationReader.ToXmlNmToken(string)
-  fullName: System.Xml.Serialization.XmlSerializationReader.ToXmlNmToken(string)
-  nameWithType.vb: XmlSerializationReader.ToXmlNmToken(String)
-  fullName.vb: System.Xml.Serialization.XmlSerializationReader.ToXmlNmToken(String)
-  name.vb: ToXmlNmToken(String)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ToXmlNmToken(System.String)
-    name: ToXmlNmToken
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ToXmlNmToken(System.String)
-    name: ToXmlNmToken
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializationReader.ToXmlNmTokens(System.String)
-  commentId: M:System.Xml.Serialization.XmlSerializationReader.ToXmlNmTokens(System.String)
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: ToXmlNmTokens(string)
-  nameWithType: XmlSerializationReader.ToXmlNmTokens(string)
-  fullName: System.Xml.Serialization.XmlSerializationReader.ToXmlNmTokens(string)
-  nameWithType.vb: XmlSerializationReader.ToXmlNmTokens(String)
-  fullName.vb: System.Xml.Serialization.XmlSerializationReader.ToXmlNmTokens(String)
-  name.vb: ToXmlNmTokens(String)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ToXmlNmTokens(System.String)
-    name: ToXmlNmTokens
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ToXmlNmTokens(System.String)
-    name: ToXmlNmTokens
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializationReader.ToXmlQualifiedName(System.String)
-  commentId: M:System.Xml.Serialization.XmlSerializationReader.ToXmlQualifiedName(System.String)
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: ToXmlQualifiedName(string)
-  nameWithType: XmlSerializationReader.ToXmlQualifiedName(string)
-  fullName: System.Xml.Serialization.XmlSerializationReader.ToXmlQualifiedName(string)
-  nameWithType.vb: XmlSerializationReader.ToXmlQualifiedName(String)
-  fullName.vb: System.Xml.Serialization.XmlSerializationReader.ToXmlQualifiedName(String)
-  name.vb: ToXmlQualifiedName(String)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ToXmlQualifiedName(System.String)
-    name: ToXmlQualifiedName
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ToXmlQualifiedName(System.String)
-    name: ToXmlQualifiedName
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializationReader.UnknownAttribute(System.Object,System.Xml.XmlAttribute)
-  commentId: M:System.Xml.Serialization.XmlSerializationReader.UnknownAttribute(System.Object,System.Xml.XmlAttribute)
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: UnknownAttribute(object, XmlAttribute)
-  nameWithType: XmlSerializationReader.UnknownAttribute(object, XmlAttribute)
-  fullName: System.Xml.Serialization.XmlSerializationReader.UnknownAttribute(object, System.Xml.XmlAttribute)
-  nameWithType.vb: XmlSerializationReader.UnknownAttribute(Object, XmlAttribute)
-  fullName.vb: System.Xml.Serialization.XmlSerializationReader.UnknownAttribute(Object, System.Xml.XmlAttribute)
-  name.vb: UnknownAttribute(Object, XmlAttribute)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializationReader.UnknownAttribute(System.Object,System.Xml.XmlAttribute)
-    name: UnknownAttribute
-    isExternal: true
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Xml.XmlAttribute
-    name: XmlAttribute
-    isExternal: true
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializationReader.UnknownAttribute(System.Object,System.Xml.XmlAttribute)
-    name: UnknownAttribute
-    isExternal: true
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Xml.XmlAttribute
-    name: XmlAttribute
-    isExternal: true
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializationReader.UnknownAttribute(System.Object,System.Xml.XmlAttribute,System.String)
-  commentId: M:System.Xml.Serialization.XmlSerializationReader.UnknownAttribute(System.Object,System.Xml.XmlAttribute,System.String)
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: UnknownAttribute(object, XmlAttribute, string)
-  nameWithType: XmlSerializationReader.UnknownAttribute(object, XmlAttribute, string)
-  fullName: System.Xml.Serialization.XmlSerializationReader.UnknownAttribute(object, System.Xml.XmlAttribute, string)
-  nameWithType.vb: XmlSerializationReader.UnknownAttribute(Object, XmlAttribute, String)
-  fullName.vb: System.Xml.Serialization.XmlSerializationReader.UnknownAttribute(Object, System.Xml.XmlAttribute, String)
-  name.vb: UnknownAttribute(Object, XmlAttribute, String)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializationReader.UnknownAttribute(System.Object,System.Xml.XmlAttribute,System.String)
-    name: UnknownAttribute
-    isExternal: true
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Xml.XmlAttribute
-    name: XmlAttribute
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializationReader.UnknownAttribute(System.Object,System.Xml.XmlAttribute,System.String)
-    name: UnknownAttribute
-    isExternal: true
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Xml.XmlAttribute
-    name: XmlAttribute
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializationReader.UnknownElement(System.Object,System.Xml.XmlElement)
-  commentId: M:System.Xml.Serialization.XmlSerializationReader.UnknownElement(System.Object,System.Xml.XmlElement)
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: UnknownElement(object, XmlElement)
-  nameWithType: XmlSerializationReader.UnknownElement(object, XmlElement)
-  fullName: System.Xml.Serialization.XmlSerializationReader.UnknownElement(object, System.Xml.XmlElement)
-  nameWithType.vb: XmlSerializationReader.UnknownElement(Object, XmlElement)
-  fullName.vb: System.Xml.Serialization.XmlSerializationReader.UnknownElement(Object, System.Xml.XmlElement)
-  name.vb: UnknownElement(Object, XmlElement)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializationReader.UnknownElement(System.Object,System.Xml.XmlElement)
-    name: UnknownElement
-    isExternal: true
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Xml.XmlElement
-    name: XmlElement
-    isExternal: true
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializationReader.UnknownElement(System.Object,System.Xml.XmlElement)
-    name: UnknownElement
-    isExternal: true
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Xml.XmlElement
-    name: XmlElement
-    isExternal: true
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializationReader.UnknownElement(System.Object,System.Xml.XmlElement,System.String)
-  commentId: M:System.Xml.Serialization.XmlSerializationReader.UnknownElement(System.Object,System.Xml.XmlElement,System.String)
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: UnknownElement(object, XmlElement, string)
-  nameWithType: XmlSerializationReader.UnknownElement(object, XmlElement, string)
-  fullName: System.Xml.Serialization.XmlSerializationReader.UnknownElement(object, System.Xml.XmlElement, string)
-  nameWithType.vb: XmlSerializationReader.UnknownElement(Object, XmlElement, String)
-  fullName.vb: System.Xml.Serialization.XmlSerializationReader.UnknownElement(Object, System.Xml.XmlElement, String)
-  name.vb: UnknownElement(Object, XmlElement, String)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializationReader.UnknownElement(System.Object,System.Xml.XmlElement,System.String)
-    name: UnknownElement
-    isExternal: true
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Xml.XmlElement
-    name: XmlElement
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializationReader.UnknownElement(System.Object,System.Xml.XmlElement,System.String)
-    name: UnknownElement
-    isExternal: true
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Xml.XmlElement
-    name: XmlElement
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializationReader.UnknownNode(System.Object)
-  commentId: M:System.Xml.Serialization.XmlSerializationReader.UnknownNode(System.Object)
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: UnknownNode(object)
-  nameWithType: XmlSerializationReader.UnknownNode(object)
-  fullName: System.Xml.Serialization.XmlSerializationReader.UnknownNode(object)
-  nameWithType.vb: XmlSerializationReader.UnknownNode(Object)
-  fullName.vb: System.Xml.Serialization.XmlSerializationReader.UnknownNode(Object)
-  name.vb: UnknownNode(Object)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializationReader.UnknownNode(System.Object)
-    name: UnknownNode
-    isExternal: true
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializationReader.UnknownNode(System.Object)
-    name: UnknownNode
-    isExternal: true
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializationReader.UnknownNode(System.Object,System.String)
-  commentId: M:System.Xml.Serialization.XmlSerializationReader.UnknownNode(System.Object,System.String)
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: UnknownNode(object, string)
-  nameWithType: XmlSerializationReader.UnknownNode(object, string)
-  fullName: System.Xml.Serialization.XmlSerializationReader.UnknownNode(object, string)
-  nameWithType.vb: XmlSerializationReader.UnknownNode(Object, String)
-  fullName.vb: System.Xml.Serialization.XmlSerializationReader.UnknownNode(Object, String)
-  name.vb: UnknownNode(Object, String)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializationReader.UnknownNode(System.Object,System.String)
-    name: UnknownNode
-    isExternal: true
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializationReader.UnknownNode(System.Object,System.String)
-    name: UnknownNode
-    isExternal: true
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializationReader.UnreferencedObject(System.String,System.Object)
-  commentId: M:System.Xml.Serialization.XmlSerializationReader.UnreferencedObject(System.String,System.Object)
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: UnreferencedObject(string, object)
-  nameWithType: XmlSerializationReader.UnreferencedObject(string, object)
-  fullName: System.Xml.Serialization.XmlSerializationReader.UnreferencedObject(string, object)
-  nameWithType.vb: XmlSerializationReader.UnreferencedObject(String, Object)
-  fullName.vb: System.Xml.Serialization.XmlSerializationReader.UnreferencedObject(String, Object)
-  name.vb: UnreferencedObject(String, Object)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializationReader.UnreferencedObject(System.String,System.Object)
-    name: UnreferencedObject
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializationReader.UnreferencedObject(System.String,System.Object)
-    name: UnreferencedObject
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializationReader.CreateUnknownTypeException(System.Xml.XmlQualifiedName)
-  commentId: M:System.Xml.Serialization.XmlSerializationReader.CreateUnknownTypeException(System.Xml.XmlQualifiedName)
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  name: CreateUnknownTypeException(XmlQualifiedName)
-  nameWithType: XmlSerializationReader.CreateUnknownTypeException(XmlQualifiedName)
-  fullName: System.Xml.Serialization.XmlSerializationReader.CreateUnknownTypeException(System.Xml.XmlQualifiedName)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializationReader.CreateUnknownTypeException(System.Xml.XmlQualifiedName)
-    name: CreateUnknownTypeException
-    isExternal: true
-  - name: (
-  - uid: System.Xml.XmlQualifiedName
-    name: XmlQualifiedName
-    isExternal: true
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializationReader.CreateUnknownTypeException(System.Xml.XmlQualifiedName)
-    name: CreateUnknownTypeException
-    isExternal: true
-  - name: (
-  - uid: System.Xml.XmlQualifiedName
-    name: XmlQualifiedName
-    isExternal: true
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializationReader.CreateReadOnlyCollectionException(System.String)
-  commentId: M:System.Xml.Serialization.XmlSerializationReader.CreateReadOnlyCollectionException(System.String)
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: CreateReadOnlyCollectionException(string)
-  nameWithType: XmlSerializationReader.CreateReadOnlyCollectionException(string)
-  fullName: System.Xml.Serialization.XmlSerializationReader.CreateReadOnlyCollectionException(string)
-  nameWithType.vb: XmlSerializationReader.CreateReadOnlyCollectionException(String)
-  fullName.vb: System.Xml.Serialization.XmlSerializationReader.CreateReadOnlyCollectionException(String)
-  name.vb: CreateReadOnlyCollectionException(String)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializationReader.CreateReadOnlyCollectionException(System.String)
-    name: CreateReadOnlyCollectionException
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializationReader.CreateReadOnlyCollectionException(System.String)
-    name: CreateReadOnlyCollectionException
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializationReader.CreateAbstractTypeException(System.String,System.String)
-  commentId: M:System.Xml.Serialization.XmlSerializationReader.CreateAbstractTypeException(System.String,System.String)
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: CreateAbstractTypeException(string, string)
-  nameWithType: XmlSerializationReader.CreateAbstractTypeException(string, string)
-  fullName: System.Xml.Serialization.XmlSerializationReader.CreateAbstractTypeException(string, string)
-  nameWithType.vb: XmlSerializationReader.CreateAbstractTypeException(String, String)
-  fullName.vb: System.Xml.Serialization.XmlSerializationReader.CreateAbstractTypeException(String, String)
-  name.vb: CreateAbstractTypeException(String, String)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializationReader.CreateAbstractTypeException(System.String,System.String)
-    name: CreateAbstractTypeException
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializationReader.CreateAbstractTypeException(System.String,System.String)
-    name: CreateAbstractTypeException
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializationReader.CreateInaccessibleConstructorException(System.String)
-  commentId: M:System.Xml.Serialization.XmlSerializationReader.CreateInaccessibleConstructorException(System.String)
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: CreateInaccessibleConstructorException(string)
-  nameWithType: XmlSerializationReader.CreateInaccessibleConstructorException(string)
-  fullName: System.Xml.Serialization.XmlSerializationReader.CreateInaccessibleConstructorException(string)
-  nameWithType.vb: XmlSerializationReader.CreateInaccessibleConstructorException(String)
-  fullName.vb: System.Xml.Serialization.XmlSerializationReader.CreateInaccessibleConstructorException(String)
-  name.vb: CreateInaccessibleConstructorException(String)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializationReader.CreateInaccessibleConstructorException(System.String)
-    name: CreateInaccessibleConstructorException
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializationReader.CreateInaccessibleConstructorException(System.String)
-    name: CreateInaccessibleConstructorException
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializationReader.CreateCtorHasSecurityException(System.String)
-  commentId: M:System.Xml.Serialization.XmlSerializationReader.CreateCtorHasSecurityException(System.String)
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: CreateCtorHasSecurityException(string)
-  nameWithType: XmlSerializationReader.CreateCtorHasSecurityException(string)
-  fullName: System.Xml.Serialization.XmlSerializationReader.CreateCtorHasSecurityException(string)
-  nameWithType.vb: XmlSerializationReader.CreateCtorHasSecurityException(String)
-  fullName.vb: System.Xml.Serialization.XmlSerializationReader.CreateCtorHasSecurityException(String)
-  name.vb: CreateCtorHasSecurityException(String)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializationReader.CreateCtorHasSecurityException(System.String)
-    name: CreateCtorHasSecurityException
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializationReader.CreateCtorHasSecurityException(System.String)
-    name: CreateCtorHasSecurityException
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializationReader.CreateUnknownNodeException
-  commentId: M:System.Xml.Serialization.XmlSerializationReader.CreateUnknownNodeException
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  name: CreateUnknownNodeException()
-  nameWithType: XmlSerializationReader.CreateUnknownNodeException()
-  fullName: System.Xml.Serialization.XmlSerializationReader.CreateUnknownNodeException()
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializationReader.CreateUnknownNodeException
-    name: CreateUnknownNodeException
-    isExternal: true
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializationReader.CreateUnknownNodeException
-    name: CreateUnknownNodeException
-    isExternal: true
-  - name: (
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializationReader.CreateUnknownConstantException(System.String,System.Type)
-  commentId: M:System.Xml.Serialization.XmlSerializationReader.CreateUnknownConstantException(System.String,System.Type)
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: CreateUnknownConstantException(string, Type)
-  nameWithType: XmlSerializationReader.CreateUnknownConstantException(string, Type)
-  fullName: System.Xml.Serialization.XmlSerializationReader.CreateUnknownConstantException(string, System.Type)
-  nameWithType.vb: XmlSerializationReader.CreateUnknownConstantException(String, Type)
-  fullName.vb: System.Xml.Serialization.XmlSerializationReader.CreateUnknownConstantException(String, System.Type)
-  name.vb: CreateUnknownConstantException(String, Type)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializationReader.CreateUnknownConstantException(System.String,System.Type)
-    name: CreateUnknownConstantException
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializationReader.CreateUnknownConstantException(System.String,System.Type)
-    name: CreateUnknownConstantException
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializationReader.CreateInvalidCastException(System.Type,System.Object)
-  commentId: M:System.Xml.Serialization.XmlSerializationReader.CreateInvalidCastException(System.Type,System.Object)
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.type
-  name: CreateInvalidCastException(Type, object)
-  nameWithType: XmlSerializationReader.CreateInvalidCastException(Type, object)
-  fullName: System.Xml.Serialization.XmlSerializationReader.CreateInvalidCastException(System.Type, object)
-  nameWithType.vb: XmlSerializationReader.CreateInvalidCastException(Type, Object)
-  fullName.vb: System.Xml.Serialization.XmlSerializationReader.CreateInvalidCastException(System.Type, Object)
-  name.vb: CreateInvalidCastException(Type, Object)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializationReader.CreateInvalidCastException(System.Type,System.Object)
-    name: CreateInvalidCastException
-    isExternal: true
-  - name: (
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializationReader.CreateInvalidCastException(System.Type,System.Object)
-    name: CreateInvalidCastException
-    isExternal: true
-  - name: (
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializationReader.CreateInvalidCastException(System.Type,System.Object,System.String)
-  commentId: M:System.Xml.Serialization.XmlSerializationReader.CreateInvalidCastException(System.Type,System.Object,System.String)
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.type
-  name: CreateInvalidCastException(Type, object, string)
-  nameWithType: XmlSerializationReader.CreateInvalidCastException(Type, object, string)
-  fullName: System.Xml.Serialization.XmlSerializationReader.CreateInvalidCastException(System.Type, object, string)
-  nameWithType.vb: XmlSerializationReader.CreateInvalidCastException(Type, Object, String)
-  fullName.vb: System.Xml.Serialization.XmlSerializationReader.CreateInvalidCastException(System.Type, Object, String)
-  name.vb: CreateInvalidCastException(Type, Object, String)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializationReader.CreateInvalidCastException(System.Type,System.Object,System.String)
-    name: CreateInvalidCastException
-    isExternal: true
-  - name: (
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializationReader.CreateInvalidCastException(System.Type,System.Object,System.String)
-    name: CreateInvalidCastException
-    isExternal: true
-  - name: (
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializationReader.CreateBadDerivationException(System.String,System.String,System.String,System.String,System.String,System.String)
-  commentId: M:System.Xml.Serialization.XmlSerializationReader.CreateBadDerivationException(System.String,System.String,System.String,System.String,System.String,System.String)
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: CreateBadDerivationException(string, string, string, string, string, string)
-  nameWithType: XmlSerializationReader.CreateBadDerivationException(string, string, string, string, string, string)
-  fullName: System.Xml.Serialization.XmlSerializationReader.CreateBadDerivationException(string, string, string, string, string, string)
-  nameWithType.vb: XmlSerializationReader.CreateBadDerivationException(String, String, String, String, String, String)
-  fullName.vb: System.Xml.Serialization.XmlSerializationReader.CreateBadDerivationException(String, String, String, String, String, String)
-  name.vb: CreateBadDerivationException(String, String, String, String, String, String)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializationReader.CreateBadDerivationException(System.String,System.String,System.String,System.String,System.String,System.String)
-    name: CreateBadDerivationException
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializationReader.CreateBadDerivationException(System.String,System.String,System.String,System.String,System.String,System.String)
-    name: CreateBadDerivationException
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializationReader.CreateMissingIXmlSerializableType(System.String,System.String,System.String)
-  commentId: M:System.Xml.Serialization.XmlSerializationReader.CreateMissingIXmlSerializableType(System.String,System.String,System.String)
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: CreateMissingIXmlSerializableType(string, string, string)
-  nameWithType: XmlSerializationReader.CreateMissingIXmlSerializableType(string, string, string)
-  fullName: System.Xml.Serialization.XmlSerializationReader.CreateMissingIXmlSerializableType(string, string, string)
-  nameWithType.vb: XmlSerializationReader.CreateMissingIXmlSerializableType(String, String, String)
-  fullName.vb: System.Xml.Serialization.XmlSerializationReader.CreateMissingIXmlSerializableType(String, String, String)
-  name.vb: CreateMissingIXmlSerializableType(String, String, String)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializationReader.CreateMissingIXmlSerializableType(System.String,System.String,System.String)
-    name: CreateMissingIXmlSerializableType
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializationReader.CreateMissingIXmlSerializableType(System.String,System.String,System.String)
-    name: CreateMissingIXmlSerializableType
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializationReader.EnsureArrayIndex(System.Array,System.Int32,System.Type)
-  commentId: M:System.Xml.Serialization.XmlSerializationReader.EnsureArrayIndex(System.Array,System.Int32,System.Type)
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.array
-  name: EnsureArrayIndex(Array, int, Type)
-  nameWithType: XmlSerializationReader.EnsureArrayIndex(Array, int, Type)
-  fullName: System.Xml.Serialization.XmlSerializationReader.EnsureArrayIndex(System.Array, int, System.Type)
-  nameWithType.vb: XmlSerializationReader.EnsureArrayIndex(Array, Integer, Type)
-  fullName.vb: System.Xml.Serialization.XmlSerializationReader.EnsureArrayIndex(System.Array, Integer, System.Type)
-  name.vb: EnsureArrayIndex(Array, Integer, Type)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializationReader.EnsureArrayIndex(System.Array,System.Int32,System.Type)
-    name: EnsureArrayIndex
-    isExternal: true
-  - name: (
-  - uid: System.Array
-    name: Array
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.array
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializationReader.EnsureArrayIndex(System.Array,System.Int32,System.Type)
-    name: EnsureArrayIndex
-    isExternal: true
-  - name: (
-  - uid: System.Array
-    name: Array
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.array
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializationReader.ShrinkArray(System.Array,System.Int32,System.Type,System.Boolean)
-  commentId: M:System.Xml.Serialization.XmlSerializationReader.ShrinkArray(System.Array,System.Int32,System.Type,System.Boolean)
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.array
-  name: ShrinkArray(Array, int, Type, bool)
-  nameWithType: XmlSerializationReader.ShrinkArray(Array, int, Type, bool)
-  fullName: System.Xml.Serialization.XmlSerializationReader.ShrinkArray(System.Array, int, System.Type, bool)
-  nameWithType.vb: XmlSerializationReader.ShrinkArray(Array, Integer, Type, Boolean)
-  fullName.vb: System.Xml.Serialization.XmlSerializationReader.ShrinkArray(System.Array, Integer, System.Type, Boolean)
-  name.vb: ShrinkArray(Array, Integer, Type, Boolean)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ShrinkArray(System.Array,System.Int32,System.Type,System.Boolean)
-    name: ShrinkArray
-    isExternal: true
-  - name: (
-  - uid: System.Array
-    name: Array
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.array
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: bool
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ShrinkArray(System.Array,System.Int32,System.Type,System.Boolean)
-    name: ShrinkArray
-    isExternal: true
-  - name: (
-  - uid: System.Array
-    name: Array
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.array
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: Boolean
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializationReader.ReadString(System.String)
-  commentId: M:System.Xml.Serialization.XmlSerializationReader.ReadString(System.String)
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: ReadString(string)
-  nameWithType: XmlSerializationReader.ReadString(string)
-  fullName: System.Xml.Serialization.XmlSerializationReader.ReadString(string)
-  nameWithType.vb: XmlSerializationReader.ReadString(String)
-  fullName.vb: System.Xml.Serialization.XmlSerializationReader.ReadString(String)
-  name.vb: ReadString(String)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ReadString(System.String)
-    name: ReadString
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ReadString(System.String)
-    name: ReadString
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializationReader.ReadString(System.String,System.Boolean)
-  commentId: M:System.Xml.Serialization.XmlSerializationReader.ReadString(System.String,System.Boolean)
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: ReadString(string, bool)
-  nameWithType: XmlSerializationReader.ReadString(string, bool)
-  fullName: System.Xml.Serialization.XmlSerializationReader.ReadString(string, bool)
-  nameWithType.vb: XmlSerializationReader.ReadString(String, Boolean)
-  fullName.vb: System.Xml.Serialization.XmlSerializationReader.ReadString(String, Boolean)
-  name.vb: ReadString(String, Boolean)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ReadString(System.String,System.Boolean)
-    name: ReadString
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: bool
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ReadString(System.String,System.Boolean)
-    name: ReadString
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: Boolean
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializationReader.ReadSerializable(System.Xml.Serialization.IXmlSerializable)
-  commentId: M:System.Xml.Serialization.XmlSerializationReader.ReadSerializable(System.Xml.Serialization.IXmlSerializable)
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  name: ReadSerializable(IXmlSerializable)
-  nameWithType: XmlSerializationReader.ReadSerializable(IXmlSerializable)
-  fullName: System.Xml.Serialization.XmlSerializationReader.ReadSerializable(System.Xml.Serialization.IXmlSerializable)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ReadSerializable(System.Xml.Serialization.IXmlSerializable)
-    name: ReadSerializable
-    isExternal: true
-  - name: (
-  - uid: System.Xml.Serialization.IXmlSerializable
-    name: IXmlSerializable
-    isExternal: true
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ReadSerializable(System.Xml.Serialization.IXmlSerializable)
-    name: ReadSerializable
-    isExternal: true
-  - name: (
-  - uid: System.Xml.Serialization.IXmlSerializable
-    name: IXmlSerializable
-    isExternal: true
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializationReader.ReadSerializable(System.Xml.Serialization.IXmlSerializable,System.Boolean)
-  commentId: M:System.Xml.Serialization.XmlSerializationReader.ReadSerializable(System.Xml.Serialization.IXmlSerializable,System.Boolean)
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: ReadSerializable(IXmlSerializable, bool)
-  nameWithType: XmlSerializationReader.ReadSerializable(IXmlSerializable, bool)
-  fullName: System.Xml.Serialization.XmlSerializationReader.ReadSerializable(System.Xml.Serialization.IXmlSerializable, bool)
-  nameWithType.vb: XmlSerializationReader.ReadSerializable(IXmlSerializable, Boolean)
-  fullName.vb: System.Xml.Serialization.XmlSerializationReader.ReadSerializable(System.Xml.Serialization.IXmlSerializable, Boolean)
-  name.vb: ReadSerializable(IXmlSerializable, Boolean)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ReadSerializable(System.Xml.Serialization.IXmlSerializable,System.Boolean)
-    name: ReadSerializable
-    isExternal: true
-  - name: (
-  - uid: System.Xml.Serialization.IXmlSerializable
-    name: IXmlSerializable
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: bool
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ReadSerializable(System.Xml.Serialization.IXmlSerializable,System.Boolean)
-    name: ReadSerializable
-    isExternal: true
-  - name: (
-  - uid: System.Xml.Serialization.IXmlSerializable
-    name: IXmlSerializable
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: Boolean
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializationReader.ReadReference(System.String@)
-  commentId: M:System.Xml.Serialization.XmlSerializationReader.ReadReference(System.String@)
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: ReadReference(out string)
-  nameWithType: XmlSerializationReader.ReadReference(out string)
-  fullName: System.Xml.Serialization.XmlSerializationReader.ReadReference(out string)
-  nameWithType.vb: XmlSerializationReader.ReadReference(String)
-  fullName.vb: System.Xml.Serialization.XmlSerializationReader.ReadReference(String)
-  name.vb: ReadReference(String)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ReadReference(System.String@)
-    name: ReadReference
-    isExternal: true
-  - name: (
-  - name: out
-  - name: " "
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ReadReference(System.String@)
-    name: ReadReference
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializationReader.AddTarget(System.String,System.Object)
-  commentId: M:System.Xml.Serialization.XmlSerializationReader.AddTarget(System.String,System.Object)
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: AddTarget(string, object)
-  nameWithType: XmlSerializationReader.AddTarget(string, object)
-  fullName: System.Xml.Serialization.XmlSerializationReader.AddTarget(string, object)
-  nameWithType.vb: XmlSerializationReader.AddTarget(String, Object)
-  fullName.vb: System.Xml.Serialization.XmlSerializationReader.AddTarget(String, Object)
-  name.vb: AddTarget(String, Object)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializationReader.AddTarget(System.String,System.Object)
-    name: AddTarget
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializationReader.AddTarget(System.String,System.Object)
-    name: AddTarget
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializationReader.AddFixup(System.Xml.Serialization.XmlSerializationReader.Fixup)
-  commentId: M:System.Xml.Serialization.XmlSerializationReader.AddFixup(System.Xml.Serialization.XmlSerializationReader.Fixup)
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  name: AddFixup(Fixup)
-  nameWithType: XmlSerializationReader.AddFixup(XmlSerializationReader.Fixup)
-  fullName: System.Xml.Serialization.XmlSerializationReader.AddFixup(System.Xml.Serialization.XmlSerializationReader.Fixup)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializationReader.AddFixup(System.Xml.Serialization.XmlSerializationReader.Fixup)
-    name: AddFixup
-    isExternal: true
-  - name: (
-  - uid: System.Xml.Serialization.XmlSerializationReader.Fixup
-    name: Fixup
-    isExternal: true
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializationReader.AddFixup(System.Xml.Serialization.XmlSerializationReader.Fixup)
-    name: AddFixup
-    isExternal: true
-  - name: (
-  - uid: System.Xml.Serialization.XmlSerializationReader.Fixup
-    name: Fixup
-    isExternal: true
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializationReader.AddFixup(System.Xml.Serialization.XmlSerializationReader.CollectionFixup)
-  commentId: M:System.Xml.Serialization.XmlSerializationReader.AddFixup(System.Xml.Serialization.XmlSerializationReader.CollectionFixup)
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  name: AddFixup(CollectionFixup)
-  nameWithType: XmlSerializationReader.AddFixup(XmlSerializationReader.CollectionFixup)
-  fullName: System.Xml.Serialization.XmlSerializationReader.AddFixup(System.Xml.Serialization.XmlSerializationReader.CollectionFixup)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializationReader.AddFixup(System.Xml.Serialization.XmlSerializationReader.CollectionFixup)
-    name: AddFixup
-    isExternal: true
-  - name: (
-  - uid: System.Xml.Serialization.XmlSerializationReader.CollectionFixup
-    name: CollectionFixup
-    isExternal: true
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializationReader.AddFixup(System.Xml.Serialization.XmlSerializationReader.CollectionFixup)
-    name: AddFixup
-    isExternal: true
-  - name: (
-  - uid: System.Xml.Serialization.XmlSerializationReader.CollectionFixup
-    name: CollectionFixup
-    isExternal: true
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializationReader.GetTarget(System.String)
-  commentId: M:System.Xml.Serialization.XmlSerializationReader.GetTarget(System.String)
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: GetTarget(string)
-  nameWithType: XmlSerializationReader.GetTarget(string)
-  fullName: System.Xml.Serialization.XmlSerializationReader.GetTarget(string)
-  nameWithType.vb: XmlSerializationReader.GetTarget(String)
-  fullName.vb: System.Xml.Serialization.XmlSerializationReader.GetTarget(String)
-  name.vb: GetTarget(String)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializationReader.GetTarget(System.String)
-    name: GetTarget
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializationReader.GetTarget(System.String)
-    name: GetTarget
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializationReader.Referenced(System.Object)
-  commentId: M:System.Xml.Serialization.XmlSerializationReader.Referenced(System.Object)
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: Referenced(object)
-  nameWithType: XmlSerializationReader.Referenced(object)
-  fullName: System.Xml.Serialization.XmlSerializationReader.Referenced(object)
-  nameWithType.vb: XmlSerializationReader.Referenced(Object)
-  fullName.vb: System.Xml.Serialization.XmlSerializationReader.Referenced(Object)
-  name.vb: Referenced(Object)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializationReader.Referenced(System.Object)
-    name: Referenced
-    isExternal: true
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializationReader.Referenced(System.Object)
-    name: Referenced
-    isExternal: true
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializationReader.FixupArrayRefs(System.Object)
-  commentId: M:System.Xml.Serialization.XmlSerializationReader.FixupArrayRefs(System.Object)
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: FixupArrayRefs(object)
-  nameWithType: XmlSerializationReader.FixupArrayRefs(object)
-  fullName: System.Xml.Serialization.XmlSerializationReader.FixupArrayRefs(object)
-  nameWithType.vb: XmlSerializationReader.FixupArrayRefs(Object)
-  fullName.vb: System.Xml.Serialization.XmlSerializationReader.FixupArrayRefs(Object)
-  name.vb: FixupArrayRefs(Object)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializationReader.FixupArrayRefs(System.Object)
-    name: FixupArrayRefs
-    isExternal: true
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializationReader.FixupArrayRefs(System.Object)
-    name: FixupArrayRefs
-    isExternal: true
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializationReader.ReadReferencedElements
-  commentId: M:System.Xml.Serialization.XmlSerializationReader.ReadReferencedElements
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  name: ReadReferencedElements()
-  nameWithType: XmlSerializationReader.ReadReferencedElements()
-  fullName: System.Xml.Serialization.XmlSerializationReader.ReadReferencedElements()
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ReadReferencedElements
-    name: ReadReferencedElements
-    isExternal: true
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ReadReferencedElements
-    name: ReadReferencedElements
-    isExternal: true
-  - name: (
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializationReader.ReadReferencedElement
-  commentId: M:System.Xml.Serialization.XmlSerializationReader.ReadReferencedElement
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  name: ReadReferencedElement()
-  nameWithType: XmlSerializationReader.ReadReferencedElement()
-  fullName: System.Xml.Serialization.XmlSerializationReader.ReadReferencedElement()
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ReadReferencedElement
-    name: ReadReferencedElement
-    isExternal: true
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ReadReferencedElement
-    name: ReadReferencedElement
-    isExternal: true
-  - name: (
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializationReader.ReadReferencedElement(System.String,System.String)
-  commentId: M:System.Xml.Serialization.XmlSerializationReader.ReadReferencedElement(System.String,System.String)
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: ReadReferencedElement(string, string)
-  nameWithType: XmlSerializationReader.ReadReferencedElement(string, string)
-  fullName: System.Xml.Serialization.XmlSerializationReader.ReadReferencedElement(string, string)
-  nameWithType.vb: XmlSerializationReader.ReadReferencedElement(String, String)
-  fullName.vb: System.Xml.Serialization.XmlSerializationReader.ReadReferencedElement(String, String)
-  name.vb: ReadReferencedElement(String, String)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ReadReferencedElement(System.String,System.String)
-    name: ReadReferencedElement
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ReadReferencedElement(System.String,System.String)
-    name: ReadReferencedElement
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializationReader.ReadReferencingElement(System.String@)
-  commentId: M:System.Xml.Serialization.XmlSerializationReader.ReadReferencingElement(System.String@)
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: ReadReferencingElement(out string)
-  nameWithType: XmlSerializationReader.ReadReferencingElement(out string)
-  fullName: System.Xml.Serialization.XmlSerializationReader.ReadReferencingElement(out string)
-  nameWithType.vb: XmlSerializationReader.ReadReferencingElement(String)
-  fullName.vb: System.Xml.Serialization.XmlSerializationReader.ReadReferencingElement(String)
-  name.vb: ReadReferencingElement(String)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ReadReferencingElement(System.String@)
-    name: ReadReferencingElement
-    isExternal: true
-  - name: (
-  - name: out
-  - name: " "
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ReadReferencingElement(System.String@)
-    name: ReadReferencingElement
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializationReader.ReadReferencingElement(System.String,System.String,System.String@)
-  commentId: M:System.Xml.Serialization.XmlSerializationReader.ReadReferencingElement(System.String,System.String,System.String@)
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: ReadReferencingElement(string, string, out string)
-  nameWithType: XmlSerializationReader.ReadReferencingElement(string, string, out string)
-  fullName: System.Xml.Serialization.XmlSerializationReader.ReadReferencingElement(string, string, out string)
-  nameWithType.vb: XmlSerializationReader.ReadReferencingElement(String, String, String)
-  fullName.vb: System.Xml.Serialization.XmlSerializationReader.ReadReferencingElement(String, String, String)
-  name.vb: ReadReferencingElement(String, String, String)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ReadReferencingElement(System.String,System.String,System.String@)
-    name: ReadReferencingElement
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - name: out
-  - name: " "
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ReadReferencingElement(System.String,System.String,System.String@)
-    name: ReadReferencingElement
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializationReader.ReadReferencingElement(System.String,System.String,System.Boolean,System.String@)
-  commentId: M:System.Xml.Serialization.XmlSerializationReader.ReadReferencingElement(System.String,System.String,System.Boolean,System.String@)
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: ReadReferencingElement(string, string, bool, out string)
-  nameWithType: XmlSerializationReader.ReadReferencingElement(string, string, bool, out string)
-  fullName: System.Xml.Serialization.XmlSerializationReader.ReadReferencingElement(string, string, bool, out string)
-  nameWithType.vb: XmlSerializationReader.ReadReferencingElement(String, String, Boolean, String)
-  fullName.vb: System.Xml.Serialization.XmlSerializationReader.ReadReferencingElement(String, String, Boolean, String)
-  name.vb: ReadReferencingElement(String, String, Boolean, String)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ReadReferencingElement(System.String,System.String,System.Boolean,System.String@)
-    name: ReadReferencingElement
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: bool
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: ','
-  - name: " "
-  - name: out
-  - name: " "
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ReadReferencingElement(System.String,System.String,System.Boolean,System.String@)
-    name: ReadReferencingElement
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: Boolean
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializationReader.AddReadCallback(System.String,System.String,System.Type,System.Xml.Serialization.XmlSerializationReadCallback)
-  commentId: M:System.Xml.Serialization.XmlSerializationReader.AddReadCallback(System.String,System.String,System.Type,System.Xml.Serialization.XmlSerializationReadCallback)
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: AddReadCallback(string, string, Type, XmlSerializationReadCallback)
-  nameWithType: XmlSerializationReader.AddReadCallback(string, string, Type, XmlSerializationReadCallback)
-  fullName: System.Xml.Serialization.XmlSerializationReader.AddReadCallback(string, string, System.Type, System.Xml.Serialization.XmlSerializationReadCallback)
-  nameWithType.vb: XmlSerializationReader.AddReadCallback(String, String, Type, XmlSerializationReadCallback)
-  fullName.vb: System.Xml.Serialization.XmlSerializationReader.AddReadCallback(String, String, System.Type, System.Xml.Serialization.XmlSerializationReadCallback)
-  name.vb: AddReadCallback(String, String, Type, XmlSerializationReadCallback)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializationReader.AddReadCallback(System.String,System.String,System.Type,System.Xml.Serialization.XmlSerializationReadCallback)
-    name: AddReadCallback
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: ','
-  - name: " "
-  - uid: System.Xml.Serialization.XmlSerializationReadCallback
-    name: XmlSerializationReadCallback
-    isExternal: true
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializationReader.AddReadCallback(System.String,System.String,System.Type,System.Xml.Serialization.XmlSerializationReadCallback)
-    name: AddReadCallback
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: ','
-  - name: " "
-  - uid: System.Xml.Serialization.XmlSerializationReadCallback
-    name: XmlSerializationReadCallback
-    isExternal: true
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializationReader.ReadEndElement
-  commentId: M:System.Xml.Serialization.XmlSerializationReader.ReadEndElement
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  name: ReadEndElement()
-  nameWithType: XmlSerializationReader.ReadEndElement()
-  fullName: System.Xml.Serialization.XmlSerializationReader.ReadEndElement()
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ReadEndElement
-    name: ReadEndElement
-    isExternal: true
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializationReader.ReadEndElement
-    name: ReadEndElement
-    isExternal: true
-  - name: (
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializationReader.CheckReaderCount(System.Int32@,System.Int32@)
-  commentId: M:System.Xml.Serialization.XmlSerializationReader.CheckReaderCount(System.Int32@,System.Int32@)
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: CheckReaderCount(ref int, ref int)
-  nameWithType: XmlSerializationReader.CheckReaderCount(ref int, ref int)
-  fullName: System.Xml.Serialization.XmlSerializationReader.CheckReaderCount(ref int, ref int)
-  nameWithType.vb: XmlSerializationReader.CheckReaderCount(Integer, Integer)
-  fullName.vb: System.Xml.Serialization.XmlSerializationReader.CheckReaderCount(Integer, Integer)
-  name.vb: CheckReaderCount(Integer, Integer)
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializationReader.CheckReaderCount(System.Int32@,System.Int32@)
-    name: CheckReaderCount
-    isExternal: true
-  - name: (
-  - name: ref
-  - name: " "
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - name: ref
-  - name: " "
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializationReader.CheckReaderCount(System.Int32@,System.Int32@)
-    name: CheckReaderCount
-    isExternal: true
-  - name: (
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: )
-- uid: System.Xml.Serialization.XmlSerializationReader.DecodeName
-  commentId: P:System.Xml.Serialization.XmlSerializationReader.DecodeName
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  name: DecodeName
-  nameWithType: XmlSerializationReader.DecodeName
-  fullName: System.Xml.Serialization.XmlSerializationReader.DecodeName
-- uid: System.Xml.Serialization.XmlSerializationReader.Reader
-  commentId: P:System.Xml.Serialization.XmlSerializationReader.Reader
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  name: Reader
-  nameWithType: XmlSerializationReader.Reader
-  fullName: System.Xml.Serialization.XmlSerializationReader.Reader
-- uid: System.Xml.Serialization.XmlSerializationReader.ReaderCount
-  commentId: P:System.Xml.Serialization.XmlSerializationReader.ReaderCount
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  name: ReaderCount
-  nameWithType: XmlSerializationReader.ReaderCount
-  fullName: System.Xml.Serialization.XmlSerializationReader.ReaderCount
-- uid: System.Xml.Serialization.XmlSerializationReader.Document
-  commentId: P:System.Xml.Serialization.XmlSerializationReader.Document
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  name: Document
-  nameWithType: XmlSerializationReader.Document
-  fullName: System.Xml.Serialization.XmlSerializationReader.Document
-- uid: System.Xml.Serialization.XmlSerializationReader.IsReturnValue
-  commentId: P:System.Xml.Serialization.XmlSerializationReader.IsReturnValue
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  name: IsReturnValue
-  nameWithType: XmlSerializationReader.IsReturnValue
-  fullName: System.Xml.Serialization.XmlSerializationReader.IsReturnValue
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<XmlSerializationReaderMailMergeSettings, To>(XmlSerializationReaderMailMergeSettings)
-  nameWithType: EnumUtil.MapEnums<XmlSerializationReaderMailMergeSettings, To>(XmlSerializationReaderMailMergeSettings)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings, To>(SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings)
-  nameWithType.vb: EnumUtil.MapEnums(Of XmlSerializationReaderMailMergeSettings, To)(XmlSerializationReaderMailMergeSettings)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings, To)(SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings)
-  name.vb: MapEnums(Of XmlSerializationReaderMailMergeSettings, To)(XmlSerializationReaderMailMergeSettings)
+  name: MapEnums<XmlSerializationReaderMailMergeSettings, To>()
+  nameWithType: EnumUtil.MapEnums<XmlSerializationReaderMailMergeSettings, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of XmlSerializationReaderMailMergeSettings, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings, To)()
+  name.vb: MapEnums(Of XmlSerializationReaderMailMergeSettings, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<XmlSerializationReaderMailMergeSettings, To>
+    nameWithType: EnumUtil.MapEnums<XmlSerializationReaderMailMergeSettings, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings
-    name: XmlSerializationReaderMailMergeSettings
-    isExternal: true
-    href: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings
-    name: XmlSerializationReaderMailMergeSettings
-    isExternal: true
-    href: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of XmlSerializationReaderMailMergeSettings, To)
+    nameWithType: EnumUtil.MapEnums(Of XmlSerializationReaderMailMergeSettings, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings
-    name: XmlSerializationReaderMailMergeSettings
-    isExternal: true
-    href: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings
-    name: XmlSerializationReaderMailMergeSettings
-    isExternal: true
-    href: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings.html
-  - name: )
-- uid: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  parent: SuperOffice.ErpSync.ConnectorWS.Converters
-  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<XmlSerializationReaderMailMergeSettings, To>(XmlSerializationReaderMailMergeSettings)
-  nameWithType: Converters.MapEnums<XmlSerializationReaderMailMergeSettings, To>(XmlSerializationReaderMailMergeSettings)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings, To>(SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings)
-  nameWithType.vb: Converters.MapEnums(Of XmlSerializationReaderMailMergeSettings, To)(XmlSerializationReaderMailMergeSettings)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings, To)(SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings)
-  name.vb: MapEnums(Of XmlSerializationReaderMailMergeSettings, To)(XmlSerializationReaderMailMergeSettings)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings
-    name: XmlSerializationReaderMailMergeSettings
-    isExternal: true
-    href: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings
-    name: XmlSerializationReaderMailMergeSettings
-    isExternal: true
-    href: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings
-    name: XmlSerializationReaderMailMergeSettings
-    isExternal: true
-    href: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings
-    name: XmlSerializationReaderMailMergeSettings
-    isExternal: true
-    href: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<XmlSerializationReaderMailMergeSettings>(XmlSerializationReaderMailMergeSettings, XmlSerializationReaderMailMergeSettings)
-  nameWithType: ObjectExtensions.AssignByReflection<XmlSerializationReaderMailMergeSettings>(XmlSerializationReaderMailMergeSettings, XmlSerializationReaderMailMergeSettings)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings>(SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings, SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of XmlSerializationReaderMailMergeSettings)(XmlSerializationReaderMailMergeSettings, XmlSerializationReaderMailMergeSettings)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings)(SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings, SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings)
-  name.vb: AssignByReflection(Of XmlSerializationReaderMailMergeSettings)(XmlSerializationReaderMailMergeSettings, XmlSerializationReaderMailMergeSettings)
+  name: AssignByReflection<XmlSerializationReaderMailMergeSettings>(XmlSerializationReaderMailMergeSettings)
+  nameWithType: ObjectExtensions.AssignByReflection<XmlSerializationReaderMailMergeSettings>(XmlSerializationReaderMailMergeSettings)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings>(SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of XmlSerializationReaderMailMergeSettings)(XmlSerializationReaderMailMergeSettings)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings)(SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings)
+  name.vb: AssignByReflection(Of XmlSerializationReaderMailMergeSettings)(XmlSerializationReaderMailMergeSettings)
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings,SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<XmlSerializationReaderMailMergeSettings>
+    nameWithType: ObjectExtensions.AssignByReflection<XmlSerializationReaderMailMergeSettings>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings
-    name: XmlSerializationReaderMailMergeSettings
-    isExternal: true
-    href: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings.html
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings
     name: XmlSerializationReaderMailMergeSettings
+    nameWithType: XmlSerializationReaderMailMergeSettings
+    fullName: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings
     isExternal: true
-    href: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings
-    name: XmlSerializationReaderMailMergeSettings
-    isExternal: true
-    href: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings,SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of XmlSerializationReaderMailMergeSettings)
+    nameWithType: ObjectExtensions.AssignByReflection(Of XmlSerializationReaderMailMergeSettings)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings
     name: XmlSerializationReaderMailMergeSettings
+    nameWithType: XmlSerializationReaderMailMergeSettings
+    fullName: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings
     isExternal: true
-    href: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings.html
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings
-    name: XmlSerializationReaderMailMergeSettings
-    isExternal: true
-    href: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings
-    name: XmlSerializationReaderMailMergeSettings
-    isExternal: true
-    href: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<XmlSerializationReaderMailMergeSettings>(XmlSerializationReaderMailMergeSettings)
-  nameWithType: ObjectExtensions.GraphCopy<XmlSerializationReaderMailMergeSettings>(XmlSerializationReaderMailMergeSettings)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings>(SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of XmlSerializationReaderMailMergeSettings)(XmlSerializationReaderMailMergeSettings)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings)(SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings)
-  name.vb: GraphCopy(Of XmlSerializationReaderMailMergeSettings)(XmlSerializationReaderMailMergeSettings)
+  name: GraphCopy<XmlSerializationReaderMailMergeSettings>()
+  nameWithType: ObjectExtensions.GraphCopy<XmlSerializationReaderMailMergeSettings>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of XmlSerializationReaderMailMergeSettings)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings)()
+  name.vb: GraphCopy(Of XmlSerializationReaderMailMergeSettings)()
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<XmlSerializationReaderMailMergeSettings>
+    nameWithType: ObjectExtensions.GraphCopy<XmlSerializationReaderMailMergeSettings>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings
-    name: XmlSerializationReaderMailMergeSettings
-    isExternal: true
-    href: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings.html
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings
-    name: XmlSerializationReaderMailMergeSettings
-    isExternal: true
-    href: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of XmlSerializationReaderMailMergeSettings)
+    nameWithType: ObjectExtensions.GraphCopy(Of XmlSerializationReaderMailMergeSettings)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings
-    name: XmlSerializationReaderMailMergeSettings
-    isExternal: true
-    href: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<XmlSerializationReaderMailMergeSettings, To>()
+  nameWithType: Converters.MapEnums<XmlSerializationReaderMailMergeSettings, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings, To>()
+  nameWithType.vb: Converters.MapEnums(Of XmlSerializationReaderMailMergeSettings, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings, To)()
+  name.vb: MapEnums(Of XmlSerializationReaderMailMergeSettings, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<XmlSerializationReaderMailMergeSettings, To>
+    nameWithType: Converters.MapEnums<XmlSerializationReaderMailMergeSettings, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings, To>
+    isExternal: true
   - name: (
-  - uid: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings
-    name: XmlSerializationReaderMailMergeSettings
-    isExternal: true
-    href: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of XmlSerializationReaderMailMergeSettings, To)
+    nameWithType: Converters.MapEnums(Of XmlSerializationReaderMailMergeSettings, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
-- uid: System.Xml.Serialization
-  commentId: N:System.Xml.Serialization
-  isExternal: true
-  name: System.Xml.Serialization
-  nameWithType: System.Xml.Serialization
-  fullName: System.Xml.Serialization
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-  - name: .
-  - uid: System.Xml
-    name: Xml
-    isExternal: true
-  - name: .
-  - uid: System.Xml.Serialization
-    name: Serialization
-    isExternal: true
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-  - name: .
-  - uid: System.Xml
-    name: Xml
-    isExternal: true
-  - name: .
-  - uid: System.Xml.Serialization
-    name: Serialization
-    isExternal: true
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -3241,93 +323,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<From, To>(From)
-  nameWithType: Converters.MapEnums<From, To>(From)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
-  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
-  name.vb: MapEnums(Of From, To)(From)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - name: From
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - name: From
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters
-  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
-  parent: SuperOffice.ErpSync.ConnectorWS
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
-  name: Converters
-  nameWithType: Converters
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   name: AssignByReflection<T>(T, T)
   nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
   fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
@@ -3336,46 +368,56 @@ references:
   name.vb: AssignByReflection(Of T)(T, T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
-  - name: ','
-  - name: " "
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.ObjectExtensions
   commentId: T:SuperOffice.Util.ObjectExtensions
   parent: SuperOffice.Util
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
   name: ObjectExtensions
   nameWithType: ObjectExtensions
   fullName: SuperOffice.Util.ObjectExtensions
 - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   name: GraphCopy<T>(T)
   nameWithType: ObjectExtensions.GraphCopy<T>(T)
   fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
@@ -3384,158 +426,113 @@ references:
   name.vb: GraphCopy(Of T)(T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS
-  commentId: N:SuperOffice.ErpSync.ConnectorWS
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.ErpSync.ConnectorWS
-  nameWithType: SuperOffice.ErpSync.ConnectorWS
-  fullName: SuperOffice.ErpSync.ConnectorWS
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
 - uid: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings.Read7_MailMergeSettings*
   commentId: Overload:SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings.Read7_MailMergeSettings
   isExternal: true
-  href: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings.html#SuperOffice_CRM_MailMerge_XmlSerializationReaderMailMergeSettings_Read7_MailMergeSettings
   name: Read7_MailMergeSettings
   nameWithType: XmlSerializationReaderMailMergeSettings.Read7_MailMergeSettings
   fullName: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings.Read7_MailMergeSettings
-- uid: System.Xml.Serialization.XmlSerializationReader.InitCallbacks
-  commentId: M:System.Xml.Serialization.XmlSerializationReader.InitCallbacks
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  name: InitCallbacks()
-  nameWithType: XmlSerializationReader.InitCallbacks()
-  fullName: System.Xml.Serialization.XmlSerializationReader.InitCallbacks()
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializationReader.InitCallbacks
-    name: InitCallbacks
-    isExternal: true
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializationReader.InitCallbacks
-    name: InitCallbacks
-    isExternal: true
-  - name: (
-  - name: )
 - uid: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings.InitCallbacks*
   commentId: Overload:SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings.InitCallbacks
   isExternal: true
-  href: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings.html#SuperOffice_CRM_MailMerge_XmlSerializationReaderMailMergeSettings_InitCallbacks
   name: InitCallbacks
   nameWithType: XmlSerializationReaderMailMergeSettings.InitCallbacks
   fullName: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings.InitCallbacks
-- uid: System.Xml.Serialization.XmlSerializationReader.InitIDs
-  commentId: M:System.Xml.Serialization.XmlSerializationReader.InitIDs
-  parent: System.Xml.Serialization.XmlSerializationReader
-  isExternal: true
-  name: InitIDs()
-  nameWithType: XmlSerializationReader.InitIDs()
-  fullName: System.Xml.Serialization.XmlSerializationReader.InitIDs()
-  spec.csharp:
-  - uid: System.Xml.Serialization.XmlSerializationReader.InitIDs
-    name: InitIDs
-    isExternal: true
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Xml.Serialization.XmlSerializationReader.InitIDs
-    name: InitIDs
-    isExternal: true
-  - name: (
-  - name: )
 - uid: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings.InitIDs*
   commentId: Overload:SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings.InitIDs
   isExternal: true
-  href: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings.html#SuperOffice_CRM_MailMerge_XmlSerializationReaderMailMergeSettings_InitIDs
   name: InitIDs
   nameWithType: XmlSerializationReaderMailMergeSettings.InitIDs
   fullName: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings.InitIDs
 - uid: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings.#ctor*
   commentId: Overload:SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings.#ctor
   isExternal: true
-  href: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings.html#SuperOffice_CRM_MailMerge_XmlSerializationReaderMailMergeSettings__ctor
   name: XmlSerializationReaderMailMergeSettings
   nameWithType: XmlSerializationReaderMailMergeSettings.XmlSerializationReaderMailMergeSettings
   fullName: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings.XmlSerializationReaderMailMergeSettings
-  nameWithType.vb: XmlSerializationReaderMailMergeSettings.New
-  fullName.vb: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings.New
-  name.vb: New

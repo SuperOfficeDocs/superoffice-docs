@@ -27,7 +27,6 @@ references:
 - uid: SuperOffice.CRM.Sale.ErpSyncKeyFetcher
   commentId: T:SuperOffice.CRM.Sale.ErpSyncKeyFetcher
   isExternal: true
-  href: SuperOffice.CRM.Sale.ErpSyncKeyFetcher.html
   name: ErpSyncKeyFetcher
   nameWithType: ErpSyncKeyFetcher
   fullName: SuperOffice.CRM.Sale.ErpSyncKeyFetcher
@@ -35,7 +34,6 @@ references:
   commentId: T:SuperOffice.CRM.Sale.QuoteAlternativeRecalculatedHelper
   parent: SuperOffice.CRM.Sale
   isExternal: true
-  href: SuperOffice.CRM.Sale.QuoteAlternativeRecalculatedHelper.html
   name: QuoteAlternativeRecalculatedHelper
   nameWithType: QuoteAlternativeRecalculatedHelper
   fullName: SuperOffice.CRM.Sale.QuoteAlternativeRecalculatedHelper
@@ -43,28 +41,24 @@ references:
   commentId: T:SuperOffice.CRM.Sale.QuoteData
   parent: SuperOffice.CRM.Sale
   isExternal: true
-  href: SuperOffice.CRM.Sale.QuoteData.html
   name: QuoteData
   nameWithType: QuoteData
   fullName: SuperOffice.CRM.Sale.QuoteData
 - uid: SuperOffice.CRM.Sale.QuoteDocument
   commentId: T:SuperOffice.CRM.Sale.QuoteDocument
   isExternal: true
-  href: SuperOffice.CRM.Sale.QuoteDocument.html
   name: QuoteDocument
   nameWithType: QuoteDocument
   fullName: SuperOffice.CRM.Sale.QuoteDocument
 - uid: SuperOffice.CRM.Sale.QuoteDocumentData
   commentId: T:SuperOffice.CRM.Sale.QuoteDocumentData
   isExternal: true
-  href: SuperOffice.CRM.Sale.QuoteDocumentData.html
   name: QuoteDocumentData
   nameWithType: QuoteDocumentData
   fullName: SuperOffice.CRM.Sale.QuoteDocumentData
 - uid: SuperOffice.CRM.Sale.QuoteDocumentGenerator
   commentId: T:SuperOffice.CRM.Sale.QuoteDocumentGenerator
   isExternal: true
-  href: SuperOffice.CRM.Sale.QuoteDocumentGenerator.html
   name: QuoteDocumentGenerator
   nameWithType: QuoteDocumentGenerator
   fullName: SuperOffice.CRM.Sale.QuoteDocumentGenerator
@@ -72,7 +66,6 @@ references:
   commentId: T:SuperOffice.CRM.Sale.QuoteExtensions
   parent: SuperOffice.CRM.Sale
   isExternal: true
-  href: SuperOffice.CRM.Sale.QuoteExtensions.html
   name: QuoteExtensions
   nameWithType: QuoteExtensions
   fullName: SuperOffice.CRM.Sale.QuoteExtensions
@@ -80,7 +73,6 @@ references:
   commentId: T:SuperOffice.CRM.Sale.QuoteManager
   parent: SuperOffice.CRM.Sale
   isExternal: true
-  href: SuperOffice.CRM.Sale.QuoteManager.html
   name: QuoteManager
   nameWithType: QuoteManager
   fullName: SuperOffice.CRM.Sale.QuoteManager
@@ -88,51 +80,18 @@ references:
   commentId: T:SuperOffice.CRM.Sale.PluginResponseInfoWithChanges
   parent: SuperOffice.CRM.Sale
   isExternal: true
-  href: SuperOffice.CRM.Sale.PluginResponseInfoWithChanges.html
   name: PluginResponseInfoWithChanges
   nameWithType: PluginResponseInfoWithChanges
   fullName: SuperOffice.CRM.Sale.PluginResponseInfoWithChanges
 - uid: SuperOffice.CRM.Sale.QuoteVersionAttachmentManager
   commentId: T:SuperOffice.CRM.Sale.QuoteVersionAttachmentManager
   isExternal: true
-  href: SuperOffice.CRM.Sale.QuoteVersionAttachmentManager.html
   name: QuoteVersionAttachmentManager
   nameWithType: QuoteVersionAttachmentManager
   fullName: SuperOffice.CRM.Sale.QuoteVersionAttachmentManager
 - uid: SuperOffice.CRM.Sale
   commentId: N:SuperOffice.CRM.Sale
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Sale
   nameWithType: SuperOffice.CRM.Sale
   fullName: SuperOffice.CRM.Sale
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Sale
-    name: Sale
-    isExternal: true
-    href: SuperOffice.CRM.Sale.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Sale
-    name: Sale
-    isExternal: true
-    href: SuperOffice.CRM.Sale.html

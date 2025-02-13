@@ -8,6 +8,7 @@ items:
   - SuperOffice.WebApi.Data.QuoteStatus.Error
   - SuperOffice.WebApi.Data.QuoteStatus.Ok
   - SuperOffice.WebApi.Data.QuoteStatus.OkWithInfo
+  - SuperOffice.WebApi.Data.QuoteStatus.value__
   - SuperOffice.WebApi.Data.QuoteStatus.Warning
   langs:
   - csharp
@@ -15,18 +16,57 @@ items:
   name: QuoteStatus
   nameWithType: QuoteStatus
   fullName: SuperOffice.WebApi.Data.QuoteStatus
-  type: Enum
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    The state of a quote-alternative or line: Ok / OkWithInfo / Warn / Error
-
-    This Enum is used by:  QuoteVersion.Status; QuoteAlternative.Status; QuoteLine.Status
-  example: []
+  summary: "\nThe state of a quote-alternative or line: Ok / OkWithInfo / Warn / Error\nThis Enum is used by:  QuoteVersion.Status; QuoteAlternative.Status; QuoteLine.Status\n"
   syntax:
-    content: 'public enum QuoteStatus : short'
-    content.vb: Public Enum QuoteStatus As Short
+    content: 'public sealed class QuoteStatus : Enum'
+    content.vb: >-
+      Public NotInheritable Class QuoteStatus
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.QuoteStatus.value__
+  commentId: F:SuperOffice.WebApi.Data.QuoteStatus.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.QuoteStatus
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: QuoteStatus.value__
+  fullName: SuperOffice.WebApi.Data.QuoteStatus.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.QuoteStatus.Ok
   commentId: F:SuperOffice.WebApi.Data.QuoteStatus.Ok
   id: Ok
@@ -38,26 +78,24 @@ items:
   nameWithType: QuoteStatus.Ok
   fullName: SuperOffice.WebApi.Data.QuoteStatus.Ok
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '0: OK, all is good'
-  example: []
+  summary: "\n0: OK, all is good\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Ok = 0
+    content: public const QuoteStatus Ok
     return:
       type: SuperOffice.WebApi.Data.QuoteStatus
-    content.vb: >-
-      <EnumMember>
-
-      Ok = 0
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Ok As QuoteStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.QuoteStatus.OkWithInfo
   commentId: F:SuperOffice.WebApi.Data.QuoteStatus.OkWithInfo
   id: OkWithInfo
@@ -69,26 +107,24 @@ items:
   nameWithType: QuoteStatus.OkWithInfo
   fullName: SuperOffice.WebApi.Data.QuoteStatus.OkWithInfo
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '1: All is good, but there is some additional information that the user should be made aware of.'
-  example: []
+  summary: "\n1: All is good, but there is some additional information that the user should be made aware of.\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      OkWithInfo = 1
+    content: public const QuoteStatus OkWithInfo
     return:
       type: SuperOffice.WebApi.Data.QuoteStatus
-    content.vb: >-
-      <EnumMember>
-
-      OkWithInfo = 1
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const OkWithInfo As QuoteStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.QuoteStatus.Warning
   commentId: F:SuperOffice.WebApi.Data.QuoteStatus.Warning
   id: Warning
@@ -100,26 +136,24 @@ items:
   nameWithType: QuoteStatus.Warning
   fullName: SuperOffice.WebApi.Data.QuoteStatus.Warning
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '2: There is a problem that the user must be made aware of.'
-  example: []
+  summary: "\n2: There is a problem that the user must be made aware of.\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Warning = 2
+    content: public const QuoteStatus Warning
     return:
       type: SuperOffice.WebApi.Data.QuoteStatus
-    content.vb: >-
-      <EnumMember>
-
-      Warning = 2
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Warning As QuoteStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.QuoteStatus.Error
   commentId: F:SuperOffice.WebApi.Data.QuoteStatus.Error
   id: Error
@@ -131,69 +165,55 @@ items:
   nameWithType: QuoteStatus.Error
   fullName: SuperOffice.WebApi.Data.QuoteStatus.Error
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '3: There is a problem that the system will not be able to get around. The user needs to do something. Example: The user has registered a quoteline that is discountinued and the amount the user has registered is not in stock.'
-  example: []
+  summary: "\n3: There is a problem that the system will not be able to get around. The user needs to do something. Example: The user has registered a quoteline that is discountinued and the amount the user has registered is not in stock.\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Error = 3
+    content: public const QuoteStatus Error
     return:
       type: SuperOffice.WebApi.Data.QuoteStatus
-    content.vb: >-
-      <EnumMember>
-
-      Error = 3
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Error As QuoteStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.WebApi.Data.QuoteStatus
   commentId: T:SuperOffice.WebApi.Data.QuoteStatus
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.QuoteStatus.html
   name: QuoteStatus
   nameWithType: QuoteStatus
   fullName: SuperOffice.WebApi.Data.QuoteStatus

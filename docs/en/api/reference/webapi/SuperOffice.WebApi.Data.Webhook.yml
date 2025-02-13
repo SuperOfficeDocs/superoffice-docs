@@ -28,38 +28,31 @@ items:
   nameWithType: Webhook
   fullName: SuperOffice.WebApi.Data.Webhook
   type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Carrier object for Webhook.
-
-    Webhook definitions. Webhooks broadcast events from NetServer to remote servers.
+  summary: "\nCarrier object for Webhook.\nWebhook definitions. Webhooks broadcast events from NetServer to remote servers.    \n"
   example:
-  - >-
-    Get Webhook 123 using the WebApi client:
-
-    <pre><code class="lang-csharp">var configuration = new WebApiConfiguration(url);
-
-    var agent = new WebhookAgent(configuration);
-
-    var webhook = agent.GetWebhook( 123 );</code></pre>
+  - "\nGet Webhook 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new WebhookAgent(configuration);\nvar webhook = agent.GetWebhook( 123 );</code></pre>\n"
   syntax:
-    content: public class Webhook
-    content.vb: Public Class Webhook
+    content: 'public class Webhook : Object'
+    content.vb: >-
+      Public Class Webhook
+          Inherits Object
   seealso:
   - linkId: SuperOffice.WebApi.Agents.WebhookAgent
     commentId: T:SuperOffice.WebApi.Agents.WebhookAgent
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.WebApi.Data.Webhook.#ctor
   commentId: M:SuperOffice.WebApi.Data.Webhook.#ctor
   id: '#ctor'
@@ -71,18 +64,21 @@ items:
   nameWithType: Webhook.Webhook()
   fullName: SuperOffice.WebApi.Data.Webhook.Webhook()
   type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Default constructor - defaults any enum props to 0.
-  example: []
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
   syntax:
     content: public Webhook()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.WebApi.Data.Webhook.#ctor*
-  nameWithType.vb: Webhook.New()
-  fullName.vb: SuperOffice.WebApi.Data.Webhook.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.Webhook.WebhookId
   commentId: P:SuperOffice.WebApi.Data.Webhook.WebhookId
   id: WebhookId
@@ -94,11 +90,13 @@ items:
   nameWithType: Webhook.WebhookId
   fullName: SuperOffice.WebApi.Data.Webhook.WebhookId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Primary Key. Unique id for this webhook.
-  example: []
+  summary: "\nPrimary Key. Unique id for this webhook.\n"
   syntax:
     content: public virtual int WebhookId { get; set; }
     parameters: []
@@ -106,6 +104,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property WebhookId As Integer
   overload: SuperOffice.WebApi.Data.Webhook.WebhookId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Webhook.Name
   commentId: P:SuperOffice.WebApi.Data.Webhook.Name
   id: Name
@@ -117,11 +123,13 @@ items:
   nameWithType: Webhook.Name
   fullName: SuperOffice.WebApi.Data.Webhook.Name
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Name to identify this webhook. Does not have to be unique.
-  example: []
+  summary: "\nName to identify this webhook. Does not have to be unique.\n"
   syntax:
     content: public virtual string Name { get; set; }
     parameters: []
@@ -129,6 +137,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property Name As String
   overload: SuperOffice.WebApi.Data.Webhook.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Webhook.Events
   commentId: P:SuperOffice.WebApi.Data.Webhook.Events
   id: Events
@@ -140,11 +156,13 @@ items:
   nameWithType: Webhook.Events
   fullName: SuperOffice.WebApi.Data.Webhook.Events
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "Array of event names that trigger this webhook: ['contact.created', 'sale.changed']"
-  example: []
+  summary: "\nArray of event names that trigger this webhook: [&apos;contact.created&apos;, &apos;sale.changed&apos;] \n"
   syntax:
     content: public virtual string[] Events { get; set; }
     parameters: []
@@ -152,6 +170,14 @@ items:
       type: System.String[]
     content.vb: Public Overridable Property Events As String()
   overload: SuperOffice.WebApi.Data.Webhook.Events*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Webhook.TargetUrl
   commentId: P:SuperOffice.WebApi.Data.Webhook.TargetUrl
   id: TargetUrl
@@ -163,11 +189,13 @@ items:
   nameWithType: Webhook.TargetUrl
   fullName: SuperOffice.WebApi.Data.Webhook.TargetUrl
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Destination to POST event info to. URL for webhooks. Id for CRM scripts
-  example: []
+  summary: "\nDestination to POST event info to. URL for webhooks. Id for CRM scripts\n"
   syntax:
     content: public virtual string TargetUrl { get; set; }
     parameters: []
@@ -175,6 +203,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property TargetUrl As String
   overload: SuperOffice.WebApi.Data.Webhook.TargetUrl*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Webhook.Secret
   commentId: P:SuperOffice.WebApi.Data.Webhook.Secret
   id: Secret
@@ -186,11 +222,13 @@ items:
   nameWithType: Webhook.Secret
   fullName: SuperOffice.WebApi.Data.Webhook.Secret
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Shared secret key used for generating SHA256 HMAC signature, so that receiver can verify that call came from this server
-  example: []
+  summary: "\nShared secret key used for generating SHA256 HMAC signature, so that receiver can verify that call came from this server\n"
   syntax:
     content: public virtual string Secret { get; set; }
     parameters: []
@@ -198,6 +236,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property Secret As String
   overload: SuperOffice.WebApi.Data.Webhook.Secret*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Webhook.State_String
   commentId: P:SuperOffice.WebApi.Data.Webhook.State_String
   id: State_String
@@ -209,36 +255,29 @@ items:
   nameWithType: Webhook.State_String
   fullName: SuperOffice.WebApi.Data.Webhook.State_String
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Webhook status - should we post events to the URL? 1=Active, 2=Stopped or 3=TooManyErrors
-
-    Raw string enum value.
-  example: []
+  summary: "\nWebhook status - should we post events to the URL? 1=Active, 2=Stopped or 3=TooManyErrors\nRaw string enum value.\n"
   syntax:
-    content: >-
-      [JsonProperty("State")]
-
-      public string State_String { get; set; }
+    content: public string State_String { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <JsonProperty("State")>
-
-      Public Property State_String As String
+    content.vb: Public Property State_String As String
   overload: SuperOffice.WebApi.Data.Webhook.State_String*
   seealso:
   - linkId: SuperOffice.WebApi.Data.Webhook.State
     commentId: P:SuperOffice.WebApi.Data.Webhook.State
-  attributes:
-  - type: Newtonsoft.Json.JsonPropertyAttribute
-    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: State
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.Webhook.State
   commentId: P:SuperOffice.WebApi.Data.Webhook.State
   id: State
@@ -250,34 +289,29 @@ items:
   nameWithType: Webhook.State
   fullName: SuperOffice.WebApi.Data.Webhook.State
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Webhook status - should we post events to the URL? 1=Active, 2=Stopped or 3=TooManyErrors
-
-    NULL if unknown enum value.
-  example: []
+  summary: "\nWebhook status - should we post events to the URL? 1=Active, 2=Stopped or 3=TooManyErrors\nNULL if unknown enum value.\n"
   syntax:
-    content: >-
-      [JsonIgnore]
-
-      public WebhookState? State { get; set; }
+    content: public Nullable<WebhookState> State { get; set; }
     parameters: []
     return:
       type: System.Nullable{SuperOffice.WebApi.Data.WebhookState}
-    content.vb: >-
-      <JsonIgnore>
-
-      Public Property State As WebhookState?
+    content.vb: Public Property State As Nullable(Of WebhookState)
   overload: SuperOffice.WebApi.Data.Webhook.State*
   seealso:
   - linkId: SuperOffice.WebApi.Data.Webhook.State_String
     commentId: P:SuperOffice.WebApi.Data.Webhook.State_String
-  attributes:
-  - type: Newtonsoft.Json.JsonIgnoreAttribute
-    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.Webhook.Type
   commentId: P:SuperOffice.WebApi.Data.Webhook.Type
   id: Type
@@ -289,11 +323,13 @@ items:
   nameWithType: Webhook.Type
   fullName: SuperOffice.WebApi.Data.Webhook.Type
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Name of plugin that handles this webhook. 'webhook' for HTTP POST notifications, 'crmscript' for script invocations.
-  example: []
+  summary: "\nName of plugin that handles this webhook. &apos;webhook&apos; for HTTP POST notifications, &apos;crmscript&apos; for script invocations.\n"
   syntax:
     content: public virtual string Type { get; set; }
     parameters: []
@@ -301,6 +337,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property Type As String
   overload: SuperOffice.WebApi.Data.Webhook.Type*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Webhook.Headers
   commentId: P:SuperOffice.WebApi.Data.Webhook.Headers
   id: Headers
@@ -312,11 +356,13 @@ items:
   nameWithType: Webhook.Headers
   fullName: SuperOffice.WebApi.Data.Webhook.Headers
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Custom HTTP Headers to add to webhook requests.
-  example: []
+  summary: "\nCustom HTTP Headers to add to webhook requests.\n"
   syntax:
     content: public virtual StringDictionary Headers { get; set; }
     parameters: []
@@ -324,6 +370,14 @@ items:
       type: SuperOffice.WebApi.Data.StringDictionary
     content.vb: Public Overridable Property Headers As StringDictionary
   overload: SuperOffice.WebApi.Data.Webhook.Headers*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Webhook.Properties
   commentId: P:SuperOffice.WebApi.Data.Webhook.Properties
   id: Properties
@@ -335,11 +389,13 @@ items:
   nameWithType: Webhook.Properties
   fullName: SuperOffice.WebApi.Data.Webhook.Properties
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Custom values to inject into JSON body of webhook call.
-  example: []
+  summary: "\nCustom values to inject into JSON body of webhook call.\n"
   syntax:
     content: public virtual StringObjectDictionary Properties { get; set; }
     parameters: []
@@ -347,6 +403,14 @@ items:
       type: SuperOffice.WebApi.Data.StringObjectDictionary
     content.vb: Public Overridable Property Properties As StringObjectDictionary
   overload: SuperOffice.WebApi.Data.Webhook.Properties*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Webhook.Registered
   commentId: P:SuperOffice.WebApi.Data.Webhook.Registered
   id: Registered
@@ -358,18 +422,28 @@ items:
   nameWithType: Webhook.Registered
   fullName: SuperOffice.WebApi.Data.Webhook.Registered
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Registered when
-  example: []
+  summary: "\nRegistered when\n"
   syntax:
     content: public virtual DateTime Registered { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property Registered As Date
+    content.vb: Public Overridable Property Registered As DateTime
   overload: SuperOffice.WebApi.Data.Webhook.Registered*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Webhook.RegisteredAssociate
   commentId: P:SuperOffice.WebApi.Data.Webhook.RegisteredAssociate
   id: RegisteredAssociate
@@ -381,11 +455,13 @@ items:
   nameWithType: Webhook.RegisteredAssociate
   fullName: SuperOffice.WebApi.Data.Webhook.RegisteredAssociate
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The user that created the webhook.
-  example: []
+  summary: "\nThe user that created the webhook.\n"
   syntax:
     content: public virtual Associate RegisteredAssociate { get; set; }
     parameters: []
@@ -393,6 +469,14 @@ items:
       type: SuperOffice.WebApi.Data.Associate
     content.vb: Public Overridable Property RegisteredAssociate As Associate
   overload: SuperOffice.WebApi.Data.Webhook.RegisteredAssociate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Webhook.Updated
   commentId: P:SuperOffice.WebApi.Data.Webhook.Updated
   id: Updated
@@ -404,18 +488,28 @@ items:
   nameWithType: Webhook.Updated
   fullName: SuperOffice.WebApi.Data.Webhook.Updated
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Last updated when
-  example: []
+  summary: "\nLast updated when\n"
   syntax:
     content: public virtual DateTime Updated { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property Updated As Date
+    content.vb: Public Overridable Property Updated As DateTime
   overload: SuperOffice.WebApi.Data.Webhook.Updated*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Webhook.UpdatedAssociate
   commentId: P:SuperOffice.WebApi.Data.Webhook.UpdatedAssociate
   id: UpdatedAssociate
@@ -427,11 +521,13 @@ items:
   nameWithType: Webhook.UpdatedAssociate
   fullName: SuperOffice.WebApi.Data.Webhook.UpdatedAssociate
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The user that last updated the webhook.
-  example: []
+  summary: "\nThe user that last updated the webhook.\n"
   syntax:
     content: public virtual Associate UpdatedAssociate { get; set; }
     parameters: []
@@ -439,6 +535,14 @@ items:
       type: SuperOffice.WebApi.Data.Associate
     content.vb: Public Overridable Property UpdatedAssociate As Associate
   overload: SuperOffice.WebApi.Data.Webhook.UpdatedAssociate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Webhook.ErrorsEmail
   commentId: P:SuperOffice.WebApi.Data.Webhook.ErrorsEmail
   id: ErrorsEmail
@@ -450,11 +554,13 @@ items:
   nameWithType: Webhook.ErrorsEmail
   fullName: SuperOffice.WebApi.Data.Webhook.ErrorsEmail
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Email address to send error message to when this webhook state changes to too-many errors.
-  example: []
+  summary: "\nEmail address to send error message to when this webhook state changes to too-many errors.\n"
   syntax:
     content: public virtual string ErrorsEmail { get; set; }
     parameters: []
@@ -462,302 +568,49 @@ items:
       type: System.String
     content.vb: Public Overridable Property ErrorsEmail As String
   overload: SuperOffice.WebApi.Data.Webhook.ErrorsEmail*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
-- uid: SuperOffice.WebApi.Agents.WebhookAgent
-  commentId: T:SuperOffice.WebApi.Agents.WebhookAgent
-  isExternal: true
-  href: SuperOffice.WebApi.Agents.WebhookAgent.html
-  name: WebhookAgent
-  nameWithType: WebhookAgent
-  fullName: SuperOffice.WebApi.Agents.WebhookAgent
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Agents.WebhookAgent
+  commentId: T:SuperOffice.WebApi.Agents.WebhookAgent
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: WebhookAgent
+  nameWithType: WebhookAgent
+  fullName: SuperOffice.WebApi.Agents.WebhookAgent
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Data.Webhook.#ctor*
   commentId: Overload:SuperOffice.WebApi.Data.Webhook.#ctor
   isExternal: true
-  href: SuperOffice.WebApi.Data.Webhook.html#SuperOffice_WebApi_Data_Webhook__ctor
   name: Webhook
   nameWithType: Webhook.Webhook
   fullName: SuperOffice.WebApi.Data.Webhook.Webhook
-  nameWithType.vb: Webhook.New
-  fullName.vb: SuperOffice.WebApi.Data.Webhook.New
-  name.vb: New
 - uid: SuperOffice.WebApi.Data.Webhook.WebhookId*
   commentId: Overload:SuperOffice.WebApi.Data.Webhook.WebhookId
   isExternal: true
-  href: SuperOffice.WebApi.Data.Webhook.html#SuperOffice_WebApi_Data_Webhook_WebhookId
   name: WebhookId
   nameWithType: Webhook.WebhookId
   fullName: SuperOffice.WebApi.Data.Webhook.WebhookId
@@ -765,17 +618,12 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.WebApi.Data.Webhook.Name*
   commentId: Overload:SuperOffice.WebApi.Data.Webhook.Name
   isExternal: true
-  href: SuperOffice.WebApi.Data.Webhook.html#SuperOffice_WebApi_Data_Webhook_Name
   name: Name
   nameWithType: Webhook.Name
   fullName: SuperOffice.WebApi.Data.Webhook.Name
@@ -783,144 +631,161 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.WebApi.Data.Webhook.Events*
   commentId: Overload:SuperOffice.WebApi.Data.Webhook.Events
   isExternal: true
-  href: SuperOffice.WebApi.Data.Webhook.html#SuperOffice_WebApi_Data_Webhook_Events
   name: Events
   nameWithType: Webhook.Events
   fullName: SuperOffice.WebApi.Data.Webhook.Events
 - uid: System.String[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string[]
-  nameWithType: string[]
-  fullName: string[]
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
   nameWithType.vb: String()
-  fullName.vb: String()
+  fullName.vb: System.String()
   name.vb: String()
   spec.csharp:
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.WebApi.Data.Webhook.TargetUrl*
   commentId: Overload:SuperOffice.WebApi.Data.Webhook.TargetUrl
   isExternal: true
-  href: SuperOffice.WebApi.Data.Webhook.html#SuperOffice_WebApi_Data_Webhook_TargetUrl
   name: TargetUrl
   nameWithType: Webhook.TargetUrl
   fullName: SuperOffice.WebApi.Data.Webhook.TargetUrl
 - uid: SuperOffice.WebApi.Data.Webhook.Secret*
   commentId: Overload:SuperOffice.WebApi.Data.Webhook.Secret
   isExternal: true
-  href: SuperOffice.WebApi.Data.Webhook.html#SuperOffice_WebApi_Data_Webhook_Secret
   name: Secret
   nameWithType: Webhook.Secret
   fullName: SuperOffice.WebApi.Data.Webhook.Secret
-- uid: SuperOffice.WebApi.Data.Webhook.State
-  commentId: P:SuperOffice.WebApi.Data.Webhook.State
-  isExternal: true
-  href: SuperOffice.WebApi.Data.Webhook.html#SuperOffice_WebApi_Data_Webhook_State
-  name: State
-  nameWithType: Webhook.State
-  fullName: SuperOffice.WebApi.Data.Webhook.State
 - uid: SuperOffice.WebApi.Data.Webhook.State_String*
   commentId: Overload:SuperOffice.WebApi.Data.Webhook.State_String
   isExternal: true
-  href: SuperOffice.WebApi.Data.Webhook.html#SuperOffice_WebApi_Data_Webhook_State_String
   name: State_String
   nameWithType: Webhook.State_String
   fullName: SuperOffice.WebApi.Data.Webhook.State_String
-- uid: SuperOffice.WebApi.Data.Webhook.State_String
-  commentId: P:SuperOffice.WebApi.Data.Webhook.State_String
+- uid: SuperOffice.WebApi.Data.Webhook.State
+  commentId: P:SuperOffice.WebApi.Data.Webhook.State
   isExternal: true
-  href: SuperOffice.WebApi.Data.Webhook.html#SuperOffice_WebApi_Data_Webhook_State_String
-  name: State_String
-  nameWithType: Webhook.State_String
-  fullName: SuperOffice.WebApi.Data.Webhook.State_String
 - uid: SuperOffice.WebApi.Data.Webhook.State*
   commentId: Overload:SuperOffice.WebApi.Data.Webhook.State
   isExternal: true
-  href: SuperOffice.WebApi.Data.Webhook.html#SuperOffice_WebApi_Data_Webhook_State
   name: State
   nameWithType: Webhook.State
   fullName: SuperOffice.WebApi.Data.Webhook.State
-- uid: System.Nullable{SuperOffice.WebApi.Data.WebhookState}
-  commentId: T:System.Nullable{SuperOffice.WebApi.Data.WebhookState}
-  parent: System
-  definition: System.Nullable`1
-  href: SuperOffice.WebApi.Data.WebhookState.html
-  name: WebhookState?
-  nameWithType: WebhookState?
-  fullName: SuperOffice.WebApi.Data.WebhookState?
-  spec.csharp:
-  - uid: SuperOffice.WebApi.Data.WebhookState
-    name: WebhookState
-    isExternal: true
-    href: SuperOffice.WebApi.Data.WebhookState.html
-  - name: '?'
-  spec.vb:
-  - uid: SuperOffice.WebApi.Data.WebhookState
-    name: WebhookState
-    isExternal: true
-    href: SuperOffice.WebApi.Data.WebhookState.html
-  - name: '?'
-- uid: System.Nullable`1
-  commentId: T:System.Nullable`1
+- uid: SuperOffice.WebApi.Data.Webhook.State_String
+  commentId: P:SuperOffice.WebApi.Data.Webhook.State_String
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
-  name: Nullable<T>
-  nameWithType: Nullable<T>
-  fullName: System.Nullable<T>
-  nameWithType.vb: Nullable(Of T)
-  fullName.vb: System.Nullable(Of T)
-  name.vb: Nullable(Of T)
+- uid: System.Nullable{SuperOffice.WebApi.Data.WebhookState}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.WebhookState}'
+  definition: System.Nullable`1
+  name: Nullable<WebhookState>
+  nameWithType: Nullable<WebhookState>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.WebhookState>
+  nameWithType.vb: Nullable(Of WebhookState)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.WebhookState)
+  name.vb: Nullable(Of WebhookState)
   spec.csharp:
   - uid: System.Nullable`1
     name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
   - name: <
-  - name: T
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.WebhookState
+    name: WebhookState
+    nameWithType: WebhookState
+    fullName: SuperOffice.WebApi.Data.WebhookState
+    isExternal: true
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Nullable`1
     name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.WebhookState
+    name: WebhookState
+    nameWithType: WebhookState
+    fullName: SuperOffice.WebApi.Data.WebhookState
+    isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Data.Webhook.Type*
   commentId: Overload:SuperOffice.WebApi.Data.Webhook.Type
   isExternal: true
-  href: SuperOffice.WebApi.Data.Webhook.html#SuperOffice_WebApi_Data_Webhook_Type
   name: Type
   nameWithType: Webhook.Type
   fullName: SuperOffice.WebApi.Data.Webhook.Type
 - uid: SuperOffice.WebApi.Data.Webhook.Headers*
   commentId: Overload:SuperOffice.WebApi.Data.Webhook.Headers
   isExternal: true
-  href: SuperOffice.WebApi.Data.Webhook.html#SuperOffice_WebApi_Data_Webhook_Headers
   name: Headers
   nameWithType: Webhook.Headers
   fullName: SuperOffice.WebApi.Data.Webhook.Headers
@@ -928,14 +793,12 @@ references:
   commentId: T:SuperOffice.WebApi.Data.StringDictionary
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.StringDictionary.html
   name: StringDictionary
   nameWithType: StringDictionary
   fullName: SuperOffice.WebApi.Data.StringDictionary
 - uid: SuperOffice.WebApi.Data.Webhook.Properties*
   commentId: Overload:SuperOffice.WebApi.Data.Webhook.Properties
   isExternal: true
-  href: SuperOffice.WebApi.Data.Webhook.html#SuperOffice_WebApi_Data_Webhook_Properties
   name: Properties
   nameWithType: Webhook.Properties
   fullName: SuperOffice.WebApi.Data.Webhook.Properties
@@ -943,32 +806,23 @@ references:
   commentId: T:SuperOffice.WebApi.Data.StringObjectDictionary
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.StringObjectDictionary.html
   name: StringObjectDictionary
   nameWithType: StringObjectDictionary
   fullName: SuperOffice.WebApi.Data.StringObjectDictionary
 - uid: SuperOffice.WebApi.Data.Webhook.Registered*
   commentId: Overload:SuperOffice.WebApi.Data.Webhook.Registered
   isExternal: true
-  href: SuperOffice.WebApi.Data.Webhook.html#SuperOffice_WebApi_Data_Webhook_Registered
   name: Registered
   nameWithType: Webhook.Registered
   fullName: SuperOffice.WebApi.Data.Webhook.Registered
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
 - uid: SuperOffice.WebApi.Data.Webhook.RegisteredAssociate*
   commentId: Overload:SuperOffice.WebApi.Data.Webhook.RegisteredAssociate
   isExternal: true
-  href: SuperOffice.WebApi.Data.Webhook.html#SuperOffice_WebApi_Data_Webhook_RegisteredAssociate
   name: RegisteredAssociate
   nameWithType: Webhook.RegisteredAssociate
   fullName: SuperOffice.WebApi.Data.Webhook.RegisteredAssociate
@@ -976,28 +830,24 @@ references:
   commentId: T:SuperOffice.WebApi.Data.Associate
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.Associate.html
   name: Associate
   nameWithType: Associate
   fullName: SuperOffice.WebApi.Data.Associate
 - uid: SuperOffice.WebApi.Data.Webhook.Updated*
   commentId: Overload:SuperOffice.WebApi.Data.Webhook.Updated
   isExternal: true
-  href: SuperOffice.WebApi.Data.Webhook.html#SuperOffice_WebApi_Data_Webhook_Updated
   name: Updated
   nameWithType: Webhook.Updated
   fullName: SuperOffice.WebApi.Data.Webhook.Updated
 - uid: SuperOffice.WebApi.Data.Webhook.UpdatedAssociate*
   commentId: Overload:SuperOffice.WebApi.Data.Webhook.UpdatedAssociate
   isExternal: true
-  href: SuperOffice.WebApi.Data.Webhook.html#SuperOffice_WebApi_Data_Webhook_UpdatedAssociate
   name: UpdatedAssociate
   nameWithType: Webhook.UpdatedAssociate
   fullName: SuperOffice.WebApi.Data.Webhook.UpdatedAssociate
 - uid: SuperOffice.WebApi.Data.Webhook.ErrorsEmail*
   commentId: Overload:SuperOffice.WebApi.Data.Webhook.ErrorsEmail
   isExternal: true
-  href: SuperOffice.WebApi.Data.Webhook.html#SuperOffice_WebApi_Data_Webhook_ErrorsEmail
   name: ErrorsEmail
   nameWithType: Webhook.ErrorsEmail
   fullName: SuperOffice.WebApi.Data.Webhook.ErrorsEmail

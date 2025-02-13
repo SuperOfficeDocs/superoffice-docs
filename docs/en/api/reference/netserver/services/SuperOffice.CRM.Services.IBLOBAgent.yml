@@ -48,28 +48,15 @@ items:
   nameWithType: IBLOBAgent
   fullName: SuperOffice.CRM.Services.IBLOBAgent
   type: Interface
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Interface for the BLOB Agent
-
-    Collection of all services that works with binary objects (BLOBS), e.g. Images and documents.
+  summary: "\nInterface for the BLOB Agent\nCollection of all services that works with binary objects (BLOBS), e.g. Images and documents.\n"
   example:
-  - >-
-    <pre><code class="lang-csharp">using SuperOffice;
-
-    using SuperOffice.CRM.Services;
-
-
-    using (SoSession mySession = SoSession.Authenticate("user", "pass"))
-
-    {
-       using (BLOBAgent agent = new BLOBAgent())
-       {
-          // call methods on agent here...
-       }
-    }</code></pre>
+  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (BLOBAgent agent = new BLOBAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
   syntax:
     content: >-
       [Agent("BLOB Agent", "Interface for the BLOB Agent. Collection of all services that works with binary objects (BLOBS), e.g. Images and documents.")]
@@ -78,7 +65,8 @@ items:
     content.vb: >-
       <Agent("BLOB Agent", "Interface for the BLOB Agent. Collection of all services that works with binary objects (BLOBS), e.g. Images and documents.")>
 
-      Public Interface IBLOBAgent Inherits IAgent
+      Public Interface IBLOBAgent
+          Inherits IAgent
   attributes:
   - type: SuperOffice.CRM.Services.Reflection.AgentAttribute
     ctor: SuperOffice.CRM.Services.Reflection.AgentAttribute.#ctor(System.String,System.String)
@@ -87,6 +75,12 @@ items:
       value: BLOB Agent
     - type: System.String
       value: Interface for the BLOB Agent. Collection of all services that works with binary objects (BLOBS), e.g. Images and documents.
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
 - uid: SuperOffice.CRM.Services.IBLOBAgent.CreateDefaultBlobEntity
   commentId: M:SuperOffice.CRM.Services.IBLOBAgent.CreateDefaultBlobEntity
   id: CreateDefaultBlobEntity
@@ -98,20 +92,19 @@ items:
   nameWithType: IBLOBAgent.CreateDefaultBlobEntity()
   fullName: SuperOffice.CRM.Services.IBLOBAgent.CreateDefaultBlobEntity()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new BlobEntity.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-  example: []
+  summary: "\nLoading default values into a new BlobEntity.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
   syntax:
     content: BlobEntity CreateDefaultBlobEntity()
     return:
       type: SuperOffice.CRM.Services.BlobEntity
       description: New BlobEntity with default values
-    content.vb: Function CreateDefaultBlobEntity() As BlobEntity
+    content.vb: Function CreateDefaultBlobEntity As BlobEntity
   overload: SuperOffice.CRM.Services.IBLOBAgent.CreateDefaultBlobEntity*
 - uid: SuperOffice.CRM.Services.IBLOBAgent.SaveBlobEntity(SuperOffice.CRM.Services.BlobEntity)
   commentId: M:SuperOffice.CRM.Services.IBLOBAgent.SaveBlobEntity(SuperOffice.CRM.Services.BlobEntity)
@@ -124,11 +117,13 @@ items:
   nameWithType: IBLOBAgent.SaveBlobEntity(BlobEntity)
   fullName: SuperOffice.CRM.Services.IBLOBAgent.SaveBlobEntity(SuperOffice.CRM.Services.BlobEntity)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Updates the existing BlobEntity or creates a new BlobEntity if the id parameter is empty
-  example: []
+  summary: "\nUpdates the existing BlobEntity or creates a new BlobEntity if the id parameter is empty\n"
   syntax:
     content: BlobEntity SaveBlobEntity(BlobEntity blobEntity)
     parameters:
@@ -147,15 +142,17 @@ items:
   langs:
   - csharp
   - vb
-  name: DeleteBlobEntity(int)
-  nameWithType: IBLOBAgent.DeleteBlobEntity(int)
-  fullName: SuperOffice.CRM.Services.IBLOBAgent.DeleteBlobEntity(int)
+  name: DeleteBlobEntity(Int32)
+  nameWithType: IBLOBAgent.DeleteBlobEntity(Int32)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.DeleteBlobEntity(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Deletes the BlobEntity
-  example: []
+  summary: "\nDeletes the BlobEntity\n"
   syntax:
     content: void DeleteBlobEntity(int blobEntityId)
     parameters:
@@ -164,9 +161,6 @@ items:
       description: The identity of the BlobEntity
     content.vb: Sub DeleteBlobEntity(blobEntityId As Integer)
   overload: SuperOffice.CRM.Services.IBLOBAgent.DeleteBlobEntity*
-  nameWithType.vb: IBLOBAgent.DeleteBlobEntity(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IBLOBAgent.DeleteBlobEntity(Integer)
-  name.vb: DeleteBlobEntity(Integer)
 - uid: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntity(System.Int32)
   commentId: M:SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntity(System.Int32)
   id: GetBlobEntity(System.Int32)
@@ -174,15 +168,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetBlobEntity(int)
-  nameWithType: IBLOBAgent.GetBlobEntity(int)
-  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntity(int)
+  name: GetBlobEntity(Int32)
+  nameWithType: IBLOBAgent.GetBlobEntity(Int32)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntity(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Gets a BlobEntity object.
-  example: []
+  summary: "\nGets a BlobEntity object.                        \n"
   syntax:
     content: BlobEntity GetBlobEntity(int blobEntityId)
     parameters:
@@ -194,9 +190,6 @@ items:
       description: BlobEntity
     content.vb: Function GetBlobEntity(blobEntityId As Integer) As BlobEntity
   overload: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntity*
-  nameWithType.vb: IBLOBAgent.GetBlobEntity(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntity(Integer)
-  name.vb: GetBlobEntity(Integer)
 - uid: SuperOffice.CRM.Services.IBLOBAgent.SetBlobStream(System.Int32,System.IO.Stream)
   commentId: M:SuperOffice.CRM.Services.IBLOBAgent.SetBlobStream(System.Int32,System.IO.Stream)
   id: SetBlobStream(System.Int32,System.IO.Stream)
@@ -204,15 +197,17 @@ items:
   langs:
   - csharp
   - vb
-  name: SetBlobStream(int, Stream)
-  nameWithType: IBLOBAgent.SetBlobStream(int, Stream)
-  fullName: SuperOffice.CRM.Services.IBLOBAgent.SetBlobStream(int, System.IO.Stream)
+  name: SetBlobStream(Int32, Stream)
+  nameWithType: IBLOBAgent.SetBlobStream(Int32, Stream)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.SetBlobStream(System.Int32, System.IO.Stream)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Store a binary object from it's stream
-  example: []
+  summary: "\nStore a binary object from it&apos;s stream\n"
   syntax:
     content: void SetBlobStream(int blobEntityId, Stream stream)
     parameters:
@@ -224,9 +219,6 @@ items:
       description: The binary object as a Stream
     content.vb: Sub SetBlobStream(blobEntityId As Integer, stream As Stream)
   overload: SuperOffice.CRM.Services.IBLOBAgent.SetBlobStream*
-  nameWithType.vb: IBLOBAgent.SetBlobStream(Integer, Stream)
-  fullName.vb: SuperOffice.CRM.Services.IBLOBAgent.SetBlobStream(Integer, System.IO.Stream)
-  name.vb: SetBlobStream(Integer, Stream)
 - uid: SuperOffice.CRM.Services.IBLOBAgent.GetBlobStream(System.Int32)
   commentId: M:SuperOffice.CRM.Services.IBLOBAgent.GetBlobStream(System.Int32)
   id: GetBlobStream(System.Int32)
@@ -234,15 +226,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetBlobStream(int)
-  nameWithType: IBLOBAgent.GetBlobStream(int)
-  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetBlobStream(int)
+  name: GetBlobStream(Int32)
+  nameWithType: IBLOBAgent.GetBlobStream(Int32)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetBlobStream(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Get the binary object as a stream
-  example: []
+  summary: "\nGet the binary object as a stream\n"
   syntax:
     content: Stream GetBlobStream(int blobEntityId)
     parameters:
@@ -254,9 +248,6 @@ items:
       description: The binary object as a Stream
     content.vb: Function GetBlobStream(blobEntityId As Integer) As Stream
   overload: SuperOffice.CRM.Services.IBLOBAgent.GetBlobStream*
-  nameWithType.vb: IBLOBAgent.GetBlobStream(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IBLOBAgent.GetBlobStream(Integer)
-  name.vb: GetBlobStream(Integer)
 - uid: SuperOffice.CRM.Services.IBLOBAgent.GetProjectImage(System.Int32)
   commentId: M:SuperOffice.CRM.Services.IBLOBAgent.GetProjectImage(System.Int32)
   id: GetProjectImage(System.Int32)
@@ -264,15 +255,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetProjectImage(int)
-  nameWithType: IBLOBAgent.GetProjectImage(int)
-  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetProjectImage(int)
+  name: GetProjectImage(Int32)
+  nameWithType: IBLOBAgent.GetProjectImage(Int32)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetProjectImage(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the project image that is displayed in the CRM application.
-  example: []
+  summary: "\nReturns the project image that is displayed in the CRM application.\n"
   syntax:
     content: Image GetProjectImage(int projectId)
     parameters:
@@ -284,9 +277,6 @@ items:
       description: The image as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a Base64 encoded string.)
     content.vb: Function GetProjectImage(projectId As Integer) As Image
   overload: SuperOffice.CRM.Services.IBLOBAgent.GetProjectImage*
-  nameWithType.vb: IBLOBAgent.GetProjectImage(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IBLOBAgent.GetProjectImage(Integer)
-  name.vb: GetProjectImage(Integer)
 - uid: SuperOffice.CRM.Services.IBLOBAgent.GetPersonImage(System.Int32)
   commentId: M:SuperOffice.CRM.Services.IBLOBAgent.GetPersonImage(System.Int32)
   id: GetPersonImage(System.Int32)
@@ -294,15 +284,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetPersonImage(int)
-  nameWithType: IBLOBAgent.GetPersonImage(int)
-  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetPersonImage(int)
+  name: GetPersonImage(Int32)
+  nameWithType: IBLOBAgent.GetPersonImage(Int32)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetPersonImage(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the person image that is displayed in the CRM application.
-  example: []
+  summary: "\nReturns the person image that is displayed in the CRM application.\n"
   syntax:
     content: Image GetPersonImage(int personId)
     parameters:
@@ -314,9 +306,6 @@ items:
       description: The image as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a Base64 encoded string.)
     content.vb: Function GetPersonImage(personId As Integer) As Image
   overload: SuperOffice.CRM.Services.IBLOBAgent.GetPersonImage*
-  nameWithType.vb: IBLOBAgent.GetPersonImage(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IBLOBAgent.GetPersonImage(Integer)
-  name.vb: GetPersonImage(Integer)
 - uid: SuperOffice.CRM.Services.IBLOBAgent.SetProjectImage(System.Int32,System.Drawing.Image)
   commentId: M:SuperOffice.CRM.Services.IBLOBAgent.SetProjectImage(System.Int32,System.Drawing.Image)
   id: SetProjectImage(System.Int32,System.Drawing.Image)
@@ -324,15 +313,17 @@ items:
   langs:
   - csharp
   - vb
-  name: SetProjectImage(int, Image)
-  nameWithType: IBLOBAgent.SetProjectImage(int, Image)
-  fullName: SuperOffice.CRM.Services.IBLOBAgent.SetProjectImage(int, System.Drawing.Image)
+  name: SetProjectImage(Int32, Image)
+  nameWithType: IBLOBAgent.SetProjectImage(Int32, Image)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.SetProjectImage(System.Int32, System.Drawing.Image)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Stores the project image that is displayed in the CRM application.
-  example: []
+  summary: "\nStores the project image that is displayed in the CRM application.\n"
   syntax:
     content: void SetProjectImage(int projectId, Image image)
     parameters:
@@ -344,9 +335,6 @@ items:
       description: The image that is stored on the project (System.Drawing.Image)
     content.vb: Sub SetProjectImage(projectId As Integer, image As Image)
   overload: SuperOffice.CRM.Services.IBLOBAgent.SetProjectImage*
-  nameWithType.vb: IBLOBAgent.SetProjectImage(Integer, Image)
-  fullName.vb: SuperOffice.CRM.Services.IBLOBAgent.SetProjectImage(Integer, System.Drawing.Image)
-  name.vb: SetProjectImage(Integer, Image)
 - uid: SuperOffice.CRM.Services.IBLOBAgent.SetPersonImage(System.Int32,System.Drawing.Image)
   commentId: M:SuperOffice.CRM.Services.IBLOBAgent.SetPersonImage(System.Int32,System.Drawing.Image)
   id: SetPersonImage(System.Int32,System.Drawing.Image)
@@ -354,15 +342,17 @@ items:
   langs:
   - csharp
   - vb
-  name: SetPersonImage(int, Image)
-  nameWithType: IBLOBAgent.SetPersonImage(int, Image)
-  fullName: SuperOffice.CRM.Services.IBLOBAgent.SetPersonImage(int, System.Drawing.Image)
+  name: SetPersonImage(Int32, Image)
+  nameWithType: IBLOBAgent.SetPersonImage(Int32, Image)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.SetPersonImage(System.Int32, System.Drawing.Image)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Stores the person image that is displayed in the CRM application.
-  example: []
+  summary: "\nStores the person image that is displayed in the CRM application.\n"
   syntax:
     content: void SetPersonImage(int personId, Image image)
     parameters:
@@ -374,9 +364,6 @@ items:
       description: The image that is stored on the person (System.Drawing.Image)
     content.vb: Sub SetPersonImage(personId As Integer, image As Image)
   overload: SuperOffice.CRM.Services.IBLOBAgent.SetPersonImage*
-  nameWithType.vb: IBLOBAgent.SetPersonImage(Integer, Image)
-  fullName.vb: SuperOffice.CRM.Services.IBLOBAgent.SetPersonImage(Integer, System.Drawing.Image)
-  name.vb: SetPersonImage(Integer, Image)
 - uid: SuperOffice.CRM.Services.IBLOBAgent.ChangeProjectImage(System.Int32,System.Int32)
   commentId: M:SuperOffice.CRM.Services.IBLOBAgent.ChangeProjectImage(System.Int32,System.Int32)
   id: ChangeProjectImage(System.Int32,System.Int32)
@@ -384,15 +371,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ChangeProjectImage(int, int)
-  nameWithType: IBLOBAgent.ChangeProjectImage(int, int)
-  fullName: SuperOffice.CRM.Services.IBLOBAgent.ChangeProjectImage(int, int)
+  name: ChangeProjectImage(Int32, Int32)
+  nameWithType: IBLOBAgent.ChangeProjectImage(Int32, Int32)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.ChangeProjectImage(System.Int32, System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Changes the project image link. If the Binary object id is 0, any image link is removed from the project.
-  example: []
+  summary: "\nChanges the project image link. If the Binary object id is 0, any image link is removed from the project.\n"
   syntax:
     content: void ChangeProjectImage(int projectId, int blobId)
     parameters:
@@ -404,9 +393,6 @@ items:
       description: The Binary object id. If the Binary object id is 0, any image link is removed from the project.
     content.vb: Sub ChangeProjectImage(projectId As Integer, blobId As Integer)
   overload: SuperOffice.CRM.Services.IBLOBAgent.ChangeProjectImage*
-  nameWithType.vb: IBLOBAgent.ChangeProjectImage(Integer, Integer)
-  fullName.vb: SuperOffice.CRM.Services.IBLOBAgent.ChangeProjectImage(Integer, Integer)
-  name.vb: ChangeProjectImage(Integer, Integer)
 - uid: SuperOffice.CRM.Services.IBLOBAgent.SaveProjectImage(System.String,System.Drawing.Image)
   commentId: M:SuperOffice.CRM.Services.IBLOBAgent.SaveProjectImage(System.String,System.Drawing.Image)
   id: SaveProjectImage(System.String,System.Drawing.Image)
@@ -414,15 +400,17 @@ items:
   langs:
   - csharp
   - vb
-  name: SaveProjectImage(string, Image)
-  nameWithType: IBLOBAgent.SaveProjectImage(string, Image)
-  fullName: SuperOffice.CRM.Services.IBLOBAgent.SaveProjectImage(string, System.Drawing.Image)
+  name: SaveProjectImage(String, Image)
+  nameWithType: IBLOBAgent.SaveProjectImage(String, Image)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.SaveProjectImage(System.String, System.Drawing.Image)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Saves a project image that is displayed in the CRM application's project image selection dialog to the database.
-  example: []
+  summary: "\nSaves a project image that is displayed in the CRM application&apos;s project image selection dialog to the database.\n"
   syntax:
     content: void SaveProjectImage(string description, Image image)
     parameters:
@@ -434,9 +422,6 @@ items:
       description: The project image (System.Drawing.Image)
     content.vb: Sub SaveProjectImage(description As String, image As Image)
   overload: SuperOffice.CRM.Services.IBLOBAgent.SaveProjectImage*
-  nameWithType.vb: IBLOBAgent.SaveProjectImage(String, Image)
-  fullName.vb: SuperOffice.CRM.Services.IBLOBAgent.SaveProjectImage(String, System.Drawing.Image)
-  name.vb: SaveProjectImage(String, Image)
 - uid: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnProject(System.Int32)
   commentId: M:SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnProject(System.Int32)
   id: GetBlobEntityOnProject(System.Int32)
@@ -444,15 +429,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetBlobEntityOnProject(int)
-  nameWithType: IBLOBAgent.GetBlobEntityOnProject(int)
-  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnProject(int)
+  name: GetBlobEntityOnProject(Int32)
+  nameWithType: IBLOBAgent.GetBlobEntityOnProject(Int32)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnProject(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Gets the blob entity that represents the project image binary object.
-  example: []
+  summary: "\nGets the blob entity that represents the project image binary object.\n"
   syntax:
     content: BlobEntity GetBlobEntityOnProject(int projectId)
     parameters:
@@ -464,9 +451,6 @@ items:
       description: BlobEntity object
     content.vb: Function GetBlobEntityOnProject(projectId As Integer) As BlobEntity
   overload: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnProject*
-  nameWithType.vb: IBLOBAgent.GetBlobEntityOnProject(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnProject(Integer)
-  name.vb: GetBlobEntityOnProject(Integer)
 - uid: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnPerson(System.Int32)
   commentId: M:SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnPerson(System.Int32)
   id: GetBlobEntityOnPerson(System.Int32)
@@ -474,15 +458,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetBlobEntityOnPerson(int)
-  nameWithType: IBLOBAgent.GetBlobEntityOnPerson(int)
-  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnPerson(int)
+  name: GetBlobEntityOnPerson(Int32)
+  nameWithType: IBLOBAgent.GetBlobEntityOnPerson(Int32)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnPerson(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Gets the blob entity that represents the person image binary object.
-  example: []
+  summary: "\nGets the blob entity that represents the person image binary object.\n"
   syntax:
     content: BlobEntity GetBlobEntityOnPerson(int personId)
     parameters:
@@ -494,9 +480,6 @@ items:
       description: BlobEntity object
     content.vb: Function GetBlobEntityOnPerson(personId As Integer) As BlobEntity
   overload: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnPerson*
-  nameWithType.vb: IBLOBAgent.GetBlobEntityOnPerson(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnPerson(Integer)
-  name.vb: GetBlobEntityOnPerson(Integer)
 - uid: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnCountry(System.Int32)
   commentId: M:SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnCountry(System.Int32)
   id: GetBlobEntityOnCountry(System.Int32)
@@ -504,15 +487,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetBlobEntityOnCountry(int)
-  nameWithType: IBLOBAgent.GetBlobEntityOnCountry(int)
-  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnCountry(int)
+  name: GetBlobEntityOnCountry(Int32)
+  nameWithType: IBLOBAgent.GetBlobEntityOnCountry(Int32)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnCountry(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Gets the blob entity that represents the country flag binary object.
-  example: []
+  summary: "\nGets the blob entity that represents the country flag binary object.\n"
   syntax:
     content: BlobEntity GetBlobEntityOnCountry(int countryId)
     parameters:
@@ -524,9 +509,6 @@ items:
       description: BlobEntity object
     content.vb: Function GetBlobEntityOnCountry(countryId As Integer) As BlobEntity
   overload: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnCountry*
-  nameWithType.vb: IBLOBAgent.GetBlobEntityOnCountry(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnCountry(Integer)
-  name.vb: GetBlobEntityOnCountry(Integer)
 - uid: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnProduct(System.Int32)
   commentId: M:SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnProduct(System.Int32)
   id: GetBlobEntityOnProduct(System.Int32)
@@ -534,15 +516,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetBlobEntityOnProduct(int)
-  nameWithType: IBLOBAgent.GetBlobEntityOnProduct(int)
-  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnProduct(int)
+  name: GetBlobEntityOnProduct(Int32)
+  nameWithType: IBLOBAgent.GetBlobEntityOnProduct(Int32)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnProduct(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Gets the blob entity that represents the product image binary object.
-  example: []
+  summary: "\nGets the blob entity that represents the product image binary object.\n"
   syntax:
     content: BlobEntity GetBlobEntityOnProduct(int productId)
     parameters:
@@ -554,9 +538,6 @@ items:
       description: BlobEntity object
     content.vb: Function GetBlobEntityOnProduct(productId As Integer) As BlobEntity
   overload: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnProduct*
-  nameWithType.vb: IBLOBAgent.GetBlobEntityOnProduct(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnProduct(Integer)
-  name.vb: GetBlobEntityOnProduct(Integer)
 - uid: SuperOffice.CRM.Services.IBLOBAgent.ChangePersonImage(System.Int32,System.Int32)
   commentId: M:SuperOffice.CRM.Services.IBLOBAgent.ChangePersonImage(System.Int32,System.Int32)
   id: ChangePersonImage(System.Int32,System.Int32)
@@ -564,15 +545,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ChangePersonImage(int, int)
-  nameWithType: IBLOBAgent.ChangePersonImage(int, int)
-  fullName: SuperOffice.CRM.Services.IBLOBAgent.ChangePersonImage(int, int)
+  name: ChangePersonImage(Int32, Int32)
+  nameWithType: IBLOBAgent.ChangePersonImage(Int32, Int32)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.ChangePersonImage(System.Int32, System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: ''
-  example: []
+  summary: "\n\n"
   syntax:
     content: void ChangePersonImage(int personId, int blobId)
     parameters:
@@ -584,9 +567,6 @@ items:
       description: The Binary object id. If the Binary object id is 0, any image link is removed from the person.
     content.vb: Sub ChangePersonImage(personId As Integer, blobId As Integer)
   overload: SuperOffice.CRM.Services.IBLOBAgent.ChangePersonImage*
-  nameWithType.vb: IBLOBAgent.ChangePersonImage(Integer, Integer)
-  fullName.vb: SuperOffice.CRM.Services.IBLOBAgent.ChangePersonImage(Integer, Integer)
-  name.vb: ChangePersonImage(Integer, Integer)
 - uid: SuperOffice.CRM.Services.IBLOBAgent.SaveImageStream(SuperOffice.Data.BlobLinkType,System.Drawing.Image,System.String)
   commentId: M:SuperOffice.CRM.Services.IBLOBAgent.SaveImageStream(SuperOffice.Data.BlobLinkType,System.Drawing.Image,System.String)
   id: SaveImageStream(SuperOffice.Data.BlobLinkType,System.Drawing.Image,System.String)
@@ -594,15 +574,17 @@ items:
   langs:
   - csharp
   - vb
-  name: SaveImageStream(BlobLinkType, Image, string)
-  nameWithType: IBLOBAgent.SaveImageStream(BlobLinkType, Image, string)
-  fullName: SuperOffice.CRM.Services.IBLOBAgent.SaveImageStream(SuperOffice.Data.BlobLinkType, System.Drawing.Image, string)
+  name: SaveImageStream(BlobLinkType, Image, String)
+  nameWithType: IBLOBAgent.SaveImageStream(BlobLinkType, Image, String)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.SaveImageStream(SuperOffice.Data.BlobLinkType, System.Drawing.Image, System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Stores an image in the database without linking it to a project or a person. It is possible to ChangePersonImage or ChangeProjectImage to attach image later.
-  example: []
+  summary: "\nStores an image in the database without linking it to a project or a person. It is possible to ChangePersonImage or ChangeProjectImage to attach image later.\n"
   syntax:
     content: int SaveImageStream(BlobLinkType type, Image image, string description)
     parameters:
@@ -620,9 +602,6 @@ items:
       description: The blob id
     content.vb: Function SaveImageStream(type As BlobLinkType, image As Image, description As String) As Integer
   overload: SuperOffice.CRM.Services.IBLOBAgent.SaveImageStream*
-  nameWithType.vb: IBLOBAgent.SaveImageStream(BlobLinkType, Image, String)
-  fullName.vb: SuperOffice.CRM.Services.IBLOBAgent.SaveImageStream(SuperOffice.Data.BlobLinkType, System.Drawing.Image, String)
-  name.vb: SaveImageStream(BlobLinkType, Image, String)
 - uid: SuperOffice.CRM.Services.IBLOBAgent.GetProductImage(System.Int32)
   commentId: M:SuperOffice.CRM.Services.IBLOBAgent.GetProductImage(System.Int32)
   id: GetProductImage(System.Int32)
@@ -630,15 +609,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetProductImage(int)
-  nameWithType: IBLOBAgent.GetProductImage(int)
-  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetProductImage(int)
+  name: GetProductImage(Int32)
+  nameWithType: IBLOBAgent.GetProductImage(Int32)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetProductImage(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the product image (rank=1) that is displayed in the CRM application.
-  example: []
+  summary: "\nReturns the product image (rank=1) that is displayed in the CRM application.\n"
   syntax:
     content: Image GetProductImage(int productId)
     parameters:
@@ -650,9 +631,6 @@ items:
       description: The image as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a Base64 encoded string.)
     content.vb: Function GetProductImage(productId As Integer) As Image
   overload: SuperOffice.CRM.Services.IBLOBAgent.GetProductImage*
-  nameWithType.vb: IBLOBAgent.GetProductImage(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IBLOBAgent.GetProductImage(Integer)
-  name.vb: GetProductImage(Integer)
 - uid: SuperOffice.CRM.Services.IBLOBAgent.SetProductImage(System.Int32,System.Drawing.Image)
   commentId: M:SuperOffice.CRM.Services.IBLOBAgent.SetProductImage(System.Int32,System.Drawing.Image)
   id: SetProductImage(System.Int32,System.Drawing.Image)
@@ -660,15 +638,17 @@ items:
   langs:
   - csharp
   - vb
-  name: SetProductImage(int, Image)
-  nameWithType: IBLOBAgent.SetProductImage(int, Image)
-  fullName: SuperOffice.CRM.Services.IBLOBAgent.SetProductImage(int, System.Drawing.Image)
+  name: SetProductImage(Int32, Image)
+  nameWithType: IBLOBAgent.SetProductImage(Int32, Image)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.SetProductImage(System.Int32, System.Drawing.Image)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Stores the product image that is displayed in the CRM application. The image is scaled down to max 1000x1000. This method operates only the main (rank=1) image; future extensions may support multiple images. A thumbnail of size 75x75 is also automatically set.
-  example: []
+  summary: "\nStores the product image that is displayed in the CRM application. The image is scaled down to max 1000x1000. This method operates only the main (rank=1) image; future extensions may support multiple images. A thumbnail of size 75x75 is also automatically set.\n"
   syntax:
     content: void SetProductImage(int productId, Image image)
     parameters:
@@ -680,9 +660,6 @@ items:
       description: The image that is stored on the product (System.Drawing.Image), scaled down to no more than 1000x1000
     content.vb: Sub SetProductImage(productId As Integer, image As Image)
   overload: SuperOffice.CRM.Services.IBLOBAgent.SetProductImage*
-  nameWithType.vb: IBLOBAgent.SetProductImage(Integer, Image)
-  fullName.vb: SuperOffice.CRM.Services.IBLOBAgent.SetProductImage(Integer, System.Drawing.Image)
-  name.vb: SetProductImage(Integer, Image)
 - uid: SuperOffice.CRM.Services.IBLOBAgent.GetProductThumbnail(System.Int32)
   commentId: M:SuperOffice.CRM.Services.IBLOBAgent.GetProductThumbnail(System.Int32)
   id: GetProductThumbnail(System.Int32)
@@ -690,15 +667,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetProductThumbnail(int)
-  nameWithType: IBLOBAgent.GetProductThumbnail(int)
-  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetProductThumbnail(int)
+  name: GetProductThumbnail(Int32)
+  nameWithType: IBLOBAgent.GetProductThumbnail(Int32)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetProductThumbnail(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the product thumbnail that is displayed in the CRM application.
-  example: []
+  summary: "\nReturns the product thumbnail that is displayed in the CRM application.\n"
   syntax:
     content: Image GetProductThumbnail(int productId)
     parameters:
@@ -710,9 +689,6 @@ items:
       description: The thumbnail as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a Base64 encoded string.)
     content.vb: Function GetProductThumbnail(productId As Integer) As Image
   overload: SuperOffice.CRM.Services.IBLOBAgent.GetProductThumbnail*
-  nameWithType.vb: IBLOBAgent.GetProductThumbnail(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IBLOBAgent.GetProductThumbnail(Integer)
-  name.vb: GetProductThumbnail(Integer)
 - uid: SuperOffice.CRM.Services.IBLOBAgent.SetProductThumbnail(System.Int32,System.Drawing.Image)
   commentId: M:SuperOffice.CRM.Services.IBLOBAgent.SetProductThumbnail(System.Int32,System.Drawing.Image)
   id: SetProductThumbnail(System.Int32,System.Drawing.Image)
@@ -720,15 +696,17 @@ items:
   langs:
   - csharp
   - vb
-  name: SetProductThumbnail(int, Image)
-  nameWithType: IBLOBAgent.SetProductThumbnail(int, Image)
-  fullName: SuperOffice.CRM.Services.IBLOBAgent.SetProductThumbnail(int, System.Drawing.Image)
+  name: SetProductThumbnail(Int32, Image)
+  nameWithType: IBLOBAgent.SetProductThumbnail(Int32, Image)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.SetProductThumbnail(System.Int32, System.Drawing.Image)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Stores the product thumbnail that is displayed in the CRM application. The image is scaled down to max 200x200 pixels.
-  example: []
+  summary: "\nStores the product thumbnail that is displayed in the CRM application. The image is scaled down to max 200x200 pixels.\n"
   syntax:
     content: void SetProductThumbnail(int productId, Image image)
     parameters:
@@ -740,9 +718,6 @@ items:
       description: The image that is stored on the product (System.Drawing.Image); scaled down to no more than 200x200
     content.vb: Sub SetProductThumbnail(productId As Integer, image As Image)
   overload: SuperOffice.CRM.Services.IBLOBAgent.SetProductThumbnail*
-  nameWithType.vb: IBLOBAgent.SetProductThumbnail(Integer, Image)
-  fullName.vb: SuperOffice.CRM.Services.IBLOBAgent.SetProductThumbnail(Integer, System.Drawing.Image)
-  name.vb: SetProductThumbnail(Integer, Image)
 - uid: SuperOffice.CRM.Services.IBLOBAgent.ChangeProductImage(System.Int32,System.Int32)
   commentId: M:SuperOffice.CRM.Services.IBLOBAgent.ChangeProductImage(System.Int32,System.Int32)
   id: ChangeProductImage(System.Int32,System.Int32)
@@ -750,15 +725,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ChangeProductImage(int, int)
-  nameWithType: IBLOBAgent.ChangeProductImage(int, int)
-  fullName: SuperOffice.CRM.Services.IBLOBAgent.ChangeProductImage(int, int)
+  name: ChangeProductImage(Int32, Int32)
+  nameWithType: IBLOBAgent.ChangeProductImage(Int32, Int32)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.ChangeProductImage(System.Int32, System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: ''
-  example: []
+  summary: "\n\n"
   syntax:
     content: void ChangeProductImage(int productId, int blobId)
     parameters:
@@ -770,9 +747,6 @@ items:
       description: The Binary object id. If the Binary object id is 0, any image link is removed from the product.
     content.vb: Sub ChangeProductImage(productId As Integer, blobId As Integer)
   overload: SuperOffice.CRM.Services.IBLOBAgent.ChangeProductImage*
-  nameWithType.vb: IBLOBAgent.ChangeProductImage(Integer, Integer)
-  fullName.vb: SuperOffice.CRM.Services.IBLOBAgent.ChangeProductImage(Integer, Integer)
-  name.vb: ChangeProductImage(Integer, Integer)
 - uid: SuperOffice.CRM.Services.IBLOBAgent.GetQuoteLineImage(System.Int32)
   commentId: M:SuperOffice.CRM.Services.IBLOBAgent.GetQuoteLineImage(System.Int32)
   id: GetQuoteLineImage(System.Int32)
@@ -780,15 +754,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetQuoteLineImage(int)
-  nameWithType: IBLOBAgent.GetQuoteLineImage(int)
-  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetQuoteLineImage(int)
+  name: GetQuoteLineImage(Int32)
+  nameWithType: IBLOBAgent.GetQuoteLineImage(Int32)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetQuoteLineImage(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the quoteline image (rank=1) that is displayed in the CRM application.
-  example: []
+  summary: "\nReturns the quoteline image (rank=1) that is displayed in the CRM application.\n"
   syntax:
     content: Image GetQuoteLineImage(int quoteLineId)
     parameters:
@@ -800,9 +776,6 @@ items:
       description: The image as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a Base64 encoded string.)
     content.vb: Function GetQuoteLineImage(quoteLineId As Integer) As Image
   overload: SuperOffice.CRM.Services.IBLOBAgent.GetQuoteLineImage*
-  nameWithType.vb: IBLOBAgent.GetQuoteLineImage(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IBLOBAgent.GetQuoteLineImage(Integer)
-  name.vb: GetQuoteLineImage(Integer)
 - uid: SuperOffice.CRM.Services.IBLOBAgent.GetAppData(System.String)
   commentId: M:SuperOffice.CRM.Services.IBLOBAgent.GetAppData(System.String)
   id: GetAppData(System.String)
@@ -810,15 +783,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetAppData(string)
-  nameWithType: IBLOBAgent.GetAppData(string)
-  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetAppData(string)
+  name: GetAppData(String)
+  nameWithType: IBLOBAgent.GetAppData(String)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetAppData(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Get a CLOB (limited to a reasonable size by the mechanics of Web Services) according to a string key; ALSO limits to the current ApplicationToken if any
-  example: []
+  summary: "\nGet a CLOB (limited to a reasonable size by the mechanics of Web Services) according to a string key; ALSO limits to the current ApplicationToken if any\n"
   syntax:
     content: string GetAppData(string key)
     parameters:
@@ -830,9 +805,6 @@ items:
       description: The applications value, suggested to be a JSON, XML or other readable structure
     content.vb: Function GetAppData(key As String) As String
   overload: SuperOffice.CRM.Services.IBLOBAgent.GetAppData*
-  nameWithType.vb: IBLOBAgent.GetAppData(String)
-  fullName.vb: SuperOffice.CRM.Services.IBLOBAgent.GetAppData(String)
-  name.vb: GetAppData(String)
 - uid: SuperOffice.CRM.Services.IBLOBAgent.SetAppData(System.String,System.String)
   commentId: M:SuperOffice.CRM.Services.IBLOBAgent.SetAppData(System.String,System.String)
   id: SetAppData(System.String,System.String)
@@ -840,15 +812,17 @@ items:
   langs:
   - csharp
   - vb
-  name: SetAppData(string, string)
-  nameWithType: IBLOBAgent.SetAppData(string, string)
-  fullName: SuperOffice.CRM.Services.IBLOBAgent.SetAppData(string, string)
+  name: SetAppData(String, String)
+  nameWithType: IBLOBAgent.SetAppData(String, String)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.SetAppData(System.String, System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Get a CLOB (limited to a reasonable size by the mechanics of Web Services) according to a string key; ALSO limits to the current ApplicationToken if any. Existing data, if any, will be overwritten. Overwrite with a blank value to delete.
-  example: []
+  summary: "\nGet a CLOB (limited to a reasonable size by the mechanics of Web Services) according to a string key; ALSO limits to the current ApplicationToken if any. Existing data, if any, will be overwritten. Overwrite with a blank value to delete.\n"
   syntax:
     content: void SetAppData(string key, string data)
     parameters:
@@ -860,9 +834,6 @@ items:
       description: The applications value, suggested to be a JSON, XML or other readable structure
     content.vb: Sub SetAppData(key As String, data As String)
   overload: SuperOffice.CRM.Services.IBLOBAgent.SetAppData*
-  nameWithType.vb: IBLOBAgent.SetAppData(String, String)
-  fullName.vb: SuperOffice.CRM.Services.IBLOBAgent.SetAppData(String, String)
-  name.vb: SetAppData(String, String)
 - uid: SuperOffice.CRM.Services.IBLOBAgent.GetPersonImageWithSize(System.Int32,System.Int32,System.Int32)
   commentId: M:SuperOffice.CRM.Services.IBLOBAgent.GetPersonImageWithSize(System.Int32,System.Int32,System.Int32)
   id: GetPersonImageWithSize(System.Int32,System.Int32,System.Int32)
@@ -870,15 +841,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetPersonImageWithSize(int, int, int)
-  nameWithType: IBLOBAgent.GetPersonImageWithSize(int, int, int)
-  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetPersonImageWithSize(int, int, int)
+  name: GetPersonImageWithSize(Int32, Int32, Int32)
+  nameWithType: IBLOBAgent.GetPersonImageWithSize(Int32, Int32, Int32)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetPersonImageWithSize(System.Int32, System.Int32, System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the person image that is displayed in the CRM application with a specified maximum size.
-  example: []
+  summary: "\nReturns the person image that is displayed in the CRM application with a specified maximum size.\n"
   syntax:
     content: Image GetPersonImageWithSize(int personId, int width, int height)
     parameters:
@@ -896,9 +869,6 @@ items:
       description: The image as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a jpeg/base64 encoded string.)
     content.vb: Function GetPersonImageWithSize(personId As Integer, width As Integer, height As Integer) As Image
   overload: SuperOffice.CRM.Services.IBLOBAgent.GetPersonImageWithSize*
-  nameWithType.vb: IBLOBAgent.GetPersonImageWithSize(Integer, Integer, Integer)
-  fullName.vb: SuperOffice.CRM.Services.IBLOBAgent.GetPersonImageWithSize(Integer, Integer, Integer)
-  name.vb: GetPersonImageWithSize(Integer, Integer, Integer)
 - uid: SuperOffice.CRM.Services.IBLOBAgent.GetProjectImageWithSize(System.Int32,System.Int32,System.Int32)
   commentId: M:SuperOffice.CRM.Services.IBLOBAgent.GetProjectImageWithSize(System.Int32,System.Int32,System.Int32)
   id: GetProjectImageWithSize(System.Int32,System.Int32,System.Int32)
@@ -906,15 +876,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetProjectImageWithSize(int, int, int)
-  nameWithType: IBLOBAgent.GetProjectImageWithSize(int, int, int)
-  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetProjectImageWithSize(int, int, int)
+  name: GetProjectImageWithSize(Int32, Int32, Int32)
+  nameWithType: IBLOBAgent.GetProjectImageWithSize(Int32, Int32, Int32)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetProjectImageWithSize(System.Int32, System.Int32, System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the project image that is displayed in the CRM application with a specified maximum size.
-  example: []
+  summary: "\nReturns the project image that is displayed in the CRM application with a specified maximum size.\n"
   syntax:
     content: Image GetProjectImageWithSize(int projectId, int width, int height)
     parameters:
@@ -932,9 +904,6 @@ items:
       description: The image as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a jpeg/base64 encoded string.)
     content.vb: Function GetProjectImageWithSize(projectId As Integer, width As Integer, height As Integer) As Image
   overload: SuperOffice.CRM.Services.IBLOBAgent.GetProjectImageWithSize*
-  nameWithType.vb: IBLOBAgent.GetProjectImageWithSize(Integer, Integer, Integer)
-  fullName.vb: SuperOffice.CRM.Services.IBLOBAgent.GetProjectImageWithSize(Integer, Integer, Integer)
-  name.vb: GetProjectImageWithSize(Integer, Integer, Integer)
 - uid: SuperOffice.CRM.Services.IBLOBAgent.GetChatImageWithSize(System.Int32,System.Int32,System.Int32)
   commentId: M:SuperOffice.CRM.Services.IBLOBAgent.GetChatImageWithSize(System.Int32,System.Int32,System.Int32)
   id: GetChatImageWithSize(System.Int32,System.Int32,System.Int32)
@@ -942,15 +911,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetChatImageWithSize(int, int, int)
-  nameWithType: IBLOBAgent.GetChatImageWithSize(int, int, int)
-  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetChatImageWithSize(int, int, int)
+  name: GetChatImageWithSize(Int32, Int32, Int32)
+  nameWithType: IBLOBAgent.GetChatImageWithSize(Int32, Int32, Int32)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetChatImageWithSize(System.Int32, System.Int32, System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the chat image that is displayed in chat with a specified maximum size.
-  example: []
+  summary: "\nReturns the chat image that is displayed in chat with a specified maximum size.\n"
   syntax:
     content: Image GetChatImageWithSize(int chatTopicId, int width, int height)
     parameters:
@@ -968,9 +939,6 @@ items:
       description: The image as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a jpeg/base64 encoded string.)
     content.vb: Function GetChatImageWithSize(chatTopicId As Integer, width As Integer, height As Integer) As Image
   overload: SuperOffice.CRM.Services.IBLOBAgent.GetChatImageWithSize*
-  nameWithType.vb: IBLOBAgent.GetChatImageWithSize(Integer, Integer, Integer)
-  fullName.vb: SuperOffice.CRM.Services.IBLOBAgent.GetChatImageWithSize(Integer, Integer, Integer)
-  name.vb: GetChatImageWithSize(Integer, Integer, Integer)
 - uid: SuperOffice.CRM.Services.IBLOBAgent.GetContactImage(System.Int32)
   commentId: M:SuperOffice.CRM.Services.IBLOBAgent.GetContactImage(System.Int32)
   id: GetContactImage(System.Int32)
@@ -978,15 +946,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetContactImage(int)
-  nameWithType: IBLOBAgent.GetContactImage(int)
-  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetContactImage(int)
+  name: GetContactImage(Int32)
+  nameWithType: IBLOBAgent.GetContactImage(Int32)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetContactImage(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the contact image that is displayed in the CRM application.
-  example: []
+  summary: "\nReturns the contact image that is displayed in the CRM application.\n"
   syntax:
     content: Image GetContactImage(int contactId)
     parameters:
@@ -998,9 +968,6 @@ items:
       description: The image as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a Base64 encoded string.)
     content.vb: Function GetContactImage(contactId As Integer) As Image
   overload: SuperOffice.CRM.Services.IBLOBAgent.GetContactImage*
-  nameWithType.vb: IBLOBAgent.GetContactImage(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IBLOBAgent.GetContactImage(Integer)
-  name.vb: GetContactImage(Integer)
 - uid: SuperOffice.CRM.Services.IBLOBAgent.SetContactImage(System.Int32,System.Drawing.Image)
   commentId: M:SuperOffice.CRM.Services.IBLOBAgent.SetContactImage(System.Int32,System.Drawing.Image)
   id: SetContactImage(System.Int32,System.Drawing.Image)
@@ -1008,15 +975,17 @@ items:
   langs:
   - csharp
   - vb
-  name: SetContactImage(int, Image)
-  nameWithType: IBLOBAgent.SetContactImage(int, Image)
-  fullName: SuperOffice.CRM.Services.IBLOBAgent.SetContactImage(int, System.Drawing.Image)
+  name: SetContactImage(Int32, Image)
+  nameWithType: IBLOBAgent.SetContactImage(Int32, Image)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.SetContactImage(System.Int32, System.Drawing.Image)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Stores the contact image that is displayed in the CRM application.
-  example: []
+  summary: "\nStores the contact image that is displayed in the CRM application.\n"
   syntax:
     content: void SetContactImage(int contactId, Image image)
     parameters:
@@ -1028,9 +997,6 @@ items:
       description: The image that is stored on the contact (System.Drawing.Image)
     content.vb: Sub SetContactImage(contactId As Integer, image As Image)
   overload: SuperOffice.CRM.Services.IBLOBAgent.SetContactImage*
-  nameWithType.vb: IBLOBAgent.SetContactImage(Integer, Image)
-  fullName.vb: SuperOffice.CRM.Services.IBLOBAgent.SetContactImage(Integer, System.Drawing.Image)
-  name.vb: SetContactImage(Integer, Image)
 - uid: SuperOffice.CRM.Services.IBLOBAgent.ChangeContactImage(System.Int32,System.Int32)
   commentId: M:SuperOffice.CRM.Services.IBLOBAgent.ChangeContactImage(System.Int32,System.Int32)
   id: ChangeContactImage(System.Int32,System.Int32)
@@ -1038,15 +1004,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ChangeContactImage(int, int)
-  nameWithType: IBLOBAgent.ChangeContactImage(int, int)
-  fullName: SuperOffice.CRM.Services.IBLOBAgent.ChangeContactImage(int, int)
+  name: ChangeContactImage(Int32, Int32)
+  nameWithType: IBLOBAgent.ChangeContactImage(Int32, Int32)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.ChangeContactImage(System.Int32, System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Changes the contact image link. If the Binary object id is 0, any image link is removed from the contact.
-  example: []
+  summary: "\nChanges the contact image link. If the Binary object id is 0, any image link is removed from the contact.\n"
   syntax:
     content: void ChangeContactImage(int contactId, int blobId)
     parameters:
@@ -1058,9 +1026,6 @@ items:
       description: The Binary object id. If the Binary object id is 0, any image link is removed from the Contact.
     content.vb: Sub ChangeContactImage(contactId As Integer, blobId As Integer)
   overload: SuperOffice.CRM.Services.IBLOBAgent.ChangeContactImage*
-  nameWithType.vb: IBLOBAgent.ChangeContactImage(Integer, Integer)
-  fullName.vb: SuperOffice.CRM.Services.IBLOBAgent.ChangeContactImage(Integer, Integer)
-  name.vb: ChangeContactImage(Integer, Integer)
 - uid: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnContact(System.Int32)
   commentId: M:SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnContact(System.Int32)
   id: GetBlobEntityOnContact(System.Int32)
@@ -1068,15 +1033,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetBlobEntityOnContact(int)
-  nameWithType: IBLOBAgent.GetBlobEntityOnContact(int)
-  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnContact(int)
+  name: GetBlobEntityOnContact(Int32)
+  nameWithType: IBLOBAgent.GetBlobEntityOnContact(Int32)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnContact(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Gets the blob entity that represents the contact image binary object.
-  example: []
+  summary: "\nGets the blob entity that represents the contact image binary object.\n"
   syntax:
     content: BlobEntity GetBlobEntityOnContact(int contactId)
     parameters:
@@ -1088,9 +1055,6 @@ items:
       description: BlobEntity object
     content.vb: Function GetBlobEntityOnContact(contactId As Integer) As BlobEntity
   overload: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnContact*
-  nameWithType.vb: IBLOBAgent.GetBlobEntityOnContact(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnContact(Integer)
-  name.vb: GetBlobEntityOnContact(Integer)
 - uid: SuperOffice.CRM.Services.IBLOBAgent.GetContactImageWithSize(System.Int32,System.Int32,System.Int32)
   commentId: M:SuperOffice.CRM.Services.IBLOBAgent.GetContactImageWithSize(System.Int32,System.Int32,System.Int32)
   id: GetContactImageWithSize(System.Int32,System.Int32,System.Int32)
@@ -1098,15 +1062,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetContactImageWithSize(int, int, int)
-  nameWithType: IBLOBAgent.GetContactImageWithSize(int, int, int)
-  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetContactImageWithSize(int, int, int)
+  name: GetContactImageWithSize(Int32, Int32, Int32)
+  nameWithType: IBLOBAgent.GetContactImageWithSize(Int32, Int32, Int32)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetContactImageWithSize(System.Int32, System.Int32, System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the contact image that is displayed in the CRM application with a specified maximum size.
-  example: []
+  summary: "\nReturns the contact image that is displayed in the CRM application with a specified maximum size.\n"
   syntax:
     content: Image GetContactImageWithSize(int contactId, int width, int height)
     parameters:
@@ -1124,9 +1090,6 @@ items:
       description: The image as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a jpeg/base64 encoded string.)
     content.vb: Function GetContactImageWithSize(contactId As Integer, width As Integer, height As Integer) As Image
   overload: SuperOffice.CRM.Services.IBLOBAgent.GetContactImageWithSize*
-  nameWithType.vb: IBLOBAgent.GetContactImageWithSize(Integer, Integer, Integer)
-  fullName.vb: SuperOffice.CRM.Services.IBLOBAgent.GetContactImageWithSize(Integer, Integer, Integer)
-  name.vb: GetContactImageWithSize(Integer, Integer, Integer)
 - uid: SuperOffice.CRM.Services.IBLOBAgent.GetOutputFromBatch(System.Int32)
   commentId: M:SuperOffice.CRM.Services.IBLOBAgent.GetOutputFromBatch(System.Int32)
   id: GetOutputFromBatch(System.Int32)
@@ -1134,15 +1097,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetOutputFromBatch(int)
-  nameWithType: IBLOBAgent.GetOutputFromBatch(int)
-  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetOutputFromBatch(int)
+  name: GetOutputFromBatch(Int32)
+  nameWithType: IBLOBAgent.GetOutputFromBatch(Int32)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetOutputFromBatch(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Get the output of a batchtask as a stream
-  example: []
+  summary: "\nGet the output of a batchtask as a stream\n"
   syntax:
     content: Stream GetOutputFromBatch(int batchTaskId)
     parameters:
@@ -1154,9 +1119,6 @@ items:
       description: The binary object as a Stream
     content.vb: Function GetOutputFromBatch(batchTaskId As Integer) As Stream
   overload: SuperOffice.CRM.Services.IBLOBAgent.GetOutputFromBatch*
-  nameWithType.vb: IBLOBAgent.GetOutputFromBatch(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IBLOBAgent.GetOutputFromBatch(Integer)
-  name.vb: GetOutputFromBatch(Integer)
 - uid: SuperOffice.CRM.Services.IBLOBAgent.CleanupBatchTask(System.Int32)
   commentId: M:SuperOffice.CRM.Services.IBLOBAgent.CleanupBatchTask(System.Int32)
   id: CleanupBatchTask(System.Int32)
@@ -1164,15 +1126,17 @@ items:
   langs:
   - csharp
   - vb
-  name: CleanupBatchTask(int)
-  nameWithType: IBLOBAgent.CleanupBatchTask(int)
-  fullName: SuperOffice.CRM.Services.IBLOBAgent.CleanupBatchTask(int)
+  name: CleanupBatchTask(Int32)
+  nameWithType: IBLOBAgent.CleanupBatchTask(Int32)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.CleanupBatchTask(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Removes the binary objects linked to the batch task, the links themselves and the batch task.
-  example: []
+  summary: "\nRemoves the binary objects linked to the batch task, the links themselves and the batch task.\n"
   syntax:
     content: void CleanupBatchTask(int batchTaskId)
     parameters:
@@ -1181,51 +1145,16 @@ items:
       description: The ID of the batchtask that created the output data
     content.vb: Sub CleanupBatchTask(batchTaskId As Integer)
   overload: SuperOffice.CRM.Services.IBLOBAgent.CleanupBatchTask*
-  nameWithType.vb: IBLOBAgent.CleanupBatchTask(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IBLOBAgent.CleanupBatchTask(Integer)
-  name.vb: CleanupBatchTask(Integer)
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
 - uid: SuperOffice.CRM.Services.IBLOBAgent.CreateDefaultBlobEntity*
   commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.CreateDefaultBlobEntity
   isExternal: true
-  href: SuperOffice.CRM.Services.IBLOBAgent.html#SuperOffice_CRM_Services_IBLOBAgent_CreateDefaultBlobEntity
   name: CreateDefaultBlobEntity
   nameWithType: IBLOBAgent.CreateDefaultBlobEntity
   fullName: SuperOffice.CRM.Services.IBLOBAgent.CreateDefaultBlobEntity
@@ -1233,21 +1162,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.BlobEntity
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.BlobEntity.html
   name: BlobEntity
   nameWithType: BlobEntity
   fullName: SuperOffice.CRM.Services.BlobEntity
 - uid: SuperOffice.CRM.Services.IBLOBAgent.SaveBlobEntity*
   commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.SaveBlobEntity
   isExternal: true
-  href: SuperOffice.CRM.Services.IBLOBAgent.html#SuperOffice_CRM_Services_IBLOBAgent_SaveBlobEntity_SuperOffice_CRM_Services_BlobEntity_
   name: SaveBlobEntity
   nameWithType: IBLOBAgent.SaveBlobEntity
   fullName: SuperOffice.CRM.Services.IBLOBAgent.SaveBlobEntity
 - uid: SuperOffice.CRM.Services.IBLOBAgent.DeleteBlobEntity*
   commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.DeleteBlobEntity
   isExternal: true
-  href: SuperOffice.CRM.Services.IBLOBAgent.html#SuperOffice_CRM_Services_IBLOBAgent_DeleteBlobEntity_System_Int32_
   name: DeleteBlobEntity
   nameWithType: IBLOBAgent.DeleteBlobEntity
   fullName: SuperOffice.CRM.Services.IBLOBAgent.DeleteBlobEntity
@@ -1255,150 +1181,76 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntity*
   commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntity
   isExternal: true
-  href: SuperOffice.CRM.Services.IBLOBAgent.html#SuperOffice_CRM_Services_IBLOBAgent_GetBlobEntity_System_Int32_
   name: GetBlobEntity
   nameWithType: IBLOBAgent.GetBlobEntity
   fullName: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntity
 - uid: SuperOffice.CRM.Services.IBLOBAgent.SetBlobStream*
   commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.SetBlobStream
   isExternal: true
-  href: SuperOffice.CRM.Services.IBLOBAgent.html#SuperOffice_CRM_Services_IBLOBAgent_SetBlobStream_System_Int32_System_IO_Stream_
   name: SetBlobStream
   nameWithType: IBLOBAgent.SetBlobStream
   fullName: SuperOffice.CRM.Services.IBLOBAgent.SetBlobStream
 - uid: System.IO.Stream
-  commentId: T:System.IO.Stream
-  parent: System.IO
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.io.stream
   name: Stream
   nameWithType: Stream
   fullName: System.IO.Stream
-- uid: System.IO
-  commentId: N:System.IO
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.IO
-  nameWithType: System.IO
-  fullName: System.IO
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.IO
-    name: IO
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.IO
-    name: IO
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io
 - uid: SuperOffice.CRM.Services.IBLOBAgent.GetBlobStream*
   commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.GetBlobStream
   isExternal: true
-  href: SuperOffice.CRM.Services.IBLOBAgent.html#SuperOffice_CRM_Services_IBLOBAgent_GetBlobStream_System_Int32_
   name: GetBlobStream
   nameWithType: IBLOBAgent.GetBlobStream
   fullName: SuperOffice.CRM.Services.IBLOBAgent.GetBlobStream
 - uid: SuperOffice.CRM.Services.IBLOBAgent.GetProjectImage*
   commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.GetProjectImage
   isExternal: true
-  href: SuperOffice.CRM.Services.IBLOBAgent.html#SuperOffice_CRM_Services_IBLOBAgent_GetProjectImage_System_Int32_
   name: GetProjectImage
   nameWithType: IBLOBAgent.GetProjectImage
   fullName: SuperOffice.CRM.Services.IBLOBAgent.GetProjectImage
 - uid: System.Drawing.Image
-  commentId: T:System.Drawing.Image
-  parent: System.Drawing
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.drawing.image
   name: Image
   nameWithType: Image
   fullName: System.Drawing.Image
-- uid: System.Drawing
-  commentId: N:System.Drawing
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Drawing
-  nameWithType: System.Drawing
-  fullName: System.Drawing
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Drawing
-    name: Drawing
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.drawing
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Drawing
-    name: Drawing
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.drawing
 - uid: SuperOffice.CRM.Services.IBLOBAgent.GetPersonImage*
   commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.GetPersonImage
   isExternal: true
-  href: SuperOffice.CRM.Services.IBLOBAgent.html#SuperOffice_CRM_Services_IBLOBAgent_GetPersonImage_System_Int32_
   name: GetPersonImage
   nameWithType: IBLOBAgent.GetPersonImage
   fullName: SuperOffice.CRM.Services.IBLOBAgent.GetPersonImage
 - uid: SuperOffice.CRM.Services.IBLOBAgent.SetProjectImage*
   commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.SetProjectImage
   isExternal: true
-  href: SuperOffice.CRM.Services.IBLOBAgent.html#SuperOffice_CRM_Services_IBLOBAgent_SetProjectImage_System_Int32_System_Drawing_Image_
   name: SetProjectImage
   nameWithType: IBLOBAgent.SetProjectImage
   fullName: SuperOffice.CRM.Services.IBLOBAgent.SetProjectImage
 - uid: SuperOffice.CRM.Services.IBLOBAgent.SetPersonImage*
   commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.SetPersonImage
   isExternal: true
-  href: SuperOffice.CRM.Services.IBLOBAgent.html#SuperOffice_CRM_Services_IBLOBAgent_SetPersonImage_System_Int32_System_Drawing_Image_
   name: SetPersonImage
   nameWithType: IBLOBAgent.SetPersonImage
   fullName: SuperOffice.CRM.Services.IBLOBAgent.SetPersonImage
 - uid: SuperOffice.CRM.Services.IBLOBAgent.ChangeProjectImage*
   commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.ChangeProjectImage
   isExternal: true
-  href: SuperOffice.CRM.Services.IBLOBAgent.html#SuperOffice_CRM_Services_IBLOBAgent_ChangeProjectImage_System_Int32_System_Int32_
   name: ChangeProjectImage
   nameWithType: IBLOBAgent.ChangeProjectImage
   fullName: SuperOffice.CRM.Services.IBLOBAgent.ChangeProjectImage
 - uid: SuperOffice.CRM.Services.IBLOBAgent.SaveProjectImage*
   commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.SaveProjectImage
   isExternal: true
-  href: SuperOffice.CRM.Services.IBLOBAgent.html#SuperOffice_CRM_Services_IBLOBAgent_SaveProjectImage_System_String_System_Drawing_Image_
   name: SaveProjectImage
   nameWithType: IBLOBAgent.SaveProjectImage
   fullName: SuperOffice.CRM.Services.IBLOBAgent.SaveProjectImage
@@ -1406,52 +1258,42 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnProject*
   commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnProject
   isExternal: true
-  href: SuperOffice.CRM.Services.IBLOBAgent.html#SuperOffice_CRM_Services_IBLOBAgent_GetBlobEntityOnProject_System_Int32_
   name: GetBlobEntityOnProject
   nameWithType: IBLOBAgent.GetBlobEntityOnProject
   fullName: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnProject
 - uid: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnPerson*
   commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnPerson
   isExternal: true
-  href: SuperOffice.CRM.Services.IBLOBAgent.html#SuperOffice_CRM_Services_IBLOBAgent_GetBlobEntityOnPerson_System_Int32_
   name: GetBlobEntityOnPerson
   nameWithType: IBLOBAgent.GetBlobEntityOnPerson
   fullName: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnPerson
 - uid: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnCountry*
   commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnCountry
   isExternal: true
-  href: SuperOffice.CRM.Services.IBLOBAgent.html#SuperOffice_CRM_Services_IBLOBAgent_GetBlobEntityOnCountry_System_Int32_
   name: GetBlobEntityOnCountry
   nameWithType: IBLOBAgent.GetBlobEntityOnCountry
   fullName: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnCountry
 - uid: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnProduct*
   commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnProduct
   isExternal: true
-  href: SuperOffice.CRM.Services.IBLOBAgent.html#SuperOffice_CRM_Services_IBLOBAgent_GetBlobEntityOnProduct_System_Int32_
   name: GetBlobEntityOnProduct
   nameWithType: IBLOBAgent.GetBlobEntityOnProduct
   fullName: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnProduct
 - uid: SuperOffice.CRM.Services.IBLOBAgent.ChangePersonImage*
   commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.ChangePersonImage
   isExternal: true
-  href: SuperOffice.CRM.Services.IBLOBAgent.html#SuperOffice_CRM_Services_IBLOBAgent_ChangePersonImage_System_Int32_System_Int32_
   name: ChangePersonImage
   nameWithType: IBLOBAgent.ChangePersonImage
   fullName: SuperOffice.CRM.Services.IBLOBAgent.ChangePersonImage
 - uid: SuperOffice.CRM.Services.IBLOBAgent.SaveImageStream*
   commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.SaveImageStream
   isExternal: true
-  href: SuperOffice.CRM.Services.IBLOBAgent.html#SuperOffice_CRM_Services_IBLOBAgent_SaveImageStream_SuperOffice_Data_BlobLinkType_System_Drawing_Image_System_String_
   name: SaveImageStream
   nameWithType: IBLOBAgent.SaveImageStream
   fullName: SuperOffice.CRM.Services.IBLOBAgent.SaveImageStream
@@ -1463,126 +1305,108 @@ references:
 - uid: SuperOffice.CRM.Services.IBLOBAgent.GetProductImage*
   commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.GetProductImage
   isExternal: true
-  href: SuperOffice.CRM.Services.IBLOBAgent.html#SuperOffice_CRM_Services_IBLOBAgent_GetProductImage_System_Int32_
   name: GetProductImage
   nameWithType: IBLOBAgent.GetProductImage
   fullName: SuperOffice.CRM.Services.IBLOBAgent.GetProductImage
 - uid: SuperOffice.CRM.Services.IBLOBAgent.SetProductImage*
   commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.SetProductImage
   isExternal: true
-  href: SuperOffice.CRM.Services.IBLOBAgent.html#SuperOffice_CRM_Services_IBLOBAgent_SetProductImage_System_Int32_System_Drawing_Image_
   name: SetProductImage
   nameWithType: IBLOBAgent.SetProductImage
   fullName: SuperOffice.CRM.Services.IBLOBAgent.SetProductImage
 - uid: SuperOffice.CRM.Services.IBLOBAgent.GetProductThumbnail*
   commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.GetProductThumbnail
   isExternal: true
-  href: SuperOffice.CRM.Services.IBLOBAgent.html#SuperOffice_CRM_Services_IBLOBAgent_GetProductThumbnail_System_Int32_
   name: GetProductThumbnail
   nameWithType: IBLOBAgent.GetProductThumbnail
   fullName: SuperOffice.CRM.Services.IBLOBAgent.GetProductThumbnail
 - uid: SuperOffice.CRM.Services.IBLOBAgent.SetProductThumbnail*
   commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.SetProductThumbnail
   isExternal: true
-  href: SuperOffice.CRM.Services.IBLOBAgent.html#SuperOffice_CRM_Services_IBLOBAgent_SetProductThumbnail_System_Int32_System_Drawing_Image_
   name: SetProductThumbnail
   nameWithType: IBLOBAgent.SetProductThumbnail
   fullName: SuperOffice.CRM.Services.IBLOBAgent.SetProductThumbnail
 - uid: SuperOffice.CRM.Services.IBLOBAgent.ChangeProductImage*
   commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.ChangeProductImage
   isExternal: true
-  href: SuperOffice.CRM.Services.IBLOBAgent.html#SuperOffice_CRM_Services_IBLOBAgent_ChangeProductImage_System_Int32_System_Int32_
   name: ChangeProductImage
   nameWithType: IBLOBAgent.ChangeProductImage
   fullName: SuperOffice.CRM.Services.IBLOBAgent.ChangeProductImage
 - uid: SuperOffice.CRM.Services.IBLOBAgent.GetQuoteLineImage*
   commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.GetQuoteLineImage
   isExternal: true
-  href: SuperOffice.CRM.Services.IBLOBAgent.html#SuperOffice_CRM_Services_IBLOBAgent_GetQuoteLineImage_System_Int32_
   name: GetQuoteLineImage
   nameWithType: IBLOBAgent.GetQuoteLineImage
   fullName: SuperOffice.CRM.Services.IBLOBAgent.GetQuoteLineImage
 - uid: SuperOffice.CRM.Services.IBLOBAgent.GetAppData*
   commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.GetAppData
   isExternal: true
-  href: SuperOffice.CRM.Services.IBLOBAgent.html#SuperOffice_CRM_Services_IBLOBAgent_GetAppData_System_String_
   name: GetAppData
   nameWithType: IBLOBAgent.GetAppData
   fullName: SuperOffice.CRM.Services.IBLOBAgent.GetAppData
 - uid: SuperOffice.CRM.Services.IBLOBAgent.SetAppData*
   commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.SetAppData
   isExternal: true
-  href: SuperOffice.CRM.Services.IBLOBAgent.html#SuperOffice_CRM_Services_IBLOBAgent_SetAppData_System_String_System_String_
   name: SetAppData
   nameWithType: IBLOBAgent.SetAppData
   fullName: SuperOffice.CRM.Services.IBLOBAgent.SetAppData
 - uid: SuperOffice.CRM.Services.IBLOBAgent.GetPersonImageWithSize*
   commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.GetPersonImageWithSize
   isExternal: true
-  href: SuperOffice.CRM.Services.IBLOBAgent.html#SuperOffice_CRM_Services_IBLOBAgent_GetPersonImageWithSize_System_Int32_System_Int32_System_Int32_
   name: GetPersonImageWithSize
   nameWithType: IBLOBAgent.GetPersonImageWithSize
   fullName: SuperOffice.CRM.Services.IBLOBAgent.GetPersonImageWithSize
 - uid: SuperOffice.CRM.Services.IBLOBAgent.GetProjectImageWithSize*
   commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.GetProjectImageWithSize
   isExternal: true
-  href: SuperOffice.CRM.Services.IBLOBAgent.html#SuperOffice_CRM_Services_IBLOBAgent_GetProjectImageWithSize_System_Int32_System_Int32_System_Int32_
   name: GetProjectImageWithSize
   nameWithType: IBLOBAgent.GetProjectImageWithSize
   fullName: SuperOffice.CRM.Services.IBLOBAgent.GetProjectImageWithSize
 - uid: SuperOffice.CRM.Services.IBLOBAgent.GetChatImageWithSize*
   commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.GetChatImageWithSize
   isExternal: true
-  href: SuperOffice.CRM.Services.IBLOBAgent.html#SuperOffice_CRM_Services_IBLOBAgent_GetChatImageWithSize_System_Int32_System_Int32_System_Int32_
   name: GetChatImageWithSize
   nameWithType: IBLOBAgent.GetChatImageWithSize
   fullName: SuperOffice.CRM.Services.IBLOBAgent.GetChatImageWithSize
 - uid: SuperOffice.CRM.Services.IBLOBAgent.GetContactImage*
   commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.GetContactImage
   isExternal: true
-  href: SuperOffice.CRM.Services.IBLOBAgent.html#SuperOffice_CRM_Services_IBLOBAgent_GetContactImage_System_Int32_
   name: GetContactImage
   nameWithType: IBLOBAgent.GetContactImage
   fullName: SuperOffice.CRM.Services.IBLOBAgent.GetContactImage
 - uid: SuperOffice.CRM.Services.IBLOBAgent.SetContactImage*
   commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.SetContactImage
   isExternal: true
-  href: SuperOffice.CRM.Services.IBLOBAgent.html#SuperOffice_CRM_Services_IBLOBAgent_SetContactImage_System_Int32_System_Drawing_Image_
   name: SetContactImage
   nameWithType: IBLOBAgent.SetContactImage
   fullName: SuperOffice.CRM.Services.IBLOBAgent.SetContactImage
 - uid: SuperOffice.CRM.Services.IBLOBAgent.ChangeContactImage*
   commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.ChangeContactImage
   isExternal: true
-  href: SuperOffice.CRM.Services.IBLOBAgent.html#SuperOffice_CRM_Services_IBLOBAgent_ChangeContactImage_System_Int32_System_Int32_
   name: ChangeContactImage
   nameWithType: IBLOBAgent.ChangeContactImage
   fullName: SuperOffice.CRM.Services.IBLOBAgent.ChangeContactImage
 - uid: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnContact*
   commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnContact
   isExternal: true
-  href: SuperOffice.CRM.Services.IBLOBAgent.html#SuperOffice_CRM_Services_IBLOBAgent_GetBlobEntityOnContact_System_Int32_
   name: GetBlobEntityOnContact
   nameWithType: IBLOBAgent.GetBlobEntityOnContact
   fullName: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnContact
 - uid: SuperOffice.CRM.Services.IBLOBAgent.GetContactImageWithSize*
   commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.GetContactImageWithSize
   isExternal: true
-  href: SuperOffice.CRM.Services.IBLOBAgent.html#SuperOffice_CRM_Services_IBLOBAgent_GetContactImageWithSize_System_Int32_System_Int32_System_Int32_
   name: GetContactImageWithSize
   nameWithType: IBLOBAgent.GetContactImageWithSize
   fullName: SuperOffice.CRM.Services.IBLOBAgent.GetContactImageWithSize
 - uid: SuperOffice.CRM.Services.IBLOBAgent.GetOutputFromBatch*
   commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.GetOutputFromBatch
   isExternal: true
-  href: SuperOffice.CRM.Services.IBLOBAgent.html#SuperOffice_CRM_Services_IBLOBAgent_GetOutputFromBatch_System_Int32_
   name: GetOutputFromBatch
   nameWithType: IBLOBAgent.GetOutputFromBatch
   fullName: SuperOffice.CRM.Services.IBLOBAgent.GetOutputFromBatch
 - uid: SuperOffice.CRM.Services.IBLOBAgent.CleanupBatchTask*
   commentId: Overload:SuperOffice.CRM.Services.IBLOBAgent.CleanupBatchTask
   isExternal: true
-  href: SuperOffice.CRM.Services.IBLOBAgent.html#SuperOffice_CRM_Services_IBLOBAgent_CleanupBatchTask_System_Int32_
   name: CleanupBatchTask
   nameWithType: IBLOBAgent.CleanupBatchTask
   fullName: SuperOffice.CRM.Services.IBLOBAgent.CleanupBatchTask

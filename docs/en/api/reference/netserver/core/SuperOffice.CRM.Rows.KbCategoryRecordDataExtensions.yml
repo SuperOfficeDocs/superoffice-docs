@@ -17,27 +17,27 @@ items:
   nameWithType: KbCategoryRecordDataExtensions
   fullName: SuperOffice.CRM.Rows.KbCategoryRecordDataExtensions
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: >-
-    Extension methods to make it easy to fetch <xref href="SuperOffice.CRM.Rows.KbCategoryRecordData" data-throw-if-not-resolved="false"></xref> objects from the database,
-
-    using the TargetedSelect infrastructure
-  example: []
+  summary: "\nExtension methods to make it easy to fetch <xref href=\"SuperOffice.CRM.Rows.KbCategoryRecordData\" data-throw-if-not-resolved=\"false\"></xref> objects from the database,\nusing the <see cref=\"!:TargetedSelect\"></see> infrastructure\n"
   syntax:
-    content: public static class KbCategoryRecordDataExtensions
-    content.vb: Public Module KbCategoryRecordDataExtensions
+    content: 'public static class KbCategoryRecordDataExtensions : Object'
+    content.vb: >-
+      Public Module KbCategoryRecordDataExtensions
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
 - uid: SuperOffice.CRM.Rows.KbCategoryRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.KbCategoryTableInfo})
   commentId: M:SuperOffice.CRM.Rows.KbCategoryRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.KbCategoryTableInfo})
   id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.KbCategoryTableInfo})
@@ -50,15 +50,17 @@ items:
   nameWithType: KbCategoryRecordDataExtensions.FromSelect(TargetedSelect<KbCategoryTableInfo>)
   fullName: SuperOffice.CRM.Rows.KbCategoryRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.KbCategoryTableInfo>)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: From a TargetedSelect&lt;KbCategoryTableInfo&gt;, execute it and return an IEnumerable&lt;KbCategoryRecordData&gt; with the results
+  summary: "\nFrom a TargetedSelect&lt;KbCategoryTableInfo>, execute it and return an IEnumerable&lt;KbCategoryRecordData> with the results\n"
   example:
   - >-
-    <pre><code class="lang-csharp">var s = S.NewSelect&lt;DataRightTableInfo&gt;( /* add meaningful restrictions here, or later */ );
-
-    var result = s.FromSelect();</code></pre>
+    <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
+                var result = s.FromSelect();</code></pre>
   syntax:
     content: public static IEnumerable<KbCategoryRecordData> FromSelect(this TargetedSelect<KbCategoryTableInfo> select)
     parameters:
@@ -66,9 +68,18 @@ items:
       type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.KbCategoryTableInfo}
     return:
       type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.KbCategoryRecordData}
-    content.vb: Public Shared Function FromSelect([select] As TargetedSelect(Of KbCategoryTableInfo)) As IEnumerable(Of KbCategoryRecordData)
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FromSelect(select As TargetedSelect(Of KbCategoryTableInfo)) As IEnumerable(Of KbCategoryRecordData)
   overload: SuperOffice.CRM.Rows.KbCategoryRecordDataExtensions.FromSelect*
   nameWithType.vb: KbCategoryRecordDataExtensions.FromSelect(TargetedSelect(Of KbCategoryTableInfo))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
   fullName.vb: SuperOffice.CRM.Rows.KbCategoryRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.KbCategoryTableInfo))
   name.vb: FromSelect(TargetedSelect(Of KbCategoryTableInfo))
 - uid: SuperOffice.CRM.Rows.KbCategoryRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.KbCategoryTableInfo})
@@ -83,19 +94,19 @@ items:
   nameWithType: KbCategoryRecordDataExtensions.FromRecord(TargetedDataRecord<KbCategoryTableInfo>)
   fullName: SuperOffice.CRM.Rows.KbCategoryRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord<SuperOffice.CRM.Data.KbCategoryTableInfo>)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: From a TargetedDataRecord&lt;KbCategoryTableInfo&gt;, create and populate a <xref href="SuperOffice.CRM.Rows.KbCategoryRecordData" data-throw-if-not-resolved="false"></xref> POCO object
+  summary: "\nFrom a TargetedDataRecord&lt;KbCategoryTableInfo>, create and populate a <xref href=\"SuperOffice.CRM.Rows.KbCategoryRecordData\" data-throw-if-not-resolved=\"false\"></xref> POCO object\n"
   example:
   - >-
-    <pre><code class="lang-csharp">var s = S.NewSelect&lt;DataRightTableInfo&gt;( /* add meaningful restrictions here, or later */ );
-
-    /* add joins, return fields etc. as you wish */
-
-    s.ReturnFields.Add(s.Table.All);
-
-    var result = s.Records().Select(r =&gt; new { KbCategoryItem = r.FromRecord(), /* fetch other fields here */ });</code></pre>
+    <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
+                /* add joins, return fields etc. as you wish */
+                s.ReturnFields.Add(s.Table.All);
+                var result = s.Records().Select(r => new { KbCategoryItem = r.FromRecord(), /* fetch other fields here */ });</code></pre>
   syntax:
     content: public static KbCategoryRecordData FromRecord(this TargetedDataRecord<KbCategoryTableInfo> record)
     parameters:
@@ -103,9 +114,18 @@ items:
       type: SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.KbCategoryTableInfo}
     return:
       type: SuperOffice.CRM.Rows.KbCategoryRecordData
-    content.vb: Public Shared Function FromRecord(record As TargetedDataRecord(Of KbCategoryTableInfo)) As KbCategoryRecordData
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FromRecord(record As TargetedDataRecord(Of KbCategoryTableInfo)) As KbCategoryRecordData
   overload: SuperOffice.CRM.Rows.KbCategoryRecordDataExtensions.FromRecord*
   nameWithType.vb: KbCategoryRecordDataExtensions.FromRecord(TargetedDataRecord(Of KbCategoryTableInfo))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
   fullName.vb: SuperOffice.CRM.Rows.KbCategoryRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord(Of SuperOffice.CRM.Data.KbCategoryTableInfo))
   name.vb: FromRecord(TargetedDataRecord(Of KbCategoryTableInfo))
 - uid: SuperOffice.CRM.Rows.KbCategoryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.KbCategoryRecordData)
@@ -120,6 +140,9 @@ items:
   nameWithType: KbCategoryRecordDataExtensions.ToInsert(KbCategoryRecordData)
   fullName: SuperOffice.CRM.Rows.KbCategoryRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.KbCategoryRecordData)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
@@ -130,8 +153,17 @@ items:
       type: SuperOffice.CRM.Rows.KbCategoryRecordData
     return:
       type: SuperOffice.Data.SQL.Insert
-    content.vb: Public Shared Function ToInsert(record As KbCategoryRecordData) As Insert
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToInsert(record As KbCategoryRecordData) As Insert
   overload: SuperOffice.CRM.Rows.KbCategoryRecordDataExtensions.ToInsert*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Rows.KbCategoryRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.KbCategoryRecordData})
   commentId: M:SuperOffice.CRM.Rows.KbCategoryRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.KbCategoryRecordData})
   id: ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.KbCategoryRecordData})
@@ -144,6 +176,9 @@ items:
   nameWithType: KbCategoryRecordDataExtensions.ToInserts(IEnumerable<KbCategoryRecordData>)
   fullName: SuperOffice.CRM.Rows.KbCategoryRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.KbCategoryRecordData>)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
@@ -154,9 +189,18 @@ items:
       type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.KbCategoryRecordData}
     return:
       type: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
-    content.vb: Public Shared Function ToInserts(records As IEnumerable(Of KbCategoryRecordData)) As IEnumerable(Of Insert)
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToInserts(records As IEnumerable(Of KbCategoryRecordData)) As IEnumerable(Of Insert)
   overload: SuperOffice.CRM.Rows.KbCategoryRecordDataExtensions.ToInserts*
   nameWithType.vb: KbCategoryRecordDataExtensions.ToInserts(IEnumerable(Of KbCategoryRecordData))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
   fullName.vb: SuperOffice.CRM.Rows.KbCategoryRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.KbCategoryRecordData))
   name.vb: ToInserts(IEnumerable(Of KbCategoryRecordData))
 - uid: SuperOffice.CRM.Rows.KbCategoryRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.KbCategoryRow)
@@ -171,6 +215,9 @@ items:
   nameWithType: KbCategoryRecordDataExtensions.ToRecordData(KbCategoryRow)
   fullName: SuperOffice.CRM.Rows.KbCategoryRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.KbCategoryRow)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
@@ -181,295 +228,40 @@ items:
       type: SuperOffice.CRM.Rows.KbCategoryRow
     return:
       type: SuperOffice.CRM.Rows.KbCategoryRecordData
-    content.vb: Public Shared Function ToRecordData(row As KbCategoryRow) As KbCategoryRecordData
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToRecordData(row As KbCategoryRow) As KbCategoryRecordData
   overload: SuperOffice.CRM.Rows.KbCategoryRecordDataExtensions.ToRecordData*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 references:
-- uid: SuperOffice.CRM.Rows.KbCategoryRecordData
-  commentId: T:SuperOffice.CRM.Rows.KbCategoryRecordData
-  parent: SuperOffice.CRM.Rows
-  isExternal: true
-  href: SuperOffice.CRM.Rows.KbCategoryRecordData.html
-  name: KbCategoryRecordData
-  nameWithType: KbCategoryRecordData
-  fullName: SuperOffice.CRM.Rows.KbCategoryRecordData
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows
-    name: Rows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows
-    name: Rows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.CRM.Rows.KbCategoryRecordDataExtensions.FromSelect*
   commentId: Overload:SuperOffice.CRM.Rows.KbCategoryRecordDataExtensions.FromSelect
   isExternal: true
-  href: SuperOffice.CRM.Rows.KbCategoryRecordDataExtensions.html#SuperOffice_CRM_Rows_KbCategoryRecordDataExtensions_FromSelect_SuperOffice_Data_SQL_TargetedSelect_SuperOffice_CRM_Data_KbCategoryTableInfo__
   name: FromSelect
   nameWithType: KbCategoryRecordDataExtensions.FromSelect
   fullName: SuperOffice.CRM.Rows.KbCategoryRecordDataExtensions.FromSelect
@@ -477,7 +269,6 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.KbCategoryTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedSelect`1
-  href: SuperOffice.Data.SQL.TargetedSelect-1.html
   name: TargetedSelect<KbCategoryTableInfo>
   nameWithType: TargetedSelect<KbCategoryTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.KbCategoryTableInfo>
@@ -487,32 +278,40 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedSelect`1
     name: TargetedSelect
+    nameWithType: TargetedSelect
+    fullName: SuperOffice.Data.SQL.TargetedSelect
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedSelect-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Data.KbCategoryTableInfo
     name: KbCategoryTableInfo
+    nameWithType: KbCategoryTableInfo
+    fullName: SuperOffice.CRM.Data.KbCategoryTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.KbCategoryTableInfo.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedSelect`1
     name: TargetedSelect
+    nameWithType: TargetedSelect
+    fullName: SuperOffice.Data.SQL.TargetedSelect
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedSelect-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Data.KbCategoryTableInfo
     name: KbCategoryTableInfo
+    nameWithType: KbCategoryTableInfo
+    fullName: SuperOffice.CRM.Data.KbCategoryTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.KbCategoryTableInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.KbCategoryRecordData}
-  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.KbCategoryRecordData}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.KbCategoryRecordData}'
   definition: System.Collections.Generic.IEnumerable`1
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   name: IEnumerable<KbCategoryRecordData>
   nameWithType: IEnumerable<KbCategoryRecordData>
   fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.KbCategoryRecordData>
@@ -522,32 +321,41 @@ references:
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Rows.KbCategoryRecordData
     name: KbCategoryRecordData
+    nameWithType: KbCategoryRecordData
+    fullName: SuperOffice.CRM.Rows.KbCategoryRecordData
     isExternal: true
-    href: SuperOffice.CRM.Rows.KbCategoryRecordData.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Rows.KbCategoryRecordData
     name: KbCategoryRecordData
+    nameWithType: KbCategoryRecordData
+    fullName: SuperOffice.CRM.Rows.KbCategoryRecordData
     isExternal: true
-    href: SuperOffice.CRM.Rows.KbCategoryRecordData.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.TargetedSelect`1
   commentId: T:SuperOffice.Data.SQL.TargetedSelect`1
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.TargetedSelect-1.html
   name: TargetedSelect<MainTableInfo>
   nameWithType: TargetedSelect<MainTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedSelect<MainTableInfo>
@@ -557,127 +365,80 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedSelect`1
     name: TargetedSelect
+    nameWithType: TargetedSelect
+    fullName: SuperOffice.Data.SQL.TargetedSelect
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedSelect-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - name: MainTableInfo
+    nameWithType: MainTableInfo
+    fullName: MainTableInfo
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedSelect`1
     name: TargetedSelect
+    nameWithType: TargetedSelect
+    fullName: SuperOffice.Data.SQL.TargetedSelect
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedSelect-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: MainTableInfo
+    nameWithType: MainTableInfo
+    fullName: MainTableInfo
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL
   commentId: N:SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.SQL
-    name: SQL
-    isExternal: true
-    href: SuperOffice.Data.SQL.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.SQL
-    name: SQL
-    isExternal: true
-    href: SuperOffice.Data.SQL.html
 - uid: System.Collections.Generic.IEnumerable`1
-  commentId: T:System.Collections.Generic.IEnumerable`1
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  name: IEnumerable<T>
-  nameWithType: IEnumerable<T>
-  fullName: System.Collections.Generic.IEnumerable<T>
-  nameWithType.vb: IEnumerable(Of T)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
-  name.vb: IEnumerable(Of T)
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
-  - name: T
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.KbCategoryRecordDataExtensions.FromRecord*
   commentId: Overload:SuperOffice.CRM.Rows.KbCategoryRecordDataExtensions.FromRecord
   isExternal: true
-  href: SuperOffice.CRM.Rows.KbCategoryRecordDataExtensions.html#SuperOffice_CRM_Rows_KbCategoryRecordDataExtensions_FromRecord_SuperOffice_Data_SQL_TargetedDataRecord_SuperOffice_CRM_Data_KbCategoryTableInfo__
   name: FromRecord
   nameWithType: KbCategoryRecordDataExtensions.FromRecord
   fullName: SuperOffice.CRM.Rows.KbCategoryRecordDataExtensions.FromRecord
@@ -685,7 +446,6 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.KbCategoryTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedDataRecord`1
-  href: SuperOffice.Data.SQL.TargetedDataRecord-1.html
   name: TargetedDataRecord<KbCategoryTableInfo>
   nameWithType: TargetedDataRecord<KbCategoryTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedDataRecord<SuperOffice.CRM.Data.KbCategoryTableInfo>
@@ -695,31 +455,47 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
     name: TargetedDataRecord
+    nameWithType: TargetedDataRecord
+    fullName: SuperOffice.Data.SQL.TargetedDataRecord
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedDataRecord-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Data.KbCategoryTableInfo
     name: KbCategoryTableInfo
+    nameWithType: KbCategoryTableInfo
+    fullName: SuperOffice.CRM.Data.KbCategoryTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.KbCategoryTableInfo.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
     name: TargetedDataRecord
+    nameWithType: TargetedDataRecord
+    fullName: SuperOffice.Data.SQL.TargetedDataRecord
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedDataRecord-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Data.KbCategoryTableInfo
     name: KbCategoryTableInfo
+    nameWithType: KbCategoryTableInfo
+    fullName: SuperOffice.CRM.Data.KbCategoryTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.KbCategoryTableInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.KbCategoryRecordData
+  commentId: T:SuperOffice.CRM.Rows.KbCategoryRecordData
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: KbCategoryRecordData
+  nameWithType: KbCategoryRecordData
+  fullName: SuperOffice.CRM.Rows.KbCategoryRecordData
 - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
   commentId: T:SuperOffice.Data.SQL.TargetedDataRecord`1
   isExternal: true
-  href: SuperOffice.Data.SQL.TargetedDataRecord-1.html
   name: TargetedDataRecord<MainTableInfo>
   nameWithType: TargetedDataRecord<MainTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedDataRecord<MainTableInfo>
@@ -729,25 +505,36 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
     name: TargetedDataRecord
+    nameWithType: TargetedDataRecord
+    fullName: SuperOffice.Data.SQL.TargetedDataRecord
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedDataRecord-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - name: MainTableInfo
+    nameWithType: MainTableInfo
+    fullName: MainTableInfo
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
     name: TargetedDataRecord
+    nameWithType: TargetedDataRecord
+    fullName: SuperOffice.Data.SQL.TargetedDataRecord
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedDataRecord-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: MainTableInfo
+    nameWithType: MainTableInfo
+    fullName: MainTableInfo
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.KbCategoryRecordDataExtensions.ToInsert*
   commentId: Overload:SuperOffice.CRM.Rows.KbCategoryRecordDataExtensions.ToInsert
   isExternal: true
-  href: SuperOffice.CRM.Rows.KbCategoryRecordDataExtensions.html#SuperOffice_CRM_Rows_KbCategoryRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_KbCategoryRecordData_
   name: ToInsert
   nameWithType: KbCategoryRecordDataExtensions.ToInsert
   fullName: SuperOffice.CRM.Rows.KbCategoryRecordDataExtensions.ToInsert
@@ -755,22 +542,18 @@ references:
   commentId: T:SuperOffice.Data.SQL.Insert
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.Insert.html
   name: Insert
   nameWithType: Insert
   fullName: SuperOffice.Data.SQL.Insert
 - uid: SuperOffice.CRM.Rows.KbCategoryRecordDataExtensions.ToInserts*
   commentId: Overload:SuperOffice.CRM.Rows.KbCategoryRecordDataExtensions.ToInserts
   isExternal: true
-  href: SuperOffice.CRM.Rows.KbCategoryRecordDataExtensions.html#SuperOffice_CRM_Rows_KbCategoryRecordDataExtensions_ToInserts_System_Collections_Generic_IEnumerable_SuperOffice_CRM_Rows_KbCategoryRecordData__
   name: ToInserts
   nameWithType: KbCategoryRecordDataExtensions.ToInserts
   fullName: SuperOffice.CRM.Rows.KbCategoryRecordDataExtensions.ToInserts
 - uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
-  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}'
   definition: System.Collections.Generic.IEnumerable`1
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   name: IEnumerable<Insert>
   nameWithType: IEnumerable<Insert>
   fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.Insert>
@@ -780,31 +563,40 @@ references:
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.Data.SQL.Insert
     name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
     isExternal: true
-    href: SuperOffice.Data.SQL.Insert.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.Data.SQL.Insert
     name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
     isExternal: true
-    href: SuperOffice.Data.SQL.Insert.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.KbCategoryRecordDataExtensions.ToRecordData*
   commentId: Overload:SuperOffice.CRM.Rows.KbCategoryRecordDataExtensions.ToRecordData
   isExternal: true
-  href: SuperOffice.CRM.Rows.KbCategoryRecordDataExtensions.html#SuperOffice_CRM_Rows_KbCategoryRecordDataExtensions_ToRecordData_SuperOffice_CRM_Rows_KbCategoryRow_
   name: ToRecordData
   nameWithType: KbCategoryRecordDataExtensions.ToRecordData
   fullName: SuperOffice.CRM.Rows.KbCategoryRecordDataExtensions.ToRecordData
@@ -812,7 +604,6 @@ references:
   commentId: T:SuperOffice.CRM.Rows.KbCategoryRow
   parent: SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.CRM.Rows.KbCategoryRow.html
   name: KbCategoryRow
   nameWithType: KbCategoryRow
   fullName: SuperOffice.CRM.Rows.KbCategoryRow

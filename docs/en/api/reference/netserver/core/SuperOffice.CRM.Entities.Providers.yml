@@ -8,6 +8,7 @@ items:
   - SuperOffice.CRM.Entities.Providers.ContactInfoProvider
   - SuperOffice.CRM.Entities.Providers.ContactPersonInfoProviderBase
   - SuperOffice.CRM.Entities.Providers.DocumentInfoProvider
+  - SuperOffice.CRM.Entities.Providers.InfoUdefDict
   - SuperOffice.CRM.Entities.Providers.ISimpleAppointmentInfoPopulator
   - SuperOffice.CRM.Entities.Providers.ISimpleContactInfoPopulator
   - SuperOffice.CRM.Entities.Providers.ISimpleDocumentInfoPopulator
@@ -15,7 +16,6 @@ items:
   - SuperOffice.CRM.Entities.Providers.ISimpleProjectInfoPopulator
   - SuperOffice.CRM.Entities.Providers.ISimpleSaleInfoPopulator
   - SuperOffice.CRM.Entities.Providers.ISimpleSelectionInfoPopulator
-  - SuperOffice.CRM.Entities.Providers.InfoUdefDict
   - SuperOffice.CRM.Entities.Providers.PersonInfoProvider
   - SuperOffice.CRM.Entities.Providers.ProjectInfoProvider
   - SuperOffice.CRM.Entities.Providers.SaleInfoProvider
@@ -42,14 +42,12 @@ references:
 - uid: SuperOffice.CRM.Entities.Providers.AppointmentInfoProvider
   commentId: T:SuperOffice.CRM.Entities.Providers.AppointmentInfoProvider
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.AppointmentInfoProvider.html
   name: AppointmentInfoProvider
   nameWithType: AppointmentInfoProvider
   fullName: SuperOffice.CRM.Entities.Providers.AppointmentInfoProvider
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider
   commentId: T:SuperOffice.CRM.Entities.Providers.ContactInfoProvider
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.html
   name: ContactInfoProvider
   nameWithType: ContactInfoProvider
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider
@@ -57,42 +55,36 @@ references:
   commentId: T:SuperOffice.CRM.Entities.Providers.ContactPersonInfoProviderBase
   parent: SuperOffice.CRM.Entities.Providers
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.ContactPersonInfoProviderBase.html
   name: ContactPersonInfoProviderBase
   nameWithType: ContactPersonInfoProviderBase
   fullName: SuperOffice.CRM.Entities.Providers.ContactPersonInfoProviderBase
 - uid: SuperOffice.CRM.Entities.Providers.DocumentInfoProvider
   commentId: T:SuperOffice.CRM.Entities.Providers.DocumentInfoProvider
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.DocumentInfoProvider.html
   name: DocumentInfoProvider
   nameWithType: DocumentInfoProvider
   fullName: SuperOffice.CRM.Entities.Providers.DocumentInfoProvider
 - uid: SuperOffice.CRM.Entities.Providers.PersonInfoProvider
   commentId: T:SuperOffice.CRM.Entities.Providers.PersonInfoProvider
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.PersonInfoProvider.html
   name: PersonInfoProvider
   nameWithType: PersonInfoProvider
   fullName: SuperOffice.CRM.Entities.Providers.PersonInfoProvider
 - uid: SuperOffice.CRM.Entities.Providers.ProjectInfoProvider
   commentId: T:SuperOffice.CRM.Entities.Providers.ProjectInfoProvider
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.ProjectInfoProvider.html
   name: ProjectInfoProvider
   nameWithType: ProjectInfoProvider
   fullName: SuperOffice.CRM.Entities.Providers.ProjectInfoProvider
 - uid: SuperOffice.CRM.Entities.Providers.SaleInfoProvider
   commentId: T:SuperOffice.CRM.Entities.Providers.SaleInfoProvider
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.SaleInfoProvider.html
   name: SaleInfoProvider
   nameWithType: SaleInfoProvider
   fullName: SuperOffice.CRM.Entities.Providers.SaleInfoProvider
 - uid: SuperOffice.CRM.Entities.Providers.SelectionInfoProvider
   commentId: T:SuperOffice.CRM.Entities.Providers.SelectionInfoProvider
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.SelectionInfoProvider.html
   name: SelectionInfoProvider
   nameWithType: SelectionInfoProvider
   fullName: SuperOffice.CRM.Entities.Providers.SelectionInfoProvider
@@ -100,7 +92,6 @@ references:
   commentId: T:SuperOffice.CRM.Entities.Providers.InfoUdefDict
   parent: SuperOffice.CRM.Entities.Providers
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.InfoUdefDict.html
   name: InfoUdefDict
   nameWithType: InfoUdefDict
   fullName: SuperOffice.CRM.Entities.Providers.InfoUdefDict
@@ -108,14 +99,12 @@ references:
   commentId: T:SuperOffice.CRM.Entities.Providers.SimpleAppointmentInfo
   parent: SuperOffice.CRM.Entities.Providers
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.SimpleAppointmentInfo.html
   name: SimpleAppointmentInfo
   nameWithType: SimpleAppointmentInfo
   fullName: SuperOffice.CRM.Entities.Providers.SimpleAppointmentInfo
 - uid: SuperOffice.CRM.Entities.Providers.ISimpleAppointmentInfoPopulator
   commentId: T:SuperOffice.CRM.Entities.Providers.ISimpleAppointmentInfoPopulator
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.ISimpleAppointmentInfoPopulator.html
   name: ISimpleAppointmentInfoPopulator
   nameWithType: ISimpleAppointmentInfoPopulator
   fullName: SuperOffice.CRM.Entities.Providers.ISimpleAppointmentInfoPopulator
@@ -123,14 +112,12 @@ references:
   commentId: T:SuperOffice.CRM.Entities.Providers.SimpleContactInfo
   parent: SuperOffice.CRM.Entities.Providers
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.SimpleContactInfo.html
   name: SimpleContactInfo
   nameWithType: SimpleContactInfo
   fullName: SuperOffice.CRM.Entities.Providers.SimpleContactInfo
 - uid: SuperOffice.CRM.Entities.Providers.ISimpleContactInfoPopulator
   commentId: T:SuperOffice.CRM.Entities.Providers.ISimpleContactInfoPopulator
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.ISimpleContactInfoPopulator.html
   name: ISimpleContactInfoPopulator
   nameWithType: ISimpleContactInfoPopulator
   fullName: SuperOffice.CRM.Entities.Providers.ISimpleContactInfoPopulator
@@ -138,7 +125,6 @@ references:
   commentId: T:SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo
   parent: SuperOffice.CRM.Entities.Providers
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.html
   name: SimpleDocumentTemplateInfo
   nameWithType: SimpleDocumentTemplateInfo
   fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo
@@ -146,14 +132,12 @@ references:
   commentId: T:SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo
   parent: SuperOffice.CRM.Entities.Providers
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.html
   name: SimpleDocumentInfo
   nameWithType: SimpleDocumentInfo
   fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo
 - uid: SuperOffice.CRM.Entities.Providers.ISimpleDocumentInfoPopulator
   commentId: T:SuperOffice.CRM.Entities.Providers.ISimpleDocumentInfoPopulator
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.ISimpleDocumentInfoPopulator.html
   name: ISimpleDocumentInfoPopulator
   nameWithType: ISimpleDocumentInfoPopulator
   fullName: SuperOffice.CRM.Entities.Providers.ISimpleDocumentInfoPopulator
@@ -161,14 +145,12 @@ references:
   commentId: T:SuperOffice.CRM.Entities.Providers.SimplePersonInfo
   parent: SuperOffice.CRM.Entities.Providers
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.SimplePersonInfo.html
   name: SimplePersonInfo
   nameWithType: SimplePersonInfo
   fullName: SuperOffice.CRM.Entities.Providers.SimplePersonInfo
 - uid: SuperOffice.CRM.Entities.Providers.ISimplePersonInfoPopulator
   commentId: T:SuperOffice.CRM.Entities.Providers.ISimplePersonInfoPopulator
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.ISimplePersonInfoPopulator.html
   name: ISimplePersonInfoPopulator
   nameWithType: ISimplePersonInfoPopulator
   fullName: SuperOffice.CRM.Entities.Providers.ISimplePersonInfoPopulator
@@ -176,14 +158,12 @@ references:
   commentId: T:SuperOffice.CRM.Entities.Providers.SimpleProjectInfo
   parent: SuperOffice.CRM.Entities.Providers
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo.html
   name: SimpleProjectInfo
   nameWithType: SimpleProjectInfo
   fullName: SuperOffice.CRM.Entities.Providers.SimpleProjectInfo
 - uid: SuperOffice.CRM.Entities.Providers.ISimpleProjectInfoPopulator
   commentId: T:SuperOffice.CRM.Entities.Providers.ISimpleProjectInfoPopulator
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.ISimpleProjectInfoPopulator.html
   name: ISimpleProjectInfoPopulator
   nameWithType: ISimpleProjectInfoPopulator
   fullName: SuperOffice.CRM.Entities.Providers.ISimpleProjectInfoPopulator
@@ -191,14 +171,12 @@ references:
   commentId: T:SuperOffice.CRM.Entities.Providers.SimpleSaleInfo
   parent: SuperOffice.CRM.Entities.Providers
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.SimpleSaleInfo.html
   name: SimpleSaleInfo
   nameWithType: SimpleSaleInfo
   fullName: SuperOffice.CRM.Entities.Providers.SimpleSaleInfo
 - uid: SuperOffice.CRM.Entities.Providers.ISimpleSaleInfoPopulator
   commentId: T:SuperOffice.CRM.Entities.Providers.ISimpleSaleInfoPopulator
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.ISimpleSaleInfoPopulator.html
   name: ISimpleSaleInfoPopulator
   nameWithType: ISimpleSaleInfoPopulator
   fullName: SuperOffice.CRM.Entities.Providers.ISimpleSaleInfoPopulator
@@ -206,68 +184,24 @@ references:
   commentId: T:SuperOffice.CRM.Entities.Providers.SimpleSelectionInfo
   parent: SuperOffice.CRM.Entities.Providers
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.SimpleSelectionInfo.html
   name: SimpleSelectionInfo
   nameWithType: SimpleSelectionInfo
   fullName: SuperOffice.CRM.Entities.Providers.SimpleSelectionInfo
 - uid: SuperOffice.CRM.Entities.Providers.ISimpleSelectionInfoPopulator
   commentId: T:SuperOffice.CRM.Entities.Providers.ISimpleSelectionInfoPopulator
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.ISimpleSelectionInfoPopulator.html
   name: ISimpleSelectionInfoPopulator
   nameWithType: ISimpleSelectionInfoPopulator
   fullName: SuperOffice.CRM.Entities.Providers.ISimpleSelectionInfoPopulator
 - uid: SuperOffice.CRM.Entities.Providers.UDefInfoProvider
   commentId: T:SuperOffice.CRM.Entities.Providers.UDefInfoProvider
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.UDefInfoProvider.html
   name: UDefInfoProvider
   nameWithType: UDefInfoProvider
   fullName: SuperOffice.CRM.Entities.Providers.UDefInfoProvider
 - uid: SuperOffice.CRM.Entities.Providers
   commentId: N:SuperOffice.CRM.Entities.Providers
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Entities.Providers
   nameWithType: SuperOffice.CRM.Entities.Providers
   fullName: SuperOffice.CRM.Entities.Providers
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Entities
-    name: Entities
-    isExternal: true
-    href: SuperOffice.CRM.Entities.html
-  - name: .
-  - uid: SuperOffice.CRM.Entities.Providers
-    name: Providers
-    isExternal: true
-    href: SuperOffice.CRM.Entities.Providers.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Entities
-    name: Entities
-    isExternal: true
-    href: SuperOffice.CRM.Entities.html
-  - name: .
-  - uid: SuperOffice.CRM.Entities.Providers
-    name: Providers
-    isExternal: true
-    href: SuperOffice.CRM.Entities.Providers.html

@@ -13,32 +13,69 @@ items:
   - SuperOffice.CRM.FieldMetadataTypeInfo.List
   - SuperOffice.CRM.FieldMetadataTypeInfo.Password
   - SuperOffice.CRM.FieldMetadataTypeInfo.Text
+  - SuperOffice.CRM.FieldMetadataTypeInfo.value__
   langs:
   - csharp
   - vb
   name: FieldMetadataTypeInfo
   nameWithType: FieldMetadataTypeInfo
   fullName: SuperOffice.CRM.FieldMetadataTypeInfo
-  type: Enum
+  type: Class
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: Describes the different widgets that the Connector can use in its configuration dialog.
-  remarks: >-
-    Note #1: Enum is mirrored in C++ code, update iEnum.h when it changes
-
-    <p></p>
-
-    Note #2: Enum is mirrored in data model (Enums.cs), which also needs to be updated if this changes
-  example: []
+  summary: "\nDescribes the different widgets that the Connector can use in its configuration dialog.\n"
+  remarks: "\nNote #1: Enum is mirrored in C++ code, update iEnum.h when it changes\n<p></p>\nNote #2: Enum is mirrored in data model (Enums.cs), which also needs to be updated if this changes\n"
   syntax:
-    content: public enum FieldMetadataTypeInfo
-    content.vb: Public Enum FieldMetadataTypeInfo
+    content: 'public sealed class FieldMetadataTypeInfo : Enum'
+    content.vb: >-
+      Public NotInheritable Class FieldMetadataTypeInfo
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
+  - SuperOffice.CRM.FieldMetadataTypeInfo.EnumUtil.ConvertToFieldMetadataType
   - SuperOffice.CRM.FieldMetadataTypeInfo.EnumUtil.MapEnums``2
   - SuperOffice.CRM.FieldMetadataTypeInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  - SuperOffice.CRM.FieldMetadataTypeInfo.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.FieldMetadataTypeInfo)
-  - SuperOffice.CRM.FieldMetadataTypeInfo.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.CRM.FieldMetadataTypeInfo.value__
+  commentId: F:SuperOffice.CRM.FieldMetadataTypeInfo.value__
+  id: value__
+  parent: SuperOffice.CRM.FieldMetadataTypeInfo
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: FieldMetadataTypeInfo.value__
+  fullName: SuperOffice.CRM.FieldMetadataTypeInfo.value__
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.FieldMetadataTypeInfo.Checkbox
   commentId: F:SuperOffice.CRM.FieldMetadataTypeInfo.Checkbox
   id: Checkbox
@@ -50,15 +87,24 @@ items:
   nameWithType: FieldMetadataTypeInfo.Checkbox
   fullName: SuperOffice.CRM.FieldMetadataTypeInfo.Checkbox
   type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: 'Checkbox widget: Boolean value'
-  example: []
+  summary: "\nCheckbox widget: Boolean value  \n"
   syntax:
-    content: Checkbox = 0
+    content: public const FieldMetadataTypeInfo Checkbox
     return:
       type: SuperOffice.CRM.FieldMetadataTypeInfo
+    content.vb: Public Const Checkbox As FieldMetadataTypeInfo
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FieldMetadataTypeInfo.Text
   commentId: F:SuperOffice.CRM.FieldMetadataTypeInfo.Text
   id: Text
@@ -70,15 +116,24 @@ items:
   nameWithType: FieldMetadataTypeInfo.Text
   fullName: SuperOffice.CRM.FieldMetadataTypeInfo.Text
   type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: Single line textbox.
-  example: []
+  summary: "\nSingle line textbox.\n"
   syntax:
-    content: Text = 1
+    content: public const FieldMetadataTypeInfo Text
     return:
       type: SuperOffice.CRM.FieldMetadataTypeInfo
+    content.vb: Public Const Text As FieldMetadataTypeInfo
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FieldMetadataTypeInfo.Password
   commentId: F:SuperOffice.CRM.FieldMetadataTypeInfo.Password
   id: Password
@@ -90,15 +145,24 @@ items:
   nameWithType: FieldMetadataTypeInfo.Password
   fullName: SuperOffice.CRM.FieldMetadataTypeInfo.Password
   type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: Single line edit field with password characters - input is hidden.
-  example: []
+  summary: "\nSingle line edit field with password characters - input is hidden.\n"
   syntax:
-    content: Password = 2
+    content: public const FieldMetadataTypeInfo Password
     return:
       type: SuperOffice.CRM.FieldMetadataTypeInfo
+    content.vb: Public Const Password As FieldMetadataTypeInfo
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FieldMetadataTypeInfo.Integer
   commentId: F:SuperOffice.CRM.FieldMetadataTypeInfo.Integer
   id: Integer
@@ -110,15 +174,24 @@ items:
   nameWithType: FieldMetadataTypeInfo.Integer
   fullName: SuperOffice.CRM.FieldMetadataTypeInfo.Integer
   type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: Single line integer number field.
-  example: []
+  summary: "\nSingle line integer number field. \n"
   syntax:
-    content: Integer = 3
+    content: public const FieldMetadataTypeInfo Integer
     return:
       type: SuperOffice.CRM.FieldMetadataTypeInfo
+    content.vb: Public Const Integer As FieldMetadataTypeInfo
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FieldMetadataTypeInfo.Double
   commentId: F:SuperOffice.CRM.FieldMetadataTypeInfo.Double
   id: Double
@@ -130,15 +203,24 @@ items:
   nameWithType: FieldMetadataTypeInfo.Double
   fullName: SuperOffice.CRM.FieldMetadataTypeInfo.Double
   type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: Single line decimal number field.
-  example: []
+  summary: "\nSingle line decimal number field. \n"
   syntax:
-    content: Double = 4
+    content: public const FieldMetadataTypeInfo Double
     return:
       type: SuperOffice.CRM.FieldMetadataTypeInfo
+    content.vb: Public Const Double As FieldMetadataTypeInfo
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FieldMetadataTypeInfo.List
   commentId: F:SuperOffice.CRM.FieldMetadataTypeInfo.List
   id: List
@@ -150,18 +232,24 @@ items:
   nameWithType: FieldMetadataTypeInfo.List
   fullName: SuperOffice.CRM.FieldMetadataTypeInfo.List
   type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: >-
-    Dropdown listbox. The list name must be provided. The list items are provided by another method.
-
-    The default value should be the list key, not the text of the list item.
-  example: []
+  summary: "\nDropdown listbox. The list name must be provided. The list items are provided by another method.\nThe default value should be the list key, not the text of the list item.\n"
   syntax:
-    content: List = 5
+    content: public const FieldMetadataTypeInfo List
     return:
       type: SuperOffice.CRM.FieldMetadataTypeInfo
+    content.vb: Public Const List As FieldMetadataTypeInfo
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FieldMetadataTypeInfo.Datetime
   commentId: F:SuperOffice.CRM.FieldMetadataTypeInfo.Datetime
   id: Datetime
@@ -173,15 +261,24 @@ items:
   nameWithType: FieldMetadataTypeInfo.Datetime
   fullName: SuperOffice.CRM.FieldMetadataTypeInfo.Datetime
   type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: Datetime
-  example: []
+  summary: "\nDatetime\n"
   syntax:
-    content: Datetime = 6
+    content: public const FieldMetadataTypeInfo Datetime
     return:
       type: SuperOffice.CRM.FieldMetadataTypeInfo
+    content.vb: Public Const Datetime As FieldMetadataTypeInfo
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.FieldMetadataTypeInfo.Label
   commentId: F:SuperOffice.CRM.FieldMetadataTypeInfo.Label
   id: Label
@@ -193,259 +290,192 @@ items:
   nameWithType: FieldMetadataTypeInfo.Label
   fullName: SuperOffice.CRM.FieldMetadataTypeInfo.Label
   type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: Static text - has no input widget associated with it. Can be used for spacing/layout.
-  example: []
+  summary: "\nStatic text - has no input widget associated with it. Can be used for spacing/layout.\n"
   syntax:
-    content: Label = 99
+    content: public const FieldMetadataTypeInfo Label
     return:
       type: SuperOffice.CRM.FieldMetadataTypeInfo
+    content.vb: Public Const Label As FieldMetadataTypeInfo
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.CRM
   commentId: N:SuperOffice.CRM
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM
   nameWithType: SuperOffice.CRM
   fullName: SuperOffice.CRM
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.FieldMetadataTypeInfo.EnumUtil.ConvertToFieldMetadataType
+  commentId: M:EnumUtil.ConvertToFieldMetadataType(SuperOffice.CRM.FieldMetadataTypeInfo)
+  parent: EnumUtil
+  definition: EnumUtil.ConvertToFieldMetadataType(SuperOffice.CRM.FieldMetadataTypeInfo)
+  name: ConvertToFieldMetadataType()
+  nameWithType: EnumUtil.ConvertToFieldMetadataType()
+  fullName: EnumUtil.ConvertToFieldMetadataType()
   spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: EnumUtil.ConvertToFieldMetadataType
+    name: ConvertToFieldMetadataType
+    nameWithType: EnumUtil.ConvertToFieldMetadataType
+    fullName: EnumUtil.ConvertToFieldMetadataType
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: EnumUtil.ConvertToFieldMetadataType
+    name: ConvertToFieldMetadataType
+    nameWithType: EnumUtil.ConvertToFieldMetadataType
+    fullName: EnumUtil.ConvertToFieldMetadataType
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.FieldMetadataTypeInfo.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<FieldMetadataTypeInfo, To>(FieldMetadataTypeInfo)
-  nameWithType: EnumUtil.MapEnums<FieldMetadataTypeInfo, To>(FieldMetadataTypeInfo)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.FieldMetadataTypeInfo, To>(SuperOffice.CRM.FieldMetadataTypeInfo)
-  nameWithType.vb: EnumUtil.MapEnums(Of FieldMetadataTypeInfo, To)(FieldMetadataTypeInfo)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.FieldMetadataTypeInfo, To)(SuperOffice.CRM.FieldMetadataTypeInfo)
-  name.vb: MapEnums(Of FieldMetadataTypeInfo, To)(FieldMetadataTypeInfo)
+  name: MapEnums<FieldMetadataTypeInfo, To>()
+  nameWithType: EnumUtil.MapEnums<FieldMetadataTypeInfo, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.FieldMetadataTypeInfo, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of FieldMetadataTypeInfo, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.FieldMetadataTypeInfo, To)()
+  name.vb: MapEnums(Of FieldMetadataTypeInfo, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.FieldMetadataTypeInfo)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<FieldMetadataTypeInfo, To>
+    nameWithType: EnumUtil.MapEnums<FieldMetadataTypeInfo, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.FieldMetadataTypeInfo, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.FieldMetadataTypeInfo
-    name: FieldMetadataTypeInfo
-    isExternal: true
-    href: SuperOffice.CRM.FieldMetadataTypeInfo.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.FieldMetadataTypeInfo
-    name: FieldMetadataTypeInfo
-    isExternal: true
-    href: SuperOffice.CRM.FieldMetadataTypeInfo.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.FieldMetadataTypeInfo)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of FieldMetadataTypeInfo, To)
+    nameWithType: EnumUtil.MapEnums(Of FieldMetadataTypeInfo, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.FieldMetadataTypeInfo, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.FieldMetadataTypeInfo
-    name: FieldMetadataTypeInfo
-    isExternal: true
-    href: SuperOffice.CRM.FieldMetadataTypeInfo.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.FieldMetadataTypeInfo
-    name: FieldMetadataTypeInfo
-    isExternal: true
-    href: SuperOffice.CRM.FieldMetadataTypeInfo.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.FieldMetadataTypeInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<FieldMetadataTypeInfo, To>(FieldMetadataTypeInfo)
-  nameWithType: Converters.MapEnums<FieldMetadataTypeInfo, To>(FieldMetadataTypeInfo)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.FieldMetadataTypeInfo, To>(SuperOffice.CRM.FieldMetadataTypeInfo)
-  nameWithType.vb: Converters.MapEnums(Of FieldMetadataTypeInfo, To)(FieldMetadataTypeInfo)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.FieldMetadataTypeInfo, To)(SuperOffice.CRM.FieldMetadataTypeInfo)
-  name.vb: MapEnums(Of FieldMetadataTypeInfo, To)(FieldMetadataTypeInfo)
+  name: MapEnums<FieldMetadataTypeInfo, To>()
+  nameWithType: Converters.MapEnums<FieldMetadataTypeInfo, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.FieldMetadataTypeInfo, To>()
+  nameWithType.vb: Converters.MapEnums(Of FieldMetadataTypeInfo, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.FieldMetadataTypeInfo, To)()
+  name.vb: MapEnums(Of FieldMetadataTypeInfo, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.FieldMetadataTypeInfo)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<FieldMetadataTypeInfo, To>
+    nameWithType: Converters.MapEnums<FieldMetadataTypeInfo, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.FieldMetadataTypeInfo, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.FieldMetadataTypeInfo
-    name: FieldMetadataTypeInfo
-    isExternal: true
-    href: SuperOffice.CRM.FieldMetadataTypeInfo.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.FieldMetadataTypeInfo
-    name: FieldMetadataTypeInfo
-    isExternal: true
-    href: SuperOffice.CRM.FieldMetadataTypeInfo.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.FieldMetadataTypeInfo)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of FieldMetadataTypeInfo, To)
+    nameWithType: Converters.MapEnums(Of FieldMetadataTypeInfo, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.FieldMetadataTypeInfo, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.FieldMetadataTypeInfo
-    name: FieldMetadataTypeInfo
-    isExternal: true
-    href: SuperOffice.CRM.FieldMetadataTypeInfo.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.FieldMetadataTypeInfo
-    name: FieldMetadataTypeInfo
-    isExternal: true
-    href: SuperOffice.CRM.FieldMetadataTypeInfo.html
-  - name: )
-- uid: SuperOffice.CRM.FieldMetadataTypeInfo.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.FieldMetadataTypeInfo)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<FieldMetadataTypeInfo>(FieldMetadataTypeInfo, FieldMetadataTypeInfo)
-  nameWithType: ObjectExtensions.AssignByReflection<FieldMetadataTypeInfo>(FieldMetadataTypeInfo, FieldMetadataTypeInfo)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.FieldMetadataTypeInfo>(SuperOffice.CRM.FieldMetadataTypeInfo, SuperOffice.CRM.FieldMetadataTypeInfo)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of FieldMetadataTypeInfo)(FieldMetadataTypeInfo, FieldMetadataTypeInfo)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.FieldMetadataTypeInfo)(SuperOffice.CRM.FieldMetadataTypeInfo, SuperOffice.CRM.FieldMetadataTypeInfo)
-  name.vb: AssignByReflection(Of FieldMetadataTypeInfo)(FieldMetadataTypeInfo, FieldMetadataTypeInfo)
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.ConvertToFieldMetadataType(SuperOffice.CRM.FieldMetadataTypeInfo)
+  commentId: M:EnumUtil.ConvertToFieldMetadataType(SuperOffice.CRM.FieldMetadataTypeInfo)
+  isExternal: true
+  name: ConvertToFieldMetadataType(FieldMetadataTypeInfo)
+  nameWithType: EnumUtil.ConvertToFieldMetadataType(FieldMetadataTypeInfo)
+  fullName: EnumUtil.ConvertToFieldMetadataType(SuperOffice.CRM.FieldMetadataTypeInfo)
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.FieldMetadataTypeInfo,SuperOffice.CRM.FieldMetadataTypeInfo)
-    name: AssignByReflection
+  - uid: EnumUtil.ConvertToFieldMetadataType(SuperOffice.CRM.FieldMetadataTypeInfo)
+    name: ConvertToFieldMetadataType
+    nameWithType: EnumUtil.ConvertToFieldMetadataType
+    fullName: EnumUtil.ConvertToFieldMetadataType
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.CRM.FieldMetadataTypeInfo
-    name: FieldMetadataTypeInfo
-    isExternal: true
-    href: SuperOffice.CRM.FieldMetadataTypeInfo.html
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.FieldMetadataTypeInfo
     name: FieldMetadataTypeInfo
+    nameWithType: FieldMetadataTypeInfo
+    fullName: SuperOffice.CRM.FieldMetadataTypeInfo
     isExternal: true
-    href: SuperOffice.CRM.FieldMetadataTypeInfo.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.FieldMetadataTypeInfo
-    name: FieldMetadataTypeInfo
-    isExternal: true
-    href: SuperOffice.CRM.FieldMetadataTypeInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.FieldMetadataTypeInfo,SuperOffice.CRM.FieldMetadataTypeInfo)
-    name: AssignByReflection
+  - uid: EnumUtil.ConvertToFieldMetadataType(SuperOffice.CRM.FieldMetadataTypeInfo)
+    name: ConvertToFieldMetadataType
+    nameWithType: EnumUtil.ConvertToFieldMetadataType
+    fullName: EnumUtil.ConvertToFieldMetadataType
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.FieldMetadataTypeInfo
     name: FieldMetadataTypeInfo
+    nameWithType: FieldMetadataTypeInfo
+    fullName: SuperOffice.CRM.FieldMetadataTypeInfo
     isExternal: true
-    href: SuperOffice.CRM.FieldMetadataTypeInfo.html
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.FieldMetadataTypeInfo
-    name: FieldMetadataTypeInfo
-    isExternal: true
-    href: SuperOffice.CRM.FieldMetadataTypeInfo.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.FieldMetadataTypeInfo
-    name: FieldMetadataTypeInfo
-    isExternal: true
-    href: SuperOffice.CRM.FieldMetadataTypeInfo.html
-  - name: )
-- uid: SuperOffice.CRM.FieldMetadataTypeInfo.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<FieldMetadataTypeInfo>(FieldMetadataTypeInfo)
-  nameWithType: ObjectExtensions.GraphCopy<FieldMetadataTypeInfo>(FieldMetadataTypeInfo)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.FieldMetadataTypeInfo>(SuperOffice.CRM.FieldMetadataTypeInfo)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of FieldMetadataTypeInfo)(FieldMetadataTypeInfo)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.FieldMetadataTypeInfo)(SuperOffice.CRM.FieldMetadataTypeInfo)
-  name.vb: GraphCopy(Of FieldMetadataTypeInfo)(FieldMetadataTypeInfo)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.FieldMetadataTypeInfo)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.CRM.FieldMetadataTypeInfo
-    name: FieldMetadataTypeInfo
-    isExternal: true
-    href: SuperOffice.CRM.FieldMetadataTypeInfo.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.CRM.FieldMetadataTypeInfo
-    name: FieldMetadataTypeInfo
-    isExternal: true
-    href: SuperOffice.CRM.FieldMetadataTypeInfo.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.FieldMetadataTypeInfo)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.FieldMetadataTypeInfo
-    name: FieldMetadataTypeInfo
-    isExternal: true
-    href: SuperOffice.CRM.FieldMetadataTypeInfo.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.CRM.FieldMetadataTypeInfo
-    name: FieldMetadataTypeInfo
-    isExternal: true
-    href: SuperOffice.CRM.FieldMetadataTypeInfo.html
-  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -454,45 +484,37 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
-- uid: EnumUtil
-  commentId: T:EnumUtil
-  isExternal: true
-  href: EnumUtil.html
-  name: EnumUtil
-  nameWithType: EnumUtil
-  fullName: EnumUtil
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -501,193 +523,58 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.FieldMetadataTypeInfo
   commentId: T:SuperOffice.CRM.FieldMetadataTypeInfo
   parent: SuperOffice.CRM
   isExternal: true
-  href: SuperOffice.CRM.FieldMetadataTypeInfo.html
   name: FieldMetadataTypeInfo
   nameWithType: FieldMetadataTypeInfo
   fullName: SuperOffice.CRM.FieldMetadataTypeInfo

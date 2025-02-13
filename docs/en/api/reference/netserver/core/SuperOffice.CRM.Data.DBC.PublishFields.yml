@@ -25,24 +25,27 @@ items:
   nameWithType: DBC.PublishFields
   fullName: SuperOffice.CRM.Data.DBC.PublishFields
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Fields for Publish, Publishing system for external users
-  example: []
+  summary: "\nFields for Publish, Publishing system for external users\n"
   syntax:
-    content: public static class DBC.PublishFields
-    content.vb: Public Module DBC.PublishFields
+    content: 'public static class PublishFields : Object'
+    content.vb: >-
+      Public Module PublishFields
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
 - uid: SuperOffice.CRM.Data.DBC.PublishFields.PublishId
   commentId: F:SuperOffice.CRM.Data.DBC.PublishFields.PublishId
   id: PublishId
@@ -54,16 +57,24 @@ items:
   nameWithType: DBC.PublishFields.PublishId
   fullName: SuperOffice.CRM.Data.DBC.PublishFields.PublishId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Publish.PublishId: Primary key'
-  example: []
+  summary: "\nPublish.PublishId: Primary key\n"
   syntax:
     content: public const string PublishId = "Publish_id"
     return:
       type: System.String
     content.vb: Public Const PublishId As String = "Publish_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.PublishFields.TableNumber
   commentId: F:SuperOffice.CRM.Data.DBC.PublishFields.TableNumber
   id: TableNumber
@@ -75,16 +86,24 @@ items:
   nameWithType: DBC.PublishFields.TableNumber
   fullName: SuperOffice.CRM.Data.DBC.PublishFields.TableNumber
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Publish.TableNumber: Table number this record refers to'
-  example: []
+  summary: "\nPublish.TableNumber: Table number this record refers to\n"
   syntax:
     content: public const string TableNumber = "tableNumber"
     return:
       type: System.String
     content.vb: Public Const TableNumber As String = "tableNumber"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.PublishFields.RecordId
   commentId: F:SuperOffice.CRM.Data.DBC.PublishFields.RecordId
   id: RecordId
@@ -96,16 +115,24 @@ items:
   nameWithType: DBC.PublishFields.RecordId
   fullName: SuperOffice.CRM.Data.DBC.PublishFields.RecordId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Publish.RecordId: Record number that has been published'
-  example: []
+  summary: "\nPublish.RecordId: Record number that has been published\n"
   syntax:
     content: public const string RecordId = "recordId"
     return:
       type: System.String
     content.vb: Public Const RecordId As String = "recordId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.PublishFields.PublishType
   commentId: F:SuperOffice.CRM.Data.DBC.PublishFields.PublishType
   id: PublishType
@@ -117,16 +144,24 @@ items:
   nameWithType: DBC.PublishFields.PublishType
   fullName: SuperOffice.CRM.Data.DBC.PublishFields.PublishType
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Publish.PublishType: Type of publishing action, 0 = Unknown, 1 = to external persons'
-  example: []
+  summary: "\nPublish.PublishType: Type of publishing action, 0 = Unknown, 1 = to external persons\n"
   syntax:
     content: public const string PublishType = "publishType"
     return:
       type: System.String
     content.vb: Public Const PublishType As String = "publishType"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.PublishFields.PublishFrom
   commentId: F:SuperOffice.CRM.Data.DBC.PublishFields.PublishFrom
   id: PublishFrom
@@ -138,16 +173,24 @@ items:
   nameWithType: DBC.PublishFields.PublishFrom
   fullName: SuperOffice.CRM.Data.DBC.PublishFields.PublishFrom
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Publish.PublishFrom: Publication valid from (inclusive)'
-  example: []
+  summary: "\nPublish.PublishFrom: Publication valid from (inclusive)\n"
   syntax:
     content: public const string PublishFrom = "publishFrom"
     return:
       type: System.String
     content.vb: Public Const PublishFrom As String = "publishFrom"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.PublishFields.PublishTo
   commentId: F:SuperOffice.CRM.Data.DBC.PublishFields.PublishTo
   id: PublishTo
@@ -159,16 +202,24 @@ items:
   nameWithType: DBC.PublishFields.PublishTo
   fullName: SuperOffice.CRM.Data.DBC.PublishFields.PublishTo
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Publish.PublishTo: Publication valid to (inclusive)'
-  example: []
+  summary: "\nPublish.PublishTo: Publication valid to (inclusive)\n"
   syntax:
     content: public const string PublishTo = "publishTo"
     return:
       type: System.String
     content.vb: Public Const PublishTo As String = "publishTo"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.PublishFields.EventDate
   commentId: F:SuperOffice.CRM.Data.DBC.PublishFields.EventDate
   id: EventDate
@@ -180,16 +231,24 @@ items:
   nameWithType: DBC.PublishFields.EventDate
   fullName: SuperOffice.CRM.Data.DBC.PublishFields.EventDate
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Publish.EventDate: The date an event actually happens; you may want to have some special processing around that date'
-  example: []
+  summary: "\nPublish.EventDate: The date an event actually happens; you may want to have some special processing around that date\n"
   syntax:
     content: public const string EventDate = "eventDate"
     return:
       type: System.String
     content.vb: Public Const EventDate As String = "eventDate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.PublishFields.EncryptedCheck
   commentId: F:SuperOffice.CRM.Data.DBC.PublishFields.EncryptedCheck
   id: EncryptedCheck
@@ -201,16 +260,24 @@ items:
   nameWithType: DBC.PublishFields.EncryptedCheck
   fullName: SuperOffice.CRM.Data.DBC.PublishFields.EncryptedCheck
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Publish.EncryptedCheck: Encrypted data, to detect unwanted changes'
-  example: []
+  summary: "\nPublish.EncryptedCheck: Encrypted data, to detect unwanted changes\n"
   syntax:
     content: public const string EncryptedCheck = "encryptedCheck"
     return:
       type: System.String
     content.vb: Public Const EncryptedCheck As String = "encryptedCheck"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.PublishFields.Registered
   commentId: F:SuperOffice.CRM.Data.DBC.PublishFields.Registered
   id: Registered
@@ -222,16 +289,24 @@ items:
   nameWithType: DBC.PublishFields.Registered
   fullName: SuperOffice.CRM.Data.DBC.PublishFields.Registered
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Publish.Registered: Registered when'
-  example: []
+  summary: "\nPublish.Registered: Registered when\n"
   syntax:
     content: public const string Registered = "registered"
     return:
       type: System.String
     content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.PublishFields.RegisteredAssociateId
   commentId: F:SuperOffice.CRM.Data.DBC.PublishFields.RegisteredAssociateId
   id: RegisteredAssociateId
@@ -243,16 +318,24 @@ items:
   nameWithType: DBC.PublishFields.RegisteredAssociateId
   fullName: SuperOffice.CRM.Data.DBC.PublishFields.RegisteredAssociateId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Publish.RegisteredAssociateId: Registered by whom'
-  example: []
+  summary: "\nPublish.RegisteredAssociateId: Registered by whom\n"
   syntax:
     content: public const string RegisteredAssociateId = "registered_associate_id"
     return:
       type: System.String
     content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.PublishFields.Updated
   commentId: F:SuperOffice.CRM.Data.DBC.PublishFields.Updated
   id: Updated
@@ -264,16 +347,24 @@ items:
   nameWithType: DBC.PublishFields.Updated
   fullName: SuperOffice.CRM.Data.DBC.PublishFields.Updated
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Publish.Updated: Last updated when'
-  example: []
+  summary: "\nPublish.Updated: Last updated when\n"
   syntax:
     content: public const string Updated = "updated"
     return:
       type: System.String
     content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.PublishFields.UpdatedAssociateId
   commentId: F:SuperOffice.CRM.Data.DBC.PublishFields.UpdatedAssociateId
   id: UpdatedAssociateId
@@ -285,16 +376,24 @@ items:
   nameWithType: DBC.PublishFields.UpdatedAssociateId
   fullName: SuperOffice.CRM.Data.DBC.PublishFields.UpdatedAssociateId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Publish.UpdatedAssociateId: Last updated by whom'
-  example: []
+  summary: "\nPublish.UpdatedAssociateId: Last updated by whom\n"
   syntax:
     content: public const string UpdatedAssociateId = "updated_associate_id"
     return:
       type: System.String
     content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.PublishFields.UpdatedCount
   commentId: F:SuperOffice.CRM.Data.DBC.PublishFields.UpdatedCount
   id: UpdatedCount
@@ -306,288 +405,41 @@ items:
   nameWithType: DBC.PublishFields.UpdatedCount
   fullName: SuperOffice.CRM.Data.DBC.PublishFields.UpdatedCount
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Publish.UpdatedCount: Number of updates made to this record'
-  example: []
+  summary: "\nPublish.UpdatedCount: Number of updates made to this record\n"
   syntax:
     content: public const string UpdatedCount = "updatedCount"
     return:
       type: System.String
     content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Data
   nameWithType: SuperOffice.CRM.Data
   fullName: SuperOffice.CRM.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.CRM.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.CRM.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -595,10 +447,6 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String

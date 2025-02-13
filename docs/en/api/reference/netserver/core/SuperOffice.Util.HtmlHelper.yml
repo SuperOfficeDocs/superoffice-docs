@@ -16,24 +16,27 @@ items:
   nameWithType: HtmlHelper
   fullName: SuperOffice.Util.HtmlHelper
   type: Class
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: Class which provides HTML-related utility-functions.
-  example: []
+  summary: "\nClass which provides HTML-related utility-functions.\n"
   syntax:
-    content: public static class HtmlHelper
-    content.vb: Public Module HtmlHelper
+    content: 'public static class HtmlHelper : Object'
+    content.vb: >-
+      Public Module HtmlHelper
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
 - uid: SuperOffice.Util.HtmlHelper.IsHtml(System.String)
   commentId: M:SuperOffice.Util.HtmlHelper.IsHtml(System.String)
   id: IsHtml(System.String)
@@ -41,15 +44,17 @@ items:
   langs:
   - csharp
   - vb
-  name: IsHtml(string)
-  nameWithType: HtmlHelper.IsHtml(string)
-  fullName: SuperOffice.Util.HtmlHelper.IsHtml(string)
+  name: IsHtml(String)
+  nameWithType: HtmlHelper.IsHtml(String)
+  fullName: SuperOffice.Util.HtmlHelper.IsHtml(System.String)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: Test if the text looks like it could be HTML. If this function returns false it means the text contains no tags.
-  example: []
+  summary: "\nTest if the text looks like it could be HTML. If this function returns false it means the text contains no tags.\n"
   syntax:
     content: public static bool IsHtml(string s)
     parameters:
@@ -61,9 +66,12 @@ items:
       description: True if the value provided contains at least 1 tag symbol
     content.vb: Public Shared Function IsHtml(s As String) As Boolean
   overload: SuperOffice.Util.HtmlHelper.IsHtml*
-  nameWithType.vb: HtmlHelper.IsHtml(String)
-  fullName.vb: SuperOffice.Util.HtmlHelper.IsHtml(String)
-  name.vb: IsHtml(String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Util.HtmlHelper.GetPlainHTMLBody(System.String)
   commentId: M:SuperOffice.Util.HtmlHelper.GetPlainHTMLBody(System.String)
   id: GetPlainHTMLBody(System.String)
@@ -71,15 +79,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetPlainHTMLBody(string)
-  nameWithType: HtmlHelper.GetPlainHTMLBody(string)
-  fullName: SuperOffice.Util.HtmlHelper.GetPlainHTMLBody(string)
+  name: GetPlainHTMLBody(String)
+  nameWithType: HtmlHelper.GetPlainHTMLBody(String)
+  fullName: SuperOffice.Util.HtmlHelper.GetPlainHTMLBody(System.String)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: Retrieve plain text version of a html source
-  example: []
+  summary: "\nRetrieve plain text version of a html source\n"
   syntax:
     content: public static string GetPlainHTMLBody(string source)
     parameters:
@@ -91,9 +101,12 @@ items:
       description: Plain text version of the provided html
     content.vb: Public Shared Function GetPlainHTMLBody(source As String) As String
   overload: SuperOffice.Util.HtmlHelper.GetPlainHTMLBody*
-  nameWithType.vb: HtmlHelper.GetPlainHTMLBody(String)
-  fullName.vb: SuperOffice.Util.HtmlHelper.GetPlainHTMLBody(String)
-  name.vb: GetPlainHTMLBody(String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Util.HtmlHelper.GetHTMLBodyFromPlainText(System.String,System.Boolean)
   commentId: M:SuperOffice.Util.HtmlHelper.GetHTMLBodyFromPlainText(System.String,System.Boolean)
   id: GetHTMLBodyFromPlainText(System.String,System.Boolean)
@@ -101,10 +114,13 @@ items:
   langs:
   - csharp
   - vb
-  name: GetHTMLBodyFromPlainText(string, bool)
-  nameWithType: HtmlHelper.GetHTMLBodyFromPlainText(string, bool)
-  fullName: SuperOffice.Util.HtmlHelper.GetHTMLBodyFromPlainText(string, bool)
+  name: GetHTMLBodyFromPlainText(String, Boolean)
+  nameWithType: HtmlHelper.GetHTMLBodyFromPlainText(String, Boolean)
+  fullName: SuperOffice.Util.HtmlHelper.GetHTMLBodyFromPlainText(System.String, System.Boolean)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -119,9 +135,12 @@ items:
       type: System.String
     content.vb: Public Shared Function GetHTMLBodyFromPlainText(text As String, fragment As Boolean = False) As String
   overload: SuperOffice.Util.HtmlHelper.GetHTMLBodyFromPlainText*
-  nameWithType.vb: HtmlHelper.GetHTMLBodyFromPlainText(String, Boolean)
-  fullName.vb: SuperOffice.Util.HtmlHelper.GetHTMLBodyFromPlainText(String, Boolean)
-  name.vb: GetHTMLBodyFromPlainText(String, Boolean)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Util.HtmlHelper.EscapePercentageSymbols(System.String)
   commentId: M:SuperOffice.Util.HtmlHelper.EscapePercentageSymbols(System.String)
   id: EscapePercentageSymbols(System.String)
@@ -129,15 +148,17 @@ items:
   langs:
   - csharp
   - vb
-  name: EscapePercentageSymbols(string)
-  nameWithType: HtmlHelper.EscapePercentageSymbols(string)
-  fullName: SuperOffice.Util.HtmlHelper.EscapePercentageSymbols(string)
+  name: EscapePercentageSymbols(String)
+  nameWithType: HtmlHelper.EscapePercentageSymbols(String)
+  fullName: SuperOffice.Util.HtmlHelper.EscapePercentageSymbols(System.String)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: Adds escape percentage text into the first tag of html. Required for C++ parser.
-  example: []
+  summary: "\nAdds escape percentage text into the first tag of html. Required for C++ parser.\n"
   syntax:
     content: public static string EscapePercentageSymbols(string html)
     parameters:
@@ -149,278 +170,35 @@ items:
       description: Html string with text that escapes percentage symbols in C++ parser.
     content.vb: Public Shared Function EscapePercentageSymbols(html As String) As String
   overload: SuperOffice.Util.HtmlHelper.EscapePercentageSymbols*
-  nameWithType.vb: HtmlHelper.EscapePercentageSymbols(String)
-  fullName.vb: SuperOffice.Util.HtmlHelper.EscapePercentageSymbols(String)
-  name.vb: EscapePercentageSymbols(String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 references:
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.Util.HtmlHelper.IsHtml*
   commentId: Overload:SuperOffice.Util.HtmlHelper.IsHtml
   isExternal: true
-  href: SuperOffice.Util.HtmlHelper.html#SuperOffice_Util_HtmlHelper_IsHtml_System_String_
   name: IsHtml
   nameWithType: HtmlHelper.IsHtml
   fullName: SuperOffice.Util.HtmlHelper.IsHtml
@@ -428,42 +206,31 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.Util.HtmlHelper.GetPlainHTMLBody*
   commentId: Overload:SuperOffice.Util.HtmlHelper.GetPlainHTMLBody
   isExternal: true
-  href: SuperOffice.Util.HtmlHelper.html#SuperOffice_Util_HtmlHelper_GetPlainHTMLBody_System_String_
   name: GetPlainHTMLBody
   nameWithType: HtmlHelper.GetPlainHTMLBody
   fullName: SuperOffice.Util.HtmlHelper.GetPlainHTMLBody
 - uid: SuperOffice.Util.HtmlHelper.GetHTMLBodyFromPlainText*
   commentId: Overload:SuperOffice.Util.HtmlHelper.GetHTMLBodyFromPlainText
   isExternal: true
-  href: SuperOffice.Util.HtmlHelper.html#SuperOffice_Util_HtmlHelper_GetHTMLBodyFromPlainText_System_String_System_Boolean_
   name: GetHTMLBodyFromPlainText
   nameWithType: HtmlHelper.GetHTMLBodyFromPlainText
   fullName: SuperOffice.Util.HtmlHelper.GetHTMLBodyFromPlainText
 - uid: SuperOffice.Util.HtmlHelper.EscapePercentageSymbols*
   commentId: Overload:SuperOffice.Util.HtmlHelper.EscapePercentageSymbols
   isExternal: true
-  href: SuperOffice.Util.HtmlHelper.html#SuperOffice_Util_HtmlHelper_EscapePercentageSymbols_System_String_
   name: EscapePercentageSymbols
   nameWithType: HtmlHelper.EscapePercentageSymbols
   fullName: SuperOffice.Util.HtmlHelper.EscapePercentageSymbols

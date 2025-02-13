@@ -18,17 +18,18 @@ items:
   nameWithType: ActivityFilter
   fullName: SuperOffice.WebApi.Data.ActivityFilter
   type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Carrier object for ActivityFilter.
-
-    Activity list filter information.
-  example: []
+  summary: "\nCarrier object for ActivityFilter.\nActivity list filter information.    \n"
   syntax:
     content: 'public class ActivityFilter : Carrier'
-    content.vb: Public Class ActivityFilter Inherits Carrier
+    content.vb: >-
+      Public Class ActivityFilter
+          Inherits Carrier
   seealso:
   - linkId: SuperOffice.WebApi.Agents.ArchiveAgent
     commentId: T:SuperOffice.WebApi.Agents.ArchiveAgent
@@ -38,13 +39,12 @@ items:
   inheritedMembers:
   - SuperOffice.WebApi.Data.Carrier.TableRight
   - SuperOffice.WebApi.Data.Carrier.FieldProperties
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.WebApi.Data.ActivityFilter.#ctor
   commentId: M:SuperOffice.WebApi.Data.ActivityFilter.#ctor
   id: '#ctor'
@@ -56,18 +56,21 @@ items:
   nameWithType: ActivityFilter.ActivityFilter()
   fullName: SuperOffice.WebApi.Data.ActivityFilter.ActivityFilter()
   type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Default constructor - defaults any enum props to 0.
-  example: []
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
   syntax:
     content: public ActivityFilter()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.WebApi.Data.ActivityFilter.#ctor*
-  nameWithType.vb: ActivityFilter.New()
-  fullName.vb: SuperOffice.WebApi.Data.ActivityFilter.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.ActivityFilter.FromDate
   commentId: P:SuperOffice.WebApi.Data.ActivityFilter.FromDate
   id: FromDate
@@ -79,18 +82,28 @@ items:
   nameWithType: ActivityFilter.FromDate
   fullName: SuperOffice.WebApi.Data.ActivityFilter.FromDate
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The filtering From date
-  example: []
+  summary: "\nThe filtering From date\n"
   syntax:
     content: public virtual DateTime FromDate { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property FromDate As Date
+    content.vb: Public Overridable Property FromDate As DateTime
   overload: SuperOffice.WebApi.Data.ActivityFilter.FromDate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.ActivityFilter.ToDate
   commentId: P:SuperOffice.WebApi.Data.ActivityFilter.ToDate
   id: ToDate
@@ -102,18 +115,28 @@ items:
   nameWithType: ActivityFilter.ToDate
   fullName: SuperOffice.WebApi.Data.ActivityFilter.ToDate
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The filtering To date
-  example: []
+  summary: "\nThe filtering To date\n"
   syntax:
     content: public virtual DateTime ToDate { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property ToDate As Date
+    content.vb: Public Overridable Property ToDate As DateTime
   overload: SuperOffice.WebApi.Data.ActivityFilter.ToDate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.ActivityFilter.AssociateList
   commentId: P:SuperOffice.WebApi.Data.ActivityFilter.AssociateList
   id: AssociateList
@@ -125,11 +148,13 @@ items:
   nameWithType: ActivityFilter.AssociateList
   fullName: SuperOffice.WebApi.Data.ActivityFilter.AssociateList
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The list of associates to filter on
-  example: []
+  summary: "\nThe list of associates to filter on\n"
   syntax:
     content: public virtual SelectableMDOListItem[] AssociateList { get; set; }
     parameters: []
@@ -137,6 +162,14 @@ items:
       type: SuperOffice.WebApi.Data.SelectableMDOListItem[]
     content.vb: Public Overridable Property AssociateList As SelectableMDOListItem()
   overload: SuperOffice.WebApi.Data.ActivityFilter.AssociateList*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.ActivityFilter.GroupList
   commentId: P:SuperOffice.WebApi.Data.ActivityFilter.GroupList
   id: GroupList
@@ -148,11 +181,13 @@ items:
   nameWithType: ActivityFilter.GroupList
   fullName: SuperOffice.WebApi.Data.ActivityFilter.GroupList
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The list of groups to filter on
-  example: []
+  summary: "\nThe list of groups to filter on\n"
   syntax:
     content: public virtual SelectableMDOListItem[] GroupList { get; set; }
     parameters: []
@@ -160,6 +195,14 @@ items:
       type: SuperOffice.WebApi.Data.SelectableMDOListItem[]
     content.vb: Public Overridable Property GroupList As SelectableMDOListItem()
   overload: SuperOffice.WebApi.Data.ActivityFilter.GroupList*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.ActivityFilter.FutureDateList
   commentId: P:SuperOffice.WebApi.Data.ActivityFilter.FutureDateList
   id: FutureDateList
@@ -171,11 +214,13 @@ items:
   nameWithType: ActivityFilter.FutureDateList
   fullName: SuperOffice.WebApi.Data.ActivityFilter.FutureDateList
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The list of future date selections. This is a static MDO list with standard values.
-  example: []
+  summary: "\nThe list of future date selections. This is a static MDO list with standard values.\n"
   syntax:
     content: public virtual MDOListItem[] FutureDateList { get; set; }
     parameters: []
@@ -183,67 +228,32 @@ items:
       type: SuperOffice.WebApi.Data.MDOListItem[]
     content.vb: Public Overridable Property FutureDateList As MDOListItem()
   overload: SuperOffice.WebApi.Data.ActivityFilter.FutureDateList*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
-- uid: SuperOffice.WebApi.Agents.ArchiveAgent
-  commentId: T:SuperOffice.WebApi.Agents.ArchiveAgent
-  isExternal: true
-  href: SuperOffice.WebApi.Agents.ArchiveAgent.html
-  name: ArchiveAgent
-  nameWithType: ArchiveAgent
-  fullName: SuperOffice.WebApi.Agents.ArchiveAgent
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.WebApi.Data.Carrier
   commentId: T:SuperOffice.WebApi.Data.Carrier
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html
   name: Carrier
   nameWithType: Carrier
   fullName: SuperOffice.WebApi.Data.Carrier
@@ -251,7 +261,6 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_TableRight
   name: TableRight
   nameWithType: Carrier.TableRight
   fullName: SuperOffice.WebApi.Data.Carrier.TableRight
@@ -259,281 +268,52 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_FieldProperties
   name: FieldProperties
   nameWithType: Carrier.FieldProperties
   fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
+- uid: SuperOffice.WebApi.Agents.ArchiveAgent
+  commentId: T:SuperOffice.WebApi.Agents.ArchiveAgent
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: ArchiveAgent
+  nameWithType: ArchiveAgent
+  fullName: SuperOffice.WebApi.Agents.ArchiveAgent
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Data.ActivityFilter.#ctor*
   commentId: Overload:SuperOffice.WebApi.Data.ActivityFilter.#ctor
   isExternal: true
-  href: SuperOffice.WebApi.Data.ActivityFilter.html#SuperOffice_WebApi_Data_ActivityFilter__ctor
   name: ActivityFilter
   nameWithType: ActivityFilter.ActivityFilter
   fullName: SuperOffice.WebApi.Data.ActivityFilter.ActivityFilter
-  nameWithType.vb: ActivityFilter.New
-  fullName.vb: SuperOffice.WebApi.Data.ActivityFilter.New
-  name.vb: New
 - uid: SuperOffice.WebApi.Data.ActivityFilter.FromDate*
   commentId: Overload:SuperOffice.WebApi.Data.ActivityFilter.FromDate
   isExternal: true
-  href: SuperOffice.WebApi.Data.ActivityFilter.html#SuperOffice_WebApi_Data_ActivityFilter_FromDate
   name: FromDate
   nameWithType: ActivityFilter.FromDate
   fullName: SuperOffice.WebApi.Data.ActivityFilter.FromDate
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
 - uid: SuperOffice.WebApi.Data.ActivityFilter.ToDate*
   commentId: Overload:SuperOffice.WebApi.Data.ActivityFilter.ToDate
   isExternal: true
-  href: SuperOffice.WebApi.Data.ActivityFilter.html#SuperOffice_WebApi_Data_ActivityFilter_ToDate
   name: ToDate
   nameWithType: ActivityFilter.ToDate
   fullName: SuperOffice.WebApi.Data.ActivityFilter.ToDate
 - uid: SuperOffice.WebApi.Data.ActivityFilter.AssociateList*
   commentId: Overload:SuperOffice.WebApi.Data.ActivityFilter.AssociateList
   isExternal: true
-  href: SuperOffice.WebApi.Data.ActivityFilter.html#SuperOffice_WebApi_Data_ActivityFilter_AssociateList
   name: AssociateList
   nameWithType: ActivityFilter.AssociateList
   fullName: SuperOffice.WebApi.Data.ActivityFilter.AssociateList
 - uid: SuperOffice.WebApi.Data.SelectableMDOListItem[]
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectableMDOListItem.html
   name: SelectableMDOListItem[]
   nameWithType: SelectableMDOListItem[]
   fullName: SuperOffice.WebApi.Data.SelectableMDOListItem[]
@@ -543,34 +323,35 @@ references:
   spec.csharp:
   - uid: SuperOffice.WebApi.Data.SelectableMDOListItem
     name: SelectableMDOListItem
+    nameWithType: SelectableMDOListItem
+    fullName: SuperOffice.WebApi.Data.SelectableMDOListItem
     isExternal: true
-    href: SuperOffice.WebApi.Data.SelectableMDOListItem.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.WebApi.Data.SelectableMDOListItem
     name: SelectableMDOListItem
+    nameWithType: SelectableMDOListItem
+    fullName: SuperOffice.WebApi.Data.SelectableMDOListItem
     isExternal: true
-    href: SuperOffice.WebApi.Data.SelectableMDOListItem.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.WebApi.Data.ActivityFilter.GroupList*
   commentId: Overload:SuperOffice.WebApi.Data.ActivityFilter.GroupList
   isExternal: true
-  href: SuperOffice.WebApi.Data.ActivityFilter.html#SuperOffice_WebApi_Data_ActivityFilter_GroupList
   name: GroupList
   nameWithType: ActivityFilter.GroupList
   fullName: SuperOffice.WebApi.Data.ActivityFilter.GroupList
 - uid: SuperOffice.WebApi.Data.ActivityFilter.FutureDateList*
   commentId: Overload:SuperOffice.WebApi.Data.ActivityFilter.FutureDateList
   isExternal: true
-  href: SuperOffice.WebApi.Data.ActivityFilter.html#SuperOffice_WebApi_Data_ActivityFilter_FutureDateList
   name: FutureDateList
   nameWithType: ActivityFilter.FutureDateList
   fullName: SuperOffice.WebApi.Data.ActivityFilter.FutureDateList
 - uid: SuperOffice.WebApi.Data.MDOListItem[]
   isExternal: true
-  href: SuperOffice.WebApi.Data.MDOListItem.html
   name: MDOListItem[]
   nameWithType: MDOListItem[]
   fullName: SuperOffice.WebApi.Data.MDOListItem[]
@@ -580,14 +361,18 @@ references:
   spec.csharp:
   - uid: SuperOffice.WebApi.Data.MDOListItem
     name: MDOListItem
+    nameWithType: MDOListItem
+    fullName: SuperOffice.WebApi.Data.MDOListItem
     isExternal: true
-    href: SuperOffice.WebApi.Data.MDOListItem.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.WebApi.Data.MDOListItem
     name: MDOListItem
+    nameWithType: MDOListItem
+    fullName: SuperOffice.WebApi.Data.MDOListItem
     isExternal: true
-    href: SuperOffice.WebApi.Data.MDOListItem.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()

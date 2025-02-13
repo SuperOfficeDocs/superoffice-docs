@@ -19,23 +19,25 @@ items:
   nameWithType: AI_GetChatbotResponseRequest
   fullName: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest
   type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  example: []
   syntax:
-    content: public class AI_GetChatbotResponseRequest
-    content.vb: Public Class AI_GetChatbotResponseRequest
+    content: 'public class AI_GetChatbotResponseRequest : Object'
+    content.vb: >-
+      Public Class AI_GetChatbotResponseRequest
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.#ctor
   commentId: M:SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.#ctor
   id: '#ctor'
@@ -47,16 +49,20 @@ items:
   nameWithType: AI_GetChatbotResponseRequest.AI_GetChatbotResponseRequest()
   fullName: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.AI_GetChatbotResponseRequest()
   type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
   syntax:
     content: public AI_GetChatbotResponseRequest()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.#ctor*
-  nameWithType.vb: AI_GetChatbotResponseRequest.New()
-  fullName.vb: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.ChatId
   commentId: P:SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.ChatId
   id: ChatId
@@ -68,10 +74,12 @@ items:
   nameWithType: AI_GetChatbotResponseRequest.ChatId
   fullName: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.ChatId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  example: []
   syntax:
     content: public string ChatId { get; set; }
     parameters: []
@@ -79,6 +87,12 @@ items:
       type: System.String
     content.vb: Public Property ChatId As String
   overload: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.ChatId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.IsoLangCode
   commentId: P:SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.IsoLangCode
   id: IsoLangCode
@@ -90,10 +104,12 @@ items:
   nameWithType: AI_GetChatbotResponseRequest.IsoLangCode
   fullName: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.IsoLangCode
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  example: []
   syntax:
     content: public string IsoLangCode { get; set; }
     parameters: []
@@ -101,6 +117,12 @@ items:
       type: System.String
     content.vb: Public Property IsoLangCode As String
   overload: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.IsoLangCode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.UserPrompt
   commentId: P:SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.UserPrompt
   id: UserPrompt
@@ -112,10 +134,12 @@ items:
   nameWithType: AI_GetChatbotResponseRequest.UserPrompt
   fullName: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.UserPrompt
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  example: []
   syntax:
     content: public string UserPrompt { get; set; }
     parameters: []
@@ -123,6 +147,12 @@ items:
       type: System.String
     content.vb: Public Property UserPrompt As String
   overload: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.UserPrompt*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.DisplayValue
   commentId: P:SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.DisplayValue
   id: DisplayValue
@@ -134,10 +164,12 @@ items:
   nameWithType: AI_GetChatbotResponseRequest.DisplayValue
   fullName: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.DisplayValue
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  example: []
   syntax:
     content: public string DisplayValue { get; set; }
     parameters: []
@@ -145,6 +177,12 @@ items:
       type: System.String
     content.vb: Public Property DisplayValue As String
   overload: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.DisplayValue*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.PreviousTurns
   commentId: P:SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.PreviousTurns
   id: PreviousTurns
@@ -156,10 +194,12 @@ items:
   nameWithType: AI_GetChatbotResponseRequest.PreviousTurns
   fullName: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.PreviousTurns
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  example: []
   syntax:
     content: public ChatbotTurn[] PreviousTurns { get; set; }
     parameters: []
@@ -167,6 +207,12 @@ items:
       type: SuperOffice.WebApi.Data.ChatbotTurn[]
     content.vb: Public Property PreviousTurns As ChatbotTurn()
   overload: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.PreviousTurns*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.ApiUrl
   commentId: P:SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.ApiUrl
   id: ApiUrl
@@ -178,10 +224,12 @@ items:
   nameWithType: AI_GetChatbotResponseRequest.ApiUrl
   fullName: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.ApiUrl
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  example: []
   syntax:
     content: public string ApiUrl { get; set; }
     parameters: []
@@ -189,295 +237,41 @@ items:
       type: System.String
     content.vb: Public Property ApiUrl As String
   overload: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.ApiUrl*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.#ctor*
   commentId: Overload:SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.#ctor
   isExternal: true
-  href: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.html#SuperOffice_WebApi_Data_AI_GetChatbotResponseRequest__ctor
   name: AI_GetChatbotResponseRequest
   nameWithType: AI_GetChatbotResponseRequest.AI_GetChatbotResponseRequest
   fullName: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.AI_GetChatbotResponseRequest
-  nameWithType.vb: AI_GetChatbotResponseRequest.New
-  fullName.vb: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.New
-  name.vb: New
 - uid: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.ChatId*
   commentId: Overload:SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.ChatId
   isExternal: true
-  href: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.html#SuperOffice_WebApi_Data_AI_GetChatbotResponseRequest_ChatId
   name: ChatId
   nameWithType: AI_GetChatbotResponseRequest.ChatId
   fullName: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.ChatId
@@ -485,44 +279,35 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.IsoLangCode*
   commentId: Overload:SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.IsoLangCode
   isExternal: true
-  href: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.html#SuperOffice_WebApi_Data_AI_GetChatbotResponseRequest_IsoLangCode
   name: IsoLangCode
   nameWithType: AI_GetChatbotResponseRequest.IsoLangCode
   fullName: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.IsoLangCode
 - uid: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.UserPrompt*
   commentId: Overload:SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.UserPrompt
   isExternal: true
-  href: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.html#SuperOffice_WebApi_Data_AI_GetChatbotResponseRequest_UserPrompt
   name: UserPrompt
   nameWithType: AI_GetChatbotResponseRequest.UserPrompt
   fullName: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.UserPrompt
 - uid: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.DisplayValue*
   commentId: Overload:SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.DisplayValue
   isExternal: true
-  href: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.html#SuperOffice_WebApi_Data_AI_GetChatbotResponseRequest_DisplayValue
   name: DisplayValue
   nameWithType: AI_GetChatbotResponseRequest.DisplayValue
   fullName: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.DisplayValue
 - uid: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.PreviousTurns*
   commentId: Overload:SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.PreviousTurns
   isExternal: true
-  href: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.html#SuperOffice_WebApi_Data_AI_GetChatbotResponseRequest_PreviousTurns
   name: PreviousTurns
   nameWithType: AI_GetChatbotResponseRequest.PreviousTurns
   fullName: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.PreviousTurns
 - uid: SuperOffice.WebApi.Data.ChatbotTurn[]
   isExternal: true
-  href: SuperOffice.WebApi.Data.ChatbotTurn.html
   name: ChatbotTurn[]
   nameWithType: ChatbotTurn[]
   fullName: SuperOffice.WebApi.Data.ChatbotTurn[]
@@ -532,21 +317,24 @@ references:
   spec.csharp:
   - uid: SuperOffice.WebApi.Data.ChatbotTurn
     name: ChatbotTurn
+    nameWithType: ChatbotTurn
+    fullName: SuperOffice.WebApi.Data.ChatbotTurn
     isExternal: true
-    href: SuperOffice.WebApi.Data.ChatbotTurn.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.WebApi.Data.ChatbotTurn
     name: ChatbotTurn
+    nameWithType: ChatbotTurn
+    fullName: SuperOffice.WebApi.Data.ChatbotTurn
     isExternal: true
-    href: SuperOffice.WebApi.Data.ChatbotTurn.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.ApiUrl*
   commentId: Overload:SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.ApiUrl
   isExternal: true
-  href: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.html#SuperOffice_WebApi_Data_AI_GetChatbotResponseRequest_ApiUrl
   name: ApiUrl
   nameWithType: AI_GetChatbotResponseRequest.ApiUrl
   fullName: SuperOffice.WebApi.Data.AI_GetChatbotResponseRequest.ApiUrl

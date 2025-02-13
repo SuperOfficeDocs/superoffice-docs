@@ -6,8 +6,8 @@ items:
   parent: SuperOffice.CRM.Sale
   children:
   - SuperOffice.CRM.Sale.QuoteDocumentGenerator.MergeToPdf(System.IO.Stream,System.IO.Stream,System.Data.DataSet)
-  - SuperOffice.CRM.Sale.QuoteDocumentGenerator.PrescanForTags(System.IO.Stream)
   - SuperOffice.CRM.Sale.QuoteDocumentGenerator.PrescanForTags(System.Int32)
+  - SuperOffice.CRM.Sale.QuoteDocumentGenerator.PrescanForTags(System.IO.Stream)
   - SuperOffice.CRM.Sale.QuoteDocumentGenerator.QuoteDetailsTag
   langs:
   - csharp
@@ -16,30 +16,28 @@ items:
   nameWithType: QuoteDocumentGenerator
   fullName: SuperOffice.CRM.Sale.QuoteDocumentGenerator
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Sale
-  summary: Class for generating mail-merged Quote documents based on a DataSet with multiple, related tables
-  remarks: >-
-    It's not quite arbitrary - the Thumbnail and Image fields, if present, lead to Quote images being fetched.
-
-    There is also special functionality to merge two documents, also a requirement for Quote.
-
-    Possibly not the prettiest thing we could do.
-  example: []
+  summary: "\nClass for generating mail-merged Quote documents based on a DataSet with multiple, related tables\n"
+  remarks: "\nIt&apos;s not quite arbitrary - the Thumbnail and Image fields, if present, lead to Quote images being fetched.\nThere is also special functionality to merge two documents, also a requirement for Quote.\nPossibly not the prettiest thing we could do.\n"
   syntax:
-    content: public static class QuoteDocumentGenerator
-    content.vb: Public Module QuoteDocumentGenerator
+    content: 'public static class QuoteDocumentGenerator : Object'
+    content.vb: >-
+      Public Module QuoteDocumentGenerator
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
 - uid: SuperOffice.CRM.Sale.QuoteDocumentGenerator.QuoteDetailsTag
   commentId: F:SuperOffice.CRM.Sale.QuoteDocumentGenerator.QuoteDetailsTag
   id: QuoteDetailsTag
@@ -51,6 +49,9 @@ items:
   nameWithType: QuoteDocumentGenerator.QuoteDetailsTag
   fullName: SuperOffice.CRM.Sale.QuoteDocumentGenerator.QuoteDetailsTag
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Sale
@@ -59,6 +60,12 @@ items:
     return:
       type: System.String
     content.vb: Public Const QuoteDetailsTag As String = "QuoteDetails"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Sale.QuoteDocumentGenerator.MergeToPdf(System.IO.Stream,System.IO.Stream,System.Data.DataSet)
   commentId: M:SuperOffice.CRM.Sale.QuoteDocumentGenerator.MergeToPdf(System.IO.Stream,System.IO.Stream,System.Data.DataSet)
   id: MergeToPdf(System.IO.Stream,System.IO.Stream,System.Data.DataSet)
@@ -70,36 +77,20 @@ items:
   nameWithType: QuoteDocumentGenerator.MergeToPdf(Stream, Stream, DataSet)
   fullName: SuperOffice.CRM.Sale.QuoteDocumentGenerator.MergeToPdf(System.IO.Stream, System.IO.Stream, System.Data.DataSet)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Sale
-  summary: >-
-    Taking streams of bytes (main doc, lines doc) and a Dataset (merge data),
-
-    produce a merged PDF document
-  remarks: >-
-    If there is only a main doc, then it will be merged with the dataset and saved as PDF.<p></p>
-
-    If there is only a details doc, then it will be merged with the database and saved as PDF.<p></p>
-
-    If both are defined and there is no "QuoteDetails" tag in the main doc, then both
-
-    will be merged with the dataset, and the details doc will be appended to the main doc. The
-
-    result is saved as PDF.<p></p>
-
-    If both are defined and the main doc contains a "QuoteDetails" tag, then both
-
-    will be merged with the dataset, and the details doc will be inserted at the position of
-
-    the tag in the main doc (the tag is removed).
-  example: []
+  summary: "\nTaking streams of bytes (main doc, lines doc) and a Dataset (merge data),\nproduce a merged PDF document\n"
+  remarks: "\nIf there is only a main doc, then it will be merged with the dataset and saved as PDF.<p></p>\nIf there is only a details doc, then it will be merged with the database and saved as PDF.<p></p>\nIf both are defined and there is no &quot;QuoteDetails&quot; tag in the main doc, then both\nwill be merged with the dataset, and the details doc will be appended to the main doc. The\nresult is saved as PDF.<p></p>\nIf both are defined and the main doc contains a &quot;QuoteDetails&quot; tag, then both\nwill be merged with the dataset, and the details doc will be inserted at the position of\nthe tag in the main doc (the tag is removed).\n"
   syntax:
     content: public static Stream MergeToPdf(Stream template, Stream mainDoc, DataSet data)
     parameters:
     - id: template
       type: System.IO.Stream
-      description: The template for the 'quote lines' document, containing Aspose tags
+      description: The template for the &apos;quote lines&apos; document, containing Aspose tags
     - id: mainDoc
       type: System.IO.Stream
       description: The main document, if there is one, to which the quote lines will be appended
@@ -111,6 +102,12 @@ items:
       description: Stream (backed by a byte array) containing a PDF document ready to save
     content.vb: Public Shared Function MergeToPdf(template As Stream, mainDoc As Stream, data As DataSet) As Stream
   overload: SuperOffice.CRM.Sale.QuoteDocumentGenerator.MergeToPdf*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Sale.QuoteDocumentGenerator.PrescanForTags(System.Int32)
   commentId: M:SuperOffice.CRM.Sale.QuoteDocumentGenerator.PrescanForTags(System.Int32)
   id: PrescanForTags(System.Int32)
@@ -118,18 +115,17 @@ items:
   langs:
   - csharp
   - vb
-  name: PrescanForTags(int)
-  nameWithType: QuoteDocumentGenerator.PrescanForTags(int)
-  fullName: SuperOffice.CRM.Sale.QuoteDocumentGenerator.PrescanForTags(int)
+  name: PrescanForTags(Int32)
+  nameWithType: QuoteDocumentGenerator.PrescanForTags(Int32)
+  fullName: SuperOffice.CRM.Sale.QuoteDocumentGenerator.PrescanForTags(System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Sale
-  summary: >-
-    Find out which tags are present in a Word document;
-
-    this is used to control the final data-generation process
-  example: []
+  summary: "\nFind out which tags are present in a Word document;\nthis is used to control the final data-generation process\n"
   syntax:
     content: public static string[] PrescanForTags(int documentId)
     parameters:
@@ -137,12 +133,14 @@ items:
       type: System.Int32
     return:
       type: System.String[]
-      description: ''
     content.vb: Public Shared Function PrescanForTags(documentId As Integer) As String()
   overload: SuperOffice.CRM.Sale.QuoteDocumentGenerator.PrescanForTags*
-  nameWithType.vb: QuoteDocumentGenerator.PrescanForTags(Integer)
-  fullName.vb: SuperOffice.CRM.Sale.QuoteDocumentGenerator.PrescanForTags(Integer)
-  name.vb: PrescanForTags(Integer)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Sale.QuoteDocumentGenerator.PrescanForTags(System.IO.Stream)
   commentId: M:SuperOffice.CRM.Sale.QuoteDocumentGenerator.PrescanForTags(System.IO.Stream)
   id: PrescanForTags(System.IO.Stream)
@@ -154,6 +152,9 @@ items:
   nameWithType: QuoteDocumentGenerator.PrescanForTags(Stream)
   fullName: SuperOffice.CRM.Sale.QuoteDocumentGenerator.PrescanForTags(System.IO.Stream)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Sale
@@ -166,278 +167,29 @@ items:
       type: System.String[]
     content.vb: Public Shared Function PrescanForTags(content As Stream) As String()
   overload: SuperOffice.CRM.Sale.QuoteDocumentGenerator.PrescanForTags*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 references:
 - uid: SuperOffice.CRM.Sale
   commentId: N:SuperOffice.CRM.Sale
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Sale
   nameWithType: SuperOffice.CRM.Sale
   fullName: SuperOffice.CRM.Sale
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Sale
-    name: Sale
-    isExternal: true
-    href: SuperOffice.CRM.Sale.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Sale
-    name: Sale
-    isExternal: true
-    href: SuperOffice.CRM.Sale.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -445,94 +197,28 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.CRM.Sale.QuoteDocumentGenerator.MergeToPdf*
   commentId: Overload:SuperOffice.CRM.Sale.QuoteDocumentGenerator.MergeToPdf
   isExternal: true
-  href: SuperOffice.CRM.Sale.QuoteDocumentGenerator.html#SuperOffice_CRM_Sale_QuoteDocumentGenerator_MergeToPdf_System_IO_Stream_System_IO_Stream_System_Data_DataSet_
   name: MergeToPdf
   nameWithType: QuoteDocumentGenerator.MergeToPdf
   fullName: SuperOffice.CRM.Sale.QuoteDocumentGenerator.MergeToPdf
 - uid: System.IO.Stream
-  commentId: T:System.IO.Stream
-  parent: System.IO
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.io.stream
   name: Stream
   nameWithType: Stream
   fullName: System.IO.Stream
 - uid: System.Data.DataSet
-  commentId: T:System.Data.DataSet
-  parent: System.Data
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.data.dataset
   name: DataSet
   nameWithType: DataSet
   fullName: System.Data.DataSet
-- uid: System.IO
-  commentId: N:System.IO
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.IO
-  nameWithType: System.IO
-  fullName: System.IO
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.IO
-    name: IO
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.IO
-    name: IO
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io
-- uid: System.Data
-  commentId: N:System.Data
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Data
-  nameWithType: System.Data
-  fullName: System.Data
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Data
-    name: Data
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.data
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Data
-    name: Data
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.data
 - uid: SuperOffice.CRM.Sale.QuoteDocumentGenerator.PrescanForTags*
   commentId: Overload:SuperOffice.CRM.Sale.QuoteDocumentGenerator.PrescanForTags
   isExternal: true
-  href: SuperOffice.CRM.Sale.QuoteDocumentGenerator.html#SuperOffice_CRM_Sale_QuoteDocumentGenerator_PrescanForTags_System_Int32_
   name: PrescanForTags
   nameWithType: QuoteDocumentGenerator.PrescanForTags
   fullName: SuperOffice.CRM.Sale.QuoteDocumentGenerator.PrescanForTags
@@ -540,33 +226,32 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: System.String[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string[]
-  nameWithType: string[]
-  fullName: string[]
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
   nameWithType.vb: String()
-  fullName.vb: String()
+  fullName.vb: System.String()
   name.vb: String()
   spec.csharp:
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()

@@ -14,21 +14,64 @@ items:
   - SuperOffice.WebApi.Data.UDefType.Project
   - SuperOffice.WebApi.Data.UDefType.Sale
   - SuperOffice.WebApi.Data.UDefType.Temp
+  - SuperOffice.WebApi.Data.UDefType.value__
   langs:
   - csharp
   - vb
   name: UDefType
   nameWithType: UDefType
   fullName: SuperOffice.WebApi.Data.UDefType
-  type: Enum
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Same as the EUDefType enum in the C++ client, this is the DATABASE value used for udef definitions
-  example: []
+  summary: "\nSame as the EUDefType enum in the C++ client, this is the DATABASE value used for udef definitions\n"
   syntax:
-    content: public enum UDefType
-    content.vb: Public Enum UDefType
+    content: 'public sealed class UDefType : Enum'
+    content.vb: >-
+      Public NotInheritable Class UDefType
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.UDefType.value__
+  commentId: F:SuperOffice.WebApi.Data.UDefType.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.UDefType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: UDefType.value__
+  fullName: SuperOffice.WebApi.Data.UDefType.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.UDefType.Invalid
   commentId: F:SuperOffice.WebApi.Data.UDefType.Invalid
   id: Invalid
@@ -40,26 +83,24 @@ items:
   nameWithType: UDefType.Invalid
   fullName: SuperOffice.WebApi.Data.UDefType.Invalid
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '0: Invalid'
-  example: []
+  summary: "\n0: Invalid\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Invalid = 0
+    content: public const UDefType Invalid
     return:
       type: SuperOffice.WebApi.Data.UDefType
-    content.vb: >-
-      <EnumMember>
-
-      Invalid = 0
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Invalid As UDefType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.UDefType.Contact
   commentId: F:SuperOffice.WebApi.Data.UDefType.Contact
   id: Contact
@@ -71,26 +112,24 @@ items:
   nameWithType: UDefType.Contact
   fullName: SuperOffice.WebApi.Data.UDefType.Contact
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '7: Owner is the contact table'
-  example: []
+  summary: "\n7: Owner is the contact table\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Contact = 7
+    content: public const UDefType Contact
     return:
       type: SuperOffice.WebApi.Data.UDefType
-    content.vb: >-
-      <EnumMember>
-
-      Contact = 7
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Contact As UDefType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.UDefType.Person
   commentId: F:SuperOffice.WebApi.Data.UDefType.Person
   id: Person
@@ -102,26 +141,24 @@ items:
   nameWithType: UDefType.Person
   fullName: SuperOffice.WebApi.Data.UDefType.Person
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '8: Owner is the Person table'
-  example: []
+  summary: "\n8: Owner is the Person table\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Person = 8
+    content: public const UDefType Person
     return:
       type: SuperOffice.WebApi.Data.UDefType
-    content.vb: >-
-      <EnumMember>
-
-      Person = 8
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Person As UDefType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.UDefType.Project
   commentId: F:SuperOffice.WebApi.Data.UDefType.Project
   id: Project
@@ -133,26 +170,24 @@ items:
   nameWithType: UDefType.Project
   fullName: SuperOffice.WebApi.Data.UDefType.Project
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '9: Owner is the project table'
-  example: []
+  summary: "\n9: Owner is the project table\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Project = 9
+    content: public const UDefType Project
     return:
       type: SuperOffice.WebApi.Data.UDefType
-    content.vb: >-
-      <EnumMember>
-
-      Project = 9
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Project As UDefType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.UDefType.Sale
   commentId: F:SuperOffice.WebApi.Data.UDefType.Sale
   id: Sale
@@ -164,26 +199,24 @@ items:
   nameWithType: UDefType.Sale
   fullName: SuperOffice.WebApi.Data.UDefType.Sale
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '10: Owner is the sale table'
-  example: []
+  summary: "\n10: Owner is the sale table\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Sale = 10
+    content: public const UDefType Sale
     return:
       type: SuperOffice.WebApi.Data.UDefType
-    content.vb: >-
-      <EnumMember>
-
-      Sale = 10
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Sale As UDefType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.UDefType.Temp
   commentId: F:SuperOffice.WebApi.Data.UDefType.Temp
   id: Temp
@@ -195,26 +228,24 @@ items:
   nameWithType: UDefType.Temp
   fullName: SuperOffice.WebApi.Data.UDefType.Temp
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '11: This is the temporary udef table pair, used during reorganizations'
-  example: []
+  summary: "\n11: This is the temporary udef table pair, used during reorganizations\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Temp = 11
+    content: public const UDefType Temp
     return:
       type: SuperOffice.WebApi.Data.UDefType
-    content.vb: >-
-      <EnumMember>
-
-      Temp = 11
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Temp As UDefType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.UDefType.Appointment
   commentId: F:SuperOffice.WebApi.Data.UDefType.Appointment
   id: Appointment
@@ -226,26 +257,24 @@ items:
   nameWithType: UDefType.Appointment
   fullName: SuperOffice.WebApi.Data.UDefType.Appointment
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '12: Owner is the appointment table'
-  example: []
+  summary: "\n12: Owner is the appointment table\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Appointment = 12
+    content: public const UDefType Appointment
     return:
       type: SuperOffice.WebApi.Data.UDefType
-    content.vb: >-
-      <EnumMember>
-
-      Appointment = 12
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Appointment As UDefType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.UDefType.Document
   commentId: F:SuperOffice.WebApi.Data.UDefType.Document
   id: Document
@@ -257,26 +286,24 @@ items:
   nameWithType: UDefType.Document
   fullName: SuperOffice.WebApi.Data.UDefType.Document
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '13: Owner is the document table'
-  example: []
+  summary: "\n13: Owner is the document table\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Document = 13
+    content: public const UDefType Document
     return:
       type: SuperOffice.WebApi.Data.UDefType
-    content.vb: >-
-      <EnumMember>
-
-      Document = 13
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Document As UDefType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.UDefType.None
   commentId: F:SuperOffice.WebApi.Data.UDefType.None
   id: None
@@ -288,69 +315,55 @@ items:
   nameWithType: UDefType.None
   fullName: SuperOffice.WebApi.Data.UDefType.None
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '14: Owner is undefined, you should not see this value in a real database'
-  example: []
+  summary: "\n14: Owner is undefined, you should not see this value in a real database\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      None = 14
+    content: public const UDefType None
     return:
       type: SuperOffice.WebApi.Data.UDefType
-    content.vb: >-
-      <EnumMember>
-
-      None = 14
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const None As UDefType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.WebApi.Data.UDefType
   commentId: T:SuperOffice.WebApi.Data.UDefType
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.UDefType.html
   name: UDefType
   nameWithType: UDefType
   fullName: SuperOffice.WebApi.Data.UDefType

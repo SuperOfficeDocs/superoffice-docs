@@ -24,16 +24,24 @@ items:
   nameWithType: ITimeZoneAgent
   fullName: SuperOffice.WebApi.Agents.ITimeZoneAgent
   type: Interface
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: TimeZone maintenance
-  example: []
+  summary: "\nTimeZone maintenance\n"
   syntax:
     content: 'public interface ITimeZoneAgent : IDisposable'
-    content.vb: Public Interface ITimeZoneAgent Inherits IDisposable
-  inheritedMembers:
-  - System.IDisposable.Dispose
+    content.vb: >-
+      Public Interface ITimeZoneAgent
+          Inherits IDisposable
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
 - uid: SuperOffice.WebApi.Agents.ITimeZoneAgent.GetDefaultTimeZoneInformationAsync(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.ITimeZoneAgent.GetDefaultTimeZoneInformationAsync(SuperOffice.WebApi.RequestOptions)
   id: GetDefaultTimeZoneInformationAsync(SuperOffice.WebApi.RequestOptions)
@@ -45,17 +53,19 @@ items:
   nameWithType: ITimeZoneAgent.GetDefaultTimeZoneInformationAsync(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.ITimeZoneAgent.GetDefaultTimeZoneInformationAsync(SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Get information about the current, preferred timezone for the current user. If no such preference has been set, returns the correct fallback (and UserPreferenceId is 0)
-  example: []
+  summary: "\nGet information about the current, preferred timezone for the current user. If no such preference has been set, returns the correct fallback (and UserPreferenceId is 0)\n"
   syntax:
     content: Task<PreferredTimeZone> GetDefaultTimeZoneInformationAsync(RequestOptions requestOptions = null)
     parameters:
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PreferredTimeZone}
       description: Get information about the current, preferred timezone for the current user.
@@ -72,20 +82,21 @@ items:
   nameWithType: ITimeZoneAgent.InitializeTimeZoneDataAsync(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.ITimeZoneAgent.InitializeTimeZoneDataAsync(SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Initalizes the TimeZoneData
-  example: []
+  summary: "\nInitalizes the TimeZoneData\n"
   syntax:
     content: Task<TimeZoneData[]> InitializeTimeZoneDataAsync(RequestOptions requestOptions = null)
     parameters:
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TimeZoneData[]}
-      description: ''
     content.vb: Function InitializeTimeZoneDataAsync(requestOptions As RequestOptions = Nothing) As Task(Of TimeZoneData())
   overload: SuperOffice.WebApi.Agents.ITimeZoneAgent.InitializeTimeZoneDataAsync*
 - uid: SuperOffice.WebApi.Agents.ITimeZoneAgent.GetBaseTimeZoneIdAsync(SuperOffice.WebApi.RequestOptions)
@@ -99,17 +110,19 @@ items:
   nameWithType: ITimeZoneAgent.GetBaseTimeZoneIdAsync(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.ITimeZoneAgent.GetBaseTimeZoneIdAsync(SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Get the base timezone id.
-  example: []
+  summary: "\nGet the base timezone id.\n"
   syntax:
     content: Task<int> GetBaseTimeZoneIdAsync(RequestOptions requestOptions = null)
     parameters:
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{System.Int32}
       description: Returns the base timezone id. Returns 0 if not set.
@@ -126,17 +139,19 @@ items:
   nameWithType: ITimeZoneAgent.UpdateTimeZoneDataAsync(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.ITimeZoneAgent.UpdateTimeZoneDataAsync(SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Retrieve time zone data from the SuperOffice server and update TimeZone data in the database
-  example: []
+  summary: "\nRetrieve time zone data from the SuperOffice server and update TimeZone data in the database\n"
   syntax:
     content: Task<bool> UpdateTimeZoneDataAsync(RequestOptions requestOptions = null)
     parameters:
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{System.Boolean}
       description: Returns true if the operation succeeded
@@ -153,17 +168,19 @@ items:
   nameWithType: ITimeZoneAgent.CheckNewTimeZoneDataAvailableAsync(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.ITimeZoneAgent.CheckNewTimeZoneDataAvailableAsync(SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Check to see if new timezone data is available
-  example: []
+  summary: "\nCheck to see if new timezone data is available\n"
   syntax:
     content: Task<bool> CheckNewTimeZoneDataAvailableAsync(RequestOptions requestOptions = null)
     parameters:
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{System.Boolean}
       description: Returns true if new timezone info is found available, false otherwise
@@ -176,15 +193,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToggleActiveTimeZoneRowAsync(int, RequestOptions)
-  nameWithType: ITimeZoneAgent.ToggleActiveTimeZoneRowAsync(int, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.ITimeZoneAgent.ToggleActiveTimeZoneRowAsync(int, SuperOffice.WebApi.RequestOptions)
+  name: ToggleActiveTimeZoneRowAsync(Int32, RequestOptions)
+  nameWithType: ITimeZoneAgent.ToggleActiveTimeZoneRowAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ITimeZoneAgent.ToggleActiveTimeZoneRowAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Toggles active state of a single row in the TZLocation table
-  example: []
+  summary: "\nToggles active state of a single row in the TZLocation table\n"
   syntax:
     content: Task ToggleActiveTimeZoneRowAsync(int id, RequestOptions requestOptions = null)
     parameters:
@@ -193,15 +212,11 @@ items:
       description: Id of row to toggle active state on
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task
-      description: ''
     content.vb: Function ToggleActiveTimeZoneRowAsync(id As Integer, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.ITimeZoneAgent.ToggleActiveTimeZoneRowAsync*
-  nameWithType.vb: ITimeZoneAgent.ToggleActiveTimeZoneRowAsync(Integer, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.ITimeZoneAgent.ToggleActiveTimeZoneRowAsync(Integer, SuperOffice.WebApi.RequestOptions)
-  name.vb: ToggleActiveTimeZoneRowAsync(Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.ITimeZoneAgent.SetActiveTimeZonesByFilterAsync(System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.ITimeZoneAgent.SetActiveTimeZonesByFilterAsync(System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
   id: SetActiveTimeZonesByFilterAsync(System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
@@ -209,15 +224,17 @@ items:
   langs:
   - csharp
   - vb
-  name: SetActiveTimeZonesByFilterAsync(string, bool, RequestOptions)
-  nameWithType: ITimeZoneAgent.SetActiveTimeZonesByFilterAsync(string, bool, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.ITimeZoneAgent.SetActiveTimeZonesByFilterAsync(string, bool, SuperOffice.WebApi.RequestOptions)
+  name: SetActiveTimeZonesByFilterAsync(String, Boolean, RequestOptions)
+  nameWithType: ITimeZoneAgent.SetActiveTimeZonesByFilterAsync(String, Boolean, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ITimeZoneAgent.SetActiveTimeZonesByFilterAsync(System.String, System.Boolean, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Toggles active state of a single row in the TZLocation table
-  example: []
+  summary: "\nToggles active state of a single row in the TZLocation table\n"
   syntax:
     content: Task SetActiveTimeZonesByFilterAsync(string filter, bool active, RequestOptions requestOptions = null)
     parameters:
@@ -229,15 +246,11 @@ items:
       description: Set active to true or false
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task
-      description: ''
     content.vb: Function SetActiveTimeZonesByFilterAsync(filter As String, active As Boolean, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.ITimeZoneAgent.SetActiveTimeZonesByFilterAsync*
-  nameWithType.vb: ITimeZoneAgent.SetActiveTimeZonesByFilterAsync(String, Boolean, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.ITimeZoneAgent.SetActiveTimeZonesByFilterAsync(String, Boolean, SuperOffice.WebApi.RequestOptions)
-  name.vb: SetActiveTimeZonesByFilterAsync(String, Boolean, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.ITimeZoneAgent.TimeOfLastTimeZoneUpdateAsync(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.ITimeZoneAgent.TimeOfLastTimeZoneUpdateAsync(SuperOffice.WebApi.RequestOptions)
   id: TimeOfLastTimeZoneUpdateAsync(SuperOffice.WebApi.RequestOptions)
@@ -249,21 +262,23 @@ items:
   nameWithType: ITimeZoneAgent.TimeOfLastTimeZoneUpdateAsync(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.ITimeZoneAgent.TimeOfLastTimeZoneUpdateAsync(SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Get the time time zone data was last updated
-  example: []
+  summary: "\nGet the time time zone data was last updated\n"
   syntax:
     content: Task<DateTime> TimeOfLastTimeZoneUpdateAsync(RequestOptions requestOptions = null)
     parameters:
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{System.DateTime}
       description: Time of last update
-    content.vb: Function TimeOfLastTimeZoneUpdateAsync(requestOptions As RequestOptions = Nothing) As Task(Of Date)
+    content.vb: Function TimeOfLastTimeZoneUpdateAsync(requestOptions As RequestOptions = Nothing) As Task(Of DateTime)
   overload: SuperOffice.WebApi.Agents.ITimeZoneAgent.TimeOfLastTimeZoneUpdateAsync*
 - uid: SuperOffice.WebApi.Agents.ITimeZoneAgent.SetBaseTimeZoneIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.ITimeZoneAgent.SetBaseTimeZoneIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -272,15 +287,17 @@ items:
   langs:
   - csharp
   - vb
-  name: SetBaseTimeZoneIdAsync(int, RequestOptions)
-  nameWithType: ITimeZoneAgent.SetBaseTimeZoneIdAsync(int, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.ITimeZoneAgent.SetBaseTimeZoneIdAsync(int, SuperOffice.WebApi.RequestOptions)
+  name: SetBaseTimeZoneIdAsync(Int32, RequestOptions)
+  nameWithType: ITimeZoneAgent.SetBaseTimeZoneIdAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ITimeZoneAgent.SetBaseTimeZoneIdAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Set the base timezone id.
-  example: []
+  summary: "\nSet the base timezone id.\n"
   syntax:
     content: Task<bool> SetBaseTimeZoneIdAsync(int timezoneId, RequestOptions requestOptions = null)
     parameters:
@@ -289,15 +306,12 @@ items:
       description: The timezone id to save
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{System.Boolean}
       description: Returns true if setting of base timezone was done
     content.vb: Function SetBaseTimeZoneIdAsync(timezoneId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Boolean)
   overload: SuperOffice.WebApi.Agents.ITimeZoneAgent.SetBaseTimeZoneIdAsync*
-  nameWithType.vb: ITimeZoneAgent.SetBaseTimeZoneIdAsync(Integer, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.ITimeZoneAgent.SetBaseTimeZoneIdAsync(Integer, SuperOffice.WebApi.RequestOptions)
-  name.vb: SetBaseTimeZoneIdAsync(Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.ITimeZoneAgent.GetDefaultTimeZonePreferenceAsync(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.ITimeZoneAgent.GetDefaultTimeZonePreferenceAsync(SuperOffice.WebApi.RequestOptions)
   id: GetDefaultTimeZonePreferenceAsync(SuperOffice.WebApi.RequestOptions)
@@ -309,17 +323,19 @@ items:
   nameWithType: ITimeZoneAgent.GetDefaultTimeZonePreferenceAsync(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.ITimeZoneAgent.GetDefaultTimeZonePreferenceAsync(SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Returns the id of the default timezone preference with deflevel system wide
-  example: []
+  summary: "\nReturns the id of the default timezone preference with deflevel system wide\n"
   syntax:
     content: Task<int> GetDefaultTimeZonePreferenceAsync(RequestOptions requestOptions = null)
     parameters:
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{System.Int32}
       description: The id of the system wide default timezone preference
@@ -336,20 +352,21 @@ items:
   nameWithType: ITimeZoneAgent.DeleteTimeZonesAsync(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.ITimeZoneAgent.DeleteTimeZonesAsync(SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Deletes all time zone data (locations and rules) from the database
-  example: []
+  summary: "\nDeletes all time zone data (locations and rules) from the database\n"
   syntax:
     content: Task DeleteTimeZonesAsync(RequestOptions requestOptions = null)
     parameters:
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task
-      description: ''
     content.vb: Function DeleteTimeZonesAsync(requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.ITimeZoneAgent.DeleteTimeZonesAsync*
 - uid: SuperOffice.WebApi.Agents.ITimeZoneAgent.SetActiveTimeZoneRowAsync(System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
@@ -359,15 +376,17 @@ items:
   langs:
   - csharp
   - vb
-  name: SetActiveTimeZoneRowAsync(int, bool, RequestOptions)
-  nameWithType: ITimeZoneAgent.SetActiveTimeZoneRowAsync(int, bool, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.ITimeZoneAgent.SetActiveTimeZoneRowAsync(int, bool, SuperOffice.WebApi.RequestOptions)
+  name: SetActiveTimeZoneRowAsync(Int32, Boolean, RequestOptions)
+  nameWithType: ITimeZoneAgent.SetActiveTimeZoneRowAsync(Int32, Boolean, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ITimeZoneAgent.SetActiveTimeZoneRowAsync(System.Int32, System.Boolean, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Set active state of singe row in the TZLocation table
-  example: []
+  summary: "\nSet active state of singe row in the TZLocation table\n"
   syntax:
     content: Task SetActiveTimeZoneRowAsync(int id, bool active, RequestOptions requestOptions = null)
     parameters:
@@ -379,94 +398,21 @@ items:
       description: Set active to true or false
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task
-      description: ''
     content.vb: Function SetActiveTimeZoneRowAsync(id As Integer, active As Boolean, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.ITimeZoneAgent.SetActiveTimeZoneRowAsync*
-  nameWithType.vb: ITimeZoneAgent.SetActiveTimeZoneRowAsync(Integer, Boolean, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.ITimeZoneAgent.SetActiveTimeZoneRowAsync(Integer, Boolean, SuperOffice.WebApi.RequestOptions)
-  name.vb: SetActiveTimeZoneRowAsync(Integer, Boolean, RequestOptions)
 references:
 - uid: SuperOffice.WebApi.Agents
   commentId: N:SuperOffice.WebApi.Agents
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Agents
   nameWithType: SuperOffice.WebApi.Agents
   fullName: SuperOffice.WebApi.Agents
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Agents
-    name: Agents
-    isExternal: true
-    href: SuperOffice.WebApi.Agents.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Agents
-    name: Agents
-    isExternal: true
-    href: SuperOffice.WebApi.Agents.html
-- uid: System.IDisposable.Dispose
-  commentId: M:System.IDisposable.Dispose
-  parent: System.IDisposable
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
-  name: Dispose()
-  nameWithType: IDisposable.Dispose()
-  fullName: System.IDisposable.Dispose()
-  spec.csharp:
-  - uid: System.IDisposable.Dispose
-    name: Dispose
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.IDisposable.Dispose
-    name: Dispose
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
-  - name: (
-  - name: )
-- uid: System.IDisposable
-  commentId: T:System.IDisposable
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.idisposable
-  name: IDisposable
-  nameWithType: IDisposable
-  fullName: System.IDisposable
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.WebApi.Agents.ITimeZoneAgent.GetDefaultTimeZoneInformationAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ITimeZoneAgent.GetDefaultTimeZoneInformationAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.ITimeZoneAgent.html#SuperOffice_WebApi_Agents_ITimeZoneAgent_GetDefaultTimeZoneInformationAsync_SuperOffice_WebApi_RequestOptions_
   name: GetDefaultTimeZoneInformationAsync
   nameWithType: ITimeZoneAgent.GetDefaultTimeZoneInformationAsync
   fullName: SuperOffice.WebApi.Agents.ITimeZoneAgent.GetDefaultTimeZoneInformationAsync
@@ -474,15 +420,12 @@ references:
   commentId: T:SuperOffice.WebApi.RequestOptions
   parent: SuperOffice.WebApi
   isExternal: true
-  href: SuperOffice.WebApi.RequestOptions.html
   name: RequestOptions
   nameWithType: RequestOptions
   fullName: SuperOffice.WebApi.RequestOptions
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PreferredTimeZone}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PreferredTimeZone}
-  parent: System.Threading.Tasks
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PreferredTimeZone}'
   definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<PreferredTimeZone>
   nameWithType: Task<PreferredTimeZone>
   fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.PreferredTimeZone>
@@ -492,131 +435,90 @@ references:
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.WebApi.Data.PreferredTimeZone
     name: PreferredTimeZone
+    nameWithType: PreferredTimeZone
+    fullName: SuperOffice.WebApi.Data.PreferredTimeZone
     isExternal: true
-    href: SuperOffice.WebApi.Data.PreferredTimeZone.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.WebApi.Data.PreferredTimeZone
     name: PreferredTimeZone
+    nameWithType: PreferredTimeZone
+    fullName: SuperOffice.WebApi.Data.PreferredTimeZone
     isExternal: true
-    href: SuperOffice.WebApi.Data.PreferredTimeZone.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi
   commentId: N:SuperOffice.WebApi
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi
   nameWithType: SuperOffice.WebApi
   fullName: SuperOffice.WebApi
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
 - uid: System.Threading.Tasks.Task`1
-  commentId: T:System.Threading.Tasks.Task`1
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<TResult>
-  nameWithType: Task<TResult>
-  fullName: System.Threading.Tasks.Task<TResult>
-  nameWithType.vb: Task(Of TResult)
-  fullName.vb: System.Threading.Tasks.Task(Of TResult)
-  name.vb: Task(Of TResult)
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-  - name: TResult
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TResult
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
-- uid: System.Threading.Tasks
-  commentId: N:System.Threading.Tasks
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Threading.Tasks
-  nameWithType: System.Threading.Tasks
-  fullName: System.Threading.Tasks
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Threading
-    name: Threading
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading
-  - name: .
-  - uid: System.Threading.Tasks
-    name: Tasks
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Threading
-    name: Threading
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading
-  - name: .
-  - uid: System.Threading.Tasks
-    name: Tasks
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.ITimeZoneAgent.InitializeTimeZoneDataAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ITimeZoneAgent.InitializeTimeZoneDataAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.ITimeZoneAgent.html#SuperOffice_WebApi_Agents_ITimeZoneAgent_InitializeTimeZoneDataAsync_SuperOffice_WebApi_RequestOptions_
   name: InitializeTimeZoneDataAsync
   nameWithType: ITimeZoneAgent.InitializeTimeZoneDataAsync
   fullName: SuperOffice.WebApi.Agents.ITimeZoneAgent.InitializeTimeZoneDataAsync
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TimeZoneData[]}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TimeZoneData[]}
-  parent: System.Threading.Tasks
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TimeZoneData[]}'
   definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<TimeZoneData[]>
   nameWithType: Task<TimeZoneData[]>
   fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.TimeZoneData[]>
@@ -626,126 +528,150 @@ references:
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.WebApi.Data.TimeZoneData
     name: TimeZoneData
+    nameWithType: TimeZoneData
+    fullName: SuperOffice.WebApi.Data.TimeZoneData
     isExternal: true
-    href: SuperOffice.WebApi.Data.TimeZoneData.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.WebApi.Data.TimeZoneData
     name: TimeZoneData
+    nameWithType: TimeZoneData
+    fullName: SuperOffice.WebApi.Data.TimeZoneData
     isExternal: true
-    href: SuperOffice.WebApi.Data.TimeZoneData.html
-  - name: (
+  - name: ()
+    nameWithType: ()
+    fullName: ()
   - name: )
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.ITimeZoneAgent.GetBaseTimeZoneIdAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ITimeZoneAgent.GetBaseTimeZoneIdAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.ITimeZoneAgent.html#SuperOffice_WebApi_Agents_ITimeZoneAgent_GetBaseTimeZoneIdAsync_SuperOffice_WebApi_RequestOptions_
   name: GetBaseTimeZoneIdAsync
   nameWithType: ITimeZoneAgent.GetBaseTimeZoneIdAsync
   fullName: SuperOffice.WebApi.Agents.ITimeZoneAgent.GetBaseTimeZoneIdAsync
 - uid: System.Threading.Tasks.Task{System.Int32}
-  commentId: T:System.Threading.Tasks.Task{System.Int32}
-  parent: System.Threading.Tasks
+  commentId: '!:System.Threading.Tasks.Task{System.Int32}'
   definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<int>
-  nameWithType: Task<int>
-  fullName: System.Threading.Tasks.Task<int>
-  nameWithType.vb: Task(Of Integer)
-  fullName.vb: System.Threading.Tasks.Task(Of Integer)
-  name.vb: Task(Of Integer)
+  name: Task<Int32>
+  nameWithType: Task<Int32>
+  fullName: System.Threading.Tasks.Task<System.Int32>
+  nameWithType.vb: Task(Of Int32)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Int32)
+  name.vb: Task(Of Int32)
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.ITimeZoneAgent.UpdateTimeZoneDataAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ITimeZoneAgent.UpdateTimeZoneDataAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.ITimeZoneAgent.html#SuperOffice_WebApi_Agents_ITimeZoneAgent_UpdateTimeZoneDataAsync_SuperOffice_WebApi_RequestOptions_
   name: UpdateTimeZoneDataAsync
   nameWithType: ITimeZoneAgent.UpdateTimeZoneDataAsync
   fullName: SuperOffice.WebApi.Agents.ITimeZoneAgent.UpdateTimeZoneDataAsync
 - uid: System.Threading.Tasks.Task{System.Boolean}
-  commentId: T:System.Threading.Tasks.Task{System.Boolean}
-  parent: System.Threading.Tasks
+  commentId: '!:System.Threading.Tasks.Task{System.Boolean}'
   definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<bool>
-  nameWithType: Task<bool>
-  fullName: System.Threading.Tasks.Task<bool>
+  name: Task<Boolean>
+  nameWithType: Task<Boolean>
+  fullName: System.Threading.Tasks.Task<System.Boolean>
   nameWithType.vb: Task(Of Boolean)
-  fullName.vb: System.Threading.Tasks.Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Boolean)
   name.vb: Task(Of Boolean)
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: System.Boolean
-    name: bool
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: System.Boolean
     name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.ITimeZoneAgent.CheckNewTimeZoneDataAvailableAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ITimeZoneAgent.CheckNewTimeZoneDataAvailableAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.ITimeZoneAgent.html#SuperOffice_WebApi_Agents_ITimeZoneAgent_CheckNewTimeZoneDataAvailableAsync_SuperOffice_WebApi_RequestOptions_
   name: CheckNewTimeZoneDataAvailableAsync
   nameWithType: ITimeZoneAgent.CheckNewTimeZoneDataAvailableAsync
   fullName: SuperOffice.WebApi.Agents.ITimeZoneAgent.CheckNewTimeZoneDataAvailableAsync
 - uid: SuperOffice.WebApi.Agents.ITimeZoneAgent.ToggleActiveTimeZoneRowAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ITimeZoneAgent.ToggleActiveTimeZoneRowAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.ITimeZoneAgent.html#SuperOffice_WebApi_Agents_ITimeZoneAgent_ToggleActiveTimeZoneRowAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
   name: ToggleActiveTimeZoneRowAsync
   nameWithType: ITimeZoneAgent.ToggleActiveTimeZoneRowAsync
   fullName: SuperOffice.WebApi.Agents.ITimeZoneAgent.ToggleActiveTimeZoneRowAsync
@@ -753,25 +679,23 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: System.Threading.Tasks.Task
-  commentId: T:System.Threading.Tasks.Task
-  parent: System.Threading.Tasks
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
   name: Task
   nameWithType: Task
   fullName: System.Threading.Tasks.Task
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.WebApi.Agents.ITimeZoneAgent.SetActiveTimeZonesByFilterAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ITimeZoneAgent.SetActiveTimeZonesByFilterAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.ITimeZoneAgent.html#SuperOffice_WebApi_Agents_ITimeZoneAgent_SetActiveTimeZonesByFilterAsync_System_String_System_Boolean_SuperOffice_WebApi_RequestOptions_
   name: SetActiveTimeZonesByFilterAsync
   nameWithType: ITimeZoneAgent.SetActiveTimeZonesByFilterAsync
   fullName: SuperOffice.WebApi.Agents.ITimeZoneAgent.SetActiveTimeZonesByFilterAsync
@@ -779,91 +703,86 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.WebApi.Agents.ITimeZoneAgent.TimeOfLastTimeZoneUpdateAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ITimeZoneAgent.TimeOfLastTimeZoneUpdateAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.ITimeZoneAgent.html#SuperOffice_WebApi_Agents_ITimeZoneAgent_TimeOfLastTimeZoneUpdateAsync_SuperOffice_WebApi_RequestOptions_
   name: TimeOfLastTimeZoneUpdateAsync
   nameWithType: ITimeZoneAgent.TimeOfLastTimeZoneUpdateAsync
   fullName: SuperOffice.WebApi.Agents.ITimeZoneAgent.TimeOfLastTimeZoneUpdateAsync
 - uid: System.Threading.Tasks.Task{System.DateTime}
-  commentId: T:System.Threading.Tasks.Task{System.DateTime}
-  parent: System.Threading.Tasks
+  commentId: '!:System.Threading.Tasks.Task{System.DateTime}'
   definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<DateTime>
   nameWithType: Task<DateTime>
   fullName: System.Threading.Tasks.Task<System.DateTime>
-  nameWithType.vb: Task(Of Date)
-  fullName.vb: System.Threading.Tasks.Task(Of Date)
-  name.vb: Task(Of Date)
+  nameWithType.vb: Task(Of DateTime)
+  fullName.vb: System.Threading.Tasks.Task(Of System.DateTime)
+  name.vb: Task(Of DateTime)
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: System.DateTime
     name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.datetime
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: System.DateTime
-    name: Date
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.datetime
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.ITimeZoneAgent.SetBaseTimeZoneIdAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ITimeZoneAgent.SetBaseTimeZoneIdAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.ITimeZoneAgent.html#SuperOffice_WebApi_Agents_ITimeZoneAgent_SetBaseTimeZoneIdAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
   name: SetBaseTimeZoneIdAsync
   nameWithType: ITimeZoneAgent.SetBaseTimeZoneIdAsync
   fullName: SuperOffice.WebApi.Agents.ITimeZoneAgent.SetBaseTimeZoneIdAsync
 - uid: SuperOffice.WebApi.Agents.ITimeZoneAgent.GetDefaultTimeZonePreferenceAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ITimeZoneAgent.GetDefaultTimeZonePreferenceAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.ITimeZoneAgent.html#SuperOffice_WebApi_Agents_ITimeZoneAgent_GetDefaultTimeZonePreferenceAsync_SuperOffice_WebApi_RequestOptions_
   name: GetDefaultTimeZonePreferenceAsync
   nameWithType: ITimeZoneAgent.GetDefaultTimeZonePreferenceAsync
   fullName: SuperOffice.WebApi.Agents.ITimeZoneAgent.GetDefaultTimeZonePreferenceAsync
 - uid: SuperOffice.WebApi.Agents.ITimeZoneAgent.DeleteTimeZonesAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ITimeZoneAgent.DeleteTimeZonesAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.ITimeZoneAgent.html#SuperOffice_WebApi_Agents_ITimeZoneAgent_DeleteTimeZonesAsync_SuperOffice_WebApi_RequestOptions_
   name: DeleteTimeZonesAsync
   nameWithType: ITimeZoneAgent.DeleteTimeZonesAsync
   fullName: SuperOffice.WebApi.Agents.ITimeZoneAgent.DeleteTimeZonesAsync
 - uid: SuperOffice.WebApi.Agents.ITimeZoneAgent.SetActiveTimeZoneRowAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ITimeZoneAgent.SetActiveTimeZoneRowAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.ITimeZoneAgent.html#SuperOffice_WebApi_Agents_ITimeZoneAgent_SetActiveTimeZoneRowAsync_System_Int32_System_Boolean_SuperOffice_WebApi_RequestOptions_
   name: SetActiveTimeZoneRowAsync
   nameWithType: ITimeZoneAgent.SetActiveTimeZoneRowAsync
   fullName: SuperOffice.WebApi.Agents.ITimeZoneAgent.SetActiveTimeZoneRowAsync

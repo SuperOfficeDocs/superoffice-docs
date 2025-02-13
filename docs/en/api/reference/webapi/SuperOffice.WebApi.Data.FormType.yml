@@ -7,24 +7,64 @@ items:
   children:
   - SuperOffice.WebApi.Data.FormType.Normal
   - SuperOffice.WebApi.Data.FormType.Template
+  - SuperOffice.WebApi.Data.FormType.value__
   langs:
   - csharp
   - vb
   name: FormType
   nameWithType: FormType
   fullName: SuperOffice.WebApi.Data.FormType
-  type: Enum
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    What kind of form is this
-
-    This Enum is used by:  form.type
-  example: []
+  summary: "\nWhat kind of form is this\nThis Enum is used by:  form.type\n"
   syntax:
-    content: 'public enum FormType : short'
-    content.vb: Public Enum FormType As Short
+    content: 'public sealed class FormType : Enum'
+    content.vb: >-
+      Public NotInheritable Class FormType
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.FormType.value__
+  commentId: F:SuperOffice.WebApi.Data.FormType.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.FormType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: FormType.value__
+  fullName: SuperOffice.WebApi.Data.FormType.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.FormType.Normal
   commentId: F:SuperOffice.WebApi.Data.FormType.Normal
   id: Normal
@@ -36,26 +76,24 @@ items:
   nameWithType: FormType.Normal
   fullName: SuperOffice.WebApi.Data.FormType.Normal
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '0: A form instance'
-  example: []
+  summary: "\n0: A form instance\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Normal = 0
+    content: public const FormType Normal
     return:
       type: SuperOffice.WebApi.Data.FormType
-    content.vb: >-
-      <EnumMember>
-
-      Normal = 0
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Normal As FormType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.FormType.Template
   commentId: F:SuperOffice.WebApi.Data.FormType.Template
   id: Template
@@ -67,69 +105,55 @@ items:
   nameWithType: FormType.Template
   fullName: SuperOffice.WebApi.Data.FormType.Template
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '1: A form template'
-  example: []
+  summary: "\n1: A form template\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Template = 1
+    content: public const FormType Template
     return:
       type: SuperOffice.WebApi.Data.FormType
-    content.vb: >-
-      <EnumMember>
-
-      Template = 1
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Template As FormType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.WebApi.Data.FormType
   commentId: T:SuperOffice.WebApi.Data.FormType
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.FormType.html
   name: FormType
   nameWithType: FormType
   fullName: SuperOffice.WebApi.Data.FormType

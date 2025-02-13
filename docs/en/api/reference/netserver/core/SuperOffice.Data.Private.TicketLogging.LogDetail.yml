@@ -29,7 +29,6 @@ items:
     content: 'public class LogDetail : Object'
     content.vb: >-
       Public Class LogDetail
-
           Inherits Object
   inheritance:
   - System.Object

@@ -19,54 +19,12 @@ references:
   commentId: T:SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase
   parent: SuperOffice.CRM.BatchProcessing.Tasks
   isExternal: true
-  href: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.html
   name: BatchTaskBase
   nameWithType: BatchTaskBase
   fullName: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase
 - uid: SuperOffice.CRM.BatchProcessing.Tasks
   commentId: N:SuperOffice.CRM.BatchProcessing.Tasks
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.BatchProcessing.Tasks
   nameWithType: SuperOffice.CRM.BatchProcessing.Tasks
   fullName: SuperOffice.CRM.BatchProcessing.Tasks
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.BatchProcessing
-    name: BatchProcessing
-    isExternal: true
-    href: SuperOffice.CRM.BatchProcessing.html
-  - name: .
-  - uid: SuperOffice.CRM.BatchProcessing.Tasks
-    name: Tasks
-    isExternal: true
-    href: SuperOffice.CRM.BatchProcessing.Tasks.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.BatchProcessing
-    name: BatchProcessing
-    isExternal: true
-    href: SuperOffice.CRM.BatchProcessing.html
-  - name: .
-  - uid: SuperOffice.CRM.BatchProcessing.Tasks
-    name: Tasks
-    isExternal: true
-    href: SuperOffice.CRM.BatchProcessing.Tasks.html

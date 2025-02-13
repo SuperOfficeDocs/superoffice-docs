@@ -18,31 +18,21 @@ items:
   nameWithType: ResourceAgent
   fullName: SuperOffice.CRM.Services.ResourceAgent
   type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Facade for the Resource Agent
-
-    String resource substitution management.
+  summary: "\nFacade for the Resource Agent\nString resource substitution management.\n"
   example:
-  - >-
-    <pre><code class="lang-csharp">using SuperOffice;
-
-    using SuperOffice.CRM.Services;
-
-
-    using (SoSession mySession = SoSession.Authenticate("user", "pass"))
-
-    {
-       using (ResourceAgent agent = new ResourceAgent())
-       {
-          // call methods on agent here...
-       }
-    }</code></pre>
+  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (ResourceAgent agent = new ResourceAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
   syntax:
     content: 'public class ResourceAgent : AgentBase<IResourceAgent>, IDisposable, IResourceAgent, IAgent'
-    content.vb: Public Class ResourceAgent Inherits AgentBase(Of IResourceAgent) Implements IDisposable, IResourceAgent, IAgent
+    content.vb: >-
+      Public Class ResourceAgent
+          Inherits AgentBase(Of IResourceAgent)
+          Implements IDisposable, IResourceAgent, IAgent
   inheritance:
   - System.Object
   - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IResourceAgent}
@@ -53,13 +43,12 @@ items:
   inheritedMembers:
   - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IResourceAgent}.Dispose
   - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IResourceAgent}.InnerAgent
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.ResourceAgent.SetResourceSubstitution(System.String,System.String,System.String,System.Boolean)
   commentId: M:SuperOffice.CRM.Services.ResourceAgent.SetResourceSubstitution(System.String,System.String,System.String,System.Boolean)
   id: SetResourceSubstitution(System.String,System.String,System.String,System.Boolean)
@@ -67,15 +56,17 @@ items:
   langs:
   - csharp
   - vb
-  name: SetResourceSubstitution(string, string, string, bool)
-  nameWithType: ResourceAgent.SetResourceSubstitution(string, string, string, bool)
-  fullName: SuperOffice.CRM.Services.ResourceAgent.SetResourceSubstitution(string, string, string, bool)
+  name: SetResourceSubstitution(String, String, String, Boolean)
+  nameWithType: ResourceAgent.SetResourceSubstitution(String, String, String, Boolean)
+  fullName: SuperOffice.CRM.Services.ResourceAgent.SetResourceSubstitution(System.String, System.String, System.String, System.Boolean)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Create or update a resource substitution
-  example: []
+  summary: "\nCreate or update a resource substitution\n"
   syntax:
     content: public void SetResourceSubstitution(string resourceName, string resourceValues, string culture, bool isActive)
     parameters:
@@ -95,9 +86,10 @@ items:
   overload: SuperOffice.CRM.Services.ResourceAgent.SetResourceSubstitution*
   implements:
   - SuperOffice.CRM.Services.IResourceAgent.SetResourceSubstitution(System.String,System.String,System.String,System.Boolean)
-  nameWithType.vb: ResourceAgent.SetResourceSubstitution(String, String, String, Boolean)
-  fullName.vb: SuperOffice.CRM.Services.ResourceAgent.SetResourceSubstitution(String, String, String, Boolean)
-  name.vb: SetResourceSubstitution(String, String, String, Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.ResourceAgent.DeleteResourceSubstitution(System.String,System.String)
   commentId: M:SuperOffice.CRM.Services.ResourceAgent.DeleteResourceSubstitution(System.String,System.String)
   id: DeleteResourceSubstitution(System.String,System.String)
@@ -105,15 +97,17 @@ items:
   langs:
   - csharp
   - vb
-  name: DeleteResourceSubstitution(string, string)
-  nameWithType: ResourceAgent.DeleteResourceSubstitution(string, string)
-  fullName: SuperOffice.CRM.Services.ResourceAgent.DeleteResourceSubstitution(string, string)
+  name: DeleteResourceSubstitution(String, String)
+  nameWithType: ResourceAgent.DeleteResourceSubstitution(String, String)
+  fullName: SuperOffice.CRM.Services.ResourceAgent.DeleteResourceSubstitution(System.String, System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Permanentely delete a resource substitution for one or more cultures
-  example: []
+  summary: "\nPermanentely delete a resource substitution for one or more cultures\n"
   syntax:
     content: public void DeleteResourceSubstitution(string resourceName, string culture)
     parameters:
@@ -127,9 +121,10 @@ items:
   overload: SuperOffice.CRM.Services.ResourceAgent.DeleteResourceSubstitution*
   implements:
   - SuperOffice.CRM.Services.IResourceAgent.DeleteResourceSubstitution(System.String,System.String)
-  nameWithType.vb: ResourceAgent.DeleteResourceSubstitution(String, String)
-  fullName.vb: SuperOffice.CRM.Services.ResourceAgent.DeleteResourceSubstitution(String, String)
-  name.vb: DeleteResourceSubstitution(String, String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.ResourceAgent.ActivateResourceSubstitution(System.String,System.String,System.Boolean)
   commentId: M:SuperOffice.CRM.Services.ResourceAgent.ActivateResourceSubstitution(System.String,System.String,System.Boolean)
   id: ActivateResourceSubstitution(System.String,System.String,System.Boolean)
@@ -137,15 +132,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ActivateResourceSubstitution(string, string, bool)
-  nameWithType: ResourceAgent.ActivateResourceSubstitution(string, string, bool)
-  fullName: SuperOffice.CRM.Services.ResourceAgent.ActivateResourceSubstitution(string, string, bool)
+  name: ActivateResourceSubstitution(String, String, Boolean)
+  nameWithType: ResourceAgent.ActivateResourceSubstitution(String, String, Boolean)
+  fullName: SuperOffice.CRM.Services.ResourceAgent.ActivateResourceSubstitution(System.String, System.String, System.Boolean)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Activate or deactive a resource substitution for one or more cultures
-  example: []
+  summary: "\nActivate or deactive a resource substitution for one or more cultures\n"
   syntax:
     content: public void ActivateResourceSubstitution(string resourceName, string culture, bool isActive)
     parameters:
@@ -162,9 +159,10 @@ items:
   overload: SuperOffice.CRM.Services.ResourceAgent.ActivateResourceSubstitution*
   implements:
   - SuperOffice.CRM.Services.IResourceAgent.ActivateResourceSubstitution(System.String,System.String,System.Boolean)
-  nameWithType.vb: ResourceAgent.ActivateResourceSubstitution(String, String, Boolean)
-  fullName.vb: SuperOffice.CRM.Services.ResourceAgent.ActivateResourceSubstitution(String, String, Boolean)
-  name.vb: ActivateResourceSubstitution(String, String, Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.ResourceAgent.GetResourceSubstitutions(System.String[],System.String,System.Boolean)
   commentId: M:SuperOffice.CRM.Services.ResourceAgent.GetResourceSubstitutions(System.String[],System.String,System.Boolean)
   id: GetResourceSubstitutions(System.String[],System.String,System.Boolean)
@@ -172,15 +170,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetResourceSubstitutions(string[], string, bool)
-  nameWithType: ResourceAgent.GetResourceSubstitutions(string[], string, bool)
-  fullName: SuperOffice.CRM.Services.ResourceAgent.GetResourceSubstitutions(string[], string, bool)
+  name: GetResourceSubstitutions(String[], String, Boolean)
+  nameWithType: ResourceAgent.GetResourceSubstitutions(String[], String, Boolean)
+  fullName: SuperOffice.CRM.Services.ResourceAgent.GetResourceSubstitutions(System.String[], System.String, System.Boolean)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Get substitutions for some or all resources for one culture
-  example: []
+  summary: "\nGet substitutions for some or all resources for one culture\n"
   syntax:
     content: public ResourceOverride[] GetResourceSubstitutions(string[] resourceNames, string culture, bool activeOnly)
     parameters:
@@ -201,7 +201,11 @@ items:
   implements:
   - SuperOffice.CRM.Services.IResourceAgent.GetResourceSubstitutions(System.String[],System.String,System.Boolean)
   nameWithType.vb: ResourceAgent.GetResourceSubstitutions(String(), String, Boolean)
-  fullName.vb: SuperOffice.CRM.Services.ResourceAgent.GetResourceSubstitutions(String(), String, Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Services.ResourceAgent.GetResourceSubstitutions(System.String(), System.String, System.Boolean)
   name.vb: GetResourceSubstitutions(String(), String, Boolean)
 - uid: SuperOffice.CRM.Services.ResourceAgent.IsResourceSubstitutionActive(System.String[],System.String)
   commentId: M:SuperOffice.CRM.Services.ResourceAgent.IsResourceSubstitutionActive(System.String[],System.String)
@@ -210,15 +214,17 @@ items:
   langs:
   - csharp
   - vb
-  name: IsResourceSubstitutionActive(string[], string)
-  nameWithType: ResourceAgent.IsResourceSubstitutionActive(string[], string)
-  fullName: SuperOffice.CRM.Services.ResourceAgent.IsResourceSubstitutionActive(string[], string)
+  name: IsResourceSubstitutionActive(String[], String)
+  nameWithType: ResourceAgent.IsResourceSubstitutionActive(String[], String)
+  fullName: SuperOffice.CRM.Services.ResourceAgent.IsResourceSubstitutionActive(System.String[], System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Determine if resource substitution/override is active, globally or for a subset of resources/cultures
-  example: []
+  summary: "\nDetermine if resource substitution/override is active, globally or for a subset of resources/cultures\n"
   syntax:
     content: public ResourceOverride[] IsResourceSubstitutionActive(string[] resourceNames, string culture)
     parameters:
@@ -236,7 +242,11 @@ items:
   implements:
   - SuperOffice.CRM.Services.IResourceAgent.IsResourceSubstitutionActive(System.String[],System.String)
   nameWithType.vb: ResourceAgent.IsResourceSubstitutionActive(String(), String)
-  fullName.vb: SuperOffice.CRM.Services.ResourceAgent.IsResourceSubstitutionActive(String(), String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Services.ResourceAgent.IsResourceSubstitutionActive(System.String(), System.String)
   name.vb: IsResourceSubstitutionActive(String(), String)
 - uid: SuperOffice.CRM.Services.ResourceAgent.#ctor
   commentId: M:SuperOffice.CRM.Services.ResourceAgent.#ctor
@@ -249,70 +259,31 @@ items:
   nameWithType: ResourceAgent.ResourceAgent()
   fullName: SuperOffice.CRM.Services.ResourceAgent.ResourceAgent()
   type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
   syntax:
     content: public ResourceAgent()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.ResourceAgent.#ctor*
-  nameWithType.vb: ResourceAgent.New()
-  fullName.vb: SuperOffice.CRM.Services.ResourceAgent.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
 - uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IResourceAgent}
   commentId: T:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IResourceAgent}
   parent: SuperOffice.CRM.Services
   definition: SuperOffice.CRM.Services.AgentBase`1
-  href: SuperOffice.CRM.Services.AgentBase-1.html
   name: AgentBase<IResourceAgent>
   nameWithType: AgentBase<IResourceAgent>
   fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IResourceAgent>
@@ -322,32 +293,39 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.AgentBase`1
     name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
     isExternal: true
-    href: SuperOffice.CRM.Services.AgentBase-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Services.IResourceAgent
     name: IResourceAgent
+    nameWithType: IResourceAgent
+    fullName: SuperOffice.CRM.Services.IResourceAgent
     isExternal: true
-    href: SuperOffice.CRM.Services.IResourceAgent.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.CRM.Services.AgentBase`1
     name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
     isExternal: true
-    href: SuperOffice.CRM.Services.AgentBase-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Services.IResourceAgent
     name: IResourceAgent
+    nameWithType: IResourceAgent
+    fullName: SuperOffice.CRM.Services.IResourceAgent
     isExternal: true
-    href: SuperOffice.CRM.Services.IResourceAgent.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.IDisposable
-  commentId: T:System.IDisposable
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.idisposable
   name: IDisposable
   nameWithType: IDisposable
   fullName: System.IDisposable
@@ -355,7 +333,6 @@ references:
   commentId: T:SuperOffice.CRM.Services.IResourceAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.IResourceAgent.html
   name: IResourceAgent
   nameWithType: IResourceAgent
   fullName: SuperOffice.CRM.Services.IResourceAgent
@@ -363,7 +340,6 @@ references:
   commentId: T:SuperOffice.CRM.Services.IAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.IAgent.html
   name: IAgent
   nameWithType: IAgent
   fullName: SuperOffice.CRM.Services.IAgent
@@ -371,266 +347,47 @@ references:
   commentId: M:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IResourceAgent}.Dispose
   parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IResourceAgent}
   definition: SuperOffice.CRM.Services.AgentBase`1.Dispose
-  href: SuperOffice.CRM.Services.AgentBase-1.html#SuperOffice_CRM_Services_AgentBase_1_Dispose
   name: Dispose()
   nameWithType: AgentBase<IResourceAgent>.Dispose()
   fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IResourceAgent>.Dispose()
   nameWithType.vb: AgentBase(Of IResourceAgent).Dispose()
   fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IResourceAgent).Dispose()
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IResourceAgent}.Dispose
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
     name: Dispose
+    nameWithType: AgentBase<IResourceAgent>.Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IResourceAgent>.Dispose
     isExternal: true
-    href: SuperOffice.CRM.Services.AgentBase-1.html#SuperOffice_CRM_Services_AgentBase_1_Dispose
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IResourceAgent}.Dispose
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
     name: Dispose
+    nameWithType: AgentBase(Of IResourceAgent).Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IResourceAgent).Dispose
     isExternal: true
-    href: SuperOffice.CRM.Services.AgentBase-1.html#SuperOffice_CRM_Services_AgentBase_1_Dispose
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IResourceAgent}.InnerAgent
   commentId: P:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IResourceAgent}.InnerAgent
   parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IResourceAgent}
   definition: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
-  href: SuperOffice.CRM.Services.AgentBase-1.html#SuperOffice_CRM_Services_AgentBase_1_InnerAgent
   name: InnerAgent
   nameWithType: AgentBase<IResourceAgent>.InnerAgent
   fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IResourceAgent>.InnerAgent
   nameWithType.vb: AgentBase(Of IResourceAgent).InnerAgent
   fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IResourceAgent).InnerAgent
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.AgentBase`1
   commentId: T:SuperOffice.CRM.Services.AgentBase`1
   isExternal: true
-  href: SuperOffice.CRM.Services.AgentBase-1.html
   name: AgentBase<TAgent>
   nameWithType: AgentBase<TAgent>
   fullName: SuperOffice.CRM.Services.AgentBase<TAgent>
@@ -640,25 +397,36 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.AgentBase`1
     name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
     isExternal: true
-    href: SuperOffice.CRM.Services.AgentBase-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - name: TAgent
+    nameWithType: TAgent
+    fullName: TAgent
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.CRM.Services.AgentBase`1
     name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
     isExternal: true
-    href: SuperOffice.CRM.Services.AgentBase-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: TAgent
+    nameWithType: TAgent
+    fullName: TAgent
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
   commentId: M:SuperOffice.CRM.Services.AgentBase`1.Dispose
   isExternal: true
-  href: SuperOffice.CRM.Services.AgentBase-1.html#SuperOffice_CRM_Services_AgentBase_1_Dispose
   name: Dispose()
   nameWithType: AgentBase<TAgent>.Dispose()
   fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose()
@@ -667,21 +435,30 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
     name: Dispose
+    nameWithType: AgentBase<TAgent>.Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose
     isExternal: true
-    href: SuperOffice.CRM.Services.AgentBase-1.html#SuperOffice_CRM_Services_AgentBase_1_Dispose
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
     name: Dispose
+    nameWithType: AgentBase(Of TAgent).Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose
     isExternal: true
-    href: SuperOffice.CRM.Services.AgentBase-1.html#SuperOffice_CRM_Services_AgentBase_1_Dispose
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
   commentId: P:SuperOffice.CRM.Services.AgentBase`1.InnerAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.AgentBase-1.html#SuperOffice_CRM_Services_AgentBase_1_InnerAgent
   name: InnerAgent
   nameWithType: AgentBase<TAgent>.InnerAgent
   fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.InnerAgent
@@ -690,7 +467,6 @@ references:
 - uid: SuperOffice.CRM.Services.ResourceAgent.SetResourceSubstitution*
   commentId: Overload:SuperOffice.CRM.Services.ResourceAgent.SetResourceSubstitution
   isExternal: true
-  href: SuperOffice.CRM.Services.ResourceAgent.html#SuperOffice_CRM_Services_ResourceAgent_SetResourceSubstitution_System_String_System_String_System_String_System_Boolean_
   name: SetResourceSubstitution
   nameWithType: ResourceAgent.SetResourceSubstitution
   fullName: SuperOffice.CRM.Services.ResourceAgent.SetResourceSubstitution
@@ -698,97 +474,114 @@ references:
   commentId: M:SuperOffice.CRM.Services.IResourceAgent.SetResourceSubstitution(System.String,System.String,System.String,System.Boolean)
   parent: SuperOffice.CRM.Services.IResourceAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IResourceAgent.html#SuperOffice_CRM_Services_IResourceAgent_SetResourceSubstitution_System_String_System_String_System_String_System_Boolean_
-  name: SetResourceSubstitution(string, string, string, bool)
-  nameWithType: IResourceAgent.SetResourceSubstitution(string, string, string, bool)
-  fullName: SuperOffice.CRM.Services.IResourceAgent.SetResourceSubstitution(string, string, string, bool)
-  nameWithType.vb: IResourceAgent.SetResourceSubstitution(String, String, String, Boolean)
-  fullName.vb: SuperOffice.CRM.Services.IResourceAgent.SetResourceSubstitution(String, String, String, Boolean)
-  name.vb: SetResourceSubstitution(String, String, String, Boolean)
+  name: SetResourceSubstitution(String, String, String, Boolean)
+  nameWithType: IResourceAgent.SetResourceSubstitution(String, String, String, Boolean)
+  fullName: SuperOffice.CRM.Services.IResourceAgent.SetResourceSubstitution(System.String, System.String, System.String, System.Boolean)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IResourceAgent.SetResourceSubstitution(System.String,System.String,System.String,System.Boolean)
     name: SetResourceSubstitution
+    nameWithType: IResourceAgent.SetResourceSubstitution
+    fullName: SuperOffice.CRM.Services.IResourceAgent.SetResourceSubstitution
     isExternal: true
-    href: SuperOffice.CRM.Services.IResourceAgent.html#SuperOffice_CRM_Services_IResourceAgent_SetResourceSubstitution_System_String_System_String_System_String_System_Boolean_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Boolean
-    name: bool
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IResourceAgent.SetResourceSubstitution(System.String,System.String,System.String,System.Boolean)
     name: SetResourceSubstitution
+    nameWithType: IResourceAgent.SetResourceSubstitution
+    fullName: SuperOffice.CRM.Services.IResourceAgent.SetResourceSubstitution
     isExternal: true
-    href: SuperOffice.CRM.Services.IResourceAgent.html#SuperOffice_CRM_Services_IResourceAgent_SetResourceSubstitution_System_String_System_String_System_String_System_Boolean_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Boolean
     name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.ResourceAgent.DeleteResourceSubstitution*
   commentId: Overload:SuperOffice.CRM.Services.ResourceAgent.DeleteResourceSubstitution
   isExternal: true
-  href: SuperOffice.CRM.Services.ResourceAgent.html#SuperOffice_CRM_Services_ResourceAgent_DeleteResourceSubstitution_System_String_System_String_
   name: DeleteResourceSubstitution
   nameWithType: ResourceAgent.DeleteResourceSubstitution
   fullName: SuperOffice.CRM.Services.ResourceAgent.DeleteResourceSubstitution
@@ -796,51 +589,62 @@ references:
   commentId: M:SuperOffice.CRM.Services.IResourceAgent.DeleteResourceSubstitution(System.String,System.String)
   parent: SuperOffice.CRM.Services.IResourceAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IResourceAgent.html#SuperOffice_CRM_Services_IResourceAgent_DeleteResourceSubstitution_System_String_System_String_
-  name: DeleteResourceSubstitution(string, string)
-  nameWithType: IResourceAgent.DeleteResourceSubstitution(string, string)
-  fullName: SuperOffice.CRM.Services.IResourceAgent.DeleteResourceSubstitution(string, string)
-  nameWithType.vb: IResourceAgent.DeleteResourceSubstitution(String, String)
-  fullName.vb: SuperOffice.CRM.Services.IResourceAgent.DeleteResourceSubstitution(String, String)
-  name.vb: DeleteResourceSubstitution(String, String)
+  name: DeleteResourceSubstitution(String, String)
+  nameWithType: IResourceAgent.DeleteResourceSubstitution(String, String)
+  fullName: SuperOffice.CRM.Services.IResourceAgent.DeleteResourceSubstitution(System.String, System.String)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IResourceAgent.DeleteResourceSubstitution(System.String,System.String)
     name: DeleteResourceSubstitution
+    nameWithType: IResourceAgent.DeleteResourceSubstitution
+    fullName: SuperOffice.CRM.Services.IResourceAgent.DeleteResourceSubstitution
     isExternal: true
-    href: SuperOffice.CRM.Services.IResourceAgent.html#SuperOffice_CRM_Services_IResourceAgent_DeleteResourceSubstitution_System_String_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IResourceAgent.DeleteResourceSubstitution(System.String,System.String)
     name: DeleteResourceSubstitution
+    nameWithType: IResourceAgent.DeleteResourceSubstitution
+    fullName: SuperOffice.CRM.Services.IResourceAgent.DeleteResourceSubstitution
     isExternal: true
-    href: SuperOffice.CRM.Services.IResourceAgent.html#SuperOffice_CRM_Services_IResourceAgent_DeleteResourceSubstitution_System_String_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.ResourceAgent.ActivateResourceSubstitution*
   commentId: Overload:SuperOffice.CRM.Services.ResourceAgent.ActivateResourceSubstitution
   isExternal: true
-  href: SuperOffice.CRM.Services.ResourceAgent.html#SuperOffice_CRM_Services_ResourceAgent_ActivateResourceSubstitution_System_String_System_String_System_Boolean_
   name: ActivateResourceSubstitution
   nameWithType: ResourceAgent.ActivateResourceSubstitution
   fullName: SuperOffice.CRM.Services.ResourceAgent.ActivateResourceSubstitution
@@ -848,63 +652,78 @@ references:
   commentId: M:SuperOffice.CRM.Services.IResourceAgent.ActivateResourceSubstitution(System.String,System.String,System.Boolean)
   parent: SuperOffice.CRM.Services.IResourceAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IResourceAgent.html#SuperOffice_CRM_Services_IResourceAgent_ActivateResourceSubstitution_System_String_System_String_System_Boolean_
-  name: ActivateResourceSubstitution(string, string, bool)
-  nameWithType: IResourceAgent.ActivateResourceSubstitution(string, string, bool)
-  fullName: SuperOffice.CRM.Services.IResourceAgent.ActivateResourceSubstitution(string, string, bool)
-  nameWithType.vb: IResourceAgent.ActivateResourceSubstitution(String, String, Boolean)
-  fullName.vb: SuperOffice.CRM.Services.IResourceAgent.ActivateResourceSubstitution(String, String, Boolean)
-  name.vb: ActivateResourceSubstitution(String, String, Boolean)
+  name: ActivateResourceSubstitution(String, String, Boolean)
+  nameWithType: IResourceAgent.ActivateResourceSubstitution(String, String, Boolean)
+  fullName: SuperOffice.CRM.Services.IResourceAgent.ActivateResourceSubstitution(System.String, System.String, System.Boolean)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IResourceAgent.ActivateResourceSubstitution(System.String,System.String,System.Boolean)
     name: ActivateResourceSubstitution
+    nameWithType: IResourceAgent.ActivateResourceSubstitution
+    fullName: SuperOffice.CRM.Services.IResourceAgent.ActivateResourceSubstitution
     isExternal: true
-    href: SuperOffice.CRM.Services.IResourceAgent.html#SuperOffice_CRM_Services_IResourceAgent_ActivateResourceSubstitution_System_String_System_String_System_Boolean_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Boolean
-    name: bool
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IResourceAgent.ActivateResourceSubstitution(System.String,System.String,System.Boolean)
     name: ActivateResourceSubstitution
+    nameWithType: IResourceAgent.ActivateResourceSubstitution
+    fullName: SuperOffice.CRM.Services.IResourceAgent.ActivateResourceSubstitution
     isExternal: true
-    href: SuperOffice.CRM.Services.IResourceAgent.html#SuperOffice_CRM_Services_IResourceAgent_ActivateResourceSubstitution_System_String_System_String_System_Boolean_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Boolean
     name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.ResourceAgent.GetResourceSubstitutions*
   commentId: Overload:SuperOffice.CRM.Services.ResourceAgent.GetResourceSubstitutions
   isExternal: true
-  href: SuperOffice.CRM.Services.ResourceAgent.html#SuperOffice_CRM_Services_ResourceAgent_GetResourceSubstitutions_System_String___System_String_System_Boolean_
   name: GetResourceSubstitutions
   nameWithType: ResourceAgent.GetResourceSubstitutions
   fullName: SuperOffice.CRM.Services.ResourceAgent.GetResourceSubstitutions
@@ -912,89 +731,112 @@ references:
   commentId: M:SuperOffice.CRM.Services.IResourceAgent.GetResourceSubstitutions(System.String[],System.String,System.Boolean)
   parent: SuperOffice.CRM.Services.IResourceAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IResourceAgent.html#SuperOffice_CRM_Services_IResourceAgent_GetResourceSubstitutions_System_String___System_String_System_Boolean_
-  name: GetResourceSubstitutions(string[], string, bool)
-  nameWithType: IResourceAgent.GetResourceSubstitutions(string[], string, bool)
-  fullName: SuperOffice.CRM.Services.IResourceAgent.GetResourceSubstitutions(string[], string, bool)
+  name: GetResourceSubstitutions(String[], String, Boolean)
+  nameWithType: IResourceAgent.GetResourceSubstitutions(String[], String, Boolean)
+  fullName: SuperOffice.CRM.Services.IResourceAgent.GetResourceSubstitutions(System.String[], System.String, System.Boolean)
   nameWithType.vb: IResourceAgent.GetResourceSubstitutions(String(), String, Boolean)
-  fullName.vb: SuperOffice.CRM.Services.IResourceAgent.GetResourceSubstitutions(String(), String, Boolean)
+  fullName.vb: SuperOffice.CRM.Services.IResourceAgent.GetResourceSubstitutions(System.String(), System.String, System.Boolean)
   name.vb: GetResourceSubstitutions(String(), String, Boolean)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IResourceAgent.GetResourceSubstitutions(System.String[],System.String,System.Boolean)
     name: GetResourceSubstitutions
+    nameWithType: IResourceAgent.GetResourceSubstitutions
+    fullName: SuperOffice.CRM.Services.IResourceAgent.GetResourceSubstitutions
     isExternal: true
-    href: SuperOffice.CRM.Services.IResourceAgent.html#SuperOffice_CRM_Services_IResourceAgent_GetResourceSubstitutions_System_String___System_String_System_Boolean_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: '['
-  - name: ']'
-  - name: ','
-  - name: " "
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Boolean
-    name: bool
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IResourceAgent.GetResourceSubstitutions(System.String[],System.String,System.Boolean)
     name: GetResourceSubstitutions
+    nameWithType: IResourceAgent.GetResourceSubstitutions
+    fullName: SuperOffice.CRM.Services.IResourceAgent.GetResourceSubstitutions
     isExternal: true
-    href: SuperOffice.CRM.Services.IResourceAgent.html#SuperOffice_CRM_Services_IResourceAgent_GetResourceSubstitutions_System_String___System_String_System_Boolean_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: (
-  - name: )
-  - name: ','
-  - name: " "
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Boolean
     name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.String[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string[]
-  nameWithType: string[]
-  fullName: string[]
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
   nameWithType.vb: String()
-  fullName.vb: String()
+  fullName.vb: System.String()
   name.vb: String()
   spec.csharp:
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.ResourceOverride[]
   isExternal: true
-  href: SuperOffice.CRM.Services.ResourceOverride.html
   name: ResourceOverride[]
   nameWithType: ResourceOverride[]
   fullName: SuperOffice.CRM.Services.ResourceOverride[]
@@ -1004,21 +846,24 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.ResourceOverride
     name: ResourceOverride
+    nameWithType: ResourceOverride
+    fullName: SuperOffice.CRM.Services.ResourceOverride
     isExternal: true
-    href: SuperOffice.CRM.Services.ResourceOverride.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.Services.ResourceOverride
     name: ResourceOverride
+    nameWithType: ResourceOverride
+    fullName: SuperOffice.CRM.Services.ResourceOverride
     isExternal: true
-    href: SuperOffice.CRM.Services.ResourceOverride.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.ResourceAgent.IsResourceSubstitutionActive*
   commentId: Overload:SuperOffice.CRM.Services.ResourceAgent.IsResourceSubstitutionActive
   isExternal: true
-  href: SuperOffice.CRM.Services.ResourceAgent.html#SuperOffice_CRM_Services_ResourceAgent_IsResourceSubstitutionActive_System_String___System_String_
   name: IsResourceSubstitutionActive
   nameWithType: ResourceAgent.IsResourceSubstitutionActive
   fullName: SuperOffice.CRM.Services.ResourceAgent.IsResourceSubstitutionActive
@@ -1026,58 +871,71 @@ references:
   commentId: M:SuperOffice.CRM.Services.IResourceAgent.IsResourceSubstitutionActive(System.String[],System.String)
   parent: SuperOffice.CRM.Services.IResourceAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IResourceAgent.html#SuperOffice_CRM_Services_IResourceAgent_IsResourceSubstitutionActive_System_String___System_String_
-  name: IsResourceSubstitutionActive(string[], string)
-  nameWithType: IResourceAgent.IsResourceSubstitutionActive(string[], string)
-  fullName: SuperOffice.CRM.Services.IResourceAgent.IsResourceSubstitutionActive(string[], string)
+  name: IsResourceSubstitutionActive(String[], String)
+  nameWithType: IResourceAgent.IsResourceSubstitutionActive(String[], String)
+  fullName: SuperOffice.CRM.Services.IResourceAgent.IsResourceSubstitutionActive(System.String[], System.String)
   nameWithType.vb: IResourceAgent.IsResourceSubstitutionActive(String(), String)
-  fullName.vb: SuperOffice.CRM.Services.IResourceAgent.IsResourceSubstitutionActive(String(), String)
+  fullName.vb: SuperOffice.CRM.Services.IResourceAgent.IsResourceSubstitutionActive(System.String(), System.String)
   name.vb: IsResourceSubstitutionActive(String(), String)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IResourceAgent.IsResourceSubstitutionActive(System.String[],System.String)
     name: IsResourceSubstitutionActive
+    nameWithType: IResourceAgent.IsResourceSubstitutionActive
+    fullName: SuperOffice.CRM.Services.IResourceAgent.IsResourceSubstitutionActive
     isExternal: true
-    href: SuperOffice.CRM.Services.IResourceAgent.html#SuperOffice_CRM_Services_IResourceAgent_IsResourceSubstitutionActive_System_String___System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: '['
-  - name: ']'
-  - name: ','
-  - name: " "
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IResourceAgent.IsResourceSubstitutionActive(System.String[],System.String)
     name: IsResourceSubstitutionActive
+    nameWithType: IResourceAgent.IsResourceSubstitutionActive
+    fullName: SuperOffice.CRM.Services.IResourceAgent.IsResourceSubstitutionActive
     isExternal: true
-    href: SuperOffice.CRM.Services.IResourceAgent.html#SuperOffice_CRM_Services_IResourceAgent_IsResourceSubstitutionActive_System_String___System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: (
-  - name: )
-  - name: ','
-  - name: " "
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.ResourceAgent.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.ResourceAgent.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.ResourceAgent.html#SuperOffice_CRM_Services_ResourceAgent__ctor
   name: ResourceAgent
   nameWithType: ResourceAgent.ResourceAgent
   fullName: SuperOffice.CRM.Services.ResourceAgent.ResourceAgent
-  nameWithType.vb: ResourceAgent.New
-  fullName.vb: SuperOffice.CRM.Services.ResourceAgent.New
-  name.vb: New

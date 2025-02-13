@@ -25,22 +25,26 @@ items:
   nameWithType: BulkUpdateSystem.OperationTypes
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.OperationTypes
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static class BulkUpdateSystem.OperationTypes
-    content.vb: Public Module BulkUpdateSystem.OperationTypes
+    content: 'public static class OperationTypes : Object'
+    content.vb: >-
+      Public Module OperationTypes
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.OperationTypes.MenuSeparator
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.OperationTypes.MenuSeparator
   id: MenuSeparator
@@ -52,6 +56,9 @@ items:
   nameWithType: BulkUpdateSystem.OperationTypes.MenuSeparator
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.OperationTypes.MenuSeparator
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -60,6 +67,12 @@ items:
     return:
       type: System.String
     content.vb: Public Const MenuSeparator As String = "separator"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.OperationTypes.SelectOne
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.OperationTypes.SelectOne
   id: SelectOne
@@ -71,6 +84,9 @@ items:
   nameWithType: BulkUpdateSystem.OperationTypes.SelectOne
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.OperationTypes.SelectOne
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -79,6 +95,12 @@ items:
     return:
       type: System.String
     content.vb: Public Const SelectOne As String = "selectOne"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.OperationTypes.Clear
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.OperationTypes.Clear
   id: Clear
@@ -90,6 +112,9 @@ items:
   nameWithType: BulkUpdateSystem.OperationTypes.Clear
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.OperationTypes.Clear
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -98,6 +123,12 @@ items:
     return:
       type: System.String
     content.vb: Public Const Clear As String = "clear"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.OperationTypes.Set
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.OperationTypes.Set
   id: Set
@@ -109,6 +140,9 @@ items:
   nameWithType: BulkUpdateSystem.OperationTypes.Set
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.OperationTypes.Set
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -117,6 +151,12 @@ items:
     return:
       type: System.String
     content.vb: Public Const Set As String = "set"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.OperationTypes.Check
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.OperationTypes.Check
   id: Check
@@ -128,6 +168,9 @@ items:
   nameWithType: BulkUpdateSystem.OperationTypes.Check
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.OperationTypes.Check
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -136,6 +179,12 @@ items:
     return:
       type: System.String
     content.vb: Public Const Check As String = "check"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.OperationTypes.Toggle
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.OperationTypes.Toggle
   id: Toggle
@@ -147,6 +196,9 @@ items:
   nameWithType: BulkUpdateSystem.OperationTypes.Toggle
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.OperationTypes.Toggle
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -155,6 +207,12 @@ items:
     return:
       type: System.String
     content.vb: Public Const Toggle As String = "toggle"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.OperationTypes.AddItems
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.OperationTypes.AddItems
   id: AddItems
@@ -166,6 +224,9 @@ items:
   nameWithType: BulkUpdateSystem.OperationTypes.AddItems
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.OperationTypes.AddItems
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -174,6 +235,12 @@ items:
     return:
       type: System.String
     content.vb: Public Const AddItems As String = "addItems"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.OperationTypes.RemoveItems
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.OperationTypes.RemoveItems
   id: RemoveItems
@@ -185,6 +252,9 @@ items:
   nameWithType: BulkUpdateSystem.OperationTypes.RemoveItems
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.OperationTypes.RemoveItems
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -193,6 +263,12 @@ items:
     return:
       type: System.String
     content.vb: Public Const RemoveItems As String = "removeItems"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.OperationTypes.Add
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.OperationTypes.Add
   id: Add
@@ -204,6 +280,9 @@ items:
   nameWithType: BulkUpdateSystem.OperationTypes.Add
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.OperationTypes.Add
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -212,6 +291,12 @@ items:
     return:
       type: System.String
     content.vb: Public Const Add As String = "add"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.OperationTypes.Remove
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.OperationTypes.Remove
   id: Remove
@@ -223,6 +308,9 @@ items:
   nameWithType: BulkUpdateSystem.OperationTypes.Remove
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.OperationTypes.Remove
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -231,6 +319,12 @@ items:
     return:
       type: System.String
     content.vb: Public Const Remove As String = "remove"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.OperationTypes.ReplaceWith
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.OperationTypes.ReplaceWith
   id: ReplaceWith
@@ -242,6 +336,9 @@ items:
   nameWithType: BulkUpdateSystem.OperationTypes.ReplaceWith
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.OperationTypes.ReplaceWith
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -250,6 +347,12 @@ items:
     return:
       type: System.String
     content.vb: Public Const ReplaceWith As String = "replaceWith"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.OperationTypes.SearchAndReplace
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.OperationTypes.SearchAndReplace
   id: SearchAndReplace
@@ -261,6 +364,9 @@ items:
   nameWithType: BulkUpdateSystem.OperationTypes.SearchAndReplace
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.OperationTypes.SearchAndReplace
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -269,6 +375,12 @@ items:
     return:
       type: System.String
     content.vb: Public Const SearchAndReplace As String = "searchAndReplace"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.OperationTypes.RegEx
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.OperationTypes.RegEx
   id: RegEx
@@ -280,6 +392,9 @@ items:
   nameWithType: BulkUpdateSystem.OperationTypes.RegEx
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.OperationTypes.RegEx
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -288,278 +403,29 @@ items:
     return:
       type: System.String
     content.vb: Public Const RegEx As String = "regex"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.CRM.BulkUpdate
   commentId: N:SuperOffice.CRM.BulkUpdate
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.BulkUpdate
   nameWithType: SuperOffice.CRM.BulkUpdate
   fullName: SuperOffice.CRM.BulkUpdate
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.BulkUpdate
-    name: BulkUpdate
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.BulkUpdate
-    name: BulkUpdate
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -567,10 +433,6 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -14,24 +14,27 @@ items:
   nameWithType: CsSessionManager
   fullName: SuperOffice.CRM.CS.CsSessionManager
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.CS
-  summary: Allows the creation and removal of CS session through NetServer.
-  example: []
+  summary: "\nAllows the creation and removal of CS session through NetServer.\n"
   syntax:
-    content: public static class CsSessionManager
-    content.vb: Public Module CsSessionManager
+    content: 'public static class CsSessionManager : Object'
+    content.vb: >-
+      Public Module CsSessionManager
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
 - uid: SuperOffice.CRM.CS.CsSessionManager.CreateCsSession(System.String,SuperOffice.Data.CsLoginOrigin,System.String@,System.Int32@,System.Int32@)
   commentId: M:SuperOffice.CRM.CS.CsSessionManager.CreateCsSession(System.String,SuperOffice.Data.CsLoginOrigin,System.String@,System.Int32@,System.Int32@)
   id: CreateCsSession(System.String,SuperOffice.Data.CsLoginOrigin,System.String@,System.Int32@,System.Int32@)
@@ -39,37 +42,41 @@ items:
   langs:
   - csharp
   - vb
-  name: CreateCsSession(string, CsLoginOrigin, out string, out int, out int)
-  nameWithType: CsSessionManager.CreateCsSession(string, CsLoginOrigin, out string, out int, out int)
-  fullName: SuperOffice.CRM.CS.CsSessionManager.CreateCsSession(string, SuperOffice.Data.CsLoginOrigin, out string, out int, out int)
+  name: CreateCsSession(String, CsLoginOrigin, out String, out Int32, out Int32)
+  nameWithType: CsSessionManager.CreateCsSession(String, CsLoginOrigin, out String, out Int32, out Int32)
+  fullName: SuperOffice.CRM.CS.CsSessionManager.CreateCsSession(System.String, SuperOffice.Data.CsLoginOrigin, out System.String, out System.Int32, out System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.CS
-  summary: Creates a new CS session
-  example: []
+  summary: "\nCreates a new CS session\n"
   syntax:
     content: public static void CreateCsSession(string remoteIp, CsLoginOrigin loginOrigin, out string sessionKey, out int loginId, out int userId)
     parameters:
     - id: remoteIp
       type: System.String
-      description: ''
     - id: loginOrigin
       type: SuperOffice.Data.CsLoginOrigin
     - id: sessionKey
       type: System.String
-      description: ''
     - id: loginId
       type: System.Int32
-      description: ''
     - id: userId
       type: System.Int32
-      description: ''
-    content.vb: Public Shared Sub CreateCsSession(remoteIp As String, loginOrigin As CsLoginOrigin, sessionKey As String, loginId As Integer, userId As Integer)
+    content.vb: Public Shared Sub CreateCsSession(remoteIp As String, loginOrigin As CsLoginOrigin, ByRef sessionKey As String, ByRef loginId As Integer, ByRef userId As Integer)
   overload: SuperOffice.CRM.CS.CsSessionManager.CreateCsSession*
-  nameWithType.vb: CsSessionManager.CreateCsSession(String, CsLoginOrigin, String, Integer, Integer)
-  fullName.vb: SuperOffice.CRM.CS.CsSessionManager.CreateCsSession(String, SuperOffice.Data.CsLoginOrigin, String, Integer, Integer)
-  name.vb: CreateCsSession(String, CsLoginOrigin, String, Integer, Integer)
+  nameWithType.vb: CsSessionManager.CreateCsSession(String, CsLoginOrigin, ByRef String, ByRef Int32, ByRef Int32)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.CS.CsSessionManager.CreateCsSession(System.String, SuperOffice.Data.CsLoginOrigin, ByRef System.String, ByRef System.Int32, ByRef System.Int32)
+  name.vb: CreateCsSession(String, CsLoginOrigin, ByRef String, ByRef Int32, ByRef Int32)
 - uid: SuperOffice.CRM.CS.CsSessionManager.RemoveSession(System.Int32)
   commentId: M:SuperOffice.CRM.CS.CsSessionManager.RemoveSession(System.Int32)
   id: RemoveSession(System.Int32)
@@ -77,305 +84,53 @@ items:
   langs:
   - csharp
   - vb
-  name: RemoveSession(int)
-  nameWithType: CsSessionManager.RemoveSession(int)
-  fullName: SuperOffice.CRM.CS.CsSessionManager.RemoveSession(int)
+  name: RemoveSession(Int32)
+  nameWithType: CsSessionManager.RemoveSession(Int32)
+  fullName: SuperOffice.CRM.CS.CsSessionManager.RemoveSession(System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.CS
-  summary: Removes an existing CS session based on the login id.
-  example: []
+  summary: "\nRemoves an existing CS session based on the login id.\n"
   syntax:
     content: public static void RemoveSession(int loginId)
     parameters:
     - id: loginId
       type: System.Int32
-      description: ''
     content.vb: Public Shared Sub RemoveSession(loginId As Integer)
   overload: SuperOffice.CRM.CS.CsSessionManager.RemoveSession*
-  nameWithType.vb: CsSessionManager.RemoveSession(Integer)
-  fullName.vb: SuperOffice.CRM.CS.CsSessionManager.RemoveSession(Integer)
-  name.vb: RemoveSession(Integer)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 references:
 - uid: SuperOffice.CRM.CS
   commentId: N:SuperOffice.CRM.CS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.CS
   nameWithType: SuperOffice.CRM.CS
   fullName: SuperOffice.CRM.CS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.CS
-    name: CS
-    isExternal: true
-    href: SuperOffice.CRM.CS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.CS
-    name: CS
-    isExternal: true
-    href: SuperOffice.CRM.CS.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.CRM.CS.CsSessionManager.CreateCsSession*
   commentId: Overload:SuperOffice.CRM.CS.CsSessionManager.CreateCsSession
   isExternal: true
-  href: SuperOffice.CRM.CS.CsSessionManager.html#SuperOffice_CRM_CS_CsSessionManager_CreateCsSession_System_String_SuperOffice_Data_CsLoginOrigin_System_String__System_Int32__System_Int32__
   name: CreateCsSession
   nameWithType: CsSessionManager.CreateCsSession
   fullName: SuperOffice.CRM.CS.CsSessionManager.CreateCsSession
@@ -383,18 +138,13 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.Data.CsLoginOrigin
   commentId: T:SuperOffice.Data.CsLoginOrigin
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.CsLoginOrigin.html
   name: CsLoginOrigin
   nameWithType: CsLoginOrigin
   fullName: SuperOffice.Data.CsLoginOrigin
@@ -402,44 +152,18 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
 - uid: SuperOffice.CRM.CS.CsSessionManager.RemoveSession*
   commentId: Overload:SuperOffice.CRM.CS.CsSessionManager.RemoveSession
   isExternal: true
-  href: SuperOffice.CRM.CS.CsSessionManager.html#SuperOffice_CRM_CS_CsSessionManager_RemoveSession_System_Int32_
   name: RemoveSession
   nameWithType: CsSessionManager.RemoveSession
   fullName: SuperOffice.CRM.CS.CsSessionManager.RemoveSession

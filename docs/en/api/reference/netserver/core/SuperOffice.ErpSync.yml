@@ -25,8 +25,8 @@ items:
   - SuperOffice.ErpSync.GetListRequestWS
   - SuperOffice.ErpSync.GetSearchableFieldsRequestWS
   - SuperOffice.ErpSync.GetSupportedActorTypeFieldsRequestWS
-  - SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin
   - SuperOffice.ErpSync.IErpConnectorWS
+  - SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin
   - SuperOffice.ErpSync.IntOperators
   - SuperOffice.ErpSync.ListItemArrayPluginResponseWS
   - SuperOffice.ErpSync.ListOperators
@@ -57,7 +57,6 @@ references:
   commentId: T:SuperOffice.ErpSync.ErpActorWS
   parent: SuperOffice.ErpSync
   isExternal: true
-  href: SuperOffice.ErpSync.ErpActorWS.html
   name: ErpActorWS
   nameWithType: ErpActorWS
   fullName: SuperOffice.ErpSync.ErpActorWS
@@ -65,7 +64,6 @@ references:
   commentId: T:SuperOffice.ErpSync.FieldMetadataTypeInfoWS
   parent: SuperOffice.ErpSync
   isExternal: true
-  href: SuperOffice.ErpSync.FieldMetadataTypeInfoWS.html
   name: FieldMetadataTypeInfoWS
   nameWithType: FieldMetadataTypeInfoWS
   fullName: SuperOffice.ErpSync.FieldMetadataTypeInfoWS
@@ -73,7 +71,6 @@ references:
   commentId: T:SuperOffice.ErpSync.FieldAccessInfoWS
   parent: SuperOffice.ErpSync
   isExternal: true
-  href: SuperOffice.ErpSync.FieldAccessInfoWS.html
   name: FieldAccessInfoWS
   nameWithType: FieldAccessInfoWS
   fullName: SuperOffice.ErpSync.FieldAccessInfoWS
@@ -81,35 +78,30 @@ references:
   commentId: T:SuperOffice.ErpSync.FieldMetadataInfoWS
   parent: SuperOffice.ErpSync
   isExternal: true
-  href: SuperOffice.ErpSync.FieldMetadataInfoWS.html
   name: FieldMetadataInfoWS
   nameWithType: FieldMetadataInfoWS
   fullName: SuperOffice.ErpSync.FieldMetadataInfoWS
 - uid: SuperOffice.ErpSync.EisConnectorWSVersion
   commentId: T:SuperOffice.ErpSync.EisConnectorWSVersion
   isExternal: true
-  href: SuperOffice.ErpSync.EisConnectorWSVersion.html
   name: EisConnectorWSVersion
   nameWithType: EisConnectorWSVersion
   fullName: SuperOffice.ErpSync.EisConnectorWSVersion
 - uid: SuperOffice.ErpSync.IErpConnectorWS
   commentId: T:SuperOffice.ErpSync.IErpConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.IErpConnectorWS.html
   name: IErpConnectorWS
   nameWithType: IErpConnectorWS
   fullName: SuperOffice.ErpSync.IErpConnectorWS
 - uid: SuperOffice.ErpSync.ErpConnectoUrlResolverPluginAttribute
   commentId: T:SuperOffice.ErpSync.ErpConnectoUrlResolverPluginAttribute
   isExternal: true
-  href: SuperOffice.ErpSync.ErpConnectoUrlResolverPluginAttribute.html
   name: ErpConnectoUrlResolverPluginAttribute
   nameWithType: ErpConnectoUrlResolverPluginAttribute
   fullName: SuperOffice.ErpSync.ErpConnectoUrlResolverPluginAttribute
 - uid: SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin
   commentId: T:SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin
   isExternal: true
-  href: SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin.html
   name: IErpConnectoUrlResolverPlugin
   nameWithType: IErpConnectoUrlResolverPlugin
   fullName: SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin
@@ -117,7 +109,6 @@ references:
   commentId: T:SuperOffice.ErpSync.TestConfigDataRequestWS
   parent: SuperOffice.ErpSync
   isExternal: true
-  href: SuperOffice.ErpSync.TestConfigDataRequestWS.html
   name: TestConfigDataRequestWS
   nameWithType: TestConfigDataRequestWS
   fullName: SuperOffice.ErpSync.TestConfigDataRequestWS
@@ -125,7 +116,6 @@ references:
   commentId: T:SuperOffice.ErpSync.RequestBaseWS
   parent: SuperOffice.ErpSync
   isExternal: true
-  href: SuperOffice.ErpSync.RequestBaseWS.html
   name: RequestBaseWS
   nameWithType: RequestBaseWS
   fullName: SuperOffice.ErpSync.RequestBaseWS
@@ -133,7 +123,6 @@ references:
   commentId: T:SuperOffice.ErpSync.SaveConnectionRequestWS
   parent: SuperOffice.ErpSync
   isExternal: true
-  href: SuperOffice.ErpSync.SaveConnectionRequestWS.html
   name: SaveConnectionRequestWS
   nameWithType: SaveConnectionRequestWS
   fullName: SuperOffice.ErpSync.SaveConnectionRequestWS
@@ -141,7 +130,6 @@ references:
   commentId: T:SuperOffice.ErpSync.GetSupportedActorTypeFieldsRequestWS
   parent: SuperOffice.ErpSync
   isExternal: true
-  href: SuperOffice.ErpSync.GetSupportedActorTypeFieldsRequestWS.html
   name: GetSupportedActorTypeFieldsRequestWS
   nameWithType: GetSupportedActorTypeFieldsRequestWS
   fullName: SuperOffice.ErpSync.GetSupportedActorTypeFieldsRequestWS
@@ -149,7 +137,6 @@ references:
   commentId: T:SuperOffice.ErpSync.GetActorsRequestWS
   parent: SuperOffice.ErpSync
   isExternal: true
-  href: SuperOffice.ErpSync.GetActorsRequestWS.html
   name: GetActorsRequestWS
   nameWithType: GetActorsRequestWS
   fullName: SuperOffice.ErpSync.GetActorsRequestWS
@@ -157,7 +144,6 @@ references:
   commentId: T:SuperOffice.ErpSync.GetSearchableFieldsRequestWS
   parent: SuperOffice.ErpSync
   isExternal: true
-  href: SuperOffice.ErpSync.GetSearchableFieldsRequestWS.html
   name: GetSearchableFieldsRequestWS
   nameWithType: GetSearchableFieldsRequestWS
   fullName: SuperOffice.ErpSync.GetSearchableFieldsRequestWS
@@ -165,7 +151,6 @@ references:
   commentId: T:SuperOffice.ErpSync.SearchActorsAdvancedRequestWS
   parent: SuperOffice.ErpSync
   isExternal: true
-  href: SuperOffice.ErpSync.SearchActorsAdvancedRequestWS.html
   name: SearchActorsAdvancedRequestWS
   nameWithType: SearchActorsAdvancedRequestWS
   fullName: SuperOffice.ErpSync.SearchActorsAdvancedRequestWS
@@ -173,7 +158,6 @@ references:
   commentId: T:SuperOffice.ErpSync.SearchActorsRequestWS
   parent: SuperOffice.ErpSync
   isExternal: true
-  href: SuperOffice.ErpSync.SearchActorsRequestWS.html
   name: SearchActorsRequestWS
   nameWithType: SearchActorsRequestWS
   fullName: SuperOffice.ErpSync.SearchActorsRequestWS
@@ -181,7 +165,6 @@ references:
   commentId: T:SuperOffice.ErpSync.SearchActorByParentRequestWS
   parent: SuperOffice.ErpSync
   isExternal: true
-  href: SuperOffice.ErpSync.SearchActorByParentRequestWS.html
   name: SearchActorByParentRequestWS
   nameWithType: SearchActorByParentRequestWS
   fullName: SuperOffice.ErpSync.SearchActorByParentRequestWS
@@ -189,7 +172,6 @@ references:
   commentId: T:SuperOffice.ErpSync.CreateActorRequestWS
   parent: SuperOffice.ErpSync
   isExternal: true
-  href: SuperOffice.ErpSync.CreateActorRequestWS.html
   name: CreateActorRequestWS
   nameWithType: CreateActorRequestWS
   fullName: SuperOffice.ErpSync.CreateActorRequestWS
@@ -197,7 +179,6 @@ references:
   commentId: T:SuperOffice.ErpSync.SaveActorsRequestWS
   parent: SuperOffice.ErpSync
   isExternal: true
-  href: SuperOffice.ErpSync.SaveActorsRequestWS.html
   name: SaveActorsRequestWS
   nameWithType: SaveActorsRequestWS
   fullName: SuperOffice.ErpSync.SaveActorsRequestWS
@@ -205,7 +186,6 @@ references:
   commentId: T:SuperOffice.ErpSync.GetListRequestWS
   parent: SuperOffice.ErpSync
   isExternal: true
-  href: SuperOffice.ErpSync.GetListRequestWS.html
   name: GetListRequestWS
   nameWithType: GetListRequestWS
   fullName: SuperOffice.ErpSync.GetListRequestWS
@@ -213,7 +193,6 @@ references:
   commentId: T:SuperOffice.ErpSync.GetListItemsRequestWS
   parent: SuperOffice.ErpSync
   isExternal: true
-  href: SuperOffice.ErpSync.GetListItemsRequestWS.html
   name: GetListItemsRequestWS
   nameWithType: GetListItemsRequestWS
   fullName: SuperOffice.ErpSync.GetListItemsRequestWS
@@ -221,7 +200,6 @@ references:
   commentId: T:SuperOffice.ErpSync.GetActorsByTimestampRequestWS
   parent: SuperOffice.ErpSync
   isExternal: true
-  href: SuperOffice.ErpSync.GetActorsByTimestampRequestWS.html
   name: GetActorsByTimestampRequestWS
   nameWithType: GetActorsByTimestampRequestWS
   fullName: SuperOffice.ErpSync.GetActorsByTimestampRequestWS
@@ -229,7 +207,6 @@ references:
   commentId: T:SuperOffice.ErpSync.ResponseStateWS
   parent: SuperOffice.ErpSync
   isExternal: true
-  href: SuperOffice.ErpSync.ResponseStateWS.html
   name: ResponseStateWS
   nameWithType: ResponseStateWS
   fullName: SuperOffice.ErpSync.ResponseStateWS
@@ -237,7 +214,6 @@ references:
   commentId: T:SuperOffice.ErpSync.ConnectorResultBaseWS
   parent: SuperOffice.ErpSync
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorResultBaseWS.html
   name: ConnectorResultBaseWS
   nameWithType: ConnectorResultBaseWS
   fullName: SuperOffice.ErpSync.ConnectorResultBaseWS
@@ -245,7 +221,6 @@ references:
   commentId: T:SuperOffice.ErpSync.ActorPluginResponseWS
   parent: SuperOffice.ErpSync
   isExternal: true
-  href: SuperOffice.ErpSync.ActorPluginResponseWS.html
   name: ActorPluginResponseWS
   nameWithType: ActorPluginResponseWS
   fullName: SuperOffice.ErpSync.ActorPluginResponseWS
@@ -253,7 +228,6 @@ references:
   commentId: T:SuperOffice.ErpSync.ActorArrayPluginResponseWS
   parent: SuperOffice.ErpSync
   isExternal: true
-  href: SuperOffice.ErpSync.ActorArrayPluginResponseWS.html
   name: ActorArrayPluginResponseWS
   nameWithType: ActorArrayPluginResponseWS
   fullName: SuperOffice.ErpSync.ActorArrayPluginResponseWS
@@ -261,7 +235,6 @@ references:
   commentId: T:SuperOffice.ErpSync.ListItemArrayPluginResponseWS
   parent: SuperOffice.ErpSync
   isExternal: true
-  href: SuperOffice.ErpSync.ListItemArrayPluginResponseWS.html
   name: ListItemArrayPluginResponseWS
   nameWithType: ListItemArrayPluginResponseWS
   fullName: SuperOffice.ErpSync.ListItemArrayPluginResponseWS
@@ -269,7 +242,6 @@ references:
   commentId: T:SuperOffice.ErpSync.StringArrayPluginResponseWS
   parent: SuperOffice.ErpSync
   isExternal: true
-  href: SuperOffice.ErpSync.StringArrayPluginResponseWS.html
   name: StringArrayPluginResponseWS
   nameWithType: StringArrayPluginResponseWS
   fullName: SuperOffice.ErpSync.StringArrayPluginResponseWS
@@ -277,63 +249,54 @@ references:
   commentId: T:SuperOffice.ErpSync.FieldMetadataInfoArrayPluginResponseWS
   parent: SuperOffice.ErpSync
   isExternal: true
-  href: SuperOffice.ErpSync.FieldMetadataInfoArrayPluginResponseWS.html
   name: FieldMetadataInfoArrayPluginResponseWS
   nameWithType: FieldMetadataInfoArrayPluginResponseWS
   fullName: SuperOffice.ErpSync.FieldMetadataInfoArrayPluginResponseWS
 - uid: SuperOffice.ErpSync.SpecialSearchKeys
   commentId: T:SuperOffice.ErpSync.SpecialSearchKeys
   isExternal: true
-  href: SuperOffice.ErpSync.SpecialSearchKeys.html
   name: SpecialSearchKeys
   nameWithType: SpecialSearchKeys
   fullName: SuperOffice.ErpSync.SpecialSearchKeys
 - uid: SuperOffice.ErpSync.SearchHelper
   commentId: T:SuperOffice.ErpSync.SearchHelper
   isExternal: true
-  href: SuperOffice.ErpSync.SearchHelper.html
   name: SearchHelper
   nameWithType: SearchHelper
   fullName: SuperOffice.ErpSync.SearchHelper
 - uid: SuperOffice.ErpSync.StringOperators
   commentId: T:SuperOffice.ErpSync.StringOperators
   isExternal: true
-  href: SuperOffice.ErpSync.StringOperators.html
   name: StringOperators
   nameWithType: StringOperators
   fullName: SuperOffice.ErpSync.StringOperators
 - uid: SuperOffice.ErpSync.IntOperators
   commentId: T:SuperOffice.ErpSync.IntOperators
   isExternal: true
-  href: SuperOffice.ErpSync.IntOperators.html
   name: IntOperators
   nameWithType: IntOperators
   fullName: SuperOffice.ErpSync.IntOperators
 - uid: SuperOffice.ErpSync.DoubleOperators
   commentId: T:SuperOffice.ErpSync.DoubleOperators
   isExternal: true
-  href: SuperOffice.ErpSync.DoubleOperators.html
   name: DoubleOperators
   nameWithType: DoubleOperators
   fullName: SuperOffice.ErpSync.DoubleOperators
 - uid: SuperOffice.ErpSync.BoolOperators
   commentId: T:SuperOffice.ErpSync.BoolOperators
   isExternal: true
-  href: SuperOffice.ErpSync.BoolOperators.html
   name: BoolOperators
   nameWithType: BoolOperators
   fullName: SuperOffice.ErpSync.BoolOperators
 - uid: SuperOffice.ErpSync.ListOperators
   commentId: T:SuperOffice.ErpSync.ListOperators
   isExternal: true
-  href: SuperOffice.ErpSync.ListOperators.html
   name: ListOperators
   nameWithType: ListOperators
   fullName: SuperOffice.ErpSync.ListOperators
 - uid: SuperOffice.ErpSync.DateTimeOperators
   commentId: T:SuperOffice.ErpSync.DateTimeOperators
   isExternal: true
-  href: SuperOffice.ErpSync.DateTimeOperators.html
   name: DateTimeOperators
   nameWithType: DateTimeOperators
   fullName: SuperOffice.ErpSync.DateTimeOperators
@@ -341,62 +304,19 @@ references:
   commentId: T:SuperOffice.ErpSync.DateTimeOperators.MatchType
   parent: SuperOffice.ErpSync
   isExternal: true
-  href: SuperOffice.ErpSync.DateTimeOperators.html
   name: DateTimeOperators.MatchType
   nameWithType: DateTimeOperators.MatchType
   fullName: SuperOffice.ErpSync.DateTimeOperators.MatchType
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.DateTimeOperators
-    name: DateTimeOperators
-    isExternal: true
-    href: SuperOffice.ErpSync.DateTimeOperators.html
-  - name: .
-  - uid: SuperOffice.ErpSync.DateTimeOperators.MatchType
-    name: MatchType
-    isExternal: true
-    href: SuperOffice.ErpSync.DateTimeOperators.MatchType.html
-  spec.vb:
-  - uid: SuperOffice.ErpSync.DateTimeOperators
-    name: DateTimeOperators
-    isExternal: true
-    href: SuperOffice.ErpSync.DateTimeOperators.html
-  - name: .
-  - uid: SuperOffice.ErpSync.DateTimeOperators.MatchType
-    name: MatchType
-    isExternal: true
-    href: SuperOffice.ErpSync.DateTimeOperators.MatchType.html
 - uid: SuperOffice.ErpSync.SearchRestrictionInfoWS
   commentId: T:SuperOffice.ErpSync.SearchRestrictionInfoWS
   parent: SuperOffice.ErpSync
   isExternal: true
-  href: SuperOffice.ErpSync.SearchRestrictionInfoWS.html
   name: SearchRestrictionInfoWS
   nameWithType: SearchRestrictionInfoWS
   fullName: SuperOffice.ErpSync.SearchRestrictionInfoWS
 - uid: SuperOffice.ErpSync
   commentId: N:SuperOffice.ErpSync
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync
   nameWithType: SuperOffice.ErpSync
   fullName: SuperOffice.ErpSync
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html

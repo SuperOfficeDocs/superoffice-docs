@@ -18,27 +18,18 @@ items:
   nameWithType: TokenManagementInfo
   fullName: SuperOffice.CRM.Services.TokenManagementInfo
   type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Token information
-
-    <p></p>
-
-    Carrier object for TokenManagementInfo.
-
-    Services for the TokenManagementInfo Carrier is available from the <xref href="SuperOffice.CRM.Services.IUserAgent?text=User+Agent" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nToken information\n<p></p>\nCarrier object for TokenManagementInfo.\nServices for the TokenManagementInfo Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IUserAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public class TokenManagementInfo : Carrier
+    content: 'public class TokenManagementInfo : Carrier'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
-
-      Public Class TokenManagementInfo Inherits Carrier
+      Public Class TokenManagementInfo
+          Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.UserAgent
     commentId: T:SuperOffice.CRM.Services.UserAgent
@@ -46,14 +37,12 @@ items:
     commentId: T:SuperOffice.CRM.Services.IUserAgent
   inheritance:
   - System.Object
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.TokenManagementInfo.#ctor
   commentId: M:SuperOffice.CRM.Services.TokenManagementInfo.#ctor
   id: '#ctor'
@@ -65,18 +54,21 @@ items:
   nameWithType: TokenManagementInfo.TokenManagementInfo()
   fullName: SuperOffice.CRM.Services.TokenManagementInfo.TokenManagementInfo()
   type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Default constructor
-  example: []
+  summary: "\nDefault constructor\n"
   syntax:
     content: public TokenManagementInfo()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.TokenManagementInfo.#ctor*
-  nameWithType.vb: TokenManagementInfo.New()
-  fullName.vb: SuperOffice.CRM.Services.TokenManagementInfo.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.TokenManagementInfo.ToString
   commentId: M:SuperOffice.CRM.Services.TokenManagementInfo.ToString
   id: ToString
@@ -88,18 +80,26 @@ items:
   nameWithType: TokenManagementInfo.ToString()
   fullName: SuperOffice.CRM.Services.TokenManagementInfo.ToString()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the carrier contents as a formatted string.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string.\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString() As String
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.CRM.Services.TokenManagementInfo.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Services.TokenManagementInfo.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.TokenManagementInfo.ToString(System.String)
   id: ToString(System.String)
@@ -107,18 +107,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(string)
-  nameWithType: TokenManagementInfo.ToString(string)
-  fullName: SuperOffice.CRM.Services.TokenManagementInfo.ToString(string)
+  name: ToString(String)
+  nameWithType: TokenManagementInfo.ToString(String)
+  fullName: SuperOffice.CRM.Services.TokenManagementInfo.ToString(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Returns the carrier contents as a formatted string, useful for debugging.
-
-    Each line in the output is prefixed with the input value.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -130,9 +129,10 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.TokenManagementInfo.ToString*
-  nameWithType.vb: TokenManagementInfo.ToString(String)
-  fullName.vb: SuperOffice.CRM.Services.TokenManagementInfo.ToString(String)
-  name.vb: ToString(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.TokenManagementInfo.Provider
   commentId: P:SuperOffice.CRM.Services.TokenManagementInfo.Provider
   id: Provider
@@ -144,28 +144,28 @@ items:
   nameWithType: TokenManagementInfo.Provider
   fullName: SuperOffice.CRM.Services.TokenManagementInfo.Provider
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The provider these tokens belong to
-  example: []
+  summary: "\nThe provider these tokens belong to \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string Provider { get; set; }
+    content: public virtual string Provider { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Provider As String
+    content.vb: Public Overridable Property Provider As String
   overload: SuperOffice.CRM.Services.TokenManagementInfo.Provider*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.TokenManagementInfo.AccessToken
   commentId: P:SuperOffice.CRM.Services.TokenManagementInfo.AccessToken
   id: AccessToken
@@ -177,28 +177,28 @@ items:
   nameWithType: TokenManagementInfo.AccessToken
   fullName: SuperOffice.CRM.Services.TokenManagementInfo.AccessToken
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Access token
-  example: []
+  summary: "\nAccess token \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string AccessToken { get; set; }
+    content: public virtual string AccessToken { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property AccessToken As String
+    content.vb: Public Overridable Property AccessToken As String
   overload: SuperOffice.CRM.Services.TokenManagementInfo.AccessToken*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.TokenManagementInfo.RefreshToken
   commentId: P:SuperOffice.CRM.Services.TokenManagementInfo.RefreshToken
   id: RefreshToken
@@ -210,33 +210,38 @@ items:
   nameWithType: TokenManagementInfo.RefreshToken
   fullName: SuperOffice.CRM.Services.TokenManagementInfo.RefreshToken
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Refresh token
-  example: []
+  summary: "\nRefresh token \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string RefreshToken { get; set; }
+    content: public virtual string RefreshToken { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property RefreshToken As String
+    content.vb: Public Overridable Property RefreshToken As String
   overload: SuperOffice.CRM.Services.TokenManagementInfo.RefreshToken*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
 - uid: SuperOffice.CRM.Services.UserAgent
   commentId: T:SuperOffice.CRM.Services.UserAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.UserAgent.html
   name: UserAgent
   nameWithType: UserAgent
   fullName: SuperOffice.CRM.Services.UserAgent
@@ -244,79 +249,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.IUserAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.IUserAgent.html
   name: IUserAgent
   nameWithType: IUserAgent
   fullName: SuperOffice.CRM.Services.IUserAgent
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.TokenManagementInfo.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.TokenManagementInfo.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.TokenManagementInfo.html#SuperOffice_CRM_Services_TokenManagementInfo__ctor
   name: TokenManagementInfo
   nameWithType: TokenManagementInfo.TokenManagementInfo
   fullName: SuperOffice.CRM.Services.TokenManagementInfo.TokenManagementInfo
-  nameWithType.vb: TokenManagementInfo.New
-  fullName.vb: SuperOffice.CRM.Services.TokenManagementInfo.New
-  name.vb: New
 - uid: SuperOffice.CRM.Services.TokenManagementInfo.ToString*
   commentId: Overload:SuperOffice.CRM.Services.TokenManagementInfo.ToString
   isExternal: true
-  href: SuperOffice.CRM.Services.TokenManagementInfo.html#SuperOffice_CRM_Services_TokenManagementInfo_ToString
   name: ToString
   nameWithType: TokenManagementInfo.ToString
   fullName: SuperOffice.CRM.Services.TokenManagementInfo.ToString
@@ -324,31 +268,30 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.TokenManagementInfo.Provider*
   commentId: Overload:SuperOffice.CRM.Services.TokenManagementInfo.Provider
   isExternal: true
-  href: SuperOffice.CRM.Services.TokenManagementInfo.html#SuperOffice_CRM_Services_TokenManagementInfo_Provider
   name: Provider
   nameWithType: TokenManagementInfo.Provider
   fullName: SuperOffice.CRM.Services.TokenManagementInfo.Provider
 - uid: SuperOffice.CRM.Services.TokenManagementInfo.AccessToken*
   commentId: Overload:SuperOffice.CRM.Services.TokenManagementInfo.AccessToken
   isExternal: true
-  href: SuperOffice.CRM.Services.TokenManagementInfo.html#SuperOffice_CRM_Services_TokenManagementInfo_AccessToken
   name: AccessToken
   nameWithType: TokenManagementInfo.AccessToken
   fullName: SuperOffice.CRM.Services.TokenManagementInfo.AccessToken
 - uid: SuperOffice.CRM.Services.TokenManagementInfo.RefreshToken*
   commentId: Overload:SuperOffice.CRM.Services.TokenManagementInfo.RefreshToken
   isExternal: true
-  href: SuperOffice.CRM.Services.TokenManagementInfo.html#SuperOffice_CRM_Services_TokenManagementInfo_RefreshToken
   name: RefreshToken
   nameWithType: TokenManagementInfo.RefreshToken
   fullName: SuperOffice.CRM.Services.TokenManagementInfo.RefreshToken

@@ -14,43 +14,52 @@ items:
   nameWithType: RelationsList
   fullName: SuperOffice.CRM.Archives.RelationsList
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Archives
-  summary: RelationsList implements the RelationsList in SuperOffice.
-  example: []
+  summary: "\nRelationsList implements the RelationsList in SuperOffice. \n"
   syntax:
-    content: 'public sealed class RelationsList : ListBase<RelationsList.RelationsListQuery, RelationsListItem>, IList, ICollection, IList<RelationsListItem>, ICollection<RelationsListItem>, IEnumerable<RelationsListItem>, IEnumerable'
-    content.vb: Public NotInheritable Class RelationsList Inherits ListBase(Of RelationsList.RelationsListQuery, RelationsListItem) Implements IList, ICollection, IList(Of RelationsListItem), ICollection(Of RelationsListItem), IEnumerable(Of RelationsListItem), IEnumerable
+    content: 'public sealed class RelationsList : ListBase<RelationsList.RelationsListQuery, RelationsListItem>, IEnumerable, IEnumerable<RelationsListItem>, IList, ICollection, IList<RelationsListItem>, ICollection<RelationsListItem>'
+    content.vb: >-
+      Public NotInheritable Class RelationsList
+          Inherits ListBase(Of RelationsList.RelationsListQuery, RelationsListItem)
+          Implements IEnumerable, IEnumerable(Of RelationsListItem), IList, ICollection, IList(Of RelationsListItem), ICollection(Of RelationsListItem)
   inheritance:
   - System.Object
   - SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.CRM.Archives.RelationsListItem}
   implements:
+  - System.Collections.IEnumerable
+  - System.Collections.Generic.IEnumerable{SuperOffice.CRM.Archives.RelationsListItem}
   - System.Collections.IList
   - System.Collections.ICollection
   - System.Collections.Generic.IList{SuperOffice.CRM.Archives.RelationsListItem}
   - System.Collections.Generic.ICollection{SuperOffice.CRM.Archives.RelationsListItem}
-  - System.Collections.Generic.IEnumerable{SuperOffice.CRM.Archives.RelationsListItem}
-  - System.Collections.IEnumerable
   inheritedMembers:
   - SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.CRM.Archives.RelationsListItem}.CopyTo(System.Array,System.Int32)
   - SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.CRM.Archives.RelationsListItem}.CopyTo(SuperOffice.CRM.Archives.RelationsListItem[],System.Int32)
   - SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.CRM.Archives.RelationsListItem}.IndexOf(SuperOffice.CRM.Archives.RelationsListItem)
   - SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.CRM.Archives.RelationsListItem}.Contains(SuperOffice.CRM.Archives.RelationsListItem)
+  - SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.CRM.Archives.RelationsListItem}.OnLoad(SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.Data.SoDataReader)
   - SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.CRM.Archives.RelationsListItem}.GetEnumerator
   - SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.CRM.Archives.RelationsListItem}.Item(System.Int32)
+  - SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.CRM.Archives.RelationsListItem}.ListCollection
   - SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.CRM.Archives.RelationsListItem}.Count
   - SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.CRM.Archives.RelationsListItem}.IsFixedSize
   - SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.CRM.Archives.RelationsListItem}.IsReadOnly
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
   extensionMethods:
   - SuperOffice.CRM.Archives.RelationsList.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Archives.RelationsList.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
 - uid: SuperOffice.CRM.Archives.RelationsList.OnLoad(SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.Data.SoDataReader)
   commentId: M:SuperOffice.CRM.Archives.RelationsList.OnLoad(SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.Data.SoDataReader)
   id: OnLoad(SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.Data.SoDataReader)
@@ -58,30 +67,34 @@ items:
   langs:
   - csharp
   - vb
-  name: OnLoad(RelationsListQuery, SoDataReader)
+  name: OnLoad(RelationsList.RelationsListQuery, SoDataReader)
   nameWithType: RelationsList.OnLoad(RelationsList.RelationsListQuery, SoDataReader)
   fullName: SuperOffice.CRM.Archives.RelationsList.OnLoad(SuperOffice.CRM.Archives.RelationsList.RelationsListQuery, SuperOffice.Data.SoDataReader)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Archives
-  summary: >-
-    Responsible for reading each row with data from the SoDataReader and insert the object each row represents
-
-    into the class' collection.
-  example: []
+  summary: "\nResponsible for reading each row with data from the SoDataReader and insert the object each row represents\ninto the class&apos; collection. \n"
   syntax:
     content: protected override void OnLoad(RelationsList.RelationsListQuery query, SoDataReader reader)
     parameters:
     - id: query
       type: SuperOffice.CRM.Archives.RelationsList.RelationsListQuery
-      description: ''
     - id: reader
       type: SuperOffice.Data.SoDataReader
       description: The reader which contains all data in the list.
     content.vb: Protected Overrides Sub OnLoad(query As RelationsList.RelationsListQuery, reader As SoDataReader)
   overridden: SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.CRM.Archives.RelationsListItem}.OnLoad(SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.Data.SoDataReader)
   overload: SuperOffice.CRM.Archives.RelationsList.OnLoad*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
 - uid: SuperOffice.CRM.Archives.RelationsList.GetRelationListItem(System.Int32)
   commentId: M:SuperOffice.CRM.Archives.RelationsList.GetRelationListItem(System.Int32)
   id: GetRelationListItem(System.Int32)
@@ -89,15 +102,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetRelationListItem(int)
-  nameWithType: RelationsList.GetRelationListItem(int)
-  fullName: SuperOffice.CRM.Archives.RelationsList.GetRelationListItem(int)
+  name: GetRelationListItem(Int32)
+  nameWithType: RelationsList.GetRelationListItem(Int32)
+  fullName: SuperOffice.CRM.Archives.RelationsList.GetRelationListItem(System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Archives
-  summary: Will return the RelationsListItem described by the relationId.
-  example: []
+  summary: "\nWill return the RelationsListItem described by the relationId.\n"
   syntax:
     content: public RelationsListItem GetRelationListItem(int relationId)
     parameters:
@@ -109,63 +124,28 @@ items:
       description: The relation
     content.vb: Public Function GetRelationListItem(relationId As Integer) As RelationsListItem
   overload: SuperOffice.CRM.Archives.RelationsList.GetRelationListItem*
-  nameWithType.vb: RelationsList.GetRelationListItem(Integer)
-  fullName.vb: SuperOffice.CRM.Archives.RelationsList.GetRelationListItem(Integer)
-  name.vb: GetRelationListItem(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 references:
 - uid: SuperOffice.CRM.Archives
   commentId: N:SuperOffice.CRM.Archives
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Archives
   nameWithType: SuperOffice.CRM.Archives
   fullName: SuperOffice.CRM.Archives
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Archives
-    name: Archives
-    isExternal: true
-    href: SuperOffice.CRM.Archives.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Archives
-    name: Archives
-    isExternal: true
-    href: SuperOffice.CRM.Archives.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.CRM.Archives.RelationsListItem}
   commentId: T:SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.CRM.Archives.RelationsListItem}
   parent: SuperOffice.CRM.Lists
   definition: SuperOffice.CRM.Lists.ListBase`2
-  href: SuperOffice.CRM.Lists.ListBase-2.html
   name: ListBase<RelationsList.RelationsListQuery, RelationsListItem>
   nameWithType: ListBase<RelationsList.RelationsListQuery, RelationsListItem>
   fullName: SuperOffice.CRM.Lists.ListBase<SuperOffice.CRM.Archives.RelationsList.RelationsListQuery, SuperOffice.CRM.Archives.RelationsListItem>
@@ -175,140 +155,61 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Lists.ListBase`2
     name: ListBase
+    nameWithType: ListBase
+    fullName: SuperOffice.CRM.Lists.ListBase
     isExternal: true
-    href: SuperOffice.CRM.Lists.ListBase-2.html
   - name: <
-  - uid: SuperOffice.CRM.Archives.RelationsList
-    name: RelationsList
-    isExternal: true
-    href: SuperOffice.CRM.Archives.RelationsList.html
-  - name: .
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Archives.RelationsList.RelationsListQuery
-    name: RelationsListQuery
+    name: RelationsList.RelationsListQuery
+    nameWithType: RelationsList.RelationsListQuery
+    fullName: SuperOffice.CRM.Archives.RelationsList.RelationsListQuery
     isExternal: true
-    href: SuperOffice.CRM.Archives.RelationsList.RelationsListQuery.html
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.CRM.Archives.RelationsListItem
     name: RelationsListItem
+    nameWithType: RelationsListItem
+    fullName: SuperOffice.CRM.Archives.RelationsListItem
     isExternal: true
-    href: SuperOffice.CRM.Archives.RelationsListItem.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.CRM.Lists.ListBase`2
     name: ListBase
+    nameWithType: ListBase
+    fullName: SuperOffice.CRM.Lists.ListBase
     isExternal: true
-    href: SuperOffice.CRM.Lists.ListBase-2.html
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Archives.RelationsList
-    name: RelationsList
-    isExternal: true
-    href: SuperOffice.CRM.Archives.RelationsList.html
-  - name: .
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Archives.RelationsList.RelationsListQuery
-    name: RelationsListQuery
+    name: RelationsList.RelationsListQuery
+    nameWithType: RelationsList.RelationsListQuery
+    fullName: SuperOffice.CRM.Archives.RelationsList.RelationsListQuery
     isExternal: true
-    href: SuperOffice.CRM.Archives.RelationsList.RelationsListQuery.html
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.CRM.Archives.RelationsListItem
     name: RelationsListItem
+    nameWithType: RelationsListItem
+    fullName: SuperOffice.CRM.Archives.RelationsListItem
     isExternal: true
-    href: SuperOffice.CRM.Archives.RelationsListItem.html
   - name: )
-- uid: System.Collections.IList
-  commentId: T:System.Collections.IList
-  parent: System.Collections
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.IEnumerable
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.ilist
-  name: IList
-  nameWithType: IList
-  fullName: System.Collections.IList
-- uid: System.Collections.ICollection
-  commentId: T:System.Collections.ICollection
-  parent: System.Collections
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.icollection
-  name: ICollection
-  nameWithType: ICollection
-  fullName: System.Collections.ICollection
-- uid: System.Collections.Generic.IList{SuperOffice.CRM.Archives.RelationsListItem}
-  commentId: T:System.Collections.Generic.IList{SuperOffice.CRM.Archives.RelationsListItem}
-  parent: System.Collections.Generic
-  definition: System.Collections.Generic.IList`1
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
-  name: IList<RelationsListItem>
-  nameWithType: IList<RelationsListItem>
-  fullName: System.Collections.Generic.IList<SuperOffice.CRM.Archives.RelationsListItem>
-  nameWithType.vb: IList(Of RelationsListItem)
-  fullName.vb: System.Collections.Generic.IList(Of SuperOffice.CRM.Archives.RelationsListItem)
-  name.vb: IList(Of RelationsListItem)
-  spec.csharp:
-  - uid: System.Collections.Generic.IList`1
-    name: IList
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
-  - name: <
-  - uid: SuperOffice.CRM.Archives.RelationsListItem
-    name: RelationsListItem
-    isExternal: true
-    href: SuperOffice.CRM.Archives.RelationsListItem.html
-  - name: '>'
-  spec.vb:
-  - uid: System.Collections.Generic.IList`1
-    name: IList
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Archives.RelationsListItem
-    name: RelationsListItem
-    isExternal: true
-    href: SuperOffice.CRM.Archives.RelationsListItem.html
-  - name: )
-- uid: System.Collections.Generic.ICollection{SuperOffice.CRM.Archives.RelationsListItem}
-  commentId: T:System.Collections.Generic.ICollection{SuperOffice.CRM.Archives.RelationsListItem}
-  parent: System.Collections.Generic
-  definition: System.Collections.Generic.ICollection`1
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
-  name: ICollection<RelationsListItem>
-  nameWithType: ICollection<RelationsListItem>
-  fullName: System.Collections.Generic.ICollection<SuperOffice.CRM.Archives.RelationsListItem>
-  nameWithType.vb: ICollection(Of RelationsListItem)
-  fullName.vb: System.Collections.Generic.ICollection(Of SuperOffice.CRM.Archives.RelationsListItem)
-  name.vb: ICollection(Of RelationsListItem)
-  spec.csharp:
-  - uid: System.Collections.Generic.ICollection`1
-    name: ICollection
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
-  - name: <
-  - uid: SuperOffice.CRM.Archives.RelationsListItem
-    name: RelationsListItem
-    isExternal: true
-    href: SuperOffice.CRM.Archives.RelationsListItem.html
-  - name: '>'
-  spec.vb:
-  - uid: System.Collections.Generic.ICollection`1
-    name: ICollection
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Archives.RelationsListItem
-    name: RelationsListItem
-    isExternal: true
-    href: SuperOffice.CRM.Archives.RelationsListItem.html
-  - name: )
+  name: IEnumerable
+  nameWithType: IEnumerable
+  fullName: System.Collections.IEnumerable
 - uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Archives.RelationsListItem}
-  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Archives.RelationsListItem}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Archives.RelationsListItem}'
   definition: System.Collections.Generic.IEnumerable`1
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   name: IEnumerable<RelationsListItem>
   nameWithType: IEnumerable<RelationsListItem>
   fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Archives.RelationsListItem>
@@ -318,252 +219,493 @@ references:
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Archives.RelationsListItem
     name: RelationsListItem
+    nameWithType: RelationsListItem
+    fullName: SuperOffice.CRM.Archives.RelationsListItem
     isExternal: true
-    href: SuperOffice.CRM.Archives.RelationsListItem.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Archives.RelationsListItem
     name: RelationsListItem
+    nameWithType: RelationsListItem
+    fullName: SuperOffice.CRM.Archives.RelationsListItem
     isExternal: true
-    href: SuperOffice.CRM.Archives.RelationsListItem.html
   - name: )
-- uid: System.Collections.IEnumerable
-  commentId: T:System.Collections.IEnumerable
-  parent: System.Collections
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.IList
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerable
-  name: IEnumerable
-  nameWithType: IEnumerable
-  fullName: System.Collections.IEnumerable
+  name: IList
+  nameWithType: IList
+  fullName: System.Collections.IList
+- uid: System.Collections.ICollection
+  isExternal: true
+  name: ICollection
+  nameWithType: ICollection
+  fullName: System.Collections.ICollection
+- uid: System.Collections.Generic.IList{SuperOffice.CRM.Archives.RelationsListItem}
+  commentId: '!:System.Collections.Generic.IList{SuperOffice.CRM.Archives.RelationsListItem}'
+  definition: System.Collections.Generic.IList`1
+  name: IList<RelationsListItem>
+  nameWithType: IList<RelationsListItem>
+  fullName: System.Collections.Generic.IList<SuperOffice.CRM.Archives.RelationsListItem>
+  nameWithType.vb: IList(Of RelationsListItem)
+  fullName.vb: System.Collections.Generic.IList(Of SuperOffice.CRM.Archives.RelationsListItem)
+  name.vb: IList(Of RelationsListItem)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Archives.RelationsListItem
+    name: RelationsListItem
+    nameWithType: RelationsListItem
+    fullName: SuperOffice.CRM.Archives.RelationsListItem
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Archives.RelationsListItem
+    name: RelationsListItem
+    nameWithType: RelationsListItem
+    fullName: SuperOffice.CRM.Archives.RelationsListItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.ICollection{SuperOffice.CRM.Archives.RelationsListItem}
+  commentId: '!:System.Collections.Generic.ICollection{SuperOffice.CRM.Archives.RelationsListItem}'
+  definition: System.Collections.Generic.ICollection`1
+  name: ICollection<RelationsListItem>
+  nameWithType: ICollection<RelationsListItem>
+  fullName: System.Collections.Generic.ICollection<SuperOffice.CRM.Archives.RelationsListItem>
+  nameWithType.vb: ICollection(Of RelationsListItem)
+  fullName.vb: System.Collections.Generic.ICollection(Of SuperOffice.CRM.Archives.RelationsListItem)
+  name.vb: ICollection(Of RelationsListItem)
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Archives.RelationsListItem
+    name: RelationsListItem
+    nameWithType: RelationsListItem
+    fullName: SuperOffice.CRM.Archives.RelationsListItem
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Archives.RelationsListItem
+    name: RelationsListItem
+    nameWithType: RelationsListItem
+    fullName: SuperOffice.CRM.Archives.RelationsListItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.CRM.Archives.RelationsListItem}.CopyTo(System.Array,System.Int32)
   commentId: M:SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.CRM.Archives.RelationsListItem}.CopyTo(System.Array,System.Int32)
   parent: SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.CRM.Archives.RelationsListItem}
   definition: SuperOffice.CRM.Lists.ListBase`2.CopyTo(System.Array,System.Int32)
-  href: SuperOffice.CRM.Lists.ListBase-2.html#SuperOffice_CRM_Lists_ListBase_2_CopyTo_System_Array_System_Int32_
-  name: CopyTo(Array, int)
-  nameWithType: ListBase<RelationsList.RelationsListQuery, RelationsListItem>.CopyTo(Array, int)
-  fullName: SuperOffice.CRM.Lists.ListBase<SuperOffice.CRM.Archives.RelationsList.RelationsListQuery, SuperOffice.CRM.Archives.RelationsListItem>.CopyTo(System.Array, int)
-  nameWithType.vb: ListBase(Of RelationsList.RelationsListQuery, RelationsListItem).CopyTo(Array, Integer)
-  fullName.vb: SuperOffice.CRM.Lists.ListBase(Of SuperOffice.CRM.Archives.RelationsList.RelationsListQuery, SuperOffice.CRM.Archives.RelationsListItem).CopyTo(System.Array, Integer)
-  name.vb: CopyTo(Array, Integer)
+  name: CopyTo(Array, Int32)
+  nameWithType: ListBase<RelationsList.RelationsListQuery, RelationsListItem>.CopyTo(Array, Int32)
+  fullName: SuperOffice.CRM.Lists.ListBase<SuperOffice.CRM.Archives.RelationsList.RelationsListQuery, SuperOffice.CRM.Archives.RelationsListItem>.CopyTo(System.Array, System.Int32)
+  nameWithType.vb: ListBase(Of RelationsList.RelationsListQuery, RelationsListItem).CopyTo(Array, Int32)
+  fullName.vb: SuperOffice.CRM.Lists.ListBase(Of SuperOffice.CRM.Archives.RelationsList.RelationsListQuery, SuperOffice.CRM.Archives.RelationsListItem).CopyTo(System.Array, System.Int32)
   spec.csharp:
-  - uid: SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.CRM.Archives.RelationsListItem}.CopyTo(System.Array,System.Int32)
+  - uid: SuperOffice.CRM.Lists.ListBase`2.CopyTo(System.Array,System.Int32)
     name: CopyTo
+    nameWithType: ListBase<RelationsList.RelationsListQuery, RelationsListItem>.CopyTo
+    fullName: SuperOffice.CRM.Lists.ListBase<SuperOffice.CRM.Archives.RelationsList.RelationsListQuery, SuperOffice.CRM.Archives.RelationsListItem>.CopyTo
     isExternal: true
-    href: SuperOffice.CRM.Lists.ListBase-2.html#SuperOffice_CRM_Lists_ListBase_2_CopyTo_System_Array_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Array
     name: Array
+    nameWithType: Array
+    fullName: System.Array
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.array
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.CRM.Archives.RelationsListItem}.CopyTo(System.Array,System.Int32)
+  - uid: SuperOffice.CRM.Lists.ListBase`2.CopyTo(System.Array,System.Int32)
     name: CopyTo
+    nameWithType: ListBase(Of RelationsList.RelationsListQuery, RelationsListItem).CopyTo
+    fullName: SuperOffice.CRM.Lists.ListBase(Of SuperOffice.CRM.Archives.RelationsList.RelationsListQuery, SuperOffice.CRM.Archives.RelationsListItem).CopyTo
     isExternal: true
-    href: SuperOffice.CRM.Lists.ListBase-2.html#SuperOffice_CRM_Lists_ListBase_2_CopyTo_System_Array_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Array
     name: Array
+    nameWithType: Array
+    fullName: System.Array
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.array
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.CRM.Archives.RelationsListItem}.CopyTo(SuperOffice.CRM.Archives.RelationsListItem[],System.Int32)
   commentId: M:SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.CRM.Archives.RelationsListItem}.CopyTo(SuperOffice.CRM.Archives.RelationsListItem[],System.Int32)
   parent: SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.CRM.Archives.RelationsListItem}
   definition: SuperOffice.CRM.Lists.ListBase`2.CopyTo(`1[],System.Int32)
-  href: SuperOffice.CRM.Lists.ListBase-2.html#SuperOffice_CRM_Lists_ListBase_2_CopyTo__1___System_Int32_
-  name: CopyTo(RelationsListItem[], int)
-  nameWithType: ListBase<RelationsList.RelationsListQuery, RelationsListItem>.CopyTo(RelationsListItem[], int)
-  fullName: SuperOffice.CRM.Lists.ListBase<SuperOffice.CRM.Archives.RelationsList.RelationsListQuery, SuperOffice.CRM.Archives.RelationsListItem>.CopyTo(SuperOffice.CRM.Archives.RelationsListItem[], int)
-  nameWithType.vb: ListBase(Of RelationsList.RelationsListQuery, RelationsListItem).CopyTo(RelationsListItem(), Integer)
-  fullName.vb: SuperOffice.CRM.Lists.ListBase(Of SuperOffice.CRM.Archives.RelationsList.RelationsListQuery, SuperOffice.CRM.Archives.RelationsListItem).CopyTo(SuperOffice.CRM.Archives.RelationsListItem(), Integer)
-  name.vb: CopyTo(RelationsListItem(), Integer)
+  name: CopyTo(RelationsListItem[], Int32)
+  nameWithType: ListBase<RelationsList.RelationsListQuery, RelationsListItem>.CopyTo(RelationsListItem[], Int32)
+  fullName: SuperOffice.CRM.Lists.ListBase<SuperOffice.CRM.Archives.RelationsList.RelationsListQuery, SuperOffice.CRM.Archives.RelationsListItem>.CopyTo(SuperOffice.CRM.Archives.RelationsListItem[], System.Int32)
+  nameWithType.vb: ListBase(Of RelationsList.RelationsListQuery, RelationsListItem).CopyTo(RelationsListItem(), Int32)
+  fullName.vb: SuperOffice.CRM.Lists.ListBase(Of SuperOffice.CRM.Archives.RelationsList.RelationsListQuery, SuperOffice.CRM.Archives.RelationsListItem).CopyTo(SuperOffice.CRM.Archives.RelationsListItem(), System.Int32)
+  name.vb: CopyTo(RelationsListItem(), Int32)
   spec.csharp:
-  - uid: SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.CRM.Archives.RelationsListItem}.CopyTo(SuperOffice.CRM.Archives.RelationsListItem[],System.Int32)
+  - uid: SuperOffice.CRM.Lists.ListBase`2.CopyTo(`1[],System.Int32)
     name: CopyTo
+    nameWithType: ListBase<RelationsList.RelationsListQuery, RelationsListItem>.CopyTo
+    fullName: SuperOffice.CRM.Lists.ListBase<SuperOffice.CRM.Archives.RelationsList.RelationsListQuery, SuperOffice.CRM.Archives.RelationsListItem>.CopyTo
     isExternal: true
-    href: SuperOffice.CRM.Lists.ListBase-2.html#SuperOffice_CRM_Lists_ListBase_2_CopyTo__1___System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Archives.RelationsListItem
     name: RelationsListItem
+    nameWithType: RelationsListItem
+    fullName: SuperOffice.CRM.Archives.RelationsListItem
     isExternal: true
-    href: SuperOffice.CRM.Archives.RelationsListItem.html
-  - name: '['
-  - name: ']'
-  - name: ','
-  - name: " "
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.CRM.Archives.RelationsListItem}.CopyTo(SuperOffice.CRM.Archives.RelationsListItem[],System.Int32)
+  - uid: SuperOffice.CRM.Lists.ListBase`2.CopyTo(`1[],System.Int32)
     name: CopyTo
+    nameWithType: ListBase(Of RelationsList.RelationsListQuery, RelationsListItem).CopyTo
+    fullName: SuperOffice.CRM.Lists.ListBase(Of SuperOffice.CRM.Archives.RelationsList.RelationsListQuery, SuperOffice.CRM.Archives.RelationsListItem).CopyTo
     isExternal: true
-    href: SuperOffice.CRM.Lists.ListBase-2.html#SuperOffice_CRM_Lists_ListBase_2_CopyTo__1___System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Archives.RelationsListItem
     name: RelationsListItem
+    nameWithType: RelationsListItem
+    fullName: SuperOffice.CRM.Archives.RelationsListItem
     isExternal: true
-    href: SuperOffice.CRM.Archives.RelationsListItem.html
-  - name: (
-  - name: )
-  - name: ','
-  - name: " "
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.CRM.Archives.RelationsListItem}.IndexOf(SuperOffice.CRM.Archives.RelationsListItem)
   commentId: M:SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.CRM.Archives.RelationsListItem}.IndexOf(SuperOffice.CRM.Archives.RelationsListItem)
   parent: SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.CRM.Archives.RelationsListItem}
   definition: SuperOffice.CRM.Lists.ListBase`2.IndexOf(`1)
-  href: SuperOffice.CRM.Lists.ListBase-2.html#SuperOffice_CRM_Lists_ListBase_2_IndexOf__1_
   name: IndexOf(RelationsListItem)
   nameWithType: ListBase<RelationsList.RelationsListQuery, RelationsListItem>.IndexOf(RelationsListItem)
   fullName: SuperOffice.CRM.Lists.ListBase<SuperOffice.CRM.Archives.RelationsList.RelationsListQuery, SuperOffice.CRM.Archives.RelationsListItem>.IndexOf(SuperOffice.CRM.Archives.RelationsListItem)
   nameWithType.vb: ListBase(Of RelationsList.RelationsListQuery, RelationsListItem).IndexOf(RelationsListItem)
   fullName.vb: SuperOffice.CRM.Lists.ListBase(Of SuperOffice.CRM.Archives.RelationsList.RelationsListQuery, SuperOffice.CRM.Archives.RelationsListItem).IndexOf(SuperOffice.CRM.Archives.RelationsListItem)
   spec.csharp:
-  - uid: SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.CRM.Archives.RelationsListItem}.IndexOf(SuperOffice.CRM.Archives.RelationsListItem)
+  - uid: SuperOffice.CRM.Lists.ListBase`2.IndexOf(`1)
     name: IndexOf
+    nameWithType: ListBase<RelationsList.RelationsListQuery, RelationsListItem>.IndexOf
+    fullName: SuperOffice.CRM.Lists.ListBase<SuperOffice.CRM.Archives.RelationsList.RelationsListQuery, SuperOffice.CRM.Archives.RelationsListItem>.IndexOf
     isExternal: true
-    href: SuperOffice.CRM.Lists.ListBase-2.html#SuperOffice_CRM_Lists_ListBase_2_IndexOf__1_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Archives.RelationsListItem
     name: RelationsListItem
+    nameWithType: RelationsListItem
+    fullName: SuperOffice.CRM.Archives.RelationsListItem
     isExternal: true
-    href: SuperOffice.CRM.Archives.RelationsListItem.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.CRM.Archives.RelationsListItem}.IndexOf(SuperOffice.CRM.Archives.RelationsListItem)
+  - uid: SuperOffice.CRM.Lists.ListBase`2.IndexOf(`1)
     name: IndexOf
+    nameWithType: ListBase(Of RelationsList.RelationsListQuery, RelationsListItem).IndexOf
+    fullName: SuperOffice.CRM.Lists.ListBase(Of SuperOffice.CRM.Archives.RelationsList.RelationsListQuery, SuperOffice.CRM.Archives.RelationsListItem).IndexOf
     isExternal: true
-    href: SuperOffice.CRM.Lists.ListBase-2.html#SuperOffice_CRM_Lists_ListBase_2_IndexOf__1_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Archives.RelationsListItem
     name: RelationsListItem
+    nameWithType: RelationsListItem
+    fullName: SuperOffice.CRM.Archives.RelationsListItem
     isExternal: true
-    href: SuperOffice.CRM.Archives.RelationsListItem.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.CRM.Archives.RelationsListItem}.Contains(SuperOffice.CRM.Archives.RelationsListItem)
   commentId: M:SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.CRM.Archives.RelationsListItem}.Contains(SuperOffice.CRM.Archives.RelationsListItem)
   parent: SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.CRM.Archives.RelationsListItem}
   definition: SuperOffice.CRM.Lists.ListBase`2.Contains(`1)
-  href: SuperOffice.CRM.Lists.ListBase-2.html#SuperOffice_CRM_Lists_ListBase_2_Contains__1_
   name: Contains(RelationsListItem)
   nameWithType: ListBase<RelationsList.RelationsListQuery, RelationsListItem>.Contains(RelationsListItem)
   fullName: SuperOffice.CRM.Lists.ListBase<SuperOffice.CRM.Archives.RelationsList.RelationsListQuery, SuperOffice.CRM.Archives.RelationsListItem>.Contains(SuperOffice.CRM.Archives.RelationsListItem)
   nameWithType.vb: ListBase(Of RelationsList.RelationsListQuery, RelationsListItem).Contains(RelationsListItem)
   fullName.vb: SuperOffice.CRM.Lists.ListBase(Of SuperOffice.CRM.Archives.RelationsList.RelationsListQuery, SuperOffice.CRM.Archives.RelationsListItem).Contains(SuperOffice.CRM.Archives.RelationsListItem)
   spec.csharp:
-  - uid: SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.CRM.Archives.RelationsListItem}.Contains(SuperOffice.CRM.Archives.RelationsListItem)
+  - uid: SuperOffice.CRM.Lists.ListBase`2.Contains(`1)
     name: Contains
+    nameWithType: ListBase<RelationsList.RelationsListQuery, RelationsListItem>.Contains
+    fullName: SuperOffice.CRM.Lists.ListBase<SuperOffice.CRM.Archives.RelationsList.RelationsListQuery, SuperOffice.CRM.Archives.RelationsListItem>.Contains
     isExternal: true
-    href: SuperOffice.CRM.Lists.ListBase-2.html#SuperOffice_CRM_Lists_ListBase_2_Contains__1_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Archives.RelationsListItem
     name: RelationsListItem
+    nameWithType: RelationsListItem
+    fullName: SuperOffice.CRM.Archives.RelationsListItem
     isExternal: true
-    href: SuperOffice.CRM.Archives.RelationsListItem.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.CRM.Archives.RelationsListItem}.Contains(SuperOffice.CRM.Archives.RelationsListItem)
+  - uid: SuperOffice.CRM.Lists.ListBase`2.Contains(`1)
     name: Contains
+    nameWithType: ListBase(Of RelationsList.RelationsListQuery, RelationsListItem).Contains
+    fullName: SuperOffice.CRM.Lists.ListBase(Of SuperOffice.CRM.Archives.RelationsList.RelationsListQuery, SuperOffice.CRM.Archives.RelationsListItem).Contains
     isExternal: true
-    href: SuperOffice.CRM.Lists.ListBase-2.html#SuperOffice_CRM_Lists_ListBase_2_Contains__1_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Archives.RelationsListItem
     name: RelationsListItem
+    nameWithType: RelationsListItem
+    fullName: SuperOffice.CRM.Archives.RelationsListItem
     isExternal: true
-    href: SuperOffice.CRM.Archives.RelationsListItem.html
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.CRM.Archives.RelationsListItem}.OnLoad(SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.Data.SoDataReader)
+  commentId: M:SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.CRM.Archives.RelationsListItem}.OnLoad(SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.Data.SoDataReader)
+  parent: SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.CRM.Archives.RelationsListItem}
+  definition: SuperOffice.CRM.Lists.ListBase`2.OnLoad(`0,SuperOffice.Data.SoDataReader)
+  name: OnLoad(RelationsList.RelationsListQuery, SoDataReader)
+  nameWithType: ListBase<RelationsList.RelationsListQuery, RelationsListItem>.OnLoad(RelationsList.RelationsListQuery, SoDataReader)
+  fullName: SuperOffice.CRM.Lists.ListBase<SuperOffice.CRM.Archives.RelationsList.RelationsListQuery, SuperOffice.CRM.Archives.RelationsListItem>.OnLoad(SuperOffice.CRM.Archives.RelationsList.RelationsListQuery, SuperOffice.Data.SoDataReader)
+  nameWithType.vb: ListBase(Of RelationsList.RelationsListQuery, RelationsListItem).OnLoad(RelationsList.RelationsListQuery, SoDataReader)
+  fullName.vb: SuperOffice.CRM.Lists.ListBase(Of SuperOffice.CRM.Archives.RelationsList.RelationsListQuery, SuperOffice.CRM.Archives.RelationsListItem).OnLoad(SuperOffice.CRM.Archives.RelationsList.RelationsListQuery, SuperOffice.Data.SoDataReader)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.ListBase`2.OnLoad(`0,SuperOffice.Data.SoDataReader)
+    name: OnLoad
+    nameWithType: ListBase<RelationsList.RelationsListQuery, RelationsListItem>.OnLoad
+    fullName: SuperOffice.CRM.Lists.ListBase<SuperOffice.CRM.Archives.RelationsList.RelationsListQuery, SuperOffice.CRM.Archives.RelationsListItem>.OnLoad
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Archives.RelationsList.RelationsListQuery
+    name: RelationsList.RelationsListQuery
+    nameWithType: RelationsList.RelationsListQuery
+    fullName: SuperOffice.CRM.Archives.RelationsList.RelationsListQuery
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SoDataReader
+    name: SoDataReader
+    nameWithType: SoDataReader
+    fullName: SuperOffice.Data.SoDataReader
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.ListBase`2.OnLoad(`0,SuperOffice.Data.SoDataReader)
+    name: OnLoad
+    nameWithType: ListBase(Of RelationsList.RelationsListQuery, RelationsListItem).OnLoad
+    fullName: SuperOffice.CRM.Lists.ListBase(Of SuperOffice.CRM.Archives.RelationsList.RelationsListQuery, SuperOffice.CRM.Archives.RelationsListItem).OnLoad
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Archives.RelationsList.RelationsListQuery
+    name: RelationsList.RelationsListQuery
+    nameWithType: RelationsList.RelationsListQuery
+    fullName: SuperOffice.CRM.Archives.RelationsList.RelationsListQuery
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SoDataReader
+    name: SoDataReader
+    nameWithType: SoDataReader
+    fullName: SuperOffice.Data.SoDataReader
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.CRM.Archives.RelationsListItem}.GetEnumerator
   commentId: M:SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.CRM.Archives.RelationsListItem}.GetEnumerator
   parent: SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.CRM.Archives.RelationsListItem}
   definition: SuperOffice.CRM.Lists.ListBase`2.GetEnumerator
-  href: SuperOffice.CRM.Lists.ListBase-2.html#SuperOffice_CRM_Lists_ListBase_2_GetEnumerator
   name: GetEnumerator()
   nameWithType: ListBase<RelationsList.RelationsListQuery, RelationsListItem>.GetEnumerator()
   fullName: SuperOffice.CRM.Lists.ListBase<SuperOffice.CRM.Archives.RelationsList.RelationsListQuery, SuperOffice.CRM.Archives.RelationsListItem>.GetEnumerator()
   nameWithType.vb: ListBase(Of RelationsList.RelationsListQuery, RelationsListItem).GetEnumerator()
   fullName.vb: SuperOffice.CRM.Lists.ListBase(Of SuperOffice.CRM.Archives.RelationsList.RelationsListQuery, SuperOffice.CRM.Archives.RelationsListItem).GetEnumerator()
   spec.csharp:
-  - uid: SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.CRM.Archives.RelationsListItem}.GetEnumerator
+  - uid: SuperOffice.CRM.Lists.ListBase`2.GetEnumerator
     name: GetEnumerator
+    nameWithType: ListBase<RelationsList.RelationsListQuery, RelationsListItem>.GetEnumerator
+    fullName: SuperOffice.CRM.Lists.ListBase<SuperOffice.CRM.Archives.RelationsList.RelationsListQuery, SuperOffice.CRM.Archives.RelationsListItem>.GetEnumerator
     isExternal: true
-    href: SuperOffice.CRM.Lists.ListBase-2.html#SuperOffice_CRM_Lists_ListBase_2_GetEnumerator
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.CRM.Archives.RelationsListItem}.GetEnumerator
+  - uid: SuperOffice.CRM.Lists.ListBase`2.GetEnumerator
     name: GetEnumerator
+    nameWithType: ListBase(Of RelationsList.RelationsListQuery, RelationsListItem).GetEnumerator
+    fullName: SuperOffice.CRM.Lists.ListBase(Of SuperOffice.CRM.Archives.RelationsList.RelationsListQuery, SuperOffice.CRM.Archives.RelationsListItem).GetEnumerator
     isExternal: true
-    href: SuperOffice.CRM.Lists.ListBase-2.html#SuperOffice_CRM_Lists_ListBase_2_GetEnumerator
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.CRM.Archives.RelationsListItem}.Item(System.Int32)
   commentId: P:SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.CRM.Archives.RelationsListItem}.Item(System.Int32)
   parent: SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.CRM.Archives.RelationsListItem}
   definition: SuperOffice.CRM.Lists.ListBase`2.Item(System.Int32)
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: this[int]
-  nameWithType: ListBase<RelationsList.RelationsListQuery, RelationsListItem>.this[int]
-  fullName: SuperOffice.CRM.Lists.ListBase<SuperOffice.CRM.Archives.RelationsList.RelationsListQuery, SuperOffice.CRM.Archives.RelationsListItem>.this[int]
-  nameWithType.vb: ListBase(Of RelationsList.RelationsListQuery, RelationsListItem).this[](Integer)
-  fullName.vb: SuperOffice.CRM.Lists.ListBase(Of SuperOffice.CRM.Archives.RelationsList.RelationsListQuery, SuperOffice.CRM.Archives.RelationsListItem).this[](Integer)
-  name.vb: this[](Integer)
+  name: Item[Int32]
+  nameWithType: ListBase<RelationsList.RelationsListQuery, RelationsListItem>.Item[Int32]
+  fullName: SuperOffice.CRM.Lists.ListBase<SuperOffice.CRM.Archives.RelationsList.RelationsListQuery, SuperOffice.CRM.Archives.RelationsListItem>.Item[System.Int32]
+  nameWithType.vb: ListBase(Of RelationsList.RelationsListQuery, RelationsListItem).Item(Int32)
+  fullName.vb: SuperOffice.CRM.Lists.ListBase(Of SuperOffice.CRM.Archives.RelationsList.RelationsListQuery, SuperOffice.CRM.Archives.RelationsListItem).Item(System.Int32)
+  name.vb: Item(Int32)
   spec.csharp:
-  - name: this
+  - uid: SuperOffice.CRM.Lists.ListBase`2.Item(System.Int32)
+    name: Item
+    nameWithType: ListBase<RelationsList.RelationsListQuery, RelationsListItem>.Item
+    fullName: SuperOffice.CRM.Lists.ListBase<SuperOffice.CRM.Archives.RelationsList.RelationsListQuery, SuperOffice.CRM.Archives.RelationsListItem>.Item
+    isExternal: true
   - name: '['
+    nameWithType: '['
+    fullName: '['
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: ']'
+    nameWithType: ']'
+    fullName: ']'
   spec.vb:
-  - uid: SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.CRM.Archives.RelationsListItem}.Item(System.Int32)
-    name: this[]
+  - uid: SuperOffice.CRM.Lists.ListBase`2.Item(System.Int32)
+    name: Item
+    nameWithType: ListBase(Of RelationsList.RelationsListQuery, RelationsListItem).Item
+    fullName: SuperOffice.CRM.Lists.ListBase(Of SuperOffice.CRM.Archives.RelationsList.RelationsListQuery, SuperOffice.CRM.Archives.RelationsListItem).Item
     isExternal: true
-    href: SuperOffice.CRM.Lists.ListBase-2.html#SuperOffice_CRM_Lists_ListBase_2_Item_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.CRM.Archives.RelationsListItem}.ListCollection
+  commentId: P:SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.CRM.Archives.RelationsListItem}.ListCollection
+  parent: SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.CRM.Archives.RelationsListItem}
+  definition: SuperOffice.CRM.Lists.ListBase`2.ListCollection
+  name: ListCollection
+  nameWithType: ListBase<RelationsList.RelationsListQuery, RelationsListItem>.ListCollection
+  fullName: SuperOffice.CRM.Lists.ListBase<SuperOffice.CRM.Archives.RelationsList.RelationsListQuery, SuperOffice.CRM.Archives.RelationsListItem>.ListCollection
+  nameWithType.vb: ListBase(Of RelationsList.RelationsListQuery, RelationsListItem).ListCollection
+  fullName.vb: SuperOffice.CRM.Lists.ListBase(Of SuperOffice.CRM.Archives.RelationsList.RelationsListQuery, SuperOffice.CRM.Archives.RelationsListItem).ListCollection
 - uid: SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.CRM.Archives.RelationsListItem}.Count
   commentId: P:SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.CRM.Archives.RelationsListItem}.Count
   parent: SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.CRM.Archives.RelationsListItem}
   definition: SuperOffice.CRM.Lists.ListBase`2.Count
-  href: SuperOffice.CRM.Lists.ListBase-2.html#SuperOffice_CRM_Lists_ListBase_2_Count
   name: Count
   nameWithType: ListBase<RelationsList.RelationsListQuery, RelationsListItem>.Count
   fullName: SuperOffice.CRM.Lists.ListBase<SuperOffice.CRM.Archives.RelationsList.RelationsListQuery, SuperOffice.CRM.Archives.RelationsListItem>.Count
@@ -573,7 +715,6 @@ references:
   commentId: P:SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.CRM.Archives.RelationsListItem}.IsFixedSize
   parent: SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.CRM.Archives.RelationsListItem}
   definition: SuperOffice.CRM.Lists.ListBase`2.IsFixedSize
-  href: SuperOffice.CRM.Lists.ListBase-2.html#SuperOffice_CRM_Lists_ListBase_2_IsFixedSize
   name: IsFixedSize
   nameWithType: ListBase<RelationsList.RelationsListQuery, RelationsListItem>.IsFixedSize
   fullName: SuperOffice.CRM.Lists.ListBase<SuperOffice.CRM.Archives.RelationsList.RelationsListQuery, SuperOffice.CRM.Archives.RelationsListItem>.IsFixedSize
@@ -583,324 +724,88 @@ references:
   commentId: P:SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.CRM.Archives.RelationsListItem}.IsReadOnly
   parent: SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.CRM.Archives.RelationsListItem}
   definition: SuperOffice.CRM.Lists.ListBase`2.IsReadOnly
-  href: SuperOffice.CRM.Lists.ListBase-2.html#SuperOffice_CRM_Lists_ListBase_2_IsReadOnly
   name: IsReadOnly
   nameWithType: ListBase<RelationsList.RelationsListQuery, RelationsListItem>.IsReadOnly
   fullName: SuperOffice.CRM.Lists.ListBase<SuperOffice.CRM.Archives.RelationsList.RelationsListQuery, SuperOffice.CRM.Archives.RelationsListItem>.IsReadOnly
   nameWithType.vb: ListBase(Of RelationsList.RelationsListQuery, RelationsListItem).IsReadOnly
   fullName.vb: SuperOffice.CRM.Lists.ListBase(Of SuperOffice.CRM.Archives.RelationsList.RelationsListQuery, SuperOffice.CRM.Archives.RelationsListItem).IsReadOnly
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
 - uid: SuperOffice.CRM.Archives.RelationsList.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<RelationsList, To>(RelationsList)
-  nameWithType: EnumUtil.MapEnums<RelationsList, To>(RelationsList)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Archives.RelationsList, To>(SuperOffice.CRM.Archives.RelationsList)
-  nameWithType.vb: EnumUtil.MapEnums(Of RelationsList, To)(RelationsList)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Archives.RelationsList, To)(SuperOffice.CRM.Archives.RelationsList)
-  name.vb: MapEnums(Of RelationsList, To)(RelationsList)
+  name: MapEnums<RelationsList, To>()
+  nameWithType: EnumUtil.MapEnums<RelationsList, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Archives.RelationsList, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of RelationsList, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Archives.RelationsList, To)()
+  name.vb: MapEnums(Of RelationsList, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Archives.RelationsList)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<RelationsList, To>
+    nameWithType: EnumUtil.MapEnums<RelationsList, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Archives.RelationsList, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Archives.RelationsList
-    name: RelationsList
-    isExternal: true
-    href: SuperOffice.CRM.Archives.RelationsList.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Archives.RelationsList
-    name: RelationsList
-    isExternal: true
-    href: SuperOffice.CRM.Archives.RelationsList.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Archives.RelationsList)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of RelationsList, To)
+    nameWithType: EnumUtil.MapEnums(Of RelationsList, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Archives.RelationsList, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Archives.RelationsList
-    name: RelationsList
-    isExternal: true
-    href: SuperOffice.CRM.Archives.RelationsList.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Archives.RelationsList
-    name: RelationsList
-    isExternal: true
-    href: SuperOffice.CRM.Archives.RelationsList.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Archives.RelationsList.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<RelationsList, To>(RelationsList)
-  nameWithType: Converters.MapEnums<RelationsList, To>(RelationsList)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Archives.RelationsList, To>(SuperOffice.CRM.Archives.RelationsList)
-  nameWithType.vb: Converters.MapEnums(Of RelationsList, To)(RelationsList)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Archives.RelationsList, To)(SuperOffice.CRM.Archives.RelationsList)
-  name.vb: MapEnums(Of RelationsList, To)(RelationsList)
+  name: MapEnums<RelationsList, To>()
+  nameWithType: Converters.MapEnums<RelationsList, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Archives.RelationsList, To>()
+  nameWithType.vb: Converters.MapEnums(Of RelationsList, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Archives.RelationsList, To)()
+  name.vb: MapEnums(Of RelationsList, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Archives.RelationsList)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<RelationsList, To>
+    nameWithType: Converters.MapEnums<RelationsList, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Archives.RelationsList, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Archives.RelationsList
-    name: RelationsList
-    isExternal: true
-    href: SuperOffice.CRM.Archives.RelationsList.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Archives.RelationsList
-    name: RelationsList
-    isExternal: true
-    href: SuperOffice.CRM.Archives.RelationsList.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Archives.RelationsList)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of RelationsList, To)
+    nameWithType: Converters.MapEnums(Of RelationsList, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Archives.RelationsList, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Archives.RelationsList
-    name: RelationsList
-    isExternal: true
-    href: SuperOffice.CRM.Archives.RelationsList.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Archives.RelationsList
-    name: RelationsList
-    isExternal: true
-    href: SuperOffice.CRM.Archives.RelationsList.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.CRM.Lists.ListBase`2
   commentId: T:SuperOffice.CRM.Lists.ListBase`2
   isExternal: true
-  href: SuperOffice.CRM.Lists.ListBase-2.html
   name: ListBase<TListSelect, TListItem>
   nameWithType: ListBase<TListSelect, TListItem>
   fullName: SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>
@@ -910,302 +815,287 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Lists.ListBase`2
     name: ListBase
+    nameWithType: ListBase
+    fullName: SuperOffice.CRM.Lists.ListBase
     isExternal: true
-    href: SuperOffice.CRM.Lists.ListBase-2.html
   - name: <
+    nameWithType: <
+    fullName: <
   - name: TListSelect
-  - name: ','
-  - name: " "
+    nameWithType: TListSelect
+    fullName: TListSelect
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: TListItem
+    nameWithType: TListItem
+    fullName: TListItem
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.CRM.Lists.ListBase`2
     name: ListBase
+    nameWithType: ListBase
+    fullName: SuperOffice.CRM.Lists.ListBase
     isExternal: true
-    href: SuperOffice.CRM.Lists.ListBase-2.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: TListSelect
-  - name: ','
-  - name: " "
+    nameWithType: TListSelect
+    fullName: TListSelect
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: TListItem
+    nameWithType: TListItem
+    fullName: TListItem
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Lists
   commentId: N:SuperOffice.CRM.Lists
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Lists
   nameWithType: SuperOffice.CRM.Lists
   fullName: SuperOffice.CRM.Lists
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Lists
-    name: Lists
-    isExternal: true
-    href: SuperOffice.CRM.Lists.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Lists
-    name: Lists
-    isExternal: true
-    href: SuperOffice.CRM.Lists.html
-- uid: System.Collections
-  commentId: N:System.Collections
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Collections
-  nameWithType: System.Collections
-  fullName: System.Collections
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-- uid: System.Collections.Generic.IList`1
-  commentId: T:System.Collections.Generic.IList`1
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
-  name: IList<T>
-  nameWithType: IList<T>
-  fullName: System.Collections.Generic.IList<T>
-  nameWithType.vb: IList(Of T)
-  fullName.vb: System.Collections.Generic.IList(Of T)
-  name.vb: IList(Of T)
-  spec.csharp:
-  - uid: System.Collections.Generic.IList`1
-    name: IList
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
-  - name: <
-  - name: T
-  - name: '>'
-  spec.vb:
-  - uid: System.Collections.Generic.IList`1
-    name: IList
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
-- uid: System.Collections.Generic.ICollection`1
-  commentId: T:System.Collections.Generic.ICollection`1
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
-  name: ICollection<T>
-  nameWithType: ICollection<T>
-  fullName: System.Collections.Generic.ICollection<T>
-  nameWithType.vb: ICollection(Of T)
-  fullName.vb: System.Collections.Generic.ICollection(Of T)
-  name.vb: ICollection(Of T)
-  spec.csharp:
-  - uid: System.Collections.Generic.ICollection`1
-    name: ICollection
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
-  - name: <
-  - name: T
-  - name: '>'
-  spec.vb:
-  - uid: System.Collections.Generic.ICollection`1
-    name: ICollection
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
 - uid: System.Collections.Generic.IEnumerable`1
-  commentId: T:System.Collections.Generic.IEnumerable`1
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  name: IEnumerable<T>
-  nameWithType: IEnumerable<T>
-  fullName: System.Collections.Generic.IEnumerable<T>
-  nameWithType.vb: IEnumerable(Of T)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
-  name.vb: IEnumerable(Of T)
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
-  - name: T
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IList`1
+  isExternal: true
+  name: IList<>
+  nameWithType: IList<>
+  fullName: System.Collections.Generic.IList<>
+  nameWithType.vb: IList(Of )
+  fullName.vb: System.Collections.Generic.IList(Of )
+  name.vb: IList(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.ICollection`1
+  isExternal: true
+  name: ICollection<>
+  nameWithType: ICollection<>
+  fullName: System.Collections.Generic.ICollection<>
+  nameWithType.vb: ICollection(Of )
+  fullName.vb: System.Collections.Generic.ICollection(Of )
+  name.vb: ICollection(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: System.Collections.Generic.ICollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Lists.ListBase`2.CopyTo(System.Array,System.Int32)
   commentId: M:SuperOffice.CRM.Lists.ListBase`2.CopyTo(System.Array,System.Int32)
   isExternal: true
-  href: SuperOffice.CRM.Lists.ListBase-2.html#SuperOffice_CRM_Lists_ListBase_2_CopyTo_System_Array_System_Int32_
-  name: CopyTo(Array, int)
-  nameWithType: ListBase<TListSelect, TListItem>.CopyTo(Array, int)
-  fullName: SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>.CopyTo(System.Array, int)
-  nameWithType.vb: ListBase(Of TListSelect, TListItem).CopyTo(Array, Integer)
-  fullName.vb: SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem).CopyTo(System.Array, Integer)
-  name.vb: CopyTo(Array, Integer)
+  name: CopyTo(Array, Int32)
+  nameWithType: ListBase<TListSelect, TListItem>.CopyTo(Array, Int32)
+  fullName: SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>.CopyTo(System.Array, System.Int32)
+  nameWithType.vb: ListBase(Of TListSelect, TListItem).CopyTo(Array, Int32)
+  fullName.vb: SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem).CopyTo(System.Array, System.Int32)
   spec.csharp:
   - uid: SuperOffice.CRM.Lists.ListBase`2.CopyTo(System.Array,System.Int32)
     name: CopyTo
+    nameWithType: ListBase<TListSelect, TListItem>.CopyTo
+    fullName: SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>.CopyTo
     isExternal: true
-    href: SuperOffice.CRM.Lists.ListBase-2.html#SuperOffice_CRM_Lists_ListBase_2_CopyTo_System_Array_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Array
     name: Array
+    nameWithType: Array
+    fullName: System.Array
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.array
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Lists.ListBase`2.CopyTo(System.Array,System.Int32)
     name: CopyTo
+    nameWithType: ListBase(Of TListSelect, TListItem).CopyTo
+    fullName: SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem).CopyTo
     isExternal: true
-    href: SuperOffice.CRM.Lists.ListBase-2.html#SuperOffice_CRM_Lists_ListBase_2_CopyTo_System_Array_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Array
     name: Array
+    nameWithType: Array
+    fullName: System.Array
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.array
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Lists.ListBase`2.CopyTo(`1[],System.Int32)
   commentId: M:SuperOffice.CRM.Lists.ListBase`2.CopyTo(`1[],System.Int32)
   isExternal: true
-  href: SuperOffice.CRM.Lists.ListBase-2.html#SuperOffice_CRM_Lists_ListBase_2_CopyTo__1___System_Int32_
-  name: CopyTo(TListItem[], int)
-  nameWithType: ListBase<TListSelect, TListItem>.CopyTo(TListItem[], int)
-  fullName: SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>.CopyTo(TListItem[], int)
-  nameWithType.vb: ListBase(Of TListSelect, TListItem).CopyTo(TListItem(), Integer)
-  fullName.vb: SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem).CopyTo(TListItem(), Integer)
-  name.vb: CopyTo(TListItem(), Integer)
+  name: CopyTo(TListItem[], Int32)
+  nameWithType: ListBase<TListSelect, TListItem>.CopyTo(TListItem[], Int32)
+  fullName: SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>.CopyTo(TListItem[], System.Int32)
+  nameWithType.vb: ListBase(Of TListSelect, TListItem).CopyTo(TListItem(), Int32)
+  fullName.vb: SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem).CopyTo(TListItem(), System.Int32)
+  name.vb: CopyTo(TListItem(), Int32)
   spec.csharp:
   - uid: SuperOffice.CRM.Lists.ListBase`2.CopyTo(`1[],System.Int32)
     name: CopyTo
+    nameWithType: ListBase<TListSelect, TListItem>.CopyTo
+    fullName: SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>.CopyTo
     isExternal: true
-    href: SuperOffice.CRM.Lists.ListBase-2.html#SuperOffice_CRM_Lists_ListBase_2_CopyTo__1___System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - name: TListItem
-  - name: '['
-  - name: ']'
-  - name: ','
-  - name: " "
+    nameWithType: TListItem
+    fullName: TListItem
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Lists.ListBase`2.CopyTo(`1[],System.Int32)
     name: CopyTo
+    nameWithType: ListBase(Of TListSelect, TListItem).CopyTo
+    fullName: SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem).CopyTo
     isExternal: true
-    href: SuperOffice.CRM.Lists.ListBase-2.html#SuperOffice_CRM_Lists_ListBase_2_CopyTo__1___System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - name: TListItem
-  - name: (
-  - name: )
-  - name: ','
-  - name: " "
+    nameWithType: TListItem
+    fullName: TListItem
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Lists.ListBase`2.IndexOf(`1)
   commentId: M:SuperOffice.CRM.Lists.ListBase`2.IndexOf(`1)
   isExternal: true
-  href: SuperOffice.CRM.Lists.ListBase-2.html#SuperOffice_CRM_Lists_ListBase_2_IndexOf__1_
   name: IndexOf(TListItem)
   nameWithType: ListBase<TListSelect, TListItem>.IndexOf(TListItem)
   fullName: SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>.IndexOf(TListItem)
@@ -1214,23 +1104,36 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Lists.ListBase`2.IndexOf(`1)
     name: IndexOf
+    nameWithType: ListBase<TListSelect, TListItem>.IndexOf
+    fullName: SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>.IndexOf
     isExternal: true
-    href: SuperOffice.CRM.Lists.ListBase-2.html#SuperOffice_CRM_Lists_ListBase_2_IndexOf__1_
   - name: (
+    nameWithType: (
+    fullName: (
   - name: TListItem
+    nameWithType: TListItem
+    fullName: TListItem
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Lists.ListBase`2.IndexOf(`1)
     name: IndexOf
+    nameWithType: ListBase(Of TListSelect, TListItem).IndexOf
+    fullName: SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem).IndexOf
     isExternal: true
-    href: SuperOffice.CRM.Lists.ListBase-2.html#SuperOffice_CRM_Lists_ListBase_2_IndexOf__1_
   - name: (
+    nameWithType: (
+    fullName: (
   - name: TListItem
+    nameWithType: TListItem
+    fullName: TListItem
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Lists.ListBase`2.Contains(`1)
   commentId: M:SuperOffice.CRM.Lists.ListBase`2.Contains(`1)
   isExternal: true
-  href: SuperOffice.CRM.Lists.ListBase-2.html#SuperOffice_CRM_Lists_ListBase_2_Contains__1_
   name: Contains(TListItem)
   nameWithType: ListBase<TListSelect, TListItem>.Contains(TListItem)
   fullName: SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>.Contains(TListItem)
@@ -1239,321 +1142,36 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Lists.ListBase`2.Contains(`1)
     name: Contains
+    nameWithType: ListBase<TListSelect, TListItem>.Contains
+    fullName: SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>.Contains
     isExternal: true
-    href: SuperOffice.CRM.Lists.ListBase-2.html#SuperOffice_CRM_Lists_ListBase_2_Contains__1_
   - name: (
+    nameWithType: (
+    fullName: (
   - name: TListItem
+    nameWithType: TListItem
+    fullName: TListItem
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Lists.ListBase`2.Contains(`1)
     name: Contains
+    nameWithType: ListBase(Of TListSelect, TListItem).Contains
+    fullName: SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem).Contains
     isExternal: true
-    href: SuperOffice.CRM.Lists.ListBase-2.html#SuperOffice_CRM_Lists_ListBase_2_Contains__1_
   - name: (
+    nameWithType: (
+    fullName: (
   - name: TListItem
+    nameWithType: TListItem
+    fullName: TListItem
   - name: )
-- uid: SuperOffice.CRM.Lists.ListBase`2.GetEnumerator
-  commentId: M:SuperOffice.CRM.Lists.ListBase`2.GetEnumerator
-  isExternal: true
-  href: SuperOffice.CRM.Lists.ListBase-2.html#SuperOffice_CRM_Lists_ListBase_2_GetEnumerator
-  name: GetEnumerator()
-  nameWithType: ListBase<TListSelect, TListItem>.GetEnumerator()
-  fullName: SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>.GetEnumerator()
-  nameWithType.vb: ListBase(Of TListSelect, TListItem).GetEnumerator()
-  fullName.vb: SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem).GetEnumerator()
-  spec.csharp:
-  - uid: SuperOffice.CRM.Lists.ListBase`2.GetEnumerator
-    name: GetEnumerator
-    isExternal: true
-    href: SuperOffice.CRM.Lists.ListBase-2.html#SuperOffice_CRM_Lists_ListBase_2_GetEnumerator
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Lists.ListBase`2.GetEnumerator
-    name: GetEnumerator
-    isExternal: true
-    href: SuperOffice.CRM.Lists.ListBase-2.html#SuperOffice_CRM_Lists_ListBase_2_GetEnumerator
-  - name: (
-  - name: )
-- uid: SuperOffice.CRM.Lists.ListBase`2.Item(System.Int32)
-  commentId: P:SuperOffice.CRM.Lists.ListBase`2.Item(System.Int32)
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: this[int]
-  nameWithType: ListBase<TListSelect, TListItem>.this[int]
-  fullName: SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>.this[int]
-  nameWithType.vb: ListBase(Of TListSelect, TListItem).this[](Integer)
-  fullName.vb: SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem).this[](Integer)
-  name.vb: this[](Integer)
-  spec.csharp:
-  - name: this
-  - name: '['
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ']'
-  spec.vb:
-  - uid: SuperOffice.CRM.Lists.ListBase`2.Item(System.Int32)
-    name: this[]
-    isExternal: true
-    href: SuperOffice.CRM.Lists.ListBase-2.html#SuperOffice_CRM_Lists_ListBase_2_Item_System_Int32_
-  - name: (
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: )
-- uid: SuperOffice.CRM.Lists.ListBase`2.Count
-  commentId: P:SuperOffice.CRM.Lists.ListBase`2.Count
-  isExternal: true
-  href: SuperOffice.CRM.Lists.ListBase-2.html#SuperOffice_CRM_Lists_ListBase_2_Count
-  name: Count
-  nameWithType: ListBase<TListSelect, TListItem>.Count
-  fullName: SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>.Count
-  nameWithType.vb: ListBase(Of TListSelect, TListItem).Count
-  fullName.vb: SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem).Count
-- uid: SuperOffice.CRM.Lists.ListBase`2.IsFixedSize
-  commentId: P:SuperOffice.CRM.Lists.ListBase`2.IsFixedSize
-  isExternal: true
-  href: SuperOffice.CRM.Lists.ListBase-2.html#SuperOffice_CRM_Lists_ListBase_2_IsFixedSize
-  name: IsFixedSize
-  nameWithType: ListBase<TListSelect, TListItem>.IsFixedSize
-  fullName: SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>.IsFixedSize
-  nameWithType.vb: ListBase(Of TListSelect, TListItem).IsFixedSize
-  fullName.vb: SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem).IsFixedSize
-- uid: SuperOffice.CRM.Lists.ListBase`2.IsReadOnly
-  commentId: P:SuperOffice.CRM.Lists.ListBase`2.IsReadOnly
-  isExternal: true
-  href: SuperOffice.CRM.Lists.ListBase-2.html#SuperOffice_CRM_Lists_ListBase_2_IsReadOnly
-  name: IsReadOnly
-  nameWithType: ListBase<TListSelect, TListItem>.IsReadOnly
-  fullName: SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>.IsReadOnly
-  nameWithType.vb: ListBase(Of TListSelect, TListItem).IsReadOnly
-  fullName.vb: SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem).IsReadOnly
-- uid: EnumUtil.MapEnums``2(``0)
-  commentId: M:EnumUtil.MapEnums``2(``0)
-  isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<From, To>(From)
-  nameWithType: EnumUtil.MapEnums<From, To>(From)
-  fullName: EnumUtil.MapEnums<From, To>(From)
-  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
-  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
-  name.vb: MapEnums(Of From, To)(From)
-  spec.csharp:
-  - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - name: From
-  - name: )
-  spec.vb:
-  - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - name: From
-  - name: )
-- uid: EnumUtil
-  commentId: T:EnumUtil
-  isExternal: true
-  href: EnumUtil.html
-  name: EnumUtil
-  nameWithType: EnumUtil
-  fullName: EnumUtil
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<From, To>(From)
-  nameWithType: Converters.MapEnums<From, To>(From)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
-  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
-  name.vb: MapEnums(Of From, To)(From)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - name: From
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - name: From
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters
-  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
-  parent: SuperOffice.ErpSync.ConnectorWS
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
-  name: Converters
-  nameWithType: Converters
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.ErpSync.ConnectorWS
-  commentId: N:SuperOffice.ErpSync.ConnectorWS
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.ErpSync.ConnectorWS
-  nameWithType: SuperOffice.ErpSync.ConnectorWS
-  fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-- uid: SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.CRM.Archives.RelationsListItem}.OnLoad(SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.Data.SoDataReader)
-  commentId: M:SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.CRM.Archives.RelationsListItem}.OnLoad(SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.Data.SoDataReader)
-  parent: SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.CRM.Archives.RelationsListItem}
-  definition: SuperOffice.CRM.Lists.ListBase`2.OnLoad(`0,SuperOffice.Data.SoDataReader)
-  href: SuperOffice.CRM.Lists.ListBase-2.html#SuperOffice_CRM_Lists_ListBase_2_OnLoad__0_SuperOffice_Data_SoDataReader_
-  name: OnLoad(RelationsListQuery, SoDataReader)
-  nameWithType: ListBase<RelationsList.RelationsListQuery, RelationsListItem>.OnLoad(RelationsList.RelationsListQuery, SoDataReader)
-  fullName: SuperOffice.CRM.Lists.ListBase<SuperOffice.CRM.Archives.RelationsList.RelationsListQuery, SuperOffice.CRM.Archives.RelationsListItem>.OnLoad(SuperOffice.CRM.Archives.RelationsList.RelationsListQuery, SuperOffice.Data.SoDataReader)
-  nameWithType.vb: ListBase(Of RelationsList.RelationsListQuery, RelationsListItem).OnLoad(RelationsList.RelationsListQuery, SoDataReader)
-  fullName.vb: SuperOffice.CRM.Lists.ListBase(Of SuperOffice.CRM.Archives.RelationsList.RelationsListQuery, SuperOffice.CRM.Archives.RelationsListItem).OnLoad(SuperOffice.CRM.Archives.RelationsList.RelationsListQuery, SuperOffice.Data.SoDataReader)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.CRM.Archives.RelationsListItem}.OnLoad(SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.Data.SoDataReader)
-    name: OnLoad
-    isExternal: true
-    href: SuperOffice.CRM.Lists.ListBase-2.html#SuperOffice_CRM_Lists_ListBase_2_OnLoad__0_SuperOffice_Data_SoDataReader_
-  - name: (
-  - uid: SuperOffice.CRM.Archives.RelationsList.RelationsListQuery
-    name: RelationsListQuery
-    isExternal: true
-    href: SuperOffice.CRM.Archives.RelationsList.RelationsListQuery.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Data.SoDataReader
-    name: SoDataReader
-    isExternal: true
-    href: SuperOffice.Data.SoDataReader.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Lists.ListBase{SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.CRM.Archives.RelationsListItem}.OnLoad(SuperOffice.CRM.Archives.RelationsList.RelationsListQuery,SuperOffice.Data.SoDataReader)
-    name: OnLoad
-    isExternal: true
-    href: SuperOffice.CRM.Lists.ListBase-2.html#SuperOffice_CRM_Lists_ListBase_2_OnLoad__0_SuperOffice_Data_SoDataReader_
-  - name: (
-  - uid: SuperOffice.CRM.Archives.RelationsList.RelationsListQuery
-    name: RelationsListQuery
-    isExternal: true
-    href: SuperOffice.CRM.Archives.RelationsList.RelationsListQuery.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Data.SoDataReader
-    name: SoDataReader
-    isExternal: true
-    href: SuperOffice.Data.SoDataReader.html
-  - name: )
-- uid: SuperOffice.CRM.Archives.RelationsList.OnLoad*
-  commentId: Overload:SuperOffice.CRM.Archives.RelationsList.OnLoad
-  isExternal: true
-  href: SuperOffice.CRM.Archives.RelationsList.html#SuperOffice_CRM_Archives_RelationsList_OnLoad_SuperOffice_CRM_Archives_RelationsList_RelationsListQuery_SuperOffice_Data_SoDataReader_
-  name: OnLoad
-  nameWithType: RelationsList.OnLoad
-  fullName: SuperOffice.CRM.Archives.RelationsList.OnLoad
-- uid: SuperOffice.CRM.Archives.RelationsList.RelationsListQuery
-  commentId: T:SuperOffice.CRM.Archives.RelationsList.RelationsListQuery
-  parent: SuperOffice.CRM.Archives
-  isExternal: true
-  href: SuperOffice.CRM.Archives.RelationsList.html
-  name: RelationsList.RelationsListQuery
-  nameWithType: RelationsList.RelationsListQuery
-  fullName: SuperOffice.CRM.Archives.RelationsList.RelationsListQuery
-  spec.csharp:
-  - uid: SuperOffice.CRM.Archives.RelationsList
-    name: RelationsList
-    isExternal: true
-    href: SuperOffice.CRM.Archives.RelationsList.html
-  - name: .
-  - uid: SuperOffice.CRM.Archives.RelationsList.RelationsListQuery
-    name: RelationsListQuery
-    isExternal: true
-    href: SuperOffice.CRM.Archives.RelationsList.RelationsListQuery.html
-  spec.vb:
-  - uid: SuperOffice.CRM.Archives.RelationsList
-    name: RelationsList
-    isExternal: true
-    href: SuperOffice.CRM.Archives.RelationsList.html
-  - name: .
-  - uid: SuperOffice.CRM.Archives.RelationsList.RelationsListQuery
-    name: RelationsListQuery
-    isExternal: true
-    href: SuperOffice.CRM.Archives.RelationsList.RelationsListQuery.html
-- uid: SuperOffice.Data.SoDataReader
-  commentId: T:SuperOffice.Data.SoDataReader
-  parent: SuperOffice.Data
-  isExternal: true
-  href: SuperOffice.Data.SoDataReader.html
-  name: SoDataReader
-  nameWithType: SoDataReader
-  fullName: SuperOffice.Data.SoDataReader
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Lists.ListBase`2.OnLoad(`0,SuperOffice.Data.SoDataReader)
   commentId: M:SuperOffice.CRM.Lists.ListBase`2.OnLoad(`0,SuperOffice.Data.SoDataReader)
   isExternal: true
-  href: SuperOffice.CRM.Lists.ListBase-2.html#SuperOffice_CRM_Lists_ListBase_2_OnLoad__0_SuperOffice_Data_SoDataReader_
   name: OnLoad(TListSelect, SoDataReader)
   nameWithType: ListBase<TListSelect, TListItem>.OnLoad(TListSelect, SoDataReader)
   fullName: SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>.OnLoad(TListSelect, SuperOffice.Data.SoDataReader)
@@ -1562,62 +1180,282 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Lists.ListBase`2.OnLoad(`0,SuperOffice.Data.SoDataReader)
     name: OnLoad
+    nameWithType: ListBase<TListSelect, TListItem>.OnLoad
+    fullName: SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>.OnLoad
     isExternal: true
-    href: SuperOffice.CRM.Lists.ListBase-2.html#SuperOffice_CRM_Lists_ListBase_2_OnLoad__0_SuperOffice_Data_SoDataReader_
   - name: (
+    nameWithType: (
+    fullName: (
   - name: TListSelect
-  - name: ','
-  - name: " "
+    nameWithType: TListSelect
+    fullName: TListSelect
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.Data.SoDataReader
     name: SoDataReader
+    nameWithType: SoDataReader
+    fullName: SuperOffice.Data.SoDataReader
     isExternal: true
-    href: SuperOffice.Data.SoDataReader.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Lists.ListBase`2.OnLoad(`0,SuperOffice.Data.SoDataReader)
     name: OnLoad
+    nameWithType: ListBase(Of TListSelect, TListItem).OnLoad
+    fullName: SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem).OnLoad
     isExternal: true
-    href: SuperOffice.CRM.Lists.ListBase-2.html#SuperOffice_CRM_Lists_ListBase_2_OnLoad__0_SuperOffice_Data_SoDataReader_
   - name: (
+    nameWithType: (
+    fullName: (
   - name: TListSelect
-  - name: ','
-  - name: " "
+    nameWithType: TListSelect
+    fullName: TListSelect
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.Data.SoDataReader
     name: SoDataReader
+    nameWithType: SoDataReader
+    fullName: SuperOffice.Data.SoDataReader
     isExternal: true
-    href: SuperOffice.Data.SoDataReader.html
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.ListBase`2.GetEnumerator
+  commentId: M:SuperOffice.CRM.Lists.ListBase`2.GetEnumerator
+  isExternal: true
+  name: GetEnumerator()
+  nameWithType: ListBase<TListSelect, TListItem>.GetEnumerator()
+  fullName: SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>.GetEnumerator()
+  nameWithType.vb: ListBase(Of TListSelect, TListItem).GetEnumerator()
+  fullName.vb: SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem).GetEnumerator()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.ListBase`2.GetEnumerator
+    name: GetEnumerator
+    nameWithType: ListBase<TListSelect, TListItem>.GetEnumerator
+    fullName: SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.ListBase`2.GetEnumerator
+    name: GetEnumerator
+    nameWithType: ListBase(Of TListSelect, TListItem).GetEnumerator
+    fullName: SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem).GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.ListBase`2.Item(System.Int32)
+  commentId: P:SuperOffice.CRM.Lists.ListBase`2.Item(System.Int32)
+  isExternal: true
+  name: Item[Int32]
+  nameWithType: ListBase<TListSelect, TListItem>.Item[Int32]
+  fullName: SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>.Item[System.Int32]
+  nameWithType.vb: ListBase(Of TListSelect, TListItem).Item(Int32)
+  fullName.vb: SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem).Item(System.Int32)
+  name.vb: Item(Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.ListBase`2.Item(System.Int32)
+    name: Item
+    nameWithType: ListBase<TListSelect, TListItem>.Item
+    fullName: SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>.Item
+    isExternal: true
+  - name: '['
+    nameWithType: '['
+    fullName: '['
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ']'
+    nameWithType: ']'
+    fullName: ']'
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.ListBase`2.Item(System.Int32)
+    name: Item
+    nameWithType: ListBase(Of TListSelect, TListItem).Item
+    fullName: SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem).Item
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.ListBase`2.ListCollection
+  commentId: P:SuperOffice.CRM.Lists.ListBase`2.ListCollection
+  isExternal: true
+  name: ListCollection
+  nameWithType: ListBase<TListSelect, TListItem>.ListCollection
+  fullName: SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>.ListCollection
+  nameWithType.vb: ListBase(Of TListSelect, TListItem).ListCollection
+  fullName.vb: SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem).ListCollection
+- uid: SuperOffice.CRM.Lists.ListBase`2.Count
+  commentId: P:SuperOffice.CRM.Lists.ListBase`2.Count
+  isExternal: true
+  name: Count
+  nameWithType: ListBase<TListSelect, TListItem>.Count
+  fullName: SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>.Count
+  nameWithType.vb: ListBase(Of TListSelect, TListItem).Count
+  fullName.vb: SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem).Count
+- uid: SuperOffice.CRM.Lists.ListBase`2.IsFixedSize
+  commentId: P:SuperOffice.CRM.Lists.ListBase`2.IsFixedSize
+  isExternal: true
+  name: IsFixedSize
+  nameWithType: ListBase<TListSelect, TListItem>.IsFixedSize
+  fullName: SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>.IsFixedSize
+  nameWithType.vb: ListBase(Of TListSelect, TListItem).IsFixedSize
+  fullName.vb: SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem).IsFixedSize
+- uid: SuperOffice.CRM.Lists.ListBase`2.IsReadOnly
+  commentId: P:SuperOffice.CRM.Lists.ListBase`2.IsReadOnly
+  isExternal: true
+  name: IsReadOnly
+  nameWithType: ListBase<TListSelect, TListItem>.IsReadOnly
+  fullName: SuperOffice.CRM.Lists.ListBase<TListSelect, TListItem>.IsReadOnly
+  nameWithType.vb: ListBase(Of TListSelect, TListItem).IsReadOnly
+  fullName.vb: SuperOffice.CRM.Lists.ListBase(Of TListSelect, TListItem).IsReadOnly
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Archives.RelationsList.OnLoad*
+  commentId: Overload:SuperOffice.CRM.Archives.RelationsList.OnLoad
+  isExternal: true
+  name: OnLoad
+  nameWithType: RelationsList.OnLoad
+  fullName: SuperOffice.CRM.Archives.RelationsList.OnLoad
+- uid: SuperOffice.CRM.Archives.RelationsList.RelationsListQuery
+  commentId: T:SuperOffice.CRM.Archives.RelationsList.RelationsListQuery
+  parent: SuperOffice.CRM.Archives
+  isExternal: true
+  name: RelationsList.RelationsListQuery
+  nameWithType: RelationsList.RelationsListQuery
+  fullName: SuperOffice.CRM.Archives.RelationsList.RelationsListQuery
+- uid: SuperOffice.Data.SoDataReader
+  commentId: T:SuperOffice.Data.SoDataReader
+  parent: SuperOffice.Data
+  isExternal: true
+  name: SoDataReader
+  nameWithType: SoDataReader
+  fullName: SuperOffice.Data.SoDataReader
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
 - uid: SuperOffice.CRM.Archives.RelationsList.GetRelationListItem*
   commentId: Overload:SuperOffice.CRM.Archives.RelationsList.GetRelationListItem
   isExternal: true
-  href: SuperOffice.CRM.Archives.RelationsList.html#SuperOffice_CRM_Archives_RelationsList_GetRelationListItem_System_Int32_
   name: GetRelationListItem
   nameWithType: RelationsList.GetRelationListItem
   fullName: SuperOffice.CRM.Archives.RelationsList.GetRelationListItem
@@ -1625,18 +1463,13 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Archives.RelationsListItem
   commentId: T:SuperOffice.CRM.Archives.RelationsListItem
   parent: SuperOffice.CRM.Archives
   isExternal: true
-  href: SuperOffice.CRM.Archives.RelationsListItem.html
   name: RelationsListItem
   nameWithType: RelationsListItem
   fullName: SuperOffice.CRM.Archives.RelationsListItem

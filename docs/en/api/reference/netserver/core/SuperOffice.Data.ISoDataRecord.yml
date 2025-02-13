@@ -32,20 +32,25 @@ items:
   nameWithType: ISoDataRecord
   fullName: SuperOffice.Data.ISoDataRecord
   type: Interface
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
-  summary: >-
-    A version of <xref href="System.Data.IDataRecord" data-throw-if-not-resolved="false"></xref> customized for superoffice - using <xref href="SuperOffice.Data.SQL.FieldInfo" data-throw-if-not-resolved="false"></xref> to look up fields, 
-
-    and missing some of the more obscure functions that we don't use. Intended for iteration over result sets
-  example: []
+  summary: "\nA version of <xref href=\"System.Data.IDataRecord\" data-throw-if-not-resolved=\"false\"></xref> customized for superoffice - using <xref href=\"SuperOffice.Data.SQL.FieldInfo\" data-throw-if-not-resolved=\"false\"></xref> to look up fields, \nand missing some of the more obscure functions that we don&apos;t use. Intended for iteration over result sets\n"
   syntax:
     content: public interface ISoDataRecord
     content.vb: Public Interface ISoDataRecord
   extensionMethods:
   - SuperOffice.Data.ISoDataRecord.EnumUtil.MapEnums``2
   - SuperOffice.Data.ISoDataRecord.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
 - uid: SuperOffice.Data.ISoDataRecord.GetBoolean(SuperOffice.Data.SQL.FieldInfo)
   commentId: M:SuperOffice.Data.ISoDataRecord.GetBoolean(SuperOffice.Data.SQL.FieldInfo)
   id: GetBoolean(SuperOffice.Data.SQL.FieldInfo)
@@ -57,6 +62,9 @@ items:
   nameWithType: ISoDataRecord.GetBoolean(FieldInfo)
   fullName: SuperOffice.Data.ISoDataRecord.GetBoolean(SuperOffice.Data.SQL.FieldInfo)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
@@ -80,6 +88,9 @@ items:
   nameWithType: ISoDataRecord.GetByte(FieldInfo)
   fullName: SuperOffice.Data.ISoDataRecord.GetByte(SuperOffice.Data.SQL.FieldInfo)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
@@ -103,6 +114,9 @@ items:
   nameWithType: ISoDataRecord.GetChar(FieldInfo)
   fullName: SuperOffice.Data.ISoDataRecord.GetChar(SuperOffice.Data.SQL.FieldInfo)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
@@ -126,6 +140,9 @@ items:
   nameWithType: ISoDataRecord.GetDateTime(FieldInfo)
   fullName: SuperOffice.Data.ISoDataRecord.GetDateTime(SuperOffice.Data.SQL.FieldInfo)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
@@ -136,7 +153,7 @@ items:
       type: SuperOffice.Data.SQL.FieldInfo
     return:
       type: System.DateTime
-    content.vb: Function GetDateTime(field As FieldInfo) As Date
+    content.vb: Function GetDateTime(field As FieldInfo) As DateTime
   overload: SuperOffice.Data.ISoDataRecord.GetDateTime*
 - uid: SuperOffice.Data.ISoDataRecord.GetDecimal(SuperOffice.Data.SQL.FieldInfo)
   commentId: M:SuperOffice.Data.ISoDataRecord.GetDecimal(SuperOffice.Data.SQL.FieldInfo)
@@ -149,11 +166,14 @@ items:
   nameWithType: ISoDataRecord.GetDecimal(FieldInfo)
   fullName: SuperOffice.Data.ISoDataRecord.GetDecimal(SuperOffice.Data.SQL.FieldInfo)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
   syntax:
-    content: decimal GetDecimal(FieldInfo field)
+    content: Decimal GetDecimal(FieldInfo field)
     parameters:
     - id: field
       type: SuperOffice.Data.SQL.FieldInfo
@@ -172,6 +192,9 @@ items:
   nameWithType: ISoDataRecord.GetDouble(FieldInfo)
   fullName: SuperOffice.Data.ISoDataRecord.GetDouble(SuperOffice.Data.SQL.FieldInfo)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
@@ -195,6 +218,9 @@ items:
   nameWithType: ISoDataRecord.GetFloat(FieldInfo)
   fullName: SuperOffice.Data.ISoDataRecord.GetFloat(SuperOffice.Data.SQL.FieldInfo)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
@@ -218,6 +244,9 @@ items:
   nameWithType: ISoDataRecord.GetGuid(FieldInfo)
   fullName: SuperOffice.Data.ISoDataRecord.GetGuid(SuperOffice.Data.SQL.FieldInfo)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
@@ -241,6 +270,9 @@ items:
   nameWithType: ISoDataRecord.GetInt16(FieldInfo)
   fullName: SuperOffice.Data.ISoDataRecord.GetInt16(SuperOffice.Data.SQL.FieldInfo)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
@@ -264,6 +296,9 @@ items:
   nameWithType: ISoDataRecord.GetInt32(FieldInfo)
   fullName: SuperOffice.Data.ISoDataRecord.GetInt32(SuperOffice.Data.SQL.FieldInfo)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
@@ -283,10 +318,13 @@ items:
   langs:
   - csharp
   - vb
-  name: GetInt32(int)
-  nameWithType: ISoDataRecord.GetInt32(int)
-  fullName: SuperOffice.Data.ISoDataRecord.GetInt32(int)
+  name: GetInt32(Int32)
+  nameWithType: ISoDataRecord.GetInt32(Int32)
+  fullName: SuperOffice.Data.ISoDataRecord.GetInt32(System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
@@ -299,9 +337,6 @@ items:
       type: System.Int32
     content.vb: Function GetInt32(index As Integer) As Integer
   overload: SuperOffice.Data.ISoDataRecord.GetInt32*
-  nameWithType.vb: ISoDataRecord.GetInt32(Integer)
-  fullName.vb: SuperOffice.Data.ISoDataRecord.GetInt32(Integer)
-  name.vb: GetInt32(Integer)
 - uid: SuperOffice.Data.ISoDataRecord.GetInt64(SuperOffice.Data.SQL.FieldInfo)
   commentId: M:SuperOffice.Data.ISoDataRecord.GetInt64(SuperOffice.Data.SQL.FieldInfo)
   id: GetInt64(SuperOffice.Data.SQL.FieldInfo)
@@ -313,6 +348,9 @@ items:
   nameWithType: ISoDataRecord.GetInt64(FieldInfo)
   fullName: SuperOffice.Data.ISoDataRecord.GetInt64(SuperOffice.Data.SQL.FieldInfo)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
@@ -332,10 +370,13 @@ items:
   langs:
   - csharp
   - vb
-  name: GetOrdinal(string)
-  nameWithType: ISoDataRecord.GetOrdinal(string)
-  fullName: SuperOffice.Data.ISoDataRecord.GetOrdinal(string)
+  name: GetOrdinal(String)
+  nameWithType: ISoDataRecord.GetOrdinal(String)
+  fullName: SuperOffice.Data.ISoDataRecord.GetOrdinal(System.String)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
@@ -348,9 +389,6 @@ items:
       type: System.Int32
     content.vb: Function GetOrdinal(name As String) As Integer
   overload: SuperOffice.Data.ISoDataRecord.GetOrdinal*
-  nameWithType.vb: ISoDataRecord.GetOrdinal(String)
-  fullName.vb: SuperOffice.Data.ISoDataRecord.GetOrdinal(String)
-  name.vb: GetOrdinal(String)
 - uid: SuperOffice.Data.ISoDataRecord.GetString(SuperOffice.Data.SQL.FieldInfo)
   commentId: M:SuperOffice.Data.ISoDataRecord.GetString(SuperOffice.Data.SQL.FieldInfo)
   id: GetString(SuperOffice.Data.SQL.FieldInfo)
@@ -362,6 +400,9 @@ items:
   nameWithType: ISoDataRecord.GetString(FieldInfo)
   fullName: SuperOffice.Data.ISoDataRecord.GetString(SuperOffice.Data.SQL.FieldInfo)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
@@ -385,6 +426,9 @@ items:
   nameWithType: ISoDataRecord.GetValue(FieldInfo)
   fullName: SuperOffice.Data.ISoDataRecord.GetValue(SuperOffice.Data.SQL.FieldInfo)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
@@ -404,10 +448,13 @@ items:
   langs:
   - csharp
   - vb
-  name: GetValues(object[])
-  nameWithType: ISoDataRecord.GetValues(object[])
-  fullName: SuperOffice.Data.ISoDataRecord.GetValues(object[])
+  name: GetValues(Object[])
+  nameWithType: ISoDataRecord.GetValues(Object[])
+  fullName: SuperOffice.Data.ISoDataRecord.GetValues(System.Object[])
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
@@ -421,7 +468,7 @@ items:
     content.vb: Function GetValues(values As Object()) As Integer
   overload: SuperOffice.Data.ISoDataRecord.GetValues*
   nameWithType.vb: ISoDataRecord.GetValues(Object())
-  fullName.vb: SuperOffice.Data.ISoDataRecord.GetValues(Object())
+  fullName.vb: SuperOffice.Data.ISoDataRecord.GetValues(System.Object())
   name.vb: GetValues(Object())
 - uid: SuperOffice.Data.ISoDataRecord.GetEnum``1(SuperOffice.Data.SQL.FieldInfo)
   commentId: M:SuperOffice.Data.ISoDataRecord.GetEnum``1(SuperOffice.Data.SQL.FieldInfo)
@@ -434,6 +481,9 @@ items:
   nameWithType: ISoDataRecord.GetEnum<E>(FieldInfo)
   fullName: SuperOffice.Data.ISoDataRecord.GetEnum<E>(SuperOffice.Data.SQL.FieldInfo)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
@@ -462,6 +512,9 @@ items:
   nameWithType: ISoDataRecord.IsDBNull(FieldInfo)
   fullName: SuperOffice.Data.ISoDataRecord.IsDBNull(SuperOffice.Data.SQL.FieldInfo)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
@@ -485,6 +538,9 @@ items:
   nameWithType: ISoDataRecord.GetInt32Array(FieldInfo)
   fullName: SuperOffice.Data.ISoDataRecord.GetInt32Array(SuperOffice.Data.SQL.FieldInfo)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
@@ -508,6 +564,9 @@ items:
   nameWithType: ISoDataRecord.Reader
   fullName: SuperOffice.Data.ISoDataRecord.Reader
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data
@@ -518,224 +577,88 @@ items:
       type: SuperOffice.Data.SoDataReader
     content.vb: ReadOnly Property Reader As SoDataReader
   overload: SuperOffice.Data.ISoDataRecord.Reader*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
 references:
-- uid: System.Data.IDataRecord
-  commentId: T:System.Data.IDataRecord
-  parent: System.Data
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.data.idatarecord
-  name: IDataRecord
-  nameWithType: IDataRecord
-  fullName: System.Data.IDataRecord
-- uid: SuperOffice.Data.SQL.FieldInfo
-  commentId: T:SuperOffice.Data.SQL.FieldInfo
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  href: SuperOffice.Data.SQL.FieldInfo.html
-  name: FieldInfo
-  nameWithType: FieldInfo
-  fullName: SuperOffice.Data.SQL.FieldInfo
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
 - uid: SuperOffice.Data.ISoDataRecord.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<ISoDataRecord, To>(ISoDataRecord)
-  nameWithType: EnumUtil.MapEnums<ISoDataRecord, To>(ISoDataRecord)
-  fullName: EnumUtil.MapEnums<SuperOffice.Data.ISoDataRecord, To>(SuperOffice.Data.ISoDataRecord)
-  nameWithType.vb: EnumUtil.MapEnums(Of ISoDataRecord, To)(ISoDataRecord)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.ISoDataRecord, To)(SuperOffice.Data.ISoDataRecord)
-  name.vb: MapEnums(Of ISoDataRecord, To)(ISoDataRecord)
+  name: MapEnums<ISoDataRecord, To>()
+  nameWithType: EnumUtil.MapEnums<ISoDataRecord, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.ISoDataRecord, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ISoDataRecord, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.ISoDataRecord, To)()
+  name.vb: MapEnums(Of ISoDataRecord, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.ISoDataRecord)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ISoDataRecord, To>
+    nameWithType: EnumUtil.MapEnums<ISoDataRecord, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.ISoDataRecord, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.ISoDataRecord
-    name: ISoDataRecord
-    isExternal: true
-    href: SuperOffice.Data.ISoDataRecord.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.ISoDataRecord
-    name: ISoDataRecord
-    isExternal: true
-    href: SuperOffice.Data.ISoDataRecord.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.ISoDataRecord)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ISoDataRecord, To)
+    nameWithType: EnumUtil.MapEnums(Of ISoDataRecord, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.ISoDataRecord, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.ISoDataRecord
-    name: ISoDataRecord
-    isExternal: true
-    href: SuperOffice.Data.ISoDataRecord.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.ISoDataRecord
-    name: ISoDataRecord
-    isExternal: true
-    href: SuperOffice.Data.ISoDataRecord.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.ISoDataRecord.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<ISoDataRecord, To>(ISoDataRecord)
-  nameWithType: Converters.MapEnums<ISoDataRecord, To>(ISoDataRecord)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ISoDataRecord, To>(SuperOffice.Data.ISoDataRecord)
-  nameWithType.vb: Converters.MapEnums(Of ISoDataRecord, To)(ISoDataRecord)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ISoDataRecord, To)(SuperOffice.Data.ISoDataRecord)
-  name.vb: MapEnums(Of ISoDataRecord, To)(ISoDataRecord)
+  name: MapEnums<ISoDataRecord, To>()
+  nameWithType: Converters.MapEnums<ISoDataRecord, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ISoDataRecord, To>()
+  nameWithType.vb: Converters.MapEnums(Of ISoDataRecord, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ISoDataRecord, To)()
+  name.vb: MapEnums(Of ISoDataRecord, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.ISoDataRecord)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ISoDataRecord, To>
+    nameWithType: Converters.MapEnums<ISoDataRecord, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ISoDataRecord, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.ISoDataRecord
-    name: ISoDataRecord
-    isExternal: true
-    href: SuperOffice.Data.ISoDataRecord.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.ISoDataRecord
-    name: ISoDataRecord
-    isExternal: true
-    href: SuperOffice.Data.ISoDataRecord.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.ISoDataRecord)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ISoDataRecord, To)
+    nameWithType: Converters.MapEnums(Of ISoDataRecord, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ISoDataRecord, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.ISoDataRecord
-    name: ISoDataRecord
-    isExternal: true
-    href: SuperOffice.Data.ISoDataRecord.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.ISoDataRecord
-    name: ISoDataRecord
-    isExternal: true
-    href: SuperOffice.Data.ISoDataRecord.html
-  - name: )
-- uid: System.Data
-  commentId: N:System.Data
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Data
-  nameWithType: System.Data
-  fullName: System.Data
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Data
-    name: Data
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.data
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Data
-    name: Data
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.data
-- uid: SuperOffice.Data.SQL
-  commentId: N:SuperOffice.Data.SQL
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.Data.SQL
-  nameWithType: SuperOffice.Data.SQL
-  fullName: SuperOffice.Data.SQL
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.SQL
-    name: SQL
-    isExternal: true
-    href: SuperOffice.Data.SQL.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.SQL
-    name: SQL
-    isExternal: true
-    href: SuperOffice.Data.SQL.html
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -744,45 +667,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -791,108 +712,82 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.Data.ISoDataRecord.GetBoolean*
   commentId: Overload:SuperOffice.Data.ISoDataRecord.GetBoolean
   isExternal: true
-  href: SuperOffice.Data.ISoDataRecord.html#SuperOffice_Data_ISoDataRecord_GetBoolean_SuperOffice_Data_SQL_FieldInfo_
   name: GetBoolean
   nameWithType: ISoDataRecord.GetBoolean
   fullName: SuperOffice.Data.ISoDataRecord.GetBoolean
+- uid: SuperOffice.Data.SQL.FieldInfo
+  commentId: T:SuperOffice.Data.SQL.FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: FieldInfo
+  nameWithType: FieldInfo
+  fullName: SuperOffice.Data.SQL.FieldInfo
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.Data.ISoDataRecord.GetByte*
   commentId: Overload:SuperOffice.Data.ISoDataRecord.GetByte
   isExternal: true
-  href: SuperOffice.Data.ISoDataRecord.html#SuperOffice_Data_ISoDataRecord_GetByte_SuperOffice_Data_SQL_FieldInfo_
   name: GetByte
   nameWithType: ISoDataRecord.GetByte
   fullName: SuperOffice.Data.ISoDataRecord.GetByte
@@ -900,17 +795,12 @@ references:
   commentId: T:System.Byte
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.byte
-  name: byte
-  nameWithType: byte
-  fullName: byte
-  nameWithType.vb: Byte
-  fullName.vb: Byte
-  name.vb: Byte
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte
 - uid: SuperOffice.Data.ISoDataRecord.GetChar*
   commentId: Overload:SuperOffice.Data.ISoDataRecord.GetChar
   isExternal: true
-  href: SuperOffice.Data.ISoDataRecord.html#SuperOffice_Data_ISoDataRecord_GetChar_SuperOffice_Data_SQL_FieldInfo_
   name: GetChar
   nameWithType: ISoDataRecord.GetChar
   fullName: SuperOffice.Data.ISoDataRecord.GetChar
@@ -918,53 +808,34 @@ references:
   commentId: T:System.Char
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.char
-  name: char
-  nameWithType: char
-  fullName: char
-  nameWithType.vb: Char
-  fullName.vb: Char
-  name.vb: Char
+  name: Char
+  nameWithType: Char
+  fullName: System.Char
 - uid: SuperOffice.Data.ISoDataRecord.GetDateTime*
   commentId: Overload:SuperOffice.Data.ISoDataRecord.GetDateTime
   isExternal: true
-  href: SuperOffice.Data.ISoDataRecord.html#SuperOffice_Data_ISoDataRecord_GetDateTime_SuperOffice_Data_SQL_FieldInfo_
   name: GetDateTime
   nameWithType: ISoDataRecord.GetDateTime
   fullName: SuperOffice.Data.ISoDataRecord.GetDateTime
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
 - uid: SuperOffice.Data.ISoDataRecord.GetDecimal*
   commentId: Overload:SuperOffice.Data.ISoDataRecord.GetDecimal
   isExternal: true
-  href: SuperOffice.Data.ISoDataRecord.html#SuperOffice_Data_ISoDataRecord_GetDecimal_SuperOffice_Data_SQL_FieldInfo_
   name: GetDecimal
   nameWithType: ISoDataRecord.GetDecimal
   fullName: SuperOffice.Data.ISoDataRecord.GetDecimal
 - uid: System.Decimal
-  commentId: T:System.Decimal
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.decimal
-  name: decimal
-  nameWithType: decimal
-  fullName: decimal
-  nameWithType.vb: Decimal
-  fullName.vb: Decimal
-  name.vb: Decimal
+  name: Decimal
+  nameWithType: Decimal
+  fullName: System.Decimal
 - uid: SuperOffice.Data.ISoDataRecord.GetDouble*
   commentId: Overload:SuperOffice.Data.ISoDataRecord.GetDouble
   isExternal: true
-  href: SuperOffice.Data.ISoDataRecord.html#SuperOffice_Data_ISoDataRecord_GetDouble_SuperOffice_Data_SQL_FieldInfo_
   name: GetDouble
   nameWithType: ISoDataRecord.GetDouble
   fullName: SuperOffice.Data.ISoDataRecord.GetDouble
@@ -972,17 +843,12 @@ references:
   commentId: T:System.Double
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.double
-  name: double
-  nameWithType: double
-  fullName: double
-  nameWithType.vb: Double
-  fullName.vb: Double
-  name.vb: Double
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
 - uid: SuperOffice.Data.ISoDataRecord.GetFloat*
   commentId: Overload:SuperOffice.Data.ISoDataRecord.GetFloat
   isExternal: true
-  href: SuperOffice.Data.ISoDataRecord.html#SuperOffice_Data_ISoDataRecord_GetFloat_SuperOffice_Data_SQL_FieldInfo_
   name: GetFloat
   nameWithType: ISoDataRecord.GetFloat
   fullName: SuperOffice.Data.ISoDataRecord.GetFloat
@@ -990,32 +856,23 @@ references:
   commentId: T:System.Single
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.single
-  name: float
-  nameWithType: float
-  fullName: float
-  nameWithType.vb: Single
-  fullName.vb: Single
-  name.vb: Single
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
 - uid: SuperOffice.Data.ISoDataRecord.GetGuid*
   commentId: Overload:SuperOffice.Data.ISoDataRecord.GetGuid
   isExternal: true
-  href: SuperOffice.Data.ISoDataRecord.html#SuperOffice_Data_ISoDataRecord_GetGuid_SuperOffice_Data_SQL_FieldInfo_
   name: GetGuid
   nameWithType: ISoDataRecord.GetGuid
   fullName: SuperOffice.Data.ISoDataRecord.GetGuid
 - uid: System.Guid
-  commentId: T:System.Guid
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.guid
   name: Guid
   nameWithType: Guid
   fullName: System.Guid
 - uid: SuperOffice.Data.ISoDataRecord.GetInt16*
   commentId: Overload:SuperOffice.Data.ISoDataRecord.GetInt16
   isExternal: true
-  href: SuperOffice.Data.ISoDataRecord.html#SuperOffice_Data_ISoDataRecord_GetInt16_SuperOffice_Data_SQL_FieldInfo_
   name: GetInt16
   nameWithType: ISoDataRecord.GetInt16
   fullName: SuperOffice.Data.ISoDataRecord.GetInt16
@@ -1023,17 +880,12 @@ references:
   commentId: T:System.Int16
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int16
-  name: short
-  nameWithType: short
-  fullName: short
-  nameWithType.vb: Short
-  fullName.vb: Short
-  name.vb: Short
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.Data.ISoDataRecord.GetInt32*
   commentId: Overload:SuperOffice.Data.ISoDataRecord.GetInt32
   isExternal: true
-  href: SuperOffice.Data.ISoDataRecord.html#SuperOffice_Data_ISoDataRecord_GetInt32_SuperOffice_Data_SQL_FieldInfo_
   name: GetInt32
   nameWithType: ISoDataRecord.GetInt32
   fullName: SuperOffice.Data.ISoDataRecord.GetInt32
@@ -1041,17 +893,12 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.Data.ISoDataRecord.GetInt64*
   commentId: Overload:SuperOffice.Data.ISoDataRecord.GetInt64
   isExternal: true
-  href: SuperOffice.Data.ISoDataRecord.html#SuperOffice_Data_ISoDataRecord_GetInt64_SuperOffice_Data_SQL_FieldInfo_
   name: GetInt64
   nameWithType: ISoDataRecord.GetInt64
   fullName: SuperOffice.Data.ISoDataRecord.GetInt64
@@ -1059,17 +906,12 @@ references:
   commentId: T:System.Int64
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int64
-  name: long
-  nameWithType: long
-  fullName: long
-  nameWithType.vb: Long
-  fullName.vb: Long
-  name.vb: Long
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
 - uid: SuperOffice.Data.ISoDataRecord.GetOrdinal*
   commentId: Overload:SuperOffice.Data.ISoDataRecord.GetOrdinal
   isExternal: true
-  href: SuperOffice.Data.ISoDataRecord.html#SuperOffice_Data_ISoDataRecord_GetOrdinal_System_String_
   name: GetOrdinal
   nameWithType: ISoDataRecord.GetOrdinal
   fullName: SuperOffice.Data.ISoDataRecord.GetOrdinal
@@ -1077,24 +919,18 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.Data.ISoDataRecord.GetString*
   commentId: Overload:SuperOffice.Data.ISoDataRecord.GetString
   isExternal: true
-  href: SuperOffice.Data.ISoDataRecord.html#SuperOffice_Data_ISoDataRecord_GetString_SuperOffice_Data_SQL_FieldInfo_
   name: GetString
   nameWithType: ISoDataRecord.GetString
   fullName: SuperOffice.Data.ISoDataRecord.GetString
 - uid: SuperOffice.Data.ISoDataRecord.GetValue*
   commentId: Overload:SuperOffice.Data.ISoDataRecord.GetValue
   isExternal: true
-  href: SuperOffice.Data.ISoDataRecord.html#SuperOffice_Data_ISoDataRecord_GetValue_SuperOffice_Data_SQL_FieldInfo_
   name: GetValue
   nameWithType: ISoDataRecord.GetValue
   fullName: SuperOffice.Data.ISoDataRecord.GetValue
@@ -1102,47 +938,44 @@ references:
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.ISoDataRecord.GetValues*
   commentId: Overload:SuperOffice.Data.ISoDataRecord.GetValues
   isExternal: true
-  href: SuperOffice.Data.ISoDataRecord.html#SuperOffice_Data_ISoDataRecord_GetValues_System_Object___
   name: GetValues
   nameWithType: ISoDataRecord.GetValues
   fullName: SuperOffice.Data.ISoDataRecord.GetValues
 - uid: System.Object[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object[]
-  nameWithType: object[]
-  fullName: object[]
+  name: Object[]
+  nameWithType: Object[]
+  fullName: System.Object[]
   nameWithType.vb: Object()
-  fullName.vb: Object()
+  fullName.vb: System.Object()
   name.vb: Object()
   spec.csharp:
   - uid: System.Object
-    name: object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.Object
     name: Object
+    nameWithType: Object
+    fullName: System.Object
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.Data.ISoDataRecord.GetEnum*
   commentId: Overload:SuperOffice.Data.ISoDataRecord.GetEnum
   isExternal: true
-  href: SuperOffice.Data.ISoDataRecord.html#SuperOffice_Data_ISoDataRecord_GetEnum__1_SuperOffice_Data_SQL_FieldInfo_
   name: GetEnum
   nameWithType: ISoDataRecord.GetEnum
   fullName: SuperOffice.Data.ISoDataRecord.GetEnum
@@ -1159,44 +992,44 @@ references:
 - uid: SuperOffice.Data.ISoDataRecord.IsDBNull*
   commentId: Overload:SuperOffice.Data.ISoDataRecord.IsDBNull
   isExternal: true
-  href: SuperOffice.Data.ISoDataRecord.html#SuperOffice_Data_ISoDataRecord_IsDBNull_SuperOffice_Data_SQL_FieldInfo_
   name: IsDBNull
   nameWithType: ISoDataRecord.IsDBNull
   fullName: SuperOffice.Data.ISoDataRecord.IsDBNull
 - uid: SuperOffice.Data.ISoDataRecord.GetInt32Array*
   commentId: Overload:SuperOffice.Data.ISoDataRecord.GetInt32Array
   isExternal: true
-  href: SuperOffice.Data.ISoDataRecord.html#SuperOffice_Data_ISoDataRecord_GetInt32Array_SuperOffice_Data_SQL_FieldInfo_
   name: GetInt32Array
   nameWithType: ISoDataRecord.GetInt32Array
   fullName: SuperOffice.Data.ISoDataRecord.GetInt32Array
 - uid: System.Int32[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int[]
-  nameWithType: int[]
-  fullName: int[]
-  nameWithType.vb: Integer()
-  fullName.vb: Integer()
-  name.vb: Integer()
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
   spec.csharp:
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.Data.ISoDataRecord.Reader*
   commentId: Overload:SuperOffice.Data.ISoDataRecord.Reader
   isExternal: true
-  href: SuperOffice.Data.ISoDataRecord.html#SuperOffice_Data_ISoDataRecord_Reader
   name: Reader
   nameWithType: ISoDataRecord.Reader
   fullName: SuperOffice.Data.ISoDataRecord.Reader
@@ -1204,7 +1037,6 @@ references:
   commentId: T:SuperOffice.Data.SoDataReader
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.SoDataReader.html
   name: SoDataReader
   nameWithType: SoDataReader
   fullName: SuperOffice.Data.SoDataReader

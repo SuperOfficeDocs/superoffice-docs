@@ -6,8 +6,9 @@ items:
   children:
   - SuperOffice.CRM.Services.Carrier
   - SuperOffice.CRM.Services.GrantedModuleLicense
-  - SuperOffice.CRM.Services.IRequestArgumentsInfo
   - SuperOffice.CRM.Services.IntStringDictionary
+  - SuperOffice.CRM.Services.intStringDictionaryExt
+  - SuperOffice.CRM.Services.IRequestArgumentsInfo
   - SuperOffice.CRM.Services.ObjectCopier
   - SuperOffice.CRM.Services.ParticipantInfo
   - SuperOffice.CRM.Services.ProvidedCredential
@@ -24,11 +25,10 @@ items:
   - SuperOffice.CRM.Services.SoPrincipalCarrier
   - SuperOffice.CRM.Services.SoSystemInfoCarrier
   - SuperOffice.CRM.Services.StringBoolDictionary
-  - SuperOffice.CRM.Services.StringDictionary
-  - SuperOffice.CRM.Services.StringObjectDictionary
-  - SuperOffice.CRM.Services.intStringDictionaryExt
   - SuperOffice.CRM.Services.stringBoolDictionaryExt
+  - SuperOffice.CRM.Services.StringDictionary
   - SuperOffice.CRM.Services.stringDictionaryExt
+  - SuperOffice.CRM.Services.StringObjectDictionary
   - SuperOffice.CRM.Services.stringObjectDictionaryExt
   langs:
   - csharp
@@ -44,7 +44,6 @@ references:
   commentId: T:SuperOffice.CRM.Services.Carrier
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.Carrier.html
   name: Carrier
   nameWithType: Carrier
   fullName: SuperOffice.CRM.Services.Carrier
@@ -52,7 +51,6 @@ references:
   commentId: T:SuperOffice.CRM.Services.GrantedModuleLicense
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.GrantedModuleLicense.html
   name: GrantedModuleLicense
   nameWithType: GrantedModuleLicense
   fullName: SuperOffice.CRM.Services.GrantedModuleLicense
@@ -60,22 +58,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.IntStringDictionary
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.IntStringDictionary.html
   name: IntStringDictionary
   nameWithType: IntStringDictionary
   fullName: SuperOffice.CRM.Services.IntStringDictionary
 - uid: SuperOffice.CRM.Services.intStringDictionaryExt
   commentId: T:SuperOffice.CRM.Services.intStringDictionaryExt
-  parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.intStringDictionaryExt.html
   name: intStringDictionaryExt
   nameWithType: intStringDictionaryExt
   fullName: SuperOffice.CRM.Services.intStringDictionaryExt
 - uid: SuperOffice.CRM.Services.ObjectCopier
   commentId: T:SuperOffice.CRM.Services.ObjectCopier
   isExternal: true
-  href: SuperOffice.CRM.Services.ObjectCopier.html
   name: ObjectCopier
   nameWithType: ObjectCopier
   fullName: SuperOffice.CRM.Services.ObjectCopier
@@ -83,14 +77,12 @@ references:
   commentId: T:SuperOffice.CRM.Services.ParticipantInfo
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.ParticipantInfo.html
   name: ParticipantInfo
   nameWithType: ParticipantInfo
   fullName: SuperOffice.CRM.Services.ParticipantInfo
 - uid: SuperOffice.CRM.Services.ProvidedCredential
   commentId: T:SuperOffice.CRM.Services.ProvidedCredential
   isExternal: true
-  href: SuperOffice.CRM.Services.ProvidedCredential.html
   name: ProvidedCredential
   nameWithType: ProvidedCredential
   fullName: SuperOffice.CRM.Services.ProvidedCredential
@@ -98,7 +90,6 @@ references:
   commentId: T:SuperOffice.CRM.Services.RecurrencePatternBase
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.RecurrencePatternBase.html
   name: RecurrencePatternBase
   nameWithType: RecurrencePatternBase
   fullName: SuperOffice.CRM.Services.RecurrencePatternBase
@@ -106,7 +97,6 @@ references:
   commentId: T:SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.html
   name: RecurrenceWeekOfMonthPattern
   nameWithType: RecurrenceWeekOfMonthPattern
   fullName: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern
@@ -114,7 +104,6 @@ references:
   commentId: T:SuperOffice.CRM.Services.RecurrenceDayPattern
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.RecurrenceDayPattern.html
   name: RecurrenceDayPattern
   nameWithType: RecurrenceDayPattern
   fullName: SuperOffice.CRM.Services.RecurrenceDayPattern
@@ -122,7 +111,6 @@ references:
   commentId: T:SuperOffice.CRM.Services.RecurrenceWeekPattern
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.RecurrenceWeekPattern.html
   name: RecurrenceWeekPattern
   nameWithType: RecurrenceWeekPattern
   fullName: SuperOffice.CRM.Services.RecurrenceWeekPattern
@@ -130,7 +118,6 @@ references:
   commentId: T:SuperOffice.CRM.Services.RecurrenceMonthPattern
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.RecurrenceMonthPattern.html
   name: RecurrenceMonthPattern
   nameWithType: RecurrenceMonthPattern
   fullName: SuperOffice.CRM.Services.RecurrenceMonthPattern
@@ -138,7 +125,6 @@ references:
   commentId: T:SuperOffice.CRM.Services.RecurrenceYearPattern
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.RecurrenceYearPattern.html
   name: RecurrenceYearPattern
   nameWithType: RecurrenceYearPattern
   fullName: SuperOffice.CRM.Services.RecurrenceYearPattern
@@ -146,7 +132,6 @@ references:
   commentId: T:SuperOffice.CRM.Services.RecurrenceDate
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.RecurrenceDate.html
   name: RecurrenceDate
   nameWithType: RecurrenceDate
   fullName: SuperOffice.CRM.Services.RecurrenceDate
@@ -154,14 +139,12 @@ references:
   commentId: T:SuperOffice.CRM.Services.RecurrenceInfo
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.RecurrenceInfo.html
   name: RecurrenceInfo
   nameWithType: RecurrenceInfo
   fullName: SuperOffice.CRM.Services.RecurrenceInfo
 - uid: SuperOffice.CRM.Services.ServiceDefinitions
   commentId: T:SuperOffice.CRM.Services.ServiceDefinitions
   isExternal: true
-  href: SuperOffice.CRM.Services.ServiceDefinitions.html
   name: ServiceDefinitions
   nameWithType: ServiceDefinitions
   fullName: SuperOffice.CRM.Services.ServiceDefinitions
@@ -169,7 +152,6 @@ references:
   commentId: T:SuperOffice.CRM.Services.SoPrincipalCarrier
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.SoPrincipalCarrier.html
   name: SoPrincipalCarrier
   nameWithType: SoPrincipalCarrier
   fullName: SuperOffice.CRM.Services.SoPrincipalCarrier
@@ -177,7 +159,6 @@ references:
   commentId: T:SuperOffice.CRM.Services.SoSystemInfoCarrier
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.SoSystemInfoCarrier.html
   name: SoSystemInfoCarrier
   nameWithType: SoSystemInfoCarrier
   fullName: SuperOffice.CRM.Services.SoSystemInfoCarrier
@@ -185,15 +166,12 @@ references:
   commentId: T:SuperOffice.CRM.Services.StringBoolDictionary
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.StringBoolDictionary.html
   name: StringBoolDictionary
   nameWithType: StringBoolDictionary
   fullName: SuperOffice.CRM.Services.StringBoolDictionary
 - uid: SuperOffice.CRM.Services.stringBoolDictionaryExt
   commentId: T:SuperOffice.CRM.Services.stringBoolDictionaryExt
-  parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.stringBoolDictionaryExt.html
   name: stringBoolDictionaryExt
   nameWithType: stringBoolDictionaryExt
   fullName: SuperOffice.CRM.Services.stringBoolDictionaryExt
@@ -201,15 +179,12 @@ references:
   commentId: T:SuperOffice.CRM.Services.StringDictionary
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.StringDictionary.html
   name: StringDictionary
   nameWithType: StringDictionary
   fullName: SuperOffice.CRM.Services.StringDictionary
 - uid: SuperOffice.CRM.Services.stringDictionaryExt
   commentId: T:SuperOffice.CRM.Services.stringDictionaryExt
-  parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.stringDictionaryExt.html
   name: stringDictionaryExt
   nameWithType: stringDictionaryExt
   fullName: SuperOffice.CRM.Services.stringDictionaryExt
@@ -217,15 +192,12 @@ references:
   commentId: T:SuperOffice.CRM.Services.StringObjectDictionary
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.StringObjectDictionary.html
   name: StringObjectDictionary
   nameWithType: StringObjectDictionary
   fullName: SuperOffice.CRM.Services.StringObjectDictionary
 - uid: SuperOffice.CRM.Services.stringObjectDictionaryExt
   commentId: T:SuperOffice.CRM.Services.stringObjectDictionaryExt
-  parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.stringObjectDictionaryExt.html
   name: stringObjectDictionaryExt
   nameWithType: stringObjectDictionaryExt
   fullName: SuperOffice.CRM.Services.stringObjectDictionaryExt
@@ -233,51 +205,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.IRequestArgumentsInfo
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.IRequestArgumentsInfo.html
   name: IRequestArgumentsInfo
   nameWithType: IRequestArgumentsInfo
   fullName: SuperOffice.CRM.Services.IRequestArgumentsInfo
 - uid: SuperOffice.CRM.Services.RequestArgumentsInfo
   commentId: T:SuperOffice.CRM.Services.RequestArgumentsInfo
   isExternal: true
-  href: SuperOffice.CRM.Services.RequestArgumentsInfo.html
   name: RequestArgumentsInfo
   nameWithType: RequestArgumentsInfo
   fullName: SuperOffice.CRM.Services.RequestArgumentsInfo
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html

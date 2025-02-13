@@ -45,41 +45,20 @@ items:
   nameWithType: ProjectEventEntity
   fullName: SuperOffice.CRM.Services.ProjectEventEntity
   type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    The ProjectEvent Service. The service implements all services working with the ProjectEvent object
-
-    <p></p>
-
-    Carrier object for ProjectEventEntity.
-
-    Services for the ProjectEventEntity Carrier is available from the <xref href="SuperOffice.CRM.Services.IProjectAgent?text=Project+Agent" data-throw-if-not-resolved="false"></xref>.
+  summary: "\nThe ProjectEvent Service. The service implements all services working with the ProjectEvent object\n<p></p>\nCarrier object for ProjectEventEntity.\nServices for the ProjectEventEntity Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IProjectAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   example:
-  - >-
-    Get ProjectEventEntity 123 using the agent:
-
-    <pre><code class="lang-csharp">using SuperOffice;
-
-    using SuperOffice.CRM.Services;
-
-
-    using (SoSession mySession = SoSession.Authenticate("user", "pass"))
-
-    {
-       var agent = new ProjectAgent();
-       var projectEventEntity = agent.GetProjectEventEntity( 123 );
-    }</code></pre>
+  - "\nGet ProjectEventEntity 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new ProjectAgent();\n    var projectEventEntity = agent.GetProjectEventEntity( 123 );\n }</code></pre>\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public class ProjectEventEntity : Carrier
+    content: 'public class ProjectEventEntity : Carrier'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
-
-      Public Class ProjectEventEntity Inherits Carrier
+      Public Class ProjectEventEntity
+          Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.ProjectAgent
     commentId: T:SuperOffice.CRM.Services.ProjectAgent
@@ -87,14 +66,12 @@ items:
     commentId: T:SuperOffice.CRM.Services.IProjectAgent
   inheritance:
   - System.Object
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.ProjectEventEntity.#ctor
   commentId: M:SuperOffice.CRM.Services.ProjectEventEntity.#ctor
   id: '#ctor'
@@ -106,18 +83,21 @@ items:
   nameWithType: ProjectEventEntity.ProjectEventEntity()
   fullName: SuperOffice.CRM.Services.ProjectEventEntity.ProjectEventEntity()
   type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Default constructor
-  example: []
+  summary: "\nDefault constructor\n"
   syntax:
     content: public ProjectEventEntity()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.ProjectEventEntity.#ctor*
-  nameWithType.vb: ProjectEventEntity.New()
-  fullName.vb: SuperOffice.CRM.Services.ProjectEventEntity.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.ProjectEventEntity.ToString
   commentId: M:SuperOffice.CRM.Services.ProjectEventEntity.ToString
   id: ToString
@@ -129,18 +109,26 @@ items:
   nameWithType: ProjectEventEntity.ToString()
   fullName: SuperOffice.CRM.Services.ProjectEventEntity.ToString()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the carrier contents as a formatted string.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string.\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString() As String
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.CRM.Services.ProjectEventEntity.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Services.ProjectEventEntity.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.ProjectEventEntity.ToString(System.String)
   id: ToString(System.String)
@@ -148,18 +136,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(string)
-  nameWithType: ProjectEventEntity.ToString(string)
-  fullName: SuperOffice.CRM.Services.ProjectEventEntity.ToString(string)
+  name: ToString(String)
+  nameWithType: ProjectEventEntity.ToString(String)
+  fullName: SuperOffice.CRM.Services.ProjectEventEntity.ToString(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Returns the carrier contents as a formatted string, useful for debugging.
-
-    Each line in the output is prefixed with the input value.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -171,9 +158,10 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.ProjectEventEntity.ToString*
-  nameWithType.vb: ProjectEventEntity.ToString(String)
-  fullName.vb: SuperOffice.CRM.Services.ProjectEventEntity.ToString(String)
-  name.vb: ToString(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.ProjectEventEntity.SignOffConfirmationText
   commentId: P:SuperOffice.CRM.Services.ProjectEventEntity.SignOffConfirmationText
   id: SignOffConfirmationText
@@ -185,28 +173,28 @@ items:
   nameWithType: ProjectEventEntity.SignOffConfirmationText
   fullName: SuperOffice.CRM.Services.ProjectEventEntity.SignOffConfirmationText
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Text shown as confirmation text before accepting sign off.
-  example: []
+  summary: "\nText shown as confirmation text before accepting sign off. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string SignOffConfirmationText { get; set; }
+    content: public virtual string SignOffConfirmationText { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property SignOffConfirmationText As String
+    content.vb: Public Overridable Property SignOffConfirmationText As String
   overload: SuperOffice.CRM.Services.ProjectEventEntity.SignOffConfirmationText*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ProjectEventEntity.SignOffText
   commentId: P:SuperOffice.CRM.Services.ProjectEventEntity.SignOffText
   id: SignOffText
@@ -218,28 +206,28 @@ items:
   nameWithType: ProjectEventEntity.SignOffText
   fullName: SuperOffice.CRM.Services.ProjectEventEntity.SignOffText
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Default text for the activity created when signing off.
-  example: []
+  summary: "\nDefault text for the activity created when signing off. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string SignOffText { get; set; }
+    content: public virtual string SignOffText { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property SignOffText As String
+    content.vb: Public Overridable Property SignOffText As String
   overload: SuperOffice.CRM.Services.ProjectEventEntity.SignOffText*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ProjectEventEntity.SignOnConfirmationText
   commentId: P:SuperOffice.CRM.Services.ProjectEventEntity.SignOnConfirmationText
   id: SignOnConfirmationText
@@ -251,28 +239,28 @@ items:
   nameWithType: ProjectEventEntity.SignOnConfirmationText
   fullName: SuperOffice.CRM.Services.ProjectEventEntity.SignOnConfirmationText
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Text shown as confirmation text before accepting sign on.
-  example: []
+  summary: "\nText shown as confirmation text before accepting sign on. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string SignOnConfirmationText { get; set; }
+    content: public virtual string SignOnConfirmationText { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property SignOnConfirmationText As String
+    content.vb: Public Overridable Property SignOnConfirmationText As String
   overload: SuperOffice.CRM.Services.ProjectEventEntity.SignOnConfirmationText*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ProjectEventEntity.SignOnText
   commentId: P:SuperOffice.CRM.Services.ProjectEventEntity.SignOnText
   id: SignOnText
@@ -284,28 +272,28 @@ items:
   nameWithType: ProjectEventEntity.SignOnText
   fullName: SuperOffice.CRM.Services.ProjectEventEntity.SignOnText
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Default text for the activity created when signing on.
-  example: []
+  summary: "\nDefault text for the activity created when signing on. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string SignOnText { get; set; }
+    content: public virtual string SignOnText { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property SignOnText As String
+    content.vb: Public Overridable Property SignOnText As String
   overload: SuperOffice.CRM.Services.ProjectEventEntity.SignOnText*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ProjectEventEntity.EventDate
   commentId: P:SuperOffice.CRM.Services.ProjectEventEntity.EventDate
   id: EventDate
@@ -317,28 +305,28 @@ items:
   nameWithType: ProjectEventEntity.EventDate
   fullName: SuperOffice.CRM.Services.ProjectEventEntity.EventDate
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Dateof the event; publishing/visibility dates are in Publish, and restrictions are in AudienceVisibility
-  example: []
+  summary: "\nDateof the event; publishing/visibility dates are in Publish, and restrictions are in AudienceVisibility \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual DateTime EventDate { get; set; }
+    content: public virtual DateTime EventDate { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property EventDate As Date
+    content.vb: Public Overridable Property EventDate As DateTime
   overload: SuperOffice.CRM.Services.ProjectEventEntity.EventDate*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ProjectEventEntity.Enabled
   commentId: P:SuperOffice.CRM.Services.ProjectEventEntity.Enabled
   id: Enabled
@@ -350,28 +338,28 @@ items:
   nameWithType: ProjectEventEntity.Enabled
   fullName: SuperOffice.CRM.Services.ProjectEventEntity.Enabled
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Is the event enabled
-  example: []
+  summary: "\nIs the event enabled \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual bool Enabled { get; set; }
+    content: public virtual bool Enabled { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Enabled As Boolean
+    content.vb: Public Overridable Property Enabled As Boolean
   overload: SuperOffice.CRM.Services.ProjectEventEntity.Enabled*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ProjectEventEntity.CreatedDate
   commentId: P:SuperOffice.CRM.Services.ProjectEventEntity.CreatedDate
   id: CreatedDate
@@ -383,28 +371,28 @@ items:
   nameWithType: ProjectEventEntity.CreatedDate
   fullName: SuperOffice.CRM.Services.ProjectEventEntity.CreatedDate
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Registered when  in UTC.
-  example: []
+  summary: "\nRegistered when  in UTC.\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual DateTime CreatedDate { get; set; }
+    content: public virtual DateTime CreatedDate { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property CreatedDate As Date
+    content.vb: Public Overridable Property CreatedDate As DateTime
   overload: SuperOffice.CRM.Services.ProjectEventEntity.CreatedDate*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ProjectEventEntity.SignOff
   commentId: P:SuperOffice.CRM.Services.ProjectEventEntity.SignOff
   id: SignOff
@@ -416,28 +404,28 @@ items:
   nameWithType: ProjectEventEntity.SignOff
   fullName: SuperOffice.CRM.Services.ProjectEventEntity.SignOff
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Is Sign Off functionality enabled?
-  example: []
+  summary: "\nIs Sign Off functionality enabled? \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual bool SignOff { get; set; }
+    content: public virtual bool SignOff { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property SignOff As Boolean
+    content.vb: Public Overridable Property SignOff As Boolean
   overload: SuperOffice.CRM.Services.ProjectEventEntity.SignOff*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ProjectEventEntity.SignOffTaskEnable
   commentId: P:SuperOffice.CRM.Services.ProjectEventEntity.SignOffTaskEnable
   id: SignOffTaskEnable
@@ -449,28 +437,28 @@ items:
   nameWithType: ProjectEventEntity.SignOffTaskEnable
   fullName: SuperOffice.CRM.Services.ProjectEventEntity.SignOffTaskEnable
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: If not 0, a task should be created when the external user Signs Off an event
-  example: []
+  summary: "\nIf not 0, a task should be created when the external user Signs Off an event \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual bool SignOffTaskEnable { get; set; }
+    content: public virtual bool SignOffTaskEnable { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property SignOffTaskEnable As Boolean
+    content.vb: Public Overridable Property SignOffTaskEnable As Boolean
   overload: SuperOffice.CRM.Services.ProjectEventEntity.SignOffTaskEnable*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ProjectEventEntity.SignOffTaskId
   commentId: P:SuperOffice.CRM.Services.ProjectEventEntity.SignOffTaskId
   id: SignOffTaskId
@@ -482,28 +470,28 @@ items:
   nameWithType: ProjectEventEntity.SignOffTaskId
   fullName: SuperOffice.CRM.Services.ProjectEventEntity.SignOffTaskId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: If not 0, sign off should cause an Activity of this type to be registered
-  example: []
+  summary: "\nIf not 0, sign off should cause an Activity of this type to be registered \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int SignOffTaskId { get; set; }
+    content: public virtual int SignOffTaskId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property SignOffTaskId As Integer
+    content.vb: Public Overridable Property SignOffTaskId As Integer
   overload: SuperOffice.CRM.Services.ProjectEventEntity.SignOffTaskId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ProjectEventEntity.SignOffTriggersAssign
   commentId: P:SuperOffice.CRM.Services.ProjectEventEntity.SignOffTriggersAssign
   id: SignOffTriggersAssign
@@ -515,28 +503,28 @@ items:
   nameWithType: ProjectEventEntity.SignOffTriggersAssign
   fullName: SuperOffice.CRM.Services.ProjectEventEntity.SignOffTriggersAssign
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: If 1, the SignOff task should be created as an Assigned task, triggering the invitation dialog
-  example: []
+  summary: "\nIf 1, the SignOff task should be created as an Assigned task, triggering the invitation dialog \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual bool SignOffTriggersAssign { get; set; }
+    content: public virtual bool SignOffTriggersAssign { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property SignOffTriggersAssign As Boolean
+    content.vb: Public Overridable Property SignOffTriggersAssign As Boolean
   overload: SuperOffice.CRM.Services.ProjectEventEntity.SignOffTriggersAssign*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ProjectEventEntity.SignOn
   commentId: P:SuperOffice.CRM.Services.ProjectEventEntity.SignOn
   id: SignOn
@@ -548,28 +536,28 @@ items:
   nameWithType: ProjectEventEntity.SignOn
   fullName: SuperOffice.CRM.Services.ProjectEventEntity.SignOn
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Is Sign On functionality enabled
-  example: []
+  summary: "\nIs Sign On functionality enabled \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual bool SignOn { get; set; }
+    content: public virtual bool SignOn { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property SignOn As Boolean
+    content.vb: Public Overridable Property SignOn As Boolean
   overload: SuperOffice.CRM.Services.ProjectEventEntity.SignOn*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ProjectEventEntity.SignOnTaskEnable
   commentId: P:SuperOffice.CRM.Services.ProjectEventEntity.SignOnTaskEnable
   id: SignOnTaskEnable
@@ -581,28 +569,28 @@ items:
   nameWithType: ProjectEventEntity.SignOnTaskEnable
   fullName: SuperOffice.CRM.Services.ProjectEventEntity.SignOnTaskEnable
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: If not 0, a task should be created when the external user Signs On to an event
-  example: []
+  summary: "\nIf not 0, a task should be created when the external user Signs On to an event \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual bool SignOnTaskEnable { get; set; }
+    content: public virtual bool SignOnTaskEnable { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property SignOnTaskEnable As Boolean
+    content.vb: Public Overridable Property SignOnTaskEnable As Boolean
   overload: SuperOffice.CRM.Services.ProjectEventEntity.SignOnTaskEnable*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ProjectEventEntity.SignOnTaskId
   commentId: P:SuperOffice.CRM.Services.ProjectEventEntity.SignOnTaskId
   id: SignOnTaskId
@@ -614,28 +602,28 @@ items:
   nameWithType: ProjectEventEntity.SignOnTaskId
   fullName: SuperOffice.CRM.Services.ProjectEventEntity.SignOnTaskId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: If not 0, sign on should cause an Activity of this type to be registered
-  example: []
+  summary: "\nIf not 0, sign on should cause an Activity of this type to be registered \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int SignOnTaskId { get; set; }
+    content: public virtual int SignOnTaskId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property SignOnTaskId As Integer
+    content.vb: Public Overridable Property SignOnTaskId As Integer
   overload: SuperOffice.CRM.Services.ProjectEventEntity.SignOnTaskId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ProjectEventEntity.SignOnTriggersAssign
   commentId: P:SuperOffice.CRM.Services.ProjectEventEntity.SignOnTriggersAssign
   id: SignOnTriggersAssign
@@ -647,28 +635,28 @@ items:
   nameWithType: ProjectEventEntity.SignOnTriggersAssign
   fullName: SuperOffice.CRM.Services.ProjectEventEntity.SignOnTriggersAssign
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: If 1, the SignOn task should be created as an Assigned task, triggering the invitation dialog
-  example: []
+  summary: "\nIf 1, the SignOn task should be created as an Assigned task, triggering the invitation dialog \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual bool SignOnTriggersAssign { get; set; }
+    content: public virtual bool SignOnTriggersAssign { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property SignOnTriggersAssign As Boolean
+    content.vb: Public Overridable Property SignOnTriggersAssign As Boolean
   overload: SuperOffice.CRM.Services.ProjectEventEntity.SignOnTriggersAssign*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ProjectEventEntity.UpdatedDate
   commentId: P:SuperOffice.CRM.Services.ProjectEventEntity.UpdatedDate
   id: UpdatedDate
@@ -680,28 +668,28 @@ items:
   nameWithType: ProjectEventEntity.UpdatedDate
   fullName: SuperOffice.CRM.Services.ProjectEventEntity.UpdatedDate
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Last updated when  in UTC.
-  example: []
+  summary: "\nLast updated when  in UTC.\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual DateTime UpdatedDate { get; set; }
+    content: public virtual DateTime UpdatedDate { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property UpdatedDate As Date
+    content.vb: Public Overridable Property UpdatedDate As DateTime
   overload: SuperOffice.CRM.Services.ProjectEventEntity.UpdatedDate*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ProjectEventEntity.CreatedBy
   commentId: P:SuperOffice.CRM.Services.ProjectEventEntity.CreatedBy
   id: CreatedBy
@@ -713,28 +701,28 @@ items:
   nameWithType: ProjectEventEntity.CreatedBy
   fullName: SuperOffice.CRM.Services.ProjectEventEntity.CreatedBy
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The person that created the projectevent
-  example: []
+  summary: "\nThe person that created the projectevent \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual Associate CreatedBy { get; set; }
+    content: public virtual Associate CreatedBy { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.Associate
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property CreatedBy As Associate
+    content.vb: Public Overridable Property CreatedBy As Associate
   overload: SuperOffice.CRM.Services.ProjectEventEntity.CreatedBy*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ProjectEventEntity.UpdatedBy
   commentId: P:SuperOffice.CRM.Services.ProjectEventEntity.UpdatedBy
   id: UpdatedBy
@@ -746,28 +734,28 @@ items:
   nameWithType: ProjectEventEntity.UpdatedBy
   fullName: SuperOffice.CRM.Services.ProjectEventEntity.UpdatedBy
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The person that last updated the projectevent
-  example: []
+  summary: "\nThe person that last updated the projectevent \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual Associate UpdatedBy { get; set; }
+    content: public virtual Associate UpdatedBy { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.Associate
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property UpdatedBy As Associate
+    content.vb: Public Overridable Property UpdatedBy As Associate
   overload: SuperOffice.CRM.Services.ProjectEventEntity.UpdatedBy*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ProjectEventEntity.ProjectId
   commentId: P:SuperOffice.CRM.Services.ProjectEventEntity.ProjectId
   id: ProjectId
@@ -779,28 +767,28 @@ items:
   nameWithType: ProjectEventEntity.ProjectId
   fullName: SuperOffice.CRM.Services.ProjectEventEntity.ProjectId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The projectId for the project this projectEvent belongs to
-  example: []
+  summary: "\nThe projectId for the project this projectEvent belongs to \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int ProjectId { get; set; }
+    content: public virtual int ProjectId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ProjectId As Integer
+    content.vb: Public Overridable Property ProjectId As Integer
   overload: SuperOffice.CRM.Services.ProjectEventEntity.ProjectId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ProjectEventEntity.Id
   commentId: P:SuperOffice.CRM.Services.ProjectEventEntity.Id
   id: Id
@@ -812,28 +800,28 @@ items:
   nameWithType: ProjectEventEntity.Id
   fullName: SuperOffice.CRM.Services.ProjectEventEntity.Id
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Id of the external event
-  example: []
+  summary: "\nId of the external event \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int Id { get; set; }
+    content: public virtual int Id { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Id As Integer
+    content.vb: Public Overridable Property Id As Integer
   overload: SuperOffice.CRM.Services.ProjectEventEntity.Id*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ProjectEventEntity.PublishFrom
   commentId: P:SuperOffice.CRM.Services.ProjectEventEntity.PublishFrom
   id: PublishFrom
@@ -845,28 +833,28 @@ items:
   nameWithType: ProjectEventEntity.PublishFrom
   fullName: SuperOffice.CRM.Services.ProjectEventEntity.PublishFrom
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Publication valid from (inclusive)
-  example: []
+  summary: "\nPublication valid from (inclusive) \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual DateTime PublishFrom { get; set; }
+    content: public virtual DateTime PublishFrom { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property PublishFrom As Date
+    content.vb: Public Overridable Property PublishFrom As DateTime
   overload: SuperOffice.CRM.Services.ProjectEventEntity.PublishFrom*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ProjectEventEntity.PublishType
   commentId: P:SuperOffice.CRM.Services.ProjectEventEntity.PublishType
   id: PublishType
@@ -878,28 +866,28 @@ items:
   nameWithType: ProjectEventEntity.PublishType
   fullName: SuperOffice.CRM.Services.ProjectEventEntity.PublishType
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Type of publishing action, 0 = Unknown, 1 = to external persons
-  example: []
+  summary: "\nType of publishing action, 0 = Unknown, 1 = to external persons \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual PublishType PublishType { get; set; }
+    content: public virtual PublishType PublishType { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.PublishType
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property PublishType As PublishType
+    content.vb: Public Overridable Property PublishType As PublishType
   overload: SuperOffice.CRM.Services.ProjectEventEntity.PublishType*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ProjectEventEntity.PublishTo
   commentId: P:SuperOffice.CRM.Services.ProjectEventEntity.PublishTo
   id: PublishTo
@@ -911,28 +899,28 @@ items:
   nameWithType: ProjectEventEntity.PublishTo
   fullName: SuperOffice.CRM.Services.ProjectEventEntity.PublishTo
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Publication valid to (inclusive)
-  example: []
+  summary: "\nPublication valid to (inclusive) \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual DateTime PublishTo { get; set; }
+    content: public virtual DateTime PublishTo { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property PublishTo As Date
+    content.vb: Public Overridable Property PublishTo As DateTime
   overload: SuperOffice.CRM.Services.ProjectEventEntity.PublishTo*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ProjectEventEntity.VisibleForCategories
   commentId: P:SuperOffice.CRM.Services.ProjectEventEntity.VisibleForCategories
   id: VisibleForCategories
@@ -944,28 +932,28 @@ items:
   nameWithType: ProjectEventEntity.VisibleForCategories
   fullName: SuperOffice.CRM.Services.ProjectEventEntity.VisibleForCategories
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Array of categories that the event is visible for. MDO Table "category".
-  example: []
+  summary: "\nArray of categories that the event is visible for. MDO Table &quot;category&quot;. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual MDOListItem[] VisibleForCategories { get; set; }
+    content: public virtual MDOListItem[] VisibleForCategories { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.MDOListItem[]
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property VisibleForCategories As MDOListItem()
+    content.vb: Public Overridable Property VisibleForCategories As MDOListItem()
   overload: SuperOffice.CRM.Services.ProjectEventEntity.VisibleForCategories*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ProjectEventEntity.VisibleForPersonInterests
   commentId: P:SuperOffice.CRM.Services.ProjectEventEntity.VisibleForPersonInterests
   id: VisibleForPersonInterests
@@ -977,28 +965,28 @@ items:
   nameWithType: ProjectEventEntity.VisibleForPersonInterests
   fullName: SuperOffice.CRM.Services.ProjectEventEntity.VisibleForPersonInterests
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Array of person interests (MDO table "persint") that this event is visible for.
-  example: []
+  summary: "\nArray of person interests (MDO table &quot;persint&quot;) that this event is visible for. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual MDOListItem[] VisibleForPersonInterests { get; set; }
+    content: public virtual MDOListItem[] VisibleForPersonInterests { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.MDOListItem[]
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property VisibleForPersonInterests As MDOListItem()
+    content.vb: Public Overridable Property VisibleForPersonInterests As MDOListItem()
   overload: SuperOffice.CRM.Services.ProjectEventEntity.VisibleForPersonInterests*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ProjectEventEntity.IsPublished
   commentId: P:SuperOffice.CRM.Services.ProjectEventEntity.IsPublished
   id: IsPublished
@@ -1010,28 +998,28 @@ items:
   nameWithType: ProjectEventEntity.IsPublished
   fullName: SuperOffice.CRM.Services.ProjectEventEntity.IsPublished
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Publish to external users? When true, the event/project information is visible to external users through the Audience portal. You can control the publish duration using the PublishFrom/PublishTo properties.
-  example: []
+  summary: "\nPublish to external users? When true, the event/project information is visible to external users through the Audience portal. You can control the publish duration using the PublishFrom/PublishTo properties. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual bool IsPublished { get; set; }
+    content: public virtual bool IsPublished { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property IsPublished As Boolean
+    content.vb: Public Overridable Property IsPublished As Boolean
   overload: SuperOffice.CRM.Services.ProjectEventEntity.IsPublished*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ProjectEventEntity.IsVisibleForMembers
   commentId: P:SuperOffice.CRM.Services.ProjectEventEntity.IsVisibleForMembers
   id: IsVisibleForMembers
@@ -1043,28 +1031,28 @@ items:
   nameWithType: ProjectEventEntity.IsVisibleForMembers
   fullName: SuperOffice.CRM.Services.ProjectEventEntity.IsVisibleForMembers
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: ''
-  example: []
+  summary: "\n\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual bool IsVisibleForMembers { get; set; }
+    content: public virtual bool IsVisibleForMembers { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property IsVisibleForMembers As Boolean
+    content.vb: Public Overridable Property IsVisibleForMembers As Boolean
   overload: SuperOffice.CRM.Services.ProjectEventEntity.IsVisibleForMembers*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ProjectEventEntity.IsVisibleForCategories
   commentId: P:SuperOffice.CRM.Services.ProjectEventEntity.IsVisibleForCategories
   id: IsVisibleForCategories
@@ -1076,28 +1064,28 @@ items:
   nameWithType: ProjectEventEntity.IsVisibleForCategories
   fullName: SuperOffice.CRM.Services.ProjectEventEntity.IsVisibleForCategories
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: ''
-  example: []
+  summary: "\n\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual bool IsVisibleForCategories { get; set; }
+    content: public virtual bool IsVisibleForCategories { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property IsVisibleForCategories As Boolean
+    content.vb: Public Overridable Property IsVisibleForCategories As Boolean
   overload: SuperOffice.CRM.Services.ProjectEventEntity.IsVisibleForCategories*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ProjectEventEntity.IsVisibleForPersonInterests
   commentId: P:SuperOffice.CRM.Services.ProjectEventEntity.IsVisibleForPersonInterests
   id: IsVisibleForPersonInterests
@@ -1109,28 +1097,28 @@ items:
   nameWithType: ProjectEventEntity.IsVisibleForPersonInterests
   fullName: SuperOffice.CRM.Services.ProjectEventEntity.IsVisibleForPersonInterests
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: ''
-  example: []
+  summary: "\n\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual bool IsVisibleForPersonInterests { get; set; }
+    content: public virtual bool IsVisibleForPersonInterests { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property IsVisibleForPersonInterests As Boolean
+    content.vb: Public Overridable Property IsVisibleForPersonInterests As Boolean
   overload: SuperOffice.CRM.Services.ProjectEventEntity.IsVisibleForPersonInterests*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ProjectEventEntity.ProjectEventId
   commentId: P:SuperOffice.CRM.Services.ProjectEventEntity.ProjectEventId
   id: ProjectEventId
@@ -1142,33 +1130,38 @@ items:
   nameWithType: ProjectEventEntity.ProjectEventId
   fullName: SuperOffice.CRM.Services.ProjectEventEntity.ProjectEventId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Primary key
-  example: []
+  summary: "\nPrimary key \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int ProjectEventId { get; set; }
+    content: public virtual int ProjectEventId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ProjectEventId As Integer
+    content.vb: Public Overridable Property ProjectEventId As Integer
   overload: SuperOffice.CRM.Services.ProjectEventEntity.ProjectEventId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
 - uid: SuperOffice.CRM.Services.ProjectAgent
   commentId: T:SuperOffice.CRM.Services.ProjectAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.ProjectAgent.html
   name: ProjectAgent
   nameWithType: ProjectAgent
   fullName: SuperOffice.CRM.Services.ProjectAgent
@@ -1176,79 +1169,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.IProjectAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.IProjectAgent.html
   name: IProjectAgent
   nameWithType: IProjectAgent
   fullName: SuperOffice.CRM.Services.IProjectAgent
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.ProjectEventEntity.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.ProjectEventEntity.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.ProjectEventEntity.html#SuperOffice_CRM_Services_ProjectEventEntity__ctor
   name: ProjectEventEntity
   nameWithType: ProjectEventEntity.ProjectEventEntity
   fullName: SuperOffice.CRM.Services.ProjectEventEntity.ProjectEventEntity
-  nameWithType.vb: ProjectEventEntity.New
-  fullName.vb: SuperOffice.CRM.Services.ProjectEventEntity.New
-  name.vb: New
 - uid: SuperOffice.CRM.Services.ProjectEventEntity.ToString*
   commentId: Overload:SuperOffice.CRM.Services.ProjectEventEntity.ToString
   isExternal: true
-  href: SuperOffice.CRM.Services.ProjectEventEntity.html#SuperOffice_CRM_Services_ProjectEventEntity_ToString
   name: ToString
   nameWithType: ProjectEventEntity.ToString
   fullName: SuperOffice.CRM.Services.ProjectEventEntity.ToString
@@ -1256,63 +1188,53 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.ProjectEventEntity.SignOffConfirmationText*
   commentId: Overload:SuperOffice.CRM.Services.ProjectEventEntity.SignOffConfirmationText
   isExternal: true
-  href: SuperOffice.CRM.Services.ProjectEventEntity.html#SuperOffice_CRM_Services_ProjectEventEntity_SignOffConfirmationText
   name: SignOffConfirmationText
   nameWithType: ProjectEventEntity.SignOffConfirmationText
   fullName: SuperOffice.CRM.Services.ProjectEventEntity.SignOffConfirmationText
 - uid: SuperOffice.CRM.Services.ProjectEventEntity.SignOffText*
   commentId: Overload:SuperOffice.CRM.Services.ProjectEventEntity.SignOffText
   isExternal: true
-  href: SuperOffice.CRM.Services.ProjectEventEntity.html#SuperOffice_CRM_Services_ProjectEventEntity_SignOffText
   name: SignOffText
   nameWithType: ProjectEventEntity.SignOffText
   fullName: SuperOffice.CRM.Services.ProjectEventEntity.SignOffText
 - uid: SuperOffice.CRM.Services.ProjectEventEntity.SignOnConfirmationText*
   commentId: Overload:SuperOffice.CRM.Services.ProjectEventEntity.SignOnConfirmationText
   isExternal: true
-  href: SuperOffice.CRM.Services.ProjectEventEntity.html#SuperOffice_CRM_Services_ProjectEventEntity_SignOnConfirmationText
   name: SignOnConfirmationText
   nameWithType: ProjectEventEntity.SignOnConfirmationText
   fullName: SuperOffice.CRM.Services.ProjectEventEntity.SignOnConfirmationText
 - uid: SuperOffice.CRM.Services.ProjectEventEntity.SignOnText*
   commentId: Overload:SuperOffice.CRM.Services.ProjectEventEntity.SignOnText
   isExternal: true
-  href: SuperOffice.CRM.Services.ProjectEventEntity.html#SuperOffice_CRM_Services_ProjectEventEntity_SignOnText
   name: SignOnText
   nameWithType: ProjectEventEntity.SignOnText
   fullName: SuperOffice.CRM.Services.ProjectEventEntity.SignOnText
 - uid: SuperOffice.CRM.Services.ProjectEventEntity.EventDate*
   commentId: Overload:SuperOffice.CRM.Services.ProjectEventEntity.EventDate
   isExternal: true
-  href: SuperOffice.CRM.Services.ProjectEventEntity.html#SuperOffice_CRM_Services_ProjectEventEntity_EventDate
   name: EventDate
   nameWithType: ProjectEventEntity.EventDate
   fullName: SuperOffice.CRM.Services.ProjectEventEntity.EventDate
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
 - uid: SuperOffice.CRM.Services.ProjectEventEntity.Enabled*
   commentId: Overload:SuperOffice.CRM.Services.ProjectEventEntity.Enabled
   isExternal: true
-  href: SuperOffice.CRM.Services.ProjectEventEntity.html#SuperOffice_CRM_Services_ProjectEventEntity_Enabled
   name: Enabled
   nameWithType: ProjectEventEntity.Enabled
   fullName: SuperOffice.CRM.Services.ProjectEventEntity.Enabled
@@ -1320,38 +1242,30 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.CRM.Services.ProjectEventEntity.CreatedDate*
   commentId: Overload:SuperOffice.CRM.Services.ProjectEventEntity.CreatedDate
   isExternal: true
-  href: SuperOffice.CRM.Services.ProjectEventEntity.html#SuperOffice_CRM_Services_ProjectEventEntity_CreatedDate
   name: CreatedDate
   nameWithType: ProjectEventEntity.CreatedDate
   fullName: SuperOffice.CRM.Services.ProjectEventEntity.CreatedDate
 - uid: SuperOffice.CRM.Services.ProjectEventEntity.SignOff*
   commentId: Overload:SuperOffice.CRM.Services.ProjectEventEntity.SignOff
   isExternal: true
-  href: SuperOffice.CRM.Services.ProjectEventEntity.html#SuperOffice_CRM_Services_ProjectEventEntity_SignOff
   name: SignOff
   nameWithType: ProjectEventEntity.SignOff
   fullName: SuperOffice.CRM.Services.ProjectEventEntity.SignOff
 - uid: SuperOffice.CRM.Services.ProjectEventEntity.SignOffTaskEnable*
   commentId: Overload:SuperOffice.CRM.Services.ProjectEventEntity.SignOffTaskEnable
   isExternal: true
-  href: SuperOffice.CRM.Services.ProjectEventEntity.html#SuperOffice_CRM_Services_ProjectEventEntity_SignOffTaskEnable
   name: SignOffTaskEnable
   nameWithType: ProjectEventEntity.SignOffTaskEnable
   fullName: SuperOffice.CRM.Services.ProjectEventEntity.SignOffTaskEnable
 - uid: SuperOffice.CRM.Services.ProjectEventEntity.SignOffTaskId*
   commentId: Overload:SuperOffice.CRM.Services.ProjectEventEntity.SignOffTaskId
   isExternal: true
-  href: SuperOffice.CRM.Services.ProjectEventEntity.html#SuperOffice_CRM_Services_ProjectEventEntity_SignOffTaskId
   name: SignOffTaskId
   nameWithType: ProjectEventEntity.SignOffTaskId
   fullName: SuperOffice.CRM.Services.ProjectEventEntity.SignOffTaskId
@@ -1359,59 +1273,48 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Services.ProjectEventEntity.SignOffTriggersAssign*
   commentId: Overload:SuperOffice.CRM.Services.ProjectEventEntity.SignOffTriggersAssign
   isExternal: true
-  href: SuperOffice.CRM.Services.ProjectEventEntity.html#SuperOffice_CRM_Services_ProjectEventEntity_SignOffTriggersAssign
   name: SignOffTriggersAssign
   nameWithType: ProjectEventEntity.SignOffTriggersAssign
   fullName: SuperOffice.CRM.Services.ProjectEventEntity.SignOffTriggersAssign
 - uid: SuperOffice.CRM.Services.ProjectEventEntity.SignOn*
   commentId: Overload:SuperOffice.CRM.Services.ProjectEventEntity.SignOn
   isExternal: true
-  href: SuperOffice.CRM.Services.ProjectEventEntity.html#SuperOffice_CRM_Services_ProjectEventEntity_SignOn
   name: SignOn
   nameWithType: ProjectEventEntity.SignOn
   fullName: SuperOffice.CRM.Services.ProjectEventEntity.SignOn
 - uid: SuperOffice.CRM.Services.ProjectEventEntity.SignOnTaskEnable*
   commentId: Overload:SuperOffice.CRM.Services.ProjectEventEntity.SignOnTaskEnable
   isExternal: true
-  href: SuperOffice.CRM.Services.ProjectEventEntity.html#SuperOffice_CRM_Services_ProjectEventEntity_SignOnTaskEnable
   name: SignOnTaskEnable
   nameWithType: ProjectEventEntity.SignOnTaskEnable
   fullName: SuperOffice.CRM.Services.ProjectEventEntity.SignOnTaskEnable
 - uid: SuperOffice.CRM.Services.ProjectEventEntity.SignOnTaskId*
   commentId: Overload:SuperOffice.CRM.Services.ProjectEventEntity.SignOnTaskId
   isExternal: true
-  href: SuperOffice.CRM.Services.ProjectEventEntity.html#SuperOffice_CRM_Services_ProjectEventEntity_SignOnTaskId
   name: SignOnTaskId
   nameWithType: ProjectEventEntity.SignOnTaskId
   fullName: SuperOffice.CRM.Services.ProjectEventEntity.SignOnTaskId
 - uid: SuperOffice.CRM.Services.ProjectEventEntity.SignOnTriggersAssign*
   commentId: Overload:SuperOffice.CRM.Services.ProjectEventEntity.SignOnTriggersAssign
   isExternal: true
-  href: SuperOffice.CRM.Services.ProjectEventEntity.html#SuperOffice_CRM_Services_ProjectEventEntity_SignOnTriggersAssign
   name: SignOnTriggersAssign
   nameWithType: ProjectEventEntity.SignOnTriggersAssign
   fullName: SuperOffice.CRM.Services.ProjectEventEntity.SignOnTriggersAssign
 - uid: SuperOffice.CRM.Services.ProjectEventEntity.UpdatedDate*
   commentId: Overload:SuperOffice.CRM.Services.ProjectEventEntity.UpdatedDate
   isExternal: true
-  href: SuperOffice.CRM.Services.ProjectEventEntity.html#SuperOffice_CRM_Services_ProjectEventEntity_UpdatedDate
   name: UpdatedDate
   nameWithType: ProjectEventEntity.UpdatedDate
   fullName: SuperOffice.CRM.Services.ProjectEventEntity.UpdatedDate
 - uid: SuperOffice.CRM.Services.ProjectEventEntity.CreatedBy*
   commentId: Overload:SuperOffice.CRM.Services.ProjectEventEntity.CreatedBy
   isExternal: true
-  href: SuperOffice.CRM.Services.ProjectEventEntity.html#SuperOffice_CRM_Services_ProjectEventEntity_CreatedBy
   name: CreatedBy
   nameWithType: ProjectEventEntity.CreatedBy
   fullName: SuperOffice.CRM.Services.ProjectEventEntity.CreatedBy
@@ -1419,42 +1322,36 @@ references:
   commentId: T:SuperOffice.CRM.Services.Associate
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.Associate.html
   name: Associate
   nameWithType: Associate
   fullName: SuperOffice.CRM.Services.Associate
 - uid: SuperOffice.CRM.Services.ProjectEventEntity.UpdatedBy*
   commentId: Overload:SuperOffice.CRM.Services.ProjectEventEntity.UpdatedBy
   isExternal: true
-  href: SuperOffice.CRM.Services.ProjectEventEntity.html#SuperOffice_CRM_Services_ProjectEventEntity_UpdatedBy
   name: UpdatedBy
   nameWithType: ProjectEventEntity.UpdatedBy
   fullName: SuperOffice.CRM.Services.ProjectEventEntity.UpdatedBy
 - uid: SuperOffice.CRM.Services.ProjectEventEntity.ProjectId*
   commentId: Overload:SuperOffice.CRM.Services.ProjectEventEntity.ProjectId
   isExternal: true
-  href: SuperOffice.CRM.Services.ProjectEventEntity.html#SuperOffice_CRM_Services_ProjectEventEntity_ProjectId
   name: ProjectId
   nameWithType: ProjectEventEntity.ProjectId
   fullName: SuperOffice.CRM.Services.ProjectEventEntity.ProjectId
 - uid: SuperOffice.CRM.Services.ProjectEventEntity.Id*
   commentId: Overload:SuperOffice.CRM.Services.ProjectEventEntity.Id
   isExternal: true
-  href: SuperOffice.CRM.Services.ProjectEventEntity.html#SuperOffice_CRM_Services_ProjectEventEntity_Id
   name: Id
   nameWithType: ProjectEventEntity.Id
   fullName: SuperOffice.CRM.Services.ProjectEventEntity.Id
 - uid: SuperOffice.CRM.Services.ProjectEventEntity.PublishFrom*
   commentId: Overload:SuperOffice.CRM.Services.ProjectEventEntity.PublishFrom
   isExternal: true
-  href: SuperOffice.CRM.Services.ProjectEventEntity.html#SuperOffice_CRM_Services_ProjectEventEntity_PublishFrom
   name: PublishFrom
   nameWithType: ProjectEventEntity.PublishFrom
   fullName: SuperOffice.CRM.Services.ProjectEventEntity.PublishFrom
 - uid: SuperOffice.CRM.Services.ProjectEventEntity.PublishType*
   commentId: Overload:SuperOffice.CRM.Services.ProjectEventEntity.PublishType
   isExternal: true
-  href: SuperOffice.CRM.Services.ProjectEventEntity.html#SuperOffice_CRM_Services_ProjectEventEntity_PublishType
   name: PublishType
   nameWithType: ProjectEventEntity.PublishType
   fullName: SuperOffice.CRM.Services.ProjectEventEntity.PublishType
@@ -1467,20 +1364,17 @@ references:
 - uid: SuperOffice.CRM.Services.ProjectEventEntity.PublishTo*
   commentId: Overload:SuperOffice.CRM.Services.ProjectEventEntity.PublishTo
   isExternal: true
-  href: SuperOffice.CRM.Services.ProjectEventEntity.html#SuperOffice_CRM_Services_ProjectEventEntity_PublishTo
   name: PublishTo
   nameWithType: ProjectEventEntity.PublishTo
   fullName: SuperOffice.CRM.Services.ProjectEventEntity.PublishTo
 - uid: SuperOffice.CRM.Services.ProjectEventEntity.VisibleForCategories*
   commentId: Overload:SuperOffice.CRM.Services.ProjectEventEntity.VisibleForCategories
   isExternal: true
-  href: SuperOffice.CRM.Services.ProjectEventEntity.html#SuperOffice_CRM_Services_ProjectEventEntity_VisibleForCategories
   name: VisibleForCategories
   nameWithType: ProjectEventEntity.VisibleForCategories
   fullName: SuperOffice.CRM.Services.ProjectEventEntity.VisibleForCategories
 - uid: SuperOffice.CRM.Services.MDOListItem[]
   isExternal: true
-  href: SuperOffice.CRM.Services.MDOListItem.html
   name: MDOListItem[]
   nameWithType: MDOListItem[]
   fullName: SuperOffice.CRM.Services.MDOListItem[]
@@ -1490,56 +1384,54 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.MDOListItem
     name: MDOListItem
+    nameWithType: MDOListItem
+    fullName: SuperOffice.CRM.Services.MDOListItem
     isExternal: true
-    href: SuperOffice.CRM.Services.MDOListItem.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.Services.MDOListItem
     name: MDOListItem
+    nameWithType: MDOListItem
+    fullName: SuperOffice.CRM.Services.MDOListItem
     isExternal: true
-    href: SuperOffice.CRM.Services.MDOListItem.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.ProjectEventEntity.VisibleForPersonInterests*
   commentId: Overload:SuperOffice.CRM.Services.ProjectEventEntity.VisibleForPersonInterests
   isExternal: true
-  href: SuperOffice.CRM.Services.ProjectEventEntity.html#SuperOffice_CRM_Services_ProjectEventEntity_VisibleForPersonInterests
   name: VisibleForPersonInterests
   nameWithType: ProjectEventEntity.VisibleForPersonInterests
   fullName: SuperOffice.CRM.Services.ProjectEventEntity.VisibleForPersonInterests
 - uid: SuperOffice.CRM.Services.ProjectEventEntity.IsPublished*
   commentId: Overload:SuperOffice.CRM.Services.ProjectEventEntity.IsPublished
   isExternal: true
-  href: SuperOffice.CRM.Services.ProjectEventEntity.html#SuperOffice_CRM_Services_ProjectEventEntity_IsPublished
   name: IsPublished
   nameWithType: ProjectEventEntity.IsPublished
   fullName: SuperOffice.CRM.Services.ProjectEventEntity.IsPublished
 - uid: SuperOffice.CRM.Services.ProjectEventEntity.IsVisibleForMembers*
   commentId: Overload:SuperOffice.CRM.Services.ProjectEventEntity.IsVisibleForMembers
   isExternal: true
-  href: SuperOffice.CRM.Services.ProjectEventEntity.html#SuperOffice_CRM_Services_ProjectEventEntity_IsVisibleForMembers
   name: IsVisibleForMembers
   nameWithType: ProjectEventEntity.IsVisibleForMembers
   fullName: SuperOffice.CRM.Services.ProjectEventEntity.IsVisibleForMembers
 - uid: SuperOffice.CRM.Services.ProjectEventEntity.IsVisibleForCategories*
   commentId: Overload:SuperOffice.CRM.Services.ProjectEventEntity.IsVisibleForCategories
   isExternal: true
-  href: SuperOffice.CRM.Services.ProjectEventEntity.html#SuperOffice_CRM_Services_ProjectEventEntity_IsVisibleForCategories
   name: IsVisibleForCategories
   nameWithType: ProjectEventEntity.IsVisibleForCategories
   fullName: SuperOffice.CRM.Services.ProjectEventEntity.IsVisibleForCategories
 - uid: SuperOffice.CRM.Services.ProjectEventEntity.IsVisibleForPersonInterests*
   commentId: Overload:SuperOffice.CRM.Services.ProjectEventEntity.IsVisibleForPersonInterests
   isExternal: true
-  href: SuperOffice.CRM.Services.ProjectEventEntity.html#SuperOffice_CRM_Services_ProjectEventEntity_IsVisibleForPersonInterests
   name: IsVisibleForPersonInterests
   nameWithType: ProjectEventEntity.IsVisibleForPersonInterests
   fullName: SuperOffice.CRM.Services.ProjectEventEntity.IsVisibleForPersonInterests
 - uid: SuperOffice.CRM.Services.ProjectEventEntity.ProjectEventId*
   commentId: Overload:SuperOffice.CRM.Services.ProjectEventEntity.ProjectEventId
   isExternal: true
-  href: SuperOffice.CRM.Services.ProjectEventEntity.html#SuperOffice_CRM_Services_ProjectEventEntity_ProjectEventId
   name: ProjectEventId
   nameWithType: ProjectEventEntity.ProjectEventId
   fullName: SuperOffice.CRM.Services.ProjectEventEntity.ProjectEventId
