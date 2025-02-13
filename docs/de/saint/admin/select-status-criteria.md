@@ -28,7 +28,7 @@ Nehmen Sie sich etwas Zeit, um die richtigen Statuskriterien einzurichten, da Si
 
 1. Klicken Sie im rechten Abschnitt unten in der Liste auf **Hinzufügen** (unter den Registerkarten **Beschreibung** und **Folgeaufgabe erstellen**). Der Liste wird eine neue Zeile hinzugefügt.
 
-1. Klicken Sie auf die ![Symbol][img1] Pfeilschaltfläche neben dem leeren Feld und benutzen Sie die Funktion [entsprechende Suchkriterium auswählen][1].
+1. Klicken Sie auf <i class="ph ph-caret-down" aria-label="Chevron"></i> neben dem leeren Feld und benutzen Sie die Funktion [entsprechende Suchkriterium auswählen][1].
 
 1. Wiederholen Sie die Schritte 4 und 5 für jedes Kriterium, das Sie hinzufügen möchten.
 
@@ -37,7 +37,7 @@ Nehmen Sie sich etwas Zeit, um die richtigen Statuskriterien einzurichten, da Si
 
 1. Prüfen Sie, ob Sie die Kriterien ausgewählt haben, die Sie für diesen Status verwenden möchten.
 
-1. Klicken Sie auf ![Symbol][img2] **Ausgewählte Statusangaben aktualisieren**, um den Status mit den hinzugefügten Kriterien zu aktualisieren. Nachdem der Status erneuert wurde, wird neben dem Statusnamen kein rotes Kreuz mehr angezeigt.
+1. Klicken Sie auf <i class="ph ph-arrow-circle-right" aria-hidden="true"></i> **Ausgewählte Statusangaben aktualisieren**, um den Status mit den hinzugefügten Kriterien zu aktualisieren. Nachdem der Status erneuert wurde, wird neben dem Statusnamen kein rotes Kreuz mehr angezeigt.
 
 ## Verwandte Themen
 
@@ -46,7 +46,3 @@ Nehmen Sie sich etwas Zeit, um die richtigen Statuskriterien einzurichten, da Si
 <!-- Referenced links -->
 [1]: ../../search-options/learn/search-criteria.md
 [2]: manage-status-monitors.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/arrow-down.png
-[img2]: ../../../media/icons/arrow-right.png

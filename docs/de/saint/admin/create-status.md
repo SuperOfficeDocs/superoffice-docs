@@ -32,7 +32,7 @@ Sie möchten Firmen überwachen, mit denen Sie nur sehr wenige Aktivitäten habe
 
     * **Name**: Geben Sie einen beschreibenden Namen für den hinzuzufügenden Status ein.
 
-        Optional: Klicken Sie auf **A-Z**, damit Sie für den Statusnamen [Übersetzungen hinzufügen][8] können.
+        Optional: Klicken Sie auf <i class="ph ph-translate" aria-label="Translate"></i>, damit Sie für den Statusnamen [Übersetzungen hinzufügen][8] können.
 
     * **Beschreibung**: Geben Sie eine erklärende Beschreibung des Status und die erforderlichen oder empfohlenen Maßnahmen ein. In diesem Feld können Sie den Text mit [Vorlagenvariablen][9] auch auf die entsprechende Firma, Person oder das entsprechende Projekt zuschneiden.
 
@@ -44,13 +44,13 @@ Sie möchten Firmen überwachen, mit denen Sie nur sehr wenige Aktivitäten habe
 
 ### Was ist in der Statusliste enthalten?
 
-![Symbol][img3] - das **Anzeigen**-Symbol gibt an, ob für Firmen-, Personen- oder Projektkarten die Option [Statusbild anzeigen][3] ausgeführt oder ob Projektkarten, welche die Statuskriterien erfüllen, angezeigt werden sollen. Das Symbol wird nur angezeigt, wenn Sie für den betreffenden Status **anzeigen** in der Registerkarte **Bild** aktiviert haben.
+* Das **Anzeigen**-Symbol (<i class="ph ph-eye" aria-hidden="true"></i>) gibt an, ob für Firmen-, Personen- oder Projektkarten die Option [Statusbild anzeigen][3] ausgeführt oder ob Projektkarten, welche die Statuskriterien erfüllen, angezeigt werden sollen. Das Symbol wird nur angezeigt, wenn Sie für den betreffenden Status **anzeigen** in der Registerkarte **Bild** aktiviert haben.
 
-![Symbol][img4] – ein rotes Kreuz weist darauf hin, dass der Status neu erstellt werden muss. Der [Status muss erneuert werden][4], wenn Sie ein Kriterium hinzugefügt, bearbeitet oder gelöscht oder wenn Sie zum Beispiel den Zweck für eine Aufgabe geändert haben. Statusangaben mit einem roten Kreuz werden nicht aktualisiert und geben beim Verwenden von SuperOffice CRM keine aktuellen Daten zurück.
+* Ein rotes Kreuz weist darauf hin, dass der Status neu erstellt werden muss. Der [Status muss erneuert werden][4], wenn Sie ein Kriterium hinzugefügt, bearbeitet oder gelöscht oder wenn Sie zum Beispiel den Zweck für eine Aufgabe geändert haben. Statusangaben mit einem roten Kreuz werden nicht aktualisiert und geben beim Verwenden von SuperOffice CRM keine aktuellen Daten zurück.
 
-**Name** – Der Name des Status. Gelöschte Statusangaben werden rot dargestellt, wenn das Kontrollkästchen **Gelöschte anzeigen** aktiviert wurde.
+* **Name** – Der Name des Status. Gelöschte Statusangaben werden rot dargestellt, wenn das Kontrollkästchen **Gelöschte anzeigen** aktiviert wurde.
 
-**Priorität** – Die Priorität des Status. Die Priorität bestimmt, welcher Status angezeigt werden soll, wenn eine Firma, eine Person oder ein Projekt die Kriterien für mehrere Statusangaben erfüllt.
+* **Priorität** – Die Priorität des Status. Die Priorität bestimmt, welcher Status angezeigt werden soll, wenn eine Firma, eine Person oder ein Projekt die Kriterien für mehrere Statusangaben erfüllt.
 
 ## Warum muss ich die Priorität für einen Status festlegen?
 
@@ -77,6 +77,4 @@ Bei mehreren aktiven Statusangaben für eine Firma, eine Person oder ein Projekt
 [9]: ../../document/templates/variables/index.md
 
 <!-- Referenced images -->
-[img3]: ../../../media/icons/admin/visualize.png
-[img4]: ../../../media/icons/admin/red-x.png
 [img1]: ../../../media/loc/en/sale/admin-saint-company.png

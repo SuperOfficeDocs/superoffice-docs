@@ -30,7 +30,7 @@ Sie können einen Standardfolgeaufgabentyp und beschreibenden Text festlegen, de
 
 1. Klicken Sie auf die Registerkarte **Folgeaufgabe erstellen**.
 
-1. Klicken Sie auf das ![Symbol][img1] Pfeiltaste an der rechts neben dem Feld **Typ** und wählen Sie eine Folgeaufgabe aus.
+1. Klicken Sie auf <i class="ph ph-caret-down" aria-label="Chevron"></i> an der rechts neben dem Feld **Typ** und wählen Sie eine Folgeaufgabe aus.
 
 1. Geben Sie die geforderte Beschreibung ein.
 
@@ -44,6 +44,3 @@ Sie können einen Standardfolgeaufgabentyp und beschreibenden Text festlegen, de
 [1]: select-status-criteria.md
 [2]: select-period-length.md
 [3]: manage-status-monitors.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/arrow-down.png
