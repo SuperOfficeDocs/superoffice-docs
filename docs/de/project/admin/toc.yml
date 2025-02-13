@@ -1,0 +1,11 @@
+items:
+- name: Überblick
+  href: index.md
+- name: Projektstatus hinzufügen
+  href: project-status.md
+- name: Projekttyp hinzufügen
+  href: project-type.md
+- name: Neuen Projektleitfaden erstellen
+  href: create-project-guide.md
+- name: Projektleitfaden bearbeiten oder deaktivieren
+  href: edit-project-guide.md

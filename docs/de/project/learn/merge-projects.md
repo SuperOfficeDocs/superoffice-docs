@@ -1,11 +1,11 @@
 ---
 uid: help-de-project-merge
 title: Projekte zusammenführen
-description: Wie man ein Projekt in SuperOffice zusammenführt
-keywords: Projekt
-author: SuperOffice
-date: 10.29.2024
-version: 10.3.11
+description: Wie man Projekte in SuperOffice zusammenführt
+keywords: Projekte zusammenführen, Projektmanagement, Projekt
+author: Bergfrid Dias
+date: 02.11.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -14,29 +14,38 @@ language: de
 
 # Projekte zusammenführen
 
-Wenn Sie über zwei nahezu identische Projekte verfügen, können Sie diese einschließlich ihrer Projektmitglieder und Aktivitäten zusammenführen. Das Quellprojekt wird anschließend gelöscht.
+Wenn Sie zwei nahezu identische Projekte haben, können Sie diese zusammenführen, einschließlich der Projektmitglieder und Aktivitäten. Das Quellprojekt wird anschließend gelöscht.
+
+## Schritte
 
 1. Wechseln Sie zu dem Projekt, das Sie mit einem anderen Projekt zusammenführen möchten. Siehe [Suchansicht verwenden][1].
 
-2. Klicken Sie auf das ![Symbol][img1] **Aufgabe** auf der Karte **Projekt** und wählen Sie **Projekte zusammenführen** aus.
+1. Klicken Sie auf die Schaltfläche **Aufgabe** (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) in der oberen rechten Ecke der Projektkarte und wählen Sie **Projekte zusammenführen**.
 
-3. Wählen Sie im Dialogfeld **Projekt zusammenführen** unter **An** das Projekt aus, in dem Sie das vorhandene Projekt zusammenführen möchten. Beginnen Sie mit der Eingabe in das Feld, um nach einem Projekt zu suchen. Um **Von** und **In** Projekte zu wechseln, müssen Sie auf die Pfeil-Schaltfläche klicken.
+    > [!NOTE]
+    > Wenn die Option **Zusammenführen** ausgegraut ist, bedeutet dies, dass Sie nicht über die erforderlichen Benutzerrechte verfügen, um Projekte zusammenzuführen.
 
-    ![Dialogfeld Projekte zusammenführen -screenshot][img2]
+1. Im Dialogfeld **Projekte zusammenführen**:
 
-4. Wählen Sie die Option **Leere Felder ersetzen...**, um leere Felder des Zielprojekts mit Daten des Quellprojekts zu aktualisieren.
+    * Wählen Sie unter **In** das Projekt aus, in das das aktuelle Projekt zusammengeführt werden soll. Beginnen Sie mit der Eingabe, um nach einem Projekt zu suchen.
+    * Um die Projekte in den Feldern **Von** und **In** zu tauschen, klicken Sie auf die Pfeil-Schaltfläche (<i class="ph ph-arrows-left-right" aria-hidden="true"></i>).
 
-5. Klicken Sie auf **Zusammenführen**. Daraufhin geschieht Folgendes:
-    * Die Projekte werden zusammengeführt.
-    * Details werden zusammengeführt (falls festgelegt).
-    * Die Projektmitglieder werden verschoben oder zusammengeführt.
-    * Verknüpfte Verkäufe werden verschoben.
+    > [!CAUTION]
+    > Stellen Sie sicher, dass Sie die richtigen Projekte in den Feldern **Von** und **In** auswählen, bevor Sie fortfahren. **Das Zusammenführen kann nicht rückgängig gemacht werden**.
+
+1. (Optional) Aktivieren Sie die Option **Leere Felder mit Daten aus [Quellprojekt] ersetzen**, um leere Felder im Zielprojekt mit Daten aus dem Quellprojekt zu aktualisieren.
+
+1. Klicken Sie auf **Zusammenführen**. Dabei werden folgende Aktionen ausgeführt:
+    * Projektmitglieder werden verschoben oder zusammengeführt.
     * Alle Aktivitäten werden verschoben.
-        Wenn Sie ein Projekt zusammenführen, das mit einem Projektleitfaden verknüpft ist, der ein Projekt mit einem anderen oder keinem Projektleitfaden enthält, wird der Projektleitfaden aus dem Quellprojekt entfernt. Jedoch werden alle Folgeaufgaben und Dokumente in das neue Projekt verschoben und auf der Bereichsregisterkarte **Aktivitäten** angezeigt.
-    * Die etwaige vorherige Veröffentlichung des Quellprojekts und/oder des Zielprojekts wird deaktiviert.
+    * Verknüpfte Verkäufe werden verschoben.
+    * Details werden zusammengeführt (falls festgelegt).
+    * Wenn Sie ein Projekt zusammenführen, das mit einem Projektleitfaden verknüpft ist, und das Zielprojekt einen anderen oder keinen Projektleitfaden hat, wird der Projektleitfaden aus dem Quellprojekt entfernt.
     * Das Quellprojekt wird gelöscht.
 
-## Verwandte Themen
+![Dialogfeld Projekte zusammenführen mit Feldern zur Auswahl von Quell- und Zielprojekt, Optionen zum Ersetzen leerer Felder und einer Zusammenfassungsübersicht der Aktionen. -screenshot][img2]
+
+## Verwandte Inhalte
 
 * [Projekte bearbeiten][3]
 * [Firmen zusammenführen][2]
@@ -47,5 +56,4 @@ Wenn Sie über zwei nahezu identische Projekte verfügen, können Sie diese eins
 [3]: edit.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
-[img2]: ../../../media/loc/en/project/merge-project.png
+[img2]: ../../../media/loc/de/project/merge-projects.png
