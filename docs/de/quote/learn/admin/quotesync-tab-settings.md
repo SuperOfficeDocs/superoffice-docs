@@ -31,7 +31,7 @@ In der Registerkarte **Einstellungen** in der Ansicht Angebot/Sync können Sie d
 Zeigt die Felder an, die in jeder Angebotszeile des Angebots verwendet werden. Klicken Sie auf die Links der Feldnamen oder auf die Schaltfläche **Produkt konfigurieren**, damit Sie [diese Felder bearbeiten][2] können.
 
 <!-- Referenced links -->
-[1]: ../../../sale/learn/screen/sales-type-for-stages.md
+[1]: ../../../sale/admin/sale-type.md
 [2]: product/configure.md
 [3]: ../../../document/templates/learn/quote-templates.md
 

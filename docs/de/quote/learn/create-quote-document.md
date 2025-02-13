@@ -32,7 +32,7 @@ Wenn Sie ein Angebotsdokument für ein Angebot erstellt haben, aber ein anderes 
 
 1. Öffnen Sie das Angebot.
 
-2. Klicken Sie auf das ![Symbol][img1] der Schaltfläche **Aufgabe** und wählen Sie **Angebotsdokument ändern** aus.
+2. Klicken Sie auf <i class="ph ph-dots-three-circle-vertical" aria-label="Aufgabe"></i> und wählen Sie **Angebotsdokument ändern** aus.
 
 3. Wählen Sie das Angebotsdokument in der Liste aus.
 
@@ -50,6 +50,3 @@ Wenn Sie ein Angebotsdokument für ein Angebot erstellt haben, aber ein anderes 
 [3]: ../../document/templates/learn/template-variables.md
 [4]: send.md
 [5]: create-order.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png

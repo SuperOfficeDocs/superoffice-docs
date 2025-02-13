@@ -25,7 +25,7 @@ language: de
 
 Die Produkte im Angebot werden auf dieser Registerkarte angezeigt.
 
-Wenn das Angebot mehrere Alternativen enthält, wird die favorisierte Alternative mit ![Symbol][img1] neben dem Namen der Registerkarte markiert. Wenn die Alternative [Warnungen oder Nachrichten][9] für ein oder mehrere Produkte enthält, wird das Symbol neben dem Namen der Registerkarte angezeigt. Eine Meldung wird auch angezeigt, um die Ursache des Fehlers zu erklären.
+Wenn das Angebot mehrere Alternativen enthält, wird die favorisierte Alternative mit <i class="ph ph-star" aria-label="Star icon"></i> neben dem Namen der Registerkarte markiert. Wenn die Alternative [Warnungen oder Nachrichten][9] für ein oder mehrere Produkte enthält, wird das Symbol neben dem Namen der Registerkarte angezeigt. Eine Meldung wird auch angezeigt, um die Ursache des Fehlers zu erklären.
 
 * **Rabatt**: Hier können Sie einen Gesamtrabatt (Rabatt in Prozent oder Rabattmenge) für die gesamte Alternative eingeben. Der Gesamtrabatt wird zusätzlich zu anderen Rabatten, die für die verschiedenen Produkte gelten, gewährt.
 
@@ -37,7 +37,7 @@ Wenn das Angebot mehrere Alternativen enthält, wird die favorisierte Alternativ
 * Doppelklicken Sie auf ein Produkt, um es zu bearbeiten.
 * **Löschen**: Markierte(s) Produkt(e) löschen.
 * **Exportieren**: Wird verwendet, damit Sie in eine Tabellenkalkulation die [Liste exportieren][7] können.
-* Sortieren: Verwenden Sie die ![Symbol][img2] / ![Symbol][img3] Pfeiltasten, um die Reihenfolge der Produkte zu ändern.
+* Sortieren: Verwenden Sie <i class="ph ph-arrow-circle-up" aria-label="Arrow up"></i> <i class="ph ph-arrow-circle-down" aria-label="Arrow down"></i>, um die Reihenfolge der Produkte zu ändern.
 
 > [!TIP]
 > Sie können auf die Registerkarten doppelklicken, um die Namen der Alternativen im Angebot zu ändern.
@@ -64,6 +64,3 @@ Der untere Bereich des Dialogfelds
 [7]: ../../../learn/section-tabs/export-archives.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/favourite-yes.png
-[img2]: ../../../../media/icons/arrow-up.png
-[img3]: ../../../../media/icons/arrow-down.png

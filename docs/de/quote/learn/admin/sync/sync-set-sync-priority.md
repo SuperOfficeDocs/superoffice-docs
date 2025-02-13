@@ -18,11 +18,5 @@ Wenn SuperOffice mit mehreren ERP-Systemen verbunden ist und mehrere Sync Connec
 1. Gehen Sie zur Registerkarte **Sync** in der Ansicht Angebot/Sync.
 2. Klicken Sie auf **Sync-Priorität festlegen** unten in der Liste **ERP-Verbindungen**.
 3. Wählen Sie im Dialogfeld eine ERP-Verbindung, für die Sie die Sync-Priorität festlegen möchten.
-4. Klicken Sie auf die ![Symbol][img1] ![Symbol][img2] Pfeile unten, um die Priorität festzulegen.
+4. Klicken Sie auf <i class="ph ph-arrow-circle-up" aria-label="Arrow up"></i> <i class="ph ph-arrow-circle-down" aria-label="Arrow down"></i> unten, um die Priorität festzulegen.
 5. Klicken Sie auf **Fertig**, wenn Sie die Prioritätenreihenfolge für die ERP-Verbindungen festgelegt haben.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../../../media/icons/arrow-down.png
-[img2]: ../../../../../media/icons/arrow-up.png

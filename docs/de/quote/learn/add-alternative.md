@@ -36,11 +36,11 @@ Alternativen werden als Registerkarten im Angebot angezeigt (im Dialogfeld **Ang
 
 7. Um den Namen der Registerkarte **Produkte** beispielsweise in einen Namen zu ändern, der die Alternative beschreibt, müssen Sie auf den Namen der Registerkarte doppelklicken.
 
-## <a id="fav"></a>Favorisierte Alternative
+## <a id="fav"></a>Favorisierte Alternative <i class="ph ph-star" aria-label="Star icon"></i>
 
 Wenn Sie mehrere Alternativen in einem Angebot erstellt haben, wird die erste Alternative (normalerweise die Registerkarte **Produkte**) als Favorit markiert (![Symbol][img2] **Favorisierte Alternative**). Geschätzte Verkaufsbeträge für den Verkauf (Prognosen) stammen vom Gesamtbetrag für die favorisierte Alternative.
 
-Wenn Sie eine andere Alternative als Favorit markieren möchten, wählen Sie die entsprechende Registerkarte aus und klicken Sie unten auf ![Symbol][img3] **Favorisierte Alternative**.
+Wenn Sie eine andere Alternative als Favorit markieren möchten, wählen Sie die entsprechende Registerkarte aus und klicken Sie unten auf <i class="ph ph-star" aria-label="Star icon"></i> **Favorisierte Alternative**.
 
 Beim [Senden des Angebots][3] können Sie entscheiden, nur die bevorzugte Alternative einzubeziehen.
 
@@ -56,4 +56,3 @@ Sie können eine Alternative löschen, indem Sie unten auf der Registerkarte ![S
 <!-- Referenced images -->
 [img1]: ../../../media/icons/btn-menu.png
 [img2]: ../../../../common/icons/favourite-yes.png
-[img3]: ../../../../common/icons/favourite-no.png

@@ -21,7 +21,7 @@ Sie können die ERP-Felder, die in der Registerkarte ERP in SuperOffice CRM ange
 
 1. Wählen Sie die Registerkarte des Aktors, für den Sie Standardwerte konfigurieren möchten. Diese Registerkarte zeigt für den jeweiligen Aktor verfügbaren Felder an (einschließlich beider Felder, die in der Registerkarte **ERP** in SuperOffice CRM angezeigt bzw. nicht angezeigt werden).
 
-1. Wählen Sie ein Feld in der Liste aus und verwenden Sie die ![Symbol][img1] ![Symbol][img2] Pfeile, um die Reihenfolge der Felder festzulegen.
+1. Wählen Sie ein Feld in der Liste aus und verwenden Sie <i class="ph ph-arrow-circle-up" aria-label="Arrow up"></i> <i class="ph ph-arrow-circle-down" aria-label="Arrow down"></i>, um die Reihenfolge der Felder festzulegen.
 
 1. Wiederholen Sie die Schritte 4 und 5, um die Felder für andere Aktoren zu sortieren.
 
@@ -33,7 +33,3 @@ Sie können die ERP-Felder, die in der Registerkarte ERP in SuperOffice CRM ange
 <!-- Referenced links -->
 [1]: sync-configure-field-allocation.md
 [2]: sync-configure-default-values.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../media/icons/arrow-down.png
-[img2]: ../../../../../media/icons/arrow-up.png
